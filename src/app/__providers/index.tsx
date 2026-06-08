@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 
 import { ThemeProvider } from "./withTheme";
+import { WithTopLoader } from "./withTopLoader";
 
 type TProvidersProps = {
 	children: ReactNode;
@@ -15,6 +16,7 @@ export default function Providers({ children }: TProvidersProps) {
 			disableTransitionOnChange
 		>
 			{children}
+			<WithTopLoader />
 		</ThemeProvider>
 	);
 }
