@@ -124,7 +124,7 @@ export default defineConfig([
 							from: "app",
 							allow: [
 								"app",
-								"pages",
+								"page",
 								"widgets",
 								"features",
 								"entities",
@@ -132,7 +132,7 @@ export default defineConfig([
 							]
 						},
 						{
-							from: "pages",
+							from: "page",
 							allow: ["widgets", "features", "entities", "shared"]
 						},
 						{
@@ -157,7 +157,7 @@ export default defineConfig([
 		settings: {
 			"boundaries/elements": [
 				{ type: "app", pattern: "src/app/**/*" },
-				{ type: "pages", pattern: "src/pages/**/*" },
+				{ type: "page", pattern: "src/page/**/*" },
 				{ type: "widgets", pattern: "src/widgets/**/*" },
 				{ type: "features", pattern: "src/features/**/*" },
 				{ type: "entities", pattern: "src/entities/**/*" },

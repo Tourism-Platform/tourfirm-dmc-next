@@ -12,12 +12,14 @@
 		"^@/entities/(.*)$",
 		"^@/features/(.*)$",
 		"^@/widgets/(.*)$",
-		"^@/pages/(.*)$",
+		"^@/page/(.*)$",
 		"^@/app/(.*)$",
 		"^../(.*)$",
 		"^./(.*)$"
 	],
 	"importOrderSeparation": true,
 	"importOrderSortSpecifiers": true,
-	"plugins": ["@trivago/prettier-plugin-sort-imports"]
+	"plugins": [
+		"@trivago/prettier-plugin-sort-imports"
+	]
 }
