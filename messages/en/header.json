@@ -5,82 +5,21 @@
 		"sign_in": "Sign in",
 		"get_started": "Get started",
 		"nav": {
-			"solutions": {
-				"label": "Solutions",
-				"sections": {
-					"by_role": "By Role",
-					"coming_soon": "Coming Soon"
-				},
+			"tours": {
+				"label": "Tour & activities"
+			},
+			"mobile_menu": "Open menu",
+			"coming_soon": "Coming soon",
+			"partners": {
+				"label": "Partners",
 				"items": {
-					"operators": {
-						"label": "For Operators",
-						"description": "Build, manage & sell tours"
-					},
 					"agencies": {
-						"label": "For Agencies",
-						"description": "Browse, book & resell tours"
+						"label": "Partner agencies",
+						"description": "Browse and book through partner agencies"
 					},
-					"suppliers": {
-						"label": "For Suppliers",
-						"description": "Hotels, transfers, dining"
-					}
-				}
-			},
-			"product": {
-				"label": "Product",
-				"sections": {
-					"core_tools": "Core Tools",
-					"more": "More"
-				},
-				"items": {
-					"tour_builder": {
-						"label": "Tour Builder",
-						"description": "Visual itinerary constructor"
-					},
-					"booking": {
-						"label": "Booking System",
-						"description": "Requests, confirmation, tracking"
-					},
-					"finance": {
-						"label": "Finance & Pricing",
-						"description": "Costing, invoices, reporting"
-					},
-					"documents": {
-						"label": "Documents",
-						"description": "Auto-generated vouchers & invoices"
-					},
-					"crm": {
-						"label": "CRM & Tasks",
-						"description": "Contacts, pipeline, tasks"
-					},
-					"analytics": {
-						"label": "Analytics",
-						"description": "Business & tour dashboards"
-					}
-				}
-			},
-			"resources": {
-				"label": "Resources",
-				"sections": {
-					"community": "Community",
-					"help": "Help"
-				},
-				"items": {
-					"blog": {
-						"label": "Blog",
-						"description": "Tourism trends & guides"
-					},
-					"news": {
-						"label": "News",
-						"description": "Platform updates & industry news"
-					},
-					"support": {
-						"label": "Support",
-						"description": "Get help from our team"
-					},
-					"knowledge_base": {
-						"label": "Knowledge Base",
-						"description": "Guides, tutorials & API docs"
+					"hotels": {
+						"label": "Hotels",
+						"description": "Hotels and accommodation partners"
 					}
 				}
 			},
@@ -88,20 +27,62 @@
 				"label": "Company",
 				"items": {
 					"about": {
-						"label": "About Us",
-						"description": "Our story & mission"
+						"label": "About us",
+						"description": "Our story and mission"
 					},
-					"partners": {
-						"label": "Partners",
-						"description": "Ecosystem & integrations"
+					"howWeWork": {
+						"label": "How we work",
+						"description": "How TourLink works"
 					},
-					"careers": {
-						"label": "Careers",
-						"description": "Join the team"
+					"partnership": {
+						"label": "Partnership",
+						"description": "Join our partner ecosystem"
+					},
+					"news": {
+						"label": "News",
+						"description": "Latest updates"
+					},
+					"feedback": {
+						"label": "Feedback",
+						"description": "Share your feedback"
+					}
+				}
+			},
+			"policies": {
+				"label": "Policies",
+				"items": {
+					"terms": {
+						"label": "Terms & conditions",
+						"description": "Terms of use"
+					},
+					"privacy": {
+						"label": "Privacy policy",
+						"description": "How we handle your data"
+					}
+				}
+			},
+			"help": {
+				"label": "Help",
+				"items": {
+					"support": {
+						"label": "Support",
+						"description": "Get help from our team"
 					},
 					"contact": {
-						"label": "Contact",
-						"description": "Talk to us"
+						"label": "Contact us",
+						"description": "Reach out to us"
+					},
+					"faq": {
+						"label": "FAQ",
+						"description": "Frequently asked questions"
+					},
+					"training": {
+						"label": "Training & support",
+						"description": "Training resources"
+					},
+					"moreInfo": {
+						"label": "More service info",
+						"description": "Additional service details"
 					}
 				}
 			}

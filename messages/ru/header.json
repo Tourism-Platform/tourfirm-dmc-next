@@ -5,82 +5,21 @@
 		"sign_in": "Войти",
 		"get_started": "Начать",
 		"nav": {
-			"solutions": {
-				"label": "Решения",
-				"sections": {
-					"by_role": "По роли",
-					"coming_soon": "Скоро"
-				},
+			"tours": {
+				"label": "Туры и активности"
+			},
+			"mobile_menu": "Открыть меню",
+			"coming_soon": "Скоро",
+			"partners": {
+				"label": "Партнёры",
 				"items": {
-					"operators": {
-						"label": "Для операторов",
-						"description": "Создавайте, управляйте и продавайте туры"
-					},
 					"agencies": {
-						"label": "Для агентств",
-						"description": "Ищите, бронируйте и перепродавайте туры"
+						"label": "Партнёрские агентства",
+						"description": "Поиск и бронирование через партнёрские агентства"
 					},
-					"suppliers": {
-						"label": "Для поставщиков",
-						"description": "Отели, трансферы, питание"
-					}
-				}
-			},
-			"product": {
-				"label": "Продукт",
-				"sections": {
-					"core_tools": "Основные инструменты",
-					"more": "Ещё"
-				},
-				"items": {
-					"tour_builder": {
-						"label": "Конструктор туров",
-						"description": "Визуальный редактор маршрутов"
-					},
-					"booking": {
-						"label": "Система бронирования",
-						"description": "Заявки, подтверждение, отслеживание"
-					},
-					"finance": {
-						"label": "Финансы и цены",
-						"description": "Калькуляция, счета, отчёты"
-					},
-					"documents": {
-						"label": "Документы",
-						"description": "Автоматические ваучеры и счета"
-					},
-					"crm": {
-						"label": "CRM и задачи",
-						"description": "Контакты, воронка, задачи"
-					},
-					"analytics": {
-						"label": "Аналитика",
-						"description": "Бизнес- и тур-дашборды"
-					}
-				}
-			},
-			"resources": {
-				"label": "Ресурсы",
-				"sections": {
-					"community": "Сообщество",
-					"help": "Помощь"
-				},
-				"items": {
-					"blog": {
-						"label": "Блог",
-						"description": "Тренды и гиды по туризму"
-					},
-					"news": {
-						"label": "Новости",
-						"description": "Обновления платформы и отраслевые новости"
-					},
-					"support": {
-						"label": "Поддержка",
-						"description": "Помощь от нашей команды"
-					},
-					"knowledge_base": {
-						"label": "База знаний",
-						"description": "Гиды, туториалы и API-документация"
+					"hotels": {
+						"label": "Отели",
+						"description": "Отели и партнёры по размещению"
 					}
 				}
 			},
@@ -91,17 +30,59 @@
 						"label": "О нас",
 						"description": "Наша история и миссия"
 					},
-					"partners": {
-						"label": "Партнёры",
-						"description": "Экосистема и интеграции"
+					"howWeWork": {
+						"label": "Как мы работаем",
+						"description": "Как устроен TourLink"
 					},
-					"careers": {
-						"label": "Карьера",
-						"description": "Присоединяйтесь к команде"
+					"partnership": {
+						"label": "Партнёрство",
+						"description": "Присоединяйтесь к экосистеме TourLink"
+					},
+					"news": {
+						"label": "Новости",
+						"description": "Последние обновления"
+					},
+					"feedback": {
+						"label": "Обратная связь",
+						"description": "Поделитесь мнением"
+					}
+				}
+			},
+			"policies": {
+				"label": "Политики",
+				"items": {
+					"terms": {
+						"label": "Условия использования",
+						"description": "Правила использования сервиса"
+					},
+					"privacy": {
+						"label": "Политика конфиденциальности",
+						"description": "Как мы обрабатываем данные"
+					}
+				}
+			},
+			"help": {
+				"label": "Помощь",
+				"items": {
+					"support": {
+						"label": "Поддержка",
+						"description": "Помощь от нашей команды"
 					},
 					"contact": {
-						"label": "Контакты",
-						"description": "Связаться с нами"
+						"label": "Связаться с нами",
+						"description": "Напишите нам"
+					},
+					"faq": {
+						"label": "FAQ",
+						"description": "Частые вопросы"
+					},
+					"training": {
+						"label": "Обучение и поддержка",
+						"description": "Материалы для обучения"
+					},
+					"moreInfo": {
+						"label": "Дополнительная информация",
+						"description": "Подробнее о сервисе"
 					}
 				}
 			}

@@ -11,6 +11,8 @@ import type { ReactNode } from "react";
 import { routing } from "@/shared/i18n";
 import "@/shared/styles/globals.css";
 
+import { FooterDefault, HeaderDefault } from "@/widgets/layouts/default";
+
 import Providers from "../__providers";
 
 const geistSans = Geist({
@@ -65,7 +67,9 @@ export default async function LocaleLayout({ children, params }: TProps) {
 						locale={locale}
 						timeZone="UTC"
 					>
-						{children}
+						<HeaderDefault />
+						<div className="flex flex-1 flex-col">{children}</div>
+						<FooterDefault />
 					</NextIntlClientProvider>
 				</Providers>
 			</body>

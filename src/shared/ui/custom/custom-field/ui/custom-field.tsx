@@ -1,3 +1,5 @@
+"use client";
+
 import { parseDate, parseTime } from "@internationalized/date";
 import type { ComponentProps, FC } from "react";
 import type { DateValue, TimeValue } from "react-aria-components";
@@ -34,7 +36,6 @@ import {
 	TimePickerInput,
 	type TimePickerInputProps
 } from "@/shared/ui";
-import { CustomEditor } from "@/shared/ui/custom/custom-editor";
 import { DatePicker } from "@/shared/ui/date-picker";
 import { PhoneInput } from "@/shared/ui/shadcn-ui/phone-input";
 
@@ -47,7 +48,6 @@ export type CustomFieldVariant =
 	| "date"
 	| "select"
 	| "multiselect"
-	| "editor"
 	| "autocomplete"
 	| "geo"
 	| "dateRange"
@@ -270,13 +270,6 @@ export const CustomField: FC<CustomFieldProps> = (props) => {
 						{...rest}
 						placeholder={t(props.placeholder)}
 						{...field}
-					/>
-				);
-			case "editor":
-				return (
-					<CustomEditor
-						field={field}
-						defaultValue={props?.defaultValue}
 					/>
 				);
 			case "multiselect":

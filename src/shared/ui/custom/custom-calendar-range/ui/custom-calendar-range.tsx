@@ -1,3 +1,5 @@
+"use client";
+
 import { format } from "date-fns";
 import { enUS, ru } from "date-fns/locale";
 import { CalendarIcon } from "lucide-react";

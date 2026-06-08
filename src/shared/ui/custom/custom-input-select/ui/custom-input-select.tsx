@@ -1,3 +1,5 @@
+"use client";
+
 import { type FC, useId } from "react";
 import type { Control } from "react-hook-form";
 

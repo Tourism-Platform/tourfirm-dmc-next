@@ -1,7 +1,54 @@
 {
 	"meta": {
-		"title": "Tourfirm DMC",
-		"description": "Платформа управления направлениями"
+		"title": "TourLink",
+		"description": "Операционная система для туров в Центральной Азии"
 	},
-	"copyright": "© {{year}} Tourfirm DMC. Все права защищены."
+	"brand": {
+		"name": "TourLink"
+	},
+	"coming_soon": "Скоро",
+	"sections": {
+		"company": {
+			"title": "Компания",
+			"links": {
+				"about": "О нас",
+				"howWeWork": "Как мы работаем",
+				"partnership": "Партнёрство",
+				"news": "Новости",
+				"feedback": "Обратная связь"
+			}
+		},
+		"toursPartners": {
+			"title": "Туры и партнёры",
+			"links": {
+				"tours": "Туры и активности",
+				"agencies": "Партнёрские агентства",
+				"hotels": "Отели"
+			}
+		},
+		"policies": {
+			"title": "Политики",
+			"links": {
+				"terms": "Условия использования",
+				"privacy": "Политика конфиденциальности"
+			}
+		},
+		"help": {
+			"title": "Помощь",
+			"links": {
+				"support": "Поддержка",
+				"contact": "Связаться с нами",
+				"faq": "FAQ",
+				"training": "Обучение и поддержка",
+				"moreInfo": "Дополнительная информация"
+			}
+		}
+	},
+	"social": {
+		"instagram": "Instagram",
+		"telegram": "Telegram",
+		"facebook": "Facebook",
+		"whatsapp": "WhatsApp"
+	},
+	"copyright": "© {year} TourLink. Все права защищены."
 }

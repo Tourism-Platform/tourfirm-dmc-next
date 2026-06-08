@@ -1,3 +1,5 @@
+"use client";
+
 import { Loader2Icon, type LucideIcon, MapPin } from "lucide-react";
 import {
 	type FC,

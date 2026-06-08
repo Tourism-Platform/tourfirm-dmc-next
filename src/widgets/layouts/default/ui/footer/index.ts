@@ -1,0 +1,1 @@
+export { FooterDefault } from "./ui";

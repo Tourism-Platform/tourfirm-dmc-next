@@ -1,7 +1,54 @@
 {
 	"meta": {
-		"title": "Tourfirm DMC",
-		"description": "Yo'nalishlarni boshqarish platformasi"
+		"title": "TourLink",
+		"description": "Markaziy Osiyo turlari uchun operatsion tizim"
 	},
-	"copyright": "© {{year}} Tourfirm DMC. Barcha huquqlar himoyalangan."
+	"brand": {
+		"name": "TourLink"
+	},
+	"coming_soon": "Tez orada",
+	"sections": {
+		"company": {
+			"title": "Kompaniya",
+			"links": {
+				"about": "Biz haqimizda",
+				"howWeWork": "Qanday ishlaymiz",
+				"partnership": "Hamkorlik",
+				"news": "Yangiliklar",
+				"feedback": "Fikr-mulohaza"
+			}
+		},
+		"toursPartners": {
+			"title": "Turlar va hamkorlar",
+			"links": {
+				"tours": "Turlar va faoliyatlar",
+				"agencies": "Hamkor agentliklar",
+				"hotels": "Mehmonxonalar"
+			}
+		},
+		"policies": {
+			"title": "Siyosatlar",
+			"links": {
+				"terms": "Foydalanish shartlari",
+				"privacy": "Maxfiylik siyosati"
+			}
+		},
+		"help": {
+			"title": "Yordam",
+			"links": {
+				"support": "Qo'llab-quvvatlash",
+				"contact": "Bog'lanish",
+				"faq": "FAQ",
+				"training": "O'qitish va qo'llab-quvvatlash",
+				"moreInfo": "Qo'shimcha ma'lumot"
+			}
+		}
+	},
+	"social": {
+		"instagram": "Instagram",
+		"telegram": "Telegram",
+		"facebook": "Facebook",
+		"whatsapp": "WhatsApp"
+	},
+	"copyright": "© {year} TourLink. Barcha huquqlar himoyalangan."
 }

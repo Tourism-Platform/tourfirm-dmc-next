@@ -1,3 +1,5 @@
+"use client";
+
 import type { ComponentType, ReactNode } from "react";
 
 import { ErrorBoundary } from "./error-boundary";

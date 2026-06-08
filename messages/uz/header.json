@@ -5,103 +5,84 @@
 		"sign_in": "Sign in",
 		"get_started": "Get started",
 		"nav": {
-			"solutions": {
-				"label": "Solutions",
-				"sections": {
-					"by_role": "By Role",
-					"coming_soon": "Coming Soon"
-				},
+			"tours": {
+				"label": "Turlar va faoliyatlar"
+			},
+			"mobile_menu": "Menyuni ochish",
+			"coming_soon": "Tez orada",
+			"partners": {
+				"label": "Hamkorlar",
 				"items": {
-					"operators": {
-						"label": "For Operators",
-						"description": "Build, manage & sell tours"
-					},
 					"agencies": {
-						"label": "For Agencies",
-						"description": "Browse, book & resell tours"
+						"label": "Hamkor agentliklar",
+						"description": "Hamkor agentliklar orqali qidirish va bron qilish"
 					},
-					"suppliers": {
-						"label": "For Suppliers",
-						"description": "Hotels, transfers, dining"
-					}
-				}
-			},
-			"product": {
-				"label": "Product",
-				"sections": {
-					"core_tools": "Core Tools",
-					"more": "More"
-				},
-				"items": {
-					"tour_builder": {
-						"label": "Tour Builder",
-						"description": "Visual itinerary constructor"
-					},
-					"booking": {
-						"label": "Booking System",
-						"description": "Requests, confirmation, tracking"
-					},
-					"finance": {
-						"label": "Finance & Pricing",
-						"description": "Costing, invoices, reporting"
-					},
-					"documents": {
-						"label": "Documents",
-						"description": "Auto-generated vouchers & invoices"
-					},
-					"crm": {
-						"label": "CRM & Tasks",
-						"description": "Contacts, pipeline, tasks"
-					},
-					"analytics": {
-						"label": "Analytics",
-						"description": "Business & tour dashboards"
-					}
-				}
-			},
-			"resources": {
-				"label": "Resources",
-				"sections": {
-					"community": "Community",
-					"help": "Help"
-				},
-				"items": {
-					"blog": {
-						"label": "Blog",
-						"description": "Tourism trends & guides"
-					},
-					"news": {
-						"label": "News",
-						"description": "Platform updates & industry news"
-					},
-					"support": {
-						"label": "Support",
-						"description": "Get help from our team"
-					},
-					"knowledge_base": {
-						"label": "Knowledge Base",
-						"description": "Guides, tutorials & API docs"
+					"hotels": {
+						"label": "Mehmonxonalar",
+						"description": "Mehmonxonalar va joylashtirish hamkorlari"
 					}
 				}
 			},
 			"company": {
-				"label": "Company",
+				"label": "Kompaniya",
 				"items": {
 					"about": {
-						"label": "About Us",
-						"description": "Our story & mission"
+						"label": "Biz haqimizda",
+						"description": "Bizning tarix va missiyamiz"
 					},
-					"partners": {
-						"label": "Partners",
-						"description": "Ecosystem & integrations"
+					"howWeWork": {
+						"label": "Qanday ishlaymiz",
+						"description": "TourLink qanday ishlaydi"
 					},
-					"careers": {
-						"label": "Careers",
-						"description": "Join the team"
+					"partnership": {
+						"label": "Hamkorlik",
+						"description": "TourLink ekotizimiga qo'shiling"
+					},
+					"news": {
+						"label": "Yangiliklar",
+						"description": "So'nggi yangilanishlar"
+					},
+					"feedback": {
+						"label": "Fikr-mulohaza",
+						"description": "Fikringizni bildiring"
+					}
+				}
+			},
+			"policies": {
+				"label": "Siyosatlar",
+				"items": {
+					"terms": {
+						"label": "Foydalanish shartlari",
+						"description": "Xizmatdan foydalanish qoidalari"
+					},
+					"privacy": {
+						"label": "Maxfiylik siyosati",
+						"description": "Ma'lumotlaringizni qanday qayta ishlaymiz"
+					}
+				}
+			},
+			"help": {
+				"label": "Yordam",
+				"items": {
+					"support": {
+						"label": "Qo'llab-quvvatlash",
+						"description": "Jamoamizdan yordam oling"
 					},
 					"contact": {
-						"label": "Contact",
-						"description": "Talk to us"
+						"label": "Bog'lanish",
+						"description": "Biz bilan bog'laning"
+					},
+					"faq": {
+						"label": "FAQ",
+						"description": "Tez-tez beriladigan savollar"
+					},
+					"training": {
+						"label": "O'qitish va qo'llab-quvvatlash",
+						"description": "O'quv materiallari"
+					},
+					"moreInfo": {
+						"label": "Qo'shimcha ma'lumot",
+						"description": "Xizmat haqida batafsil"
 					}
 				}
 			}
