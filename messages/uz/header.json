@@ -1,0 +1,153 @@
+{
+	"public": {
+		"solutions": "Solutions",
+		"pricing": "Pricing",
+		"sign_in": "Sign in",
+		"get_started": "Get started",
+		"nav": {
+			"solutions": {
+				"label": "Solutions",
+				"sections": {
+					"by_role": "By Role",
+					"coming_soon": "Coming Soon"
+				},
+				"items": {
+					"operators": {
+						"label": "For Operators",
+						"description": "Build, manage & sell tours"
+					},
+					"agencies": {
+						"label": "For Agencies",
+						"description": "Browse, book & resell tours"
+					},
+					"suppliers": {
+						"label": "For Suppliers",
+						"description": "Hotels, transfers, dining"
+					}
+				}
+			},
+			"product": {
+				"label": "Product",
+				"sections": {
+					"core_tools": "Core Tools",
+					"more": "More"
+				},
+				"items": {
+					"tour_builder": {
+						"label": "Tour Builder",
+						"description": "Visual itinerary constructor"
+					},
+					"booking": {
+						"label": "Booking System",
+						"description": "Requests, confirmation, tracking"
+					},
+					"finance": {
+						"label": "Finance & Pricing",
+						"description": "Costing, invoices, reporting"
+					},
+					"documents": {
+						"label": "Documents",
+						"description": "Auto-generated vouchers & invoices"
+					},
+					"crm": {
+						"label": "CRM & Tasks",
+						"description": "Contacts, pipeline, tasks"
+					},
+					"analytics": {
+						"label": "Analytics",
+						"description": "Business & tour dashboards"
+					}
+				}
+			},
+			"resources": {
+				"label": "Resources",
+				"sections": {
+					"community": "Community",
+					"help": "Help"
+				},
+				"items": {
+					"blog": {
+						"label": "Blog",
+						"description": "Tourism trends & guides"
+					},
+					"news": {
+						"label": "News",
+						"description": "Platform updates & industry news"
+					},
+					"support": {
+						"label": "Support",
+						"description": "Get help from our team"
+					},
+					"knowledge_base": {
+						"label": "Knowledge Base",
+						"description": "Guides, tutorials & API docs"
+					}
+				}
+			},
+			"company": {
+				"label": "Company",
+				"items": {
+					"about": {
+						"label": "About Us",
+						"description": "Our story & mission"
+					},
+					"partners": {
+						"label": "Partners",
+						"description": "Ecosystem & integrations"
+					},
+					"careers": {
+						"label": "Careers",
+						"description": "Join the team"
+					},
+					"contact": {
+						"label": "Contact",
+						"description": "Talk to us"
+					}
+				}
+			}
+		}
+	},
+	"agency": {
+		"catalog": {
+			"title": "Catalog"
+		}
+	},
+	"operator": {
+		"tours": {
+			"title": "Tours",
+			"menu": {
+				"overview": "Overview",
+				"itinerary": "Itinerary",
+				"schedule": "Schedule",
+				"pricing_review": "Pricing & review",
+				"order_history": "Order history",
+				"messages": "Messages",
+				"activity_log": "Activity log"
+			}
+		},
+		"booking": {
+			"title": "Booking",
+			"menu": {
+				"orders": "Orders",
+				"appeals": "Appeals"
+			}
+		},
+		"finance": {
+			"title": "Finance",
+			"menu": {
+				"invoices": "Invoices",
+				"client_payments": "Client payments",
+				"supplier_payments": "Supplier payments",
+				"reconciliation": "Reconciliation"
+			}
+		},
+		"library": {
+			"title": "Library",
+			"menu": {
+				"overview": "Overview",
+				"analytics": "Analytics",
+				"reports": "Reports"
+			}
+		}
+	}
+}
