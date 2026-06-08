@@ -1,13 +1,14 @@
 import Image from "next/image";
 
-import logoImage from "../../../../../../../public/asssets/logo.svg";
 import type { IFooterLogoProps } from "../model";
+
+const LOGO_SRC = "/asssets/logo.svg";
 
 export const FooterLogo = ({ brandName }: IFooterLogoProps) => {
 	return (
 		<div className="flex items-center gap-2">
 			<Image
-				src={logoImage}
+				src={LOGO_SRC}
 				alt={brandName}
 				width={48}
 				height={48}

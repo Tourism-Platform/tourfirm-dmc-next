@@ -7,10 +7,10 @@ import { ENUM_PATH } from "@/shared/config";
 import { Link } from "@/shared/i18n";
 import { LanguageToggle, ThemeToggle } from "@/shared/ui";
 
-import logoImage from "../../../../../../public/asssets/logo.svg";
-
 import { PUBLIC_NAV_ITEMS } from "./model";
 import { PublicNavMenu } from "./ui/public-nav-menu";
+
+const LOGO_SRC = "/asssets/logo.svg";
 
 export const HeaderDefault: FC = () => {
 	return (
@@ -22,7 +22,7 @@ export const HeaderDefault: FC = () => {
 						className="flex shrink-0 items-center gap-2"
 					>
 						<Image
-							src={logoImage}
+							src={LOGO_SRC}
 							alt="TourLink"
 							width={48}
 							height={48}
