@@ -17,20 +17,20 @@ export const FooterSection = ({
 	comingSoonLabel
 }: IFooterSectionProps) => (
 	<div className="flex flex-col gap-4">
-		<p className="text-base font-medium">{title}</p>
+		<p className="text-base font-medium text-foreground">{title}</p>
 		<ul className="flex flex-col gap-3">
 			{links.map((link) => (
 				<li key={link.label}>
 					{link.isSoon ? (
 						<span
 							className={cn(
-								"flex items-center gap-2 text-sm font-normal text-background/50"
+								"flex items-center gap-2 text-sm font-normal text-muted-foreground"
 							)}
 						>
 							{link.label}
 							<Badge
 								variant="secondary"
-								className="h-5 border-none bg-background/15 px-1.5 py-0 text-[10px] font-medium text-background/70"
+								className="h-5 border-none px-1.5 py-0 text-[10px] font-medium"
 							>
 								{comingSoonLabel}
 							</Badge>
@@ -38,7 +38,7 @@ export const FooterSection = ({
 					) : (
 						<a
 							href={link.path}
-							className="text-sm font-normal text-background/70 transition-colors hover:text-background"
+							className="text-sm font-normal text-muted-foreground transition-colors hover:text-foreground"
 						>
 							{link.label}
 						</a>

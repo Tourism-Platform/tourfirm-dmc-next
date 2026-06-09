@@ -12,7 +12,7 @@ export const FooterSocial = ({ items }: IFooterSocialProps) => (
 					key={name}
 					variant="outline"
 					size="icon"
-					className="size-9 rounded-full border-background/30 bg-transparent text-background hover:bg-background/10 hover:text-background"
+					className="size-9 rounded-full border-border bg-transparent text-muted-foreground hover:bg-accent hover:text-accent-foreground"
 					asChild
 				>
 					<a
