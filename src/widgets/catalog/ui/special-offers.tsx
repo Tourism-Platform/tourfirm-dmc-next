@@ -23,7 +23,7 @@ import {
 } from "@/entities/tour";
 
 const SpecialOffersBase: FC = () => {
-	const t = useTranslations("main_page");
+	const t = useTranslations("catalog_page");
 	const { data, isLoading, isError } = useGetSpecialOfferToursQuery();
 	const tours = data?.data ?? [];
 

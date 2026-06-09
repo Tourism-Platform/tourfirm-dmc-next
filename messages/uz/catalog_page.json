@@ -1,11 +1,52 @@
 {
-	"title": "Turlar katalogi",
-	"description": "Bo'lim ishlab chiqilmoqda",
+	"hero": {
+		"title": "Mukammal turni topamiz"
+	},
 	"search": {
-		"title": "Qidiruv parametrlari",
-		"destination": "Yo'nalish",
-		"check_in": "Kirish",
-		"check_out": "Chiqish",
-		"empty": "Filtrlar tanlanmagan"
+		"where": {
+			"label": "Qayerga bormoqchisiz?",
+			"placeholder": "Yo'nalishni tanlang",
+			"empty": "Yo'nalishlar topilmadi",
+			"required": "Yo'nalishni tanlang"
+		},
+		"when": {
+			"label": "Qachon?",
+			"placeholder": "Sanalarni tanlang"
+		},
+		"submit": "Qidirish"
+	},
+	"recent": {
+		"title": "So'nggi qidiruvlar",
+		"tour_type": {
+			"group": "Guruh",
+			"private": "Shaxsiy"
+		}
+	},
+	"popular": {
+		"title": "Eng mashhur turlar"
+	},
+	"blog": {
+		"title": "Yangiliklar va blog",
+		"read_more": "Batafsil"
+	},
+	"offers": {
+		"title": "Maxsus takliflar",
+		"subtitle": "Eng yaxshi narxlarni qo'ldan boy bermang",
+		"cta": "Ko'proq ko'rish"
+	},
+	"destinations": {
+		"title": "Top yo'nalishlar",
+		"count": "{count} tur va faoliyat",
+		"view_all": "Barchasini ko'rish"
+	},
+	"card": {
+		"recommended": "Tavsiya etiladi",
+		"reviews": "{count} ta sharh",
+		"duration_days": "{count, plural, one {# kun} other {# kun}}",
+		"free_cancellation": "Bepul bekor qilish",
+		"price_from": "{price} dan"
+	},
+	"toasts": {
+		"load_error": "Turlarni yuklab bo'lmadi"
 	}
 }

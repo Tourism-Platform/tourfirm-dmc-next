@@ -1,8 +1,8 @@
 import { z } from "zod";
 
-import { type TMainPageKeys, i18nKey } from "@/shared/i18n";
+import { type TCatalogPageKeys, i18nKey } from "@/shared/i18n";
 
-const msg = i18nKey<TMainPageKeys>();
+const msg = i18nKey<TCatalogPageKeys>();
 
 const dateRangeSchema = z.object({
 	from: z.union([z.date(), z.undefined()]),

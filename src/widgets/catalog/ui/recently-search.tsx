@@ -18,7 +18,7 @@ interface IRecentlySearchProps {
 }
 
 const RecentlySearchBase: FC<IRecentlySearchProps> = ({ form }) => {
-	const t = useTranslations("main_page");
+	const t = useTranslations("catalog_page");
 	const { data: items = [], isLoading } = useGetRecentlySearchedToursQuery();
 
 	const handleSelect = useCallback(

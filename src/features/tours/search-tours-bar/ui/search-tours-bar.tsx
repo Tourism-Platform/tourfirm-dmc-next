@@ -34,7 +34,7 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 	form: externalForm,
 	className
 }) => {
-	const t = useTranslations("main_page");
+	const t = useTranslations("catalog_page");
 	const router = useRouter();
 	const { data: destinations = [] } = useGetCatalogDestinationsQuery();
 

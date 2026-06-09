@@ -12,7 +12,7 @@ import { Card, CardContent, withErrorBoundary } from "@/shared/ui";
 import { BLOG_POSTS_MOCK } from "../model";
 
 const BlogSectionBase: FC = () => {
-	const t = useTranslations("main_page");
+	const t = useTranslations("catalog_page");
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-7">

@@ -20,7 +20,7 @@ import {
 } from "@/entities/tour";
 
 const MostPopularToursBase: FC = () => {
-	const t = useTranslations("main_page");
+	const t = useTranslations("catalog_page");
 	const { data, isLoading, isError } = useGetPopularToursQuery();
 	const tours = data?.data ?? [];
 

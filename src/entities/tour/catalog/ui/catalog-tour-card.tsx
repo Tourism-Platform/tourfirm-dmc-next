@@ -22,7 +22,7 @@ export const CatalogTourCard: FC<ICatalogTourCardProps> = ({
 	data: tour,
 	className
 }) => {
-	const t = useTranslations("main_page");
+	const t = useTranslations("catalog_page");
 
 	return (
 		<Link

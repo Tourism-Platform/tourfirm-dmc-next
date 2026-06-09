@@ -18,7 +18,7 @@ interface IHeroSectionProps {
 }
 
 const HeroSectionBase: FC<IHeroSectionProps> = ({ form }) => {
-	const t = useTranslations("main_page");
+	const t = useTranslations("catalog_page");
 
 	return (
 		<section className="relative min-h-[420px] sm:min-h-[520px]">

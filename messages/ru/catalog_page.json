@@ -1,11 +1,52 @@
 {
-	"title": "Каталог туров",
-	"description": "Раздел в разработке",
+	"hero": {
+		"title": "Найдём идеальный тур"
+	},
 	"search": {
-		"title": "Параметры поиска",
-		"destination": "Направление",
-		"check_in": "Заезд",
-		"check_out": "Выезд",
-		"empty": "Фильтры не заданы"
+		"where": {
+			"label": "Куда вы хотите поехать?",
+			"placeholder": "Выберите направление",
+			"empty": "Направления не найдены",
+			"required": "Выберите направление"
+		},
+		"when": {
+			"label": "Когда?",
+			"placeholder": "Выберите даты"
+		},
+		"submit": "Поиск"
+	},
+	"recent": {
+		"title": "Недавний поиск",
+		"tour_type": {
+			"group": "Групповой",
+			"private": "Индивидуальный"
+		}
+	},
+	"popular": {
+		"title": "Популярные туры"
+	},
+	"blog": {
+		"title": "Новости и блог",
+		"read_more": "Читать далее"
+	},
+	"offers": {
+		"title": "Специальные предложения",
+		"subtitle": "Не упустите лучшие цены",
+		"cta": "Смотреть все"
+	},
+	"destinations": {
+		"title": "Топ направлений",
+		"count": "{count} туров и активностей",
+		"view_all": "Смотреть все"
+	},
+	"card": {
+		"recommended": "Рекомендуем",
+		"reviews": "{count} отзывов",
+		"duration_days": "{count, plural, one {# день} few {# дня} many {# дней} other {# дней}}",
+		"free_cancellation": "Бесплатная отмена",
+		"price_from": "От {price}"
+	},
+	"toasts": {
+		"load_error": "Не удалось загрузить туры"
 	}
 }

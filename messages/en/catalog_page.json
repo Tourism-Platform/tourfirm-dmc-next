@@ -1,11 +1,52 @@
 {
-	"title": "Tour catalog",
-	"description": "Section under development",
+	"hero": {
+		"title": "Let's find the perfect tour"
+	},
 	"search": {
-		"title": "Search criteria",
-		"destination": "Destination",
-		"check_in": "Check-in",
-		"check_out": "Check-out",
-		"empty": "No search filters applied"
+		"where": {
+			"label": "Where are you going?",
+			"placeholder": "Choose destination",
+			"empty": "No destinations found",
+			"required": "Please choose a destination"
+		},
+		"when": {
+			"label": "When?",
+			"placeholder": "Choose dates"
+		},
+		"submit": "Search"
+	},
+	"recent": {
+		"title": "Recently search",
+		"tour_type": {
+			"group": "Group",
+			"private": "Private"
+		}
+	},
+	"popular": {
+		"title": "Most popular tours"
+	},
+	"blog": {
+		"title": "News & blog",
+		"read_more": "Read more"
+	},
+	"offers": {
+		"title": "Special offers",
+		"subtitle": "Don't miss out on best prices",
+		"cta": "See more"
+	},
+	"destinations": {
+		"title": "Top destinations",
+		"count": "{count} tours & activities",
+		"view_all": "View all"
+	},
+	"card": {
+		"recommended": "Recommended",
+		"reviews": "{count} reviews",
+		"duration_days": "{count, plural, one {# day} other {# days}}",
+		"free_cancellation": "Free cancellation",
+		"price_from": "From {price}"
+	},
+	"toasts": {
+		"load_error": "Failed to load tours"
 	}
 }

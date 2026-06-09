@@ -11,7 +11,7 @@ import { Card, withErrorBoundary } from "@/shared/ui";
 import { TOP_DESTINATIONS_MOCK } from "../model";
 
 const TopDestinationsBase: FC = () => {
-	const t = useTranslations("main_page");
+	const t = useTranslations("catalog_page");
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-7">

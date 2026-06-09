@@ -18,7 +18,7 @@ export const RecentSearchCard: FC<IRecentSearchCardProps> = ({
 	data,
 	onClick
 }) => {
-	const t = useTranslations("main_page");
+	const t = useTranslations("catalog_page");
 	const { formatDateRange } = useFormatDateRange();
 
 	return (
