@@ -3,6 +3,7 @@
 import type { FC, ReactNode } from "react";
 
 import { cn } from "@/shared/lib";
+import { withErrorBoundary } from "@/shared/ui";
 
 type TDestinationsSectionHeaderProps = {
 	eyebrow: string;
@@ -11,7 +12,7 @@ type TDestinationsSectionHeaderProps = {
 	className?: string;
 };
 
-export const DestinationsSectionHeader: FC<TDestinationsSectionHeaderProps> = ({
+const DestinationsSectionHeaderBase: FC<TDestinationsSectionHeaderProps> = ({
 	eyebrow,
 	title,
 	description,
@@ -30,4 +31,8 @@ export const DestinationsSectionHeader: FC<TDestinationsSectionHeaderProps> = ({
 			</p>
 		) : null}
 	</div>
+);
+
+export const DestinationsSectionHeader = withErrorBoundary(
+	DestinationsSectionHeaderBase
 );

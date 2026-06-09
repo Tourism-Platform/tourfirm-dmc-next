@@ -4,7 +4,7 @@ export type TBlogPost = {
 	title: string;
 	href: string;
 	imageUrl: string;
-	variant: "accent" | "secondary" | "muted";
+	className: string;
 };
 
 export const BLOG_POSTS_MOCK: TBlogPost[] = [
@@ -15,7 +15,7 @@ export const BLOG_POSTS_MOCK: TBlogPost[] = [
 		href: "/company/news",
 		imageUrl:
 			"https://www.atorus.ru/sites/default/files/styles/head_carousel/public/2021-09/ca3023.jpg.webp?itok=Wg-lCwZ0",
-		variant: "accent"
+		className: "bg-accent"
 	},
 	{
 		id: "2",
@@ -24,7 +24,7 @@ export const BLOG_POSTS_MOCK: TBlogPost[] = [
 		href: "/company/news",
 		imageUrl:
 			"https://www.atorus.ru/sites/default/files/styles/head_carousel/public/2021-09/ca3023.jpg.webp?itok=Wg-lCwZ0",
-		variant: "secondary"
+		className: "bg-secondary"
 	},
 	{
 		id: "3",
@@ -33,6 +33,6 @@ export const BLOG_POSTS_MOCK: TBlogPost[] = [
 		href: "/company/news",
 		imageUrl:
 			"https://www.atorus.ru/sites/default/files/styles/head_carousel/public/2021-09/ca3023.jpg.webp?itok=Wg-lCwZ0",
-		variant: "muted"
+		className: "bg-muted"
 	}
 ];

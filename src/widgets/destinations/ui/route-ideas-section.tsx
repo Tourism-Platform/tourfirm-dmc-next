@@ -3,13 +3,15 @@
 import { useTranslations } from "next-intl";
 import type { FC } from "react";
 
+import { withErrorBoundary } from "@/shared/ui";
+
 import { RouteIdeaCard } from "@/entities/tour";
 
 import { ROUTE_IDEAS_CONFIG } from "../model";
 
 import { DestinationsSectionHeader } from "./destinations-section-header";
 
-export const RouteIdeasSection: FC = () => {
+const RouteIdeasSectionBase: FC = () => {
 	const t = useTranslations("destinations_page");
 
 	return (
@@ -39,3 +41,5 @@ export const RouteIdeasSection: FC = () => {
 		</section>
 	);
 };
+
+export const RouteIdeasSection = withErrorBoundary(RouteIdeasSectionBase);

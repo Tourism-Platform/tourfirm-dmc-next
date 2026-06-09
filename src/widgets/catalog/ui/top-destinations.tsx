@@ -6,11 +6,11 @@ import type { FC } from "react";
 
 import { ENUM_PATH } from "@/shared/config";
 import { Link } from "@/shared/i18n";
-import { Card } from "@/shared/ui";
+import { Card, withErrorBoundary } from "@/shared/ui";
 
 import { TOP_DESTINATIONS_MOCK } from "../model";
 
-export const TopDestinations: FC = () => {
+const TopDestinationsBase: FC = () => {
 	const t = useTranslations("main_page");
 
 	return (
@@ -58,3 +58,5 @@ export const TopDestinations: FC = () => {
 		</section>
 	);
 };
+
+export const TopDestinations = withErrorBoundary(TopDestinationsBase);

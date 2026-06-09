@@ -4,11 +4,13 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import type { FC } from "react";
 
+import { withErrorBoundary } from "@/shared/ui";
+
 import { DESTINATIONS_ROUTE_MAP_IMAGE } from "../model";
 
 import { DestinationsSectionHeader } from "./destinations-section-header";
 
-export const RouteMapSection: FC = () => {
+const RouteMapSectionBase: FC = () => {
 	const t = useTranslations("destinations_page");
 
 	return (
@@ -35,3 +37,5 @@ export const RouteMapSection: FC = () => {
 		</section>
 	);
 };
+
+export const RouteMapSection = withErrorBoundary(RouteMapSectionBase);

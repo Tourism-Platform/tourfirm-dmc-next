@@ -5,6 +5,8 @@ import Image from "next/image";
 import type { FC } from "react";
 import type { UseFormReturn } from "react-hook-form";
 
+import { withErrorBoundary } from "@/shared/ui";
+
 import type { TSearchTours } from "@/entities/tour";
 
 import { SearchToursBar } from "@/features/tours";
@@ -15,7 +17,7 @@ interface IHeroSectionProps {
 	form: UseFormReturn<TSearchTours>;
 }
 
-export const HeroSection: FC<IHeroSectionProps> = ({ form }) => {
+const HeroSectionBase: FC<IHeroSectionProps> = ({ form }) => {
 	const t = useTranslations("main_page");
 
 	return (
@@ -43,3 +45,5 @@ export const HeroSection: FC<IHeroSectionProps> = ({ form }) => {
 		</section>
 	);
 };
+
+export const HeroSection = withErrorBoundary(HeroSectionBase);

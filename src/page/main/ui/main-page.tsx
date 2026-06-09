@@ -1,5 +1,3 @@
-import { Main } from "@/widgets/main";
-
 export function MainPage() {
-	return <Main />;
+	return <div>11</div>;
 }

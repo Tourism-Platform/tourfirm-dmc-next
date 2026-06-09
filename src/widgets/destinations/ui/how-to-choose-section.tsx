@@ -4,6 +4,8 @@ import { Gauge, GitBranch, type LucideIcon, Target } from "lucide-react";
 import { useTranslations } from "next-intl";
 import type { FC } from "react";
 
+import { withErrorBoundary } from "@/shared/ui";
+
 import { DestinationInsightCard } from "@/entities/tour";
 
 import { HOW_TO_CHOOSE_CONFIG, type THowToChooseId } from "../model";
@@ -16,7 +18,7 @@ const HOW_TO_CHOOSE_ICONS: Record<THowToChooseId, LucideIcon> = {
 	pace: Gauge
 };
 
-export const HowToChooseSection: FC = () => {
+const HowToChooseSectionBase: FC = () => {
 	const t = useTranslations("destinations_page");
 
 	return (
@@ -41,3 +43,5 @@ export const HowToChooseSection: FC = () => {
 		</section>
 	);
 };
+
+export const HowToChooseSection = withErrorBoundary(HowToChooseSectionBase);

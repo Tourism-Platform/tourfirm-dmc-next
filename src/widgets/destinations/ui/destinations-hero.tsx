@@ -6,11 +6,11 @@ import type { FC } from "react";
 
 import { ENUM_PATH, buildRouteWithQuery } from "@/shared/config";
 import { Link } from "@/shared/i18n";
-import { Button } from "@/shared/ui";
+import { Button, withErrorBoundary } from "@/shared/ui";
 
 import { DESTINATIONS_HERO_IMAGE } from "../model";
 
-export const DestinationsHero: FC = () => {
+const DestinationsHeroBase: FC = () => {
 	const t = useTranslations("destinations_page");
 
 	return (
@@ -60,3 +60,5 @@ export const DestinationsHero: FC = () => {
 		</section>
 	);
 };
+
+export const DestinationsHero = withErrorBoundary(DestinationsHeroBase);

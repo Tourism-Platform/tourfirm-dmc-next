@@ -7,17 +7,11 @@ import type { FC } from "react";
 
 import { Link } from "@/shared/i18n";
 import { cn } from "@/shared/lib";
-import { Card, CardContent } from "@/shared/ui";
+import { Card, CardContent, withErrorBoundary } from "@/shared/ui";
 
 import { BLOG_POSTS_MOCK } from "../model";
 
-const variantClasses = {
-	accent: "bg-accent",
-	secondary: "bg-secondary",
-	muted: "bg-muted"
-} as const;
-
-export const BlogSection: FC = () => {
+const BlogSectionBase: FC = () => {
 	const t = useTranslations("main_page");
 
 	return (
@@ -29,10 +23,7 @@ export const BlogSection: FC = () => {
 				{BLOG_POSTS_MOCK.map((post) => (
 					<Card
 						key={post.id}
-						className={cn(
-							"overflow-hidden py-0",
-							variantClasses[post.variant]
-						)}
+						className={cn("overflow-hidden py-0", post.className)}
 					>
 						<CardContent className="grid grid-cols-[1fr_min-content] items-center gap-4 py-4">
 							<div className="flex flex-col gap-2">
@@ -66,3 +57,5 @@ export const BlogSection: FC = () => {
 		</section>
 	);
 };
+
+export const BlogSection = withErrorBoundary(BlogSectionBase);

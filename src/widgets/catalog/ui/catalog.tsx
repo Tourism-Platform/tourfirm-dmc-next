@@ -4,6 +4,8 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import type { FC } from "react";
 import { useForm } from "react-hook-form";
 
+import { withErrorBoundary } from "@/shared/ui";
+
 import { type TSearchTours, searchToursSchema } from "@/entities/tour";
 
 import { BlogSection } from "./blog-section";
@@ -13,7 +15,7 @@ import { RecentlySearch } from "./recently-search";
 import { SpecialOffers } from "./special-offers";
 import { TopDestinations } from "./top-destinations";
 
-export const Main: FC = () => {
+const CatalogBase: FC = () => {
 	const searchForm = useForm<TSearchTours>({
 		resolver: zodResolver(searchToursSchema),
 		defaultValues: {
@@ -35,3 +37,5 @@ export const Main: FC = () => {
 		</div>
 	);
 };
+
+export const Catalog = withErrorBoundary(CatalogBase);

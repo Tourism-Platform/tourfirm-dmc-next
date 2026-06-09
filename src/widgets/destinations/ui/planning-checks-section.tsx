@@ -4,6 +4,8 @@ import { CalendarDays, type LucideIcon, Route, Shield } from "lucide-react";
 import { useTranslations } from "next-intl";
 import type { FC } from "react";
 
+import { withErrorBoundary } from "@/shared/ui";
+
 import { DestinationInsightCard } from "@/entities/tour";
 
 import { PLANNING_CHECKS_CONFIG, type TPlanningCheckId } from "../model";
@@ -16,7 +18,7 @@ const PLANNING_CHECK_ICONS: Record<TPlanningCheckId, LucideIcon> = {
 	movement: Route
 };
 
-export const PlanningChecksSection: FC = () => {
+const PlanningChecksSectionBase: FC = () => {
 	const t = useTranslations("destinations_page");
 
 	return (
@@ -41,3 +43,7 @@ export const PlanningChecksSection: FC = () => {
 		</section>
 	);
 };
+
+export const PlanningChecksSection = withErrorBoundary(
+	PlanningChecksSectionBase
+);

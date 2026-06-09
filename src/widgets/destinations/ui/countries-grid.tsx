@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import type { FC } from "react";
 
 import { ENUM_PATH, buildRouteWithQuery } from "@/shared/config";
+import { withErrorBoundary } from "@/shared/ui";
 
 import { CountryCard } from "@/entities/tour";
 
@@ -11,7 +12,7 @@ import { COUNTRIES_CONFIG } from "../model";
 
 import { DestinationsSectionHeader } from "./destinations-section-header";
 
-export const CountriesGrid: FC = () => {
+const CountriesGridBase: FC = () => {
 	const t = useTranslations("destinations_page");
 
 	return (
@@ -48,3 +49,5 @@ export const CountriesGrid: FC = () => {
 		</section>
 	);
 };
+
+export const CountriesGrid = withErrorBoundary(CountriesGridBase);
