@@ -1,52 +1,265 @@
 {
+	"meta": {
+		"title": "TourLink | Markaziy Osiyo bilan aloqangiz",
+		"description": "TourLink jamoasidan O'zbekiston va Markaziy Osiyo bo'ylab shaxsiy sayohatlar, guruh dasturlari va marshrutlar."
+	},
 	"hero": {
-		"title": "Mukammal turni topamiz"
+		"title": "Markaziy Osiyo bilan",
+		"title_accent": "aloqangiz",
+		"description": "Shaxsiy sayohatlar, guruh dasturlari va agentlik marshrutlari — haqiqiy joylar, odamlar va marshrut ritmi atrofida.",
+		"note": "TourLink Markaziy Osiyo bo'ylab o'z dasturlarini loyihalashtiradi va muvofiqlashtiradi — O'zbekistondagi birinchi sayohatdan Ipak yo'lining keng marshrutigacha.",
+		"cta_contact": "Shaxsiy tur so'rash",
+		"cta_destinations": "Yo'nalishlarni ko'rish"
 	},
-	"search": {
-		"where": {
-			"label": "Qayerga bormoqchisiz?",
-			"placeholder": "Yo'nalishni tanlang",
-			"empty": "Yo'nalishlar topilmadi",
-			"required": "Yo'nalishni tanlang"
-		},
-		"when": {
-			"label": "Qachon?",
-			"placeholder": "Sanalarni tanlang"
-		},
-		"submit": "Qidirish"
-	},
-	"recent": {
-		"title": "So'nggi qidiruvlar",
-		"tour_type": {
-			"group": "Guruh",
-			"private": "Shaxsiy"
+	"countries": {
+		"eyebrow": "Qayerda ishlaymiz",
+		"title": "Beshta mamlakat. Bitta Ipak yo'li chizig'i.",
+		"description": "Bizning uymiz — O'zbekiston. Sayohat kengroq mintaqa konturiga muhtoj bo'lganda marshrut tog'larga, dashtlarga va cho'l yo'llariga olib borishi mumkin.",
+		"view_all": "Barcha yo'nalishlar",
+		"items": {
+			"uzbekistan": {
+				"badge": "TourLink uyi",
+				"name": "O'zbekiston",
+				"description": "Ipak yo'li shaharlar, hunarmandchilik, me'morchilik va zich marshrut tarmog'i.",
+				"cities": {
+					"tashkent": "Toshkent",
+					"samarkand": "Samarqand",
+					"bukhara": "Buxoro",
+					"khiva": "Xiva"
+				}
+			},
+			"kazakhstan": {
+				"badge": "Keng kontur",
+				"name": "Qozog'iston",
+				"description": "Dashtlar va shahar siluetlari",
+				"cities": {
+					"almaty": "Olmaota",
+					"turkestan": "Turkiston",
+					"charyn": "Sharyn",
+					"mangystau": "Mang'istau"
+				}
+			},
+			"kyrgyzstan": {
+				"badge": "Tog' ritmi",
+				"name": "Qirg'iziston",
+				"description": "Tog'lar, ko'llar va ko'chmanchi yo'llari",
+				"cities": {
+					"bishkek": "Bishkek",
+					"issyk_kul": "Issiqko'l",
+					"karakol": "Karakol",
+					"son_kul": "Songko'l"
+				}
+			},
+			"tajikistan": {
+				"badge": "Baland yo'llar",
+				"name": "Tojikiston",
+				"description": "Pomir osmonga tegadigan joy",
+				"cities": {
+					"dushanbe": "Dushanbe",
+					"fan_mountains": "Fan tog'lari",
+					"seven_lakes": "Yetti ko'l",
+					"pamir": "Pomir"
+				}
+			},
+			"turkmenistan": {
+				"badge": "Ruxsatlar hisobga olinadi",
+				"name": "Turkmaniston",
+				"description": "Cho'l shaharlar va qadimiy imperiyalar",
+				"cities": {
+					"ashgabat": "Ashgabat",
+					"nisa": "Nisa",
+					"merw": "Merv",
+					"darvaza": "Darvaza"
+				}
+			}
 		}
 	},
-	"popular": {
-		"title": "Eng mashhur turlar"
+	"overview": {
+		"stats": {
+			"base": { "label": "Baza", "value": "Toshkentdagi jamoa" },
+			"region": {
+				"label": "Mintaqa",
+				"value": "Mintaqadagi marshrutlar"
+			},
+			"planning": {
+				"label": "Rejalashtirish",
+				"value": "O'ylangan ritm"
+			},
+			"formats": { "label": "Formatlar", "value": "Shaxsiy, guruh, B2B" },
+			"communication": {
+				"label": "Aloqa",
+				"value": "Bozorlar bilan bog'lanish"
+			}
+		}
 	},
-	"blog": {
-		"title": "Yangiliklar va blog",
-		"read_more": "Batafsil"
+	"experiences": {
+		"eyebrow": "Taassurot kartochkalari",
+		"title": "Markaziy Osiyo qanday seziladi",
+		"description": "Sayohatchi mintaqani sanalar, ko'chishlar va shahar nomlaridan oldin his qiladigan oltita marshrut taassuroti.",
+		"items": {
+			"historical_walks": {
+				"badge": "Madaniyat",
+				"title": "Tarixiy sayr",
+				"description": "Tarixiy shaharda kafel, o'yma eshiklar va hovli soyasi alohida tafsilot emas — gid ularni atrofdagi ko'chaga bog'laganda."
+			},
+			"craft_meetings": {
+				"badge": "Hunarmandchilik",
+				"title": "Hunarmand uchrashuvlari",
+				"description": "Ustaxonada loy stolda qoladi, ipak ipi yorug'likni ushlaydi. Qo'l chizig'i hech qachon ikki marta takrorlanmaydi."
+			},
+			"bazaar_courtyard": {
+				"badge": "Ovqat",
+				"title": "Bozor va hovli",
+				"description": "Buxoro kichik tanaffuslarda yaqinlashadi: suv yonida choy, hovli soyasi, yodgorliklardan keyin bozor ovozlari."
+			},
+			"sacred_heritage": {
+				"badge": "Madaniyat",
+				"title": "Muqaddas meros kontekstda",
+				"description": "Gumbaz ostida yoki ibodat joyi hovlisida qadamlar o'zi tinchlanadi. Gid joyning insoniy hikoyasini ochadi."
+			},
+			"nature_routes": {
+				"badge": "Tabiat",
+				"title": "Tabiatdagi marshrutlar",
+				"description": "Tog' yo'lida yoki cho'l ko'li yonida marshrut tinchlanadi. Haydovchi yorug'lik va shamol qayerda o'zgarishini biladi."
+			},
+			"desert_oasis": {
+				"badge": "Tabiat",
+				"title": "Cho'l va vohali kechalar",
+				"description": "Cho'l lageri chetida quyosh botgach qum issiqlikni qo'yib yuboradi va osmon ortingizdagi yo'ldan kengroq ochiladi."
+			}
+		}
 	},
-	"offers": {
-		"title": "Maxsus takliflar",
-		"subtitle": "Eng yaxshi narxlarni qo'ldan boy bermang",
-		"cta": "Ko'proq ko'rish"
+	"trip_formats": {
+		"eyebrow": "Sayohat formatlari",
+		"title": "Har bir sayohatning o'z ritmi bor",
+		"description": "Avval sayohat shaklini tanlaymiz: shaxsiy ritm, guruh energiyasi, oilaviy kunlar yoki biznes dastur.",
+		"items": {
+			"private": {
+				"badge": "Shaxsiy",
+				"title": "Shaxsiy turlar",
+				"description": "Sanalar, ritm va qiziqishlar sayohat shaklini belgilaydi. Marshrut Ipak yo'li shaharlarida qolishi yoki tog'larga borishi mumkin."
+			},
+			"group": {
+				"badge": "Guruh",
+				"title": "Guruh dasturlari",
+				"description": "Umumiy jo'nash aniq vaqtga tayanadi. Guruh bilan sayohat qilasiz, lekin kunda kontekst, ovqat va shahar uchun joy qoladi."
+			},
+			"family": {
+				"badge": "Oila",
+				"title": "Oilaviy ritm",
+				"description": "Qisqaroq kunlar, yumshoq boshlanish va ortiqcha to'xtashsiz marshrut turli yoshlar uchun ishlaydi."
+			},
+			"mice": {
+				"badge": "Biznes",
+				"title": "MICE va incentive",
+				"description": "Uchrashuvlar, transferlar, ovqat va tarjima bir ritmda, mehmonlar joyni his qilishadi."
+			}
+		}
 	},
-	"destinations": {
-		"title": "Top yo'nalishlar",
-		"count": "{count} tur va faoliyat",
-		"view_all": "Barchasini ko'rish"
+	"how_we_work": {
+		"eyebrow": "Qanday ishlaymiz",
+		"title": "Marshrut shaharlar ro'yxatiga emas, odamlarga tayanadi",
+		"description": "TourLink Orient Star Group tajribasi, odamlar va marshrutlar asosida o'sdi. Tur operator sifatida haqiqiy marshrut kunidan boshlaymiz: mavsum, masofa, gid, transport, chegara va guruh energiyasi.",
+		"quote": "Sayohat ko'chishlar ro'yxatiga aylanishdan oldin ritmga ega bo'lishi kerak.",
+		"base_label": "Toshkent",
+		"base_value": "uy bazasi"
 	},
-	"card": {
-		"recommended": "Tavsiya etiladi",
-		"reviews": "{count} ta sharh",
-		"duration_days": "{count, plural, one {# kun} other {# kun}}",
-		"free_cancellation": "Bepul bekor qilish",
-		"price_from": "{price} dan"
+	"featured_routes": {
+		"eyebrow": "Turlar",
+		"title": "Markaziy Osiyo bo'ylab turlar",
+		"description": "Birinchi marshrut yo'nalishlari. Dastur sanalar, mamlakatlar, guruh hajmi va ritmga mos yig'iladi.",
+		"cta": "Marshrut so'rash",
+		"items": {
+			"essentials": {
+				"badge": "Klassika",
+				"meta": "6 kun · O'zbekiston",
+				"title": "Uzbekistan Essentials",
+				"description": "Toshkent, Samarqand va Buxoro orqali qisqa birinchi marshrut — sanalar va ritmingizga mos."
+			},
+			"silk_road": {
+				"badge": "Ipak yo'li",
+				"meta": "7 kun · Meros shaharlar",
+				"title": "Ipak yo'li shaharlar",
+				"description": "Gid, hunarmandchilik va asosiy joylar orasidagi tinch kechalar."
+			},
+			"regional": {
+				"badge": "Bir nechta mamlakat",
+				"meta": "12 kun · Mintaqa",
+				"title": "Markaziy Osiyo marshruti",
+				"description": "Mintaqada kengroq chiziq — chegaralar, reyslar va yo'llar dastur va'da qilinishidan oldin tekshiriladi."
+			}
+		}
 	},
-	"toasts": {
-		"load_error": "Turlarni yuklab bo'lmadi"
+	"why": {
+		"eyebrow": "Nega TourLink",
+		"title": "Marshrutni bitta jamoa boshqarganda nima o'zgaradi",
+		"items": {
+			"programs": {
+				"title": "O'z dasturlari",
+				"description": "TourLink o'z tur dasturlarini yig'adi va olib boradi, begona xizmatlar to'plamini sotmaydi."
+			},
+			"rhythm": {
+				"title": "Marshrut ritmi",
+				"description": "Kunlar masofa, mavsum, kirish va joy ochilish uchun kerakli vaqt atrofida quriladi."
+			},
+			"connection": {
+				"title": "Bitta mintaqa aloqasi",
+				"description": "Sayohatchilar va agentliklar marshrut, gidlar, transport va mintaqadagi o'zgarishlar bo'yicha bitta jamoa bilan ishlaydi."
+			}
+		}
+	},
+	"trade_fairs": {
+		"eyebrow": "Turizm ko'rgazmalari",
+		"title": "TourLink turizm bozori bilan qayerda uchrashadi",
+		"description": "TourLink jamoasi operatorlar, sayohat kompaniyalari va hamkorlar bilan uchrashadigan ko'rgazmalar.",
+		"items": {
+			"imex": {
+				"title": "O'zbekiston stendi",
+				"stand": "Stend UZ-12",
+				"participants": "Ishtirokchilar: Subin Kang, Eldor Keldibekov",
+				"country": "Germaniya"
+			},
+			"itb_china": {
+				"title": "O'zbekturizm stendi",
+				"stand": "Stend B-24",
+				"participants": "Ishtirokchilar: Subin Kang, Eldor Keldibekov",
+				"country": "Xitoy"
+			},
+			"seoul": {
+				"title": "O'zbekiston delegatsiyasi",
+				"stand": "Stend CA-08",
+				"participants": "Ishtirokchilar: Subin Kang, Eldor Keldibekov",
+				"country": "Janubiy Koreya"
+			}
+		}
+	},
+	"journal": {
+		"eyebrow": "Jurnal",
+		"title": "Marshrutdan qaydlar",
+		"description": "TourLink jamoasidan amaliy qaydlar, marshrut konteksti va kuzatuvlar.",
+		"status": "Jurnal tayyorlanmoqda",
+		"items": {
+			"quiet_square": {
+				"meta": "Marshrut qaydi · 5 daqiqa",
+				"title": "Maydon qachon tinchlanadi"
+			},
+			"craft_workshop": {
+				"meta": "Hunarmandchilik · 6 daqiqa",
+				"title": "Vaqt ajratilgan ustaxona"
+			},
+			"road_day": {
+				"meta": "Marshrut ritmi · 8 daqiqa",
+				"title": "Shoshilmaslik kerak bo'lgan yo'l kuni"
+			}
+		}
+	},
+	"cta": {
+		"eyebrow": "Suhbatdan boshlang",
+		"title": "Qanday",
+		"title_accent": "sayohat",
+		"title_suffix": "xohlayotganingizni ayting",
+		"description": "Sanalar, mamlakatlar, guruh hajmi va kerakli ritmni yuboring. TourLink mintaqada ishonch bilan o'tkazish mumkin bo'lgan marshrut taklif qiladi.",
+		"primary": "So'rov yuborish",
+		"secondary": "Yo'nalishlarni ko'rish"
 	}
 }
