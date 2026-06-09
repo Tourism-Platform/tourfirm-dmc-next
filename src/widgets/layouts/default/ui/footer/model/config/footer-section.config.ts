@@ -34,6 +34,10 @@ export const FOOTER_SECTIONS: IFooterSectionConfig[] = [
 		title: "sections.toursPartners.title",
 		links: [
 			{
+				label: "sections.toursPartners.links.destinations",
+				path: ENUM_PATH.MAIN.DESTINATIONS
+			},
+			{
 				label: "sections.toursPartners.links.tours",
 				path: ENUM_PATH.MAIN.CATALOG
 			},

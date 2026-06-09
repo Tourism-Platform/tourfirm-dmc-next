@@ -1,0 +1,42 @@
+"use client";
+
+import Image from "next/image";
+import type { FC } from "react";
+
+import { Link } from "@/shared/i18n";
+import { Badge, Button, Card } from "@/shared/ui";
+
+import type { IRouteIdeaCard } from "../types";
+
+interface IRouteIdeaCardProps {
+	data: IRouteIdeaCard;
+}
+
+export const RouteIdeaCard: FC<IRouteIdeaCardProps> = ({ data }) => (
+	<Card className="flex flex-col overflow-hidden p-0">
+		<div className="relative h-44">
+			<Image
+				src={data.imageUrl}
+				alt={data.imageAlt}
+				fill
+				className="object-cover"
+				sizes="(max-width: 1024px) 100vw, 33vw"
+			/>
+		</div>
+		<div className="flex flex-1 flex-col gap-3 p-5">
+			<div className="flex flex-wrap items-center gap-2">
+				<Badge variant="secondary">{data.badge}</Badge>
+				<span className="text-muted-foreground text-xs">
+					{data.meta}
+				</span>
+			</div>
+			<h3 className="text-base font-semibold sm:text-lg">{data.title}</h3>
+			<p className="text-muted-foreground flex-1 text-sm">
+				{data.description}
+			</p>
+			<Button asChild variant="outline" className="w-fit">
+				<Link href={data.ctaHref}>{data.ctaLabel}</Link>
+			</Button>
+		</div>
+	</Card>
+);

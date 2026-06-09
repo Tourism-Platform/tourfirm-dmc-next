@@ -1,0 +1,152 @@
+{
+	"hero": {
+		"eyebrow": "Countries",
+		"title": "Central Asia,",
+		"title_accent": "country by country",
+		"description": "Uzbekistan, Kazakhstan, Kyrgyzstan, Tajikistan, and Turkmenistan are close on the map. But a good trip still needs the right order.",
+		"note": "TourLink is based in Uzbekistan and plans trips across all five countries when route, season, borders, and pace allow a coherent line.",
+		"cta_countries": "Browse countries",
+		"cta_uzbekistan": "Start with Uzbekistan"
+	},
+	"countries": {
+		"eyebrow": "Countries",
+		"title": "Five countries, one connected region",
+		"description": "Start with one country and expand the route only when the trip truly needs a wider Central Asian arc.",
+		"items": {
+			"uzbekistan": {
+				"badge": "TourLink home",
+				"name": "Uzbekistan",
+				"description": "Silk Road cities, crafts, architecture, and tightly logical routes.",
+				"cities": {
+					"tashkent": "Tashkent",
+					"samarkand": "Samarkand",
+					"bukhara": "Bukhara",
+					"khiva": "Khiva"
+				}
+			},
+			"kazakhstan": {
+				"badge": "Wide horizon",
+				"name": "Kazakhstan",
+				"description": "Steppe and city silhouettes",
+				"cities": {
+					"almaty": "Almaty",
+					"turkestan": "Turkestan",
+					"charyn": "Charyn",
+					"mangystau": "Mangystau"
+				}
+			},
+			"kyrgyzstan": {
+				"badge": "Mountain rhythm",
+				"name": "Kyrgyzstan",
+				"description": "Mountains, lakes, and nomad roads",
+				"cities": {
+					"bishkek": "Bishkek",
+					"issyk_kul": "Issyk-Kul",
+					"karakol": "Karakol",
+					"son_kul": "Son-Kul"
+				}
+			},
+			"tajikistan": {
+				"badge": "High roads",
+				"name": "Tajikistan",
+				"description": "Where the Pamir touches the sky",
+				"cities": {
+					"dushanbe": "Dushanbe",
+					"fan_mountains": "Fan Mountains",
+					"seven_lakes": "Seven Lakes",
+					"pamir": "Pamir"
+				}
+			},
+			"turkmenistan": {
+				"badge": "Permits considered",
+				"name": "Turkmenistan",
+				"description": "Desert cities and ancient empires",
+				"cities": {
+					"ashgabat": "Ashgabat",
+					"nisa": "Nisa",
+					"merw": "Merv",
+					"darvaza": "Darvaza"
+				}
+			}
+		}
+	},
+	"how_to_choose": {
+		"eyebrow": "How to choose",
+		"title": "The map is wide. The route should be clear.",
+		"description": "TourLink sees Central Asia as one connected region, but not every trip needs all five countries. A strong route has a center, a reason to expand, and enough breathing room between places.",
+		"items": {
+			"center": {
+				"title": "Start from the center",
+				"description": "Pick one main country first. That gives the trip a center, not just a list of border crossings."
+			},
+			"expand": {
+				"title": "Expand with purpose",
+				"description": "Add neighboring countries when they strengthen the story, landscape, or season."
+			},
+			"pace": {
+				"title": "Keep the pace",
+				"description": "Transfers, borders, and rest nights are visible from the start so the trip keeps air between places."
+			}
+		}
+	},
+	"route_map": {
+		"eyebrow": "Route map demo",
+		"title": "An example line across the region",
+		"description": "The line shows how a multi-country route fits on one Central Asian map. It is a guide, not a ready-made tour program.",
+		"placeholder": "Route map visual slot"
+	},
+	"route_ideas": {
+		"eyebrow": "Route ideas",
+		"title": "How a trip might come together",
+		"description": "This is a first draft. The real program is built around dates, access, and pace.",
+		"cta": "Plan a trip",
+		"items": {
+			"uzbekistan_intro": {
+				"badge": "First introduction",
+				"meta": "8-10 days · Uzbekistan",
+				"title": "First route through Uzbekistan",
+				"description": "Start in Tashkent, link Silk Road cities, and add a mountain or desert pause only if the pace allows."
+			},
+			"uz_kg": {
+				"badge": "Two countries",
+				"meta": "10-14 days · Cities + mountains",
+				"title": "Silk Road cities and mountain roads",
+				"description": "Connect Uzbekistan with Kyrgyzstan when an urban route needs mountain air and a softer active rhythm."
+			},
+			"regional": {
+				"badge": "Regional line",
+				"meta": "On request · Several countries",
+				"title": "A wider Central Asia route",
+				"description": "Kazakhstan, Tajikistan, or Turkmenistan add a wider cultural, mountain, or desert arc when the trip has room for it."
+			}
+		}
+	},
+	"planning_checks": {
+		"eyebrow": "Before the final route",
+		"title": "What TourLink checks in advance",
+		"description": "The route feels calmer when these decisions are made before hotels and detailed scheduling.",
+		"items": {
+			"access": {
+				"title": "Borders and permits",
+				"description": "Some routes stay within one country easily; others need borders, permits, or a cleaner order."
+			},
+			"season": {
+				"title": "Season and comfort",
+				"description": "Mountains, deserts, and city walks work differently in spring, summer, autumn, and winter."
+			},
+			"movement": {
+				"title": "Distances and rhythm",
+				"description": "Flights, trains, road days, and buffer nights are chosen before the program becomes detailed."
+			}
+		}
+	},
+	"cta": {
+		"eyebrow": "Start with a conversation",
+		"title": "Want to build the",
+		"title_accent": "right route",
+		"title_suffix": "across Central Asia?",
+		"description": "Share dates, pace, and your first country. We will suggest a route that keeps the region connected without overloading the trip.",
+		"primary": "Plan a trip",
+		"secondary": "Start with Uzbekistan"
+	}
+}

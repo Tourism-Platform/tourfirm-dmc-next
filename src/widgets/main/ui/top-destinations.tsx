@@ -15,9 +15,17 @@ export const TopDestinations: FC = () => {
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-7">
-			<h2 className="text-xl font-semibold sm:text-2xl">
-				{t("destinations.title")}
-			</h2>
+			<div className="flex items-end justify-between gap-4">
+				<h2 className="text-xl font-semibold sm:text-2xl">
+					{t("destinations.title")}
+				</h2>
+				<Link
+					href={ENUM_PATH.MAIN.DESTINATIONS}
+					className="text-primary shrink-0 text-sm font-medium"
+				>
+					{t("destinations.view_all")}
+				</Link>
+			</div>
 			<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 lg:gap-6">
 				{TOP_DESTINATIONS_MOCK.map((destination) => (
 					<Link

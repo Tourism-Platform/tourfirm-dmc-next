@@ -21,6 +21,11 @@ import type { IPublicNavLink } from "../types";
 
 export const PUBLIC_NAV_ITEMS: IPublicNavLink[] = [
 	{
+		label: "public.nav.destinations.label",
+		path: ENUM_PATH.MAIN.DESTINATIONS,
+		sections: []
+	},
+	{
 		label: "public.nav.tours.label",
 		path: ENUM_PATH.MAIN.CATALOG,
 		sections: []

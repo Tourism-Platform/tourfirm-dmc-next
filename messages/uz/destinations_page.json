@@ -1,0 +1,152 @@
+{
+	"hero": {
+		"eyebrow": "Mamlakatlar",
+		"title": "Markaziy Osiyo,",
+		"title_accent": "mamlakatma-mamlakat",
+		"description": "O'zbekiston, Qozog'iston, Qirg'iziston, Tojikiston va Turkmaniston xaritada yaqin. Lekin yaxshi sayohat baribir to'g'ri tartibni talab qiladi.",
+		"note": "TourLink O'zbekistonda joylashgan va marshrut, mavsum, chegaralar va ritm yagona chiziqni yig'ishga imkon bersa, beshta mamlakat bo'ylab sayohatlarni rejalashtiradi.",
+		"cta_countries": "Mamlakatlarni ko'rish",
+		"cta_uzbekistan": "O'zbekistondan boshlash"
+	},
+	"countries": {
+		"eyebrow": "Mamlakatlar",
+		"title": "Beshta mamlakat, bitta bog'langan mintaqa",
+		"description": "Bitta mamlakatdan boshlang va marshrutni faqat sayohat haqiqatan ham kengroq Markaziy Osiyo konturiga muhtoj bo'lganda kengaytiring.",
+		"items": {
+			"uzbekistan": {
+				"badge": "TourLink uyi",
+				"name": "O'zbekiston",
+				"description": "Buyo'ldoq yo'li shaharlari, hunarmandchilik, me'morchilik va zich marshrut mantig'i.",
+				"cities": {
+					"tashkent": "Toshkent",
+					"samarkand": "Samarqand",
+					"bukhara": "Buxoro",
+					"khiva": "Xiva"
+				}
+			},
+			"kazakhstan": {
+				"badge": "Keng kontur",
+				"name": "Qozog'iston",
+				"description": "Dashtlar va shahar siluetlari",
+				"cities": {
+					"almaty": "Olmaota",
+					"turkestan": "Turkiston",
+					"charyn": "Sharyn",
+					"mangystau": "Mang'istov"
+				}
+			},
+			"kyrgyzstan": {
+				"badge": "Tog'li ritm",
+				"name": "Qirg'iziston",
+				"description": "Tog'lar, ko'llar va ko'chmanchi yo'llari",
+				"cities": {
+					"bishkek": "Bishkek",
+					"issyk_kul": "Issiqko'l",
+					"karakol": "Karakol",
+					"son_kul": "Son-Kul"
+				}
+			},
+			"tajikistan": {
+				"badge": "Baland yo'llar",
+				"name": "Tojikiston",
+				"description": "Pomir osmonga tegadigan joy",
+				"cities": {
+					"dushanbe": "Dushanbe",
+					"fan_mountains": "Fan tog'lari",
+					"seven_lakes": "Yetti ko'l",
+					"pamir": "Pomir"
+				}
+			},
+			"turkmenistan": {
+				"badge": "Ruxsatlar hisobga olinadi",
+				"name": "Turkmaniston",
+				"description": "Cho'l shaharlari va qadimiy imperiyalar",
+				"cities": {
+					"ashgabat": "Ashgabat",
+					"nisa": "Nisa",
+					"merw": "Merv",
+					"darvaza": "Darvaza"
+				}
+			}
+		}
+	},
+	"how_to_choose": {
+		"eyebrow": "Qanday tanlash",
+		"title": "Xarita keng. Marshrut aniq bo'lishi kerak.",
+		"description": "TourLink Markaziy Osiyoni bog'langan mintaqa sifatida ko'radi, lekin har bir sayohatga beshta mamlakat kerak emas. Kuchli marshrut markazga, kengayish sababiga va joylar orasidagi nafasga ega.",
+		"items": {
+			"center": {
+				"title": "Markazdan boshlash",
+				"description": "Avvalo asosiy mamlakatni tanlang. Shunda sayohat markazga ega bo'ladi, chegaradan o'tishlar ro'yxatiga aylanmaydi."
+			},
+			"expand": {
+				"title": "Faqat ma'noga ko'ra kengaytirish",
+				"description": "Qo'shni mamlakatlarni qo'shing, ular hikoya, landshaft yoki mavsumni kuchaytirganda."
+			},
+			"pace": {
+				"title": "Ritmni saqlash",
+				"description": "Ko'chishlar, chegaralar va dam olish kechalari dastlab ko'rinadi, shunda joylar orasida havo qoladi."
+			}
+		}
+	},
+	"route_map": {
+		"eyebrow": "Marshrut xaritasi demo",
+		"title": "Mintaqa bo'ylab chiziq namunasi",
+		"description": "Chiziq bir nechta mamlakat bo'ylab marshrut qanday yotishini ko'rsatadi. Bu yo'l-yo'riq, tayyor tur dasturi emas.",
+		"placeholder": "Marshrut xaritasi vizual sloti"
+	},
+	"route_ideas": {
+		"eyebrow": "Marshrut g'oyalari",
+		"title": "Sayohat qanday shakllanishi mumkin",
+		"description": "Bu birinchi qoralama. Haqiqiy dastur sanalar, kirish va ritm atrofida yig'iladi.",
+		"cta": "Sayohatni rejalashtirish",
+		"items": {
+			"uzbekistan_intro": {
+				"badge": "Birinchi tanishuv",
+				"meta": "8-10 kun · O'zbekiston",
+				"title": "O'zbekiston bo'ylab birinchi marshrut",
+				"description": "Toshkentdan boshlang, Buyo'ldoq yo'li shaharlari bilan bog'lang va ritm ruxsat bersa tog' yoki cho'l tanaffusini qo'shing."
+			},
+			"uz_kg": {
+				"badge": "Ikki mamlakat",
+				"meta": "10-14 kun · Shaharlar + tog'lar",
+				"title": "Buyo'ldoq yo'li shaharlari va tog' yo'llari",
+				"description": "Shahar marshruti tog' havo va yumshoqroq faol ritm talab qilganda O'zbekistonni Qirg'iziston bilan bog'lang."
+			},
+			"regional": {
+				"badge": "Mintaqaviy chiziq",
+				"meta": "So'rov bo'yicha · Bir nechta mamlakat",
+				"title": "Kengroq Markaziy Osiyo marshruti",
+				"description": "Qozog'iston, Tojikiston yoki Turkmaniston sayohatda joy bo'lganda kengroq madaniy, tog' yoki cho'l konturini qo'shadi."
+			}
+		}
+	},
+	"planning_checks": {
+		"eyebrow": "Yakuniy marshrutgacha",
+		"title": "TourLink oldindan nimalarni tekshiradi",
+		"description": "Bu qarorlar mehmonxonalar va batafsil jadvaldan oldin qabul qilinganda marshrut xotirjamroq bo'ladi.",
+		"items": {
+			"access": {
+				"title": "Chegaralar va ruxsatlar",
+				"description": "Ba'zi marshrutlar mamlakat ichida oson, boshqalariga chegaralar, ruxsatlar yoki toza tartib kerak."
+			},
+			"season": {
+				"title": "Mavsum va qulaylik",
+				"description": "Tog'lar, cho'llar va shahar sayrilar bahor, yoz, kuz va qishda turlicha ishlaydi."
+			},
+			"movement": {
+				"title": "Masofalar va ritm",
+				"description": "Parvozlar, poezdlar, yo'l kunlari va zaxira kechalar dastur batafsil bo'lishidan oldin tanlanadi."
+			}
+		}
+	},
+	"cta": {
+		"eyebrow": "Suhbatdan boshlang",
+		"title": "Markaziy Osiyo bo'ylab",
+		"title_accent": "to'g'ri marshrut",
+		"title_suffix": "yig'moqchimisiz?",
+		"description": "Sanalar, ritm va birinchi mamlakatni ayting. Mintaqa bog'liqligini saqlab, sayohatni ortiqcha yuklamaydigan marshrut taklif qilamiz.",
+		"primary": "Sayohatni rejalashtirish",
+		"secondary": "O'zbekistondan boshlash"
+	}
+}

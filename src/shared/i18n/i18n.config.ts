@@ -5,6 +5,7 @@ import companyFeedbackPage from "../../../messages/en/company_feedback_page.json
 import companyHowWeWorkPage from "../../../messages/en/company_how_we_work_page.json";
 import companyNewsPage from "../../../messages/en/company_news_page.json";
 import companyPartnershipPage from "../../../messages/en/company_partnership_page.json";
+import destinationsPage from "../../../messages/en/destinations_page.json";
 import footer from "../../../messages/en/footer.json";
 import header from "../../../messages/en/header.json";
 import helpContactPage from "../../../messages/en/help_contact_page.json";
@@ -24,6 +25,7 @@ export type TCommon = typeof common;
 export type THeader = typeof header;
 export type TFooter = typeof footer;
 export type TMainPage = typeof mainPage;
+export type TDestinationsPage = typeof destinationsPage;
 export type TCatalogPage = typeof catalogPage;
 export type TPartnersAgenciesPage = typeof partnersAgenciesPage;
 export type TPartnersHotelsPage = typeof partnersHotelsPage;
@@ -45,6 +47,7 @@ export type TResources = {
 	header: THeader;
 	footer: TFooter;
 	main_page: TMainPage;
+	destinations_page: TDestinationsPage;
 	catalog_page: TCatalogPage;
 	partners_agencies_page: TPartnersAgenciesPage;
 	partners_hotels_page: TPartnersHotelsPage;
@@ -67,6 +70,7 @@ export const MESSAGE_NAMESPACES = [
 	"header",
 	"footer",
 	"main_page",
+	"destinations_page",
 	"catalog_page",
 	"partners_agencies_page",
 	"partners_hotels_page",
@@ -90,6 +94,7 @@ export type TCommonKeys = TNestedKeyOf<TCommon>;
 export type THeaderKeys = TNestedKeyOf<THeader>;
 export type TFooterKeys = TNestedKeyOf<TFooter>;
 export type TMainPageKeys = TNestedKeyOf<TMainPage>;
+export type TDestinationsPageKeys = TNestedKeyOf<TDestinationsPage>;
 export type TCatalogPageKeys = TNestedKeyOf<TCatalogPage>;
 export type TPartnersAgenciesPageKeys = TNestedKeyOf<TPartnersAgenciesPage>;
 export type TPartnersHotelsPageKeys = TNestedKeyOf<TPartnersHotelsPage>;
