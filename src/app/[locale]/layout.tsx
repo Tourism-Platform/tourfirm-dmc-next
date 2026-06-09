@@ -4,7 +4,7 @@ import {
 	getTranslations,
 	setRequestLocale
 } from "next-intl/server";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Exo_2, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
 
@@ -15,9 +15,9 @@ import { FooterDefault, HeaderDefault } from "@/widgets/layouts/default";
 
 import Providers from "../__providers";
 
-const geistSans = Geist({
-	variable: "--font-geist-sans",
-	subsets: ["latin"]
+const exo2 = Exo_2({
+	variable: "--font-exo-2",
+	subsets: ["latin", "cyrillic"]
 });
 
 const geistMono = Geist_Mono({
@@ -57,7 +57,7 @@ export default async function LocaleLayout({ children, params }: TProps) {
 	return (
 		<html
 			lang={locale}
-			className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+			className={`${exo2.variable} ${geistMono.variable} h-full font-sans antialiased`}
 			suppressHydrationWarning
 		>
 			<body className="min-h-full flex flex-col">
@@ -68,7 +68,9 @@ export default async function LocaleLayout({ children, params }: TProps) {
 						timeZone="UTC"
 					>
 						<HeaderDefault />
-						<div className="flex flex-1 flex-col">{children}</div>
+						<div className="flex flex-1 flex-col mb-10 md:mb-20 lg:mb-32">
+							{children}
+						</div>
 						<FooterDefault />
 					</NextIntlClientProvider>
 				</Providers>

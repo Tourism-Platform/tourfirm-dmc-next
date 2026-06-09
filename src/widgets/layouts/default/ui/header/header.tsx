@@ -10,7 +10,7 @@ import { LanguageToggle, ThemeToggle } from "@/shared/ui";
 import { PUBLIC_NAV_ITEMS } from "./model";
 import { PublicNavMenu } from "./ui/public-nav-menu";
 
-const LOGO_SRC = "/asssets/logo.svg";
+const LOGO_SRC = "/assets/images/logo.svg";
 
 export const HeaderDefault: FC = () => {
 	return (

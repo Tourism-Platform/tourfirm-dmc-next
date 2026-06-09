@@ -14,3 +14,11 @@ export type ENUM_PATH_TYPE =
 	| TCompanyPath
 	| TLegalPath
 	| THelpPath;
+
+export type TQueryParams = {
+	[ENUM_PATH.MAIN.CATALOG]: {
+		destination?: string;
+		checkIn?: string;
+		checkOut?: string;
+	};
+};

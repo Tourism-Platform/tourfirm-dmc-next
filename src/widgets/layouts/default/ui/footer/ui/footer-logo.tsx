@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import type { IFooterLogoProps } from "../model";
 
-const LOGO_SRC = "/asssets/logo.svg";
+const LOGO_SRC = "/assets/images/logo.svg";
 
 export const FooterLogo = ({ brandName }: IFooterLogoProps) => {
 	return (

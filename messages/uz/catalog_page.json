@@ -1,4 +1,11 @@
 {
 	"title": "Turlar katalogi",
-	"description": "Bo'lim ishlab chiqilmoqda"
+	"description": "Bo'lim ishlab chiqilmoqda",
+	"search": {
+		"title": "Qidiruv parametrlari",
+		"destination": "Yo'nalish",
+		"check_in": "Kirish",
+		"check_out": "Chiqish",
+		"empty": "Filtrlar tanlanmagan"
+	}
 }

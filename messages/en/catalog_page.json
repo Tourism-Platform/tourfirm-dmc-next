@@ -1,4 +1,11 @@
 {
 	"title": "Tour catalog",
-	"description": "Section under development"
+	"description": "Section under development",
+	"search": {
+		"title": "Search criteria",
+		"destination": "Destination",
+		"check_in": "Check-in",
+		"check_out": "Check-out",
+		"empty": "No search filters applied"
+	}
 }

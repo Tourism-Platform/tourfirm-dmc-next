@@ -5,7 +5,6 @@ import type { ComponentProps, FC } from "react";
 import type { DateValue, TimeValue } from "react-aria-components";
 import type { Control } from "react-hook-form";
 
-import type { TTranslateFn } from "@/shared/i18n";
 import { cn } from "@/shared/lib";
 import type {
 	BadgeSize,
@@ -58,7 +57,7 @@ type BaseFieldProps = {
 	control: Control<any>;
 	name: string;
 	label?: string;
-	t: TTranslateFn;
+	t: any;
 	className?: string;
 	disabled?: boolean;
 	externalError?: string;
