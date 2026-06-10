@@ -40,7 +40,8 @@ export const PUBLIC_NAV_ITEMS: IPublicNavLink[] = [
 						description:
 							"public.nav.partners.items.agencies.description",
 						icon: Handshake,
-						path: ENUM_PATH.PARTNERS.AGENCIES
+						path: ENUM_PATH.PARTNERS.AGENCIES,
+						isSoon: true
 					},
 					{
 						label: "public.nav.partners.items.hotels.label",
@@ -85,7 +86,8 @@ export const PUBLIC_NAV_ITEMS: IPublicNavLink[] = [
 						description:
 							"public.nav.company.items.news.description",
 						icon: Newspaper,
-						path: ENUM_PATH.COMPANY.NEWS
+						path: ENUM_PATH.COMPANY.NEWS,
+						isSoon: true
 					},
 					{
 						label: "public.nav.company.items.feedback.label",
@@ -134,7 +136,8 @@ export const PUBLIC_NAV_ITEMS: IPublicNavLink[] = [
 						description:
 							"public.nav.help.items.support.description",
 						icon: LifeBuoy,
-						path: ENUM_PATH.HELP.SUPPORT
+						path: ENUM_PATH.HELP.SUPPORT,
+						isSoon: true
 					},
 					{
 						label: "public.nav.help.items.contact.label",
@@ -147,14 +150,16 @@ export const PUBLIC_NAV_ITEMS: IPublicNavLink[] = [
 						label: "public.nav.help.items.faq.label",
 						description: "public.nav.help.items.faq.description",
 						icon: HelpCircle,
-						path: ENUM_PATH.HELP.FAQ
+						path: ENUM_PATH.HELP.FAQ,
+						isSoon: true
 					},
 					{
 						label: "public.nav.help.items.training.label",
 						description:
 							"public.nav.help.items.training.description",
 						icon: GraduationCap,
-						path: ENUM_PATH.HELP.TRAINING
+						path: ENUM_PATH.HELP.TRAINING,
+						isSoon: true
 					},
 					{
 						label: "public.nav.help.items.moreInfo.label",

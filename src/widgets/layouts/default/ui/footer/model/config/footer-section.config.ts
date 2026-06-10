@@ -21,7 +21,8 @@ export const FOOTER_SECTIONS: IFooterSectionConfig[] = [
 			},
 			{
 				label: "sections.company.links.news",
-				path: ENUM_PATH.COMPANY.NEWS
+				path: ENUM_PATH.COMPANY.NEWS,
+				isSoon: true
 			},
 			{
 				label: "sections.company.links.feedback",
@@ -43,7 +44,8 @@ export const FOOTER_SECTIONS: IFooterSectionConfig[] = [
 			},
 			{
 				label: "sections.toursPartners.links.agencies",
-				path: ENUM_PATH.PARTNERS.AGENCIES
+				path: ENUM_PATH.PARTNERS.AGENCIES,
+				isSoon: true
 			},
 			{
 				label: "sections.toursPartners.links.hotels",
@@ -71,7 +73,8 @@ export const FOOTER_SECTIONS: IFooterSectionConfig[] = [
 		links: [
 			{
 				label: "sections.help.links.support",
-				path: ENUM_PATH.HELP.SUPPORT
+				path: ENUM_PATH.HELP.SUPPORT,
+				isSoon: true
 			},
 			{
 				label: "sections.help.links.contact",
@@ -79,11 +82,13 @@ export const FOOTER_SECTIONS: IFooterSectionConfig[] = [
 			},
 			{
 				label: "sections.help.links.faq",
-				path: ENUM_PATH.HELP.FAQ
+				path: ENUM_PATH.HELP.FAQ,
+				isSoon: true
 			},
 			{
 				label: "sections.help.links.training",
-				path: ENUM_PATH.HELP.TRAINING
+				path: ENUM_PATH.HELP.TRAINING,
+				isSoon: true
 			},
 			{
 				label: "sections.help.links.moreInfo",

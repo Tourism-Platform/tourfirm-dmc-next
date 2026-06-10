@@ -4,6 +4,7 @@ import { Separator } from "@/shared/ui";
 
 import { FOOTER_SECTIONS, SOCIAL_LINKS } from "../model";
 
+import { FooterContact } from "./footer-contact";
 import { FooterCopyright } from "./footer-copyright";
 import { FooterLogo } from "./footer-logo";
 import { FooterSection } from "./footer-section";
@@ -33,8 +34,9 @@ export const FooterDefault = async () => {
 			<div className="mx-auto max-w-7xl px-4 py-10 lg:px-4 xl:px-8">
 				<div className="flex flex-col gap-8">
 					<div className="grid grid-cols-2 gap-x-8 gap-y-10 md:grid-cols-4 lg:grid-cols-5">
-						<div className="col-span-2 md:col-span-4 lg:col-span-1">
+						<div className="col-span-2 flex flex-col gap-4 md:col-span-4 lg:col-span-1">
 							<FooterLogo brandName={t("brand.name")} />
+							<FooterContact />
 						</div>
 
 						{sections.map((section) => (

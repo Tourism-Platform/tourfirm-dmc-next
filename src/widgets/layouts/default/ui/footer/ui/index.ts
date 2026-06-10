@@ -1,3 +1,4 @@
+export { FooterContact } from "./footer-contact";
 export { FooterCopyright } from "./footer-copyright";
 export { FooterDefault } from "./footer";
 export { FooterLogo } from "./footer-logo";

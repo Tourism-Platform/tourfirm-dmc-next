@@ -8,7 +8,9 @@ import { Exo_2, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
 
+import { ENUM_PATH } from "@/shared/config";
 import { routing } from "@/shared/i18n";
+import { createPageMetadata } from "@/shared/lib";
 import "@/shared/styles/globals.css";
 
 import { FooterDefault, HeaderDefault } from "@/widgets/layouts/default";
@@ -38,10 +40,12 @@ export async function generateMetadata({ params }: Omit<TProps, "children">) {
 	const { locale } = await params;
 	const t = await getTranslations({ locale, namespace: "footer" });
 
-	return {
+	return createPageMetadata({
 		title: t("meta.title"),
-		description: t("meta.description")
-	};
+		description: t("meta.description"),
+		locale,
+		path: ENUM_PATH.MAIN.ROOT
+	});
 }
 
 export default async function LocaleLayout({ children, params }: TProps) {

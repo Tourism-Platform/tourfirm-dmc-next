@@ -1,6 +1,9 @@
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 
+import { ENUM_PATH } from "@/shared/config";
+import { createPageMetadata } from "@/shared/lib";
+
 import { CompanyServicesPage } from "@/page/company-services";
 
 export const dynamic = "force-static";
@@ -16,10 +19,12 @@ export async function generateMetadata({ params }: TProps) {
 		namespace: "company_services_page"
 	});
 
-	return {
+	return createPageMetadata({
 		title: t("meta.title"),
-		description: t("meta.description")
-	};
+		description: t("meta.description"),
+		locale,
+		path: ENUM_PATH.COMPANY.SERVICES
+	});
 }
 
 export default async function ServicesRoute({ params }: TProps) {
