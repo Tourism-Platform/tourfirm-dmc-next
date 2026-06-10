@@ -1,4 +1,115 @@
 {
-	"title": "About us",
-	"description": "Section under development"
+	"meta": {
+		"title": "About us | TourLink",
+		"description": "TourLink is a DMC and tour operator in Central Asia. Learn about our mission, history, and approach to travel across Uzbekistan and the region."
+	},
+	"hero": {
+		"title": "About",
+		"title_accent": "TourLink",
+		"description": "A DMC and tour operator in Central Asia — we design routes where place, people, and the rhythm of the journey work as one."
+	},
+	"intro": {
+		"eyebrow": "Who we are",
+		"title": "Your link to Central Asia",
+		"description": "TourLink grew from the team, routes, and regional experience of Orient Star Group. We are a DMC based in Tashkent with programs across five countries in the region.",
+		"paragraph": "We do more than organize trips — we create the conditions for travelers to feel the essence of each place: through contact with locals, exchange of ideas, and immersion in traditions. Uzbekistan is our home, and a route can lead to the mountains of Kyrgyzstan, the steppes of Kazakhstan, and the desert roads of Turkmenistan."
+	},
+	"mission": {
+		"eyebrow": "Mission",
+		"title": "Journeys that stay in memory",
+		"description": "We go beyond standard tours: every TourLink program is designed by our team without intermediaries, with a focus on authenticity and quality.",
+		"quote": "We speak our clients' language and become not only guides but companions along the way — so every traveler feels at home while discovering the wonders we have carefully prepared.",
+		"signature": "The TourLink team"
+	},
+	"why": {
+		"eyebrow": "Why TourLink",
+		"title": "What sets us apart as a DMC",
+		"description": "Six reasons agencies and travelers choose TourLink for routes across Central Asia.",
+		"items": {
+			"experience": {
+				"title": "15+ years in tourism",
+				"description": "A team with deep experience in Central Asia — from route planning to on-the-ground coordination."
+			},
+			"languages": {
+				"title": "Multilingual team",
+				"description": "Russian, English, Spanish, Italian, German, Japanese, and more — for seamless communication with clients."
+			},
+			"individual": {
+				"title": "Individual approach",
+				"description": "Routes, transport, and accommodation tailored to dates, pace, group size, and each client's preferences."
+			},
+			"routes": {
+				"title": "Exclusive routes",
+				"description": "From cities of the Thousand and One Nights to lesser-known corners of the Silk Road — with local experts."
+			},
+			"quality": {
+				"title": "Quality of service",
+				"description": "Reliable partners for accommodation, transport, and guides. Comfort and safety are our top priorities."
+			},
+			"sustainability": {
+				"title": "Sustainable tourism",
+				"description": "Working with local communities, preserving cultural authenticity, and minimizing environmental impact."
+			}
+		}
+	},
+	"history": {
+		"eyebrow": "History",
+		"title": "From idea to regional leader",
+		"description": "Key milestones that shaped TourLink and the Orient Star Group team.",
+		"intro": "TourLink's story grew from the path of Orient Star Group — from Surxon Mobile in 2006 to a DMC in Central Asia. Over the years the team welcomed thousands of foreign travelers, ran dozens of FAM trips, and reached international trade fairs — before launching the new TourLink brand in 2026.",
+		"items": {
+			"founding": {
+				"year": "2006",
+				"title": "The beginning",
+				"description": "Founded as Surxon Mobile — flight booking and exploration of international destinations."
+			},
+			"dmc": {
+				"year": "2016",
+				"title": "DMC status",
+				"description": "Obtained DMC status and became a tour operator in Central Asia. Operations in Russian, English, and Spanish — with Uzbekistan at the heart of every route."
+			},
+			"expansion": {
+				"year": "2018–2019",
+				"title": "Growing arrivals",
+				"description": "Welcoming 400 to 800 foreign tourists each year. Strengthening a leading position in Uzbekistan's tourism industry."
+			},
+			"rebuild": {
+				"year": "2020",
+				"title": "Post-pandemic relaunch",
+				"description": "A six-month pause and rebirth from August. A new team speaking seven languages, full upgrade of transport, accommodation, and tour packages."
+			},
+			"fam_series": {
+				"year": "2021",
+				"title": "FAM and infotour series",
+				"description": "February through May — three infotours for operators from Spain, Italy, England, and Greece. From July — groups of 15–20 travelers."
+			},
+			"market_leader": {
+				"year": "2021",
+				"title": "Market leader",
+				"description": "250 tourists welcomed by year-end. Established as a leading agency among Uzbekistan's tour operators."
+			},
+			"fam_network": {
+				"year": "2022",
+				"title": "Partner network",
+				"description": "Five FAM trips with 60+ companies from Spain, Italy, Portugal, Sweden, and Russia. A Fam Trip for Portuguese operators acclaimed in T-NEW magazine."
+			},
+			"global_presence": {
+				"year": "2023",
+				"title": "Global presence",
+				"description": "Six trade fairs: FITUR, Puteshestvuy Moscow, TOP RESA Paris, TTG Rimini, Tourism Expo Japan Osaka, WTM London. By November — 2500+ tourists and 50+ partner agencies."
+			},
+			"tourlink": {
+				"year": "2026",
+				"title": "TourLink launch",
+				"description": "Rebrand and launch of TourLink — a new DMC brand built on years of Orient Star Group experience. Same team, new name, and a digital platform for agencies and travelers."
+			}
+		}
+	},
+	"cta": {
+		"eyebrow": "Start with a conversation",
+		"title": "Ready to discover Central Asia with TourLink?",
+		"description": "Tell us your dates, format, and direction — we will propose a route that keeps the journey's rhythm and reveals the region.",
+		"primary": "Browse tours",
+		"secondary": "Contact us"
+	}
 }

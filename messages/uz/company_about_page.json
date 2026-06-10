@@ -1,4 +1,115 @@
 {
-	"title": "Biz haqimizda",
-	"description": "Bo'lim ishlab chiqilmoqda"
+	"meta": {
+		"title": "Biz haqimizda | TourLink",
+		"description": "TourLink — Markaziy Osiyodagi DMC va turoperator. Missiyamiz, tariximiz va O'zbekiston hamda mintaqada sayohat yondashuvimiz haqida bilib oling."
+	},
+	"hero": {
+		"title": "Biz",
+		"title_accent": "TourLink",
+		"description": "Markaziy Osiyodagi DMC va turoperator — joy, odamlar va sayohat ritmi bir butun sifatida ishlaydigan marshrutlarni loyihalashtiramiz."
+	},
+	"intro": {
+		"eyebrow": "Biz kim",
+		"title": "Markaziy Osiyo bilan aloqangiz",
+		"description": "TourLink Orient Star Group jamoasi, marshrutlari va mintaqaviy tajribasidan o'sdi. Biz Toshkentda joylashgan DMC bo'lib, mintaqaning beshta mamlakatida dasturlar taklif qilamiz.",
+		"paragraph": "Biz shunchaki sayohatlarni tashkil qilmaymiz — sayohatchi har bir joyning mohiyatini his qilishi uchun sharoit yaratamiz: mahalliy aholi bilan muloqot, fikr almashish va an'analarga sho'ng'ish orqali. O'zbekiston — bizning uymiz, marshrut esa Qirg'iziston tog'lari, Qozog'iston dashtlari va Turkmaniston cho'l yo'llariga olib borishi mumkin."
+	},
+	"mission": {
+		"eyebrow": "Missiya",
+		"title": "Xotirada qoladigan sayohatlar",
+		"description": "Biz standart turlardan tashqariga chiqamiz: har bir TourLink dasturi vositachilarsiz, autentiklik va sifatga e'tibor bilan jamoamiz tomonidan ishlab chiqiladi.",
+		"quote": "Biz mijozlarimiz tilida gaplashamiz va nafaqat gid, balki butun yo'l davomida hamroh bo'lamiz — har bir sayohatchi biz tayyorlagan mo'jizalarni kashf etayotganda o'z uyidagidek his qilsin.",
+		"signature": "TourLink jamoasi"
+	},
+	"why": {
+		"eyebrow": "Nima uchun TourLink",
+		"title": "Bizni DMC sifatida ajratib turadigan narsa",
+		"description": "Agentliklar va sayohatchilar Markaziy Osiyo marshrutlari uchun TourLinkni tanlashining olti sababi.",
+		"items": {
+			"experience": {
+				"title": "15+ yillik tajriba",
+				"description": "Markaziy Osiyoda chuqur tajribaga ega jamoa — marshrut rejalashtirishdan joydagi muvofiqlashtirishgacha."
+			},
+			"languages": {
+				"title": "Ko'p tilli jamoa",
+				"description": "Rus, ingliz, ispan, italyan, nemis, yapon va boshqa tillar — mijozlar bilan muammosiz muloqot uchun."
+			},
+			"individual": {
+				"title": "Individual yondashuv",
+				"description": "Marshrut, transport va joylashuv sanalar, temp, guruh hajmi va har bir mijoz afzalliklariga moslashtiriladi."
+			},
+			"routes": {
+				"title": "Eksklyuziv marshrutlar",
+				"description": "«Ming bir kecha» shaharlari va Ipak yo'lining kam ma'lum yo'laklari — mahalliy mutaxassislar bilan."
+			},
+			"quality": {
+				"title": "Xizmat sifati",
+				"description": "Joylashuv, transport va gidlar bo'yicha ishonchli hamkorlar. Qulaylik va xavfsizlik — asosiy ustuvorliklar."
+			},
+			"sustainability": {
+				"title": "Barqaror turizm",
+				"description": "Mahalliy jamoalar bilan ishlash, madaniy autentiklikni saqlash va atrof-muhitga ta'sirni kamaytirish."
+			}
+		}
+	},
+	"history": {
+		"eyebrow": "Tarix",
+		"title": "G'oyadan mintaqaviy yetakchilikka",
+		"description": "TourLink va Orient Star Group jamoasini shakllantirgan asosiy bosqichlar.",
+		"intro": "TourLink tarixi Orient Star Group yo'lidan o'sdi — 2006-yilda Surxon Mobiledan Markaziy Osiyodagi DMCgacha. Yillar davomida jamoa minglab chet el sayohatchilarini qabul qildi, o'nlab FAM-sayohatlar o'tkazdi va xalqaro ko'rgazmalarga chiqdi — 2026-yilda esa yangi TourLink brendini ishga tushirdi.",
+		"items": {
+			"founding": {
+				"year": "2006",
+				"title": "Boshlanish",
+				"description": "Surxon Mobile sifatida tashkil etilgan — aviachipta bron qilish va xorijiy yo'nalishlarni o'rganish."
+			},
+			"dmc": {
+				"year": "2016",
+				"title": "DMC maqomi",
+				"description": "DMC maqomini olish va Markaziy Osiyoda turoperator kompaniyasiga aylanish. Rus, ingliz va ispan tillarida ish — O'zbekiston har bir marshrut markazida."
+			},
+			"expansion": {
+				"year": "2018–2019",
+				"title": "Qabul o'sishi",
+				"description": "Har yili 400 dan 800 gacha chet el sayohatchilarini qabul qilish. O'zbekiston turizm sanoatida yetakchi pozitsiyani mustahkamlash."
+			},
+			"rebuild": {
+				"year": "2020",
+				"title": "Pandemiyadan keyin qayta tiklash",
+				"description": "Olti oylik tanaffus va avgustdan qayta tiklanish. Yetti tilda gaplashadigan yangi jamoa, transport, joylashuv va tur paketlarini to'liq yangilash."
+			},
+			"fam_series": {
+				"year": "2021",
+				"title": "FAM va infotour seriyasi",
+				"description": "Fevraldan maygacha — Ispaniya, Italiya, Angliya va Gretsiyadan turoperatorlar uchun uch infotour. Iyuldan — 15–20 kishilik guruhlarni qabul qilish."
+			},
+			"market_leader": {
+				"year": "2021",
+				"title": "Bozor yetakchisi",
+				"description": "Yil oxirigacha — 250 qabul qilingan sayohatchi. O'zbekiston turistik agentliklari orasida yetakchi sifatida mustahkamlanish."
+			},
+			"fam_network": {
+				"year": "2022",
+				"title": "Hamkorlar tarmog'i",
+				"description": "Besh FAM TRIP, Ispaniya, Italiya, Portugaliya, Shvetsiya va Rossiyadan 60+ kompaniya ishtirokida. Portugaliya operatorlari uchun T-NEW jurnalida yuqori baholangan Fam Trip."
+			},
+			"global_presence": {
+				"year": "2023",
+				"title": "Xalqaro mavjudlik",
+				"description": "Olti ko'rgazma: FITUR, Moskva «Puteshestvuy», Parij TOP RESA, Rimini TTG, Osaka Tourism Expo Japan, WTM London. Noyabrgacha — 2500+ sayohatchi va 50+ hamkor agentlik."
+			},
+			"tourlink": {
+				"year": "2026",
+				"title": "TourLink tug'ilishi",
+				"description": "TourLink qayta brendlash va ishga tushirish — Orient Star Group ko'p yillik tajribasiga asoslangan yangi DMC brendi. Bir jamoa, yangi nom va agentliklar hamda sayohatchilar uchun raqamli platforma."
+			}
+		}
+	},
+	"cta": {
+		"eyebrow": "Suhbatdan boshlang",
+		"title": "TourLink bilan Markaziy Osiyoni kashf etishga tayyormisiz?",
+		"description": "Sanalar, format va yo'nalishni ayting — sayohat ritmini saqlab, mintaqani ochadigan marshrutni taklif qilamiz.",
+		"primary": "Turlarni ko'rish",
+		"secondary": "Biz bilan bog'lanish"
+	}
 }
