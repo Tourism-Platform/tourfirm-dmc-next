@@ -2,22 +2,24 @@ import type { ReactNode } from "react";
 
 import { cn } from "@/shared/lib";
 
-type TMainSectionHeaderProps = {
+type TCustomSectionHeaderProps = {
 	eyebrow: string;
 	title: ReactNode;
 	description?: string;
+	actions?: ReactNode;
 	className?: string;
 };
 
-export function MainSectionHeader({
+export function CustomSectionHeader({
 	eyebrow,
 	title,
 	description,
+	actions,
 	className
-}: TMainSectionHeaderProps) {
-	return (
+}: TCustomSectionHeaderProps) {
+	const content = (
 		<div className={cn("flex max-w-3xl flex-col gap-3", className)}>
-			<p className="text-primary text-xs font-semibold uppercase tracking-widest">
+			<p className="text-primary text-lg font-semibold uppercase tracking-widest">
 				{eyebrow}
 			</p>
 			<h2 className="text-xl font-semibold sm:text-2xl lg:text-3xl">
@@ -28,6 +30,17 @@ export function MainSectionHeader({
 					{description}
 				</p>
 			) : null}
+		</div>
+	);
+
+	if (!actions) {
+		return content;
+	}
+
+	return (
+		<div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+			{content}
+			{actions}
 		</div>
 	);
 }

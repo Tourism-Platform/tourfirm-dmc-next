@@ -1,12 +1,11 @@
 import { getTranslations } from "next-intl/server";
 
 import { ENUM_PATH, buildRouteWithQuery } from "@/shared/config";
+import { CustomSectionHeader } from "@/shared/ui";
 
 import { CountryCard } from "@/entities/tour";
 
 import { COUNTRIES_CONFIG } from "../model";
-
-import { DestinationsSectionHeader } from "./destinations-section-header";
 
 export async function CountriesGrid() {
 	const t = await getTranslations("destinations_page");
@@ -16,7 +15,7 @@ export async function CountriesGrid() {
 			id="countries"
 			className="flex scroll-mt-24 flex-col gap-6 sm:gap-8"
 		>
-			<DestinationsSectionHeader
+			<CustomSectionHeader
 				eyebrow={t("countries.eyebrow")}
 				title={t("countries.title")}
 				description={t("countries.description")}

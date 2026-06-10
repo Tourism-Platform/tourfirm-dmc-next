@@ -1,11 +1,11 @@
 import { getTranslations } from "next-intl/server";
 
 import { cn } from "@/shared/lib";
+import { CustomSectionHeader } from "@/shared/ui";
 
 import { SERVICES_BUSINESS_CONFIG } from "../model";
 
 import { ServicesBusinessCard } from "./services-business-card";
-import { ServicesSectionHeader } from "./services-section-header";
 
 const LAST_BUSINESS_INDEX = SERVICES_BUSINESS_CONFIG.length - 1;
 
@@ -15,7 +15,7 @@ export async function ServicesBusinessSection() {
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
 			<div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,2fr)] lg:gap-12 xl:gap-16">
-				<ServicesSectionHeader
+				<CustomSectionHeader
 					className="lg:sticky lg:top-24"
 					eyebrow={t("business.eyebrow")}
 					title={t("business.title")}

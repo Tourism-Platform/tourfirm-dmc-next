@@ -4,6 +4,7 @@ export type TServicesDirectionId = "guides" | "programs" | "business";
 
 export type TServicesDirectionConfig = {
 	id: TServicesDirectionId;
+	imageUrl: string;
 	i18n: TDirectionI18n;
 };
 

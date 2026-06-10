@@ -10,3 +10,6 @@ export * from "./custom-price-filter";
 export * from "./custom-accordion";
 export * from "./custom-input-select";
 export * from "./custom-selectable-card";
+export * from "./custom-section-header";
+export * from "./custom-page-hero";
+export * from "./custom-cta-banner";

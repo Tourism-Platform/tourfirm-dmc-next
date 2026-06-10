@@ -2,12 +2,11 @@ import { Briefcase, Heart, type LucideIcon, User, Users } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
 import { Badge } from "@/shared/ui";
+import { CustomSectionHeader } from "@/shared/ui";
 
 import { DestinationInsightCard } from "@/entities/tour";
 
 import { MAIN_TRIP_FORMATS_CONFIG, type TTripFormatId } from "../model";
-
-import { MainSectionHeader } from "./main-section-header";
 
 const FORMAT_ICONS: Record<TTripFormatId, LucideIcon> = {
 	private: User,
@@ -21,7 +20,7 @@ export async function TripFormatsSection() {
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
-			<MainSectionHeader
+			<CustomSectionHeader
 				eyebrow={t("trip_formats.eyebrow")}
 				title={t("trip_formats.title")}
 				description={t("trip_formats.description")}

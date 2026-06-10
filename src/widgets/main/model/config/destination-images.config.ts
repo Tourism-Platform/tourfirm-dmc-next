@@ -7,3 +7,4 @@ export const MAIN_DESTINATION_IMAGES = {
 } as const;
 
 export const MAIN_HERO_IMAGE = "/assets/images/hero-image.jpg";
+export const MAIN_CTA_IMAGE = "/assets/images/samarkand.jpg";

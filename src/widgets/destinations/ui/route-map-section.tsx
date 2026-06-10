@@ -1,16 +1,16 @@
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 
-import { DESTINATIONS_ROUTE_MAP_IMAGE } from "../model";
+import { CustomSectionHeader } from "@/shared/ui";
 
-import { DestinationsSectionHeader } from "./destinations-section-header";
+import { DESTINATIONS_ROUTE_MAP_IMAGE } from "../model";
 
 export async function RouteMapSection() {
 	const t = await getTranslations("destinations_page");
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
-			<DestinationsSectionHeader
+			<CustomSectionHeader
 				eyebrow={t("route_map.eyebrow")}
 				title={t("route_map.title")}
 				description={t("route_map.description")}

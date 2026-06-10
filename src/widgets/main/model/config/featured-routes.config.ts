@@ -2,12 +2,10 @@ import { ENUM_PATH, buildRouteWithQuery } from "@/shared/config";
 
 import { MAIN_ROUTE_I18N, type TMainRouteConfig } from "../types";
 
-import { MAIN_DESTINATION_IMAGES } from "./destination-images.config";
-
 export const MAIN_FEATURED_ROUTES_CONFIG: TMainRouteConfig[] = [
 	{
 		id: "essentials",
-		imageUrl: MAIN_DESTINATION_IMAGES.uzbekistan,
+		imageUrl: "/assets/images/tours/classic.jpg",
 		ctaHref: buildRouteWithQuery(ENUM_PATH.MAIN.CATALOG, {
 			destination: "Uzbekistan"
 		}),
@@ -15,13 +13,13 @@ export const MAIN_FEATURED_ROUTES_CONFIG: TMainRouteConfig[] = [
 	},
 	{
 		id: "silk_road",
-		imageUrl: MAIN_DESTINATION_IMAGES.kyrgyzstan,
+		imageUrl: "/assets/images/tours/silk-road.jpg",
 		ctaHref: ENUM_PATH.HELP.CONTACT,
 		i18n: MAIN_ROUTE_I18N.silk_road
 	},
 	{
 		id: "regional",
-		imageUrl: MAIN_DESTINATION_IMAGES.tajikistan,
+		imageUrl: "/assets/images/tours/multi-country.jpg",
 		ctaHref: ENUM_PATH.HELP.CONTACT,
 		i18n: MAIN_ROUTE_I18N.regional
 	}

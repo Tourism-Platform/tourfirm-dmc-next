@@ -1,17 +1,17 @@
 import { getTranslations } from "next-intl/server";
 
+import { CustomSectionHeader } from "@/shared/ui";
+
 import { JournalCard } from "@/entities/tour";
 
 import { MAIN_JOURNAL_CONFIG } from "../model";
-
-import { MainSectionHeader } from "./main-section-header";
 
 export async function JournalSection() {
 	const t = await getTranslations("main_page");
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
-			<MainSectionHeader
+			<CustomSectionHeader
 				eyebrow={t("journal.eyebrow")}
 				title={t("journal.title")}
 				description={t("journal.description")}

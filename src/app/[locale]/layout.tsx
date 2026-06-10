@@ -68,9 +68,7 @@ export default async function LocaleLayout({ children, params }: TProps) {
 						timeZone="UTC"
 					>
 						<HeaderDefault />
-						<div className="flex flex-1 flex-col mb-10 md:mb-20 lg:mb-32">
-							{children}
-						</div>
+						<div className="flex flex-1 flex-col">{children}</div>
 						<FooterDefault />
 					</NextIntlClientProvider>
 				</Providers>

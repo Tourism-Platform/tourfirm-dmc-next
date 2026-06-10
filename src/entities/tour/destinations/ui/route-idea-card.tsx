@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { Link } from "@/shared/i18n";
-import { Badge, Button, Card } from "@/shared/ui";
+import { Badge, Button, Card, CardContent } from "@/shared/ui";
 
 import type { IRouteIdeaCard } from "../types";
 
@@ -11,8 +11,8 @@ type TRouteIdeaCardProps = {
 
 export function RouteIdeaCard({ data }: TRouteIdeaCardProps) {
 	return (
-		<Card className="flex flex-col overflow-hidden p-0">
-			<div className="relative h-44">
+		<Card className="grid grid-rows-[max-content_1fr] overflow-hidden p-0 gap-0">
+			<div className="relative h-64">
 				<Image
 					src={data.imageUrl}
 					alt={data.imageAlt}
@@ -21,7 +21,7 @@ export function RouteIdeaCard({ data }: TRouteIdeaCardProps) {
 					sizes="(max-width: 1024px) 100vw, 33vw"
 				/>
 			</div>
-			<div className="flex flex-1 flex-col gap-3 p-5">
+			<CardContent className="flex flex-1 flex-col gap-3 p-5">
 				<div className="flex flex-wrap items-center gap-2">
 					<Badge variant="secondary">{data.badge}</Badge>
 					<span className="text-muted-foreground text-xs">
@@ -37,7 +37,7 @@ export function RouteIdeaCard({ data }: TRouteIdeaCardProps) {
 				<Button asChild variant="outline" className="w-fit">
 					<Link href={data.ctaHref}>{data.ctaLabel}</Link>
 				</Button>
-			</div>
+			</CardContent>
 		</Card>
 	);
 }

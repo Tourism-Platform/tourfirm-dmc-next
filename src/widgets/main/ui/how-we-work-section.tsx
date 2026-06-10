@@ -1,9 +1,9 @@
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 
-import { MAIN_HERO_IMAGE } from "../model";
+import { CustomSectionHeader } from "@/shared/ui";
 
-import { MainSectionHeader } from "./main-section-header";
+import { MAIN_HERO_IMAGE } from "../model";
 
 export async function HowWeWorkSection() {
 	const t = await getTranslations("main_page");
@@ -12,7 +12,7 @@ export async function HowWeWorkSection() {
 		<section className="flex flex-col gap-6 sm:gap-8">
 			<div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-2">
 				<div className="flex flex-col gap-4">
-					<MainSectionHeader
+					<CustomSectionHeader
 						eyebrow={t("how_we_work.eyebrow")}
 						title={t("how_we_work.title")}
 						description={t("how_we_work.description")}

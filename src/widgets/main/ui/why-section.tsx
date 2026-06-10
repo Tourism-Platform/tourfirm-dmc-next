@@ -1,11 +1,11 @@
 import { Gauge, Link2, type LucideIcon, Route } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
+import { CustomSectionHeader } from "@/shared/ui";
+
 import { DestinationInsightCard } from "@/entities/tour";
 
 import { MAIN_WHY_CONFIG, type TMainWhyId } from "../model";
-
-import { MainSectionHeader } from "./main-section-header";
 
 const WHY_ICONS: Record<TMainWhyId, LucideIcon> = {
 	programs: Route,
@@ -18,7 +18,7 @@ export async function WhySection() {
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
-			<MainSectionHeader
+			<CustomSectionHeader
 				eyebrow={t("why.eyebrow")}
 				title={t("why.title")}
 			/>

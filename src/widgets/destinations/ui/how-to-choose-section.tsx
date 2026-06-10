@@ -1,11 +1,11 @@
 import { Gauge, GitBranch, type LucideIcon, Target } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
+import { CustomSectionHeader } from "@/shared/ui";
+
 import { DestinationInsightCard } from "@/entities/tour";
 
 import { HOW_TO_CHOOSE_CONFIG, type THowToChooseId } from "../model";
-
-import { DestinationsSectionHeader } from "./destinations-section-header";
 
 const HOW_TO_CHOOSE_ICONS: Record<THowToChooseId, LucideIcon> = {
 	center: Target,
@@ -18,7 +18,7 @@ export async function HowToChooseSection() {
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
-			<DestinationsSectionHeader
+			<CustomSectionHeader
 				eyebrow={t("how_to_choose.eyebrow")}
 				title={t("how_to_choose.title")}
 				description={t("how_to_choose.description")}

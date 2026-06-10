@@ -1,11 +1,11 @@
 import { CalendarDays, type LucideIcon, Route, Shield } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
+import { CustomSectionHeader } from "@/shared/ui";
+
 import { DestinationInsightCard } from "@/entities/tour";
 
 import { PLANNING_CHECKS_CONFIG, type TPlanningCheckId } from "../model";
-
-import { DestinationsSectionHeader } from "./destinations-section-header";
 
 const PLANNING_CHECK_ICONS: Record<TPlanningCheckId, LucideIcon> = {
 	access: Shield,
@@ -18,7 +18,7 @@ export async function PlanningChecksSection() {
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
-			<DestinationsSectionHeader
+			<CustomSectionHeader
 				eyebrow={t("planning_checks.eyebrow")}
 				title={t("planning_checks.title")}
 				description={t("planning_checks.description")}

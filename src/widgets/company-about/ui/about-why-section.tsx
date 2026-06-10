@@ -9,11 +9,11 @@ import {
 } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
+import { CustomSectionHeader } from "@/shared/ui";
+
 import { DestinationInsightCard } from "@/entities/tour";
 
 import { ABOUT_WHY_CONFIG, type TAboutWhyId } from "../model";
-
-import { AboutSectionHeader } from "./about-section-header";
 
 const WHY_ICONS: Record<TAboutWhyId, LucideIcon> = {
 	experience: Award,
@@ -29,7 +29,7 @@ export async function AboutWhySection() {
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
-			<AboutSectionHeader
+			<CustomSectionHeader
 				eyebrow={t("why.eyebrow")}
 				title={t("why.title")}
 				description={t("why.description")}

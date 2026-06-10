@@ -1,13 +1,13 @@
 import { getTranslations } from "next-intl/server";
 
-import { AboutSectionHeader } from "./about-section-header";
+import { CustomSectionHeader } from "@/shared/ui";
 
 export async function AboutMissionSection() {
 	const t = await getTranslations("company_about_page");
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
-			<AboutSectionHeader
+			<CustomSectionHeader
 				eyebrow={t("mission.eyebrow")}
 				title={t("mission.title")}
 				description={t("mission.description")}

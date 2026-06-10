@@ -20,11 +20,11 @@ import {
 	TimelineItem,
 	TimelineSeparator
 } from "@/shared/ui";
+import { CustomSectionHeader } from "@/shared/ui";
 
 import { ABOUT_HISTORY_CONFIG, type TAboutHistoryId } from "../model";
 
 import { AboutHistoryCard } from "./about-history-card";
-import { AboutSectionHeader } from "./about-section-header";
 
 const HISTORY_ICONS: Record<TAboutHistoryId, LucideIcon> = {
 	founding: Plane,
@@ -43,7 +43,7 @@ export async function AboutHistorySection() {
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
-			<AboutSectionHeader
+			<CustomSectionHeader
 				eyebrow={t("history.eyebrow")}
 				title={t("history.title")}
 				description={t("history.description")}

@@ -1,17 +1,17 @@
 import { getTranslations } from "next-intl/server";
 
+import { CustomSectionHeader } from "@/shared/ui";
+
 import { RouteIdeaCard } from "@/entities/tour";
 
 import { MAIN_FEATURED_ROUTES_CONFIG } from "../model";
-
-import { MainSectionHeader } from "./main-section-header";
 
 export async function FeaturedRoutesSection() {
 	const t = await getTranslations("main_page");
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
-			<MainSectionHeader
+			<CustomSectionHeader
 				eyebrow={t("featured_routes.eyebrow")}
 				title={t("featured_routes.title")}
 				description={t("featured_routes.description")}

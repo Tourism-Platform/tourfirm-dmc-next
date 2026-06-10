@@ -1,17 +1,17 @@
 import { getTranslations } from "next-intl/server";
 
+import { CustomSectionHeader } from "@/shared/ui";
+
 import { ExperienceCard } from "@/entities/tour";
 
 import { MAIN_EXPERIENCES_CONFIG } from "../model";
-
-import { MainSectionHeader } from "./main-section-header";
 
 export async function ExperiencesSection() {
 	const t = await getTranslations("main_page");
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
-			<MainSectionHeader
+			<CustomSectionHeader
 				eyebrow={t("experiences.eyebrow")}
 				title={t("experiences.title")}
 				description={t("experiences.description")}
