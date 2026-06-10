@@ -1,5 +1,3 @@
-"use client";
-
 import {
 	Building2,
 	Globe2,
@@ -12,8 +10,7 @@ import {
 	Trophy,
 	Users
 } from "lucide-react";
-import { useTranslations } from "next-intl";
-import type { FC } from "react";
+import { getTranslations } from "next-intl/server";
 
 import {
 	Timeline,
@@ -21,8 +18,7 @@ import {
 	TimelineHeader,
 	TimelineIndicator,
 	TimelineItem,
-	TimelineSeparator,
-	withErrorBoundary
+	TimelineSeparator
 } from "@/shared/ui";
 
 import { ABOUT_HISTORY_CONFIG, type TAboutHistoryId } from "../model";
@@ -42,8 +38,8 @@ const HISTORY_ICONS: Record<TAboutHistoryId, LucideIcon> = {
 	tourlink: Sparkles
 };
 
-const AboutHistorySectionBase: FC = () => {
-	const t = useTranslations("company_about_page");
+export async function AboutHistorySection() {
+	const t = await getTranslations("company_about_page");
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
@@ -87,6 +83,4 @@ const AboutHistorySectionBase: FC = () => {
 			</Timeline>
 		</section>
 	);
-};
-
-export const AboutHistorySection = withErrorBoundary(AboutHistorySectionBase);
+}

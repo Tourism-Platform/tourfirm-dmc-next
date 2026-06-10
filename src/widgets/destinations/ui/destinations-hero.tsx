@@ -1,17 +1,14 @@
-"use client";
-
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
-import type { FC } from "react";
 
 import { ENUM_PATH, buildRouteWithQuery } from "@/shared/config";
 import { Link } from "@/shared/i18n";
-import { Button, withErrorBoundary } from "@/shared/ui";
+import { Button } from "@/shared/ui";
 
 import { DESTINATIONS_HERO_IMAGE } from "../model";
 
-const DestinationsHeroBase: FC = () => {
-	const t = useTranslations("destinations_page");
+export async function DestinationsHero() {
+	const t = await getTranslations("destinations_page");
 
 	return (
 		<section className="relative min-h-[480px] sm:min-h-[560px]">
@@ -26,9 +23,6 @@ const DestinationsHeroBase: FC = () => {
 			<div className="absolute inset-0 bg-black/50" />
 			<div className="relative z-10 mx-auto flex min-h-[480px] w-full max-w-7xl flex-col justify-end gap-6 px-4 py-16 sm:min-h-[560px] sm:gap-8 sm:px-6 sm:py-20 lg:px-8">
 				<div className="flex max-w-3xl flex-col gap-4 text-white">
-					{/* <p className="text-xs font-semibold uppercase tracking-widest text-white/80">
-						{t("hero.eyebrow")}
-					</p> */}
 					<h1 className="text-3xl font-semibold uppercase leading-tight sm:text-4xl lg:text-5xl">
 						{t("hero.title")}{" "}
 						<span className="text-primary italic normal-case">
@@ -59,6 +53,4 @@ const DestinationsHeroBase: FC = () => {
 			</div>
 		</section>
 	);
-};
-
-export const DestinationsHero = withErrorBoundary(DestinationsHeroBase);
+}

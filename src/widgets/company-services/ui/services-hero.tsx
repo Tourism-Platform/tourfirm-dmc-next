@@ -2,7 +2,8 @@ import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 
 import { ENUM_PATH } from "@/shared/config";
-import { ButtonAnchor, ButtonLink } from "@/shared/ui";
+import { Link } from "@/shared/i18n";
+import { Button } from "@/shared/ui";
 
 import { SERVICES_HERO_IMAGE } from "../model";
 
@@ -38,16 +39,18 @@ export async function ServicesHero() {
 						{t("hero.description")}
 					</p>
 					<div className="flex flex-wrap gap-3 pt-2">
-						<ButtonLink href={ENUM_PATH.HELP.CONTACT}>
-							{t("hero.primary_cta")}
-						</ButtonLink>
-						<ButtonAnchor
-							href="#directions"
+						<Button asChild>
+							<Link href={ENUM_PATH.HELP.CONTACT}>
+								{t("hero.primary_cta")}
+							</Link>
+						</Button>
+						<Button
+							asChild
 							variant="outline"
 							className="border-white/30 bg-white/10 text-white hover:bg-white/20 hover:text-white"
 						>
-							{t("hero.secondary_cta")}
-						</ButtonAnchor>
+							<a href="#directions">{t("hero.secondary_cta")}</a>
+						</Button>
 					</div>
 				</div>
 			</div>

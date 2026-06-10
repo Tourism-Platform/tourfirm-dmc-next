@@ -1,5 +1,3 @@
-"use client";
-
 import {
 	Gauge,
 	Globe2,
@@ -8,10 +6,7 @@ import {
 	MessageCircle,
 	Users
 } from "lucide-react";
-import { useTranslations } from "next-intl";
-import type { FC } from "react";
-
-import { withErrorBoundary } from "@/shared/ui";
+import { getTranslations } from "next-intl/server";
 
 import { MAIN_OVERVIEW_STATS_CONFIG, type TOverviewStatId } from "../model";
 
@@ -25,8 +20,8 @@ const STAT_ICONS: Record<TOverviewStatId, LucideIcon> = {
 	communication: MessageCircle
 };
 
-const OverviewStatsSectionBase: FC = () => {
-	const t = useTranslations("main_page");
+export async function OverviewStatsSection() {
+	const t = await getTranslations("main_page");
 
 	return (
 		<section className="border-b bg-muted/40">
@@ -46,6 +41,4 @@ const OverviewStatsSectionBase: FC = () => {
 			</div>
 		</section>
 	);
-};
-
-export const OverviewStatsSection = withErrorBoundary(OverviewStatsSectionBase);
+}

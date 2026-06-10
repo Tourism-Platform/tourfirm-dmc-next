@@ -1,9 +1,4 @@
-"use client";
-
-import { useTranslations } from "next-intl";
-import type { FC } from "react";
-
-import { withErrorBoundary } from "@/shared/ui";
+import { getTranslations } from "next-intl/server";
 
 import { RouteIdeaCard } from "@/entities/tour";
 
@@ -11,8 +6,8 @@ import { ROUTE_IDEAS_CONFIG } from "../model";
 
 import { DestinationsSectionHeader } from "./destinations-section-header";
 
-const RouteIdeasSectionBase: FC = () => {
-	const t = useTranslations("destinations_page");
+export async function RouteIdeasSection() {
+	const t = await getTranslations("destinations_page");
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
@@ -40,6 +35,4 @@ const RouteIdeasSectionBase: FC = () => {
 			</div>
 		</section>
 	);
-};
-
-export const RouteIdeasSection = withErrorBoundary(RouteIdeasSectionBase);
+}

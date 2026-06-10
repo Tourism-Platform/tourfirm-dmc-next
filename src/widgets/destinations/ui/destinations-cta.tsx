@@ -1,17 +1,14 @@
-"use client";
-
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
-import type { FC } from "react";
 
 import { ENUM_PATH, buildRouteWithQuery } from "@/shared/config";
 import { Link } from "@/shared/i18n";
-import { Button, withErrorBoundary } from "@/shared/ui";
+import { Button } from "@/shared/ui";
 
 import { DESTINATIONS_HERO_IMAGE } from "../model";
 
-const DestinationsCtaBase: FC = () => {
-	const t = useTranslations("destinations_page");
+export async function DestinationsCta() {
+	const t = await getTranslations("destinations_page");
 
 	return (
 		<section className="overflow-hidden rounded-2xl bg-gradient-to-r from-accent via-secondary to-muted">
@@ -62,6 +59,4 @@ const DestinationsCtaBase: FC = () => {
 			</div>
 		</section>
 	);
-};
-
-export const DestinationsCta = withErrorBoundary(DestinationsCtaBase);
+}

@@ -1,10 +1,7 @@
-"use client";
-
 import { Briefcase, Heart, type LucideIcon, User, Users } from "lucide-react";
-import { useTranslations } from "next-intl";
-import type { FC } from "react";
+import { getTranslations } from "next-intl/server";
 
-import { Badge, withErrorBoundary } from "@/shared/ui";
+import { Badge } from "@/shared/ui";
 
 import { DestinationInsightCard } from "@/entities/tour";
 
@@ -19,8 +16,8 @@ const FORMAT_ICONS: Record<TTripFormatId, LucideIcon> = {
 	mice: Briefcase
 };
 
-const TripFormatsSectionBase: FC = () => {
-	const t = useTranslations("main_page");
+export async function TripFormatsSection() {
+	const t = await getTranslations("main_page");
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
@@ -47,6 +44,4 @@ const TripFormatsSectionBase: FC = () => {
 			</div>
 		</section>
 	);
-};
-
-export const TripFormatsSection = withErrorBoundary(TripFormatsSectionBase);
+}

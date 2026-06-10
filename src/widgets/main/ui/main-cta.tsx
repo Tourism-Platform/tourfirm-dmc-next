@@ -1,17 +1,14 @@
-"use client";
-
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
-import type { FC } from "react";
 
 import { ENUM_PATH } from "@/shared/config";
 import { Link } from "@/shared/i18n";
-import { Button, withErrorBoundary } from "@/shared/ui";
+import { Button } from "@/shared/ui";
 
 import { MAIN_HERO_IMAGE } from "../model";
 
-const MainCtaBase: FC = () => {
-	const t = useTranslations("main_page");
+export async function MainCta() {
+	const t = await getTranslations("main_page");
 
 	return (
 		<section className="overflow-hidden rounded-2xl bg-gradient-to-r from-accent via-secondary to-muted">
@@ -55,6 +52,4 @@ const MainCtaBase: FC = () => {
 			</div>
 		</section>
 	);
-};
-
-export const MainCta = withErrorBoundary(MainCtaBase);
+}

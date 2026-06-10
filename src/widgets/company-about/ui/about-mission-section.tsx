@@ -1,14 +1,9 @@
-"use client";
-
-import { useTranslations } from "next-intl";
-import type { FC } from "react";
-
-import { withErrorBoundary } from "@/shared/ui";
+import { getTranslations } from "next-intl/server";
 
 import { AboutSectionHeader } from "./about-section-header";
 
-const AboutMissionSectionBase: FC = () => {
-	const t = useTranslations("company_about_page");
+export async function AboutMissionSection() {
+	const t = await getTranslations("company_about_page");
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
@@ -23,6 +18,4 @@ const AboutMissionSectionBase: FC = () => {
 			<p className="text-sm font-semibold">{t("mission.signature")}</p>
 		</section>
 	);
-};
-
-export const AboutMissionSection = withErrorBoundary(AboutMissionSectionBase);
+}

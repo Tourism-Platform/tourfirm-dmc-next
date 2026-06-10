@@ -1,9 +1,4 @@
-"use client";
-
-import { useTranslations } from "next-intl";
-import type { FC } from "react";
-
-import { withErrorBoundary } from "@/shared/ui";
+import { getTranslations } from "next-intl/server";
 
 import { ExperienceCard } from "@/entities/tour";
 
@@ -11,8 +6,8 @@ import { MAIN_EXPERIENCES_CONFIG } from "../model";
 
 import { MainSectionHeader } from "./main-section-header";
 
-const ExperiencesSectionBase: FC = () => {
-	const t = useTranslations("main_page");
+export async function ExperiencesSection() {
+	const t = await getTranslations("main_page");
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
@@ -37,6 +32,4 @@ const ExperiencesSectionBase: FC = () => {
 			</div>
 		</section>
 	);
-};
-
-export const ExperiencesSection = withErrorBoundary(ExperiencesSectionBase);
+}

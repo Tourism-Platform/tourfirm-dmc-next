@@ -1,10 +1,5 @@
-"use client";
-
 import { Gauge, Link2, type LucideIcon, Route } from "lucide-react";
-import { useTranslations } from "next-intl";
-import type { FC } from "react";
-
-import { withErrorBoundary } from "@/shared/ui";
+import { getTranslations } from "next-intl/server";
 
 import { DestinationInsightCard } from "@/entities/tour";
 
@@ -18,8 +13,8 @@ const WHY_ICONS: Record<TMainWhyId, LucideIcon> = {
 	connection: Link2
 };
 
-const WhySectionBase: FC = () => {
-	const t = useTranslations("main_page");
+export async function WhySection() {
+	const t = await getTranslations("main_page");
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
@@ -41,6 +36,4 @@ const WhySectionBase: FC = () => {
 			</div>
 		</section>
 	);
-};
-
-export const WhySection = withErrorBoundary(WhySectionBase);
+}

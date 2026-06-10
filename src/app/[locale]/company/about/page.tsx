@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 
 import { CompanyAboutPage } from "@/page/company-about";
 
+export const dynamic = "force-static";
+
 type TProps = {
 	params: Promise<{ locale: string }>;
 };

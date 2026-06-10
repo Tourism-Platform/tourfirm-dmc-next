@@ -1,9 +1,4 @@
-"use client";
-
-import { useTranslations } from "next-intl";
-import type { FC } from "react";
-
-import { withErrorBoundary } from "@/shared/ui";
+import { getTranslations } from "next-intl/server";
 
 import { JournalCard } from "@/entities/tour";
 
@@ -11,8 +6,8 @@ import { MAIN_JOURNAL_CONFIG } from "../model";
 
 import { MainSectionHeader } from "./main-section-header";
 
-const JournalSectionBase: FC = () => {
-	const t = useTranslations("main_page");
+export async function JournalSection() {
+	const t = await getTranslations("main_page");
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
@@ -38,6 +33,4 @@ const JournalSectionBase: FC = () => {
 			</div>
 		</section>
 	);
-};
-
-export const JournalSection = withErrorBoundary(JournalSectionBase);
+}

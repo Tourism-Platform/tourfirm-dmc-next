@@ -1,7 +1,8 @@
 import Image from "next/image";
 
 import { ENUM_PATH } from "@/shared/config";
-import { ButtonLink } from "@/shared/ui";
+import { Link } from "@/shared/i18n";
+import { Button } from "@/shared/ui";
 
 type TServicesDirectionCardProps = {
 	imageSrc: string;
@@ -34,13 +35,9 @@ export function ServicesDirectionCard({
 				<p className="text-muted-foreground flex-1 text-sm sm:text-base">
 					{description}
 				</p>
-				<ButtonLink
-					href={ENUM_PATH.HELP.CONTACT}
-					variant="outline"
-					className="w-fit"
-				>
-					{cta}
-				</ButtonLink>
+				<Button asChild variant="outline" className="w-fit">
+					<Link href={ENUM_PATH.HELP.CONTACT}>{cta}</Link>
+				</Button>
 			</div>
 		</article>
 	);

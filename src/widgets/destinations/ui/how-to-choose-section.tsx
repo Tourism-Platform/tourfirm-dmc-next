@@ -1,10 +1,5 @@
-"use client";
-
 import { Gauge, GitBranch, type LucideIcon, Target } from "lucide-react";
-import { useTranslations } from "next-intl";
-import type { FC } from "react";
-
-import { withErrorBoundary } from "@/shared/ui";
+import { getTranslations } from "next-intl/server";
 
 import { DestinationInsightCard } from "@/entities/tour";
 
@@ -18,8 +13,8 @@ const HOW_TO_CHOOSE_ICONS: Record<THowToChooseId, LucideIcon> = {
 	pace: Gauge
 };
 
-const HowToChooseSectionBase: FC = () => {
-	const t = useTranslations("destinations_page");
+export async function HowToChooseSection() {
+	const t = await getTranslations("destinations_page");
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
@@ -42,6 +37,4 @@ const HowToChooseSectionBase: FC = () => {
 			</div>
 		</section>
 	);
-};
-
-export const HowToChooseSection = withErrorBoundary(HowToChooseSectionBase);
+}

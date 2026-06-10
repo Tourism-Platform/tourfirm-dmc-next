@@ -1,17 +1,12 @@
-"use client";
-
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
-import type { FC } from "react";
-
-import { withErrorBoundary } from "@/shared/ui";
 
 import { DESTINATIONS_ROUTE_MAP_IMAGE } from "../model";
 
 import { DestinationsSectionHeader } from "./destinations-section-header";
 
-const RouteMapSectionBase: FC = () => {
-	const t = useTranslations("destinations_page");
+export async function RouteMapSection() {
+	const t = await getTranslations("destinations_page");
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
@@ -36,6 +31,4 @@ const RouteMapSectionBase: FC = () => {
 			</div>
 		</section>
 	);
-};
-
-export const RouteMapSection = withErrorBoundary(RouteMapSectionBase);
+}

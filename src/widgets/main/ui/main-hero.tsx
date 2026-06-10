@@ -1,26 +1,16 @@
-"use client";
-
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
-import type { FC } from "react";
-import type { UseFormReturn } from "react-hook-form";
 
 import { ENUM_PATH } from "@/shared/config";
 import { Link } from "@/shared/i18n";
-import { Button, withErrorBoundary } from "@/shared/ui";
-
-import type { TSearchTours } from "@/entities/tour";
+import { Button } from "@/shared/ui";
 
 import { SearchToursBar } from "@/features/tours";
 
 import { MAIN_HERO_IMAGE } from "../model";
 
-interface IMainHeroProps {
-	form: UseFormReturn<TSearchTours>;
-}
-
-const MainHeroBase: FC<IMainHeroProps> = ({ form }) => {
-	const t = useTranslations("main_page");
+export async function MainHero() {
+	const t = await getTranslations("main_page");
 
 	return (
 		<section className="relative min-h-[480px] sm:min-h-[560px]">
@@ -60,10 +50,8 @@ const MainHeroBase: FC<IMainHeroProps> = ({ form }) => {
 						</Button>
 					</div>
 				</div>
-				<SearchToursBar form={form} className="shadow-lg" />
+				<SearchToursBar className="shadow-lg" />
 			</div>
 		</section>
 	);
-};
-
-export const MainHero = withErrorBoundary(MainHeroBase);
+}

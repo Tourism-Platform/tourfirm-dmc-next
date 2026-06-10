@@ -1,10 +1,5 @@
-"use client";
-
 import { CalendarDays, type LucideIcon, Route, Shield } from "lucide-react";
-import { useTranslations } from "next-intl";
-import type { FC } from "react";
-
-import { withErrorBoundary } from "@/shared/ui";
+import { getTranslations } from "next-intl/server";
 
 import { DestinationInsightCard } from "@/entities/tour";
 
@@ -18,8 +13,8 @@ const PLANNING_CHECK_ICONS: Record<TPlanningCheckId, LucideIcon> = {
 	movement: Route
 };
 
-const PlanningChecksSectionBase: FC = () => {
-	const t = useTranslations("destinations_page");
+export async function PlanningChecksSection() {
+	const t = await getTranslations("destinations_page");
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
@@ -42,8 +37,4 @@ const PlanningChecksSectionBase: FC = () => {
 			</div>
 		</section>
 	);
-};
-
-export const PlanningChecksSection = withErrorBoundary(
-	PlanningChecksSectionBase
-);
+}

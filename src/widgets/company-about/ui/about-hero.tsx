@@ -1,15 +1,10 @@
-"use client";
-
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
-import type { FC } from "react";
-
-import { withErrorBoundary } from "@/shared/ui";
 
 import { ABOUT_HERO_IMAGE } from "../model";
 
-const AboutHeroBase: FC = () => {
-	const t = useTranslations("company_about_page");
+export async function AboutHero() {
+	const t = await getTranslations("company_about_page");
 
 	return (
 		<section className="relative min-h-[400px] sm:min-h-[480px]">
@@ -37,6 +32,4 @@ const AboutHeroBase: FC = () => {
 			</div>
 		</section>
 	);
-};
-
-export const AboutHero = withErrorBoundary(AboutHeroBase);
+}

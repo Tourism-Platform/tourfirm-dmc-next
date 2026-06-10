@@ -1,17 +1,12 @@
-"use client";
-
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
-import type { FC } from "react";
-
-import { withErrorBoundary } from "@/shared/ui";
 
 import { ABOUT_HERO_IMAGE } from "../model";
 
 import { AboutSectionHeader } from "./about-section-header";
 
-const AboutIntroSectionBase: FC = () => {
-	const t = useTranslations("company_about_page");
+export async function AboutIntroSection() {
+	const t = await getTranslations("company_about_page");
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
@@ -38,6 +33,4 @@ const AboutIntroSectionBase: FC = () => {
 			</div>
 		</section>
 	);
-};
-
-export const AboutIntroSection = withErrorBoundary(AboutIntroSectionBase);
+}

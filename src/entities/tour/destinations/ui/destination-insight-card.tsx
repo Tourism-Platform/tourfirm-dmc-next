@@ -1,16 +1,10 @@
-"use client";
-
-import type { FC } from "react";
-
 import type { IDestinationInsightCard } from "../types";
 
-interface IDestinationInsightCardProps {
+type TDestinationInsightCardProps = {
 	data: IDestinationInsightCard;
-}
+};
 
-export const DestinationInsightCard: FC<IDestinationInsightCardProps> = ({
-	data
-}) => {
+export function DestinationInsightCard({ data }: TDestinationInsightCardProps) {
 	const Icon = data.icon;
 
 	return (
@@ -26,4 +20,4 @@ export const DestinationInsightCard: FC<IDestinationInsightCardProps> = ({
 			</p>
 		</article>
 	);
-};
+}
