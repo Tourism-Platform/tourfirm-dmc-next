@@ -25,7 +25,7 @@ export function CustomCtaBanner({
 	return (
 		<section
 			className={cn(
-				"overflow-hidden rounded-2xl bg-gradient-to-r from-accent via-secondary to-muted",
+				"overflow-hidden rounded-2xl bg-gradient-to-r from-muted via-secondary to-accent",
 				className
 			)}
 		>

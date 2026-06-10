@@ -30,7 +30,9 @@ export const HeaderDefault: FC = () => {
 						/>
 						<span className="text-2xl font-semibold">
 							<span className="text-foreground">Tour</span>
-							<span className="text-[#36bffa]">Link</span>
+							<span className="text-secondary-foreground">
+								Link
+							</span>
 						</span>
 					</Link>
 					<PublicNavMenu items={PUBLIC_NAV_ITEMS} />
