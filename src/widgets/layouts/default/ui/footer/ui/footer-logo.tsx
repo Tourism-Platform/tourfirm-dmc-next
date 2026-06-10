@@ -16,7 +16,7 @@ export const FooterLogo = ({ brandName }: IFooterLogoProps) => {
 			/>
 			<h3 className="text-2xl font-semibold">
 				<span className="text-foreground">Tour</span>
-				<span className="text-[#36bffa]">Link</span>
+				<span className="text-[#37bffa]">Link</span>
 			</h3>
 		</div>
 	);

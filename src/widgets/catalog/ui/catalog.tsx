@@ -27,7 +27,7 @@ const CatalogBase: FC = () => {
 	return (
 		<div className="flex flex-col">
 			<HeroSection form={searchForm} />
-			<div className="mx-auto flex w-full max-w-7xl flex-col gap-12 px-4 pt-16 sm:gap-14 sm:px-6 sm:pt-20 lg:gap-16 lg:px-8">
+			<div className="mx-auto flex w-full max-w-7xl flex-col gap-12 px-4 py-16 sm:gap-14 sm:px-6 sm:pt-20 lg:gap-16 lg:px-8">
 				<RecentlySearch form={searchForm} />
 				<MostPopularTours />
 				<BlogSection />

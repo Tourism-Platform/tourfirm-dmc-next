@@ -45,17 +45,13 @@ export function CountryCard({ data }: TCountryCardProps) {
 						<p className="text-xl font-semibold text-white sm:text-2xl">
 							{data.name}
 						</p>
-						<p className="text-sm text-white/80">
+						<p className="text-base text-white">
 							{data.description}
 						</p>
 					</div>
 					<div className="flex flex-wrap gap-2">
 						{data.cities.map((city) => (
-							<Badge
-								key={city}
-								variant="outline"
-								className="border-white/30 bg-black/20 text-white"
-							>
+							<Badge key={city} className="text-base">
 								{city}
 							</Badge>
 						))}

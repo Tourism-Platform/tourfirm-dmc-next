@@ -39,9 +39,7 @@ export async function CountriesSection() {
 							badge: t(country.i18n.badge),
 							name: t(country.i18n.name),
 							description: t(country.i18n.description),
-							cities: country.i18n.cities.map((cityKey) =>
-								t(cityKey)
-							),
+							cities: [],
 							featured: country.id === "uzbekistan"
 						}}
 					/>
