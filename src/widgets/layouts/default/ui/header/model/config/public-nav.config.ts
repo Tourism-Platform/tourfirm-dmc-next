@@ -66,11 +66,11 @@ export const PUBLIC_NAV_ITEMS: IPublicNavLink[] = [
 						path: ENUM_PATH.COMPANY.ABOUT
 					},
 					{
-						label: "public.nav.company.items.howWeWork.label",
+						label: "public.nav.company.items.services.label",
 						description:
-							"public.nav.company.items.howWeWork.description",
+							"public.nav.company.items.services.description",
 						icon: Briefcase,
-						path: ENUM_PATH.COMPANY.HOW_WE_WORK
+						path: ENUM_PATH.COMPANY.SERVICES
 					},
 					{
 						label: "public.nav.company.items.partnership.label",

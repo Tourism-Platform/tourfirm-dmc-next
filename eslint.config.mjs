@@ -86,10 +86,15 @@ export default defineConfig([
 					},
 					prefix: ["T"]
 				},
+				// Next.js App Router segment config (src/app): dynamic, revalidate, etc.
 				{
 					selector: "variable",
 					modifiers: ["const", "exported"],
 					types: ["string", "number", "boolean"],
+					filter: {
+						regex: "^(dynamic|revalidate|runtime|preferredRegion|fetchCache|dynamicParams|maxDuration)$",
+						match: false
+					},
 					format: ["UPPER_CASE"]
 				},
 				{

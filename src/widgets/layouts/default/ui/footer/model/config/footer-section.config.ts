@@ -11,8 +11,8 @@ export const FOOTER_SECTIONS: IFooterSectionConfig[] = [
 				path: ENUM_PATH.COMPANY.ABOUT
 			},
 			{
-				label: "sections.company.links.howWeWork",
-				path: ENUM_PATH.COMPANY.HOW_WE_WORK
+				label: "sections.company.links.services",
+				path: ENUM_PATH.COMPANY.SERVICES
 			},
 			{
 				label: "sections.company.links.partnership",

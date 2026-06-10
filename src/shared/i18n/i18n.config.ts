@@ -2,9 +2,9 @@ import catalogPage from "../../../messages/en/catalog_page.json";
 import common from "../../../messages/en/common.json";
 import companyAboutPage from "../../../messages/en/company_about_page.json";
 import companyFeedbackPage from "../../../messages/en/company_feedback_page.json";
-import companyHowWeWorkPage from "../../../messages/en/company_how_we_work_page.json";
 import companyNewsPage from "../../../messages/en/company_news_page.json";
 import companyPartnershipPage from "../../../messages/en/company_partnership_page.json";
+import companyServicesPage from "../../../messages/en/company_services_page.json";
 import destinationsPage from "../../../messages/en/destinations_page.json";
 import footer from "../../../messages/en/footer.json";
 import header from "../../../messages/en/header.json";
@@ -30,7 +30,7 @@ export type TCatalogPage = typeof catalogPage;
 export type TPartnersAgenciesPage = typeof partnersAgenciesPage;
 export type TPartnersHotelsPage = typeof partnersHotelsPage;
 export type TCompanyAboutPage = typeof companyAboutPage;
-export type TCompanyHowWeWorkPage = typeof companyHowWeWorkPage;
+export type TCompanyServicesPage = typeof companyServicesPage;
 export type TCompanyPartnershipPage = typeof companyPartnershipPage;
 export type TCompanyNewsPage = typeof companyNewsPage;
 export type TCompanyFeedbackPage = typeof companyFeedbackPage;
@@ -52,7 +52,7 @@ export type TResources = {
 	partners_agencies_page: TPartnersAgenciesPage;
 	partners_hotels_page: TPartnersHotelsPage;
 	company_about_page: TCompanyAboutPage;
-	company_how_we_work_page: TCompanyHowWeWorkPage;
+	company_services_page: TCompanyServicesPage;
 	company_partnership_page: TCompanyPartnershipPage;
 	company_news_page: TCompanyNewsPage;
 	company_feedback_page: TCompanyFeedbackPage;
@@ -75,7 +75,7 @@ export const MESSAGE_NAMESPACES = [
 	"partners_agencies_page",
 	"partners_hotels_page",
 	"company_about_page",
-	"company_how_we_work_page",
+	"company_services_page",
 	"company_partnership_page",
 	"company_news_page",
 	"company_feedback_page",
@@ -99,7 +99,7 @@ export type TCatalogPageKeys = TNestedKeyOf<TCatalogPage>;
 export type TPartnersAgenciesPageKeys = TNestedKeyOf<TPartnersAgenciesPage>;
 export type TPartnersHotelsPageKeys = TNestedKeyOf<TPartnersHotelsPage>;
 export type TCompanyAboutPageKeys = TNestedKeyOf<TCompanyAboutPage>;
-export type TCompanyHowWeWorkPageKeys = TNestedKeyOf<TCompanyHowWeWorkPage>;
+export type TCompanyServicesPageKeys = TNestedKeyOf<TCompanyServicesPage>;
 export type TCompanyPartnershipPageKeys = TNestedKeyOf<TCompanyPartnershipPage>;
 export type TCompanyNewsPageKeys = TNestedKeyOf<TCompanyNewsPage>;
 export type TCompanyFeedbackPageKeys = TNestedKeyOf<TCompanyFeedbackPage>;

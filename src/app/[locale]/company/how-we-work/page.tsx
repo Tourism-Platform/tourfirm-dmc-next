@@ -1,14 +1,15 @@
-import { setRequestLocale } from "next-intl/server";
-
-import { CompanyHowWeWorkPage } from "@/page/company-how-we-work";
+import { ENUM_PATH } from "@/shared/config";
+import { redirect } from "@/shared/i18n/navigation";
 
 type TProps = {
 	params: Promise<{ locale: string }>;
 };
 
-export default async function HowWeWorkRoute({ params }: TProps) {
+export default async function HowWeWorkRedirectRoute({ params }: TProps) {
 	const { locale } = await params;
-	setRequestLocale(locale);
 
-	return <CompanyHowWeWorkPage />;
+	redirect({
+		href: ENUM_PATH.COMPANY.SERVICES,
+		locale
+	});
 }

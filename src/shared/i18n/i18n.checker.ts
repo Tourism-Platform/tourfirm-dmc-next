@@ -2,9 +2,9 @@ import catalogPageRu from "../../../messages/ru/catalog_page.json";
 import commonRu from "../../../messages/ru/common.json";
 import companyAboutPageRu from "../../../messages/ru/company_about_page.json";
 import companyFeedbackPageRu from "../../../messages/ru/company_feedback_page.json";
-import companyHowWeWorkPageRu from "../../../messages/ru/company_how_we_work_page.json";
 import companyNewsPageRu from "../../../messages/ru/company_news_page.json";
 import companyPartnershipPageRu from "../../../messages/ru/company_partnership_page.json";
+import companyServicesPageRu from "../../../messages/ru/company_services_page.json";
 import destinationsPageRu from "../../../messages/ru/destinations_page.json";
 import footerRu from "../../../messages/ru/footer.json";
 import headerRu from "../../../messages/ru/header.json";
@@ -22,9 +22,9 @@ import catalogPageUz from "../../../messages/uz/catalog_page.json";
 import commonUz from "../../../messages/uz/common.json";
 import companyAboutPageUz from "../../../messages/uz/company_about_page.json";
 import companyFeedbackPageUz from "../../../messages/uz/company_feedback_page.json";
-import companyHowWeWorkPageUz from "../../../messages/uz/company_how_we_work_page.json";
 import companyNewsPageUz from "../../../messages/uz/company_news_page.json";
 import companyPartnershipPageUz from "../../../messages/uz/company_partnership_page.json";
+import companyServicesPageUz from "../../../messages/uz/company_services_page.json";
 import destinationsPageUz from "../../../messages/uz/destinations_page.json";
 import footerUz from "../../../messages/uz/footer.json";
 import headerUz from "../../../messages/uz/header.json";
@@ -51,7 +51,7 @@ export const RU_TRANSLATION_CHECKER: TResources = {
 	partners_agencies_page: partnersAgenciesPageRu,
 	partners_hotels_page: partnersHotelsPageRu,
 	company_about_page: companyAboutPageRu,
-	company_how_we_work_page: companyHowWeWorkPageRu,
+	company_services_page: companyServicesPageRu,
 	company_partnership_page: companyPartnershipPageRu,
 	company_news_page: companyNewsPageRu,
 	company_feedback_page: companyFeedbackPageRu,
@@ -74,7 +74,7 @@ export const UZ_TRANSLATION_CHECKER: TResources = {
 	partners_agencies_page: partnersAgenciesPageUz,
 	partners_hotels_page: partnersHotelsPageUz,
 	company_about_page: companyAboutPageUz,
-	company_how_we_work_page: companyHowWeWorkPageUz,
+	company_services_page: companyServicesPageUz,
 	company_partnership_page: companyPartnershipPageUz,
 	company_news_page: companyNewsPageUz,
 	company_feedback_page: companyFeedbackPageUz,

@@ -10,7 +10,7 @@ export const ENUM_PATH = {
 	},
 	COMPANY: {
 		ABOUT: "/company/about",
-		HOW_WE_WORK: "/company/how-we-work",
+		SERVICES: "/company/services",
 		PARTNERSHIP: "/company/partnership",
 		NEWS: "/company/news",
 		FEEDBACK: "/company/feedback"
