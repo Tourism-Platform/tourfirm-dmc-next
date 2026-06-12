@@ -13,8 +13,7 @@ export const BLOG_POSTS_MOCK: TBlogPost[] = [
 		date: "October 26, 2023",
 		title: "Top 5 hidden gems of Samarkand you must visit",
 		href: "/company/news",
-		imageUrl:
-			"https://www.atorus.ru/sites/default/files/styles/head_carousel/public/2021-09/ca3023.jpg.webp?itok=Wg-lCwZ0",
+		imageUrl: "/assets/images/samarkand.jpg",
 		className: "bg-accent"
 	},
 	{
@@ -22,8 +21,7 @@ export const BLOG_POSTS_MOCK: TBlogPost[] = [
 		date: "October 18, 2023",
 		title: "How to plan a perfect Silk Road itinerary",
 		href: "/company/news",
-		imageUrl:
-			"https://www.atorus.ru/sites/default/files/styles/head_carousel/public/2021-09/ca3023.jpg.webp?itok=Wg-lCwZ0",
+		imageUrl: "/assets/images/tours/silk-road.jpg",
 		className: "bg-secondary"
 	},
 	{
@@ -31,8 +29,7 @@ export const BLOG_POSTS_MOCK: TBlogPost[] = [
 		date: "October 10, 2023",
 		title: "Best time to visit Uzbekistan: seasonal guide",
 		href: "/company/news",
-		imageUrl:
-			"https://www.atorus.ru/sites/default/files/styles/head_carousel/public/2021-09/ca3023.jpg.webp?itok=Wg-lCwZ0",
+		imageUrl: "/assets/images/people.jpg",
 		className: "bg-muted"
 	}
 ];
