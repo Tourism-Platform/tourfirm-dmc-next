@@ -1,8 +1,67 @@
 {
 	"meta": {
-		"title": "Bog'lanish | TourLink",
-		"description": "Turlar, hamkorlik va yordam bo'yicha TourLink bilan bog'laning. Ofis Toshkentda, O'zbekiston."
+		"title": "Biz bilan bog'laning | TourLink",
+		"description": "Turlar, hamkorlik va qo'llab-quvvatlash bo'yicha TourLink bilan bog'laning. Ofis Toshkent, O'zbekistonda."
 	},
-	"title": "Bog'lanish",
-	"description": "Bo'lim ishlab chiqilmoqda"
+	"hero": {
+		"title": "Biz bilan bog'laning",
+		"description": "Turlar, bronlash, MICE va hamkorlik bo'yicha telefon, messenjerlar va email."
+	},
+	"primary": {
+		"eyebrow": "Asosiy aloqa",
+		"title": "Biz bilan qanday bog'lanish mumkin",
+		"description": "Qulay kanalni tanlang — biz Toshkent vaqti bo'yicha ish soatlarida javob beramiz.",
+		"phone_label": "Telefon",
+		"whatsapp_label": "WhatsApp",
+		"telegram_label": "Telegram",
+		"telegram_note": "Telefon yoki email orqali so'rov bo'yicha mavjud.",
+		"email_label": "Asosiy email"
+	},
+	"emails": {
+		"eyebrow": "Email",
+		"title": "So'rov turiga ko'ra",
+		"description": "Savolingizga mos manzilga yozing — shunda tezroq kerakli jamoaga yo'naltiramiz.",
+		"items": {
+			"general": {
+				"label": "Umumiy savollar",
+				"description": "Turlar, marshrutlar va TourLink xizmatlari haqida."
+			},
+			"reservation": {
+				"label": "Bronlash va takliflar",
+				"description": "Dastur so'rovi, narx va bronni tasdiqlash."
+			},
+			"mice": {
+				"label": "MICE va korporativ sayohatlar",
+				"description": "Ish safarlari, insentivlar, konferensiyalar va guruh dasturlari."
+			},
+			"partners": {
+				"label": "Hamkorlik",
+				"description": "Agentliklar, mehmonxonalar va boshqa hamkorlar bilan hamkorlik."
+			}
+		}
+	},
+	"office": {
+		"eyebrow": "Ofis",
+		"title": "Manzil va ish vaqti",
+		"address_label": "Manzil",
+		"address": "100011, Toshkent shahri, Shayxontohur tumani, Urta mahallasi, Anhor Bo'yi ko'chasi 6-uy, O'zbekiston.",
+		"hours_label": "Ish vaqti",
+		"hours": "Dushanba–juma, 09:00–18:00 Toshkent vaqti bo'yicha.",
+		"timezone_label": "Vaqt mintaqasi"
+	},
+	"legal": {
+		"eyebrow": "Yuridik ma'lumot",
+		"title": "Kompaniya rekvizitlari",
+		"fields": {
+			"legal_name": "Yuridik nomi",
+			"brand_name": "Brend",
+			"inn": "STIR",
+			"oked": "IFUT",
+			"tax_status": "Soliq maqomi",
+			"director": "Direktor"
+		},
+		"values": {
+			"tax_status": "Aylanmadan olinadigan soliq to'lovchisi, QQS to'lovchisi emas."
+		}
+	}
 }

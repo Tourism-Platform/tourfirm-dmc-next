@@ -3,6 +3,65 @@
 		"title": "Contact us | TourLink",
 		"description": "Get in touch with TourLink for tour inquiries, partnership requests, and support. Based in Tashkent, Uzbekistan."
 	},
-	"title": "Contact us",
-	"description": "Section under development"
+	"hero": {
+		"title": "Contact us",
+		"description": "Phone, messengers and email for tour enquiries, bookings, MICE and partnership requests."
+	},
+	"primary": {
+		"eyebrow": "Primary contact",
+		"title": "How to reach us",
+		"description": "Choose a channel that suits you — we reply during business hours, Tashkent time.",
+		"phone_label": "Phone",
+		"whatsapp_label": "WhatsApp",
+		"telegram_label": "Telegram",
+		"telegram_note": "Available on request via phone or email.",
+		"email_label": "Main email"
+	},
+	"emails": {
+		"eyebrow": "Email",
+		"title": "By enquiry type",
+		"description": "Write to the address that matches your question so we can route it to the right team faster.",
+		"items": {
+			"general": {
+				"label": "General enquiries",
+				"description": "Questions about tours, routes and TourLink services."
+			},
+			"reservation": {
+				"label": "Reservations and quotes",
+				"description": "Programme requests, pricing and booking confirmation."
+			},
+			"mice": {
+				"label": "MICE and corporate travel",
+				"description": "Business trips, incentives, conferences and group programmes."
+			},
+			"partners": {
+				"label": "Partnership",
+				"description": "Cooperation with agencies, hotels and other partners."
+			}
+		}
+	},
+	"office": {
+		"eyebrow": "Office",
+		"title": "Address and hours",
+		"address_label": "Address",
+		"address": "100011, Tashkent, Shaykhantakhur district, Urta mahalla, Anhor Bo'yi street 6, Uzbekistan.",
+		"hours_label": "Working hours",
+		"hours": "Monday to Friday, 09:00–18:00 Tashkent time.",
+		"timezone_label": "Timezone"
+	},
+	"legal": {
+		"eyebrow": "Legal information",
+		"title": "Company details",
+		"fields": {
+			"legal_name": "Legal name",
+			"brand_name": "Brand",
+			"inn": "TIN",
+			"oked": "OKED",
+			"tax_status": "Tax status",
+			"director": "Director"
+		},
+		"values": {
+			"tax_status": "Turnover tax payer, not VAT registered."
+		}
+	}
 }
