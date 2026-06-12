@@ -21,3 +21,4 @@ export {
 	type TRouteIdeaI18n,
 	type TRouteIdeaId
 } from "./route-ideas.types";
+export type { TRouteMapStop, TRouteMapStopConfig } from "./route-map.types";

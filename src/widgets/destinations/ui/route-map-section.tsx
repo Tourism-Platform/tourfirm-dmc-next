@@ -1,12 +1,18 @@
 import { getTranslations } from "next-intl/server";
-import Image from "next/image";
 
 import { CustomSectionHeader } from "@/shared/ui";
 
-import { DESTINATIONS_ROUTE_MAP_IMAGE } from "../model";
+import { ROUTE_MAP_STOPS } from "../model";
+
+import { RouteMapView } from "./route-map-view";
 
 export async function RouteMapSection() {
 	const t = await getTranslations("destinations_page");
+
+	const stops = ROUTE_MAP_STOPS.map((stop) => ({
+		...stop,
+		name: t(stop.i18nKey)
+	}));
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
@@ -15,20 +21,7 @@ export async function RouteMapSection() {
 				title={t("route_map.title")}
 				description={t("route_map.description")}
 			/>
-			<div className="bg-muted relative aspect-[16/9] overflow-hidden rounded-2xl border">
-				<Image
-					src={DESTINATIONS_ROUTE_MAP_IMAGE}
-					alt={t("route_map.placeholder")}
-					fill
-					className="object-cover opacity-60"
-					sizes="(max-width: 1280px) 100vw, 1280px"
-				/>
-				<div className="absolute inset-0 flex items-center justify-center bg-black/20 p-6">
-					<p className="text-muted-foreground max-w-md text-center text-sm sm:text-base">
-						{t("route_map.placeholder")}
-					</p>
-				</div>
-			</div>
+			<RouteMapView stops={stops} />
 		</section>
 	);
 }
