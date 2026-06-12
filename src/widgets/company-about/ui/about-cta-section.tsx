@@ -4,6 +4,8 @@ import { ENUM_PATH } from "@/shared/config";
 import { Link } from "@/shared/i18n";
 import { Button, CustomCtaBanner } from "@/shared/ui";
 
+import { ContactMailtoButton } from "@/features/contact-mailto";
+
 import { ABOUT_CTA_IMAGE } from "../model";
 
 export async function AboutCtaSection() {
@@ -22,11 +24,9 @@ export async function AboutCtaSection() {
 							{t("cta.primary")}
 						</Link>
 					</Button>
-					<Button asChild variant="outline">
-						<Link href={ENUM_PATH.HELP.CONTACT}>
-							{t("cta.secondary")}
-						</Link>
-					</Button>
+					<ContactMailtoButton variant="outline">
+						{t("cta.secondary")}
+					</ContactMailtoButton>
 				</>
 			}
 		/>

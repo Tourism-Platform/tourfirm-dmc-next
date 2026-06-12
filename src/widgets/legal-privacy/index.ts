@@ -1,0 +1,1 @@
+export { LegalPrivacy } from "./ui";

@@ -119,8 +119,7 @@ export const PUBLIC_NAV_ITEMS: IPublicNavLink[] = [
 						description:
 							"public.nav.policies.items.privacy.description",
 						icon: Shield,
-						path: ENUM_PATH.LEGAL.PRIVACY,
-						isSoon: true
+						path: ENUM_PATH.LEGAL.PRIVACY
 					}
 				]
 			}

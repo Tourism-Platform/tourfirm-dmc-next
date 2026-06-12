@@ -1,4 +1,92 @@
 {
-	"title": "Maxfiylik siyosati",
-	"description": "Bo'lim ishlab chiqilmoqda"
+	"meta": {
+		"title": "Maxfiylik siyosati | TourLink",
+		"description": "TourLink tourlink.uz saytida va sayohat xizmatlarini ko'rsatishda shaxsiy ma'lumotlarni qanday to'plashi, ishlatishi va himoya qilishi haqida."
+	},
+	"hero": {
+		"title": "Maxfiylik siyosati",
+		"description": "Sayt, so'rovlar va TourLink sayohat xizmatlari bilan ishlashda shaxsiy ma'lumotlarni qanday qayta ishlashimiz haqida."
+	},
+	"sections": {
+		"who_we": {
+			"title": "Biz kim",
+			"paragraphs": {
+				"p1": "TourLink sayti Toshkent, O'zbekistonda joylashgan turoperator TourLink LLC tomonidan boshqariladi. Ushbu siyosatda «TourLink», «biz», «bizga» va «bizning» saytni boshqaradigan va sayohat so'rovlarini qayta ishlaydigan kompaniyani anglatadi."
+			}
+		},
+		"scope": {
+			"title": "Siyosat qamrovi",
+			"paragraphs": {
+				"p1": "Ushbu siyosat siz tourlink.uz saytiga tashrif buyurganingizda, forma yuborganingizda, tur dasturini so'raganingizda, jamoamiz bilan email yoki messenjer orqali muloqot qilganingizda, yangilanishlarga obuna bo'lganingizda yoki sayohat xizmati uchun zarur ma'lumotlarni taqdim etganingizda qo'llaniladi.",
+				"p2": "Ommaviy saytda shaxsiy kabinetlar, onlayn to'lovlar, hamyonlar yoki marketplace kabinetlari yo'q. Bunday funksiyalar kelajakda paydo bo'lsa, ular ochiq foydalanishga chiqarilishidan oldin siyosat yangilanadi."
+			}
+		},
+		"data_collected": {
+			"title": "Qanday ma'lumotlarni to'plashimiz mumkin",
+			"items": {
+				"contact": "Aloqa ma'lumotlari: ism, email, telefon, kompaniya, mamlakat, muloqot tili va messenjer kontakti.",
+				"request": "So'rov ma'lumotlari: sanalar, mamlakatlar va shaharlar, guruh hajmi, ishtirokchilar profili, qulaylik darajasi, byudjet yo'nalishi, ovqatlanish, qulaylik talablari va marshrut bo'yicha istaklar.",
+				"booking": "Bronlash ma'lumotlari: pasport ma'lumotlari, fuqarolik, tug'ilgan sana, vizalar yoki ruxsatnomalar, favqulodda kontaktlar, joylashuv va transport — tasdiqlangan yoki deyarli tasdiqlangan xizmat uchun kerak bo'lsa.",
+				"communication": "Muloqot ma'lumotlari: xabarlar, ilovalar, qo'ng'iroq qaydlari, qo'llab-quvvatlash tarixi va taklif bo'yicha yozishmalar.",
+				"technical": "Texnik ma'lumotlar: IP-manzil, brauzer, qurilma, ko'rilgan sahifalar, o'tish manbasi, rozilik sozlamalari, xavfsizlik jurnallari, analitika hodisalari va xato hisobotlari."
+			}
+		},
+		"data_use": {
+			"title": "Ma'lumotlardan qanday foydalanamiz",
+			"paragraphs": {
+				"p1": "Shaxsiy ma'lumotlardan so'rovlarga javob berish, takliflar tayyorlash, sayohat xizmatlarini muvofiqlashtirish, sayohatchilar va hamkorlar bilan muloqot qilish, bronlarni boshqarish, mijozlarni qo'llab-quvvatlash, saytni yaxshilash, suiiste'moldan himoya qilish, biznes yozuvlarini yuritish hamda qonuniy yoki operatsion majburiyatlarni bajarish uchun foydalanamiz.",
+				"p2": "Agar biz maxsus mos kanal orqali so'ramagan bo'lsak, umumiy sayt formasi orqali pasport skanlari, tibbiy ma'lumotlar, to'lov kartasi ma'lumotlari yoki boshqa maxfiy hujjatlarni yubormang."
+			}
+		},
+		"data_sharing": {
+			"title": "Ma'lumotlarni uzatish",
+			"paragraphs": {
+				"p1": "So'rov yoki tasdiqlangan xizmat uchun zarur bo'lsa, kerakli ma'lumotlarni TourLink xodimlari, gidlar, haydovchilar, mehmonxonalar, restoranlar, transport kompaniyalari, maydonlar, viza yoki ruxsatnoma bo'yicha hamkorlar, agentliklar, korporativ mijozlar, IT yetkazib beruvchilar, buxgalterlar, maslahatchilar, banklar, davlat organlari yoki xizmat ko'rsatishda ishtirok etuvchi boshqa tomonlarga uzatishimiz mumkin.",
+				"p2": "Biz shaxsiy ma'lumotlarni sotmaymiz."
+			}
+		},
+		"cross_border": {
+			"title": "Mamlakatdan tashqarida saqlash va qayta ishlash",
+			"paragraphs": {
+				"p1": "TourLink O'zbekistonda joylashgan. Sayt hostingi, media saqlash, analitika, email, monitoring va boshqa texnik vositalar boshqa mamlakatlardagi yetkazib beruvchilardan foydalanishi mumkin. Bunday xizmatlardan faqat sayt ishlashi yoki so'ralgan xizmatlar uchun foydalanamiz va ularga faqat zarur ma'lumotlarni uzatishga intilamiz."
+			}
+		},
+		"retention": {
+			"title": "Saqlash muddati",
+			"paragraphs": {
+				"p1": "Shaxsiy ma'lumotlarni ular yig'ilgan maqsad uchun oqilona zarur bo'lgan muddat davomida saqlaymiz. Bronlash, buxgalteriya, soliq, turizm, xavfsizlik, nizolar va qonuniy talablar bo'yicha yozuvlar oddiy so'rovlardan uzoqroq saqlanishi mumkin. Tarqatma ro'yxati ma'lumotlari obunani bekor qilguningizcha yoki ro'yxat yopilgunicha saqlanadi."
+			}
+		},
+		"rights": {
+			"title": "Sizning tanlovingiz va huquqlaringiz",
+			"paragraphs": {
+				"p1": "Qonun va vaziyatga qarab, qayta ishlashni tasdiqlashni, ma'lumotlarga kirishni, tuzatishni, saqlash uchun qonuniy sabab bo'lmaganda o'chirishni, ayrim qayta ishlashni cheklash yoki qarshi chiqishni, rozilikni qaytarib olishni yoki marketing xabarlaridan voz kechishni so'rashingiz mumkin.",
+				"p2": "So'rovni bajarishdan oldin shaxsingizni tasdiqlashimiz kerak bo'lishi mumkin."
+			}
+		},
+		"cookies": {
+			"title": "Cookies va analitika",
+			"paragraphs": {
+				"p1": "Cookies va o'xshash texnologiyalardan foydalanish Cookie siyosatida tavsiflangan. Ishga tushirishda reklama yoki remarketing cookies dan foydalanmaymiz."
+			}
+		},
+		"security": {
+			"title": "Xavfsizlik",
+			"paragraphs": {
+				"p1": "Shaxsiy ma'lumotlarni himoya qilish uchun texnik va tashkiliy choralar qo'llaymiz. Hech qanday sayt, email yoki messenjer to'liq himoyalangan bo'la olmaydi, shuning uchun ortiqcha maxfiy ma'lumotlarni himoyalanmagan kanallar orqali yubormang."
+			}
+		},
+		"changes": {
+			"title": "Siyosat o'zgarishlari",
+			"paragraphs": {
+				"p1": "Sayt, xizmatlar, vositalar, yetkazib beruvchilar yoki qonuniy majburiyatlar o'zgarganda ushbu siyosatni yangilashimiz mumkin. Yangilangan versiyada yangi sana ko'rsatiladi."
+			}
+		},
+		"contacts": {
+			"title": "Aloqa",
+			"paragraphs": {
+				"p1": "Ushbu sahifa yoki TourLink xizmatlari bo'yicha savollar uchun info@tourlink.uz manziliga yozing yoki saytda e'lon qilingan kontaktlardan foydalaning."
+			}
+		}
+	}
 }

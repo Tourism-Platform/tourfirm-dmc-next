@@ -63,8 +63,7 @@ export const FOOTER_SECTIONS: IFooterSectionConfig[] = [
 			},
 			{
 				label: "sections.policies.links.privacy",
-				path: ENUM_PATH.LEGAL.PRIVACY,
-				isSoon: true
+				path: ENUM_PATH.LEGAL.PRIVACY
 			}
 		]
 	},
