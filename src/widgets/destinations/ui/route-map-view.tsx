@@ -1,34 +1,30 @@
 "use client";
 
-import { useSyncExternalStore } from "react";
+import dynamic from "next/dynamic";
 
 import type { TRouteMapStop } from "../model/types/route-map.types";
 
-import { RouteMap } from "./route-map";
-
-const emptySubscribe = () => () => {};
+const RouteMap = dynamic(
+	() => import("./route-map").then((mod) => mod.RouteMap),
+	{
+		ssr: false,
+		loading: () => (
+			<div
+				className="bg-muted h-full w-full animate-pulse"
+				aria-hidden
+			/>
+		)
+	}
+);
 
 type TRouteMapViewProps = {
 	stops: TRouteMapStop[];
 };
 
 export function RouteMapView({ stops }: TRouteMapViewProps) {
-	const mounted = useSyncExternalStore(
-		emptySubscribe,
-		() => true,
-		() => false
-	);
-
 	return (
 		<div className="bg-muted relative aspect-[16/9] overflow-hidden rounded-2xl border">
-			{mounted ? (
-				<RouteMap stops={stops} />
-			) : (
-				<div
-					className="bg-muted h-full w-full animate-pulse"
-					aria-hidden
-				/>
-			)}
+			<RouteMap stops={stops} />
 		</div>
 	);
 }
