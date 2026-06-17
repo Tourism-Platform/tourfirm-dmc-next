@@ -1,27 +1,17 @@
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader } from "@/shared/ui";
+import { BlockRender, mapBlockSection } from "@/shared/ui/blocks";
 
-import { ROUTE_MAP_STOPS } from "../model";
-
-import { RouteMapView } from "./route-map-view";
+import { ROUTE_MAP_SECTION_CONFIG } from "../model";
+import type { TDestinationsI18nKey } from "../model/types/common.types";
 
 export async function RouteMapSection() {
 	const t = await getTranslations("destinations_page");
-
-	const stops = ROUTE_MAP_STOPS.map((stop) => ({
-		...stop,
-		name: t(stop.i18nKey)
-	}));
+	const translate = (key: string) => t(key as TDestinationsI18nKey);
 
 	return (
-		<section className="flex flex-col gap-6 sm:gap-8">
-			<CustomSectionHeader
-				eyebrow={t("route_map.eyebrow")}
-				title={t("route_map.title")}
-				description={t("route_map.description")}
-			/>
-			<RouteMapView stops={stops} />
-		</section>
+		<BlockRender
+			{...mapBlockSection(ROUTE_MAP_SECTION_CONFIG, translate)}
+		/>
 	);
 }

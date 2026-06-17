@@ -1,4 +1,5 @@
 import { TCountryI18n } from "@/widgets/destinations/model";
+
 import type { TMainI18nKey } from "./common.types";
 
 export type TMainCountryId =
@@ -19,7 +20,7 @@ export type TMainCountryConfig = {
 	id: TMainCountryId;
 	imageUrl: string;
 	catalogDestination: string;
-	i18n: TMainCountryI18n ;
+	i18n: TMainCountryI18n;
 };
 
 export const MAIN_COUNTRY_I18N: Record<TMainCountryId, TMainCountryI18n> = {

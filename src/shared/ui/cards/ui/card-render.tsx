@@ -1,4 +1,5 @@
 import { getLucideIcon } from "@/shared/lib";
+
 import { CardType, type TCardRenderProps } from "../types/card-render.types";
 
 import { CountryCard } from "./country-card";
@@ -87,9 +88,7 @@ export function CardRender({ type: variant, item }: TCardRenderProps) {
 				/>
 			);
 		case CardType.OverviewStat:
-			return (
-				<OverviewStatCard icon={icon} value={item.value ?? ""} />
-			);
+			return <OverviewStatCard icon={icon} value={item.value ?? ""} />;
 		case CardType.ServicesBusiness:
 			return (
 				<ServicesBusinessCard

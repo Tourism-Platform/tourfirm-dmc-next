@@ -10,24 +10,23 @@ import {
 } from "lucide-react";
 
 import { ENUM_PATH, buildRouteWithQuery } from "@/shared/config";
+import { BlockType } from "@/shared/ui/blocks";
 import { ActionType } from "@/shared/ui/buttons/types/button-render.types";
 import { CardType } from "@/shared/ui/cards/types/card-render.types";
-
-import { BlockType } from "@/shared/ui/blocks";
 
 import { type TMainPageConfig } from "../types/main-page.types";
 import type { TTripFormatId } from "../types/trip-formats.types";
 import type { TMainWhyId } from "../types/why.types";
 
 import { MAIN_COUNTRIES_CONFIG } from "./countries.config";
+import { MAIN_CTA_IMAGE, MAIN_HERO_IMAGE } from "./destination-images.config";
 import { MAIN_EXPERIENCES_CONFIG } from "./experiences.config";
 import { MAIN_FEATURED_ROUTES_CONFIG } from "./featured-routes.config";
 import { MAIN_JOURNAL_CONFIG } from "./journal.config";
+import { MAIN_OVERVIEW_STATS_CONFIG } from "./overview-stats.config";
 import { MAIN_TRADE_FAIRS_CONFIG } from "./trade-fairs.config";
 import { MAIN_TRIP_FORMATS_CONFIG } from "./trip-formats.config";
 import { MAIN_WHY_CONFIG } from "./why.config";
-import { MAIN_OVERVIEW_STATS_CONFIG } from "./overview-stats.config";
-import { MAIN_CTA_IMAGE, MAIN_HERO_IMAGE } from "./destination-images.config";
 
 const WHY_ICONS: Record<TMainWhyId, LucideIcon> = {
 	programs: Route,
@@ -50,22 +49,24 @@ export const MAIN_PAGE_CONFIG: TMainPageConfig = {
 			title: "hero.title",
 			description: "hero.description",
 			note: "hero.note",
-			actions: [{
-
-				type: ActionType.mailto,
-				item: {
-				variant: "default",
-				email: "info@tourlink.uz",
-				title: "hero.cta_contact"
+			actions: [
+				{
+					type: ActionType.mailto,
+					item: {
+						variant: "default",
+						email: "info@tourlink.uz",
+						title: "hero.cta_contact"
+					}
 				},
-			}, {
-				type: ActionType.link,
-				item: {
-					variant: ActionType.link,
-					href: ENUM_PATH.MAIN.DESTINATIONS,
-					title: "hero.cta_destinations"
+				{
+					type: ActionType.link,
+					item: {
+						variant: ActionType.link,
+						href: ENUM_PATH.MAIN.DESTINATIONS,
+						title: "hero.cta_destinations"
+					}
 				}
-			}]
+			]
 		},
 		{
 			blockType: BlockType.overviewStats,
@@ -84,14 +85,16 @@ export const MAIN_PAGE_CONFIG: TMainPageConfig = {
 			title: "countries.title",
 			description: "countries.description",
 			gridClassName: "sm:grid-cols-2 sm:gap-5 lg:gap-6",
-			actions: [{
-				type: ActionType.link,
-				item: {
-					variant: "outline",
-					href: ENUM_PATH.MAIN.DESTINATIONS,
-					title: "countries.view_all"
+			actions: [
+				{
+					type: ActionType.link,
+					item: {
+						variant: "outline",
+						href: ENUM_PATH.MAIN.DESTINATIONS,
+						title: "countries.view_all"
+					}
 				}
-			}],
+			],
 			cards: (t) =>
 				MAIN_COUNTRIES_CONFIG.map((country) => ({
 					key: country.id,
@@ -185,7 +188,8 @@ export const MAIN_PAGE_CONFIG: TMainPageConfig = {
 			eyebrow: "trade_fairs.eyebrow",
 			title: "trade_fairs.title",
 			description: "trade_fairs.description",
-			cards: (t) => MAIN_TRADE_FAIRS_CONFIG.map((item) => ({
+			cards: (t) =>
+				MAIN_TRADE_FAIRS_CONFIG.map((item) => ({
 					key: item.id,
 					type: CardType.TradeFair,
 					item: {
@@ -218,21 +222,24 @@ export const MAIN_PAGE_CONFIG: TMainPageConfig = {
 			eyebrow: "cta.eyebrow",
 			title: "cta.title",
 			description: "cta.description",
-			actions: [{
-				type: ActionType.mailto,
-				item: {
-					variant: "default",
-					email: "info@tourlink.uz",
-					title: "cta.primary"
+			actions: [
+				{
+					type: ActionType.mailto,
+					item: {
+						variant: "default",
+						email: "info@tourlink.uz",
+						title: "cta.primary"
+					}
+				},
+				{
+					type: ActionType.link,
+					item: {
+						variant: "outline",
+						href: ENUM_PATH.MAIN.DESTINATIONS,
+						title: "cta.secondary"
+					}
 				}
-			}, {
-				type: ActionType.link,
-				item: {
-					variant: "outline",
-					href: ENUM_PATH.MAIN.DESTINATIONS,
-					title: "cta.secondary"
-				}
-			}]
+			]
 		}
 	]
 };

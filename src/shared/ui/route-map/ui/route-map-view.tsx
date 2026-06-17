@@ -2,9 +2,9 @@
 
 import dynamic from "next/dynamic";
 
-import { RouteMapPanel } from "@/shared/ui";
+import { RouteMapPanel } from "@/shared/ui/cards";
 
-import type { TRouteMapStop } from "../model/types/route-map.types";
+import type { TRouteMapViewProps } from "../types";
 
 const RouteMap = dynamic(
 	() => import("./route-map").then((mod) => mod.RouteMap),
@@ -16,14 +16,10 @@ const RouteMap = dynamic(
 	}
 );
 
-type TRouteMapViewProps = {
-	stops: TRouteMapStop[];
-};
-
-export function RouteMapView({ stops }: TRouteMapViewProps) {
+export function RouteMapView(props: TRouteMapViewProps) {
 	return (
 		<RouteMapPanel>
-			<RouteMap stops={stops} />
+			<RouteMap {...props} />
 		</RouteMapPanel>
 	);
 }

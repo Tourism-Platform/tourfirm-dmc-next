@@ -1,4 +1,7 @@
-import { ActionType, type TButtonRenderProps } from "../types/button-render.types";
+import {
+	ActionType,
+	type TButtonRenderProps
+} from "../types/button-render.types";
 
 import { LinkButton } from "./link-button";
 import { MailtoButton } from "./mailto-button";

@@ -1,5 +1,7 @@
 import type { LatLngExpression, LatLngTuple } from "leaflet";
 
+import { BlockType } from "@/shared/ui/blocks";
+
 import type { TRouteMapStopConfig } from "../types/route-map.types";
 
 export const ROUTE_MAP_CENTER: LatLngExpression = [41.2, 68.5];
@@ -20,6 +22,27 @@ export const ROUTE_MAP_TILE_URL =
 
 export const ROUTE_MAP_TILE_ATTRIBUTION =
 	'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>';
+
+export const ROUTE_MAP_SECTION_CONFIG = {
+	blockType: BlockType.routeMap,
+	eyebrow: "route_map.eyebrow",
+	title: "route_map.title",
+	description: "route_map.description",
+	center: ROUTE_MAP_CENTER,
+	zoom: ROUTE_MAP_ZOOM,
+	minZoom: ROUTE_MAP_MIN_ZOOM,
+	maxZoom: ROUTE_MAP_MAX_ZOOM,
+	tileUrl: ROUTE_MAP_TILE_URL,
+	tileAttribution: ROUTE_MAP_TILE_ATTRIBUTION,
+	stops: (t: (key: string) => string) =>
+		ROUTE_MAP_STOPS.map(({ id, order, lat, lng, i18nKey }) => ({
+			id,
+			order,
+			lat,
+			lng,
+			name: t(i18nKey)
+		}))
+};
 
 export const ROUTE_MAP_STOPS: TRouteMapStopConfig[] = [
 	{

@@ -11,19 +11,7 @@ import {
 	TileLayer
 } from "react-leaflet";
 
-import {
-	ROUTE_MAP_CENTER,
-	ROUTE_MAP_MAX_ZOOM,
-	ROUTE_MAP_MIN_ZOOM,
-	ROUTE_MAP_TILE_ATTRIBUTION,
-	ROUTE_MAP_TILE_URL,
-	ROUTE_MAP_ZOOM
-} from "../model";
-import type { TRouteMapStop } from "../model/types/route-map.types";
-
-type TRouteMapProps = {
-	stops: TRouteMapStop[];
-};
+import type { TRouteMapProps } from "../types";
 
 type TRouteMapColors = {
 	line: string;
@@ -63,7 +51,15 @@ function createRouteMarkerIcon(
 	});
 }
 
-export function RouteMap({ stops }: TRouteMapProps) {
+export function RouteMap({
+	stops,
+	center,
+	zoom,
+	minZoom,
+	maxZoom,
+	tileUrl,
+	tileAttribution
+}: TRouteMapProps) {
 	const colors = getRouteMapColors();
 	const positions = stops.map(
 		(stop) => [stop.lat, stop.lng] as [number, number]
@@ -71,17 +67,14 @@ export function RouteMap({ stops }: TRouteMapProps) {
 
 	return (
 		<MapContainer
-			center={ROUTE_MAP_CENTER}
-			zoom={ROUTE_MAP_ZOOM}
-			minZoom={ROUTE_MAP_MIN_ZOOM}
-			maxZoom={ROUTE_MAP_MAX_ZOOM}
+			center={center}
+			zoom={zoom}
+			minZoom={minZoom}
+			maxZoom={maxZoom}
 			scrollWheelZoom={false}
 			className="h-full w-full"
 		>
-			<TileLayer
-				url={ROUTE_MAP_TILE_URL}
-				attribution={ROUTE_MAP_TILE_ATTRIBUTION}
-			/>
+			<TileLayer url={tileUrl} attribution={tileAttribution} />
 			<Polyline
 				positions={positions}
 				pathOptions={{
