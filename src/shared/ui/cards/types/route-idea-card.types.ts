@@ -8,3 +8,7 @@ export interface IRouteIdeaCard {
 	ctaHref: string;
 	ctaLabel: string;
 }
+
+export type TRouteIdeaCardProps = {
+	data: IRouteIdeaCard;
+};

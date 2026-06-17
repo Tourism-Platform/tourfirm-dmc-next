@@ -4,3 +4,7 @@ export interface ITradeFairCard {
 	country: string;
 	participants: string;
 }
+
+export type TTradeFairCardProps = {
+	data: ITradeFairCard;
+};

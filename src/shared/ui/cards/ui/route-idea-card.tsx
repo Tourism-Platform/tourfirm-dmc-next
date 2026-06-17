@@ -1,13 +1,11 @@
 import Image from "next/image";
 
 import { Link } from "@/shared/i18n";
-import { Badge, Button, Card, CardContent } from "@/shared/ui";
 
-import type { IRouteIdeaCard } from "../types";
-
-type TRouteIdeaCardProps = {
-	data: IRouteIdeaCard;
-};
+import { Badge } from "../../shadcn-ui/badge";
+import { Button } from "../../shadcn-ui/button";
+import { Card, CardContent } from "../../shadcn-ui/card";
+import type { TRouteIdeaCardProps } from "../types/route-idea-card.types";
 
 export function RouteIdeaCard({ data }: TRouteIdeaCardProps) {
 	return (

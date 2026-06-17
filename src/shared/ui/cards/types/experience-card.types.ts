@@ -5,3 +5,7 @@ export interface IExperienceCard {
 	title: string;
 	description: string;
 }
+
+export type TExperienceCardProps = {
+	data: IExperienceCard;
+};

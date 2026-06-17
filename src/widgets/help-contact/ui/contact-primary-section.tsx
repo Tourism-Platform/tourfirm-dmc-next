@@ -1,15 +1,17 @@
 import { Mail, MessageCircle, Phone, Send } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader } from "@/shared/ui";
+import {
+	ContactDetailItem,
+	ContactDetailPanel,
+	CustomSectionHeader
+} from "@/shared/ui";
 
 import {
 	CONTACT_DEFAULT_EMAIL,
 	CONTACT_PHONE,
 	CONTACT_WHATSAPP_HREF
 } from "../model";
-
-import { ContactDetailItem } from "./contact-detail-item";
 
 const linkClassName =
 	"text-primary font-medium underline-offset-4 hover:underline";
@@ -24,7 +26,7 @@ export async function ContactPrimarySection() {
 				title={t("primary.title")}
 				description={t("primary.description")}
 			/>
-			<dl className="bg-card flex flex-col gap-4 rounded-xl border p-5 sm:gap-5 sm:p-6">
+			<ContactDetailPanel>
 				<ContactDetailItem
 					icon={Phone}
 					label={t("primary.phone_label")}
@@ -63,7 +65,7 @@ export async function ContactPrimarySection() {
 						{CONTACT_DEFAULT_EMAIL}
 					</a>
 				</ContactDetailItem>
-			</dl>
+			</ContactDetailPanel>
 		</section>
 	);
 }

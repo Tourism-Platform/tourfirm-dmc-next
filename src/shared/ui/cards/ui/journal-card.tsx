@@ -1,14 +1,9 @@
 import Image from "next/image";
 
 import { Link } from "@/shared/i18n";
-import { Card } from "@/shared/ui";
 
-import type { IJournalCard } from "../types";
-
-type TJournalCardProps = {
-	data: IJournalCard;
-	statusLabel: string;
-};
+import { Card } from "../../shadcn-ui/card";
+import type { TJournalCardProps } from "../types/journal-card.types";
 
 export function JournalCard({ data, statusLabel }: TJournalCardProps) {
 	return (

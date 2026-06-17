@@ -1,12 +1,10 @@
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 
-import { CustomSectionHeader } from "@/shared/ui";
+import { CustomSectionHeader, ServicesProcessCard } from "@/shared/ui";
 
 import { SERVICES_PROCESS_CONFIG } from "../model";
 import { HOW_WORK_BEGIN_IMAGE } from "../model";
-
-import { ServicesProcessCard } from "./services-process-card";
 
 export async function ServicesProcessSection() {
 	const t = await getTranslations("company_services_page");

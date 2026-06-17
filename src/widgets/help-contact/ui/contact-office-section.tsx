@@ -1,11 +1,13 @@
 import { Clock, MapPin } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader } from "@/shared/ui";
+import {
+	ContactDetailItem,
+	ContactDetailPanel,
+	CustomSectionHeader
+} from "@/shared/ui";
 
 import { CONTACT_LEGAL } from "../model";
-
-import { ContactDetailItem } from "./contact-detail-item";
 
 export async function ContactOfficeSection() {
 	const t = await getTranslations("help_contact_page");
@@ -16,7 +18,7 @@ export async function ContactOfficeSection() {
 				eyebrow={t("office.eyebrow")}
 				title={t("office.title")}
 			/>
-			<dl className="bg-card flex flex-col gap-4 rounded-xl border p-5 sm:gap-5 sm:p-6">
+			<ContactDetailPanel>
 				<ContactDetailItem
 					icon={MapPin}
 					label={t("office.address_label")}
@@ -29,7 +31,7 @@ export async function ContactOfficeSection() {
 				<ContactDetailItem label={t("office.timezone_label")}>
 					{CONTACT_LEGAL.timezone}
 				</ContactDetailItem>
-			</dl>
+			</ContactDetailPanel>
 		</section>
 	);
 }

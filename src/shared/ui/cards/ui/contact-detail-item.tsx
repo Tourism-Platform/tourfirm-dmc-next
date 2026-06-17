@@ -1,11 +1,4 @@
-import type { LucideIcon } from "lucide-react";
-import type { ReactNode } from "react";
-
-type TContactDetailItemProps = {
-	icon?: LucideIcon;
-	label: string;
-	children: ReactNode;
-};
+import type { TContactDetailItemProps } from "../types/contact-detail-item.types";
 
 export function ContactDetailItem({
 	icon: Icon,

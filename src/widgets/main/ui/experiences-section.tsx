@@ -1,8 +1,6 @@
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader } from "@/shared/ui";
-
-import { ExperienceCard } from "@/entities/tour";
+import { CustomSectionHeader, ExperienceCard } from "@/shared/ui";
 
 import { MAIN_EXPERIENCES_CONFIG } from "../model";
 

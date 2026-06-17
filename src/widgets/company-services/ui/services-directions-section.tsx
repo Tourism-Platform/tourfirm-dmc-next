@@ -1,10 +1,8 @@
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader } from "@/shared/ui";
+import { CustomSectionHeader, ServicesDirectionCard } from "@/shared/ui";
 
 import { SERVICES_DIRECTIONS_CONFIG } from "../model";
-
-import { ServicesDirectionCard } from "./services-direction-card";
 
 export async function ServicesDirectionsSection() {
 	const t = await getTranslations("company_services_page");

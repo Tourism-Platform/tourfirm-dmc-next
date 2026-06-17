@@ -1,10 +1,12 @@
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader } from "@/shared/ui";
+import {
+	ContactDetailItem,
+	ContactDetailPanel,
+	CustomSectionHeader
+} from "@/shared/ui";
 
 import { CONTACT_LEGAL, CONTACT_LEGAL_FIELDS } from "../model";
-
-import { ContactDetailItem } from "./contact-detail-item";
 
 export async function ContactLegalSection() {
 	const t = await getTranslations("help_contact_page");
@@ -15,7 +17,7 @@ export async function ContactLegalSection() {
 				eyebrow={t("legal.eyebrow")}
 				title={t("legal.title")}
 			/>
-			<dl className="bg-card flex flex-col gap-4 rounded-xl border p-5 sm:gap-5 sm:p-6">
+			<ContactDetailPanel>
 				{CONTACT_LEGAL_FIELDS.map((field) => {
 					const value = field.i18nValue
 						? t(field.i18nValue)
@@ -32,7 +34,7 @@ export async function ContactLegalSection() {
 						</ContactDetailItem>
 					);
 				})}
-			</dl>
+			</ContactDetailPanel>
 		</section>
 	);
 }

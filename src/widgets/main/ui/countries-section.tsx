@@ -2,9 +2,7 @@ import { getTranslations } from "next-intl/server";
 
 import { ENUM_PATH, buildRouteWithQuery } from "@/shared/config";
 import { Link } from "@/shared/i18n";
-import { CustomSectionHeader } from "@/shared/ui";
-
-import { CountryCard } from "@/entities/tour";
+import { CountryCard, CustomSectionHeader } from "@/shared/ui";
 
 import { MAIN_COUNTRIES_CONFIG } from "../model";
 

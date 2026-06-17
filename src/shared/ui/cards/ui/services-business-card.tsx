@@ -1,15 +1,7 @@
-import type { LucideIcon } from "lucide-react";
-
 import { cn } from "@/shared/lib";
-import { Card, CardContent, CardHeader, CardTitle } from "@/shared/ui";
 
-type TServicesBusinessCardProps = {
-	badge: string;
-	title: string;
-	description: string;
-	icon: LucideIcon;
-	className?: string;
-};
+import { Card, CardContent, CardHeader, CardTitle } from "../../shadcn-ui/card";
+import type { TServicesBusinessCardProps } from "../types/services-business-card.types";
 
 export function ServicesBusinessCard({
 	badge,

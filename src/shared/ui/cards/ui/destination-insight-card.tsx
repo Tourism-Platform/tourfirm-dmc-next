@@ -1,8 +1,4 @@
-import type { IDestinationInsightCard } from "../types";
-
-type TDestinationInsightCardProps = {
-	data: IDestinationInsightCard;
-};
+import type { TDestinationInsightCardProps } from "../types/destination-insight-card.types";
 
 export function DestinationInsightCard({ data }: TDestinationInsightCardProps) {
 	const Icon = data.icon;

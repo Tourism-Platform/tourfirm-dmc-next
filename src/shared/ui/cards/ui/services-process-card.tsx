@@ -1,10 +1,6 @@
-import { Badge, Card, CardContent } from "@/shared/ui";
-
-type TServicesProcessCardProps = {
-	step: string;
-	title: string;
-	description: string;
-};
+import { Badge } from "../../shadcn-ui/badge";
+import { Card, CardContent } from "../../shadcn-ui/card";
+import type { TServicesProcessCardProps } from "../types/services-process-card.types";
 
 export function ServicesProcessCard({
 	step,

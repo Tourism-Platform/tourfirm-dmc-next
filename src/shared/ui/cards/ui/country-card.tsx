@@ -2,13 +2,10 @@ import Image from "next/image";
 
 import { Link } from "@/shared/i18n";
 import { cn } from "@/shared/lib";
-import { Badge, Card } from "@/shared/ui";
 
-import type { ICountryCard } from "../types";
-
-type TCountryCardProps = {
-	data: ICountryCard;
-};
+import { Badge } from "../../shadcn-ui/badge";
+import { Card } from "../../shadcn-ui/card";
+import type { TCountryCardProps } from "../types/country-card.types";
 
 export function CountryCard({ data }: TCountryCardProps) {
 	return (

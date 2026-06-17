@@ -1,9 +1,7 @@
 import { Mail } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader } from "@/shared/ui";
-
-import { DestinationInsightCard } from "@/entities/tour";
+import { CustomSectionHeader, DestinationInsightCard } from "@/shared/ui";
 
 import { CONTACT_EMAIL_CHANNELS } from "../model";
 

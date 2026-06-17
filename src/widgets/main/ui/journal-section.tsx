@@ -1,8 +1,6 @@
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader } from "@/shared/ui";
-
-import { JournalCard } from "@/entities/tour";
+import { CustomSectionHeader, JournalCard } from "@/shared/ui";
 
 import { MAIN_JOURNAL_CONFIG } from "../model";
 

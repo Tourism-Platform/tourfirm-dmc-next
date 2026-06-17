@@ -1,7 +1,7 @@
 import type { LucideIcon } from "lucide-react";
 
-export interface IDestinationInsightCard {
+export type TAboutDevelopmentPhaseCardProps = {
+	label: string;
 	icon: LucideIcon;
-	title: string;
 	description: string;
-}
+};

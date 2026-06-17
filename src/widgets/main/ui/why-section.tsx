@@ -1,9 +1,7 @@
 import { Gauge, Link2, type LucideIcon, Route } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader } from "@/shared/ui";
-
-import { DestinationInsightCard } from "@/entities/tour";
+import { CustomSectionHeader, DestinationInsightCard } from "@/shared/ui";
 
 import { MAIN_WHY_CONFIG, type TMainWhyId } from "../model";
 

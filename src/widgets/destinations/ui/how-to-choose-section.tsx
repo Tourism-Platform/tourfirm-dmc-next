@@ -1,9 +1,7 @@
 import { Gauge, GitBranch, type LucideIcon, Target } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader } from "@/shared/ui";
-
-import { DestinationInsightCard } from "@/entities/tour";
+import { CustomSectionHeader, DestinationInsightCard } from "@/shared/ui";
 
 import { HOW_TO_CHOOSE_CONFIG, type THowToChooseId } from "../model";
 

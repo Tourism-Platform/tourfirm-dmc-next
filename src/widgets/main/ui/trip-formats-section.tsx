@@ -1,10 +1,11 @@
 import { Briefcase, Heart, type LucideIcon, User, Users } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
-import { Badge } from "@/shared/ui";
-import { CustomSectionHeader } from "@/shared/ui";
-
-import { DestinationInsightCard } from "@/entities/tour";
+import {
+	Badge,
+	CustomSectionHeader,
+	DestinationInsightCard
+} from "@/shared/ui";
 
 import { MAIN_TRIP_FORMATS_CONFIG, type TTripFormatId } from "../model";
 

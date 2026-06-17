@@ -1,12 +1,8 @@
 import Image from "next/image";
 
-import { Badge, Card, CardContent } from "@/shared/ui";
-
-import type { IExperienceCard } from "../types";
-
-type TExperienceCardProps = {
-	data: IExperienceCard;
-};
+import { Badge } from "../../shadcn-ui/badge";
+import { Card, CardContent } from "../../shadcn-ui/card";
+import type { TExperienceCardProps } from "../types/experience-card.types";
 
 export function ExperienceCard({ data }: TExperienceCardProps) {
 	return (

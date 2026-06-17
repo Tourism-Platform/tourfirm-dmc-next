@@ -1,9 +1,7 @@
 import { CalendarDays, type LucideIcon, Route, Shield } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader } from "@/shared/ui";
-
-import { DestinationInsightCard } from "@/entities/tour";
+import { CustomSectionHeader, DestinationInsightCard } from "@/shared/ui";
 
 import { PLANNING_CHECKS_CONFIG, type TPlanningCheckId } from "../model";
 

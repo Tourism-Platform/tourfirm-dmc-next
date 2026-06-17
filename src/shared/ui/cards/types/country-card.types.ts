@@ -8,3 +8,7 @@ export interface ICountryCard {
 	cities: string[];
 	featured?: boolean;
 }
+
+export type TCountryCardProps = {
+	data: ICountryCard;
+};

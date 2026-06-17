@@ -8,9 +8,7 @@ import {
 import type { LucideIcon } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader } from "@/shared/ui";
-
-import { DestinationInsightCard } from "@/entities/tour";
+import { CustomSectionHeader, DestinationInsightCard } from "@/shared/ui";
 
 import { ABOUT_CONNECTION_CONFIG, type TAboutConnectionId } from "../model";
 

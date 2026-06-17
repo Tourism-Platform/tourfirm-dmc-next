@@ -1,8 +1,6 @@
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader } from "@/shared/ui";
-
-import { TradeFairCard } from "@/entities/tour";
+import { CustomSectionHeader, TradeFairCard } from "@/shared/ui";
 
 import { MAIN_TRADE_FAIRS_CONFIG } from "../model";
 

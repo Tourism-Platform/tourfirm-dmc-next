@@ -1,8 +1,6 @@
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader } from "@/shared/ui";
-
-import { RouteIdeaCard } from "@/entities/tour";
+import { CustomSectionHeader, RouteIdeaCard } from "@/shared/ui";
 
 import { MAIN_FEATURED_ROUTES_CONFIG } from "../model";
 

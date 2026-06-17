@@ -5,3 +5,8 @@ export interface IJournalCard {
 	title: string;
 	href: string;
 }
+
+export type TJournalCardProps = {
+	data: IJournalCard;
+	statusLabel: string;
+};

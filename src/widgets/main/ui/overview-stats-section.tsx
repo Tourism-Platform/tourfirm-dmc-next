@@ -8,9 +8,9 @@ import {
 } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
-import { MAIN_OVERVIEW_STATS_CONFIG, type TOverviewStatId } from "../model";
+import { OverviewStatCard } from "@/shared/ui";
 
-import { OverviewStatCard } from "./overview-stat-card";
+import { MAIN_OVERVIEW_STATS_CONFIG, type TOverviewStatId } from "../model";
 
 const STAT_ICONS: Record<TOverviewStatId, LucideIcon> = {
 	base: MapPin,

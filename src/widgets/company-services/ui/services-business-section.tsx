@@ -1,11 +1,9 @@
 import { getTranslations } from "next-intl/server";
 
 import { cn } from "@/shared/lib";
-import { CustomSectionHeader } from "@/shared/ui";
+import { CustomSectionHeader, ServicesBusinessCard } from "@/shared/ui";
 
 import { SERVICES_BUSINESS_CONFIG } from "../model";
-
-import { ServicesBusinessCard } from "./services-business-card";
 
 const LAST_BUSINESS_INDEX = SERVICES_BUSINESS_CONFIG.length - 1;
 

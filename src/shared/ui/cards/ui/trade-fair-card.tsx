@@ -1,10 +1,6 @@
-import { Badge, Card } from "@/shared/ui";
-
-import type { ITradeFairCard } from "../types";
-
-type TTradeFairCardProps = {
-	data: ITradeFairCard;
-};
+import { Badge } from "../../shadcn-ui/badge";
+import { Card } from "../../shadcn-ui/card";
+import type { TTradeFairCardProps } from "../types/trade-fair-card.types";
 
 export function TradeFairCard({ data }: TTradeFairCardProps) {
 	return (

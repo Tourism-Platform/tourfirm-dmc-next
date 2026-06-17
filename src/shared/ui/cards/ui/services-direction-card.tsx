@@ -2,15 +2,9 @@ import Image from "next/image";
 
 import { ENUM_PATH } from "@/shared/config";
 import { Link } from "@/shared/i18n";
-import { Button } from "@/shared/ui";
 
-type TServicesDirectionCardProps = {
-	imageSrc: string;
-	imageAlt: string;
-	title: string;
-	description: string;
-	cta: string;
-};
+import { Button } from "../../shadcn-ui/button";
+import type { TServicesDirectionCardProps } from "../types/services-direction-card.types";
 
 export function ServicesDirectionCard({
 	imageSrc,

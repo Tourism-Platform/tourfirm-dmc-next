@@ -1,10 +1,4 @@
-import type { LucideIcon } from "lucide-react";
-
-type TOverviewStatCardProps = {
-	icon: LucideIcon;
-	label: string;
-	value: string;
-};
+import type { TOverviewStatCardProps } from "../types/overview-stat-card.types";
 
 export function OverviewStatCard({
 	icon: Icon,
