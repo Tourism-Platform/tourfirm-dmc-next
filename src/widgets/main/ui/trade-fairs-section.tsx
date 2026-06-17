@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader, TradeFairCard } from "@/shared/ui";
+import { CardRender, CardVariant, CustomSectionHeader } from "@/shared/ui";
 
 import { MAIN_TRADE_FAIRS_CONFIG } from "../model";
 
@@ -16,9 +16,10 @@ export async function TradeFairsSection() {
 			/>
 			<div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
 				{MAIN_TRADE_FAIRS_CONFIG.map((item) => (
-					<TradeFairCard
+					<CardRender
 						key={item.id}
-						data={{
+						variant={CardVariant.TradeFair}
+						item={{
 							title: t(item.i18n.title),
 							stand: t(item.i18n.stand),
 							participants: t(item.i18n.participants),

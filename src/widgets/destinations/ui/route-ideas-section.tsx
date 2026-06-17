@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader, RouteIdeaCard } from "@/shared/ui";
+import { CardRender, CardVariant, CustomSectionHeader } from "@/shared/ui";
 
 import { ROUTE_IDEAS_CONFIG } from "../model";
 
@@ -16,11 +16,11 @@ export async function RouteIdeasSection() {
 			/>
 			<div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
 				{ROUTE_IDEAS_CONFIG.map((idea) => (
-					<RouteIdeaCard
+					<CardRender
 						key={idea.id}
-						data={{
+						variant={CardVariant.RouteIdea}
+						item={{
 							imageUrl: idea.imageUrl,
-							imageAlt: t(idea.i18n.title),
 							badge: t(idea.i18n.badge),
 							meta: t(idea.i18n.meta),
 							title: t(idea.i18n.title),

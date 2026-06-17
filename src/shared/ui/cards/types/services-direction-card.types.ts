@@ -1,7 +1,6 @@
 export type TServicesDirectionCardProps = {
-	imageSrc: string;
-	imageAlt: string;
+	imageUrl: string;
 	title: string;
 	description: string;
-	cta: string;
+	ctaLabel: string;
 };

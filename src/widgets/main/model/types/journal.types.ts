@@ -10,7 +10,6 @@ export type TJournalI18n = {
 export type TJournalConfig = {
 	id: TJournalId;
 	imageUrl: string;
-	href: string;
 	i18n: TJournalI18n;
 };
 

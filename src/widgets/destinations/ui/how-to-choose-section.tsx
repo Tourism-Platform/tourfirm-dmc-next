@@ -1,7 +1,7 @@
 import { Gauge, GitBranch, type LucideIcon, Target } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader, DestinationInsightCard } from "@/shared/ui";
+import { CardRender, CardVariant, CustomSectionHeader } from "@/shared/ui";
 
 import { HOW_TO_CHOOSE_CONFIG, type THowToChooseId } from "../model";
 
@@ -23,9 +23,10 @@ export async function HowToChooseSection() {
 			/>
 			<div className="grid grid-cols-1 gap-4 md:grid-cols-3">
 				{HOW_TO_CHOOSE_CONFIG.map((item) => (
-					<DestinationInsightCard
+					<CardRender
 						key={item.id}
-						data={{
+						variant={CardVariant.DestinationInsight}
+						item={{
 							icon: HOW_TO_CHOOSE_ICONS[item.id],
 							title: t(item.i18n.title),
 							description: t(item.i18n.description)

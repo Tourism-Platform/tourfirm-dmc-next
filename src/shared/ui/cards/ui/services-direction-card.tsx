@@ -7,18 +7,17 @@ import { Button } from "../../shadcn-ui/button";
 import type { TServicesDirectionCardProps } from "../types/services-direction-card.types";
 
 export function ServicesDirectionCard({
-	imageSrc,
-	imageAlt,
+	imageUrl,
 	title,
 	description,
-	cta
+	ctaLabel
 }: TServicesDirectionCardProps) {
 	return (
 		<article className="bg-card flex flex-col overflow-hidden rounded-xl border">
 			<div className="relative min-h-48 sm:min-h-56">
 				<Image
-					src={imageSrc}
-					alt={imageAlt}
+					src={imageUrl}
+					alt={title}
 					fill
 					className="object-cover"
 					sizes="(max-width: 768px) 100vw, 33vw"
@@ -30,7 +29,7 @@ export function ServicesDirectionCard({
 					{description}
 				</p>
 				<Button asChild variant="outline" className="w-fit">
-					<Link href={ENUM_PATH.HELP.CONTACT}>{cta}</Link>
+					<Link href={ENUM_PATH.HELP.CONTACT}>{ctaLabel}</Link>
 				</Button>
 			</div>
 		</article>

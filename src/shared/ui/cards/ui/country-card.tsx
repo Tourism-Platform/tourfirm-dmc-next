@@ -21,7 +21,7 @@ export function CountryCard({ data }: TCountryCardProps) {
 			>
 				<Image
 					src={data.imageUrl}
-					alt={data.imageAlt}
+					alt={data.title}
 					fill
 					className="object-cover transition-transform duration-300 group-hover:scale-105"
 					sizes={
@@ -40,7 +40,7 @@ export function CountryCard({ data }: TCountryCardProps) {
 					</Badge>
 					<div className="flex flex-col gap-1.5">
 						<p className="text-xl font-semibold text-white sm:text-2xl">
-							{data.name}
+							{data.title}
 						</p>
 						<p className="text-base text-white">
 							{data.description}

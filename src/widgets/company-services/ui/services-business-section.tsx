@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
 
 import { cn } from "@/shared/lib";
-import { CustomSectionHeader, ServicesBusinessCard } from "@/shared/ui";
+import { CardRender, CardVariant, CustomSectionHeader } from "@/shared/ui";
 
 import { SERVICES_BUSINESS_CONFIG } from "../model";
 
@@ -21,15 +21,19 @@ export async function ServicesBusinessSection() {
 				/>
 				<div className="grid min-w-0 grid-cols-1 gap-4 sm:grid-cols-2">
 					{SERVICES_BUSINESS_CONFIG.map((item, index) => (
-						<ServicesBusinessCard
+						<CardRender
 							key={item.id}
-							className={cn(
-								index === LAST_BUSINESS_INDEX && "sm:col-span-2"
-							)}
-							badge={t(item.i18n.badge)}
-							title={t(item.i18n.title)}
-							description={t(item.i18n.description)}
-							icon={item.icon}
+							variant={CardVariant.ServicesBusiness}
+							item={{
+								className: cn(
+									index === LAST_BUSINESS_INDEX &&
+										"sm:col-span-2"
+								),
+								badge: t(item.i18n.badge),
+								title: t(item.i18n.title),
+								description: t(item.i18n.description),
+								icon: item.icon
+							}}
 						/>
 					))}
 				</div>

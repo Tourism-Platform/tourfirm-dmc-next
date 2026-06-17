@@ -1,7 +1,7 @@
 import { Gauge, Link2, type LucideIcon, Route } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader, DestinationInsightCard } from "@/shared/ui";
+import { CardRender, CardVariant, CustomSectionHeader } from "@/shared/ui";
 
 import { MAIN_WHY_CONFIG, type TMainWhyId } from "../model";
 
@@ -22,9 +22,10 @@ export async function WhySection() {
 			/>
 			<div className="grid grid-cols-1 gap-4 md:grid-cols-3">
 				{MAIN_WHY_CONFIG.map((item) => (
-					<DestinationInsightCard
+					<CardRender
 						key={item.id}
-						data={{
+						variant={CardVariant.DestinationInsight}
+						item={{
 							icon: WHY_ICONS[item.id],
 							title: t(item.i18n.title),
 							description: t(item.i18n.description)

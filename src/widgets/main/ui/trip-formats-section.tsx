@@ -3,8 +3,9 @@ import { getTranslations } from "next-intl/server";
 
 import {
 	Badge,
-	CustomSectionHeader,
-	DestinationInsightCard
+	CardRender,
+	CardVariant,
+	CustomSectionHeader
 } from "@/shared/ui";
 
 import { MAIN_TRIP_FORMATS_CONFIG, type TTripFormatId } from "../model";
@@ -32,8 +33,9 @@ export async function TripFormatsSection() {
 						<Badge variant="secondary" className="w-fit">
 							{t(item.i18n.badge)}
 						</Badge>
-						<DestinationInsightCard
-							data={{
+						<CardRender
+							variant={CardVariant.DestinationInsight}
+							item={{
 								icon: FORMAT_ICONS[item.id],
 								title: t(item.i18n.title),
 								description: t(item.i18n.description)

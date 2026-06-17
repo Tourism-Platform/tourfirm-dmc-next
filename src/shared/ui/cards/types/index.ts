@@ -1,4 +1,9 @@
 export type { ICountryCard, TCountryCardProps } from "./country-card.types";
+export {
+	CardVariant,
+	type ICardItem,
+	type TCardRenderProps
+} from "./card-render.types";
 export type {
 	IDestinationInsightCard,
 	TDestinationInsightCardProps

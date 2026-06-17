@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader, ServicesDirectionCard } from "@/shared/ui";
+import { CardRender, CardVariant, CustomSectionHeader } from "@/shared/ui";
 
 import { SERVICES_DIRECTIONS_CONFIG } from "../model";
 
@@ -19,13 +19,15 @@ export async function ServicesDirectionsSection() {
 			/>
 			<div className="grid grid-cols-1 gap-4 md:grid-cols-3">
 				{SERVICES_DIRECTIONS_CONFIG.map((item) => (
-					<ServicesDirectionCard
+					<CardRender
 						key={item.id}
-						imageSrc={item.imageUrl}
-						imageAlt={t(item.i18n.title)}
-						title={t(item.i18n.title)}
-						description={t(item.i18n.description)}
-						cta={t(item.i18n.cta)}
+						variant={CardVariant.ServicesDirection}
+						item={{
+							imageUrl: item.imageUrl,
+							title: t(item.i18n.title),
+							description: t(item.i18n.description),
+							ctaLabel: t(item.i18n.cta)
+						}}
 					/>
 				))}
 			</div>

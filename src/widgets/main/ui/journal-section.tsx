@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader, JournalCard } from "@/shared/ui";
+import { CardRender, CardVariant, CustomSectionHeader } from "@/shared/ui";
 
 import { MAIN_JOURNAL_CONFIG } from "../model";
 
@@ -16,15 +16,13 @@ export async function JournalSection() {
 			/>
 			<div className="grid grid-cols-1 gap-4 md:grid-cols-3">
 				{MAIN_JOURNAL_CONFIG.map((item) => (
-					<JournalCard
+					<CardRender
 						key={item.id}
-						statusLabel={t("journal.status")}
-						data={{
+						variant={CardVariant.Journal}
+						item={{
 							imageUrl: item.imageUrl,
-							imageAlt: t(item.i18n.title),
 							meta: t(item.i18n.meta),
-							title: t(item.i18n.title),
-							href: item.href
+							title: t(item.i18n.title)
 						}}
 					/>
 				))}

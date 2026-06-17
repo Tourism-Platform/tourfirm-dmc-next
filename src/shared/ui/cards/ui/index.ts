@@ -1,3 +1,4 @@
+export { CardRender } from "./card-render";
 export { AboutDevelopmentPhaseCard } from "./about-development-phase-card";
 export { AboutGeographySummaryCard } from "./about-geography-summary-card";
 export { AboutNotUsItemCard } from "./about-not-us-item-card";

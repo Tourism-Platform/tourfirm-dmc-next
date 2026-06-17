@@ -13,7 +13,7 @@ export function RouteIdeaCard({ data }: TRouteIdeaCardProps) {
 			<div className="relative h-64">
 				<Image
 					src={data.imageUrl}
-					alt={data.imageAlt}
+					alt={data.title}
 					fill
 					className="object-cover"
 					sizes="(max-width: 1024px) 100vw, 33vw"

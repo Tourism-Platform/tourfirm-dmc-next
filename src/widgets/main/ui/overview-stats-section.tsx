@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
-import { OverviewStatCard } from "@/shared/ui";
+import { CardRender, CardVariant } from "@/shared/ui";
 
 import { MAIN_OVERVIEW_STATS_CONFIG, type TOverviewStatId } from "../model";
 
@@ -30,11 +30,13 @@ export async function OverviewStatsSection() {
 					const Icon = STAT_ICONS[stat.id];
 
 					return (
-						<OverviewStatCard
+						<CardRender
 							key={stat.id}
-							icon={Icon}
-							label={t(stat.i18n.label)}
-							value={t(stat.i18n.value)}
+							variant={CardVariant.OverviewStat}
+							item={{
+								icon: Icon,
+								value: t(stat.i18n.value)
+							}}
 						/>
 					);
 				})}

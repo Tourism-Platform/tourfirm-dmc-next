@@ -2,7 +2,7 @@ import { getTranslations } from "next-intl/server";
 
 import { ENUM_PATH, buildRouteWithQuery } from "@/shared/config";
 import { Link } from "@/shared/i18n";
-import { CountryCard, CustomSectionHeader } from "@/shared/ui";
+import { CardRender, CardVariant, CustomSectionHeader } from "@/shared/ui";
 
 import { MAIN_COUNTRIES_CONFIG } from "../model";
 
@@ -26,16 +26,16 @@ export async function CountriesSection() {
 			/>
 			<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:gap-6">
 				{MAIN_COUNTRIES_CONFIG.map((country) => (
-					<CountryCard
+					<CardRender
 						key={country.id}
-						data={{
+						variant={CardVariant.Country}
+						item={{
 							href: buildRouteWithQuery(ENUM_PATH.MAIN.CATALOG, {
 								destination: country.catalogDestination
 							}),
 							imageUrl: country.imageUrl,
-							imageAlt: t(country.i18n.name),
 							badge: t(country.i18n.badge),
-							name: t(country.i18n.name),
+							title: t(country.i18n.name),
 							description: t(country.i18n.description),
 							cities: [],
 							featured: country.id === "uzbekistan"

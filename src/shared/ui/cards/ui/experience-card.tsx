@@ -10,7 +10,7 @@ export function ExperienceCard({ data }: TExperienceCardProps) {
 			<div className="relative h-64">
 				<Image
 					src={data.imageUrl}
-					alt={data.imageAlt}
+					alt={data.title}
 					fill
 					className="object-cover"
 					sizes="(max-width: 768px) 100vw, 33vw"

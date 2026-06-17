@@ -1,7 +1,7 @@
 import { CalendarDays, type LucideIcon, Route, Shield } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
-import { CustomSectionHeader, DestinationInsightCard } from "@/shared/ui";
+import { CardRender, CardVariant, CustomSectionHeader } from "@/shared/ui";
 
 import { PLANNING_CHECKS_CONFIG, type TPlanningCheckId } from "../model";
 
@@ -23,9 +23,10 @@ export async function PlanningChecksSection() {
 			/>
 			<div className="grid grid-cols-1 gap-4 md:grid-cols-3">
 				{PLANNING_CHECKS_CONFIG.map((item) => (
-					<DestinationInsightCard
+					<CardRender
 						key={item.id}
-						data={{
+						variant={CardVariant.DestinationInsight}
+						item={{
 							icon: PLANNING_CHECK_ICONS[item.id],
 							title: t(item.i18n.title),
 							description: t(item.i18n.description)
