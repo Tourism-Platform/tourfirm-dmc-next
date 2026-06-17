@@ -4,10 +4,10 @@ import type { ReactNode } from "react";
 import { cn } from "@/shared/lib";
 
 type TCustomCtaBannerProps = {
-	eyebrow: string;
-	title: ReactNode;
-	description: string;
-	actions: ReactNode;
+	eyebrow?: string;
+	title?: ReactNode;
+	description?: string;
+	actions?: ReactNode;
 	imageSrc?: string;
 	imageAlt?: string;
 	className?: string;

@@ -1,7 +1,7 @@
 import { Mail } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
-import { CardRender, CardVariant, CustomSectionHeader } from "@/shared/ui";
+import { CardRender, CardType, CustomSectionHeader } from "@/shared/ui";
 
 import { CONTACT_EMAIL_CHANNELS } from "../model";
 
@@ -19,7 +19,7 @@ export async function ContactEmailsSection() {
 				{CONTACT_EMAIL_CHANNELS.map((channel) => (
 					<div key={channel.id} className="flex flex-col gap-3">
 						<CardRender
-							variant={CardVariant.DestinationInsight}
+							type={CardType.DestinationInsight}
 							item={{
 								icon: Mail,
 								title: t(channel.i18n.label),

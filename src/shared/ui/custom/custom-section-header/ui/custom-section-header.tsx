@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 import { cn } from "@/shared/lib";
 
 type TCustomSectionHeaderProps = {
-	eyebrow: string;
+	eyebrow?: string;
 	title: ReactNode;
 	description?: string;
 	actions?: ReactNode;
@@ -19,9 +19,11 @@ export function CustomSectionHeader({
 }: TCustomSectionHeaderProps) {
 	const content = (
 		<div className={cn("flex max-w-3xl flex-col gap-3", className)}>
-			<p className="text-primary text-lg font-semibold uppercase tracking-widest">
-				{eyebrow}
-			</p>
+			{eyebrow ? (
+				<p className="text-primary text-lg font-semibold uppercase tracking-widest">
+					{eyebrow}
+				</p>
+			) : null}
 			<h2 className="text-xl font-semibold sm:text-2xl lg:text-3xl">
 				{title}
 			</h2>

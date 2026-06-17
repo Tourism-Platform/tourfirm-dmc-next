@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 
-import { CardRender, CardVariant, CustomSectionHeader } from "@/shared/ui";
+import { CardRender, CardType, CustomSectionHeader } from "@/shared/ui";
 
 import { SERVICES_PROCESS_CONFIG } from "../model";
 import { HOW_WORK_BEGIN_IMAGE } from "../model";
@@ -30,7 +30,7 @@ export async function ServicesProcessSection() {
 					{SERVICES_PROCESS_CONFIG.map((item, index) => (
 						<CardRender
 							key={item.id}
-							variant={CardVariant.ServicesProcess}
+							type={CardType.ServicesProcess}
 							item={{
 								step: String(index + 1),
 								title: t(item.i18n.title),

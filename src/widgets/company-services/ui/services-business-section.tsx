@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
 
 import { cn } from "@/shared/lib";
-import { CardRender, CardVariant, CustomSectionHeader } from "@/shared/ui";
+import { CardRender, CardType, CustomSectionHeader } from "@/shared/ui";
 
 import { SERVICES_BUSINESS_CONFIG } from "../model";
 
@@ -23,7 +23,7 @@ export async function ServicesBusinessSection() {
 					{SERVICES_BUSINESS_CONFIG.map((item, index) => (
 						<CardRender
 							key={item.id}
-							variant={CardVariant.ServicesBusiness}
+							type={CardType.ServicesBusiness}
 							item={{
 								className: cn(
 									index === LAST_BUSINESS_INDEX &&

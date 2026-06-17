@@ -1,4 +1,5 @@
-import { CardVariant, type TCardRenderProps } from "../types/card-render.types";
+import { getLucideIcon } from "@/shared/lib";
+import { CardType, type TCardRenderProps } from "../types/card-render.types";
 
 import { CountryCard } from "./country-card";
 import { DestinationInsightCard } from "./destination-insight-card";
@@ -10,10 +11,12 @@ import { ServicesBusinessCard } from "./services-business-card";
 import { ServicesDirectionCard } from "./services-direction-card";
 import { ServicesProcessCard } from "./services-process-card";
 import { TradeFairCard } from "./trade-fair-card";
+import { TripFormatCard } from "./trip-format-card";
 
-export function CardRender({ variant, item }: TCardRenderProps) {
+export function CardRender({ type: variant, item }: TCardRenderProps) {
+	const icon = getLucideIcon(item.icon);
 	switch (variant) {
-		case CardVariant.Country:
+		case CardType.Country:
 			return (
 				<CountryCard
 					data={{
@@ -27,17 +30,17 @@ export function CardRender({ variant, item }: TCardRenderProps) {
 					}}
 				/>
 			);
-		case CardVariant.DestinationInsight:
+		case CardType.DestinationInsight:
 			return (
 				<DestinationInsightCard
 					data={{
-						icon: item.icon!,
+						icon,
 						title: item.title ?? "",
 						description: item.description ?? ""
 					}}
 				/>
 			);
-		case CardVariant.RouteIdea:
+		case CardType.RouteIdea:
 			return (
 				<RouteIdeaCard
 					data={{
@@ -51,7 +54,7 @@ export function CardRender({ variant, item }: TCardRenderProps) {
 					}}
 				/>
 			);
-		case CardVariant.Experience:
+		case CardType.Experience:
 			return (
 				<ExperienceCard
 					data={{
@@ -62,7 +65,7 @@ export function CardRender({ variant, item }: TCardRenderProps) {
 					}}
 				/>
 			);
-		case CardVariant.TradeFair:
+		case CardType.TradeFair:
 			return (
 				<TradeFairCard
 					data={{
@@ -73,7 +76,7 @@ export function CardRender({ variant, item }: TCardRenderProps) {
 					}}
 				/>
 			);
-		case CardVariant.Journal:
+		case CardType.Journal:
 			return (
 				<JournalCard
 					data={{
@@ -83,21 +86,21 @@ export function CardRender({ variant, item }: TCardRenderProps) {
 					}}
 				/>
 			);
-		case CardVariant.OverviewStat:
+		case CardType.OverviewStat:
 			return (
-				<OverviewStatCard icon={item.icon!} value={item.value ?? ""} />
+				<OverviewStatCard icon={icon} value={item.value ?? ""} />
 			);
-		case CardVariant.ServicesBusiness:
+		case CardType.ServicesBusiness:
 			return (
 				<ServicesBusinessCard
 					badge={item.badge ?? ""}
 					title={item.title ?? ""}
 					description={item.description ?? ""}
-					icon={item.icon!}
+					icon={icon}
 					className={item.className}
 				/>
 			);
-		case CardVariant.ServicesDirection:
+		case CardType.ServicesDirection:
 			return (
 				<ServicesDirectionCard
 					imageUrl={item.imageUrl ?? ""}
@@ -106,12 +109,24 @@ export function CardRender({ variant, item }: TCardRenderProps) {
 					ctaLabel={item.ctaLabel ?? ""}
 				/>
 			);
-		case CardVariant.ServicesProcess:
+		case CardType.ServicesProcess:
 			return (
 				<ServicesProcessCard
 					step={item.step ?? ""}
 					title={item.title ?? ""}
 					description={item.description ?? ""}
+				/>
+			);
+		case CardType.TripFormat:
+			return (
+				<TripFormatCard
+					data={{
+						id: "",
+						badge: item.badge ?? "",
+						icon,
+						title: item.title ?? "",
+						description: item.description ?? ""
+					}}
 				/>
 			);
 	}

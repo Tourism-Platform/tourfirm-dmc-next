@@ -13,7 +13,7 @@ export type TOverviewStatI18n = {
 };
 
 export type TOverviewStatConfig = {
-	id: TOverviewStatId;
+	icon: string;
 	i18n: TOverviewStatI18n;
 };
 

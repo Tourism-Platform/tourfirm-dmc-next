@@ -1,4 +1,5 @@
 export type { TMainI18nKey } from "./common.types";
+export type { TMainPageConfig, TMainPageSectionConfig, TMainPageTranslateFn } from "./main-page.types";
 export {
 	MAIN_COUNTRY_I18N,
 	type TMainCountryConfig,

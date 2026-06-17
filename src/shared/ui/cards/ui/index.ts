@@ -15,3 +15,4 @@ export { ServicesBusinessCard } from "./services-business-card";
 export { ServicesDirectionCard } from "./services-direction-card";
 export { ServicesProcessCard } from "./services-process-card";
 export { TradeFairCard } from "./trade-fair-card";
+export { TripFormatCard } from "./trip-format-card";

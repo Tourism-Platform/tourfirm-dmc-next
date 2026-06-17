@@ -3,6 +3,7 @@ export * from "./destination-images.config";
 export * from "./experiences.config";
 export * from "./featured-routes.config";
 export * from "./journal.config";
+export * from "./main-page.config";
 export * from "./overview-stats.config";
 export * from "./trade-fairs.config";
 export * from "./trip-formats.config";

@@ -1,44 +1,34 @@
 import { getTranslations } from "next-intl/server";
 
 import { ENUM_PATH, buildRouteWithQuery } from "@/shared/config";
-import { CardRender, CardVariant, CustomSectionHeader } from "@/shared/ui";
+import { CardType, CardsSection } from "@/shared/ui";
 
-import { COUNTRIES_CONFIG } from "../model";
+import { MAIN_COUNTRIES_CONFIG } from "@/widgets/main/model";
 
 export async function CountriesGrid() {
-	const t = await getTranslations("destinations_page");
-
+	const t = await getTranslations("main_page");
 	return (
-		<section
-			id="countries"
-			className="flex scroll-mt-24 flex-col gap-6 sm:gap-8"
-		>
-			<CustomSectionHeader
-				eyebrow={t("countries.eyebrow")}
-				title={t("countries.title")}
-				description={t("countries.description")}
-			/>
-			<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:gap-6">
-				{COUNTRIES_CONFIG.map((country) => (
-					<CardRender
-						key={country.id}
-						variant={CardVariant.Country}
-						item={{
-							href: buildRouteWithQuery(ENUM_PATH.MAIN.CATALOG, {
-								destination: country.catalogDestination
-							}),
-							imageUrl: country.imageUrl,
-							badge: t(country.i18n.badge),
-							title: t(country.i18n.name),
-							description: t(country.i18n.description),
-							cities: country.i18n.cities.map((cityKey) =>
-								t(cityKey)
-							),
-							featured: country.id === "uzbekistan"
-						}}
-					/>
-				))}
-			</div>
-		</section>
+		<CardsSection
+			eyebrow={t("countries.eyebrow")}
+			title={t("countries.title")}
+			description={t("countries.description")}
+			gridClassName="sm:grid-cols-2 sm:gap-5 lg:gap-6"
+			cards={ 
+				MAIN_COUNTRIES_CONFIG.map((country) => ({
+					key: country.id,
+					type: CardType.Country,
+					item: {
+						href: buildRouteWithQuery(ENUM_PATH.MAIN.CATALOG, {
+							destination: country.catalogDestination
+						}),
+						imageUrl: country.imageUrl,
+						badge: t(country.i18n.badge),
+						title: t(country.i18n.name),
+						description: t(country.i18n.description),
+						cities: [],
+						featured: country.id === "uzbekistan"
+					}
+				}))}
+		/>
 	);
 }

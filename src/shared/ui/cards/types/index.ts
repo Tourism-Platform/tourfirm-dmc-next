@@ -1,6 +1,6 @@
 export type { ICountryCard, TCountryCardProps } from "./country-card.types";
 export {
-	CardVariant,
+	CardType,
 	type ICardItem,
 	type TCardRenderProps
 } from "./card-render.types";
@@ -31,3 +31,7 @@ export type { TAboutDevelopmentPhaseCardProps } from "./about-development-phase-
 export type { TAboutGeographySummaryCardProps } from "./about-geography-summary-card.types";
 export type { TAboutNotUsItemCardProps } from "./about-not-us-item-card.types";
 export type { TRouteMapPanelProps } from "./route-map-panel.types";
+export type {
+	ITripFormatCardItem,
+	TTripFormatCardProps
+} from "./trip-format-card.types";

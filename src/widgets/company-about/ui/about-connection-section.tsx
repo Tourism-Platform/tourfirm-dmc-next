@@ -8,7 +8,7 @@ import {
 import type { LucideIcon } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
-import { CardRender, CardVariant, CustomSectionHeader } from "@/shared/ui";
+import { CardType, CardsSection } from "@/shared/ui";
 
 import { ABOUT_CONNECTION_CONFIG, type TAboutConnectionId } from "../model";
 
@@ -24,25 +24,20 @@ export async function AboutConnectionSection() {
 	const t = await getTranslations("company_about_page");
 
 	return (
-		<section className="flex flex-col gap-6 sm:gap-8">
-			<CustomSectionHeader
-				eyebrow={t("connection.eyebrow")}
-				title={t("connection.title")}
-				description={t("connection.description")}
-			/>
-			<div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-				{ABOUT_CONNECTION_CONFIG.map((item) => (
-					<CardRender
-						key={item.id}
-						variant={CardVariant.DestinationInsight}
-						item={{
-							icon: CONNECTION_ICONS[item.id],
-							title: t(item.i18n.title),
-							description: t(item.i18n.description)
-						}}
-					/>
-				))}
-			</div>
-		</section>
+		<CardsSection
+			eyebrow={t("connection.eyebrow")}
+			title={t("connection.title")}
+			description={t("connection.description")}
+			gridClassName="md:grid-cols-2 lg:grid-cols-3"
+			cards={ABOUT_CONNECTION_CONFIG.map((item) => ({
+				key: item.id,
+				type: CardType.DestinationInsight,
+				item: {
+					icon: CONNECTION_ICONS[item.id],
+					title: t(item.i18n.title),
+					description: t(item.i18n.description)
+				}
+			}))}
+		/>
 	);
 }

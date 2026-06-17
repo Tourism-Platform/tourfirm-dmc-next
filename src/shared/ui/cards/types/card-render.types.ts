@@ -1,6 +1,6 @@
 import type { LucideIcon } from "lucide-react";
 
-export enum CardVariant {
+export enum CardType {
 	Country = "country",
 	DestinationInsight = "destinationInsight",
 	RouteIdea = "routeIdea",
@@ -10,7 +10,8 @@ export enum CardVariant {
 	OverviewStat = "overviewStat",
 	ServicesBusiness = "servicesBusiness",
 	ServicesDirection = "servicesDirection",
-	ServicesProcess = "servicesProcess"
+	ServicesProcess = "servicesProcess",
+	TripFormat = "tripFormat"
 }
 
 export interface ICardItem {
@@ -29,11 +30,12 @@ export interface ICardItem {
 	country?: string;
 	participants?: string;
 	step?: string;
-	icon?: LucideIcon;
+	icon?: LucideIcon | string;
 	className?: string;
 }
 
 export type TCardRenderProps = {
-	variant: CardVariant;
+	key?: string;
+	type: CardType;
 	item: ICardItem;
 };
