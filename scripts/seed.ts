@@ -292,7 +292,7 @@ async function resolveCountryCard(
 	};
 }
 
-async function resolveHomepageCards(
+async function resolveBlockCards(
 	payload: Payload,
 	mediaCache: Map<string, number>,
 	cards: unknown[],
@@ -349,7 +349,7 @@ async function resolvePageBlocks(
 			}
 
 			if (Array.isArray(entry.cards)) {
-				entry.cards = await resolveHomepageCards(
+				entry.cards = await resolveBlockCards(
 					payload,
 					mediaCache,
 					entry.cards,
@@ -363,9 +363,81 @@ async function resolvePageBlocks(
 	);
 }
 
+async function resolveTopLevelMedia(
+	payload: Payload,
+	mediaCache: Map<string, number>,
+	data: Record<string, unknown>
+): Promise<Record<string, unknown>> {
+	const result: Record<string, unknown> = { ...data };
+
+	if (typeof result.heroImage === "string") {
+		result.heroImage = await ensureMedia(
+			payload,
+			mediaCache,
+			result.heroImage
+		);
+	}
+
+	if (Array.isArray(result.gallery)) {
+		result.gallery = await Promise.all(
+			result.gallery.map(async (item) => {
+				if (typeof item === "string") {
+					return ensureMedia(payload, mediaCache, item);
+				}
+
+				return item;
+			})
+		);
+	}
+
+	return result;
+}
+
+async function resolveSeedDocument(
+	payload: Payload,
+	mediaCache: Map<string, number>,
+	data: Record<string, unknown>,
+	locale: TLocale,
+	options?: TResolvePageOptions
+): Promise<Record<string, unknown>> {
+	const withTopLevelMedia = await resolveTopLevelMedia(
+		payload,
+		mediaCache,
+		data
+	);
+
+	if (!Array.isArray(withTopLevelMedia.blocks)) {
+		return withTopLevelMedia;
+	}
+
+	return {
+		...withTopLevelMedia,
+		blocks: await resolvePageBlocks(
+			payload,
+			mediaCache,
+			withTopLevelMedia.blocks,
+			locale,
+			options
+		)
+	};
+}
+
+async function readDestinationPageSlug(): Promise<string> {
+	const filePath = path.join(CONTENT_DIR, "destination-page.yml");
+	const raw = await readYamlFile<Record<string, unknown>>(filePath);
+	const slug = raw.slug;
+
+	if (typeof slug === "object" && slug !== null && "en" in slug) {
+		return String((slug as Record<string, unknown>).en);
+	}
+
+	return String(slug ?? "");
+}
+
 async function seedHomepage(
 	payload: Payload,
-	mediaCache: Map<string, number>
+	mediaCache: Map<string, number>,
+	navigationRootSlug: string
 ): Promise<void> {
 	const filePath = path.join(CONTENT_DIR, "main-page.yml");
 	const raw = await readYamlFile<Record<string, unknown>>(filePath);
@@ -374,18 +446,13 @@ async function seedHomepage(
 
 	for (const locale of LOCALES) {
 		const localized = pickLocale(raw, locale) as Record<string, unknown>;
-		const blocks = Array.isArray(localized.blocks) ? localized.blocks : [];
-		const resolvedBlocks = await resolvePageBlocks(
+		const data = await resolveSeedDocument(
 			payload,
 			mediaCache,
-			blocks,
-			locale
+			localized,
+			locale,
+			{ hrefPrefix: navigationRootSlug }
 		);
-
-		const data: Record<string, unknown> = {
-			...localized,
-			blocks: resolvedBlocks
-		};
 
 		await payload.updateGlobal({
 			slug: "homepage",
@@ -401,28 +468,23 @@ async function seedHomepage(
 async function seedDestination(
 	payload: Payload,
 	mediaCache: Map<string, number>
-): Promise<void> {
+): Promise<string> {
 	const filePath = path.join(CONTENT_DIR, "destination-page.yml");
 	const raw = await readYamlFile<Record<string, unknown>>(filePath);
 
 	console.log("Seeding destination global...");
 
+	const pageSlug = await readDestinationPageSlug();
+
 	for (const locale of LOCALES) {
 		const localized = pickLocale(raw, locale) as Record<string, unknown>;
-		const blocks = Array.isArray(localized.blocks) ? localized.blocks : [];
-		const pageSlug = String(localized.slug ?? "");
-		const resolvedBlocks = await resolvePageBlocks(
+		const data = await resolveSeedDocument(
 			payload,
 			mediaCache,
-			blocks,
+			localized,
 			locale,
 			{ hrefPrefix: pageSlug }
 		);
-
-		const data: Record<string, unknown> = {
-			...localized,
-			blocks: resolvedBlocks
-		};
 
 		await payload.updateGlobal({
 			slug: "destination",
@@ -433,49 +495,8 @@ async function seedDestination(
 
 		console.log(`  + destination locale ${locale}`);
 	}
-}
 
-async function resolveMediaFields(
-	payload: Payload,
-	mediaCache: Map<string, number>,
-	data: Record<string, unknown>
-): Promise<Record<string, unknown>> {
-	const result: Record<string, unknown> = { ...data };
-
-	if (typeof result.heroImage === "string") {
-		result.heroImage = await ensureMedia(
-			payload,
-			mediaCache,
-			result.heroImage
-		);
-	}
-
-	if (Array.isArray(result.blocks)) {
-		result.blocks = await Promise.all(
-			result.blocks.map(async (block) => {
-				if (!block || typeof block !== "object") {
-					return block;
-				}
-
-				const entry = { ...(block as Record<string, unknown>) };
-
-				if (
-					entry.blockType === "hero" &&
-					typeof entry.image === "string"
-				) {
-					entry.image = await ensureMedia(
-						payload,
-						mediaCache,
-						entry.image
-					);
-				}
-
-				return entry;
-			})
-		);
-	}
-
-	return result;
+	return pageSlug;
 }
 
 function resolveBadgeIds(
@@ -501,6 +522,217 @@ function resolveBadgeIds(
 			return id;
 		})
 	};
+}
+
+async function findCountryIdBySlug(
+	payload: Payload,
+	countrySlug: string,
+	locale: TLocale
+): Promise<number> {
+	const result = await payload.find({
+		collection: "countries",
+		where: {
+			slug: {
+				equals: countrySlug
+			}
+		},
+		locale,
+		limit: 1,
+		depth: 0,
+		overrideAccess: true
+	});
+
+	const country = result.docs[0];
+
+	if (!country) {
+		throw new Error(`Country not found for slug: ${countrySlug}`);
+	}
+
+	return country.id as number;
+}
+
+async function findRegionIdBySlug(
+	payload: Payload,
+	countryId: number,
+	regionSlug: string,
+	locale: TLocale
+): Promise<number> {
+	const result = await payload.find({
+		collection: "regions",
+		where: {
+			and: [
+				{
+					slug: {
+						equals: regionSlug
+					}
+				},
+				{
+					country: {
+						equals: countryId
+					}
+				}
+			]
+		},
+		locale,
+		limit: 1,
+		depth: 0,
+		overrideAccess: true
+	});
+
+	const region = result.docs[0];
+
+	if (!region) {
+		throw new Error(
+			`Region not found for slug: ${regionSlug} (country id: ${countryId})`
+		);
+	}
+
+	return region.id as number;
+}
+
+async function resolveRegionSeedData(
+	payload: Payload,
+	data: Record<string, unknown>,
+	locale: TLocale,
+	badgeIds: Map<string, number>,
+	mediaCache: Map<string, number>
+): Promise<Record<string, unknown>> {
+	const result = { ...data };
+
+	if (typeof result.country === "string") {
+		result.country = await findCountryIdBySlug(
+			payload,
+			result.country,
+			locale
+		);
+	}
+
+	const withBadges = resolveBadgeIds(result, badgeIds);
+
+	return resolveSeedDocument(payload, mediaCache, withBadges, locale);
+}
+
+async function resolveCitySeedData(
+	payload: Payload,
+	data: Record<string, unknown>,
+	locale: TLocale,
+	badgeIds: Map<string, number>,
+	mediaCache: Map<string, number>
+): Promise<Record<string, unknown>> {
+	const result = { ...data };
+
+	if (typeof result.country === "string") {
+		result.country = await findCountryIdBySlug(
+			payload,
+			result.country,
+			locale
+		);
+	}
+
+	if (typeof result.region === "string") {
+		const countryId = result.country as number;
+
+		result.region = await findRegionIdBySlug(
+			payload,
+			countryId,
+			result.region,
+			locale
+		);
+	}
+
+	const withBadges = resolveBadgeIds(result, badgeIds);
+
+	return resolveSeedDocument(payload, mediaCache, withBadges, locale);
+}
+
+async function findCityIdBySlug(
+	payload: Payload,
+	countryId: number,
+	regionId: number,
+	citySlug: string,
+	locale: TLocale
+): Promise<number> {
+	const result = await payload.find({
+		collection: "cities",
+		where: {
+			and: [
+				{
+					slug: {
+						equals: citySlug
+					}
+				},
+				{
+					country: {
+						equals: countryId
+					}
+				},
+				{
+					region: {
+						equals: regionId
+					}
+				}
+			]
+		},
+		locale,
+		limit: 1,
+		depth: 0,
+		overrideAccess: true
+	});
+
+	const city = result.docs[0];
+
+	if (!city) {
+		throw new Error(
+			`City not found for slug: ${citySlug} (region id: ${regionId})`
+		);
+	}
+
+	return city.id as number;
+}
+
+async function resolveAttractionSeedData(
+	payload: Payload,
+	data: Record<string, unknown>,
+	locale: TLocale,
+	badgeIds: Map<string, number>,
+	mediaCache: Map<string, number>
+): Promise<Record<string, unknown>> {
+	const result = { ...data };
+
+	if (typeof result.country === "string") {
+		result.country = await findCountryIdBySlug(
+			payload,
+			result.country,
+			locale
+		);
+	}
+
+	const countryId = result.country as number;
+
+	if (typeof result.region === "string") {
+		result.region = await findRegionIdBySlug(
+			payload,
+			countryId,
+			result.region,
+			locale
+		);
+	}
+
+	const regionId = result.region as number;
+
+	if (typeof result.city === "string") {
+		result.city = await findCityIdBySlug(
+			payload,
+			countryId,
+			regionId,
+			result.city,
+			locale
+		);
+	}
+
+	const withBadges = resolveBadgeIds(result, badgeIds);
+
+	return resolveSeedDocument(payload, mediaCache, withBadges, locale);
 }
 
 async function seedLocalizedDoc(
@@ -576,7 +808,10 @@ async function seedBadges(payload: Payload): Promise<Map<string, number>> {
 	return badgeIds;
 }
 
-async function seedThemes(payload: Payload): Promise<number> {
+async function seedThemes(
+	payload: Payload,
+	mediaCache: Map<string, number>
+): Promise<number> {
 	const filePath = path.join(CONTENT_DIR, "themes.yml");
 	const items = await readYamlFile<Record<string, unknown>[]>(filePath);
 
@@ -590,7 +825,11 @@ async function seedThemes(payload: Payload): Promise<number> {
 				? String((item.slug as Record<string, unknown>).en)
 				: String(item.slug);
 
-		await seedLocalizedDoc(payload, "themes", item, { published: true });
+		await seedLocalizedDoc(payload, "themes", item, {
+			published: true,
+			beforeCreate: async (data, locale) =>
+				resolveSeedDocument(payload, mediaCache, data, locale)
+		});
 		console.log(`  + theme ${slug}`);
 	}
 
@@ -623,13 +862,171 @@ async function seedCountries(
 
 		await seedLocalizedDoc(payload, "countries", item, {
 			published: true,
-			beforeCreate: async (data) => {
+			beforeCreate: async (data, locale) => {
 				const withBadges = resolveBadgeIds(data, badgeIds);
-				return resolveMediaFields(payload, mediaCache, withBadges);
+				return resolveSeedDocument(
+					payload,
+					mediaCache,
+					withBadges,
+					locale
+				);
 			}
 		});
 
 		console.log(`  + country ${slug}`);
+	}
+
+	return files.length;
+}
+
+async function seedRegions(
+	payload: Payload,
+	badgeIds: Map<string, number>,
+	mediaCache: Map<string, number>
+): Promise<number> {
+	const regionsDir = path.join(CONTENT_DIR, "regions");
+
+	let files: string[];
+
+	try {
+		files = (await fs.readdir(regionsDir))
+			.filter((file) => file.endsWith(".yml"))
+			.sort();
+	} catch {
+		console.log("Seeding regions (0)...");
+
+		return 0;
+	}
+
+	console.log(`Seeding regions (${files.length})...`);
+
+	for (const file of files) {
+		const item = await readYamlFile<Record<string, unknown>>(
+			path.join(regionsDir, file)
+		);
+
+		const slug =
+			typeof item.slug === "object" &&
+			item.slug !== null &&
+			"en" in item.slug
+				? String((item.slug as Record<string, unknown>).en)
+				: file.replace(/\.yml$/, "");
+
+		await seedLocalizedDoc(payload, "regions", item, {
+			published: true,
+			beforeCreate: async (data, locale) =>
+				resolveRegionSeedData(
+					payload,
+					data,
+					locale,
+					badgeIds,
+					mediaCache
+				)
+		});
+
+		console.log(`  + region ${slug}`);
+	}
+
+	return files.length;
+}
+
+async function seedCities(
+	payload: Payload,
+	badgeIds: Map<string, number>,
+	mediaCache: Map<string, number>
+): Promise<number> {
+	const citiesDir = path.join(CONTENT_DIR, "cities");
+
+	let files: string[];
+
+	try {
+		files = (await fs.readdir(citiesDir))
+			.filter((file) => file.endsWith(".yml"))
+			.sort();
+	} catch {
+		console.log("Seeding cities (0)...");
+
+		return 0;
+	}
+
+	console.log(`Seeding cities (${files.length})...`);
+
+	for (const file of files) {
+		const item = await readYamlFile<Record<string, unknown>>(
+			path.join(citiesDir, file)
+		);
+
+		const slug =
+			typeof item.slug === "object" &&
+			item.slug !== null &&
+			"en" in item.slug
+				? String((item.slug as Record<string, unknown>).en)
+				: file.replace(/\.yml$/, "");
+
+		await seedLocalizedDoc(payload, "cities", item, {
+			published: true,
+			beforeCreate: async (data, locale) =>
+				resolveCitySeedData(
+					payload,
+					data,
+					locale,
+					badgeIds,
+					mediaCache
+				)
+		});
+
+		console.log(`  + city ${slug}`);
+	}
+
+	return files.length;
+}
+
+async function seedAttractions(
+	payload: Payload,
+	badgeIds: Map<string, number>,
+	mediaCache: Map<string, number>
+): Promise<number> {
+	const attractionsDir = path.join(CONTENT_DIR, "attractions");
+
+	let files: string[];
+
+	try {
+		files = (await fs.readdir(attractionsDir))
+			.filter((file) => file.endsWith(".yml"))
+			.sort();
+	} catch {
+		console.log("Seeding attractions (0)...");
+
+		return 0;
+	}
+
+	console.log(`Seeding attractions (${files.length})...`);
+
+	for (const file of files) {
+		const item = await readYamlFile<Record<string, unknown>>(
+			path.join(attractionsDir, file)
+		);
+
+		const slug =
+			typeof item.slug === "object" &&
+			item.slug !== null &&
+			"en" in item.slug
+				? String((item.slug as Record<string, unknown>).en)
+				: file.replace(/\.yml$/, "");
+
+		await seedLocalizedDoc(payload, "attractions", item, {
+			published: true,
+			beforeCreate: async (data, locale) =>
+				resolveAttractionSeedData(
+					payload,
+					data,
+					locale,
+					badgeIds,
+					mediaCache
+				)
+		});
+
+		console.log(`  + attraction ${slug}`);
 	}
 
 	return files.length;
@@ -646,6 +1043,9 @@ async function main(): Promise<void> {
 
 	const payload = await getPayload({ config });
 
+	await dropCollection(payload, "attractions");
+	await dropCollection(payload, "cities");
+	await dropCollection(payload, "regions");
 	await dropCollection(payload, "countries");
 	await dropCollection(payload, "themes");
 	await dropCollection(payload, "badges");
@@ -653,15 +1053,25 @@ async function main(): Promise<void> {
 
 	const mediaCache = new Map<string, number>();
 	const badgeIds = await seedBadges(payload);
-	const themesCount = await seedThemes(payload);
+	const themesCount = await seedThemes(payload, mediaCache);
 	const countriesCount = await seedCountries(payload, badgeIds, mediaCache);
-	await seedHomepage(payload, mediaCache);
-	await seedDestination(payload, mediaCache);
+	const regionsCount = await seedRegions(payload, badgeIds, mediaCache);
+	const citiesCount = await seedCities(payload, badgeIds, mediaCache);
+	const attractionsCount = await seedAttractions(
+		payload,
+		badgeIds,
+		mediaCache
+	);
+	const navigationRootSlug = await seedDestination(payload, mediaCache);
+	await seedHomepage(payload, mediaCache, navigationRootSlug);
 
 	console.log("Seed complete:", {
 		badges: badgeIds.size,
 		themes: themesCount,
 		countries: countriesCount,
+		regions: regionsCount,
+		cities: citiesCount,
+		attractions: attractionsCount,
 		homepage: true,
 		destination: true
 	});

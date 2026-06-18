@@ -1,0 +1,69 @@
+# Seed: коллекция attractions — Amir Timur Square
+
+slug:
+  en: amir-timur-square
+  ru: amir-timur-square
+  uz: amir-timur-square
+title:
+  en: Amir Timur Square
+  ru: Площадь Амира Тимура
+  uz: Amir Temur maydoni
+subtitle:
+  en: City centre
+  ru: Центр города
+  uz: Shahar markazi
+excerpt:
+  en: Tashkent's central square with the Amir Timur monument and surrounding museums.
+  ru: Центральная площадь Ташкента с монументом Амиру Тимуру и окружающими музеями.
+  uz: Amir Temur haydali Toshkent markaziy maydoni va atrofdagi muzeylar.
+country: uzbekistan
+region: tashkent-region
+city: tashkent
+type: SQUARE
+importance: RECOMMENDED
+latitude: 41.3112
+longitude: 69.2795
+heroImage: assets/images/destinations/uzbekistan.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/destinations/uzbekistan.jpg
+    imageAlt:
+      en: Amir Timur Square
+      ru: Площадь Амира Тимура
+      uz: Amir Temur maydoni
+    title:
+      en: Amir Timur Square
+      ru: Площадь Амира Тимура
+      uz: Amir Temur maydoni
+    description:
+      en: Tashkent's central square with the Amir Timur monument and surrounding museums.
+      ru: Центральная площадь Ташкента с монументом Амиру Тимуру и окружающими музеями.
+      uz: Amir Temur haydali Toshkent markaziy maydoni va atrofdagi muzeylar.
+  - blockType: regular
+    eyebrow:
+      en: Day plan
+      ru: План на день
+      uz: Kunlik reja
+    title:
+      en: Evening stop
+      ru: Вечерняя точка
+      uz: Kechki nuqta
+    description:
+      en: "Use Amir Timur Square as an evening anchor after metro or museum visits. The monument and surrounding state museums frame modern Tashkent; easy to combine with nearby cafés on the same boulevard axis."
+      ru: "Используйте площадь Амира Тимура как вечерний ориентир после метро или музеев. Монумент и государственные музеи вокруг задают образ современного Ташкента; легко сочетается с кафе на той же бульварной оси."
+      uz: "Metro yoki muzeylardan keyin kechki yo'nalish nuqtasi sifatida Amir Temur maydonidan foydalaning. Haykal va atrofdagi davlat muzeylari zamonaviy Toshkentni ifodalaydi; xuddi shu bulvar o'qi bo'ylab kafelar bilan birlashtirish oson."
+seo:
+  metaTitle:
+    en: Amir Timur Square | TourLink
+    ru: Площадь Амира Тимура | TourLink
+    uz: Amir Temur maydoni | TourLink
+  metaDescription:
+    en: Explore Amir Timur Square in central Tashkent with TourLink.
+    ru: Исследуйте площадь Амира Тимура в центре Ташкента с TourLink.
+    uz: TourLink bilan markaziy Toshkentdagi Amir Temur maydonini kashf eting.
+  structuredDataType: TouristAttraction
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2025-06-01"

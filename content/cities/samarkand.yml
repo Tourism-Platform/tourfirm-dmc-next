@@ -1,0 +1,66 @@
+# Seed: cities — Samarkand (from OLD DB)
+
+slug:
+  en: samarkand
+  ru: samarkand
+  uz: samarkand
+title:
+  en: Samarkand
+  ru: Самарканд
+  uz: Samarqand
+subtitle:
+  en: Timurid capital
+  ru: Столица эпохи Тимуридов
+  uz: Temuriylar poytaxti
+excerpt:
+  en: Registan, Shah-i-Zinda and the city that defines the Silk Road.
+  ru: Регистан, Шахи-Зинда и город, который определяет образ Шёлкового пути.
+  uz: Registon, Shohi Zinda va Ipak yo'lini ifodalovchi shahar.
+country: uzbekistan
+region: samarkand-region
+latitude: 39.6542
+longitude: 66.9597
+heroImage: assets/images/city/samarkand.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/city/samarkand.jpg
+    imageAlt:
+      en: Registan Square, Samarkand
+      ru: Площадь Регистан, Самарканд
+      uz: Samarqand, Registon maydoni
+    title:
+      en: Samarkand
+      ru: Самарканд
+      uz: Samarqand
+    description:
+      en: Registan, Shah-i-Zinda and the city that defines the Silk Road.
+      ru: Регистан, Шахи-Зинда и город, который определяет образ Шёлкового пути.
+      uz: Registon, Shohi Zinda va Ipak yo'lini ifodalovchi shahar.
+  - blockType: regular
+    eyebrow:
+      en: Overview
+      ru: Обзор
+      uz: Umumiy
+    title:
+      en: Samarkand at a glance
+      ru: Самарканд в двух словах
+      uz: Samarqand qisqacha
+    description:
+      en: "Most first-time visitors pair Registan with Shah-i-Zinda and a slower old-city walk. Afrosiyob from Tashkent is the fastest link; 1-2 nights cover major monuments without rush."
+      ru: "Большинство гостей сочетают Регистан с Шахи-Зиндой и неспешной прогулкой по старому городу. «Афросиёб» из Ташкента — самый быстрый вариант; 1–2 ночи хватает на главные памятники."
+      uz: "Ko'pchilik mehmonlar Registonni Shohi Zinda va sekin eski shahar sayriga birlashtiradi. Toshkentdan Afrosiyob eng tez yo'l; 1-2 tun asosiy yodgorliklar uchun yetarli."
+seo:
+  metaTitle:
+    en: Samarkand | TourLink
+    ru: Самарканд | TourLink
+    uz: Samarqand | TourLink
+  metaDescription:
+    en: Registan, Shah-i-Zinda and Timurid Samarkand — TourLink city guide.
+    ru: Регистан, Шахи-Зинда и Самарканд эпохи Тимуридов — гид TourLink.
+    uz: Registon, Shohi Zinda va Temuriylar Samarqandi — TourLink shahri gidi.
+  structuredDataType: TouristDestination
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2025-06-01"

@@ -1,0 +1,69 @@
+# Seed: коллекция attractions — Chorsu Bazaar
+
+slug:
+  en: chorsu-bazaar
+  ru: chorsu-bazaar
+  uz: chorsu-bazaar
+title:
+  en: Chorsu Bazaar
+  ru: Базар Чорсу
+  uz: Chorsu bozori
+subtitle:
+  en: Covered market
+  ru: Крытый рынок
+  uz: Yopiq bozor
+excerpt:
+  en: Central Asia's most atmospheric covered market under a turquoise dome.
+  ru: Самый атмосферный крытый рынок Центральной Азии под бирюзовым куполом.
+  uz: Moviy gumbaz ostidagi Markaziy Osiyoning eng jo'shqin yopiq bozori.
+country: uzbekistan
+region: tashkent-region
+city: tashkent
+type: BAZAAR
+importance: MUST_SEE
+latitude: 41.3265
+longitude: 69.2342
+heroImage: assets/images/destinations/uzbekistan.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/destinations/uzbekistan.jpg
+    imageAlt:
+      en: Chorsu Bazaar dome
+      ru: Купол базара Чорсу
+      uz: Chorsu bozori gumbazi
+    title:
+      en: Chorsu Bazaar
+      ru: Базар Чорсу
+      uz: Chorsu bozori
+    description:
+      en: Central Asia's most atmospheric covered market under a turquoise dome.
+      ru: Самый атмосферный крытый рынок Центральной Азии под бирюзовым куполом.
+      uz: Moviy gumbaz ostidagi Markaziy Osiyoning eng jo'shqin yopiq bozori.
+  - blockType: regular
+    eyebrow:
+      en: Visit tips
+      ru: Советы
+      uz: Maslahatlar
+    title:
+      en: Market rhythm
+      ru: Ритм базара
+      uz: Bozor ritmi
+    description:
+      en: "Best in the morning when bread, spices and fruit stalls are at their liveliest. The dome hall is the visual anchor; outer lanes add crafts and local snacks. Pair with Khazrati Imam Complex in the same old-city half-day."
+      ru: "Лучше утром, когда хлеб, специи и фрукты особенно живые. Купольный зал — визуальный центр; внешние ряды добавляют ремёсла и местные закуски. Сочетайте с комплексом Хазрати Имам в одной половине дня по старому городу."
+      uz: "Ertalab non, ziravorlar va meva do'konlari eng jonli bo'lganda yaxshi. Gumbazli zal vizual markaz; tashqi qatorlar hunarmandchilik va mahalliy taomlarni qo'shadi. Eski shaharda yarim kunlik sayrda Hazrati Imom majmuasi bilan birlashtiring."
+seo:
+  metaTitle:
+    en: Chorsu Bazaar | TourLink
+    ru: Базар Чорсу | TourLink
+    uz: Chorsu bozori | TourLink
+  metaDescription:
+    en: Visit Chorsu Bazaar in Tashkent — spices, bread, fruit, and old-city market life.
+    ru: Посетите базар Чорсу в Ташкенте — специи, хлеб, фрукты и жизнь старого города.
+    uz: Toshkentdagi Chorsu bozorini ziyorat qiling — ziravorlar, non, meva va eski shahar hayoti.
+  structuredDataType: TouristAttraction
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2025-06-01"

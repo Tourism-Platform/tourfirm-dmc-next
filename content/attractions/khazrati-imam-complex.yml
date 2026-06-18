@@ -1,0 +1,69 @@
+# Seed: attractions — Khazrati Imam Complex (OLD slug khast-imam-complex)
+
+slug:
+  en: khazrati-imam-complex
+  ru: khazrati-imam-complex
+  uz: khazrati-imam-complex
+title:
+  en: Khazrati Imam Complex
+  ru: Комплекс Хазрати Имам
+  uz: Hazrati Imom majmuasi
+subtitle:
+  en: Old-city religious core
+  ru: Религиозное ядро старого города
+  uz: Eski shaharning diniy markazi
+excerpt:
+  en: "Tillya Sheikh Mosque, Barak Khan Madrasa and 53-metre minarets — Tashkent's most important Islamic ensemble."
+  ru: "Мечеть Тилля-Шейх, медресе Барак-Хан и 53-метровые минареты — главный исламский ансамбль Ташкента."
+  uz: "Tilla Shayx masjidi, Barakxon madrasasi va 53 metrlik minoralar — Toshkentning eng muhim islomiy ansambli."
+country: uzbekistan
+region: tashkent-region
+city: tashkent
+type: MOSQUE
+importance: MUST_SEE
+latitude: 41.3386
+longitude: 69.2401
+heroImage: assets/images/destinations/uzbekistan.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/destinations/uzbekistan.jpg
+    imageAlt:
+      en: Khazrati Imam Complex, Tashkent
+      ru: Комплекс Хазрати Имам, Ташкент
+      uz: Hazrati Imom majmuasi, Toshkent
+    title:
+      en: Khazrati Imam Complex
+      ru: Комплекс Хазрати Имам
+      uz: Hazrati Imom majmuasi
+    description:
+      en: "Tillya Sheikh Mosque, Barak Khan Madrasa and 53-metre minarets — Tashkent's most important Islamic ensemble."
+      ru: "Мечеть Тилля-Шейх, медресе Барак-Хан и 53-метровые минареты — главный исламский ансамбль Ташкента."
+      uz: "Tilla Shayx masjidi, Barakxon madrasasi va 53 metrlik minoralar — Toshkentning eng muhim islomiy ansambli."
+  - blockType: regular
+    eyebrow:
+      en: Overview
+      ru: Обзор
+      uz: Umumiy
+    title:
+      en: What to see inside
+      ru: Что посмотреть
+      uz: Nimalarni ko'rish kerak
+    description:
+      en: "The complex groups several historic buildings around a courtyard: the Tillya Sheikh Mosque with its gilt interior, the Barak Khan Madrasa facade, and the Muyi Mubarak library holding one of the oldest Qurans. Allow 1-2 hours for a calm visit."
+      ru: "Комплекс объединяет несколько исторических зданий вокруг двора: мечеть Тилля-Шейх с позолоченным интерьером, фасад медресе Барак-Хан и библиотеку Муюi Муборак с одним из древнейших Коранов. Заложите 1–2 часа."
+      uz: "Majmua hovlisi atrofida bir nechta tarixiy binolarni birlashtiradi: oltin bezakli Tilla Shayx masjidi, Barakxon madrasasi fasadi va eng qadimgi Qur'onlardan birini saqlovchi Muyi Muborak kutubxonasi. 1-2 soat ajrating."
+seo:
+  metaTitle:
+    en: Khazrati Imam Complex | TourLink
+    ru: Комплекс Хазрати Имам | TourLink
+    uz: Hazrati Imom majmuasi | TourLink
+  metaDescription:
+    en: Tillya Sheikh Mosque, Barak Khan Madrasa and minarets — Khazrati Imam Complex in Tashkent.
+    ru: Мечеть Тилля-Шейх, медресе Барак-Хан и минареты — комплекс Хазрати Имам в Ташкенте.
+    uz: Tilla Shayx masjidi, Barakxon madrasasi va minoralar — Toshkentdagi Hazrati Imom majmuasi.
+  structuredDataType: TouristAttraction
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2025-06-01"

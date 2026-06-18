@@ -1,0 +1,110 @@
+# Seed: regions — Bukhara Region (from OLD DB regions/bukhara)
+
+slug:
+  en: bukhara-region
+  ru: bukhara-region
+  uz: bukhara-region
+title:
+  en: Bukhara Region
+  ru: Бухарская область
+  uz: Buxoro viloyati
+subtitle:
+  en: Old-town atmosphere
+  ru: Атмосфера старого города
+  uz: Qadimiy shahar muhiti
+excerpt:
+  en: A living museum of domes, madrasas and covered bazaars.
+  ru: Живой музей куполов, медресе и крытых базаров.
+  uz: Gumbazlar, madrasalar va yopiq bozorlarning jonli muzeyi.
+country: uzbekistan
+mapCenter:
+  latitude: 39.7681
+  longitude: 64.4556
+heroImage: assets/images/city/bukhara.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/city/bukhara.jpg
+    imageAlt:
+      en: Bukhara old town
+      ru: Старый город Бухары
+      uz: Buxoro qadimiy shahar
+    title:
+      en: Bukhara Region
+      ru: Бухарская область
+      uz: Buxoro viloyati
+    description:
+      en: A living museum of domes, madrasas and covered bazaars.
+      ru: Живой музей куполов, медресе и крытых базаров.
+      uz: Gumbazlar, madrasalar va yopiq bozorlarning jonli muzeyi.
+  - blockType: regular
+    eyebrow:
+      en: Overview
+      ru: Обзор
+      uz: Umumiy
+    title:
+      en: Bukhara at a glance
+      ru: Бухара в двух словах
+      uz: Buxoro qisqacha
+    description:
+      en: "Bukhara rewards slow walking: domed bazaars, mosque courts and madrasa facades connect in a compact old-town grid. It is ideal after Samarkand: less monumental, more intimate, with strong evening ambience around Lyab-i Hauz."
+      ru: "Бухара награждает неспешные прогулки: купольные базары, дворы мечетей и фасады медресе в компактной сетке старого города. Идеальна после Самарканда — менее монументальна, более камерна."
+      uz: "Buxoro sekin yurishni qadrlaydi: gumbazli bozorlar, masjid hovlilari va madrasa fasadlari ixcham qadimiy shahar to'rida bog'lanadi."
+  - blockType: regular
+    eyebrow:
+      en: Landmark
+      ru: Достопримечательность
+      uz: Diqqatga sazovor joy
+    title:
+      en: Poi-Kalyan and old quarter
+      ru: Пои-Кalyan и старый квартал
+      uz: Po'i Kalon va qadimiy mahalla
+    description:
+      en: "Minaret, mosque and madrasa in one coherent historic core. Use Poi-Kalyan as orientation point and branch into nearby trading domes and craft lanes."
+      ru: "Минарет, мечеть и медресе в одном историческом ядре. Используйте Пои-Кalyan как ориентир и уходите в торговые купола и ремесленные улочки."
+      uz: "Minorа, masjid va madrasa bitta tarixiy markazda. Po'i Kalonni yo'nalish nuqtasi sifatida ishlating."
+    cards:
+      - type: destinationInsight
+        icon: Timer
+        title:
+          en: Best pace
+          ru: Оптимальный темп
+          uz: Eng yaxshi ritm
+        description:
+          en: 2 nights works for a calm old-city program.
+          ru: 2 ночи подходят для спокойной программы по старому городу.
+          uz: 2 tun tinch dastur uchun yetarli.
+      - type: destinationInsight
+        icon: Heart
+        title:
+          en: Evening mood
+          ru: Вечерняя атмосфера
+          uz: Kechki muhit
+        description:
+          en: Lyab-i Hauz area is strongest after sunset.
+          ru: Район Ляби-Хауз особенно хорош после заката.
+          uz: Lyabi-Hovuz atrofi quyosh botgandan keyin eng yaxshi.
+      - type: destinationInsight
+        icon: Compass
+        title:
+          en: Shopping
+          ru: Покупки
+          uz: Xarid
+        description:
+          en: Allow time for textiles, spices and crafts.
+          ru: Оставьте время на текстиль, специи и ремёсла.
+          uz: Matolar, ziravorlar va hunarmandchilik uchun vaqt qoldiring.
+seo:
+  metaTitle:
+    en: Bukhara Region | TourLink
+    ru: Бухарская область | TourLink
+    uz: Buxoro viloyati | TourLink
+  metaDescription:
+    en: Medieval trading domes, the Ark fortress and Bukhara old town — TourLink region guide.
+    ru: Средневековые торговые купола, крепость Арк и старый город Бухары — гид TourLink.
+    uz: O'rta asr savdo gumbazlari, Ark qal'asi va Buxoro qadimiy shahri — TourLink gidi.
+  structuredDataType: TouristDestination
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2025-06-01"

@@ -1,0 +1,74 @@
+# Seed: коллекция cities — Tashkent
+
+slug:
+  en: tashkent
+  ru: tashkent
+  uz: tashkent
+title:
+  en: Tashkent
+  ru: Ташкент
+  uz: Toshkent
+subtitle:
+  en: Capital city
+  ru: Столица
+  uz: Poytaxt
+excerpt:
+  en: Wide boulevards, Chorsu Bazaar, metro architecture and the old-city religious core — Tashkent anchors most inbound routes.
+  ru: Широкие проспекты, базар Чорсу, архитектура метро и религиозное ядро старого города — Ташкент — опора большинства въездных маршрутов.
+  uz: Keng ko'chalar, Chorsu bozori, metro me'morchiligi va eski shaharning diniy markazi — Toshkent ko'pchilik kiruvchi marshrutlarning tayanchi.
+country: uzbekistan
+region: tashkent-region
+latitude: 41.2995
+longitude: 69.2401
+heroImage: assets/images/destinations/uzbekistan.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/destinations/uzbekistan.jpg
+    imageAlt:
+      en: Tashkent city view
+      ru: Вид на Ташкент
+      uz: Toshkent manzarasi
+    title:
+      en: Tashkent
+      ru: Ташкент
+      uz: Toshkent
+    description:
+      en: Wide boulevards, Chorsu Bazaar, metro architecture and the old-city religious core — Tashkent anchors most inbound routes.
+      ru: Широкие проспекты, базар Чорсу, архитектура метро и религиозное ядро старого города — Ташкент — опора большинства въездных маршрутов.
+      uz: Keng ko'chalar, Chorsu bozori, metro me'morchiligi va eski shaharning diniy markazi — Toshkent ko'pchilik kiruvchi marshrutlarning tayanchi.
+    actions:
+      - type: mailto
+        variant: default
+        title:
+          en: Request a tour
+          ru: Запросить тур
+          uz: Tur so'rash
+        email: info@tourlink.uz
+  - blockType: regular
+    eyebrow:
+      en: Day plan
+      ru: План на день
+      uz: Kunlik reja
+    title:
+      en: First day in the capital
+      ru: Первый день в столице
+      uz: Poytaxtdagi birinchi kun
+    description:
+      en: "Morning at Khazrati Imam Complex, midday at Chorsu Bazaar, afternoon metro stations, evening Amir Timur Square — a compact loop that covers old and modern Tashkent."
+      ru: "Утро в комплексе Хазрати Имам, полдень на базаре Чорсу, день — станции метро, вечер — площадь Амира Тимура: компактный маршрут по старому и новому Ташкенту."
+      uz: "Ertalab Hazrati Imom majmuasi, tushlikda Chorsu bozori, kunduzi metro bekatlari, kechqurun Amir Temur maydoni — eski va zamonaviy Toshkent bo'ylab ixcham marshrut."
+seo:
+  metaTitle:
+    en: Tashkent | TourLink
+    ru: Ташкент | TourLink
+    uz: Toshkent | TourLink
+  metaDescription:
+    en: Plan a Tashkent stay with TourLink — markets, metro architecture, old city, and logical day routes.
+    ru: Спланируйте пребывание в Ташкенте с TourLink — базары, метро, старый город и логичные маршруты на день.
+    uz: TourLink bilan Toshkentda qolishni rejalashtiring — bozorlar, metro, eski shahar va mantiqiy kunlik marshrutlar.
+  structuredDataType: TouristDestination
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2025-06-01"

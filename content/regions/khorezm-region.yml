@@ -1,0 +1,110 @@
+# Seed: regions — Khorezm Region (from OLD DB regions/khiva)
+
+slug:
+  en: khorezm-region
+  ru: khorezm-region
+  uz: khorezm-region
+title:
+  en: Khorezm Region
+  ru: Хорезмская область
+  uz: Xorazm viloyati
+subtitle:
+  en: Walled museum-city
+  ru: Город-музей за стенами
+  uz: Devorli muzey-shahar
+excerpt:
+  en: Itchan Kala — Central Asia's most intact walled old city.
+  ru: Ичан-Кала — самый цельный оборонительный старый город Центральной Азии.
+  uz: Ichan Qal'a — Markaziy Osiyodagi eng yaxshi saqlangan devorli qadimiy shahar.
+country: uzbekistan
+mapCenter:
+  latitude: 41.3783
+  longitude: 60.3639
+heroImage: assets/images/city/khiva.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/city/khiva.jpg
+    imageAlt:
+      en: Khiva Itchan Kala
+      ru: Ичан-Кала, Хива
+      uz: Xiva, Ichan Qal'a
+    title:
+      en: Khorezm Region
+      ru: Хорезмская область
+      uz: Xorazm viloyati
+    description:
+      en: Itchan Kala — Central Asia's most intact walled old city.
+      ru: Ичан-Кала — самый цельный оборонительный старый город Центральной Азии.
+      uz: Ichan Qal'a — Markaziy Osiyodagi eng yaxshi saqlangan devorli qadimiy shahar.
+  - blockType: regular
+    eyebrow:
+      en: Overview
+      ru: Обзор
+      uz: Umumiy
+    title:
+      en: Khiva at a glance
+      ru: Хива в двух словах
+      uz: Xiva qisqacha
+    description:
+      en: "Khiva's Itchan Kala is one of the most complete historic urban ensembles in the region, enclosed by defensive walls. The city is walkable and photogenic; itineraries often use it as the final Silk Road chapter."
+      ru: "Ичан-Кала Хивы — один из самых цельных исторических ансамблей региона, окружённый оборонительными стенами. Город компактен и фотогеничен; часто становится финалом маршрута по Шёлковому пути."
+      uz: "Xivaning Ichan Qal'asi mintaqadagi eng to'liq tarixiy shahar ansamblilaridan biri, himoya devorlari bilan o'ralgan."
+  - blockType: regular
+    eyebrow:
+      en: Landmark
+      ru: Достопримечательность
+      uz: Diqqatga sazovor joy
+    title:
+      en: Inside Itchan Kala
+      ru: Внутри Ичан-Калы
+      uz: Ichan Qal'a ichida
+    description:
+      en: "Minarets, courtyards and mud-brick walls in concentrated form. Start with outer-wall viewpoints, then move through madrasa courtyards and museum complexes."
+      ru: "Минареты, дворы и глиняные стены в концентрированном виде. Начните с видов на внешние стены, затем пройдите через дворы медресе и музейные комплексы."
+      uz: "Minoralar, hovlilar va loy devorlar ixcham shaklda. Tashqi devor manzaralaridan boshlang."
+    cards:
+      - type: destinationInsight
+        icon: Timer
+        title:
+          en: Best pace
+          ru: Оптимальный темп
+          uz: Eng yaxshi ritm
+        description:
+          en: 1-2 nights is enough for core highlights.
+          ru: 1–2 ночи достаточно для основных точек.
+          uz: 1-2 tun asosiy diqqatga sazovor joylar uchun yetarli.
+      - type: destinationInsight
+        icon: ShieldCheck
+        title:
+          en: Heat strategy
+          ru: Жара
+          uz: Issiqlik
+        description:
+          en: Summer days are hot; plan walks for morning/evening.
+          ru: Летом жарко; прогулки лучше утром и вечером.
+          uz: Yoz kunlari issiq; yurishni ertalab/kechqurun rejalashtiring.
+      - type: destinationInsight
+        icon: Eye
+        title:
+          en: Program role
+          ru: Роль в маршруте
+          uz: Marshrutdagi o'rin
+        description:
+          en: Great as a visual finale after Bukhara.
+          ru: Сильный визуальный финал после Бухары.
+          uz: Buxorodan keyin kuchli vizual yakun.
+seo:
+  metaTitle:
+    en: Khorezm Region | TourLink
+    ru: Хорезмская область | TourLink
+    uz: Xorazm viloyati | TourLink
+  metaDescription:
+    en: Itchan Kala and walled-city heritage in Khorezm — TourLink region guide.
+    ru: Ичан-Кала и наследие города за стенами в Хорезме — гид TourLink.
+    uz: Ichan Qal'a va devorli shahar merosi — TourLink Xorazm gidi.
+  structuredDataType: TouristDestination
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2025-06-01"

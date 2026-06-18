@@ -1,0 +1,69 @@
+# Seed: attractions — Itchan Kala (Khiva)
+
+slug:
+  en: itchan-kala
+  ru: itchan-kala
+  uz: itchan-kala
+title:
+  en: Itchan Kala
+  ru: Ичан-Кала
+  uz: Ichan Qal'a
+subtitle:
+  en: Walled old city
+  ru: Старый город за стенами
+  uz: Devorli qadimiy shahar
+excerpt:
+  en: Central Asia's most intact walled old city — minarets, courtyards and mud-brick walls in concentrated form.
+  ru: Самый цельный оборонительный старый город Центральной Азии — минареты, дворы и глиняные стены.
+  uz: Markaziy Osiyodagi eng yaxshi saqlangan devorli qadimiy shahar — minoralar, hovlilar va loy devorlar.
+country: uzbekistan
+region: khorezm-region
+city: khiva
+type: CULTURAL_SITE
+importance: MUST_SEE
+latitude: 41.3783
+longitude: 60.3639
+heroImage: assets/images/city/khiva.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/city/khiva.jpg
+    imageAlt:
+      en: Itchan Kala, Khiva
+      ru: Ичан-Кала, Хива
+      uz: Xiva, Ichan Qal'a
+    title:
+      en: Itchan Kala
+      ru: Ичан-Кала
+      uz: Ichan Qal'a
+    description:
+      en: Central Asia's most intact walled old city — minarets, courtyards and mud-brick walls in concentrated form.
+      ru: Самый цельный оборонительный старый город Центральной Азии — минареты, дворы и глиняные стены.
+      uz: Markaziy Osiyodagi eng yaxshi saqlangan devorli qadimiy shahar — minoralar, hovlilar va loy devorlar.
+  - blockType: regular
+    eyebrow:
+      en: Visit tips
+      ru: Советы
+      uz: Maslahatlar
+    title:
+      en: How to walk it
+      ru: Как обойти
+      uz: Qanday aylanish kerak
+    description:
+      en: "Start with outer-wall viewpoints, then move through madrasa courtyards and museum complexes. Summer days are hot — plan walks for morning and evening; 1-2 nights cover core highlights."
+      ru: "Начните с видов на внешние стены, затем пройдите через дворы медресе и музейные комплексы. Летом жарко — прогулки лучше утром и вечером; 1–2 ночи хватает на основные точки."
+      uz: "Tashqi devor manzaralaridan boshlang, keyin madrasa hovliqlari va muzey majmualaridan o'ting. Yoz kunlari issiq — yurishni ertalab va kechqurun rejalashtiring."
+seo:
+  metaTitle:
+    en: Itchan Kala | TourLink
+    ru: Ичан-Кала | TourLink
+    uz: Ichan Qal'a | TourLink
+  metaDescription:
+    en: Itchan Kala walled old city in Khiva — UNESCO heritage and Silk Road finale with TourLink.
+    ru: Ичан-Кала — оборонительный старый город Хивы, наследие ЮНЕСКО и финал Шёлкового пути от TourLink.
+    uz: Xivadagi Ichan Qal'a devorli qadimiy shahri — UNESCO merosi va Ipak yo'li yakuni TourLink bilan.
+  structuredDataType: TouristAttraction
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2025-06-01"

@@ -1,0 +1,69 @@
+# Seed: attractions — Ark Fortress (Bukhara)
+
+slug:
+  en: ark-fortress
+  ru: ark-fortress
+  uz: ark-fortress
+title:
+  en: Ark Fortress
+  ru: Крепость Арк
+  uz: Ark qal'asi
+subtitle:
+  en: Royal citadel
+  ru: Царская цитадель
+  uz: Qirol qal'asi
+excerpt:
+  en: Bukhara's ancient royal citadel overlooking the old town — museums, courts and panoramic views.
+  ru: Древняя царская цитадель Бухары над старым городом — музеи, дворы и панорамные виды.
+  uz: Buxoro qadimiy shahri ustidagi qadimiy qirol qal'asi — muzeylar, hovlilar va panorama manzaralar.
+country: uzbekistan
+region: bukhara-region
+city: bukhara
+type: FORTRESS
+importance: MUST_SEE
+latitude: 39.7756
+longitude: 64.4092
+heroImage: assets/images/city/bukhara.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/city/bukhara.jpg
+    imageAlt:
+      en: Ark Fortress, Bukhara
+      ru: Крепость Арк, Бухара
+      uz: Buxoro, Ark qal'asi
+    title:
+      en: Ark Fortress
+      ru: Крепость Арк
+      uz: Ark qal'asi
+    description:
+      en: Bukhara's ancient royal citadel overlooking the old town — museums, courts and panoramic views.
+      ru: Древняя царская цитадель Бухары над старым городом — музеи, дворы и панорамные виды.
+      uz: Buxoro qadimiy shahri ustidagi qadimiy qirol qal'asi — muzeylar, hovlilar va panorama manzaralar.
+  - blockType: regular
+    eyebrow:
+      en: Overview
+      ru: Обзор
+      uz: Umumiy
+    title:
+      en: Orientation point
+      ru: Ориентир
+      uz: Yo'nalish nuqtasi
+    description:
+      en: "Use the Ark as your anchor in Bukhara's old quarter. The ramp leads to museum halls and viewpoints; combine with Poi-Kalyan and nearby trading domes in one walking loop."
+      ru: "Используйте Арк как ориентир в старом квартале Бухары. Рампа ведёт к музейным залам и смотровым площадкам; объедините с Пои-Kalyan и торговыми куполами в одном пешем маршруте."
+      uz: "Buxoro qadimiy mahallasida Arkni yo'nalish nuqtasi sifatida ishlating. Ramp muzey zallari va ko'rish maydonchalariga olib boradi; Po'i Kalon va savdo gumbazlari bilan bir sayrga birlashtiring."
+seo:
+  metaTitle:
+    en: Ark Fortress | TourLink
+    ru: Крепость Арк | TourLink
+    uz: Ark qal'asi | TourLink
+  metaDescription:
+    en: Bukhara's Ark Fortress — royal citadel, museums and old-town views with TourLink.
+    ru: Крепость Арк в Бухаре — царская цитадель, музеи и виды на старый город от TourLink.
+    uz: Buxorodagi Ark qal'asi — qirol qal'asi, muzeylar va qadimiy shahar manzaralari TourLink bilan.
+  structuredDataType: TouristAttraction
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2025-06-01"

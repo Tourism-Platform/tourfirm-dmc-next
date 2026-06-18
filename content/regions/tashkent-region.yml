@@ -1,0 +1,74 @@
+# Seed: коллекция regions — Tashkent Region
+
+slug:
+  en: tashkent-region
+  ru: tashkent-region
+  uz: tashkent-region
+title:
+  en: Tashkent Region
+  ru: Ташкентская область
+  uz: Toshkent viloyati
+subtitle:
+  en: Capital region
+  ru: Столичный регион
+  uz: Poytaxt viloyati
+excerpt:
+  en: Uzbekistan's capital region — modern Tashkent, mountain gateways, and the start of most inbound routes.
+  ru: Столичный регион Узбекистана — современный Ташкент, горные выезды и старт большинства въездных маршрутов.
+  uz: O'zbekiston poytaxt viloyati — zamonaviy Toshkent, tog' yo'llari va ko'pchilik kiruvchi marshrutlar boshlanishi.
+country: uzbekistan
+mapCenter:
+  latitude: 41.2995
+  longitude: 69.2401
+heroImage: assets/images/destinations/uzbekistan.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/destinations/uzbekistan.jpg
+    imageAlt:
+      en: Tashkent skyline
+      ru: Панorama Ташкента
+      uz: Toshkent manzarasi
+    title:
+      en: Tashkent Region
+      ru: Ташкентская область
+      uz: Toshkent viloyati
+    description:
+      en: Uzbekistan's capital region — modern Tashkent, mountain gateways, and the start of most inbound routes.
+      ru: Столичный регион Узбекистана — современный Ташкент, горные выезды и старт большинства въездных маршрутов.
+      uz: O'zbekiston poytaxt viloyati — zamonaviy Toshkent, tog' yo'llari va ko'pchilik kiruvchi marshrutlar boshlanishi.
+    actions:
+      - type: mailto
+        variant: default
+        title:
+          en: Request a tour
+          ru: Запросить тур
+          uz: Tur so'rash
+        email: info@tourlink.uz
+  - blockType: regular
+    eyebrow:
+      en: Cities
+      ru: Города
+      uz: Shaharlar
+    title:
+      en: Gateways in the capital region
+      ru: Ключевые точки столичного региона
+      uz: Poytaxt viloyatidagi asosiy nuqtalar
+    description:
+      en: Tashkent anchors most first-time itineraries — flights, museums, markets, and day trips toward Chimgan and Charvak.
+      ru: Ташкент — опора большинства первых маршрутов — перелёты, музеи, базары и однодневные выезды к Чимгану и Чарваку.
+      uz: Toshkent ko'pchilik birinchi marshrutlarning tayanchi — parvozlar, muzeylar, bozorlar va Chimgan hamda Charvakka kunlik sayohatlar.
+seo:
+  metaTitle:
+    en: Tashkent Region | TourLink
+    ru: Ташкентская область | TourLink
+    uz: Toshkent viloyati | TourLink
+  metaDescription:
+    en: Explore Tashkent Region with TourLink — capital gateways, city culture, and nearby mountain escapes.
+    ru: Исследуйте Ташкентскую область с TourLink — столичные точки, городская культура и горные выезды.
+    uz: TourLink bilan Toshkent viloyatini kashf eting — poytaxt nuqtalari, shahar madaniyati va tog' sayohatlari.
+  structuredDataType: TouristDestination
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2025-06-01"

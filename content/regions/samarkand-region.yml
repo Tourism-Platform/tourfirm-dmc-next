@@ -1,0 +1,110 @@
+# Seed: regions — Samarkand Region (from OLD DB regions/samarkand)
+
+slug:
+  en: samarkand-region
+  ru: samarkand-region
+  uz: samarkand-region
+title:
+  en: Samarkand Region
+  ru: Самаркандская область
+  uz: Samarqand viloyati
+subtitle:
+  en: Timurid capital legacy
+  ru: Наследие столицы Тимуридов
+  uz: Temuriylar poytaxti merosi
+excerpt:
+  en: Registan, Shah-i-Zinda and the city that defines the Silk Road.
+  ru: Регистан, Шахи-Зинда и город, который определяет образ Шёлкового пути.
+  uz: Registon, Shohi Zinda va Ipak yo'lini ifodalovchi shahar.
+country: uzbekistan
+mapCenter:
+  latitude: 39.6542
+  longitude: 66.9597
+heroImage: assets/images/city/samarkand.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/city/samarkand.jpg
+    imageAlt:
+      en: Registan in Samarkand
+      ru: Регистан в Самарканде
+      uz: Samarqand, Registon
+    title:
+      en: Samarkand Region
+      ru: Самаркандская область
+      uz: Samarqand viloyati
+    description:
+      en: Registan, Shah-i-Zinda and the city that defines the Silk Road.
+      ru: Регистан, Шахи-Зинда и город, который определяет образ Шёлкового пути.
+      uz: Registon, Shohi Zinda va Ipak yo'lini ifodalovchi shahar.
+  - blockType: regular
+    eyebrow:
+      en: Overview
+      ru: Обзор
+      uz: Umumiy
+    title:
+      en: Samarkand at a glance
+      ru: Самарканд в двух словах
+      uz: Samarqand qisqacha
+    description:
+      en: "Samarkand is the symbolic center of Uzbekistan's Silk Road narrative. Registan sets the visual tone, while Shah-i-Zinda adds spiritual and funerary architecture. Most first-time visits pair iconic monuments with a slower old-city walk to balance major landmarks and local rhythm."
+      ru: "Самарканд — символический центр узбекского Шёлкового пути. Регистан задаёт визуальный тон, а Шахи-Зинда добавляет духовную и погребальную архитектуру. Большинство первых визитов сочетают главные памятники с неспешной прогулкой по старому городу."
+      uz: "Samarqand O'zbekistonning Ipak yo'li hikoyasining ramzi. Registon vizual ohangni belgilaydi, Shohi Zinda esa ma'naviy me'morchilik qo'shadi."
+  - blockType: regular
+    eyebrow:
+      en: Landmark
+      ru: Достопримечательность
+      uz: Diqqatga sazovor joy
+    title:
+      en: Registan ensemble
+      ru: Ансамбль Регистана
+      uz: Registon ansambli
+    description:
+      en: "Three madrasas, monumental facades and evening illumination. Visit once in daytime for detail and once at dusk for atmosphere; both feel different."
+      ru: "Три медресе, монументальные фасады и вечерняя подсветка. Посетите днём ради деталей и на закате ради атмосферы."
+      uz: "Uchta madrasa, monumental fasadlar va kechki yoritish. Kun va kechqurun alohida taassurot beradi."
+    cards:
+      - type: destinationInsight
+        icon: Timer
+        title:
+          en: Best pace
+          ru: Оптимальный темп
+          uz: Eng yaxshi ritm
+        description:
+          en: 1-2 nights cover major monuments without rush.
+          ru: 1–2 ночи хватает на главные памятники без спешки.
+          uz: 1-2 tun asosiy yodgorliklarni shoshilmasdan ko'rish uchun yetarli.
+      - type: destinationInsight
+        icon: Zap
+        title:
+          en: Transport
+          ru: Транспорт
+          uz: Transport
+        description:
+          en: Afrosiyob from Tashkent is the fastest option.
+          ru: «Афросиёб» из Ташкента — самый быстрый вариант.
+          uz: Toshkentdan Afrosiyob eng tez variant.
+      - type: destinationInsight
+        icon: Eye
+        title:
+          en: Photo timing
+          ru: Время для фото
+          uz: Surat vaqti
+        description:
+          en: Early morning and golden hour are most rewarding.
+          ru: Раннее утро и золотой час дают лучшие кадры.
+          uz: Erta tong va oltin soat eng yaxshi natija beradi.
+seo:
+  metaTitle:
+    en: Samarkand Region | TourLink
+    ru: Самаркандская область | TourLink
+    uz: Samarqand viloyati | TourLink
+  metaDescription:
+    en: Registan, Shah-i-Zinda and Timurid architecture — Samarkand Region guide by TourLink.
+    ru: Регистан, Шахи-Зинда и архитектура эпохи Тимуридов — гид по Самаркандской области от TourLink.
+    uz: Registon, Shohi Zinda va Temuriylar me'morchiligi — TourLink bo'yicha Samarqand viloyati.
+  structuredDataType: TouristDestination
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2025-06-01"

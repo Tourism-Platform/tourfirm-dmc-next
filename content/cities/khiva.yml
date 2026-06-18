@@ -1,0 +1,66 @@
+# Seed: cities — Khiva (from OLD DB regions/khiva)
+
+slug:
+  en: khiva
+  ru: khiva
+  uz: khiva
+title:
+  en: Khiva
+  ru: Хива
+  uz: Xiva
+subtitle:
+  en: Walled museum-city
+  ru: Город-музей за стенами
+  uz: Devorli muzey-shahar
+excerpt:
+  en: Itchan Kala — Central Asia's most intact walled old city.
+  ru: Ичан-Кала — самый цельный оборонительный старый город Центральной Азии.
+  uz: Ichan Qal'a — Markaziy Osiyodagi eng yaxshi saqlangan devorli qadimiy shahar.
+country: uzbekistan
+region: khorezm-region
+latitude: 41.3783
+longitude: 60.3639
+heroImage: assets/images/city/khiva.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/city/khiva.jpg
+    imageAlt:
+      en: Khiva Itchan Kala
+      ru: Ичан-Кала, Хива
+      uz: Xiva, Ichan Qal'a
+    title:
+      en: Khiva
+      ru: Хива
+      uz: Xiva
+    description:
+      en: Itchan Kala — Central Asia's most intact walled old city.
+      ru: Ичан-Кала — самый цельный оборонительный старый город Центральной Азии.
+      uz: Ichan Qal'a — Markaziy Osiyodagi eng yaxshi saqlangan devorli qadimiy shahar.
+  - blockType: regular
+    eyebrow:
+      en: Overview
+      ru: Обзор
+      uz: Umumiy
+    title:
+      en: Khiva at a glance
+      ru: Хива в двух словах
+      uz: Xiva qisqacha
+    description:
+      en: "Walkable and photogenic — minarets, courtyards and mud-brick walls in concentrated form. Often the final Silk Road chapter after Bukhara; 1-2 nights cover core highlights."
+      ru: "Компактный и фотогеничный город — минареты, дворы и глиняные стены. Часто финал маршрута после Бухары; 1–2 ночи хватает на основные точки."
+      uz: "Yurish uchun qulay va suratga tushirish uchun ajoyib — minoralar, hovlilar va loy devorlar. Ko'pincha Buxorodan keyin Ipak yo'lining yakuni; 1-2 tun yetarli."
+seo:
+  metaTitle:
+    en: Khiva | TourLink
+    ru: Хива | TourLink
+    uz: Xiva | TourLink
+  metaDescription:
+    en: Itchan Kala and walled-city heritage in Khiva — TourLink city guide.
+    ru: Ичан-Кала и наследие города за стенами в Хиве — гид TourLink.
+    uz: Ichan Qal'a va devorli shahar merosi — TourLink Xiva gidi.
+  structuredDataType: TouristDestination
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2025-06-01"

@@ -1,0 +1,66 @@
+# Seed: cities — Bukhara (from OLD DB)
+
+slug:
+  en: bukhara
+  ru: bukhara
+  uz: bukhara
+title:
+  en: Bukhara
+  ru: Бухара
+  uz: Buxoro
+subtitle:
+  en: Old-town atmosphere
+  ru: Атмосфера старого города
+  uz: Qadimiy shahar muhiti
+excerpt:
+  en: A living museum of domes, madrasas and covered bazaars.
+  ru: Живой музей куполов, медресе и крытых базаров.
+  uz: Gumbazlar, madrasalar va yopiq bozorlarning jonli muzeyi.
+country: uzbekistan
+region: bukhara-region
+latitude: 39.7681
+longitude: 64.4556
+heroImage: assets/images/city/bukhara.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/city/bukhara.jpg
+    imageAlt:
+      en: Bukhara old town
+      ru: Старый город Бухары
+      uz: Buxoro qadimiy shahar
+    title:
+      en: Bukhara
+      ru: Бухара
+      uz: Buxoro
+    description:
+      en: A living museum of domes, madrasas and covered bazaars.
+      ru: Живой музей куполов, медресе и крытых базаров.
+      uz: Gumbazlar, madrasalar va yopiq bozorlarning jonli muzeyi.
+  - blockType: regular
+    eyebrow:
+      en: Overview
+      ru: Обзор
+      uz: Umumiy
+    title:
+      en: Bukhara at a glance
+      ru: Бухара в двух словах
+      uz: Buxoro qisqacha
+    description:
+      en: "Compact old-town grid with domed bazaars, Poi-Kalyan and the Ark fortress. Ideal after Samarkand — less monumental, more intimate, with strong evening ambience around Lyab-i Hauz."
+      ru: "Компактная сетка старого города с купольными базарами, Пои-Kalyan и крепостью Арк. Идеальна после Самарканда — камернее, с сильной вечерней атмосферой у Ляби-Хауз."
+      uz: "Gumbazli bozorlar, Po'i Kalon va Ark qal'asi bilan ixcham qadimiy shahar. Samarqandan keyin ideal — kamroq monumental, ko'proq yaqin, Lyabi-Hovuz atrofida kuchli kechki muhit."
+seo:
+  metaTitle:
+    en: Bukhara | TourLink
+    ru: Бухара | TourLink
+    uz: Buxoro | TourLink
+  metaDescription:
+    en: Medieval trading domes, the Ark and Bukhara old town — TourLink city guide.
+    ru: Средневековые торговые купола, Арк и старый город Бухары — гид TourLink.
+    uz: O'rta asr savdo gumbazlari, Ark va Buxoro qadimiy shahri — TourLink gidi.
+  structuredDataType: TouristDestination
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2025-06-01"

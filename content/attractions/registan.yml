@@ -1,0 +1,69 @@
+# Seed: attractions — Registan (Samarkand)
+
+slug:
+  en: registan
+  ru: registan
+  uz: registan
+title:
+  en: Registan
+  ru: Регистан
+  uz: Registon
+subtitle:
+  en: Timurid ensemble
+  ru: Тимуридский ансамбль
+  uz: Temuriylar ansambli
+excerpt:
+  en: Three madrasas, monumental facades and evening illumination — the defining image of the Silk Road.
+  ru: Три медресе, монументальные фасады и вечерняя подсветка — главный образ Шёлкового пути.
+  uz: Uchta madrasa, monumental fasadlar va kechki yoritish — Ipak yo'lining ramziy surati.
+country: uzbekistan
+region: samarkand-region
+city: samarkand
+type: LANDMARK
+importance: MUST_SEE
+latitude: 39.6547
+longitude: 66.9757
+heroImage: assets/images/city/samarkand.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/city/samarkand.jpg
+    imageAlt:
+      en: Registan Square, Samarkand
+      ru: Площадь Регистан, Самарканд
+      uz: Samarqand, Registon maydoni
+    title:
+      en: Registan
+      ru: Регистан
+      uz: Registon
+    description:
+      en: Three madrasas, monumental facades and evening illumination — the defining image of the Silk Road.
+      ru: Три медресе, монументальные фасады и вечерняя подсветка — главный образ Шёлкового пути.
+      uz: Uchta madrasa, monumental fasadlar va kechki yoritish — Ipak yo'lining ramziy surati.
+  - blockType: regular
+    eyebrow:
+      en: Visit tips
+      ru: Советы
+      uz: Maslahatlar
+    title:
+      en: Day and night
+      ru: Днём и вечером
+      uz: Kun va kech
+    description:
+      en: "Visit once in daytime for tile detail and once at dusk for atmosphere and illumination. Early morning and golden hour are most rewarding for photography."
+      ru: "Посетите днём ради деталей кафельной облицовки и на закате ради атмосферы и подсветки. Раннее утро и золотой час — лучшее время для фото."
+      uz: "Kunduzi kafel tafsilotlari, kechqurun esa muhit va yoritish uchun tashrif buyuring. Erta tong va oltin soat suratga olish uchun eng yaxshi."
+seo:
+  metaTitle:
+    en: Registan | TourLink
+    ru: Регистан | TourLink
+    uz: Registon | TourLink
+  metaDescription:
+    en: Registan ensemble in Samarkand — three madrasas and the Silk Road's defining monument.
+    ru: Ансамбль Регистана в Самарканде — три медресе и главный памятник Шёлкового пути.
+    uz: Samarqanddagi Registon ansambli — uchta madrasa va Ipak yo'lining ramziy yodgorligi.
+  structuredDataType: TouristAttraction
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2025-06-01"
