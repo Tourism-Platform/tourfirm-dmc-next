@@ -142,7 +142,7 @@ export default defineConfig([
 						},
 						{
 							from: "widgets",
-							allow: ["features", "entities", "shared"]
+							allow: ["features", "entities", "shared", "widgets"]
 						},
 						{
 							from: "features",

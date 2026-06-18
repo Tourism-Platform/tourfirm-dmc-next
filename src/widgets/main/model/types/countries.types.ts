@@ -1,5 +1,3 @@
-import { TCountryI18n } from "@/widgets/destinations/model";
-
 import type { TMainI18nKey } from "./common.types";
 
 export type TMainCountryId =
