@@ -1,0 +1,79 @@
+# Seed: коллекция countries — Kyrgyzstan
+
+slug:
+  en: kyrgyzstan
+  ru: kyrgyzstan
+  uz: kyrgyzstan
+title:
+  en: Kyrgyzstan
+  ru: Кыргызстан
+  uz: Qirg'iziston
+subtitle:
+  en: Mountain rhythm
+  ru: Горный ритм
+  uz: Tog'li ritm
+excerpt:
+  en: Mountains, lakes, and nomad roads
+  ru: Горы, озёра и дороги кочевников
+  uz: Tog'lar, ko'llar va ko'chmanchi yo'llari
+mapCenter:
+  latitude: 42.8746
+  longitude: 74.5698
+heroImage: assets/images/destinations/kirgizstan.jpg
+badges:
+  - MUST_SEE
+blocks:
+  - blockType: hero
+    image: assets/images/destinations/kirgizstan.jpg
+    imageAlt:
+      en: Issyk-Kul lake and Tien Shan mountains
+      ru: Озеро Иссык-Куль и горы Тянь-Шаня
+      uz: Issiqko'l ko'li va Tyan-Shan tog'lari
+    title:
+      en: Kyrgyzstan
+      ru: Кыргызстан
+      uz: Qirg'iziston
+    description:
+      en: Mountains, lakes, and nomad roads
+      ru: Горы, озёра и дороги кочевников
+      uz: Tog'lar, ko'llar va ko'chmanchi yo'llari
+    note:
+      en: A mountain country where yurt stays, lake shores, and high passes set the pace of the route.
+      ru: Горная страна, где юрты, берега озёр и высокие перевалы задают ритм маршрута.
+      uz: Yurtlar, ko'l qirg'oqlari va baland o'tishlar marshrut ritmini belgilaydigan tog'li mamlakat.
+    actions:
+      - type: mailto
+        variant: default
+        title:
+          en: Request a tour
+          ru: Запросить тур
+          uz: Tur so'rash
+        email: info@tourlink.uz
+  - blockType: regular
+    eyebrow:
+      en: Key cities
+      ru: Ключевые города
+      uz: Asosiy shaharlar
+    title:
+      en: Where routes usually start
+      ru: Откуда обычно начинаются маршруты
+      uz: Marshrutlar odatda qayerdan boshlanadi
+    description:
+      en: "Bishkek, Issyk-Kul, Karakol, and Son-Kul — capital calm, alpine water, eastern valleys, and high pasture nights."
+      ru: "Бишкек, Иссык-Куль, Каракол и Сон-Куль — столица, альпийская вода, восточные долины и ночи на высоких пастбищах."
+      uz: "Bishkek, Issiqko'l, Karakol va Son-Kul — poytaxt, alp suvi, sharqiy vodiy va baland yaylov kechalari."
+seo:
+  metaTitle:
+    en: Kyrgyzstan tours | TourLink
+    ru: Туры в Кыргызстан | TourLink
+    uz: Qirg'izistonda turlar | TourLink
+  metaDescription:
+    en: Mountains, lakes, and nomad roads across Kyrgyzstan — routes coordinated by TourLink DMC.
+    ru: Горы, озёра и дороги кочевников по Кыргызстану — маршруты от DMC TourLink.
+    uz: Qirg'iziston bo'ylab tog'lar, ko'llar va ko'chmanchi yo'llari — TourLink DMC marshrutlari.
+  structuredDataType: TouristDestination
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2025-06-01"

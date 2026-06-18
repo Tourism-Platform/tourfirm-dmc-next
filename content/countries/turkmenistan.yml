@@ -1,0 +1,79 @@
+# Seed: коллекция countries — Turkmenistan
+
+slug:
+  en: turkmenistan
+  ru: turkmenistan
+  uz: turkmenistan
+title:
+  en: Turkmenistan
+  ru: Туркменистан
+  uz: Turkmaniston
+subtitle:
+  en: Permits considered
+  ru: С учётом разрешений
+  uz: Ruxsatlar hisobga olinadi
+excerpt:
+  en: Desert cities and ancient empires
+  ru: Пустынные города и древние империи
+  uz: Cho'l shaharlari va qadimiy imperiyalar
+mapCenter:
+  latitude: 37.9601
+  longitude: 58.3261
+heroImage: assets/images/destinations/turkmenistan.jpg
+badges:
+  - EDITOR_CHOICE
+blocks:
+  - blockType: hero
+    image: assets/images/destinations/turkmenistan.jpg
+    imageAlt:
+      en: Ashgabat and the Karakum desert horizon
+      ru: Ашхабад и горизонт пустыни Каракумы
+      uz: Ashgabat va Qoraqum cho'li ufqasi
+    title:
+      en: Turkmenistan
+      ru: Туркменистан
+      uz: Turkmaniston
+    description:
+      en: Desert cities and ancient empires
+      ru: Пустынные города и древние империи
+      uz: Cho'l shaharlari va qadimiy imperiyalar
+    note:
+      en: A distinctive route where permits, timing, and desert logic matter as much as the monuments.
+      ru: Особый маршрут, где разрешения, сроки и пустынная логика важны не меньше памятников.
+      uz: Ruxsatlar, muddatlar va cho'l mantig'i yodgorliklar bilan bir qadar muhim bo'lgan o'ziga xos marshrut.
+    actions:
+      - type: mailto
+        variant: default
+        title:
+          en: Request a tour
+          ru: Запросить тур
+          uz: Tur so'rash
+        email: info@tourlink.uz
+  - blockType: regular
+    eyebrow:
+      en: Key cities
+      ru: Ключевые города
+      uz: Asosiy shaharlar
+    title:
+      en: Where routes usually start
+      ru: Откуда обычно начинаются маршруты
+      uz: Marshrutlar odatda qayerdan boshlanadi
+    description:
+      en: "Ashgabat, Nisa, Merv, and Darvaza — white marble capital, Parthian ruins, Silk Road empire, and the desert gate."
+      ru: "Ашхабад, Ниса, Мерв и Дарваза — мраморная столица, парфянские руины, империя Шёлкового пути и врата пустыни."
+      uz: "Ashgabat, Nisa, Merv va Darvaza — oq marmar poytaxt, Parfiya xarabalari, ipak yo'li imperiyasi va cho'l darvozasi."
+seo:
+  metaTitle:
+    en: Turkmenistan tours | TourLink
+    ru: Туры в Туркменистан | TourLink
+    uz: Turkmanistonda turlar | TourLink
+  metaDescription:
+    en: Desert cities, Merv, and Darvaza — Turkmenistan routes planned with permits in mind by TourLink DMC.
+    ru: Пустынные города, Мерв и Дарваза — маршруты по Туркменистану с учётом разрешений от DMC TourLink.
+    uz: Cho'l shaharlari, Merv va Darvaza — ruxsatlar hisobga olingan TourLink DMC marshrutlari.
+  structuredDataType: TouristDestination
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2025-06-01"

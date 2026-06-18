@@ -1,0 +1,79 @@
+# Seed: коллекция countries — Kazakhstan
+
+slug:
+  en: kazakhstan
+  ru: kazakhstan
+  uz: kazakhstan
+title:
+  en: Kazakhstan
+  ru: Казахстан
+  uz: Qozog'iston
+subtitle:
+  en: Wide horizon
+  ru: Широкий контур
+  uz: Keng kontur
+excerpt:
+  en: Steppe and city silhouettes
+  ru: Степи и силуэты городов
+  uz: Dashtlar va shahar siluetlari
+mapCenter:
+  latitude: 43.2389
+  longitude: 76.8897
+heroImage: assets/images/destinations/kazahstan.jpg
+badges:
+  - POPULAR
+blocks:
+  - blockType: hero
+    image: assets/images/destinations/kazahstan.jpg
+    imageAlt:
+      en: Almaty and the Tien Shan foothills
+      ru: Алматы и предгорья Тянь-Шаня
+      uz: Olmaota va Tyan-Shan etag'i
+    title:
+      en: Kazakhstan
+      ru: Казахстан
+      uz: Qozog'iston
+    description:
+      en: Steppe and city silhouettes
+      ru: Степи и силуэты городов
+      uz: Dashtlar va shahar siluetlari
+    note:
+      en: A wide country where routes can stretch from modern Almaty to ancient Turkestan and desert canyons.
+      ru: Широкая страна, где маршрут может тянуться от современной Алматы до древнего Туркестана и пустынных каньонов.
+      uz: Zamonaviy Olmaotadan qadimiy Turkistonga va cho'l kanyonlarigacha cho'zilishga imkon beradigan keng mamlakat.
+    actions:
+      - type: mailto
+        variant: default
+        title:
+          en: Request a tour
+          ru: Запросить тур
+          uz: Tur so'rash
+        email: info@tourlink.uz
+  - blockType: regular
+    eyebrow:
+      en: Key cities
+      ru: Ключевые города
+      uz: Asosiy shaharlar
+    title:
+      en: Where routes usually start
+      ru: Откуда обычно начинаются маршруты
+      uz: Marshrutlar odatda qayerdan boshlanadi
+    description:
+      en: "Almaty, Turkestan, Charyn, and Mangystau — city energy, sacred history, canyon drama, and the western desert edge."
+      ru: "Алматы, Туркестан, Чарын и Мангистау — городская энергия, священная история, каньоны и западный край пустыни."
+      uz: "Olmaota, Turkiston, Sharyn va Mang'istov — shahar energiyasi, muqaddas tarix, kanyonlar va g'arbiy cho'l chegarasi."
+seo:
+  metaTitle:
+    en: Kazakhstan tours | TourLink
+    ru: Туры в Казахстан | TourLink
+    uz: Qozog'istonda turlar | TourLink
+  metaDescription:
+    en: Steppe horizons, Almaty, Turkestan, and canyon routes across Kazakhstan — from TourLink DMC.
+    ru: Степные горизонты, Алматы, Туркестан и каньонные маршруты по Казахстану — от DMC TourLink.
+    uz: Dasht ufqalari, Olmaota, Turkiston va Qozog'iston bo'ylab kanyon marshrutlari — TourLink DMC dan.
+  structuredDataType: TouristDestination
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2025-06-01"

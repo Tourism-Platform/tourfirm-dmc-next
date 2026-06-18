@@ -1,0 +1,79 @@
+# Seed: коллекция countries — Tajikistan
+
+slug:
+  en: tajikistan
+  ru: tajikistan
+  uz: tajikistan
+title:
+  en: Tajikistan
+  ru: Таджикистан
+  uz: Tojikiston
+subtitle:
+  en: High roads
+  ru: Высокие дороги
+  uz: Baland yo'llar
+excerpt:
+  en: Where the Pamir touches the sky
+  ru: Там, где Памир касается неба
+  uz: Pomir osmonga tegadigan joy
+mapCenter:
+  latitude: 38.5598
+  longitude: 68.7870
+heroImage: assets/images/destinations/tadjikistan.jpg
+badges:
+  - HIDDEN_GEM
+blocks:
+  - blockType: hero
+    image: assets/images/destinations/tadjikistan.jpg
+    imageAlt:
+      en: Pamir Highway and high mountain passes
+      ru: Памирский тракт и высокогорные перевалы
+      uz: Pomir trakti va baland tog' o'tishlari
+    title:
+      en: Tajikistan
+      ru: Таджикистан
+      uz: Tojikiston
+    description:
+      en: Where the Pamir touches the sky
+      ru: Там, где Памир касается неба
+      uz: Pomir osmonga tegadigan joy
+    note:
+      en: High roads and remote valleys — a country for travelers ready for altitude, permits, and slower pacing.
+      ru: Высокие дороги и удалённые долины — страна для путешественников, готовых к высоте, разрешениям и неспешному ритму.
+      uz: Baland yo'llar va uzoq vodiy — balandlik, ruxsatlar va sekin ritmga tayyor sayohatchilar uchun mamlakat.
+    actions:
+      - type: mailto
+        variant: default
+        title:
+          en: Request a tour
+          ru: Запросить тур
+          uz: Tur so'rash
+        email: info@tourlink.uz
+  - blockType: regular
+    eyebrow:
+      en: Key cities
+      ru: Ключевые города
+      uz: Asosiy shaharlar
+    title:
+      en: Where routes usually start
+      ru: Откуда обычно начинаются маршруты
+      uz: Marshrutlar odatda qayerdan boshlanadi
+    description:
+      en: "Dushanbe, Fan Mountains, Seven Lakes, and the Pamir — capital gateway, alpine lakes, and the roof of the route."
+      ru: "Душанбе, Фанские горы, Семь озёр и Памир — столичные ворота, альпийские озёра и крыша маршрута."
+      uz: "Dushanbe, Fan tog'lari, Yetti ko'l va Pomir — poytaxt darvozasi, alp ko'llari va marshrutning cho'qqisi."
+seo:
+  metaTitle:
+    en: Tajikistan tours | TourLink
+    ru: Туры в Таджикистан | TourLink
+    uz: Tojikistonda turlar | TourLink
+  metaDescription:
+    en: Pamir high roads, Fan Mountains, and Seven Lakes — Tajikistan routes from TourLink DMC.
+    ru: Высокие дороги Памира, Фанские горы и Семь озёр — маршруты по Таджикистану от DMC TourLink.
+    uz: Pomir baland yo'llari, Fan tog'lari va Yetti ko'l — TourLink DMC dan Tojikiston marshrutlari.
+  structuredDataType: TouristDestination
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2025-06-01"

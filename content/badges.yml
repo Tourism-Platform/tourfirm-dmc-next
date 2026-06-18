@@ -1,0 +1,75 @@
+# Seed: коллекция badges (Payload CMS)
+# Локали: en, ru, uz
+# slug не локализован
+
+- slug: UNESCO
+  title:
+    en: UNESCO World Heritage
+    ru: Объект UNESCO
+    uz: UNESCO merosi
+  color: "#7C3AED"
+  icon: landmark
+
+- slug: TOP_PICK
+  title:
+    en: Top pick
+    ru: Лучший выбор
+    uz: Eng yaxshi tanlov
+  color: "#D97706"
+  icon: star
+
+- slug: MUST_SEE
+  title:
+    en: Must see
+    ru: Обязательно к просмотру
+    uz: Ko'rish shart
+  color: "#DC2626"
+  icon: eye
+
+- slug: EDITOR_CHOICE
+  title:
+    en: Editor's choice
+    ru: Выбор редакции
+    uz: Tahririyat tanlovi
+  color: "#2563EB"
+  icon: badge-check
+
+- slug: POPULAR
+  title:
+    en: Popular
+    ru: Популярное
+    uz: Mashhur
+  color: "#059669"
+  icon: flame
+
+- slug: HIDDEN_GEM
+  title:
+    en: Hidden gem
+    ru: Скрытая жемчужина
+    uz: Yashirin marvarid
+  color: "#0891B2"
+  icon: gem
+
+- slug: NEW
+  title:
+    en: New
+    ru: Новинка
+    uz: Yangi
+  color: "#4F46E5"
+  icon: sparkles
+
+- slug: TRENDING
+  title:
+    en: Trending
+    ru: В тренде
+    uz: Trendda
+  color: "#DB2777"
+  icon: trending-up
+
+- slug: FEATURED
+  title:
+    en: Featured
+    ru: Избранное
+    uz: Tanlangan
+  color: "#CA8A04"
+  icon: award

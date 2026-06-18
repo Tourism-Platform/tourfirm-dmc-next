@@ -1,0 +1,81 @@
+# Seed: коллекция countries — Uzbekistan
+
+slug:
+  en: uzbekistan
+  ru: uzbekistan
+  uz: uzbekistan
+title:
+  en: Uzbekistan
+  ru: Узбекистан
+  uz: O'zbekiston
+subtitle:
+  en: TourLink home
+  ru: Дом TourLink
+  uz: TourLink uyi
+excerpt:
+  en: Silk Road cities, crafts, architecture, and tightly logical routes.
+  ru: Города Шёлкового пути, ремёсла, архитектура и плотная логика маршрутов.
+  uz: Buyo'ldoq yo'li shaharlari, hunarmandchilik, me'morchilik va zich marshrut mantig'i.
+mapCenter:
+  latitude: 41.2995
+  longitude: 69.2401
+heroImage: assets/images/destinations/uzbekistan.jpg
+badges:
+  - FEATURED
+  - TOP_PICK
+  - UNESCO
+blocks:
+  - blockType: hero
+    image: assets/images/destinations/uzbekistan.jpg
+    imageAlt:
+      en: Registan Square, Samarkand
+      ru: Площадь Регистан, Самарканд
+      uz: Samarqand, Registon maydoni
+    title:
+      en: Uzbekistan
+      ru: Узбекистан
+      uz: O'zbekiston
+    description:
+      en: Silk Road cities, crafts, architecture, and tightly logical routes.
+      ru: Города Шёлкового пути, ремёсла, архитектура и плотная логика маршрутов.
+      uz: Buyo'ldoq yo'li shaharlari, hunarmandchilik, me'morchilik va zich marshrut mantig'i.
+    note:
+      en: TourLink is based here — the natural starting point for a first Central Asia trip.
+      ru: TourLink базируется здесь — естественная точка старта для первой поездки по Центральной Азии.
+      uz: TourLink shu yerda joylashgan — Markaziy Osiyoga birinchi sayohat uchun tabiiy boshlang'ich nuqta.
+    actions:
+      - type: mailto
+        variant: default
+        title:
+          en: Request a tour
+          ru: Запросить тур
+          uz: Tur so'rash
+        email: info@tourlink.uz
+  - blockType: regular
+    eyebrow:
+      en: Key cities
+      ru: Ключевые города
+      uz: Asosiy shaharlar
+    title:
+      en: Where routes usually start
+      ru: Откуда обычно начинаются маршруты
+      uz: Marshrutlar odatda qayerdan boshlanadi
+    description:
+      en: "Tashkent, Samarkand, Bukhara, and Khiva — four anchors that connect flights, history, and a coherent Silk Road line."
+      ru: "Ташкент, Самарканд, Бухара и Хива — четыре опоры, которые связывают перелёты, историю и цельную линию Шёлкового пути."
+      uz: "Toshkent, Samarqand, Buxoro va Xiva — parvozlar, tarix va yaxlit ipak yo'li chizig'ini bog'laydigan to'rtta tayanch."
+seo:
+  metaTitle:
+    en: Uzbekistan tours | TourLink
+    ru: Туры в Узбекистан | TourLink
+    uz: O'zbekistonda turlar | TourLink
+  metaDescription:
+    en: Silk Road cities, crafts, and logical routes across Uzbekistan — planned by TourLink DMC.
+    ru: Города Шёлкового пути, ремёсла и логичные маршруты по Узбекистану — от DMC TourLink.
+    uz: O'zbekistonda ipak yo'li shaharlari, hunarmandchilik va mantiqiy marshrutlar — TourLink DMC dan.
+  structuredDataType: TouristDestination
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2025-06-01"

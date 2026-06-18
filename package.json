@@ -7,6 +7,7 @@
     "dev": "next dev",
     "generate:types": "cross-env NODE_OPTIONS=--no-deprecation payload generate:types",
     "payload": "cross-env NODE_OPTIONS=--no-deprecation payload",
+    "seed": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed.ts",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\" \"messages/**/*.json\"",
     "lint": "eslint .",
     "test": "vitest run",
@@ -80,6 +81,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "cross-env": "^10.1.0",
+    "dotenv": "^17.4.2",
     "eslint": "^9",
     "eslint-config-next": "16.2.7",
     "eslint-import-resolver-typescript": "^4.4.4",
@@ -89,9 +91,11 @@
     "jsdom": "^27.4.0",
     "prettier": "^3.6.2",
     "tailwindcss": "^4",
+    "tsx": "^4.22.4",
     "typescript": "^5",
     "typescript-eslint": "^8.44.0",
-    "vitest": "^4.0.16"
+    "vitest": "^4.0.16",
+    "yaml": "^2.9.0"
   },
   "overrides": {
     "sharp": "0.34.5"

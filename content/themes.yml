@@ -1,0 +1,511 @@
+# Seed: коллекция themes (Payload CMS)
+# Локали: en, ru, uz
+
+- slug:
+    en: culture
+    ru: culture
+    uz: culture
+  title:
+    en: Culture
+    ru: Культура
+    uz: Madaniyat
+  icon: landmark
+  description:
+    en: Historic cities, living traditions, and the stories behind monuments, courtyards, and daily life.
+    ru: Исторические города, живые традиции и истории за памятниками, дворами и повседневной жизнью.
+    uz: Tarixiy shaharlar, tirik an'analar va yodgorliklar, hovli va kundalik hayot ortidagi hikoyalar.
+  blocks:
+    - blockType: regular
+      title:
+        en: Culture
+        ru: Культура
+        uz: Madaniyat
+  seo:
+    metaTitle:
+      en: Culture experiences in Central Asia
+      ru: Культурные впечатления в Центральной Азии
+      uz: Markaziy Osiyoda madaniy taassurotlar
+    metaDescription:
+      en: Walks, encounters, and context-led visits that reveal how Central Asia feels beyond postcard views.
+      ru: Прогулки, встречи и визиты с контекстом — как ощущается Центральная Азия за пределами открыток.
+      uz: Sayr, uchrashuvlar va kontekstli tashriflar — Markaziy Osiyo ochiqotkacha tasvirdan tashqari qanday seziladi.
+
+- slug:
+    en: crafts
+    ru: crafts
+    uz: crafts
+  title:
+    en: Crafts
+    ru: Ремёсла
+    uz: Hunarmandchilik
+  icon: hammer
+  description:
+    en: Workshops, masterclasses, and meetings with artisans working clay, silk, metal, and wood.
+    ru: Мастерские, мастер-классы и встречи с мастерами глины, шёлка, металла и дерева.
+    uz: Kulolchilik, ipak, metall va yog'och ustaxonalar, master-klasslar va ustalarga uchrashuvlar.
+  blocks:
+    - blockType: regular
+      title:
+        en: Crafts
+        ru: Ремёсла
+        uz: Hunarmandchilik
+  seo:
+    metaTitle:
+      en: Craft experiences in Central Asia
+      ru: Ремесленные впечатления в Центральной Азии
+      uz: Markaziy Osiyoda hunarmandchilik taassurotlari
+
+- slug:
+    en: food
+    ru: food
+    uz: food
+  title:
+    en: Food
+    ru: Еда
+    uz: Ovqat
+  icon: utensils
+  description:
+    en: Bazaars, family tables, tea rituals, and regional flavors from plov courts to mountain villages.
+    ru: Базары, семейные столы, чайные ритуалы и региональные вкусы — от пловных дворов до горных сёл.
+    uz: Bozorlar, oila dasturxoni, choy marosimlari va mintaqaviy ta'mlar — osh hovlisidan tog' qishloqlarigacha.
+  blocks:
+    - blockType: regular
+      title:
+        en: Food
+        ru: Еда
+        uz: Ovqat
+  seo:
+    metaTitle:
+      en: Food experiences in Central Asia
+      ru: Гастрономические впечатления в Центральной Азии
+      uz: Markaziy Osiyoda gastronomik taassurotlar
+
+- slug:
+    en: nature
+    ru: nature
+    uz: nature
+  title:
+    en: Nature
+    ru: Природа
+    uz: Tabiat
+  icon: mountain
+  description:
+    en: Mountains, lakes, desert edges, and quiet roads where the route itself becomes the experience.
+    ru: Горы, озёра, края пустыни и тихие дороги, где сам маршрут становится впечатлением.
+    uz: Tog'lar, ko'llar, cho'l chegaralari va tinch yo'llar — marshrut o'zi taassurotga aylanadi.
+  blocks:
+    - blockType: regular
+      title:
+        en: Nature
+        ru: Природа
+        uz: Tabiat
+  seo:
+    metaTitle:
+      en: Nature routes in Central Asia
+      ru: Природные маршруты в Центральной Азии
+      uz: Markaziy Osiyoda tabiat marshrutlari
+
+- slug:
+    en: silk-road
+    ru: silk-road
+    uz: silk-road
+  title:
+    en: Silk Road
+    ru: Великий шёлковый путь
+    uz: Buyuk ipak yo'li
+  icon: route
+  description:
+    en: Caravanserai stops, trading cities, and crossroads where empires, faiths, and goods once met.
+    ru: Караван-сараи, торговые города и перекрёстки, где встречались империи, веры и товары.
+    uz: Karvonsaroylar, savdo shaharlari va imperiyalar, e'tiqodlar va tovarlar uchrashgan chorraha.
+  blocks:
+    - blockType: regular
+      title:
+        en: Silk Road
+        ru: Великий шёлковый путь
+        uz: Buyuk ipak yo'li
+  seo:
+    metaTitle:
+      en: Silk Road journeys in Central Asia
+      ru: Путешествия по Великому шёлковому пути
+      uz: Markaziy Osiyoda Buyuk ipak yo'li sayohatlari
+
+- slug:
+    en: architecture
+    ru: architecture
+    uz: architecture
+  title:
+    en: Architecture
+    ru: Архитектура
+    uz: Me'morchilik
+  icon: building-2
+  description:
+    en: Domes, minarets, madrasas, and tile geometry — reading a city through its built layers.
+    ru: Купола, минареты, медресе и геометрия изразцов — чтение города через его архитектурные слои.
+    uz: Gumbazlar, minoralar, madrasalar va kafel geometriyasi — shaharni qurilgan qatlamlar orqali o'qish.
+  blocks:
+    - blockType: regular
+      title:
+        en: Architecture
+        ru: Архитектура
+        uz: Me'morchilik
+
+- slug:
+    en: sacred-heritage
+    ru: sacred-heritage
+    uz: sacred-heritage
+  title:
+    en: Sacred heritage
+    ru: Сакральное наследие
+    uz: Muqaddas meros
+  icon: mosque
+  description:
+    en: Shrines, mosques, and pilgrimage sites visited with context, respect, and unhurried pace.
+    ru: Святыни, мечети и места паломничества — с контекстом, уважением и неспешным ритмом.
+    uz: Ziyoratgohlar, masjidlar va haj marosimlari joylari — kontekst, hurmat va shoshilmas ritm bilan.
+  blocks:
+    - blockType: regular
+      title:
+        en: Sacred heritage
+        ru: Сакральное наследие
+        uz: Muqaddas meros
+
+- slug:
+    en: desert
+    ru: desert
+    uz: desert
+  title:
+    en: Desert & oasis
+    ru: Пустыня и оазис
+    uz: Cho'l va vohalar
+  icon: sun
+  description:
+    en: Dunes, desert lakes, yurt camps, and nights when the sky opens wider than the road behind.
+    ru: Дюны, пустынные озёра, юртовые лагеря и ночи, когда небо шире дороги позади.
+    uz: Qum tepaliklari, cho'l ko'llari, yurt lagerlari va osmon ortingizdagi yo'ldan kengroq ochiladigan kechalar.
+  blocks:
+    - blockType: regular
+      title:
+        en: Desert & oasis
+        ru: Пустыня и оазис
+        uz: Cho'l va vohalar
+
+- slug:
+    en: mountains
+    ru: mountains
+    uz: mountains
+  title:
+    en: Mountains
+    ru: Горы
+    uz: Tog'lar
+  icon: mountain-snow
+  description:
+    en: High passes, alpine lakes, Pamir and Tien Shan horizons, and routes that reward slow travel.
+    ru: Высокие перевалы, альпийские озёра, горизонты Памира и Тянь-Шаня и маршруты для неспешного пути.
+    uz: Yuqori o'tishlar, alp ko'llari, Pomir va Tyan-Shan ufqalari va sekin sayohat uchun marshrutlar.
+  blocks:
+    - blockType: regular
+      title:
+        en: Mountains
+        ru: Горы
+        uz: Tog'lar
+
+- slug:
+    en: history
+    ru: history
+    uz: history
+  title:
+    en: History
+    ru: История
+    uz: Tarix
+  icon: scroll
+  description:
+    en: Dynasties, conquests, scholars, and the layered past of cities that outlived empires.
+    ru: Династии, завоевания, учёные и многослойное прошлое городов, переживших империи.
+    uz: Sulolalar, zabt etishlar, olimlar va imperiyalardan omon qolgan shaharlarning qavatli o'tmishi.
+  blocks:
+    - blockType: regular
+      title:
+        en: History
+        ru: История
+        uz: Tarix
+
+- slug:
+    en: bazaars
+    ru: bazaars
+    uz: bazaars
+  title:
+    en: Bazaars
+    ru: Базары
+    uz: Bozorlar
+  icon: store
+  description:
+    en: Covered markets, spice rows, craft lanes, and the social rhythm of trading quarters.
+    ru: Крытые рынки, ряды специй, ремесленные переулки и социальный ритм торговых кварталов.
+    uz: Yopiq bozorlar, ziravor qatorlari, hunarmandchilik ko'chalari va savdo kvartallarining ijtimoiy ritmi.
+  blocks:
+    - blockType: regular
+      title:
+        en: Bazaars
+        ru: Базары
+        uz: Bozorlar
+
+- slug:
+    en: adventure
+    ru: adventure
+    uz: adventure
+  title:
+    en: Adventure
+    ru: Приключения
+    uz: Sarguzasht
+  icon: compass
+  description:
+    en: Trekking, jeep routes, rafting, and active days for travelers who want movement and edge.
+    ru: Треккинг, джип-маршруты, рафтинг и активные дни для тех, кто ищет движение и острые впечатления.
+    uz: Trekking, jip marshrutlari, rafting va harakat va kuchli taassurot izlaydigan sayohatchilar uchun faol kunlar.
+  blocks:
+    - blockType: regular
+      title:
+        en: Adventure
+        ru: Приключения
+        uz: Sarguzasht
+
+- slug:
+    en: wellness
+    ru: wellness
+    uz: wellness
+  title:
+    en: Wellness
+    ru: Велнес
+    uz: Sog'lomlashtirish
+  icon: heart-pulse
+  description:
+    en: Thermal springs, hammams, slow mornings, and restorative stops between intense route days.
+    ru: Термальные источники, хаммамы, медленные утра и восстанавливающие паузы между насыщенными днями.
+    uz: Termal buloqlar, hammomlar, sekin tonglar va yuqori yuklangan kunlar orasidagi tiklanish tanaffuslari.
+  blocks:
+    - blockType: regular
+      title:
+        en: Wellness
+        ru: Велнес
+        uz: Sog'lomlashtirish
+
+- slug:
+    en: festivals
+    ru: festivals
+    uz: festivals
+  title:
+    en: Festivals & events
+    ru: Фестивали и события
+    uz: Festivallar va tadbirlar
+  icon: party-popper
+  description:
+    en: Seasonal celebrations, craft fairs, music nights, and cultural calendars worth planning around.
+    ru: Сезонные праздники, ярмарки ремёсел, музыкальные вечера и культурные календари, вокруг которых стоит строить поездку.
+    uz: Mavsumiy bayramlar, hunarmandchilik yarmarkalari, musiqa kechalari va sayohatni rejalashtirishga arziydigan madaniy taqvimlar.
+  blocks:
+    - blockType: regular
+      title:
+        en: Festivals & events
+        ru: Фестивали и события
+        uz: Festivallar va tadbirlar
+
+- slug:
+    en: nomadic-life
+    ru: nomadic-life
+    uz: nomadic-life
+  title:
+    en: Nomadic life
+    ru: Кочевая жизнь
+    uz: Ko'chmanchi hayot
+  icon: tent
+  description:
+    en: Yurt stays, pasture seasons, horse culture, and the hospitality codes of steppe communities.
+    ru: Проживание в юртах, пастбищные сезоны, конная культура и коды гостеприимства степных общин.
+    uz: Yurtlarda yashash, yaylov mavsumlari, ot madaniyati va dasht jamoalarining mehmondo'stlik an'analari.
+  blocks:
+    - blockType: regular
+      title:
+        en: Nomadic life
+        ru: Кочевая жизнь
+        uz: Ko'chmanchi hayot
+
+- slug:
+    en: art
+    ru: art
+    uz: art
+  title:
+    en: Art & museums
+    ru: Искусство и музеи
+    uz: San'at va muzeylar
+  icon: palette
+  description:
+    en: Museum collections, contemporary galleries, applied arts, and the visual language of the region.
+    ru: Музейные коллекции, современные галереи, прикладное искусство и визуальный язык региона.
+    uz: Muzey kolleksiyalari, zamonaviy galereyalar, amaliy san'at va mintaqaning vizual tili.
+  blocks:
+    - blockType: regular
+      title:
+        en: Art & museums
+        ru: Искусство и музеи
+        uz: San'at va muzeylar
+
+- slug:
+    en: photography
+    ru: photography
+    uz: photography
+  title:
+    en: Photography
+    ru: Фотография
+    uz: Fotosurat
+  icon: camera
+  description:
+    en: Golden-hour cities, mountain light, market color, and routes timed for photographers.
+    ru: Города в золотой час, горный свет, цвет базаров и маршруты, рассчитанные на фотографов.
+    uz: Oltin soat shaharlari, tog' yorug'ligi, bozor ranglari va fotograflar uchun vaqtlangan marshrutlar.
+  blocks:
+    - blockType: regular
+      title:
+        en: Photography
+        ru: Фотография
+        uz: Fotosurat
+
+- slug:
+    en: family
+    ru: family
+    uz: family
+  title:
+    en: Family travel
+    ru: Семейные путешествия
+    uz: Oilaviy sayohat
+  icon: users
+  description:
+    en: Gentle pacing, hands-on workshops, safe nature stops, and programs that work across generations.
+    ru: Мягкий ритм, практические мастерские, безопасные природные остановки и программы для разных поколений.
+    uz: Yumshoq ritm, amaliy ustaxonalar, xavfsiz tabiat to'xtashlari va avloddan-avlodga mos dasturlar.
+  blocks:
+    - blockType: regular
+      title:
+        en: Family travel
+        ru: Семейные путешествия
+        uz: Oilaviy sayohat
+
+- slug:
+    en: urban-life
+    ru: urban-life
+    uz: urban-life
+  title:
+    en: Urban life
+    ru: Городская жизнь
+    uz: Shahar hayoti
+  icon: building
+  description:
+    en: Modern capitals, Soviet layers, metro art, cafés, and how contemporary Central Asia lives today.
+    ru: Современные столицы, советские слои, метро, кафе и то, как сегодня живёт современная Центральная Азия.
+    uz: Zamonaviy poytaxtlar, sovet qatlamlari, metro san'ati, kafeler va bugungi Markaziy Osiyo qanday yashaydi.
+  blocks:
+    - blockType: regular
+      title:
+        en: Urban life
+        ru: Городская жизнь
+        uz: Shahar hayoti
+
+- slug:
+    en: wine-gastronomy
+    ru: wine-gastronomy
+    uz: wine-gastronomy
+  title:
+    en: Wine & gastronomy
+    ru: Вино и гастрономия
+    uz: Vino va gastronomiya
+  icon: wine
+  description:
+    en: Vineyards, regional pairings, tasting tables, and the quieter side of Central Asian hospitality.
+    ru: Виноградники, региональные сочетания, дегустационные столы и тихая сторона гостеприимства региона.
+    uz: Uzumzorlar, mintaqaviy juftliklar, dasturxonlar va Markaziy Osiyo mehmondo'stligining sokin tomoni.
+  blocks:
+    - blockType: regular
+      title:
+        en: Wine & gastronomy
+        ru: Вино и гастрономия
+        uz: Vino va gastronomiya
+
+- slug:
+    en: textiles
+    ru: textiles
+    uz: textiles
+  title:
+    en: Textiles & silk
+    ru: Текстиль и шёлк
+    uz: To'qimachilik va ipak
+  icon: spool
+  description:
+    en: Ikat workshops, silk thread, carpet lanes, and the craft economies behind patterned cloth.
+    ru: Мастерские иката, шёлковая нить, ковровые ряды и ремесленная экономика узорчатой ткани.
+    uz: Ikat ustaxonalar, ipak ipi, gilam qatorlari va naqshli mato ortidagi hunarmandchilik iqtisodiyoti.
+  blocks:
+    - blockType: regular
+      title:
+        en: Textiles & silk
+        ru: Текстиль и шёлк
+        uz: To'qimachilik va ipak
+
+- slug:
+    en: archaeology
+    ru: archaeology
+    uz: archaeology
+  title:
+    en: Archaeology
+    ru: Археология
+    uz: Arxeologiya
+  icon: shovel
+  description:
+    en: Ancient sites, excavation stories, desert ruins, and cities that vanished and returned to light.
+    ru: Древние памятники, истории раскопок, пустынные руины и города, исчезнувшие и вновь обретённые светом.
+    uz: Qadimiy joylar, qazishma hikoyalari, cho'l xarabalari va yo'qolib, yana yorug'likka qaytgan shaharlar.
+  blocks:
+    - blockType: regular
+      title:
+        en: Archaeology
+        ru: Археология
+        uz: Arxeologiya
+
+- slug:
+    en: lakes-rivers
+    ru: lakes-rivers
+    uz: lakes-rivers
+  title:
+    en: Lakes & rivers
+    ru: Озёра и реки
+    uz: Ko'llar va daryolar
+  icon: waves
+  description:
+    en: Issyk-Kul shores, Charvak reservoirs, Amu Darya horizons, and water landscapes between mountains.
+    ru: Берега Иссык-Куля, водохранилища Чарвака, горизонты Амударьи и водные пейзажи между горами.
+    uz: Issiqko'l qirg'oqlari, Charvak suv omborlari, Amudaryo ufqalari va tog'lar orasidagi suv manzaralari.
+  blocks:
+    - blockType: regular
+      title:
+        en: Lakes & rivers
+        ru: Озёра и реки
+        uz: Ko'llar va daryolar
+
+- slug:
+    en: stargazing
+    ru: stargazing
+    uz: stargazing
+  title:
+    en: Stargazing
+    ru: Наблюдение за звёздами
+    uz: Yulduzlarni kuzatish
+  icon: star
+  description:
+    en: Desert nights, high-altitude clarity, and camps where the Milky Way needs no filter.
+    ru: Пустынные ночи, высотная прозрачность неба и лагеря, где Млечный Путь не требует фильтра.
+    uz: Cho'l kechalari, balandlikdagi osmon aniqligi va Qo'ng'iroq yo'li filtrsiz ko'rinadigan lagerlar.
+  blocks:
+    - blockType: regular
+      title:
+        en: Stargazing
+        ru: Наблюдение за звёздами
+        uz: Yulduzlarni kuzatish
