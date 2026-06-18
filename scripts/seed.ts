@@ -11,6 +11,51 @@ import { parse as parseYaml } from "yaml";
 const LOCALES = ["en", "ru", "uz"] as const;
 type TLocale = (typeof LOCALES)[number];
 
+type TResolvePageOptions = {
+	hrefPrefix?: string;
+};
+
+function buildPrefixedCountryHref(
+	hrefPrefix: string | undefined,
+	countrySlug: string
+): string {
+	return hrefPrefix ? `/${hrefPrefix}/${countrySlug}` : `/${countrySlug}`;
+}
+
+function resolveBlockActions(
+	actions: unknown,
+	hrefPrefix?: string
+): unknown {
+	if (!hrefPrefix || !Array.isArray(actions)) {
+		return actions;
+	}
+
+	return actions.map((action) => {
+		if (!action || typeof action !== "object") {
+			return action;
+		}
+
+		const entry = action as Record<string, unknown>;
+
+		if (entry.type === "link" && typeof entry.href === "string") {
+			const href = entry.href;
+
+			if (
+				!href.startsWith("#") &&
+				!href.startsWith("/") &&
+				!href.includes("://")
+			) {
+				return {
+					...entry,
+					href: buildPrefixedCountryHref(hrefPrefix, href)
+				};
+			}
+		}
+
+		return action;
+	});
+}
+
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CONTENT_DIR = path.join(ROOT, "content");
 
@@ -183,10 +228,30 @@ async function resolveCardImage(
 	return result;
 }
 
+async function resolveRouteIdeaCard(
+	payload: Payload,
+	mediaCache: Map<string, number>,
+	card: Record<string, unknown>,
+	options?: TResolvePageOptions
+): Promise<Record<string, unknown>> {
+	const { countrySlug, ...rest } = card;
+	const resolved = await resolveCardImage(payload, mediaCache, rest);
+
+	if (typeof countrySlug === "string") {
+		return {
+			...resolved,
+			ctaHref: buildPrefixedCountryHref(options?.hrefPrefix, countrySlug)
+		};
+	}
+
+	return resolved;
+}
+
 async function resolveCountryCard(
 	payload: Payload,
 	card: Record<string, unknown>,
-	locale: TLocale
+	locale: TLocale,
+	options?: TResolvePageOptions
 ): Promise<Record<string, unknown>> {
 	const countrySlug = card.countrySlug;
 
@@ -217,7 +282,7 @@ async function resolveCountryCard(
 
 	return {
 		type: "country",
-		href: `/${slug}`,
+		href: buildPrefixedCountryHref(options?.hrefPrefix, slug),
 		image: country.heroImage,
 		badge: country.subtitle,
 		title: country.title,
@@ -231,7 +296,8 @@ async function resolveHomepageCards(
 	payload: Payload,
 	mediaCache: Map<string, number>,
 	cards: unknown[],
-	locale: TLocale
+	locale: TLocale,
+	options?: TResolvePageOptions
 ): Promise<unknown[]> {
 	return Promise.all(
 		cards.map(async (card) => {
@@ -242,7 +308,11 @@ async function resolveHomepageCards(
 			const entry = card as Record<string, unknown>;
 
 			if (entry.type === "country" && entry.countrySlug) {
-				return resolveCountryCard(payload, entry, locale);
+				return resolveCountryCard(payload, entry, locale, options);
+			}
+
+			if (entry.type === "routeIdea") {
+				return resolveRouteIdeaCard(payload, mediaCache, entry, options);
 			}
 
 			return resolveCardImage(payload, mediaCache, entry);
@@ -250,11 +320,12 @@ async function resolveHomepageCards(
 	);
 }
 
-async function resolveHomepageBlocks(
+async function resolvePageBlocks(
 	payload: Payload,
 	mediaCache: Map<string, number>,
 	blocks: unknown[],
-	locale: TLocale
+	locale: TLocale,
+	options?: TResolvePageOptions
 ): Promise<unknown[]> {
 	return Promise.all(
 		blocks.map(async (block) => {
@@ -264,11 +335,17 @@ async function resolveHomepageBlocks(
 
 			const entry = { ...(block as Record<string, unknown>) };
 
-			if (
-				(entry.blockType === "hero" || entry.blockType === "cta") &&
-				typeof entry.image === "string"
-			) {
-				entry.image = await ensureMedia(payload, mediaCache, entry.image);
+			if (entry.blockType === "hero" || entry.blockType === "cta") {
+				if (typeof entry.image === "string") {
+					entry.image = await ensureMedia(payload, mediaCache, entry.image);
+				}
+
+				if (Array.isArray(entry.actions)) {
+					entry.actions = resolveBlockActions(
+						entry.actions,
+						options?.hrefPrefix
+					);
+				}
 			}
 
 			if (Array.isArray(entry.cards)) {
@@ -276,7 +353,8 @@ async function resolveHomepageBlocks(
 					payload,
 					mediaCache,
 					entry.cards,
-					locale
+					locale,
+					options
 				);
 			}
 
@@ -297,7 +375,7 @@ async function seedHomepage(
 	for (const locale of LOCALES) {
 		const localized = pickLocale(raw, locale) as Record<string, unknown>;
 		const blocks = Array.isArray(localized.blocks) ? localized.blocks : [];
-		const resolvedBlocks = await resolveHomepageBlocks(
+		const resolvedBlocks = await resolvePageBlocks(
 			payload,
 			mediaCache,
 			blocks,
@@ -317,6 +395,43 @@ async function seedHomepage(
 		});
 
 		console.log(`  + homepage locale ${locale}`);
+	}
+}
+
+async function seedDestination(
+	payload: Payload,
+	mediaCache: Map<string, number>
+): Promise<void> {
+	const filePath = path.join(CONTENT_DIR, "destination-page.yml");
+	const raw = await readYamlFile<Record<string, unknown>>(filePath);
+
+	console.log("Seeding destination global...");
+
+	for (const locale of LOCALES) {
+		const localized = pickLocale(raw, locale) as Record<string, unknown>;
+		const blocks = Array.isArray(localized.blocks) ? localized.blocks : [];
+		const pageSlug = String(localized.slug ?? "");
+		const resolvedBlocks = await resolvePageBlocks(
+			payload,
+			mediaCache,
+			blocks,
+			locale,
+			{ hrefPrefix: pageSlug }
+		);
+
+		const data: Record<string, unknown> = {
+			...localized,
+			blocks: resolvedBlocks
+		};
+
+		await payload.updateGlobal({
+			slug: "destination",
+			data,
+			locale,
+			overrideAccess: true
+		});
+
+		console.log(`  + destination locale ${locale}`);
 	}
 }
 
@@ -541,12 +656,14 @@ async function main(): Promise<void> {
 	const themesCount = await seedThemes(payload);
 	const countriesCount = await seedCountries(payload, badgeIds, mediaCache);
 	await seedHomepage(payload, mediaCache);
+	await seedDestination(payload, mediaCache);
 
 	console.log("Seed complete:", {
 		badges: badgeIds.size,
 		themes: themesCount,
 		countries: countriesCount,
-		homepage: true
+		homepage: true,
+		destination: true
 	});
 
 	process.exit(0);

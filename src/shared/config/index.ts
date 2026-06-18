@@ -4,5 +4,8 @@ export {
 	type ENUM_PATH_TYPE,
 	type TQueryParams,
 	buildRoute,
-	buildRouteWithQuery
+	buildRouteWithQuery,
+	isReservedPathSegment,
+	RESERVED_PATH_SEGMENTS,
+	type TReservedPathSegment
 } from "./routes";

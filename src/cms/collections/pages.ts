@@ -4,6 +4,7 @@ import { authenticatedOrPublished } from "../access/authenticated-or-published";
 import { pageBlocks } from "../blocks";
 import { seoField } from "../fields/seo";
 import { statusField } from "../fields/status";
+import { validatePageSlug } from "../hooks/validate-page-slug";
 
 export const Pages: CollectionConfig = {
 	slug: "pages",
@@ -23,7 +24,8 @@ export const Pages: CollectionConfig = {
 			required: true,
 			unique: true,
 			localized: true,
-			index: true
+			index: true,
+			validate: validatePageSlug
 		},
 		{
 			name: "title",

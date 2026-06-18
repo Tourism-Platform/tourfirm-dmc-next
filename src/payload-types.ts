@@ -155,12 +155,14 @@ export interface Config {
 		| ("en" | "ru" | "uz")[];
 	globals: {
 		homepage: Homepage;
+		destination: Destination;
 		"site-settings": SiteSetting;
 		header: Header;
 		footer: Footer;
 	};
 	globalsSelect: {
 		homepage: HomepageSelect<false> | HomepageSelect<true>;
+		destination: DestinationSelect<false> | DestinationSelect<true>;
 		"site-settings": SiteSettingsSelect<false> | SiteSettingsSelect<true>;
 		header: HeaderSelect<false> | HeaderSelect<true>;
 		footer: FooterSelect<false> | FooterSelect<true>;
@@ -5643,6 +5645,259 @@ export interface Homepage {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "destination".
+ */
+export interface Destination {
+	id: number;
+	slug: string;
+	seo?: {
+		metaTitle?: string | null;
+		metaDescription?: string | null;
+		canonicalOverride?: string | null;
+		ogTitle?: string | null;
+		ogDescription?: string | null;
+		ogImage?: (number | null) | Media;
+		robotsNoindex?: boolean | null;
+		structuredDataType?:
+			| (
+					| "WebPage"
+					| "TouristDestination"
+					| "TouristAttraction"
+					| "TouristTrip"
+					| "Article"
+			  )
+			| null;
+	};
+	blocks?:
+		| (
+				| {
+						image: number | Media;
+						imageAlt?: string | null;
+						title: string;
+						description?: string | null;
+						note?: string | null;
+						actions?:
+							| {
+									type: "mailto" | "link" | "tel";
+									variant?:
+										| (
+												| "default"
+												| "destructive"
+												| "outline"
+												| "secondary"
+												| "ghost"
+												| "link"
+										  )
+										| null;
+									title: string;
+									href?: string | null;
+									email?: string | null;
+									phone?: string | null;
+									target?: ("_self" | "_blank") | null;
+									id?: string | null;
+							  }[]
+							| null;
+						id?: string | null;
+						blockName?: string | null;
+						blockType: "hero";
+				  }
+				| {
+						cards?:
+							| {
+									type:
+										| "country"
+										| "destinationInsight"
+										| "routeIdea"
+										| "experience"
+										| "tradeFair"
+										| "journal"
+										| "overviewStat"
+										| "servicesBusiness"
+										| "servicesDirection"
+										| "servicesProcess"
+										| "tripFormat";
+									relatedDoc?:
+										| ({
+												relationTo: "routes";
+												value: number | Route;
+										  } | null)
+										| ({
+												relationTo: "experiences";
+												value: number | Experience;
+										  } | null)
+										| ({
+												relationTo: "trade-fairs";
+												value: number | TradeFair;
+										  } | null)
+										| ({
+												relationTo: "journal-entries";
+												value: number | JournalEntry;
+										  } | null);
+									href?: string | null;
+									image?: (number | null) | Media;
+									badge?: string | null;
+									title?: string | null;
+									description?: string | null;
+									meta?: string | null;
+									value?: string | null;
+									cities?:
+										| {
+												name?: string | null;
+												id?: string | null;
+										  }[]
+										| null;
+									featured?: boolean | null;
+									ctaHref?: string | null;
+									ctaLabel?: string | null;
+									stand?: string | null;
+									country?: string | null;
+									participants?: string | null;
+									step?: string | null;
+									icon?: string | null;
+									className?: string | null;
+									id?: string | null;
+							  }[]
+							| null;
+						id?: string | null;
+						blockName?: string | null;
+						blockType: "overviewStats";
+				  }
+				| {
+						eyebrow?: string | null;
+						title: string;
+						description?: string | null;
+						gridClassName?: string | null;
+						actions?:
+							| {
+									type: "mailto" | "link" | "tel";
+									variant?:
+										| (
+												| "default"
+												| "destructive"
+												| "outline"
+												| "secondary"
+												| "ghost"
+												| "link"
+										  )
+										| null;
+									title: string;
+									href?: string | null;
+									email?: string | null;
+									phone?: string | null;
+									target?: ("_self" | "_blank") | null;
+									id?: string | null;
+							  }[]
+							| null;
+						cards?:
+							| {
+									type:
+										| "country"
+										| "destinationInsight"
+										| "routeIdea"
+										| "experience"
+										| "tradeFair"
+										| "journal"
+										| "overviewStat"
+										| "servicesBusiness"
+										| "servicesDirection"
+										| "servicesProcess"
+										| "tripFormat";
+									relatedDoc?:
+										| ({
+												relationTo: "routes";
+												value: number | Route;
+										  } | null)
+										| ({
+												relationTo: "experiences";
+												value: number | Experience;
+										  } | null)
+										| ({
+												relationTo: "trade-fairs";
+												value: number | TradeFair;
+										  } | null)
+										| ({
+												relationTo: "journal-entries";
+												value: number | JournalEntry;
+										  } | null);
+									href?: string | null;
+									image?: (number | null) | Media;
+									badge?: string | null;
+									title?: string | null;
+									description?: string | null;
+									meta?: string | null;
+									value?: string | null;
+									cities?:
+										| {
+												name?: string | null;
+												id?: string | null;
+										  }[]
+										| null;
+									featured?: boolean | null;
+									ctaHref?: string | null;
+									ctaLabel?: string | null;
+									stand?: string | null;
+									country?: string | null;
+									participants?: string | null;
+									step?: string | null;
+									icon?: string | null;
+									className?: string | null;
+									id?: string | null;
+							  }[]
+							| null;
+						id?: string | null;
+						blockName?: string | null;
+						blockType: "regular";
+				  }
+				| {
+						eyebrow?: string | null;
+						title?: string | null;
+						description?: string | null;
+						mapCenter?: {
+							latitude?: number | null;
+							longitude?: number | null;
+						};
+						zoom?: number | null;
+						id?: string | null;
+						blockName?: string | null;
+						blockType: "routeMap";
+				  }
+				| {
+						image?: (number | null) | Media;
+						eyebrow?: string | null;
+						title?: string | null;
+						description?: string | null;
+						actions?:
+							| {
+									type: "mailto" | "link" | "tel";
+									variant?:
+										| (
+												| "default"
+												| "destructive"
+												| "outline"
+												| "secondary"
+												| "ghost"
+												| "link"
+										  )
+										| null;
+									title: string;
+									href?: string | null;
+									email?: string | null;
+									phone?: string | null;
+									target?: ("_self" | "_blank") | null;
+									id?: string | null;
+							  }[]
+							| null;
+						id?: string | null;
+						blockName?: string | null;
+						blockType: "cta";
+				  }
+		  )[]
+		| null;
+	updatedAt?: string | null;
+	createdAt?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "site-settings".
  */
 export interface SiteSetting {
@@ -5735,6 +5990,179 @@ export interface Footer {
  * via the `definition` "homepage_select".
  */
 export interface HomepageSelect<T extends boolean = true> {
+	seo?:
+		| T
+		| {
+				metaTitle?: T;
+				metaDescription?: T;
+				canonicalOverride?: T;
+				ogTitle?: T;
+				ogDescription?: T;
+				ogImage?: T;
+				robotsNoindex?: T;
+				structuredDataType?: T;
+		  };
+	blocks?:
+		| T
+		| {
+				hero?:
+					| T
+					| {
+							image?: T;
+							imageAlt?: T;
+							title?: T;
+							description?: T;
+							note?: T;
+							actions?:
+								| T
+								| {
+										type?: T;
+										variant?: T;
+										title?: T;
+										href?: T;
+										email?: T;
+										phone?: T;
+										target?: T;
+										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+				overviewStats?:
+					| T
+					| {
+							cards?:
+								| T
+								| {
+										type?: T;
+										relatedDoc?: T;
+										href?: T;
+										image?: T;
+										badge?: T;
+										title?: T;
+										description?: T;
+										meta?: T;
+										value?: T;
+										cities?:
+											| T
+											| {
+													name?: T;
+													id?: T;
+											  };
+										featured?: T;
+										ctaHref?: T;
+										ctaLabel?: T;
+										stand?: T;
+										country?: T;
+										participants?: T;
+										step?: T;
+										icon?: T;
+										className?: T;
+										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+				regular?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							gridClassName?: T;
+							actions?:
+								| T
+								| {
+										type?: T;
+										variant?: T;
+										title?: T;
+										href?: T;
+										email?: T;
+										phone?: T;
+										target?: T;
+										id?: T;
+								  };
+							cards?:
+								| T
+								| {
+										type?: T;
+										relatedDoc?: T;
+										href?: T;
+										image?: T;
+										badge?: T;
+										title?: T;
+										description?: T;
+										meta?: T;
+										value?: T;
+										cities?:
+											| T
+											| {
+													name?: T;
+													id?: T;
+											  };
+										featured?: T;
+										ctaHref?: T;
+										ctaLabel?: T;
+										stand?: T;
+										country?: T;
+										participants?: T;
+										step?: T;
+										icon?: T;
+										className?: T;
+										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+				routeMap?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							mapCenter?:
+								| T
+								| {
+										latitude?: T;
+										longitude?: T;
+								  };
+							zoom?: T;
+							id?: T;
+							blockName?: T;
+					  };
+				cta?:
+					| T
+					| {
+							image?: T;
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							actions?:
+								| T
+								| {
+										type?: T;
+										variant?: T;
+										title?: T;
+										href?: T;
+										email?: T;
+										phone?: T;
+										target?: T;
+										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+		  };
+	updatedAt?: T;
+	createdAt?: T;
+	globalType?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "destination_select".
+ */
+export interface DestinationSelect<T extends boolean = true> {
+	slug?: T;
 	seo?:
 		| T
 		| {

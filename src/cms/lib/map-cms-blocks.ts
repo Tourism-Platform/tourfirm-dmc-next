@@ -8,13 +8,19 @@ import { CardType, type TCardRenderProps } from "@/shared/ui/cards";
 import { resolveMediaUrl } from "./resolve-media-url";
 import type { Homepage, Media } from "@/payload-types";
 
-type THomepageBlock = NonNullable<Homepage["blocks"]>[number];
+type TCmsPageBlock = NonNullable<Homepage["blocks"]>[number];
 type TCmsCard = NonNullable<
-	Extract<THomepageBlock, { blockType: "regular" }>["cards"]
+	Extract<TCmsPageBlock, { blockType: "regular" }>["cards"]
 >[number];
 type TCmsAction = NonNullable<
-	Extract<THomepageBlock, { blockType: "hero" }>["actions"]
+	Extract<TCmsPageBlock, { blockType: "hero" }>["actions"]
 >[number];
+
+const ROUTE_MAP_TILE_URL =
+	"https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png";
+
+const ROUTE_MAP_TILE_ATTRIBUTION =
+	'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>';
 
 function mapCmsAction(action: TCmsAction): TButtonRenderProps {
 	if (action.type === "mailto") {
@@ -76,7 +82,7 @@ function mapCmsCard(card: TCmsCard, index: number): TCardRenderProps {
 	};
 }
 
-function mapCmsBlock(block: THomepageBlock): TBlockRenderProps | null {
+function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 	switch (block.blockType) {
 		case "hero":
 			return {
@@ -120,14 +126,40 @@ function mapCmsBlock(block: THomepageBlock): TBlockRenderProps | null {
 				actions: block.actions?.map(mapCmsAction)
 			};
 
+		case "routeMap": {
+			const latitude = block.mapCenter?.latitude;
+			const longitude = block.mapCenter?.longitude;
+
+			return {
+				blockType: BlockType.routeMap,
+				eyebrow: block.eyebrow ?? undefined,
+				title: block.title ?? "",
+				description: block.description ?? undefined,
+				center:
+					latitude != null && longitude != null
+						? [latitude, longitude]
+						: [41.2, 68.5],
+				zoom: block.zoom ?? 6,
+				minZoom: 4,
+				maxZoom: 8,
+				tileUrl: ROUTE_MAP_TILE_URL,
+				tileAttribution: ROUTE_MAP_TILE_ATTRIBUTION,
+				stops: []
+			};
+		}
+
 		default:
 			return null;
 	}
 }
 
 export function mapCmsBlocks(
-	blocks: NonNullable<Homepage["blocks"]>
+	blocks: TCmsPageBlock[] | null | undefined
 ): TBlockRenderProps[] {
+	if (!blocks?.length) {
+		return [];
+	}
+
 	return blocks
 		.map(mapCmsBlock)
 		.filter((block): block is TBlockRenderProps => block !== null);

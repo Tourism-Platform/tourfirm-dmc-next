@@ -5,6 +5,6 @@ type TProps = {
 	sections: TBlockRenderProps[];
 };
 
-export function Destinations({ sections }: TProps) {
+export function Cms({ sections }: TProps) {
 	return <BlocksLayout sections={sections} />;
 }

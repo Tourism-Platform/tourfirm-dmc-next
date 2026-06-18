@@ -345,6 +345,18 @@ Access: публичное чтение только `published`.
 
 Drafts/Versions: ✗
 
+### `destination`
+
+| Поле | Тип | Локализация |
+|---|---|---|
+| `slug` | text | ✓ |
+| `seo` | group | ✓ |
+| `blocks` | blocks[] | ✓ |
+
+Публичный URL: `/{locale}/{slug}` — резолвится через `resolveCmsRoute` в [`src/app/[locale]/[slug]/page.tsx`](src/app/[locale]/[slug]/page.tsx). Slug не должен совпадать с [`RESERVED_PATH_SEGMENTS`](src/shared/config/routes/reserved-path-segments.ts).
+
+Drafts/Versions: ✗
+
 ### `site-settings`
 
 | Группа | Поле | Тип | Локализация |
@@ -441,7 +453,7 @@ localization: {
 |---|---|
 | `countries`, `regions`, `cities`, `attractions`, `routes`, `experiences`, `themes`, `journal-entries`, `trade-fairs`, `pages` | ✓ |
 | `map-points`, `media`, `badges`, `users` | ✗ |
-| Globals (`homepage`, `site-settings`, `header`, `footer`) | ✗ |
+| Globals (`homepage`, `destination`, `site-settings`, `header`, `footer`) | ✗ |
 
 ---
 

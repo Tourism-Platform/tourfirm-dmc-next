@@ -1,0 +1,304 @@
+# Seed: global destination (Payload CMS)
+# Локали: en, ru, uz
+# countrySlug / routeIdea.countrySlug — href из БД при seed: /{destinationSlug}/{countrySlug}
+
+slug:
+  en: destinations
+  ru: destinations
+  uz: destinations
+
+seo:
+  metaTitle:
+    en: Destinations | TourLink
+    ru: Направления | TourLink
+    uz: Yo'nalishlar | TourLink
+  metaDescription:
+    en: Explore Central Asia country by country — Uzbekistan, Kazakhstan, Kyrgyzstan, Tajikistan, and Turkmenistan. Route ideas and planning tips from TourLink DMC.
+    ru: Центральная Азия страна за страной — Узбекистан, Казахстан, Кыргызстан, Таджикистан и Туркменистан. Идеи маршрутов и советы по планированию от DMC TourLink.
+    uz: Markaziy Osiyoni mamlakatma-mamlakat kashf eting — O'zbekiston, Qozog'iston, Qirg'iziston, Tojikiston va Turkmaniston. TourLink DMC dan marshrut g'oyalari va rejalashtirish maslahatlari.
+
+blocks:
+  - blockType: hero
+    image: assets/images/hero-image.jpg
+    imageAlt:
+      en: Central Asia, country by country
+      ru: Центральная Азия, страна за страной
+      uz: Markaziy Osiyo, mamlakatma-mamlakat
+    title:
+      en: Central Asia, country by country
+      ru: Центральная Азия, страна за страной
+      uz: Markaziy Osiyo, mamlakatma-mamlakat
+    description:
+      en: Uzbekistan, Kazakhstan, Kyrgyzstan, Tajikistan, and Turkmenistan are close on the map. But a good trip still needs the right order.
+      ru: Узбекистан, Казахстан, Кыргызстан, Таджикистан и Туркменистан близки на карте. Но хорошей поездке всё равно нужен правильный порядок.
+      uz: O'zbekiston, Qozog'iston, Qirg'iziston, Tojikiston va Turkmaniston xaritada yaqin. Lekin yaxshi sayohat baribir to'g'ri tartibni talab qiladi.
+    note:
+      en: TourLink is based in Uzbekistan and plans trips across all five countries when route, season, borders, and pace allow a coherent line.
+      ru: TourLink базируется в Узбекистане и планирует поездки по пяти странам, когда маршрут, сезон, границы и темп позволяют собрать их в цельную линию.
+      uz: TourLink O'zbekistonda joylashgan va marshrut, mavsum, chegaralar va ritm yagona chiziqni yig'ishga imkon bersa, beshta mamlakat bo'ylab sayohatlarni rejalashtiradi.
+    actions:
+      - type: link
+        variant: secondary
+        title:
+          en: Browse countries
+          ru: Смотреть страны
+          uz: Mamlakatlarni ko'rish
+        href: "#countries"
+      - type: link
+        variant: default
+        title:
+          en: Start with Uzbekistan
+          ru: Начать с Узбекистана
+          uz: O'zbekistondan boshlash
+        href: uzbekistan
+
+  - blockType: regular
+    eyebrow:
+      en: Countries
+      ru: Страны
+      uz: Mamlakatlar
+    title:
+      en: Five countries, one connected region
+      ru: Пять стран, один связанный регион
+      uz: Beshta mamlakat, bitta bog'langan mintaqa
+    description:
+      en: Start with one country and expand the route only when the trip truly needs a wider Central Asian arc.
+      ru: Начните с одной страны и расширяйте маршрут только тогда, когда поездке действительно нужен более широкий контур Центральной Азии.
+      uz: Bitta mamlakatdan boshlang va marshrutni faqat sayohat haqiqatan ham kengroq Markaziy Osiyo konturiga muhtoj bo'lganda kengaytiring.
+    gridClassName: sm:grid-cols-2 sm:gap-5 lg:gap-6
+    cards:
+      - type: country
+        countrySlug: uzbekistan
+        featured: true
+      - type: country
+        countrySlug: kazakhstan
+      - type: country
+        countrySlug: kyrgyzstan
+      - type: country
+        countrySlug: tajikistan
+      - type: country
+        countrySlug: turkmenistan
+
+  - blockType: regular
+    eyebrow:
+      en: How to choose
+      ru: Как выбирать
+      uz: Qanday tanlash
+    title:
+      en: The map is wide. The route should be clear.
+      ru: Карта широкая. Маршрут должен быть ясным.
+      uz: Xarita keng. Marshrut aniq bo'lishi kerak.
+    description:
+      en: TourLink sees Central Asia as one connected region, but not every trip needs all five countries. A strong route has a center, a reason to expand, and enough breathing room between places.
+      ru: TourLink смотрит на Центральную Азию как на связанный регион, но не каждой поездке нужны все пять стран. Сильный маршрут имеет центр, понятную причину расширяться и достаточно воздуха между местами.
+      uz: TourLink Markaziy Osiyoni bog'langan mintaqa sifatida ko'radi, lekin har bir sayohatga beshta mamlakat kerak emas. Kuchli marshrut markazga, kengayish sababiga va joylar orasidagi nafasga ega.
+    gridClassName: sm:grid-cols-2 lg:grid-cols-3
+    cards:
+      - type: destinationInsight
+        icon: Target
+        title:
+          en: Start from the center
+          ru: Начать с центра
+          uz: Markazdan boshlash
+        description:
+          en: Pick one main country first. That gives the trip a center, not just a list of border crossings.
+          ru: Сначала выберите главную страну. Так у поездки появляется центр, а не просто список пересечений границы.
+          uz: Avvalo asosiy mamlakatni tanlang. Shunda sayohat markazga ega bo'ladi, chegaradan o'tishlar ro'yxatiga aylanmaydi.
+      - type: destinationInsight
+        icon: GitBranch
+        title:
+          en: Expand with purpose
+          ru: Расширять только по смыслу
+          uz: Faqat ma'noga ko'ra kengaytirish
+        description:
+          en: Add neighboring countries when they strengthen the story, landscape, or season.
+          ru: Добавляйте соседние страны, когда они усиливают историю, ландшафт или сезон.
+          uz: Qo'shni mamlakatlarni qo'shing, ular hikoya, landshaft yoki mavsumni kuchaytirganda.
+      - type: destinationInsight
+        icon: Gauge
+        title:
+          en: Keep the pace
+          ru: Сохранить темп
+          uz: Ritmni saqlash
+        description:
+          en: Transfers, borders, and rest nights are visible from the start so the trip keeps air between places.
+          ru: Переезды, границы и ночи для отдыха видны с самого начала, чтобы у поездки оставался воздух между местами.
+          uz: Ko'chishlar, chegaralar va dam olish kechalari dastlab ko'rinadi, shunda joylar orasida havo qoladi.
+
+  - blockType: routeMap
+    eyebrow:
+      en: Route map demo
+      ru: Демо-карта маршрута
+      uz: Marshrut xaritasi demo
+    title:
+      en: An example line across the region
+      ru: Пример линии через регион
+      uz: Mintaqa bo'ylab chiziq namunasi
+    description:
+      en: The line shows how a multi-country route fits on one Central Asian map. It is a guide, not a ready-made tour program.
+      ru: Линия показывает, как маршрут по нескольким странам ложится на единую карту Центральной Азии. Это ориентир, а не готовая турпрограмма.
+      uz: Chiziq bir nechta mamlakat bo'ylab marshrut qanday yotishini ko'rsatadi. Bu yo'l-yo'riq, tayyor tur dasturi emas.
+    mapCenter:
+      latitude: 41.2
+      longitude: 68.5
+    zoom: 6
+
+  - blockType: regular
+    eyebrow:
+      en: Route ideas
+      ru: Идеи маршрутов
+      uz: Marshrut g'oyalari
+    title:
+      en: How a trip might come together
+      ru: Как может сложиться поездка
+      uz: Sayohat qanday shakllanishi mumkin
+    description:
+      en: This is a first draft. The real program is built around dates, access, and pace.
+      ru: Это первый набросок маршрута. Настоящая программа собирается вокруг дат, доступа и темпа.
+      uz: Bu birinchi qoralama. Haqiqiy dastur sanalar, kirish va ritm atrofida yig'iladi.
+    cards:
+      - type: routeIdea
+        countrySlug: uzbekistan
+        image: assets/images/destinations/uzbekistan.jpg
+        badge:
+          en: First introduction
+          ru: Первое знакомство
+          uz: Birinchi tanishuv
+        meta:
+          en: 8-10 days · Uzbekistan
+          ru: 8-10 дней · Узбекистан
+          uz: 8-10 kun · O'zbekiston
+        title:
+          en: First route through Uzbekistan
+          ru: Первый маршрут по Узбекистану
+          uz: O'zbekiston bo'ylab birinchi marshrut
+        description:
+          en: Start in Tashkent, link Silk Road cities, and add a mountain or desert pause only if the pace allows.
+          ru: Начните в Ташкенте, свяжите города Шёлкового пути и добавьте горную или пустынную паузу только если темп позволяет.
+          uz: Toshkentdan boshlang, Buyo'ldoq yo'li shaharlari bilan bog'lang va ritm ruxsat bersa tog' yoki cho'l tanaffusini qo'shing.
+        ctaLabel:
+          en: Plan a trip
+          ru: Спланировать поездку
+          uz: Sayohatni rejalashtirish
+      - type: routeIdea
+        countrySlug: kyrgyzstan
+        image: assets/images/destinations/kirgizstan.jpg
+        badge:
+          en: Two countries
+          ru: Две страны
+          uz: Ikki mamlakat
+        meta:
+          en: 10-14 days · Cities + mountains
+          ru: 10-14 дней · Города + горы
+          uz: 10-14 kun · Shaharlar + tog'lar
+        title:
+          en: Silk Road cities and mountain roads
+          ru: Города Шёлкового пути и горные дороги
+          uz: Buyo'ldoq yo'li shaharlari va tog' yo'llari
+        description:
+          en: Connect Uzbekistan with Kyrgyzstan when an urban route needs mountain air and a softer active rhythm.
+          ru: Соедините Узбекистан с Кыргызстаном, когда городскому маршруту нужен горный воздух и более мягкий активный ритм.
+          uz: Shahar marshruti tog' havo va yumshoqroq faol ritm talab qilganda O'zbekistonni Qirg'iziston bilan bog'lang.
+        ctaLabel:
+          en: Plan a trip
+          ru: Спланировать поездку
+          uz: Sayohatni rejalashtirish
+      - type: routeIdea
+        countrySlug: tajikistan
+        image: assets/images/destinations/tadjikistan.jpg
+        badge:
+          en: Regional line
+          ru: Региональная линия
+          uz: Mintaqaviy chiziq
+        meta:
+          en: On request · Several countries
+          ru: Под запрос · Несколько стран
+          uz: So'rov bo'yicha · Bir nechta mamlakat
+        title:
+          en: A wider Central Asia route
+          ru: Более широкий маршрут по Центральной Азии
+          uz: Kengroq Markaziy Osiyo marshruti
+        description:
+          en: Kazakhstan, Tajikistan, or Turkmenistan add a wider cultural, mountain, or desert arc when the trip has room for it.
+          ru: Казахстан, Таджикистан или Туркменистан добавляют более широкий культурный, горный или пустынный контур, когда у поездки есть для этого место.
+          uz: Qozog'iston, Tojikiston yoki Turkmaniston sayohatda joy bo'lganda kengroq madaniy, tog' yoki cho'l konturini qo'shadi.
+        ctaLabel:
+          en: Plan a trip
+          ru: Спланировать поездку
+          uz: Sayohatni rejalashtirish
+
+  - blockType: regular
+    eyebrow:
+      en: Before the final route
+      ru: До финального маршрута
+      uz: Yakuniy marshrutgacha
+    title:
+      en: What TourLink checks in advance
+      ru: Что TourLink проверяет заранее
+      uz: TourLink oldindan nimalarni tekshiradi
+    description:
+      en: The route feels calmer when these decisions are made before hotels and detailed scheduling.
+      ru: Маршрут становится спокойнее, когда эти решения приняты до отелей и детального расписания.
+      uz: Bu qarorlar mehmonxonalar va batafsil jadvaldan oldin qabul qilinganda marshrut xotirjamroq bo'ladi.
+    gridClassName: sm:grid-cols-2 lg:grid-cols-3
+    cards:
+      - type: destinationInsight
+        icon: Shield
+        title:
+          en: Borders and permits
+          ru: Границы и разрешения
+          uz: Chegaralar va ruxsatlar
+        description:
+          en: Some routes stay within one country easily; others need borders, permits, or a cleaner order.
+          ru: Одни маршруты легко проходят внутри страны, другим нужны границы, разрешения или более чистый порядок.
+          uz: Ba'zi marshrutlar mamlakat ichida oson, boshqalariga chegaralar, ruxsatlar yoki toza tartib kerak.
+      - type: destinationInsight
+        icon: CalendarDays
+        title:
+          en: Season and comfort
+          ru: Сезон и комфорт
+          uz: Mavsum va qulaylik
+        description:
+          en: Mountains, deserts, and city walks work differently in spring, summer, autumn, and winter.
+          ru: Горы, пустыни и городские прогулки по-разному работают весной, летом, осенью и зимой.
+          uz: Tog'lar, cho'llar va shahar sayrilar bahor, yoz, kuz va qishda turlicha ishlaydi.
+      - type: destinationInsight
+        icon: Route
+        title:
+          en: Distances and rhythm
+          ru: Расстояния и ритм
+          uz: Masofalar va ritm
+        description:
+          en: Flights, trains, road days, and buffer nights are chosen before the program becomes detailed.
+          ru: Перелёты, поезда, дорожные дни и запасные ночи выбираются до того, как программа становится подробной.
+          uz: Parvozlar, poezdlar, yo'l kunlari va zaxira kechalar dastur batafsil bo'lishidan oldin tanlanadi.
+
+  - blockType: cta
+    image: assets/images/samarkand.jpg
+    eyebrow:
+      en: Start with a conversation
+      ru: Начните с разговора
+      uz: Suhbatdan boshlang
+    title:
+      en: Want to build the right route across Central Asia?
+      ru: Хотите собрать правильный маршрут по Центральной Азии?
+      uz: Markaziy Osiyo bo'ylab to'g'ri marshrut yig'moqchimisiz?
+    description:
+      en: Share dates, pace, and your first country. We will suggest a route that keeps the region connected without overloading the trip.
+      ru: Расскажите даты, темп и первую страну. Мы предложим маршрут, который сохраняет связь региона, но не перегружает поездку.
+      uz: Sanalar, ritm va birinchi mamlakatni ayting. Mintaqa bog'liqligini saqlab, sayohatni ortiqcha yuklamaydigan marshrut taklif qilamiz.
+    actions:
+      - type: mailto
+        variant: default
+        title:
+          en: Plan a trip
+          ru: Спланировать поездку
+          uz: Sayohatni rejalashtirish
+        email: info@tourlink.uz
+      - type: link
+        variant: outline
+        title:
+          en: Start with Uzbekistan
+          ru: Начать с Узбекистана
+          uz: O'zbekistondan boshlash
+        href: uzbekistan
