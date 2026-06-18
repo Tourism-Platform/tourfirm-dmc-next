@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 
 import { ENV } from "@/shared/config";
 
-const OG_IMAGE = "/assets/images/og/main.png";
-const FAVICON = "/assets/images/logo.svg";
+export const OG_IMAGE = "/assets/images/og/main.png";
+export const FAVICON = "/assets/images/logo.svg";
 
 type TCreatePageMetadataParams = {
 	title: string;
@@ -12,7 +12,7 @@ type TCreatePageMetadataParams = {
 	path?: string;
 };
 
-function buildPageUrl(locale: string, path = "/"): string {
+export function buildPageUrl(locale: string, path = "/"): string {
 	const normalizedPath = path === "/" ? "" : path;
 
 	return `${ENV.SITE_URL}/${locale}${normalizedPath}`;

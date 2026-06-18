@@ -1,5 +1,11 @@
+import type { TBlockRenderProps } from "@/shared/ui/blocks";
+
 import { Main } from "@/widgets/main";
 
-export function MainPage() {
-	return <Main />;
+type TProps = {
+	sections: TBlockRenderProps[];
+};
+
+export function MainPage({ sections }: TProps) {
+	return <Main sections={sections} />;
 }
