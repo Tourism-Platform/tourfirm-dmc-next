@@ -15,7 +15,7 @@ export const questionFields: Field[] = [
 	},
 	{
 		name: "description",
-		type: "textarea",
+		type: "richText",
 		required: true,
 		localized: true
 	}

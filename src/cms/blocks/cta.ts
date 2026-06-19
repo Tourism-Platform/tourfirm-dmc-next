@@ -22,7 +22,7 @@ export const Cta: Block = {
 		},
 		{
 			name: "description",
-			type: "textarea",
+			type: "richText",
 			localized: true
 		},
 		{

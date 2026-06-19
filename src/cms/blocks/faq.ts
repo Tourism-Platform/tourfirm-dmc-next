@@ -19,7 +19,7 @@ export const Faq: Block = {
 		},
 		{
 			name: "description",
-			type: "textarea",
+			type: "richText",
 			localized: true
 		},
 		{

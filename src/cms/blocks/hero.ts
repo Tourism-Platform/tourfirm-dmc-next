@@ -24,7 +24,7 @@ export const Hero: Block = {
 		},
 		{
 			name: "description",
-			type: "textarea",
+			type: "richText",
 			localized: true
 		},
 		{

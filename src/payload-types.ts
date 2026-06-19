@@ -267,7 +267,28 @@ export interface Theme {
 				image: number | Media;
 				imageAlt?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				note?: string | null;
 				actions?:
 					| {
@@ -330,7 +351,28 @@ export interface Theme {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -358,7 +400,28 @@ export interface Theme {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				gridClassName?: string | null;
 				actions?:
 					| {
@@ -416,7 +479,28 @@ export interface Theme {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -444,7 +528,28 @@ export interface Theme {
 		| {
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				mapCenter?: {
 					latitude?: number | null;
 					longitude?: number | null;
@@ -484,12 +589,54 @@ export interface Theme {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				questions?:
 					| {
 							icon: string;
 							title: string;
-							description: string;
+							description: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							};
 							id?: string | null;
 					  }[]
 					| null;
@@ -501,7 +648,28 @@ export interface Theme {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel";
@@ -611,7 +779,28 @@ export interface Route {
 				image: number | Media;
 				imageAlt?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				note?: string | null;
 				actions?:
 					| {
@@ -674,7 +863,28 @@ export interface Route {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -702,7 +912,28 @@ export interface Route {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				gridClassName?: string | null;
 				actions?:
 					| {
@@ -760,7 +991,28 @@ export interface Route {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -788,7 +1040,28 @@ export interface Route {
 		| {
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				mapCenter?: {
 					latitude?: number | null;
 					longitude?: number | null;
@@ -828,12 +1101,54 @@ export interface Route {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				questions?:
 					| {
 							icon: string;
 							title: string;
-							description: string;
+							description: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							};
 							id?: string | null;
 					  }[]
 					| null;
@@ -845,7 +1160,28 @@ export interface Route {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel";
@@ -949,7 +1285,28 @@ export interface Country {
 				image: number | Media;
 				imageAlt?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				note?: string | null;
 				actions?:
 					| {
@@ -1012,7 +1369,28 @@ export interface Country {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -1040,7 +1418,28 @@ export interface Country {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				gridClassName?: string | null;
 				actions?:
 					| {
@@ -1098,7 +1497,28 @@ export interface Country {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -1126,7 +1546,28 @@ export interface Country {
 		| {
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				mapCenter?: {
 					latitude?: number | null;
 					longitude?: number | null;
@@ -1166,12 +1607,54 @@ export interface Country {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				questions?:
 					| {
 							icon: string;
 							title: string;
-							description: string;
+							description: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							};
 							id?: string | null;
 					  }[]
 					| null;
@@ -1183,7 +1666,28 @@ export interface Country {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel";
@@ -1314,7 +1818,28 @@ export interface Experience {
 				image: number | Media;
 				imageAlt?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				note?: string | null;
 				actions?:
 					| {
@@ -1377,7 +1902,28 @@ export interface Experience {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -1405,7 +1951,28 @@ export interface Experience {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				gridClassName?: string | null;
 				actions?:
 					| {
@@ -1463,7 +2030,28 @@ export interface Experience {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -1491,7 +2079,28 @@ export interface Experience {
 		| {
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				mapCenter?: {
 					latitude?: number | null;
 					longitude?: number | null;
@@ -1531,12 +2140,54 @@ export interface Experience {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				questions?:
 					| {
 							icon: string;
 							title: string;
-							description: string;
+							description: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							};
 							id?: string | null;
 					  }[]
 					| null;
@@ -1548,7 +2199,28 @@ export interface Experience {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel";
@@ -1653,7 +2325,28 @@ export interface Region {
 				image: number | Media;
 				imageAlt?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				note?: string | null;
 				actions?:
 					| {
@@ -1716,7 +2409,28 @@ export interface Region {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -1744,7 +2458,28 @@ export interface Region {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				gridClassName?: string | null;
 				actions?:
 					| {
@@ -1802,7 +2537,28 @@ export interface Region {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -1830,7 +2586,28 @@ export interface Region {
 		| {
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				mapCenter?: {
 					latitude?: number | null;
 					longitude?: number | null;
@@ -1870,12 +2647,54 @@ export interface Region {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				questions?:
 					| {
 							icon: string;
 							title: string;
-							description: string;
+							description: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							};
 							id?: string | null;
 					  }[]
 					| null;
@@ -1887,7 +2706,28 @@ export interface Region {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel";
@@ -1991,7 +2831,28 @@ export interface TradeFair {
 				image: number | Media;
 				imageAlt?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				note?: string | null;
 				actions?:
 					| {
@@ -2054,7 +2915,28 @@ export interface TradeFair {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -2082,7 +2964,28 @@ export interface TradeFair {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				gridClassName?: string | null;
 				actions?:
 					| {
@@ -2140,7 +3043,28 @@ export interface TradeFair {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -2168,7 +3092,28 @@ export interface TradeFair {
 		| {
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				mapCenter?: {
 					latitude?: number | null;
 					longitude?: number | null;
@@ -2208,12 +3153,54 @@ export interface TradeFair {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				questions?:
 					| {
 							icon: string;
 							title: string;
-							description: string;
+							description: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							};
 							id?: string | null;
 					  }[]
 					| null;
@@ -2225,7 +3212,28 @@ export interface TradeFair {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel";
@@ -2324,7 +3332,28 @@ export interface City {
 				image: number | Media;
 				imageAlt?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				note?: string | null;
 				actions?:
 					| {
@@ -2387,7 +3416,28 @@ export interface City {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -2415,7 +3465,28 @@ export interface City {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				gridClassName?: string | null;
 				actions?:
 					| {
@@ -2473,7 +3544,28 @@ export interface City {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -2501,7 +3593,28 @@ export interface City {
 		| {
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				mapCenter?: {
 					latitude?: number | null;
 					longitude?: number | null;
@@ -2541,12 +3654,54 @@ export interface City {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				questions?:
 					| {
 							icon: string;
 							title: string;
-							description: string;
+							description: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							};
 							id?: string | null;
 					  }[]
 					| null;
@@ -2558,7 +3713,28 @@ export interface City {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel";
@@ -2676,7 +3852,28 @@ export interface JournalEntry {
 				image: number | Media;
 				imageAlt?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				note?: string | null;
 				actions?:
 					| {
@@ -2739,7 +3936,28 @@ export interface JournalEntry {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -2767,7 +3985,28 @@ export interface JournalEntry {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				gridClassName?: string | null;
 				actions?:
 					| {
@@ -2825,7 +4064,28 @@ export interface JournalEntry {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -2853,7 +4113,28 @@ export interface JournalEntry {
 		| {
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				mapCenter?: {
 					latitude?: number | null;
 					longitude?: number | null;
@@ -2893,12 +4174,54 @@ export interface JournalEntry {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				questions?:
 					| {
 							icon: string;
 							title: string;
-							description: string;
+							description: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							};
 							id?: string | null;
 					  }[]
 					| null;
@@ -2910,7 +4233,28 @@ export interface JournalEntry {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel";
@@ -3034,7 +4378,28 @@ export interface Attraction {
 				image: number | Media;
 				imageAlt?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				note?: string | null;
 				actions?:
 					| {
@@ -3097,7 +4462,28 @@ export interface Attraction {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -3125,7 +4511,28 @@ export interface Attraction {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				gridClassName?: string | null;
 				actions?:
 					| {
@@ -3183,7 +4590,28 @@ export interface Attraction {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -3211,7 +4639,28 @@ export interface Attraction {
 		| {
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				mapCenter?: {
 					latitude?: number | null;
 					longitude?: number | null;
@@ -3251,12 +4700,54 @@ export interface Attraction {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				questions?:
 					| {
 							icon: string;
 							title: string;
-							description: string;
+							description: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							};
 							id?: string | null;
 					  }[]
 					| null;
@@ -3268,7 +4759,28 @@ export interface Attraction {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel";
@@ -3387,7 +4899,28 @@ export interface Page {
 				image: number | Media;
 				imageAlt?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				note?: string | null;
 				actions?:
 					| {
@@ -3450,7 +4983,28 @@ export interface Page {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -3478,7 +5032,28 @@ export interface Page {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				gridClassName?: string | null;
 				actions?:
 					| {
@@ -3536,7 +5111,28 @@ export interface Page {
 							image?: (number | null) | Media;
 							badge?: string | null;
 							title?: string | null;
-							description?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
 							meta?: string | null;
 							value?: string | null;
 							cities?:
@@ -3564,7 +5160,28 @@ export interface Page {
 		| {
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				mapCenter?: {
 					latitude?: number | null;
 					longitude?: number | null;
@@ -3604,12 +5221,54 @@ export interface Page {
 		| {
 				eyebrow?: string | null;
 				title: string;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				questions?:
 					| {
 							icon: string;
 							title: string;
-							description: string;
+							description: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							};
 							id?: string | null;
 					  }[]
 					| null;
@@ -3621,7 +5280,28 @@ export interface Page {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
-				description?: string | null;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel";
@@ -6091,7 +7771,28 @@ export interface Homepage {
 						image: number | Media;
 						imageAlt?: string | null;
 						title: string;
-						description?: string | null;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
 						note?: string | null;
 						actions?:
 							| {
@@ -6154,7 +7855,28 @@ export interface Homepage {
 									image?: (number | null) | Media;
 									badge?: string | null;
 									title?: string | null;
-									description?: string | null;
+									description?: {
+										root: {
+											type: string;
+											children: {
+												type: any;
+												version: number;
+												[k: string]: unknown;
+											}[];
+											direction: ("ltr" | "rtl") | null;
+											format:
+												| "left"
+												| "start"
+												| "center"
+												| "right"
+												| "end"
+												| "justify"
+												| "";
+											indent: number;
+											version: number;
+										};
+										[k: string]: unknown;
+									} | null;
 									meta?: string | null;
 									value?: string | null;
 									cities?:
@@ -6182,7 +7904,28 @@ export interface Homepage {
 				| {
 						eyebrow?: string | null;
 						title: string;
-						description?: string | null;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
 						gridClassName?: string | null;
 						actions?:
 							| {
@@ -6240,7 +7983,28 @@ export interface Homepage {
 									image?: (number | null) | Media;
 									badge?: string | null;
 									title?: string | null;
-									description?: string | null;
+									description?: {
+										root: {
+											type: string;
+											children: {
+												type: any;
+												version: number;
+												[k: string]: unknown;
+											}[];
+											direction: ("ltr" | "rtl") | null;
+											format:
+												| "left"
+												| "start"
+												| "center"
+												| "right"
+												| "end"
+												| "justify"
+												| "";
+											indent: number;
+											version: number;
+										};
+										[k: string]: unknown;
+									} | null;
 									meta?: string | null;
 									value?: string | null;
 									cities?:
@@ -6268,7 +8032,28 @@ export interface Homepage {
 				| {
 						eyebrow?: string | null;
 						title?: string | null;
-						description?: string | null;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
 						mapCenter?: {
 							latitude?: number | null;
 							longitude?: number | null;
@@ -6308,12 +8093,54 @@ export interface Homepage {
 				| {
 						eyebrow?: string | null;
 						title: string;
-						description?: string | null;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
 						questions?:
 							| {
 									icon: string;
 									title: string;
-									description: string;
+									description: {
+										root: {
+											type: string;
+											children: {
+												type: any;
+												version: number;
+												[k: string]: unknown;
+											}[];
+											direction: ("ltr" | "rtl") | null;
+											format:
+												| "left"
+												| "start"
+												| "center"
+												| "right"
+												| "end"
+												| "justify"
+												| "";
+											indent: number;
+											version: number;
+										};
+										[k: string]: unknown;
+									};
 									id?: string | null;
 							  }[]
 							| null;
@@ -6325,7 +8152,28 @@ export interface Homepage {
 						image?: (number | null) | Media;
 						eyebrow?: string | null;
 						title?: string | null;
-						description?: string | null;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel";
@@ -6387,7 +8235,28 @@ export interface Destination {
 						image: number | Media;
 						imageAlt?: string | null;
 						title: string;
-						description?: string | null;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
 						note?: string | null;
 						actions?:
 							| {
@@ -6450,7 +8319,28 @@ export interface Destination {
 									image?: (number | null) | Media;
 									badge?: string | null;
 									title?: string | null;
-									description?: string | null;
+									description?: {
+										root: {
+											type: string;
+											children: {
+												type: any;
+												version: number;
+												[k: string]: unknown;
+											}[];
+											direction: ("ltr" | "rtl") | null;
+											format:
+												| "left"
+												| "start"
+												| "center"
+												| "right"
+												| "end"
+												| "justify"
+												| "";
+											indent: number;
+											version: number;
+										};
+										[k: string]: unknown;
+									} | null;
 									meta?: string | null;
 									value?: string | null;
 									cities?:
@@ -6478,7 +8368,28 @@ export interface Destination {
 				| {
 						eyebrow?: string | null;
 						title: string;
-						description?: string | null;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
 						gridClassName?: string | null;
 						actions?:
 							| {
@@ -6536,7 +8447,28 @@ export interface Destination {
 									image?: (number | null) | Media;
 									badge?: string | null;
 									title?: string | null;
-									description?: string | null;
+									description?: {
+										root: {
+											type: string;
+											children: {
+												type: any;
+												version: number;
+												[k: string]: unknown;
+											}[];
+											direction: ("ltr" | "rtl") | null;
+											format:
+												| "left"
+												| "start"
+												| "center"
+												| "right"
+												| "end"
+												| "justify"
+												| "";
+											indent: number;
+											version: number;
+										};
+										[k: string]: unknown;
+									} | null;
 									meta?: string | null;
 									value?: string | null;
 									cities?:
@@ -6564,7 +8496,28 @@ export interface Destination {
 				| {
 						eyebrow?: string | null;
 						title?: string | null;
-						description?: string | null;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
 						mapCenter?: {
 							latitude?: number | null;
 							longitude?: number | null;
@@ -6604,12 +8557,54 @@ export interface Destination {
 				| {
 						eyebrow?: string | null;
 						title: string;
-						description?: string | null;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
 						questions?:
 							| {
 									icon: string;
 									title: string;
-									description: string;
+									description: {
+										root: {
+											type: string;
+											children: {
+												type: any;
+												version: number;
+												[k: string]: unknown;
+											}[];
+											direction: ("ltr" | "rtl") | null;
+											format:
+												| "left"
+												| "start"
+												| "center"
+												| "right"
+												| "end"
+												| "justify"
+												| "";
+											indent: number;
+											version: number;
+										};
+										[k: string]: unknown;
+									};
 									id?: string | null;
 							  }[]
 							| null;
@@ -6621,7 +8616,28 @@ export interface Destination {
 						image?: (number | null) | Media;
 						eyebrow?: string | null;
 						title?: string | null;
-						description?: string | null;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel";

@@ -16,7 +16,7 @@ export const RouteMap: Block = {
 		},
 		{
 			name: "description",
-			type: "textarea",
+			type: "richText",
 			localized: true
 		},
 		{

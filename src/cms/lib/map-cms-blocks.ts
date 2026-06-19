@@ -1,3 +1,5 @@
+import { convertLexicalToPlaintext } from "@payloadcms/richtext-lexical/plaintext";
+
 import { BlockType, type TBlockRenderProps } from "@/shared/ui/blocks";
 import {
 	ActionType,
@@ -33,6 +35,20 @@ const ROUTE_MAP_TILE_URL =
 
 const ROUTE_MAP_TILE_ATTRIBUTION =
 	'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>';
+
+function richTextToPlain(value: unknown): string | undefined {
+	if (!value) {
+		return undefined;
+	}
+
+	if (typeof value === "string") {
+		return value;
+	}
+
+	return convertLexicalToPlaintext({
+		data: value as Parameters<typeof convertLexicalToPlaintext>[0]["data"]
+	});
+}
 
 function mapCmsAction(action: TCmsAction): TButtonRenderProps {
 	if (action.type === "mailto") {
@@ -77,7 +93,7 @@ function mapCmsCard(card: TCmsCard, index: number): TCardRenderProps {
 			),
 			badge: card.badge ?? undefined,
 			title: card.title ?? undefined,
-			description: card.description ?? undefined,
+			description: richTextToPlain(card.description),
 			meta: card.meta ?? undefined,
 			value: card.value ?? undefined,
 			cities,
@@ -166,7 +182,7 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 				imageSrc: resolveMediaUrl(block.image),
 				imageAlt: block.imageAlt ?? undefined,
 				title: block.title,
-				description: block.description ?? undefined,
+				description: richTextToPlain(block.description),
 				note: block.note ?? undefined,
 				actions: block.actions?.map(mapCmsAction)
 			};
@@ -182,7 +198,7 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 				blockType: BlockType.regular,
 				eyebrow: block.eyebrow ?? undefined,
 				title: block.title,
-				description: block.description ?? undefined,
+				description: richTextToPlain(block.description),
 				gridClassName: block.gridClassName ?? undefined,
 				actions: block.actions?.map(mapCmsAction),
 				cards: block.cards?.map(mapCmsCard) ?? []
@@ -198,7 +214,7 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 					: undefined,
 				eyebrow: block.eyebrow ?? undefined,
 				title: block.title ?? undefined,
-				description: block.description ?? undefined,
+				description: richTextToPlain(block.description),
 				actions: block.actions?.map(mapCmsAction)
 			};
 
@@ -215,7 +231,7 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 				blockType: BlockType.routeMap,
 				eyebrow: block.eyebrow ?? undefined,
 				title: block.title ?? "",
-				description: block.description ?? undefined,
+				description: richTextToPlain(block.description),
 				center:
 					latitude != null && longitude != null
 						? [latitude, longitude]
@@ -234,12 +250,12 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 				blockType: BlockType.faq,
 				eyebrow: block.eyebrow ?? undefined,
 				title: block.title,
-				description: block.description ?? undefined,
+				description: richTextToPlain(block.description),
 				questions: (block.questions ?? []).map((question, index) => ({
 					key: question.id ?? String(index),
 					icon: question.icon ?? undefined,
 					title: question.title,
-					description: question.description
+					description: richTextToPlain(question.description) ?? ""
 				}))
 			};
 

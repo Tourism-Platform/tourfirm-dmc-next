@@ -72,7 +72,7 @@ export const cardFields: Field[] = [
 	},
 	{
 		name: "description",
-		type: "textarea",
+		type: "richText",
 		localized: true,
 		admin: {
 			condition: whenType(

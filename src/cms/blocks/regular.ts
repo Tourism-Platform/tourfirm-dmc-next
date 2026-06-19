@@ -19,7 +19,7 @@ export const Regular: Block = {
 		},
 		{
 			name: "description",
-			type: "textarea",
+			type: "richText",
 			localized: true
 		},
 		{

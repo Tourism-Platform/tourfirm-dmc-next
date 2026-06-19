@@ -4,11 +4,17 @@ import { fileURLToPath } from "node:url";
 
 import "./load-env.js";
 
+import pg from "pg";
 import config from "@payload-config";
 import { getPayload, type CollectionSlug, type Payload } from "payload";
 import { parse as parseYaml } from "yaml";
 
 import type { City, Country, Region } from "@/payload-types";
+
+import {
+	normalizeRichTextDescriptions,
+	toDefaultRichText
+} from "./to-default-rich-text.js";
 
 type TRouteMapCollection = "countries" | "regions" | "cities";
 
@@ -70,14 +76,6 @@ function resolveBlockActions(
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CONTENT_DIR = path.join(ROOT, "content");
 
-const DESTINATION_FILENAMES = [
-	"uzbekistan.jpg",
-	"kazahstan.jpg",
-	"kirgizstan.jpg",
-	"tadjikistan.jpg",
-	"turkmenistan.jpg"
-] as const;
-
 function isLocalizedValue(
 	value: unknown
 ): value is Record<TLocale, unknown> {
@@ -115,70 +113,20 @@ async function readYamlFile<T>(filePath: string): Promise<T> {
 	return parseYaml(raw) as T;
 }
 
-async function dropCollection(
-	payload: Payload,
-	collection: CollectionSlug
-): Promise<number> {
-	console.log(`Dropping ${collection}...`);
-	let deleted = 0;
+async function resetDatabaseSchema(connectionString: string): Promise<void> {
+	console.log("Resetting database schema...");
 
-	while (true) {
-		const result = await payload.find({
-			collection,
-			limit: 100,
-			pagination: false,
-			depth: 0,
-			overrideAccess: true
-		});
+	const client = new pg.Client({ connectionString });
 
-		if (result.docs.length === 0) {
-			break;
-		}
-
-		for (const doc of result.docs) {
-			await payload.delete({
-				collection,
-				id: doc.id,
-				overrideAccess: true
-			});
-			deleted += 1;
-		}
+	try {
+		await client.connect();
+		await client.query("DROP SCHEMA IF EXISTS public CASCADE");
+		await client.query("CREATE SCHEMA public");
+		await client.query("GRANT ALL ON SCHEMA public TO public");
+		console.log("Database schema reset complete");
+	} finally {
+		await client.end();
 	}
-
-	console.log(`Deleted ${deleted} from ${collection}`);
-	return deleted;
-}
-
-async function dropDestinationMedia(payload: Payload): Promise<number> {
-	console.log("Dropping destination media...");
-	let deleted = 0;
-
-	for (const filename of DESTINATION_FILENAMES) {
-		const result = await payload.find({
-			collection: "media",
-			where: {
-				filename: {
-					equals: filename
-				}
-			},
-			limit: 100,
-			pagination: false,
-			depth: 0,
-			overrideAccess: true
-		});
-
-		for (const doc of result.docs) {
-			await payload.delete({
-				collection: "media",
-				id: doc.id,
-				overrideAccess: true
-			});
-			deleted += 1;
-		}
-	}
-
-	console.log(`Deleted ${deleted} destination media file(s)`);
-	return deleted;
 }
 
 async function ensureMedia(
@@ -297,7 +245,10 @@ async function resolveCountryCard(
 		image: country.heroImage,
 		badge: country.subtitle,
 		title: country.title,
-		description: country.excerpt,
+		description:
+			typeof country.excerpt === "string"
+				? toDefaultRichText(country.excerpt)
+				: country.excerpt,
 		featured: card.featured === true,
 		cities: []
 	};
@@ -419,7 +370,7 @@ async function resolvePageBlocks(
 	locale: TLocale,
 	options?: TResolvePageOptions
 ): Promise<unknown[]> {
-	return Promise.all(
+	const resolvedBlocks = await Promise.all(
 		blocks.map(async (block) => {
 			if (!block || typeof block !== "object") {
 				return block;
@@ -465,6 +416,8 @@ async function resolvePageBlocks(
 			return entry;
 		})
 	);
+
+	return normalizeRichTextDescriptions(resolvedBlocks);
 }
 
 async function resolveTopLevelMedia(
@@ -1246,15 +1199,9 @@ async function main(): Promise<void> {
 		throw new Error("PAYLOAD_SECRET is not set");
 	}
 
-	const payload = await getPayload({ config });
+	await resetDatabaseSchema(process.env.DATABASE_URI);
 
-	await dropCollection(payload, "attractions");
-	await dropCollection(payload, "cities");
-	await dropCollection(payload, "regions");
-	await dropCollection(payload, "countries");
-	await dropCollection(payload, "themes");
-	await dropCollection(payload, "badges");
-	await dropDestinationMedia(payload);
+	const payload = await getPayload({ config });
 
 	const mediaCache = new Map<string, number>();
 	const badgeIds = await seedBadges(payload);
