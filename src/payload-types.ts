@@ -482,6 +482,22 @@ export interface Theme {
 				blockType: "routeMap";
 		  }
 		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: string | null;
+				questions?:
+					| {
+							icon: string;
+							title: string;
+							description: string;
+							id?: string | null;
+					  }[]
+					| null;
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "faq";
+		  }
+		| {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
@@ -810,6 +826,22 @@ export interface Route {
 				blockType: "routeMap";
 		  }
 		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: string | null;
+				questions?:
+					| {
+							icon: string;
+							title: string;
+							description: string;
+							id?: string | null;
+					  }[]
+					| null;
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "faq";
+		  }
+		| {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
@@ -1130,6 +1162,22 @@ export interface Country {
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "routeMap";
+		  }
+		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: string | null;
+				questions?:
+					| {
+							icon: string;
+							title: string;
+							description: string;
+							id?: string | null;
+					  }[]
+					| null;
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "faq";
 		  }
 		| {
 				image?: (number | null) | Media;
@@ -1481,6 +1529,22 @@ export interface Experience {
 				blockType: "routeMap";
 		  }
 		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: string | null;
+				questions?:
+					| {
+							icon: string;
+							title: string;
+							description: string;
+							id?: string | null;
+					  }[]
+					| null;
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "faq";
+		  }
+		| {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
@@ -1802,6 +1866,22 @@ export interface Region {
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "routeMap";
+		  }
+		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: string | null;
+				questions?:
+					| {
+							icon: string;
+							title: string;
+							description: string;
+							id?: string | null;
+					  }[]
+					| null;
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "faq";
 		  }
 		| {
 				image?: (number | null) | Media;
@@ -2126,6 +2206,22 @@ export interface TradeFair {
 				blockType: "routeMap";
 		  }
 		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: string | null;
+				questions?:
+					| {
+							icon: string;
+							title: string;
+							description: string;
+							id?: string | null;
+					  }[]
+					| null;
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "faq";
+		  }
+		| {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
@@ -2441,6 +2537,22 @@ export interface City {
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "routeMap";
+		  }
+		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: string | null;
+				questions?:
+					| {
+							icon: string;
+							title: string;
+							description: string;
+							id?: string | null;
+					  }[]
+					| null;
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "faq";
 		  }
 		| {
 				image?: (number | null) | Media;
@@ -2777,6 +2889,22 @@ export interface JournalEntry {
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "routeMap";
+		  }
+		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: string | null;
+				questions?:
+					| {
+							icon: string;
+							title: string;
+							description: string;
+							id?: string | null;
+					  }[]
+					| null;
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "faq";
 		  }
 		| {
 				image?: (number | null) | Media;
@@ -3121,6 +3249,22 @@ export interface Attraction {
 				blockType: "routeMap";
 		  }
 		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: string | null;
+				questions?:
+					| {
+							icon: string;
+							title: string;
+							description: string;
+							id?: string | null;
+					  }[]
+					| null;
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "faq";
+		  }
+		| {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
@@ -3456,6 +3600,22 @@ export interface Page {
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "routeMap";
+		  }
+		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: string | null;
+				questions?:
+					| {
+							icon: string;
+							title: string;
+							description: string;
+							id?: string | null;
+					  }[]
+					| null;
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "faq";
 		  }
 		| {
 				image?: (number | null) | Media;
@@ -3819,6 +3979,23 @@ export interface ThemesSelect<T extends boolean = true> {
 							id?: T;
 							blockName?: T;
 					  };
+				faq?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							questions?:
+								| T
+								| {
+										icon?: T;
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
 				cta?:
 					| T
 					| {
@@ -4010,6 +4187,23 @@ export interface CountriesSelect<T extends boolean = true> {
 								| {
 										entityType?: T;
 										relation?: T;
+										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+				faq?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							questions?:
+								| T
+								| {
+										icon?: T;
+										title?: T;
+										description?: T;
 										id?: T;
 								  };
 							id?: T;
@@ -4220,6 +4414,23 @@ export interface RegionsSelect<T extends boolean = true> {
 							id?: T;
 							blockName?: T;
 					  };
+				faq?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							questions?:
+								| T
+								| {
+										icon?: T;
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
 				cta?:
 					| T
 					| {
@@ -4415,6 +4626,23 @@ export interface CitiesSelect<T extends boolean = true> {
 								| {
 										entityType?: T;
 										relation?: T;
+										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+				faq?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							questions?:
+								| T
+								| {
+										icon?: T;
+										title?: T;
+										description?: T;
 										id?: T;
 								  };
 							id?: T;
@@ -4627,6 +4855,23 @@ export interface AttractionsSelect<T extends boolean = true> {
 							id?: T;
 							blockName?: T;
 					  };
+				faq?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							questions?:
+								| T
+								| {
+										icon?: T;
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
 				cta?:
 					| T
 					| {
@@ -4825,6 +5070,23 @@ export interface RoutesSelect<T extends boolean = true> {
 								| {
 										entityType?: T;
 										relation?: T;
+										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+				faq?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							questions?:
+								| T
+								| {
+										icon?: T;
+										title?: T;
+										description?: T;
 										id?: T;
 								  };
 							id?: T;
@@ -5049,6 +5311,23 @@ export interface ExperiencesSelect<T extends boolean = true> {
 							id?: T;
 							blockName?: T;
 					  };
+				faq?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							questions?:
+								| T
+								| {
+										icon?: T;
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
 				cta?:
 					| T
 					| {
@@ -5253,6 +5532,23 @@ export interface JournalEntriesSelect<T extends boolean = true> {
 							id?: T;
 							blockName?: T;
 					  };
+				faq?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							questions?:
+								| T
+								| {
+										icon?: T;
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
 				cta?:
 					| T
 					| {
@@ -5447,6 +5743,23 @@ export interface TradeFairsSelect<T extends boolean = true> {
 								| {
 										entityType?: T;
 										relation?: T;
+										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+				faq?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							questions?:
+								| T
+								| {
+										icon?: T;
+										title?: T;
+										description?: T;
 										id?: T;
 								  };
 							id?: T;
@@ -5648,6 +5961,23 @@ export interface PagesSelect<T extends boolean = true> {
 								| {
 										entityType?: T;
 										relation?: T;
+										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+				faq?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							questions?:
+								| T
+								| {
+										icon?: T;
+										title?: T;
+										description?: T;
 										id?: T;
 								  };
 							id?: T;
@@ -5976,6 +6306,22 @@ export interface Homepage {
 						blockType: "routeMap";
 				  }
 				| {
+						eyebrow?: string | null;
+						title: string;
+						description?: string | null;
+						questions?:
+							| {
+									icon: string;
+									title: string;
+									description: string;
+									id?: string | null;
+							  }[]
+							| null;
+						id?: string | null;
+						blockName?: string | null;
+						blockType: "faq";
+				  }
+				| {
 						image?: (number | null) | Media;
 						eyebrow?: string | null;
 						title?: string | null;
@@ -6256,6 +6602,22 @@ export interface Destination {
 						blockType: "routeMap";
 				  }
 				| {
+						eyebrow?: string | null;
+						title: string;
+						description?: string | null;
+						questions?:
+							| {
+									icon: string;
+									title: string;
+									description: string;
+									id?: string | null;
+							  }[]
+							| null;
+						id?: string | null;
+						blockName?: string | null;
+						blockType: "faq";
+				  }
+				| {
 						image?: (number | null) | Media;
 						eyebrow?: string | null;
 						title?: string | null;
@@ -6531,6 +6893,23 @@ export interface HomepageSelect<T extends boolean = true> {
 							id?: T;
 							blockName?: T;
 					  };
+				faq?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							questions?:
+								| T
+								| {
+										icon?: T;
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
 				cta?:
 					| T
 					| {
@@ -6706,6 +7085,23 @@ export interface DestinationSelect<T extends boolean = true> {
 								| {
 										entityType?: T;
 										relation?: T;
+										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+				faq?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							questions?:
+								| T
+								| {
+										icon?: T;
+										title?: T;
+										description?: T;
 										id?: T;
 								  };
 							id?: T;

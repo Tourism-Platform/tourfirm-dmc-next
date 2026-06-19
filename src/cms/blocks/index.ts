@@ -1,6 +1,7 @@
 import type { Block } from "payload";
 
 import { Cta } from "./cta";
+import { Faq } from "./faq";
 import { Hero } from "./hero";
 import { OverviewStats } from "./overview-stats";
 import { Regular } from "./regular";
@@ -11,5 +12,6 @@ export const pageBlocks: Block[] = [
 	OverviewStats,
 	Regular,
 	RouteMap,
+	Faq,
 	Cta
 ];

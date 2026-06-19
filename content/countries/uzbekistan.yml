@@ -253,6 +253,48 @@ blocks:
           ru: Комбинированный маршрут по Центральной Азии спокойнее, когда сезон, границы, транспортные связки и порядок въезда понятны заранее.
           uz: Markaziy Osiyo bo'yicha kombinatsiyalangan marshrut mavsum, chegara, transport bog'lamalari va kirish tartibi oldindan aniq bo'lsa ancha sokin o'tadi.
 
+  - blockType: faq
+    eyebrow:
+      en: Routes in detail
+      ru: Маршруты в деталях
+      uz: Marshrut tafsilotlari
+    title:
+      en: How route pacing works in practice
+      ru: Как темп маршрута работает на практике
+      uz: Marshrut tempi amalda qanday ishlaydi
+    description:
+      en: Use these accordion notes to brief clients on transfer times and overnight logic.
+      ru: "Аккордеон для брифа клиентов: переезды, ночёвки и логика дней."
+      uz: Mijozlarga transfer va tunlash mantiqini tushuntirish uchun akkordeon.
+    questions:
+      - icon: CalendarDays
+        title:
+          en: How many nights are ideal for first-time Uzbekistan?
+          ru: Сколько ночей оптимально для первой поездки в Узбекистан?
+          uz: O'zbekistonga birinchi safar uchun necha tun optimal?
+        description:
+          en: "Most first programs work best with 7-10 nights: Tashkent arrival, 2 nights Samarkand, 2 nights Bukhara, and optional Khiva extension."
+          ru: "Для первой программы обычно хватает 7–10 ночей: прилёт в Ташкент, 2 ночи в Самарканде, 2 в Бухаре и опционально Хива."
+          uz: "Birinchi dastur uchun odatda 7–10 tun yetadi: Toshkentga kelish, Samarqandda 2 tun, Buxoroda 2 tun va ixtiyoriy Xiva kengaytmasi."
+      - icon: Train
+        title:
+          en: Where are long transfers and how do we soften them?
+          ru: Где длинные переезды и как их смягчить?
+          uz: Qayerda uzoq ko'chalar bor va ularni qanday yumshatish mumkin?
+        description:
+          en: Tashkent-Samarkand-Bukhara is efficient by Afrosiyob. The long leg is typically Bukhara-Khiva; place it as an evening/overnight transfer and keep next morning lighter.
+          ru: "Связка Ташкент–Самарканд–Бухара удобна на «Афросиёбе». Длинный плечо — обычно Бухара–Хива: лучше вечерний/ночной переезд и более лёгкое утро на следующий день."
+          uz: "Toshkent–Samarqand–Buxoro Afrosiyob bilan qulay. Uzoq parcha odatda Buxoro–Xiva: kechki/tungi ko'chani rejalashtiring va ertasi kuni yengilroq qiling."
+      - icon: Mountain
+        title:
+          en: How to combine culture and nature without fatigue?
+          ru: Как совместить культуру и природу без перегруза?
+          uz: Madaniyat va tabiatni charchatmasdan qanday ulash mumkin?
+        description:
+          en: "Use Tashkent as a split point: heritage in old city, then Chimgan/Charvak day escape, then return to Silk Road city sequence."
+          ru: "Используйте Ташкент как точку разделения: наследие в старом городе, затем однодневка в Чимган/Чарвак, потом возврат к городской последовательности Шёлкового пути."
+          uz: "Toshkentni ajratish nuqtasi sifatida ishlating: eski shaharda meros, keyin Chimgan/Charvak kunligi, so'ng Ipak yo'li shaharlar ketma-ketligiga qaytish."
+
   - blockType: regular
     eyebrow:
       ru: Примеры маршрутов

@@ -229,6 +229,20 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 			};
 		}
 
+		case "faq":
+			return {
+				blockType: BlockType.faq,
+				eyebrow: block.eyebrow ?? undefined,
+				title: block.title,
+				description: block.description ?? undefined,
+				questions: (block.questions ?? []).map((question, index) => ({
+					key: question.id ?? String(index),
+					icon: question.icon ?? undefined,
+					title: question.title,
+					description: question.description
+				}))
+			};
+
 		default:
 			return null;
 	}

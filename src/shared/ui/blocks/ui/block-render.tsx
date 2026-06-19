@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import { ButtonRender } from "@/shared/ui/buttons";
 import { CardsSection } from "@/shared/ui/custom/custom-cards-section";
 import { CustomCtaBanner } from "@/shared/ui/custom/custom-cta-banner";
+import { FaqSection } from "@/shared/ui/custom/custom-faq-section";
 import { OverviewStatsSection } from "@/shared/ui/custom/custom-overview-stats-section";
 import { CustomPageHero } from "@/shared/ui/custom/custom-page-hero";
 import { CustomSectionHeader } from "@/shared/ui/custom/custom-section-header";
@@ -65,6 +66,17 @@ export function BlockRender({
 					tileAttribution={section.tileAttribution!}
 				/>
 			</section>
+		);
+	}
+
+	if (section.blockType === BlockType.faq) {
+		return (
+			<FaqSection
+				eyebrow={section.eyebrow}
+				title={section.title!}
+				description={section.description}
+				questions={section.questions ?? []}
+			/>
 		);
 	}
 

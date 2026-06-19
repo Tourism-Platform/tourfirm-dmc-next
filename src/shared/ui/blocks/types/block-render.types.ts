@@ -10,8 +10,16 @@ export enum BlockType {
 	overviewStats = "overviewStats",
 	regular = "regular",
 	routeMap = "routeMap",
+	faq = "faq",
 	cta = "cta"
 }
+
+export type TFaqQuestionProps = {
+	key?: string;
+	icon?: string;
+	title: string;
+	description: string;
+};
 
 export type TBlockRenderProps = {
 	blockType: BlockType;
@@ -32,4 +40,5 @@ export type TBlockRenderProps = {
 	tileUrl?: string;
 	tileAttribution?: string;
 	stops?: TRouteMapStop[];
+	questions?: TFaqQuestionProps[];
 };
