@@ -1,7 +1,11 @@
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 
-import { buildCmsPath, createCmsPageMetadata } from "@/shared/lib";
+import {
+	buildCmsPath,
+	buildGeoBreadcrumbs,
+	createCmsPageMetadata
+} from "@/shared/lib";
 
 import { AttractionPage } from "@/page/attraction";
 import { CityPage } from "@/page/city";
@@ -79,21 +83,43 @@ export default async function GeoCatchAllRoute({ params }: TProps) {
 
 	if (route.source === "geo") {
 		const sections = mapCmsBlocks(route.document.blocks);
+		const t = await getTranslations("header.public.nav.destinations");
+		const breadcrumbItems = buildGeoBreadcrumbs(route, t("label"));
 
 		if (route.kind === "country") {
-			return <CountryPage sections={sections} />;
+			return (
+				<CountryPage
+					sections={sections}
+					breadcrumbItems={breadcrumbItems}
+				/>
+			);
 		}
 
 		if (route.kind === "region") {
-			return <RegionPage sections={sections} />;
+			return (
+				<RegionPage
+					sections={sections}
+					breadcrumbItems={breadcrumbItems}
+				/>
+			);
 		}
 
 		if (route.kind === "city") {
-			return <CityPage sections={sections} />;
+			return (
+				<CityPage
+					sections={sections}
+					breadcrumbItems={breadcrumbItems}
+				/>
+			);
 		}
 
 		if (route.kind === "attraction") {
-			return <AttractionPage sections={sections} />;
+			return (
+				<AttractionPage
+					sections={sections}
+					breadcrumbItems={breadcrumbItems}
+				/>
+			);
 		}
 
 		notFound();

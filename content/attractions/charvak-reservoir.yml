@@ -1,0 +1,70 @@
+# Seed: коллекция attractions — Charvak Reservoir
+# Источник (старая БД): route stop coords 41.623 / 70.028
+
+slug:
+  en: charvak-reservoir
+  ru: charvak-reservoir
+  uz: charvak-reservoir
+title:
+  en: Charvak Reservoir
+  ru: Чарвакское водохранилище
+  uz: Charvak suv ombori
+subtitle:
+  en: Mountain lake
+  ru: Горное озеро
+  uz: Tog' ko'li
+excerpt:
+  en: Turquoise water and mountain backdrop — the strongest visual break on the road to Chimgan.
+  ru: Бирюзовая вода и горный фон — главная визуальная пауза по дороге к Чимгану.
+  uz: Moviy suv va tog' fonlari — Chimganga bor yo'ldagi eng kuchli vizual nuqta.
+country: uzbekistan
+region: tashkent-region
+city: chimgan
+type: LAKE
+importance: MUST_SEE
+latitude: 41.623
+longitude: 70.028
+heroImage: assets/images/city/tashkent.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/city/tashkent.jpg
+    imageAlt:
+      en: Charvak Reservoir
+      ru: Чарвакское водохранилище
+      uz: Charvak suv ombori
+    title:
+      en: Charvak Reservoir
+      ru: Чарвакское водохранилище
+      uz: Charvak suv ombori
+    description:
+      en: Turquoise water and mountain backdrop — the strongest visual break on the road to Chimgan.
+      ru: Бирюзовая вода и горный фон — главная визуальная пауза по дороге к Чимгану.
+      uz: Moviy suv va tog' fonlari — Chimganga bor yo'ldagi eng kuchli vizual nuqta.
+  - blockType: regular
+    eyebrow:
+      en: Visit tips
+      ru: Советы
+      uz: Maslahatlar
+    title:
+      en: Photo stop timing
+      ru: Время для фото-остановки
+      uz: Fototo'xtash vaqti
+    description:
+      en: Plan 20–30 minutes for photos and tea before continuing uphill to Chimgan village. Best light in late morning when water colour is strongest.
+      ru: Заложите 20–30 минут на фото и чай перед подъёмом к Чимгану. Лучший свет — поздним утром, когда цвет воды наиболее насыщенный.
+      uz: Chimgan qishlog'iga ko'tarilishdan oldin surat va choy uchun 20–30 daqiqa qoldiring. Eng yaxshi yorug'lik — kechki ertalab, suv rangi eng jonli bo'lganda.
+seo:
+  metaTitle:
+    en: Charvak Reservoir | TourLink
+    ru: Чарвакское водохранилище | TourLink
+    uz: Charvak suv ombori | TourLink
+  metaDescription:
+    en: Visit Charvak Reservoir on the Tashkent–Chimgan day route — turquoise mountain lake stop.
+    ru: Остановка у Чарвака на маршруте Ташкент–Чимган — бирюзовое горное озеро.
+    uz: Toshkent–Chimgan marshrutida Charvak suv omborini ziyorat qiling — moviy tog' ko'li.
+  structuredDataType: TouristAttraction
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2026-06-17"

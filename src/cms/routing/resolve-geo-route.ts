@@ -8,9 +8,18 @@ import {
 	findRegionBySlug
 } from "../api";
 
-import type { TGeoRoute } from "./geo-route.types";
+import type { TGeoRoute, TGeoSegment } from "./geo-route.types";
 
 export const MAX_GEO_SEGMENTS = 4;
+
+const GEO_ENTITY_TYPES = ["country", "region", "city", "attraction"] as const;
+
+function buildGeoSegments(slugs: readonly string[]): readonly TGeoSegment[] {
+	return slugs.map((slug, index) => ({
+		slug,
+		type: GEO_ENTITY_TYPES[index]!
+	}));
+}
 
 export async function resolveGeoRoute(
 	locale: string,
@@ -41,7 +50,7 @@ export async function resolveGeoRoute(
 			kind: "country",
 			document: country,
 			path: buildPath(segments),
-			segments: [countrySlug]
+			segments: buildGeoSegments(segments)
 		};
 	}
 
@@ -67,7 +76,7 @@ export async function resolveGeoRoute(
 			document: region,
 			country,
 			path: buildPath(segments),
-			segments: [countrySlug, regionSlug]
+			segments: buildGeoSegments(segments)
 		};
 	}
 
@@ -88,7 +97,7 @@ export async function resolveGeoRoute(
 			country,
 			region,
 			path: buildPath(segments),
-			segments: [countrySlug, regionSlug, citySlug]
+			segments: buildGeoSegments(segments)
 		};
 	}
 
@@ -113,6 +122,6 @@ export async function resolveGeoRoute(
 		region,
 		city,
 		path: buildPath(segments),
-		segments: [countrySlug, regionSlug, citySlug, attractionSlug]
+		segments: buildGeoSegments(segments)
 	};
 }

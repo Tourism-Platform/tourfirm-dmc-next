@@ -1,0 +1,69 @@
+# Seed: коллекция attractions — Chimgan Peak
+
+slug:
+  en: chimgan-peak
+  ru: chimgan-peak
+  uz: chimgan-peak
+title:
+  en: Chimgan Peak
+  ru: Пик Чимган
+  uz: Chimgan cho'qqisi
+subtitle:
+  en: Katta Chimgan
+  ru: Большой Чимган
+  uz: Katta Chimgan
+excerpt:
+  en: Views toward Katta Chimgan (3,309 m) from the Chimgan range foothills.
+  ru: Виды на Большой Чимган (3 309 м) из предгорий Чимганского хребта.
+  uz: Chimgan tog' etagidan Katta Chimgan (3 309 m) manzaralari.
+country: uzbekistan
+region: tashkent-region
+city: chimgan
+type: MOUNTAIN
+importance: RECOMMENDED
+latitude: 41.52
+longitude: 69.995
+heroImage: assets/images/city/tashkent.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/city/tashkent.jpg
+    imageAlt:
+      en: Chimgan Peak
+      ru: Пик Чимган
+      uz: Chimgan cho'qqisi
+    title:
+      en: Chimgan Peak
+      ru: Пик Чимган
+      uz: Chimgan cho'qqisi
+    description:
+      en: Views toward Katta Chimgan (3,309 m) from the Chimgan range foothills.
+      ru: Виды на Большой Чимган (3 309 м) из предгорий Чимганского хребта.
+      uz: Chimgan tog' etagidan Katta Chimgan (3 309 m) manzaralari.
+  - blockType: regular
+    eyebrow:
+      en: Hiking
+      ru: Треккинг
+      uz: Yurish
+    title:
+      en: Ridge viewpoints
+      ru: Виды с гребня
+      uz: Tog' etagidagi nuqtalar
+    description:
+      en: Short hikes from Chimgan village or cable-car upper station offer the clearest views of Katta Chimgan. Guided options available for longer routes.
+      ru: Короткие прогулки от посёлка Чимган или верхней станции канатной дороги дают лучшие виды на Большой Чимган. Для длинных маршрутов доступны гиды.
+      uz: Chimgan qishlog'i yoki kanat yo'lining yuqori bekatidan qisqa yurishlar Katta Chimganning eng aniq manzaralarini beradi. Uzoqroq marshrutlar uchun gidlar mavjud.
+seo:
+  metaTitle:
+    en: Chimgan Peak | TourLink
+    ru: Пик Чимган | TourLink
+    uz: Chimgan cho'qqisi | TourLink
+  metaDescription:
+    en: View Katta Chimgan peak from the Chimgan range — Tian Shan foothills day trip.
+    ru: Вид на пик Большой Чимган из Чимганского хребта — однодневка в предгорьях Тянь-Шаня.
+    uz: Chimgan tog'idan Katta Chimgan cho'qqisini ko'ring — Tyanshan etagidagi kunlik sayohat.
+  structuredDataType: TouristAttraction
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2026-06-17"

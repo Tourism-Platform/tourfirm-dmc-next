@@ -1,0 +1,137 @@
+# Seed: коллекция cities — Chimgan
+# Источник (старая БД): routes.slug = tashkent-and-chimgan (mountain half)
+
+slug:
+  en: chimgan
+  ru: chimgan
+  uz: chimgan
+title:
+  en: Chimgan
+  ru: Чимган
+  uz: Chimgan
+subtitle:
+  en: Tian Shan foothills
+  ru: Предгорья Тянь-Шаня
+  uz: Tyanshan etagidagi tog'lar
+excerpt:
+  en: Alpine meadows, Charvak Reservoir and cable-car views in the Chimgan range northeast of Tashkent.
+  ru: Альпийские луга, Чарвак и виды с канатной дороги в Чимганском хребте к северо-востоку от Ташкента.
+  uz: Toshkent shimoli-sharqidagi Chimgan tog'larida alpine chimzorlar, Charvak va kanat yo'li manzaralari.
+country: uzbekistan
+region: tashkent-region
+latitude: 41.526
+longitude: 70.005
+heroImage: assets/images/city/tashkent.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/city/tashkent.jpg
+    imageAlt:
+      en: Chimgan mountains
+      ru: Горы Чимган
+      uz: Chimgan tog'lari
+    title:
+      en: Chimgan
+      ru: Чимган
+      uz: Chimgan
+    description:
+      en: Alpine meadows, Charvak Reservoir and cable-car views in the Chimgan range northeast of Tashkent.
+      ru: Альпийские луга, Чарвак и виды с канатной дороги в Чимганском хребте к северо-востоку от Ташкента.
+      uz: Toshkent shimoli-sharqidagi Chimgan tog'larida alpine chimzorlar, Charvak va kanat yo'li manzaralari.
+    actions:
+      - type: mailto
+        variant: default
+        title:
+          en: Request a tour
+          ru: Запросить тур
+          uz: Tur so'rash
+        email: info@tourlink.uz
+
+  - blockType: regular
+    eyebrow:
+      en: Overview
+      ru: Обзор
+      uz: Umumiy
+    title:
+      en: Mountain half of the day trip
+      ru: Горная часть однодневки
+      uz: Kunlik sayohatning tog' qismi
+    description:
+      en: "After the capital, the road climbs through the Chirchiq valley to Charvak Reservoir, then Chimgan village. Plan cable car, short hikes or horseback riding before the return to Tashkent.\n\n• Charvak — turquoise photo stop on the way uphill.\n• Chimgan village — base for meadows and cable car.\n• Beldersay — ski slopes and gorge views in winter and summer."
+      ru: "После столицы дорога поднимается по долине Чирчика к Чарваку, затем к посёлку Чимган. Запланируйте канатную дорогу, короткие прогулки или верховую езду перед возвращением в Ташкент.\n\n• Чарвак — бирюзовая фото-остановка по пути в горы.\n• Посёлок Чимган — база для лугов и канатной дороги.\n• Белdersay — горнолыжные склоны и ущелье круглый год."
+      uz: "Poytaxtdan keyin yo'l Chirchiq vodiy bo'ylab Charvakga, so'ngra Chimgan qishlog'iga ko'tariladi. Toshkentga qaytishdan oldin kanat yo'li, qisqa yurish yoki ot sayohatini rejalashtiring.\n\n• Charvak — ko'tarilish yo'lidagi moviy fototo'xtash.\n• Chimgan qishlog'i — chimzorlar va kanat yo'li bazasi.\n• Beldersay — qish va yozda chang'i va yo'lak manzaralari."
+
+  - blockType: routeMap
+    eyebrow:
+      en: Map
+      ru: Карта
+      uz: Xarita
+    title:
+      en: Chimgan day route
+      ru: Маршрут по Чимгану
+      uz: Chimgan kunlik marshruti
+    description:
+      en: From Charvak Reservoir through Chimgan village to peaks and Beldersay gorge.
+      ru: От Чарвака через посёлок Чимган к вершинам и ущелью Белdersay.
+      uz: Charvakdan Chimgan qishlog'i orqali cho'qqilar va Beldersay yo'lagi bo'ylab.
+    mapCenter:
+      latitude: 41.538
+      longitude: 70.025
+    zoom: 11
+    stops:
+      - entityType: attraction
+        entitySlug: charvak-reservoir
+      - entityType: attraction
+        entitySlug: chimgan-cable-car
+      - entityType: attraction
+        entitySlug: beldersay-resort
+      - entityType: attraction
+        entitySlug: chimgan-peak
+      - entityType: attraction
+        entitySlug: beldersay-gorge
+
+  - blockType: regular
+    eyebrow:
+      en: Tips
+      ru: Практика
+      uz: Maslahat
+    title:
+      en: Practical notes for Chimgan
+      ru: Полезные заметки по Чимгану
+      uz: Chimgan bo'yicha amaliy tavsiyalar
+    cards:
+      - type: destinationInsight
+        icon: Shirt
+        title:
+          en: Layer clothing
+          ru: Одежда слоями
+          uz: Qatlamli kiyim
+        description:
+          en: Mountain weather shifts quickly versus city temperatures.
+          ru: Погода в горах меняется быстрее, чем в городе.
+          uz: Tog'dagi harorat shaharga nisbatan tezroq o'zgaradi.
+      - type: destinationInsight
+        icon: Clock
+        title:
+          en: Start early from Tashkent
+          ru: Ранний выезд из Ташкента
+          uz: Toshkentdan erta yo'lga chiqish
+        description:
+          en: Leave before traffic builds for smoother timing to Charvak and Chimgan.
+          ru: Выезд до пика трафика делает дорогу к Чарваку и Чимгану комфортнее.
+          uz: Trafikdan oldin yo'lga chiqish Charvak va Chimganga yetib borishni osonlashtiradi.
+
+seo:
+  metaTitle:
+    en: Chimgan | TourLink
+    ru: Чимган | TourLink
+    uz: Chimgan | TourLink
+  metaDescription:
+    en: Plan a Chimgan day trip from Tashkent — Charvak Lake, cable car and Tian Shan foothills.
+    ru: Спланируйте однодневку в Чимган из Ташкента — Чарвак, канатная дорога и предгорья Тянь-Шаня.
+    uz: Toshkentdan Chimgan kunlik sayohatini rejalashtiring — Charvak, kanat yo'li va Tyanshan etagidagi tog'lar.
+  structuredDataType: TouristDestination
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2026-06-17"

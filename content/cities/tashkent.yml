@@ -1,4 +1,6 @@
 # Seed: коллекция cities — Tashkent
+# Источник (старая БД): cities.slug = tashkent
+# Блоки: OLD seed buildCityBlocks() — cities в БД blocks не содержит
 
 slug:
   en: tashkent
@@ -8,22 +10,18 @@ title:
   en: Tashkent
   ru: Ташкент
   uz: Toshkent
-subtitle:
-  en: Capital city
-  ru: Столица
-  uz: Poytaxt
 excerpt:
-  en: Wide boulevards, Chorsu Bazaar, metro architecture and the old-city religious core — Tashkent anchors most inbound routes.
-  ru: Широкие проспекты, базар Чорсу, архитектура метро и религиозное ядро старого города — Ташкент — опора большинства въездных маршрутов.
-  uz: Keng ko'chalar, Chorsu bozori, metro me'morchiligi va eski shaharning diniy markazi — Toshkent ko'pchilik kiruvchi marshrutlarning tayanchi.
+  en: Wide boulevards, Chorsu Bazaar and the gateway to Uzbekistan.
+  ru: Широкие проспекты, базар Чорсу и ворота в Узбекистан.
+  uz: Keng bulvarlar, Chorsu bozori va O'zbekistonga kirish eshigi.
 country: uzbekistan
 region: tashkent-region
 latitude: 41.2995
 longitude: 69.2401
-heroImage: assets/images/destinations/uzbekistan.jpg
+heroImage: assets/images/city/tashkent.jpg
 blocks:
   - blockType: hero
-    image: assets/images/destinations/uzbekistan.jpg
+    image: assets/images/city/tashkent.jpg
     imageAlt:
       en: Tashkent city view
       ru: Вид на Ташкент
@@ -33,9 +31,9 @@ blocks:
       ru: Ташкент
       uz: Toshkent
     description:
-      en: Wide boulevards, Chorsu Bazaar, metro architecture and the old-city religious core — Tashkent anchors most inbound routes.
-      ru: Широкие проспекты, базар Чорсу, архитектура метро и религиозное ядро старого города — Ташкент — опора большинства въездных маршрутов.
-      uz: Keng ko'chalar, Chorsu bozori, metro me'morchiligi va eski shaharning diniy markazi — Toshkent ko'pchilik kiruvchi marshrutlarning tayanchi.
+      en: Wide boulevards, Chorsu Bazaar and the gateway to Uzbekistan.
+      ru: Широкие проспекты, базар Чорсу и ворота в Узбекистан.
+      uz: Keng bulvarlar, Chorsu bozori va O'zbekistonga kirish eshigi.
     actions:
       - type: mailto
         variant: default
@@ -44,19 +42,212 @@ blocks:
           ru: Запросить тур
           uz: Tur so'rash
         email: info@tourlink.uz
+
+  - blockType: regular
+    eyebrow:
+      en: Tashkent
+      ru: Ташкент
+      uz: Toshkent
+    title:
+      en: Iconic places
+      ru: Знаковые места
+      uz: Mashhur joylar
+    description:
+      en: Start with the old-city religious core, then layer markets, metro architecture and museums.
+      ru: Начните с религиозного ядра старого города, затем добавьте базары, архитектуру метро и музеи.
+      uz: Eski shaharning diniy markazidan boshlang, so'ngra bozorlar, metro me'morchiligi va muzeylarni qo'shing.
+    cards:
+      - type: routeIdea
+        image: assets/images/city/tashkent.jpg
+        badge:
+          en: Heritage
+          ru: Наследие
+          uz: Meros
+        title:
+          en: Khazrati Imam Complex
+          ru: Комплекс Хазрати Имам
+          uz: Hazrati Imom majmuasi
+        description:
+          en: Courtyards, Friday mosque and the spiritual heart of old Tashkent.
+          ru: Дворы, пятничная мечеть и духовное сердце старого Ташкента.
+          uz: Hovlilar, juma masjidi va eski Toshkentning ma'naviy markazi.
+        ctaHref: /destinations/uzbekistan/tashkent-region/tashkent/khazrati-imam-complex
+        ctaLabel:
+          en: View place
+          ru: Смотреть место
+          uz: Joyni ko'rish
+      - type: routeIdea
+        image: assets/images/city/tashkent.jpg
+        badge:
+          en: Market
+          ru: Бazar
+          uz: Bozor
+        title:
+          en: Chorsu Bazaar
+          ru: Базар Чорсу
+          uz: Chorsu bozori
+        description:
+          en: Central Asia's most atmospheric covered market under a turquoise dome.
+          ru: Самый атмосферный крытый рынок Центральной Азии под бирюзовым куполом.
+          uz: Moviy gumbaz ostidagi Markaziy Osiyoning eng jo'shqin yopiq bozori.
+        ctaHref: /destinations/uzbekistan/tashkent-region/tashkent/chorsu-bazaar
+        ctaLabel:
+          en: View place
+          ru: Смотреть место
+          uz: Joyni ko'rish
+      - type: routeIdea
+        image: assets/images/city/tashkent.jpg
+        badge:
+          en: Square
+          ru: Площадь
+          uz: Maydon
+        title:
+          en: Amir Timur Square
+          ru: Площадь Амира Тимура
+          uz: Amir Temur maydoni
+        description:
+          en: Central square with the Amir Timur monument and surrounding museums.
+          ru: Центральная площадь с монументом Амиру Тимуру и окружающими музеями.
+          uz: Amir Temur haydali markaziy maydon va atrofdagi muzeylar.
+        ctaHref: /destinations/uzbekistan/tashkent-region/tashkent/amir-timur-square
+        ctaLabel:
+          en: View place
+          ru: Смотреть место
+          uz: Joyni ko'rish
+      - type: routeIdea
+        image: assets/images/city/tashkent.jpg
+        badge:
+          en: Architecture
+          ru: Архитектура
+          uz: Me'morchilik
+        title:
+          en: Tashkent Metro
+          ru: Метро Ташкента
+          uz: Toshkent metropoliteni
+        description:
+          en: Soviet-era stations with marble, chandeliers and ceramic art.
+          ru: Станции советской эпохи с мрамором, люстрами и керамическим декором.
+          uz: Marmor, люстра va keramika bezaklari bilan sovet davri bekatlari.
+        ctaHref: /destinations/uzbekistan/tashkent-region/tashkent
+        ctaLabel:
+          en: Explore city
+          ru: Исследовать город
+          uz: Shaharni ko'rish
+
   - blockType: regular
     eyebrow:
       en: Day plan
       ru: План на день
       uz: Kunlik reja
     title:
-      en: First day in the capital
-      ru: Первый день в столице
-      uz: Poytaxtdagi birinchi kun
+      en: A day in Tashkent — the highlights
+      ru: День в Ташкенте — главное
+      uz: Toshkentda bir kun — asosiy nuqtalar
     description:
-      en: "Morning at Khazrati Imam Complex, midday at Chorsu Bazaar, afternoon metro stations, evening Amir Timur Square — a compact loop that covers old and modern Tashkent."
-      ru: "Утро в комплексе Хазрати Имам, полдень на базаре Чорсу, день — станции метро, вечер — площадь Амира Тимура: компактный маршрут по старому и новому Ташкенту."
-      uz: "Ertalab Hazrati Imom majmuasi, tushlikda Chorsu bozori, kunduzi metro bekatlari, kechqurun Amir Temur maydoni — eski va zamonaviy Toshkent bo'ylab ixcham marshrut."
+      en: "A compact loop through old and modern Tashkent.\n\n• Morning: Khazrati Imam complex or Chorsu Bazaar in the old city.\n• Midday: plov lunch, then Amir Timur Museum or Applied Arts Museum.\n• Afternoon: metro architecture tour or Minor Mosque on the canal.\n• Evening: Broadway promenade, dinner and optional opera or theatre."
+      ru: "Компактный маршрут по старому и новому Ташкенту.\n\n• Утро: комплекс Хазрати Имам или базар Чорсу в старом городе.\n• Полдень: обед с пловом, затем музей Амира Тимура или музей прикладного искусства.\n• День: архитектура метро или мечеть Минор на канале.\n• Вечер: прогулка по Broadway, ужин и по желанию опера или театр."
+      uz: "Eski va zamonaviy Toshkent bo'ylab ixcham marshrut.\n\n• Ertalab: eski shaharda Hazrati Imom majmuasi yoki Chorsu bozori.\n• Tushlik: palov, keyin Amir Temur muzeyi yoki amaliy san'at muzeyi.\n• Kunduzi: metro me'morchiligi yoki Anhor kanalidagi Minor masjidi.\n• Kechqurun: Broadway sayr, kechki ovqat va ixtiyoriy opera yoki teatr."
+
+  - blockType: routeMap
+    eyebrow:
+      en: Map
+      ru: Карта
+      uz: Xarita
+    title:
+      en: Old city walking loop
+      ru: Пеший маршрут по старому городу
+      uz: Eski shahar bo'ylab yurish
+    description:
+      en: A compact heritage circuit in central Tashkent.
+      ru: Компактный маршрут по наследию центрального Ташкента.
+      uz: Markaziy Toshkentda ixcham meros halqasi.
+    mapCenter:
+      latitude: 41.325
+      longitude: 69.25
+    zoom: 13
+    stops:
+      - entityType: attraction
+        entitySlug: khazrati-imam-complex
+      - entityType: attraction
+        entitySlug: chorsu-bazaar
+      - entityType: attraction
+        entitySlug: amir-timur-square
+
+  - blockType: regular
+    eyebrow:
+      en: Routes
+      ru: Маршруты
+      uz: Marshrutlar
+    title:
+      en: Routes including Tashkent
+      ru: Маршруты с Ташкентом
+      uz: Toshkentni o'z ichiga olgan marshrutlar
+    cards:
+      - type: routeIdea
+        image: assets/images/city/tashkent.jpg
+        badge:
+          en: 1 day
+          ru: 1 день
+          uz: 1 kun
+        meta:
+          en: Mountains
+          ru: Горы
+          uz: Tog'lar
+        title:
+          en: Tashkent & Chimgan day trip
+          ru: Однодневка «Ташкент и Чимган»
+          uz: Toshkent va Chimgan kunlik sayohati
+        description:
+          en: Heritage in the capital, then Charvak Lake and Chimgan mountains.
+          ru: Наследие столицы, затем озеро Чарвак и горы Чимган.
+          uz: Poytaxt merosi, so'ngra Charvak ko'li va Chimgan tog'lari.
+        ctaHref: /destinations/uzbekistan/tashkent-region/chimgan
+        ctaLabel:
+          en: View route
+          ru: Смотреть маршрут
+          uz: Marshrutni ko'rish
+
+  - blockType: regular
+    eyebrow:
+      en: Atmosphere
+      ru: Атмосфера
+      uz: Muhit
+    title:
+      en: What Tashkent feels like
+      ru: Как ощущается Ташкент
+      uz: Toshkent qanday his qilinadi
+    cards:
+      - type: destinationInsight
+        icon: Heart
+        title:
+          en: Food and tea
+          ru: Еда и чай
+          uz: Taom va choy
+        description:
+          en: Plov houses, green-tea chaikhanas and seasonal fruit markets.
+          ru: Пловные, чайханы с зелёным чаем и сезонные фруктовые базары.
+          uz: Palovxonalar, yashil choy choyxonalari va mavsumiy meva bozorlari.
+      - type: destinationInsight
+        icon: Eye
+        title:
+          en: Crafts and textiles
+          ru: Ремёсла и текстиль
+          uz: Hunarmandchilik va to'qimachilik
+        description:
+          en: Suzani embroidery, ceramics and wood carving in applied-arts museums.
+          ru: Сузани, керамика и резьба по дереву в музеях прикладного искусства.
+          uz: Suzani kashtachiligi, keramika va amaliy san'at muzeylaridagi yog'och o'yma.
+      - type: destinationInsight
+        icon: Compass
+        title:
+          en: Wide boulevards
+          ru: Широкие проспекты
+          uz: Keng bulvarlar
+        description:
+          en: Soviet planning meets a fast-modernising Central Asian capital.
+          ru: Советская планировка встречается с быстро модернизирующейся столицей Центральной Азии.
+          uz: Sovet rejalashtiruvi tez zamonlashayotgan Markaziy Osiyo poytaxti bilan uchrashadi.
+
 seo:
   metaTitle:
     en: Tashkent | TourLink

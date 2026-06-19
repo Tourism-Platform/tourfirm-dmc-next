@@ -1,3 +1,5 @@
+import type { ReactNode } from "react";
+
 import { ButtonRender } from "@/shared/ui/buttons";
 import { CardsSection } from "@/shared/ui/custom/custom-cards-section";
 import { CustomCtaBanner } from "@/shared/ui/custom/custom-cta-banner";
@@ -8,13 +10,21 @@ import { RouteMapView } from "@/shared/ui/route-map/ui/route-map-view";
 
 import { BlockType, type TBlockRenderProps } from "../types/block-render.types";
 
-export function BlockRender(section: TBlockRenderProps) {
+type TBlockRenderOptions = {
+	topContent?: ReactNode;
+};
+
+export function BlockRender({
+	topContent,
+	...section
+}: TBlockRenderProps & TBlockRenderOptions) {
 	if (section.blockType === BlockType.hero) {
 		return (
 			<CustomPageHero
 				imageSrc={section.imageSrc!}
 				imageAlt={section.imageAlt ?? section.title ?? "Main Hero"}
 				title={section.title!}
+				topContent={topContent}
 				description={section.description!}
 				actions={section.actions?.map((action, actionIndex) => (
 					<ButtonRender

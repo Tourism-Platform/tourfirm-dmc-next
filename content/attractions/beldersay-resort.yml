@@ -1,0 +1,69 @@
+# Seed: коллекция attractions — Beldersay Resort
+
+slug:
+  en: beldersay-resort
+  ru: beldersay-resort
+  uz: beldersay-resort
+title:
+  en: Beldersay Resort
+  ru: Курорт Белdersay
+  uz: Beldersay kurorti
+subtitle:
+  en: Ski and summer slopes
+  ru: Горнолыжные склоны
+  uz: Chang'i va yozgi yo'laklar
+excerpt:
+  en: Year-round resort area with ski slopes in winter and hiking trails in summer near Chimgan.
+  ru: Круглогодичный курортный район со склонами зимой и тропами летом рядом с Чимганом.
+  uz: Chimgan yaqinida qishda chang'i, yozda yurish yo'llari bilan yil bo'yi kurort hududi.
+country: uzbekistan
+region: tashkent-region
+city: chimgan
+type: NATURAL_SITE
+importance: RECOMMENDED
+latitude: 41.538
+longitude: 70.045
+heroImage: assets/images/city/tashkent.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/city/tashkent.jpg
+    imageAlt:
+      en: Beldersay Resort
+      ru: Курорт Белdersay
+      uz: Beldersay kurorti
+    title:
+      en: Beldersay Resort
+      ru: Курорт Белdersay
+      uz: Beldersay kurorti
+    description:
+      en: Year-round resort area with ski slopes in winter and hiking trails in summer near Chimgan.
+      ru: Круглогодичный курортный район со склонами зимой и тропами летом рядом с Чимганом.
+      uz: Chimgan yaqinida qishda chang'i, yozda yurish yo'llari bilan yil bo'yi kurort hududi.
+  - blockType: regular
+    eyebrow:
+      en: Season
+      ru: Сезон
+      uz: Mavsum
+    title:
+      en: Winter and summer use
+      ru: Зима и лето
+      uz: Qish va yoz
+    description:
+      en: "Winter: ski lifts and snow activities. Summer: chairlift rides and short ridge walks with valley views."
+      ru: "Зима: подъёмники и снеговые активности. Лето: канатные подъёмы и короткие прогулки по гребню с видами на долину."
+      uz: "Qish: ko'targichlar va qor faoliyati. Yoz: kanat yo'li va vodiy manzarali qisqa yurishlar."
+seo:
+  metaTitle:
+    en: Beldersay Resort | TourLink
+    ru: Курорт Белdersay | TourLink
+    uz: Beldersay kurorti | TourLink
+  metaDescription:
+    en: Beldersay Resort near Chimgan — ski slopes, summer trails and mountain views.
+    ru: Курорт Белdersay у Чимгана — склоны, летние тропы и горные виды.
+    uz: Chimgan yaqinidagi Beldersay kurorti — chang'i yo'laklari, yozgi yo'llar va tog' manzaralari.
+  structuredDataType: TouristAttraction
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2026-06-17"

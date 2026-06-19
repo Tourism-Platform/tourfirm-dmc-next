@@ -1,11 +1,13 @@
+import type { TBreadcrumbItem } from "@/shared/lib";
 import type { TBlockRenderProps } from "@/shared/ui/blocks";
 
 import { Cms } from "@/widgets/cms";
 
 type TProps = {
 	sections: TBlockRenderProps[];
+	breadcrumbItems?: TBreadcrumbItem[];
 };
 
-export function CountryPage({ sections }: TProps) {
-	return <Cms sections={sections} />;
+export function CountryPage({ sections, breadcrumbItems }: TProps) {
+	return <Cms sections={sections} breadcrumbItems={breadcrumbItems} />;
 }

@@ -1,4 +1,8 @@
-export type { TGeoRoute } from "./geo-route.types";
+export type { TGeoRoute, TGeoSegment, TGeoEntityType } from "./geo-route.types";
+export {
+	resolveGeoLabels,
+	type TResolvedGeoSegment
+} from "./resolve-geo-labels";
 export {
 	MAX_APP_ROUTE_SEGMENTS,
 	resolveAppRoute,

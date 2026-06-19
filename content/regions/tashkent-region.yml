@@ -1,41 +1,42 @@
 # Seed: коллекция regions — Tashkent Region
+# Источник (старая БД): routes.slug = tashkent-and-chimgan
 
 slug:
   en: tashkent-region
   ru: tashkent-region
   uz: tashkent-region
 title:
-  en: Tashkent Region
-  ru: Ташкентская область
-  uz: Toshkent viloyati
+  en: Tashkent & Chimgan
+  ru: Ташкент и Чимган
+  uz: Toshkent va Chimgan
 subtitle:
-  en: Capital region
-  ru: Столичный регион
-  uz: Poytaxt viloyati
+  en: Capital culture and Tian Shan day escape
+  ru: Столица и горный выезд в Тянь-Шань
+  uz: Poytaxt madaniyati va Tian-Shan tog' sayohati
 excerpt:
-  en: Uzbekistan's capital region — modern Tashkent, mountain gateways, and the start of most inbound routes.
-  ru: Столичный регион Узбекистана — современный Ташкент, горные выезды и старт большинства въездных маршрутов.
-  uz: O'zbekiston poytaxt viloyati — zamonaviy Toshkent, tog' yo'llari va ko'pchilik kiruvchi marshrutlar boshlanishi.
+  en: Islamic heritage in old Tashkent, then mountains, Charvak Lake and Chimgan village in one day.
+  ru: Исламское наследие старого Ташкента, затем горы, озеро Чарвак и посёлок Чимган за один день.
+  uz: Eski Toshkentning islomiy merosi, so'ngra bir kunda tog'lar, Charvak ko'li va Chimgan qishlog'i.
 country: uzbekistan
 mapCenter:
   latitude: 41.2995
   longitude: 69.2401
-heroImage: assets/images/destinations/uzbekistan.jpg
+heroImage: assets/images/city/tashkent.jpg
 blocks:
   - blockType: hero
-    image: assets/images/destinations/uzbekistan.jpg
+    image: assets/images/city/tashkent.jpg
     imageAlt:
-      en: Tashkent skyline
-      ru: Панorama Ташкента
-      uz: Toshkent manzarasi
+      en: Tashkent and Chimgan
+      ru: Ташкент и Чимган
+      uz: Toshkent va Chimgan
     title:
-      en: Tashkent Region
-      ru: Ташкентская область
-      uz: Toshkent viloyati
+      en: Tashkent & Chimgan
+      ru: Ташкент и Чимган
+      uz: Toshkent va Chimgan
     description:
-      en: Uzbekistan's capital region — modern Tashkent, mountain gateways, and the start of most inbound routes.
-      ru: Столичный регион Узбекистана — современный Ташкент, горные выезды и старт большинства въездных маршрутов.
-      uz: O'zbekiston poytaxt viloyati — zamonaviy Toshkent, tog' yo'llari va ko'pchilik kiruvchi marshrutlar boshlanishi.
+      en: Tashkent locals escape summer heat in the Chimgan range, 80 km northeast of the capital. A typical day combines Khazrati Imam or Chorsu in the morning with Charvak Reservoir and Chimgan village in the afternoon.
+      ru: Жители Ташкента уезжают от летней жары в Чимганские горы — всего 80 км к северо-востоку от столицы. Типичный день сочетает Хазрати Имам или Чорсу утром с Чарваком и Чимганом после обеда.
+      uz: Toshkentliklar yoz issiqidan qochish uchun poytaxtdan 80 km shimoli-sharqda joylashgan Chimgan tog'lariga borishadi. Odatdagi kun ertalab Hazrati Imom yoki Chorsu bilan, tushdan keyin Charvak va Chimgan bilan tugaydi.
     actions:
       - type: mailto
         variant: default
@@ -44,31 +45,194 @@ blocks:
           ru: Запросить тур
           uz: Tur so'rash
         email: info@tourlink.uz
+
+  - blockType: regular
+    eyebrow:
+      en: Overview
+      ru: Обзор
+      uz: Umumiy
+    title:
+      en: How the day flows
+      ru: Как проходит день
+      uz: Kun qanday o'tadi
+    description:
+      en: "A realistic one-day sequence from the capital to the mountains.\n\n• Morning in Tashkent: Khazrati Imam complex or Chorsu Bazaar.\n• Drive northeast (~1.5–2 h) through the Chirchiq valley.\n• Photo stop at Charvak Reservoir, then Chimgan village.\n• Optional cable car, short hike or horseback riding before return."
+      ru: "Реалистичная однодневная связка от столицы к горам.\n\n• Утро в Ташкенте: комплекс Хазрати Имам или базар Чорсу.\n• Выезд на северо-восток (~1,5–2 ч) по долине Чирчика.\n• Остановка у Чарвака, затем посёлок Чимган.\n• По желанию — канатная дорога, короткий треккинг или конные прогулки."
+      uz: "Poytaxtdan tog'larga boruvchi real kunlik marshrut.\n\n• Ertalab Toshkent: Hazrati Imom majmuasi yoki Chorsu bozori.\n• Chirchiq vodiy bo'ylab shimoli-sharqga (~1,5–2 soat).\n• Charvakda fototo'xtash, keyin Chimgan qishlog'i.\n• Ixtiyoriy: kanat yo'li, qisqa yurish yoki ot sayohati."
+
+  - blockType: regular
+    eyebrow:
+      en: Lake
+      ru: Озеро
+      uz: Ko'l
+    title:
+      en: Charvak Reservoir stop
+      ru: Остановка у Чарвака
+      uz: Charvakdagi to'xtash
+    description:
+      en: Turquoise water and mountain backdrop make this the strongest visual break. Plan a short stop for photos and tea before continuing uphill to Chimgan.
+      ru: Бирюзовая вода и горный фон дают сильную визуальную паузу в маршруте. Запланируйте короткую остановку на фото и чай перед подъёмом к Чимгану.
+      uz: Moviy suv va tog' fonlari marshrutdagi eng kuchli vizual nuqtalardan biri. Chimganga ko'tarilishdan oldin surat va choy uchun qisqa to'xtash qo'ying.
+
   - blockType: regular
     eyebrow:
       en: Cities
       ru: Города
       uz: Shaharlar
     title:
-      en: Gateways in the capital region
-      ru: Ключевые точки столичного региона
-      uz: Poytaxt viloyatidagi asosiy nuqtalar
+      en: Two halves of the day route
+      ru: Две части однодневного маршрута
+      uz: Kunlik marshrutning ikki qismi
     description:
-      en: Tashkent anchors most first-time itineraries — flights, museums, markets, and day trips toward Chimgan and Charvak.
-      ru: Ташкент — опора большинства первых маршрутов — перелёты, музеи, базары и однодневные выезды к Чимгану и Чарваку.
-      uz: Toshkent ko'pchilik birinchi marshrutlarning tayanchi — parvozlar, muzeylar, bozorlar va Chimgan hamda Charvakka kunlik sayohatlar.
+      en: Capital heritage in Tashkent, then mountains and Charvak in Chimgan.
+      ru: Наследие столицы в Ташкенте, затем горы и Чарвак в Чимгане.
+      uz: Toshkentda poytaxt merosi, so'ngra Chimganda tog'lar va Charvak.
+    cards:
+      - type: routeIdea
+        image: assets/images/city/tashkent.jpg
+        badge:
+          en: Capital
+          ru: Столица
+          uz: Poytaxt
+        title:
+          en: Tashkent
+          ru: Ташкент
+          uz: Toshkent
+        description:
+          en: Khazrati Imam, Chorsu Bazaar and old-city heritage — morning half of the route.
+          ru: Хазрати Имам, базар Чорсу и наследие старого города — утренняя часть маршрута.
+          uz: Hazrati Imom, Chorsu bozori va eski shahar merosi — marshrutning ertalabki qismi.
+        ctaHref: /destinations/uzbekistan/tashkent-region/tashkent
+        ctaLabel:
+          en: Explore city
+          ru: Исследовать город
+          uz: Shaharni ko'rish
+      - type: routeIdea
+        image: assets/images/city/tashkent.jpg
+        badge:
+          en: Mountains
+          ru: Горы
+          uz: Tog'lar
+        title:
+          en: Chimgan
+          ru: Чимган
+          uz: Chimgan
+        description:
+          en: Charvak Reservoir, cable car and alpine meadows — afternoon mountain half.
+          ru: Чарвак, канатная дорога и альпийские луга — горная часть после обеда.
+          uz: Charvak, kanat yo'li va alpine chimzorlar — tushdan keyingi tog' qismi.
+        ctaHref: /destinations/uzbekistan/tashkent-region/chimgan
+        ctaLabel:
+          en: Explore Chimgan
+          ru: Исследовать Чимган
+          uz: Chimganni ko'rish
+
+  - blockType: routeMap
+    eyebrow:
+      en: Map
+      ru: Карта
+      uz: Xarita
+    title:
+      en: Tashkent & Chimgan route
+      ru: Маршрут «Ташкент и Чимган»
+      uz: Toshkent va Chimgan marshruti
+    description:
+      en: Two city anchors — capital heritage and mountain escape in one day.
+      ru: Две городские опоры — наследие столицы и горный выезд за один день.
+      uz: Ikki shahar tayanchi — bir kunda poytaxt merosi va tog' sayohati.
+    mapCenter:
+      latitude: 41.4
+      longitude: 69.6
+    zoom: 9
+    stops:
+      - entityType: city
+        entitySlug: tashkent
+      - entityType: city
+        entitySlug: chimgan
+
+  - blockType: regular
+    eyebrow:
+      en: Tips
+      ru: Практика
+      uz: Maslahat
+    title:
+      en: Practical notes for this day trip
+      ru: Полезные заметки по маршруту
+      uz: Marshrut bo'yicha amaliy tavsiyalar
+    cards:
+      - type: destinationInsight
+        icon: AlarmClock
+        title:
+          en: Start early
+          ru: Ранний старт
+          uz: Erta boshlang
+        description:
+          en: Leave Tashkent before traffic builds for smoother timing.
+          ru: Выезд до пика трафика делает день заметно комфортнее.
+          uz: Trafikdan oldin yo'lga chiqish kun ritmini yengillashtiradi.
+      - type: destinationInsight
+        icon: Shirt
+        title:
+          en: Layer clothing
+          ru: Одежда слоями
+          uz: Qatlamli kiyim
+        description:
+          en: Mountain weather shifts quickly versus city temperatures.
+          ru: Погода в горах меняется быстрее, чем в городе.
+          uz: Tog'dagi harorat shaharga nisbatan tezroq o'zgaradi.
+      - type: destinationInsight
+        icon: Utensils
+        title:
+          en: Flexible lunch
+          ru: Гибкий обед
+          uz: Moslashuvchan tushlik
+        description:
+          en: Keep lunch timing adaptive around road and stop durations.
+          ru: Лучше оставлять окно времени под дорогу и остановки.
+          uz: Yo'l va to'xtashlarga qarab vaqt oynasi qoldiring.
+
+  - blockType: cta
+    image: assets/images/city/tashkent.jpg
+    eyebrow:
+      en: Tailor-made
+      ru: Под запрос
+      uz: Individual
+    title:
+      en: Build this route for your group profile
+      ru: Настроим маршрут под ваш профиль группы
+      uz: Bu marshrutni guruh profilingizga moslaymiz
+    description:
+      en: We can rebalance city time, mountain activity and transfer pace by traveler type.
+      ru: Сбалансируем время в городе, активность в горах и темп переездов.
+      uz: Shahar va tog' qismi hamda transfer tempini sayohatchilarga qarab sozlaymiz.
+    actions:
+      - type: link
+        variant: default
+        title:
+          en: Discuss this route
+          ru: Обсудить маршрут
+          uz: Marshrutni muhokama qilish
+        href: /help/contact
+      - type: link
+        variant: outline
+        title:
+          en: See Uzbekistan country guide
+          ru: Открыть гайд по Узбекистану
+          uz: O'zbekiston gidini ochish
+        href: uzbekistan
+
 seo:
   metaTitle:
-    en: Tashkent Region | TourLink
-    ru: Ташкентская область | TourLink
-    uz: Toshkent viloyati | TourLink
+    en: Tashkent & Chimgan — day route
+    ru: Ташкент и Чимган — маршрут на день
+    uz: Toshkent va Chimgan — kunlik marshrut
   metaDescription:
-    en: Explore Tashkent Region with TourLink — capital gateways, city culture, and nearby mountain escapes.
-    ru: Исследуйте Ташкентскую область с TourLink — столичные точки, городская культура и горные выезды.
-    uz: TourLink bilan Toshkent viloyatini kashf eting — poytaxt nuqtalari, shahar madaniyati va tog' sayohatlari.
+    en: Day route from Tashkent to Chimgan mountains and Charvak Lake with heritage stops in the capital.
+    ru: Однодневный маршрут из Ташкента в горы Чимган и на Чарвак с остановками по наследию столицы.
+    uz: Toshkentdan Chimgan tog'lari va Charvak ko'liga poytaxt merosi bilan kunlik marshrut.
   structuredDataType: TouristDestination
 status:
   showInSitemap: true
   noindex: false
   hideFromNavigation: false
-  publishedAt: "2025-06-01"
+  publishedAt: "2026-06-17"

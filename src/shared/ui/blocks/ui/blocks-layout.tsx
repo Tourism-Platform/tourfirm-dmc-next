@@ -1,4 +1,5 @@
-import { cn } from "@/shared/lib";
+import { type TBreadcrumbItem, cn } from "@/shared/lib";
+import { PageBreadcrumbs } from "@/shared/ui/breadcrumbs";
 
 import { BlockType, type TBlockRenderProps } from "../types/block-render.types";
 
@@ -7,11 +8,13 @@ import { BlockRender } from "./block-render";
 type TBlocksLayoutProps = {
 	sections: TBlockRenderProps[];
 	contentClassName?: string;
+	breadcrumbItems?: TBreadcrumbItem[];
 };
 
 export function BlocksLayout({
 	sections,
-	contentClassName = ""
+	contentClassName = "",
+	breadcrumbItems
 }: TBlocksLayoutProps) {
 	const heroSections = sections.filter(
 		(section) => section.blockType === BlockType.hero
@@ -28,7 +31,18 @@ export function BlocksLayout({
 	return (
 		<div className="flex flex-col">
 			{heroSections.map((section, index) => (
-				<BlockRender key={section.title ?? index} {...section} />
+				<BlockRender
+					key={section.title ?? index}
+					{...section}
+					topContent={
+						index === 0 && breadcrumbItems?.length ? (
+							<PageBreadcrumbs
+								items={breadcrumbItems}
+								className="mb-6 text-white/80"
+							/>
+						) : undefined
+					}
+				/>
 			))}
 			{overviewStatsSections.map((section, index) => (
 				<BlockRender key={index} {...section} />

@@ -1,0 +1,69 @@
+# Seed: коллекция attractions — Beldersay Gorge
+
+slug:
+  en: beldersay-gorge
+  ru: beldersay-gorge
+  uz: beldersay-gorge
+title:
+  en: Beldersay Gorge
+  ru: Ущелье Белdersay
+  uz: Beldersay yo'lagi
+subtitle:
+  en: Mountain gorge
+  ru: Горное ущелье
+  uz: Tog' yo'lagi
+excerpt:
+  en: Dramatic gorge scenery near Beldersay resort with seasonal streams and ridge walks.
+  ru: Эффектное ущелье у курорта Белdersay с сезонными ручьями и прогулками по гребню.
+  uz: Beldersay kurorti yaqinidagi ta'sirli yo'lak — mavsumiy oqimlar va tog' etagidagi yurishlar.
+country: uzbekistan
+region: tashkent-region
+city: chimgan
+type: NATURAL_SITE
+importance: RECOMMENDED
+latitude: 41.545
+longitude: 70.05
+heroImage: assets/images/city/tashkent.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/city/tashkent.jpg
+    imageAlt:
+      en: Beldersay Gorge
+      ru: Ущелье Белdersay
+      uz: Beldersay yo'lagi
+    title:
+      en: Beldersay Gorge
+      ru: Ущелье Белdersay
+      uz: Beldersay yo'lagi
+    description:
+      en: Dramatic gorge scenery near Beldersay resort with seasonal streams and ridge walks.
+      ru: Эффектное ущелье у курорта Белdersay с сезонными ручьями и прогулками по гребню.
+      uz: Beldersay kurorti yaqinidagi ta'sirli yo'lak — mavsumiy oqimlar va tog' etagidagi yurishlar.
+  - blockType: regular
+    eyebrow:
+      en: Visit tips
+      ru: Советы
+      uz: Maslahatlar
+    title:
+      en: Gorge walk timing
+      ru: Прогулка по ущелью
+      uz: Yo'lak bo'ylab yurish
+    description:
+      en: Combine with Beldersay resort visit. Spring and early summer bring strongest water flow; autumn offers clearer ridge views.
+      ru: Сочетайте с посещением курорта Белdersay. Весной и ранним летом сильнее поток воды; осенью — чище виды с гребня.
+      uz: Beldersay kurorti tashrifi bilan birlashtiring. Bahor va erta yozda suv oqimi kuchliroq; kuzda tog' etagidagi manzaralar aniqroq.
+seo:
+  metaTitle:
+    en: Beldersay Gorge | TourLink
+    ru: Ущелье Белdersay | TourLink
+    uz: Beldersay yo'lagi | TourLink
+  metaDescription:
+    en: Explore Beldersay Gorge near Chimgan — mountain scenery on the Tashkent day trip.
+    ru: Ущелье Белdersay у Чимгана — горные пейзажи однодневки из Ташкента.
+    uz: Chimgan yaqinidagi Beldersay yo'lagi — Toshkentdan kunlik sayohatdagi tog' manzaralari.
+  structuredDataType: TouristAttraction
+status:
+  showInSitemap: true
+  noindex: false
+  hideFromNavigation: false
+  publishedAt: "2026-06-17"

@@ -10,4 +10,8 @@ export {
 	buildRegionPath
 } from "./routing/build-geo-path";
 export { buildNavigationGeoPath } from "./routing/build-navigation-geo-path";
+export {
+	buildGeoBreadcrumbs,
+	type TBreadcrumbItem
+} from "./routing/build-geo-breadcrumbs";
 export { buildCmsPath } from "./routing/build-cms-path";

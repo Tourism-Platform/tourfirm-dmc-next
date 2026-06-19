@@ -10,6 +10,7 @@ type TCustomPageHeroProps = {
 	imageAlt: string;
 	title: ReactNode;
 	eyebrow?: ReactNode;
+	topContent?: ReactNode;
 	subtitle?: ReactNode;
 	description?: ReactNode;
 	note?: ReactNode;
@@ -40,6 +41,7 @@ export function CustomPageHero({
 	imageAlt,
 	title,
 	// eyebrow,
+	topContent,
 	subtitle,
 	description,
 	note,
@@ -67,6 +69,7 @@ export function CustomPageHero({
 					sizeClasses.container
 				)}
 			>
+				{topContent}
 				<div className="flex max-w-3xl flex-col gap-4 text-white">
 					{/* {eyebrow} */}
 					<h1 className="text-3xl font-semibold uppercase leading-tight sm:text-4xl lg:text-5xl">

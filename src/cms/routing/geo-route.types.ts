@@ -1,33 +1,37 @@
 import type { Attraction, City, Country, Region } from "@/payload-types";
 
+export type TGeoEntityType = "country" | "region" | "city" | "attraction";
+
+export type TGeoSegment = {
+	slug: string;
+	type: TGeoEntityType;
+};
+
+type TGeoRouteBase = {
+	path: string;
+	segments: readonly TGeoSegment[];
+};
+
 export type TGeoRoute =
-	| {
+	| (TGeoRouteBase & {
 			kind: "country";
 			document: Country;
-			path: string;
-			segments: readonly [string];
-	  }
-	| {
+	  })
+	| (TGeoRouteBase & {
 			kind: "region";
 			document: Region;
 			country: Country;
-			path: string;
-			segments: readonly [string, string];
-	  }
-	| {
+	  })
+	| (TGeoRouteBase & {
 			kind: "city";
 			document: City;
 			country: Country;
 			region: Region;
-			path: string;
-			segments: readonly [string, string, string];
-	  }
-	| {
+	  })
+	| (TGeoRouteBase & {
 			kind: "attraction";
 			document: Attraction;
 			country: Country;
 			region: Region;
 			city: City;
-			path: string;
-			segments: readonly [string, string, string, string];
-	  };
+	  });

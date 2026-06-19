@@ -8,7 +8,15 @@ import config from "@payload-config";
 import { getPayload, type CollectionSlug, type Payload } from "payload";
 import { parse as parseYaml } from "yaml";
 
-import type { Country } from "@/payload-types";
+import type { City, Country, Region } from "@/payload-types";
+
+type TRouteMapCollection = "countries" | "regions" | "cities";
+
+const ROUTE_MAP_CONTENT_DIRS: Record<TRouteMapCollection, string> = {
+	countries: "countries",
+	regions: "regions",
+	cities: "cities"
+};
 
 const LOCALES = ["en", "ru", "uz"] as const;
 type TLocale = (typeof LOCALES)[number];
@@ -705,7 +713,9 @@ async function resolveRegionSeedData(
 
 	const withBadges = resolveBadgeIds(result, badgeIds);
 
-	return resolveSeedDocument(payload, mediaCache, withBadges, locale);
+	return resolveSeedDocument(payload, mediaCache, withBadges, locale, {
+		deferRouteMapStops: true
+	});
 }
 
 async function resolveCitySeedData(
@@ -738,7 +748,9 @@ async function resolveCitySeedData(
 
 	const withBadges = resolveBadgeIds(result, badgeIds);
 
-	return resolveSeedDocument(payload, mediaCache, withBadges, locale);
+	return resolveSeedDocument(payload, mediaCache, withBadges, locale, {
+		deferRouteMapStops: true
+	});
 }
 
 async function findCityIdBySlug(
@@ -976,19 +988,23 @@ async function seedCountries(
 	return files.length;
 }
 
-async function refreshCountryRouteMapStops(
+async function refreshRouteMapStops(
 	payload: Payload,
+	collection: TRouteMapCollection,
 	badgeIds: Map<string, number>,
 	mediaCache: Map<string, number>
 ): Promise<void> {
-	const countriesDir = path.join(CONTENT_DIR, "countries");
-	const files = (await fs.readdir(countriesDir)).filter((file) =>
+	const contentDir = path.join(
+		CONTENT_DIR,
+		ROUTE_MAP_CONTENT_DIRS[collection]
+	);
+	const files = (await fs.readdir(contentDir)).filter((file) =>
 		file.endsWith(".yml")
 	);
 
 	for (const file of files) {
 		const item = await readYamlFile<Record<string, unknown>>(
-			path.join(countriesDir, file)
+			path.join(contentDir, file)
 		);
 
 		const blocks = item.blocks;
@@ -1017,7 +1033,7 @@ async function refreshCountryRouteMapStops(
 				: file.replace(/\.yml$/, "");
 
 		const existing = await payload.find({
-			collection: "countries",
+			collection,
 			where: {
 				slug: {
 					equals: slug
@@ -1029,10 +1045,12 @@ async function refreshCountryRouteMapStops(
 			overrideAccess: true
 		});
 
-		const country = existing.docs[0];
+		const doc = existing.docs[0];
 
-		if (!country) {
-			throw new Error(`Country not found for routeMap refresh: ${slug}`);
+		if (!doc) {
+			throw new Error(
+				`${collection} not found for routeMap refresh: ${slug}`
+			);
 		}
 
 		for (const locale of LOCALES) {
@@ -1046,18 +1064,23 @@ async function refreshCountryRouteMapStops(
 				locale
 			);
 
+			const blocksData = localeData.blocks as
+				| Country["blocks"]
+				| Region["blocks"]
+				| City["blocks"];
+
 			await payload.update({
-				collection: "countries",
-				id: country.id,
+				collection,
+				id: doc.id,
 				data: {
-					blocks: localeData.blocks as Country["blocks"]
+					blocks: blocksData
 				},
 				locale,
 				overrideAccess: true
 			});
 		}
 
-		console.log(`  ~ country routeMap stops ${slug}`);
+		console.log(`  ~ ${collection} routeMap stops ${slug}`);
 	}
 }
 
@@ -1238,13 +1261,16 @@ async function main(): Promise<void> {
 	const themesCount = await seedThemes(payload, mediaCache);
 	const countriesCount = await seedCountries(payload, badgeIds, mediaCache);
 	const regionsCount = await seedRegions(payload, badgeIds, mediaCache);
-	await refreshCountryRouteMapStops(payload, badgeIds, mediaCache);
 	const citiesCount = await seedCities(payload, badgeIds, mediaCache);
 	const attractionsCount = await seedAttractions(
 		payload,
 		badgeIds,
 		mediaCache
 	);
+
+	await refreshRouteMapStops(payload, "cities", badgeIds, mediaCache);
+	await refreshRouteMapStops(payload, "regions", badgeIds, mediaCache);
+	await refreshRouteMapStops(payload, "countries", badgeIds, mediaCache);
 	const navigationRootSlug = await seedDestination(payload, mediaCache);
 	await seedHomepage(payload, mediaCache, navigationRootSlug);
 

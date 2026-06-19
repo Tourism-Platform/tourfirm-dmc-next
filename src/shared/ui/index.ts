@@ -1,4 +1,5 @@
 export * from "./shadcn-ui";
+export * from "./breadcrumbs";
 export * from "./cards";
 export * from "./buttons";
 export * from "./blocks";
