@@ -56,7 +56,19 @@
 				"items": {
 					"terms": {
 						"label": "Foydalanish shartlari",
-						"description": "Xizmatdan foydalanish qoidalari"
+						"description": "Sayt va xizmat qoidalari"
+					},
+					"booking": {
+						"label": "Bron qilish shartlari",
+						"description": "Xizmatlar qanday tasdiqlanadi va to'lanadi"
+					},
+					"cancellation": {
+						"label": "Bekor qilish siyosati",
+						"description": "Bekor qilish, o'zgarishlar va qaytarishlar"
+					},
+					"cookies": {
+						"label": "Cookie siyosati",
+						"description": "Cookie va o'xshash texnologiyalar"
 					},
 					"privacy": {
 						"label": "Maxfiylik siyosati",

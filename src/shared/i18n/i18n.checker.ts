@@ -13,6 +13,9 @@ import helpFaqPageRu from "../../../messages/ru/help_faq_page.json";
 import helpMoreInfoPageRu from "../../../messages/ru/help_more_info_page.json";
 import helpSupportPageRu from "../../../messages/ru/help_support_page.json";
 import helpTrainingPageRu from "../../../messages/ru/help_training_page.json";
+import legalBookingPageRu from "../../../messages/ru/legal_booking_page.json";
+import legalCancellationPageRu from "../../../messages/ru/legal_cancellation_page.json";
+import legalCookiesPageRu from "../../../messages/ru/legal_cookies_page.json";
 import legalPrivacyPageRu from "../../../messages/ru/legal_privacy_page.json";
 import legalTermsPageRu from "../../../messages/ru/legal_terms_page.json";
 import mainPageRu from "../../../messages/ru/main_page.json";
@@ -33,6 +36,9 @@ import helpFaqPageUz from "../../../messages/uz/help_faq_page.json";
 import helpMoreInfoPageUz from "../../../messages/uz/help_more_info_page.json";
 import helpSupportPageUz from "../../../messages/uz/help_support_page.json";
 import helpTrainingPageUz from "../../../messages/uz/help_training_page.json";
+import legalBookingPageUz from "../../../messages/uz/legal_booking_page.json";
+import legalCancellationPageUz from "../../../messages/uz/legal_cancellation_page.json";
+import legalCookiesPageUz from "../../../messages/uz/legal_cookies_page.json";
 import legalPrivacyPageUz from "../../../messages/uz/legal_privacy_page.json";
 import legalTermsPageUz from "../../../messages/uz/legal_terms_page.json";
 import mainPageUz from "../../../messages/uz/main_page.json";
@@ -57,6 +63,9 @@ export const RU_TRANSLATION_CHECKER: TResources = {
 	company_feedback_page: companyFeedbackPageRu,
 	legal_terms_page: legalTermsPageRu,
 	legal_privacy_page: legalPrivacyPageRu,
+	legal_cookies_page: legalCookiesPageRu,
+	legal_cancellation_page: legalCancellationPageRu,
+	legal_booking_page: legalBookingPageRu,
 	help_support_page: helpSupportPageRu,
 	help_contact_page: helpContactPageRu,
 	help_faq_page: helpFaqPageRu,
@@ -80,6 +89,9 @@ export const UZ_TRANSLATION_CHECKER: TResources = {
 	company_feedback_page: companyFeedbackPageUz,
 	legal_terms_page: legalTermsPageUz,
 	legal_privacy_page: legalPrivacyPageUz,
+	legal_cookies_page: legalCookiesPageUz,
+	legal_cancellation_page: legalCancellationPageUz,
+	legal_booking_page: legalBookingPageUz,
 	help_support_page: helpSupportPageUz,
 	help_contact_page: helpContactPageUz,
 	help_faq_page: helpFaqPageUz,

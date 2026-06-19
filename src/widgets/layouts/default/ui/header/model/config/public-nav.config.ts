@@ -1,6 +1,9 @@
 import {
+	Ban,
 	Briefcase,
 	Building2,
+	ClipboardList,
+	Cookie,
 	GraduationCap,
 	Handshake,
 	HelpCircle,
@@ -111,8 +114,28 @@ export const PUBLIC_NAV_ITEMS: IPublicNavLink[] = [
 						description:
 							"public.nav.policies.items.terms.description",
 						icon: Scale,
-						path: ENUM_PATH.LEGAL.TERMS,
-						isSoon: true
+						path: ENUM_PATH.LEGAL.TERMS
+					},
+					{
+						label: "public.nav.policies.items.booking.label",
+						description:
+							"public.nav.policies.items.booking.description",
+						icon: ClipboardList,
+						path: ENUM_PATH.LEGAL.BOOKING
+					},
+					{
+						label: "public.nav.policies.items.cancellation.label",
+						description:
+							"public.nav.policies.items.cancellation.description",
+						icon: Ban,
+						path: ENUM_PATH.LEGAL.CANCELLATION
+					},
+					{
+						label: "public.nav.policies.items.cookies.label",
+						description:
+							"public.nav.policies.items.cookies.description",
+						icon: Cookie,
+						path: ENUM_PATH.LEGAL.COOKIES
 					},
 					{
 						label: "public.nav.policies.items.privacy.label",

@@ -1,0 +1,73 @@
+{
+	"meta": {
+		"title": "Cookie siyosati | TourLink",
+		"description": "TourLink tourlink.uz saytida cookie va o'xshash texnologiyalardan qanday foydalanadi."
+	},
+	"hero": {
+		"title": "Cookie siyosati",
+		"description": "Saytda qanday texnologiyalardan foydalanamiz, ular nima uchun kerak va sozlamalarni qanday boshqarish mumkin."
+	},
+	"sections": {
+		"what_are": {
+			"title": "Cookie nima",
+			"paragraphs": {
+				"p1": "Cookie — sayt qurilmangizda saqlaydigan kichik fayllardir. O'xshash texnologiyalar mahalliy saqlash, piksellar, teglar, skriptlar va qurilmada ma'lumot saqlaydigan yoki oladigan, shuningdek brauzerning texnik ma'lumotlarini yig'adigan vositalarni o'z ichiga oladi."
+			}
+		},
+		"how_we_use": {
+			"title": "TourLink cookie dan qanday foydalanadi",
+			"paragraphs": {
+				"p1": "TourLink cookie va o'xshash texnologiyalardan sayt to'g'ri ishlashi, til yoki ko'rinish sozlamalarini eslab qolishi, formalarni va sayt xavfsizligini himoya qilishi, saytdan umumiy foydalanishni tushunishi, texnik xatolarni aniqlashi hamda kontent va unumdorlikni yaxshilashi uchun foydalanadi yoki foydalanishi mumkin."
+			}
+		},
+		"essential": {
+			"title": "Qat'iy zarur texnologiyalar",
+			"paragraphs": {
+				"p1": "Ushbu texnologiyalar sayt ishlashi, foydalanuvchilarni to'g'ri yo'naltirish, xavfsizlik, suiiste'molning oldini olish, rozilik sozlamalarini eslab qolish yoki foydalanuvchi so'ragan funksiyani taqdim etish uchun zarur. Ular til, cookie sozlamalari, forma xavfsizligi, antispam, sessiya, hosting yoki marshrutlashni o'z ichiga olishi mumkin."
+			}
+		},
+		"analytics": {
+			"title": "Analitika",
+			"paragraphs": {
+				"p1": "TourLink maxfiylikni hurmat qiladigan analitikadan saytdan umumiy foydalanishni tushunish uchun foydalanishi mumkin: sahifa ko'rishlari va umumiy navigatsiya. Analitika reklama profillari, saytlararo kuzatuv va ortiqcha shaxsiy ma'lumot yig'ishsiz sozlanishi kerak.",
+				"p2": "Google Search Console qidiruvdagi ko'rinish va indekslashni tushunish uchun ham ishlatilishi mumkin. Bu analitik skriptlar kabi saytdagi tashrif buyuruvchilarni kuzatish cookie si emas."
+			}
+		},
+		"monitoring": {
+			"title": "Xatolarni monitoring qilish va xavfsizlik",
+			"paragraphs": {
+				"p1": "Texnik monitoring vositalari diagnostika ma'lumotlarini yig'ishi mumkin: sahifa URL manzili, brauzer, qurilma, xato vaqti va sayt nosozliklari yoki xavfsizlik muammolarini tuzatish uchun kerakli texnik kontekst. TourLink ushbu vositalarni ortiqcha shaxsiy ma'lumot yig'masdan sozlashga intiladi."
+			}
+		},
+		"marketing": {
+			"title": "Marketing cookie lari",
+			"paragraphs": {
+				"p1": "Ishga tushirishda TourLink reklama yoki qayta marketing cookie laridan foydalanmaydi. Agar keyinroq reklama piksellari, qayta marketing, hamkorlik kuzatuvi yoki marketing avtomatlashtiruvi joriy etilsa, ushbu siyosat yangilanadi va bunday vositalar ommaviy ishlatilishidan oldin kerakli rozilik sozlamalari qo'shiladi."
+			}
+		},
+		"manage": {
+			"title": "Cookie larni boshqarish",
+			"paragraphs": {
+				"p1": "Cookie larni brauzer sozlamalari, maxfiy rejim, kengaytmalar, maxfiylik vositalari, saqlangan cookie larni o'chirish yoki mavjud bo'lsa TourLink banneri/sozlamalar markazi orqali boshqarishingiz mumkin. Ba'zi cookie larni bloklash til, forma xavfsizligi yoki sozlamalaringizni eslab qolishga ta'sir qilishi mumkin."
+			}
+		},
+		"consent": {
+			"title": "Rozilik",
+			"paragraphs": {
+				"p1": "Rozilik talab qilingan joylarda TourLink majburiy bo'lmagan cookie yoki o'xshash texnologiyalarni o'rnatishdan oldin rozilik so'raydi. Sayt bunday sozlamani taqdim etsa, foydalanuvchi majburiy bo'lmagan cookie lardan voz kechishi va tanlovini o'zgartirishi kerak."
+			}
+		},
+		"changes": {
+			"title": "Siyosatdagi o'zgarishlar",
+			"paragraphs": {
+				"p1": "Sayt funksiyalari, analitika, monitoring, marketing vositalari yoki yuridik talablar o'zgarganda ushbu Cookie siyosatini yangilashimiz mumkin. Yangilangan versiyada yangi o'zgartirish sanasi ko'rsatiladi."
+			}
+		},
+		"contacts": {
+			"title": "Aloqa",
+			"paragraphs": {
+				"p1": "Ushbu sahifa yoki TourLink xizmatlari bo'yicha savollar uchun info@tourlink.uz manziliga yozing yoki saytda e'lon qilingan aloqa ma'lumotlaridan foydalaning."
+			}
+		}
+	}
+}

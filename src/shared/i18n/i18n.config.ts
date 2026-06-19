@@ -13,6 +13,9 @@ import helpFaqPage from "../../../messages/en/help_faq_page.json";
 import helpMoreInfoPage from "../../../messages/en/help_more_info_page.json";
 import helpSupportPage from "../../../messages/en/help_support_page.json";
 import helpTrainingPage from "../../../messages/en/help_training_page.json";
+import legalBookingPage from "../../../messages/en/legal_booking_page.json";
+import legalCancellationPage from "../../../messages/en/legal_cancellation_page.json";
+import legalCookiesPage from "../../../messages/en/legal_cookies_page.json";
 import legalPrivacyPage from "../../../messages/en/legal_privacy_page.json";
 import legalTermsPage from "../../../messages/en/legal_terms_page.json";
 import mainPage from "../../../messages/en/main_page.json";
@@ -36,6 +39,9 @@ export type TCompanyNewsPage = typeof companyNewsPage;
 export type TCompanyFeedbackPage = typeof companyFeedbackPage;
 export type TLegalTermsPage = typeof legalTermsPage;
 export type TLegalPrivacyPage = typeof legalPrivacyPage;
+export type TLegalCookiesPage = typeof legalCookiesPage;
+export type TLegalCancellationPage = typeof legalCancellationPage;
+export type TLegalBookingPage = typeof legalBookingPage;
 export type THelpSupportPage = typeof helpSupportPage;
 export type THelpContactPage = typeof helpContactPage;
 export type THelpFaqPage = typeof helpFaqPage;
@@ -58,6 +64,9 @@ export type TResources = {
 	company_feedback_page: TCompanyFeedbackPage;
 	legal_terms_page: TLegalTermsPage;
 	legal_privacy_page: TLegalPrivacyPage;
+	legal_cookies_page: TLegalCookiesPage;
+	legal_cancellation_page: TLegalCancellationPage;
+	legal_booking_page: TLegalBookingPage;
 	help_support_page: THelpSupportPage;
 	help_contact_page: THelpContactPage;
 	help_faq_page: THelpFaqPage;
@@ -81,6 +90,9 @@ export const MESSAGE_NAMESPACES = [
 	"company_feedback_page",
 	"legal_terms_page",
 	"legal_privacy_page",
+	"legal_cookies_page",
+	"legal_cancellation_page",
+	"legal_booking_page",
 	"help_support_page",
 	"help_contact_page",
 	"help_faq_page",
@@ -105,6 +117,9 @@ export type TCompanyNewsPageKeys = TNestedKeyOf<TCompanyNewsPage>;
 export type TCompanyFeedbackPageKeys = TNestedKeyOf<TCompanyFeedbackPage>;
 export type TLegalTermsPageKeys = TNestedKeyOf<TLegalTermsPage>;
 export type TLegalPrivacyPageKeys = TNestedKeyOf<TLegalPrivacyPage>;
+export type TLegalCookiesPageKeys = TNestedKeyOf<TLegalCookiesPage>;
+export type TLegalCancellationPageKeys = TNestedKeyOf<TLegalCancellationPage>;
+export type TLegalBookingPageKeys = TNestedKeyOf<TLegalBookingPage>;
 export type THelpSupportPageKeys = TNestedKeyOf<THelpSupportPage>;
 export type THelpContactPageKeys = TNestedKeyOf<THelpContactPage>;
 export type THelpFaqPageKeys = TNestedKeyOf<THelpFaqPage>;

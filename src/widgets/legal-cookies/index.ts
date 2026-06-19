@@ -1,0 +1,1 @@
+export { LegalCookies } from "./ui";

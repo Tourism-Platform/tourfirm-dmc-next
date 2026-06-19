@@ -1,0 +1,76 @@
+{
+	"meta": {
+		"title": "Cancellation policy | TourLink",
+		"description": "TourLink cancellation rules before and after confirmation, refunds and extraordinary circumstances."
+	},
+	"hero": {
+		"title": "Cancellation policy",
+		"description": "How cancellation, changes and refunds work for TourLink bookings."
+	},
+	"sections": {
+		"booking_terms_first": {
+			"title": "Specific booking terms come first",
+			"paragraphs": {
+				"p1": "Cancellation terms may differ depending on the tour, supplier, season, group size, destination, special event, hotel, transport, permit, ticket, MICE service or B2B contract.",
+				"p2": "For a confirmed booking, cancellation terms in the written proposal, invoice, booking confirmation, supplier terms or signed agreement apply first. This public policy applies where such documents are silent, or supplements them with general rules where there is no conflict."
+			}
+		},
+		"before_confirmation": {
+			"title": "Before booking confirmation",
+			"paragraphs": {
+				"p1": "An enquiry can usually be withdrawn before confirmation without a TourLink penalty. If you have already asked TourLink in writing to make a paid reservation, buy a ticket, obtain a permit, hold hotel rooms, enter a supplier contract or incur another cost, non-refundable and reasonable administrative costs may be charged to you."
+			}
+		},
+		"after_confirmation": {
+			"title": "After booking confirmation",
+			"paragraphs": {
+				"p1": "After confirmation, cancellation fees may apply. They may include non-refundable supplier costs, deposits or prepayments already paid, tickets, permits, visa support, booking fees, hotel or transport penalties, bank and payment fees, conversion costs and reasonable TourLink operational costs.",
+				"p2": "TourLink calculates the cancellation amount based on the specific booking terms, supplier terms, amounts actually refundable and applicable law."
+			}
+		},
+		"client_changes": {
+			"title": "Changes requested by the client",
+			"paragraphs": {
+				"p1": "A request to change dates, traveller names, group size, accommodation, transport, guide language, route, services or programme may be treated as a partial cancellation and new booking if the original services cannot be changed without cost."
+			}
+		},
+		"no_show": {
+			"title": "No-show and unused services",
+			"paragraphs": {
+				"p1": "If a traveller does not arrive, is late, leaves early, misses a transfer, train or flight, refuses a service or does not use an included service for reasons not attributable to TourLink, a refund is not guaranteed.",
+				"p2": "TourLink will try to help where reasonably possible, but additional costs due to delay, missed services, transport replacement, accommodation changes, guide waiting time or route restructuring may be charged to the client."
+			}
+		},
+		"tourlink_cancellation": {
+			"title": "Cancellation by TourLink",
+			"paragraphs": {
+				"p1": "TourLink may cancel or materially change a confirmed booking before travel if payments are not received on time, required data is not provided in time, supplier services are unavailable, safety or legality prevent the programme from running, force majeure affects the route or a stated condition is not met, such as minimum group size.",
+				"p2": "If TourLink cancels for reasons not attributable to the client, TourLink will explain the situation and offer a refund, credit, postponement or alternative where appropriate and lawful. The exact outcome depends on booking terms, supplier refunds, applicable law and the reason for cancellation."
+			}
+		},
+		"emergency": {
+			"title": "Extraordinary circumstances",
+			"paragraphs": {
+				"p1": "Extraordinary circumstances may include natural disasters, severe weather, health emergencies, war, unrest, terrorist risk, border closures, government actions, sanctions, transport disruptions, major supplier failure, strikes, route closures, safety warnings or other events beyond reasonable control."
+			}
+		},
+		"refunds": {
+			"title": "Refunds",
+			"paragraphs": {
+				"p1": "Approved refunds are usually returned to the original payer or another lawful account agreed in writing. Timing depends on supplier refunds, bank processing, currency rules, accounting checks and payment method. Bank fees, intermediary fees, payment provider fees and conversion losses may be deducted where permitted by booking terms and applicable law."
+			}
+		},
+		"how_to_cancel": {
+			"title": "How to cancel",
+			"paragraphs": {
+				"p1": "Cancellation requests must be sent in writing to the booking contact or info@tourlink.uz. The cancellation date is the date and time TourLink receives the written request, unless the booking confirmation sets a different rule. For urgent cancellation during travel, contact the guide, tour leader, operations contact or support immediately and then confirm cancellation in writing."
+			}
+		},
+		"contacts": {
+			"title": "Contact",
+			"paragraphs": {
+				"p1": "For questions about this page or TourLink services, email info@tourlink.uz or use the contacts published on the website."
+			}
+		}
+	}
+}
