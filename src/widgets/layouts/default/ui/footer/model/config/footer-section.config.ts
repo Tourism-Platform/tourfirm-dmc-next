@@ -58,8 +58,19 @@ export const FOOTER_SECTIONS: IFooterSectionConfig[] = [
 		links: [
 			{
 				label: "sections.policies.links.terms",
-				path: ENUM_PATH.LEGAL.TERMS,
-				isSoon: true
+				path: ENUM_PATH.LEGAL.TERMS
+			},
+			{
+				label: "sections.policies.links.booking",
+				path: ENUM_PATH.LEGAL.BOOKING
+			},
+			{
+				label: "sections.policies.links.cancellation",
+				path: ENUM_PATH.LEGAL.CANCELLATION
+			},
+			{
+				label: "sections.policies.links.cookies",
+				path: ENUM_PATH.LEGAL.COOKIES
 			},
 			{
 				label: "sections.policies.links.privacy",

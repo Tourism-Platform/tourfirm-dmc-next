@@ -9,10 +9,7 @@ const RouteMap = dynamic(
 	{
 		ssr: false,
 		loading: () => (
-			<div
-				className="bg-muted h-full w-full animate-pulse"
-				aria-hidden
-			/>
+			<div className="bg-muted h-full w-full animate-pulse" aria-hidden />
 		)
 	}
 );

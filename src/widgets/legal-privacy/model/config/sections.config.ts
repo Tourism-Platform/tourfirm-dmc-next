@@ -1,6 +1,6 @@
-import type { TPrivacyContentSection } from "../types/sections.types";
+import type { TLegalDocumentContentSection } from "@/widgets/legal-document";
 
-export const PRIVACY_CONTENT_SECTIONS: TPrivacyContentSection[] = [
+export const PRIVACY_CONTENT_SECTIONS: TLegalDocumentContentSection[] = [
 	{
 		type: "paragraphs",
 		title: "sections.who_we.title",

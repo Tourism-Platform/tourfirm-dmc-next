@@ -17,7 +17,10 @@ export const ENUM_PATH = {
 	},
 	LEGAL: {
 		TERMS: "/legal/terms",
-		PRIVACY: "/legal/privacy"
+		PRIVACY: "/legal/privacy",
+		COOKIES: "/legal/cookies",
+		CANCELLATION: "/legal/cancellation",
+		BOOKING: "/legal/booking"
 	},
 	HELP: {
 		SUPPORT: "/help/support",

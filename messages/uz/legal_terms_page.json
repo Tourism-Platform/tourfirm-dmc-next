@@ -1,4 +1,85 @@
 {
-	"title": "Foydalanish shartlari",
-	"description": "Bo'lim ishlab chiqilmoqda"
+	"meta": {
+		"title": "Foydalanish shartlari | TourLink",
+		"description": "tourlink.uz sayti va TourLink xizmatlaridan foydalanish qoidalari."
+	},
+	"hero": {
+		"title": "Foydalanish shartlari",
+		"description": "TourLink sayti, undagi ma'lumotlar va so'rov kanallaridan qonuniy va mas'uliyatli foydalanish qoidalari."
+	},
+	"sections": {
+		"operator": {
+			"title": "Sayt operatori",
+			"paragraphs": {
+				"p1": "Sayt O'zbekistondagi tur operatori TourLink LLC tomonidan boshqariladi. Saytda TourLink yo'nalishlari, xizmatlari, amaliy ma'lumotlar, kompaniya haqida ma'lumot va so'rov kanallari taqdim etiladi."
+			}
+		},
+		"use": {
+			"title": "Saytdan foydalanish",
+			"paragraphs": {
+				"p1": "Siz saytdan qonuniy va mas'uliyatli foydalanishga rozilik bildirasiz. Formalardan suiiste'mol qilish, yolg'on yoki zararli ma'lumot yuborish, sayt xavfsizligiga aralashish, ruxsatsiz kontentni nusxalash yoki e'lon qilish, boshqa shaxs yoki tashkilot nomidan chiqish, spam yoki zararli fayllar yuborish hamda saytni ortiqcha yuklaydigan avtomatik so'rovlarni yuborish mumkin emas."
+			}
+		},
+		"not_booking": {
+			"title": "So'rov tasdiqlangan bron emas",
+			"paragraphs": {
+				"p1": "Forma yuborish, xabar yuborish, marshrutni muhokama qilish yoki namunaviy dastur olish tasdiqlangan bron yaratmaydi. Bron faqat TourLink xizmatlari, narxi, to'lov shartlari va bron shartlari ko'rsatilgan yozma tasdiqdan keyin mavjud bo'ladi."
+			}
+		},
+		"site_info": {
+			"title": "Saytdagi ma'lumotlar",
+			"paragraphs": {
+				"p1": "Biz yo'nalishlar, sayohatlar, xizmatlar va kompaniya haqidagi ma'lumotlarni foydali va aniq saqlashga intilamiz. Sayohat shartlari o'zgarishi mumkin: marshrutlarga kirish, ish vaqti, chegaralar, vizalar, ruxsatnomalar, ob-havo, transport, yetkazib beruvchilar mavjudligi, narxlar va xavfsizlik masalalari.",
+				"p2": "Saytdagi ma'lumotlar umumiy xarakterga ega. Ular majburiy tur shartnomasi, viza maslahati, yuridik yoki tibbiy maslahat yoki xavfsizlik kafolati emas."
+			}
+		},
+		"offers": {
+			"title": "Takliflar va xizmatlar mavjudligi",
+			"paragraphs": {
+				"p1": "Saytdagi har qanday marshrut, tur g'oyasi, xizmat tavsifi, taxminiy narx, kiritilgan yoki kiritilmagan xizmatlar yoki sana tasdiqlanishi kerak. Yakuniy shartlar yozma taklif, hisob-faktura, bron tasdiqi, shartnoma yoki B2B kelishuv bilan belgilanadi."
+			}
+		},
+		"ip": {
+			"title": "Intellektual mulk",
+			"paragraphs": {
+				"p1": "Sayt, brend materiallari, matnlar, tuzilma, dizayn, sahifa maketlari, fotosuratlar, grafika, ikonlar, ma'lumotlar va boshqa kontent TourLinkga tegishli yoki litsenziya asosida ishlatiladi, agar boshqacha ko'rsatilmagan bo'lsa. Siz kontentni shaxsiy baholash yoki TourLink xizmatlarini ichki biznes baholash uchun ko'rishingiz mumkin, lekin yozma ruxsatsiz tijorat maqsadida foydalana olmaysiz."
+			}
+		},
+		"submissions": {
+			"title": "Siz yuborgan ma'lumotlar",
+			"paragraphs": {
+				"p1": "TourLinkga ma'lumot yuborish orqali siz uni o'z bilimingiz darajasida aniq ekanini va uni uzatish huquqiga ega ekaningizni tasdiqlaysiz. Agar boshqa sayohatchilar, xodimlar, mijozlar yoki hamkorlar ma'lumotlarini uzatsangiz, bunday uzatishning qonuniyligi uchun javobgarsiz."
+			}
+		},
+		"external_links": {
+			"title": "Tashqi havolalar va xizmatlar",
+			"paragraphs": {
+				"p1": "Sayt xaritalar, davlat organlari, ijtimoiy platformalar, messenjerlar, yetkazib beruvchi sahifalari yoki boshqa tashqi xizmatlarga havola qilishi mumkin. Biz uchinchi tomon saytlarini nazorat qilmaymiz va ularning kontenti, mavjudligi, xavfsizligi yoki maxfiylik amaliyotlari uchun javobgar emasmiz."
+			}
+		},
+		"liability": {
+			"title": "Javobgarlik",
+			"paragraphs": {
+				"p1": "Qonun ruxsat bergan darajada TourLink tasdiqlangan bron hujjatlari o'rniga saytdagi umumiy ma'lumotlarga tayanish, foydalanuvchi ma'lumotlaridagi xatolar, uchinchi tomon xizmatlari, internet yoki hostingdagi nosozliklar yoki bizning oqilona nazoratimizdan tashqari hodisalar sababli yuzaga kelgan zararlar uchun javobgar emas."
+			}
+		},
+		"law": {
+			"title": "Qo'llaniladigan huquq",
+			"paragraphs": {
+				"p1": "Ushbu Shartlar O'zbekiston Respublikasi qonunlari qo'llanilishi nazarda tutilgan, agar boshqa yurisdiktsiyaning majburiy qoidalari qo'llanilmasa va ularni istisno qilish mumkin bo'lmasa."
+			}
+		},
+		"changes": {
+			"title": "Shartlardagi o'zgarishlar",
+			"paragraphs": {
+				"p1": "Sayt, xizmatlar, kompaniya jarayonlari yoki yuridik talablar o'zgarganda ushbu Shartlarni yangilashimiz mumkin. Yangilangan versiyada yangi o'zgartirish sanasi ko'rsatiladi."
+			}
+		},
+		"contacts": {
+			"title": "Aloqa",
+			"paragraphs": {
+				"p1": "Ushbu sahifa yoki TourLink xizmatlari bo'yicha savollar uchun info@tourlink.uz manziliga yozing yoki saytda e'lon qilingan aloqa ma'lumotlaridan foydalaning."
+			}
+		}
+	}
 }

@@ -1,0 +1,1 @@
+export { LegalTerms } from "./ui";

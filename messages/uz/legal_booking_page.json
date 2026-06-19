@@ -1,0 +1,101 @@
+{
+	"meta": {
+		"title": "Bron qilish shartlari | TourLink",
+		"description": "TourLink sayohat xizmatlarini qanday so'rash, tasdiqlash va to'lash."
+	},
+	"hero": {
+		"title": "Bron qilish shartlari",
+		"description": "TourLink sayohat dasturlarini so'rash, tasdiqlash, to'lash va o'tkazish qoidalari."
+	},
+	"sections": {
+		"scope": {
+			"title": "Ushbu shartlar kimga tegishli",
+			"paragraphs": {
+				"p1": "Ushbu Bron qilish shartlari TourLinkdan sayohat xizmatlarini so'raydigan yoki bron qiladigan sayohatchilar, guruh rahbarlari, korporativ mijozlar, agentliklar va hamkorlarga tegishli.",
+				"p2": "TourLink sayohat dasturlarini ishlab chiqadi va o'tkazadi hamda marshrut uchun kerakli mehmonxona, transport, gid, restoran, maydon, ruxsatnoma hamkori va boshqa yetkazib beruvchi xizmatlarini muvofiqlashtirishi mumkin."
+			}
+		},
+		"request_confirmation": {
+			"title": "So'rov va tasdiqlash",
+			"paragraphs": {
+				"p1": "So'rov bron emas. Bron faqat TourLink xizmatlarining yozma tasdiqlanishi va tegishli hisob-faktura, taklif, bron tasdiqi yoki shartnomaga muvofiq depozit, oldindan to'lov yoki to'liq to'lov shartining bajarilishidan keyin tasdiqlanadi."
+			}
+		},
+		"booking_process": {
+			"title": "Odatiy bron jarayoni",
+			"items": {
+				"step1": "Siz sanalar, yo'nalishlar, guruh hajmi, qiziqishlar va amaliy talablar bilan so'rov yuborasiz.",
+				"step2": "TourLink so'rovni ko'rib chiqadi va yetishmayotgan tafsilotlarni aniqlashtirishi mumkin.",
+				"step3": "TourLink taklif, marshrut, hisob-kitob, mavjudlik eslatmasi yoki xizmat rejasini tayyorlaydi.",
+				"step4": "Siz davom etish istagingizni tasdiqlaysiz.",
+				"step5": "TourLink to'lov ko'rsatmalarini, hisob-fakturani, bron tasdigini yoki shartnomani taqdim etadi.",
+				"step6": "Bron faqat TourLink tomonidan yozma qabul qilinishi va talab qilinadigan to'lov sharti bajarilgandan keyin tasdiqlangan hisoblanadi."
+			}
+		},
+		"pricing": {
+			"title": "Narxlar, kiritilgan va kiritilmagan xizmatlar",
+			"paragraphs": {
+				"p1": "Narxlar yozma tasdiqlanishgacha yakuniy emas. Ular sanalar, guruh hajmi, joylashuv ro'yxati, valyuta, yetkazib beruvchilar mavjudligi, soliqlar, yoqilg'i, transport, gid tili, ruxsatnomalar, chipta toifasi va boshqa operatsion omillarga bog'liq bo'lishi mumkin.",
+				"p2": "Faqat to'g'ridan-to'g'ri kiritilgan deb ko'rsatilgan xizmatlar kiritilgan hisoblanadi. Xalqaro parvozlar, shaxsiy xarajatlar, sug'urta, viza to'lovlari, pasport xarajatlari, qo'shimcha faoliyatlar, erta kirish, kech chiqish, ortiqcha bagaj, shaxsiy choy puli, kiritilganlar ro'yxatidan tashqari ovqatlanish va sayohatchilar o'zgarishi yoki kechikishi sababli xarajatlar odatda kiritilmaydi."
+			}
+		},
+		"payment": {
+			"title": "To'lov",
+			"paragraphs": {
+				"p1": "To'lov shartlari hisob-faktura, bron tasdiqi, taklif yoki shartnomada ko'rsatilgan. TourLink yetkazib beruvchi muddatlari, sayohat sanalari, guruh hajmi va xizmat turiga qarab depozit, bosqichma-bosqich to'lov yoki to'liq oldindan to'lov so'rashi mumkin.",
+				"p2": "Ishga tushirishda sayt onlayn to'lovni qabul qilmaydi. To'lov usullari, bank rekvizitlari, to'lov muddatlari, valyuta, bank komissiyalari va konvertatsiya xarajatlari har bir bron uchun yozma tasdiqlanadi."
+			}
+		},
+		"traveller_data": {
+			"title": "Sayohatchilar ma'lumotlari",
+			"paragraphs": {
+				"p1": "So'rov bo'yicha aniq va to'liq sayohatchilar ma'lumotlarini taqdim etishingiz kerak. Bu pasportdagi ismlar, fuqarolik, tug'ilgan sana, pasport ma'lumotlari, viza holati, kelish va ketish, joylashuv ro'yxati, ovqatlanish, qulaylik, favqulodda aloqa va xizmatni to'g'ri ko'rsatish uchun kerak bo'lgan boshqa ma'lumotlarni o'z ichiga olishi mumkin."
+			}
+		},
+		"documents": {
+			"title": "Pasportlar, vizalar, ruxsatnomalar va kirish qoidalari",
+			"paragraphs": {
+				"p1": "Sayohatchilar amaldagi pasportlar, vizalar, ruxsatnomalar, emlashlar, kirish huquqi va sayohat hujjatlari uchun javobgardir, agar yozma bron tasdiqi TourLink aniq yordam xizmatini ko'rsatishini aytmasa.",
+				"p2": "Viza, chegara, ruxsat, ro'yxatdan o'tish va migratsiya qoidalari o'zgarishi mumkin. Sayohatdan oldin sayohatchilar talablarni vakolatli organ, elchixona, konsullik yoki rasmiy manbadan tekshirishlari kerak."
+			}
+		},
+		"health": {
+			"title": "Salomatlik, qulaylik va xavfsizlik",
+			"paragraphs": {
+				"p1": "Tasdiqlanishdan oldin sayohatchilar sayohatga ta'sir qilishi mumkin bo'lgan salomatlik, harakatchanlik, ovqatlanish, allergiya, qulaylik, yosh yoki xavfsizlik masalalari haqida TourLinkga xabar berishlari kerak. Ba'zi marshrutlar uzoq yo'l, uzoq hududlar, balandlik, cho'l sharoitlari, tog' yo'llari, tekis bo'lmagan sirtlar, chegaralar, ob-havo ta'siri, asosiy infratuzilma yoki cheklangan tibbiy yordamni o'z ichiga oladi.",
+				"p2": "TourLink tibbiy yordam, bekor qilish, kechikishlar, bagaj va sayohatga kiritilgan faoliyatlarni qamrab oladigan mos sayohat sug'urtasini rasmiylashtirishni tavsiya qiladi."
+			}
+		},
+		"changes": {
+			"title": "Sayohatdan oldin yoki davomida o'zgarishlar",
+			"paragraphs": {
+				"p1": "TourLink marshrutni yetkazib beruvchilar mavjudligi, mahalliy cheklovlar, ob-havo, yo'l holati, chegara qoidalari, ish vaqti, xavfsizlik, favqulodda holat yoki boshqa operatsion sabablarga ko'ra tuzatishi mumkin. Muhim o'zgarish kerak bo'lsa, TourLink oqilona muqobil taklif qilishga harakat qiladi.",
+				"p2": "Mijoz so'ragan o'zgarishlar mavjudlikka bog'liq va narxni oshirishi mumkin. O'zgarishlar faqat TourLink tomonidan yozma tasdiqlangandan keyin amalga oshiriladi."
+			}
+		},
+		"during_trip": {
+			"title": "Sayohat paytida",
+			"paragraphs": {
+				"p1": "Sayohatchilar oqilona xavfsizlik ko'rsatmalariga, mahalliy qonunlarga, madaniy ob'ektlar, mehmonxonalar, transport, chegaralar qoidalariga, gid ko'rsatmalariga va marshrut jadvaliga rioya qilishlari kerak. Sayohatchilar shaxsiy buyumlari va zarar, kechikish, xavf yoki dastur buzilishiga olib keladigan xatti-harakatlari uchun javobgardir."
+			}
+		},
+		"service_issues": {
+			"title": "Xizmat muammolari",
+			"paragraphs": {
+				"p1": "Sayohat paytida muammo yuzaga kelsa, jamoa tezda javob bera olishi uchun TourLink gidi, tur rahbari, operatsion aloqa yoki qo'llab-quvvatlash bilan imkon qadar tezroq bog'laning. Sayohatdan keyin hal etilmagan masalalar bron bo'yicha aloqa shaxsiga yoki qo'llab-quvvatlashga bron raqami, sanalar, sayohatchi ismi va aniq tavsif bilan yuborilishi kerak."
+			}
+		},
+		"cancellation": {
+			"title": "Bekor qilish",
+			"paragraphs": {
+				"p1": "Bekor qilish qoidalari Bekor qilish siyosatida tavsiflangan va aniq taklif, hisob-faktura, bron tasdiqi, yetkazib beruvchi shartlari yoki imzolangan shartnomadagi bekor qilish shartlari bilan to'ldirilishi yoki almashtirilishi mumkin."
+			}
+		},
+		"contacts": {
+			"title": "Aloqa",
+			"paragraphs": {
+				"p1": "Ushbu sahifa yoki TourLink xizmatlari bo'yicha savollar uchun info@tourlink.uz manziliga yozing yoki saytda e'lon qilingan aloqa ma'lumotlaridan foydalaning."
+			}
+		}
+	}
+}

@@ -1,6 +1,6 @@
 export * from "./config";
 export type {
-	TPrivacyContentSection,
-	TPrivacyListSection,
-	TPrivacyParagraphsSection
-} from "./types";
+	TLegalDocumentContentSection as TPrivacyContentSection,
+	TLegalDocumentListSection as TPrivacyListSection,
+	TLegalDocumentParagraphsSection as TPrivacyParagraphsSection
+} from "@/widgets/legal-document";

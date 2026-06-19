@@ -55,8 +55,20 @@
 				"label": "Policies",
 				"items": {
 					"terms": {
-						"label": "Terms & conditions",
-						"description": "Terms of use"
+						"label": "Terms of use",
+						"description": "Website and service rules"
+					},
+					"booking": {
+						"label": "Booking terms",
+						"description": "How services are confirmed and paid"
+					},
+					"cancellation": {
+						"label": "Cancellation policy",
+						"description": "Cancellations, changes and refunds"
+					},
+					"cookies": {
+						"label": "Cookie policy",
+						"description": "Cookies and similar technologies"
 					},
 					"privacy": {
 						"label": "Privacy policy",

@@ -1,13 +1,13 @@
-import { PrivacyContent } from "./privacy-content";
-import { PrivacyHero } from "./privacy-hero";
+import { LegalDocument } from "@/widgets/legal-document";
+
+import { PRIVACY_CONTENT_SECTIONS, PRIVACY_HERO_IMAGE } from "../model";
 
 export function LegalPrivacy() {
 	return (
-		<div className="flex flex-col">
-			<PrivacyHero />
-			<div className="mx-auto flex w-full max-w-7xl flex-col px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
-				<PrivacyContent />
-			</div>
-		</div>
+		<LegalDocument
+			namespace="legal_privacy_page"
+			imageSrc={PRIVACY_HERO_IMAGE}
+			sections={PRIVACY_CONTENT_SECTIONS}
+		/>
 	);
 }

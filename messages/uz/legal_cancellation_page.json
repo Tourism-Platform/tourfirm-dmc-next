@@ -1,0 +1,76 @@
+{
+	"meta": {
+		"title": "Bekor qilish siyosati | TourLink",
+		"description": "TourLink bronlarini tasdiqlashdan oldin va keyin bekor qilish qoidalari, qaytarishlar va favqulodda holatlar."
+	},
+	"hero": {
+		"title": "Bekor qilish siyosati",
+		"description": "TourLink bronlari uchun bekor qilish, o'zgartirishlar va qaytarishlar qanday ishlaydi."
+	},
+	"sections": {
+		"booking_terms_first": {
+			"title": "Avvalo aniq bron shartlari qo'llaniladi",
+			"paragraphs": {
+				"p1": "Bekor qilish shartlari tur, yetkazib beruvchi, mavsum, guruh hajmi, yo'nalish, maxsus tadbir, mehmonxona, transport, ruxsatnoma, chipta, MICE xizmati yoki B2B shartnomaga qarab farq qilishi mumkin.",
+				"p2": "Tasdiqlangan bron uchun yozma taklif, hisob-faktura, bron tasdiqi, yetkazib beruvchi shartlari yoki imzolangan kelishuvdagi bekor qilish shartlari birinchi navbatda qo'llaniladi. Ushbu ommaviy siyosat bunday hujjatlar jim bo'lgan joylarda qo'llaniladi yoki ziddiyat bo'lmasa, ularni umumiy qoidalar bilan to'ldiradi."
+			}
+		},
+		"before_confirmation": {
+			"title": "Bron tasdiqlanishidan oldin",
+			"paragraphs": {
+				"p1": "So'rov odatda tasdiqlanishidan oldin TourLink jarimasisiz qaytarib olinishi mumkin. Agar siz allaqachon TourLinkdan pullik bron qilish, chipta sotib olish, ruxsatnoma olish, mehmonxonada joy band qilish, yetkazib beruvchi bilan shartnoma tuzish yoki boshqa xarajat qilishni yozma so'ragan bo'lsangiz, qaytarib bo'lmaydigan va oqilona ma'muriy xarajatlar sizga yuklanishi mumkin."
+			}
+		},
+		"after_confirmation": {
+			"title": "Bron tasdiqlangandan keyin",
+			"paragraphs": {
+				"p1": "Tasdiqlangandan keyin bekor qilish to'lovlari qo'llanilishi mumkin. Ular qaytarib bo'lmaydigan yetkazib beruvchi xarajatlari, allaqachon to'langan depozit yoki oldindan to'lovlar, chiptalar, ruxsatnomalar, viza yordami, bron to'lovlari, mehmonxona yoki transport jarimalari, bank va to'lov komissiyalari, konvertatsiya xarajatlari hamda oqilona TourLink operatsion xarajatlarini o'z ichiga olishi mumkin.",
+				"p2": "TourLink bekor qilish summasini aniq bron shartlari, yetkazib beruvchi shartlari, haqiqatan qaytariladigan mablag'lar va qo'llaniladigan qonun asosida hisoblaydi."
+			}
+		},
+		"client_changes": {
+			"title": "Mijoz so'ragan o'zgarishlar",
+			"paragraphs": {
+				"p1": "Sanalar, sayohatchilar ismlari, guruh hajmi, joylashuv, transport, gid tili, marshrut, xizmatlar yoki dasturni o'zgartirish so'rovi, agar dastlabki xizmatlarni xarajatsiz o'zgartirib bo'lmasa, qisman bekor qilish va yangi bron sifatida ko'rilishi mumkin."
+			}
+		},
+		"no_show": {
+			"title": "Kelmaslik va foydalanilmagan xizmatlar",
+			"paragraphs": {
+				"p1": "Agar sayohatchi kelmasa, kechiksa, erta ketsa, transfer, poezd yoki reysni o'tkazib yuborsa, xizmatdan voz kechsa yoki TourLink sababli bo'lmagan sabablarga ko'ra kiritilgan xizmatdan foydalanmasa, qaytarish kafolatlanmaydi.",
+				"p2": "TourLink oqilona imkon bo'lganda yordam berishga harakat qiladi, lekin kechikish, o'tkazib yuborilgan xizmatlar, transport almashtirish, joylashuv o'zgarishi, gid kutish vaqti yoki marshrutni qayta tuzish sababli qo'shimcha xarajatlar mijozga yuklanishi mumkin."
+			}
+		},
+		"tourlink_cancellation": {
+			"title": "TourLink tomonidan bekor qilish",
+			"paragraphs": {
+				"p1": "TourLink to'lovlar o'z vaqtida olinmasa, kerakli ma'lumotlar o'z vaqtida taqdim etilmasa, yetkazib beruvchi xizmatlari mavjud bo'lmasa, xavfsizlik yoki qonuniylik dasturni o'tkazishga imkon bermasa, marshrutga favqulodda holat ta'sir qilsa yoki minimal guruh hajmi kabi ko'rsatilgan shart bajarilmasa, sayohatdan oldin tasdiqlangan bronni bekor qilishi yoki sezilarli darajada o'zgartirishi mumkin.",
+				"p2": "Agar TourLink mijoz sababli bo'lmagan sabablarga ko'ra bekor qilsa, TourLink vaziyatni tushuntiradi va tegishli hamda qonuniy bo'lganda qaytarish, hisobga o'tkazish, ko'chirish yoki muqobil taklif qiladi. Aniq yechim bron shartlari, yetkazib beruvchilardan qaytarish, qo'llaniladigan qonun va bekor qilish sababiga bog'liq."
+			}
+		},
+		"emergency": {
+			"title": "Favqulodda holatlar",
+			"paragraphs": {
+				"p1": "Favqulodda holatlar tabiiy ofatlar, og'ir ob-havo, sanitariya favqulodda vaziyatlari, urush, tartibsizliklar, terror xavfi, chegara yopilishi, hukumat harakatlari, sanktsiyalar, transport uzilishlari, yetkazib beruvchining jiddiy nosozligi, ish tashlashlar, marshrut yopilishi, xavfsizlik ogohlantirishlari yoki oqilona nazoratdan tashqari boshqa hodisalarni o'z ichiga olishi mumkin."
+			}
+		},
+		"refunds": {
+			"title": "Qaytarishlar",
+			"paragraphs": {
+				"p1": "Tasdiqlangan qaytarishlar odatda dastlabki to'lovchiga yoki yozma kelishilgan boshqa qonuniy hisobga qaytariladi. Muddat yetkazib beruvchilardan qaytarish, bank qayta ishlashi, valyuta qoidalari, buxgalteriya tekshiruvlari va to'lov usuliga bog'liq. Bank komissiyalari, vositachi komissiyalari, to'lov provayderi komissiyalari va konvertatsiya yo'qotishlari bron shartlari va qo'llaniladigan qonun ruxsat berganda ushlab qolinishi mumkin."
+			}
+		},
+		"how_to_cancel": {
+			"title": "Qanday bekor qilish mumkin",
+			"paragraphs": {
+				"p1": "Bekor qilish so'rovi bron bo'yicha aloqa shaxsiga yoki info@tourlink.uz manziliga yozma yuborilishi kerak. Bekor qilish sanasi — TourLink yozma so'rovni olgan sana va vaqt, agar bron tasdiqi boshqacha qoida belgilamagan bo'lsa. Sayohat paytida shoshilinch bekor qilish uchun darhol gid, tur rahbari, operatsion aloqa yoki qo'llab-quvvatlash bilan bog'laning va keyin bekor qilishni yozma tasdiqlang."
+			}
+		},
+		"contacts": {
+			"title": "Aloqa",
+			"paragraphs": {
+				"p1": "Ushbu sahifa yoki TourLink xizmatlari bo'yicha savollar uchun info@tourlink.uz manziliga yozing yoki saytda e'lon qilingan aloqa ma'lumotlaridan foydalaning."
+			}
+		}
+	}
+}
