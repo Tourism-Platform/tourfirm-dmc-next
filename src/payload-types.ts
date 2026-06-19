@@ -450,6 +450,33 @@ export interface Theme {
 					longitude?: number | null;
 				};
 				zoom?: number | null;
+				stops?:
+					| {
+							entityType:
+								| "country"
+								| "region"
+								| "city"
+								| "attraction";
+							relation:
+								| {
+										relationTo: "countries";
+										value: number | Country;
+								  }
+								| {
+										relationTo: "regions";
+										value: number | Region;
+								  }
+								| {
+										relationTo: "cities";
+										value: number | City;
+								  }
+								| {
+										relationTo: "attractions";
+										value: number | Attraction;
+								  };
+							id?: string | null;
+					  }[]
+					| null;
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "routeMap";
@@ -751,6 +778,33 @@ export interface Route {
 					longitude?: number | null;
 				};
 				zoom?: number | null;
+				stops?:
+					| {
+							entityType:
+								| "country"
+								| "region"
+								| "city"
+								| "attraction";
+							relation:
+								| {
+										relationTo: "countries";
+										value: number | Country;
+								  }
+								| {
+										relationTo: "regions";
+										value: number | Region;
+								  }
+								| {
+										relationTo: "cities";
+										value: number | City;
+								  }
+								| {
+										relationTo: "attractions";
+										value: number | Attraction;
+								  };
+							id?: string | null;
+					  }[]
+					| null;
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "routeMap";
@@ -1046,6 +1100,33 @@ export interface Country {
 					longitude?: number | null;
 				};
 				zoom?: number | null;
+				stops?:
+					| {
+							entityType:
+								| "country"
+								| "region"
+								| "city"
+								| "attraction";
+							relation:
+								| {
+										relationTo: "countries";
+										value: number | Country;
+								  }
+								| {
+										relationTo: "regions";
+										value: number | Region;
+								  }
+								| {
+										relationTo: "cities";
+										value: number | City;
+								  }
+								| {
+										relationTo: "attractions";
+										value: number | Attraction;
+								  };
+							id?: string | null;
+					  }[]
+					| null;
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "routeMap";
@@ -1368,6 +1449,33 @@ export interface Experience {
 					longitude?: number | null;
 				};
 				zoom?: number | null;
+				stops?:
+					| {
+							entityType:
+								| "country"
+								| "region"
+								| "city"
+								| "attraction";
+							relation:
+								| {
+										relationTo: "countries";
+										value: number | Country;
+								  }
+								| {
+										relationTo: "regions";
+										value: number | Region;
+								  }
+								| {
+										relationTo: "cities";
+										value: number | City;
+								  }
+								| {
+										relationTo: "attractions";
+										value: number | Attraction;
+								  };
+							id?: string | null;
+					  }[]
+					| null;
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "routeMap";
@@ -1664,6 +1772,33 @@ export interface Region {
 					longitude?: number | null;
 				};
 				zoom?: number | null;
+				stops?:
+					| {
+							entityType:
+								| "country"
+								| "region"
+								| "city"
+								| "attraction";
+							relation:
+								| {
+										relationTo: "countries";
+										value: number | Country;
+								  }
+								| {
+										relationTo: "regions";
+										value: number | Region;
+								  }
+								| {
+										relationTo: "cities";
+										value: number | City;
+								  }
+								| {
+										relationTo: "attractions";
+										value: number | Attraction;
+								  };
+							id?: string | null;
+					  }[]
+					| null;
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "routeMap";
@@ -1959,6 +2094,33 @@ export interface TradeFair {
 					longitude?: number | null;
 				};
 				zoom?: number | null;
+				stops?:
+					| {
+							entityType:
+								| "country"
+								| "region"
+								| "city"
+								| "attraction";
+							relation:
+								| {
+										relationTo: "countries";
+										value: number | Country;
+								  }
+								| {
+										relationTo: "regions";
+										value: number | Region;
+								  }
+								| {
+										relationTo: "cities";
+										value: number | City;
+								  }
+								| {
+										relationTo: "attractions";
+										value: number | Attraction;
+								  };
+							id?: string | null;
+					  }[]
+					| null;
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "routeMap";
@@ -2249,6 +2411,33 @@ export interface City {
 					longitude?: number | null;
 				};
 				zoom?: number | null;
+				stops?:
+					| {
+							entityType:
+								| "country"
+								| "region"
+								| "city"
+								| "attraction";
+							relation:
+								| {
+										relationTo: "countries";
+										value: number | Country;
+								  }
+								| {
+										relationTo: "regions";
+										value: number | Region;
+								  }
+								| {
+										relationTo: "cities";
+										value: number | City;
+								  }
+								| {
+										relationTo: "attractions";
+										value: number | Attraction;
+								  };
+							id?: string | null;
+					  }[]
+					| null;
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "routeMap";
@@ -2558,6 +2747,33 @@ export interface JournalEntry {
 					longitude?: number | null;
 				};
 				zoom?: number | null;
+				stops?:
+					| {
+							entityType:
+								| "country"
+								| "region"
+								| "city"
+								| "attraction";
+							relation:
+								| {
+										relationTo: "countries";
+										value: number | Country;
+								  }
+								| {
+										relationTo: "regions";
+										value: number | Region;
+								  }
+								| {
+										relationTo: "cities";
+										value: number | City;
+								  }
+								| {
+										relationTo: "attractions";
+										value: number | Attraction;
+								  };
+							id?: string | null;
+					  }[]
+					| null;
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "routeMap";
@@ -2873,6 +3089,33 @@ export interface Attraction {
 					longitude?: number | null;
 				};
 				zoom?: number | null;
+				stops?:
+					| {
+							entityType:
+								| "country"
+								| "region"
+								| "city"
+								| "attraction";
+							relation:
+								| {
+										relationTo: "countries";
+										value: number | Country;
+								  }
+								| {
+										relationTo: "regions";
+										value: number | Region;
+								  }
+								| {
+										relationTo: "cities";
+										value: number | City;
+								  }
+								| {
+										relationTo: "attractions";
+										value: number | Attraction;
+								  };
+							id?: string | null;
+					  }[]
+					| null;
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "routeMap";
@@ -3183,6 +3426,33 @@ export interface Page {
 					longitude?: number | null;
 				};
 				zoom?: number | null;
+				stops?:
+					| {
+							entityType:
+								| "country"
+								| "region"
+								| "city"
+								| "attraction";
+							relation:
+								| {
+										relationTo: "countries";
+										value: number | Country;
+								  }
+								| {
+										relationTo: "regions";
+										value: number | Region;
+								  }
+								| {
+										relationTo: "cities";
+										value: number | City;
+								  }
+								| {
+										relationTo: "attractions";
+										value: number | Attraction;
+								  };
+							id?: string | null;
+					  }[]
+					| null;
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "routeMap";
@@ -3539,6 +3809,13 @@ export interface ThemesSelect<T extends boolean = true> {
 										longitude?: T;
 								  };
 							zoom?: T;
+							stops?:
+								| T
+								| {
+										entityType?: T;
+										relation?: T;
+										id?: T;
+								  };
 							id?: T;
 							blockName?: T;
 					  };
@@ -3728,6 +4005,13 @@ export interface CountriesSelect<T extends boolean = true> {
 										longitude?: T;
 								  };
 							zoom?: T;
+							stops?:
+								| T
+								| {
+										entityType?: T;
+										relation?: T;
+										id?: T;
+								  };
 							id?: T;
 							blockName?: T;
 					  };
@@ -3926,6 +4210,13 @@ export interface RegionsSelect<T extends boolean = true> {
 										longitude?: T;
 								  };
 							zoom?: T;
+							stops?:
+								| T
+								| {
+										entityType?: T;
+										relation?: T;
+										id?: T;
+								  };
 							id?: T;
 							blockName?: T;
 					  };
@@ -4119,6 +4410,13 @@ export interface CitiesSelect<T extends boolean = true> {
 										longitude?: T;
 								  };
 							zoom?: T;
+							stops?:
+								| T
+								| {
+										entityType?: T;
+										relation?: T;
+										id?: T;
+								  };
 							id?: T;
 							blockName?: T;
 					  };
@@ -4319,6 +4617,13 @@ export interface AttractionsSelect<T extends boolean = true> {
 										longitude?: T;
 								  };
 							zoom?: T;
+							stops?:
+								| T
+								| {
+										entityType?: T;
+										relation?: T;
+										id?: T;
+								  };
 							id?: T;
 							blockName?: T;
 					  };
@@ -4515,6 +4820,13 @@ export interface RoutesSelect<T extends boolean = true> {
 										longitude?: T;
 								  };
 							zoom?: T;
+							stops?:
+								| T
+								| {
+										entityType?: T;
+										relation?: T;
+										id?: T;
+								  };
 							id?: T;
 							blockName?: T;
 					  };
@@ -4727,6 +5039,13 @@ export interface ExperiencesSelect<T extends boolean = true> {
 										longitude?: T;
 								  };
 							zoom?: T;
+							stops?:
+								| T
+								| {
+										entityType?: T;
+										relation?: T;
+										id?: T;
+								  };
 							id?: T;
 							blockName?: T;
 					  };
@@ -4924,6 +5243,13 @@ export interface JournalEntriesSelect<T extends boolean = true> {
 										longitude?: T;
 								  };
 							zoom?: T;
+							stops?:
+								| T
+								| {
+										entityType?: T;
+										relation?: T;
+										id?: T;
+								  };
 							id?: T;
 							blockName?: T;
 					  };
@@ -5116,6 +5442,13 @@ export interface TradeFairsSelect<T extends boolean = true> {
 										longitude?: T;
 								  };
 							zoom?: T;
+							stops?:
+								| T
+								| {
+										entityType?: T;
+										relation?: T;
+										id?: T;
+								  };
 							id?: T;
 							blockName?: T;
 					  };
@@ -5310,6 +5643,13 @@ export interface PagesSelect<T extends boolean = true> {
 										longitude?: T;
 								  };
 							zoom?: T;
+							stops?:
+								| T
+								| {
+										entityType?: T;
+										relation?: T;
+										id?: T;
+								  };
 							id?: T;
 							blockName?: T;
 					  };
@@ -5604,6 +5944,33 @@ export interface Homepage {
 							longitude?: number | null;
 						};
 						zoom?: number | null;
+						stops?:
+							| {
+									entityType:
+										| "country"
+										| "region"
+										| "city"
+										| "attraction";
+									relation:
+										| {
+												relationTo: "countries";
+												value: number | Country;
+										  }
+										| {
+												relationTo: "regions";
+												value: number | Region;
+										  }
+										| {
+												relationTo: "cities";
+												value: number | City;
+										  }
+										| {
+												relationTo: "attractions";
+												value: number | Attraction;
+										  };
+									id?: string | null;
+							  }[]
+							| null;
 						id?: string | null;
 						blockName?: string | null;
 						blockType: "routeMap";
@@ -5857,6 +6224,33 @@ export interface Destination {
 							longitude?: number | null;
 						};
 						zoom?: number | null;
+						stops?:
+							| {
+									entityType:
+										| "country"
+										| "region"
+										| "city"
+										| "attraction";
+									relation:
+										| {
+												relationTo: "countries";
+												value: number | Country;
+										  }
+										| {
+												relationTo: "regions";
+												value: number | Region;
+										  }
+										| {
+												relationTo: "cities";
+												value: number | City;
+										  }
+										| {
+												relationTo: "attractions";
+												value: number | Attraction;
+										  };
+									id?: string | null;
+							  }[]
+							| null;
 						id?: string | null;
 						blockName?: string | null;
 						blockType: "routeMap";
@@ -6127,6 +6521,13 @@ export interface HomepageSelect<T extends boolean = true> {
 										longitude?: T;
 								  };
 							zoom?: T;
+							stops?:
+								| T
+								| {
+										entityType?: T;
+										relation?: T;
+										id?: T;
+								  };
 							id?: T;
 							blockName?: T;
 					  };
@@ -6300,6 +6701,13 @@ export interface DestinationSelect<T extends boolean = true> {
 										longitude?: T;
 								  };
 							zoom?: T;
+							stops?:
+								| T
+								| {
+										entityType?: T;
+										relation?: T;
+										id?: T;
+								  };
 							id?: T;
 							blockName?: T;
 					  };

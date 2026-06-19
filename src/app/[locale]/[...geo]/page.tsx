@@ -78,10 +78,7 @@ export default async function GeoCatchAllRoute({ params }: TProps) {
 	}
 
 	if (route.source === "geo") {
-		const sections = mapCmsBlocks(route.document.blocks, {
-			kind: route.kind,
-			document: route.document
-		});
+		const sections = mapCmsBlocks(route.document.blocks);
 
 		if (route.kind === "country") {
 			return <CountryPage sections={sections} />;

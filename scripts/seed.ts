@@ -8,11 +8,14 @@ import config from "@payload-config";
 import { getPayload, type CollectionSlug, type Payload } from "payload";
 import { parse as parseYaml } from "yaml";
 
+import type { Country } from "@/payload-types";
+
 const LOCALES = ["en", "ru", "uz"] as const;
 type TLocale = (typeof LOCALES)[number];
 
 type TResolvePageOptions = {
 	hrefPrefix?: string;
+	deferRouteMapStops?: boolean;
 };
 
 function buildPrefixedCountryHref(
@@ -320,6 +323,87 @@ async function resolveBlockCards(
 	);
 }
 
+const ROUTE_MAP_ENTITY_COLLECTION = {
+	country: "countries",
+	region: "regions",
+	city: "cities",
+	attraction: "attractions"
+} as const;
+
+type TRouteMapEntityType = keyof typeof ROUTE_MAP_ENTITY_COLLECTION;
+
+async function findRouteMapEntityId(
+	payload: Payload,
+	entityType: TRouteMapEntityType,
+	entitySlug: string,
+	locale: TLocale
+): Promise<number> {
+	const collection = ROUTE_MAP_ENTITY_COLLECTION[entityType];
+
+	const result = await payload.find({
+		collection,
+		where: {
+			slug: {
+				equals: entitySlug
+			}
+		},
+		locale,
+		limit: 1,
+		depth: 0,
+		overrideAccess: true
+	});
+
+	const doc = result.docs[0];
+
+	if (!doc) {
+		throw new Error(
+			`RouteMap ${entityType} not found for slug: ${entitySlug}`
+		);
+	}
+
+	return doc.id as number;
+}
+
+async function resolveRouteMapStops(
+	payload: Payload,
+	stops: unknown[],
+	locale: TLocale
+): Promise<unknown[]> {
+	return Promise.all(
+		stops.map(async (stop) => {
+			if (!stop || typeof stop !== "object") {
+				return stop;
+			}
+
+			const entry = { ...(stop as Record<string, unknown>) };
+			const entityType = entry.entityType as TRouteMapEntityType | undefined;
+			const entitySlug = entry.entitySlug;
+
+			if (!entityType || typeof entitySlug !== "string") {
+				return entry;
+			}
+
+			const collection = ROUTE_MAP_ENTITY_COLLECTION[entityType];
+			const id = await findRouteMapEntityId(
+				payload,
+				entityType,
+				entitySlug,
+				locale
+			);
+
+			delete entry.entitySlug;
+
+			return {
+				...entry,
+				relation: {
+					relationTo: collection,
+					value: id
+				}
+			};
+		})
+	);
+}
+
 async function resolvePageBlocks(
 	payload: Payload,
 	mediaCache: Map<string, number>,
@@ -356,6 +440,18 @@ async function resolvePageBlocks(
 					locale,
 					options
 				);
+			}
+
+			if (entry.blockType === "routeMap" && Array.isArray(entry.stops)) {
+				if (options?.deferRouteMapStops) {
+					delete entry.stops;
+				} else {
+					entry.stops = await resolveRouteMapStops(
+						payload,
+						entry.stops,
+						locale
+					);
+				}
 			}
 
 			return entry;
@@ -868,7 +964,8 @@ async function seedCountries(
 					payload,
 					mediaCache,
 					withBadges,
-					locale
+					locale,
+					{ deferRouteMapStops: true }
 				);
 			}
 		});
@@ -877,6 +974,91 @@ async function seedCountries(
 	}
 
 	return files.length;
+}
+
+async function refreshCountryRouteMapStops(
+	payload: Payload,
+	badgeIds: Map<string, number>,
+	mediaCache: Map<string, number>
+): Promise<void> {
+	const countriesDir = path.join(CONTENT_DIR, "countries");
+	const files = (await fs.readdir(countriesDir)).filter((file) =>
+		file.endsWith(".yml")
+	);
+
+	for (const file of files) {
+		const item = await readYamlFile<Record<string, unknown>>(
+			path.join(countriesDir, file)
+		);
+
+		const blocks = item.blocks;
+
+		if (!Array.isArray(blocks)) {
+			continue;
+		}
+
+		const hasRouteMapStops = blocks.some(
+			(block) =>
+				block &&
+				typeof block === "object" &&
+				(block as Record<string, unknown>).blockType === "routeMap" &&
+				Array.isArray((block as Record<string, unknown>).stops)
+		);
+
+		if (!hasRouteMapStops) {
+			continue;
+		}
+
+		const slug =
+			typeof item.slug === "object" &&
+			item.slug !== null &&
+			"en" in item.slug
+				? String((item.slug as Record<string, unknown>).en)
+				: file.replace(/\.yml$/, "");
+
+		const existing = await payload.find({
+			collection: "countries",
+			where: {
+				slug: {
+					equals: slug
+				}
+			},
+			locale: "en",
+			limit: 1,
+			depth: 0,
+			overrideAccess: true
+		});
+
+		const country = existing.docs[0];
+
+		if (!country) {
+			throw new Error(`Country not found for routeMap refresh: ${slug}`);
+		}
+
+		for (const locale of LOCALES) {
+			const localeData = await resolveSeedDocument(
+				payload,
+				mediaCache,
+				resolveBadgeIds(
+					pickLocale(item, locale) as Record<string, unknown>,
+					badgeIds
+				),
+				locale
+			);
+
+			await payload.update({
+				collection: "countries",
+				id: country.id,
+				data: {
+					blocks: localeData.blocks as Country["blocks"]
+				},
+				locale,
+				overrideAccess: true
+			});
+		}
+
+		console.log(`  ~ country routeMap stops ${slug}`);
+	}
 }
 
 async function seedRegions(
@@ -1056,6 +1238,7 @@ async function main(): Promise<void> {
 	const themesCount = await seedThemes(payload, mediaCache);
 	const countriesCount = await seedCountries(payload, badgeIds, mediaCache);
 	const regionsCount = await seedRegions(payload, badgeIds, mediaCache);
+	await refreshCountryRouteMapStops(payload, badgeIds, mediaCache);
 	const citiesCount = await seedCities(payload, badgeIds, mediaCache);
 	const attractionsCount = await seedAttractions(
 		payload,

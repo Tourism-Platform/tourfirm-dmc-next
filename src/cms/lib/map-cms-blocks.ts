@@ -7,7 +7,6 @@ import { CardType, type TCardRenderProps } from "@/shared/ui/cards";
 import type { TRouteMapStop } from "@/shared/ui/route-map";
 
 import { resolveMediaUrl } from "./resolve-media-url";
-import type { TGeoRoute } from "@/cms/routing";
 import type {
 	Attraction,
 	City,
@@ -17,12 +16,11 @@ import type {
 	Region
 } from "@/payload-types";
 
-export type TMapCmsBlocksGeoContext = {
-	kind: TGeoRoute["kind"];
-	document: Country | Region | City | Attraction;
-};
-
 type TCmsPageBlock = NonNullable<Homepage["blocks"]>[number];
+type TRouteMapBlock = Extract<TCmsPageBlock, { blockType: "routeMap" }>;
+type TRouteMapStopRow = NonNullable<TRouteMapBlock["stops"]>[number];
+type TRouteMapEntity = Country | Region | City | Attraction;
+
 type TCmsCard = NonNullable<
 	Extract<TCmsPageBlock, { blockType: "regular" }>["cards"]
 >[number];
@@ -35,8 +33,6 @@ const ROUTE_MAP_TILE_URL =
 
 const ROUTE_MAP_TILE_ATTRIBUTION =
 	'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>';
-
-const ROUTE_MAP_DEFAULT_CENTER = { lat: 41.2, lng: 68.5 } as const;
 
 function mapCmsAction(action: TCmsAction): TButtonRenderProps {
 	if (action.type === "mailto") {
@@ -98,101 +94,71 @@ function mapCmsCard(card: TCmsCard, index: number): TCardRenderProps {
 	};
 }
 
-function isPopulatedGeoDoc<T extends { id: number }>(
-	doc: number | T
-): doc is T {
-	return typeof doc === "object" && doc !== null;
-}
-
-function buildGeoRouteMapStops(
-	context: TMapCmsBlocksGeoContext
-): TRouteMapStop[] {
-	const { kind, document } = context;
-
-	if (kind === "country") {
-		const country = document as Country;
-		const regions = country.regions?.docs ?? [];
-
-		return regions
-			.filter(isPopulatedGeoDoc<Region>)
-			.map((region, index) => {
-				const lat = region.mapCenter?.latitude;
-				const lng = region.mapCenter?.longitude;
-
-				if (lat == null || lng == null) {
-					return null;
-				}
-
-				return {
-					id: String(region.id),
-					order: index + 1,
-					lat,
-					lng,
-					name: region.title
-				};
-			})
-			.filter((stop): stop is TRouteMapStop => stop !== null);
+// routeMap requires populated stop.relation (depth >= 2 on document fetch).
+// Unpopulated relation ID → stop skipped.
+function getPopulatedRelationEntity(
+	relation: TRouteMapStopRow["relation"]
+): TRouteMapEntity | null {
+	if (!relation || typeof relation !== "object" || !("value" in relation)) {
+		return null;
 	}
 
-	if (kind === "region") {
-		const region = document as Region;
-		const cities = region.cities?.docs ?? [];
+	const value = relation.value;
 
-		return cities.filter(isPopulatedGeoDoc<City>).map((city, index) => ({
-			id: String(city.id),
-			order: index + 1,
-			lat: city.latitude,
-			lng: city.longitude,
-			name: city.title
-		}));
+	if (typeof value !== "object" || value === null) {
+		return null;
 	}
 
-	if (kind === "city") {
-		const city = document as City;
-		const attractions = city.attractions?.docs ?? [];
+	return value;
+}
 
-		return attractions
-			.filter(isPopulatedGeoDoc<Attraction>)
-			.map((attraction, index) => ({
-				id: String(attraction.id),
-				order: index + 1,
-				lat: attraction.latitude,
-				lng: attraction.longitude,
-				name: attraction.title
-			}));
+function getEntityCoordinates(
+	entity: TRouteMapEntity
+): { lat: number; lng: number } | null {
+	if (
+		"latitude" in entity &&
+		entity.latitude != null &&
+		entity.longitude != null
+	) {
+		return { lat: entity.latitude, lng: entity.longitude };
 	}
 
-	const attraction = document as Attraction;
+	if (
+		"mapCenter" in entity &&
+		entity.mapCenter?.latitude != null &&
+		entity.mapCenter?.longitude != null
+	) {
+		return {
+			lat: entity.mapCenter.latitude,
+			lng: entity.mapCenter.longitude
+		};
+	}
 
-	return [
-		{
-			id: String(attraction.id),
-			order: 1,
-			lat: attraction.latitude,
-			lng: attraction.longitude,
-			name: attraction.title
-		}
-	];
+	return null;
 }
 
-function buildRouteMapFallbackStop(
-	block: Extract<TCmsPageBlock, { blockType: "routeMap" }>
-): TRouteMapStop[] {
-	return [
-		{
-			id: "center",
-			order: 1,
-			lat: block.mapCenter?.latitude ?? ROUTE_MAP_DEFAULT_CENTER.lat,
-			lng: block.mapCenter?.longitude ?? ROUTE_MAP_DEFAULT_CENTER.lng,
-			name: block.title ?? "Location"
-		}
-	];
+function resolveStopFromRelation(stop: TRouteMapStopRow): TRouteMapStop | null {
+	const entity = getPopulatedRelationEntity(stop.relation);
+
+	if (!entity) {
+		return null;
+	}
+
+	const coords = getEntityCoordinates(entity);
+
+	if (!coords) {
+		return null;
+	}
+
+	return {
+		id: String(entity.id),
+		lat: coords.lat,
+		lng: coords.lng,
+		name: entity.title ?? ""
+	};
 }
 
-function mapCmsBlock(
-	block: TCmsPageBlock,
-	geoContext?: TMapCmsBlocksGeoContext
-): TBlockRenderProps | null {
+function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 	switch (block.blockType) {
 		case "hero":
 			return {
@@ -237,14 +203,13 @@ function mapCmsBlock(
 			};
 
 		case "routeMap": {
+			// INVARIANT: routeMap stop order = CMS block.stops[] array order only.
+			// Do NOT sort, reorder, or add order/index/position fields.
 			const latitude = block.mapCenter?.latitude;
 			const longitude = block.mapCenter?.longitude;
-			const geoStops = geoContext
-				? buildGeoRouteMapStops(geoContext)
-				: null;
-			const stops = geoStops?.length
-				? geoStops
-				: buildRouteMapFallbackStop(block);
+			const stops = (block.stops ?? [])
+				.map((stop) => resolveStopFromRelation(stop))
+				.filter((stop): stop is TRouteMapStop => stop !== null);
 
 			return {
 				blockType: BlockType.routeMap,
@@ -254,10 +219,7 @@ function mapCmsBlock(
 				center:
 					latitude != null && longitude != null
 						? [latitude, longitude]
-						: [
-								ROUTE_MAP_DEFAULT_CENTER.lat,
-								ROUTE_MAP_DEFAULT_CENTER.lng
-							],
+						: [41.2, 68.5],
 				zoom: block.zoom ?? 6,
 				minZoom: 4,
 				maxZoom: 8,
@@ -273,14 +235,13 @@ function mapCmsBlock(
 }
 
 export function mapCmsBlocks(
-	blocks: TCmsPageBlock[] | null | undefined,
-	geoContext?: TMapCmsBlocksGeoContext
+	blocks: TCmsPageBlock[] | null | undefined
 ): TBlockRenderProps[] {
 	if (!blocks?.length) {
 		return [];
 	}
 
 	return blocks
-		.map((block) => mapCmsBlock(block, geoContext))
+		.map((block) => mapCmsBlock(block))
 		.filter((block): block is TBlockRenderProps => block !== null);
 }

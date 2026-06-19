@@ -34,7 +34,7 @@ function getRouteMapColors(): TRouteMapColors {
 }
 
 function createRouteMarkerIcon(
-	order: number,
+	label: number,
 	name: string,
 	colors: TRouteMapColors
 ): L.DivIcon {
@@ -42,7 +42,7 @@ function createRouteMarkerIcon(
 		className: "",
 		html: `<div style="display:inline-flex;flex-direction:column;align-items:center;transform:translate(-50%,calc(-100% - 14px));">
 			<div style="display:flex;align-items:center;gap:8px;background:${colors.surface};border:1px solid ${colors.border};border-radius:9999px;padding:5px 14px 5px 5px;box-shadow:0 2px 8px rgba(15,23,42,0.08);white-space:nowrap;">
-				<span style="display:flex;width:28px;height:28px;flex-shrink:0;align-items:center;justify-content:center;border-radius:50%;background:${colors.badgeBg};color:${colors.text};font-size:13px;font-weight:700;line-height:1;font-family:var(--font-exo-2),sans-serif;">${order}</span>
+				<span style="display:flex;width:28px;height:28px;flex-shrink:0;align-items:center;justify-content:center;border-radius:50%;background:${colors.badgeBg};color:${colors.text};font-size:13px;font-weight:700;line-height:1;font-family:var(--font-exo-2),sans-serif;">${label}</span>
 				<span style="font-size:15px;font-weight:700;color:${colors.text};font-family:var(--font-exo-2),sans-serif;">${name}</span>
 			</div>
 		</div>`,
@@ -97,11 +97,11 @@ export function RouteMap({
 					}}
 				/>
 			))}
-			{stops.map((stop) => (
+			{stops.map((stop, index) => (
 				<Marker
 					key={stop.id}
 					position={[stop.lat, stop.lng]}
-					icon={createRouteMarkerIcon(stop.order, stop.name, colors)}
+					icon={createRouteMarkerIcon(index + 1, stop.name, colors)}
 				/>
 			))}
 			<ScaleControl imperial={false} position="bottomleft" />

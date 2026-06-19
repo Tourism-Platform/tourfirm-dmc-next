@@ -191,6 +191,15 @@ blocks:
       latitude: 41.2
       longitude: 64.5
     zoom: 6
+    stops:
+      - entityType: region
+        entitySlug: tashkent-region
+      - entityType: region
+        entitySlug: samarkand-region
+      - entityType: region
+        entitySlug: bukhara-region
+      - entityType: region
+        entitySlug: khorezm-region
 
   - blockType: regular
     eyebrow:

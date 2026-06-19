@@ -142,6 +142,13 @@ blocks:
       latitude: 41.2
       longitude: 68.5
     zoom: 6
+    stops:
+      - entityType: country
+        entitySlug: uzbekistan
+      - entityType: country
+        entitySlug: kyrgyzstan
+      - entityType: country
+        entitySlug: tajikistan
 
   - blockType: regular
     eyebrow:

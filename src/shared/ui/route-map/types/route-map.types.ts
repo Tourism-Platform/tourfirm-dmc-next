@@ -2,7 +2,6 @@ import type { LatLngExpression } from "leaflet";
 
 export type TRouteMapStop = {
 	id: string;
-	order: number;
 	lat: number;
 	lng: number;
 	name: string;

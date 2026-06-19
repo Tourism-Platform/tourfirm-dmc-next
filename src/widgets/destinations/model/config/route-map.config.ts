@@ -35,9 +35,8 @@ export const ROUTE_MAP_SECTION_CONFIG = {
 	tileUrl: ROUTE_MAP_TILE_URL,
 	tileAttribution: ROUTE_MAP_TILE_ATTRIBUTION,
 	stops: (t: (key: string) => string) =>
-		ROUTE_MAP_STOPS.map(({ id, order, lat, lng, i18nKey }) => ({
+		ROUTE_MAP_STOPS.map(({ id, lat, lng, i18nKey }) => ({
 			id,
-			order,
 			lat,
 			lng,
 			name: t(i18nKey)
@@ -47,42 +46,36 @@ export const ROUTE_MAP_SECTION_CONFIG = {
 export const ROUTE_MAP_STOPS: TRouteMapStopConfig[] = [
 	{
 		id: "almaty",
-		order: 1,
 		lat: 43.238,
 		lng: 76.9454,
 		i18nKey: "countries.items.kazakhstan.cities.almaty"
 	},
 	{
 		id: "bishkek",
-		order: 2,
 		lat: 42.8746,
 		lng: 74.5698,
 		i18nKey: "countries.items.kyrgyzstan.cities.bishkek"
 	},
 	{
 		id: "tashkent",
-		order: 3,
 		lat: 41.2995,
 		lng: 69.2401,
 		i18nKey: "countries.items.uzbekistan.cities.tashkent"
 	},
 	{
 		id: "samarkand",
-		order: 4,
 		lat: 39.6542,
 		lng: 66.9597,
 		i18nKey: "countries.items.uzbekistan.cities.samarkand"
 	},
 	{
 		id: "dushanbe",
-		order: 5,
 		lat: 38.5598,
 		lng: 68.787,
 		i18nKey: "countries.items.tajikistan.cities.dushanbe"
 	},
 	{
 		id: "ashgabat",
-		order: 6,
 		lat: 37.9601,
 		lng: 58.3261,
 		i18nKey: "countries.items.turkmenistan.cities.ashgabat"

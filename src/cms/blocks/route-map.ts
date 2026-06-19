@@ -1,8 +1,6 @@
 import type { Block } from "payload";
 
-// ARCH: schema pages.blocks lists contactInfo, not routeMap — slug follows frontend BlockType
-// ARCH: tileUrl/tileAttribution/minZoom/maxZoom are frontend defaults, not stored in CMS
-// Map stops are resolved on the frontend from the current document relationships
+// Stop order = block.stops[] array position only. Do not add order/index/position fields.
 export const RouteMap: Block = {
 	slug: "routeMap",
 	fields: [
@@ -38,6 +36,30 @@ export const RouteMap: Block = {
 		{
 			name: "zoom",
 			type: "number"
+		},
+		{
+			name: "stops",
+			type: "array",
+			label: "Route Stops",
+			fields: [
+				{
+					name: "entityType",
+					type: "select",
+					options: ["country", "region", "city", "attraction"],
+					required: true
+				},
+				{
+					name: "relation",
+					type: "relationship",
+					relationTo: [
+						"countries",
+						"regions",
+						"cities",
+						"attractions"
+					],
+					required: true
+				}
+			]
 		}
 	]
 };
