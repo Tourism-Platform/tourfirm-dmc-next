@@ -20,13 +20,17 @@ interface CustomCalendarRangeProps {
 	onChange: (value: DateRange | undefined) => void;
 	placeholder?: string;
 	className?: string;
+	numberOfMonths?: number;
+	popoverModal?: boolean;
 }
 
 export const CustomCalendarRange: FC<CustomCalendarRangeProps> = ({
 	value,
 	onChange,
 	placeholder = "Select dates",
-	className
+	className,
+	numberOfMonths = 2,
+	popoverModal = true
 }) => {
 	const locale = useLocale();
 	const [open, setOpen] = useState(false);
@@ -41,7 +45,7 @@ export const CustomCalendarRange: FC<CustomCalendarRangeProps> = ({
 	};
 
 	return (
-		<Popover open={open} onOpenChange={setOpen} modal>
+		<Popover open={open} onOpenChange={setOpen} modal={popoverModal}>
 			<PopoverTrigger asChild>
 				<div
 					className={cn(
@@ -61,9 +65,17 @@ export const CustomCalendarRange: FC<CustomCalendarRangeProps> = ({
 				</div>
 			</PopoverTrigger>
 			<PopoverContent
-				className="flex justify-center"
+				className={cn(
+					"flex w-auto justify-center p-0",
+					numberOfMonths === 1 &&
+						"min-w-[var(--radix-popover-trigger-width)]"
+				)}
 				align="center"
-				style={{ width: "var(--radix-popover-trigger-width)" }}
+				style={
+					numberOfMonths === 1
+						? { width: "var(--radix-popover-trigger-width)" }
+						: undefined
+				}
 			>
 				<Calendar
 					mode="range"
@@ -71,7 +83,7 @@ export const CustomCalendarRange: FC<CustomCalendarRangeProps> = ({
 					defaultMonth={value?.from}
 					selected={value ?? undefined}
 					onSelect={onChange}
-					numberOfMonths={2}
+					numberOfMonths={numberOfMonths}
 				/>
 			</PopoverContent>
 		</Popover>

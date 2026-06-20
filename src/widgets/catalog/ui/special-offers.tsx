@@ -22,6 +22,8 @@ import {
 	useGetSpecialOfferToursQuery
 } from "@/entities/tour";
 
+import { BookTourModal } from "@/features/booking/book-tour";
+
 const SpecialOffersBase: FC = () => {
 	const t = useTranslations("catalog_page");
 	const { data, isLoading, isError } = useGetSpecialOfferToursQuery();
@@ -63,7 +65,17 @@ const SpecialOffersBase: FC = () => {
 										key={tour.id}
 										className="basis-full pl-3 sm:basis-1/2 sm:pl-4 lg:basis-1/3"
 									>
-										<CatalogTourCard data={tour} />
+										<CatalogTourCard
+											data={tour}
+											action={
+												<BookTourModal
+													tour={{
+														id: tour.id,
+														title: tour.title
+													}}
+												/>
+											}
+										/>
 									</CarouselItem>
 								))}
 					</CarouselContent>

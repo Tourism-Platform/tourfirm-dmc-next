@@ -51,8 +51,20 @@ type TFormTextarea<L = TGenericLabel, K = TGenericKey> = IFormBase<L, K> & {
 	rows?: number;
 };
 
-type TFormOptional<L = TGenericLabel, K = TGenericKey> = IFormBase<L, K> & {
-	fieldType: "date" | "time" | "editor";
+type TFormDate<L = TGenericLabel, K = TGenericKey> = IFormBase<L, K> & {
+	fieldType: "date";
+	placeholder?: L;
+};
+
+type TFormTime<L = TGenericLabel, K = TGenericKey> = IFormBase<L, K> & {
+	fieldType: "time";
+	placeholder?: L;
+};
+export type TFormEditor<L = TGenericLabel, K = TGenericKey> = IFormBase<
+	L,
+	K
+> & {
+	fieldType: "editor";
 	placeholder?: L;
 };
 
@@ -75,6 +87,8 @@ type TFormMultiSelect<L = TGenericLabel, K = TGenericKey> = IFormBase<L, K> & {
 type TFormDateRange<L = TGenericLabel, K = TGenericKey> = IFormBase<L, K> & {
 	fieldType: "dateRange";
 	placeholder?: L;
+	numberOfMonths?: number;
+	popoverModal?: boolean;
 };
 
 type TFormDatePicker<L = TGenericLabel, K = TGenericKey> = IFormBase<L, K> & {
@@ -112,7 +126,9 @@ export type TFormField<L = TGenericLabel, K = TGenericKey> =
 	| TFormPassword<L, K>
 	| TFormPhone<L, K>
 	| TFormTextarea<L, K>
-	| TFormOptional<L, K>
+	| TFormDate<L, K>
+	| TFormTime<L, K>
+	| TFormEditor<L, K>
 	| TFormSelect<L, K>
 	| TFormMultiSelect<L, K>
 	| TFormSwitch<L, K>

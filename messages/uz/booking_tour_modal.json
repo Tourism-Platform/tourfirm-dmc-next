@@ -1,0 +1,53 @@
+{
+	"trigger": "Bron qilish",
+	"title": "Tur bron qilish",
+	"description": "Ma'lumotlaringizni to'ldiring — mavjudlik va narxni tasdiqlash uchun siz bilan bog'lanamiz.",
+	"fields": {
+		"full_name": {
+			"label": "To'liq ism",
+			"placeholder": "Ismingizni kiriting"
+		},
+		"email": {
+			"label": "Email",
+			"placeholder": "Email manzilingizni kiriting"
+		},
+		"phone": {
+			"label": "Telefon",
+			"placeholder": "Telefon raqamingizni kiriting"
+		},
+		"dates": {
+			"label": "Sayohat sanalari",
+			"placeholder": "Sanalarni tanlang"
+		},
+		"group_size": {
+			"label": "Guruh hajmi",
+			"placeholder": "Sayohatchilar soni"
+		},
+		"message": {
+			"label": "Xabar",
+			"placeholder": "Istaklaringiz haqida yozing (ixtiyoriy)"
+		},
+		"tour": {
+			"label": "Tur"
+		}
+	},
+	"validation": {
+		"full_name_required": "Ismingizni kiriting",
+		"email_required": "Email kiriting",
+		"email_invalid": "To'g'ri email kiriting",
+		"phone_required": "Telefon raqamini kiriting",
+		"group_size_required": "Guruh hajmini kiriting",
+		"group_size_min": "Kamida 1 kishi"
+	},
+	"confirm": {
+		"title": "So'rovni tasdiqlash",
+		"description": "Yuborishdan oldin ma'lumotlarni tekshiring.",
+		"not_set": "Ko'rsatilmagan"
+	},
+	"disclaimer": "Ushbu formani yuborish faqat so'rov hisoblanadi va tasdiqlangan bron emas.",
+	"actions": {
+		"next": "Keyingi",
+		"back": "Orqaga",
+		"submit": "So'rov yuborish"
+	}
+}

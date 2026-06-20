@@ -1,0 +1,53 @@
+{
+	"trigger": "Забронировать",
+	"title": "Бронирование тура",
+	"description": "Заполните данные — мы свяжемся с вами для подтверждения доступности и стоимости.",
+	"fields": {
+		"full_name": {
+			"label": "ФИО",
+			"placeholder": "Введите ваше имя"
+		},
+		"email": {
+			"label": "Email",
+			"placeholder": "Введите email"
+		},
+		"phone": {
+			"label": "Телефон",
+			"placeholder": "Введите номер телефона"
+		},
+		"dates": {
+			"label": "Даты поездки",
+			"placeholder": "Выберите даты"
+		},
+		"group_size": {
+			"label": "Размер группы",
+			"placeholder": "Количество человек"
+		},
+		"message": {
+			"label": "Сообщение",
+			"placeholder": "Расскажите о пожеланиях (необязательно)"
+		},
+		"tour": {
+			"label": "Тур"
+		}
+	},
+	"validation": {
+		"full_name_required": "Укажите ваше имя",
+		"email_required": "Укажите email",
+		"email_invalid": "Введите корректный email",
+		"phone_required": "Укажите номер телефона",
+		"group_size_required": "Укажите размер группы",
+		"group_size_min": "Минимум 1 человек"
+	},
+	"confirm": {
+		"title": "Подтверждение заявки",
+		"description": "Проверьте данные перед отправкой.",
+		"not_set": "Не указано"
+	},
+	"disclaimer": "Отправка формы — это заявка, а не подтверждённое бронирование.",
+	"actions": {
+		"next": "Далее",
+		"back": "Назад",
+		"submit": "Отправить заявку"
+	}
+}

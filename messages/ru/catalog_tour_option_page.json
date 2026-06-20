@@ -1,0 +1,47 @@
+{
+	"page_name": "Предпросмотр опции",
+	"back": "Вернуться к туру",
+	"day": {
+		"title": "День {{n}}"
+	},
+	"sections": {
+		"option": {
+			"day": "День",
+			"view_details": "Подробнее",
+			"details": "Детали",
+			"one_of_them": "(Один из них)",
+			"read_more": "Читать далее"
+		}
+	},
+	"tabs": {
+		"tour_information": "Информация о туре",
+		"full_itinerary": "Полный маршрут",
+		"pricing": "Цены"
+	},
+	"sheet": {
+		"pickup_info": "Информация о трансфере",
+		"pickup": "Отправление",
+		"dropoff": "Прибытие",
+		"to": "до",
+		"amenities": "Удобства",
+		"schedule_info": "Расписание",
+		"nights": "Ночей",
+		"check_in": "Заезд",
+		"check_out": "Выезд",
+		"activity_info": "Об активности",
+		"location": "Локация",
+		"start_time": "Начало",
+		"end_time": "Окончание",
+		"flight_info": "Информация о рейсе"
+	},
+	"pricing": {
+		"title": "Детализация цен",
+		"total_price": "Итоговая цена",
+		"est_cost": "Примерная стоимость на человека",
+		"details": "Детали",
+		"accomodation": "Проживание",
+		"activity": "Активности",
+		"transportation": "Транспорт",
+		"transfer": "Трансфер"
+	}
+}

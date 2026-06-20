@@ -1,0 +1,53 @@
+{
+	"trigger": "Book now",
+	"title": "Book a tour",
+	"description": "Fill in your details and we will contact you to confirm availability and pricing.",
+	"fields": {
+		"full_name": {
+			"label": "Full name",
+			"placeholder": "Enter your full name"
+		},
+		"email": {
+			"label": "Email",
+			"placeholder": "Enter your email"
+		},
+		"phone": {
+			"label": "Phone",
+			"placeholder": "Enter your phone number"
+		},
+		"dates": {
+			"label": "Travel dates",
+			"placeholder": "Choose dates"
+		},
+		"group_size": {
+			"label": "Group size",
+			"placeholder": "Number of travellers"
+		},
+		"message": {
+			"label": "Message",
+			"placeholder": "Tell us about your preferences (optional)"
+		},
+		"tour": {
+			"label": "Tour"
+		}
+	},
+	"validation": {
+		"full_name_required": "Please enter your full name",
+		"email_required": "Please enter your email",
+		"email_invalid": "Please enter a valid email",
+		"phone_required": "Please enter your phone number",
+		"group_size_required": "Please enter group size",
+		"group_size_min": "Group size must be at least 1"
+	},
+	"confirm": {
+		"title": "Confirm your enquiry",
+		"description": "Please review your details before submitting.",
+		"not_set": "Not specified"
+	},
+	"disclaimer": "Submitting this form is an enquiry only and does not create a confirmed booking.",
+	"actions": {
+		"next": "Next",
+		"back": "Back",
+		"submit": "Submit enquiry"
+	}
+}

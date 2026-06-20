@@ -1,3 +1,4 @@
+import bookingTourModalRu from "../../../messages/ru/booking_tour_modal.json";
 import catalogPageRu from "../../../messages/ru/catalog_page.json";
 import commonRu from "../../../messages/ru/common.json";
 import companyAboutPageRu from "../../../messages/ru/company_about_page.json";
@@ -21,6 +22,7 @@ import legalTermsPageRu from "../../../messages/ru/legal_terms_page.json";
 import mainPageRu from "../../../messages/ru/main_page.json";
 import partnersAgenciesPageRu from "../../../messages/ru/partners_agencies_page.json";
 import partnersHotelsPageRu from "../../../messages/ru/partners_hotels_page.json";
+import bookingTourModalUz from "../../../messages/uz/booking_tour_modal.json";
 import catalogPageUz from "../../../messages/uz/catalog_page.json";
 import commonUz from "../../../messages/uz/common.json";
 import companyAboutPageUz from "../../../messages/uz/company_about_page.json";
@@ -66,6 +68,7 @@ export const RU_TRANSLATION_CHECKER: TResources = {
 	legal_cookies_page: legalCookiesPageRu,
 	legal_cancellation_page: legalCancellationPageRu,
 	legal_booking_page: legalBookingPageRu,
+	booking_tour_modal: bookingTourModalRu,
 	help_support_page: helpSupportPageRu,
 	help_contact_page: helpContactPageRu,
 	help_faq_page: helpFaqPageRu,
@@ -92,6 +95,7 @@ export const UZ_TRANSLATION_CHECKER: TResources = {
 	legal_cookies_page: legalCookiesPageUz,
 	legal_cancellation_page: legalCancellationPageUz,
 	legal_booking_page: legalBookingPageUz,
+	booking_tour_modal: bookingTourModalUz,
 	help_support_page: helpSupportPageUz,
 	help_contact_page: helpContactPageUz,
 	help_faq_page: helpFaqPageUz,

@@ -1,3 +1,4 @@
+import bookingTourModal from "../../../messages/en/booking_tour_modal.json";
 import catalogPage from "../../../messages/en/catalog_page.json";
 import common from "../../../messages/en/common.json";
 import companyAboutPage from "../../../messages/en/company_about_page.json";
@@ -42,6 +43,7 @@ export type TLegalPrivacyPage = typeof legalPrivacyPage;
 export type TLegalCookiesPage = typeof legalCookiesPage;
 export type TLegalCancellationPage = typeof legalCancellationPage;
 export type TLegalBookingPage = typeof legalBookingPage;
+export type TBookingTourModal = typeof bookingTourModal;
 export type THelpSupportPage = typeof helpSupportPage;
 export type THelpContactPage = typeof helpContactPage;
 export type THelpFaqPage = typeof helpFaqPage;
@@ -67,6 +69,7 @@ export type TResources = {
 	legal_cookies_page: TLegalCookiesPage;
 	legal_cancellation_page: TLegalCancellationPage;
 	legal_booking_page: TLegalBookingPage;
+	booking_tour_modal: TBookingTourModal;
 	help_support_page: THelpSupportPage;
 	help_contact_page: THelpContactPage;
 	help_faq_page: THelpFaqPage;
@@ -93,6 +96,7 @@ export const MESSAGE_NAMESPACES = [
 	"legal_cookies_page",
 	"legal_cancellation_page",
 	"legal_booking_page",
+	"booking_tour_modal",
 	"help_support_page",
 	"help_contact_page",
 	"help_faq_page",
@@ -120,6 +124,7 @@ export type TLegalPrivacyPageKeys = TNestedKeyOf<TLegalPrivacyPage>;
 export type TLegalCookiesPageKeys = TNestedKeyOf<TLegalCookiesPage>;
 export type TLegalCancellationPageKeys = TNestedKeyOf<TLegalCancellationPage>;
 export type TLegalBookingPageKeys = TNestedKeyOf<TLegalBookingPage>;
+export type TBookingTourModalKeys = TNestedKeyOf<TBookingTourModal>;
 export type THelpSupportPageKeys = TNestedKeyOf<THelpSupportPage>;
 export type THelpContactPageKeys = TNestedKeyOf<THelpContactPage>;
 export type THelpFaqPageKeys = TNestedKeyOf<THelpFaqPage>;
