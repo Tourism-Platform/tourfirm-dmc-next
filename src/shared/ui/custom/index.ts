@@ -13,3 +13,5 @@ export * from "./custom-selectable-card";
 export * from "./custom-section-header";
 export * from "./custom-page-hero";
 export * from "./custom-cta-banner";
+export * from "./custom-editor";
+export * from "./custom-upload-images";

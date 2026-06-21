@@ -2,7 +2,7 @@ import type { ICatalogTourBackend } from "../types";
 
 export const POPULAR_TOURS_MOCK: ICatalogTourBackend[] = [
 	{
-		id: "popular-tour-1",
+		id: "9f2b3d82-5c4d-4b9f-9f7a-1a42e71d1b11",
 		title: "Tour to Fergana Valley",
 		price_from: 1009,
 		price_to: 1500,

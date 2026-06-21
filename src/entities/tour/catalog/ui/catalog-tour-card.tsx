@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import type { FC, ReactNode } from "react";
 
-import { ENUM_PATH } from "@/shared/config";
+import { ENUM_PATH, buildRoute } from "@/shared/config";
 import { Link } from "@/shared/i18n";
 import { cn } from "@/shared/lib";
 import { Badge, Card, CardContent, CardFooter, Separator } from "@/shared/ui";
@@ -30,7 +30,9 @@ export const CatalogTourCard: FC<ICatalogTourCardProps> = ({
 		<div className={cn("block h-full", className)}>
 			<Card className="flex h-full flex-col gap-0 overflow-hidden pt-0 pb-0">
 				<Link
-					href={ENUM_PATH.MAIN.CATALOG}
+					href={buildRoute(ENUM_PATH.MAIN.CATALOG.TOUR, {
+						tourId: tour.id
+					})}
 					className="block min-h-0 flex-1"
 				>
 					<div className="relative h-44 w-full shrink-0 sm:h-48">

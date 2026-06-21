@@ -20,7 +20,7 @@ export async function AboutCtaSection() {
 			actions={
 				<>
 					<Button asChild>
-						<Link href={ENUM_PATH.MAIN.CATALOG}>
+						<Link href={ENUM_PATH.MAIN.CATALOG.ROOT}>
 							{t("cta.primary")}
 						</Link>
 					</Button>

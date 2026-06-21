@@ -1,29 +1,24 @@
 {
+	"meta": {
+		"title": "Предпросмотр тура | TourLink",
+		"description": "Подробности тура, маршрут, цены и бронирование на TourLink."
+	},
 	"page_name": "Предпросмотр тура",
 	"back": "Вернуться в каталог",
 	"not_found": "Тур не найден",
 	"book_now": "Забронировать",
 	"hero": {
 		"duration": {
-			"days_one": "{{count}} день",
-			"days_few": "{{count}} дня",
-			"days_many": "{{count}} дней",
-			"days_other": "{{count}} дней",
-			"nights_one": "{{count}} ночь",
-			"nights_few": "{{count}} ночи",
-			"nights_many": "{{count}} ночей",
-			"nights_other": "{{count}} ночей"
+			"days": "{count, plural, one {# день} few {# дня} many {# дней} other {# дней}}",
+			"nights": "{count, plural, one {# ночь} few {# ночи} many {# ночей} other {# ночей}}"
 		},
 		"group_size": {
-			"persons_one": "{{count}} человек",
-			"persons_few": "{{count}} человека",
-			"persons_many": "{{count}} человек",
-			"persons_other": "{{count}} человек"
+			"persons": "{count, plural, one {# человек} few {# человека} many {# человек} other {# человек}}"
 		},
 		"age_no_restrictions": "Без ограничений по возрасту",
-		"age_requires_from": "От {{from}} лет",
-		"age_requires_to": "До {{to}} лет",
-		"age_requires_range": "{{from}}–{{to}} лет"
+		"age_requires_from": "От {from} лет",
+		"age_requires_to": "До {to} лет",
+		"age_requires_range": "{from}–{to} лет"
 	},
 	"sections": {
 		"overview": {

@@ -5,7 +5,7 @@ import { formatDateToISO, fromatISOtoDate } from "@/shared/utils";
 
 import type { TSearchTours } from "../schema";
 
-type TCatalogSearchQuery = TQueryParams[typeof ENUM_PATH.MAIN.CATALOG];
+type TCatalogSearchQuery = TQueryParams[typeof ENUM_PATH.MAIN.CATALOG.ROOT];
 
 export const mapBackendDatesToDateRange = (
 	dateFrom: string,

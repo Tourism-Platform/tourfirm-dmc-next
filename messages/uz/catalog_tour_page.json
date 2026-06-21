@@ -1,29 +1,24 @@
 {
+	"meta": {
+		"title": "Tour preview | TourLink",
+		"description": "Explore tour details, itinerary, pricing and book your trip with TourLink."
+	},
 	"page_name": "Tour Preview",
 	"back": "Back to catalogue",
 	"not_found": "Tour not found",
 	"book_now": "Book now",
 	"hero": {
 		"duration": {
-			"days_one": "{{count}} day",
-			"days_few": "{{count}} days",
-			"days_many": "{{count}} days",
-			"days_other": "{{count}} days",
-			"nights_one": "{{count}} night",
-			"nights_few": "{{count}} nights",
-			"nights_many": "{{count}} nights",
-			"nights_other": "{{count}} nights"
+			"days": "{count, plural, one {# kun} other {# kun}}",
+			"nights": "{count, plural, one {# tun} other {# tun}}"
 		},
 		"group_size": {
-			"persons_one": "{{count}} person",
-			"persons_few": "{{count}} persons",
-			"persons_many": "{{count}} persons",
-			"persons_other": "{{count}} persons"
+			"persons": "{count, plural, one {# kishi} other {# kishi}}"
 		},
 		"age_no_restrictions": "No age restrictions",
-		"age_requires_from": "From {{from}} years old",
-		"age_requires_to": "Up to {{to}} years old",
-		"age_requires_range": "{{from}}–{{to}} years old"
+		"age_requires_from": "From {from} years old",
+		"age_requires_to": "Up to {to} years old",
+		"age_requires_range": "{from}–{to} years old"
 	},
 	"sections": {
 		"overview": {

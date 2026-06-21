@@ -40,7 +40,7 @@ export const FOOTER_SECTIONS: IFooterSectionConfig[] = [
 			},
 			{
 				label: "sections.toursPartners.links.tours",
-				path: ENUM_PATH.MAIN.CATALOG
+				path: ENUM_PATH.MAIN.CATALOG.ROOT
 			},
 			{
 				label: "sections.toursPartners.links.agencies",

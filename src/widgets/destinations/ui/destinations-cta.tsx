@@ -32,9 +32,12 @@ export async function DestinationsCta() {
 					</ContactMailtoButton>
 					<Button asChild variant="outline">
 						<Link
-							href={buildRouteWithQuery(ENUM_PATH.MAIN.CATALOG, {
-								destination: "Uzbekistan"
-							})}
+							href={buildRouteWithQuery(
+								ENUM_PATH.MAIN.CATALOG.ROOT,
+								{
+									destination: "Uzbekistan"
+								}
+							)}
 						>
 							{t("cta.secondary")}
 						</Link>

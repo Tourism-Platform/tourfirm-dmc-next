@@ -1,3 +1,15 @@
+export * from "./catalog-labels.types";
+export * from "./catalog-preview-tour.types";
+export * from "./catalog-preview-tour-general.types";
+export * from "./catalog-preview-tour-status.types";
+export * from "./catalog-preview-tour-type.types";
+export * from "./catalog-preview-tour-category.types";
+export * from "./catalog-preview-option-event.types";
+export * from "./catalog-preview-option.types";
+export * from "./catalog-preview-option-sheet.types";
+export * from "./catalog-preview-operator.types";
+export * from "./catalog-preview-backend.types";
+export * from "./catalog-preview-option-media.types";
 export type { ICatalogTourCard } from "./catalog-tour.interface";
 export type { ICatalogTourBackend } from "./catalog-tour-backend.interface";
 export type { IRecentSearch, TTourType } from "./recent-search.interface";

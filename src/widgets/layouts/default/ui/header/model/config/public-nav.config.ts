@@ -30,7 +30,7 @@ export const PUBLIC_NAV_ITEMS: IPublicNavLink[] = [
 	},
 	{
 		label: "public.nav.tours.label",
-		path: ENUM_PATH.MAIN.CATALOG,
+		path: ENUM_PATH.MAIN.CATALOG.ROOT,
 		sections: []
 	},
 	{

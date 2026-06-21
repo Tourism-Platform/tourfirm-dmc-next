@@ -44,7 +44,7 @@ const SpecialOffersBase: FC = () => {
 						{t("offers.subtitle")}
 					</p>
 					<Button asChild variant="destructive" className="w-fit">
-						<Link href={ENUM_PATH.MAIN.CATALOG}>
+						<Link href={ENUM_PATH.MAIN.CATALOG.ROOT}>
 							{t("offers.cta")}
 						</Link>
 					</Button>

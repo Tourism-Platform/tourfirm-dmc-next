@@ -1,0 +1,209 @@
+{
+	"commission": {
+		"fixed": "Фиксированная сумма",
+		"percentage": "Процент от общей стоимости",
+		"partner": "Партнерская комиссия",
+		"platform": "Платформенная комиссия",
+		"service_fee": "Сервисный сбор"
+	},
+	"staff": {
+		"statuses": {
+			"active": "Активен",
+			"inactive": "Неактивен",
+			"pending": "В ожидании"
+		}
+	},
+	"tour": {
+		"languages": {
+			"english": "Английский",
+			"russian": "Русский",
+			"spanish": "Испанский",
+			"italian": "Итальянский",
+			"french": "Французский",
+			"chinese": "Китайский",
+			"japanese": "Японский",
+			"uzbek": "Узбекский",
+			"portuguese": "Португальский"
+		},
+		"duration": {
+			"days": "дн.",
+			"nights": "ноч."
+		},
+		"catalogDurations": {
+			"half_day": "Полдня (0–1 день)",
+			"full_day": "Полный день (1 день)",
+			"multi_days": "Несколько дней (2–15 дней)"
+		},
+		"statuses": {
+			"all": "Все",
+			"active": "Активен",
+			"moderate": "Модерация",
+			"planning": "Планирование",
+			"cancelled": "Отменен",
+			"archived": "Архив",
+			"draft": "Черновики",
+			"published": "Опубликовано"
+		},
+		"tourTypes": {
+			"private": "Частный",
+			"group": "Группа"
+		},
+		"tourCategories": {
+			"cultural_historical": "Культурно-исторический",
+			"religious_spiritual": "Религиозно-духовный",
+			"archaeological": "Археологический",
+			"adventure_outdoor": "Приключенческий и активный",
+			"eco_nature": "Эко и природа",
+			"hiking_trekking": "Хайкинг и треккинг",
+			"city_tour": "Городской тур",
+			"gastronomy_culinary": "Гастрономический",
+			"photography_creative": "Фото и творчество",
+			"educational": "Образовательный",
+			"master_class_workshop": "Мастер-классы и воркшопы",
+			"wellness_spa": "Велнес и СПА",
+			"yoga_meditation": "Йога и медитация",
+			"business_mice": "Бизнес и MICE",
+			"family_kids": "Для семьи и детей",
+			"multi_destination": "Многодневный тур"
+		},
+		"visibility": {
+			"show_from": "Показывать цену 'от'",
+			"show_exact": "Показывать точную цену",
+			"hide": "Скрыть цену"
+		},
+		"pickup": {
+			"airport": "Трансфер из аэропорта",
+			"hotel": "Трансфер из отеля"
+		},
+		"amenities": {
+			"professional_guide": "Профессиональный гид",
+			"hotel_accommodation": "Проживание в отеле",
+			"breakfast": "Завтрак",
+			"lunch": "Обед",
+			"dinner": "Ужин",
+			"airport_transfer": "Аэропортовый трансфер",
+			"entrance_fees": "Входные билеты",
+			"travel_insurance": "Страхование путешествий",
+			"transportation": "Транспорт",
+			"bottled_water": "Бутилированная вода",
+			"wifi_on_board": "Wi-Fi на борту",
+			"air_conditioning": "Кондиционер",
+			"luggage_handling": "Обслуживание багажа",
+			"support_24_7": "Поддержка 24/7",
+			"international_flights": "Международные рейсы",
+			"visa_fees": "Визовые сборы",
+			"personal_expenses": "Личные расходы",
+			"tips_gratuities": "Чаевые",
+			"camera_video_fees": "Сборы за фото/видео",
+			"optional_activities": "Дополнительные мероприятия",
+			"alcoholic_beverages": "Алкогольные напитки",
+			"souvenirs": "Сувениры",
+			"extra_meals": "Дополнительное питание",
+			"room_service": "Обслуживание номеров",
+			"laundry_service": "Услуги прачечной",
+			"phone_calls": "Телефонные звонки",
+			"medical_expenses": "Медицинские расходы"
+		},
+		"vehicleBodyTypes": {
+			"sedan": "Седан",
+			"suv": "Внедорожник",
+			"minivan": "Минивэн",
+			"minibus": "Микроавтобус",
+			"minibus_plus": "Микроавтобус+",
+			"bus": "Автобус",
+			"coach": "Туристический автобус"
+		},
+		"transferTypes": {
+			"city_tour": "Обзорная экскурсия",
+			"city_transfer": "Городской трансфер",
+			"intercity_transfer": "Межгородской трансфер",
+			"airport_transfer": "Трансфер из аэропорта",
+			"station_transfer": "Трансфер с вокзала",
+			"custom": "Другое"
+		},
+		"activityTypes": {
+			"food": "Рестораны, кафе, чайханы и уличная еда",
+			"master_class": "Любой мастер-класс или воркшоп (кулинария, керамика, ткачество, каллиграфия)",
+			"sightseeing": "Музеи, памятники, мечети, мавзолеи и базары",
+			"outdoor": "Треккинг, походы, кемпинг и сафари-туры",
+			"riding": "Конные и верблюжьи прогулки, велопрогулки",
+			"extreme": "Рафтинг, скалолазание и зиплайн",
+			"wellness": "Хаммам, СПА, йога и медитации",
+			"entertainment": "Шоу-программы, театры, концерты и фестивали",
+			"water_activities": "Морские прогулки, катание на джет-ски, рыбалка",
+			"photography": "Фотопрогулки",
+			"spiritual": "Паломничества и религиозные места"
+		}
+	},
+	"user": {
+		"business": {
+			"types": {
+				"tour_operator": "Туроператор",
+				"agency": "Агентство"
+			}
+		}
+	},
+	"finance": {
+		"invoice": {
+			"statuses": {
+				"draft": "Черновик",
+				"sent": "Отправлен",
+				"partial": "Частично оплачен",
+				"paid": "Оплачен",
+				"overdue": "Просрочен",
+				"cancelled": "Отменён"
+			}
+		},
+		"client_payment": {
+			"statuses": {
+				"assigned": "Назначен",
+				"not_assigned": "Не назначен"
+			}
+		},
+		"supplier_payment": {
+			"statuses": {
+				"recorded": "Записано",
+				"confirmed": "Подтверждено"
+			}
+		},
+		"reconciliation": {
+			"statuses": {
+				"in_progress": "В процессе",
+				"completed": "Завершенно"
+			}
+		},
+		"payment_methods": {
+			"classic_swift": "Классический SWIFT",
+			"wise": "WISE"
+		}
+	},
+	"booking": {
+		"order": {
+			"statuses": {
+				"new": "Новый",
+				"in_processing": "Обработка",
+				"booking": "Бронирование",
+				"in_progress": "В работе",
+				"completed": "Завершен",
+				"cancelled": "Отменен"
+			},
+			"types": {
+				"regular": "Обычный",
+				"vip": "VIP",
+				"group": "Групповой"
+			},
+			"client_types": {
+				"agency": "Агентство",
+				"direct": "Прямой",
+				"corporate": "Корпоративный"
+			},
+			"supplier_payment": {
+				"statuses": {
+					"booked": "Забронировано",
+					"recorded": "Записано",
+					"not_booked": "Не забронировано"
+				}
+			}
+		}
+	}
+}

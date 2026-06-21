@@ -1,5 +1,5 @@
 import { setupServer } from "msw/node";
 
-import { tourCatalogHandlers } from "@/entities/tour/catalog/handlers";
+import { tourCatalogHandlersAll } from "@/entities/tour/catalog/handlers";
 
-export const server = setupServer(...tourCatalogHandlers);
+export const server = setupServer(...tourCatalogHandlersAll);

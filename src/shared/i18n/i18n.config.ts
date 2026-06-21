@@ -1,5 +1,7 @@
 import bookingTourModal from "../../../messages/en/booking_tour_modal.json";
 import catalogPage from "../../../messages/en/catalog_page.json";
+import catalogTourOptionPage from "../../../messages/en/catalog_tour_option_page.json";
+import catalogTourPage from "../../../messages/en/catalog_tour_page.json";
 import common from "../../../messages/en/common.json";
 import companyAboutPage from "../../../messages/en/company_about_page.json";
 import companyFeedbackPage from "../../../messages/en/company_feedback_page.json";
@@ -20,6 +22,7 @@ import legalCookiesPage from "../../../messages/en/legal_cookies_page.json";
 import legalPrivacyPage from "../../../messages/en/legal_privacy_page.json";
 import legalTermsPage from "../../../messages/en/legal_terms_page.json";
 import mainPage from "../../../messages/en/main_page.json";
+import options from "../../../messages/en/options.json";
 import partnersAgenciesPage from "../../../messages/en/partners_agencies_page.json";
 import partnersHotelsPage from "../../../messages/en/partners_hotels_page.json";
 
@@ -31,6 +34,9 @@ export type TFooter = typeof footer;
 export type TMainPage = typeof mainPage;
 export type TDestinationsPage = typeof destinationsPage;
 export type TCatalogPage = typeof catalogPage;
+export type TCatalogTourPage = typeof catalogTourPage;
+export type TCatalogTourOptionPage = typeof catalogTourOptionPage;
+export type TOptions = typeof options;
 export type TPartnersAgenciesPage = typeof partnersAgenciesPage;
 export type TPartnersHotelsPage = typeof partnersHotelsPage;
 export type TCompanyAboutPage = typeof companyAboutPage;
@@ -57,6 +63,9 @@ export type TResources = {
 	main_page: TMainPage;
 	destinations_page: TDestinationsPage;
 	catalog_page: TCatalogPage;
+	catalog_tour_page: TCatalogTourPage;
+	catalog_tour_option_page: TCatalogTourOptionPage;
+	options: TOptions;
 	partners_agencies_page: TPartnersAgenciesPage;
 	partners_hotels_page: TPartnersHotelsPage;
 	company_about_page: TCompanyAboutPage;
@@ -84,6 +93,9 @@ export const MESSAGE_NAMESPACES = [
 	"main_page",
 	"destinations_page",
 	"catalog_page",
+	"catalog_tour_page",
+	"catalog_tour_option_page",
+	"options",
 	"partners_agencies_page",
 	"partners_hotels_page",
 	"company_about_page",
@@ -112,6 +124,9 @@ export type TFooterKeys = TNestedKeyOf<TFooter>;
 export type TMainPageKeys = TNestedKeyOf<TMainPage>;
 export type TDestinationsPageKeys = TNestedKeyOf<TDestinationsPage>;
 export type TCatalogPageKeys = TNestedKeyOf<TCatalogPage>;
+export type TCatalogTourPageKeys = TNestedKeyOf<TCatalogTourPage>;
+export type TCatalogTourOptionPageKeys = TNestedKeyOf<TCatalogTourOptionPage>;
+export type TOptionsKeys = TNestedKeyOf<TOptions>;
 export type TPartnersAgenciesPageKeys = TNestedKeyOf<TPartnersAgenciesPage>;
 export type TPartnersHotelsPageKeys = TNestedKeyOf<TPartnersHotelsPage>;
 export type TCompanyAboutPageKeys = TNestedKeyOf<TCompanyAboutPage>;
