@@ -6,7 +6,7 @@ export const MAIN_FEATURED_ROUTES_CONFIG: TMainRouteConfig[] = [
 	{
 		id: "essentials",
 		imageUrl: "/assets/images/tours/classic.jpg",
-		ctaHref: buildRouteWithQuery(ENUM_PATH.MAIN.CATALOG.ROOT, {
+		ctaHref: buildRouteWithQuery(ENUM_PATH.MAIN.SEARCH, {
 			destination: "Uzbekistan"
 		}),
 		i18n: MAIN_ROUTE_I18N.essentials

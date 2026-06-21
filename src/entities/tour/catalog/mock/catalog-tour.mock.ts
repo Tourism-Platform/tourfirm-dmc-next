@@ -125,3 +125,18 @@ export const SPECIAL_OFFERS_MOCK: ICatalogTourBackend[] = [
 		is_recommended: true
 	}
 ];
+
+const uniqueTours = (tours: ICatalogTourBackend[]) => {
+	const seen = new Set<string>();
+
+	return tours.filter((tour) => {
+		if (seen.has(tour.id)) return false;
+		seen.add(tour.id);
+		return true;
+	});
+};
+
+export const CATALOG_TOURS_MOCK: ICatalogTourBackend[] = uniqueTours([
+	...POPULAR_TOURS_MOCK,
+	...SPECIAL_OFFERS_MOCK
+]);

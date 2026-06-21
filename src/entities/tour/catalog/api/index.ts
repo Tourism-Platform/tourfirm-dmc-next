@@ -1,5 +1,8 @@
 export {
 	catalogTourApi,
+	useGetCatalogToursQuery,
+	useGetCatalogRegionsQuery,
+	useGetCatalogPriceHistogramQuery,
 	useGetCatalogDestinationsQuery,
 	useGetRecentlySearchedToursQuery,
 	useGetPopularToursQuery,

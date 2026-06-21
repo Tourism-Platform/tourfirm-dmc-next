@@ -31,12 +31,9 @@ export async function DestinationsHero() {
 					</Button>
 					<Button asChild>
 						<Link
-							href={buildRouteWithQuery(
-								ENUM_PATH.MAIN.CATALOG.ROOT,
-								{
-									destination: "Uzbekistan"
-								}
-							)}
+							href={buildRouteWithQuery(ENUM_PATH.MAIN.SEARCH, {
+								destination: "Uzbekistan"
+							})}
 						>
 							{t("hero.cta_uzbekistan")}
 						</Link>

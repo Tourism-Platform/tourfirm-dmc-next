@@ -8,7 +8,7 @@ export const ROUTE_IDEAS_CONFIG: TRouteIdeaConfig[] = [
 	{
 		id: "uzbekistan_intro",
 		imageUrl: DESTINATION_IMAGES.uzbekistan,
-		ctaHref: buildRouteWithQuery(ENUM_PATH.MAIN.CATALOG.ROOT, {
+		ctaHref: buildRouteWithQuery(ENUM_PATH.MAIN.SEARCH, {
 			destination: "Uzbekistan"
 		}),
 		i18n: ROUTE_IDEAS_I18N.uzbekistan_intro

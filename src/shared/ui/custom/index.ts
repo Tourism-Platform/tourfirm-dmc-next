@@ -8,6 +8,7 @@ export * from "./custom-range-field";
 export * from "./custom-upload-main-image";
 export * from "./custom-price-filter";
 export * from "./custom-accordion";
+export * from "./custom-accordion-range";
 export * from "./custom-input-select";
 export * from "./custom-selectable-card";
 export * from "./custom-section-header";

@@ -11,8 +11,11 @@ export * from "./catalog-preview-option.converters";
 export {
 	mapCatalogTourToFrontend,
 	mapCatalogToursToFrontend,
+	mapCatalogTourFiltersToQuery,
 	mapFilterOptionToFrontend,
-	mapFilterOptionsToFrontend
+	mapFilterOptionsToFrontend,
+	mapFilterOptionsPaginatedToFrontend,
+	mapPriceHistogramToFrontend
 } from "./catalog-tour.converters";
 export {
 	mapRecentlySearchToFrontend,

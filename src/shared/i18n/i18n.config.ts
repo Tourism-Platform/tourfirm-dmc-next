@@ -25,6 +25,7 @@ import mainPage from "../../../messages/en/main_page.json";
 import options from "../../../messages/en/options.json";
 import partnersAgenciesPage from "../../../messages/en/partners_agencies_page.json";
 import partnersHotelsPage from "../../../messages/en/partners_hotels_page.json";
+import searchPage from "../../../messages/en/search_page.json";
 
 import type { TNestedKeyOf } from "./types";
 
@@ -38,6 +39,7 @@ export type TCatalogTourPage = typeof catalogTourPage;
 export type TCatalogTourOptionPage = typeof catalogTourOptionPage;
 export type TOptions = typeof options;
 export type TPartnersAgenciesPage = typeof partnersAgenciesPage;
+export type TSearchPage = typeof searchPage;
 export type TPartnersHotelsPage = typeof partnersHotelsPage;
 export type TCompanyAboutPage = typeof companyAboutPage;
 export type TCompanyServicesPage = typeof companyServicesPage;
@@ -63,6 +65,7 @@ export type TResources = {
 	main_page: TMainPage;
 	destinations_page: TDestinationsPage;
 	catalog_page: TCatalogPage;
+	search_page: TSearchPage;
 	catalog_tour_page: TCatalogTourPage;
 	catalog_tour_option_page: TCatalogTourOptionPage;
 	options: TOptions;
@@ -93,6 +96,7 @@ export const MESSAGE_NAMESPACES = [
 	"main_page",
 	"destinations_page",
 	"catalog_page",
+	"search_page",
 	"catalog_tour_page",
 	"catalog_tour_option_page",
 	"options",
@@ -124,6 +128,7 @@ export type TFooterKeys = TNestedKeyOf<TFooter>;
 export type TMainPageKeys = TNestedKeyOf<TMainPage>;
 export type TDestinationsPageKeys = TNestedKeyOf<TDestinationsPage>;
 export type TCatalogPageKeys = TNestedKeyOf<TCatalogPage>;
+export type TSearchPageKeys = TNestedKeyOf<TSearchPage>;
 export type TCatalogTourPageKeys = TNestedKeyOf<TCatalogTourPage>;
 export type TCatalogTourOptionPageKeys = TNestedKeyOf<TCatalogTourOptionPage>;
 export type TOptionsKeys = TNestedKeyOf<TOptions>;

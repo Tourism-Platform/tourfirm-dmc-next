@@ -25,6 +25,7 @@ import mainPageRu from "../../../messages/ru/main_page.json";
 import optionsRu from "../../../messages/ru/options.json";
 import partnersAgenciesPageRu from "../../../messages/ru/partners_agencies_page.json";
 import partnersHotelsPageRu from "../../../messages/ru/partners_hotels_page.json";
+import searchPageRu from "../../../messages/ru/search_page.json";
 import bookingTourModalUz from "../../../messages/uz/booking_tour_modal.json";
 import catalogPageUz from "../../../messages/uz/catalog_page.json";
 import catalogTourOptionPageUz from "../../../messages/uz/catalog_tour_option_page.json";
@@ -52,6 +53,7 @@ import mainPageUz from "../../../messages/uz/main_page.json";
 import optionsUz from "../../../messages/uz/options.json";
 import partnersAgenciesPageUz from "../../../messages/uz/partners_agencies_page.json";
 import partnersHotelsPageUz from "../../../messages/uz/partners_hotels_page.json";
+import searchPageUz from "../../../messages/uz/search_page.json";
 
 import type { TResources } from "./i18n.config";
 
@@ -62,6 +64,7 @@ export const RU_TRANSLATION_CHECKER: TResources = {
 	main_page: mainPageRu,
 	destinations_page: destinationsPageRu,
 	catalog_page: catalogPageRu,
+	search_page: searchPageRu,
 	catalog_tour_page: catalogTourPageRu,
 	catalog_tour_option_page: catalogTourOptionPageRu,
 	options: optionsRu,
@@ -92,6 +95,7 @@ export const UZ_TRANSLATION_CHECKER: TResources = {
 	main_page: mainPageUz,
 	destinations_page: destinationsPageUz,
 	catalog_page: catalogPageUz,
+	search_page: searchPageUz,
 	catalog_tour_page: catalogTourPageUz,
 	catalog_tour_option_page: catalogTourOptionPageUz,
 	options: optionsUz,
