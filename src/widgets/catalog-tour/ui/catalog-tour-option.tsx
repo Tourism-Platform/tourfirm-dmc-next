@@ -6,7 +6,7 @@ import { useParams } from "next/navigation";
 import { type FC, useEffect } from "react";
 import { toast } from "sonner";
 
-import { ENUM_PATH, buildRoute } from "@/shared/config";
+import { ENUM_PATH } from "@/shared/config";
 import { Link } from "@/shared/i18n";
 import { cn } from "@/shared/lib";
 import {
@@ -24,9 +24,11 @@ import {
 	useGetCatalogPreviewTourGeneralQuery
 } from "@/entities/tour/catalog";
 
+import { BookTourModal } from "@/features/booking/book-tour";
+
 import { CATALOG_OPTION_TABS_LIST } from "../model";
 
-import { CatalogTourHero, CatalogTourProviderCard } from "./tour";
+import { CatalogTourHero } from "./tour";
 
 const CatalogTourOptionBase: FC = () => {
 	const { tourId = "", optionId = "" } = useParams<{
@@ -67,23 +69,28 @@ const CatalogTourOptionBase: FC = () => {
 
 	const defaultTab = CATALOG_OPTION_TABS_LIST[0]?.type ?? "";
 
+	const bookTour = {
+		id: tourData?.id ?? tourId,
+		title: tourData?.tourTitle ?? ""
+	};
+
 	return (
 		<section className="flex flex-col gap-8 container pb-12 mt-6 max-w-6xl mx-auto relative">
-			<Link
-				href={buildRoute(ENUM_PATH.MAIN.CATALOG.TOUR, {
-					tourId
-				})}
-				className="absolute top-0 left-0"
-			>
-				<Button variant="ghost" size="sm">
-					<ArrowLeft className="w-4 h-4" />
-					{t("back")}
-				</Button>
-			</Link>
-
-			<div className="grid grid-cols-[1fr_auto] gap-8 items-start mb-8">
-				{tourData && <CatalogTourHero tour={tourData} />}
-				<CatalogTourProviderCard />
+			<div className="grid grid-cols-[1fr_auto] gap-8 items-start relative">
+				<Link
+					href={ENUM_PATH.MAIN.SEARCH}
+					className="absolute top-5 left-0"
+				>
+					<Button variant="ghost" size="sm">
+						<ArrowLeft className="w-4 h-4" />
+						{t("back")}
+					</Button>
+				</Link>
+				<CatalogTourHero tour={tourData} />
+				<BookTourModal
+					tour={bookTour}
+					triggerClassName="absolute top-5 right-0"
+				/>
 			</div>
 
 			<div className="flex flex-col mt-4">
@@ -111,6 +118,9 @@ const CatalogTourOptionBase: FC = () => {
 						</CustomOptionTabsContent>
 					))}
 				</CustomOptionTabs>
+			</div>
+			<div className="flex justify-center">
+				<BookTourModal tour={bookTour} />
 			</div>
 		</section>
 	);

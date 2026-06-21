@@ -1,14 +1,7 @@
-import type { ICatalogPreviewOperatorBackend } from "../types";
 import {
 	CATALOG_PREVIEW_BACKEND_ACTIVITY_TYPE,
 	CATALOG_PREVIEW_BACKEND_AMENITY,
-	CATALOG_PREVIEW_BACKEND_CURRENCY,
-	CATALOG_PREVIEW_BACKEND_LANGUAGE,
 	CATALOG_PREVIEW_BACKEND_LANGUAGE_CODE,
-	CATALOG_PREVIEW_BACKEND_PICKUP_TYPE,
-	CATALOG_PREVIEW_BACKEND_TOUR_CATEGORY,
-	CATALOG_PREVIEW_BACKEND_TOUR_STATUS,
-	CATALOG_PREVIEW_BACKEND_TOUR_TYPE,
 	CATALOG_PREVIEW_BACKEND_TRANSFER_TYPE,
 	type ICatalogPreviewActivityEventBackend,
 	type ICatalogPreviewBusEventBackend,
@@ -17,8 +10,8 @@ import {
 	type ICatalogPreviewInformationEventBackend,
 	type ICatalogPreviewLocationBackend,
 	type ICatalogPreviewMultipleOptionEventBackend,
+	type ICatalogPreviewOperatorBackend,
 	type ICatalogPreviewOptionDetailBackend,
-	type ICatalogPreviewOptionListItemBackend,
 	type ICatalogPreviewTimeBackend,
 	type ICatalogPreviewTourGeneralBackend,
 	type ICatalogPreviewTourLandingBackend,
@@ -30,12 +23,29 @@ import {
 	CATALOG_PREVIEW_MOCK_IMAGE_URLS,
 	withCatalogPreviewEventMedia
 } from "./catalog-preview-option-media.mock";
+import { DEFAULT_TOUR_PACKAGE_ID, TOUR_PACKAGE_MOCKS } from "./generated";
 
-export const CATALOG_PREVIEW_TOUR_MOCK_ID =
-	"9f2b3d82-5c4d-4b9f-9f7a-1a42e71d1b11";
+const defaultTourMock = TOUR_PACKAGE_MOCKS[DEFAULT_TOUR_PACKAGE_ID];
+
+export const CATALOG_PREVIEW_TOUR_MOCK_ID = DEFAULT_TOUR_PACKAGE_ID;
 
 export const CATALOG_PREVIEW_OPTION_MOCK_ID =
-	"1f2b3d82-5c4d-4b9f-9f7a-1a42e71d1b11";
+	defaultTourMock?.optionDetail.id ?? `${DEFAULT_TOUR_PACKAGE_ID}-default`;
+
+export const CATALOG_PREVIEW_TOUR_LANDING_MOCK =
+	defaultTourMock?.landing ?? ({} as ICatalogPreviewTourLandingBackend);
+
+export const CATALOG_PREVIEW_TOUR_GENERAL_MOCK =
+	defaultTourMock?.general ?? ({} as ICatalogPreviewTourGeneralBackend);
+
+export const CATALOG_PREVIEW_OPERATOR_MOCK =
+	defaultTourMock?.operator ?? ({} as ICatalogPreviewOperatorBackend);
+
+export const CATALOG_PREVIEW_TOUR_OPTIONS_LIST_MOCK =
+	defaultTourMock?.options ?? [];
+
+export const CATALOG_PREVIEW_OPTION_BACKEND_MOCK =
+	defaultTourMock?.optionDetail ?? ({} as ICatalogPreviewOptionDetailBackend);
 
 const time = (t: string): ICatalogPreviewTimeBackend => ({
 	time: t,
@@ -344,199 +354,3 @@ export const catalogPreviewMultiplyEvening = (
 		)
 	]
 });
-
-const monetary = (val: number) => ({
-	val,
-	currency: CATALOG_PREVIEW_BACKEND_CURRENCY.USD
-});
-
-export const CATALOG_PREVIEW_TOUR_LANDING_MOCK: ICatalogPreviewTourLandingBackend =
-	{
-		title: "Title",
-		images: [
-			{
-				id: "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-				image_url: CATALOG_PREVIEW_MOCK_IMAGE_URLS.cover,
-				is_primary: true
-			},
-			{
-				id: "b2c3d4e5-f6a7-8901-bcde-f12345678901",
-				image_url: CATALOG_PREVIEW_MOCK_IMAGE_URLS.single1,
-				is_primary: false
-			},
-			{
-				id: "c3d4e5f6-a7b8-9012-cdef-123456789012",
-				image_url: CATALOG_PREVIEW_MOCK_IMAGE_URLS.single2,
-				is_primary: false
-			},
-			{
-				id: "d4e5f6a7-b8c9-0123-def0-234567890123",
-				image_url: CATALOG_PREVIEW_MOCK_IMAGE_URLS.hotelA,
-				is_primary: false
-			},
-			{
-				id: "e5f6a7b8-c9d0-1234-ef01-345678901234",
-				image_url: CATALOG_PREVIEW_MOCK_IMAGE_URLS.activityA,
-				is_primary: false
-			}
-		],
-		overview:
-			'{"type":"doc","content":[{"type":"paragraph","attrs":{"textAlign":null},"content":[{"type":"text","text":"Embark on an unforgettable journey through the ancient cities of Uzbekistan."},{"type":"hardBreak"},{"type":"text","marks":[{"type":"bold"}],"text":"Discover the rich history, stunning architecture, and warm hospitality of the Silk Road."}]}]}',
-		additional_information:
-			'{"type":"doc","content":[{"type":"paragraph","attrs":{"textAlign":null},"content":[{"type":"text","text":"Embark on an unforgettable journey through the ancient cities of Uzbekistan."},{"type":"hardBreak"},{"type":"text","marks":[{"type":"bold"}],"text":"Discover the rich history, stunning architecture, and warm hospitality of the Silk Road."}]}]}',
-		description:
-			'{"type":"doc","content":[{"type":"paragraph","attrs":{"textAlign":null},"content":[{"type":"text","text":"Embark on an unforgettable journey through the ancient cities of Uzbekistan."},{"type":"hardBreak"},{"type":"text","marks":[{"type":"bold"}],"text":"Discover the rich history, stunning architecture, and warm hospitality of the Silk Road."}]}]}',
-		languages: [
-			CATALOG_PREVIEW_BACKEND_LANGUAGE.English,
-			CATALOG_PREVIEW_BACKEND_LANGUAGE.Russian
-		],
-		amenities_included: [CATALOG_PREVIEW_BACKEND_AMENITY.Wifi],
-		amenities_not_included: [CATALOG_PREVIEW_BACKEND_AMENITY.Wifi],
-		pickup_type: [CATALOG_PREVIEW_BACKEND_PICKUP_TYPE.AirportPickup],
-		pickup_description:
-			'{"type":"doc","content":[{"type":"paragraph","attrs":{"textAlign":null},"content":[{"type":"text","text":"We provide pickup from all major hotels in Tashkent and the international airport."},{"type":"hardBreak"},{"type":"text","marks":[{"type":"italic"}],"text":"Please provide your arrival details at least 48 hours before the tour."}]}]}',
-		cancellation_policy:
-			'{"type":"doc","content":[{"type":"paragraph","attrs":{"textAlign":null},"content":[{"type":"text","text":"Full refund for cancellations made at least 7 days before the start date."},{"type":"hardBreak"},{"type":"text","marks":[{"type":"bold"}],"text":"50% refund for cancellations between 3 and 7 days."},{"type":"hardBreak"},{"type":"text","text":"No refund for cancellations within 72 hours."}]}]}',
-		overview_description:
-			'{"type":"doc","content":[{"type":"paragraph","attrs":{"textAlign":null},"content":[{"type":"text","text":"Please wear comfortable walking shoes."},{"type":"hardBreak"},{"type":"text","marks":[{"type":"italic"}],"text":"Some sites require modest dress (shoulders and knees covered). Don\'t forget your camera!"}]}]}'
-	};
-
-export const CATALOG_PREVIEW_TOUR_GENERAL_MOCK: ICatalogPreviewTourGeneralBackend =
-	{
-		id: CATALOG_PREVIEW_TOUR_MOCK_ID,
-		status: CATALOG_PREVIEW_BACKEND_TOUR_STATUS.Archived,
-		operator_id: "123",
-		schedule_id: "123",
-		agency_id: "123",
-		landing_id: "123",
-		cover_image_path: "123",
-		duration_hours: 10,
-		typ: CATALOG_PREVIEW_BACKEND_TOUR_TYPE.Regular,
-		name: "Embark on an Unforgettable Archaeological Journey",
-		group_size: 15,
-		group_size_min: null,
-		days: 10,
-		nights: 10,
-		age_from: 18,
-		age_to: 65,
-		categories: [CATALOG_PREVIEW_BACKEND_TOUR_CATEGORY.AdventureOutdoor]
-	};
-
-export const CATALOG_PREVIEW_OPERATOR_MOCK: ICatalogPreviewOperatorBackend = {
-	id: "op-1234-5678",
-	business_name: "Silk Road Explorers",
-	description: "We are the best operator in the region.",
-	website_url: "https://example.com",
-	contact_email: "contact@example.com",
-	contact_phone: "+998 90 123 45 67",
-	address_line: "Amir Timur st 1",
-	city: "Tashkent",
-	country: "Uzbekistan",
-	logo_url:
-		"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFHUvc7-P766gQCjdtYsIRRZAtCxVBWsTH_4TaXTIgAg&s"
-};
-
-export const CATALOG_PREVIEW_TOUR_OPTIONS_LIST_MOCK: ICatalogPreviewOptionListItemBackend[] =
-	[
-		{
-			id: CATALOG_PREVIEW_OPTION_MOCK_ID,
-			name: "Silk Road Explorer — 6 Days Classic",
-			description:
-				"Six-day journey through Tashkent and Samarkand with train, guided monuments, and partner hotels.",
-			cover_image_path: CATALOG_PREVIEW_MOCK_IMAGE_URLS.cover,
-			total_price: monetary(983),
-			total_price_max: monetary(1112),
-			price_per_person: monetary(196),
-			price_per_person_max: monetary(222)
-		}
-	];
-
-export const CATALOG_PREVIEW_OPTION_BACKEND_MOCK: ICatalogPreviewOptionDetailBackend =
-	{
-		id: CATALOG_PREVIEW_OPTION_MOCK_ID,
-		total_price: monetary(983),
-		total_price_max: monetary(1112),
-		events: [
-			withCatalogPreviewEventMedia(
-				catalogPreviewInfoEvent(
-					1,
-					1,
-					"Arrival briefing & welcome",
-					"Meet your representative at the airport, welcome pack, and lobby briefing at 15:00."
-				),
-				[]
-			),
-			withCatalogPreviewEventMedia(
-				catalogPreviewFlightEvent(
-					1,
-					2,
-					"International arrival flight",
-					"Coordinated meet-and-greet for arrivals at Tashkent International Airport (TAS)."
-				),
-				[CATALOG_PREVIEW_MOCK_IMAGE_URLS.single1]
-			),
-			withCatalogPreviewEventMedia(
-				catalogPreviewTransferEvent(
-					1,
-					3,
-					"Airport to hotel transfer",
-					"Shared air-conditioned minivan with bottled water; approx. 35–50 minutes."
-				),
-				[CATALOG_PREVIEW_MOCK_IMAGE_URLS.single2]
-			),
-			withCatalogPreviewEventMedia(catalogPreviewMultiplyHotels(1, 4), [
-				CATALOG_PREVIEW_MOCK_IMAGE_URLS.single3,
-				CATALOG_PREVIEW_MOCK_IMAGE_URLS.single4
-			]),
-			withCatalogPreviewEventMedia(catalogPreviewMultiplyEvening(1, 5), [
-				CATALOG_PREVIEW_MOCK_IMAGE_URLS.activityA,
-				CATALOG_PREVIEW_MOCK_IMAGE_URLS.activityB
-			]),
-			withCatalogPreviewEventMedia(
-				catalogPreviewTrainEvent(
-					2,
-					1,
-					"Afrosiyob train to Samarkand",
-					"High-speed train in comfort class; guide meets you on the platform."
-				),
-				[CATALOG_PREVIEW_MOCK_IMAGE_URLS.single3]
-			),
-			withCatalogPreviewEventMedia(
-				catalogPreviewBusEvent(
-					2,
-					2,
-					"Local bus to Registan area",
-					"Short shared bus ride from the station district to the historic centre."
-				),
-				[CATALOG_PREVIEW_MOCK_IMAGE_URLS.single4]
-			),
-			withCatalogPreviewEventMedia(
-				catalogPreviewActivityEvent(
-					2,
-					3,
-					"Registan Square guided visit",
-					"Half-day walking tour with licensed historian; entrance fees included.",
-					catalogPreviewLocationSamarkand()
-				),
-				[
-					CATALOG_PREVIEW_MOCK_IMAGE_URLS.activityA,
-					CATALOG_PREVIEW_MOCK_IMAGE_URLS.activityB,
-					CATALOG_PREVIEW_MOCK_IMAGE_URLS.activityC
-				]
-			),
-			withCatalogPreviewEventMedia(
-				catalogPreviewHousingEvent(
-					2,
-					4,
-					"Overnight in Samarkand",
-					"Boutique hotel near the city centre with breakfast and Wi-Fi.",
-					catalogPreviewLocationSamarkand()
-				),
-				[
-					CATALOG_PREVIEW_MOCK_IMAGE_URLS.hotelA,
-					CATALOG_PREVIEW_MOCK_IMAGE_URLS.hotelB,
-					CATALOG_PREVIEW_MOCK_IMAGE_URLS.hotelC
-				]
-			)
-		]
-	};

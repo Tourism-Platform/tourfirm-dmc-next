@@ -1,0 +1,1066 @@
+{
+  "package": {
+    "id": "7ffa069e-641e-4c42-a4c5-d6f06356f547",
+    "createdAt": "2026-06-09T04:54:33.051+00:00",
+    "updatedAt": "2026-06-09T12:44:44.248+00:00",
+    "data": {
+      "days": [
+        {
+          "id": "d757c35f-6bc6-41f4-8a08-d342eb9f10d7",
+          "day": 1,
+          "city": "tashkent",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Arrivée à Tachkent, le 5 Juillet",
+          "events": [
+            {
+              "id": "3f72b213-857c-42a4-9ef2-0037ae0ddecd",
+              "city": "tashkent",
+              "time": "00h50",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Arrivée à Tachkent à 00h50, transfert à votre hôtel.\n\nAprès votre repos, une balade à Tachkent, visitez la place de l’Indépendance, symbole de la nation, la place Royale de Tachkent, le complexe Khast-Imam avec ses manuscrits historiques, ainsi que le bazar de Chorsu, haut en couleurs et en saveurs. Vous poursuivrez par une promenade dans le parc Sayilgoh, lieu de vie et de détente des habitants.\n\nVous découvrirez également le centre islamique de Tachkent, récemment inauguré, véritable chef-d’œuvre architectural contemporain.",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Tashkent",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "06426f31-4fa3-41ae-a4ca-7fcf4d29f9f4",
+          "day": 2,
+          "city": "charvak",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Direction Ougam National Parc, le 6 Juillet",
+          "events": [
+            {
+              "id": "d5900b43-84c0-4547-be44-d40c77944850",
+              "city": "charvak",
+              "time": "09h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Aujourd’hui, découverte du parc national d’Ouagam. Accompagné de votre guide local, vous partirez explorer les environs à travers de petites balades au cœur de la nature. Sous la chaleur estivale, une baignade dans la rivière d’Ouagam offrira une parenthèse rafraîchissante. Le site, sauvage et préservé, dévoile toute la beauté de cette région naturelle que votre guide vous fera découvrir au fil de la promenade.\n\nLors d’un pique-nique avec les habitants locaux, vous découvrirez les tapchans, ces lits-fauteuils traditionnels ouzbeks où les familles aiment se détendre et profiter de la nature.\n\nVous poursuivrez ensuite votre route à travers les magnifiques paysages qui bordent le barrage de Charvak. Cette période de l’année est particulièrement animée, car de nombreux Ouzbeks y louent des datchas (maisons de vacances) afin de profiter de l’été au bord de l’eau.\n\nVous séjournerez dans un hôtel au cœur de la nature, à Burchmulla.",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Charvak",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "7eceb747-453b-487e-8b3f-bc79dc250d23",
+          "day": 3,
+          "city": "denau",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Les Montanges de Tian Shan, le 7 Juillet",
+          "events": [
+            {
+              "id": "763c2562-a9fa-4af4-86f9-6e892c01825c",
+              "city": "denau",
+              "time": "09h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Aujourd’hui, vous partirez à la découverte de la région d’Amirsoy, située au cœur des majestueuses montagnes du Tian Shan, dont le nom signifie « Montagnes Célestes ». Cette immense chaîne montagneuse, qui s’étend sur plusieurs pays d’Asie centrale, compte parmi les plus spectaculaires du continent. Ses sommets enneigés, ses vallées verdoyantes et ses forêts offrent des paysages d’une grande beauté.\n\nEn été, les habitants de Tachkent et des environs viennent y chercher la fraîcheur et profiter de la nature. Vous aurez l’occasion de rencontrer les familles ouzbèkes qui apprécient particulièrement ces montagnes pour leurs pique-niques, leurs promenades et leurs moments de détente en plein air. Cette journée sera l’occasion de découvrir non seulement les paysages grandioses du Tian Shan, mais aussi une facette authentique de la vie quotidienne en Ouzbékistan.\n\n",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            },
+            {
+              "id": "c2915e1c-4109-46b7-81a8-1fab8cb42722",
+              "city": "denau",
+              "time": "21h12",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Direction Denaou !\n\nAu retour, vous rejoindrez directement la gare afin d’embarquer à bord de votre train à destination du sud de l’Ouzbékistan.\n\nDépart prévu vers 21h12 et arrivée le lendemain aux alentours de 11h08. Installation à bord et nuit confortable en couchette, tandis que vous traverserez les paysages variés de l’Ouzbékistan au rythme du voyage ferroviaire.",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Charvak",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "9d0b0c99-71cd-4109-b9dc-a8bdef9b4add",
+          "day": 4,
+          "city": "denau",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Train de nuit et Arrivée à Denau, le 8 Juillet",
+          "events": [
+            {
+              "id": "79e616c9-d9ea-4fa4-ad1f-5b1d992e0464",
+              "city": "denau",
+              "time": "11h08",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "À l’arrivée à Denau, vous serez accueillis par votre guide local, puis départ vers la région montagneuse de Surkhandarya pour découvrir la spectaculaire cascade de Sangardak. Située à environ 190 km au nord de Termez, au cœur des monts Hissar, cette chute d’eau impressionnante s’élève à 1 200 mètres d’altitude et atteint jusqu’à 120 à 150 mètres de hauteur selon les sources.\n\nLe nom « Sangardak » viendrait du tadjik, où « sang » signifie rocher, évoquant la puissance minérale du lieu. Nichée dans un décor sauvage et préservé, la cascade offre un spectacle naturel unique, entouré de montagnes et de végétation luxuriante.\n\nVous explorerez ensuite les environs avant de rejoindre une maison d’hôtes à Denau pour la nuit, dans une atmosphère chaleureuse et authentique.",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "Denau",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "fd8f2055-e57e-4561-b356-77738716f7e0",
+          "day": 5,
+          "city": "boysun",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Direction Boysun, le 9 Juillet",
+          "events": [
+            {
+              "id": "07c335bf-5dfd-44e9-87e7-b64bf9a56605",
+              "city": "boysun",
+              "time": "09h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Randonnée dans les hauteurs de Boysun, avec transferts aller-retour inclus. Cette journée vous plonge au cœur d’une région montagneuse spectaculaire, entre nature sauvage et héritage archéologique exceptionnel.\n\nDans les montagnes de Boysun se trouve la célèbre grotte de Teshik-Tash, mondialement connue depuis 1938, lorsqu’on y a découvert la tombe d’un enfant néandertalien. Les ossements d’animaux retrouvés sur place suggèrent qu’il ne s’agissait pas d’une simple sépulture, mais d’un véritable rituel funéraire, témoignant des croyances des premières civilisations humaines.\n\nNon loin de là se situe la grotte dite « d’Amir Temur », aujourd’hui difficile d’accès en raison des conditions naturelles et des éboulements. La légende raconte que le sabre du grand conquérant y serait caché, ajoutant une dimension mystérieuse au site.\n\nLa région de Boysun est également riche en récits fascinants. Dans la grotte de Zaraut Kamar, située dans la gorge de Zaraut Say, certains disent que Marco Polo y aurait caché ses trésors lors d’une attaque sur la Route de la Soie. Les fouilles n’y ont révélé aucun trésor, mais d’impressionnants pétroglyphes datant du Paléolithique moyen et de l’âge du bronze, témoignant d’une occupation humaine très ancienne.\n\n",
+              "movementMode": "walking_tour",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "walking_tour"
+            },
+            {
+              "id": "29e3ba5e-4052-4b2c-866c-a24133a8b9dc",
+              "city": "denau",
+              "time": "19h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Départ à 19h en train de nuit à Samarcande de Denau, arrivée à 5h du matin à Samarcande. Installation à bord et trajet confortable en compartiment couchette, une expérience authentique à travers les paysages nocturnes de l’Ouzbékistan.\n",
+              "movementMode": "other",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "other"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "walking"
+          ],
+          "overnightCity": "Boysun",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "70d8e882-3161-43c5-a69d-8f35baea7377",
+          "day": 6,
+          "city": "samarkand",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Visite à Samarcand,  le 10 juillet",
+          "events": [
+            {
+              "id": "01df7df5-7fe3-442f-89a2-57cd358ba385",
+              "city": "samarkand",
+              "time": "12h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Vers l’après-midi, vous commencez par une visite guidée de Samarcande, cité millénaire et joyau de la Route de la Soie, riche de plus de 3 000 ans d’histoire. Vous découvrirez la célèbre place du Registan et ses trois médersas majestueuses (XV–XVIIe siècles), véritable chef-d’œuvre architectural de l’Asie centrale.\n\nLa visite se poursuit avec la mosquée Bibi-Khanym (XIV–XVe siècles), autrefois l’une des plus grandes mosquées du monde islamique, symbole de grandeur et de légende. Vous plongerez ensuite dans l’ambiance animée du marché Siyob, où parfums d’épices, fruits secs et pains traditionnels éveillent tous les sens.",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "excursion"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "Samarkand",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "31b5c5b0-ba6c-42b9-8f0e-65acccc91ea1",
+          "day": 7,
+          "city": "samarkand",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "De Samarcande à Hayat Village, le 11 juillet",
+          "events": [
+            {
+              "id": "1b12500c-b7b7-4198-9dcf-e99a60d1c3a8",
+              "city": "samarkand",
+              "time": "09h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Dans la matinée, vous découvrirez le mausolée d’Amir Timour, l’un des monuments les plus emblématiques de Samarcande. Édifié au début du XVe siècle, il abrite la tombe du célèbre conquérant qui fonda l’immense empire timouride, s’étendant de l’Asie centrale jusqu’au Moyen-Orient. Avec sa majestueuse coupole turquoise et ses riches décors de mosaïques, ce mausolée témoigne de la grandeur artistique et architecturale de cette époque.\n\nVous poursuivrez ensuite par la visite de l’observatoire d’Ulugh Beg, petit-fils d’Amir Timour et l’un des plus grands astronomes de son temps. Au XVe siècle, il fit construire ici l’un des observatoires les plus avancés du monde islamique. Grâce à ses travaux et à ceux de son équipe de savants, des catalogues d’étoiles d’une remarquable précision furent établis, faisant de Samarcande un important centre scientifique et intellectuel de la Route de la Soie.",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "excursion"
+            },
+            {
+              "id": "ec65b310-73a1-4705-acdc-1fdd46eda1ba",
+              "city": "samarkand",
+              "time": "14h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "transfer": {
+                "notes": "",
+                "toCity": "nurata",
+                "duration": "",
+                "fromCity": "samarkand",
+                "provider": "",
+                "toCountry": "uzbekistan",
+                "fromCountry": "uzbekistan",
+                "serviceType": "point_to_point",
+                "vehicleType": "",
+                "pricingScope": "single_segment",
+                "rateSourceId": "",
+                "durationSource": "",
+                "transportSubtype": ""
+              },
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Dans l’après-midi, départ en direction des montagnes de Nourata. Vous profiterez de paysages variés, entre plaines et reliefs, tout en traversant des régions chargées d’histoire et de traditions.",
+              "movementMode": "road_transfer",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Samarkand",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "9a4d38c4-a509-4904-8828-49cdd7243c4b",
+          "day": 8,
+          "city": "nurata",
+          "meals": {
+            "lunch": false,
+            "dinner": true,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Randonnée depuis chez l'habitant, le 12 juillet",
+          "events": [
+            {
+              "id": "fe507737-9bc1-44b3-94f2-a5af78f99d92",
+              "city": "nurata",
+              "time": "08h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Petit-déjeuner",
+              "movementMode": "meal",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "meal"
+            },
+            {
+              "id": "fe52f9e5-c70f-4da3-9aea-e2dcf5f28db3",
+              "city": "nurata",
+              "time": "09h00–12h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Randonnée vers le village d’Ukhum et les pétroglyphes de la vallée de Tykchasay (environ 10 km)",
+              "movementMode": "walking_tour",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "walking_tour"
+            },
+            {
+              "id": "450f5644-31b2-4150-a116-60a6feff6550",
+              "city": "nurata",
+              "time": "13h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Déjeuner",
+              "movementMode": "meal",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "meal"
+            },
+            {
+              "id": "6873692e-306d-4dfa-a44a-4d488655be62",
+              "city": "nurata",
+              "time": "17h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Atelier de cuisine : préparation du plov (plat national) et du pain traditionnel ouzbek",
+              "movementMode": "other",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "other"
+            },
+            {
+              "id": "87b67872-1b6c-48f3-8938-532435716396",
+              "city": "nurata",
+              "time": "19h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Dîner et repos à la maison d’hôtes Hayat\nPetit-déjeuner, déjeuner et dîner inclus.",
+              "movementMode": "meal",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "meal"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "walking"
+          ],
+          "overnightCity": "Nurata",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "07e999af-47d0-4adf-b931-8b3ee2efd16a",
+          "day": 9,
+          "city": "nurata",
+          "meals": {
+            "lunch": true,
+            "dinner": true,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Découverte chez l'habitant au coeur de montagnes de Nourota, le 13 juillet",
+          "events": [
+            {
+              "id": "0a938574-4c69-4f7c-baee-93ac6262a2eb",
+              "city": "nurata",
+              "time": "09h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Les montagnes de Nourata, situées à proximité du désert de Kyzylkoum et du lac Aydarkul, sont une destination idéale pour l’écotourisme. Dans la matinée, départ vers le village de Hayat, niché dans les montagnes de Nourata, réputé pour sa nature préservée, l’accueil chaleureux de ses habitants et ses paysages à couper le souffle.\nAu programme : découverte de pétroglyphes anciens, immersion dans la vie rurale, observation de la faune locale, notamment le mouflon de Severtzov et les varans du désert. Vous profiterez également de promenades sur des sentiers naturels, d’une visite du lac Fazilman et de moments de détente dans ce coin paisible de l’Ouzbékistan.",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "Nurata",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "518fff5f-f373-4264-89da-aa9b2559bd8d",
+          "day": 10,
+          "city": "aydarkul",
+          "meals": {
+            "lunch": true,
+            "dinner": true,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Trajet vers Aydarkoul, le 14 juillet",
+          "events": [
+            {
+              "id": "94b7bb8d-dadd-415a-a0d4-787b29eb1201",
+              "city": "aydarkul",
+              "time": "09h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [
+                {
+                  "city": "aydarkul",
+                  "name": "Aydarkul Lake",
+                  "slug": "aydarkul-lake",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 240
+                }
+              ],
+              "description": "Le trajet poursuite vers le lac Aydarkul, situé dans le désert de Kyzylkoum. Surnommé la « mer du désert », ce lac offre la possibilité de se baigner (en été) et de découvrir un environnement naturel unique. La journée se termine dans un camp de yourtes, pour une immersion dans la vie nomade, avec balade à dos de chameau et coucher de soleil spectaculaire sur le désert.",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [
+                "aydarkul-lake"
+              ],
+              "activityTypeName": "",
+              "activityTypeSlug": "excursion"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "walking"
+          ],
+          "overnightCity": "Aydarkul",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "2464b978-b921-402f-b751-ae24bbb2eb43",
+          "day": 11,
+          "city": "bukhara",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Direction vers Boukhara, le 15 juillet",
+          "events": [
+            {
+              "id": "69eb58a8-78f5-4bde-a129-4b670ee4e257",
+              "city": "bukhara",
+              "time": "09h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "transfer": {
+                "notes": "",
+                "toCity": "bukhara",
+                "duration": "",
+                "fromCity": "nurata",
+                "provider": "",
+                "toCountry": "uzbekistan",
+                "fromCountry": "uzbekistan",
+                "serviceType": "point_to_point",
+                "vehicleType": "",
+                "pricingScope": "not_priced",
+                "rateSourceId": "",
+                "durationSource": "",
+                "transportSubtype": ""
+              },
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Aujourd’hui, route vers Boukhara, la célèbre ville des caravansérails au cœur de l’Ouzbékistan. Depuis des siècles, cette cité constitue l’une des étapes majeures de la Route de la Soie, où marchands, voyageurs et savants se croisaient entre l’Orient et l’Occident.\n\nEn chemin, vous ferez étape à Nourata, ville chargée d’histoire. Vous visiterez les vestiges de l’ancienne forteresse attribuée à Alexandre le Grand, la grande mosquée ainsi que la célèbre source sacrée de Tchachma, dont les eaux cristallines sont considérées comme miraculeuses par de nombreux pèlerins.\n\nArrivée à Boukhara en fin de journée.\n\nÀ votre arrivée, temps libre pour découvrir cette ville emblématique de la Route de la Soie, classée au patrimoine mondial de l’UNESCO. Avec ses ruelles animées, ses coupoles marchandes, ses médersas et ses minarets majestueux, Boukhara a conservé l’atmosphère unique des grandes cités caravanières d’Asie centrale.\n\nSelon votre choix, nous pouvons également vous organiser une expérience traditionnelle dans un hammam ouzbek, pour un moment de détente authentique au cœur des traditions locales.",
+              "movementMode": "road_transfer",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Bukhara",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "2ef029cf-dffd-4320-92e3-51ccab696064",
+          "day": 12,
+          "city": "bukhara",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Boukhara - les marchés \"la Route de la Soie\", le 16 juillet",
+          "events": [
+            {
+              "id": "29224a8e-21cd-466e-a964-b685cc9d8e2e",
+              "city": "bukhara",
+              "time": "09h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Demi-journée de visite pour poursuivre la découverte de Boukhara, joyau de la Route de la Soie. Vous explorerez le mausolée d’Ismaïl Samani, chef-d’œuvre de l’architecture islamique, puis le mausolée de Chashma Ayub, associé aux légendes du prophète Job. Vous continuerez vers la mosquée Bolo Hauz, avec ses élégantes colonnes en bois, avant de visiter la forteresse de l’Ark, ancienne résidence des émirs de Boukhara. La découverte se poursuit avec les médersas d’Ulugbek et d’Abdulaziz Khan, témoins du rayonnement scientifique et culturel de la ville.\n\nEn soirée, nous vous invitons à une soirée folklorique dans la médersa Nodir Devonbegi. Si vous le souhaitez, vous pourrez même danser et profiter d’un spectacle vivant dans une ambiance chaleureuse et festive.\n\nAppréciez également la cuisine locale avec des repas en demi-pension dans des restaurants typiques.",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "excursion"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "Bukhara",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "3574f9de-f458-4c7f-86f7-4ec593ef4874",
+          "day": 13,
+          "city": "bukhara",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Direction Khiva, en train ou en voiture (selon les disponibilités de train), le 17 juillet",
+          "events": [
+            {
+              "id": "281eb306-5e5b-4378-97c7-72ede286d035",
+              "city": "bukhara",
+              "time": "09h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "transfer": {
+                "notes": "",
+                "toCity": "khiva",
+                "duration": "5h/5h30",
+                "fromCity": "bukhara",
+                "provider": "",
+                "toCountry": "uzbekistan",
+                "fromCountry": "uzbekistan",
+                "serviceType": "point_to_point",
+                "vehicleType": "",
+                "pricingScope": "route_chain",
+                "rateSourceId": "",
+                "durationSource": "manual",
+                "transportSubtype": ""
+              },
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Selon la disponibilité des trains, vous voyagerez soit en TGV, soit en bus vers Khiva.\n\nEn bus, le trajet dure environ 5 à 6 heures et vous permet de partager le quotidien des habitants locaux, à travers les paysages et villages de la région. En train, vous rejoindrez Boukhara en environ 3h30 à bord du nouveau train coréen “Jaloliddin Mangouberdi”, alliant confort moderne et rapidité.",
+              "movementMode": "road_transfer",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Khiva",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "28746e40-23ba-4a1c-941d-6655a5d4689e",
+          "day": 14,
+          "city": "khiva",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Khiva : Ville mille et une nuit, le 18 juillet",
+          "events": [
+            {
+              "id": "dcc07f55-e41f-4f28-bc6b-ade4a520d0ef",
+              "city": "khiva",
+              "time": "09h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Visite guidée matinale de la vieille ville fortifiée d’Ichan Qala, véritable musée à ciel ouvert où chaque ruelle raconte l’histoire des anciennes caravanes de la Route de la Soie.\n\nVous découvrirez la médersa Muhammad Amin Khan, chef-d’œuvre de l’architecture islamique, puis la forteresse Kunya Ark, ancienne résidence des khans offrant une vue panoramique sur Khiva.\n\nLa visite se poursuit avec la mosquée Juma, célèbre pour sa forêt de colonnes en bois sculpté, créant une atmosphère presque mystique. Vous explorerez ensuite le palais Tash Hovli, ancien palais royal aux patios élégants et aux décors raffinés, témoignant du faste de la cour de Khiva.\n\nAprès-midi libre pour vivre Khiva à votre rythme. Perdez-vous dans les ruelles d’Ichan Qala, entre minarets, coupoles et ateliers d’artisans. Profitez d’un thé en terrasse, observez la vie locale et laissez-vous envelopper par l’ambiance intemporelle de cette cité légendaire, surtout au coucher du soleil sur les remparts.",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "excursion"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "Khiva",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "09ea4778-96ac-44bf-a029-bdc29e7582b5",
+          "day": 15,
+          "city": "aral-sea",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Direction Noukous en passant par les forteresses, le 19 juillet",
+          "events": [
+            {
+              "id": "9df62b08-fd90-45ed-9b5f-256323838815",
+              "city": "aral-sea",
+              "time": "09h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Tôt le matin, départ pour un voyage à travers de la région Khrakhalpakh,  Au cœur du désert, découvrez les mystérieuses forteresses de Toprak Kala, ancienne résidence des rois du Khorezm, puis Kizil Kala, la « forteresse rouge », autrefois construite pour défendre les frontières du royaume. Vous poursuivrez vers Ayaz Kala, spectaculaire cité fortifiée perchée au milieu des paysages désertiques, témoin silencieux des civilisations disparues.\n\nLe déjeuner sera servi dans un camp traditionnel au décor authentique, où l’hospitalité ouzbèke prend tout son sens.\n\nDans l’après-midi, route vers Noukous, véritable ville soviétique. Après installation à l’hôtel, temps libre.",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "excursion"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "Aral Sea",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "8e2b6dd3-d0a9-402a-ab89-4e51ed187637",
+          "day": 16,
+          "city": "aral-sea",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "La Mer d'Aral! le 20 juillet",
+          "events": [
+            {
+              "id": "ad514e03-777d-48bc-a7f9-41b35d1eba79",
+              "city": "aral-sea",
+              "time": "09h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Aujourd’hui, partez à l’aventure vers la mythique mer d’Aral, symbole d’une des plus grandes catastrophes écologiques du monde. À bord de 4x4, traversez les paysages sauvages du Karakalpakstan entre désert de sel, steppes infinies et villages isolés. Selon votre arrivée à Ourguentch ou à Noukous, nous organiserons vos transferts (arrivée à Noukous fortement recommandée).\n\nAutrefois quatrième plus grande mer intérieure du monde, la mer d’Aral a presque disparu, laissant derrière elle un décor irréel. À Moynaq, ancienne ville portuaire, découvrez le célèbre « cimetière des navires », où les bateaux rouillés reposent aujourd’hui au milieu du désert.\n\nDirection voter hébergement Aral Plaza,  arrêt au site mystérieux de Mizdakhan, ancien complexe funéraire chargé de légendes et d’histoire. ",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Adventure",
+              "activityTypeSlug": "adventure"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "Aral Sea",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "c5fe5160-6e13-43d5-b3e7-dc03d3bc3127",
+          "day": 17,
+          "city": "khiva",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Matinée libre dans la Mer d'Aral et la route vers Khiva! le 21 juillet",
+          "events": [
+            {
+              "id": "7706830d-58d2-4323-ab0d-d6af10a271b6",
+              "city": "khiva",
+              "time": "09h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Aujourd’hui, nous vous laissons profiter tranquillement de votre journée à la mer d’Aral !  Votre voyage touche bientôt à sa fin !",
+              "movementMode": "free_time",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Free Time",
+              "activityTypeSlug": "free_time"
+            },
+            {
+              "id": "ff1d73ff-6aff-4946-a459-2eba98d1d582",
+              "city": "khiva",
+              "time": "14h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "transfer": {
+                "notes": "",
+                "toCity": "khiva",
+                "duration": "",
+                "fromCity": "aral-sea",
+                "provider": "",
+                "toCountry": "uzbekistan",
+                "fromCountry": "uzbekistan",
+                "serviceType": "point_to_point",
+                "vehicleType": "",
+                "pricingScope": "single_segment",
+                "rateSourceId": "",
+                "durationSource": "",
+                "transportSubtype": ""
+              },
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Dans l’après-midi, route vers Khiva.",
+              "movementMode": "road_transfer",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Khiva",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "9e1dcbdc-06fe-44ba-95d5-67732986d190",
+          "day": 18,
+          "city": "khiva",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Départ de Ourgentch! le 22 juillet",
+          "events": [
+            {
+              "id": "f2e42b39-dd57-4f1f-ad9d-3c0337e44f1e",
+              "city": "khiva",
+              "time": "05h00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "transfer": {
+                "notes": "",
+                "toCity": "urgench",
+                "duration": "40 min",
+                "fromCity": "khiva",
+                "provider": "",
+                "toCountry": "uzbekistan",
+                "fromCountry": "uzbekistan",
+                "serviceType": "point_to_point",
+                "vehicleType": "",
+                "pricingScope": "single_segment",
+                "rateSourceId": "",
+                "durationSource": "manual",
+                "transportSubtype": ""
+              },
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Transfert à l'aéroport d'Ourguentch et fin de votre voyage.",
+              "movementMode": "road_transfer",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Khiva",
+          "overnightCountry": "uzbekistan"
+        }
+      ],
+      "slug": "votre-voyage-de-lest-a-louest-sur-la-route-de-la-soie-en-famille-aero-voyages-de-tachkent-a-urgentch",
+      "terms": {
+        "serviceNote": "",
+        "paymentTerms": "- Tour payment should be made to the TourLink bank account no later than 40 days before tourist group arrival, according to the issued invoice.\n- Payment timing can be adjusted only if a signed contract states different terms.\n- Services are not treated as confirmed until confirmation and payment conditions are agreed.",
+        "priceIncludes": "- Accommodation in the mentioned hotels in TWIN / DBL sharing.\n- Breakfast at the hotels.\n- Mineral water, 1 L per person per tour day.\n- A/C comfortable transport with a professional driver according to the itinerary:\n  - 3-7 pax: van, up to 11 seats.\n- French-speaking escort guide from group arrival to departure for groups from 10 pax.\n- English-speaking local guide for excursions for groups of 1-9 pax.\n- One tour leader (+1 FOC) in a single room free of charge; domestic flight and train tickets are not included.\n- Entrance fees for all mentioned monuments, except photo and video charges.",
+        "importantNotes": "- This offer is not a reservation confirmation.\n- Before booking, please check international flight seat availability.\n- If the hotels indicated in the program are not available on the reservation date, other hotels of the same category or an optional hotel will be offered according to availability.\n- Early arrivals and late departures are not included unless they are clearly indicated in the program. Additional supplements can be offered after the client confirms international flight timings.\n- Central Asian hotel standards may differ from European hotel standards.\n- Domestic flights and trains are subject to timing and availability changes. If a mentioned flight or train is not available, TourLink will offer a convenient alternative depending on the tour program.\n- The itinerary is subject to alterations if airlines change flight schedules, days of operation or route conditions.\n- Passport copies for train tickets must be provided 45 days before the tour.\n- The itinerary is subject to alterations if railway schedules or days of operation change.\n- Different vehicles and drivers may be used during the tour depending on the route section and transport type needed for that section.\n- If a place of visit is closed to visitors, it will be replaced with an alternative. During major events, accommodation may be changed and replaced with a similar category.\n- Hotel usage is subject to availability. No reservations are made before confirmation is received from the client.\n- TourLink is not responsible for weather conditions during the route.\n- Tips are not mandatory.",
+        "cancellationTerms": "- Cancellation 45 days or more before arrival: no cancellation charge applies.\n- Cancellation 44-25 days before arrival: 50% of the tour price.\n- Cancellation 24-15 days before arrival: 75% of the tour price.\n- Cancellation 14-0 days before arrival: 100% of the tour price.",
+        "priceDoesNotInclude": "- Visa costs and processing.\n- Photo and video charges.\n- Full board, available as a supplement from 10 pax.\n- International flight tickets.\n- Domestic flight tickets, unless clearly included in the program.\n- Domestic train tickets, unless clearly included in the program.\n- Extras in fixed lunch or dinner menus.\n- Beverages and alcoholic drinks.\n- Porterage at hotels, airports and train stations.\n- Travel and medical insurance.\n- Tips and gratuities.\n- Personal expenses.\n- Any services not listed in the included services section.",
+        "availableSupplements": "- Lunches and dinners can be added according to the requested meal plan.\n- Early check-in and late check-out can be quoted after flight timings are known.\n- Additional guide languages can be quoted on request.\n- Special permits, border-zone permissions and route-specific permissions are quoted when required by the itinerary."
+      },
+      "title": "Votre voyage de l'Est à l’Ouest sur la Route de la Soie : en famille! (AERO VOYAGES) de Tachkent à Urgentch",
+      "hotels": {
+        "Denau": {
+          "city": "Denau",
+          "notes": "",
+          "hotel3": "Chez l'habitant",
+          "hotel4": "",
+          "hotel5": "",
+          "country": "",
+          "hotelsByStar": {
+            "3": "Chez l'habitant"
+          }
+        },
+        "Khiva": {
+          "city": "Khiva",
+          "notes": "",
+          "hotel3": "Minor",
+          "hotel4": "",
+          "hotel5": "",
+          "country": "",
+          "hotelsByStar": {
+            "3": "Minor"
+          }
+        },
+        "Boysun": {
+          "city": "Boysun",
+          "notes": "",
+          "hotel3": "Chez l'habitant",
+          "hotel4": "",
+          "hotel5": "",
+          "country": "",
+          "hotelsByStar": {
+            "3": "Chez l'habitant"
+          }
+        },
+        "Nurata": {
+          "city": "Nurata",
+          "notes": "",
+          "hotel3": "Chez l'habitant",
+          "hotel4": "",
+          "hotel5": "",
+          "country": "",
+          "hotelsByStar": {
+            "3": "Chez l'habitant"
+          }
+        },
+        "Bukhara": {
+          "city": "Bukhara",
+          "notes": "",
+          "hotel3": "Kavsar",
+          "hotel4": "",
+          "hotel5": "",
+          "country": "",
+          "hotelsByStar": {
+            "3": "Kavsar"
+          }
+        },
+        "Charvak": {
+          "city": "Charvak",
+          "notes": "",
+          "hotel3": "Birchimulla Resort",
+          "hotel4": "",
+          "hotel5": "",
+          "country": "",
+          "hotelsByStar": {
+            "3": "Birchimulla Resort"
+          }
+        },
+        "Aral Sea": {
+          "city": "Aral Sea",
+          "notes": "",
+          "hotel3": "Aral Sea Plaza",
+          "hotel4": "",
+          "hotel5": "",
+          "country": "",
+          "hotelsByStar": {
+            "3": "Aral Sea Plaza"
+          }
+        },
+        "Aydarkul": {
+          "city": "Aydarkul",
+          "notes": "",
+          "hotel3": "Yourtes traditionnelles",
+          "hotel4": "",
+          "hotel5": "",
+          "country": "",
+          "hotelsByStar": {
+            "3": "Yourtes traditionnelles"
+          }
+        },
+        "Tashkent": {
+          "city": "Tashkent",
+          "notes": "",
+          "hotel3": "Amirun Reikartz",
+          "hotel4": "",
+          "hotel5": "",
+          "country": "",
+          "hotelsByStar": {
+            "3": "Amirun Reikartz"
+          }
+        },
+        "Samarkand": {
+          "city": "Samarkand",
+          "notes": "",
+          "hotel3": "Arba Hotel",
+          "hotel4": "",
+          "hotel5": "",
+          "country": "",
+          "hotelsByStar": {
+            "3": "Arba Hotel"
+          }
+        }
+      },
+      "pricing": {
+        "mode": "matrix",
+        "matrix": [
+          {
+            "note": "par personne",
+            "star3": "2912.18",
+            "star4": "",
+            "star5": "",
+            "groupSize": "3",
+            "pricesByStar": {
+              "3": "2912.18"
+            }
+          }
+        ],
+        "fixedPerPerson": {
+          "amount": "",
+          "groupSize": "",
+          "hotelCategory": "3_star"
+        },
+        "singleSupplement": {
+          "star3": "",
+          "star4": "",
+          "star5": "",
+          "byStar": {}
+        }
+      },
+      "currency": "EUR",
+      "services": {
+        "segments": [],
+        "usesRail": false,
+        "lunchCost": "",
+        "mealNotes": "",
+        "dinnerCost": "",
+        "usesFlight": false,
+        "fullBoardPossible": false,
+        "additionalServices": [],
+        "usesAdditionalServices": false
+      },
+      "tourType": "custom",
+      "routeMode": "single_country",
+      "difficulty": "moderate",
+      "salesOwner": "Madina Irgasheva",
+      "contactInfo": {
+        "email": "partners@tourlink.uz",
+        "phone": "+998974441555",
+        "address": "Ankhor buyi – 6, Ташкент 100011, Узбекистан",
+        "website": "www.tourlink.uz",
+        "director": "Sodik BEGMATOV",
+        "agencyName": "TourLink DMC"
+      },
+      "description": "Ce programme de voyage vous fera découvrir les sites emblématiques de l’Ouzbékistan, de l'est du pays jusqu’à la mer d’Aral. Entre patrimoine culturel exceptionnel, paysages naturels grandioses et rencontres authentiques, vous explorerez toute la diversité de notre magnifique pays.\n\nVotre aventure débutera à Tachkent, la capitale ouzbèke, où vous découvrirez son visage moderne ainsi que son riche patrimoine historique. Le musée récemment inscrit sera inclus dans la visite, tandis que du temps libre vous permettra d’explorer la ville à votre rythme.\n\nVous prendrez ensuite la route vers le sud du pays, dans la région de Sourkhandarya. Vous y découvrirez Sangardak et profiterez de magnifiques randonnées au cœur de paysages préservés.\n\nVotre voyage se poursuivra vers Samarcande, la légendaire cité de Tamerlan, avant de rejoindre Nourata, une région authentique où vous aurez l’occasion de rencontrer les habitants locaux et de découvrir le mode de vie traditionnel ouzbek.\n\nDe Nourata, vous continuerez vers Boukhara, la ville des soufistes et des caravansérails, dont les monuments témoignent de la grandeur de la Route de la Soie. Vous rejoindrez ensuite Khiva, véritable ville-musée aux allures des Mille et Une Nuits.\n\nEnfin, vous poursuivrez votre périple vers le Karakalpakstan afin de découvrir la mer d’Aral et ses paysages uniques. Entre désert, vestiges maritimes et immensité des steppes, cette dernière étape vous offrira une expérience inoubliable.\n\nVotre voyage s’achèvera à Noukous ou à Ourguentch, d’où vous prendrez votre vol de retour, riche de souvenirs et d’émotions.",
+      "durationDays": 18,
+      "isGuaranteed": false,
+      "coverImageKey": "tourlink/covers/7ffa069e-641e-4c42-a4c5-d6f06356f547.jpg",
+      "clientLanguage": "fr",
+      "departureDates": [],
+      "durationNights": 17,
+      "primaryCountry": "uzbekistan",
+      "validityPeriod": "3 semaines",
+      "selectedHotelStars": [
+        "3"
+      ],
+      "coverImageUpdatedAt": "2026-06-09T09:16:57.149Z",
+      "coverImageContentType": "image/jpeg",
+      "coverImageUrl": "/api/tour-packages/7ffa069e-641e-4c42-a4c5-d6f06356f547/cover?v=2026-06-09T09%3A16%3A57.149Z"
+    },
+    "hasCoverImage": true,
+    "coverImageUrl": "/api/tour-packages/7ffa069e-641e-4c42-a4c5-d6f06356f547/cover?v=2026-06-09T09%3A16%3A57.149Z"
+  }
+}

@@ -11,3 +11,4 @@ export {
 } from "./catalog-tour-filters.mock";
 export * from "./catalog-preview.mock";
 export * from "./catalog-preview-option.mock";
+export * from "./generated";

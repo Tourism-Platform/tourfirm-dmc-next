@@ -1,0 +1,252 @@
+{
+  "package": {
+    "id": "935e9d37-50d3-4ae2-9ada-626eed564969",
+    "createdAt": "2026-06-07T09:42:41.991+00:00",
+    "updatedAt": "2026-06-09T07:11:19.198+00:00",
+    "data": {
+      "days": [
+        {
+          "day": 1,
+          "city": "tashkent",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": false
+          },
+          "notes": "※現地ガイド／ドライバーは空港ターミナル内には入れないため、ネームボードを持ってタシケント空港出口にてお待ちしております。",
+          "title": "11:35成田空港発（直行便）16:40タシケント国際線空港着",
+          "events": [
+            {
+              "id": "fbd653ae-3548-4a73-8caa-f3cf4c6ab640",
+              "city": "tashkent",
+              "time": "16:40",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "11:35成田空港発（直行便）\n16:40タシケント国際線空港着。\n\n到着後、ドライバーがお出迎えし、専用車にてホテルへ送迎。",
+              "movementMode": "sightseeing",
+              "attractionSlugs": []
+            },
+            {
+              "id": "304cfa56-65fe-468a-a9b5-d46a85cabae9",
+              "city": "tashkent",
+              "time": "",
+              "country": "uzbekistan",
+              "transfer": {
+                "notes": "",
+                "toCity": "samarkand",
+                "duration": "",
+                "fromCity": "tashkent",
+                "provider": "",
+                "toCountry": "uzbekistan",
+                "fromCountry": "uzbekistan",
+                "serviceType": "point_to_point",
+                "vehicleType": "",
+                "pricingScope": "single_segment",
+                "rateSourceId": "",
+                "durationSource": "",
+                "transportSubtype": ""
+              },
+              "attractions": [],
+              "description": "",
+              "movementMode": "road_transfer",
+              "attractionSlugs": []
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Tashkent"
+        },
+        {
+          "day": 2,
+          "city": "samarkand",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "専用車にてサマルカンドへ移動（300km、約4～5時間）",
+          "events": [
+            {
+              "id": "ada8bac0-184e-4e66-b4f8-1beb5a4827a1",
+              "city": "samarkand",
+              "time": "",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "到着後、現地日本語ガイドと合流。\nサマルカンド市内観光：\n\n・◎グーリ・アミール廟\n・◎レギスタン広場（3つのマドラサ）\n・◎ビビ・ハニム・モスク\n・◎シヨブ・バザール（市場）\n・◎シャーヒ・ズィンダ廟群 \n\nホテルチェックイン\n休憩後、夜のレギスタン広場ライトアップ（外観より）鑑賞",
+              "movementMode": "sightseeing",
+              "attractionSlugs": []
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Samarkand"
+        },
+        {
+          "day": 3,
+          "city": "tashkent",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "専用車にてタシケントへ移動（300km、約4～5時間）",
+          "events": [
+            {
+              "id": "35c48bc4-5dfa-4ec3-a51c-420e888d6749",
+              "city": "tashkent",
+              "time": "08:00",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "ホテルにて朝食\n08:00 ホテルを出発\n専用車にて首都タシケントへ戻る。\nタシケント到着後、現地日本語ガイドと合流。\nタシケント市内観光：\n\n・◎日本人墓地\n・◎ハズラティ・イマーム・コンプレックス\n・◎チョルス・バザール（市場）\n・◎ナヴォイ劇場\n・◎スーパーマーケット（ショッピング）",
+              "movementMode": "program",
+              "attractionSlugs": []
+            },
+            {
+              "id": "24789728-bbde-4566-a9da-8e3ecfc62644",
+              "city": "tashkent",
+              "time": "20:30",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "夕食後、タシケント国際空港へ送迎\n22:35発のフライトに間に合うよう、20:30頃 空港到着\n22:35タシケント発\n08:25ソウル（仁川）着\n15:45ソウル（仁川）発\n18:25成田着",
+              "movementMode": "program",
+              "attractionSlugs": []
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": ""
+        }
+      ],
+      "slug": "青の都サマルカンドとタシケント ",
+      "terms": {
+        "serviceNote": "ウズベキスタンの旅行手配会社として、TourLinkは欧州の旅行会社と旅行者の期待や運営基準を理解しています。柔軟性、適応力、サービス品質は私たちの重要な価値です。\n\nホテルへの考え方\nホテルは快適さ、美しさ、雰囲気、魅力を基準に選定し、特にブティックホテルを重視しています。提携ホテルは定期的に確認し、大都市では中心部に近い場所や休息に適した静かなエリアを優先します。大都市での送迎は手配され、サービスに含まれます。\n\nレストランへの考え方\n各行程の地域性に合わせてレストランを選定します。伝統的なレストランを重視し、各地域の味を楽しめるようメニューを調整します。\n\n交通サービス\nプロドライバー付き車両を手配し、品質を定期的に確認します。専属ガイドは慎重に選び、継続的に評価しています。\n\n定番旅行と長期旅行\n定番ツアーではウズベキスタンの主要都市と見どころを巡ります。長期滞在の場合は、打ち合わせ後に追加ルートや個別提案をご案内できます。",
+        "paymentTerms": "- ツアー代金は発行された請求書に従い、グループ到着の40日前までにTourLinkの銀行口座へお支払いください。\n- 支払条件は署名済み契約で別条件が定められている場合のみ変更可能です。\n- ご予約内容の確認およびお支払い条件への合意が完了するまで、各サービスは正式な予約確定とはなりません。",
+        "priceIncludes": "- ホテル宿泊（ツイン / ダブルルーム）\n- ホテルでの朝食。\n- 専用車（プロドライバー付き）\n- 現地日本語ガイド\n- ミネラルウォーター（1L）1本／日／人",
+        "importantNotes": "- 本見積は予約確認ではありません。\n- 予約前に国際線の空席状況をご確認ください。\n- 記載ホテルが利用不可の場合、空室状況により同等カテゴリーのホテルを提案します。\n- 国内線および列車は時刻と空席状況が変更される場合があります。\n- ルート区間と必要な交通手段により、異なる車両とドライバーを利用する場合があります。\n- ホテル利用は空室状況によります。お客様の確認前に予約は行われません。\n- TourLinkはルート中の天候条件について責任を負いません。\n- チップは任意です。",
+        "cancellationTerms": "- 到着45日前以前の取消：取消料なし。\n- 到着44-25日前の取消：ツアー代金の50%。\n- 到着24-15日前の取消：ツアー代金の75%。\n- 到着14-0日前の取消：ツアー代金の100%。",
+        "priceDoesNotInclude": "- 国際線往復航空券 \n- 行程表に記載された観光地の入場料\n- フルボード：1日2食（追加料金で手配可能）。\n- 高速列車アフラシャブの乗車券（タシケントーサマルカンド）（追加料金で手配可能）。\n- 飲み物およびアルコール。\n- ガイドおよびドライバーへのチップ\n- 個人的な費用\n- 行程表に記載のないサービス一切",
+        "availableSupplements": "- ご希望に応じて昼食・夕食の追加手配が可能です。\n- アーリーチェックインおよびレイトチェックアウトは、フライト時刻確定後にお見積りいたします。\n- ツアー期間中を通して同一ガイドの同行をご希望の場合は、別途お見積りいたします。\n- 国内線航空券および鉄道チケットは、行程内容に応じて追加手配・お見積りが可能です。\n- 特別許可証、国境地域への入域許可などが必要な場合は、別途お見積りいたします。"
+      },
+      "title": "青の都サマルカンドとタシケント ",
+      "hotels": {
+        "Tashkent": {
+          "city": "Tashkent",
+          "notes": "",
+          "hotel3": "Amirun Reikartz",
+          "hotel4": "Inspira-s Tashkent",
+          "hotel5": "",
+          "country": ""
+        },
+        "Samarkand": {
+          "city": "Samarkand",
+          "notes": "",
+          "hotel3": "Arba Hotel",
+          "hotel4": "Emirkhan",
+          "hotel5": "",
+          "country": ""
+        }
+      },
+      "pricing": {
+        "mode": "matrix",
+        "matrix": [
+          {
+            "note": "",
+            "star3": "447",
+            "star4": "490",
+            "star5": "",
+            "groupSize": "2"
+          },
+          {
+            "note": "",
+            "star3": "335",
+            "star4": "377",
+            "star5": "",
+            "groupSize": "4"
+          },
+          {
+            "note": "",
+            "star3": "287",
+            "star4": "329",
+            "star5": "",
+            "groupSize": "6"
+          },
+          {
+            "note": "",
+            "star3": "241",
+            "star4": "283",
+            "star5": "",
+            "groupSize": "8"
+          }
+        ],
+        "fixedPerPerson": {
+          "amount": "",
+          "groupSize": "",
+          "hotelCategory": "4_star"
+        },
+        "singleSupplement": {
+          "star3": "62",
+          "star4": "77",
+          "star5": "",
+          "byStar": {}
+        }
+      },
+      "currency": "USD",
+      "services": {
+        "segments": [
+          {
+            "to": "Samarqand",
+            "from": "Toshkent",
+            "note": "鉄道チケットは、ご旅行時期の空席状況に応じて手配いたします。最優先で高速列車「アフラシャブ号」を利用いたしますが、満席などの理由により手配ができない場合は、特急列車「シャルク号」を利用する場合がございます。",
+            "type": "train",
+            "price": "35",
+            "className": "Ekonom, Afrosiyob"
+          }
+        ],
+        "usesRail": true,
+        "lunchCost": "15",
+        "mealNotes": "料金には、3種類のサラダ、スープ、メインディッシュ、パン、お茶、ミネラルウォーターが含まれます。",
+        "dinnerCost": "18",
+        "usesFlight": false,
+        "fullBoardPossible": true,
+        "additionalServices": [],
+        "usesAdditionalServices": false
+      },
+      "tourType": "private",
+      "routeMode": "single_country",
+      "difficulty": "easy",
+      "salesOwner": "Soyibjon",
+      "contactInfo": {
+        "email": "japan@tourlink.uz",
+        "phone": "+998970270555",
+        "address": "Ankhor buyi – 6, Ташкент 100011, Узбекистан",
+        "website": "www.tourlink.uz",
+        "director": "Sodik BEGMATOV",
+        "agencyName": "TourLink DMC"
+      },
+      "description": "ウズベキスタンの首都タシケントと、シルクロードを代表する歴史都市サマルカンドを巡る3日間の旅です。世界遺産に登録された歴史的建造物や美しい青の建築を訪れながら、シルクロードの歴史と文化に触れていただけます。中央アジアならではの魅力を気軽にお楽しみいただける人気のコースです。",
+      "durationDays": 3,
+      "isGuaranteed": true,
+      "clientLanguage": "ja",
+      "departureDates": [],
+      "durationNights": 2,
+      "primaryCountry": "uzbekistan",
+      "validityPeriod": "Avgust-Oktyabr 2026",
+      "selectedHotelStars": [
+        "3",
+        "4"
+      ]
+    },
+    "hasCoverImage": false
+  }
+}

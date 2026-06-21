@@ -1,0 +1,1215 @@
+{
+  "package": {
+    "id": "1ba7f901-b032-4fdc-9071-cc9341409215",
+    "createdAt": "2026-06-10T05:48:13.956+00:00",
+    "updatedAt": "2026-06-10T12:58:37.153+00:00",
+    "data": {
+      "days": [
+        {
+          "id": "53a915c9-48a2-4d16-8be7-25a72abc4b0d",
+          "day": 1,
+          "city": "bishkek",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": false
+          },
+          "notes": "",
+          "title": "Heimatland-Bischkek",
+          "events": [
+            {
+              "id": "9cdb2e19-04de-4227-a99a-e719646d586d",
+              "city": "bishkek",
+              "time": "",
+              "country": "kyrgyzstan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "Flug von Österreich mit Turkish Airlines nach Bischkek. \nAnkunft am internationalen Flughafen Manas, Empfang durch die örtliche Reiseleitung und \nTransfer zum Hotel.",
+              "hotelAction": "check_in",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Check-in / Check-out",
+              "activityTypeSlug": "hotel_status"
+            }
+          ],
+          "country": "kyrgyzstan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Bishkek",
+          "overnightCountry": "kyrgyzstan"
+        },
+        {
+          "id": "d4e90385-09af-46b2-85f0-1b0549e81a8f",
+          "day": 2,
+          "city": "issyk-kul",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Bischkek – Burana – Issyk-Kul (ca. 280 km) ",
+          "events": [
+            {
+              "id": "bc42da8a-76e2-41ff-8b73-3c70a5ca411f",
+              "city": "issyk-kul",
+              "time": "09:00-11:00",
+              "country": "kyrgyzstan",
+              "endTime": "11:00",
+              "startTime": "09:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Frühstück im Hotel. Fahrt zum Burana-Komplex. ",
+              "movementMode": "other",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Boshqa",
+              "activityTypeSlug": "other"
+            },
+            {
+              "id": "53d01681-a165-45b0-ab28-be10408359ed",
+              "city": "issyk-kul",
+              "time": "11:00-14:00",
+              "country": "kyrgyzstan",
+              "endTime": "14:00",
+              "startTime": "11:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Besichtigung des Burana-Turms, dessen Geschichte auf die Karachanidenzeit (9.–11. \nJahrhundert) zurückgeht. \nAnschließend erleben Sie das traditionelle kirgisische Reiterspiel Buzkashi – Ulak-Tartysh. \nDieses faszinierende Pferdespiel gilt als Nationalsport Kirgisistans und hat seinen Ursprung in \nden nomadischen Traditionen Zentralasiens. Gespielt wird von zwei Mannschaften mit jeweils \nsechs Reitern. Dieses einzigartige Erlebnis ermöglicht einen tiefen Einblick in die nomadische \nKultur des Landes.",
+              "movementMode": "walking_tour",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Piyoda ekskursiya",
+              "activityTypeSlug": "walking_tour"
+            },
+            {
+              "id": "3eaf3419-2578-4fe1-9117-72048c9728e5",
+              "city": "issyk-kul",
+              "time": "14:00-18:00",
+              "country": "kyrgyzstan",
+              "endTime": "18:00",
+              "startTime": "14:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Weiterfahrt zum Issyk-Kul-See. \nAnkunft. Übernachtung im Jurtencamp . ",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Yurtada tunash",
+              "activityTypeSlug": "yurt_stay"
+            }
+          ],
+          "country": "kyrgyzstan",
+          "program": "",
+          "transport": [
+            "walking"
+          ],
+          "overnightCity": "Issyk-Kul",
+          "overnightCountry": "kyrgyzstan"
+        },
+        {
+          "id": "08434bcd-bf90-48b7-afc4-ec2a9bfabe9f",
+          "day": 3,
+          "city": "bishkek",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "",
+          "events": [
+            {
+              "id": "6ba1e9dd-8123-404d-9ff6-efba50dc8c82",
+              "city": "bishkek",
+              "time": "09:00-12:00",
+              "country": "kyrgyzstan",
+              "endTime": "12:00",
+              "startTime": "09:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Frühstück im Jurtencamp. \nAm Vormittag erleben Sie eine Adlerjagd-Vorführung sowie eine Filz-Show, zwei bedeutende \nBestandteile der kirgisischen Tradition und des nomadischen Erbes.",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            },
+            {
+              "id": "61a5f711-9a22-4d93-9d40-5f5c4705211b",
+              "city": "bishkek",
+              "time": "12:00-18:00",
+              "country": "kyrgyzstan",
+              "endTime": "18:00",
+              "startTime": "12:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Anschließend Rückfahrt nach Bischkek. Unterwegs Fotostopp am Orto-Tokoy-Stausee, einem \nStausee des Tschü-Flusses in der Region Naryn. Der See umfasst eine Fläche von rund 24 km² \nund hat ein maximales Speichervolumen von etwa 470 Millionen Kubikmetern.",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Dastur",
+              "activityTypeSlug": "program"
+            },
+            {
+              "id": "52ad4a41-5195-41ca-83ea-507e4952b289",
+              "city": "bishkek",
+              "time": "18:00",
+              "country": "kyrgyzstan",
+              "endTime": "",
+              "startTime": "18:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Ankunft in Bischkek.\nÜbernachtung im Hotel. ",
+              "hotelAction": "check_in",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Check-in / Check-out",
+              "activityTypeSlug": "hotel_status"
+            }
+          ],
+          "country": "kyrgyzstan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "Bishkek",
+          "overnightCountry": "kyrgyzstan"
+        },
+        {
+          "id": "849d8aaf-b54a-49d1-ac95-3b434637ca1b",
+          "day": 4,
+          "city": "bishkek",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Ankommen in Taschkent, der Hauptstadt Usbekistans  ",
+          "events": [
+            {
+              "id": "becd947e-2650-402e-9b59-a2bb0997ce6b",
+              "city": "bishkek",
+              "time": "10:00",
+              "country": "kyrgyzstan",
+              "endTime": "",
+              "startTime": "10:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Frühstück im Hotel und Check-out. \nFahrt in den Ala-Artscha-Nationalpark,",
+              "hotelAction": "check_out",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Check-in / Check-out",
+              "activityTypeSlug": "hotel_status"
+            },
+            {
+              "id": "1dd0f50d-f966-4a5d-965d-7e9176462c2c",
+              "city": "bishkek",
+              "time": "12:00-16:00",
+              "country": "kyrgyzstan",
+              "endTime": "16:00",
+              "startTime": "12:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Ala-Artscha-Nationalpark, eines der beeindruckendsten Naturgebiete Kirgisistans, \nnur etwa 40 km südlich von Bischkek gelegen. Schneebedeckte Gipfel, tiefe Schluchten, alpine \nWiesen und klare Gebirgsflüsse prägen diese spektakuläre Hochgebirgslandschaft des Tien\nShan-Gebirges. \nBei einem leichten Spaziergang genießen Sie herrliche Panoramablicke und die unberührte Natur – ein stimmungsvoller Abschluss Ihrer Reise. \nAnschließend Transfer zum internationalen Flughafen Manas und Flug nach Taschkent \n(Usbekistan).",
+              "movementMode": "other",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Другое",
+              "activityTypeSlug": "other"
+            },
+            {
+              "id": "046881c3-b0e4-48f2-9a9e-9e7af1abe2be",
+              "city": "bishkek",
+              "time": "18:50-19:10",
+              "country": "kyrgyzstan",
+              "endTime": "19:10",
+              "transfer": {
+                "notes": "",
+                "toCity": "tashkent",
+                "duration": "",
+                "fromCity": "bishkek",
+                "provider": "",
+                "toCountry": "uzbekistan",
+                "fromCountry": "kyrgyzstan",
+                "serviceType": "point_to_point",
+                "vehicleType": "",
+                "pricingScope": "single_segment",
+                "rateSourceId": "",
+                "durationSource": "",
+                "transportSubtype": "regular"
+              },
+              "startTime": "18:50",
+              "activities": [],
+              "attractions": [],
+              "description": "VIA Uzbekistan Airways (18:50-19:10; Flug dauert 1.20 Min.) oder Via Qanot Sharq \nAnkunft in Taschkent, dem kulturellen und wirtschaftlichen Zentrum Usbekistans. \n",
+              "movementMode": "flight",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            },
+            {
+              "id": "60961adc-aa9c-432b-8be9-5488e9f0c5a2",
+              "city": "tashkent",
+              "time": "20:30",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "20:30",
+              "activities": [],
+              "attractions": [],
+              "description": "Check-in im Hotel und Zeit zur Erholung. ",
+              "hotelAction": "check_in",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Check-in / Check-out",
+              "activityTypeSlug": "hotel_status"
+            }
+          ],
+          "country": "kyrgyzstan",
+          "program": "",
+          "transport": [
+            "flight"
+          ],
+          "overnightCity": "Bishkek",
+          "overnightCountry": "kyrgyzstan"
+        },
+        {
+          "id": "e6feb0ba-4965-4859-89fb-7d7f5c31e403",
+          "day": 5,
+          "city": "tashkent",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Zwischen Tradition und Moderne – Taschkent",
+          "events": [
+            {
+              "id": "0bc94bd5-290a-4997-b9b2-e563cb8452fb",
+              "city": "tashkent",
+              "time": "10:00-13:00",
+              "country": "uzbekistan",
+              "endTime": "13:00",
+              "startTime": "10:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Nach einem späten Frühstück kurze Stadtrundfahrt mit Besichtigung der Medresse \nKukaldash, der Barak-Chan-Medresse, des Kaffal-Shashi-Mausoleums. ",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Экскурсия",
+              "activityTypeSlug": "excursion"
+            },
+            {
+              "id": "29b4aae4-2c32-45e9-9698-efccb925b64e",
+              "city": "tashkent",
+              "time": "15:00-19:00",
+              "country": "uzbekistan",
+              "endTime": "19:00",
+              "startTime": "15:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Besuch des Basars Chorsu, Metro Taschkent, Square Amir Temur sowie der Navoi Oper (Außenbesichtigung).\nZwei Übernachtungen in Taschkent.",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Tashkent",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "a8ed6459-4e72-484d-9641-c1ffee6ff970",
+          "day": 6,
+          "city": "samarkand",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Eine märchenhafte Welt des Orients",
+          "events": [
+            {
+              "id": "dc48db0d-e924-4362-8e4e-4aeeb618c965",
+              "city": "samarkand",
+              "time": "15:00-18:00",
+              "country": "uzbekistan",
+              "endTime": "18:00",
+              "startTime": "15:00",
+              "activities": [],
+              "attractions": [
+                {
+                  "city": "samarkand",
+                  "name": "Registan Square",
+                  "slug": "registan-square",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 120
+                },
+                {
+                  "city": "samarkand",
+                  "name": "Bibi-Khanym Mosque",
+                  "slug": "bibi-khanym-mosque",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 45
+                },
+                {
+                  "city": "samarkand",
+                  "name": "Gur-e-Amir Mausoleum",
+                  "slug": "gur-e-amir",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 60
+                }
+              ],
+              "description": "Stadtbesichtigung: Registan-Platz, Ulugh-Begh-Medresse (15. Jh.), Shirdar- und Tella-Kari\nMedresse (17. Jh.), Bibi-Chanum-Moschee, Gur-Emir-Mausoleum ",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [
+                "registan-square",
+                "bibi-khanym-mosque",
+                "gur-e-amir"
+              ],
+              "activityTypeName": "Экскурсия",
+              "activityTypeSlug": "excursion"
+            },
+            {
+              "id": "e5141c41-b6d9-4596-96fe-efea3dd35365",
+              "city": "samarkand",
+              "time": "18:30",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "18:30",
+              "activities": [],
+              "attractions": [],
+              "description": "Hotelbezug in Samarkand.",
+              "hotelAction": "check_in",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Check-in / Check-out",
+              "activityTypeSlug": "hotel_status"
+            },
+            {
+              "id": "5749cf43-2b79-4561-a4f6-e1200d086ee7",
+              "city": "samarkand",
+              "time": "09:00-14:00",
+              "country": "uzbekistan",
+              "endTime": "14:00",
+              "transfer": {
+                "notes": "",
+                "toCity": "samarkand",
+                "duration": "",
+                "fromCity": "tashkent",
+                "provider": "",
+                "toCountry": "uzbekistan",
+                "fromCountry": "uzbekistan",
+                "serviceType": "point_to_point",
+                "vehicleType": "",
+                "pricingScope": "single_segment",
+                "rateSourceId": "",
+                "durationSource": "",
+                "transportSubtype": ""
+              },
+              "startTime": "09:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Fahrt mit dem Bus nach Samarkand. Samarkand, von vielen als die Perle der Seidenstraße bezeichnet, zählt zu den faszinierendsten Städten Zentralasiens. Über Jahrhunderte hinweg war sie nicht nur ein bedeutender Knotenpunkt des Handels, sondern auch ein Ort des Austauschs von Wissen, Technologien, Religionen und Kunst. Kaufleute, Gelehrte und Reisende aus aller Welt begegneten sich hier und prägten den einzigartigen Charakter der Stadt.",
+              "movementMode": "road_transfer",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Samarkand",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "5f6978ea-73f6-447f-982b-2b9e8a96619a",
+          "day": 7,
+          "city": "samarkand",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Glanzstück der Seidenstraße",
+          "events": [
+            {
+              "id": "f8191706-67a9-493a-8052-dcd5de67af76",
+              "city": "samarkand",
+              "time": "09:00-13:30",
+              "country": "uzbekistan",
+              "endTime": "13:30",
+              "startTime": "09:00",
+              "activities": [],
+              "attractions": [
+                {
+                  "city": "samarkand",
+                  "name": "Shah-i-Zinda",
+                  "slug": "shah-i-zinda",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 45
+                },
+                {
+                  "city": "samarkand",
+                  "name": "Mausoleum of Saint Daniel / Khoja Doniyor",
+                  "slug": "saint-daniel-mausoleum",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 60
+                },
+                {
+                  "city": "samarkand",
+                  "name": "Meros Paper Mill",
+                  "slug": "meros-paper-mill",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 90
+                }
+              ],
+              "description": "Besichtigungen in Samarkand: Shahi-Sinda-Komplex, Mausoleum des hl. \nDaniel (Danijar), Besuch bei der Papiermanufaktur Meros",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [
+                "shah-i-zinda",
+                "saint-daniel-mausoleum",
+                "meros-paper-mill"
+              ],
+              "activityTypeName": "Экскурсия",
+              "activityTypeSlug": "excursion"
+            },
+            {
+              "id": "8277c5e0-4915-4f16-8df8-99e0aeb1cd17",
+              "city": "samarkand",
+              "time": "15:00-19:00",
+              "country": "uzbekistan",
+              "endTime": "19:00",
+              "startTime": "15:00",
+              "activities": [],
+              "attractions": [
+                {
+                  "city": "samarkand",
+                  "name": "Ulugh Beg Observatory",
+                  "slug": "ulugh-beg-observatory",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 90
+                },
+                {
+                  "city": "samarkand",
+                  "name": "Siab Bazaar / Siyob Bazaar",
+                  "slug": "siab-bazaar",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 90
+                }
+              ],
+              "description": " Sternwarte des Ulugh Begh; Freizeit auf dem großen Basar",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [
+                "ulugh-beg-observatory",
+                "siab-bazaar"
+              ],
+              "activityTypeName": "Экскурсия",
+              "activityTypeSlug": "excursion"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Samarkand",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "9571711e-4c4f-41bb-9384-9124cfc24f68",
+          "day": 8,
+          "city": "bukhara",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Buchara – die Edle",
+          "events": [
+            {
+              "id": "8e3c65a7-dbe0-47c9-bacb-9ea2d67b08df",
+              "city": "bukhara",
+              "time": "08:30-14:00",
+              "country": "uzbekistan",
+              "endTime": "14:00",
+              "transfer": {
+                "notes": "",
+                "toCity": "bukhara",
+                "duration": "5,30",
+                "fromCity": "samarkand",
+                "provider": "",
+                "toCountry": "uzbekistan",
+                "fromCountry": "uzbekistan",
+                "serviceType": "point_to_point",
+                "vehicleType": "",
+                "pricingScope": "single_segment",
+                "rateSourceId": "",
+                "durationSource": "manual",
+                "transportSubtype": ""
+              },
+              "startTime": "08:30",
+              "activities": [],
+              "attractions": [],
+              "description": "Nach dem Frühstück Fahrt mit dem Bus nach Buchara. Gegen Mittag Ankunft in Buchara.",
+              "movementMode": "road_transfer",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            },
+            {
+              "id": "7d54a481-fd5a-4b9f-bf1d-6b7a07c0c4c2",
+              "city": "bukhara",
+              "time": "14:00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "14:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Check-in in Hotel Buchara",
+              "hotelAction": "check_in",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Check-in / Check-out",
+              "activityTypeSlug": "hotel_status"
+            },
+            {
+              "id": "13f68b16-0e92-4134-be0e-d7b10241f5e6",
+              "city": "bukhara",
+              "time": "15:00-19:00",
+              "country": "uzbekistan",
+              "endTime": "19:00",
+              "startTime": "15:00",
+              "activities": [],
+              "attractions": [
+                {
+                  "city": "bukhara",
+                  "name": "Lyabi-Hauz Ensemble",
+                  "slug": "lyabi-hauz-ensemble",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 90
+                }
+              ],
+              "description": "Nach dem Check-in und einer kurzen Erholungspause unternehmen einen Spaziergang durch das historische Ensemble Lyab-i Hauz (Nodir Divan-Begi Madrasa) und genießen die besondere Atmosphäre der Altstadt.",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [
+                "lyabi-hauz-ensemble"
+              ],
+              "activityTypeName": "Экскурсия",
+              "activityTypeSlug": "excursion"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Bukhara",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "c75a4ac3-dafb-4a75-9a9a-04755256d650",
+          "day": 9,
+          "city": "bukhara",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Tauchen Sie ein in die faszinierende Geschichte von Buchara",
+          "events": [
+            {
+              "id": "4f5227b3-3530-4931-966b-01eb8e5a6148",
+              "city": "bukhara",
+              "time": "09:00-13:00",
+              "country": "uzbekistan",
+              "endTime": "13:00",
+              "startTime": "09:00",
+              "activities": [],
+              "attractions": [
+                {
+                  "city": "bukhara",
+                  "name": "Poi-Kalyan Complex",
+                  "slug": "poi-kalyan-complex",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 120
+                },
+                {
+                  "city": "bukhara",
+                  "name": "Bukhara Synagogue",
+                  "slug": "bukhara-synagogue",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 45
+                },
+                {
+                  "city": "bukhara",
+                  "name": "Bolo-Hauz Mosque",
+                  "slug": "bolo-hauz-mosque",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 45
+                }
+              ],
+              "description": "Spaziergang durch Buchara: Kalan-Minarett, Medressen Mir-e-Arab und Ulugh-Begh, \nSynagoge, ",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [
+                "poi-kalyan-complex",
+                "bukhara-synagogue",
+                "bolo-hauz-mosque"
+              ],
+              "activityTypeName": "Экскурсия",
+              "activityTypeSlug": "excursion"
+            },
+            {
+              "id": "db7d6b8b-9641-4444-b69c-e19cc8d6af0d",
+              "city": "bukhara",
+              "time": "15:00-19:00",
+              "country": "uzbekistan",
+              "endTime": "19:00",
+              "startTime": "15:00",
+              "activities": [],
+              "attractions": [
+                {
+                  "city": "bukhara",
+                  "name": "Abdulaziz Khan Madrasah",
+                  "slug": "abdulaziz-khan-madrasah",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 45
+                },
+                {
+                  "city": "bukhara",
+                  "name": "Magoki-Attori Mosque",
+                  "slug": "magoki-attori-mosque",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 45
+                },
+                {
+                  "city": "bukhara",
+                  "name": "Fayzulla Khodjaev House-Museum",
+                  "slug": "fayzulla-khodjaev-house-museum",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 60
+                }
+              ],
+              "description": "Besichtigung der Abdulaziz Khan Madrasa, der Magoki-Attori Mosque sowie des Museumshauses von Fayzulla Khojaev",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [
+                "abdulaziz-khan-madrasah",
+                "magoki-attori-mosque",
+                "fayzulla-khodjaev-house-museum"
+              ],
+              "activityTypeName": "Экскурсия",
+              "activityTypeSlug": "excursion"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "Bukhara",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "38c6f75e-667d-42ed-b933-5a8519cf3293",
+          "day": 10,
+          "city": "bukhara",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Architektonische Schätze des Islam",
+          "events": [
+            {
+              "id": "cad66840-7ac7-46aa-afdb-210c73dc6457",
+              "city": "bukhara",
+              "time": "09:00-14:00",
+              "country": "uzbekistan",
+              "endTime": "14:00",
+              "startTime": "09:00",
+              "activities": [],
+              "attractions": [
+                {
+                  "city": "bukhara",
+                  "name": "Samanid Mausoleum",
+                  "slug": "samanid-mausoleum",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 60
+                },
+                {
+                  "city": "bukhara",
+                  "name": "Chor Minor",
+                  "slug": "chor-minor",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 45
+                },
+                {
+                  "city": "bukhara",
+                  "name": "Chor-Bakr Memorial Complex",
+                  "slug": "chor-bakr-memorial-complex",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 120
+                }
+              ],
+              "description": "Ausflug in die Umgebung von Buchara… \nKomplex Chor Bakr,\nSamanidenmausoleum (10. Jh.), Besichtigungen, Chor-Minor-Moschee\n",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [
+                "samanid-mausoleum",
+                "chor-minor",
+                "chor-bakr-memorial-complex"
+              ],
+              "activityTypeName": "Экскурсия",
+              "activityTypeSlug": "excursion"
+            },
+            {
+              "id": "bf80e677-0e53-4a19-9bb9-49f51e876d30",
+              "city": "bukhara",
+              "time": "15:00-19:00",
+              "country": "uzbekistan",
+              "endTime": "19:00",
+              "startTime": "15:00",
+              "activities": [],
+              "attractions": [
+                {
+                  "city": "bukhara",
+                  "name": "Sitorai Mokhi-Khosa Palace",
+                  "slug": "sitorai-mokhi-khosa-palace",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 120
+                },
+                {
+                  "city": "bukhara",
+                  "name": "Bahauddin Naqshband Memorial Complex",
+                  "slug": "bahauddin-naqshband-complex",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 120
+                }
+              ],
+              "description": " Sitora-Mokhi-Khosa-Anlage,  Grabstätte des Bahauddin Naqshbandi \n",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [
+                "sitorai-mokhi-khosa-palace",
+                "bahauddin-naqshband-complex"
+              ],
+              "activityTypeName": "Экскурсия",
+              "activityTypeSlug": "excursion"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Bukhara",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "79954b52-0114-438a-a211-597955994190",
+          "day": 11,
+          "city": "khiva",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Durch die endlosen Landschaften der Kysylkum-Wüste",
+          "events": [
+            {
+              "id": "a31df0ad-591c-40ed-b2c1-2d335bf82080",
+              "city": "khiva",
+              "time": "08:00-15:00",
+              "country": "uzbekistan",
+              "endTime": "15:00",
+              "transfer": {
+                "notes": "",
+                "toCity": "khiva",
+                "duration": "",
+                "fromCity": "bukhara",
+                "provider": "",
+                "toCountry": "uzbekistan",
+                "fromCountry": "uzbekistan",
+                "serviceType": "point_to_point",
+                "vehicleType": "",
+                "pricingScope": "single_segment",
+                "rateSourceId": "",
+                "durationSource": "",
+                "transportSubtype": ""
+              },
+              "startTime": "08:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Frühmorgens Busfahrt nach Chiwa entlang des Amu Darya und durch die Wüste Kizil Kum \nNachmittag Ankunft in Chiwa.",
+              "movementMode": "road_transfer",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            },
+            {
+              "id": "0ec54b0f-8d4b-4ba2-8e18-d1065b47d5af",
+              "city": "khiva",
+              "time": "16:00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "16:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Check-in in Hotel Chiwa",
+              "hotelAction": "check_in",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Check-in / Check-out",
+              "activityTypeSlug": "hotel_status"
+            },
+            {
+              "id": "64beece2-4b4b-43e0-96dd-452137157f7c",
+              "city": "khiva",
+              "time": "16:00-19:00",
+              "country": "uzbekistan",
+              "endTime": "19:00",
+              "startTime": "16:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Freizeit; Erste Erkundung der Altstadt von Chiwa",
+              "movementMode": "free_time",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Свободное время",
+              "activityTypeSlug": "free_time"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Khiva",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "5fd4067f-97df-4143-9056-1cfdac764c03",
+          "day": 12,
+          "city": "khiva",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Die Kleinste unter den Großartigen",
+          "events": [
+            {
+              "id": "049b5ff2-6fe1-408a-97b1-aea83060d4d0",
+              "city": "khiva",
+              "time": "09:00-13:00",
+              "country": "uzbekistan",
+              "endTime": "13:00",
+              "startTime": "09:00",
+              "activities": [],
+              "attractions": [
+                {
+                  "city": "khiva",
+                  "name": "Muhammad Amin Khan Madrasah",
+                  "slug": "muhammad-amin-khan-madrasah",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 45
+                },
+                {
+                  "city": "khiva",
+                  "name": "Muhammad Rahim Khan II Madrasah",
+                  "slug": "muhammad-rahim-khan-ii-madrasah",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 45
+                },
+                {
+                  "city": "khiva",
+                  "name": "Kalta Minor",
+                  "slug": "kalta-minor-minaret",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 45
+                },
+                {
+                  "city": "khiva",
+                  "name": "Kunya-Ark Fortress",
+                  "slug": "kunya-ark-fortress",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 120
+                },
+                {
+                  "city": "khiva",
+                  "name": "Itchan Kala",
+                  "slug": "itchan-kala",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 45
+                }
+              ],
+              "description": "Besichtigungen in Chiwa: Medresse Muchamed-Amin-Chan, Kalta-Minor-Minarett,Kunja-Ark-Palast, Firuz-Medresse mit Museum",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [
+                "muhammad-amin-khan-madrasah",
+                "muhammad-rahim-khan-ii-madrasah",
+                "kalta-minor-minaret",
+                "kunya-ark-fortress",
+                "itchan-kala"
+              ],
+              "activityTypeName": "Экскурсия",
+              "activityTypeSlug": "excursion"
+            },
+            {
+              "id": "9ff7be14-25f6-4942-85bc-42ad583e5c61",
+              "city": "khiva",
+              "time": "15:00-19:00",
+              "country": "uzbekistan",
+              "endTime": "19:00",
+              "startTime": "15:00",
+              "activities": [],
+              "attractions": [
+                {
+                  "city": "khiva",
+                  "name": "Pahlavon Mahmud Mausoleum",
+                  "slug": "pahlavon-mahmud-mausoleum",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 60
+                },
+                {
+                  "city": "khiva",
+                  "name": "Islam Khoja Minaret",
+                  "slug": "islam-khoja-minaret",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 45
+                },
+                {
+                  "city": "khiva",
+                  "name": "Islam Khoja Madrasah",
+                  "slug": "islam-khoja-madrasah",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 45
+                },
+                {
+                  "city": "khiva",
+                  "name": "Tash-Khauli Palace",
+                  "slug": "tash-khauli-palace",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 120
+                }
+              ],
+              "description": "Pachlavon-Machmud-Mausoleum, Islam \nChodsha-Minarett, Islam Chodsha-Medresse, Palast Tasch-Chauli ",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [
+                "pahlavon-mahmud-mausoleum",
+                "islam-khoja-minaret",
+                "islam-khoja-madrasah",
+                "tash-khauli-palace"
+              ],
+              "activityTypeName": "Экскурсия",
+              "activityTypeSlug": "excursion"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Khiva",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "83825ff5-9f32-4a0f-afdb-033e153a2921",
+          "day": 13,
+          "city": "khiva",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Abschied von der Seidenstraße",
+          "events": [
+            {
+              "id": "c3276e90-4385-45ce-b115-a4e402c1b07f",
+              "city": "khiva",
+              "time": "06:00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "06:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Kleines frühes Frühstück im Hotel oder Frühstücksbox. Transfer zum Flughafen \nUrgentsch: Rückflug.   ",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Khiva",
+          "overnightCountry": "uzbekistan"
+        }
+      ],
+      "slug": "hohepunkte-zentralasiens-kirgisistan-usbekistan",
+      "terms": {
+        "serviceNote": "Als Reiseveranstalter in Usbekistan kennen wir die Erwartungen und Arbeitsweisen europäischer Agenturen und Reisender. Flexibilität, Anpassungsfähigkeit und Servicequalität gehören zu den zentralen Werten von TourLink.\n\nUnser Blick auf Hotels\nWir wählen Hotels nach Komfort, Ästhetik, Atmosphäre und Charme aus, mit besonderer Vorliebe für Boutique-Hotels. Unsere Partnerhotels werden regelmäßig überprüft. Wir bevorzugen Standorte nahe dem Stadtzentrum oder ruhige Lagen in größeren Städten. Transfers in großen Städten werden organisiert und sind in unseren Leistungen enthalten.\n\nUnser Blick auf Restaurants\nRestaurants werden nach dem lokalen Charakter jeder Etappe ausgewählt. Wir bevorzugen traditionelle Häuser und stimmen Menüs mit den Restaurants ab, damit Reisende die Geschmäcker jeder Region entdecken können.\n\nUnser Transportservice\nWir stellen Fahrzeuge mit professionellen Fahrern bereit und kontrollieren die Qualität regelmäßig. Private Reiseleiter werden sorgfältig ausgewählt und häufig bewertet.\n\nKlassische und erweiterte Reisen\nKlassische Reisen zeigen die wichtigsten Höhepunkte Usbekistans. Für längere Aufenthalte können wir nach unserem Austausch weitere Routen und persönliche Vorschläge unterbreiten.",
+        "paymentTerms": "- Die Zahlung der Reise muss spätestens 40 Tage vor Ankunft der Gruppe gemäß Rechnung auf das Bankkonto von TourLink erfolgen.\n- Zahlungsfristen können nur geändert werden, wenn ein unterzeichneter Vertrag andere Bedingungen vorsieht.\n- Leistungen gelten erst als bestätigt, wenn Bestätigungs- und Zahlungsbedingungen vereinbart sind.",
+        "priceIncludes": "- Unterkunft in den genannten Hotels im TWIN / DBL Zimmer.\n- Frühstück in den Hotels.\n- Mineralwasser, 1 l pro Person und Reisetag.\n- Komfortabler klimatisierter Transport mit professionellem Fahrer gemäß Reiseverlauf.\n- Englischsprachige Reisebegleitung von Ankunft bis Abreise für Gruppen ab 10 Pax.\n- Englischsprachige lokale Reiseleiter für Ausflüge für Gruppen von 1-9 Pax.\n- Eintrittsgebühren für alle genannten Sehenswürdigkeiten, außer Foto- und Videogebühren.",
+        "importantNotes": "- Dieses Angebot ist keine Reservierungsbestätigung.\n- Bitte prüfen Sie vor der Buchung die Verfügbarkeit internationaler Flüge.\n- Sind die genannten Hotels nicht verfügbar, werden je nach Verfügbarkeit Hotels gleicher Kategorie angeboten.\n- Inlandsflüge und Züge unterliegen Änderungen von Zeiten und Verfügbarkeit.\n- Je nach Streckenabschnitt können unterschiedliche Fahrzeuge und Fahrer eingesetzt werden.\n- Hotelnutzung vorbehaltlich Verfügbarkeit; Reservierungen erfolgen erst nach Kundenbestätigung.\n- TourLink haftet nicht für Wetterbedingungen während der Route.\n- Trinkgelder sind nicht verpflichtend.",
+        "cancellationTerms": "- Stornierung 45 Tage oder mehr vor Ankunft: keine Stornogebühr.\n- Stornierung 44-25 Tage vor Ankunft: 50% des Reisepreises.\n- Stornierung 24-15 Tage vor Ankunft: 75% des Reisepreises.\n- Stornierung 14-0 Tage vor Ankunft: 100% des Reisepreises.",
+        "priceDoesNotInclude": "- Visakosten und Bearbeitung.\n- Foto- und Videogebühren.\n- Vollpension, als Zuschlag ab 10 Pax verfügbar.\n- Internationale Flugtickets.\n- Inlandsflüge, sofern nicht eindeutig im Programm enthalten.\n- Inlandstickets für Züge, sofern nicht eindeutig im Programm enthalten.\n- Getränke und Alkohol.\n- Gepäckträgerdienste in Hotels, Flughäfen und Bahnhöfen.\n- Reise- und Krankenversicherung.\n- Trinkgelder.\n- Persönliche Ausgaben.\n- Alle Leistungen, die nicht im Abschnitt der eingeschlossenen Leistungen aufgeführt sind.",
+        "availableSupplements": "- Mittag- und Abendessen können gemäß gewünschtem Verpflegungsplan hinzugefügt werden.\n- Früher Check-in und später Check-out können nach Bekanntgabe der Flugzeiten angeboten werden.\n- Zusätzliche Reiseleitersprachen auf Anfrage.\n- Inlandsflug- oder Zugtickets werden nur als Alternative zum eingeschlossenen Straßentransport als Zuschlag kalkuliert.\n- Sondergenehmigungen und Grenzzonengenehmigungen werden bei Bedarf kalkuliert."
+      },
+      "title": "Höhepunkte Zentralasiens: Kirgisistan & Usbekistan",
+      "hotels": {},
+      "pricing": {
+        "mode": "matrix",
+        "matrix": [
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "1"
+          },
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "2"
+          },
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "4"
+          },
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "6"
+          },
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "8"
+          },
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "10"
+          },
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "12"
+          }
+        ],
+        "fixedPerPerson": {
+          "amount": "",
+          "groupSize": "",
+          "hotelCategory": "4_star"
+        },
+        "singleSupplement": {
+          "star3": "",
+          "star4": "",
+          "star5": "",
+          "byStar": {}
+        }
+      },
+      "currency": "EUR",
+      "services": {
+        "segments": [],
+        "usesRail": false,
+        "lunchCost": "",
+        "mealNotes": "",
+        "dinnerCost": "",
+        "usesFlight": false,
+        "fullBoardPossible": true,
+        "additionalServices": [],
+        "usesAdditionalServices": false
+      },
+      "tourType": "group",
+      "routeMode": "multi_country",
+      "difficulty": "moderate",
+      "salesOwner": "Yulduz Safarova",
+      "contactInfo": {
+        "email": "german@tourlink.uz",
+        "phone": "+998970177555",
+        "address": "Ankhor Buyi 6, Tashkent 100011, Uzbekistan",
+        "website": "www.tourlink.uz",
+        "director": "Sodik BEGMATOV",
+        "agencyName": "TourLink DMC"
+      },
+      "description": "",
+      "durationDays": 13,
+      "isGuaranteed": false,
+      "coverImageKey": "tourlink/covers/1ba7f901-b032-4fdc-9071-cc9341409215.jpg",
+      "clientLanguage": "de",
+      "departureDates": [],
+      "durationNights": 12,
+      "primaryCountry": "kyrgyzstan",
+      "validityPeriod": "",
+      "selectedHotelStars": [
+        "3",
+        "4",
+        "5"
+      ],
+      "coverImageUpdatedAt": "2026-06-10T12:58:32.894Z",
+      "coverImageContentType": "image/jpeg",
+      "coverImageUrl": "/api/tour-packages/1ba7f901-b032-4fdc-9071-cc9341409215/cover?v=2026-06-10T12%3A58%3A32.894Z"
+    },
+    "hasCoverImage": true,
+    "coverImageUrl": "/api/tour-packages/1ba7f901-b032-4fdc-9071-cc9341409215/cover?v=2026-06-10T12%3A58%3A32.894Z"
+  }
+}

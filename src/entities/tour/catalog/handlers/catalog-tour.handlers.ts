@@ -1,15 +1,15 @@
 import { HttpResponse, delay, http } from "msw";
 
 import { CATALOG_DURATION_PRESETS } from "../config/catalog-duration.config";
+import { resolveRequestLocale } from "../lib/resolve-request-locale";
+import { CATALOG_DESTINATIONS_MOCK, RECENT_SEARCHES_MOCK } from "../mock";
 import {
-	CATALOG_DESTINATIONS_MOCK,
-	CATALOG_REGIONS_MOCK,
-	CATALOG_TOURS_MOCK,
-	POPULAR_TOURS_MOCK,
-	PRICE_HISTOGRAM_MOCK,
-	RECENT_SEARCHES_MOCK,
-	SPECIAL_OFFERS_MOCK
-} from "../mock";
+	CATALOG_REGIONS_MOCK_BY_LOCALE,
+	CATALOG_TOURS_MOCK_BY_LOCALE,
+	POPULAR_TOURS_MOCK_BY_LOCALE,
+	PRICE_HISTOGRAM_MOCK_BY_LOCALE,
+	SPECIAL_OFFERS_MOCK_BY_LOCALE
+} from "../mock/generated";
 import type { ENUM_CATALOG_DURATION_TYPE } from "../types/catalog-duration.types";
 
 const matchesDuration = (
@@ -24,6 +24,9 @@ const matchesDuration = (
 export const tourCatalogHandlers = [
 	http.get("*/tours/catalog", async ({ request }) => {
 		await delay(300);
+		const locale = resolveRequestLocale(request);
+		const catalogTours = CATALOG_TOURS_MOCK_BY_LOCALE[locale];
+		const catalogRegions = CATALOG_REGIONS_MOCK_BY_LOCALE[locale];
 		const url = new URL(request.url);
 		const page = Number(url.searchParams.get("page")) || 1;
 		const limit = Number(url.searchParams.get("limit")) || 10;
@@ -42,7 +45,7 @@ export const tourCatalogHandlers = [
 		const priceFromParam = url.searchParams.get("priceFrom");
 		const priceToParam = url.searchParams.get("priceTo");
 
-		let filteredTours = [...CATALOG_TOURS_MOCK];
+		let filteredTours = [...catalogTours];
 
 		if (search) {
 			filteredTours = filteredTours.filter((tour) =>
@@ -60,9 +63,9 @@ export const tourCatalogHandlers = [
 		}
 
 		if (regions?.length) {
-			const regionTitles = CATALOG_REGIONS_MOCK.filter((region) =>
-				regions.includes(region.id)
-			).map((region) => region.title.toLowerCase());
+			const regionTitles = catalogRegions
+				.filter((region) => regions.includes(region.id))
+				.map((region) => region.title.toLowerCase());
 
 			filteredTours = filteredTours.filter((tour) =>
 				regionTitles.some(
@@ -117,20 +120,23 @@ export const tourCatalogHandlers = [
 	}),
 	http.get("*/tours/catalog/filters/regions", async ({ request }) => {
 		await delay(300);
+		const locale = resolveRequestLocale(request);
+		const catalogRegions = CATALOG_REGIONS_MOCK_BY_LOCALE[locale];
 		const url = new URL(request.url);
 		const page = Number(url.searchParams.get("page")) || 1;
 		const limit = Number(url.searchParams.get("limit")) || 5;
 		const start = (page - 1) * limit;
-		const data = CATALOG_REGIONS_MOCK.slice(start, start + limit);
+		const data = catalogRegions.slice(start, start + limit);
 
 		return HttpResponse.json({
 			data,
-			total: CATALOG_REGIONS_MOCK.length
+			total: catalogRegions.length
 		});
 	}),
-	http.get("*/tours/catalog/filters/price-histogram", async () => {
+	http.get("*/tours/catalog/filters/price-histogram", async ({ request }) => {
 		await delay(300);
-		return HttpResponse.json(PRICE_HISTOGRAM_MOCK);
+		const locale = resolveRequestLocale(request);
+		return HttpResponse.json(PRICE_HISTOGRAM_MOCK_BY_LOCALE[locale]);
 	}),
 	http.get("*/tours/recently-searched", async () => {
 		await delay(300);
@@ -143,18 +149,22 @@ export const tourCatalogHandlers = [
 			total: CATALOG_DESTINATIONS_MOCK.length
 		});
 	}),
-	http.get("*/tours/popular", async () => {
+	http.get("*/tours/popular", async ({ request }) => {
 		await delay(300);
+		const locale = resolveRequestLocale(request);
+		const data = POPULAR_TOURS_MOCK_BY_LOCALE[locale];
 		return HttpResponse.json({
-			data: POPULAR_TOURS_MOCK,
-			total: POPULAR_TOURS_MOCK.length
+			data,
+			total: data.length
 		});
 	}),
-	http.get("*/tours/special-offers", async () => {
+	http.get("*/tours/special-offers", async ({ request }) => {
 		await delay(300);
+		const locale = resolveRequestLocale(request);
+		const data = SPECIAL_OFFERS_MOCK_BY_LOCALE[locale];
 		return HttpResponse.json({
-			data: SPECIAL_OFFERS_MOCK,
-			total: SPECIAL_OFFERS_MOCK.length
+			data,
+			total: data.length
 		});
 	})
 ];

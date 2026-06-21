@@ -1,21 +1,20 @@
 import type { TPubEventMediaFields } from "../types/catalog-preview-option-media.types";
 
-/** Stable preview URLs (picsum) — used until pub API exposes image_paths. */
 export const CATALOG_PREVIEW_MOCK_IMAGE_URLS = {
-	single1: "https://picsum.photos/id/10/800/600",
-	single2: "https://picsum.photos/id/11/800/600",
-	single3: "https://picsum.photos/id/12/800/600",
-	single4: "https://picsum.photos/id/13/800/600",
-	single5: "https://picsum.photos/id/14/800/600",
-	hotelA: "https://picsum.photos/id/15/800/600",
-	hotelB: "https://picsum.photos/id/16/800/600",
-	hotelC: "https://picsum.photos/id/17/800/600",
-	hotelD: "https://picsum.photos/id/18/800/600",
-	hotelE: "https://picsum.photos/id/19/800/600",
-	activityA: "https://picsum.photos/id/20/800/600",
-	activityB: "https://picsum.photos/id/21/800/600",
-	activityC: "https://picsum.photos/id/22/800/600",
-	cover: "https://picsum.photos/id/23/800/600"
+	single1: "/assets/images/experiences/culture-1.jpg",
+	single2: "/assets/images/experiences/culture-2.jpg",
+	single3: "/assets/images/experiences/craft.jpg",
+	single4: "/assets/images/experiences/food.jpg",
+	single5: "/assets/images/experiences/nature-1.jpg",
+	hotelA: "/assets/images/city/samarkand.jpg",
+	hotelB: "/assets/images/city/bukhara.jpg",
+	hotelC: "/assets/images/city/khiva.jpg",
+	hotelD: "/assets/images/city/tashkent.jpg",
+	hotelE: "/assets/images/city/fergana.jpg",
+	activityA: "/assets/images/experiences/culture-1.jpg",
+	activityB: "/assets/images/experiences/craft.jpg",
+	activityC: "/assets/images/experiences/food.jpg",
+	cover: "/assets/images/tours/silk-road.jpg"
 } as const;
 
 export type { TPubEventMediaFields };

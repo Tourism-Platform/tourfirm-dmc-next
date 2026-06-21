@@ -1,16 +1,12 @@
 "use client";
 
-import { Clock, DollarSign, Globe, MapPin, Tag } from "lucide-react";
+import { Clock, Globe, MapPin, Tag } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { type FC, useCallback, useMemo } from "react";
 import { type UseFormReturn } from "react-hook-form";
 
 import type { TOptionsKeys } from "@/shared/i18n/i18n.config";
-import {
-	CustomAccordion,
-	CustomAccordionRange,
-	withErrorBoundary
-} from "@/shared/ui";
+import { CustomAccordion, withErrorBoundary } from "@/shared/ui";
 
 import {
 	CATALOG_DURATION_KEYS,
@@ -24,7 +20,7 @@ import {
 	type ENUM_CATALOG_SEARCH_CATEGORY_TYPE,
 	type ICatalogTourFilters,
 	buildCatalogFilterItems,
-	useGetCatalogPriceHistogramQuery,
+	// useGetCatalogPriceHistogramQuery,
 	useGetCatalogRegionsQuery
 } from "@/entities/tour";
 
@@ -34,9 +30,9 @@ interface ISearchFilterProps {
 	form: UseFormReturn<ICatalogTourFilters>;
 }
 
-const PRICE_STEP = 150;
-const PRICE_MIN = 0;
-const PRICE_MAX = 3600;
+// const PRICE_STEP = 150;
+// const PRICE_MIN = 0;
+// const PRICE_MAX = 3600;
 
 const LANGUAGE_KEYS = Object.values(
 	ENUM_CATALOG_LANGUAGES
@@ -49,14 +45,14 @@ const SearchFilterBase: FC<ISearchFilterProps> = ({ form }) => {
 
 	const selectedFilters = watch("filters") || {};
 
-	const {
-		data: priceHistogramData = [],
-		isLoading: isPriceHistogramLoading
-	} = useGetCatalogPriceHistogramQuery({
-		min: PRICE_MIN,
-		max: PRICE_MAX,
-		step: PRICE_STEP
-	});
+	// const {
+	// 	data: priceHistogramData = [],
+	// 	isLoading: isPriceHistogramLoading
+	// } = useGetCatalogPriceHistogramQuery({
+	// 	min: PRICE_MIN,
+	// 	max: PRICE_MAX,
+	// 	step: PRICE_STEP
+	// });
 
 	const {
 		items: regionItems,
@@ -117,12 +113,12 @@ const SearchFilterBase: FC<ISearchFilterProps> = ({ form }) => {
 		[form, setValue]
 	);
 
-	const handlePriceChange = useCallback(
-		(value: { from: number; to: number }) => {
-			setValue("filters.price", value);
-		},
-		[setValue]
-	);
+	// const handlePriceChange = useCallback(
+	// 	(value: { from: number; to: number }) => {
+	// 		setValue("filters.price", value);
+	// 	},
+	// 	[setValue]
+	// );
 
 	const handleDurationChange = useCallback(
 		(id: string, checked: boolean) => {
@@ -171,7 +167,7 @@ const SearchFilterBase: FC<ISearchFilterProps> = ({ form }) => {
 
 	return (
 		<div className="flex flex-col gap-4">
-			<CustomAccordionRange
+			{/* <CustomAccordionRange
 				id="price"
 				title={t("filters.fields.price")}
 				icon={DollarSign}
@@ -184,7 +180,7 @@ const SearchFilterBase: FC<ISearchFilterProps> = ({ form }) => {
 				histogramData={priceHistogramData}
 				isLoading={isPriceHistogramLoading}
 				onChange={handlePriceChange}
-			/>
+			/> */}
 
 			<CustomAccordion
 				id="region"

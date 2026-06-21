@@ -116,7 +116,7 @@ const CatalogTourBase: FC = () => {
 		<section className="flex flex-col gap-8 container pb-12 max-w-6xl mx-auto ">
 			<div className="grid grid-cols-[1fr_auto] gap-8 items-start relative">
 				<Link
-					href={ENUM_PATH.MAIN.CATALOG.ROOT}
+					href={ENUM_PATH.MAIN.SEARCH}
 					className="absolute top-5 left-0"
 				>
 					<Button variant="ghost" size="sm">
