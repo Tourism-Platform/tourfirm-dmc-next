@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: TProps) {
 		title: t("meta.title"),
 		description: t("meta.description"),
 		locale,
-		path: ENUM_PATH.MAIN.CATALOG
+		path: ENUM_PATH.MAIN.CATALOG.ROOT
 	});
 }
 

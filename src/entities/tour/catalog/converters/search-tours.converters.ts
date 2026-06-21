@@ -5,7 +5,7 @@ import { formatDateToISO, fromatISOtoDate } from "@/shared/utils";
 
 import type { TSearchTours } from "../schema";
 
-type TCatalogSearchQuery = TQueryParams[typeof ENUM_PATH.MAIN.CATALOG];
+type TSearchQuery = TQueryParams[typeof ENUM_PATH.MAIN.SEARCH];
 
 export const mapBackendDatesToDateRange = (
 	dateFrom: string,
@@ -17,14 +17,14 @@ export const mapBackendDatesToDateRange = (
 
 export const mapSearchToursToCatalogQuery = (
 	data: TSearchTours
-): TCatalogSearchQuery => ({
+): TSearchQuery => ({
 	destination: data.destination || undefined,
 	checkIn: formatDateToISO(data.dates?.from),
 	checkOut: formatDateToISO(data.dates?.to)
 });
 
 export const mapCatalogQueryToSearchTours = (
-	query: TCatalogSearchQuery
+	query: TSearchQuery
 ): TSearchTours => {
 	const from = fromatISOtoDate(query.checkIn);
 	const to = fromatISOtoDate(query.checkOut);

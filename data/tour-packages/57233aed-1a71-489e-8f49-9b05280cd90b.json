@@ -1,0 +1,739 @@
+{
+  "package": {
+    "id": "57233aed-1a71-489e-8f49-9b05280cd90b",
+    "createdAt": "2026-06-18T11:18:03.346+00:00",
+    "updatedAt": "2026-06-18T11:18:03.346+00:00",
+    "data": {
+      "days": [
+        {
+          "id": "a6a6fdba-0a5c-4fef-a70f-61c9c8898703",
+          "day": 1,
+          "city": "tashkent",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "ТАШКЕНТ",
+          "events": [
+            {
+              "id": "2a016dce-5b22-4026-9bbd-4c26835265f2",
+              "city": "tashkent",
+              "time": "17:00-18:30",
+              "country": "uzbekistan",
+              "endTime": "18:30",
+              "startTime": "17:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Прибытие в международный аэропорт г. Ташкент.   ",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Программа",
+              "activityTypeSlug": "program"
+            },
+            {
+              "id": "c3ed6416-2e6d-4103-a2d5-900dc8789f5e",
+              "city": "tashkent",
+              "time": "18:30-19:30",
+              "country": "uzbekistan",
+              "endTime": "19:30",
+              "transfer": {
+                "notes": "",
+                "toCity": "tashkent",
+                "duration": "",
+                "fromCity": "tashkent",
+                "provider": "",
+                "toCountry": "uzbekistan",
+                "fromCountry": "uzbekistan",
+                "serviceType": "point_to_point",
+                "vehicleType": "",
+                "pricingScope": "single_segment",
+                "rateSourceId": "",
+                "durationSource": "",
+                "transportSubtype": ""
+              },
+              "startTime": "18:30",
+              "activities": [],
+              "attractions": [],
+              "description": "Трансфер в отель. ",
+              "movementMode": "road_transfer",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            },
+            {
+              "id": "ddf6f290-67ff-4bf3-a9c1-6a86ab60cc75",
+              "city": "tashkent",
+              "time": "19:30",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "19:30",
+              "activities": [],
+              "attractions": [],
+              "description": "Заселение. Свободное время. ",
+              "hotelAction": "check_in",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Check-in / Check-out",
+              "activityTypeSlug": "hotel_status"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Tashkent",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "07168acc-09e7-419f-815f-07fbae1e305d",
+          "day": 2,
+          "city": "",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "ТАШКЕНТ-БУХАРА (на поезде или на самолете) ",
+          "events": [
+            {
+              "id": "660bcf6b-9be5-4fca-add1-e4d74b45b52a",
+              "city": "",
+              "time": "08:30",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "08:30",
+              "activities": [],
+              "attractions": [],
+              "description": "Трансфер на железнодорожный вокзал. Регистрация на рейс: Ташкент-Бухара.  Прибытие в г. Бухара. Трансфер в отель. Заселение. \nСвободное время. ",
+              "hotelAction": "check_in",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Check-in / Check-out",
+              "activityTypeSlug": "hotel_status"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "Bukhara",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "c18acae2-05fd-44a5-a526-99551b56e7fb",
+          "day": 3,
+          "city": "bukhara",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "БУХАРА",
+          "events": [
+            {
+              "id": "1032aa55-f6f7-48b1-9beb-c726225ba65b",
+              "city": "bukhara",
+              "time": "10:00-15:00",
+              "country": "uzbekistan",
+              "endTime": "15:00",
+              "startTime": "10:00",
+              "activities": [],
+              "attractions": [
+                {
+                  "city": "bukhara",
+                  "name": "Lyabi-Hauz Ensemble",
+                  "slug": "lyabi-hauz-ensemble",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 90
+                },
+                {
+                  "city": "bukhara",
+                  "name": "Chashma-Ayub Mausoleum",
+                  "slug": "chashma-ayub-mausoleum",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 60
+                },
+                {
+                  "city": "bukhara",
+                  "name": "Samanid Mausoleum",
+                  "slug": "samanid-mausoleum",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 60
+                },
+                {
+                  "city": "bukhara",
+                  "name": "Ark Fortress",
+                  "slug": "ark-citadel",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 120
+                },
+                {
+                  "city": "bukhara",
+                  "name": "Poi-Kalyan Complex",
+                  "slug": "poi-kalyan-complex",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 120
+                }
+              ],
+              "description": "Сегодня мы начинаем путешествие по древней Бухаре — городу, где родился великий учёный и врач Авиценна. Здесь каждый камень хранит историю, а каждый уголок дышит духом Великого шелкового пути.\n",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [
+                "lyabi-hauz-ensemble",
+                "chashma-ayub-mausoleum",
+                "samanid-mausoleum",
+                "ark-citadel",
+                "poi-kalyan-complex"
+              ],
+              "activityTypeName": "Экскурсия",
+              "activityTypeSlug": "excursion"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "Bukhara",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "9439f211-f022-401f-8493-c9a19a4954a8",
+          "day": 4,
+          "city": "bukhara",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "БУХАРА-САМАРКАНД (на поезде) ",
+          "events": [
+            {
+              "id": "fc0bbbd0-6d80-4b4c-b533-79830767fa75",
+              "city": "bukhara",
+              "time": "12:00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "12:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Выселение с отеля. Трансфер на железнодорожный вокзал. \nРегистрация на рейс: Бухара-Самарканд.  ",
+              "hotelAction": "check_out",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Check-in / Check-out",
+              "activityTypeSlug": "hotel_status"
+            },
+            {
+              "id": "433636df-c5a4-4ed7-b956-1d385fdc3402",
+              "city": "samarkand",
+              "time": "17:00-18:00",
+              "country": "uzbekistan",
+              "endTime": "18:00",
+              "transfer": {
+                "notes": "",
+                "toCity": "samarkand",
+                "duration": "",
+                "fromCity": "samarkand",
+                "provider": "",
+                "toCountry": "uzbekistan",
+                "fromCountry": "uzbekistan",
+                "serviceType": "point_to_point",
+                "vehicleType": "",
+                "pricingScope": "single_segment",
+                "rateSourceId": "",
+                "durationSource": "",
+                "transportSubtype": ""
+              },
+              "startTime": "17:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Прибытие в Самарканд. Трансфер в отель. Заселение. Свободное время. ",
+              "movementMode": "road_transfer",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Программа",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Samarkand",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "bcb1fe33-b67a-4547-9255-79e5b344657a",
+          "day": 5,
+          "city": "samarkand",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "САМАРКАНД. ",
+          "events": [
+            {
+              "id": "f73295c1-6f98-4b81-8c98-1af6b6c4f305",
+              "city": "samarkand",
+              "time": "10:00-16:00",
+              "country": "uzbekistan",
+              "endTime": "16:00",
+              "startTime": "10:00",
+              "activities": [],
+              "attractions": [
+                {
+                  "city": "samarkand",
+                  "name": "Gur-e-Amir Mausoleum",
+                  "slug": "gur-e-amir",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 60
+                },
+                {
+                  "city": "samarkand",
+                  "name": "Registan Square",
+                  "slug": "registan-square",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 120
+                },
+                {
+                  "city": "samarkand",
+                  "name": "Shah-i-Zinda",
+                  "slug": "shah-i-zinda",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 45
+                },
+                {
+                  "city": "samarkand",
+                  "name": "Ulugh Beg Observatory",
+                  "slug": "ulugh-beg-observatory",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 90
+                }
+              ],
+              "description": "После древней Бухары нас встречает Самарканд — жемчужина Востока, город великой истории и великолепной архитектуры. Именно здесь начинается наше знакомство с легендарным наследием Великого шелкового пути.",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [
+                "gur-e-amir",
+                "registan-square",
+                "shah-i-zinda",
+                "ulugh-beg-observatory"
+              ],
+              "activityTypeName": "Экскурсия",
+              "activityTypeSlug": "excursion"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "Samarkand",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "b3570587-26ec-49b4-92df-7254d1055a58",
+          "day": 6,
+          "city": "",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "САМАРКАНД-ТАШКЕНТ (на поезде) ",
+          "events": [
+            {
+              "id": "a4d8c69d-06b5-4cf0-9ef7-24939957ec85",
+              "city": "",
+              "time": "12:00-13:00",
+              "country": "uzbekistan",
+              "endTime": "13:00",
+              "startTime": "12:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Выселение с отеля. Свободное время. ",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            },
+            {
+              "id": "c1876457-f927-4e5d-a4b4-0809bf5f166a",
+              "city": "",
+              "time": "15:00-17:00",
+              "country": "uzbekistan",
+              "endTime": "17:00",
+              "startTime": "15:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Трансфер на железнодорожный вокзал г. Самарканд. Регистрация на рейс: Самарканд-Ташкент. ",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Программа",
+              "activityTypeSlug": "program"
+            },
+            {
+              "id": "d9fe684d-1818-41ca-bf62-68fefa1b98f5",
+              "city": "",
+              "time": "19:30-21:00",
+              "country": "uzbekistan",
+              "endTime": "21:00",
+              "startTime": "19:30",
+              "activities": [],
+              "attractions": [],
+              "description": "Прибытие в Ташкент.  ",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Программа",
+              "activityTypeSlug": "program"
+            },
+            {
+              "id": "563c8423-39f3-444e-a459-37c86910189d",
+              "city": "",
+              "time": "20:00-22:00",
+              "country": "uzbekistan",
+              "endTime": "22:00",
+              "transfer": {
+                "notes": "",
+                "toCity": "",
+                "duration": "",
+                "fromCity": "",
+                "provider": "",
+                "toCountry": "uzbekistan",
+                "fromCountry": "uzbekistan",
+                "serviceType": "point_to_point",
+                "vehicleType": "",
+                "pricingScope": "single_segment",
+                "rateSourceId": "",
+                "durationSource": "",
+                "transportSubtype": ""
+              },
+              "startTime": "20:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Заселение в отель. Свободное Время. ",
+              "movementMode": "road_transfer",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Tashkent",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "dc662469-d3e2-45fb-9a2d-866a9a569eed",
+          "day": 7,
+          "city": "tashkent",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "ТАШКЕНТ",
+          "events": [
+            {
+              "id": "c83e3113-ded2-469e-8514-31ad85cd4aa6",
+              "city": "tashkent",
+              "time": "10:00-16:00",
+              "country": "uzbekistan",
+              "endTime": "16:00",
+              "startTime": "10:00",
+              "activities": [],
+              "attractions": [
+                {
+                  "city": "tashkent",
+                  "name": "Khast Imam Complex",
+                  "slug": "khast-imam-complex",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 120
+                },
+                {
+                  "city": "tashkent",
+                  "name": "Chorsu Bazaar",
+                  "slug": "chorsu-bazaar",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 90
+                },
+                {
+                  "city": "tashkent",
+                  "name": "Tashkent Metro",
+                  "slug": "tashkent-metro",
+                  "country": "uzbekistan",
+                  "visitDurationMinutes": 30
+                }
+              ],
+              "description": "Добро пожаловать в Ташкент — столицу Узбекистана, город, где Восток встречается с современностью. Здесь начинается наше знакомство с культурным и деловым сердцем страны.",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [
+                "khast-imam-complex",
+                "chorsu-bazaar",
+                "tashkent-metro"
+              ],
+              "activityTypeName": "Экскурсия",
+              "activityTypeSlug": "excursion"
+            },
+            {
+              "id": "b3c19376-0840-49df-b783-e32bb9791ccc",
+              "city": "tashkent",
+              "time": "15:00-17:00",
+              "country": "uzbekistan",
+              "endTime": "17:00",
+              "startTime": "15:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Посещение Армянской церкви  и прогулка по парку TASHKENT CITY. \n\nСвободное время. ",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Программа",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "Samarkand",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "b71da85f-f732-41af-8021-2275d818e3c0",
+          "day": 8,
+          "city": "",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "ТАШКЕНТ-ВЫЛЕТ",
+          "events": [
+            {
+              "id": "9f5011a7-d5b5-43f0-a0cb-e0aeb6de16fe",
+              "city": "",
+              "time": "12:00-13:00",
+              "country": "uzbekistan",
+              "endTime": "13:00",
+              "startTime": "12:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Выселение с отеля. Трансфер в международный аэропорт г. Ташкент. \n\nРегистрация на рейс вылет! ",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "",
+          "overnightCountry": "uzbekistan"
+        }
+      ],
+      "slug": "--copy",
+      "terms": {
+        "serviceNote": "Как организаторы путешествий по Узбекистану, мы понимаем ожидания и принципы работы европейских агентств и путешественников. Гибкость, способность адаптироваться и качество сервиса являются ключевыми ценностями TourLink.\n\nНаш подход к отелям\nМы выбираем отели по уровню комфорта, эстетике, атмосфере и характеру, отдавая предпочтение бутик-отелям. Партнерские отели регулярно проверяются, а при выборе локации мы учитываем близость к центру города или спокойный район для отдыха в крупных городах. Трансферы в крупных городах организуются и включены в наши услуги.\n\nНаш подход к ресторанам\nРестораны подбираются с учетом местных особенностей каждого этапа маршрута. Мы отдаем предпочтение традиционным заведениям и согласовываем меню с ресторанами, чтобы гости познакомились со вкусами каждого региона.\n\nНаш транспортный сервис\nМы предоставляем автомобили с профессиональными водителями и регулярно контролируем качество услуг. Частные гиды тщательно отбираются и проходят периодическую оценку.\n\nКлассические и расширенные путешествия\nКлассические туры охватывают главные города и достопримечательности Узбекистана. Для более длительных поездок мы можем предложить дополнительные маршруты и персональные рекомендации после обсуждения.",
+        "paymentTerms": "- Оплата тура должна быть произведена на банковский счет TourLink не позднее, чем за 40 дней до прибытия туристической группы, в соответствии с выставленным инвойсом.\n- Сроки оплаты могут быть изменены только в том случае, если в подписанном контракте указаны иные условия.\n- Услуги не считаются подтвержденными до тех пор, пока не будут согласованы условия подтверждения и оплаты.",
+        "priceIncludes": "- Проживание в указанных отелях при двухместном размещении (TWIN / DBL).\n- Завтрак в отелях.\n- Минеральная вода, 1 л на человека в день тура.\n- Комфортабельный кондиционированный транспорт с профессиональным водителем по маршруту:\n  - 1-2 чел.: седан, до 5 мест.\n  - 3-7 чел.: минивэн, до 11 мест.\n  - 8-21 чел.: миди-автобус, до 31 места.\n  - 22-36 чел.: автобус, до 43 мест.\n  - 37-46 чел.: большой автобус, до 50 мест.\n- Локальные русскоговорящие гиды для экскурсий в каждом городе.\n- Один сопровождающий бесплатно (+1 FOC) в одноместном номере; \n- Входные билеты на все указанные памятники, за исключением сборов за фото- и видеосъемку.\n- Билеты на поезд:  Ташкент-Бухара, Бухара-Самарканд, Самарканд-Ташкент, эконом класса;",
+        "importantNotes": "- Данное предложение не является подтверждением бронирования.\n- Перед бронированием, пожалуйста, проверьте наличие мест на международные рейсы.\n- Если указанные в программе отели недоступны на дату бронирования, будут предложены другие отели той же категории или альтернативные отели в зависимости от наличия мест.\n- Ранний заезд и поздний выезд не включены, если они четко не указаны в программе. Дополнительные доплаты могут быть предложены после подтверждения клиентом времени международных рейсов.\n- Стандарты отелей в Центральной Азии могут отличаться от европейских стандартов.\n- Внутренние авиарейсы и поезда могут изменять расписание и доступность. Если упомянутый рейс или поезд недоступны, TourLink предложит удобную альтернативу в зависимости от программы тура.\n- Маршрут может быть изменен, если авиакомпании изменят расписание рейсов, дни работы или условия маршрута.\n- Копии паспортов для покупки железнодорожных билетов должны быть предоставлены за 45 дней до тура.\n- Маршрут может быть изменен при изменении расписания железных дорог или дней работы.\n- В зависимости от участка маршрута и необходимого типа транспорта могут использоваться разные автомобили и водители.\n- Если место посещения закрыто для посетителей, оно будет заменено альтернативным. Во время крупных мероприятий проживание может быть изменено и заменено на аналогичную категорию.\n- Бронирование отелей зависит от наличия мест. Бронирование не производится до получения подтверждения от клиента.\n- TourLink не несет ответственности за погодные условия во время маршрута.\n- Чаевые не являются обязательными.",
+        "cancellationTerms": "- Аннуляция за 45 дней и более до прибытия: плата за аннуляцию не взимается.\n- Аннуляция за 44-25 дней до прибытия: удерживается 50% от стоимости тура.\n- Аннуляция за 24-15 дней до прибытия: удерживается 75% от стоимости тура.\n- Аннуляция за 14-0 дней до прибытия: удерживается 100% от стоимости тура.",
+        "priceDoesNotInclude": "- Визовые расходы и оформление.\n- Сборы за фото- и видеосъемку.\n- Полный пансион \n- Международные авиабилеты.\n- Внутренние авиабилеты, если это четко не указано в программе.\n- Билеты на внутренние поезда, если это четко не указано в программе.\n- Дополнительные услуги в фиксированных меню обеда или ужина.\n- Напитки и алкоголь.\n- Услуги портье в отелях, аэропортах и на вокзалах.\n- Туристическая и медицинская страховка.\n- Чаевые и вознаграждения.\n- Личные расходы.\n- Любые услуги, не указанные в разделе включенных услуг.",
+        "availableSupplements": "- Обеды и ужины могут быть добавлены в соответствии с запрошенным планом питания.\n- Ранний заезд и поздний выезд могут быть рассчитаны после получения расписания рейсов.\n- Дополнительные языки гида могут быть предоставлены по запросу.\n- Специальные пропуска, разрешения на приграничные зоны и особые маршрутные разрешения рассчитываются при необходимости по маршруту."
+      },
+      "title": "ЛЕГЕНДЫ ШЕЛКОВОГО ПУТИ  (copy)",
+      "hotels": {
+        "Bukhara": {
+          "city": "Bukhara",
+          "notes": "",
+          "hotel3": "",
+          "hotel4": "Amiran, Mercure Bukhara Old Town, The Tower Hotel Bukhara",
+          "hotel5": "Wyndham Bukhara",
+          "country": "",
+          "hotelsByStar": {
+            "4": "Amiran, Mercure Bukhara Old Town, The Tower Hotel Bukhara",
+            "5": "Wyndham Bukhara"
+          }
+        },
+        "Tashkent": {
+          "city": "Tashkent",
+          "notes": "",
+          "hotel3": "",
+          "hotel4": "Inspira-S, Wyndham Garden Tashkent, Al-Anvar",
+          "hotel5": "Hilton Tashkent City, Hyatt Regency Tashkent, T-City Presidential Hotel",
+          "country": "",
+          "hotelsByStar": {
+            "4": "Inspira-S, Wyndham Garden Tashkent, Al-Anvar",
+            "5": "Hilton Tashkent City, Hyatt Regency Tashkent, T-City Presidential Hotel"
+          }
+        },
+        "Samarkand": {
+          "city": "Samarkand",
+          "notes": "",
+          "hotel3": "",
+          "hotel4": "Kosh Havuz Boutique Hotel, Emir Khan, Medina",
+          "hotel5": "Hilton Samarkand regency, Silk Road by Minyoun, Zarafshon Parkside",
+          "country": "",
+          "hotelsByStar": {
+            "4": "Kosh Havuz Boutique Hotel, Emir Khan, Medina",
+            "5": "Hilton Samarkand regency, Silk Road by Minyoun, Zarafshon Parkside"
+          }
+        }
+      },
+      "pricing": {
+        "mode": "matrix",
+        "matrix": [
+          {
+            "note": "DBL/TWIN",
+            "star3": "",
+            "star4": "1080",
+            "star5": "1716",
+            "groupSize": "10+1",
+            "pricesByStar": {
+              "4": "1080",
+              "5": "1716"
+            }
+          },
+          {
+            "note": "DBL/TWIN",
+            "star3": "",
+            "star4": "970",
+            "star5": "1576",
+            "groupSize": "15+1",
+            "pricesByStar": {
+              "4": "970",
+              "5": "1576"
+            }
+          },
+          {
+            "note": "DBL/TWIN",
+            "star3": "",
+            "star4": "937",
+            "star5": "1530",
+            "groupSize": "20+1",
+            "pricesByStar": {
+              "4": "937",
+              "5": "1530"
+            }
+          },
+          {
+            "note": "TRPL",
+            "star3": "",
+            "star4": "991",
+            "star5": "1540",
+            "groupSize": "10+1",
+            "pricesByStar": {
+              "4": "991",
+              "5": "1540"
+            }
+          },
+          {
+            "note": "TRPL",
+            "star3": "",
+            "star4": "884",
+            "star5": "1404",
+            "groupSize": "15+1",
+            "pricesByStar": {
+              "4": "884",
+              "5": "1404"
+            }
+          },
+          {
+            "note": "TRPL",
+            "star3": "",
+            "star4": "852",
+            "star5": "1360",
+            "groupSize": "20+1",
+            "pricesByStar": {
+              "4": "852",
+              "5": "1360"
+            }
+          }
+        ],
+        "fixedPerPerson": {
+          "amount": "",
+          "groupSize": "",
+          "hotelCategory": "4_star"
+        },
+        "singleSupplement": {
+          "star3": "",
+          "star4": "240",
+          "star5": "675",
+          "byStar": {
+            "4": "240",
+            "5": "675"
+          }
+        }
+      },
+      "currency": "USD",
+      "services": {
+        "segments": [
+          {
+            "to": "Бухара",
+            "from": "Ташкент",
+            "note": "",
+            "type": "flight",
+            "price": "70",
+            "className": "эконом"
+          }
+        ],
+        "usesRail": false,
+        "lunchCost": "",
+        "mealNotes": "",
+        "dinnerCost": "",
+        "usesFlight": true,
+        "fullBoardPossible": false,
+        "additionalServices": [],
+        "usesAdditionalServices": false
+      },
+      "tourType": "group",
+      "routeMode": "single_country",
+      "difficulty": "moderate",
+      "salesOwner": "Odina Karaxodjaeva",
+      "contactInfo": {
+        "email": "russian@tourlink.uz",
+        "phone": "+998977751555",
+        "address": "Ankhor Buyi 6, Tashkent 100011, Uzbekistan",
+        "website": "www.tourlink.uz",
+        "director": "Sodik BEGMATOV",
+        "agencyName": "TourLink DMC"
+      },
+      "description": "ТАШКЕНТ-БУХАРА-САМАРКАНД-ТАШКЕНТ",
+      "durationDays": 8,
+      "isGuaranteed": true,
+      "clientLanguage": "ru",
+      "departureDates": [],
+      "durationNights": 7,
+      "primaryCountry": "uzbekistan",
+      "validityPeriod": "СЕНТЯБРЬ-ОКТЯБРЬ",
+      "selectedHotelStars": [
+        "4",
+        "5"
+      ]
+    },
+    "hasCoverImage": false
+  }
+}

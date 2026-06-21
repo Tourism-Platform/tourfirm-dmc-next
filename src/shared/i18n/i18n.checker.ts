@@ -1,4 +1,7 @@
+import bookingTourModalRu from "../../../messages/ru/booking_tour_modal.json";
 import catalogPageRu from "../../../messages/ru/catalog_page.json";
+import catalogTourOptionPageRu from "../../../messages/ru/catalog_tour_option_page.json";
+import catalogTourPageRu from "../../../messages/ru/catalog_tour_page.json";
 import commonRu from "../../../messages/ru/common.json";
 import companyAboutPageRu from "../../../messages/ru/company_about_page.json";
 import companyFeedbackPageRu from "../../../messages/ru/company_feedback_page.json";
@@ -19,9 +22,14 @@ import legalCookiesPageRu from "../../../messages/ru/legal_cookies_page.json";
 import legalPrivacyPageRu from "../../../messages/ru/legal_privacy_page.json";
 import legalTermsPageRu from "../../../messages/ru/legal_terms_page.json";
 import mainPageRu from "../../../messages/ru/main_page.json";
+import optionsRu from "../../../messages/ru/options.json";
 import partnersAgenciesPageRu from "../../../messages/ru/partners_agencies_page.json";
 import partnersHotelsPageRu from "../../../messages/ru/partners_hotels_page.json";
+import searchPageRu from "../../../messages/ru/search_page.json";
+import bookingTourModalUz from "../../../messages/uz/booking_tour_modal.json";
 import catalogPageUz from "../../../messages/uz/catalog_page.json";
+import catalogTourOptionPageUz from "../../../messages/uz/catalog_tour_option_page.json";
+import catalogTourPageUz from "../../../messages/uz/catalog_tour_page.json";
 import commonUz from "../../../messages/uz/common.json";
 import companyAboutPageUz from "../../../messages/uz/company_about_page.json";
 import companyFeedbackPageUz from "../../../messages/uz/company_feedback_page.json";
@@ -42,8 +50,10 @@ import legalCookiesPageUz from "../../../messages/uz/legal_cookies_page.json";
 import legalPrivacyPageUz from "../../../messages/uz/legal_privacy_page.json";
 import legalTermsPageUz from "../../../messages/uz/legal_terms_page.json";
 import mainPageUz from "../../../messages/uz/main_page.json";
+import optionsUz from "../../../messages/uz/options.json";
 import partnersAgenciesPageUz from "../../../messages/uz/partners_agencies_page.json";
 import partnersHotelsPageUz from "../../../messages/uz/partners_hotels_page.json";
+import searchPageUz from "../../../messages/uz/search_page.json";
 
 import type { TResources } from "./i18n.config";
 
@@ -54,6 +64,10 @@ export const RU_TRANSLATION_CHECKER: TResources = {
 	main_page: mainPageRu,
 	destinations_page: destinationsPageRu,
 	catalog_page: catalogPageRu,
+	search_page: searchPageRu,
+	catalog_tour_page: catalogTourPageRu,
+	catalog_tour_option_page: catalogTourOptionPageRu,
+	options: optionsRu,
 	partners_agencies_page: partnersAgenciesPageRu,
 	partners_hotels_page: partnersHotelsPageRu,
 	company_about_page: companyAboutPageRu,
@@ -66,6 +80,7 @@ export const RU_TRANSLATION_CHECKER: TResources = {
 	legal_cookies_page: legalCookiesPageRu,
 	legal_cancellation_page: legalCancellationPageRu,
 	legal_booking_page: legalBookingPageRu,
+	booking_tour_modal: bookingTourModalRu,
 	help_support_page: helpSupportPageRu,
 	help_contact_page: helpContactPageRu,
 	help_faq_page: helpFaqPageRu,
@@ -80,6 +95,10 @@ export const UZ_TRANSLATION_CHECKER: TResources = {
 	main_page: mainPageUz,
 	destinations_page: destinationsPageUz,
 	catalog_page: catalogPageUz,
+	search_page: searchPageUz,
+	catalog_tour_page: catalogTourPageUz,
+	catalog_tour_option_page: catalogTourOptionPageUz,
+	options: optionsUz,
 	partners_agencies_page: partnersAgenciesPageUz,
 	partners_hotels_page: partnersHotelsPageUz,
 	company_about_page: companyAboutPageUz,
@@ -92,6 +111,7 @@ export const UZ_TRANSLATION_CHECKER: TResources = {
 	legal_cookies_page: legalCookiesPageUz,
 	legal_cancellation_page: legalCancellationPageUz,
 	legal_booking_page: legalBookingPageUz,
+	booking_tour_modal: bookingTourModalUz,
 	help_support_page: helpSupportPageUz,
 	help_contact_page: helpContactPageUz,
 	help_faq_page: helpFaqPageUz,

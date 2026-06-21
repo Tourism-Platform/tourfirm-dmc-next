@@ -19,6 +19,8 @@ import {
 	useGetPopularToursQuery
 } from "@/entities/tour";
 
+import { BookTourModal } from "@/features/booking/book-tour";
+
 const MostPopularToursBase: FC = () => {
 	const t = useTranslations("catalog_page");
 	const { data, isLoading, isError } = useGetPopularToursQuery();
@@ -49,7 +51,17 @@ const MostPopularToursBase: FC = () => {
 									key={tour.id}
 									className="basis-full pl-3 sm:basis-1/2 sm:pl-4 lg:basis-1/4"
 								>
-									<CatalogTourCard data={tour} />
+									<CatalogTourCard
+										data={tour}
+										action={
+											<BookTourModal
+												tour={{
+													id: tour.id,
+													title: tour.title
+												}}
+											/>
+										}
+									/>
 								</CarouselItem>
 							))}
 				</CarouselContent>

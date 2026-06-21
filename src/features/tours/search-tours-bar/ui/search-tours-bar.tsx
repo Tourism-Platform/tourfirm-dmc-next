@@ -59,7 +59,7 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 
 	const onSubmit = (data: TSearchTours) => {
 		const route = buildRouteWithQuery(
-			ENUM_PATH.MAIN.CATALOG,
+			ENUM_PATH.MAIN.SEARCH,
 			mapSearchToursToCatalogQuery(data)
 		);
 		router.push(route);

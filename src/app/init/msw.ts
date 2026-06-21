@@ -1,5 +1,5 @@
 import { setupWorker } from "msw/browser";
 
-import { tourCatalogHandlers } from "@/entities/tour/catalog/handlers";
+import { tourCatalogHandlersAll } from "@/entities/tour/catalog/handlers";
 
-export const worker = setupWorker(...tourCatalogHandlers);
+export const worker = setupWorker(...tourCatalogHandlersAll);

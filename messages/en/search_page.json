@@ -1,0 +1,38 @@
+{
+	"meta": {
+		"title": "Search tours | TourLink",
+		"description": "Find tailor-made tours by destination, dates and preferences with TourLink."
+	},
+	"header": {
+		"found": "{count, plural, one {# tour found} other {# tours found}}"
+	},
+	"search": {
+		"placeholder": "Search by tour name..."
+	},
+	"toasts": {
+		"load": {
+			"error": "Failed to load tours"
+		}
+	},
+	"alert": {
+		"title": "Similar options:",
+		"description": "These options match your search criteria but are outside the dates you specified."
+	},
+	"pagination": {
+		"previous": "Previous",
+		"next": "Next"
+	},
+	"filters": {
+		"title": "Filters",
+		"fields": {
+			"price": "Price",
+			"region": "Region",
+			"duration": "Duration",
+			"language": "Language",
+			"category": "Category"
+		},
+		"buttons": {
+			"reset": "Reset"
+		}
+	}
+}

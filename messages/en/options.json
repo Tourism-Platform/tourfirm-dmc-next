@@ -1,0 +1,209 @@
+{
+	"commission": {
+		"fixed": "Fixed amount",
+		"percentage": "Percentage of total price",
+		"partner": "Partner commission",
+		"platform": "Platform commission",
+		"service_fee": "Service fee"
+	},
+	"staff": {
+		"statuses": {
+			"active": "Active",
+			"inactive": "Inactive",
+			"pending": "Pending"
+		}
+	},
+	"tour": {
+		"languages": {
+			"english": "English",
+			"russian": "Russian",
+			"spanish": "Spanish",
+			"italian": "Italian",
+			"french": "French",
+			"chinese": "Chinese",
+			"japanese": "Japanese",
+			"uzbek": "Uzbek",
+			"portuguese": "Portuguese"
+		},
+		"duration": {
+			"days": "days",
+			"nights": "nights"
+		},
+		"catalogDurations": {
+			"half_day": "Half-day (0–1 day)",
+			"full_day": "Full day (1 day)",
+			"multi_days": "Multi days (2–15 days)"
+		},
+		"statuses": {
+			"all": "All",
+			"active": "Active",
+			"moderate": "Moderate",
+			"planning": "Planning",
+			"cancelled": "Cancelled",
+			"archived": "Archived",
+			"draft": "Drafts",
+			"published": "Published"
+		},
+		"tourTypes": {
+			"private": "Private",
+			"group": "Group"
+		},
+		"tourCategories": {
+			"cultural_historical": "Cultural & Historical",
+			"religious_spiritual": "Religious & Spiritual",
+			"archaeological": "Archaeological",
+			"adventure_outdoor": "Adventure & Outdoor",
+			"eco_nature": "Eco & Nature",
+			"hiking_trekking": "Hiking & Trekking",
+			"city_tour": "City Tour",
+			"gastronomy_culinary": "Gastronomy & Culinary",
+			"photography_creative": "Photography & Creative",
+			"educational": "Educational",
+			"master_class_workshop": "Master Class & Workshop",
+			"wellness_spa": "Wellness & Spa",
+			"yoga_meditation": "Yoga & Meditation",
+			"business_mice": "Business & MICE",
+			"family_kids": "Family & Kids",
+			"multi_destination": "Multi-destination"
+		},
+		"visibility": {
+			"show_from": "Show price 'from'",
+			"show_exact": "Show exact price",
+			"hide": "Hide price"
+		},
+		"pickup": {
+			"airport": "Airport pickup",
+			"hotel": "Hotel pickup"
+		},
+		"amenities": {
+			"professional_guide": "Professional guide",
+			"hotel_accommodation": "Hotel accommodation",
+			"breakfast": "Breakfast",
+			"lunch": "Lunch",
+			"dinner": "Dinner",
+			"airport_transfer": "Airport transfer",
+			"entrance_fees": "Entrance fees",
+			"travel_insurance": "Travel insurance",
+			"transportation": "Transportation",
+			"bottled_water": "Bottled water",
+			"wifi_on_board": "Wi-Fi on board",
+			"air_conditioning": "Air conditioning",
+			"luggage_handling": "Luggage handling",
+			"support_24_7": "24/7 support",
+			"international_flights": "International flights",
+			"visa_fees": "Visa fees",
+			"personal_expenses": "Personal expenses",
+			"tips_gratuities": "Tips and gratuities",
+			"camera_video_fees": "Camera/video fees",
+			"optional_activities": "Optional activities",
+			"alcoholic_beverages": "Alcoholic beverages",
+			"souvenirs": "Souvenirs",
+			"extra_meals": "Extra meals",
+			"room_service": "Room service",
+			"laundry_service": "Laundry service",
+			"phone_calls": "Phone calls",
+			"medical_expenses": "Medical expenses"
+		},
+		"vehicleBodyTypes": {
+			"sedan": "Sedan",
+			"suv": "SUV",
+			"minivan": "Minivan",
+			"minibus": "Minibus",
+			"minibus_plus": "Minibus Plus",
+			"bus": "Bus",
+			"coach": "Coach"
+		},
+		"transferTypes": {
+			"city_tour": "City tour",
+			"city_transfer": "City transfer",
+			"intercity_transfer": "Intercity transfer",
+			"airport_transfer": "Airport transfer",
+			"station_transfer": "Station transfer",
+			"custom": "Custom"
+		},
+		"activityTypes": {
+			"food": "Restaurants, cafes, teahouses, and street food",
+			"master_class": "Any workshop or master class (cooking, ceramics, weaving, calligraphy)",
+			"sightseeing": "Museums, monuments, mosques, mausoleums, and bazaars",
+			"outdoor": "Hiking, trekking, camping, and safari tours",
+			"riding": "Horseback, camel, and cycling activities",
+			"extreme": "Rafting, rock climbing, and ziplining",
+			"wellness": "Hammam, spa, yoga, and meditation",
+			"entertainment": "Shows, theater, concerts, and festivals",
+			"water_activities": "Boating, jet skiing, and fishing",
+			"photography": "Photo walks",
+			"spiritual": "Pilgrimage and religious sites"
+		}
+	},
+	"user": {
+		"business": {
+			"types": {
+				"tour_operator": "Tour operator",
+				"agency": "Agency"
+			}
+		}
+	},
+	"finance": {
+		"invoice": {
+			"statuses": {
+				"draft": "Draft",
+				"sent": "Sent",
+				"partial": "Partially paid",
+				"paid": "Paid",
+				"overdue": "Overdue",
+				"cancelled": "Cancelled"
+			}
+		},
+		"client_payment": {
+			"statuses": {
+				"assigned": "Assigned",
+				"not_assigned": "Not Assigned"
+			}
+		},
+		"supplier_payment": {
+			"statuses": {
+				"recorded": "Recorded",
+				"confirmed": "Confirmed"
+			}
+		},
+		"reconciliation": {
+			"statuses": {
+				"in_progress": "In progress",
+				"completed": "Completed"
+			}
+		},
+		"payment_methods": {
+			"classic_swift": "Classic SWIFT",
+			"wise": "WISE"
+		}
+	},
+	"booking": {
+		"order": {
+			"statuses": {
+				"new": "New",
+				"in_processing": "In processing",
+				"booking": "Booking",
+				"in_progress": "In progress",
+				"completed": "Completed",
+				"cancelled": "Cancelled"
+			},
+			"types": {
+				"regular": "Regular",
+				"vip": "VIP",
+				"group": "Group"
+			},
+			"client_types": {
+				"agency": "Agency",
+				"direct": "Direct",
+				"corporate": "Corporate"
+			},
+			"supplier_payment": {
+				"statuses": {
+					"booked": "Booked",
+					"recorded": "Recorded",
+					"not_booked": "Not booked"
+				}
+			}
+		}
+	}
+}

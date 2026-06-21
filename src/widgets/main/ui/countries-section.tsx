@@ -31,7 +31,7 @@ export async function CountriesSection() {
 					<CountryCard
 						key={country.id}
 						data={{
-							href: buildRouteWithQuery(ENUM_PATH.MAIN.CATALOG, {
+							href: buildRouteWithQuery(ENUM_PATH.MAIN.SEARCH, {
 								destination: country.catalogDestination
 							}),
 							imageUrl: country.imageUrl,

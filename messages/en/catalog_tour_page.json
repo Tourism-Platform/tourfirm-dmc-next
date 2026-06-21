@@ -1,0 +1,82 @@
+{
+	"meta": {
+		"title": "Tour preview | TourLink",
+		"description": "Explore tour details, itinerary, pricing and book your trip with TourLink."
+	},
+	"page_name": "Tour Preview",
+	"back": "Back to catalogue",
+	"not_found": "Tour not found",
+	"book_now": "Book now",
+	"hero": {
+		"duration": {
+			"days": "{count, plural, one {# day} other {# days}}",
+			"nights": "{count, plural, one {# night} other {# nights}}"
+		},
+		"group_size": {
+			"persons": "{count, plural, one {# person} other {# persons}}"
+		},
+		"age_no_restrictions": "No age restrictions",
+		"age_requires_from": "From {from} years old",
+		"age_requires_to": "Up to {to} years old",
+		"age_requires_range": "{from}–{to} years old"
+	},
+	"sections": {
+		"overview": {
+			"title": "Overview"
+		},
+		"cities": {
+			"label": "Cities"
+		},
+		"languages": {
+			"label": "Languages"
+		},
+		"included": {
+			"title": "What's Included"
+		},
+		"not_included": {
+			"title": "What's not Included"
+		},
+		"meeting_pickup": {
+			"title": "Meeting And Pickup",
+			"start": "Start",
+			"pickup_details": "Pickup details",
+			"end_point": "End point"
+		},
+		"cancellation": {
+			"title": "Cancellation policy"
+		},
+		"additional_info": {
+			"title": "Additional information"
+		},
+		"itinerary": {
+			"title": "Itinerary",
+			"subtitle": "Two ways to experience this tour. Choose the package that fits — they share the same route but differ in accommodation tier, dining and exclusive activities.",
+			"card": {
+				"from": "From",
+				"per_person": "per person",
+				"price_depends": "The price depends on the number of people",
+				"view_itinerary": "View itinerary",
+				"day": "Day",
+				"read_more": "Read more",
+				"book_package": "Book this package"
+			}
+		}
+	},
+	"provider": {
+		"title": "Provider",
+		"additional_info": "Additional information"
+	},
+	"tabs": {
+		"tour_information": "Tour information",
+		"full_itinerary": "Full itinerary",
+		"pricing": "Pricing"
+	},
+	"toasts": {
+		"load": {
+			"error": "Failed to load preview data"
+		},
+		"option": {
+			"error": "Failed to load package details"
+		}
+	}
+}

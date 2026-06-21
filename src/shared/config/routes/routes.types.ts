@@ -1,6 +1,8 @@
 import { ENUM_PATH } from "./routes.config";
 
-export type TMainPath = (typeof ENUM_PATH.MAIN)[keyof typeof ENUM_PATH.MAIN];
+export type TMainPath =
+	| (typeof ENUM_PATH.MAIN)[Exclude<keyof typeof ENUM_PATH.MAIN, "CATALOG">]
+	| (typeof ENUM_PATH.MAIN.CATALOG)[keyof typeof ENUM_PATH.MAIN.CATALOG];
 export type TPartnersPath =
 	(typeof ENUM_PATH.PARTNERS)[keyof typeof ENUM_PATH.PARTNERS];
 export type TCompanyPath =
@@ -16,7 +18,14 @@ export type ENUM_PATH_TYPE =
 	| THelpPath;
 
 export type TQueryParams = {
-	[ENUM_PATH.MAIN.CATALOG]: {
+	[ENUM_PATH.MAIN.SEARCH]: {
+		destination?: string;
+		checkIn?: string;
+		checkOut?: string;
+		search?: string;
+		page?: number;
+	};
+	[ENUM_PATH.MAIN.CATALOG.ROOT]: {
 		destination?: string;
 		checkIn?: string;
 		checkOut?: string;

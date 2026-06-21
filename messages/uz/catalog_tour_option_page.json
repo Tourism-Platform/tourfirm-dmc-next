@@ -1,0 +1,56 @@
+{
+	"meta": {
+		"title": "Package preview | TourLink",
+		"description": "View full itinerary, pricing breakdown and package details for this tour."
+	},
+	"page_name": "Option Preview",
+	"back": "Back to tour",
+	"day": {
+		"title": "Day {{n}}"
+	},
+	"sections": {
+		"option": {
+			"day": "Day",
+			"view_details": "View details",
+			"details": "Details",
+			"one_of_them": "(One of them)",
+			"read_more": "Read more"
+		}
+	},
+	"tabs": {
+		"tour_information": "Tour information",
+		"full_itinerary": "Full itinerary",
+		"pricing": "Pricing"
+	},
+	"sheet": {
+		"pickup_info": "Pickup info",
+		"pickup": "Pickup",
+		"dropoff": "Drop-off",
+		"to": "to",
+		"amenities": "Amenities",
+		"schedule_info": "Schedule info",
+		"nights": "Nights",
+		"check_in": "Check in",
+		"check_out": "Check out",
+		"activity_info": "Activity info",
+		"location": "Location",
+		"start_time": "Start time",
+		"end_time": "End time",
+		"flight_info": "Flight information"
+	},
+	"pricing": {
+		"title": "Pricing Breakdown",
+		"total_price": "Total price",
+		"est_cost": "Est. per person cost",
+		"details": "Details",
+		"accomodation": "Accomodation",
+		"activity": "Activity",
+		"transportation": "Transportation",
+		"transfer": "Transfer"
+	},
+	"toasts": {
+		"load": {
+			"error": "Failed to load tour data"
+		}
+	}
+}

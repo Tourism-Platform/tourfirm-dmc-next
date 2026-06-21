@@ -1,0 +1,561 @@
+{
+  "package": {
+    "id": "d8b6c1c6-ac69-4e84-a40d-4f1238996dbd",
+    "createdAt": "2026-06-07T14:49:40.388+00:00",
+    "updatedAt": "2026-06-10T10:29:33.177+00:00",
+    "data": {
+      "days": [
+        {
+          "id": "d7087b86-d0c4-44db-ad52-161bf1f7c5b3",
+          "day": 1,
+          "city": "tashkent",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Tashkent - Samarkand by morning train",
+          "events": [
+            {
+              "id": "41577222-a547-4c0f-aff2-590065f477df",
+              "city": "tashkent",
+              "time": "07:30",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "07:30",
+              "activities": [],
+              "attractions": [],
+              "description": "Meet the driver at the hotel entrance.\nTransfer to the railway station.",
+              "movementMode": "sightseeing",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Excursion",
+              "activityTypeSlug": "excursion"
+            },
+            {
+              "id": "57d526db-0e13-4f2f-96d9-55d878ac20bb",
+              "city": "samarkand",
+              "time": "8:30-10:49",
+              "country": "uzbekistan",
+              "endTime": "10:49",
+              "startTime": "08:30",
+              "activities": [],
+              "attractions": [],
+              "description": "Transfer to Samarkand by a high-speed train.\n* please note that the departure time is not guaranteed and can be changed",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            },
+            {
+              "id": "bec995a1-15b7-482f-afb4-550ae5fea6b6",
+              "city": "samarkand",
+              "time": "11:00-13:00",
+              "country": "uzbekistan",
+              "endTime": "13:00",
+              "startTime": "11:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Visiting the magnificent Gur-e-Amir Mausoleum (14th–15th centuries), the final resting place of the great Amir Temur (Tamerlane). Built during the Timurid era, this architectural masterpiece continues to captivate visitors from around the world with its elegance, grandeur, and stunning blue dome.\nExploring the world-famous Registan Square (15th–17th centuries), the true heart of ancient Samarkand, surrounded by the majestic Ulugbek, Tillakori, and Sherdor madrasahs — some of the finest examples of Islamic architecture in the world.",
+              "movementMode": "walking_tour",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Walking Tour",
+              "activityTypeSlug": "walking_tour"
+            },
+            {
+              "id": "ebabd8db-52a7-4a11-be3d-8623cb626726",
+              "city": "samarkand",
+              "time": "13:30-14:30",
+              "country": "uzbekistan",
+              "endTime": "14:30",
+              "startTime": "13:30",
+              "activities": [],
+              "attractions": [],
+              "description": "Lunch time (not included)",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            },
+            {
+              "id": "d93a34f7-fbe3-4de8-88e6-f7fa4f64bb5f",
+              "city": "samarkand",
+              "time": "15:00-18:00",
+              "country": "uzbekistan",
+              "endTime": "18:00",
+              "startTime": "15:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Discovering the mystical beauty of the Shah-i-Zinda Necropolis, a sacred complex of beautifully decorated mausoleums known for its dazzling mosaics and spiritual significance.\nAdmiring the impressive Bibi-Khanym Mosque (14th–15th centuries), once one of the grandest mosques in the Islamic world and a symbol of Amir Temur’s powerful empire.\nEnjoying free time at Siyob Bazaar, the city’s most famous local market, where you can experience authentic Uzbek culture, taste traditional sweets and fresh fruits, and shop for unique souvenirs and spices.",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            },
+            {
+              "id": "0b7b4fe4-c23b-472d-89a0-c24a0c0b9ad6",
+              "city": "samarkand",
+              "time": "17:30-18:00",
+              "country": "uzbekistan",
+              "endTime": "18:00",
+              "startTime": "17:30",
+              "activities": [],
+              "attractions": [],
+              "description": "Return to the hotel. Rest and overnight",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            },
+            {
+              "id": "8e7bbeeb-6fc6-4b45-a64d-5c8411e95b86",
+              "city": "samarkand",
+              "time": "13:00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "13:00",
+              "activities": [],
+              "attractions": [],
+              "description": "",
+              "hotelAction": "check_out",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Hotel Check-in/out",
+              "activityTypeSlug": "hotel_status"
+            },
+            {
+              "id": "60a76768-a8d7-4053-a0a8-432675eb697f",
+              "city": "samarkand",
+              "time": "",
+              "country": "kyrgyzstan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Program",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "walking"
+          ],
+          "overnightCity": "Samarkand",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "31912149-e946-4bf3-a3bb-07928ba17739",
+          "day": 2,
+          "city": "",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "",
+          "events": [
+            {
+              "id": "cd1d4550-23be-4829-bf42-3622ac036c60",
+              "city": "",
+              "time": "",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "",
+          "overnightCountry": ""
+        },
+        {
+          "id": "d93eb523-5abe-4dff-abb6-316341ce399a",
+          "day": 3,
+          "city": "",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "",
+          "events": [
+            {
+              "id": "ed8c6029-4327-40c4-97c1-7c1af4a4d77f",
+              "city": "",
+              "time": "",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "",
+          "overnightCountry": ""
+        },
+        {
+          "id": "9916d0bc-de29-444c-b6e9-c189c5cc9ba7",
+          "day": 4,
+          "city": "",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "",
+          "events": [
+            {
+              "id": "9de4e3ce-ce95-4c39-9611-d2f456d40ba4",
+              "city": "",
+              "time": "",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "",
+          "overnightCountry": ""
+        },
+        {
+          "id": "1c8f4c62-624f-4a03-8d7d-91609600dd23",
+          "day": 5,
+          "city": "",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "",
+          "events": [
+            {
+              "id": "07bbc244-d550-4f99-bfde-1262dc04075b",
+              "city": "",
+              "time": "",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "",
+          "overnightCountry": ""
+        },
+        {
+          "id": "5478bb13-5159-49f3-bcbc-822ae13c4b0d",
+          "day": 6,
+          "city": "",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "",
+          "events": [
+            {
+              "id": "4dd27ceb-ffd3-4d65-8592-6c5fd24e8f41",
+              "city": "",
+              "time": "",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "",
+          "overnightCountry": ""
+        },
+        {
+          "id": "33c804e3-8324-4a88-991a-3bb942df1fdb",
+          "day": 7,
+          "city": "",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "",
+          "events": [
+            {
+              "id": "3e5c99a8-9db6-4e01-8d21-d4cd90a5f2df",
+              "city": "",
+              "time": "",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [],
+          "overnightCity": "",
+          "overnightCountry": ""
+        },
+        {
+          "id": "e4117f5c-851b-4b8d-beae-c6555dd5c868",
+          "day": 8,
+          "city": "khiva",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Khiva (full day)",
+          "events": [
+            {
+              "id": "44d58680-889a-477f-ad46-267f591d2297",
+              "city": "khiva",
+              "time": "9:00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "09:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Meet the guide at the hotel and proceed to explore Khiva.",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            },
+            {
+              "id": "8778793f-4b12-4821-babd-5f931b59d36b",
+              "city": "khiva",
+              "time": "9:00-14:00",
+              "country": "uzbekistan",
+              "endTime": "14:00",
+              "startTime": "09:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Sightseeing in Khiva includes:\nMuhammad Amin Khan Madrasa and the iconic Kalta Minor Minaret — one of the city’s most recognizable landmarks with its striking turquoise facade.\nKunya-Ark Fortress — the ancient citadel that once served as the residence of Khiva’s rulers, offering stunning views over the old city.\nMuhammad Rahim Khan Madrasa — a beautiful 19th-century educational center reflecting Khiva’s cultural and scholarly heritage.\nJuma Mosque (Khiva) — a unique wooden-column mosque known for its peaceful atmosphere and remarkable architectural design.\nTash Khovli Palace and the Khan’s Harem — a beautifully decorated royal residence showcasing traditional Khorezm architecture. (Approx. visit time: 40–50 minutes)\nOllaquli Khan Caravanserai — a historic trading hub that once welcomed Silk Road merchants. (Approx. visit time: 20–30 minutes)\nIslam Khodja Complex — including the elegant madrasah and the tallest minaret in Khiva, offering stunning views of the old city. (Approx. visit time: 40–60 minutes)\nPahlavon Mahmud Mausoleum — a sacred and beautifully tiled complex dedicated to the city’s patron saint. (Approx. visit time: 30–40 minutes)\nLocal Bazaar — a vibrant market where you can experience authentic Khivan life, shop for souvenirs, and enjoy local crafts. (Approx. visit time: 30–45 minutes)",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            },
+            {
+              "id": "a943c2ff-d2e5-43ad-a0f7-ef5146aece05",
+              "city": "khiva",
+              "time": "13:00",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "13:00",
+              "activities": [],
+              "attractions": [],
+              "description": "Free afternoon.",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "Handicraft Class",
+              "activityTypeSlug": "handicraft_class"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road",
+            "walking"
+          ],
+          "overnightCity": "Khiva",
+          "overnightCountry": "uzbekistan"
+        }
+      ],
+      "slug": "discover-the-magic-of-uzbekistan-8d-private-copy",
+      "terms": {
+        "serviceNote": "As travel organizers in Uzbekistan, we work with European agencies and travelers with a clear understanding of their expectations and operating standards. Flexibility, adaptability and service quality are central values for TourLink.\n\nOur approach to hotels\nWe select hotels according to comfort, aesthetics, atmosphere and charm, with a preference for boutique properties. Our partner hotels are reviewed regularly, and we prioritize locations close to city centers or quiet areas suitable for rest in larger cities. Transfers in large cities are organized and included in our services.\n\nOur approach to restaurants\nRestaurants are selected according to the local character of each stop. We favor traditional establishments and coordinate menus with restaurant teams so travelers can discover the flavors of each region.\n\nOur transport service\nWe provide vehicles with professional drivers and maintain regular quality control. Private guides are selected carefully and evaluated frequently to keep service standards high.\n\nClassic and extended travel\nClassic tours cover the main highlights of Uzbekistan. For longer stays, we can propose additional routes and personalized suggestions after our exchange.",
+        "paymentTerms": "- Tour payment should be made to the TourLink bank account no later than 40 days before tourist group arrival, according to the issued invoice.\n- Payment timing can be adjusted only if a signed contract states different terms.\n- Services are not treated as confirmed until confirmation and payment conditions are agreed.",
+        "priceIncludes": "- Accommodation in the mentioned hotels in TWIN / DBL sharing.\n- Breakfast at the hotels.\n- Mineral water, 1 L per person per tour day.\n- A/C comfortable transport with a professional driver according to the itinerary:\n  - 1-2 pax: sedan, up to 5 seats.\n  - 3-7 pax: van, up to 11 seats.\n  - 8-21 pax: midi bus, up to 31 seats.\n  - 22-36 pax: bus, up to 43 seats.\n  - 37-46 pax: big bus, up to 50 seats.\n- English-speaking escort guide from group arrival to departure for groups from 10 pax.\n- English-speaking local guide for excursions for groups of 1-9 pax.\n- One tour leader (+1 FOC) in a single room free of charge; domestic flight and train tickets are not included.\n- Entrance fees for all mentioned monuments, except photo and video charges.",
+        "importantNotes": "- This offer is not a reservation confirmation.\n- Before booking, please check international flight seat availability.\n- If the hotels indicated in the program are not available on the reservation date, other hotels of the same category or an optional hotel will be offered according to availability.\n- Early arrivals and late departures are not included unless they are clearly indicated in the program. Additional supplements can be offered after the client confirms international flight timings.\n- Central Asian hotel standards may differ from European hotel standards.\n- Domestic flights and trains are subject to timing and availability changes. If a mentioned flight or train is not available, TourLink will offer a convenient alternative depending on the tour program.\n- The itinerary is subject to alterations if airlines change flight schedules, days of operation or route conditions.\n- Passport copies for train tickets must be provided 45 days before the tour.\n- The itinerary is subject to alterations if railway schedules or days of operation change.\n- Different vehicles and drivers may be used during the tour depending on the route section and transport type needed for that section.\n- If a place of visit is closed to visitors, it will be replaced with an alternative. During major events, accommodation may be changed and replaced with a similar category.\n- Hotel usage is subject to availability. No reservations are made before confirmation is received from the client.\n- TourLink is not responsible for weather conditions during the route.\n- Tips are not mandatory.",
+        "cancellationTerms": "- Cancellation 45 days or more before arrival: no cancellation charge applies.\n- Cancellation 44-25 days before arrival: 50% of the tour price.\n- Cancellation 24-15 days before arrival: 75% of the tour price.\n- Cancellation 14-0 days before arrival: 100% of the tour price.",
+        "priceDoesNotInclude": "- Visa costs and processing.\n- Photo and video charges.\n- Full board, available as a supplement from 10 pax.\n- International flight tickets.\n- Domestic flight tickets, unless clearly included in the program.\n- Domestic train tickets, unless clearly included in the program.\n- Extras in fixed lunch or dinner menus.\n- Beverages and alcoholic drinks.\n- Porterage at hotels, airports and train stations.\n- Travel and medical insurance.\n- Tips and gratuities.\n- Personal expenses.\n- Any services not listed in the included services section.",
+        "availableSupplements": "- Lunches and dinners can be added according to the requested meal plan.\n- Early check-in and late check-out can be quoted after flight timings are known.\n- Additional guide languages can be quoted on request.\n- Special permits, border-zone permissions and route-specific permissions are quoted when required by the itinerary."
+      },
+      "title": "Discover the Magic of Uzbekistan, 8 days (Private) (copy)",
+      "hotels": {},
+      "pricing": {
+        "mode": "matrix",
+        "matrix": [
+          {
+            "note": "",
+            "star3": "1861",
+            "star4": "2072",
+            "star5": "",
+            "groupSize": "1"
+          },
+          {
+            "note": "",
+            "star3": "1100",
+            "star4": "1227",
+            "star5": "",
+            "groupSize": "2-3"
+          },
+          {
+            "note": "",
+            "star3": "919",
+            "star4": "1049",
+            "star5": "",
+            "groupSize": "4-5"
+          },
+          {
+            "note": "",
+            "star3": "820",
+            "star4": "951",
+            "star5": "",
+            "groupSize": "6-7"
+          },
+          {
+            "note": "",
+            "star3": "853",
+            "star4": "984",
+            "star5": "",
+            "groupSize": "8-9"
+          },
+          {
+            "note": "",
+            "star3": "839",
+            "star4": "970",
+            "star5": "",
+            "groupSize": "10-11"
+          }
+        ],
+        "fixedPerPerson": {
+          "amount": "",
+          "groupSize": "",
+          "hotelCategory": "3_star"
+        },
+        "singleSupplement": {
+          "star3": "192",
+          "star4": "282",
+          "star5": "",
+          "byStar": {}
+        }
+      },
+      "currency": "USD",
+      "services": {
+        "segments": [
+          {
+            "to": "Samarkand",
+            "from": "Tashkent",
+            "note": "Included in source package; timing subject to availability.",
+            "type": "train",
+            "price": "",
+            "className": "Economy class"
+          }
+        ],
+        "usesRail": true,
+        "lunchCost": "",
+        "mealNotes": "",
+        "dinnerCost": "",
+        "usesFlight": false,
+        "fullBoardPossible": true,
+        "additionalServices": [],
+        "usesAdditionalServices": false
+      },
+      "tourType": "private",
+      "routeMode": "multi_country",
+      "difficulty": "moderate",
+      "salesOwner": "",
+      "contactInfo": {
+        "email": "english@tourlink.uz",
+        "phone": "+998 88 017 75 55",
+        "address": "Ankhor Buyi 6, Tashkent 100011, Uzbekistan",
+        "website": "www.tourlink.uz",
+        "director": "Sodik BEGMATOV",
+        "agencyName": "TourLink DMC"
+      },
+      "description": "Discover the magic of Uzbekistan - where vibrant culture, rich history, and breathtaking architecture come together to create an unforgettable journey. From ancient Silk Road cities to lively local bazaars, every moment is filled with beauty, flavor, and adventure. Experience the heart of Central Asia like never before.",
+      "durationDays": 8,
+      "isGuaranteed": false,
+      "coverImageKey": "tourlink/covers/d8b6c1c6-ac69-4e84-a40d-4f1238996dbd.jpg",
+      "clientLanguage": "en",
+      "departureDates": [],
+      "durationNights": 7,
+      "primaryCountry": "uzbekistan",
+      "validityPeriod": "2026 season",
+      "selectedHotelStars": [
+        "3"
+      ],
+      "coverImageUpdatedAt": "2026-06-07T14:49:40.388Z",
+      "coverImageContentType": "image/jpeg",
+      "coverImageUrl": "/api/tour-packages/d8b6c1c6-ac69-4e84-a40d-4f1238996dbd/cover?v=2026-06-07T14%3A49%3A40.388Z"
+    },
+    "hasCoverImage": true,
+    "coverImageUrl": "/api/tour-packages/d8b6c1c6-ac69-4e84-a40d-4f1238996dbd/cover?v=2026-06-07T14%3A49%3A40.388Z"
+  }
+}

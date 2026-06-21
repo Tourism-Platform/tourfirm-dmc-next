@@ -51,6 +51,7 @@ export type CustomFieldVariant =
 	| "geo"
 	| "dateRange"
 	| "datePicker"
+	| "editor"
 	| "switch";
 
 type BaseFieldProps = {
@@ -120,6 +121,8 @@ type GeoFieldVariant = BaseFieldProps & {
 type DateRangeFieldVariant = BaseFieldProps & {
 	fieldType: Extract<CustomFieldVariant, "dateRange">;
 	placeholder?: string;
+	numberOfMonths?: number;
+	popoverModal?: boolean;
 };
 
 type DatePickerFieldVariant = BaseFieldProps & {
@@ -345,23 +348,7 @@ export const CustomField: FC<CustomFieldProps> = (props) => {
 				);
 
 			default:
-				return (
-					<Input
-						{...rest}
-						placeholder={t(props.placeholder)}
-						{...field}
-						onChange={(event) => {
-							if (props.type === "number") {
-								const value = event.target.valueAsNumber;
-								field.onChange(
-									Number.isFinite(value) ? value : null
-								);
-							} else {
-								field.onChange(event);
-							}
-						}}
-					/>
-				);
+				return null;
 		}
 	};
 

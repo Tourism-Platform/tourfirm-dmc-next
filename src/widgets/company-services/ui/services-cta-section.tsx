@@ -31,7 +31,7 @@ export async function ServicesCtaSection() {
 						{t("cta.primary")}
 					</ContactMailtoButton>
 					<Button asChild variant="outline">
-						<Link href={ENUM_PATH.MAIN.CATALOG}>
+						<Link href={ENUM_PATH.MAIN.CATALOG.ROOT}>
 							{t("cta.secondary")}
 						</Link>
 					</Button>

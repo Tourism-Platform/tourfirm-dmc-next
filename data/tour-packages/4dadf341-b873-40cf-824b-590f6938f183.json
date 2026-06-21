@@ -1,0 +1,401 @@
+{
+  "package": {
+    "id": "4dadf341-b873-40cf-824b-590f6938f183",
+    "createdAt": "2026-06-08T06:43:44.712+00:00",
+    "updatedAt": "2026-06-09T17:53:22.262+00:00",
+    "data": {
+      "days": [
+        {
+          "id": "77c04d42-51cc-44ce-89df-4c5395cdeaaf",
+          "day": 1,
+          "city": "tashkent",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": false
+          },
+          "notes": "",
+          "title": "ウズベキスタンの旅の始まり ～ タシケント到着",
+          "events": [
+            {
+              "id": "104c52a6-3406-436d-8fc3-ee793ca3545d",
+              "city": "tashkent",
+              "time": "16:40",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "16:40",
+              "activities": [],
+              "attractions": [],
+              "description": "11:35成田空港発（直行便）\n16:40タシケント国際線空港着。",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            },
+            {
+              "id": "6804c5a6-307c-4139-915e-c2496a7b7303",
+              "city": "tashkent",
+              "time": "",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "到着後、現地日本語ガイドがお出迎えし、専用車にてホテルへ送迎。チェックイン",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Tashkent",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "e54ec9cb-ea28-4a99-a082-5d93b095d03d",
+          "day": 2,
+          "city": "",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "",
+          "events": [
+            {
+              "id": "04b5ad52-de5f-4e1b-84e7-184798c41d70",
+              "city": "",
+              "time": "",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "08c8e9ee-d358-45ce-a91d-8f50f567e3b3",
+          "day": 3,
+          "city": "",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "",
+          "events": [
+            {
+              "id": "9b643187-133d-4852-ba43-79396a5c744e",
+              "city": "",
+              "time": "",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "cd1337b2-a542-4d38-840c-3ffa79962421",
+          "day": 4,
+          "city": "",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "",
+          "events": [
+            {
+              "id": "9ab3404b-e47b-43c8-b0f6-66606768e707",
+              "city": "",
+              "time": "",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "954fa192-9bc6-4b92-896d-762fc358cdf0",
+          "day": 5,
+          "city": "",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "",
+          "events": [
+            {
+              "id": "d34ceca6-94ad-47d1-963b-fa7c418092c9",
+              "city": "",
+              "time": "",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "4930f86b-b5df-4e48-9c16-1ff0fc5a6a45",
+          "day": 6,
+          "city": "",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "",
+          "events": [
+            {
+              "id": "9383f127-3baa-4ee4-8ee0-d935aad58a55",
+              "city": "",
+              "time": "",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "",
+          "overnightCountry": "uzbekistan"
+        },
+        {
+          "id": "118205f6-e6c4-4e47-9c77-ff4fbb0a438f",
+          "day": 7,
+          "city": "",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "",
+          "events": [
+            {
+              "id": "5da87663-e9c5-4933-8b9a-678b1657dd2f",
+              "city": "",
+              "time": "",
+              "country": "uzbekistan",
+              "endTime": "",
+              "startTime": "",
+              "activities": [],
+              "attractions": [],
+              "description": "",
+              "movementMode": "program",
+              "activitySlugs": [],
+              "attractionSlugs": [],
+              "activityTypeName": "",
+              "activityTypeSlug": "program"
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "",
+          "overnightCountry": "uzbekistan"
+        }
+      ],
+      "slug": "-",
+      "terms": {
+        "serviceNote": "ウズベキスタンの旅行手配会社として、TourLinkは欧州の旅行会社と旅行者の期待や運営基準を理解しています。柔軟性、適応力、サービス品質は私たちの重要な価値です。\n\nホテルへの考え方\nホテルは快適さ、美しさ、雰囲気、魅力を基準に選定し、特にブティックホテルを重視しています。提携ホテルは定期的に確認し、大都市では中心部に近い場所や休息に適した静かなエリアを優先します。大都市での送迎は手配され、サービスに含まれます。\n\nレストランへの考え方\n各行程の地域性に合わせてレストランを選定します。伝統的なレストランを重視し、各地域の味を楽しめるようメニューを調整します。\n\n交通サービス\nプロドライバー付き車両を手配し、品質を定期的に確認します。専属ガイドは慎重に選び、継続的に評価しています。\n\n定番旅行と長期旅行\n定番ツアーではウズベキスタンの主要都市と見どころを巡ります。長期滞在の場合は、打ち合わせ後に追加ルートや個別提案をご案内できます。",
+        "paymentTerms": "- ツアー代金は発行された請求書に従い、グループ到着の40日前までにTourLinkの銀行口座へお支払いください。\n- 支払条件は署名済み契約で別条件が定められている場合のみ変更可能です。\n- 確認条件および支払条件が合意されるまで、サービスは確定扱いとなりません。",
+        "priceIncludes": "- 記載ホテルでのTWIN / DBL利用の宿泊。\n- ホテルでの朝食。\n- ミネラルウォーター、ツアー日ごとにお一人様1リットル。\n- 行程に沿ったプロドライバー付きの快適なエアコン車両。\n- 10名以上のグループには到着から出発まで英語ガイド同行。\n- 1-9名のグループには観光時の英語ローカルガイド。\n- 記載された全モニュメントの入場料（写真・ビデオ料金を除く）。",
+        "importantNotes": "- 本見積は予約確認ではありません。\n- 予約前に国際線の空席状況をご確認ください。\n- 記載ホテルが利用不可の場合、空室状況により同等カテゴリーのホテルを提案します。\n- 国内線および列車は時刻と空席状況が変更される場合があります。\n- ルート区間と必要な交通手段により、異なる車両とドライバーを利用する場合があります。\n- ホテル利用は空室状況によります。お客様の確認前に予約は行われません。\n- TourLinkはルート中の天候条件について責任を負いません。\n- チップは任意です。",
+        "cancellationTerms": "- 到着45日前以前の取消：取消料なし。\n- 到着44-25日前の取消：ツアー代金の50%。\n- 到着24-15日前の取消：ツアー代金の75%。\n- 到着14-0日前の取消：ツアー代金の100%。",
+        "priceDoesNotInclude": "- ビザ費用および手続き費用。\n- 写真・ビデオ撮影料。\n- フルボード（10名以上から追加料金で手配可能）。\n- 国際航空券。\n- プログラムに明記されていない国内航空券。\n- プログラムに明記されていない国内列車チケット。\n- 飲み物およびアルコール。\n- ホテル、空港、駅でのポーターサービス。\n- 旅行保険および医療保険。\n- チップ。\n- 個人的費用。\n- 含まれるサービス欄に記載のないサービス。",
+        "availableSupplements": "- ご希望の食事プランに応じて昼食・夕食を追加できます。\n- 早着チェックイン、遅延チェックアウトはフライト時刻確定後に見積可能です。\n- 追加ガイド言語はリクエストに応じて見積可能です。\n- 国内航空券または列車チケットは、含まれる車両移動の代替として提案される場合のみ追加料金として見積します。\n- 特別許可、国境地帯許可、ルート固有の許可は行程上必要な場合に見積します。"
+      },
+      "title": "ウズベキスタン周遊 ～ 歴史・文化・自然を巡る旅",
+      "hotels": {},
+      "pricing": {
+        "mode": "on_request",
+        "matrix": [
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "1"
+          },
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "2"
+          },
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "4"
+          },
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "6"
+          },
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "8"
+          },
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "10"
+          },
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "12"
+          }
+        ],
+        "fixedPerPerson": {
+          "amount": "",
+          "groupSize": "",
+          "hotelCategory": "4_star"
+        },
+        "singleSupplement": {
+          "star3": "",
+          "star4": "",
+          "star5": "",
+          "byStar": {}
+        }
+      },
+      "currency": "USD",
+      "services": {
+        "segments": [],
+        "usesRail": false,
+        "lunchCost": "",
+        "mealNotes": "",
+        "dinnerCost": "",
+        "usesFlight": false,
+        "fullBoardPossible": true,
+        "additionalServices": [],
+        "usesAdditionalServices": false
+      },
+      "tourType": "private",
+      "routeMode": "single_country",
+      "difficulty": "moderate",
+      "salesOwner": "",
+      "contactInfo": {
+        "email": "partners@tourlink.uz",
+        "phone": "+998974441555",
+        "address": "Ankhor Buyi 6, Tashkent 100011, Uzbekistan",
+        "website": "www.tourlink.uz",
+        "director": "Sodik BEGMATOV",
+        "agencyName": "TourLink DMC"
+      },
+      "description": "ウズベキスタンの魅力を存分に満喫する7日間の周遊ツアーです。シルクロードを代表する歴史都市ブハラやサマルカンドを訪れ、世界遺産や美しいイスラム建築をご覧いただきます。また、首都タシケントでは歴史と現代が調和する街並みを楽しみ、チムガンの豊かな自然を満喫。さらに、ウズムファームではブドウ畑を見学しながら、さまざまな種類のワインテイスティングもお楽しみいただけます。ウズベキスタンならではの歴史・文化・自然・食の魅力を体感できるコースです。",
+      "durationDays": 7,
+      "isGuaranteed": false,
+      "clientLanguage": "ja",
+      "departureDates": [],
+      "durationNights": 6,
+      "primaryCountry": "uzbekistan",
+      "validityPeriod": "6月～10月 2026年",
+      "selectedHotelStars": [
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "hasCoverImage": false
+  }
+}

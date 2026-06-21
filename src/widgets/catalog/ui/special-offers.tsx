@@ -22,6 +22,8 @@ import {
 	useGetSpecialOfferToursQuery
 } from "@/entities/tour";
 
+import { BookTourModal } from "@/features/booking/book-tour";
+
 const SpecialOffersBase: FC = () => {
 	const t = useTranslations("catalog_page");
 	const { data, isLoading, isError } = useGetSpecialOfferToursQuery();
@@ -42,7 +44,7 @@ const SpecialOffersBase: FC = () => {
 						{t("offers.subtitle")}
 					</p>
 					<Button asChild variant="destructive" className="w-fit">
-						<Link href={ENUM_PATH.MAIN.CATALOG}>
+						<Link href={ENUM_PATH.MAIN.CATALOG.ROOT}>
 							{t("offers.cta")}
 						</Link>
 					</Button>
@@ -63,7 +65,17 @@ const SpecialOffersBase: FC = () => {
 										key={tour.id}
 										className="basis-full pl-3 sm:basis-1/2 sm:pl-4 lg:basis-1/3"
 									>
-										<CatalogTourCard data={tour} />
+										<CatalogTourCard
+											data={tour}
+											action={
+												<BookTourModal
+													tour={{
+														id: tour.id,
+														title: tour.title
+													}}
+												/>
+											}
+										/>
 									</CarouselItem>
 								))}
 					</CarouselContent>

@@ -30,7 +30,7 @@ const TopDestinationsBase: FC = () => {
 				{TOP_DESTINATIONS_MOCK.map((destination) => (
 					<Link
 						key={destination.id}
-						href={ENUM_PATH.MAIN.CATALOG}
+						href={ENUM_PATH.MAIN.CATALOG.ROOT}
 						className="group block"
 					>
 						<Card className="relative h-56 overflow-hidden p-0 transition-shadow group-hover:shadow-lg sm:h-72 md:h-80 lg:h-96 xl:h-120">

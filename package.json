@@ -9,7 +9,8 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "build": "rimraf .next && npm run typecheck && npm run format && npm run lint && next build",
-    "start": "next start"
+    "start": "next start",
+    "fetch:tours": "node scripts/fetch-tour-packages.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.4.0",

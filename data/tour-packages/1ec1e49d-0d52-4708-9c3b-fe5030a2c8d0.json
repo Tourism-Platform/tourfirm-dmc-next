@@ -1,0 +1,755 @@
+{
+  "package": {
+    "id": "1ec1e49d-0d52-4708-9c3b-fe5030a2c8d0",
+    "createdAt": "2026-06-08T06:37:13.851+00:00",
+    "updatedAt": "2026-06-09T04:44:40.803+00:00",
+    "data": {
+      "days": [
+        {
+          "day": 1,
+          "city": "tashkent",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": false
+          },
+          "notes": "",
+          "title": "ANREISE – TASCHKENT, USBEKISTAN ",
+          "events": [
+            {
+              "id": "b6773853-9583-46ec-9cc3-79f173f5ef37",
+              "city": "tashkent",
+              "time": "01:20",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "Ankunft in Taschkent 21:05 mit Uzbekistan Airways oder 01:20 mit Turkish Airlines.  Nach der \nAnkunft erfolgt der Transfer zum Hotel. Übernachtung in Taschkent.",
+              "movementMode": "program",
+              "attractionSlugs": []
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Tashkent"
+        },
+        {
+          "day": 2,
+          "city": "tashkent",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Taschkent – die Stadt der Gastfreundschaft und des Brotes",
+          "events": [
+            {
+              "id": "26ee5f09-6ade-4d88-9f3e-69065f13e02a",
+              "city": "tashkent",
+              "time": "10:00-13:00",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "Nach einem späten Frühstück kurze Stadtrundfahrt mit Besichtigung der Medresse \nKukaldash, der Barak-Chan-Medresse, des Kaffal-Shashi-Mausoleums. ",
+              "movementMode": "program",
+              "attractionSlugs": []
+            },
+            {
+              "id": "2c2ad254-a20b-468f-8f2e-7ad6e79be762",
+              "city": "tashkent",
+              "time": "15:00-19:00",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "Besuch des Basars Chorsu, sowie der Navoi\nOper (Außenbesichtigung).\nZwei Übernachtungen in Taschkent.",
+              "movementMode": "program",
+              "attractionSlugs": []
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Tashkent"
+        },
+        {
+          "day": 3,
+          "city": "tashkent",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": " FAHRT VON TASCHKENT ÜBER DEN GRENZPOSTEN OYBEK NACH CHODSCHAND  (TADSCHIKISTAN) Entfernung: 170 km, Fahrzeit: ca. 3 St ",
+          "events": [
+            {
+              "id": "1077b2e3-5c6b-4147-8f4a-aab44d208662",
+              "city": "tashkent",
+              "time": "09:00-12:00",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "Am Morgen Transfer zur usbekisch-tadschikischen Grenze. Nach dem Grenzübertritt geht \ndie Fahrt mit einem Bus auf der tadschikischen Seite weiter nach Chodschand.",
+              "movementMode": "program",
+              "attractionSlugs": []
+            },
+            {
+              "id": "f44a3714-6e0d-4679-8c99-c726b5e2c8b4",
+              "city": "khujand",
+              "time": "13:00-19:00",
+              "country": "tajikistan",
+              "attractions": [],
+              "description": "Rundgang durch Chodschand: Besuch des Panjshanbe-Basars, der Moschee und des \nMausoleums von Scheich Muslihiddin sowie der Festung von Chodschand",
+              "movementMode": "program",
+              "attractionSlugs": []
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Khujand"
+        },
+        {
+          "day": 4,
+          "city": "khujand",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "TRANSFER VON CHODSCHAND NACH DUSCHANBE MIT BUS ODER MINIVAN  Strecke: 310 km, voraussichtliche Fahrzeit: ca. 5 Stunden 30 Min. ",
+          "events": [
+            {
+              "id": "310c0958-1f31-4360-ac71-2a765db795ec",
+              "city": "khujand",
+              "time": "09:00-14:00",
+              "country": "tajikistan",
+              "attractions": [],
+              "description": "Nach dem Frühstück Fahrt nach Duschanbe, der Hauptstadt Tadschikistans (ca. 5–6 \nStunden). Die Route verläuft über malerische Bergpässe mit zahlreichen \nAussichtsmöglichkeiten für Fotos.",
+              "movementMode": "program",
+              "attractionSlugs": []
+            },
+            {
+              "id": "0c34e16a-ae05-41f9-bcd9-c904370cff0c",
+              "city": "dushanbe",
+              "time": "15:00-17:00",
+              "country": "tajikistan",
+              "attractions": [],
+              "description": "Nach Ankunft Besichtigung des Istiklol-Parks, \nanschließend Einchecken im Hotel.",
+              "movementMode": "program",
+              "attractionSlugs": []
+            }
+          ],
+          "country": "tajikistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Dushanbe"
+        },
+        {
+          "day": 5,
+          "city": "dushanbe",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": " DUSCHANBE – HISSAR (Fahrt Mit Bus/Minivan) ",
+          "events": [
+            {
+              "id": "2ba635ef-e054-4631-94dd-c79344f17cfa",
+              "city": "dushanbe",
+              "time": "10:00-13:00",
+              "country": "tajikistan",
+              "attractions": [],
+              "description": "Rundgang durch Duschanbe: Besuch des Nationalmuseums Tadschikistans und des \nRudaki-Parks",
+              "movementMode": "program",
+              "attractionSlugs": []
+            },
+            {
+              "id": "a16f2053-4dab-47f4-bc82-fd8739a0e374",
+              "city": "hissar",
+              "time": "14:00-19:00",
+              "country": "tajikistan",
+              "attractions": [],
+              "description": "Nach dem Mittagessen Fahrt von etwa 35 km zur Festung Hissar (7.–17. Jahrhundert), die \naus befestigten Bereichen und einer Zitadelle besteht. Zu den Sehenswürdigkeiten in \nHissar zählen außerdem die kürzlich restaurierte Madrasa I Kuhna (16.–17. Jahrhundert) \nmit Moschee und das Mausoleum Mahdumi Azam (16. Jahrhundert). \nDen Abschluss des Tages bildet der Besuch des lokalen Basars „Mehrgon“, auf dem Sie \nden authentischen tadschikischen Alltag erleben, die orientalische Handelskunst \nbestaunen und das geschäftige Treiben der Einheimischen beobachten können. ",
+              "movementMode": "program",
+              "attractionSlugs": []
+            }
+          ],
+          "country": "tajikistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Dushanbe"
+        },
+        {
+          "day": 6,
+          "city": "penjikent",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "FAHRT VON DUSCHANBE ÜBER DIE SIEBEN SEEN UND PANJAKENT ZUM GRENZPUNKT  JARTEPA, ANSCHLIESSEND WEITERFAHRT NACH SAMARKAND, USBEKISTAN ",
+          "events": [
+            {
+              "id": "8cf77a37-a26d-4798-b1cf-b4388ceef849",
+              "city": "penjikent",
+              "time": "08:00-13:00",
+              "country": "tajikistan",
+              "attractions": [],
+              "description": "Nach einem frühen Frühstück Fahrt in die Bergregion der Fann-Berge zu den Sieben Seen \n(Haftkul). Die etwa 5–6-stündige Strecke verläuft über eine landschaftlich reizvolle \nBergstraße. Die Sieben Seen (Haftkul) bilden eine Kette idyllischer Bergseen, deren Farben von \nsmaragdgrün bis tiefblau reichen und jeden See unverwechselbar machen.  ",
+              "movementMode": "program",
+              "attractionSlugs": []
+            },
+            {
+              "id": "6e63673d-cd7c-4199-956e-d0522f911541",
+              "city": "penjikent",
+              "time": "15:00-18:00",
+              "country": "tajikistan",
+              "attractions": [],
+              "description": "Das kristallklare Wasser der Seen spiegelt die Gipfel der umliegenden Berge wider. Wir \nfahren mit dem Auto zum sechsten See, wo sich herrliche Ausblicke und \nFotomöglichkeiten bieten. Optional besteht die Möglichkeit, zum siebten See zu wandern \n(ca. 1–1,5 Stunden pro Strecke), um im Schatten der Bäume die Ruhe der Berge zu genießen.\nNach dem Spaziergang erfolgt der Transfer zum Grenzpunkt „Jarteppa“ (ca. 2 Stunden), wo die Tour endet. ",
+              "movementMode": "sightseeing",
+              "attractionSlugs": []
+            },
+            {
+              "id": "a783062b-21ff-46bf-af77-d9577684b7ce",
+              "city": "samarkand",
+              "time": "19:00",
+              "country": "uzbekistan",
+              "transfer": {
+                "notes": "",
+                "toCity": "penjikent",
+                "duration": "",
+                "fromCity": "penjikent",
+                "provider": "",
+                "toCountry": "tajikistan",
+                "fromCountry": "tajikistan",
+                "serviceType": "point_to_point",
+                "vehicleType": "",
+                "pricingScope": "single_segment",
+                "rateSourceId": "",
+                "durationSource": "",
+                "transportSubtype": ""
+              },
+              "attractions": [],
+              "description": "Ankunft in Samarkand, Hotelbezug",
+              "movementMode": "road_transfer",
+              "attractionSlugs": []
+            }
+          ],
+          "country": "tajikistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Samarkand"
+        },
+        {
+          "day": 7,
+          "city": "samarkand",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Samarkand – Glanz und Legenden des Orients",
+          "events": [
+            {
+              "id": "6c7c134a-d5f0-4889-98be-5ac8bea7e1a6",
+              "city": "samarkand",
+              "time": "10:00-13:30",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "Stadtbesichtigung: Registan-Platz, Ulugh-Begh-Medresse (15. Jh.), Shirdar- und Tella-Kari\nMedresse (17. Jh.), Bibi-Chanum-Moschee, katholische Kirche, Gur-Emir-Mausoleum ",
+              "movementMode": "program",
+              "attractionSlugs": []
+            },
+            {
+              "id": "dfe1e1f0-22b0-4763-9e3a-8783fcdcde69",
+              "city": "samarkand",
+              "time": "15:00-19:00",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "Besichtigungen in Samarkand: Kirche St. Georg, Shahi-Sinda-Komplex, Mausoleum des hl. \nDaniel (Danijar)",
+              "movementMode": "program",
+              "attractionSlugs": []
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Samarkand"
+        },
+        {
+          "day": 8,
+          "city": "samarkand",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Samarkand – Zwischen Märchen und Geschichte",
+          "events": [
+            {
+              "id": "cfe650f2-6e44-49e4-823b-f6da835c2acb",
+              "city": "samarkand",
+              "time": "10:00-15:00",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "Mausoleum des hl. \nDaniel (Danijar), Sternwarte des Ulugh Begh; Freizeit auf dem großen Basar",
+              "movementMode": "program",
+              "attractionSlugs": []
+            },
+            {
+              "id": "35acc70e-c614-457d-99d3-fffe5acfaf5a",
+              "city": "samarkand",
+              "time": "16:00-19:00",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "EMPFOHLENE AKTIVITÄT: Eine folkloristische Aufführung am Registan-Platz ist ein \nbesonderes Erlebnis für Besucher. In den Frühlings- und Sommermonaten finden meist \ngegen Sonnenuntergang traditionelle Musikdarbietungen in der Sher-Dor-Madrasa statt. \nMusik ist ein wichtiger Bestandteil der usbekischen Kultur, und diese Aufführungen \npräsentieren das regionale Musikgenre Shashmaqam. Die Künstler tragen traditionelle \nKostüme und spielen Shashmaqam-Instrumente, wobei sie ihre Musik und Kultur durch \nGesang und theatrale Darbietung zum Ausdruck bringen. ",
+              "movementMode": "program",
+              "attractionSlugs": []
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Samarkand"
+        },
+        {
+          "day": 9,
+          "city": "bukhara",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Buchara – die Edle",
+          "events": [
+            {
+              "id": "36929a7a-226a-4da4-ab22-31195e639dd1",
+              "city": "bukhara",
+              "time": "ungefähr 08:00-14:00",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "Nach dem Frühstück Fahrt mit dem Bus nach Buchara. Gegen Mittag Ankunft in Buchara.",
+              "movementMode": "program",
+              "attractionSlugs": []
+            },
+            {
+              "id": "b1128ed2-309f-45da-8f8f-46ef95f63ecc",
+              "city": "samarkand",
+              "time": "15:00-19:00",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "Spaziergang durch Buchara: Kalan-Minarett, Medressen Mir-e-Arab und Ulugh-Begh, \nDivan-Begi-Medresse, Synagoge, Komplex Chor Bakr, Basar",
+              "movementMode": "program",
+              "attractionSlugs": []
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Bukhara"
+        },
+        {
+          "day": 10,
+          "city": "bukhara",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Architektonische Schätze des Islam",
+          "events": [
+            {
+              "id": "4688665e-2bd6-4a7e-a483-eb0f3cb012ce",
+              "city": "bukhara",
+              "time": "09:00-14:00",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "Ausflug in die Umgebung von Buchara… \nSamanidenmausoleum (10. Jh.), Basar \nBesichtigungen: Chor-Minor-Moschee\n",
+              "movementMode": "program",
+              "attractionSlugs": []
+            },
+            {
+              "id": "34250bcf-cf06-4eca-b457-a97b05b978a7",
+              "city": "bukhara",
+              "time": "15:00-19:00",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "Sitora-Mokhi-Khosa-Anlage,  Grabstätte des Bahauddin Naqshbandi \nBesuch des Hauses von Faisulla Chodshaev",
+              "movementMode": "program",
+              "attractionSlugs": []
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Bukhara"
+        },
+        {
+          "day": 11,
+          "city": "bukhara",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Durch die endlosen Landschaften der Kysylkum-Wüste",
+          "events": [
+            {
+              "id": "d212bd99-7378-4286-97f1-0848995c9ff0",
+              "city": "bukhara",
+              "time": "08:00-15:00",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "Frühmorgens Busfahrt nach Chiwa entlang des Amu Darya und durch die Wüste Kizil Kum \nNachmittag Ankunft in Chiwa.",
+              "movementMode": "program",
+              "attractionSlugs": []
+            },
+            {
+              "id": "2ec863f7-fa8e-4ad5-9376-82b1a673b204",
+              "city": "bukhara",
+              "time": "16:00-19:00",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "Freizeit; Erste Erkundung der Altstadt von Chiwa",
+              "movementMode": "program",
+              "attractionSlugs": []
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Khiva"
+        },
+        {
+          "day": 12,
+          "city": "khiva",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Die Kleinste unter den Großartigen",
+          "events": [
+            {
+              "id": "72080aa9-c342-4265-919c-493d5f3af805",
+              "city": "khiva",
+              "time": "09:00-13:00",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "Besichtigungen in Chiwa: Medresse Muchamed-Amin-Chan, Kalta-Minor-Minarett,Kunja-Ark-Palast, Firuz-Medresse mit Museum,",
+              "movementMode": "program",
+              "attractionSlugs": []
+            },
+            {
+              "id": "e97687f7-71ce-4b9a-9b12-75db9a6333a7",
+              "city": "khiva",
+              "time": "15:00-19:00",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "Pachlavon-Machmud-Mausoleum, Islam \nChodsha-Minarett, Islam Chodsha-Medresse, Palast Tasch-Chauli ",
+              "movementMode": "program",
+              "attractionSlugs": []
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Khiva"
+        },
+        {
+          "day": 13,
+          "city": "khiva",
+          "meals": {
+            "lunch": false,
+            "dinner": false,
+            "breakfast": true
+          },
+          "notes": "",
+          "title": "Abschied von der Seidenstraße",
+          "events": [
+            {
+              "id": "168725de-980a-4f61-995f-3836f24eaa2a",
+              "city": "khiva",
+              "time": "06:00",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "Kleines frühes Frühstück im Hotel oder Frühstücksbox. Transfer zum Flughafen \nUrgentsch: Rückflug.   ",
+              "movementMode": "program",
+              "attractionSlugs": []
+            },
+            {
+              "id": "2d2666dd-4166-4778-b38f-005645d69761",
+              "city": "khiva",
+              "time": "",
+              "country": "uzbekistan",
+              "attractions": [],
+              "description": "Diese Reise kann auch in Taschkent beendet werden. Sie nehmen einen Inlandsflug von Urgench nach Taschkent und fliegen anschließend von Taschkent in Ihr Heimatland weiter.",
+              "movementMode": "other",
+              "attractionSlugs": []
+            }
+          ],
+          "country": "uzbekistan",
+          "program": "",
+          "transport": [
+            "road"
+          ],
+          "overnightCity": "Khiva"
+        }
+      ],
+      "slug": "",
+      "terms": {
+        "serviceNote": "",
+        "paymentTerms": "- Tour payment should be made to the TourLink bank account no later than 40 days before tourist group arrival, according to the issued invoice.\n- Payment timing can be adjusted only if a signed contract states different terms.\n- Services are not treated as confirmed until confirmation and payment conditions are agreed.",
+        "priceIncludes": "- Accommodation in the mentioned hotels in TWIN / DBL sharing.\n- Breakfast at the hotels.\n- Mineral water, 1 L per person per tour day.\n- A/C comfortable transport with a professional driver according to the itinerary:\n  - 1-2 pax: sedan, up to 5 seats.\n  - 3-7 pax: van, up to 11 seats.\n  - 8-21 pax: midi bus, up to 31 seats.\n  - 22-36 pax: bus, up to 43 seats.\n  - 37-46 pax: big bus, up to 50 seats.\n- English-speaking escort guide from group arrival to departure for groups from 10 pax.\n- English-speaking local guide for excursions for groups of 1-9 pax.\n- One tour leader (+1 FOC) in a single room free of charge; domestic flight and train tickets are not included.\n- Entrance fees for all mentioned monuments, except photo and video charges.",
+        "importantNotes": "- This offer is not a reservation confirmation.\n- Before booking, please check international flight seat availability.\n- If the hotels indicated in the program are not available on the reservation date, other hotels of the same category or an optional hotel will be offered according to availability.\n- Early arrivals and late departures are not included unless they are clearly indicated in the program. Additional supplements can be offered after the client confirms international flight timings.\n- Central Asian hotel standards may differ from European hotel standards.\n- Domestic flights and trains are subject to timing and availability changes. If a mentioned flight or train is not available, TourLink will offer a convenient alternative depending on the tour program.\n- The itinerary is subject to alterations if airlines change flight schedules, days of operation or route conditions.\n- Passport copies for train tickets must be provided 45 days before the tour.\n- The itinerary is subject to alterations if railway schedules or days of operation change.\n- Different vehicles and drivers may be used during the tour depending on the route section and transport type needed for that section.\n- If a place of visit is closed to visitors, it will be replaced with an alternative. During major events, accommodation may be changed and replaced with a similar category.\n- Hotel usage is subject to availability. No reservations are made before confirmation is received from the client.\n- TourLink is not responsible for weather conditions during the route.\n- Tips are not mandatory.",
+        "cancellationTerms": "- Cancellation 45 days or more before arrival: no cancellation charge applies.\n- Cancellation 44-25 days before arrival: 50% of the tour price.\n- Cancellation 24-15 days before arrival: 75% of the tour price.\n- Cancellation 14-0 days before arrival: 100% of the tour price.",
+        "priceDoesNotInclude": "- Visa costs and processing.\n- Photo and video charges.\n- Full board, available as a supplement from 10 pax.\n- International flight tickets.\n- Domestic flight tickets, unless clearly included in the program.\n- Domestic train tickets, unless clearly included in the program.\n- Extras in fixed lunch or dinner menus.\n- Beverages and alcoholic drinks.\n- Porterage at hotels, airports and train stations.\n- Travel and medical insurance.\n- Tips and gratuities.\n- Personal expenses.\n- Any services not listed in the included services section.",
+        "availableSupplements": "- Lunches and dinners can be added according to the requested meal plan.\n- Early check-in and late check-out can be quoted after flight timings are known.\n- Additional guide languages can be quoted on request.\n- Special permits, border-zone permissions and route-specific permissions are quoted when required by the itinerary."
+      },
+      "title": "Kulturelle Schätze Zentralasiens: Usbekistan und Tadschikistan entdecken",
+      "hotels": {
+        "Khiva": {
+          "city": "Khiva",
+          "notes": "",
+          "hotel3": "",
+          "hotel4": "Arkanchi",
+          "hotel5": "",
+          "country": "",
+          "hotelsByStar": {
+            "4": "Arkanchi",
+            "3_sup": "New Minor"
+          }
+        },
+        "Bukhara": {
+          "city": "Bukhara",
+          "notes": "",
+          "hotel3": "",
+          "hotel4": "Sahid Zarafshon, Amiran",
+          "hotel5": "",
+          "country": "",
+          "hotelsByStar": {
+            "4": "Sahid Zarafshon, Amiran"
+          }
+        },
+        "Khujand": {
+          "city": "Khujand",
+          "notes": "",
+          "hotel3": "",
+          "hotel4": "Parliament",
+          "hotel5": "",
+          "country": "",
+          "hotelsByStar": {
+            "4": "Parliament"
+          }
+        },
+        "Dushanbe": {
+          "city": "Dushanbe",
+          "notes": "",
+          "hotel3": "",
+          "hotel4": "Atlas Hotel, The Rumi",
+          "hotel5": "",
+          "country": "",
+          "hotelsByStar": {
+            "4": "Atlas Hotel, The Rumi"
+          }
+        },
+        "Tashkent": {
+          "city": "Tashkent",
+          "notes": "",
+          "hotel3": "",
+          "hotel4": "Navruz",
+          "hotel5": "",
+          "country": "",
+          "hotelsByStar": {
+            "4": "Navruz",
+            "3_sup": "Qushbegi plaza"
+          }
+        },
+        "Samarkand": {
+          "city": "Samarkand",
+          "notes": "",
+          "hotel3": "",
+          "hotel4": "Emir Khan, Medina",
+          "hotel5": "",
+          "country": "",
+          "hotelsByStar": {
+            "4": "Emir Khan, Medina"
+          }
+        }
+      },
+      "pricing": {
+        "mode": "matrix",
+        "matrix": [
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "1"
+          },
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "2"
+          },
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "4"
+          },
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "6"
+          },
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "8"
+          },
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "10"
+          },
+          {
+            "note": "",
+            "star3": "",
+            "star4": "",
+            "star5": "",
+            "groupSize": "12"
+          }
+        ],
+        "fixedPerPerson": {
+          "amount": "",
+          "groupSize": "",
+          "hotelCategory": "4_star"
+        },
+        "singleSupplement": {
+          "star3": "",
+          "star4": "",
+          "star5": "",
+          "byStar": {}
+        }
+      },
+      "currency": "EUR",
+      "services": {
+        "segments": [
+          {
+            "to": "Bukhara",
+            "from": "Samarkand",
+            "note": "",
+            "type": "train",
+            "price": "32",
+            "className": "Afrosiyob"
+          },
+          {
+            "to": "Khiva",
+            "from": "Bukhara",
+            "note": "",
+            "type": "train",
+            "price": "32",
+            "className": "Economy"
+          },
+          {
+            "to": "Khiva",
+            "from": "Bukhara",
+            "note": "",
+            "type": "train",
+            "price": "42",
+            "className": "Jaloliddin Manguberdi"
+          },
+          {
+            "to": "Tashkent",
+            "from": "Urgench",
+            "note": "",
+            "type": "flight",
+            "price": "118",
+            "className": "Avia"
+          }
+        ],
+        "usesRail": true,
+        "lunchCost": "",
+        "mealNotes": "",
+        "dinnerCost": "",
+        "usesFlight": true,
+        "fullBoardPossible": true,
+        "additionalServices": [],
+        "usesAdditionalServices": false
+      },
+      "tourType": "group",
+      "routeMode": "multi_country",
+      "difficulty": "moderate",
+      "salesOwner": "Yulduz Safarova",
+      "contactInfo": {
+        "email": "german@tourlink.uz",
+        "phone": "+998970177555",
+        "address": "Ankhor buyi – 6, Ташкент 100011, Узбекистан",
+        "website": "www.tourlink.uz",
+        "director": "Sodik BEGMATOV",
+        "agencyName": "TourLink DMC"
+      },
+      "description": "",
+      "durationDays": 13,
+      "isGuaranteed": false,
+      "coverImageKey": "tourlink/covers/1ec1e49d-0d52-4708-9c3b-fe5030a2c8d0.jpg",
+      "clientLanguage": "de",
+      "departureDates": [],
+      "durationNights": 12,
+      "primaryCountry": "uzbekistan",
+      "validityPeriod": "",
+      "selectedHotelStars": [
+        "3_sup",
+        "4",
+        "5"
+      ],
+      "coverImageUpdatedAt": "2026-06-08T12:12:35.418Z",
+      "coverImageContentType": "image/jpeg",
+      "coverImageUrl": "/api/tour-packages/1ec1e49d-0d52-4708-9c3b-fe5030a2c8d0/cover?v=2026-06-08T12%3A12%3A35.418Z"
+    },
+    "hasCoverImage": true,
+    "coverImageUrl": "/api/tour-packages/1ec1e49d-0d52-4708-9c3b-fe5030a2c8d0/cover?v=2026-06-08T12%3A12%3A35.418Z"
+  }
+}
