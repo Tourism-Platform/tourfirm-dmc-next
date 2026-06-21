@@ -70,7 +70,7 @@ const SearchBase: FC = () => {
 
 	const searchParams = useSearchParams();
 
-	const destination = searchParams.get("destination") ?? "";
+	const destination = "";
 
 	const checkIn = searchParams.get("checkIn") ?? "";
 
