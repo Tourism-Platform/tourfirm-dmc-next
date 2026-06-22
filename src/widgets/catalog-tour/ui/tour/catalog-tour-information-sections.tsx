@@ -5,7 +5,6 @@ import { Separator } from "@/shared/ui";
 import type { ICatalogPreviewTourData } from "@/entities/tour/catalog";
 
 import { CatalogTourAdditionalInfo } from "./catalog-tour-additional-info";
-import { CatalogTourAmenities } from "./catalog-tour-amenities";
 import { CatalogTourCancellation } from "./catalog-tour-cancellation";
 import { CatalogTourMeta } from "./catalog-tour-meta";
 import { CatalogTourOverview } from "./catalog-tour-overview";
@@ -28,8 +27,8 @@ export const CatalogTourInformationSections: FC<
 			<CatalogTourOverview data={data} />
 			<Separator />
 			<CatalogTourMeta data={data} />
-			<Separator />
-			<CatalogTourAmenities data={data} />
+			{/* <Separator /> */}
+			{/* <CatalogTourAmenities data={data} /> */}
 			<Separator />
 			<CatalogTourPickup data={data} />
 			<Separator />

@@ -3,7 +3,7 @@
 import { useTranslations } from "next-intl";
 import { type FC } from "react";
 
-import { Badge, Previewer, withErrorBoundary } from "@/shared/ui";
+import { Badge, withErrorBoundary } from "@/shared/ui";
 import { useValueToTranslateLabel } from "@/shared/utils";
 
 import {
@@ -51,14 +51,14 @@ const CatalogTourPickupBase: FC<ICatalogTourPickupProps> = ({ data }) => {
 				})}
 			</div>
 
-			<div className="flex flex-col gap-3">
+			{/* <div className="flex flex-col gap-3">
 				<div>
 					<p className="font-semibold text-sm">
 						{t("sections.meeting_pickup.pickup_details")}:
 					</p>
 					<Previewer text={data.pickup_description} />
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 };
