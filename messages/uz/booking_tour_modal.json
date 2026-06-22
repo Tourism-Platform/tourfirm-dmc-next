@@ -45,9 +45,14 @@
 		"not_set": "Ko'rsatilmagan"
 	},
 	"disclaimer": "Ushbu formani yuborish faqat so'rov hisoblanadi va tasdiqlangan bron emas.",
+	"success": {
+		"title": "Turingiz bron qilindi",
+		"description": "Tafsilotlarni tasdiqlash uchun siz bilan bog'lanamiz."
+	},
 	"actions": {
 		"next": "Keyingi",
 		"back": "Orqaga",
-		"submit": "So'rov yuborish"
+		"submit": "So'rov yuborish",
+		"close": "Yopish"
 	}
 }

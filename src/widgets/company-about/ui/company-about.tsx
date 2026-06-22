@@ -4,6 +4,7 @@ import { AboutDevelopmentSection } from "./about-development-section";
 import { AboutHero } from "./about-hero";
 import { AboutIntroSection } from "./about-intro-section";
 import { AboutMissionSection } from "./about-mission-section";
+import { AboutTeamSection } from "./about-team-section";
 import { AboutValuesSection } from "./about-values-section";
 
 export function CompanyAbout() {
@@ -14,6 +15,7 @@ export function CompanyAbout() {
 				<AboutIntroSection />
 				<AboutMissionSection />
 				<AboutValuesSection />
+				<AboutTeamSection />
 				<AboutDevelopmentSection />
 				<AboutConnectionSection />
 				<AboutCtaSection />

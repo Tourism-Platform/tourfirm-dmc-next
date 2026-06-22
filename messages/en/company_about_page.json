@@ -60,6 +60,73 @@
 			}
 		}
 	},
+	"team": {
+		"eyebrow": "Our team",
+		"title": "People stand behind every route",
+		"description": "Every enquiry starts with a person who helps clarify the language of communication, the shape of the route and the next practical step.",
+		"members": [
+			{
+				"initials": "SB",
+				"name": "Sodik Begmatov",
+				"title": "Founder",
+				"description": "Founded TourLink as the public continuation of Orient Star Group's regional work — its people, routes, partner relationships and operational experience."
+			},
+			{
+				"initials": "MA",
+				"name": "Muhammad Amin Begmatov",
+				"title": "CEO",
+				"description": "Leads TourLink and connects route enquiries with team decisions until a programme is confirmed."
+			},
+			{
+				"initials": "AM",
+				"name": "Abdulaziz Mavlonov",
+				"title": "BDD",
+				"description": "Leads business development conversations and partner context as TourLink's public DMC direction grows."
+			},
+			{
+				"initials": "OK",
+				"name": "Odina Karahodzhayeva",
+				"title": "CFO",
+				"description": "Ensures financial and administrative clarity at TourLink when route enquiries move to confirmed programmes."
+			},
+			{
+				"initials": "EK",
+				"name": "Eldor Keldibekov",
+				"title": "Tour Sales & Operations Manager",
+				"description": "Supports the Spanish-language direction and helps formulate route questions for Spanish-speaking travellers and partners."
+			},
+			{
+				"initials": "AM",
+				"name": "Alizhon Mamatkulov",
+				"title": "Tour Sales & Operations Manager",
+				"description": "Supports the Japanese market and helps make route details clear for Japanese travellers and partners."
+			},
+			{
+				"initials": "NB",
+				"name": "Nozima Begmatova",
+				"title": "Tour Sales & Operations Manager",
+				"description": "Supports English-language enquiries, route clarification and practical coordination until a programme is confirmed."
+			},
+			{
+				"initials": "KH",
+				"name": "Komila Kholmatova",
+				"title": "Tour Sales & Operations Manager",
+				"description": "Works with English-language route enquiries and helps keep practical details visible while a proposal is prepared."
+			},
+			{
+				"initials": "SK",
+				"name": "Subin Kang",
+				"title": "Tour Sales & Operations Manager",
+				"description": "Supports English and Korean directions as TourLink's regional DMC work develops."
+			},
+			{
+				"initials": "MI",
+				"name": "Madina Irgasheva",
+				"title": "Tour Sales & Operations Manager",
+				"description": "Supports French-language communication and helps formulate route questions for French-speaking travellers and partners."
+			}
+		]
+	},
 	"development": {
 		"eyebrow": "Development stages",
 		"title": "How the TourLink platform grows",

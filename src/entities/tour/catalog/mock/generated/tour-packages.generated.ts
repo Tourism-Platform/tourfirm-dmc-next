@@ -139,7 +139,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Arrival in Tashkent",
-					description: "",
+					description:
+						"Overnight stay in Tashkent. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 1,
 					position: 2,
 					details: {
@@ -222,7 +223,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Tashkent - Andijan by train; Andijan - Fergana by car",
-					description: "",
+					description:
+						"Overnight stay in Fergana. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 2,
 					position: 6,
 					details: {
@@ -283,7 +285,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Fergana - Margilan - Rishtan - Kokand - Tashkent",
-					description: "",
+					description:
+						"Overnight stay in Tashkent. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 3,
 					position: 4,
 					details: {
@@ -353,7 +356,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Tashkent (full day)",
-					description: "",
+					description:
+						"Overnight stay in Tashkent. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 4,
 					position: 5,
 					details: {
@@ -445,7 +449,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Tashkent - Samarkand by high-speed train",
-					description: "",
+					description:
+						"Overnight stay in Samarkand. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 5,
 					position: 7,
 					details: {
@@ -526,7 +531,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Samarkand (full day)",
-					description: "",
+					description:
+						"Overnight stay in Samarkand. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 6,
 					position: 6,
 					details: {
@@ -596,7 +602,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Samarkand - Bukhara by car",
-					description: "",
+					description:
+						"Overnight stay in Bukhara. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 7,
 					position: 5,
 					details: {
@@ -666,7 +673,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Bukhara (full day)",
-					description: "",
+					description:
+						"Overnight stay in Bukhara. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 8,
 					position: 5,
 					details: {
@@ -705,7 +713,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Bukhara - Khiva by car",
-					description: "",
+					description:
+						"Overnight stay in Khiva. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 9,
 					position: 2,
 					details: {
@@ -765,7 +774,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Khiva (full day)",
-					description: "",
+					description:
+						"Overnight stay in Khiva. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 10,
 					position: 4,
 					details: {
@@ -981,7 +991,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Arrival in Tashkent",
-					description: "",
+					description:
+						"Overnight stay in Tashkent. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 1,
 					position: 6,
 					details: {
@@ -1073,7 +1084,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Tashkent - Samarkand by morning train",
-					description: "",
+					description:
+						"Overnight stay in Samarkand. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 2,
 					position: 7,
 					details: {
@@ -1154,7 +1166,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Samarkand (full day)",
-					description: "",
+					description:
+						"Overnight stay in Samarkand. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 3,
 					position: 6,
 					details: {
@@ -1224,7 +1237,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Samarkand - Bukhara by car",
-					description: "",
+					description:
+						"Overnight stay in Bukhara. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 4,
 					position: 5,
 					details: {
@@ -1294,7 +1308,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Bukhara (full day)",
-					description: "",
+					description:
+						"Overnight stay in Bukhara. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 5,
 					position: 5,
 					details: {
@@ -1333,7 +1348,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Bukhara - Khiva by car",
-					description: "",
+					description:
+						"Overnight stay in Khiva. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 6,
 					position: 2,
 					details: {
@@ -1393,7 +1409,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Khiva (full day)",
-					description: "",
+					description:
+						"Overnight stay in Khiva. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 7,
 					position: 4,
 					details: {
@@ -1436,7 +1453,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 		catalog: {
 			id: "1ba7f901-b032-4fdc-9071-cc9341409215",
 			title: "Höhepunkte Zentralasiens: Kirgisistan & Usbekistan",
-			description: "",
+			description:
+				"Flug von Österreich mit Turkish Airlines nach Bischkek. \nAnkunft am internationalen Flughafen Manas, Empfang durch die örtliche Reiseleitung und \nTransfer zum Hotel.\n\nFrühstück im Hotel. Fahrt zum Burana-Komplex.",
 			duration: 13,
 			price_from: 1000,
 			price_to: 1120,
@@ -1563,7 +1581,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Heimatland-Bischkek",
-					description: "",
+					description:
+						"Übernachtung in Bishkek. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 1,
 					position: 2,
 					details: {
@@ -1624,7 +1643,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Bischkek – Burana – Issyk-Kul (ca. 280 km)",
-					description: "",
+					description:
+						"Übernachtung in Issyk-Kul. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 2,
 					position: 4,
 					details: {
@@ -1650,7 +1670,7 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					primary_image_path: "/assets/images/city/tashkent.jpg"
 				},
 				{
-					name: "",
+					name: "Frühstück im Jurtencamp.",
 					description:
 						"Frühstück im Jurtencamp. \nAm Vormittag erleben Sie eine Adlerjagd-Vorführung sowie eine Filz-Show, zwei bedeutende \nBestandteile der kirgisischen Tradition und des nomadischen Erbes.",
 					day: 3,
@@ -1683,8 +1703,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				},
 				{
 					typ: "5",
-					name: "",
-					description: "",
+					name: "Hotel in Bishkek",
+					description:
+						"Übernachtung in Bishkek. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 3,
 					position: 4,
 					details: {
@@ -1788,7 +1809,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Ankommen in Taschkent, der Hauptstadt Usbekistans",
-					description: "",
+					description:
+						"Übernachtung in Bishkek. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 4,
 					position: 5,
 					details: {
@@ -1855,7 +1877,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Zwischen Tradition und Moderne – Taschkent",
-					description: "",
+					description:
+						"Übernachtung in Tashkent. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 5,
 					position: 3,
 					details: {
@@ -1962,7 +1985,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Eine märchenhafte Welt des Orients",
-					description: "",
+					description:
+						"Übernachtung in Samarkand. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 6,
 					position: 4,
 					details: {
@@ -2046,7 +2070,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Glanzstück der Seidenstraße",
-					description: "",
+					description:
+						"Übernachtung in Samarkand. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 7,
 					position: 3,
 					details: {
@@ -2153,7 +2178,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Buchara – die Edle",
-					description: "",
+					description:
+						"Übernachtung in Bukhara. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 8,
 					position: 4,
 					details: {
@@ -2237,7 +2263,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Tauchen Sie ein in die faszinierende Geschichte von Buchara",
-					description: "",
+					description:
+						"Übernachtung in Bukhara. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 9,
 					position: 3,
 					details: {
@@ -2321,7 +2348,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Architektonische Schätze des Islam",
-					description: "",
+					description:
+						"Übernachtung in Bukhara. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 10,
 					position: 3,
 					details: {
@@ -2411,7 +2439,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Durch die endlosen Landschaften der Kysylkum-Wüste",
-					description: "",
+					description:
+						"Übernachtung in Khiva. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 11,
 					position: 4,
 					details: {
@@ -2495,7 +2524,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Die Kleinste unter den Großartigen",
-					description: "",
+					description:
+						"Übernachtung in Khiva. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 12,
 					position: 3,
 					details: {
@@ -2534,7 +2564,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Abschied von der Seidenstraße",
-					description: "",
+					description:
+						"Übernachtung in Khiva. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 13,
 					position: 2,
 					details: {
@@ -2566,7 +2597,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 		catalog: {
 			id: "1ec1e49d-0d52-4708-9c3b-fe5030a2c8d0",
 			title: "Kulturelle Schätze Zentralasiens: Usbekistan und Tadschikistan entdecken",
-			description: "",
+			description:
+				"Ankunft in Taschkent 21:05 mit Uzbekistan Airways oder 01:20 mit Turkish Airlines.  Nach der \nAnkunft erfolgt der Transfer zum Hotel. Übernachtung in Taschkent.\n\nNach einem späten Frühstück kurze Stadtrundfahrt mit Besichtigung der Medresse \nKukaldash, der Barak-Chan-Medresse, des Kaffal-Shashi-Mausoleums.",
 			duration: 13,
 			price_from: 1000,
 			price_to: 1120,
@@ -2694,7 +2726,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "ANREISE – TASCHKENT, USBEKISTAN",
-					description: "",
+					description:
+						"Übernachtung in Tashkent. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 1,
 					position: 2,
 					details: {
@@ -2744,7 +2777,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Taschkent – die Stadt der Gastfreundschaft und des Brotes",
-					description: "",
+					description:
+						"Übernachtung in Tashkent. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 2,
 					position: 3,
 					details: {
@@ -2794,7 +2828,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "FAHRT VON TASCHKENT ÜBER DEN GRENZPOSTEN OYBEK NACH CHODSCHAND  (TADSCHIKISTAN) Entfernung: 170 km, Fahrzeit: ca. 3 St",
-					description: "",
+					description:
+						"Übernachtung in Khujand. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 3,
 					position: 3,
 					details: {
@@ -2844,7 +2879,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "TRANSFER VON CHODSCHAND NACH DUSCHANBE MIT BUS ODER MINIVAN  Strecke: 310 km, voraussichtliche Fahrzeit: ca. 5 Stunden 30 Min.",
-					description: "",
+					description:
+						"Übernachtung in Dushanbe. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 4,
 					position: 3,
 					details: {
@@ -2894,7 +2930,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "DUSCHANBE – HISSAR (Fahrt Mit Bus/Minivan)",
-					description: "",
+					description:
+						"Übernachtung in Dushanbe. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 5,
 					position: 3,
 					details: {
@@ -3001,7 +3038,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "FAHRT VON DUSCHANBE ÜBER DIE SIEBEN SEEN UND PANJAKENT ZUM GRENZPUNKT  JARTEPA, ANSCHLIESSEND WEITERFAHRT NACH SAMARKAND, USBEKISTAN",
-					description: "",
+					description:
+						"Übernachtung in Samarkand. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 6,
 					position: 4,
 					details: {
@@ -3051,7 +3089,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Samarkand – Glanz und Legenden des Orients",
-					description: "",
+					description:
+						"Übernachtung in Samarkand. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 7,
 					position: 3,
 					details: {
@@ -3101,7 +3140,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Samarkand – Zwischen Märchen und Geschichte",
-					description: "",
+					description:
+						"Übernachtung in Samarkand. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 8,
 					position: 3,
 					details: {
@@ -3151,7 +3191,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Buchara – die Edle",
-					description: "",
+					description:
+						"Übernachtung in Bukhara. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 9,
 					position: 3,
 					details: {
@@ -3201,7 +3242,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Architektonische Schätze des Islam",
-					description: "",
+					description:
+						"Übernachtung in Bukhara. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 10,
 					position: 3,
 					details: {
@@ -3251,7 +3293,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Durch die endlosen Landschaften der Kysylkum-Wüste",
-					description: "",
+					description:
+						"Übernachtung in Khiva. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 11,
 					position: 3,
 					details: {
@@ -3301,7 +3344,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Die Kleinste unter den Großartigen",
-					description: "",
+					description:
+						"Übernachtung in Khiva. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 12,
 					position: 3,
 					details: {
@@ -3351,7 +3395,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Abschied von der Seidenstraße",
-					description: "",
+					description:
+						"Übernachtung in Khiva. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 13,
 					position: 3,
 					details: {
@@ -3636,7 +3681,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Arrivé à Ourgentch ou Nukous",
-					description: "",
+					description:
+						"Nuit à Nukus. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 1,
 					position: 2,
 					details: {
@@ -3675,7 +3721,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Découverte de la Mer d'Aral",
-					description: "",
+					description:
+						"Nuit à Nukus. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 2,
 					position: 2,
 					details: {
@@ -3714,7 +3761,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Direction Khiva en passant par les forteresses",
-					description: "",
+					description:
+						"Nuit à Khiva. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 3,
 					position: 2,
 					details: {
@@ -3753,7 +3801,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Khiva : Ville mille et une nuit",
-					description: "",
+					description:
+						"Nuit à Khiva. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 4,
 					position: 2,
 					details: {
@@ -3792,7 +3841,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Direction vers Boukhara",
-					description: "",
+					description:
+						"Nuit à Bukhara. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 5,
 					position: 2,
 					details: {
@@ -3831,7 +3881,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: 'Boukhara - les marchés "la Route de la Soie"',
-					description: "",
+					description:
+						"Nuit à Bukhara. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 6,
 					position: 2,
 					details: {
@@ -3870,7 +3921,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Aux alentours de Boukhara en vélo!",
-					description: "",
+					description:
+						"Nuit à Bukhara. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 7,
 					position: 2,
 					details: {
@@ -3909,7 +3961,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Trajet vers Aydarkoul!",
-					description: "",
+					description:
+						"Nuit à Aydarkul. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 8,
 					position: 2,
 					details: {
@@ -3948,7 +4001,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Découverte chez l'habitant au coeur de montagnes de Nourota",
-					description: "",
+					description:
+						"Nuit à Nurata. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 9,
 					position: 2,
 					details: {
@@ -4029,7 +4083,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Randonnée depuis chez l'habitant",
-					description: "",
+					description:
+						"Nuit à Nurata. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 10,
 					position: 6,
 					details: {
@@ -4068,7 +4123,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Direction Samarcande",
-					description: "",
+					description:
+						"Nuit à Samarkand. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 11,
 					position: 2,
 					details: {
@@ -4107,7 +4163,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Visite à Samarcande et temps libre",
-					description: "",
+					description:
+						"Nuit à Samarkand. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 12,
 					position: 2,
 					details: {
@@ -4146,7 +4203,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Train de nuit et Arrivée à Denau!",
-					description: "",
+					description:
+						"Nuit à Denau. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 13,
 					position: 2,
 					details: {
@@ -4185,7 +4243,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Direction Boysun!",
-					description: "",
+					description:
+						"Nuit à Boysun. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 14,
 					position: 2,
 					details: {
@@ -4224,7 +4283,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Arrivée à Tachkent - métropole de l'Asie Centrale",
-					description: "",
+					description:
+						"Nuit à Tashkent. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 15,
 					position: 2,
 					details: {
@@ -4263,7 +4323,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Découverte de Tachkent avant de départ!",
-					description: "",
+					description:
+						"Nuit à Tashkent. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 16,
 					position: 2,
 					details: {
@@ -4289,8 +4350,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					primary_image_path: "/assets/images/city/tashkent.jpg"
 				},
 				{
-					name: "",
-					description: "",
+					name: "Programme du jour 17 selon l'itinéraire.",
+					description: "Activités du jour selon l'itinéraire.",
 					day: 17,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -4304,8 +4365,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 	"2b1889a8-3f22-4afe-9ea4-c2933c8dedd1": {
 		catalog: {
 			id: "2b1889a8-3f22-4afe-9ea4-c2933c8dedd1",
-			title: "",
-			description: "",
+			title: "Classic Uzbekistan Tour",
+			description:
+				"Classic Uzbekistan Tour — an expertly crafted journey through Central Asia's most remarkable destinations, combining culture, history, and authentic local experiences.",
 			duration: 6,
 			price_from: 1000,
 			price_to: 1120,
@@ -4320,7 +4382,7 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 			schedule_id: null,
 			agency_id: "agency-2b1889a8",
 			landing_id: "landing-2b1889a8",
-			name: "",
+			name: "Classic Uzbekistan Tour",
 			cover_image_path: "/assets/images/tours/classic.jpg",
 			group_size: 12,
 			group_size_min: 2,
@@ -4334,7 +4396,7 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 			categories: []
 		},
 		landing: {
-			title: "",
+			title: "Classic Uzbekistan Tour",
 			overview: null,
 			description: null,
 			overview_description:
@@ -4371,7 +4433,7 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 		options: [
 			{
 				id: "2b1889a8-3f22-4afe-9ea4-c2933c8dedd1-default",
-				name: "",
+				name: "Classic Uzbekistan Tour",
 				description: null,
 				cover_image_path: "/assets/images/city/tashkent.jpg",
 				total_price: {
@@ -4405,7 +4467,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 			events: [
 				{
 					name: "Hotel Check-in/out",
-					description: "",
+					description:
+						"Hotel check-in and check-out according to the schedule.",
 					day: 1,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -4415,7 +4478,7 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				},
 				{
 					name: "Museum Visit",
-					description: "",
+					description: "Museum visit in Tashkent with a local guide.",
 					day: 1,
 					position: 2,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -4442,7 +4505,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				},
 				{
 					name: "Program",
-					description: "",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 1,
 					position: 3,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -4451,8 +4515,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "Tashkent - Tashkent",
+					description:
+						"Travel from Tashkent to Tashkent by private air-conditioned vehicle with a professional driver.",
 					day: 1,
 					position: 4,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -4495,8 +4560,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				},
 				{
 					typ: "5",
-					name: "",
-					description: "",
+					name: "Hotel in Tashkent",
+					description:
+						"Overnight stay in Tashkent. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 1,
 					position: 5,
 					details: {
@@ -4522,8 +4588,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					primary_image_path: "/assets/images/city/tashkent.jpg"
 				},
 				{
-					name: "",
-					description: "",
+					name: "Day 2 program according to the itinerary.",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 2,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -4532,8 +4599,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "Day 3 program according to the itinerary.",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 3,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -4542,8 +4610,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "Day 4 program according to the itinerary.",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 4,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -4552,8 +4621,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "Day 5 program according to the itinerary.",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 5,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -4562,8 +4632,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "Day 6 program according to the itinerary.",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 6,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -4705,7 +4776,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "ウズベキスタンの旅の始まり ～ タシケント到着",
-					description: "",
+					description:
+						"Tashkentでの宿泊。チェックイン14:00から、チェックアウト12:00まで。朝食付きの快適な宿泊施設。",
 					day: 1,
 					position: 3,
 					details: {
@@ -4731,8 +4803,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					primary_image_path: "/assets/images/city/tashkent.jpg"
 				},
 				{
-					name: "",
-					description: "",
+					name: "2日目のプログラム。",
+					description:
+						"2日目のプログラム。. 旅程に沿った当日のプログラム。",
 					day: 2,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -4741,8 +4814,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "3日目のプログラム。",
+					description:
+						"3日目のプログラム。. 旅程に沿った当日のプログラム。",
 					day: 3,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -4751,8 +4825,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "4日目のプログラム。",
+					description:
+						"4日目のプログラム。. 旅程に沿った当日のプログラム。",
 					day: 4,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -4761,8 +4836,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "5日目のプログラム。",
+					description:
+						"5日目のプログラム。. 旅程に沿った当日のプログラム。",
 					day: 5,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -4771,8 +4847,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "6日目のプログラム。",
+					description:
+						"6日目のプログラム。. 旅程に沿った当日のプログラム。",
 					day: 6,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -4781,8 +4858,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "7日目のプログラム。",
+					description:
+						"7日目のプログラム。. 旅程に沿った当日のプログラム。",
 					day: 7,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -4971,7 +5049,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "ТАШКЕНТ",
-					description: "",
+					description:
+						"Ночёвка в Tashkent. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 1,
 					position: 4,
 					details: {
@@ -5010,7 +5089,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "ТАШКЕНТ-БУХАРА (на поезде или на самолете)",
-					description: "",
+					description:
+						"Ночёвка в Bukhara. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 2,
 					position: 2,
 					details: {
@@ -5066,7 +5146,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "БУХАРА",
-					description: "",
+					description:
+						"Ночёвка в Bukhara. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 3,
 					position: 2,
 					details: {
@@ -5146,7 +5227,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "БУХАРА-САМАРКАНД (на поезде)",
-					description: "",
+					description:
+						"Ночёвка в Samarkand. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 4,
 					position: 3,
 					details: {
@@ -5202,7 +5284,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "САМАРКАНД.",
-					description: "",
+					description:
+						"Ночёвка в Samarkand. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 5,
 					position: 2,
 					details: {
@@ -5301,7 +5384,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "САМАРКАНД-ТАШКЕНТ (на поезде)",
-					description: "",
+					description:
+						"Ночёвка в Tashkent. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 6,
 					position: 5,
 					details: {
@@ -5368,7 +5452,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "ТАШКЕНТ",
-					description: "",
+					description:
+						"Ночёвка в Samarkand. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 7,
 					position: 3,
 					details: {
@@ -5825,7 +5910,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "ТАШКЕНТ",
-					description: "",
+					description:
+						"Ночёвка в Tashkent. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 1,
 					position: 4,
 					details: {
@@ -5864,7 +5950,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "ТАШКЕНТ-БУХАРА (на поезде или на самолете)",
-					description: "",
+					description:
+						"Ночёвка в Bukhara. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 2,
 					position: 2,
 					details: {
@@ -5920,7 +6007,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "БУХАРА",
-					description: "",
+					description:
+						"Ночёвка в Bukhara. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 3,
 					position: 2,
 					details: {
@@ -6000,7 +6088,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "БУХАРА-САМАРКАНД (на поезде)",
-					description: "",
+					description:
+						"Ночёвка в Samarkand. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 4,
 					position: 3,
 					details: {
@@ -6056,7 +6145,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "САМАРКАНД.",
-					description: "",
+					description:
+						"Ночёвка в Samarkand. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 5,
 					position: 2,
 					details: {
@@ -6155,7 +6245,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "САМАРКАНД-ТАШКЕНТ (на поезде)",
-					description: "",
+					description:
+						"Ночёвка в Tashkent. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 6,
 					position: 5,
 					details: {
@@ -6222,7 +6313,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "ТАШКЕНТ",
-					description: "",
+					description:
+						"Ночёвка в Samarkand. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 7,
 					position: 3,
 					details: {
@@ -6396,7 +6488,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Arrivée à Tachkent, le 5 Juillet",
-					description: "",
+					description:
+						"Nuit à Tashkent. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 1,
 					position: 2,
 					details: {
@@ -6435,7 +6528,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Direction Ougam National Parc, le 6 Juillet",
-					description: "",
+					description:
+						"Nuit à Charvak. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 2,
 					position: 2,
 					details: {
@@ -6485,7 +6579,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Les Montanges de Tian Shan, le 7 Juillet",
-					description: "",
+					description:
+						"Nuit à Charvak. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 3,
 					position: 3,
 					details: {
@@ -6524,7 +6619,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Train de nuit et Arrivée à Denau, le 8 Juillet",
-					description: "",
+					description:
+						"Nuit à Denau. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 4,
 					position: 2,
 					details: {
@@ -6574,7 +6670,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Direction Boysun, le 9 Juillet",
-					description: "",
+					description:
+						"Nuit à Boysun. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 5,
 					position: 3,
 					details: {
@@ -6630,7 +6727,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Visite à Samarcand,  le 10 juillet",
-					description: "",
+					description:
+						"Nuit à Samarkand. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 6,
 					position: 2,
 					details: {
@@ -6727,7 +6825,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "De Samarcande à Hayat Village, le 11 juillet",
-					description: "",
+					description:
+						"Nuit à Samarkand. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 7,
 					position: 3,
 					details: {
@@ -6808,7 +6907,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Randonnée depuis chez l'habitant, le 12 juillet",
-					description: "",
+					description:
+						"Nuit à Nurata. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 8,
 					position: 6,
 					details: {
@@ -6847,7 +6947,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Découverte chez l'habitant au coeur de montagnes de Nourota, le 13 juillet",
-					description: "",
+					description:
+						"Nuit à Nurata. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 9,
 					position: 2,
 					details: {
@@ -6903,7 +7004,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Trajet vers Aydarkoul, le 14 juillet",
-					description: "",
+					description:
+						"Nuit à Aydarkul. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 10,
 					position: 2,
 					details: {
@@ -6972,7 +7074,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Direction vers Boukhara, le 15 juillet",
-					description: "",
+					description:
+						"Nuit à Bukhara. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 11,
 					position: 2,
 					details: {
@@ -7028,7 +7131,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: 'Boukhara - les marchés "la Route de la Soie", le 16 juillet',
-					description: "",
+					description:
+						"Nuit à Bukhara. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 12,
 					position: 2,
 					details: {
@@ -7097,7 +7201,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Direction Khiva, en train ou en voiture (selon les disponibilités de train), le 17 juillet",
-					description: "",
+					description:
+						"Nuit à Khiva. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 13,
 					position: 2,
 					details: {
@@ -7153,7 +7258,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Khiva : Ville mille et une nuit, le 18 juillet",
-					description: "",
+					description:
+						"Nuit à Khiva. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 14,
 					position: 2,
 					details: {
@@ -7209,7 +7315,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Direction Noukous en passant par les forteresses, le 19 juillet",
-					description: "",
+					description:
+						"Nuit à Aral Sea. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 15,
 					position: 2,
 					details: {
@@ -7248,7 +7355,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "La Mer d'Aral! le 20 juillet",
-					description: "",
+					description:
+						"Nuit à Aral Sea. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 16,
 					position: 2,
 					details: {
@@ -7327,7 +7435,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Matinée libre dans la Mer d'Aral et la route vers Khiva! le 21 juillet",
-					description: "",
+					description:
+						"Nuit à Khiva. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 17,
 					position: 3,
 					details: {
@@ -7396,7 +7505,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Départ de Ourgentch! le 22 juillet",
-					description: "",
+					description:
+						"Nuit à Khiva. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 18,
 					position: 2,
 					details: {
@@ -7565,7 +7675,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				},
 				{
 					name: "11:35成田空港発（直行便）16:40タシケント国際線空港着",
-					description: "",
+					description:
+						"11:35成田空港発（直行便）16:40タシケント国際線空港着. 旅程に沿った当日のプログラム。",
 					day: 1,
 					position: 2,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -7606,7 +7717,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "11:35成田空港発（直行便）16:40タシケント国際線空港着",
-					description: "",
+					description:
+						"Tashkentでの宿泊。チェックイン14:00から、チェックアウト12:00まで。朝食付きの快適な宿泊施設。",
 					day: 1,
 					position: 3,
 					details: {
@@ -7662,7 +7774,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "専用車にてサマルカンドへ移動（300km、約4～5時間）",
-					description: "",
+					description:
+						"Samarkandでの宿泊。チェックイン14:00から、チェックアウト12:00まで。朝食付きの快適な宿泊施設。",
 					day: 2,
 					position: 2,
 					details: {
@@ -7885,7 +7998,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Arrival in Tashkent",
-					description: "",
+					description:
+						"Overnight stay in Tashkent. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 1,
 					position: 6,
 					details: {
@@ -7977,7 +8091,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Tashkent - Samarkand by morning train",
-					description: "",
+					description:
+						"Overnight stay in Samarkand. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 2,
 					position: 7,
 					details: {
@@ -8058,7 +8173,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Samarkand (full day)",
-					description: "",
+					description:
+						"Overnight stay in Samarkand. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 3,
 					position: 6,
 					details: {
@@ -8128,7 +8244,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Samarkand - Bukhara by car",
-					description: "",
+					description:
+						"Overnight stay in Bukhara. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 4,
 					position: 5,
 					details: {
@@ -8219,7 +8336,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Bukhara - Tashkent by afternoon train",
-					description: "",
+					description:
+						"Overnight stay in Tashkent. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 5,
 					position: 7,
 					details: {
@@ -8430,7 +8548,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Arrival in Tashkent",
-					description: "",
+					description:
+						"Overnight stay in Tashkent. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 1,
 					position: 6,
 					details: {
@@ -8522,7 +8641,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Tashkent - Samarkand by morning train",
-					description: "",
+					description:
+						"Overnight stay in Samarkand. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 2,
 					position: 7,
 					details: {
@@ -8603,7 +8723,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Samarkand (full day)",
-					description: "",
+					description:
+						"Overnight stay in Samarkand. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 3,
 					position: 6,
 					details: {
@@ -8673,7 +8794,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Samarkand - Bukhara by car",
-					description: "",
+					description:
+						"Overnight stay in Bukhara. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 4,
 					position: 5,
 					details: {
@@ -8764,7 +8886,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Bukhara - Tashkent by afternoon train",
-					description: "",
+					description:
+						"Overnight stay in Tashkent. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 5,
 					position: 7,
 					details: {
@@ -8927,7 +9050,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 		catalog: {
 			id: "a1efcd06-f3f7-43ac-b102-d930b51ff47d",
 			title: "HISTORISCHE SCHÄTZE USBEKISTANS",
-			description: "",
+			description:
+				"Nach dem Frühstück kurze Stadtrundfahrt mit Besichtigung der Medresse \nKukaldash, der Barak-Chan-Medresse, des Kaffal-Shashi-Mausoleums.\n\nBesuch des Basars Chorsu, sowie der Navoi\nOper (Außenbesichtigung).\nZwei Übernachtungen in Taschkent.",
 			duration: 8,
 			price_from: 1000,
 			price_to: 1120,
@@ -9099,7 +9223,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Zwischen Tradition und Moderne – Taschkent",
-					description: "",
+					description:
+						"Übernachtung in Tashkent. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 1,
 					position: 3,
 					details: {
@@ -9149,7 +9274,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Eine märchenhafte Welt des Orients",
-					description: "",
+					description:
+						"Übernachtung in Samarkand. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 2,
 					position: 3,
 					details: {
@@ -9199,7 +9325,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Glanzstück der Seidenstraße",
-					description: "",
+					description:
+						"Übernachtung in Samarkand. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 3,
 					position: 3,
 					details: {
@@ -9249,7 +9376,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Buchara – die Edle",
-					description: "",
+					description:
+						"Übernachtung in Bukhara. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 4,
 					position: 3,
 					details: {
@@ -9299,7 +9427,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Architektonische Schätze des Islam",
-					description: "",
+					description:
+						"Übernachtung in Bukhara. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 5,
 					position: 3,
 					details: {
@@ -9349,7 +9478,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Durch die endlosen Landschaften der Kysylkum-Wüste",
-					description: "",
+					description:
+						"Übernachtung in Khiva. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 6,
 					position: 3,
 					details: {
@@ -9399,7 +9529,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Die Kleinste unter den Großartigen",
-					description: "",
+					description:
+						"Übernachtung in Khiva. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 7,
 					position: 3,
 					details: {
@@ -9438,7 +9569,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Abschied von der Seidenstraße",
-					description: "",
+					description:
+						"Übernachtung in Khiva. Check-in ab 14:00 Uhr, Check-out bis 12:00 Uhr. Komfortable Unterkunft mit Frühstück.",
 					day: 8,
 					position: 2,
 					details: {
@@ -9631,7 +9763,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "ХИВА",
-					description: "",
+					description:
+						"Ночёвка в Khiva. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 1,
 					position: 3,
 					details: {
@@ -9681,7 +9814,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "ХИВА-БУХАРА (на поезде)",
-					description: "",
+					description:
+						"Ночёвка в Bukhara. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 2,
 					position: 3,
 					details: {
@@ -9737,7 +9871,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "БУХАРА",
-					description: "",
+					description:
+						"Ночёвка в Bukhara. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 3,
 					position: 2,
 					details: {
@@ -9787,7 +9922,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "БУХАРА-САМАРКАНД (на поезде)",
-					description: "",
+					description:
+						"Ночёвка в Samarkand. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 4,
 					position: 3,
 					details: {
@@ -9843,7 +9979,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "САМАРКАНД",
-					description: "",
+					description:
+						"Ночёвка в Samarkand. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 5,
 					position: 2,
 					details: {
@@ -9893,7 +10030,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "САМАРКАНД-ТАШКЕНТ",
-					description: "",
+					description:
+						"Ночёвка в Tashkent. Заезд с 14:00, выезд до 12:00. Комфортное размещение с завтраком.",
 					day: 6,
 					position: 3,
 					details: {
@@ -10064,7 +10202,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "En la mañana nos encontramos con el guía hispanohablante en el Hotel y comenzamos nuestra visita explorando el complejo de 26 hectáreas de Ichan Qala",
-					description: "",
+					description:
+						"Noche en Khiva. Check-in desde las 14:00, check-out hasta las 12:00. Alojamiento cómodo con desayuno incluido.",
 					day: 1,
 					position: 2,
 					details: {
@@ -10226,7 +10365,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Arrivée à Samarcande",
-					description: "",
+					description:
+						"Nuit à Samarkand. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 1,
 					position: 2,
 					details: {
@@ -10265,7 +10405,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "La Perle d'Orient - Samarcande",
-					description: "",
+					description:
+						"Nuit à Samarkand. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 2,
 					position: 2,
 					details: {
@@ -10304,7 +10445,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Samarcande, la cité du papier de soie",
-					description: "",
+					description:
+						"Nuit à Samarkand. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 3,
 					position: 2,
 					details: {
@@ -10343,7 +10485,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Samarcande - Boukhara en Bus, 280 km",
-					description: "",
+					description:
+						"Nuit à Bukhara. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 4,
 					position: 2,
 					details: {
@@ -10382,7 +10525,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Découverte de Boukhara",
-					description: "",
+					description:
+						"Nuit à Bukhara. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 5,
 					position: 2,
 					details: {
@@ -10421,7 +10565,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Depuis Boukhara, direction à Khiva en Bus 450km",
-					description: "",
+					description:
+						"Nuit à Khiva. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 6,
 					position: 2,
 					details: {
@@ -10460,7 +10605,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Musée à ciel ouvert, Khiva",
-					description: "",
+					description:
+						"Nuit à Khiva. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 7,
 					position: 2,
 					details: {
@@ -10510,7 +10656,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Direction Tachkent en vol domestique!",
-					description: "",
+					description:
+						"Nuit à Tashkent. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 8,
 					position: 3,
 					details: {
@@ -10549,7 +10696,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "TACHKENT - DEPART",
-					description: "",
+					description:
+						"Nuit à Tashkent. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 9,
 					position: 2,
 					details: {
@@ -10711,7 +10859,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Arrivé à Ourgentch ou Nukous",
-					description: "",
+					description:
+						"Nuit à Nukus. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 1,
 					position: 2,
 					details: {
@@ -10750,7 +10899,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Découverte de la Mer d'Aral",
-					description: "",
+					description:
+						"Nuit à Nukus. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 2,
 					position: 2,
 					details: {
@@ -10789,7 +10939,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Direction Khiva en passant par les forteresses",
-					description: "",
+					description:
+						"Nuit à Khiva. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 3,
 					position: 2,
 					details: {
@@ -10828,7 +10979,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Khiva : Ville mille et une nuit",
-					description: "",
+					description:
+						"Nuit à Khiva. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 4,
 					position: 2,
 					details: {
@@ -10867,7 +11019,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Direction vers Boukhara",
-					description: "",
+					description:
+						"Nuit à Bukhara. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 5,
 					position: 2,
 					details: {
@@ -10906,7 +11059,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: 'Boukhara - les marchés "la Route de la Soie"',
-					description: "",
+					description:
+						"Nuit à Bukhara. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 6,
 					position: 2,
 					details: {
@@ -10945,7 +11099,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Aux alentours de Boukhara en vélo!",
-					description: "",
+					description:
+						"Nuit à Bukhara. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 7,
 					position: 2,
 					details: {
@@ -10984,7 +11139,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Trajet vers Aydarkoul!",
-					description: "",
+					description:
+						"Nuit à Aydarkul. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 8,
 					position: 2,
 					details: {
@@ -11023,7 +11179,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Découverte chez l'habitant au coeur de montagnes de Nourota",
-					description: "",
+					description:
+						"Nuit à Nurata. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 9,
 					position: 2,
 					details: {
@@ -11104,7 +11261,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Randonnée depuis chez l'habitant",
-					description: "",
+					description:
+						"Nuit à Nurata. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 10,
 					position: 6,
 					details: {
@@ -11143,7 +11301,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Direction Samarcande",
-					description: "",
+					description:
+						"Nuit à Samarkand. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 11,
 					position: 2,
 					details: {
@@ -11182,7 +11341,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Visite à Samarcande et temps libre",
-					description: "",
+					description:
+						"Nuit à Samarkand. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 12,
 					position: 2,
 					details: {
@@ -11221,7 +11381,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Train de nuit et Arrivée à Denau!",
-					description: "",
+					description:
+						"Nuit à Denau. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 13,
 					position: 2,
 					details: {
@@ -11260,7 +11421,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Direction Boysun!",
-					description: "",
+					description:
+						"Nuit à Boysun. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 14,
 					position: 2,
 					details: {
@@ -11299,7 +11461,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Arrivée à Tachkent - métropole de l'Asie Centrale",
-					description: "",
+					description:
+						"Nuit à Tashkent. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 15,
 					position: 2,
 					details: {
@@ -11338,7 +11501,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Découverte de Tachkent avant de départ!",
-					description: "",
+					description:
+						"Nuit à Tashkent. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 16,
 					position: 2,
 					details: {
@@ -11492,7 +11656,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "En la mañana a las 09:00 .  encuentro con el guía y conductor en el  hotel en Samarcanda para iniciar el viaje hacia el desierto de Kyzyl Kum",
-					description: "",
+					description:
+						"Nuit à Aydarkul. Enregistrement à partir de 14h00, départ avant 12h00. Hébergement confortable avec petit-déjeuner.",
 					day: 1,
 					position: 2,
 					details: {
@@ -11534,8 +11699,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 	"d45b8dc4-1667-45a5-9ee7-23f2c5fb45e0": {
 		catalog: {
 			id: "d45b8dc4-1667-45a5-9ee7-23f2c5fb45e0",
-			title: "",
-			description: "",
+			title: "Classic Uzbekistan Tour",
+			description:
+				"Classic Uzbekistan Tour — an expertly crafted journey through Central Asia's most remarkable destinations, combining culture, history, and authentic local experiences.",
 			duration: 7,
 			price_from: 1000,
 			price_to: 1120,
@@ -11550,7 +11716,7 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 			schedule_id: null,
 			agency_id: "agency-d45b8dc4",
 			landing_id: "landing-d45b8dc4",
-			name: "",
+			name: "Classic Uzbekistan Tour",
 			cover_image_path: "/assets/images/tours/multi-country.jpg",
 			group_size: 12,
 			group_size_min: 2,
@@ -11564,7 +11730,7 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 			categories: []
 		},
 		landing: {
-			title: "",
+			title: "Classic Uzbekistan Tour",
 			overview: null,
 			description: null,
 			overview_description: null,
@@ -11594,7 +11760,7 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 		options: [
 			{
 				id: "d45b8dc4-1667-45a5-9ee7-23f2c5fb45e0-default",
-				name: "",
+				name: "Classic Uzbekistan Tour",
 				description: null,
 				cover_image_path: "/assets/images/city/tashkent.jpg",
 				total_price: {
@@ -11627,8 +11793,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 			},
 			events: [
 				{
-					name: "",
-					description: "",
+					name: "Day 1 program according to the itinerary.",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 1,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -11637,8 +11804,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "Day 2 program according to the itinerary.",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 2,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -11647,8 +11815,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "Day 3 program according to the itinerary.",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 3,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -11657,8 +11826,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "Day 4 program according to the itinerary.",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 4,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -11667,8 +11837,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "Day 5 program according to the itinerary.",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 5,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -11677,8 +11848,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "Day 6 program according to the itinerary.",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 6,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -11687,8 +11859,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "Day 7 program according to the itinerary.",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 7,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -11899,7 +12072,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				},
 				{
 					name: "Hotel Check-in/out",
-					description: "",
+					description:
+						"Hotel check-in and check-out according to the schedule.",
 					day: 1,
 					position: 7,
 					image_paths: ["/assets/images/city/samarkand.jpg"],
@@ -11909,7 +12083,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				},
 				{
 					name: "Program",
-					description: "",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 1,
 					position: 8,
 					image_paths: ["/assets/images/city/samarkand.jpg"],
@@ -11920,7 +12095,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Tashkent - Samarkand by morning train",
-					description: "",
+					description:
+						"Overnight stay in Samarkand. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 1,
 					position: 9,
 					details: {
@@ -11946,8 +12122,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					primary_image_path: "/assets/images/city/samarkand.jpg"
 				},
 				{
-					name: "",
-					description: "",
+					name: "Day 2 program according to the itinerary.",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 2,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -11956,8 +12133,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "Day 3 program according to the itinerary.",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 3,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -11966,8 +12144,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "Day 4 program according to the itinerary.",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 4,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -11976,8 +12155,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "Day 5 program according to the itinerary.",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 5,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -11986,8 +12166,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "Day 6 program according to the itinerary.",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 6,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -11996,8 +12177,9 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 					details: {}
 				},
 				{
-					name: "",
-					description: "",
+					name: "Day 7 program according to the itinerary.",
+					description:
+						"Tour program activities for the day as described in the itinerary.",
 					day: 7,
 					position: 1,
 					image_paths: ["/assets/images/city/tashkent.jpg"],
@@ -12040,7 +12222,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Khiva (full day)",
-					description: "",
+					description:
+						"Overnight stay in Khiva. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 8,
 					position: 4,
 					details: {
@@ -12365,7 +12548,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Arrival in Tashkent",
-					description: "",
+					description:
+						"Overnight stay in Tashkent. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 1,
 					position: 6,
 					details: {
@@ -12457,7 +12641,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Tashkent - Samarkand by morning train",
-					description: "",
+					description:
+						"Overnight stay in Samarkand. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 2,
 					position: 7,
 					details: {
@@ -12538,7 +12723,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Samarkand (full day)",
-					description: "",
+					description:
+						"Overnight stay in Samarkand. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 3,
 					position: 6,
 					details: {
@@ -12608,7 +12794,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Samarkand - Bukhara by car",
-					description: "",
+					description:
+						"Overnight stay in Bukhara. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 4,
 					position: 5,
 					details: {
@@ -12678,7 +12865,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Bukhara (full day)",
-					description: "",
+					description:
+						"Overnight stay in Bukhara. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 5,
 					position: 5,
 					details: {
@@ -12717,7 +12905,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Bukhara - Khiva by car",
-					description: "",
+					description:
+						"Overnight stay in Khiva. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 6,
 					position: 2,
 					details: {
@@ -12777,7 +12966,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Khiva (full day)",
-					description: "",
+					description:
+						"Overnight stay in Khiva. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 7,
 					position: 4,
 					details: {
@@ -12951,7 +13141,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Paris / Ourguentch",
-					description: "",
+					description:
+						"Overnight stay in Khiva. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 1,
 					position: 2,
 					details: {
@@ -12990,7 +13181,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Ourguentch / Khiva (30 km / 30 min)",
-					description: "",
+					description:
+						"Overnight stay in Khiva. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 2,
 					position: 2,
 					details: {
@@ -13029,7 +13221,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Khiva : Ville mille et une nuit",
-					description: "",
+					description:
+						"Overnight stay in Khiva. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 3,
 					position: 2,
 					details: {
@@ -13068,7 +13261,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Direction Boukhara (450 km / 8h, en bus)",
-					description: "",
+					description:
+						"Overnight stay in Bukhara. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 4,
 					position: 2,
 					details: {
@@ -13107,7 +13301,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: 'Boukhara - les marchés "la Route de la Soie"',
-					description: "",
+					description:
+						"Overnight stay in Bukhara. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 5,
 					position: 2,
 					details: {
@@ -13146,7 +13341,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Aux alentours de Boukhara!",
-					description: "",
+					description:
+						"Overnight stay in Bukhara. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 6,
 					position: 2,
 					details: {
@@ -13185,7 +13381,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Trajet vers Aydarkoul!",
-					description: "",
+					description:
+						"Overnight stay in Aydarkul. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 7,
 					position: 2,
 					details: {
@@ -13224,7 +13421,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Direction Samarcande",
-					description: "",
+					description:
+						"Overnight stay in Samarkand. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 8,
 					position: 2,
 					details: {
@@ -13263,7 +13461,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Visite à Samarcande et temps libre",
-					description: "",
+					description:
+						"Overnight stay in Samarkand. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 9,
 					position: 2,
 					details: {
@@ -13313,7 +13512,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Arrivée à Tachkent - métropole de l'Asie Centrale",
-					description: "",
+					description:
+						"Overnight stay in Tashkent. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 10,
 					position: 3,
 					details: {
@@ -13352,7 +13552,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Découverte de Tachkent avant de départ!",
-					description: "",
+					description:
+						"Overnight stay in Tashkent. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 11,
 					position: 2,
 					details: {
@@ -13391,7 +13592,8 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 				{
 					typ: "5",
 					name: "Paris",
-					description: "",
+					description:
+						"Overnight stay in Tashkent. Check-in from 2:00 PM, check-out until 12:00 PM. Comfortable accommodation with breakfast included.",
 					day: 12,
 					position: 2,
 					details: {
@@ -13451,7 +13653,8 @@ export const CATALOG_TOURS_MOCK: ICatalogTourBackend[] = [
 	{
 		id: "1ba7f901-b032-4fdc-9071-cc9341409215",
 		title: "Höhepunkte Zentralasiens: Kirgisistan & Usbekistan",
-		description: "",
+		description:
+			"Flug von Österreich mit Turkish Airlines nach Bischkek. \nAnkunft am internationalen Flughafen Manas, Empfang durch die örtliche Reiseleitung und \nTransfer zum Hotel.\n\nFrühstück im Hotel. Fahrt zum Burana-Komplex.",
 		duration: 13,
 		price_from: 1000,
 		price_to: 1120,
@@ -13463,7 +13666,8 @@ export const CATALOG_TOURS_MOCK: ICatalogTourBackend[] = [
 	{
 		id: "1ec1e49d-0d52-4708-9c3b-fe5030a2c8d0",
 		title: "Kulturelle Schätze Zentralasiens: Usbekistan und Tadschikistan entdecken",
-		description: "",
+		description:
+			"Ankunft in Taschkent 21:05 mit Uzbekistan Airways oder 01:20 mit Turkish Airlines.  Nach der \nAnkunft erfolgt der Transfer zum Hotel. Übernachtung in Taschkent.\n\nNach einem späten Frühstück kurze Stadtrundfahrt mit Besichtigung der Medresse \nKukaldash, der Barak-Chan-Medresse, des Kaffal-Shashi-Mausoleums.",
 		duration: 13,
 		price_from: 1000,
 		price_to: 1120,
@@ -13500,8 +13704,9 @@ export const CATALOG_TOURS_MOCK: ICatalogTourBackend[] = [
 	},
 	{
 		id: "2b1889a8-3f22-4afe-9ea4-c2933c8dedd1",
-		title: "",
-		description: "",
+		title: "Classic Uzbekistan Tour",
+		description:
+			"Classic Uzbekistan Tour — an expertly crafted journey through Central Asia's most remarkable destinations, combining culture, history, and authentic local experiences.",
 		duration: 6,
 		price_from: 1000,
 		price_to: 1120,
@@ -13641,7 +13846,8 @@ export const CATALOG_TOURS_MOCK: ICatalogTourBackend[] = [
 	{
 		id: "a1efcd06-f3f7-43ac-b102-d930b51ff47d",
 		title: "HISTORISCHE SCHÄTZE USBEKISTANS",
-		description: "",
+		description:
+			"Nach dem Frühstück kurze Stadtrundfahrt mit Besichtigung der Medresse \nKukaldash, der Barak-Chan-Medresse, des Kaffal-Shashi-Mausoleums.\n\nBesuch des Basars Chorsu, sowie der Navoi\nOper (Außenbesichtigung).\nZwei Übernachtungen in Taschkent.",
 		duration: 8,
 		price_from: 1000,
 		price_to: 1120,
@@ -13717,8 +13923,9 @@ export const CATALOG_TOURS_MOCK: ICatalogTourBackend[] = [
 	},
 	{
 		id: "d45b8dc4-1667-45a5-9ee7-23f2c5fb45e0",
-		title: "",
-		description: "",
+		title: "Classic Uzbekistan Tour",
+		description:
+			"Classic Uzbekistan Tour — an expertly crafted journey through Central Asia's most remarkable destinations, combining culture, history, and authentic local experiences.",
 		duration: 7,
 		price_from: 1000,
 		price_to: 1120,
@@ -13811,7 +14018,8 @@ export const POPULAR_TOURS_MOCK: ICatalogTourBackend[] = [
 	{
 		id: "1ba7f901-b032-4fdc-9071-cc9341409215",
 		title: "Höhepunkte Zentralasiens: Kirgisistan & Usbekistan",
-		description: "",
+		description:
+			"Flug von Österreich mit Turkish Airlines nach Bischkek. \nAnkunft am internationalen Flughafen Manas, Empfang durch die örtliche Reiseleitung und \nTransfer zum Hotel.\n\nFrühstück im Hotel. Fahrt zum Burana-Komplex.",
 		duration: 13,
 		price_from: 1000,
 		price_to: 1120,
@@ -13823,7 +14031,8 @@ export const POPULAR_TOURS_MOCK: ICatalogTourBackend[] = [
 	{
 		id: "1ec1e49d-0d52-4708-9c3b-fe5030a2c8d0",
 		title: "Kulturelle Schätze Zentralasiens: Usbekistan und Tadschikistan entdecken",
-		description: "",
+		description:
+			"Ankunft in Taschkent 21:05 mit Uzbekistan Airways oder 01:20 mit Turkish Airlines.  Nach der \nAnkunft erfolgt der Transfer zum Hotel. Übernachtung in Taschkent.\n\nNach einem späten Frühstück kurze Stadtrundfahrt mit Besichtigung der Medresse \nKukaldash, der Barak-Chan-Medresse, des Kaffal-Shashi-Mausoleums.",
 		duration: 13,
 		price_from: 1000,
 		price_to: 1120,

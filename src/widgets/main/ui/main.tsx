@@ -1,6 +1,8 @@
+import { MostPopularTours } from "@/widgets/catalog/ui/most-popular-tours";
+
 import { CountriesSection } from "./countries-section";
 import { ExperiencesSection } from "./experiences-section";
-import { FeaturedRoutesSection } from "./featured-routes-section";
+// import { FeaturedRoutesSection } from "./featured-routes-section";
 import { HowWeWorkSection } from "./how-we-work-section";
 import { JournalSection } from "./journal-section";
 import { MainCta } from "./main-cta";
@@ -20,7 +22,8 @@ export function Main() {
 				<ExperiencesSection />
 				<TripFormatsSection />
 				<HowWeWorkSection />
-				<FeaturedRoutesSection />
+				<MostPopularTours />
+				{/* <FeaturedRoutesSection /> */}
 				<WhySection />
 				<TradeFairsSection />
 				<JournalSection />

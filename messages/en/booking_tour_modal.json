@@ -45,9 +45,14 @@
 		"not_set": "Not specified"
 	},
 	"disclaimer": "Submitting this form is an enquiry only and does not create a confirmed booking.",
+	"success": {
+		"title": "Your tour has been booked",
+		"description": "We will contact you to confirm the details."
+	},
 	"actions": {
 		"next": "Next",
 		"back": "Back",
-		"submit": "Submit enquiry"
+		"submit": "Submit enquiry",
+		"close": "Close"
 	}
 }
