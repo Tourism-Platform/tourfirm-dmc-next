@@ -60,6 +60,73 @@
 			}
 		}
 	},
+	"team": {
+		"eyebrow": "Bizning jamoa",
+		"title": "Marshrut ortida odamlar turadi",
+		"description": "Har bir so'rov muloqot tili, marshrut shakli va keyingi amaliy qadamni aniqlashtirishga yordam beradigan odamdan boshlanadi.",
+		"members": [
+			{
+				"initials": "SB",
+				"name": "Sodik Begmatov",
+				"title": "Asoschisi",
+				"description": "TourLinkni Orient Star Groupning mintaqaviy ishining — odamlar, marshrutlar, hamkorlik aloqalari va operatsion tajribaning — ochiq davomi sifatida asos solgan."
+			},
+			{
+				"initials": "MA",
+				"name": "Muhammadamin Begmatov",
+				"title": "Bosh direktor",
+				"description": "TourLink yo'nalishini boshqaradi va marshrut so'rovlarini dastur tasdiqlanmaguncha jamoa qarorlari bilan bog'laydi."
+			},
+			{
+				"initials": "AM",
+				"name": "Abdulaziz Mavlonov",
+				"title": "BDD",
+				"description": "TourLinkning ochiq DMC yo'nalishi o'sishi bilan biznes rivojlantirish va hamkorlik konteksti bo'yicha suhbatlarni olib boradi."
+			},
+			{
+				"initials": "OK",
+				"name": "Odina Karahodjayeva",
+				"title": "Moliya direktori",
+				"description": "Marshrut so'rovlari tasdiqlangan dasturlarga o'tganda TourLinkda moliyaviy va ma'muriy aniqlik uchun javobgar."
+			},
+			{
+				"initials": "EK",
+				"name": "Eldor Keldibekov",
+				"title": "Tur sotuvi va operatsiyalar menejeri",
+				"description": "Ispan tilidagi yo'nalishni qo'llab-quvvatlaydi va ispan tilida so'zlashuvchi sayohatchilar va hamkorlar uchun marshrut savollarini shakllantirishga yordam beradi."
+			},
+			{
+				"initials": "AM",
+				"name": "Alizhon Mamatkulov",
+				"title": "Tur sotuvi va operatsiyalar menejeri",
+				"description": "Yapon bozori so'rovlarini qo'llab-quvvatlaydi va marshrut tafsilotlarini yapon sayohatchilari va hamkorlari uchun tushunarli qilishga yordam beradi."
+			},
+			{
+				"initials": "NB",
+				"name": "Nozima Begmatova",
+				"title": "Tur sotuvi va operatsiyalar menejeri",
+				"description": "Ingliz tilidagi so'rovlar, marshrutni aniqlashtirish va dastur tasdiqlanmaguncha amaliy muvofiqlashtirishni qo'llab-quvvatlaydi."
+			},
+			{
+				"initials": "KH",
+				"name": "Komila Xolmatova",
+				"title": "Tur sotuvi va operatsiyalar menejeri",
+				"description": "Ingliz tilidagi marshrut so'rovlari bilan ishlaydi va taklif tayyorlanayotganda amaliy tafsilotlarni ko'z oldida tutishga yordam beradi."
+			},
+			{
+				"initials": "SK",
+				"name": "Subin Kang",
+				"title": "Tur sotuvi va operatsiyalar menejeri",
+				"description": "TourLinkning mintaqaviy DMC ishi rivojlanishi bilan ingliz va koreys yo'nalishlarini qo'llab-quvvatlaydi."
+			},
+			{
+				"initials": "MI",
+				"name": "Madina Irgasheva",
+				"title": "Tur sotuvi va operatsiyalar menejeri",
+				"description": "Fransuz tilidagi muloqotni qo'llab-quvvatlaydi va fransuz tilida so'zlashuvchi sayohatchilar va hamkorlar uchun marshrut savollarini shakllantirishga yordam beradi."
+			}
+		]
+	},
 	"development": {
 		"eyebrow": "Rivojlanish bosqichlari",
 		"title": "TourLink platformasi qanday o'sadi",
