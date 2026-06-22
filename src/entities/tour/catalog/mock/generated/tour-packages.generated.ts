@@ -4796,7 +4796,7 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 	"57233aed-1a71-489e-8f49-9b05280cd90b": {
 		catalog: {
 			id: "57233aed-1a71-489e-8f49-9b05280cd90b",
-			title: "ЛЕГЕНДЫ ШЕЛКОВОГО ПУТИ  (copy)",
+			title: "ЛЕГЕНДЫ ШЕЛКОВОГО ПУТИ  ",
 			description: "ТАШКЕНТ-БУХАРА-САМАРКАНД-ТАШКЕНТ",
 			duration: 8,
 			price_from: 852,
@@ -4812,7 +4812,7 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 			schedule_id: null,
 			agency_id: "agency-57233aed",
 			landing_id: "landing-57233aed",
-			name: "ЛЕГЕНДЫ ШЕЛКОВОГО ПУТИ  (copy)",
+			name: "ЛЕГЕНДЫ ШЕЛКОВОГО ПУТИ  ",
 			cover_image_path: "/assets/images/service-areas/private-guides.jpg",
 			group_size: 0,
 			group_size_min: 2,
@@ -4826,7 +4826,7 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 			categories: []
 		},
 		landing: {
-			title: "ЛЕГЕНДЫ ШЕЛКОВОГО ПУТИ  (copy)",
+			title: "ЛЕГЕНДЫ ШЕЛКОВОГО ПУТИ  ",
 			overview:
 				'{"type":"doc","content":[{"type":"paragraph","attrs":{"textAlign":null},"content":[{"type":"text","text":"ТАШКЕНТ-БУХАРА-САМАРКАНД-ТАШКЕНТ"}]}]}',
 			description:
@@ -4875,7 +4875,7 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 		options: [
 			{
 				id: "57233aed-1a71-489e-8f49-9b05280cd90b-default",
-				name: "ЛЕГЕНДЫ ШЕЛКОВОГО ПУТИ  (copy)",
+				name: "ЛЕГЕНДЫ ШЕЛКОВОГО ПУТИ  ",
 				description: "ТАШКЕНТ-БУХАРА-САМАРКАНД-ТАШКЕНТ",
 				cover_image_path: "/assets/images/city/tashkent.jpg",
 				total_price: {
@@ -11702,7 +11702,7 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 	"d8b6c1c6-ac69-4e84-a40d-4f1238996dbd": {
 		catalog: {
 			id: "d8b6c1c6-ac69-4e84-a40d-4f1238996dbd",
-			title: "Discover the Magic of Uzbekistan, 8 days (Private) (copy)",
+			title: "Discover the Magic of Uzbekistan, 8 days (Private) ",
 			description:
 				"Discover the magic of Uzbekistan - where vibrant culture, rich history, and breathtaking architecture come together to create an unforgettable journey. From ancient Silk Road cities to lively local bazaars, every moment is filled with beauty, flavor, and adventure. Experience the heart of Central Asia like never before.",
 			duration: 8,
@@ -11719,7 +11719,7 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 			schedule_id: null,
 			agency_id: "agency-d8b6c1c6",
 			landing_id: "landing-d8b6c1c6",
-			name: "Discover the Magic of Uzbekistan, 8 days (Private) (copy)",
+			name: "Discover the Magic of Uzbekistan, 8 days (Private) ",
 			cover_image_path: "/assets/images/destinations/tadjikistan.jpg",
 			group_size: 1,
 			group_size_min: 2,
@@ -11733,7 +11733,7 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 			categories: []
 		},
 		landing: {
-			title: "Discover the Magic of Uzbekistan, 8 days (Private) (copy)",
+			title: "Discover the Magic of Uzbekistan, 8 days (Private) ",
 			overview:
 				'{"type":"doc","content":[{"type":"paragraph","attrs":{"textAlign":null},"content":[{"type":"text","text":"Discover the magic of Uzbekistan - where vibrant culture, rich history, and breathtaking architecture come together to create an unforgettable journey. From ancient Silk Road cities to lively local bazaars, every moment is filled with beauty, flavor, and adventure. Experience the heart of Central Asia like never before."}]}]}',
 			description:
@@ -11783,7 +11783,7 @@ export const TOUR_PACKAGE_MOCKS: Record<string, ITourPackageMockBundle> = {
 		options: [
 			{
 				id: "d8b6c1c6-ac69-4e84-a40d-4f1238996dbd-default",
-				name: "Discover the Magic of Uzbekistan, 8 days (Private) (copy)",
+				name: "Discover the Magic of Uzbekistan, 8 days (Private) ",
 				description:
 					"Discover the magic of Uzbekistan - where vibrant culture, rich history, and breathtaking architecture come together to create an unforgettable journey. From ancient Silk Road cities to lively local bazaars, every moment is filled with beauty, flavor, and adventure. Experience the heart of Central Asia like never before.",
 				cover_image_path: "/assets/images/city/tashkent.jpg",
@@ -13525,7 +13525,7 @@ export const CATALOG_TOURS_MOCK: ICatalogTourBackend[] = [
 	},
 	{
 		id: "57233aed-1a71-489e-8f49-9b05280cd90b",
-		title: "ЛЕГЕНДЫ ШЕЛКОВОГО ПУТИ  (copy)",
+		title: "ЛЕГЕНДЫ ШЕЛКОВОГО ПУТИ  ",
 		description: "ТАШКЕНТ-БУХАРА-САМАРКАНД-ТАШКЕНТ",
 		duration: 8,
 		price_from: 852,
@@ -13729,7 +13729,7 @@ export const CATALOG_TOURS_MOCK: ICatalogTourBackend[] = [
 	},
 	{
 		id: "d8b6c1c6-ac69-4e84-a40d-4f1238996dbd",
-		title: "Discover the Magic of Uzbekistan, 8 days (Private) (copy)",
+		title: "Discover the Magic of Uzbekistan, 8 days (Private) ",
 		description:
 			"Discover the magic of Uzbekistan - where vibrant culture, rich history, and breathtaking architecture come together to create an unforgettable journey. From ancient Silk Road cities to lively local bazaars, every moment is filled with beauty, flavor, and adventure. Experience the heart of Central Asia like never before.",
 		duration: 8,
@@ -13891,7 +13891,7 @@ export const SPECIAL_OFFERS_MOCK: ICatalogTourBackend[] = [
 	},
 	{
 		id: "57233aed-1a71-489e-8f49-9b05280cd90b",
-		title: "ЛЕГЕНДЫ ШЕЛКОВОГО ПУТИ  (copy)",
+		title: "ЛЕГЕНДЫ ШЕЛКОВОГО ПУТИ  ",
 		description: "ТАШКЕНТ-БУХАРА-САМАРКАНД-ТАШКЕНТ",
 		duration: 8,
 		price_from: 852,
