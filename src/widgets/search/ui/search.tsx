@@ -163,8 +163,7 @@ const SearchBase: FC = () => {
 		[queryParams, debouncedFilters]
 	);
 
-	const { data, isLoading, isFetching, isError } =
-		useGetCatalogToursQuery(queryParams);
+	const { data, isLoading, isError } = useGetCatalogToursQuery(queryParams);
 
 	useEffect(() => {
 		if (isError) {
@@ -226,7 +225,7 @@ const SearchBase: FC = () => {
 		<section className="mx-auto flex w-full max-w-7xl flex-col gap-10 px-4 py-10 sm:px-6 lg:px-8">
 			<SearchToursBar form={searchForm} />
 
-			<div className="grid gap-6 lg:grid-cols-[minmax(280px,400px)_1fr]">
+			<div className="grid gap-6 lg:grid-cols-[minmax(280px,400px)_minmax(0,1fr)]">
 				<aside className="flex flex-col gap-4">
 					<Card>
 						<CardHeader className="flex items-center justify-between">
@@ -249,7 +248,7 @@ const SearchBase: FC = () => {
 					</Card>
 				</aside>
 
-				<div className="flex flex-col gap-6">
+				<div className="flex min-w-0 flex-col gap-6">
 					<div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
 						<p className="text-xl font-semibold">
 							{t("header.found", { count: totalCount })}
@@ -269,8 +268,8 @@ const SearchBase: FC = () => {
 						</div>
 					</div>
 
-					<div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
-						{isLoading || isFetching
+					<div className="grid min-w-0 gap-6 sm:grid-cols-2 xl:grid-cols-3 [&>*]:min-w-0">
+						{isLoading
 							? Array.from({ length: PAGE_SIZE }).map(
 									(_, index) => (
 										<CatalogTourCardSkeleton key={index} />
