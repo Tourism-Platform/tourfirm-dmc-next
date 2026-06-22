@@ -49,6 +49,7 @@ export const BookTourModal: FC<IBookTourModalProps> = ({
 }) => {
 	const t = useTranslations("booking_tour_modal");
 	const [open, setOpen] = useState(false);
+	const [isSubmitted, setIsSubmitted] = useState(false);
 
 	const form = useForm<TBookTourForm>({
 		resolver: zodResolver(bookTourSchema),
@@ -62,12 +63,13 @@ export const BookTourModal: FC<IBookTourModalProps> = ({
 			form.reset();
 		}
 
+		setIsSubmitted(false);
 		setOpen(nextOpen);
 	};
 
 	const onSubmit = () => {
 		// TODO: email/API — bookTourSchema.parse(form.getValues())
-		handleOpenChange(false);
+		setIsSubmitted(true);
 	};
 
 	return (
@@ -81,38 +83,60 @@ export const BookTourModal: FC<IBookTourModalProps> = ({
 			</Button>
 			<Dialog open={open} onOpenChange={handleOpenChange}>
 				<DialogContent className="max-h-[90vh] overflow-y-auto sm:max-w-lg">
-					<DialogHeader>
-						<DialogTitle>{t("title")}</DialogTitle>
-						<DialogDescription>
-							{t("description")}
-						</DialogDescription>
-					</DialogHeader>
-
-					<Form {...form}>
-						<form
-							className="grid gap-4"
-							onSubmit={form.handleSubmit(onSubmit)}
-						>
-							{BOOK_TOUR_FORM_FIELDS.map(({ key, ...item }) => (
-								<CustomField
-									key={key}
-									name={key}
-									control={form.control}
-									t={t}
-									className="mb-0"
-									{...item}
-								/>
-							))}
-							<p className="text-muted-foreground text-xs">
-								{t("disclaimer")}
+					{isSubmitted ? (
+						<div className="grid gap-4 py-2">
+							<p className="text-center text-lg font-medium">
+								{t("success.title")}
+							</p>
+							<p className="text-muted-foreground text-center text-sm">
+								{t("success.description")}
 							</p>
 							<DialogFooter>
-								<Button type="submit">
-									{t("actions.submit")}
+								<Button
+									type="button"
+									onClick={() => handleOpenChange(false)}
+								>
+									{t("actions.close")}
 								</Button>
 							</DialogFooter>
-						</form>
-					</Form>
+						</div>
+					) : (
+						<>
+							<DialogHeader>
+								<DialogTitle>{t("title")}</DialogTitle>
+								<DialogDescription>
+									{t("description")}
+								</DialogDescription>
+							</DialogHeader>
+							<Form {...form}>
+								<form
+									className="grid gap-4"
+									onSubmit={form.handleSubmit(onSubmit)}
+								>
+									{BOOK_TOUR_FORM_FIELDS.map(
+										({ key, ...item }) => (
+											<CustomField
+												key={key}
+												name={key}
+												control={form.control}
+												t={t}
+												className="mb-0"
+												{...item}
+											/>
+										)
+									)}
+									<p className="text-muted-foreground text-xs">
+										{t("disclaimer")}
+									</p>
+									<DialogFooter>
+										<Button type="submit">
+											{t("actions.submit")}
+										</Button>
+									</DialogFooter>
+								</form>
+							</Form>
+						</>
+					)}
 				</DialogContent>
 			</Dialog>
 		</>
