@@ -9,6 +9,27 @@ type TWithMswProps = {
 	children: ReactNode;
 };
 
+let workerStartPromise: Promise<void> | null = null;
+
+const startMswWorker = async () => {
+	if (workerStartPromise) {
+		return workerStartPromise;
+	}
+
+	workerStartPromise = (async () => {
+		const { worker } = await import("@/app/init/msw");
+		await worker.start({
+			onUnhandledRequest: "bypass",
+			quiet: true,
+			serviceWorker: {
+				url: "/mockServiceWorker.js"
+			}
+		});
+	})();
+
+	return workerStartPromise;
+};
+
 export function WithMsw({ children }: TWithMswProps) {
 	const [isReady, setIsReady] = useState(!ENV.API_MOCKING);
 
@@ -17,8 +38,7 @@ export function WithMsw({ children }: TWithMswProps) {
 
 		const initMsw = async () => {
 			try {
-				const { worker } = await import("@/app/init/msw");
-				await worker.start({ onUnhandledRequest: "bypass" });
+				await startMswWorker();
 			} catch (error) {
 				console.error("[MSW] Failed to start worker:", error);
 			} finally {

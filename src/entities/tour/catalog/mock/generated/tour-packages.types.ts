@@ -9,8 +9,6 @@ import type {
 } from "../../types/catalog-preview-backend.types";
 import type { TPubEventMediaFields } from "../../types/catalog-preview-option-media.types";
 
-export type TAppLocale = "en" | "ru" | "uz";
-
 export interface ITourPackageMockBundle {
 	catalog: ICatalogTourBackend;
 	general: ICatalogPreviewTourGeneralBackend;
