@@ -208,5 +208,26 @@ export default defineConfig([
 			"@typescript-eslint/no-require-imports": "off",
 			"no-console": "off"
 		}
+	},
+
+	{
+		files: ["scripts/**/*.mjs"],
+		rules: {
+			"@next/next/no-assign-module-variable": "off"
+		}
+	},
+
+	{
+		files: ["src/entities/tour/catalog/mock/generated/**/*.ts"],
+		linterOptions: {
+			reportUnusedDisableDirectives: "off"
+		}
+	},
+
+	{
+		files: ["src/shared/api/backend/base.api.ts"],
+		rules: {
+			"boundaries/element-types": "off"
+		}
 	}
 ]);
