@@ -1,38 +1,38 @@
 {
 	"meta": {
-		"title": "Search tours | TourLink",
-		"description": "Find tailor-made tours by destination, dates and preferences with TourLink."
+		"title": "Turlarni qidirish | TourLink",
+		"description": "TourLinkda yo'nalish, sanalar va afzalliklaringiz bo'yicha mos turlarni toping."
 	},
 	"header": {
-		"found": "{count, plural, one {# tour found} other {# tours found}}"
+		"found": "{count, plural, one {# tur topildi} other {# tur topildi}}"
 	},
 	"search": {
-		"placeholder": "Search by tour name..."
+		"placeholder": "Tur nomi bo'yicha qidirish..."
 	},
 	"toasts": {
 		"load": {
-			"error": "Failed to load tours"
+			"error": "Turlarni yuklab bo'lmadi"
 		}
 	},
 	"alert": {
-		"title": "Similar options:",
-		"description": "These options match your search criteria but are outside the dates you specified."
+		"title": "O'xshash variantlar:",
+		"description": "Ushbu variantlar qidiruv mezonlariga mos keladi, lekin ko'rsatilgan sanalardan tashqarida."
 	},
 	"pagination": {
-		"previous": "Previous",
-		"next": "Next"
+		"previous": "Oldingi",
+		"next": "Keyingi"
 	},
 	"filters": {
-		"title": "Filters",
+		"title": "Filtrlar",
 		"fields": {
-			"price": "Price",
-			"region": "Region",
-			"duration": "Duration",
-			"language": "Language",
-			"category": "Category"
+			"price": "Narx",
+			"region": "Hudud",
+			"duration": "Davomiylik",
+			"language": "Til",
+			"category": "Kategoriya"
 		},
 		"buttons": {
-			"reset": "Reset"
+			"reset": "Tozalash"
 		}
 	}
 }

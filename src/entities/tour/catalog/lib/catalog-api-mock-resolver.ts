@@ -1,15 +1,14 @@
 import type { FetchArgs } from "@reduxjs/toolkit/query";
 
 import { CATALOG_DURATION_PRESETS } from "../config/catalog-duration.config";
+import type { TAppLocale } from "../lib/app-locale";
+import { normalizeAppLocale } from "../lib/app-locale";
 import { CATALOG_DESTINATIONS_MOCK, RECENT_SEARCHES_MOCK } from "../mock";
 import {
-	CATALOG_REGIONS_MOCK,
-	CATALOG_TOURS_MOCK,
-	POPULAR_TOURS_MOCK,
-	PRICE_HISTOGRAM_MOCK,
-	SPECIAL_OFFERS_MOCK,
-	TOUR_PACKAGE_MOCKS
-} from "../mock/generated";
+	CATALOG_PREVIEW_OPTION_BACKEND_MOCK,
+	CATALOG_PREVIEW_TOUR_OPTIONS_LIST_MOCK
+} from "../mock/catalog-preview.mock";
+import { getMocksByLocale } from "../mock/generated";
 import type { ENUM_CATALOG_DURATION_TYPE } from "../types/catalog-duration.types";
 
 const matchesDuration = (
@@ -51,9 +50,11 @@ const parseRequest = (args: string | FetchArgs) => {
 	return { pathname, searchParams };
 };
 
-export const getCatalogToursMock = (searchParams: URLSearchParams) => {
-	const catalogTours = CATALOG_TOURS_MOCK;
-	const catalogRegions = CATALOG_REGIONS_MOCK;
+export const getCatalogToursMock = (
+	searchParams: URLSearchParams,
+	locale: TAppLocale = "en"
+) => {
+	const { catalogTours, catalogRegions } = getMocksByLocale(locale);
 	const page = Number(searchParams.get("page")) || 1;
 	const limit = Number(searchParams.get("limit")) || 10;
 	const search = searchParams.get("search")?.toLowerCase();
@@ -137,35 +138,42 @@ export const getCatalogToursMock = (searchParams: URLSearchParams) => {
 	};
 };
 
-export const getCatalogRegionsMock = (searchParams: URLSearchParams) => {
+export const getCatalogRegionsMock = (
+	searchParams: URLSearchParams,
+	locale: TAppLocale = "en"
+) => {
+	const { catalogRegions } = getMocksByLocale(locale);
 	const page = Number(searchParams.get("page")) || 1;
 	const limit = Number(searchParams.get("limit")) || 5;
 	const start = (page - 1) * limit;
 
 	return {
-		data: CATALOG_REGIONS_MOCK.slice(start, start + limit),
-		total: CATALOG_REGIONS_MOCK.length
+		data: catalogRegions.slice(start, start + limit),
+		total: catalogRegions.length
 	};
 };
 
-const getTourPackageMock = (tourId: string) =>
-	TOUR_PACKAGE_MOCKS[tourId] ?? null;
+const getTourPackageMock = (tourId: string, locale: TAppLocale) =>
+	getMocksByLocale(locale).tourPackages[tourId] ?? null;
 
 export const resolveCatalogApiMock = (
-	args: string | FetchArgs
+	args: string | FetchArgs,
+	locale?: TAppLocale
 ): unknown | undefined => {
+	const resolvedLocale = normalizeAppLocale(locale);
 	const { pathname, searchParams } = parseRequest(args);
+	const mocks = getMocksByLocale(resolvedLocale);
 
 	if (pathname === "/tours/catalog") {
-		return getCatalogToursMock(searchParams);
+		return getCatalogToursMock(searchParams, resolvedLocale);
 	}
 
 	if (pathname === "/tours/catalog/filters/regions") {
-		return getCatalogRegionsMock(searchParams);
+		return getCatalogRegionsMock(searchParams, resolvedLocale);
 	}
 
 	if (pathname === "/tours/catalog/filters/price-histogram") {
-		return PRICE_HISTOGRAM_MOCK;
+		return mocks.priceHistogram;
 	}
 
 	if (pathname === "/tours/catalog/filters/destinations") {
@@ -181,42 +189,46 @@ export const resolveCatalogApiMock = (
 
 	if (pathname === "/tours/popular") {
 		return {
-			data: POPULAR_TOURS_MOCK,
-			total: POPULAR_TOURS_MOCK.length
+			data: mocks.popularTours,
+			total: mocks.popularTours.length
 		};
 	}
 
 	if (pathname === "/tours/special-offers") {
 		return {
-			data: SPECIAL_OFFERS_MOCK,
-			total: SPECIAL_OFFERS_MOCK.length
+			data: mocks.specialOffers,
+			total: mocks.specialOffers.length
 		};
 	}
 
 	const tourPublicMatch = pathname.match(/^\/tour\/([^/]+)\/public$/);
 	if (tourPublicMatch) {
-		return getTourPackageMock(tourPublicMatch[1])?.general;
+		return getTourPackageMock(tourPublicMatch[1], resolvedLocale)?.general;
 	}
 
 	const tourLandingMatch = pathname.match(
 		/^\/tour\/([^/]+)\/public\/landing$/
 	);
 	if (tourLandingMatch) {
-		return getTourPackageMock(tourLandingMatch[1])?.landing;
+		return getTourPackageMock(tourLandingMatch[1], resolvedLocale)?.landing;
 	}
 
 	const tourOperatorMatch = pathname.match(
 		/^\/tour\/([^/]+)\/public\/operator$/
 	);
 	if (tourOperatorMatch) {
-		return getTourPackageMock(tourOperatorMatch[1])?.operator;
+		return getTourPackageMock(tourOperatorMatch[1], resolvedLocale)
+			?.operator;
 	}
 
 	const tourOptionsMatch = pathname.match(
 		/^\/tour\/([^/]+)\/public\/option\/all$/
 	);
+	// Option endpoints use static EN mocks — not localized per locale.
 	if (tourOptionsMatch) {
-		return getTourPackageMock(tourOptionsMatch[1])?.options;
+		return getTourPackageMock(tourOptionsMatch[1], resolvedLocale)
+			? CATALOG_PREVIEW_TOUR_OPTIONS_LIST_MOCK
+			: undefined;
 	}
 
 	const tourOptionDetailMatch = pathname.match(
@@ -224,13 +236,13 @@ export const resolveCatalogApiMock = (
 	);
 	if (tourOptionDetailMatch) {
 		const [, tourId, optionId] = tourOptionDetailMatch;
-		const mock = getTourPackageMock(tourId);
+		const mock = getTourPackageMock(tourId, resolvedLocale);
 
-		if (!mock || mock.optionDetail.id !== optionId) {
+		if (!mock || CATALOG_PREVIEW_OPTION_BACKEND_MOCK.id !== optionId) {
 			return undefined;
 		}
 
-		return mock.optionDetail;
+		return CATALOG_PREVIEW_OPTION_BACKEND_MOCK;
 	}
 
 	return undefined;

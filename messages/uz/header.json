@@ -1,9 +1,9 @@
 {
 	"public": {
-		"solutions": "Solutions",
-		"pricing": "Pricing",
-		"sign_in": "Sign in",
-		"get_started": "Get started",
+		"solutions": "Yechimlar",
+		"pricing": "Tariflar",
+		"sign_in": "Kirish",
+		"get_started": "Boshlash",
 		"nav": {
 			"destinations": {
 				"label": "Yo'nalishlar"
@@ -105,44 +105,44 @@
 	},
 	"agency": {
 		"catalog": {
-			"title": "Catalog"
+			"title": "Katalog"
 		}
 	},
 	"operator": {
 		"tours": {
-			"title": "Tours",
+			"title": "Turlar",
 			"menu": {
-				"overview": "Overview",
-				"itinerary": "Itinerary",
-				"schedule": "Schedule",
-				"pricing_review": "Pricing & review",
-				"order_history": "Order history",
-				"messages": "Messages",
-				"activity_log": "Activity log"
+				"overview": "Umumiy ma'lumot",
+				"itinerary": "Marshrut",
+				"schedule": "Jadval",
+				"pricing_review": "Narxlar va ko'rib chiqish",
+				"order_history": "Buyurtmalar tarixi",
+				"messages": "Xabarlar",
+				"activity_log": "Faoliyat jurnali"
 			}
 		},
 		"booking": {
-			"title": "Booking",
+			"title": "Bron qilish",
 			"menu": {
-				"orders": "Orders",
-				"appeals": "Appeals"
+				"orders": "Buyurtmalar",
+				"appeals": "Murojaatlar"
 			}
 		},
 		"finance": {
-			"title": "Finance",
+			"title": "Moliya",
 			"menu": {
-				"invoices": "Invoices",
-				"client_payments": "Client payments",
-				"supplier_payments": "Supplier payments",
-				"reconciliation": "Reconciliation"
+				"invoices": "Hisob-fakturalar",
+				"client_payments": "Mijoz to'lovlari",
+				"supplier_payments": "Yetkazib beruvchi to'lovlari",
+				"reconciliation": "Solishtirish"
 			}
 		},
 		"library": {
-			"title": "Library",
+			"title": "Kutubxona",
 			"menu": {
-				"overview": "Overview",
-				"analytics": "Analytics",
-				"reports": "Reports"
+				"overview": "Umumiy ma'lumot",
+				"analytics": "Analitika",
+				"reports": "Hisobotlar"
 			}
 		}
 	}

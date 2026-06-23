@@ -1,12 +1,12 @@
 {
 	"meta": {
-		"title": "Tour preview | TourLink",
-		"description": "Explore tour details, itinerary, pricing and book your trip with TourLink."
+		"title": "Tur ko'rinishi | TourLink",
+		"description": "Tur tafsilotlari, marshrut, narxlar va TourLinkda bron qilish."
 	},
-	"page_name": "Tour Preview",
-	"back": "Back to catalogue",
-	"not_found": "Tour not found",
-	"book_now": "Book now",
+	"page_name": "Tur ko'rinishi",
+	"back": "Katalogga qaytish",
+	"not_found": "Tur topilmadi",
+	"book_now": "Bron qilish",
 	"hero": {
 		"duration": {
 			"days": "{count, plural, one {# kun} other {# kun}}",
@@ -15,68 +15,68 @@
 		"group_size": {
 			"persons": "{count, plural, one {# kishi} other {# kishi}}"
 		},
-		"age_no_restrictions": "No age restrictions",
-		"age_requires_from": "From {from} years old",
-		"age_requires_to": "Up to {to} years old",
-		"age_requires_range": "{from}–{to} years old"
+		"age_no_restrictions": "Yosh cheklovi yo'q",
+		"age_requires_from": "{from} yoshdan",
+		"age_requires_to": "{to} yoshgacha",
+		"age_requires_range": "{from}–{to} yosh"
 	},
 	"sections": {
 		"overview": {
-			"title": "Overview"
+			"title": "Umumiy ma'lumot"
 		},
 		"cities": {
-			"label": "Cities"
+			"label": "Shaharlar"
 		},
 		"languages": {
-			"label": "Languages"
+			"label": "Tillar"
 		},
 		"included": {
-			"title": "What's Included"
+			"title": "Nima kiritilgan"
 		},
 		"not_included": {
-			"title": "What's not Included"
+			"title": "Nima kiritilmagan"
 		},
 		"meeting_pickup": {
-			"title": "Meeting And Pickup",
-			"start": "Start",
-			"pickup_details": "Pickup details",
-			"end_point": "End point"
+			"title": "Uchrashuv va transfer",
+			"start": "Boshlanish",
+			"pickup_details": "Transfer tafsilotlari",
+			"end_point": "Tugash nuqtasi"
 		},
 		"cancellation": {
-			"title": "Cancellation policy"
+			"title": "Bekor qilish siyosati"
 		},
 		"additional_info": {
-			"title": "Additional information"
+			"title": "Qo'shimcha ma'lumot"
 		},
 		"itinerary": {
-			"title": "Itinerary",
-			"subtitle": "Two ways to experience this tour. Choose the package that fits — they share the same route but differ in accommodation tier, dining and exclusive activities.",
+			"title": "Marshrut",
+			"subtitle": "Ushbu turni ikki usulda o'tkazish mumkin. Mos paketni tanlang — ular bir xil marshrutni taklif qiladi, lekin turar joy darajasi, ovqatlanish va eksklyuziv faoliyatlar bilan farq qiladi.",
 			"card": {
-				"from": "From",
-				"per_person": "per person",
-				"price_depends": "The price depends on the number of people",
-				"view_itinerary": "View itinerary",
-				"day": "Day",
-				"read_more": "Read more",
-				"book_package": "Book this package"
+				"from": "Dan",
+				"per_person": "kishi boshiga",
+				"price_depends": "Narx odamlar soniga bog'liq",
+				"view_itinerary": "Marshrutni ko'rish",
+				"day": "Kun",
+				"read_more": "Batafsil",
+				"book_package": "Ushbu paketni bron qilish"
 			}
 		}
 	},
 	"provider": {
-		"title": "Provider",
-		"additional_info": "Additional information"
+		"title": "Provayder",
+		"additional_info": "Qo'shimcha ma'lumot"
 	},
 	"tabs": {
-		"tour_information": "Tour information",
-		"full_itinerary": "Full itinerary",
-		"pricing": "Pricing"
+		"tour_information": "Tur haqida ma'lumot",
+		"full_itinerary": "To'liq marshrut",
+		"pricing": "Narxlar"
 	},
 	"toasts": {
 		"load": {
-			"error": "Failed to load preview data"
+			"error": "Ko'rish ma'lumotlarini yuklab bo'lmadi"
 		},
 		"option": {
-			"error": "Failed to load package details"
+			"error": "Paket tafsilotlarini yuklab bo'lmadi"
 		}
 	}
 }

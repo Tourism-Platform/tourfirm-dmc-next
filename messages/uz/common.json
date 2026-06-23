@@ -1,66 +1,66 @@
 {
 	"actions": {
-		"show_more": "Show more"
+		"show_more": "Ko'proq ko'rsatish"
 	},
 	"upload_files": {
-		"title": "Upload files",
-		"empty": "No files attached",
-		"description": "Max {{maxFiles}} files ∙ Up to {{maxSize}}MB",
-		"uploaded": "Uploaded",
+		"title": "Fayllarni yuklash",
+		"empty": "Biriktirilgan fayllar yo'q",
+		"description": "Maksimum {{maxFiles}} ta fayl ∙ {{maxSize}} MB gacha",
+		"uploaded": "Yuklandi",
 		"buttons": {
-			"add": "Add file",
-			"remove": "Remove all",
-			"select": "Select files"
+			"add": "Fayl qo'shish",
+			"remove": "Hammasini o'chirish",
+			"select": "Fayllarni tanlash"
 		}
 	},
 	"table": {
-		"search": "Search ...",
-		"status": "Status",
+		"search": "Qidirish ...",
+		"status": "Holat",
 		"view": {
-			"title": "View",
-			"toggle": "Toggle columns"
+			"title": "Ko'rinish",
+			"toggle": "Ustunlarni almashtirish"
 		},
-		"pagination": "Rows per page",
+		"pagination": "Sahifadagi qatorlar",
 		"empty_state": {
-			"title": "No results found",
-			"description": "Try adjusting your filters or search to find what you're looking for"
+			"title": "Natija topilmadi",
+			"description": "Qidiruv yoki filtrlarni o'zgartirib ko'ring"
 		}
 	},
 	"date_picker": {
-		"placeholder": "Select date",
+		"placeholder": "Sanani tanlang",
 		"buttons": {
-			"apply": "Apply",
-			"reset": "Reset"
+			"apply": "Qo'llash",
+			"reset": "Tozalash"
 		}
 	},
 	"upload_images": {
-		"title": "Upload images to gallery",
-		"description": "Drag and drop images here or click to browse",
-		"uploaded": "Uploaded",
-		"total": "Total",
-		"formats": "PNG, JPG, GIF up to {{maxSize}} each (max {{maxFiles}} files)",
+		"title": "Galereyaga rasmlar yuklash",
+		"description": "Rasmlarni bu yerga torting yoki tanlash uchun bosing",
+		"uploaded": "Yuklandi",
+		"total": "Jami",
+		"formats": "PNG, JPG, GIF har biri {{maxSize}} gacha (maksimum {{maxFiles}} ta fayl)",
 		"buttons": {
-			"add": "Add image",
-			"clear": "Clear all",
-			"select": "Select images"
+			"add": "Rasm qo'shish",
+			"clear": "Hammasini tozalash",
+			"select": "Rasmlarni tanlash"
 		}
 	},
 	"upload_main_image": {
-		"title": "Upload main image",
-		"description": "Drop your image here or click to browse",
-		"formats": "Max size: {{maxSize}}",
+		"title": "Asosiy rasmni yuklash",
+		"description": "Rasmni bu yerga torting yoki tanlash uchun bosing",
+		"formats": "Maks. hajm: {{maxSize}}",
 		"errors": {
-			"title": "File upload error",
-			"remove": "Remove image"
+			"title": "Fayl yuklash xatosi",
+			"remove": "Rasmni o'chirish"
 		}
 	},
 	"multiselect": {
-		"selected": "{{selected}} of {{total}}"
+		"selected": "{{total}} tadan {{selected}} tasi"
 	},
 	"filters": {
 		"price": {
 			"from": "Min",
-			"to": "Max"
+			"to": "Maks"
 		}
 	},
 	"themeToggle": {

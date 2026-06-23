@@ -1,56 +1,56 @@
 {
 	"meta": {
-		"title": "Package preview | TourLink",
-		"description": "View full itinerary, pricing breakdown and package details for this tour."
+		"title": "Paket ko'rinishi | TourLink",
+		"description": "To'liq marshrut, narx tafsilotlari va tur paketi haqida ma'lumot."
 	},
-	"page_name": "Option Preview",
-	"back": "Back to tour",
+	"page_name": "Paket ko'rinishi",
+	"back": "Turga qaytish",
 	"day": {
-		"title": "Day {{n}}"
+		"title": "Kun {{n}}"
 	},
 	"sections": {
 		"option": {
-			"day": "Day",
-			"view_details": "View details",
-			"details": "Details",
-			"one_of_them": "(One of them)",
-			"read_more": "Read more"
+			"day": "Kun",
+			"view_details": "Batafsil",
+			"details": "Tafsilotlar",
+			"one_of_them": "(Ulardan biri)",
+			"read_more": "Davomini o'qish"
 		}
 	},
 	"tabs": {
-		"tour_information": "Tour information",
-		"full_itinerary": "Full itinerary",
-		"pricing": "Pricing"
+		"tour_information": "Tur haqida ma'lumot",
+		"full_itinerary": "To'liq marshrut",
+		"pricing": "Narxlar"
 	},
 	"sheet": {
-		"pickup_info": "Pickup info",
-		"pickup": "Pickup",
-		"dropoff": "Drop-off",
-		"to": "to",
-		"amenities": "Amenities",
-		"schedule_info": "Schedule info",
-		"nights": "Nights",
-		"check_in": "Check in",
-		"check_out": "Check out",
-		"activity_info": "Activity info",
-		"location": "Location",
-		"start_time": "Start time",
-		"end_time": "End time",
-		"flight_info": "Flight information"
+		"pickup_info": "Transfer haqida",
+		"pickup": "Jo'nash",
+		"dropoff": "Yetib kelish",
+		"to": "gacha",
+		"amenities": "Qulayliklar",
+		"schedule_info": "Jadval",
+		"nights": "Tunlar",
+		"check_in": "Kirish",
+		"check_out": "Chiqish",
+		"activity_info": "Faoliyat haqida",
+		"location": "Joylashuv",
+		"start_time": "Boshlanish vaqti",
+		"end_time": "Tugash vaqti",
+		"flight_info": "Parvoz ma'lumotlari"
 	},
 	"pricing": {
-		"title": "Pricing Breakdown",
-		"total_price": "Total price",
-		"est_cost": "Est. per person cost",
-		"details": "Details",
-		"accomodation": "Accomodation",
-		"activity": "Activity",
-		"transportation": "Transportation",
+		"title": "Narx tafsilotlari",
+		"total_price": "Umumiy narx",
+		"est_cost": "Taxminiy narx kishi boshiga",
+		"details": "Tafsilotlar",
+		"accomodation": "Turar joy",
+		"activity": "Faoliyatlar",
+		"transportation": "Transport",
 		"transfer": "Transfer"
 	},
 	"toasts": {
 		"load": {
-			"error": "Failed to load tour data"
+			"error": "Tur ma'lumotlarini yuklab bo'lmadi"
 		}
 	}
 }

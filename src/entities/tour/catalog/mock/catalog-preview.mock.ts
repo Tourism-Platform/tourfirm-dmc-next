@@ -4,25 +4,28 @@ import {
 	CATALOG_PREVIEW_BACKEND_LANGUAGE_CODE,
 	CATALOG_PREVIEW_BACKEND_TRANSFER_TYPE,
 	type ICatalogPreviewActivityEventBackend,
-	type ICatalogPreviewBusEventBackend,
-	type ICatalogPreviewFlightEventBackend,
-	type ICatalogPreviewHousingEventBackend,
-	type ICatalogPreviewInformationEventBackend,
-	type ICatalogPreviewLocationBackend,
-	type ICatalogPreviewMultipleOptionEventBackend,
-	type ICatalogPreviewOperatorBackend,
-	type ICatalogPreviewOptionDetailBackend,
-	type ICatalogPreviewTimeBackend,
-	type ICatalogPreviewTourGeneralBackend,
-	type ICatalogPreviewTourLandingBackend,
-	type ICatalogPreviewTrainEventBackend,
-	type ICatalogPreviewTransferEventBackend
+	ICatalogPreviewBusEventBackend,
+	ICatalogPreviewFlightEventBackend,
+	ICatalogPreviewHousingEventBackend,
+	ICatalogPreviewInformationEventBackend,
+	ICatalogPreviewLocationBackend,
+	ICatalogPreviewMultipleOptionEventBackend,
+	ICatalogPreviewOperatorBackend,
+	ICatalogPreviewTimeBackend,
+	ICatalogPreviewTourGeneralBackend,
+	ICatalogPreviewTourLandingBackend,
+	ICatalogPreviewTrainEventBackend,
+	ICatalogPreviewTransferEventBackend
 } from "../types/catalog-preview-backend.types";
 
 import {
 	CATALOG_PREVIEW_MOCK_IMAGE_URLS,
 	withCatalogPreviewEventMedia
 } from "./catalog-preview-option-media.mock";
+import {
+	CATALOG_PREVIEW_OPTION_BACKEND_STATIC,
+	CATALOG_PREVIEW_TOUR_OPTIONS_LIST_STATIC
+} from "./catalog-preview-options-static.mock";
 import { DEFAULT_TOUR_PACKAGE_ID, TOUR_PACKAGE_MOCKS } from "./generated";
 
 const defaultTourMock = TOUR_PACKAGE_MOCKS[DEFAULT_TOUR_PACKAGE_ID];
@@ -30,7 +33,7 @@ const defaultTourMock = TOUR_PACKAGE_MOCKS[DEFAULT_TOUR_PACKAGE_ID];
 export const CATALOG_PREVIEW_TOUR_MOCK_ID = DEFAULT_TOUR_PACKAGE_ID;
 
 export const CATALOG_PREVIEW_OPTION_MOCK_ID =
-	defaultTourMock?.optionDetail.id ?? `${DEFAULT_TOUR_PACKAGE_ID}-default`;
+	CATALOG_PREVIEW_OPTION_BACKEND_STATIC.id;
 
 export const CATALOG_PREVIEW_TOUR_LANDING_MOCK =
 	defaultTourMock?.landing ?? ({} as ICatalogPreviewTourLandingBackend);
@@ -42,10 +45,10 @@ export const CATALOG_PREVIEW_OPERATOR_MOCK =
 	defaultTourMock?.operator ?? ({} as ICatalogPreviewOperatorBackend);
 
 export const CATALOG_PREVIEW_TOUR_OPTIONS_LIST_MOCK =
-	defaultTourMock?.options ?? [];
+	CATALOG_PREVIEW_TOUR_OPTIONS_LIST_STATIC;
 
 export const CATALOG_PREVIEW_OPTION_BACKEND_MOCK =
-	defaultTourMock?.optionDetail ?? ({} as ICatalogPreviewOptionDetailBackend);
+	CATALOG_PREVIEW_OPTION_BACKEND_STATIC;
 
 const time = (t: string): ICatalogPreviewTimeBackend => ({
 	time: t,

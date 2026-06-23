@@ -7,6 +7,7 @@ import {
 	mapCatalogPreviewTourGeneralToFrontend,
 	mapCatalogPreviewTourToFrontend
 } from "../converters";
+import { catalogApiCacheKey } from "../lib/app-locale";
 import type {
 	ICatalogPreviewOperator,
 	ICatalogPreviewOperatorBackend,
@@ -32,6 +33,8 @@ export const catalogPreviewApi = baseApi.injectEndpoints({
 			}),
 			transformResponse: (response: ICatalogPreviewTourGeneralBackend) =>
 				mapCatalogPreviewTourGeneralToFrontend(response),
+			serializeQueryArgs: ({ endpointName, queryArgs }) =>
+				catalogApiCacheKey(endpointName, queryArgs),
 			providesTags: [ENUM_API_TAGS.TOURS_CATALOG]
 		}),
 		getCatalogPreviewTour: builder.query<ICatalogPreviewTourData, string>({
@@ -41,6 +44,8 @@ export const catalogPreviewApi = baseApi.injectEndpoints({
 			}),
 			transformResponse: (response: ICatalogPreviewTourLandingBackend) =>
 				mapCatalogPreviewTourToFrontend(response),
+			serializeQueryArgs: ({ endpointName, queryArgs }) =>
+				catalogApiCacheKey(endpointName, queryArgs),
 			providesTags: [ENUM_API_TAGS.TOURS_CATALOG]
 		}),
 		getCatalogPreviewOperator: builder.query<
@@ -53,6 +58,8 @@ export const catalogPreviewApi = baseApi.injectEndpoints({
 			}),
 			transformResponse: (response: ICatalogPreviewOperatorBackend) =>
 				mapCatalogPreviewOperatorToFrontend(response),
+			serializeQueryArgs: ({ endpointName, queryArgs }) =>
+				catalogApiCacheKey(endpointName, queryArgs),
 			providesTags: [ENUM_API_TAGS.TOURS_CATALOG]
 		}),
 		getCatalogPreviewOption: builder.query<
@@ -65,6 +72,8 @@ export const catalogPreviewApi = baseApi.injectEndpoints({
 			}),
 			transformResponse: (response: ICatalogPreviewOptionDetailBackend) =>
 				mapCatalogPreviewOptionToFrontend(response),
+			serializeQueryArgs: ({ endpointName, queryArgs }) =>
+				catalogApiCacheKey(endpointName, queryArgs),
 			providesTags: [ENUM_API_TAGS.TOURS_CATALOG]
 		}),
 		getCatalogPreviewTourOptions: builder.query<
@@ -78,6 +87,8 @@ export const catalogPreviewApi = baseApi.injectEndpoints({
 			transformResponse: (
 				response: ICatalogPreviewOptionListItemBackend[]
 			) => mapCatalogPreviewOptionsListToFrontend(response),
+			serializeQueryArgs: ({ endpointName, queryArgs }) =>
+				catalogApiCacheKey(endpointName, queryArgs),
 			providesTags: [ENUM_API_TAGS.TOURS_CATALOG]
 		})
 	})

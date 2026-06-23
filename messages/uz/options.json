@@ -1,207 +1,207 @@
 {
 	"commission": {
-		"fixed": "Fixed amount",
-		"percentage": "Percentage of total price",
-		"partner": "Partner commission",
-		"platform": "Platform commission",
-		"service_fee": "Service fee"
+		"fixed": "Belgilangan summa",
+		"percentage": "Umumiy narxning foizi",
+		"partner": "Hamkor komissiyasi",
+		"platform": "Platforma komissiyasi",
+		"service_fee": "Xizmat to'lovi"
 	},
 	"staff": {
 		"statuses": {
-			"active": "Active",
-			"inactive": "Inactive",
-			"pending": "Pending"
+			"active": "Faol",
+			"inactive": "Nofaol",
+			"pending": "Kutilmoqda"
 		}
 	},
 	"tour": {
 		"languages": {
-			"english": "English",
-			"russian": "Russian",
-			"spanish": "Spanish",
-			"italian": "Italian",
-			"french": "French",
-			"chinese": "Chinese",
-			"japanese": "Japanese",
-			"uzbek": "Uzbek",
-			"portuguese": "Portuguese"
+			"english": "Ingliz tili",
+			"russian": "Rus tili",
+			"spanish": "Ispan tili",
+			"italian": "Italyan tili",
+			"french": "Fransuz tili",
+			"chinese": "Xitoy tili",
+			"japanese": "Yapon tili",
+			"uzbek": "O'zbek tili",
+			"portuguese": "Portugal tili"
 		},
 		"duration": {
-			"days": "days",
-			"nights": "nights"
+			"days": "kun",
+			"nights": "tun"
 		},
 		"catalogDurations": {
-			"half_day": "Half-day (0–1 day)",
-			"full_day": "Full day (1 day)",
-			"multi_days": "Multi days (2–15 days)"
+			"half_day": "Yarim kun (0–1 kun)",
+			"full_day": "To'liq kun (1 kun)",
+			"multi_days": "Bir necha kun (2–15 kun)"
 		},
 		"statuses": {
-			"all": "All",
-			"active": "Active",
-			"moderate": "Moderate",
-			"planning": "Planning",
-			"cancelled": "Cancelled",
-			"archived": "Archived",
-			"draft": "Drafts",
-			"published": "Published"
+			"all": "Hammasi",
+			"active": "Faol",
+			"moderate": "Moderatsiya",
+			"planning": "Rejalashtirish",
+			"cancelled": "Bekor qilingan",
+			"archived": "Arxiv",
+			"draft": "Qoralamalar",
+			"published": "Nashr etilgan"
 		},
 		"tourTypes": {
-			"private": "Private",
-			"group": "Group"
+			"private": "Shaxsiy",
+			"group": "Guruh"
 		},
 		"tourCategories": {
-			"cultural_historical": "Cultural & Historical",
-			"religious_spiritual": "Religious & Spiritual",
-			"archaeological": "Archaeological",
-			"adventure_outdoor": "Adventure & Outdoor",
-			"eco_nature": "Eco & Nature",
-			"hiking_trekking": "Hiking & Trekking",
-			"city_tour": "City Tour",
-			"gastronomy_culinary": "Gastronomy & Culinary",
-			"photography_creative": "Photography & Creative",
-			"educational": "Educational",
-			"master_class_workshop": "Master Class & Workshop",
-			"wellness_spa": "Wellness & Spa",
-			"yoga_meditation": "Yoga & Meditation",
-			"business_mice": "Business & MICE",
-			"family_kids": "Family & Kids",
-			"multi_destination": "Multi-destination"
+			"cultural_historical": "Madaniy va tarixiy",
+			"religious_spiritual": "Diniy va ma'naviy",
+			"archaeological": "Arxeologik",
+			"adventure_outdoor": "Sarguzasht va ochiq havoda",
+			"eco_nature": "Eko va tabiat",
+			"hiking_trekking": "Piyoda yurish va trekking",
+			"city_tour": "Shahar turi",
+			"gastronomy_culinary": "Gastronomik",
+			"photography_creative": "Foto va ijod",
+			"educational": "Ta'limiy",
+			"master_class_workshop": "Master-klass va workshop",
+			"wellness_spa": "Salomatlik va SPA",
+			"yoga_meditation": "Yoga va meditatsiya",
+			"business_mice": "Biznes va MICE",
+			"family_kids": "Oila va bolalar uchun",
+			"multi_destination": "Ko'p yo'nalishli tur"
 		},
 		"visibility": {
-			"show_from": "Show price 'from'",
-			"show_exact": "Show exact price",
-			"hide": "Hide price"
+			"show_from": "Narxdan ko'rsatish",
+			"show_exact": "Aniq narxni ko'rsatish",
+			"hide": "Narxni yashirish"
 		},
 		"pickup": {
-			"airport": "Airport pickup",
-			"hotel": "Hotel pickup"
+			"airport": "Aeroportdan transfer",
+			"hotel": "Mehmonxonadan transfer"
 		},
 		"amenities": {
-			"professional_guide": "Professional guide",
-			"hotel_accommodation": "Hotel accommodation",
-			"breakfast": "Breakfast",
-			"lunch": "Lunch",
-			"dinner": "Dinner",
-			"airport_transfer": "Airport transfer",
-			"entrance_fees": "Entrance fees",
-			"travel_insurance": "Travel insurance",
-			"transportation": "Transportation",
-			"bottled_water": "Bottled water",
-			"wifi_on_board": "Wi-Fi on board",
-			"air_conditioning": "Air conditioning",
-			"luggage_handling": "Luggage handling",
-			"support_24_7": "24/7 support",
-			"international_flights": "International flights",
-			"visa_fees": "Visa fees",
-			"personal_expenses": "Personal expenses",
-			"tips_gratuities": "Tips and gratuities",
-			"camera_video_fees": "Camera/video fees",
-			"optional_activities": "Optional activities",
-			"alcoholic_beverages": "Alcoholic beverages",
-			"souvenirs": "Souvenirs",
-			"extra_meals": "Extra meals",
-			"room_service": "Room service",
-			"laundry_service": "Laundry service",
-			"phone_calls": "Phone calls",
-			"medical_expenses": "Medical expenses"
+			"professional_guide": "Professional gid",
+			"hotel_accommodation": "Mehmonxonada joylashish",
+			"breakfast": "Nonushta",
+			"lunch": "Tushlik",
+			"dinner": "Kechki ovqat",
+			"airport_transfer": "Aeroport transferi",
+			"entrance_fees": "Kirish to'lovlari",
+			"travel_insurance": "Sayohat sug'urtasi",
+			"transportation": "Transport",
+			"bottled_water": "Idishli suv",
+			"wifi_on_board": "Bortda Wi-Fi",
+			"air_conditioning": "Konditsioner",
+			"luggage_handling": "Yuk xizmati",
+			"support_24_7": "24/7 qo'llab-quvvatlash",
+			"international_flights": "Xalqaro parvozlar",
+			"visa_fees": "Viza to'lovlari",
+			"personal_expenses": "Shaxsiy xarajatlar",
+			"tips_gratuities": "Choychaqa",
+			"camera_video_fees": "Foto/video to'lovlari",
+			"optional_activities": "Ixtiyoriy faoliyatlar",
+			"alcoholic_beverages": "Spirtli ichimliklar",
+			"souvenirs": "Suvenirlar",
+			"extra_meals": "Qo'shimcha ovqatlanish",
+			"room_service": "Xona xizmati",
+			"laundry_service": "Kir yuvish xizmati",
+			"phone_calls": "Telefon qo'ng'iroqlari",
+			"medical_expenses": "Tibbiy xarajatlar"
 		},
 		"vehicleBodyTypes": {
 			"sedan": "Sedan",
 			"suv": "SUV",
-			"minivan": "Minivan",
-			"minibus": "Minibus",
-			"minibus_plus": "Minibus Plus",
-			"bus": "Bus",
-			"coach": "Coach"
+			"minivan": "Miniven",
+			"minibus": "Mikroavtobus",
+			"minibus_plus": "Mikroavtobus+",
+			"bus": "Avtobus",
+			"coach": "Turistik avtobus"
 		},
 		"transferTypes": {
-			"city_tour": "City tour",
-			"city_transfer": "City transfer",
-			"intercity_transfer": "Intercity transfer",
-			"airport_transfer": "Airport transfer",
-			"station_transfer": "Station transfer",
-			"custom": "Custom"
+			"city_tour": "Shahar ekskursiyasi",
+			"city_transfer": "Shahar ichidagi transfer",
+			"intercity_transfer": "Shaharlararo transfer",
+			"airport_transfer": "Aeroport transferi",
+			"station_transfer": "Vokzal transferi",
+			"custom": "Boshqa"
 		},
 		"activityTypes": {
-			"food": "Restaurants, cafes, teahouses, and street food",
-			"master_class": "Any workshop or master class (cooking, ceramics, weaving, calligraphy)",
-			"sightseeing": "Museums, monuments, mosques, mausoleums, and bazaars",
-			"outdoor": "Hiking, trekking, camping, and safari tours",
-			"riding": "Horseback, camel, and cycling activities",
-			"extreme": "Rafting, rock climbing, and ziplining",
-			"wellness": "Hammam, spa, yoga, and meditation",
-			"entertainment": "Shows, theater, concerts, and festivals",
-			"water_activities": "Boating, jet skiing, and fishing",
-			"photography": "Photo walks",
-			"spiritual": "Pilgrimage and religious sites"
+			"food": "Restoranlar, kafeler, choyxonalar va ko'cha taomlari",
+			"master_class": "Har qanday master-klass yoki workshop (pishirish, kulolchilik, to'qish, xattotlik)",
+			"sightseeing": "Muzeylar, yodgorliklar, masjidlar, maqbaralar va bozorlar",
+			"outdoor": "Trekking, piyoda sayohat, kemping va safari turlari",
+			"riding": "Ot, tuya va velosiped sayohatlari",
+			"extreme": "Rafting, tog'ga chiqish va zipline",
+			"wellness": "Hammom, SPA, yoga va meditatsiya",
+			"entertainment": "Shou, teatr, kontsertlar va festivallar",
+			"water_activities": "Suv sayohatlari, jet-ski va baliq ovlash",
+			"photography": "Foto sayr",
+			"spiritual": "Ziyorat va diniy joylar"
 		}
 	},
 	"user": {
 		"business": {
 			"types": {
-				"tour_operator": "Tour operator",
-				"agency": "Agency"
+				"tour_operator": "Turoperator",
+				"agency": "Agentlik"
 			}
 		}
 	},
 	"finance": {
 		"invoice": {
 			"statuses": {
-				"draft": "Draft",
-				"sent": "Sent",
-				"partial": "Partially paid",
-				"paid": "Paid",
-				"overdue": "Overdue",
-				"cancelled": "Cancelled"
+				"draft": "Qoralama",
+				"sent": "Yuborilgan",
+				"partial": "Qisman to'langan",
+				"paid": "To'langan",
+				"overdue": "Muddati o'tgan",
+				"cancelled": "Bekor qilingan"
 			}
 		},
 		"client_payment": {
 			"statuses": {
-				"assigned": "Assigned",
-				"not_assigned": "Not Assigned"
+				"assigned": "Tayinlangan",
+				"not_assigned": "Tayinlanmagan"
 			}
 		},
 		"supplier_payment": {
 			"statuses": {
-				"recorded": "Recorded",
-				"confirmed": "Confirmed"
+				"recorded": "Qayd etilgan",
+				"confirmed": "Tasdiqlangan"
 			}
 		},
 		"reconciliation": {
 			"statuses": {
-				"in_progress": "In progress",
-				"completed": "Completed"
+				"in_progress": "Jarayonda",
+				"completed": "Yakunlangan"
 			}
 		},
 		"payment_methods": {
-			"classic_swift": "Classic SWIFT",
+			"classic_swift": "Klassik SWIFT",
 			"wise": "WISE"
 		}
 	},
 	"booking": {
 		"order": {
 			"statuses": {
-				"new": "New",
-				"in_processing": "In processing",
-				"booking": "Booking",
-				"in_progress": "In progress",
-				"completed": "Completed",
-				"cancelled": "Cancelled"
+				"new": "Yangi",
+				"in_processing": "Qayta ishlanmoqda",
+				"booking": "Bron qilish",
+				"in_progress": "Jarayonda",
+				"completed": "Yakunlangan",
+				"cancelled": "Bekor qilingan"
 			},
 			"types": {
-				"regular": "Regular",
+				"regular": "Oddiy",
 				"vip": "VIP",
-				"group": "Group"
+				"group": "Guruh"
 			},
 			"client_types": {
-				"agency": "Agency",
-				"direct": "Direct",
-				"corporate": "Corporate"
+				"agency": "Agentlik",
+				"direct": "To'g'ridan-to'g'ri",
+				"corporate": "Korporativ"
 			},
 			"supplier_payment": {
 				"statuses": {
-					"booked": "Booked",
-					"recorded": "Recorded",
-					"not_booked": "Not booked"
+					"booked": "Bron qilingan",
+					"recorded": "Qayd etilgan",
+					"not_booked": "Bron qilinmagan"
 				}
 			}
 		}

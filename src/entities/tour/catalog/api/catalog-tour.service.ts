@@ -9,6 +9,7 @@ import {
 	mapPriceHistogramToFrontend,
 	mapRecentlySearchesToFrontend
 } from "../converters";
+import { catalogApiCacheKey } from "../lib/app-locale";
 import type {
 	ICatalogTourBackend,
 	ICatalogTourCard,
@@ -36,6 +37,8 @@ export const catalogTourApi = baseApi.injectEndpoints({
 				data: ICatalogTourBackend[];
 				total: number;
 			}) => mapCatalogToursToFrontend(response.data, response.total),
+			serializeQueryArgs: ({ endpointName, queryArgs }) =>
+				catalogApiCacheKey(endpointName, queryArgs),
 			providesTags: [ENUM_API_TAGS.TOURS_CATALOG]
 		}),
 		getCatalogRegions: builder.query<
@@ -49,10 +52,10 @@ export const catalogTourApi = baseApi.injectEndpoints({
 			transformResponse: (
 				response: IPaginationResponse<IFilterOptionBackend>
 			) => mapFilterOptionsPaginatedToFrontend(response),
-			serializeQueryArgs: ({ queryArgs }) => {
+			serializeQueryArgs: ({ endpointName, queryArgs }) => {
 				const { page, ...rest } = queryArgs;
 				void page;
-				return rest;
+				return catalogApiCacheKey(endpointName, rest);
 			},
 			merge: (currentCache, newItems) => {
 				currentCache.data.push(...newItems.data);
@@ -73,18 +76,24 @@ export const catalogTourApi = baseApi.injectEndpoints({
 			}),
 			transformResponse: (response: IPriceHistogramItemBackend[]) =>
 				mapPriceHistogramToFrontend(response),
+			serializeQueryArgs: ({ endpointName, queryArgs }) =>
+				catalogApiCacheKey(endpointName, queryArgs),
 			providesTags: [ENUM_API_TAGS.TOURS_CATALOG]
 		}),
 		getCatalogDestinations: builder.query<IFilterOption[], void>({
 			query: () => ({ url: "/tours/catalog/filters/destinations" }),
 			transformResponse: (response: { data: IFilterOptionBackend[] }) =>
 				mapFilterOptionsToFrontend(response.data),
+			serializeQueryArgs: ({ endpointName }) =>
+				catalogApiCacheKey(endpointName, null),
 			providesTags: [ENUM_API_TAGS.TOURS_CATALOG]
 		}),
 		getRecentlySearchedTours: builder.query<IRecentSearch[], void>({
 			query: () => ({ url: "/tours/recently-searched" }),
 			transformResponse: (response: IRecentSearchBackend[]) =>
 				mapRecentlySearchesToFrontend(response),
+			serializeQueryArgs: ({ endpointName }) =>
+				catalogApiCacheKey(endpointName, null),
 			providesTags: [ENUM_API_TAGS.TOURS_CATALOG]
 		}),
 		getPopularTours: builder.query<
@@ -94,6 +103,8 @@ export const catalogTourApi = baseApi.injectEndpoints({
 			query: () => ({ url: "/tours/popular" }),
 			transformResponse: (response: { data: ICatalogTourBackend[] }) =>
 				mapCatalogToursToFrontend(response.data),
+			serializeQueryArgs: ({ endpointName }) =>
+				catalogApiCacheKey(endpointName, null),
 			providesTags: [ENUM_API_TAGS.TOURS_CATALOG]
 		}),
 		getSpecialOfferTours: builder.query<
@@ -103,6 +114,8 @@ export const catalogTourApi = baseApi.injectEndpoints({
 			query: () => ({ url: "/tours/special-offers" }),
 			transformResponse: (response: { data: ICatalogTourBackend[] }) =>
 				mapCatalogToursToFrontend(response.data),
+			serializeQueryArgs: ({ endpointName }) =>
+				catalogApiCacheKey(endpointName, null),
 			providesTags: [ENUM_API_TAGS.TOURS_CATALOG]
 		})
 	})

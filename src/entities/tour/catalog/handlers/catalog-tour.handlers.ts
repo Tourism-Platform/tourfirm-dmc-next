@@ -1,30 +1,32 @@
 import { HttpResponse, delay, http } from "msw";
 
+import { resolveRequestLocale } from "../lib/app-locale";
 import {
 	getCatalogRegionsMock,
 	getCatalogToursMock
 } from "../lib/catalog-api-mock-resolver";
 import { CATALOG_DESTINATIONS_MOCK, RECENT_SEARCHES_MOCK } from "../mock";
-import {
-	POPULAR_TOURS_MOCK,
-	PRICE_HISTOGRAM_MOCK,
-	SPECIAL_OFFERS_MOCK
-} from "../mock/generated";
+import { getMocksByLocale } from "../mock/generated";
 
 export const tourCatalogHandlers = [
 	http.get("*/tours/catalog", async ({ request }) => {
 		await delay(300);
+		const locale = resolveRequestLocale(request);
 		const url = new URL(request.url);
-		return HttpResponse.json(getCatalogToursMock(url.searchParams));
+		return HttpResponse.json(getCatalogToursMock(url.searchParams, locale));
 	}),
 	http.get("*/tours/catalog/filters/regions", async ({ request }) => {
 		await delay(300);
+		const locale = resolveRequestLocale(request);
 		const url = new URL(request.url);
-		return HttpResponse.json(getCatalogRegionsMock(url.searchParams));
+		return HttpResponse.json(
+			getCatalogRegionsMock(url.searchParams, locale)
+		);
 	}),
-	http.get("*/tours/catalog/filters/price-histogram", async () => {
+	http.get("*/tours/catalog/filters/price-histogram", async ({ request }) => {
 		await delay(300);
-		return HttpResponse.json(PRICE_HISTOGRAM_MOCK);
+		const locale = resolveRequestLocale(request);
+		return HttpResponse.json(getMocksByLocale(locale).priceHistogram);
 	}),
 	http.get("*/tours/recently-searched", async () => {
 		await delay(300);
@@ -37,18 +39,24 @@ export const tourCatalogHandlers = [
 			total: CATALOG_DESTINATIONS_MOCK.length
 		});
 	}),
-	http.get("*/tours/popular", async () => {
+	http.get("*/tours/popular", async ({ request }) => {
 		await delay(300);
+		const { popularTours } = getMocksByLocale(
+			resolveRequestLocale(request)
+		);
 		return HttpResponse.json({
-			data: POPULAR_TOURS_MOCK,
-			total: POPULAR_TOURS_MOCK.length
+			data: popularTours,
+			total: popularTours.length
 		});
 	}),
-	http.get("*/tours/special-offers", async () => {
+	http.get("*/tours/special-offers", async ({ request }) => {
 		await delay(300);
+		const { specialOffers } = getMocksByLocale(
+			resolveRequestLocale(request)
+		);
 		return HttpResponse.json({
-			data: SPECIAL_OFFERS_MOCK,
-			total: SPECIAL_OFFERS_MOCK.length
+			data: specialOffers,
+			total: specialOffers.length
 		});
 	})
 ];
