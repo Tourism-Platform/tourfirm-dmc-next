@@ -5,7 +5,10 @@ export {
 	type TQueryParams,
 	buildRoute,
 	buildRouteWithQuery,
+	isBlockedGeoEntitySlug,
 	isReservedPathSegment,
+	isReservedRootPageSlug,
+	isReservedSegmentSlug,
 	RESERVED_PATH_SEGMENTS,
 	type TReservedPathSegment
 } from "./routes";

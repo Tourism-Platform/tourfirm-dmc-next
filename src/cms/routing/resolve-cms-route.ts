@@ -1,4 +1,4 @@
-import { isReservedPathSegment } from "@/shared/config";
+import { isReservedRootPageSlug } from "@/shared/config";
 
 import { findPageBySlug } from "../api/find-page-by-slug";
 import { getDestination } from "../api/get-destination";
@@ -13,7 +13,7 @@ export async function resolveCmsRoute(
 	locale: string,
 	slug: string
 ): Promise<TCmsRoute | null> {
-	if (isReservedPathSegment(slug)) {
+	if (isReservedRootPageSlug(slug)) {
 		return null;
 	}
 

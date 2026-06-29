@@ -1,4 +1,4 @@
-import { isReservedPathSegment } from "@/shared/config";
+import { isBlockedGeoEntitySlug } from "@/shared/config";
 import { buildNavigationGeoPath } from "@/shared/lib/routing/build-navigation-geo-path";
 
 import {
@@ -32,7 +32,7 @@ export async function resolveGeoRoute(
 
 	const [countrySlug, regionSlug, citySlug, attractionSlug] = segments;
 
-	if (!countrySlug || isReservedPathSegment(countrySlug)) {
+	if (!countrySlug || isBlockedGeoEntitySlug(countrySlug)) {
 		return null;
 	}
 

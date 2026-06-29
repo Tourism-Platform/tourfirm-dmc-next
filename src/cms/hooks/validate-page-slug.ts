@@ -1,19 +1,32 @@
-import { isReservedPathSegment } from "@/shared/config/routes/reserved-path-segments";
+import { isReservedRootPageSlug } from "@/shared/config/routes/reserved-path-segments";
 
-const SLUG_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+import {
+	hasSegmentRelation,
+	normalizeSlug,
+	validateSlugFormat
+} from "../lib/slug-utils";
 
-export function validatePageSlug(value: unknown): string | true {
-	if (typeof value !== "string" || !value.trim()) {
+type TValidatePageSlugArgs = {
+	siblingData?: Record<string, unknown>;
+};
+
+export function validatePageSlug(
+	value: unknown,
+	{ siblingData }: TValidatePageSlugArgs = {}
+): string | true {
+	const slug = normalizeSlug(value);
+
+	if (!slug) {
 		return "Slug is required";
 	}
 
-	const slug = value.trim();
+	const formatError = validateSlugFormat(slug);
 
-	if (!SLUG_PATTERN.test(slug)) {
-		return "Slug must contain only lowercase letters, numbers, and hyphens";
+	if (formatError !== true) {
+		return formatError;
 	}
 
-	if (isReservedPathSegment(slug)) {
+	if (!hasSegmentRelation(siblingData) && isReservedRootPageSlug(slug)) {
 		return "This slug is reserved for a system route";
 	}
 

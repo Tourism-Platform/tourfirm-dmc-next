@@ -5,6 +5,7 @@ import { pageBlocks } from "../blocks";
 import { seoField } from "../fields/seo";
 import { statusField } from "../fields/status";
 import { validatePageSlug } from "../hooks/validate-page-slug";
+import { validatePageSlugUniqueness } from "../hooks/validate-page-slug-uniqueness";
 
 export const Pages: CollectionConfig = {
 	slug: "pages",
@@ -17,12 +18,19 @@ export const Pages: CollectionConfig = {
 	versions: {
 		drafts: true
 	},
+	hooks: {
+		beforeValidate: [validatePageSlugUniqueness]
+	},
 	fields: [
+		{
+			name: "segment",
+			type: "relationship",
+			relationTo: "segments"
+		},
 		{
 			name: "slug",
 			type: "text",
 			required: true,
-			unique: true,
 			localized: true,
 			index: true,
 			validate: validatePageSlug
@@ -42,16 +50,17 @@ export const Pages: CollectionConfig = {
 			blocks: pageBlocks
 		},
 		{
-			name: "showInNav",
-			type: "checkbox"
+			name: "showInNavigation",
+			type: "checkbox",
+			defaultValue: false
 		},
 		{
-			name: "navLabel",
+			name: "navigationLabel",
 			type: "text",
 			localized: true
 		},
 		{
-			name: "navOrder",
+			name: "navigationOrder",
 			type: "number"
 		},
 		statusField

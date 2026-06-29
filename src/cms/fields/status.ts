@@ -10,11 +10,6 @@ export const statusField: Field = {
 			defaultValue: false
 		},
 		{
-			name: "hideFromNavigation",
-			type: "checkbox",
-			defaultValue: false
-		},
-		{
 			name: "showInSitemap",
 			type: "checkbox",
 			defaultValue: true

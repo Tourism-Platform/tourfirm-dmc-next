@@ -80,6 +80,7 @@ export interface Config {
 		experiences: Experience;
 		"journal-entries": JournalEntry;
 		"trade-fairs": TradeFair;
+		segments: Segment;
 		pages: Page;
 		"payload-kv": PayloadKv;
 		"payload-locked-documents": PayloadLockedDocument;
@@ -132,6 +133,7 @@ export interface Config {
 			| JournalEntriesSelect<false>
 			| JournalEntriesSelect<true>;
 		"trade-fairs": TradeFairsSelect<false> | TradeFairsSelect<true>;
+		segments: SegmentsSelect<false> | SegmentsSelect<true>;
 		pages: PagesSelect<false> | PagesSelect<true>;
 		"payload-kv": PayloadKvSelect<false> | PayloadKvSelect<true>;
 		"payload-locked-documents":
@@ -1228,7 +1230,6 @@ export interface Route {
 	};
 	status?: {
 		noindex?: boolean | null;
-		hideFromNavigation?: boolean | null;
 		showInSitemap?: boolean | null;
 		publishedAt?: string | null;
 	};
@@ -1734,7 +1735,6 @@ export interface Country {
 	};
 	status?: {
 		noindex?: boolean | null;
-		hideFromNavigation?: boolean | null;
 		showInSitemap?: boolean | null;
 		publishedAt?: string | null;
 	};
@@ -2267,7 +2267,6 @@ export interface Experience {
 	};
 	status?: {
 		noindex?: boolean | null;
-		hideFromNavigation?: boolean | null;
 		showInSitemap?: boolean | null;
 		publishedAt?: string | null;
 	};
@@ -2774,7 +2773,6 @@ export interface Region {
 	};
 	status?: {
 		noindex?: boolean | null;
-		hideFromNavigation?: boolean | null;
 		showInSitemap?: boolean | null;
 		publishedAt?: string | null;
 	};
@@ -3280,7 +3278,6 @@ export interface TradeFair {
 	};
 	status?: {
 		noindex?: boolean | null;
-		hideFromNavigation?: boolean | null;
 		showInSitemap?: boolean | null;
 		publishedAt?: string | null;
 	};
@@ -3781,7 +3778,6 @@ export interface City {
 	};
 	status?: {
 		noindex?: boolean | null;
-		hideFromNavigation?: boolean | null;
 		showInSitemap?: boolean | null;
 		publishedAt?: string | null;
 	};
@@ -4301,7 +4297,6 @@ export interface JournalEntry {
 	};
 	status?: {
 		noindex?: boolean | null;
-		hideFromNavigation?: boolean | null;
 		showInSitemap?: boolean | null;
 		publishedAt?: string | null;
 	};
@@ -4827,7 +4822,6 @@ export interface Attraction {
 	};
 	status?: {
 		noindex?: boolean | null;
-		hideFromNavigation?: boolean | null;
 		showInSitemap?: boolean | null;
 		publishedAt?: string | null;
 	};
@@ -4870,10 +4864,29 @@ export interface MapPoint {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "segments".
+ */
+export interface Segment {
+	id: number;
+	title: string;
+	slug: string;
+	description?: string | null;
+	status?: {
+		noindex?: boolean | null;
+		showInSitemap?: boolean | null;
+		publishedAt?: string | null;
+	};
+	updatedAt: string;
+	createdAt: string;
+	_status?: ("draft" | "published") | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "pages".
  */
 export interface Page {
 	id: number;
+	segment?: (number | null) | Segment;
 	slug: string;
 	title: string;
 	seo?: {
@@ -5328,12 +5341,11 @@ export interface Page {
 				blockType: "cta";
 		  }
 	)[];
-	showInNav?: boolean | null;
-	navLabel?: string | null;
-	navOrder?: number | null;
+	showInNavigation?: boolean | null;
+	navigationLabel?: string | null;
+	navigationOrder?: number | null;
 	status?: {
 		noindex?: boolean | null;
-		hideFromNavigation?: boolean | null;
 		showInSitemap?: boolean | null;
 		publishedAt?: string | null;
 	};
@@ -5416,6 +5428,10 @@ export interface PayloadLockedDocument {
 		| ({
 				relationTo: "trade-fairs";
 				value: number | TradeFair;
+		  } | null)
+		| ({
+				relationTo: "segments";
+				value: number | Segment;
 		  } | null)
 		| ({
 				relationTo: "pages";
@@ -5928,7 +5944,6 @@ export interface CountriesSelect<T extends boolean = true> {
 		| T
 		| {
 				noindex?: T;
-				hideFromNavigation?: T;
 				showInSitemap?: T;
 				publishedAt?: T;
 		  };
@@ -6150,7 +6165,6 @@ export interface RegionsSelect<T extends boolean = true> {
 		| T
 		| {
 				noindex?: T;
-				hideFromNavigation?: T;
 				showInSitemap?: T;
 				publishedAt?: T;
 		  };
@@ -6367,7 +6381,6 @@ export interface CitiesSelect<T extends boolean = true> {
 		| T
 		| {
 				noindex?: T;
-				hideFromNavigation?: T;
 				showInSitemap?: T;
 				publishedAt?: T;
 		  };
@@ -6591,7 +6604,6 @@ export interface AttractionsSelect<T extends boolean = true> {
 		| T
 		| {
 				noindex?: T;
-				hideFromNavigation?: T;
 				showInSitemap?: T;
 				publishedAt?: T;
 		  };
@@ -6811,7 +6823,6 @@ export interface RoutesSelect<T extends boolean = true> {
 		| T
 		| {
 				noindex?: T;
-				hideFromNavigation?: T;
 				showInSitemap?: T;
 				publishedAt?: T;
 		  };
@@ -7047,7 +7058,6 @@ export interface ExperiencesSelect<T extends boolean = true> {
 		| T
 		| {
 				noindex?: T;
-				hideFromNavigation?: T;
 				showInSitemap?: T;
 				publishedAt?: T;
 		  };
@@ -7268,7 +7278,6 @@ export interface JournalEntriesSelect<T extends boolean = true> {
 		| T
 		| {
 				noindex?: T;
-				hideFromNavigation?: T;
 				showInSitemap?: T;
 				publishedAt?: T;
 		  };
@@ -7484,7 +7493,25 @@ export interface TradeFairsSelect<T extends boolean = true> {
 		| T
 		| {
 				noindex?: T;
-				hideFromNavigation?: T;
+				showInSitemap?: T;
+				publishedAt?: T;
+		  };
+	updatedAt?: T;
+	createdAt?: T;
+	_status?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "segments_select".
+ */
+export interface SegmentsSelect<T extends boolean = true> {
+	title?: T;
+	slug?: T;
+	description?: T;
+	status?:
+		| T
+		| {
+				noindex?: T;
 				showInSitemap?: T;
 				publishedAt?: T;
 		  };
@@ -7497,6 +7524,7 @@ export interface TradeFairsSelect<T extends boolean = true> {
  * via the `definition` "pages_select".
  */
 export interface PagesSelect<T extends boolean = true> {
+	segment?: T;
 	slug?: T;
 	title?: T;
 	seo?:
@@ -7686,14 +7714,13 @@ export interface PagesSelect<T extends boolean = true> {
 							blockName?: T;
 					  };
 		  };
-	showInNav?: T;
-	navLabel?: T;
-	navOrder?: T;
+	showInNavigation?: T;
+	navigationLabel?: T;
+	navigationOrder?: T;
 	status?:
 		| T
 		| {
 				noindex?: T;
-				hideFromNavigation?: T;
 				showInSitemap?: T;
 				publishedAt?: T;
 		  };

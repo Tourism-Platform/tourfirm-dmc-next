@@ -11,6 +11,7 @@ import { Media } from "./media";
 import { Pages } from "./pages";
 import { Regions } from "./regions";
 import { Routes } from "./routes";
+import { Segments } from "./segments";
 import { Themes } from "./themes";
 import { TradeFairs } from "./trade-fairs";
 import { Users } from "./users";
@@ -29,5 +30,6 @@ export const collections: CollectionConfig[] = [
 	Experiences,
 	JournalEntries,
 	TradeFairs,
+	Segments,
 	Pages
 ];
