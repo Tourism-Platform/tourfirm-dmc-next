@@ -4,8 +4,6 @@ import { fileURLToPath } from "node:url";
 
 import "./load-env.js";
 
-import pg from "pg";
-import config from "@payload-config";
 import { getPayload, type CollectionSlug, type Payload } from "payload";
 import { parse as parseYaml } from "yaml";
 
@@ -24,6 +22,32 @@ import {
 	normalizeRichTextDescriptions,
 	toDefaultRichText
 } from "./to-default-rich-text.js";
+import {
+	createSeedCostTracker,
+	createSeedStageLogger,
+	attachSeedPoolErrorHandler,
+	logSeedConnectionInfo,
+	preloadMediaDbIndex,
+	resolveSeedDatabaseUri,
+	retrySeedOperation,
+	type TMediaDbIndex,
+	wakeDatabase,
+	waitWithHeartbeat
+} from "./seed-timing.js";
+import {
+	createSeedProfiler,
+	type TSeedProfileCategory,
+	type TSeedProfiler
+} from "./seed-profiler.js";
+import { SeedLookupCache } from "./seed-lookup-cache.js";
+import {
+	isSeedFullReset,
+	logSeedResetMode,
+	resetDatabase
+} from "./seed-reset.js";
+import { mapWithConcurrency, SEED_LIMITS } from "./seed-parallel.js";
+
+const SEED_STAGE_COUNT = 15;
 
 type TRouteMapCollection = "countries" | "regions" | "cities";
 
@@ -35,6 +59,13 @@ const ROUTE_MAP_CONTENT_DIRS: Record<TRouteMapCollection, string> = {
 
 const LOCALES = ["en", "ru", "uz"] as const;
 type TLocale = (typeof LOCALES)[number];
+
+const SEED_CONTEXT = { isSeed: true } as const;
+
+const SEED_OP_OPTS = {
+	overrideAccess: true as const,
+	context: SEED_CONTEXT
+};
 
 type TResolvePageOptions = {
 	hrefPrefix?: string;
@@ -84,12 +115,43 @@ function resolveBlockActions(
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CONTENT_DIR = path.join(ROOT, "content");
+const SEED_LOCK_PATH = path.join(ROOT, ".seed.lock");
 const MEDIA_UPLOAD_DIR = "media/uploads";
 const MEDIA_UPLOAD_PATH = path.join(ROOT, MEDIA_UPLOAD_DIR);
 
 type TMediaCache = Map<string, Media>;
 
 const inFlightMedia = new Map<string, Promise<Media>>();
+
+let activeLookup = new SeedLookupCache();
+let activeMediaDbIndex: TMediaDbIndex | undefined;
+let activeProfiler: TSeedProfiler | undefined;
+let isCleanMediaRun = true;
+
+function setSeedRuntimeContext(
+	lookup: SeedLookupCache,
+	mediaDbIndex?: TMediaDbIndex,
+	profiler?: TSeedProfiler
+): void {
+	activeLookup = lookup;
+	activeMediaDbIndex = mediaDbIndex;
+	activeProfiler = profiler;
+}
+
+function markSeedRetry(): void {
+	isCleanMediaRun = false;
+}
+
+async function profileRun<T>(
+	category: TSeedProfileCategory,
+	operation: () => Promise<T>
+): Promise<T> {
+	if (activeProfiler) {
+		return activeProfiler.run(category, operation);
+	}
+
+	return operation();
+}
 
 function isSourcePathUniqueViolation(error: unknown): boolean {
 	if (!error || typeof error !== "object") {
@@ -116,6 +178,21 @@ async function findMediaBySourcePath(
 	payload: Payload,
 	sourcePath: string
 ): Promise<Media | null> {
+	const indexedId = activeMediaDbIndex?.get(sourcePath);
+
+	if (indexedId !== undefined) {
+		return {
+			id: indexedId,
+			sourcePath,
+			updatedAt: "",
+			createdAt: ""
+		} as Media;
+	}
+
+	if (isCleanMediaRun) {
+		return null;
+	}
+
 	const existing = await payload.find({
 		collection: "media",
 		where: {
@@ -126,7 +203,7 @@ async function findMediaBySourcePath(
 		limit: 1,
 		pagination: false,
 		depth: 0,
-		overrideAccess: true
+		...SEED_OP_OPTS
 	});
 
 	return existing.docs[0] ?? null;
@@ -169,22 +246,6 @@ async function readYamlFile<T>(filePath: string): Promise<T> {
 	return parseYaml(raw) as T;
 }
 
-async function resetDatabase(connectionString: string): Promise<void> {
-	console.log("Resetting database schema...");
-
-	const client = new pg.Client({ connectionString });
-
-	try {
-		await client.connect();
-		await client.query("DROP SCHEMA IF EXISTS public CASCADE");
-		await client.query("CREATE SCHEMA public");
-		await client.query("GRANT ALL ON SCHEMA public TO public");
-		console.log("Database schema reset complete");
-	} finally {
-		await client.end();
-	}
-}
-
 async function resetMediaFolderContents(): Promise<void> {
 	console.log("Resetting media upload directory...");
 
@@ -206,10 +267,111 @@ function clearCaches(): void {
 	inFlightMedia.clear();
 }
 
-async function resetEnvironment(connectionString: string): Promise<void> {
-	await resetDatabase(connectionString);
-	await resetMediaFolderContents();
-	clearCaches();
+function isProcessAlive(pid: number): boolean {
+	if (!Number.isInteger(pid) || pid <= 0) {
+		return false;
+	}
+
+	try {
+		process.kill(pid, 0);
+		return true;
+	} catch (error) {
+		const code = (error as NodeJS.ErrnoException).code;
+
+		return code !== "ESRCH";
+	}
+}
+
+async function acquireSeedLock(): Promise<void> {
+	try {
+		const handle = await fs.open(SEED_LOCK_PATH, "wx");
+		await handle.writeFile(String(process.pid));
+		await handle.close();
+	} catch (error) {
+		if ((error as NodeJS.ErrnoException).code === "EEXIST") {
+			const existingPidRaw = await fs
+				.readFile(SEED_LOCK_PATH, "utf8")
+				.catch(() => "");
+			const existingPid = Number.parseInt(existingPidRaw.trim(), 10);
+
+			if (!isProcessAlive(existingPid)) {
+				console.warn(
+					`  ! removing stale seed lock (pid ${existingPidRaw.trim() || "unknown"} not running)`
+				);
+				await fs.unlink(SEED_LOCK_PATH).catch(() => undefined);
+				return acquireSeedLock();
+			}
+
+			throw new Error(
+				`Seed already running (lock .seed.lock, pid ${existingPidRaw.trim()}). Stop the other process first.`
+			);
+		}
+
+		throw error;
+	}
+}
+
+async function releaseSeedLock(): Promise<void> {
+	await fs.unlink(SEED_LOCK_PATH).catch(() => undefined);
+}
+
+function resolveSeedSlug(raw: Record<string, unknown>): string | undefined {
+	const slug = raw.slug;
+
+	if (typeof slug === "string" && slug.length > 0) {
+		return slug;
+	}
+
+	if (slug && typeof slug === "object" && slug !== null && "en" in slug) {
+		const en = (slug as Record<string, unknown>).en;
+
+		if (typeof en === "string" && en.length > 0) {
+			return en;
+		}
+	}
+
+	return undefined;
+}
+
+async function findSeedDocBySlug(
+	payload: Payload,
+	collection: CollectionSlug,
+	slug: string
+): Promise<{ id: number | string } | null> {
+	const result = await payload.find({
+		collection,
+		where: { slug: { equals: slug } },
+		limit: 1,
+		depth: 0,
+		locale: "en",
+		...SEED_OP_OPTS
+	});
+
+	const doc = result.docs[0];
+
+	return doc ? { id: doc.id as number | string } : null;
+}
+
+function logPayloadInitContext(): void {
+	const pushEnabled = process.env.PAYLOAD_DB_PUSH !== "false";
+	const isProduction = process.env.NODE_ENV === "production";
+	const isMigrating = process.env.PAYLOAD_MIGRATING === "true";
+
+	console.log(
+		"  Payload init context: push=%s, NODE_ENV=%s, PAYLOAD_MIGRATING=%s",
+		pushEnabled ? "enabled" : "disabled",
+		process.env.NODE_ENV ?? "(unset)",
+		isMigrating ? "true" : "false"
+	);
+
+	if (pushEnabled && !isProduction && !isMigrating) {
+		console.log(
+			"  Schema sync: drizzle pushSchema runs inside getPayload (no separate migrations in repo)"
+		);
+		console.log(
+			"  After schema pull, DDL apply may run silently until Payload is ready"
+		);
+	}
 }
 
 async function createMediaRecord(
@@ -219,15 +381,17 @@ async function createMediaRecord(
 	const filePath = path.join(ROOT, "public", sourcePath);
 
 	try {
-		return await payload.create({
-			collection: "media",
-			data: {
-				sourcePath,
-				alt: path.basename(sourcePath, path.extname(sourcePath))
-			},
-			filePath,
-			overrideAccess: true
-		});
+		return await profileRun("media_upload", () =>
+			payload.create({
+				collection: "media",
+				data: {
+					sourcePath,
+					alt: path.basename(sourcePath, path.extname(sourcePath))
+				},
+				filePath,
+				...SEED_OP_OPTS
+			})
+		);
 	} catch (error) {
 		if (!isSourcePathUniqueViolation(error)) {
 			throw error;
@@ -258,11 +422,13 @@ async function ensureMediaOnce(
 
 	if (existing) {
 		mediaCache.set(sourcePath, existing);
+		activeMediaDbIndex?.set(sourcePath, existing.id as number);
 		return existing;
 	}
 
 	const doc = await createMediaRecord(payload, sourcePath);
 	mediaCache.set(sourcePath, doc);
+	activeMediaDbIndex?.set(sourcePath, doc.id as number);
 	return doc;
 }
 
@@ -327,36 +493,17 @@ async function resolveRouteIdeaCard(
 }
 
 async function resolveCountryCard(
-	payload: Payload,
 	card: Record<string, unknown>,
-	locale: TLocale,
+	locale?: TLocale,
 	options?: TResolvePageOptions
 ): Promise<Record<string, unknown>> {
 	const countrySlug = card.countrySlug;
 
 	if (typeof countrySlug !== "string") {
-		throw new Error("Country card must include countrySlug");
+		throw new Error(`Country card must include countrySlug in locale ${locale}`);
 	}
 
-	const result = await payload.find({
-		collection: "countries",
-		where: {
-			slug: {
-				equals: countrySlug
-			}
-		},
-		locale,
-		limit: 1,
-		depth: 0,
-		overrideAccess: true
-	});
-
-	const country = result.docs[0];
-
-	if (!country) {
-		throw new Error(`Country not found for slug: ${countrySlug}`);
-	}
-
+	const country = activeLookup.getCountryCard(countrySlug);
 	const slug = String(country.slug);
 
 	return {
@@ -392,9 +539,7 @@ async function resolveBlockCards(
 		const entry = card as Record<string, unknown>;
 
 		if (entry.type === "country" && entry.countrySlug) {
-			resolved.push(
-				await resolveCountryCard(payload, entry, locale, options)
-			);
+			resolved.push(await resolveCountryCard(entry, locale, options));
 			continue;
 		}
 
@@ -421,41 +566,14 @@ const ROUTE_MAP_ENTITY_COLLECTION = {
 type TRouteMapEntityType = keyof typeof ROUTE_MAP_ENTITY_COLLECTION;
 
 async function findRouteMapEntityId(
-	payload: Payload,
 	entityType: TRouteMapEntityType,
-	entitySlug: string,
-	locale: TLocale
+	entitySlug: string
 ): Promise<number> {
-	const collection = ROUTE_MAP_ENTITY_COLLECTION[entityType];
-
-	const result = await payload.find({
-		collection,
-		where: {
-			slug: {
-				equals: entitySlug
-			}
-		},
-		locale,
-		limit: 1,
-		depth: 0,
-		overrideAccess: true
-	});
-
-	const doc = result.docs[0];
-
-	if (!doc) {
-		throw new Error(
-			`RouteMap ${entityType} not found for slug: ${entitySlug}`
-		);
-	}
-
-	return doc.id as number;
+	return activeLookup.getRouteMapEntityId(entityType, entitySlug);
 }
 
 async function resolveRouteMapStops(
-	payload: Payload,
 	stops: unknown[],
-	locale: TLocale
 ): Promise<unknown[]> {
 	return Promise.all(
 		stops.map(async (stop) => {
@@ -472,12 +590,7 @@ async function resolveRouteMapStops(
 			}
 
 			const collection = ROUTE_MAP_ENTITY_COLLECTION[entityType];
-			const id = await findRouteMapEntityId(
-				payload,
-				entityType,
-				entitySlug,
-				locale
-			);
+			const id = await findRouteMapEntityId(entityType, entitySlug);
 
 			delete entry.entitySlug;
 
@@ -536,11 +649,7 @@ async function resolvePageBlocks(
 				if (options?.deferRouteMapStops) {
 					delete entry.stops;
 				} else {
-					entry.stops = await resolveRouteMapStops(
-						payload,
-						entry.stops,
-						locale
-					);
+					entry.stops = await resolveRouteMapStops(entry.stops);
 				}
 			}
 
@@ -590,26 +699,28 @@ async function resolveSeedDocument(
 	locale: TLocale,
 	options?: TResolvePageOptions
 ): Promise<Record<string, unknown>> {
-	const withTopLevelMedia = await resolveTopLevelMedia(
-		payload,
-		mediaCache,
-		data
-	);
-
-	if (!Array.isArray(withTopLevelMedia.blocks)) {
-		return withTopLevelMedia;
-	}
-
-	return {
-		...withTopLevelMedia,
-		blocks: await resolvePageBlocks(
+	return profileRun("resolve_seed_document", async () => {
+		const withTopLevelMedia = await resolveTopLevelMedia(
 			payload,
 			mediaCache,
-			withTopLevelMedia.blocks,
-			locale,
-			options
-		)
-	};
+			data
+		);
+
+		if (!Array.isArray(withTopLevelMedia.blocks)) {
+			return withTopLevelMedia;
+		}
+
+		return {
+			...withTopLevelMedia,
+			blocks: await resolvePageBlocks(
+				payload,
+				mediaCache,
+				withTopLevelMedia.blocks,
+				locale,
+				options
+			)
+		};
+	});
 }
 
 async function readDestinationPageSlug(): Promise<string> {
@@ -648,7 +759,7 @@ async function seedHomepage(
 			slug: "homepage",
 			data,
 			locale,
-			overrideAccess: true
+			...SEED_OP_OPTS
 		});
 
 		console.log(`  + homepage locale ${locale}`);
@@ -680,7 +791,7 @@ async function seedDestination(
 			slug: "destination",
 			data,
 			locale,
-			overrideAccess: true
+			...SEED_OP_OPTS
 		});
 
 		console.log(`  + destination locale ${locale}`);
@@ -737,70 +848,22 @@ function applyGeoNavOrder(
 	};
 }
 
-async function findCountryIdBySlug(
-	payload: Payload,
-	countrySlug: string,
-	locale: TLocale
-): Promise<number> {
-	const result = await payload.find({
-		collection: "countries",
-		where: {
-			slug: {
-				equals: countrySlug
-			}
-		},
-		locale,
-		limit: 1,
-		depth: 0,
-		overrideAccess: true
-	});
-
-	const country = result.docs[0];
-
-	if (!country) {
-		throw new Error(`Country not found for slug: ${countrySlug}`);
-	}
-
-	return country.id as number;
+async function findCountryIdBySlug(countrySlug: string): Promise<number> {
+	return activeLookup.getCountryId(countrySlug);
 }
 
 async function findRegionIdBySlug(
-	payload: Payload,
 	countryId: number,
-	regionSlug: string,
-	locale: TLocale
+	regionSlug: string
 ): Promise<number> {
-	const result = await payload.find({
-		collection: "regions",
-		where: {
-			and: [
-				{
-					slug: {
-						equals: regionSlug
-					}
-				},
-				{
-					country: {
-						equals: countryId
-					}
-				}
-			]
-		},
-		locale,
-		limit: 1,
-		depth: 0,
-		overrideAccess: true
-	});
+	return activeLookup.getRegionId(countryId, regionSlug);
+}
 
-	const region = result.docs[0];
-
-	if (!region) {
-		throw new Error(
-			`Region not found for slug: ${regionSlug} (country id: ${countryId})`
-		);
-	}
-
-	return region.id as number;
+async function findCityIdBySlug(
+	regionId: number,
+	citySlug: string
+): Promise<number> {
+	return activeLookup.getCityId(regionId, citySlug);
 }
 
 async function resolveRegionSeedData(
@@ -813,11 +876,7 @@ async function resolveRegionSeedData(
 	const result = { ...data };
 
 	if (typeof result.country === "string") {
-		result.country = await findCountryIdBySlug(
-			payload,
-			result.country,
-			locale
-		);
+		result.country = await findCountryIdBySlug(result.country);
 	}
 
 	const withBadges = resolveBadgeIds(result, badgeIds);
@@ -837,21 +896,15 @@ async function resolveCitySeedData(
 	const result = { ...data };
 
 	if (typeof result.country === "string") {
-		result.country = await findCountryIdBySlug(
-			payload,
-			result.country,
-			locale
-		);
+		result.country = await findCountryIdBySlug(result.country);
 	}
 
 	if (typeof result.region === "string") {
 		const countryId = result.country as number;
 
 		result.region = await findRegionIdBySlug(
-			payload,
 			countryId,
-			result.region,
-			locale
+			result.region
 		);
 	}
 
@@ -860,51 +913,6 @@ async function resolveCitySeedData(
 	return resolveSeedDocument(payload, mediaCache, withBadges, locale, {
 		deferRouteMapStops: true
 	});
-}
-
-async function findCityIdBySlug(
-	payload: Payload,
-	countryId: number,
-	regionId: number,
-	citySlug: string,
-	locale: TLocale
-): Promise<number> {
-	const result = await payload.find({
-		collection: "cities",
-		where: {
-			and: [
-				{
-					slug: {
-						equals: citySlug
-					}
-				},
-				{
-					country: {
-						equals: countryId
-					}
-				},
-				{
-					region: {
-						equals: regionId
-					}
-				}
-			]
-		},
-		locale,
-		limit: 1,
-		depth: 0,
-		overrideAccess: true
-	});
-
-	const city = result.docs[0];
-
-	if (!city) {
-		throw new Error(
-			`City not found for slug: ${citySlug} (region id: ${regionId})`
-		);
-	}
-
-	return city.id as number;
 }
 
 async function resolveAttractionSeedData(
@@ -917,39 +925,96 @@ async function resolveAttractionSeedData(
 	const result = { ...data };
 
 	if (typeof result.country === "string") {
-		result.country = await findCountryIdBySlug(
-			payload,
-			result.country,
-			locale
-		);
+		result.country = await findCountryIdBySlug(result.country);
 	}
 
 	const countryId = result.country as number;
 
 	if (typeof result.region === "string") {
 		result.region = await findRegionIdBySlug(
-			payload,
 			countryId,
-			result.region,
-			locale
+			result.region
 		);
 	}
 
 	const regionId = result.region as number;
 
 	if (typeof result.city === "string") {
-		result.city = await findCityIdBySlug(
-			payload,
-			countryId,
-			regionId,
-			result.city,
-			locale
-		);
+		result.city = await findCityIdBySlug(regionId, result.city);
 	}
 
 	const withBadges = resolveBadgeIds(result, badgeIds);
 
 	return resolveSeedDocument(payload, mediaCache, withBadges, locale);
+}
+
+async function seedLocalizedDocOnce(
+	payload: Payload,
+	collection: CollectionSlug,
+	raw: Record<string, unknown>,
+	options?: {
+		published?: boolean;
+		skipSlugLookup?: boolean;
+		beforeCreate?: (
+			data: Record<string, unknown>,
+			locale: TLocale
+		) => Promise<Record<string, unknown>>;
+	}
+): Promise<{ id: number | string; createdDoc?: Record<string, unknown> }> {
+	const beforeCreate = options?.beforeCreate ?? (async (data) => data);
+	const slug = resolveSeedSlug(raw);
+	let doc =
+		!options?.skipSlugLookup && slug
+			? await findSeedDocBySlug(payload, collection, slug)
+			: null;
+	let createdDoc: Record<string, unknown> | undefined;
+
+	if (!doc) {
+		const enData = await beforeCreate(
+			pickLocale(raw, "en") as Record<string, unknown>,
+			"en"
+		);
+
+		if (options?.published) {
+			enData._status = "published";
+		}
+
+		const created = await profileRun("payload_create", () =>
+			payload.create({
+				collection,
+				data: enData,
+				locale: "en",
+				draft: false,
+				...SEED_OP_OPTS
+			})
+		);
+
+		doc = created;
+		createdDoc = created as unknown as Record<string, unknown>;
+	}
+
+	for (const locale of LOCALES) {
+		if (locale === "en") {
+			continue;
+		}
+
+		const localeData = await beforeCreate(
+			pickLocale(raw, locale) as Record<string, unknown>,
+			locale
+		);
+
+		await profileRun("payload_update_locales", () =>
+			payload.update({
+				collection,
+				id: doc!.id,
+				data: localeData,
+				locale,
+				...SEED_OP_OPTS
+			})
+		);
+	}
+
+	return { id: doc.id, createdDoc };
 }
 
 async function seedLocalizedDoc(
@@ -963,46 +1028,82 @@ async function seedLocalizedDoc(
 			locale: TLocale
 		) => Promise<Record<string, unknown>>;
 	}
-): Promise<{ id: number | string }> {
-	const beforeCreate = options?.beforeCreate ?? (async (data) => data);
+): Promise<{ id: number | string; createdDoc?: Record<string, unknown> }> {
+	const slug = resolveSeedSlug(raw);
+	const label = `seed ${collection}${slug ? ` (${slug})` : ""}`;
 
-	const enData = await beforeCreate(
-		pickLocale(raw, "en") as Record<string, unknown>,
-		"en"
-	);
-
-	if (options?.published) {
-		enData._status = "published";
-	}
-
-	const doc = await payload.create({
-		collection,
-		data: enData,
-		locale: "en",
-		draft: false,
-		overrideAccess: true
-	});
-
-	for (const locale of LOCALES) {
-		if (locale === "en") {
-			continue;
+	return retrySeedOperation((attempt) => {
+		if (attempt > 1) {
+			markSeedRetry();
 		}
 
-		const localeData = await beforeCreate(
-			pickLocale(raw, locale) as Record<string, unknown>,
-			locale
-		);
-
-		await payload.update({
-			collection,
-			id: doc.id,
-			data: localeData,
-			locale,
-			overrideAccess: true
+		return seedLocalizedDocOnce(payload, collection, raw, {
+			...options,
+			skipSlugLookup: attempt === 1
 		});
+	}, label);
+}
+
+function registerCountryFromDoc(
+	lookup: SeedLookupCache,
+	doc: Record<string, unknown>
+): void {
+	const slug = typeof doc.slug === "string" ? doc.slug : undefined;
+
+	if (!slug) {
+		return;
 	}
 
-	return doc;
+	lookup.registerCountry({
+		id: doc.id as number,
+		slug,
+		heroImage: doc.heroImage as Country["heroImage"],
+		subtitle: doc.subtitle as Country["subtitle"],
+		title: doc.title as Country["title"],
+		excerpt: doc.excerpt as Country["excerpt"]
+	});
+}
+
+function registerRegionFromDoc(
+	lookup: SeedLookupCache,
+	doc: Record<string, unknown>
+): void {
+	const slug = typeof doc.slug === "string" ? doc.slug : undefined;
+	const countryId =
+		typeof doc.country === "number" ? doc.country : undefined;
+
+	if (!slug || countryId === undefined) {
+		return;
+	}
+
+	lookup.registerRegion(countryId, slug, doc.id as number);
+}
+
+function registerCityFromDoc(
+	lookup: SeedLookupCache,
+	doc: Record<string, unknown>
+): void {
+	const slug = typeof doc.slug === "string" ? doc.slug : undefined;
+	const regionId = typeof doc.region === "number" ? doc.region : undefined;
+
+	if (!slug || regionId === undefined) {
+		return;
+	}
+
+	lookup.registerCity(regionId, slug, doc.id as number);
+}
+
+function registerAttractionFromDoc(
+	lookup: SeedLookupCache,
+	doc: Record<string, unknown>
+): void {
+	const slug = typeof doc.slug === "string" ? doc.slug : undefined;
+
+	if (!slug) {
+		return;
+	}
+
+	lookup.registerAttraction(slug, doc.id as number);
 }
 
 async function seedBadges(payload: Payload): Promise<Map<string, number>> {
@@ -1012,7 +1113,7 @@ async function seedBadges(payload: Payload): Promise<Map<string, number>> {
 
 	console.log(`Seeding badges (${items.length})...`);
 
-	for (const item of items) {
+	await mapWithConcurrency(items, SEED_LIMITS.badges, async (item) => {
 		if (typeof item.slug !== "string") {
 			throw new Error("Badge seed item must include a string slug");
 		}
@@ -1020,7 +1121,7 @@ async function seedBadges(payload: Payload): Promise<Map<string, number>> {
 		const doc = await seedLocalizedDoc(payload, "badges", item);
 		badgeIds.set(item.slug, doc.id as number);
 		console.log(`  + badge ${item.slug}`);
-	}
+	});
 
 	return badgeIds;
 }
@@ -1055,6 +1156,7 @@ async function seedThemes(
 
 async function seedCountries(
 	payload: Payload,
+	lookup: SeedLookupCache,
 	badgeIds: Map<string, number>,
 	mediaCache: TMediaCache
 ): Promise<number> {
@@ -1077,7 +1179,7 @@ async function seedCountries(
 				? String((item.slug as Record<string, unknown>).en)
 				: file.replace(/\.yml$/, "");
 
-		await seedLocalizedDoc(payload, "countries", item, {
+		const result = await seedLocalizedDoc(payload, "countries", item, {
 			published: true,
 			beforeCreate: async (data, locale) => {
 				const withNavOrder = applyGeoNavOrder(data, index);
@@ -1091,6 +1193,10 @@ async function seedCountries(
 				);
 			}
 		});
+
+		if (result.createdDoc) {
+			registerCountryFromDoc(lookup, result.createdDoc);
+		}
 
 		console.log(`  + country ${slug}`);
 	}
@@ -1152,7 +1258,7 @@ async function refreshRouteMapStops(
 			locale: "en",
 			limit: 1,
 			depth: 0,
-			overrideAccess: true
+			...SEED_OP_OPTS
 		});
 
 		const doc = existing.docs[0];
@@ -1179,15 +1285,17 @@ async function refreshRouteMapStops(
 				| Region["blocks"]
 				| City["blocks"];
 
-			await payload.update({
-				collection,
-				id: doc.id,
-				data: {
-					blocks: blocksData
-				},
-				locale,
-				overrideAccess: true
-			});
+			await profileRun("payload_update_locales", () =>
+				payload.update({
+					collection,
+					id: doc.id,
+					data: {
+						blocks: blocksData
+					},
+					locale,
+					...SEED_OP_OPTS
+				})
+			);
 		}
 
 		console.log(`  ~ ${collection} routeMap stops ${slug}`);
@@ -1196,6 +1304,7 @@ async function refreshRouteMapStops(
 
 async function seedRegions(
 	payload: Payload,
+	lookup: SeedLookupCache,
 	badgeIds: Map<string, number>,
 	mediaCache: TMediaCache
 ): Promise<number> {
@@ -1227,7 +1336,7 @@ async function seedRegions(
 				? String((item.slug as Record<string, unknown>).en)
 				: file.replace(/\.yml$/, "");
 
-		await seedLocalizedDoc(payload, "regions", item, {
+		const result = await seedLocalizedDoc(payload, "regions", item, {
 			published: true,
 			beforeCreate: async (data, locale) =>
 				resolveRegionSeedData(
@@ -1239,6 +1348,10 @@ async function seedRegions(
 				)
 		});
 
+		if (result.createdDoc) {
+			registerRegionFromDoc(lookup, result.createdDoc);
+		}
+
 		console.log(`  + region ${slug}`);
 	}
 
@@ -1247,6 +1360,7 @@ async function seedRegions(
 
 async function seedCities(
 	payload: Payload,
+	lookup: SeedLookupCache,
 	badgeIds: Map<string, number>,
 	mediaCache: TMediaCache
 ): Promise<number> {
@@ -1278,7 +1392,7 @@ async function seedCities(
 				? String((item.slug as Record<string, unknown>).en)
 				: file.replace(/\.yml$/, "");
 
-		await seedLocalizedDoc(payload, "cities", item, {
+		const result = await seedLocalizedDoc(payload, "cities", item, {
 			published: true,
 			beforeCreate: async (data, locale) =>
 				resolveCitySeedData(
@@ -1290,6 +1404,10 @@ async function seedCities(
 				)
 		});
 
+		if (result.createdDoc) {
+			registerCityFromDoc(lookup, result.createdDoc);
+		}
+
 		console.log(`  + city ${slug}`);
 	}
 
@@ -1298,6 +1416,7 @@ async function seedCities(
 
 async function seedAttractions(
 	payload: Payload,
+	lookup: SeedLookupCache,
 	badgeIds: Map<string, number>,
 	mediaCache: TMediaCache
 ): Promise<number> {
@@ -1329,7 +1448,7 @@ async function seedAttractions(
 				? String((item.slug as Record<string, unknown>).en)
 				: file.replace(/\.yml$/, "");
 
-		await seedLocalizedDoc(payload, "attractions", item, {
+		const result = await seedLocalizedDoc(payload, "attractions", item, {
 			published: true,
 			beforeCreate: async (data, locale) =>
 				resolveAttractionSeedData(
@@ -1341,77 +1460,18 @@ async function seedAttractions(
 				)
 		});
 
+		if (result.createdDoc) {
+			registerAttractionFromDoc(lookup, result.createdDoc);
+		}
+
 		console.log(`  + attraction ${slug}`);
 	}
 
 	return files.length;
 }
 
-async function findSegmentIdBySlug(
-	payload: Payload,
-	segmentSlug: string
-): Promise<number> {
-	const result = await payload.find({
-		collection: "segments",
-		where: {
-			slug: {
-				equals: segmentSlug
-			}
-		},
-		limit: 1,
-		depth: 0,
-		overrideAccess: true
-	});
-
-	const doc = result.docs[0];
-
-	if (!doc) {
-		throw new Error(`Segment not found: ${segmentSlug}`);
-	}
-
-	return doc.id as number;
-}
-
-async function buildPageIdMap(payload: Payload): Promise<Map<string, number>> {
-	const segmentsResult = await payload.find({
-		collection: "segments",
-		limit: 100,
-		depth: 0,
-		overrideAccess: true
-	});
-
-	const segmentIdToSlug = new Map<number, string>();
-
-	for (const segment of segmentsResult.docs) {
-		if (typeof segment.slug === "string") {
-			segmentIdToSlug.set(segment.id as number, segment.slug);
-		}
-	}
-
-	const pagesResult = await payload.find({
-		collection: "pages",
-		locale: "en",
-		limit: 200,
-		depth: 0,
-		overrideAccess: true
-	});
-
-	const pageIds = new Map<string, number>();
-
-	for (const page of pagesResult.docs) {
-		const segmentId =
-			typeof page.segment === "number" ? page.segment : null;
-
-		if (segmentId && typeof page.slug === "string") {
-			const segmentSlug = segmentIdToSlug.get(segmentId);
-
-			if (segmentSlug) {
-				pageIds.set(`${segmentSlug}/${page.slug}`, page.id as number);
-			}
-		}
-	}
-
-	return pageIds;
+async function findSegmentIdBySlug(segmentSlug: string): Promise<number> {
+	return activeLookup.getSegmentId(segmentSlug);
 }
 
 async function resolvePageSeedData(
@@ -1423,7 +1483,7 @@ async function resolvePageSeedData(
 	const result = { ...data };
 
 	if (typeof result.segment === "string") {
-		result.segment = await findSegmentIdBySlug(payload, result.segment);
+		result.segment = await findSegmentIdBySlug(result.segment);
 	}
 
 	return resolveSeedDocument(payload, mediaCache, result, locale);
@@ -1456,7 +1516,7 @@ async function seedSegments(payload: Payload): Promise<Map<string, number>> {
 async function seedPages(
 	payload: Payload,
 	mediaCache: TMediaCache
-): Promise<number> {
+): Promise<{ count: number; pageIds: Map<string, number> }> {
 	const pagesDir = path.join(CONTENT_DIR, "pages");
 	const files = (await fs.readdir(pagesDir))
 		.filter((file) => file.endsWith(".yml"))
@@ -1464,21 +1524,31 @@ async function seedPages(
 
 	console.log(`Seeding pages (${files.length})...`);
 
+	const pageIds = new Map<string, number>();
+
 	for (const file of files) {
 		const item = await readYamlFile<Record<string, unknown>>(
 			path.join(pagesDir, file)
 		);
 
-		await seedLocalizedDoc(payload, "pages", item, {
+		const result = await seedLocalizedDoc(payload, "pages", item, {
 			published: true,
 			beforeCreate: async (data, locale) =>
 				resolvePageSeedData(payload, mediaCache, data, locale)
 		});
 
+		const segmentSlug =
+			typeof item.segment === "string" ? item.segment : undefined;
+		const pageSlug = resolveSeedSlug(item);
+
+		if (segmentSlug && pageSlug) {
+			pageIds.set(`${segmentSlug}/${pageSlug}`, result.id as number);
+		}
+
 		console.log(`  + page ${file.replace(/\.yml$/, "")}`);
 	}
 
-	return files.length;
+	return { count: files.length, pageIds };
 }
 
 type TNavigationSeedContext = {
@@ -1613,7 +1683,7 @@ async function seedNavigation(
 			slug: "header",
 			data: enData,
 			locale: "en",
-			overrideAccess: true
+			...SEED_OP_OPTS
 		});
 
 		console.log("  + header locale en");
@@ -1621,7 +1691,8 @@ async function seedNavigation(
 		const headerWithIds = await payload.findGlobal({
 			slug: "header",
 			locale: "en",
-			depth: 0
+			depth: 0,
+			...SEED_OP_OPTS
 		});
 
 		for (const locale of LOCALES) {
@@ -1649,7 +1720,7 @@ async function seedNavigation(
 					ctaAction: localized.ctaAction as Header["ctaAction"]
 				},
 				locale,
-				overrideAccess: true
+				...SEED_OP_OPTS
 			});
 
 			console.log(`  + header locale ${locale}`);
@@ -1674,7 +1745,7 @@ async function seedNavigation(
 				columns: enColumns
 			},
 			locale: "en",
-			overrideAccess: true
+			...SEED_OP_OPTS
 		});
 
 		console.log("  + footer locale en");
@@ -1682,7 +1753,8 @@ async function seedNavigation(
 		const footerWithIds = await payload.findGlobal({
 			slug: "footer",
 			locale: "en",
-			depth: 0
+			depth: 0,
+			...SEED_OP_OPTS
 		});
 
 		for (const locale of LOCALES) {
@@ -1710,7 +1782,7 @@ async function seedNavigation(
 					copyrightText: localized.copyrightText as Footer["copyrightText"]
 				},
 				locale,
-				overrideAccess: true
+				...SEED_OP_OPTS
 			});
 
 			console.log(`  + footer locale ${locale}`);
@@ -1725,7 +1797,8 @@ async function assertNavigationLabelsSeeded(payload: Payload): Promise<void> {
 		const header = await payload.findGlobal({
 			slug: "header",
 			locale,
-			depth: 0
+			depth: 0,
+			...SEED_OP_OPTS
 		});
 
 		const labels =
@@ -1740,44 +1813,176 @@ async function assertNavigationLabelsSeeded(payload: Payload): Promise<void> {
 }
 
 async function main(): Promise<void> {
-	if (!process.env.DATABASE_URI) {
-		throw new Error("DATABASE_URI is not set");
-	}
-
 	if (!process.env.PAYLOAD_SECRET) {
 		throw new Error("PAYLOAD_SECRET is not set");
 	}
 
-	await resetEnvironment(process.env.DATABASE_URI);
+	await acquireSeedLock();
 
-	const payload = await getPayload({ config });
+	try {
+		await runSeed();
+	} finally {
+		await releaseSeedLock();
+	}
+}
+
+async function runSeed(): Promise<void> {
+	const fullReset = isSeedFullReset();
+	const seedDbUri = resolveSeedDatabaseUri();
+	const profiler = createSeedProfiler();
+	const cost = createSeedCostTracker(profiler);
+	const log = createSeedStageLogger(SEED_STAGE_COUNT);
+	const lookup = new SeedLookupCache();
+
+	logSeedConnectionInfo(seedDbUri);
+	logSeedResetMode();
+	console.log(
+		"Baseline: run a single seed process (stop dev server). Profile summary prints at end."
+	);
+	process.env.PAYLOAD_SEED_MODE = "true";
+	process.env.DATABASE_URI = seedDbUri;
+
+	if (!fullReset) {
+		process.env.PAYLOAD_DB_PUSH = "false";
+	}
+
+	const { default: config } = await import("@payload-config");
+
+	isCleanMediaRun = true;
+
+	log.start(fullReset ? "Reset database (full)" : "Reset database (fast)");
+	await resetDatabase(seedDbUri, fullReset);
+	log.done();
+
+	log.start("Reset media upload directory");
+	await resetMediaFolderContents();
+	clearCaches();
+	log.done();
+
+	log.start("Initializing Payload");
+	logPayloadInitContext();
+	const payload = await profiler.run("payload_init", () =>
+		retrySeedOperation(async (attempt) => {
+			if (attempt > 1) {
+				markSeedRetry();
+				console.warn(
+					"  ! re-running database reset before Payload retry..."
+				);
+				await resetDatabase(seedDbUri, fullReset);
+			}
+
+			await wakeDatabase(seedDbUri);
+
+			return waitWithHeartbeat(
+				getPayload({ config }),
+				fullReset
+					? "drizzle schema push after schema pull (DDL, no console output from drizzle-kit)"
+					: "Payload init (schema push skipped if unchanged)"
+			);
+		}, "Payload initialization")
+	);
+	profiler.attachSqlCounter(payload);
+	attachSeedPoolErrorHandler(payload);
+	log.done();
+
+	cost.markSeedPhaseStart();
+
+	let mediaDbIndex: TMediaDbIndex | undefined;
+
+	if (!fullReset) {
+		console.log("Preloading media DB index (seed:fast)...");
+		mediaDbIndex = await preloadMediaDbIndex(payload);
+	}
+
+	setSeedRuntimeContext(lookup, mediaDbIndex, profiler);
 
 	const mediaCache: TMediaCache = new Map();
+
+	log.start("Seeding badges");
 	const badgeIds = await seedBadges(payload);
+	log.done();
+
+	log.start("Seeding themes");
 	const themesCount = await seedThemes(payload, mediaCache);
-	const countriesCount = await seedCountries(payload, badgeIds, mediaCache);
-	const regionsCount = await seedRegions(payload, badgeIds, mediaCache);
-	const citiesCount = await seedCities(payload, badgeIds, mediaCache);
-	const attractionsCount = await seedAttractions(
+	log.done();
+
+	log.start("Seeding countries");
+	const countriesCount = await seedCountries(
 		payload,
+		lookup,
 		badgeIds,
 		mediaCache
 	);
+	log.done();
 
-	await refreshRouteMapStops(payload, "cities", badgeIds, mediaCache);
-	await refreshRouteMapStops(payload, "regions", badgeIds, mediaCache);
-	await refreshRouteMapStops(payload, "countries", badgeIds, mediaCache);
-	const navigationRootSlug = await seedDestination(payload, mediaCache);
-	await seedHomepage(payload, mediaCache, navigationRootSlug);
-	const segmentIds = await seedSegments(payload);
-	const pagesCount = await seedPages(payload, mediaCache);
-	const pageIds = await buildPageIdMap(payload);
+	log.start("Seeding regions");
+	const regionsCount = await seedRegions(
+		payload,
+		lookup,
+		badgeIds,
+		mediaCache
+	);
+	log.done();
 
-	await seedNavigation(payload, mediaCache, {
-		segmentIds,
-		pageIds,
-		destinationSlug: navigationRootSlug
+	log.start("Seeding cities");
+	const citiesCount = await seedCities(
+		payload,
+		lookup,
+		badgeIds,
+		mediaCache
+	);
+	log.done();
+
+	log.start("Seeding attractions");
+	const attractionsCount = await seedAttractions(
+		payload,
+		lookup,
+		badgeIds,
+		mediaCache
+	);
+	log.done();
+
+	log.start("Refreshing route map stops");
+	await profiler.run("route_refresh", async () => {
+		await refreshRouteMapStops(payload, "cities", badgeIds, mediaCache);
+		await refreshRouteMapStops(payload, "regions", badgeIds, mediaCache);
+		await refreshRouteMapStops(payload, "countries", badgeIds, mediaCache);
 	});
+	log.done();
+
+	log.start("Seeding destination");
+	const navigationRootSlug = await profiler.run("navigation_globals", () =>
+		seedDestination(payload, mediaCache)
+	);
+	log.done();
+
+	log.start("Seeding homepage");
+	await profiler.run("navigation_globals", () =>
+		seedHomepage(payload, mediaCache, navigationRootSlug)
+	);
+	log.done();
+
+	log.start("Seeding segments");
+	const segmentIds = await seedSegments(payload);
+	lookup.ingestSegments(segmentIds);
+	log.done();
+
+	log.start("Seeding pages");
+	const { count: pagesCount, pageIds } = await seedPages(
+		payload,
+		mediaCache
+	);
+	log.done();
+
+	log.start("Seeding navigation");
+	await profiler.run("navigation_globals", () =>
+		seedNavigation(payload, mediaCache, {
+			segmentIds,
+			pageIds,
+			destinationSlug: navigationRootSlug
+		})
+	);
+	log.done();
 
 	console.log("Seed complete:", {
 		badges: badgeIds.size,
@@ -1794,6 +1999,7 @@ async function main(): Promise<void> {
 		footer: true
 	});
 
+	cost.logSummary(fullReset ? "full" : "fast");
 	process.exit(0);
 }
 

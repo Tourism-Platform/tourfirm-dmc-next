@@ -24,7 +24,18 @@ export default buildConfig({
 	secret: process.env.PAYLOAD_SECRET || "",
 	db: postgresAdapter({
 		pool: {
-			connectionString: process.env.DATABASE_URI || ""
+			connectionString: process.env.DATABASE_URI || "",
+			...(process.env.PAYLOAD_SEED_MODE === "true"
+				? {
+					// min 2: connect() keeps one client for error listener (see db-postgres connect.js)
+					max: 2,
+					maxUses: 250,
+					idleTimeoutMillis: 0,
+					connectionTimeoutMillis: 300_000,
+					keepAlive: true,
+					options: "-c statement_timeout=0 -c idle_in_transaction_session_timeout=0"
+				}
+				: {})
 		},
 		push: process.env.PAYLOAD_DB_PUSH !== "false"
 	}),

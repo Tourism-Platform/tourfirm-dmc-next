@@ -15,11 +15,19 @@ function revalidateDestinationsNavCache(): void {
 }
 
 export const revalidateDestinationsNavAfterChange: CollectionAfterChangeHook =
-	() => {
+	({ req }) => {
+		if (req.context?.isSeed) {
+			return;
+		}
+
 		revalidateDestinationsNavCache();
 	};
 
 export const revalidateDestinationsNavAfterDelete: CollectionAfterDeleteHook =
-	() => {
+	({ req }) => {
+		if (req.context?.isSeed) {
+			return;
+		}
+
 		revalidateDestinationsNavCache();
 	};
