@@ -50,7 +50,14 @@ export const FooterDefault = async ({
 
 					<div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
 						<FooterCopyright
-							text={copyrightText ?? t("copyright", { year })}
+							text={
+								copyrightText
+									? copyrightText.replace(
+											"{year}",
+											String(year)
+										)
+									: t("copyright", { year })
+							}
 						/>
 						<FooterSocial items={socialLinks} />
 					</div>
