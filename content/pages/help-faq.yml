@@ -1,0 +1,32 @@
+segment: "help"
+slug: "faq"
+title:
+  en: "FAQ"
+  ru: "FAQ"
+  uz: "FAQ"
+seo:
+  metaTitle:
+    en: "FAQ | TourLink"
+    ru: "FAQ | TourLink"
+    uz: "FAQ | TourLink"
+  metaDescription:
+    en: "Section under development"
+    ru: "Раздел в разработке"
+    uz: "Bo'lim ishlab chiqilmoqda"
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/hero-image.jpg"
+    imageAlt:
+      en: "TourLink"
+      ru: "TourLink"
+      uz: "TourLink"
+    title:
+      en: "FAQ"
+      ru: "FAQ"
+      uz: "FAQ"
+    description:
+      en: "Section under development"
+      ru: "Раздел в разработке"
+      uz: "Bo'lim ishlab chiqilmoqda"

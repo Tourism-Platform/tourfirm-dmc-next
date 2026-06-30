@@ -1,6 +1,7 @@
 import config from "@payload-config";
 import { getPayload } from "payload";
 import { cache } from "react";
+import "server-only";
 
 import { toGeoLocale } from "./geo-locale";
 import type { Region } from "@/payload-types";

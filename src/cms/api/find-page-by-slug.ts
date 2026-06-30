@@ -1,10 +1,10 @@
 import config from "@payload-config";
 import { getPayload } from "payload";
 import { cache } from "react";
+import "server-only";
 
+import { toGeoLocale } from "./geo-locale";
 import type { Page } from "@/payload-types";
-
-type TLocale = "en" | "ru" | "uz";
 
 export const findPageBySlug = cache(
 	async (locale: string, slug: string): Promise<Page | null> => {
@@ -13,7 +13,7 @@ export const findPageBySlug = cache(
 
 			const result = await payload.find({
 				collection: "pages",
-				locale: locale as TLocale,
+				locale: toGeoLocale(locale),
 				fallbackLocale: "en",
 				depth: 2,
 				limit: 1,
@@ -22,6 +22,11 @@ export const findPageBySlug = cache(
 						{
 							slug: {
 								equals: slug
+							}
+						},
+						{
+							segment: {
+								exists: false
 							}
 						},
 						{

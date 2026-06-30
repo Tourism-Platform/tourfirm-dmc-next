@@ -1,0 +1,182 @@
+segment: "legal"
+slug: "booking"
+title:
+  en: "Booking terms"
+  ru: "Условия бронирования"
+  uz: "Bron qilish shartlari"
+seo:
+  metaTitle:
+    en: "Booking terms | TourLink"
+    ru: "Условия бронирования | TourLink"
+    uz: "Bron qilish shartlari | TourLink"
+  metaDescription:
+    en: "How to request, confirm and pay for TourLink travel services."
+    ru: "Как запрашивать, подтверждать и оплачивать туристические услуги TourLink."
+    uz: "TourLink sayohat xizmatlarini qanday so'rash, tasdiqlash va to'lash."
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/hero-image.jpg"
+    imageAlt:
+      en: "Booking terms"
+      ru: "Условия бронирования"
+      uz: "Bron qilish shartlari"
+    title:
+      en: "Booking terms"
+      ru: "Условия бронирования"
+      uz: "Bron qilish shartlari"
+    description:
+      en: "Rules for requesting, confirming, paying for and delivering TourLink travel programmes."
+      ru: "Правила запроса, подтверждения, оплаты и проведения туристических программ TourLink."
+      uz: "TourLink sayohat dasturlarini so'rash, tasdiqlash, to'lash va o'tkazish qoidalari."
+  - blockType: "regular"
+    title:
+      en: "Who these terms apply to"
+      ru: "К кому применяются условия"
+      uz: "Ushbu shartlar kimga tegishli"
+    description:
+      en: "These Booking terms apply to travellers, group leaders, corporate clients, agencies and partners who request or book travel services from TourLink. TourLink designs and delivers travel programmes and may coordinate hotel, transport, guide, restaurant, venue, permit partner and other supplier services needed for the route."
+      ru: "Эти Условия бронирования применяются к путешественникам, руководителям групп, корпоративным клиентам, агентствам и партнерам, которые запрашивают или бронируют туристические услуги у TourLink. TourLink разрабатывает и проводит туристические программы и может координировать услуги отелей, транспорта, гидов, ресторанов, площадок, партнеров по разрешениям и других поставщиков, необходимых для маршрута."
+      uz: "Ushbu Bron qilish shartlari TourLinkdan sayohat xizmatlarini so'raydigan yoki bron qiladigan sayohatchilar, guruh rahbarlari, korporativ mijozlar, agentliklar va hamkorlarga tegishli. TourLink sayohat dasturlarini ishlab chiqadi va o'tkazadi hamda marshrut uchun kerakli mehmonxona, transport, gid, restoran, maydon, ruxsatnoma hamkori va boshqa yetkazib beruvchi xizmatlarini muvofiqlashtirishi mumkin."
+  - blockType: "regular"
+    title:
+      en: "Enquiry and confirmation"
+      ru: "Запрос и подтверждение"
+      uz: "So'rov va tasdiqlash"
+    description:
+      en: "An enquiry is not a booking. A booking is confirmed only after written confirmation of TourLink services and fulfilment of the deposit, prepayment or full payment condition according to the relevant invoice, proposal, booking confirmation or contract."
+      ru: "Запрос не является бронированием. Бронирование подтверждается только после письменного подтверждения услуг TourLink и выполнения условия по депозиту, предоплате или полной оплате согласно соответствующему счету, предложению, подтверждению бронирования или договору."
+      uz: "So'rov bron emas. Bron faqat TourLink xizmatlarining yozma tasdiqlanishi va tegishli hisob-faktura, taklif, bron tasdiqi yoki shartnomaga muvofiq depozit, oldindan to'lov yoki to'liq to'lov shartining bajarilishidan keyin tasdiqlanadi."
+  - blockType: "regular"
+    title:
+      en: "Typical booking process"
+      ru: "Обычный процесс бронирования"
+      uz: "Odatiy bron jarayoni"
+    cards:
+      - type: "servicesProcess"
+        step: "01"
+        description:
+          en: "You submit an enquiry with dates, destinations, group size, interests and practical requirements."
+          ru: "Вы отправляете запрос с датами, направлениями, размером группы, интересами и практическими требованиями."
+          uz: "Siz sanalar, yo'nalishlar, guruh hajmi, qiziqishlar va amaliy talablar bilan so'rov yuborasiz."
+      - type: "servicesProcess"
+        step: "02"
+        description:
+          en: "TourLink reviews the enquiry and may ask for missing details."
+          ru: "TourLink изучает запрос и может уточнить недостающие детали."
+          uz: "TourLink so'rovni ko'rib chiqadi va yetishmayotgan tafsilotlarni aniqlashtirishi mumkin."
+      - type: "servicesProcess"
+        step: "03"
+        description:
+          en: "TourLink prepares a proposal, route, quote, availability note or service plan."
+          ru: "TourLink готовит предложение, маршрут, расчет, заметку о наличии услуг или план сервиса."
+          uz: "TourLink taklif, marshrut, hisob-kitob, mavjudlik eslatmasi yoki xizmat rejasini tayyorlaydi."
+      - type: "servicesProcess"
+        step: "04"
+        description:
+          en: "You confirm that you wish to proceed."
+          ru: "Вы подтверждаете желание продолжить."
+          uz: "Siz davom etish istagingizni tasdiqlaysiz."
+      - type: "servicesProcess"
+        step: "05"
+        description:
+          en: "TourLink issues payment instructions, an invoice, booking confirmation or contract."
+          ru: "TourLink выставляет платежные инструкции, счет, подтверждение бронирования или договор."
+          uz: "TourLink to'lov ko'rsatmalarini, hisob-fakturani, bron tasdigini yoki shartnomani taqdim etadi."
+      - type: "servicesProcess"
+        step: "06"
+        description:
+          en: "The booking becomes confirmed only after written acceptance by TourLink and fulfilment of the required payment condition."
+          ru: "Бронирование становится подтвержденным только после письменного принятия TourLink и выполнения требуемого условия оплаты."
+          uz: "Bron faqat TourLink tomonidan yozma qabul qilinishi va talab qilinadigan to'lov sharti bajarilgandan keyin tasdiqlangan hisoblanadi."
+  - blockType: "regular"
+    title:
+      en: "Prices, inclusions and exclusions"
+      ru: "Цены, включения и исключения"
+      uz: "Narxlar, kiritilgan va kiritilmagan xizmatlar"
+    description:
+      en: "Prices are not final until written confirmation. They may depend on dates, group size, rooming list, currency, supplier availability, taxes, fuel, transport, guide language, permits, ticket category and other operational factors. Only services expressly listed as included are included. International flights, personal expenses, insurance, visa fees, passport costs, optional activities, early check-in, late check-out, excess baggage, personal tips, meals outside the inclusion list and costs due to traveller changes or delays are usually not included."
+      ru: "Цены не являются финальными до письменного подтверждения. Они могут зависеть от дат, размера группы, списка размещения, валюты, наличия услуг у поставщиков, налогов, топлива, транспорта, языка гида, разрешений, категории билетов и других операционных факторов. Включены только те услуги, которые прямо указаны как включенные. Обычно не включаются международные перелеты, личные расходы, страховка, визовые сборы, паспортные расходы, дополнительные активности, ранний заезд, поздний выезд, сверхнормативный багаж, личные чаевые, питание вне списка включений и расходы из-за изменений или задержек со стороны путешественников."
+      uz: "Narxlar yozma tasdiqlanishgacha yakuniy emas. Ular sanalar, guruh hajmi, joylashuv ro'yxati, valyuta, yetkazib beruvchilar mavjudligi, soliqlar, yoqilg'i, transport, gid tili, ruxsatnomalar, chipta toifasi va boshqa operatsion omillarga bog'liq bo'lishi mumkin. Faqat to'g'ridan-to'g'ri kiritilgan deb ko'rsatilgan xizmatlar kiritilgan hisoblanadi. Xalqaro parvozlar, shaxsiy xarajatlar, sug'urta, viza to'lovlari, pasport xarajatlari, qo'shimcha faoliyatlar, erta kirish, kech chiqish, ortiqcha bagaj, shaxsiy choy puli, kiritilganlar ro'yxatidan tashqari ovqatlanish va sayohatchilar o'zgarishi yoki kechikishi sababli xarajatlar odatda kiritilmaydi."
+  - blockType: "regular"
+    title:
+      en: "Payment"
+      ru: "Оплата"
+      uz: "To'lov"
+    description:
+      en: "Payment terms are stated in the invoice, booking confirmation, proposal or contract. TourLink may request a deposit, staged payment or full prepayment depending on supplier deadlines, travel dates, group size and service type. At launch, the website does not accept online payment. Payment methods, bank details, payment deadlines, currency, bank fees and conversion costs are confirmed in writing for each booking."
+      ru: "Условия оплаты указаны в счете, подтверждении бронирования, предложении или договоре. TourLink может запросить депозит, поэтапную оплату или полную предоплату в зависимости от сроков поставщиков, дат поездки, размера группы и типа услуги. На запуске сайт не принимает онлайн-оплату. Способы оплаты, реквизиты, сроки оплаты, валюта, банковские комиссии и расходы на конвертацию подтверждаются письменно для конкретного бронирования."
+      uz: "To'lov shartlari hisob-faktura, bron tasdiqi, taklif yoki shartnomada ko'rsatilgan. TourLink yetkazib beruvchi muddatlari, sayohat sanalari, guruh hajmi va xizmat turiga qarab depozit, bosqichma-bosqich to'lov yoki to'liq oldindan to'lov so'rashi mumkin. Ishga tushirishda sayt onlayn to'lovni qabul qilmaydi. To'lov usullari, bank rekvizitlari, to'lov muddatlari, valyuta, bank komissiyalari va konvertatsiya xarajatlari har bir bron uchun yozma tasdiqlanadi."
+  - blockType: "regular"
+    title:
+      en: "Traveller data"
+      ru: "Данные путешественников"
+      uz: "Sayohatchilar ma'lumotlari"
+    description:
+      en: "You must provide accurate and complete traveller data on request. This may include names as in passports, nationality, date of birth, passport details, visa status, arrival and departure, rooming list, meals, accessibility, emergency contacts and other information needed to deliver the service correctly."
+      ru: "Вы должны предоставить точные и полные данные путешественников по запросу. Это могут быть имена как в паспортах, гражданство, дата рождения, паспортные данные, визовый статус, прилет и вылет, список размещения, питание, доступность, экстренные контакты и другие сведения, необходимые для корректного оказания услуги."
+      uz: "So'rov bo'yicha aniq va to'liq sayohatchilar ma'lumotlarini taqdim etishingiz kerak. Bu pasportdagi ismlar, fuqarolik, tug'ilgan sana, pasport ma'lumotlari, viza holati, kelish va ketish, joylashuv ro'yxati, ovqatlanish, qulaylik, favqulodda aloqa va xizmatni to'g'ri ko'rsatish uchun kerak bo'lgan boshqa ma'lumotlarni o'z ichiga olishi mumkin."
+  - blockType: "regular"
+    title:
+      en: "Passports, visas, permits and entry rules"
+      ru: "Паспорта, визы, разрешения и правила въезда"
+      uz: "Pasportlar, vizalar, ruxsatnomalar va kirish qoidalari"
+    description:
+      en: "Travellers are responsible for valid passports, visas, permits, vaccinations, right of entry and travel documents unless written booking confirmation states that TourLink provides a specific support service. Visa, border, permit, registration and migration rules may change. Before travel, travellers should check requirements with the competent authority, embassy, consulate or official source."
+      ru: "Путешественники отвечают за действительные паспорта, визы, разрешения, вакцинации, право въезда и проездные документы, если письменное подтверждение бронирования не говорит, что TourLink оказывает конкретную услугу поддержки. Визовые, пограничные, разрешительные, регистрационные и миграционные правила могут меняться. Перед поездкой путешественникам следует проверять требования у компетентного органа, посольства, консульства или официального источника."
+      uz: "Sayohatchilar amaldagi pasportlar, vizalar, ruxsatnomalar, emlashlar, kirish huquqi va sayohat hujjatlari uchun javobgardir, agar yozma bron tasdiqi TourLink aniq yordam xizmatini ko'rsatishini aytmasa. Viza, chegara, ruxsat, ro'yxatdan o'tish va migratsiya qoidalari o'zgarishi mumkin. Sayohatdan oldin sayohatchilar talablarni vakolatli organ, elchixona, konsullik yoki rasmiy manbadan tekshirishlari kerak."
+  - blockType: "regular"
+    title:
+      en: "Health, accessibility and safety"
+      ru: "Здоровье, доступность и безопасность"
+      uz: "Salomatlik, qulaylik va xavfsizlik"
+    description:
+      en: "Before confirmation, travellers should inform TourLink about health, mobility, meals, allergies, accessibility, age or safety issues that may affect the trip. Some routes include long transfers, remote areas, altitude, desert conditions, mountain roads, uneven surfaces, borders, weather exposure, basic infrastructure or limited medical access. TourLink recommends suitable travel insurance covering medical care, cancellation, delays, baggage and activities included in the trip."
+      ru: "До подтверждения путешественникам следует сообщить TourLink о здоровье, мобильности, питании, аллергиях, доступности, возрасте или вопросах безопасности, которые могут повлиять на поездку. Некоторые маршруты включают длинные переезды, удаленные районы, высоту, пустынные условия, горные дороги, неровные поверхности, границы, погодное воздействие, базовую инфраструктуру или ограниченный доступ к медицине. TourLink рекомендует оформить подходящую туристическую страховку, покрывающую медицинскую помощь, отмену, задержки, багаж и активности, включенные в поездку."
+      uz: "Tasdiqlanishdan oldin sayohatchilar sayohatga ta'sir qilishi mumkin bo'lgan salomatlik, harakatchanlik, ovqatlanish, allergiya, qulaylik, yosh yoki xavfsizlik masalalari haqida TourLinkga xabar berishlari kerak. Ba'zi marshrutlar uzoq yo'l, uzoq hududlar, balandlik, cho'l sharoitlari, tog' yo'llari, tekis bo'lmagan sirtlar, chegaralar, ob-havo ta'siri, asosiy infratuzilma yoki cheklangan tibbiy yordamni o'z ichiga oladi. TourLink tibbiy yordam, bekor qilish, kechikishlar, bagaj va sayohatga kiritilgan faoliyatlarni qamrab oladigan mos sayohat sug'urtasini rasmiylashtirishni tavsiya qiladi."
+  - blockType: "regular"
+    title:
+      en: "Changes before or during travel"
+      ru: "Изменения до поездки или в поездке"
+      uz: "Sayohatdan oldin yoki davomida o'zgarishlar"
+    description:
+      en: "TourLink may adjust the route due to supplier availability, local restrictions, weather, road conditions, border rules, opening hours, safety, force majeure or other operational reasons. If a material change is needed, TourLink will try to offer a reasonable alternative. Changes requested by the client depend on availability and may increase the price. Changes are confirmed only after written confirmation by TourLink."
+      ru: "TourLink может корректировать маршрут из-за наличия услуг у поставщиков, местных ограничений, погоды, состояния дорог, пограничных правил, часов работы, безопасности, форс-мажора или других операционных причин. Если нужно существенное изменение, TourLink постарается предложить разумную альтернативу. Изменения по просьбе клиента зависят от наличия услуг и могут увеличить цену. Изменения подтверждаются только после письменного подтверждения TourLink."
+      uz: "TourLink marshrutni yetkazib beruvchilar mavjudligi, mahalliy cheklovlar, ob-havo, yo'l holati, chegara qoidalari, ish vaqti, xavfsizlik, favqulodda holat yoki boshqa operatsion sabablarga ko'ra tuzatishi mumkin. Muhim o'zgarish kerak bo'lsa, TourLink oqilona muqobil taklif qilishga harakat qiladi. Mijoz so'ragan o'zgarishlar mavjudlikka bog'liq va narxni oshirishi mumkin. O'zgarishlar faqat TourLink tomonidan yozma tasdiqlangandan keyin amalga oshiriladi."
+  - blockType: "regular"
+    title:
+      en: "During the trip"
+      ru: "Во время поездки"
+      uz: "Sayohat paytida"
+    description:
+      en: "Travellers must follow reasonable safety instructions, local laws, rules at cultural sites, hotels, transport, borders, guide instructions and the route schedule. Travellers are responsible for personal belongings and behaviour that causes damage, delay, danger or disruption to the programme."
+      ru: "Путешественники должны соблюдать разумные инструкции по безопасности, местные законы, правила культурных объектов, отелей, транспорта, границ, инструкции гида и время маршрута. Путешественники отвечают за личные вещи и поведение, которое приводит к ущербу, задержке, опасности или нарушению программы."
+      uz: "Sayohatchilar oqilona xavfsizlik ko'rsatmalariga, mahalliy qonunlarga, madaniy ob'ektlar, mehmonxonalar, transport, chegaralar qoidalariga, gid ko'rsatmalariga va marshrut jadvaliga rioya qilishlari kerak. Sayohatchilar shaxsiy buyumlari va zarar, kechikish, xavf yoki dastur buzilishiga olib keladigan xatti-harakatlari uchun javobgardir."
+  - blockType: "regular"
+    title:
+      en: "Service issues"
+      ru: "Проблемы с услугами"
+      uz: "Xizmat muammolari"
+    description:
+      en: "If a problem arises during travel, inform the TourLink guide, tour leader, operations contact or support as soon as possible so the team can respond. After travel, unresolved issues should be sent to the booking contact or support with the booking number, dates, traveller name and a clear description."
+      ru: "Если во время поездки возникла проблема, сообщите гиду TourLink, руководителю тура, операционному контакту или поддержке как можно скорее, чтобы команда могла отреагировать. После поездки нерешенные вопросы следует отправлять контактному лицу по бронированию или поддержке с номером бронирования, датами, именем путешественника и понятным описанием."
+      uz: "Sayohat paytida muammo yuzaga kelsa, jamoa tezda javob bera olishi uchun TourLink gidi, tur rahbari, operatsion aloqa yoki qo'llab-quvvatlash bilan imkon qadar tezroq bog'laning. Sayohatdan keyin hal etilmagan masalalar bron bo'yicha aloqa shaxsiga yoki qo'llab-quvvatlashga bron raqami, sanalar, sayohatchi ismi va aniq tavsif bilan yuborilishi kerak."
+  - blockType: "regular"
+    title:
+      en: "Cancellation"
+      ru: "Отмена"
+      uz: "Bekor qilish"
+    description:
+      en: "Cancellation rules are described in the Cancellation policy and may be supplemented or replaced by cancellation terms in a specific proposal, invoice, booking confirmation, supplier terms or signed contract."
+      ru: "Правила отмены описаны в Политике отмены и могут дополняться или заменяться условиями отмены в конкретном предложении, счете, подтверждении бронирования, условиях поставщика или подписанном договоре."
+      uz: "Bekor qilish qoidalari Bekor qilish siyosatida tavsiflangan va aniq taklif, hisob-faktura, bron tasdiqi, yetkazib beruvchi shartlari yoki imzolangan shartnomadagi bekor qilish shartlari bilan to'ldirilishi yoki almashtirilishi mumkin."
+  - blockType: "regular"
+    title:
+      en: "Contact"
+      ru: "Контакты"
+      uz: "Aloqa"
+    description:
+      en: "For questions about this page or TourLink services, email info@tourlink.uz or use the contacts published on the website."
+      ru: "По вопросам об этой странице или услугах TourLink напишите на info@tourlink.uz или используйте контакты, опубликованные на сайте."
+      uz: "Ushbu sahifa yoki TourLink xizmatlari bo'yicha savollar uchun info@tourlink.uz manziliga yozing yoki saytda e'lon qilingan aloqa ma'lumotlaridan foydalaning."

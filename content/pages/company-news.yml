@@ -1,0 +1,32 @@
+segment: "company"
+slug: "news"
+title:
+  en: "News"
+  ru: "Новости"
+  uz: "Yangiliklar"
+seo:
+  metaTitle:
+    en: "News | TourLink"
+    ru: "Новости | TourLink"
+    uz: "Yangiliklar | TourLink"
+  metaDescription:
+    en: "Section under development"
+    ru: "Раздел в разработке"
+    uz: "Bo'lim ishlab chiqilmoqda"
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/hero-image.jpg"
+    imageAlt:
+      en: "TourLink"
+      ru: "TourLink"
+      uz: "TourLink"
+    title:
+      en: "News"
+      ru: "Новости"
+      uz: "Yangiliklar"
+    description:
+      en: "Section under development"
+      ru: "Раздел в разработке"
+      uz: "Bo'lim ishlab chiqilmoqda"

@@ -14,7 +14,7 @@ import {
 	composeRenderProps
 } from "react-aria-components";
 
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 
 function DateField<T extends DateValueRac>({
 	className,

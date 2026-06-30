@@ -1,4 +1,4 @@
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 
 import { Card, CardContent, CardHeader, CardTitle } from "../../shadcn-ui/card";
 import type { TServicesBusinessCardProps } from "../types/services-business-card.types";

@@ -1,6 +1,6 @@
 "use client";
 
-import { getLucideIcon } from "@/shared/lib";
+import { getLucideIcon } from "@/shared/lib/get-lucide-icon";
 import type { TFaqQuestionProps } from "@/shared/ui/blocks/types/block-render.types";
 import {
 	Accordion,

@@ -1,0 +1,32 @@
+segment: "partners"
+slug: "hotels"
+title:
+  en: "Hotels"
+  ru: "Отели"
+  uz: "Mehmonxonalar"
+seo:
+  metaTitle:
+    en: "Hotel partnerships | TourLink"
+    ru: "Партнёрство с отелями | TourLink"
+    uz: "Mehmonxonalar bilan hamkorlik | TourLink"
+  metaDescription:
+    en: "Partner with TourLink — a DMC and tour operator connecting hotels with travel agencies across Central Asia."
+    ru: "Сотрудничество с TourLink — DMC и туроператор, связывающий отели с туристическими агентствами по Центральной Азии."
+    uz: "TourLink bilan hamkorlik — mehmonxonalarni Markaziy Osiyo bo'ylab sayohat agentliklari bilan bog'laydigan DMC va turoperator."
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/hero-image.jpg"
+    imageAlt:
+      en: "TourLink"
+      ru: "TourLink"
+      uz: "TourLink"
+    title:
+      en: "Hotels"
+      ru: "Отели"
+      uz: "Mehmonxonalar"
+    description:
+      en: "Section under development"
+      ru: "Раздел в разработке"
+      uz: "Bo'lim ishlab chiqilmoqda"

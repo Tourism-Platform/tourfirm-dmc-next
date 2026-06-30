@@ -1,0 +1,32 @@
+segment: "partners"
+slug: "agencies"
+title:
+  en: "Partner agencies"
+  ru: "Партнёрские агентства"
+  uz: "Hamkor agentliklar"
+seo:
+  metaTitle:
+    en: "Partner agencies | TourLink"
+    ru: "Партнёрские агентства | TourLink"
+    uz: "Hamkor agentliklar | TourLink"
+  metaDescription:
+    en: "Section under development"
+    ru: "Раздел в разработке"
+    uz: "Bo'lim ishlab chiqilmoqda"
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/hero-image.jpg"
+    imageAlt:
+      en: "TourLink"
+      ru: "TourLink"
+      uz: "TourLink"
+    title:
+      en: "Partner agencies"
+      ru: "Партнёрские агентства"
+      uz: "Hamkor agentliklar"
+    description:
+      en: "Section under development"
+      ru: "Раздел в разработке"
+      uz: "Bo'lim ishlab chiqilmoqda"

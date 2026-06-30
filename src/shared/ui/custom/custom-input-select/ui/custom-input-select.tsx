@@ -4,7 +4,7 @@ import { type FC, useId } from "react";
 import type { Control } from "react-hook-form";
 
 import type { TTranslateFn } from "@/shared/i18n";
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 import {
 	FormControl,
 	FormField,

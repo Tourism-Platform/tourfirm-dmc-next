@@ -1,4 +1,4 @@
-import { getLucideIcon } from "@/shared/lib";
+import { getLucideIcon } from "@/shared/lib/get-lucide-icon";
 
 import { CardType, type TCardRenderProps } from "../types/card-render.types";
 

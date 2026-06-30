@@ -1,14 +1,18 @@
 "use client";
 
-import { cn } from "@/shared/lib";
+import { Link } from "@/shared/i18n";
+import { cn } from "@/shared/lib/utils";
+import type { TResolvedFooterLink } from "@/shared/types/navigation.types";
 import { Badge } from "@/shared/ui";
-
-import type { IFooterLink } from "../model";
 
 interface IFooterSectionProps {
 	title: string;
-	links: IFooterLink[];
+	links: TResolvedFooterLink[];
 	comingSoonLabel: string;
+}
+
+function isExternalHref(href: string): boolean {
+	return href.startsWith("http://") || href.startsWith("https://");
 }
 
 export const FooterSection = ({
@@ -20,7 +24,7 @@ export const FooterSection = ({
 		<p className="text-base font-medium text-foreground">{title}</p>
 		<ul className="flex flex-col gap-3">
 			{links.map((link) => (
-				<li key={link.label}>
+				<li key={link.key}>
 					{link.isSoon ? (
 						<span
 							className={cn(
@@ -35,13 +39,22 @@ export const FooterSection = ({
 								{comingSoonLabel}
 							</Badge>
 						</span>
-					) : (
+					) : isExternalHref(link.href) ? (
 						<a
-							href={link.path}
+							href={link.href}
+							target={link.target ?? "_blank"}
+							rel="noopener noreferrer"
 							className="text-sm font-normal text-muted-foreground transition-colors hover:text-foreground"
 						>
 							{link.label}
 						</a>
+					) : (
+						<Link
+							href={link.href}
+							className="text-sm font-normal text-muted-foreground transition-colors hover:text-foreground"
+						>
+							{link.label}
+						</Link>
 					)}
 				</li>
 			))}

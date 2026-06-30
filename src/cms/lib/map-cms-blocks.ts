@@ -1,5 +1,7 @@
 import { convertLexicalToPlaintext } from "@payloadcms/richtext-lexical/plaintext";
+import "server-only";
 
+import { resolveMediaUrl } from "@/shared/lib/media/resolve-media-url";
 import { BlockType, type TBlockRenderProps } from "@/shared/ui/blocks";
 import {
 	ActionType,
@@ -8,7 +10,6 @@ import {
 import { CardType, type TCardRenderProps } from "@/shared/ui/cards";
 import type { TRouteMapStop } from "@/shared/ui/route-map";
 
-import { resolveMediaUrl } from "./resolve-media-url";
 import type {
 	Attraction,
 	City,

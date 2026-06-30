@@ -1,0 +1,32 @@
+segment: "help"
+slug: "more-info"
+title:
+  en: "More service info"
+  ru: "Дополнительная информация"
+  uz: "Qo'shimcha ma'lumot"
+seo:
+  metaTitle:
+    en: "More service info | TourLink"
+    ru: "Дополнительная информация | TourLink"
+    uz: "Qo'shimcha ma'lumot | TourLink"
+  metaDescription:
+    en: "Section under development"
+    ru: "Раздел в разработке"
+    uz: "Bo'lim ishlab chiqilmoqda"
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/hero-image.jpg"
+    imageAlt:
+      en: "TourLink"
+      ru: "TourLink"
+      uz: "TourLink"
+    title:
+      en: "More service info"
+      ru: "Дополнительная информация"
+      uz: "Qo'shimcha ma'lumot"
+    description:
+      en: "Section under development"
+      ru: "Раздел в разработке"
+      uz: "Bo'lim ishlab chiqilmoqda"

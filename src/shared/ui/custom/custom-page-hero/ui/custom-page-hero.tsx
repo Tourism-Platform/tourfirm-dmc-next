@@ -1,7 +1,7 @@
 import Image from "next/image";
 import type { ReactNode } from "react";
 
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 
 type TCustomPageHeroSize = "tall" | "compact";
 

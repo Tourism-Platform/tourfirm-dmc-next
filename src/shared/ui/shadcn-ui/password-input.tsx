@@ -14,7 +14,7 @@ import {
 	useState
 } from "react";
 
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 
 import { Button } from "./button";
 import { Input } from "./input";

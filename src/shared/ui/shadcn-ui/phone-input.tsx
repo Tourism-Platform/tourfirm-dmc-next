@@ -6,7 +6,7 @@ import * as RPNInput from "react-phone-number-input";
 import flags from "react-phone-number-input/flags";
 import "react-phone-number-input/style.css";
 
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 import {
 	Button,
 	Command,

@@ -1,0 +1,32 @@
+segment: "help"
+slug: "training"
+title:
+  en: "Training & support"
+  ru: "Обучение и поддержка"
+  uz: "O'qitish va qo'llab-quvvatlash"
+seo:
+  metaTitle:
+    en: "Training & support | TourLink"
+    ru: "Обучение и поддержка | TourLink"
+    uz: "O'qitish va qo'llab-quvvatlash | TourLink"
+  metaDescription:
+    en: "Section under development"
+    ru: "Раздел в разработке"
+    uz: "Bo'lim ishlab chiqilmoqda"
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/hero-image.jpg"
+    imageAlt:
+      en: "TourLink"
+      ru: "TourLink"
+      uz: "TourLink"
+    title:
+      en: "Training & support"
+      ru: "Обучение и поддержка"
+      uz: "O'qitish va qo'llab-quvvatlash"
+    description:
+      en: "Section under development"
+      ru: "Раздел в разработке"
+      uz: "Bo'lim ishlab chiqilmoqda"

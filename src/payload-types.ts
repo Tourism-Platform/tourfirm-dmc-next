@@ -203,6 +203,10 @@ export interface UserAuthOperations {
  */
 export interface Media {
 	id: number;
+	/**
+	 * Seed source path relative to public/, e.g. assets/images/city/samarkand.jpg
+	 */
+	sourcePath?: string | null;
 	alt?: string | null;
 	updatedAt: string;
 	createdAt: string;
@@ -5341,9 +5345,6 @@ export interface Page {
 				blockType: "cta";
 		  }
 	)[];
-	showInNavigation?: boolean | null;
-	navigationLabel?: string | null;
-	navigationOrder?: number | null;
 	status?: {
 		noindex?: boolean | null;
 		showInSitemap?: boolean | null;
@@ -5484,6 +5485,7 @@ export interface PayloadMigration {
  * via the `definition` "media_select".
  */
 export interface MediaSelect<T extends boolean = true> {
+	sourcePath?: T;
 	alt?: T;
 	updatedAt?: T;
 	createdAt?: T;
@@ -7714,9 +7716,6 @@ export interface PagesSelect<T extends boolean = true> {
 							blockName?: T;
 					  };
 		  };
-	showInNavigation?: T;
-	navigationLabel?: T;
-	navigationOrder?: T;
 	status?:
 		| T
 		| {
@@ -8731,8 +8730,46 @@ export interface Header {
 	logo?: (number | null) | Media;
 	navItems?:
 		| {
-				label: string;
-				href: string;
+				type: "page" | "group" | "external" | "custom";
+				/**
+				 * Optional override. If empty, page title is used on the site.
+				 */
+				label?: string | null;
+				/**
+				 * Short text shown in header dropdown under the link title.
+				 */
+				description?: string | null;
+				/**
+				 * Lucide icon name, e.g. mail, shield, handshake
+				 */
+				icon?: string | null;
+				target?: ("_self" | "_blank") | null;
+				page?: (number | null) | Page;
+				href?: string | null;
+				/**
+				 * Named groupItems (not items) to avoid Drizzle relation clash in footer columns.
+				 */
+				groupItems?:
+					| {
+							type: "page" | "external" | "custom";
+							/**
+							 * Optional override. If empty, page title is used on the site.
+							 */
+							label?: string | null;
+							/**
+							 * Short text shown in header dropdown under the link title.
+							 */
+							description?: string | null;
+							/**
+							 * Lucide icon name, e.g. mail, shield, handshake
+							 */
+							icon?: string | null;
+							target?: ("_self" | "_blank") | null;
+							page?: (number | null) | Page;
+							href?: string | null;
+							id?: string | null;
+					  }[]
+					| null;
 				id?: string | null;
 		  }[]
 		| null;
@@ -8763,10 +8800,48 @@ export interface Footer {
 	columns?:
 		| {
 				title: string;
-				links?:
+				items?:
 					| {
-							label: string;
-							href: string;
+							type: "page" | "group" | "external" | "custom";
+							/**
+							 * Optional override. If empty, page title is used on the site.
+							 */
+							label?: string | null;
+							/**
+							 * Short text shown in header dropdown under the link title.
+							 */
+							description?: string | null;
+							/**
+							 * Lucide icon name, e.g. mail, shield, handshake
+							 */
+							icon?: string | null;
+							target?: ("_self" | "_blank") | null;
+							page?: (number | null) | Page;
+							href?: string | null;
+							/**
+							 * Named groupItems (not items) to avoid Drizzle relation clash in footer columns.
+							 */
+							groupItems?:
+								| {
+										type: "page" | "external" | "custom";
+										/**
+										 * Optional override. If empty, page title is used on the site.
+										 */
+										label?: string | null;
+										/**
+										 * Short text shown in header dropdown under the link title.
+										 */
+										description?: string | null;
+										/**
+										 * Lucide icon name, e.g. mail, shield, handshake
+										 */
+										icon?: string | null;
+										target?: ("_self" | "_blank") | null;
+										page?: (number | null) | Page;
+										href?: string | null;
+										id?: string | null;
+								  }[]
+								| null;
 							id?: string | null;
 					  }[]
 					| null;
@@ -9217,8 +9292,25 @@ export interface HeaderSelect<T extends boolean = true> {
 	navItems?:
 		| T
 		| {
+				type?: T;
 				label?: T;
+				description?: T;
+				icon?: T;
+				target?: T;
+				page?: T;
 				href?: T;
+				groupItems?:
+					| T
+					| {
+							type?: T;
+							label?: T;
+							description?: T;
+							icon?: T;
+							target?: T;
+							page?: T;
+							href?: T;
+							id?: T;
+					  };
 				id?: T;
 		  };
 	ctaAction?:
@@ -9242,11 +9334,28 @@ export interface FooterSelect<T extends boolean = true> {
 		| T
 		| {
 				title?: T;
-				links?:
+				items?:
 					| T
 					| {
+							type?: T;
 							label?: T;
+							description?: T;
+							icon?: T;
+							target?: T;
+							page?: T;
 							href?: T;
+							groupItems?:
+								| T
+								| {
+										type?: T;
+										label?: T;
+										description?: T;
+										icon?: T;
+										target?: T;
+										page?: T;
+										href?: T;
+										id?: T;
+								  };
 							id?: T;
 					  };
 				id?: T;

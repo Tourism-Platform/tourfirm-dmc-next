@@ -1,5 +1,6 @@
 import { Link } from "@/shared/i18n";
-import { type TBreadcrumbItem, cn } from "@/shared/lib";
+import type { TBreadcrumbItem } from "@/shared/lib/routing/build-geo-breadcrumbs";
+import { cn } from "@/shared/lib/utils";
 
 type TPageBreadcrumbsProps = {
 	items: TBreadcrumbItem[];

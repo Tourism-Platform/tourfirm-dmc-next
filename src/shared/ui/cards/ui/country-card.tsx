@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { Link } from "@/shared/i18n";
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 
 import { Badge } from "../../shadcn-ui/badge";
 import { Card } from "../../shadcn-ui/card";

@@ -10,3 +10,8 @@ export {
 } from "./resolve-app-route";
 export { MAX_GEO_SEGMENTS, resolveGeoRoute } from "./resolve-geo-route";
 export { resolveCmsRoute, type TCmsRoute } from "./resolve-cms-route";
+export {
+	resolveSegmentPageRoute,
+	type TSegmentPageRoute
+} from "./resolve-segment-page-route";
+export { getCmsRoutePath } from "./get-cms-route-path";

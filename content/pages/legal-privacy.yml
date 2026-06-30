@@ -1,0 +1,187 @@
+segment: "legal"
+slug: "privacy"
+title:
+  en: "Privacy policy"
+  ru: "Политика конфиденциальности"
+  uz: "Maxfiylik siyosati"
+seo:
+  metaTitle:
+    en: "Privacy policy | TourLink"
+    ru: "Политика конфиденциальности | TourLink"
+    uz: "Maxfiylik siyosati | TourLink"
+  metaDescription:
+    en: "How TourLink collects, uses and protects personal data on tourlink.uz and when delivering travel services."
+    ru: "Как TourLink собирает, использует и защищает персональные данные на сайте tourlink.uz и при оказании туристических услуг."
+    uz: "TourLink tourlink.uz saytida va sayohat xizmatlarini ko'rsatishda shaxsiy ma'lumotlarni qanday to'plashi, ishlatishi va himoya qilishi haqida."
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/hero-image.jpg"
+    imageAlt:
+      en: "Privacy policy"
+      ru: "Политика конфиденциальности"
+      uz: "Maxfiylik siyosati"
+    title:
+      en: "Privacy policy"
+      ru: "Политика конфиденциальности"
+      uz: "Maxfiylik siyosati"
+    description:
+      en: "How we process personal data when you use our website, submit requests and work with TourLink travel services."
+      ru: "Как мы обрабатываем персональные данные при работе с сайтом, запросами и туристическими услугами TourLink."
+      uz: "Sayt, so'rovlar va TourLink sayohat xizmatlari bilan ishlashda shaxsiy ma'lumotlarni qanday qayta ishlashimiz haqida."
+  - blockType: "regular"
+    title:
+      en: "Who we are"
+      ru: "Кто мы"
+      uz: "Biz kim"
+    description:
+      en: "The TourLink website is operated by TourLink LLC, a tour operator based in Tashkent, Uzbekistan. In this policy, \"TourLink\", \"we\", \"us\" and \"our\" refer to the company that runs the website and handles travel enquiries."
+      ru: "Сайт TourLink управляется TourLink LLC, туроператором в Ташкенте, Узбекистан. В этой политике «TourLink», «мы», «нас» и «наш» относятся к компании, которая управляет сайтом и обрабатывает туристические запросы."
+      uz: "TourLink sayti Toshkent, O'zbekistonda joylashgan turoperator TourLink LLC tomonidan boshqariladi. Ushbu siyosatda «TourLink», «biz», «bizga» va «bizning» saytni boshqaradigan va sayohat so'rovlarini qayta ishlaydigan kompaniyani anglatadi."
+  - blockType: "regular"
+    title:
+      en: "What this policy covers"
+      ru: "На что распространяется политика"
+      uz: "Siyosat qamrovi"
+    description:
+      en: "This policy applies when you visit tourlink.uz, submit a form, request a tour programme, communicate with our team by email or messenger, subscribe to updates, or provide data needed for a travel service. The public website does not include personal accounts, online payments, wallets or marketplace dashboards. If such features are introduced in the future, this policy will be updated before they are made publicly available."
+      ru: "Эта политика действует, когда вы посещаете tourlink.uz, отправляете форму, запрашиваете программу тура, общаетесь с нашей командой по email или в мессенджерах, подписываетесь на обновления или передаете данные, необходимые для туристической услуги. Публичный сайт не содержит личных кабинетов, онлайн-оплаты, кошельков или маркетплейс-кабинетов. Если такие функции появятся в будущем, политика будет обновлена до их публичного использования."
+      uz: "Ushbu siyosat siz tourlink.uz saytiga tashrif buyurganingizda, forma yuborganingizda, tur dasturini so'raganingizda, jamoamiz bilan email yoki messenjer orqali muloqot qilganingizda, yangilanishlarga obuna bo'lganingizda yoki sayohat xizmati uchun zarur ma'lumotlarni taqdim etganingizda qo'llaniladi. Ommaviy saytda shaxsiy kabinetlar, onlayn to'lovlar, hamyonlar yoki marketplace kabinetlari yo'q. Bunday funksiyalar kelajakda paydo bo'lsa, ular ochiq foydalanishga chiqarilishidan oldin siyosat yangilanadi."
+  - blockType: "regular"
+    title:
+      en: "What data we may collect"
+      ru: "Какие данные мы можем собирать"
+      uz: "Qanday ma'lumotlarni to'plashimiz mumkin"
+    cards:
+      - type: "destinationInsight"
+        icon: "mail"
+        title:
+          en: "Contact details"
+          ru: "Контактные данные"
+          uz: "Aloqa ma'lumotlari"
+        description:
+          en: "name, email, phone number, company, country, preferred language and messenger contact."
+          ru: "имя, email, телефон, компания, страна, язык общения и контакт в мессенджере."
+          uz: "ism, email, telefon, kompaniya, mamlakat, muloqot tili va messenjer kontakti."
+      - type: "destinationInsight"
+        icon: "map-pin"
+        title:
+          en: "Enquiry details"
+          ru: "Данные запроса"
+          uz: "So'rov ma'lumotlari"
+        description:
+          en: "dates, countries and cities, group size, traveller profile, comfort level, budget guidance, meals, accessibility needs and route preferences."
+          ru: "даты, страны и города, размер группы, профиль участников, уровень комфорта, ориентир по бюджету, питание, доступность и пожелания к маршруту."
+          uz: "sanalar, mamlakatlar va shaharlar, guruh hajmi, ishtirokchilar profili, qulaylik darajasi, byudjet yo'nalishi, ovqatlanish, qulaylik talablari va marshrut bo'yicha istaklar."
+      - type: "destinationInsight"
+        icon: "clipboard-list"
+        title:
+          en: "Booking details"
+          ru: "Данные для бронирования"
+          uz: "Bronlash ma'lumotlari"
+        description:
+          en: "passport data, nationality, date of birth, visas or permits, emergency contacts, accommodation and transport, where required for a confirmed or nearly confirmed service."
+          ru: "паспортные данные, гражданство, дата рождения, визы или разрешения, экстренные контакты, размещение и транспорт, если они нужны для подтвержденной или почти подтвержденной услуги."
+          uz: "pasport ma'lumotlari, fuqarolik, tug'ilgan sana, vizalar yoki ruxsatnomalar, favqulodda kontaktlar, joylashuv va transport — tasdiqlangan yoki deyarli tasdiqlangan xizmat uchun kerak bo'lsa."
+      - type: "destinationInsight"
+        icon: "message-square"
+        title:
+          en: "Communication data"
+          ru: "Данные коммуникации"
+          uz: "Muloqot ma'lumotlari"
+        description:
+          en: "messages, attachments, call notes, support history and correspondence about a proposal."
+          ru: "сообщения, вложения, заметки по звонкам, история поддержки и переписка по предложению."
+          uz: "xabarlar, ilovalar, qo'ng'iroq qaydlari, qo'llab-quvvatlash tarixi va taklif bo'yicha yozishmalar."
+      - type: "destinationInsight"
+        icon: "monitor"
+        title:
+          en: "Technical data"
+          ru: "Технические данные"
+          uz: "Texnik ma'lumotlar"
+        description:
+          en: "IP address, browser, device, pages viewed, referral source, consent settings, security logs, analytics events and error reports."
+          ru: "IP-адрес, браузер, устройство, просмотренные страницы, источник перехода, настройки согласия, журналы безопасности, события аналитики и отчеты об ошибках."
+          uz: "IP-manzil, brauzer, qurilma, ko'rilgan sahifalar, o'tish manbasi, rozilik sozlamalari, xavfsizlik jurnallari, analitika hodisalari va xato hisobotlari."
+  - blockType: "regular"
+    title:
+      en: "How we use data"
+      ru: "Как мы используем данные"
+      uz: "Ma'lumotlardan qanday foydalanamiz"
+    description:
+      en: "We use personal data to respond to enquiries, prepare proposals, coordinate travel services, communicate with travellers and partners, manage bookings, support clients, improve the website, protect it from misuse, maintain business records and meet legal or operational obligations. Please do not send passport scans, medical information, payment card details or other sensitive documents through the general website form unless we have specifically requested them through an appropriate channel."
+      ru: "Мы используем персональные данные, чтобы отвечать на запросы, готовить предложения, координировать туристические услуги, общаться с путешественниками и партнерами, управлять бронированиями, поддерживать клиентов, улучшать сайт, защищать его от злоупотреблений, вести деловые записи и выполнять юридические или операционные обязанности. Пожалуйста, не отправляйте сканы паспортов, медицинские сведения, данные платежных карт или другие чувствительные документы через общую форму сайта, если мы специально не запросили их через подходящий канал."
+      uz: "Shaxsiy ma'lumotlardan so'rovlarga javob berish, takliflar tayyorlash, sayohat xizmatlarini muvofiqlashtirish, sayohatchilar va hamkorlar bilan muloqot qilish, bronlarni boshqarish, mijozlarni qo'llab-quvvatlash, saytni yaxshilash, suiiste'moldan himoya qilish, biznes yozuvlarini yuritish hamda qonuniy yoki operatsion majburiyatlarni bajarish uchun foydalanamiz. Agar biz maxsus mos kanal orqali so'ramagan bo'lsak, umumiy sayt formasi orqali pasport skanlari, tibbiy ma'lumotlar, to'lov kartasi ma'lumotlari yoki boshqa maxfiy hujjatlarni yubormang."
+  - blockType: "regular"
+    title:
+      en: "Sharing data"
+      ru: "Передача данных"
+      uz: "Ma'lumotlarni uzatish"
+    description:
+      en: "Where needed for an enquiry or confirmed service, we may share necessary data with TourLink staff, guides, drivers, hotels, restaurants, transport providers, venues, visa or permit support partners, agencies, corporate clients, IT suppliers, accountants, advisers, banks, public authorities or other parties involved in delivering the service. We do not sell personal data."
+      ru: "Если это нужно для запроса или подтвержденной услуги, мы можем передавать необходимые данные сотрудникам TourLink, гидам, водителям, отелям, ресторанам, транспортным компаниям, площадкам, партнерам по визовой или разрешительной поддержке, агентствам, корпоративным клиентам, IT-поставщикам, бухгалтерам, консультантам, банкам, государственным органам или другим сторонам, участвующим в оказании услуги. Мы не продаем персональные данные."
+      uz: "So'rov yoki tasdiqlangan xizmat uchun zarur bo'lsa, kerakli ma'lumotlarni TourLink xodimlari, gidlar, haydovchilar, mehmonxonalar, restoranlar, transport kompaniyalari, maydonlar, viza yoki ruxsatnoma bo'yicha hamkorlar, agentliklar, korporativ mijozlar, IT yetkazib beruvchilar, buxgalterlar, maslahatchilar, banklar, davlat organlari yoki xizmat ko'rsatishda ishtirok etuvchi boshqa tomonlarga uzatishimiz mumkin. Biz shaxsiy ma'lumotlarni sotmaymiz."
+  - blockType: "regular"
+    title:
+      en: "Storage and processing outside the country"
+      ru: "Хранение и обработка за пределами страны"
+      uz: "Mamlakatdan tashqarida saqlash va qayta ishlash"
+    description:
+      en: "TourLink is based in Uzbekistan. Website hosting, media storage, analytics, email, monitoring and other technical tools may use providers in other countries. We use such services only to operate the website or deliver requested services and aim to share only the data they need."
+      ru: "TourLink находится в Узбекистане. Хостинг сайта, хранение медиа, аналитика, email, мониторинг и другие технические инструменты могут использовать поставщиков в других странах. Мы используем такие сервисы только для работы сайта или запрошенных услуг и стремимся передавать им только необходимые данные."
+      uz: "TourLink O'zbekistonda joylashgan. Sayt hostingi, media saqlash, analitika, email, monitoring va boshqa texnik vositalar boshqa mamlakatlardagi yetkazib beruvchilardan foydalanishi mumkin. Bunday xizmatlardan faqat sayt ishlashi yoki so'ralgan xizmatlar uchun foydalanamiz va ularga faqat zarur ma'lumotlarni uzatishga intilamiz."
+  - blockType: "regular"
+    title:
+      en: "How long we keep data"
+      ru: "Срок хранения"
+      uz: "Saqlash muddati"
+    description:
+      en: "We keep personal data for as long as reasonably necessary for the purpose for which it was collected. Booking, accounting, tax, tourism, security, dispute and legal compliance records may be kept longer than routine enquiries. Mailing list data is kept until you unsubscribe or the list is closed."
+      ru: "Мы храним персональные данные столько, сколько разумно необходимо для цели, ради которой они были собраны. Записи по бронированиям, бухгалтерии, налогам, туризму, безопасности, спорам и требованиям закона могут храниться дольше, чем обычные запросы. Данные рассылки хранятся до отписки или закрытия списка."
+      uz: "Shaxsiy ma'lumotlarni ular yig'ilgan maqsad uchun oqilona zarur bo'lgan muddat davomida saqlaymiz. Bronlash, buxgalteriya, soliq, turizm, xavfsizlik, nizolar va qonuniy talablar bo'yicha yozuvlar oddiy so'rovlardan uzoqroq saqlanishi mumkin. Tarqatma ro'yxati ma'lumotlari obunani bekor qilguningizcha yoki ro'yxat yopilgunicha saqlanadi."
+  - blockType: "regular"
+    title:
+      en: "Your choices and rights"
+      ru: "Ваш выбор и права"
+      uz: "Sizning tanlovingiz va huquqlaringiz"
+    description:
+      en: "Depending on applicable law and your situation, you may ask us to confirm processing, access your data, correct it, delete it where there is no lawful reason to keep it, restrict or object to certain processing, withdraw consent or unsubscribe from marketing messages. Before fulfilling a request, we may need to verify your identity."
+      ru: "В зависимости от применимого закона и ситуации вы можете попросить нас подтвердить обработку данных, предоставить доступ к ним, исправить, удалить их при отсутствии законной причины для хранения, ограничить или возразить против отдельных видов обработки, отозвать согласие или отписаться от маркетинговых сообщений. Перед выполнением запроса нам может понадобиться подтвердить вашу личность."
+      uz: "Qonun va vaziyatga qarab, qayta ishlashni tasdiqlashni, ma'lumotlarga kirishni, tuzatishni, saqlash uchun qonuniy sabab bo'lmaganda o'chirishni, ayrim qayta ishlashni cheklash yoki qarshi chiqishni, rozilikni qaytarib olishni yoki marketing xabarlaridan voz kechishni so'rashingiz mumkin. So'rovni bajarishdan oldin shaxsingizni tasdiqlashimiz kerak bo'lishi mumkin."
+  - blockType: "regular"
+    title:
+      en: "Cookies and analytics"
+      ru: "Cookies и аналитика"
+      uz: "Cookies va analitika"
+    description:
+      en: "Use of cookies and similar technologies is described in our Cookie policy. At launch, we do not use advertising or remarketing cookies."
+      ru: "Использование cookies и похожих технологий описано в Политике cookies. На запуске мы не используем рекламные или ремаркетинговые cookies."
+      uz: "Cookies va o'xshash texnologiyalardan foydalanish Cookie siyosatida tavsiflangan. Ishga tushirishda reklama yoki remarketing cookies dan foydalanmaymiz."
+  - blockType: "regular"
+    title:
+      en: "Security"
+      ru: "Безопасность"
+      uz: "Xavfsizlik"
+    description:
+      en: "We apply technical and organisational measures to protect personal data. No website, email or messenger can be fully secure, so please avoid sending unnecessary sensitive data through unsecured channels."
+      ru: "Мы применяем технические и организационные меры для защиты персональных данных. Ни один сайт, email или мессенджер не может быть полностью защищен, поэтому не стоит отправлять лишние чувствительные данные через незащищенные каналы."
+      uz: "Shaxsiy ma'lumotlarni himoya qilish uchun texnik va tashkiliy choralar qo'llaymiz. Hech qanday sayt, email yoki messenjer to'liq himoyalangan bo'la olmaydi, shuning uchun ortiqcha maxfiy ma'lumotlarni himoyalanmagan kanallar orqali yubormang."
+  - blockType: "regular"
+    title:
+      en: "Policy changes"
+      ru: "Изменения политики"
+      uz: "Siyosat o'zgarishlari"
+    description:
+      en: "We may update this policy when the website, services, tools, suppliers or legal obligations change. The revised version will show a new update date."
+      ru: "Мы можем обновлять эту политику, когда меняются сайт, услуги, инструменты, поставщики или юридические обязанности. В обновленной версии будет указана новая дата изменения."
+      uz: "Sayt, xizmatlar, vositalar, yetkazib beruvchilar yoki qonuniy majburiyatlar o'zgarganda ushbu siyosatni yangilashimiz mumkin. Yangilangan versiyada yangi sana ko'rsatiladi."
+  - blockType: "regular"
+    title:
+      en: "Contact"
+      ru: "Контакты"
+      uz: "Aloqa"
+    description:
+      en: "For questions about this page or TourLink services, email info@tourlink.uz or use the contacts published on the website."
+      ru: "По вопросам об этой странице или услугах TourLink напишите на info@tourlink.uz или используйте контакты, опубликованные на сайте."
+      uz: "Ushbu sahifa yoki TourLink xizmatlari bo'yicha savollar uchun info@tourlink.uz manziliga yozing yoki saytda e'lon qilingan kontaktlardan foydalaning."

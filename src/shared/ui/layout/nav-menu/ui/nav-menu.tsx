@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import type { FC } from "react";
 
 import { Link } from "@/shared/i18n";
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 import {
 	NavigationMenu,
 	NavigationMenuContent,

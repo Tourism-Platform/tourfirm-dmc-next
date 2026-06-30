@@ -1,8 +1,10 @@
 import { getTranslations } from "next-intl/server";
 
+import type {
+	TResolvedFooterColumn,
+	TResolvedSocialLink
+} from "@/shared/types/navigation.types";
 import { Separator } from "@/shared/ui";
-
-import { FOOTER_SECTIONS, SOCIAL_LINKS } from "../model";
 
 import { FooterContact } from "./footer-contact";
 import { FooterCopyright } from "./footer-copyright";
@@ -10,24 +12,19 @@ import { FooterLogo } from "./footer-logo";
 import { FooterSection } from "./footer-section";
 import { FooterSocial } from "./footer-social";
 
-export const FooterDefault = async () => {
+type TProps = {
+	columns: TResolvedFooterColumn[];
+	socialLinks: TResolvedSocialLink[];
+	copyrightText?: string;
+};
+
+export const FooterDefault = async ({
+	columns,
+	socialLinks,
+	copyrightText
+}: TProps) => {
 	const t = await getTranslations("footer");
 	const year = new Date().getFullYear();
-
-	const sections = FOOTER_SECTIONS.map((section) => ({
-		title: t(section.title),
-		links: section.links.map((link) => ({
-			label: t(link.label),
-			path: link.path,
-			isSoon: link.isSoon
-		}))
-	}));
-
-	const socialItems = SOCIAL_LINKS.map((item) => ({
-		name: item.name,
-		label: t(item.label),
-		path: item.path
-	}));
 
 	return (
 		<footer className="border-t bg-card/75 px-4 text-foreground shadow-black/6.5 backdrop-blur-xl">
@@ -39,9 +36,9 @@ export const FooterDefault = async () => {
 							<FooterContact />
 						</div>
 
-						{sections.map((section) => (
+						{columns.map((section) => (
 							<FooterSection
-								key={section.title}
+								key={section.key}
 								title={section.title}
 								links={section.links}
 								comingSoonLabel={t("coming_soon")}
@@ -52,8 +49,10 @@ export const FooterDefault = async () => {
 					<Separator />
 
 					<div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
-						<FooterCopyright text={t("copyright", { year })} />
-						<FooterSocial items={socialItems} />
+						<FooterCopyright
+							text={copyrightText ?? t("copyright", { year })}
+						/>
+						<FooterSocial items={socialLinks} />
 					</div>
 				</div>
 			</div>

@@ -1,6 +1,7 @@
 import config from "@payload-config";
 import { getPayload } from "payload";
 import { cache } from "react";
+import "server-only";
 
 import type { Destination } from "@/payload-types";
 

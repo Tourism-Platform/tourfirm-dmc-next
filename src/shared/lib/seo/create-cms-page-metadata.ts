@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 import { ENV } from "@/shared/config";
+import { resolveAbsoluteMediaUrl } from "@/shared/lib/media/resolve-media-url";
 
 import { FAVICON, OG_IMAGE, buildPageUrl } from "./create-page-metadata";
-import { resolveAbsoluteMediaUrl } from "@/cms/lib";
 import type { Homepage, Media } from "@/payload-types";
 
 type TCmsSeo = NonNullable<Homepage["seo"]>;

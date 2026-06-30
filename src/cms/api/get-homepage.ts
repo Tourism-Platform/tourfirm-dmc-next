@@ -2,6 +2,7 @@ import config from "@payload-config";
 import { getPayload } from "payload";
 import type { TypedLocale } from "payload";
 import { cache } from "react";
+import "server-only";
 
 import type { Homepage } from "@/payload-types";
 

@@ -1,7 +1,6 @@
 export { cn } from "./utils";
 export { getLucideIcon } from "./get-lucide-icon";
 export { matchPath } from "./match-path";
-export { createCmsPageMetadata, createPageMetadata } from "./seo";
 export {
 	buildAttractionPath,
 	buildCityPath,
@@ -14,4 +13,8 @@ export {
 	buildGeoBreadcrumbs,
 	type TBreadcrumbItem
 } from "./routing/build-geo-breadcrumbs";
-export { buildCmsPath } from "./routing/build-cms-path";
+export {
+	buildCmsPath,
+	buildPagePath,
+	buildSegmentPagePath
+} from "./routing/build-cms-path";

@@ -13,7 +13,7 @@ import {
 	useFormState
 } from "react-hook-form";
 
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 
 import { Label } from "./label";
 

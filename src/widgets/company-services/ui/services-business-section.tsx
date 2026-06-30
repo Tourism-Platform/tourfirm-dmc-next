@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 import { CardRender, CardType, CustomSectionHeader } from "@/shared/ui";
 
 import { SERVICES_BUSINESS_CONFIG } from "../model";

@@ -6,7 +6,7 @@ import type { FC } from "react";
 
 import { useFileUpload } from "@/shared/hooks";
 import { type TFileWithPreview } from "@/shared/hooks";
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 import { formatBytes } from "@/shared/utils";
 
 interface ICustomUploadMainImageProps {

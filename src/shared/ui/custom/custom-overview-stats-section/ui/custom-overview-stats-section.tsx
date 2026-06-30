@@ -1,4 +1,4 @@
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 import { CardType } from "@/shared/ui/cards";
 import { CardRender } from "@/shared/ui/cards/ui/card-render";
 

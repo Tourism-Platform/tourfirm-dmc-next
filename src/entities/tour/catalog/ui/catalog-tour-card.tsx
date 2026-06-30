@@ -7,7 +7,7 @@ import type { FC } from "react";
 
 import { ENUM_PATH } from "@/shared/config";
 import { Link } from "@/shared/i18n";
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 import { Badge, Card, CardContent, Separator } from "@/shared/ui";
 import { formatToDollars } from "@/shared/utils";
 

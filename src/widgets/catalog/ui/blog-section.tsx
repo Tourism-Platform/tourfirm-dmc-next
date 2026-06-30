@@ -6,7 +6,7 @@ import Image from "next/image";
 import type { FC } from "react";
 
 import { Link } from "@/shared/i18n";
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 import { Card, CardContent, withErrorBoundary } from "@/shared/ui";
 
 import { BLOG_POSTS_MOCK } from "../model";

@@ -1,0 +1,47 @@
+- slug: company
+  title:
+    en: Company
+    ru: Компания
+    uz: Kompaniya
+  description:
+    en: About TourLink, our services and company updates.
+    ru: О TourLink, наших услугах и новостях компании.
+    uz: TourLink, xizmatlarimiz va kompaniya yangiliklari haqida.
+  status:
+    showInSitemap: true
+
+- slug: legal
+  title:
+    en: Legal
+    ru: Правовая информация
+    uz: Huquqiy ma'lumot
+  description:
+    en: Terms, privacy and legal policies.
+    ru: Условия, конфиденциальность и правовые документы.
+    uz: Shartlar, maxfiylik va huquqiy hujjatlar.
+  status:
+    showInSitemap: true
+
+- slug: help
+  title:
+    en: Help
+    ru: Помощь
+    uz: Yordam
+  description:
+    en: Support, contact and service information.
+    ru: Поддержка, контакты и информация о сервисе.
+    uz: Qo'llab-quvvatlash, aloqa va xizmat haqida ma'lumot.
+  status:
+    showInSitemap: true
+
+- slug: partners
+  title:
+    en: Partners
+    ru: Партнёры
+    uz: Hamkorlar
+  description:
+    en: Partner agencies and hotels.
+    ru: Партнёрские агентства и отели.
+    uz: Hamkor agentliklar va mehmonxonalar.
+  status:
+    showInSitemap: true

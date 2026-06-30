@@ -7,7 +7,7 @@ import * as React from "react";
 import { useEffect } from "react";
 
 import { useDebounce } from "@/shared/hooks";
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 import { Badge, type BadgeSize, type BadgeVariant } from "@/shared/ui";
 import {
 	Command,

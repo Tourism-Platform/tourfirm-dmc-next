@@ -1,0 +1,122 @@
+segment: "legal"
+slug: "cookies"
+title:
+  en: "Cookie policy"
+  ru: "Политика cookies"
+  uz: "Cookie siyosati"
+seo:
+  metaTitle:
+    en: "Cookie policy | TourLink"
+    ru: "Политика cookies | TourLink"
+    uz: "Cookie siyosati | TourLink"
+  metaDescription:
+    en: "How TourLink uses cookies and similar technologies on tourlink.uz."
+    ru: "Как TourLink использует cookies и похожие технологии на сайте tourlink.uz."
+    uz: "TourLink tourlink.uz saytida cookie va o'xshash texnologiyalardan qanday foydalanadi."
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/hero-image.jpg"
+    imageAlt:
+      en: "Cookie policy"
+      ru: "Политика cookies"
+      uz: "Cookie siyosati"
+    title:
+      en: "Cookie policy"
+      ru: "Политика cookies"
+      uz: "Cookie siyosati"
+    description:
+      en: "Which technologies we use on the website, why they are needed and how you can manage your settings."
+      ru: "Какие технологии мы используем на сайте, зачем они нужны и как вы можете управлять настройками."
+      uz: "Saytda qanday texnologiyalardan foydalanamiz, ular nima uchun kerak va sozlamalarni qanday boshqarish mumkin."
+  - blockType: "regular"
+    title:
+      en: "What are cookies"
+      ru: "Что такое cookies"
+      uz: "Cookie nima"
+    description:
+      en: "Cookies are small files that a website stores on your device. Similar technologies include local storage, pixels, tags, scripts and tools that store or retrieve information on a device or collect technical browser data."
+      ru: "Cookies — это небольшие файлы, которые сайт сохраняет на вашем устройстве. Похожие технологии включают локальное хранилище, пиксели, теги, скрипты и инструменты, которые сохраняют или получают информацию на устройстве либо собирают технические данные браузера."
+      uz: "Cookie — sayt qurilmangizda saqlaydigan kichik fayllardir. O'xshash texnologiyalar mahalliy saqlash, piksellar, teglar, skriptlar va qurilmada ma'lumot saqlaydigan yoki oladigan, shuningdek brauzerning texnik ma'lumotlarini yig'adigan vositalarni o'z ichiga oladi."
+  - blockType: "regular"
+    title:
+      en: "How TourLink uses cookies"
+      ru: "Как TourLink использует cookies"
+      uz: "TourLink cookie dan qanday foydalanadi"
+    description:
+      en: "TourLink uses or may use cookies and similar technologies so the website works correctly, remembers language or display settings, protects forms and website security, understands aggregated website usage, diagnoses technical errors and improves content and performance."
+      ru: "TourLink использует или может использовать cookies и похожие технологии, чтобы сайт работал корректно, запоминал язык или настройки отображения, защищал формы и безопасность сайта, понимал агрегированное использование сайта, диагностировал технические ошибки и улучшал контент и производительность."
+      uz: "TourLink cookie va o'xshash texnologiyalardan sayt to'g'ri ishlashi, til yoki ko'rinish sozlamalarini eslab qolishi, formalarni va sayt xavfsizligini himoya qilishi, saytdan umumiy foydalanishni tushunishi, texnik xatolarni aniqlashi hamda kontent va unumdorlikni yaxshilashi uchun foydalanadi yoki foydalanishi mumkin."
+  - blockType: "regular"
+    title:
+      en: "Strictly necessary technologies"
+      ru: "Строго необходимые технологии"
+      uz: "Qat'iy zarur texnologiyalar"
+    description:
+      en: "These technologies are needed for the website to function, route users correctly, maintain security, prevent abuse, remember consent settings or provide a feature requested by the user. They may include language, cookie settings, form security, anti-spam, session, hosting or routing."
+      ru: "Эти технологии нужны для работы сайта, корректной маршрутизации пользователей, безопасности, предотвращения злоупотреблений, запоминания настроек согласия или предоставления функции, запрошенной пользователем. Они могут включать язык, настройки cookies, безопасность форм, антиспам, сессию, хостинг или маршрутизацию."
+      uz: "Ushbu texnologiyalar sayt ishlashi, foydalanuvchilarni to'g'ri yo'naltirish, xavfsizlik, suiiste'molning oldini olish, rozilik sozlamalarini eslab qolish yoki foydalanuvchi so'ragan funksiyani taqdim etish uchun zarur. Ular til, cookie sozlamalari, forma xavfsizligi, antispam, sessiya, hosting yoki marshrutlashni o'z ichiga olishi mumkin."
+  - blockType: "regular"
+    title:
+      en: "Analytics"
+      ru: "Аналитика"
+      uz: "Analitika"
+    description:
+      en: "TourLink may use privacy-respectful analytics to understand aggregated website usage: page views and general navigation. Analytics should be configured without advertising profiles, cross-site tracking or unnecessary collection of personal data. Google Search Console may also be used to understand search visibility and indexing. This is not a cookie for tracking visitors on the website in the same way as analytics scripts."
+      ru: "TourLink может использовать уважительную к приватности аналитику, чтобы понимать агрегированное использование сайта: просмотры страниц и общие переходы. Аналитика должна быть настроена без рекламных профилей, межсайтового трекинга и лишнего сбора персональных данных. Google Search Console также может использоваться для понимания видимости сайта в поиске и индексации. Это не cookie для отслеживания посетителей на сайте в том же смысле, что аналитические скрипты."
+      uz: "TourLink maxfiylikni hurmat qiladigan analitikadan saytdan umumiy foydalanishni tushunish uchun foydalanishi mumkin: sahifa ko'rishlari va umumiy navigatsiya. Analitika reklama profillari, saytlararo kuzatuv va ortiqcha shaxsiy ma'lumot yig'ishsiz sozlanishi kerak. Google Search Console qidiruvdagi ko'rinish va indekslashni tushunish uchun ham ishlatilishi mumkin. Bu analitik skriptlar kabi saytdagi tashrif buyuruvchilarni kuzatish cookie si emas."
+  - blockType: "regular"
+    title:
+      en: "Error monitoring and security"
+      ru: "Мониторинг ошибок и безопасность"
+      uz: "Xatolarni monitoring qilish va xavfsizlik"
+    description:
+      en: "Technical monitoring tools may collect diagnostic data: page URL, browser, device, error time and technical context needed to fix website failures or security issues. TourLink aims to configure these tools without unnecessary collection of personal data."
+      ru: "Технические инструменты мониторинга могут собирать диагностические данные: URL страницы, браузер, устройство, время ошибки и технический контекст, нужный для исправления сбоев сайта или проблем безопасности. TourLink стремится настраивать эти инструменты без лишнего сбора персональных данных."
+      uz: "Texnik monitoring vositalari diagnostika ma'lumotlarini yig'ishi mumkin: sahifa URL manzili, brauzer, qurilma, xato vaqti va sayt nosozliklari yoki xavfsizlik muammolarini tuzatish uchun kerakli texnik kontekst. TourLink ushbu vositalarni ortiqcha shaxsiy ma'lumot yig'masdan sozlashga intiladi."
+  - blockType: "regular"
+    title:
+      en: "Marketing cookies"
+      ru: "Маркетинговые cookies"
+      uz: "Marketing cookie lari"
+    description:
+      en: "At launch, TourLink does not use advertising or remarketing cookies. If advertising pixels, remarketing, affiliate tracking or marketing automation are introduced later, this policy will be updated and the necessary consent settings will be added before such tools are used publicly."
+      ru: "На запуске TourLink не использует рекламные или ремаркетинговые cookies. Если позже появятся рекламные пиксели, ремаркетинг, партнерский трекинг или маркетинговая автоматизация, эта политика будет обновлена, а необходимые настройки согласия будут добавлены до публичного использования таких инструментов."
+      uz: "Ishga tushirishda TourLink reklama yoki qayta marketing cookie laridan foydalanmaydi. Agar keyinroq reklama piksellari, qayta marketing, hamkorlik kuzatuvi yoki marketing avtomatlashtiruvi joriy etilsa, ushbu siyosat yangilanadi va bunday vositalar ommaviy ishlatilishidan oldin kerakli rozilik sozlamalari qo'shiladi."
+  - blockType: "regular"
+    title:
+      en: "Managing cookies"
+      ru: "Управление cookies"
+      uz: "Cookie larni boshqarish"
+    description:
+      en: "You can manage cookies through browser settings, private mode, extensions, privacy tools, deleting stored cookies or the TourLink banner/settings centre if available. Blocking some cookies may affect language, form security or remembering your settings."
+      ru: "Вы можете управлять cookies через настройки браузера, приватный режим, расширения, инструменты приватности, удаление сохраненных cookies или баннер/центр настроек TourLink, если он доступен. Блокировка некоторых cookies может повлиять на язык, безопасность форм или запоминание ваших настроек."
+      uz: "Cookie larni brauzer sozlamalari, maxfiy rejim, kengaytmalar, maxfiylik vositalari, saqlangan cookie larni o'chirish yoki mavjud bo'lsa TourLink banneri/sozlamalar markazi orqali boshqarishingiz mumkin. Ba'zi cookie larni bloklash til, forma xavfsizligi yoki sozlamalaringizni eslab qolishga ta'sir qilishi mumkin."
+  - blockType: "regular"
+    title:
+      en: "Consent"
+      ru: "Согласие"
+      uz: "Rozilik"
+    description:
+      en: "Where consent is required, TourLink will request it before setting non-essential cookies or similar technologies. Users should be able to refuse non-essential cookies and change their choice if the website provides such a setting."
+      ru: "Там, где требуется согласие, TourLink запросит его до установки необязательных cookies или похожих технологий. Пользователь должен иметь возможность отказаться от необязательных cookies и изменить выбор, если сайт предоставляет такую настройку."
+      uz: "Rozilik talab qilingan joylarda TourLink majburiy bo'lmagan cookie yoki o'xshash texnologiyalarni o'rnatishdan oldin rozilik so'raydi. Sayt bunday sozlamani taqdim etsa, foydalanuvchi majburiy bo'lmagan cookie lardan voz kechishi va tanlovini o'zgartirishi kerak."
+  - blockType: "regular"
+    title:
+      en: "Policy changes"
+      ru: "Изменения политики"
+      uz: "Siyosatdagi o'zgarishlar"
+    description:
+      en: "We may update this Cookie policy when website features, analytics, monitoring, marketing tools or legal requirements change. The revised version will show a new update date."
+      ru: "Мы можем обновлять эту Политику cookies, когда меняются функции сайта, аналитика, мониторинг, маркетинговые инструменты или юридические требования. В обновленной версии будет указана новая дата изменения."
+      uz: "Sayt funksiyalari, analitika, monitoring, marketing vositalari yoki yuridik talablar o'zgarganda ushbu Cookie siyosatini yangilashimiz mumkin. Yangilangan versiyada yangi o'zgartirish sanasi ko'rsatiladi."
+  - blockType: "regular"
+    title:
+      en: "Contact"
+      ru: "Контакты"
+      uz: "Aloqa"
+    description:
+      en: "For questions about this page or TourLink services, email info@tourlink.uz or use the contacts published on the website."
+      ru: "По вопросам об этой странице или услугах TourLink напишите на info@tourlink.uz или используйте контакты, опубликованные на сайте."
+      uz: "Ushbu sahifa yoki TourLink xizmatlari bo'yicha savollar uchun info@tourlink.uz manziliga yozing yoki saytda e'lon qilingan aloqa ma'lumotlaridan foydalaning."

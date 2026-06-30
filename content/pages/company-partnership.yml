@@ -1,0 +1,32 @@
+segment: "company"
+slug: "partnership"
+title:
+  en: "Partnership"
+  ru: "Партнёрство"
+  uz: "Hamkorlik"
+seo:
+  metaTitle:
+    en: "Partnership | TourLink"
+    ru: "Партнёрство | TourLink"
+    uz: "Hamkorlik | TourLink"
+  metaDescription:
+    en: "Section under development"
+    ru: "Раздел в разработке"
+    uz: "Bo'lim ishlab chiqilmoqda"
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/hero-image.jpg"
+    imageAlt:
+      en: "TourLink"
+      ru: "TourLink"
+      uz: "TourLink"
+    title:
+      en: "Partnership"
+      ru: "Партнёрство"
+      uz: "Hamkorlik"
+    description:
+      en: "Section under development"
+      ru: "Раздел в разработке"
+      uz: "Bo'lim ishlab chiqilmoqda"

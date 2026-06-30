@@ -1,0 +1,32 @@
+segment: "help"
+slug: "support"
+title:
+  en: "Support"
+  ru: "Поддержка"
+  uz: "Qo'llab-quvvatlash"
+seo:
+  metaTitle:
+    en: "Support | TourLink"
+    ru: "Поддержка | TourLink"
+    uz: "Qo'llab-quvvatlash | TourLink"
+  metaDescription:
+    en: "Section under development"
+    ru: "Раздел в разработке"
+    uz: "Bo'lim ishlab chiqilmoqda"
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/hero-image.jpg"
+    imageAlt:
+      en: "TourLink"
+      ru: "TourLink"
+      uz: "TourLink"
+    title:
+      en: "Support"
+      ru: "Поддержка"
+      uz: "Qo'llab-quvvatlash"
+    description:
+      en: "Section under development"
+      ru: "Раздел в разработке"
+      uz: "Bo'lim ishlab chiqilmoqda"

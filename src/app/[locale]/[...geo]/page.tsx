@@ -1,11 +1,8 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 
-import {
-	buildCmsPath,
-	buildGeoBreadcrumbs,
-	createCmsPageMetadata
-} from "@/shared/lib";
+import { buildGeoBreadcrumbs } from "@/shared/lib/routing/build-geo-breadcrumbs";
+import { createCmsPageMetadata } from "@/shared/lib/seo";
 
 import { AttractionPage } from "@/page/attraction";
 import { CityPage } from "@/page/city";
@@ -16,6 +13,7 @@ import { RegionPage } from "@/page/region";
 
 import { mapCmsBlocks } from "@/cms/lib";
 import { type TGeoRoute, resolveAppRoute } from "@/cms/routing";
+import { getCmsRoutePath } from "@/cms/routing/get-cms-route-path";
 
 export const revalidate = 60;
 
@@ -57,14 +55,12 @@ export async function generateMetadata({ params }: TProps) {
 		return {};
 	}
 
-	const slug = geo?.[0] ?? route.document.slug ?? "";
-
 	return createCmsPageMetadata({
 		seo: route.document.seo ?? {},
 
 		locale,
 
-		path: buildCmsPath(route.document.slug ?? slug)
+		path: getCmsRoutePath(route, geo?.[0])
 	});
 }
 

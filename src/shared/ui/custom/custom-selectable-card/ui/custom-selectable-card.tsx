@@ -2,7 +2,7 @@
 
 import { type FC, type KeyboardEvent, type ReactNode } from "react";
 
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 
 interface ICustomSelectableCardProps {
 	selected: boolean;

@@ -1,5 +1,7 @@
 import type { GlobalConfig } from "payload";
 
+import { navigationItemFields } from "../fields/navigation-item";
+
 export const Header: GlobalConfig = {
 	slug: "header",
 	fields: [
@@ -11,19 +13,13 @@ export const Header: GlobalConfig = {
 		{
 			name: "navItems",
 			type: "array",
-			fields: [
-				{
-					name: "label",
-					type: "text",
-					required: true,
-					localized: true
-				},
-				{
-					name: "href",
-					type: "text",
-					required: true
+			admin: {
+				components: {
+					RowLabel:
+						"@/cms/admin/navigation-item-row-label#NavigationItemRowLabel"
 				}
-			]
+			},
+			fields: navigationItemFields
 		},
 		{
 			name: "ctaAction",

@@ -1,4 +1,5 @@
-import { type TBreadcrumbItem, cn } from "@/shared/lib";
+import type { TBreadcrumbItem } from "@/shared/lib/routing/build-geo-breadcrumbs";
+import { cn } from "@/shared/lib/utils";
 import { PageBreadcrumbs } from "@/shared/ui/breadcrumbs";
 
 import { BlockType, type TBlockRenderProps } from "../types/block-render.types";

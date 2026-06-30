@@ -1,0 +1,58 @@
+segment: "help"
+slug: "contact"
+title:
+  en: "Contact us"
+  ru: "Связаться с нами"
+  uz: "Biz bilan bog'laning"
+seo:
+  metaTitle:
+    en: "Contact us | TourLink"
+    ru: "Связаться с нами | TourLink"
+    uz: "Biz bilan bog'laning | TourLink"
+  metaDescription:
+    en: "Get in touch with TourLink for tour inquiries, partnership requests, and support. Based in Tashkent, Uzbekistan."
+    ru: "Свяжитесь с TourLink по турам, партнёрству и поддержке. Офис в Ташкенте, Узбекистан."
+    uz: "Turlar, hamkorlik va qo'llab-quvvatlash bo'yicha TourLink bilan bog'laning. Ofis Toshkent, O'zbekistonda."
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/samarkand.jpg"
+    imageAlt:
+      en: "Samarkand"
+      ru: "Самарканд"
+      uz: "Samarqand"
+    title:
+      en: "Contact us"
+      ru: "Связаться с нами"
+      uz: "Biz bilan bog'laning"
+    description:
+      en: "Phone, messengers and email for tour enquiries, bookings, MICE and partnership requests."
+      ru: "Телефон, мессенджеры и email для запросов по турам, бронированию, MICE и партнёрству."
+      uz: "Turlar, bronlash, MICE va hamkorlik bo'yicha telefon, messenjerlar va email."
+  - blockType: "regular"
+    eyebrow:
+      en: "Primary contact"
+      ru: "Основной контакт"
+      uz: "Asosiy aloqa"
+    title:
+      en: "How to reach us"
+      ru: "Как с нами связаться"
+      uz: "Biz bilan qanday bog'lanish mumkin"
+    description:
+      en: "Choose a channel that suits you — we reply during business hours, Tashkent time. Phone and WhatsApp are available on the contact page; Telegram is available on request via phone or email."
+      ru: "Выберите удобный канал — отвечаем в рабочие часы по ташкентскому времени. Телефон и WhatsApp указаны на странице контактов; Telegram — по запросу через телефон или email."
+      uz: "Qulay kanalni tanlang — biz Toshkent vaqti bo'yicha ish soatlarida javob beramiz. Telefon va WhatsApp aloqa sahifasida; Telegram — telefon yoki email orqali so'rov bo'yicha."
+  - blockType: "regular"
+    eyebrow:
+      en: "Office"
+      ru: "Офис"
+      uz: "Ofis"
+    title:
+      en: "Address and hours"
+      ru: "Адрес и часы работы"
+      uz: "Manzil va ish vaqti"
+    description:
+      en: "100011, Tashkent, Shaykhantakhur district, Urta mahalla, Anhor Bo'yi street 6, Uzbekistan. Monday to Friday, 09:00–18:00 Tashkent time."
+      ru: "100011, Ташкент, Shaykhantakhur tumani, Urta mahalla, Anhor Bo'yi ko'chasi 6, Узбекистан. Понедельник–пятница, 09:00–18:00 по ташкентскому времени."
+      uz: "100011, Toshkent, Shayxontohur tumani, Urta mahalla, Anhor Bo'yi ko'chasi 6, O'zbekiston. Dushanba–juma, 09:00–18:00 Toshkent vaqti."

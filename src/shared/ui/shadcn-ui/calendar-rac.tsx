@@ -16,7 +16,7 @@ import {
 	composeRenderProps
 } from "react-aria-components";
 
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 
 interface BaseCalendarProps {
 	className?: string;

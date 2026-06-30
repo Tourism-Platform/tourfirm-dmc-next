@@ -1,4 +1,4 @@
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 import { CardRender } from "@/shared/ui/cards/ui/card-render";
 
 import { CustomSectionHeader } from "../../custom-section-header";

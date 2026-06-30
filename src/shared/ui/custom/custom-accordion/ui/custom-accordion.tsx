@@ -4,7 +4,7 @@ import { Loader, type LucideIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { type FC, memo } from "react";
 
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 import {
 	Accordion,
 	AccordionContent,

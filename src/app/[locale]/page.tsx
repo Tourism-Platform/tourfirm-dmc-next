@@ -2,7 +2,7 @@ import { setRequestLocale } from "next-intl/server";
 import type { TypedLocale } from "payload";
 
 import { ENUM_PATH } from "@/shared/config";
-import { createCmsPageMetadata } from "@/shared/lib";
+import { createCmsPageMetadata } from "@/shared/lib/seo";
 
 import { MainPage } from "@/page/main";
 

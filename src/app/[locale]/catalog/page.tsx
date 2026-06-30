@@ -1,7 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { ENUM_PATH } from "@/shared/config";
-import { createPageMetadata } from "@/shared/lib";
+import { createPageMetadata } from "@/shared/lib/seo";
 
 import { CatalogPage } from "@/page/catalog";
 

@@ -9,7 +9,16 @@ import config from "@payload-config";
 import { getPayload, type CollectionSlug, type Payload } from "payload";
 import { parse as parseYaml } from "yaml";
 
-import type { City, Country, Region } from "@/payload-types";
+import type { City, Country, Footer, Header, Media, Region } from "@/payload-types";
+
+import {
+	mergeFooterColumnsById,
+	mergeNavItemsById
+} from "@/cms/lib/merge-nav-items-by-id";
+import {
+	assertNoDeprecatedNavigationOrder,
+	assertNoDeprecatedNavigationOrderInItems
+} from "@/cms/lib/navigation-order-guard";
 
 import {
 	normalizeRichTextDescriptions,
@@ -75,6 +84,53 @@ function resolveBlockActions(
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CONTENT_DIR = path.join(ROOT, "content");
+const MEDIA_UPLOAD_DIR = "media/uploads";
+const MEDIA_UPLOAD_PATH = path.join(ROOT, MEDIA_UPLOAD_DIR);
+
+type TMediaCache = Map<string, Media>;
+
+const inFlightMedia = new Map<string, Promise<Media>>();
+
+function isSourcePathUniqueViolation(error: unknown): boolean {
+	if (!error || typeof error !== "object") {
+		return false;
+	}
+
+	const payloadError = error as {
+		message?: string;
+		data?: { errors?: { path?: string }[] };
+	};
+
+	if (
+		payloadError.data?.errors?.some(
+			(entry) => entry.path === "sourcePath"
+		)
+	) {
+		return true;
+	}
+
+	return String(payloadError.message ?? "").includes("sourcePath");
+}
+
+async function findMediaBySourcePath(
+	payload: Payload,
+	sourcePath: string
+): Promise<Media | null> {
+	const existing = await payload.find({
+		collection: "media",
+		where: {
+			sourcePath: {
+				equals: sourcePath
+			}
+		},
+		limit: 1,
+		pagination: false,
+		depth: 0,
+		overrideAccess: true
+	});
+
+	return existing.docs[0] ?? null;
+}
 
 function isLocalizedValue(
 	value: unknown
@@ -113,7 +169,7 @@ async function readYamlFile<T>(filePath: string): Promise<T> {
 	return parseYaml(raw) as T;
 }
 
-async function resetDatabaseSchema(connectionString: string): Promise<void> {
+async function resetDatabase(connectionString: string): Promise<void> {
 	console.log("Resetting database schema...");
 
 	const client = new pg.Client({ connectionString });
@@ -129,59 +185,123 @@ async function resetDatabaseSchema(connectionString: string): Promise<void> {
 	}
 }
 
-async function ensureMedia(
+async function resetMediaFolderContents(): Promise<void> {
+	console.log("Resetting media upload directory...");
+
+	await fs.mkdir(MEDIA_UPLOAD_PATH, { recursive: true });
+
+	const entries = await fs.readdir(MEDIA_UPLOAD_PATH, { withFileTypes: true });
+
+	for (const entry of entries) {
+		await fs.rm(path.join(MEDIA_UPLOAD_PATH, entry.name), {
+			recursive: true,
+			force: true
+		});
+	}
+
+	console.log("Media upload directory reset complete");
+}
+
+function clearCaches(): void {
+	inFlightMedia.clear();
+}
+
+async function resetEnvironment(connectionString: string): Promise<void> {
+	await resetDatabase(connectionString);
+	await resetMediaFolderContents();
+	clearCaches();
+}
+
+async function createMediaRecord(
 	payload: Payload,
-	mediaCache: Map<string, number>,
-	relativePath: string
-): Promise<number> {
-	const cached = mediaCache.get(relativePath);
+	sourcePath: string
+): Promise<Media> {
+	const filePath = path.join(ROOT, "public", sourcePath);
+
+	try {
+		return await payload.create({
+			collection: "media",
+			data: {
+				sourcePath,
+				alt: path.basename(sourcePath, path.extname(sourcePath))
+			},
+			filePath,
+			overrideAccess: true
+		});
+	} catch (error) {
+		if (!isSourcePathUniqueViolation(error)) {
+			throw error;
+		}
+
+		const existing = await findMediaBySourcePath(payload, sourcePath);
+
+		if (!existing) {
+			throw error;
+		}
+
+		return existing;
+	}
+}
+
+async function ensureMediaOnce(
+	payload: Payload,
+	mediaCache: TMediaCache,
+	sourcePath: string
+): Promise<Media> {
+	const cached = mediaCache.get(sourcePath);
+
 	if (cached) {
 		return cached;
 	}
 
-	const filename = path.basename(relativePath);
-	const existing = await payload.find({
-		collection: "media",
-		where: {
-			filename: {
-				equals: filename
-			}
-		},
-		limit: 1,
-		pagination: false,
-		depth: 0,
-		overrideAccess: true
-	});
+	const existing = await findMediaBySourcePath(payload, sourcePath);
 
-	if (existing.docs[0]) {
-		const id = existing.docs[0].id as number;
-		mediaCache.set(relativePath, id);
-		return id;
+	if (existing) {
+		mediaCache.set(sourcePath, existing);
+		return existing;
 	}
 
-	const filePath = path.join(ROOT, "public", relativePath);
-	const doc = await payload.create({
-		collection: "media",
-		data: {
-			alt: path.basename(relativePath, path.extname(relativePath))
-		},
-		filePath,
-		overrideAccess: true
-	});
+	const doc = await createMediaRecord(payload, sourcePath);
+	mediaCache.set(sourcePath, doc);
+	return doc;
+}
 
-	mediaCache.set(relativePath, doc.id);
-	return doc.id;
+async function ensureMedia(
+	payload: Payload,
+	mediaCache: TMediaCache,
+	sourcePath: string
+): Promise<Media> {
+	const cached = mediaCache.get(sourcePath);
+
+	if (cached) {
+		return cached;
+	}
+
+	const pending = inFlightMedia.get(sourcePath);
+
+	if (pending) {
+		return pending;
+	}
+
+	const operation = ensureMediaOnce(payload, mediaCache, sourcePath).finally(
+		() => {
+			inFlightMedia.delete(sourcePath);
+		}
+	);
+
+	inFlightMedia.set(sourcePath, operation);
+	return operation;
 }
 
 async function resolveCardImage(
 	payload: Payload,
-	mediaCache: Map<string, number>,
+	mediaCache: TMediaCache,
 	card: Record<string, unknown>
 ): Promise<Record<string, unknown>> {
 	const result = { ...card };
 
 	if (typeof result.image === "string") {
-		result.image = await ensureMedia(payload, mediaCache, result.image);
+		result.image = (await ensureMedia(payload, mediaCache, result.image)).id;
 	}
 
 	return result;
@@ -189,7 +309,7 @@ async function resolveCardImage(
 
 async function resolveRouteIdeaCard(
 	payload: Payload,
-	mediaCache: Map<string, number>,
+	mediaCache: TMediaCache,
 	card: Record<string, unknown>,
 	options?: TResolvePageOptions
 ): Promise<Record<string, unknown>> {
@@ -256,30 +376,39 @@ async function resolveCountryCard(
 
 async function resolveBlockCards(
 	payload: Payload,
-	mediaCache: Map<string, number>,
+	mediaCache: TMediaCache,
 	cards: unknown[],
 	locale: TLocale,
 	options?: TResolvePageOptions
 ): Promise<unknown[]> {
-	return Promise.all(
-		cards.map(async (card) => {
-			if (!card || typeof card !== "object") {
-				return card;
-			}
+	const resolved: unknown[] = [];
 
-			const entry = card as Record<string, unknown>;
+	for (const card of cards) {
+		if (!card || typeof card !== "object") {
+			resolved.push(card);
+			continue;
+		}
 
-			if (entry.type === "country" && entry.countrySlug) {
-				return resolveCountryCard(payload, entry, locale, options);
-			}
+		const entry = card as Record<string, unknown>;
 
-			if (entry.type === "routeIdea") {
-				return resolveRouteIdeaCard(payload, mediaCache, entry, options);
-			}
+		if (entry.type === "country" && entry.countrySlug) {
+			resolved.push(
+				await resolveCountryCard(payload, entry, locale, options)
+			);
+			continue;
+		}
 
-			return resolveCardImage(payload, mediaCache, entry);
-		})
-	);
+		if (entry.type === "routeIdea") {
+			resolved.push(
+				await resolveRouteIdeaCard(payload, mediaCache, entry, options)
+			);
+			continue;
+		}
+
+		resolved.push(await resolveCardImage(payload, mediaCache, entry));
+	}
+
+	return resolved;
 }
 
 const ROUTE_MAP_ENTITY_COLLECTION = {
@@ -365,7 +494,7 @@ async function resolveRouteMapStops(
 
 async function resolvePageBlocks(
 	payload: Payload,
-	mediaCache: Map<string, number>,
+	mediaCache: TMediaCache,
 	blocks: unknown[],
 	locale: TLocale,
 	options?: TResolvePageOptions
@@ -380,7 +509,9 @@ async function resolvePageBlocks(
 
 			if (entry.blockType === "hero" || entry.blockType === "cta") {
 				if (typeof entry.image === "string") {
-					entry.image = await ensureMedia(payload, mediaCache, entry.image);
+					entry.image = (
+						await ensureMedia(payload, mediaCache, entry.image)
+					).id;
 				}
 
 				if (Array.isArray(entry.actions)) {
@@ -422,29 +553,31 @@ async function resolvePageBlocks(
 
 async function resolveTopLevelMedia(
 	payload: Payload,
-	mediaCache: Map<string, number>,
+	mediaCache: TMediaCache,
 	data: Record<string, unknown>
 ): Promise<Record<string, unknown>> {
 	const result: Record<string, unknown> = { ...data };
 
 	if (typeof result.heroImage === "string") {
-		result.heroImage = await ensureMedia(
-			payload,
-			mediaCache,
-			result.heroImage
-		);
+		result.heroImage = (
+			await ensureMedia(payload, mediaCache, result.heroImage)
+		).id;
 	}
 
 	if (Array.isArray(result.gallery)) {
-		result.gallery = await Promise.all(
-			result.gallery.map(async (item) => {
-				if (typeof item === "string") {
-					return ensureMedia(payload, mediaCache, item);
-				}
+		const resolvedGallery: unknown[] = [];
 
-				return item;
-			})
-		);
+		for (const item of result.gallery) {
+			if (typeof item === "string") {
+				resolvedGallery.push(
+					(await ensureMedia(payload, mediaCache, item)).id
+				);
+			} else {
+				resolvedGallery.push(item);
+			}
+		}
+
+		result.gallery = resolvedGallery;
 	}
 
 	return result;
@@ -452,7 +585,7 @@ async function resolveTopLevelMedia(
 
 async function resolveSeedDocument(
 	payload: Payload,
-	mediaCache: Map<string, number>,
+	mediaCache: TMediaCache,
 	data: Record<string, unknown>,
 	locale: TLocale,
 	options?: TResolvePageOptions
@@ -493,7 +626,7 @@ async function readDestinationPageSlug(): Promise<string> {
 
 async function seedHomepage(
 	payload: Payload,
-	mediaCache: Map<string, number>,
+	mediaCache: TMediaCache,
 	navigationRootSlug: string
 ): Promise<void> {
 	const filePath = path.join(CONTENT_DIR, "main-page.yml");
@@ -524,7 +657,7 @@ async function seedHomepage(
 
 async function seedDestination(
 	payload: Payload,
-	mediaCache: Map<string, number>
+	mediaCache: TMediaCache
 ): Promise<string> {
 	const filePath = path.join(CONTENT_DIR, "destination-page.yml");
 	const raw = await readYamlFile<Record<string, unknown>>(filePath);
@@ -652,7 +785,7 @@ async function resolveRegionSeedData(
 	data: Record<string, unknown>,
 	locale: TLocale,
 	badgeIds: Map<string, number>,
-	mediaCache: Map<string, number>
+	mediaCache: TMediaCache
 ): Promise<Record<string, unknown>> {
 	const result = { ...data };
 
@@ -676,7 +809,7 @@ async function resolveCitySeedData(
 	data: Record<string, unknown>,
 	locale: TLocale,
 	badgeIds: Map<string, number>,
-	mediaCache: Map<string, number>
+	mediaCache: TMediaCache
 ): Promise<Record<string, unknown>> {
 	const result = { ...data };
 
@@ -756,7 +889,7 @@ async function resolveAttractionSeedData(
 	data: Record<string, unknown>,
 	locale: TLocale,
 	badgeIds: Map<string, number>,
-	mediaCache: Map<string, number>
+	mediaCache: TMediaCache
 ): Promise<Record<string, unknown>> {
 	const result = { ...data };
 
@@ -871,7 +1004,7 @@ async function seedBadges(payload: Payload): Promise<Map<string, number>> {
 
 async function seedThemes(
 	payload: Payload,
-	mediaCache: Map<string, number>
+	mediaCache: TMediaCache
 ): Promise<number> {
 	const filePath = path.join(CONTENT_DIR, "themes.yml");
 	const items = await readYamlFile<Record<string, unknown>[]>(filePath);
@@ -900,7 +1033,7 @@ async function seedThemes(
 async function seedCountries(
 	payload: Payload,
 	badgeIds: Map<string, number>,
-	mediaCache: Map<string, number>
+	mediaCache: TMediaCache
 ): Promise<number> {
 	const countriesDir = path.join(CONTENT_DIR, "countries");
 	const files = (await fs.readdir(countriesDir))
@@ -945,7 +1078,7 @@ async function refreshRouteMapStops(
 	payload: Payload,
 	collection: TRouteMapCollection,
 	badgeIds: Map<string, number>,
-	mediaCache: Map<string, number>
+	mediaCache: TMediaCache
 ): Promise<void> {
 	const contentDir = path.join(
 		CONTENT_DIR,
@@ -1040,7 +1173,7 @@ async function refreshRouteMapStops(
 async function seedRegions(
 	payload: Payload,
 	badgeIds: Map<string, number>,
-	mediaCache: Map<string, number>
+	mediaCache: TMediaCache
 ): Promise<number> {
 	const regionsDir = path.join(CONTENT_DIR, "regions");
 
@@ -1091,7 +1224,7 @@ async function seedRegions(
 async function seedCities(
 	payload: Payload,
 	badgeIds: Map<string, number>,
-	mediaCache: Map<string, number>
+	mediaCache: TMediaCache
 ): Promise<number> {
 	const citiesDir = path.join(CONTENT_DIR, "cities");
 
@@ -1142,7 +1275,7 @@ async function seedCities(
 async function seedAttractions(
 	payload: Payload,
 	badgeIds: Map<string, number>,
-	mediaCache: Map<string, number>
+	mediaCache: TMediaCache
 ): Promise<number> {
 	const attractionsDir = path.join(CONTENT_DIR, "attractions");
 
@@ -1190,6 +1323,398 @@ async function seedAttractions(
 	return files.length;
 }
 
+async function findSegmentIdBySlug(
+	payload: Payload,
+	segmentSlug: string
+): Promise<number> {
+	const result = await payload.find({
+		collection: "segments",
+		where: {
+			slug: {
+				equals: segmentSlug
+			}
+		},
+		limit: 1,
+		depth: 0,
+		overrideAccess: true
+	});
+
+	const doc = result.docs[0];
+
+	if (!doc) {
+		throw new Error(`Segment not found: ${segmentSlug}`);
+	}
+
+	return doc.id as number;
+}
+
+async function buildPageIdMap(payload: Payload): Promise<Map<string, number>> {
+	const segmentsResult = await payload.find({
+		collection: "segments",
+		limit: 100,
+		depth: 0,
+		overrideAccess: true
+	});
+
+	const segmentIdToSlug = new Map<number, string>();
+
+	for (const segment of segmentsResult.docs) {
+		if (typeof segment.slug === "string") {
+			segmentIdToSlug.set(segment.id as number, segment.slug);
+		}
+	}
+
+	const pagesResult = await payload.find({
+		collection: "pages",
+		locale: "en",
+		limit: 200,
+		depth: 0,
+		overrideAccess: true
+	});
+
+	const pageIds = new Map<string, number>();
+
+	for (const page of pagesResult.docs) {
+		const segmentId =
+			typeof page.segment === "number" ? page.segment : null;
+
+		if (segmentId && typeof page.slug === "string") {
+			const segmentSlug = segmentIdToSlug.get(segmentId);
+
+			if (segmentSlug) {
+				pageIds.set(`${segmentSlug}/${page.slug}`, page.id as number);
+			}
+		}
+	}
+
+	return pageIds;
+}
+
+async function resolvePageSeedData(
+	payload: Payload,
+	mediaCache: TMediaCache,
+	data: Record<string, unknown>,
+	locale: TLocale
+): Promise<Record<string, unknown>> {
+	const result = { ...data };
+
+	if (typeof result.segment === "string") {
+		result.segment = await findSegmentIdBySlug(payload, result.segment);
+	}
+
+	return resolveSeedDocument(payload, mediaCache, result, locale);
+}
+
+async function seedSegments(payload: Payload): Promise<Map<string, number>> {
+	const filePath = path.join(CONTENT_DIR, "segments.yml");
+	const items = await readYamlFile<Record<string, unknown>[]>(filePath);
+
+	console.log(`Seeding segments (${items.length})...`);
+
+	const segmentIds = new Map<string, number>();
+
+	for (const item of items) {
+		if (typeof item.slug !== "string") {
+			throw new Error("Segment seed item must include a string slug");
+		}
+
+		const doc = await seedLocalizedDoc(payload, "segments", item, {
+			published: true
+		});
+
+		segmentIds.set(item.slug, doc.id as number);
+		console.log(`  + segment ${item.slug}`);
+	}
+
+	return segmentIds;
+}
+
+async function seedPages(
+	payload: Payload,
+	mediaCache: TMediaCache
+): Promise<number> {
+	const pagesDir = path.join(CONTENT_DIR, "pages");
+	const files = (await fs.readdir(pagesDir))
+		.filter((file) => file.endsWith(".yml"))
+		.sort();
+
+	console.log(`Seeding pages (${files.length})...`);
+
+	for (const file of files) {
+		const item = await readYamlFile<Record<string, unknown>>(
+			path.join(pagesDir, file)
+		);
+
+		await seedLocalizedDoc(payload, "pages", item, {
+			published: true,
+			beforeCreate: async (data, locale) =>
+				resolvePageSeedData(payload, mediaCache, data, locale)
+		});
+
+		console.log(`  + page ${file.replace(/\.yml$/, "")}`);
+	}
+
+	return files.length;
+}
+
+type TNavigationSeedContext = {
+	segmentIds: Map<string, number>;
+	pageIds: Map<string, number>;
+	destinationSlug: string;
+};
+
+function resolveNavHref(
+	href: unknown,
+	context: TNavigationSeedContext
+): unknown {
+	if (typeof href !== "string") {
+		return href;
+	}
+
+	if (href === "__DESTINATION_SLUG__") {
+		return `/${context.destinationSlug}`;
+	}
+
+	return href;
+}
+
+async function resolveNavigationItem(
+	item: Record<string, unknown>,
+	context: TNavigationSeedContext
+): Promise<Record<string, unknown>> {
+	assertNoDeprecatedNavigationOrder(item, "navigation item");
+
+	const result = { ...item };
+
+	if (result.type === "group" && Array.isArray(result.groupItems)) {
+		result.groupItems = await resolveNavItemsArray(
+			result.groupItems as unknown[],
+			context
+		);
+	}
+
+	if (result.type === "page" && typeof result.page === "string") {
+		const id = context.pageIds.get(result.page);
+
+		if (!id) {
+			throw new Error(`Page not found for nav item: ${result.page}`);
+		}
+
+		result.page = id;
+	}
+
+	if (typeof result.href === "string") {
+		result.href = resolveNavHref(result.href, context);
+	}
+
+	return result;
+}
+
+async function resolveNavItemsArray(
+	items: unknown[] | undefined,
+	context: TNavigationSeedContext
+): Promise<Record<string, unknown>[]> {
+	if (!items?.length) {
+		return [];
+	}
+
+	assertNoDeprecatedNavigationOrderInItems(items, "navigation items");
+
+	return Promise.all(
+		items.map(async (item) => {
+			if (!item || typeof item !== "object") {
+				return item as Record<string, unknown>;
+			}
+
+			return resolveNavigationItem(item as Record<string, unknown>, context);
+		})
+	);
+}
+
+async function resolveFooterColumns(
+	columns: unknown[] | undefined,
+	context: TNavigationSeedContext
+): Promise<Record<string, unknown>[]> {
+	if (!columns?.length) {
+		return [];
+	}
+
+	return Promise.all(
+		columns.map(async (column) => {
+			if (!column || typeof column !== "object") {
+				return column as Record<string, unknown>;
+			}
+
+			const entry = column as Record<string, unknown>;
+
+			return {
+				...entry,
+				items: await resolveNavItemsArray(
+					entry.items as unknown[] | undefined,
+					context
+				)
+			};
+		})
+	);
+}
+
+async function seedNavigation(
+	payload: Payload,
+	mediaCache: TMediaCache,
+	context: TNavigationSeedContext
+): Promise<void> {
+	const filePath = path.join(CONTENT_DIR, "navigation.yml");
+	const raw = await readYamlFile<Record<string, unknown>>(filePath);
+
+	const headerRaw = raw.header as Record<string, unknown> | undefined;
+
+	if (headerRaw) {
+		console.log("Seeding header global...");
+
+		const enLocalized = pickLocale(headerRaw, "en") as Record<string, unknown>;
+		const enNavItems = await resolveNavItemsArray(
+			enLocalized.navItems as unknown[] | undefined,
+			context
+		);
+		const enData: Record<string, unknown> = {
+			...enLocalized,
+			navItems: enNavItems
+		};
+
+		if (typeof enData.logo === "string") {
+			enData.logo = (await ensureMedia(payload, mediaCache, enData.logo)).id;
+		}
+
+		await payload.updateGlobal({
+			slug: "header",
+			data: enData,
+			locale: "en",
+			overrideAccess: true
+		});
+
+		console.log("  + header locale en");
+
+		const headerWithIds = await payload.findGlobal({
+			slug: "header",
+			locale: "en",
+			depth: 0
+		});
+
+		for (const locale of LOCALES) {
+			if (locale === "en") {
+				continue;
+			}
+
+			const localized = pickLocale(headerRaw, locale) as Record<
+				string,
+				unknown
+			>;
+			const navItems = await resolveNavItemsArray(
+				localized.navItems as unknown[] | undefined,
+				context
+			);
+			const mergedNavItems = mergeNavItemsById(
+				headerWithIds?.navItems as Record<string, unknown>[] | undefined,
+				navItems
+			);
+
+			await payload.updateGlobal({
+				slug: "header",
+				data: {
+					navItems: mergedNavItems as Header["navItems"],
+					ctaAction: localized.ctaAction as Header["ctaAction"]
+				},
+				locale,
+				overrideAccess: true
+			});
+
+			console.log(`  + header locale ${locale}`);
+		}
+	}
+
+	const footerRaw = raw.footer as Record<string, unknown> | undefined;
+
+	if (footerRaw) {
+		console.log("Seeding footer global...");
+
+		const enLocalized = pickLocale(footerRaw, "en") as Record<string, unknown>;
+		const enColumns = await resolveFooterColumns(
+			enLocalized.columns as unknown[] | undefined,
+			context
+		);
+
+		await payload.updateGlobal({
+			slug: "footer",
+			data: {
+				...enLocalized,
+				columns: enColumns
+			},
+			locale: "en",
+			overrideAccess: true
+		});
+
+		console.log("  + footer locale en");
+
+		const footerWithIds = await payload.findGlobal({
+			slug: "footer",
+			locale: "en",
+			depth: 0
+		});
+
+		for (const locale of LOCALES) {
+			if (locale === "en") {
+				continue;
+			}
+
+			const localized = pickLocale(footerRaw, locale) as Record<
+				string,
+				unknown
+			>;
+			const columns = await resolveFooterColumns(
+				localized.columns as unknown[] | undefined,
+				context
+			);
+			const mergedColumns = mergeFooterColumnsById(
+				footerWithIds?.columns as Record<string, unknown>[] | undefined,
+				columns
+			);
+
+			await payload.updateGlobal({
+				slug: "footer",
+				data: {
+					columns: mergedColumns as Footer["columns"],
+					copyrightText: localized.copyrightText as Footer["copyrightText"]
+				},
+				locale,
+				overrideAccess: true
+			});
+
+			console.log(`  + footer locale ${locale}`);
+		}
+	}
+
+	await assertNavigationLabelsSeeded(payload);
+}
+
+async function assertNavigationLabelsSeeded(payload: Payload): Promise<void> {
+	for (const locale of LOCALES) {
+		const header = await payload.findGlobal({
+			slug: "header",
+			locale,
+			depth: 0
+		});
+
+		const labels =
+			header?.navItems?.map((item) => item.label?.trim()).filter(Boolean) ?? [];
+
+		if (labels.length === 0) {
+			throw new Error(
+				`Header nav labels were not saved for locale "${locale}"`
+			);
+		}
+	}
+}
+
 async function main(): Promise<void> {
 	if (!process.env.DATABASE_URI) {
 		throw new Error("DATABASE_URI is not set");
@@ -1199,11 +1724,11 @@ async function main(): Promise<void> {
 		throw new Error("PAYLOAD_SECRET is not set");
 	}
 
-	await resetDatabaseSchema(process.env.DATABASE_URI);
+	await resetEnvironment(process.env.DATABASE_URI);
 
 	const payload = await getPayload({ config });
 
-	const mediaCache = new Map<string, number>();
+	const mediaCache: TMediaCache = new Map();
 	const badgeIds = await seedBadges(payload);
 	const themesCount = await seedThemes(payload, mediaCache);
 	const countriesCount = await seedCountries(payload, badgeIds, mediaCache);
@@ -1220,6 +1745,15 @@ async function main(): Promise<void> {
 	await refreshRouteMapStops(payload, "countries", badgeIds, mediaCache);
 	const navigationRootSlug = await seedDestination(payload, mediaCache);
 	await seedHomepage(payload, mediaCache, navigationRootSlug);
+	const segmentIds = await seedSegments(payload);
+	const pagesCount = await seedPages(payload, mediaCache);
+	const pageIds = await buildPageIdMap(payload);
+
+	await seedNavigation(payload, mediaCache, {
+		segmentIds,
+		pageIds,
+		destinationSlug: navigationRootSlug
+	});
 
 	console.log("Seed complete:", {
 		badges: badgeIds.size,
@@ -1229,7 +1763,11 @@ async function main(): Promise<void> {
 		cities: citiesCount,
 		attractions: attractionsCount,
 		homepage: true,
-		destination: true
+		destination: true,
+		segments: segmentIds.size,
+		pages: pagesCount,
+		header: true,
+		footer: true
 	});
 
 	process.exit(0);

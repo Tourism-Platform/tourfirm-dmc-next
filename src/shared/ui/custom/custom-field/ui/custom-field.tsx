@@ -5,7 +5,7 @@ import type { ComponentProps, FC } from "react";
 import type { DateValue, TimeValue } from "react-aria-components";
 import type { Control } from "react-hook-form";
 
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 import type {
 	BadgeSize,
 	BadgeVariant,

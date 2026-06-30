@@ -1,9 +1,9 @@
 "use client";
 
-import { useTranslations } from "next-intl";
 import type { FC } from "react";
 
 import { Link } from "@/shared/i18n";
+import type { TResolvedNavLink } from "@/shared/types/navigation.types";
 import {
 	NavigationMenu,
 	NavigationMenuContent,
@@ -14,38 +14,53 @@ import {
 	navigationMenuTriggerStyle
 } from "@/shared/ui";
 
-import type { IPublicNavLink } from "../model";
-
 import { PublicNavMenuItem } from "./public-nav-menu-item";
 
 interface IPublicNavMenuProps {
-	items: IPublicNavLink[];
+	items: TResolvedNavLink[];
+}
+
+function isExternalHref(href: string): boolean {
+	return href.startsWith("http://") || href.startsWith("https://");
 }
 
 export const PublicNavMenu: FC<IPublicNavMenuProps> = ({ items }) => {
-	const t = useTranslations("header");
-
 	return (
 		<NavigationMenu viewport={false} className="max-md:hidden">
 			<NavigationMenuList className="gap-1">
 				{items.map((entry) => {
-					if (entry.sections.length === 0 && entry.path) {
+					if (entry.sections.length === 0 && entry.href) {
+						if (isExternalHref(entry.href)) {
+							return (
+								<NavigationMenuItem key={entry.key} asChild>
+									<a
+										href={entry.href}
+										target={entry.target ?? "_blank"}
+										rel="noopener noreferrer"
+										className={navigationMenuTriggerStyle()}
+									>
+										{entry.label}
+									</a>
+								</NavigationMenuItem>
+							);
+						}
+
 						return (
-							<NavigationMenuItem key={entry.label} asChild>
+							<NavigationMenuItem key={entry.key} asChild>
 								<Link
-									href={entry.path}
+									href={entry.href}
 									className={navigationMenuTriggerStyle()}
 								>
-									{t(entry.label)}
+									{entry.label}
 								</Link>
 							</NavigationMenuItem>
 						);
 					}
 
 					return (
-						<NavigationMenuItem key={entry.label}>
+						<NavigationMenuItem key={entry.key}>
 							<NavigationMenuTrigger>
-								{t(entry.label)}
+								{entry.label}
 							</NavigationMenuTrigger>
 							<NavigationMenuContent className="z-50 min-w-60 p-2 shadow-lg">
 								{entry.sections.map((section, sectionIndex) => (
@@ -55,12 +70,12 @@ export const PublicNavMenu: FC<IPublicNavMenuProps> = ({ items }) => {
 										)}
 										{section.label && (
 											<p className="px-3 py-1.5 text-[11px] font-semibold tracking-wider text-muted-foreground uppercase">
-												{t(section.label)}
+												{section.label}
 											</p>
 										)}
 										<ul className="flex flex-col gap-0.5">
 											{section.items.map((item) => (
-												<li key={item.label}>
+												<li key={item.key}>
 													<PublicNavMenuItem
 														item={item}
 													/>

@@ -49,20 +49,6 @@ export const Pages: CollectionConfig = {
 			localized: true,
 			blocks: pageBlocks
 		},
-		{
-			name: "showInNavigation",
-			type: "checkbox",
-			defaultValue: false
-		},
-		{
-			name: "navigationLabel",
-			type: "text",
-			localized: true
-		},
-		{
-			name: "navigationOrder",
-			type: "number"
-		},
 		statusField
 	]
 };

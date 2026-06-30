@@ -1,0 +1,32 @@
+segment: "company"
+slug: "feedback"
+title:
+  en: "Feedback"
+  ru: "Обратная связь"
+  uz: "Fikr-mulohaza"
+seo:
+  metaTitle:
+    en: "Feedback | TourLink"
+    ru: "Обратная связь | TourLink"
+    uz: "Fikr-mulohaza | TourLink"
+  metaDescription:
+    en: "Section under development"
+    ru: "Раздел в разработке"
+    uz: "Bo'lim ishlab chiqilmoqda"
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/hero-image.jpg"
+    imageAlt:
+      en: "TourLink"
+      ru: "TourLink"
+      uz: "TourLink"
+    title:
+      en: "Feedback"
+      ru: "Обратная связь"
+      uz: "Fikr-mulohaza"
+    description:
+      en: "Section under development"
+      ru: "Раздел в разработке"
+      uz: "Bo'lim ishlab chiqilmoqda"

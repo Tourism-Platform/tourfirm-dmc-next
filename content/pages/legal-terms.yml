@@ -1,0 +1,140 @@
+segment: "legal"
+slug: "terms"
+title:
+  en: "Terms of use"
+  ru: "Условия использования"
+  uz: "Foydalanish shartlari"
+seo:
+  metaTitle:
+    en: "Terms of use | TourLink"
+    ru: "Условия использования | TourLink"
+    uz: "Foydalanish shartlari | TourLink"
+  metaDescription:
+    en: "Rules for using the tourlink.uz website and TourLink services."
+    ru: "Правила использования сайта tourlink.uz и сервисов TourLink."
+    uz: "tourlink.uz sayti va TourLink xizmatlaridan foydalanish qoidalari."
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/hero-image.jpg"
+    imageAlt:
+      en: "Terms of use"
+      ru: "Условия использования"
+      uz: "Foydalanish shartlari"
+    title:
+      en: "Terms of use"
+      ru: "Условия использования"
+      uz: "Foydalanish shartlari"
+    description:
+      en: "Rules for lawful and responsible use of the TourLink website, its information and enquiry channels."
+      ru: "Правила законного и ответственного использования сайта TourLink, информации на нём и каналов для запросов."
+      uz: "TourLink sayti, undagi ma'lumotlar va so'rov kanallaridan qonuniy va mas'uliyatli foydalanish qoidalari."
+  - blockType: "regular"
+    title:
+      en: "Website operator"
+      ru: "Оператор сайта"
+      uz: "Sayt operatori"
+    description:
+      en: "The website is operated by TourLink LLC, a tour operator in Uzbekistan. The site presents TourLink destinations, services, practical information, company details and channels for enquiries."
+      ru: "Сайт управляется TourLink LLC, туроператором в Узбекистане. На сайте представлены направления TourLink, услуги, практическая информация, сведения о компании и каналы для запросов."
+      uz: "Sayt O'zbekistondagi tur operatori TourLink LLC tomonidan boshqariladi. Saytda TourLink yo'nalishlari, xizmatlari, amaliy ma'lumotlar, kompaniya haqida ma'lumot va so'rov kanallari taqdim etiladi."
+  - blockType: "regular"
+    title:
+      en: "Using the website"
+      ru: "Использование сайта"
+      uz: "Saytdan foydalanish"
+    description:
+      en: "You agree to use the website lawfully and responsibly. You must not misuse forms, submit false or harmful information, interfere with website security, copy or publish content without permission, impersonate another person or organisation, send spam or malware, or send automated requests that overload the site."
+      ru: "Вы соглашаетесь использовать сайт законно и ответственно. Нельзя злоупотреблять формами, отправлять ложную или вредоносную информацию, вмешиваться в безопасность сайта, копировать или публиковать контент без разрешения, выдавать себя за другое лицо или организацию, отправлять спам, вредоносные файлы или автоматические запросы, перегружающие сайт."
+      uz: "Siz saytdan qonuniy va mas'uliyatli foydalanishga rozilik bildirasiz. Formalardan suiiste'mol qilish, yolg'on yoki zararli ma'lumot yuborish, sayt xavfsizligiga aralashish, ruxsatsiz kontentni nusxalash yoki e'lon qilish, boshqa shaxs yoki tashkilot nomidan chiqish, spam yoki zararli fayllar yuborish hamda saytni ortiqcha yuklaydigan avtomatik so'rovlarni yuborish mumkin emas."
+  - blockType: "regular"
+    title:
+      en: "An enquiry is not a confirmed booking"
+      ru: "Запрос не является подтвержденным бронированием"
+      uz: "So'rov tasdiqlangan bron emas"
+    description:
+      en: "Submitting a form, sending a message, discussing a route or receiving a sample programme does not create a confirmed booking. A booking exists only after written confirmation from TourLink specifying services, price, payment terms and booking conditions."
+      ru: "Отправка формы, сообщение, обсуждение маршрута или получение примерной программы не создают подтвержденное бронирование. Бронирование существует только после письменного подтверждения TourLink с указанием услуг, цены, условий оплаты и условий бронирования."
+      uz: "Forma yuborish, xabar yuborish, marshrutni muhokama qilish yoki namunaviy dastur olish tasdiqlangan bron yaratmaydi. Bron faqat TourLink xizmatlari, narxi, to'lov shartlari va bron shartlari ko'rsatilgan yozma tasdiqdan keyin mavjud bo'ladi."
+  - blockType: "regular"
+    title:
+      en: "Information on the website"
+      ru: "Информация на сайте"
+      uz: "Saytdagi ma'lumotlar"
+    description:
+      en: "We aim to keep information about destinations, trips, services and the company useful and accurate. Travel conditions can change: route access, opening hours, borders, visas, permits, weather, transport, supplier availability, prices and safety issues. Information on the website is general in nature. It is not a binding travel contract, visa advice, legal or medical advice, or a guarantee of safety."
+      ru: "Мы стремимся поддерживать информацию о направлениях, поездках, услугах и компании полезной и точной. Условия путешествия могут меняться: доступ к маршрутам, часы работы, границы, визы, разрешения, погода, транспорт, наличие услуг у поставщиков, цены и вопросы безопасности. Информация на сайте носит общий характер. Она не является обязательным туристическим договором, визовой консультацией, юридической или медицинской консультацией либо гарантией безопасности."
+      uz: "Biz yo'nalishlar, sayohatlar, xizmatlar va kompaniya haqidagi ma'lumotlarni foydali va aniq saqlashga intilamiz. Sayohat shartlari o'zgarishi mumkin: marshrutlarga kirish, ish vaqti, chegaralar, vizalar, ruxsatnomalar, ob-havo, transport, yetkazib beruvchilar mavjudligi, narxlar va xavfsizlik masalalari. Saytdagi ma'lumotlar umumiy xarakterga ega. Ular majburiy tur shartnomasi, viza maslahati, yuridik yoki tibbiy maslahat yoki xavfsizlik kafolati emas."
+  - blockType: "regular"
+    title:
+      en: "Offers and service availability"
+      ru: "Предложения и наличие услуг"
+      uz: "Takliflar va xizmatlar mavjudligi"
+    description:
+      en: "Any route, tour idea, service description, indicative price, inclusion, exclusion or date on the website is subject to confirmation. Final terms are defined by a written proposal, invoice, booking confirmation, contract or B2B agreement."
+      ru: "Любой маршрут, идея тура, описание услуги, примерная цена, включение, исключение или дата на сайте подлежат подтверждению. Финальные условия определяются письменным предложением, счетом, подтверждением бронирования, договором или B2B-соглашением."
+      uz: "Saytdagi har qanday marshrut, tur g'oyasi, xizmat tavsifi, taxminiy narx, kiritilgan yoki kiritilmagan xizmatlar yoki sana tasdiqlanishi kerak. Yakuniy shartlar yozma taklif, hisob-faktura, bron tasdiqi, shartnoma yoki B2B kelishuv bilan belgilanadi."
+  - blockType: "regular"
+    title:
+      en: "Intellectual property"
+      ru: "Интеллектуальная собственность"
+      uz: "Intellektual mulk"
+    description:
+      en: "The website, brand materials, texts, structure, design, page layouts, photographs, graphics, icons, data and other content belong to TourLink or are used under licence unless stated otherwise. You may view content for personal assessment or internal business evaluation of TourLink services, but may not use it commercially without written permission."
+      ru: "Сайт, бренд-материалы, тексты, структура, дизайн, макеты страниц, фотографии, графика, иконки, данные и другой контент принадлежат TourLink или используются по лицензии, если не указано иное. Вы можете просматривать контент для личной оценки или внутренней бизнес-оценки услуг TourLink, но не можете использовать его коммерчески без письменного разрешения."
+      uz: "Sayt, brend materiallari, matnlar, tuzilma, dizayn, sahifa maketlari, fotosuratlar, grafika, ikonlar, ma'lumotlar va boshqa kontent TourLinkga tegishli yoki litsenziya asosida ishlatiladi, agar boshqacha ko'rsatilmagan bo'lsa. Siz kontentni shaxsiy baholash yoki TourLink xizmatlarini ichki biznes baholash uchun ko'rishingiz mumkin, lekin yozma ruxsatsiz tijorat maqsadida foydalana olmaysiz."
+  - blockType: "regular"
+    title:
+      en: "Information you submit"
+      ru: "Информация, которую вы отправляете"
+      uz: "Siz yuborgan ma'lumotlar"
+    description:
+      en: "By submitting information to TourLink, you confirm that it is accurate to the best of your knowledge and that you have the right to provide it. If you share data about other travellers, employees, clients or partners, you are responsible for the lawfulness of that transfer."
+      ru: "Отправляя информацию TourLink, вы подтверждаете, что она точна по вашему разумному знанию и что у вас есть право ее передать. Если вы передаете данные других путешественников, сотрудников, клиентов или партнеров, вы отвечаете за законность такой передачи."
+      uz: "TourLinkga ma'lumot yuborish orqali siz uni o'z bilimingiz darajasida aniq ekanini va uni uzatish huquqiga ega ekaningizni tasdiqlaysiz. Agar boshqa sayohatchilar, xodimlar, mijozlar yoki hamkorlar ma'lumotlarini uzatsangiz, bunday uzatishning qonuniyligi uchun javobgarsiz."
+  - blockType: "regular"
+    title:
+      en: "External links and services"
+      ru: "Внешние ссылки и сервисы"
+      uz: "Tashqi havolalar va xizmatlar"
+    description:
+      en: "The website may link to maps, government bodies, social platforms, messengers, supplier pages or other external services. We do not control third-party sites and are not responsible for their content, availability, security or privacy practices."
+      ru: "Сайт может ссылаться на карты, государственные органы, социальные платформы, мессенджеры, страницы поставщиков или другие внешние сервисы. Мы не контролируем сторонние сайты и не отвечаем за их содержание, доступность, безопасность или практики конфиденциальности."
+      uz: "Sayt xaritalar, davlat organlari, ijtimoiy platformalar, messenjerlar, yetkazib beruvchi sahifalari yoki boshqa tashqi xizmatlarga havola qilishi mumkin. Biz uchinchi tomon saytlarini nazorat qilmaymiz va ularning kontenti, mavjudligi, xavfsizligi yoki maxfiylik amaliyotlari uchun javobgar emasmiz."
+  - blockType: "regular"
+    title:
+      en: "Liability"
+      ru: "Ответственность"
+      uz: "Javobgarlik"
+    description:
+      en: "To the extent permitted by applicable law, TourLink is not liable for losses caused by relying on general website information instead of confirmed booking documents, errors in user data, third-party services, internet or hosting failures beyond our reasonable control, or events beyond our reasonable control."
+      ru: "В пределах, разрешенных применимым законом, TourLink не отвечает за убытки, вызванные использованием общей информации сайта вместо подтвержденных документов бронирования, ошибками в данных пользователей, сторонними сервисами, сбоями интернета или хостинга вне нашего разумного контроля либо событиями вне нашего разумного контроля."
+      uz: "Qonun ruxsat bergan darajada TourLink tasdiqlangan bron hujjatlari o'rniga saytdagi umumiy ma'lumotlarga tayanish, foydalanuvchi ma'lumotlaridagi xatolar, uchinchi tomon xizmatlari, internet yoki hostingdagi nosozliklar yoki bizning oqilona nazoratimizdan tashqari hodisalar sababli yuzaga kelgan zararlar uchun javobgar emas."
+  - blockType: "regular"
+    title:
+      en: "Applicable law"
+      ru: "Применимое право"
+      uz: "Qo'llaniladigan huquq"
+    description:
+      en: "These Terms are intended to be governed by the law of the Republic of Uzbekistan, unless mandatory rules of another jurisdiction apply and cannot be excluded."
+      ru: "Эти Условия предполагают применение права Республики Узбекистан, если обязательные правила другой юрисдикции не применяются и не могут быть исключены."
+      uz: "Ushbu Shartlar O'zbekiston Respublikasi qonunlari qo'llanilishi nazarda tutilgan, agar boshqa yurisdiktsiyaning majburiy qoidalari qo'llanilmasa va ularni istisno qilish mumkin bo'lmasa."
+  - blockType: "regular"
+    title:
+      en: "Changes to the terms"
+      ru: "Изменения условий"
+      uz: "Shartlardagi o'zgarishlar"
+    description:
+      en: "We may update these Terms when the website, services, company processes or legal requirements change. The revised version will show a new update date."
+      ru: "Мы можем обновлять эти Условия, когда меняются сайт, услуги, процессы компании или юридические требования. В обновленной версии будет указана новая дата изменения."
+      uz: "Sayt, xizmatlar, kompaniya jarayonlari yoki yuridik talablar o'zgarganda ushbu Shartlarni yangilashimiz mumkin. Yangilangan versiyada yangi o'zgartirish sanasi ko'rsatiladi."
+  - blockType: "regular"
+    title:
+      en: "Contact"
+      ru: "Контакты"
+      uz: "Aloqa"
+    description:
+      en: "For questions about this page or TourLink services, email info@tourlink.uz or use the contacts published on the website."
+      ru: "По вопросам об этой странице или услугах TourLink напишите на info@tourlink.uz или используйте контакты, опубликованные на сайте."
+      uz: "Ushbu sahifa yoki TourLink xizmatlari bo'yicha savollar uchun info@tourlink.uz manziliga yozing yoki saytda e'lon qilingan aloqa ma'lumotlaridan foydalaning."

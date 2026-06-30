@@ -10,12 +10,19 @@ import type { ReactNode } from "react";
 
 import { ENUM_PATH } from "@/shared/config";
 import { routing } from "@/shared/i18n";
-import { createPageMetadata } from "@/shared/lib";
+import { createPageMetadata } from "@/shared/lib/seo";
 import "@/shared/styles/globals.css";
 
 import { FooterDefault, HeaderDefault } from "@/widgets/layouts/default";
+import {
+	getLegacyFooterNavigation,
+	getLegacyHeaderNavigation,
+	getLegacySocialLinks
+} from "@/widgets/layouts/default/lib/legacy-navigation";
 
 import Providers from "../__providers";
+
+import { loadLayoutNavigation } from "@/cms/lib/load-layout-navigation";
 
 const exo2 = Exo_2({
 	variable: "--font-exo-2",
@@ -57,6 +64,11 @@ export default async function LocaleLayout({ children, params }: TProps) {
 
 	setRequestLocale(locale);
 	const messages = await getMessages();
+	const layoutNavigation = await loadLayoutNavigation(locale, {
+		header: () => getLegacyHeaderNavigation(locale),
+		footer: () => getLegacyFooterNavigation(locale),
+		social: getLegacySocialLinks
+	});
 
 	return (
 		<html
@@ -71,9 +83,16 @@ export default async function LocaleLayout({ children, params }: TProps) {
 						locale={locale}
 						timeZone="UTC"
 					>
-						<HeaderDefault />
+						<HeaderDefault
+							navItems={layoutNavigation.navItems}
+							logoSrc={layoutNavigation.logoSrc}
+						/>
 						<div className="flex flex-1 flex-col">{children}</div>
-						<FooterDefault />
+						<FooterDefault
+							columns={layoutNavigation.footerColumns}
+							socialLinks={layoutNavigation.socialLinks}
+							copyrightText={layoutNavigation.copyrightText}
+						/>
 					</NextIntlClientProvider>
 				</Providers>
 			</body>

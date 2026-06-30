@@ -7,7 +7,7 @@ import { useLocale } from "next-intl";
 import { type FC, useState } from "react";
 import { type DateRange } from "react-day-picker";
 
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 import { Calendar, Popover, PopoverContent, PopoverTrigger } from "@/shared/ui";
 
 const locales = {

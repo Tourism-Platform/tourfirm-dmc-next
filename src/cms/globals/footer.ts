@@ -1,11 +1,19 @@
 import type { GlobalConfig } from "payload";
 
+import { navigationItemFields } from "../fields/navigation-item";
+
 export const Footer: GlobalConfig = {
 	slug: "footer",
 	fields: [
 		{
 			name: "columns",
 			type: "array",
+			admin: {
+				components: {
+					RowLabel:
+						"@/cms/admin/footer-column-row-label#FooterColumnRowLabel"
+				}
+			},
 			fields: [
 				{
 					name: "title",
@@ -14,21 +22,15 @@ export const Footer: GlobalConfig = {
 					localized: true
 				},
 				{
-					name: "links",
+					name: "items",
 					type: "array",
-					fields: [
-						{
-							name: "label",
-							type: "text",
-							required: true,
-							localized: true
-						},
-						{
-							name: "href",
-							type: "text",
-							required: true
+					admin: {
+						components: {
+							RowLabel:
+								"@/cms/admin/navigation-item-row-label#NavigationItemRowLabel"
 						}
-					]
+					},
+					fields: navigationItemFields
 				}
 			]
 		},

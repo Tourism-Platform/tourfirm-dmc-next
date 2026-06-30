@@ -1,0 +1,115 @@
+segment: "company"
+slug: "about"
+title:
+  en: "About us"
+  ru: "О нас"
+  uz: "Biz haqimizda"
+seo:
+  metaTitle:
+    en: "About us | TourLink"
+    ru: "О нас | TourLink"
+    uz: "Biz haqimizda | TourLink"
+  metaDescription:
+    en: "TourLink is Central Asia's travel ecosystem — connecting the region with the world through on-the-ground expertise, a transparent platform and routes built by people who know the region from inside."
+    ru: "TourLink — экосистема путешествий Центральной Азии, связывающая регион с миром через экспертизу на местах, прозрачную платформу и маршруты, созданные людьми, которые знают регион изнутри."
+    uz: "TourLink — Markaziy Osiyoning sayohat ekotizimi, mintaqani dunyo bilan bog'laydi — jamoa ekspertizasi, shaffof platforma va regionni ichidan biladigan odamlar yaratgan marshrutlar."
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/hero-image.jpg"
+    imageAlt:
+      en: "Central Asia landscape"
+      ru: "Пейзаж Центральной Азии"
+      uz: "Markaziy Osiyo manzarasi"
+    title:
+      en: "Your link to Central Asia"
+      ru: "Ваша связь с Центральной Азией"
+      uz: "Markaziy Osiyoga aloqangiz"
+    description:
+      en: "Directly. Unique routes across Uzbekistan, Kyrgyzstan, Kazakhstan and the wider region — built by a team that knows it from inside."
+      ru: "Напрямую. Уникальные маршруты по Узбекистану, Кыргызстану, Казахстану и всему региону — от команды, которая знает его изнутри."
+      uz: "To'g'ridan-to'g'ri. O'zbekiston, Qirg'iziston, Qozog'iston va butun mintaqa bo'ylab noyob marshrutlar — regionni ichidan biladigan jamoa tomonidan."
+  - blockType: "regular"
+    eyebrow:
+      en: "What TourLink is"
+      ru: "Что такое TourLink"
+      uz: "TourLink nima"
+    title:
+      en: "A link between Central Asia and the world"
+      ru: "Связь между Центральной Азией и миром"
+      uz: "Markaziy Osiyo va dunyo o'rtasidagi aloqa"
+    description:
+      en: "TourLink is the region's first comprehensive travel ecosystem — tour operators, agencies, suppliers and travellers on one platform. We connect you with the people who built these routes through years of work in the region — not through aggregators or algorithms."
+      ru: "TourLink — первый комплексный туристический экосистема региона: туроператоры, агентства, поставщики и путешественники на одной платформе. Мы связываем вас с людьми, которые создавали эти маршруты годами работы в регионе — не через агрегаторы или алгоритмы."
+      uz: "TourLink — mintaqadagi birinchi kompleks sayohat ekotizimi: turoperatorlar, agentliklar, yetkazib beruvchilar va sayohatchilar bitta platformada. Biz sizni yillar davomida regionda ishlagan va bu marshrutlarni yaratgan odamlar bilan bog'laymiz — agregatorlar yoki algoritmlar orqali emas."
+  - blockType: "regular"
+    eyebrow:
+      en: "Mission"
+      ru: "Миссия"
+      uz: "Missiya"
+    title:
+      en: "Connecting Central Asia with the world"
+      ru: "Связываем Центральную Азию с миром"
+      uz: "Markaziy Osiyoni dunyo bilan bog'lash"
+    description:
+      en: "Giving travellers direct access to the region and the industry access to a global audience."
+      ru: "Даём путешественникам прямой доступ к региону, а индустрии — к глобальной аудитории."
+      uz: "Sayohatchilarga mintaqaga to'g'ridan-to'g'ri kirish, sohaga esa global auditoriyaga chiqish imkonini berish."
+  - blockType: "regular"
+    eyebrow:
+      en: "Vision"
+      ru: "Видение"
+      uz: "Maqsad"
+    title:
+      en: "The main entry point to the region's ecosystem"
+      ru: "Главная точка входа в экосистему региона"
+      uz: "Mintaqa ekotizimiga asosiy kirish nuqtasi"
+    description:
+      en: "A platform that unites everyone in the industry and sets a new standard of quality and transparency in Central Asian travel."
+      ru: "Платформа, объединяющая всех участников индустрии и задающая новый стандарт качества и прозрачности в туризме Центральной Азии."
+      uz: "Sohaning barcha ishtirokchilarini birlashtiradigan va Markaziy Osiyo turizmida sifat va shaffoflikning yangi standartini belgilaydigan platforma."
+  - blockType: "regular"
+    eyebrow:
+      en: "Values"
+      ru: "Ценности"
+      uz: "Qadriyatlar"
+    title:
+      en: "How we make decisions"
+      ru: "Как мы принимаем решения"
+      uz: "Qanday qaror qabul qilamiz"
+    description:
+      en: "Seven principles that guide how we work with travellers, agencies and partners."
+      ru: "Семь принципов, которые определяют нашу работу с путешественниками, агентствами и партнёрами."
+      uz: "Sayohatchilar, agentliklar va hamkorlar bilan ishlashimizni boshqaradigan yettita tamoyil."
+    cards:
+      - type: "destinationInsight"
+        icon: "compass"
+        title:
+          en: "Inside expertise"
+          ru: "Экспертиза изнутри"
+          uz: "Ichki ekspertiza"
+        description:
+          en: "We know the region from experience, not from the internet."
+          ru: "Мы знаем регион по опыту, а не из интернета."
+          uz: "Regionni internetdan emas, tajribadan bilamiz."
+      - type: "destinationInsight"
+        icon: "shield-check"
+        title:
+          en: "Reliability"
+          ru: "Надёжность"
+          uz: "Ishonchlilik"
+        description:
+          en: "We do what we promise. If something goes wrong, we fix it first."
+          ru: "Делаем то, что обещаем. Если что-то идёт не так — исправляем первыми."
+          uz: "Va'da qilganimizni qilamiz. Muammo bo'lsa — birinchi bo'lib hal qilamiz."
+      - type: "destinationInsight"
+        icon: "eye"
+        title:
+          en: "Transparency"
+          ru: "Прозрачность"
+          uz: "Shaffoflik"
+        description:
+          en: "No hidden terms. Agents see commission, travellers see the full price."
+          ru: "Без скрытых условий. Агенты видят комиссию, путешественники — полную цену."
+          uz: "Yashirin shartlarsiz. Agentlar komissiyani, sayohatchilar to'liq narxni ko'radi."

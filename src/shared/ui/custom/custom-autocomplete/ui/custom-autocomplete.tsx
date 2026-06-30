@@ -3,7 +3,7 @@
 import { type LucideIcon } from "lucide-react";
 import { type FC, useState } from "react";
 
-import { cn } from "@/shared/lib";
+import { cn } from "@/shared/lib/utils";
 import {
 	Command,
 	CommandEmpty,
