@@ -1,5 +1,8 @@
 import type { CollectionConfig } from "payload";
 
+import { ADMIN_COLLECTION_NAVIGATION } from "../admin/admin-navigation.config";
+import { groupCollections } from "../admin/group-collections";
+
 import { Attractions } from "./attractions";
 import { Badges } from "./badges";
 import { Cities } from "./cities";
@@ -16,11 +19,7 @@ import { Themes } from "./themes";
 import { TradeFairs } from "./trade-fairs";
 import { Users } from "./users";
 
-export const collections: CollectionConfig[] = [
-	Media,
-	Users,
-	Badges,
-	Themes,
+const rawCollections: CollectionConfig[] = [
 	Countries,
 	Regions,
 	Cities,
@@ -28,8 +27,40 @@ export const collections: CollectionConfig[] = [
 	Routes,
 	MapPoints,
 	Experiences,
-	JournalEntries,
-	TradeFairs,
+	Pages,
 	Segments,
-	Pages
+	JournalEntries,
+	Themes,
+	TradeFairs,
+	Badges,
+	Media,
+	Users
 ];
+
+if (process.env.NODE_ENV === "development") {
+	const configuredSlugs = new Set(
+		ADMIN_COLLECTION_NAVIGATION.flatMap((section) => section.items)
+	);
+	const projectSlugs = new Set(rawCollections.map((c) => c.slug));
+
+	for (const slug of projectSlugs) {
+		if (!configuredSlugs.has(slug)) {
+			console.warn(
+				`[admin-navigation] Collection "${slug}" is not listed in ADMIN_COLLECTION_NAVIGATION`
+			);
+		}
+	}
+
+	for (const slug of configuredSlugs) {
+		if (!projectSlugs.has(slug)) {
+			console.warn(
+				`[admin-navigation] ADMIN_COLLECTION_NAVIGATION references unknown slug "${slug}"`
+			);
+		}
+	}
+}
+
+export const collections = groupCollections(
+	rawCollections,
+	ADMIN_COLLECTION_NAVIGATION
+);
