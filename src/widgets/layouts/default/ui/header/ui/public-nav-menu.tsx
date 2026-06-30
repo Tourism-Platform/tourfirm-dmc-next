@@ -4,6 +4,7 @@ import type { FC } from "react";
 
 import { Link } from "@/shared/i18n";
 import { isExternalHref } from "@/shared/lib/url/is-external-href";
+import type { TDestinationsNavTree } from "@/shared/types/destinations-nav.types";
 import type { TResolvedNavLink } from "@/shared/types/navigation.types";
 import {
 	NavigationMenu,
@@ -15,17 +16,35 @@ import {
 	navigationMenuTriggerStyle
 } from "@/shared/ui";
 
+import { DestinationsNavMenu } from "./destinations-nav-menu";
 import { PublicNavMenuItem } from "./public-nav-menu-item";
 
 interface IPublicNavMenuProps {
 	items: TResolvedNavLink[];
+	destinationsNav: TDestinationsNavTree | null;
 }
 
-export const PublicNavMenu: FC<IPublicNavMenuProps> = ({ items }) => {
+export const PublicNavMenu: FC<IPublicNavMenuProps> = ({
+	items,
+	destinationsNav
+}) => {
 	return (
 		<NavigationMenu viewport={false} className="max-md:hidden">
 			<NavigationMenuList className="gap-1">
 				{items.map((entry) => {
+					if (
+						entry.variant === "destinations-mega" &&
+						destinationsNav?.countries.length
+					) {
+						return (
+							<DestinationsNavMenu
+								key={entry.key}
+								label={entry.label}
+								tree={destinationsNav}
+							/>
+						);
+					}
+
 					if (entry.sections.length === 0 && entry.href) {
 						if (isExternalHref(entry.href)) {
 							return (

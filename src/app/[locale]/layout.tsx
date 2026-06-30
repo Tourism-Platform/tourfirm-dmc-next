@@ -76,6 +76,7 @@ export default async function LocaleLayout({ children, params }: TProps) {
 					>
 						<HeaderDefault
 							navItems={layoutNavigation.navItems}
+							destinationsNav={layoutNavigation.destinationsNav}
 							logoSrc={layoutNavigation.logoSrc}
 						/>
 						<div className="flex flex-1 flex-col">{children}</div>

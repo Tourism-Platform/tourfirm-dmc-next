@@ -6,7 +6,22 @@
 		"get_started": "Get started",
 		"nav": {
 			"destinations": {
-				"label": "Destinations"
+				"label": "Destinations",
+				"columns": {
+					"countries": {
+						"title": "Countries",
+						"subtitle": "Five TourLink countries."
+					},
+					"regions": {
+						"title": "Tourist regions",
+						"subtitle": "Tourist regions based on route logic."
+					},
+					"cities": {
+						"title": "Cities",
+						"subtitle": "Cities around which the route is built."
+					}
+				},
+				"view_all": "All destinations"
 			},
 			"tours": {
 				"label": "Tour & activities"

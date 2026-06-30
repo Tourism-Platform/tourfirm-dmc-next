@@ -1,5 +1,6 @@
 import "server-only";
 
+import { isDestinationsHref } from "@/shared/lib/routing/is-destinations-href";
 import type {
 	TNavigationTarget,
 	TResolvedFooterColumn,
@@ -162,7 +163,8 @@ function mapNavItemLink(
 // INVARIANT: header nav order = CMS header.navItems[] array order only.
 export function resolveHeaderNavigation(
 	locale: string,
-	navItems: Header["navItems"] | null | undefined
+	navItems: Header["navItems"] | null | undefined,
+	destinationSlug?: string
 ): TResolvedNavLink[] {
 	void locale;
 
@@ -173,6 +175,10 @@ export function resolveHeaderNavigation(
 	return navItems.map((item, index) => {
 		const key = item.id ?? String(index);
 		const resolved = mapNavItemLink(item, key, index);
+		const isDestinationsMega =
+			item.icon === "map-pin" &&
+			destinationSlug != null &&
+			isDestinationsHref(resolved.href, destinationSlug);
 
 		return {
 			key,
@@ -181,6 +187,7 @@ export function resolveHeaderNavigation(
 				`Item ${String(index + 1).padStart(2, "0")}`
 			),
 			icon: item.icon ?? undefined,
+			variant: isDestinationsMega ? "destinations-mega" : "default",
 			...resolved
 		};
 	});

@@ -4,6 +4,10 @@ import { authenticatedOrPublished } from "../access/authenticated-or-published";
 import { pageBlocks } from "../blocks";
 import { seoField } from "../fields/seo";
 import { statusField } from "../fields/status";
+import {
+	revalidateDestinationsNavAfterChange,
+	revalidateDestinationsNavAfterDelete
+} from "../hooks/revalidate-destinations-nav";
 
 export const Regions: CollectionConfig = {
 	slug: "regions",
@@ -15,6 +19,10 @@ export const Regions: CollectionConfig = {
 	},
 	versions: {
 		drafts: true
+	},
+	hooks: {
+		afterChange: [revalidateDestinationsNavAfterChange],
+		afterDelete: [revalidateDestinationsNavAfterDelete]
 	},
 	indexes: [
 		{
@@ -38,6 +46,15 @@ export const Regions: CollectionConfig = {
 			type: "text",
 			required: true,
 			localized: true
+		},
+		{
+			name: "navOrder",
+			type: "number",
+			defaultValue: 0,
+			admin: {
+				description:
+					"Header destinations menu sort order. Lower values appear first."
+			}
 		},
 		{
 			name: "subtitle",

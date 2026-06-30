@@ -2,13 +2,15 @@ import type { TypedLocale } from "payload";
 import "server-only";
 
 import { resolveMediaUrl } from "@/shared/lib/media/resolve-media-url";
+import type { TDestinationsNavTree } from "@/shared/types/destinations-nav.types";
 import type {
 	TResolvedFooterColumn,
 	TResolvedNavLink,
 	TResolvedSocialLink
 } from "@/shared/types/navigation.types";
 
-import { getFooter, getHeader } from "../api";
+import { getDestination, getFooter, getHeader } from "../api";
+import { getDestinationsNavTree } from "../api/get-destinations-nav-tree";
 
 import {
 	resolveFooterNavigation,
@@ -17,6 +19,7 @@ import {
 
 export type TLayoutNavigation = {
 	navItems: TResolvedNavLink[];
+	destinationsNav: TDestinationsNavTree | null;
 	footerColumns: TResolvedFooterColumn[];
 	socialLinks: TResolvedSocialLink[];
 	logoSrc?: string;
@@ -27,12 +30,22 @@ export async function loadLayoutNavigation(
 	locale: string
 ): Promise<TLayoutNavigation> {
 	const typedLocale = locale as TypedLocale;
-	const [headerGlobal, footerGlobal] = await Promise.all([
+	const [headerGlobal, footerGlobal, destinationGlobal] = await Promise.all([
 		getHeader(typedLocale),
-		getFooter(typedLocale)
+		getFooter(typedLocale),
+		getDestination(locale)
 	]);
 
-	const navItems = resolveHeaderNavigation(locale, headerGlobal?.navItems);
+	const destinationSlug = destinationGlobal?.slug ?? "destinations";
+	const destinationsNav = await getDestinationsNavTree(
+		locale,
+		destinationSlug
+	);
+	const navItems = resolveHeaderNavigation(
+		locale,
+		headerGlobal?.navItems,
+		destinationSlug
+	);
 	const footerColumns = resolveFooterNavigation(
 		locale,
 		footerGlobal?.columns
@@ -49,6 +62,7 @@ export async function loadLayoutNavigation(
 
 	return {
 		navItems,
+		destinationsNav,
 		footerColumns,
 		socialLinks,
 		logoSrc,

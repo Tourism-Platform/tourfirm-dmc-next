@@ -90,6 +90,7 @@ export interface Config {
 	collectionsJoins: {
 		countries: {
 			regions: "regions";
+			cities: "cities";
 			routes: "routes";
 			experiences: "experiences";
 		};
@@ -205,6 +206,10 @@ export interface Country {
 	id: number;
 	slug: string;
 	title: string;
+	/**
+	 * Header destinations menu sort order. Lower values appear first.
+	 */
+	navOrder?: number | null;
 	subtitle?: string | null;
 	excerpt?: string | null;
 	content?: {
@@ -695,6 +700,11 @@ export interface Country {
 	};
 	regions?: {
 		docs?: (number | Region)[];
+		hasNextPage?: boolean;
+		totalDocs?: number;
+	};
+	cities?: {
+		docs?: (number | City)[];
 		hasNextPage?: boolean;
 		totalDocs?: number;
 	};
@@ -1263,6 +1273,10 @@ export interface City {
 	id: number;
 	slug: string;
 	title: string;
+	/**
+	 * Header destinations menu sort order. Lower values appear first.
+	 */
+	navOrder?: number | null;
 	subtitle?: string | null;
 	excerpt?: string | null;
 	content?: {
@@ -1778,6 +1792,10 @@ export interface Region {
 	id: number;
 	slug: string;
 	title: string;
+	/**
+	 * Header destinations menu sort order. Lower values appear first.
+	 */
+	navOrder?: number | null;
 	subtitle?: string | null;
 	excerpt?: string | null;
 	content?: {
@@ -5487,6 +5505,7 @@ export interface PayloadMigration {
 export interface CountriesSelect<T extends boolean = true> {
 	slug?: T;
 	title?: T;
+	navOrder?: T;
 	subtitle?: T;
 	excerpt?: T;
 	content?: T;
@@ -5694,6 +5713,7 @@ export interface CountriesSelect<T extends boolean = true> {
 				publishedAt?: T;
 		  };
 	regions?: T;
+	cities?: T;
 	routes?: T;
 	experiences?: T;
 	updatedAt?: T;
@@ -5707,6 +5727,7 @@ export interface CountriesSelect<T extends boolean = true> {
 export interface RegionsSelect<T extends boolean = true> {
 	slug?: T;
 	title?: T;
+	navOrder?: T;
 	subtitle?: T;
 	excerpt?: T;
 	content?: T;
@@ -5926,6 +5947,7 @@ export interface RegionsSelect<T extends boolean = true> {
 export interface CitiesSelect<T extends boolean = true> {
 	slug?: T;
 	title?: T;
+	navOrder?: T;
 	subtitle?: T;
 	excerpt?: T;
 	content?: T;

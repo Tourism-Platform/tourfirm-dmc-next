@@ -1,3 +1,4 @@
+export { getDestinationsNavTree } from "./get-destinations-nav-tree";
 export { findPageBySlug } from "./find-page-by-slug";
 export { findPageBySegmentAndSlug } from "./find-page-by-segment-and-slug";
 export { findSegmentBySlug } from "./find-segment-by-slug";

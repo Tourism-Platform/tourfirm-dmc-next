@@ -714,6 +714,29 @@ function resolveBadgeIds(
 	};
 }
 
+const FEATURED_NAV_BADGES = new Set(["FEATURED", "TOP_PICK"]);
+
+function applyGeoNavOrder(
+	data: Record<string, unknown>,
+	index: number
+): Record<string, unknown> {
+	if (data.navOrder != null) {
+		return data;
+	}
+
+	const badges = data.badges;
+	const isFeatured =
+		Array.isArray(badges) &&
+		badges.some(
+			(badge) => typeof badge === "string" && FEATURED_NAV_BADGES.has(badge)
+		);
+
+	return {
+		...data,
+		navOrder: isFeatured ? -1 : index
+	};
+}
+
 async function findCountryIdBySlug(
 	payload: Payload,
 	countrySlug: string,
@@ -1042,7 +1065,7 @@ async function seedCountries(
 
 	console.log(`Seeding countries (${files.length})...`);
 
-	for (const file of files) {
+	for (const [index, file] of files.entries()) {
 		const item = await readYamlFile<Record<string, unknown>>(
 			path.join(countriesDir, file)
 		);
@@ -1057,7 +1080,8 @@ async function seedCountries(
 		await seedLocalizedDoc(payload, "countries", item, {
 			published: true,
 			beforeCreate: async (data, locale) => {
-				const withBadges = resolveBadgeIds(data, badgeIds);
+				const withNavOrder = applyGeoNavOrder(data, index);
+				const withBadges = resolveBadgeIds(withNavOrder, badgeIds);
 				return resolveSeedDocument(
 					payload,
 					mediaCache,
@@ -1191,7 +1215,7 @@ async function seedRegions(
 
 	console.log(`Seeding regions (${files.length})...`);
 
-	for (const file of files) {
+	for (const [index, file] of files.entries()) {
 		const item = await readYamlFile<Record<string, unknown>>(
 			path.join(regionsDir, file)
 		);
@@ -1208,7 +1232,7 @@ async function seedRegions(
 			beforeCreate: async (data, locale) =>
 				resolveRegionSeedData(
 					payload,
-					data,
+					applyGeoNavOrder(data, index),
 					locale,
 					badgeIds,
 					mediaCache
@@ -1242,7 +1266,7 @@ async function seedCities(
 
 	console.log(`Seeding cities (${files.length})...`);
 
-	for (const file of files) {
+	for (const [index, file] of files.entries()) {
 		const item = await readYamlFile<Record<string, unknown>>(
 			path.join(citiesDir, file)
 		);
@@ -1259,7 +1283,7 @@ async function seedCities(
 			beforeCreate: async (data, locale) =>
 				resolveCitySeedData(
 					payload,
-					data,
+					applyGeoNavOrder(data, index),
 					locale,
 					badgeIds,
 					mediaCache

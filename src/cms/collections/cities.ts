@@ -4,6 +4,10 @@ import { authenticatedOrPublished } from "../access/authenticated-or-published";
 import { pageBlocks } from "../blocks";
 import { seoField } from "../fields/seo";
 import { statusField } from "../fields/status";
+import {
+	revalidateDestinationsNavAfterChange,
+	revalidateDestinationsNavAfterDelete
+} from "../hooks/revalidate-destinations-nav";
 import { validateCityHierarchy } from "../hooks/validate-geo-hierarchy";
 
 export const Cities: CollectionConfig = {
@@ -18,7 +22,9 @@ export const Cities: CollectionConfig = {
 		drafts: true
 	},
 	hooks: {
-		beforeValidate: [validateCityHierarchy]
+		beforeValidate: [validateCityHierarchy],
+		afterChange: [revalidateDestinationsNavAfterChange],
+		afterDelete: [revalidateDestinationsNavAfterDelete]
 	},
 	fields: [
 		{
@@ -34,6 +40,15 @@ export const Cities: CollectionConfig = {
 			type: "text",
 			required: true,
 			localized: true
+		},
+		{
+			name: "navOrder",
+			type: "number",
+			defaultValue: 0,
+			admin: {
+				description:
+					"Header destinations menu sort order. Lower values appear first."
+			}
 		},
 		{
 			name: "subtitle",

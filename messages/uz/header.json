@@ -6,7 +6,22 @@
 		"get_started": "Get started",
 		"nav": {
 			"destinations": {
-				"label": "Yo'nalishlar"
+				"label": "Yo'nalishlar",
+				"columns": {
+					"countries": {
+						"title": "Mamlakatlar",
+						"subtitle": "TourLinkning beshta mamlakati."
+					},
+					"regions": {
+						"title": "Turistik hududlar",
+						"subtitle": "Marshrut mantig'iga ko'ra turistik hududlar."
+					},
+					"cities": {
+						"title": "Shaharlar",
+						"subtitle": "Marshrut quriladigan shaharlar."
+					}
+				},
+				"view_all": "Barcha yo'nalishlar"
 			},
 			"tours": {
 				"label": "Turlar va faoliyatlar"

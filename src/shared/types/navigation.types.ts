@@ -21,6 +21,7 @@ export type TResolvedNavLink = {
 	href?: string;
 	target?: TNavigationTarget;
 	icon?: string;
+	variant?: "default" | "destinations-mega";
 	sections: TResolvedNavSection[];
 };
 

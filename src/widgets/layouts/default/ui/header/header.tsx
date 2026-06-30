@@ -5,6 +5,7 @@ import type { FC } from "react";
 
 import { ENUM_PATH } from "@/shared/config";
 import { Link } from "@/shared/i18n";
+import type { TDestinationsNavTree } from "@/shared/types/destinations-nav.types";
 import type { TResolvedNavLink } from "@/shared/types/navigation.types";
 import { LanguageToggle, ThemeToggle } from "@/shared/ui";
 
@@ -14,12 +15,14 @@ const DEFAULT_LOGO_SRC = "/assets/images/logo.svg";
 
 type TProps = {
 	navItems: TResolvedNavLink[];
+	destinationsNav?: TDestinationsNavTree | null;
 	logoSrc?: string;
 	logoAlt?: string;
 };
 
 export const HeaderDefault: FC<TProps> = ({
 	navItems,
+	destinationsNav = null,
 	logoSrc = DEFAULT_LOGO_SRC,
 	logoAlt = "TourLink"
 }) => {
@@ -46,7 +49,10 @@ export const HeaderDefault: FC<TProps> = ({
 							<span className="text-[#37bffa]">Link</span>
 						</span>
 					</Link>
-					<PublicNavMenu items={navItems} />
+					<PublicNavMenu
+						items={navItems}
+						destinationsNav={destinationsNav}
+					/>
 				</div>
 				<div className="flex shrink-0 items-center gap-2">
 					<ThemeToggle />
