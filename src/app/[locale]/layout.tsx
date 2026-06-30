@@ -14,11 +14,6 @@ import { createPageMetadata } from "@/shared/lib/seo";
 import "@/shared/styles/globals.css";
 
 import { FooterDefault, HeaderDefault } from "@/widgets/layouts/default";
-import {
-	getLegacyFooterNavigation,
-	getLegacyHeaderNavigation,
-	getLegacySocialLinks
-} from "@/widgets/layouts/default/lib/legacy-navigation";
 
 import Providers from "../__providers";
 
@@ -64,11 +59,7 @@ export default async function LocaleLayout({ children, params }: TProps) {
 
 	setRequestLocale(locale);
 	const messages = await getMessages();
-	const layoutNavigation = await loadLayoutNavigation(locale, {
-		header: () => getLegacyHeaderNavigation(locale),
-		footer: () => getLegacyFooterNavigation(locale),
-		social: getLegacySocialLinks
-	});
+	const layoutNavigation = await loadLayoutNavigation(locale);
 
 	return (
 		<html

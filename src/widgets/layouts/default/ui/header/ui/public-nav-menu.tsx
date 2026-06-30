@@ -3,6 +3,7 @@
 import type { FC } from "react";
 
 import { Link } from "@/shared/i18n";
+import { isExternalHref } from "@/shared/lib/url/is-external-href";
 import type { TResolvedNavLink } from "@/shared/types/navigation.types";
 import {
 	NavigationMenu,
@@ -18,10 +19,6 @@ import { PublicNavMenuItem } from "./public-nav-menu-item";
 
 interface IPublicNavMenuProps {
 	items: TResolvedNavLink[];
-}
-
-function isExternalHref(href: string): boolean {
-	return href.startsWith("http://") || href.startsWith("https://");
 }
 
 export const PublicNavMenu: FC<IPublicNavMenuProps> = ({ items }) => {

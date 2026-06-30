@@ -1,6 +1,7 @@
 "use client";
 
 import { Link } from "@/shared/i18n";
+import { isExternalHref } from "@/shared/lib/url/is-external-href";
 import { cn } from "@/shared/lib/utils";
 import type { TResolvedFooterLink } from "@/shared/types/navigation.types";
 import { Badge } from "@/shared/ui";
@@ -9,10 +10,6 @@ interface IFooterSectionProps {
 	title: string;
 	links: TResolvedFooterLink[];
 	comingSoonLabel: string;
-}
-
-function isExternalHref(href: string): boolean {
-	return href.startsWith("http://") || href.startsWith("https://");
 }
 
 export const FooterSection = ({

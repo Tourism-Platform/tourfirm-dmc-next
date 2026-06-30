@@ -1,4 +1,5 @@
 export { cn } from "./utils";
+export { isExternalHref } from "./url/is-external-href";
 export { getLucideIcon } from "./get-lucide-icon";
 export { matchPath } from "./match-path";
 export {

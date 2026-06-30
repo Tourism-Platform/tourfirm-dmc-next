@@ -24,12 +24,7 @@ export type TLayoutNavigation = {
 };
 
 export async function loadLayoutNavigation(
-	locale: string,
-	legacy: {
-		header: () => Promise<TResolvedNavLink[]>;
-		footer: () => Promise<TResolvedFooterColumn[]>;
-		social: () => TResolvedSocialLink[];
-	}
+	locale: string
 ): Promise<TLayoutNavigation> {
 	const typedLocale = locale as TypedLocale;
 	const [headerGlobal, footerGlobal] = await Promise.all([
@@ -37,24 +32,18 @@ export async function loadLayoutNavigation(
 		getFooter(typedLocale)
 	]);
 
-	let navItems = resolveHeaderNavigation(locale, headerGlobal?.navItems);
-
-	if (!navItems.length) {
-		navItems = await legacy.header();
-	}
-
-	let footerColumns = resolveFooterNavigation(locale, footerGlobal?.columns);
-
-	if (!footerColumns.length) {
-		footerColumns = await legacy.footer();
-	}
+	const navItems = resolveHeaderNavigation(locale, headerGlobal?.navItems);
+	const footerColumns = resolveFooterNavigation(
+		locale,
+		footerGlobal?.columns
+	);
 
 	const socialLinks =
 		footerGlobal?.socialLinks?.map((link, index) => ({
 			key: link.id ?? String(index),
 			platform: link.platform,
 			url: link.url
-		})) ?? legacy.social();
+		})) ?? [];
 
 	const logoSrc = resolveMediaUrl(headerGlobal?.logo) || undefined;
 
