@@ -43,9 +43,10 @@ blocks:
       en: "These are not scattered add-ons. Each one ties to a route, a responsible person and a day that needs to run smoothly."
       ru: "Это не разрозненные дополнительные услуги. Каждая связана с маршрутом, ответственным человеком и днём, который должен пройти спокойно."
       uz: "Bu alohida qo'shimcha xizmatlar emas. Har biri marshrut, mas'ul shaxs va xotirjam o'tishi kerak bo'lgan kun bilan bog'liq."
+    gridClassName: "sm:grid-cols-2 lg:grid-cols-3"
     cards:
-      - type: "destinationInsight"
-        icon: "users"
+      - type: "servicesDirection"
+        image: "assets/images/hero-image.jpg"
         title:
           en: "Private guides and interpreters"
           ru: "Частные гиды и переводчики"
@@ -54,8 +55,12 @@ blocks:
           en: "Guides, interpreters and local hosts matched to the city, theme, language and pace of a specific day."
           ru: "Гиды, переводчики и локальные сопровождающие под город, тему, язык и темп конкретного дня."
           uz: "Shahar, mavzu, til va aniq kun tempiga mos gidlar, tarjimonlar va mahalliy hamrohlar."
-      - type: "destinationInsight"
-        icon: "map"
+        ctaLabel:
+          en: "Request a guide"
+          ru: "Запросить гида"
+          uz: "Gid so'rash"
+      - type: "servicesDirection"
+        image: "assets/images/samarkand.jpg"
         title:
           en: "Bespoke programs"
           ru: "Индивидуальные программы"
@@ -64,8 +69,12 @@ blocks:
           en: "Original private trips shaped by countries, season, interests, group size and the pace you want to travel at."
           ru: "Оригинальные индивидуальные поездки под страны, сезон, интерес, размер группы и темп, в котором хочется прожить маршрут."
           uz: "Mamlakatlar, mavsum, qiziqish, guruh hajmi va sayohat tempiga mos original individual sayohatlar."
-      - type: "destinationInsight"
-        icon: "briefcase"
+        ctaLabel:
+          en: "Discuss a program"
+          ru: "Обсудить программу"
+          uz: "Dasturni muhokama qilish"
+      - type: "servicesDirection"
+        image: "assets/images/hero-image.jpg"
         title:
           en: "Business travel and MICE"
           ru: "Деловые поездки и MICE"
@@ -74,6 +83,10 @@ blocks:
           en: "MICE, incentives, conferences, corporate retreats and large groups where timing and coordination matter."
           ru: "MICE, инсентивы, конференции, корпоративные выезды и большие группы, где важны тайминг и координация."
           uz: "MICE, insentivlar, konferensiyalar, korporativ chiqishlar va vaqt hamda koordinatsiya muhim bo'lgan katta guruhlar."
+        ctaLabel:
+          en: "Send a B2B request"
+          ru: "Отправить B2B-запрос"
+          uz: "B2B so'rov yuborish"
   - blockType: "regular"
     eyebrow:
       en: "How work begins"
@@ -115,6 +128,133 @@ blocks:
           ru: "Контур"
           uz: "Kontur"
         description:
-          en: "You receive a clear outline: service mix, route rhythm, open questions and next decisions."
+          en: "You receive a clear outline: service scope, route rhythm, open questions and next decisions."
           ru: "Вы получаете понятный контур: состав услуг, ритм маршрута, открытые вопросы и следующие решения."
           uz: "Siz aniq kontur olasiz: xizmatlar tarkibi, marshrut ritmi, ochiq savollar va keyingi qarorlar."
+  - blockType: "regular"
+    eyebrow:
+      en: "How we see a service"
+      ru: "Как мы понимаем услугу"
+      uz: "Xizmatni qanday tushunamiz"
+    title:
+      en: "A service only works when it is built into the trip"
+      ru: "Услуга полезна только тогда, когда она встроена в поездку"
+      uz: "Xizmat faqat sayohatga o'rnatilganda foydali"
+    description:
+      en: "Visa support and transport are part of a well-built TourLink program. We do not separate them from the route — that keeps the promise honest and responsibility clear.\n\nOn complex requests the first answer is not a price. First we need the shape of the program: timelines, boundaries, guides, transport, languages and places where the day should slow down."
+      ru: "Визовая поддержка и транспорт — часть хорошо собранной программы TourLink. Мы не отделяем их от маршрута: так обещание остаётся честным, а ответственность — понятной.\n\nВ сложных запросах первый ответ — не цена. Сначала нужна форма программы: сроки, границы, гиды, транспорт, языки и места, где день должен замедлиться."
+      uz: "Viza yordami va transport yaxshi yig'ilgan TourLink dasturining qismidir. Biz ularni marshrutdan ajratmaymiz — shunda va'da halol, mas'uliyat aniq bo'ladi.\n\nMurakkab so'rovlarda birinchi javob narx emas. Avval dastur shakli kerak: muddatlar, chegaralar, gidlar, transport, tillar va kun sekinlashishi kerak bo'lgan joylar."
+  - blockType: "regular"
+    eyebrow:
+      en: "Business travel"
+      ru: "Деловые поездки"
+      uz: "Biznes sayohatlari"
+    title:
+      en: "The larger the group, the calmer the control must be"
+      ru: "Чем больше группа, тем спокойнее должен быть контроль"
+      uz: "Guruh qanchalik katta bo'lsa, nazorat shunchalik xotirjam bo'lishi kerak"
+    description:
+      en: "For business groups we use the same calm approach to operations: meetings, incentives, conferences, corporate retreats and large groups."
+      ru: "Для деловых групп работает тот же спокойный подход к организации: встречи, инсентивы, конференции, корпоративные выезды и большие группы."
+      uz: "Biznes guruhlari uchun xuddi shu xotirjam yondashuv: uchrashuvlar, insentivlar, konferensiyalar, korporativ chiqishlar va katta guruhlar."
+    gridClassName: "sm:grid-cols-2 lg:grid-cols-3"
+    cards:
+      - type: "servicesBusiness"
+        icon: "users"
+        badge:
+          en: "MICE"
+          ru: "MICE"
+          uz: "MICE"
+        title:
+          en: "Meetings and events"
+          ru: "Встречи и события"
+          uz: "Uchrashuvlar va tadbirlar"
+        description:
+          en: "Meetings, dinners, transfers, interpretation and guest movement for professional groups."
+          ru: "Встречи, ужины, трансферы, перевод и движение гостей для профессиональных групп."
+          uz: "Professional guruhlar uchun uchrashuvlar, kechki ovqatlar, transferlar, tarjima va mehmonlar harakati."
+      - type: "servicesBusiness"
+        icon: "gift"
+        badge:
+          en: "Incentive"
+          ru: "Incentive"
+          uz: "Incentive"
+        title:
+          en: "Incentive trips"
+          ru: "Инсентив-поездки"
+          uz: "Insentiv-sayohatlar"
+        description:
+          en: "A route around the business program: heritage, receptions, time with a guide and moments for the team."
+          ru: "Маршрут вокруг деловой программы: наследие, приёмы, время с гидом и моменты для команды."
+          uz: "Biznes dasturi atrofidagi marshrut: meros, qabul qilishlar, gid bilan vaqt va jamoa uchun lahzalar."
+      - type: "servicesBusiness"
+        icon: "mountain"
+        badge:
+          en: "Retreats"
+          ru: "Retreats"
+          uz: "Retreats"
+        title:
+          en: "Corporate retreats"
+          ru: "Корпоративные выезды"
+          uz: "Korporativ chiqishlar"
+        description:
+          en: "Urban, mountain or historic settings for teams that need focus, privacy and a clear daily rhythm."
+          ru: "Городская, горная или историческая среда для команды, которой нужны фокус, приватность и ясный ритм дня."
+          uz: "Fokus, maxfiylik va aniq kun ritmi kerak bo'lgan jamoalar uchun shahar, tog' yoki tarixiy muhit."
+      - type: "servicesBusiness"
+        icon: "presentation"
+        badge:
+          en: "Conferences"
+          ru: "Conferences"
+          uz: "Conferences"
+        title:
+          en: "Conferences"
+          ru: "Конференции"
+          uz: "Konferensiyalar"
+        description:
+          en: "Venue logic, guest arrivals, interpretation, local program and coordination around the event."
+          ru: "Логика площадки, прибытие гостей, перевод, локальная программа и координация вокруг события."
+          uz: "Maydoncha mantiqi, mehmonlarning kelishi, tarjima, mahalliy dastur va tadbir atrofidagi koordinatsiya."
+      - type: "servicesBusiness"
+        icon: "users"
+        badge:
+          en: "Groups"
+          ru: "Groups"
+          uz: "Groups"
+        title:
+          en: "Large groups"
+          ru: "Большие группы"
+          uz: "Katta guruhlar"
+        description:
+          en: "Transport, guides, meals, pace and backup solutions for groups of 50+ across the region."
+          ru: "Транспорт, гиды, питание, темп и резервные решения для групп от 50 человек в регионе."
+          uz: "Mintaqada 50+ kishilik guruhlar uchun transport, gidlar, ovqatlanish, temp va zaxira yechimlar."
+  - blockType: "cta"
+    image: "assets/images/hero-image.jpg"
+    eyebrow:
+      en: "Start with a conversation"
+      ru: "Начните с разговора"
+      uz: "Suhbatdan boshlang"
+    title:
+      en: "Send your trip brief before the route is fixed"
+      ru: "Отправьте описание поездки до фиксации маршрута"
+      uz: "Marshrut belgilanishidan oldin sayohat tavsifini yuboring"
+    description:
+      en: "Share dates, headcount, countries, languages and the purpose of the trip. We will say what can be assembled confidently now and what needs a regional check."
+      ru: "Укажите даты, количество людей, страны, языки и цель поездки. Мы скажем, что можно уверенно собрать сразу, а что нужно проверить в регионе."
+      uz: "Sanalar, odamlar soni, mamlakatlar, tillar va sayohat maqsadini ko'rsating. Nimani darhol ishonch bilan yig'ish mumkinligini va nimani mintaqada tekshirish kerakligini aytamiz."
+    actions:
+      - type: mailto
+        variant: default
+        title:
+          en: "Request a consultation"
+          ru: "Запросить консультацию"
+          uz: "Konsultatsiya so'rash"
+        email: info@tourlink.uz
+      - type: link
+        variant: outline
+        title:
+          en: "Browse tours"
+          ru: "Открыть туры"
+          uz: "Turlarni ochish"
+        href: /catalog

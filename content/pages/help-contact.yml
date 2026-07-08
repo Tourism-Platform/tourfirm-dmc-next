@@ -11,7 +11,7 @@ seo:
     uz: "Biz bilan bog'laning | TourLink"
   metaDescription:
     en: "Get in touch with TourLink for tour inquiries, partnership requests, and support. Based in Tashkent, Uzbekistan."
-    ru: "Свяжитесь с TourLink по турам, партнёрству и поддержке. Офис в Ташкенте, Узбекистан."
+    ru: "Свяжитесь с TourLink по вопросам туров, партнёрства и поддержки. Офис в Ташкенте, Узбекистан."
     uz: "Turlar, hamkorlik va qo'llab-quvvatlash bo'yicha TourLink bilan bog'laning. Ofis Toshkent, O'zbekistonda."
 status:
   showInSitemap: true
@@ -33,16 +33,94 @@ blocks:
   - blockType: "regular"
     eyebrow:
       en: "Primary contact"
-      ru: "Основной контакт"
+      ru: "Основные контакты"
       uz: "Asosiy aloqa"
     title:
       en: "How to reach us"
       ru: "Как с нами связаться"
       uz: "Biz bilan qanday bog'lanish mumkin"
     description:
-      en: "Choose a channel that suits you — we reply during business hours, Tashkent time. Phone and WhatsApp are available on the contact page; Telegram is available on request via phone or email."
-      ru: "Выберите удобный канал — отвечаем в рабочие часы по ташкентскому времени. Телефон и WhatsApp указаны на странице контактов; Telegram — по запросу через телефон или email."
-      uz: "Qulay kanalni tanlang — biz Toshkent vaqti bo'yicha ish soatlarida javob beramiz. Telefon va WhatsApp aloqa sahifasida; Telegram — telefon yoki email orqali so'rov bo'yicha."
+      en: "Choose a channel that suits you — we reply during business hours, Tashkent time. Telegram is available on request via phone or email."
+      ru: "Выберите удобный канал — мы отвечаем в рабочие часы по ташкентскому времени. Telegram доступен по запросу через телефон или email."
+      uz: "Qulay kanalni tanlang — biz Toshkent vaqti bo'yicha ish soatlarida javob beramiz. Telegram telefon yoki email orqali so'rov bo'yicha mavjud."
+    actions:
+      - type: tel
+        variant: default
+        title:
+          en: "+998 97 444 15 55"
+          ru: "+998 97 444 15 55"
+          uz: "+998 97 444 15 55"
+        phone: "+998974441555"
+      - type: link
+        variant: outline
+        title:
+          en: "WhatsApp"
+          ru: "WhatsApp"
+          uz: "WhatsApp"
+        href: "https://wa.me/998974441555"
+        target: "_blank"
+      - type: mailto
+        variant: outline
+        title:
+          en: "info@tourlink.uz"
+          ru: "info@tourlink.uz"
+          uz: "info@tourlink.uz"
+        email: info@tourlink.uz
+  - blockType: "regular"
+    eyebrow:
+      en: "Email"
+      ru: "Email"
+      uz: "Email"
+    title:
+      en: "By enquiry type"
+      ru: "По типу запроса"
+      uz: "So'rov turiga ko'ra"
+    description:
+      en: "Write to the address that matches your question so we can route it to the right team faster."
+      ru: "Напишите на адрес, который соответствует вашему вопросу — так мы быстрее передадим его нужной команде."
+      uz: "Savolingizga mos manzilga yozing — shunda tezroq kerakli jamoaga yo'naltiramiz."
+    gridClassName: "sm:grid-cols-2"
+    cards:
+      - type: "destinationInsight"
+        icon: "mail"
+        title:
+          en: "General enquiries"
+          ru: "Общие вопросы"
+          uz: "Umumiy savollar"
+        description:
+          en: "info@tourlink.uz — Questions about tours, routes and TourLink services."
+          ru: "info@tourlink.uz — Запросы о турах, маршрутах и работе TourLink."
+          uz: "info@tourlink.uz — Turlar, marshrutlar va TourLink xizmatlari haqida."
+      - type: "destinationInsight"
+        icon: "mail"
+        title:
+          en: "Reservations and quotes"
+          ru: "Бронирование и предложения"
+          uz: "Bronlash va takliflar"
+        description:
+          en: "reservation@tourlink.uz — Programme requests, pricing and booking confirmation."
+          ru: "reservation@tourlink.uz — Запрос программы, расчёт и подтверждение бронирования."
+          uz: "reservation@tourlink.uz — Dastur so'rovi, narx va bronni tasdiqlash."
+      - type: "destinationInsight"
+        icon: "mail"
+        title:
+          en: "MICE and corporate travel"
+          ru: "MICE и корпоративные поездки"
+          uz: "MICE va korporativ sayohatlar"
+        description:
+          en: "mice@tourlink.uz — Business trips, incentives, conferences and group programmes."
+          ru: "mice@tourlink.uz — Деловые поездки, инсентивы, конференции и групповые программы."
+          uz: "mice@tourlink.uz — Ish safarlari, insentivlar, konferensiyalar va guruh dasturlari."
+      - type: "destinationInsight"
+        icon: "mail"
+        title:
+          en: "Partnership"
+          ru: "Партнёрство"
+          uz: "Hamkorlik"
+        description:
+          en: "partners@tourlink.uz — Cooperation with agencies, hotels and other partners."
+          ru: "partners@tourlink.uz — Сотрудничество с агентствами, отелями и другими партнёрами."
+          uz: "partners@tourlink.uz — Agentliklar, mehmonxonalar va boshqa hamkorlar bilan hamkorlik."
   - blockType: "regular"
     eyebrow:
       en: "Office"
@@ -53,6 +131,19 @@ blocks:
       ru: "Адрес и часы работы"
       uz: "Manzil va ish vaqti"
     description:
-      en: "100011, Tashkent, Shaykhantakhur district, Urta mahalla, Anhor Bo'yi street 6, Uzbekistan. Monday to Friday, 09:00–18:00 Tashkent time."
-      ru: "100011, Ташкент, Shaykhantakhur tumani, Urta mahalla, Anhor Bo'yi ko'chasi 6, Узбекистан. Понедельник–пятница, 09:00–18:00 по ташкентскому времени."
-      uz: "100011, Toshkent, Shayxontohur tumani, Urta mahalla, Anhor Bo'yi ko'chasi 6, O'zbekiston. Dushanba–juma, 09:00–18:00 Toshkent vaqti."
+      en: "100011, Tashkent, Shaykhantakhur district, Urta mahalla, Anhor Bo'yi street 6, Uzbekistan.\n\nMonday to Friday, 09:00–18:00 Tashkent time (Asia/Tashkent)."
+      ru: "100011, город Ташкент, Шайхантахурский район, махалля Урда, улица Анхор Буйи, дом 6, Узбекистан.\n\nПонедельник–пятница, 09:00–18:00 по ташкентскому времени (Asia/Tashkent)."
+      uz: "100011, Toshkent shahri, Shayxontohur tumani, Urta mahallasi, Anhor Bo'yi ko'chasi 6-uy, O'zbekiston.\n\nDushanba–juma, 09:00–18:00 Toshkent vaqti bo'yicha (Asia/Tashkent)."
+  - blockType: "regular"
+    eyebrow:
+      en: "Legal information"
+      ru: "Юридическая информация"
+      uz: "Yuridik ma'lumot"
+    title:
+      en: "Company details"
+      ru: "Реквизиты компании"
+      uz: "Kompaniya rekvizitlari"
+    description:
+      en: "Legal name: ООО \"TOURLINK\"\nBrand: TourLink\nTIN: 312922809\nOKED: 63120\nTax status: Turnover tax payer, not VAT registered.\nDirector: BEGMATOV MUHAMMAD AMIN SODIQ O'G'LI"
+      ru: "Юридическое название: ООО \"TOURLINK\"\nБренд: TourLink\nИНН: 312922809\nОКЭД: 63120\nНалоговый статус: Плательщик налога с оборота, не является плательщиком НДС.\nДиректор: BEGMATOV MUHAMMAD AMIN SODIQ O'G'LI"
+      uz: "Yuridik nomi: ООО \"TOURLINK\"\nBrend: TourLink\nSTIR: 312922809\nIFUT: 63120\nSoliq maqomi: Aylanmadan olinadigan soliq to'lovchisi, QQS to'lovchisi emas.\nDirektor: BEGMATOV MUHAMMAD AMIN SODIQ O'G'LI"

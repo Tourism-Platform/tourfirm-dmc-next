@@ -1044,6 +1044,20 @@ async function seedLocalizedDoc(
 	}, label);
 }
 
+function toRelationshipId(value: unknown): number | undefined {
+	if (typeof value === "number") {
+		return value;
+	}
+
+	if (value && typeof value === "object" && "id" in value) {
+		const id = (value as { id: unknown }).id;
+
+		return typeof id === "number" ? id : undefined;
+	}
+
+	return undefined;
+}
+
 function registerCountryFromDoc(
 	lookup: SeedLookupCache,
 	doc: Record<string, unknown>
@@ -1069,8 +1083,7 @@ function registerRegionFromDoc(
 	doc: Record<string, unknown>
 ): void {
 	const slug = typeof doc.slug === "string" ? doc.slug : undefined;
-	const countryId =
-		typeof doc.country === "number" ? doc.country : undefined;
+	const countryId = toRelationshipId(doc.country);
 
 	if (!slug || countryId === undefined) {
 		return;
@@ -1084,7 +1097,7 @@ function registerCityFromDoc(
 	doc: Record<string, unknown>
 ): void {
 	const slug = typeof doc.slug === "string" ? doc.slug : undefined;
-	const regionId = typeof doc.region === "number" ? doc.region : undefined;
+	const regionId = toRelationshipId(doc.region);
 
 	if (!slug || regionId === undefined) {
 		return;
