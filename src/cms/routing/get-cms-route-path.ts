@@ -1,6 +1,6 @@
 import {
 	buildPagePath,
-	buildSegmentPagePath
+	resolveSegmentPagePublicPath
 } from "@/shared/lib/routing/build-cms-path";
 
 import type { TCmsRoute } from "./resolve-cms-route";
@@ -10,7 +10,11 @@ export function getCmsRoutePath(
 	fallbackSegment?: string
 ): string {
 	if (route.kind === "segment-page") {
-		return buildSegmentPagePath(route.segment.slug, route.document.slug);
+		return resolveSegmentPagePublicPath(
+			route.segment.slug,
+			route.document.slug,
+			route.document.pathGroup
+		);
 	}
 
 	if (route.kind === "destination") {

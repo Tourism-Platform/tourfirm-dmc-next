@@ -3,15 +3,22 @@ import { getPayload } from "payload";
 import { cache } from "react";
 import "server-only";
 
+import { isPagePathGroup } from "@/shared/config/routes/page-path-groups";
+
 import { toGeoLocale } from "./geo-locale";
 import type { Page } from "@/payload-types";
 
-export const findPageBySegmentAndSlug = cache(
+export const findPageBySegmentGroupAndSlug = cache(
 	async (
 		locale: string,
 		segmentId: number,
+		pathGroup: string,
 		pageSlug: string
 	): Promise<Page | null> => {
+		if (!isPagePathGroup(pathGroup)) {
+			return null;
+		}
+
 		try {
 			const payload = await getPayload({ config });
 
@@ -35,7 +42,7 @@ export const findPageBySegmentAndSlug = cache(
 						},
 						{
 							pathGroup: {
-								exists: false
+								equals: pathGroup
 							}
 						},
 						{

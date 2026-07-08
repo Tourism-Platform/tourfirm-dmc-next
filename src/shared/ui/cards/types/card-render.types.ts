@@ -3,6 +3,7 @@ import type { LucideIcon } from "lucide-react";
 export enum CardType {
 	Country = "country",
 	DestinationInsight = "destinationInsight",
+	TeamMember = "teamMember",
 	RouteIdea = "routeIdea",
 	Experience = "experience",
 	TradeFair = "tradeFair",

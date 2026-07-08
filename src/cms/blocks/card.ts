@@ -3,6 +3,7 @@ import type { Field } from "payload";
 const cardTypeOptions = [
 	{ label: "Country", value: "country" },
 	{ label: "Destination Insight", value: "destinationInsight" },
+	{ label: "Team Member", value: "teamMember" },
 	{ label: "Route Idea", value: "routeIdea" },
 	{ label: "Experience", value: "experience" },
 	{ label: "Trade Fair", value: "tradeFair" },
@@ -34,7 +35,7 @@ export const cardFields: Field[] = [
 	{
 		name: "href",
 		type: "text",
-		admin: { condition: whenType("country") }
+		admin: { condition: whenType("country", "teamMember") }
 	},
 	{
 		name: "image",
@@ -78,6 +79,7 @@ export const cardFields: Field[] = [
 			condition: whenType(
 				"country",
 				"destinationInsight",
+				"teamMember",
 				"routeIdea",
 				"experience",
 				"tripFormat",
@@ -159,6 +161,7 @@ export const cardFields: Field[] = [
 		admin: {
 			condition: whenType(
 				"destinationInsight",
+				"teamMember",
 				"overviewStat",
 				"servicesBusiness",
 				"tripFormat"

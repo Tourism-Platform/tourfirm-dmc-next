@@ -11,6 +11,7 @@ import { RouteIdeaCard } from "./route-idea-card";
 import { ServicesBusinessCard } from "./services-business-card";
 import { ServicesDirectionCard } from "./services-direction-card";
 import { ServicesProcessCard } from "./services-process-card";
+import { TeamMemberCard } from "./team-member-card";
 import { TradeFairCard } from "./trade-fair-card";
 import { TripFormatCard } from "./trip-format-card";
 
@@ -38,6 +39,17 @@ export function CardRender({ type: variant, item }: TCardRenderProps) {
 						icon,
 						title: item.title ?? "",
 						description: item.description ?? ""
+					}}
+				/>
+			);
+		case CardType.TeamMember:
+			return (
+				<TeamMemberCard
+					data={{
+						icon,
+						title: item.title ?? "",
+						description: item.description ?? "",
+						href: item.href ?? ""
 					}}
 				/>
 			);

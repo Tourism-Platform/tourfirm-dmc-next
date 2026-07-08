@@ -1,0 +1,46 @@
+segment: "company"
+pathGroup: "team"
+slug: "eldor-keldibekov"
+title:
+  en: "Eldor Keldibekov"
+  ru: "Эльдор Келдибеков"
+  uz: "Eldor Keldibekov"
+seo:
+  metaTitle:
+    en: "Eldor Keldibekov | TourLink"
+    ru: "Эльдор Келдибеков | TourLink"
+    uz: "Eldor Keldibekov | TourLink"
+  metaDescription:
+    en: "Eldor Keldibekov — Tour Sales & Operations Manager at TourLink, supporting the Spanish-language direction."
+    ru: "Эльдор Келдибеков — Tour Sales & Operations Manager в TourLink, поддерживает испаноязычное направление."
+    uz: "Eldor Keldibekov — TourLink tur sotuvi va operatsiyalar menejeri, ispan tilidagi yo'nalishni qo'llab-quvvatlaydi."
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/people.jpg"
+    imageAlt:
+      en: "Eldor Keldibekov"
+      ru: "Эльдор Келдибеков"
+      uz: "Eldor Keldibekov"
+    title:
+      en: "Eldor Keldibekov"
+      ru: "Эльдор Келдибеков"
+      uz: "Eldor Keldibekov"
+    description:
+      en: "Tour Sales & Operations Manager. Supports the Spanish-language direction and helps formulate route questions for Spanish-speaking travellers and partners."
+      ru: "Tour Sales & Operations Manager. Поддерживает испаноязычное направление и помогает формулировать маршрутные вопросы для путешественников и партнёров на испанском языке."
+      uz: "Tur sotuvi va operatsiyalar menejeri. Ispan tilidagi yo'nalishni qo'llab-quvvatlaydi va ispan tilida so'zlashuvchi sayohatchilar va hamkorlar uchun marshrut savollarini shakllantirishga yordam beradi."
+  - blockType: "regular"
+    eyebrow:
+      en: "Team"
+      ru: "Команда"
+      uz: "Jamoa"
+    title:
+      en: "About Eldor"
+      ru: "Об Эльдоре"
+      uz: "Eldor haqida"
+    description:
+      en: "Eldor Keldibekov supports TourLink's Spanish-language direction, helping Spanish-speaking travellers and partners formulate clear route questions from the first enquiry.\n\nHe works through sales and operations until practical details are visible and a programme can move toward confirmation."
+      ru: "Эльдор Келдибеков поддерживает испаноязычное направление TourLink, помогая путешественникам и партнёрам на испанском языке формулировать понятные маршрутные вопросы с первого запроса.\n\nОн ведёт продажи и операции до тех пор, пока практические детали не становятся видимыми и программа не может двигаться к подтверждению."
+      uz: "Eldor Keldibekov TourLinkning ispan tilidagi yo'nalishini qo'llab-quvvatlaydi, ispan tilida so'zlashuvchi sayohatchilar va hamkorlarga birinchi so'rovdan boshlab aniq marshrut savollarini shakllantirishga yordam beradi.\n\nU amaliy tafsilotlar ko'rinib, dastur tasdiqlashga yaqinlashguncha sotuv va operatsiyalar bilan shug'ullanadi."

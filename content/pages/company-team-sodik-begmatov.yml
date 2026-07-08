@@ -1,0 +1,46 @@
+segment: "company"
+pathGroup: "team"
+slug: "sodik-begmatov"
+title:
+  en: "Sodik Begmatov"
+  ru: "Содик Бегматов"
+  uz: "Sodik Begmatov"
+seo:
+  metaTitle:
+    en: "Sodik Begmatov | TourLink"
+    ru: "Содик Бегматов | TourLink"
+    uz: "Sodik Begmatov | TourLink"
+  metaDescription:
+    en: "Sodik Begmatov — Founder of TourLink and the public continuation of Orient Star Group's regional work."
+    ru: "Содик Бегматов — Founder TourLink и публичное продолжение региональной работы Orient Star Group."
+    uz: "Sodik Begmatov — TourLink asoschisi va Orient Star Groupning mintaqaviy ishining ochiq davomi."
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/people.jpg"
+    imageAlt:
+      en: "Sodik Begmatov"
+      ru: "Содик Бегматов"
+      uz: "Sodik Begmatov"
+    title:
+      en: "Sodik Begmatov"
+      ru: "Содик Бегматов"
+      uz: "Sodik Begmatov"
+    description:
+      en: "Founder. Founded TourLink as the public continuation of Orient Star Group's regional work — its people, routes, partner relationships and operational experience."
+      ru: "Founder. Основал TourLink как публичное продолжение региональной работы Orient Star Group: людей, маршрутов, партнёрских связей и операционного опыта."
+      uz: "Asoschisi. TourLinkni Orient Star Groupning mintaqaviy ishining — odamlar, marshrutlar, hamkorlik aloqalari va operatsion tajribaning — ochiq davomi sifatida asos solgan."
+  - blockType: "regular"
+    eyebrow:
+      en: "Team"
+      ru: "Команда"
+      uz: "Jamoa"
+    title:
+      en: "About Sodik"
+      ru: "О Содике"
+      uz: "Sodik haqida"
+    description:
+      en: "Sodik Begmatov founded TourLink to connect Central Asia with the world through routes built by people who know the region from inside — not through aggregators or algorithms.\n\nEvery route enquiry at TourLink carries the weight of years of regional work: partner relationships, operational clarity and a team that stands behind each programme."
+      ru: "Содик Бегматов основал TourLink, чтобы связать Центральную Азию с миром через маршруты, созданные теми, кто знает регион изнутри — без агрегаторов и алгоритмов.\n\nКаждый маршрутный запрос в TourLink опирается на годы региональной работы: партнёрские связи, операционную ясность и команду, которая стоит за каждой программой."
+      uz: "Sodik Begmatov TourLinkni Markaziy Osiyoni regionni ichidan biladigan odamlar yaratgan marshrutlar orqali dunyo bilan bog'lash uchun asos solgan — agregatorlar va algoritmlarsiz.\n\nTourLinkdagi har bir marshrut so'rovi mintaqada yillar davomida qilingan ishga tayanadi: hamkorlik aloqalari, operatsion aniqlik va har bir dastur ortida turadigan jamoa."

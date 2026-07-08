@@ -1,0 +1,46 @@
+segment: "company"
+pathGroup: "team"
+slug: "abdulaziz-mavlonov"
+title:
+  en: "Abdulaziz Mavlonov"
+  ru: "Абдулазиз Мавлонов"
+  uz: "Abdulaziz Mavlonov"
+seo:
+  metaTitle:
+    en: "Abdulaziz Mavlonov | TourLink"
+    ru: "Абдулазиз Мавлонов | TourLink"
+    uz: "Abdulaziz Mavlonov | TourLink"
+  metaDescription:
+    en: "Abdulaziz Mavlonov — BDD at TourLink, leading business development and partner conversations."
+    ru: "Абдулазиз Мавлонов — BDD в TourLink, ведёт развитие бизнеса и партнёрские переговоры."
+    uz: "Abdulaziz Mavlonov — TourLink BDD, biznes rivojlantirish va hamkorlik suhbatlarini olib boradi."
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/people.jpg"
+    imageAlt:
+      en: "Abdulaziz Mavlonov"
+      ru: "Абдулазиз Мавлонов"
+      uz: "Abdulaziz Mavlonov"
+    title:
+      en: "Abdulaziz Mavlonov"
+      ru: "Абдулазиз Мавлонов"
+      uz: "Abdulaziz Mavlonov"
+    description:
+      en: "BDD. Leads business development conversations and partner context as TourLink's public DMC direction grows."
+      ru: "BDD. Ведёт разговоры по развитию бизнеса и партнёрскому контексту по мере роста публичного DMC-направления TourLink."
+      uz: "BDD. TourLinkning ochiq DMC yo'nalishi o'sishi bilan biznes rivojlantirish va hamkorlik konteksti bo'yicha suhbatlarni olib boradi."
+  - blockType: "regular"
+    eyebrow:
+      en: "Team"
+      ru: "Команда"
+      uz: "Jamoa"
+    title:
+      en: "About Abdulaziz"
+      ru: "Об Абдулазизе"
+      uz: "Abdulaziz haqida"
+    description:
+      en: "Abdulaziz Mavlonov leads business development at TourLink, shaping partner conversations and the context in which routes are built and confirmed.\n\nAs TourLink's public DMC direction grows, he helps agencies, operators and suppliers find a clear entry point into the regional ecosystem."
+      ru: "Абдулазиз Мавлонов ведёт направление развития бизнеса в TourLink, формируя партнёрские разговоры и контекст, в котором маршруты создаются и подтверждаются.\n\nПо мере роста публичного DMC-направления TourLink он помогает агентствам, операторам и поставщикам найти понятную точку входа в региональную экосистему."
+      uz: "Abdulaziz Mavlonov TourLinkda biznes rivojlantirish yo'nalishini boshqaradi, hamkorlik suhbatlari va marshrutlar quriladigan hamda tasdiqlanadigan kontekstni shakllantiradi.\n\nTourLinkning ochiq DMC yo'nalishi o'sishi bilan u agentliklar, operatorlar va yetkazib beruvchilarga mintaqaviy ekotizimga aniq kirish nuqtasini topishga yordam beradi."

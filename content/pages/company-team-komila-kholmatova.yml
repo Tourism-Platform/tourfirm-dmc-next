@@ -1,0 +1,46 @@
+segment: "company"
+pathGroup: "team"
+slug: "komila-kholmatova"
+title:
+  en: "Komila Kholmatova"
+  ru: "Комила Холматова"
+  uz: "Komila Xolmatova"
+seo:
+  metaTitle:
+    en: "Komila Kholmatova | TourLink"
+    ru: "Комила Холматова | TourLink"
+    uz: "Komila Xolmatova | TourLink"
+  metaDescription:
+    en: "Komila Kholmatova — Tour Sales & Operations Manager at TourLink, supporting English-language route enquiries."
+    ru: "Комила Холматова — Tour Sales & Operations Manager в TourLink, поддерживает англоязычные маршрутные запросы."
+    uz: "Komila Xolmatova — TourLink tur sotuvi va operatsiyalar menejeri, ingliz tilidagi marshrut so'rovlarini qo'llab-quvvatlaydi."
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/people.jpg"
+    imageAlt:
+      en: "Komila Kholmatova"
+      ru: "Комила Холматова"
+      uz: "Komila Xolmatova"
+    title:
+      en: "Komila Kholmatova"
+      ru: "Комила Холматова"
+      uz: "Komila Xolmatova"
+    description:
+      en: "Tour Sales & Operations Manager. Works with English-language route enquiries and helps keep practical details visible while a proposal is prepared."
+      ru: "Tour Sales & Operations Manager. Работает с англоязычными маршрутными запросами и помогает удерживать практические детали на виду во время подготовки предложения."
+      uz: "Tur sotuvi va operatsiyalar menejeri. Ingliz tilidagi marshrut so'rovlari bilan ishlaydi va taklif tayyorlanayotganda amaliy tafsilotlarni ko'z oldida tutishga yordam beradi."
+  - blockType: "regular"
+    eyebrow:
+      en: "Team"
+      ru: "Команда"
+      uz: "Jamoa"
+    title:
+      en: "About Komila"
+      ru: "О Комиле"
+      uz: "Komila haqida"
+    description:
+      en: "Komila Kholmatova works with English-language route enquiries at TourLink, keeping practical trip details visible while each proposal takes shape.\n\nShe helps travellers and partners move from an initial question to a clear, confirmable programme."
+      ru: "Комила Холматова работает с англоязычными маршрутными запросами в TourLink, удерживая практические детали поездки на виду, пока формируется каждое предложение.\n\nОна помогает путешественникам и партнёрам перейти от первого вопроса к понятной, подтверждаемой программе."
+      uz: "Komila Xolmatova TourLinkda ingliz tilidagi marshrut so'rovlari bilan ishlaydi, har bir taklif shakllanayotganda sayohatning amaliy tafsilotlarini ko'z oldida tutadi.\n\nU sayohatchilar va hamkorlarga dastlabki savoldan aniq, tasdiqlanadigan dasturga o'tishga yordam beradi."

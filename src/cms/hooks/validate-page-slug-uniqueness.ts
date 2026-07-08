@@ -15,6 +15,10 @@ export const validatePageSlugUniqueness: CollectionBeforeValidateHook = async ({
 	const segmentId = getRelationId(
 		data.segment as Parameters<typeof getRelationId>[0]
 	);
+	const pathGroup =
+		typeof data.pathGroup === "string" && data.pathGroup.trim()
+			? data.pathGroup.trim()
+			: null;
 	const currentId = originalDoc?.id;
 
 	const and: Where[] = [
@@ -31,6 +35,20 @@ export const validatePageSlugUniqueness: CollectionBeforeValidateHook = async ({
 				equals: segmentId
 			}
 		});
+
+		if (pathGroup) {
+			and.push({
+				pathGroup: {
+					equals: pathGroup
+				}
+			});
+		} else {
+			and.push({
+				pathGroup: {
+					exists: false
+				}
+			});
+		}
 	} else {
 		and.push({
 			segment: {

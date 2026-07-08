@@ -1,0 +1,46 @@
+segment: "company"
+pathGroup: "team"
+slug: "nozima-begmatova"
+title:
+  en: "Nozima Begmatova"
+  ru: "Нозима Бегматова"
+  uz: "Nozima Begmatova"
+seo:
+  metaTitle:
+    en: "Nozima Begmatova | TourLink"
+    ru: "Нозима Бегматова | TourLink"
+    uz: "Nozima Begmatova | TourLink"
+  metaDescription:
+    en: "Nozima Begmatova — Tour Sales & Operations Manager at TourLink, supporting English-language enquiries."
+    ru: "Нозима Бегматова — Tour Sales & Operations Manager в TourLink, поддерживает англоязычные запросы."
+    uz: "Nozima Begmatova — TourLink tur sotuvi va operatsiyalar menejeri, ingliz tilidagi so'rovlarni qo'llab-quvvatlaydi."
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/people.jpg"
+    imageAlt:
+      en: "Nozima Begmatova"
+      ru: "Нозима Бегматова"
+      uz: "Nozima Begmatova"
+    title:
+      en: "Nozima Begmatova"
+      ru: "Нозима Бегматова"
+      uz: "Nozima Begmatova"
+    description:
+      en: "Tour Sales & Operations Manager. Supports English-language enquiries, route clarification and practical coordination until a programme is confirmed."
+      ru: "Tour Sales & Operations Manager. Поддерживает англоязычные запросы, уточнение маршрута и практическую координацию до перехода программы к подтверждению."
+      uz: "Tur sotuvi va operatsiyalar menejeri. Ingliz tilidagi so'rovlar, marshrutni aniqlashtirish va dastur tasdiqlanmaguncha amaliy muvofiqlashtirishni qo'llab-quvvatlaydi."
+  - blockType: "regular"
+    eyebrow:
+      en: "Team"
+      ru: "Команда"
+      uz: "Jamoa"
+    title:
+      en: "About Nozima"
+      ru: "О Нозиме"
+      uz: "Nozima haqida"
+    description:
+      en: "Nozima Begmatova supports English-language route enquiries at TourLink, helping clarify the shape of each trip and coordinating practical details until a programme is confirmed.\n\nShe keeps communication direct so travellers and partners always know the next step."
+      ru: "Нозима Бегматова поддерживает англоязычные маршрутные запросы в TourLink, помогая уточнить форму каждой поездки и координировать практические детали до подтверждения программы.\n\nОна держит коммуникацию прямой, чтобы путешественники и партнёры всегда знали следующий шаг."
+      uz: "Nozima Begmatova TourLinkda ingliz tilidagi marshrut so'rovlarini qo'llab-quvvatlaydi, har bir sayohat shaklini aniqlashtirishga va dastur tasdiqlanmaguncha amaliy tafsilotlarni muvofiqlashtirishga yordam beradi.\n\nU muloqotni to'g'ridan-to'g'ri saqlaydi, shunda sayohatchilar va hamkorlar har doim keyingi qadamni biladi."

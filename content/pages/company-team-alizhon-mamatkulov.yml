@@ -1,0 +1,46 @@
+segment: "company"
+pathGroup: "team"
+slug: "alizhon-mamatkulov"
+title:
+  en: "Alizhon Mamatkulov"
+  ru: "Алижон Маматкулов"
+  uz: "Alizhon Mamatkulov"
+seo:
+  metaTitle:
+    en: "Alizhon Mamatkulov | TourLink"
+    ru: "Алижон Маматкулов | TourLink"
+    uz: "Alizhon Mamatkulov | TourLink"
+  metaDescription:
+    en: "Alizhon Mamatkulov — Tour Sales & Operations Manager at TourLink, supporting the Japanese market."
+    ru: "Алижон Маматкулов — Tour Sales & Operations Manager в TourLink, поддерживает японский рынок."
+    uz: "Alizhon Mamatkulov — TourLink tur sotuvi va operatsiyalar menejeri, yapon bozorini qo'llab-quvvatlaydi."
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/people.jpg"
+    imageAlt:
+      en: "Alizhon Mamatkulov"
+      ru: "Алижон Маматкулов"
+      uz: "Alizhon Mamatkulov"
+    title:
+      en: "Alizhon Mamatkulov"
+      ru: "Алижон Маматкулов"
+      uz: "Alizhon Mamatkulov"
+    description:
+      en: "Tour Sales & Operations Manager. Supports the Japanese market and helps make route details clear for Japanese travellers and partners."
+      ru: "Tour Sales & Operations Manager. Поддерживает запросы японского рынка и помогает делать детали маршрута понятными для японских путешественников и партнёров."
+      uz: "Tur sotuvi va operatsiyalar menejeri. Yapon bozori so'rovlarini qo'llab-quvvatlaydi va marshrut tafsilotlarini yapon sayohatchilari va hamkorlari uchun tushunarli qilishga yordam beradi."
+  - blockType: "regular"
+    eyebrow:
+      en: "Team"
+      ru: "Команда"
+      uz: "Jamoa"
+    title:
+      en: "About Alizhon"
+      ru: "Об Алижоне"
+      uz: "Alizhon haqida"
+    description:
+      en: "Alizhon Mamatkulov supports TourLink's Japanese market, helping Japanese travellers and partners understand route details with clarity and precision.\n\nFrom the first enquiry through coordination, he keeps communication practical and route questions well-formed."
+      ru: "Алижон Маматкулов поддерживает японский рынок TourLink, помогая японским путешественникам и партнёрам понятно и точно разбираться в деталях маршрута.\n\nОт первого запроса до координации он держит коммуникацию практичной, а маршрутные вопросы — чётко сформулированными."
+      uz: "Alizhon Mamatkulov TourLinkning yapon bozorini qo'llab-quvvatlaydi, yapon sayohatchilari va hamkorlariga marshrut tafsilotlarini aniq va tushunarli qilib beradi.\n\nBirinchi so'rovdan muvofiqlashtirishgacha u muloqotni amaliy, marshrut savollarini esa yaxshi shakllangan holda saqlaydi."

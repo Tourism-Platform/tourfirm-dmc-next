@@ -300,6 +300,7 @@ export interface Country {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -428,6 +429,7 @@ export interface Country {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -858,6 +860,7 @@ export interface Route {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -986,6 +989,7 @@ export interface Route {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -1367,6 +1371,7 @@ export interface City {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -1495,6 +1500,7 @@ export interface City {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -1887,6 +1893,7 @@ export interface Region {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -2015,6 +2022,7 @@ export interface Region {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -2409,6 +2417,7 @@ export interface Experience {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -2537,6 +2546,7 @@ export interface Experience {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -2885,6 +2895,7 @@ export interface Theme {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -3013,6 +3024,7 @@ export interface Theme {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -3395,6 +3407,7 @@ export interface TradeFair {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -3523,6 +3536,7 @@ export interface TradeFair {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -3899,6 +3913,7 @@ export interface JournalEntry {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -4027,6 +4042,7 @@ export interface JournalEntry {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -4424,6 +4440,7 @@ export interface Attraction {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -4552,6 +4569,7 @@ export interface Attraction {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -4866,6 +4884,10 @@ export interface MapPoint {
 export interface Page {
 	id: number;
 	segment?: (number | null) | Segment;
+	/**
+	 * Optional URL namespace: /{segment}/{pathGroup}/{slug}. Empty = standard /{segment}/{slug}.
+	 */
+	pathGroup?: "team" | null;
 	slug: string;
 	title: string;
 	seo?: {
@@ -4945,6 +4967,7 @@ export interface Page {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -5073,6 +5096,7 @@ export interface Page {
 							type:
 								| "country"
 								| "destinationInsight"
+								| "teamMember"
 								| "routeIdea"
 								| "experience"
 								| "tradeFair"
@@ -6840,6 +6864,7 @@ export interface ExperiencesSelect<T extends boolean = true> {
  */
 export interface PagesSelect<T extends boolean = true> {
 	segment?: T;
+	pathGroup?: T;
 	slug?: T;
 	title?: T;
 	seo?:
@@ -7873,6 +7898,7 @@ export interface Homepage {
 									type:
 										| "country"
 										| "destinationInsight"
+										| "teamMember"
 										| "routeIdea"
 										| "experience"
 										| "tradeFair"
@@ -8001,6 +8027,7 @@ export interface Homepage {
 									type:
 										| "country"
 										| "destinationInsight"
+										| "teamMember"
 										| "routeIdea"
 										| "experience"
 										| "tradeFair"
@@ -8337,6 +8364,7 @@ export interface Destination {
 									type:
 										| "country"
 										| "destinationInsight"
+										| "teamMember"
 										| "routeIdea"
 										| "experience"
 										| "tradeFair"
@@ -8465,6 +8493,7 @@ export interface Destination {
 									type:
 										| "country"
 										| "destinationInsight"
+										| "teamMember"
 										| "routeIdea"
 										| "experience"
 										| "tradeFair"

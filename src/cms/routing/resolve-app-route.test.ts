@@ -6,6 +6,7 @@ const mockGetDestination = vi.fn();
 const mockResolveGeoRoute = vi.fn();
 const mockResolveCmsRoute = vi.fn();
 const mockResolveSegmentPageRoute = vi.fn();
+const mockResolveGroupedSegmentPageRoute = vi.fn();
 
 vi.mock("@/cms/api/get-destination", () => ({
 	getDestination: (...args: unknown[]) => mockGetDestination(...args)
@@ -23,6 +24,11 @@ vi.mock("@/cms/routing/resolve-cms-route", () => ({
 vi.mock("@/cms/routing/resolve-segment-page-route", () => ({
 	resolveSegmentPageRoute: (...args: unknown[]) =>
 		mockResolveSegmentPageRoute(...args)
+}));
+
+vi.mock("@/cms/routing/resolve-grouped-segment-page-route", () => ({
+	resolveGroupedSegmentPageRoute: (...args: unknown[]) =>
+		mockResolveGroupedSegmentPageRoute(...args)
 }));
 
 const { resolveAppRoute } = await import("./resolve-app-route");
@@ -100,5 +106,44 @@ describe("resolveAppRoute", () => {
 		await resolveAppRoute("en", ["legal", "privacy"]);
 
 		expect(mockResolveCmsRoute).not.toHaveBeenCalled();
+	});
+
+	it("resolves grouped segment page at three segments", async () => {
+		mockResolveGroupedSegmentPageRoute.mockResolvedValue({
+			kind: "segment-page",
+			document: { ...page, slug: "sodik-begmatov", pathGroup: "team" },
+			segment: { id: 3, slug: "company", title: "Company" }
+		});
+
+		const route = await resolveAppRoute("en", [
+			"company",
+			"team",
+			"sodik-begmatov"
+		]);
+
+		expect(route?.source).toBe("cms");
+		expect(route).toMatchObject({
+			kind: "segment-page",
+			segment: { slug: "company" }
+		});
+		expect(mockResolveGroupedSegmentPageRoute).toHaveBeenCalledWith(
+			"en",
+			"company",
+			"team",
+			"sodik-begmatov"
+		);
+	});
+
+	it("returns null when grouped segment page is not found", async () => {
+		mockResolveGroupedSegmentPageRoute.mockResolvedValue(null);
+
+		const route = await resolveAppRoute("en", [
+			"company",
+			"team",
+			"missing"
+		]);
+
+		expect(route).toBeNull();
+		expect(mockResolveSegmentPageRoute).not.toHaveBeenCalled();
 	});
 });

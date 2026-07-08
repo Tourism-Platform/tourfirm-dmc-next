@@ -1,0 +1,46 @@
+segment: "company"
+pathGroup: "team"
+slug: "madina-irgasheva"
+title:
+  en: "Madina Irgasheva"
+  ru: "Мадина Иргашева"
+  uz: "Madina Irgasheva"
+seo:
+  metaTitle:
+    en: "Madina Irgasheva | TourLink"
+    ru: "Мадина Иргашева | TourLink"
+    uz: "Madina Irgasheva | TourLink"
+  metaDescription:
+    en: "Madina Irgasheva — Tour Sales & Operations Manager at TourLink, supporting French-language communication."
+    ru: "Мадина Иргашева — Tour Sales & Operations Manager в TourLink, поддерживает коммуникацию на французском языке."
+    uz: "Madina Irgasheva — TourLink tur sotuvi va operatsiyalar menejeri, fransuz tilidagi muloqotni qo'llab-quvvatlaydi."
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/people.jpg"
+    imageAlt:
+      en: "Madina Irgasheva"
+      ru: "Мадина Иргашева"
+      uz: "Madina Irgasheva"
+    title:
+      en: "Madina Irgasheva"
+      ru: "Мадина Иргашева"
+      uz: "Madina Irgasheva"
+    description:
+      en: "Tour Sales & Operations Manager. Supports French-language communication and helps formulate route questions for French-speaking travellers and partners."
+      ru: "Tour Sales & Operations Manager. Поддерживает коммуникацию на французском языке и помогает формулировать маршрутные вопросы для франкоязычных путешественников и партнёров."
+      uz: "Tur sotuvi va operatsiyalar menejeri. Fransuz tilidagi muloqotni qo'llab-quvvatlaydi va fransuz tilida so'zlashuvchi sayohatchilar va hamkorlar uchun marshrut savollarini shakllantirishga yordam beradi."
+  - blockType: "regular"
+    eyebrow:
+      en: "Team"
+      ru: "Команда"
+      uz: "Jamoa"
+    title:
+      en: "About Madina"
+      ru: "О Мадине"
+      uz: "Madina haqida"
+    description:
+      en: "Madina Irgasheva supports French-language communication at TourLink, helping French-speaking travellers and partners formulate route questions from the first enquiry.\n\nShe works through sales and operations to keep each trip practical, clear and ready for confirmation."
+      ru: "Мадина Иргашева поддерживает коммуникацию на французском языке в TourLink, помогая франкоязычным путешественникам и партнёрам формулировать маршрутные вопросы с первого запроса.\n\nОна ведёт продажи и операции, чтобы каждая поездка оставалась практичной, понятной и готовой к подтверждению."
+      uz: "Madina Irgasheva TourLinkda fransuz tilidagi muloqotni qo'llab-quvvatlaydi, fransuz tilida so'zlashuvchi sayohatchilar va hamkorlarga birinchi so'rovdan boshlab marshrut savollarini shakllantirishga yordam beradi.\n\nU har bir sayohat amaliy, tushunarli va tasdiqlashga tayyor bo'lishi uchun sotuv va operatsiyalar bilan shug'ullanadi."

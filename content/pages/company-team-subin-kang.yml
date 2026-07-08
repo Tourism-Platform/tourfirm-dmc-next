@@ -1,0 +1,46 @@
+segment: "company"
+pathGroup: "team"
+slug: "subin-kang"
+title:
+  en: "Subin Kang"
+  ru: "Субин Канг"
+  uz: "Subin Kang"
+seo:
+  metaTitle:
+    en: "Subin Kang | TourLink"
+    ru: "Субин Канг | TourLink"
+    uz: "Subin Kang | TourLink"
+  metaDescription:
+    en: "Subin Kang — Tour Sales & Operations Manager at TourLink, supporting English and Korean directions."
+    ru: "Субин Канг — Tour Sales & Operations Manager в TourLink, поддерживает англоязычные и корейские направления."
+    uz: "Subin Kang — TourLink tur sotuvi va operatsiyalar menejeri, ingliz va koreys yo'nalishlarini qo'llab-quvvatlaydi."
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/people.jpg"
+    imageAlt:
+      en: "Subin Kang"
+      ru: "Субин Канг"
+      uz: "Subin Kang"
+    title:
+      en: "Subin Kang"
+      ru: "Субин Канг"
+      uz: "Subin Kang"
+    description:
+      en: "Tour Sales & Operations Manager. Supports English and Korean directions as TourLink's regional DMC work develops."
+      ru: "Tour Sales & Operations Manager. Поддерживает англоязычные и корейские направления по мере развития региональной DMC-работы TourLink."
+      uz: "Tur sotuvi va operatsiyalar menejeri. TourLinkning mintaqaviy DMC ishi rivojlanishi bilan ingliz va koreys yo'nalishlarini qo'llab-quvvatlaydi."
+  - blockType: "regular"
+    eyebrow:
+      en: "Team"
+      ru: "Команда"
+      uz: "Jamoa"
+    title:
+      en: "About Subin"
+      ru: "О Субине"
+      uz: "Subin haqida"
+    description:
+      en: "Subin Kang supports English and Korean directions at TourLink as the platform's regional DMC work develops.\n\nHe helps travellers and partners from both markets formulate route questions clearly and move toward confirmed programmes."
+      ru: "Субин Канг поддерживает англоязычные и корейские направления в TourLink по мере развития региональной DMC-работы платформы.\n\nОн помогает путешественникам и партнёрам из обоих рынков чётко формулировать маршрутные вопросы и двигаться к подтверждённым программам."
+      uz: "Subin Kang platformaning mintaqaviy DMC ishi rivojlanishi bilan TourLinkda ingliz va koreys yo'nalishlarini qo'llab-quvvatlaydi.\n\nU ikkala bozordagi sayohatchilar va hamkorlarga marshrut savollarini aniq shakllantirish va tasdiqlangan dasturlarga yaqinlashishga yordam beradi."

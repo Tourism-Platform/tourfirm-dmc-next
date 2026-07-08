@@ -1,0 +1,46 @@
+segment: "company"
+pathGroup: "team"
+slug: "odina-karahodzhayeva"
+title:
+  en: "Odina Karahodzhayeva"
+  ru: "Одина Караходжаева"
+  uz: "Odina Karahodjayeva"
+seo:
+  metaTitle:
+    en: "Odina Karahodzhayeva | TourLink"
+    ru: "Одина Караходжаева | TourLink"
+    uz: "Odina Karahodjayeva | TourLink"
+  metaDescription:
+    en: "Odina Karahodzhayeva — CFO at TourLink, ensuring financial and administrative clarity."
+    ru: "Одина Караходжаева — CFO TourLink, обеспечивает финансовую и административную ясность."
+    uz: "Odina Karahodjayeva — TourLink moliya direktori, moliyaviy va ma'muriy aniqlikni ta'minlaydi."
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/people.jpg"
+    imageAlt:
+      en: "Odina Karahodzhayeva"
+      ru: "Одина Караходжаева"
+      uz: "Odina Karahodjayeva"
+    title:
+      en: "Odina Karahodzhayeva"
+      ru: "Одина Караходжаева"
+      uz: "Odina Karahodjayeva"
+    description:
+      en: "CFO. Ensures financial and administrative clarity at TourLink when route enquiries move to confirmed programmes."
+      ru: "CFO. Отвечает за финансовую и административную ясность TourLink, когда маршрутные запросы переходят к подтверждённым программам."
+      uz: "Moliya direktori. Marshrut so'rovlari tasdiqlangan dasturlarga o'tganda TourLinkda moliyaviy va ma'muriy aniqlik uchun javobgar."
+  - blockType: "regular"
+    eyebrow:
+      en: "Team"
+      ru: "Команда"
+      uz: "Jamoa"
+    title:
+      en: "About Odina"
+      ru: "Об Одине"
+      uz: "Odina haqida"
+    description:
+      en: "Odina Karahodzhayeva ensures financial and administrative clarity at TourLink as route enquiries become confirmed programmes.\n\nShe keeps the practical side of each trip visible — from confirmation to coordination — so partners and travellers know what to expect at every step."
+      ru: "Одина Караходжаева обеспечивает финансовую и административную ясность TourLink, когда маршрутные запросы становятся подтверждёнными программами.\n\nОна держит практическую сторону каждой поездки на виду — от подтверждения до координации — чтобы партнёры и путешественники понимали, чего ожидать на каждом шаге."
+      uz: "Odina Karahodjayeva marshrut so'rovlari tasdiqlangan dasturlarga aylanganda TourLinkda moliyaviy va ma'muriy aniqlikni ta'minlaydi.\n\nU har bir sayohatning amaliy tomonini — tasdiqlashdan muvofiqlashtirishgacha — ko'z oldida tutadi, shunda hamkorlar va sayohatchilar har bir bosqichda nima kutishini biladi."

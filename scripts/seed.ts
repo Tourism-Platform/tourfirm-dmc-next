@@ -17,6 +17,7 @@ import {
 	assertNoDeprecatedNavigationOrder,
 	assertNoDeprecatedNavigationOrderInItems
 } from "@/cms/lib/navigation-order-guard";
+import { isPagePathGroup } from "@/shared/config/routes/page-path-groups";
 
 import {
 	normalizeRichTextDescriptions,
@@ -1544,6 +1545,16 @@ async function seedPages(
 			path.join(pagesDir, file)
 		);
 
+		if (
+			item.pathGroup != null &&
+			item.pathGroup !== "" &&
+			!isPagePathGroup(item.pathGroup)
+		) {
+			throw new Error(
+				`Invalid pathGroup "${String(item.pathGroup)}" in ${file}`
+			);
+		}
+
 		const result = await seedLocalizedDoc(payload, "pages", item, {
 			published: true,
 			beforeCreate: async (data, locale) =>
@@ -1552,10 +1563,15 @@ async function seedPages(
 
 		const segmentSlug =
 			typeof item.segment === "string" ? item.segment : undefined;
+		const pathGroup =
+			typeof item.pathGroup === "string" ? item.pathGroup : undefined;
 		const pageSlug = resolveSeedSlug(item);
 
 		if (segmentSlug && pageSlug) {
-			pageIds.set(`${segmentSlug}/${pageSlug}`, result.id as number);
+			const key = pathGroup
+				? `${segmentSlug}/${pathGroup}/${pageSlug}`
+				: `${segmentSlug}/${pageSlug}`;
+			pageIds.set(key, result.id as number);
 		}
 
 		console.log(`  + page ${file.replace(/\.yml$/, "")}`);

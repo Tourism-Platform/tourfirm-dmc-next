@@ -9,6 +9,7 @@ import { getDestination } from "../api/get-destination";
 import type { TGeoRoute } from "./geo-route.types";
 import { type TCmsRoute, resolveCmsRoute } from "./resolve-cms-route";
 import { MAX_GEO_SEGMENTS, resolveGeoRoute } from "./resolve-geo-route";
+import { resolveGroupedSegmentPageRoute } from "./resolve-grouped-segment-page-route";
 import { resolveSegmentPageRoute } from "./resolve-segment-page-route";
 
 export type TAppRoute =
@@ -66,6 +67,21 @@ export async function resolveAppRoute(
 
 		if (segmentPageRoute) {
 			return { source: "cms", ...segmentPageRoute };
+		}
+
+		return null;
+	}
+
+	if (segments.length === 3) {
+		const groupedSegmentPageRoute = await resolveGroupedSegmentPageRoute(
+			locale,
+			segments[0]!,
+			segments[1]!,
+			segments[2]!
+		);
+
+		if (groupedSegmentPageRoute) {
+			return { source: "cms", ...groupedSegmentPageRoute };
 		}
 
 		return null;
