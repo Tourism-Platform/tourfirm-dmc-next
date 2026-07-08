@@ -41,6 +41,12 @@ export const Segments: CollectionConfig = {
 			type: "textarea",
 			localized: true
 		},
+		{
+			name: "pages",
+			type: "join",
+			collection: "pages",
+			on: "segment"
+		},
 		statusField
 	]
 };

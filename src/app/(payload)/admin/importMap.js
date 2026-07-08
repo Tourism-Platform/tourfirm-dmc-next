@@ -23,6 +23,9 @@ import { RscEntryLexicalCell as RscEntryLexicalCell_44fe37237e0ebf4470c9990d8cb7
 import { RscEntryLexicalField as RscEntryLexicalField_44fe37237e0ebf4470c9990d8cb7b07e } from "@payloadcms/richtext-lexical/rsc";
 import { LexicalDiffComponent as LexicalDiffComponent_44fe37237e0ebf4470c9990d8cb7b07e } from "@payloadcms/richtext-lexical/rsc";
 
+import { TeamPagesListView as TeamPagesListView_d52035fd3ab5be21489cf1a807288a51 } from "@/cms/admin/domain-pages-list-view";
+import { LegalPagesListView as LegalPagesListView_d52035fd3ab5be21489cf1a807288a51 } from "@/cms/admin/domain-pages-list-view";
+import { DomainPagesNavLinks as DomainPagesNavLinks_4328ea017c74898a0bebead348eb5d51 } from "@/cms/admin/domain-pages-nav-links";
 import { FooterColumnRowLabel as FooterColumnRowLabel_ff40b815c4b7cb10ab19c8d0e4001716 } from "@/cms/admin/footer-column-row-label";
 import { NavigationItemRowLabel as NavigationItemRowLabel_777b2d54df12f823b0c9dca68a0f9179 } from "@/cms/admin/navigation-item-row-label";
 
@@ -74,10 +77,16 @@ export const importMap = {
 		BoldFeatureClient_e70f5e05f09f93e00b997edb1ef0c864,
 	"@payloadcms/richtext-lexical/client#ItalicFeatureClient":
 		ItalicFeatureClient_e70f5e05f09f93e00b997edb1ef0c864,
+	"@/cms/admin/domain-pages-list-view#TeamPagesListView":
+		TeamPagesListView_d52035fd3ab5be21489cf1a807288a51,
+	"@/cms/admin/domain-pages-list-view#LegalPagesListView":
+		LegalPagesListView_d52035fd3ab5be21489cf1a807288a51,
 	"@/cms/admin/navigation-item-row-label#NavigationItemRowLabel":
 		NavigationItemRowLabel_777b2d54df12f823b0c9dca68a0f9179,
 	"@/cms/admin/footer-column-row-label#FooterColumnRowLabel":
 		FooterColumnRowLabel_ff40b815c4b7cb10ab19c8d0e4001716,
+	"@/cms/admin/domain-pages-nav-links#DomainPagesNavLinks":
+		DomainPagesNavLinks_4328ea017c74898a0bebead348eb5d51,
 	"@payloadcms/next/rsc#CollectionCards":
 		CollectionCards_f9c02e79a4aed9a3924487c0cd4cafb1
 };

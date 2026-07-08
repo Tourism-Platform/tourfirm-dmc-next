@@ -44,6 +44,9 @@ export default buildConfig({
 		outputFile: path.resolve(dirname, "src/payload-types.ts")
 	},
 	admin: {
-		user: "users"
+		user: "users",
+		components: {
+			afterNavLinks: ["@/cms/admin/domain-pages-nav-links#DomainPagesNavLinks"]
+		}
 	}
 });

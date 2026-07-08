@@ -112,6 +112,9 @@ export interface Config {
 		experiences: {
 			relatedRoutes: "routes";
 		};
+		segments: {
+			pages: "pages";
+		};
 		themes: {
 			routes: "routes";
 			experiences: "experiences";
@@ -5362,6 +5365,11 @@ export interface Segment {
 	title: string;
 	slug: string;
 	description?: string | null;
+	pages?: {
+		docs?: (number | Page)[];
+		hasNextPage?: boolean;
+		totalDocs?: number;
+	};
 	status?: {
 		noindex?: boolean | null;
 		showInSitemap?: boolean | null;
@@ -7073,6 +7081,7 @@ export interface SegmentsSelect<T extends boolean = true> {
 	title?: T;
 	slug?: T;
 	description?: T;
+	pages?: T;
 	status?:
 		| T
 		| {

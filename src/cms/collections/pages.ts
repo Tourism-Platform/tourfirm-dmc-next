@@ -10,10 +10,29 @@ import { validatePageSlug } from "../hooks/validate-page-slug";
 import { validatePageSlugUniqueness } from "../hooks/validate-page-slug-uniqueness";
 import { hasSegmentRelation } from "../lib/slug-utils";
 
+import { PAGE_DOMAIN_ADMIN } from "@/cms/admin/page-domain-admin.config";
+
+const pageDomainListViews = {
+	TeamPages: {
+		path: PAGE_DOMAIN_ADMIN.team.viewPath,
+		exact: true,
+		Component: "@/cms/admin/domain-pages-list-view#TeamPagesListView"
+	},
+	LegalPages: {
+		path: PAGE_DOMAIN_ADMIN.legal.viewPath,
+		exact: true,
+		Component: "@/cms/admin/domain-pages-list-view#LegalPagesListView"
+	}
+} as const;
+
 export const Pages: CollectionConfig = {
 	slug: "pages",
 	admin: {
-		useAsTitle: "title"
+		useAsTitle: "title",
+		defaultColumns: ["title", "slug", "segment", "pathGroup"],
+		components: {
+			views: pageDomainListViews
+		}
 	},
 	access: {
 		read: authenticatedOrPublished
