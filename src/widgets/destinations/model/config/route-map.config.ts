@@ -10,7 +10,7 @@ export const ROUTE_MAP_ZOOM = 6;
 
 export const ROUTE_MAP_MIN_ZOOM = 4;
 
-export const ROUTE_MAP_MAX_ZOOM = 8;
+export const ROUTE_MAP_MAX_ZOOM = 16;
 
 export const ROUTE_MAP_BOUNDS: LatLngTuple[] = [
 	[36.5, 53.5],

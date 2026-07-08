@@ -239,7 +239,7 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 						: [41.2, 68.5],
 				zoom: block.zoom ?? 6,
 				minZoom: 4,
-				maxZoom: 8,
+				maxZoom: 18,
 				tileUrl: ROUTE_MAP_TILE_URL,
 				tileAttribution: ROUTE_MAP_TILE_ATTRIBUTION,
 				stops
