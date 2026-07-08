@@ -1,9 +1,7 @@
 import Image from "next/image";
 
-import { Link } from "@/shared/i18n";
-
+import { ButtonLink } from "../../buttons/ui";
 import { Badge } from "../../shadcn-ui/badge";
-import { Button } from "../../shadcn-ui/button";
 import { Card, CardContent } from "../../shadcn-ui/card";
 import type { TRouteIdeaCardProps } from "../types/route-idea-card.types";
 
@@ -32,9 +30,12 @@ export function RouteIdeaCard({ data }: TRouteIdeaCardProps) {
 				<p className="text-muted-foreground flex-1 text-sm">
 					{data.description}
 				</p>
-				<Button asChild variant="outline" className="w-fit">
-					<Link href={data.ctaHref}>{data.ctaLabel}</Link>
-				</Button>
+				<ButtonLink
+					href={data.ctaHref}
+					title={data.ctaLabel}
+					variant="outline"
+					className="w-fit"
+				/>
 			</CardContent>
 		</Card>
 	);

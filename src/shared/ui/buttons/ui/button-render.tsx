@@ -3,14 +3,14 @@ import {
 	type TButtonRenderProps
 } from "../types/button-render.types";
 
-import { LinkButton } from "./link-button";
-import { MailtoButton } from "./mailto-button";
+import { ButtonLink } from "./button-link";
+import { ButtonMailto } from "./button-mailto";
 
 export function ButtonRender({ type: variant, item }: TButtonRenderProps) {
 	switch (variant) {
 		case ActionType.mailto:
 			return (
-				<MailtoButton
+				<ButtonMailto
 					email={item.email ?? ""}
 					title={item.title}
 					variant={item.variant}
@@ -18,7 +18,7 @@ export function ButtonRender({ type: variant, item }: TButtonRenderProps) {
 			);
 		case ActionType.link:
 			return (
-				<LinkButton
+				<ButtonLink
 					href={item.href ?? ""}
 					title={item.title}
 					variant={item.variant}
