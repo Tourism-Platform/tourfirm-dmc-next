@@ -2,8 +2,10 @@
 
 import { MenuIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import type { FC } from "react";
 
+import { ENUM_PATH } from "@/shared/config";
 import { Link } from "@/shared/i18n";
 import { isExternalHref } from "@/shared/lib/url/is-external-href";
 import type { TDestinationsNavTree } from "@/shared/types/destinations-nav.types";
@@ -26,18 +28,24 @@ import { DiscoveryViewAllFooter } from "./discovery-view-all-footer";
 import { FlatDiscoveryNavColumns } from "./flat-discovery-nav-columns";
 import { PublicNavMenuItem } from "./public-nav-menu-item";
 
+const DEFAULT_LOGO_SRC = "/assets/images/logo.svg";
+
 type TProps = {
 	items: TResolvedNavLink[];
 	destinationsNav: TDestinationsNavTree | null;
 	routesNav: TDiscoveryNavTree | null;
 	experiencesNav: TDiscoveryNavTree | null;
+	logoSrc?: string;
+	logoAlt?: string;
 };
 
 export const PublicMobileNavMenu: FC<TProps> = ({
 	items,
 	destinationsNav,
 	routesNav,
-	experiencesNav
+	experiencesNav,
+	logoSrc = DEFAULT_LOGO_SRC,
+	logoAlt = "TourLink"
 }) => {
 	const t = useTranslations("header.public.nav");
 	const tRoutes = useTranslations("header.public.nav.routes");
@@ -58,12 +66,31 @@ export const PublicMobileNavMenu: FC<TProps> = ({
 			</SheetTrigger>
 			<SheetContent
 				side="left"
-				className="w-full max-w-sm overflow-y-auto"
+				className="w-full max-w-sm overflow-y-auto gap-0"
 			>
-				<SheetHeader>
-					<SheetTitle>{t("mobile_menu")}</SheetTitle>
+				<SheetHeader className="border-b">
+					<Link
+						href={ENUM_PATH.MAIN.ROOT}
+						className="flex shrink-0 items-center gap-2 pr-10"
+					>
+						<Image
+							src={logoSrc}
+							alt={logoAlt}
+							width={48}
+							height={48}
+							className="h-10 w-auto"
+							unoptimized={logoSrc.startsWith("http")}
+						/>
+						<span className="text-2xl font-semibold">
+							<span className="text-foreground">Tour</span>
+							<span className="text-[#37bffa]">Link</span>
+						</span>
+					</Link>
+					<SheetTitle className="sr-only">
+						{t("mobile_menu")}
+					</SheetTitle>
 				</SheetHeader>
-				<Accordion type="multiple" className="mt-4 w-full">
+				<Accordion type="multiple" className="w-full p-4">
 					{items.map((entry) => {
 						if (
 							entry.variant === "destinations-mega" &&
@@ -163,33 +190,24 @@ export const PublicMobileNavMenu: FC<TProps> = ({
 						}
 
 						if (entry.sections.length === 0 && entry.href) {
-							return (
-								<AccordionItem
+							return isExternalHref(entry.href) ? (
+								<a
 									key={entry.key}
-									value={entry.key}
+									href={entry.href}
+									target={entry.target ?? "_blank"}
+									rel="noopener noreferrer"
+									className="block rounded-md py-4 text-sm font-semibold hover:bg-muted"
 								>
-									<AccordionTrigger asChild>
-										{isExternalHref(entry.href) ? (
-											<a
-												href={entry.href}
-												target={
-													entry.target ?? "_blank"
-												}
-												rel="noopener noreferrer"
-												className="flex flex-1 items-center py-4 text-sm font-medium"
-											>
-												{entry.label}
-											</a>
-										) : (
-											<Link
-												href={entry.href}
-												className="flex flex-1 items-center py-4 text-sm font-medium"
-											>
-												{entry.label}
-											</Link>
-										)}
-									</AccordionTrigger>
-								</AccordionItem>
+									{entry.label}
+								</a>
+							) : (
+								<Link
+									key={entry.key}
+									href={entry.href}
+									className="block rounded-md py-4 text-sm font-semibold hover:bg-muted"
+								>
+									{entry.label}
+								</Link>
 							);
 						}
 

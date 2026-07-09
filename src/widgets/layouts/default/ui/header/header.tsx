@@ -43,6 +43,8 @@ export const HeaderDefault: FC<TProps> = ({
 						destinationsNav={destinationsNav}
 						routesNav={routesNav}
 						experiencesNav={experiencesNav}
+						logoSrc={logoSrc}
+						logoAlt={logoAlt}
 					/>
 					<Link
 						href={ENUM_PATH.MAIN.ROOT}

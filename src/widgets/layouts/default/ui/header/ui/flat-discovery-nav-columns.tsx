@@ -55,7 +55,7 @@ export const FlatDiscoveryNavColumns: FC<TProps> = ({
 	if (mobile) {
 		return (
 			<div className={cn("flex flex-col", className)}>
-				{columnTitle ? (
+				{columnTitle && !mobile ? (
 					<p className="text-[11px] font-semibold tracking-wider text-primary uppercase">
 						{columnTitle}
 					</p>
@@ -63,7 +63,7 @@ export const FlatDiscoveryNavColumns: FC<TProps> = ({
 				<ul
 					className={cn(
 						"flex flex-col gap-0.5",
-						columnTitle ? "mt-3" : undefined
+						columnTitle && !mobile ? "mt-3" : undefined
 					)}
 					role="list"
 				>
