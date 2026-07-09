@@ -34,7 +34,6 @@ export type { TContactDetailItemProps } from "./contact-detail-item.types";
 export type { TContactDetailPanelProps } from "./contact-detail-panel.types";
 export type { TAboutDevelopmentPhaseCardProps } from "./about-development-phase-card.types";
 export type { TAboutGeographySummaryCardProps } from "./about-geography-summary-card.types";
-export type { TAboutNotUsItemCardProps } from "./about-not-us-item-card.types";
 export type { TRouteMapPanelProps } from "./route-map-panel.types";
 export type {
 	ITripFormatCardItem,

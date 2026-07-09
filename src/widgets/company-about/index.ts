@@ -1,1 +1,0 @@
-export { CompanyAbout } from "./ui";

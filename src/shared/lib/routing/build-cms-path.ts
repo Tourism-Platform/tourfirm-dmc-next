@@ -28,8 +28,3 @@ export function resolveSegmentPagePublicPath(
 
 	return buildSegmentPagePath(segmentSlug, pageSlug);
 }
-
-/** @deprecated Use buildPagePath */
-export function buildCmsPath(slug: string): string {
-	return buildPagePath(slug);
-}
