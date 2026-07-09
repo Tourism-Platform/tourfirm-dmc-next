@@ -28,7 +28,7 @@ export default buildConfig({
 			...(process.env.PAYLOAD_SEED_MODE === "true"
 				? {
 					// min 2: connect() keeps one client for error listener (see db-postgres connect.js)
-					max: 5,
+					max: 2,
 					maxUses: 250,
 					idleTimeoutMillis: 0,
 					connectionTimeoutMillis: 300_000,
@@ -45,7 +45,24 @@ export default buildConfig({
 	},
 	admin: {
 		user: "users",
+		theme: "all",
+		meta: {
+			titleSuffix: "- TourLink CMS",
+			icons: [
+				{
+					rel: "icon",
+					type: "image/svg+xml",
+					url: "/assets/images/logo.svg"
+				}
+			]
+		},
 		components: {
+			graphics: {
+				Logo: "@/cms/admin/graphics/admin-logo#AdminLogo",
+				Icon: "@/cms/admin/graphics/admin-icon#AdminIcon"
+			},
+			actions: ["@/cms/admin/admin-header-actions#AdminHeaderActions"],
+			afterLogin: ["@/cms/admin/admin-theme-toggle#AdminThemeToggle"],
 			afterNavLinks: ["@/cms/admin/domain-pages-nav-links#DomainPagesNavLinks"]
 		}
 	}

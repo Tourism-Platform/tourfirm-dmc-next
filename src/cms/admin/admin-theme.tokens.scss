@@ -1,0 +1,22 @@
+// Mapped from src/shared/styles/theme.css — keep in sync manually.
+
+// Light (:root)
+$admin-bg: #f7f7f9;
+$admin-fg: #1a1a2e;
+$admin-card: #ffffff;
+$admin-muted: #f0f1f5;
+$admin-accent: #e8f0fc;
+$admin-border: #e5e7eb;
+$admin-primary: #36bffa;
+$admin-primary-dark: #1a9bd6;
+$admin-sidebar: #ffffff;
+$admin-radius: 0.5rem;
+
+// Dark (html[data-theme="dark"])
+$admin-dark-bg: #0f0f1a;
+$admin-dark-fg: #e8e9f0;
+$admin-dark-card: #1a1a2e;
+$admin-dark-muted: #1e2538;
+$admin-dark-accent: #1f3049;
+$admin-dark-border: #2a3042;
+$admin-dark-sidebar: #1a1a2e;

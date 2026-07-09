@@ -23,10 +23,14 @@ import { RscEntryLexicalCell as RscEntryLexicalCell_44fe37237e0ebf4470c9990d8cb7
 import { RscEntryLexicalField as RscEntryLexicalField_44fe37237e0ebf4470c9990d8cb7b07e } from "@payloadcms/richtext-lexical/rsc";
 import { LexicalDiffComponent as LexicalDiffComponent_44fe37237e0ebf4470c9990d8cb7b07e } from "@payloadcms/richtext-lexical/rsc";
 
+import { AdminHeaderActions as AdminHeaderActions_334bb66779805942dbb5b7838a21c870 } from "@/cms/admin/admin-header-actions";
+import { AdminThemeToggle as AdminThemeToggle_9e7bf8026ab797fd651fb6dc2085c99d } from "@/cms/admin/admin-theme-toggle";
 import { TeamPagesListView as TeamPagesListView_d52035fd3ab5be21489cf1a807288a51 } from "@/cms/admin/domain-pages-list-view";
 import { LegalPagesListView as LegalPagesListView_d52035fd3ab5be21489cf1a807288a51 } from "@/cms/admin/domain-pages-list-view";
 import { DomainPagesNavLinks as DomainPagesNavLinks_4328ea017c74898a0bebead348eb5d51 } from "@/cms/admin/domain-pages-nav-links";
 import { FooterColumnRowLabel as FooterColumnRowLabel_ff40b815c4b7cb10ab19c8d0e4001716 } from "@/cms/admin/footer-column-row-label";
+import { AdminIcon as AdminIcon_7ff1318b27e6185e1edc8dcc995406b1 } from "@/cms/admin/graphics/admin-icon";
+import { AdminLogo as AdminLogo_c5f15d74eaf168d2593005f2658bc623 } from "@/cms/admin/graphics/admin-logo";
 import { NavigationItemRowLabel as NavigationItemRowLabel_777b2d54df12f823b0c9dca68a0f9179 } from "@/cms/admin/navigation-item-row-label";
 
 /** @type import('payload').ImportMap */
@@ -85,6 +89,14 @@ export const importMap = {
 		NavigationItemRowLabel_777b2d54df12f823b0c9dca68a0f9179,
 	"@/cms/admin/footer-column-row-label#FooterColumnRowLabel":
 		FooterColumnRowLabel_ff40b815c4b7cb10ab19c8d0e4001716,
+	"@/cms/admin/graphics/admin-icon#AdminIcon":
+		AdminIcon_7ff1318b27e6185e1edc8dcc995406b1,
+	"@/cms/admin/graphics/admin-logo#AdminLogo":
+		AdminLogo_c5f15d74eaf168d2593005f2658bc623,
+	"@/cms/admin/admin-header-actions#AdminHeaderActions":
+		AdminHeaderActions_334bb66779805942dbb5b7838a21c870,
+	"@/cms/admin/admin-theme-toggle#AdminThemeToggle":
+		AdminThemeToggle_9e7bf8026ab797fd651fb6dc2085c99d,
 	"@/cms/admin/domain-pages-nav-links#DomainPagesNavLinks":
 		DomainPagesNavLinks_4328ea017c74898a0bebead348eb5d51,
 	"@payloadcms/next/rsc#CollectionCards":
