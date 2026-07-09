@@ -13,8807 +13,7590 @@
  * via the `definition` "supportedTimezones".
  */
 export type SupportedTimezones =
-	| "Pacific/Midway"
-	| "Pacific/Niue"
-	| "Pacific/Honolulu"
-	| "Pacific/Rarotonga"
-	| "America/Anchorage"
-	| "Pacific/Gambier"
-	| "America/Los_Angeles"
-	| "America/Tijuana"
-	| "America/Denver"
-	| "America/Phoenix"
-	| "America/Chicago"
-	| "America/Guatemala"
-	| "America/New_York"
-	| "America/Bogota"
-	| "America/Caracas"
-	| "America/Santiago"
-	| "America/Buenos_Aires"
-	| "America/Sao_Paulo"
-	| "Atlantic/South_Georgia"
-	| "Atlantic/Azores"
-	| "Atlantic/Cape_Verde"
-	| "Europe/London"
-	| "Europe/Berlin"
-	| "Africa/Lagos"
-	| "Europe/Athens"
-	| "Africa/Cairo"
-	| "Europe/Moscow"
-	| "Asia/Riyadh"
-	| "Asia/Dubai"
-	| "Asia/Baku"
-	| "Asia/Karachi"
-	| "Asia/Tashkent"
-	| "Asia/Calcutta"
-	| "Asia/Dhaka"
-	| "Asia/Almaty"
-	| "Asia/Jakarta"
-	| "Asia/Bangkok"
-	| "Asia/Shanghai"
-	| "Asia/Singapore"
-	| "Asia/Tokyo"
-	| "Asia/Seoul"
-	| "Australia/Brisbane"
-	| "Australia/Sydney"
-	| "Pacific/Guam"
-	| "Pacific/Noumea"
-	| "Pacific/Auckland"
-	| "Pacific/Fiji";
+  | 'Pacific/Midway'
+  | 'Pacific/Niue'
+  | 'Pacific/Honolulu'
+  | 'Pacific/Rarotonga'
+  | 'America/Anchorage'
+  | 'Pacific/Gambier'
+  | 'America/Los_Angeles'
+  | 'America/Tijuana'
+  | 'America/Denver'
+  | 'America/Phoenix'
+  | 'America/Chicago'
+  | 'America/Guatemala'
+  | 'America/New_York'
+  | 'America/Bogota'
+  | 'America/Caracas'
+  | 'America/Santiago'
+  | 'America/Buenos_Aires'
+  | 'America/Sao_Paulo'
+  | 'Atlantic/South_Georgia'
+  | 'Atlantic/Azores'
+  | 'Atlantic/Cape_Verde'
+  | 'Europe/London'
+  | 'Europe/Berlin'
+  | 'Africa/Lagos'
+  | 'Europe/Athens'
+  | 'Africa/Cairo'
+  | 'Europe/Moscow'
+  | 'Asia/Riyadh'
+  | 'Asia/Dubai'
+  | 'Asia/Baku'
+  | 'Asia/Karachi'
+  | 'Asia/Tashkent'
+  | 'Asia/Calcutta'
+  | 'Asia/Dhaka'
+  | 'Asia/Almaty'
+  | 'Asia/Jakarta'
+  | 'Asia/Bangkok'
+  | 'Asia/Shanghai'
+  | 'Asia/Singapore'
+  | 'Asia/Tokyo'
+  | 'Asia/Seoul'
+  | 'Australia/Brisbane'
+  | 'Australia/Sydney'
+  | 'Pacific/Guam'
+  | 'Pacific/Noumea'
+  | 'Pacific/Auckland'
+  | 'Pacific/Fiji';
 
 export interface Config {
-	auth: {
-		users: UserAuthOperations;
-	};
-	blocks: {};
-	collections: {
-		countries: Country;
-		regions: Region;
-		cities: City;
-		attractions: Attraction;
-		routes: Route;
-		"map-points": MapPoint;
-		experiences: Experience;
-		pages: Page;
-		segments: Segment;
-		"journal-entries": JournalEntry;
-		themes: Theme;
-		"trade-fairs": TradeFair;
-		badges: Badge;
-		media: Media;
-		users: User;
-		"payload-kv": PayloadKv;
-		"payload-locked-documents": PayloadLockedDocument;
-		"payload-preferences": PayloadPreference;
-		"payload-migrations": PayloadMigration;
-	};
-	collectionsJoins: {
-		countries: {
-			regions: "regions";
-			cities: "cities";
-			routes: "routes";
-			experiences: "experiences";
-		};
-		regions: {
-			cities: "cities";
-		};
-		cities: {
-			attractions: "attractions";
-			experiences: "experiences";
-			relatedRoutes: "routes";
-		};
-		attractions: {
-			experiences: "experiences";
-			relatedRoutes: "routes";
-		};
-		routes: {
-			mapPoints: "map-points";
-		};
-		experiences: {
-			relatedRoutes: "routes";
-		};
-		segments: {
-			pages: "pages";
-		};
-		themes: {
-			routes: "routes";
-			experiences: "experiences";
-			attractions: "attractions";
-		};
-	};
-	collectionsSelect: {
-		countries: CountriesSelect<false> | CountriesSelect<true>;
-		regions: RegionsSelect<false> | RegionsSelect<true>;
-		cities: CitiesSelect<false> | CitiesSelect<true>;
-		attractions: AttractionsSelect<false> | AttractionsSelect<true>;
-		routes: RoutesSelect<false> | RoutesSelect<true>;
-		"map-points": MapPointsSelect<false> | MapPointsSelect<true>;
-		experiences: ExperiencesSelect<false> | ExperiencesSelect<true>;
-		pages: PagesSelect<false> | PagesSelect<true>;
-		segments: SegmentsSelect<false> | SegmentsSelect<true>;
-		"journal-entries":
-			| JournalEntriesSelect<false>
-			| JournalEntriesSelect<true>;
-		themes: ThemesSelect<false> | ThemesSelect<true>;
-		"trade-fairs": TradeFairsSelect<false> | TradeFairsSelect<true>;
-		badges: BadgesSelect<false> | BadgesSelect<true>;
-		media: MediaSelect<false> | MediaSelect<true>;
-		users: UsersSelect<false> | UsersSelect<true>;
-		"payload-kv": PayloadKvSelect<false> | PayloadKvSelect<true>;
-		"payload-locked-documents":
-			| PayloadLockedDocumentsSelect<false>
-			| PayloadLockedDocumentsSelect<true>;
-		"payload-preferences":
-			| PayloadPreferencesSelect<false>
-			| PayloadPreferencesSelect<true>;
-		"payload-migrations":
-			| PayloadMigrationsSelect<false>
-			| PayloadMigrationsSelect<true>;
-	};
-	db: {
-		defaultIDType: number;
-	};
-	fallbackLocale:
-		| ("false" | "none" | "null")
-		| false
-		| null
-		| ("en" | "ru" | "uz")
-		| ("en" | "ru" | "uz")[];
-	globals: {
-		homepage: Homepage;
-		destination: Destination;
-		"routes-hub": RoutesHub;
-		"experiences-hub": ExperiencesHub;
-		"site-settings": SiteSetting;
-		header: Header;
-		footer: Footer;
-	};
-	globalsSelect: {
-		homepage: HomepageSelect<false> | HomepageSelect<true>;
-		destination: DestinationSelect<false> | DestinationSelect<true>;
-		"routes-hub": RoutesHubSelect<false> | RoutesHubSelect<true>;
-		"experiences-hub":
-			| ExperiencesHubSelect<false>
-			| ExperiencesHubSelect<true>;
-		"site-settings": SiteSettingsSelect<false> | SiteSettingsSelect<true>;
-		header: HeaderSelect<false> | HeaderSelect<true>;
-		footer: FooterSelect<false> | FooterSelect<true>;
-	};
-	locale: "en" | "ru" | "uz";
-	widgets: {
-		collections: CollectionsWidget;
-	};
-	user: User;
-	jobs: {
-		tasks: unknown;
-		workflows: unknown;
-	};
+  auth: {
+    users: UserAuthOperations;
+  };
+  blocks: {};
+  collections: {
+    countries: Country;
+    regions: Region;
+    cities: City;
+    attractions: Attraction;
+    routes: Route;
+    'map-points': MapPoint;
+    experiences: Experience;
+    pages: Page;
+    segments: Segment;
+    'journal-entries': JournalEntry;
+    themes: Theme;
+    'trade-fairs': TradeFair;
+    badges: Badge;
+    media: Media;
+    users: User;
+    'payload-kv': PayloadKv;
+    'payload-locked-documents': PayloadLockedDocument;
+    'payload-preferences': PayloadPreference;
+    'payload-migrations': PayloadMigration;
+  };
+  collectionsJoins: {
+    countries: {
+      regions: 'regions';
+      cities: 'cities';
+      routes: 'routes';
+      experiences: 'experiences';
+    };
+    regions: {
+      cities: 'cities';
+    };
+    cities: {
+      attractions: 'attractions';
+      experiences: 'experiences';
+      relatedRoutes: 'routes';
+    };
+    attractions: {
+      experiences: 'experiences';
+      relatedRoutes: 'routes';
+    };
+    routes: {
+      mapPoints: 'map-points';
+    };
+    experiences: {
+      relatedRoutes: 'routes';
+    };
+    segments: {
+      pages: 'pages';
+    };
+    themes: {
+      routes: 'routes';
+      experiences: 'experiences';
+      attractions: 'attractions';
+    };
+  };
+  collectionsSelect: {
+    countries: CountriesSelect<false> | CountriesSelect<true>;
+    regions: RegionsSelect<false> | RegionsSelect<true>;
+    cities: CitiesSelect<false> | CitiesSelect<true>;
+    attractions: AttractionsSelect<false> | AttractionsSelect<true>;
+    routes: RoutesSelect<false> | RoutesSelect<true>;
+    'map-points': MapPointsSelect<false> | MapPointsSelect<true>;
+    experiences: ExperiencesSelect<false> | ExperiencesSelect<true>;
+    pages: PagesSelect<false> | PagesSelect<true>;
+    segments: SegmentsSelect<false> | SegmentsSelect<true>;
+    'journal-entries': JournalEntriesSelect<false> | JournalEntriesSelect<true>;
+    themes: ThemesSelect<false> | ThemesSelect<true>;
+    'trade-fairs': TradeFairsSelect<false> | TradeFairsSelect<true>;
+    badges: BadgesSelect<false> | BadgesSelect<true>;
+    media: MediaSelect<false> | MediaSelect<true>;
+    users: UsersSelect<false> | UsersSelect<true>;
+    'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
+    'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
+    'payload-preferences': PayloadPreferencesSelect<false> | PayloadPreferencesSelect<true>;
+    'payload-migrations': PayloadMigrationsSelect<false> | PayloadMigrationsSelect<true>;
+  };
+  db: {
+    defaultIDType: number;
+  };
+  fallbackLocale: ('false' | 'none' | 'null') | false | null | ('en' | 'ru' | 'uz') | ('en' | 'ru' | 'uz')[];
+  globals: {
+    homepage: Homepage;
+    destination: Destination;
+    'routes-hub': RoutesHub;
+    'experiences-hub': ExperiencesHub;
+    'site-settings': SiteSetting;
+    header: Header;
+    footer: Footer;
+  };
+  globalsSelect: {
+    homepage: HomepageSelect<false> | HomepageSelect<true>;
+    destination: DestinationSelect<false> | DestinationSelect<true>;
+    'routes-hub': RoutesHubSelect<false> | RoutesHubSelect<true>;
+    'experiences-hub': ExperiencesHubSelect<false> | ExperiencesHubSelect<true>;
+    'site-settings': SiteSettingsSelect<false> | SiteSettingsSelect<true>;
+    header: HeaderSelect<false> | HeaderSelect<true>;
+    footer: FooterSelect<false> | FooterSelect<true>;
+  };
+  locale: 'en' | 'ru' | 'uz';
+  widgets: {
+    collections: CollectionsWidget;
+  };
+  user: User;
+  jobs: {
+    tasks: unknown;
+    workflows: unknown;
+  };
 }
 export interface UserAuthOperations {
-	forgotPassword: {
-		email: string;
-		password: string;
-	};
-	login: {
-		email: string;
-		password: string;
-	};
-	registerFirstUser: {
-		email: string;
-		password: string;
-	};
-	unlock: {
-		email: string;
-		password: string;
-	};
+  forgotPassword: {
+    email: string;
+    password: string;
+  };
+  login: {
+    email: string;
+    password: string;
+  };
+  registerFirstUser: {
+    email: string;
+    password: string;
+  };
+  unlock: {
+    email: string;
+    password: string;
+  };
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "countries".
  */
 export interface Country {
-	id: number;
-	slug: string;
-	title: string;
-	/**
-	 * Header destinations menu sort order. Lower values appear first.
-	 */
-	navOrder?: number | null;
-	subtitle?: string | null;
-	excerpt?: string | null;
-	content?: {
-		root: {
-			type: string;
-			children: {
-				type: any;
-				version: number;
-				[k: string]: unknown;
-			}[];
-			direction: ("ltr" | "rtl") | null;
-			format:
-				| "left"
-				| "start"
-				| "center"
-				| "right"
-				| "end"
-				| "justify"
-				| "";
-			indent: number;
-			version: number;
-		};
-		[k: string]: unknown;
-	} | null;
-	mapCenter?: {
-		latitude?: number | null;
-		longitude?: number | null;
-	};
-	heroImage?: (number | null) | Media;
-	gallery?: (number | Media)[] | null;
-	badges?: (number | Badge)[] | null;
-	blocks: (
-		| {
-				image: number | Media;
-				imageAlt?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				note?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "hero";
-		  }
-		| {
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "overviewStats";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				gridClassName?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "regular";
-		  }
-		| {
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				mapCenter?: {
-					latitude?: number | null;
-					longitude?: number | null;
-				};
-				zoom?: number | null;
-				stops?:
-					| {
-							entityType:
-								| "country"
-								| "region"
-								| "city"
-								| "attraction";
-							relation:
-								| {
-										relationTo: "countries";
-										value: number | Country;
-								  }
-								| {
-										relationTo: "regions";
-										value: number | Region;
-								  }
-								| {
-										relationTo: "cities";
-										value: number | City;
-								  }
-								| {
-										relationTo: "attractions";
-										value: number | Attraction;
-								  };
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "routeMap";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				questions?:
-					| {
-							icon: string;
-							title: string;
-							description: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							};
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "faq";
-		  }
-		| {
-				image?: (number | null) | Media;
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "cta";
-		  }
-	)[];
-	seo?: {
-		metaTitle?: string | null;
-		metaDescription?: string | null;
-		canonicalOverride?: string | null;
-		ogTitle?: string | null;
-		ogDescription?: string | null;
-		ogImage?: (number | null) | Media;
-		robotsNoindex?: boolean | null;
-		structuredDataType?:
-			| (
-					| "WebPage"
-					| "TouristDestination"
-					| "TouristAttraction"
-					| "TouristTrip"
-					| "Article"
-			  )
-			| null;
-	};
-	status?: {
-		noindex?: boolean | null;
-		showInSitemap?: boolean | null;
-		publishedAt?: string | null;
-	};
-	regions?: {
-		docs?: (number | Region)[];
-		hasNextPage?: boolean;
-		totalDocs?: number;
-	};
-	cities?: {
-		docs?: (number | City)[];
-		hasNextPage?: boolean;
-		totalDocs?: number;
-	};
-	routes?: {
-		docs?: (number | Route)[];
-		hasNextPage?: boolean;
-		totalDocs?: number;
-	};
-	experiences?: {
-		docs?: (number | Experience)[];
-		hasNextPage?: boolean;
-		totalDocs?: number;
-	};
-	updatedAt: string;
-	createdAt: string;
-	_status?: ("draft" | "published") | null;
+  id: number;
+  slug: string;
+  title: string;
+  /**
+   * Header destinations menu sort order. Lower values appear first.
+   */
+  navOrder?: number | null;
+  subtitle?: string | null;
+  excerpt?: string | null;
+  content?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  mapCenter?: {
+    latitude?: number | null;
+    longitude?: number | null;
+  };
+  heroImage?: (number | null) | Media;
+  gallery?: (number | Media)[] | null;
+  badges?: (number | Badge)[] | null;
+  blocks: (
+    | {
+        image: number | Media;
+        imageAlt?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        note?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'hero';
+      }
+    | {
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'overviewStats';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        gridClassName?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'regular';
+      }
+    | {
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        mapCenter?: {
+          latitude?: number | null;
+          longitude?: number | null;
+        };
+        zoom?: number | null;
+        stops?:
+          | {
+              entityType: 'country' | 'region' | 'city' | 'attraction';
+              relation:
+                | {
+                    relationTo: 'countries';
+                    value: number | Country;
+                  }
+                | {
+                    relationTo: 'regions';
+                    value: number | Region;
+                  }
+                | {
+                    relationTo: 'cities';
+                    value: number | City;
+                  }
+                | {
+                    relationTo: 'attractions';
+                    value: number | Attraction;
+                  };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'routeMap';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        questions?:
+          | {
+              icon: string;
+              title: string;
+              description: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'faq';
+      }
+    | {
+        image?: (number | null) | Media;
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'cta';
+      }
+  )[];
+  seo?: {
+    metaTitle?: string | null;
+    metaDescription?: string | null;
+    canonicalOverride?: string | null;
+    ogTitle?: string | null;
+    ogDescription?: string | null;
+    ogImage?: (number | null) | Media;
+    robotsNoindex?: boolean | null;
+    structuredDataType?: ('WebPage' | 'TouristDestination' | 'TouristAttraction' | 'TouristTrip' | 'Article') | null;
+  };
+  status?: {
+    noindex?: boolean | null;
+    showInSitemap?: boolean | null;
+    publishedAt?: string | null;
+  };
+  regions?: {
+    docs?: (number | Region)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  cities?: {
+    docs?: (number | City)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  routes?: {
+    docs?: (number | Route)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  experiences?: {
+    docs?: (number | Experience)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  updatedAt: string;
+  createdAt: string;
+  _status?: ('draft' | 'published') | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "media".
  */
 export interface Media {
-	id: number;
-	/**
-	 * Seed source path relative to public/, e.g. assets/images/city/samarkand.jpg
-	 */
-	sourcePath?: string | null;
-	alt?: string | null;
-	updatedAt: string;
-	createdAt: string;
-	url?: string | null;
-	thumbnailURL?: string | null;
-	filename?: string | null;
-	mimeType?: string | null;
-	filesize?: number | null;
-	width?: number | null;
-	height?: number | null;
-	focalX?: number | null;
-	focalY?: number | null;
+  id: number;
+  /**
+   * Seed source path relative to public/, e.g. assets/images/city/samarkand.jpg
+   */
+  sourcePath?: string | null;
+  alt?: string | null;
+  updatedAt: string;
+  createdAt: string;
+  url?: string | null;
+  thumbnailURL?: string | null;
+  filename?: string | null;
+  mimeType?: string | null;
+  filesize?: number | null;
+  width?: number | null;
+  height?: number | null;
+  focalX?: number | null;
+  focalY?: number | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "badges".
  */
 export interface Badge {
-	id: number;
-	slug: string;
-	title: string;
-	color?: string | null;
-	icon?: string | null;
-	updatedAt: string;
-	createdAt: string;
+  id: number;
+  slug: string;
+  title: string;
+  color?: string | null;
+  icon?: string | null;
+  updatedAt: string;
+  createdAt: string;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "routes".
  */
 export interface Route {
-	id: number;
-	slug: string;
-	title: string;
-	subtitle?: string | null;
-	excerpt?: string | null;
-	content?: {
-		root: {
-			type: string;
-			children: {
-				type: any;
-				version: number;
-				[k: string]: unknown;
-			}[];
-			direction: ("ltr" | "rtl") | null;
-			format:
-				| "left"
-				| "start"
-				| "center"
-				| "right"
-				| "end"
-				| "justify"
-				| "";
-			indent: number;
-			version: number;
-		};
-		[k: string]: unknown;
-	} | null;
-	countries: (number | Country)[];
-	cities?: (number | City)[] | null;
-	attractions?: (number | Attraction)[] | null;
-	experiences?: (number | Experience)[] | null;
-	themes?: (number | Theme)[] | null;
-	/**
-	 * Manually curated related routes shown on the detail page.
-	 */
-	relatedRoutes?: (number | Route)[] | null;
-	durationDays?: number | null;
-	/**
-	 * Primary geo focus of the route. Used for hub filtering.
-	 */
-	routeScope?: ("COUNTRY" | "CITY" | "ATTRACTION" | "MIXED") | null;
-	/**
-	 * Show in featured strips (homepage, hub).
-	 */
-	featured?: boolean | null;
-	/**
-	 * Listing order. Lower values appear first.
-	 */
-	sortOrder?: number | null;
-	/**
-	 * Query string for the commercial catalog CTA, e.g. destination=Uzbekistan&duration=6.
-	 */
-	catalogQuery?: string | null;
-	heroImage?: (number | null) | Media;
-	gallery?: (number | Media)[] | null;
-	badges?: (number | Badge)[] | null;
-	blocks: (
-		| {
-				image: number | Media;
-				imageAlt?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				note?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "hero";
-		  }
-		| {
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "overviewStats";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				gridClassName?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "regular";
-		  }
-		| {
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				mapCenter?: {
-					latitude?: number | null;
-					longitude?: number | null;
-				};
-				zoom?: number | null;
-				stops?:
-					| {
-							entityType:
-								| "country"
-								| "region"
-								| "city"
-								| "attraction";
-							relation:
-								| {
-										relationTo: "countries";
-										value: number | Country;
-								  }
-								| {
-										relationTo: "regions";
-										value: number | Region;
-								  }
-								| {
-										relationTo: "cities";
-										value: number | City;
-								  }
-								| {
-										relationTo: "attractions";
-										value: number | Attraction;
-								  };
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "routeMap";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				questions?:
-					| {
-							icon: string;
-							title: string;
-							description: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							};
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "faq";
-		  }
-		| {
-				image?: (number | null) | Media;
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "cta";
-		  }
-	)[];
-	seo?: {
-		metaTitle?: string | null;
-		metaDescription?: string | null;
-		canonicalOverride?: string | null;
-		ogTitle?: string | null;
-		ogDescription?: string | null;
-		ogImage?: (number | null) | Media;
-		robotsNoindex?: boolean | null;
-		structuredDataType?:
-			| (
-					| "WebPage"
-					| "TouristDestination"
-					| "TouristAttraction"
-					| "TouristTrip"
-					| "Article"
-			  )
-			| null;
-	};
-	status?: {
-		noindex?: boolean | null;
-		showInSitemap?: boolean | null;
-		publishedAt?: string | null;
-	};
-	mapPoints?: {
-		docs?: (number | MapPoint)[];
-		hasNextPage?: boolean;
-		totalDocs?: number;
-	};
-	updatedAt: string;
-	createdAt: string;
-	_status?: ("draft" | "published") | null;
+  id: number;
+  slug: string;
+  title: string;
+  subtitle?: string | null;
+  excerpt?: string | null;
+  content?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  countries: (number | Country)[];
+  cities?: (number | City)[] | null;
+  attractions?: (number | Attraction)[] | null;
+  experiences?: (number | Experience)[] | null;
+  themes?: (number | Theme)[] | null;
+  /**
+   * Manually curated related routes shown on the detail page.
+   */
+  relatedRoutes?: (number | Route)[] | null;
+  durationDays?: number | null;
+  /**
+   * Primary geo focus of the route. Used for hub filtering.
+   */
+  routeScope?: ('COUNTRY' | 'CITY' | 'ATTRACTION' | 'MIXED') | null;
+  /**
+   * Show in featured strips (homepage, hub).
+   */
+  featured?: boolean | null;
+  /**
+   * Listing order. Lower values appear first.
+   */
+  sortOrder?: number | null;
+  /**
+   * Query string for the commercial catalog CTA, e.g. destination=Uzbekistan&duration=6.
+   */
+  catalogQuery?: string | null;
+  heroImage?: (number | null) | Media;
+  gallery?: (number | Media)[] | null;
+  badges?: (number | Badge)[] | null;
+  blocks: (
+    | {
+        image: number | Media;
+        imageAlt?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        note?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'hero';
+      }
+    | {
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'overviewStats';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        gridClassName?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'regular';
+      }
+    | {
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        mapCenter?: {
+          latitude?: number | null;
+          longitude?: number | null;
+        };
+        zoom?: number | null;
+        stops?:
+          | {
+              entityType: 'country' | 'region' | 'city' | 'attraction';
+              relation:
+                | {
+                    relationTo: 'countries';
+                    value: number | Country;
+                  }
+                | {
+                    relationTo: 'regions';
+                    value: number | Region;
+                  }
+                | {
+                    relationTo: 'cities';
+                    value: number | City;
+                  }
+                | {
+                    relationTo: 'attractions';
+                    value: number | Attraction;
+                  };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'routeMap';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        questions?:
+          | {
+              icon: string;
+              title: string;
+              description: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'faq';
+      }
+    | {
+        image?: (number | null) | Media;
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'cta';
+      }
+  )[];
+  seo?: {
+    metaTitle?: string | null;
+    metaDescription?: string | null;
+    canonicalOverride?: string | null;
+    ogTitle?: string | null;
+    ogDescription?: string | null;
+    ogImage?: (number | null) | Media;
+    robotsNoindex?: boolean | null;
+    structuredDataType?: ('WebPage' | 'TouristDestination' | 'TouristAttraction' | 'TouristTrip' | 'Article') | null;
+  };
+  status?: {
+    noindex?: boolean | null;
+    showInSitemap?: boolean | null;
+    publishedAt?: string | null;
+  };
+  mapPoints?: {
+    docs?: (number | MapPoint)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  updatedAt: string;
+  createdAt: string;
+  _status?: ('draft' | 'published') | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "cities".
  */
 export interface City {
-	id: number;
-	slug: string;
-	title: string;
-	/**
-	 * Header destinations menu sort order. Lower values appear first.
-	 */
-	navOrder?: number | null;
-	subtitle?: string | null;
-	excerpt?: string | null;
-	content?: {
-		root: {
-			type: string;
-			children: {
-				type: any;
-				version: number;
-				[k: string]: unknown;
-			}[];
-			direction: ("ltr" | "rtl") | null;
-			format:
-				| "left"
-				| "start"
-				| "center"
-				| "right"
-				| "end"
-				| "justify"
-				| "";
-			indent: number;
-			version: number;
-		};
-		[k: string]: unknown;
-	} | null;
-	country: number | Country;
-	region: number | Region;
-	latitude: number;
-	longitude: number;
-	heroImage?: (number | null) | Media;
-	gallery?: (number | Media)[] | null;
-	badges?: (number | Badge)[] | null;
-	blocks: (
-		| {
-				image: number | Media;
-				imageAlt?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				note?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "hero";
-		  }
-		| {
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "overviewStats";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				gridClassName?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "regular";
-		  }
-		| {
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				mapCenter?: {
-					latitude?: number | null;
-					longitude?: number | null;
-				};
-				zoom?: number | null;
-				stops?:
-					| {
-							entityType:
-								| "country"
-								| "region"
-								| "city"
-								| "attraction";
-							relation:
-								| {
-										relationTo: "countries";
-										value: number | Country;
-								  }
-								| {
-										relationTo: "regions";
-										value: number | Region;
-								  }
-								| {
-										relationTo: "cities";
-										value: number | City;
-								  }
-								| {
-										relationTo: "attractions";
-										value: number | Attraction;
-								  };
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "routeMap";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				questions?:
-					| {
-							icon: string;
-							title: string;
-							description: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							};
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "faq";
-		  }
-		| {
-				image?: (number | null) | Media;
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "cta";
-		  }
-	)[];
-	seo?: {
-		metaTitle?: string | null;
-		metaDescription?: string | null;
-		canonicalOverride?: string | null;
-		ogTitle?: string | null;
-		ogDescription?: string | null;
-		ogImage?: (number | null) | Media;
-		robotsNoindex?: boolean | null;
-		structuredDataType?:
-			| (
-					| "WebPage"
-					| "TouristDestination"
-					| "TouristAttraction"
-					| "TouristTrip"
-					| "Article"
-			  )
-			| null;
-	};
-	status?: {
-		noindex?: boolean | null;
-		showInSitemap?: boolean | null;
-		publishedAt?: string | null;
-	};
-	attractions?: {
-		docs?: (number | Attraction)[];
-		hasNextPage?: boolean;
-		totalDocs?: number;
-	};
-	experiences?: {
-		docs?: (number | Experience)[];
-		hasNextPage?: boolean;
-		totalDocs?: number;
-	};
-	relatedRoutes?: {
-		docs?: (number | Route)[];
-		hasNextPage?: boolean;
-		totalDocs?: number;
-	};
-	updatedAt: string;
-	createdAt: string;
-	_status?: ("draft" | "published") | null;
+  id: number;
+  slug: string;
+  title: string;
+  /**
+   * Header destinations menu sort order. Lower values appear first.
+   */
+  navOrder?: number | null;
+  subtitle?: string | null;
+  excerpt?: string | null;
+  content?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  country: number | Country;
+  region: number | Region;
+  latitude: number;
+  longitude: number;
+  heroImage?: (number | null) | Media;
+  gallery?: (number | Media)[] | null;
+  badges?: (number | Badge)[] | null;
+  blocks: (
+    | {
+        image: number | Media;
+        imageAlt?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        note?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'hero';
+      }
+    | {
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'overviewStats';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        gridClassName?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'regular';
+      }
+    | {
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        mapCenter?: {
+          latitude?: number | null;
+          longitude?: number | null;
+        };
+        zoom?: number | null;
+        stops?:
+          | {
+              entityType: 'country' | 'region' | 'city' | 'attraction';
+              relation:
+                | {
+                    relationTo: 'countries';
+                    value: number | Country;
+                  }
+                | {
+                    relationTo: 'regions';
+                    value: number | Region;
+                  }
+                | {
+                    relationTo: 'cities';
+                    value: number | City;
+                  }
+                | {
+                    relationTo: 'attractions';
+                    value: number | Attraction;
+                  };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'routeMap';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        questions?:
+          | {
+              icon: string;
+              title: string;
+              description: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'faq';
+      }
+    | {
+        image?: (number | null) | Media;
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'cta';
+      }
+  )[];
+  seo?: {
+    metaTitle?: string | null;
+    metaDescription?: string | null;
+    canonicalOverride?: string | null;
+    ogTitle?: string | null;
+    ogDescription?: string | null;
+    ogImage?: (number | null) | Media;
+    robotsNoindex?: boolean | null;
+    structuredDataType?: ('WebPage' | 'TouristDestination' | 'TouristAttraction' | 'TouristTrip' | 'Article') | null;
+  };
+  status?: {
+    noindex?: boolean | null;
+    showInSitemap?: boolean | null;
+    publishedAt?: string | null;
+  };
+  attractions?: {
+    docs?: (number | Attraction)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  experiences?: {
+    docs?: (number | Experience)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  relatedRoutes?: {
+    docs?: (number | Route)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  updatedAt: string;
+  createdAt: string;
+  _status?: ('draft' | 'published') | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "regions".
  */
 export interface Region {
-	id: number;
-	slug: string;
-	title: string;
-	/**
-	 * Header destinations menu sort order. Lower values appear first.
-	 */
-	navOrder?: number | null;
-	subtitle?: string | null;
-	excerpt?: string | null;
-	content?: {
-		root: {
-			type: string;
-			children: {
-				type: any;
-				version: number;
-				[k: string]: unknown;
-			}[];
-			direction: ("ltr" | "rtl") | null;
-			format:
-				| "left"
-				| "start"
-				| "center"
-				| "right"
-				| "end"
-				| "justify"
-				| "";
-			indent: number;
-			version: number;
-		};
-		[k: string]: unknown;
-	} | null;
-	country: number | Country;
-	mapCenter?: {
-		latitude?: number | null;
-		longitude?: number | null;
-	};
-	heroImage?: (number | null) | Media;
-	gallery?: (number | Media)[] | null;
-	badges?: (number | Badge)[] | null;
-	blocks: (
-		| {
-				image: number | Media;
-				imageAlt?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				note?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "hero";
-		  }
-		| {
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "overviewStats";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				gridClassName?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "regular";
-		  }
-		| {
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				mapCenter?: {
-					latitude?: number | null;
-					longitude?: number | null;
-				};
-				zoom?: number | null;
-				stops?:
-					| {
-							entityType:
-								| "country"
-								| "region"
-								| "city"
-								| "attraction";
-							relation:
-								| {
-										relationTo: "countries";
-										value: number | Country;
-								  }
-								| {
-										relationTo: "regions";
-										value: number | Region;
-								  }
-								| {
-										relationTo: "cities";
-										value: number | City;
-								  }
-								| {
-										relationTo: "attractions";
-										value: number | Attraction;
-								  };
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "routeMap";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				questions?:
-					| {
-							icon: string;
-							title: string;
-							description: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							};
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "faq";
-		  }
-		| {
-				image?: (number | null) | Media;
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "cta";
-		  }
-	)[];
-	seo?: {
-		metaTitle?: string | null;
-		metaDescription?: string | null;
-		canonicalOverride?: string | null;
-		ogTitle?: string | null;
-		ogDescription?: string | null;
-		ogImage?: (number | null) | Media;
-		robotsNoindex?: boolean | null;
-		structuredDataType?:
-			| (
-					| "WebPage"
-					| "TouristDestination"
-					| "TouristAttraction"
-					| "TouristTrip"
-					| "Article"
-			  )
-			| null;
-	};
-	status?: {
-		noindex?: boolean | null;
-		showInSitemap?: boolean | null;
-		publishedAt?: string | null;
-	};
-	cities?: {
-		docs?: (number | City)[];
-		hasNextPage?: boolean;
-		totalDocs?: number;
-	};
-	updatedAt: string;
-	createdAt: string;
-	_status?: ("draft" | "published") | null;
+  id: number;
+  slug: string;
+  title: string;
+  /**
+   * Header destinations menu sort order. Lower values appear first.
+   */
+  navOrder?: number | null;
+  subtitle?: string | null;
+  excerpt?: string | null;
+  content?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  country: number | Country;
+  mapCenter?: {
+    latitude?: number | null;
+    longitude?: number | null;
+  };
+  heroImage?: (number | null) | Media;
+  gallery?: (number | Media)[] | null;
+  badges?: (number | Badge)[] | null;
+  blocks: (
+    | {
+        image: number | Media;
+        imageAlt?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        note?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'hero';
+      }
+    | {
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'overviewStats';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        gridClassName?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'regular';
+      }
+    | {
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        mapCenter?: {
+          latitude?: number | null;
+          longitude?: number | null;
+        };
+        zoom?: number | null;
+        stops?:
+          | {
+              entityType: 'country' | 'region' | 'city' | 'attraction';
+              relation:
+                | {
+                    relationTo: 'countries';
+                    value: number | Country;
+                  }
+                | {
+                    relationTo: 'regions';
+                    value: number | Region;
+                  }
+                | {
+                    relationTo: 'cities';
+                    value: number | City;
+                  }
+                | {
+                    relationTo: 'attractions';
+                    value: number | Attraction;
+                  };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'routeMap';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        questions?:
+          | {
+              icon: string;
+              title: string;
+              description: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'faq';
+      }
+    | {
+        image?: (number | null) | Media;
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'cta';
+      }
+  )[];
+  seo?: {
+    metaTitle?: string | null;
+    metaDescription?: string | null;
+    canonicalOverride?: string | null;
+    ogTitle?: string | null;
+    ogDescription?: string | null;
+    ogImage?: (number | null) | Media;
+    robotsNoindex?: boolean | null;
+    structuredDataType?: ('WebPage' | 'TouristDestination' | 'TouristAttraction' | 'TouristTrip' | 'Article') | null;
+  };
+  status?: {
+    noindex?: boolean | null;
+    showInSitemap?: boolean | null;
+    publishedAt?: string | null;
+  };
+  cities?: {
+    docs?: (number | City)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  updatedAt: string;
+  createdAt: string;
+  _status?: ('draft' | 'published') | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "experiences".
  */
 export interface Experience {
-	id: number;
-	slug: string;
-	title: string;
-	subtitle?: string | null;
-	excerpt?: string | null;
-	content?: {
-		root: {
-			type: string;
-			children: {
-				type: any;
-				version: number;
-				[k: string]: unknown;
-			}[];
-			direction: ("ltr" | "rtl") | null;
-			format:
-				| "left"
-				| "start"
-				| "center"
-				| "right"
-				| "end"
-				| "justify"
-				| "";
-			indent: number;
-			version: number;
-		};
-		[k: string]: unknown;
-	} | null;
-	type?:
-		| (
-				| "WORKSHOP"
-				| "MASTERCLASS"
-				| "TASTING"
-				| "GUIDED_TOUR"
-				| "FOOD_EXPERIENCE"
-				| "CULTURAL_EVENT"
-				| "PERFORMANCE"
-				| "OUTDOOR_ACTIVITY"
-				| "ADVENTURE_ACTIVITY"
-				| "WELLNESS_ACTIVITY"
-				| "STAY_EXPERIENCE"
-		  )
-		| null;
-	themes?: (number | Theme)[] | null;
-	country: number | Country;
-	region?: (number | null) | Region;
-	city?: (number | null) | City;
-	attraction?: (number | null) | Attraction;
-	duration?: string | null;
-	/**
-	 * Manually curated similar experiences shown on the detail page.
-	 */
-	relatedExperiences?: (number | Experience)[] | null;
-	/**
-	 * Show in featured strips (homepage, hub).
-	 */
-	featured?: boolean | null;
-	/**
-	 * Listing order. Lower values appear first.
-	 */
-	sortOrder?: number | null;
-	/**
-	 * Query string for the commercial catalog CTA, e.g. destination=Uzbekistan.
-	 */
-	catalogQuery?: string | null;
-	heroImage?: (number | null) | Media;
-	gallery?: (number | Media)[] | null;
-	badges?: (number | Badge)[] | null;
-	blocks: (
-		| {
-				image: number | Media;
-				imageAlt?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				note?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "hero";
-		  }
-		| {
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "overviewStats";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				gridClassName?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "regular";
-		  }
-		| {
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				mapCenter?: {
-					latitude?: number | null;
-					longitude?: number | null;
-				};
-				zoom?: number | null;
-				stops?:
-					| {
-							entityType:
-								| "country"
-								| "region"
-								| "city"
-								| "attraction";
-							relation:
-								| {
-										relationTo: "countries";
-										value: number | Country;
-								  }
-								| {
-										relationTo: "regions";
-										value: number | Region;
-								  }
-								| {
-										relationTo: "cities";
-										value: number | City;
-								  }
-								| {
-										relationTo: "attractions";
-										value: number | Attraction;
-								  };
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "routeMap";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				questions?:
-					| {
-							icon: string;
-							title: string;
-							description: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							};
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "faq";
-		  }
-		| {
-				image?: (number | null) | Media;
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "cta";
-		  }
-	)[];
-	seo?: {
-		metaTitle?: string | null;
-		metaDescription?: string | null;
-		canonicalOverride?: string | null;
-		ogTitle?: string | null;
-		ogDescription?: string | null;
-		ogImage?: (number | null) | Media;
-		robotsNoindex?: boolean | null;
-		structuredDataType?:
-			| (
-					| "WebPage"
-					| "TouristDestination"
-					| "TouristAttraction"
-					| "TouristTrip"
-					| "Article"
-			  )
-			| null;
-	};
-	status?: {
-		noindex?: boolean | null;
-		showInSitemap?: boolean | null;
-		publishedAt?: string | null;
-	};
-	relatedRoutes?: {
-		docs?: (number | Route)[];
-		hasNextPage?: boolean;
-		totalDocs?: number;
-	};
-	updatedAt: string;
-	createdAt: string;
-	_status?: ("draft" | "published") | null;
+  id: number;
+  slug: string;
+  title: string;
+  subtitle?: string | null;
+  excerpt?: string | null;
+  content?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  type?:
+    | (
+        | 'WORKSHOP'
+        | 'MASTERCLASS'
+        | 'TASTING'
+        | 'GUIDED_TOUR'
+        | 'FOOD_EXPERIENCE'
+        | 'CULTURAL_EVENT'
+        | 'PERFORMANCE'
+        | 'OUTDOOR_ACTIVITY'
+        | 'ADVENTURE_ACTIVITY'
+        | 'WELLNESS_ACTIVITY'
+        | 'STAY_EXPERIENCE'
+      )
+    | null;
+  themes?: (number | Theme)[] | null;
+  country: number | Country;
+  region?: (number | null) | Region;
+  city?: (number | null) | City;
+  attraction?: (number | null) | Attraction;
+  duration?: string | null;
+  /**
+   * Manually curated similar experiences shown on the detail page.
+   */
+  relatedExperiences?: (number | Experience)[] | null;
+  /**
+   * Show in featured strips (homepage, hub).
+   */
+  featured?: boolean | null;
+  /**
+   * Listing order. Lower values appear first.
+   */
+  sortOrder?: number | null;
+  /**
+   * Query string for the commercial catalog CTA, e.g. destination=Uzbekistan.
+   */
+  catalogQuery?: string | null;
+  heroImage?: (number | null) | Media;
+  gallery?: (number | Media)[] | null;
+  badges?: (number | Badge)[] | null;
+  blocks: (
+    | {
+        image: number | Media;
+        imageAlt?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        note?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'hero';
+      }
+    | {
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'overviewStats';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        gridClassName?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'regular';
+      }
+    | {
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        mapCenter?: {
+          latitude?: number | null;
+          longitude?: number | null;
+        };
+        zoom?: number | null;
+        stops?:
+          | {
+              entityType: 'country' | 'region' | 'city' | 'attraction';
+              relation:
+                | {
+                    relationTo: 'countries';
+                    value: number | Country;
+                  }
+                | {
+                    relationTo: 'regions';
+                    value: number | Region;
+                  }
+                | {
+                    relationTo: 'cities';
+                    value: number | City;
+                  }
+                | {
+                    relationTo: 'attractions';
+                    value: number | Attraction;
+                  };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'routeMap';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        questions?:
+          | {
+              icon: string;
+              title: string;
+              description: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'faq';
+      }
+    | {
+        image?: (number | null) | Media;
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'cta';
+      }
+  )[];
+  seo?: {
+    metaTitle?: string | null;
+    metaDescription?: string | null;
+    canonicalOverride?: string | null;
+    ogTitle?: string | null;
+    ogDescription?: string | null;
+    ogImage?: (number | null) | Media;
+    robotsNoindex?: boolean | null;
+    structuredDataType?: ('WebPage' | 'TouristDestination' | 'TouristAttraction' | 'TouristTrip' | 'Article') | null;
+  };
+  status?: {
+    noindex?: boolean | null;
+    showInSitemap?: boolean | null;
+    publishedAt?: string | null;
+  };
+  relatedRoutes?: {
+    docs?: (number | Route)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  updatedAt: string;
+  createdAt: string;
+  _status?: ('draft' | 'published') | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "themes".
  */
 export interface Theme {
-	id: number;
-	slug: string;
-	title: string;
-	icon?: string | null;
-	description?: string | null;
-	/**
-	 * Show in featured theme chips (homepage, hubs).
-	 */
-	featured?: boolean | null;
-	/**
-	 * Order in filter chips. Lower values appear first.
-	 */
-	sortOrder?: number | null;
-	blocks: (
-		| {
-				image: number | Media;
-				imageAlt?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				note?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "hero";
-		  }
-		| {
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "overviewStats";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				gridClassName?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "regular";
-		  }
-		| {
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				mapCenter?: {
-					latitude?: number | null;
-					longitude?: number | null;
-				};
-				zoom?: number | null;
-				stops?:
-					| {
-							entityType:
-								| "country"
-								| "region"
-								| "city"
-								| "attraction";
-							relation:
-								| {
-										relationTo: "countries";
-										value: number | Country;
-								  }
-								| {
-										relationTo: "regions";
-										value: number | Region;
-								  }
-								| {
-										relationTo: "cities";
-										value: number | City;
-								  }
-								| {
-										relationTo: "attractions";
-										value: number | Attraction;
-								  };
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "routeMap";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				questions?:
-					| {
-							icon: string;
-							title: string;
-							description: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							};
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "faq";
-		  }
-		| {
-				image?: (number | null) | Media;
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "cta";
-		  }
-	)[];
-	seo?: {
-		metaTitle?: string | null;
-		metaDescription?: string | null;
-		canonicalOverride?: string | null;
-		ogTitle?: string | null;
-		ogDescription?: string | null;
-		ogImage?: (number | null) | Media;
-		robotsNoindex?: boolean | null;
-		structuredDataType?:
-			| (
-					| "WebPage"
-					| "TouristDestination"
-					| "TouristAttraction"
-					| "TouristTrip"
-					| "Article"
-			  )
-			| null;
-	};
-	routes?: {
-		docs?: (number | Route)[];
-		hasNextPage?: boolean;
-		totalDocs?: number;
-	};
-	experiences?: {
-		docs?: (number | Experience)[];
-		hasNextPage?: boolean;
-		totalDocs?: number;
-	};
-	attractions?: {
-		docs?: (number | Attraction)[];
-		hasNextPage?: boolean;
-		totalDocs?: number;
-	};
-	updatedAt: string;
-	createdAt: string;
-	_status?: ("draft" | "published") | null;
+  id: number;
+  slug: string;
+  title: string;
+  icon?: string | null;
+  description?: string | null;
+  /**
+   * Show in featured theme chips (homepage, hubs).
+   */
+  featured?: boolean | null;
+  /**
+   * Order in filter chips. Lower values appear first.
+   */
+  sortOrder?: number | null;
+  blocks: (
+    | {
+        image: number | Media;
+        imageAlt?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        note?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'hero';
+      }
+    | {
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'overviewStats';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        gridClassName?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'regular';
+      }
+    | {
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        mapCenter?: {
+          latitude?: number | null;
+          longitude?: number | null;
+        };
+        zoom?: number | null;
+        stops?:
+          | {
+              entityType: 'country' | 'region' | 'city' | 'attraction';
+              relation:
+                | {
+                    relationTo: 'countries';
+                    value: number | Country;
+                  }
+                | {
+                    relationTo: 'regions';
+                    value: number | Region;
+                  }
+                | {
+                    relationTo: 'cities';
+                    value: number | City;
+                  }
+                | {
+                    relationTo: 'attractions';
+                    value: number | Attraction;
+                  };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'routeMap';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        questions?:
+          | {
+              icon: string;
+              title: string;
+              description: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'faq';
+      }
+    | {
+        image?: (number | null) | Media;
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'cta';
+      }
+  )[];
+  seo?: {
+    metaTitle?: string | null;
+    metaDescription?: string | null;
+    canonicalOverride?: string | null;
+    ogTitle?: string | null;
+    ogDescription?: string | null;
+    ogImage?: (number | null) | Media;
+    robotsNoindex?: boolean | null;
+    structuredDataType?: ('WebPage' | 'TouristDestination' | 'TouristAttraction' | 'TouristTrip' | 'Article') | null;
+  };
+  routes?: {
+    docs?: (number | Route)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  experiences?: {
+    docs?: (number | Experience)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  attractions?: {
+    docs?: (number | Attraction)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  updatedAt: string;
+  createdAt: string;
+  _status?: ('draft' | 'published') | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "trade-fairs".
  */
 export interface TradeFair {
-	id: number;
-	slug: string;
-	title: string;
-	excerpt?: string | null;
-	content?: {
-		root: {
-			type: string;
-			children: {
-				type: any;
-				version: number;
-				[k: string]: unknown;
-			}[];
-			direction: ("ltr" | "rtl") | null;
-			format:
-				| "left"
-				| "start"
-				| "center"
-				| "right"
-				| "end"
-				| "justify"
-				| "";
-			indent: number;
-			version: number;
-		};
-		[k: string]: unknown;
-	} | null;
-	startDate?: string | null;
-	endDate?: string | null;
-	cityRelation?: (number | null) | City;
-	cityName?: string | null;
-	countryName?: string | null;
-	website?: string | null;
-	gallery?: (number | Media)[] | null;
-	badges?: (number | Badge)[] | null;
-	blocks: (
-		| {
-				image: number | Media;
-				imageAlt?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				note?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "hero";
-		  }
-		| {
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "overviewStats";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				gridClassName?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "regular";
-		  }
-		| {
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				mapCenter?: {
-					latitude?: number | null;
-					longitude?: number | null;
-				};
-				zoom?: number | null;
-				stops?:
-					| {
-							entityType:
-								| "country"
-								| "region"
-								| "city"
-								| "attraction";
-							relation:
-								| {
-										relationTo: "countries";
-										value: number | Country;
-								  }
-								| {
-										relationTo: "regions";
-										value: number | Region;
-								  }
-								| {
-										relationTo: "cities";
-										value: number | City;
-								  }
-								| {
-										relationTo: "attractions";
-										value: number | Attraction;
-								  };
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "routeMap";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				questions?:
-					| {
-							icon: string;
-							title: string;
-							description: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							};
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "faq";
-		  }
-		| {
-				image?: (number | null) | Media;
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "cta";
-		  }
-	)[];
-	seo?: {
-		metaTitle?: string | null;
-		metaDescription?: string | null;
-		canonicalOverride?: string | null;
-		ogTitle?: string | null;
-		ogDescription?: string | null;
-		ogImage?: (number | null) | Media;
-		robotsNoindex?: boolean | null;
-		structuredDataType?:
-			| (
-					| "WebPage"
-					| "TouristDestination"
-					| "TouristAttraction"
-					| "TouristTrip"
-					| "Article"
-			  )
-			| null;
-	};
-	status?: {
-		noindex?: boolean | null;
-		showInSitemap?: boolean | null;
-		publishedAt?: string | null;
-	};
-	updatedAt: string;
-	createdAt: string;
-	_status?: ("draft" | "published") | null;
+  id: number;
+  slug: string;
+  title: string;
+  excerpt?: string | null;
+  content?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  startDate?: string | null;
+  endDate?: string | null;
+  cityRelation?: (number | null) | City;
+  cityName?: string | null;
+  countryName?: string | null;
+  website?: string | null;
+  gallery?: (number | Media)[] | null;
+  badges?: (number | Badge)[] | null;
+  blocks: (
+    | {
+        image: number | Media;
+        imageAlt?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        note?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'hero';
+      }
+    | {
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'overviewStats';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        gridClassName?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'regular';
+      }
+    | {
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        mapCenter?: {
+          latitude?: number | null;
+          longitude?: number | null;
+        };
+        zoom?: number | null;
+        stops?:
+          | {
+              entityType: 'country' | 'region' | 'city' | 'attraction';
+              relation:
+                | {
+                    relationTo: 'countries';
+                    value: number | Country;
+                  }
+                | {
+                    relationTo: 'regions';
+                    value: number | Region;
+                  }
+                | {
+                    relationTo: 'cities';
+                    value: number | City;
+                  }
+                | {
+                    relationTo: 'attractions';
+                    value: number | Attraction;
+                  };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'routeMap';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        questions?:
+          | {
+              icon: string;
+              title: string;
+              description: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'faq';
+      }
+    | {
+        image?: (number | null) | Media;
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'cta';
+      }
+  )[];
+  seo?: {
+    metaTitle?: string | null;
+    metaDescription?: string | null;
+    canonicalOverride?: string | null;
+    ogTitle?: string | null;
+    ogDescription?: string | null;
+    ogImage?: (number | null) | Media;
+    robotsNoindex?: boolean | null;
+    structuredDataType?: ('WebPage' | 'TouristDestination' | 'TouristAttraction' | 'TouristTrip' | 'Article') | null;
+  };
+  status?: {
+    noindex?: boolean | null;
+    showInSitemap?: boolean | null;
+    publishedAt?: string | null;
+  };
+  updatedAt: string;
+  createdAt: string;
+  _status?: ('draft' | 'published') | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "journal-entries".
  */
 export interface JournalEntry {
-	id: number;
-	slug: string;
-	title: string;
-	subtitle?: string | null;
-	excerpt?: string | null;
-	content?: {
-		root: {
-			type: string;
-			children: {
-				type: any;
-				version: number;
-				[k: string]: unknown;
-			}[];
-			direction: ("ltr" | "rtl") | null;
-			format:
-				| "left"
-				| "start"
-				| "center"
-				| "right"
-				| "end"
-				| "justify"
-				| "";
-			indent: number;
-			version: number;
-		};
-		[k: string]: unknown;
-	} | null;
-	coverImage?: (number | null) | Media;
-	tags?:
-		| {
-				tag: string;
-				id?: string | null;
-		  }[]
-		| null;
-	badges?: (number | Badge)[] | null;
-	relatedCountries?: (number | Country)[] | null;
-	relatedCities?: (number | City)[] | null;
-	relatedRoutes?: (number | Route)[] | null;
-	blocks: (
-		| {
-				image: number | Media;
-				imageAlt?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				note?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "hero";
-		  }
-		| {
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "overviewStats";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				gridClassName?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "regular";
-		  }
-		| {
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				mapCenter?: {
-					latitude?: number | null;
-					longitude?: number | null;
-				};
-				zoom?: number | null;
-				stops?:
-					| {
-							entityType:
-								| "country"
-								| "region"
-								| "city"
-								| "attraction";
-							relation:
-								| {
-										relationTo: "countries";
-										value: number | Country;
-								  }
-								| {
-										relationTo: "regions";
-										value: number | Region;
-								  }
-								| {
-										relationTo: "cities";
-										value: number | City;
-								  }
-								| {
-										relationTo: "attractions";
-										value: number | Attraction;
-								  };
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "routeMap";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				questions?:
-					| {
-							icon: string;
-							title: string;
-							description: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							};
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "faq";
-		  }
-		| {
-				image?: (number | null) | Media;
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "cta";
-		  }
-	)[];
-	seo?: {
-		metaTitle?: string | null;
-		metaDescription?: string | null;
-		canonicalOverride?: string | null;
-		ogTitle?: string | null;
-		ogDescription?: string | null;
-		ogImage?: (number | null) | Media;
-		robotsNoindex?: boolean | null;
-		structuredDataType?:
-			| (
-					| "WebPage"
-					| "TouristDestination"
-					| "TouristAttraction"
-					| "TouristTrip"
-					| "Article"
-			  )
-			| null;
-	};
-	status?: {
-		noindex?: boolean | null;
-		showInSitemap?: boolean | null;
-		publishedAt?: string | null;
-	};
-	updatedAt: string;
-	createdAt: string;
-	_status?: ("draft" | "published") | null;
+  id: number;
+  slug: string;
+  title: string;
+  subtitle?: string | null;
+  excerpt?: string | null;
+  content?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  coverImage?: (number | null) | Media;
+  tags?:
+    | {
+        tag: string;
+        id?: string | null;
+      }[]
+    | null;
+  badges?: (number | Badge)[] | null;
+  relatedCountries?: (number | Country)[] | null;
+  relatedCities?: (number | City)[] | null;
+  relatedRoutes?: (number | Route)[] | null;
+  blocks: (
+    | {
+        image: number | Media;
+        imageAlt?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        note?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'hero';
+      }
+    | {
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'overviewStats';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        gridClassName?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'regular';
+      }
+    | {
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        mapCenter?: {
+          latitude?: number | null;
+          longitude?: number | null;
+        };
+        zoom?: number | null;
+        stops?:
+          | {
+              entityType: 'country' | 'region' | 'city' | 'attraction';
+              relation:
+                | {
+                    relationTo: 'countries';
+                    value: number | Country;
+                  }
+                | {
+                    relationTo: 'regions';
+                    value: number | Region;
+                  }
+                | {
+                    relationTo: 'cities';
+                    value: number | City;
+                  }
+                | {
+                    relationTo: 'attractions';
+                    value: number | Attraction;
+                  };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'routeMap';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        questions?:
+          | {
+              icon: string;
+              title: string;
+              description: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'faq';
+      }
+    | {
+        image?: (number | null) | Media;
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'cta';
+      }
+  )[];
+  seo?: {
+    metaTitle?: string | null;
+    metaDescription?: string | null;
+    canonicalOverride?: string | null;
+    ogTitle?: string | null;
+    ogDescription?: string | null;
+    ogImage?: (number | null) | Media;
+    robotsNoindex?: boolean | null;
+    structuredDataType?: ('WebPage' | 'TouristDestination' | 'TouristAttraction' | 'TouristTrip' | 'Article') | null;
+  };
+  status?: {
+    noindex?: boolean | null;
+    showInSitemap?: boolean | null;
+    publishedAt?: string | null;
+  };
+  updatedAt: string;
+  createdAt: string;
+  _status?: ('draft' | 'published') | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "attractions".
  */
 export interface Attraction {
-	id: number;
-	slug: string;
-	title: string;
-	subtitle?: string | null;
-	excerpt?: string | null;
-	content?: {
-		root: {
-			type: string;
-			children: {
-				type: any;
-				version: number;
-				[k: string]: unknown;
-			}[];
-			direction: ("ltr" | "rtl") | null;
-			format:
-				| "left"
-				| "start"
-				| "center"
-				| "right"
-				| "end"
-				| "justify"
-				| "";
-			indent: number;
-			version: number;
-		};
-		[k: string]: unknown;
-	} | null;
-	country: number | Country;
-	region?: (number | null) | Region;
-	city: number | City;
-	type?:
-		| (
-				| "LANDMARK"
-				| "MUSEUM"
-				| "MOSQUE"
-				| "MADRASA"
-				| "MAUSOLEUM"
-				| "FORTRESS"
-				| "PALACE"
-				| "BAZAAR"
-				| "PARK"
-				| "GARDEN"
-				| "SQUARE"
-				| "LAKE"
-				| "MOUNTAIN"
-				| "VIEWPOINT"
-				| "CULTURAL_SITE"
-				| "NATURAL_SITE"
-				| "RELIGIOUS_SITE"
-		  )
-		| null;
-	importance?: ("MUST_SEE" | "RECOMMENDED" | "OPTIONAL") | null;
-	latitude: number;
-	longitude: number;
-	themes?: (number | Theme)[] | null;
-	nearbyAttractions?: (number | Attraction)[] | null;
-	heroImage?: (number | null) | Media;
-	gallery?: (number | Media)[] | null;
-	badges?: (number | Badge)[] | null;
-	blocks: (
-		| {
-				image: number | Media;
-				imageAlt?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				note?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "hero";
-		  }
-		| {
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "overviewStats";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				gridClassName?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "regular";
-		  }
-		| {
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				mapCenter?: {
-					latitude?: number | null;
-					longitude?: number | null;
-				};
-				zoom?: number | null;
-				stops?:
-					| {
-							entityType:
-								| "country"
-								| "region"
-								| "city"
-								| "attraction";
-							relation:
-								| {
-										relationTo: "countries";
-										value: number | Country;
-								  }
-								| {
-										relationTo: "regions";
-										value: number | Region;
-								  }
-								| {
-										relationTo: "cities";
-										value: number | City;
-								  }
-								| {
-										relationTo: "attractions";
-										value: number | Attraction;
-								  };
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "routeMap";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				questions?:
-					| {
-							icon: string;
-							title: string;
-							description: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							};
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "faq";
-		  }
-		| {
-				image?: (number | null) | Media;
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "cta";
-		  }
-	)[];
-	seo?: {
-		metaTitle?: string | null;
-		metaDescription?: string | null;
-		canonicalOverride?: string | null;
-		ogTitle?: string | null;
-		ogDescription?: string | null;
-		ogImage?: (number | null) | Media;
-		robotsNoindex?: boolean | null;
-		structuredDataType?:
-			| (
-					| "WebPage"
-					| "TouristDestination"
-					| "TouristAttraction"
-					| "TouristTrip"
-					| "Article"
-			  )
-			| null;
-	};
-	status?: {
-		noindex?: boolean | null;
-		showInSitemap?: boolean | null;
-		publishedAt?: string | null;
-	};
-	experiences?: {
-		docs?: (number | Experience)[];
-		hasNextPage?: boolean;
-		totalDocs?: number;
-	};
-	relatedRoutes?: {
-		docs?: (number | Route)[];
-		hasNextPage?: boolean;
-		totalDocs?: number;
-	};
-	updatedAt: string;
-	createdAt: string;
-	_status?: ("draft" | "published") | null;
+  id: number;
+  slug: string;
+  title: string;
+  subtitle?: string | null;
+  excerpt?: string | null;
+  content?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  country: number | Country;
+  region?: (number | null) | Region;
+  city: number | City;
+  type?:
+    | (
+        | 'LANDMARK'
+        | 'MUSEUM'
+        | 'MOSQUE'
+        | 'MADRASA'
+        | 'MAUSOLEUM'
+        | 'FORTRESS'
+        | 'PALACE'
+        | 'BAZAAR'
+        | 'PARK'
+        | 'GARDEN'
+        | 'SQUARE'
+        | 'LAKE'
+        | 'MOUNTAIN'
+        | 'VIEWPOINT'
+        | 'CULTURAL_SITE'
+        | 'NATURAL_SITE'
+        | 'RELIGIOUS_SITE'
+      )
+    | null;
+  importance?: ('MUST_SEE' | 'RECOMMENDED' | 'OPTIONAL') | null;
+  latitude: number;
+  longitude: number;
+  themes?: (number | Theme)[] | null;
+  nearbyAttractions?: (number | Attraction)[] | null;
+  heroImage?: (number | null) | Media;
+  gallery?: (number | Media)[] | null;
+  badges?: (number | Badge)[] | null;
+  blocks: (
+    | {
+        image: number | Media;
+        imageAlt?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        note?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'hero';
+      }
+    | {
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'overviewStats';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        gridClassName?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'regular';
+      }
+    | {
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        mapCenter?: {
+          latitude?: number | null;
+          longitude?: number | null;
+        };
+        zoom?: number | null;
+        stops?:
+          | {
+              entityType: 'country' | 'region' | 'city' | 'attraction';
+              relation:
+                | {
+                    relationTo: 'countries';
+                    value: number | Country;
+                  }
+                | {
+                    relationTo: 'regions';
+                    value: number | Region;
+                  }
+                | {
+                    relationTo: 'cities';
+                    value: number | City;
+                  }
+                | {
+                    relationTo: 'attractions';
+                    value: number | Attraction;
+                  };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'routeMap';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        questions?:
+          | {
+              icon: string;
+              title: string;
+              description: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'faq';
+      }
+    | {
+        image?: (number | null) | Media;
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'cta';
+      }
+  )[];
+  seo?: {
+    metaTitle?: string | null;
+    metaDescription?: string | null;
+    canonicalOverride?: string | null;
+    ogTitle?: string | null;
+    ogDescription?: string | null;
+    ogImage?: (number | null) | Media;
+    robotsNoindex?: boolean | null;
+    structuredDataType?: ('WebPage' | 'TouristDestination' | 'TouristAttraction' | 'TouristTrip' | 'Article') | null;
+  };
+  status?: {
+    noindex?: boolean | null;
+    showInSitemap?: boolean | null;
+    publishedAt?: string | null;
+  };
+  experiences?: {
+    docs?: (number | Experience)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  relatedRoutes?: {
+    docs?: (number | Route)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  updatedAt: string;
+  createdAt: string;
+  _status?: ('draft' | 'published') | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "map-points".
  */
 export interface MapPoint {
-	id: number;
-	route: number | Route;
-	order: number;
-	type:
-		| "CITY"
-		| "ATTRACTION"
-		| "OVERNIGHT"
-		| "BORDER"
-		| "AIRPORT"
-		| "WAYPOINT";
-	city?: (number | null) | City;
-	attraction?: (number | null) | Attraction;
-	latitude: number;
-	longitude: number;
-	title?: string | null;
-	updatedAt: string;
-	createdAt: string;
+  id: number;
+  route: number | Route;
+  order: number;
+  type: 'CITY' | 'ATTRACTION' | 'OVERNIGHT' | 'BORDER' | 'AIRPORT' | 'WAYPOINT';
+  city?: (number | null) | City;
+  attraction?: (number | null) | Attraction;
+  latitude: number;
+  longitude: number;
+  title?: string | null;
+  updatedAt: string;
+  createdAt: string;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "pages".
  */
 export interface Page {
-	id: number;
-	segment?: (number | null) | Segment;
-	/**
-	 * Optional URL namespace: /{segment}/{pathGroup}/{slug}. Empty = standard /{segment}/{slug}.
-	 */
-	pathGroup?: "team" | null;
-	slug: string;
-	title: string;
-	seo?: {
-		metaTitle?: string | null;
-		metaDescription?: string | null;
-		canonicalOverride?: string | null;
-		ogTitle?: string | null;
-		ogDescription?: string | null;
-		ogImage?: (number | null) | Media;
-		robotsNoindex?: boolean | null;
-		structuredDataType?:
-			| (
-					| "WebPage"
-					| "TouristDestination"
-					| "TouristAttraction"
-					| "TouristTrip"
-					| "Article"
-			  )
-			| null;
-	};
-	blocks: (
-		| {
-				image: number | Media;
-				imageAlt?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				note?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "hero";
-		  }
-		| {
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "overviewStats";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				gridClassName?: string | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				cards?:
-					| {
-							type:
-								| "country"
-								| "destinationInsight"
-								| "teamMember"
-								| "routeIdea"
-								| "experience"
-								| "tradeFair"
-								| "journal"
-								| "overviewStat"
-								| "servicesBusiness"
-								| "servicesDirection"
-								| "servicesProcess"
-								| "tripFormat";
-							relatedDoc?:
-								| ({
-										relationTo: "routes";
-										value: number | Route;
-								  } | null)
-								| ({
-										relationTo: "experiences";
-										value: number | Experience;
-								  } | null)
-								| ({
-										relationTo: "trade-fairs";
-										value: number | TradeFair;
-								  } | null)
-								| ({
-										relationTo: "journal-entries";
-										value: number | JournalEntry;
-								  } | null);
-							href?: string | null;
-							image?: (number | null) | Media;
-							badge?: string | null;
-							title?: string | null;
-							description?: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							} | null;
-							meta?: string | null;
-							value?: string | null;
-							cities?:
-								| {
-										name?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							featured?: boolean | null;
-							ctaHref?: string | null;
-							ctaLabel?: string | null;
-							stand?: string | null;
-							country?: string | null;
-							participants?: string | null;
-							step?: string | null;
-							icon?: string | null;
-							className?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "regular";
-		  }
-		| {
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				mapCenter?: {
-					latitude?: number | null;
-					longitude?: number | null;
-				};
-				zoom?: number | null;
-				stops?:
-					| {
-							entityType:
-								| "country"
-								| "region"
-								| "city"
-								| "attraction";
-							relation:
-								| {
-										relationTo: "countries";
-										value: number | Country;
-								  }
-								| {
-										relationTo: "regions";
-										value: number | Region;
-								  }
-								| {
-										relationTo: "cities";
-										value: number | City;
-								  }
-								| {
-										relationTo: "attractions";
-										value: number | Attraction;
-								  };
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "routeMap";
-		  }
-		| {
-				eyebrow?: string | null;
-				title: string;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				questions?:
-					| {
-							icon: string;
-							title: string;
-							description: {
-								root: {
-									type: string;
-									children: {
-										type: any;
-										version: number;
-										[k: string]: unknown;
-									}[];
-									direction: ("ltr" | "rtl") | null;
-									format:
-										| "left"
-										| "start"
-										| "center"
-										| "right"
-										| "end"
-										| "justify"
-										| "";
-									indent: number;
-									version: number;
-								};
-								[k: string]: unknown;
-							};
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "faq";
-		  }
-		| {
-				image?: (number | null) | Media;
-				eyebrow?: string | null;
-				title?: string | null;
-				description?: {
-					root: {
-						type: string;
-						children: {
-							type: any;
-							version: number;
-							[k: string]: unknown;
-						}[];
-						direction: ("ltr" | "rtl") | null;
-						format:
-							| "left"
-							| "start"
-							| "center"
-							| "right"
-							| "end"
-							| "justify"
-							| "";
-						indent: number;
-						version: number;
-					};
-					[k: string]: unknown;
-				} | null;
-				actions?:
-					| {
-							type: "mailto" | "link" | "tel";
-							variant?:
-								| (
-										| "default"
-										| "destructive"
-										| "outline"
-										| "secondary"
-										| "ghost"
-										| "link"
-								  )
-								| null;
-							title: string;
-							href?: string | null;
-							email?: string | null;
-							phone?: string | null;
-							target?: ("_self" | "_blank") | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-				blockName?: string | null;
-				blockType: "cta";
-		  }
-	)[];
-	status?: {
-		noindex?: boolean | null;
-		showInSitemap?: boolean | null;
-		publishedAt?: string | null;
-	};
-	updatedAt: string;
-	createdAt: string;
-	_status?: ("draft" | "published") | null;
+  id: number;
+  segment?: (number | null) | Segment;
+  /**
+   * Optional URL namespace: /{segment}/{pathGroup}/{slug}. Empty = standard /{segment}/{slug}.
+   */
+  pathGroup?: 'team' | null;
+  slug: string;
+  title: string;
+  seo?: {
+    metaTitle?: string | null;
+    metaDescription?: string | null;
+    canonicalOverride?: string | null;
+    ogTitle?: string | null;
+    ogDescription?: string | null;
+    ogImage?: (number | null) | Media;
+    robotsNoindex?: boolean | null;
+    structuredDataType?: ('WebPage' | 'TouristDestination' | 'TouristAttraction' | 'TouristTrip' | 'Article') | null;
+  };
+  blocks: (
+    | {
+        image: number | Media;
+        imageAlt?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        note?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'hero';
+      }
+    | {
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'overviewStats';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        gridClassName?: string | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        cards?:
+          | {
+              type:
+                | 'country'
+                | 'destinationInsight'
+                | 'teamMember'
+                | 'routeIdea'
+                | 'experience'
+                | 'tradeFair'
+                | 'journal'
+                | 'overviewStat'
+                | 'servicesBusiness'
+                | 'servicesDirection'
+                | 'servicesProcess'
+                | 'tripFormat';
+              relatedDoc?:
+                | ({
+                    relationTo: 'routes';
+                    value: number | Route;
+                  } | null)
+                | ({
+                    relationTo: 'experiences';
+                    value: number | Experience;
+                  } | null)
+                | ({
+                    relationTo: 'trade-fairs';
+                    value: number | TradeFair;
+                  } | null)
+                | ({
+                    relationTo: 'journal-entries';
+                    value: number | JournalEntry;
+                  } | null);
+              href?: string | null;
+              image?: (number | null) | Media;
+              badge?: string | null;
+              title?: string | null;
+              description?: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              } | null;
+              meta?: string | null;
+              value?: string | null;
+              cities?:
+                | {
+                    name?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              featured?: boolean | null;
+              ctaHref?: string | null;
+              ctaLabel?: string | null;
+              stand?: string | null;
+              country?: string | null;
+              participants?: string | null;
+              step?: string | null;
+              icon?: string | null;
+              className?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'regular';
+      }
+    | {
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        mapCenter?: {
+          latitude?: number | null;
+          longitude?: number | null;
+        };
+        zoom?: number | null;
+        stops?:
+          | {
+              entityType: 'country' | 'region' | 'city' | 'attraction';
+              relation:
+                | {
+                    relationTo: 'countries';
+                    value: number | Country;
+                  }
+                | {
+                    relationTo: 'regions';
+                    value: number | Region;
+                  }
+                | {
+                    relationTo: 'cities';
+                    value: number | City;
+                  }
+                | {
+                    relationTo: 'attractions';
+                    value: number | Attraction;
+                  };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'routeMap';
+      }
+    | {
+        eyebrow?: string | null;
+        title: string;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        questions?:
+          | {
+              icon: string;
+              title: string;
+              description: {
+                root: {
+                  type: string;
+                  children: {
+                    type: any;
+                    version: number;
+                    [k: string]: unknown;
+                  }[];
+                  direction: ('ltr' | 'rtl') | null;
+                  format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                  indent: number;
+                  version: number;
+                };
+                [k: string]: unknown;
+              };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'faq';
+      }
+    | {
+        image?: (number | null) | Media;
+        eyebrow?: string | null;
+        title?: string | null;
+        description?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        actions?:
+          | {
+              type: 'mailto' | 'link' | 'tel';
+              variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+              title: string;
+              href?: string | null;
+              email?: string | null;
+              phone?: string | null;
+              target?: ('_self' | '_blank') | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'cta';
+      }
+  )[];
+  status?: {
+    noindex?: boolean | null;
+    showInSitemap?: boolean | null;
+    publishedAt?: string | null;
+  };
+  updatedAt: string;
+  createdAt: string;
+  _status?: ('draft' | 'published') | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "segments".
  */
 export interface Segment {
-	id: number;
-	title: string;
-	slug: string;
-	description?: string | null;
-	pages?: {
-		docs?: (number | Page)[];
-		hasNextPage?: boolean;
-		totalDocs?: number;
-	};
-	status?: {
-		noindex?: boolean | null;
-		showInSitemap?: boolean | null;
-		publishedAt?: string | null;
-	};
-	updatedAt: string;
-	createdAt: string;
-	_status?: ("draft" | "published") | null;
+  id: number;
+  title: string;
+  slug: string;
+  description?: string | null;
+  pages?: {
+    docs?: (number | Page)[];
+    hasNextPage?: boolean;
+    totalDocs?: number;
+  };
+  status?: {
+    noindex?: boolean | null;
+    showInSitemap?: boolean | null;
+    publishedAt?: string | null;
+  };
+  updatedAt: string;
+  createdAt: string;
+  _status?: ('draft' | 'published') | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "users".
  */
 export interface User {
-	id: number;
-	updatedAt: string;
-	createdAt: string;
-	email: string;
-	resetPasswordToken?: string | null;
-	resetPasswordExpiration?: string | null;
-	salt?: string | null;
-	hash?: string | null;
-	loginAttempts?: number | null;
-	lockUntil?: string | null;
-	sessions?:
-		| {
-				id: string;
-				createdAt?: string | null;
-				expiresAt: string;
-		  }[]
-		| null;
-	password?: string | null;
-	collection: "users";
+  id: number;
+  updatedAt: string;
+  createdAt: string;
+  email: string;
+  resetPasswordToken?: string | null;
+  resetPasswordExpiration?: string | null;
+  salt?: string | null;
+  hash?: string | null;
+  loginAttempts?: number | null;
+  lockUntil?: string | null;
+  sessions?:
+    | {
+        id: string;
+        createdAt?: string | null;
+        expiresAt: string;
+      }[]
+    | null;
+  password?: string | null;
+  collection: 'users';
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-kv".
  */
 export interface PayloadKv {
-	id: number;
-	key: string;
-	data:
-		| {
-				[k: string]: unknown;
-		  }
-		| unknown[]
-		| string
-		| number
-		| boolean
-		| null;
+  id: number;
+  key: string;
+  data:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-locked-documents".
  */
 export interface PayloadLockedDocument {
-	id: number;
-	document?:
-		| ({
-				relationTo: "countries";
-				value: number | Country;
-		  } | null)
-		| ({
-				relationTo: "regions";
-				value: number | Region;
-		  } | null)
-		| ({
-				relationTo: "cities";
-				value: number | City;
-		  } | null)
-		| ({
-				relationTo: "attractions";
-				value: number | Attraction;
-		  } | null)
-		| ({
-				relationTo: "routes";
-				value: number | Route;
-		  } | null)
-		| ({
-				relationTo: "map-points";
-				value: number | MapPoint;
-		  } | null)
-		| ({
-				relationTo: "experiences";
-				value: number | Experience;
-		  } | null)
-		| ({
-				relationTo: "pages";
-				value: number | Page;
-		  } | null)
-		| ({
-				relationTo: "segments";
-				value: number | Segment;
-		  } | null)
-		| ({
-				relationTo: "journal-entries";
-				value: number | JournalEntry;
-		  } | null)
-		| ({
-				relationTo: "themes";
-				value: number | Theme;
-		  } | null)
-		| ({
-				relationTo: "trade-fairs";
-				value: number | TradeFair;
-		  } | null)
-		| ({
-				relationTo: "badges";
-				value: number | Badge;
-		  } | null)
-		| ({
-				relationTo: "media";
-				value: number | Media;
-		  } | null)
-		| ({
-				relationTo: "users";
-				value: number | User;
-		  } | null);
-	globalSlug?: string | null;
-	user: {
-		relationTo: "users";
-		value: number | User;
-	};
-	updatedAt: string;
-	createdAt: string;
+  id: number;
+  document?:
+    | ({
+        relationTo: 'countries';
+        value: number | Country;
+      } | null)
+    | ({
+        relationTo: 'regions';
+        value: number | Region;
+      } | null)
+    | ({
+        relationTo: 'cities';
+        value: number | City;
+      } | null)
+    | ({
+        relationTo: 'attractions';
+        value: number | Attraction;
+      } | null)
+    | ({
+        relationTo: 'routes';
+        value: number | Route;
+      } | null)
+    | ({
+        relationTo: 'map-points';
+        value: number | MapPoint;
+      } | null)
+    | ({
+        relationTo: 'experiences';
+        value: number | Experience;
+      } | null)
+    | ({
+        relationTo: 'pages';
+        value: number | Page;
+      } | null)
+    | ({
+        relationTo: 'segments';
+        value: number | Segment;
+      } | null)
+    | ({
+        relationTo: 'journal-entries';
+        value: number | JournalEntry;
+      } | null)
+    | ({
+        relationTo: 'themes';
+        value: number | Theme;
+      } | null)
+    | ({
+        relationTo: 'trade-fairs';
+        value: number | TradeFair;
+      } | null)
+    | ({
+        relationTo: 'badges';
+        value: number | Badge;
+      } | null)
+    | ({
+        relationTo: 'media';
+        value: number | Media;
+      } | null)
+    | ({
+        relationTo: 'users';
+        value: number | User;
+      } | null);
+  globalSlug?: string | null;
+  user: {
+    relationTo: 'users';
+    value: number | User;
+  };
+  updatedAt: string;
+  createdAt: string;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-preferences".
  */
 export interface PayloadPreference {
-	id: number;
-	user: {
-		relationTo: "users";
-		value: number | User;
-	};
-	key?: string | null;
-	value?:
-		| {
-				[k: string]: unknown;
-		  }
-		| unknown[]
-		| string
-		| number
-		| boolean
-		| null;
-	updatedAt: string;
-	createdAt: string;
+  id: number;
+  user: {
+    relationTo: 'users';
+    value: number | User;
+  };
+  key?: string | null;
+  value?:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
+  updatedAt: string;
+  createdAt: string;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-migrations".
  */
 export interface PayloadMigration {
-	id: number;
-	name?: string | null;
-	batch?: number | null;
-	updatedAt: string;
-	createdAt: string;
+  id: number;
+  name?: string | null;
+  batch?: number | null;
+  updatedAt: string;
+  createdAt: string;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "countries_select".
  */
 export interface CountriesSelect<T extends boolean = true> {
-	slug?: T;
-	title?: T;
-	navOrder?: T;
-	subtitle?: T;
-	excerpt?: T;
-	content?: T;
-	mapCenter?:
-		| T
-		| {
-				latitude?: T;
-				longitude?: T;
-		  };
-	heroImage?: T;
-	gallery?: T;
-	badges?: T;
-	blocks?:
-		| T
-		| {
-				hero?:
-					| T
-					| {
-							image?: T;
-							imageAlt?: T;
-							title?: T;
-							description?: T;
-							note?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				overviewStats?:
-					| T
-					| {
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				regular?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							gridClassName?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				routeMap?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							mapCenter?:
-								| T
-								| {
-										latitude?: T;
-										longitude?: T;
-								  };
-							zoom?: T;
-							stops?:
-								| T
-								| {
-										entityType?: T;
-										relation?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				faq?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							questions?:
-								| T
-								| {
-										icon?: T;
-										title?: T;
-										description?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				cta?:
-					| T
-					| {
-							image?: T;
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-		  };
-	seo?:
-		| T
-		| {
-				metaTitle?: T;
-				metaDescription?: T;
-				canonicalOverride?: T;
-				ogTitle?: T;
-				ogDescription?: T;
-				ogImage?: T;
-				robotsNoindex?: T;
-				structuredDataType?: T;
-		  };
-	status?:
-		| T
-		| {
-				noindex?: T;
-				showInSitemap?: T;
-				publishedAt?: T;
-		  };
-	regions?: T;
-	cities?: T;
-	routes?: T;
-	experiences?: T;
-	updatedAt?: T;
-	createdAt?: T;
-	_status?: T;
+  slug?: T;
+  title?: T;
+  navOrder?: T;
+  subtitle?: T;
+  excerpt?: T;
+  content?: T;
+  mapCenter?:
+    | T
+    | {
+        latitude?: T;
+        longitude?: T;
+      };
+  heroImage?: T;
+  gallery?: T;
+  badges?: T;
+  blocks?:
+    | T
+    | {
+        hero?:
+          | T
+          | {
+              image?: T;
+              imageAlt?: T;
+              title?: T;
+              description?: T;
+              note?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        overviewStats?:
+          | T
+          | {
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        regular?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              gridClassName?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        routeMap?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              mapCenter?:
+                | T
+                | {
+                    latitude?: T;
+                    longitude?: T;
+                  };
+              zoom?: T;
+              stops?:
+                | T
+                | {
+                    entityType?: T;
+                    relation?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        faq?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              questions?:
+                | T
+                | {
+                    icon?: T;
+                    title?: T;
+                    description?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        cta?:
+          | T
+          | {
+              image?: T;
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+      };
+  seo?:
+    | T
+    | {
+        metaTitle?: T;
+        metaDescription?: T;
+        canonicalOverride?: T;
+        ogTitle?: T;
+        ogDescription?: T;
+        ogImage?: T;
+        robotsNoindex?: T;
+        structuredDataType?: T;
+      };
+  status?:
+    | T
+    | {
+        noindex?: T;
+        showInSitemap?: T;
+        publishedAt?: T;
+      };
+  regions?: T;
+  cities?: T;
+  routes?: T;
+  experiences?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  _status?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "regions_select".
  */
 export interface RegionsSelect<T extends boolean = true> {
-	slug?: T;
-	title?: T;
-	navOrder?: T;
-	subtitle?: T;
-	excerpt?: T;
-	content?: T;
-	country?: T;
-	mapCenter?:
-		| T
-		| {
-				latitude?: T;
-				longitude?: T;
-		  };
-	heroImage?: T;
-	gallery?: T;
-	badges?: T;
-	blocks?:
-		| T
-		| {
-				hero?:
-					| T
-					| {
-							image?: T;
-							imageAlt?: T;
-							title?: T;
-							description?: T;
-							note?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				overviewStats?:
-					| T
-					| {
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				regular?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							gridClassName?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				routeMap?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							mapCenter?:
-								| T
-								| {
-										latitude?: T;
-										longitude?: T;
-								  };
-							zoom?: T;
-							stops?:
-								| T
-								| {
-										entityType?: T;
-										relation?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				faq?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							questions?:
-								| T
-								| {
-										icon?: T;
-										title?: T;
-										description?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				cta?:
-					| T
-					| {
-							image?: T;
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-		  };
-	seo?:
-		| T
-		| {
-				metaTitle?: T;
-				metaDescription?: T;
-				canonicalOverride?: T;
-				ogTitle?: T;
-				ogDescription?: T;
-				ogImage?: T;
-				robotsNoindex?: T;
-				structuredDataType?: T;
-		  };
-	status?:
-		| T
-		| {
-				noindex?: T;
-				showInSitemap?: T;
-				publishedAt?: T;
-		  };
-	cities?: T;
-	updatedAt?: T;
-	createdAt?: T;
-	_status?: T;
+  slug?: T;
+  title?: T;
+  navOrder?: T;
+  subtitle?: T;
+  excerpt?: T;
+  content?: T;
+  country?: T;
+  mapCenter?:
+    | T
+    | {
+        latitude?: T;
+        longitude?: T;
+      };
+  heroImage?: T;
+  gallery?: T;
+  badges?: T;
+  blocks?:
+    | T
+    | {
+        hero?:
+          | T
+          | {
+              image?: T;
+              imageAlt?: T;
+              title?: T;
+              description?: T;
+              note?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        overviewStats?:
+          | T
+          | {
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        regular?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              gridClassName?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        routeMap?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              mapCenter?:
+                | T
+                | {
+                    latitude?: T;
+                    longitude?: T;
+                  };
+              zoom?: T;
+              stops?:
+                | T
+                | {
+                    entityType?: T;
+                    relation?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        faq?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              questions?:
+                | T
+                | {
+                    icon?: T;
+                    title?: T;
+                    description?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        cta?:
+          | T
+          | {
+              image?: T;
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+      };
+  seo?:
+    | T
+    | {
+        metaTitle?: T;
+        metaDescription?: T;
+        canonicalOverride?: T;
+        ogTitle?: T;
+        ogDescription?: T;
+        ogImage?: T;
+        robotsNoindex?: T;
+        structuredDataType?: T;
+      };
+  status?:
+    | T
+    | {
+        noindex?: T;
+        showInSitemap?: T;
+        publishedAt?: T;
+      };
+  cities?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  _status?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "cities_select".
  */
 export interface CitiesSelect<T extends boolean = true> {
-	slug?: T;
-	title?: T;
-	navOrder?: T;
-	subtitle?: T;
-	excerpt?: T;
-	content?: T;
-	country?: T;
-	region?: T;
-	latitude?: T;
-	longitude?: T;
-	heroImage?: T;
-	gallery?: T;
-	badges?: T;
-	blocks?:
-		| T
-		| {
-				hero?:
-					| T
-					| {
-							image?: T;
-							imageAlt?: T;
-							title?: T;
-							description?: T;
-							note?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				overviewStats?:
-					| T
-					| {
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				regular?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							gridClassName?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				routeMap?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							mapCenter?:
-								| T
-								| {
-										latitude?: T;
-										longitude?: T;
-								  };
-							zoom?: T;
-							stops?:
-								| T
-								| {
-										entityType?: T;
-										relation?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				faq?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							questions?:
-								| T
-								| {
-										icon?: T;
-										title?: T;
-										description?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				cta?:
-					| T
-					| {
-							image?: T;
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-		  };
-	seo?:
-		| T
-		| {
-				metaTitle?: T;
-				metaDescription?: T;
-				canonicalOverride?: T;
-				ogTitle?: T;
-				ogDescription?: T;
-				ogImage?: T;
-				robotsNoindex?: T;
-				structuredDataType?: T;
-		  };
-	status?:
-		| T
-		| {
-				noindex?: T;
-				showInSitemap?: T;
-				publishedAt?: T;
-		  };
-	attractions?: T;
-	experiences?: T;
-	relatedRoutes?: T;
-	updatedAt?: T;
-	createdAt?: T;
-	_status?: T;
+  slug?: T;
+  title?: T;
+  navOrder?: T;
+  subtitle?: T;
+  excerpt?: T;
+  content?: T;
+  country?: T;
+  region?: T;
+  latitude?: T;
+  longitude?: T;
+  heroImage?: T;
+  gallery?: T;
+  badges?: T;
+  blocks?:
+    | T
+    | {
+        hero?:
+          | T
+          | {
+              image?: T;
+              imageAlt?: T;
+              title?: T;
+              description?: T;
+              note?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        overviewStats?:
+          | T
+          | {
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        regular?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              gridClassName?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        routeMap?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              mapCenter?:
+                | T
+                | {
+                    latitude?: T;
+                    longitude?: T;
+                  };
+              zoom?: T;
+              stops?:
+                | T
+                | {
+                    entityType?: T;
+                    relation?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        faq?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              questions?:
+                | T
+                | {
+                    icon?: T;
+                    title?: T;
+                    description?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        cta?:
+          | T
+          | {
+              image?: T;
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+      };
+  seo?:
+    | T
+    | {
+        metaTitle?: T;
+        metaDescription?: T;
+        canonicalOverride?: T;
+        ogTitle?: T;
+        ogDescription?: T;
+        ogImage?: T;
+        robotsNoindex?: T;
+        structuredDataType?: T;
+      };
+  status?:
+    | T
+    | {
+        noindex?: T;
+        showInSitemap?: T;
+        publishedAt?: T;
+      };
+  attractions?: T;
+  experiences?: T;
+  relatedRoutes?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  _status?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "attractions_select".
  */
 export interface AttractionsSelect<T extends boolean = true> {
-	slug?: T;
-	title?: T;
-	subtitle?: T;
-	excerpt?: T;
-	content?: T;
-	country?: T;
-	region?: T;
-	city?: T;
-	type?: T;
-	importance?: T;
-	latitude?: T;
-	longitude?: T;
-	themes?: T;
-	nearbyAttractions?: T;
-	heroImage?: T;
-	gallery?: T;
-	badges?: T;
-	blocks?:
-		| T
-		| {
-				hero?:
-					| T
-					| {
-							image?: T;
-							imageAlt?: T;
-							title?: T;
-							description?: T;
-							note?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				overviewStats?:
-					| T
-					| {
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				regular?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							gridClassName?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				routeMap?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							mapCenter?:
-								| T
-								| {
-										latitude?: T;
-										longitude?: T;
-								  };
-							zoom?: T;
-							stops?:
-								| T
-								| {
-										entityType?: T;
-										relation?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				faq?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							questions?:
-								| T
-								| {
-										icon?: T;
-										title?: T;
-										description?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				cta?:
-					| T
-					| {
-							image?: T;
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-		  };
-	seo?:
-		| T
-		| {
-				metaTitle?: T;
-				metaDescription?: T;
-				canonicalOverride?: T;
-				ogTitle?: T;
-				ogDescription?: T;
-				ogImage?: T;
-				robotsNoindex?: T;
-				structuredDataType?: T;
-		  };
-	status?:
-		| T
-		| {
-				noindex?: T;
-				showInSitemap?: T;
-				publishedAt?: T;
-		  };
-	experiences?: T;
-	relatedRoutes?: T;
-	updatedAt?: T;
-	createdAt?: T;
-	_status?: T;
+  slug?: T;
+  title?: T;
+  subtitle?: T;
+  excerpt?: T;
+  content?: T;
+  country?: T;
+  region?: T;
+  city?: T;
+  type?: T;
+  importance?: T;
+  latitude?: T;
+  longitude?: T;
+  themes?: T;
+  nearbyAttractions?: T;
+  heroImage?: T;
+  gallery?: T;
+  badges?: T;
+  blocks?:
+    | T
+    | {
+        hero?:
+          | T
+          | {
+              image?: T;
+              imageAlt?: T;
+              title?: T;
+              description?: T;
+              note?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        overviewStats?:
+          | T
+          | {
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        regular?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              gridClassName?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        routeMap?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              mapCenter?:
+                | T
+                | {
+                    latitude?: T;
+                    longitude?: T;
+                  };
+              zoom?: T;
+              stops?:
+                | T
+                | {
+                    entityType?: T;
+                    relation?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        faq?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              questions?:
+                | T
+                | {
+                    icon?: T;
+                    title?: T;
+                    description?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        cta?:
+          | T
+          | {
+              image?: T;
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+      };
+  seo?:
+    | T
+    | {
+        metaTitle?: T;
+        metaDescription?: T;
+        canonicalOverride?: T;
+        ogTitle?: T;
+        ogDescription?: T;
+        ogImage?: T;
+        robotsNoindex?: T;
+        structuredDataType?: T;
+      };
+  status?:
+    | T
+    | {
+        noindex?: T;
+        showInSitemap?: T;
+        publishedAt?: T;
+      };
+  experiences?: T;
+  relatedRoutes?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  _status?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "routes_select".
  */
 export interface RoutesSelect<T extends boolean = true> {
-	slug?: T;
-	title?: T;
-	subtitle?: T;
-	excerpt?: T;
-	content?: T;
-	countries?: T;
-	cities?: T;
-	attractions?: T;
-	experiences?: T;
-	themes?: T;
-	relatedRoutes?: T;
-	durationDays?: T;
-	routeScope?: T;
-	featured?: T;
-	sortOrder?: T;
-	catalogQuery?: T;
-	heroImage?: T;
-	gallery?: T;
-	badges?: T;
-	blocks?:
-		| T
-		| {
-				hero?:
-					| T
-					| {
-							image?: T;
-							imageAlt?: T;
-							title?: T;
-							description?: T;
-							note?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				overviewStats?:
-					| T
-					| {
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				regular?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							gridClassName?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				routeMap?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							mapCenter?:
-								| T
-								| {
-										latitude?: T;
-										longitude?: T;
-								  };
-							zoom?: T;
-							stops?:
-								| T
-								| {
-										entityType?: T;
-										relation?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				faq?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							questions?:
-								| T
-								| {
-										icon?: T;
-										title?: T;
-										description?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				cta?:
-					| T
-					| {
-							image?: T;
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-		  };
-	seo?:
-		| T
-		| {
-				metaTitle?: T;
-				metaDescription?: T;
-				canonicalOverride?: T;
-				ogTitle?: T;
-				ogDescription?: T;
-				ogImage?: T;
-				robotsNoindex?: T;
-				structuredDataType?: T;
-		  };
-	status?:
-		| T
-		| {
-				noindex?: T;
-				showInSitemap?: T;
-				publishedAt?: T;
-		  };
-	mapPoints?: T;
-	updatedAt?: T;
-	createdAt?: T;
-	_status?: T;
+  slug?: T;
+  title?: T;
+  subtitle?: T;
+  excerpt?: T;
+  content?: T;
+  countries?: T;
+  cities?: T;
+  attractions?: T;
+  experiences?: T;
+  themes?: T;
+  relatedRoutes?: T;
+  durationDays?: T;
+  routeScope?: T;
+  featured?: T;
+  sortOrder?: T;
+  catalogQuery?: T;
+  heroImage?: T;
+  gallery?: T;
+  badges?: T;
+  blocks?:
+    | T
+    | {
+        hero?:
+          | T
+          | {
+              image?: T;
+              imageAlt?: T;
+              title?: T;
+              description?: T;
+              note?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        overviewStats?:
+          | T
+          | {
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        regular?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              gridClassName?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        routeMap?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              mapCenter?:
+                | T
+                | {
+                    latitude?: T;
+                    longitude?: T;
+                  };
+              zoom?: T;
+              stops?:
+                | T
+                | {
+                    entityType?: T;
+                    relation?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        faq?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              questions?:
+                | T
+                | {
+                    icon?: T;
+                    title?: T;
+                    description?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        cta?:
+          | T
+          | {
+              image?: T;
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+      };
+  seo?:
+    | T
+    | {
+        metaTitle?: T;
+        metaDescription?: T;
+        canonicalOverride?: T;
+        ogTitle?: T;
+        ogDescription?: T;
+        ogImage?: T;
+        robotsNoindex?: T;
+        structuredDataType?: T;
+      };
+  status?:
+    | T
+    | {
+        noindex?: T;
+        showInSitemap?: T;
+        publishedAt?: T;
+      };
+  mapPoints?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  _status?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "map-points_select".
  */
 export interface MapPointsSelect<T extends boolean = true> {
-	route?: T;
-	order?: T;
-	type?: T;
-	city?: T;
-	attraction?: T;
-	latitude?: T;
-	longitude?: T;
-	title?: T;
-	updatedAt?: T;
-	createdAt?: T;
+  route?: T;
+  order?: T;
+  type?: T;
+  city?: T;
+  attraction?: T;
+  latitude?: T;
+  longitude?: T;
+  title?: T;
+  updatedAt?: T;
+  createdAt?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "experiences_select".
  */
 export interface ExperiencesSelect<T extends boolean = true> {
-	slug?: T;
-	title?: T;
-	subtitle?: T;
-	excerpt?: T;
-	content?: T;
-	type?: T;
-	themes?: T;
-	country?: T;
-	region?: T;
-	city?: T;
-	attraction?: T;
-	duration?: T;
-	relatedExperiences?: T;
-	featured?: T;
-	sortOrder?: T;
-	catalogQuery?: T;
-	heroImage?: T;
-	gallery?: T;
-	badges?: T;
-	blocks?:
-		| T
-		| {
-				hero?:
-					| T
-					| {
-							image?: T;
-							imageAlt?: T;
-							title?: T;
-							description?: T;
-							note?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				overviewStats?:
-					| T
-					| {
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				regular?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							gridClassName?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				routeMap?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							mapCenter?:
-								| T
-								| {
-										latitude?: T;
-										longitude?: T;
-								  };
-							zoom?: T;
-							stops?:
-								| T
-								| {
-										entityType?: T;
-										relation?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				faq?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							questions?:
-								| T
-								| {
-										icon?: T;
-										title?: T;
-										description?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				cta?:
-					| T
-					| {
-							image?: T;
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-		  };
-	seo?:
-		| T
-		| {
-				metaTitle?: T;
-				metaDescription?: T;
-				canonicalOverride?: T;
-				ogTitle?: T;
-				ogDescription?: T;
-				ogImage?: T;
-				robotsNoindex?: T;
-				structuredDataType?: T;
-		  };
-	status?:
-		| T
-		| {
-				noindex?: T;
-				showInSitemap?: T;
-				publishedAt?: T;
-		  };
-	relatedRoutes?: T;
-	updatedAt?: T;
-	createdAt?: T;
-	_status?: T;
+  slug?: T;
+  title?: T;
+  subtitle?: T;
+  excerpt?: T;
+  content?: T;
+  type?: T;
+  themes?: T;
+  country?: T;
+  region?: T;
+  city?: T;
+  attraction?: T;
+  duration?: T;
+  relatedExperiences?: T;
+  featured?: T;
+  sortOrder?: T;
+  catalogQuery?: T;
+  heroImage?: T;
+  gallery?: T;
+  badges?: T;
+  blocks?:
+    | T
+    | {
+        hero?:
+          | T
+          | {
+              image?: T;
+              imageAlt?: T;
+              title?: T;
+              description?: T;
+              note?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        overviewStats?:
+          | T
+          | {
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        regular?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              gridClassName?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        routeMap?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              mapCenter?:
+                | T
+                | {
+                    latitude?: T;
+                    longitude?: T;
+                  };
+              zoom?: T;
+              stops?:
+                | T
+                | {
+                    entityType?: T;
+                    relation?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        faq?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              questions?:
+                | T
+                | {
+                    icon?: T;
+                    title?: T;
+                    description?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        cta?:
+          | T
+          | {
+              image?: T;
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+      };
+  seo?:
+    | T
+    | {
+        metaTitle?: T;
+        metaDescription?: T;
+        canonicalOverride?: T;
+        ogTitle?: T;
+        ogDescription?: T;
+        ogImage?: T;
+        robotsNoindex?: T;
+        structuredDataType?: T;
+      };
+  status?:
+    | T
+    | {
+        noindex?: T;
+        showInSitemap?: T;
+        publishedAt?: T;
+      };
+  relatedRoutes?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  _status?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "pages_select".
  */
 export interface PagesSelect<T extends boolean = true> {
-	segment?: T;
-	pathGroup?: T;
-	slug?: T;
-	title?: T;
-	seo?:
-		| T
-		| {
-				metaTitle?: T;
-				metaDescription?: T;
-				canonicalOverride?: T;
-				ogTitle?: T;
-				ogDescription?: T;
-				ogImage?: T;
-				robotsNoindex?: T;
-				structuredDataType?: T;
-		  };
-	blocks?:
-		| T
-		| {
-				hero?:
-					| T
-					| {
-							image?: T;
-							imageAlt?: T;
-							title?: T;
-							description?: T;
-							note?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				overviewStats?:
-					| T
-					| {
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				regular?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							gridClassName?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				routeMap?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							mapCenter?:
-								| T
-								| {
-										latitude?: T;
-										longitude?: T;
-								  };
-							zoom?: T;
-							stops?:
-								| T
-								| {
-										entityType?: T;
-										relation?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				faq?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							questions?:
-								| T
-								| {
-										icon?: T;
-										title?: T;
-										description?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				cta?:
-					| T
-					| {
-							image?: T;
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-		  };
-	status?:
-		| T
-		| {
-				noindex?: T;
-				showInSitemap?: T;
-				publishedAt?: T;
-		  };
-	updatedAt?: T;
-	createdAt?: T;
-	_status?: T;
+  segment?: T;
+  pathGroup?: T;
+  slug?: T;
+  title?: T;
+  seo?:
+    | T
+    | {
+        metaTitle?: T;
+        metaDescription?: T;
+        canonicalOverride?: T;
+        ogTitle?: T;
+        ogDescription?: T;
+        ogImage?: T;
+        robotsNoindex?: T;
+        structuredDataType?: T;
+      };
+  blocks?:
+    | T
+    | {
+        hero?:
+          | T
+          | {
+              image?: T;
+              imageAlt?: T;
+              title?: T;
+              description?: T;
+              note?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        overviewStats?:
+          | T
+          | {
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        regular?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              gridClassName?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        routeMap?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              mapCenter?:
+                | T
+                | {
+                    latitude?: T;
+                    longitude?: T;
+                  };
+              zoom?: T;
+              stops?:
+                | T
+                | {
+                    entityType?: T;
+                    relation?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        faq?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              questions?:
+                | T
+                | {
+                    icon?: T;
+                    title?: T;
+                    description?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        cta?:
+          | T
+          | {
+              image?: T;
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+      };
+  status?:
+    | T
+    | {
+        noindex?: T;
+        showInSitemap?: T;
+        publishedAt?: T;
+      };
+  updatedAt?: T;
+  createdAt?: T;
+  _status?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "segments_select".
  */
 export interface SegmentsSelect<T extends boolean = true> {
-	title?: T;
-	slug?: T;
-	description?: T;
-	pages?: T;
-	status?:
-		| T
-		| {
-				noindex?: T;
-				showInSitemap?: T;
-				publishedAt?: T;
-		  };
-	updatedAt?: T;
-	createdAt?: T;
-	_status?: T;
+  title?: T;
+  slug?: T;
+  description?: T;
+  pages?: T;
+  status?:
+    | T
+    | {
+        noindex?: T;
+        showInSitemap?: T;
+        publishedAt?: T;
+      };
+  updatedAt?: T;
+  createdAt?: T;
+  _status?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "journal-entries_select".
  */
 export interface JournalEntriesSelect<T extends boolean = true> {
-	slug?: T;
-	title?: T;
-	subtitle?: T;
-	excerpt?: T;
-	content?: T;
-	coverImage?: T;
-	tags?:
-		| T
-		| {
-				tag?: T;
-				id?: T;
-		  };
-	badges?: T;
-	relatedCountries?: T;
-	relatedCities?: T;
-	relatedRoutes?: T;
-	blocks?:
-		| T
-		| {
-				hero?:
-					| T
-					| {
-							image?: T;
-							imageAlt?: T;
-							title?: T;
-							description?: T;
-							note?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				overviewStats?:
-					| T
-					| {
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				regular?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							gridClassName?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				routeMap?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							mapCenter?:
-								| T
-								| {
-										latitude?: T;
-										longitude?: T;
-								  };
-							zoom?: T;
-							stops?:
-								| T
-								| {
-										entityType?: T;
-										relation?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				faq?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							questions?:
-								| T
-								| {
-										icon?: T;
-										title?: T;
-										description?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				cta?:
-					| T
-					| {
-							image?: T;
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-		  };
-	seo?:
-		| T
-		| {
-				metaTitle?: T;
-				metaDescription?: T;
-				canonicalOverride?: T;
-				ogTitle?: T;
-				ogDescription?: T;
-				ogImage?: T;
-				robotsNoindex?: T;
-				structuredDataType?: T;
-		  };
-	status?:
-		| T
-		| {
-				noindex?: T;
-				showInSitemap?: T;
-				publishedAt?: T;
-		  };
-	updatedAt?: T;
-	createdAt?: T;
-	_status?: T;
+  slug?: T;
+  title?: T;
+  subtitle?: T;
+  excerpt?: T;
+  content?: T;
+  coverImage?: T;
+  tags?:
+    | T
+    | {
+        tag?: T;
+        id?: T;
+      };
+  badges?: T;
+  relatedCountries?: T;
+  relatedCities?: T;
+  relatedRoutes?: T;
+  blocks?:
+    | T
+    | {
+        hero?:
+          | T
+          | {
+              image?: T;
+              imageAlt?: T;
+              title?: T;
+              description?: T;
+              note?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        overviewStats?:
+          | T
+          | {
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        regular?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              gridClassName?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        routeMap?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              mapCenter?:
+                | T
+                | {
+                    latitude?: T;
+                    longitude?: T;
+                  };
+              zoom?: T;
+              stops?:
+                | T
+                | {
+                    entityType?: T;
+                    relation?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        faq?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              questions?:
+                | T
+                | {
+                    icon?: T;
+                    title?: T;
+                    description?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        cta?:
+          | T
+          | {
+              image?: T;
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+      };
+  seo?:
+    | T
+    | {
+        metaTitle?: T;
+        metaDescription?: T;
+        canonicalOverride?: T;
+        ogTitle?: T;
+        ogDescription?: T;
+        ogImage?: T;
+        robotsNoindex?: T;
+        structuredDataType?: T;
+      };
+  status?:
+    | T
+    | {
+        noindex?: T;
+        showInSitemap?: T;
+        publishedAt?: T;
+      };
+  updatedAt?: T;
+  createdAt?: T;
+  _status?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "themes_select".
  */
 export interface ThemesSelect<T extends boolean = true> {
-	slug?: T;
-	title?: T;
-	icon?: T;
-	description?: T;
-	featured?: T;
-	sortOrder?: T;
-	blocks?:
-		| T
-		| {
-				hero?:
-					| T
-					| {
-							image?: T;
-							imageAlt?: T;
-							title?: T;
-							description?: T;
-							note?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				overviewStats?:
-					| T
-					| {
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				regular?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							gridClassName?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				routeMap?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							mapCenter?:
-								| T
-								| {
-										latitude?: T;
-										longitude?: T;
-								  };
-							zoom?: T;
-							stops?:
-								| T
-								| {
-										entityType?: T;
-										relation?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				faq?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							questions?:
-								| T
-								| {
-										icon?: T;
-										title?: T;
-										description?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				cta?:
-					| T
-					| {
-							image?: T;
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-		  };
-	seo?:
-		| T
-		| {
-				metaTitle?: T;
-				metaDescription?: T;
-				canonicalOverride?: T;
-				ogTitle?: T;
-				ogDescription?: T;
-				ogImage?: T;
-				robotsNoindex?: T;
-				structuredDataType?: T;
-		  };
-	routes?: T;
-	experiences?: T;
-	attractions?: T;
-	updatedAt?: T;
-	createdAt?: T;
-	_status?: T;
+  slug?: T;
+  title?: T;
+  icon?: T;
+  description?: T;
+  featured?: T;
+  sortOrder?: T;
+  blocks?:
+    | T
+    | {
+        hero?:
+          | T
+          | {
+              image?: T;
+              imageAlt?: T;
+              title?: T;
+              description?: T;
+              note?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        overviewStats?:
+          | T
+          | {
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        regular?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              gridClassName?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        routeMap?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              mapCenter?:
+                | T
+                | {
+                    latitude?: T;
+                    longitude?: T;
+                  };
+              zoom?: T;
+              stops?:
+                | T
+                | {
+                    entityType?: T;
+                    relation?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        faq?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              questions?:
+                | T
+                | {
+                    icon?: T;
+                    title?: T;
+                    description?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        cta?:
+          | T
+          | {
+              image?: T;
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+      };
+  seo?:
+    | T
+    | {
+        metaTitle?: T;
+        metaDescription?: T;
+        canonicalOverride?: T;
+        ogTitle?: T;
+        ogDescription?: T;
+        ogImage?: T;
+        robotsNoindex?: T;
+        structuredDataType?: T;
+      };
+  routes?: T;
+  experiences?: T;
+  attractions?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  _status?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "trade-fairs_select".
  */
 export interface TradeFairsSelect<T extends boolean = true> {
-	slug?: T;
-	title?: T;
-	excerpt?: T;
-	content?: T;
-	startDate?: T;
-	endDate?: T;
-	cityRelation?: T;
-	cityName?: T;
-	countryName?: T;
-	website?: T;
-	gallery?: T;
-	badges?: T;
-	blocks?:
-		| T
-		| {
-				hero?:
-					| T
-					| {
-							image?: T;
-							imageAlt?: T;
-							title?: T;
-							description?: T;
-							note?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				overviewStats?:
-					| T
-					| {
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				regular?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							gridClassName?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				routeMap?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							mapCenter?:
-								| T
-								| {
-										latitude?: T;
-										longitude?: T;
-								  };
-							zoom?: T;
-							stops?:
-								| T
-								| {
-										entityType?: T;
-										relation?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				faq?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							questions?:
-								| T
-								| {
-										icon?: T;
-										title?: T;
-										description?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				cta?:
-					| T
-					| {
-							image?: T;
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-		  };
-	seo?:
-		| T
-		| {
-				metaTitle?: T;
-				metaDescription?: T;
-				canonicalOverride?: T;
-				ogTitle?: T;
-				ogDescription?: T;
-				ogImage?: T;
-				robotsNoindex?: T;
-				structuredDataType?: T;
-		  };
-	status?:
-		| T
-		| {
-				noindex?: T;
-				showInSitemap?: T;
-				publishedAt?: T;
-		  };
-	updatedAt?: T;
-	createdAt?: T;
-	_status?: T;
+  slug?: T;
+  title?: T;
+  excerpt?: T;
+  content?: T;
+  startDate?: T;
+  endDate?: T;
+  cityRelation?: T;
+  cityName?: T;
+  countryName?: T;
+  website?: T;
+  gallery?: T;
+  badges?: T;
+  blocks?:
+    | T
+    | {
+        hero?:
+          | T
+          | {
+              image?: T;
+              imageAlt?: T;
+              title?: T;
+              description?: T;
+              note?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        overviewStats?:
+          | T
+          | {
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        regular?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              gridClassName?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        routeMap?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              mapCenter?:
+                | T
+                | {
+                    latitude?: T;
+                    longitude?: T;
+                  };
+              zoom?: T;
+              stops?:
+                | T
+                | {
+                    entityType?: T;
+                    relation?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        faq?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              questions?:
+                | T
+                | {
+                    icon?: T;
+                    title?: T;
+                    description?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        cta?:
+          | T
+          | {
+              image?: T;
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+      };
+  seo?:
+    | T
+    | {
+        metaTitle?: T;
+        metaDescription?: T;
+        canonicalOverride?: T;
+        ogTitle?: T;
+        ogDescription?: T;
+        ogImage?: T;
+        robotsNoindex?: T;
+        structuredDataType?: T;
+      };
+  status?:
+    | T
+    | {
+        noindex?: T;
+        showInSitemap?: T;
+        publishedAt?: T;
+      };
+  updatedAt?: T;
+  createdAt?: T;
+  _status?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "badges_select".
  */
 export interface BadgesSelect<T extends boolean = true> {
-	slug?: T;
-	title?: T;
-	color?: T;
-	icon?: T;
-	updatedAt?: T;
-	createdAt?: T;
+  slug?: T;
+  title?: T;
+  color?: T;
+  icon?: T;
+  updatedAt?: T;
+  createdAt?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "media_select".
  */
 export interface MediaSelect<T extends boolean = true> {
-	sourcePath?: T;
-	alt?: T;
-	updatedAt?: T;
-	createdAt?: T;
-	url?: T;
-	thumbnailURL?: T;
-	filename?: T;
-	mimeType?: T;
-	filesize?: T;
-	width?: T;
-	height?: T;
-	focalX?: T;
-	focalY?: T;
+  sourcePath?: T;
+  alt?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  url?: T;
+  thumbnailURL?: T;
+  filename?: T;
+  mimeType?: T;
+  filesize?: T;
+  width?: T;
+  height?: T;
+  focalX?: T;
+  focalY?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "users_select".
  */
 export interface UsersSelect<T extends boolean = true> {
-	updatedAt?: T;
-	createdAt?: T;
-	email?: T;
-	resetPasswordToken?: T;
-	resetPasswordExpiration?: T;
-	salt?: T;
-	hash?: T;
-	loginAttempts?: T;
-	lockUntil?: T;
-	sessions?:
-		| T
-		| {
-				id?: T;
-				createdAt?: T;
-				expiresAt?: T;
-		  };
+  updatedAt?: T;
+  createdAt?: T;
+  email?: T;
+  resetPasswordToken?: T;
+  resetPasswordExpiration?: T;
+  salt?: T;
+  hash?: T;
+  loginAttempts?: T;
+  lockUntil?: T;
+  sessions?:
+    | T
+    | {
+        id?: T;
+        createdAt?: T;
+        expiresAt?: T;
+      };
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-kv_select".
  */
 export interface PayloadKvSelect<T extends boolean = true> {
-	key?: T;
-	data?: T;
+  key?: T;
+  data?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-locked-documents_select".
  */
 export interface PayloadLockedDocumentsSelect<T extends boolean = true> {
-	document?: T;
-	globalSlug?: T;
-	user?: T;
-	updatedAt?: T;
-	createdAt?: T;
+  document?: T;
+  globalSlug?: T;
+  user?: T;
+  updatedAt?: T;
+  createdAt?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-preferences_select".
  */
 export interface PayloadPreferencesSelect<T extends boolean = true> {
-	user?: T;
-	key?: T;
-	value?: T;
-	updatedAt?: T;
-	createdAt?: T;
+  user?: T;
+  key?: T;
+  value?: T;
+  updatedAt?: T;
+  createdAt?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-migrations_select".
  */
 export interface PayloadMigrationsSelect<T extends boolean = true> {
-	name?: T;
-	batch?: T;
-	updatedAt?: T;
-	createdAt?: T;
+  name?: T;
+  batch?: T;
+  updatedAt?: T;
+  createdAt?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "homepage".
  */
 export interface Homepage {
-	id: number;
-	seo?: {
-		metaTitle?: string | null;
-		metaDescription?: string | null;
-		canonicalOverride?: string | null;
-		ogTitle?: string | null;
-		ogDescription?: string | null;
-		ogImage?: (number | null) | Media;
-		robotsNoindex?: boolean | null;
-		structuredDataType?:
-			| (
-					| "WebPage"
-					| "TouristDestination"
-					| "TouristAttraction"
-					| "TouristTrip"
-					| "Article"
-			  )
-			| null;
-	};
-	blocks?:
-		| (
-				| {
-						image: number | Media;
-						imageAlt?: string | null;
-						title: string;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						note?: string | null;
-						actions?:
-							| {
-									type: "mailto" | "link" | "tel";
-									variant?:
-										| (
-												| "default"
-												| "destructive"
-												| "outline"
-												| "secondary"
-												| "ghost"
-												| "link"
-										  )
-										| null;
-									title: string;
-									href?: string | null;
-									email?: string | null;
-									phone?: string | null;
-									target?: ("_self" | "_blank") | null;
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "hero";
-				  }
-				| {
-						cards?:
-							| {
-									type:
-										| "country"
-										| "destinationInsight"
-										| "teamMember"
-										| "routeIdea"
-										| "experience"
-										| "tradeFair"
-										| "journal"
-										| "overviewStat"
-										| "servicesBusiness"
-										| "servicesDirection"
-										| "servicesProcess"
-										| "tripFormat";
-									relatedDoc?:
-										| ({
-												relationTo: "routes";
-												value: number | Route;
-										  } | null)
-										| ({
-												relationTo: "experiences";
-												value: number | Experience;
-										  } | null)
-										| ({
-												relationTo: "trade-fairs";
-												value: number | TradeFair;
-										  } | null)
-										| ({
-												relationTo: "journal-entries";
-												value: number | JournalEntry;
-										  } | null);
-									href?: string | null;
-									image?: (number | null) | Media;
-									badge?: string | null;
-									title?: string | null;
-									description?: {
-										root: {
-											type: string;
-											children: {
-												type: any;
-												version: number;
-												[k: string]: unknown;
-											}[];
-											direction: ("ltr" | "rtl") | null;
-											format:
-												| "left"
-												| "start"
-												| "center"
-												| "right"
-												| "end"
-												| "justify"
-												| "";
-											indent: number;
-											version: number;
-										};
-										[k: string]: unknown;
-									} | null;
-									meta?: string | null;
-									value?: string | null;
-									cities?:
-										| {
-												name?: string | null;
-												id?: string | null;
-										  }[]
-										| null;
-									featured?: boolean | null;
-									ctaHref?: string | null;
-									ctaLabel?: string | null;
-									stand?: string | null;
-									country?: string | null;
-									participants?: string | null;
-									step?: string | null;
-									icon?: string | null;
-									className?: string | null;
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "overviewStats";
-				  }
-				| {
-						eyebrow?: string | null;
-						title: string;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						gridClassName?: string | null;
-						actions?:
-							| {
-									type: "mailto" | "link" | "tel";
-									variant?:
-										| (
-												| "default"
-												| "destructive"
-												| "outline"
-												| "secondary"
-												| "ghost"
-												| "link"
-										  )
-										| null;
-									title: string;
-									href?: string | null;
-									email?: string | null;
-									phone?: string | null;
-									target?: ("_self" | "_blank") | null;
-									id?: string | null;
-							  }[]
-							| null;
-						cards?:
-							| {
-									type:
-										| "country"
-										| "destinationInsight"
-										| "teamMember"
-										| "routeIdea"
-										| "experience"
-										| "tradeFair"
-										| "journal"
-										| "overviewStat"
-										| "servicesBusiness"
-										| "servicesDirection"
-										| "servicesProcess"
-										| "tripFormat";
-									relatedDoc?:
-										| ({
-												relationTo: "routes";
-												value: number | Route;
-										  } | null)
-										| ({
-												relationTo: "experiences";
-												value: number | Experience;
-										  } | null)
-										| ({
-												relationTo: "trade-fairs";
-												value: number | TradeFair;
-										  } | null)
-										| ({
-												relationTo: "journal-entries";
-												value: number | JournalEntry;
-										  } | null);
-									href?: string | null;
-									image?: (number | null) | Media;
-									badge?: string | null;
-									title?: string | null;
-									description?: {
-										root: {
-											type: string;
-											children: {
-												type: any;
-												version: number;
-												[k: string]: unknown;
-											}[];
-											direction: ("ltr" | "rtl") | null;
-											format:
-												| "left"
-												| "start"
-												| "center"
-												| "right"
-												| "end"
-												| "justify"
-												| "";
-											indent: number;
-											version: number;
-										};
-										[k: string]: unknown;
-									} | null;
-									meta?: string | null;
-									value?: string | null;
-									cities?:
-										| {
-												name?: string | null;
-												id?: string | null;
-										  }[]
-										| null;
-									featured?: boolean | null;
-									ctaHref?: string | null;
-									ctaLabel?: string | null;
-									stand?: string | null;
-									country?: string | null;
-									participants?: string | null;
-									step?: string | null;
-									icon?: string | null;
-									className?: string | null;
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "regular";
-				  }
-				| {
-						eyebrow?: string | null;
-						title?: string | null;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						mapCenter?: {
-							latitude?: number | null;
-							longitude?: number | null;
-						};
-						zoom?: number | null;
-						stops?:
-							| {
-									entityType:
-										| "country"
-										| "region"
-										| "city"
-										| "attraction";
-									relation:
-										| {
-												relationTo: "countries";
-												value: number | Country;
-										  }
-										| {
-												relationTo: "regions";
-												value: number | Region;
-										  }
-										| {
-												relationTo: "cities";
-												value: number | City;
-										  }
-										| {
-												relationTo: "attractions";
-												value: number | Attraction;
-										  };
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "routeMap";
-				  }
-				| {
-						eyebrow?: string | null;
-						title: string;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						questions?:
-							| {
-									icon: string;
-									title: string;
-									description: {
-										root: {
-											type: string;
-											children: {
-												type: any;
-												version: number;
-												[k: string]: unknown;
-											}[];
-											direction: ("ltr" | "rtl") | null;
-											format:
-												| "left"
-												| "start"
-												| "center"
-												| "right"
-												| "end"
-												| "justify"
-												| "";
-											indent: number;
-											version: number;
-										};
-										[k: string]: unknown;
-									};
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "faq";
-				  }
-				| {
-						image?: (number | null) | Media;
-						eyebrow?: string | null;
-						title?: string | null;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						actions?:
-							| {
-									type: "mailto" | "link" | "tel";
-									variant?:
-										| (
-												| "default"
-												| "destructive"
-												| "outline"
-												| "secondary"
-												| "ghost"
-												| "link"
-										  )
-										| null;
-									title: string;
-									href?: string | null;
-									email?: string | null;
-									phone?: string | null;
-									target?: ("_self" | "_blank") | null;
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "cta";
-				  }
-		  )[]
-		| null;
-	updatedAt?: string | null;
-	createdAt?: string | null;
+  id: number;
+  seo?: {
+    metaTitle?: string | null;
+    metaDescription?: string | null;
+    canonicalOverride?: string | null;
+    ogTitle?: string | null;
+    ogDescription?: string | null;
+    ogImage?: (number | null) | Media;
+    robotsNoindex?: boolean | null;
+    structuredDataType?: ('WebPage' | 'TouristDestination' | 'TouristAttraction' | 'TouristTrip' | 'Article') | null;
+  };
+  blocks?:
+    | (
+        | {
+            image: number | Media;
+            imageAlt?: string | null;
+            title: string;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            note?: string | null;
+            actions?:
+              | {
+                  type: 'mailto' | 'link' | 'tel';
+                  variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+                  title: string;
+                  href?: string | null;
+                  email?: string | null;
+                  phone?: string | null;
+                  target?: ('_self' | '_blank') | null;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'hero';
+          }
+        | {
+            cards?:
+              | {
+                  type:
+                    | 'country'
+                    | 'destinationInsight'
+                    | 'teamMember'
+                    | 'routeIdea'
+                    | 'experience'
+                    | 'tradeFair'
+                    | 'journal'
+                    | 'overviewStat'
+                    | 'servicesBusiness'
+                    | 'servicesDirection'
+                    | 'servicesProcess'
+                    | 'tripFormat';
+                  relatedDoc?:
+                    | ({
+                        relationTo: 'routes';
+                        value: number | Route;
+                      } | null)
+                    | ({
+                        relationTo: 'experiences';
+                        value: number | Experience;
+                      } | null)
+                    | ({
+                        relationTo: 'trade-fairs';
+                        value: number | TradeFair;
+                      } | null)
+                    | ({
+                        relationTo: 'journal-entries';
+                        value: number | JournalEntry;
+                      } | null);
+                  href?: string | null;
+                  image?: (number | null) | Media;
+                  badge?: string | null;
+                  title?: string | null;
+                  description?: {
+                    root: {
+                      type: string;
+                      children: {
+                        type: any;
+                        version: number;
+                        [k: string]: unknown;
+                      }[];
+                      direction: ('ltr' | 'rtl') | null;
+                      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                      indent: number;
+                      version: number;
+                    };
+                    [k: string]: unknown;
+                  } | null;
+                  meta?: string | null;
+                  value?: string | null;
+                  cities?:
+                    | {
+                        name?: string | null;
+                        id?: string | null;
+                      }[]
+                    | null;
+                  featured?: boolean | null;
+                  ctaHref?: string | null;
+                  ctaLabel?: string | null;
+                  stand?: string | null;
+                  country?: string | null;
+                  participants?: string | null;
+                  step?: string | null;
+                  icon?: string | null;
+                  className?: string | null;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'overviewStats';
+          }
+        | {
+            eyebrow?: string | null;
+            title: string;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            gridClassName?: string | null;
+            actions?:
+              | {
+                  type: 'mailto' | 'link' | 'tel';
+                  variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+                  title: string;
+                  href?: string | null;
+                  email?: string | null;
+                  phone?: string | null;
+                  target?: ('_self' | '_blank') | null;
+                  id?: string | null;
+                }[]
+              | null;
+            cards?:
+              | {
+                  type:
+                    | 'country'
+                    | 'destinationInsight'
+                    | 'teamMember'
+                    | 'routeIdea'
+                    | 'experience'
+                    | 'tradeFair'
+                    | 'journal'
+                    | 'overviewStat'
+                    | 'servicesBusiness'
+                    | 'servicesDirection'
+                    | 'servicesProcess'
+                    | 'tripFormat';
+                  relatedDoc?:
+                    | ({
+                        relationTo: 'routes';
+                        value: number | Route;
+                      } | null)
+                    | ({
+                        relationTo: 'experiences';
+                        value: number | Experience;
+                      } | null)
+                    | ({
+                        relationTo: 'trade-fairs';
+                        value: number | TradeFair;
+                      } | null)
+                    | ({
+                        relationTo: 'journal-entries';
+                        value: number | JournalEntry;
+                      } | null);
+                  href?: string | null;
+                  image?: (number | null) | Media;
+                  badge?: string | null;
+                  title?: string | null;
+                  description?: {
+                    root: {
+                      type: string;
+                      children: {
+                        type: any;
+                        version: number;
+                        [k: string]: unknown;
+                      }[];
+                      direction: ('ltr' | 'rtl') | null;
+                      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                      indent: number;
+                      version: number;
+                    };
+                    [k: string]: unknown;
+                  } | null;
+                  meta?: string | null;
+                  value?: string | null;
+                  cities?:
+                    | {
+                        name?: string | null;
+                        id?: string | null;
+                      }[]
+                    | null;
+                  featured?: boolean | null;
+                  ctaHref?: string | null;
+                  ctaLabel?: string | null;
+                  stand?: string | null;
+                  country?: string | null;
+                  participants?: string | null;
+                  step?: string | null;
+                  icon?: string | null;
+                  className?: string | null;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'regular';
+          }
+        | {
+            eyebrow?: string | null;
+            title?: string | null;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            mapCenter?: {
+              latitude?: number | null;
+              longitude?: number | null;
+            };
+            zoom?: number | null;
+            stops?:
+              | {
+                  entityType: 'country' | 'region' | 'city' | 'attraction';
+                  relation:
+                    | {
+                        relationTo: 'countries';
+                        value: number | Country;
+                      }
+                    | {
+                        relationTo: 'regions';
+                        value: number | Region;
+                      }
+                    | {
+                        relationTo: 'cities';
+                        value: number | City;
+                      }
+                    | {
+                        relationTo: 'attractions';
+                        value: number | Attraction;
+                      };
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'routeMap';
+          }
+        | {
+            eyebrow?: string | null;
+            title: string;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            questions?:
+              | {
+                  icon: string;
+                  title: string;
+                  description: {
+                    root: {
+                      type: string;
+                      children: {
+                        type: any;
+                        version: number;
+                        [k: string]: unknown;
+                      }[];
+                      direction: ('ltr' | 'rtl') | null;
+                      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                      indent: number;
+                      version: number;
+                    };
+                    [k: string]: unknown;
+                  };
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'faq';
+          }
+        | {
+            image?: (number | null) | Media;
+            eyebrow?: string | null;
+            title?: string | null;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            actions?:
+              | {
+                  type: 'mailto' | 'link' | 'tel';
+                  variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+                  title: string;
+                  href?: string | null;
+                  email?: string | null;
+                  phone?: string | null;
+                  target?: ('_self' | '_blank') | null;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'cta';
+          }
+      )[]
+    | null;
+  updatedAt?: string | null;
+  createdAt?: string | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "destination".
  */
 export interface Destination {
-	id: number;
-	slug: string;
-	seo?: {
-		metaTitle?: string | null;
-		metaDescription?: string | null;
-		canonicalOverride?: string | null;
-		ogTitle?: string | null;
-		ogDescription?: string | null;
-		ogImage?: (number | null) | Media;
-		robotsNoindex?: boolean | null;
-		structuredDataType?:
-			| (
-					| "WebPage"
-					| "TouristDestination"
-					| "TouristAttraction"
-					| "TouristTrip"
-					| "Article"
-			  )
-			| null;
-	};
-	blocks?:
-		| (
-				| {
-						image: number | Media;
-						imageAlt?: string | null;
-						title: string;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						note?: string | null;
-						actions?:
-							| {
-									type: "mailto" | "link" | "tel";
-									variant?:
-										| (
-												| "default"
-												| "destructive"
-												| "outline"
-												| "secondary"
-												| "ghost"
-												| "link"
-										  )
-										| null;
-									title: string;
-									href?: string | null;
-									email?: string | null;
-									phone?: string | null;
-									target?: ("_self" | "_blank") | null;
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "hero";
-				  }
-				| {
-						cards?:
-							| {
-									type:
-										| "country"
-										| "destinationInsight"
-										| "teamMember"
-										| "routeIdea"
-										| "experience"
-										| "tradeFair"
-										| "journal"
-										| "overviewStat"
-										| "servicesBusiness"
-										| "servicesDirection"
-										| "servicesProcess"
-										| "tripFormat";
-									relatedDoc?:
-										| ({
-												relationTo: "routes";
-												value: number | Route;
-										  } | null)
-										| ({
-												relationTo: "experiences";
-												value: number | Experience;
-										  } | null)
-										| ({
-												relationTo: "trade-fairs";
-												value: number | TradeFair;
-										  } | null)
-										| ({
-												relationTo: "journal-entries";
-												value: number | JournalEntry;
-										  } | null);
-									href?: string | null;
-									image?: (number | null) | Media;
-									badge?: string | null;
-									title?: string | null;
-									description?: {
-										root: {
-											type: string;
-											children: {
-												type: any;
-												version: number;
-												[k: string]: unknown;
-											}[];
-											direction: ("ltr" | "rtl") | null;
-											format:
-												| "left"
-												| "start"
-												| "center"
-												| "right"
-												| "end"
-												| "justify"
-												| "";
-											indent: number;
-											version: number;
-										};
-										[k: string]: unknown;
-									} | null;
-									meta?: string | null;
-									value?: string | null;
-									cities?:
-										| {
-												name?: string | null;
-												id?: string | null;
-										  }[]
-										| null;
-									featured?: boolean | null;
-									ctaHref?: string | null;
-									ctaLabel?: string | null;
-									stand?: string | null;
-									country?: string | null;
-									participants?: string | null;
-									step?: string | null;
-									icon?: string | null;
-									className?: string | null;
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "overviewStats";
-				  }
-				| {
-						eyebrow?: string | null;
-						title: string;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						gridClassName?: string | null;
-						actions?:
-							| {
-									type: "mailto" | "link" | "tel";
-									variant?:
-										| (
-												| "default"
-												| "destructive"
-												| "outline"
-												| "secondary"
-												| "ghost"
-												| "link"
-										  )
-										| null;
-									title: string;
-									href?: string | null;
-									email?: string | null;
-									phone?: string | null;
-									target?: ("_self" | "_blank") | null;
-									id?: string | null;
-							  }[]
-							| null;
-						cards?:
-							| {
-									type:
-										| "country"
-										| "destinationInsight"
-										| "teamMember"
-										| "routeIdea"
-										| "experience"
-										| "tradeFair"
-										| "journal"
-										| "overviewStat"
-										| "servicesBusiness"
-										| "servicesDirection"
-										| "servicesProcess"
-										| "tripFormat";
-									relatedDoc?:
-										| ({
-												relationTo: "routes";
-												value: number | Route;
-										  } | null)
-										| ({
-												relationTo: "experiences";
-												value: number | Experience;
-										  } | null)
-										| ({
-												relationTo: "trade-fairs";
-												value: number | TradeFair;
-										  } | null)
-										| ({
-												relationTo: "journal-entries";
-												value: number | JournalEntry;
-										  } | null);
-									href?: string | null;
-									image?: (number | null) | Media;
-									badge?: string | null;
-									title?: string | null;
-									description?: {
-										root: {
-											type: string;
-											children: {
-												type: any;
-												version: number;
-												[k: string]: unknown;
-											}[];
-											direction: ("ltr" | "rtl") | null;
-											format:
-												| "left"
-												| "start"
-												| "center"
-												| "right"
-												| "end"
-												| "justify"
-												| "";
-											indent: number;
-											version: number;
-										};
-										[k: string]: unknown;
-									} | null;
-									meta?: string | null;
-									value?: string | null;
-									cities?:
-										| {
-												name?: string | null;
-												id?: string | null;
-										  }[]
-										| null;
-									featured?: boolean | null;
-									ctaHref?: string | null;
-									ctaLabel?: string | null;
-									stand?: string | null;
-									country?: string | null;
-									participants?: string | null;
-									step?: string | null;
-									icon?: string | null;
-									className?: string | null;
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "regular";
-				  }
-				| {
-						eyebrow?: string | null;
-						title?: string | null;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						mapCenter?: {
-							latitude?: number | null;
-							longitude?: number | null;
-						};
-						zoom?: number | null;
-						stops?:
-							| {
-									entityType:
-										| "country"
-										| "region"
-										| "city"
-										| "attraction";
-									relation:
-										| {
-												relationTo: "countries";
-												value: number | Country;
-										  }
-										| {
-												relationTo: "regions";
-												value: number | Region;
-										  }
-										| {
-												relationTo: "cities";
-												value: number | City;
-										  }
-										| {
-												relationTo: "attractions";
-												value: number | Attraction;
-										  };
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "routeMap";
-				  }
-				| {
-						eyebrow?: string | null;
-						title: string;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						questions?:
-							| {
-									icon: string;
-									title: string;
-									description: {
-										root: {
-											type: string;
-											children: {
-												type: any;
-												version: number;
-												[k: string]: unknown;
-											}[];
-											direction: ("ltr" | "rtl") | null;
-											format:
-												| "left"
-												| "start"
-												| "center"
-												| "right"
-												| "end"
-												| "justify"
-												| "";
-											indent: number;
-											version: number;
-										};
-										[k: string]: unknown;
-									};
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "faq";
-				  }
-				| {
-						image?: (number | null) | Media;
-						eyebrow?: string | null;
-						title?: string | null;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						actions?:
-							| {
-									type: "mailto" | "link" | "tel";
-									variant?:
-										| (
-												| "default"
-												| "destructive"
-												| "outline"
-												| "secondary"
-												| "ghost"
-												| "link"
-										  )
-										| null;
-									title: string;
-									href?: string | null;
-									email?: string | null;
-									phone?: string | null;
-									target?: ("_self" | "_blank") | null;
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "cta";
-				  }
-		  )[]
-		| null;
-	updatedAt?: string | null;
-	createdAt?: string | null;
+  id: number;
+  slug: string;
+  seo?: {
+    metaTitle?: string | null;
+    metaDescription?: string | null;
+    canonicalOverride?: string | null;
+    ogTitle?: string | null;
+    ogDescription?: string | null;
+    ogImage?: (number | null) | Media;
+    robotsNoindex?: boolean | null;
+    structuredDataType?: ('WebPage' | 'TouristDestination' | 'TouristAttraction' | 'TouristTrip' | 'Article') | null;
+  };
+  blocks?:
+    | (
+        | {
+            image: number | Media;
+            imageAlt?: string | null;
+            title: string;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            note?: string | null;
+            actions?:
+              | {
+                  type: 'mailto' | 'link' | 'tel';
+                  variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+                  title: string;
+                  href?: string | null;
+                  email?: string | null;
+                  phone?: string | null;
+                  target?: ('_self' | '_blank') | null;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'hero';
+          }
+        | {
+            cards?:
+              | {
+                  type:
+                    | 'country'
+                    | 'destinationInsight'
+                    | 'teamMember'
+                    | 'routeIdea'
+                    | 'experience'
+                    | 'tradeFair'
+                    | 'journal'
+                    | 'overviewStat'
+                    | 'servicesBusiness'
+                    | 'servicesDirection'
+                    | 'servicesProcess'
+                    | 'tripFormat';
+                  relatedDoc?:
+                    | ({
+                        relationTo: 'routes';
+                        value: number | Route;
+                      } | null)
+                    | ({
+                        relationTo: 'experiences';
+                        value: number | Experience;
+                      } | null)
+                    | ({
+                        relationTo: 'trade-fairs';
+                        value: number | TradeFair;
+                      } | null)
+                    | ({
+                        relationTo: 'journal-entries';
+                        value: number | JournalEntry;
+                      } | null);
+                  href?: string | null;
+                  image?: (number | null) | Media;
+                  badge?: string | null;
+                  title?: string | null;
+                  description?: {
+                    root: {
+                      type: string;
+                      children: {
+                        type: any;
+                        version: number;
+                        [k: string]: unknown;
+                      }[];
+                      direction: ('ltr' | 'rtl') | null;
+                      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                      indent: number;
+                      version: number;
+                    };
+                    [k: string]: unknown;
+                  } | null;
+                  meta?: string | null;
+                  value?: string | null;
+                  cities?:
+                    | {
+                        name?: string | null;
+                        id?: string | null;
+                      }[]
+                    | null;
+                  featured?: boolean | null;
+                  ctaHref?: string | null;
+                  ctaLabel?: string | null;
+                  stand?: string | null;
+                  country?: string | null;
+                  participants?: string | null;
+                  step?: string | null;
+                  icon?: string | null;
+                  className?: string | null;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'overviewStats';
+          }
+        | {
+            eyebrow?: string | null;
+            title: string;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            gridClassName?: string | null;
+            actions?:
+              | {
+                  type: 'mailto' | 'link' | 'tel';
+                  variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+                  title: string;
+                  href?: string | null;
+                  email?: string | null;
+                  phone?: string | null;
+                  target?: ('_self' | '_blank') | null;
+                  id?: string | null;
+                }[]
+              | null;
+            cards?:
+              | {
+                  type:
+                    | 'country'
+                    | 'destinationInsight'
+                    | 'teamMember'
+                    | 'routeIdea'
+                    | 'experience'
+                    | 'tradeFair'
+                    | 'journal'
+                    | 'overviewStat'
+                    | 'servicesBusiness'
+                    | 'servicesDirection'
+                    | 'servicesProcess'
+                    | 'tripFormat';
+                  relatedDoc?:
+                    | ({
+                        relationTo: 'routes';
+                        value: number | Route;
+                      } | null)
+                    | ({
+                        relationTo: 'experiences';
+                        value: number | Experience;
+                      } | null)
+                    | ({
+                        relationTo: 'trade-fairs';
+                        value: number | TradeFair;
+                      } | null)
+                    | ({
+                        relationTo: 'journal-entries';
+                        value: number | JournalEntry;
+                      } | null);
+                  href?: string | null;
+                  image?: (number | null) | Media;
+                  badge?: string | null;
+                  title?: string | null;
+                  description?: {
+                    root: {
+                      type: string;
+                      children: {
+                        type: any;
+                        version: number;
+                        [k: string]: unknown;
+                      }[];
+                      direction: ('ltr' | 'rtl') | null;
+                      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                      indent: number;
+                      version: number;
+                    };
+                    [k: string]: unknown;
+                  } | null;
+                  meta?: string | null;
+                  value?: string | null;
+                  cities?:
+                    | {
+                        name?: string | null;
+                        id?: string | null;
+                      }[]
+                    | null;
+                  featured?: boolean | null;
+                  ctaHref?: string | null;
+                  ctaLabel?: string | null;
+                  stand?: string | null;
+                  country?: string | null;
+                  participants?: string | null;
+                  step?: string | null;
+                  icon?: string | null;
+                  className?: string | null;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'regular';
+          }
+        | {
+            eyebrow?: string | null;
+            title?: string | null;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            mapCenter?: {
+              latitude?: number | null;
+              longitude?: number | null;
+            };
+            zoom?: number | null;
+            stops?:
+              | {
+                  entityType: 'country' | 'region' | 'city' | 'attraction';
+                  relation:
+                    | {
+                        relationTo: 'countries';
+                        value: number | Country;
+                      }
+                    | {
+                        relationTo: 'regions';
+                        value: number | Region;
+                      }
+                    | {
+                        relationTo: 'cities';
+                        value: number | City;
+                      }
+                    | {
+                        relationTo: 'attractions';
+                        value: number | Attraction;
+                      };
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'routeMap';
+          }
+        | {
+            eyebrow?: string | null;
+            title: string;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            questions?:
+              | {
+                  icon: string;
+                  title: string;
+                  description: {
+                    root: {
+                      type: string;
+                      children: {
+                        type: any;
+                        version: number;
+                        [k: string]: unknown;
+                      }[];
+                      direction: ('ltr' | 'rtl') | null;
+                      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                      indent: number;
+                      version: number;
+                    };
+                    [k: string]: unknown;
+                  };
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'faq';
+          }
+        | {
+            image?: (number | null) | Media;
+            eyebrow?: string | null;
+            title?: string | null;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            actions?:
+              | {
+                  type: 'mailto' | 'link' | 'tel';
+                  variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+                  title: string;
+                  href?: string | null;
+                  email?: string | null;
+                  phone?: string | null;
+                  target?: ('_self' | '_blank') | null;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'cta';
+          }
+      )[]
+    | null;
+  updatedAt?: string | null;
+  createdAt?: string | null;
 }
 /**
  * Landing content for the /routes discovery hub.
@@ -8822,467 +7605,372 @@ export interface Destination {
  * via the `definition` "routes-hub".
  */
 export interface RoutesHub {
-	id: number;
-	title?: string | null;
-	subtitle?: string | null;
-	seo?: {
-		metaTitle?: string | null;
-		metaDescription?: string | null;
-		canonicalOverride?: string | null;
-		ogTitle?: string | null;
-		ogDescription?: string | null;
-		ogImage?: (number | null) | Media;
-		robotsNoindex?: boolean | null;
-		structuredDataType?:
-			| (
-					| "WebPage"
-					| "TouristDestination"
-					| "TouristAttraction"
-					| "TouristTrip"
-					| "Article"
-			  )
-			| null;
-	};
-	blocks?:
-		| (
-				| {
-						image: number | Media;
-						imageAlt?: string | null;
-						title: string;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						note?: string | null;
-						actions?:
-							| {
-									type: "mailto" | "link" | "tel";
-									variant?:
-										| (
-												| "default"
-												| "destructive"
-												| "outline"
-												| "secondary"
-												| "ghost"
-												| "link"
-										  )
-										| null;
-									title: string;
-									href?: string | null;
-									email?: string | null;
-									phone?: string | null;
-									target?: ("_self" | "_blank") | null;
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "hero";
-				  }
-				| {
-						cards?:
-							| {
-									type:
-										| "country"
-										| "destinationInsight"
-										| "teamMember"
-										| "routeIdea"
-										| "experience"
-										| "tradeFair"
-										| "journal"
-										| "overviewStat"
-										| "servicesBusiness"
-										| "servicesDirection"
-										| "servicesProcess"
-										| "tripFormat";
-									relatedDoc?:
-										| ({
-												relationTo: "routes";
-												value: number | Route;
-										  } | null)
-										| ({
-												relationTo: "experiences";
-												value: number | Experience;
-										  } | null)
-										| ({
-												relationTo: "trade-fairs";
-												value: number | TradeFair;
-										  } | null)
-										| ({
-												relationTo: "journal-entries";
-												value: number | JournalEntry;
-										  } | null);
-									href?: string | null;
-									image?: (number | null) | Media;
-									badge?: string | null;
-									title?: string | null;
-									description?: {
-										root: {
-											type: string;
-											children: {
-												type: any;
-												version: number;
-												[k: string]: unknown;
-											}[];
-											direction: ("ltr" | "rtl") | null;
-											format:
-												| "left"
-												| "start"
-												| "center"
-												| "right"
-												| "end"
-												| "justify"
-												| "";
-											indent: number;
-											version: number;
-										};
-										[k: string]: unknown;
-									} | null;
-									meta?: string | null;
-									value?: string | null;
-									cities?:
-										| {
-												name?: string | null;
-												id?: string | null;
-										  }[]
-										| null;
-									featured?: boolean | null;
-									ctaHref?: string | null;
-									ctaLabel?: string | null;
-									stand?: string | null;
-									country?: string | null;
-									participants?: string | null;
-									step?: string | null;
-									icon?: string | null;
-									className?: string | null;
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "overviewStats";
-				  }
-				| {
-						eyebrow?: string | null;
-						title: string;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						gridClassName?: string | null;
-						actions?:
-							| {
-									type: "mailto" | "link" | "tel";
-									variant?:
-										| (
-												| "default"
-												| "destructive"
-												| "outline"
-												| "secondary"
-												| "ghost"
-												| "link"
-										  )
-										| null;
-									title: string;
-									href?: string | null;
-									email?: string | null;
-									phone?: string | null;
-									target?: ("_self" | "_blank") | null;
-									id?: string | null;
-							  }[]
-							| null;
-						cards?:
-							| {
-									type:
-										| "country"
-										| "destinationInsight"
-										| "teamMember"
-										| "routeIdea"
-										| "experience"
-										| "tradeFair"
-										| "journal"
-										| "overviewStat"
-										| "servicesBusiness"
-										| "servicesDirection"
-										| "servicesProcess"
-										| "tripFormat";
-									relatedDoc?:
-										| ({
-												relationTo: "routes";
-												value: number | Route;
-										  } | null)
-										| ({
-												relationTo: "experiences";
-												value: number | Experience;
-										  } | null)
-										| ({
-												relationTo: "trade-fairs";
-												value: number | TradeFair;
-										  } | null)
-										| ({
-												relationTo: "journal-entries";
-												value: number | JournalEntry;
-										  } | null);
-									href?: string | null;
-									image?: (number | null) | Media;
-									badge?: string | null;
-									title?: string | null;
-									description?: {
-										root: {
-											type: string;
-											children: {
-												type: any;
-												version: number;
-												[k: string]: unknown;
-											}[];
-											direction: ("ltr" | "rtl") | null;
-											format:
-												| "left"
-												| "start"
-												| "center"
-												| "right"
-												| "end"
-												| "justify"
-												| "";
-											indent: number;
-											version: number;
-										};
-										[k: string]: unknown;
-									} | null;
-									meta?: string | null;
-									value?: string | null;
-									cities?:
-										| {
-												name?: string | null;
-												id?: string | null;
-										  }[]
-										| null;
-									featured?: boolean | null;
-									ctaHref?: string | null;
-									ctaLabel?: string | null;
-									stand?: string | null;
-									country?: string | null;
-									participants?: string | null;
-									step?: string | null;
-									icon?: string | null;
-									className?: string | null;
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "regular";
-				  }
-				| {
-						eyebrow?: string | null;
-						title?: string | null;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						mapCenter?: {
-							latitude?: number | null;
-							longitude?: number | null;
-						};
-						zoom?: number | null;
-						stops?:
-							| {
-									entityType:
-										| "country"
-										| "region"
-										| "city"
-										| "attraction";
-									relation:
-										| {
-												relationTo: "countries";
-												value: number | Country;
-										  }
-										| {
-												relationTo: "regions";
-												value: number | Region;
-										  }
-										| {
-												relationTo: "cities";
-												value: number | City;
-										  }
-										| {
-												relationTo: "attractions";
-												value: number | Attraction;
-										  };
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "routeMap";
-				  }
-				| {
-						eyebrow?: string | null;
-						title: string;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						questions?:
-							| {
-									icon: string;
-									title: string;
-									description: {
-										root: {
-											type: string;
-											children: {
-												type: any;
-												version: number;
-												[k: string]: unknown;
-											}[];
-											direction: ("ltr" | "rtl") | null;
-											format:
-												| "left"
-												| "start"
-												| "center"
-												| "right"
-												| "end"
-												| "justify"
-												| "";
-											indent: number;
-											version: number;
-										};
-										[k: string]: unknown;
-									};
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "faq";
-				  }
-				| {
-						image?: (number | null) | Media;
-						eyebrow?: string | null;
-						title?: string | null;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						actions?:
-							| {
-									type: "mailto" | "link" | "tel";
-									variant?:
-										| (
-												| "default"
-												| "destructive"
-												| "outline"
-												| "secondary"
-												| "ghost"
-												| "link"
-										  )
-										| null;
-									title: string;
-									href?: string | null;
-									email?: string | null;
-									phone?: string | null;
-									target?: ("_self" | "_blank") | null;
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "cta";
-				  }
-		  )[]
-		| null;
-	updatedAt?: string | null;
-	createdAt?: string | null;
+  id: number;
+  title?: string | null;
+  subtitle?: string | null;
+  seo?: {
+    metaTitle?: string | null;
+    metaDescription?: string | null;
+    canonicalOverride?: string | null;
+    ogTitle?: string | null;
+    ogDescription?: string | null;
+    ogImage?: (number | null) | Media;
+    robotsNoindex?: boolean | null;
+    structuredDataType?: ('WebPage' | 'TouristDestination' | 'TouristAttraction' | 'TouristTrip' | 'Article') | null;
+  };
+  blocks?:
+    | (
+        | {
+            image: number | Media;
+            imageAlt?: string | null;
+            title: string;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            note?: string | null;
+            actions?:
+              | {
+                  type: 'mailto' | 'link' | 'tel';
+                  variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+                  title: string;
+                  href?: string | null;
+                  email?: string | null;
+                  phone?: string | null;
+                  target?: ('_self' | '_blank') | null;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'hero';
+          }
+        | {
+            cards?:
+              | {
+                  type:
+                    | 'country'
+                    | 'destinationInsight'
+                    | 'teamMember'
+                    | 'routeIdea'
+                    | 'experience'
+                    | 'tradeFair'
+                    | 'journal'
+                    | 'overviewStat'
+                    | 'servicesBusiness'
+                    | 'servicesDirection'
+                    | 'servicesProcess'
+                    | 'tripFormat';
+                  relatedDoc?:
+                    | ({
+                        relationTo: 'routes';
+                        value: number | Route;
+                      } | null)
+                    | ({
+                        relationTo: 'experiences';
+                        value: number | Experience;
+                      } | null)
+                    | ({
+                        relationTo: 'trade-fairs';
+                        value: number | TradeFair;
+                      } | null)
+                    | ({
+                        relationTo: 'journal-entries';
+                        value: number | JournalEntry;
+                      } | null);
+                  href?: string | null;
+                  image?: (number | null) | Media;
+                  badge?: string | null;
+                  title?: string | null;
+                  description?: {
+                    root: {
+                      type: string;
+                      children: {
+                        type: any;
+                        version: number;
+                        [k: string]: unknown;
+                      }[];
+                      direction: ('ltr' | 'rtl') | null;
+                      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                      indent: number;
+                      version: number;
+                    };
+                    [k: string]: unknown;
+                  } | null;
+                  meta?: string | null;
+                  value?: string | null;
+                  cities?:
+                    | {
+                        name?: string | null;
+                        id?: string | null;
+                      }[]
+                    | null;
+                  featured?: boolean | null;
+                  ctaHref?: string | null;
+                  ctaLabel?: string | null;
+                  stand?: string | null;
+                  country?: string | null;
+                  participants?: string | null;
+                  step?: string | null;
+                  icon?: string | null;
+                  className?: string | null;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'overviewStats';
+          }
+        | {
+            eyebrow?: string | null;
+            title: string;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            gridClassName?: string | null;
+            actions?:
+              | {
+                  type: 'mailto' | 'link' | 'tel';
+                  variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+                  title: string;
+                  href?: string | null;
+                  email?: string | null;
+                  phone?: string | null;
+                  target?: ('_self' | '_blank') | null;
+                  id?: string | null;
+                }[]
+              | null;
+            cards?:
+              | {
+                  type:
+                    | 'country'
+                    | 'destinationInsight'
+                    | 'teamMember'
+                    | 'routeIdea'
+                    | 'experience'
+                    | 'tradeFair'
+                    | 'journal'
+                    | 'overviewStat'
+                    | 'servicesBusiness'
+                    | 'servicesDirection'
+                    | 'servicesProcess'
+                    | 'tripFormat';
+                  relatedDoc?:
+                    | ({
+                        relationTo: 'routes';
+                        value: number | Route;
+                      } | null)
+                    | ({
+                        relationTo: 'experiences';
+                        value: number | Experience;
+                      } | null)
+                    | ({
+                        relationTo: 'trade-fairs';
+                        value: number | TradeFair;
+                      } | null)
+                    | ({
+                        relationTo: 'journal-entries';
+                        value: number | JournalEntry;
+                      } | null);
+                  href?: string | null;
+                  image?: (number | null) | Media;
+                  badge?: string | null;
+                  title?: string | null;
+                  description?: {
+                    root: {
+                      type: string;
+                      children: {
+                        type: any;
+                        version: number;
+                        [k: string]: unknown;
+                      }[];
+                      direction: ('ltr' | 'rtl') | null;
+                      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                      indent: number;
+                      version: number;
+                    };
+                    [k: string]: unknown;
+                  } | null;
+                  meta?: string | null;
+                  value?: string | null;
+                  cities?:
+                    | {
+                        name?: string | null;
+                        id?: string | null;
+                      }[]
+                    | null;
+                  featured?: boolean | null;
+                  ctaHref?: string | null;
+                  ctaLabel?: string | null;
+                  stand?: string | null;
+                  country?: string | null;
+                  participants?: string | null;
+                  step?: string | null;
+                  icon?: string | null;
+                  className?: string | null;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'regular';
+          }
+        | {
+            eyebrow?: string | null;
+            title?: string | null;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            mapCenter?: {
+              latitude?: number | null;
+              longitude?: number | null;
+            };
+            zoom?: number | null;
+            stops?:
+              | {
+                  entityType: 'country' | 'region' | 'city' | 'attraction';
+                  relation:
+                    | {
+                        relationTo: 'countries';
+                        value: number | Country;
+                      }
+                    | {
+                        relationTo: 'regions';
+                        value: number | Region;
+                      }
+                    | {
+                        relationTo: 'cities';
+                        value: number | City;
+                      }
+                    | {
+                        relationTo: 'attractions';
+                        value: number | Attraction;
+                      };
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'routeMap';
+          }
+        | {
+            eyebrow?: string | null;
+            title: string;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            questions?:
+              | {
+                  icon: string;
+                  title: string;
+                  description: {
+                    root: {
+                      type: string;
+                      children: {
+                        type: any;
+                        version: number;
+                        [k: string]: unknown;
+                      }[];
+                      direction: ('ltr' | 'rtl') | null;
+                      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                      indent: number;
+                      version: number;
+                    };
+                    [k: string]: unknown;
+                  };
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'faq';
+          }
+        | {
+            image?: (number | null) | Media;
+            eyebrow?: string | null;
+            title?: string | null;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            actions?:
+              | {
+                  type: 'mailto' | 'link' | 'tel';
+                  variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+                  title: string;
+                  href?: string | null;
+                  email?: string | null;
+                  phone?: string | null;
+                  target?: ('_self' | '_blank') | null;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'cta';
+          }
+      )[]
+    | null;
+  updatedAt?: string | null;
+  createdAt?: string | null;
 }
 /**
  * Landing content for the /experiences discovery hub.
@@ -9291,1560 +7979,1457 @@ export interface RoutesHub {
  * via the `definition` "experiences-hub".
  */
 export interface ExperiencesHub {
-	id: number;
-	title?: string | null;
-	subtitle?: string | null;
-	seo?: {
-		metaTitle?: string | null;
-		metaDescription?: string | null;
-		canonicalOverride?: string | null;
-		ogTitle?: string | null;
-		ogDescription?: string | null;
-		ogImage?: (number | null) | Media;
-		robotsNoindex?: boolean | null;
-		structuredDataType?:
-			| (
-					| "WebPage"
-					| "TouristDestination"
-					| "TouristAttraction"
-					| "TouristTrip"
-					| "Article"
-			  )
-			| null;
-	};
-	blocks?:
-		| (
-				| {
-						image: number | Media;
-						imageAlt?: string | null;
-						title: string;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						note?: string | null;
-						actions?:
-							| {
-									type: "mailto" | "link" | "tel";
-									variant?:
-										| (
-												| "default"
-												| "destructive"
-												| "outline"
-												| "secondary"
-												| "ghost"
-												| "link"
-										  )
-										| null;
-									title: string;
-									href?: string | null;
-									email?: string | null;
-									phone?: string | null;
-									target?: ("_self" | "_blank") | null;
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "hero";
-				  }
-				| {
-						cards?:
-							| {
-									type:
-										| "country"
-										| "destinationInsight"
-										| "teamMember"
-										| "routeIdea"
-										| "experience"
-										| "tradeFair"
-										| "journal"
-										| "overviewStat"
-										| "servicesBusiness"
-										| "servicesDirection"
-										| "servicesProcess"
-										| "tripFormat";
-									relatedDoc?:
-										| ({
-												relationTo: "routes";
-												value: number | Route;
-										  } | null)
-										| ({
-												relationTo: "experiences";
-												value: number | Experience;
-										  } | null)
-										| ({
-												relationTo: "trade-fairs";
-												value: number | TradeFair;
-										  } | null)
-										| ({
-												relationTo: "journal-entries";
-												value: number | JournalEntry;
-										  } | null);
-									href?: string | null;
-									image?: (number | null) | Media;
-									badge?: string | null;
-									title?: string | null;
-									description?: {
-										root: {
-											type: string;
-											children: {
-												type: any;
-												version: number;
-												[k: string]: unknown;
-											}[];
-											direction: ("ltr" | "rtl") | null;
-											format:
-												| "left"
-												| "start"
-												| "center"
-												| "right"
-												| "end"
-												| "justify"
-												| "";
-											indent: number;
-											version: number;
-										};
-										[k: string]: unknown;
-									} | null;
-									meta?: string | null;
-									value?: string | null;
-									cities?:
-										| {
-												name?: string | null;
-												id?: string | null;
-										  }[]
-										| null;
-									featured?: boolean | null;
-									ctaHref?: string | null;
-									ctaLabel?: string | null;
-									stand?: string | null;
-									country?: string | null;
-									participants?: string | null;
-									step?: string | null;
-									icon?: string | null;
-									className?: string | null;
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "overviewStats";
-				  }
-				| {
-						eyebrow?: string | null;
-						title: string;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						gridClassName?: string | null;
-						actions?:
-							| {
-									type: "mailto" | "link" | "tel";
-									variant?:
-										| (
-												| "default"
-												| "destructive"
-												| "outline"
-												| "secondary"
-												| "ghost"
-												| "link"
-										  )
-										| null;
-									title: string;
-									href?: string | null;
-									email?: string | null;
-									phone?: string | null;
-									target?: ("_self" | "_blank") | null;
-									id?: string | null;
-							  }[]
-							| null;
-						cards?:
-							| {
-									type:
-										| "country"
-										| "destinationInsight"
-										| "teamMember"
-										| "routeIdea"
-										| "experience"
-										| "tradeFair"
-										| "journal"
-										| "overviewStat"
-										| "servicesBusiness"
-										| "servicesDirection"
-										| "servicesProcess"
-										| "tripFormat";
-									relatedDoc?:
-										| ({
-												relationTo: "routes";
-												value: number | Route;
-										  } | null)
-										| ({
-												relationTo: "experiences";
-												value: number | Experience;
-										  } | null)
-										| ({
-												relationTo: "trade-fairs";
-												value: number | TradeFair;
-										  } | null)
-										| ({
-												relationTo: "journal-entries";
-												value: number | JournalEntry;
-										  } | null);
-									href?: string | null;
-									image?: (number | null) | Media;
-									badge?: string | null;
-									title?: string | null;
-									description?: {
-										root: {
-											type: string;
-											children: {
-												type: any;
-												version: number;
-												[k: string]: unknown;
-											}[];
-											direction: ("ltr" | "rtl") | null;
-											format:
-												| "left"
-												| "start"
-												| "center"
-												| "right"
-												| "end"
-												| "justify"
-												| "";
-											indent: number;
-											version: number;
-										};
-										[k: string]: unknown;
-									} | null;
-									meta?: string | null;
-									value?: string | null;
-									cities?:
-										| {
-												name?: string | null;
-												id?: string | null;
-										  }[]
-										| null;
-									featured?: boolean | null;
-									ctaHref?: string | null;
-									ctaLabel?: string | null;
-									stand?: string | null;
-									country?: string | null;
-									participants?: string | null;
-									step?: string | null;
-									icon?: string | null;
-									className?: string | null;
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "regular";
-				  }
-				| {
-						eyebrow?: string | null;
-						title?: string | null;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						mapCenter?: {
-							latitude?: number | null;
-							longitude?: number | null;
-						};
-						zoom?: number | null;
-						stops?:
-							| {
-									entityType:
-										| "country"
-										| "region"
-										| "city"
-										| "attraction";
-									relation:
-										| {
-												relationTo: "countries";
-												value: number | Country;
-										  }
-										| {
-												relationTo: "regions";
-												value: number | Region;
-										  }
-										| {
-												relationTo: "cities";
-												value: number | City;
-										  }
-										| {
-												relationTo: "attractions";
-												value: number | Attraction;
-										  };
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "routeMap";
-				  }
-				| {
-						eyebrow?: string | null;
-						title: string;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						questions?:
-							| {
-									icon: string;
-									title: string;
-									description: {
-										root: {
-											type: string;
-											children: {
-												type: any;
-												version: number;
-												[k: string]: unknown;
-											}[];
-											direction: ("ltr" | "rtl") | null;
-											format:
-												| "left"
-												| "start"
-												| "center"
-												| "right"
-												| "end"
-												| "justify"
-												| "";
-											indent: number;
-											version: number;
-										};
-										[k: string]: unknown;
-									};
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "faq";
-				  }
-				| {
-						image?: (number | null) | Media;
-						eyebrow?: string | null;
-						title?: string | null;
-						description?: {
-							root: {
-								type: string;
-								children: {
-									type: any;
-									version: number;
-									[k: string]: unknown;
-								}[];
-								direction: ("ltr" | "rtl") | null;
-								format:
-									| "left"
-									| "start"
-									| "center"
-									| "right"
-									| "end"
-									| "justify"
-									| "";
-								indent: number;
-								version: number;
-							};
-							[k: string]: unknown;
-						} | null;
-						actions?:
-							| {
-									type: "mailto" | "link" | "tel";
-									variant?:
-										| (
-												| "default"
-												| "destructive"
-												| "outline"
-												| "secondary"
-												| "ghost"
-												| "link"
-										  )
-										| null;
-									title: string;
-									href?: string | null;
-									email?: string | null;
-									phone?: string | null;
-									target?: ("_self" | "_blank") | null;
-									id?: string | null;
-							  }[]
-							| null;
-						id?: string | null;
-						blockName?: string | null;
-						blockType: "cta";
-				  }
-		  )[]
-		| null;
-	updatedAt?: string | null;
-	createdAt?: string | null;
+  id: number;
+  title?: string | null;
+  subtitle?: string | null;
+  seo?: {
+    metaTitle?: string | null;
+    metaDescription?: string | null;
+    canonicalOverride?: string | null;
+    ogTitle?: string | null;
+    ogDescription?: string | null;
+    ogImage?: (number | null) | Media;
+    robotsNoindex?: boolean | null;
+    structuredDataType?: ('WebPage' | 'TouristDestination' | 'TouristAttraction' | 'TouristTrip' | 'Article') | null;
+  };
+  blocks?:
+    | (
+        | {
+            image: number | Media;
+            imageAlt?: string | null;
+            title: string;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            note?: string | null;
+            actions?:
+              | {
+                  type: 'mailto' | 'link' | 'tel';
+                  variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+                  title: string;
+                  href?: string | null;
+                  email?: string | null;
+                  phone?: string | null;
+                  target?: ('_self' | '_blank') | null;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'hero';
+          }
+        | {
+            cards?:
+              | {
+                  type:
+                    | 'country'
+                    | 'destinationInsight'
+                    | 'teamMember'
+                    | 'routeIdea'
+                    | 'experience'
+                    | 'tradeFair'
+                    | 'journal'
+                    | 'overviewStat'
+                    | 'servicesBusiness'
+                    | 'servicesDirection'
+                    | 'servicesProcess'
+                    | 'tripFormat';
+                  relatedDoc?:
+                    | ({
+                        relationTo: 'routes';
+                        value: number | Route;
+                      } | null)
+                    | ({
+                        relationTo: 'experiences';
+                        value: number | Experience;
+                      } | null)
+                    | ({
+                        relationTo: 'trade-fairs';
+                        value: number | TradeFair;
+                      } | null)
+                    | ({
+                        relationTo: 'journal-entries';
+                        value: number | JournalEntry;
+                      } | null);
+                  href?: string | null;
+                  image?: (number | null) | Media;
+                  badge?: string | null;
+                  title?: string | null;
+                  description?: {
+                    root: {
+                      type: string;
+                      children: {
+                        type: any;
+                        version: number;
+                        [k: string]: unknown;
+                      }[];
+                      direction: ('ltr' | 'rtl') | null;
+                      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                      indent: number;
+                      version: number;
+                    };
+                    [k: string]: unknown;
+                  } | null;
+                  meta?: string | null;
+                  value?: string | null;
+                  cities?:
+                    | {
+                        name?: string | null;
+                        id?: string | null;
+                      }[]
+                    | null;
+                  featured?: boolean | null;
+                  ctaHref?: string | null;
+                  ctaLabel?: string | null;
+                  stand?: string | null;
+                  country?: string | null;
+                  participants?: string | null;
+                  step?: string | null;
+                  icon?: string | null;
+                  className?: string | null;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'overviewStats';
+          }
+        | {
+            eyebrow?: string | null;
+            title: string;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            gridClassName?: string | null;
+            actions?:
+              | {
+                  type: 'mailto' | 'link' | 'tel';
+                  variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+                  title: string;
+                  href?: string | null;
+                  email?: string | null;
+                  phone?: string | null;
+                  target?: ('_self' | '_blank') | null;
+                  id?: string | null;
+                }[]
+              | null;
+            cards?:
+              | {
+                  type:
+                    | 'country'
+                    | 'destinationInsight'
+                    | 'teamMember'
+                    | 'routeIdea'
+                    | 'experience'
+                    | 'tradeFair'
+                    | 'journal'
+                    | 'overviewStat'
+                    | 'servicesBusiness'
+                    | 'servicesDirection'
+                    | 'servicesProcess'
+                    | 'tripFormat';
+                  relatedDoc?:
+                    | ({
+                        relationTo: 'routes';
+                        value: number | Route;
+                      } | null)
+                    | ({
+                        relationTo: 'experiences';
+                        value: number | Experience;
+                      } | null)
+                    | ({
+                        relationTo: 'trade-fairs';
+                        value: number | TradeFair;
+                      } | null)
+                    | ({
+                        relationTo: 'journal-entries';
+                        value: number | JournalEntry;
+                      } | null);
+                  href?: string | null;
+                  image?: (number | null) | Media;
+                  badge?: string | null;
+                  title?: string | null;
+                  description?: {
+                    root: {
+                      type: string;
+                      children: {
+                        type: any;
+                        version: number;
+                        [k: string]: unknown;
+                      }[];
+                      direction: ('ltr' | 'rtl') | null;
+                      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                      indent: number;
+                      version: number;
+                    };
+                    [k: string]: unknown;
+                  } | null;
+                  meta?: string | null;
+                  value?: string | null;
+                  cities?:
+                    | {
+                        name?: string | null;
+                        id?: string | null;
+                      }[]
+                    | null;
+                  featured?: boolean | null;
+                  ctaHref?: string | null;
+                  ctaLabel?: string | null;
+                  stand?: string | null;
+                  country?: string | null;
+                  participants?: string | null;
+                  step?: string | null;
+                  icon?: string | null;
+                  className?: string | null;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'regular';
+          }
+        | {
+            eyebrow?: string | null;
+            title?: string | null;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            mapCenter?: {
+              latitude?: number | null;
+              longitude?: number | null;
+            };
+            zoom?: number | null;
+            stops?:
+              | {
+                  entityType: 'country' | 'region' | 'city' | 'attraction';
+                  relation:
+                    | {
+                        relationTo: 'countries';
+                        value: number | Country;
+                      }
+                    | {
+                        relationTo: 'regions';
+                        value: number | Region;
+                      }
+                    | {
+                        relationTo: 'cities';
+                        value: number | City;
+                      }
+                    | {
+                        relationTo: 'attractions';
+                        value: number | Attraction;
+                      };
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'routeMap';
+          }
+        | {
+            eyebrow?: string | null;
+            title: string;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            questions?:
+              | {
+                  icon: string;
+                  title: string;
+                  description: {
+                    root: {
+                      type: string;
+                      children: {
+                        type: any;
+                        version: number;
+                        [k: string]: unknown;
+                      }[];
+                      direction: ('ltr' | 'rtl') | null;
+                      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                      indent: number;
+                      version: number;
+                    };
+                    [k: string]: unknown;
+                  };
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'faq';
+          }
+        | {
+            image?: (number | null) | Media;
+            eyebrow?: string | null;
+            title?: string | null;
+            description?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            actions?:
+              | {
+                  type: 'mailto' | 'link' | 'tel';
+                  variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+                  title: string;
+                  href?: string | null;
+                  email?: string | null;
+                  phone?: string | null;
+                  target?: ('_self' | '_blank') | null;
+                  id?: string | null;
+                }[]
+              | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'cta';
+          }
+      )[]
+    | null;
+  updatedAt?: string | null;
+  createdAt?: string | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "site-settings".
  */
 export interface SiteSetting {
-	id: number;
-	contact?: {
-		phoneDisplay?: string | null;
-		phoneE164?: string | null;
-		whatsappHref?: string | null;
-		defaultEmail?: string | null;
-		telegramNote?: string | null;
-	};
-	legal?: {
-		legalName?: string | null;
-		brandName?: string | null;
-		inn?: string | null;
-		oked?: string | null;
-		director?: string | null;
-		city?: string | null;
-		country?: string | null;
-		timezone?: string | null;
-		taxStatus?: string | null;
-	};
-	updatedAt?: string | null;
-	createdAt?: string | null;
+  id: number;
+  contact?: {
+    phoneDisplay?: string | null;
+    phoneE164?: string | null;
+    whatsappHref?: string | null;
+    defaultEmail?: string | null;
+    telegramNote?: string | null;
+  };
+  legal?: {
+    legalName?: string | null;
+    brandName?: string | null;
+    inn?: string | null;
+    oked?: string | null;
+    director?: string | null;
+    city?: string | null;
+    country?: string | null;
+    timezone?: string | null;
+    taxStatus?: string | null;
+  };
+  updatedAt?: string | null;
+  createdAt?: string | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "header".
  */
 export interface Header {
-	id: number;
-	logo?: (number | null) | Media;
-	navItems?:
-		| {
-				type: "page" | "group" | "external" | "custom";
-				/**
-				 * Optional override. If empty, page title is used on the site.
-				 */
-				label?: string | null;
-				/**
-				 * Short text shown in header dropdown under the link title.
-				 */
-				description?: string | null;
-				/**
-				 * Lucide icon name, e.g. mail, shield, handshake
-				 */
-				icon?: string | null;
-				target?: ("_self" | "_blank") | null;
-				page?: (number | null) | Page;
-				href?: string | null;
-				/**
-				 * Named groupItems (not items) to avoid Drizzle relation clash in footer columns.
-				 */
-				groupItems?:
-					| {
-							type: "page" | "external" | "custom";
-							/**
-							 * Optional override. If empty, page title is used on the site.
-							 */
-							label?: string | null;
-							/**
-							 * Short text shown in header dropdown under the link title.
-							 */
-							description?: string | null;
-							/**
-							 * Lucide icon name, e.g. mail, shield, handshake
-							 */
-							icon?: string | null;
-							target?: ("_self" | "_blank") | null;
-							page?: (number | null) | Page;
-							href?: string | null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-		  }[]
-		| null;
-	ctaAction?: {
-		type?: ("mailto" | "link") | null;
-		href?: string | null;
-		title?: string | null;
-		variant?:
-			| (
-					| "default"
-					| "destructive"
-					| "outline"
-					| "secondary"
-					| "ghost"
-					| "link"
-			  )
-			| null;
-	};
-	updatedAt?: string | null;
-	createdAt?: string | null;
+  id: number;
+  logo?: (number | null) | Media;
+  navItems?:
+    | {
+        type: 'page' | 'group' | 'external' | 'custom';
+        /**
+         * Optional override. If empty, page title is used on the site.
+         */
+        label?: string | null;
+        /**
+         * Short text shown in header dropdown under the link title.
+         */
+        description?: string | null;
+        /**
+         * Lucide icon name, e.g. mail, shield, handshake
+         */
+        icon?: string | null;
+        target?: ('_self' | '_blank') | null;
+        page?: (number | null) | Page;
+        href?: string | null;
+        /**
+         * Named groupItems (not items) to avoid Drizzle relation clash in footer columns.
+         */
+        groupItems?:
+          | {
+              type: 'page' | 'external' | 'custom';
+              /**
+               * Optional override. If empty, page title is used on the site.
+               */
+              label?: string | null;
+              /**
+               * Short text shown in header dropdown under the link title.
+               */
+              description?: string | null;
+              /**
+               * Lucide icon name, e.g. mail, shield, handshake
+               */
+              icon?: string | null;
+              target?: ('_self' | '_blank') | null;
+              page?: (number | null) | Page;
+              href?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+      }[]
+    | null;
+  ctaAction?: {
+    type?: ('mailto' | 'link') | null;
+    href?: string | null;
+    title?: string | null;
+    variant?: ('default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link') | null;
+  };
+  updatedAt?: string | null;
+  createdAt?: string | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "footer".
  */
 export interface Footer {
-	id: number;
-	columns?:
-		| {
-				title: string;
-				items?:
-					| {
-							type: "page" | "group" | "external" | "custom";
-							/**
-							 * Optional override. If empty, page title is used on the site.
-							 */
-							label?: string | null;
-							/**
-							 * Short text shown in header dropdown under the link title.
-							 */
-							description?: string | null;
-							/**
-							 * Lucide icon name, e.g. mail, shield, handshake
-							 */
-							icon?: string | null;
-							target?: ("_self" | "_blank") | null;
-							page?: (number | null) | Page;
-							href?: string | null;
-							/**
-							 * Named groupItems (not items) to avoid Drizzle relation clash in footer columns.
-							 */
-							groupItems?:
-								| {
-										type: "page" | "external" | "custom";
-										/**
-										 * Optional override. If empty, page title is used on the site.
-										 */
-										label?: string | null;
-										/**
-										 * Short text shown in header dropdown under the link title.
-										 */
-										description?: string | null;
-										/**
-										 * Lucide icon name, e.g. mail, shield, handshake
-										 */
-										icon?: string | null;
-										target?: ("_self" | "_blank") | null;
-										page?: (number | null) | Page;
-										href?: string | null;
-										id?: string | null;
-								  }[]
-								| null;
-							id?: string | null;
-					  }[]
-					| null;
-				id?: string | null;
-		  }[]
-		| null;
-	socialLinks?:
-		| {
-				platform: string;
-				url: string;
-				id?: string | null;
-		  }[]
-		| null;
-	copyrightText?: string | null;
-	updatedAt?: string | null;
-	createdAt?: string | null;
+  id: number;
+  columns?:
+    | {
+        title: string;
+        items?:
+          | {
+              type: 'page' | 'group' | 'external' | 'custom';
+              /**
+               * Optional override. If empty, page title is used on the site.
+               */
+              label?: string | null;
+              /**
+               * Short text shown in header dropdown under the link title.
+               */
+              description?: string | null;
+              /**
+               * Lucide icon name, e.g. mail, shield, handshake
+               */
+              icon?: string | null;
+              target?: ('_self' | '_blank') | null;
+              page?: (number | null) | Page;
+              href?: string | null;
+              /**
+               * Named groupItems (not items) to avoid Drizzle relation clash in footer columns.
+               */
+              groupItems?:
+                | {
+                    type: 'page' | 'external' | 'custom';
+                    /**
+                     * Optional override. If empty, page title is used on the site.
+                     */
+                    label?: string | null;
+                    /**
+                     * Short text shown in header dropdown under the link title.
+                     */
+                    description?: string | null;
+                    /**
+                     * Lucide icon name, e.g. mail, shield, handshake
+                     */
+                    icon?: string | null;
+                    target?: ('_self' | '_blank') | null;
+                    page?: (number | null) | Page;
+                    href?: string | null;
+                    id?: string | null;
+                  }[]
+                | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+      }[]
+    | null;
+  socialLinks?:
+    | {
+        platform: string;
+        url: string;
+        id?: string | null;
+      }[]
+    | null;
+  copyrightText?: string | null;
+  updatedAt?: string | null;
+  createdAt?: string | null;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "homepage_select".
  */
 export interface HomepageSelect<T extends boolean = true> {
-	seo?:
-		| T
-		| {
-				metaTitle?: T;
-				metaDescription?: T;
-				canonicalOverride?: T;
-				ogTitle?: T;
-				ogDescription?: T;
-				ogImage?: T;
-				robotsNoindex?: T;
-				structuredDataType?: T;
-		  };
-	blocks?:
-		| T
-		| {
-				hero?:
-					| T
-					| {
-							image?: T;
-							imageAlt?: T;
-							title?: T;
-							description?: T;
-							note?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				overviewStats?:
-					| T
-					| {
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				regular?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							gridClassName?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				routeMap?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							mapCenter?:
-								| T
-								| {
-										latitude?: T;
-										longitude?: T;
-								  };
-							zoom?: T;
-							stops?:
-								| T
-								| {
-										entityType?: T;
-										relation?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				faq?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							questions?:
-								| T
-								| {
-										icon?: T;
-										title?: T;
-										description?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				cta?:
-					| T
-					| {
-							image?: T;
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-		  };
-	updatedAt?: T;
-	createdAt?: T;
-	globalType?: T;
+  seo?:
+    | T
+    | {
+        metaTitle?: T;
+        metaDescription?: T;
+        canonicalOverride?: T;
+        ogTitle?: T;
+        ogDescription?: T;
+        ogImage?: T;
+        robotsNoindex?: T;
+        structuredDataType?: T;
+      };
+  blocks?:
+    | T
+    | {
+        hero?:
+          | T
+          | {
+              image?: T;
+              imageAlt?: T;
+              title?: T;
+              description?: T;
+              note?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        overviewStats?:
+          | T
+          | {
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        regular?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              gridClassName?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        routeMap?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              mapCenter?:
+                | T
+                | {
+                    latitude?: T;
+                    longitude?: T;
+                  };
+              zoom?: T;
+              stops?:
+                | T
+                | {
+                    entityType?: T;
+                    relation?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        faq?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              questions?:
+                | T
+                | {
+                    icon?: T;
+                    title?: T;
+                    description?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        cta?:
+          | T
+          | {
+              image?: T;
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+      };
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "destination_select".
  */
 export interface DestinationSelect<T extends boolean = true> {
-	slug?: T;
-	seo?:
-		| T
-		| {
-				metaTitle?: T;
-				metaDescription?: T;
-				canonicalOverride?: T;
-				ogTitle?: T;
-				ogDescription?: T;
-				ogImage?: T;
-				robotsNoindex?: T;
-				structuredDataType?: T;
-		  };
-	blocks?:
-		| T
-		| {
-				hero?:
-					| T
-					| {
-							image?: T;
-							imageAlt?: T;
-							title?: T;
-							description?: T;
-							note?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				overviewStats?:
-					| T
-					| {
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				regular?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							gridClassName?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				routeMap?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							mapCenter?:
-								| T
-								| {
-										latitude?: T;
-										longitude?: T;
-								  };
-							zoom?: T;
-							stops?:
-								| T
-								| {
-										entityType?: T;
-										relation?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				faq?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							questions?:
-								| T
-								| {
-										icon?: T;
-										title?: T;
-										description?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				cta?:
-					| T
-					| {
-							image?: T;
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-		  };
-	updatedAt?: T;
-	createdAt?: T;
-	globalType?: T;
+  slug?: T;
+  seo?:
+    | T
+    | {
+        metaTitle?: T;
+        metaDescription?: T;
+        canonicalOverride?: T;
+        ogTitle?: T;
+        ogDescription?: T;
+        ogImage?: T;
+        robotsNoindex?: T;
+        structuredDataType?: T;
+      };
+  blocks?:
+    | T
+    | {
+        hero?:
+          | T
+          | {
+              image?: T;
+              imageAlt?: T;
+              title?: T;
+              description?: T;
+              note?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        overviewStats?:
+          | T
+          | {
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        regular?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              gridClassName?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        routeMap?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              mapCenter?:
+                | T
+                | {
+                    latitude?: T;
+                    longitude?: T;
+                  };
+              zoom?: T;
+              stops?:
+                | T
+                | {
+                    entityType?: T;
+                    relation?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        faq?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              questions?:
+                | T
+                | {
+                    icon?: T;
+                    title?: T;
+                    description?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        cta?:
+          | T
+          | {
+              image?: T;
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+      };
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "routes-hub_select".
  */
 export interface RoutesHubSelect<T extends boolean = true> {
-	title?: T;
-	subtitle?: T;
-	seo?:
-		| T
-		| {
-				metaTitle?: T;
-				metaDescription?: T;
-				canonicalOverride?: T;
-				ogTitle?: T;
-				ogDescription?: T;
-				ogImage?: T;
-				robotsNoindex?: T;
-				structuredDataType?: T;
-		  };
-	blocks?:
-		| T
-		| {
-				hero?:
-					| T
-					| {
-							image?: T;
-							imageAlt?: T;
-							title?: T;
-							description?: T;
-							note?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				overviewStats?:
-					| T
-					| {
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				regular?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							gridClassName?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				routeMap?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							mapCenter?:
-								| T
-								| {
-										latitude?: T;
-										longitude?: T;
-								  };
-							zoom?: T;
-							stops?:
-								| T
-								| {
-										entityType?: T;
-										relation?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				faq?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							questions?:
-								| T
-								| {
-										icon?: T;
-										title?: T;
-										description?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				cta?:
-					| T
-					| {
-							image?: T;
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-		  };
-	updatedAt?: T;
-	createdAt?: T;
-	globalType?: T;
+  title?: T;
+  subtitle?: T;
+  seo?:
+    | T
+    | {
+        metaTitle?: T;
+        metaDescription?: T;
+        canonicalOverride?: T;
+        ogTitle?: T;
+        ogDescription?: T;
+        ogImage?: T;
+        robotsNoindex?: T;
+        structuredDataType?: T;
+      };
+  blocks?:
+    | T
+    | {
+        hero?:
+          | T
+          | {
+              image?: T;
+              imageAlt?: T;
+              title?: T;
+              description?: T;
+              note?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        overviewStats?:
+          | T
+          | {
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        regular?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              gridClassName?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        routeMap?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              mapCenter?:
+                | T
+                | {
+                    latitude?: T;
+                    longitude?: T;
+                  };
+              zoom?: T;
+              stops?:
+                | T
+                | {
+                    entityType?: T;
+                    relation?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        faq?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              questions?:
+                | T
+                | {
+                    icon?: T;
+                    title?: T;
+                    description?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        cta?:
+          | T
+          | {
+              image?: T;
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+      };
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "experiences-hub_select".
  */
 export interface ExperiencesHubSelect<T extends boolean = true> {
-	title?: T;
-	subtitle?: T;
-	seo?:
-		| T
-		| {
-				metaTitle?: T;
-				metaDescription?: T;
-				canonicalOverride?: T;
-				ogTitle?: T;
-				ogDescription?: T;
-				ogImage?: T;
-				robotsNoindex?: T;
-				structuredDataType?: T;
-		  };
-	blocks?:
-		| T
-		| {
-				hero?:
-					| T
-					| {
-							image?: T;
-							imageAlt?: T;
-							title?: T;
-							description?: T;
-							note?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				overviewStats?:
-					| T
-					| {
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				regular?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							gridClassName?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							cards?:
-								| T
-								| {
-										type?: T;
-										relatedDoc?: T;
-										href?: T;
-										image?: T;
-										badge?: T;
-										title?: T;
-										description?: T;
-										meta?: T;
-										value?: T;
-										cities?:
-											| T
-											| {
-													name?: T;
-													id?: T;
-											  };
-										featured?: T;
-										ctaHref?: T;
-										ctaLabel?: T;
-										stand?: T;
-										country?: T;
-										participants?: T;
-										step?: T;
-										icon?: T;
-										className?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				routeMap?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							mapCenter?:
-								| T
-								| {
-										latitude?: T;
-										longitude?: T;
-								  };
-							zoom?: T;
-							stops?:
-								| T
-								| {
-										entityType?: T;
-										relation?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				faq?:
-					| T
-					| {
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							questions?:
-								| T
-								| {
-										icon?: T;
-										title?: T;
-										description?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-				cta?:
-					| T
-					| {
-							image?: T;
-							eyebrow?: T;
-							title?: T;
-							description?: T;
-							actions?:
-								| T
-								| {
-										type?: T;
-										variant?: T;
-										title?: T;
-										href?: T;
-										email?: T;
-										phone?: T;
-										target?: T;
-										id?: T;
-								  };
-							id?: T;
-							blockName?: T;
-					  };
-		  };
-	updatedAt?: T;
-	createdAt?: T;
-	globalType?: T;
+  title?: T;
+  subtitle?: T;
+  seo?:
+    | T
+    | {
+        metaTitle?: T;
+        metaDescription?: T;
+        canonicalOverride?: T;
+        ogTitle?: T;
+        ogDescription?: T;
+        ogImage?: T;
+        robotsNoindex?: T;
+        structuredDataType?: T;
+      };
+  blocks?:
+    | T
+    | {
+        hero?:
+          | T
+          | {
+              image?: T;
+              imageAlt?: T;
+              title?: T;
+              description?: T;
+              note?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        overviewStats?:
+          | T
+          | {
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        regular?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              gridClassName?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              cards?:
+                | T
+                | {
+                    type?: T;
+                    relatedDoc?: T;
+                    href?: T;
+                    image?: T;
+                    badge?: T;
+                    title?: T;
+                    description?: T;
+                    meta?: T;
+                    value?: T;
+                    cities?:
+                      | T
+                      | {
+                          name?: T;
+                          id?: T;
+                        };
+                    featured?: T;
+                    ctaHref?: T;
+                    ctaLabel?: T;
+                    stand?: T;
+                    country?: T;
+                    participants?: T;
+                    step?: T;
+                    icon?: T;
+                    className?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        routeMap?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              mapCenter?:
+                | T
+                | {
+                    latitude?: T;
+                    longitude?: T;
+                  };
+              zoom?: T;
+              stops?:
+                | T
+                | {
+                    entityType?: T;
+                    relation?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        faq?:
+          | T
+          | {
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              questions?:
+                | T
+                | {
+                    icon?: T;
+                    title?: T;
+                    description?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        cta?:
+          | T
+          | {
+              image?: T;
+              eyebrow?: T;
+              title?: T;
+              description?: T;
+              actions?:
+                | T
+                | {
+                    type?: T;
+                    variant?: T;
+                    title?: T;
+                    href?: T;
+                    email?: T;
+                    phone?: T;
+                    target?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+      };
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "site-settings_select".
  */
 export interface SiteSettingsSelect<T extends boolean = true> {
-	contact?:
-		| T
-		| {
-				phoneDisplay?: T;
-				phoneE164?: T;
-				whatsappHref?: T;
-				defaultEmail?: T;
-				telegramNote?: T;
-		  };
-	legal?:
-		| T
-		| {
-				legalName?: T;
-				brandName?: T;
-				inn?: T;
-				oked?: T;
-				director?: T;
-				city?: T;
-				country?: T;
-				timezone?: T;
-				taxStatus?: T;
-		  };
-	updatedAt?: T;
-	createdAt?: T;
-	globalType?: T;
+  contact?:
+    | T
+    | {
+        phoneDisplay?: T;
+        phoneE164?: T;
+        whatsappHref?: T;
+        defaultEmail?: T;
+        telegramNote?: T;
+      };
+  legal?:
+    | T
+    | {
+        legalName?: T;
+        brandName?: T;
+        inn?: T;
+        oked?: T;
+        director?: T;
+        city?: T;
+        country?: T;
+        timezone?: T;
+        taxStatus?: T;
+      };
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "header_select".
  */
 export interface HeaderSelect<T extends boolean = true> {
-	logo?: T;
-	navItems?:
-		| T
-		| {
-				type?: T;
-				label?: T;
-				description?: T;
-				icon?: T;
-				target?: T;
-				page?: T;
-				href?: T;
-				groupItems?:
-					| T
-					| {
-							type?: T;
-							label?: T;
-							description?: T;
-							icon?: T;
-							target?: T;
-							page?: T;
-							href?: T;
-							id?: T;
-					  };
-				id?: T;
-		  };
-	ctaAction?:
-		| T
-		| {
-				type?: T;
-				href?: T;
-				title?: T;
-				variant?: T;
-		  };
-	updatedAt?: T;
-	createdAt?: T;
-	globalType?: T;
+  logo?: T;
+  navItems?:
+    | T
+    | {
+        type?: T;
+        label?: T;
+        description?: T;
+        icon?: T;
+        target?: T;
+        page?: T;
+        href?: T;
+        groupItems?:
+          | T
+          | {
+              type?: T;
+              label?: T;
+              description?: T;
+              icon?: T;
+              target?: T;
+              page?: T;
+              href?: T;
+              id?: T;
+            };
+        id?: T;
+      };
+  ctaAction?:
+    | T
+    | {
+        type?: T;
+        href?: T;
+        title?: T;
+        variant?: T;
+      };
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "footer_select".
  */
 export interface FooterSelect<T extends boolean = true> {
-	columns?:
-		| T
-		| {
-				title?: T;
-				items?:
-					| T
-					| {
-							type?: T;
-							label?: T;
-							description?: T;
-							icon?: T;
-							target?: T;
-							page?: T;
-							href?: T;
-							groupItems?:
-								| T
-								| {
-										type?: T;
-										label?: T;
-										description?: T;
-										icon?: T;
-										target?: T;
-										page?: T;
-										href?: T;
-										id?: T;
-								  };
-							id?: T;
-					  };
-				id?: T;
-		  };
-	socialLinks?:
-		| T
-		| {
-				platform?: T;
-				url?: T;
-				id?: T;
-		  };
-	copyrightText?: T;
-	updatedAt?: T;
-	createdAt?: T;
-	globalType?: T;
+  columns?:
+    | T
+    | {
+        title?: T;
+        items?:
+          | T
+          | {
+              type?: T;
+              label?: T;
+              description?: T;
+              icon?: T;
+              target?: T;
+              page?: T;
+              href?: T;
+              groupItems?:
+                | T
+                | {
+                    type?: T;
+                    label?: T;
+                    description?: T;
+                    icon?: T;
+                    target?: T;
+                    page?: T;
+                    href?: T;
+                    id?: T;
+                  };
+              id?: T;
+            };
+        id?: T;
+      };
+  socialLinks?:
+    | T
+    | {
+        platform?: T;
+        url?: T;
+        id?: T;
+      };
+  copyrightText?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "collections_widget".
  */
 export interface CollectionsWidget {
-	data?: {
-		[k: string]: unknown;
-	};
-	width: "full";
+  data?: {
+    [k: string]: unknown;
+  };
+  width: 'full';
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "auth".
  */
 export interface Auth {
-	[k: string]: unknown;
+  [k: string]: unknown;
 }
 
-declare module "payload" {
-	export interface GeneratedTypes extends Config {}
+
+declare module 'payload' {
+  export interface GeneratedTypes extends Config {}
 }

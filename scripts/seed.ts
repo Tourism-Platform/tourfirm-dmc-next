@@ -116,7 +116,7 @@ function resolveBlockActions(
 }
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const CONTENT_DIR = path.join(ROOT, "content");
+export const CONTENT_DIR = path.join(ROOT, "content");
 const SEED_LOCK_PATH = path.join(ROOT, ".seed.lock");
 const MEDIA_UPLOAD_DIR = "media/uploads";
 const MEDIA_UPLOAD_PATH = path.join(ROOT, MEDIA_UPLOAD_DIR);
@@ -130,7 +130,7 @@ let activeMediaDbIndex: TMediaDbIndex | undefined;
 let activeProfiler: TSeedProfiler | undefined;
 let isCleanMediaRun = true;
 
-function setSeedRuntimeContext(
+export function setSeedRuntimeContext(
 	lookup: SeedLookupCache,
 	mediaDbIndex?: TMediaDbIndex,
 	profiler?: TSeedProfiler
@@ -222,7 +222,7 @@ function isLocalizedValue(
 	return LOCALES.every((locale) => locale in record);
 }
 
-function pickLocale(value: unknown, locale: TLocale): unknown {
+export function pickLocale(value: unknown, locale: TLocale): unknown {
 	if (isLocalizedValue(value)) {
 		return value[locale];
 	}
@@ -243,7 +243,7 @@ function pickLocale(value: unknown, locale: TLocale): unknown {
 	return value;
 }
 
-async function readYamlFile<T>(filePath: string): Promise<T> {
+export async function readYamlFile<T>(filePath: string): Promise<T> {
 	const raw = await fs.readFile(filePath, "utf8");
 	return parseYaml(raw) as T;
 }
@@ -317,7 +317,7 @@ async function releaseSeedLock(): Promise<void> {
 	await fs.unlink(SEED_LOCK_PATH).catch(() => undefined);
 }
 
-function resolveSeedSlug(raw: Record<string, unknown>): string | undefined {
+export function resolveSeedSlug(raw: Record<string, unknown>): string | undefined {
 	const slug = raw.slug;
 
 	if (typeof slug === "string" && slug.length > 0) {
@@ -335,7 +335,7 @@ function resolveSeedSlug(raw: Record<string, unknown>): string | undefined {
 	return undefined;
 }
 
-async function findSeedDocBySlug(
+export async function findSeedDocBySlug(
 	payload: Payload,
 	collection: CollectionSlug,
 	slug: string
@@ -694,7 +694,7 @@ async function resolveTopLevelMedia(
 	return result;
 }
 
-async function resolveSeedDocument(
+export async function resolveSeedDocument(
 	payload: Payload,
 	mediaCache: TMediaCache,
 	data: Record<string, unknown>,
@@ -737,7 +737,7 @@ async function readDestinationPageSlug(): Promise<string> {
 	return String(slug ?? "");
 }
 
-async function seedDiscoveryGlobal(
+export async function seedDiscoveryGlobal(
 	payload: Payload,
 	slug: "routes-hub" | "experiences-hub",
 	raw: Record<string, unknown>,
@@ -828,7 +828,7 @@ async function seedDestination(
 	return pageSlug;
 }
 
-function resolveBadgeIds(
+export function resolveBadgeIds(
 	data: Record<string, unknown>,
 	badgeIds: Map<string, number>
 ): Record<string, unknown> {
@@ -855,7 +855,7 @@ function resolveBadgeIds(
 
 const FEATURED_NAV_BADGES = new Set(["FEATURED", "TOP_PICK"]);
 
-function applyGeoNavOrder(
+export function applyGeoNavOrder(
 	data: Record<string, unknown>,
 	index: number
 ): Record<string, unknown> {
@@ -894,7 +894,7 @@ async function findCityIdBySlug(
 	return activeLookup.getCityId(regionId, citySlug);
 }
 
-async function resolveRegionSeedData(
+export async function resolveRegionSeedData(
 	payload: Payload,
 	data: Record<string, unknown>,
 	locale: TLocale,
@@ -914,7 +914,7 @@ async function resolveRegionSeedData(
 	});
 }
 
-async function resolveCitySeedData(
+export async function resolveCitySeedData(
 	payload: Payload,
 	data: Record<string, unknown>,
 	locale: TLocale,
@@ -943,7 +943,7 @@ async function resolveCitySeedData(
 	});
 }
 
-async function resolveAttractionSeedData(
+export async function resolveAttractionSeedData(
 	payload: Payload,
 	data: Record<string, unknown>,
 	locale: TLocale,
@@ -976,7 +976,7 @@ async function resolveAttractionSeedData(
 	return resolveSeedDocument(payload, mediaCache, withBadges, locale);
 }
 
-async function seedLocalizedDocOnce(
+export async function seedLocalizedDocOnce(
 	payload: Payload,
 	collection: CollectionSlug,
 	raw: Record<string, unknown>,
@@ -1086,7 +1086,7 @@ function toRelationshipId(value: unknown): number | undefined {
 	return undefined;
 }
 
-function registerCountryFromDoc(
+export function registerCountryFromDoc(
 	lookup: SeedLookupCache,
 	doc: Record<string, unknown>
 ): void {
@@ -1106,7 +1106,7 @@ function registerCountryFromDoc(
 	});
 }
 
-function registerRegionFromDoc(
+export function registerRegionFromDoc(
 	lookup: SeedLookupCache,
 	doc: Record<string, unknown>
 ): void {
@@ -1120,7 +1120,7 @@ function registerRegionFromDoc(
 	lookup.registerRegion(countryId, slug, doc.id as number);
 }
 
-function registerCityFromDoc(
+export function registerCityFromDoc(
 	lookup: SeedLookupCache,
 	doc: Record<string, unknown>
 ): void {
@@ -1134,7 +1134,7 @@ function registerCityFromDoc(
 	lookup.registerCity(regionId, slug, doc.id as number);
 }
 
-function registerAttractionFromDoc(
+export function registerAttractionFromDoc(
 	lookup: SeedLookupCache,
 	doc: Record<string, unknown>
 ): void {
@@ -1245,7 +1245,7 @@ async function seedCountries(
 	return files.length;
 }
 
-async function refreshRouteMapStops(
+export async function refreshRouteMapStops(
 	payload: Payload,
 	collection: TRouteMapCollection,
 	badgeIds: Map<string, number>,
@@ -2105,7 +2105,14 @@ async function runSeed(): Promise<void> {
 	process.exit(0);
 }
 
-main().catch((error: unknown) => {
-	console.error("Seed failed:", error);
-	process.exit(1);
-});
+const isSeedEntrypoint =
+	process.argv[1] &&
+	path.resolve(fileURLToPath(import.meta.url)) ===
+		path.resolve(process.argv[1]);
+
+if (isSeedEntrypoint) {
+	main().catch((error: unknown) => {
+		console.error("Seed failed:", error);
+		process.exit(1);
+	});
+}

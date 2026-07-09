@@ -150,6 +150,38 @@ export class SeedLookupCache {
 		}
 	}
 
+	async ingestRoutes(payload: Payload): Promise<void> {
+		const result = await payload.find({
+			collection: "routes",
+			locale: "en",
+			limit: 500,
+			depth: 0,
+			overrideAccess: true
+		});
+
+		for (const doc of result.docs) {
+			if (typeof doc.slug === "string") {
+				this.routes.set(doc.slug, doc.id as number);
+			}
+		}
+	}
+
+	async ingestExperiences(payload: Payload): Promise<void> {
+		const result = await payload.find({
+			collection: "experiences",
+			locale: "en",
+			limit: 500,
+			depth: 0,
+			overrideAccess: true
+		});
+
+		for (const doc of result.docs) {
+			if (typeof doc.slug === "string") {
+				this.experiences.set(doc.slug, doc.id as number);
+			}
+		}
+	}
+
 	getCountryId(slug: string): number {
 		const id = this.countries.get(slug);
 
