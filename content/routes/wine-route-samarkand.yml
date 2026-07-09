@@ -1,0 +1,79 @@
+# Seed: route — Wine route Samarkand
+
+slug:
+  en: wine-route-samarkand
+  ru: wine-route-samarkand
+  uz: wine-route-samarkand
+title:
+  en: Wine route of Samarkand
+  ru: Винный маршрут Самарканда
+  uz: Samarqand vino yo'li
+subtitle:
+  en: Vineyards, tasting rooms, and Silk Road monuments on the same long weekend.
+  ru: Виноградники, дегустационные залы и памятники Шёлкового пути в один уик-энд.
+  uz: Bir hafta oxiri uchun uzumzorlar, dasturxon xonalari va Ipak yo'li yodgorliklari.
+excerpt:
+  en: Three to four days focused on Samarkand region — Registan by day, winery visits by afternoon, regional food in the evening.
+  ru: Три–четыре дня в Самаркандской области — Регистан днём, винодельни после обеда, региональная кухня вечером.
+  uz: Samarqand viloyatiga uch–to'rt kun — kunduzi Registon, tushdan keyin vino zavodlari, kechqurun mintaqaviy taomlar.
+countries:
+  - uzbekistan
+cityRefs:
+  - country: uzbekistan
+    region: samarkand-region
+    city: samarkand
+attractions:
+  - registan
+themes:
+  - wine-gastronomy
+  - culture
+  - food
+experiences:
+  - samarkand-wine-tasting
+  - registan-guided-walk
+relatedRoutes:
+  - silk-road-classics
+  - uzbekistan-essentials
+durationDays: 4
+routeScope: CITY
+featured: true
+sortOrder: 3
+catalogQuery: destination=Samarkand&themes=wine
+heroImage: assets/images/experiences/culture-2.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/experiences/culture-2.jpg
+    imageAlt:
+      en: Samarkand vineyard hills
+      ru: Холмы виноградников Самарканда
+      uz: Samarqand uzumzorlari tepaliklari
+    title:
+      en: Where Central Asian wine meets Timurid architecture
+      ru: Где вино Центральной Азии встречается с тимуридской архитектурой
+      uz: Markaziy Osiyo vinosi Temuriylar me'moriyati bilan uchrashadigan joy
+    description:
+      en: "Samarkand is not only tile and turquoise. The surrounding valleys produce wines that surprise first-time visitors — this route pairs tastings with monument visits at the right hours."
+      ru: "Самарканд — не только кафель и бирюза. Окружающие долины дают вина, которые удивляют гостей — маршрут сочетает дегустации с посещением памятников в правильные часы."
+      uz: "Samarqand faqat kafel va firuza emas. Atrofdagi vodiyilar mehmonlarni hayratlantiradigan vinolar beradi — marshrut dasturxonlarni to'g'ri soatlarda yodgorlik tashriflari bilan uyg'unlashtiradi."
+  - blockType: regular
+    title:
+      en: Tasting etiquette & timing
+      ru: Этикет дегустации и тайминг
+      uz: Dasturxon etiketi va vaqt
+    description:
+      en: "Schedule Registan for morning light, winery visits after lunch when cellars are ready, and leave Shah-i-Zinda for late afternoon. Drivers or guides handle the short hops between valley and city."
+      ru: "Регистан — на утренний свет, винодельни — после обеда, когда погреба готовы, Шахи-Зинду — на поздний день. Короткие переезды между долиной и городом — на водителе или гиде."
+      uz: "Registonni ertalabki yorug'likka, vino zavodlarini tushdan keyin, Shohi Zindani kechki soatga rejalashtiring. Vodiy va shahar orasidagi qisqa yo'llarni haydovchi yoki gid hal qiladi."
+seo:
+  metaTitle:
+    en: Wine route Samarkand | TourLink
+    ru: Винный маршрут Самарканда | TourLink
+    uz: Samarqand vino yo'li | TourLink
+  metaDescription:
+    en: Samarkand wine and culture route with tastings, Registan, and commercial catalog handoff.
+    ru: Винно-культурный маршрут Самарканда с дегустациями, Регистаном и переходом в каталог.
+    uz: Samarqand vino va madaniyat marshruti — dasturxonlar, Registon va katalogga o'tish.
+status:
+  showInSitemap: true
+  noindex: false
+  publishedAt: "2025-06-01"

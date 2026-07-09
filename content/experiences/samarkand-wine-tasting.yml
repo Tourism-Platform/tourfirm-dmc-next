@@ -1,0 +1,64 @@
+# Seed: experience — Samarkand wine tasting
+
+slug:
+  en: samarkand-wine-tasting
+  ru: samarkand-wine-tasting
+  uz: samarkand-wine-tasting
+title:
+  en: Samarkand wine tasting
+  ru: Дегустация вин Самарканда
+  uz: Samarqand vino dasturxoni
+subtitle:
+  en: Valley cellars, local grape varieties, and pairing notes with regional dishes.
+  ru: Долинные погреба, местные сорта винограда и рекомендации к региональным блюдам.
+  uz: Vodiy podvallari, mahalliy uzum navlari va mintaqaviy taomlarga moslashtirish.
+excerpt:
+  en: Afternoon session with transport from the city — three to five pours with food pairing and winery history.
+  ru: Послеобеденная сессия с трансфером из города — три–пять бокалов с едой и историей виноделия.
+  uz: Shahardan transfer bilan tushdan keyingi sessiya — uch–besh qadoq ovqat bilan va vinochilik tarixi.
+type: TASTING
+country: uzbekistan
+region: samarkand-region
+city: samarkand
+themes:
+  - wine-gastronomy
+  - food
+duration:
+  en: 3–4 hours
+  ru: 3–4 часа
+  uz: 3–4 soat
+featured: true
+sortOrder: 2
+catalogQuery: destination=Samarkand&themes=wine
+heroImage: assets/images/experiences/culture-2.jpg
+relatedExperiences:
+  - registan-guided-walk
+  - bukhara-family-plov
+blocks:
+  - blockType: hero
+    image: assets/images/experiences/culture-2.jpg
+    imageAlt:
+      en: Wine glasses in Samarkand cellar
+      ru: Бокалы вин в самаркандском погребе
+      uz: Samarqand podvalidagi vino bokalari
+    title:
+      en: Central Asian wine without stereotypes
+      ru: Вино Центральной Азии без стереотипов
+      uz: Stereotipsiz Markaziy Osiyo vinosi
+    description:
+      en: "Guides explain Soviet-to-modern transitions, indigenous grapes, and how Samarkand wineries fit a monument-heavy itinerary without fatigue."
+      ru: "Гиды объясняют переход от советского периода к современности, местные сорода и как винодельни Самарканда вписываются в насыщенный памятниками маршрут без усталости."
+      uz: "Gidlar sovetdan zamonaviygacha o'tish, mahalliy uzumlar va Samarqand vino zavodlari yodgorlik og'ir marshrutga charchamasdan qanday mos kelishini tushuntiradi."
+seo:
+  metaTitle:
+    en: Samarkand wine tasting | TourLink Experiences
+    ru: Дегустация вин Самарканда | TourLink
+    uz: Samarqand vino dasturxoni | TourLink
+  metaDescription:
+    en: Winery visit and tasting near Samarkand with food pairing and transport.
+    ru: Визит на винодельню и дегустация под Самаркандом с едой и трансфером.
+    uz: Samarqand yaqinida vino zavodi va dasturxon — ovqat va transfer bilan.
+status:
+  showInSitemap: true
+  noindex: false
+  publishedAt: "2025-06-01"

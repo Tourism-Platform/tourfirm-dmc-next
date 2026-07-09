@@ -1,6 +1,10 @@
 import "server-only";
 
 import { isDestinationsHref } from "@/shared/lib/routing/is-destinations-href";
+import {
+	isExperiencesHref,
+	isRoutesHref
+} from "@/shared/lib/routing/is-discovery-href";
 import type {
 	TNavigationTarget,
 	TResolvedFooterColumn,
@@ -179,6 +183,20 @@ export function resolveHeaderNavigation(
 			item.icon === "map-pin" &&
 			destinationSlug != null &&
 			isDestinationsHref(resolved.href, destinationSlug);
+		const isRoutesMega =
+			item.icon === "route" && isRoutesHref(resolved.href);
+		const isExperiencesMega =
+			item.icon === "heart-handshake" && isExperiencesHref(resolved.href);
+
+		let variant: TResolvedNavLink["variant"] = "default";
+
+		if (isDestinationsMega) {
+			variant = "destinations-mega";
+		} else if (isRoutesMega) {
+			variant = "routes-mega";
+		} else if (isExperiencesMega) {
+			variant = "experiences-mega";
+		}
 
 		return {
 			key,
@@ -187,7 +205,7 @@ export function resolveHeaderNavigation(
 				`Item ${String(index + 1).padStart(2, "0")}`
 			),
 			icon: item.icon ?? undefined,
-			variant: isDestinationsMega ? "destinations-mega" : "default",
+			variant,
 			...resolved
 		};
 	});

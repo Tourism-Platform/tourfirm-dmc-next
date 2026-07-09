@@ -1,0 +1,75 @@
+# Seed: experience — Registan guided walk
+
+slug:
+  en: registan-guided-walk
+  ru: registan-guided-walk
+  uz: registan-guided-walk
+title:
+  en: Registan guided walk
+  ru: Прогулка по Регистану с гидом
+  uz: Registon bo'ylab gidli sayr
+subtitle:
+  en: Tile geometry, madrasa life, and the square as political stage — with timing advice for light and crowds.
+  ru: Геометрия кафеля, жизнь медресе и площадь как политическая сцена — с советами по свету и потокам людей.
+  uz: Kafel geometriyasi, madrasa hayoti va maydon siyosiy sahnа sifatida — yorug'lik va olomon uchun maslahatlar bilan.
+excerpt:
+  en: Two to three hours on foot with a context-first guide who reads Samarkand through Registan, not around it.
+  ru: Два–три часа пешком с гидом, который читает Самарканд через Регистан, а не мимо него.
+  uz: Samarqandni Registon atrofida emas, Registon orqali o'qiydigan kontekstga yo'naltirilgan gid bilan ikki–uch soat piyoda.
+type: GUIDED_TOUR
+country: uzbekistan
+region: samarkand-region
+city: samarkand
+attraction: registan
+themes:
+  - culture
+  - silk-road
+  - history
+duration:
+  en: 2–3 hours
+  ru: 2–3 часа
+  uz: 2–3 soat
+featured: true
+sortOrder: 1
+catalogQuery: destination=Samarkand&attraction=Registan
+heroImage: assets/images/city/samarkand.jpg
+relatedExperiences:
+  - samarkand-wine-tasting
+  - registan-night-photography
+blocks:
+  - blockType: hero
+    image: assets/images/city/samarkand.jpg
+    imageAlt:
+      en: Registan square facades
+      ru: Фасады площади Регистан
+      uz: Registon maydoni fasadlari
+    title:
+      en: Understand the square before the postcard photo
+      ru: Поймите площадь до открыточного кадра
+      uz: Otkritka suratidan oldin maydonni tushuning
+    description:
+      en: "We walk the three madrasas in sequence, explain Timurid ambition in architecture, and end with practical photo spots that avoid the midday crush."
+      ru: "Проходим три медресе по порядку, объясняем тимуридские амбиции в архитектуре и завершаем практичными точками для фото без полуденной давки."
+      uz: "Uch madrasani ketma-ket aylanamiz, Temuriylar me'moriyidagi intilishni tushuntiramiz va tushki olomonlarsiz surat uchun amaliy nuqtalar bilan yakunlaymiz."
+  - blockType: regular
+    title:
+      en: What makes this different from a ticket-only visit
+      ru: Чем это отличается от визита только по билету
+      uz: Bu faqat chipta bilan tashrifdan qanday farq qiladi
+    description:
+      en: "Guides coordinate entry timing, connect Registan to Shah-i-Zinda and observatory in the same day plan, and translate tile patterns into readable stories."
+      ru: "Гиды согласуют время входа, связывают Регистан с Шахи-Зиндой и обсерваторией в плане одного дня и переводят узоры кафеля в понятные истории."
+      uz: "Gidlar kirish vaqtini moslashtiradi, Registonni Shohi Zinda va rasadxonaga bir kunlik rejada bog'laydi va kafel naqshlarini tushunarli hikoyalarga aylantiradi."
+seo:
+  metaTitle:
+    en: Registan guided walk | TourLink Experiences
+    ru: Прогулка по Регистану с гидом | TourLink
+    uz: Registon gidli sayri | TourLink
+  metaDescription:
+    en: Context-led Registan walking experience in Samarkand with expert timing and storytelling.
+    ru: Прогулка по Регистану в Самарканде с экспертным таймингом и storytelling.
+    uz: Samarqandda Registon bo'ylab kontekstli sayr — mutaxassis vaqti va hikoya bilan.
+status:
+  showInSitemap: true
+  noindex: false
+  publishedAt: "2025-06-01"

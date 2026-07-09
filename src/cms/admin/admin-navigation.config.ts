@@ -6,15 +6,15 @@ export type TAdminNavSection = {
 export const ADMIN_COLLECTION_NAVIGATION: TAdminNavSection[] = [
 	{
 		label: "🌍 Destination",
-		items: [
-			"countries",
-			"regions",
-			"cities",
-			"attractions",
-			"routes",
-			"map-points",
-			"experiences"
-		]
+		items: ["countries", "regions", "cities", "attractions"]
+	},
+	{
+		label: "🛤 Routes",
+		items: ["routes", "map-points"]
+	},
+	{
+		label: "✨ Experiences",
+		items: ["experiences"]
 	},
 	{
 		label: "📝 Content",
@@ -30,7 +30,29 @@ export const ADMIN_COLLECTION_NAVIGATION: TAdminNavSection[] = [
 	}
 ];
 
+export const ADMIN_DESTINATION_GLOBALS_NAVIGATION: TAdminNavSection = {
+	label: "🌍 Destination",
+	items: ["destination"]
+};
+
+export const ADMIN_ROUTES_GLOBALS_NAVIGATION: TAdminNavSection = {
+	label: "🛤 Routes",
+	items: ["routes-hub"]
+};
+
+export const ADMIN_EXPERIENCES_GLOBALS_NAVIGATION: TAdminNavSection = {
+	label: "✨ Experiences",
+	items: ["experiences-hub"]
+};
+
 export const ADMIN_GLOBALS_NAVIGATION: TAdminNavSection = {
 	label: "Globals",
-	items: ["homepage", "destination", "site-settings", "header", "footer"]
+	items: ["homepage", "site-settings", "header", "footer"]
 };
+
+export const ADMIN_ALL_GLOBALS_NAVIGATION: TAdminNavSection[] = [
+	ADMIN_DESTINATION_GLOBALS_NAVIGATION,
+	ADMIN_ROUTES_GLOBALS_NAVIGATION,
+	ADMIN_EXPERIENCES_GLOBALS_NAVIGATION,
+	ADMIN_GLOBALS_NAVIGATION
+];

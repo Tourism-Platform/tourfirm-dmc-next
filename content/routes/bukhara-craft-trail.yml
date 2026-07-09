@@ -1,0 +1,71 @@
+# Seed: route — Bukhara craft trail
+
+slug:
+  en: bukhara-craft-trail
+  ru: bukhara-craft-trail
+  uz: bukhara-craft-trail
+title:
+  en: Bukhara craft trail
+  ru: Ремесленный маршрут Бухары
+  uz: Buxoro hunarmandchilik yo'li
+subtitle:
+  en: Workshops, trading domes, and family tables in Uzbekistan's most intimate Silk Road city.
+  ru: Мастерские, торговые купола и семейные столы в самом камерном городе Шёлкового пути.
+  uz: Ipak yo'lining eng yaqin shahridagi ustaxonalar, savdo gumbazlari va oilaviy dasturxonlar.
+excerpt:
+  en: Four to five days inside Bukhara — copper, silk, wood, and the plov courts that still define evening life.
+  ru: Четыре–пять дней внутри Бухары — медь, шёлк, дерево и пловные дворы, которые по-прежнему задают вечернюю жизнь.
+  uz: Buxoro ichida to'rt–besh kun — mis, ipak, yog'och va kechki hayotni belgilaydigan osh hovliklari.
+countries:
+  - uzbekistan
+cityRefs:
+  - country: uzbekistan
+    region: bukhara-region
+    city: bukhara
+attractions:
+  - ark-fortress
+themes:
+  - crafts
+  - culture
+  - food
+experiences:
+  - bukhara-family-plov
+  - bukhara-craft-workshop
+  - ark-fortress-guided-tour
+relatedRoutes:
+  - silk-road-classics
+  - wine-route-samarkand
+durationDays: 5
+routeScope: CITY
+featured: false
+sortOrder: 6
+catalogQuery: destination=Bukhara&themes=crafts
+heroImage: assets/images/city/bukhara.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/city/bukhara.jpg
+    imageAlt:
+      en: Bukhara old town craft quarter
+      ru: Ремесленный квартал старой Бухары
+      uz: Buxoro eski shahar hunarmandchilik kvartali
+    title:
+      en: Hands-on Bukhara — not just facades
+      ru: Бухара руками — не только фасады
+      uz: Qo'l bilan Buxoro — faqat fasadlar emas
+    description:
+      en: "This route is for travelers who ask what people still make here. Morning workshops, afternoon dome bazaars, evening plov — the rhythm is local, not checklist."
+      ru: "Маршрут для тех, кто спрашивает, что здесь до сих пор делают руками. Утренние мастерские, дневные купольные базары, вечерний плов — ритм местный, не чек-лист."
+      uz: "Bu yerda hali nima qo'l bilan yasalishini so'raydigan sayohatchilar uchun. Ertalab ustaxonalar, kunduzi gumbaz bozorlar, kechqurun osh — ritm mahalliy, chek-list emas."
+seo:
+  metaTitle:
+    en: Bukhara craft trail | TourLink
+    ru: Ремесленный маршрут Бухары | TourLink
+    uz: Buxoro hunarmandchilik yo'li | TourLink
+  metaDescription:
+    en: Bukhara workshops, food, and fortress context on a craft-focused editorial route.
+    ru: Ремесленный редакционный маршрут по Бухаре — мастерские, еда и контекст крепости.
+    uz: Hunarmandchilikga yo'naltirilgan Buxoro tahririy marshruti — ustaxonalar, ovqat va qal'a konteksti.
+status:
+  showInSitemap: true
+  noindex: false
+  publishedAt: "2025-06-01"

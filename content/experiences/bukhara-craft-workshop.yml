@@ -1,0 +1,64 @@
+# Seed: experience — Bukhara craft workshop
+
+slug:
+  en: bukhara-craft-workshop
+  ru: bukhara-craft-workshop
+  uz: bukhara-craft-workshop
+title:
+  en: Bukhara craft workshop
+  ru: Ремесленная мастерская Бухары
+  uz: Buxoro hunarmandchilik ustaxonasi
+subtitle:
+  en: Copper chasing or wood carving with a working artisan — leave with a piece and a process story.
+  ru: Чеканка по меди или резьба по дереву с действующим мастером — уходите с изделием и историей процесса.
+  uz: Faol usta bilan mis o'yma yoki yog'och o'yma — buyum va jarayon hikoyasi bilan keting.
+excerpt:
+  en: Two to three hour hands-on session in the old town — skill level adapted for beginners and families.
+  ru: Два–три часа практики в старом городе — уровень адаптируется для новичков и семей.
+  uz: Eski shaharda ikki–uch soat amaliy mashg'ulot — daraja yangi boshlovchilar va oilalar uchun moslashtiriladi.
+type: WORKSHOP
+country: uzbekistan
+region: bukhara-region
+city: bukhara
+themes:
+  - crafts
+  - culture
+duration:
+  en: 2–3 hours
+  ru: 2–3 часа
+  uz: 2–3 soat
+featured: false
+sortOrder: 11
+catalogQuery: destination=Bukhara&themes=crafts
+heroImage: assets/images/experiences/culture-2.jpg
+relatedExperiences:
+  - bukhara-family-plov
+  - ark-fortress-guided-tour
+blocks:
+  - blockType: hero
+    image: assets/images/experiences/culture-2.jpg
+    imageAlt:
+      en: Artisan workshop in Bukhara
+      ru: Мастерская ремесленника в Бухаре
+      uz: Buxoroda hunarmand ustaxonasi
+    title:
+      en: Make something small, understand something large
+      ru: Сделайте малое — поймите большое
+      uz: Kichik narsa qiling, kattasini tushuning
+    description:
+      en: "Sessions rotate by season and artisan availability — copper, wood, or miniature painting. Guides translate technique into trade history on the Silk Road."
+      ru: "Сессии меняются по сезону и доступности мастеров — медь, дерево или миниатюра. Гиды переводят технику в историю торговли на Шёлковом пути."
+      uz: "Sessiyalar mavsum va usta mavjudligiga qarab almashadi — mis, yog'och yoki miniatura. Gidlar texnikani Ipak yo'li savdo tarixiga aylantiradi."
+seo:
+  metaTitle:
+    en: Bukhara craft workshop | TourLink Experiences
+    ru: Ремесленная мастерская Бухары | TourLink
+    uz: Buxoro hunarmandchilik ustaxonasi | TourLink
+  metaDescription:
+    en: Hands-on craft workshop with a Bukhara artisan — copper, wood, or miniature.
+    ru: Практическая мастерская с бухарским мастером — медь, дерево или миниатюра.
+    uz: Buxoro ustasi bilan amaliy ustaxona — mis, yog'och yoki miniatura.
+status:
+  showInSitemap: true
+  noindex: false
+  publishedAt: "2025-06-01"

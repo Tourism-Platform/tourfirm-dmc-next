@@ -1,0 +1,67 @@
+title:
+  en: Travel routes
+  ru: Маршруты путешествий
+  uz: Sayohat marshrutlari
+subtitle:
+  en: Curated inspiration routes across Central Asia — explore the journey before you choose dates, pace, and group size.
+  ru: Подобранные маршруты-вдохновение по Центральной Азии — сначала почувствуйте путешествие, а потом выбирайте даты, темп и состав группы.
+  uz: Markaziy Osiyo bo'ylab tanlangan ilhom marshrutlari — avval sayohatni his qiling, keyin sanalar, ritm va guruh hajmini tanlang.
+seo:
+  metaTitle:
+    en: Travel routes in Central Asia | TourLink
+    ru: Маршруты путешествий в Центральной Азии | TourLink
+    uz: Markaziy Osiyoda sayohat marshrutlari | TourLink
+  metaDescription:
+    en: Discover curated Silk Road routes, desert journeys, mountain escapes, and wine trails across Uzbekistan and Central Asia.
+    ru: Откройте подобранные маршруты Шёлкового пути, пустынные путешествия, горные выезды и винные тропы по Узбекистану и Центральной Азии.
+    uz: Ipak yo'li marshrutlari, cho'l sayohatlari, tog' chiqishlari va vino yo'llarini kashf eting.
+blocks:
+  - blockType: hero
+    image: assets/images/tours/silk-road.jpg
+    imageAlt:
+      en: Silk Road caravan landscape
+      ru: Пейзаж караванного Шёлкового пути
+      uz: Ipak yo'li karvon manzarasi
+    title:
+      en: Routes that shape how you see Central Asia
+      ru: Маршруты, которые формируют взгляд на Центральную Азию
+      uz: Markaziy Osiyoni qanday ko'rishingizni shakllantiradigan marshrutlar
+    description:
+      en: These are not commercial tour products. They are editorial journeys — ordered stops, maps, and places to explore before you plan a trip.
+      ru: Это не коммерческие туры. Это редакционные маршруты — остановки, карты и места для исследования до того, как вы начнёте планировать поездку.
+      uz: Bular tijorat turlari emas. Bu tahririy marshrutlar — sayohatni rejalashtirishdan oldin tartiblangan to'xtashlar, xaritalar va kashf qilinadigan joylar.
+  - blockType: regular
+    eyebrow:
+      en: How to use this section
+      ru: Как пользоваться разделом
+      uz: Bu bo'limdan qanday foydalanish kerak
+    title:
+      en: Start with inspiration, end with a real program
+      ru: Начните с вдохновения, завершите реальной программой
+      uz: Ilhomdan boshlang, haqiqiy dastur bilan yakunlang
+    description:
+      en: Open a route, study the map and timeline, explore linked cities and experiences, then request a commercial itinerary built around the same logic.
+      ru: Откройте маршрут, изучите карту и таймлайн, перейдите к связанным городам и впечатлениям, затем запросите коммерческую программу по той же логике.
+      uz: Marshrutni oching, xarita va vaqt chizig'ini o'rganing, bog'langan shaharlar va taassurotlarni ko'ring, so'ngra shu mantiq asosida tijorat dasturini so'rang.
+    gridClassName: md:grid-cols-2
+    cards:
+      - type: destinationInsight
+        icon: map
+        title:
+          en: Explore the route map
+          ru: Изучите карту маршрута
+          uz: Marshrut xaritasini o'rganing
+        description:
+          en: Each route has ordered stops with cities, landmarks, overnight points, and border crossings where relevant.
+          ru: У каждого маршрута есть упорядоченные остановки с городами, достопримечательностями, ночёвками и погранпереходами, где это уместно.
+          uz: Har bir marshrutda shaharlar, diqqatga sazovor joylar, tunash nuqtalari va chegara o'tishlari bilan tartiblangan to'xtashlar bor.
+      - type: destinationInsight
+        icon: compass
+        title:
+          en: Move into experiences
+          ru: Переходите к впечатлениям
+          uz: Taassurotlarga o'ting
+        description:
+          en: Routes connect to workshops, tastings, walks, and cultural encounters you can weave into the same journey.
+          ru: Маршруты связаны с мастерскими, дегустациями, прогулками и культурными встречами, которые можно вплести в ту же поездку.
+          uz: Marshrutlar ustaxonalar, dasturxonlar, sayr va madaniy uchrashuvlar bilan bog'langan.

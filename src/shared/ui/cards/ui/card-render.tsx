@@ -71,10 +71,13 @@ export function CardRender({ type: variant, item }: TCardRenderProps) {
 			return (
 				<ExperienceCard
 					data={{
+						href: item.href,
 						imageUrl: item.imageUrl ?? "",
 						badge: item.badge ?? "",
 						title: item.title ?? "",
-						description: item.description ?? ""
+						description: item.description ?? "",
+						type: item.meta,
+						location: item.country
 					}}
 				/>
 			);

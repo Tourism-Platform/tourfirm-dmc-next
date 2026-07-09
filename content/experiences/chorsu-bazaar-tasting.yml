@@ -1,0 +1,65 @@
+# Seed: experience — Chorsu bazaar tasting
+
+slug:
+  en: chorsu-bazaar-tasting
+  ru: chorsu-bazaar-tasting
+  uz: chorsu-bazaar-tasting
+title:
+  en: Chorsu bazaar tasting walk
+  ru: Дегустационная прогулка по базару Чорсу
+  uz: Chorsu bozori dasturxon sayri
+subtitle:
+  en: Bread, dairy, spices, and seasonal fruit — Tashkent's edible map in one morning.
+  ru: Хлеб, молочные продукты, специи и сезонные фрукты — съедобная карта Ташкента за одно утро.
+  uz: Non, sut mahsulotlari, ziravorlar va mavsumiy mevalar — bir ertalabda Toshkentning yeyiladigan xaritasi.
+excerpt:
+  en: Guided market walk with small tastings and vendor stories — best before the city heat builds.
+  ru: Прогулка по рынку с мини-дегустациями и историями продавцов — лучше до дневной жары.
+  uz: Kichik dasturxonlar va sotuvchi hikoyalari bilan bozor sayri — kunduzi issiqlikdan oldin eng yaxshi.
+type: TASTING
+country: uzbekistan
+region: tashkent-region
+city: tashkent
+attraction: chorsu-bazaar
+themes:
+  - food
+  - culture
+duration:
+  en: 2–3 hours
+  ru: 2–3 часа
+  uz: 2–3 soat
+featured: true
+sortOrder: 4
+catalogQuery: destination=Tashkent&themes=food
+heroImage: assets/images/experiences/culture-1.jpg
+relatedExperiences:
+  - amir-timur-square-walk
+  - bukhara-family-plov
+blocks:
+  - blockType: hero
+    image: assets/images/experiences/culture-1.jpg
+    imageAlt:
+      en: Chorsu bazaar domes
+      ru: Купола базара Чорсу
+      uz: Chorsu bozori gumbazlari
+    title:
+      en: Taste Tashkent before you tour it
+      ru: Попробуйте Ташкент, прежде чем его объезжать
+      uz: Toshkentni aylanishdan oldin tatib ko'ring
+    description:
+      en: "Guides navigate the domed halls, explain halal dairy culture, non varieties, and how Soviet and post-Soviet trade layers still shape stalls today."
+      ru: "Гиды ведут по купольным залам, объясняют халяльную молочную культуру, виды нона и как советский и постсоветский слои торговли до сих пор формируют ряды."
+      uz: "Gidlar gumbaz zallar bo'ylab olib boradi, halol sut madaniyati, non turlari va sovet hamda keyingi davr savdo qatlamlari bugun rastalar shaklini qanday berishini tushuntiradi."
+seo:
+  metaTitle:
+    en: Chorsu bazaar tasting | TourLink Experiences
+    ru: Дегустация на базаре Чорсу | TourLink
+    uz: Chorsu bozori dasturxoni | TourLink
+  metaDescription:
+    en: Morning food tasting walk at Chorsu bazaar in Tashkent with a local guide.
+    ru: Утренняя гастрономическая прогулка по базару Чорсу в Ташкенте с местным гидом.
+    uz: Toshkent Chorsu bozorida mahalliy gid bilan ertalabki gastronomik sayr.
+status:
+  showInSitemap: true
+  noindex: false
+  publishedAt: "2025-06-01"

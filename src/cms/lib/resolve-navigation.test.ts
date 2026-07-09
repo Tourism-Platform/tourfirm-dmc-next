@@ -108,6 +108,56 @@ describe("resolveHeaderNavigation", () => {
 		expect(result[0]?.sections[0]?.items[0]?.icon).toBe("help-circle");
 		expect(result[0]?.sections[0]?.items[1]?.description).toBeUndefined();
 	});
+
+	it("assigns routes-mega variant for route icon and /routes href", () => {
+		const navItems = [
+			{
+				id: "routes",
+				type: "custom" as const,
+				label: "Routes",
+				icon: "route",
+				href: "/routes"
+			}
+		] as NonNullable<Header["navItems"]>;
+
+		const result = resolveHeaderNavigation("en", navItems);
+
+		expect(result[0]?.variant).toBe("routes-mega");
+		expect(result[0]?.href).toBe("/routes");
+	});
+
+	it("assigns experiences-mega variant for heart-handshake icon and /experiences href", () => {
+		const navItems = [
+			{
+				id: "experiences",
+				type: "custom" as const,
+				label: "Experiences",
+				icon: "heart-handshake",
+				href: "/experiences"
+			}
+		] as NonNullable<Header["navItems"]>;
+
+		const result = resolveHeaderNavigation("en", navItems);
+
+		expect(result[0]?.variant).toBe("experiences-mega");
+		expect(result[0]?.href).toBe("/experiences");
+	});
+
+	it("assigns destinations-mega variant when destination slug matches", () => {
+		const navItems = [
+			{
+				id: "destinations",
+				type: "custom" as const,
+				label: "Destinations",
+				icon: "map-pin",
+				href: "/destinations"
+			}
+		] as NonNullable<Header["navItems"]>;
+
+		const result = resolveHeaderNavigation("en", navItems, "destinations");
+
+		expect(result[0]?.variant).toBe("destinations-mega");
+	});
 });
 
 describe("resolveFooterNavigation", () => {

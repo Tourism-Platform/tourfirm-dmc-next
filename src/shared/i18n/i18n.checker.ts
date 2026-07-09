@@ -6,6 +6,7 @@ import companyNewsPageRu from "../../../messages/ru/company_news_page.json";
 import companyPartnershipPageRu from "../../../messages/ru/company_partnership_page.json";
 import companyServicesPageRu from "../../../messages/ru/company_services_page.json";
 import destinationsPageRu from "../../../messages/ru/destinations_page.json";
+import discoveryPageRu from "../../../messages/ru/discovery_page.json";
 import footerRu from "../../../messages/ru/footer.json";
 import headerRu from "../../../messages/ru/header.json";
 import helpContactPageRu from "../../../messages/ru/help_contact_page.json";
@@ -26,6 +27,7 @@ import companyNewsPageUz from "../../../messages/uz/company_news_page.json";
 import companyPartnershipPageUz from "../../../messages/uz/company_partnership_page.json";
 import companyServicesPageUz from "../../../messages/uz/company_services_page.json";
 import destinationsPageUz from "../../../messages/uz/destinations_page.json";
+import discoveryPageUz from "../../../messages/uz/discovery_page.json";
 import footerUz from "../../../messages/uz/footer.json";
 import headerUz from "../../../messages/uz/header.json";
 import helpContactPageUz from "../../../messages/uz/help_contact_page.json";
@@ -47,6 +49,7 @@ export const RU_TRANSLATION_CHECKER: TResources = {
 	footer: footerRu,
 	main_page: mainPageRu,
 	destinations_page: destinationsPageRu,
+	discovery_page: discoveryPageRu,
 	catalog_page: catalogPageRu,
 	partners_agencies_page: partnersAgenciesPageRu,
 	partners_hotels_page: partnersHotelsPageRu,
@@ -70,6 +73,7 @@ export const UZ_TRANSLATION_CHECKER: TResources = {
 	footer: footerUz,
 	main_page: mainPageUz,
 	destinations_page: destinationsPageUz,
+	discovery_page: discoveryPageUz,
 	catalog_page: catalogPageUz,
 	partners_agencies_page: partnersAgenciesPageUz,
 	partners_hotels_page: partnersHotelsPageUz,

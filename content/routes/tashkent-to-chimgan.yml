@@ -1,0 +1,78 @@
+# Seed: route — Tashkent to Chimgan (mountain weekend)
+
+slug:
+  en: tashkent-to-chimgan
+  ru: tashkent-to-chimgan
+  uz: tashkent-to-chimgan
+title:
+  en: Tashkent to Chimgan
+  ru: Из Ташкента в Чимган
+  uz: Toshkentdan Chimganga
+subtitle:
+  en: Capital culture one day, Ugam ridge the next — Uzbekistan's easiest mountain escape.
+  ru: Культура столицы один день, хребет Угам на следующий — самый простой горный выезд из Узбекистана.
+  uz: Bir kun poytaxt madaniyati, keyingi kuni Ugam qirralari — O'zbekistondan eng oson tog' chiqishi.
+excerpt:
+  en: Three to four days — Chorsu and Amir Timur square, then Chimgan peaks, cable car, and Charvak water.
+  ru: Три–четыре дня — Чорсу и площадь Амира Тимура, затем вершины Чимгана, канатка и водохранилище Чарвак.
+  uz: Uch–to'rt kun — Chorsu va Amir Temur maydoni, keyin Chimgan cho'qqilari, kanat yo'li va Charvak suv ombori.
+countries:
+  - uzbekistan
+cityRefs:
+  - country: uzbekistan
+    region: tashkent-region
+    city: tashkent
+  - country: uzbekistan
+    region: tashkent-region
+    city: chimgan
+attractions:
+  - chorsu-bazaar
+  - amir-timur-square
+  - chimgan-peak
+  - chimgan-cable-car
+  - charvak-reservoir
+themes:
+  - nature
+  - adventure
+  - food
+experiences:
+  - chorsu-bazaar-tasting
+  - amir-timur-square-walk
+  - chimgan-sunrise-hike
+  - charvak-lakeside-day
+relatedRoutes:
+  - uzbekistan-essentials
+durationDays: 4
+routeScope: MIXED
+featured: true
+sortOrder: 5
+catalogQuery: destination=Tashkent&themes=nature
+heroImage: assets/images/experiences/nature-1.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/experiences/nature-1.jpg
+    imageAlt:
+      en: Chimgan mountain ridge
+      ru: Горный хребет Чимган
+      uz: Chimgan tog' qirrasi
+    title:
+      en: Urban bazaars and alpine air in one short trip
+      ru: Городские базары и альпийский воздух в одной короткой поездке
+      uz: Bir qisqa sayohatda shahar bozorlari va alp havo
+    description:
+      en: "Perfect add-on before or after a Silk Road program, or a standalone long weekend. Tashkent supplies context; Chimgan supplies perspective."
+      ru: "Идеальное дополнение до или после программы по Шёлковому пути, или отдельный длинный уик-энд. Ташкент даёт контекст, Чимган — перспективу."
+      uz: "Ipak yo'li dasturidan oldin yoki keyin ideal qo'shimcha yoki alohida uzun hafta oxiri. Toshkent kontekst, Chimgan perspektiva beradi."
+seo:
+  metaTitle:
+    en: Tashkent to Chimgan route | TourLink
+    ru: Маршрут Ташкент — Чимган | TourLink
+    uz: Toshkent — Chimgan marshruti | TourLink
+  metaDescription:
+    en: Short mountain route from Tashkent to Chimgan with bazaar tastings and Charvak lake day.
+    ru: Короткий горный маршрут из Ташкента в Чимган с дегустациями на базаре и днём у Чарвака.
+    uz: Toshkentdan Chimganga qisqa tog' marshruti — bozor dasturxonlari va Charvak ko'l kuni.
+status:
+  showInSitemap: true
+  noindex: false
+  publishedAt: "2025-06-01"

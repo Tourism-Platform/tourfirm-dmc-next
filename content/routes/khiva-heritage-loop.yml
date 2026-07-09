@@ -1,0 +1,72 @@
+# Seed: route — Khiva heritage loop
+
+slug:
+  en: khiva-heritage-loop
+  ru: khiva-heritage-loop
+  uz: khiva-heritage-loop
+title:
+  en: Khiva heritage loop
+  ru: Наследие Хивы по кругу
+  uz: Xiva merosi halqasi
+subtitle:
+  en: Walk the inner city in layers — minarets, madrasas, and the Ark as political memory.
+  ru: Пройдите внутренний город слоями — минареты, медресе и Арк как политическая память.
+  uz: Ichki shaharni qatlamlar bo'ylab yuring — minoralar, madrasalar va Ark siyosiy xotira sifatida.
+excerpt:
+  en: Three to four focused days in Itchan Kala with fortress context and optional desert extension.
+  ru: Три–четыре сфокусированных дня в Ичан-Кале с контекстом крепости и опциональным выездом в пустыню.
+  uz: Ichan Qal'ada uch–to'rt kun — qal'a konteksti va ixtiyoriy cho'l kengaytmasi bilan.
+countries:
+  - uzbekistan
+cityRefs:
+  - country: uzbekistan
+    region: khorezm-region
+    city: khiva
+attractions:
+  - itchan-kala
+  - ark-fortress
+themes:
+  - culture
+  - silk-road
+  - history
+experiences:
+  - itchan-kala-evening-walk
+  - ark-fortress-guided-tour
+  - khiva-desert-camp-night
+relatedRoutes:
+  - desert-oasis-journey
+  - silk-road-classics
+durationDays: 4
+routeScope: ATTRACTION
+featured: false
+sortOrder: 7
+catalogQuery: destination=Khiva
+heroImage: assets/images/city/khiva.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/city/khiva.jpg
+    imageAlt:
+      en: Khiva minaret skyline
+      ru: Силуэт минаретов Хивы
+      uz: Xiva minoralari silueti
+    title:
+      en: A complete walled city in walking distance
+      ru: Целый город за стенами в пешей доступности
+      uz: Piyoda masofada to'liq devor ichi shahar
+    description:
+      en: "Khiva is compact enough to learn by repetition — the same alley at different hours tells different stories. This loop structures those returns."
+      ru: "Хива достаточно компактна, чтобы учиться повторением — один переулок в разные часы рассказывает разные истории. Этот круг структурирует такие возвращения."
+      uz: "Xiva takrorlash orqali o'rganish uchun yetarlicha ixcham — bir xil tor ko'cha turli soatlarda turli hikoyalar aytadi. Bu halqa shu qaytishlarni tuzadi."
+seo:
+  metaTitle:
+    en: Khiva heritage loop | TourLink
+    ru: Наследие Хивы — маршрут по кругу | TourLink
+    uz: Xiva merosi halqasi | TourLink
+  metaDescription:
+    en: Focused Khiva walled-city route with evening walks and fortress guided tour.
+    ru: Сфокусированный маршрут по Хиве внутри стен с вечерними прогулками и экскурсией по крепости.
+    uz: Xiva devor ichi marshruti — kechki sayrlar va qal'a gidli sayohati.
+status:
+  showInSitemap: true
+  noindex: false
+  publishedAt: "2025-06-01"

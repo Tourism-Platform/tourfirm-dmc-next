@@ -1,0 +1,117 @@
+# Seed: route — Uzbekistan essentials (first visit)
+
+slug:
+  en: uzbekistan-essentials
+  ru: uzbekistan-essentials
+  uz: uzbekistan-essentials
+title:
+  en: Uzbekistan essentials
+  ru: "Узбекистан: главное"
+  uz: O'zbekiston asosiyari
+subtitle:
+  en: A balanced first journey — capital energy, Silk Road monuments, and one mountain day outside Tashkent.
+  ru: Сбалансированное первое путешествие — энергия столицы, памятники Шёлкового пути и один горный день под Ташкентом.
+  uz: Muvozanatli birinchi sayohat — poytaxt energiyasi, Ipak yo'li yodgorliklari va Toshkentdan tashqaridagi bir tog' kuni.
+excerpt:
+  en: Seven days covering Tashkent, Samarkand, and Chimgan/Charvak — enough context for a return trip to Bukhara and Khiva.
+  ru: "Семь дней: Ташкент, Самарканд и Чимган/Чарвак — достаточно контекста, чтобы вернуться за Бухарой и Хивой."
+  uz: "Yetti kun: Toshkent, Samarqand va Chimgan/Charvak — Buxoro va Xivaga qaytish uchun yetarli kontekst."
+countries:
+  - uzbekistan
+cityRefs:
+  - country: uzbekistan
+    region: tashkent-region
+    city: tashkent
+  - country: uzbekistan
+    region: samarkand-region
+    city: samarkand
+  - country: uzbekistan
+    region: tashkent-region
+    city: chimgan
+attractions:
+  - chorsu-bazaar
+  - amir-timur-square
+  - registan
+  - charvak-reservoir
+themes:
+  - culture
+  - food
+  - nature
+experiences:
+  - chorsu-bazaar-tasting
+  - amir-timur-square-walk
+  - registan-guided-walk
+  - chimgan-sunrise-hike
+  - charvak-lakeside-day
+relatedRoutes:
+  - silk-road-classics
+  - tashkent-to-chimgan
+durationDays: 7
+routeScope: MIXED
+featured: true
+sortOrder: 2
+catalogQuery: destination=Uzbekistan&duration=7
+heroImage: assets/images/destinations/uzbekistan.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/destinations/uzbekistan.jpg
+    imageAlt:
+      en: Uzbekistan collage — city and mountains
+      ru: Коллаж Узбекистана — город и горы
+      uz: O'zbekiston kollaji — shahar va tog'lar
+    title:
+      en: The route we recommend for a first Uzbekistan trip
+      ru: Маршрут, который мы рекомендуем для первой поездки в Узбекистан
+      uz: O'zbekistonga birinchi sayohat uchun tavsiya qiladigan marshrut
+    description:
+      en: "Tashkent orients you with bazaars and modern squares. Samarkand delivers the historical wow. Chimgan adds air and water before you fly home — a complete first chapter without overloading the week."
+      ru: "Ташкент знакомит через базары и современные площади. Самарканд даёт историческое «вау». Чимган добавляет воздух и воду перед вылетом — цельная первая глава без перегруза недели."
+      uz: "Toshkent bozorlar va zamonaviy maydonlar orqali tanishtiradi. Samarqand tarixiy hayratni beradi. Chimgan uyga qaytishdan oldin havo va suv qo'shadi — haftani ortiqcha yuklamasdan to'liq birinchi bob."
+  - blockType: regular
+    eyebrow:
+      en: Pace
+      ru: Темп
+      uz: Ritm
+    title:
+      en: Comfortable, not rushed
+      ru: Комфортно, без спешки
+      uz: Qulay, shoshilmasdan
+    description:
+      en: "Two nights in Tashkent, three in Samarkand, one mountain day-trip with optional overnight near Charvak. Transfers use high-speed rail where it saves time."
+      ru: "Две ночи в Ташкенте, три в Самарканде, один горный выезд с опциональной ночёвкой у Чарвака. Трансферы — на скоростном поезде там, где это экономит время."
+      uz: "Toshkentda ikki tun, Samarqandda uch, Charvak yaqinida ixtiyoriy tun bilan bir tog' kunlik sayohat. Vaqt tejash uchun tez poezd transferlari."
+    gridClassName: md:grid-cols-2
+    cards:
+      - type: destinationInsight
+        icon: train
+        title:
+          en: Tashkent ↔ Samarkand by rail
+          ru: Ташкент ↔ Самарканд поездом
+          uz: Toshkent ↔ Samarqand poezd bilan
+        description:
+          en: Afrosiyob high-speed train keeps the middle of the trip efficient and scenic.
+          ru: Скоростной «Афросиёб» делает середину поездки эффективной и живописной.
+          uz: Afrosiyob tez poezdi sayohat o'rtasini samarali va manzarali qiladi.
+      - type: destinationInsight
+        icon: mountain
+        title:
+          en: Mountain reset
+          ru: Горная перезагрузка
+          uz: Tog'li qayta zaryad
+        description:
+          en: Chimgan ridge walks and Charvak reservoir time balance monument-heavy days.
+          ru: Прогулки на хребте Чимгана и время у Чарвака балансируют дни с памятниками.
+          uz: Chimgan qirralari sayri va Charvak vaqti yodgorlik og'ir kunlarni muvozanatlaydi.
+seo:
+  metaTitle:
+    en: Uzbekistan essentials route | TourLink
+    ru: "Маршрут «Узбекистан: главное» | TourLink"
+    uz: O'zbekiston asosiyari marshruti | TourLink
+  metaDescription:
+    en: First-time Uzbekistan route — Tashkent, Samarkand, and Chimgan with experiences and catalog link.
+    ru: Маршрут для первого визита в Узбекистан — Ташкент, Самарканд и Чимган с впечатлениями и ссылкой на каталог.
+    uz: O'zbekistonga birinchi tashrif marshruti — Toshkent, Samarqand va Chimgan taassurotlar bilan.
+status:
+  showInSitemap: true
+  noindex: false
+  publishedAt: "2025-06-01"

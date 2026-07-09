@@ -23,6 +23,18 @@
 				},
 				"view_all": "All destinations"
 			},
+			"routes": {
+				"columns": {
+					"title": "Travel routes"
+				},
+				"view_all": "All routes"
+			},
+			"experiences": {
+				"columns": {
+					"title": "Experiences"
+				},
+				"view_all": "All experiences"
+			},
 			"tours": {
 				"label": "Tour & activities"
 			},

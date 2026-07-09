@@ -4,6 +4,13 @@ export const ENUM_PATH = {
 		DESTINATIONS: "/destinations",
 		CATALOG: "/catalog"
 	},
+	DISCOVERY: {
+		ROUTES: "/routes",
+		EXPERIENCES: "/experiences",
+		routeDetail: (slug: string) => `/routes/${slug}`,
+		experienceDetail: (slug: string) => `/experiences/${slug}`,
+		themeDetail: (slug: string) => `/themes/${slug}`
+	},
 	PARTNERS: {
 		AGENCIES: "/partners/agencies",
 		HOTELS: "/partners/hotels"

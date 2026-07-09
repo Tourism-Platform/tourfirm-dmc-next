@@ -4,6 +4,10 @@ import { authenticatedOrPublished } from "../access/authenticated-or-published";
 import { pageBlocks } from "../blocks";
 import { seoField } from "../fields/seo";
 import { statusField } from "../fields/status";
+import {
+	revalidateExperiencesNavAfterChange,
+	revalidateExperiencesNavAfterDelete
+} from "../hooks/revalidate-discovery-nav";
 import { validateExperienceHierarchy } from "../hooks/validate-geo-hierarchy";
 
 const experienceTypeOptions = [
@@ -32,7 +36,9 @@ export const Experiences: CollectionConfig = {
 		drafts: true
 	},
 	hooks: {
-		beforeValidate: [validateExperienceHierarchy]
+		beforeValidate: [validateExperienceHierarchy],
+		afterChange: [revalidateExperiencesNavAfterChange],
+		afterDelete: [revalidateExperiencesNavAfterDelete]
 	},
 	fields: [
 		{
@@ -99,6 +105,40 @@ export const Experiences: CollectionConfig = {
 		{
 			name: "duration",
 			type: "text"
+		},
+		{
+			name: "relatedExperiences",
+			type: "relationship",
+			relationTo: "experiences",
+			hasMany: true,
+			admin: {
+				description:
+					"Manually curated similar experiences shown on the detail page."
+			}
+		},
+		{
+			name: "featured",
+			type: "checkbox",
+			defaultValue: false,
+			admin: {
+				description: "Show in featured strips (homepage, hub)."
+			}
+		},
+		{
+			name: "sortOrder",
+			type: "number",
+			defaultValue: 0,
+			admin: {
+				description: "Listing order. Lower values appear first."
+			}
+		},
+		{
+			name: "catalogQuery",
+			type: "text",
+			admin: {
+				description:
+					"Query string for the commercial catalog CTA, e.g. destination=Uzbekistan."
+			}
 		},
 		{
 			name: "heroImage",

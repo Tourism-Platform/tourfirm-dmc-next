@@ -23,6 +23,18 @@
 				},
 				"view_all": "Barcha yo'nalishlar"
 			},
+			"routes": {
+				"columns": {
+					"title": "Marshrutlar"
+				},
+				"view_all": "Barcha marshrutlar"
+			},
+			"experiences": {
+				"columns": {
+					"title": "Taassurotlar"
+				},
+				"view_all": "Barcha taassurotlar"
+			},
 			"tours": {
 				"label": "Turlar va faoliyatlar"
 			},

@@ -1,0 +1,64 @@
+# Seed: experience — Amir Timur square walk
+
+slug:
+  en: amir-timur-square-walk
+  ru: amir-timur-square-walk
+  uz: amir-timur-square-walk
+title:
+  en: Amir Timur square walk
+  ru: Прогулка по площади Амира Тимура
+  uz: Amir Temur maydoni sayri
+subtitle:
+  en: Modern Tashkent's ceremonial center — fountains, museums, and the shift from Soviet to Uzbek narrative.
+  ru: Церемониальный центр современного Ташкента — фонтаны, музеи и переход от советского к узбекскому нарративу.
+  uz: Zamonaviy Toshkent marosim markazi — favvoralар, muzeylar va sovetdan o'zbek narrativiga o'tish.
+excerpt:
+  en: Ninety-minute urban walk connecting Amir Timur monument, surrounding museums, and nearby Khazrati Imam complex option.
+  ru: Полтора часа городской прогулки — монумент Амира Тимура, окружающие музеи и опция комплекса Хазрати Имам рядом.
+  uz: Bir yarim soatlik shahar sayri — Amir Temur yodgorligi, atrofdagi muzeylar va yaqin Xazrati Imom majmuasi varianti.
+type: GUIDED_TOUR
+country: uzbekistan
+region: tashkent-region
+city: tashkent
+attraction: amir-timur-square
+themes:
+  - culture
+  - history
+duration:
+  en: 1.5 hours
+  ru: 1,5 часа
+  uz: 1,5 soat
+featured: false
+sortOrder: 10
+catalogQuery: destination=Tashkent
+heroImage: assets/images/city/tashkent.jpg
+relatedExperiences:
+  - chorsu-bazaar-tasting
+blocks:
+  - blockType: hero
+    image: assets/images/city/tashkent.jpg
+    imageAlt:
+      en: Amir Timur square fountains
+      ru: Фонтаны площади Амира Тимура
+      uz: Amir Temur maydoni favvoralari
+    title:
+      en: Read Tashkent's newest old center
+      ru: Прочитайте новейший старый центр Ташкента
+      uz: Toshkentning eng yangi eski markazini o'qing
+    description:
+      en: "Guides decode the 1990s–2000s rebuilding story, compare Soviet and independent iconography, and route you to the best coffee stop before Chorsu."
+      ru: "Гиды расшифровывают историю перестройки 1990–2000-х, сравнивают советскую и независимую символику и ведут к лучшей кофейне перед Чорсу."
+      uz: "Gidlar 1990–2000-yillardagi qayta qurish hikoyasini ochadi, sovet va mustaqil ramzlarni solishtiradi va Chorsudan oldin eng yaxshi kofe nuqtasiga olib boradi."
+seo:
+  metaTitle:
+    en: Amir Timur square walk Tashkent | TourLink
+    ru: Прогулка по площади Амира Тимура | TourLink
+    uz: Amir Temur maydoni sayri | TourLink
+  metaDescription:
+    en: Urban guided walk at Amir Timur square with modern Tashkent context.
+    ru: Городская прогулка по площади Амира Тимура с контекстом современного Ташкента.
+    uz: Zamonaviy Toshkent konteksti bilan Amir Temur maydoni bo'ylab gidli sayr.
+status:
+  showInSitemap: true
+  noindex: false
+  publishedAt: "2025-06-01"

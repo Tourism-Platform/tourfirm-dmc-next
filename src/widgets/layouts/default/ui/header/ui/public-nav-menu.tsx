@@ -5,6 +5,7 @@ import type { FC } from "react";
 import { Link } from "@/shared/i18n";
 import { isExternalHref } from "@/shared/lib/url/is-external-href";
 import type { TDestinationsNavTree } from "@/shared/types/destinations-nav.types";
+import type { TDiscoveryNavTree } from "@/shared/types/discovery-nav.types";
 import type { TResolvedNavLink } from "@/shared/types/navigation.types";
 import {
 	NavigationMenu,
@@ -17,16 +18,22 @@ import {
 } from "@/shared/ui";
 
 import { DestinationsNavMenu } from "./destinations-nav-menu";
+import { ExperiencesNavMenu } from "./experiences-nav-menu";
 import { PublicNavMenuItem } from "./public-nav-menu-item";
+import { RoutesNavMenu } from "./routes-nav-menu";
 
 interface IPublicNavMenuProps {
 	items: TResolvedNavLink[];
 	destinationsNav: TDestinationsNavTree | null;
+	routesNav: TDiscoveryNavTree | null;
+	experiencesNav: TDiscoveryNavTree | null;
 }
 
 export const PublicNavMenu: FC<IPublicNavMenuProps> = ({
 	items,
-	destinationsNav
+	destinationsNav,
+	routesNav,
+	experiencesNav
 }) => {
 	return (
 		<NavigationMenu viewport={false} className="max-md:hidden">
@@ -41,6 +48,32 @@ export const PublicNavMenu: FC<IPublicNavMenuProps> = ({
 								key={entry.key}
 								label={entry.label}
 								tree={destinationsNav}
+							/>
+						);
+					}
+
+					if (
+						entry.variant === "routes-mega" &&
+						routesNav?.items.length
+					) {
+						return (
+							<RoutesNavMenu
+								key={entry.key}
+								label={entry.label}
+								tree={routesNav}
+							/>
+						);
+					}
+
+					if (
+						entry.variant === "experiences-mega" &&
+						experiencesNav?.items.length
+					) {
+						return (
+							<ExperiencesNavMenu
+								key={entry.key}
+								label={entry.label}
+								tree={experiencesNav}
 							/>
 						);
 					}

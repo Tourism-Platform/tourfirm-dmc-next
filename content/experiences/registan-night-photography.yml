@@ -1,0 +1,65 @@
+# Seed: experience — Registan night photography
+
+slug:
+  en: registan-night-photography
+  ru: registan-night-photography
+  uz: registan-night-photography
+title:
+  en: Registan night photography session
+  ru: Ночная фотосессия Регистана
+  uz: Registon tungi fotosessiyasi
+subtitle:
+  en: Illumination timing, tripod zones, and composition coaching on Uzbekistan's most photographed square.
+  ru: Тайминг подсветки, зоны для штатива и коучинг по композиции на самой фотографируемой площади Узбекистана.
+  uz: Yoritish vaqti, shtativ zonalar va O'zbekistonning eng ko'p suratga olinadigan maydonida kompozitsiya murabbiyligi.
+excerpt:
+  en: Evening session for photo-focused travelers — best combined with a daytime context walk.
+  ru: Вечерняя сессия для фото-ориентированных путешественников — лучше в паре с дневной контекстной прогулкой.
+  uz: Suratga yo'naltirilgan sayohatchilar uchun kechki sessiya — kunduzi kontekstli sayr bilan juftlash eng yaxshi.
+type: CULTURAL_EVENT
+country: uzbekistan
+region: samarkand-region
+city: samarkand
+attraction: registan
+themes:
+  - culture
+  - photography
+duration:
+  en: 2 hours
+  ru: 2 часа
+  uz: 2 soat
+featured: false
+sortOrder: 12
+catalogQuery: destination=Samarkand
+heroImage: assets/images/city/samarkand.jpg
+relatedExperiences:
+  - registan-guided-walk
+  - samarkand-wine-tasting
+blocks:
+  - blockType: hero
+    image: assets/images/city/samarkand.jpg
+    imageAlt:
+      en: Registan illuminated at night
+      ru: Регистан с вечерней подсветкой
+      uz: Kechki yoritilgan Registon
+    title:
+      en: When the tiles become light
+      ru: Когда кафель становится светом
+      uz: Kafel yorug'likka aylanganda
+    description:
+      en: "Photo guides know guard routines, best angles per season, and how to shoot without damaging fragile surfaces or blocking residents."
+      ru: "Фото-гиды знают режим охраны, лучшие ракурсы по сезонам и как снимать, не повреждая хрупкие поверхности и не мешая жителям."
+      uz: "Foto gidlar qo'riqlash tartibini, mavsum bo'yicha eng yaxshi burchaklarni va mo'rt sirtlarga zarar yetkazmasdan va aholi yo'lini to'smasdan suratga olishni biladi."
+seo:
+  metaTitle:
+    en: Registan night photography | TourLink Experiences
+    ru: Ночная фотосессия Регистана | TourLink
+    uz: Registon tungi fotosessiyasi | TourLink
+  metaDescription:
+    en: Guided night photography at Registan with illumination timing coaching.
+    ru: Ночная фотосъёмка Регистана с гидом и советами по подсветке.
+    uz: Yoritish vaqti maslahati bilan Registonda gidli tungi fotosurat.
+status:
+  showInSitemap: true
+  noindex: false
+  publishedAt: "2025-06-01"

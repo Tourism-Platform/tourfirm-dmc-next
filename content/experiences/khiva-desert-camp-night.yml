@@ -1,0 +1,65 @@
+# Seed: experience — Khiva desert camp night
+
+slug:
+  en: khiva-desert-camp-night
+  ru: khiva-desert-camp-night
+  uz: khiva-desert-camp-night
+title:
+  en: Khiva desert camp night
+  ru: Ночь в пустынном лагере у Хивы
+  uz: Xiva yaqinidagi cho'l lageri kechasi
+subtitle:
+  en: Stars, fire-cooked dinner, and dawn return to the walled city.
+  ru: Звёзды, ужин у костра и рассветный возврат в город за стенами.
+  uz: Yulduzlar, o't oshxonasi va devor ichi shaharga tong qaytishi.
+excerpt:
+  en: Overnight yurt or lodge camp on the Kyzylkum fringe with transfer from Khiva — seasonal May–September.
+  ru: Ночёвка в юртовом или лодж-лагере на краю Кызылкума с трансфером из Хивы — сезон май–сентябрь.
+  uz: Xivadan transfer bilan Qizilqum chetida yurt yoki lagerda tunash — may–sentyabr mavsumi.
+type: STAY_EXPERIENCE
+country: uzbekistan
+region: khorezm-region
+city: khiva
+themes:
+  - desert
+  - adventure
+  - nature
+duration:
+  en: 18 hours (overnight)
+  ru: 18 часов (с ночёвкой)
+  uz: 18 soat (tun bilan)
+featured: false
+sortOrder: 6
+catalogQuery: destination=Khiva&themes=desert
+heroImage: assets/images/city/khiva.jpg
+relatedExperiences:
+  - itchan-kala-evening-walk
+  - ark-fortress-guided-tour
+blocks:
+  - blockType: hero
+    image: assets/images/city/khiva.jpg
+    imageAlt:
+      en: Desert camp near Khiva
+      ru: Пустынный лагерь у Хивы
+      uz: Xiva yaqinidagi cho'l lageri
+    title:
+      en: Silence as a luxury after monument days
+      ru: Тишина как роскошь после дней с памятниками
+      uz: Yodgorlik kunlaridan keyin sukunat hasham sifatida
+    description:
+      en: "Evening departure after Itchan Kala at dusk, camp dinner, optional camel short ride, early return for fortress morning light."
+      ru: "Вечерний выезд после Ичан-Калы на закате, ужин в лагере, опциональная короткая верблюжья прогулка, ранний возврат на утренний свет у крепости."
+      uz: "Quyosh botishida Ichan Qal'dan keyin kechki jo'nash, lager kechki ovqati, ixtiyoriy qisqa tuydа sayr, qal'adagi tong yorug'ligi uchun erta qaytish."
+seo:
+  metaTitle:
+    en: Khiva desert camp night | TourLink Experiences
+    ru: Ночь в пустынном лагере Хива | TourLink
+    uz: Xiva cho'l lageri kechasi | TourLink
+  metaDescription:
+    en: Overnight desert camp experience near Khiva with transfer and dinner.
+    ru: Ночёвка в пустынном лагере у Хивы с трансфером и ужином.
+    uz: Xiva yaqinida cho'l lagerida tun — transfer va kechki ovqat bilan.
+status:
+  showInSitemap: true
+  noindex: false
+  publishedAt: "2025-06-01"

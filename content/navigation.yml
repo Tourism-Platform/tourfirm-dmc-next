@@ -3,6 +3,14 @@ header:
   navItems:
     - type: custom
       label:
+        en: Tour & activities
+        ru: Туры и активности
+        uz: Turlar va faoliyatlar
+      icon: compass
+      href: /catalog
+      target: _self
+    - type: custom
+      label:
         en: Destinations
         ru: Направления
         uz: Yo'nalishlar
@@ -11,11 +19,19 @@ header:
       target: _self
     - type: custom
       label:
-        en: Tour & activities
-        ru: Туры и активности
-        uz: Turlar va faoliyatlar
-      icon: compass
-      href: /catalog
+        en: Routes
+        ru: Маршруты
+        uz: Marshrutlar
+      icon: route
+      href: /routes
+      target: _self
+    - type: custom
+      label:
+        en: Experiences
+        ru: Впечатления
+        uz: Taassurotlar
+      icon: heart-handshake
+      href: /experiences
       target: _self
     - type: group
       label:
@@ -110,132 +126,6 @@ header:
             en: Share your feedback
             ru: Поделитесь мнением
             uz: Fikringizni bildiring
-    - type: group
-      label:
-        en: Policies
-        ru: Политики
-        uz: Siyosatlar
-      icon: scale
-      target: _self
-      groupItems:
-        - type: page
-          page: legal/terms
-          icon: scale
-          label:
-            en: Terms of use
-            ru: Условия использования
-            uz: Foydalanish shartlari
-          description:
-            en: Website and service rules
-            ru: Правила использования сервиса
-            uz: Sayt va xizmat qoidalari
-        - type: page
-          page: legal/booking
-          icon: clipboard-list
-          label:
-            en: Booking terms
-            ru: Условия бронирования
-            uz: Bron qilish shartlari
-          description:
-            en: How services are confirmed and paid
-            ru: Как подтверждаются и оплачиваются услуги
-            uz: Xizmatlar qanday tasdiqlanadi va to'lanadi
-        - type: page
-          page: legal/cancellation
-          icon: ban
-          label:
-            en: Cancellation policy
-            ru: Политика отмены
-            uz: Bekor qilish siyosati
-          description:
-            en: Cancellations, changes and refunds
-            ru: Отмена, изменения и возвраты
-            uz: Bekor qilish, o'zgarishlar va qaytarishlar
-        - type: page
-          page: legal/cookies
-          icon: cookie
-          label:
-            en: Cookie policy
-            ru: Политика cookies
-            uz: Cookie siyosati
-          description:
-            en: Cookies and similar technologies
-            ru: Cookies и похожие технологии
-            uz: Cookie va o'xshash texnologiyalar
-        - type: page
-          page: legal/privacy
-          icon: shield
-          label:
-            en: Privacy policy
-            ru: Политика конфиденциальности
-            uz: Maxfiylik siyosati
-          description:
-            en: How we handle your data
-            ru: Как мы обрабатываем данные
-            uz: Ma'lumotlaringizni qanday qayta ishlaymiz
-    - type: group
-      label:
-        en: Help
-        ru: Помощь
-        uz: Yordam
-      icon: life-buoy
-      target: _self
-      groupItems:
-        - type: page
-          page: help/support
-          icon: life-buoy
-          label:
-            en: Support
-            ru: Поддержка
-            uz: Qo'llab-quvvatlash
-          description:
-            en: Get help from our team
-            ru: Помощь от нашей команды
-            uz: Jamoamizdan yordam oling
-        - type: page
-          page: help/contact
-          icon: mail
-          label:
-            en: Contact us
-            ru: Связаться с нами
-            uz: Bog'lanish
-          description:
-            en: Reach out to us
-            ru: Напишите нам
-            uz: Biz bilan bog'laning
-        - type: page
-          page: help/faq
-          icon: help-circle
-          label:
-            en: FAQ
-            ru: FAQ
-            uz: FAQ
-          description:
-            en: Frequently asked questions
-            ru: Частые вопросы
-            uz: Tez-tez beriladigan savollar
-        - type: page
-          page: help/training
-          icon: graduation-cap
-          label:
-            en: Training & support
-            ru: Обучение и поддержка
-            uz: O'qitish va qo'llab-quvvatlash
-          description:
-            en: Training resources
-            ru: Материалы для обучения
-            uz: O'quv materiallari
-        - type: page
-          page: help/more-info
-          icon: megaphone
-          label:
-            en: More service info
-            ru: Дополнительная информация
-            uz: Qo'shimcha ma'lumot
-          description:
-            en: Additional service details
-            ru: Подробнее о сервисе
-            uz: Xizmat haqida batafsil
   ctaAction:
     type: mailto
     href: info@tourlink.uz
@@ -332,6 +222,18 @@ footer:
         ru: Туры и партнёры
         uz: Turlar va hamkorlar
       items:
+        - type: custom
+          label:
+            en: Routes
+            ru: Маршруты
+            uz: Marshrutlar
+          href: /routes
+        - type: custom
+          label:
+            en: Experiences
+            ru: Впечатления
+            uz: Taassurotlar
+          href: /experiences
         - type: custom
           label:
             en: Destinations

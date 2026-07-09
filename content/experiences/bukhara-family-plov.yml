@@ -1,0 +1,64 @@
+# Seed: experience — Bukhara family plov
+
+slug:
+  en: bukhara-family-plov
+  ru: bukhara-family-plov
+  uz: bukhara-family-plov
+title:
+  en: Bukhara family plov
+  ru: Семейный плов в Бухаре
+  uz: Buxoroda oilaviy osh
+subtitle:
+  en: Inside a plov court — how rice, oil, and timing become hospitality.
+  ru: Внутри пловной — как рис, масло и тайминг становятся гостеприимством.
+  uz: Osh hovlisida — guruch, yog' va vaqt mehmondo'stlikka qanday aylanadi.
+excerpt:
+  en: Lunch experience with a host family or master oshpaz — stories, tea, and the social ritual behind Uzbekistan's national dish.
+  ru: Обед с семьёй-хозяевами или мастером-ошпазом — истории, чай и социальный ритуал за главным блюдом Узбекистана.
+  uz: Mezbon oila yoki usta oshpaz bilan tushlik — hikoyalar, choy va O'zbekiston milliy taomining ortidagi ijtimoiy marosim.
+type: FOOD_EXPERIENCE
+country: uzbekistan
+region: bukhara-region
+city: bukhara
+themes:
+  - food
+  - culture
+duration:
+  en: 2 hours
+  ru: 2 часа
+  uz: 2 soat
+featured: true
+sortOrder: 3
+catalogQuery: destination=Bukhara&themes=food
+heroImage: assets/images/experiences/culture-1.jpg
+relatedExperiences:
+  - bukhara-craft-workshop
+  - chorsu-bazaar-tasting
+blocks:
+  - blockType: hero
+    image: assets/images/experiences/culture-1.jpg
+    imageAlt:
+      en: Traditional plov serving in Bukhara
+      ru: Традиционная подача плова в Бухаре
+      uz: Buxoroda an'anaviy osh tortish
+    title:
+      en: More than a meal — a calendar of generosity
+      ru: Больше, чем еда — календарь щедрости
+      uz: Taomdan ko'proq — saxovat taqvimi
+    description:
+      en: "Hosts explain regional differences between Bukhara and Samarkand plov, when weddings and Fridays change the recipe, and how guests should participate without performing."
+      ru: "Хозяева объясняют региональные отличия бухарского и самаркандского плова, как свадьбы и пятницы меняют рецепт и как гостю участвовать без театральности."
+      uz: "Mezbonlar Buxoro va Samarqand oshining mintaqaviy farqlarini, to'y va juma retseptni qanday o'zgartirishini va mehmon qanday tabiiy ishtirok etishini tushuntiradi."
+seo:
+  metaTitle:
+    en: Bukhara family plov experience | TourLink
+    ru: Семейный плов в Бухаре | TourLink
+    uz: Buxoroda oilaviy osh taassuroti | TourLink
+  metaDescription:
+    en: Hosted plov lunch in Bukhara with cultural context and tea ritual.
+    ru: Пловный обед в Бухаре с культурным контекстом и чайным ритуалом.
+    uz: Buxoroda madaniy kontekst va choy marosimi bilan osh tushligi.
+status:
+  showInSitemap: true
+  noindex: false
+  publishedAt: "2025-06-01"

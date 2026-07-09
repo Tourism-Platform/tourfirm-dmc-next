@@ -1,0 +1,86 @@
+# Seed: route — Desert oasis journey (Khiva & Kyzylkum fringe)
+
+slug:
+  en: desert-oasis-journey
+  ru: desert-oasis-journey
+  uz: desert-oasis-journey
+title:
+  en: Desert oasis journey
+  ru: Путешествие к пустынному оазису
+  uz: Cho'l vohasi sayohati
+subtitle:
+  en: Khiva as base camp — walled city days and Kyzylkum-edge nights under open sky.
+  ru: Хива как базовый лагерь — дни в городе за стенами и ночи на краю Кызылкума под открытым небом.
+  uz: Xiva bazaviy lager — devor ichidagi kunlar va Qizilqum chetida ochiq osmon ostidagi kechalar.
+excerpt:
+  en: Five to six days in Khorezm — Itchan Kala depth, Ark fortress, optional yurt camp, and slow desert light.
+  ru: Пять–шесть дней в Хорезме — глубина Ичан-Калы, крепость Арк, опциональный юртовый лагерь и медленный пустынный свет.
+  uz: Xorazmda besh–olti kun — Ichan Qal'a chuqurligi, Ark qal'asi, ixtiyoriy yurt lageri va sekin cho'l yorug'ligi.
+countries:
+  - uzbekistan
+cityRefs:
+  - country: uzbekistan
+    region: khorezm-region
+    city: khiva
+attractions:
+  - itchan-kala
+  - ark-fortress
+themes:
+  - desert
+  - culture
+  - adventure
+experiences:
+  - itchan-kala-evening-walk
+  - ark-fortress-guided-tour
+  - khiva-desert-camp-night
+relatedRoutes:
+  - khiva-heritage-loop
+  - silk-road-classics
+durationDays: 6
+routeScope: CITY
+featured: false
+sortOrder: 4
+catalogQuery: destination=Khiva&themes=desert
+heroImage: assets/images/city/khiva.jpg
+blocks:
+  - blockType: hero
+    image: assets/images/city/khiva.jpg
+    imageAlt:
+      en: Itchan Kala walls at sunset
+      ru: Стены Ичан-Калы на закате
+      uz: Quyosh botishida Ichan Qal'a devorlari
+    title:
+      en: When the desert meets the museum city
+      ru: Когда пустыня встречает город-музей
+      uz: Cho'l muzey shahri bilan uchrashganda
+    description:
+      en: "Khiva rewards slow travelers. Mornings inside the walls, afternoons for fortress context, one or two nights outside the city for stars and silence — the desert is not filler, it is the point."
+      ru: "Хива любит неспешных. Утро внутри стен, день — для контекста крепости, одна–две ночи за городом ради звёзд и тишины — пустыня не заполнитель, а смысл."
+      uz: "Xiva sekin sayohatchilarni mukofotlaydi. Ertalab devor ichida, tushdan keyin qal'a konteksti, shahar tashqarisida bir–ikki tun yulduzlar va sukunat uchun — cho'l to'ldiruvchi emas, ma'no."
+  - blockType: faq
+    title:
+      en: Desert camp practicalities
+      ru: Практика пустынного лагеря
+      uz: Cho'l lageri amaliyoti
+    items:
+      - question:
+          en: Is a desert camp comfortable?
+          ru: Комфортен ли пустынный лагерь?
+          uz: Cho'l lageri qulaymi?
+        answer:
+          en: "Seasonal camps offer proper beds, showers, and dinner — not bare survival. We match camp level to group expectations."
+          ru: "Сезонные лагеря дают нормальные кровати, душ и ужин — не выживание. Уровень лагеря подбираем под ожидания группы."
+          uz: "Mavsumiy lagerlar to'g'ri yotoq, dush va kechki ovqat beradi — qattiq yashash emas. Lager darajasini guruh kutishlariga moslaymiz."
+seo:
+  metaTitle:
+    en: Desert oasis journey Khiva | TourLink
+    ru: Пустынный оазис — маршрут Хива | TourLink
+    uz: Cho'l vohasi — Xiva marshruti | TourLink
+  metaDescription:
+    en: Khiva and Kyzylkum-edge desert route with walled city walks and optional camp nights.
+    ru: Маршрут Хива и край Кызылкума с прогулками внутри стен и опциональными ночами в лагере.
+    uz: Xiva va Qizilqum cheti marshruti — devor ichidagi sayrlar va ixtiyoriy lager kechalari.
+status:
+  showInSitemap: true
+  noindex: false
+  publishedAt: "2025-06-01"

@@ -1,0 +1,65 @@
+# Seed: experience — Chimgan sunrise hike
+
+slug:
+  en: chimgan-sunrise-hike
+  ru: chimgan-sunrise-hike
+  uz: chimgan-sunrise-hike
+title:
+  en: Chimgan sunrise ridge hike
+  ru: Рассветный поход на хребет Чимган
+  uz: Chimgan quyosh chiqishi qirra yurishi
+subtitle:
+  en: Early start, big sky, and Tashkent valley views before the cable car crowds arrive.
+  ru: Ранний старт, большое небо и виды на долину Ташкента до толпы у канатки.
+  uz: Erta boshlanish, keng osmon va kanat yo'li olomon kelishidan oldin Toshkent vodiy manzaralari.
+excerpt:
+  en: Half-day guided hike with adjustable difficulty — suitable for active couples and small groups.
+  ru: Полудневной поход с гидом и регулируемой сложностью — для активных пар и небольших групп.
+  uz: Gidli yarim kunlik yurish — moslashuvchan qiyinlik, faol juftliklar va kichik guruhlar uchun.
+type: OUTDOOR_ACTIVITY
+country: uzbekistan
+region: tashkent-region
+city: chimgan
+attraction: chimgan-peak
+themes:
+  - nature
+  - adventure
+duration:
+  en: 4–5 hours
+  ru: 4–5 часов
+  uz: 4–5 soat
+featured: true
+sortOrder: 5
+catalogQuery: destination=Chimgan&themes=nature
+heroImage: assets/images/experiences/nature-1.jpg
+relatedExperiences:
+  - charvak-lakeside-day
+  - chorsu-bazaar-tasting
+blocks:
+  - blockType: hero
+    image: assets/images/experiences/nature-1.jpg
+    imageAlt:
+      en: Sunrise over Chimgan ridge
+      ru: Рассвет над хребтом Чимган
+      uz: Chimgan qirrasi ustida quyosh chiqishi
+    title:
+      en: Mountain perspective an hour from the capital
+      ru: Горная перспектива в часе от столицы
+      uz: Poytaxtdan bir soatda tog' perspektivasi
+    description:
+      en: "Guides brief on layers, water, and pace. The goal is light and panorama, not summit records — we match the trail to your group's fitness."
+      ru: "Гиды инструктируют по слоям одежды, воде и темпу. Цель — свет и панорама, не рекорды — маршрут подстраиваем под форму группы."
+      uz: "Gidlar kiyim qatlamlari, suv va ritm bo'yicha tushuntiradi. Maqsad — yorug'lik va panorama, rekord emas — yo'lni guruh tayyorgarligiga moslaymiz."
+seo:
+  metaTitle:
+    en: Chimgan sunrise hike | TourLink Experiences
+    ru: Рассветный поход Чимган | TourLink
+    uz: Chimgan quyosh chiqishi yurishi | TourLink
+  metaDescription:
+    en: Guided sunrise hike on Chimgan ridge with flexible difficulty.
+    ru: Рассветный поход по Чимгану с гибкой сложностью.
+    uz: Moslashuvchan qiyinlik bilan Chimgan qirrasi bo'ylab gidli quyosh chiqishi yurishi.
+status:
+  showInSitemap: true
+  noindex: false
+  publishedAt: "2025-06-01"

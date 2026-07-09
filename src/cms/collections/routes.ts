@@ -4,6 +4,10 @@ import { authenticatedOrPublished } from "../access/authenticated-or-published";
 import { pageBlocks } from "../blocks";
 import { seoField } from "../fields/seo";
 import { statusField } from "../fields/status";
+import {
+	revalidateRoutesNavAfterChange,
+	revalidateRoutesNavAfterDelete
+} from "../hooks/revalidate-discovery-nav";
 
 export const Routes: CollectionConfig = {
 	slug: "routes",
@@ -15,6 +19,10 @@ export const Routes: CollectionConfig = {
 	},
 	versions: {
 		drafts: true
+	},
+	hooks: {
+		afterChange: [revalidateRoutesNavAfterChange],
+		afterDelete: [revalidateRoutesNavAfterDelete]
 	},
 	fields: [
 		{
@@ -78,8 +86,57 @@ export const Routes: CollectionConfig = {
 			hasMany: true
 		},
 		{
+			name: "relatedRoutes",
+			type: "relationship",
+			relationTo: "routes",
+			hasMany: true,
+			admin: {
+				description:
+					"Manually curated related routes shown on the detail page."
+			}
+		},
+		{
 			name: "durationDays",
 			type: "number"
+		},
+		{
+			name: "routeScope",
+			type: "select",
+			defaultValue: "MIXED",
+			options: [
+				{ label: "Country based", value: "COUNTRY" },
+				{ label: "City based", value: "CITY" },
+				{ label: "Attraction based", value: "ATTRACTION" },
+				{ label: "Mixed", value: "MIXED" }
+			],
+			admin: {
+				description:
+					"Primary geo focus of the route. Used for hub filtering."
+			}
+		},
+		{
+			name: "featured",
+			type: "checkbox",
+			defaultValue: false,
+			admin: {
+				description: "Show in featured strips (homepage, hub)."
+			}
+		},
+		{
+			name: "sortOrder",
+			type: "number",
+			defaultValue: 0,
+			admin: {
+				description: "Listing order. Lower values appear first."
+			}
+		},
+		{
+			name: "catalogQuery",
+			type: "text",
+			admin: {
+				description:
+					"Query string for the commercial catalog CTA, e.g. destination=Uzbekistan&duration=6."
+			}
 		},
 		{
 			name: "heroImage",

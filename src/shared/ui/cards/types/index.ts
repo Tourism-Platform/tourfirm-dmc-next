@@ -17,6 +17,11 @@ export type {
 	TExperienceCardProps
 } from "./experience-card.types";
 export type {
+	IGeoDiscoveryCard,
+	TGeoDiscoveryCardProps
+} from "./geo-discovery-card.types";
+export type { IRouteCard, TRouteCardProps } from "./route-card.types";
+export type {
 	ITradeFairCard,
 	TTradeFairCardProps
 } from "./trade-fair-card.types";

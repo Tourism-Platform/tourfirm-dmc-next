@@ -1,0 +1,65 @@
+# Seed: experience — Charvak lakeside day
+
+slug:
+  en: charvak-lakeside-day
+  ru: charvak-lakeside-day
+  uz: charvak-lakeside-day
+title:
+  en: Charvak lakeside day
+  ru: День у водохранилища Чарвак
+  uz: Charvak suv ombori bo'yida kun
+subtitle:
+  en: Turquoise water, picnic lunch, and optional boat time between mountain drives.
+  ru: Бирюзовая вода, пикник-обед и опциональная прогулка на лодке между горными переездами.
+  uz: Firuza suv, piknik tushligi va tog' yo'llari orasida ixtiyoriy qayiq sayohati.
+excerpt:
+  en: Relaxed half-day at Charvak reservoir — ideal after Chimgan hike or as a soft landing before departure.
+  ru: Спокойная половина дня у Чарвака — идеально после похода в Чимгане или как мягкое завершение перед вылетом.
+  uz: Charvakda xotirjam yarim kun — Chimgan yurishidan keyin yoki jo'nashdan oldin yumshoq yakun uchun ideal.
+type: OUTDOOR_ACTIVITY
+country: uzbekistan
+region: tashkent-region
+city: chimgan
+attraction: charvak-reservoir
+themes:
+  - nature
+  - wellness
+duration:
+  en: 4–6 hours
+  ru: 4–6 часов
+  uz: 4–6 soat
+featured: false
+sortOrder: 8
+catalogQuery: destination=Chimgan&themes=nature
+heroImage: assets/images/experiences/nature-2.jpg
+relatedExperiences:
+  - chimgan-sunrise-hike
+  - chorsu-bazaar-tasting
+blocks:
+  - blockType: hero
+    image: assets/images/experiences/nature-2.jpg
+    imageAlt:
+      en: Charvak reservoir turquoise water
+      ru: Бирюзовая вода Чарвака
+      uz: Charvak firuza suvi
+    title:
+      en: Water day without a beach resort
+      ru: Водный день без пляжного курорта
+      uz: Plyaj kurortisiz suv kuni
+    description:
+      en: "Private shoreline spots, simple lunch setup, swimming when season allows — a counterweight to tile-heavy Silk Road days."
+      ru: "Приватные береговые точки, простой обед, купание в сезон — противовес дням с кафелем на Шёлковом пути."
+      uz: "Maxsus sohil nuqtalari, oddiy tushlik, mavsumda suzish — Ipak yo'lidagi kafel og'ir kunlariga qarshi muvozanat."
+seo:
+  metaTitle:
+    en: Charvak lakeside day | TourLink Experiences
+    ru: День у Чарвака | TourLink
+    uz: Charvak bo'yida kun | TourLink
+  metaDescription:
+    en: Relaxed Charvak reservoir day trip from Tashkent/Chimgan with picnic lunch.
+    ru: Спокойный выезд к Чарваку из Ташкента/Чимгана с пикник-обедом.
+    uz: Toshkent/Chimgandan Charvakka xotirjam sayohat — piknik tushligi bilan.
+status:
+  showInSitemap: true
+  noindex: false
+  publishedAt: "2025-06-01"

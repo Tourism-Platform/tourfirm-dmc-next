@@ -1,0 +1,65 @@
+# Seed: experience — Ark fortress guided tour
+
+slug:
+  en: ark-fortress-guided-tour
+  ru: ark-fortress-guided-tour
+  uz: ark-fortress-guided-tour
+title:
+  en: Ark fortress guided tour
+  ru: Экскурсия по крепости Арк
+  uz: Ark qal'asi gidli sayohati
+subtitle:
+  en: Bukhara's political heart — throne rooms, prison stories, and the view over the old town.
+  ru: Политическое сердце Бухары — тронные залы, истории тюрьмы и вид на старый город.
+  uz: Buxoroning siyosiy yuragi — taxt xonalari, qamoqxona hikoyalari va eski shahar manzarasi.
+excerpt:
+  en: Ninety minutes inside the Ark with a historian guide who connects emirs, revolutions, and today's museum city.
+  ru: Полтора часа внутри Арка с историком, который связывает эмиров, революции и сегодняшний музейный город.
+  uz: Ark ichida bir yarim soat — amirlar, inqiloblar va bugungi muzey shaharni bog'laydigan tarixchi gid bilan.
+type: GUIDED_TOUR
+country: uzbekistan
+region: bukhara-region
+city: bukhara
+attraction: ark-fortress
+themes:
+  - culture
+  - history
+duration:
+  en: 1.5 hours
+  ru: 1,5 часа
+  uz: 1,5 soat
+featured: false
+sortOrder: 7
+catalogQuery: destination=Bukhara
+heroImage: assets/images/city/bukhara.jpg
+relatedExperiences:
+  - bukhara-craft-workshop
+  - bukhara-family-plov
+blocks:
+  - blockType: hero
+    image: assets/images/city/bukhara.jpg
+    imageAlt:
+      en: Ark fortress walls above Bukhara
+      ru: Стены крепости Арк над Бухарой
+      uz: Buxoro ustidagi Ark qal'asi devorlari
+    title:
+      en: Power, exile, and preservation in one citadel
+      ru: Власть, ссылка и сохранение в одной цитадели
+      uz: Bir qal'ada hokimiyat, sürgün va muhofaza
+    description:
+      en: "The tour sequences throne hall, museum collections, and ramparts — ending with orientation for evening walks through trading domes below."
+      ru: "Экскурсия выстраивает тронный зал, музейные коллекции и вал — завершая ориентацией для вечерних прогулок по торговым куполам внизу."
+      uz: "Sayohat taxt xonasi, muzey kolleksiyalari va devor bo'ylab ketma-ket — pastdagi savdo gumbazlari bo'ylab kechki sayrlar uchun yo'naltirish bilan yakunlanadi."
+seo:
+  metaTitle:
+    en: Ark fortress guided tour Bukhara | TourLink
+    ru: Экскурсия по крепости Арк, Бухара | TourLink
+    uz: Buxoro Ark qal'asi gidli sayohati | TourLink
+  metaDescription:
+    en: Historian-led Ark fortress tour in Bukhara with old town orientation.
+    ru: Экскурсия по Арку в Бухаре с историком и ориентацией по старому городу.
+    uz: Buxoroda tarixchi bilan Ark qal'asi sayohati va eski shahar yo'naltirishi.
+status:
+  showInSitemap: true
+  noindex: false
+  publishedAt: "2025-06-01"

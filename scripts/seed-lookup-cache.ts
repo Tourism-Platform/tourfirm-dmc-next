@@ -14,6 +14,9 @@ export class SeedLookupCache {
 	readonly cities = new Map<string, number>();
 	readonly segments = new Map<string, number>();
 	readonly attractions = new Map<string, number>();
+	readonly themes = new Map<string, number>();
+	readonly routes = new Map<string, number>();
+	readonly experiences = new Map<string, number>();
 
 	async ingestCountries(payload: Payload): Promise<void> {
 		const result = await payload.find({
@@ -119,6 +122,34 @@ export class SeedLookupCache {
 		this.attractions.set(slug, id);
 	}
 
+	registerTheme(slug: string, id: number): void {
+		this.themes.set(slug, id);
+	}
+
+	registerRoute(slug: string, id: number): void {
+		this.routes.set(slug, id);
+	}
+
+	registerExperience(slug: string, id: number): void {
+		this.experiences.set(slug, id);
+	}
+
+	async ingestThemes(payload: Payload): Promise<void> {
+		const result = await payload.find({
+			collection: "themes",
+			locale: "en",
+			limit: 200,
+			depth: 0,
+			overrideAccess: true
+		});
+
+		for (const doc of result.docs) {
+			if (typeof doc.slug === "string") {
+				this.themes.set(doc.slug, doc.id as number);
+			}
+		}
+	}
+
 	getCountryId(slug: string): number {
 		const id = this.countries.get(slug);
 
@@ -148,6 +179,16 @@ export class SeedLookupCache {
 			throw new Error(
 				`City not found in lookup cache: ${slug} (region id: ${regionId})`
 			);
+		}
+
+		return id;
+	}
+
+	getThemeId(slug: string): number {
+		const id = this.themes.get(slug);
+
+		if (id === undefined) {
+			throw new Error(`Theme not found in lookup cache: ${slug}`);
 		}
 
 		return id;

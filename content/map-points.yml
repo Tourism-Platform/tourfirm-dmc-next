@@ -1,0 +1,423 @@
+# Seed: map points for discovery routes
+# Linked to routes by slug after routes are seeded.
+
+# —— Silk Road classics ——
+- route: silk-road-classics
+  order: 1
+  type: CITY
+  city:
+    country: uzbekistan
+    region: samarkand-region
+    city: samarkand
+  latitude: 39.6542
+  longitude: 66.9597
+  title:
+    en: Samarkand
+    ru: Самарканд
+    uz: Samarqand
+
+- route: silk-road-classics
+  order: 2
+  type: ATTRACTION
+  attraction: registan
+  latitude: 39.6547
+  longitude: 66.9757
+  title:
+    en: Registan
+    ru: Регистан
+    uz: Registon
+
+- route: silk-road-classics
+  order: 3
+  type: WAYPOINT
+  latitude: 40.1
+  longitude: 65.5
+  title:
+    en: Kyzylkum crossing
+    ru: Пересечение Кызылкума
+    uz: Qizilqum kesishishi
+
+- route: silk-road-classics
+  order: 4
+  type: CITY
+  city:
+    country: uzbekistan
+    region: bukhara-region
+    city: bukhara
+  latitude: 39.7681
+  longitude: 64.4556
+  title:
+    en: Bukhara
+    ru: Бухара
+    uz: Buxoro
+
+- route: silk-road-classics
+  order: 5
+  type: ATTRACTION
+  attraction: ark-fortress
+  latitude: 39.7756
+  longitude: 64.4142
+  title:
+    en: Ark fortress
+    ru: Крепость Арк
+    uz: Ark qal'asi
+
+- route: silk-road-classics
+  order: 6
+  type: CITY
+  city:
+    country: uzbekistan
+    region: khorezm-region
+    city: khiva
+  latitude: 41.3783
+  longitude: 60.3639
+  title:
+    en: Khiva
+    ru: Хива
+    uz: Xiva
+
+- route: silk-road-classics
+  order: 7
+  type: ATTRACTION
+  attraction: itchan-kala
+  latitude: 41.3783
+  longitude: 60.3619
+  title:
+    en: Itchan Kala
+    ru: Ичан-Кала
+    uz: Ichan Qal'a
+
+# —— Uzbekistan essentials ——
+- route: uzbekistan-essentials
+  order: 1
+  type: CITY
+  city:
+    country: uzbekistan
+    region: tashkent-region
+    city: tashkent
+  latitude: 41.2995
+  longitude: 69.2401
+  title:
+    en: Tashkent
+    ru: Ташкент
+    uz: Toshkent
+
+- route: uzbekistan-essentials
+  order: 2
+  type: ATTRACTION
+  attraction: chorsu-bazaar
+  latitude: 41.3265
+  longitude: 69.2342
+  title:
+    en: Chorsu bazaar
+    ru: Базар Чорсу
+    uz: Chorsu bozori
+
+- route: uzbekistan-essentials
+  order: 3
+  type: ATTRACTION
+  attraction: amir-timur-square
+  latitude: 41.3112
+  longitude: 69.2797
+  title:
+    en: Amir Timur square
+    ru: Площадь Амира Тимура
+    uz: Amir Temur maydoni
+
+- route: uzbekistan-essentials
+  order: 4
+  type: CITY
+  city:
+    country: uzbekistan
+    region: samarkand-region
+    city: samarkand
+  latitude: 39.6542
+  longitude: 66.9597
+  title:
+    en: Samarkand
+    ru: Самарканд
+    uz: Samarqand
+
+- route: uzbekistan-essentials
+  order: 5
+  type: ATTRACTION
+  attraction: registan
+  latitude: 39.6547
+  longitude: 66.9757
+  title:
+    en: Registan
+    ru: Регистан
+    uz: Registon
+
+- route: uzbekistan-essentials
+  order: 6
+  type: CITY
+  city:
+    country: uzbekistan
+    region: tashkent-region
+    city: chimgan
+  latitude: 41.526
+  longitude: 70.015
+  title:
+    en: Chimgan
+    ru: Чимган
+    uz: Chimgan
+
+- route: uzbekistan-essentials
+  order: 7
+  type: ATTRACTION
+  attraction: charvak-reservoir
+  latitude: 41.623
+  longitude: 69.742
+  title:
+    en: Charvak reservoir
+    ru: Водохранилище Чарвак
+    uz: Charvak suv ombori
+
+# —— Wine route Samarkand ——
+- route: wine-route-samarkand
+  order: 1
+  type: CITY
+  city:
+    country: uzbekistan
+    region: samarkand-region
+    city: samarkand
+  latitude: 39.6542
+  longitude: 66.9597
+  title:
+    en: Samarkand old town
+    ru: Старый город Самарканда
+    uz: Samarqand eski shahar
+
+- route: wine-route-samarkand
+  order: 2
+  type: ATTRACTION
+  attraction: registan
+  latitude: 39.6547
+  longitude: 66.9757
+  title:
+    en: Registan
+    ru: Регистан
+    uz: Registon
+
+- route: wine-route-samarkand
+  order: 3
+  type: WAYPOINT
+  latitude: 39.58
+  longitude: 66.82
+  title:
+    en: Samarkand valley vineyards
+    ru: Виноградники самаркандской долины
+    uz: Samarqand vodiy uzumzorlari
+
+# —— Desert oasis journey ——
+- route: desert-oasis-journey
+  order: 1
+  type: ATTRACTION
+  attraction: itchan-kala
+  latitude: 41.3783
+  longitude: 60.3619
+  title:
+    en: Itchan Kala
+    ru: Ичан-Кала
+    uz: Ichan Qal'a
+
+- route: desert-oasis-journey
+  order: 2
+  type: OVERNIGHT
+  latitude: 41.45
+  longitude: 60.55
+  title:
+    en: Kyzylkum fringe camp
+    ru: Лагерь на краю Кызылкума
+    uz: Qizilqum cheti lageri
+
+- route: desert-oasis-journey
+  order: 3
+  type: CITY
+  city:
+    country: uzbekistan
+    region: khorezm-region
+    city: khiva
+  latitude: 41.3783
+  longitude: 60.3639
+  title:
+    en: Khiva return
+    ru: Возврат в Хиву
+    uz: Xivaga qaytish
+
+# —— Tashkent to Chimgan ——
+- route: tashkent-to-chimgan
+  order: 1
+  type: ATTRACTION
+  attraction: chorsu-bazaar
+  latitude: 41.3265
+  longitude: 69.2342
+  title:
+    en: Chorsu bazaar
+    ru: Базар Чорсу
+    uz: Chorsu bozori
+
+- route: tashkent-to-chimgan
+  order: 2
+  type: ATTRACTION
+  attraction: amir-timur-square
+  latitude: 41.3112
+  longitude: 69.2797
+  title:
+    en: Amir Timur square
+    ru: Площадь Амира Тимура
+    uz: Amir Temur maydoni
+
+- route: tashkent-to-chimgan
+  order: 3
+  type: ATTRACTION
+  attraction: chimgan-peak
+  latitude: 41.52
+  longitude: 70.02
+  title:
+    en: Chimgan ridge
+    ru: Хребет Чимган
+    uz: Chimgan qirrasi
+
+- route: tashkent-to-chimgan
+  order: 4
+  type: ATTRACTION
+  attraction: charvak-reservoir
+  latitude: 41.623
+  longitude: 69.742
+  title:
+    en: Charvak reservoir
+    ru: Чарвак
+    uz: Charvak
+
+# —— Bukhara craft trail ——
+- route: bukhara-craft-trail
+  order: 1
+  type: CITY
+  city:
+    country: uzbekistan
+    region: bukhara-region
+    city: bukhara
+  latitude: 39.7681
+  longitude: 64.4556
+  title:
+    en: Bukhara old town
+    ru: Старый город Бухары
+    uz: Buxoro eski shahar
+
+- route: bukhara-craft-trail
+  order: 2
+  type: ATTRACTION
+  attraction: ark-fortress
+  latitude: 39.7756
+  longitude: 64.4142
+  title:
+    en: Ark fortress
+    ru: Крепость Арк
+    uz: Ark qal'asi
+
+- route: bukhara-craft-trail
+  order: 3
+  type: WAYPOINT
+  latitude: 39.772
+  longitude: 64.428
+  title:
+    en: Trading domes quarter
+    ru: Квартал торговых куполов
+    uz: Savdo gumbazlari kvartali
+
+# —— Khiva heritage loop ——
+- route: khiva-heritage-loop
+  order: 1
+  type: ATTRACTION
+  attraction: itchan-kala
+  latitude: 41.3783
+  longitude: 60.3619
+  title:
+    en: Itchan Kala east gate
+    ru: Восточные ворота Ичан-Калы
+    uz: Ichan Qal'a sharq darvozasi
+
+- route: khiva-heritage-loop
+  order: 2
+  type: WAYPOINT
+  latitude: 41.3795
+  longitude: 60.358
+  title:
+    en: Kalta Minor
+    ru: Кальта-Минор
+    uz: Kalta Minor
+
+- route: khiva-heritage-loop
+  order: 3
+  type: WAYPOINT
+  latitude: 41.377
+  longitude: 60.365
+  title:
+    en: Juma mosque quarter
+    ru: Квартал мечети Джума
+    uz: Juma masjidi kvartali
+
+# —— Central Asia capitals (editorial) ——
+- route: central-asia-capitals
+  order: 1
+  type: CITY
+  city:
+    country: uzbekistan
+    region: tashkent-region
+    city: tashkent
+  latitude: 41.2995
+  longitude: 69.2401
+  title:
+    en: Tashkent
+    ru: Ташкент
+    uz: Toshkent
+
+- route: central-asia-capitals
+  order: 2
+  type: CITY
+  city:
+    country: uzbekistan
+    region: samarkand-region
+    city: samarkand
+  latitude: 39.6542
+  longitude: 66.9597
+  title:
+    en: Samarkand
+    ru: Самарканд
+    uz: Samarqand
+
+- route: central-asia-capitals
+  order: 3
+  type: CITY
+  city:
+    country: uzbekistan
+    region: bukhara-region
+    city: bukhara
+  latitude: 39.7681
+  longitude: 64.4556
+  title:
+    en: Bukhara
+    ru: Бухара
+    uz: Buxoro
+
+- route: central-asia-capitals
+  order: 4
+  type: WAYPOINT
+  latitude: 43.2389
+  longitude: 76.8897
+  title:
+    en: Almaty (phase two)
+    ru: Алматы (фаза два)
+    uz: Olmaota (ikkinchi bosqich)
+
+- route: central-asia-capitals
+  order: 5
+  type: WAYPOINT
+  latitude: 42.8746
+  longitude: 74.5698
+  title:
+    en: Bishkek (phase two)
+    ru: Бишкек (фаза два)
+    uz: Bishkek (ikkinchi bosqich)

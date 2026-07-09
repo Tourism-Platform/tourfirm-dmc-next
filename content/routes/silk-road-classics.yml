@@ -1,0 +1,173 @@
+# Seed: route — Silk Road classics (Samarkand → Bukhara → Khiva)
+
+slug:
+  en: silk-road-classics
+  ru: silk-road-classics
+  uz: silk-road-classics
+title:
+  en: Silk Road classics
+  ru: Классика Шёлкового пути
+  uz: Ipak yo'li klassikasi
+subtitle:
+  en: The essential Uzbekistan arc — three UNESCO cities linked by desert roads and living craft traditions.
+  ru: Главная дуга Узбекистана — три объекта ЮНЕСКО, связанные пустынными дорогами и живыми ремёслами.
+  uz: O'zbekistonning asosiy yoyi — cho'l yo'llari va tirik hunarmandchilik an'analari bilan bog'langan uchta YuNESKO shahri.
+excerpt:
+  en: Six to nine days between Samarkand, Bukhara, and Khiva — monuments by day, courtyards and bazaars by evening, with room for wine, crafts, and slow travel.
+  ru: Шесть–девять дней между Самаркандом, Бухарой и Хивой — памятники днём, дворы и базары вечером, с местом для вина, ремёсел и неспешного темпа.
+  uz: Samarqand, Buxoro va Xiva orasida olti–to'qqiz kun — kunduzi yodgorliklar, kechqurun hovli va bozorlar, vino, hunarmandchilik va sekin sayohat uchun joy bilan.
+countries:
+  - uzbekistan
+cityRefs:
+  - country: uzbekistan
+    region: samarkand-region
+    city: samarkand
+  - country: uzbekistan
+    region: bukhara-region
+    city: bukhara
+  - country: uzbekistan
+    region: khorezm-region
+    city: khiva
+attractions:
+  - registan
+  - ark-fortress
+  - itchan-kala
+themes:
+  - silk-road
+  - culture
+  - crafts
+experiences:
+  - registan-guided-walk
+  - samarkand-wine-tasting
+  - bukhara-family-plov
+  - itchan-kala-evening-walk
+  - ark-fortress-guided-tour
+relatedRoutes:
+  - uzbekistan-essentials
+  - bukhara-craft-trail
+  - khiva-heritage-loop
+durationDays: 8
+routeScope: MIXED
+featured: true
+sortOrder: 1
+catalogQuery: destination=Uzbekistan&duration=8&themes=silk-road
+heroImage: assets/images/tours/silk-road.jpg
+badges:
+  - EDITOR_CHOICE
+blocks:
+  - blockType: hero
+    image: assets/images/tours/silk-road.jpg
+    imageAlt:
+      en: Registan at dusk, Samarkand
+      ru: Регистан на закате, Самарканд
+      uz: Samarqand, Registon quyosh botishida
+    title:
+      en: Three cities that define the Silk Road
+      ru: Три города, которые определяют Шёлковый путь
+      uz: Ipak yo'lini belgilaydigan uchta shahar
+    description:
+      en: Samarkand opens with scale and color. Bukhara slows the rhythm to courtyards and workshops. Khiva closes the arc inside intact walls — a route built for first-time Central Asia travelers who want depth without rushing.
+      ru: Самарканд начинается с масштаба и цвета. Бухара замедляет ритм до дворов и мастерских. Хива завершает дугу внутри целых стен — маршрут для тех, кто впервые в Центральной Азии и хочет глубины без спешки.
+      uz: Samarqand miqyos va rang bilan ochiladi. Buxoro ritmni hovli va ustaxonalarga sekinlashtiradi. Xiva yoyni butun devorlar ichida yakunlaydi — Markaziy Osiyoga birinchi bor kelgan va shoshilmasdan chuqurlik istagan sayohatchilar uchun marshrut.
+  - blockType: regular
+    eyebrow:
+      en: Route logic
+      ru: Логика маршрута
+      uz: Marshrut mantiqi
+    title:
+      en: Why this order works
+      ru: Почему работает именно такой порядок
+      uz: Nega aynan shu tartib ishlaydi
+    description:
+      en: "Start in Samarkand for the visual climax, continue to Bukhara for living tradition, finish in Khiva for intimacy. Desert transfers between cities become part of the story rather than dead time."
+      ru: "Начните с Самарканда ради визуальной кульминации, продолжите в Бухаре ради живой традиции, завершите в Хиве ради камерности. Пустынные переезды между городами становятся частью истории, а не пустым временем."
+      uz: "Vizual cho'qqi uchun Samarqanddan boshlang, tirik an'ana uchun Buxoroga o'ting, yaqinlik uchun Xivada yakunlang. Shaharlar orasidagi cho'l transferlari bo'sh vaqt emas, hikoyaning bir qismiga aylanadi."
+    gridClassName: md:grid-cols-3
+    cards:
+      - type: destinationInsight
+        icon: map-pin
+        title:
+          en: Samarkand — first impact
+          ru: Самарканд — первый удар
+          uz: Samarqand — birinchi taassurot
+        description:
+          en: Registan, Shah-i-Zinda, and observatory visits set the historical frame before the route slows down.
+          ru: Регистан, Шахи-Зинда и обсерватория задают историческую рамку до того, как маршрут замедлится.
+          uz: Registon, Shohi Zinda va rasadxonaga tashriflar marshrut sekinlashishidan oldin tarixiy ramka beradi.
+      - type: destinationInsight
+        icon: hammer
+        title:
+          en: Bukhara — workshops & tables
+          ru: Бухара — мастерские и столы
+          uz: Buxoro — ustaxonalar va dasturxon
+        description:
+          en: Craft quarters, family plov, and evening walks through trading domes anchor the middle of the journey.
+          ru: Ремесленные кварталы, семейный плов и вечерние прогулки по торговым куполам — середина путешествия.
+          uz: Hunarmandchilik kvartallari, oilaviy osh va savdo gumbazlari bo'ylab kechki sayrlar sayohat o'rtasini mustahkamlaydi.
+      - type: destinationInsight
+        icon: castle
+        title:
+          en: Khiva — walled intimacy
+          ru: Хива — камерность за стенами
+          uz: Xiva — devor ichidagi yaqinlik
+        description:
+          en: Itchan Kala at dusk, Ark fortress context, and optional desert camp nights close the route with atmosphere.
+          ru: Ичан-Кала на закате, контекст крепости Арк и опциональные ночи в пустынном лагере завершают маршрут атмосферой.
+          uz: Quyosh botishida Ichan Qal'a, Ark qal'asi konteksti va ixtiyoriy cho'l lageri kechalari marshrutni muhit bilan yakunlaydi.
+  - blockType: faq
+    title:
+      en: Planning questions
+      ru: Вопросы при планировании
+      uz: Rejalashtirish savollari
+    items:
+      - question:
+          en: How many days do I need?
+          ru: Сколько дней нужно?
+          uz: Necha kun kerak?
+        answer:
+          en: "Eight days is the sweet spot for this arc with one night in transit. Compress to six only if you accept shorter city stays and fewer experiences."
+          ru: "Восемь дней — оптимум для этой дуги с одной ночёвкой в пути. Сжать до шести можно только если готовы к более коротким стоянкам и меньшему числу впечатлений."
+          uz: "Sakkiz kun bu yoy uchun yo'ldagi bir tun bilan eng qulay. Faqat shaharlar va taassurotlar sonini qisqartirishga tayyor bo'lsangiz, olti kungacha qisqartirish mumkin."
+      - question:
+          en: Is this route good in summer?
+          ru: Подходит ли маршрут летом?
+          uz: Bu marshrut yozda yaxshimi?
+        answer:
+          en: "Yes, but plan Registan and Itchan Kala for early morning or late afternoon. Desert transfers are best before midday heat peaks."
+          ru: "Да, но Регистан и Ичан-Калу планируйте на раннее утро или поздний день. Пустынные переезды лучше до пика дневной жары."
+          uz: "Ha, lekin Registon va Ichan Qal'ani erta tong yoki kechki soatlar uchun rejalashtiring. Cho'l transferlarini kunduzi issiqlik cho'qqisidan oldin qiling."
+  - blockType: cta
+    image: assets/images/destinations/uzbekistan.jpg
+    imageAlt:
+      en: Uzbekistan landscape
+      ru: Пейзаж Узбекистана
+      uz: O'zbekiston manzarasi
+    title:
+      en: Turn this route into a commercial program
+      ru: Превратите маршрут в коммерческую программу
+      uz: Bu marshrutni tijorat dasturiga aylantiring
+    description:
+      en: Share dates, group size, and hotel level — we will build a bookable itinerary around the same city order and experiences.
+      ru: Укажите даты, размер группы и уровень отелей — мы соберём бронируемую программу с тем же порядком городов и впечатлениями.
+      uz: Sanalar, guruh hajmi va mehmonxona darajasini yuboring — shu shahar tartibi va taassurotlar asosida bron qilinadigan dastur tuzamiz.
+    actions:
+      - type: link
+        variant: default
+        title:
+          en: Browse matching tours
+          ru: Смотреть подходящие туры
+          uz: Mos turlarni ko'rish
+        href: /catalog?destination=Uzbekistan&duration=8
+seo:
+  metaTitle:
+    en: Silk Road classics route | TourLink
+    ru: Маршрут «Классика Шёлкового пути» | TourLink
+    uz: Ipak yo'li klassikasi marshruti | TourLink
+  metaDescription:
+    en: Editorial route through Samarkand, Bukhara, and Khiva — map, timeline, experiences, and catalog handoff.
+    ru: Редакционный маршрут через Самарканд, Бухару и Хиву — карта, таймлайн, впечатления и переход в каталог.
+    uz: Samarqand, Buxoro va Xiva bo'ylab tahririy marshrut — xarita, vaqt chizig'i, taassurotlar va katalogga o'tish.
+status:
+  showInSitemap: true
+  noindex: false
+  publishedAt: "2025-06-01"

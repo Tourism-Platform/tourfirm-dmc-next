@@ -25,11 +25,11 @@ export function groupCollections(
 
 export function groupGlobals(
 	globals: GlobalConfig[],
-	section: TAdminNavSection
+	sections: TAdminNavSection[]
 ): GlobalConfig[] {
 	for (const global of globals) {
 		global.admin ??= {};
-		global.admin.group = findGroupLabel(global.slug, [section]);
+		global.admin.group = findGroupLabel(global.slug, sections);
 	}
 
 	return globals;

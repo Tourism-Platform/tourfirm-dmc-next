@@ -40,6 +40,22 @@ export const Themes: CollectionConfig = {
 			localized: true
 		},
 		{
+			name: "featured",
+			type: "checkbox",
+			defaultValue: false,
+			admin: {
+				description: "Show in featured theme chips (homepage, hubs)."
+			}
+		},
+		{
+			name: "sortOrder",
+			type: "number",
+			defaultValue: 0,
+			admin: {
+				description: "Order in filter chips. Lower values appear first."
+			}
+		},
+		{
 			name: "blocks",
 			type: "blocks",
 			required: true,

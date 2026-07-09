@@ -1,0 +1,66 @@
+# Seed: experience — Itchan Kala evening walk
+
+slug:
+  en: itchan-kala-evening-walk
+  ru: itchan-kala-evening-walk
+  uz: itchan-kala-evening-walk
+title:
+  en: Itchan Kala evening walk
+  ru: Вечерняя прогулка по Ичан-Кале
+  uz: Ichan Qal'a kechki sayri
+subtitle:
+  en: Minarets at blue hour, domestic life behind carved doors, and the city without day-trip buses.
+  ru: Минареты в синий час, домашняя жизнь за резными дверями и город без однодневных автобусов.
+  uz: Ko'k soatda minoralar, o'yma eshiklar ortidagi uy hayoti va kunlik avtobuslarsiz shahar.
+excerpt:
+  en: Two-hour guided loop at dusk — the best time when stone glows and residents reclaim the alleys.
+  ru: Двухчасовой маршрут с гидом на закате — лучшее время, когда камень светится, а жители возвращаются в переулки.
+  uz: Quyosh botishida ikki soatlik gidli halqa — tosh yorishgan va aholi tor ko'chalarni qaytar olgan eng yaxshi vaqt.
+type: GUIDED_TOUR
+country: uzbekistan
+region: khorezm-region
+city: khiva
+attraction: itchan-kala
+themes:
+  - culture
+  - silk-road
+  - history
+duration:
+  en: 2 hours
+  ru: 2 часа
+  uz: 2 soat
+featured: true
+sortOrder: 9
+catalogQuery: destination=Khiva
+heroImage: assets/images/city/khiva.jpg
+relatedExperiences:
+  - khiva-desert-camp-night
+  - ark-fortress-guided-tour
+blocks:
+  - blockType: hero
+    image: assets/images/city/khiva.jpg
+    imageAlt:
+      en: Itchan Kala alley at dusk
+      ru: Переулок Ичан-Калы на закате
+      uz: Quyosh botishida Ichan Qal'a tor ko'chasi
+    title:
+      en: Khiva belongs to evening walkers
+      ru: Хива принадлежит вечерним прогулочным
+      uz: Xiva kechki sayr qiluvchilarga tegishli
+    description:
+      en: "Guides route away from midday clusters, pause at photogenic minarets, and explain how UNESCO status changed daily life inside the walls."
+      ru: "Гиды уводят от полуденных скоплений, останавливаются у фотогеничных минаретов и объясняют, как статус UNESCO изменил быт внутри стен."
+      uz: "Gidlar tushki to'dan uzoqlashtiradi, suratga tushadigan minoralarda to'xtaydi va YuNESKO maqomi devor ichidagi kundalik hayotni qanday o'zgartirganini tushuntiradi."
+seo:
+  metaTitle:
+    en: Itchan Kala evening walk | TourLink Experiences
+    ru: Вечерняя прогулка Ичан-Кала | TourLink
+    uz: Ichan Qal'a kechki sayri | TourLink
+  metaDescription:
+    en: Dusk guided walk inside Khiva's walled Itchan Kala.
+    ru: Вечерняя прогулка с гидом внутри стен Ичан-Калы в Хиве.
+    uz: Xiva Ichan Qal'a devor ichida quyosh botishida gidli sayr.
+status:
+  showInSitemap: true
+  noindex: false
+  publishedAt: "2025-06-01"

@@ -46,9 +46,10 @@ import {
 	logSeedResetMode,
 	resetDatabase
 } from "./seed-reset.js";
+import { createDiscoverySeeder } from "./seed-discovery.js";
 import { mapWithConcurrency, SEED_LIMITS } from "./seed-parallel.js";
 
-const SEED_STAGE_COUNT = 15;
+const SEED_STAGE_COUNT = 20;
 
 type TRouteMapCollection = "countries" | "regions" | "cities";
 
@@ -734,6 +735,32 @@ async function readDestinationPageSlug(): Promise<string> {
 	}
 
 	return String(slug ?? "");
+}
+
+async function seedDiscoveryGlobal(
+	payload: Payload,
+	slug: "routes-hub" | "experiences-hub",
+	raw: Record<string, unknown>,
+	mediaCache: TMediaCache
+): Promise<void> {
+	for (const locale of LOCALES) {
+		const localized = pickLocale(raw, locale) as Record<string, unknown>;
+		const data = await resolveSeedDocument(
+			payload,
+			mediaCache,
+			localized,
+			locale
+		);
+
+		await payload.updateGlobal({
+			slug,
+			data,
+			locale,
+			...SEED_OP_OPTS
+		});
+
+		console.log(`  + ${slug} locale ${locale}`);
+	}
 }
 
 async function seedHomepage(
@@ -1933,6 +1960,7 @@ async function runSeed(): Promise<void> {
 
 	log.start("Seeding themes");
 	const themesCount = await seedThemes(payload, mediaCache);
+	await lookup.ingestThemes(payload);
 	log.done();
 
 	log.start("Seeding countries");
@@ -1969,6 +1997,46 @@ async function runSeed(): Promise<void> {
 		badgeIds,
 		mediaCache
 	);
+	log.done();
+
+	const discoverySeeder = createDiscoverySeeder({
+		contentDir: CONTENT_DIR,
+		readYamlFile,
+		seedLocalizedDoc,
+		resolveSeedDocument,
+		resolveBadgeIds,
+		pickLocale,
+		updateGlobal: seedDiscoveryGlobal
+	});
+
+	log.start("Seeding experiences");
+	const experiencesCount = await discoverySeeder.seedExperiences(
+		payload,
+		lookup,
+		badgeIds,
+		mediaCache
+	);
+	log.done();
+
+	log.start("Seeding routes");
+	const routesCount = await discoverySeeder.seedRoutes(
+		payload,
+		lookup,
+		badgeIds,
+		mediaCache
+	);
+	log.done();
+
+	log.start("Seeding map points");
+	const mapPointsCount = await discoverySeeder.seedMapPoints(payload, lookup);
+	log.done();
+
+	log.start("Seeding routes hub");
+	await discoverySeeder.seedRoutesHub(payload, mediaCache);
+	log.done();
+
+	log.start("Seeding experiences hub");
+	await discoverySeeder.seedExperiencesHub(payload, mediaCache);
 	log.done();
 
 	log.start("Refreshing route map stops");
@@ -2020,6 +2088,11 @@ async function runSeed(): Promise<void> {
 		regions: regionsCount,
 		cities: citiesCount,
 		attractions: attractionsCount,
+		experiences: experiencesCount,
+		routes: routesCount,
+		mapPoints: mapPointsCount,
+		routesHub: true,
+		experiencesHub: true,
 		homepage: true,
 		destination: true,
 		segments: segmentIds.size,
