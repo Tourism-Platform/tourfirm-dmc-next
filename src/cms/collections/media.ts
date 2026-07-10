@@ -4,6 +4,17 @@ export const MEDIA_UPLOAD_DIR = "media/uploads";
 
 export const Media: CollectionConfig = {
 	slug: "media",
+	admin: {
+		useAsTitle: "filename",
+		defaultColumns: [
+			"filename",
+			"alt",
+			"filesize",
+			"width",
+			"height",
+			"updatedAt"
+		]
+	},
 	access: {
 		read: () => true
 	},
