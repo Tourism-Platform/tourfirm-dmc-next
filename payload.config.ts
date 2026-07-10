@@ -3,6 +3,7 @@ import { fileURLToPath } from "node:url";
 
 import { postgresAdapter } from "@payloadcms/db-postgres";
 import { lexicalEditor } from "@payloadcms/richtext-lexical";
+import { s3Storage } from "@payloadcms/storage-s3";
 import { buildConfig } from "payload";
 import sharp from "sharp";
 
@@ -40,6 +41,12 @@ export default buildConfig({
 		push: process.env.PAYLOAD_DB_PUSH !== "false"
 	}),
 	sharp,
+	upload: {
+		abortOnLimit: true,
+		limits: {
+			fileSize: 15 * 1024 * 1024
+		}
+	},
 	typescript: {
 		outputFile: path.resolve(dirname, "src/payload-types.ts")
 	},
@@ -65,5 +72,23 @@ export default buildConfig({
 			afterLogin: ["@/cms/admin/admin-theme-toggle#AdminThemeToggle"],
 			afterNavLinks: ["@/cms/admin/domain-pages-nav-links#DomainPagesNavLinks"]
 		}
-	}
+	},
+	plugins: [
+		s3Storage({
+			enabled: Boolean(process.env.S3_BUCKET),
+			collections: {
+				media: true
+			},
+			bucket: process.env.S3_BUCKET || "",
+			config: {
+				credentials: {
+					accessKeyId: process.env.S3_ACCESS_KEY_ID || "",
+					secretAccessKey: process.env.S3_SECRET_ACCESS_KEY || ""
+				},
+				endpoint: process.env.S3_ENDPOINT,
+				region: process.env.S3_REGION || "auto",
+				forcePathStyle: process.env.S3_FORCE_PATH_STYLE === "true"
+			}
+		})
+	]
 });

@@ -9,7 +9,14 @@ export const Media: CollectionConfig = {
 	},
 	upload: {
 		staticDir: MEDIA_UPLOAD_DIR,
-		mimeTypes: ["image/*"]
+		mimeTypes: [
+			"image/jpeg",
+			"image/png",
+			"image/webp",
+			"image/avif",
+			"image/gif",
+			"image/svg+xml"
+		]
 	},
 	fields: [
 		{
