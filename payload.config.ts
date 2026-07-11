@@ -69,7 +69,6 @@ export default buildConfig({
 				Icon: "@/cms/admin/graphics/admin-icon#AdminIcon"
 			},
 			actions: ["@/cms/admin/admin-header-actions#AdminHeaderActions"],
-			afterLogin: ["@/cms/admin/admin-theme-toggle#AdminThemeToggle"],
 			afterNavLinks: ["@/cms/admin/domain-pages-nav-links#DomainPagesNavLinks"]
 		}
 	},

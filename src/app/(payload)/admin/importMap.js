@@ -25,7 +25,6 @@ import { LexicalDiffComponent as LexicalDiffComponent_44fe37237e0ebf4470c9990d8c
 import { S3ClientUploadHandler as S3ClientUploadHandler_f97aa6c64367fa259c5bc0567239ef24 } from "@payloadcms/storage-s3/client";
 
 import { AdminHeaderActions as AdminHeaderActions_334bb66779805942dbb5b7838a21c870 } from "@/cms/admin/admin-header-actions";
-import { AdminThemeToggle as AdminThemeToggle_9e7bf8026ab797fd651fb6dc2085c99d } from "@/cms/admin/admin-theme-toggle";
 import { TeamPagesListView as TeamPagesListView_d52035fd3ab5be21489cf1a807288a51 } from "@/cms/admin/domain-pages-list-view";
 import { LegalPagesListView as LegalPagesListView_d52035fd3ab5be21489cf1a807288a51 } from "@/cms/admin/domain-pages-list-view";
 import { DomainPagesNavLinks as DomainPagesNavLinks_4328ea017c74898a0bebead348eb5d51 } from "@/cms/admin/domain-pages-nav-links";
@@ -96,8 +95,6 @@ export const importMap = {
 		AdminLogo_c5f15d74eaf168d2593005f2658bc623,
 	"@/cms/admin/admin-header-actions#AdminHeaderActions":
 		AdminHeaderActions_334bb66779805942dbb5b7838a21c870,
-	"@/cms/admin/admin-theme-toggle#AdminThemeToggle":
-		AdminThemeToggle_9e7bf8026ab797fd651fb6dc2085c99d,
 	"@/cms/admin/domain-pages-nav-links#DomainPagesNavLinks":
 		DomainPagesNavLinks_4328ea017c74898a0bebead348eb5d51,
 	"@payloadcms/storage-s3/client#S3ClientUploadHandler":
