@@ -1,0 +1,98 @@
+title:
+  en: News
+  ru: Новости
+  uz: Yangiliklar
+subtitle:
+  en: Company updates, partnerships, and industry milestones from TourLink.
+  ru: Новости компании, партнёрства и отраслевые вехи TourLink.
+  uz: TourLink kompaniyasi yangiliklari, hamkorliklar va soha yutuqlari.
+seo:
+  metaTitle:
+    en: News & announcements | TourLink
+    ru: Новости и объявления | TourLink
+    uz: Yangiliklar va e'lonlar | TourLink
+  metaDescription:
+    en: Official TourLink news — office updates, industry awards, hotel partnerships, and team milestones across Central Asia.
+    ru: Официальные новости TourLink — офис, награды, партнёрства с отелями и вехи команды в Центральной Азии.
+    uz: TourLink rasmiy yangiliklari — ofis, mukofotlar, mehmonxona hamkorliklari va Markaziy Osiyodagi jamoa yutuqlari.
+blocks:
+  - blockType: hero
+    image: assets/images/hero-image.jpg
+    imageAlt:
+      en: TourLink news
+      ru: Новости TourLink
+      uz: TourLink yangiliklari
+    title:
+      en: News from TourLink
+      ru: Новости TourLink
+      uz: TourLink yangiliklari
+    description:
+      en: "Official updates about the team, services, and partnerships across Central Asia. Company milestones, industry recognition, and network news that affect how we run programs on the ground."
+      ru: "Официальные обновления о команде, услугах и партнёрствах в Центральной Азии. Вехи компании, отраслевое признание и новости сети, влияющие на то, как мы ведём программы на месте."
+      uz: "Markaziy Osiyo bo'ylab jamoa, xizmatlar va hamkorliklar haqida rasmiy yangilanishlar. Kompaniya yutuqlari, soha e'tirofi va dasturlarni joyida olib borishimizga ta'sir qiladigan tarmoq yangiliklari."
+  - blockType: regular
+    eyebrow:
+      en: What we publish
+      ru: Что публикуем
+      uz: Nima e'lon qilamiz
+    title:
+      en: Updates that matter for partners
+      ru: Обновления, важные для партнёров
+      uz: Hamkorlar uchun muhim yangilanishlar
+    description:
+      en: News items cover structural changes, awards, and partnerships — the kind of context agencies need when planning seasons ahead.
+      ru: "Новости охватывают структурные изменения, награды и партнёрства — контекст, который нужен агентствам при планировании сезонов."
+      uz: Yangiliklar tuzilma o'zgarishlari, mukofotlar va hamkorliklarni qamrab oladi — mavsumlarni rejalashtirganda agentliklarga kerak bo'lgan kontekst.
+    gridClassName: md:grid-cols-3
+    cards:
+      - type: destinationInsight
+        icon: building-2
+        title:
+          en: Company
+          ru: Компания
+          uz: Kompaniya
+        description:
+          en: Office expansion, team capacity, and coordination upgrades in Tashkent.
+          ru: Расширение офиса, мощность команды и улучшения координации в Ташкенте.
+          uz: Ofis kengayishi, jamoa quvvati va Toshkentdagi muvofiqlashtirish yangilanishlari.
+      - type: destinationInsight
+        icon: handshake
+        title:
+          en: Partnerships
+          ru: Партнёрства
+          uz: Hamkorliklar
+        description:
+          en: Hotel networks, DMC alliances, and regional suppliers that strengthen program delivery.
+          ru: Сети отелей, альянсы DMC и региональные поставщики, усиливающие исполнение программ.
+          uz: Dastur yetkazib berishni kuchaytiradigan mehmonxona tarmoqlari, DMC ittifoqlari va mintaqaviy ta'minotchilar.
+      - type: destinationInsight
+        icon: award
+        title:
+          en: Industry
+          ru: Отрасль
+          uz: Soha
+        description:
+          en: Awards, fair participation, and recognition for route design and agency-ready documentation.
+          ru: Награды, участие в выставках и признание за дизайн маршрутов и документацию для агентств.
+          uz: Mukofotlar, ko'rgazmalarda ishtirok va marshrut dizayni hamda agentlik hujjatlari uchun e'tirof.
+  - blockType: regular
+    eyebrow:
+      en: Company
+      ru: Компания
+      uz: Kompaniya
+    title:
+      en: All news
+      ru: Все новости
+      uz: Barcha yangiliklar
+    description:
+      en: Updates and announcements from Tourfirm DMC.
+      ru: Обновления и объявления от Tourfirm DMC.
+      uz: Tourfirm DMC dan yangilanishlar va e'lonlar.
+    gridClassName: "md:grid-cols-2 lg:grid-cols-3"
+    cardsSource:
+      type: collection
+      collection: news
+      emptyLabel:
+        en: No news published yet.
+        ru: Опубликованных новостей пока нет.
+        uz: Hali e'lon qilingan yangiliklar yo'q.

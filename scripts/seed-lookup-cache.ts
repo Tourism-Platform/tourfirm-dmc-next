@@ -17,6 +17,9 @@ export class SeedLookupCache {
 	readonly themes = new Map<string, number>();
 	readonly routes = new Map<string, number>();
 	readonly experiences = new Map<string, number>();
+	readonly tradeFairs = new Map<string, number>();
+	readonly blog = new Map<string, number>();
+	readonly news = new Map<string, number>();
 
 	async ingestCountries(payload: Payload): Promise<void> {
 		const result = await payload.find({
@@ -132,6 +135,41 @@ export class SeedLookupCache {
 
 	registerExperience(slug: string, id: number): void {
 		this.experiences.set(slug, id);
+	}
+
+	registerTradeFair(slug: string, id: number): void {
+		this.tradeFairs.set(slug, id);
+	}
+
+	registerBlog(slug: string, id: number): void {
+		this.blog.set(slug, id);
+	}
+
+	registerNews(slug: string, id: number): void {
+		this.news.set(slug, id);
+	}
+
+	getDiscoveryDocId(collection: string, slug: string): number {
+		const maps: Record<string, Map<string, number>> = {
+			routes: this.routes,
+			experiences: this.experiences,
+			"trade-fairs": this.tradeFairs,
+			blog: this.blog,
+			news: this.news
+		};
+		const map = maps[collection];
+
+		if (!map) {
+			throw new Error(`Unsupported discovery collection: ${collection}`);
+		}
+
+		const id = map.get(slug);
+
+		if (id === undefined) {
+			throw new Error(`${collection} not found in lookup cache: ${slug}`);
+		}
+
+		return id;
 	}
 
 	async ingestThemes(payload: Payload): Promise<void> {

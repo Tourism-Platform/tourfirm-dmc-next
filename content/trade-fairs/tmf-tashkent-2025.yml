@@ -1,0 +1,151 @@
+slug:
+  en: tmf-tashkent-2025
+  ru: tmf-tashkent-2025
+  uz: tmf-tashkent-2025
+title:
+  en: Tashkent Tourism Fair 2025
+  ru: Ташкентская туристическая ярмарка 2025
+  uz: Toshkent turizm yarmarkasi 2025
+excerpt:
+  en: Home-market tourism fair in Tashkent — TourLink presents regional routes, agency-ready programs, and on-the-ground coordination capacity. Domestic operators and inbound partners meet the team at stand CA-08.
+  ru: Туристическая ярмарка на домашнем рынке в Ташкенте — TourLink представляет региональные маршруты, программы для агентств и координацию на месте. Локальные операторы и inbound-партнёры встречают команду на стенде CA-08.
+  uz: Toshkentdagi mahalliy turizm yarmarkasi — TourLink mintaqaviy marshrutlar, agentliklar uchun dasturlar va joyidagi muvofiqlashtirishni taqdim etadi. Mahalliy operatorlar va inbound hamkorlar CA-08 stendida jamoa bilan uchrashadi.
+heroImage: assets/images/destinations/uzbekistan.jpg
+stand:
+  en: Stand CA-08, Pavilion A
+  ru: Стенд CA-08, павильон A
+  uz: Stend CA-08, A pavilyoni
+participants:
+  en: "Participants: Eldor Keldibekov (routes), Komila Kholmatova (operations), Muhammad Amin Begmatov (partners)"
+  ru: "Участники: Eldor Keldibekov (маршруты), Komila Kholmatova (операции), Muhammad Amin Begmatov (партнёры)"
+  uz: "Ishtirokchilar: Eldor Keldibekov (marshrutlar), Komila Kholmatova (operatsiyalar), Muhammad Amin Begmatov (hamkorlar)"
+countryName:
+  en: Uzbekistan
+  ru: Узбекистан
+  uz: O'zbekiston
+cityName:
+  en: Tashkent
+  ru: Ташкент
+  uz: Toshkent
+cityRef:
+  country: uzbekistan
+  region: tashkent-region
+  city: tashkent
+website: https://uzbektourism.uz
+startDate: "2025-09-12"
+endDate: "2025-09-14"
+featured: true
+sortOrder: 3
+blocks:
+  - blockType: hero
+    image: assets/images/destinations/uzbekistan.jpg
+    imageAlt:
+      en: Tashkent tourism fair
+      ru: Ташкентская туристическая ярмарка
+      uz: Toshkent turizm yarmarkasi
+    title:
+      en: Regional programs at home
+      ru: Региональные программы дома
+      uz: Uyda mintaqaviy dasturlar
+    description:
+      en: "12–14 September 2025, Tashkent. Stand CA-08 — Silk Road routes, Chimgan and Charvak add-ons, Samarkand wine tastings, and B2B desk for agencies planning 2026 seasons. Walk-ins welcome; priority slots for confirmed partners."
+      ru: "12–14 сентября 2025, Ташкент. Стенд CA-08 — маршруты Шёлкового пути, дополнения Чимган и Чарвак, дегустации в Самарканде и B2B-стол для агентств, планирующих сезон 2026. Без записи тоже можно; приоритет — подтверждённым партнёрам."
+      uz: "2025-yil 12–14-sentabr, Toshkent. CA-08 stend — Ipak yo'li marshrutlari, Chimgan va Charvak qo'shimchalari, Samarqand vino dasturxoni va 2026 mavsumini rejalashtirayotgan agentliklar uchun B2B stoli. Yozilib kelmasdan ham mumkin; ustuvorlik tasdiqlangan hamkorlarga."
+  - blockType: regular
+    eyebrow:
+      en: Home market
+      ru: Домашний рынок
+      uz: Mahalliy bozor
+    title:
+      en: What we coordinate from Tashkent
+      ru: Что координируем из Ташкента
+      uz: Toshkentdan nima muvofiqlashtiramiz
+    description:
+      en: "Fair conversations here turn into the same programs we run year-round — guides, transport, hotels, and regional changes handled by one team."
+      ru: "Разговоры на ярмарке превращаются в те же программы, что мы ведём круглый год — гиды, транспорт, отели и изменения в регионе одной командой."
+      uz: "Yarmarkadagi suhbatlar yil bo'yi olib boradigan dasturlarga aylanadi — gidlar, transport, mehmonxonalar va mintaqadagi o'zgarishlar bitta jamoa tomonidan."
+    gridClassName: md:grid-cols-2
+    cards:
+      - type: destinationInsight
+        icon: map-pin
+        title:
+          en: Route desk
+          ru: Стол маршрутов
+          uz: Marshrut stoli
+        description:
+          en: Live maps for silk-road-classics, wine-route-samarkand, and mountain escapes with realistic day counts.
+          ru: Живые карты для silk-road-classics, wine-route-samarkand и горных выездов с реалистичным числом дней.
+          uz: silk-road-classics, wine-route-samarkand va tog' chiqishlari uchun realistik kunlar bilan jonli xaritalar.
+      - type: destinationInsight
+        icon: handshake
+        title:
+          en: Partner onboarding
+          ru: Онбординг партнёров
+          uz: Hamkorlarni jalb qilish
+        description:
+          en: Contracting, documentation standards, and emergency contact lines for agencies starting Uzbekistan product.
+          ru: Контрактование, стандарты документации и линии связи для агентств, запускающих продукт по Узбекистану.
+          uz: O'zbekiston mahsulotini boshlayotgan agentliklar uchun shartnomalar, hujjat standartlari va favqulodda aloqa liniyalari.
+  - blockType: faq
+    title:
+      en: Fair day tips
+      ru: Советы на день ярмарки
+      uz: Yarmarka kuni maslahatlari
+    items:
+      - question:
+          en: Is registration required?
+          ru: Нужна ли регистрация?
+          uz: Ro'yxatdan o'tish kerakmi?
+        answer:
+          en: Fair badge is required for pavilion entry. Contact us before 10 September if you need a partner invitation letter.
+          ru: Для входа в павильон нужен бейдж ярмарки. Напишите до 10 сентября, если нужно письмо-приглашение партнёра.
+          uz: Pavilyonga kirish uchun yarmarka bage kerak. Hamkor taklifnomasi kerak bo'lsa, 10-sentabrgacha yozing.
+      - question:
+          en: Can we inspect sample day plans on site?
+          ru: Можно ли посмотреть примеры программ на месте?
+          uz: Joyida namuna kunlik rejalarini ko'rish mumkinmi?
+        answer:
+          en: Yes — tablets at CA-08 run linked routes and experiences. We can export a PDF outline to your email the same day.
+          ru: Да — на планшетах CA-08 открыты связанные маршруты и впечатления. PDF-outline отправим на email в тот же день.
+          uz: Ha — CA-08 dagi planshetlarda bog'langan marshrutlar va taassurotlar ochiladi. PDF konturni o'sha kuni emailga yuboramiz.
+  - blockType: cta
+    image: assets/images/experiences/culture-1.jpg
+    imageAlt:
+      en: Cultural experience in Uzbekistan
+      ru: Культурное впечатление в Узбекистане
+      uz: O'zbekistonda madaniy taassurot
+    title:
+      en: Pair routes with experiences
+      ru: Сочетайте маршруты с впечатлениями
+      uz: Marshrutlarni taassurotlar bilan juftlang
+    description:
+      en: After the fair, explore experiences linked to the same cities you discussed at the stand.
+      ru: После ярмарки откройте впечатления в тех же городах, что обсуждали на стенде.
+      uz: Yarmarkadan keyin stendda muhokama qilgan shaharlardagi taassurotlarni ko'ring.
+    actions:
+      - type: link
+        variant: default
+        title:
+          en: Browse experiences
+          ru: Смотреть впечатления
+          uz: Taassurotlarni ko'rish
+        href: /experiences
+      - type: mailto
+        variant: outline
+        title:
+          en: Contact TourLink
+          ru: Связаться с TourLink
+          uz: TourLink bilan bog'lanish
+        email: info@tourlink.uz
+seo:
+  metaTitle:
+    en: Tashkent Tourism Fair 2025 | TourLink
+    ru: Ташкентская ярмарка 2025 | TourLink
+    uz: Toshkent yarmarkasi 2025 | TourLink
+  metaDescription:
+    en: TourLink at Tashkent Tourism Fair 2025 — stand CA-08. Regional routes and B2B coordination for agencies.
+    ru: TourLink на Ташкентской ярмарке 2025 — стенд CA-08. Региональные маршруты и B2B для агентств.
+    uz: Toshkent yarmarkasi 2025'da TourLink — CA-08 stend. Mintaqaviy marshrutlar va agentliklar uchun B2B.
+status:
+  showInSitemap: true
+  publishedAt: "2025-08-01"

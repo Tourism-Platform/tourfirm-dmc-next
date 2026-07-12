@@ -41,4 +41,5 @@ export type TBlockRenderProps = {
 	tileAttribution?: string;
 	stops?: TRouteMapStop[];
 	questions?: TFaqQuestionProps[];
+	emptyLabel?: string;
 };

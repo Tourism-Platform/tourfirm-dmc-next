@@ -49,6 +49,75 @@ blocks:
       en: "Guides decode the 1990s–2000s rebuilding story, compare Soviet and independent iconography, and route you to the best coffee stop before Chorsu."
       ru: "Гиды расшифровывают историю перестройки 1990–2000-х, сравнивают советскую и независимую символику и ведут к лучшей кофейне перед Чорсу."
       uz: "Gidlar 1990–2000-yillardagi qayta qurish hikoyasini ochadi, sovet va mustaqil ramzlarni solishtiradi va Chorsudan oldin eng yaxshi kofe nuqtasiga olib boradi."
+  - blockType: regular
+    eyebrow:
+      en: Explore
+      ru: Исследуйте
+      uz: Kashf eting
+    title:
+      en: Country
+      ru: Страна
+      uz: Davlat
+    cardsSource:
+      type: documentField
+      field: country
+  - blockType: regular
+    title:
+      en: City
+      ru: Город
+      uz: Shahar
+    cardsSource:
+      type: documentField
+      field: city
+  - blockType: regular
+    title:
+      en: Attraction
+      ru: Достопримечательность
+      uz: Diqqatga sazovor joy
+    cardsSource:
+      type: documentField
+      field: attraction
+  - blockType: regular
+    eyebrow:
+      en: Routes
+      ru: Маршруты
+      uz: Marshrutlar
+    title:
+      en: Routes that include this experience
+      ru: Маршруты с этим впечатлением
+      uz: Bu taassurotni o'z ichiga olgan marshrutlar
+    cardsSource:
+      type: documentField
+      field: relatedRoutes
+  - blockType: regular
+    eyebrow:
+      en: Similar
+      ru: Похожие
+      uz: O'xshash
+    title:
+      en: Similar experiences
+      ru: Похожие впечатления
+      uz: O'xshash taassurotlar
+    cardsSource:
+      type: collection
+      collection: similarExperiences
+  - blockType: cta
+    title:
+      en: Want this experience in your trip?
+      ru: Хотите включить это впечатление в поездку?
+      uz: Bu taassurotni sayohatingizga qo'shmoqchimisiz?
+    description:
+      en: We can weave this impression into a private program, group departure, or MICE itinerary.
+      ru: Мы вплетём это впечатление в частную программу, групповой выезд или MICE-маршрут.
+      uz: Bu taassurotni shaxsiy dastur, guruh jo'nashi yoki MICE marshrutiga qo'shamiz.
+    actions:
+      - type: link
+        variant: default
+        title:
+          en: Plan this trip
+          ru: Спланировать поездку
+          uz: Sayohatni rejalashtirish
+        href: /catalog?destination=Tashkent
 seo:
   metaTitle:
     en: Amir Timur square walk Tashkent | TourLink

@@ -427,56 +427,11 @@ blocks:
       uz: TourLink jamoasi operatorlar, sayohat kompaniyalari va hamkorlar bilan uchrashadigan ko'rgazmalar.
     cards:
       - type: tradeFair
-        title:
-          en: Uzbekistan stand
-          ru: Стенд Узбекистана
-          uz: O'zbekiston stendi
-        stand:
-          en: Stand UZ-12
-          ru: Стенд UZ-12
-          uz: Stend UZ-12
-        participants:
-          en: "Participants: Subin Kang, Eldor Keldibekov"
-          ru: "Участники: Subin Kang, Eldor Keldibekov"
-          uz: "Ishtirokchilar: Subin Kang, Eldor Keldibekov"
-        country:
-          en: Germany
-          ru: Германия
-          uz: Germaniya
+        relatedDocSlug: itb-berlin-2025
       - type: tradeFair
-        title:
-          en: Uzbektourism stand
-          ru: Стенд Узбектуризма
-          uz: O'zbekturizm stendi
-        stand:
-          en: Stand B-24
-          ru: Стенд B-24
-          uz: Stend B-24
-        participants:
-          en: "Participants: Subin Kang, Eldor Keldibekov"
-          ru: "Участники: Subin Kang, Eldor Keldibekov"
-          uz: "Ishtirokchilar: Subin Kang, Eldor Keldibekov"
-        country:
-          en: China
-          ru: Китай
-          uz: Xitoy
+        relatedDocSlug: wtm-london-2025
       - type: tradeFair
-        title:
-          en: Uzbekistan delegation
-          ru: Делегация Узбекистана
-          uz: O'zbekiston delegatsiyasi
-        stand:
-          en: Stand CA-08
-          ru: Стенд CA-08
-          uz: Stend CA-08
-        participants:
-          en: "Participants: Subin Kang, Eldor Keldibekov"
-          ru: "Участники: Subin Kang, Eldor Keldibekov"
-          uz: "Ishtirokchilar: Subin Kang, Eldor Keldibekov"
-        country:
-          en: South Korea
-          ru: Южная Корея
-          uz: Janubiy Koreya
+        relatedDocSlug: tmf-tashkent-2025
 
   - blockType: regular
     eyebrow:
@@ -492,36 +447,12 @@ blocks:
       ru: Практические заметки, контекст маршрута и наблюдения от команды TourLink.
       uz: TourLink jamoasidan amaliy qaydlar, marshrut konteksti va kuzatuvlar.
     cards:
-      - type: journal
-        image: assets/images/destinations/uzbekistan.jpg
-        meta:
-          en: Route note · 5 min
-          ru: Заметка с маршрута · 5 минут
-          uz: Marshrut qaydi · 5 daqiqa
-        title:
-          en: When the square grows quiet
-          ru: Когда площадь становится тихой
-          uz: Maydon qachon tinchlanadi
-      - type: journal
-        image: assets/images/destinations/kirgizstan.jpg
-        meta:
-          en: Crafts · 6 min
-          ru: Ремёсла · 6 минут
-          uz: Hunarmandchilik · 6 daqiqa
-        title:
-          en: A workshop with time for it
-          ru: Мастерская, где есть время
-          uz: Vaqt ajratilgan ustaxona
-      - type: journal
-        image: assets/images/hero-image.jpg
-        meta:
-          en: Route rhythm · 8 min
-          ru: Ритм маршрута · 8 минут
-          uz: Marshrut ritmi · 8 daqiqa
-        title:
-          en: A road day that cannot be rushed
-          ru: День дороги, который нельзя торопить
-          uz: Shoshilmaslik kerak bo'lgan yo'l kuni
+      - type: blog
+        relatedDocSlug: silk-road-notes
+      - type: blog
+        relatedDocSlug: crafts-bazaar
+      - type: blog
+        relatedDocSlug: route-note-chimgan
 
   - blockType: cta
     image: assets/images/samarkand.jpg

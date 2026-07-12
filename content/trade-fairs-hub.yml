@@ -1,0 +1,98 @@
+title:
+  en: Trade fairs
+  ru: Туристические выставки
+  uz: Turizm ko'rgazmalari
+subtitle:
+  en: Where TourLink meets operators, travel companies, and destination partners across the travel market.
+  ru: Где TourLink встречается с операторами, турагентствами и партнёрами по направлениям на туристическом рынке.
+  uz: TourLink operatorlar, sayohat kompaniyalari va yo'nalish hamkorlari bilan turizm bozorida uchrashadigan joylar.
+seo:
+  metaTitle:
+    en: Trade fairs & industry events | TourLink
+    ru: Туристические выставки и отраслевые события | TourLink
+    uz: Turizm ko'rgazmalari va soha tadbirlari | TourLink
+  metaDescription:
+    en: Upcoming trade fairs where TourLink represents Uzbekistan and Central Asia — stand numbers, participants, and B2B meeting topics.
+    ru: Предстоящие выставки, где TourLink представляет Узбекистан и Центральную Азию — номера стендов, участники и темы B2B-встреч.
+    uz: TourLink O'zbekiston va Markaziy Osiyoni taqdim etadigan yaqinlashib kelayotgan ko'rgazmalar — stend raqamlari, ishtirokchilar va B2B uchrashuv mavzulari.
+blocks:
+  - blockType: hero
+    image: assets/images/people.jpg
+    imageAlt:
+      en: TourLink team at a travel trade fair
+      ru: Команда TourLink на туристической выставке
+      uz: Turizm ko'rgazmasidagi TourLink jamoasi
+    title:
+      en: Where TourLink meets the travel market
+      ru: Где TourLink встречается с туристическим рынком
+      uz: TourLink turizm bozori bilan qayerda uchrashadi
+    description:
+      en: "Fairs where our team meets operators, agencies, and destination partners — with stand details, participants, and meeting topics for each event. Use this section to plan B2B conversations before you arrive on the show floor."
+      ru: "Выставки, где команда встречается с операторами, агентствами и партнёрами — со стендами, участниками и темами встреч по каждому событию. Используйте раздел, чтобы спланировать B2B-разговоры до выхода на площадку."
+      uz: "Jamoa operatorlar, agentliklar va hamkorlar bilan uchrashadigan ko'rgazmalar — har bir tadbir uchun stend, ishtirokchilar va uchrashuv mavzulari bilan. Ko'rgazma maydoniga chiqishdan oldin B2B suhbatlarni rejalashtirish uchun ushbu bo'limdan foydalaning."
+  - blockType: regular
+    eyebrow:
+      en: How to use this section
+      ru: Как пользоваться разделом
+      uz: Bu bo'limdan qanday foydalanish kerak
+    title:
+      en: From stand details to a real program
+      ru: От стенда к реальной программе
+      uz: Stenddan haqiqiy dasturgacha
+    description:
+      en: Open a fair page for stand number, dates, and who from TourLink will be on site. Then move into routes and catalog programs built around the same logic you discuss at the booth.
+      ru: Откройте страницу выставки — номер стенда, даты и кто из TourLink будет на площадке. Затем переходите к маршрутам и программам каталога, построенным по той же логике, что обсуждаете на стенде.
+      uz: Ko'rgazma sahifasini oching — stend raqami, sanalar va TourLinkdan kim joyida bo'ladi. Keyin stendda muhokama qilgan mantiq asosida marshrutlar va katalog dasturlariga o'ting.
+    gridClassName: md:grid-cols-3
+    cards:
+      - type: destinationInsight
+        icon: map-pin
+        title:
+          en: Stand & schedule
+          ru: Стенд и расписание
+          uz: Stend va jadval
+        description:
+          en: Each entry lists stand code, city, dates, and participants so you know who to ask for on the floor.
+          ru: У каждой записи — код стенда, город, даты и участники, чтобы знать, к кому обратиться на площадке.
+          uz: Har bir yozuvda stend kodi, shahar, sanalar va ishtirokchilar — maydonda kimga murojaat qilishni bilasiz.
+      - type: destinationInsight
+        icon: handshake
+        title:
+          en: B2B meetings
+          ru: B2B-встречи
+          uz: B2B uchrashuvlar
+        description:
+          en: Fair pages outline what we present — Silk Road routes, agency FIT, MICE blocks — so meetings start with context, not small talk.
+          ru: Страницы выставок описывают, что мы презентуем — маршруты Шёлкового пути, FIT для агентств, MICE — чтобы встречи начинались с контекста.
+          uz: Ko'rgazma sahifalari nima taqdim etishimizni — Ipak yo'li marshrutlari, agentlik FIT, MICE — aytadi, shunda uchrashuvlar kontekstdan boshlanadi.
+      - type: destinationInsight
+        icon: compass
+        title:
+          en: Into routes & catalog
+          ru: К маршрутам и каталогу
+          uz: Marshrutlar va katalogga
+        description:
+          en: After the fair conversation, use linked routes and commercial catalog queries to turn inspiration into a bookable itinerary.
+          ru: После разговора на выставке используйте связанные маршруты и каталог, чтобы превратить идею в бронируемую программу.
+          uz: Ko'rgazmadagi suhbatdan keyin bog'langan marshrutlar va katalogdan ilhomni bron qilinadigan dasturga aylantiring.
+  - blockType: regular
+    eyebrow:
+      en: Company
+      ru: Компания
+      uz: Kompaniya
+    title:
+      en: All trade fairs
+      ru: Все выставки
+      uz: Barcha yarmarkalar
+    description:
+      en: Industry events and exhibitions — browse the full list below.
+      ru: Отраслевые события и выставки — полный список ниже.
+      uz: Sanoat tadbirlari va ko'rgazmalar — to'liq ro'yxat pastda.
+    gridClassName: "md:grid-cols-2 lg:grid-cols-3"
+    cardsSource:
+      type: collection
+      collection: trade-fairs
+      emptyLabel:
+        en: No trade fairs published yet.
+        ru: Опубликованных выставок пока нет.
+        uz: Hali e'lon qilingan yarmarkalar yo'q.

@@ -188,10 +188,33 @@ importance: MUST_SEE
 3. regions (нужны country slug)
 4. cities (нужны country + region slug)
 5. attractions (нужны country + region + city slug)
-6. **refreshRouteMapStops** — резолвит `entitySlug` → ID для routeMap
-7. pages, homepage, destination global
+6. experiences, routes, map-points
+7. routes-hub, experiences-hub
+8. **trade-fairs** (`content/trade-fairs/*.yml`) → **trade-fairs-hub**
+9. **blog** (`content/blog/*.yml`) → **blog-hub**
+10. **news** (`content/news/*.yml`) → **news-hub**
+11. **refreshRouteMapStops** — резолвит `entitySlug` → ID для routeMap
+12. destination global, **homepage** (карточки с `relatedDocSlug`), pages, navigation
 
 При первичном создании geo-документов routeMap stops **откладываются** (`deferRouteMapStops: true`) и заполняются на втором проходе.
+
+### Discovery domains (Trade Fairs / Blog / News)
+
+**Hub globals:** `content/trade-fairs-hub.yml`, `content/blog-hub.yml`, `content/news-hub.yml` — по образцу `routes-hub.yml` (title, subtitle, seo, blocks).
+
+**Entries:** минимум 3 YAML на домен в `content/trade-fairs/`, `content/blog/`, `content/news/`.
+
+**Homepage cards через `relatedDoc`:**
+
+```yaml
+cards:
+  - type: tradeFair
+    relatedDocSlug: itb-berlin-2025
+  - type: blog
+    relatedDocSlug: silk-road-notes
+```
+
+Seed резолвит `relatedDocSlug` → polymorphic `relatedDoc` после того, как entries созданы (поэтому homepage seed идёт **после** discovery collections).
 
 ---
 

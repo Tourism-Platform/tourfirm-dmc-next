@@ -57,6 +57,71 @@ blocks:
       en: "Khiva rewards slow travelers. Mornings inside the walls, afternoons for fortress context, one or two nights outside the city for stars and silence — the desert is not filler, it is the point."
       ru: "Хива любит неспешных. Утро внутри стен, день — для контекста крепости, одна–две ночи за городом ради звёзд и тишины — пустыня не заполнитель, а смысл."
       uz: "Xiva sekin sayohatchilarni mukofotlaydi. Ertalab devor ichida, tushdan keyin qal'a konteksti, shahar tashqarisida bir–ikki tun yulduzlar va sukunat uchun — cho'l to'ldiruvchi emas, ma'no."
+  - blockType: routeMap
+    eyebrow:
+      en: Route map
+      ru: Карта маршрута
+      uz: Marshrut xaritasi
+    title:
+      en: Follow the journey
+      ru: Следуйте за маршрутом
+      uz: Sayohatni kuzating
+    description:
+      en: Interactive map with the ordered stops of this route.
+      ru: Интерактивная карта с упорядоченными остановками маршрута.
+      uz: Marshrutning tartiblangan to'xtashlari bilan interaktiv xarita.
+  - blockType: regular
+    eyebrow:
+      en: Explore
+      ru: Исследуйте
+      uz: Kashf eting
+    title:
+      en: Countries
+      ru: Страны
+      uz: Davlatlar
+    cardsSource:
+      type: documentField
+      field: countries
+  - blockType: regular
+    title:
+      en: Cities
+      ru: Города
+      uz: Shaharlar
+    cardsSource:
+      type: documentField
+      field: cities
+  - blockType: regular
+    title:
+      en: Attractions
+      ru: Достопримечательности
+      uz: Diqqatga sazovor joylar
+    cardsSource:
+      type: documentField
+      field: attractions
+  - blockType: regular
+    eyebrow:
+      en: Experiences
+      ru: Впечатления
+      uz: Taassurotlar
+    title:
+      en: Experiences along this route
+      ru: Впечатления на этом маршруте
+      uz: Bu marshrut bo'ylab taassurotlar
+    cardsSource:
+      type: documentField
+      field: experiences
+  - blockType: regular
+    eyebrow:
+      en: More inspiration
+      ru: Больше вдохновения
+      uz: Ko'proq ilhom
+    title:
+      en: Related routes
+      ru: Связанные маршруты
+      uz: Bog'langan marshrutlar
+    cardsSource:
+      type: documentField
+      field: relatedRoutes
   - blockType: faq
     title:
       en: Desert camp practicalities
@@ -71,6 +136,23 @@ blocks:
           en: "Seasonal camps offer proper beds, showers, and dinner — not bare survival. We match camp level to group expectations."
           ru: "Сезонные лагеря дают нормальные кровати, душ и ужин — не выживание. Уровень лагеря подбираем под ожидания группы."
           uz: "Mavsumiy lagerlar to'g'ri yotoq, dush va kechki ovqat beradi — qattiq yashash emas. Lager darajasini guruh kutishlariga moslaymiz."
+  - blockType: cta
+    title:
+      en: Ready to plan this route?
+      ru: Готовы спланировать этот маршрут?
+      uz: Bu marshrutni rejalashtirishga tayyormisiz?
+    description:
+      en: Tell us your dates, group size, and pace — we will shape a commercial program around this inspiration.
+      ru: Укажите даты, размер группы и темп — мы соберём коммерческую программу по этому вдохновению.
+      uz: Sanalar, guruh hajmi va ritmingizni ayting — ilhom asosida tijorat dasturini tuzamiz.
+    actions:
+      - type: link
+        variant: default
+        title:
+          en: Browse matching tours
+          ru: Смотреть подходящие туры
+          uz: Mos turlarni ko'rish
+        href: /catalog?destination=Khiva&themes=desert
 seo:
   metaTitle:
     en: Desert oasis journey Khiva | TourLink

@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import type { TypedLocale } from "payload";
 
 import { ENUM_PATH } from "@/shared/config";
 import { createPageMetadata } from "@/shared/lib/seo";
@@ -8,7 +9,7 @@ import { CatalogPage } from "@/page/catalog";
 export const dynamic = "force-static";
 
 type TProps = {
-	params: Promise<{ locale: string }>;
+	params: Promise<{ locale: TypedLocale }>;
 };
 
 export async function generateMetadata({ params }: TProps) {
@@ -27,5 +28,5 @@ export default async function CatalogRoute({ params }: TProps) {
 	const { locale } = await params;
 	setRequestLocale(locale);
 
-	return <CatalogPage />;
+	return <CatalogPage locale={locale} />;
 }

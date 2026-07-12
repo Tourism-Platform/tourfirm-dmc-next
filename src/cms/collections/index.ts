@@ -5,12 +5,13 @@ import { groupCollections } from "../admin/group-collections";
 
 import { Attractions } from "./attractions";
 import { Badges } from "./badges";
+import { Blog } from "./blog";
 import { Cities } from "./cities";
 import { Countries } from "./countries";
 import { Experiences } from "./experiences";
-import { JournalEntries } from "./journal-entries";
 import { MapPoints } from "./map-points";
 import { Media } from "./media";
+import { News } from "./news";
 import { Pages } from "./pages";
 import { Regions } from "./regions";
 import { Routes } from "./routes";
@@ -27,11 +28,12 @@ const rawCollections: CollectionConfig[] = [
 	Routes,
 	MapPoints,
 	Experiences,
+	TradeFairs,
+	Blog,
+	News,
 	Pages,
 	Segments,
-	JournalEntries,
 	Themes,
-	TradeFairs,
 	Badges,
 	Media,
 	Users

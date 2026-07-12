@@ -9,4 +9,5 @@ export type TCardsSectionProps = {
 	cards: TCardRenderProps[];
 	gridClassName?: string;
 	actions?: ReactNode;
+	emptyLabel?: string;
 };

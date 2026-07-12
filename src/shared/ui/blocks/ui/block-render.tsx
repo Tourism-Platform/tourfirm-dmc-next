@@ -108,6 +108,7 @@ export function BlockRender({
 			title={section.title!}
 			description={section.description}
 			gridClassName={section.gridClassName}
+			emptyLabel={section.emptyLabel}
 			actions={section.actions?.map((action, actionIndex) => (
 				<ButtonRender
 					key={actionIndex}

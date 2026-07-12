@@ -36,3 +36,41 @@ export function buildThemeDetailBreadcrumbs(
 		{ label: title, href: ENUM_PATH.DISCOVERY.themeDetail(slug) }
 	]);
 }
+
+export function buildTradeFairDetailBreadcrumbs(
+	title: string,
+	slug: string
+): TBreadcrumbItem[] {
+	return buildDiscoveryBreadcrumbs([
+		{ label: "Company", href: ENUM_PATH.COMPANY.ABOUT },
+		{
+			label: "Trade fairs",
+			href: ENUM_PATH.COMPANY.TRADE_FAIRS
+		},
+		{
+			label: title,
+			href: ENUM_PATH.COMPANY.tradeFairDetail(slug)
+		}
+	]);
+}
+
+export function buildBlogDetailBreadcrumbs(
+	title: string,
+	slug: string
+): TBreadcrumbItem[] {
+	return buildDiscoveryBreadcrumbs([
+		{ label: "Blog", href: ENUM_PATH.DISCOVERY.BLOG },
+		{ label: title, href: ENUM_PATH.DISCOVERY.blogDetail(slug) }
+	]);
+}
+
+export function buildNewsDetailBreadcrumbs(
+	title: string,
+	slug: string
+): TBreadcrumbItem[] {
+	return buildDiscoveryBreadcrumbs([
+		{ label: "Company", href: ENUM_PATH.COMPANY.ABOUT },
+		{ label: "News", href: ENUM_PATH.COMPANY.NEWS },
+		{ label: title, href: ENUM_PATH.COMPANY.newsDetail(slug) }
+	]);
+}

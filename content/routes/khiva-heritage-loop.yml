@@ -57,6 +57,88 @@ blocks:
       en: "Khiva is compact enough to learn by repetition — the same alley at different hours tells different stories. This loop structures those returns."
       ru: "Хива достаточно компактна, чтобы учиться повторением — один переулок в разные часы рассказывает разные истории. Этот круг структурирует такие возвращения."
       uz: "Xiva takrorlash orqali o'rganish uchun yetarlicha ixcham — bir xil tor ko'cha turli soatlarda turli hikoyalar aytadi. Bu halqa shu qaytishlarni tuzadi."
+  - blockType: routeMap
+    eyebrow:
+      en: Route map
+      ru: Карта маршрута
+      uz: Marshrut xaritasi
+    title:
+      en: Follow the journey
+      ru: Следуйте за маршрутом
+      uz: Sayohatni kuzating
+    description:
+      en: Interactive map with the ordered stops of this route.
+      ru: Интерактивная карта с упорядоченными остановками маршрута.
+      uz: Marshrutning tartiblangan to'xtashlari bilan interaktiv xarita.
+  - blockType: regular
+    eyebrow:
+      en: Explore
+      ru: Исследуйте
+      uz: Kashf eting
+    title:
+      en: Countries
+      ru: Страны
+      uz: Davlatlar
+    cardsSource:
+      type: documentField
+      field: countries
+  - blockType: regular
+    title:
+      en: Cities
+      ru: Города
+      uz: Shaharlar
+    cardsSource:
+      type: documentField
+      field: cities
+  - blockType: regular
+    title:
+      en: Attractions
+      ru: Достопримечательности
+      uz: Diqqatga sazovor joylar
+    cardsSource:
+      type: documentField
+      field: attractions
+  - blockType: regular
+    eyebrow:
+      en: Experiences
+      ru: Впечатления
+      uz: Taassurotlar
+    title:
+      en: Experiences along this route
+      ru: Впечатления на этом маршруте
+      uz: Bu marshrut bo'ylab taassurotlar
+    cardsSource:
+      type: documentField
+      field: experiences
+  - blockType: regular
+    eyebrow:
+      en: More inspiration
+      ru: Больше вдохновения
+      uz: Ko'proq ilhom
+    title:
+      en: Related routes
+      ru: Связанные маршруты
+      uz: Bog'langan marshrutlar
+    cardsSource:
+      type: documentField
+      field: relatedRoutes
+  - blockType: cta
+    title:
+      en: Ready to plan this route?
+      ru: Готовы спланировать этот маршрут?
+      uz: Bu marshrutni rejalashtirishga tayyormisiz?
+    description:
+      en: Tell us your dates, group size, and pace — we will shape a commercial program around this inspiration.
+      ru: Укажите даты, размер группы и темп — мы соберём коммерческую программу по этому вдохновению.
+      uz: Sanalar, guruh hajmi va ritmingizni ayting — ilhom asosida tijorat dasturini tuzamiz.
+    actions:
+      - type: link
+        variant: default
+        title:
+          en: Browse matching tours
+          ru: Смотреть подходящие туры
+          uz: Mos turlarni ko'rish
+        href: /catalog?destination=Khiva
 seo:
   metaTitle:
     en: Khiva heritage loop | TourLink

@@ -1,0 +1,147 @@
+slug:
+  en: itb-berlin-2025
+  ru: itb-berlin-2025
+  uz: itb-berlin-2025
+title:
+  en: ITB Berlin 2025
+  ru: ITB Berlin 2025
+  uz: ITB Berlin 2025
+excerpt:
+  en: Uzbekistan stand at Europe's leading travel trade show — three days of DMC partner meetings, tour operator briefings, and Silk Road product updates. Meet the TourLink team at stand UZ-12 in Hall 4.1.
+  ru: Стенд Узбекистана на ведущей европейской туристической выставке — три дня встреч с DMC-партнёрами, брифингов для туроператоров и обновлений продуктов Шёлкового пути. Встречайте команду TourLink на стенде UZ-12 в зале 4.1.
+  uz: Yevropaning yetakchi turizm ko'rgazmasida O'zbekiston stendi — uch kun DMC hamkorlari uchrashuvlari, turoperator brifinglari va Ipak yo'li mahsulot yangilanishlari. 4.1 zalida UZ-12 stendida TourLink jamoasi bilan uchrashing.
+heroImage: assets/images/people.jpg
+stand:
+  en: Stand UZ-12, Hall 4.1
+  ru: Стенд UZ-12, зал 4.1
+  uz: Stend UZ-12, 4.1 zal
+participants:
+  en: "Participants: Subin Kang (B2B), Eldor Keldibekov (routes), Madina Irgasheva (programs)"
+  ru: "Участники: Subin Kang (B2B), Eldor Keldibekov (маршруты), Madina Irgasheva (программы)"
+  uz: "Ishtirokchilar: Subin Kang (B2B), Eldor Keldibekov (marshrutlar), Madina Irgasheva (dasturlar)"
+countryName:
+  en: Germany
+  ru: Германия
+  uz: Germaniya
+cityName:
+  en: Berlin
+  ru: Берлин
+  uz: Berlin
+website: https://www.itb.com
+startDate: "2025-03-04"
+endDate: "2025-03-06"
+featured: true
+sortOrder: 1
+blocks:
+  - blockType: hero
+    image: assets/images/people.jpg
+    imageAlt:
+      en: ITB Berlin trade fair
+      ru: Туристическая выставка ITB Berlin
+      uz: ITB Berlin turizm ko'rgazmasi
+    title:
+      en: Uzbekistan stand at ITB Berlin
+      ru: Стенд Узбекистана на ITB Berlin
+      uz: ITB Berlin'da O'zbekiston stendi
+    description:
+      en: "4–6 March 2025, Messe Berlin. TourLink at stand UZ-12 presents agency-ready Silk Road programs, FIT blocks, and updated route maps for Uzbekistan and wider Central Asia. Book a slot for route planning or B2B contracting."
+      ru: "4–6 марта 2025, Messe Berlin. TourLink на стенде UZ-12 представляет готовые для агентств программы Шёлкового пути, FIT-блоки и обновлённые карты маршрутов по Узбекистану и Центральной Азии. Забронируйте слот для планирования маршрута или B2B-контракта."
+      uz: "2025-yil 4–6-mart, Messe Berlin. TourLink UZ-12 stendida agentliklar uchun Ipak yo'li dasturlari, FIT bloklari va O'zbekiston hamda kengroq Markaziy Osiyo marshrut xaritalarini taqdim etadi. Marshrut rejalashtirish yoki B2B shartnoma uchun vaqt band qiling."
+  - blockType: regular
+    eyebrow:
+      en: On the stand
+      ru: На стенде
+      uz: Stendda
+    title:
+      en: What we show at UZ-12
+      ru: Что показываем на UZ-12
+      uz: UZ-12 da nima ko'rsatamiz
+    description:
+      en: "Bring group size, preferred season, and hotel tier — we walk through sample day-by-day logic, not generic brochures."
+      ru: "Приходите с размером группы, сезоном и уровнем отелей — разберём логику программы по дням, а не общие брошюры."
+      uz: "Guruh hajmi, mavsum va mehmonxona darajasi bilan keling — umumiy broshyuralar emas, kunlik dastur mantiqini ko'rib chiqamiz."
+    gridClassName: md:grid-cols-2
+    cards:
+      - type: destinationInsight
+        icon: map
+        title:
+          en: Route wall
+          ru: Стена маршрутов
+          uz: Marshrut devori
+        description:
+          en: Silk Road classics, desert arcs, and wine-country loops with map timelines and linked experiences.
+          ru: Классика Шёлкового пути, пустынные дуги и винные петли с картами, таймлайнами и связанными впечатлениями.
+          uz: Ipak yo'li klassikasi, cho'l yoylari va vino yo'llari — xaritalar, vaqt chizig'i va bog'langan taassurotlar bilan.
+      - type: destinationInsight
+        icon: handshake
+        title:
+          en: Agency desk
+          ru: Стол агентств
+          uz: Agentlik stoli
+        description:
+          en: FIT quotes, series departures, and white-label documentation for European tour operators.
+          ru: FIT-расчёты, серии выездов и white-label документация для европейских туроператоров.
+          uz: Yevropa turoperatorlari uchun FIT narxlari, seriya jo'nashlari va white-label hujjatlar.
+  - blockType: faq
+    title:
+      en: Before you visit
+      ru: Перед визитом
+      uz: Tashrifdan oldin
+    items:
+      - question:
+          en: How do I book a meeting at the stand?
+          ru: Как записаться на встречу на стенде?
+          uz: Stendda uchrashuvni qanday band qilish mumkin?
+        answer:
+          en: Email info@tourlink.uz with ITB in the subject, your agency name, and two preferred time slots. We confirm within one business day.
+          ru: Напишите на info@tourlink.uz с темой ITB, названием агентства и двумя удобными слотами. Подтвердим в течение одного рабочего дня.
+          uz: ITB mavzusi, agentlik nomi va ikkita qulay vaqt bilan info@tourlink.uz ga yozing. Bir ish kuni ichida tasdiqlaymiz.
+      - question:
+          en: Do I need an ITB badge to meet the team?
+          ru: Нужен ли бейдж ITB для встречи с командой?
+          uz: Jamoa bilan uchrashish uchun ITB bage kerakmi?
+        answer:
+          en: Yes — fair access is required for Hall 4.1. If you are an invited partner, tell us in advance and we can arrange a guest pass where policy allows.
+          ru: Да — для зала 4.1 нужен доступ на выставку. Если вы приглашённый партнёр, сообщите заранее — где возможно, оформим гостевой пропуск.
+          uz: Ha — 4.1 zal uchun ko'rgazma kirishi kerak. Taklif etilgan hamkor bo'lsangiz, oldindan ayting — qoidalar ruxsat bersa, mehmon passini tashkil qilamiz.
+  - blockType: cta
+    image: assets/images/tours/silk-road.jpg
+    imageAlt:
+      en: Silk Road route map
+      ru: Карта маршрута Шёлкового пути
+      uz: Ipak yo'li marshrut xaritasi
+    title:
+      en: Continue with route inspiration
+      ru: Продолжите с маршрутами-вдохновением
+      uz: Marshrut ilhomi bilan davom eting
+    description:
+      en: After ITB, open our editorial routes to study maps and timelines before requesting a commercial program.
+      ru: После ITB откройте редакционные маршруты — изучите карты и таймлайны перед запросом коммерческой программы.
+      uz: ITB dan keyin tahririy marshrutlarni oching — tijorat dastur so'rashdan oldin xarita va vaqt chizig'ini o'rganing.
+    actions:
+      - type: link
+        variant: default
+        title:
+          en: Browse routes
+          ru: Смотреть маршруты
+          uz: Marshrutlarni ko'rish
+        href: /routes
+      - type: mailto
+        variant: outline
+        title:
+          en: Book ITB meeting
+          ru: Записаться на ITB
+          uz: ITB uchrashuvini band qilish
+        email: info@tourlink.uz
+seo:
+  metaTitle:
+    en: ITB Berlin 2025 | TourLink Trade Fairs
+    ru: ITB Berlin 2025 | TourLink
+    uz: ITB Berlin 2025 | TourLink
+  metaDescription:
+    en: TourLink at ITB Berlin 2025 — stand UZ-12, Hall 4.1. B2B meetings for Silk Road and Central Asia programs.
+    ru: TourLink на ITB Berlin 2025 — стенд UZ-12, зал 4.1. B2B-встречи по программам Шёлкового пути и Центральной Азии.
+    uz: ITB Berlin 2025'da TourLink — UZ-12 stend, 4.1 zal. Ipak yo'li va Markaziy Osiyo dasturlari uchun B2B uchrashuvlar.
+status:
+  showInSitemap: true
+  publishedAt: "2025-02-01"

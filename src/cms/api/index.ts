@@ -22,15 +22,27 @@ export {
 	findSimilarExperiences
 } from "./find-experiences";
 export { findThemeBySlug, findThemes, findFeaturedThemes } from "./find-themes";
+export { findTradeFairs, findFeaturedTradeFairs } from "./find-trade-fairs";
+export { findTradeFairBySlug } from "./find-trade-fair-by-slug";
+export { findBlogPosts, findFeaturedBlogPosts } from "./find-blog-posts";
+export { findBlogPostBySlug } from "./find-blog-post-by-slug";
+export { findNews, findFeaturedNews } from "./find-news";
+export { findNewsBySlug } from "./find-news-by-slug";
 export { getDestination } from "./get-destination";
 export { getExperiencesHub } from "./get-experiences-hub";
 export { getFooter } from "./get-footer";
 export { getHeader } from "./get-header";
 export { getHomepage } from "./get-homepage";
 export { getRoutesHub } from "./get-routes-hub";
+export { getTradeFairsHub } from "./get-trade-fairs-hub";
+export { getBlogHub } from "./get-blog-hub";
+export { getNewsHub } from "./get-news-hub";
 export type {
 	TDiscoveryListResult,
+	TBlogListFilters,
 	TExperienceListFilters,
+	TNewsListFilters,
 	TRouteListFilters,
-	TRouteScope
+	TRouteScope,
+	TTradeFairListFilters
 } from "./discovery-query.types";

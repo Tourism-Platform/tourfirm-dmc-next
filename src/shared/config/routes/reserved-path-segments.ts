@@ -9,7 +9,7 @@ export const CMS_COLLECTION_RESERVED_SEGMENTS = [
 	"routes",
 	"experiences",
 	"themes",
-	"journal",
+	"blog",
 	"trade-fairs"
 ] as const;
 

@@ -1,0 +1,98 @@
+title:
+  en: Journal
+  ru: Журнал
+  uz: Jurnal
+subtitle:
+  en: Practical notes, route context, and observations from the TourLink team.
+  ru: Практические заметки, контекст маршрута и наблюдения от команды TourLink.
+  uz: TourLink jamoasidan amaliy qaydlar, marshrut konteksti va kuzatuvlar.
+seo:
+  metaTitle:
+    en: Journal — route notes & travel context | TourLink
+    ru: Журнал — заметки с маршрута | TourLink
+    uz: Jurnal — marshrut qaydlari | TourLink
+  metaDescription:
+    en: Editorial notes from TourLink programs — timing, crafts, pacing, and how Central Asia feels on the road.
+    ru: Редакционные заметки с программ TourLink — время, ремёсла, темп и ощущение Центральной Азии в пути.
+    uz: TourLink dasturlaridan tahririy qaydlar — vaqt, hunarmandchilik, ritm va yo'lda Markaziy Osiyo qanday sezilishi.
+blocks:
+  - blockType: hero
+    image: assets/images/destinations/uzbekistan.jpg
+    imageAlt:
+      en: Central Asia travel journal
+      ru: Путевой журнал по Центральной Азии
+      uz: Markaziy Osiyo sayohat jurnali
+    title:
+      en: Notes from the route
+      ru: Заметки с маршрута
+      uz: Marshrutdan qaydlar
+    description:
+      en: "Editorial notes from real programs — when squares grow quiet, workshops need time, and road days cannot be rushed. Short reads linked to routes and experiences you can weave into the same journey."
+      ru: "Редакционные заметки с реальных программ — когда площади затихают, мастерским нужно время, а дни в дороге нельзя торопить. Короткие тексты, связанные с маршрутами и впечатлениями той же поездки."
+      uz: "Haqiqiy dasturlardan tahririy qaydlar — maydonlar tinchlaganda, ustaxonalarga vaqt kerak bo'lganda va yo'l kunlarini shoshiltirib bo'lmaydi. Xuddi shu sayohatdagi marshrutlar va taassurotlar bilan bog'langan qisqa matnlar."
+  - blockType: regular
+    eyebrow:
+      en: What you will find
+      ru: Что здесь есть
+      uz: Bu yerda nima bor
+    title:
+      en: Context before logistics
+      ru: Контекст до логистики
+      uz: Logistikadan oldin kontekst
+    description:
+      en: Journal posts are not tour descriptions. They explain rhythm, timing, and why a stop deserves more than a checkbox on an itinerary.
+      ru: Записи журнала — не описания туров. Они объясняют ритм, время и почему остановка заслуживает больше, чем галочка в программе.
+      uz: Jurnal yozuvlari — tur tavsifi emas. Ular ritm, vaqt va nima uchun to'xtash marshrutdagi belgidan ko'proq ekanini tushuntiradi.
+    gridClassName: md:grid-cols-3
+    cards:
+      - type: destinationInsight
+        icon: route
+        title:
+          en: Route notes
+          ru: Заметки с маршрута
+          uz: Marshrut qaydlari
+        description:
+          en: When to visit landmarks, how crowds change the feel of a square, and what to pair with a city day.
+          ru: Когда идти к памятникам, как толпа меняет ощущение площади и что сочетать с городским днём.
+          uz: Yodgorliklarga qachon borish, olomon maydon hissini qanday o'zgartirishi va shahar kuni bilan nima juftlash.
+      - type: destinationInsight
+        icon: hammer
+        title:
+          en: Crafts & encounters
+          ru: Ремёсла и встречи
+          uz: Hunarmandchilik va uchrashuvlar
+        description:
+          en: Why workshops need unhurried slots and how craft stops anchor a Silk Road itinerary beyond monuments.
+          ru: Почему мастерским нужны неторопливые слоты и как ремесленные остановки держат маршрут Шёлкового пути за пределами памятников.
+          uz: Nega ustaxonalarga shoshilmas vaqt kerak va hunarmandchilik to'xtashlari yodgorliklardan tashqari Ipak yo'li marshrutini qanday ushlab turadi.
+      - type: destinationInsight
+        icon: clock
+        title:
+          en: Road rhythm
+          ru: Ритм дороги
+          uz: Yo'l ritmi
+        description:
+          en: Mountain transfers, reservoir stops, and buffer time — notes on pacing days that cannot be rushed.
+          ru: Горные переезды, остановки у водохранилищ и запас времени — заметки о темпе дней, которые нельзя торопить.
+          uz: Tog' yo'llari, suv ombori to'xtashlari va zaxira vaqt — shoshiltirib bo'lmaydigan kunlar ritmi haqida qaydlar.
+  - blockType: regular
+    eyebrow:
+      en: Discovery
+      ru: Discovery
+      uz: Discovery
+    title:
+      en: All articles
+      ru: Все статьи
+      uz: Barcha maqolalar
+    description:
+      en: Stories, guides, and insights from our team.
+      ru: Истории, гиды и заметки от нашей команды.
+      uz: Jamoamizdan hikoyalar, qo'llanmalar va fikrlar.
+    gridClassName: "md:grid-cols-2 lg:grid-cols-3"
+    cardsSource:
+      type: collection
+      collection: blog
+      emptyLabel:
+        en: No blog posts published yet.
+        ru: Опубликованных статей пока нет.
+        uz: Hali e'lon qilingan maqolalar yo'q.

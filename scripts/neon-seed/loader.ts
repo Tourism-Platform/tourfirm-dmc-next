@@ -17,6 +17,12 @@ export type TNeonSeedStage =
 	| "mapPoints"
 	| "routesHub"
 	| "experiencesHub"
+	| "tradeFairs"
+	| "blog"
+	| "news"
+	| "tradeFairsHub"
+	| "blogHub"
+	| "newsHub"
 	| "refreshRouteMapCountries"
 	| "refreshRouteMapRegions"
 	| "refreshRouteMapCities";
@@ -51,6 +57,12 @@ const ALL_STAGES: TNeonSeedStage[] = [
 	"mapPoints",
 	"routesHub",
 	"experiencesHub",
+	"tradeFairs",
+	"blog",
+	"news",
+	"tradeFairsHub",
+	"blogHub",
+	"newsHub",
 	"refreshRouteMapCountries",
 	"refreshRouteMapRegions",
 	"refreshRouteMapCities"
@@ -341,6 +353,42 @@ async function loadMilestone2Items(startIndex: number): Promise<{
 		filePath: experiencesHubPath,
 		stageIndex: 0
 	});
+
+	for (const stage of ["tradeFairs", "blog", "news"] as const) {
+		const files = await listYamlFiles(stage === "tradeFairs" ? "trade-fairs" : stage);
+
+		for (const [stageIndex, filePath] of files.entries()) {
+			const raw = await readYamlFile<Record<string, unknown>>(filePath);
+			const slug = resolveSlugFromRaw(
+				raw,
+				path.basename(filePath).replace(/\.yml$/, "")
+			);
+
+			itemIndex += 1;
+			items.push({
+				itemIndex,
+				stage,
+				slug,
+				filePath,
+				stageIndex
+			});
+		}
+	}
+
+	for (const [hubStage, hubSlug, hubFile] of [
+		["tradeFairsHub", "trade-fairs-hub", "trade-fairs-hub.yml"],
+		["blogHub", "blog-hub", "blog-hub.yml"],
+		["newsHub", "news-hub", "news-hub.yml"]
+	] as const) {
+		itemIndex += 1;
+		items.push({
+			itemIndex,
+			stage: hubStage,
+			slug: hubSlug,
+			filePath: path.join(CONTENT_DIR, hubFile),
+			stageIndex: 0
+		});
+	}
 
 	const refreshStages = [
 		"refreshRouteMapCountries",

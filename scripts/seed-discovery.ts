@@ -46,7 +46,12 @@ type TSeedDiscoveryDeps = {
 	pickLocale: (value: unknown, locale: TLocale) => unknown;
 	updateGlobal: (
 		payload: Payload,
-		slug: "routes-hub" | "experiences-hub",
+		slug:
+			| "routes-hub"
+			| "experiences-hub"
+			| "trade-fairs-hub"
+			| "blog-hub"
+			| "news-hub",
 		raw: Record<string, unknown>,
 		mediaCache: TMediaCache
 	) => Promise<void>;
@@ -165,6 +170,9 @@ function sameIdList(left?: number[], right?: number[]): boolean {
 export function createDiscoverySeeder(deps: TSeedDiscoveryDeps) {
 	const routesDir = path.join(deps.contentDir, "routes");
 	const experiencesDir = path.join(deps.contentDir, "experiences");
+	const tradeFairsDir = path.join(deps.contentDir, "trade-fairs");
+	const blogDir = path.join(deps.contentDir, "blog");
+	const newsDir = path.join(deps.contentDir, "news");
 
 	async function listYamlFiles(dir: string): Promise<string[]> {
 		try {
@@ -641,6 +649,141 @@ export function createDiscoverySeeder(deps: TSeedDiscoveryDeps) {
 		return items.length;
 	}
 
+	async function resolveDiscoveryEntrySeedData(
+		payload: Payload,
+		lookup: SeedLookupCache,
+		data: Record<string, unknown>,
+		locale: TLocale,
+		badgeIds: Map<string, number>,
+		mediaCache: TMediaCache
+	): Promise<Record<string, unknown>> {
+		const result = { ...data };
+
+		if (result.cityRef && typeof result.cityRef === "object") {
+			result.cityRelation = resolveCityRef(
+				lookup,
+				result.cityRef as TCityRef
+			);
+			delete result.cityRef;
+		}
+
+		if (Array.isArray(result.relatedRoutes)) {
+			result.relatedRoutes = resolveEntitySlugList(
+				lookup.routes,
+				"relatedRoutes",
+				result.relatedRoutes
+			);
+		}
+
+		if (Array.isArray(result.relatedCountries)) {
+			result.relatedCountries = result.relatedCountries.map((slug) => {
+				if (typeof slug !== "string") {
+					throw new Error("relatedCountries slug must be a string");
+				}
+
+				return lookup.getCountryId(slug);
+			});
+		}
+
+		const withBadges = deps.resolveBadgeIds(result, badgeIds);
+
+		return deps.resolveSeedDocument(
+			payload,
+			mediaCache,
+			withBadges,
+			locale
+		);
+	}
+
+	async function seedCollectionFromDir(
+		payload: Payload,
+		lookup: SeedLookupCache,
+		badgeIds: Map<string, number>,
+		mediaCache: TMediaCache,
+		options: {
+			dir: string;
+			collection: "trade-fairs" | "blog" | "news";
+			label: string;
+			register: (slug: string, id: number) => void;
+		}
+	): Promise<number> {
+		const files = await listYamlFiles(options.dir);
+
+		console.log(`Seeding ${options.label} (${files.length})...`);
+
+		for (const file of files) {
+			const item = await deps.readYamlFile<Record<string, unknown>>(
+				path.join(options.dir, file)
+			);
+			const slug = resolveSeedSlug(item);
+
+			const result = await deps.seedLocalizedDoc(
+				payload,
+				options.collection,
+				item,
+				{
+					published: true,
+					beforeCreate: async (data, locale) =>
+						resolveDiscoveryEntrySeedData(
+							payload,
+							lookup,
+							data,
+							locale,
+							badgeIds,
+							mediaCache
+						)
+				}
+			);
+
+			options.register(slug, result.id as number);
+			console.log(`  + ${options.label} ${slug}`);
+		}
+
+		return files.length;
+	}
+
+	async function seedTradeFairs(
+		payload: Payload,
+		lookup: SeedLookupCache,
+		badgeIds: Map<string, number>,
+		mediaCache: TMediaCache
+	): Promise<number> {
+		return seedCollectionFromDir(payload, lookup, badgeIds, mediaCache, {
+			dir: tradeFairsDir,
+			collection: "trade-fairs",
+			label: "trade fairs",
+			register: (slug, id) => lookup.registerTradeFair(slug, id)
+		});
+	}
+
+	async function seedBlog(
+		payload: Payload,
+		lookup: SeedLookupCache,
+		badgeIds: Map<string, number>,
+		mediaCache: TMediaCache
+	): Promise<number> {
+		return seedCollectionFromDir(payload, lookup, badgeIds, mediaCache, {
+			dir: blogDir,
+			collection: "blog",
+			label: "blog",
+			register: (slug, id) => lookup.registerBlog(slug, id)
+		});
+	}
+
+	async function seedNews(
+		payload: Payload,
+		lookup: SeedLookupCache,
+		badgeIds: Map<string, number>,
+		mediaCache: TMediaCache
+	): Promise<number> {
+		return seedCollectionFromDir(payload, lookup, badgeIds, mediaCache, {
+			dir: newsDir,
+			collection: "news",
+			label: "news",
+			register: (slug, id) => lookup.registerNews(slug, id)
+		});
+	}
+
 	async function seedRoutesHub(
 		payload: Payload,
 		mediaCache: TMediaCache
@@ -661,6 +804,117 @@ export function createDiscoverySeeder(deps: TSeedDiscoveryDeps) {
 
 		console.log("Seeding experiences hub global...");
 		await deps.updateGlobal(payload, "experiences-hub", raw, mediaCache);
+	}
+
+	async function seedTradeFairsHub(
+		payload: Payload,
+		mediaCache: TMediaCache
+	): Promise<void> {
+		const filePath = path.join(deps.contentDir, "trade-fairs-hub.yml");
+		const raw = await deps.readYamlFile<Record<string, unknown>>(filePath);
+
+		console.log("Seeding trade fairs hub global...");
+		await deps.updateGlobal(payload, "trade-fairs-hub", raw, mediaCache);
+	}
+
+	async function seedBlogHub(
+		payload: Payload,
+		mediaCache: TMediaCache
+	): Promise<void> {
+		const filePath = path.join(deps.contentDir, "blog-hub.yml");
+		const raw = await deps.readYamlFile<Record<string, unknown>>(filePath);
+
+		console.log("Seeding blog hub global...");
+		await deps.updateGlobal(payload, "blog-hub", raw, mediaCache);
+	}
+
+	async function seedNewsHub(
+		payload: Payload,
+		mediaCache: TMediaCache
+	): Promise<void> {
+		const filePath = path.join(deps.contentDir, "news-hub.yml");
+		const raw = await deps.readYamlFile<Record<string, unknown>>(filePath);
+
+		console.log("Seeding news hub global...");
+		await deps.updateGlobal(payload, "news-hub", raw, mediaCache);
+	}
+
+	async function seedTradeFairFile(
+		payload: Payload,
+		lookup: SeedLookupCache,
+		badgeIds: Map<string, number>,
+		mediaCache: TMediaCache,
+		filePath: string
+	): Promise<void> {
+		const item = await deps.readYamlFile<Record<string, unknown>>(filePath);
+		const slug = resolveSeedSlug(item);
+
+		const result = await deps.seedLocalizedDoc(payload, "trade-fairs", item, {
+			published: true,
+			beforeCreate: async (data, locale) =>
+				resolveDiscoveryEntrySeedData(
+					payload,
+					lookup,
+					data,
+					locale,
+					badgeIds,
+					mediaCache
+				)
+		});
+
+		lookup.registerTradeFair(slug, result.id as number);
+	}
+
+	async function seedBlogFile(
+		payload: Payload,
+		lookup: SeedLookupCache,
+		badgeIds: Map<string, number>,
+		mediaCache: TMediaCache,
+		filePath: string
+	): Promise<void> {
+		const item = await deps.readYamlFile<Record<string, unknown>>(filePath);
+		const slug = resolveSeedSlug(item);
+
+		const result = await deps.seedLocalizedDoc(payload, "blog", item, {
+			published: true,
+			beforeCreate: async (data, locale) =>
+				resolveDiscoveryEntrySeedData(
+					payload,
+					lookup,
+					data,
+					locale,
+					badgeIds,
+					mediaCache
+				)
+		});
+
+		lookup.registerBlog(slug, result.id as number);
+	}
+
+	async function seedNewsFile(
+		payload: Payload,
+		lookup: SeedLookupCache,
+		badgeIds: Map<string, number>,
+		mediaCache: TMediaCache,
+		filePath: string
+	): Promise<void> {
+		const item = await deps.readYamlFile<Record<string, unknown>>(filePath);
+		const slug = resolveSeedSlug(item);
+
+		const result = await deps.seedLocalizedDoc(payload, "news", item, {
+			published: true,
+			beforeCreate: async (data, locale) =>
+				resolveDiscoveryEntrySeedData(
+					payload,
+					lookup,
+					data,
+					locale,
+					badgeIds,
+					mediaCache
+				)
+		});
+
+		lookup.registerNews(slug, result.id as number);
 	}
 
 	async function seedExperienceFile(
@@ -852,11 +1106,20 @@ export function createDiscoverySeeder(deps: TSeedDiscoveryDeps) {
 	return {
 		seedExperiences,
 		seedRoutes,
+		seedTradeFairs,
+		seedBlog,
+		seedNews,
 		seedMapPoints,
 		seedRoutesHub,
 		seedExperiencesHub,
+		seedTradeFairsHub,
+		seedBlogHub,
+		seedNewsHub,
 		seedExperienceFile,
 		seedRouteFile,
+		seedTradeFairFile,
+		seedBlogFile,
+		seedNewsFile,
 		patchExperienceFile,
 		patchRouteFile,
 		seedMapPointEntry

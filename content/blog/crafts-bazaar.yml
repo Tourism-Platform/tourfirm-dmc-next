@@ -1,0 +1,124 @@
+slug:
+  en: crafts-bazaar
+  ru: crafts-bazaar
+  uz: crafts-bazaar
+title:
+  en: A workshop with time for it
+  ru: Мастерская, где есть время
+  uz: Vaqt ajratilgan ustaxona
+subtitle:
+  en: Why craft stops need calendar space on a Bukhara arc
+  ru: Почему ремесленным остановкам нужно место в календаре на дуге Бухары
+  uz: Nega hunarmandchilik to'xtashlari Buxoro yoyida taqvimga joy kerak
+excerpt:
+  en: Hands need time, questions need space — a good craft stop is scheduled like a meal, not squeezed between monuments. This note explains how we block half-day workshop slots on bukhara-craft-trail and silk-road-classics without breaking transfer math.
+  ru: Рукам нужно время, вопросам — пространство — хорошая ремесленная остановка планируется как обед, а не впихивается между памятниками. Заметка о том, как мы выделяем полудневные мастерские на bukhara-craft-trail и silk-road-classics без нарушения переездов.
+  uz: Qo'llarga vaqt, savollarga joy kerak — yaxshi hunarmandchilik to'xtashi yodgorliklar orasiga siqilmay, tushlik kabi rejalashtiriladi. bukhara-craft-trail va silk-road-classics da yarim kunlik ustaxona slotlarini transfer hisobini buzmasdan qanday ajratishimiz haqida qayd.
+coverImage: assets/images/experiences/craft.jpg
+cardMeta:
+  en: Crafts · 6 min
+  ru: Ремёсла · 6 минут
+  uz: Hunarmandchilik · 6 daqiqa
+publishDate: "2025-07-02"
+featured: true
+sortOrder: 2
+tags:
+  - tag: crafts
+  - tag: bukhara
+  - tag: silk-road
+relatedRoutes:
+  - bukhara-craft-trail
+  - silk-road-classics
+relatedCountries:
+  - uzbekistan
+blocks:
+  - blockType: hero
+    image: assets/images/experiences/craft.jpg
+    imageAlt:
+      en: Craft workshop in Bukhara
+      ru: Ремесленная мастерская в Бухаре
+      uz: Buxorodagi hunarmandchilik ustaxonasi
+    title:
+      en: A workshop with time for it
+      ru: Мастерская, где есть время
+      uz: Vaqt ajratilgan ustaxona
+    description:
+      en: "Bukhara's workshops are not background noise to mosques — they are the reason many travelers remember the city. This journal entry is about protecting that memory with real calendar blocks."
+      ru: "Мастерские Бухары — не фон для мечетей, а причина, по которой город запоминают. Эта заметка о том, как защитить это воспоминание реальными блоками в календаре."
+      uz: "Buxoro ustaxonalari masjidlarga fon emas — ko'pchilik shahar shu sabab eslab qoladi. Bu qayd o'sha xotirani haqiqiy taqvim bloklari bilan himoya qilish haqida."
+  - blockType: regular
+    eyebrow:
+      en: Crafts on the route
+      ru: Ремёсла в маршруте
+      uz: Marshrutdagi hunarmandchilik
+    title:
+      en: Scheduling hands-on time
+      ru: Планирование практического времени
+      uz: Amaliy vaqtni rejalashtirish
+    description:
+      en: "A ninety-minute drive-tour pattern — Lyabi-Hauz, a madrasa, a photo stop, lunch, another monument — leaves crafts as a shop visit. That sells copper bowls, not the process. On bukhara-craft-trail we anchor day two around a single workshop: arrival, tea, demonstration, client attempt, questions, and a walk to suppliers in the same neighborhood.\n\nAgency groups benefit from fixed start times and confirmed interpreter slots. FIT travelers can flex, but the minimum block remains three hours including transfer from the old city gate. Anything shorter and the master rushes the demonstration; anything longer and evening monument light is lost."
+      ru: "Схема «90 минут — Ляби-Хауз, медресе, фото, обед, ещё памятник» оставляет ремёсла как визит в лавку. Это продаёт медные чаши, а не процесс. На bukhara-craft-trail мы строим второй день вокруг одной мастерской: приезд, чай, показ, попытка клиента, вопросы и прогулка к поставщикам в том же квартале.\n\nАгентским группам нужны фиксированные старты и подтверждённые переводчики. FIT гибче, но минимум — три часа с переездом от ворот старого города. Короче — мастер спешит с показом; дольше — теряется вечерний свет на памятниках."
+      uz: "To'qson daqiqalik haydovchi-tur sxemasi — Lyabi-Hauz, madrasa, foto, tushlik, yana yodgorlik — hunarmandchilikni do'kon tashrifi qoldiradi. Bu mis chashkalarni sotadi, jarayonni emas. bukhara-craft-trail da ikkinchi kunni bitta ustaxona atrofida quramiz: kelish, choy, namoyish, mijoz urinishi, savollar va shu mahalladagi yetkazib beruvchilarga sayr.\n\nAgentlik guruhlari qat'iy boshlanish vaqt va tasdiqlangan tarjimon slotlarini talab qiladi. FIT moslashadi, lekin minimum — eski shahar darvozasidan transfer bilan uch soat. Qisqaroq bo'lsa usta namoyishni shoshadi; uzunroq bo'lsa kechki yodgorlik yorug'ligi yo'qoladi."
+    gridClassName: md:grid-cols-2
+    cards:
+      - type: destinationInsight
+        icon: hammer
+        title:
+          en: One craft per day
+          ru: Одно ремесло в день
+          uz: Kuniga bitta hunarmandchilik
+        description:
+          en: Embroidery or metalwork — not both on the same compressed afternoon. silk-road-classics can add a second craft city in Samarkand on a longer variant.
+          ru: Вышивка или металл — не оба в один сжатый день. silk-road-classics на длинном варианте добавляет второй ремесленный город в Самарканде.
+          uz: Kashtachilik yoki metall — ikkalasi ham bir siqilgan tushda emas. silk-road-classics uzun variantda Samarqandda ikkinchi hunarmandchilik shahri qo'shadi.
+      - type: destinationInsight
+        icon: users
+        title:
+          en: Group size math
+          ru: Математика размера группы
+          uz: Guruh hajmi hisobi
+        description:
+          en: Workshops above twelve travelers split into two sessions or two masters. Document this in the agency brief — surprises at the door erode trust.
+          ru: Группы больше двенадцати делят на два сеанса или двух мастеров. Зафиксируйте в брифе агентства — сюрпризы у двери подрывают доверие.
+          uz: O'n ikki kishidan ortiq guruhlar ikki seans yoki ikki ustaga bo'linadi. Agentlik brifida qayd eting — eshik oldidagi kutilmaganlar ishonchni pasaytiradi.
+  - blockType: cta
+    image: assets/images/experiences/culture-1.jpg
+    imageAlt:
+      en: Cultural craft experience
+      ru: Культурное ремесленное впечатление
+      uz: Madaniy hunarmandchilik taassuroti
+    title:
+      en: Pair workshops with bookable experiences
+      ru: Сочетайте мастерские с бронируемыми впечатлениями
+      uz: Ustaxonalarni bron qilinadigan taassurotlar bilan juftlang
+    description:
+      en: Routes set the geography; experiences carry confirmed craft hosts and durations you can quote to clients.
+      ru: Маршруты задают географию; впечатления несут подтверждённых мастеров и длительность для котировок клиентам.
+      uz: Marshrutlar geografiyani belgilaydi; taassurotlar mijozlarga narx berish uchun tasdiqlangan ustalar va davomiylikni olib keladi.
+    actions:
+      - type: link
+        variant: default
+        title:
+          en: Browse experiences
+          ru: Смотреть впечатления
+          uz: Taassurotlarni ko'rish
+        href: /experiences
+      - type: link
+        variant: outline
+        title:
+          en: Bukhara craft trail
+          ru: Ремесленный маршрут Бухары
+          uz: Buxoro hunarmandchilik yo'li
+        href: /routes/bukhara-craft-trail
+seo:
+  metaTitle:
+    en: A workshop with time for it | TourLink Journal
+    ru: Мастерская, где есть время | TourLink
+    uz: Vaqt ajratilgan ustaxona | TourLink
+  metaDescription:
+    en: Journal note on craft workshop pacing — bukhara and silk-road programs for agencies.
+    ru: Заметка о темпе ремесленных мастерских — программы Бухары и Шёлкового пути для агентств.
+    uz: Hunarmandchilik ustaxonalari ritmi haqida jurnal qaydi — agentliklar uchun Buxoro va Ipak yo'li dasturlari.
+status:
+  showInSitemap: true
+  publishedAt: "2025-07-02"

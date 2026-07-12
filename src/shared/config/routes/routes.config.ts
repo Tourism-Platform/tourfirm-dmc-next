@@ -7,9 +7,11 @@ export const ENUM_PATH = {
 	DISCOVERY: {
 		ROUTES: "/routes",
 		EXPERIENCES: "/experiences",
+		BLOG: "/blog",
 		routeDetail: (slug: string) => `/routes/${slug}`,
 		experienceDetail: (slug: string) => `/experiences/${slug}`,
-		themeDetail: (slug: string) => `/themes/${slug}`
+		themeDetail: (slug: string) => `/themes/${slug}`,
+		blogDetail: (slug: string) => `/blog/${slug}`
 	},
 	PARTNERS: {
 		AGENCIES: "/partners/agencies",
@@ -20,6 +22,9 @@ export const ENUM_PATH = {
 		SERVICES: "/company/services",
 		PARTNERSHIP: "/company/partnership",
 		NEWS: "/company/news",
+		newsDetail: (slug: string) => `/company/news/${slug}`,
+		TRADE_FAIRS: "/company/trade-fairs",
+		tradeFairDetail: (slug: string) => `/company/trade-fairs/${slug}`,
 		FEEDBACK: "/company/feedback"
 	},
 	LEGAL: {

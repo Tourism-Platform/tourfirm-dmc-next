@@ -61,6 +61,71 @@ blocks:
       en: "This is a planning arc, not a fixed product. We use Uzbekistan as the reliable core, then layer Kazakhstan or Kyrgyzstan when flights, visas, and season support a coherent line."
       ru: "Это дуга планирования, а не фиксированный продукт. Узбекистан — надёжное ядро, Казахстан или Кыргызстан добавляем, когда рейсы, визы и сезон поддерживают цельную линию."
       uz: "Bu rejalashtirish yoyi, qat'iy mahsulot emas. O'zbekiston ishonchli yadro, Qozog'iston yoki Qirg'izistonni parvozlar, vizalar va mavsum yaxlit chiziqni qo'llab-quvvatlaganda qo'shamiz."
+  - blockType: routeMap
+    eyebrow:
+      en: Route map
+      ru: Карта маршрута
+      uz: Marshrut xaritasi
+    title:
+      en: Follow the journey
+      ru: Следуйте за маршрутом
+      uz: Sayohatni kuzating
+    description:
+      en: Interactive map with the ordered stops of this route.
+      ru: Интерактивная карта с упорядоченными остановками маршрута.
+      uz: Marshrutning tartiblangan to'xtashlari bilan interaktiv xarita.
+  - blockType: regular
+    eyebrow:
+      en: Explore
+      ru: Исследуйте
+      uz: Kashf eting
+    title:
+      en: Countries
+      ru: Страны
+      uz: Davlatlar
+    cardsSource:
+      type: documentField
+      field: countries
+  - blockType: regular
+    title:
+      en: Cities
+      ru: Города
+      uz: Shaharlar
+    cardsSource:
+      type: documentField
+      field: cities
+  - blockType: regular
+    title:
+      en: Attractions
+      ru: Достопримечательности
+      uz: Diqqatga sazovor joylar
+    cardsSource:
+      type: documentField
+      field: attractions
+  - blockType: regular
+    eyebrow:
+      en: Experiences
+      ru: Впечатления
+      uz: Taassurotlar
+    title:
+      en: Experiences along this route
+      ru: Впечатления на этом маршруте
+      uz: Bu marshrut bo'ylab taassurotlar
+    cardsSource:
+      type: documentField
+      field: experiences
+  - blockType: regular
+    eyebrow:
+      en: More inspiration
+      ru: Больше вдохновения
+      uz: Ko'proq ilhom
+    title:
+      en: Related routes
+      ru: Связанные маршруты
+      uz: Bog'langan marshrutlar
+    cardsSource:
+      type: documentField
+      field: relatedRoutes
   - blockType: cta
     title:
       en: Request a multi-country feasibility check

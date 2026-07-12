@@ -109,6 +109,94 @@ export function mapRouteToCard(route: Route): TRouteCardData {
 	};
 }
 
+export type TTradeFairCardData = {
+	href: string;
+	imageUrl: string;
+	title: string;
+	stand: string;
+	country: string;
+	participants: string;
+};
+
+export type TBlogCardData = {
+	href: string;
+	imageUrl: string;
+	meta: string;
+	title: string;
+};
+
+export type TNewsCardData = {
+	href: string;
+	imageUrl: string;
+	meta: string;
+	title: string;
+};
+
+function formatCardMeta(
+	publishDate?: string | null,
+	cardMeta?: string | null
+): string {
+	if (cardMeta) {
+		return cardMeta;
+	}
+
+	if (!publishDate) {
+		return "";
+	}
+
+	return new Date(publishDate).toLocaleDateString("en", {
+		year: "numeric",
+		month: "short",
+		day: "numeric"
+	});
+}
+
+export function mapTradeFairToCard(
+	tradeFair: import("@/payload-types").TradeFair
+): TTradeFairCardData {
+	return {
+		href: ENUM_PATH.COMPANY.tradeFairDetail(tradeFair.slug),
+		imageUrl: resolveMediaUrl(tradeFair.heroImage),
+		title: tradeFair.title,
+		stand: tradeFair.stand ?? "",
+		country: tradeFair.countryName ?? "",
+		participants: tradeFair.participants ?? ""
+	};
+}
+
+export function mapBlogToCard(
+	blog: import("@/payload-types").Blog
+): TBlogCardData {
+	return {
+		href: ENUM_PATH.DISCOVERY.blogDetail(blog.slug),
+		imageUrl: resolveMediaUrl(blog.coverImage),
+		meta: formatCardMeta(blog.publishDate, blog.cardMeta),
+		title: blog.title
+	};
+}
+
+export function mapNewsToCard(
+	news: import("@/payload-types").News
+): TNewsCardData {
+	const firstCategory = news.categories?.[0];
+	const categoryLabel =
+		firstCategory &&
+		typeof firstCategory === "object" &&
+		"category" in firstCategory &&
+		typeof firstCategory.category === "string"
+			? firstCategory.category
+			: undefined;
+	const dateLabel = formatCardMeta(news.publishDate, null);
+	const meta = [categoryLabel, dateLabel].filter(Boolean).join(" · ");
+
+	return {
+		href: ENUM_PATH.COMPANY.newsDetail(news.slug),
+		imageUrl: resolveMediaUrl(news.heroImage),
+		meta,
+		title: news.title
+	};
+}
+
 export function mapExperienceToCard(
 	experience: Experience
 ): TExperienceCardData {

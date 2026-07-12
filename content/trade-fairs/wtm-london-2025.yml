@@ -1,0 +1,147 @@
+slug:
+  en: wtm-london-2025
+  ru: wtm-london-2025
+  uz: wtm-london-2025
+title:
+  en: WTM London 2025
+  ru: WTM London 2025
+  uz: WTM London 2025
+excerpt:
+  en: World Travel Market at ExCeL London — TourLink on the Uzbekistan pavilion at stand B-24 for UK and EU agency meetings. Focus on Silk Road FIT programs, MICE blocks, and shoulder-season product for 2026 departures.
+  ru: World Travel Market в ExCeL London — TourLink на павильоне Узбекистана, стенд B-24, встречи с британскими и EU-агентствами. Акцент на FIT по Шёлковому пути, MICE и продуктах межсезонья на вылеты 2026 года.
+  uz: ExCeL London'dagi World Travel Market — O'zbekiston pavilyonida B-24 stendida TourLink, Buyuk Britaniya va EU agentliklari bilan uchrashuvlar. Ipak yo'li FIT, MICE va 2026 jo'nashlari uchun oraliq mavsum mahsulotlari.
+heroImage: assets/images/tours/silk-road.jpg
+stand:
+  en: Stand B-24, Uzbekistan pavilion
+  ru: Стенд B-24, павильон Узбекистана
+  uz: Stend B-24, O'zbekiston pavilyoni
+participants:
+  en: "Participants: Subin Kang (UK/EU agencies), Sodik Begmatov (MICE), Nozima Begmatova (product)"
+  ru: "Участники: Subin Kang (UK/EU агентства), Sodik Begmatov (MICE), Nozima Begmatova (продукт)"
+  uz: "Ishtirokchilar: Subin Kang (UK/EU agentliklar), Sodik Begmatov (MICE), Nozima Begmatova (mahsulot)"
+countryName:
+  en: United Kingdom
+  ru: Великобритания
+  uz: Buyuk Britaniya
+cityName:
+  en: London
+  ru: Лондон
+  uz: London
+website: https://www.wtm.com
+startDate: "2025-11-04"
+endDate: "2025-11-06"
+featured: true
+sortOrder: 2
+blocks:
+  - blockType: hero
+    image: assets/images/tours/silk-road.jpg
+    imageAlt:
+      en: WTM London ExCeL exhibition hall
+      ru: Выставочный зал WTM London ExCeL
+      uz: WTM London ExCeL ko'rgazma zali
+    title:
+      en: Central Asia at WTM London
+      ru: Центральная Азия на WTM London
+      uz: WTM London'da Markaziy Osiyo
+    description:
+      en: "4–6 November 2025, ExCeL London. Stand B-24 on the Uzbekistan pavilion — route inspiration, agency FIT quotes, and MICE coordination for UK and European buyers. Meetings run on GMT slots; book ahead to avoid show-floor queues."
+      ru: "4–6 ноября 2025, ExCeL London. Стенд B-24 на павильоне Узбекистана — вдохновение маршрутами, FIT для агентств и MICE для британских и европейских байеров. Встречи по слотам GMT; бронируйте заранее."
+      uz: "2025-yil 4–6-noyabr, ExCeL London. O'zbekiston pavilyonida B-24 stend — marshrut ilhomi, agentlik FIT narxlari va UK hamda Yevropa xaridorlari uchun MICE. Uchrashuvlar GMT bo'yicha; navbatdan qochish uchun oldindan band qiling."
+  - blockType: regular
+    eyebrow:
+      en: UK & EU market
+      ru: Рынок UK и EU
+      uz: UK va EU bozori
+    title:
+      en: Meeting topics at B-24
+      ru: Темы встреч на B-24
+      uz: B-24 da uchrashuv mavzulari
+    description:
+      en: "We tailor conversations to how British and EU agencies sell Central Asia — shorter arcs for first-time buyers, longer series for repeat groups, and clear shoulder-season positioning."
+      ru: "Разговоры под то, как британские и EU-агентства продают Центральную Азию — короткие дуги для новичков, серии для повторных групп и понятное межсезонье."
+      uz: "Suhbatlar Britaniya va EU agentliklari Markaziy Osiyoni qanday sotishiga moslashtiriladi — yangi xaridorlar uchun qisqa yoylar, qayta guruhlar uchun seriyalar va aniq oraliq mavsum."
+    gridClassName: md:grid-cols-2
+    cards:
+      - type: destinationInsight
+        icon: compass
+        title:
+          en: Silk Road FIT
+          ru: FIT Шёлкового пути
+          uz: Ipak yo'li FIT
+        description:
+          en: Samarkand–Bukhara–Khiva logic, wine route add-ons, and craft workshop slots with realistic transfer times for UK group sizes.
+          ru: Логика Самарканд–Бухара–Хива, винные дополнения и мастерские с реалистичным временем переездов для британских групп.
+          uz: Samarqand–Buxoro–Xiva mantiqi, vino yo'li qo'shimchalari va UK guruh hajmi uchun realistik transfer vaqti bilan ustaxona slotlari.
+      - type: destinationInsight
+        icon: users
+        title:
+          en: MICE & incentives
+          ru: MICE и incentive
+          uz: MICE va motivatsiya
+        description:
+          en: Tashkent openings, Samarkand gala dinners, and Chimgan outdoor blocks — capacity and season notes for corporate planners.
+          ru: Открытия в Ташкенте, гала-ужины в Самарканде и outdoor в Чимгане — вместимость и сезон для корпоративных планировщиков.
+          uz: Toshkent ochilishlari, Samarqand gala kechalari va Chimgan outdoor bloklari — korporativ rejalashtiruvchilar uchun sig'im va mavsum qaydlari.
+  - blockType: faq
+    title:
+      en: WTM logistics
+      ru: Логистика WTM
+      uz: WTM logistikasi
+    items:
+      - question:
+          en: What timezone are meeting slots in?
+          ru: В каком часовом поясе слоты встреч?
+          uz: Uchrashuv slotlari qaysi vaqt zonasida?
+        answer:
+          en: All published slots are GMT (UK time). We can add a short video call before the fair if your team works from continental Europe.
+          ru: Все слоты указаны в GMT (время UK). Можем провести короткий видеозвонок до выставки, если команда работает из континентальной Европы.
+          uz: Barcha slotlar GMT (UK vaqti) da. Agar jamoa qit'ali Yevropadan ishlasa, ko'rgazmadan oldin qisqa video qo'ng'iroq qilish mumkin.
+      - question:
+          en: Can we get sample itineraries after the meeting?
+          ru: Можно ли получить примеры программ после встречи?
+          uz: Uchrashuvdan keyin namuna dasturlar olish mumkinmi?
+        answer:
+          en: Yes — we send day-by-day outlines within 48 hours, linked to editorial routes and catalog queries you can share with clients.
+          ru: Да — в течение 48 часов отправим программы по дням со ссылками на редакционные маршруты и каталог.
+          uz: Ha — 48 soat ichida kunlik dastur konturlarini tahririy marshrutlar va katalog havolalari bilan yuboramiz.
+  - blockType: cta
+    image: assets/images/samarkand.jpg
+    imageAlt:
+      en: Samarkand at dusk
+      ru: Самарканд на закате
+      uz: Quyosh botishida Samarqand
+    title:
+      en: Turn WTM conversations into programs
+      ru: Превратите разговоры на WTM в программы
+      uz: WTM suhbatlarini dasturga aylantiring
+    description:
+      en: Share dates and group profile after the fair — we build bookable itineraries around the same Silk Road logic discussed at B-24.
+      ru: После выставки отправьте даты и профиль группы — соберём бронируемую программу по той же логике Шёлкового пути, что на B-24.
+      uz: Ko'rgazmadan keyin sanalar va guruh profilini yuboring — B-24 da muhokama qilingan Ipak yo'li mantiqida bron qilinadigan dastur tuzamiz.
+    actions:
+      - type: mailto
+        variant: default
+        title:
+          en: Request WTM follow-up
+          ru: Запросить follow-up после WTM
+          uz: WTM keyingi qadamini so'rash
+        email: info@tourlink.uz
+      - type: link
+        variant: outline
+        title:
+          en: Browse catalog
+          ru: Смотреть каталог
+          uz: Katalogni ko'rish
+        href: /catalog
+seo:
+  metaTitle:
+    en: WTM London 2025 | TourLink Trade Fairs
+    ru: WTM London 2025 | TourLink
+    uz: WTM London 2025 | TourLink
+  metaDescription:
+    en: TourLink at WTM London 2025 — stand B-24, ExCeL. UK/EU agency meetings for Silk Road FIT and MICE programs.
+    ru: TourLink на WTM London 2025 — стенд B-24, ExCeL. Встречи с UK/EU агентствами по FIT и MICE.
+    uz: WTM London 2025'da TourLink — B-24 stend, ExCeL. UK/EU agentliklari bilan FIT va MICE uchrashuvlari.
+status:
+  showInSitemap: true
+  publishedAt: "2025-10-01"

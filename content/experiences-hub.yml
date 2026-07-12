@@ -30,3 +30,24 @@ blocks:
       en: Each experience is a standalone discovery page with geography, themes, and links to routes where it naturally belongs.
       ru: Каждое впечатление — отдельная discovery-страница с географией, темами и связями с маршрутами, куда оно естественно входит.
       uz: Har bir taassurot — geografiyasi, mavzulari va tabiiy ravishda tegishli bo'lgan marshrutlar bilan alohida discovery sahifasi.
+  - blockType: regular
+    eyebrow:
+      en: Discovery
+      ru: Discovery
+      uz: Discovery
+    title:
+      en: All experiences
+      ru: Все впечатления
+      uz: Barcha taassurotlar
+    description:
+      en: Workshops, tastings, walks, and encounters — browse the full catalog.
+      ru: Мастерские, дегустации, прогулки и встречи — полный каталог ниже.
+      uz: Ustaxonalar, dasturxonlar, sayrlar va uchrashuvlar — to'liq katalog pastda.
+    gridClassName: "md:grid-cols-2 lg:grid-cols-3"
+    cardsSource:
+      type: collection
+      collection: experiences
+      emptyLabel:
+        en: No experiences published yet.
+        ru: Опубликованных впечатлений пока нет.
+        uz: Hali e'lon qilingan taassurotlar yo'q.

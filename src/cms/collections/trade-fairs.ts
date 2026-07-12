@@ -37,6 +37,31 @@ export const TradeFairs: CollectionConfig = {
 			localized: true
 		},
 		{
+			name: "heroImage",
+			type: "upload",
+			relationTo: "media"
+		},
+		{
+			name: "stand",
+			type: "text",
+			localized: true
+		},
+		{
+			name: "participants",
+			type: "text",
+			localized: true
+		},
+		{
+			name: "featured",
+			type: "checkbox",
+			defaultValue: false
+		},
+		{
+			name: "sortOrder",
+			type: "number",
+			defaultValue: 0
+		},
+		{
 			name: "content",
 			type: "richText",
 			localized: true

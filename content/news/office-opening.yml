@@ -1,0 +1,116 @@
+slug:
+  en: office-opening
+  ru: office-opening
+  uz: office-opening
+title:
+  en: TourLink opens expanded Tashkent office
+  ru: TourLink открывает расширенный офис в Ташкенте
+  uz: TourLink kengaytirilgan Toshkent ofisini ochdi
+excerpt:
+  en: New coordination space for agency programs, route planning, and regional partner meetings. The expanded office adds dedicated B2B briefing rooms and a route workshop area for onboarding incoming partners.
+  ru: Новое координационное пространство для агентских программ, планирования маршрутов и встреч с региональными партнёрами. Расширенный офис добавляет отдельные комнаты для B2B-брифингов и зону маршрутных воркшопов для онбординга inbound-партнёров.
+  uz: Agentlik dasturlari, marshrut rejalashtirish va mintaqaviy hamkorlar uchrashuvlari uchun yangi muvofiqlashtirish maydoni. Kengaytirilgan ofis B2B brifing xonalari va inbound hamkorlarni jalb qilish uchun marshrut workshop zonasini qo'shadi.
+heroImage: assets/images/hero-image.jpg
+publishDate: "2025-05-10"
+categories:
+  - category:
+      en: Company
+      ru: Компания
+      uz: Kompaniya
+  - category:
+      en: Team
+      ru: Команда
+      uz: Jamoa
+featured: true
+sortOrder: 1
+blocks:
+  - blockType: hero
+    image: assets/images/hero-image.jpg
+    imageAlt:
+      en: TourLink office
+      ru: Офис TourLink
+      uz: TourLink ofisi
+    title:
+      en: Expanded Tashkent office
+      ru: Расширенный офис в Ташкенте
+      uz: Kengaytirilgan Toshkent ofisi
+    description:
+      en: "The team now has dedicated space for B2B briefings, route workshops, and partner onboarding — the same programs we coordinate on the road now have a home base for agencies visiting Uzbekistan."
+      ru: "У команды теперь есть отдельное пространство для B2B-брифингов, маршрутных воркшопов и онбординга партнёров — те же программы, что мы ведём в регионе, получили базу для агентств, приезжающих в Узбекистан."
+      uz: "Jamoada endi B2B brifinglar, marshrut workshoplari va hamkorlarni jalb qilish uchun alohida joy bor — mintaqada olib boradigan dasturlar O'zbekistonga tashrif buyuradigan agentliklar uchun bazaga ega bo'ldi."
+  - blockType: regular
+    eyebrow:
+      en: Company news
+      ru: Новости компании
+      uz: Kompaniya yangiliklari
+    title:
+      en: What the new space enables
+      ru: Что даёт новое пространство
+      uz: Yangi maydon nima imkon beradi
+    description:
+      en: "Opening day brought regional hotel partners, guide leads, and agency reps into one floor plan — route maps on wall screens, sample day plans for silk-road-classics, and live catalog queries for 2026 seasons.\n\nGoing forward, the office hosts pre-season briefings, emergency coordination during active groups, and partner contract signings. Visitors can walk in with a group profile and leave with a draft itinerary linked to editorial routes and experiences."
+      ru: "В день открытия на одном этаже собрались региональные отельные партнёры, ведущие гиды и представители агентств — маршрутные карты на экранах, примеры программ для silk-road-classics и живые запросы каталога на сезон 2026.\n\nДальше офис принимает предсезонные брифинги, координацию во время активных групп и подписание контрактов. Можно прийти с профилем группы и уйти с черновиком программы, связанной с редакционными маршрутами и впечатлениями."
+      uz: "Ochilish kuni mintaqaviy mehmonxona hamkorlari, bosh gidlar va agentlik vakillari bir qavatda yig'ildi — devor ekranlarida marshrut xaritalari, silk-road-classics uchun namuna kunlik rejalar va 2026 mavsumi uchun jonli katalog so'rovlari.\n\nEndi ofis mavsumoldi brifinglar, faol guruhlar paytida favqulodda muvofiqlashtirish va hamkorlik shartnomalarini imzolashni qabul qiladi. Guruh profili bilan kelib, tahririy marshrutlar va taassurotlarga bog'langan dastur qoralamasi bilan ketish mumkin."
+    gridClassName: md:grid-cols-2
+    cards:
+      - type: destinationInsight
+        icon: building-2
+        title:
+          en: B2B briefing rooms
+          ru: Комнаты для B2B-брифингов
+          uz: B2B brifing xonalari
+        description:
+          en: Bookable slots for agency teams — route logic, documentation standards, and emergency contact lines in one sitting.
+          ru: Бронируемые слоты для команд агентств — логика маршрутов, стандарты документации и линии связи за одну встречу.
+          uz: Agentlik jamoalari uchun band qilinadigan slotlar — marshrut mantiqi, hujjat standartlari va favqulodda aloqa bir uchrashuvda.
+      - type: destinationInsight
+        icon: route
+        title:
+          en: Route workshop area
+          ru: Зона маршрутных воркшопов
+          uz: Marshrut workshop zonasi
+        description:
+          en: Live editing of day plans with maps and experience pairing — outputs link to catalog queries agencies can share with clients.
+          ru: Живое редактирование программ с картами и впечатлениями — результат даёт запросы каталога, которые агентства отправляют клиентам.
+          uz: Xaritalar va taassurot juftlashuvi bilan kunlik rejalar jonli tahriri — natija agentliklar mijozlarga ulashadigan katalog so'rovlarini beradi.
+  - blockType: cta
+    image: assets/images/destinations/uzbekistan.jpg
+    imageAlt:
+      en: Tashkent coordination hub
+      ru: Координационный центр в Ташкенте
+      uz: Toshkent muvofiqlashtirish markazi
+    title:
+      en: Plan a visit or briefing
+      ru: Запланируйте визит или брифинг
+      uz: Tashrif yoki brifing rejalashtiring
+    description:
+      en: Agencies and partners can request an office meeting slot — we align it with your active programs or upcoming fair calendar.
+      ru: Агентства и партнёры могут запросить слот в офисе — согласуем с вашими активными программами или календарём выставок.
+      uz: Agentliklar va hamkorlar ofis uchrashuv slotini so'rashlari mumkin — faol dasturlaringiz yoki yaqin ko'rgazmalar taqvimi bilan moslashtiramiz.
+    actions:
+      - type: mailto
+        variant: default
+        title:
+          en: Contact us
+          ru: Связаться с нами
+          uz: Biz bilan bog'lanish
+        email: info@tourlink.uz
+      - type: link
+        variant: outline
+        title:
+          en: Company page
+          ru: Страница компании
+          uz: Kompaniya sahifasi
+        href: /company
+seo:
+  metaTitle:
+    en: Expanded Tashkent office | TourLink News
+    ru: Расширенный офис в Ташкенте | TourLink
+    uz: Kengaytirilgan Toshkent ofisi | TourLink
+  metaDescription:
+    en: TourLink opens expanded Tashkent office — B2B briefings, route workshops, and partner onboarding space.
+    ru: TourLink открывает расширенный офис в Ташкенте — B2B-брифинги, маршрутные воркшопы и онбординг партнёров.
+    uz: TourLink kengaytirilgan Toshkent ofisini ochdi — B2B brifinglar, marshrut workshoplari va hamkorlarni jalb qilish.
+status:
+  showInSitemap: true
+  publishedAt: "2025-05-10"

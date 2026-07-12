@@ -17,12 +17,24 @@ export const ADMIN_COLLECTION_NAVIGATION: TAdminNavSection[] = [
 		items: ["experiences"]
 	},
 	{
-		label: "📝 Content",
-		items: ["pages", "segments", "journal-entries", "themes"]
+		label: "🏛 Trade Fairs",
+		items: ["trade-fairs"]
+	},
+	{
+		label: "📖 Blog",
+		items: ["blog"]
+	},
+	{
+		label: "📰 News",
+		items: ["news"]
+	},
+	{
+		label: "📝 Company",
+		items: ["pages", "segments", "themes"]
 	},
 	{
 		label: "💼 Business",
-		items: ["trade-fairs", "badges"]
+		items: ["badges"]
 	},
 	{
 		label: "⚙️ System",
@@ -45,6 +57,21 @@ export const ADMIN_EXPERIENCES_GLOBALS_NAVIGATION: TAdminNavSection = {
 	items: ["experiences-hub"]
 };
 
+export const ADMIN_TRADE_FAIRS_GLOBALS_NAVIGATION: TAdminNavSection = {
+	label: "🏛 Trade Fairs",
+	items: ["trade-fairs-hub"]
+};
+
+export const ADMIN_BLOG_GLOBALS_NAVIGATION: TAdminNavSection = {
+	label: "📖 Blog",
+	items: ["blog-hub"]
+};
+
+export const ADMIN_NEWS_GLOBALS_NAVIGATION: TAdminNavSection = {
+	label: "📰 News",
+	items: ["news-hub"]
+};
+
 export const ADMIN_GLOBALS_NAVIGATION: TAdminNavSection = {
 	label: "Globals",
 	items: ["homepage", "site-settings", "header", "footer"]
@@ -54,5 +81,8 @@ export const ADMIN_ALL_GLOBALS_NAVIGATION: TAdminNavSection[] = [
 	ADMIN_DESTINATION_GLOBALS_NAVIGATION,
 	ADMIN_ROUTES_GLOBALS_NAVIGATION,
 	ADMIN_EXPERIENCES_GLOBALS_NAVIGATION,
+	ADMIN_TRADE_FAIRS_GLOBALS_NAVIGATION,
+	ADMIN_BLOG_GLOBALS_NAVIGATION,
+	ADMIN_NEWS_GLOBALS_NAVIGATION,
 	ADMIN_GLOBALS_NAVIGATION
 ];

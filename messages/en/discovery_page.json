@@ -1,19 +1,13 @@
 {
 	"routes": {
-		"eyebrow": "Discovery",
-		"catalog_title": "All routes",
-		"catalog_description": "Editorial journeys ordered by our team — explore the full list below.",
-		"empty": "No routes published yet.",
-		"view_all": "All routes",
 		"pagination_prev": "Previous page",
 		"pagination_next": "Next page"
 	},
 	"experiences": {
-		"eyebrow": "Discovery",
-		"catalog_title": "All experiences",
-		"catalog_description": "Workshops, tastings, walks, and encounters — browse the full catalog.",
-		"empty": "No experiences published yet.",
-		"view_all": "All experiences",
+		"pagination_prev": "Previous page",
+		"pagination_next": "Next page"
+	},
+	"blog": {
 		"pagination_prev": "Previous page",
 		"pagination_next": "Next page"
 	}

@@ -19,6 +19,25 @@ export type TExperienceListFilters = {
 	limit?: number;
 };
 
+export type TTradeFairListFilters = {
+	featured?: boolean;
+	page?: number;
+	limit?: number;
+};
+
+export type TBlogListFilters = {
+	featured?: boolean;
+	page?: number;
+	limit?: number;
+};
+
+export type TNewsListFilters = {
+	featured?: boolean;
+	category?: string;
+	page?: number;
+	limit?: number;
+};
+
 export type TDiscoveryListResult<TDoc> = {
 	docs: TDoc[];
 	totalDocs: number;

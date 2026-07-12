@@ -7,7 +7,9 @@ const cardTypeOptions = [
 	{ label: "Route Idea", value: "routeIdea" },
 	{ label: "Experience", value: "experience" },
 	{ label: "Trade Fair", value: "tradeFair" },
-	{ label: "Journal", value: "journal" },
+	{ label: "Blog", value: "blog" },
+	{ label: "News", value: "news" },
+	{ label: "Journal (legacy)", value: "journal" },
 	{ label: "Overview Stat", value: "overviewStat" },
 	{ label: "Services Business", value: "servicesBusiness" },
 	{ label: "Services Direction", value: "servicesDirection" },
@@ -30,7 +32,7 @@ export const cardFields: Field[] = [
 	{
 		name: "relatedDoc",
 		type: "relationship",
-		relationTo: ["routes", "experiences", "trade-fairs", "journal-entries"]
+		relationTo: ["routes", "experiences", "trade-fairs", "blog", "news"]
 	},
 	{
 		name: "href",
@@ -47,7 +49,9 @@ export const cardFields: Field[] = [
 				"country",
 				"routeIdea",
 				"experience",
+				"blog",
 				"journal",
+				"news",
 				"servicesDirection"
 			)
 		}
@@ -93,7 +97,7 @@ export const cardFields: Field[] = [
 		name: "meta",
 		type: "text",
 		localized: true,
-		admin: { condition: whenType("routeIdea", "journal") }
+		admin: { condition: whenType("routeIdea", "blog", "journal", "news") }
 	},
 	{
 		name: "value",

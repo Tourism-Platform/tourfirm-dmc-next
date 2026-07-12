@@ -21,6 +21,8 @@ export type {
 	TGeoDiscoveryCardProps
 } from "./geo-discovery-card.types";
 export type { IRouteCard, TRouteCardProps } from "./route-card.types";
+export type { IBlogCard, TBlogCardProps } from "./blog-card.types";
+export type { INewsCard, TNewsCardProps } from "./news-card.types";
 export type {
 	ITradeFairCard,
 	TTradeFairCardProps

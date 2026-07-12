@@ -530,6 +530,14 @@ async function resolveBlockCards(
 	locale: TLocale,
 	options?: TResolvePageOptions
 ): Promise<unknown[]> {
+	const CARD_TYPE_COLLECTION: Record<string, string> = {
+		tradeFair: "trade-fairs",
+		blog: "blog",
+		journal: "blog",
+		news: "news",
+		route: "routes",
+		experience: "experiences"
+	};
 	const resolved: unknown[] = [];
 
 	for (const card of cards) {
@@ -549,6 +557,32 @@ async function resolveBlockCards(
 			resolved.push(
 				await resolveRouteIdeaCard(payload, mediaCache, entry, options)
 			);
+			continue;
+		}
+
+		if (typeof entry.relatedDocSlug === "string") {
+			const collection = CARD_TYPE_COLLECTION[String(entry.type)];
+
+			if (!collection) {
+				throw new Error(
+					`relatedDocSlug is not supported for card type: ${String(entry.type)}`
+				);
+			}
+
+			const id = activeLookup.getDiscoveryDocId(
+				collection,
+				entry.relatedDocSlug
+			);
+			// eslint-disable-next-line @typescript-eslint/no-unused-vars
+			const { relatedDocSlug: _slug, ...rest } = entry;
+
+			resolved.push({
+				...rest,
+				relatedDoc: {
+					relationTo: collection,
+					value: id
+				}
+			});
 			continue;
 		}
 
@@ -675,6 +709,12 @@ async function resolveTopLevelMedia(
 		).id;
 	}
 
+	if (typeof result.coverImage === "string") {
+		result.coverImage = (
+			await ensureMedia(payload, mediaCache, result.coverImage)
+		).id;
+	}
+
 	if (Array.isArray(result.gallery)) {
 		const resolvedGallery: unknown[] = [];
 
@@ -739,7 +779,12 @@ async function readDestinationPageSlug(): Promise<string> {
 
 export async function seedDiscoveryGlobal(
 	payload: Payload,
-	slug: "routes-hub" | "experiences-hub",
+	slug:
+		| "routes-hub"
+		| "experiences-hub"
+		| "trade-fairs-hub"
+		| "blog-hub"
+		| "news-hub",
 	raw: Record<string, unknown>,
 	mediaCache: TMediaCache
 ): Promise<void> {
@@ -2039,6 +2084,45 @@ async function runSeed(): Promise<void> {
 	await discoverySeeder.seedExperiencesHub(payload, mediaCache);
 	log.done();
 
+	log.start("Seeding trade fairs");
+	const tradeFairsCount = await discoverySeeder.seedTradeFairs(
+		payload,
+		lookup,
+		badgeIds,
+		mediaCache
+	);
+	log.done();
+
+	log.start("Seeding trade fairs hub");
+	await discoverySeeder.seedTradeFairsHub(payload, mediaCache);
+	log.done();
+
+	log.start("Seeding blog");
+	const blogCount = await discoverySeeder.seedBlog(
+		payload,
+		lookup,
+		badgeIds,
+		mediaCache
+	);
+	log.done();
+
+	log.start("Seeding blog hub");
+	await discoverySeeder.seedBlogHub(payload, mediaCache);
+	log.done();
+
+	log.start("Seeding news");
+	const newsCount = await discoverySeeder.seedNews(
+		payload,
+		lookup,
+		badgeIds,
+		mediaCache
+	);
+	log.done();
+
+	log.start("Seeding news hub");
+	await discoverySeeder.seedNewsHub(payload, mediaCache);
+	log.done();
+
 	log.start("Refreshing route map stops");
 	await profiler.run("route_refresh", async () => {
 		await refreshRouteMapStops(payload, "cities", badgeIds, mediaCache);
@@ -2090,9 +2174,15 @@ async function runSeed(): Promise<void> {
 		attractions: attractionsCount,
 		experiences: experiencesCount,
 		routes: routesCount,
+		tradeFairs: tradeFairsCount,
+		blog: blogCount,
+		news: newsCount,
 		mapPoints: mapPointsCount,
 		routesHub: true,
 		experiencesHub: true,
+		tradeFairsHub: true,
+		blogHub: true,
+		newsHub: true,
 		homepage: true,
 		destination: true,
 		segments: segmentIds.size,

@@ -50,6 +50,75 @@ blocks:
       en: "Evening departure after Itchan Kala at dusk, camp dinner, optional camel short ride, early return for fortress morning light."
       ru: "Вечерний выезд после Ичан-Калы на закате, ужин в лагере, опциональная короткая верблюжья прогулка, ранний возврат на утренний свет у крепости."
       uz: "Quyosh botishida Ichan Qal'dan keyin kechki jo'nash, lager kechki ovqati, ixtiyoriy qisqa tuydа sayr, qal'adagi tong yorug'ligi uchun erta qaytish."
+  - blockType: regular
+    eyebrow:
+      en: Explore
+      ru: Исследуйте
+      uz: Kashf eting
+    title:
+      en: Country
+      ru: Страна
+      uz: Davlat
+    cardsSource:
+      type: documentField
+      field: country
+  - blockType: regular
+    title:
+      en: City
+      ru: Город
+      uz: Shahar
+    cardsSource:
+      type: documentField
+      field: city
+  - blockType: regular
+    title:
+      en: Attraction
+      ru: Достопримечательность
+      uz: Diqqatga sazovor joy
+    cardsSource:
+      type: documentField
+      field: attraction
+  - blockType: regular
+    eyebrow:
+      en: Routes
+      ru: Маршруты
+      uz: Marshrutlar
+    title:
+      en: Routes that include this experience
+      ru: Маршруты с этим впечатлением
+      uz: Bu taassurotni o'z ichiga olgan marshrutlar
+    cardsSource:
+      type: documentField
+      field: relatedRoutes
+  - blockType: regular
+    eyebrow:
+      en: Similar
+      ru: Похожие
+      uz: O'xshash
+    title:
+      en: Similar experiences
+      ru: Похожие впечатления
+      uz: O'xshash taassurotlar
+    cardsSource:
+      type: collection
+      collection: similarExperiences
+  - blockType: cta
+    title:
+      en: Want this experience in your trip?
+      ru: Хотите включить это впечатление в поездку?
+      uz: Bu taassurotni sayohatingizga qo'shmoqchimisiz?
+    description:
+      en: We can weave this impression into a private program, group departure, or MICE itinerary.
+      ru: Мы вплетём это впечатление в частную программу, групповой выезд или MICE-маршрут.
+      uz: Bu taassurotni shaxsiy dastur, guruh jo'nashi yoki MICE marshrutiga qo'shamiz.
+    actions:
+      - type: link
+        variant: default
+        title:
+          en: Plan this trip
+          ru: Спланировать поездку
+          uz: Sayohatni rejalashtirish
+        href: /catalog?destination=Khiva&themes=desert
 seo:
   metaTitle:
     en: Khiva desert camp night | TourLink Experiences

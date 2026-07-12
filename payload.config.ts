@@ -29,7 +29,7 @@ export default buildConfig({
 			...(process.env.PAYLOAD_SEED_MODE === "true"
 				? {
 					// min 2: connect() keeps one client for error listener (see db-postgres connect.js)
-					max: 2,
+					max: 5,
 					maxUses: 250,
 					idleTimeoutMillis: 0,
 					connectionTimeoutMillis: 300_000,

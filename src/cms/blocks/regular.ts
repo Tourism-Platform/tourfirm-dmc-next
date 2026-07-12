@@ -35,6 +35,47 @@ export const Regular: Block = {
 			name: "cards",
 			type: "array",
 			fields: cardFields
+		},
+		{
+			name: "cardsSource",
+			type: "group",
+			fields: [
+				{
+					name: "type",
+					type: "select",
+					defaultValue: "static",
+					options: [
+						{ label: "Static cards", value: "static" },
+						{ label: "Document field", value: "documentField" },
+						{ label: "Collection query", value: "collection" }
+					]
+				},
+				{
+					name: "field",
+					type: "text",
+					admin: {
+						condition: (_, siblingData) =>
+							siblingData?.type === "documentField"
+					}
+				},
+				{
+					name: "collection",
+					type: "text",
+					admin: {
+						condition: (_, siblingData) =>
+							siblingData?.type === "collection"
+					}
+				},
+				{
+					name: "emptyLabel",
+					type: "text",
+					localized: true,
+					admin: {
+						condition: (_, siblingData) =>
+							siblingData?.type === "collection"
+					}
+				}
+			]
 		}
 	]
 };

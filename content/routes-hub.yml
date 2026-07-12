@@ -65,3 +65,24 @@ blocks:
           en: Routes connect to workshops, tastings, walks, and cultural encounters you can weave into the same journey.
           ru: Маршруты связаны с мастерскими, дегустациями, прогулками и культурными встречами, которые можно вплести в ту же поездку.
           uz: Marshrutlar ustaxonalar, dasturxonlar, sayr va madaniy uchrashuvlar bilan bog'langan.
+  - blockType: regular
+    eyebrow:
+      en: Discovery
+      ru: Discovery
+      uz: Discovery
+    title:
+      en: All routes
+      ru: Все маршруты
+      uz: Barcha marshrutlar
+    description:
+      en: Editorial journeys ordered by our team — explore the full list below.
+      ru: Редакционные маршруты в порядке, заданном командой — полный список ниже.
+      uz: Jamoamiz tartibida tahririy marshrutlar — to'liq ro'yxat pastda.
+    gridClassName: "md:grid-cols-2 lg:grid-cols-3"
+    cardsSource:
+      type: collection
+      collection: routes
+      emptyLabel:
+        en: No routes published yet.
+        ru: Опубликованных маршрутов пока нет.
+        uz: Hali e'lon qilingan marshrutlar yo'q.

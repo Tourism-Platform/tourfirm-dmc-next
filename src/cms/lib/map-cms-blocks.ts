@@ -11,22 +11,17 @@ import { CardType, type TCardRenderProps } from "@/shared/ui/cards";
 import type { TRouteMapStop } from "@/shared/ui/route-map";
 
 import type {
-	Attraction,
-	City,
-	Country,
-	Homepage,
-	Media,
-	Region
-} from "@/payload-types";
+	TCmsStaticCard,
+	TEnrichedCmsBlock,
+	TEnrichedCmsCard
+} from "./resolve-block-data.types";
+import type { Attraction, City, Country, Media, Region } from "@/payload-types";
 
-type TCmsPageBlock = NonNullable<Homepage["blocks"]>[number];
+type TCmsPageBlock = TEnrichedCmsBlock;
 type TRouteMapBlock = Extract<TCmsPageBlock, { blockType: "routeMap" }>;
 type TRouteMapStopRow = NonNullable<TRouteMapBlock["stops"]>[number];
 type TRouteMapEntity = Country | Region | City | Attraction;
 
-type TCmsCard = NonNullable<
-	Extract<TCmsPageBlock, { blockType: "regular" }>["cards"]
->[number];
 type TCmsAction = NonNullable<
 	Extract<TCmsPageBlock, { blockType: "hero" }>["actions"]
 >[number];
@@ -78,35 +73,45 @@ function mapCmsAction(action: TCmsAction): TButtonRenderProps {
 	};
 }
 
-function mapCmsCard(card: TCmsCard, index: number): TCardRenderProps {
+function mapCmsCard(card: TEnrichedCmsCard, index: number): TCardRenderProps {
+	if (card._enriched) {
+		return card._enriched;
+	}
+
+	const staticCard = card as TCmsStaticCard;
 	const cities =
-		card.cities
+		staticCard.cities
 			?.map((city) => city.name)
 			.filter((name): name is string => Boolean(name)) ?? [];
 
+	const cardType =
+		staticCard.type === "journal"
+			? CardType.Blog
+			: (staticCard.type as CardType);
+
 	return {
-		key: card.id ?? String(index),
-		type: card.type as CardType,
+		key: staticCard.id ?? String(index),
+		type: cardType,
 		item: {
-			href: card.href ?? undefined,
+			href: staticCard.href ?? undefined,
 			imageUrl: resolveMediaUrl(
-				card.image as number | Media | null | undefined
+				staticCard.image as number | Media | null | undefined
 			),
-			badge: card.badge ?? undefined,
-			title: card.title ?? undefined,
-			description: richTextToPlain(card.description),
-			meta: card.meta ?? undefined,
-			value: card.value ?? undefined,
+			badge: staticCard.badge ?? undefined,
+			title: staticCard.title ?? undefined,
+			description: richTextToPlain(staticCard.description),
+			meta: staticCard.meta ?? undefined,
+			value: staticCard.value ?? undefined,
 			cities,
-			featured: card.featured ?? undefined,
-			ctaHref: card.ctaHref ?? undefined,
-			ctaLabel: card.ctaLabel ?? undefined,
-			stand: card.stand ?? undefined,
-			country: card.country ?? undefined,
-			participants: card.participants ?? undefined,
-			step: card.step ?? undefined,
-			icon: card.icon ?? undefined,
-			className: card.className ?? undefined
+			featured: staticCard.featured ?? undefined,
+			ctaHref: staticCard.ctaHref ?? undefined,
+			ctaLabel: staticCard.ctaLabel ?? undefined,
+			stand: staticCard.stand ?? undefined,
+			country: staticCard.country ?? undefined,
+			participants: staticCard.participants ?? undefined,
+			step: staticCard.step ?? undefined,
+			icon: staticCard.icon ?? undefined,
+			className: staticCard.className ?? undefined
 		}
 	};
 }
@@ -202,7 +207,8 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 				description: richTextToPlain(block.description),
 				gridClassName: block.gridClassName ?? undefined,
 				actions: block.actions?.map(mapCmsAction),
-				cards: block.cards?.map(mapCmsCard) ?? []
+				cards: block.cards?.map(mapCmsCard) ?? [],
+				emptyLabel: block._emptyLabel
 			};
 
 		case "cta":
@@ -220,24 +226,26 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 			};
 
 		case "routeMap": {
-			// INVARIANT: routeMap stop order = CMS block.stops[] array order only.
-			// Do NOT sort, reorder, or add order/index/position fields.
+			const enrichedMap = block._enrichedMap;
 			const latitude = block.mapCenter?.latitude;
 			const longitude = block.mapCenter?.longitude;
-			const stops = (block.stops ?? [])
-				.map((stop) => resolveStopFromRelation(stop))
-				.filter((stop): stop is TRouteMapStop => stop !== null);
+			const stops = enrichedMap
+				? enrichedMap.stops
+				: (block.stops ?? [])
+						.map((stop) => resolveStopFromRelation(stop))
+						.filter((stop): stop is TRouteMapStop => stop !== null);
 
 			return {
 				blockType: BlockType.routeMap,
 				eyebrow: block.eyebrow ?? undefined,
 				title: block.title ?? "",
 				description: richTextToPlain(block.description),
-				center:
-					latitude != null && longitude != null
+				center: enrichedMap
+					? enrichedMap.center
+					: latitude != null && longitude != null
 						? [latitude, longitude]
 						: [41.2, 68.5],
-				zoom: block.zoom ?? 6,
+				zoom: enrichedMap?.zoom ?? block.zoom ?? 6,
 				minZoom: 4,
 				maxZoom: 18,
 				tileUrl: ROUTE_MAP_TILE_URL,
@@ -266,7 +274,7 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 }
 
 export function mapCmsBlocks(
-	blocks: TCmsPageBlock[] | null | undefined
+	blocks: TEnrichedCmsBlock[] | null | undefined
 ): TBlockRenderProps[] {
 	if (!blocks?.length) {
 		return [];

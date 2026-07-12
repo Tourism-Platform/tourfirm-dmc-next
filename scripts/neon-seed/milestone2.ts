@@ -163,7 +163,12 @@ async function seedMapPointItem(
 
 async function globalAlreadySeeded(
 	payload: TMilestone1Context["payload"],
-	slug: "routes-hub" | "experiences-hub"
+	slug:
+		| "routes-hub"
+		| "experiences-hub"
+		| "trade-fairs-hub"
+		| "blog-hub"
+		| "news-hub"
 ): Promise<boolean> {
 	try {
 		const doc = await payload.findGlobal({
@@ -194,6 +199,72 @@ async function seedExperiencesHubItem(ctx: TMilestone1Context): Promise<void> {
 	}
 
 	await getDiscoverySeeder().seedExperiencesHub(ctx.payload, ctx.mediaCache);
+}
+
+async function seedTradeFairsHubItem(ctx: TMilestone1Context): Promise<void> {
+	if (await globalAlreadySeeded(ctx.payload, "trade-fairs-hub")) {
+		console.log("  exists global trade-fairs-hub, skip write");
+		return;
+	}
+
+	await getDiscoverySeeder().seedTradeFairsHub(ctx.payload, ctx.mediaCache);
+}
+
+async function seedBlogHubItem(ctx: TMilestone1Context): Promise<void> {
+	if (await globalAlreadySeeded(ctx.payload, "blog-hub")) {
+		console.log("  exists global blog-hub, skip write");
+		return;
+	}
+
+	await getDiscoverySeeder().seedBlogHub(ctx.payload, ctx.mediaCache);
+}
+
+async function seedNewsHubItem(ctx: TMilestone1Context): Promise<void> {
+	if (await globalAlreadySeeded(ctx.payload, "news-hub")) {
+		console.log("  exists global news-hub, skip write");
+		return;
+	}
+
+	await getDiscoverySeeder().seedNewsHub(ctx.payload, ctx.mediaCache);
+}
+
+async function seedTradeFairItem(
+	ctx: TMilestone1Context,
+	item: TNeonSeedItem
+): Promise<void> {
+	await getDiscoverySeeder().seedTradeFairFile(
+		ctx.payload,
+		ctx.lookup,
+		ctx.badgeIds,
+		ctx.mediaCache,
+		item.filePath
+	);
+}
+
+async function seedBlogItem(
+	ctx: TMilestone1Context,
+	item: TNeonSeedItem
+): Promise<void> {
+	await getDiscoverySeeder().seedBlogFile(
+		ctx.payload,
+		ctx.lookup,
+		ctx.badgeIds,
+		ctx.mediaCache,
+		item.filePath
+	);
+}
+
+async function seedNewsItem(
+	ctx: TMilestone1Context,
+	item: TNeonSeedItem
+): Promise<void> {
+	await getDiscoverySeeder().seedNewsFile(
+		ctx.payload,
+		ctx.lookup,
+		ctx.badgeIds,
+		ctx.mediaCache,
+		item.filePath
+	);
 }
 
 function isInvalidIdValidationError(error: unknown): boolean {
@@ -305,6 +376,24 @@ export async function seedMilestone2Item(
 			return;
 		case "experiencesHub":
 			await seedExperiencesHubItem(ctx);
+			return;
+		case "tradeFairs":
+			await seedTradeFairItem(ctx, item);
+			return;
+		case "blog":
+			await seedBlogItem(ctx, item);
+			return;
+		case "news":
+			await seedNewsItem(ctx, item);
+			return;
+		case "tradeFairsHub":
+			await seedTradeFairsHubItem(ctx);
+			return;
+		case "blogHub":
+			await seedBlogHubItem(ctx);
+			return;
+		case "newsHub":
+			await seedNewsHubItem(ctx);
 			return;
 		case "refreshRouteMapCountries":
 		case "refreshRouteMapRegions":

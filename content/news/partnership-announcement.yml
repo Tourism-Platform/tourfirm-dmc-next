@@ -1,0 +1,116 @@
+slug:
+  en: partnership-announcement
+  ru: partnership-announcement
+  uz: partnership-announcement
+title:
+  en: New hotel partners across Samarkand and Bukhara
+  ru: Новые партнёры-отели в Самарканде и Бухаре
+  uz: Samarqand va Buxoroda yangi mehmonxona hamkorlari
+excerpt:
+  en: Expanded accommodation network for agency groups and private Silk Road itineraries. New contracts improve shoulder-season availability and courtyard-style properties aligned with silk-road-classics and bukhara-craft-trail pacing.
+  ru: Расширенная сеть размещения для агентских групп и частных маршрутов Шёлкового пути. Новые контракты улучшают доступность в межсезонье и двориковые объекты в ритме silk-road-classics и bukhara-craft-trail.
+  uz: Agentlik guruhlari va shaxsiy Ipak yo'li marshrutlari uchun kengaytirilgan joylashtirish tarmog'i. Yangi shartnomalar silk-road-classics va bukhara-craft-trail ritmiga mos hovli uslubidagi ob'ektlar va oraliq mavsum mavjudligini yaxshilaydi.
+heroImage: assets/images/samarkand.jpg
+publishDate: "2025-09-05"
+categories:
+  - category:
+      en: Partnerships
+      ru: Партнёрства
+      uz: Hamkorliklar
+  - category:
+      en: Company
+      ru: Компания
+      uz: Kompaniya
+featured: true
+sortOrder: 3
+blocks:
+  - blockType: hero
+    image: assets/images/samarkand.jpg
+    imageAlt:
+      en: Samarkand hotel partners
+      ru: Партнёры-отели в Самарканде
+      uz: Samarqand mehmonxona hamkorlari
+    title:
+      en: Stronger partner network
+      ru: Усиленная партнёрская сеть
+      uz: Kuchaytirilgan hamkorlar tarmog'i
+    description:
+      en: "New contracts improve shoulder-season availability and courtyard-style properties for cultural routes — Samarkand for arrival scale, Bukhara for walkable old-city nights."
+      ru: "Новые контракты улучшают доступность в межсезонье и двориковые объекты для культурных маршрутов — Самарканд для масштаба прибытия, Бухара для прогулочных вечеров в старом городе."
+      uz: "Yangi shartnomalar madaniy marshrutlar uchun oraliq mavsum mavjudligi va hovli uslubidagi ob'ektlarni yaxshilaydi — Samarqand kelish miqyosi uchun, Buxoro eski shaharda piyoda kechalar uchun."
+  - blockType: regular
+    eyebrow:
+      en: Partnership news
+      ru: Новости о партнёрствах
+      uz: Hamkorlik yangiliklari
+    title:
+      en: What changes for agency programs
+      ru: Что меняется для агентских программ
+      uz: Agentlik dasturlari uchun nima o'zgaradi
+    description:
+      en: "Samarkand additions focus on properties within sensible transfer time to Registan and wine-route evening slots. Bukhara partners emphasize old-city gates — craft workshops on bukhara-craft-trail no longer require late-night cross-town transfers.\n\nInventory blocks are held for confirmed agency series in shoulder months (March–April, October–November). FIT travelers gain more courtyard options with the same documentation standards — rooming lists, dietary notes, and emergency contacts bundled in the partner brief."
+      ru: "Дополнения в Самарканде — объекты в разумном времени до Регистана и вечерних слотов винного маршрута. Партнёры в Бухаре у ворот старого города — мастерские bukhara-craft-trail больше не требуют поздних переездов через город.\n\nБлоки номеров зарезервированы для подтверждённых агентских серий в межсезонье (март–апрель, октябрь–ноябрь). FIT получают больше двориковых вариантов с теми же стандартами документации — списки размещения, питание и контакты в брифе партнёра."
+      uz: "Samarqand qo'shimchalari Registonga va vino yo'li kechki slotlariga maqul transfer vaqtidagi ob'ektlarga qaratilgan. Buxoro hamkorlari eski shahar darvozalarida — bukhara-craft-trail ustaxonalari endi kechki shahar bo'ylab ko'chish talab qilmaydi.\n\nXona bloklari oraliq mavsumda (mart–aprel, oktyabr–noyabr) tasdiqlangan agentlik seriyalari uchun saqlanadi. FIT xuddi shu hujjat standartlari bilan ko'proq hovli variantlariga ega — joylashtirish ro'yxatlari, ovqatlanish va favqulodda aloqalar hamkor brifida."
+    gridClassName: md:grid-cols-2
+    cards:
+      - type: destinationInsight
+        icon: handshake
+        title:
+          en: Samarkand arrivals
+          ru: Прибытия в Самарканд
+          uz: Samarqandga kelishlar
+        description:
+          en: Properties paired with silk-road-classics day-one pacing — late Registan visits and next-morning museum blocks without rush.
+          ru: Объекты под первый день silk-road-classics — поздний Регистан и музей утром следующего дня без спешки.
+          uz: silk-road-classics birinchi kuni ritmiga mos ob'ektlar — kech Registon va ertasi kuni ertalab muzey bloki shoshilmasdan.
+      - type: destinationInsight
+        icon: map-pin
+        title:
+          en: Bukhara craft nights
+          ru: Ремесленные вечера Бухары
+          uz: Buxoro hunarmandchilik kechalari
+        description:
+          en: Walkable lodges near Lyabi-Hauz — workshop days end on foot, not in traffic.
+          ru: Отели в пешей доступности от Ляби-Хауз — дни мастерских заканчиваются пешком, а не в пробках.
+          uz: Lyabi-Hauz yaqinida piyoda yetiladigan mehmonxonalar — ustaxona kunlari tirbandlikda emas, piyoda yakunlanadi.
+  - blockType: cta
+    image: assets/images/experiences/culture-1.jpg
+    imageAlt:
+      en: Partnership coordination
+      ru: Координация партнёрств
+      uz: Hamkorlik muvofiqlashtirish
+    title:
+      en: Discuss partnership and contracting
+      ru: Обсудить партнёрство и контрактование
+      uz: Hamkorlik va shartnomalarni muhokama qiling
+    description:
+      en: Hotels, agencies, and inbound partners can reach the team through the partnership page — same standards cited in today's announcement.
+      ru: Отели, агентства и inbound-партнёры могут связаться через страницу партнёрства — те же стандарты, что в сегодняшнем объявлении.
+      uz: Mehmonxonalar, agentliklar va inbound hamkorlar hamkorlik sahifasi orqali bog'lanishlari mumkin — bugungi e'londa keltirilgan standartlar.
+    actions:
+      - type: link
+        variant: default
+        title:
+          en: Partnership page
+          ru: Страница партнёрства
+          uz: Hamkorlik sahifasi
+        href: /company/partnership
+      - type: mailto
+        variant: outline
+        title:
+          en: Email partnerships
+          ru: Написать о партнёрстве
+          uz: Hamkorlik haqida yozish
+        email: info@tourlink.uz
+seo:
+  metaTitle:
+    en: Hotel partnership news | TourLink
+    ru: Новости о партнёрстве с отелями | TourLink
+    uz: Mehmonxona hamkorligi yangiliklari | TourLink
+  metaDescription:
+    en: TourLink announces new hotel partners in Samarkand and Bukhara — shoulder-season blocks for Silk Road programs.
+    ru: TourLink объявляет о новых партнёрах-отелях в Самарканде и Бухаре — блоки межсезонья для программ Шёлкового пути.
+    uz: TourLink Samarqand va Buxoroda yangi mehmonxona hamkorlarini e'lon qildi — Ipak yo'li dasturlari uchun oraliq mavsum bloklari.
+status:
+  showInSitemap: true
+  publishedAt: "2025-09-05"

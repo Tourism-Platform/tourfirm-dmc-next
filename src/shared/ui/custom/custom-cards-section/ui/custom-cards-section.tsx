@@ -10,7 +10,8 @@ export function CardsSection({
 	description,
 	cards,
 	gridClassName,
-	actions
+	actions,
+	emptyLabel
 }: TCardsSectionProps) {
 	const hasHeader = eyebrow || title || description || actions;
 	return (
@@ -23,20 +24,24 @@ export function CardsSection({
 					actions={actions}
 				/>
 			)}
-			<div
-				className={cn(
-					"grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-3",
-					gridClassName
-				)}
-			>
-				{cards.map((card, index) => (
-					<CardRender
-						key={card.key ?? String(index)}
-						type={card.type}
-						item={card.item}
-					/>
-				))}
-			</div>
+			{cards.length ? (
+				<div
+					className={cn(
+						"grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-3",
+						gridClassName
+					)}
+				>
+					{cards.map((card, index) => (
+						<CardRender
+							key={card.key ?? String(index)}
+							type={card.type}
+							item={card.item}
+						/>
+					))}
+				</div>
+			) : emptyLabel ? (
+				<p className="text-muted-foreground text-sm">{emptyLabel}</p>
+			) : null}
 		</section>
 	);
 }

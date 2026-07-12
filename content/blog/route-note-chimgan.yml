@@ -1,0 +1,123 @@
+slug:
+  en: route-note-chimgan
+  ru: route-note-chimgan
+  uz: route-note-chimgan
+title:
+  en: A road day that cannot be rushed
+  ru: День дороги, который нельзя торопить
+  uz: Shoshilmaslik kerak bo'lgan yo'l kuni
+subtitle:
+  en: Buffer time on the Tashkent–Chimgan arc for mountain transfers
+  ru: Запас времени на дуге Ташкент–Чимган для горных переездов
+  uz: Tog' transferlari uchun Toshkent–Chimgan yoyida zaxira vaqt
+excerpt:
+  en: Weather, traffic, and reservoir stops change the math — build the day with margin, not minimum drive time. A pacing note tied to tashkent-to-chimgan for agencies selling long weekends and FIT extensions out of the capital.
+  ru: Погода, трафик и остановки у водохранилища меняют расчёт — планируйте день с запасом, а не по минимальному времени в пути. Заметка о темпе для tashkent-to-chimgan — агентства продают длинные выходные и FIT-продления из столицы.
+  uz: Ob-havo, tirbandlik va suv ombori to'xtashlari hisobni o'zgartiradi — kunni minimal yo'l vaqti emas, zaxira bilan rejalashtiring. tashkent-to-chimgan bilan bog'langan ritm qaydi — agentliklar poytaxtdan uzun dam olish va FIT uzaytirishlarini sotadi.
+coverImage: assets/images/hero-image.jpg
+cardMeta:
+  en: Route rhythm · 8 min
+  ru: Ритм маршрута · 8 минут
+  uz: Marshrut ritmi · 8 daqiqa
+publishDate: "2025-07-20"
+featured: true
+sortOrder: 3
+tags:
+  - tag: pacing
+  - tag: chimgan
+  - tag: mountains
+relatedRoutes:
+  - tashkent-to-chimgan
+relatedCountries:
+  - uzbekistan
+blocks:
+  - blockType: hero
+    image: assets/images/hero-image.jpg
+    imageAlt:
+      en: Mountain road near Chimgan
+      ru: Горная дорога у Чимгана
+      uz: Chimgan yaqinidagi tog' yo'li
+    title:
+      en: A road day that cannot be rushed
+      ru: День дороги, который нельзя торопить
+      uz: Shoshilmaslik kerak bo'lgan yo'l kuni
+    description:
+      en: "Chimgan is close on the map and far in experience — the drive is part of the product. This note is for planners who treat mountain legs like city hops and wonder why clients arrive tired before the first viewpoint."
+      ru: "Чимган на карте близко, в опыте — далеко; дорога — часть продукта. Заметка для тех, кто относится к горным перегонам как к городским и удивляется, почему клиенты устают до первой смотровой."
+      uz: "Chimgan xaritada yaqin, tajribada uzoq — yo'l mahsulotning bir qismi. Tog' yo'nalishlarini shahar ko'chishlari kabi ko'radigan va mijozlar birinchi kuzatuv maydonchasigacha charchaganini hayron ko'radigan rejalashtiruvchilar uchun qayd."
+  - blockType: regular
+    eyebrow:
+      en: Mountain pacing
+      ru: Темп в горах
+      uz: Tog'larda ritm
+    title:
+      en: Why buffer beats optimism
+      ru: Почему запас побеждает оптимизм
+      uz: Nega zaxira optimistik rejadan ustun
+    description:
+      en: "Navigation apps quote ninety minutes Tashkent to Chimgan on a clear Tuesday. Friday outbound traffic, roadside produce stops, and Charvak reservoir viewpoints routinely push the block past two hours. tashkent-to-chimgan builds one full road day — not a morning add-on before an evening flight.\n\nWe schedule lunch near the reservoir with a hard cutoff for the ascent, keep photo stops counted (two, not six), and hold a weather buffer before cable-car or ridge walks. Agencies quoting same-day Chimgan plus city touring should split products; clients attempting both remember traffic, not mountains."
+      ru: "Навигаторы дают полтора часа из Ташкента в Чимган в ясный вторник. Пятничный трафик, остановки у дороги и смотровые у Чарвака регулярно растягивают блок за два часа. tashkent-to-chimgan строит один полный дорожный день — не утреннее дополнение перед вечерним рейсом.\n\nМы планируем обед у водохранилища с жёстким лимитом на подъём, считаем фото-остановки (две, не шесть) и держим погодный запас перед канаткой или хребтом. Агентства, продающие Чимган и город в один день, должны разделить продукты; клиенты, пытающиеся совместить, запоминают пробки, а не горы."
+      uz: "Navigatorlar aniq seshanba kuni Toshkentdan Chimganga bir yarim soat ko'rsatadi. Juma chiqish tirbandligi, yo'l bo'yi to'xtashlar va Charvak suv ombori manzaralari blokni muntazam ikki soatdan oshiradi. tashkent-to-chimgan bitta to'liq yo'l kunini quradi — kechki reysdan oldin ertalab qo'shimcha emas.\n\nSuv ombori yaqinida tushlikni qattiq chegarada rejalashtiramiz, foto to'xtashlarni sanaymiz (ikkita, oltita emas) va arqon yo'li yoki qirra sayriga oldin ob-havo zaxirasini saqlaymiz. Bir kunda Chimgan va shahar turini sotadigan agentliklar mahsulotlarni ajratishi kerak; ikkalasini birlashtirgan mijozlar tog'larni emas, tirbandlikni eslaydi."
+    gridClassName: md:grid-cols-2
+    cards:
+      - type: destinationInsight
+        icon: clock
+        title:
+          en: Minimum road block
+          ru: Минимальный дорожный блок
+          uz: Minimal yo'l bloki
+        description:
+          en: Count four hours gate-to-lodge in peak season; three in shoulder months. Anything less risks dinner in the car.
+          ru: В пик — четыре часа от ворот до лоджа; в межсезонье — три. Меньше — риск ужина в машине.
+          uz: Eng yuqori mavsumda eshikdan lujgacha to'rt soat; oraliq mavsumda uch. Kamroq — mashinada kechki ovqat xavfi.
+      - type: destinationInsight
+        icon: map-pin
+        title:
+          en: Charvak as a meal, not a drive-by
+          ru: Чарвак как обед, а не проезд
+          uz: Charvak haydash emas, tushlik
+        description:
+          en: Thirty seated minutes lakeside stabilizes the afternoon ascent. Rushed ten-minute stops frustrate photographers and drivers alike.
+          ru: Тридцать минут у озера стабилизируют послеобеденный подъём. Десятиминутные остановки раздражают и фотографов, и водителей.
+          uz: Ko'l bo'yida o'ttiz daqiqa o'tirish tushdan keyingi ko'tarilishni barqarorlashtiradi. O'n daqiqalik shoshilinch to'xtashlar ham fotograflarni, ham haydovchilarni asabiylashtiradi.
+  - blockType: cta
+    image: assets/images/destinations/uzbekistan.jpg
+    imageAlt:
+      en: Uzbekistan mountain landscape
+      ru: Горный пейзаж Узбекистана
+      uz: O'zbekiston tog' manzarasi
+    title:
+      en: Start from the editorial route
+      ru: Начните с редакционного маршрута
+      uz: Tahririy marshrutdan boshlang
+    description:
+      en: tashkent-to-chimgan includes day counts and experience hooks — this journal entry explains the road-day margin behind them.
+      ru: tashkent-to-chimgan содержит число дней и связи с впечатлениями — эта заметка объясняет запас дорожного дня за ними.
+      uz: tashkent-to-chimgan kunlar soni va taassurot bog'lanishlarini o'z ichiga oladi — bu qayd ular ortidagi yo'l kuni zaxirasini tushuntiradi.
+    actions:
+      - type: link
+        variant: default
+        title:
+          en: View tashkent-to-chimgan
+          ru: Смотреть tashkent-to-chimgan
+          uz: tashkent-to-chimgan ni ko'rish
+        href: /routes/tashkent-to-chimgan
+      - type: link
+        variant: outline
+        title:
+          en: All routes
+          ru: Все маршруты
+          uz: Barcha marshrutlar
+        href: /routes
+seo:
+  metaTitle:
+    en: A road day that cannot be rushed | TourLink Journal
+    ru: День дороги, который нельзя торопить | TourLink
+    uz: Shoshilmaslik kerak bo'lgan yo'l kuni | TourLink
+  metaDescription:
+    en: Route rhythm note on Tashkent–Chimgan pacing — buffer time for mountain transfers and Charvak stops.
+    ru: Заметка о ритме Ташкент–Чимган — запас времени на горные переезды и остановки у Чарвака.
+    uz: Toshkent–Chimgan ritmi haqida qayd — tog' transferlari va Charvak to'xtashlari uchun zaxira vaqt.
+status:
+  showInSitemap: true
+  publishedAt: "2025-07-20"

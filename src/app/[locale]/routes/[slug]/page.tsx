@@ -5,9 +5,12 @@ import type { TypedLocale } from "payload";
 import { buildRouteDetailBreadcrumbs } from "@/shared/lib/routing/build-discovery-breadcrumbs";
 import { createCmsPageMetadata } from "@/shared/lib/seo";
 
-import { RouteDetailPage } from "@/page/routes";
+import { Cms } from "@/widgets/cms";
+import { RouteStopsTimeline } from "@/widgets/discovery";
 
 import { findRouteBySlug, getDestination } from "@/cms/api";
+import { extractMapPoints, mapCmsBlocks, resolveBlockData } from "@/cms/lib";
+import { mapRoutePointsToTimeline } from "@/cms/lib/map-route-points";
 
 export const revalidate = 60;
 
@@ -44,14 +47,30 @@ export default async function RouteDetailRoute({ params }: TProps) {
 		notFound();
 	}
 
+	const sections = mapCmsBlocks(
+		resolveBlockData(route.blocks, {
+			document: route as unknown as Record<string, unknown>,
+			locale,
+			navigation: { rootSlug: destination?.slug ?? "destinations" }
+		})
+	);
+
+	const timeline = mapRoutePointsToTimeline(extractMapPoints(route));
+
 	return (
-		<RouteDetailPage
-			route={route}
-			navigationRootSlug={destination?.slug ?? "destinations"}
-			breadcrumbItems={buildRouteDetailBreadcrumbs(
-				route.title,
-				route.slug
-			)}
-		/>
+		<>
+			<Cms
+				sections={sections}
+				breadcrumbItems={buildRouteDetailBreadcrumbs(
+					route.title,
+					route.slug
+				)}
+			/>
+			{timeline.length ? (
+				<div className="mx-auto flex w-full max-w-7xl flex-col gap-12 px-4 py-16 sm:gap-14 sm:px-6 sm:py-20 lg:gap-16 lg:px-8">
+					<RouteStopsTimeline items={timeline} />
+				</div>
+			) : null}
+		</>
 	);
 }

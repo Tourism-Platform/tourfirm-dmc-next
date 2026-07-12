@@ -214,13 +214,16 @@ attraction.city === city (если указан attraction)
 
 ## 5. Контент
 
-### `journal-entries`
+### `blog` (ранее `journal-entries`)
 
 | Поле | Тип | Локализация | Обяз. | Описание |
 |---|---|---|---|---|
 | `slug` | text | ✓ | ✓ | |
 | `title` / `subtitle` / `excerpt` / `content` | — | ✓ | title ✓ | |
 | `coverImage` | upload → `media` | | | |
+| `cardMeta` | text | ✓ | | строка для карточки |
+| `publishDate` | date | | | |
+| `featured` / `sortOrder` | checkbox / number | | | |
 | `tags` | array of text | | | |
 | `badges` | relationship[] → `badges` | | | |
 | `relatedCountries` | relationship[] → `countries` | | | |
@@ -229,7 +232,24 @@ attraction.city === city (если указан attraction)
 | `blocks` | blocks[] | ✓ | ✓ | `hero` \| `regular` \| `cta` \| `overviewStats` \| `contactInfo` |
 | `seo`, status | | | | |
 
-URL: `/journal/{slug}`
+URL: `/blog/{slug}` · Hub global: `blog-hub`
+
+---
+
+### `news`
+
+| Поле | Тип | Локализация | Обяз. | Описание |
+|---|---|---|---|---|
+| `slug` | text | ✓ | ✓ | |
+| `title` / `excerpt` / `content` | — | ✓ | title ✓ | |
+| `heroImage` | upload → `media` | | | |
+| `publishDate` | date | | | |
+| `categories` | array of localized text | ✓ | | |
+| `featured` / `sortOrder` | checkbox / number | | | |
+| `blocks` | blocks[] | ✓ | ✓ | |
+| `seo`, status | | | | |
+
+URL: `/company/news/{slug}` · Hub global: `news-hub` (CMS domain отдельно от `pages/company-news`)
 
 ---
 
@@ -239,6 +259,9 @@ URL: `/journal/{slug}`
 |---|---|---|---|---|
 | `slug` | text | ✓ | ✓ | |
 | `title` / `excerpt` / `content` | — | ✓ | title ✓ | |
+| `heroImage` | upload → `media` | | | |
+| `stand` / `participants` | text | ✓ | | |
+| `featured` / `sortOrder` | checkbox / number | | | |
 | `startDate` / `endDate` | date | | | |
 | `cityRelation` | relationship → `cities` | | | опционально |
 | `cityName` | text | ✓ | | |
@@ -248,7 +271,7 @@ URL: `/journal/{slug}`
 | `blocks` | blocks[] | ✓ | ✓ | `hero` \| `regular` \| `cta` \| `overviewStats` \| `contactInfo` |
 | `seo`, status | | | | |
 
-URL: `/trade-fairs/{slug}`
+URL: `/trade-fairs/{slug}` · Hub global: `trade-fairs-hub`
 
 ---
 
@@ -428,8 +451,12 @@ localization: {
 /experiences
 /experiences/{experienceSlug}
 /themes/{themeSlug}
-/journal/{slug}
+/trade-fairs
 /trade-fairs/{slug}
+/blog
+/blog/{slug}
+/company/news
+/company/news/{slug}
 /{pageSlug}
 ```
 
@@ -451,7 +478,7 @@ localization: {
 
 | Коллекция | Drafts/Versions |
 |---|---|
-| `countries`, `regions`, `cities`, `attractions`, `routes`, `experiences`, `themes`, `journal-entries`, `trade-fairs`, `pages` | ✓ |
+| `countries`, `regions`, `cities`, `attractions`, `routes`, `experiences`, `themes`, `blog`, `news`, `trade-fairs`, `pages` | ✓ |
 | `map-points`, `media`, `badges`, `users` | ✗ |
 | Globals (`homepage`, `destination`, `site-settings`, `header`, `footer`) | ✗ |
 

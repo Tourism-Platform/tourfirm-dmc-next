@@ -1,0 +1,116 @@
+slug:
+  en: industry-award
+  ru: industry-award
+  uz: industry-award
+title:
+  en: TourLink recognized for Silk Road program design
+  ru: TourLink отмечен за дизайн программ Шёлкового пути
+  uz: TourLink Ipak yo'li dasturlari dizayni uchun e'tirof etildi
+excerpt:
+  en: Regional industry award for curated route logic and agency-ready documentation. Judges highlighted map clarity, experience pairing, and realistic pacing across Uzbekistan programs including silk-road-classics.
+  ru: Региональная отраслевая награда за продуманную логику маршрутов и документацию для агентств. Жюри отметило ясность карт, сочетание впечатлений и реалистичный темп в программах по Узбекистану, включая silk-road-classics.
+  uz: Tanlangan marshrut mantiqi va agentliklar uchun hujjatlar uchun mintaqaviy soha mukofoti. Hakamlar silk-road-classics ham bo'lganda O'zbekiston dasturlaridagi xarita aniqligi, taassurot juftlashuvi va realistik ritmni ta'kidladilar.
+heroImage: assets/images/tours/silk-road.jpg
+publishDate: "2025-08-22"
+categories:
+  - category:
+      en: Awards
+      ru: Награды
+      uz: Mukofotlar
+  - category:
+      en: Industry
+      ru: Отрасль
+      uz: Soha
+featured: true
+sortOrder: 2
+blocks:
+  - blockType: hero
+    image: assets/images/tours/silk-road.jpg
+    imageAlt:
+      en: Silk Road route award
+      ru: Награда за маршрут Шёлкового пути
+      uz: Ipak yo'li marshruti mukofoti
+    title:
+      en: Award for route design
+      ru: Награда за дизайн маршрутов
+      uz: Marshrut dizayni mukofoti
+    description:
+      en: "Judges highlighted map clarity, experience pairing, and realistic pacing across Uzbekistan programs — the same editorial standards we publish in routes and explain in the journal."
+      ru: "Жюри отметило ясность карт, сочетание впечатлений и реалистичный темп в программах по Узбекистану — те же редакционные стандарты, что мы публикуем в маршрутах и объясняем в журнале."
+      uz: "Hakamlar O'zbekiston dasturlaridagi xarita aniqligi, taassurot juftlashuvi va realistik ritmni ta'kidladilar — marshrutlarda nashr qiladigan va jurnalda tushuntiradigan tahririy standartlar."
+  - blockType: regular
+    eyebrow:
+      en: Recognition
+      ru: Признание
+      uz: E'tirof
+    title:
+      en: What the jury valued
+      ru: Что оценило жюри
+      uz: Hakamlar nima baholadi
+    description:
+      en: "The award cited three strengths: day-by-day logic that agencies can quote without rewriting, experience hooks with confirmed durations, and pacing notes that acknowledge transfer time between UNESCO cities.\n\nDocumentation samples included silk-road-classics map exports, craft workshop blocks from bukhara-craft-trail, and shoulder-season positioning for UK and EU buyers. The recognition reinforces our focus on bookable clarity — not brochure poetry."
+      ru: "Награда отметила три сильные стороны: логику по дням, которую агентства цитируют без переписывания, впечатления с подтверждённой длительностью и заметки о темпе с учётом переездов между объектами ЮНЕСКО.\n\nВ образцы вошли карты silk-road-classics, блоки мастерских из bukhara-craft-trail и позиционирование межсезонья для UK и EU. Признание подкрепляет фокус на бронируемой ясности — не брошюрной поэзии."
+      uz: "Mukofot uch kuchli tomonni ko'rsatdi: agentliklar qayta yozmasdan narx beradigan kunlik mantiq, tasdiqlangan davomiylikdagi taassurot bog'lanishlari va YuNESKO shaharlari orasidagi transfer vaqtini hisobga olgan ritm qaydlari.\n\nNamunalar silk-road-classics xarita eksportlari, bukhara-craft-trail ustaxona bloklari va UK hamda EU xaridorlari uchun oraliq mavsum pozitsiyasini o'z ichiga oldi. E'tirof bron qilinadigan aniqlikka e'tiborimizni mustahkamlaydi — broshyura she'riyati emas."
+    gridClassName: md:grid-cols-2
+    cards:
+      - type: destinationInsight
+        icon: award
+        title:
+          en: Agency-ready docs
+          ru: Документация для агентств
+          uz: Agentliklar uchun hujjatlar
+        description:
+          en: Sample briefs, emergency lines, and catalog queries bundled with route exports — what judges called quotable product.
+          ru: Примеры брифов, линии связи и запросы каталога вместе с экспортом маршрутов — то, что жюри назвало цитируемым продуктом.
+          uz: Namuna briflar, favqulodda liniyalar va marshrut eksportlari bilan katalog so'rovlari — hakamlar narx beriladigan mahsulot deb atagan narsa.
+      - type: destinationInsight
+        icon: compass
+        title:
+          en: Map-first routes
+          ru: Маршруты с картой в основе
+          uz: Xarita asosidagi marshrutlar
+        description:
+          en: City order, drive blocks, and experience pins on one view — the pattern behind silk-road-classics and related editorial routes.
+          ru: Порядок городов, дорожные блоки и впечатления на одном экране — паттерн silk-road-classics и связанных редакционных маршрутов.
+          uz: Shahar tartibi, yo'l bloklari va taassurot belgilari bir ko'rinishda — silk-road-classics va bog'langan tahririy marshrutlar ortidagi naqsh.
+  - blockType: cta
+    image: assets/images/samarkand.jpg
+    imageAlt:
+      en: Samarkand skyline
+      ru: Панорама Самарканда
+      uz: Samarqand manzarasi
+    title:
+      en: Explore award-winning route logic
+      ru: Изучите отмеченную логику маршрутов
+      uz: Mukofotlangan marshrut mantiqini o'rganing
+    description:
+      en: The same programs cited in the award are live in the routes hub — maps, experiences, and catalog handoff included.
+      ru: Программы из награды доступны в хабе маршрутов — карты, впечатления и передача в каталог.
+      uz: Mukofotda keltirilgan dasturlar marshrutlar markazida — xaritalar, taassurotlar va katalog topshirig'i bilan.
+    actions:
+      - type: link
+        variant: default
+        title:
+          en: Browse routes
+          ru: Смотреть маршруты
+          uz: Marshrutlarni ko'rish
+        href: /routes
+      - type: link
+        variant: outline
+        title:
+          en: Read the journal
+          ru: Читать журнал
+          uz: Jurnalni o'qish
+        href: /blog
+seo:
+  metaTitle:
+    en: Industry award | TourLink News
+    ru: Отраслевая награда | TourLink
+    uz: Soha mukofoti | TourLink
+  metaDescription:
+    en: TourLink recognized for Silk Road program design — map clarity, experience pairing, and agency documentation.
+    ru: TourLink отмечен за дизайн программ Шёлкового пути — карты, впечатления и документация для агентств.
+    uz: TourLink Ipak yo'li dasturlari dizayni uchun e'tirof — xaritalar, taassurotlar va agentlik hujjatlari.
+status:
+  showInSitemap: true
+  publishedAt: "2025-08-22"

@@ -1,19 +1,13 @@
 {
 	"routes": {
-		"eyebrow": "Discovery",
-		"catalog_title": "Все маршруты",
-		"catalog_description": "Редакционные маршруты в порядке, заданном командой — полный список ниже.",
-		"empty": "Опубликованных маршрутов пока нет.",
-		"view_all": "Все маршруты",
 		"pagination_prev": "Предыдущая страница",
 		"pagination_next": "Следующая страница"
 	},
 	"experiences": {
-		"eyebrow": "Discovery",
-		"catalog_title": "Все впечатления",
-		"catalog_description": "Мастерские, дегустации, прогулки и встречи — полный каталог ниже.",
-		"empty": "Опубликованных впечатлений пока нет.",
-		"view_all": "Все впечатления",
+		"pagination_prev": "Предыдущая страница",
+		"pagination_next": "Следующая страница"
+	},
+	"blog": {
 		"pagination_prev": "Предыдущая страница",
 		"pagination_next": "Следующая страница"
 	}

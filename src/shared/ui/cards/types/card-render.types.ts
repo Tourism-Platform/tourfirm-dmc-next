@@ -5,8 +5,12 @@ export enum CardType {
 	DestinationInsight = "destinationInsight",
 	TeamMember = "teamMember",
 	RouteIdea = "routeIdea",
+	Route = "route",
 	Experience = "experience",
 	TradeFair = "tradeFair",
+	Blog = "blog",
+	News = "news",
+	/** @deprecated Use CardType.Blog */
 	Journal = "journal",
 	OverviewStat = "overviewStat",
 	ServicesBusiness = "servicesBusiness",

@@ -4,12 +4,10 @@ import { notFound } from "next/navigation";
 import { buildGeoBreadcrumbs } from "@/shared/lib/routing/build-geo-breadcrumbs";
 import { createCmsPageMetadata } from "@/shared/lib/seo";
 
-import { AttractionPage } from "@/page/attraction";
-import { CityPage } from "@/page/city";
+import { Cms } from "@/widgets/cms";
+import { Destinations } from "@/widgets/destinations";
+
 import { CmsPage } from "@/page/cms";
-import { CountryPage } from "@/page/country";
-import { DestinationsPage } from "@/page/destinations";
-import { RegionPage } from "@/page/region";
 
 import { mapCmsBlocks } from "@/cms/lib";
 import { type TGeoRoute, resolveAppRoute } from "@/cms/routing";
@@ -81,50 +79,13 @@ export default async function GeoCatchAllRoute({ params }: TProps) {
 		const sections = mapCmsBlocks(route.document.blocks);
 		const t = await getTranslations("header.public.nav.destinations");
 		const breadcrumbItems = buildGeoBreadcrumbs(route, t("label"));
-
-		if (route.kind === "country") {
-			return (
-				<CountryPage
-					sections={sections}
-					breadcrumbItems={breadcrumbItems}
-				/>
-			);
-		}
-
-		if (route.kind === "region") {
-			return (
-				<RegionPage
-					sections={sections}
-					breadcrumbItems={breadcrumbItems}
-				/>
-			);
-		}
-
-		if (route.kind === "city") {
-			return (
-				<CityPage
-					sections={sections}
-					breadcrumbItems={breadcrumbItems}
-				/>
-			);
-		}
-
-		if (route.kind === "attraction") {
-			return (
-				<AttractionPage
-					sections={sections}
-					breadcrumbItems={breadcrumbItems}
-				/>
-			);
-		}
-
-		notFound();
+		return <Cms sections={sections} breadcrumbItems={breadcrumbItems} />;
 	}
 
 	const sections = mapCmsBlocks(route.document.blocks);
 
 	if (route.kind === "destination") {
-		return <DestinationsPage sections={sections} />;
+		return <Destinations sections={sections} />;
 	}
 
 	return <CmsPage sections={sections} />;
