@@ -7,7 +7,7 @@ import { createCmsPageMetadata } from "@/shared/lib/seo";
 import { MainPage } from "@/page/main";
 
 import { getHomepage } from "@/cms/api";
-import { mapCmsBlocks } from "@/cms/lib";
+import { mapCmsBlocks, resolveBlockData } from "@/cms/lib";
 
 export const revalidate = 60;
 
@@ -31,7 +31,11 @@ export default async function MainRoute({ params }: TProps) {
 	setRequestLocale(locale);
 
 	const homepage = await getHomepage(locale);
-	const sections = mapCmsBlocks(homepage?.blocks ?? []);
+	const blocks = resolveBlockData(homepage?.blocks ?? [], {
+		document: {},
+		locale
+	});
+	const sections = mapCmsBlocks(blocks);
 
 	return <MainPage sections={sections} />;
 }
