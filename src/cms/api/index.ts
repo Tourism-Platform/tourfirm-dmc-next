@@ -13,30 +13,16 @@ export { findAttractionBySlug } from "./find-attraction-by-slug";
 export { findCityBySlug } from "./find-city-by-slug";
 export { findCountryBySlug } from "./find-country-by-slug";
 export { findRegionBySlug } from "./find-region-by-slug";
-export { findRouteBySlug } from "./find-route-by-slug";
-export { findRoutes, findFeaturedRoutes } from "./find-routes";
-export { findExperienceBySlug } from "./find-experience-by-slug";
-export {
-	findExperiences,
-	findFeaturedExperiences,
-	findSimilarExperiences
-} from "./find-experiences";
-export { findThemeBySlug, findThemes, findFeaturedThemes } from "./find-themes";
-export { findTradeFairs, findFeaturedTradeFairs } from "./find-trade-fairs";
-export { findTradeFairBySlug } from "./find-trade-fair-by-slug";
-export { findBlogPosts, findFeaturedBlogPosts } from "./find-blog-posts";
-export { findBlogPostBySlug } from "./find-blog-post-by-slug";
-export { findNews, findFeaturedNews } from "./find-news";
-export { findNewsBySlug } from "./find-news-by-slug";
+export { findSimilarExperiences } from "./find-experiences";
 export { getDestination } from "./get-destination";
-export { getExperiencesHub } from "./get-experiences-hub";
 export { getFooter } from "./get-footer";
 export { getHeader } from "./get-header";
 export { getHomepage } from "./get-homepage";
-export { getRoutesHub } from "./get-routes-hub";
-export { getTradeFairsHub } from "./get-trade-fairs-hub";
-export { getBlogHub } from "./get-blog-hub";
-export { getNewsHub } from "./get-news-hub";
+export {
+	findCollectionDocuments,
+	findCollectionDocumentBySlug,
+	getCollectionHub
+} from "./find-collection-documents";
 export type {
 	TDiscoveryListResult,
 	TBlogListFilters,

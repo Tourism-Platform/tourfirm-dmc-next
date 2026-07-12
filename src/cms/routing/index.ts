@@ -15,3 +15,8 @@ export {
 	type TSegmentPageRoute
 } from "./resolve-segment-page-route";
 export { getCmsRoutePath } from "./get-cms-route-path";
+export { buildCmsRoutePath } from "./build-cms-route-path";
+export { getRouteDefinition } from "./collection-route.registry";
+export { getRouteRuntime } from "./route-runtime.registry";
+export { loadRouteData } from "./load-route-data";
+export { buildCmsRouteMetadata, renderCmsRoute } from "./render-cms-route";

@@ -1,23 +1,111 @@
 /**
- * Route strategy: CMS destination global (navigation root) + geo hierarchy.
- *
- * URL: /{locale}/{destinationPageSlug}/[{country}/{region}/{city}/{attraction}]
- * destinationPageSlug comes from CMS global `destination.slug` — never hardcoded.
+ * Route strategy: registry-driven discovery routes + CMS destination + geo hierarchy.
  */
+import {
+	isStaticAppRouteSegment,
+	isSystemReservedSegment
+} from "@/shared/config/routes";
+
 import { getDestination } from "../api/get-destination";
 
+import type { TAppRoute } from "./app-route.types";
+import { matchRegistryRoute } from "./collection-route.registry";
 import type { TGeoRoute } from "./geo-route.types";
 import { type TCmsRoute, resolveCmsRoute } from "./resolve-cms-route";
 import { MAX_GEO_SEGMENTS, resolveGeoRoute } from "./resolve-geo-route";
-import { resolveGroupedSegmentPageRoute } from "./resolve-grouped-segment-page-route";
 import { resolveSegmentPageRoute } from "./resolve-segment-page-route";
+import { hasHubGlobal } from "./route-runtime.registry";
 
-export type TAppRoute =
-	| ({ source: "geo" } & TGeoRoute)
-	| ({ source: "cms" } & TCmsRoute);
+export type { TAppRoute } from "./app-route.types";
 
 /** Max URL segments including navigation root slug. */
 export const MAX_APP_ROUTE_SEGMENTS = MAX_GEO_SEGMENTS + 1;
+
+function isStaticReserved(segments: readonly string[]): boolean {
+	const first = segments[0];
+
+	if (!first) {
+		return false;
+	}
+
+	return isStaticAppRouteSegment(first) || isSystemReservedSegment(first);
+}
+
+function toRegistryAppRoute(
+	matched: NonNullable<ReturnType<typeof matchRegistryRoute>>
+): TAppRoute {
+	if (matched.kind === "hub") {
+		return {
+			routeKey: matched.routeKey,
+			target: matched.target,
+			source: "collection",
+			kind: "hub"
+		};
+	}
+
+	if (matched.kind === "page") {
+		return {
+			routeKey: matched.routeKey,
+			target: matched.target,
+			source: "cms",
+			kind: "page",
+			slug: matched.slug,
+			document: {} as never
+		};
+	}
+
+	return {
+		routeKey: matched.routeKey,
+		target: matched.target,
+		source: "collection",
+		kind: "detail",
+		slug: matched.slug
+	};
+}
+
+function augmentLegacyCmsRoute(
+	cmsRoute: TCmsRoute,
+	routeKey: string
+): TAppRoute {
+	if (cmsRoute.kind === "destination") {
+		return {
+			routeKey,
+			target: { type: "destination" },
+			source: "cms",
+			kind: "destination",
+			document: cmsRoute.document
+		};
+	}
+
+	if (cmsRoute.kind === "segment-page") {
+		return {
+			routeKey,
+			target: { type: "page", segment: cmsRoute.segment.slug ?? "" },
+			source: "cms",
+			kind: "segment-page",
+			document: cmsRoute.document,
+			segment: cmsRoute.segment
+		};
+	}
+
+	return {
+		routeKey,
+		target: { type: "page", segment: "root" },
+		source: "cms",
+		kind: "page",
+		document: cmsRoute.document,
+		slug: cmsRoute.document.slug ?? ""
+	};
+}
+
+function augmentGeoRoute(geoRoute: TGeoRoute): TAppRoute {
+	return {
+		routeKey: `geo:${geoRoute.kind}:${geoRoute.document.slug}`,
+		target: { type: "geo" },
+		source: "geo",
+		...geoRoute
+	};
+}
 
 export async function resolveAppRoute(
 	locale: string,
@@ -27,12 +115,24 @@ export async function resolveAppRoute(
 		return null;
 	}
 
+	if (isStaticReserved(segments)) {
+		return null;
+	}
+
+	const registryMatch = matchRegistryRoute(segments, hasHubGlobal);
+
+	if (registryMatch) {
+		return toRegistryAppRoute(registryMatch);
+	}
+
 	const destination = await getDestination(locale);
 	const navigationRootSlug = destination?.slug;
 
 	if (navigationRootSlug && segments[0] === navigationRootSlug) {
 		if (segments.length === 1) {
 			return {
+				routeKey: "destination",
+				target: { type: "destination" },
 				source: "cms",
 				kind: "destination",
 				document: destination
@@ -52,7 +152,7 @@ export async function resolveAppRoute(
 		);
 
 		if (geoRoute) {
-			return { source: "geo", ...geoRoute };
+			return augmentGeoRoute(geoRoute);
 		}
 
 		return null;
@@ -66,22 +166,10 @@ export async function resolveAppRoute(
 		);
 
 		if (segmentPageRoute) {
-			return { source: "cms", ...segmentPageRoute };
-		}
-
-		return null;
-	}
-
-	if (segments.length === 3) {
-		const groupedSegmentPageRoute = await resolveGroupedSegmentPageRoute(
-			locale,
-			segments[0]!,
-			segments[1]!,
-			segments[2]!
-		);
-
-		if (groupedSegmentPageRoute) {
-			return { source: "cms", ...groupedSegmentPageRoute };
+			return augmentLegacyCmsRoute(
+				segmentPageRoute,
+				`segment:${segments[0]}/${segments[1]}`
+			);
 		}
 
 		return null;
@@ -91,7 +179,7 @@ export async function resolveAppRoute(
 		const cmsRoute = await resolveCmsRoute(locale, segments[0]!);
 
 		if (cmsRoute) {
-			return { source: "cms", ...cmsRoute };
+			return augmentLegacyCmsRoute(cmsRoute, `cms:${segments[0]}`);
 		}
 	}
 

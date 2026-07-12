@@ -6,7 +6,6 @@ const mockGetDestination = vi.fn();
 const mockResolveGeoRoute = vi.fn();
 const mockResolveCmsRoute = vi.fn();
 const mockResolveSegmentPageRoute = vi.fn();
-const mockResolveGroupedSegmentPageRoute = vi.fn();
 
 vi.mock("@/cms/api/get-destination", () => ({
 	getDestination: (...args: unknown[]) => mockGetDestination(...args)
@@ -26,11 +25,6 @@ vi.mock("@/cms/routing/resolve-segment-page-route", () => ({
 		mockResolveSegmentPageRoute(...args)
 }));
 
-vi.mock("@/cms/routing/resolve-grouped-segment-page-route", () => ({
-	resolveGroupedSegmentPageRoute: (...args: unknown[]) =>
-		mockResolveGroupedSegmentPageRoute(...args)
-}));
-
 const { resolveAppRoute } = await import("./resolve-app-route");
 
 const page = { id: 1, slug: "about", title: "About" } as Page;
@@ -42,12 +36,85 @@ describe("resolveAppRoute", () => {
 		mockGetDestination.mockResolvedValue({ slug: "destinations" });
 	});
 
+	it("resolves blog hub via registry", async () => {
+		const route = await resolveAppRoute("en", ["blog"]);
+
+		expect(route).toEqual({
+			routeKey: "blog",
+			target: { type: "collection", collection: "blog" },
+			source: "collection",
+			kind: "hub"
+		});
+	});
+
+	it("resolves blog detail via registry", async () => {
+		const route = await resolveAppRoute("en", ["blog", "post-slug"]);
+
+		expect(route).toEqual({
+			routeKey: "blog",
+			target: { type: "collection", collection: "blog" },
+			source: "collection",
+			kind: "detail",
+			slug: "post-slug"
+		});
+	});
+
+	it("resolves company news hub via registry", async () => {
+		const route = await resolveAppRoute("en", ["company", "news"]);
+
+		expect(route).toEqual({
+			routeKey: "company-news",
+			target: { type: "collection", collection: "news" },
+			source: "collection",
+			kind: "hub"
+		});
+	});
+
+	it("resolves team page via registry", async () => {
+		const route = await resolveAppRoute("en", ["company", "team", "john"]);
+
+		expect(route).toEqual({
+			routeKey: "team",
+			target: { type: "page", segment: "company", pathGroup: "team" },
+			source: "cms",
+			kind: "page",
+			slug: "john",
+			document: {}
+		});
+	});
+
+	it("resolves themes detail-only via registry", async () => {
+		const route = await resolveAppRoute("en", ["themes", "culture"]);
+
+		expect(route).toEqual({
+			routeKey: "themes",
+			target: { type: "collection", collection: "themes" },
+			source: "collection",
+			kind: "detail",
+			slug: "culture"
+		});
+	});
+
+	it("does not resolve themes hub without hubGlobal", async () => {
+		const route = await resolveAppRoute("en", ["themes"]);
+
+		expect(route).toBeNull();
+	});
+
+	it("does not resolve italy/rome as collection", async () => {
+		const route = await resolveAppRoute("en", ["italy", "rome"]);
+
+		expect(route).toBeNull();
+	});
+
 	it("resolves root page without segment", async () => {
 		mockResolveCmsRoute.mockResolvedValue({ kind: "page", document: page });
 
 		const route = await resolveAppRoute("en", ["about"]);
 
-		expect(route).toEqual({
+		expect(route).toMatchObject({
+			routeKey: "cms:about",
+			target: { type: "page", segment: "root" },
 			source: "cms",
 			kind: "page",
 			document: page
@@ -66,6 +133,8 @@ describe("resolveAppRoute", () => {
 
 		expect(route?.source).toBe("cms");
 		expect(route).toMatchObject({
+			routeKey: "segment:legal/privacy",
+			target: { type: "page", segment: "legal" },
 			kind: "segment-page",
 			segment: { slug: "legal" }
 		});
@@ -87,7 +156,7 @@ describe("resolveAppRoute", () => {
 	it("prefers geo route when first segment is destination slug", async () => {
 		mockResolveGeoRoute.mockResolvedValue({
 			kind: "country",
-			document: {},
+			document: { slug: "uzbekistan", seo: {} },
 			path: "/destinations/uzbekistan"
 		});
 
@@ -97,6 +166,10 @@ describe("resolveAppRoute", () => {
 		]);
 
 		expect(route?.source).toBe("geo");
+		expect(route).toMatchObject({
+			routeKey: "geo:country:uzbekistan",
+			target: { type: "geo" }
+		});
 		expect(mockResolveSegmentPageRoute).not.toHaveBeenCalled();
 	});
 
@@ -106,44 +179,5 @@ describe("resolveAppRoute", () => {
 		await resolveAppRoute("en", ["legal", "privacy"]);
 
 		expect(mockResolveCmsRoute).not.toHaveBeenCalled();
-	});
-
-	it("resolves grouped segment page at three segments", async () => {
-		mockResolveGroupedSegmentPageRoute.mockResolvedValue({
-			kind: "segment-page",
-			document: { ...page, slug: "sodik-begmatov", pathGroup: "team" },
-			segment: { id: 3, slug: "company", title: "Company" }
-		});
-
-		const route = await resolveAppRoute("en", [
-			"company",
-			"team",
-			"sodik-begmatov"
-		]);
-
-		expect(route?.source).toBe("cms");
-		expect(route).toMatchObject({
-			kind: "segment-page",
-			segment: { slug: "company" }
-		});
-		expect(mockResolveGroupedSegmentPageRoute).toHaveBeenCalledWith(
-			"en",
-			"company",
-			"team",
-			"sodik-begmatov"
-		);
-	});
-
-	it("returns null when grouped segment page is not found", async () => {
-		mockResolveGroupedSegmentPageRoute.mockResolvedValue(null);
-
-		const route = await resolveAppRoute("en", [
-			"company",
-			"team",
-			"missing"
-		]);
-
-		expect(route).toBeNull();
-		expect(mockResolveSegmentPageRoute).not.toHaveBeenCalled();
 	});
 });

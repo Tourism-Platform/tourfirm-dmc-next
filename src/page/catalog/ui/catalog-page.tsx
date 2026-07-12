@@ -2,7 +2,7 @@ import type { TypedLocale } from "payload";
 
 import { Catalog } from "@/widgets/catalog";
 
-import { findFeaturedBlogPosts } from "@/cms/api";
+import { findFeaturedBlogPosts } from "@/cms/api/find-blog-posts";
 import { mapBlogToCard } from "@/cms/lib/map-discovery-cards";
 
 type TProps = {

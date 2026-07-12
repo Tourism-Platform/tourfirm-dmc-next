@@ -1,10 +1,15 @@
+import { isDiscoveryRouteRoot } from "./discovery-route-roots";
+
 /** Never usable as a page or segment slug. */
 export const SYSTEM_RESERVED_SEGMENTS = ["admin", "api"] as const;
 
 /** Static Next.js app routes outside CMS catch-all. */
 export const STATIC_APP_ROUTE_SEGMENTS = ["catalog"] as const;
 
-/** Reserved for future collection detail routes. */
+/**
+ * @deprecated Discovery routes are owned by collection-route.registry.
+ * Use isDiscoveryRouteRoot() instead.
+ */
 export const CMS_COLLECTION_RESERVED_SEGMENTS = [
 	"routes",
 	"experiences",
@@ -34,9 +39,6 @@ export type TReservedPathSegment = (typeof RESERVED_PATH_SEGMENTS)[number];
 
 const SYSTEM_RESERVED_SET = new Set<string>(SYSTEM_RESERVED_SEGMENTS);
 const STATIC_APP_ROUTE_SET = new Set<string>(STATIC_APP_ROUTE_SEGMENTS);
-const CMS_COLLECTION_RESERVED_SET = new Set<string>(
-	CMS_COLLECTION_RESERVED_SEGMENTS
-);
 const LEGACY_RESERVED_SET = new Set<string>(RESERVED_PATH_SEGMENTS);
 
 export function isSystemReservedSegment(
@@ -51,27 +53,28 @@ export function isStaticAppRouteSegment(
 	return STATIC_APP_ROUTE_SET.has(value);
 }
 
+/** @deprecated Use isDiscoveryRouteRoot */
 export function isCmsCollectionReservedSegment(
 	value: string
 ): value is TCmsCollectionReservedSegment {
-	return CMS_COLLECTION_RESERVED_SET.has(value);
+	return isDiscoveryRouteRoot(value);
 }
 
-/** Root CMS page slug (no segment) — cannot collide with system or static routes. */
+/** Root CMS page slug (no segment) — cannot collide with system, static, or discovery routes. */
 export function isReservedRootPageSlug(value: string): boolean {
 	return (
 		isSystemReservedSegment(value) ||
 		isStaticAppRouteSegment(value) ||
-		isCmsCollectionReservedSegment(value)
+		isDiscoveryRouteRoot(value)
 	);
 }
 
-/** Segment slug — same restrictions as root pages plus no CMS collection prefixes. */
+/** Segment slug — same restrictions as root pages. */
 export function isReservedSegmentSlug(value: string): boolean {
 	return isReservedRootPageSlug(value);
 }
 
-/** Geo entity slug (country etc.) — block system/static/collection reserved only. */
+/** Geo entity slug (country etc.) — block system/static/discovery reserved only. */
 export function isBlockedGeoEntitySlug(value: string): boolean {
 	return isReservedRootPageSlug(value);
 }
@@ -84,3 +87,5 @@ export function isReservedPathSegment(
 ): value is TReservedPathSegment {
 	return LEGACY_RESERVED_SET.has(value);
 }
+
+export { isDiscoveryRouteRoot } from "./discovery-route-roots";

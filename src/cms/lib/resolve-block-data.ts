@@ -3,16 +3,13 @@ import "server-only";
 import { CardType, type TCardRenderProps } from "@/shared/ui/cards";
 
 import {
+	extractMapPoints,
 	mapAttractionToGeoCard,
-	mapBlogToCard,
 	mapCityToGeoCard,
 	mapCountryToGeoCard,
 	mapExperienceToCard,
-	mapNewsToCard,
-	mapRouteToCard,
-	mapTradeFairToCard
+	mapRouteToCard
 } from "./map-discovery-cards";
-import { extractMapPoints } from "./map-discovery-cards";
 import {
 	mapRoutePointsToStops,
 	resolveRouteMapCenter
@@ -24,25 +21,14 @@ import type {
 	TResolveBlockDataContext
 } from "./resolve-block-data.types";
 import { resolveRelatedDocToCardItem } from "./resolve-related-doc-card";
+import { getCollectionCardConfig } from "@/cms/routing/collection-card.registry";
 import type {
 	Attraction,
-	Blog,
 	City,
 	Country,
 	Experience,
-	News,
-	Route,
-	TradeFair
+	Route
 } from "@/payload-types";
-
-const COLLECTION_RELATION: Record<string, string> = {
-	blog: "blog",
-	news: "news",
-	routes: "routes",
-	experiences: "experiences",
-	"trade-fairs": "trade-fairs",
-	similarExperiences: "experiences"
-};
 
 const GEO_FIELDS = new Set([
 	"countries",
@@ -206,7 +192,7 @@ function mapExperienceCardItem(
 	};
 }
 
-function mapRouteCardItem(route: Route): TCardRenderProps["item"] {
+export function mapRouteCardItem(route: Route): TCardRenderProps["item"] {
 	const card = mapRouteToCard(route);
 
 	return {
@@ -225,9 +211,9 @@ function resolveCollectionCards(
 	context: TResolveBlockDataContext
 ): TEnrichedCmsCard[] {
 	const docs = context.collections?.[collectionKey] ?? [];
-	const relationTo = COLLECTION_RELATION[collectionKey];
+	const cardConfig = getCollectionCardConfig(collectionKey);
 
-	if (!relationTo) {
+	if (!cardConfig) {
 		return [];
 	}
 
@@ -237,84 +223,15 @@ function resolveCollectionCards(
 				return null;
 			}
 
-			const record = doc as Record<string, unknown>;
+			const item = cardConfig.mapToCard(doc);
 
-			if (relationTo === "routes") {
-				return toEnrichedCard(
-					{
-						type: CardType.Route,
-						item: mapRouteCardItem(record as unknown as Route)
-					},
-					index
-				);
-			}
-
-			if (relationTo === "experiences") {
-				return toEnrichedCard(
-					{
-						type: CardType.Experience,
-						item: mapExperienceCardItem(
-							record as unknown as Experience
-						)
-					},
-					index
-				);
-			}
-
-			if (relationTo === "blog") {
-				const card = mapBlogToCard(record as unknown as Blog);
-
-				return toEnrichedCard(
-					{
-						type: CardType.Blog,
-						item: {
-							href: card.href,
-							imageUrl: card.imageUrl,
-							meta: card.meta,
-							title: card.title
-						}
-					},
-					index
-				);
-			}
-
-			if (relationTo === "news") {
-				const card = mapNewsToCard(record as unknown as News);
-
-				return toEnrichedCard(
-					{
-						type: CardType.News,
-						item: {
-							href: card.href,
-							imageUrl: card.imageUrl,
-							meta: card.meta,
-							title: card.title
-						}
-					},
-					index
-				);
-			}
-
-			if (relationTo === "trade-fairs") {
-				const card = mapTradeFairToCard(record as unknown as TradeFair);
-
-				return toEnrichedCard(
-					{
-						type: CardType.TradeFair,
-						item: {
-							href: card.href,
-							imageUrl: card.imageUrl,
-							title: card.title,
-							stand: card.stand,
-							country: card.country,
-							participants: card.participants
-						}
-					},
-					index
-				);
-			}
-
-			return resolveDocToCard(relationTo, record, index);
+			return toEnrichedCard(
+				{
+					type: cardConfig.cardType,
+					item
+				},
+				index
+			);
 		})
 		.filter((card): card is TEnrichedCmsCard => card !== null);
 }
