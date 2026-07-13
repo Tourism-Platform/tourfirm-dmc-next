@@ -1,5 +1,38 @@
 import pg from "pg";
 
+function isLockLimitError(error: unknown): boolean {
+	return (
+		typeof error === "object" &&
+		error !== null &&
+		"code" in error &&
+		(error as { code?: string }).code === "53200"
+	);
+}
+
+async function dropPublicTablesIndividually(
+	client: pg.Client
+): Promise<number> {
+	const tablesResult = await client.query<{ tablename: string }>(`
+		SELECT tablename
+		FROM pg_tables
+		WHERE schemaname = 'public'
+	`);
+
+	for (const { tablename } of tablesResult.rows) {
+		await client.query(
+			`DROP TABLE IF EXISTS public."${tablename.replace(/"/g, '""')}" CASCADE`
+		);
+	}
+
+	return tablesResult.rows.length;
+}
+
+async function recreatePublicSchema(client: pg.Client): Promise<void> {
+	await client.query("DROP SCHEMA IF EXISTS public CASCADE");
+	await client.query("CREATE SCHEMA public");
+	await client.query("GRANT ALL ON SCHEMA public TO public");
+}
+
 export function isSeedFullReset(): boolean {
 	return process.env.SEED_FULL_RESET === "true";
 }
@@ -19,9 +52,22 @@ export async function resetDatabaseSchema(
 
 	try {
 		await client.connect();
-		await client.query("DROP SCHEMA IF EXISTS public CASCADE");
-		await client.query("CREATE SCHEMA public");
-		await client.query("GRANT ALL ON SCHEMA public TO public");
+
+		try {
+			await recreatePublicSchema(client);
+		} catch (error) {
+			if (!isLockLimitError(error)) {
+				throw error;
+			}
+
+			console.warn(
+				"  ! DROP SCHEMA hit lock limit, dropping tables individually..."
+			);
+			const dropped = await dropPublicTablesIndividually(client);
+			console.log(`  Dropped ${dropped} tables`);
+			await recreatePublicSchema(client);
+		}
+
 		console.log("Database schema reset complete");
 	} finally {
 		await client.end();

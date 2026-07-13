@@ -7,7 +7,9 @@ import type { Media } from "@/payload-types";
 
 import type { SeedLookupCache } from "./seed-lookup-cache.js";
 
-const LOCALES = ["en", "ru", "uz"] as const;
+import { SUPPORTED_LOCALES } from "../config/supported-locales.js";
+
+const LOCALES = SUPPORTED_LOCALES;
 type TLocale = (typeof LOCALES)[number];
 
 type TMediaCache = Map<string, Media>;

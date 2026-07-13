@@ -157,8 +157,42 @@ export interface Config {
 		| ("false" | "none" | "null")
 		| false
 		| null
-		| ("en" | "ru" | "uz")
-		| ("en" | "ru" | "uz")[];
+		| (
+				| "en"
+				| "ru"
+				| "uz"
+				| "es"
+				| "de"
+				| "fr"
+				| "it"
+				| "pt"
+				| "nl"
+				| "pl"
+				| "tr"
+				| "ar"
+				| "zh"
+				| "ja"
+				| "ko"
+				| "hi"
+		  )
+		| (
+				| "en"
+				| "ru"
+				| "uz"
+				| "es"
+				| "de"
+				| "fr"
+				| "it"
+				| "pt"
+				| "nl"
+				| "pl"
+				| "tr"
+				| "ar"
+				| "zh"
+				| "ja"
+				| "ko"
+				| "hi"
+		  )[];
 	globals: {
 		homepage: Homepage;
 		destination: Destination;
@@ -195,7 +229,23 @@ export interface Config {
 		"ui-discovery": UiDiscoverySelect<false> | UiDiscoverySelect<true>;
 		"ui-widgets": UiWidgetsSelect<false> | UiWidgetsSelect<true>;
 	};
-	locale: "en" | "ru" | "uz";
+	locale:
+		| "en"
+		| "ru"
+		| "uz"
+		| "es"
+		| "de"
+		| "fr"
+		| "it"
+		| "pt"
+		| "nl"
+		| "pl"
+		| "tr"
+		| "ar"
+		| "zh"
+		| "ja"
+		| "ko"
+		| "hi";
 	widgets: {
 		collections: CollectionsWidget;
 	};
@@ -12606,13 +12656,84 @@ export interface UiCommon {
 	id: number;
 	localeAvailability: {
 		en: {
-			enabled: boolean;
-		};
-		ru?: {
+			label: string;
 			enabled?: boolean | null;
+			showInDropdown?: boolean | null;
 		};
-		uz?: {
+		ru: {
+			label: string;
 			enabled?: boolean | null;
+			showInDropdown?: boolean | null;
+		};
+		uz: {
+			label: string;
+			enabled?: boolean | null;
+			showInDropdown?: boolean | null;
+		};
+		es: {
+			label: string;
+			enabled?: boolean | null;
+			showInDropdown?: boolean | null;
+		};
+		de: {
+			label: string;
+			enabled?: boolean | null;
+			showInDropdown?: boolean | null;
+		};
+		fr: {
+			label: string;
+			enabled?: boolean | null;
+			showInDropdown?: boolean | null;
+		};
+		it: {
+			label: string;
+			enabled?: boolean | null;
+			showInDropdown?: boolean | null;
+		};
+		pt: {
+			label: string;
+			enabled?: boolean | null;
+			showInDropdown?: boolean | null;
+		};
+		nl: {
+			label: string;
+			enabled?: boolean | null;
+			showInDropdown?: boolean | null;
+		};
+		pl: {
+			label: string;
+			enabled?: boolean | null;
+			showInDropdown?: boolean | null;
+		};
+		tr: {
+			label: string;
+			enabled?: boolean | null;
+			showInDropdown?: boolean | null;
+		};
+		ar: {
+			label: string;
+			enabled?: boolean | null;
+			showInDropdown?: boolean | null;
+		};
+		zh: {
+			label: string;
+			enabled?: boolean | null;
+			showInDropdown?: boolean | null;
+		};
+		ja: {
+			label: string;
+			enabled?: boolean | null;
+			showInDropdown?: boolean | null;
+		};
+		ko: {
+			label: string;
+			enabled?: boolean | null;
+			showInDropdown?: boolean | null;
+		};
+		hi: {
+			label: string;
+			enabled?: boolean | null;
+			showInDropdown?: boolean | null;
 		};
 	};
 	meta?: {
@@ -14447,17 +14568,114 @@ export interface UiCommonSelect<T extends boolean = true> {
 				en?:
 					| T
 					| {
+							label?: T;
 							enabled?: T;
+							showInDropdown?: T;
 					  };
 				ru?:
 					| T
 					| {
+							label?: T;
 							enabled?: T;
+							showInDropdown?: T;
 					  };
 				uz?:
 					| T
 					| {
+							label?: T;
 							enabled?: T;
+							showInDropdown?: T;
+					  };
+				es?:
+					| T
+					| {
+							label?: T;
+							enabled?: T;
+							showInDropdown?: T;
+					  };
+				de?:
+					| T
+					| {
+							label?: T;
+							enabled?: T;
+							showInDropdown?: T;
+					  };
+				fr?:
+					| T
+					| {
+							label?: T;
+							enabled?: T;
+							showInDropdown?: T;
+					  };
+				it?:
+					| T
+					| {
+							label?: T;
+							enabled?: T;
+							showInDropdown?: T;
+					  };
+				pt?:
+					| T
+					| {
+							label?: T;
+							enabled?: T;
+							showInDropdown?: T;
+					  };
+				nl?:
+					| T
+					| {
+							label?: T;
+							enabled?: T;
+							showInDropdown?: T;
+					  };
+				pl?:
+					| T
+					| {
+							label?: T;
+							enabled?: T;
+							showInDropdown?: T;
+					  };
+				tr?:
+					| T
+					| {
+							label?: T;
+							enabled?: T;
+							showInDropdown?: T;
+					  };
+				ar?:
+					| T
+					| {
+							label?: T;
+							enabled?: T;
+							showInDropdown?: T;
+					  };
+				zh?:
+					| T
+					| {
+							label?: T;
+							enabled?: T;
+							showInDropdown?: T;
+					  };
+				ja?:
+					| T
+					| {
+							label?: T;
+							enabled?: T;
+							showInDropdown?: T;
+					  };
+				ko?:
+					| T
+					| {
+							label?: T;
+							enabled?: T;
+							showInDropdown?: T;
+					  };
+				hi?:
+					| T
+					| {
+							label?: T;
+							enabled?: T;
+							showInDropdown?: T;
 					  };
 		  };
 	meta?:

@@ -1,6 +1,5 @@
 "use client";
 
-import type { Locale } from "next-intl";
 import Image from "next/image";
 import type { FC } from "react";
 
@@ -10,6 +9,7 @@ import type { TDestinationsNavTree } from "@/shared/types/destinations-nav.types
 import type { TDiscoveryNavTree } from "@/shared/types/discovery-nav.types";
 import type { TResolvedNavLink } from "@/shared/types/navigation.types";
 import { LanguageToggle, ThemeToggle } from "@/shared/ui";
+import type { TDropdownLanguage } from "@/shared/ui-content";
 
 import { PublicMobileNavMenu } from "./ui/public-mobile-nav-menu";
 import { PublicNavMenu } from "./ui/public-nav-menu";
@@ -22,7 +22,7 @@ type TProps = {
 	routesNav?: TDiscoveryNavTree | null;
 	experiencesNav?: TDiscoveryNavTree | null;
 	logoSrc?: string;
-	enabledLocales?: Locale[];
+	dropdownLanguages?: TDropdownLanguage[];
 	brandName?: string;
 };
 
@@ -32,7 +32,7 @@ export const HeaderDefault: FC<TProps> = ({
 	routesNav = null,
 	experiencesNav = null,
 	logoSrc = DEFAULT_LOGO_SRC,
-	enabledLocales,
+	dropdownLanguages,
 	brandName = "TourLink"
 }) => {
 	const isRemoteLogo = logoSrc.startsWith("http");
@@ -75,7 +75,7 @@ export const HeaderDefault: FC<TProps> = ({
 				</div>
 				<div className="flex shrink-0 items-center gap-2">
 					<ThemeToggle />
-					<LanguageToggle enabledLocales={enabledLocales} />
+					<LanguageToggle languages={dropdownLanguages} />
 				</div>
 			</div>
 		</header>

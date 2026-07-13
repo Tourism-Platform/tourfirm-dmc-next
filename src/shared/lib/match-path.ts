@@ -1,8 +1,10 @@
+import { SUPPORTED_LOCALES } from "@config/supported-locales";
+
 type TMatchPathResult = {
 	params: Record<string, string>;
 };
 
-const LOCALE_PREFIXES = new Set(["en", "ru", "uz"]);
+const LOCALE_PREFIXES = new Set<string>(SUPPORTED_LOCALES);
 
 function normalizePath(path: string): string[] {
 	const parts = path.split("/").filter(Boolean);

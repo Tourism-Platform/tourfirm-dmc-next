@@ -6,6 +6,7 @@ export {
 export { UiContentProvider, useUiContent } from "./provider";
 export type {
 	TDiscoveryPaginationKey,
+	TDropdownLanguage,
 	TLocaleAvailability,
 	TUiCatalog,
 	TUiCommon,

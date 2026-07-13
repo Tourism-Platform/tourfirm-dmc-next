@@ -49,6 +49,7 @@ import {
 import { createDiscoverySeeder } from "./seed-discovery.js";
 import { seedUiContent } from "./seed-ui-content.js";
 import { mapWithConcurrency, SEED_LIMITS } from "./seed-parallel.js";
+import { SUPPORTED_LOCALES } from "../config/supported-locales.js";
 
 const SEED_STAGE_COUNT = 20;
 
@@ -60,7 +61,7 @@ const ROUTE_MAP_CONTENT_DIRS: Record<TRouteMapCollection, string> = {
 	cities: "cities"
 };
 
-const LOCALES = ["en", "ru", "uz"] as const;
+const LOCALES = SUPPORTED_LOCALES;
 type TLocale = (typeof LOCALES)[number];
 
 const SEED_CONTEXT = { isSeed: true } as const;
@@ -220,7 +221,13 @@ function isLocalizedValue(
 	}
 
 	const record = value as Record<string, unknown>;
-	return LOCALES.every((locale) => locale in record);
+	const keys = Object.keys(record);
+
+	if (keys.length === 0) {
+		return false;
+	}
+
+	return keys.every((key) => (LOCALES as readonly string[]).includes(key));
 }
 
 export function pickLocale(value: unknown, locale: TLocale): unknown {
@@ -242,6 +249,34 @@ export function pickLocale(value: unknown, locale: TLocale): unknown {
 	}
 
 	return value;
+}
+
+function rawHasLocaleContent(value: unknown, locale: TLocale): boolean {
+	if (isLocalizedValue(value)) {
+		const localized = (value as Record<string, unknown>)[locale];
+
+		if (localized === null || localized === undefined || localized === "") {
+			return false;
+		}
+
+		if (typeof localized === "object") {
+			return rawHasLocaleContent(localized, locale);
+		}
+
+		return true;
+	}
+
+	if (Array.isArray(value)) {
+		return value.some((item) => rawHasLocaleContent(item, locale));
+	}
+
+	if (value && typeof value === "object") {
+		return Object.values(value as Record<string, unknown>).some((item) =>
+			rawHasLocaleContent(item, locale)
+		);
+	}
+
+	return false;
 }
 
 export async function readYamlFile<T>(filePath: string): Promise<T> {
@@ -790,6 +825,11 @@ export async function seedDiscoveryGlobal(
 	mediaCache: TMediaCache
 ): Promise<void> {
 	for (const locale of LOCALES) {
+		if (!rawHasLocaleContent(raw, locale)) {
+			console.log(`  ~ skip ${slug} locale ${locale} (no seed data)`);
+			continue;
+		}
+
 		const localized = pickLocale(raw, locale) as Record<string, unknown>;
 		const data = await resolveSeedDocument(
 			payload,
@@ -820,6 +860,11 @@ async function seedHomepage(
 	console.log("Seeding homepage global...");
 
 	for (const locale of LOCALES) {
+		if (!rawHasLocaleContent(raw, locale)) {
+			console.log(`  ~ skip homepage locale ${locale} (no seed data)`);
+			continue;
+		}
+
 		const localized = pickLocale(raw, locale) as Record<string, unknown>;
 		const data = await resolveSeedDocument(
 			payload,
@@ -852,6 +897,11 @@ async function seedDestination(
 	const pageSlug = await readDestinationPageSlug();
 
 	for (const locale of LOCALES) {
+		if (!rawHasLocaleContent(raw, locale)) {
+			console.log(`  ~ skip destination locale ${locale} (no seed data)`);
+			continue;
+		}
+
 		const localized = pickLocale(raw, locale) as Record<string, unknown>;
 		const data = await resolveSeedDocument(
 			payload,
@@ -1069,6 +1119,11 @@ export async function seedLocalizedDocOnce(
 
 	for (const locale of LOCALES) {
 		if (locale === "en") {
+			continue;
+		}
+
+		if (!rawHasLocaleContent(raw, locale)) {
+			console.log(`  ~ skip ${collection} locale ${locale} (no seed data)`);
 			continue;
 		}
 
@@ -1357,6 +1412,10 @@ export async function refreshRouteMapStops(
 		}
 
 		for (const locale of LOCALES) {
+			if (!rawHasLocaleContent(item, locale)) {
+				continue;
+			}
+
 			const localeData = await resolveSeedDocument(
 				payload,
 				mediaCache,
@@ -1802,6 +1861,11 @@ async function seedNavigation(
 				continue;
 			}
 
+			if (!rawHasLocaleContent(headerRaw, locale)) {
+				console.log(`  ~ skip header locale ${locale} (no seed data)`);
+				continue;
+			}
+
 			const localized = pickLocale(headerRaw, locale) as Record<
 				string,
 				unknown
@@ -1864,6 +1928,11 @@ async function seedNavigation(
 				continue;
 			}
 
+			if (!rawHasLocaleContent(footerRaw, locale)) {
+				console.log(`  ~ skip footer locale ${locale} (no seed data)`);
+				continue;
+			}
+
 			const localized = pickLocale(footerRaw, locale) as Record<
 				string,
 				unknown
@@ -1891,11 +1960,22 @@ async function seedNavigation(
 		}
 	}
 
-	await assertNavigationLabelsSeeded(payload);
+	await assertNavigationLabelsSeeded(payload, headerRaw);
 }
 
-async function assertNavigationLabelsSeeded(payload: Payload): Promise<void> {
+async function assertNavigationLabelsSeeded(
+	payload: Payload,
+	headerRaw?: Record<string, unknown>
+): Promise<void> {
+	if (!headerRaw) {
+		return;
+	}
+
 	for (const locale of LOCALES) {
+		if (headerRaw && !rawHasLocaleContent(headerRaw, locale)) {
+			continue;
+		}
+
 		const header = await payload.findGlobal({
 			slug: "header",
 			locale,

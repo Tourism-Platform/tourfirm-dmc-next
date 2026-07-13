@@ -14,18 +14,14 @@ import {
 	SelectTrigger,
 	SelectValue
 } from "@/shared/ui";
-import { useUiContent } from "@/shared/ui-content";
+import type { TDropdownLanguage } from "@/shared/ui-content";
 
 type TProps = {
-	enabledLocales?: Locale[];
+	languages?: TDropdownLanguage[];
 };
 
-export const LanguageToggle: FC<TProps> = ({
-	enabledLocales = routing.locales
-}) => {
+export const LanguageToggle: FC<TProps> = ({ languages = [] }) => {
 	const id = useId();
-	const { common } = useUiContent();
-	const labels = common.languageToggle;
 	const locale = useLocale();
 	const router = useRouter();
 	const pathname = usePathname();
@@ -42,11 +38,10 @@ export const LanguageToggle: FC<TProps> = ({
 		});
 	}
 
-	const localeLabels: Record<string, string> = {
-		en: labels.en,
-		ru: labels.ru,
-		uz: labels.uz
-	};
+	const items =
+		languages.length > 0
+			? languages
+			: routing.locales.map((code) => ({ code, label: code }));
 
 	return (
 		<Select
@@ -71,12 +66,10 @@ export const LanguageToggle: FC<TProps> = ({
 			</SelectTrigger>
 
 			<SelectContent className="[&_*[role=option]]:ps-2 [&_*[role=option]]:pe-8 [&_*[role=option]>span]:end-2 [&_*[role=option]>span]:start-auto [&_*[role=option]>span]:flex [&_*[role=option]>span]:items-center [&_*[role=option]>span]:gap-2">
-				{enabledLocales.map((lang) => (
-					<SelectItem key={lang} value={lang}>
+				{items.map((language) => (
+					<SelectItem key={language.code} value={language.code}>
 						<span className="flex items-center gap-2">
-							<span className="truncate">
-								{localeLabels[lang] ?? lang}
-							</span>
+							<span className="truncate">{language.label}</span>
 						</span>
 					</SelectItem>
 				))}

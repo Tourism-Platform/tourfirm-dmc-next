@@ -1,6 +1,7 @@
 import type { GlobalConfig } from "payload";
 
 import { authenticatedOrPublished } from "../access/authenticated-or-published";
+import { buildLocaleAvailabilityFields } from "../fields/locale-availability-fields";
 import { localizedText } from "../fields/ui-content/localized-text";
 
 export const UiCommon: GlobalConfig = {
@@ -14,43 +15,7 @@ export const UiCommon: GlobalConfig = {
 			name: "localeAvailability",
 			type: "group",
 			label: "Locale Availability",
-			fields: [
-				{
-					name: "en",
-					type: "group",
-					fields: [
-						{
-							name: "enabled",
-							type: "checkbox",
-							defaultValue: true,
-							required: true,
-							admin: { readOnly: true }
-						}
-					]
-				},
-				{
-					name: "ru",
-					type: "group",
-					fields: [
-						{
-							name: "enabled",
-							type: "checkbox",
-							defaultValue: true
-						}
-					]
-				},
-				{
-					name: "uz",
-					type: "group",
-					fields: [
-						{
-							name: "enabled",
-							type: "checkbox",
-							defaultValue: true
-						}
-					]
-				}
-			]
+			fields: buildLocaleAvailabilityFields()
 		},
 		{
 			name: "meta",

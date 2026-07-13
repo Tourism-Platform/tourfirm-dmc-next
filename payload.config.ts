@@ -7,6 +7,10 @@ import { s3Storage } from "@payloadcms/storage-s3";
 import { buildConfig } from "payload";
 import sharp from "sharp";
 
+import {
+	DEFAULT_LOCALE,
+	SUPPORTED_LOCALES
+} from "./config/supported-locales";
 import { collections } from "./src/cms/collections";
 import { globals } from "./src/cms/globals";
 
@@ -16,8 +20,8 @@ const dirname = path.dirname(filename);
 export default buildConfig({
 	editor: lexicalEditor(),
 	localization: {
-		locales: ["en", "ru", "uz"],
-		defaultLocale: "en",
+		locales: [...SUPPORTED_LOCALES],
+		defaultLocale: DEFAULT_LOCALE,
 		fallback: true
 	},
 	collections,

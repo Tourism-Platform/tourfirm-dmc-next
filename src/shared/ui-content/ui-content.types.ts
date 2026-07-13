@@ -135,10 +135,17 @@ export type TUiContent = {
 	widgets: TUiWidgets;
 };
 
-export type TLocaleAvailability = {
-	en: { enabled: boolean };
-	ru: { enabled?: boolean | null };
-	uz: { enabled?: boolean | null };
+export type TLanguageSetting = {
+	label: string;
+	enabled: boolean;
+	showInDropdown: boolean;
+};
+
+export type TLocaleAvailability = Record<string, TLanguageSetting>;
+
+export type TDropdownLanguage = {
+	code: string;
+	label: string;
 };
 
 export type TDiscoveryPaginationKey =

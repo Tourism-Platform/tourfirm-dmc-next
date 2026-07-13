@@ -10,7 +10,7 @@ import { createPageMetadata } from "@/shared/lib/seo";
 import "@/shared/styles/globals.css";
 import { UiContentProvider } from "@/shared/ui-content";
 import {
-	getEnabledLocales,
+	getDropdownLanguages,
 	getLocaleAvailability,
 	isLocaleEnabled,
 	loadUiContent
@@ -73,7 +73,7 @@ export default async function LocaleLayout({ children, params }: TProps) {
 		loadLayoutNavigation(locale)
 	]);
 
-	const enabledLocales = getEnabledLocales(availability);
+	const dropdownLanguages = getDropdownLanguages(availability);
 
 	return (
 		<html
@@ -93,7 +93,7 @@ export default async function LocaleLayout({ children, params }: TProps) {
 								routesNav={layoutNavigation.routesNav}
 								experiencesNav={layoutNavigation.experiencesNav}
 								logoSrc={layoutNavigation.logoSrc}
-								enabledLocales={enabledLocales}
+								dropdownLanguages={dropdownLanguages}
 								brandName={uiContent.footer.brand.name}
 							/>
 							<div className="flex flex-1 flex-col">

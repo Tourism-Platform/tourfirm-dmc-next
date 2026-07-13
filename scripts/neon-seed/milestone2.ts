@@ -1,5 +1,6 @@
 import type { CollectionSlug, Payload } from "payload";
 
+import type { TSupportedLocale } from "../../config/supported-locales.js";
 import { createDiscoverySeeder } from "../seed-discovery.js";
 import {
 	CONTENT_DIR,
@@ -47,7 +48,7 @@ async function neonSeedLocalizedDoc(
 		published?: boolean;
 		beforeCreate?: (
 			data: Record<string, unknown>,
-			locale: "en" | "ru" | "uz"
+			locale: TSupportedLocale
 		) => Promise<Record<string, unknown>>;
 	}
 ): Promise<{ id: number | string; createdDoc?: Record<string, unknown> }> {

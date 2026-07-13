@@ -4,7 +4,12 @@ import { fileURLToPath } from "node:url";
 
 import type { Payload } from "payload";
 
-const LOCALES = ["en", "ru", "uz"] as const;
+import {
+	DEFAULT_LOCALE,
+	SUPPORTED_LOCALES
+} from "../config/supported-locales.js";
+
+const LOCALES = SUPPORTED_LOCALES;
 type TLocale = (typeof LOCALES)[number];
 
 type TUiGlobalSlug =
@@ -26,6 +31,28 @@ const SEED_OP_OPTS = {
 	context: { isSeed: true } as const
 };
 
+const SEED_LOCALE_AVAILABILITY_DEFAULTS: Record<
+	string,
+	{ label: string; enabled: boolean; showInDropdown: boolean }
+> = {
+	en: { label: "English", enabled: true, showInDropdown: true },
+	ru: { label: "Русский", enabled: true, showInDropdown: true },
+	uz: { label: "Oʻzbek", enabled: true, showInDropdown: true },
+	es: { label: "Español", enabled: false, showInDropdown: false },
+	de: { label: "Deutsch", enabled: false, showInDropdown: false },
+	fr: { label: "Français", enabled: false, showInDropdown: false },
+	it: { label: "Italiano", enabled: false, showInDropdown: false },
+	pt: { label: "Português", enabled: false, showInDropdown: false },
+	nl: { label: "Nederlands", enabled: false, showInDropdown: false },
+	pl: { label: "Polski", enabled: false, showInDropdown: false },
+	tr: { label: "Türkçe", enabled: false, showInDropdown: false },
+	ar: { label: "العربية", enabled: false, showInDropdown: false },
+	zh: { label: "中文", enabled: false, showInDropdown: false },
+	ja: { label: "日本語", enabled: false, showInDropdown: false },
+	ko: { label: "한국어", enabled: false, showInDropdown: false },
+	hi: { label: "हिन्दी", enabled: false, showInDropdown: false }
+};
+
 function toCamelCase(key: string): string {
 	return key.replace(/_([a-z])/g, (_, char: string) => char.toUpperCase());
 }
@@ -45,6 +72,28 @@ function convertKeysDeep<T>(value: T): T {
 	}
 
 	return value;
+}
+
+function buildSeedLocaleAvailability() {
+	return Object.fromEntries(
+		SUPPORTED_LOCALES.map((code) => [
+			code,
+			SEED_LOCALE_AVAILABILITY_DEFAULTS[code] ?? {
+				label: code,
+				enabled: code === DEFAULT_LOCALE,
+				showInDropdown: code === DEFAULT_LOCALE
+			}
+		])
+	);
+}
+
+async function hasMessageBundle(locale: string): Promise<boolean> {
+	try {
+		await fs.access(path.join(MESSAGES_DIR, locale));
+		return true;
+	} catch {
+		return false;
+	}
 }
 
 async function loadMessageFile<T>(
@@ -93,14 +142,13 @@ function buildFooterUiTexts(footer: Record<string, unknown>) {
 
 function buildUiCommon(
 	common: Record<string, unknown>,
-	footer: Record<string, unknown>
+	footer: Record<string, unknown>,
+	options?: { includeLocaleAvailability?: boolean }
 ) {
 	return {
-		localeAvailability: {
-			en: { enabled: true },
-			ru: { enabled: true },
-			uz: { enabled: true }
-		},
+		...(options?.includeLocaleAvailability
+			? { localeAvailability: buildSeedLocaleAvailability() }
+			: {}),
 		meta: convertKeysDeep(footer.meta ?? {}),
 		...convertKeysDeep(common)
 	};
@@ -160,6 +208,11 @@ export async function seedUiContent(payload: Payload): Promise<void> {
 	console.log("Seeding UI content globals...");
 
 	for (const locale of LOCALES) {
+		if (!(await hasMessageBundle(locale))) {
+			console.log(`  ~ skip ui content locale ${locale} (no messages/)`);
+			continue;
+		}
+
 		const [header, footer, common, catalog, discovery, company] =
 			await Promise.all([
 				loadMessageFile<Record<string, unknown>>(locale, "header.json"),
@@ -191,7 +244,9 @@ export async function seedUiContent(payload: Payload): Promise<void> {
 			payload,
 			"ui-common",
 			locale,
-			buildUiCommon(common, footer)
+			buildUiCommon(common, footer, {
+				includeLocaleAvailability: locale === DEFAULT_LOCALE
+			})
 		);
 		await updateGlobalLocale(
 			payload,
