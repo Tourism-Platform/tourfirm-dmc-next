@@ -2,7 +2,6 @@
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { MapPin, Search } from "lucide-react";
-import { useTranslations } from "next-intl";
 import type { FC } from "react";
 import { useMemo } from "react";
 import { type UseFormReturn, useForm } from "react-hook-form";
@@ -17,11 +16,12 @@ import {
 	Form,
 	Separator
 } from "@/shared/ui";
+import { createNestedTextResolver, useUiContent } from "@/shared/ui-content";
 
 import {
 	type TSearchTours,
+	createSearchToursSchema,
 	mapSearchToursToCatalogQuery,
-	searchToursSchema,
 	useGetCatalogDestinationsQuery
 } from "@/entities/tour";
 
@@ -34,7 +34,10 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 	form: externalForm,
 	className
 }) => {
-	const t = useTranslations("catalog_page");
+	const { catalog } = useUiContent();
+	const t = createNestedTextResolver(
+		catalog as unknown as Record<string, unknown>
+	);
 	const router = useRouter();
 	const { data: destinations = [] } = useGetCatalogDestinationsQuery();
 
@@ -47,8 +50,13 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 		[destinations]
 	);
 
+	const schema = useMemo(
+		() => createSearchToursSchema(catalog.search.where.required),
+		[catalog.search.where.required]
+	);
+
 	const localForm = useForm<TSearchTours>({
-		resolver: zodResolver(searchToursSchema),
+		resolver: zodResolver(schema),
 		defaultValues: {
 			destination: "",
 			dates: undefined
@@ -106,7 +114,7 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 							className="h-auto px-5 py-3 text-base sm:text-lg"
 						>
 							<span className="flex items-center gap-2">
-								{t("search.submit")}
+								{catalog.search.submit}
 								<Search className="size-5" />
 							</span>
 						</Button>

@@ -1,8 +1,9 @@
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 import type { TypedLocale } from "payload";
 
 import { ENUM_PATH } from "@/shared/config";
 import { createPageMetadata } from "@/shared/lib/seo";
+import { loadUiContent } from "@/shared/ui-content/server";
 
 import { CatalogPage } from "@/page/catalog";
 
@@ -14,11 +15,11 @@ type TProps = {
 
 export async function generateMetadata({ params }: TProps) {
 	const { locale } = await params;
-	const t = await getTranslations({ locale, namespace: "catalog_page" });
+	const uiContent = await loadUiContent(locale);
 
 	return createPageMetadata({
-		title: t("meta.title"),
-		description: t("meta.description"),
+		title: uiContent.catalog.meta.title,
+		description: uiContent.catalog.meta.description,
 		locale,
 		path: ENUM_PATH.MAIN.CATALOG
 	});

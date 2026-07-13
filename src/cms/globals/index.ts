@@ -13,6 +13,10 @@ import { NewsHub } from "./news-hub";
 import { RoutesHub } from "./routes-hub";
 import { SiteSettings } from "./site-settings";
 import { TradeFairsHub } from "./trade-fairs-hub";
+import { UiCatalog } from "./ui-catalog";
+import { UiCommon } from "./ui-common";
+import { UiDiscovery } from "./ui-discovery";
+import { UiWidgets } from "./ui-widgets";
 
 const rawGlobals: GlobalConfig[] = [
 	Homepage,
@@ -24,7 +28,11 @@ const rawGlobals: GlobalConfig[] = [
 	NewsHub,
 	SiteSettings,
 	Header,
-	Footer
+	Footer,
+	UiCommon,
+	UiCatalog,
+	UiDiscovery,
+	UiWidgets
 ];
 
 export const globals = groupGlobals(rawGlobals, ADMIN_ALL_GLOBALS_NAVIGATION);

@@ -1,9 +1,14 @@
 import type { GlobalConfig } from "payload";
 
+import { authenticatedOrPublished } from "../access/authenticated-or-published";
 import { navigationItemFields } from "../fields/navigation-item";
+import { footerUiTextsFields } from "../fields/ui-content/footer-ui-texts-fields";
 
 export const Footer: GlobalConfig = {
 	slug: "footer",
+	access: {
+		read: authenticatedOrPublished
+	},
 	fields: [
 		{
 			name: "columns",
@@ -54,6 +59,7 @@ export const Footer: GlobalConfig = {
 			name: "copyrightText",
 			type: "text",
 			localized: true
-		}
+		},
+		...footerUiTextsFields
 	]
 };

@@ -1,12 +1,12 @@
 "use client";
 
 import { AlertCircleIcon, ImageUpIcon, XIcon } from "lucide-react";
-import { useTranslations } from "next-intl";
 import type { FC } from "react";
 
 import { useFileUpload } from "@/shared/hooks";
 import { type TFileWithPreview } from "@/shared/hooks";
 import { cn } from "@/shared/lib/utils";
+import { formatUiText, useUiContent } from "@/shared/ui-content";
 import { formatBytes } from "@/shared/utils";
 
 interface ICustomUploadMainImageProps {
@@ -24,7 +24,8 @@ export const CustomUploadMainImage: FC<ICustomUploadMainImageProps> = ({
 	onFilesChange,
 	initialValue
 }) => {
-	const t = useTranslations("common");
+	const { common } = useUiContent();
+	const upload = common.uploadMainImage;
 
 	const [
 		{ files, isDragging, errors },
@@ -85,7 +86,7 @@ export const CustomUploadMainImage: FC<ICustomUploadMainImageProps> = ({
 				>
 					<input
 						{...getInputProps()}
-						aria-label={t("upload_main_image.title")}
+						aria-label={upload.title}
 						className="sr-only"
 					/>
 					{previewUrl ? (
@@ -105,10 +106,10 @@ export const CustomUploadMainImage: FC<ICustomUploadMainImageProps> = ({
 								<ImageUpIcon className="size-4 opacity-60" />
 							</div>
 							<p className="mb-1.5 font-medium text-sm">
-								{t("upload_main_image.description")}
+								{upload.description}
 							</p>
 							<p className="text-muted-foreground text-xs">
-								{t("upload_main_image.formats", {
+								{formatUiText(upload.formats, {
 									maxSize: formatBytes(maxSize)
 								})}
 							</p>
@@ -118,7 +119,7 @@ export const CustomUploadMainImage: FC<ICustomUploadMainImageProps> = ({
 				{previewUrl && (
 					<div className="absolute top-4 right-4">
 						<button
-							aria-label={t("upload_main_image.errors.remove")}
+							aria-label={upload.errors.remove}
 							className="z-50 flex size-8 cursor-pointer items-center justify-center rounded-full bg-black/60 text-white outline-none transition-[color,box-shadow] hover:bg-black/80 focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50"
 							onClick={handleDeleteClick}
 							type="button"

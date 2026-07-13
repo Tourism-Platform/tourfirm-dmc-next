@@ -14,7 +14,7 @@ export const ROUTE_RUNTIME_REGISTRY: readonly TRouteRuntimeEntry[] = [
 				hub: [{ label: "Blog", routeKey: "blog" }],
 				detail: { includeEntityTitle: true }
 			},
-			paginationNamespace: "discovery_page.blog",
+			paginationKey: "blog",
 			metadataSource: "hub"
 		},
 		layout: {
@@ -35,7 +35,7 @@ export const ROUTE_RUNTIME_REGISTRY: readonly TRouteRuntimeEntry[] = [
 				hub: [{ label: "Routes", routeKey: "routes" }],
 				detail: { includeEntityTitle: true }
 			},
-			paginationNamespace: "discovery_page.routes",
+			paginationKey: "routes",
 			metadataSource: "hub"
 		},
 		layout: {
@@ -56,7 +56,7 @@ export const ROUTE_RUNTIME_REGISTRY: readonly TRouteRuntimeEntry[] = [
 				hub: [{ label: "Experiences", routeKey: "experiences" }],
 				detail: { includeEntityTitle: true }
 			},
-			paginationNamespace: "discovery_page.experiences",
+			paginationKey: "experiences",
 			metadataSource: "hub"
 		},
 		layout: {
@@ -98,7 +98,7 @@ export const ROUTE_RUNTIME_REGISTRY: readonly TRouteRuntimeEntry[] = [
 				],
 				detail: { includeEntityTitle: true }
 			},
-			paginationNamespace: "company_page.news",
+			paginationKey: "news",
 			metadataSource: "hub"
 		},
 		layout: {
@@ -122,7 +122,7 @@ export const ROUTE_RUNTIME_REGISTRY: readonly TRouteRuntimeEntry[] = [
 				],
 				detail: { includeEntityTitle: true }
 			},
-			paginationNamespace: "company_page.trade_fairs",
+			paginationKey: "tradeFairs",
 			metadataSource: "hub"
 		},
 		layout: {

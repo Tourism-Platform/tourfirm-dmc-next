@@ -10,6 +10,7 @@ export const SEED_PROFILE_CATEGORIES = [
 	"payload_update_locales",
 	"route_refresh",
 	"navigation_globals",
+	"ui_content_globals",
 	"lookup_ingest",
 	"other"
 ] as const;
@@ -40,6 +41,7 @@ function createEmptyStats(): Record<TSeedProfileCategory, TCategoryStats> {
 		payload_update_locales: { wallMs: 0, sqlCount: 0 },
 		route_refresh: { wallMs: 0, sqlCount: 0 },
 		navigation_globals: { wallMs: 0, sqlCount: 0 },
+		ui_content_globals: { wallMs: 0, sqlCount: 0 },
 		lookup_ingest: { wallMs: 0, sqlCount: 0 },
 		other: { wallMs: 0, sqlCount: 0 }
 	};

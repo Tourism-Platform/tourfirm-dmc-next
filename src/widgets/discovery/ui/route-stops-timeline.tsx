@@ -1,19 +1,20 @@
+import { type TUiWidgets, formatUiText } from "@/shared/ui-content";
+
 import type { TRouteTimelineItem } from "@/cms/lib/map-route-points";
 
 type TProps = {
 	items: TRouteTimelineItem[];
+	ui: TUiWidgets["routeTimeline"];
 };
 
-export function RouteStopsTimeline({ items }: TProps) {
+export function RouteStopsTimeline({ items, ui }: TProps) {
 	if (!items.length) {
 		return null;
 	}
 
 	return (
 		<section className="flex flex-col gap-6">
-			<h2 className="text-xl font-semibold sm:text-2xl">
-				Route timeline
-			</h2>
+			<h2 className="text-xl font-semibold sm:text-2xl">{ui.title}</h2>
 			<ol className="relative flex flex-col gap-4 border-l pl-6">
 				{items.map((item) => (
 					<li key={item.id} className="relative">
@@ -24,7 +25,9 @@ export function RouteStopsTimeline({ items }: TProps) {
 									{item.typeLabel}
 								</span>
 								<span className="text-muted-foreground text-xs">
-									Stop {item.order}
+									{formatUiText(ui.stopLabel, {
+										order: item.order
+									})}
 								</span>
 							</div>
 							<p className="text-base font-semibold">

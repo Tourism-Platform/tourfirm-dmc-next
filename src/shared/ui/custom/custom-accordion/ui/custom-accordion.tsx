@@ -1,7 +1,6 @@
 "use client";
 
 import { Loader, type LucideIcon } from "lucide-react";
-import { useTranslations } from "next-intl";
 import { type FC, memo } from "react";
 
 import { cn } from "@/shared/lib/utils";
@@ -15,6 +14,7 @@ import {
 	Label,
 	ScrollArea
 } from "@/shared/ui";
+import { useUiContent } from "@/shared/ui-content";
 
 import { type IAccordionItem } from "../model";
 
@@ -46,7 +46,7 @@ export const CustomAccordion: FC<ICustomAccordionProps> = memo(
 		onLoadMore,
 		className
 	}) => {
-		const t = useTranslations("common");
+		const { common } = useUiContent();
 		const length = itemsLimit || items.length;
 		return (
 			<Accordion
@@ -129,7 +129,7 @@ export const CustomAccordion: FC<ICustomAccordionProps> = memo(
 											{isLoading && (
 												<Loader className="h-3 w-3 animate-spin mr-1" />
 											)}
-											{t("actions.show_more")}
+											{common.actions.showMore}
 										</Button>
 									)}
 							</div>

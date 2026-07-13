@@ -1,29 +1,29 @@
 "use client";
 
-import { useTranslations } from "next-intl";
 import Image from "next/image";
 import type { FC } from "react";
 
 import { ENUM_PATH } from "@/shared/config";
 import { Link } from "@/shared/i18n";
 import { Card, withErrorBoundary } from "@/shared/ui";
+import { formatUiText, useUiContent } from "@/shared/ui-content";
 
 import { TOP_DESTINATIONS_MOCK } from "../model";
 
 const TopDestinationsBase: FC = () => {
-	const t = useTranslations("catalog_page");
+	const { catalog } = useUiContent();
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-7">
 			<div className="flex items-end justify-between gap-4">
 				<h2 className="text-xl font-semibold sm:text-2xl">
-					{t("destinations.title")}
+					{catalog.destinations.title}
 				</h2>
 				<Link
 					href={ENUM_PATH.MAIN.DESTINATIONS}
 					className="text-primary shrink-0 text-sm font-medium"
 				>
-					{t("destinations.view_all")}
+					{catalog.destinations.viewAll}
 				</Link>
 			</div>
 			<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 lg:gap-6">
@@ -46,7 +46,7 @@ const TopDestinationsBase: FC = () => {
 									{destination.name}
 								</p>
 								<p className="text-muted-foreground text-xs sm:text-sm">
-									{t("destinations.count", {
+									{formatUiText(catalog.destinations.count, {
 										count: destination.count
 									})}
 								</p>

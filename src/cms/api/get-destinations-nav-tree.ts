@@ -7,7 +7,7 @@ import "server-only";
 import type { TDestinationsNavTree } from "@/shared/types/destinations-nav.types";
 
 import { toGeoLocale } from "./geo-locale";
-import { DESTINATIONS_NAV_CACHE_TAG } from "@/cms/hooks/revalidate-destinations-nav";
+import { DESTINATIONS_NAV_CACHE_TAG } from "@/cms/cache/cache-tags";
 import { buildDestinationsNavTree } from "@/cms/lib/build-destinations-nav-tree";
 import type { City, Country, Region } from "@/payload-types";
 

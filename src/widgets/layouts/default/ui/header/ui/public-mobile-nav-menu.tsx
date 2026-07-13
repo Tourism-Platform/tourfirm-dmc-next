@@ -1,7 +1,6 @@
 "use client";
 
 import { MenuIcon } from "lucide-react";
-import { useTranslations } from "next-intl";
 import Image from "next/image";
 import type { FC } from "react";
 
@@ -23,6 +22,7 @@ import {
 	SheetTitle,
 	SheetTrigger
 } from "@/shared/ui";
+import { useUiContent } from "@/shared/ui-content";
 
 import { DiscoveryViewAllFooter } from "./discovery-view-all-footer";
 import { FlatDiscoveryNavColumns } from "./flat-discovery-nav-columns";
@@ -36,7 +36,7 @@ type TProps = {
 	routesNav: TDiscoveryNavTree | null;
 	experiencesNav: TDiscoveryNavTree | null;
 	logoSrc?: string;
-	logoAlt?: string;
+	brandName?: string;
 };
 
 export const PublicMobileNavMenu: FC<TProps> = ({
@@ -45,12 +45,10 @@ export const PublicMobileNavMenu: FC<TProps> = ({
 	routesNav,
 	experiencesNav,
 	logoSrc = DEFAULT_LOGO_SRC,
-	logoAlt = "TourLink"
+	brandName = "TourLink"
 }) => {
-	const t = useTranslations("header.public.nav");
-	const tRoutes = useTranslations("header.public.nav.routes");
-	const tExperiences = useTranslations("header.public.nav.experiences");
-	const tDestinations = useTranslations("header.public.nav.destinations");
+	const { header } = useUiContent();
+	const nav = header.public.nav;
 
 	return (
 		<Sheet>
@@ -59,7 +57,7 @@ export const PublicMobileNavMenu: FC<TProps> = ({
 					variant="outline"
 					size="icon"
 					className="md:hidden"
-					aria-label={t("mobile_menu")}
+					aria-label={nav.mobileMenu}
 				>
 					<MenuIcon className="size-5" />
 				</Button>
@@ -75,7 +73,7 @@ export const PublicMobileNavMenu: FC<TProps> = ({
 					>
 						<Image
 							src={logoSrc}
-							alt={logoAlt}
+							alt={brandName}
 							width={48}
 							height={48}
 							className="h-10 w-auto"
@@ -87,7 +85,7 @@ export const PublicMobileNavMenu: FC<TProps> = ({
 						</span>
 					</Link>
 					<SheetTitle className="sr-only">
-						{t("mobile_menu")}
+						{nav.mobileMenu}
 					</SheetTitle>
 				</SheetHeader>
 				<Accordion type="multiple" className="w-full p-4">
@@ -121,7 +119,7 @@ export const PublicMobileNavMenu: FC<TProps> = ({
 										</ul>
 										<DiscoveryViewAllFooter
 											href={destinationsNav.rootHref}
-											label={tDestinations("view_all")}
+											label={nav.destinations.viewAll}
 											className="mt-2"
 										/>
 									</AccordionContent>
@@ -144,14 +142,14 @@ export const PublicMobileNavMenu: FC<TProps> = ({
 									<AccordionContent>
 										<FlatDiscoveryNavColumns
 											items={routesNav.items}
-											columnTitle={tRoutes(
-												"columns.title"
-											)}
+											columnTitle={
+												nav.routes.columns.title
+											}
 											mobile
 										/>
 										<DiscoveryViewAllFooter
 											href={routesNav.rootHref}
-											label={tRoutes("view_all")}
+											label={nav.routes.viewAll}
 											className="mt-2"
 										/>
 									</AccordionContent>
@@ -174,14 +172,14 @@ export const PublicMobileNavMenu: FC<TProps> = ({
 									<AccordionContent>
 										<FlatDiscoveryNavColumns
 											items={experiencesNav.items}
-											columnTitle={tExperiences(
-												"columns.title"
-											)}
+											columnTitle={
+												nav.experiences.columns.title
+											}
 											mobile
 										/>
 										<DiscoveryViewAllFooter
 											href={experiencesNav.rootHref}
-											label={tExperiences("view_all")}
+											label={nav.experiences.viewAll}
 											className="mt-2"
 										/>
 									</AccordionContent>

@@ -1,6 +1,7 @@
-import { getTranslations } from "next-intl/server";
 import type { ReactNode } from "react";
 
+import type { TDiscoveryPaginationKey, TUiWidgets } from "@/shared/ui-content";
+import { loadUiContent } from "@/shared/ui-content/server";
 import { CmsPagination } from "@/shared/ui/pagination";
 
 import {
@@ -19,14 +20,21 @@ export type TRenderedWidgets = {
 
 export async function renderWidgets(
 	models: TWidgetModel[],
-	runtime: TRouteRuntimeEntry
+	runtime: TRouteRuntimeEntry,
+	locale: string
 ): Promise<TRenderedWidgets> {
+	const uiContent = await loadUiContent(locale);
 	const placement = runtime.layout.widgetPlacement ?? "afterCms";
 	const beforeCms: ReactNode[] = [];
 	const afterCms: ReactNode[] = [];
 
 	for (const model of models) {
-		const node = await renderWidgetNode(model, runtime);
+		const node = await renderWidgetNode(
+			model,
+			runtime,
+			uiContent.discovery,
+			uiContent.widgets
+		);
 
 		if (!node) {
 			continue;
@@ -44,19 +52,19 @@ export async function renderWidgets(
 
 async function renderWidgetNode(
 	model: TWidgetModel,
-	runtime: TRouteRuntimeEntry
+	runtime: TRouteRuntimeEntry,
+	discovery: Awaited<ReturnType<typeof loadUiContent>>["discovery"],
+	widgets: TUiWidgets
 ): Promise<ReactNode | null> {
 	switch (model.key) {
 		case "pagination": {
-			const namespace = runtime.presentation.paginationNamespace;
+			const paginationKey = runtime.presentation.paginationKey;
 
-			if (!namespace) {
+			if (!paginationKey) {
 				return null;
 			}
 
-			const t = await getTranslations(
-				namespace as unknown as Parameters<typeof getTranslations>[0]
-			);
+			const labels = discovery[paginationKey as TDiscoveryPaginationKey];
 			const props = model.props as {
 				baseHref: string;
 				pagination: {
@@ -71,9 +79,9 @@ async function renderWidgetNode(
 				<CmsPagination
 					baseHref={props.baseHref}
 					pagination={props.pagination}
-					prevLabel={t("pagination_prev")}
-					nextLabel={t("pagination_next")}
-					ariaLabel="Pagination"
+					prevLabel={labels.paginationPrev}
+					nextLabel={labels.paginationNext}
+					ariaLabel={discovery.paginationAriaLabel}
 				/>
 			);
 		}
@@ -86,6 +94,7 @@ async function renderWidgetNode(
 								typeof RouteStopsTimeline
 							>[0]["items"]
 						}
+						ui={widgets.routeTimeline}
 					/>
 				</div>
 			);

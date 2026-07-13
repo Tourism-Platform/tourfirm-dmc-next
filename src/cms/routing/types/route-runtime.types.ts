@@ -1,3 +1,5 @@
+import type { TDiscoveryPaginationKey } from "@/shared/ui-content";
+
 import type { TBreadcrumbConfig } from "../build-breadcrumbs";
 
 export type TRouteRuntimeEntry = {
@@ -10,7 +12,7 @@ export type TRouteRuntimeEntry = {
 	};
 	presentation: {
 		breadcrumbs: TBreadcrumbConfig;
-		paginationNamespace?: string;
+		paginationKey?: TDiscoveryPaginationKey;
 		metadataSource: "entity" | "hub" | "entity-only";
 	};
 	layout: {

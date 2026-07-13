@@ -1,5 +1,6 @@
 "use client";
 
+import type { Locale } from "next-intl";
 import Image from "next/image";
 import type { FC } from "react";
 
@@ -21,7 +22,8 @@ type TProps = {
 	routesNav?: TDiscoveryNavTree | null;
 	experiencesNav?: TDiscoveryNavTree | null;
 	logoSrc?: string;
-	logoAlt?: string;
+	enabledLocales?: Locale[];
+	brandName?: string;
 };
 
 export const HeaderDefault: FC<TProps> = ({
@@ -30,7 +32,8 @@ export const HeaderDefault: FC<TProps> = ({
 	routesNav = null,
 	experiencesNav = null,
 	logoSrc = DEFAULT_LOGO_SRC,
-	logoAlt = "TourLink"
+	enabledLocales,
+	brandName = "TourLink"
 }) => {
 	const isRemoteLogo = logoSrc.startsWith("http");
 
@@ -44,7 +47,7 @@ export const HeaderDefault: FC<TProps> = ({
 						routesNav={routesNav}
 						experiencesNav={experiencesNav}
 						logoSrc={logoSrc}
-						logoAlt={logoAlt}
+						brandName={brandName}
 					/>
 					<Link
 						href={ENUM_PATH.MAIN.ROOT}
@@ -52,7 +55,7 @@ export const HeaderDefault: FC<TProps> = ({
 					>
 						<Image
 							src={logoSrc}
-							alt={logoAlt}
+							alt={brandName}
 							width={48}
 							height={48}
 							className="h-10 w-auto"
@@ -72,7 +75,7 @@ export const HeaderDefault: FC<TProps> = ({
 				</div>
 				<div className="flex shrink-0 items-center gap-2">
 					<ThemeToggle />
-					<LanguageToggle />
+					<LanguageToggle enabledLocales={enabledLocales} />
 				</div>
 			</div>
 		</header>

@@ -1,6 +1,5 @@
 "use client";
 
-import { useTranslations } from "next-intl";
 import type { FC } from "react";
 
 import { Link } from "@/shared/i18n";
@@ -8,6 +7,7 @@ import { isExternalHref } from "@/shared/lib/url/is-external-href";
 import { cn } from "@/shared/lib/utils";
 import type { TResolvedNavItem } from "@/shared/types/navigation.types";
 import { Badge } from "@/shared/ui";
+import { useUiContent } from "@/shared/ui-content";
 import { NavIcon } from "@/shared/ui/nav-icon";
 
 interface IPublicNavMenuItemProps {
@@ -15,7 +15,8 @@ interface IPublicNavMenuItemProps {
 }
 
 export const PublicNavMenuItem: FC<IPublicNavMenuItemProps> = ({ item }) => {
-	const t = useTranslations("header");
+	const { header } = useUiContent();
+	const comingSoonLabel = header.public.nav.comingSoon;
 
 	const className = cn(
 		"flex w-full items-start gap-2.5 rounded-lg px-3 py-2 text-left transition-colors",
@@ -51,7 +52,7 @@ export const PublicNavMenuItem: FC<IPublicNavMenuItemProps> = ({ item }) => {
 							variant="secondary"
 							className="h-5 border-none px-1.5 py-0 text-[10px] font-medium"
 						>
-							{t("public.nav.coming_soon")}
+							{comingSoonLabel}
 						</Badge>
 					) : null}
 				</span>

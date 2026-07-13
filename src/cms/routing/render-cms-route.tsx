@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 
 import { buildGeoBreadcrumbs } from "@/shared/lib/routing/build-geo-breadcrumbs";
 import { createCmsPageMetadata } from "@/shared/lib/seo";
+import { loadUiContent } from "@/shared/ui-content/server";
 
 import { Cms } from "@/widgets/cms";
 import { Destinations } from "@/widgets/destinations";
@@ -102,7 +103,11 @@ export async function renderCmsRoute(
 			entityResult,
 			widgetModels
 		});
-		const widgets = await renderWidgets(ctx.widgetModels, ctx.runtime);
+		const widgets = await renderWidgets(
+			ctx.widgetModels,
+			ctx.runtime,
+			locale
+		);
 
 		return (
 			<>
@@ -118,9 +123,11 @@ export async function renderCmsRoute(
 
 	if (route.source === "geo") {
 		const sections = mapCmsBlocks(route.document.blocks);
-		const { getTranslations } = await import("next-intl/server");
-		const t = await getTranslations("header.public.nav.destinations");
-		const breadcrumbItems = buildGeoBreadcrumbs(route, t("label"));
+		const uiContent = await loadUiContent(locale);
+		const breadcrumbItems = buildGeoBreadcrumbs(
+			route,
+			uiContent.discovery.geoBreadcrumbLabel
+		);
 
 		return <Cms sections={sections} breadcrumbItems={breadcrumbItems} />;
 	}

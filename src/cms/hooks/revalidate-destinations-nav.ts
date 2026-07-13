@@ -1,13 +1,13 @@
-import { revalidateTag } from "next/cache";
 import type {
 	CollectionAfterChangeHook,
 	CollectionAfterDeleteHook
 } from "payload";
 
-export const DESTINATIONS_NAV_CACHE_TAG = "destinations-nav";
+import { DESTINATIONS_NAV_CACHE_TAG } from "@/cms/cache/cache-tags";
 
-function revalidateDestinationsNavCache(): void {
+async function revalidateDestinationsNavCache(): Promise<void> {
 	try {
+		const { revalidateTag } = await import("next/cache");
 		revalidateTag(DESTINATIONS_NAV_CACHE_TAG, "max");
 	} catch {
 		// No-op outside a Next.js request context (e.g. seed CLI).
@@ -20,7 +20,7 @@ export const revalidateDestinationsNavAfterChange: CollectionAfterChangeHook =
 			return;
 		}
 
-		revalidateDestinationsNavCache();
+		void revalidateDestinationsNavCache();
 	};
 
 export const revalidateDestinationsNavAfterDelete: CollectionAfterDeleteHook =
@@ -29,5 +29,5 @@ export const revalidateDestinationsNavAfterDelete: CollectionAfterDeleteHook =
 			return;
 		}
 
-		revalidateDestinationsNavCache();
+		void revalidateDestinationsNavCache();
 	};

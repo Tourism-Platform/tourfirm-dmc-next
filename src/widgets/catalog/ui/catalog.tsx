@@ -2,11 +2,13 @@
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import type { FC } from "react";
+import { useMemo } from "react";
 import { useForm } from "react-hook-form";
 
 import { withErrorBoundary } from "@/shared/ui";
+import { useUiContent } from "@/shared/ui-content";
 
-import { type TSearchTours, searchToursSchema } from "@/entities/tour";
+import { type TSearchTours, createSearchToursSchema } from "@/entities/tour";
 
 import { BlogSection } from "./blog-section";
 import { HeroSection } from "./hero-section";
@@ -17,8 +19,14 @@ import { TopDestinations } from "./top-destinations";
 import type { TBlogCardData } from "@/cms/lib/map-discovery-cards";
 
 const CatalogBase: FC<{ blogPosts: TBlogCardData[] }> = ({ blogPosts }) => {
+	const { catalog } = useUiContent();
+	const schema = useMemo(
+		() => createSearchToursSchema(catalog.search.where.required),
+		[catalog.search.where.required]
+	);
+
 	const searchForm = useForm<TSearchTours>({
-		resolver: zodResolver(searchToursSchema),
+		resolver: zodResolver(schema),
 		defaultValues: {
 			destination: "",
 			dates: undefined

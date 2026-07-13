@@ -18,7 +18,7 @@
     "db:push-neon:append:yes": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/db-push-to-neon.ts --append --yes",
     "seed:neon:test": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/neon-seed/index.ts",
     "seed:neon:dry-run": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/neon-seed/index.ts --dry-run",
-    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\" \"messages/**/*.json\"",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint": "eslint .",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",

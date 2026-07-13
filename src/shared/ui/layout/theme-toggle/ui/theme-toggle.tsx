@@ -1,17 +1,18 @@
 "use client";
 
 import { Moon, Sun } from "lucide-react";
-import { useTranslations } from "next-intl";
 import type { FC } from "react";
 
 import { Button } from "@/shared/ui";
+import { useUiContent } from "@/shared/ui-content";
 
 import { useTheme } from "../model";
 
 export const ThemeToggle: FC = () => {
 	const { theme, toggleTheme } = useTheme();
-	const t = useTranslations("common.themeToggle");
-	const themeLabel = theme === "dark" ? t("dark") : t("light");
+	const { common } = useUiContent();
+	const themeLabel =
+		theme === "dark" ? common.themeToggle.dark : common.themeToggle.light;
 
 	return (
 		<Button

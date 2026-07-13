@@ -1,7 +1,6 @@
 "use client";
 
 import { Check, Clock4, Star } from "lucide-react";
-import { useTranslations } from "next-intl";
 import Image from "next/image";
 import type { FC } from "react";
 
@@ -9,6 +8,11 @@ import { ENUM_PATH } from "@/shared/config";
 import { Link } from "@/shared/i18n";
 import { cn } from "@/shared/lib/utils";
 import { Badge, Card, CardContent, Separator } from "@/shared/ui";
+import {
+	formatPluralUiText,
+	formatUiText,
+	useUiContent
+} from "@/shared/ui-content";
 import { formatToDollars } from "@/shared/utils";
 
 import type { ICatalogTourCard } from "../types";
@@ -22,7 +26,8 @@ export const CatalogTourCard: FC<ICatalogTourCardProps> = ({
 	data: tour,
 	className
 }) => {
-	const t = useTranslations("catalog_page");
+	const { catalog } = useUiContent();
+	const card = catalog.card;
 
 	return (
 		<Link
@@ -40,7 +45,7 @@ export const CatalogTourCard: FC<ICatalogTourCardProps> = ({
 					/>
 					{tour.isRecommended && (
 						<Badge className="absolute top-3 right-3">
-							{t("card.recommended")}
+							{card.recommended}
 						</Badge>
 					)}
 				</div>
@@ -61,7 +66,9 @@ export const CatalogTourCard: FC<ICatalogTourCardProps> = ({
 							/>
 						))}
 						<span className="text-muted-foreground ml-1 text-xs">
-							{t("card.reviews", { count: tour.reviewsCount })}
+							{formatUiText(card.reviews, {
+								count: tour.reviewsCount
+							})}
 						</span>
 					</div>
 					<Separator />
@@ -73,20 +80,21 @@ export const CatalogTourCard: FC<ICatalogTourCardProps> = ({
 							<div className="text-muted-foreground flex items-center gap-1 text-xs">
 								<Clock4 className="size-3.5" />
 								<span>
-									{t("card.duration_days", {
-										count: tour.duration
-									})}
+									{formatPluralUiText(
+										card.durationDays,
+										tour.duration
+									)}
 								</span>
 							</div>
 							{tour.hasFreeCancellation && (
 								<div className="text-muted-foreground flex items-center gap-1 text-xs">
 									<Check className="size-3.5" />
-									<span>{t("card.free_cancellation")}</span>
+									<span>{card.freeCancellation}</span>
 								</div>
 							)}
 						</div>
 						<span className="text-primary text-base font-semibold whitespace-nowrap sm:text-lg">
-							{t("card.price_from", {
+							{formatUiText(card.priceFrom, {
 								price: formatToDollars(tour.priceFrom)
 							})}
 						</span>

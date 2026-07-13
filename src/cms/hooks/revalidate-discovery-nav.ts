@@ -1,22 +1,25 @@
-import { revalidateTag } from "next/cache";
 import type {
 	CollectionAfterChangeHook,
 	CollectionAfterDeleteHook
 } from "payload";
 
-export const ROUTES_NAV_CACHE_TAG = "routes-nav";
-export const EXPERIENCES_NAV_CACHE_TAG = "experiences-nav";
+import {
+	EXPERIENCES_NAV_CACHE_TAG,
+	ROUTES_NAV_CACHE_TAG
+} from "@/cms/cache/cache-tags";
 
-function revalidateRoutesNavCache(): void {
+async function revalidateRoutesNavCache(): Promise<void> {
 	try {
+		const { revalidateTag } = await import("next/cache");
 		revalidateTag(ROUTES_NAV_CACHE_TAG, "max");
 	} catch {
 		// No-op outside a Next.js request context (e.g. seed CLI).
 	}
 }
 
-function revalidateExperiencesNavCache(): void {
+async function revalidateExperiencesNavCache(): Promise<void> {
 	try {
+		const { revalidateTag } = await import("next/cache");
 		revalidateTag(EXPERIENCES_NAV_CACHE_TAG, "max");
 	} catch {
 		// No-op outside a Next.js request context (e.g. seed CLI).
@@ -30,7 +33,7 @@ export const revalidateRoutesNavAfterChange: CollectionAfterChangeHook = ({
 		return;
 	}
 
-	revalidateRoutesNavCache();
+	void revalidateRoutesNavCache();
 };
 
 export const revalidateRoutesNavAfterDelete: CollectionAfterDeleteHook = ({
@@ -40,7 +43,7 @@ export const revalidateRoutesNavAfterDelete: CollectionAfterDeleteHook = ({
 		return;
 	}
 
-	revalidateRoutesNavCache();
+	void revalidateRoutesNavCache();
 };
 
 export const revalidateExperiencesNavAfterChange: CollectionAfterChangeHook = ({
@@ -50,7 +53,7 @@ export const revalidateExperiencesNavAfterChange: CollectionAfterChangeHook = ({
 		return;
 	}
 
-	revalidateExperiencesNavCache();
+	void revalidateExperiencesNavCache();
 };
 
 export const revalidateExperiencesNavAfterDelete: CollectionAfterDeleteHook = ({
@@ -60,5 +63,5 @@ export const revalidateExperiencesNavAfterDelete: CollectionAfterDeleteHook = ({
 		return;
 	}
 
-	revalidateExperiencesNavCache();
+	void revalidateExperiencesNavCache();
 };

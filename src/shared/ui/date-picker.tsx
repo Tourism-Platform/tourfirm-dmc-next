@@ -1,13 +1,13 @@
 "use client";
 
 import { Calendar as CalendarIcon } from "lucide-react";
-import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { type DateRange } from "react-day-picker";
 
 import { Button } from "@/shared/ui";
 import { Calendar } from "@/shared/ui";
 import { Popover, PopoverContent, PopoverTrigger } from "@/shared/ui";
+import { useUiContent } from "@/shared/ui-content";
 
 interface IDatePickerProps {
 	from?: Date;
@@ -16,7 +16,8 @@ interface IDatePickerProps {
 }
 
 export const DatePicker = ({ from, to, onChange }: IDatePickerProps) => {
-	const t = useTranslations("common");
+	const { common } = useUiContent();
+	const datePicker = common.datePicker;
 	const defaultDate: DateRange = {
 		from: from,
 		to: to
@@ -69,7 +70,7 @@ export const DatePicker = ({ from, to, onChange }: IDatePickerProps) => {
 							date?.from.toLocaleDateString()
 						)
 					) : (
-						<span>{t("date_picker.placeholder")}</span>
+						<span>{datePicker.placeholder}</span>
 					)}
 				</Button>
 			</PopoverTrigger>
@@ -85,10 +86,10 @@ export const DatePicker = ({ from, to, onChange }: IDatePickerProps) => {
 				/>
 				<div className="flex items-center justify-end gap-1.5 border-t border-border p-3">
 					<Button variant="outline" onClick={handleReset}>
-						{t("date_picker.buttons.reset")}
+						{datePicker.buttons.reset}
 					</Button>
 					<Button onClick={handleApply}>
-						{t("date_picker.buttons.apply")}
+						{datePicker.buttons.apply}
 					</Button>
 				</div>
 			</PopoverContent>

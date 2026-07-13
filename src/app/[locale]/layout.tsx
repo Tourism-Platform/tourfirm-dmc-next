@@ -1,9 +1,5 @@
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-import {
-	getMessages,
-	getTranslations,
-	setRequestLocale
-} from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 import { Exo_2, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
@@ -12,6 +8,13 @@ import { ENUM_PATH } from "@/shared/config";
 import { routing } from "@/shared/i18n";
 import { createPageMetadata } from "@/shared/lib/seo";
 import "@/shared/styles/globals.css";
+import { UiContentProvider } from "@/shared/ui-content";
+import {
+	getEnabledLocales,
+	getLocaleAvailability,
+	isLocaleEnabled,
+	loadUiContent
+} from "@/shared/ui-content/server";
 
 import { FooterDefault, HeaderDefault } from "@/widgets/layouts/default";
 
@@ -40,11 +43,11 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Omit<TProps, "children">) {
 	const { locale } = await params;
-	const t = await getTranslations({ locale, namespace: "footer" });
+	const uiContent = await loadUiContent(locale);
 
 	return createPageMetadata({
-		title: t("meta.title"),
-		description: t("meta.description"),
+		title: uiContent.common.meta.title,
+		description: uiContent.common.meta.description,
 		locale,
 		path: ENUM_PATH.MAIN.ROOT
 	});
@@ -57,9 +60,20 @@ export default async function LocaleLayout({ children, params }: TProps) {
 		notFound();
 	}
 
+	const availability = await getLocaleAvailability();
+
+	if (!isLocaleEnabled(locale, availability)) {
+		notFound();
+	}
+
 	setRequestLocale(locale);
-	const messages = await getMessages();
-	const layoutNavigation = await loadLayoutNavigation(locale);
+
+	const [uiContent, layoutNavigation] = await Promise.all([
+		loadUiContent(locale),
+		loadLayoutNavigation(locale)
+	]);
+
+	const enabledLocales = getEnabledLocales(availability);
 
 	return (
 		<html
@@ -69,24 +83,29 @@ export default async function LocaleLayout({ children, params }: TProps) {
 		>
 			<body className="min-h-full flex flex-col">
 				<Providers>
-					<NextIntlClientProvider
-						messages={messages}
-						locale={locale}
-						timeZone="UTC"
-					>
-						<HeaderDefault
-							navItems={layoutNavigation.navItems}
-							destinationsNav={layoutNavigation.destinationsNav}
-							routesNav={layoutNavigation.routesNav}
-							experiencesNav={layoutNavigation.experiencesNav}
-							logoSrc={layoutNavigation.logoSrc}
-						/>
-						<div className="flex flex-1 flex-col">{children}</div>
-						<FooterDefault
-							columns={layoutNavigation.footerColumns}
-							socialLinks={layoutNavigation.socialLinks}
-							copyrightText={layoutNavigation.copyrightText}
-						/>
+					<NextIntlClientProvider locale={locale} timeZone="UTC">
+						<UiContentProvider value={uiContent}>
+							<HeaderDefault
+								navItems={layoutNavigation.navItems}
+								destinationsNav={
+									layoutNavigation.destinationsNav
+								}
+								routesNav={layoutNavigation.routesNav}
+								experiencesNav={layoutNavigation.experiencesNav}
+								logoSrc={layoutNavigation.logoSrc}
+								enabledLocales={enabledLocales}
+								brandName={uiContent.footer.brand.name}
+							/>
+							<div className="flex flex-1 flex-col">
+								{children}
+							</div>
+							<FooterDefault
+								columns={layoutNavigation.footerColumns}
+								socialLinks={layoutNavigation.socialLinks}
+								copyrightText={layoutNavigation.copyrightText}
+								uiTexts={uiContent.footer}
+							/>
+						</UiContentProvider>
 					</NextIntlClientProvider>
 				</Providers>
 			</body>

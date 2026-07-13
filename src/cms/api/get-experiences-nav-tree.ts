@@ -7,7 +7,7 @@ import "server-only";
 import type { TDiscoveryNavTree } from "@/shared/types/discovery-nav.types";
 
 import { toGeoLocale } from "./geo-locale";
-import { EXPERIENCES_NAV_CACHE_TAG } from "@/cms/hooks/revalidate-discovery-nav";
+import { EXPERIENCES_NAV_CACHE_TAG } from "@/cms/cache/cache-tags";
 import { buildExperiencesNavTree } from "@/cms/lib/build-discovery-nav-tree";
 
 const PUBLISHED_WHERE = {

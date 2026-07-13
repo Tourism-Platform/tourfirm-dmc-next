@@ -1,6 +1,5 @@
 "use client";
 
-import { useTranslations } from "next-intl";
 import { type FC, useCallback, useMemo, useState } from "react";
 
 import { Link } from "@/shared/i18n";
@@ -16,6 +15,7 @@ import {
 	NavigationMenuTrigger,
 	Separator
 } from "@/shared/ui";
+import { useUiContent } from "@/shared/ui-content";
 
 interface IDestinationsNavMenuProps {
 	label: string;
@@ -38,7 +38,8 @@ export const DestinationsNavMenu: FC<IDestinationsNavMenuProps> = ({
 	label,
 	tree
 }) => {
-	const t = useTranslations("header.public.nav.destinations");
+	const { header } = useUiContent();
+	const t = header.public.nav.destinations;
 	const defaultCountry = useMemo(
 		() => getDefaultCountry(tree.countries),
 		[tree.countries]
@@ -100,10 +101,10 @@ export const DestinationsNavMenu: FC<IDestinationsNavMenuProps> = ({
 				<div className="grid grid-cols-3 gap-6 p-5">
 					<div>
 						<p className="text-[11px] font-semibold tracking-wider text-primary uppercase">
-							{t("columns.countries.title")}
+							{t.columns.countries.title}
 						</p>
 						<p className="mt-1 text-xs text-muted-foreground">
-							{t("columns.countries.subtitle")}
+							{t.columns.countries.subtitle}
 						</p>
 						<ul
 							className="mt-3 flex flex-col gap-0.5"
@@ -142,10 +143,10 @@ export const DestinationsNavMenu: FC<IDestinationsNavMenuProps> = ({
 
 					<div>
 						<p className="text-[11px] font-semibold tracking-wider text-primary uppercase">
-							{t("columns.regions.title")}
+							{t.columns.regions.title}
 						</p>
 						<p className="mt-1 text-xs text-muted-foreground">
-							{t("columns.regions.subtitle")}
+							{t.columns.regions.subtitle}
 						</p>
 						{activeCountry?.regions.length ? (
 							<ul
@@ -186,10 +187,10 @@ export const DestinationsNavMenu: FC<IDestinationsNavMenuProps> = ({
 
 					<div>
 						<p className="text-[11px] font-semibold tracking-wider text-primary uppercase">
-							{t("columns.cities.title")}
+							{t.columns.cities.title}
 						</p>
 						<p className="mt-1 text-xs text-muted-foreground">
-							{t("columns.cities.subtitle")}
+							{t.columns.cities.subtitle}
 						</p>
 						{activeRegion?.cities.length ? (
 							<ul
@@ -217,7 +218,7 @@ export const DestinationsNavMenu: FC<IDestinationsNavMenuProps> = ({
 						href={tree.rootHref}
 						className="text-sm font-medium text-foreground transition-colors hover:text-primary"
 					>
-						{t("view_all")}
+						{t.viewAll}
 					</Link>
 				</div>
 			</NavigationMenuContent>

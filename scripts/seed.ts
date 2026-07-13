@@ -47,6 +47,7 @@ import {
 	resetDatabase
 } from "./seed-reset.js";
 import { createDiscoverySeeder } from "./seed-discovery.js";
+import { seedUiContent } from "./seed-ui-content.js";
 import { mapWithConcurrency, SEED_LIMITS } from "./seed-parallel.js";
 
 const SEED_STAGE_COUNT = 20;
@@ -2163,6 +2164,10 @@ async function runSeed(): Promise<void> {
 			destinationSlug: navigationRootSlug
 		})
 	);
+	log.done();
+
+	log.start("Seeding UI content");
+	await profiler.run("ui_content_globals", () => seedUiContent(payload));
 	log.done();
 
 	console.log("Seed complete:", {

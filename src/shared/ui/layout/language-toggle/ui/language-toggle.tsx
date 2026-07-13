@@ -2,7 +2,7 @@
 
 import { GlobeIcon, Loader } from "lucide-react";
 import type { Locale } from "next-intl";
-import { useLocale, useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 import { useParams } from "next/navigation";
 import { type FC, useId, useTransition } from "react";
 
@@ -14,10 +14,18 @@ import {
 	SelectTrigger,
 	SelectValue
 } from "@/shared/ui";
+import { useUiContent } from "@/shared/ui-content";
 
-export const LanguageToggle: FC = () => {
+type TProps = {
+	enabledLocales?: Locale[];
+};
+
+export const LanguageToggle: FC<TProps> = ({
+	enabledLocales = routing.locales
+}) => {
 	const id = useId();
-	const t = useTranslations("common.languageToggle");
+	const { common } = useUiContent();
+	const labels = common.languageToggle;
 	const locale = useLocale();
 	const router = useRouter();
 	const pathname = usePathname();
@@ -33,6 +41,12 @@ export const LanguageToggle: FC = () => {
 			);
 		});
 	}
+
+	const localeLabels: Record<string, string> = {
+		en: labels.en,
+		ru: labels.ru,
+		uz: labels.uz
+	};
 
 	return (
 		<Select
@@ -57,10 +71,12 @@ export const LanguageToggle: FC = () => {
 			</SelectTrigger>
 
 			<SelectContent className="[&_*[role=option]]:ps-2 [&_*[role=option]]:pe-8 [&_*[role=option]>span]:end-2 [&_*[role=option]>span]:start-auto [&_*[role=option]>span]:flex [&_*[role=option]>span]:items-center [&_*[role=option]>span]:gap-2">
-				{routing.locales.map((lang) => (
+				{enabledLocales.map((lang) => (
 					<SelectItem key={lang} value={lang}>
 						<span className="flex items-center gap-2">
-							<span className="truncate">{t(lang)}</span>
+							<span className="truncate">
+								{localeLabels[lang] ?? lang}
+							</span>
 						</span>
 					</SelectItem>
 				))}

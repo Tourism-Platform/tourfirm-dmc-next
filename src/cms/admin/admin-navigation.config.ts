@@ -72,9 +72,21 @@ export const ADMIN_NEWS_GLOBALS_NAVIGATION: TAdminNavSection = {
 	items: ["news-hub"]
 };
 
+export const ADMIN_UI_CONTENT_GLOBALS_NAVIGATION: TAdminNavSection = {
+	label: "UI Content",
+	items: [
+		"header",
+		"footer",
+		"ui-common",
+		"ui-catalog",
+		"ui-discovery",
+		"ui-widgets"
+	]
+};
+
 export const ADMIN_GLOBALS_NAVIGATION: TAdminNavSection = {
 	label: "Globals",
-	items: ["homepage", "site-settings", "header", "footer"]
+	items: ["homepage", "site-settings"]
 };
 
 export const ADMIN_ALL_GLOBALS_NAVIGATION: TAdminNavSection[] = [
@@ -84,5 +96,6 @@ export const ADMIN_ALL_GLOBALS_NAVIGATION: TAdminNavSection[] = [
 	ADMIN_TRADE_FAIRS_GLOBALS_NAVIGATION,
 	ADMIN_BLOG_GLOBALS_NAVIGATION,
 	ADMIN_NEWS_GLOBALS_NAVIGATION,
+	ADMIN_UI_CONTENT_GLOBALS_NAVIGATION,
 	ADMIN_GLOBALS_NAVIGATION
 ];

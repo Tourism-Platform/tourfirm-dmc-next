@@ -1,10 +1,9 @@
-import { getTranslations } from "next-intl/server";
-
 import type {
 	TResolvedFooterColumn,
 	TResolvedSocialLink
 } from "@/shared/types/navigation.types";
 import { Separator } from "@/shared/ui";
+import type { TUiFooter } from "@/shared/ui-content";
 
 import { FooterContact } from "./footer-contact";
 import { FooterCopyright } from "./footer-copyright";
@@ -16,14 +15,15 @@ type TProps = {
 	columns: TResolvedFooterColumn[];
 	socialLinks: TResolvedSocialLink[];
 	copyrightText?: string;
+	uiTexts: TUiFooter;
 };
 
 export const FooterDefault = async ({
 	columns,
 	socialLinks,
-	copyrightText
+	copyrightText,
+	uiTexts
 }: TProps) => {
-	const t = await getTranslations("footer");
 	const year = new Date().getFullYear();
 
 	return (
@@ -32,7 +32,7 @@ export const FooterDefault = async ({
 				<div className="flex flex-col gap-8">
 					<div className="grid grid-cols-2 gap-x-8 gap-y-10 md:grid-cols-4 lg:grid-cols-5">
 						<div className="col-span-2 flex flex-col gap-4 md:col-span-4 lg:col-span-1">
-							<FooterLogo brandName={t("brand.name")} />
+							<FooterLogo brandName={uiTexts.brand.name} />
 							<FooterContact />
 						</div>
 
@@ -41,7 +41,7 @@ export const FooterDefault = async ({
 								key={section.key}
 								title={section.title}
 								links={section.links}
-								comingSoonLabel={t("coming_soon")}
+								comingSoonLabel={uiTexts.comingSoon}
 							/>
 						))}
 					</div>
@@ -56,7 +56,10 @@ export const FooterDefault = async ({
 											"{year}",
 											String(year)
 										)
-									: t("copyright", { year })
+									: uiTexts.copyright.replace(
+											"{year}",
+											String(year)
+										)
 							}
 						/>
 						<FooterSocial items={socialLinks} />

@@ -1,6 +1,5 @@
 "use client";
 
-import { useTranslations } from "next-intl";
 import { type FC, useEffect } from "react";
 import { toast } from "sonner";
 
@@ -15,6 +14,7 @@ import {
 	CarouselPrevious,
 	withErrorBoundary
 } from "@/shared/ui";
+import { useUiContent } from "@/shared/ui-content";
 
 import {
 	CatalogTourCard,
@@ -23,27 +23,27 @@ import {
 } from "@/entities/tour";
 
 const SpecialOffersBase: FC = () => {
-	const t = useTranslations("catalog_page");
+	const { catalog } = useUiContent();
 	const { data, isLoading, isError } = useGetSpecialOfferToursQuery();
 	const tours = data?.data ?? [];
 
 	useEffect(() => {
-		if (isError) toast.error(t("toasts.load_error"));
-	}, [isError, t]);
+		if (isError) toast.error(catalog.toasts.loadError);
+	}, [isError, catalog.toasts.loadError]);
 
 	return (
 		<section className="overflow-hidden rounded-2xl bg-gradient-to-r from-accent via-secondary to-muted p-6 sm:p-10">
 			<div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-[1fr_2fr]">
 				<div className="flex flex-col gap-4">
 					<h2 className="text-destructive text-2xl font-bold uppercase sm:text-3xl">
-						{t("offers.title")}
+						{catalog.offers.title}
 					</h2>
 					<p className="text-muted-foreground text-sm sm:text-base">
-						{t("offers.subtitle")}
+						{catalog.offers.subtitle}
 					</p>
 					<Button asChild variant="destructive" className="w-fit">
 						<Link href={ENUM_PATH.MAIN.CATALOG}>
-							{t("offers.cta")}
+							{catalog.offers.cta}
 						</Link>
 					</Button>
 				</div>

@@ -1,10 +1,10 @@
 "use client";
 
-import { useTranslations } from "next-intl";
 import { type FC, useCallback } from "react";
 import type { UseFormReturn } from "react-hook-form";
 
 import { withErrorBoundary } from "@/shared/ui";
+import { useUiContent } from "@/shared/ui-content";
 
 import {
 	RecentSearchCard,
@@ -18,7 +18,7 @@ interface IRecentlySearchProps {
 }
 
 const RecentlySearchBase: FC<IRecentlySearchProps> = ({ form }) => {
-	const t = useTranslations("catalog_page");
+	const { catalog } = useUiContent();
 	const { data: items = [], isLoading } = useGetRecentlySearchedToursQuery();
 
 	const handleSelect = useCallback(
@@ -33,7 +33,7 @@ const RecentlySearchBase: FC<IRecentlySearchProps> = ({ form }) => {
 	return (
 		<section className="flex flex-col gap-4">
 			<h2 className="text-xl font-semibold sm:text-2xl">
-				{t("recent.title")}
+				{catalog.recent.title}
 			</h2>
 			<div className="flex gap-4 overflow-x-auto pb-2 snap-x snap-mandatory lg:grid lg:grid-cols-4 lg:overflow-visible">
 				{isLoading

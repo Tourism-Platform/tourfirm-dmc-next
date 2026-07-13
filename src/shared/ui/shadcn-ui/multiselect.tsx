@@ -2,13 +2,13 @@
 
 import { Command as CommandPrimitive, useCommandState } from "cmdk";
 import { XIcon } from "lucide-react";
-import { useTranslations } from "next-intl";
 import * as React from "react";
 import { useEffect } from "react";
 
 import { useDebounce } from "@/shared/hooks";
 import { cn } from "@/shared/lib/utils";
 import { Badge, type BadgeSize, type BadgeVariant } from "@/shared/ui";
+import { formatUiText, useUiContent } from "@/shared/ui-content";
 import {
 	Command,
 	CommandGroup,
@@ -193,7 +193,7 @@ export const MultipleSelector = ({
 	badgeSize,
 	"aria-invalid": ariaInvalid
 }: MultipleSelectorProps) => {
-	const t = useTranslations("common");
+	const { common } = useUiContent();
 	const inputRef = React.useRef<HTMLInputElement>(null);
 	const [open, setOpen] = React.useState(false);
 	const [onScrollbar, setOnScrollbar] = React.useState(false);
@@ -559,10 +559,13 @@ export const MultipleSelector = ({
 								? ""
 								: displayMode !== "default" &&
 									  selected.length > 0
-									? t("multiselect.selected", {
-											selected: selected.length,
-											total: totalOptions
-										})
+									? formatUiText(
+											common.multiselect.selected,
+											{
+												selected: selected.length,
+												total: totalOptions
+											}
+										)
 									: placeholder
 						}
 						ref={inputRef}

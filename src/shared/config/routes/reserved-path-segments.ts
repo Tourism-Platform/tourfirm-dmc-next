@@ -71,10 +71,7 @@ export function isReservedRootPageSlug(value: string): boolean {
 
 /** Segment slug — block system/static routes only; discovery roots may be segment prefixes (e.g. company). */
 export function isReservedSegmentSlug(value: string): boolean {
-	return (
-		isSystemReservedSegment(value) ||
-		isStaticAppRouteSegment(value)
-	);
+	return isSystemReservedSegment(value) || isStaticAppRouteSegment(value);
 }
 
 /** Geo entity slug (country etc.) — block system/static/discovery reserved only. */

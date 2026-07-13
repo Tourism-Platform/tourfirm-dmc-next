@@ -1,11 +1,11 @@
 "use client";
 
 import { History, MapPin } from "lucide-react";
-import { useTranslations } from "next-intl";
 import type { FC } from "react";
 
 import { useFormatDateRange } from "@/shared/hooks";
 import { Card, CardContent } from "@/shared/ui";
+import { useUiContent } from "@/shared/ui-content";
 
 import type { IRecentSearch } from "../types";
 
@@ -18,8 +18,15 @@ export const RecentSearchCard: FC<IRecentSearchCardProps> = ({
 	data,
 	onClick
 }) => {
-	const t = useTranslations("catalog_page");
+	const { catalog } = useUiContent();
 	const { formatDateRange } = useFormatDateRange();
+
+	const tourTypeLabel =
+		data.tourType === "group"
+			? catalog.recent.tourType.group
+			: data.tourType === "private"
+				? catalog.recent.tourType.private
+				: null;
 
 	return (
 		<Card
@@ -40,11 +47,11 @@ export const RecentSearchCard: FC<IRecentSearchCardProps> = ({
 					<span className="text-muted-foreground truncate text-sm">
 						{formatDateRange(data.dates)}
 					</span>
-					{data.tourType && (
+					{tourTypeLabel ? (
 						<span className="text-muted-foreground text-xs capitalize">
-							{t(`recent.tour_type.${data.tourType}`)}
+							{tourTypeLabel}
 						</span>
-					)}
+					) : null}
 				</div>
 			</CardContent>
 		</Card>

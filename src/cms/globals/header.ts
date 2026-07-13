@@ -1,9 +1,14 @@
 import type { GlobalConfig } from "payload";
 
+import { authenticatedOrPublished } from "../access/authenticated-or-published";
 import { navigationItemFields } from "../fields/navigation-item";
+import { headerUiTextsFields } from "../fields/ui-content/header-ui-texts-fields";
 
 export const Header: GlobalConfig = {
 	slug: "header",
+	access: {
+		read: authenticatedOrPublished
+	},
 	fields: [
 		{
 			name: "logo",
@@ -55,6 +60,7 @@ export const Header: GlobalConfig = {
 					]
 				}
 			]
-		}
+		},
+		...headerUiTextsFields
 	]
 };

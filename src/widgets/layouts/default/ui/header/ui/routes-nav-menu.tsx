@@ -1,6 +1,5 @@
 "use client";
 
-import { useTranslations } from "next-intl";
 import type { FC } from "react";
 
 import type { TDiscoveryNavTree } from "@/shared/types/discovery-nav.types";
@@ -9,6 +8,7 @@ import {
 	NavigationMenuItem,
 	NavigationMenuTrigger
 } from "@/shared/ui";
+import { useUiContent } from "@/shared/ui-content";
 
 import { DiscoveryViewAllFooter } from "./discovery-view-all-footer";
 import { FlatDiscoveryNavColumns } from "./flat-discovery-nav-columns";
@@ -19,7 +19,8 @@ type TProps = {
 };
 
 export const RoutesNavMenu: FC<TProps> = ({ label, tree }) => {
-	const t = useTranslations("header.public.nav.routes");
+	const { header } = useUiContent();
+	const t = header.public.nav.routes;
 
 	return (
 		<NavigationMenuItem>
@@ -30,12 +31,12 @@ export const RoutesNavMenu: FC<TProps> = ({ label, tree }) => {
 				<div className="p-5">
 					<FlatDiscoveryNavColumns
 						items={tree.items}
-						columnTitle={t("columns.title")}
+						columnTitle={t.columns.title}
 					/>
 				</div>
 				<DiscoveryViewAllFooter
 					href={tree.rootHref}
-					label={t("view_all")}
+					label={t.viewAll}
 				/>
 			</NavigationMenuContent>
 		</NavigationMenuItem>
