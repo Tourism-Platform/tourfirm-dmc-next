@@ -1,9 +1,10 @@
+import { Card } from "../../shadcn-ui/card";
 import type { TContactDetailPanelProps } from "../types/contact-detail-panel.types";
 
 export function ContactDetailPanel({ children }: TContactDetailPanelProps) {
 	return (
-		<dl className="bg-card flex flex-col gap-4 rounded-xl border p-5 sm:gap-5 sm:p-6">
-			{children}
-		</dl>
+		<Card className="gap-0 py-0 shadow-none p-5 sm:p-6">
+			<dl className="flex flex-col gap-4 sm:gap-5">{children}</dl>
+		</Card>
 	);
 }

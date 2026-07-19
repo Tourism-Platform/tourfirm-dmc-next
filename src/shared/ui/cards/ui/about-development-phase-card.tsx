@@ -1,4 +1,5 @@
 import { Badge } from "../../shadcn-ui/badge";
+import { Card } from "../../shadcn-ui/card";
 import type { TAboutDevelopmentPhaseCardProps } from "../types/about-development-phase-card.types";
 
 export function AboutDevelopmentPhaseCard({
@@ -7,7 +8,7 @@ export function AboutDevelopmentPhaseCard({
 	description
 }: TAboutDevelopmentPhaseCardProps) {
 	return (
-		<article className="bg-card flex flex-col gap-3 rounded-xl border p-5 sm:p-6">
+		<Card className="gap-3 py-0 shadow-none p-5 sm:p-6">
 			<Badge
 				variant="secondary"
 				className="bg-primary/10 text-primary w-fit rounded-full border-transparent"
@@ -18,6 +19,6 @@ export function AboutDevelopmentPhaseCard({
 			<p className="text-muted-foreground text-sm sm:text-base">
 				{description}
 			</p>
-		</article>
+		</Card>
 	);
 }
