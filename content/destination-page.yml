@@ -65,7 +65,7 @@ blocks:
       en: Start with one country and expand the route only when the trip truly needs a wider Central Asian arc.
       ru: Начните с одной страны и расширяйте маршрут только тогда, когда поездке действительно нужен более широкий контур Центральной Азии.
       uz: Bitta mamlakatdan boshlang va marshrutni faqat sayohat haqiqatan ham kengroq Markaziy Osiyo konturiga muhtoj bo'lganda kengaytiring.
-    gridClassName: sm:grid-cols-2 sm:gap-5 lg:gap-6 md:!grid-cols-2
+    gridClassName: sm:grid-cols-2 sm:gap-5 md:grid-cols-2 lg:gap-6
     cards:
       - type: country
         countrySlug: uzbekistan

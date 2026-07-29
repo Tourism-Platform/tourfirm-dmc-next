@@ -27,8 +27,8 @@ export function CardsSection({
 			{cards.length ? (
 				<div
 					className={cn(
-						"grid grid-cols-1 gap-4 md:grid-cols-3",
-						gridClassName
+						"grid grid-cols-1 gap-4",
+						gridClassName ?? "md:grid-cols-3"
 					)}
 				>
 					{cards.map((card, index) => (
