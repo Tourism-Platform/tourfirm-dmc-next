@@ -20,11 +20,11 @@ export function CustomSectionHeader({
 	const content = (
 		<div className={cn("flex max-w-3xl flex-col gap-3", className)}>
 			{eyebrow ? (
-				<p className="text-primary text-lg font-semibold uppercase tracking-widest">
+				<p className="font-mono text-primary text-xs font-medium uppercase tracking-[0.16em] sm:text-sm">
 					{eyebrow}
 				</p>
 			) : null}
-			<h2 className="text-xl font-semibold sm:text-2xl lg:text-3xl">
+			<h2 className="font-serif text-3xl font-normal italic sm:text-4xl lg:text-5xl">
 				{title}
 			</h2>
 			{description ? (

@@ -1,6 +1,7 @@
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
-import { Exo_2, Geist_Mono } from "next/font/google";
+import { Exo_2, JetBrains_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
 
@@ -27,9 +28,22 @@ const exo2 = Exo_2({
 	subsets: ["latin", "cyrillic"]
 });
 
-const geistMono = Geist_Mono({
-	variable: "--font-geist-mono",
-	subsets: ["latin"]
+const jetbrainsMono = JetBrains_Mono({
+	variable: "--font-jetbrains-mono",
+	subsets: ["latin", "cyrillic"],
+	weight: ["400", "500"]
+});
+
+const kurier = localFont({
+	src: [
+		{
+			path: "../../shared/assets/fonts/kurier-italic.otf",
+			weight: "400",
+			style: "italic"
+		}
+	],
+	variable: "--font-kurier",
+	display: "swap"
 });
 
 type TProps = {
@@ -78,7 +92,7 @@ export default async function LocaleLayout({ children, params }: TProps) {
 	return (
 		<html
 			lang={locale}
-			className={`${exo2.variable} ${geistMono.variable} h-full font-sans antialiased`}
+			className={`${exo2.variable} ${jetbrainsMono.variable} ${kurier.variable} h-full font-sans antialiased`}
 			suppressHydrationWarning
 		>
 			<body className="min-h-full flex flex-col">

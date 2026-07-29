@@ -72,12 +72,16 @@ export function CustomPageHero({
 				{topContent}
 				<div className="flex max-w-3xl flex-col gap-4 text-white">
 					{/* {eyebrow} */}
-					<h1 className="text-3xl font-semibold uppercase leading-tight sm:text-4xl lg:text-5xl">
+					<h1 className="font-sans text-3xl font-semibold uppercase leading-tight tracking-tight sm:text-4xl lg:text-5xl">
 						{title}
 					</h1>
-					{subtitle}
+					{subtitle ? (
+						<div className="font-serif text-2xl font-normal italic tracking-tight sm:text-3xl lg:text-4xl">
+							{subtitle}
+						</div>
+					) : null}
 					{description ? (
-						<p className="text-sm text-white/90 sm:text-base">
+						<p className="font-sans text-sm text-white/90 sm:text-base">
 							{description}
 						</p>
 					) : null}
