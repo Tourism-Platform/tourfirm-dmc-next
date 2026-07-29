@@ -13,6 +13,7 @@ export enum BlockType {
 	faq = "faq",
 	timeline = "timeline",
 	itinerary = "itinerary",
+	routeLine = "routeLine",
 	cta = "cta"
 }
 
@@ -39,6 +40,18 @@ export type TItineraryItemProps = {
 	description?: string;
 	imageSrc?: string;
 	meta?: string;
+};
+
+export type TRouteLineEndpointProps = {
+	label?: string;
+	title?: string;
+	description?: string;
+};
+
+export type TRouteLineItemProps = {
+	key?: string;
+	title: string;
+	description?: string;
 };
 
 export type TRouteMapAsideItemProps = {
@@ -88,5 +101,8 @@ export type TBlockRenderProps = {
 	indicatorType?: TTimelineIndicatorType;
 	items?: TTimelineItemProps[];
 	itineraryItems?: TItineraryItemProps[];
+	start?: TRouteLineEndpointProps;
+	end?: TRouteLineEndpointProps;
+	routeLineItems?: TRouteLineItemProps[];
 	emptyLabel?: string;
 };

@@ -7,6 +7,7 @@ import { FaqSection } from "@/shared/ui/custom/custom-faq-section";
 import { ItinerarySection } from "@/shared/ui/custom/custom-itinerary-section";
 import { OverviewStatsSection } from "@/shared/ui/custom/custom-overview-stats-section";
 import { CustomPageHero } from "@/shared/ui/custom/custom-page-hero";
+import { RouteLineSection } from "@/shared/ui/custom/custom-route-line-section";
 import { RouteMapSection } from "@/shared/ui/custom/custom-route-map-section";
 import { TimelineSection } from "@/shared/ui/custom/custom-timeline-section";
 
@@ -99,6 +100,19 @@ export function BlockRender({
 				description={section.description}
 				note={section.note}
 				items={section.itineraryItems ?? []}
+			/>
+		);
+	}
+
+	if (section.blockType === BlockType.routeLine) {
+		return (
+			<RouteLineSection
+				eyebrow={section.eyebrow}
+				title={section.title!}
+				description={section.description}
+				start={section.start}
+				end={section.end}
+				items={section.routeLineItems ?? []}
 			/>
 		);
 	}

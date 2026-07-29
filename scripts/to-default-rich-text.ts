@@ -156,6 +156,24 @@ export function normalizeRichTextDescriptions(blocks: unknown[]): unknown[] {
 			entry.mapPanel = mapPanelEntry;
 		}
 
+		for (const endpointKey of ["start", "end"] as const) {
+			const endpoint = entry[endpointKey];
+
+			if (endpoint && typeof endpoint === "object") {
+				const endpointEntry = {
+					...(endpoint as Record<string, unknown>)
+				};
+
+				if ("description" in endpointEntry) {
+					endpointEntry.description = normalizeDescriptionField(
+						endpointEntry.description
+					);
+				}
+
+				entry[endpointKey] = endpointEntry;
+			}
+		}
+
 		return entry;
 	});
 }

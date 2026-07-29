@@ -955,6 +955,113 @@ export interface Country {
 				blockType: "itinerary";
 		  }
 		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
+				start?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				items: {
+					title: string;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					id?: string | null;
+				}[];
+				end?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "routeLine";
+		  }
+		| {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
@@ -1822,6 +1929,113 @@ export interface Route {
 				blockType: "itinerary";
 		  }
 		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
+				start?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				items: {
+					title: string;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					id?: string | null;
+				}[];
+				end?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "routeLine";
+		  }
+		| {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
@@ -2585,6 +2799,113 @@ export interface City {
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "itinerary";
+		  }
+		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
+				start?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				items: {
+					title: string;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					id?: string | null;
+				}[];
+				end?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "routeLine";
 		  }
 		| {
 				image?: (number | null) | Media;
@@ -3361,6 +3682,113 @@ export interface Region {
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "itinerary";
+		  }
+		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
+				start?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				items: {
+					title: string;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					id?: string | null;
+				}[];
+				end?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "routeLine";
 		  }
 		| {
 				image?: (number | null) | Media;
@@ -4157,6 +4585,113 @@ export interface Experience {
 				blockType: "itinerary";
 		  }
 		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
+				start?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				items: {
+					title: string;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					id?: string | null;
+				}[];
+				end?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "routeLine";
+		  }
+		| {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
@@ -4895,6 +5430,113 @@ export interface Theme {
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "itinerary";
+		  }
+		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
+				start?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				items: {
+					title: string;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					id?: string | null;
+				}[];
+				end?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "routeLine";
 		  }
 		| {
 				image?: (number | null) | Media;
@@ -5668,6 +6310,113 @@ export interface TradeFair {
 				blockType: "itinerary";
 		  }
 		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
+				start?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				items: {
+					title: string;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					id?: string | null;
+				}[];
+				end?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "routeLine";
+		  }
+		| {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
@@ -6435,6 +7184,113 @@ export interface Blog {
 				blockType: "itinerary";
 		  }
 		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
+				start?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				items: {
+					title: string;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					id?: string | null;
+				}[];
+				end?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "routeLine";
+		  }
+		| {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
@@ -7191,6 +8047,113 @@ export interface News {
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "itinerary";
+		  }
+		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
+				start?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				items: {
+					title: string;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					id?: string | null;
+				}[];
+				end?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "routeLine";
 		  }
 		| {
 				image?: (number | null) | Media;
@@ -7974,6 +8937,113 @@ export interface Attraction {
 				blockType: "itinerary";
 		  }
 		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
+				start?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				items: {
+					title: string;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					id?: string | null;
+				}[];
+				end?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "routeLine";
+		  }
+		| {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
@@ -8755,6 +9825,113 @@ export interface Page {
 				blockType: "itinerary";
 		  }
 		| {
+				eyebrow?: string | null;
+				title: string;
+				description?: {
+					root: {
+						type: string;
+						children: {
+							type: any;
+							version: number;
+							[k: string]: unknown;
+						}[];
+						direction: ("ltr" | "rtl") | null;
+						format:
+							| "left"
+							| "start"
+							| "center"
+							| "right"
+							| "end"
+							| "justify"
+							| "";
+						indent: number;
+						version: number;
+					};
+					[k: string]: unknown;
+				} | null;
+				start?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				items: {
+					title: string;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					id?: string | null;
+				}[];
+				end?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+				};
+				id?: string | null;
+				blockName?: string | null;
+				blockType: "routeLine";
+		  }
+		| {
 				image?: (number | null) | Media;
 				eyebrow?: string | null;
 				title?: string | null;
@@ -9235,6 +10412,36 @@ export interface CountriesSelect<T extends boolean = true> {
 							id?: T;
 							blockName?: T;
 					  };
+				routeLine?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							start?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							items?:
+								| T
+								| {
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							end?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
 				cta?:
 					| T
 					| {
@@ -9528,6 +10735,36 @@ export interface RegionsSelect<T extends boolean = true> {
 							id?: T;
 							blockName?: T;
 					  };
+				routeLine?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							start?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							items?:
+								| T
+								| {
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							end?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
 				cta?:
 					| T
 					| {
@@ -9811,6 +11048,36 @@ export interface CitiesSelect<T extends boolean = true> {
 										image?: T;
 										meta?: T;
 										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+				routeLine?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							start?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							items?:
+								| T
+								| {
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							end?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
 								  };
 							id?: T;
 							blockName?: T;
@@ -10108,6 +11375,36 @@ export interface AttractionsSelect<T extends boolean = true> {
 							id?: T;
 							blockName?: T;
 					  };
+				routeLine?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							start?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							items?:
+								| T
+								| {
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							end?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
 				cta?:
 					| T
 					| {
@@ -10398,6 +11695,36 @@ export interface RoutesSelect<T extends boolean = true> {
 										image?: T;
 										meta?: T;
 										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+				routeLine?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							start?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							items?:
+								| T
+								| {
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							end?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
 								  };
 							id?: T;
 							blockName?: T;
@@ -10711,6 +12038,36 @@ export interface ExperiencesSelect<T extends boolean = true> {
 							id?: T;
 							blockName?: T;
 					  };
+				routeLine?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							start?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							items?:
+								| T
+								| {
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							end?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
 				cta?:
 					| T
 					| {
@@ -10998,6 +12355,36 @@ export interface TradeFairsSelect<T extends boolean = true> {
 										image?: T;
 										meta?: T;
 										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+				routeLine?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							start?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							items?:
+								| T
+								| {
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							end?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
 								  };
 							id?: T;
 							blockName?: T;
@@ -11295,6 +12682,36 @@ export interface BlogSelect<T extends boolean = true> {
 							id?: T;
 							blockName?: T;
 					  };
+				routeLine?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							start?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							items?:
+								| T
+								| {
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							end?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
 				cta?:
 					| T
 					| {
@@ -11578,6 +12995,36 @@ export interface NewsSelect<T extends boolean = true> {
 										image?: T;
 										meta?: T;
 										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+				routeLine?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							start?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							items?:
+								| T
+								| {
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							end?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
 								  };
 							id?: T;
 							blockName?: T;
@@ -11871,6 +13318,36 @@ export interface PagesSelect<T extends boolean = true> {
 							id?: T;
 							blockName?: T;
 					  };
+				routeLine?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							start?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							items?:
+								| T
+								| {
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							end?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
 				cta?:
 					| T
 					| {
@@ -12154,6 +13631,36 @@ export interface ThemesSelect<T extends boolean = true> {
 										image?: T;
 										meta?: T;
 										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+				routeLine?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							start?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							items?:
+								| T
+								| {
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							end?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
 								  };
 							id?: T;
 							blockName?: T;
@@ -12968,6 +14475,113 @@ export interface Homepage {
 						blockType: "itinerary";
 				  }
 				| {
+						eyebrow?: string | null;
+						title: string;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
+						start?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+						};
+						items: {
+							title: string;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+							id?: string | null;
+						}[];
+						end?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+						};
+						id?: string | null;
+						blockName?: string | null;
+						blockType: "routeLine";
+				  }
+				| {
 						image?: (number | null) | Media;
 						eyebrow?: string | null;
 						title?: string | null;
@@ -13690,6 +15304,113 @@ export interface Destination {
 						id?: string | null;
 						blockName?: string | null;
 						blockType: "itinerary";
+				  }
+				| {
+						eyebrow?: string | null;
+						title: string;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
+						start?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+						};
+						items: {
+							title: string;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+							id?: string | null;
+						}[];
+						end?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+						};
+						id?: string | null;
+						blockName?: string | null;
+						blockType: "routeLine";
 				  }
 				| {
 						image?: (number | null) | Media;
@@ -14419,6 +16140,113 @@ export interface RoutesHub {
 						blockType: "itinerary";
 				  }
 				| {
+						eyebrow?: string | null;
+						title: string;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
+						start?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+						};
+						items: {
+							title: string;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+							id?: string | null;
+						}[];
+						end?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+						};
+						id?: string | null;
+						blockName?: string | null;
+						blockType: "routeLine";
+				  }
+				| {
 						image?: (number | null) | Media;
 						eyebrow?: string | null;
 						title?: string | null;
@@ -15144,6 +16972,113 @@ export interface ExperiencesHub {
 						id?: string | null;
 						blockName?: string | null;
 						blockType: "itinerary";
+				  }
+				| {
+						eyebrow?: string | null;
+						title: string;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
+						start?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+						};
+						items: {
+							title: string;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+							id?: string | null;
+						}[];
+						end?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+						};
+						id?: string | null;
+						blockName?: string | null;
+						blockType: "routeLine";
 				  }
 				| {
 						image?: (number | null) | Media;
@@ -15873,6 +17808,113 @@ export interface TradeFairsHub {
 						blockType: "itinerary";
 				  }
 				| {
+						eyebrow?: string | null;
+						title: string;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
+						start?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+						};
+						items: {
+							title: string;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+							id?: string | null;
+						}[];
+						end?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+						};
+						id?: string | null;
+						blockName?: string | null;
+						blockType: "routeLine";
+				  }
+				| {
 						image?: (number | null) | Media;
 						eyebrow?: string | null;
 						title?: string | null;
@@ -16600,6 +18642,113 @@ export interface BlogHub {
 						blockType: "itinerary";
 				  }
 				| {
+						eyebrow?: string | null;
+						title: string;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
+						start?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+						};
+						items: {
+							title: string;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+							id?: string | null;
+						}[];
+						end?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+						};
+						id?: string | null;
+						blockName?: string | null;
+						blockType: "routeLine";
+				  }
+				| {
 						image?: (number | null) | Media;
 						eyebrow?: string | null;
 						title?: string | null;
@@ -17325,6 +19474,113 @@ export interface NewsHub {
 						id?: string | null;
 						blockName?: string | null;
 						blockType: "itinerary";
+				  }
+				| {
+						eyebrow?: string | null;
+						title: string;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
+						start?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+						};
+						items: {
+							title: string;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+							id?: string | null;
+						}[];
+						end?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+						};
+						id?: string | null;
+						blockName?: string | null;
+						blockType: "routeLine";
 				  }
 				| {
 						image?: (number | null) | Media;
@@ -18108,6 +20364,36 @@ export interface HomepageSelect<T extends boolean = true> {
 							id?: T;
 							blockName?: T;
 					  };
+				routeLine?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							start?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							items?:
+								| T
+								| {
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							end?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
 				cta?:
 					| T
 					| {
@@ -18371,6 +20657,36 @@ export interface DestinationSelect<T extends boolean = true> {
 										image?: T;
 										meta?: T;
 										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+				routeLine?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							start?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							items?:
+								| T
+								| {
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							end?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
 								  };
 							id?: T;
 							blockName?: T;
@@ -18643,6 +20959,36 @@ export interface RoutesHubSelect<T extends boolean = true> {
 							id?: T;
 							blockName?: T;
 					  };
+				routeLine?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							start?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							items?:
+								| T
+								| {
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							end?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
 				cta?:
 					| T
 					| {
@@ -18907,6 +21253,36 @@ export interface ExperiencesHubSelect<T extends boolean = true> {
 										image?: T;
 										meta?: T;
 										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+				routeLine?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							start?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							items?:
+								| T
+								| {
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							end?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
 								  };
 							id?: T;
 							blockName?: T;
@@ -19179,6 +21555,36 @@ export interface TradeFairsHubSelect<T extends boolean = true> {
 							id?: T;
 							blockName?: T;
 					  };
+				routeLine?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							start?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							items?:
+								| T
+								| {
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							end?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
 				cta?:
 					| T
 					| {
@@ -19447,6 +21853,36 @@ export interface BlogHubSelect<T extends boolean = true> {
 							id?: T;
 							blockName?: T;
 					  };
+				routeLine?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							start?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							items?:
+								| T
+								| {
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							end?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
 				cta?:
 					| T
 					| {
@@ -19711,6 +22147,36 @@ export interface NewsHubSelect<T extends boolean = true> {
 										image?: T;
 										meta?: T;
 										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+				routeLine?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							start?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+								  };
+							items?:
+								| T
+								| {
+										title?: T;
+										description?: T;
+										id?: T;
+								  };
+							end?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
 								  };
 							id?: T;
 							blockName?: T;

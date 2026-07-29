@@ -16,6 +16,7 @@ export * from "./custom-faq-section";
 export * from "./custom-overview-stats-section";
 export * from "./custom-timeline-section";
 export * from "./custom-itinerary-section";
+export * from "./custom-route-line-section";
 export * from "./custom-route-map-section";
 export * from "./custom-page-hero";
 export * from "./custom-cta-banner";

@@ -331,6 +331,35 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 				}))
 			};
 
+		case "routeLine":
+			return {
+				blockType: BlockType.routeLine,
+				eyebrow: block.eyebrow ?? undefined,
+				title: block.title,
+				description: richTextToPlain(block.description),
+				start: block.start
+					? {
+							label: block.start.label ?? undefined,
+							title: block.start.title ?? undefined,
+							description: richTextToPlain(
+								block.start.description
+							)
+						}
+					: undefined,
+				end: block.end
+					? {
+							label: block.end.label ?? undefined,
+							title: block.end.title ?? undefined,
+							description: richTextToPlain(block.end.description)
+						}
+					: undefined,
+				routeLineItems: (block.items ?? []).map((item, index) => ({
+					key: item.id ?? String(index),
+					title: item.title,
+					description: richTextToPlain(item.description)
+				}))
+			};
+
 		default:
 			return null;
 	}
