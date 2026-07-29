@@ -4,6 +4,7 @@ import "server-only";
 import { resolveMediaUrl } from "@/shared/lib/media/resolve-media-url";
 import type { TDestinationsNavTree } from "@/shared/types/destinations-nav.types";
 import type { TDiscoveryNavTree } from "@/shared/types/discovery-nav.types";
+import type { TInformationNavTree } from "@/shared/types/information-nav.types";
 import type {
 	TResolvedFooterColumn,
 	TResolvedNavLink,
@@ -13,8 +14,11 @@ import type {
 import { getDestination, getFooter, getHeader } from "../api";
 import { getDestinationsNavTree } from "../api/get-destinations-nav-tree";
 import { getExperiencesNavTree } from "../api/get-experiences-nav-tree";
+import { getInformationNavTree } from "../api/get-information-nav-tree";
 import { getRoutesNavTree } from "../api/get-routes-nav-tree";
 
+import { mapExperiencesNavToFooterColumn } from "./map-experiences-nav-to-footer-column";
+import { mapInformationAreasToFooterColumns } from "./map-information-areas-to-footer-columns";
 import {
 	resolveFooterNavigation,
 	resolveHeaderNavigation
@@ -25,6 +29,7 @@ export type TLayoutNavigation = {
 	destinationsNav: TDestinationsNavTree | null;
 	routesNav: TDiscoveryNavTree | null;
 	experiencesNav: TDiscoveryNavTree | null;
+	informationNav: TInformationNavTree | null;
 	footerColumns: TResolvedFooterColumn[];
 	socialLinks: TResolvedSocialLink[];
 	logoSrc?: string;
@@ -42,20 +47,54 @@ export async function loadLayoutNavigation(
 	]);
 
 	const destinationSlug = destinationGlobal?.slug ?? "destinations";
-	const [destinationsNav, routesNav, experiencesNav] = await Promise.all([
+	const informationAreas = headerGlobal?.informationAreas ?? [];
+
+	const [
+		destinationsNav,
+		routesNav,
+		experiencesNav,
+		experiencesNavFooter,
+		informationNavFooter
+	] = await Promise.all([
 		getDestinationsNavTree(locale, destinationSlug),
 		getRoutesNavTree(locale),
-		getExperiencesNavTree(locale)
+		getExperiencesNavTree(locale, "header"),
+		getExperiencesNavTree(locale, "footer"),
+		getInformationNavTree(locale, informationAreas, "footer")
 	]);
+
 	const navItems = resolveHeaderNavigation(
 		locale,
 		headerGlobal?.navItems,
 		destinationSlug
 	);
-	const footerColumns = resolveFooterNavigation(
+	const staticFooterColumns = resolveFooterNavigation(
 		locale,
 		footerGlobal?.columns
 	);
+	const informationViewAll =
+		headerGlobal?.uiTexts?.public?.nav?.information?.viewAll?.trim() ||
+		"View all";
+	const experiencesTitle =
+		headerGlobal?.uiTexts?.public?.nav?.experiences?.columns?.title?.trim() ||
+		"Experiences";
+	const experiencesViewAll =
+		headerGlobal?.uiTexts?.public?.nav?.experiences?.viewAll?.trim() ||
+		"View all";
+	const informationFooterColumns = mapInformationAreasToFooterColumns(
+		informationNavFooter,
+		informationViewAll
+	);
+	const experiencesFooterColumn = mapExperiencesNavToFooterColumn(
+		experiencesNavFooter,
+		experiencesTitle,
+		experiencesViewAll
+	);
+	const footerColumns = [
+		...staticFooterColumns,
+		...informationFooterColumns,
+		...(experiencesFooterColumn ? [experiencesFooterColumn] : [])
+	];
 
 	const socialLinks =
 		footerGlobal?.socialLinks?.map((link, index) => ({
@@ -71,6 +110,7 @@ export async function loadLayoutNavigation(
 		destinationsNav,
 		routesNav,
 		experiencesNav,
+		informationNav: null,
 		footerColumns,
 		socialLinks,
 		logoSrc,

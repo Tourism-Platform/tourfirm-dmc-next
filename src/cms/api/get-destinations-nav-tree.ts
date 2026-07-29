@@ -9,13 +9,8 @@ import type { TDestinationsNavTree } from "@/shared/types/destinations-nav.types
 import { toGeoLocale } from "./geo-locale";
 import { DESTINATIONS_NAV_CACHE_TAG } from "@/cms/cache/cache-tags";
 import { buildDestinationsNavTree } from "@/cms/lib/build-destinations-nav-tree";
+import { PUBLISHED_AND_SHOW_IN_HEADER } from "@/cms/lib/nav-visibility-where";
 import type { City, Country, Region } from "@/payload-types";
-
-const PUBLISHED_WHERE = {
-	_status: {
-		equals: "published" as const
-	}
-};
 
 const JOIN_LIMIT = 500;
 
@@ -41,7 +36,7 @@ async function fetchDestinationsNavTree(
 		locale: geoLocale,
 		fallbackLocale: "en",
 		depth: 1,
-		where: PUBLISHED_WHERE,
+		where: PUBLISHED_AND_SHOW_IN_HEADER,
 		limit: 100,
 		select: {
 			slug: true,
@@ -55,12 +50,12 @@ async function fetchDestinationsNavTree(
 			regions: {
 				limit: JOIN_LIMIT,
 				sort: "navOrder",
-				where: PUBLISHED_WHERE
+				where: PUBLISHED_AND_SHOW_IN_HEADER
 			},
 			cities: {
 				limit: JOIN_LIMIT,
 				sort: "navOrder",
-				where: PUBLISHED_WHERE
+				where: PUBLISHED_AND_SHOW_IN_HEADER
 			}
 		}
 	});

@@ -7,6 +7,7 @@ import { ENUM_PATH } from "@/shared/config";
 import { Link } from "@/shared/i18n";
 import type { TDestinationsNavTree } from "@/shared/types/destinations-nav.types";
 import type { TDiscoveryNavTree } from "@/shared/types/discovery-nav.types";
+import type { TInformationNavTree } from "@/shared/types/information-nav.types";
 import type { TResolvedNavLink } from "@/shared/types/navigation.types";
 import { LanguageToggle, ThemeToggle } from "@/shared/ui";
 import type { TDropdownLanguage } from "@/shared/ui-content";
@@ -21,6 +22,7 @@ type TProps = {
 	destinationsNav?: TDestinationsNavTree | null;
 	routesNav?: TDiscoveryNavTree | null;
 	experiencesNav?: TDiscoveryNavTree | null;
+	informationNav?: TInformationNavTree | null;
 	logoSrc?: string;
 	dropdownLanguages?: TDropdownLanguage[];
 	brandName?: string;
@@ -31,6 +33,7 @@ export const HeaderDefault: FC<TProps> = ({
 	destinationsNav = null,
 	routesNav = null,
 	experiencesNav = null,
+	informationNav = null,
 	logoSrc = DEFAULT_LOGO_SRC,
 	dropdownLanguages,
 	brandName = "TourLink"
@@ -46,6 +49,7 @@ export const HeaderDefault: FC<TProps> = ({
 						destinationsNav={destinationsNav}
 						routesNav={routesNav}
 						experiencesNav={experiencesNav}
+						informationNav={informationNav}
 						logoSrc={logoSrc}
 						brandName={brandName}
 					/>
@@ -71,6 +75,7 @@ export const HeaderDefault: FC<TProps> = ({
 						destinationsNav={destinationsNav}
 						routesNav={routesNav}
 						experiencesNav={experiencesNav}
+						informationNav={informationNav}
 					/>
 				</div>
 				<div className="flex shrink-0 items-center gap-2">

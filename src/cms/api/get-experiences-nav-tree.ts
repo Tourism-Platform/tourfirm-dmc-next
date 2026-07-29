@@ -9,15 +9,14 @@ import type { TDiscoveryNavTree } from "@/shared/types/discovery-nav.types";
 import { toGeoLocale } from "./geo-locale";
 import { EXPERIENCES_NAV_CACHE_TAG } from "@/cms/cache/cache-tags";
 import { buildExperiencesNavTree } from "@/cms/lib/build-discovery-nav-tree";
-
-const PUBLISHED_WHERE = {
-	_status: {
-		equals: "published" as const
-	}
-};
+import {
+	type TNavSurface,
+	buildNavVisibilityWhere
+} from "@/cms/lib/nav-visibility-where";
 
 async function fetchExperiencesNavTree(
-	locale: string
+	locale: string,
+	surface: TNavSurface
 ): Promise<TDiscoveryNavTree> {
 	const payload = await getPayload({ config });
 	const geoLocale = toGeoLocale(locale);
@@ -27,7 +26,7 @@ async function fetchExperiencesNavTree(
 		locale: geoLocale,
 		fallbackLocale: "en",
 		depth: 0,
-		where: PUBLISHED_WHERE,
+		where: buildNavVisibilityWhere(surface),
 		limit: 200,
 		sort: "sortOrder",
 		select: {
@@ -58,7 +57,10 @@ const getCachedExperiencesNavTree = unstable_cache(
 );
 
 export const getExperiencesNavTree = cache(
-	async (locale: string): Promise<TDiscoveryNavTree> => {
-		return getCachedExperiencesNavTree(locale);
+	async (
+		locale: string,
+		surface: TNavSurface = "header"
+	): Promise<TDiscoveryNavTree> => {
+		return getCachedExperiencesNavTree(locale, surface);
 	}
 );

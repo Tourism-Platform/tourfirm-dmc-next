@@ -74,6 +74,14 @@ export const headerUiTextsFields: Field[] = [
 									localizedText("viewAll")
 								]
 							},
+							{
+								name: "information",
+								type: "group",
+								fields: [
+									localizedText("areasLabel"),
+									localizedText("viewAll")
+								]
+							},
 							localizedText("mobileMenu"),
 							localizedText("comingSoon")
 						]

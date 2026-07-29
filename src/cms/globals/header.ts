@@ -27,6 +27,39 @@ export const Header: GlobalConfig = {
 			fields: navigationItemFields
 		},
 		{
+			name: "informationAreas",
+			type: "array",
+			labels: {
+				singular: "Area",
+				plural: "Information areas"
+			},
+			admin: {
+				description:
+					"Parents for Information mega and footer columns. Children auto-load from each collection."
+			},
+			fields: [
+				{
+					name: "collection",
+					type: "select",
+					required: true,
+					options: [
+						{ label: "News", value: "news" },
+						{ label: "Blog", value: "blog" },
+						{ label: "Trade fairs", value: "trade-fairs" }
+					]
+				},
+				{
+					name: "label",
+					type: "text",
+					localized: true,
+					admin: {
+						description:
+							"Optional override. Defaults to News / Blog / Trade fairs."
+					}
+				}
+			]
+		},
+		{
 			name: "ctaAction",
 			type: "group",
 			fields: [

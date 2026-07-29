@@ -6,6 +6,7 @@ import { Link } from "@/shared/i18n";
 import { isExternalHref } from "@/shared/lib/url/is-external-href";
 import type { TDestinationsNavTree } from "@/shared/types/destinations-nav.types";
 import type { TDiscoveryNavTree } from "@/shared/types/discovery-nav.types";
+import type { TInformationNavTree } from "@/shared/types/information-nav.types";
 import type { TResolvedNavLink } from "@/shared/types/navigation.types";
 import {
 	NavigationMenu,
@@ -19,6 +20,7 @@ import {
 
 import { DestinationsNavMenu } from "./destinations-nav-menu";
 import { ExperiencesNavMenu } from "./experiences-nav-menu";
+import { InformationNavMenu } from "./information-nav-menu";
 import { PublicNavMenuItem } from "./public-nav-menu-item";
 import { RoutesNavMenu } from "./routes-nav-menu";
 
@@ -27,13 +29,15 @@ interface IPublicNavMenuProps {
 	destinationsNav: TDestinationsNavTree | null;
 	routesNav: TDiscoveryNavTree | null;
 	experiencesNav: TDiscoveryNavTree | null;
+	informationNav: TInformationNavTree | null;
 }
 
 export const PublicNavMenu: FC<IPublicNavMenuProps> = ({
 	items,
 	destinationsNav,
 	routesNav,
-	experiencesNav
+	experiencesNav,
+	informationNav
 }) => {
 	return (
 		<NavigationMenu viewport={false} className="max-md:hidden">
@@ -74,6 +78,19 @@ export const PublicNavMenu: FC<IPublicNavMenuProps> = ({
 								key={entry.key}
 								label={entry.label}
 								tree={experiencesNav}
+							/>
+						);
+					}
+
+					if (
+						entry.variant === "information-mega" &&
+						informationNav?.areas.length
+					) {
+						return (
+							<InformationNavMenu
+								key={entry.key}
+								label={entry.label}
+								tree={informationNav}
 							/>
 						);
 					}

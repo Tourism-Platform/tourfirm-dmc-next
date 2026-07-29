@@ -118,6 +118,7 @@ function buildHeaderUiTexts(header: Record<string, unknown>) {
 	const destinations = nav.destinations as Record<string, unknown> | undefined;
 	const routes = nav.routes as Record<string, unknown> | undefined;
 	const experiences = nav.experiences as Record<string, unknown> | undefined;
+	const information = nav.information as Record<string, unknown> | undefined;
 
 	return {
 		public: {
@@ -125,6 +126,7 @@ function buildHeaderUiTexts(header: Record<string, unknown>) {
 				destinations: convertKeysDeep(destinations ?? {}),
 				routes: convertKeysDeep(routes ?? {}),
 				experiences: convertKeysDeep(experiences ?? {}),
+				information: convertKeysDeep(information ?? {}),
 				mobileMenu: nav.mobile_menu,
 				comingSoon: nav.coming_soon
 			}

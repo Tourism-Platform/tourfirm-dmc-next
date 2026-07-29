@@ -11,6 +11,7 @@ import type { City, Country, Footer, Header, Media, Region } from "@/payload-typ
 
 import {
 	mergeFooterColumnsById,
+	mergeInformationAreasById,
 	mergeNavItemsById
 } from "@/cms/lib/merge-nav-items-by-id";
 import {
@@ -997,10 +998,11 @@ export async function resolveSeedDocument(
 	options?: TResolvePageOptions
 ): Promise<Record<string, unknown>> {
 	return profileRun("resolve_seed_document", async () => {
+		const withStatusDefaults = mergeStatusDefaults(data);
 		const withTopLevelMedia = await resolveTopLevelMedia(
 			payload,
 			mediaCache,
-			data
+			withStatusDefaults
 		);
 
 		if (!Array.isArray(withTopLevelMedia.blocks)) {
@@ -1018,6 +1020,25 @@ export async function resolveSeedDocument(
 			)
 		};
 	});
+}
+
+function mergeStatusDefaults(
+	data: Record<string, unknown>
+): Record<string, unknown> {
+	const rawStatus =
+		data.status && typeof data.status === "object" && !Array.isArray(data.status)
+			? (data.status as Record<string, unknown>)
+			: {};
+
+	return {
+		...data,
+		status: {
+			showInSitemap: true,
+			showInHeader: true,
+			showInFooter: true,
+			...rawStatus
+		}
+	};
 }
 
 async function readDestinationPageSlug(): Promise<string> {
@@ -1313,9 +1334,11 @@ export async function seedLocalizedDocOnce(
 	let createdDoc: Record<string, unknown> | undefined;
 
 	if (!doc) {
-		const enData = await beforeCreate(
-			pickLocale(raw, "en") as Record<string, unknown>,
-			"en"
+		const enData = mergeStatusDefaults(
+			await beforeCreate(
+				pickLocale(raw, "en") as Record<string, unknown>,
+				"en"
+			)
 		);
 
 		if (options?.published) {
@@ -1346,9 +1369,11 @@ export async function seedLocalizedDocOnce(
 			continue;
 		}
 
-		const localeData = await beforeCreate(
-			pickLocale(raw, locale) as Record<string, unknown>,
-			locale
+		const localeData = mergeStatusDefaults(
+			await beforeCreate(
+				pickLocale(raw, locale) as Record<string, unknown>,
+				locale
+			)
 		);
 
 		await profileRun("payload_update_locales", () =>
@@ -1937,6 +1962,73 @@ type TNavigationSeedContext = {
 	destinationSlug: string;
 };
 
+async function buildNavigationContextFromDb(
+	payload: Payload
+): Promise<TNavigationSeedContext> {
+	const [segmentsResult, pagesResult, destination] = await Promise.all([
+		payload.find({
+			collection: "segments",
+			limit: 500,
+			depth: 0,
+			pagination: false,
+			overrideAccess: true
+		}),
+		payload.find({
+			collection: "pages",
+			limit: 1000,
+			depth: 1,
+			pagination: false,
+			overrideAccess: true
+		}),
+		payload.findGlobal({
+			slug: "destination",
+			depth: 0,
+			overrideAccess: true
+		})
+	]);
+
+	const segmentIds = new Map<string, number>();
+
+	for (const segment of segmentsResult.docs) {
+		if (typeof segment.slug === "string") {
+			segmentIds.set(segment.slug, segment.id as number);
+		}
+	}
+
+	const pageIds = new Map<string, number>();
+
+	for (const page of pagesResult.docs) {
+		const segment =
+			page.segment && typeof page.segment === "object"
+				? page.segment
+				: null;
+		const segmentSlug =
+			segment && typeof segment.slug === "string" ? segment.slug : null;
+		const pageSlug = typeof page.slug === "string" ? page.slug : null;
+
+		if (!segmentSlug || !pageSlug) {
+			continue;
+		}
+
+		const pathGroup =
+			typeof page.pathGroup === "string" && page.pathGroup.length > 0
+				? page.pathGroup
+				: undefined;
+		const key = pathGroup
+			? `${segmentSlug}/${pathGroup}/${pageSlug}`
+			: `${segmentSlug}/${pageSlug}`;
+
+		pageIds.set(key, page.id as number);
+	}
+
+	const destinationSlug =
+		typeof destination?.slug === "string" && destination.slug.length > 0
+			? destination.slug
+			: "central-asia";
+
+	return { segmentIds, pageIds, destinationSlug };
+}
+
 function resolveNavHref(
 	href: unknown,
 	context: TNavigationSeedContext
@@ -2097,11 +2189,22 @@ async function seedNavigation(
 				headerWithIds?.navItems as Record<string, unknown>[] | undefined,
 				navItems
 			);
+			const localizedAreas = (localized.informationAreas as
+				| Record<string, unknown>[]
+				| undefined) ?? [];
+			const mergedAreas = mergeInformationAreasById(
+				headerWithIds?.informationAreas as
+					| Record<string, unknown>[]
+					| undefined,
+				localizedAreas
+			);
 
 			await payload.updateGlobal({
 				slug: "header",
 				data: {
 					navItems: mergedNavItems as Header["navItems"],
+					informationAreas:
+						mergedAreas as Header["informationAreas"],
 					ctaAction: localized.ctaAction as Header["ctaAction"]
 				},
 				locale,
@@ -2507,8 +2610,65 @@ const isSeedEntrypoint =
 	path.resolve(fileURLToPath(import.meta.url)) ===
 		path.resolve(process.argv[1]);
 
+function getSeedOnlyTarget(): string | null {
+	const onlyArg = process.argv.find((arg) => arg.startsWith("--only="));
+
+	if (!onlyArg) {
+		return null;
+	}
+
+	return onlyArg.slice("--only=".length).trim() || null;
+}
+
+async function runSeedNavigationOnly(): Promise<void> {
+	const seedDbUri = resolveSeedDatabaseUri();
+	const profiler = createSeedProfiler();
+	const lookup = new SeedLookupCache();
+
+	logSeedConnectionInfo(seedDbUri);
+	console.log("Seed mode: navigation only (no DB reset)");
+
+	process.env.PAYLOAD_SEED_MODE = "true";
+	process.env.PAYLOAD_DB_PUSH = "false";
+	process.env.DATABASE_URI = seedDbUri;
+
+	const { default: config } = await import("@payload-config");
+	const payload = await getPayload({ config });
+	attachSeedPoolErrorHandler(payload);
+
+	const mediaDbIndex = await preloadMediaDbIndex(payload);
+	setSeedRuntimeContext(lookup, mediaDbIndex, profiler);
+
+	const mediaCache: TMediaCache = new Map();
+	const context = await buildNavigationContextFromDb(payload);
+
+	console.log(
+		`Navigation context: ${context.segmentIds.size} segments, ${context.pageIds.size} pages, destination=${context.destinationSlug}`
+	);
+
+	await seedNavigation(payload, mediaCache, context);
+
+	if (typeof payload.db?.destroy === "function") {
+		await payload.db.destroy();
+	}
+
+	console.log("Navigation seed complete");
+	process.exit(0);
+}
+
 if (isSeedEntrypoint) {
-	main().catch((error: unknown) => {
+	const only = getSeedOnlyTarget();
+
+	if (only && only !== "navigation") {
+		console.error(
+			`Unknown --only target "${only}". Supported: navigation`
+		);
+		process.exit(1);
+	}
+
+	const run = only === "navigation" ? runSeedNavigationOnly : main;
+
+	run().catch((error: unknown) => {
 		console.error("Seed failed:", error);
 		process.exit(1);
 	});

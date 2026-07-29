@@ -25,15 +25,19 @@
 			},
 			"routes": {
 				"columns": {
-					"title": "Marshrutlar"
+					"title": "Individual sayohatlar"
 				},
-				"view_all": "Barcha marshrutlar"
+				"view_all": "Barcha individual sayohatlar"
 			},
 			"experiences": {
 				"columns": {
 					"title": "Taassurotlar"
 				},
 				"view_all": "Barcha taassurotlar"
+			},
+			"information": {
+				"areas_label": "Bo'limlar",
+				"view_all": "Barchasini ko'rish"
 			},
 			"tours": {
 				"label": "Turlar va faoliyatlar"

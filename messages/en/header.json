@@ -25,15 +25,19 @@
 			},
 			"routes": {
 				"columns": {
-					"title": "Travel routes"
+					"title": "Tailor-Made Trips"
 				},
-				"view_all": "All routes"
+				"view_all": "All tailor-made trips"
 			},
 			"experiences": {
 				"columns": {
 					"title": "Experiences"
 				},
 				"view_all": "All experiences"
+			},
+			"information": {
+				"areas_label": "Sections",
+				"view_all": "View all"
 			},
 			"tours": {
 				"label": "Tour & activities"

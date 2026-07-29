@@ -23,6 +23,10 @@ export type TUiHeader = {
 				columns: { title: string };
 				viewAll: string;
 			};
+			information?: {
+				areasLabel: string;
+				viewAll: string;
+			};
 			mobileMenu: string;
 			comingSoon: string;
 		};

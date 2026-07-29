@@ -25,7 +25,8 @@ export type TResolvedNavLink = {
 		| "default"
 		| "destinations-mega"
 		| "routes-mega"
-		| "experiences-mega";
+		| "experiences-mega"
+		| "information-mega";
 	sections: TResolvedNavSection[];
 };
 

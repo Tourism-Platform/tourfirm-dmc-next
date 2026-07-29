@@ -4,6 +4,10 @@ import { authenticatedOrPublished } from "../access/authenticated-or-published";
 import { pageBlocks } from "../blocks";
 import { seoField } from "../fields/seo";
 import { statusField } from "../fields/status";
+import {
+	revalidateInformationNavAfterChange,
+	revalidateInformationNavAfterDelete
+} from "../hooks/revalidate-information-nav";
 
 export const TradeFairs: CollectionConfig = {
 	slug: "trade-fairs",
@@ -15,6 +19,10 @@ export const TradeFairs: CollectionConfig = {
 	},
 	versions: {
 		drafts: true
+	},
+	hooks: {
+		afterChange: [revalidateInformationNavAfterChange],
+		afterDelete: [revalidateInformationNavAfterDelete]
 	},
 	fields: [
 		{

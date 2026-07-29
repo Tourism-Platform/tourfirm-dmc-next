@@ -143,20 +143,21 @@ describe("resolveHeaderNavigation", () => {
 		expect(result[0]?.href).toBe("/experiences");
 	});
 
-	it("assigns destinations-mega variant when destination slug matches", () => {
+	it("assigns information-mega variant for info icon", () => {
 		const navItems = [
 			{
-				id: "destinations",
+				id: "information",
 				type: "custom" as const,
-				label: "Destinations",
-				icon: "map-pin",
-				href: "/destinations"
+				label: "Information",
+				icon: "info",
+				href: "/company/news"
 			}
 		] as NonNullable<Header["navItems"]>;
 
-		const result = resolveHeaderNavigation("en", navItems, "destinations");
+		const result = resolveHeaderNavigation("en", navItems);
 
-		expect(result[0]?.variant).toBe("destinations-mega");
+		expect(result[0]?.variant).toBe("information-mega");
+		expect(result[0]?.href).toBe("/company/news");
 	});
 });
 

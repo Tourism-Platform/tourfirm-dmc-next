@@ -106,6 +106,7 @@ export default async function LocaleLayout({ children, params }: TProps) {
 								}
 								routesNav={layoutNavigation.routesNav}
 								experiencesNav={layoutNavigation.experiencesNav}
+								informationNav={layoutNavigation.informationNav}
 								logoSrc={layoutNavigation.logoSrc}
 								dropdownLanguages={dropdownLanguages}
 								brandName={uiContent.footer.brand.name}

@@ -9,12 +9,7 @@ import type { TDiscoveryNavTree } from "@/shared/types/discovery-nav.types";
 import { toGeoLocale } from "./geo-locale";
 import { ROUTES_NAV_CACHE_TAG } from "@/cms/cache/cache-tags";
 import { buildRoutesNavTree } from "@/cms/lib/build-discovery-nav-tree";
-
-const PUBLISHED_WHERE = {
-	_status: {
-		equals: "published" as const
-	}
-};
+import { PUBLISHED_AND_SHOW_IN_HEADER } from "@/cms/lib/nav-visibility-where";
 
 async function fetchRoutesNavTree(locale: string): Promise<TDiscoveryNavTree> {
 	const payload = await getPayload({ config });
@@ -25,7 +20,7 @@ async function fetchRoutesNavTree(locale: string): Promise<TDiscoveryNavTree> {
 		locale: geoLocale,
 		fallbackLocale: "en",
 		depth: 0,
-		where: PUBLISHED_WHERE,
+		where: PUBLISHED_AND_SHOW_IN_HEADER,
 		limit: 200,
 		sort: "sortOrder",
 		select: {

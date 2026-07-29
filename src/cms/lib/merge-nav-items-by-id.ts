@@ -53,3 +53,19 @@ export function mergeFooterColumnsById(
 		return merged;
 	});
 }
+
+export function mergeInformationAreasById(
+	existing: TNavItemRecord[] | null | undefined,
+	localized: TNavItemRecord[]
+): TNavItemRecord[] {
+	return localized.map((area, index) => {
+		const existingArea = asRecord(existing?.[index]);
+		const merged: TNavItemRecord = { ...area };
+
+		if (existingArea?.id != null) {
+			merged.id = existingArea.id;
+		}
+
+		return merged;
+	});
+}

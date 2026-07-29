@@ -187,6 +187,7 @@ export function resolveHeaderNavigation(
 			item.icon === "route" && isRoutesHref(resolved.href);
 		const isExperiencesMega =
 			item.icon === "heart-handshake" && isExperiencesHref(resolved.href);
+		const isInformationMega = item.icon === "info";
 
 		let variant: TResolvedNavLink["variant"] = "default";
 
@@ -196,6 +197,8 @@ export function resolveHeaderNavigation(
 			variant = "routes-mega";
 		} else if (isExperiencesMega) {
 			variant = "experiences-mega";
+		} else if (isInformationMega) {
+			variant = "information-mega";
 		}
 
 		return {

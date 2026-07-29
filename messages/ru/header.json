@@ -25,15 +25,19 @@
 			},
 			"routes": {
 				"columns": {
-					"title": "Маршруты"
+					"title": "Индивидуальные поездки"
 				},
-				"view_all": "Все маршруты"
+				"view_all": "Все индивидуальные поездки"
 			},
 			"experiences": {
 				"columns": {
 					"title": "Впечатления"
 				},
 				"view_all": "Все впечатления"
+			},
+			"information": {
+				"areas_label": "Разделы",
+				"view_all": "Смотреть все"
 			},
 			"tours": {
 				"label": "Туры и активности"

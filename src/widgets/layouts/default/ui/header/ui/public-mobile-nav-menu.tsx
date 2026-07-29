@@ -9,6 +9,7 @@ import { Link } from "@/shared/i18n";
 import { isExternalHref } from "@/shared/lib/url/is-external-href";
 import type { TDestinationsNavTree } from "@/shared/types/destinations-nav.types";
 import type { TDiscoveryNavTree } from "@/shared/types/discovery-nav.types";
+import type { TInformationNavTree } from "@/shared/types/information-nav.types";
 import type { TResolvedNavLink } from "@/shared/types/navigation.types";
 import {
 	Accordion,
@@ -35,6 +36,7 @@ type TProps = {
 	destinationsNav: TDestinationsNavTree | null;
 	routesNav: TDiscoveryNavTree | null;
 	experiencesNav: TDiscoveryNavTree | null;
+	informationNav: TInformationNavTree | null;
 	logoSrc?: string;
 	brandName?: string;
 };
@@ -44,6 +46,7 @@ export const PublicMobileNavMenu: FC<TProps> = ({
 	destinationsNav,
 	routesNav,
 	experiencesNav,
+	informationNav,
 	logoSrc = DEFAULT_LOGO_SRC,
 	brandName = "TourLink"
 }) => {
@@ -182,6 +185,66 @@ export const PublicMobileNavMenu: FC<TProps> = ({
 											label={nav.experiences.viewAll}
 											className="mt-2"
 										/>
+									</AccordionContent>
+								</AccordionItem>
+							);
+						}
+
+						if (
+							entry.variant === "information-mega" &&
+							informationNav?.areas.length
+						) {
+							return (
+								<AccordionItem
+									key={entry.key}
+									value={entry.key}
+								>
+									<AccordionTrigger>
+										{entry.label}
+									</AccordionTrigger>
+									<AccordionContent>
+										<div className="flex flex-col gap-4">
+											{informationNav.areas.map(
+												(area) => (
+													<div key={area.key}>
+														<p className="px-2 text-[11px] font-semibold tracking-wider text-primary uppercase">
+															{area.label}
+														</p>
+														<ul className="mt-1 flex flex-col gap-1">
+															{area.items.map(
+																(item) => (
+																	<li
+																		key={
+																			item.id
+																		}
+																	>
+																		<Link
+																			href={
+																				item.href
+																			}
+																			className="block rounded-md px-2 py-2 text-sm font-medium hover:bg-muted"
+																		>
+																			{
+																				item.title
+																			}
+																		</Link>
+																	</li>
+																)
+															)}
+														</ul>
+														<DiscoveryViewAllFooter
+															href={area.hubHref}
+															label={
+																nav.information
+																	?.viewAll ??
+																"View all"
+															}
+															className="mt-1"
+														/>
+													</div>
+												)
+											)}
+										</div>
 									</AccordionContent>
 								</AccordionItem>
 							);

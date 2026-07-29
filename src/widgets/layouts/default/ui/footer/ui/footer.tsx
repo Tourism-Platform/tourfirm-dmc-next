@@ -30,8 +30,8 @@ export const FooterDefault = async ({
 		<footer className="border-t bg-card/75 px-4 text-foreground shadow-black/6.5 backdrop-blur-xl">
 			<div className="mx-auto max-w-7xl px-4 py-10 lg:px-4 xl:px-8">
 				<div className="flex flex-col gap-8">
-					<div className="grid grid-cols-2 gap-x-8 gap-y-10 md:grid-cols-4 lg:grid-cols-5">
-						<div className="col-span-2 flex flex-col gap-4 md:col-span-4 lg:col-span-1">
+					<div className="grid grid-cols-2 gap-x-8 gap-y-10 md:grid-cols-3 xl:grid-cols-4">
+						<div className="col-span-2 flex flex-col gap-4 md:col-span-1">
 							<FooterLogo brandName={uiTexts.brand.name} />
 							<FooterContact />
 						</div>

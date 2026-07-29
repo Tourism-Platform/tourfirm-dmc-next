@@ -1134,6 +1134,8 @@ export interface Country {
 	status?: {
 		noindex?: boolean | null;
 		showInSitemap?: boolean | null;
+		showInHeader?: boolean | null;
+		showInFooter?: boolean | null;
 		publishedAt?: string | null;
 	};
 	regions?: {
@@ -2108,6 +2110,8 @@ export interface Route {
 	status?: {
 		noindex?: boolean | null;
 		showInSitemap?: boolean | null;
+		showInHeader?: boolean | null;
+		showInFooter?: boolean | null;
 		publishedAt?: string | null;
 	};
 	mapPoints?: {
@@ -2980,6 +2984,8 @@ export interface City {
 	status?: {
 		noindex?: boolean | null;
 		showInSitemap?: boolean | null;
+		showInHeader?: boolean | null;
+		showInFooter?: boolean | null;
 		publishedAt?: string | null;
 	};
 	attractions?: {
@@ -3863,6 +3869,8 @@ export interface Region {
 	status?: {
 		noindex?: boolean | null;
 		showInSitemap?: boolean | null;
+		showInHeader?: boolean | null;
+		showInFooter?: boolean | null;
 		publishedAt?: string | null;
 	};
 	cities?: {
@@ -4764,6 +4772,8 @@ export interface Experience {
 	status?: {
 		noindex?: boolean | null;
 		showInSitemap?: boolean | null;
+		showInHeader?: boolean | null;
+		showInFooter?: boolean | null;
 		publishedAt?: string | null;
 	};
 	relatedRoutes?: {
@@ -6489,6 +6499,8 @@ export interface TradeFair {
 	status?: {
 		noindex?: boolean | null;
 		showInSitemap?: boolean | null;
+		showInHeader?: boolean | null;
+		showInFooter?: boolean | null;
 		publishedAt?: string | null;
 	};
 	updatedAt: string;
@@ -7363,6 +7375,8 @@ export interface Blog {
 	status?: {
 		noindex?: boolean | null;
 		showInSitemap?: boolean | null;
+		showInHeader?: boolean | null;
+		showInFooter?: boolean | null;
 		publishedAt?: string | null;
 	};
 	updatedAt: string;
@@ -8228,6 +8242,8 @@ export interface News {
 	status?: {
 		noindex?: boolean | null;
 		showInSitemap?: boolean | null;
+		showInHeader?: boolean | null;
+		showInFooter?: boolean | null;
 		publishedAt?: string | null;
 	};
 	updatedAt: string;
@@ -9116,6 +9132,8 @@ export interface Attraction {
 	status?: {
 		noindex?: boolean | null;
 		showInSitemap?: boolean | null;
+		showInHeader?: boolean | null;
+		showInFooter?: boolean | null;
 		publishedAt?: string | null;
 	};
 	experiences?: {
@@ -9986,6 +10004,8 @@ export interface Page {
 	status?: {
 		noindex?: boolean | null;
 		showInSitemap?: boolean | null;
+		showInHeader?: boolean | null;
+		showInFooter?: boolean | null;
 		publishedAt?: string | null;
 	};
 	updatedAt: string;
@@ -10009,6 +10029,8 @@ export interface Segment {
 	status?: {
 		noindex?: boolean | null;
 		showInSitemap?: boolean | null;
+		showInHeader?: boolean | null;
+		showInFooter?: boolean | null;
 		publishedAt?: string | null;
 	};
 	updatedAt: string;
@@ -10482,6 +10504,8 @@ export interface CountriesSelect<T extends boolean = true> {
 		| {
 				noindex?: T;
 				showInSitemap?: T;
+				showInHeader?: T;
+				showInFooter?: T;
 				publishedAt?: T;
 		  };
 	regions?: T;
@@ -10805,6 +10829,8 @@ export interface RegionsSelect<T extends boolean = true> {
 		| {
 				noindex?: T;
 				showInSitemap?: T;
+				showInHeader?: T;
+				showInFooter?: T;
 				publishedAt?: T;
 		  };
 	cities?: T;
@@ -11122,6 +11148,8 @@ export interface CitiesSelect<T extends boolean = true> {
 		| {
 				noindex?: T;
 				showInSitemap?: T;
+				showInHeader?: T;
+				showInFooter?: T;
 				publishedAt?: T;
 		  };
 	attractions?: T;
@@ -11445,6 +11473,8 @@ export interface AttractionsSelect<T extends boolean = true> {
 		| {
 				noindex?: T;
 				showInSitemap?: T;
+				showInHeader?: T;
+				showInFooter?: T;
 				publishedAt?: T;
 		  };
 	experiences?: T;
@@ -11769,6 +11799,8 @@ export interface RoutesSelect<T extends boolean = true> {
 		| {
 				noindex?: T;
 				showInSitemap?: T;
+				showInHeader?: T;
+				showInFooter?: T;
 				publishedAt?: T;
 		  };
 	mapPoints?: T;
@@ -12108,6 +12140,8 @@ export interface ExperiencesSelect<T extends boolean = true> {
 		| {
 				noindex?: T;
 				showInSitemap?: T;
+				showInHeader?: T;
+				showInFooter?: T;
 				publishedAt?: T;
 		  };
 	relatedRoutes?: T;
@@ -12429,6 +12463,8 @@ export interface TradeFairsSelect<T extends boolean = true> {
 		| {
 				noindex?: T;
 				showInSitemap?: T;
+				showInHeader?: T;
+				showInFooter?: T;
 				publishedAt?: T;
 		  };
 	updatedAt?: T;
@@ -12752,6 +12788,8 @@ export interface BlogSelect<T extends boolean = true> {
 		| {
 				noindex?: T;
 				showInSitemap?: T;
+				showInHeader?: T;
+				showInFooter?: T;
 				publishedAt?: T;
 		  };
 	updatedAt?: T;
@@ -13069,6 +13107,8 @@ export interface NewsSelect<T extends boolean = true> {
 		| {
 				noindex?: T;
 				showInSitemap?: T;
+				showInHeader?: T;
+				showInFooter?: T;
 				publishedAt?: T;
 		  };
 	updatedAt?: T;
@@ -13376,6 +13416,8 @@ export interface PagesSelect<T extends boolean = true> {
 		| {
 				noindex?: T;
 				showInSitemap?: T;
+				showInHeader?: T;
+				showInFooter?: T;
 				publishedAt?: T;
 		  };
 	updatedAt?: T;
@@ -13396,6 +13438,8 @@ export interface SegmentsSelect<T extends boolean = true> {
 		| {
 				noindex?: T;
 				showInSitemap?: T;
+				showInHeader?: T;
+				showInFooter?: T;
 				publishedAt?: T;
 		  };
 	updatedAt?: T;
@@ -19717,6 +19761,19 @@ export interface Header {
 				id?: string | null;
 		  }[]
 		| null;
+	/**
+	 * Parents for Information mega and footer columns. Children auto-load from each collection.
+	 */
+	informationAreas?:
+		| {
+				collection: "news" | "blog" | "trade-fairs";
+				/**
+				 * Optional override. Defaults to News / Blog / Trade fairs.
+				 */
+				label?: string | null;
+				id?: string | null;
+		  }[]
+		| null;
 	ctaAction?: {
 		type?: ("mailto" | "link") | null;
 		href?: string | null;
@@ -19763,6 +19820,10 @@ export interface Header {
 					columns?: {
 						title?: string | null;
 					};
+					viewAll?: string | null;
+				};
+				information?: {
+					areasLabel?: string | null;
 					viewAll?: string | null;
 				};
 				mobileMenu?: string | null;
@@ -22269,6 +22330,13 @@ export interface HeaderSelect<T extends boolean = true> {
 					  };
 				id?: T;
 		  };
+	informationAreas?:
+		| T
+		| {
+				collection?: T;
+				label?: T;
+				id?: T;
+		  };
 	ctaAction?:
 		| T
 		| {
@@ -22332,6 +22400,12 @@ export interface HeaderSelect<T extends boolean = true> {
 														| {
 																title?: T;
 														  };
+													viewAll?: T;
+											  };
+										information?:
+											| T
+											| {
+													areasLabel?: T;
 													viewAll?: T;
 											  };
 										mobileMenu?: T;

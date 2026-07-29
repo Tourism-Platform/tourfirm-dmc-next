@@ -1,11 +1,27 @@
 header:
   logo: assets/images/logo.svg
+  informationAreas:
+    - collection: news
+      label:
+        en: News
+        ru: Новости
+        uz: Yangiliklar
+    - collection: blog
+      label:
+        en: Blog
+        ru: Блог
+        uz: Blog
+    - collection: trade-fairs
+      label:
+        en: Trade fairs
+        ru: Выставки
+        uz: Ko'rgazmalar
   navItems:
     - type: custom
       label:
-        en: Tour & activities
-        ru: Туры и активности
-        uz: Turlar va faoliyatlar
+        en: Catalog
+        ru: Каталог
+        uz: Katalog
       icon: compass
       href: /catalog
       target: _self
@@ -19,9 +35,9 @@ header:
       target: _self
     - type: custom
       label:
-        en: Routes
-        ru: Маршруты
-        uz: Marshrutlar
+        en: Tailor-Made Trips
+        ru: Индивидуальные поездки
+        uz: Individual sayohatlar
       icon: route
       href: /routes
       target: _self
@@ -33,36 +49,6 @@ header:
       icon: heart-handshake
       href: /experiences
       target: _self
-    - type: group
-      label:
-        en: Partners
-        ru: Партнёры
-        uz: Hamkorlar
-      icon: handshake
-      target: _self
-      groupItems:
-        - type: page
-          page: partners/agencies
-          icon: handshake
-          label:
-            en: Partner agencies
-            ru: Партнёрские агентства
-            uz: Hamkor agentliklar
-          description:
-            en: Browse and book through partner agencies
-            ru: Поиск и бронирование через партнёрские агентства
-            uz: Hamkor agentliklar orqali qidirish va bron qilish
-        - type: page
-          page: partners/hotels
-          icon: hotel
-          label:
-            en: Hotels
-            ru: Отели
-            uz: Mehmonxonalar
-          description:
-            en: Hotels and accommodation partners
-            ru: Отели и партнёры по размещению
-            uz: Mehmonxonalar va joylashtirish hamkorlari
     - type: group
       label:
         en: Company
@@ -104,28 +90,6 @@ header:
             en: Join our partner ecosystem
             ru: Присоединяйтесь к экосистеме TourLink
             uz: TourLink ekotizimiga qo'shiling
-        - type: custom
-          href: /company/news
-          icon: newspaper
-          label:
-            en: News
-            ru: Новости
-            uz: Yangiliklar
-          description:
-            en: Latest updates
-            ru: Последние обновления
-            uz: So'nggi yangilanishlar
-        - type: custom
-          href: /company/trade-fairs
-          icon: map-pin
-          label:
-            en: Trade fairs
-            ru: Выставки
-            uz: Yarmarkalar
-          description:
-            en: Industry events and exhibitions
-            ru: Отраслевые события и выставки
-            uz: Sanoat tadbirlari va ko'rgazmalar
         - type: page
           page: company/feedback
           icon: message-square
@@ -137,14 +101,6 @@ header:
             en: Share your feedback
             ru: Поделитесь мнением
             uz: Fikringizni bildiring
-  ctaAction:
-    type: mailto
-    href: info@tourlink.uz
-    title:
-      en: Get started
-      ru: Начать
-      uz: Boshlash
-    variant: default
 footer:
   copyrightText:
     en: © {year} TourLink. All rights reserved.
@@ -165,84 +121,34 @@ footer:
         ru: Компания
         uz: Kompaniya
       items:
-        - type: group
+        - type: page
+          page: company/about
           label:
-            en: Company
-            ru: Компания
-            uz: Kompaniya
-          icon: building-2
-          target: _self
-          groupItems:
-            - type: page
-              page: company/about
-              icon: sparkles
-              label:
-                en: About us
-                ru: О нас
-                uz: Biz haqimizda
-              description:
-                en: Our story and mission
-                ru: Наша история и миссия
-                uz: Bizning tarix va missiyamiz
-            - type: page
-              page: company/services
-              icon: briefcase
-              label:
-                en: Our services
-                ru: Наши услуги
-                uz: Xizmatlarimiz
-              description:
-                en: Guides, programs and MICE
-                ru: Гиды, программы и MICE
-                uz: Gidlar, dasturlar va MICE
-            - type: page
-              page: company/partnership
-              icon: building-2
-              label:
-                en: Partnership
-                ru: Партнёрство
-                uz: Hamkorlik
-              description:
-                en: Join our partner ecosystem
-                ru: Присоединяйтесь к экосистеме TourLink
-                uz: TourLink ekotizimiga qo'shiling
-            - type: custom
-              href: /company/news
-              icon: newspaper
-              label:
-                en: News
-                ru: Новости
-                uz: Yangiliklar
-              description:
-                en: Latest updates
-                ru: Последние обновления
-                uz: So'nggi yangilanishlar
-            - type: custom
-              href: /company/trade-fairs
-              icon: map-pin
-              label:
-                en: Trade fairs
-                ru: Выставки
-                uz: Yarmarkalar
-              description:
-                en: Industry events and exhibitions
-                ru: Отраслевые события и выставки
-                uz: Sanoat tadbirlari va ko'rgazmalar
-            - type: page
-              page: company/feedback
-              icon: message-square
-              label:
-                en: Feedback
-                ru: Обратная связь
-                uz: Fikr-mulohaza
-              description:
-                en: Share your feedback
-                ru: Поделитесь мнением
-                uz: Fikringizni bildiring
+            en: About us
+            ru: О нас
+            uz: Biz haqimizda
+        - type: page
+          page: company/services
+          label:
+            en: Our services
+            ru: Наши услуги
+            uz: Xizmatlarimiz
+        - type: page
+          page: company/partnership
+          label:
+            en: Partnership
+            ru: Партнёрство
+            uz: Hamkorlik
+        - type: page
+          page: company/feedback
+          label:
+            en: Feedback
+            ru: Обратная связь
+            uz: Fikr-mulohaza
     - title:
-        en: Tours & partners
-        ru: Туры и партнёры
-        uz: Turlar va hamkorlar
+        en: Tours & activities
+        ru: Туры и активности
+        uz: Turlar va faoliyatlar
       items:
         - type: custom
           label:
@@ -252,185 +158,95 @@ footer:
           href: /routes
         - type: custom
           label:
-            en: Experiences
-            ru: Впечатления
-            uz: Taassurotlar
-          href: /experiences
-        - type: custom
-          label:
             en: Destinations
             ru: Направления
             uz: Yo'nalishlar
           href: __DESTINATION_SLUG__
         - type: custom
           label:
-            en: Tour & activities
+            en: Tours & activities
             ru: Туры и активности
             uz: Turlar va faoliyatlar
           href: /catalog
-        - type: group
+        - type: page
+          page: partners/agencies
           label:
-            en: Partners
-            ru: Партнёры
-            uz: Hamkorlar
-          icon: handshake
-          target: _self
-          groupItems:
-            - type: page
-              page: partners/agencies
-              icon: handshake
-              label:
-                en: Partner agencies
-                ru: Партнёрские агентства
-                uz: Hamkor agentliklar
-              description:
-                en: Browse and book through partner agencies
-                ru: Поиск и бронирование через партнёрские агентства
-                uz: Hamkor agentliklar orqali qidirish va bron qilish
-            - type: page
-              page: partners/hotels
-              icon: hotel
-              label:
-                en: Hotels
-                ru: Отели
-                uz: Mehmonxonalar
-              description:
-                en: Hotels and accommodation partners
-                ru: Отели и партнёры по размещению
-                uz: Mehmonxonalar va joylashtirish hamkorlari
+            en: Partner agencies
+            ru: Партнёрские агентства
+            uz: Hamkor agentliklar
+        - type: page
+          page: partners/hotels
+          label:
+            en: Hotels
+            ru: Отели
+            uz: Mehmonxonalar
     - title:
         en: Policies
         ru: Политики
         uz: Siyosatlar
       items:
-        - type: group
+        - type: page
+          page: legal/terms
           label:
-            en: Policies
-            ru: Политики
-            uz: Siyosatlar
-          icon: scale
-          target: _self
-          groupItems:
-            - type: page
-              page: legal/terms
-              icon: scale
-              label:
-                en: Terms of use
-                ru: Условия использования
-                uz: Foydalanish shartlari
-              description:
-                en: Website and service rules
-                ru: Правила использования сервиса
-                uz: Sayt va xizmat qoidalari
-            - type: page
-              page: legal/booking
-              icon: clipboard-list
-              label:
-                en: Booking terms
-                ru: Условия бронирования
-                uz: Bron qilish shartlari
-              description:
-                en: How services are confirmed and paid
-                ru: Как подтверждаются и оплачиваются услуги
-                uz: Xizmatlar qanday tasdiqlanadi va to'lanadi
-            - type: page
-              page: legal/cancellation
-              icon: ban
-              label:
-                en: Cancellation policy
-                ru: Политика отмены
-                uz: Bekor qilish siyosati
-              description:
-                en: Cancellations, changes and refunds
-                ru: Отмена, изменения и возвраты
-                uz: Bekor qilish, o'zgarishlar va qaytarishlar
-            - type: page
-              page: legal/cookies
-              icon: cookie
-              label:
-                en: Cookie policy
-                ru: Политика cookies
-                uz: Cookie siyosati
-              description:
-                en: Cookies and similar technologies
-                ru: Cookies и похожие технологии
-                uz: Cookie va o'xshash texnologiyalar
-            - type: page
-              page: legal/privacy
-              icon: shield
-              label:
-                en: Privacy policy
-                ru: Политика конфиденциальности
-                uz: Maxfiylik siyosati
-              description:
-                en: How we handle your data
-                ru: Как мы обрабатываем данные
-                uz: Ma'lumotlaringizni qanday qayta ishlaymiz
+            en: Terms of use
+            ru: Условия использования
+            uz: Foydalanish shartlari
+        - type: page
+          page: legal/booking
+          label:
+            en: Booking terms
+            ru: Условия бронирования
+            uz: Bron qilish shartlari
+        - type: page
+          page: legal/cancellation
+          label:
+            en: Cancellation policy
+            ru: Политика отмены
+            uz: Bekor qilish siyosati
+        - type: page
+          page: legal/cookies
+          label:
+            en: Cookie policy
+            ru: Политика cookies
+            uz: Cookie siyosati
+        - type: page
+          page: legal/privacy
+          label:
+            en: Privacy policy
+            ru: Политика конфиденциальности
+            uz: Maxfiylik siyosati
     - title:
         en: Help
         ru: Помощь
         uz: Yordam
       items:
-        - type: group
+        - type: page
+          page: help/support
           label:
-            en: Help
-            ru: Помощь
-            uz: Yordam
-          icon: life-buoy
-          target: _self
-          groupItems:
-            - type: page
-              page: help/support
-              icon: life-buoy
-              label:
-                en: Support
-                ru: Поддержка
-                uz: Qo'llab-quvvatlash
-              description:
-                en: Get help from our team
-                ru: Помощь от нашей команды
-                uz: Jamoamizdan yordam oling
-            - type: page
-              page: help/contact
-              icon: mail
-              label:
-                en: Contact us
-                ru: Связаться с нами
-                uz: Bog'lanish
-              description:
-                en: Reach out to us
-                ru: Напишите нам
-                uz: Biz bilan bog'laning
-            - type: page
-              page: help/faq
-              icon: help-circle
-              label:
-                en: FAQ
-                ru: FAQ
-                uz: FAQ
-              description:
-                en: Frequently asked questions
-                ru: Частые вопросы
-                uz: Tez-tez beriladigan savollar
-            - type: page
-              page: help/training
-              icon: graduation-cap
-              label:
-                en: Training & support
-                ru: Обучение и поддержка
-                uz: O'qitish va qo'llab-quvvatlash
-              description:
-                en: Training resources
-                ru: Материалы для обучения
-                uz: O'quv materiallari
-            - type: page
-              page: help/more-info
-              icon: megaphone
-              label:
-                en: More service info
-                ru: Дополнительная информация
-                uz: Qo'shimcha ma'lumot
-              description:
-                en: Additional service details
-                ru: Подробнее о сервисе
-                uz: Xizmat haqida batafsil
+            en: Support
+            ru: Поддержка
+            uz: Qo'llab-quvvatlash
+        - type: page
+          page: help/contact
+          label:
+            en: Contact us
+            ru: Связаться с нами
+            uz: Bog'lanish
+        - type: page
+          page: help/faq
+          label:
+            en: FAQ
+            ru: FAQ
+            uz: FAQ
+        - type: page
+          page: help/training
+          label:
+            en: Training & support
+            ru: Обучение и поддержка
+            uz: O'qitish va qo'llab-quvvatlash
+        - type: page
+          page: help/more-info
+          label:
+            en: More service info
+            ru: Дополнительная информация
+            uz: Qo'shimcha ma'lumot

@@ -15,6 +15,16 @@ export const statusField: Field = {
 			defaultValue: true
 		},
 		{
+			name: "showInHeader",
+			type: "checkbox",
+			defaultValue: true
+		},
+		{
+			name: "showInFooter",
+			type: "checkbox",
+			defaultValue: true
+		},
+		{
 			name: "publishedAt",
 			type: "date"
 		}
