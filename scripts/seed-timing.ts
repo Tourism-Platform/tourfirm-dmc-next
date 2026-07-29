@@ -36,7 +36,13 @@ export function createSeedCostTracker(
 	};
 }
 
-export type TMediaDbIndex = Map<string, number>;
+export type TMediaDbIndexEntry = {
+	id: number;
+	url?: string | null;
+	filename?: string | null;
+};
+
+export type TMediaDbIndex = Map<string, TMediaDbIndexEntry>;
 
 export async function preloadMediaDbIndex(
 	payload: Payload
@@ -53,7 +59,11 @@ export async function preloadMediaDbIndex(
 
 	for (const doc of result.docs) {
 		if (typeof doc.sourcePath === "string") {
-			index.set(doc.sourcePath, doc.id as number);
+			index.set(doc.sourcePath, {
+				id: doc.id as number,
+				url: doc.url,
+				filename: doc.filename
+			});
 		}
 	}
 

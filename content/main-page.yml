@@ -93,7 +93,7 @@ blocks:
       en: Our home is Uzbekistan. The route can reach mountains, steppe, and desert roads when the trip needs a wider regional arc.
       ru: Наш дом — Узбекистан. Маршрут может вести к горам, степям и пустынным дорогам, когда поездке нужен более широкий контур региона.
       uz: Bizning uymiz — O'zbekiston. Sayohat kengroq mintaqa konturiga muhtoj bo'lganda marshrut tog'larga, dashtlarga va cho'l yo'llariga olib borishi mumkin.
-    gridClassName: sm:grid-cols-2 sm:gap-5 lg:gap-6
+    gridClassName: sm:grid-cols-2 sm:gap-5 lg:gap-6 md:!grid-cols-2
     actions:
       - type: link
         variant: outline

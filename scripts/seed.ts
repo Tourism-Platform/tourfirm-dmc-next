@@ -23,6 +23,8 @@ import {
 	normalizeRichTextDescriptions,
 	toDefaultRichText
 } from "./to-default-rich-text.js";
+import { isMediaBroken } from "./helpers/media-validator.js";
+import { checkMediaObjectExistsInStorage } from "./helpers/media-storage-check.js";
 import {
 	createSeedCostTracker,
 	createSeedStageLogger,
@@ -121,7 +123,8 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 export const CONTENT_DIR = path.join(ROOT, "content");
 const SEED_LOCK_PATH = path.join(ROOT, ".seed.lock");
 const MEDIA_UPLOAD_DIR = "media/uploads";
-const MEDIA_UPLOAD_PATH = path.join(ROOT, MEDIA_UPLOAD_DIR);
+// Payload `upload.staticDir` resolves to `<root>/media/uploads`.
+// Also reset `public/media/uploads` leftovers from static serving.
 
 type TMediaCache = Map<string, Media>;
 
@@ -178,16 +181,43 @@ function isSourcePathUniqueViolation(error: unknown): boolean {
 	return String(payloadError.message ?? "").includes("sourcePath");
 }
 
+function logMediaUrlDiagnostic(media: Media): void {
+	const rawUrl = typeof media.url === "string" ? media.url : "";
+	let hostname = "(relative)";
+	let protocol = "(relative)";
+
+	if (rawUrl.startsWith("http://") || rawUrl.startsWith("https://")) {
+		try {
+			const parsed = new URL(rawUrl);
+			hostname = parsed.hostname;
+			protocol = parsed.protocol.replace(":", "");
+		} catch {
+			hostname = "(invalid-url)";
+			protocol = "(invalid-url)";
+		}
+	}
+
+	console.log("MEDIA_CREATE_DIAGNOSTIC", {
+		id: media.id,
+		filename: media.filename ?? "(empty)",
+		url: rawUrl || "(empty)",
+		hostname,
+		protocol
+	});
+}
+
 async function findMediaBySourcePath(
 	payload: Payload,
 	sourcePath: string
 ): Promise<Media | null> {
-	const indexedId = activeMediaDbIndex?.get(sourcePath);
+	const indexed = activeMediaDbIndex?.get(sourcePath);
 
-	if (indexedId !== undefined) {
+	if (indexed !== undefined) {
 		return {
-			id: indexedId,
+			id: indexed.id,
 			sourcePath,
+			url: indexed.url ?? null,
+			filename: indexed.filename ?? null,
 			updatedAt: "",
 			createdAt: ""
 		} as Media;
@@ -285,20 +315,29 @@ export async function readYamlFile<T>(filePath: string): Promise<T> {
 }
 
 async function resetMediaFolderContents(): Promise<void> {
-	console.log("Resetting media upload directory...");
+	// Payload `upload.staticDir` is `media/uploads` (project root).
+	// Also clear `public/media/uploads` used for static serving leftovers.
+	const paths = [
+		path.join(ROOT, MEDIA_UPLOAD_DIR),
+		path.join(ROOT, "public", MEDIA_UPLOAD_DIR)
+	];
 
-	await fs.mkdir(MEDIA_UPLOAD_PATH, { recursive: true });
+	console.log("Resetting media upload directories...");
 
-	const entries = await fs.readdir(MEDIA_UPLOAD_PATH, { withFileTypes: true });
+	for (const mediaPath of paths) {
+		await fs.mkdir(mediaPath, { recursive: true });
 
-	for (const entry of entries) {
-		await fs.rm(path.join(MEDIA_UPLOAD_PATH, entry.name), {
-			recursive: true,
-			force: true
-		});
+		const entries = await fs.readdir(mediaPath, { withFileTypes: true });
+
+		for (const entry of entries) {
+			await fs.rm(path.join(mediaPath, entry.name), {
+				recursive: true,
+				force: true
+			});
+		}
 	}
 
-	console.log("Media upload directory reset complete");
+	console.log("Media upload directories reset complete");
 }
 
 function clearCaches(): void {
@@ -415,11 +454,11 @@ function logPayloadInitContext(): void {
 async function createMediaRecord(
 	payload: Payload,
 	sourcePath: string
-): Promise<Media> {
+): Promise<{ kind: "created" | "existing"; media: Media }> {
 	const filePath = path.join(ROOT, "public", sourcePath);
 
 	try {
-		return await profileRun("media_upload", () =>
+		const created = await profileRun("media_upload", () =>
 			payload.create({
 				collection: "media",
 				data: {
@@ -427,9 +466,15 @@ async function createMediaRecord(
 					alt: path.basename(sourcePath, path.extname(sourcePath))
 				},
 				filePath,
+				// Keep storage key = basename(sourcePath). Avoids getSafeFileName
+				// collisions against leftover DB/FS names (kirgizstan-1.jpg etc).
+				overwriteExistingFiles: true,
 				...SEED_OP_OPTS
 			})
 		);
+		console.log(`↑ upload new media: ${sourcePath}`);
+		logMediaUrlDiagnostic(created as Media);
+		return { kind: "created", media: created as Media };
 	} catch (error) {
 		if (!isSourcePathUniqueViolation(error)) {
 			throw error;
@@ -441,8 +486,97 @@ async function createMediaRecord(
 			throw error;
 		}
 
-		return existing;
+		return { kind: "existing", media: existing };
 	}
+}
+
+async function repairMediaRecord(
+	payload: Payload,
+	existing: Media,
+	sourcePath: string
+): Promise<Media> {
+	const filePath = path.join(ROOT, "public", sourcePath);
+	// overwriteExistingFiles keeps Media.filename stable so S3 key matches the
+	// document (avoids getSafeFileName collision → name-1.ext).
+	const repaired = await profileRun("media_upload", () =>
+		payload.update({
+			collection: "media",
+			id: existing.id,
+			data: {
+				sourcePath,
+				alt:
+					typeof existing.alt === "string" && existing.alt.length > 0
+						? existing.alt
+						: path.basename(sourcePath, path.extname(sourcePath))
+			},
+			filePath,
+			overwriteExistingFiles: true,
+			...SEED_OP_OPTS
+		})
+	);
+
+	console.log(`↻ repair broken media: ${sourcePath}`);
+	logMediaUrlDiagnostic(repaired as Media);
+	return repaired as Media;
+}
+
+function cacheMediaEntry(
+	mediaCache: TMediaCache,
+	sourcePath: string,
+	media: Media
+): void {
+	mediaCache.set(sourcePath, media);
+	activeMediaDbIndex?.set(sourcePath, {
+		id: media.id as number,
+		url: media.url,
+		filename: media.filename
+	});
+}
+
+/**
+ * Validate existing Media: url present + S3/R2 object exists (HeadObject).
+ * HeadObject runs only for existing records, never after a fresh create.
+ */
+async function ensureExistingMedia(
+	payload: Payload,
+	mediaCache: TMediaCache,
+	sourcePath: string,
+	existing: Media
+): Promise<Media> {
+	const validation = isMediaBroken(existing);
+
+	if (!validation.isBroken) {
+		const storage = await checkMediaObjectExistsInStorage(
+			existing,
+			sourcePath
+		);
+
+		if (storage.exists) {
+			console.log(`✓ existing valid media: ${sourcePath}`);
+			cacheMediaEntry(mediaCache, sourcePath, existing);
+			return existing;
+		}
+
+		console.log(
+			`  ! storage object missing for ${sourcePath} (key=${storage.key}) — repairing`
+		);
+	} else {
+		console.log(
+			`  ! broken media record for ${sourcePath}: ${validation.reason ?? "unknown"}`
+		);
+	}
+
+	const repaired = await repairMediaRecord(payload, existing, sourcePath);
+	const repairedValidation = isMediaBroken(repaired);
+
+	if (repairedValidation.isBroken) {
+		throw new Error(
+			`Media repair failed for ${sourcePath}: ${repairedValidation.reason ?? "unknown reason"}`
+		);
+	}
+
+	cacheMediaEntry(mediaCache, sourcePath, repaired);
+	return repaired;
 }
 
 async function ensureMediaOnce(
@@ -459,15 +593,24 @@ async function ensureMediaOnce(
 	const existing = await findMediaBySourcePath(payload, sourcePath);
 
 	if (existing) {
-		mediaCache.set(sourcePath, existing);
-		activeMediaDbIndex?.set(sourcePath, existing.id as number);
-		return existing;
+		return ensureExistingMedia(payload, mediaCache, sourcePath, existing);
 	}
 
-	const doc = await createMediaRecord(payload, sourcePath);
-	mediaCache.set(sourcePath, doc);
-	activeMediaDbIndex?.set(sourcePath, doc.id as number);
-	return doc;
+	const created = await createMediaRecord(payload, sourcePath);
+
+	// Unique race: another create won — validate as existing (may need repair).
+	if (created.kind === "existing") {
+		return ensureExistingMedia(
+			payload,
+			mediaCache,
+			sourcePath,
+			created.media
+		);
+	}
+
+	// Fresh upload: no HeadObject after create.
+	cacheMediaEntry(mediaCache, sourcePath, created.media);
+	return created.media;
 }
 
 async function ensureMedia(
