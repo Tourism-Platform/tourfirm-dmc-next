@@ -90,6 +90,72 @@ export function normalizeRichTextDescriptions(blocks: unknown[]): unknown[] {
 			});
 		}
 
+		if (Array.isArray(entry.items)) {
+			entry.items = entry.items.map((item) => {
+				if (!item || typeof item !== "object") {
+					return item;
+				}
+
+				const itemEntry = { ...(item as Record<string, unknown>) };
+
+				if ("description" in itemEntry) {
+					itemEntry.description = normalizeDescriptionField(
+						itemEntry.description
+					);
+				}
+
+				if ("meta" in itemEntry) {
+					itemEntry.meta = normalizeDescriptionField(itemEntry.meta);
+				}
+
+				return itemEntry;
+			});
+		}
+
+		if (entry.aside && typeof entry.aside === "object") {
+			const asideEntry = { ...(entry.aside as Record<string, unknown>) };
+
+			if ("description" in asideEntry) {
+				asideEntry.description = normalizeDescriptionField(
+					asideEntry.description
+				);
+			}
+
+			if (Array.isArray(asideEntry.items)) {
+				asideEntry.items = asideEntry.items.map((item) => {
+					if (!item || typeof item !== "object") {
+						return item;
+					}
+
+					const itemEntry = { ...(item as Record<string, unknown>) };
+
+					if ("description" in itemEntry) {
+						itemEntry.description = normalizeDescriptionField(
+							itemEntry.description
+						);
+					}
+
+					return itemEntry;
+				});
+			}
+
+			entry.aside = asideEntry;
+		}
+
+		if (entry.mapPanel && typeof entry.mapPanel === "object") {
+			const mapPanelEntry = {
+				...(entry.mapPanel as Record<string, unknown>)
+			};
+
+			if ("description" in mapPanelEntry) {
+				mapPanelEntry.description = normalizeDescriptionField(
+					mapPanelEntry.description
+				);
+			}
+
+			entry.mapPanel = mapPanelEntry;
+		}
+
 		return entry;
 	});
 }

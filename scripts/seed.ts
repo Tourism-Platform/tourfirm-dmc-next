@@ -181,6 +181,27 @@ function isSourcePathUniqueViolation(error: unknown): boolean {
 	return String(payloadError.message ?? "").includes("sourcePath");
 }
 
+function isFilenameValidationError(error: unknown): boolean {
+	if (!error || typeof error !== "object") {
+		return false;
+	}
+
+	const payloadError = error as {
+		message?: string;
+		data?: { errors?: { path?: string }[] };
+	};
+
+	if (
+		payloadError.data?.errors?.some((entry) => entry.path === "filename")
+	) {
+		return true;
+	}
+
+	return String(payloadError.message ?? "")
+		.toLowerCase()
+		.includes("filename");
+}
+
 function logMediaUrlDiagnostic(media: Media): void {
 	const rawUrl = typeof media.url === "string" ? media.url : "";
 	let hostname = "(relative)";
@@ -232,6 +253,26 @@ async function findMediaBySourcePath(
 		where: {
 			sourcePath: {
 				equals: sourcePath
+			}
+		},
+		limit: 1,
+		pagination: false,
+		depth: 0,
+		...SEED_OP_OPTS
+	});
+
+	return existing.docs[0] ?? null;
+}
+
+async function findMediaByFilename(
+	payload: Payload,
+	filename: string
+): Promise<Media | null> {
+	const existing = await payload.find({
+		collection: "media",
+		where: {
+			filename: {
+				equals: filename
 			}
 		},
 		limit: 1,
@@ -476,17 +517,32 @@ async function createMediaRecord(
 		logMediaUrlDiagnostic(created as Media);
 		return { kind: "created", media: created as Media };
 	} catch (error) {
-		if (!isSourcePathUniqueViolation(error)) {
-			throw error;
+		if (isSourcePathUniqueViolation(error)) {
+			const existing = await findMediaBySourcePath(payload, sourcePath);
+
+			if (!existing) {
+				throw error;
+			}
+
+			return { kind: "existing", media: existing };
 		}
 
-		const existing = await findMediaBySourcePath(payload, sourcePath);
+		// Same basename under different folders (e.g. samarkand.jpg vs city/samarkand.jpg).
+		if (isFilenameValidationError(error)) {
+			const filename = path.basename(sourcePath);
+			const existing = await findMediaByFilename(payload, filename);
 
-		if (!existing) {
-			throw error;
+			if (!existing) {
+				throw error;
+			}
+
+			console.log(
+				`  ~ reuse media by filename ${filename} for ${sourcePath}`
+			);
+			return { kind: "existing", media: existing };
 		}
 
-		return { kind: "existing", media: existing };
+		throw error;
 	}
 }
 
@@ -866,6 +922,26 @@ async function resolvePageBlocks(
 				} else {
 					entry.stops = await resolveRouteMapStops(entry.stops);
 				}
+			}
+
+			if (entry.blockType === "itinerary" && Array.isArray(entry.items)) {
+				entry.items = await Promise.all(
+					(entry.items as unknown[]).map(async (item) => {
+						if (!item || typeof item !== "object") {
+							return item;
+						}
+
+						const row = { ...(item as Record<string, unknown>) };
+
+						if (typeof row.image === "string") {
+							row.image = (
+								await ensureMedia(payload, mediaCache, row.image)
+							).id;
+						}
+
+						return row;
+					})
+				);
 			}
 
 			return entry;
@@ -2167,7 +2243,10 @@ async function runSeed(): Promise<void> {
 	process.env.PAYLOAD_SEED_MODE = "true";
 	process.env.DATABASE_URI = seedDbUri;
 
-	if (!fullReset) {
+	if (fullReset) {
+		// Empty DB after DROP SCHEMA — drizzle push must recreate tables.
+		process.env.PAYLOAD_DB_PUSH = "true";
+	} else {
 		process.env.PAYLOAD_DB_PUSH = "false";
 	}
 

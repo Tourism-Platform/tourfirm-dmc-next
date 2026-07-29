@@ -87,7 +87,7 @@ blocks:
           en: "Send a B2B request"
           ru: "Отправить B2B-запрос"
           uz: "B2B so'rov yuborish"
-  - blockType: "regular"
+  - blockType: "timeline"
     eyebrow:
       en: "How work begins"
       ru: "Как начинается работа"
@@ -100,10 +100,9 @@ blocks:
       en: "The first conversation stays practical: what is needed, what is possible and what should be checked before any promises."
       ru: "Первый разговор остаётся практичным: что нужно, что возможно и что стоит проверить до обещаний."
       uz: "Birinchi suhbat amaliy bo'lib qoladi: nima kerak, nima mumkin va va'dalardan oldin nimani tekshirish kerak."
-    cards:
-      - type: "servicesProcess"
-        step: "01"
-        title:
+    indicatorType: number
+    items:
+      - title:
           en: "Request"
           ru: "Запрос"
           uz: "So'rov"
@@ -111,9 +110,7 @@ blocks:
           en: "Send your goal, countries, dates, headcount, languages and any meetings or places already fixed."
           ru: "Отправьте цель, страны, даты, количество людей, языки и уже зафиксированные встречи или места."
           uz: "Maqsad, mamlakatlar, sanalar, odamlar soni, tillar va allaqachon belgilangan uchrashuvlar yoki joylarni yuboring."
-      - type: "servicesProcess"
-        step: "02"
-        title:
+      - title:
           en: "Regional check"
           ru: "Проверка в регионе"
           uz: "Mintaqada tekshirish"
@@ -121,9 +118,7 @@ blocks:
           en: "We verify route shape, access, guides, transport and timing before making an offer."
           ru: "Проверяем форму маршрута, доступ, гидов, транспорт и тайминг до того, как делать предложение."
           uz: "Taklif berishdan oldin marshrut shakli, kirish, gidlar, transport va vaqtni tekshiramiz."
-      - type: "servicesProcess"
-        step: "03"
-        title:
+      - title:
           en: "Outline"
           ru: "Контур"
           uz: "Kontur"

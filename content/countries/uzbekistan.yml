@@ -176,17 +176,85 @@ blocks:
 
   - blockType: routeMap
     eyebrow:
-      en: Routes
-      ru: Маршруты
-      uz: Marshrutlar
+      en: Route logic
+      ru: Логика маршрута
+      uz: Marshrut mantig'i
     title:
-      en: How a classic Uzbekistan route flows
-      ru: Как обычно строится классический маршрут по Узбекистану
-      uz: O'zbekiston bo'ylab klassik yo'nalish qanday quriladi
+      en: How a classic Uzbekistan route comes together
+      ru: Как складывается маршрут по Узбекистану
+      uz: O'zbekiston bo'ylab marshrut qanday shakllanadi
     description:
-      en: Tashkent is the usual entry point; Afrosiyob trains connect the main Silk Road cities in hours.
-      ru: Ташкент обычно служит точкой входа, а поезда «Афросиёб» быстро связывают главные города Шёлкового пути.
-      uz: Toshkent odatda kirish nuqtasi bo'ladi, Afrosiyob poyezdlari esa Ipak yo'lining asosiy shaharlarini tez bog'laydi.
+      en: Tashkent is the usual entry; Afrosiyob trains then connect Samarkand and Bukhara, with Khiva as a westward extension.
+      ru: Ташкент обычно служит точкой входа, а поезда «Афросиёб» связывают Самарканд и Бухару; Хива — западное продолжение.
+      uz: Toshkent odatda kirish nuqtasi, Afrosiyob esa Samarqand va Buxoroni bog'laydi; Xiva — g'arbiy davomi.
+    aside:
+      eyebrow:
+        en: What to keep in mind
+        ru: Что важно учесть
+        uz: Nimalarni hisobga olish kerak
+      title:
+        en: Start with the route rhythm
+        ru: Сначала ритм маршрута
+        uz: Avval marshrut ritmi
+      description:
+        en: Separate the classic city line from longer regional legs so pacing stays clear for guests and guides.
+        ru: Отделите классическую городскую линию от более длинных региональных участков — так темп понятен гостям и гидам.
+        uz: Klassik shahar chizig'ini uzoqroq mintaqaviy qismlardan ajrating — temp mehmon va gidlar uchun aniq bo'ladi.
+      items:
+        - title:
+            en: Classic rail backbone
+            ru: Классическая связка
+            uz: Klassik bog'lama
+          badge:
+            en: train
+            ru: поезд
+            uz: poyezd
+          description:
+            en: Tashkent, Samarkand and Bukhara are best connected by train, keeping full city days for guiding and pacing.
+            ru: "Ташкент, Самарканд и Бухара хорошо соединяются поездом: день остаётся для города, гида и нормального темпа."
+            uz: "Toshkent, Samarqand va Buxoro poyezd bilan yaxshi bog'langan: kunning asosiy qismi shahar, gid va qulay temp uchun qoladi."
+        - title:
+            en: Westward to Khiva
+            ru: Путь к Хиве
+            uz: Xivaga yo'l
+          description:
+            en: After Bukhara the route turns west; choose rail, road or flight by trip tempo, comfort level and buffer time.
+            ru: После Бухары маршрут разворачивается на запад. Выбираем поезд, дорогу или перелёт по темпу поездки, комфорту и запасу времени.
+            uz: Buxorodan keyin marshrut g'arbga buriladi. Safar tempi, qulaylik va vaqt zaxirasiga qarab temir yo'l, avtomobil yoki parvoz tanlanadi.
+        - title:
+            en: Fergana, south, Karakalpakstan
+            ru: Фергана, юг, Каракалпакстан
+            uz: Farg'ona, janub, Qoraqalpog'iston
+          description:
+            en: These regions work best when the trip is not compressed around core cities and you can add a second geography.
+            ru: Эти части лучше добавлять, когда поездка не сжата вокруг классических городов и есть место для другой географии.
+            uz: Bu hududlarni safar klassik shaharlar atrofida siqilmagan, boshqa geografiyani qo'shishga vaqt bo'lganda qo'shish ma'qul.
+        - title:
+            en: Neighboring countries
+            ru: Соседние страны
+            uz: Qo'shni davlatlar
+          description:
+            en: Combined Central Asia itineraries run smoother when seasonality, borders, transport links and entry order are set early.
+            ru: Комбинированный маршрут по Центральной Азии спокойнее, когда сезон, границы, транспортные связки и порядок въезда понятны заранее.
+            uz: Markaziy Osiyo bo'yicha kombinatsiyalangan marshrut mavsum, chegara, transport bog'lamalari va kirish tartibi oldindan aniq bo'lsa ancha sokin o'tadi.
+    mapPanel:
+      eyebrow:
+        en: Route cities
+        ru: Города маршрута
+        uz: Marshrut shaharlari
+      title:
+        en: Classic backbone on the map
+        ru: Классическая связка на карте
+        uz: Xaritadagi klassik bog'lama
+      description:
+        en: Focus on the ordered stops that shape the main Silk Road line through Uzbekistan.
+        ru: Акцент на упорядоченных остановках, которые складывают главную линию Шёлкового пути по Узбекистану.
+        uz: O'zbekiston bo'ylab Ipak yo'lining asosiy chizig'ini shakllantiruvchi tartiblangan to'xtashlarga e'tibor.
+      linkLabel:
+        en: Uzbekistan map
+        ru: Карта Узбекистана
+        uz: O'zbekiston xaritasi
+      linkHref: /destinations/uzbekistan
     mapCenter:
       latitude: 41.2
       longitude: 64.5
@@ -200,58 +268,6 @@ blocks:
         entitySlug: bukhara-region
       - entityType: region
         entitySlug: khorezm-region
-
-  - blockType: regular
-    eyebrow:
-      en: Route logic
-      ru: Логика маршрута
-      uz: Marshrut mantig'i
-    title:
-      en: How the Silk Road backbone connects
-      ru: Как связаны опоры Шёлкового пути
-      uz: Ipak yo'li tayanchlari qanday bog'lanadi
-    gridClassName: sm:grid-cols-2
-    cards:
-      - type: destinationInsight
-        icon: Train
-        title:
-          en: Classic rail backbone
-          ru: Классическая связка
-          uz: Klassik bog'lama
-        description:
-          en: Tashkent, Samarkand and Bukhara are best connected by train, keeping full city days for guiding and pacing.
-          ru: "Ташкент, Самарканд и Бухара хорошо соединяются поездом: день остаётся для города, гида и нормального темпа."
-          uz: "Toshkent, Samarqand va Buxoro poyezd bilan yaxshi bog'langan: kunning asosiy qismi shahar, gid va qulay temp uchun qoladi."
-      - type: destinationInsight
-        icon: Compass
-        title:
-          en: Westward to Khiva
-          ru: Путь к Хиве
-          uz: Xivaga yo'l
-        description:
-          en: After Bukhara the route turns west; choose rail, road or flight by trip tempo, comfort level and buffer time.
-          ru: После Бухары маршрут разворачивается на запад. Выбираем поезд, дорогу или перелёт по темпу поездки, комфорту и запасу времени.
-          uz: Buxorodan keyin marshrut g'arbga buriladi. Safar tempi, qulaylik va vaqt zaxirasiga qarab temir yo'l, avtomobil yoki parvoz tanlanadi.
-      - type: destinationInsight
-        icon: Map
-        title:
-          en: Fergana, south, Karakalpakstan
-          ru: Фергана, юг, Каракалпакстан
-          uz: Farg'ona, janub, Qoraqalpog'iston
-        description:
-          en: These regions work best when the trip is not compressed around core cities and you can add a second geography.
-          ru: Эти части лучше добавлять, когда поездка не сжата вокруг классических городов и есть место для другой географии.
-          uz: Bu hududlarni safar klassik shaharlar atrofida siqilmagan, boshqa geografiyani qo'shishga vaqt bo'lganda qo'shish ma'qul.
-      - type: destinationInsight
-        icon: Globe
-        title:
-          en: Neighboring countries
-          ru: Соседние страны
-          uz: Qo'shni davlatlar
-        description:
-          en: Combined Central Asia itineraries run smoother when seasonality, borders, transport links and entry order are set early.
-          ru: Комбинированный маршрут по Центральной Азии спокойнее, когда сезон, границы, транспортные связки и порядок въезда понятны заранее.
-          uz: Markaziy Osiyo bo'yicha kombinatsiyalangan marshrut mavsum, chegara, transport bog'lamalari va kirish tartibi oldindan aniq bo'lsa ancha sokin o'tadi.
 
   - blockType: faq
     eyebrow:

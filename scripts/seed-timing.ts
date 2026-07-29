@@ -138,7 +138,16 @@ export function resolveSeedDatabaseUri(): string {
 	const directUri = process.env.DATABASE_URI_DIRECT?.trim();
 	const defaultUri = process.env.DATABASE_URI?.trim();
 
-	const uri = directUri || defaultUri;
+	// Prefer explicit local DATABASE_URI over Neon DIRECT when both are set.
+	const defaultIsLocal =
+		Boolean(defaultUri) && /localhost|127\.0\.0\.1/.test(defaultUri!);
+	const directIsRemote =
+		Boolean(directUri) && !/localhost|127\.0\.0\.1/.test(directUri!);
+
+	const uri =
+		defaultIsLocal && directIsRemote
+			? defaultUri
+			: directUri || defaultUri;
 
 	if (!uri) {
 		throw new Error("DATABASE_URI is not set");

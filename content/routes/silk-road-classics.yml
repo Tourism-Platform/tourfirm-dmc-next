@@ -114,6 +114,115 @@ blocks:
           en: Itchan Kala at dusk, Ark fortress context, and optional desert camp nights close the route with atmosphere.
           ru: Ичан-Кала на закате, контекст крепости Арк и опциональные ночи в пустынном лагере завершают маршрут атмосферой.
           uz: Quyosh botishida Ichan Qal'a, Ark qal'asi konteksti va ixtiyoriy cho'l lageri kechalari marshrutni muhit bilan yakunlaydi.
+  - blockType: itinerary
+    eyebrow:
+      en: Day by day
+      ru: День за днём
+      uz: Kunma-kun
+    note:
+      en: "Silk Road classics · 7 days · Samarkand → Khiva"
+      ru: "Классика Шёлкового пути · 7 дней · Самарканд → Хива"
+      uz: "Ipak yo'li klassikasi · 7 kun · Samarqand → Xiva"
+    title:
+      en: How the journey unfolds
+      ru: Как выглядит эта поездка
+      uz: Bu sayohat qanday kechadi
+    description:
+      en: A working frame for the route — days can shift, expand, or leave room for wine, crafts, and slower evenings.
+      ru: Рабочий каркас маршрута — дни можно сдвигать, растягивать или оставлять место для вина, ремёсел и более тихих вечеров.
+      uz: Marshrutning ishchi ramkasi — kunlarni siljitish, cho'zish yoki vino, hunarmandchilik va tinchroq kechalar uchun joy qoldirish mumkin.
+    items:
+      - title:
+          en: Arrive in Samarkand
+          ru: Прибытие в Самарканд
+          uz: Samarqandga kelish
+        description:
+          en: Airport or train transfer, settle in, and an evening walk toward Registan when the light softens on the tilework.
+          ru: Трансфер из аэропорта или с вокзала, заселение и вечерняя прогулка к Регистану, когда свет смягчает керамику.
+          uz: Aeroport yoki vokzaldan transfer, joylashish va Registonga kechki sayr — yorug'lik koshinlarni yumshatganda.
+        image: assets/images/city/samarkand.jpg
+        meta:
+          en: "night: Samarkand\ntransfer: —"
+          ru: "ночь: Самарканд\nпереезд: —"
+          uz: "tun: Samarqand\ntransfer: —"
+      - title:
+          en: Registan and Shah-i-Zinda
+          ru: Регистан и Шахи-Зинда
+          uz: Registon va Shohi Zinda
+        description:
+          en: Morning at Registan for scale and color, afternoon along Shah-i-Zinda, optional observatory visit before a quieter evening.
+          ru: Утро на Регистане ради масштаба и цвета, день у Шахи-Зинды, по желанию обсерватория — и более тихий вечер.
+          uz: Ertalab Registonda miqyos va rang, kunduzi Shohi Zindada, ixtiyoriy rasadxona — so'ng tinchroq kech.
+        image: assets/images/tours/silk-road.jpg
+        meta:
+          en: "night: Samarkand\ntransfer: city"
+          ru: "ночь: Самарканд\nпереезд: по городу"
+          uz: "tun: Samarqand\ntransfer: shahar ichida"
+      - title:
+          en: Across the Kyzylkum to Bukhara
+          ru: Через Кызылкум в Бухару
+          uz: Qizilqum orqali Buxoroga
+        description:
+          en: Desert road day with a lunch stop. Evening arrival into Bukhara's old city — trading domes and a first courtyard walk.
+          ru: День пустынной дороги с остановкой на обед. Вечерний заезд в старый город Бухары — торговые купола и первая прогулка по дворам.
+          uz: Cho'l yo'li kuni, tushlik to'xtashi bilan. Kechqurun Buxoro eski shahriga kelish — savdo gumbazlari va birinchi hovli sayri.
+        image: assets/images/experiences/nature-1.jpg
+        meta:
+          en: "night: Bukhara\ntransfer: ~4–5 h road"
+          ru: "ночь: Бухара\nпереезд: ~4–5 ч авто"
+          uz: "tun: Buxoro\ntransfer: ~4–5 soat yo'l"
+      - title:
+          en: Bukhara workshops and tables
+          ru: Бухара — мастерские и столы
+          uz: Buxoro — ustaxonalar va dasturxon
+        description:
+          en: Craft quarters, family plov, and an unhurried pass through the old trading axes before night settles on Lyabi-Hauz.
+          ru: Ремесленные кварталы, семейный плов и неспешный проход по торговым осям, пока вечер не опустится на Ляби-Хауз.
+          uz: Hunarmandchilik kvartallari, oilaviy osh va savdo o'qlari bo'ylab sekin yurish — kech Lyabi Hovuzga tushgunga qadar.
+        image: assets/images/city/bukhara.jpg
+        meta:
+          en: "night: Bukhara\ntransfer: city"
+          ru: "ночь: Бухара\nпереезд: по городу"
+          uz: "tun: Buxoro\ntransfer: shahar ichida"
+      - title:
+          en: Ark, then west toward Khiva
+          ru: Арк — и на запад к Хиве
+          uz: Ark — so'ng g'arbga Xivaga
+        description:
+          en: Morning context at the Ark fortress, then the long desert transfer that makes Khiva feel earned by evening.
+          ru: Утром контекст крепости Арк, затем длинный пустынный переезд — к вечеру Хива ощущается заслуженной.
+          uz: Ertalab Ark qal'asi konteksti, so'ng uzun cho'l transferi — kechga Xiva haqli tuyuladi.
+        image: assets/images/experiences/culture-1.jpg
+        meta:
+          en: "night: Khiva\ntransfer: ~6–7 h road"
+          ru: "ночь: Хива\nпереезд: ~6–7 ч авто"
+          uz: "tun: Xiva\ntransfer: ~6–7 soat yo'l"
+      - title:
+          en: Itchan Kala at dusk
+          ru: Ичан-Кала на закате
+          uz: Quyosh botishida Ichan Qal'a
+        description:
+          en: A full day inside the walls — lanes, minarets, and evening light when tour groups thin out and the city softens.
+          ru: Полный день внутри стен — переулки, минареты и вечерний свет, когда группы редеют и город смягчается.
+          uz: Devor ichida to'liq kun — ko'chalar, minoralar va kechki yorug'lik, guruhlar kamayganda shahar yumshaydi.
+        image: assets/images/city/khiva.jpg
+        meta:
+          en: "night: Khiva\ntransfer: —"
+          ru: "ночь: Хива\nпереезд: —"
+          uz: "tun: Xiva\ntransfer: —"
+      - title:
+          en: Departure
+          ru: Выезд
+          uz: Jo'nash
+        description:
+          en: Morning buffer in Khiva, then transfer toward Urgench airport or onward connection — coordinator stays reachable until you fly.
+          ru: Утренний буфер в Хиве, затем трансфер к аэропорту Ургенча или дальше — координатор на связи до вылета.
+          uz: Xivada ertalabki bufer, so'ng Urganch aeroportiga yoki keyingi yo'nalishga transfer — koordinator uchgungizgacha aloqada.
+        image: assets/images/experiences/culture-2.jpg
+        meta:
+          en: "night: —\ntransfer: to airport"
+          ru: "ночь: —\nпереезд: в аэропорт"
+          uz: "tun: —\ntransfer: aeroportga"
   - blockType: routeMap
     eyebrow:
       en: Route map

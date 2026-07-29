@@ -17,4 +17,6 @@ export type TRouteMapProps = {
 	tileAttribution: string;
 };
 
-export type TRouteMapViewProps = TRouteMapProps;
+export type TRouteMapViewProps = TRouteMapProps & {
+	className?: string;
+};

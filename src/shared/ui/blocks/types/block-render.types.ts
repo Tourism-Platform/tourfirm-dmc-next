@@ -11,6 +11,8 @@ export enum BlockType {
 	regular = "regular",
 	routeMap = "routeMap",
 	faq = "faq",
+	timeline = "timeline",
+	itinerary = "itinerary",
 	cta = "cta"
 }
 
@@ -19,6 +21,46 @@ export type TFaqQuestionProps = {
 	icon?: string;
 	title: string;
 	description: string;
+};
+
+export type TTimelineIndicatorType = "number" | "icon";
+
+export type TTimelineItemProps = {
+	key?: string;
+	title: string;
+	description?: string;
+	date?: string;
+	icon?: string;
+};
+
+export type TItineraryItemProps = {
+	key?: string;
+	title: string;
+	description?: string;
+	imageSrc?: string;
+	meta?: string;
+};
+
+export type TRouteMapAsideItemProps = {
+	key?: string;
+	title: string;
+	description?: string;
+	badge?: string;
+};
+
+export type TRouteMapAsideProps = {
+	eyebrow?: string;
+	title?: string;
+	description?: string;
+	items?: TRouteMapAsideItemProps[];
+};
+
+export type TRouteMapPanelHeaderProps = {
+	eyebrow?: string;
+	title?: string;
+	description?: string;
+	linkLabel?: string;
+	linkHref?: string;
 };
 
 export type TBlockRenderProps = {
@@ -40,6 +82,11 @@ export type TBlockRenderProps = {
 	tileUrl?: string;
 	tileAttribution?: string;
 	stops?: TRouteMapStop[];
+	aside?: TRouteMapAsideProps;
+	mapPanel?: TRouteMapPanelHeaderProps;
 	questions?: TFaqQuestionProps[];
+	indicatorType?: TTimelineIndicatorType;
+	items?: TTimelineItemProps[];
+	itineraryItems?: TItineraryItemProps[];
 	emptyLabel?: string;
 };

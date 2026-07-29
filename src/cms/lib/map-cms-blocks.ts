@@ -234,12 +234,40 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 				: (block.stops ?? [])
 						.map((stop) => resolveStopFromRelation(stop))
 						.filter((stop): stop is TRouteMapStop => stop !== null);
+			const aside = block.aside;
+			const mapPanel = block.mapPanel;
+			const asideItems = aside?.items ?? [];
+			const hasAside =
+				Boolean(aside?.eyebrow) ||
+				Boolean(aside?.title) ||
+				Boolean(richTextToPlain(aside?.description)) ||
+				asideItems.length > 0;
 
 			return {
 				blockType: BlockType.routeMap,
 				eyebrow: block.eyebrow ?? undefined,
 				title: block.title ?? "",
 				description: richTextToPlain(block.description),
+				aside: hasAside
+					? {
+							eyebrow: aside?.eyebrow ?? undefined,
+							title: aside?.title ?? undefined,
+							description: richTextToPlain(aside?.description),
+							items: asideItems.map((item, index) => ({
+								key: item.id ?? String(index),
+								title: item.title,
+								description: richTextToPlain(item.description),
+								badge: item.badge ?? undefined
+							}))
+						}
+					: undefined,
+				mapPanel: {
+					eyebrow: mapPanel?.eyebrow ?? undefined,
+					title: mapPanel?.title ?? undefined,
+					description: richTextToPlain(mapPanel?.description),
+					linkLabel: mapPanel?.linkLabel ?? undefined,
+					linkHref: mapPanel?.linkHref ?? undefined
+				},
 				center: enrichedMap
 					? enrichedMap.center
 					: latitude != null && longitude != null
@@ -265,6 +293,41 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 					icon: question.icon ?? undefined,
 					title: question.title,
 					description: richTextToPlain(question.description) ?? ""
+				}))
+			};
+
+		case "timeline":
+			return {
+				blockType: BlockType.timeline,
+				eyebrow: block.eyebrow ?? undefined,
+				title: block.title,
+				description: richTextToPlain(block.description),
+				indicatorType:
+					block.indicatorType === "icon" ? "icon" : "number",
+				items: (block.items ?? []).map((item, index) => ({
+					key: item.id ?? String(index),
+					title: item.title,
+					description: richTextToPlain(item.description),
+					date: item.date ?? undefined,
+					icon: item.icon ?? undefined
+				}))
+			};
+
+		case "itinerary":
+			return {
+				blockType: BlockType.itinerary,
+				eyebrow: block.eyebrow ?? undefined,
+				title: block.title,
+				description: richTextToPlain(block.description),
+				note: block.note ?? undefined,
+				itineraryItems: (block.items ?? []).map((item, index) => ({
+					key: item.id ?? String(index),
+					title: item.title,
+					description: richTextToPlain(item.description),
+					imageSrc: resolveMediaUrl(
+						item.image as number | Media | null | undefined
+					),
+					meta: richTextToPlain(item.meta)
 				}))
 			};
 

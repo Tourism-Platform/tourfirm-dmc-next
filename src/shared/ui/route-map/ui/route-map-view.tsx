@@ -16,9 +16,9 @@ const RouteMap = dynamic(
 	}
 );
 
-export function RouteMapView(props: TRouteMapViewProps) {
+export function RouteMapView({ className, ...props }: TRouteMapViewProps) {
 	return (
-		<RouteMapPanel>
+		<RouteMapPanel className={className}>
 			<RouteMap {...props} />
 		</RouteMapPanel>
 	);
