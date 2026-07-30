@@ -46,13 +46,6 @@ Site-wide meta перенесён в `ui-common.meta` (не `footer.uiTexts`).
 | Pagination aria | `render-widgets.tsx` | `ui-discovery.paginationAriaLabel` |
 | Destinations breadcrumb | `render-cms-route.tsx` | `ui-discovery.geoBreadcrumbLabel` |
 
-## Widgets (`ui-widgets`)
-
-| Строка | Файл | CMS поле |
-|--------|------|----------|
-| Route timeline | `route-stops-timeline.tsx` | `ui-widgets.routeTimeline.title` |
-| Stop N | `route-stops-timeline.tsx` | `ui-widgets.routeTimeline.stopLabel` |
-
 ## Blocks shell
 
 | Строка | Файл | Статус |

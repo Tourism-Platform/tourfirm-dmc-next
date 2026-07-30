@@ -39,7 +39,7 @@ export const ROUTE_RUNTIME_REGISTRY: readonly TRouteRuntimeEntry[] = [
 			metadataSource: "hub"
 		},
 		layout: {
-			widgets: { hub: ["pagination"], detail: ["routeTimeline"] },
+			widgets: { hub: ["pagination"] },
 			widgetPlacement: "afterCms"
 		}
 	},

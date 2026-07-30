@@ -207,7 +207,6 @@ export interface Config {
 		"ui-common": UiCommon;
 		"ui-catalog": UiCatalog;
 		"ui-discovery": UiDiscovery;
-		"ui-widgets": UiWidget;
 	};
 	globalsSelect: {
 		homepage: HomepageSelect<false> | HomepageSelect<true>;
@@ -227,7 +226,6 @@ export interface Config {
 		"ui-common": UiCommonSelect<false> | UiCommonSelect<true>;
 		"ui-catalog": UiCatalogSelect<false> | UiCatalogSelect<true>;
 		"ui-discovery": UiDiscoverySelect<false> | UiDiscoverySelect<true>;
-		"ui-widgets": UiWidgetsSelect<false> | UiWidgetsSelect<true>;
 	};
 	locale:
 		| "en"
@@ -20175,19 +20173,6 @@ export interface UiDiscovery {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "ui-widgets".
- */
-export interface UiWidget {
-	id: number;
-	routeTimeline?: {
-		title?: string | null;
-		stopLabel?: string | null;
-	};
-	updatedAt?: string | null;
-	createdAt?: string | null;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "homepage_select".
  */
 export interface HomepageSelect<T extends boolean = true> {
@@ -22840,21 +22825,6 @@ export interface UiDiscoverySelect<T extends boolean = true> {
 		| {
 				paginationPrev?: T;
 				paginationNext?: T;
-		  };
-	updatedAt?: T;
-	createdAt?: T;
-	globalType?: T;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "ui-widgets_select".
- */
-export interface UiWidgetsSelect<T extends boolean = true> {
-	routeTimeline?:
-		| T
-		| {
-				title?: T;
-				stopLabel?: T;
 		  };
 	updatedAt?: T;
 	createdAt?: T;

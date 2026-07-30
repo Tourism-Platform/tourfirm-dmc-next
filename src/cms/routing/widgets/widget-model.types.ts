@@ -3,7 +3,6 @@ import type { TEntityLoadResult } from "../types/route-data.types";
 
 export type TWidgetModel =
 	| { key: "pagination"; props: Record<string, unknown> }
-	| { key: "routeTimeline"; props: { items: unknown[] } }
 	| { key: "experienceMeta"; props: Record<string, unknown> }
 	| { key: "discoveryFilterBar"; props: { filters: unknown[] } };
 

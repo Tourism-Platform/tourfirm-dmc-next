@@ -126,17 +126,12 @@ export type TUiDiscovery = {
 	tradeFairs: TUiPaginationLabels;
 };
 
-export type TUiWidgets = {
-	routeTimeline: { title: string; stopLabel: string };
-};
-
 export type TUiContent = {
 	header: TUiHeader;
 	footer: TUiFooter;
 	common: TUiCommon;
 	catalog: TUiCatalog;
 	discovery: TUiDiscovery;
-	widgets: TUiWidgets;
 };
 
 export type TLanguageSetting = {

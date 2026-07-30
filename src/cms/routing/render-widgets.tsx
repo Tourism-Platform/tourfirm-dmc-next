@@ -1,14 +1,10 @@
 import type { ReactNode } from "react";
 
-import type { TDiscoveryPaginationKey, TUiWidgets } from "@/shared/ui-content";
+import type { TDiscoveryPaginationKey } from "@/shared/ui-content";
 import { loadUiContent } from "@/shared/ui-content/server";
 import { CmsPagination } from "@/shared/ui/pagination";
 
-import {
-	DiscoveryFilterBar,
-	ExperienceMetaBar,
-	RouteStopsTimeline
-} from "@/widgets/discovery";
+import { DiscoveryFilterBar, ExperienceMetaBar } from "@/widgets/discovery";
 
 import type { TRouteRuntimeEntry } from "./types/route-runtime.types";
 import type { TWidgetModel } from "./widgets/widget-model.types";
@@ -32,8 +28,7 @@ export async function renderWidgets(
 		const node = await renderWidgetNode(
 			model,
 			runtime,
-			uiContent.discovery,
-			uiContent.widgets
+			uiContent.discovery
 		);
 
 		if (!node) {
@@ -53,8 +48,7 @@ export async function renderWidgets(
 async function renderWidgetNode(
 	model: TWidgetModel,
 	runtime: TRouteRuntimeEntry,
-	discovery: Awaited<ReturnType<typeof loadUiContent>>["discovery"],
-	widgets: TUiWidgets
+	discovery: Awaited<ReturnType<typeof loadUiContent>>["discovery"]
 ): Promise<ReactNode | null> {
 	switch (model.key) {
 		case "pagination": {
@@ -85,19 +79,6 @@ async function renderWidgetNode(
 				/>
 			);
 		}
-		case "routeTimeline":
-			return (
-				<div className="mx-auto flex w-full max-w-7xl flex-col gap-12 px-4 py-16 sm:gap-14 sm:px-6 sm:py-20 lg:gap-16 lg:px-8">
-					<RouteStopsTimeline
-						items={
-							model.props.items as Parameters<
-								typeof RouteStopsTimeline
-							>[0]["items"]
-						}
-						ui={widgets.routeTimeline}
-					/>
-				</div>
-			);
 		case "experienceMeta":
 			return (
 				<div className="mx-auto flex w-full max-w-7xl flex-col gap-12 px-4 py-16 sm:gap-14 sm:px-6 sm:py-20 lg:gap-16 lg:px-8">

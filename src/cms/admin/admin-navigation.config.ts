@@ -74,14 +74,7 @@ export const ADMIN_NEWS_GLOBALS_NAVIGATION: TAdminNavSection = {
 
 export const ADMIN_UI_CONTENT_GLOBALS_NAVIGATION: TAdminNavSection = {
 	label: "UI Content",
-	items: [
-		"header",
-		"footer",
-		"ui-common",
-		"ui-catalog",
-		"ui-discovery",
-		"ui-widgets"
-	]
+	items: ["header", "footer", "ui-common", "ui-catalog", "ui-discovery"]
 };
 
 export const ADMIN_GLOBALS_NAVIGATION: TAdminNavSection = {

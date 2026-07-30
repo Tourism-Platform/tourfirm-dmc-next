@@ -17,8 +17,7 @@ type TUiGlobalSlug =
 	| "footer"
 	| "ui-common"
 	| "ui-catalog"
-	| "ui-discovery"
-	| "ui-widgets";
+	| "ui-discovery";
 
 const ROOT_DIR = path.resolve(
 	path.dirname(fileURLToPath(import.meta.url)),
@@ -182,15 +181,6 @@ function buildUiDiscovery(
 	};
 }
 
-function buildUiWidgets() {
-	return {
-		routeTimeline: {
-			title: "Route timeline",
-			stopLabel: "Stop {order}"
-		}
-	};
-}
-
 async function updateGlobalLocale(
 	payload: Payload,
 	slug: TUiGlobalSlug,
@@ -265,12 +255,6 @@ export async function seedUiContent(payload: Payload): Promise<void> {
 				company,
 				String(destinationsLabel?.label ?? "Destinations")
 			)
-		);
-		await updateGlobalLocale(
-			payload,
-			"ui-widgets",
-			locale,
-			buildUiWidgets()
 		);
 
 		console.log(`  + ui content locale ${locale}`);
