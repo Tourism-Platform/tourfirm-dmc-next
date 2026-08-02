@@ -11,7 +11,12 @@ export const footerUiTextsFields: Field[] = [
 			{
 				name: "brand",
 				type: "group",
-				fields: [localizedText("name")]
+				fields: [localizedText("name"), localizedText("tagline")]
+			},
+			{
+				name: "community",
+				type: "group",
+				fields: [localizedText("title"), localizedText("subtitle")]
 			},
 			localizedText("comingSoon"),
 			localizedText("copyright")

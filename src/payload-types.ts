@@ -19891,8 +19891,24 @@ export interface Footer {
 		| null;
 	socialLinks?:
 		| {
-				platform: string;
+				platform:
+					| "instagram"
+					| "telegram"
+					| "facebook"
+					| "whatsapp"
+					| "youtube"
+					| "tiktok"
+					| "linkedin"
+					| "x"
+					| "vk"
+					| "ok"
+					| "pinterest"
+					| "tripadvisor"
+					| "threads"
+					| "viber"
+					| "wechat";
 				url: string;
+				showInFooter?: boolean | null;
 				id?: string | null;
 		  }[]
 		| null;
@@ -19900,6 +19916,11 @@ export interface Footer {
 	uiTexts?: {
 		brand?: {
 			name?: string | null;
+			tagline?: string | null;
+		};
+		community?: {
+			title?: string | null;
+			subtitle?: string | null;
 		};
 		comingSoon?: string | null;
 		copyright?: string | null;
@@ -22442,6 +22463,7 @@ export interface FooterSelect<T extends boolean = true> {
 		| {
 				platform?: T;
 				url?: T;
+				showInFooter?: T;
 				id?: T;
 		  };
 	copyrightText?: T;
@@ -22452,6 +22474,13 @@ export interface FooterSelect<T extends boolean = true> {
 					| T
 					| {
 							name?: T;
+							tagline?: T;
+					  };
+				community?:
+					| T
+					| {
+							title?: T;
+							subtitle?: T;
 					  };
 				comingSoon?: T;
 				copyright?: T;

@@ -18,8 +18,10 @@ export const FooterSection = ({
 	comingSoonLabel
 }: IFooterSectionProps) => (
 	<div className="flex flex-col gap-4">
-		<p className="text-base font-medium text-foreground">{title}</p>
-		<ul className="flex flex-col gap-3">
+		<p className="border-b border-border/70 pb-2 font-mono text-xs font-medium uppercase tracking-[0.16em] text-primary sm:text-sm">
+			{title}
+		</p>
+		<ul className="flex flex-col gap-2.5">
 			{links.map((link) => (
 				<li key={link.key}>
 					{link.isSoon ? (
@@ -41,14 +43,14 @@ export const FooterSection = ({
 							href={link.href}
 							target={link.target ?? "_blank"}
 							rel="noopener noreferrer"
-							className="text-sm font-normal text-muted-foreground transition-colors hover:text-foreground"
+							className="text-sm font-normal text-muted-foreground transition-colors hover:text-[#37bffa]"
 						>
 							{link.label}
 						</a>
 					) : (
 						<Link
 							href={link.href}
-							className="text-sm font-normal text-muted-foreground transition-colors hover:text-foreground"
+							className="text-sm font-normal text-muted-foreground transition-colors hover:text-[#37bffa]"
 						>
 							{link.label}
 						</Link>

@@ -1,4 +1,4 @@
-import type { LucideIcon } from "lucide-react";
+import type { IconType } from "react-icons";
 
 import { cn } from "@/shared/lib/utils";
 
@@ -7,7 +7,7 @@ import { buttonVariants } from "../../shadcn-ui/button-variants";
 type TButtonSocialProps = {
 	url: string;
 	title: string;
-	icon: LucideIcon;
+	icon: IconType;
 	className?: string;
 };
 

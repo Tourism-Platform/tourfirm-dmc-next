@@ -1,4 +1,4 @@
-import { getLucideIcon } from "@/shared/lib/get-lucide-icon";
+import { getSocialPlatformIcon } from "@/shared/config/social-platforms";
 import type { TResolvedSocialLink } from "@/shared/types/navigation.types";
 import { ButtonSocial } from "@/shared/ui";
 
@@ -7,13 +7,13 @@ interface IFooterSocialProps {
 }
 
 export const FooterSocial = ({ items }: IFooterSocialProps) => (
-	<div className="flex items-center gap-3">
+	<div className="grid grid-cols-5 gap-2.5 sm:grid-cols-6 md:grid-cols-8">
 		{items.map(({ key, platform, url }) => (
 			<ButtonSocial
 				key={key}
 				url={url}
 				title={platform}
-				icon={getLucideIcon(platform)}
+				icon={getSocialPlatformIcon(platform)}
 			/>
 		))}
 	</div>

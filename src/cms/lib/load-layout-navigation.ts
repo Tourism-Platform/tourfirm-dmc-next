@@ -17,7 +17,7 @@ import { getExperiencesNavTree } from "../api/get-experiences-nav-tree";
 import { getInformationNavTree } from "../api/get-information-nav-tree";
 import { getRoutesNavTree } from "../api/get-routes-nav-tree";
 
-import { mapExperiencesNavToFooterColumn } from "./map-experiences-nav-to-footer-column";
+import { mapDiscoveryNavToFooterColumn } from "./map-discovery-nav-to-footer-column";
 import { mapInformationAreasToFooterColumns } from "./map-information-areas-to-footer-columns";
 import {
 	resolveFooterNavigation,
@@ -52,14 +52,18 @@ export async function loadLayoutNavigation(
 	const [
 		destinationsNav,
 		routesNav,
+		routesNavFooter,
 		experiencesNav,
 		experiencesNavFooter,
+		informationNavHeader,
 		informationNavFooter
 	] = await Promise.all([
 		getDestinationsNavTree(locale, destinationSlug),
-		getRoutesNavTree(locale),
+		getRoutesNavTree(locale, "header"),
+		getRoutesNavTree(locale, "footer"),
 		getExperiencesNavTree(locale, "header"),
 		getExperiencesNavTree(locale, "footer"),
+		getInformationNavTree(locale, informationAreas, "header"),
 		getInformationNavTree(locale, informationAreas, "footer")
 	]);
 
@@ -72,8 +76,17 @@ export async function loadLayoutNavigation(
 		locale,
 		footerGlobal?.columns
 	);
+	const [companyColumn, toursColumn, helpColumn, policiesColumn] =
+		staticFooterColumns;
+
 	const informationViewAll =
 		headerGlobal?.uiTexts?.public?.nav?.information?.viewAll?.trim() ||
+		"View all";
+	const routesTitle =
+		headerGlobal?.uiTexts?.public?.nav?.routes?.columns?.title?.trim() ||
+		"Tailor-Made Trips";
+	const routesViewAll =
+		headerGlobal?.uiTexts?.public?.nav?.routes?.viewAll?.trim() ||
 		"View all";
 	const experiencesTitle =
 		headerGlobal?.uiTexts?.public?.nav?.experiences?.columns?.title?.trim() ||
@@ -81,27 +94,42 @@ export async function loadLayoutNavigation(
 	const experiencesViewAll =
 		headerGlobal?.uiTexts?.public?.nav?.experiences?.viewAll?.trim() ||
 		"View all";
+
 	const informationFooterColumns = mapInformationAreasToFooterColumns(
 		informationNavFooter,
 		informationViewAll
 	);
-	const experiencesFooterColumn = mapExperiencesNavToFooterColumn(
+	const routesFooterColumn = mapDiscoveryNavToFooterColumn(
+		routesNavFooter,
+		"routes-footer",
+		routesTitle,
+		routesViewAll
+	);
+	const experiencesFooterColumn = mapDiscoveryNavToFooterColumn(
 		experiencesNavFooter,
+		"experiences-footer",
 		experiencesTitle,
 		experiencesViewAll
 	);
+
 	const footerColumns = [
-		...staticFooterColumns,
+		companyColumn,
+		toursColumn,
+		routesFooterColumn,
+		experiencesFooterColumn,
 		...informationFooterColumns,
-		...(experiencesFooterColumn ? [experiencesFooterColumn] : [])
-	];
+		helpColumn,
+		policiesColumn
+	].filter((column): column is TResolvedFooterColumn => column != null);
 
 	const socialLinks =
-		footerGlobal?.socialLinks?.map((link, index) => ({
-			key: link.id ?? String(index),
-			platform: link.platform,
-			url: link.url
-		})) ?? [];
+		footerGlobal?.socialLinks
+			?.filter((link) => link.showInFooter !== false)
+			.map((link, index) => ({
+				key: link.id ?? String(index),
+				platform: link.platform,
+				url: link.url
+			})) ?? [];
 
 	const logoSrc = resolveMediaUrl(headerGlobal?.logo) || undefined;
 
@@ -110,7 +138,9 @@ export async function loadLayoutNavigation(
 		destinationsNav,
 		routesNav,
 		experiencesNav,
-		informationNav: null,
+		informationNav: informationNavHeader.areas.length
+			? informationNavHeader
+			: null,
 		footerColumns,
 		socialLinks,
 		logoSrc,

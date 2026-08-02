@@ -1,5 +1,7 @@
 import type { GlobalConfig } from "payload";
 
+import { socialPlatformSelectOptions } from "@/shared/config/social-platforms";
+
 import { authenticatedOrPublished } from "../access/authenticated-or-published";
 import { navigationItemFields } from "../fields/navigation-item";
 import { footerUiTextsFields } from "../fields/ui-content/footer-ui-texts-fields";
@@ -45,13 +47,20 @@ export const Footer: GlobalConfig = {
 			fields: [
 				{
 					name: "platform",
-					type: "text",
-					required: true
+					type: "select",
+					required: true,
+					options: socialPlatformSelectOptions
 				},
 				{
 					name: "url",
 					type: "text",
 					required: true
+				},
+				{
+					name: "showInFooter",
+					type: "checkbox",
+					defaultValue: true,
+					label: "Show in footer"
 				}
 			]
 		},

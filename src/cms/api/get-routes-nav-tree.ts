@@ -9,9 +9,15 @@ import type { TDiscoveryNavTree } from "@/shared/types/discovery-nav.types";
 import { toGeoLocale } from "./geo-locale";
 import { ROUTES_NAV_CACHE_TAG } from "@/cms/cache/cache-tags";
 import { buildRoutesNavTree } from "@/cms/lib/build-discovery-nav-tree";
-import { PUBLISHED_AND_SHOW_IN_HEADER } from "@/cms/lib/nav-visibility-where";
+import {
+	type TNavSurface,
+	buildNavVisibilityWhere
+} from "@/cms/lib/nav-visibility-where";
 
-async function fetchRoutesNavTree(locale: string): Promise<TDiscoveryNavTree> {
+async function fetchRoutesNavTree(
+	locale: string,
+	surface: TNavSurface
+): Promise<TDiscoveryNavTree> {
 	const payload = await getPayload({ config });
 	const geoLocale = toGeoLocale(locale);
 
@@ -20,7 +26,7 @@ async function fetchRoutesNavTree(locale: string): Promise<TDiscoveryNavTree> {
 		locale: geoLocale,
 		fallbackLocale: "en",
 		depth: 0,
-		where: PUBLISHED_AND_SHOW_IN_HEADER,
+		where: buildNavVisibilityWhere(surface),
 		limit: 200,
 		sort: "sortOrder",
 		select: {
@@ -51,7 +57,10 @@ const getCachedRoutesNavTree = unstable_cache(
 );
 
 export const getRoutesNavTree = cache(
-	async (locale: string): Promise<TDiscoveryNavTree> => {
-		return getCachedRoutesNavTree(locale);
+	async (
+		locale: string,
+		surface: TNavSurface = "header"
+	): Promise<TDiscoveryNavTree> => {
+		return getCachedRoutesNavTree(locale, surface);
 	}
 );

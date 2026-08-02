@@ -34,7 +34,8 @@ export type TUiHeader = {
 };
 
 export type TUiFooter = {
-	brand: { name: string };
+	brand: { name: string; tagline?: string };
+	community?: { title: string; subtitle: string };
 	comingSoon: string;
 	copyright: string;
 };

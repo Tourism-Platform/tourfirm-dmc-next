@@ -136,6 +136,7 @@ function buildHeaderUiTexts(header: Record<string, unknown>) {
 function buildFooterUiTexts(footer: Record<string, unknown>) {
 	return {
 		brand: convertKeysDeep(footer.brand ?? {}),
+		community: convertKeysDeep(footer.community ?? {}),
 		comingSoon: footer.coming_soon,
 		copyright: footer.copyright
 	};

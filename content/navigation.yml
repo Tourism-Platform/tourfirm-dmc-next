@@ -49,6 +49,14 @@ header:
       icon: heart-handshake
       href: /experiences
       target: _self
+    - type: custom
+      label:
+        en: Information
+        ru: Информация
+        uz: Ma'lumot
+      icon: info
+      href: /company/news
+      target: _self
     - type: group
       label:
         en: Company
@@ -108,13 +116,50 @@ footer:
     uz: © {year} TourLink. Barcha huquqlar himoyalangan.
   socialLinks:
     - platform: instagram
-      url: "#"
+      url: https://www.instagram.com/tourlink.uz
+      showInFooter: true
     - platform: telegram
-      url: "#"
+      url: https://t.me/tourlink_uz
+      showInFooter: true
     - platform: facebook
-      url: "#"
+      url: https://www.facebook.com/tourlink.uz
+      showInFooter: true
     - platform: whatsapp
-      url: "#"
+      url: https://wa.me/998901234567
+      showInFooter: true
+    - platform: youtube
+      url: https://www.youtube.com/@tourlink
+      showInFooter: true
+    - platform: tiktok
+      url: https://www.tiktok.com/@tourlink.uz
+      showInFooter: true
+    - platform: linkedin
+      url: https://www.linkedin.com/company/tourlink
+      showInFooter: true
+    - platform: x
+      url: https://x.com/tourlink_uz
+      showInFooter: true
+    - platform: vk
+      url: https://vk.com/tourlink
+      showInFooter: true
+    - platform: ok
+      url: https://ok.ru/tourlink
+      showInFooter: true
+    - platform: pinterest
+      url: https://www.pinterest.com/tourlink
+      showInFooter: true
+    - platform: tripadvisor
+      url: https://www.tripadvisor.com/Profile/TourLink
+      showInFooter: true
+    - platform: threads
+      url: https://www.threads.net/@tourlink.uz
+      showInFooter: true
+    - platform: viber
+      url: https://invite.viber.com/?g2=tourlink
+      showInFooter: true
+    - platform: wechat
+      url: https://tourlink.uz/wechat
+      showInFooter: true
   columns:
     - title:
         en: Company
@@ -181,41 +226,6 @@ footer:
             ru: Отели
             uz: Mehmonxonalar
     - title:
-        en: Policies
-        ru: Политики
-        uz: Siyosatlar
-      items:
-        - type: page
-          page: legal/terms
-          label:
-            en: Terms of use
-            ru: Условия использования
-            uz: Foydalanish shartlari
-        - type: page
-          page: legal/booking
-          label:
-            en: Booking terms
-            ru: Условия бронирования
-            uz: Bron qilish shartlari
-        - type: page
-          page: legal/cancellation
-          label:
-            en: Cancellation policy
-            ru: Политика отмены
-            uz: Bekor qilish siyosati
-        - type: page
-          page: legal/cookies
-          label:
-            en: Cookie policy
-            ru: Политика cookies
-            uz: Cookie siyosati
-        - type: page
-          page: legal/privacy
-          label:
-            en: Privacy policy
-            ru: Политика конфиденциальности
-            uz: Maxfiylik siyosati
-    - title:
         en: Help
         ru: Помощь
         uz: Yordam
@@ -250,3 +260,38 @@ footer:
             en: More service info
             ru: Дополнительная информация
             uz: Qo'shimcha ma'lumot
+    - title:
+        en: Policies
+        ru: Политики
+        uz: Siyosatlar
+      items:
+        - type: page
+          page: legal/terms
+          label:
+            en: Terms of use
+            ru: Условия использования
+            uz: Foydalanish shartlari
+        - type: page
+          page: legal/booking
+          label:
+            en: Booking terms
+            ru: Условия бронирования
+            uz: Bron qilish shartlari
+        - type: page
+          page: legal/cancellation
+          label:
+            en: Cancellation policy
+            ru: Политика отмены
+            uz: Bekor qilish siyosati
+        - type: page
+          page: legal/cookies
+          label:
+            en: Cookie policy
+            ru: Политика cookies
+            uz: Cookie siyosati
+        - type: page
+          page: legal/privacy
+          label:
+            en: Privacy policy
+            ru: Политика конфиденциальности
+            uz: Maxfiylik siyosati

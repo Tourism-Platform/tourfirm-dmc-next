@@ -48,4 +48,5 @@ export type TResolvedSocialLink = {
 	key: string;
 	platform: string;
 	url: string;
+	showInFooter?: boolean;
 };
