@@ -1,0 +1,553 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "moynaq"
+  "ru": "moynaq"
+  "uz": "moynaq"
+"title":
+  "en": "Moynaq"
+  "ru": "Муйнак"
+  "uz": "Mo‘ynoq"
+"subtitle":
+  "en": "Former port, ship graveyard, and the road from Nukus"
+  "ru": "Бывший порт, кладбище кораблей и дорога из Нукуса"
+  "uz": "Sobiq port, kema qabristoni va Nukusdan yo‘l"
+"excerpt":
+  "en": "Moynaq works best as a planned Aral Sea chapter from Nukus: a former fishing port, ship graveyard, local museum, dry ground, and the road north all need time to be understood together."
+  "ru": "Муйнак лучше планировать как отдельную главу Арала из Нукуса: бывший рыбацкий порт, кладбище кораблей, местный музей, сухая земля и северная дорога требуют времени, чтобы сложиться в одну историю."
+  "uz": "Mo‘ynoq Nukusdan rejalangan Orol bobidek yaxshiroq ochiladi: sobiq baliqchi porti, kema qabristoni, mahalliy muzey, quruq yer va shimoliy yo‘l birga tushunilishi uchun vaqt kerak."
+"heroImage": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/moynaq.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/moynaq.webp"
+    "imageAlt":
+      "en": "Moynaq"
+      "ru": "Муйнак"
+      "uz": "Mo‘ynoq"
+    "title":
+      "en": "Moynaq"
+      "ru": "Муйнак"
+      "uz": "Mo‘ynoq"
+    "description":
+      "en": "Former port, ship graveyard, and the road from Nukus"
+      "ru": "Бывший порт, кладбище кораблей и дорога из Нукуса"
+      "uz": "Sobiq port, kema qabristoni va Nukusdan yo‘l"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Moynaq"
+      "ru": "Муйнак"
+      "uz": "Mo‘ynoq"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Moynaq works best as a planned Aral Sea chapter from Nukus: a former fishing port, ship graveyard, local museum, dry ground, and the road north all need time to be understood together."
+              "ru": "Муйнак лучше планировать как отдельную главу Арала из Нукуса: бывший рыбацкий порт, кладбище кораблей, местный музей, сухая земля и северная дорога требуют времени, чтобы сложиться в одну историю."
+              "uz": "Mo‘ynoq Nukusdan rejalangan Orol bobidek yaxshiroq ochiladi: sobiq baliqchi porti, kema qabristoni, mahalliy muzey, quruq yer va shimoliy yo‘l birga tushunilishi uchun vaqt kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "The visit works better when the road from Nukus, the ship graveyard, the museum, weather, and return timing are planned together."
+              "ru": "Поездка получается сильнее, когда дорога из Нукуса, кладбище кораблей, музей, погода и возвращение обратно планируются вместе."
+              "uz": "Tashrif Nukusdan yo‘l, kema qabristoni, muzey, ob-havo va qaytish vaqti birga rejalanganda aniqroq bo‘ladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Start the Moynaq plan with the drive north, museum access, weather, and the return to Nukus; the ships make more sense when the route is not reduced to one stop."
+              "ru": "Начинайте план Муйнака с северной дороги, доступа к музею, погоды и возвращения в Нукус; корабли понятнее, когда маршрут не сводится к одной остановке."
+              "uz": "Mo‘ynoq rejasini shimoliy yo‘l, muzeyga kirish, ob-havo va Nukusga qaytishdan boshlang; kemalar yo‘nalish bitta to‘xtashga qisqarmaganda yaxshiroq tushuniladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Moynaq as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Муйнак как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Mo‘ynoq o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "Plan Moynaq from Nukus with enough time"
+      "ru": "Планируйте Муйнак из Нукуса с запасом времени"
+      "uz": "Mo‘ynoqni Nukusdan vaqt bilan rejalang"
+    "description":
+      "en": "The visit works better when the road from Nukus, the ship graveyard, the museum, weather, and return timing are planned together."
+      "ru": "Поездка получается сильнее, когда дорога из Нукуса, кладбище кораблей, музей, погода и возвращение обратно планируются вместе."
+      "uz": "Tashrif Nukusdan yo‘l, kema qabristoni, muzey, ob-havo va qaytish vaqti birga rejalanganda aniqroq bo‘ladi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Yo‘nalish xaritasi"
+      "title":
+        "en": "Moynaq with Nukus and Ellikqala"
+        "ru": "Муйнак рядом с Нукусом и Элликкалой"
+        "uz": "Nukus va Ellikqal’a yonidagi Mo‘ynoq"
+      "description":
+        "en": "The map keeps Moynaq connected to Nukus for hotels, museums, and transport, with Ellikqala to the south when the western route turns back toward ancient Khorezm."
+        "ru": "Карта связывает Муйнак с Нукусом, где остаются гостиницы, музеи и транспорт, а южнее показывает Элликкалу, если западный маршрут возвращается к древнему Хорезму."
+        "uz": "Xarita Mo‘ynoqni mehmonxonalar, muzeylar va transport uchun kerak bo‘ladigan Nukus bilan bog‘laydi; janubda esa g‘arbiy yo‘l qadimgi Xorazmga qaytsa, Ellikqal’a ko‘rinadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 42.68863
+      "longitude": 59.852297
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "ecological-museum-of-muynak-region"
+      - "entityType": "attraction"
+        "entitySlug": "moynaq-ship-graveyard-open-air-museum"
+    "aside":
+      "eyebrow":
+        "en": "Route planning"
+        "ru": "Логика маршрута"
+        "uz": "Yo‘nalish rejasi"
+      "title":
+        "en": "The road from Nukus sets the visit"
+        "ru": "Дорога из Нукуса задаёт визит"
+        "uz": "Nukusdan yo‘l tashrifni belgilaydi"
+      "description":
+        "en": "Start the Moynaq plan with the drive north, museum access, weather, and the return to Nukus; the ships make more sense when the route is not reduced to one stop."
+        "ru": "Начинайте план Муйнака с северной дороги, доступа к музею, погоды и возвращения в Нукус; корабли понятнее, когда маршрут не сводится к одной остановке."
+        "uz": "Mo‘ynoq rejasini shimoliy yo‘l, muzeyga kirish, ob-havo va Nukusga qaytishdan boshlang; kemalar yo‘nalish bitta to‘xtashga qisqarmaganda yaxshiroq tushuniladi."
+      "items":
+        - "title":
+            "en": "Start with the distance"
+            "ru": "Начинайте с расстояния"
+            "uz": "Masofadan boshlang"
+          "description":
+            "en": "The drive north from Nukus is long enough to shape the visit. Build in time for road conditions, weather, and the return before adding more western stops."
+            "ru": "Северная дорога из Нукуса достаточно длинная, чтобы влиять на весь визит. Закладывайте время на покрытие, погоду и возвращение, прежде чем добавлять другие западные остановки."
+            "uz": "Nukusdan shimolga yo‘l tashrifga taʼsir qiladigan darajada uzoq. Boshqa g‘arbiy to‘xtashlarni qo‘shishdan oldin yo‘l holati, ob-havo va qaytish vaqtini hisobga oling."
+          "badge":
+            "en": "Road from Nukus"
+            "ru": "Дорога из Нукуса"
+            "uz": "Nukusdan yo‘l"
+        - "title":
+            "en": "Treat the ships as context, not spectacle"
+            "ru": "Смотрите корабли как контекст, а не зрелище"
+            "uz": "Kemalarni tomosha emas, kontekst sifatida ko‘ring"
+          "description":
+            "en": "The hulls belong to the story of a former fishing port and a changed sea, so they should be seen with explanation and respect."
+            "ru": "Корпуса связаны с историей бывшего рыбацкого порта и изменившегося моря, поэтому им нужны объяснение и уважительный тон."
+            "uz": "Korpuslar sobiq baliqchi porti va o‘zgargan dengiz hikoyasiga tegishli, shuning uchun ularga tushuntirish va hurmatli ohang kerak."
+          "badge":
+            "en": "Ship graveyard"
+            "ru": "Кладбище кораблей"
+            "uz": "Kema qabristoni"
+        - "title":
+            "en": "Let the museum and town complete the picture"
+            "ru": "Музей и город дополняют картину"
+            "uz": "Muzey va shahar manzarani to‘ldiradi"
+          "description":
+            "en": "The museum, streets, and local memory keep Moynaq connected to people, work, and family life, not only to environmental loss."
+            "ru": "Музей, улицы и местная память связывают Муйнак с людьми, работой и семейной жизнью, а не только с экологической утратой."
+            "uz": "Muzey, ko‘chalar va mahalliy xotira Mo‘ynoqni faqat ekologik yo‘qotish emas, odamlar, mehnat va oilaviy hayot bilan bog‘laydi."
+          "badge":
+            "en": "Town context"
+            "ru": "Контекст города"
+            "uz": "Shahar konteksti"
+        - "title":
+            "en": "Keep Nukus as the practical anchor"
+            "ru": "Нукус остаётся практичной опорой"
+            "uz": "Nukus amaliy tayanch bo‘lib qoladi"
+          "description":
+            "en": "Most routes use Nukus for hotels, museums, transport, and the next choice toward Ellikqala, Khiva, or a longer Aral and Ustyurt route."
+            "ru": "Большинство маршрутов используют Нукус для гостиниц, музеев, транспорта и следующего выбора: Элликкала, Хива или более длинный путь к Аралу и Устюрту."
+            "uz": "Ko‘p yo‘nalishlar mehmonxona, muzeylar, transport va keyingi qaror uchun Nukusga tayanadi: Ellikqal’a, Xiva yoki uzunroq Orol va Ustyurt yo‘li."
+          "badge":
+            "en": "Return to Nukus"
+            "ru": "Возвращение в Нукус"
+            "uz": "Nukusga qaytish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Ship graveyard and museum context"
+      "ru": "Корабли и музейный контекст"
+      "uz": "Kemalar va muzey konteksti"
+    "description":
+      "en": "The first public places are the ship graveyard and the ecological museum. Together they connect the former port, the dry seabed, photographs, fishing memory, and the road from Nukus."
+      "ru": "Первые публичные места — кладбище кораблей и экологический музей. Вместе они связывают бывший порт, сухое морское дно, фотографии, рыбацкую память и дорогу из Нукуса."
+      "uz": "Birinchi ommaviy joylar — kema qabristoni va ekologiya muzeyi. Ular sobiq port, quruq dengiz tubi, fotosuratlar, baliqchilik xotirasi va Nukusdan yo‘lni bir-biriga bog‘laydi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Moynaq Ship Graveyard"
+          "ru": "Кладбище кораблей в Муйнаке"
+          "uz": "Mo‘ynoq kemalar qabristoni"
+        "description":
+          "en": "North of Nukus, Moynaq brings the Aral Sea story down to ground level: rusted fishing vessels, the former port, the town museum, and the long road back all shape the same visit."
+          "ru": "К северу от Нукуса история Арала становится конкретной: ржавые рыбацкие суда, бывший порт, городской музей и обратная дорога относятся к одному визиту, а не к отдельной фотоостановке."
+          "uz": "Nukusdan shimolda Mo‘ynoq Orol hikoyasini aniqroq qiladi: zanglagan baliqchi kemalari, sobiq port, shahar muzeyi va qaytish yo‘li bitta tashrifning qismlariga aylanadi."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/moynaq/moynaq-ship-graveyard-open-air-museum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Moynaq Ecological Museum"
+          "ru": "Экологический музей Муйнака"
+          "uz": "Mo‘ynoq ekologiya muzeyi"
+        "description":
+          "en": "Moynaq Ecological Museum turns the Aral Sea story from a distant landscape into town memory: archive photographs, fishing tools, boats, costumes, household objects, and paintings connect directly with the ship graveyard route."
+          "ru": "Экологический музей Муйнака переводит историю Арала из дальнего пейзажа в городскую память: архивные фотографии, рыбацкий инвентарь, лодки, костюмы, бытовые предметы и живопись связаны с маршрутом к кладбищу кораблей."
+          "uz": "Mo‘ynoq ekologiya muzeyi Orol hikoyasini uzoq manzaradan shahar xotirasiga olib keladi: arxiv fotosuratlari, baliqchilik jihozlari, qayiqlar, liboslar, maishiy buyumlar va rasmlar kemalar qabristoni yo‘nalishi bilan bevosita bog‘lanadi."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/moynaq/ecological-museum-of-muynak-region"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Around Moynaq"
+      "ru": "Вокруг Муйнака"
+      "uz": "Mo‘ynoq atrofida"
+    "title":
+      "en": "Moments that explain the place"
+      "ru": "Моменты, которые объясняют место"
+      "uz": "Joyni tushuntiradigan lahzalar"
+    "description":
+      "en": "These moments keep the route grounded: metal on dry ground, museum rooms, the road beyond town, and the human story behind the Aral Sea."
+      "ru": "Эти моменты удерживают маршрут конкретным: металл на сухой земле, музейные залы, дорога за городом и человеческая история Арала."
+      "uz": "Bu lahzalar yo‘nalishni aniq qiladi: quruq yerdagi metall, muzey xonalari, shahar ortidagi yo‘l va Orol ortidagi insoniy hikoya."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Museum memory room"
+          "ru": "Комната музейной памяти"
+          "uz": "Muzey xotirasi xonasi"
+        "description":
+          "en": "Inside Moynaq's museum, photographs, fishing tools, paintings, and quieter voices bring the Aral story back to families, work, and the town before the dry horizon."
+          "ru": "В музее Муйнака фотографии, рыбацкие инструменты, живопись и более тихие голоса возвращают историю Арала к семьям, работе и городу до сухого горизонта."
+          "uz": "Mo‘ynoq muzeyi ichida fotosuratlar, baliqchilik asboblari, rasmlar va sokinroq ovozlar Orol hikoyasini oilalar, mehnat va quruq ufqdan oldin yashagan shaharga qaytaradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/moynaq/moynaq-character-2.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Aral horizon pause"
+          "ru": "Пауза у горизонта Арала"
+          "uz": "Orol ufqi pauzasi"
+        "description":
+          "en": "Beyond the town, the road opens to pale ground, salt in the air, and a horizon with almost no edge. The pause keeps the Aral story human instead of distant."
+          "ru": "За городом дорога выходит к светлой земле, соли в воздухе и горизонту почти без края. Такая пауза оставляет историю Арала человеческой, а не далёкой."
+          "uz": "Shahar ortida yo‘l och rangli yer, havodagi tuz va deyarli cheksiz ufqqa chiqadi. Bu pauza Orol hikoyasini uzoq emas, insoniy holda ushlab turadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/moynaq/moynaq-character-3.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Ship graveyard wind"
+          "ru": "Ветер у кораблей"
+          "uz": "Kemalar yonidagi shamol"
+        "description":
+          "en": "Wind moves over dry ground and old hulls, and the former seabed stops being an abstract story. Moynaq gives the Aral route its most physical silence."
+          "ru": "Ветер идёт по сухой земле и старым корпусам, и бывшее морское дно перестаёт быть абстрактной историей. Муйнак даёт маршруту Арала самую телесную тишину."
+          "uz": "Shamol quruq yer va eski kema korpuslari ustidan yuradi, sobiq dengiz tubi esa mavhum hikoya bo‘lib qolmaydi. Mo‘ynoq Orol yo‘nalishiga eng jismoniy sukunatni beradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "How to visit Moynaq without turning it into a photo stop"
+      "ru": "Как смотреть Муйнак без быстрой фотоостановки"
+      "uz": "Mo‘ynoqni tezkor foto-to‘xtashga aylantirmaslik"
+    "description":
+      "en": "Moynaq asks for a more careful route than a quick stop after Nukus. The drive, weather, ship graveyard, museum, and former port history all need to be planned as one visit."
+      "ru": "Муйнак требует более внимательного маршрута, чем короткая остановка после Нукуса. Дорогу, погоду, кладбище кораблей, музей и историю бывшего порта лучше планировать как один визит."
+      "uz": "Mo‘ynoq Nukusdan keyingi qisqa to‘xtashdan ko‘ra ehtiyotkorroq reja so‘raydi. Yo‘l, ob-havo, kema qabristoni, muzey va sobiq port tarixi bitta tashrif sifatida rejalangani yaxshi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Road from Nukus"
+              "ru": "Дорога из Нукуса"
+              "uz": "Nukusdan yo‘l"
+            "description":
+              "en": "Plan the drive as part of the visit. Road timing, weather, and the return to Nukus matter before adding more stops."
+              "ru": "Планируйте дорогу как часть визита. Время в пути, погода и возвращение в Нукус важны до добавления других остановок."
+              "uz": "Yo‘lni tashrifning bir qismi sifatida rejalang. Yo‘l vaqti, ob-havo va Nukusga qaytish boshqa to‘xtashlardan oldin muhim."
+          - "type": "quote"
+            "quote":
+              "en": "Moynaq is strongest when the ships are part of the town’s story, not the whole story."
+              "ru": "Муйнак сильнее, когда корабли остаются частью истории города, а не всей историей."
+              "uz": "Mo‘ynoq kemalar shahar hikoyasining bir qismi bo‘lib qolganda kuchliroq seziladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Ship graveyard"
+              "ru": "Кладбище кораблей"
+              "uz": "Kema qabristoni"
+            "description":
+              "en": "The ships make more sense with context: former port life, fishing work, the changed sea, and the museum story around them."
+              "ru": "Корабли понятнее вместе с контекстом: жизнью бывшего порта, рыбацким трудом, изменившимся морем и музейной историей вокруг."
+              "uz": "Kemalar sobiq port hayoti, baliqchilik mehnati, o‘zgargan dengiz va muzey hikoyasi bilan birga yaxshiroq tushuniladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Museum and town memory"
+              "ru": "Музей и память города"
+              "uz": "Muzey va shahar xotirasi"
+            "description":
+              "en": "The museum and town context keep the visit connected to people, work, and family life before the sea withdrew."
+              "ru": "Музей и городской контекст связывают визит с людьми, работой и семейной жизнью до ухода моря."
+              "uz": "Muzey va shahar konteksti tashrifni dengiz ketishidan oldingi odamlar, mehnat va oilaviy hayot bilan bog‘laydi."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchilar uchun"
+            "description":
+              "en": "Plan Moynaq with enough time for the road, museum, ship graveyard, weather, and return to Nukus. Keep longer Aral and Ustyurt routes separate until access and conditions are confirmed."
+              "ru": "Планируйте Муйнак с запасом времени на дорогу, музей, кладбище кораблей, погоду и возвращение в Нукус. Более длинные маршруты к Аралу и Устюрту лучше отделять до проверки доступа и условий."
+              "uz": "Mo‘ynoqni yo‘l, muzey, kema qabristoni, ob-havo va Nukusga qaytish uchun yetarli vaqt bilan rejalang. Uzunroq Orol va Ustyurt yo‘llarini kirish va sharoitlar tasdiqlanguncha alohida tuting."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before you go Route position"
+                  "ru": "Перед поездкой Место в маршруте"
+                  "uz": "Safardan oldin Yo‘nalishdagi o‘rni"
+                "description":
+                  "en": "Northern Karakalpakstan town normally planned from Nukus."
+                  "ru": "Город на севере Каракалпакстана, который обычно планируют из Нукуса."
+                  "uz": "Qoraqalpog‘iston shimolidagi, odatda Nukusdan rejalangan shahar."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main focus"
+                  "ru": "Главный фокус"
+                  "uz": "Asosiy eʼtibor"
+                "description":
+                  "en": "Ship graveyard, former fishing port memory, and ecological museum."
+                  "ru": "Кладбище кораблей, память бывшего рыбацкого порта и экологический музей."
+                  "uz": "Kema qabristoni, sobiq baliqchi porti xotirasi va ekologiya muzeyi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Weather"
+                  "ru": "Погода"
+                  "uz": "Ob-havo"
+                "description":
+                  "en": "Wind, heat, cold, and dust can affect road timing and comfort."
+                  "ru": "Ветер, жара, холод и пыль могут влиять на дорогу и комфорт."
+                  "uz": "Shamol, issiq, sovuq va chang yo‘l va qulaylikka taʼsir qilishi mumkin."
+              - "icon": "Route"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Yo‘nalishdagi roli"
+                "description":
+                  "en": "Aral Sea context before returning to Nukus or continuing toward Ellikqala, Khiva, or a reviewed Aral and Ustyurt route."
+                  "ru": "Контекст Арала перед возвращением в Нукус или продолжением к Элликкале, Хиве либо проверенному маршруту к Аралу и Устюрту."
+                  "uz": "Nukusga qaytish yoki Ellikqal’a, Xiva yoxud tekshirilgan Orol va Ustyurt yo‘liga davom etishdan oldingi Orol konteksti."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route connections"
+      "ru": "Продолжение маршрута"
+      "uz": "Yo‘nalish davomi"
+    "title":
+      "en": "Nukus and Ellikqala around Moynaq"
+      "ru": "Нукус и Элликкала вокруг Муйнака"
+      "uz": "Mo‘ynoq atrofidagi Nukus va Ellikqal’a"
+    "description":
+      "en": "Nukus gives the route hotels, museums, and transport. Ellikqala turns the western plan toward ancient Khorezm and clay fortresses when the route continues south."
+      "ru": "Нукус даёт маршруту гостиницы, музеи и транспорт. Элликкала поворачивает западный план к древнему Хорезму и глиняным крепостям, если путь продолжается на юг."
+      "uz": "Nukus yo‘nalishga mehmonxona, muzeylar va transport beradi. Ellikqal’a esa yo‘l janubga davom etsa, g‘arbiy rejani qadimgi Xorazm va loy qalʼalar tomonga buradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Nukus"
+          "ru": "Нукус"
+          "uz": "Nukus"
+        "description":
+          "en": "Start in Nukus with the Savitsky Museum, then connect Karakalpak culture with Moynaq, Mizdakhan, Chilpyk, and the desert fortress road."
+          "ru": "Начните знакомство с Нукусом в музее Савицкого, а затем связывайте город с каракалпакской культурой, Муйнаком, Миздакханом, Чилпыком и дорогой к пустынным крепостям."
+          "uz": "Nukusni Savitskiy muzeyidan boshlang, keyin shaharni qoraqalpoq madaniyati, Mo‘ynoq, Mizdakhan, Chilpiq va cho‘l qalʼalari yo‘li bilan bog‘lang."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/moynaq-next-ellikqala.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ellikqala"
+          "ru": "Элликкала"
+          "uz": "Ellikqal’a"
+        "description":
+          "en": "Ellikqala brings the Karakalpakstan route to the desert fortresses of Ancient Khorezm: Toprak-Kala, Kyzyl-Kala, Ayaz-Kala, open roads, access checks, and the link between Nukus and Khiva."
+          "ru": "Элликкала выводит маршрут по Каракалпакстану к пустынным крепостям древнего Хорезма: Топрак-Кале, Кызыл-Кале, Аяз-Кале, открытым дорогам, проверкам доступа и пути между Нукусом и Хивой."
+          "uz": "Ellikqal’a Qoraqalpog‘iston yo‘lini qadimgi Xorazm qalʼalariga olib boradi: Tuproq-qalʼa, Qizil-qalʼa, Ayoz-qalʼa, ochiq yo‘llar, kirish tekshiruvlari va Nukus bilan Xiva orasidagi yo‘l."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/ellikqala"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Moynaq in the day plan"
+      "ru": "Как поставить Муйнак в план дня"
+      "uz": "Mo‘ynoqni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Moynaq?"
+          "ru": "Сколько времени группам стоит проводить в Муйнак?"
+          "uz": "Mo‘ynoqda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “Former port, ship graveyard, and the road from Nukus”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Бывший порт, кладбище кораблей и дорога из Нукуса»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Sobiq port, kema qabristoni va Nukusdan yo‘l»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Moynaq be a walkable core or a base for day trips?"
+          "ru": "Муйнак — это пешеходное ядро или база для выездов?"
+          "uz": "Mo‘ynoq piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Moynaq's centre?"
+          "ru": "Где лучше ночевать относительно центра Муйнак?"
+          "uz": "Mo‘ynoq markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/moynaq.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Moynaq stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Муйнак» в программу (Узбекистан)"
+      "uz": "Mo‘ynoq bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Moynaq | TourLink"
+    "ru": "Муйнак | TourLink"
+    "uz": "Mo‘ynoq | TourLink"
+  "metaDescription":
+    "en": "Moynaq works best as a planned Aral Sea chapter from Nukus: a former fishing port, ship graveyard, local museum, dry ground, and the road north all need time to be understood together."
+    "ru": "Муйнак лучше планировать как отдельную главу Арала из Нукуса: бывший рыбацкий порт, кладбище кораблей, местный музей, сухая земля и северная дорога требуют времени, чтобы сложиться в одну историю."
+    "uz": "Mo‘ynoq Nukusdan rejalangan Orol bobidek yaxshiroq ochiladi: sobiq baliqchi porti, kema qabristoni, mahalliy muzey, quruq yer va shimoliy yo‘l birga tushunilishi uchun vaqt kerak."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "karakalpakstan-and-aral-sea"
+"latitude": 43.7643276
+"longitude": 59.0297467

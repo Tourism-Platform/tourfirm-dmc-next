@@ -1,0 +1,524 @@
+# Generated from scrape/turkmenistan (multi-locale)
+"slug":
+  "en": "ashgabat-and-nisa"
+  "ru": "ashgabat-and-nisa"
+  "uz": "ashgabat-and-nisa"
+"title":
+  "en": "Ashgabat & Nisa"
+  "ru": "Ашхабад и Ниса"
+  "uz": "Ashgabat va Nisa"
+"subtitle":
+  "en": "Marble avenues, Parthian earthworks, and Ahal foothills"
+  "ru": "Мраморные проспекты, парфянские стены и предгорья Ахала"
+  "uz": "Marmar xiyobonlar, Parfiya devorlari va Ahal togʻoldilari"
+"excerpt":
+  "en": "Ashgabat & Nisa opens Turkmenistan at city scale and archaeological scale. The capital brings marble avenues, formal parks, museum rooms, and carpet motifs. Nisa changes the pace near the Kopet-Dag foothills, where low earthen walls and open sky pull the first Turkmenistan route back into the Parthian world."
+  "ru": "Ашхабад и Ниса открывают Туркменистан в двух масштабах. Столица задаёт прибытие: мраморные проспекты, официальные парки, музейные залы и ковровые мотивы. Ниса меняет темп у предгорий Копетдага: низкие глинобитные стены и открытое небо возвращают маршрут к парфянскому миру."
+  "uz": "Ashgabat va Nisa Turkmanistonni ikki miqyosda ochadi. Poytaxt avval kelish hissini beradi: marmar xiyobonlar, rasmiy parklar, muzey xonalari va gilam naqshlari. Nisa esa Kopetdogʻ togʻoldilarida surʼatni pasaytiradi: past loy devorlar va ochiq osmon yoʻlni Parfiya dunyosiga qaytaradi."
+"heroImage": "assets/images/destinations/turkmenistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "imageAlt":
+      "en": "Ashgabat & Nisa"
+      "ru": "Ашхабад и Ниса"
+      "uz": "Ashgabat va Nisa"
+    "title":
+      "en": "Ashgabat & Nisa"
+      "ru": "Ашхабад и Ниса"
+      "uz": "Ashgabat va Nisa"
+    "description":
+      "en": "Marble avenues, Parthian earthworks, and Ahal foothills"
+      "ru": "Мраморные проспекты, парфянские стены и предгорья Ахала"
+      "uz": "Marmar xiyobonlar, Parfiya devorlari va Ahal togʻoldilari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О регионе"
+      "uz": "Hudud haqida"
+    "title":
+      "en": "Ashgabat & Nisa"
+      "ru": "Ашхабад и Ниса"
+      "uz": "Ashgabat va Nisa"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Ashgabat & Nisa opens Turkmenistan at city scale and archaeological scale."
+              "ru": "Ашхабад и Ниса открывают Туркменистан в двух масштабах."
+              "uz": "Ashgabat va Nisa Turkmanistonni ikki miqyosda ochadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Ashgabat and Nisa work best as two connected movements: capital orientation first, then an archaeological outing with its own pace, cooler hours, and current access check."
+              "ru": "Ашхабад и Ниса понятнее как два связанных движения: сначала ориентация в столице, затем археологический выезд со своим темпом, более прохладными часами и актуальной проверкой доступа."
+              "uz": "Ashgabat va Nisa ikki bogʻliq harakat sifatida aniqroq: avval poytaxtda moʻljal olinadi, keyin arxeologik chiqishning oʻz surʼati, salqinroq vaqti va kirish tekshiruvi bor."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Ashgabat keeps arrival, museum context, and city scale clear before the road turns toward Parthian earthworks."
+              "ru": "Ашхабад делает прибытие, музейный контекст и масштаб столицы понятными до дороги к парфянским стенам."
+              "uz": "Ashgabatda kelish, muzey konteksti va poytaxt miqyosi tushunarli boʻladi; keyin yoʻl Parfiya devorlariga buriladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Ashgabat & Nisa as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Ашхабад и Ниса как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Ashgabat va Nisa o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Capital first, then Nisa at a slower pace"
+      "ru": "Сначала столица, затем Ниса без спешки"
+      "uz": "Avval poytaxt, keyin Nisa sokinroq surʼatda"
+    "description":
+      "en": "Ashgabat and Nisa work best as two connected movements: capital orientation first, then an archaeological outing with its own pace, cooler hours, and current access check."
+      "ru": "Ашхабад и Ниса понятнее как два связанных движения: сначала ориентация в столице, затем археологический выезд со своим темпом, более прохладными часами и актуальной проверкой доступа."
+      "uz": "Ashgabat va Nisa ikki bogʻliq harakat sifatida aniqroq: avval poytaxtda moʻljal olinadi, keyin arxeologik chiqishning oʻz surʼati, salqinroq vaqti va kirish tekshiruvi bor."
+    "mapPanel":
+      "eyebrow":
+        "en": "Region frame"
+        "ru": "Контур региона"
+        "uz": "Hudud ramkasi"
+      "title":
+        "en": "Ashgabat, Nisa, and wider Ahal"
+        "ru": "Ашхабад, Ниса и широкий Ахал"
+        "uz": "Ashgabat, Nisa va kengroq Ahal"
+      "description":
+        "en": "Ashgabat and Nisa are the route-ready public anchors. Gokdepe, Kow-Ata, Arkadag, and Anau stay in the wider Ahal map until each has current source, timing, and access review."
+        "ru": "Ашхабад и Ниса — готовые публичные опоры маршрута. Гёкдепе, Ков-Ата, Аркадаг и Анау остаются в широкой карте Ахала, пока по каждому месту не завершены проверки источников, времени и доступа."
+        "uz": "Ashgabat va Nisa hozirgi tayyor ommaviy tayanchlar. Goʻkdepe, Kov-Ata, Arkadag va Anau har biri boʻyicha manba, vaqt va kirish tekshiruvi tugamaguncha kengroq Ahal xaritasida qoladi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 37.920601
+      "longitude": 58.288957
+    "zoom": 9
+    "stops":
+      - "entityType": "city"
+        "entitySlug": "ashgabat"
+      - "entityType": "attraction"
+        "entitySlug": "independence-monument-and-park"
+      - "entityType": "attraction"
+        "entitySlug": "turkmen-carpet-museum"
+      - "entityType": "attraction"
+        "entitySlug": "national-museum-of-turkmenistan"
+      - "entityType": "attraction"
+        "entitySlug": "neutrality-monument"
+      - "entityType": "city"
+        "entitySlug": "nisa"
+      - "entityType": "attraction"
+        "entitySlug": "parthian-fortresses-of-nisa"
+      - "entityType": "attraction"
+        "entitySlug": "old-nisa-mithradatkert"
+    "aside":
+      "eyebrow":
+        "en": "Start here"
+        "ru": "Где начать"
+        "uz": "Qayerdan boshlash"
+      "title":
+        "en": "Ashgabat before Nisa"
+        "ru": "Ашхабад перед Нисой"
+        "uz": "Ashgabatdan keyin Nisa"
+      "description":
+        "en": "Ashgabat keeps arrival, museum context, and city scale clear before the road turns toward Parthian earthworks."
+        "ru": "Ашхабад делает прибытие, музейный контекст и масштаб столицы понятными до дороги к парфянским стенам."
+        "uz": "Ashgabatda kelish, muzey konteksti va poytaxt miqyosi tushunarli boʻladi; keyin yoʻl Parfiya devorlariga buriladi."
+      "items":
+        - "title":
+            "en": "Ashgabat's city scale first"
+            "ru": "Сначала масштаб Ашхабада"
+            "uz": "Avval Ashgabat miqyosi"
+          "description":
+            "en": "Avenues, parks, monuments, and open space help the traveler feel how the capital presents itself before the visit moves indoors or toward the foothills."
+            "ru": "Проспекты, парки, монументы и открытое пространство помогают почувствовать, как столица показывает себя до музеев или дороги к предгорьям."
+            "uz": "Xiyobonlar, parklar, monumentlar va ochiq makon poytaxt oʻzini qanday koʻrsatishini muzeylar yoki togʻoldi yoʻlidan oldin his qildiradi."
+          "badge":
+            "en": "Capital start"
+            "ru": "Столичный старт"
+            "uz": "Poytaxt boshlanishi"
+        - "title":
+            "en": "One museum or carpet stop changes the scale"
+            "ru": "Один музейный или ковровый акцент меняет масштаб"
+            "uz": "Bitta muzey yoki gilam toʻxtashi miqyosni oʻzgartiradi"
+          "description":
+            "en": "The State Museum and Carpet Museum bring objects, pattern, and craft hands into a city that can otherwise feel monumental from a distance."
+            "ru": "Государственный музей и Музей ковра добавляют к городу предметы, орнамент и руки мастеров, чтобы он не оставался только монументальным снаружи."
+            "uz": "Davlat muzeyi va Gilam muzeyi shaharga buyumlar, naqsh va usta qoʻllarini olib kiradi; shunda Ashgabat faqat uzoqdan monumental koʻrinmaydi."
+          "badge":
+            "en": "Culture stop"
+            "ru": "Культурная остановка"
+            "uz": "Madaniy toʻxtash"
+        - "title":
+            "en": "Nisa needs its own pace"
+            "ru": "Нисе нужен собственный темп"
+            "uz": "Nisa oʻz surʼatini soʻraydi"
+          "description":
+            "en": "Nisa is close to Ashgabat, but it needs cooler hours, a calm walk, and guide time to connect Old and New Nisa without rushing the earthworks."
+            "ru": "Ниса близка к Ашхабаду, но ей нужны более прохладные часы, спокойная прогулка и время гида, чтобы связать Старую и Новую Нису без спешки."
+            "uz": "Nisa Ashgabatga yaqin, lekin unga salqinroq soatlar, sokin yurish va Eski hamda Yangi Nisani shoshirmay bogʻlaydigan gid vaqti kerak."
+          "badge":
+            "en": "Parthian road"
+            "ru": "Парфянская дорога"
+            "uz": "Parfiya yoʻli"
+        - "title":
+            "en": "Extra Ahal stops stay selective"
+            "ru": "Дополнительные остановки по Ахалу остаются выборочными"
+            "uz": "Qoʻshimcha Ahal joylari tanlab qoʻshiladi"
+          "description":
+            "en": "Gokdepe, Kow-Ata, Arkadag, and Anau can widen the route later, but each one needs current access, timing, and purpose before it belongs in a public journey."
+            "ru": "Гёкдепе, Ков-Ата, Аркадаг и Анау могут расширить маршрут позже, но каждому месту нужны актуальные доступ, время и понятная причина для публичной поездки."
+            "uz": "Goʻkdepe, Kov-Ata, Arkadag va Anau keyinroq yoʻlni kengaytirishi mumkin, lekin har biri uchun joriy kirish, vaqt va aniq maqsad kerak."
+          "badge":
+            "en": "Later choices"
+            "ru": "Следующие выборы"
+            "uz": "Keyingi tanlovlar"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region character"
+      "ru": "Характер региона"
+      "uz": "Hudud ruhi"
+    "title":
+      "en": "A capital start that reaches Parthian foothills"
+      "ru": "Столичное начало, которое выходит к парфянским предгорьям"
+      "uz": "Parfiya togʻoldilariga chiqadigan poytaxt boshlanishi"
+    "description":
+      "en": "Together, Ashgabat and Nisa answer the first two questions in Turkmenistan: how the modern capital presents itself, and how quickly the story moves toward older empires, trade routes, and fortified foothill landscapes.
+
+
+        «Ashgabat brings the first scale; Nisa makes the same region older, quieter, and more archaeological.»"
+      "ru": "Вместе Ашхабад и Ниса отвечают на первые вопросы о Туркменистане: как выглядит современная столица и как быстро маршрут уходит к более древним империям, торговым дорогам и укреплённым предгорьям.
+
+
+        «Ашхабад задаёт первый масштаб; Ниса делает тот же регион древнее, тише и археологичнее.»"
+      "uz": "Ashgabat va Nisa birga Turkmanistondagi ilk savollarga javob beradi: zamonaviy poytaxt oʻzini qanday koʻrsatadi va yoʻl qanchalik tez qadimiy imperiyalar, savdo yoʻllari va mustahkamlangan togʻoldi manzaralariga oʻtadi.
+
+
+        «Ashgabat miqyosi kunni ochadi; Nisa esa uni qadimiyroq, sokinroq va arxeologikroq qiladi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region areas"
+      "ru": "Территории региона"
+      "uz": "Hududdagi joylar"
+    "title":
+      "en": "Where the route begins"
+      "ru": "Где начинается маршрут"
+      "uz": "Yoʻl qayerdan boshlanadi"
+    "description":
+      "en": "Ashgabat and Nisa are the current public pair: the capital for arrival, museums, and orientation; Nisa for the Parthian outing near the foothills. Gokdepe, Kow-Ata, Arkadag, and Anau remain wider Ahal context until reviewed."
+      "ru": "Ашхабад и Ниса — текущая публичная пара: столица для прибытия, музеев и ориентации; Ниса для парфянского выезда у предгорий. Гёкдепе, Ков-Ата, Аркадаг и Анау остаются контекстом широкого Ахала, пока по ним не завершены проверки."
+      "uz": "Ashgabat va Nisa hozirgi ommaviy juftlik: poytaxt kelish, muzeylar va moʻljal uchun; Nisa esa togʻoldidagi Parfiya chiqishi uchun. Goʻkdepe, Kov-Ata, Arkadag va Anau tekshiruvlar tugamaguncha kengroq Ahal konteksti boʻlib qoladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ashgabat"
+          "ru": "Ашхабад"
+          "uz": "Ashgabat"
+        "description":
+          "en": "Ashgabat first shows Turkmenistan through formal scale, then brings it closer. White-marble avenues and ceremonial parks set the capital's public face; the State Museum, carpet galleries, and the road toward Nisa bring the visit back to objects, craft, and older history."
+          "ru": "Ашхабад сначала показывает Туркменистан с официальной стороны, а потом становится ближе. Беломраморные проспекты и церемониальные парки задают образ столицы; Государственный музей, ковровые галереи и дорога к Нисе возвращают маршрут к предметам, ремеслу и более древней истории."
+          "uz": "Ashgabat Turkmanistonni avval rasmiy ko‘rsatadi, keyin yaqinlashtiradi. Oq marmar xiyobonlar va marosim parklar poytaxt qiyofasini beradi; Davlat muzeyi, gilam galereyalari va Nisa yoʻli esa yoʻnalishni buyumlar, hunar va qadimiyroq tarixga qaytaradi."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Nisa"
+          "ru": "Ниса"
+          "uz": "Nisa"
+        "description":
+          "en": "Nisa sits just outside Ashgabat, but it changes the age of the journey. The white capital falls behind, the ground opens into low Parthian walls, and Old and New Nisa begin the older story that leads toward Mary, Merv, and the desert."
+          "ru": "Ниса находится совсем рядом с Ашхабадом, но меняет возраст поездки. Белая столица остаётся позади, земля раскрывается низкими парфянскими стенами, и Старая с Новой Нисой начинают более древнюю линию пути к Мары, Мерву или пустыне."
+          "uz": "Nisa Ashgabatga juda yaqin, lekin sayohatning vaqt miqyosini o‘zgartiradi. Oq poytaxt ortda qoladi, yer past Parfiya devorlariga ochiladi, Eski va Yangi Nisa esa Mary, Marv yoki sahro tomon ketadigan qadimiyroq hikoyani boshlaydi."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/nisa"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrish"
+    "title":
+      "en": "First anchors in Ashgabat and Nisa"
+      "ru": "Первые опоры Ашхабада и Нисы"
+      "uz": "Ashgabat va Nisaning birinchi tayanchlari"
+    "description":
+      "en": "The current anchors pair Ashgabat's monuments and museum rooms with Nisa's Parthian earthworks. Together they keep the opening route both civic and archaeological."
+      "ru": "Текущие опоры соединяют монументы и музейные залы Ашхабада с парфянскими стенами Нисы. Так начало маршрута остаётся и столичным, и археологическим."
+      "uz": "Hozirgi tayanchlar Ashgabat monumentlari va muzey xonalarini Nisaning Parfiya devorlari bilan yonma-yon qoʻyadi. Shu sababli boshlanish ham poytaxtga, ham arxeologiyaga tegadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Old Nisa / Mithradatkert"
+          "ru": "Старая Ниса / Митридаткерт"
+          "uz": "Eski Nisa / Mitridatkert"
+        "description":
+          "en": "At Old Nisa / Mithradatkert, the Nisa outing becomes physical. Low wall lines cross open ground, the sky stays wide, and the Parthian story moves from museum context into a place you walk carefully."
+          "ru": "В Старой Нисе / Митридаткерте выезд в Нису становится ощутимым. Низкие линии стен проходят по открытому грунту, небо остаётся широким, а парфянская история из музейного контекста переходит в место, по которому вы идёте осторожно."
+          "uz": "Eski Nisa / Mitridatkertda Nisa chiqishi jismoniy seziladi. Past devor chiziqlari ochiq zamin boʻylab ketadi, osmon keng qoladi, Parfiya tarixi esa muzeydagi izohdan ehtiyotkor yuriladigan joyga koʻchadi."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/nisa/old-nisa-mithradatkert"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Parthian Fortresses of Nisa"
+          "ru": "Парфянские крепости Нисы"
+          "uz": "Nisaning Parfiya qalʼalari"
+        "description":
+          "en": "Nisa is a quiet archaeological stop just outside Ashgabat: two low tells, open sky, and earthen walls that once belonged to an early Parthian capital. The visit is strongest when Old and New Nisa are seen together, with museum time and the foothill setting helping the fragments m"
+          "ru": "Ниса — тихая археологическая остановка рядом с Ашхабадом: два низких холма, открытое небо и земляные стены ранней парфянской столицы. Посещение сильнее, когда Старая и Новая Ниса воспринимаются вместе, а музейное время и предгорный ландшафт помогают собрать фрагменты в понятную и"
+          "uz": "Nisa Ashgabat yaqinidagi sokin arxeologik toʻxtash joyi: ikki past tepalik, ochiq osmon va erta Parfiya poytaxtidan qolgan yer devorlari. Tashrif Eski va Yangi Nisa birga koʻrilganda kuchliroq bo‘ladi; muzey vaqti va togʻoldi manzarasi parchalarning maʼnosini ochadi."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/nisa/parthian-fortresses-of-nisa"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "New Nisa"
+          "ru": "Новая Ниса"
+          "uz": "Yangi Nisa"
+        "description":
+          "en": "New Nisa is the quieter companion to Old Nisa inside the UNESCO-listed Parthian Fortresses of Nisa. Old Nisa gives the visit its fortress image; New Nisa widens the view toward settlement ground, open distance, and the Kopet-Dag edge. Come expecting a contextual archaeological st"
+          "ru": "Новая Ниса — более тихая пара Старой Нисы внутри объекта ЮНЕСКО «Парфянские крепости Нисы». Старая Ниса даёт визиту крепостной образ; Новая Ниса расширяет взгляд к поселению, открытому пространству и краю Копетдага. Сюда стоит ехать не за силуэтом монумента, а за археологическим "
+          "uz": "Yangi Nisa YUNESKO roʻyxatidagi Parfiya qalʼalari ichida Eski Nisa bilan sokinroq juftlik hosil qiladi. Eski Nisa tashrifga qalʼa obrazini beradi; Yangi Nisa esa manzilgoh hududi, ochiq masofa va Kopetdogʻ etaklari tomon qarashni kengaytiradi. Bu yerga ulkan monument siluetini em"
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/nisa/new-nisa"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Neutrality Monument"
+          "ru": "Монумент Нейтралитета"
+          "uz": "Betaraflik monumenti"
+        "description":
+          "en": "Neutrality Monument rises from Ashgabat's southern ceremonial landscape as a 95-meter white-marble structure on three pylons. The form recalls a Turkmen tagan, the hearth stand, while viewing levels and the golden figure make the stop a quick lesson in how the capital uses height"
+          "ru": "Монумент Нейтралитета поднимается в южной церемониальной части Ашхабада как 95-метровое беломраморное сооружение на трёх пилонах. Его форма напоминает туркменский таган, очажную подставку; видовые уровни и золотая фигура превращают остановку в короткое объяснение того, как столиц"
+          "uz": "Betaraflik monumenti Ashgabatning janubiy tantanali hududida uch pilon ustidagi 95 metrlik oq marmar inshoot sifatida ko‘tariladi. Uning shakli turkman o‘choq taganini eslatadi; tomosha maydonchalari va oltin figura bu toʻxtashni poytaxt balandlik, marmar va ochiq maydonlar orqal"
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat/neutrality-monument"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "National Museum of Turkmenistan"
+          "ru": "Национальный музей Туркменистана"
+          "uz": "Turkmaniston Milliy muzeyi"
+        "description":
+          "en": "After Ashgabat's monument parks, the National Museum changes the scale. Ancient History, Margush, Parthia, medieval routes, carpet halls, and state symbols give the capital an interior thread before the journey turns toward Nisa, Merv, or the desert road."
+          "ru": "После монументальных парков Ашхабада Национальный музей меняет масштаб. Залы древней истории, Маргуша, Парфии, средневековых городов, ковров и государственных символов дают столице внутреннюю нить перед дорогой к Нисе, Мерву или пустыне."
+          "uz": "Ashgabatning monument parklaridan keyin Milliy muzey miqyosni o‘zgartiradi. Qadimiy tarix, Margush, Parfiya, o‘rta asr yo‘llari, gilam zallari va davlat ramzlari poytaxtga ichki mazmun beradi; keyin yo‘l Nisa, Merv yoki sahro tomonga davom etadi."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat/national-museum-of-turkmenistan"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Turkmen Carpet Museum"
+          "ru": "Музей туркменского ковра"
+          "uz": "Turkman gilami muzeyi"
+        "description":
+          "en": "After Ashgabat's white marble, monument parks, and national museum halls, the Turkmen Carpet Museum brings the route down to wool, knot, motif, and the hands behind them. Its halls are tied to a craft tradition recognized by UNESCO and to a national museum collection of about 2,0"
+          "ru": "После белого мрамора Ашхабада, монументальных парков и залов Национального музея Музей туркменского ковра приближает маршрут к шерсти, узлу, орнаменту и рукам, которые стоят за ними. Его залы связаны с ремеслом, признанным ЮНЕСКО, и с музейным собранием примерно из 2 000 редких к"
+          "uz": "Ashgabatning oq marmari, monument bog‘lari va Milliy muzey zallaridan keyin Turkman gilami muzeyi yo‘lni jun, tugun, naqsh va ularning ortidagi qo‘llarga yaqinlashtiradi. Uning zallari UNESCO tan olgan hunar anʼanasi va taxminan 2 000 nodir gilam eksponati saqlanadigan muzey to‘p"
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat/turkmen-carpet-museum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Independence Monument and Park"
+          "ru": "Монумент Независимости и парк"
+          "uz": "Mustaqillik monumenti va parki"
+        "description":
+          "en": "Independence Monument and Park makes Ashgabat's civic scale physical: a broad park approach, fountains and statues, and a 118-meter column crowned with a gilded crescent and five stars. The lower form recalls a Turkmen yurt; if the Museum of Independence is open, the stop can mov"
+          "ru": "Монумент Независимости и парк делают масштаб Ашхабада физически ощутимым: широкий подход через парк, фонтаны и статуи, 118-метровая колонна с позолоченным полумесяцем и пятью звёздами. Нижняя форма монумента отсылает к туркменской юрте; если Музей Независимости открыт, остановка "
+          "uz": "Mustaqillik monumenti va parki Ashgabat miqyosini jismonan sezdiradi: park bo‘ylab keng yaqinlashuv, favvoralar va haykallar, ustida zarhal yarim oy va besh yulduz turgan 118 metrlik ustun. Pastki shakl turkman o‘tovini eslatadi; Mustaqillik muzeyi ochiq bo‘lsa, tashqi ramzlar si"
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat/independence-monument-and-park"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region in detail"
+      "ru": "Регион в деталях"
+      "uz": "Hudud batafsil"
+    "title":
+      "en": "Practical questions about Ashgabat & Nisa"
+      "ru": "Практические вопросы о регионе Ашхабад и Ниса"
+      "uz": "Ashgabat va Nisa hududi bo‘yicha amaliy savollar"
+    "description":
+      "en": "Pace, season, and how this region connects to the next stop."
+      "ru": "Темп, сезон и как регион стыкуется со следующей остановкой."
+      "uz": "Sur’at, mavsum va hududning keyingi bekat bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many days does Ashgabat & Nisa need in a programme?"
+          "ru": "Сколько дней нужно региону Ашхабад и Ниса в программе?"
+          "uz": "Ashgabat va Nisa hududi dasturda necha kun olishi kerak?"
+        "description":
+          "en": "3–5 days usually works if you keep one strong core and treat outer stops as deliberate choices. The region brief is “Marble avenues, Parthian earthworks, and Ahal foothills”."
+          "ru": "Обычно хватает 3–5 дней, если держать одно сильное ядро, а внешние остановки выбирать осознанно. Кратко о регионе: «Мраморные проспекты, парфянские стены и предгорья Ахала»."
+          "uz": "Odatda 3–5 kun yetadi — bitta kuchli yadro va tashqi bekatlarni ongli tanlov qiling. Hudud brifi: «Marmar xiyobonlar, Parfiya devorlari va Ahal togʻoldilari»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "What should come before and after Ashgabat & Nisa?"
+          "ru": "Что ставить до и после региона Ашхабад и Ниса?"
+          "uz": "Ashgabat va Nisadan oldin va keyin nima qo‘yish kerak?"
+        "description":
+          "en": "Use neighbouring cities as clean handovers: arrive with a calm first night, leave after one completed chapter, and avoid stacking two long transfers on the same day."
+          "ru": "Соседние города держите как чистые стыки: приезжайте со спокойной первой ночью, уезжайте после завершённой главы и не ставьте два длинных переезда в один день."
+          "uz": "Qo‘shni shaharlarni toza ulanish sifatida tuting: sokin birinchi tun bilan keling, yakunlangan bobdan keyin chiqing va bir kunga ikkita uzun ko‘chishni qo‘ymang."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "What season logic matters most in Ashgabat & Nisa?"
+          "ru": "Какая сезонная логика важнее всего в Ашхабад и Ниса?"
+          "uz": "Ashgabat va Nisada qaysi mavsum mantig‘i eng muhim?"
+        "description":
+          "en": "Heat, altitude, road condition, and opening hours change the product more than the brochure list. Build the region around what stays comfortable for the group that week."
+          "ru": "Жара, высота, состояние дорог и часы работы меняют продукт сильнее списка из брошюры. Собирайте регион вокруг того, что комфортно именно этой группе в эту неделю."
+          "uz": "Issiqlik, balandlik, yo‘l holati va ish soatlari broshyura ro‘yxatidan kuchliroq mahsulotni o‘zgartiradi. Hududni shu hafta guruh uchun qulay narsaga qurib chiqing."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Ashgabat & Nisa stop into your Turkmenistan programme"
+      "ru": "Встройте остановку «Ашхабад и Ниса» в программу (Туркменистан)"
+      "uz": "Ashgabat va Nisa bekatini Turkmaniston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right extensions — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать нужные расширения — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va kerakli kengaytmalarni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Ashgabat & Nisa | TourLink"
+    "ru": "Ашхабад и Ниса | TourLink"
+    "uz": "Ashgabat va Nisa | TourLink"
+  "metaDescription":
+    "en": "Ashgabat & Nisa opens Turkmenistan at city scale and archaeological scale. The capital brings marble avenues, formal parks, museum rooms, and carpet motifs. Nisa changes the pace near the Kopet-Dag foothills, where low earthen walls and open sky pull the first Turkmenistan route back into the Parthian world."
+    "ru": "Ашхабад и Ниса открывают Туркменистан в двух масштабах. Столица задаёт прибытие: мраморные проспекты, официальные парки, музейные залы и ковровые мотивы. Ниса меняет темп у предгорий Копетдага: низкие глинобитные стены и открытое небо возвращают маршрут к парфянскому миру."
+    "uz": "Ashgabat va Nisa Turkmanistonni ikki miqyosda ochadi. Poytaxt avval kelish hissini beradi: marmar xiyobonlar, rasmiy parklar, muzey xonalari va gilam naqshlari. Nisa esa Kopetdogʻ togʻoldilarida surʼatni pasaytiradi: past loy devorlar va ochiq osmon yoʻlni Parfiya dunyosiga qaytaradi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "turkmenistan"
+"mapCenter":
+  "latitude": 37.9378322
+  "longitude": 58.2359467

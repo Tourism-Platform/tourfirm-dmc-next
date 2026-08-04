@@ -4,16 +4,22 @@ import { CardRender } from "@/shared/ui/cards/ui/card-render";
 import { CustomSectionHeader } from "../../custom-section-header";
 import type { TCardsSectionProps } from "../model/types/custom-cards-section.types";
 
+import { ContentRows } from "./content-rows";
+
 export function CardsSection({
 	eyebrow,
 	title,
 	description,
 	cards,
+	rows,
 	gridClassName,
 	actions,
 	emptyLabel
 }: TCardsSectionProps) {
 	const hasHeader = eyebrow || title || description || actions;
+	const hasRows = Boolean(rows?.length);
+	const hasCards = cards.length > 0;
+
 	return (
 		<section className="flex flex-col gap-6 sm:gap-8">
 			{hasHeader && (
@@ -24,7 +30,9 @@ export function CardsSection({
 					actions={actions}
 				/>
 			)}
-			{cards.length ? (
+			{hasRows ? (
+				<ContentRows rows={rows!} />
+			) : hasCards ? (
 				<div
 					className={cn(
 						"grid grid-cols-1 gap-4",

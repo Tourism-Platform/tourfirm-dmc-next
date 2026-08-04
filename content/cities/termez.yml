@@ -1,0 +1,681 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "termez"
+  "ru": "termez"
+  "uz": "termez"
+"title":
+  "en": "Termez"
+  "ru": "Термез"
+  "uz": "Termiz"
+"subtitle":
+  "en": "Ancient Termiz, Buddhist sites, and the Amu Darya edge"
+  "ru": "Древний Термез, буддийские памятники и Амударья"
+  "uz": "Qadimgi Termiz, buddaviy yodgorliklar va Amudaryo"
+"excerpt":
+  "en": "Termez changes the pace of an Uzbekistan journey. Here the route moves from classic city monuments to Ancient Termiz, Buddhist monastery sites, the archaeology museum, shrine courtyards, and the Amu Darya edge. It feels strongest when the first stop gives context before you go out to the open sites."
+  "ru": "Термез меняет темп путешествия по Узбекистану. Здесь маршрут уходит от классических городских памятников к Древнему Термезу, буддийским монастырским местам, археологическому музею, дворам святынь и Амударье. Сильнее всего город раскрывается, когда сначала появляется музейный контекст, а затем открытые площадки за городом."
+  "uz": "Termiz O‘zbekiston bo‘ylab sayohat surʼatini o‘zgartiradi. Bu yerda yo‘nalish klassik shahar yodgorliklaridan Qadimgi Termiz, buddaviy monastir joylari, arxeologiya muzeyi, ziyorat hovlilari va Amudaryoga tomon o‘tadi. Avval muzey konteksti paydo bo‘lib, keyin shahar tashqarisidagi ochiq joylarga chiqilganda Termiz kuchliroq ochiladi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/surkhandarya/cities/termez.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/surkhandarya/cities/termez.webp"
+    "imageAlt":
+      "en": "Termez"
+      "ru": "Термез"
+      "uz": "Termiz"
+    "title":
+      "en": "Termez"
+      "ru": "Термез"
+      "uz": "Termiz"
+    "description":
+      "en": "Ancient Termiz, Buddhist sites, and the Amu Darya edge"
+      "ru": "Древний Термез, буддийские памятники и Амударья"
+      "uz": "Qadimgi Termiz, buddaviy yodgorliklar va Amudaryo"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Termez"
+      "ru": "Термез"
+      "uz": "Termiz"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Termez changes the pace of an Uzbekistan journey."
+              "ru": "Термез меняет темп путешествия по Узбекистану."
+              "uz": "Termiz O‘zbekiston bo‘ylab sayohat surʼatini o‘zgartiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Termez is not a one-square city. The modern center helps you start, but the main route spreads toward Ancient Termiz, Buddhist sites, shrine courtyards, and Boysun if the southern route continues."
+              "ru": "Термез — не город одной площади. Современный центр помогает начать, но главный маршрут расходится к Древнему Термезу, буддийским местам, дворам святынь и дороге к Байсуну, если южная часть продолжается."
+              "uz": "Termiz bitta maydon bilan tugamaydigan shahar. Zamonaviy markaz boshlashga yordam beradi, lekin asosiy yo‘nalish Qadimgi Termiz, buddaviy joylar, ziyorat hovlilari va janubiy safar davom etsa Boysun tomonga tarqaladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The archaeology museum, Old Termez, Fayaz Tepa, Zurmala, Sultan Saodat, and the Amu Darya edge make more sense when the route begins with what each place is and why it sits outside the modern center."
+              "ru": "Археологический музей, Старый Термез, Фаязтепа, Зурмала, Султан-Саодат и Амударья становятся понятнее, когда перед выездом ясно, что именно вы видите и почему эти места лежат за современным центром."
+              "uz": "Arxeologiya muzeyi, Eski Termiz, Fayoztepa, Zurmala, Sulton Saodat va Amudaryo yaqinidagi joylar avval ularning nima ekanini va nima uchun zamonaviy markazdan tashqarida joylashganini bilsangiz aniqroq ko‘rinadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Termez as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Термез как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Termiz o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "Start with the museum, then go out to the sites"
+      "ru": "Сначала музей, затем площадки за городом"
+      "uz": "Avval muzey, keyin shahar tashqarisidagi joylar"
+    "description":
+      "en": "Termez is not a one-square city. The modern center helps you start, but the main route spreads toward Ancient Termiz, Buddhist sites, shrine courtyards, and Boysun if the southern route continues."
+      "ru": "Термез — не город одной площади. Современный центр помогает начать, но главный маршрут расходится к Древнему Термезу, буддийским местам, дворам святынь и дороге к Байсуну, если южная часть продолжается."
+      "uz": "Termiz bitta maydon bilan tugamaydigan shahar. Zamonaviy markaz boshlashga yordam beradi, lekin asosiy yo‘nalish Qadimgi Termiz, buddaviy joylar, ziyorat hovlilari va janubiy safar davom etsa Boysun tomonga tarqaladi."
+    "mapPanel":
+      "eyebrow":
+        "en": "City anchors"
+        "ru": "Опорные точки"
+        "uz": "Shahar tayanchlari"
+      "title":
+        "en": "Termez and Ancient Termiz"
+        "ru": "Термез и Древний Термез"
+        "uz": "Termiz va Qadimgi Termiz"
+      "description":
+        "en": "The map keeps the modern city, the archaeology museum, Ancient Termiz, and the onward road visible together, so the southern route does not become a set of isolated stops."
+        "ru": "Карта держит вместе современный город, археологический музей, Древний Термез и дальнейшую дорогу, чтобы южный маршрут не распался на отдельные остановки."
+        "uz": "Xarita zamonaviy shahar, arxeologiya muzeyi, Qadimgi Termiz va davom yo‘lini birga ko‘rsatadi, shunda janubiy yo‘nalish alohida to‘xtashlarga bo‘linib ketmaydi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 37.722123
+      "longitude": 67.241576
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "al-hakim-at-termezi-mausoleum"
+      - "entityType": "attraction"
+        "entitySlug": "fayaz-tepa"
+      - "entityType": "attraction"
+        "entitySlug": "kirk-kiz"
+      - "entityType": "attraction"
+        "entitySlug": "old-termez-ancient-termiz"
+      - "entityType": "attraction"
+        "entitySlug": "sultan-saodat-complex"
+      - "entityType": "attraction"
+        "entitySlug": "termez-archaeological-museum"
+      - "entityType": "attraction"
+        "entitySlug": "zurmala-stupa"
+    "aside":
+      "eyebrow":
+        "en": "How to approach it"
+        "ru": "Как смотреть"
+        "uz": "Qanday ko‘rish"
+      "title":
+        "en": "Understand the sites before the road widens"
+        "ru": "Сначала понять места, затем расширять маршрут"
+        "uz": "Yo‘l kengayishidan oldin joylarni tushunish"
+      "description":
+        "en": "The archaeology museum, Old Termez, Fayaz Tepa, Zurmala, Sultan Saodat, and the Amu Darya edge make more sense when the route begins with what each place is and why it sits outside the modern center."
+        "ru": "Археологический музей, Старый Термез, Фаязтепа, Зурмала, Султан-Саодат и Амударья становятся понятнее, когда перед выездом ясно, что именно вы видите и почему эти места лежат за современным центром."
+        "uz": "Arxeologiya muzeyi, Eski Termiz, Fayoztepa, Zurmala, Sulton Saodat va Amudaryo yaqinidagi joylar avval ularning nima ekanini va nima uchun zamonaviy markazdan tashqarida joylashganini bilsangiz aniqroq ko‘rinadi."
+      "items":
+        - "title":
+            "en": "Start with the museum"
+            "ru": "Начните с музея"
+            "uz": "Muzeydan boshlang"
+          "description":
+            "en": "The archaeology museum helps place Kushan, Buddhist, and Islamic material before the route moves to Old Termez and the open-air sites."
+            "ru": "Археологический музей помогает увидеть кушанский, буддийский и исламский материал до Старого Термеза и открытых площадок."
+            "uz": "Arxeologiya muzeyi Kushon, buddaviy va islomiy materialni Eski Termiz hamda ochiq joylarga chiqishdan oldin tushunishga yordam beradi."
+          "badge":
+            "en": "First stop"
+            "ru": "Первая остановка"
+            "uz": "Ilk bekat"
+        - "title":
+            "en": "Open ground needs context"
+            "ru": "Открытые места требуют внимания"
+            "uz": "Ochiq joylarga eʼtibor kerak"
+          "description":
+            "en": "Fayaz Tepa, Kara Tepa, and Zurmala are not postcard monuments. Low walls, clay, stupa traces, and fragments become clearer when you know what you are looking at."
+            "ru": "Фаязтепа, Каратепа и Зурмала не похожи на открытку. Низкие стены, глина, следы ступы и фрагменты становятся понятнее, когда вы понимаете, на что смотреть."
+            "uz": "Fayoztepa, Qoratepa va Zurmala otkritka yodgorliklariga o‘xshamaydi. Past devorlar, loy, stupa izlari va bo‘laklar nimaga qarayotganingizni bilsangiz aniqroq bo‘ladi."
+          "badge":
+            "en": "Open sites"
+            "ru": "Открытые площадки"
+            "uz": "Ochiq joylar"
+        - "title":
+            "en": "Add the shrine courtyards"
+            "ru": "Добавьте дворы святынь"
+            "uz": "Ziyorat hovlilarini qo‘shing"
+          "description":
+            "en": "Sultan Saodat and Hakim at-Termizi bring the route from exposed archaeological ground to brick courtyards, prayer spaces, and people remembered in Termez."
+            "ru": "Султан-Саодат и Хаким ат-Термизи переводят маршрут от открытой археологии к кирпичным дворам, молитвенным пространствам и памяти людей, связанных с Термезом."
+            "uz": "Sulton Saodat va Hakim at-Termiziy yo‘nalishni ochiq arxeologiyadan g‘isht hovlilar, ibodat makonlari va Termizda eslanadigan insonlar xotirasiga olib kiradi."
+          "badge":
+            "en": "Shrine courtyards"
+            "ru": "Дворы святынь"
+            "uz": "Ziyorat hovlilari"
+        - "title":
+            "en": "Boysun is a separate continuation"
+            "ru": "Байсун — отдельное продолжение"
+            "uz": "Boysun alohida davom"
+          "description":
+            "en": "Boysun belongs when the route can leave Termez for ridges, village roads, music, and a cooler mountain setting, not as a rushed add-on."
+            "ru": "Байсун уместен, когда маршрут может выйти из Термеза к хребтам, дорогам селений, музыке и более прохладной горной среде, а не как спешная добавка."
+            "uz": "Boysun Termizdan tizmalar, qishloq yo‘llari, musiqa va salqinroq tog‘ muhitiga chiqadigan yo‘nalishga mos; uni shoshilinch qo‘shimcha bekatga aylantirmaslik kerak."
+          "badge":
+            "en": "Onward route"
+            "ru": "Продолжение"
+            "uz": "Davom yo‘li"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Main places around Termez"
+      "ru": "Главные места вокруг Термеза"
+      "uz": "Termiz atrofidagi asosiy joylar"
+    "description":
+      "en": "Start with the places that explain Termez from the ground up: Ancient Termiz, museum rooms, Buddhist remains, clay ruins, and shrine courtyards outside the modern center."
+      "ru": "Начните с мест, которые объясняют Термез на местности: Древний Термез, музейные залы, буддийские памятники, глиняные руины и дворы святынь за современным центром."
+      "uz": "Termizni joyning o‘zida tushuntiradigan bekatlardan boshlang: Qadimgi Termiz, muzey zallari, buddaviy yodgorliklar, loy xarobalar va zamonaviy markazdan tashqaridagi ziyorat hovlilari."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/surkhandarya/cities/termez/attractions/old-termez-ancient-termiz.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Ancient Termiz"
+          "ru": "Древний Термез"
+          "uz": "Qadimgi Termiz"
+        "description":
+          "en": "Ancient Termiz gives the Termez route its older scale. West of the modern city, citadel traces, Buddhist sites, stupa remains, shrine routes, and the Amu Darya edge connect the museum, Fayaz Tepa, Zurmala, and later memorials into one southern landscape."
+          "ru": "Древний Термез возвращает маршруту по Термезу древний масштаб. К западу от современного города следы цитадели, буддийские места, остатки ступ, дороги к святыням и Амударья связывают музей, Фаязтепу, Зурмалу и поздние мемориалы в один южный ландшафт."
+          "uz": "Qadimgi Termiz Termiz yo‘nalishiga qadimiy miqyos beradi. Zamonaviy shahar g‘arbida qalʼa izlari, buddaviy joylar, stupa qoldiqlari, ziyorat yo‘llari va Amudaryo muzey, Fayoztepa, Zurmala hamda keyingi memoriallarni bitta janubiy manzaraga bog‘laydi."
+        "ctaHref": "/destinations/uzbekistan/surkhandarya/termez/old-termez-ancient-termiz"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/surkhandarya/cities/termez/attractions/termez-archaeological-museum.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Termez Archaeological Museum"
+          "ru": "Археологический музей Термеза"
+          "uz": "Termiz arxeologiya muzeyi"
+        "description":
+          "en": "Start here when the Termez route needs context before the open sites. The museum connects Buddhist fragments, Kushan-era material, ceramics, stone objects, and maps with the places outside the city, from Fayaz Tepa to Zurmala and Ancient Termiz."
+          "ru": "Начинайте здесь, если маршруту по Термезу нужен контекст перед открытыми площадками. Музей связывает буддийские фрагменты, материалы кушанского времени, керамику, каменные предметы и карты с местами за городом — от Фаязтепы до Зурмалы и Древнего Термеза."
+          "uz": "Ochiq maydonlarga chiqishdan oldin Termiz yo‘nalishiga kontekst kerak bo‘lsa, shu yerdan boshlash qulay. Muzey buddaviy topilmalar, Kushon davri materiallari, sopol, tosh buyumlar va xaritalarni shahar tashqarisidagi joylar — Fayoztepa, Zurmala va Qadimgi Termiz bilan bog‘laydi."
+        "ctaHref": "/destinations/uzbekistan/surkhandarya/termez/termez-archaeological-museum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/surkhandarya/cities/termez/attractions/fayaz-tepa.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Fayaz Tepa"
+          "ru": "Фаязтепа"
+          "uz": "Fayoztepa"
+        "description":
+          "en": "Fayaz Tepa gives Termez a different kind of scale: not a portal or skyline, but a Buddhist monastery site on open ground near Old Termez. Low walls, stupa remains, and museum context help the southern route turn from monuments to archaeology."
+          "ru": "Фаязтепа даёт Термезу другой масштаб: здесь нет портала или силуэта на горизонте, зато есть буддийский монастырский комплекс на открытой земле у Старого Термеза. Низкие стены, следы ступы и музейный контекст разворачивают южный маршрут от памятников к археологии."
+          "uz": "Fayoztepa Termizga boshqacha miqyos beradi: bu portal yoki ufqdagi siluet emas, Eski Termiz yonidagi ochiq maydonda turgan buddaviy monastir majmuasi. Past devorlar, stupa izlari va muzey konteksti janubiy yo‘nalishni yodgorliklardan arxeologiyaga buradi."
+        "ctaHref": "/destinations/uzbekistan/surkhandarya/termez/fayaz-tepa"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/surkhandarya/cities/termez/attractions/zurmala-stupa.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Zurmala Stupa"
+          "ru": "Ступа Зурмала"
+          "uz": "Zurmala stupasi"
+        "description":
+          "en": "Zurmala gives Termez's Buddhist past one clear surviving form: a rounded brick stupa near the Ancient Termiz archaeological area. It is easier to understand after the museum and beside Fayaz Tepa, when finds, monastery walls, and the stupa support the same story."
+          "ru": "Зурмала даёт буддийскому прошлому Термеза ясную сохранившуюся форму: округлую кирпичную ступу рядом с археологическим районом Древнего Термеза. Её проще понять после музея и рядом с Фаязтепой, когда находки, монастырские стены и ступа читаются вместе."
+          "uz": "Zurmala Termizning buddaviy o‘tmishiga aniq saqlanib qolgan shakl beradi: Qadimgi Termiz arxeologik hududi yonidagi yumaloq g‘isht stupa. Uni muzeydan keyin va Fayoztepa bilan birga tushunish osonroq; topilmalar, monastir devorlari va stupa bir mavzuni davom ettiradi."
+        "ctaHref": "/destinations/uzbekistan/surkhandarya/termez/zurmala-stupa"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/surkhandarya/cities/termez/attractions/kirk-kiz.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Kirk Kiz Fortress"
+          "ru": "Кырк-Кыз"
+          "uz": "Qirq Qiz"
+        "description":
+          "en": "Kirk Kiz brings the Termez route to a square clay ruin near the city: walls, corner forms, corridors, and a \"forty girls\" legend that should be heard as legend, not as settled history."
+          "ru": "Кырк-Кыз выводит термезский маршрут к квадратным глиняным руинам у города: стены, угловые формы, коридоры и легенда о сорока девушках, которую стоит слышать как легенду, а не как установленный факт."
+          "uz": "Qirq Qiz Termiz yo‘nalishini shahar yaqinidagi kvadrat paxsa xarobaga olib keladi: devorlar, burchak shakllari, yo‘laklar va tarixiy fakt emas, afsona sifatida eshitiladigan qirq qiz hikoyasi."
+        "ctaHref": "/destinations/uzbekistan/surkhandarya/termez/kirk-kiz"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/surkhandarya/cities/termez/attractions/sultan-saodat-complex.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Sultan Saodat Complex"
+          "ru": "Комплекс Султан-Саодат"
+          "uz": "Sulton Saodat majmuasi"
+        "description":
+          "en": "Sultan Saodat brings brick mausoleums, ayvans, and a long courtyard into the Termez route. Built around the burial places of the Termez Seyyids over several centuries, the complex adds an Islamic memorial setting after the Buddhist and Kushan sites."
+          "ru": "Султан-Саодат добавляет к маршруту по Термезу кирпичные мавзолеи, айваны и длинный двор. Комплекс формировался несколько веков вокруг захоронений термезских сейидов и показывает исламский мемориальный контекст после буддийских и кушанских мест."
+          "uz": "Sulton Saodat Termiz yo‘nalishiga g‘isht maqbaralar, ayvonlar va uzun hovlini qo‘shadi. Termiz sayyidlari dafn joylari atrofida bir necha asr davomida shakllangan majmua buddaviy va Kushon yodgorliklaridan keyin islomiy memorial kontekstni ko‘rsatadi."
+        "ctaHref": "/destinations/uzbekistan/surkhandarya/termez/sultan-saodat-complex"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/surkhandarya/cities/termez/attractions/al-hakim-at-termezi-mausoleum.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Al-Hakim at-Termizi Mausoleum"
+          "ru": "Мавзолей Аль-Хакима ат-Термизи"
+          "uz": "Al-Hakim at-Termiziy maqbarasi"
+        "description":
+          "en": "Al-Hakim at-Termizi Mausoleum adds the scholarly and pilgrimage side of Termez to the southern route. Near Ancient Termiz, the complex gathers the mausoleum, mosque, khanaqah, and the memory of the scholar remembered as Termez-ota."
+          "ru": "Мавзолей Аль-Хакима ат-Термизи добавляет к маршруту по Термезу учёную и паломническую сторону города. Рядом с Древним Термезом комплекс соединяет мавзолей, мечеть, ханаку и память о Термез-ота."
+          "uz": "Al-Hakim at-Termiziy maqbarasi Termiz yo‘nalishiga shaharning ilmiy va ziyorat tomonini qo‘shadi. Qadimgi Termiz yaqinidagi majmua maqbara, masjid, xonaqoh va Termiz-ota xotirasini birlashtiradi."
+        "ctaHref": "/destinations/uzbekistan/surkhandarya/termez/al-hakim-at-termezi-mausoleum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route moments"
+      "ru": "Моменты маршрута"
+      "uz": "Yo‘nalish lahzalari"
+    "title":
+      "en": "What stays with you in Termez"
+      "ru": "Что остаётся после Термеза"
+      "uz": "Termizdan keyin nima esda qoladi"
+    "description":
+      "en": "Termez is not only a list of monuments: museum rooms before the sites, clay walls under open sky, shrine courtyards, and the Amu Darya close to the southern edge."
+      "ru": "Термез держится не только на памятниках: музей перед выездом, глиняные стены под открытым небом, дворы святынь и близость Амударьи на южном краю маршрута."
+      "uz": "Termiz faqat yodgorliklar ro‘yxati emas: yo‘lga chiqishdan oldingi muzey, ochiq osmon ostidagi loy devorlar, ziyorat hovlilari va janubiy chetga yaqin Amudaryo."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/termez/termez-character-1.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Museum before the sites"
+          "ru": "Музей перед площадками"
+          "uz": "Avval muzey"
+        "description":
+          "en": "Museum rooms give the ruins outside Termez a first shape: Kushan material, Buddhist fragments, ceramics, and the questions to carry toward Old Termez."
+          "ru": "Музейные залы дают руинам за Термезом первую форму: кушанский материал, буддийские фрагменты, керамику и вопросы, с которыми стоит ехать к Старому Термезу."
+          "uz": "Muzey zallari Termiz tashqarisidagi xarobalarga birinchi shakl beradi: Kushon materiali, buddaviy bo‘laklar, sopol buyumlar va Eski Termizga olib boriladigan savollar."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/termez/termez-character-2.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Ancient Termiz outside the center"
+          "ru": "Древний Термез за центром"
+          "uz": "Markazdan tashqaridagi Qadimgi Termiz"
+        "description":
+          "en": "Outside the modern city, Ancient Termiz turns history into ground underfoot: low walls, citadel traces, Buddhist sites, and the wider southern landscape."
+          "ru": "За современным городом Древний Термез превращает историю в местность под ногами: низкие стены, следы цитадели, буддийские места и широкий южный ландшафт."
+          "uz": "Zamonaviy shahardan tashqarida Qadimgi Termiz tarixni oyoq ostidagi joyga aylantiradi: past devorlar, qalʼa izlari, buddaviy joylar va keng janubiy manzara."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/termez/termez-character-3.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Buddhist sites close up"
+          "ru": "Буддийские места вблизи"
+          "uz": "Buddaviy joylar yaqindan"
+        "description":
+          "en": "Fayaz Tepa, Kara Tepa, and Zurmala ask for a careful look: clay walls, stupa traces, and fragments that become clearer after the museum."
+          "ru": "Фаязтепа, Каратепа и Зурмала требуют внимательного взгляда: глиняные стены, следы ступы и фрагменты становятся понятнее после музея."
+          "uz": "Fayoztepa, Qoratepa va Zurmala diqqat bilan qarashni so‘raydi: loy devorlar, stupa izlari va muzeydan keyin aniqroq bo‘ladigan bo‘laklar."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/termez/termez-character-4.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Shrine courtyards"
+          "ru": "Дворы святынь"
+          "uz": "Ziyorat hovlilari"
+        "description":
+          "en": "Sultan Saodat and Al-Hakim at-Termezi bring the route into brick courtyards, prayer spaces, and people remembered in Termez after the open archaeological sites."
+          "ru": "Султан-Саодат и Аль-Хаким ат-Термизи переводят маршрут после открытых археологических площадок к кирпичным дворам, молитвенным пространствам и памяти людей Термеза."
+          "uz": "Sulton Saodat va Al-Hakim at-Termiziy ochiq arxeologik joylardan keyin yo‘nalishni g‘isht hovlilar, ibodat makonlari va Termizda eslanadigan insonlar xotirasiga olib kiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/termez/termez-character-5.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Kirk Kiz without easy answers"
+          "ru": "Кырк-Кыз без простых ответов"
+          "uz": "Qirq Qiz oson javoblarsiz"
+        "description":
+          "en": "Kirk Kiz adds a different ruin to the Termez route: square clay walls, uncertain stories, and the need to separate legend from what the site can actually show."
+          "ru": "Кырк-Кыз добавляет к маршруту по Термезу другой тип руин: квадратные глиняные стены, неясные версии и необходимость отделять легенду от того, что место действительно показывает."
+          "uz": "Qirq Qiz Termiz yo‘nalishiga boshqa turdagi xarobani qo‘shadi: kvadrat loy devorlar, noaniq hikoyalar va afsonani joy ko‘rsata oladigan narsadan ajratish zarurati."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/termez/termez-character-6.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Road toward Boysun"
+          "ru": "Дорога к Байсуну"
+          "uz": "Boysun tomonga yo‘l"
+        "description":
+          "en": "When the route continues, Boysun moves Surkhandarya from Termez archaeology toward ridges, village roads, music, and a cooler mountain setting."
+          "ru": "Когда маршрут продолжается, Байсун переводит Сурхандарью от археологии Термеза к хребтам, дорогам селений, музыке и более прохладной горной среде."
+          "uz": "Yo‘nalish davom etsa, Boysun Surxondaryoni Termiz arxeologiyasidan tizmalar, qishloq yo‘llari, musiqa va salqinroq tog‘ muhitiga olib chiqadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "Give Termez its own southern stop"
+      "ru": "Выделите Термез как отдельную южную остановку"
+      "uz": "Termizni alohida janubiy bekat sifatida ko‘ring"
+    "description":
+      "en": "Termez needs a calmer plan than a quick add-on after the classic cities. Start with the museum or an introductory stop, then move to Ancient Termiz, Buddhist remains, shrine courtyards, and the route toward Boysun with heat and access in mind."
+      "ru": "Термезу нужен более спокойный план, чем быстрая добавка после классических городов. Начните с музея или вводной остановки, затем переходите к Древнему Термезу, буддийским памятникам, дворам святынь и дороге к Байсуну с учётом жары и доступа."
+      "uz": "Termiz klassik shaharlardan keyingi tez qo‘shimcha emas, sokinroq reja talab qiladi. Muzey yoki kirish bekatidan boshlang, keyin Qadimgi Termiz, buddaviy joylar, ziyorat hovlilari va Boysun tomonga yo‘lni issiq va kirish imkoniyatini hisobga olib davom ettiring."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Start with context"
+              "ru": "Сначала контекст"
+              "uz": "Avval kontekst"
+            "description":
+              "en": "The archaeology museum or another introductory stop helps set the order before you leave the modern city. After that, Ancient Termiz, museum material, and the open sites do not feel like separate fragments."
+              "ru": "Археологический музей или другая вводная остановка помогают задать порядок до выезда из современного города. После этого Древний Термез, музейные материалы и открытые площадки не воспринимаются отдельными фрагментами."
+              "uz": "Arxeologiya muzeyi yoki boshqa kirish bekati zamonaviy shahardan chiqishdan oldin tartib beradi. Shundan keyin Qadimgi Termiz, muzey materiali va ochiq joylar alohida bo‘laklar kabi ko‘rinmaydi."
+          - "type": "quote"
+            "quote":
+              "en": "In Termez, the route turns from monument cities toward the older south."
+              "ru": "В Термезе маршрут уходит от городов-памятников к более древнему югу."
+              "uz": "Termizda yo‘nalish yodgorlik shaharlaridan qadimiyroq janubga buriladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Ancient Termiz and Buddhist sites"
+              "ru": "Древний Термез и буддийские места"
+              "uz": "Qadimgi Termiz va buddaviy joylar"
+            "description":
+              "en": "Old Termez, Fayaz Tepa, Kara Tepa, and Zurmala need a slower look: low walls, clay, stupa traces, and open ground make sense when you know what survived."
+              "ru": "Старый Термез, Фаязтепа, Каратепа и Зурмала требуют более внимательного взгляда: низкие стены, глина, следы ступы и открытая земля обретают смысл, когда понятно, что сохранилось."
+              "uz": "Eski Termiz, Fayoztepa, Qoratepa va Zurmala sekinroq qarashni talab qiladi: past devorlar, loy, stupa izlari va ochiq yer nima saqlanganini bilganingizda maʼno topadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Shrine courtyards"
+              "ru": "Дворы святынь"
+              "uz": "Ziyorat hovlilari"
+            "description":
+              "en": "Sultan Saodat and Hakim at-Termizi bring the route into brick courtyards, prayer spaces, and people remembered in Termez after the open archaeological sites."
+              "ru": "Султан-Саодат и Хаким ат-Термизи переводят маршрут в кирпичные дворы, молитвенные пространства и память о людях Термеза после открытых археологических площадок."
+              "uz": "Sulton Saodat va Hakim at-Termiziy yo‘nalishni ochiq arxeologik joylardan keyin g‘isht hovlilar, ibodat makonlari va Termiz insonlari xotirasiga olib kiradi."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Come when the southern route matters, not as a quick detour. Termez needs museum context, heat-aware timing, and access checks for open sites."
+              "ru": "Езжайте в Термез, когда южная часть маршрута действительно важна, а не как короткий крюк. Здесь нужны музейный контекст, учёт жары и проверка доступа к открытым площадкам."
+              "uz": "Termizga janubiy yo‘nalish muhim bo‘lganda boring, qisqa aylanma sifatida emas. Bu yerda muzey konteksti, issiqni hisobga olgan vaqt va ochiq joylarga kirishni tekshirish kerak."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before you go Where to start"
+                  "ru": "Перед поездкой Где начать"
+                  "uz": "Safardan oldin Qayerdan boshlash"
+                "description":
+                  "en": "Begin in the modern city or at the archaeology museum before continuing to Ancient Termiz and the open-air sites."
+                  "ru": "Начинайте в современном городе или в археологическом музее, прежде чем ехать к Древнему Термезу и открытым площадкам."
+                  "uz": "Qadimgi Termiz va ochiq joylarga chiqishdan oldin zamonaviy shahar yoki arxeologiya muzeyidan boshlang."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main reason to come"
+                  "ru": "Главная причина"
+                  "uz": "Asosiy sabab"
+                "description":
+                  "en": "Buddhist and Kushan-era archaeology around Ancient Termiz, with Islamic memorials adding the later city story."
+                  "ru": "Буддийская и кушанская археология вокруг Древнего Термеза; исламские мемориалы добавляют позднюю городскую историю."
+                  "uz": "Qadimgi Termiz atrofidagi buddaviy va Kushon davri arxeologiyasi; islomiy memoriallar shaharning keyingi tarixini qo‘shadi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Season and access"
+                  "ru": "Сезон и доступ"
+                  "uz": "Mavsum va kirish"
+                "description":
+                  "en": "Spring and autumn are easier for open ground; hot months need earlier site visits, water, and current access checks."
+                  "ru": "Весной и осенью открытые площадки проще; в жаркие месяцы важны более ранние выезды, вода и актуальная проверка доступа."
+                  "uz": "Bahor va kuz ochiq joylar uchun qulayroq; issiq oylarda erta tashrif, suv va dolzarb kirish tekshiruvi muhim."
+              - "icon": "Route"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Marshrut roli"
+                "description":
+                  "en": "Southern Uzbekistan extension after the classic cities, with Boysun as a separate continuation when the route includes the mountains."
+                  "ru": "Южное продолжение после классических городов; Байсун идёт отдельно, если маршрут включает горы."
+                  "uz": "Klassik shaharlardan keyingi janubiy davom; yo‘nalish tog‘larni ham olsa, Boysun alohida qo‘shiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "After Termez"
+      "ru": "После Термеза"
+      "uz": "Termizdan keyin"
+    "title":
+      "en": "Boysun after Termez"
+      "ru": "Байсун после Термеза"
+      "uz": "Termizdan keyingi Boysun"
+    "description":
+      "en": "Boysun changes Surkhandarya from archaeological city sites to ridges, red earth, village roads, music, and mountain culture. It belongs as a planned continuation, not a spare stop."
+      "ru": "Байсун меняет Сурхандарью после городских археологических мест: появляются хребты, красная земля, дороги селений, музыка и горная культура. Это планируемое продолжение, а не запасная остановка."
+      "uz": "Boysun Surxondaryoni shahar arxeologik joylaridan tizmalar, qizil yer, qishloq yo‘llari, musiqa va tog‘ madaniyatiga olib chiqadi. Bu zaxira bekat emas, oldindan rejalangan davom."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/termez-next-boysun.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Boysun"
+          "ru": "Байсун"
+          "uz": "Boysun"
+        "description":
+          "en": "After Termez, Boysun takes the southern route toward Baysuntau ridges, village courtyards, music, craft memory, and mountain roads."
+          "ru": "После Термеза Байсун уводит южный маршрут к хребтам Байсунтау, дворам селений, музыке, ремесленной памяти и горным дорогам."
+          "uz": "Termizdan keyin Boysun janubiy yo‘nalishni Boysuntov tizmalari, qishloq hovlilari, musiqa, hunar xotirasi va tog‘ yo‘llariga olib boradi."
+        "ctaHref": "/destinations/uzbekistan/surkhandarya/boysun"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Termez in the day plan"
+      "ru": "Как поставить Термез в план дня"
+      "uz": "Termizni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Termez?"
+          "ru": "Сколько времени группам стоит проводить в Термез?"
+          "uz": "Termizda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Ancient Termiz, Buddhist sites, and the Amu Darya edge”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Древний Термез, буддийские памятники и Амударья»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Qadimgi Termiz, buddaviy yodgorliklar va Amudaryo»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Termez be a walkable core or a base for day trips?"
+          "ru": "Термез — это пешеходное ядро или база для выездов?"
+          "uz": "Termiz piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Termez's centre?"
+          "ru": "Где лучше ночевать относительно центра Термез?"
+          "uz": "Termiz markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/surkhandarya/cities/termez.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Termez stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Термез» в программу (Узбекистан)"
+      "uz": "Termiz bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Termez | TourLink"
+    "ru": "Термез | TourLink"
+    "uz": "Termiz | TourLink"
+  "metaDescription":
+    "en": "Termez changes the pace of an Uzbekistan journey. Here the route moves from classic city monuments to Ancient Termiz, Buddhist monastery sites, the archaeology museum, shrine courtyards, and the Amu Darya edge. It feels strongest when the first stop gives context before you go out to the open sites."
+    "ru": "Термез меняет темп путешествия по Узбекистану. Здесь маршрут уходит от классических городских памятников к Древнему Термезу, буддийским монастырским местам, археологическому музею, дворам святынь и Амударье. Сильнее всего город раскрывается, когда сначала появляется музейный контекст, а затем открытые площадки за городом."
+    "uz": "Termiz O‘zbekiston bo‘ylab sayohat surʼatini o‘zgartiradi. Bu yerda yo‘nalish klassik shahar yodgorliklaridan Qadimgi Termiz, buddaviy monastir joylari, arxeologiya muzeyi, ziyorat hovlilari va Amudaryoga tomon o‘tadi. Avval muzey konteksti paydo bo‘lib, keyin shahar tashqarisidagi ochiq joylarga chiqilganda Termiz kuchliroq ochiladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "surkhandarya"
+"latitude": 37.2442466
+"longitude": 67.283151

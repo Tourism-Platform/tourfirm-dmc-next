@@ -1,0 +1,635 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "langar-khatirchi"
+  "ru": "langar-khatirchi"
+  "uz": "langar-khatirchi"
+"title":
+  "en": "Langar"
+  "ru": "Лангар"
+  "uz": "Langar"
+"subtitle":
+  "en": "Khatirchi mahalla, open road, and a quiet Nuratau-side pause"
+  "ru": "Хатырчинская махалля, открытая дорога и тихая пауза на стороне Нуратау"
+  "uz": "Xatirchi mahallasi, ochiq yo‘l va Nurota tomonidagi sokin pauza"
+"excerpt":
+  "en": "Langar sits on the Khatirchi side of Navoi Region's tourism-village map. It is not a landmark to rush through; it is a small mahalla stop where the route can slow into village lanes, shade, a family table, and the open country leading back toward Nurata, Chuya, Sentob, or Aydarkul."
+  "ru": "Лангар находится на хатырчинской стороне туристической карты Навоийской области. Это не достопримечательность для быстрой отметки, а небольшая махалля, где маршрут может замедлиться до сельских улиц, тени, семейного стола и открытой местности по пути к Нурате, Чуе, Сентобу или Айдаркулю."
+  "uz": "Langar Navoiy viloyati turizm qishloqlari xaritasining Xatirchi tomonida turadi. Bu shoshilib ko‘riladigan katta yodgorlik emas, balki yo‘l qishloq ko‘chalari, soya, oilaviy dasturxon va Nurota, Chuya, Sentob yoki Aydarko‘l sari ochiladigan kenglikka sekinlashishi mumkin bo‘lgan kichik mahalla bekati."
+"heroImage": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/langar-khatirchi.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/langar-khatirchi.webp"
+    "imageAlt":
+      "en": "Langar"
+      "ru": "Лангар"
+      "uz": "Langar"
+    "title":
+      "en": "Langar"
+      "ru": "Лангар"
+      "uz": "Langar"
+    "description":
+      "en": "Khatirchi mahalla, open road, and a quiet Nuratau-side pause"
+      "ru": "Хатырчинская махалля, открытая дорога и тихая пауза на стороне Нуратау"
+      "uz": "Xatirchi mahallasi, ochiq yo‘l va Nurota tomonidagi sokin pauza"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Langar"
+      "ru": "Лангар"
+      "uz": "Langar"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Langar sits on the Khatirchi side of Navoi Region's tourism-village map."
+              "ru": "Лангар находится на хатырчинской стороне туристической карты Навоийской области."
+              "uz": "Langar Navoiy viloyati turizm qishloqlari xaritasining Xatirchi tomonida turadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Begin with the mahalla and move outward: a small village pause, open-road light, Chuya and Nurata close enough to shape the next choice, and Sentob as the stronger foothill-village model."
+              "ru": "Начинайте от махалли и двигайтесь наружу: небольшая сельская пауза, открытый свет дороги, Чуя и Нурата рядом как следующие варианты, а Сентоб — как более сильная предгорная модель."
+              "uz": "Yo‘lni mahalladan tashqariga qarab ko‘ring: kichik qishloq pauzasi, ochiq yo‘l nuri, keyingi tanlovni shakllantiradigan Chuya va Nurota, hamda kuchliroq tog‘oldi qishlog‘i modeli sifatida Sentob."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Langar is useful when the Khatirchi side needs a quiet rural pause, not when the route is simply collecting names on a map."
+              "ru": "Лангар полезен, когда хатырчинской стороне нужна тихая сельская пауза, а не когда маршрут просто собирает названия на карте."
+              "uz": "Langar Xatirchi tomoniga sokin qishloq pauzasi kerak bo‘lganda foydali, yo‘l shunchaki xaritadagi nomlarni yig‘ayotganda emas."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Langar as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Лангар как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Langar o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "Langar on the Khatirchi side of the Navoi village route"
+      "ru": "Лангар на хатырчинской стороне сельского маршрута по Навои"
+      "uz": "Langar Navoiy qishloq xaritasining Xatirchi tomonida"
+    "description":
+      "en": "Begin with the mahalla and move outward: a small village pause, open-road light, Chuya and Nurata close enough to shape the next choice, and Sentob as the stronger foothill-village model."
+      "ru": "Начинайте от махалли и двигайтесь наружу: небольшая сельская пауза, открытый свет дороги, Чуя и Нурата рядом как следующие варианты, а Сентоб — как более сильная предгорная модель."
+      "uz": "Yo‘lni mahalladan tashqariga qarab ko‘ring: kichik qishloq pauzasi, ochiq yo‘l nuri, keyingi tanlovni shakllantiradigan Chuya va Nurota, hamda kuchliroq tog‘oldi qishlog‘i modeli sifatida Sentob."
+    "mapPanel":
+      "eyebrow":
+        "en": "On the map"
+        "ru": "Ориентир на карте"
+        "uz": "Xaritadagi mo‘ljal"
+      "title":
+        "en": "Langar with Chuya, Nurata, and Sentob"
+        "ru": "Лангар вместе с Чуей, Нуратой и Сентобом"
+        "uz": "Langar Chuya, Nurota va Sentob bilan"
+      "description":
+        "en": "The point keeps Langar near Chuya, Nurata, and Sentob so the mahalla stays part of the Navoi village route."
+        "ru": "Точка удерживает Лангар рядом с Чуей, Нуратой и Сентобом, чтобы махалля оставалась частью сельского маршрута по Навои."
+        "uz": "Nuqta Langarni Chuya, Nurota va Sentobga yaqin tutadi, shunda mahalla Navoiy qishloq yo‘lining bir qismi bo‘lib ko‘rinadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.504029
+      "longitude": 66.098374
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "langar-hosting-and-camp-format-setting"
+      - "entityType": "attraction"
+        "entitySlug": "langar-khatirchi-village-setting"
+      - "entityType": "attraction"
+        "entitySlug": "langar-nuratau-foothill-route-setting"
+    "aside":
+      "eyebrow":
+        "en": "Route line"
+        "ru": "Линия маршрута"
+        "uz": "Yo‘l chizig‘i"
+      "title":
+        "en": "Mahalla first, region around it"
+        "ru": "Сначала махалля, вокруг неё регион"
+        "uz": "Avval mahalla, atrofida hudud"
+      "description":
+        "en": "Langar is useful when the Khatirchi side needs a quiet rural pause, not when the route is simply collecting names on a map."
+        "ru": "Лангар полезен, когда хатырчинской стороне нужна тихая сельская пауза, а не когда маршрут просто собирает названия на карте."
+        "uz": "Langar Xatirchi tomoniga sokin qishloq pauzasi kerak bo‘lganda foydali, yo‘l shunchaki xaritadagi nomlarni yig‘ayotganda emas."
+      "items":
+        - "title":
+            "en": "Langar begins with the mahalla"
+            "ru": "Лангар начинается с махалли"
+            "uz": "Langar mahalladan boshlanadi"
+          "description":
+            "en": "The stop starts with village lanes, shade, and household scale before any outdoor option is added."
+            "ru": "Остановка начинается с сельских улиц, тени и домашнего масштаба до любого природного варианта."
+            "uz": "Bekat qishloq ko‘chalari, soya va xonadon miqyosidan boshlanadi, har qanday ochiq havo varianti keyin qo‘shiladi."
+          "badge":
+            "en": "tourism mahalla"
+            "ru": "туристическая махалля"
+            "uz": "turizm mahallasi"
+        - "title":
+            "en": "Chuya adds a fuller Navoi mahalla"
+            "ru": "Чуя добавляет более полную махаллю Навои"
+            "uz": "Chuya Navoiyning to‘liqroq mahallasini qo‘shadi"
+          "description":
+            "en": "Chuya can widen the rural chapter with crafts, food, mountain air, and a stronger household setting."
+            "ru": "Чуя расширяет сельскую главу ремёслами, едой, горным воздухом и более сильной домашней средой."
+            "uz": "Chuya hunar, ovqat, tog‘ havosi va kuchliroq xonadon muhiti bilan qishloq bobini kengaytiradi."
+          "badge":
+            "en": "nearby mahalla"
+            "ru": "соседняя махалля"
+            "uz": "yaqin mahalla"
+        - "title":
+            "en": "Nurata keeps the spring-town start close"
+            "ru": "Нурата держит рядом начало у источника"
+            "uz": "Nurota buloq boshini yaqin tutadi"
+          "description":
+            "en": "Chashma, mosque courtyards, and the fortress hill give the Khatirchi-side pause a clear onward direction."
+            "ru": "Чашма, дворы мечетей и крепостной холм дают хатырчинской паузе понятное продолжение."
+            "uz": "Chashma, masjid hovlilari va qalʼa tepaligi Xatirchi tomonidagi pauzaga tushunarli davom beradi."
+          "badge":
+            "en": "spring town"
+            "ru": "город источника"
+            "uz": "buloq shahri"
+        - "title":
+            "en": "Sentob shows the mature foothill-village model"
+            "ru": "Сентоб показывает зрелую модель предгорного села"
+            "uz": "Sentob pishgan tog‘oldi qishlog‘i modelini ko‘rsatadi"
+          "description":
+            "en": "Sentob shows how a stronger village stop can sit between the Nurata spring town, the foothills, and the Aydarkul edge."
+            "ru": "Сентоб показывает, как сильная сельская остановка держится между Нуратой, предгорьями и краем Айдаркуля."
+            "uz": "Sentob kuchli qishloq bekati Nurota, tog‘oldi va Aydarko‘l cheti orasida qanday turishini ko‘rsatadi."
+          "badge":
+            "en": "foothill village"
+            "ru": "предгорное село"
+            "uz": "tog‘oldi qishlog‘i"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Three close angles on Langar"
+      "ru": "Три стороны Лангара"
+      "uz": "Langarning uch yaqin tomoni"
+    "description":
+      "en": "Langar becomes clearer through three close anchors: the mahalla setting, the open Khatirchi-Nurata road context, and selective household or outdoor options."
+      "ru": "Лангар становится понятнее через три близкие опоры: среду махалли, открытую дорогу Хатырчи-Нурата и выборочные домашние или природные варианты."
+      "uz": "Langar uch yaqin tayanch orqali ravshanlashadi: mahalla muhiti, ochiq Xatirchi-Nurota yo‘li va tanlab olinadigan xonadon yoki ochiq havo variantlari."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Langar Village and Mahalla Setting"
+          "ru": "Сельская среда и махалля Лангара"
+          "uz": "Langar qishloq va mahalla muhiti"
+        "description":
+          "en": "Start here: Langar is not a single monument, but the scale of a Khatirchi mahalla. A short walk, shade, and a household table can make the wider Navoi route feel closer."
+          "ru": "Начните здесь: Лангар — не один памятник, а масштаб хатырчинской махалли, где короткая прогулка, тень и домашний стол приближают широкий маршрут по Навои."
+          "uz": "Shu yerdan boshlang: Langar bitta yodgorlik emas, Xatirchi mahallasi miqyosi. Qisqa yurish, soya va xonadon dasturxoni Navoiy yo‘lini yaqinroq qiladi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/langar-khatirchi/langar-khatirchi-village-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Langar Khatirchi-Nurata Road Setting"
+          "ru": "Дорога Хатырчи-Нурата у Лангара"
+          "uz": "Langar Xatirchi-Nurota yo‘l muhiti"
+        "description":
+          "en": "This is not a fixed trail or a named viewpoint. It is the road logic around Langar: the Khatirchi side, the Nurata direction, and the decision to let a small village pause belong between better-known Navoi stops."
+          "ru": "Это не фиксированная тропа и не отдельная смотровая точка. Это дорожная логика вокруг Лангара: хатырчинская сторона, направление к Нурате и решение дать небольшой сельской паузе место между более известными остановками Навои."
+          "uz": "Bu qatʼiy piyoda yo‘l yoki alohida tomosha nuqtasi emas. Bu Langar atrofidagi yo‘l mantiqi: Xatirchi tomoni, Nurota yo‘nalishi va kichik qishloq pauzasi Navoiydagi mashhurroq bekatlar orasida o‘rin olishi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/langar-khatirchi/langar-nuratau-foothill-route-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Langar Household Table and Outdoor Options"
+          "ru": "Домашний стол и варианты отдыха в Лангаре"
+          "uz": "Langarda xonadon dasturxoni va ochiq havo variantlari"
+        "description":
+          "en": "This side of Langar should stay modest. A simple table can make the mahalla personal, while camping, rest, and capsule-house ideas belong only as carefully chosen additions, not as the reason the village exists in the route."
+          "ru": "Эта сторона Лангара должна оставаться скромной. Простой стол делает махаллю личной, а кемпинг, отдых и капсульные домики уместны только как аккуратные дополнения, а не как причина существования села в маршруте."
+          "uz": "Langarning bu tomoni kamtar qolishi kerak. Sodda dasturxon mahallani shaxsiy qiladi, kemping, dam olish va kapsula uylar esa qishloq yo‘lda nima uchun borligining sababi emas, ehtiyotkor tanlangan qo‘shimcha bo‘lib qoladi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/langar-khatirchi/langar-hosting-and-camp-format-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Village moments"
+      "ru": "Сельские моменты"
+      "uz": "Qishloq lahzalari"
+    "title":
+      "en": "How Langar can feel in the route"
+      "ru": "Как Лангар ощущается в маршруте"
+      "uz": "Langar yo‘lda qanday seziladi"
+    "description":
+      "en": "The strongest Langar moments are modest: arriving by road, walking softly, sitting at a simple table, pausing in open light, choosing an outdoor option carefully, and continuing toward the Nurata-side villages."
+      "ru": "Самые сильные моменты Лангара скромны: приезд по дороге, мягкая прогулка, простой стол, пауза в открытом свете, осторожный выбор варианта отдыха и продолжение к сёлам нуратинской стороны."
+      "uz": "Langarning eng kuchli lahzalari oddiy: yo‘l bilan kelish, yumshoq yurish, sodda dasturxon, ochiq nurdagi pauza, dam olish variantini ehtiyotkor tanlash va Nurota tomoni qishloqlariga davom."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Arrival by the Khatirchi road"
+          "ru": "Приезд по дороге Хатырчи"
+          "uz": "Xatirchi yo‘li bilan kelish"
+        "description":
+          "en": "Let the first minutes explain the scale: a small mahalla, open road, shade, and the next turn toward Nurata-side villages."
+          "ru": "Пусть первые минуты объяснят масштаб: небольшая махалля, открытая дорога, тень и следующий поворот к сёлам нуратинской стороны."
+          "uz": "Birinchi daqiqalar miqyosni tushuntirsin: kichik mahalla, ochiq yo‘l, soya va Nurota tomoni qishloqlariga keyingi burilish."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Mahalla walk"
+          "ru": "Прогулка по махалле"
+          "uz": "Mahalla yurishi"
+        "description":
+          "en": "Keep the walk close to village life: lanes, public edges, a quiet pace, and space for daily routines to continue."
+          "ru": "Держите прогулку рядом с сельской жизнью: улицы, открытые края, спокойный темп и пространство для повседневности."
+          "uz": "Yurish qishloq hayotiga yaqin qolsin: ko‘chalar, ochiq chetlar, sokin sur’at va kundalik hayot davom etadigan joy."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Tea and a simple table"
+          "ru": "Чай и простой стол"
+          "uz": "Choy va sodda dasturxon"
+        "description":
+          "en": "Tea, bread, or a small household table can give Langar its human center when the welcome is naturally part of the route."
+          "ru": "Чай, лепёшка или небольшой домашний стол дают Лангару человеческий центр, когда приём естественно входит в маршрут."
+          "uz": "Choy, non yoki kichik xonadon dasturxoni qabul yo‘lga tabiiy mos kelganda Langarga insoniy markaz beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Open-country light pause"
+          "ru": "Пауза в открытом свете"
+          "uz": "Ochiq hudud nuridagi pauza"
+        "description":
+          "en": "Open land and softer light can turn Langar from a road point into a pause before Nurata, Chuya, Sentob, or Aydarkul."
+          "ru": "Открытая местность и мягкий свет превращают Лангар из точки на дороге в паузу перед Нуратой, Чуей, Сентобом или Айдаркулем."
+          "uz": "Ochiq hudud va yumshoq nur Langarni yo‘l nuqtasidan Nurota, Chuya, Sentob yoki Aydarko‘l oldidagi pauzaga aylantiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Outdoor options kept selective"
+          "ru": "Выборочные варианты отдыха"
+          "uz": "Tanlab olinadigan ochiq havo variantlari"
+        "description":
+          "en": "Camping, rest, or capsule-house ideas should support the village pause only when a specific place feels clean, comfortable, and right for the route."
+          "ru": "Кемпинг, отдых или капсульные домики должны поддерживать сельскую паузу только тогда, когда место чистое, комфортное и подходит маршруту."
+          "uz": "Kemping, dam olish yoki kapsula uy g‘oyalari aniq joy toza, qulay va yo‘lga mos bo‘lgandagina qishloq pauzasini qo‘llasin."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Onward to Nurata-side villages"
+          "ru": "Дальше к сёлам нуратинской стороны"
+          "uz": "Nurota tomoni qishloqlariga davom"
+        "description":
+          "en": "Langar can be a modest hinge between Khatirchi and Nurata-side villages, not a stop that has to carry the whole journey."
+          "ru": "Лангар может быть скромным переходом между Хатырчи и сёлами нуратинской стороны, а не остановкой, которая несёт весь маршрут."
+          "uz": "Langarni Xatirchi bilan Nurota tomoni qishloqlari orasidagi kamtar o‘tish sifatida oling, butun yo‘lni ko‘taradigan bekat sifatida emas."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "Let the stop stay small"
+      "ru": "Оставьте остановку небольшой"
+      "uz": "Bekat kichik qolsin"
+    "description":
+      "en": "Langar is valuable because it does not need to become a resort stop. It gives the Khatirchi side a modest village pause while Nurata, Aydarkul, Sentob, and Chuya remain the wider frame."
+      "ru": "Лангар ценен не потому, что должен стать курортной остановкой. Он даёт хатырчинской стороне скромную сельскую паузу, пока Нурата, Айдаркуль, Сентоб и Чуя остаются широкой рамкой маршрута."
+      "uz": "Langar kurort bekatiga aylanishi shart emasligi bilan qadrli. U Xatirchi tomoniga sokin qishloq pauzasini beradi, Nurota, Aydarko‘l, Sentob va Chuya esa kengroq yo‘l ramkasi bo‘lib qoladi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Start with village scale"
+              "ru": "Начинайте с сельского масштаба"
+              "uz": "Qishloq miqyosidan boshlang"
+            "description":
+              "en": "Langar should begin with what is close: lanes, shade, everyday rhythm, and a simple welcome if it belongs naturally in the route."
+              "ru": "Лангар должен начинаться с близкого: улицы, тень, повседневный ритм и простой приём, если он естественно входит в маршрут."
+              "uz": "Langar yaqin narsadan boshlansin: ko‘cha, soya, kundalik sur’at va yo‘lga tabiiy mos kelsa sodda qabul."
+          - "type": "quote"
+            "quote":
+              "en": "Langar is strongest when the route listens to the mahalla before asking the stop to do too much."
+              "ru": "Лангар сильнее всего, когда маршрут слушает махаллю, прежде чем требовать от остановки слишком многого."
+              "uz": "Langar yo‘l mahallani eshitib, bekatdan ortiqcha narsa talab qilmaganda kuchliroq."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep outdoor choices modest"
+              "ru": "Держите отдых скромным"
+              "uz": "Dam olishni kamtar tuting"
+            "description":
+              "en": "Camping, rest, or capsule-house options can support the visit only when they feel specific, comfortable, and connected to the mahalla rather than pasted onto it."
+              "ru": "Кемпинг, отдых или капсульные домики могут поддержать визит только тогда, когда выглядят конкретно, комфортно и связаны с махаллей, а не приклеены к ней."
+              "uz": "Kemping, dam olish yoki kapsula uylar faqat aniq, qulay va mahalla bilan bog‘langan bo‘lsa, tashrifni qo‘llab turadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Let Langar be a pause, not a detour"
+              "ru": "Оставьте Лангар паузой, а не объездом"
+              "uz": "Langar aylanma emas, pauza bo‘lsin"
+            "description":
+              "en": "Let Langar soften the Khatirchi side of the road, then continue toward Nurata, Chuya, Sentob, Aydarkul, or the wider Kyzylkum edge."
+              "ru": "Лангар смягчает хатырчинскую сторону дороги, а затем маршрут продолжается к Нурате, Чуе, Сентобу, Айдаркулю или широкому краю Кызылкума."
+              "uz": "Langar Xatirchi tomonidagi yo‘lni yumshatsin, keyin safar Nurota, Chuya, Sentob, Aydarko‘l yoki Qizilqum cheti tomon davom etsin."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchilar uchun"
+            "description":
+              "en": "Choose Langar when the Navoi route needs a quiet village-scale pause, not another heavy attraction."
+              "ru": "Выбирайте Лангар, когда маршруту по Навои нужна тихая сельская пауза, а не ещё одна тяжёлая достопримечательность."
+              "uz": "Navoiy yo‘liga yana bir og‘ir diqqatga sazovor joy emas, sokin qishloq miqyosidagi pauza kerak bo‘lsa, Langarni tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before you go Status"
+                  "ru": "Перед поездкой Статус"
+                  "uz": "Safardan oldin Maqom"
+                "description":
+                  "en": "Langar is listed as a tourism mahalla in Khatirchi District, Navoi Region."
+                  "ru": "Лангар указан как туристическая махалля Хатырчинского района Навоийской области."
+                  "uz": "Langar Navoiy viloyati Xatirchi tumanidagi turizm mahallasi sifatida ko‘rsatilgan."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Visit shape"
+                  "ru": "Как выглядит визит"
+                  "uz": "Tashrif shakli"
+                "description":
+                  "en": "A small mahalla pause with village lanes, shade, a household table, and a respectful walking rhythm."
+                  "ru": "Небольшая пауза в махалле: сельские улицы, тень, семейный стол и уважительный пеший ритм."
+                  "uz": "Qishloq ko‘chalari, soya, xonadon dasturxoni va hurmatli piyoda sur’atiga yaqin kichik mahalla pauzasi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Outdoor choices"
+                  "ru": "Варианты отдыха"
+                  "uz": "Ochiq havo tanlovi"
+                "description":
+                  "en": "Camping, rest, and capsule-house ideas should remain occasional additions, not the main reason to stop."
+                  "ru": "Кемпинг, отдых и капсульные домики должны оставаться выборочными дополнениями, а не главным поводом для остановки."
+                  "uz": "Kemping, dam olish va kapsula uy g‘oyalari asosiy sabab emas, vaqti-vaqti bilan qo‘shiladigan variant bo‘lib qolsin."
+              - "icon": "Route"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Yo‘ldagi roli"
+                "description":
+                  "en": "Useful when the Khatirchi side needs a calm rural pause before Nurata, Sentob, Chuya, or Aydarkul."
+                  "ru": "Полезен, когда хатырчинской стороне нужна спокойная сельская пауза перед Нуратой, Сентобом, Чуей или Айдаркулем."
+                  "uz": "Xatirchi tomoniga Nurota, Sentob, Chuya yoki Aydarko‘ldan oldin sokin qishloq pauzasi kerak bo‘lganda foydali."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby route stops"
+      "ru": "Ближайшие остановки"
+      "uz": "Yaqin bekatlar"
+    "title":
+      "en": "Nurata, Sentob, and Chuya around Langar"
+      "ru": "Нурата, Сентоб и Чуя вокруг Лангара"
+      "uz": "Langar atrofida Nurota, Sentob va Chuya"
+    "description":
+      "en": "Nurata gives the spring-town start, Sentob shows a stronger foothill-village model, and Chuya adds another Navoi mahalla when the route can carry a wider rural chapter."
+      "ru": "Нурата даёт начало у источника, Сентоб показывает более сильную модель предгорного села, а Чуя добавляет ещё одну махаллю Навои, когда маршрут выдерживает более широкую сельскую главу."
+      "uz": "Nurota buloq boshini beradi, Sentob kuchliroq tog‘oldi qishlog‘i modelini ko‘rsatadi, Chuya esa yo‘l kengroq qishloq bobini ko‘tara olsa yana bir Navoiy mahallasini qo‘shadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/langar-khatirchi-next-nurata.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Nurata"
+          "ru": "Нурата"
+          "uz": "Nurota"
+        "description":
+          "en": "Nurata is the spring town before the Kyzylkum road: Chashma water, mosque shade, Nur Fortress above town, and the onward road to Aydarkul or Sentyab."
+          "ru": "Нурата — город источника перед дорогой в Кызылкум: вода Чашмы, тень мечети, крепость Нур над городом и продолжение к Айдаркулю или Сентобу."
+          "uz": "Nurota Qizilqum yo‘lidan oldingi buloq shahri: Chashma suvi, masjid soyasi, shahar ustidagi Nur qalʼasi va Aydarko‘l yoki Sentobga davom etadigan yo‘l."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/nurata"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/langar-khatirchi-next-sentyab.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Sentob"
+          "ru": "Сентоб"
+          "uz": "Sentob"
+        "description":
+          "en": "Sentob slows the Nurata-Aydarkul road at village scale: stone walls, shaded courtyards, garden produce, and Nuratau foothill views."
+          "ru": "Сентоб замедляет дорогу Нурата-Айдаркуль в сельском масштабе: каменные стены, тенистые дворы, садовые продукты и виды предгорий Нуратау."
+          "uz": "Sentob Nurota-Aydarko‘l yo‘lini qishloq miqyosida sekinlashtiradi: tosh devorlar, soyali hovlilar, bog‘ mahsuloti va Nurota tog‘oldi manzaralari."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/sentyab"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Chuya"
+          "ru": "Чуя"
+          "uz": "Chuya"
+        "description":
+          "en": "Chuya is a Nurata District tourism mahalla where foothill air, craft hands, qurut, bread, and carefully chosen ways to stay longer add a human stop near Nurata."
+          "ru": "Чуя — туристическая махалля Нуратинского района, где воздух предгорий, руки мастеров, курут, лепёшка и аккуратно выбранные варианты ночёвки добавляют маршруту живую сельскую остановку."
+          "uz": "Chuya Nurota tumanidagi turizm mahallasi; tog‘oldi havosi, usta qo‘llari, qurut, non va ehtiyotkor tanlangan tunash g‘oyalari Nurota yaqinida jonli qishloq bekatini qo‘shadi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/chuya"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Langar in the day plan"
+      "ru": "Как поставить Лангар в план дня"
+      "uz": "Langarni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Langar?"
+          "ru": "Сколько времени группам стоит проводить в Лангар?"
+          "uz": "Langarda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Khatirchi mahalla, open road, and a quiet Nuratau-side pause”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Хатырчинская махалля, открытая дорога и тихая пауза на стороне Нуратау»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Xatirchi mahallasi, ochiq yo‘l va Nurota tomonidagi sokin pauza»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Langar be a walkable core or a base for day trips?"
+          "ru": "Лангар — это пешеходное ядро или база для выездов?"
+          "uz": "Langar piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Langar's centre?"
+          "ru": "Где лучше ночевать относительно центра Лангар?"
+          "uz": "Langar markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/langar-khatirchi.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Langar stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Лангар» в программу (Узбекистан)"
+      "uz": "Langar bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Langar | TourLink"
+    "ru": "Лангар | TourLink"
+    "uz": "Langar | TourLink"
+  "metaDescription":
+    "en": "Langar sits on the Khatirchi side of Navoi Region's tourism-village map. It is not a landmark to rush through; it is a small mahalla stop where the route can slow into village lanes, shade, a family table, and the open country leading back toward Nurata, Chuya, Sentob, or Aydarkul."
+    "ru": "Лангар находится на хатырчинской стороне туристической карты Навоийской области. Это не достопримечательность для быстрой отметки, а небольшая махалля, где маршрут может замедлиться до сельских улиц, тени, семейного стола и открытой местности по пути к Нурате, Чуе, Сентобу или Айдаркулю."
+    "uz": "Langar Navoiy viloyati turizm qishloqlari xaritasining Xatirchi tomonida turadi. Bu shoshilib ko‘riladigan katta yodgorlik emas, balki yo‘l qishloq ko‘chalari, soya, oilaviy dasturxon va Nurota, Chuya, Sentob yoki Aydarko‘l sari ochiladigan kenglikka sekinlashishi mumkin bo‘lgan kichik mahalla bekati."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "nurata-aydarkul-and-kyzylkum"
+"latitude": 40.3945729
+"longitude": 65.9836291

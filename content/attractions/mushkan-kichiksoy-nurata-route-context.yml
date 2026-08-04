@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "mushkan-kichiksoy-nurata-route-context"
+  "ru": "mushkan-kichiksoy-nurata-route-context"
+  "uz": "mushkan-kichiksoy-nurata-route-context"
+"title":
+  "en": "Mushkan, Kichiksoy, and the Nurota route"
+  "ru": "Мушкан, Кичиксой и нуратинский маршрут"
+  "uz": "Mushkan, Kichiksoy va Nurota yo‘li"
+"subtitle":
+  "en": "Nearby villages, Nurata, and the next move"
+  "ru": "Соседние сёла, Нурата и следующий ход"
+  "uz": "Yaqin qishloqlar, Nurota va keyingi harakat"
+"excerpt":
+  "en": "This stop is about movement around Mushkan: nearby Kichiksoy, the return toward Nurata, and the choice to add Sentob or Chuya only when the journey has enough time."
+  "ru": "Эта остановка — о движении вокруг Мушкана: соседний Кичиксой, возвращение к Нурате и решение добавлять Сентоб или Чую только тогда, когда в маршруте есть достаточно времени."
+  "uz": "Bu bekat Mushkan atrofidagi harakat haqida: yaqin Kichiksoy, Nurota tomonga qaytish va Sentob yoki Chuyani faqat safarda yetarli vaqt bo‘lganda qo‘shish."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Mushkan, Kichiksoy, and the Nurota route"
+      "ru": "Мушкан, Кичиксой и нуратинский маршрут"
+      "uz": "Mushkan, Kichiksoy va Nurota yo‘li"
+    "title":
+      "en": "Mushkan, Kichiksoy, and the Nurota route"
+      "ru": "Мушкан, Кичиксой и нуратинский маршрут"
+      "uz": "Mushkan, Kichiksoy va Nurota yo‘li"
+    "description":
+      "en": "Nearby villages, Nurata, and the next move"
+      "ru": "Соседние сёла, Нурата и следующий ход"
+      "uz": "Yaqin qishloqlar, Nurota va keyingi harakat"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Mushkan, Kichiksoy, and the Nurota route"
+      "ru": "Мушкан, Кичиксой и нуратинский маршрут"
+      "uz": "Mushkan, Kichiksoy va Nurota yo‘li"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "This stop is about movement around Mushkan: nearby Kichiksoy, the return toward Nurata, and the choice to add Sentob or Chuya only when the journey has enough time."
+              "ru": "Эта остановка — о движении вокруг Мушкана: соседний Кичиксой, возвращение к Нурате и решение добавлять Сентоб или Чую только тогда, когда в маршруте есть достаточно времени."
+              "uz": "Bu bekat Mushkan atrofidagi harakat haqida: yaqin Kichiksoy, Nurota tomonga qaytish va Sentob yoki Chuyani faqat safarda yetarli vaqt bo‘lganda qo‘shish."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Mushkan becomes more useful when the traveler sees its nearby companions: Kichiksoy, Nurata, Sentob, and Chuya."
+              "ru": "Мушкан становится полезнее, когда путешественник видит его соседей: Кичиксой, Нурату, Сентоб и Чую."
+              "uz": "Sayohatchi Mushkanning yaqin hamrohlarini — Kichiksoy, Nurota, Sentob va Chuyani ko‘rganda bekat foydaliroq bo‘ladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Nearby villages, Nurata, and the next move."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Соседние сёла, Нурата и следующий ход."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Yaqin qishloqlar, Nurota va keyingi harakat."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Mushkan, Kichiksoy, and the Nurota route as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Мушкан, Кичиксой и нуратинский маршрут как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Mushkan, Kichiksoy va Nurota yo‘li o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Mushkan, Kichiksoy, and the Nurota route sits on the route"
+      "ru": "Где Мушкан, Кичиксой и нуратинский маршрут стоит на маршруте"
+      "uz": "Mushkan, Kichiksoy va Nurota yo‘li marshrutda qayerda"
+    "description":
+      "en": "One clear point for Mushkan, Kichiksoy, and the Nurota route — Nearby villages, Nurata, and the next move."
+      "ru": "Одна понятная точка для «Мушкан, Кичиксой и нуратинский маршрут» — Соседние сёла, Нурата и следующий ход."
+      "uz": "Mushkan, Kichiksoy va Nurota yo‘li uchun bitta aniq nuqta — Yaqin qishloqlar, Nurota va keyingi harakat."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Mushkan, Kichiksoy, and the Nurota route"
+        "ru": "Мушкан, Кичиксой и нуратинский маршрут"
+        "uz": "Mushkan, Kichiksoy va Nurota yo‘li"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.5627799
+      "longitude": 65.6903621
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "mushkan-kichiksoy-nurata-route-context"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Keep the next move close"
+      "ru": "Держите следующий ход близким"
+      "uz": "Keyingi harakat yaqin qolsin"
+    "description":
+      "en": "Mushkan becomes more useful when the traveler sees its nearby companions: Kichiksoy, Nurata, Sentob, and Chuya.
+
+
+        «The best Mushkan pairing keeps nearby villages close and lets the wider route stay legible.»"
+      "ru": "Мушкан становится полезнее, когда путешественник видит его соседей: Кичиксой, Нурату, Сентоб и Чую.
+
+
+        «Лучшее сочетание для Мушкана держит соседние сёла близко и оставляет широкий маршрут понятным.»"
+      "uz": "Sayohatchi Mushkanning yaqin hamrohlarini — Kichiksoy, Nurota, Sentob va Chuyani ko‘rganda bekat foydaliroq bo‘ladi.
+
+
+        «Mushkan uchun eng yaxshi juftlik yaqin qishloqlarni yaqin tutadi va keng yo‘lni tushunarli qoldiradi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Nearby villages and the Nurota route"
+      "ru": "Соседние сёла и нуратинский маршрут"
+      "uz": "Yaqin qishloqlar va Nurota yo‘li"
+    "description":
+      "en": "The route should feel like one close village sequence."
+      "ru": "Маршрут должен ощущаться как одна близкая сельская последовательность."
+      "uz": "Yo‘l bitta yaqin qishloq ketma-ketligi kabi sezilishi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Keep each village distinct"
+      "ru": "Оставьте каждому селу свою роль"
+      "uz": "Har bir qishloq o‘z rolini saqlasin"
+    "description":
+      "en": "The nearby route is strongest when Mushkan, Kichiksoy, and Nurata each keep a clear role."
+      "ru": "Близкий маршрут сильнее всего, когда Мушкан, Кичиксой и Нурата сохраняют ясные роли."
+      "uz": "Mushkan, Kichiksoy va Nurota har biri aniq rolga ega bo‘lganda yaqin yo‘l kuchliroq seziladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qo‘shish"
+    "title":
+      "en": "What to add around the nearby route"
+      "ru": "Что добавить вокруг близкого маршрута"
+      "uz": "Yaqin yo‘l atrofida nima qo‘shish"
+    "description":
+      "en": "Add the mountain-side setting or a longer village pause when they help Mushkan stay coherent before the route continues."
+      "ru": "Добавляйте горную сельскую среду или более долгую паузу, когда они помогают Мушкану оставаться цельным перед продолжением маршрута."
+      "uz": "Yo‘l davom etishidan oldin Mushkan yaxlit qolishi uchun tog‘ tomoni muhiti yoki uzoqroq qishloq pauzasini qo‘shing."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Mushkan mountain-side village setting"
+          "ru": "Горная сельская среда Мушкана"
+          "uz": "Mushkan tog‘ tomoni qishloq muhiti"
+        "description":
+          "en": "The first reason to stop in Mushkan is the setting itself: a small mountain-side village, slower streets, and the road back toward Kichiksoy and Nurata."
+          "ru": "Первая причина остановиться в Мушкане — сама среда: небольшое горное село, тихие улицы и дорога обратно к Кичиксою и Нурате."
+          "uz": "Mushkanda to‘xtashning birinchi sababi — muhitning o‘zi: kichik tog‘ qishlog‘i, sokin ko‘chalar va Kichiksoy hamda Nurota tomonga qaytadigan yo‘l."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/mushkan/mushkan-nurata-foothill-village-setting"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Mushkan village stay and yurt-style pause"
+          "ru": "Сельская ночёвка и юрточная пауза в Мушкане"
+          "uz": "Mushkanda qishloq tunashi va o‘tov uslubidagi pauza"
+        "description":
+          "en": "A longer Mushkan stop should stay close to the village: a household table, a quiet night, and a yurt-style rural pause when the season fits."
+          "ru": "Более долгая остановка в Мушкане должна оставаться рядом с селом: домашний стол, спокойная ночь и юрточная сельская пауза, когда подходит сезон."
+          "uz": "Uzoqroq Mushkan bekati qishloqqa yaqin qolishi kerak: xonadon dasturxoni, sokin kecha va mavsum mos kelganda o‘tov uslubidagi qishloq pauzasi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/mushkan/mushkan-homestay-yurt-and-service-plan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Mushkan, Kichiksoy, and the Nurota route"
+      "ru": "Что агентства спрашивают про Мушкан, Кичиксой и нуратинский маршрут"
+      "uz": "Agentliklar Mushkan, Kichiksoy va Nurota yo‘li haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Mushkan, Kichiksoy, and the Nurota route get in the day plan?"
+          "ru": "Сколько времени закладывать на Мушкан, Кичиксой и нуратинский маршрут в плане дня?"
+          "uz": "Mushkan, Kichiksoy va Nurota yo‘li uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "45–90 minutes is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Nearby villages, Nurata, and the next move”."
+          "ru": "Для большинства групп реалистичный диапазон — 45–90 минут. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Соседние сёла, Нурата и следующий ход»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 45–90 daqiqa. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Yaqin qishloqlar, Nurota va keyingi harakat»."
+      - "type": "destinationInsight"
+        "icon": "Sunrise"
+        "title":
+          "en": "When is Mushkan, Kichiksoy, and the Nurota route strongest during the day?"
+          "ru": "В какое время дня Мушкан, Кичиксой и нуратинский маршрут раскрывается сильнее?"
+          "uz": "Mushkan, Kichiksoy va Nurota yo‘li kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer before the midday heat. That usually improves comfort, photos, and how the stop feels in the sequence around mushkan."
+          "ru": "Лучше до полуденной жары. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с mushkan."
+          "uz": "tushlik issiqligidan oldin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (mushkan atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How should Mushkan, Kichiksoy, and the Nurota route sit next to nearby stops?"
+          "ru": "Как поставить Мушкан, Кичиксой и нуратинский маршрут рядом с соседними остановками?"
+          "uz": "Mushkan, Kichiksoy va Nurota yo‘lini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Mushkan, Kichiksoy, and the Nurota route to your Uzbekistan programme"
+      "ru": "Добавьте «Мушкан, Кичиксой и нуратинский маршрут» в программу (Узбекистан)"
+      "uz": "Mushkan, Kichiksoy va Nurota yo‘lini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Mushkan, Kichiksoy, and the Nurota route | TourLink"
+    "ru": "Мушкан, Кичиксой и нуратинский маршрут | TourLink"
+    "uz": "Mushkan, Kichiksoy va Nurota yo‘li | TourLink"
+  "metaDescription":
+    "en": "This stop is about movement around Mushkan: nearby Kichiksoy, the return toward Nurata, and the choice to add Sentob or Chuya only when the journey has enough time."
+    "ru": "Эта остановка — о движении вокруг Мушкана: соседний Кичиксой, возвращение к Нурате и решение добавлять Сентоб или Чую только тогда, когда в маршруте есть достаточно времени."
+    "uz": "Bu bekat Mushkan atrofidagi harakat haqida: yaqin Kichiksoy, Nurota tomonga qaytish va Sentob yoki Chuyani faqat safarda yetarli vaqt bo‘lganda qo‘shish."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "nurata-aydarkul-and-kyzylkum"
+"city": "mushkan"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 40.5627799
+"longitude": 65.6903621

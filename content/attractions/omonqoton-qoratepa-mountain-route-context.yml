@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "omonqoton-qoratepa-mountain-route-context"
+  "ru": "omonqoton-qoratepa-mountain-route-context"
+  "uz": "omonqoton-qoratepa-mountain-route-context"
+"title":
+  "en": "Qoratepa mountain corridor"
+  "ru": "Горный коридор Коратепа"
+  "uz": "Qoratepa tog‘ yo‘lagi"
+"subtitle":
+  "en": "A wider Urgut mountain side when the road is calm"
+  "ru": "Более широкая горная сторона Ургута, когда дорога спокойна"
+  "uz": "Yo‘l sokin bo‘lsa, Urgutning kengroq tog‘ tomoni"
+"excerpt":
+  "en": "Qoratepa gives Omonqoton a wider mountain horizon, while the village stays the anchor of the route."
+  "ru": "Коратепа даёт Омонкотону более широкий горный горизонт, а село остаётся опорой маршрута."
+  "uz": "Qoratepa Omonqotonga kengroq tog‘ ufqini beradi, qishloq esa marshrut tayanchi bo‘lib qoladi."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Qoratepa mountain corridor"
+      "ru": "Горный коридор Коратепа"
+      "uz": "Qoratepa tog‘ yo‘lagi"
+    "title":
+      "en": "Qoratepa mountain corridor"
+      "ru": "Горный коридор Коратепа"
+      "uz": "Qoratepa tog‘ yo‘lagi"
+    "description":
+      "en": "A wider Urgut mountain side when the road is calm"
+      "ru": "Более широкая горная сторона Ургута, когда дорога спокойна"
+      "uz": "Yo‘l sokin bo‘lsa, Urgutning kengroq tog‘ tomoni"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Qoratepa mountain corridor"
+      "ru": "Горный коридор Коратепа"
+      "uz": "Qoratepa tog‘ yo‘lagi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Qoratepa gives Omonqoton a wider mountain horizon, while the village stays the anchor of the route."
+              "ru": "Коратепа даёт Омонкотону более широкий горный горизонт, а село остаётся опорой маршрута."
+              "uz": "Qoratepa Omonqotonga kengroq tog‘ ufqini beradi, qishloq esa marshrut tayanchi bo‘lib qoladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Qoratepa helps explain why Omonqoton can be more than a single village stop."
+              "ru": "Коратепа помогает понять, почему Омонкотон может быть не только одной сельской остановкой."
+              "uz": "Qoratepa Omonqoton nima uchun bitta qishloq bekatidan ko‘proq bo‘lishini tushuntiradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — A wider Urgut mountain side when the road is calm."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Более широкая горная сторона Ургута, когда дорога спокойна."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Yo‘l sokin bo‘lsa, Urgutning kengroq tog‘ tomoni."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Qoratepa mountain corridor as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Горный коридор Коратепа как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Qoratepa tog‘ yo‘lagi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Qoratepa mountain corridor sits on the route"
+      "ru": "Где Горный коридор Коратепа стоит на маршруте"
+      "uz": "Qoratepa tog‘ yo‘lagi marshrutda qayerda"
+    "description":
+      "en": "One clear point for Qoratepa mountain corridor — A wider Urgut mountain side when the road is calm."
+      "ru": "Одна понятная точка для «Горный коридор Коратепа» — Более широкая горная сторона Ургута, когда дорога спокойна."
+      "uz": "Qoratepa tog‘ yo‘lagi uchun bitta aniq nuqta — Yo‘l sokin bo‘lsa, Urgutning kengroq tog‘ tomoni."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Qoratepa mountain corridor"
+        "ru": "Горный коридор Коратепа"
+        "uz": "Qoratepa tog‘ yo‘lagi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.474757
+      "longitude": 69.946719
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "omonqoton-qoratepa-mountain-route-context"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "The wider mountain horizon"
+      "ru": "Более широкий горный горизонт"
+      "uz": "Kengroq tog‘ ufqi"
+    "description":
+      "en": "Qoratepa helps explain why Omonqoton can be more than a single village stop.
+
+
+        «Qoratepa widens Omonqoton when it keeps the route together.»"
+      "ru": "Коратепа помогает понять, почему Омонкотон может быть не только одной сельской остановкой.
+
+
+        «Коратепа расширяет Омонкотон, когда удерживает маршрут цельным.»"
+      "uz": "Qoratepa Omonqoton nima uchun bitta qishloq bekatidan ko‘proq bo‘lishini tushuntiradi.
+
+
+        «Qoratepa marshrutni bir butun ushlaganda Omonqotonni kengaytiradi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Corridor, road, and mountain direction"
+      "ru": "Коридор, дорога и горное направление"
+      "uz": "Yo‘lak, yo‘l va tog‘ yo‘nalishi"
+    "description":
+      "en": "The surrounding road and mountain line make Omonqoton's place clearer."
+      "ru": "Окружающая дорога и линия гор помогают понять место Омонкотона."
+      "uz": "Omonqoton qayerda joylashganini atrofdagi yo‘l va tog‘ chizig‘i orqali tushuning."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Let the corridor help, not hurry"
+      "ru": "Пусть коридор помогает, а не торопит"
+      "uz": "Yo‘lak yordam bersin, shoshiltirmasin"
+    "description":
+      "en": "The wider mountain route makes Omonqoton richer only when it stays unhurried."
+      "ru": "Широкий горный маршрут делает Омонкотон богаче только без спешки."
+      "uz": "Kengroq tog‘ marshruti Omonqotonni faqat shoshilmaganda boyitadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby Omonqoton details"
+      "ru": "Детали Омонкотона рядом"
+      "uz": "Omonqoton tafsilotlari yaqinida"
+    "title":
+      "en": "What to add around the same mountain route"
+      "ru": "Что добавить к той же горной дуге"
+      "uz": "Shu tog‘ marshrutiga nima qo‘shish"
+    "description":
+      "en": "Nearby places belong here only when they strengthen the same mountain arc."
+      "ru": "Соседние места уместны только когда они усиливают ту же горную дугу."
+      "uz": "Yaqin joylar shu tog‘ yoyini kuchaytirganda mos keladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Urgut mountain air"
+          "ru": "Ургутский горный воздух"
+          "uz": "Urgut tog‘ havosi"
+        "description":
+          "en": "On the Urgut road to Omonqoton, cooler mountain air gives the Samarkand route its first quiet pause."
+          "ru": "На ургутской дороге к Омонкотону прохладный горный воздух даёт самаркандскому дню первую спокойную паузу."
+          "uz": "Omonqoton tomon Urgut yo‘lida salqin tog‘ havosi Samarqand kuniga birinchi sokin pauzani beradi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/omonqoton/omonqoton-urgut-mountain-climate"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Spring water and family stays"
+          "ru": "Родниковая вода и семейные дома"
+          "uz": "Buloq suvi va oilaviy uylar"
+        "description":
+          "en": "Omonqoton’s spring-water side gives the village a clear center: a water pause, a family table, perhaps a simple stay, and an unhurried road."
+          "ru": "Родниковая сторона Омонкотона даёт селу ясный центр: воду, семейный стол, возможно простой ночлег и дорогу без спешки."
+          "uz": "Omonqotonning buloq tomoni qishloqqa aniq markaz beradi: suv, oilaviy dasturxon, balki sodda tunash va shoshilmagan yo‘l."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/omonqoton/omonqoton-spring-water-and-guesthouse-cluster"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Qoratepa mountain corridor"
+      "ru": "Что агентства спрашивают про Горный коридор Коратепа"
+      "uz": "Agentliklar Qoratepa tog‘ yo‘lagi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Qoratepa mountain corridor get in the day plan?"
+          "ru": "Сколько времени закладывать на Горный коридор Коратепа в плане дня?"
+          "uz": "Qoratepa tog‘ yo‘lagi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "1–2 hours is a practical range for most groups. Keep the stop readable: one clear arrival, one clear exit. Place tone: “A wider Urgut mountain side when the road is calm”."
+          "ru": "Для большинства групп реалистичный диапазон — 1–2 часа. Держите остановку читаемой: понятный вход и понятный выход. Характер места: «Более широкая горная сторона Ургута, когда дорога спокойна»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 1–2 soat. Bekatni o‘qiladigan tuting: aniq kirish va aniq chiqish. Joy ohangi: «Yo‘l sokin bo‘lsa, Urgutning kengroq tog‘ tomoni»."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "When is Qoratepa mountain corridor strongest during the day?"
+          "ru": "В какое время дня Горный коридор Коратепа раскрывается сильнее?"
+          "uz": "Qoratepa tog‘ yo‘lagi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer when the light is soft and queues are lighter. That usually improves comfort, photos, and how the stop feels in the sequence around omonqoton."
+          "ru": "Лучше когда свет мягче и очередей меньше. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с omonqoton."
+          "uz": "yorug‘lik yumshoq va navbat kamroq bo‘lganda afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (omonqoton atrofida)."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "How should Qoratepa mountain corridor sit next to nearby stops?"
+          "ru": "Как поставить Горный коридор Коратепа рядом с соседними остановками?"
+          "uz": "Qoratepa tog‘ yo‘lagini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Qoratepa mountain corridor to your Uzbekistan programme"
+      "ru": "Добавьте «Горный коридор Коратепа» в программу (Узбекистан)"
+      "uz": "Qoratepa tog‘ yo‘lagini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Qoratepa mountain corridor | TourLink"
+    "ru": "Горный коридор Коратепа | TourLink"
+    "uz": "Qoratepa tog‘ yo‘lagi | TourLink"
+  "metaDescription":
+    "en": "Qoratepa gives Omonqoton a wider mountain horizon, while the village stays the anchor of the route."
+    "ru": "Коратепа даёт Омонкотону более широкий горный горизонт, а село остаётся опорой маршрута."
+    "uz": "Qoratepa Omonqotonga kengroq tog‘ ufqini beradi, qishloq esa marshrut tayanchi bo‘lib qoladi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "samarkand-region"
+"city": "omonqoton"
+"type": "MOUNTAIN"
+"importance": "RECOMMENDED"
+"latitude": 41.474757
+"longitude": 69.946719

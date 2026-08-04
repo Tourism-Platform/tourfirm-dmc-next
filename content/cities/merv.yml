@@ -1,0 +1,646 @@
+# Generated from scrape/turkmenistan (multi-locale)
+"slug":
+  "en": "merv"
+  "ru": "merv"
+  "uz": "merv"
+"title":
+  "en": "Ancient Merv"
+  "ru": "Древний Мерв"
+  "uz": "Qadimiy Marv"
+"subtitle":
+  "en": "A Silk Roads oasis outside Mary"
+  "ru": "Оазис Шёлкового пути у Мары"
+  "uz": "Mari yaqinidagi Ipak yo‘llari vohasi"
+"excerpt":
+  "en": "Ancient Merv makes sense as you move through the oasis: the dome of Sultan Sanjar, the ridged walls of Kyz Kala, low earthworks, and desert light. Mary keeps the route practical, but the site still needs time, shade planning, and a guide who can connect the separate ruins."
+  "ru": "Древний Мерв понятен в движении по оазису: купол Султана Санджара, рифлёные стены Кыз-Калы, низкие валы и пустынный свет. Мары делает маршрут практичным, но самому Мерву всё равно нужны время, планирование жары и гид, который соединит разнесённые руины в понятный рассказ."
+  "uz": "Qadimiy Marvni voha bo‘ylab harakat qilib tushunasiz: Sulton Sanjar gumbazi, Qiz qal’aning qovurg‘ali devorlari, past tuproq izlari va cho‘l nuri. Mari yo‘lni amaliy qiladi, ammo Marvga baribir vaqt, issiqni hisobga olish va alohida xarobalarni bog‘laydigan gid kerak."
+"heroImage": "assets/images/destinations/turkmenistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "imageAlt":
+      "en": "Ancient Merv"
+      "ru": "Древний Мерв"
+      "uz": "Qadimiy Marv"
+    "title":
+      "en": "Ancient Merv"
+      "ru": "Древний Мерв"
+      "uz": "Qadimiy Marv"
+    "description":
+      "en": "A Silk Roads oasis outside Mary"
+      "ru": "Оазис Шёлкового пути у Мары"
+      "uz": "Mari yaqinidagi Ipak yo‘llari vohasi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Ancient Merv"
+      "ru": "Древний Мерв"
+      "uz": "Qadimiy Marv"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Ancient Merv makes sense as you move through the oasis: the dome of Sultan Sanjar, the ridged walls of Kyz Kala, low earthworks, and desert light."
+              "ru": "Древний Мерв понятен в движении по оазису: купол Султана Санджара, рифлёные стены Кыз-Калы, низкие валы и пустынный свет."
+              "uz": "Qadimiy Marvni voha bo‘ylab harakat qilib tushunasiz: Sulton Sanjar gumbazi, Qiz qal’aning qovurg‘ali devorlari, past tuproq izlari va cho‘l nuri."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Plan for cooler hours, vehicle transfers between ruins, and a guide who can turn the distance between stops into a story rather than a checklist."
+              "ru": "Планируйте движение между точками: прохладные часы, переезды между руинами и гид помогают превратить расстояние в рассказ, а не в список остановок."
+              "uz": "Harakatni oldindan o‘ylang: salqin soatlar, xarobalar orasida transport va gid masofani oddiy ro‘yxat emas, hikoyaga aylantiradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Begin with Mary as the practical start, then choose the park overview, Sultan Sanjar, and Kyz Kala before deciding whether deeper ruins fit the visit."
+              "ru": "Начните с Мары как практической точки выезда, затем выберите обзор парка, Султана Санджара и Кыз-Калу, прежде чем решать, войдут ли более глубокие руины в эту поездку."
+              "uz": "Marini amaliy boshlanish sifatida oling, keyin parkni umumiy ko‘rish, Sulton Sanjar va Qiz qal’ani tanlang; chuqurroq xarobalar shu tashrifga sig‘adimi, shundan keyin hal qiling."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Ancient Merv as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Древний Мерв как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Qadimiy Marv o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Move through Merv as an oasis city"
+      "ru": "Мерв как протяжённый оазисный город"
+      "uz": "Marvni yoyilgan voha shahri sifatida tushuning"
+    "description":
+      "en": "Plan for cooler hours, vehicle transfers between ruins, and a guide who can turn the distance between stops into a story rather than a checklist."
+      "ru": "Планируйте движение между точками: прохладные часы, переезды между руинами и гид помогают превратить расстояние в рассказ, а не в список остановок."
+      "uz": "Harakatni oldindan o‘ylang: salqin soatlar, xarobalar orasida transport va gid masofani oddiy ro‘yxat emas, hikoyaga aylantiradi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Archaeological area"
+        "ru": "Археологическая зона"
+        "uz": "Arxeologik hudud"
+      "title":
+        "en": "The Merv oasis outside Mary"
+        "ru": "Оазис Мерва за пределами Мары"
+        "uz": "Mari tashqarisidagi Marv vohasi"
+      "description":
+        "en": "The map is only an orientation aid; current access, allowed movement, local rules, and heat conditions should be checked before travel."
+        "ru": "Карта нужна только для ориентации; актуальный доступ, разрешённое движение, местные правила и жару нужно проверять перед выездом."
+        "uz": "Xarita faqat umumiy yo‘nalish uchun; aniq kirish, ruxsat etilgan harakat, mahalliy qoidalar va issiq sharoiti safardan oldin tekshirilishi kerak."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 37.664505
+      "longitude": 62.173054
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "ancient-merv-unesco-park"
+    "aside":
+      "eyebrow":
+        "en": "Visit sequence"
+        "ru": "Порядок посещения"
+        "uz": "Tashrif tartibi"
+      "title":
+        "en": "From Mary to the main stops"
+        "ru": "Из Мары к главным точкам"
+        "uz": "Maridan asosiy nuqtalarga"
+      "description":
+        "en": "Begin with Mary as the practical start, then choose the park overview, Sultan Sanjar, and Kyz Kala before deciding whether deeper ruins fit the visit."
+        "ru": "Начните с Мары как практической точки выезда, затем выберите обзор парка, Султана Санджара и Кыз-Калу, прежде чем решать, войдут ли более глубокие руины в эту поездку."
+        "uz": "Marini amaliy boshlanish sifatida oling, keyin parkni umumiy ko‘rish, Sulton Sanjar va Qiz qal’ani tanlang; chuqurroq xarobalar shu tashrifga sig‘adimi, shundan keyin hal qiling."
+      "items":
+        - "title":
+            "en": "Start from Mary with time for separate ruins"
+            "ru": "Начните из Мары с временем на разнесённые руины"
+            "uz": "Maridan alohida xarobalarga vaqt bilan chiqing"
+          "description":
+            "en": "Ancient Merv is close enough for a focused outing, but the stops are spread across the oasis and should not be squeezed into a quick visit."
+            "ru": "Древний Мерв достаточно близок для отдельного выезда, но точки разбросаны по оазису и не должны превращаться в быстрый заезд."
+            "uz": "Qadimiy Marv alohida chiqish uchun yaqin, lekin nuqtalar voha bo‘ylab tarqalgan va tashrif shoshilinch to‘xtashga aylanmasligi kerak."
+          "badge":
+            "en": "From Mary"
+            "ru": "Из Мары"
+            "uz": "Maridan"
+        - "title":
+            "en": "Let three stops shape the first visit"
+            "ru": "Пусть первое посещение держится на трёх ориентирах"
+            "uz": "Birinchi tashrifni uchta mo‘ljal ushlab tursin"
+          "description":
+            "en": "The UNESCO park overview, Sultan Sanjar, and Kyz Kala give a clear first reading without pretending to cover every mound and wall."
+            "ru": "Обзор парка ЮНЕСКО, Султан Санджар и Кыз-Кала дают ясное первое понимание без обещания охватить каждый вал и каждую стену."
+            "uz": "UNESCO bog‘ini umumiy ko‘rish, Sulton Sanjar va Qiz qal’a har bir tepa va devorni qamrab olishni vaʼda qilmasdan aniq birinchi tasavvur beradi."
+          "badge":
+            "en": "First stops"
+            "ru": "Первые ориентиры"
+            "uz": "Birinchi mo‘ljallar"
+        - "title":
+            "en": "Plan for cooler hours"
+            "ru": "Планируйте прохладные часы"
+            "uz": "Salqin soatlarni rejalang"
+          "description":
+            "en": "Sun, distance, and limited shade make early or later hours more comfortable and more responsible."
+            "ru": "Солнце, расстояния и ограниченная тень делают утреннее или более позднее время комфортнее и ответственнее."
+            "uz": "Quyosh, masofa va kam soya ertaroq yoki kechroq vaqtni qulayroq va masʼuliyatliroq qiladi."
+          "badge":
+            "en": "Light and heat"
+            "ru": "Свет и жара"
+            "uz": "Nur va issiq"
+        - "title":
+            "en": "Move carefully through fragile ground"
+            "ru": "Двигайтесь осторожно по хрупкой территории"
+            "uz": "Nozik hududda ehtiyotkor yuring"
+          "description":
+            "en": "Stay on allowed paths, do not climb or touch earthen walls, and let local guidance set the safe pace."
+            "ru": "Держитесь разрешённых троп, не забирайтесь на глинобитные стены и не трогайте их; безопасный темп подскажет местный гид."
+            "uz": "Ruxsat etilgan yo‘llardan chiqmang, xom g‘isht devorlarga tegmang va chiqib olmang; xavfsiz surʼatni mahalliy gid ko‘rsatadi."
+          "badge":
+            "en": "Site care"
+            "ru": "Бережное посещение"
+            "uz": "Joyni asrash"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "First stops that make Merv clear"
+      "ru": "Первые точки, с которых Мерв становится понятным"
+      "uz": "Marvni tushunarli qiladigan birinchi nuqtalar"
+    "description":
+      "en": "For a first route, keep the focus on the UNESCO park, Sultan Sanjar, and Kyz Kala. Erk Kala, Gyaur Kala, and later walls are real parts of Merv, but they belong only when access, heat, and timing allow a deeper visit."
+      "ru": "Для первого маршрута держите фокус на парке ЮНЕСКО, Султане Санджаре и Кыз-Кале. Эрк-Кала, Гяур-Кала и поздние стены — настоящие части Мерва, но они подходят только тогда, когда доступ, жара и время позволяют углубиться."
+      "uz": "Birinchi yo‘nalishda UNESCO bog‘i, Sulton Sanjar va Qiz qal’aga eʼtibor bering. Erk qal’a, Govur qal’a va keyingi devorlar Marvning haqiqiy qismlari, lekin ular kirish, issiq va vaqt chuqurroq tashrifga imkon berganda qo‘shiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Ancient Merv UNESCO Park"
+          "ru": "Археологический парк Древний Мерв"
+          "uz": "Qadimiy Marv UNESCO arxeologik parki"
+        "description":
+          "en": "Ancient Merv UNESCO Park is not a single monument. Walls, tells, Seljuk remains, and roads between ruins sit across a wide oasis landscape, so the visit feels like moving between cities that once shared the same desert edge."
+          "ru": "Археологический парк Древний Мерв — не один памятник. Стены, археологические холмы, сельджукские остатки и дороги между руинами лежат в широком оазисном ландшафте, поэтому визит ощущается как движение между городами, которые когда-то стояли на одном краю пустыни."
+          "uz": "Qadimiy Marv UNESCO arxeologik parki bitta yodgorlik emas. Devorlar, arxeologik tepaliklar, saljuqiy qoldiqlar va xarobalar orasidagi yo‘llar keng voha manzarasiga yoyilgan; shuning uchun tashrif bir vaqtlar shu cho‘l chekkasida yashagan shaharlar orasida yurishdek seziladi."
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv/merv/ancient-merv-unesco-park"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Sultan Sanjar Mausoleum"
+          "ru": "Мавзолей Султана Санджара"
+          "uz": "Sulton Sanjar maqbarasi"
+        "description":
+          "en": "In the open ground of Ancient Merv, Sultan Sanjar Mausoleum gives the Seljuk city a visible centre. Its cube-like brick body, dome, decoration traces, and open approach turn a wide archaeological park into one place you can stand, look around, and understand the scale."
+          "ru": "На открытой площадке Древнего Мерва мавзолей Султана Санджара собирает сельджукский город в один видимый центр. Кубический кирпичный объём, купол, следы декора и пространство вокруг помогают почувствовать масштаб Султан-Калы."
+          "uz": "Qadimiy Marvning ochiq hududida Sulton Sanjar maqbarasi saljuqiy shaharni ko‘rinadigan markazga jamlaydi. G‘ishtli kubsimon hajm, gumbaz, bezak izlari va atrofdagi kenglik Sulton Qal’a miqyosini his qildiradi."
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv/merv/sultan-sanjar-mausoleum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Kyz Kala / Great and Little Kyz Kala"
+          "ru": "Кыз-Кала / Большая и Малая Кыз-Кала"
+          "uz": "Qiz qal’a / Katta va Kichik Qiz qal’a"
+        "description":
+          "en": "Kyz Kala is one of the places where Ancient Merv becomes visible at a glance. Great and Little Kyz Kala stand as ribbed mudbrick forms in the open oasis, so you notice shadow, surface, and scale before the deeper site story begins."
+          "ru": "Кыз-Кала — одно из мест, где древний Мерв становится видимым с первого взгляда. Большая и Малая Кыз-Кала стоят в открытом оазисе ребристыми глинобитными объёмами, и сначала вы замечаете тень, поверхность и масштаб, а уже потом переходите к истории места."
+          "uz": "Qiz qal’a qadimiy Marvni bir qarashda tushunarli qiladigan joylardan biri. Katta va Kichik Qiz qal’a ochiq vohada taram-taram xom g‘isht devorlar bilan turadi; avval soya, devor yuzasi va miqyosni ko‘rasiz, keyin joyning tarixiy izohiga o‘tasiz."
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv/merv/kyz-kala-great-and-little-kyz-kala"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Erk Kala"
+          "ru": "Эрк-Кала"
+          "uz": "Erk qal’a"
+        "description":
+          "en": "Erk Kala brings Ancient Merv back to form, height, and perimeter. The stop is not about a finished monument; it is about reading a fortified mound, its edges, and the way Merv grew through different city areas in the Murghab oasis. It works best when the route slows down for guid"
+          "ru": "Эрк-Кала возвращает взгляд к форме, высоте и периметру древнего Мерва. Эта остановка не про законченный монумент, а про укреплённый холм, его края и то, как Мерв рос через разные городские участки в оазисе Мургаба. Лучше всего Эрк-Кала работает там, где маршрут замедляется для об"
+          "uz": "Erk qal’a qadimiy Marvni shakl, balandlik va perimetr orqali ko‘rsatadi. Bu to‘xtash tayyor monument haqida emas; u mustahkamlangan tepalik, uning chetlari va Marv Murg‘ob vohasida turli shahar hududlari orqali qanday o‘sganini tushunish haqida. Erk qal’a gid izohi uchun marom se"
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv/merv/erk-kala"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Gyaur Kala"
+          "ru": "Гяур-Кала"
+          "uz": "Gyaur qal’a"
+        "description":
+          "en": "Gyaur Kala shows Ancient Merv at city scale. The stop is about walls, distance, and traces inside a large urban area rather than a single photogenic monument. With a guide, the stop can connect Erk Kala, Sultan Kala, mosque and cistern remains, Buddhist-period traces, and the way"
+          "ru": "Гяур-Кала показывает древний Мерв в масштабе города. Здесь важны стены, расстояние и следы внутри большой городской территории, а не один эффектный памятник. С гидом эта остановка связывает Эрк-Калу, Султан-Калу, следы мечети и водоёма, буддийский период и то, как Мерв менял форм"
+          "uz": "Gyaur qal’a qadimiy Marvni shahar ko‘lamida ko‘rsatadi. Bu yerda bitta ko‘zga tashlanadigan yodgorlik emas, devorlar, masofa va katta shahar hududi ichidagi izlar muhim. Gid bilan bu to‘xtash Erk qal’a, Sulton qal’a, masjid va suv inshooti izlari, buddaviy davr hamda Marv vohada "
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv/merv/gyaur-kala"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Merv in moments"
+      "ru": "Мерв в моментах"
+      "uz": "Marv lahzalari"
+    "title":
+      "en": "Three ways the old city comes into focus"
+      "ru": "Три способа почувствовать старый город"
+      "uz": "Eski shahar uch xil tarzda ochiladi"
+    "description":
+      "en": "These cards keep the visit sensory: the wide park, the ridged Kyz Kala walls, and Sultan Sanjar standing apart in the oasis."
+      "ru": "Эти карточки удерживают посещение в конкретных ощущениях: широкий парк, рифлёные стены Кыз-Калы и Султан Санджар, стоящий отдельно в оазисе."
+      "uz": "Bu kartalar tashrifni aniq hislarda ushlab turadi: keng park, Qiz qal’aning qovurg‘ali devorlari va vohada alohida turgan Sulton Sanjar."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Ancient Merv across the oasis"
+          "ru": "Древний Мерв через пространство оазиса"
+          "uz": "Qadimiy Marv voha kengligida"
+        "description":
+          "en": "As the guide points out walls, mounds, Seljuk brick, and Kyz Kala, the distance between them becomes part of the story."
+          "ru": "Когда гид показывает стены, холмы, сельджукский кирпич и Кыз-Калу, расстояние между ними становится частью рассказа."
+          "uz": "Gid devorlar, tepaliklar, saljuqiy g‘isht va Qiz qal’ani ko‘rsatganda, ular orasidagi masofa ham hikoyaning bir qismiga aylanadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Kyz Kala walls in dry light"
+          "ru": "Стены Кыз-Калы в сухом свете"
+          "uz": "Qiz qal’a devorlari quruq nurda"
+        "description":
+          "en": "Corrugated mudbrick walls catch the sun and make Kyz Kala feel tactile, fragile, and exposed."
+          "ru": "Рифлёная глинобитная кладка ловит солнце, и Кыз-Кала ощущается хрупкой, осязаемой и открытой."
+          "uz": "Qovurg‘ali xom g‘isht devorlar quyoshda yaqqol ko‘rinadi; Qiz qal’a nozik, qo‘lga yaqin va ochiq tuyuladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Sultan Sanjar standing apart"
+          "ru": "Султан Санджар отдельно в оазисе"
+          "uz": "Voha ichida alohida turgan Sulton Sanjar"
+        "description":
+          "en": "The brick dome rises away from the other stops, giving the visit one clear Seljuk landmark before the route widens again."
+          "ru": "Кирпичный купол стоит в стороне от других точек и даёт маршруту ясный сельджукский ориентир перед тем, как пространство снова расширяется."
+          "uz": "G‘isht gumbaz boshqa nuqtalardan chetroqda ko‘rinadi va yo‘l yana kengayishidan oldin aniq saljuqiy mo‘ljal beradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "How to plan a Merv visit"
+      "ru": "Как планировать посещение Мерва"
+      "uz": "Marv tashrifini qanday rejalash"
+    "description":
+      "en": "Merv feels strongest when the visit stays selective. The goal is not to chase every ruin, but to understand the oasis city through a few well-paced stops."
+      "ru": "Мерв сильнее всего раскрывается в выборочном посещении. Цель не в том, чтобы гнаться за каждой руиной, а в том, чтобы через несколько точек почувствовать оазисный город."
+      "uz": "Marv tanlab ko‘rilganda kuchliroq ochiladi. Maqsad har bir xarobani quvish emas, bir necha yaxshi tanlangan nuqta orqali voha shahrini tushunishdir."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "A city understood through movement"
+              "ru": "Город, который понимаешь в движении"
+              "uz": "Harakat orqali tushuniladigan shahar"
+            "description":
+              "en": "Ancient Merv makes sense as you move between its parts. The space between walls, domes, and earthworks helps the old oasis city feel real."
+              "ru": "Древний Мерв складывается, когда вы движетесь между его частями. Пространство между стенами, куполами и валами помогает почувствовать старый оазисный город."
+              "uz": "Qadimiy Marv qismlari orasida yurganingizda maʼno kasb etadi. Devorlar, gumbazlar va tuproq izlari orasidagi kenglik eski voha shahrini his qilishga yordam beradi."
+          - "type": "quote"
+            "quote":
+              "en": "Merv becomes clear when the space between ruins starts to tell the story: walls, domes, heat, and a guide's explanation all matter."
+              "ru": "Мерв становится понятным, когда расстояние между руинами начинает рассказывать: стены, купола, жара и объяснение гида здесь одинаково важны."
+              "uz": "Marv xarobalar orasidagi masofa hikoya qila boshlaganda tushunarli bo‘ladi: devorlar, gumbazlar, issiq va gid izohi bu yerda birdek muhim."
+          - "type": "dashTitle"
+            "title":
+              "en": "Why a guide matters"
+              "ru": "Почему нужен гид"
+              "uz": "Nega gid kerak"
+            "description":
+              "en": "A good guide turns separate ruins into a route: oasis settlement, Seljuk power, caravan movement, and the earthen remains still visible around you."
+              "ru": "Хороший гид превращает отдельные руины в маршрут: поселения оазиса, сельджукскую власть, движение караванов и глинобитные следы, которые ещё видны вокруг."
+              "uz": "Yaxshi gid alohida xarobalarni yo‘lga aylantiradi: voha manzillari, saljuqiy qudrat, karvon harakati va atrofda hali ko‘rinib turgan xom g‘isht izlari bir-biriga ulanadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "What belongs in a deeper visit"
+              "ru": "Что оставить для более глубокого визита"
+              "uz": "Chuqurroq tashrifga qoldiriladiganlar"
+            "description":
+              "en": "Erk Kala, Gyaur Kala, later walls, and older archaeology matter, but they need access checks and time. They should not crowd the first Merv visit."
+              "ru": "Эрк-Кала, Гяур-Кала, поздние стены и более ранняя археология важны, но требуют проверки доступа и времени. Они не должны перегружать первое посещение Мерва."
+              "uz": "Erk qal’a, Govur qal’a, keyingi devorlar va qadimiyroq arxeologiya muhim, lekin ular kirish tekshiruvi va vaqt talab qiladi. Ular birinchi Marv tashrifini og‘irlashtirmasligi kerak."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Что важно запомнить"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Start from Mary, focus on the strongest stops, and plan around heat so Merv reads as an oasis city rather than a scattered set of ruins."
+              "ru": "Начните из Мары, держите фокус на самых сильных точках и планируйте время с учётом жары, чтобы Мерв воспринимался как оазисный город, а не как набор разрозненных руин."
+              "uz": "Maridan boshlang, eng kuchli nuqtalarda qoling va vaqtni issiqni hisobga olib rejalang, shunda Marv tarqoq xarobalar emas, voha shahri sifatida ochiladi."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Time needed"
+                  "ru": "Коротко Сколько времени"
+                  "uz": "Qisqacha Kerakli vaqt"
+                "description":
+                  "en": "Enough for transfer, the park overview, selected stops, and calm movement between them."
+                  "ru": "Этого достаточно для переезда, обзора парка, выбранных остановок и спокойного движения между ними."
+                  "uz": "Transfer, parkni umumiy ko‘rish, tanlangan to‘xtashlar va ular orasida xotirjam harakat uchun yetarli."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main magnet"
+                  "ru": "Главная точка"
+                  "uz": "Asosiy nuqta"
+                "description":
+                  "en": "The World Heritage landscape is the reason Merv belongs early in a Mary-based Turkmenistan route."
+                  "ru": "Ландшафт Всемирного наследия — причина, по которой Мерв рано появляется в маршруте через Мары."
+                  "uz": "Jahon merosi manzarasi Marvning Mari orqali o‘tadigan Turkmaniston yo‘lida erta paydo bo‘lish sababidir."
+              - "icon": "Sun"
+                "title":
+                  "en": "Light and heat"
+                  "ru": "Свет и жара"
+                  "uz": "Nur va issiq"
+                "description":
+                  "en": "Sun, distance, and limited shade make timing part of the visit, not a minor detail."
+                  "ru": "Солнце, расстояния и ограниченная тень делают время частью посещения, а не мелкой деталью."
+                  "uz": "Quyosh, masofa va kam soya vaqtni mayda tafsilot emas, tashrifning muhim qismiga aylantiradi."
+              - "icon": "Route"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль маршрута"
+                  "uz": "Yo‘l roli"
+                "description":
+                  "en": "Merv gives the Turkmenistan route a large-scale oasis archaeology day rather than a quick museum-style stop."
+                  "ru": "Мерв даёт маршруту по Туркменистану масштабную археологию оазиса, а не быстрый музейный формат."
+                  "uz": "Marv Turkmaniston yo‘liga tezkor muzey to‘xtashi emas, keng ko‘lamli voha arxeologiyasi kunini beradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Where to continue"
+      "ru": "Куда продолжить"
+      "uz": "Qayerga davom etish"
+    "title":
+      "en": "Where to go after Merv"
+      "ru": "Куда ехать после Мерва"
+      "uz": "Marvdan keyin qayerga borish"
+    "description":
+      "en": "Return to Mary for the city side of the visit. Ashgabat, Nisa, and Darvaza belong only in wider Turkmenistan routing when current permits, transfers, and timing support them."
+      "ru": "Мары — естественная городская точка возврата. Ашхабад, Ниса и Дарваза уместны только в более широком маршруте по Туркменистану, когда актуальны разрешения, переезды и время."
+      "uz": "Mari tashrifning tabiiy shahar tomonidir. Ashxobod, Nisa va Darvoza faqat ruxsatlar, transferlar va vaqt hozirgi holatda mos bo‘lsa, kengroq Turkmaniston yo‘liga kiradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Mary"
+          "ru": "Мары"
+          "uz": "Mari"
+        "description":
+          "en": "Mary is the city-side start for Ancient Merv, with arrival services, museum rooms, an overnight pause, and the road into the Murghab oasis."
+          "ru": "Мары — городское начало маршрута к древнему Мерву: прибытие, музейное введение, ночёвка и дорога в оазис Мургаба."
+          "uz": "Mari Qadimiy Marv yo‘nalishining shahar boshlanishi: kelish, muzey zallari, tunash va Murg‘ob vohasiga yo‘l."
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv/mary"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ashgabat"
+          "ru": "Ашхабад"
+          "uz": "Ashgabat"
+        "description":
+          "en": "Ashgabat opens Turkmenistan through white-marble avenues, monument parks, museum rooms, carpet craft, and a deliberate road choice toward Nisa."
+          "ru": "Ашхабад открывает Туркменистан беломраморными проспектами, монументальными парками, музейными залами, ковровым ремеслом и осознанным выбором дороги к Нисе."
+          "uz": "Ashgabat Turkmaniston yoʻlini oq marmar xiyobonlar, monument parklar, muzey zallari, gilam hunari va Nisa tomon ongli yoʻl tanlovi bilan ochadi."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Nisa"
+          "ru": "Ниса"
+          "uz": "Nisa"
+        "description":
+          "en": "Near Ashgabat, Nisa turns the first Turkmenistan route toward Old and New Nisa, low earthen walls, open foothill light, and Parthian history."
+          "ru": "Рядом с Ашхабадом Ниса переводит первую поездку по Туркменистану к Старой и Новой Нисе: низким земляным стенам, открытому свету предгорий и парфянской истории."
+          "uz": "Ashgabat yaqinida Nisa ilk Turkmaniston yoʻlini Eski va Yangi Nisaga, past tuproq devorlarga, ochiq togʻoldi nuriga va Parfiya tarixiga buradi."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/nisa"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Darvaza"
+          "ru": "Дарваза"
+          "uz": "Darvoza"
+        "description":
+          "en": "Darvaza is the Karakum route leg where the crater, road hours, heat, wind, and overnight plan need a fresh local check before they belong in the journey."
+          "ru": "Дарваза - участок маршрута через Каракумы, где кратер, длинная дорога, жара, ветер и ночёвка требуют свежей местной проверки перед включением в поездку."
+          "uz": "Darvoza Qoraqum marshrutidagi yoʻl qismi: krater, uzoq yoʻl, issiq, shamol va tunash rejasi safarga kirishidan oldin mahalliy tekshiruv talab qiladi."
+        "ctaHref": "/destinations/turkmenistan/karakum-and-darvaza/darvaza"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Ancient Merv in the day plan"
+      "ru": "Как поставить Древний Мерв в план дня"
+      "uz": "Qadimiy Marvni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Ancient Merv?"
+          "ru": "Сколько времени группам стоит проводить в Древний Мерв?"
+          "uz": "Qadimiy Marvda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “A Silk Roads oasis outside Mary”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Оазис Шёлкового пути у Мары»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Mari yaqinidagi Ipak yo‘llari vohasi»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Ancient Merv be a walkable core or a base for day trips?"
+          "ru": "Древний Мерв — это пешеходное ядро или база для выездов?"
+          "uz": "Qadimiy Marv piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Ancient Merv's centre?"
+          "ru": "Где лучше ночевать относительно центра Древний Мерв?"
+          "uz": "Qadimiy Marv markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Ancient Merv stop into your Turkmenistan programme"
+      "ru": "Встройте остановку «Древний Мерв» в программу (Туркменистан)"
+      "uz": "Qadimiy Marv bekatini Turkmaniston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Ancient Merv | TourLink"
+    "ru": "Древний Мерв | TourLink"
+    "uz": "Qadimiy Marv | TourLink"
+  "metaDescription":
+    "en": "Ancient Merv makes sense as you move through the oasis: the dome of Sultan Sanjar, the ridged walls of Kyz Kala, low earthworks, and desert light. Mary keeps the route practical, but the site still needs time, shade planning, and a guide who can connect the separate ruins."
+    "ru": "Древний Мерв понятен в движении по оазису: купол Султана Санджара, рифлёные стены Кыз-Калы, низкие валы и пустынный свет. Мары делает маршрут практичным, но самому Мерву всё равно нужны время, планирование жары и гид, который соединит разнесённые руины в понятный рассказ."
+    "uz": "Qadimiy Marvni voha bo‘ylab harakat qilib tushunasiz: Sulton Sanjar gumbazi, Qiz qal’aning qovurg‘ali devorlari, past tuproq izlari va cho‘l nuri. Mari yo‘lni amaliy qiladi, ammo Marvga baribir vaqt, issiqni hisobga olish va alohida xarobalarni bog‘laydigan gid kerak."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "turkmenistan"
+"region": "mary-and-ancient-merv"
+"latitude": 37.6550864
+"longitude": 62.1525555

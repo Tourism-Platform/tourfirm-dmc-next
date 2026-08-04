@@ -1,0 +1,574 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "rishtan"
+  "ru": "rishtan"
+  "uz": "rishtan"
+"title":
+  "en": "Rishtan"
+  "ru": "Риштан"
+  "uz": "Rishton"
+"subtitle":
+  "en": "Ceramic workshops and blue-green glaze in the Fergana Valley"
+  "ru": "Керамические мастерские и сине-зелёная глазурь Ферганской долины"
+  "uz": "Fargʻona vodiysidagi kulolchilik ustaxonalari va ko‘k-yashil sir"
+"excerpt":
+  "en": "Rishtan is easiest to understand when you see the work before the finished bowl: clay on the wheel, a pattern before firing, blue-green glaze, shelves of drying pieces, and the artisans who keep the local school alive."
+  "ru": "Риштан понятнее, когда сначала видна работа, а не только готовая пиала: глина на круге, узор до обжига, сине-зелёная глазурь, полки с изделиями и мастера, которые продолжают местную школу."
+  "uz": "Rishtonni tayyor piyola bilan emas, avval ish jarayoni bilan tushunish osonroq: charxdagi loy, pishirishdan oldingi naqsh, ko‘k-yashil sir, javondagi buyumlar va mahalliy maktabni davom ettirayotgan ustalar."
+"heroImage": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/rishtan.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/rishtan.webp"
+    "imageAlt":
+      "en": "Rishtan"
+      "ru": "Риштан"
+      "uz": "Rishton"
+    "title":
+      "en": "Rishtan"
+      "ru": "Риштан"
+      "uz": "Rishton"
+    "description":
+      "en": "Ceramic workshops and blue-green glaze in the Fergana Valley"
+      "ru": "Керамические мастерские и сине-зелёная глазурь Ферганской долины"
+      "uz": "Fargʻona vodiysidagi kulolchilik ustaxonalari va ko‘k-yashil sir"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Rishtan"
+      "ru": "Риштан"
+      "uz": "Rishton"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Rishtan is easiest to understand when you see the work before the finished bowl: clay on the wheel, a pattern before firing, blue-green glaze, shelves of drying pieces, and the artisans who keep the local school alive."
+              "ru": "Риштан понятнее, когда сначала видна работа, а не только готовая пиала: глина на круге, узор до обжига, сине-зелёная глазурь, полки с изделиями и мастера, которые продолжают местную школу."
+              "uz": "Rishtonni tayyor piyola bilan emas, avval ish jarayoni bilan tushunish osonroq: charxdagi loy, pishirishdan oldingi naqsh, ko‘k-yashil sir, javondagi buyumlar va mahalliy maktabni davom ettirayotgan ustalar."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "In Rishtan, ceramics do not begin in a display case. Wet clay turns on the wheel, a maker corrects the rim, a pattern waits for firing, and the blue-green glaze appears later."
+              "ru": "В Риштане керамика начинается не с витрины: глина ложится на круг, мастер поправляет форму, узор ждёт обжига, и только потом появляется тот самый сине-зелёный цвет."
+              "uz": "Rishtonda keramika tayyor vitrinadan boshlanmaydi: loy charxda aylanadi, usta shaklni tuzatadi, naqsh pishirishni kutadi, ko‘k-yashil sir esa keyin paydo bo‘ladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "A good route through Rishtan starts with the ceramics center or a working studio, includes a maker's explanation, then continues toward Margilan silk or Kokand's palace history."
+              "ru": "В маршруте через Риштан важна живая работа: керамический центр или мастерская, разговор с мастером, затем продолжение к шёлку Маргилана или истории Коканда."
+              "uz": "Rishton orqali yo‘l kulolchilik markazi yoki ishlayotgan ustaxonadan boshlanganda yaxshi ochiladi: usta bilan suhbat, keyin Margʻilon ipagi yoki Qoʻqon saroy tarixiga davom."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Rishtan as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Риштан как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Rishton o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "Rishtan starts in the workshop"
+      "ru": "Риштан начинается в мастерской"
+      "uz": "Rishton ustaxonadan boshlanadi"
+    "description":
+      "en": "In Rishtan, ceramics do not begin in a display case. Wet clay turns on the wheel, a maker corrects the rim, a pattern waits for firing, and the blue-green glaze appears later."
+      "ru": "В Риштане керамика начинается не с витрины: глина ложится на круг, мастер поправляет форму, узор ждёт обжига, и только потом появляется тот самый сине-зелёный цвет."
+      "uz": "Rishtonda keramika tayyor vitrinadan boshlanmaydi: loy charxda aylanadi, usta shaklni tuzatadi, naqsh pishirishni kutadi, ko‘k-yashil sir esa keyin paydo bo‘ladi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Town route"
+        "ru": "Город в маршруте"
+        "uz": "Marshrutdagi shahar"
+      "title":
+        "en": "Rishtan on the valley craft route"
+        "ru": "Риштан на ремесленном маршруте долины"
+        "uz": "Rishton vodiy hunarmandchilik yo‘lida"
+      "description":
+        "en": "Rishtan sits between the valley's palace and silk stops. The map helps keep the ceramics visit connected to Kokand, Margilan, and the wider route."
+        "ru": "Риштан стоит между дворцовой историей Коканда и шёлком Маргилана. Карта помогает связать керамическую остановку с соседними городами и дальнейшей дорогой."
+        "uz": "Rishton Qoʻqon saroy tarixi va Margʻilon ipagi orasida turadi. Xarita kulolchilik bekatini qo‘shni shaharlar va keyingi yo‘l bilan bogʻlaydi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.365872
+      "longitude": 71.277336
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "rishtan-international-ceramics-center"
+    "aside":
+      "eyebrow":
+        "en": "Route order"
+        "ru": "Порядок маршрута"
+        "uz": "Marshrut tartibi"
+      "title":
+        "en": "A ceramics stop between Kokand and Margilan"
+        "ru": "Керамическая остановка между Кокандом и Маргиланом"
+        "uz": "Qoʻqon va Margʻilon orasidagi kulolchilik bekati"
+      "description":
+        "en": "A good route through Rishtan starts with the ceramics center or a working studio, includes a maker's explanation, then continues toward Margilan silk or Kokand's palace history."
+        "ru": "В маршруте через Риштан важна живая работа: керамический центр или мастерская, разговор с мастером, затем продолжение к шёлку Маргилана или истории Коканда."
+        "uz": "Rishton orqali yo‘l kulolchilik markazi yoki ishlayotgan ustaxonadan boshlanganda yaxshi ochiladi: usta bilan suhbat, keyin Margʻilon ipagi yoki Qoʻqon saroy tarixiga davom."
+      "items":
+        - "title":
+            "en": "Where the work is visible"
+            "ru": "Где видна работа"
+            "uz": "Ish ko‘rinadigan joydan"
+          "description":
+            "en": "At the center, the craft becomes readable: clay, tools, shelves, glaze, and firing come together before the route moves on."
+            "ru": "В центре понятно, как устроено ремесло: глина, инструменты, полки, глазурь и обжиг складываются в одну картину до продолжения маршрута."
+            "uz": "Markazda hunarning tartibi ko‘rinadi: loy, asboblar, javonlar, sir va pishirish keyingi yo‘ldan oldin bir joyga yig‘iladi."
+          "badge":
+            "en": "Where to start"
+            "ru": "Где начать"
+            "uz": "Qayerdan boshlash"
+        - "title":
+            "en": "Clay takes shape"
+            "ru": "Глина становится формой"
+            "uz": "Loy shaklga kiradi"
+          "description":
+            "en": "At the wheel, the smallest gestures matter: the maker adjusts the rim, changes pressure, and a future bowl stops feeling like an object on a shelf."
+            "ru": "На круге виден самый честный момент ремесла: мастер поправляет край, меняет нажим, и будущая пиала перестаёт быть просто предметом на полке."
+            "uz": "Charxda kichik harakatlar muhim: usta chetini to‘g‘rilaydi, bosimni o‘zgartiradi, va kelajakdagi piyola javondagi oddiy buyum bo‘lib qolmaydi."
+          "badge":
+            "en": "Workshop"
+            "ru": "Мастерская"
+            "uz": "Ustaxona"
+        - "title":
+            "en": "The color comes later"
+            "ru": "Цвет приходит позже"
+            "uz": "Rang keyin keladi"
+          "description":
+            "en": "Blue-green glaze makes more sense after pattern, drying, and firing; the color becomes part of the craft, not just a display."
+            "ru": "Сине-зелёная глазурь лучше воспринимается после узора, сушки и обжига: тогда цвет становится частью работы, а не просто красивой витриной."
+            "uz": "Ko‘k-yashil sir naqsh, quritish va pishirishdan keyin yaxshiroq tushuniladi; rang vitrina emas, hunarning bir qismiga aylanadi."
+          "badge":
+            "en": "Color"
+            "ru": "Цвет"
+            "uz": "Rang"
+        - "title":
+            "en": "The valley feels connected"
+            "ru": "Долина становится цельнее"
+            "uz": "Vodiy yaxlitroq ko‘rinadi"
+          "description":
+            "en": "Kokand brings khanate history, Margilan brings silk, and Rishtan brings clay and glaze, so the valley does not feel like unrelated stops."
+            "ru": "Коканд даёт историю ханства, Маргилан — шёлк, Риштан — глину и глазурь; вместе они показывают долину без случайного набора остановок."
+            "uz": "Qoʻqon xonlik tarixini, Margʻilon ipakni, Rishton esa loy va sirni beradi; shunda vodiy alohida bekatlar ro‘yxatiga o‘xshamaydi."
+          "badge":
+            "en": "Continuation"
+            "ru": "Продолжение"
+            "uz": "Davom"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Where Rishtan's ceramics become clear"
+      "ru": "Где понятна керамика Риштана"
+      "uz": "Rishton kulolchiligi yaqqol ko‘rinadigan joy"
+    "description":
+      "en": "The International Ceramics Center helps the town read as a working ceramics place, not a display case: form, pattern, glaze, and the local school come into view before the route continues across the valley."
+      "ru": "Международный центр керамики помогает увидеть Риштан не как витрину, а как ремесленный город: форма, узор, глазурь и разговор о местной школе идут до продолжения по долине."
+      "uz": "Xalqaro kulolchilik markazi Rishtonni faqat tayyor buyumlar joyi emas, ishlayotgan hunar shahri sifatida ko‘rsatadi: shakl, naqsh, sir va mahalliy maktab haqidagi suhbat vodiy bo‘ylab davomdan oldin ochiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/rishtan/attractions/rishtan-international-ceramics-center.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Rishtan International Ceramics Center"
+          "ru": "Международный центр керамики в Риштане"
+          "uz": "Rishton xalqaro kulolchilik markazi"
+        "description":
+          "en": "This is the clearest first stop for Rishtan ceramics. After Kokand's palace history and Margilan's silk, the valley route turns here to clay, pattern, glaze, and masters who explain the local school."
+          "ru": "Это главное место для первого знакомства с риштанской керамикой: здесь маршрут по долине переходит от дворцовой истории и шёлка к глине, узору, глазури и мастерам, которые объясняют местную школу."
+          "uz": "Bu Rishton kulolchiligini birinchi tushunish uchun eng qulay joy: vodiy yo‘nalishi Qoʻqon saroy tarixi va Margʻilon ipakidan keyin bu yerda loy, naqsh, sir va usta ishi tomon o‘tadi."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/rishtan/rishtan-international-ceramics-center"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "In the workshop"
+      "ru": "В мастерской"
+      "uz": "Ustaxonada"
+    "title":
+      "en": "From clay to color"
+      "ru": "От глины к цвету"
+      "uz": "Loydan ranggacha"
+    "description":
+      "en": "The cards are not about shopping first. They follow the craft: wheel work, pattern before firing, a respectful workshop visit, and the way Rishtan belongs with Margilan and Kokand."
+      "ru": "Карточки ведут не к покупке, а к ремеслу: круг, узор до обжига, гостевой визит в мастерскую и связь Риштана с Маргиланом и Кокандом."
+      "uz": "Kartalar avval xarid haqida emas, hunar haqida: charxdagi ish, pishirishdan oldingi naqsh, ustaxonaga hurmat bilan kirish hamda Rishtonning Margʻilon va Qoʻqon bilan bogʻliqligi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/rishtan/rishtan-character-1.webp"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Clay on the wheel"
+          "ru": "Глина на круге"
+          "uz": "Charxdagi loy"
+        "description":
+          "en": "Wet clay, the turning wheel, and small corrections show the craft before color appears. Rishtan feels like a working ceramics town, not only a place to choose a piece from a shelf."
+          "ru": "Влажная глина, вращающийся круг и маленькие поправки показывают ремесло до появления цвета. Здесь Риштан ощущается рабочим городом керамики, а не только местом, где выбирают вещь с полки."
+          "uz": "Nam loy, aylanayotgan charx va kichik tuzatishlar rang paydo bo‘lishidan oldingi hunarni ko‘rsatadi. Rishton faqat javondan buyum tanlanadigan joy emas, ishlayotgan kulolchilik shahri sifatida seziladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/rishtan/rishtan-character-2.webp"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Pattern before firing"
+          "ru": "Узор до обжига"
+          "uz": "Pishirishdan oldingi naqsh"
+        "description":
+          "en": "Brush lines, drying pieces, and shelves of bowls help the traveler see how blue-green glaze settles onto the object before the kiln fixes the final color."
+          "ru": "Линии кисти, высыхающие предметы и полки с пиалами помогают увидеть, как сине-зелёная глазурь ложится на вещь до того, как печь закрепит цвет."
+          "uz": "Mo‘yqalam chiziqlari, quriyotgan buyumlar va piyola javonlari ko‘k-yashil sir pech yakuniy rangni mustahkamlashidan oldin buyumga qanday tushishini ko‘rsatadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/rishtan/rishtan-character-3.webp"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Workshop visit with permission"
+          "ru": "Мастерская с доступом"
+          "uz": "Kirishi kelishilgan ustaxona"
+        "description":
+          "en": "A good Rishtan stop depends on the workshop that is open that day: photos, demonstration, conversation, and group size should be agreed before arrival."
+          "ru": "Хорошая остановка в Риштане зависит от мастерской, которая открыта в конкретный день: фото, демонстрацию, разговор и размер группы лучше согласовать до приезда."
+          "uz": "Rishtondagi yaxshi bekat o‘sha kuni ochiq ustaxonaga bogʻliq: suratga olish, namoyish, suhbat va guruh hajmi kelishdan oldin kelishiladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/rishtan/rishtan-character-4.webp"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Silk, palace, and ceramics"
+          "ru": "Шёлк, дворец и керамика"
+          "uz": "Ipak, saroy va keramika"
+        "description":
+          "en": "Rishtan is clearest beside Margilan and Kokand: silk process, palace history, and ceramics give the valley route three different reasons to stop."
+          "ru": "Риштан понятнее рядом с Маргиланом и Кокандом: шёлковый процесс, дворцовая история и керамика дают маршруту по долине три разные причины остановиться."
+          "uz": "Rishton Margʻilon va Qoʻqon yonida aniqroq ochiladi: ipak jarayoni, saroy tarixi va keramika vodiy yo‘nalishiga to‘xtash uchun uch xil sabab beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/rishtan/rishtan-character-5.webp"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Living craft encounters"
+          "ru": "Живое ремесло"
+          "uz": "Tirik hunar"
+        "description":
+          "en": "In the workshop, wet clay and raw silk are in the air. The master dips the brush, and a blue pattern appears on the white bowl. You stand close enough to see thread become fabric by hand, not on a factory line."
+          "ru": "В мастерской пахнет глиной и сырым шёлком. Мастер обмакивает кисть — и на белой пиале проступает синий узор, тот же, что писали здесь век назад. Вы стоите рядом и видите, как нить становится тканью руками, а не на конвейере."
+          "uz": "Ustaxonada nam loy va xom ipak hidi keladi. Usta mo‘yqalamni bo‘yoqqa botiradi va oq piyolada ko‘k naqsh paydo bo‘ladi. Siz yonida turib, ipning matoga konveyerda emas, qo‘lda aylanishini ko‘rasiz."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/rishtan/rishtan-character-6.webp"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Valley craft towns"
+          "ru": "Ремесленные города долины"
+          "uz": "Vodiy hunarmand shaharlari"
+        "description":
+          "en": "The Fergana Valley smells of mulberry in Margilan, where silk is still drawn from cocoons, and of the blue glaze in Rishtan that no other kiln repeats. You move through working towns, not museum sets."
+          "ru": "Ферганская долина — это запах тутовника в Маргилане, где из коконов до сих пор тянут шёлковую нить, и синяя глазурь Риштана, которую не повторяет ни одна другая печь. Вы проезжаете не музейные города, а места, где ремесло остаётся чьей-то работой с самого утра."
+          "uz": "Fargʻona vodiysi Margʻilondagi tut hidi bilan esda qoladi: bu yerda pilladan hanuz ipak ip tortiladi. Rishtonda esa boshqa hech bir ustaxonada aynan takrorlanmaydigan ko‘k sir bor. Siz muzey shaharlarni emas, hunar tongdan ishga aylangan joylarni ko‘rasiz."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Yo‘lga chiqishdan oldin"
+    "title":
+      "en": "Rishtan starts in the workshop"
+      "ru": "Риштан начинается в мастерской"
+      "uz": "Rishton ustaxonadan boshlanadi"
+    "description":
+      "en": "The blue-green color catches the eye first, but it should not be the only thing the traveler remembers. Rishtan feels warmer when the wheel, the maker's hands, the pattern before firing, and the story of the workshop stay close to the visit."
+      "ru": "Сине-зелёный цвет первым бросается в глаза, но он не должен оставаться единственным впечатлением. Город становится теплее, когда рядом видны глина на круге, поправки пальцами, узор до обжига и мастер, который говорит о своей работе простыми словами."
+      "uz": "Ko‘k-yashil rang birinchi bo‘lib ko‘zga tashlanadi, lekin u yagona taassurot bo‘lib qolmasligi kerak. Rishton charx, usta qo‘li, pishirishdan oldingi naqsh va ustaxona hikoyasi yonma-yon ko‘ringanda iliqroq seziladi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "At the wheel"
+              "ru": "У круга"
+              "uz": "Charx yonida"
+            "description":
+              "en": "A good Rishtan visit slows down at the wheel: the maker holds the rim, removes a little clay, changes the form, and the finished piece begins to feel personal."
+              "ru": "В мастерской внимание цепляется за малое: как мастер держит край, снимает лишнее, меняет форму. После этого готовая работа уже не выглядит просто предметом на полке."
+              "uz": "Yaxshi Rishton tashrifi charx yonida sekinlashadi: usta chetni ushlaydi, ozroq loyni oladi, shaklni o‘zgartiradi, va tayyor buyum shaxsiyroq tuyula boshlaydi."
+          - "type": "quote"
+            "quote":
+              "en": "In Rishtan, the color stays with you because the hands behind it are still visible."
+              "ru": "В Риштане цвет запоминается сильнее, когда перед ним видна работа рук."
+              "uz": "Rishtonda rang ortidagi qo‘l mehnati ko‘ringanda, u uzoqroq esda qoladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Blue-green glaze"
+              "ru": "Сине-зелёная глазурь"
+              "uz": "Ko‘k-yashil sir"
+            "description":
+              "en": "The color is Rishtan's signature, but it feels stronger after the traveler has seen the wet clay, the pattern, and the firing that bring it there."
+              "ru": "Цвет — знак Риштана, но он сильнее после глины, узора и обжига. Тогда глазурь воспринимается не как витрина, а как часть работы."
+              "uz": "Rang Rishton belgisi, lekin sayohatchi nam loy, naqsh va pishirishni ko‘rgandan keyin u kuchliroq seziladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "With Kokand and Margilan"
+              "ru": "С Кокандом и Маргиланом"
+              "uz": "Qoʻqon va Margʻilon bilan"
+            "description":
+              "en": "Rishtan pairs naturally with Margilan silk and Kokand history. Some private studios, galleries, and small museum areas open differently by date, so our team checks what is available before the route is set."
+              "ru": "Риштан естественно сочетается с шёлком Маргилана и историей Коканда. Частные мастерские, галереи и небольшие музейные зоны работают по-разному в разные дни, поэтому мы проверяем их до утверждения маршрута."
+              "uz": "Rishton Margʻilon ipagi va Qoʻqon tarixi bilan tabiiy bogʻlanadi. Ayrim xususiy ustaxonalar, galereyalar va kichik muzey joylari turli kunlarda boshqacha ishlaydi, shuning uchun jamoamiz ularni marshrutdan oldin tekshiradi."
+          - "type": "alert"
+            "title":
+              "en": "For the traveler"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Come for the ceramics, but do not make it only a purchase. See the workshop, understand the local school, then choose the piece you want to take with you."
+              "ru": "Ехать в Риштан стоит не только за покупкой. Лучше увидеть мастерскую, понять местную школу и уже потом выбирать вещь, которую хочется увезти."
+              "uz": "Rishtonga faqat xarid uchun kelmang. Avval ustaxonani ko‘ring, mahalliy maktabni tushuning, keyin olib ketmoqchi bo‘lgan buyumni tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Yo‘lga chiqishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before you go Where to start"
+                  "ru": "Перед поездкой Где начать"
+                  "uz": "Yo‘l oldidan Qayerdan boshlash"
+                "description":
+                  "en": "The International Ceramics Center gives the clearest introduction; a working studio or small museum/display area can follow when it is open to guests."
+                  "ru": "Международный центр керамики даёт спокойное знакомство с Риштаном; мастерскую, музейную или выставочную зону стоит добавлять, когда они открыты для гостей."
+                  "uz": "Xalqaro kulolchilik markazi Rishton bilan sokin tanishuv beradi; ishlayotgan ustaxona yoki kichik muzey/ko‘rgazma joyi mehmonlar uchun ochiq bo‘lsa, keyin qo‘shiladi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main craft"
+                  "ru": "Главное ремесло"
+                  "uz": "Asosiy hunar"
+                "description":
+                  "en": "Clay on the wheel, painted pattern, blue-green glaze, firing, and finished work."
+                  "ru": "Глина на круге, расписной узор, сине-зелёная глазурь, обжиг и готовые работы."
+                  "uz": "Charxdagi loy, chizilgan naqsh, ko‘k-yashil sir, pishirish va tayyor ishlar."
+              - "icon": "Sun"
+                "title":
+                  "en": "Visit timing"
+                  "ru": "Время визита"
+                  "uz": "Tashrif vaqti"
+                "description":
+                  "en": "Year-round; confirm workshop access, demonstrations, and photography rules close to the visit."
+                  "ru": "Круглый год; доступ в мастерские, демонстрации и правила съёмки лучше уточнять ближе к визиту."
+                  "uz": "Yil bo‘yi; ustaxonaga kirish, namoyishlar va suratga olish qoidalari tashrifga yaqin tekshiriladi."
+              - "icon": "Route"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Marshrutdagi roli"
+                "description":
+                  "en": "The ceramics town in the Kokand - Margilan - Rishtan craft route."
+                  "ru": "Керамический город в связке Коканд — Маргилан — Риштан."
+                  "uz": "Qoʻqon — Margʻilon — Rishton bogʻlamasidagi kulolchilik shahri."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route connections"
+      "ru": "Продолжение маршрута"
+      "uz": "Marshrut davomi"
+    "title":
+      "en": "Where to continue in the valley"
+      "ru": "Куда продолжить путь по долине"
+      "uz": "Vodiy bo‘ylab qayerga davom etish"
+    "description":
+      "en": "Margilan keeps the craft route with silk, while Kokand adds palace history and central-city stops. Rishtan belongs between them as the ceramics town."
+      "ru": "Маргилан продолжает ремесленную тему шёлком, а Коканд добавляет дворцовую историю и прогулку по центру. Риштан стоит между ними как город керамики."
+      "uz": "Margʻilon hunar mavzusini ipak bilan davom ettiradi, Qoʻqon esa saroy tarixi va markaz bo‘ylab sayrni qo‘shadi. Rishton ular orasida kulolchilik shahri sifatida turadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/rishtan-next-kokand.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Kokand"
+          "ru": "Коканд"
+          "uz": "Qoʻqon"
+        "description":
+          "en": "Kokand brings palace history into the Fergana Valley route before the day continues toward Margilan silk and Rishtan ceramics."
+          "ru": "Коканд добавляет маршруту по Ферганской долине дворец Худояр-хана, мечеть Джами, медресе и дорогу к Маргилану и Риштану."
+          "uz": "Qoʻqon Fargʻona vodiysi yoʻnalishiga Xudoyorxon saroyi, Jome masjidi, madrasalar va Margʻilon hamda Rishton tomonga yo‘lni qo‘shadi."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/kokand"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/rishtan-next-margilan.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Margilan"
+          "ru": "Маргилан"
+          "uz": "Margʻilon"
+        "description":
+          "en": "Margilan is the Fergana Valley's silk town: Yodgorlik, atlas and adras workshops, the craft centre, and routes toward Kokand history and Rishtan ceramics."
+          "ru": "Маргилан — шёлковый город Ферганской долины: Yodgorlik, мастерские атласа и адраса, ремесленный центр и маршруты к Коканду и Риштану."
+          "uz": "Margʻilon Fargʻona vodiysining ipak shahri: Yodgorlik, atlas va adras ustaxonalari, hunar markazi hamda Qoʻqon va Rishton yo‘nalishlari."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/margilan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Rishtan in the day plan"
+      "ru": "Как поставить Риштан в план дня"
+      "uz": "Rishtonni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Rishtan?"
+          "ru": "Сколько времени группам стоит проводить в Риштан?"
+          "uz": "Rishtonda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Ceramic workshops and blue-green glaze in the Fergana Valley”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Керамические мастерские и сине-зелёная глазурь Ферганской долины»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Fargʻona vodiysidagi kulolchilik ustaxonalari va ko‘k-yashil sir»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Rishtan be a walkable core or a base for day trips?"
+          "ru": "Риштан — это пешеходное ядро или база для выездов?"
+          "uz": "Rishton piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Rishtan's centre?"
+          "ru": "Где лучше ночевать относительно центра Риштан?"
+          "uz": "Rishton markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/rishtan.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Rishtan stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Риштан» в программу (Узбекистан)"
+      "uz": "Rishton bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Rishtan | TourLink"
+    "ru": "Риштан | TourLink"
+    "uz": "Rishton | TourLink"
+  "metaDescription":
+    "en": "Rishtan is easiest to understand when you see the work before the finished bowl: clay on the wheel, a pattern before firing, blue-green glaze, shelves of drying pieces, and the artisans who keep the local school alive."
+    "ru": "Риштан понятнее, когда сначала видна работа, а не только готовая пиала: глина на круге, узор до обжига, сине-зелёная глазурь, полки с изделиями и мастера, которые продолжают местную школу."
+    "uz": "Rishtonni tayyor piyola bilan emas, avval ish jarayoni bilan tushunish osonroq: charxdagi loy, pishirishdan oldingi naqsh, ko‘k-yashil sir, javondagi buyumlar va mahalliy maktabni davom ettirayotgan ustalar."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "fergana-valley"
+"latitude": 40.3617599
+"longitude": 71.2789455

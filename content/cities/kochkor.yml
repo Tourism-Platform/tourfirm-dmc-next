@@ -1,0 +1,508 @@
+# Generated from scrape/kyrgyzstan (multi-locale)
+"slug":
+  "en": "kochkor"
+  "ru": "kochkor"
+  "uz": "kochkor"
+"title":
+  "en": "Kochkor"
+  "ru": "Кочкор"
+  "uz": "Kochkor"
+"subtitle":
+  "en": "Felt craft before the high road"
+  "ru": "Войлочное ремесло перед высокогорной дорогой"
+  "uz": "Baland yoʻl oldidagi kigiz hunari"
+"excerpt":
+  "en": "Kochkor is where the highland road starts to slow down. Wool becomes shyrdak pattern in a hosted craft visit, tea follows the day's drive, and the next morning's plan depends on weather, vehicle, season, and how far the route should climb."
+  "ru": "В Кочкоре высокогорная дорога начинает замедляться. Шерсть превращается в узор шырдака во время согласованного визита к мастеру, после дневного переезда появляется чай, а утренний план зависит от погоды, машины, сезона и того, насколько высоко должен подняться маршрут."
+  "uz": "Kochkorda baland yoʻl sekinlashishni boshlaydi. Jun mezbonli hunarmandchilik tashrifida shyrdak naqshiga aylanadi, kunlik yoʻldan keyin choy paydo boʻladi, ertangi reja esa ob-havo, avtomobil, mavsum va yoʻnalish qanchalik balandga chiqishiga bogʻliq boʻladi."
+"heroImage": "assets/images/destinations/kyrgyzstan/regions/naryn-song-kul-and-central-tian-shan/cities/kochkor.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kyrgyzstan/regions/naryn-song-kul-and-central-tian-shan/cities/kochkor.webp"
+    "imageAlt":
+      "en": "Kochkor"
+      "ru": "Кочкор"
+      "uz": "Kochkor"
+    "title":
+      "en": "Kochkor"
+      "ru": "Кочкор"
+      "uz": "Kochkor"
+    "description":
+      "en": "Felt craft before the high road"
+      "ru": "Войлочное ремесло перед высокогорной дорогой"
+      "uz": "Baland yoʻl oldidagi kigiz hunari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Kochkor"
+      "ru": "Кочкор"
+      "uz": "Kochkor"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Kochkor is where the highland road starts to slow down."
+              "ru": "В Кочкоре высокогорная дорога начинает замедляться."
+              "uz": "Kochkorda baland yoʻl sekinlashishni boshlaydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Kochkor helps the route make calm choices: a craft visit with the right host, an overnight before higher country, a market stop before the road, or a separate decision between Song-Kul, Kol-Ukok, Naryn, and Tash Rabat."
+              "ru": "Кочкор помогает маршруту принять спокойные решения: визит к подходящему ремесленному хозяину, ночёвка перед высокогорьем, рыночная остановка перед дорогой или отдельный выбор между Сон-Кулем, Коль-Укоком, Нарыном и Таш-Рабатом."
+              "uz": "Kochkor yoʻnalishga sokin qarorlar beradi: mos hunarmand mezbon bilan tashrif, baland hudud oldidan tunash, yoʻldan oldingi bozor toʻxtashi yoki Soʻng-Koʻl, Koʻl-Ukok, Naryn va Tash-Rabat orasidagi alohida tanlov."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Kochkor is clearest when it has one purpose in the journey: craft, rest, or a careful check before the road rises toward summer pasture."
+              "ru": "Кочкор лучше всего раскрывается, когда у него есть одна ясная задача в путешествии: ремесло, отдых или аккуратная проверка перед дорогой к летним пастбищам."
+              "uz": "Kochkor safarda bitta aniq vazifa olganda eng yaxshi ochiladi: hunarmandchilik, dam olish yoki yozgi yaylov sari koʻtariladigan yoʻldan oldingi ehtiyotkor tekshiruv."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Kochkor as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Кочкор как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Kochkor o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Where the high road starts to take shape"
+      "ru": "Где высокогорная дорога принимает форму"
+      "uz": "Baland yoʻl shakl ola boshlaydigan joy"
+    "description":
+      "en": "Kochkor helps the route make calm choices: a craft visit with the right host, an overnight before higher country, a market stop before the road, or a separate decision between Song-Kul, Kol-Ukok, Naryn, and Tash Rabat."
+      "ru": "Кочкор помогает маршруту принять спокойные решения: визит к подходящему ремесленному хозяину, ночёвка перед высокогорьем, рыночная остановка перед дорогой или отдельный выбор между Сон-Кулем, Коль-Укоком, Нарыном и Таш-Рабатом."
+      "uz": "Kochkor yoʻnalishga sokin qarorlar beradi: mos hunarmand mezbon bilan tashrif, baland hudud oldidan tunash, yoʻldan oldingi bozor toʻxtashi yoki Soʻng-Koʻl, Koʻl-Ukok, Naryn va Tash-Rabat orasidagi alohida tanlov."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Yoʻnalish xaritasi"
+      "title":
+        "en": "Kochkor and the central highland choices"
+        "ru": "Кочкор и выборы центрального высокогорья"
+        "uz": "Kochkor va markaziy baland hudud tanlovlari"
+      "description":
+        "en": "The map keeps Kochkor in its real context: Song-Kul to the west, Naryn farther along the highland road, and Tash Rabat as a separate southbound choice."
+        "ru": "Карта оставляет Кочкор в его настоящем контексте: Сон-Куль к западу, Нарын дальше по высокогорной дороге и Таш-Рабат как отдельное южное направление."
+        "uz": "Xarita Kochkorni haqiqiy kontekstida qoldiradi: gʻarbda Soʻng-Koʻl, baland yoʻl davomida Naryn va alohida janubiy yoʻnalish sifatida Tash-Rabat."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.576582
+      "longitude": 75.548905
+    "zoom": 14
+    "stops": []
+    "aside":
+      "eyebrow":
+        "en": "Route planning"
+        "ru": "План маршрута"
+        "uz": "Yoʻnalish rejasi"
+      "title":
+        "en": "Start with the town, then the road"
+        "ru": "Сначала город, затем дорога"
+        "uz": "Avval shaharcha, keyin yoʻl"
+      "description":
+        "en": "Kochkor is clearest when it has one purpose in the journey: craft, rest, or a careful check before the road rises toward summer pasture."
+        "ru": "Кочкор лучше всего раскрывается, когда у него есть одна ясная задача в путешествии: ремесло, отдых или аккуратная проверка перед дорогой к летним пастбищам."
+        "uz": "Kochkor safarda bitta aniq vazifa olganda eng yaxshi ochiladi: hunarmandchilik, dam olish yoki yozgi yaylov sari koʻtariladigan yoʻldan oldingi ehtiyotkor tekshiruv."
+      "items":
+        - "title":
+            "en": "Arrive in a working town"
+            "ru": "Приехать в живой город"
+            "uz": "Jonli shaharchaga kelish"
+          "description":
+            "en": "Kochkor is a working town, not a staged attraction, so the first read should be practical: where to stay, who is ready to host, and what the next road asks for."
+            "ru": "Кочкор — живой город, а не постановочная достопримечательность, поэтому первое чтение практичное: где остановиться, кто готов принять и чего требует следующая дорога."
+            "uz": "Kochkor sahnalashtirilgan diqqatga sazovor joy emas, tirik shaharcha; shuning uchun avval amaliy savollar muhim: qayerda tunash, kim mezbonlikka tayyor va keyingi yoʻl nimani talab qiladi."
+        - "title":
+            "en": "Meet craft hosts respectfully"
+            "ru": "Уважительно встретиться с мастерами"
+            "uz": "Hunarmand mezbonlar bilan hurmatli uchrashish"
+          "description":
+            "en": "Felt and shyrdak visits need permission, clear format, fair time, and comfort for the host before they become part of the route."
+            "ru": "Для визита к войлоку и шырдаку нужны разрешение, понятный формат, честное время и комфорт хозяина."
+            "uz": "Kigiz va shyrdak tashrifi yoʻnalishga kirishi uchun ruxsat, aniq format, adolatli vaqt va mezbon uchun qulaylik kerak."
+        - "title":
+            "en": "Read the Song-Kul road by season"
+            "ru": "Смотреть на дорогу к Сон-Кулю через сезон"
+            "uz": "Soʻng-Koʻl yoʻlini mavsum orqali baholash"
+          "description":
+            "en": "Song-Kul changes with season, weather, vehicle, and camp readiness; the route should stay flexible until those details are current."
+            "ru": "Сон-Куль меняется по сезону, погоде, машине и готовности лагерей; маршрут должен оставаться гибким, пока детали не проверены."
+            "uz": "Soʻng-Koʻl mavsum, ob-havo, avtomobil va lager tayyorgarligiga qarab oʻzgaradi; tafsilotlar aniq boʻlmaguncha yoʻnalish moslashuvchan qolsin."
+        - "title":
+            "en": "Choose the next highland direction"
+            "ru": "Выбрать следующее высокогорное направление"
+            "uz": "Keyingi baland yoʻnalishni tanlash"
+          "description":
+            "en": "Kol-Ukok, Naryn, Tash Rabat, Song-Kul, and Issyk-Kul are different continuations, not one compressed list from Kochkor."
+            "ru": "Коль-Укок, Нарын, Таш-Рабат, Сон-Куль и Иссык-Куль — разные продолжения, а не один сжатый список из Кочкора."
+            "uz": "Koʻl-Ukok, Naryn, Tash-Rabat, Soʻng-Koʻl va Issiqkoʻl Kochkordan bitta siqilgan roʻyxat emas, alohida davomlardir."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How Kochkor feels"
+      "ru": "Как чувствуется Кочкор"
+      "uz": "Kochkor qanday seziladi"
+    "title":
+      "en": "Three ways Kochkor makes the route human"
+      "ru": "Три способа сделать маршрут живее"
+      "uz": "Yoʻnalishni jonlantiradigan uch yoʻl"
+    "description":
+      "en": "Use Kochkor for moments that belong to the town itself: craft with permission, a road check before higher country, and an evening that lets the next stage begin calmly."
+      "ru": "В Кочкоре важны моменты, которые принадлежат самому городу: ремесло с разрешения хозяина, проверка дороги перед высокогорьем и вечер, после которого следующий этап начинается спокойнее."
+      "uz": "Kochkorda shaharchaning oʻziga tegishli lahzalar muhim: mezbon ruxsati bilan hunarmandchilik, baland hudud oldidan yoʻl tekshiruvi va keyingi bosqichni sokin boshlatadigan oqshom."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Felt and shyrdak with a host"
+          "ru": "Войлок и шырдак с хозяином"
+          "uz": "Mezbon bilan kigiz va shyrdak"
+        "description":
+          "en": "A felt or shyrdak visit belongs in Kochkor only when the host is ready, the format is clear, and there is time to listen rather than turn the workshop into a performance."
+          "ru": "Визит к войлоку или шырдаку уместен в Кочкоре только тогда, когда хозяин готов, формат понятен и есть время слушать, а не превращать мастерскую в представление."
+          "uz": "Kigiz yoki shyrdak tashrifi Kochkorda faqat mezbon tayyor, format aniq va ustaxonani tomoshaga aylantirmasdan tinglashga vaqt boʻlganda oʻrinli."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan/character/kochkor/kochkor-character-2.webp"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Read the Song-Kul road before you climb"
+          "ru": "Оценить дорогу к Сон-Кулю до подъёма"
+          "uz": "Koʻtarilishdan oldin Soʻng-Koʻl yoʻlini baholang"
+        "description":
+          "en": "Warm clothes, vehicle choice, camp readiness, and weather matter more than a tidy schedule when the road climbs toward jailoo country."
+          "ru": "Тёплая одежда, выбор машины, готовность лагерей и погода важнее аккуратного расписания, когда дорога поднимается к джайлоо."
+          "uz": "Yoʻl yaylov tomonga koʻtarilganda issiq kiyim, avtomobil tanlovi, lager tayyorgarligi va ob-havo tartibli jadvaldan muhimroq."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Let the evening slow the route down"
+          "ru": "Дать вечеру замедлить маршрут"
+          "uz": "Oqshom yoʻnalishni sekinlashtirsin"
+        "description":
+          "en": "A simple dinner or tea conversation can make Kochkor more than a transfer, especially after the road from Bishkek or Issyk-Kul."
+          "ru": "Простой ужин или разговор за чаем помогают Кочкору стать больше, чем трансфером, особенно после дороги из Бишкека или с Иссык-Куля."
+          "uz": "Oddiy kechki ovqat yoki choy ustidagi suhbat Kochkorni transferdan koʻproq narsaga aylantiradi, ayniqsa Bishkek yoki Issiqkoʻldan kelgan yoʻldan keyin."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Yoʻlga chiqishdan oldin"
+    "title":
+      "en": "A careful stop before higher roads"
+      "ru": "Аккуратная остановка перед высокогорьем"
+      "uz": "Baland hudud oldidagi ehtiyotkor toʻxtash"
+    "description":
+      "en": "Kochkor is strongest when the visit stays focused. Choose one or two real reasons to stop, then let the road, season, and hosts decide how much more belongs in the plan."
+      "ru": "Кочкор сильнее, когда остановка остаётся сфокусированной. Выберите одну-две настоящие причины задержаться, а дорога, сезон и хозяева подскажут, что ещё уместно добавить."
+      "uz": "Kochkor toʻxtashi aniq maqsadli boʻlganda kuchliroq. Bir yoki ikki haqiqiy sababni tanlang, keyin yoʻl, mavsum va mezbonlar yana nima qoʻshish mumkinligini belgilaydi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Craft visit"
+              "ru": "Ремесленный визит"
+              "uz": "Hunarmandchilik tashrifi"
+            "description":
+              "en": "Felt and shyrdak stops need a willing host, clear payment, and comfort for both traveler and artisan. Photo rules, language, timing, and group size need confirmation before arrival."
+              "ru": "Для войлока и шырдака нужны готовый хозяин, понятная оплата и комфорт и для путешественника, и для мастера. Фото, язык, время и размер группы стоит уточнить до приезда."
+              "uz": "Kigiz va shyrdak toʻxtashlari uchun tayyor mezbon, aniq toʻlov va sayohatchi hamda usta uchun qulaylik kerak. Suratga olish, til, vaqt va guruh hajmi kelishdan oldin aniqlanadi."
+          - "type": "quote"
+            "quote":
+              "en": "Kochkor is strongest when the high country begins with people, not only altitude."
+              "ru": "Кочкор сильнее всего, когда высокогорье начинается с людей, а не только с высоты."
+              "uz": "Kochkorda baland hudud faqat balandlikdan emas, odamlardan boshlanganda eng kuchli seziladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Highland roads"
+              "ru": "Высокогорные дороги"
+              "uz": "Baland yoʻllar"
+            "description":
+              "en": "Song-Kul, Kol-Ukok, Naryn, and Tash Rabat are different choices, not small variations of one outing. Each changes the vehicle, season, overnight logic, and safety checks."
+              "ru": "Сон-Куль, Коль-Укок, Нарын и Таш-Рабат — разные решения, а не варианты одной прогулки. Каждый меняет машину, сезон, ночёвку и проверки безопасности."
+              "uz": "Soʻng-Koʻl, Koʻl-Ukok, Naryn va Tash-Rabat bitta sayrning kichik farqlari emas, alohida qarorlardir. Har biri avtomobil, mavsum, tunash va xavfsizlik tekshiruvlarini oʻzgartiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Season window"
+              "ru": "Сезонное окно"
+              "uz": "Mavsum oynasi"
+            "description":
+              "en": "June to September is the main high-country window. Spring and autumn can favor lower roads; winter needs conservative choices and close local checks."
+              "ru": "Июнь-сентябрь — главное время для высокогорья. Весна и осень могут лучше подходить для нижних дорог; зимой нужны осторожные решения и близкие проверки на месте."
+              "uz": "Iyun-sentyabr baland hudud uchun asosiy davr. Bahor va kuz pastroq yoʻllarga mos kelishi mumkin; qishda ehtiyotkor tanlov va yaqin mahalliy tekshiruv kerak."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Что важно для путешественника"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Let Kochkor carry one or two clear jobs: a respectful craft visit, an overnight pause, or the road check before Song-Kul, Kol-Ukok, Naryn, Tash Rabat, or the return toward Issyk-Kul."
+              "ru": "Пусть у Кочкора будет одна-две ясные задачи: уважительный ремесленный визит, ночёвка или проверка дороги перед Сон-Кулем, Коль-Укоком, Нарыном, Таш-Рабатом либо возвращением к Иссык-Кулю."
+              "uz": "Kochkorning bitta yoki ikkita aniq vazifasi boʻlsin: hurmatli hunarmandchilik tashrifi, tunash yoki Soʻng-Koʻl, Koʻl-Ukok, Naryn, Tash-Rabat yoxud Issiqkoʻlga qaytish oldidagi yoʻl tekshiruvi."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Yoʻlga chiqishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "Kochkor sits between Bishkek or Issyk-Kul approaches and the higher roads toward Song-Kul and Naryn."
+                  "ru": "Кочкор лежит между подходами из Бишкека или с Иссык-Куля и высокими дорогами к Сон-Кулю и Нарыну."
+                  "uz": "Kochkor Bishkek yoki Issiqkoʻl tomondan kelish va Soʻng-Koʻl hamda Naryn sari baland yoʻllar orasida turadi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main reason to stop"
+                  "ru": "Главный повод"
+                  "uz": "Toʻxtash sababi"
+                "description":
+                  "en": "It is strongest as a hosted visit rather than a monument list."
+                  "ru": "Самая сильная остановка здесь — встреча с хозяином, а не список памятников."
+                  "uz": "Bu yerda eng kuchli toʻxtash yodgorliklar roʻyxati emas, mezbonli uchrashuvdir."
+              - "icon": "Sun"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Yoʻnalishdagi roli"
+                "description":
+                  "en": "The town helps the journey breathe before a pass, lake road, or longer central Tian Shan stage."
+                  "ru": "Город помогает маршруту выдохнуть перед перевалом, озёрной дорогой или длинным этапом Центрального Тянь-Шаня."
+                  "uz": "Shaharcha dovon, koʻl yoʻli yoki Markaziy Tyan-Shanning uzun bosqichidan oldin safarga nafas beradi."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and pace"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va surʼat"
+                "description":
+                  "en": "Song-Kul and Kol-Ukok depend on weather, vehicle, road surface, host readiness, and camp conditions."
+                  "ru": "Сон-Куль и Коль-Укок зависят от погоды, машины, покрытия, готовности хозяев и условий в лагерях."
+                  "uz": "Soʻng-Koʻl va Koʻl-Ukok ob-havo, avtomobil, yoʻl holati, mezbonlar va lager sharoitlariga bogʻliq."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Confirm locally"
+                  "ru": "Проверить на месте"
+                  "uz": "Joyida aniqlash"
+                "description":
+                  "en": "Craft hosts, guesthouses, yurt camps, route offices, and exact timings need checks close to travel."
+                  "ru": "Ремесленных хозяев, гостевые дома, юртовые лагеря, маршрутные офисы и точное время нужно уточнять ближе к поездке."
+                  "uz": "Hunarmand mezbonlar, mehmon uylari, oʻtov lagerlari, yoʻnalish ofislari va aniq vaqtlar safarga yaqin tekshiriladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqin joylar"
+    "title":
+      "en": "Song-Kul, Naryn, and Tash Rabat need their own timing"
+      "ru": "Сон-Кулю, Нарыну и Таш-Рабату нужно своё время"
+      "uz": "Soʻng-Koʻl, Naryn va Tash-Rabatga alohida vaqt kerak"
+    "description":
+      "en": "Song-Kul is the high pasture lake, Naryn is the river-city pause farther along the road, and Tash Rabat is a separate caravanserai valley. Kochkor can introduce them, but each one needs its own route decision."
+      "ru": "Сон-Куль — высокогорное озеро-пастбище, Нарын — городская пауза у реки дальше по дороге, а Таш-Рабат — отдельная долина караван-сарая. Кочкор может познакомить с ними, но каждому нужен свой маршрутный выбор."
+      "uz": "Soʻng-Koʻl baland yaylov koʻli, Naryn yoʻl davomidagi daryo shahri, Tash-Rabat esa alohida karvonsaroy vodiysi. Kochkor ular bilan tanishtirishi mumkin, lekin har biri oʻz yoʻnalish qarorini talab qiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/kochkor-next-song-kul.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Song-Kul"
+          "ru": "Сон-Куль"
+          "uz": "Soʻng-Koʻl"
+        "description":
+          "en": "Song-Kul is the high-pasture lake area where central Kyrgyzstan slows into yurt camps, cold nights, horses, and road choices toward Kochkor, Naryn, or Tash Rabat."
+          "ru": "Сон-Куль - высокогорный район озера, где центральный Кыргызстан замедляется до юртовых лагерей, холодных ночей, лошадей и выбора дороги к Кочкору, Нарыну или Таш-Рабату."
+          "uz": "Soʻng-Koʻl markaziy Qirgʻiziston sekinlashadigan baland yaylov-koʻl hududi: oʻtov lagerlari, sovuq tunlar, otlar va Kochkor, Narin yoki Tash Rabat sari yoʻl tanlovi."
+        "ctaHref": "/destinations/kyrgyzstan/naryn-song-kul-and-central-tian-shan/song-kul"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/kochkor-next-naryn.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Naryn"
+          "ru": "Нарын"
+          "uz": "Naryn"
+        "description":
+          "en": "Naryn gives the central Tian Shan route a useful river pause: a city overnight, dry mountain slopes, and weather-aware choices before the road turns toward Song-Kul, Tash Rabat, At-Bashy, or Kel-Suu."
+          "ru": "Нарын даёт маршруту по Центральному Тянь-Шаню полезную паузу у реки: городскую ночёвку, сухие горные склоны и выбор по погоде перед дорогой к Сон-Кулю, Таш-Рабату, Ат-Баши или Кель-Суу."
+          "uz": "Naryn Markaziy Tyan-Shan yoʻnalishiga daryo boʻyidagi foydali pauzani beradi: shaharda tunash, quruq togʻ yonbagʻirlari va Soʻng-Koʻl, Tash-Rabat, At-Bashi yoki Kel-Suu sari yoʻldan oldingi ob-havo tanlovi."
+        "ctaHref": "/destinations/kyrgyzstan/naryn-song-kul-and-central-tian-shan/naryn"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Tash Rabat"
+          "ru": "Таш-Рабат"
+          "uz": "Tash Rabat"
+        "description":
+          "en": "Tash Rabat is the high-valley stop beyond Naryn where the stone caravanserai, mountain weather, yurt-camp season, and southbound road turn Silk Road heritage into a careful route decision."
+          "ru": "Таш-Рабат - высокогорная остановка за Нарыном, где каменный караван-сарай, горная погода, сезон юртовых лагерей и южная дорога превращают наследие Шелкового пути в осознанное маршрутное решение."
+          "uz": "Tash Rabat Naryndan keyingi baland vodiy toʻxtashi: tosh karvonsaroy, togʻ ob-havosi, oʻtov lagerlari mavsumi va janubiy yoʻl Ipak yoʻli merosini ehtiyotkor marshrut qaroriga aylantiradi."
+        "ctaHref": "/destinations/kyrgyzstan/naryn-song-kul-and-central-tian-shan/tash-rabat"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Kochkor in the day plan"
+      "ru": "Как поставить Кочкор в план дня"
+      "uz": "Kochkorni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Kochkor?"
+          "ru": "Сколько времени группам стоит проводить в Кочкор?"
+          "uz": "Kochkorda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Felt craft before the high road”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Войлочное ремесло перед высокогорной дорогой»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Baland yoʻl oldidagi kigiz hunari»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Kochkor be a walkable core or a base for day trips?"
+          "ru": "Кочкор — это пешеходное ядро или база для выездов?"
+          "uz": "Kochkor piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Kochkor's centre?"
+          "ru": "Где лучше ночевать относительно центра Кочкор?"
+          "uz": "Kochkor markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kyrgyzstan/regions/naryn-song-kul-and-central-tian-shan/cities/kochkor.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Kochkor stop into your Kyrgyzstan programme"
+      "ru": "Встройте остановку «Кочкор» в программу (Кыргызстан)"
+      "uz": "Kochkor bekatini Qirgʻiziston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Kochkor | TourLink"
+    "ru": "Кочкор | TourLink"
+    "uz": "Kochkor | TourLink"
+  "metaDescription":
+    "en": "Kochkor is where the highland road starts to slow down. Wool becomes shyrdak pattern in a hosted craft visit, tea follows the day's drive, and the next morning's plan depends on weather, vehicle, season, and how far the route should climb."
+    "ru": "В Кочкоре высокогорная дорога начинает замедляться. Шерсть превращается в узор шырдака во время согласованного визита к мастеру, после дневного переезда появляется чай, а утренний план зависит от погоды, машины, сезона и того, насколько высоко должен подняться маршрут."
+    "uz": "Kochkorda baland yoʻl sekinlashishni boshlaydi. Jun mezbonli hunarmandchilik tashrifida shyrdak naqshiga aylanadi, kunlik yoʻldan keyin choy paydo boʻladi, ertangi reja esa ob-havo, avtomobil, mavsum va yoʻnalish qanchalik balandga chiqishiga bogʻliq boʻladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kyrgyzstan"
+"region": "naryn-song-kul-and-central-tian-shan"
+"latitude": 42.2131802
+"longitude": 75.7540941

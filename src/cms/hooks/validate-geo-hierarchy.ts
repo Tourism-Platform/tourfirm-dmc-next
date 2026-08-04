@@ -39,6 +39,10 @@ export const validateCityHierarchy: CollectionBeforeValidateHook = async ({
 	data,
 	req
 }) => {
+	if (req.context?.isSeed) {
+		return data;
+	}
+
 	if (!data) {
 		return data;
 	}
@@ -74,6 +78,10 @@ export const validateCityHierarchy: CollectionBeforeValidateHook = async ({
 
 export const validateAttractionHierarchy: CollectionBeforeValidateHook =
 	async ({ data, req }) => {
+		if (req.context?.isSeed) {
+			return data;
+		}
+
 		if (!data) {
 			return data;
 		}
@@ -146,6 +154,10 @@ export const validateAttractionHierarchy: CollectionBeforeValidateHook =
 
 export const validateExperienceHierarchy: CollectionBeforeValidateHook =
 	async ({ data, req }) => {
+		if (req.context?.isSeed) {
+			return data;
+		}
+
 		if (!data) {
 			return data;
 		}

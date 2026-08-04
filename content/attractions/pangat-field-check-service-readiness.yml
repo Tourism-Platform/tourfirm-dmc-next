@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "pangat-field-check-service-readiness"
+  "ru": "pangat-field-check-service-readiness"
+  "uz": "pangat-field-check-service-readiness"
+"title":
+  "en": "Pangat visit shape"
+  "ru": "Форма визита в Пангат"
+  "uz": "Pangat tashrifi shakli"
+"subtitle":
+  "en": "A simple local pause before the return"
+  "ru": "Простая местная пауза перед возвращением"
+  "uz": "Qaytishdan oldingi oddiy mahalliy pauza"
+"excerpt":
+  "en": "Meals, a short walk, and a quiet welcome make sense only when the Pangat visit has a clear shape for the travel date."
+  "ru": "Еда, короткая прогулка и тихий приём уместны, когда у визита в Пангат есть понятная форма на дату поездки."
+  "uz": "Taom, qisqa sayr va sokin qabul Pangat tashrifi safar sanasi uchun aniq shaklga ega bo‘lganda maʼnili."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Pangat visit shape"
+      "ru": "Форма визита в Пангат"
+      "uz": "Pangat tashrifi shakli"
+    "title":
+      "en": "Pangat visit shape"
+      "ru": "Форма визита в Пангат"
+      "uz": "Pangat tashrifi shakli"
+    "description":
+      "en": "A simple local pause before the return"
+      "ru": "Простая местная пауза перед возвращением"
+      "uz": "Qaytishdan oldingi oddiy mahalliy pauza"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Pangat visit shape"
+      "ru": "Форма визита в Пангат"
+      "uz": "Pangat tashrifi shakli"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Meals, a short walk, and a quiet welcome make sense only when the Pangat visit has a clear shape for the travel date."
+              "ru": "Еда, короткая прогулка и тихий приём уместны, когда у визита в Пангат есть понятная форма на дату поездки."
+              "uz": "Taom, qisqa sayr va sokin qabul Pangat tashrifi safar sanasi uchun aniq shaklga ega bo‘lganda maʼnili."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Pangat does not need a long programme; it needs a simple shape that feels real for the traveler."
+              "ru": "Пангату не нужна длинная программа; ему нужна простая форма, которая ощущается настоящей для путешественника."
+              "uz": "Pangatga uzun dastur emas, sayohatchi uchun haqiqiy seziladigan sodda shakl zarur."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — A simple local pause before the return."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Простая местная пауза перед возвращением."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Qaytishdan oldingi oddiy mahalliy pauza."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Pangat visit shape as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Форма визита в Пангат как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Pangat tashrifi shakli o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Pangat visit shape sits on the route"
+      "ru": "Где Форма визита в Пангат стоит на маршруте"
+      "uz": "Pangat tashrifi shakli marshrutda qayerda"
+    "description":
+      "en": "One clear point for Pangat visit shape — A simple local pause before the return."
+      "ru": "Одна понятная точка для «Форма визита в Пангат» — Простая местная пауза перед возвращением."
+      "uz": "Pangat tashrifi shakli uchun bitta aniq nuqta — Qaytishdan oldingi oddiy mahalliy pauza."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Pangat visit shape"
+        "ru": "Форма визита в Пангат"
+        "uz": "Pangat tashrifi shakli"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.3896357
+      "longitude": 66.5473224
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "pangat-field-check-service-readiness"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Make the small visit feel complete"
+      "ru": "Сделайте небольшой визит цельным"
+      "uz": "Kichik tashrifni butun qiling"
+    "description":
+      "en": "Pangat does not need a long programme; it needs a simple shape that feels real for the traveler.
+
+
+        «Pangat becomes stronger when the visit has one clear human center.»"
+      "ru": "Пангату не нужна длинная программа; ему нужна простая форма, которая ощущается настоящей для путешественника.
+
+
+        «Пангат становится сильнее, когда у визита есть один ясный человеческий центр.»"
+      "uz": "Pangatga uzun dastur emas, sayohatchi uchun haqiqiy seziladigan sodda shakl zarur.
+
+
+        «Pangat tashrifida bitta aniq insoniy markaz bo‘lsa, u kuchliroq bo‘ladi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimani ko‘rasiz"
+    "title":
+      "en": "Welcome, simple table, and short walk"
+      "ru": "Приём, простой стол и короткая прогулка"
+      "uz": "Qabul, oddiy dasturxon va qisqa sayr"
+    "description":
+      "en": "The strongest Pangat visit is built from small details that make the stop feel personal."
+      "ru": "Сильный визит в Пангат складывается из маленьких деталей, которые делают остановку личной."
+      "uz": "Kuchli Pangat tashrifi bekatni shaxsiy qiladigan kichik detallardan tuziladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Shape the pause around people"
+      "ru": "Соберите паузу вокруг людей"
+      "uz": "Pauzani odamlar atrofida tuzing"
+    "description":
+      "en": "Keep Pangat focused on one human welcome, one small table, one walk, and the return."
+      "ru": "Сфокусируйте Пангат на одном человеческом приёме, небольшом столе, прогулке и возвращении."
+      "uz": "Pangatni bitta insoniy qabul, kichik dasturxon, sayr va qaytishga qarating."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qo‘shiladi"
+    "title":
+      "en": "What can support the visit shape"
+      "ru": "Что поддерживает форму визита"
+      "uz": "Tashrif shaklini nima qo‘llaydi"
+    "description":
+      "en": "Pair this stop with nearby Pangat details that strengthen the same modest visit."
+      "ru": "Сочетайте эту остановку с деталями Пангата, которые усиливают тот же скромный визит."
+      "uz": "Bu bekatni o‘sha kamtar tashrifni kuchaytiradigan Pangat detallari bilan juftlang."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Qo‘shrabot-side ovul setting"
+          "ru": "Овульная среда со стороны Кушрабада"
+          "uz": "Qo‘shrabot tomoni ovul muhiti"
+        "description":
+          "en": "The Qo‘shrabot-side ovul setting explains Pangat as a small northern place with a local welcome, a short walk, and a return tied to Samarkand."
+          "ru": "Овульная среда со стороны Кушрабада объясняет Пангат как небольшое северное место с местным приёмом, короткой прогулкой и возвращением к Самарканду."
+          "uz": "Qo‘shrabot tomoni ovul muhiti Pangatni kichik shimoliy joy sifatida tushuntiradi: mahalliy qabul, qisqa sayr va Samarqandga qaytish."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/pangat/pangat-qoshrabot-ovul-setting"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Sentob-side route direction"
+          "ru": "Направление в сторону Сентоба"
+          "uz": "Sentob tomoni yo‘nalishi"
+        "description":
+          "en": "The Sentob-side direction gives Pangat a wider mountain-road horizon, while the public visit stays modest unless the route and conditions are agreed locally."
+          "ru": "Направление в сторону Сентоба даёт Пангату более широкий горный горизонт, но сам визит остаётся скромным, если маршрут и условия не согласованы на месте."
+          "uz": "Sentob tomoni yo‘nalishi Pangatga kengroq tog‘ yo‘li ufqini beradi, ammo yo‘l va sharoit joyida kelishilmasa, tashrif kamtar qoladi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/pangat/pangat-sentob-route-and-extreme-context"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Pangat visit shape"
+      "ru": "Что агентства спрашивают про Форма визита в Пангат"
+      "uz": "Agentliklar Pangat tashrifi shakli haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Pangat visit shape get in the day plan?"
+          "ru": "Сколько времени закладывать на Форма визита в Пангат в плане дня?"
+          "uz": "Pangat tashrifi shakli uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "a focused half-day with buffer is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “A simple local pause before the return”."
+          "ru": "Для большинства групп реалистичный диапазон — полдня с запасом. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Простая местная пауза перед возвращением»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — zaxira bilan yarim kun. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Qaytishdan oldingi oddiy mahalliy pauza»."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "When is Pangat visit shape strongest during the day?"
+          "ru": "В какое время дня Форма визита в Пангат раскрывается сильнее?"
+          "uz": "Pangat tashrifi shakli kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer early morning or late afternoon. That usually improves comfort, photos, and how the stop feels in the sequence around pangat."
+          "ru": "Лучше рано утром или ближе к вечеру. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с pangat."
+          "uz": "erta tong yoki kechga yaqin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (pangat atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "How should Pangat visit shape sit next to nearby stops?"
+          "ru": "Как поставить Форма визита в Пангат рядом с соседними остановками?"
+          "uz": "Pangat tashrifi shaklini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Pangat visit shape to your Uzbekistan programme"
+      "ru": "Добавьте «Форма визита в Пангат» в программу (Узбекистан)"
+      "uz": "Pangat tashrifi shaklini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Pangat visit shape | TourLink"
+    "ru": "Форма визита в Пангат | TourLink"
+    "uz": "Pangat tashrifi shakli | TourLink"
+  "metaDescription":
+    "en": "Meals, a short walk, and a quiet welcome make sense only when the Pangat visit has a clear shape for the travel date."
+    "ru": "Еда, короткая прогулка и тихий приём уместны, когда у визита в Пангат есть понятная форма на дату поездки."
+    "uz": "Taom, qisqa sayr va sokin qabul Pangat tashrifi safar sanasi uchun aniq shaklga ega bo‘lganda maʼnili."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "samarkand-region"
+"city": "pangat"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 40.3896357
+"longitude": 66.5473224

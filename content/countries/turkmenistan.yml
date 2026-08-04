@@ -1,79 +1,604 @@
-# Seed: коллекция countries — Turkmenistan
+# Generated from scrape/turkmenistan (multi-locale)
+"slug":
+  "en": "turkmenistan"
+  "ru": "turkmenistan"
+  "uz": "turkmenistan"
+"title":
+  "en": "Turkmenistan"
+  "ru": "Туркменистан"
+  "uz": "Turkmaniston"
+"subtitle":
+  "en": "Marble capital, oasis ruins, and desert roads"
+  "ru": "Мраморная столица, оазисные руины и пустынные дороги"
+  "uz": "Marmar poytaxt, voha xarobalari va cho‘l yo‘llari"
+"excerpt":
+  "en": "Turkmenistan opens through distance: Ashgabat's white avenues lead to Nisa's Parthian earthworks.
 
-slug:
-  en: turkmenistan
-  ru: turkmenistan
-  uz: turkmenistan
-title:
-  en: Turkmenistan
-  ru: Туркменистан
-  uz: Turkmaniston
-subtitle:
-  en: Permits considered
-  ru: С учётом разрешений
-  uz: Ruxsatlar hisobga olinadi
-excerpt:
-  en: Desert cities and ancient empires
-  ru: Пустынные города и древние империи
-  uz: Cho'l shaharlari va qadimiy imperiyalar
-mapCenter:
-  latitude: 37.9601
-  longitude: 58.3261
-heroImage: assets/images/destinations/turkmenistan.jpg
-badges:
-  - EDITOR_CHOICE
-blocks:
-  - blockType: hero
-    image: assets/images/destinations/turkmenistan.jpg
-    imageAlt:
-      en: Ashgabat and the Karakum desert horizon
-      ru: Ашхабад и горизонт пустыни Каракумы
-      uz: Ashgabat va Qoraqum cho'li ufqasi
-    title:
-      en: Turkmenistan
-      ru: Туркменистан
-      uz: Turkmaniston
-    description:
-      en: Desert cities and ancient empires
-      ru: Пустынные города и древние империи
-      uz: Cho'l shaharlari va qadimiy imperiyalar
-    note:
-      en: A distinctive route where permits, timing, and desert logic matter as much as the monuments.
-      ru: Особый маршрут, где разрешения, сроки и пустынная логика важны не меньше памятников.
-      uz: Ruxsatlar, muddatlar va cho'l mantig'i yodgorliklar bilan bir qadar muhim bo'lgan o'ziga xos marshrut.
-    actions:
-      - type: mailto
-        variant: default
-        title:
-          en: Request a tour
-          ru: Запросить тур
-          uz: Tur so'rash
-        email: info@tourlink.uz
-  - blockType: regular
-    eyebrow:
-      en: Key cities
-      ru: Ключевые города
-      uz: Asosiy shaharlar
-    title:
-      en: Where routes usually start
-      ru: Откуда обычно начинаются маршруты
-      uz: Marshrutlar odatda qayerdan boshlanadi
-    description:
-      en: "Ashgabat, Nisa, Merv, and Darvaza — white marble capital, Parthian ruins, Silk Road empire, and the desert gate."
-      ru: "Ашхабад, Ниса, Мерв и Дарваза — мраморная столица, парфянские руины, империя Шёлкового пути и врата пустыни."
-      uz: "Ashgabat, Nisa, Merv va Darvaza — oq marmar poytaxt, Parfiya xarabalari, ipak yo'li imperiyasi va cho'l darvozasi."
-seo:
-  metaTitle:
-    en: Turkmenistan tours | TourLink
-    ru: Туры в Туркменистан | TourLink
-    uz: Turkmanistonda turlar | TourLink
-  metaDescription:
-    en: Desert cities, Merv, and Darvaza — Turkmenistan routes planned with permits in mind by TourLink DMC.
-    ru: Пустынные города, Мерв и Дарваза — маршруты по Туркменистану с учётом разрешений от DMC TourLink.
-    uz: Cho'l shaharlari, Merv va Darvaza — ruxsatlar hisobga olingan TourLink DMC marshrutlari.
-  structuredDataType: TouristDestination
-status:
-  showInSitemap: true
-  noindex: false
-  hideFromNavigation: false
-  publishedAt: "2025-06-01"
+
+    Mary and Ancient Merv widen the route into oasis ruins, Seljuk brick, desert light, and a northern turn toward Kunya-Urgench."
+  "ru": "Туркменистан открывается через расстояние: белые проспекты Ашхабада ведут к парфянской Нисе.
+
+
+    Мары и древний Мерв расширяют маршрут к оазисным руинам, сельджукскому кирпичу, свету пустыни и северному повороту к Куня-Ургенчу."
+  "uz": "Turkmaniston masofa orqali ochiladi: Ashxobodning oq xiyobonlari Parfiya Nisasiga olib boradi.
+
+
+    Mari va qadimiy Marv yoʻlni voha xarobalari, saljuqiy gʻisht, choʻl yorugʻi va Koʻhna Urganch tomon kengaytiradi."
+"heroImage": "assets/images/destinations/turkmenistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "imageAlt":
+      "en": "Turkmenistan"
+      "ru": "Туркменистан"
+      "uz": "Turkmaniston"
+    "title":
+      "en": "Turkmenistan"
+      "ru": "Туркменистан"
+      "uz": "Turkmaniston"
+    "description":
+      "en": "Ashgabat, Nisa, Mary and Merv — capitals, ruins, and desert distance."
+      "ru": "Ашхабад, Ниса, Мары и Мерв — столица, руины и пустынные расстояния."
+      "uz": "Ashxobod, Niso, Mari va Marv — poytaxt, xarobalar va cho‘l masofalari."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О стране"
+      "uz": "Mamlakat haqida"
+    "title":
+      "en": "Turkmenistan"
+      "ru": "Туркменистан"
+      "uz": "Turkmaniston"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Turkmenistan opens through distance — white avenues, Parthian earthworks, oasis ruins and desert light."
+              "ru": "Туркменистан открывается через расстояние — белые проспекты, парфянские укрепления, оазисные руины и пустынный свет."
+              "uz": "Turkmaniston masofa orqali ochiladi — oq xiyobonlar, parfiy istehkomlari, voha xarobalari va choʻl nuri."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Ashgabat sets the capital frame; Nisa brings Parthian depth just outside the city; Mary and Ancient Merv widen the journey into oasis ruins and Seljuk brick; the north can turn toward Kunya-Urgench. Documents, season and route order must be settled before the road begins — that calm is part of the product."
+              "ru": "Ашхабад задаёт столичную рамку; Ниса рядом с городом открывает парфянскую глубину; Мары и Древний Мерв расширяют путь в оазисные руины и сельджукский кирпич; на севере возможен поворот к Куня-Ургенчу. Документы, сезон и порядок маршрута решают до начала дороги — это спокойствие и есть часть продукта."
+              "uz": "Ashxobod poytaxt doirasini beradi; Niso shahar yonida parfiy chuqurligini ochadi; Mari va Qadimgi Marv voha xarobalari va saljuqiy gʻishtga yoʻlni kengaytiradi; shimolda Kunya-Urganch tomon burilish mumkin. Hujjatlar, mavsum va marshrut tartibi yoʻl boshlanishidan oldin hal qilinadi — shu sokinlik mahsulotning qismi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Clear entry logic, realistic desert and oasis pacing, and a sequence that never rushes the ruins."
+              "ru": "Понятная логика въезда, реалистичный темп пустыни и оазиса и последовательность, которая не торопит руины."
+              "uz": "Aniq kirish mantigʻi, choʻl va vohaning real surʼati va xarobalarni shoshiltirmaydigan ketma-ketlik."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Clients seeking a rarer Central Asia chapter — and agencies that need paperwork and pacing handled with the same care as the monuments."
+              "ru": "Клиентам, которым нужна более редкая глава Центральной Азии, и агентствам, где документы и темп ведут с той же тщательностью, что и памятники."
+              "uz": "Markaziy Osiyoning kamroq uchraydigan bobini izlagan mijozlar va hujjatlar hamda surʼatni yodgorliklardek ehtiyot bilan yuritadigan agentliklar."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Route logic"
+      "ru": "Логика маршрута"
+      "uz": "Yo‘nalish mantig‘i"
+    "title":
+      "en": "How routes take shape in Turkmenistan"
+      "ru": "Как складывается маршрут по Туркменистану"
+      "uz": "Turkmaniston bo‘ylab yo‘nalish qanday tuziladi"
+    "description":
+      "en": "Read the country through anchors rather than a checklist: Ashgabat for arrival, Nisa for the Parthian turn, Mary and Ancient Merv for the oasis route, and Kunya-Urgench when the journey goes north."
+      "ru": "Смотрите на страну через опоры, а не через список мест: Ашхабад для прибытия, Ниса для парфянского поворота, Мары и древний Мерв для оазисного маршрута, Куня-Ургенч для северного продолжения."
+      "uz": "Mamlakatni ro‘yxat emas, tayanchlar orqali o‘qing: Ashxobod kelish uchun, Nisa Parfiya burilishi uchun, Mari va qadimiy Marv voha yo‘li uchun, Ko‘hna Urganch esa yo‘l shimolga chiqqanda."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route anchors"
+        "ru": "Ориентиры маршрута"
+        "uz": "Yo‘nalish tayanchlari"
+      "title":
+        "en": "Capital, ancient sites, and the northern extension"
+        "ru": "Столица, древние места и северное продолжение"
+        "uz": "Poytaxt, qadimiy joylar va shimoliy davom"
+      "description":
+        "en": "The map shows Ashgabat, Nisa, Mary, Ancient Merv, and Kunya-Urgench as the country route anchors; exact access, flights, roads, and site timing still need current checks."
+        "ru": "Карта показывает Ашхабад, Нису, Мары, древний Мерв и Куня-Ургенч как опоры маршрута по стране; доступ, перелёты, дороги и время площадок всё равно нужно проверять перед поездкой."
+        "uz": "Xaritada Ashxobod, Nisa, Mari, qadimiy Marv va Ko‘hna Urganch mamlakat yo‘nalishining tayanchlari sifatida ko‘rinadi; kirish, parvoz, yo‘l va obyekt vaqti safar oldidan yana tekshiriladi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.3775
+      "longitude": 64.5853
+    "zoom": 6
+    "stops":
+      - "entityType": "region"
+        "entitySlug": "ashgabat-and-nisa"
+      - "entityType": "region"
+        "entitySlug": "mary-and-ancient-merv"
+      - "entityType": "region"
+        "entitySlug": "balkan-caspian-and-yangykala"
+      - "entityType": "region"
+        "entitySlug": "dashoguz-and-kunya-urgench"
+      - "entityType": "region"
+        "entitySlug": "karakum-and-darvaza"
+      - "entityType": "region"
+        "entitySlug": "lebap-and-amu-darya-east"
+    "aside":
+      "eyebrow":
+        "en": "Route rhythm"
+        "ru": "Ритм маршрута"
+        "uz": "Yo‘nalish surʼati"
+      "title":
+        "en": "Set documents, distance, and heat first"
+        "ru": "Сначала документы, расстояние и жара"
+        "uz": "Avval hujjat, masofa va issiq"
+      "description":
+        "en": "Entry rules, long roads, exposed ruins, and museum hours decide the shape of the route before the sightseeing list does."
+        "ru": "Правила въезда, длинные дороги, открытые руины и часы работы музеев задают форму маршрута раньше, чем список осмотра."
+        "uz": "Kirish qoidalari, uzun yo‘llar, ochiq xarobalar va muzey soatlari ko‘rish ro‘yxatidan oldin yo‘nalish shaklini belgilaydi."
+      "items":
+        - "title":
+            "en": "Ashgabat gives the first scale"
+            "ru": "Ашхабад задаёт первый масштаб"
+            "uz": "Ashxobod birinchi miqyosni beradi"
+          "description":
+            "en": "Museums, monuments, broad avenues, and the Kopet Dag edge give the first sense of the country."
+            "ru": "Музеи, монументы, широкие проспекты и край Копетдага дают первое ощущение страны."
+            "uz": "Muzeylar, monumentlar, keng xiyobonlar va Kopetdog‘ cheti mamlakatning birinchi hissini beradi."
+          "badge":
+            "en": "arrival"
+            "ru": "прибытие"
+            "uz": "kelish"
+        - "title":
+            "en": "Nisa, Mary, and Merv carry the older story"
+            "ru": "Ниса, Мары и Мерв несут более древнюю историю"
+            "uz": "Nisa, Mari va Marv qadimiyroq hikoyani olib yuradi"
+          "description":
+            "en": "The journey shifts from marble avenues to Parthian earthworks, museum rooms, and the open oasis ground of Ancient Merv."
+            "ru": "Путешествие уходит от мраморных проспектов к парфянским земляным стенам, музейным залам и открытому оазисному пространству древнего Мерва."
+            "uz": "Safar marmar xiyobonlardan Parfiya tuproq devorlari, muzey zallari va qadimiy Marvning ochiq voha maydoniga o‘tadi."
+          "badge":
+            "en": "ancient route"
+            "ru": "древний маршрут"
+            "uz": "qadimiy yo‘l"
+        - "title":
+            "en": "Kunya-Urgench needs a deliberate north turn"
+            "ru": "Куня-Ургенч требует осознанного поворота на север"
+            "uz": "Ko‘hna Urganch shimolga ataylab burilishni so‘raydi"
+          "description":
+            "en": "Minarets, mausoleums, open distances, and transfer timing make the northern heritage route a planned extension, not a quick add-on."
+            "ru": "Минареты, мавзолеи, открытые расстояния и время переездов делают северный маршрут наследия отдельным продолжением, а не быстрым дополнением."
+            "uz": "Minoralar, maqbaralar, ochiq masofalar va transfer vaqti shimoliy meros yo‘lini tez qo‘shimcha emas, alohida davomga aylantiradi."
+          "badge":
+            "en": "northern extension"
+            "ru": "северное продолжение"
+            "uz": "shimoliy davom"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route ideas"
+      "ru": "Идеи маршрута"
+      "uz": "Yo‘nalish g‘oyalari"
+    "title":
+      "en": "Turkmenistan route shapes"
+      "ru": "Форматы маршрута по Туркменистану"
+      "uz": "Turkmaniston yo‘nalish shakllari"
+    "description":
+      "en": "Until a full tour set is published, begin with the shape of the journey: capital arrival, Nisa, Mary and Ancient Merv, Kunya-Urgench, and desert roads only when the season and access checks support them."
+      "ru": "Пока полный набор туров не опубликован, начинайте с формы путешествия: прибытие в столицу, Ниса, Мары и древний Мерв, Куня-Ургенч и пустынные дороги только там, где сезон и доступ это позволяют."
+      "uz": "To‘liq tur to‘plami eʼlon qilinmaguncha, safar shaklidan boshlang: poytaxtga kelish, Nisa, Mari va qadimiy Marv, Ko‘hna Urganch hamda mavsum va kirish tekshiruvlari mos kelgandagi cho‘l yo‘llari."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Tourist regions"
+      "ru": "Туристические регионы"
+      "uz": "Turistik hududlar"
+    "title":
+      "en": "Regions of Turkmenistan"
+      "ru": "Регионы Туркменистана"
+      "uz": "Turkmaniston hududlari"
+    "description":
+      "en": "Turkmenistan is easiest to plan through six travel regions: Ashgabat & Nisa, Mary & Ancient Merv, Dashoguz & Kunya-Urgench, Karakum & Darvaza, the Caspian west with Yangykala, and the Amu Darya east toward Koytendag when access is current."
+      "ru": "Туркменистан проще планировать через шесть туристических регионов: Ашхабад и Нису, Мары и древний Мерв, Дашогуз и Куня-Ургенч, Каракумы и Дарвазу, запад Каспия с Янгыкалой и восток Амударьи к Койтендагу, если доступ актуален."
+      "uz": "Turkmanistonni olti turistik hudud orqali rejalash osonroq: Ashxobod va Nisa, Mari va qadimiy Marv, Dashoguz va Ko‘hna Urganch, Qoraqum va Darvoza, Yangiqalʼa bilan Kaspiy g‘arbi hamda kirish imkoniyati dolzarb bo‘lsa, Amudaryo sharqi va Ko‘ytendag."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Ashgabat & Nisa"
+          "ru": "Ашхабад и Ниса"
+          "uz": "Ashgabat va Nisa"
+        "description":
+          "en": "Ashgabat & Nisa is Turkmenistan's capital start: marble avenues, museum rooms, carpet craft, and a short road to Parthian earthworks below the Kopet-Dag foothills."
+          "ru": "Ашхабад и Ниса — столичное начало Туркменистана: мраморные проспекты, музеи, ковровое ремесло и короткая дорога к парфянским стенам у предгорий Копетдага."
+          "uz": "Ashgabat va Nisa Turkmanistonning poytaxtdan boshlanadigan yoʻli: marmar xiyobonlar, muzey xonalari, gilam hunari va Kopetdogʻ togʻoldisidagi Parfiya devorlariga qisqa chiqish."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Mary & Ancient Merv"
+          "ru": "Мары и древний Мерв"
+          "uz": "Mari va qadimiy Marv"
+        "description":
+          "en": "Mary & Ancient Merv turns Turkmenistan toward the Murghab oasis: arrive in Mary, read the museum story, then leave enough time for Merv's open ruins."
+          "ru": "Мары и древний Мерв разворачивают Туркменистан к оазису Мургаб: прибытие в Мары, музейное чтение истории и достаточно времени для руин Мерва под открытым небом."
+          "uz": "Mari va qadimiy Marv Turkmaniston yo‘lini Murg‘ob vohasiga buradi: avval Mariga kelish, muzeyda voha hikoyasini o‘qish, keyin Marvning ochiq xarobalariga yetarli vaqt ajratish."
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Balkan, Caspian & Yangykala"
+          "ru": "Балкан, Каспий и Янгыкала"
+          "uz": "Balkan, Kaspiy va Yangikala"
+        "description":
+          "en": "Balkan, Caspian & Yangykala opens Turkmenistan's western leg through Turkmenbashi, Awaza, Balkanabat, Yangykala Canyon, and heritage stops that need current local checks."
+          "ru": "Балкан, Каспий и Янгыкала открывают западный маршрут Туркменистана: Туркменбаши, Авазу, Балканабат, каньон Янгыкала и места наследия, где нужны актуальные местные проверки."
+          "uz": "Balkan, Kaspiy va Yangikala Turkmanistonning gʻarbiy qismini Turkmenbashi, Avaza, Balkanabat, Yangikala kanyoni va dolzarb mahalliy tekshiruvlar talab qiladigan meros joylari orqali ochadi."
+        "ctaHref": "/destinations/turkmenistan/balkan-caspian-and-yangykala"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Dashoguz & Kunya-Urgench"
+          "ru": "Дашогуз и Куня-Ургенч"
+          "uz": "Dashoguz va Ko‘hna Urganch"
+        "description":
+          "en": "Dashoguz & Kunya-Urgench frames Turkmenistan's northern heritage route: Dashoguz access, old Khorezm's UNESCO monuments, and careful timing for exposed sites."
+          "ru": "Дашогуз и Куня-Ургенч задают северный маршрут Туркменистана: въезд через Дашогуз, памятники старого Хорезма ЮНЕСКО, жара и большие расстояния."
+          "uz": "Dashoguz va Ko‘hna Urganch Turkmanistonning shimoliy meros yo‘lini belgilaydi: Dashoguz orqali kirish, eski Xorazmning UNESCO yodgorliklari, issiq va keng masofa."
+        "ctaHref": "/destinations/turkmenistan/dashoguz-and-kunya-urgench"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Karakum & Darvaza"
+          "ru": "Каракумы и Дарваза"
+          "uz": "Lebap va Amudaryoning sharqi"
+        "description":
+          "en": "Karakum & Darvaza turns Turkmenistan's desert crossing into a route decision: long road hours, Yerbent, the Darvaza crater area, and overnight plans that need current access and safety checks."
+          "ru": "Каракумы и Дарваза превращают пустынный переезд по Туркменистану в отдельное решение: долгую дорогу, Ербент, район кратера Дарваза и ночёвку, которая требует актуальной проверки доступа и безопасности."
+          "uz": "Lebap va Amudaryoning sharqi Amudaryo bo‘yidagi Turkmanobod va qadimiy Amuldan boshlanadi; Koytendag esa yo‘l, gid, mavsum va borish sharoiti tekshirilganda qo‘shiladi."
+        "ctaHref": "/destinations/turkmenistan/karakum-and-darvaza"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Lebap & Amu Darya East"
+          "ru": "Лебап и восток Амударьи"
+          "uz": "Qoraqum va Darvoza"
+        "description":
+          "en": "Lebap & Amu Darya East follows the Amu Darya to Turkmenabat and ancient Amul, then turns toward Koytendag only when roads, guides, season, and access are current."
+          "ru": "Лебап и восток Амударьи ведут маршрут к реке: Туркменабат и древний Амуль дают историю переправ, а Койтендаг добавляется только после проверки дорог, гидов, сезона и доступа."
+          "uz": "Qoraqum va Darvoza Turkmaniston bo‘ylab cho‘l kesimini alohida qarorga aylantiradi: uzoq yo‘l, Yerbent, Darvoza krateri hududi va joriy kirish hamda xavfsizlik tekshiruvidan keyingi tunash rejasi."
+        "ctaHref": "/destinations/turkmenistan/lebap-and-amu-darya-east"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "When to go"
+      "ru": "Когда ехать"
+      "uz": "Qachon borish"
+    "title":
+      "en": "Seasonal rhythm"
+      "ru": "Сезонный ритм"
+      "uz": "Mavsumiy surʼat"
+    "description":
+      "en": "Heat, desert comfort, short daylight, and site access change the country quickly; the right season depends on how much open road the journey needs."
+      "ru": "Жара, комфорт в пустыне, короткий световой день и доступ к площадкам быстро меняют страну; правильный сезон зависит от того, сколько открытой дороги нужно маршруту."
+      "uz": "Issiq, cho‘l qulayligi, qisqa kunduz va joylarga kirish mamlakatni tez o‘zgartiradi; to‘g‘ri mavsum yo‘nalishga qancha ochiq yo‘l kerakligiga bog‘liq."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-4"
+    "cards":
+      - "type": "tripFormat"
+        "icon": "Flower2"
+        "badge":
+          "en": "Spring March-May"
+          "ru": "Весна март-май"
+          "uz": "Bahor mart-may"
+        "title":
+          "en": "Spring"
+          "ru": "Весна"
+          "uz": "Bahor"
+        "description":
+          "en": "March to May is the easiest first window. April is usually the clearest month for Nisa, Merv, Kunya-Urgench, and desert roads; March can be cool, and late May already needs early starts and quieter midday hours."
+          "ru": "Март-май — самый простой первый сезон. Апрель обычно лучше всего подходит для Нисы, Мерва, Куня-Ургенча и пустынных дорог; в марте может быть прохладно, а к концу мая уже нужны ранние выезды и более тихие часы в середине дня."
+          "uz": "Mart-may eng oson birinchi davr. Aprel odatda Nisa, Marv, Ko‘hna Urganch va cho‘l yo‘llari uchun eng ravshan oy; mart salqin bo‘lishi mumkin, may oxirida esa erta chiqish va sokinroq tushki soatlar kerak bo‘ladi."
+      - "type": "tripFormat"
+        "icon": "Sun"
+        "badge":
+          "en": "Summer June-August"
+          "ru": "Лето июнь-август"
+          "uz": "Yoz iyun-avgust"
+        "title":
+          "en": "Summer"
+          "ru": "Лето"
+          "uz": "Yoz"
+        "description":
+          "en": "June to August is difficult for classic touring. Keep plans compact, avoid long exposed visits, and treat any Caspian plan separately from inland desert travel."
+          "ru": "Июнь-август сложны для классического маршрута. Программу лучше держать компактной, избегать долгих открытых осмотров и рассматривать Каспий отдельно от внутренней пустыни."
+          "uz": "Iyun-avgust klassik sayohat uchun murakkab. Rejani ixcham tuting, uzoq ochiq tashriflardan qoching va Kaspiy rejalarini ichki cho‘l yo‘lidan alohida ko‘ring."
+      - "type": "tripFormat"
+        "icon": "Leaf"
+        "badge":
+          "en": "Autumn September-November"
+          "ru": "Осень сентябрь-ноябрь"
+          "uz": "Kuz sentabr-noyabr"
+        "title":
+          "en": "Autumn"
+          "ru": "Осень"
+          "uz": "Kuz"
+        "description":
+          "en": "October is the strongest autumn window: desert roads become easier, ruin sites lose some harsh heat, and long transfers feel less punishing. September still needs caution; November suits shorter cultural routes."
+          "ru": "Октябрь — самое сильное осеннее окно: пустынные дороги становятся легче, на руинах меньше жёсткой жары, а длинные переезды воспринимаются спокойнее. В сентябре ещё нужна осторожность; ноябрь лучше подходит для коротких культурных маршрутов."
+          "uz": "Oktabr eng kuchli kuzgi davr: cho‘l yo‘llari yengillashadi, xarobalarda qattiq issiq kamayadi, uzun transferlar sokinroq seziladi. Sentabrda hali ehtiyot kerak; noyabr qisqaroq madaniy yo‘nalishlarga mos."
+      - "type": "tripFormat"
+        "icon": "Snowflake"
+        "badge":
+          "en": "Winter December-February"
+          "ru": "Зима декабрь-февраль"
+          "uz": "Qish dekabr-fevral"
+        "title":
+          "en": "Winter"
+          "ru": "Зима"
+          "uz": "Qish"
+        "description":
+          "en": "Winter can suit Ashgabat, Nisa, and selected main-road sites, but remote desert plans need flexibility. Cold nights and shorter daylight should shape the route."
+          "ru": "Зима подходит для Ашхабада, Нисы и отдельных площадок на основных дорогах, но удалённые пустынные планы требуют гибкости. Холодные ночи и короткий световой день должны влиять на маршрут."
+          "uz": "Qish Ashxobod, Nisa va asosiy yo‘llardagi ayrim joylarga mos keladi, ammo uzoq cho‘l rejalariga moslashuvchanlik kerak. Sovuq tunlar va qisqa kunduz yo‘nalish shakliga taʼsir qilishi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Planning basics"
+      "ru": "Планирование"
+      "uz": "Rejalash asoslari"
+    "title":
+      "en": "Practical starting points"
+      "ru": "Практичные ориентиры"
+      "uz": "Amaliy boshlang‘ich nuqtalar"
+    "description":
+      "en": ""
+      "ru": ""
+      "uz": ""
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-4"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "Passport"
+        "title":
+          "en": "Visa"
+          "ru": "Виза"
+          "uz": "Viza"
+        "description":
+          "en": "Visa Invitation and entry checks
+
+
+            Start with passport, dates, and invitation requirements. Turkmenistan entry rules can shape the route before the first hotel or road leg is settled."
+          "ru": "Виза Приглашение и въезд
+
+
+            Начинайте с паспорта, дат и требований к приглашению. Правила въезда в Туркменистан могут определить маршрут раньше первого отеля или дорожного участка."
+          "uz": "Viza Taklifnoma va kirish tekshiruvi
+
+
+            Pasport, sanalar va taklifnoma talablari bilan boshlang. Turkmanistonga kirish qoidalari birinchi mehmonxona yoki yo‘l qismidan oldin yo‘nalishni belgilashi mumkin."
+      - "type": "destinationInsight"
+        "icon": "Wallet"
+        "title":
+          "en": "Money"
+          "ru": "Деньги"
+          "uz": "Pul"
+        "description":
+          "en": "Money Manat and cash
+
+
+            Plan local cash in manat; card and ATM reliability can vary outside controlled city settings."
+          "ru": "Деньги Манат и наличные
+
+
+            Планируйте наличные в манатах; надёжность карт и банкоматов может меняться вне контролируемых городских условий."
+          "uz": "Pul Manat va naqd pul
+
+
+            Manatda mahalliy naqd pulni rejalang; karta va bankomat ishonchliligi yirik shahar muhitidan tashqarida o‘zgarishi mumkin."
+      - "type": "destinationInsight"
+        "icon": "ShieldCheck"
+        "title":
+          "en": "Safety"
+          "ru": "Безопасность"
+          "uz": "Xavfsizlik"
+        "description":
+          "en": "Safety Calm with structure
+
+
+            Travel feels easier when heat, distance, rules, and guiding are handled clearly. The goal is not speed, but a measured route you can enjoy."
+          "ru": "Безопасность Спокойно, если всё выстроено"
+          "uz": "Xavfsizlik Tartib bilan sokinroq
+
+
+            Issiq, masofa, qoidalar va gidlik oldindan aniq bo‘lsa, sayohat yengilroq kechadi. Maqsad tezlik emas, siz sokin his qiladigan o‘lchangan yo‘nalishdir."
+      - "type": "destinationInsight"
+        "icon": "Train"
+        "title":
+          "en": "Transport"
+          "ru": "Транспорт"
+          "uz": "Transport"
+        "description":
+          "en": "Transport Flights, roads, and permits
+
+
+            Domestic flights can shorten the map; desert and northern sections need the right vehicle, current access checks, and timing built around light and heat."
+          "ru": "Транспорт Перелёты, дороги и разрешения
+
+
+            Внутренние перелёты сокращают карту; пустынные и северные участки требуют подходящей машины, свежей проверки доступа и времени, рассчитанного по свету и жаре."
+          "uz": "Транспорт Перелёты, дороги и разрешения
+
+
+            Transport Parvozlar, yo‘llar va ruxsatlar"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Routes in detail"
+      "ru": "Маршруты в деталях"
+      "uz": "Marshrutlar batafsil"
+    "title":
+      "en": "How route pace works in practice"
+      "ru": "Как темп маршрута работает на практике"
+      "uz": "Marshrut sur’ati amalda qanday ishlaydi"
+    "description":
+      "en": "Use these notes to brief clients on transfers and overnight logic in Turkmenistan."
+      "ru": "Используйте эти заметки для брифа клиентов по переездам и логике ночёвок в Туркменистан."
+      "uz": "Ko‘chishlar va tunash mantig‘i bo‘yicha mijoz brifi uchun ushbu izohlardan foydalaning (Turkmaniston)."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many nights work for a first trip to Turkmenistan?"
+          "ru": "Сколько ночей оптимально для первой поездки (Туркменистан)?"
+          "uz": "Turkmanistonga birinchi safar uchun necha tun yetarli?"
+        "description":
+          "en": "For a first programme, 7–10 nights usually holds: keep the classic spine readable, then add one extension only if the season and group pace allow it. Use “Marble capital, oasis ruins, and desert roads” as the brief for what the country actually sells."
+          "ru": "Для первой программы обычно хватает 7–10 ночей: держите классическую линию читаемой и добавляйте одно расширение только если сезон и темп группы позволяют. Ориентир страны — «Мраморная столица, оазисные руины и пустынные дороги»."
+          "uz": "Birinchi dastur uchun odatda 7–10 tun yetadi: klassik chiziqni o‘qiladigan tuting, kengaytmani esa mavsum va guruh sur’ati ruxsat bersagina qo‘shing. Mamlakat brifi — «Marmar poytaxt, voha xarobalari va cho‘l yo‘llari»."
+      - "type": "destinationInsight"
+        "icon": "Bus"
+        "title":
+          "en": "Where are the long transfers in Turkmenistan, and how do you soften them?"
+          "ru": "Где в маршруте по стране «Туркменистан» длинные переезды и как их смягчить?"
+          "uz": "Turkmaniston marshrutida uzun ko‘chishlar qayerda va ularni qanday yumshatish mumkin?"
+        "description":
+          "en": "Plan long road or rail legs as part of the product, not leftovers between hotels. Evening or overnight moves, buffer mornings, and one clear anchor per day keep Turkmenistan sellable for agencies."
+          "ru": "Длинные ж/д или автомобильные участки планируйте как часть продукта, а не как остаток между отелями. Вечерние/ночные переезды, запас утра и один ясный якорь на день делают Туркменистан удобным для агентств."
+          "uz": "Uzun temiryo‘l yoki avto bo‘limlarni mehmonxona orasidagi qoldiq emas, mahsulot qismi qiling. Kechki/tungi ko‘chish, ertalab zaxirasi va kuniga bitta aniq tayanch Turkmanistonni agentliklar uchun sotiladigan qiladi."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How do you mix culture and landscape in Turkmenistan without overload?"
+          "ru": "Как совместить культуру и природу в программе по «Туркменистан» без перегруза?"
+          "uz": "Turkmaniston dasturida madaniyat va tabiatni ortiqcha yuklamasdan qanday birlashtirish mumkin?"
+        "description":
+          "en": "Split the trip into readable chapters: heritage days, then one nature or foothill pause, then return to the main city line. Clients remember clarity more than packing every highlight into one week."
+          "ru": "Делите поездку на читаемые главы: дни наследия, затем одна природная или предгорная пауза, затем возврат к основной городской линии. Клиенты лучше помнят ясность, чем попытку уместить все хайлайты в одну неделю."
+          "uz": "Safarni o‘qiladigan boblarga bo‘ling: meros kunlari, keyin bitta tabiat yoki tog‘oldi pauza, so‘ng asosiy shahar chizig‘iga qaytish. Mijozlar bir haftaga hamma narsani tiqishdan ko‘ra aniqlikni eslaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Plan a route through Turkmenistan with TourLink"
+      "ru": "Спланируйте маршрут по Туркменистану с TourLink"
+      "uz": "TourLink bilan Turkmaniston bo‘ylab marshrut rejalang"
+    "description":
+      "en": "We shape documents, season, and route order into a calm journey before the road begins."
+      "ru": "Собираем документы, сезон и порядок маршрута в спокойное путешествие до начала дороги."
+      "uz": "Hujjatlar, mavsum va yo‘nalish tartibini yo‘l boshlanishidan oldin sokin safarga aylantiramiz."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+"seo":
+  "metaTitle":
+    "en": "Turkmenistan | TourLink"
+    "ru": "Туркменистан | TourLink"
+    "uz": "Turkmaniston | TourLink"
+  "metaDescription":
+    "en": "Turkmenistan opens through distance: Ashgabat's white avenues lead to Nisa's Parthian earthworks.
+
+
+      Mary and Ancient Merv widen the route into oasis ruins, Seljuk brick, desert light, and a northern turn toward Kunya-Urgench."
+    "ru": "Туркменистан открывается через расстояние: белые проспекты Ашхабада ведут к парфянской Нисе.
+
+
+      Мары и древний Мерв расширяют маршрут к оазисным руинам, сельджукскому кирпичу, свету пустыни и северному повороту к Куня-Ургенчу."
+    "uz": "Turkmaniston masofa orqali ochiladi: Ashxobodning oq xiyobonlari Parfiya Nisasiga olib boradi.
+
+
+      Mari va qadimiy Marv yoʻlni voha xarobalari, saljuqiy gʻisht, choʻl yorugʻi va Koʻhna Urganch tomon kengaytiradi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"mapCenter":
+  "latitude": 38.695396
+  "longitude": 59.921947
+"badges":
+  - "FEATURED"
+  - "UNESCO"

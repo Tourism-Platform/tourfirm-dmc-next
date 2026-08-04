@@ -1,0 +1,386 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "fann-mountains-and-zeravshan"
+  "ru": "fann-mountains-and-zeravshan"
+  "uz": "fann-mountains-and-zeravshan"
+"title":
+  "en": "Fann Mountains & Zeravshan"
+  "ru": "Фанские горы и Зеравшан"
+  "uz": "Fan togʻlari va Zarafshon"
+"subtitle":
+  "en": "Sogdian valley history, lake roads, and Fann Mountain air"
+  "ru": "Согдийская долина, озёрные дороги и воздух Фанских гор"
+  "uz": "Sugʻd vodiysi tarixi, koʻl yoʻllari va Fan togʻlari havosi"
+"excerpt":
+  "en": "West of Tajikistan’s main route, Zeravshan opens with the walls of Ancient Penjikent, the early settlement horizon of Sarazm, and the river road toward the Fann Mountains. Penjikent gives the first town-and-market stop; from there, the route turns toward one lake or mountain continuation according to season, road condition, and how much mountain quiet belongs in the journey."
+  "ru": "На западе Таджикистана Зеравшан открывается стенами древнего Пенджикента, ранним поселением Саразма и дорогой к Фанским горам. Пенджикент даёт маршруту городскую и рыночную остановку; дальше путь уходит к одному озёрному или горному продолжению - по сезону, состоянию дороги и тому, сколько горной тишины нужно в поездке."
+  "uz": "Tojikiston gʻarbida Zarafshon qadimiy Panjikent devorlari, Sarazmning ilk manzili va Fan togʻlariga ketadigan yoʻl bilan ochiladi. Panjikent yoʻnalishga shahar va bozor toʻxtamini beradi; keyin yoʻl mavsum, yoʻl holati va safarga qancha togʻ sokinligi kerakligiga qarab bitta ko‘l yoki togʻ davomi tomon buriladi."
+"heroImage": "assets/images/destinations/tajikistan/regions/fann-mountains-and-zeravshan.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan/regions/fann-mountains-and-zeravshan.webp"
+    "imageAlt":
+      "en": "Fann Mountains & Zeravshan"
+      "ru": "Фанские горы и Зеравшан"
+      "uz": "Fan togʻlari va Zarafshon"
+    "title":
+      "en": "Fann Mountains & Zeravshan"
+      "ru": "Фанские горы и Зеравшан"
+      "uz": "Fan togʻlari va Zarafshon"
+    "description":
+      "en": "Sogdian valley history, lake roads, and Fann Mountain air"
+      "ru": "Согдийская долина, озёрные дороги и воздух Фанских гор"
+      "uz": "Sugʻd vodiysi tarixi, koʻl yoʻllari va Fan togʻlari havosi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О регионе"
+      "uz": "Hudud haqida"
+    "title":
+      "en": "Fann Mountains & Zeravshan"
+      "ru": "Фанские горы и Зеравшан"
+      "uz": "Fan togʻlari va Zarafshon"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "West of Tajikistan’s main route, Zeravshan opens with the walls of Ancient Penjikent, the early settlement horizon of Sarazm, and the river road toward the Fann Mountains."
+              "ru": "На западе Таджикистана Зеравшан открывается стенами древнего Пенджикента, ранним поселением Саразма и дорогой к Фанским горам."
+              "uz": "Tojikiston gʻarbida Zarafshon qadimiy Panjikent devorlari, Sarazmning ilk manzili va Fan togʻlariga ketadigan yoʻl bilan ochiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Read the region from valley to high country: Penjikent and Sarazm explain the Zeravshan route, then one mountain continuation - Iskanderkul, Seven Lakes, Artuch, or Alovaddin - gives the journey its pace when road and season fit."
+              "ru": "Читайте регион от долины к высоким местам: Пенджикент и Саразм объясняют Зеравшанскую дорогу, а дальше маршрут выбирает одно горное продолжение - Искандеркуль, Семь озёр, Артуч или Аловаддин, когда подходят сезон и дорога."
+              "uz": "Regionni vodiydan baland joylarga qarab oʻqing: Panjikent va Sarazm Zarafshon yoʻlini tushuntiradi, keyin mavsum va yoʻl mos kelsa bitta togʻ davomi - Iskandarkoʻl, Yetti koʻl, Artuch yoki Alovaddin - safarga surʼat beradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": ""
+              "ru": ""
+              "uz": ""
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Fann Mountains & Zeravshan as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Фанские горы и Зеравшан как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Fan togʻlari va Zarafshon o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Penjikent first, then one mountain road"
+      "ru": "Сначала Пенджикент, потом одна горная дорога"
+      "uz": "Avval Panjikent, keyin bitta togʻ davomi"
+    "description":
+      "en": "Read the region from valley to high country: Penjikent and Sarazm explain the Zeravshan route, then one mountain continuation - Iskanderkul, Seven Lakes, Artuch, or Alovaddin - gives the journey its pace when road and season fit."
+      "ru": "Читайте регион от долины к высоким местам: Пенджикент и Саразм объясняют Зеравшанскую дорогу, а дальше маршрут выбирает одно горное продолжение - Искандеркуль, Семь озёр, Артуч или Аловаддин, когда подходят сезон и дорога."
+      "uz": "Regionni vodiydan baland joylarga qarab oʻqing: Panjikent va Sarazm Zarafshon yoʻlini tushuntiradi, keyin mavsum va yoʻl mos kelsa bitta togʻ davomi - Iskandarkoʻl, Yetti koʻl, Artuch yoki Alovaddin - safarga surʼat beradi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Map anchors"
+        "ru": "Ориентиры на карте"
+        "uz": "Xarita tayanchlari"
+      "title":
+        "en": "Valley, ruins, and first mountain choices"
+        "ru": "Долина, руины и первые горные выборы"
+        "uz": "Vodiy, xarobalar va birinchi togʻ tanlovlari"
+      "description":
+        "en": "The map keeps Penjikent, Ancient Penjikent, Sarazm, and the first lake roads separate, so the region reads as a route choice rather than a transport schedule."
+        "ru": "Карта разводит Пенджикент, древний Пенджикент, Саразм и первые озёрные дороги, чтобы регион был понятен как выбор маршрута, а не расписание переездов."
+        "uz": "Xarita Panjikent, qadimiy Panjikent, Sarazm va birinchi koʻl yoʻllarini alohida ko‘rsatadi; shunda region transport jadvali emas, yoʻnalish tanlovi sifatida tushuniladi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.496134
+      "longitude": 67.572921
+    "zoom": 9
+    "stops":
+      - "entityType": "city"
+        "entitySlug": "penjikent"
+      - "entityType": "attraction"
+        "entitySlug": "ancient-penjikent"
+      - "entityType": "attraction"
+        "entitySlug": "rudaki-museum-in-penjikent"
+    "aside":
+      "eyebrow":
+        "en": "What to decide"
+        "ru": "Что решить"
+        "uz": "Qanday qaror qilish"
+      "title":
+        "en": "Valley anchor, lake choice, mountain time"
+        "ru": "Долина, озеро и горное время"
+        "uz": "Vodiy tayanchi, koʻl tanlovi, togʻ vaqti"
+      "description":
+        "en": ""
+        "ru": ""
+        "uz": ""
+      "items":
+        - "title":
+            "en": "Penjikent"
+            "ru": "Пенджикент"
+            "uz": "Panjikent"
+          "description":
+            "en": "The town holds Ancient Penjikent, Sarazm, museum time, market life, and the first valley stop."
+            "ru": "Город держит древний Пенджикент, Саразм, музейное время, рыночную жизнь и первую остановку в долине."
+            "uz": "Shahar qadimiy Panjikent, Sarazm, muzey vaqti, bozor hayoti va vodiydagi birinchi toʻxtamni ushlab turadi."
+        - "title":
+            "en": "Iskanderkul"
+            "ru": "Искандеркуль"
+            "uz": "Iskandarkoʻl"
+          "description":
+            "en": "Iskanderkul is a lake-area outing with its own road time, often shaped by the Dushanbe side or the Zeravshan road."
+            "ru": "Искандеркуль - озёрный выезд со своим временем в дороге, часто через сторону Душанбе или Зеравшанскую дорогу."
+            "uz": "Iskandarkoʻl oʻz yoʻl vaqtiga ega koʻl hududi chiqishi; u koʻpincha Dushanbe tomoni yoki Zarafshon yoʻli bilan shakllanadi."
+        - "title":
+            "en": "Seven Lakes"
+            "ru": "Семь озёр"
+            "uz": "Yetti koʻl"
+          "description":
+            "en": "Seven Lakes is a road-and-village route, best treated with seasonal access and pacing checks."
+            "ru": "Семь озёр - дорога через сёла и ущелья; её лучше планировать по сезону, доступу и темпу."
+            "uz": "Yetti koʻl qishloqlar va daralar orqali yoʻl; uni mavsum, kirish va surʼat tekshiruvi bilan rejalash yaxshiroq."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region character"
+      "ru": "Характер региона"
+      "uz": "Hudud ruhi"
+    "title":
+      "en": "A valley story that opens to high water"
+      "ru": "История долины, которая выходит к высокой воде"
+      "uz": "Vodiy hikoyasi baland suvga ochiladi"
+    "description":
+      "en": "The region becomes clear when Penjikent and Sarazm set the historical start, then the lakes and high roads slow the journey instead of turning every place into a quick detour."
+      "ru": "Регион становится понятнее, когда Пенджикент и Саразм задают историческое начало, а озёра и высокие дороги замедляют путь вместо того, чтобы превращать каждое место в короткий выезд."
+      "uz": "Region Panjikent va Sarazm tarixiy boshlanishni berganda, keyin koʻllar va baland yoʻllar safarni sekinlashtirganda tushunarli boʻladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region areas"
+      "ru": "Территории региона"
+      "uz": "Hududdagi joylar"
+    "title":
+      "en": "Cities and lake areas in the Fann Mountains & Zeravshan"
+      "ru": "Города и озёрные зоны Фанских гор и Зеравшана"
+      "uz": "Fan togʻlari va Zarafshondagi shaharlar va koʻl hududlari"
+    "description":
+      "en": "Start with Penjikent when the route needs a city anchor. Iskanderkul and Seven Lakes sit beside it as lake-area choices, not as Penjikent-owned sights."
+      "ru": "Начинайте с Пенджикента, если маршруту нужна городская опора. Искандеркуль и Семь озёр стоят рядом как озёрные зоны, а не как достопримечательности Пенджикента."
+      "uz": "Yoʻnalishga shahar tayanchi kerak boʻlsa, Panjikentdan boshlang. Iskandarkoʻl va Yetti koʻl Panjikentga tegishli joylar emas, yonma-yon turgan koʻl hududlari sifatida oʻqiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan/regions/fann-mountains-and-zeravshan/cities/penjikent.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Penjikent"
+          "ru": "Пенджикент"
+          "uz": "Panjikent"
+        "description":
+          "en": "Penjikent sits where the Zeravshan Valley changes from border road to mountain approach. Ancient walls above town, Sarazm nearby, a small museum, and a working market make the city a useful start before the Fann lake roads."
+          "ru": "Пенджикент стоит там, где Зеравшанская долина меняет пограничную дорогу на подход к горам. Древние стены над городом, Саразм рядом, небольшой музей и работающий рынок делают город важным началом перед дорогами к озёрам."
+          "uz": "Panjikent Zarafshon vodiysi chegara yo‘lidan tog‘larga kirishga o‘tadigan joyda turadi. Shahar ustidagi qadimiy devorlar, yaqin Sarazm, kichik muzey va ishlayotgan bozor uni ko‘l yo‘llaridan oldingi muhim boshlanishga aylantiradi."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/penjikent"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Cultural anchors before the lake roads"
+      "ru": "Культурные ориентиры перед озёрными дорогами"
+      "uz": "Koʻl yoʻllaridan oldingi madaniy tayanchlar"
+    "description":
+      "en": "Ancient Penjikent, Sarazm, and the Rudaki Museum give the region its Sogdian and local-history start; after them, the route can turn toward Iskanderkul, Seven Lakes, or other Fann Mountain choices."
+      "ru": "Древний Пенджикент, Саразм и музей Рудаки дают региону согдийское и местное историческое начало; после них маршрут может повернуть к Искандеркулю, Семи озёрам или другим горным продолжениям."
+      "uz": "Qadimiy Panjikent, Sarazm va Rudakiy muzeyi regionga Sugʻd va mahalliy tarix boshlanishini beradi; ulardan keyin yoʻl Iskandarkoʻl, Yetti koʻl yoki Fan togʻlaridagi boshqa davomlarga burilishi mumkin."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Proto-urban Site of Sarazm"
+          "ru": "Протогородище Саразм"
+          "uz": "Sarazm protoshahar yodgorligi"
+        "description":
+          "en": "Near Penjikent, Sarazm takes the Zeravshan story back to the 4th and 3rd millennia BCE. The site is quiet at first glance; with the chronology in mind, its protected remains become early houses, work areas, metalworking, and exchange across Central Asia."
+          "ru": "Рядом с Пенджикентом Саразм уводит историю Зеравшана к IV-III тысячелетиям до н. э. Снаружи место кажется тихим, но с понятной хронологией его защищённые остатки складываются в ранние жилища, рабочие зоны, металлургию и обмен по Центральной Азии."
+          "uz": "Panjikent yaqinidagi Sarazm Zarafshon hikoyasini miloddan avvalgi IV-III ming yilliklarga qaytaradi. Avvaliga joy sokin koʻrinadi, lekin vaqt tartibi tushunarli boʻlsa, himoyalangan qoldiqlarda ilk uylar, ish maydonlari, metall ishlovi va Markaziy Osiyo boʻylab almashinuv koʻrina"
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/penjikent/proto-urban-site-of-sarazm"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Ancient Penjikent"
+          "ru": "Древний Пенджикент"
+          "uz": "Qadimiy Panjikent"
+        "description":
+          "en": "Ancient Penjikent sits above the modern town, with the Zeravshan Valley below and the mountain roads beyond. Walk it slowly: the low walls, palace and temple traces, and open view need time and explanation."
+          "ru": "Древний Пенджикент лежит над современным городом, с Зеравшанской долиной внизу и горными дорогами дальше. Здесь нужен неспешный шаг: низкие стены, следы дворца и храмов и открытый вид раскрываются с пояснением."
+          "uz": "Qadimiy Panjikent zamonaviy shahar ustida, pastda Zarafshon vodiysi va uzoqda togʻ yoʻllari bilan turadi. Bu yerda sekin yurish kerak: past devorlar, saroy va ibodatxona izlari hamda ochiq manzara izoh bilan yaxshiroq ochiladi."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/penjikent/ancient-penjikent"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Rudaki Museum in Penjikent"
+          "ru": "Музей Рудаки в Пенджикенте"
+          "uz": "Panjikentdagi Rudakiy muzeyi"
+        "description":
+          "en": "Inside the town, the museum gives names and objects to the archaeology outside. Rudaki's literary memory, local history rooms, and excavated material make Penjikent feel less like separate sites and more like a place with its own memory."
+          "ru": "В городе музей даёт археологии имена и предметы. Память Рудаки, местная история и найденные материалы помогают воспринимать Пенджикент не как набор площадок, а как город со своей памятью."
+          "uz": "Shahar ichida muzey tashqaridagi arxeologiyaga ism va buyumlar beradi. Rudakiy xotirasi, mahalliy tarix va topilmalar Panjikentni faqat joylar ketma-ketligi emas, oʻz xotirasi bor shahar sifatida koʻrsatadi."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/penjikent/rudaki-museum-in-penjikent"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region in detail"
+      "ru": "Регион в деталях"
+      "uz": "Hudud batafsil"
+    "title":
+      "en": "Practical questions about Fann Mountains & Zeravshan"
+      "ru": "Практические вопросы о регионе Фанские горы и Зеравшан"
+      "uz": "Fan togʻlari va Zarafshon hududi bo‘yicha amaliy savollar"
+    "description":
+      "en": "Pace, season, and how this region connects to the next stop."
+      "ru": "Темп, сезон и как регион стыкуется со следующей остановкой."
+      "uz": "Sur’at, mavsum va hududning keyingi bekat bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many days does Fann Mountains & Zeravshan need in a programme?"
+          "ru": "Сколько дней нужно региону Фанские горы и Зеравшан в программе?"
+          "uz": "Fan togʻlari va Zarafshon hududi dasturda necha kun olishi kerak?"
+        "description":
+          "en": "2–4 days usually works if you keep one strong core and treat outer stops as deliberate choices. The region brief is “Sogdian valley history, lake roads, and Fann Mountain air”."
+          "ru": "Обычно хватает 2–4 дня, если держать одно сильное ядро, а внешние остановки выбирать осознанно. Кратко о регионе: «Согдийская долина, озёрные дороги и воздух Фанских гор»."
+          "uz": "Odatda 2–4 kun yetadi — bitta kuchli yadro va tashqi bekatlarni ongli tanlov qiling. Hudud brifi: «Sugʻd vodiysi tarixi, koʻl yoʻllari va Fan togʻlari havosi»."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "What should come before and after Fann Mountains & Zeravshan?"
+          "ru": "Что ставить до и после региона Фанские горы и Зеравшан?"
+          "uz": "Fan togʻlari va Zarafshondan oldin va keyin nima qo‘yish kerak?"
+        "description":
+          "en": "Use neighbouring cities as clean handovers: arrive with a calm first night, leave after one completed chapter, and avoid stacking two long transfers on the same day."
+          "ru": "Соседние города держите как чистые стыки: приезжайте со спокойной первой ночью, уезжайте после завершённой главы и не ставьте два длинных переезда в один день."
+          "uz": "Qo‘shni shaharlarni toza ulanish sifatida tuting: sokin birinchi tun bilan keling, yakunlangan bobdan keyin chiqing va bir kunga ikkita uzun ko‘chishni qo‘ymang."
+      - "type": "destinationInsight"
+        "icon": "Calendar"
+        "title":
+          "en": "What season logic matters most in Fann Mountains & Zeravshan?"
+          "ru": "Какая сезонная логика важнее всего в Фанские горы и Зеравшан?"
+          "uz": "Fan togʻlari va Zarafshonda qaysi mavsum mantig‘i eng muhim?"
+        "description":
+          "en": "Heat, altitude, road condition, and opening hours change the product more than the brochure list. Build the region around what stays comfortable for the group that week."
+          "ru": "Жара, высота, состояние дорог и часы работы меняют продукт сильнее списка из брошюры. Собирайте регион вокруг того, что комфортно именно этой группе в эту неделю."
+          "uz": "Issiqlik, balandlik, yo‘l holati va ish soatlari broshyura ro‘yxatidan kuchliroq mahsulotni o‘zgartiradi. Hududni shu hafta guruh uchun qulay narsaga qurib chiqing."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan/regions/fann-mountains-and-zeravshan.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Fann Mountains & Zeravshan stop into your Tajikistan programme"
+      "ru": "Встройте остановку «Фанские горы и Зеравшан» в программу (Таджикистан)"
+      "uz": "Fan togʻlari va Zarafshon bekatini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right extensions — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать нужные расширения — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va kerakli kengaytmalarni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Fann Mountains & Zeravshan | TourLink"
+    "ru": "Фанские горы и Зеравшан | TourLink"
+    "uz": "Fan togʻlari va Zarafshon | TourLink"
+  "metaDescription":
+    "en": "West of Tajikistan’s main route, Zeravshan opens with the walls of Ancient Penjikent, the early settlement horizon of Sarazm, and the river road toward the Fann Mountains. Penjikent gives the first town-and-market stop; from there, the route turns toward one lake or mountain continuation according to season, road condition, and how much mountain quiet belongs in the journey."
+    "ru": "На западе Таджикистана Зеравшан открывается стенами древнего Пенджикента, ранним поселением Саразма и дорогой к Фанским горам. Пенджикент даёт маршруту городскую и рыночную остановку; дальше путь уходит к одному озёрному или горному продолжению - по сезону, состоянию дороги и тому, сколько горной тишины нужно в поездке."
+    "uz": "Tojikiston gʻarbida Zarafshon qadimiy Panjikent devorlari, Sarazmning ilk manzili va Fan togʻlariga ketadigan yoʻl bilan ochiladi. Panjikent yoʻnalishga shahar va bozor toʻxtamini beradi; keyin yoʻl mavsum, yoʻl holati va safarga qancha togʻ sokinligi kerakligiga qarab bitta ko‘l yoki togʻ davomi tomon buriladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"mapCenter":
+  "latitude": 41.3
+  "longitude": 64.5

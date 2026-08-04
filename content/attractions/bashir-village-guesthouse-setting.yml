@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "bashir-village-guesthouse-setting"
+  "ru": "bashir-village-guesthouse-setting"
+  "uz": "bashir-village-guesthouse-setting"
+"title":
+  "en": "Bashir Family Guesthouse Setting"
+  "ru": "Семейный гостевой формат Башира"
+  "uz": "Bashir oilaviy mehmon uylari muhiti"
+"subtitle":
+  "en": "A village table below the Kitob foothills"
+  "ru": "Сельский стол в предгорьях Китаба"
+  "uz": "Kitob tog‘oldilaridagi qishloq dasturxoni"
+"excerpt":
+  "en": "The family guesthouse side of Bashir matters because it brings people into the route. Tea, bread, a home meal, courtyard time, or an overnight stay should feel mutual, respectful, and scaled to the village."
+  "ru": "Семейная гостевая сторона Башира важна потому, что возвращает людей в маршрут. Чай, хлеб, домашняя еда, время во дворе или ночевка должны ощущаться взаимно, уважительно и в масштабе села."
+  "uz": "Bashirning oilaviy mehmon uyi tomoni yo‘lga odamlarni qaytaradi. Choy, non, uy ovqati, hovlidagi vaqt yoki tunash ikki tomonlama, hurmatli va qishloq miqyosida bo‘lishi lozim."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Bashir Family Guesthouse Setting"
+      "ru": "Семейный гостевой формат Башира"
+      "uz": "Bashir oilaviy mehmon uylari muhiti"
+    "title":
+      "en": "Bashir Family Guesthouse Setting"
+      "ru": "Семейный гостевой формат Башира"
+      "uz": "Bashir oilaviy mehmon uylari muhiti"
+    "description":
+      "en": "A village table below the Kitob foothills"
+      "ru": "Сельский стол в предгорьях Китаба"
+      "uz": "Kitob tog‘oldilaridagi qishloq dasturxoni"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Bashir Family Guesthouse Setting"
+      "ru": "Семейный гостевой формат Башира"
+      "uz": "Bashir oilaviy mehmon uylari muhiti"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "The family guesthouse side of Bashir matters because it brings people into the route."
+              "ru": "Семейная гостевая сторона Башира важна потому, что возвращает людей в маршрут."
+              "uz": "Bashirning oilaviy mehmon uyi tomoni yo‘lga odamlarni qaytaradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "The family table gives Bashir warmth after the sacred place and water setting."
+              "ru": "Семейный стол дает Баширу тепло после святыни и воды."
+              "uz": "Oilaviy dasturxon ziyorat joyi va suvdan keyin Bashirga iliqlik beradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — A village table below the Kitob foothills."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Сельский стол в предгорьях Китаба."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Kitob tog‘oldilaridagi qishloq dasturxoni."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Bashir Family Guesthouse Setting as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Семейный гостевой формат Башира как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Bashir oilaviy mehmon uylari muhiti o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Bashir Family Guesthouse Setting sits on the route"
+      "ru": "Где Семейный гостевой формат Башира стоит на маршруте"
+      "uz": "Bashir oilaviy mehmon uylari muhiti marshrutda qayerda"
+    "description":
+      "en": "One clear point for Bashir Family Guesthouse Setting — A village table below the Kitob foothills."
+      "ru": "Одна понятная точка для «Семейный гостевой формат Башира» — Сельский стол в предгорьях Китаба."
+      "uz": "Bashir oilaviy mehmon uylari muhiti uchun bitta aniq nuqta — Kitob tog‘oldilaridagi qishloq dasturxoni."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Bashir Family Guesthouse Setting"
+        "ru": "Семейный гостевой формат Башира"
+        "uz": "Bashir oilaviy mehmon uylari muhiti"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.2713718
+      "longitude": 67.1016734
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "bashir-village-guesthouse-setting"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Where Bashir becomes a human stop"
+      "ru": "Где Башир становится человеческой остановкой"
+      "uz": "Bashir insoniy bekatga aylanadigan joy"
+    "description":
+      "en": "The family table gives Bashir warmth after the sacred place and water setting.
+
+
+        «The village table should feel offered, not extracted.»"
+      "ru": "Семейный стол дает Баширу тепло после святыни и воды.
+
+
+        «Сельский стол должен ощущаться предложенным, а не взятым.»"
+      "uz": "Oilaviy dasturxon ziyorat joyi va suvdan keyin Bashirga iliqlik beradi.
+
+
+        «Qishloq dasturxoni olingan emas, taklif qilingan kabi tuyulsin.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you will see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Courtyard, table, and village lanes"
+      "ru": "Двор, стол и сельские улицы"
+      "uz": "Hovli, dasturxon va qishloq ko‘chalari"
+    "description":
+      "en": "The guesthouse setting is about people, pace, and a village welcome rather than facilities."
+      "ru": "Гостевой формат говорит о людях, темпе и сельском приеме, а не об инвентаре удобств."
+      "uz": "Mehmon uyi muhiti qulayliklar haqida emas, odamlar, surʼat va qishloq qabulidir."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Keep the welcome mutual"
+      "ru": "Сохраняйте прием взаимным"
+      "uz": "Mehmonnavozlik ikki tomonlama bo‘lsin"
+    "description":
+      "en": "Arrive on time, keep the pace modest, ask before photos, and respect private family space."
+      "ru": "Приходите вовремя, держите скромный темп, спрашивайте перед съемкой и уважайте приватное пространство семьи."
+      "uz": "Vaqtida keling, surʼatni kamtar tuting, suratdan oldin so‘rang va oilaning shaxsiy hududini hurmat qiling."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Around Bashir"
+      "ru": "Вокруг Башира"
+      "uz": "Bashir atrofida"
+    "title":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qo‘shish"
+    "description":
+      "en": "Add the neighboring side of Bashir when the day can stay calm."
+      "ru": "Добавьте соседнюю сторону Башира, если день остается спокойным."
+      "uz": "Kun sokin qolsa, Bashirning qo‘shni tomonini qo‘shing."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Hazrat Bashir Pilgrimage Place"
+          "ru": "Зиаратное место Хазрат Башир"
+          "uz": "Hazrati Bashir ziyorat joyi"
+        "description":
+          "en": "Hazrat Bashir pilgrimage place gives the village its spiritual center; arrive with modest dress, a quiet voice, and local guidance on photography and group movement."
+          "ru": "Зиаратное место Хазрат Башир задает селу духовный центр; приходите в скромной одежде, говорите тихо и следуйте местным правилам съемки и движения группы."
+          "uz": "Hazrati Bashir ziyorat joyi qishloqqa ruhiy markaz beradi; kamtar kiyim, past ovoz hamda surat va guruh harakati bo‘yicha mahalliy odob bilan kiring."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/bashir/hazrat-bashir-shrine-courtyard"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Bashir River and Qorabuloq Spring"
+          "ru": "Река и родник Корабулок в Башире"
+          "uz": "Bashir daryosi va Qorabuloq bulog‘i"
+        "description":
+          "en": "Bashir’s water setting adds sound, shade, and a slower walk to the pilgrimage village without turning the spring into a health claim."
+          "ru": "Вода вокруг Башира дает зиаратному селу звук, тень и более медленную прогулку без лечебных обещаний."
+          "uz": "Bashir atrofidagi suv ziyorat qishlog‘iga ovoz, soya va sekin yurish beradi, lekin buloqni sog‘liq vaʼdasiga aylantirmaydi."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/bashir/bashir-qashqadaryo-river-spring-setting"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Bashir Family Guesthouse Setting"
+      "ru": "Что агентства спрашивают про Семейный гостевой формат Башира"
+      "uz": "Agentliklar Bashir oilaviy mehmon uylari muhiti haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Bashir Family Guesthouse Setting get in the day plan?"
+          "ru": "Сколько времени закладывать на Семейный гостевой формат Башира в плане дня?"
+          "uz": "Bashir oilaviy mehmon uylari muhiti uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "45–90 minutes is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “A village table below the Kitob foothills”."
+          "ru": "Для большинства групп реалистичный диапазон — 45–90 минут. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Сельский стол в предгорьях Китаба»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 45–90 daqiqa. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Kitob tog‘oldilaridagi qishloq dasturxoni»."
+      - "type": "destinationInsight"
+        "icon": "Sunrise"
+        "title":
+          "en": "When is Bashir Family Guesthouse Setting strongest during the day?"
+          "ru": "В какое время дня Семейный гостевой формат Башира раскрывается сильнее?"
+          "uz": "Bashir oilaviy mehmon uylari muhiti kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer before the midday heat. That usually improves comfort, photos, and how the stop feels in the sequence around bashir."
+          "ru": "Лучше до полуденной жары. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с bashir."
+          "uz": "tushlik issiqligidan oldin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (bashir atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How should Bashir Family Guesthouse Setting sit next to nearby stops?"
+          "ru": "Как поставить Семейный гостевой формат Башира рядом с соседними остановками?"
+          "uz": "Bashir oilaviy mehmon uylari muhitini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Bashir Family Guesthouse Setting to your Uzbekistan programme"
+      "ru": "Добавьте «Семейный гостевой формат Башира» в программу (Узбекистан)"
+      "uz": "Bashir oilaviy mehmon uylari muhitini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Bashir Family Guesthouse Setting | TourLink"
+    "ru": "Семейный гостевой формат Башира | TourLink"
+    "uz": "Bashir oilaviy mehmon uylari muhiti | TourLink"
+  "metaDescription":
+    "en": "The family guesthouse side of Bashir matters because it brings people into the route. Tea, bread, a home meal, courtyard time, or an overnight stay should feel mutual, respectful, and scaled to the village."
+    "ru": "Семейная гостевая сторона Башира важна потому, что возвращает людей в маршрут. Чай, хлеб, домашняя еда, время во дворе или ночевка должны ощущаться взаимно, уважительно и в масштабе села."
+    "uz": "Bashirning oilaviy mehmon uyi tomoni yo‘lga odamlarni qaytaradi. Choy, non, uy ovqati, hovlidagi vaqt yoki tunash ikki tomonlama, hurmatli va qishloq miqyosida bo‘lishi lozim."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "kashkadarya-and-shakhrisabz"
+"city": "bashir"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 39.2713718
+"longitude": 67.1016734

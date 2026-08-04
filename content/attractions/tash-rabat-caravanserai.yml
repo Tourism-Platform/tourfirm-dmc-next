@@ -1,0 +1,276 @@
+# Generated from scrape/kyrgyzstan (multi-locale)
+"slug":
+  "en": "tash-rabat-caravanserai"
+  "ru": "tash-rabat-caravanserai"
+  "uz": "tash-rabat-caravanserai"
+"title":
+  "en": "Tash Rabat Caravanserai"
+  "ru": "Караван-сарай Таш-Рабат"
+  "uz": "Tash Rabat karvonsaroyi"
+"subtitle":
+  "en": "Stone caravanserai in a high Kyrgyz valley"
+  "ru": "Каменный караван-сарай в высокой кыргызской долине"
+  "uz": "Baland qirgʻiz vodiysidagi tosh karvonsaroy"
+"excerpt":
+  "en": "Tash Rabat gives the Naryn high country a hard stone center. The caravanserai stands away from towns, held by a narrow valley and mountain weather. Inside, the old road becomes tangible: shelter, distance, and a pause before the next stretch."
+  "ru": "Таш-Рабат дает Нарынскому высокогорью твердый каменный центр. Караван-сарай стоит вдали от городов, в узкой долине и горной погоде. Внутри старая дорога становится ощутимой: укрытие, расстояние и пауза перед следующим отрезком."
+  "uz": "Tash Rabat Naryn baland hududiga tosh markaz beradi. Karvonsaroy shaharlardan uzoqda, tor vodiy va togʻ ob-havosi ichida turadi. Ichkarida eski yoʻl sezilarli bo‘ladi: boshpana, masofa va keyingi yoʻldan oldingi pauza."
+"heroImage": "assets/images/destinations/kyrgyzstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kyrgyzstan.jpg"
+    "imageAlt":
+      "en": "Tash Rabat Caravanserai"
+      "ru": "Караван-сарай Таш-Рабат"
+      "uz": "Tash Rabat karvonsaroyi"
+    "title":
+      "en": "Tash Rabat Caravanserai"
+      "ru": "Караван-сарай Таш-Рабат"
+      "uz": "Tash Rabat karvonsaroyi"
+    "description":
+      "en": "Stone caravanserai in a high Kyrgyz valley"
+      "ru": "Каменный караван-сарай в высокой кыргызской долине"
+      "uz": "Baland qirgʻiz vodiysidagi tosh karvonsaroy"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Tash Rabat Caravanserai"
+      "ru": "Караван-сарай Таш-Рабат"
+      "uz": "Tash Rabat karvonsaroyi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Tash Rabat gives the Naryn high country a hard stone center."
+              "ru": "Таш-Рабат дает Нарынскому высокогорью твердый каменный центр."
+              "uz": "Tash Rabat Naryn baland hududiga tosh markaz beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Tash Rabat turns a mountain transfer into a heritage stop."
+              "ru": "Таш-Рабат превращает горный переезд в остановку с наследием."
+              "uz": "Tash Rabat togʻ yoʻlini merosga ega toʻxtashga aylantiradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Stone caravanserai in a high Kyrgyz valley."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Каменный караван-сарай в высокой кыргызской долине."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Baland qirgʻiz vodiysidagi tosh karvonsaroy."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Tash Rabat Caravanserai as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Караван-сарай Таш-Рабат как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Tash Rabat karvonsaroyi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Tash Rabat Caravanserai sits on the route"
+      "ru": "Где Караван-сарай Таш-Рабат стоит на маршруте"
+      "uz": "Tash Rabat karvonsaroyi marshrutda qayerda"
+    "description":
+      "en": "One clear point for Tash Rabat Caravanserai — Stone caravanserai in a high Kyrgyz valley."
+      "ru": "Одна понятная точка для «Караван-сарай Таш-Рабат» — Каменный караван-сарай в высокой кыргызской долине."
+      "uz": "Tash Rabat karvonsaroyi uchun bitta aniq nuqta — Baland qirgʻiz vodiysidagi tosh karvonsaroy."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Tash Rabat Caravanserai"
+        "ru": "Караван-сарай Таш-Рабат"
+        "uz": "Tash Rabat karvonsaroyi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.8231733
+      "longitude": 75.2887145
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "tash-rabat-caravanserai"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Where the road becomes a stone shelter"
+      "ru": "Где дорога превращается в каменное укрытие"
+      "uz": "Yoʻl tosh boshpanaga aylangan joy"
+    "description":
+      "en": "Tash Rabat turns a mountain transfer into a heritage stop. The building is compact, but the setting is wide: open valley, cold air, silence, and the feeling that shelter mattered before the next hard road.
+
+
+        «The building is small enough to understand in one visit, but the valley around it makes the old road feel much longer.»"
+      "ru": "Таш-Рабат превращает горный переезд в остановку с наследием. Здание компактное, но вокруг него широкое пространство: открытая долина, холодный воздух, тишина и ощущение, что перед следующей трудной дорогой укрытие было необходимо.
+
+
+        «Здание достаточно компактное, чтобы понять его за один визит, но долина вокруг делает старую дорогу намного длиннее.»"
+      "uz": "Tash Rabat togʻ yoʻlini merosga ega toʻxtashga aylantiradi. Bino ixcham, lekin atrofi keng: ochiq vodiy, sovuq havo, sokinlik va keyingi qiyin yoʻldan oldin boshpana zarur bo‘lganini sezish mumkin.
+
+
+        «Binoni bir tashrifda tushunish mumkin, lekin atrofidagi vodiy eski yoʻlni ancha uzunroq sezdiradi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Stone rooms, valley weather, and the road approach"
+      "ru": "Каменные помещения, погода долины и дорога к караван-сараю"
+      "uz": "Tosh xonalar, vodiy ob-havosi va karvonsaroyga boradigan yoʻl"
+    "description":
+      "en": "Keep the building and valley together. The stone interior explains shelter; the approach road and exposed weather explain why it mattered."
+      "ru": "Держите здание и долину вместе. Каменный интерьер объясняет укрытие; подъездная дорога и открытая погода объясняют, почему оно было нужно."
+      "uz": "Bino va vodiyni birga ko‘ring. Tosh ichki makon boshpanani tushuntiradi; yondashuv yoʻli va ochiq ob-havo boshpana nega zarur bo‘lganini anglatadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday tashrif buyuriladi"
+    "title":
+      "en": "Keep the stop precise and unhurried"
+      "ru": "Держите остановку точной и неторопливой"
+      "uz": "Toʻxtashni aniq va shoshilmasdan qiling"
+    "description":
+      "en": "Plan Tash Rabat with both heritage and highland conditions in mind. The site is compact, but weather, clothing, road checks, and the onward route shape the visit."
+      "ru": "Планируйте Таш-Рабат с учетом наследия и высокогорных условий. Объект компактный, но погода, одежда, проверка дороги и продолжение маршрута формируют сам визит."
+      "uz": "Tash Rabatni meros va baland hudud sharoitini hisobga olib rejalang. Obyekt ixcham, lekin ob-havo, kiyim, yoʻl tekshiruvi va keyingi yoʻnalish tashrifni shakllantiradi."
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Tash Rabat Caravanserai"
+      "ru": "Что агентства спрашивают про Караван-сарай Таш-Рабат"
+      "uz": "Agentliklar Tash Rabat karvonsaroyi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Tash Rabat Caravanserai get in the day plan?"
+          "ru": "Сколько времени закладывать на Караван-сарай Таш-Рабат в плане дня?"
+          "uz": "Tash Rabat karvonsaroyi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "a focused half-day with buffer is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Stone caravanserai in a high Kyrgyz valley”."
+          "ru": "Для большинства групп реалистичный диапазон — полдня с запасом. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Каменный караван-сарай в высокой кыргызской долине»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — zaxira bilan yarim kun. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Baland qirgʻiz vodiysidagi tosh karvonsaroy»."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "When is Tash Rabat Caravanserai strongest during the day?"
+          "ru": "В какое время дня Караван-сарай Таш-Рабат раскрывается сильнее?"
+          "uz": "Tash Rabat karvonsaroyi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer early morning or late afternoon. That usually improves comfort, photos, and how the stop feels in the sequence around tash-rabat."
+          "ru": "Лучше рано утром или ближе к вечеру. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с tash-rabat."
+          "uz": "erta tong yoki kechga yaqin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (tash-rabat atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "How should Tash Rabat Caravanserai sit next to nearby stops?"
+          "ru": "Как поставить Караван-сарай Таш-Рабат рядом с соседними остановками?"
+          "uz": "Tash Rabat karvonsaroyini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kyrgyzstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Tash Rabat Caravanserai to your Kyrgyzstan programme"
+      "ru": "Добавьте «Караван-сарай Таш-Рабат» в программу (Кыргызстан)"
+      "uz": "Tash Rabat karvonsaroyini Qirgʻiziston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Tash Rabat Caravanserai | TourLink"
+    "ru": "Караван-сарай Таш-Рабат | TourLink"
+    "uz": "Tash Rabat karvonsaroyi | TourLink"
+  "metaDescription":
+    "en": "Tash Rabat gives the Naryn high country a hard stone center. The caravanserai stands away from towns, held by a narrow valley and mountain weather. Inside, the old road becomes tangible: shelter, distance, and a pause before the next stretch."
+    "ru": "Таш-Рабат дает Нарынскому высокогорью твердый каменный центр. Караван-сарай стоит вдали от городов, в узкой долине и горной погоде. Внутри старая дорога становится ощутимой: укрытие, расстояние и пауза перед следующим отрезком."
+    "uz": "Tash Rabat Naryn baland hududiga tosh markaz beradi. Karvonsaroy shaharlardan uzoqda, tor vodiy va togʻ ob-havosi ichida turadi. Ichkarida eski yoʻl sezilarli bo‘ladi: boshpana, masofa va keyingi yoʻldan oldingi pauza."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kyrgyzstan"
+"region": "naryn-song-kul-and-central-tian-shan"
+"city": "tash-rabat"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 40.8231733
+"longitude": 75.2887145

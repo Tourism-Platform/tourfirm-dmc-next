@@ -1,0 +1,310 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "mir-sayyid-ali-hamadani-mausoleum"
+  "ru": "mir-sayyid-ali-hamadani-mausoleum"
+  "uz": "mir-sayyid-ali-hamadani-mausoleum"
+"title":
+  "en": "Mir Sayyid Ali Hamadani Mausoleum"
+  "ru": "Мавзолей Мир Саййида Али Хамадани"
+  "uz": "Mir Sayyid Ali Hamadani maqbarasi"
+"subtitle":
+  "en": "Kulob's central shrine and pilgrimage landmark"
+  "ru": "центральная святыня Куляба и место паломнической памяти"
+  "uz": "Kulob markazidagi ziyoratgoh va hurmat maskani"
+"excerpt":
+  "en": "Mir Sayyid Ali Hamadani Mausoleum is the quiet turn in Kulob's city route. The shrine keeps the memory of a 14th-century poet, scholar, philosopher, and Sufi figure, and its garden setting asks for a slower, more respectful visit. Come with modest dress, ask locally which areas are appropriate for visitors, and let the stop sit beside the bazaar, museum, Ismoil Somoni square, and the road toward Hulbuk."
+  "ru": "В маршруте по Кулябу мавзолей — момент, когда город становится тише. Святыня хранит память о поэте, ученом, философе и суфийской фигуре XIV века, а садовое окружение просит более медленного и уважительного визита. Приходите в скромной одежде, уточняйте на месте, какие зоны подходят для гостей, и воспринимайте остановку рядом с базаром, музеем, площадью Исмоила Сомони и дорогой к Хульбуку."
+  "uz": "Mir Sayyid Ali Hamadani maqbarasi Kulob marshrutidagi sokin burilishdir. Ziyoratgoh XIV asr shoiri, olimi, faylasufi va sufiy siymosi xotirasini saqlaydi; bog' muhiti esa sekinroq va hurmatliroq tashrifni talab qiladi. Kamtarona kiyinib boring, mehmonlar uchun qaysi joylar mosligini joyida so'rang va maqbarani bozor, muzey, Ismoil Somoniy maydoni hamda Xulbuk yo'li bilan birga ko'ring."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "Mir Sayyid Ali Hamadani Mausoleum"
+      "ru": "Мавзолей Мир Саййида Али Хамадани"
+      "uz": "Mir Sayyid Ali Hamadani maqbarasi"
+    "title":
+      "en": "Mir Sayyid Ali Hamadani Mausoleum"
+      "ru": "Мавзолей Мир Саййида Али Хамадани"
+      "uz": "Mir Sayyid Ali Hamadani maqbarasi"
+    "description":
+      "en": "Kulob's central shrine and pilgrimage landmark"
+      "ru": "центральная святыня Куляба и место паломнической памяти"
+      "uz": "Kulob markazidagi ziyoratgoh va hurmat maskani"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Mir Sayyid Ali Hamadani Mausoleum"
+      "ru": "Мавзолей Мир Саййида Али Хамадани"
+      "uz": "Mir Sayyid Ali Hamadani maqbarasi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Mir Sayyid Ali Hamadani Mausoleum is the quiet turn in Kulob's city route."
+              "ru": "В маршруте по Кулябу мавзолей — момент, когда город становится тише."
+              "uz": "Mir Sayyid Ali Hamadani maqbarasi Kulob marshrutidagi sokin burilishdir."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "The mausoleum gives Kulob its spiritual center."
+              "ru": "Мавзолей дает Кулябу духовный центр."
+              "uz": "Maqbara Kulobga ruhiy markaz beradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Kulob's central shrine and pilgrimage landmark."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — центральная святыня Куляба и место паломнической памяти."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Kulob markazidagi ziyoratgoh va hurmat maskani."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Mir Sayyid Ali Hamadani Mausoleum as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Мавзолей Мир Саййида Али Хамадани как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Mir Sayyid Ali Hamadani maqbarasi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Mir Sayyid Ali Hamadani Mausoleum sits on the route"
+      "ru": "Где Мавзолей Мир Саййида Али Хамадани стоит на маршруте"
+      "uz": "Mir Sayyid Ali Hamadani maqbarasi marshrutda qayerda"
+    "description":
+      "en": "One clear point for Mir Sayyid Ali Hamadani Mausoleum — Kulob's central shrine and pilgrimage landmark."
+      "ru": "Одна понятная точка для «Мавзолей Мир Саййида Али Хамадани» — центральная святыня Куляба и место паломнической памяти."
+      "uz": "Mir Sayyid Ali Hamadani maqbarasi uchun bitta aniq nuqta — Kulob markazidagi ziyoratgoh va hurmat maskani."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Mir Sayyid Ali Hamadani Mausoleum"
+        "ru": "Мавзолей Мир Саййида Али Хамадани"
+        "uz": "Mir Sayyid Ali Hamadani maqbarasi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 37.9178877
+      "longitude": 69.7849654
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "mir-sayyid-ali-hamadani-mausoleum"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nima uchun bu joy"
+    "title":
+      "en": "The sacred center of the Kulob route"
+      "ru": "Сакральный центр кулябского маршрута"
+      "uz": "Kulob marshrutining muqaddas markazi"
+    "description":
+      "en": "The mausoleum gives Kulob its spiritual center. Biography, pilgrimage memory, garden space, and the movement of the city meet here at a calmer scale.
+
+
+        «Let the shrine set the pace before Kulob turns back toward the road.»"
+      "ru": "Мавзолей дает Кулябу духовный центр. Здесь в спокойном масштабе сходятся биография, паломническая память, садовое пространство и движение города.
+
+
+        «Пусть святыня задаст темп, прежде чем Куляб снова повернет к дороге.»"
+      "uz": "Maqbara Kulobga ruhiy markaz beradi. Bu yerda tarjimai hol, ziyorat xotirasi, bog' muhiti va shahar harakati sokinroq miqyosda tutashadi.
+
+
+        «Kulob yana yo'lga qaytishidan oldin ziyoratgoh tashrif sur'atini belgilasin.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko'rasiz"
+    "title":
+      "en": "Shrine setting, garden space, and Kulob context"
+      "ru": "Святыня, садовое пространство и контекст Куляба"
+      "uz": "Ziyoratgoh, bog' muhiti va Kulob konteksti"
+    "description":
+      "en": "Look for three things: the mausoleum itself, the garden or park setting around it, and the way nearby streets return the visit to Kulob's center."
+      "ru": "Обратите внимание на три вещи: сам мавзолей, садовое или парковое окружение вокруг него и улицы, которые возвращают визит в центр Куляба."
+      "uz": "Uch narsaga e'tibor bering: maqbaraning o'zi, atrofidagi bog' yoki park muhiti va tashrifni Kulob markaziga qaytaradigan yaqin ko'chalar."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посетить"
+      "uz": "Qanday tashrif buyurish"
+    "title":
+      "en": "Keep the shrine stop calm and respectful"
+      "ru": "Сохраните спокойный и уважительный темп"
+      "uz": "Ziyoratni sokin va hurmatli saqlang"
+    "description":
+      "en": "Keep the visit simple: arrive quietly, ask what is appropriate for visitors, and make the shrine part of a measured Kulob walk rather than a rushed road pause."
+      "ru": "Пусть визит будет простым: приходите тихо, спросите, что уместно для гостей, и держите святыню внутри размеренной прогулки по Кулябу, а не короткого заезда с дороги."
+      "uz": "Tashrifni oddiy tuting: sokin boring, mehmonlar uchun nima mosligini so'rang va ziyoratgohni yo'ldagi shoshilinch bekat emas, Kulob bo'ylab o'lchovli sayrning bir qismi qiling."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby in Kulob"
+      "ru": "Рядом в Кулябе"
+      "uz": "Kulob atrofida"
+    "title":
+      "en": "What to add around the shrine"
+      "ru": "Что добавить вокруг святыни"
+      "uz": "Ziyoratgoh atrofida nima qo'shish mumkin"
+    "description":
+      "en": "For now, keep nearby planning simple: pair the shrine with Kulob's bazaar, museum area, Ismoil Somoni square, and the wider Khatlon road. Hulbuk and other Kulob-area stops need their own current access check before they are recommended in a route."
+      "ru": "Пока держите ближайший план простым: святыня, базар, район музея, площадь Исмоила Сомони и более широкий маршрут по Хатлону. Хульбук и другие места вокруг Куляба требуют отдельной проверки доступа и дороги, прежде чем рекомендовать их в маршруте."
+      "uz": "Hozircha yaqin reja oddiy bo'lsin: ziyoratgoh, bozor, muzey atrofi, Ismoil Somoniy maydoni va kengroq Xatlon yo'li. Xulbuk va Kulob atrofidagi boshqa joylar marshrutda tavsiya qilinishidan oldin alohida kirish va yo'l tekshiruviga muhtoj."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Hulbuk Fortress and Museum Reserve"
+          "ru": "Крепость и музей-заповедник Хульбук"
+          "uz": "Xulbuk qalʼasi va muzey-qoʻriqxonasi"
+        "description":
+          "en": "Hulbuk brings Ancient Khuttal into the Kulob route: palace walls, carved ganch, baked brick, and museum objects from a city shaped by medieval roads."
+          "ru": "Хульбук вводит Древний Хутталь в маршрут через Куляб: дворцовые стены, резной ганч, обожжённый кирпич и музейные предметы средневекового дорожного мира."
+          "uz": "Xulbuk Koʻlob yoʻnalishiga Qadimgi Xuttalni olib kiradi: saroy devorlari, oʻyma ganch, pishiq gʻisht va oʻrta asr yoʻllari shakllantirgan shahardan qolgan muzey buyumlari."
+        "ctaHref": "/destinations/tajikistan/khatlon-and-southern-archaeology/kulob/hulbuk-fortress-and-museum-reserve"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Mir Sayyid Ali Hamadani Mausoleum"
+      "ru": "Что агентства спрашивают про Мавзолей Мир Саййида Али Хамадани"
+      "uz": "Agentliklar Mir Sayyid Ali Hamadani maqbarasi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Mir Sayyid Ali Hamadani Mausoleum get in the day plan?"
+          "ru": "Сколько времени закладывать на Мавзолей Мир Саййида Али Хамадани в плане дня?"
+          "uz": "Mir Sayyid Ali Hamadani maqbarasi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "1–2 hours is a practical range for most groups. Keep the stop readable: one clear arrival, one clear exit. Place tone: “Kulob's central shrine and pilgrimage landmark”."
+          "ru": "Для большинства групп реалистичный диапазон — 1–2 часа. Держите остановку читаемой: понятный вход и понятный выход. Характер места: «центральная святыня Куляба и место паломнической памяти»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 1–2 soat. Bekatni o‘qiladigan tuting: aniq kirish va aniq chiqish. Joy ohangi: «Kulob markazidagi ziyoratgoh va hurmat maskani»."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "When is Mir Sayyid Ali Hamadani Mausoleum strongest during the day?"
+          "ru": "В какое время дня Мавзолей Мир Саййида Али Хамадани раскрывается сильнее?"
+          "uz": "Mir Sayyid Ali Hamadani maqbarasi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer when the light is soft and queues are lighter. That usually improves comfort, photos, and how the stop feels in the sequence around kulob."
+          "ru": "Лучше когда свет мягче и очередей меньше. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с kulob."
+          "uz": "yorug‘lik yumshoq va navbat kamroq bo‘lganda afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (kulob atrofida)."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "How should Mir Sayyid Ali Hamadani Mausoleum sit next to nearby stops?"
+          "ru": "Как поставить Мавзолей Мир Саййида Али Хамадани рядом с соседними остановками?"
+          "uz": "Mir Sayyid Ali Hamadani maqbarasini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Mir Sayyid Ali Hamadani Mausoleum to your Tajikistan programme"
+      "ru": "Добавьте «Мавзолей Мир Саййида Али Хамадани» в программу (Таджикистан)"
+      "uz": "Mir Sayyid Ali Hamadani maqbarasini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Mir Sayyid Ali Hamadani Mausoleum | TourLink"
+    "ru": "Мавзолей Мир Саййида Али Хамадани | TourLink"
+    "uz": "Mir Sayyid Ali Hamadani maqbarasi | TourLink"
+  "metaDescription":
+    "en": "Mir Sayyid Ali Hamadani Mausoleum is the quiet turn in Kulob's city route. The shrine keeps the memory of a 14th-century poet, scholar, philosopher, and Sufi figure, and its garden setting asks for a slower, more respectful visit. Come with modest dress, ask locally which areas are appropriate for visitors, and let the stop sit beside the bazaar, museum, Ismoil Somoni square, and the road toward Hulbuk."
+    "ru": "В маршруте по Кулябу мавзолей — момент, когда город становится тише. Святыня хранит память о поэте, ученом, философе и суфийской фигуре XIV века, а садовое окружение просит более медленного и уважительного визита. Приходите в скромной одежде, уточняйте на месте, какие зоны подходят для гостей, и воспринимайте остановку рядом с базаром, музеем, площадью Исмоила Сомони и дорогой к Хульбуку."
+    "uz": "Mir Sayyid Ali Hamadani maqbarasi Kulob marshrutidagi sokin burilishdir. Ziyoratgoh XIV asr shoiri, olimi, faylasufi va sufiy siymosi xotirasini saqlaydi; bog' muhiti esa sekinroq va hurmatliroq tashrifni talab qiladi. Kamtarona kiyinib boring, mehmonlar uchun qaysi joylar mosligini joyida so'rang va maqbarani bozor, muzey, Ismoil Somoniy maydoni hamda Xulbuk yo'li bilan birga ko'ring."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "khatlon-and-southern-archaeology"
+"city": "kulob"
+"type": "MAUSOLEUM"
+"importance": "RECOMMENDED"
+"latitude": 37.9178877
+"longitude": 69.7849654

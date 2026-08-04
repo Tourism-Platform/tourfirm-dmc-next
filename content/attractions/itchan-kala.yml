@@ -1,69 +1,320 @@
-# Seed: attractions — Itchan Kala (Khiva)
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "itchan-kala"
+  "ru": "itchan-kala"
+  "uz": "itchan-kala"
+"title":
+  "en": "Itchan Kala"
+  "ru": "Ичан-Кала"
+  "uz": "Ichan Qalʼa"
+"subtitle":
+  "en": "Khiva's walled old city"
+  "ru": "Старый город Хивы за стенами"
+  "uz": "Xivaning devorli eski shahri"
+"excerpt":
+  "en": "Itchan Kala is where Khiva becomes a walking city: gates, clay lanes, Kalta Minor, Juma Mosque, courtyards, workshops, and museum rooms stay inside one set of walls."
+  "ru": "Ичан-Кала — место, где Хива становится пешим городом: ворота, глинобитные улицы, Кальта-Минор, Джума-мечеть, дворы, мастерские и музейные комнаты остаются внутри одних стен."
+  "uz": "Ichan Qalʼa Xiva piyoda yuriladigan shaharga aylanadigan joy: darvozalar, loy ko‘chalar, Kalta Minor, Juma masjidi, hovlilar, ustaxonalar va muzey xonalari bir devor ichida qoladi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/khorezm-region/cities/khiva/attractions/itchan-kala.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/khorezm-region/cities/khiva/attractions/itchan-kala.webp"
+    "imageAlt":
+      "en": "Itchan Kala"
+      "ru": "Ичан-Кала"
+      "uz": "Ichan Qalʼa"
+    "title":
+      "en": "Itchan Kala"
+      "ru": "Ичан-Кала"
+      "uz": "Ichan Qalʼa"
+    "description":
+      "en": "Khiva's walled old city"
+      "ru": "Старый город Хивы за стенами"
+      "uz": "Xivaning devorli eski shahri"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
 
-slug:
-  en: itchan-kala
-  ru: itchan-kala
-  uz: itchan-kala
-title:
-  en: Itchan Kala
-  ru: Ичан-Кала
-  uz: Ichan Qal'a
-subtitle:
-  en: Walled old city
-  ru: Старый город за стенами
-  uz: Devorli qadimiy shahar
-excerpt:
-  en: Central Asia's most intact walled old city — minarets, courtyards and mud-brick walls in concentrated form.
-  ru: Самый цельный оборонительный старый город Центральной Азии — минареты, дворы и глиняные стены.
-  uz: Markaziy Osiyodagi eng yaxshi saqlangan devorli qadimiy shahar — minoralar, hovlilar va loy devorlar.
-country: uzbekistan
-region: khorezm-region
-city: khiva
-type: CULTURAL_SITE
-importance: MUST_SEE
-latitude: 41.3783
-longitude: 60.3639
-heroImage: assets/images/city/khiva.jpg
-blocks:
-  - blockType: hero
-    image: assets/images/city/khiva.jpg
-    imageAlt:
-      en: Itchan Kala, Khiva
-      ru: Ичан-Кала, Хива
-      uz: Xiva, Ichan Qal'a
-    title:
-      en: Itchan Kala
-      ru: Ичан-Кала
-      uz: Ichan Qal'a
-    description:
-      en: Central Asia's most intact walled old city — minarets, courtyards and mud-brick walls in concentrated form.
-      ru: Самый цельный оборонительный старый город Центральной Азии — минареты, дворы и глиняные стены.
-      uz: Markaziy Osiyodagi eng yaxshi saqlangan devorli qadimiy shahar — minoralar, hovlilar va loy devorlar.
-  - blockType: regular
-    eyebrow:
-      en: Visit tips
-      ru: Советы
-      uz: Maslahatlar
-    title:
-      en: How to walk it
-      ru: Как обойти
-      uz: Qanday aylanish kerak
-    description:
-      en: "Start with outer-wall viewpoints, then move through madrasa courtyards and museum complexes. Summer days are hot — plan walks for morning and evening; 1-2 nights cover core highlights."
-      ru: "Начните с видов на внешние стены, затем пройдите через дворы медресе и музейные комплексы. Летом жарко — прогулки лучше утром и вечером; 1–2 ночи хватает на основные точки."
-      uz: "Tashqi devor manzaralaridan boshlang, keyin madrasa hovliqlari va muzey majmualaridan o'ting. Yoz kunlari issiq — yurishni ertalab va kechqurun rejalashtiring."
-seo:
-  metaTitle:
-    en: Itchan Kala | TourLink
-    ru: Ичан-Кала | TourLink
-    uz: Ichan Qal'a | TourLink
-  metaDescription:
-    en: Itchan Kala walled old city in Khiva — UNESCO heritage and Silk Road finale with TourLink.
-    ru: Ичан-Кала — оборонительный старый город Хивы, наследие ЮНЕСКО и финал Шёлкового пути от TourLink.
-    uz: Xivadagi Ichan Qal'a devorli qadimiy shahri — UNESCO merosi va Ipak yo'li yakuni TourLink bilan.
-  structuredDataType: TouristAttraction
-status:
-  showInSitemap: true
-  noindex: false
-  hideFromNavigation: false
-  publishedAt: "2025-06-01"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Itchan Kala"
+      "ru": "Ичан-Кала"
+      "uz": "Ichan Qalʼa"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Itchan Kala is where Khiva becomes a walking city: gates, clay lanes, Kalta Minor, Juma Mosque, courtyards, workshops, and museum rooms stay inside one set of walls."
+              "ru": "Ичан-Кала — место, где Хива становится пешим городом: ворота, глинобитные улицы, Кальта-Минор, Джума-мечеть, дворы, мастерские и музейные комнаты остаются внутри одних стен."
+              "uz": "Ichan Qalʼa Xiva piyoda yuriladigan shaharga aylanadigan joy: darvozalar, loy ko‘chalar, Kalta Minor, Juma masjidi, hovlilar, ustaxonalar va muzey xonalari bir devor ichida qoladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Itchan Kala matters because it gathers the main sides of Khiva into one walking route: gates, walls, mosques, madrasahs, palaces, mausoleums, markets, workshops, and museum rooms."
+              "ru": "Ичан-Кала важна потому, что собирает главные стороны Хивы внутри одного пешеходного маршрута: ворота, стены, мечети, медресе, дворцы, мавзолеи, рынки, мастерские и музейные комнаты."
+              "uz": "Ichan Qalʼa muhim, chunki u Xivaning asosiy tomonlarini bitta piyoda marshrutda jamlaydi: darvozalar, devorlar, masjidlar, madrasalar, saroylar, maqbaralar, bozor joylari, ustaxonalar va muzey xonalari."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Khiva's walled old city."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Старый город Хивы за стенами."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Xivaning devorli eski shahri."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Itchan Kala as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Ичан-Кала как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Ichan Qalʼa o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Itchan Kala sits on the route"
+      "ru": "Где Ичан-Кала стоит на маршруте"
+      "uz": "Ichan Qalʼa marshrutda qayerda"
+    "description":
+      "en": "One clear point for Itchan Kala — Khiva's walled old city."
+      "ru": "Одна понятная точка для «Ичан-Кала» — Старый город Хивы за стенами."
+      "uz": "Ichan Qalʼa uchun bitta aniq nuqta — Xivaning devorli eski shahri."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Itchan Kala"
+        "ru": "Ичан-Кала"
+        "uz": "Ichan Qalʼa"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.3781118
+      "longitude": 60.3597939
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "itchan-kala"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nima uchun bu joy"
+    "title":
+      "en": "Khiva's main sight is the city inside the walls"
+      "ru": "Главная достопримечательность Хивы — город внутри стен"
+      "uz": "Xivaning asosiy manzarasi - devor ichidagi shahar"
+    "description":
+      "en": "Itchan Kala matters because it gathers the main sides of Khiva into one walking route: gates, walls, mosques, madrasahs, palaces, mausoleums, markets, workshops, and museum rooms."
+      "ru": "Ичан-Кала важна потому, что собирает главные стороны Хивы внутри одного пешеходного маршрута: ворота, стены, мечети, медресе, дворцы, мавзолеи, рынки, мастерские и музейные комнаты."
+      "uz": "Ichan Qalʼa muhim, chunki u Xivaning asosiy tomonlarini bitta piyoda marshrutda jamlaydi: darvozalar, devorlar, masjidlar, madrasalar, saroylar, maqbaralar, bozor joylari, ustaxonalar va muzey xonalari."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Walls, lanes, minarets"
+      "ru": "Стены, улицы, минареты"
+      "uz": "Devorlar, ko‘chalar, minoralar"
+    "description":
+      "en": "Itchan Kala is best followed as a walk: the walls set the boundary, the lanes lead inward, and the monuments appear as you move."
+      "ru": "Ичан-Калу лучше проходить как прогулку: стены задают границу, улицы ведут внутрь, а памятники появляются по мере движения."
+      "uz": "Ichan Qalʼani yurish sifatida o‘tish yaxshiroq: devorlar chegarani beradi, ko‘chalar ichkariga olib kiradi, yodgorliklar esa harakat davomida paydo bo‘ladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как проходит визит"
+      "uz": "Tashrif qanday kechadi"
+    "title":
+      "en": "A day inside the walls needs pauses"
+      "ru": "День внутри стен требует пауз"
+      "uz": "Devor ichidagi kun pauzalarni talab qiladi"
+    "description":
+      "en": "Itchan Kala works best with pauses: a first arrival through the gates, time for the main monuments, a rest or meal, and then a return to the lanes without rushing."
+      "ru": "Ичан-Кала лучше воспринимается с паузами: вход через ворота, время для главных памятников, отдых или еда, а затем возвращение к улицам без спешки."
+      "uz": "Ichan Qalʼa pauzalar bilan yaxshiroq seziladi: darvozadan kirish, asosiy yodgorliklarga vaqt, dam yoki ovqat, keyin esa ko‘chalarga shoshilmasdan qaytish."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nimalar bor"
+    "title":
+      "en": "Kalta Minor and Juma Mosque are close"
+      "ru": "Кальта-Минор и Джума-мечеть рядом"
+      "uz": "Kalta Minor va Juma masjidi yaqin"
+    "description":
+      "en": "Add nearby sights as part of the same walk: Kalta Minor gives the first landmark, Juma Mosque changes the pace, and the lanes of Itchan Kala connect them without long transfers."
+      "ru": "Ближайшие места лучше добавлять как продолжение одной прогулки: Кальта-Минор даёт первый ориентир, Джума-мечеть меняет темп, а улицы Ичан-Калы связывают их без длинных переходов."
+      "uz": "Yaqin joylarni bitta yurishning davomi sifatida qo‘shgan maʼqul: Kalta Minor birinchi orientirni beradi, Juma masjidi tempni o‘zgartiradi, Ichan Qalʼa ko‘chalari esa ularni uzoq o‘tishsiz bog‘laydi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/itchan-kala-next-kalta-minor-minaret.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Kalta Minor"
+          "ru": "Кальта-Минор"
+          "uz": "Kalta Minor"
+        "description":
+          "en": "Kalta Minor is Khiva's unfinished turquoise minaret, a close-up landmark beside Itchan Kala's lanes and Muhammad Amin Khan Madrasah."
+          "ru": "Кальта-Минор — незавершённый бирюзовый минарет Хивы рядом с улицами Ичан-Калы и медресе Мухаммад Амин-хана."
+          "uz": "Kalta Minor — Xivaning tugallanmagan firuza minorasi, Ichan Qalʼa ko‘chalari va Muhammad Aminxon madrasasi yonida."
+        "ctaHref": "/destinations/uzbekistan/khorezm-region/khiva/kalta-minor-minaret"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/itchan-kala-next-juma-mosque-khiva.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Juma Mosque"
+          "ru": "Джума-мечеть"
+          "uz": "Juma masjidi"
+        "description":
+          "en": "Juma Mosque brings the Khiva walk into a covered hall of wooden columns inside Itchan Kala, close to Kalta Minor and the main walking route."
+          "ru": "Джума-мечеть переводит прогулку по Хиве в крытый зал деревянных колонн внутри Ичан-Калы, рядом с Кальта-Минором и центральным маршрутом."
+          "uz": "Juma masjidi Xiva yurishini Ichan Qalʼa ichidagi yog‘och ustunli yopiq zalga olib kiradi, Kalta Minor va asosiy yurish yo‘liga yaqin."
+        "ctaHref": "/destinations/uzbekistan/khorezm-region/khiva/juma-mosque-khiva"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Itchan Kala"
+      "ru": "Что агентства спрашивают про Ичан-Кала"
+      "uz": "Agentliklar Ichan Qalʼa haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Itchan Kala get in the day plan?"
+          "ru": "Сколько времени закладывать на Ичан-Кала в плане дня?"
+          "uz": "Ichan Qalʼa uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "1–2 hours is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Khiva's walled old city”."
+          "ru": "Для большинства групп реалистичный диапазон — 1–2 часа. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Старый город Хивы за стенами»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 1–2 soat. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Xivaning devorli eski shahri»."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "When is Itchan Kala strongest during the day?"
+          "ru": "В какое время дня Ичан-Кала раскрывается сильнее?"
+          "uz": "Ichan Qalʼa kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer when the light is soft and queues are lighter. That usually improves comfort, photos, and how the stop feels in the sequence around khiva."
+          "ru": "Лучше когда свет мягче и очередей меньше. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с khiva."
+          "uz": "yorug‘lik yumshoq va navbat kamroq bo‘lganda afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (khiva atrofida)."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "How should Itchan Kala sit next to nearby stops?"
+          "ru": "Как поставить Ичан-Кала рядом с соседними остановками?"
+          "uz": "Ichan Qalʼani yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/khorezm-region/cities/khiva/attractions/itchan-kala.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Itchan Kala to your Uzbekistan programme"
+      "ru": "Добавьте «Ичан-Кала» в программу (Узбекистан)"
+      "uz": "Ichan Qalʼani Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Itchan Kala | TourLink"
+    "ru": "Ичан-Кала | TourLink"
+    "uz": "Ichan Qalʼa | TourLink"
+  "metaDescription":
+    "en": "Itchan Kala is where Khiva becomes a walking city: gates, clay lanes, Kalta Minor, Juma Mosque, courtyards, workshops, and museum rooms stay inside one set of walls."
+    "ru": "Ичан-Кала — место, где Хива становится пешим городом: ворота, глинобитные улицы, Кальта-Минор, Джума-мечеть, дворы, мастерские и музейные комнаты остаются внутри одних стен."
+    "uz": "Ichan Qalʼa Xiva piyoda yuriladigan shaharga aylanadigan joy: darvozalar, loy ko‘chalar, Kalta Minor, Juma masjidi, hovlilar, ustaxonalar va muzey xonalari bir devor ichida qoladi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "khorezm-region"
+"city": "khiva"
+"type": "FORTRESS"
+"importance": "RECOMMENDED"
+"latitude": 41.3781118
+"longitude": 60.3597939

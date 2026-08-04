@@ -188,9 +188,42 @@ async function updateGlobalLocale(
 	locale: TLocale,
 	data: Record<string, unknown>
 ) {
+	// Partial uiTexts updates must keep required localized array fields
+	// (columns / navItems), otherwise Payload validates them as empty.
+	let nextData = data;
+
+	if (slug === "footer" || slug === "header") {
+		const existing = await payload.findGlobal({
+			slug,
+			locale,
+			depth: 0,
+			...SEED_OP_OPTS
+		});
+
+		if (slug === "footer" && Array.isArray(existing?.columns)) {
+			nextData = {
+				...data,
+				columns: existing.columns
+			};
+		}
+
+		if (slug === "header") {
+			nextData = {
+				...data,
+				...(existing?.logo != null ? { logo: existing.logo } : {}),
+				...(Array.isArray(existing?.navItems)
+					? { navItems: existing.navItems }
+					: {}),
+				...(Array.isArray(existing?.informationAreas)
+					? { informationAreas: existing.informationAreas }
+					: {})
+			};
+		}
+	}
+
 	await payload.updateGlobal({
 		slug,
-		data,
+		data: nextData,
 		locale,
 		draft: false,
 		...SEED_OP_OPTS

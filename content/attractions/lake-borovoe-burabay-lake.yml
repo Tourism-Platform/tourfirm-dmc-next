@@ -1,0 +1,310 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "lake-borovoe-burabay-lake"
+  "ru": "lake-borovoe-burabay-lake"
+  "uz": "lake-borovoe-burabay-lake"
+"title":
+  "en": "Lake Burabay (Borovoe)"
+  "ru": "Озеро Бурабай (Боровое)"
+  "uz": "Burabay koʻli (Borovoe)"
+"subtitle":
+  "en": "Pines, open water, and Burabay's first clear view"
+  "ru": "Сосны, открытая вода и первый ясный вид Бурабая"
+  "uz": "Qaragʻaylar, ochiq suv va Burabayning ilk aniq manzarasi"
+"excerpt":
+  "en": "After the road from Astana and the forest edge of Burabay National Park, Lake Burabay gives the route its first open view. Water appears between pines, granite forms hold the far shore, and the resort name becomes a landscape you can read from the lake edge. The best stop still depends on season, crowding, weather, and the shore section that is accessible and comfortable on the travel date."
+  "ru": "После дороги из Астаны и лесной кромки национального парка озеро Бурабай даёт маршруту первый открытый вид. Между соснами появляется вода, на дальнем берегу держатся гранитные формы, и название курорта становится реальным ландшафтом. Лучшая остановка всё равно зависит от сезона, загруженности, погоды и участка берега, который доступен и удобен в день поездки."
+  "uz": "Ostonadan kelgan yoʻl va Burabay milliy bogʻining oʻrmon chetidan keyin Burabay koʻli marshrutga birinchi ochiq manzarani beradi. Qaragʻaylar orasida suv koʻrinadi, narigi qirgʻoqda granit qoyalar turadi, kurort nomi esa koʻl boʻyidan koʻrinadigan haqiqiy manzaraga aylanadi. Eng mos toʻxtash mavsum, gavjumlik, ob-havo va safar kuni ochiq hamda qulay boʻlgan qirgʻoq qismiga bogʻliq."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "Lake Burabay (Borovoe)"
+      "ru": "Озеро Бурабай (Боровое)"
+      "uz": "Burabay koʻli (Borovoe)"
+    "title":
+      "en": "Lake Burabay (Borovoe)"
+      "ru": "Озеро Бурабай (Боровое)"
+      "uz": "Burabay koʻli (Borovoe)"
+    "description":
+      "en": "Pines, open water, and Burabay's first clear view"
+      "ru": "Сосны, открытая вода и первый ясный вид Бурабая"
+      "uz": "Qaragʻaylar, ochiq suv va Burabayning ilk aniq manzarasi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Lake Burabay (Borovoe)"
+      "ru": "Озеро Бурабай (Боровое)"
+      "uz": "Burabay koʻli (Borovoe)"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "After the road from Astana and the forest edge of Burabay National Park, Lake Burabay gives the route its first open view."
+              "ru": "После дороги из Астаны и лесной кромки национального парка озеро Бурабай даёт маршруту первый открытый вид."
+              "uz": "Ostonadan kelgan yoʻl va Burabay milliy bogʻining oʻrmon chetidan keyin Burabay koʻli marshrutga birinchi ochiq manzarani beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Lake Burabay is where the resort area becomes easiest to understand."
+              "ru": "Озеро Бурабай помогает быстрее понять курортную зону."
+              "uz": "Burabay koʻli kurort hududini eng oson tushuntiradigan joydir."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Pines, open water, and Burabay's first clear view."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Сосны, открытая вода и первый ясный вид Бурабая."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Qaragʻaylar, ochiq suv va Burabayning ilk aniq manzarasi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Lake Burabay (Borovoe) as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Озеро Бурабай (Боровое) как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Burabay koʻli (Borovoe) o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Lake Burabay (Borovoe) sits on the route"
+      "ru": "Где Озеро Бурабай (Боровое) стоит на маршруте"
+      "uz": "Burabay koʻli (Borovoe) marshrutda qayerda"
+    "description":
+      "en": "One clear point for Lake Burabay (Borovoe) — Pines, open water, and Burabay's first clear view."
+      "ru": "Одна понятная точка для «Озеро Бурабай (Боровое)» — Сосны, открытая вода и первый ясный вид Бурабая."
+      "uz": "Burabay koʻli (Borovoe) uchun bitta aniq nuqta — Qaragʻaylar, ochiq suv va Burabayning ilk aniq manzarasi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Lake Burabay (Borovoe)"
+        "ru": "Озеро Бурабай (Боровое)"
+        "uz": "Burabay koʻli (Borovoe)"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 53.0749079
+      "longitude": 70.2740986
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "lake-borovoe-burabay-lake"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Where Burabay opens into water and sky"
+      "ru": "Где Бурабай открывается водой и небом"
+      "uz": "Burabay suv va osmonga ochiladigan joy"
+    "description":
+      "en": "Lake Burabay is where the resort area becomes easiest to understand. Forest, rocks, shore paths, and classic viewpoints gather around the water before the route widens toward Zhumbaktas, Okzhetpes, Bolektau, Kokshetau, or longer park walks.
+
+
+        «The lake is strongest when the route lets it breathe: a shore walk, a view across the water, and one next stop chosen with care.»"
+      "ru": "Озеро Бурабай помогает быстрее понять курортную зону. Вокруг воды сходятся лес, скалы, береговые прогулки и классические виды, а дальше маршрут может раскрыться к Жумбактасу, Окжетпесу, Бөлектау, Кокшетау или более длинным прогулкам по парку.
+
+
+        «Озеро сильнее всего, когда маршрут даёт ему время: прогулка у берега, взгляд через воду и следующая остановка, выбранная с вниманием.»"
+      "uz": "Burabay koʻli kurort hududini eng oson tushuntiradigan joydir. Suv atrofida oʻrmon, qoyalar, qirgʻoq yoʻllari va klassik manzaralar jamlanadi; keyin marshrut Jumbaqtas, Oqjetpes, Bölektaū, Kokshetau yoki uzunroq park yurishlariga ochilishi mumkin.
+
+
+        «Koʻlga vaqt berilganda u kuchliroq seziladi: qirgʻoq boʻylab yurish, suv ortiga qarash va eʼtibor bilan tanlangan keyingi bekat.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "Water, pines, and the first rock landmark"
+      "ru": "Вода, сосны и первый скальный ориентир"
+      "uz": "Suv, qaragʻaylar va birinchi qoya belgisi"
+    "description":
+      "en": "The lake does not need a long checklist. Its value is the way open water, pine shores, resort movement, and rock shapes come together in one readable Burabay view."
+      "ru": "Озеру не нужен длинный список. Его ценность в том, как открытая вода, сосновые берега, курортное движение и скальные формы сходятся в один читаемый вид Бурабая."
+      "uz": "Koʻlga uzun roʻyxat kerak emas. Uning qiymati ochiq suv, qaragʻayli qirgʻoqlar, kurort harakati va qoya shakllari bitta tushunarli Burabay manzarasida jamlanishida."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday koʻrish"
+    "title":
+      "en": "Choose the right shore, not just the lake name"
+      "ru": "Выберите правильный берег, а не просто название озера"
+      "uz": "Faqat koʻl nomini emas, toʻgʻri qirgʻoqni tanlang"
+    "description":
+      "en": "Lake Burabay can be a short pause, a gentle walk, or the starting point for a wider park sequence. The useful choice depends on weather, season, access, crowding, and how much time you want by the water."
+      "ru": "Озеро Бурабай может быть короткой паузой, лёгкой прогулкой или началом более широкого маршрута по парку. Полезный выбор зависит от погоды, сезона, доступа, загруженности и того, сколько времени вы хотите провести у воды."
+      "uz": "Burabay koʻli qisqa toʻxtash, yengil yurish yoki kengroq park ketma-ketligining boshlanishi boʻlishi mumkin. Foydali tanlov ob-havo, mavsum, kirish, gavjumlik va suv yonida qancha vaqt oʻtkazmoqchi ekaningizga bogʻliq."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqin atrofda"
+    "title":
+      "en": "Add the park and Zhumbaktas around the lake"
+      "ru": "Парк и Жумбактас вокруг озера"
+      "uz": "Koʻl atrofida park va Jumbaqtas"
+    "description":
+      "en": "Burabay National Park gives the lake its wider protected setting, and Zhumbaktas gives the shore its first rock landmark. Add Okzhetpes, Bolektau, or a wider forest route only when conditions and timing keep the sequence comfortable."
+      "ru": "Национальный парк Бурабай даёт озеру широкий охраняемый ландшафт, а Жумбактас — первый скальный ориентир берега. Окжетпес, Бөлектау или более длинный лесной маршрут добавляйте только тогда, когда условия и время сохраняют комфортный темп."
+      "uz": "Burabay milliy bogʻi koʻlning qoʻriqlanadigan muhitini beradi, Jumbaqtas esa qirgʻoqdagi birinchi qoya belgisidir. Oqjetpes, Bölektaū yoki uzunroq oʻrmon yoʻlini faqat sharoit va vaqt qulay surʼatni saqlaganda qoʻshing."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Burabay National Park"
+          "ru": "Национальный парк Бурабай"
+          "uz": "Burabay milliy bogʻi"
+        "description":
+          "en": "Burabay National Park is a protected forest-and-lake landscape north of Astana, where pine shade, granite rocks, and lake air turn Burabay into a slower nature stay."
+          "ru": "Охраняемый лесо-озёрный ландшафт к северу от Астаны, где сосновая тень, гранитные скалы и озёрный воздух превращают Бурабай в спокойную природную остановку."
+          "uz": "Ostonadan shimoldagi qoʻriqlanadigan oʻrmon-koʻl manzarasi: qaragʻay soyasi, granit qoyalar va koʻl havosi Burabayni shoshilmay koʻriladigan tabiat bekatiga aylantiradi."
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/burabay/burabay-national-park"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Lake Burabay (Borovoe)"
+      "ru": "Что агентства спрашивают про Озеро Бурабай (Боровое)"
+      "uz": "Agentliklar Burabay koʻli (Borovoe) haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Lake Burabay (Borovoe) get in the day plan?"
+          "ru": "Сколько времени закладывать на Озеро Бурабай (Боровое) в плане дня?"
+          "uz": "Burabay koʻli (Borovoe) uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "a focused half-day with buffer is a practical range for most groups. Keep the stop readable: one clear arrival, one clear exit. Place tone: “Pines, open water, and Burabay's first clear view”."
+          "ru": "Для большинства групп реалистичный диапазон — полдня с запасом. Держите остановку читаемой: понятный вход и понятный выход. Характер места: «Сосны, открытая вода и первый ясный вид Бурабая»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — zaxira bilan yarim kun. Bekatni o‘qiladigan tuting: aniq kirish va aniq chiqish. Joy ohangi: «Qaragʻaylar, ochiq suv va Burabayning ilk aniq manzarasi»."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "When is Lake Burabay (Borovoe) strongest during the day?"
+          "ru": "В какое время дня Озеро Бурабай (Боровое) раскрывается сильнее?"
+          "uz": "Burabay koʻli (Borovoe) kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer early morning or late afternoon. That usually improves comfort, photos, and how the stop feels in the sequence around burabay."
+          "ru": "Лучше рано утром или ближе к вечеру. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с burabay."
+          "uz": "erta tong yoki kechga yaqin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (burabay atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "How should Lake Burabay (Borovoe) sit next to nearby stops?"
+          "ru": "Как поставить Озеро Бурабай (Боровое) рядом с соседними остановками?"
+          "uz": "Burabay koʻli (Borovoe)ni yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Lake Burabay (Borovoe) to your Kazakhstan programme"
+      "ru": "Добавьте «Озеро Бурабай (Боровое)» в программу (Казахстан)"
+      "uz": "Burabay koʻli (Borovoe)ni Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Lake Burabay (Borovoe) | TourLink"
+    "ru": "Озеро Бурабай (Боровое) | TourLink"
+    "uz": "Burabay koʻli (Borovoe) | TourLink"
+  "metaDescription":
+    "en": "After the road from Astana and the forest edge of Burabay National Park, Lake Burabay gives the route its first open view. Water appears between pines, granite forms hold the far shore, and the resort name becomes a landscape you can read from the lake edge. The best stop still depends on season, crowding, weather, and the shore section that is accessible and comfortable on the travel date."
+    "ru": "После дороги из Астаны и лесной кромки национального парка озеро Бурабай даёт маршруту первый открытый вид. Между соснами появляется вода, на дальнем берегу держатся гранитные формы, и название курорта становится реальным ландшафтом. Лучшая остановка всё равно зависит от сезона, загруженности, погоды и участка берега, который доступен и удобен в день поездки."
+    "uz": "Ostonadan kelgan yoʻl va Burabay milliy bogʻining oʻrmon chetidan keyin Burabay koʻli marshrutga birinchi ochiq manzarani beradi. Qaragʻaylar orasida suv koʻrinadi, narigi qirgʻoqda granit qoyalar turadi, kurort nomi esa koʻl boʻyidan koʻrinadigan haqiqiy manzaraga aylanadi. Eng mos toʻxtash mavsum, gavjumlik, ob-havo va safar kuni ochiq hamda qulay boʻlgan qirgʻoq qismiga bogʻliq."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "astana-and-akmola-steppe"
+"city": "burabay"
+"type": "LAKE"
+"importance": "RECOMMENDED"
+"latitude": 53.0749079
+"longitude": 70.2740986

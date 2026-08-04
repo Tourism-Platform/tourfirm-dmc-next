@@ -1,0 +1,539 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "ridder"
+  "ru": "ridder"
+  "uz": "ridder"
+"title":
+  "en": "Ridder"
+  "ru": "Риддер"
+  "uz": "Ridder"
+"subtitle":
+  "en": "Forest roads, mining history, and the northern Altai edge"
+  "ru": "Лесные дороги, горная история и северная окраина Алтая"
+  "uz": "Oʻrmon yoʻllari, konchilik tarixi va shimoliy Oltay chekkasi"
+"excerpt":
+  "en": "Ridder is not a polished resort stop. It is a working mountain town with mining memory, forest air, and roads that can change quickly with snow, weather, and local access rules.
+
+
+    Ridder fits after Oskemen when the trip is built for mountain time: a museum or town walk, a careful look toward West Altai, and no promise of trails or reserve visits until current conditions are clear."
+  "ru": "Риддер — не отполированная курортная остановка. Это рабочий горный город с памятью о рудниках, лесным воздухом и дорогами, которые быстро меняются из-за снега, погоды и местных правил доступа.
+
+
+    Риддер хорошо встаёт после Усть-Каменогорска, когда поездка рассчитана на горное время: музей или прогулка по городу, внимательный взгляд в сторону Западного Алтая и никаких обещаний по тропам или заповеднику, пока условия не подтверждены."
+  "uz": "Ridder silliq kurort to‘xtashi emas. Bu konlar xotirasi, oʻrmon havosi va qor, ob-havo hamda mahalliy kirish qoidalari bilan tez o‘zgaradigan yoʻllari bor ishchi togʻ shahri.
+
+
+    Ridder safar togʻ vaqtiga qurilganda Oʻskemendan keyin mos tushadi: muzey yoki shahar sayri, Gʻarbiy Oltay tomonga ehtiyotkor qarash va sharoit aniq bo‘lmaguncha soʻqmoq yoki qoʻriqxona bo‘yicha vaʼda bermaslik."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "Ridder"
+      "ru": "Риддер"
+      "uz": "Ridder"
+    "title":
+      "en": "Ridder"
+      "ru": "Риддер"
+      "uz": "Ridder"
+    "description":
+      "en": "Forest roads, mining history, and the northern Altai edge"
+      "ru": "Лесные дороги, горная история и северная окраина Алтая"
+      "uz": "Oʻrmon yoʻllari, konchilik tarixi va shimoliy Oltay chekkasi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Ridder"
+      "ru": "Риддер"
+      "uz": "Ridder"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Ridder is not a polished resort stop."
+              "ru": "Риддер — не отполированная курортная остановка."
+              "uz": "Ridder silliq kurort to‘xtashi emas."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Ridder reads best as a separate northern Altai branch, not a rushed add-on. Begin with the town, keep the museum and central streets close, then let the road, weather, permit rules, and local guidance decide whether the route continues toward forest and mountain roads."
+              "ru": "Риддер лучше раскрывается как отдельная северная алтайская ветка, а не как поспешное дополнение. Начните с города, оставьте музей и центральные улицы рядом, а затем пусть дорога, погода, пропуск и местный гид решат, продолжать ли путь к лесам и горам."
+              "uz": "Ridder shoshilinch qoʻshimcha emas, alohida shimoliy Oltay tarmogʻi sifatida yaxshiroq ochiladi. Avval shahar, muzey va markaziy ko‘chalar; keyin yoʻl, ob-havo, ruxsat va mahalliy gid oʻrmon va togʻ sari davom etish yoki etmaslikni belgilaydi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "A strong Ridder stop moves from Oskemen to the town, then to the local history museum and nearby forest outlooks. West Altai and Ivanovsky Ridge belong later, once access and safety are clear."
+              "ru": "Хорошая остановка в Риддере идёт от Усть-Каменогорска к городу, затем к краеведческому музею и лесным ориентирам. Западный Алтай и Ивановский хребет появляются позже, когда доступ и безопасность понятны."
+              "uz": "Yaxshi Ridder to‘xtashi Oʻskemendan shaharga, keyin o‘lkashunoslik muzeyi va oʻrmon yoʻllari tomonga o‘tadi. Gʻarbiy Oltay va Ivanovskiy tizmasi kirish va xavfsizlik aniq bo‘lgandan keyin qoʻshiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Ridder as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Риддер как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Ridder o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "Keep the northern branch deliberate"
+      "ru": "Держите северную ветку осознанной"
+      "uz": "Shimoliy tarmoqni ongli saqlang"
+    "description":
+      "en": "Ridder reads best as a separate northern Altai branch, not a rushed add-on. Begin with the town, keep the museum and central streets close, then let the road, weather, permit rules, and local guidance decide whether the route continues toward forest and mountain roads."
+      "ru": "Риддер лучше раскрывается как отдельная северная алтайская ветка, а не как поспешное дополнение. Начните с города, оставьте музей и центральные улицы рядом, а затем пусть дорога, погода, пропуск и местный гид решат, продолжать ли путь к лесам и горам."
+      "uz": "Ridder shoshilinch qoʻshimcha emas, alohida shimoliy Oltay tarmogʻi sifatida yaxshiroq ochiladi. Avval shahar, muzey va markaziy ko‘chalar; keyin yoʻl, ob-havo, ruxsat va mahalliy gid oʻrmon va togʻ sari davom etish yoki etmaslikni belgilaydi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Map anchor"
+        "ru": "Точка на карте"
+        "uz": "Xaritadagi tayanch"
+      "title":
+        "en": "Ridder north of Oskemen"
+        "ru": "Риддер севернее Усть-Каменогорска"
+        "uz": "Oʻskemendan shimoldagi Ridder"
+      "description":
+        "en": "The marker gives a city-level anchor for the northern Altai branch. Reserve offices, pass points, trailheads, and winter-road starts need separate verification before they become fixed route stops."
+        "ru": "Точка даёт городской ориентир для северной алтайской ветки. Офисы заповедника, пропуска, начала троп и зимние дороги требуют отдельной проверки, прежде чем стать фиксированными остановками маршрута."
+        "uz": "Belgi shimoliy Oltay tarmogʻi uchun shahar darajasidagi tayanch beradi. Qoʻriqxona ofislari, ruxsat nuqtalari, soʻqmoq boshlari va qishki yoʻllar alohida tekshirilmaguncha qatʼiy marshrut toʻxtashiga aylanmaydi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 50.353268
+      "longitude": 83.520727
+    "zoom": 14
+    "stops": []
+    "aside":
+      "eyebrow":
+        "en": "Visit order"
+        "ru": "Порядок визита"
+        "uz": "Tashrif tartibi"
+      "title":
+        "en": "Town first, then the mountain decision"
+        "ru": "Сначала город, затем решение о горах"
+        "uz": "Avval shahar, keyin togʻ qarori"
+      "description":
+        "en": "A strong Ridder stop moves from Oskemen to the town, then to the local history museum and nearby forest outlooks. West Altai and Ivanovsky Ridge belong later, once access and safety are clear."
+        "ru": "Хорошая остановка в Риддере идёт от Усть-Каменогорска к городу, затем к краеведческому музею и лесным ориентирам. Западный Алтай и Ивановский хребет появляются позже, когда доступ и безопасность понятны."
+        "uz": "Yaxshi Ridder to‘xtashi Oʻskemendan shaharga, keyin o‘lkashunoslik muzeyi va oʻrmon yoʻllari tomonga o‘tadi. Gʻarbiy Oltay va Ivanovskiy tizmasi kirish va xavfsizlik aniq bo‘lgandan keyin qoʻshiladi."
+      "items":
+        - "title":
+            "en": "Treat Oskemen as the practical approach"
+            "ru": "Считайте Усть-Каменогорск практическим подходом"
+            "uz": "Oʻskemenni amaliy kelish shahri deb oling"
+          "description":
+            "en": "Ridder usually makes sense after Oskemen, where flights, rail, vehicles, and guide arrangements can be checked before the road turns north."
+            "ru": "Риддер обычно понятен после Усть-Каменогорска, где можно проверить перелёт, поезд, машину и сопровождение до дороги на север."
+            "uz": "Ridder odatda Oʻskemendan keyin mantiqli: parvoz, poyezd, transport va gid shimolga burilishdan oldin shu yerda tekshiriladi."
+        - "title":
+            "en": "Let the museum explain the place"
+            "ru": "Дайте музею объяснить место"
+            "uz": "Joyni muzey tushuntirsin"
+          "description":
+            "en": "The local history museum connects mining, natural history, and the city before the route becomes only scenery."
+            "ru": "Краеведческий музей связывает историю рудников, природу и город, прежде чем маршрут станет только пейзажем."
+            "uz": "Oʻlkashunoslik muzeyi konchilik, tabiiy tarix va shaharni bogʻlaydi, shunda yoʻnalish faqat manzaraga aylanib qolmaydi."
+        - "title":
+            "en": "Treat West Altai as conditional"
+            "ru": "Считайте Западный Алтай условным"
+            "uz": "Gʻarbiy Oltayni shartli deb biling"
+          "description":
+            "en": "The reserve and mountain roads are serious protected-landscape decisions, with passes, weather, dirt-road conditions, and local guidance checked before travel."
+            "ru": "Заповедник и горные дороги требуют пропусков, проверки погоды, грунтовых дорог и местного сопровождения до поездки."
+            "uz": "Qoʻriqxona va togʻ yoʻllari ruxsat, ob-havo, tuproq yoʻl holati va mahalliy hamroh tekshiruvi bilan jiddiy qaror sifatida ko‘riladi."
+        - "title":
+            "en": "Let snow and weather shape the plan"
+            "ru": "Пусть снег и погода формируют план"
+            "uz": "Qor va ob-havo rejani shakllantirsin"
+          "description":
+            "en": "Ridder can be compelling in different seasons, but snow, rain, and visibility decide whether the visit stays in town or moves toward the forest roads."
+            "ru": "Риддер может быть интересен в разные сезоны, но снег, дождь и видимость решают, останется ли визит в городе или пойдёт к лесным дорогам."
+            "uz": "Ridder turli mavsumlarda qiziq, ammo qor, yomgʻir va ko‘rinish tashrif shaharda qoladimi yoki oʻrmon yoʻllariga chiqadimi, shuni hal qiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Five anchors for a first Ridder stop"
+      "ru": "Пять опор для первой остановки в Риддере"
+      "uz": "Birinchi Ridder to‘xtashi uchun besh tayanch"
+    "description":
+      "en": "A useful first visit can stay honest: the museum, the central mining story, the forested edge, the West Altai approach, and the separate Ivanovsky road."
+      "ru": "Первая встреча с городом может оставаться честной: музей, центральная история рудников, лесная окраина, подход к Западному Алтаю и отдельная Ивановская дорога."
+      "uz": "Birinchi tashrif halol bo‘lishi mumkin: muzey, markaziy konchilik hikoyasi, oʻrmon chekkasi, Gʻarbiy Oltayga yondashuv va alohida Ivanovskiy yoʻli."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Ridder planning"
+      "ru": "Планирование Риддера"
+      "uz": "Ridder rejasi"
+    "title":
+      "en": "Three ways to approach the town"
+      "ru": "Три способа подойти к городу"
+      "uz": "Shaharga uch xil yondashuv"
+    "description":
+      "en": "Ridder becomes clearer through three small choices: how far to take West Altai, whether the Ivanovsky forest road is sensible, and how much time to give the mining town itself."
+      "ru": "Риддер становится понятнее через три выбора: насколько далеко идти к Западному Алтаю, разумна ли Ивановская лесная дорога и сколько времени дать самому горному городу."
+      "uz": "Ridder uch tanlov orqali ravshanlashadi: Gʻarbiy Oltayga qanchalik yaqin borish, Ivanovskiy oʻrmon yoʻli mantiqlimi va konchilik shahrining oʻziga qancha vaqt berish."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "West Altai starts with the right permission"
+          "ru": "Западный Алтай начинается с правильного пропуска"
+          "uz": "Gʻarbiy Oltay toʻgʻri ruxsatdan boshlanadi"
+        "description":
+          "en": "Before the forest road becomes part of the journey, the route needs current reserve rules, pass details, weather, and local guidance."
+          "ru": "Прежде чем лесная дорога войдёт в поездку, нужны актуальные правила заповедника, пропуск, погода и местное сопровождение."
+          "uz": "Oʻrmon yoʻli safarga kirishidan oldin qoʻriqxona qoidalari, ruxsat, ob-havo va mahalliy hamroh masalasi aniq bo‘lishi kerak."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "The Ivanovsky road waits for clear conditions"
+          "ru": "Ивановская дорога ждёт ясных условий"
+          "uz": "Ivanovskiy yoʻli aniq sharoitni kutadi"
+        "description":
+          "en": "The ridge belongs to the plan when the season, vehicle, visibility, and local guidance make the northern branch feel sensible."
+          "ru": "Хребет входит в план, когда сезон, машина, видимость и местный гид делают северную ветку разумной."
+          "uz": "Tizma mavsum, transport, ko‘rinish va mahalliy hamroh shimoliy tarmoqni mantiqli qilganda rejaga kiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Give the working town its time"
+          "ru": "Дайте рабочему городу время"
+          "uz": "Ishchi shaharga vaqt bering"
+        "description":
+          "en": "A museum-and-town stop keeps Ridder grounded in mining history, local collections, and everyday city life before the forest road."
+          "ru": "Музей и городская прогулка удерживают Риддер в истории рудников, местных коллекциях и обычной жизни до лесной дороги."
+          "uz": "Muzey va shahar sayri Ridderni oʻrmon yoʻlidan oldin konchilik tarixi, mahalliy toʻplamlar va kundalik hayotga bogʻlab turadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "Keep Ridder honest and weather-aware"
+      "ru": "Оставьте Риддер честным и внимательным к погоде"
+      "uz": "Ridderni halol va ob-havoga sezgir qoldiring"
+    "description":
+      "en": "Ridder is strongest when the route treats it plainly: a working mountain town, a museum stop, and a northern Altai branch that opens only when conditions fit."
+      "ru": "Риддер сильнее всего, когда маршрут видит его прямо: рабочий горный город, музейную остановку и северную алтайскую ветку, которая открывается только при подходящих условиях."
+      "uz": "Ridder yoʻnalish uni boricha ko‘rganda kuchliroq: sanoat togʻ shahri, muzey toʻxtashi va faqat sharoit mos kelganda ochiladigan shimoliy Oltay tarmogʻi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Start with the working town"
+              "ru": "Начните с рабочего города"
+              "uz": "Ishchi shahardan boshlang"
+            "description":
+              "en": "Ridder’s value is not only outside the city. A short town stop, the museum, and the central mining story give the route a human scale before the forest roads begin."
+              "ru": "Ценность Риддера не только за пределами города. Короткая остановка, музей и центральная история рудников дают маршруту человеческий масштаб до лесных дорог."
+              "uz": "Ridderning qadri faqat shahar tashqarisida emas. Qisqa shahar toʻxtashi, muzey va markaziy konchilik hikoyasi oʻrmon yoʻllaridan oldin yoʻnalishga insoniy miqyos beradi."
+          - "type": "quote"
+            "quote":
+              "en": "Ridder makes sense when the route respects its working-city character and waits for the mountains to be genuinely ready."
+              "ru": "Риддер обретает смысл, когда маршрут уважает характер рабочего города и ждёт, пока горы действительно будут готовы."
+              "uz": "Yoʻnalish ishchi shahar xarakterini hurmat qilganda va togʻlar haqiqatan tayyor bo‘lishini kutganda Ridder maʼno topadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Treat West Altai as protected land"
+              "ru": "Считайте Западный Алтай охраняемой территорией"
+              "uz": "Gʻarbiy Oltayni qoʻriqlanadigan hudud deb biling"
+            "description":
+              "en": "West Altai should not be presented like an open scenic drive. Passes, office contact, road surface, local guide quality, and seasonal limits must be checked before the branch becomes part of the visit."
+              "ru": "Западный Алтай нельзя подавать как открытую красивую дорогу. Пропуска, связь с офисом, состояние покрытия, качество местного гида и сезонные ограничения проверяются до включения ветки в визит."
+              "uz": "Gʻarbiy Oltay ochiq manzarali yoʻl kabi berilmasligi kerak. Ruxsatlar, ofis bilan aloqa, yoʻl qoplamasi, mahalliy gid sifati va mavsumiy cheklovlar tarmoq tashrifga qoʻshilishidan oldin tekshiriladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Let season shape the promise"
+              "ru": "Пусть сезон формирует обещание"
+              "uz": "Vaʼdani mavsum shakllantirsin"
+            "description":
+              "en": "Snow, rain, and visibility change Ridder quickly. When mountain conditions are not right, the better plan stays with the town, museum, and forest edge."
+              "ru": "Снег, дождь и видимость быстро меняют Риддер. Когда горные условия не подходят, лучший план остаётся в городе, музее и у лесной окраины."
+              "uz": "Qor, yomgʻir va ko‘rinish Ridderni tez o‘zgartiradi. Togʻ sharoiti mos kelmaganda, yaxshiroq reja shahar, muzey va oʻrmon chekkasida qoladi."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Главное для гостя"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Come for a measured northern Altai branch after Oskemen, with museum time and access checks before any higher road is promised."
+              "ru": "Приезжайте за размеренной северной веткой Алтая после Усть-Каменогорска: с музеем и проверкой доступа до любых обещаний дороги выше."
+              "uz": "Oʻskemendan keyin muzey va kirish tekshiruvlari bilan oʻlchovli shimoliy Oltay tarmogʻi uchun keling; yuqoriroq yoʻl bo‘yicha vaʼda keyin beriladi."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "Ridder sits north-east of Oskemen inside the East Kazakhstan & Altai tourist region."
+                  "ru": "Риддер находится северо-восточнее Усть-Каменогорска внутри туристического региона Восточный Казахстан и Алтай."
+                  "uz": "Ridder Oʻskemendan shimoli-sharqda, Sharqiy Qozogʻiston va Oltay turistik hududi ichida joylashgan."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Stay"
+                  "ru": "Срок"
+                  "uz": "Qolish"
+                "description":
+                  "en": "Best as a deliberate northern Altai stop, not a rushed addition to an already long eastern road day."
+                  "ru": "Лучше как осознанная северная алтайская остановка, а не поспешное дополнение к уже длинному восточному дню."
+                  "uz": "Allaqachon uzun sharqiy yoʻl kuniga shoshilinch qoʻshimcha emas, ongli shimoliy Oltay toʻxtashi sifatida yaxshiroq."
+              - "icon": "Sun"
+                "title":
+                  "en": "Main story"
+                  "ru": "Главная история"
+                  "uz": "Asosiy hikoya"
+                "description":
+                  "en": "The city combines industrial history, local collections, and access decisions toward West Altai."
+                  "ru": "Город соединяет промышленную историю, местные коллекции и решения по доступу к Западному Алтаю."
+                  "uz": "Shahar sanoat tarixini, mahalliy toʻplamlarni va Gʻarbiy Oltayga kirish qarorlarini bogʻlaydi."
+              - "icon": "Route"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Yoʻnalishdagi roli"
+                "description":
+                  "en": "Ridder helps a route turn from Oskemen toward forest and mountain roads when the season is right."
+                  "ru": "Риддер помогает маршруту уйти от Усть-Каменогорска к лесным и горным дорогам, когда сезон подходит."
+                  "uz": "Mavsum mos kelganda Ridder yoʻnalishni Oʻskemendan oʻrmon va togʻ yoʻllariga burishga yordam beradi."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Operations"
+                  "ru": "Организация"
+                  "uz": "Tashkiliy ish"
+                "description":
+                  "en": "Protected-area visits and mountain roads need current local confirmation before they become public travel promises."
+                  "ru": "Охраняемые территории и горные дороги требуют актуального местного подтверждения до обещаний в программе."
+                  "uz": "Qoʻriqlanadigan hududlar va togʻ yoʻllari sayohat vaʼdasiga aylanishidan oldin mahalliy tasdiq talab qiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Where to continue"
+      "ru": "Куда продолжить"
+      "uz": "Qayerga davom etish"
+    "title":
+      "en": "Oskemen, Semey, and the Altai road"
+      "ru": "Усть-Каменогорск, Семей и дорога к Алтаю"
+      "uz": "Oʻskemen, Semey va Oltay yoʻli"
+    "description":
+      "en": "Oskemen usually anchors arrival, Semey adds the Irtysh cultural leg, and Katon-Karagay is a different Altai journey with its own road and season checks."
+      "ru": "Усть-Каменогорск обычно держит прибытие, Семей добавляет культурный участок на Иртыше, а Катон-Карагай — другое алтайское путешествие со своей дорогой и сезонными проверками."
+      "uz": "Oʻskemen odatda kelishni ushlab turadi, Semey Irtish bo‘yidagi madaniy qismni qoʻshadi, Katon-Qaragʻay esa o‘z yoʻli va mavsumiy tekshiruvlari bor boshqa Oltay safaridir."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Oskemen"
+          "ru": "Усть-Каменогорск"
+          "uz": "Oʻskemen"
+        "description":
+          "en": "Oskemen gives East Kazakhstan an arrival point: the Irtysh and Ulba river setting, airport and rail access, and the road choice toward Ridder or Katon-Karagay."
+          "ru": "Усть-Каменогорск даёт Восточному Казахстану точку прибытия: Иртыш и Ульбу, аэропорт и железную дорогу, а дальше выбор дороги к Риддеру или Катон-Карагаю."
+          "uz": "Oʻskemen Sharqiy Qozogʻistonga kelish nuqtasini beradi: Irtish va Ulba daryolari, aeroport va temir yoʻl, keyin Ridder yoki Katon-Qaragʻay tomon yoʻl tanlovi."
+        "ctaHref": "/destinations/kazakhstan/east-kazakhstan-and-altai/oskemen"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Katon-Karagay"
+          "ru": "Катон-Карагай"
+          "uz": "Katon-Qaragʻay"
+        "description":
+          "en": "Katon-Karagay carries East Kazakhstan beyond Oskemen into protected Altai forest, river valleys, village quiet, and mountain roads that need unhurried time."
+          "ru": "Катон-Карагай ведёт Восточный Казахстан дальше Усть-Каменогорска: к охраняемым алтайским лесам, речным долинам, тихим сёлам и горным дорогам, которым нужно время."
+          "uz": "Katon-Qaragʻay Sharqiy Qozogʻistonni Oʻskemendan nariga olib chiqadi: qoʻriqlanadigan Altay oʻrmonlari, daryo vodiylari, sokin qishloqlar va vaqt talab qiladigan togʻ yoʻllari."
+        "ctaHref": "/destinations/kazakhstan/east-kazakhstan-and-altai/katon-karagay"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Semey"
+          "ru": "Семей"
+          "uz": "Semey"
+        "description":
+          "en": "Semey gives East Kazakhstan a measured Irtysh stop with Abai and Dostoevsky museums, local collections, river walks, and careful interpretation of difficult history."
+          "ru": "Семей добавляет Восточному Казахстану спокойную остановку на Иртыше: музеи Абая и Достоевского, городские коллекции, прогулку у реки и бережное объяснение сложной истории."
+          "uz": "Semey Sharqiy Qozogʻistonga Irtish bo‘yidagi sokin shahar to‘xtashini qo‘shadi: Abay va Dostoevskiy muzeylari, shahar to‘plamlari, daryo sayri va ehtiyotkor xotira."
+        "ctaHref": "/destinations/kazakhstan/east-kazakhstan-and-altai/semey"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Ridder in the day plan"
+      "ru": "Как поставить Риддер в план дня"
+      "uz": "Ridderni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Ridder?"
+          "ru": "Сколько времени группам стоит проводить в Риддер?"
+          "uz": "Ridderda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “Forest roads, mining history, and the northern Altai edge”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Лесные дороги, горная история и северная окраина Алтая»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Oʻrmon yoʻllari, konchilik tarixi va shimoliy Oltay chekkasi»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Ridder be a walkable core or a base for day trips?"
+          "ru": "Риддер — это пешеходное ядро или база для выездов?"
+          "uz": "Ridder piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Ridder's centre?"
+          "ru": "Где лучше ночевать относительно центра Риддер?"
+          "uz": "Ridder markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Ridder stop into your Kazakhstan programme"
+      "ru": "Встройте остановку «Риддер» в программу (Казахстан)"
+      "uz": "Ridder bekatini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Ridder | TourLink"
+    "ru": "Риддер | TourLink"
+    "uz": "Ridder | TourLink"
+  "metaDescription":
+    "en": "Ridder is not a polished resort stop. It is a working mountain town with mining memory, forest air, and roads that can change quickly with snow, weather, and local access rules.
+
+
+      Ridder fits after Oskemen when the trip is built for mountain time: a museum or town walk, a careful look toward West Altai, and no promise of trails or reserve visits until current conditions are clear."
+    "ru": "Риддер — не отполированная курортная остановка. Это рабочий горный город с памятью о рудниках, лесным воздухом и дорогами, которые быстро меняются из-за снега, погоды и местных правил доступа.
+
+
+      Риддер хорошо встаёт после Усть-Каменогорска, когда поездка рассчитана на горное время: музей или прогулка по городу, внимательный взгляд в сторону Западного Алтая и никаких обещаний по тропам или заповеднику, пока условия не подтверждены."
+    "uz": "Ridder silliq kurort to‘xtashi emas. Bu konlar xotirasi, oʻrmon havosi va qor, ob-havo hamda mahalliy kirish qoidalari bilan tez o‘zgaradigan yoʻllari bor ishchi togʻ shahri.
+
+
+      Ridder safar togʻ vaqtiga qurilganda Oʻskemendan keyin mos tushadi: muzey yoki shahar sayri, Gʻarbiy Oltay tomonga ehtiyotkor qarash va sharoit aniq bo‘lmaguncha soʻqmoq yoki qoʻriqxona bo‘yicha vaʼda bermaslik."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "east-kazakhstan-and-altai"
+"latitude": 50.3532685
+"longitude": 83.5207272

@@ -1,0 +1,635 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "angidon"
+  "ru": "angidon"
+  "uz": "angidon"
+"title":
+  "en": "Angidon"
+  "ru": "Ангидон"
+  "uz": "Angidon"
+"subtitle":
+  "en": "A Khatirchi mountain village of clean air, home cooking, craft, and quiet outdoor time"
+  "ru": "Горное село Хатырчи с чистым воздухом, домашней едой, ремеслом и тихим отдыхом"
+  "uz": "Toza havo, xonadon taomi, hunar va sokin ochiq havo bilan Xatirchi tog‘ qishlog‘i"
+"excerpt":
+  "en": "Angidon sits among the mountains of Khatirchi District, about 100 km from Navoi and 45 km from the district center. For a Nurata-Aydarkul journey, it gives the road a cooler village stop: slopes around the lanes, food prepared at home, local craft, folklore, and, when it fits, a short ride or fishing stop. The public marker orients the village; exact walks, meals, overnights, and outdoor details are arranged around the travel dates."
+  "ru": "Ангидон лежит среди гор Хатырчинского района, примерно в 100 км от Навои и в 45 км от районного центра. В маршруте Нурата-Айдаркуль это более прохладная сельская остановка: склоны рядом с улицами, домашняя еда, местное ремесло, фольклор и, если уместно, короткая верховая прогулка или рыбалка. Публичный маркер помогает сориентироваться; точные прогулки, еда, ночёвка и отдых на воздухе подбираются под даты поездки."
+  "uz": "Angidon Xatirchi tumanidagi tog‘lar orasida, Navoiydan taxminan 100 km, tuman markazidan 45 km narida joylashgan. Nurota-Aydarko‘l yo‘lida bu salqinroq qishloq bekati: ko‘chalar yonidagi yonbag‘irlar, xonadon taomi, mahalliy hunar, folklor va mos kelsa qisqa ot minish yoki baliq ovi. Ommaviy marker qishloqni topishga yordam beradi; aniq sayr, taom, tunash va ochiq havo tafsilotlari safar sanasiga qarab tuziladi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/angidon.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/angidon.webp"
+    "imageAlt":
+      "en": "Angidon"
+      "ru": "Ангидон"
+      "uz": "Angidon"
+    "title":
+      "en": "Angidon"
+      "ru": "Ангидон"
+      "uz": "Angidon"
+    "description":
+      "en": "A Khatirchi mountain village of clean air, home cooking, craft, and quiet outdoor time"
+      "ru": "Горное село Хатырчи с чистым воздухом, домашней едой, ремеслом и тихим отдыхом"
+      "uz": "Toza havo, xonadon taomi, hunar va sokin ochiq havo bilan Xatirchi tog‘ qishlog‘i"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Angidon"
+      "ru": "Ангидон"
+      "uz": "Angidon"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Angidon sits among the mountains of Khatirchi District, about 100 km from Navoi and 45 km from the district center."
+              "ru": "Ангидон лежит среди гор Хатырчинского района, примерно в 100 км от Навои и в 45 км от районного центра."
+              "uz": "Angidon Xatirchi tumanidagi tog‘lar orasida, Navoiydan taxminan 100 km, tuman markazidan 45 km narida joylashgan."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "The map keeps Angidon with Langar, Chuya, and Nurata so the mountain village reads as part of one Navoi journey."
+              "ru": "Карта держит Ангидон рядом с Лангаром, Чуёй и Нуратой, чтобы горное село читалось частью одного маршрута по Навои."
+              "uz": "Xarita Angidonni Langar, Chuya va Nurota bilan birga tutadi; tog‘ qishlog‘i Navoiy bo‘ylab bitta yo‘lning qismi bo‘lib ko‘rinadi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Start with Angidon’s mountain air, add a family table or craft detail when it fits, then keep riding, fishing, or quiet rest for a slower version of the journey."
+              "ru": "Сначала горный воздух Ангидона, затем домашний стол или ремесло, если это уместно; верховая прогулка, рыбалка или тихий отдых остаются для более спокойной версии пути."
+              "uz": "Avval Angidonning tog‘ havosi, keyin mos kelsa xonadon dasturxoni yoki hunar detali; ot minish, baliq ovi yoki sokin dam yo‘lning sekinroq shakliga qoladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Angidon as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Ангидон как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Angidon o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Route map"
+      "ru": "Карта маршрута"
+      "uz": "Marshrut xaritasi"
+    "title":
+      "en": "Angidon on the Khatirchi mountain road"
+      "ru": "Ангидон на горной дороге Хатырчи"
+      "uz": "Angidon Xatirchi tog‘ yo‘lida"
+    "description":
+      "en": "The map keeps Angidon with Langar, Chuya, and Nurata so the mountain village reads as part of one Navoi journey."
+      "ru": "Карта держит Ангидон рядом с Лангаром, Чуёй и Нуратой, чтобы горное село читалось частью одного маршрута по Навои."
+      "uz": "Xarita Angidonni Langar, Chuya va Nurota bilan birga tutadi; tog‘ qishlog‘i Navoiy bo‘ylab bitta yo‘lning qismi bo‘lib ko‘rinadi."
+    "mapPanel":
+      "eyebrow":
+        "en": "On the map"
+        "ru": "На карте"
+        "uz": "Xaritada"
+      "title":
+        "en": "Angidon, Langar, Chuya, and Nurata"
+        "ru": "Ангидон, Лангар, Чуя и Нурата"
+        "uz": "Angidon, Langar, Chuya va Nurota"
+      "description":
+        "en": "These markers are village and route references for the Navoi side of the Nurata-Aydarkul journey."
+        "ru": "Эти маркеры служат сельскими и маршрутными ориентирами навоийской стороны пути Нурата-Айдаркуль."
+        "uz": "Bu markerlar Nurota-Aydarko‘l yo‘lining Navoiy tomonidagi qishloq va marshrut orientirlari."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.428682
+      "longitude": 65.900004
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "angidon-folklore-crafts-and-riding"
+      - "entityType": "attraction"
+        "entitySlug": "angidon-guesthouses-and-recreation"
+      - "entityType": "attraction"
+        "entitySlug": "angidon-high-mountain-village-setting"
+    "aside":
+      "eyebrow":
+        "en": "Route flow"
+        "ru": "Ход маршрута"
+        "uz": "Yo‘l oqimi"
+      "title":
+        "en": "Mountain village, table, then one outdoor detail"
+        "ru": "Горное село, стол, затем один отдых на воздухе"
+        "uz": "Tog‘ qishlog‘i, dasturxon, keyin bitta ochiq havo detali"
+      "description":
+        "en": "Start with Angidon’s mountain air, add a family table or craft detail when it fits, then keep riding, fishing, or quiet rest for a slower version of the journey."
+        "ru": "Сначала горный воздух Ангидона, затем домашний стол или ремесло, если это уместно; верховая прогулка, рыбалка или тихий отдых остаются для более спокойной версии пути."
+        "uz": "Avval Angidonning tog‘ havosi, keyin mos kelsa xonadon dasturxoni yoki hunar detali; ot minish, baliq ovi yoki sokin dam yo‘lning sekinroq shakliga qoladi."
+      "items":
+        - "title":
+            "en": "Angidon"
+            "ru": "Ангидон"
+            "uz": "Angidon"
+          "description":
+            "en": "Mountain village stop for clean air, family food, folklore, craft, and quiet outdoor time."
+            "ru": "Горное село для чистого воздуха, домашней еды, фольклора, ремесла и спокойного отдыха на воздухе."
+            "uz": "Toza havo, xonadon taomi, folklor, hunar va sokin ochiq havo uchun tog‘ qishlog‘i."
+          "badge":
+            "en": "Mountain village"
+            "ru": "Горное село"
+            "uz": "Tog‘ qishlog‘i"
+        - "title":
+            "en": "Langar"
+            "ru": "Лангар"
+            "uz": "Langar"
+          "description":
+            "en": "A nearby Khatirchi mahalla stop that keeps the rural line moving."
+            "ru": "Близкая махалля Хатырчи, которая продолжает сельскую линию маршрута."
+            "uz": "Qishloq chizig‘ini davom ettiradigan yaqin Xatirchi mahallasi."
+          "badge":
+            "en": "Khatirchi side"
+            "ru": "Сторона Хатырчи"
+            "uz": "Xatirchi tomoni"
+        - "title":
+            "en": "Chuya"
+            "ru": "Чуя"
+            "uz": "Chuya"
+          "description":
+            "en": "Another Navoi mahalla stop where craft, food, and mountain air can pair with Angidon."
+            "ru": "Ещё одна навоийская махалля, где ремесло, еда и горный воздух могут сочетаться с Ангидоном."
+            "uz": "Hunar, taom va tog‘ havosi Angidon bilan juftlashishi mumkin bo‘lgan yana bir Navoiy mahallasi."
+          "badge":
+            "en": "Village route"
+            "ru": "Сельский маршрут"
+            "uz": "Qishloq yo‘li"
+        - "title":
+            "en": "Nurata"
+            "ru": "Нурата"
+            "uz": "Nurota"
+          "description":
+            "en": "The spring-town anchor that returns the route toward Aydarkul and the Kyzylkum edge."
+            "ru": "Город источника возвращает маршрут к Айдаркулю и краю Кызылкума."
+            "uz": "Yo‘lni Aydarko‘l va Qizilqum chetiga qaytaradigan buloq shahri."
+          "badge":
+            "en": "Spring town"
+            "ru": "Город источника"
+            "uz": "Buloq shahri"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что увидеть"
+      "uz": "Nimani ko‘rish"
+    "title":
+      "en": "Three close ways into Angidon"
+      "ru": "Три близких входа в Ангидон"
+      "uz": "Angidonga uch yaqin kirish"
+    "description":
+      "en": "Start with the mountain village itself, then widen into a longer village stay or a close cultural and outdoor angle."
+      "ru": "Начинайте с самого горного села, затем раскрывайте более долгую сельскую остановку или близкий культурный и природный ракурс."
+      "uz": "Avval tog‘ qishlog‘ining o‘zidan boshlang, keyin uzoqroq qishloq bekati yoki yaqin madaniy va ochiq havo qarashiga o‘ting."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Angidon mountain village setting"
+          "ru": "Горное село Ангидон"
+          "uz": "Angidon tog‘ qishlog‘i muhiti"
+        "description":
+          "en": "Begin with the village itself. Angidon sits high in Khatirchi District, where the air, slopes, and slower road make the stop feel different from the lower Navoi line."
+          "ru": "Начните с самого села. Ангидон лежит высоко в Хатырчинском районе, где воздух, склоны и более спокойная дорога отличают остановку от нижней линии Навои."
+          "uz": "Avval qishloqning o‘zidan boshlang. Angidon Xatirchi tumanida balandroqda joylashgan; havo, yonbag‘irlar va sokinroq yo‘l uni Navoiy pastlik yo‘lidan ajratadi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/angidon/angidon-high-mountain-village-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Angidon village overnight and quiet outdoor time"
+          "ru": "Сельская ночёвка и тихий отдых в Ангидоне"
+          "uz": "Angidonda qishloq tunashi va sokin ochiq havo"
+        "description":
+          "en": "Angidon can be more than a short road pause. An overnight in a village home, a household meal, fishing, a short ride, or quiet outdoor time makes sense when it gives travelers more time with the mountain village."
+          "ru": "Ангидон может быть больше, чем короткая остановка у дороги. Ночь в сельском доме, домашняя еда, рыбалка, короткая верховая прогулка или тихий отдых уместны, когда дают путешественнику больше времени с горным селом."
+          "uz": "Angidon qisqa yo‘l bekatidan ko‘proq bo‘lishi mumkin. Qishloq xonadonida tunash, dasturxon, baliq ovi, qisqa ot minish yoki sokin ochiq havo sayohatchiga tog‘ qishlog‘i bilan ko‘proq vaqt bersa, o‘rinli."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/angidon/angidon-guesthouses-and-recreation"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Angidon folklore, craft, and outdoor traditions"
+          "ru": "Фольклор, ремёсла и отдых на воздухе в Ангидоне"
+          "uz": "Angidon folklori, hunari va ochiq havo an’analari"
+        "description":
+          "en": "Angidon’s cultural side is strongest when it stays close: a craft hand, a song, a table, a short ride, or a fishing stop that belongs to the same mountain-village story."
+          "ru": "Культурная сторона Ангидона сильнее всего, когда остаётся рядом: руки мастера, песня, стол, короткая верховая прогулка или рыбалка, которые принадлежат одной истории горного села."
+          "uz": "Angidonning madaniy tomoni yaqin qolganda kuchli: usta qo‘li, qo‘shiq, dasturxon, qisqa ot minish yoki bitta tog‘ qishlog‘i hikoyasiga tegishli baliq ovi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/angidon/angidon-folklore-crafts-and-riding"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Village moments"
+      "ru": "Сельские моменты"
+      "uz": "Qishloq lahzalari"
+    "title":
+      "en": "Village moments in Angidon"
+      "ru": "Сельские моменты Ангидона"
+      "uz": "Angidonning qishloq lahzalari"
+    "description":
+      "en": "The useful moments are simple: arrive into cooler air, sit at a family table, meet craft or folklore close to the mahalla, and add one outdoor idea when the journey can stay unhurried."
+      "ru": "Самые полезные моменты простые: въехать в прохладный воздух, сесть за домашний стол, встретить ремесло или фольклор рядом с махаллёй и добавить один отдых на воздухе в спокойном темпе."
+      "uz": "Foydali lahzalar oddiy: salqin havoga kirish, xonadon dasturxoniga o‘tirish, mahalla yonida hunar yoki folklorni ko‘rish va yo‘l sokin qolsa bitta ochiq havo g‘oyasini qo‘shish."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Mountain-road arrival"
+          "ru": "Въезд по горной дороге"
+          "uz": "Tog‘ yo‘li orqali kirish"
+        "description":
+          "en": "The road into Angidon sets the first feeling: higher air, village edges, and a slower Khatirchi approach."
+          "ru": "Дорога в Ангидон задаёт первое ощущение: более высокий воздух, края села и неспешный подъезд со стороны Хатырчи."
+          "uz": "Angidonga kiradigan yo‘l birinchi tuyg‘uni beradi: balandroq havo, qishloq chetlari va sokin Xatirchi yondashuvi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Village overnight"
+          "ru": "Сельская ночёвка"
+          "uz": "Qishloqda tunash"
+        "description":
+          "en": "Stay longer when the journey needs evening air, a family table, and time inside village life."
+          "ru": "Оставайтесь дольше, когда маршруту нужен вечерний воздух, домашний стол и время внутри сельской жизни."
+          "uz": "Yo‘lga kechki havo, xonadon dasturxoni va qishloq hayoti ichida vaqt kerak bo‘lsa, uzoqroq qoling."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Household table"
+          "ru": "Домашний стол"
+          "uz": "Xonadon dasturxoni"
+        "description":
+          "en": "Bread, tea, and national dishes bring people into the stop before any outdoor plan."
+          "ru": "Лепёшка, чай и национальные блюда вводят людей в остановку до любого отдыха на воздухе."
+          "uz": "Non, choy va milliy taomlar har qanday ochiq havo rejasidan oldin bekatga odamlarni olib kiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Folklore and craft hands"
+          "ru": "Фольклор и руки мастеров"
+          "uz": "Folklor va usta qo‘llari"
+        "description":
+          "en": "Songs, craft work, and local products keep Angidon close to mahalla life."
+          "ru": "Песни, ремесло и изделия ручной работы держат Ангидон рядом с жизнью махалли."
+          "uz": "Qo‘shiqlar, hunar va qo‘l mehnati mahsulotlari Angidonni mahalla hayotiga yaqin tutadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Riding near the village"
+          "ru": "Верхом рядом с селом"
+          "uz": "Qishloq yonida ot minish"
+        "description":
+          "en": "A short ride adds movement when it follows Angidon’s slopes and rural pace."
+          "ru": "Короткая верховая прогулка добавляет движение, если следует склонам и сельскому темпу Ангидона."
+          "uz": "Qisqa ot minish Angidon yonbag‘irlari va qishloq sur’atiga ergashsa, harakat qo‘shadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Fishing or open-air rest"
+          "ru": "Рыбалка или отдых на воздухе"
+          "uz": "Baliq ovi yoki ochiq havoda dam"
+        "description":
+          "en": "One calm outdoor detail gives Angidon more depth while the village stays at the center."
+          "ru": "Один спокойный природный акцент углубляет Ангидон, пока село остаётся в центре."
+          "uz": "Bitta sokin tabiat detali Angidonni chuqurlashtiradi, qishloq esa markazda qoladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "Keep the visit close to village life"
+      "ru": "Держите визит рядом с сельской жизнью"
+      "uz": "Tashrifni qishloq hayotiga yaqin tuting"
+    "description":
+      "en": "Angidon is strongest when it stays modest: a mountain village, a family table, craft hands, and one outdoor detail instead of a heavy program."
+      "ru": "Ангидон сильнее, когда остаётся скромным: горное село, домашний стол, руки мастеров и один природный акцент вместо тяжёлой программы."
+      "uz": "Angidon sodda qolganda kuchli: tog‘ qishlog‘i, xonadon dasturxoni, usta qo‘llari va og‘ir dastur o‘rniga bitta tabiat urg‘usi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Start with mountain air"
+              "ru": "Начните с горного воздуха"
+              "uz": "Tog‘ havosidan boshlang"
+            "description":
+              "en": "Angidon’s first impression is spatial: higher air, green slopes, and a road that feels farther from the lowland rhythm of Navoi."
+              "ru": "Первое впечатление Ангидона пространственное: более высокий воздух, зелёные склоны и дорога дальше от низинного ритма Навои."
+              "uz": "Angidonning birinchi taassuroti makonda: balandroq havo, yashil yonbag‘irlar va Navoiyning pastlik sur’atidan uzoqroq yo‘l."
+          - "type": "quote"
+            "quote":
+              "en": "Angidon is strongest when mountain air, a family table, and one village encounter stay in the same close stop."
+              "ru": "Ангидон сильнее всего, когда горный воздух, домашний стол и одна сельская встреча остаются в одной близкой остановке."
+              "uz": "Angidon tog‘ havosi, xonadon dasturxoni va bitta qishloq uchrashuvi bir yaqin bekatda qolganda kuchli."
+          - "type": "dashTitle"
+            "title":
+              "en": "Let people carry the visit"
+              "ru": "Пусть визит несут люди"
+              "uz": "Tashrifni odamlar olib borsin"
+            "description":
+              "en": "Food, craft, folklore, and local products keep the stop close to household and mahalla life."
+              "ru": "Еда, ремесло, фольклор и местные изделия должны оставаться рядом с домашней и махаллинской жизнью."
+              "uz": "Taom, hunar, folklor va mahalliy mahsulotlar bekatni xonadon va mahalla hayotiga yaqin tutadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Add one outdoor detail"
+              "ru": "Добавьте один природный акцент"
+              "uz": "Bitta tabiat detalini qo‘shing"
+            "description":
+              "en": "A short ride, fishing stop, or quiet rest belongs when it deepens the village rather than pulling attention away."
+              "ru": "Короткая верховая прогулка, рыбалка или тихий отдых уместны, когда углубляют село, а не отвлекают от него."
+              "uz": "Qisqa ot minish, baliq ovi yoki sokin dam qishloqni chuqurlashtirsa, yo‘lga mos keladi."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Choose Angidon for a Khatirchi mountain village pause on the Navoi route, not for a crowded program."
+              "ru": "Выбирайте Ангидон, когда маршруту по Навои нужна горная сельская остановка Хатырчи, а не перегруженная программа."
+              "uz": "Navoiy yo‘liga Xatirchining tog‘ qishloq bekati kerak bo‘lsa, Angidonni tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before you go Status"
+                  "ru": "Перед поездкой Статус"
+                  "uz": "Borishdan oldin Maqom"
+                "description":
+                  "en": "Officially supplied for TourLink as a tourism village in Khatirchi District."
+                  "ru": "Официально передан TourLink для публикации как туристическое село Хатырчинского района."
+                  "uz": "TourLink nashri uchun Xatirchi tumanidagi turizm qishlog‘i sifatida berilgan."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Setting"
+                  "ru": "Среда"
+                  "uz": "Muhit"
+                "description":
+                  "en": "High mountains, clean air, green slopes, and a quieter rural atmosphere."
+                  "ru": "Высокие горы, чистый воздух, зелёные склоны и спокойная сельская атмосфера."
+                  "uz": "Baland tog‘lar, toza havo, yashil yonbag‘irlar va sokin qishloq kayfiyati."
+              - "icon": "Sun"
+                "title":
+                  "en": "Human thread"
+                  "ru": "Живая линия"
+                  "uz": "Jonli chiziq"
+                "description":
+                  "en": "Home cooking, women’s craft work, folklore, and village welcome carry the stop."
+                  "ru": "Домашняя еда, женское ремесло, фольклор и сельское гостеприимство несут остановку."
+                  "uz": "Xonadon taomi, ayollar hunari, folklor va qishloqdagi iliq qabul bekatni ko‘taradi."
+              - "icon": "Route"
+                "title":
+                  "en": "Outdoor time"
+                  "ru": "Отдых на воздухе"
+                  "uz": "Ochiq havo"
+                "description":
+                  "en": "Riding, fishing, or quiet recreation works best as one selected addition."
+                  "ru": "Верховая прогулка, рыбалка или тихий отдых лучше воспринимаются как один выбранный акцент."
+                  "uz": "Ot minish, baliq ovi yoki sokin dam qishloq tashrifiga bitta tanlangan urg‘u bo‘lsa yaxshi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby route stops"
+      "ru": "Соседние остановки"
+      "uz": "Yaqin bekatlar"
+    "title":
+      "en": "Langar, Chuya, and Nurata around Angidon"
+      "ru": "Лангар, Чуя и Нурата вокруг Ангидона"
+      "uz": "Angidon atrofida Langar, Chuya va Nurota"
+    "description":
+      "en": "Langar keeps the Khatirchi side rural, Chuya adds another Navoi mahalla stop, and Nurata returns the route to the spring town and the road toward Aydarkul."
+      "ru": "Лангар сохраняет сельскую линию Хатырчи, Чуя добавляет ещё одну навоийскую махаллю, а Нурата возвращает маршрут к городу источника и дороге на Айдаркуль."
+      "uz": "Langar Xatirchi qishloq chizig‘ini saqlaydi, Chuya yana bir Navoiy mahalla bekatini qo‘shadi, Nurota esa yo‘lni buloq shahri va Aydarko‘l tomonga qaytaradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Langar"
+          "ru": "Лангар"
+          "uz": "Langar"
+        "description":
+          "en": "Langar brings the Khatirchi side into the Nurata-Aydarkul route: a tourism mahalla of village lanes, open roads, simple table moments, and selective outdoor choices."
+          "ru": "Лангар вводит хатырчинскую сторону в маршрут Нурата-Айдаркуль: туристическая махалля с сельскими улицами, открытой дорогой, простым домашним столом и выборочными вариантами отдыха."
+          "uz": "Langar Xatirchi tomonini Nurota-Aydarko‘l yo‘liga qo‘shadi: qishloq ko‘chalari, ochiq yo‘l, sodda xonadon dasturxoni va tanlab olinadigan ochiq havo variantlari bor turizm mahallasi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/langar-khatirchi"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Chuya"
+          "ru": "Чуя"
+          "uz": "Chuya"
+        "description":
+          "en": "Chuya is a Nurata District tourism mahalla where foothill air, craft hands, qurut, bread, and carefully chosen ways to stay longer add a human stop near Nurata."
+          "ru": "Чуя — туристическая махалля Нуратинского района, где воздух предгорий, руки мастеров, курут, лепёшка и аккуратно выбранные варианты ночёвки добавляют маршруту живую сельскую остановку."
+          "uz": "Chuya Nurota tumanidagi turizm mahallasi; tog‘oldi havosi, usta qo‘llari, qurut, non va ehtiyotkor tanlangan tunash g‘oyalari Nurota yaqinida jonli qishloq bekatini qo‘shadi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/chuya"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/angidon-next-nurata.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Nurata"
+          "ru": "Нурата"
+          "uz": "Nurota"
+        "description":
+          "en": "Nurata is the spring town before the Kyzylkum road: Chashma water, mosque shade, Nur Fortress above town, and the onward road to Aydarkul or Sentyab."
+          "ru": "Нурата — город источника перед дорогой в Кызылкум: вода Чашмы, тень мечети, крепость Нур над городом и продолжение к Айдаркулю или Сентобу."
+          "uz": "Nurota Qizilqum yo‘lidan oldingi buloq shahri: Chashma suvi, masjid soyasi, shahar ustidagi Nur qalʼasi va Aydarko‘l yoki Sentobga davom etadigan yo‘l."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/nurata"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Angidon in the day plan"
+      "ru": "Как поставить Ангидон в план дня"
+      "uz": "Angidonni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Angidon?"
+          "ru": "Сколько времени группам стоит проводить в Ангидон?"
+          "uz": "Angidonda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A Khatirchi mountain village of clean air, home cooking, craft, and quiet outdoor time”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Горное село Хатырчи с чистым воздухом, домашней едой, ремеслом и тихим отдыхом»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Toza havo, xonadon taomi, hunar va sokin ochiq havo bilan Xatirchi tog‘ qishlog‘i»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Angidon be a walkable core or a base for day trips?"
+          "ru": "Ангидон — это пешеходное ядро или база для выездов?"
+          "uz": "Angidon piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Angidon's centre?"
+          "ru": "Где лучше ночевать относительно центра Ангидон?"
+          "uz": "Angidon markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/angidon.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Angidon stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Ангидон» в программу (Узбекистан)"
+      "uz": "Angidon bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Angidon | TourLink"
+    "ru": "Ангидон | TourLink"
+    "uz": "Angidon | TourLink"
+  "metaDescription":
+    "en": "Angidon sits among the mountains of Khatirchi District, about 100 km from Navoi and 45 km from the district center. For a Nurata-Aydarkul journey, it gives the road a cooler village stop: slopes around the lanes, food prepared at home, local craft, folklore, and, when it fits, a short ride or fishing stop. The public marker orients the village; exact walks, meals, overnights, and outdoor details are arranged around the travel dates."
+    "ru": "Ангидон лежит среди гор Хатырчинского района, примерно в 100 км от Навои и в 45 км от районного центра. В маршруте Нурата-Айдаркуль это более прохладная сельская остановка: склоны рядом с улицами, домашняя еда, местное ремесло, фольклор и, если уместно, короткая верховая прогулка или рыбалка. Публичный маркер помогает сориентироваться; точные прогулки, еда, ночёвка и отдых на воздухе подбираются под даты поездки."
+    "uz": "Angidon Xatirchi tumanidagi tog‘lar orasida, Navoiydan taxminan 100 km, tuman markazidan 45 km narida joylashgan. Nurota-Aydarko‘l yo‘lida bu salqinroq qishloq bekati: ko‘chalar yonidagi yonbag‘irlar, xonadon taomi, mahalliy hunar, folklor va mos kelsa qisqa ot minish yoki baliq ovi. Ommaviy marker qishloqni topishga yordam beradi; aniq sayr, taom, tunash va ochiq havo tafsilotlari safar sanasiga qarab tuziladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "nurata-aydarkul-and-kyzylkum"
+"latitude": 40.3048464
+"longitude": 65.8784058

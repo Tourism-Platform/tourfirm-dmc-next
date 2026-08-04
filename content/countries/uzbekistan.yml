@@ -1,768 +1,160 @@
-# Seed: countries — Uzbekistan (content from OLD uzbekistan-country.yml)
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "uzbekistan"
+  "ru": "uzbekistan"
+  "uz": "uzbekistan"
+"title":
+  "en": "Uzbekistan"
+  "ru": "Узбекистан"
+  "uz": "Oʻzbekiston"
+"subtitle":
+  "en": "The heart of the Silk Road"
+  "ru": "Сердце Великого шёлкового пути"
+  "uz": "Buyuk Ipak yoʻlining yuragi"
+"excerpt":
+  "en": "For two and a half thousand years, Uzbekistan has stood at a crossroads. The routes that carried silk, ideas, and prayers still hold Samarkand, Bukhara, Khiva, Shahrisabz, and newer heritage landscapes in one story.
 
-slug:
-  en: uzbekistan
-  ru: uzbekistan
-  uz: uzbekistan
-title:
-  en: Uzbekistan
-  ru: Узбекистан
-  uz: O'zbekiston
-subtitle:
-  en: Silk Road heartland
-  ru: Сердце Шёлкового пути
-  uz: Ipak yo'li yuragi
-excerpt:
-  en: Silk Road cities, crafts, architecture and a dense route network.
-  ru: Города Шёлкового пути, ремёсла, архитектура и плотная сеть маршрутов.
-  uz: Ipak yo'li shaharlari, hunarmandchilik, me'morchilik va zich marshrut tarmog'i.
-mapCenter:
-  latitude: 41.2995
-  longitude: 69.2401
-heroImage: assets/images/destinations/uzbekistan.jpg
-badges:
-  - FEATURED
-  - TOP_PICK
-  - UNESCO
-blocks:
-  - blockType: hero
-    image: assets/images/destinations/uzbekistan.jpg
-    imageAlt:
-      en: Uzbekistan
-      ru: Узбекистан
-      uz: O'zbekiston
-    title:
-      en: Uzbekistan
-      ru: Узбекистан
-      uz: O'zbekiston
-    description:
-      en: Samarkand, Bukhara, Khiva and Tashkent — the richest Silk Road circuit in Central Asia.
-      ru: Самарканд, Бухара, Хива и Ташкент — самый насыщенный маршрут по Великому шёлковому пути в Центральной Азии.
-      uz: Samarqand, Buxoro, Xiva va Toshkent — Markaziy Osiyodagi eng boy Ipak yo'li marshruti.
-    note:
-      en: TourLink is based here — the natural starting point for a first Central Asia trip.
-      ru: TourLink базируется здесь — естественная точка старта для первой поездки по Центральной Азии.
-      uz: TourLink shu yerda joylashgan — Markaziy Osiyoga birinchi sayohat uchun tabiiy boshlang'ich nuqta.
-    actions:
-      - type: mailto
-        variant: default
-        title:
-          en: Request a tour
-          ru: Запросить тур
-          uz: Tur so'rash
-        email: info@tourlink.uz
 
-  - blockType: regular
-    eyebrow:
-      en: About
-      ru: О стране
-      uz: Mamlakat haqida
-    title:
-      en: Uzbekistan
-      ru: Узбекистан
-      uz: O'zbekiston
-    description:
-      en: "Uzbekistan compresses centuries of Islamic architecture and Silk Road history into a week of fast trains. The Afrosiyob links Tashkent, Samarkand and Bukhara; Khiva rewards travelers who push west to the desert edge. For travel agents, Uzbekistan is one of the easiest Central Asia products to sell: predictable rail links, clear city pacing, and a compact heritage loop that works in 7–12 days without exhausting transfers."
-      ru: "Узбекистан собирает вековую исламскую архитектуру и историю Шёлкового пути в маршрут на неделю на скоростных поездах. «Афросиёб» связывает Ташкент, Самарканд и Бухару; Хива ждёт тех, кто поедет на запад к пустыне. Для турагентств Узбекистан — один из самых удобных продуктов по Центральной Азии: предсказуемые ж/д связки, понятный темп по городам и компактное наследие, которое укладывается в 7–12 дней без изнурительных переездов."
-      uz: "O'zbekiston asrlar davomida shakllangan islom me'morchiligi va Ipak yo'li tarixini bir haftalik tezkor poezd marshrutiga jamlaydi. «Afrosiyob» Toshkent, Samarqand va Buxoroni bog'laydi; Xiva esa cho'l chekkasiga boradigan sayohatchilarni kutadi. Sayohat agentliklari uchun O'zbekiston Markaziy Osiyodagi eng qulay yo'nalishlardan biri: bashorat qilinadigan temir yo'l bog'lamalari, shaharlar bo'yicha aniq temp va 7–12 kunga sig'adigan ixcham meros halqasi."
+    This is also our home. Our team grew up around these courtyards, knows the rhythm of the bazaars, and builds routes where people step out from behind the monuments — a potter at the wheel, a conversation over a bowl of tea."
+  "ru": "Две с половиной тысячи лет Узбекистан стоит на перекрёстке. Маршруты, по которым шли шёлк, идеи и молитвы, до сих пор связывают Самарканд, Бухару, Хиву, Шахрисабз и менее очевидные пространства наследия в одну историю.
 
-  - blockType: regular
-    eyebrow:
-      en: Regions
-      ru: Регионы
-      uz: Hududlar
-    title:
-      en: Where to go in Uzbekistan
-      ru: Куда ехать в Узбекистане
-      uz: O'zbekistonda qayerga borish kerak
-    description:
-      en: The classic Silk Road circuit runs through Tashkent, Samarkand, Bukhara and Khiva — each with a distinct character.
-      ru: Классический шёлковый маршрут проходит через Ташкент, Самарканд, Бухару и Хиву — у каждого города свой характер.
-      uz: Klassik Ipak yo'li aylanasi Toshkent, Samarqand, Buxoro va Xiva orqali o'tadi — har bir shahar o'ziga xos.
-    gridClassName: sm:grid-cols-2 lg:grid-cols-2
-    cards:
-      - type: routeIdea
-        image: assets/images/city/samarkand.jpg
-        badge:
-          en: Must see
-          ru: Must see
-          uz: Ko'rish shart
-        meta:
-          en: UNESCO · Afrosiyob train
-          ru: ЮНЕСКО · Поезд Афросиёб
-          uz: YUNESKO · Afrosiyob poyezdi
-        title:
-          en: Samarkand
-          ru: Самарканд
-          uz: Samarqand
-        description:
-          en: Registan, Shah-i-Zinda and Timurid architecture at the heart of the Silk Road.
-          ru: Регистан, Шахи-Зинда и архитектура эпохи Тимуридов в сердце Шёлкового пути.
-          uz: Registon, Shohi Zinda va Ipak yo'lining markazidagi temuriylar me'morchiligi.
-        ctaHref: /destinations/uzbekistan/samarkand-region
-        ctaLabel:
-          en: Explore region
-          ru: Смотреть регион
-          uz: Viloyatni ko'rish
-      - type: routeIdea
-        image: assets/images/city/bukhara.jpg
-        badge:
-          en: Classic
-          ru: Классика
-          uz: Klassika
-        meta:
-          en: Old town · Crafts
-          ru: Старый город · Ремёсла
-          uz: Eski shahar · Hunarmandchilik
-        title:
-          en: Bukhara
-          ru: Бухара
-          uz: Buxoro
-        description:
-          en: Medieval trading domes, the Ark fortress and one of Central Asia's most atmospheric old towns.
-          ru: Средневековые торговые купола, крепость Арк и одна из самых атмосферных старых частей Центральной Азии.
-          uz: O'rta asr savdo gumbazlari, Ark qal'asi va Markaziy Osiyoning eng atmosferali qadimiy shaharlardan biri.
-        ctaHref: /destinations/uzbekistan/bukhara-region
-        ctaLabel:
-          en: Explore region
-          ru: Смотреть регион
-          uz: Viloyatni ko'rish
-      - type: routeIdea
-        image: assets/images/city/khiva.jpg
-        badge:
-          en: Heritage
-          ru: Наследие
-          uz: Meros
-        meta:
-          en: Walled city
-          ru: Город в стенах
-          uz: Devor ichidagi shahar
-        title:
-          en: Khiva
-          ru: Хива
-          uz: Xiva
-        description:
-          en: Itchan Kala — a walled inner city that feels like stepping into the medieval Silk Road.
-          ru: Ичан-Кала — крепостной внутренний город, где Шёлковый путь ощущается особенно осязаемо.
-          uz: Ichan Qal'a — devor bilan o'ralgan ichki shahar, o'rta asr Ipak yo'lini his qilish uchun ideal.
-        ctaHref: /destinations/uzbekistan/khorezm-region
-        ctaLabel:
-          en: Explore region
-          ru: Смотреть регион
-          uz: Viloyatni ko'rish
-      - type: routeIdea
-        image: assets/images/city/tashkent.jpg
-        badge:
-          en: Day trips
-          ru: Однодневки
-          uz: Kunlik
-        meta:
-          en: Tashkent · Chimgan
-          ru: Ташкент · Чимган
-          uz: Toshkent · Chimgan
-        title:
-          en: Tashkent & Chimgan
-          ru: Ташкент и Чимган
-          uz: Toshkent va Chimgan
-        description:
-          en: Capital culture plus a mountain escape to Chimgan and Charvak Lake in the Tian Shan foothills.
-          ru: Столица с культурным слоем плюс горный выезд к Чимгану и озеру Чарвак у предгорий Тянь-Шаня.
-          uz: Poytaxt madaniyati va Tyanshan etagidagi Chimgan hamda Charvak ko'liga tog' sayohati.
-        ctaHref: /destinations/uzbekistan/tashkent-region
-        ctaLabel:
-          en: Explore region
-          ru: Смотреть регион
-          uz: Viloyatni ko'rish
 
-  - blockType: routeMap
-    eyebrow:
-      en: Route logic
-      ru: Логика маршрута
-      uz: Marshrut mantig'i
-    title:
-      en: How a classic Uzbekistan route comes together
-      ru: Как складывается маршрут по Узбекистану
-      uz: O'zbekiston bo'ylab marshrut qanday shakllanadi
-    description:
-      en: Tashkent is the usual entry; Afrosiyob trains then connect Samarkand and Bukhara, with Khiva as a westward extension.
-      ru: Ташкент обычно служит точкой входа, а поезда «Афросиёб» связывают Самарканд и Бухару; Хива — западное продолжение.
-      uz: Toshkent odatda kirish nuqtasi, Afrosiyob esa Samarqand va Buxoroni bog'laydi; Xiva — g'arbiy davomi.
-    aside:
-      eyebrow:
-        en: What to keep in mind
-        ru: Что важно учесть
-        uz: Nimalarni hisobga olish kerak
-      title:
-        en: Start with the route rhythm
-        ru: Сначала ритм маршрута
-        uz: Avval marshrut ritmi
-      description:
-        en: Separate the classic city line from longer regional legs so pacing stays clear for guests and guides.
-        ru: Отделите классическую городскую линию от более длинных региональных участков — так темп понятен гостям и гидам.
-        uz: Klassik shahar chizig'ini uzoqroq mintaqaviy qismlardan ajrating — temp mehmon va gidlar uchun aniq bo'ladi.
-      items:
-        - title:
-            en: Classic rail backbone
-            ru: Классическая связка
-            uz: Klassik bog'lama
-          badge:
-            en: train
-            ru: поезд
-            uz: poyezd
-          description:
-            en: Tashkent, Samarkand and Bukhara are best connected by train, keeping full city days for guiding and pacing.
-            ru: "Ташкент, Самарканд и Бухара хорошо соединяются поездом: день остаётся для города, гида и нормального темпа."
-            uz: "Toshkent, Samarqand va Buxoro poyezd bilan yaxshi bog'langan: kunning asosiy qismi shahar, gid va qulay temp uchun qoladi."
-        - title:
-            en: Westward to Khiva
-            ru: Путь к Хиве
-            uz: Xivaga yo'l
-          description:
-            en: After Bukhara the route turns west; choose rail, road or flight by trip tempo, comfort level and buffer time.
-            ru: После Бухары маршрут разворачивается на запад. Выбираем поезд, дорогу или перелёт по темпу поездки, комфорту и запасу времени.
-            uz: Buxorodan keyin marshrut g'arbga buriladi. Safar tempi, qulaylik va vaqt zaxirasiga qarab temir yo'l, avtomobil yoki parvoz tanlanadi.
-        - title:
-            en: Fergana, south, Karakalpakstan
-            ru: Фергана, юг, Каракалпакстан
-            uz: Farg'ona, janub, Qoraqalpog'iston
-          description:
-            en: These regions work best when the trip is not compressed around core cities and you can add a second geography.
-            ru: Эти части лучше добавлять, когда поездка не сжата вокруг классических городов и есть место для другой географии.
-            uz: Bu hududlarni safar klassik shaharlar atrofida siqilmagan, boshqa geografiyani qo'shishga vaqt bo'lganda qo'shish ma'qul.
-        - title:
-            en: Neighboring countries
-            ru: Соседние страны
-            uz: Qo'shni davlatlar
-          description:
-            en: Combined Central Asia itineraries run smoother when seasonality, borders, transport links and entry order are set early.
-            ru: Комбинированный маршрут по Центральной Азии спокойнее, когда сезон, границы, транспортные связки и порядок въезда понятны заранее.
-            uz: Markaziy Osiyo bo'yicha kombinatsiyalangan marshrut mavsum, chegara, transport bog'lamalari va kirish tartibi oldindan aniq bo'lsa ancha sokin o'tadi.
-    mapPanel:
-      eyebrow:
-        en: Route cities
-        ru: Города маршрута
-        uz: Marshrut shaharlari
-      title:
-        en: Classic backbone on the map
-        ru: Классическая связка на карте
-        uz: Xaritadagi klassik bog'lama
-      description:
-        en: Focus on the ordered stops that shape the main Silk Road line through Uzbekistan.
-        ru: Акцент на упорядоченных остановках, которые складывают главную линию Шёлкового пути по Узбекистану.
-        uz: O'zbekiston bo'ylab Ipak yo'lining asosiy chizig'ini shakllantiruvchi tartiblangan to'xtashlarga e'tibor.
-      linkLabel:
-        en: Uzbekistan map
-        ru: Карта Узбекистана
-        uz: O'zbekiston xaritasi
-      linkHref: /destinations/uzbekistan
-    mapCenter:
-      latitude: 41.2
-      longitude: 64.5
-    zoom: 6
-    stops:
-      - entityType: region
-        entitySlug: tashkent-region
-      - entityType: region
-        entitySlug: samarkand-region
-      - entityType: region
-        entitySlug: bukhara-region
-      - entityType: region
-        entitySlug: khorezm-region
+    Это ещё и наш дом. Наша команда выросла среди этих дворов, знает ритм базаров и собирает маршруты, где за памятниками открываются люди — мастер за гончарным кругом, разговор за пиалой чая."
+  "uz": "Ikki yarim ming yildan beri Oʻzbekiston chorrahada turadi. Ipak, fikr va ibodatlarni olib oʻtgan yoʻllar Samarqand, Buxoro, Xiva, Shahrisabz va yangi meros landshaftlarini bitta hikoyaga bogʻlaydi.
 
-  - blockType: faq
-    eyebrow:
-      en: Routes in detail
-      ru: Маршруты в деталях
-      uz: Marshrut tafsilotlari
-    title:
-      en: How route pacing works in practice
-      ru: Как темп маршрута работает на практике
-      uz: Marshrut tempi amalda qanday ishlaydi
-    description:
-      en: Use these accordion notes to brief clients on transfer times and overnight logic.
-      ru: "Аккордеон для брифа клиентов: переезды, ночёвки и логика дней."
-      uz: Mijozlarga transfer va tunlash mantiqini tushuntirish uchun akkordeon.
-    questions:
-      - icon: CalendarDays
-        title:
-          en: How many nights are ideal for first-time Uzbekistan?
-          ru: Сколько ночей оптимально для первой поездки в Узбекистан?
-          uz: O'zbekistonga birinchi safar uchun necha tun optimal?
-        description:
-          en: "Most first programs work best with 7-10 nights: Tashkent arrival, 2 nights Samarkand, 2 nights Bukhara, and optional Khiva extension."
-          ru: "Для первой программы обычно хватает 7–10 ночей: прилёт в Ташкент, 2 ночи в Самарканде, 2 в Бухаре и опционально Хива."
-          uz: "Birinchi dastur uchun odatda 7–10 tun yetadi: Toshkentga kelish, Samarqandda 2 tun, Buxoroda 2 tun va ixtiyoriy Xiva kengaytmasi."
-      - icon: Train
-        title:
-          en: Where are long transfers and how do we soften them?
-          ru: Где длинные переезды и как их смягчить?
-          uz: Qayerda uzoq ko'chalar bor va ularni qanday yumshatish mumkin?
-        description:
-          en: Tashkent-Samarkand-Bukhara is efficient by Afrosiyob. The long leg is typically Bukhara-Khiva; place it as an evening/overnight transfer and keep next morning lighter.
-          ru: "Связка Ташкент–Самарканд–Бухара удобна на «Афросиёбе». Длинный плечо — обычно Бухара–Хива: лучше вечерний/ночной переезд и более лёгкое утро на следующий день."
-          uz: "Toshkent–Samarqand–Buxoro Afrosiyob bilan qulay. Uzoq parcha odatda Buxoro–Xiva: kechki/tungi ko'chani rejalashtiring va ertasi kuni yengilroq qiling."
-      - icon: Mountain
-        title:
-          en: How to combine culture and nature without fatigue?
-          ru: Как совместить культуру и природу без перегруза?
-          uz: Madaniyat va tabiatni charchatmasdan qanday ulash mumkin?
-        description:
-          en: "Use Tashkent as a split point: heritage in old city, then Chimgan/Charvak day escape, then return to Silk Road city sequence."
-          ru: "Используйте Ташкент как точку разделения: наследие в старом городе, затем однодневка в Чимган/Чарвак, потом возврат к городской последовательности Шёлкового пути."
-          uz: "Toshkentni ajratish nuqtasi sifatida ishlating: eski shaharda meros, keyin Chimgan/Charvak kunligi, so'ng Ipak yo'li shaharlar ketma-ketligiga qaytish."
 
-  - blockType: regular
-    eyebrow:
-      ru: Примеры маршрутов
-      uz: Namuna marshrutlar
-    title:
-      en: Route ideas for Uzbekistan programs
-      ru: Идеи маршрутов для программ по Узбекистану
-      uz: O'zbekiston dasturlari uchun marshrut g'oyalari
-    description:
-      en: Product-style route cards for different trip durations and pacing.
-      ru: Карточки маршрутов под разную длительность и темп — как готовый продукт для агентства.
-      uz: Turli davomiylik va temp uchun tayyor mahsulot ko'rinishidagi marshrut kartalari.
-    gridClassName: sm:grid-cols-2 lg:grid-cols-3
-    cards:
-      - type: routeIdea
-        image: assets/images/city/tashkent.jpg
-        badge:
-          en: 1 day
-          ru: 1 день
-          uz: 1 kun
-        meta:
-          en: City + nature
-          ru: Город + природа
-          uz: Shahar + tabiat
-        title:
-          en: Tashkent & Chimgan day trip
-          ru: Ташкент и Чимган за один день
-          uz: Toshkent va Chimgan kunlik sayohat
-        description:
-          en: Capital heritage in the morning, mountain scenery after lunch.
-          ru: Утро в столице, после обеда — горный пейзаж.
-          uz: Ertalab poytaxt merosi, tushdan keyin tog' manzarasi.
-        ctaHref: /destinations/uzbekistan/tashkent-region
-        ctaLabel:
-          en: View route
-          ru: Смотреть маршрут
-          uz: Marshrutni ko'rish
-      - type: routeIdea
-        image: assets/images/city/samarkand.jpg
-        badge:
-          en: 7-9 days
-          ru: 7–9 дней
-          uz: 7–9 kun
-        meta:
-          en: Best seller
-          ru: Хит продаж
-          uz: Eng ko'p sotiladi
-        title:
-          en: Classic Golden Triangle
-          ru: Классический Золотой треугольник
-          uz: Klassik Oltin uchburchak
-        description:
-          en: Tashkent, Samarkand and Bukhara for first-time Silk Road demand.
-          ru: Ташкент, Самарканд и Бухара — базовый маршрут для первого знакомства с Шёлковым путём.
-          uz: Toshkent, Samarqand va Buxoro — Ipak yo'li bilan ilk tanishuv uchun asosiy marshrut.
-        ctaHref: /destinations/uzbekistan
-        ctaLabel:
-          en: Use this template
-          ru: Взять шаблон
-          uz: Shablonni olish
-      - type: routeIdea
-        image: assets/images/city/khiva.jpg
-        badge:
-          en: 10-12 days
-          ru: 10–12 дней
-          uz: 10–12 kun
-        meta:
-          en: Extended
-          ru: Расширенный
-          uz: Kengaytirilgan
-        title:
-          en: Triangle + Khiva extension
-          ru: Треугольник + Хива
-          uz: Uchburchak + Xiva
-        description:
-          en: Add Khiva for stronger historical finale and visual contrast.
-          ru: Добавьте Хиву для сильного исторического финала и визуального контраста.
-          uz: Kuchli tarixiy final va vizual kontrast uchun Xivani qo'shing.
-        ctaHref: /destinations/uzbekistan/khorezm-region
-        ctaLabel:
-          en: Explore extension
-          ru: Изучить дополнение
-          uz: Kengaytmani ko'rish
+    Bu yer biz uchun ham vatan. Jamoamiz shu hovlilar atrofida ulgʻaygan, bozorlar ohangini biladi va yodgorliklar ortidan odamlar ochiladigan yoʻnalishlar quradi — charx ortidagi kulol, bir piyola choy ustidagi suhbat."
+"heroImage": "assets/images/destinations/uzbekistan/country.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/country.webp"
+    "imageAlt":
+      "en": "Uzbekistan"
+      "ru": "Узбекистан"
+      "uz": "Oʻzbekiston"
+    "title":
+      "en": "Uzbekistan"
+      "ru": "Узбекистан"
+      "uz": "Oʻzbekiston"
+    "description":
+      "en": "Samarkand, Bukhara, Khiva and Tashkent — the richest Silk Road route in Central Asia."
+      "ru": "Самарканд, Бухара, Хива и Ташкент — самый насыщенный маршрут по Великому шёлковому пути в Центральной Азии."
+      "uz": "Samarqand, Buxoro, Xiva va Toshkent — Markaziy Osiyodagi eng boy Ipak yo‘li marshruti."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
 
-  - blockType: regular
-    eyebrow:
-      en: Guides
-      ru: Гайды
-      uz: Qo'llanmalar
-    title:
-      en: Planning guides and reference reads
-      ru: Планирование и полезные материалы
-      uz: Rejalashtirish va foydali materiallar
-    gridClassName: sm:grid-cols-2 lg:grid-cols-3
-    cards:
-      - type: routeIdea
-        badge:
-          en: Reference
-          ru: Справка
-          uz: Ma'lumotnoma
-        meta:
-          en: Train
-          ru: Поезд
-          uz: Poyezd
-        title:
-          en: Afrosiyob train planning
-          ru: Планирование поезда «Афросиёб»
-          uz: Afrosiyob poyezdini rejalashtirish
-        description:
-          en: When to use high-speed rail and where to keep schedule buffer.
-          ru: Когда выгоднее ехать скоростным поездом и где оставлять запас по расписанию.
-          uz: Tezkor temir yo'ldan qachon foydalanish va jadvalda qayerda zaxira qoldirish kerak.
-        ctaHref: https://caravanistan.com/uzbekistan/transport/train/
-        ctaLabel:
-          en: Read guide
-          ru: Читать гайд
-          uz: Qo'llanmani o'qish
-      - type: routeIdea
-        badge:
-          en: Reference
-          ru: Справка
-          uz: Ma'lumotnoma
-        meta:
-          en: Climate
-          ru: Климат
-          uz: Iqlim
-        title:
-          en: Seasonality by city
-          ru: Сезонность по городам
-          uz: Shaharlar bo'yicha mavsum
-        description:
-          en: How weather differs between Tashkent, Samarkand, Bukhara and Khiva.
-          ru: Как погода отличается в Ташкенте, Самарканде, Бухаре и Хиве.
-          uz: Toshkent, Samarqand, Buxoro va Xivada ob-havo qanday farq qiladi.
-        ctaHref: https://caravanistan.com/uzbekistan/climate/
-        ctaLabel:
-          en: Read guide
-          ru: Читать гайд
-          uz: Qo'llanmani o'qish
-      - type: routeIdea
-        badge:
-          en: Reference
-          ru: Справка
-          uz: Ma'lumotnoma
-        meta:
-          en: Logistics
-          ru: Логистика
-          uz: Logistika
-        title:
-          en: Ground logistics checklist
-          ru: Чек-лист наземной логистики
-          uz: Erkin logistika chek-listi
-        description:
-          en: Hotel geography, station transfers and realistic daily timings.
-          ru: География отелей, трансферы от вокзалов и реалистичный ритм дня.
-          uz: Mehmonxona geografiyasi, vokzal transferlari va realistik kun tartibi.
-        ctaHref: https://caravanistan.com/forum/
-        ctaLabel:
-          en: Read guide
-          ru: Читать гайд
-          uz: Qo'llanmani o'qish
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Routes in detail"
+      "ru": "Маршруты в деталях"
+      "uz": "Marshrutlar batafsil"
+    "title":
+      "en": "How route pace works in practice"
+      "ru": "Как темп маршрута работает на практике"
+      "uz": "Marshrut sur’ati amalda qanday ishlaydi"
+    "description":
+      "en": "Use these notes to brief clients on transfers and overnight logic in Uzbekistan."
+      "ru": "Используйте эти заметки для брифа клиентов по переездам и логике ночёвок в Узбекистан."
+      "uz": "Ko‘chishlar va tunash mantig‘i bo‘yicha mijoz brifi uchun ushbu izohlardan foydalaning (Oʻzbekiston)."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many nights work for a first trip to Uzbekistan?"
+          "ru": "Сколько ночей оптимально для первой поездки (Узбекистан)?"
+          "uz": "Oʻzbekistonga birinchi safar uchun necha tun yetarli?"
+        "description":
+          "en": "For a first programme, 7–10 nights usually holds: keep the classic spine readable, then add one extension only if the season and group pace allow it. Use “The heart of the Silk Road” as the brief for what the country actually sells."
+          "ru": "Для первой программы обычно хватает 7–10 ночей: держите классическую линию читаемой и добавляйте одно расширение только если сезон и темп группы позволяют. Ориентир страны — «Сердце Великого шёлкового пути»."
+          "uz": "Birinchi dastur uchun odatda 7–10 tun yetadi: klassik chiziqni o‘qiladigan tuting, kengaytmani esa mavsum va guruh sur’ati ruxsat bersagina qo‘shing. Mamlakat brifi — «Buyuk Ipak yoʻlining yuragi»."
+      - "type": "destinationInsight"
+        "icon": "Bus"
+        "title":
+          "en": "Where are the long transfers in Uzbekistan, and how do you soften them?"
+          "ru": "Где в маршруте по стране «Узбекистан» длинные переезды и как их смягчить?"
+          "uz": "Oʻzbekiston marshrutida uzun ko‘chishlar qayerda va ularni qanday yumshatish mumkin?"
+        "description":
+          "en": "Plan long road or rail legs as part of the product, not leftovers between hotels. Evening or overnight moves, buffer mornings, and one clear anchor per day keep Uzbekistan sellable for agencies."
+          "ru": "Длинные ж/д или автомобильные участки планируйте как часть продукта, а не как остаток между отелями. Вечерние/ночные переезды, запас утра и один ясный якорь на день делают Узбекистан удобным для агентств."
+          "uz": "Uzun temiryo‘l yoki avto bo‘limlarni mehmonxona orasidagi qoldiq emas, mahsulot qismi qiling. Kechki/tungi ko‘chish, ertalab zaxirasi va kuniga bitta aniq tayanch Oʻzbekistonni agentliklar uchun sotiladigan qiladi."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How do you mix culture and landscape in Uzbekistan without overload?"
+          "ru": "Как совместить культуру и природу в программе по «Узбекистан» без перегруза?"
+          "uz": "Oʻzbekiston dasturida madaniyat va tabiatni ortiqcha yuklamasdan qanday birlashtirish mumkin?"
+        "description":
+          "en": "Split the trip into readable chapters: heritage days, then one nature or foothill pause, then return to the main city line. Clients remember clarity more than packing every highlight into one week."
+          "ru": "Делите поездку на читаемые главы: дни наследия, затем одна природная или предгорная пауза, затем возврат к основной городской линии. Клиенты лучше помнят ясность, чем попытку уместить все хайлайты в одну неделю."
+          "uz": "Safarni o‘qiladigan boblarga bo‘ling: meros kunlari, keyin bitta tabiat yoki tog‘oldi pauza, so‘ng asosiy shahar chizig‘iga qaytish. Mijozlar bir haftaga hamma narsani tiqishdan ko‘ra aniqlikni eslaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/country.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Plan a route through Uzbekistan with TourLink"
+      "ru": "Спланируйте маршрут по Узбекистану с TourLink"
+      "uz": "TourLink bilan O‘zbekiston bo‘ylab marshrut rejalang"
+    "description":
+      "en": "We help agencies build realistic Silk Road programmes — trains, pace, and local logistics included."
+      "ru": "Помогаем агентствам собирать реалистичные программы по Шёлковому пути — поезда, темп и локальная логистика включены."
+      "uz": "Agentliklarga Ipak yo‘li bo‘yicha real dasturlar yig‘ishda yordam beramiz — poyezdlar, sur’at va mahalliy logistika bilan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+"seo":
+  "metaTitle":
+    "en": "Uzbekistan | TourLink"
+    "ru": "Узбекистан | TourLink"
+    "uz": "Oʻzbekiston | TourLink"
+  "metaDescription":
+    "en": "For two and a half thousand years, Uzbekistan has stood at a crossroads. The routes that carried silk, ideas, and prayers still hold Samarkand, Bukhara, Khiva, Shahrisabz, and newer heritage landscapes in one story.
 
-  - blockType: regular
-    eyebrow:
-      en: Overview
-      ru: Обзор
-      uz: Umumiy
-    title:
-      en: Why Uzbekistan is the strongest Central Asia entry
-      ru: Почему Узбекистан — лучший вход в Центральную Азию
-      uz: Nega O'zbekiston Markaziy Osiyoga kirish uchun eng kuchli yo'nalish
-    description:
-      en: "Uzbekistan combines major Silk Road cities with practical logistics. Tashkent is an accessible hub, and high-speed rail cuts transfer time between Samarkand and Bukhara. The cultural density is high: monumental Timurid architecture, living bazaars, madrasas and modern urban layers can fit in a week. For mixed profiles, combine city heritage with Chimgan and Charvak day escapes to balance pace, climate and visual variety."
-      ru: "Узбекистан сочетает ключевые города Шёлкового пути с практичной логистикой. Ташкент — удобный хаб, а скоростная железная дорога сокращает переезды между Самаркандом и Бухарой. Культурная плотность высокая: монументальная архитектура Тимуридов, базары, медресе и современный городской слой укладываются в недельную программу. Для смешанных групп хорошо работает связка городского наследия с однодневкой в Чимган и на Чарвак."
-      uz: "O'zbekiston yirik Ipak yo'li shaharlarini amaliy logistika bilan birlashtiradi. Toshkent qulay hub, tezkor temir yo'l esa Samarqand va Buxoro orasidagi ko'chish vaqtini qisqartiradi. Madaniy zichlik yuqori: timuriylar me'morchiligi, bozorlar, madrasalar va zamonaviy shahar qatlamlari bir haftalik dasturga sig'adi. Aralash guruhlar uchun shahar merosi bilan Chimgan va Charvak kunlik sayohatini ulash yaxshi ishlaydi."
 
-  - blockType: regular
-    eyebrow:
-      en: History
-      ru: История
-      uz: Tarix
-    title:
-      en: Silk Road context in one compact loop
-      ru: Шёлковый путь в одном компактном кольце
-      uz: Bitta ixcham halqadagi Ipak yo'li konteksti
-    description:
-      en: From Tashkent through Samarkand and Bukhara to Khiva, each stop adds a distinct layer. Use Tashkent for arrival and culture primer, Samarkand for imperial scale, Bukhara for atmosphere, and Khiva for a walled-city finale.
-      ru: От Ташкента через Самарканд и Бухару к Хиве — каждая остановка добавляет свой слой. Ташкент — для прилёта и культурного введения, Самарканд — для имперского масштаба, Бухара — для атмосферы, Хива — для финала в стенах старого города.
-      uz: Toshkentdan Samarqand va Buxoro orqali Xivagacha — har bir to'xtash o'z qatlamini qo'shadi. Toshkent — kelish va madaniy kirish uchun, Samarqand — imperiya masshtabi uchun, Buxoro — atmosfera uchun, Xiva — devor ichidagi final uchun.
+      This is also our home. Our team grew up around these courtyards, knows the rhythm of the bazaars, and builds routes where people step out from behind the monuments — a potter at the wheel, a conversation over a bowl of tea."
+    "ru": "Две с половиной тысячи лет Узбекистан стоит на перекрёстке. Маршруты, по которым шли шёлк, идеи и молитвы, до сих пор связывают Самарканд, Бухару, Хиву, Шахрисабз и менее очевидные пространства наследия в одну историю.
 
-  - blockType: regular
-    eyebrow:
-      en: Golden Triangle
-      ru: Золотой треугольник
-      uz: Oltin uchburchak
-    title:
-      en: Classic route digest
-      ru: Классический маршрут по дням
-      uz: Klassik marshrut kunlar bo'yicha
-    description:
-      en: A realistic flow for first-time programs.
-      ru: Реалистичный ритм для первых программ.
-      uz: Birinchi dasturlar uchun realistik ritm.
-    gridClassName: sm:grid-cols-2
-    cards:
-      - type: destinationInsight
-        icon: MapPin
-        title:
-          en: "Day 1-2: Tashkent"
-          ru: "День 1–2: Ташкент"
-          uz: "1–2-kun: Toshkent"
-        description:
-          en: Old city, metro architecture and orientation.
-          ru: Старый город, архитектура метро и ориентация.
-          uz: Eski shahar, metro me'morchiligi va orientatsiya.
-      - type: destinationInsight
-        icon: Landmark
-        title:
-          en: "Day 3-4: Samarkand"
-          ru: "День 3–4: Самарканд"
-          uz: "3–4-kun: Samarqand"
-        description:
-          en: Registan, Shah-i-Zinda, Gur-e-Amir.
-          ru: Регистан, Шахи-Зинда, Гур-Эмир.
-          uz: Registon, Shohi Zinda, Gur Amir.
-      - type: destinationInsight
-        icon: Building2
-        title:
-          en: "Day 5-6: Bukhara"
-          ru: "День 5–6: Бухара"
-          uz: "5–6-kun: Buxoro"
-        description:
-          en: Old town, Poi-Kalyan, Ark and trading domes.
-          ru: Старый город, Пои-Кalyan, Арк и торговые купола.
-          uz: Eski shahar, Po'i Kalon, Ark va savdo gumbazlari.
-      - type: destinationInsight
-        icon: Castle
-        title:
-          en: "Day 7+: Khiva"
-          ru: "День 7+: Хива"
-          uz: "7+-kun: Xiva"
-        description:
-          en: Itchan Kala and fortress-wall heritage.
-          ru: Ичан-Кала и крепостные стены.
-          uz: Ichan Qal'a va qal'a devorlari.
 
-  - blockType: regular
-    eyebrow:
-      en: Seasons
-      ru: Сезоны
-      uz: Mavsumlar
-    title:
-      en: Seasonal rhythm
-      ru: Сезонный ритм
-      uz: Mavsumiy ritm
-    description:
-      en: Desert cities are hottest in July–August; mountains stay cooler year-round.
-      ru: В пустынных городах жарко в июле–августе; в горах прохладнее круглый год.
-      uz: Cho'l shaharlarida iyul–avgustda issiq; tog'larda yil bo'yi salqinroq.
-    gridClassName: sm:grid-cols-2 lg:grid-cols-4
-    cards:
-      - type: tripFormat
-        icon: CalendarDays
-        badge:
-          en: Spring
-          ru: Весна
-          uz: Bahor
-        title:
-          en: April–May
-          ru: Апрель–май
-          uz: Aprel–may
-        description:
-          en: Green valleys, mild temperatures, ideal for city walking.
-          ru: Зелёные долины, мягкая погода, идеально для прогулок по городам.
-          uz: Yashil vodiyalar, yumshoq harorat, shahar sayriga qulay.
-      - type: tripFormat
-        icon: SunMedium
-        badge:
-          en: Summer
-          ru: Лето
-          uz: Yoz
-        title:
-          en: June–August
-          ru: Июнь–август
-          uz: Iyun–avgust
-        description:
-          en: Very hot in Bukhara and Khiva; better in mountains.
-          ru: Очень жарко в Бухаре и Хиве; комфортнее в горах.
-          uz: Buxoro va Xivada juda issiq; tog'larda yaxshiroq.
-      - type: tripFormat
-        icon: Leaf
-        badge:
-          en: Autumn
-          ru: Осень
-          uz: Kuz
-        title:
-          en: September–October
-          ru: Сентябрь–октябрь
-          uz: Sentyabr–oktyabr
-        description:
-          en: Harvest season, clear skies — best overall window.
-          ru: Сезон урожая, ясное небо — лучшее окно в целом.
-          uz: Hosil mavsumi, ochiq osmon — umumiy eng yaxshi oyna.
-      - type: tripFormat
-        icon: Snowflake
-        badge:
-          en: Winter
-          ru: Зима
-          uz: Qish
-        title:
-          en: November–March
-          ru: Ноябрь–март
-          uz: Noyabr–mart
-        description:
-          en: Fewer tourists, cold in mountains, mild in Tashkent.
-          ru: Меньше туристов, холод в горах, мягче в Ташкенте.
-          uz: Kamroq sayohatchi, tog'larda sovuq, Toshkentda yumshoqroq.
+      Это ещё и наш дом. Наша команда выросла среди этих дворов, знает ритм базаров и собирает маршруты, где за памятниками открываются люди — мастер за гончарным кругом, разговор за пиалой чая."
+    "uz": "Ikki yarim ming yildan beri Oʻzbekiston chorrahada turadi. Ipak, fikr va ibodatlarni olib oʻtgan yoʻllar Samarqand, Buxoro, Xiva, Shahrisabz va yangi meros landshaftlarini bitta hikoyaga bogʻlaydi.
 
-  - blockType: regular
-    eyebrow:
-      en: Planning
-      ru: Практика
-      uz: Amaliyot
-    title:
-      en: Practical notes
-      ru: Полезные заметки
-      uz: Foydali eslatmalar
-    description:
-      en: Spring and autumn are ideal. The Afrosiyob high-speed train links Tashkent, Samarkand and Bukhara in 2–2.5 hours.
-      ru: Весна и осень — оптимальны. Скоростной поезд «Афросиёб» связывает Ташкент, Самарканд и Бухару за 2–2,5 часа.
-      uz: Bahor va kuz ideal. Afrosiyob tezkor poyezdi Toshkent, Samarqand va Buxoroni 2–2,5 soatda bog'laydi.
-    gridClassName: sm:grid-cols-2 lg:grid-cols-3
-    cards:
-      - type: destinationInsight
-        icon: Map
-        title:
-          en: Best season
-          ru: Лучший сезон
-          uz: Eng yaxshi mavsum
-        description:
-          en: April–May and September–October avoid summer heat in the desert cities.
-          ru: Апрель–май и сентябрь–октябрь помогают избежать летней жары в пустынных городах.
-          uz: Aprel–may va sentyabr–oktyabr cho'l shaharlaridagi yoz issig'idan qochishga yordam beradi.
-      - type: destinationInsight
-        icon: Clock3
-        title:
-          en: Classic timing
-          ru: Классический срок
-          uz: Klassik muddat
-        description:
-          en: Allow 7–10 days for the Golden Triangle; add Khiva for a fuller two-week loop.
-          ru: Заложите 7–10 дней на Золотой треугольник; добавьте Хиву для двухнедельного кольца.
-          uz: Oltin uchburchak uchun 7–10 kun qoldiring; ikki haftalik halqa uchun Xivani qo'shing.
-      - type: destinationInsight
-        icon: Train
-        title:
-          en: Getting around
-          ru: Передвижение
-          uz: Harakatlanish
-        description:
-          en: Afrosiyob train between major cities; Yandex Go works well for local rides in Tashkent.
-          ru: «Афросиёб» между крупными городами; Yandex Go удобен для локальных поездок в Ташкенте.
-          uz: Yirik shaharlar orasida Afrosiyob; Toshkentda mahalliy sayohatlar uchun Yandex Go qulay.
 
-  - blockType: regular
-    eyebrow:
-      en: Routes in detail
-      ru: Маршруты в деталях
-      uz: Marshrut tafsilotlari
-    title:
-      en: How route pacing works in practice
-      ru: Как темп маршрута работает на практике
-      uz: Marshrut tempi amalda qanday ishlaydi
-    description:
-      en: Use these notes to brief clients on transfer times and overnight logic.
-      ru: Используйте эти заметки для брифа клиентов по переездам и логике ночёвок.
-      uz: Mijozlarga transfer va tunlash mantiqini tushuntirish uchun ushbu eslatmalardan foydalaning.
-    gridClassName: sm:grid-cols-1 lg:grid-cols-1
-    cards:
-      - type: destinationInsight
-        icon: HelpCircle
-        title:
-          en: How many nights are ideal for first-time Uzbekistan?
-          ru: Сколько ночей оптимально для первой поездки в Узбекистан?
-          uz: O'zbekistonga birinchi safar uchun necha tun optimal?
-        description:
-          en: "Most first programs work best with 7-10 nights: Tashkent arrival, 2 nights Samarkand, 2 nights Bukhara, and optional Khiva extension."
-          ru: "Для первой программы обычно хватает 7–10 ночей: прилёт в Ташкент, 2 ночи в Самарканде, 2 в Бухаре и опционально Хива."
-          uz: "Birinchi dastur uchun odatda 7–10 tun yetadi: Toshkentga kelish, Samarqandda 2 tun, Buxoroda 2 tun va ixtiyoriy Xiva kengaytmasi."
-      - type: destinationInsight
-        icon: HelpCircle
-        title:
-          en: Where are long transfers and how do we soften them?
-          ru: Где длинные переезды и как их смягчить?
-          uz: Qayerda uzoq ko'chalar bor va ularni qanday yumshatish mumkin?
-        description:
-          en: Tashkent-Samarkand-Bukhara is efficient by Afrosiyob. The long leg is typically Bukhara-Khiva; place it as an evening/overnight transfer and keep next morning lighter.
-          ru: "Связка Ташкент–Самарканд–Бухара удобна на «Афросиёбе». Длинный участок — обычно Бухара–Хива: лучше вечерний/ночной переезд и более лёгкое утро на следующий день."
-          uz: "Toshkent–Samarqand–Buxoro Afrosiyob bilan qulay. Uzoq parcha odatda Buxoro–Xiva: kechki/tungi ko'chani rejalashtiring va ertasi kuni yengilroq qiling."
-      - type: destinationInsight
-        icon: HelpCircle
-        title:
-          en: How to combine culture and nature without fatigue?
-          ru: Как совместить культуру и природу без перегруза?
-          uz: Madaniyat va tabiatni charchatmasdan qanday ulash mumkin?
-        description:
-          en: "Use Tashkent as a split point: heritage in old city, then Chimgan/Charvak day escape, then return to Silk Road city sequence."
-          ru: "Используйте Ташкент как точку разделения: наследие в старом городе, затем однодневка в Чимган/Чарвак, потом возврат к городской последовательности Шёлкового пути."
-          uz: "Toshkentni ajratish nuqtasi sifatida ishlating: eski shaharda meros, keyin Chimgan/Charvak kunligi, so'ng Ipak yo'li shaharlar ketma-ketligiga qaytish."
-
-  - blockType: cta
-    image: assets/images/destinations/uzbekistan.jpg
-    eyebrow:
-      en: Tailor-made
-      ru: Под запрос
-      uz: Individual
-    title:
-      en: Plan your Uzbekistan route with TourLink
-      ru: Спланируйте маршрут по Узбекистану с TourLink
-      uz: TourLink bilan O'zbekiston marshrutini rejalashtiring
-    description:
-      en: We help agencies build realistic Silk Road itineraries — trains, pacing, and local logistics included.
-      ru: Помогаем агентствам собирать реалистичные программы по Шёлковому пути — поезда, темп и локальная логистика включены.
-      uz: Agentliklar uchun realistik Ipak yo'li dasturlarini yig'amiz — poezdlar, temp va mahalliy logistika bilan.
-    actions:
-      - type: mailto
-        variant: default
-        title:
-          en: Discuss a route
-          ru: Обсудить маршрут
-          uz: Marshrutni muhokama qilish
-        email: info@tourlink.uz
-      - type: link
-        variant: outline
-        title:
-          en: Browse catalog
-          ru: Открыть каталог
-          uz: Katalogni ko'rish
-        href: /catalog?destination=Uzbekistan
-
-seo:
-  metaTitle:
-    en: Uzbekistan tours | TourLink
-    ru: Туры в Узбекистан | TourLink
-    uz: O'zbekistonda turlar | TourLink
-  metaDescription:
-    en: Silk Road cities, crafts, and logical routes across Uzbekistan — planned by TourLink DMC.
-    ru: Города Шёлкового пути, ремёсла и логичные маршруты по Узбекистану — от DMC TourLink.
-    uz: O'zbekistonda ipak yo'li shaharlari, hunarmandchilik va mantiqiy marshrutlar — TourLink DMC dan.
-  structuredDataType: TouristDestination
-status:
-  showInSitemap: true
-  noindex: false
-  hideFromNavigation: false
-  publishedAt: "2025-06-01"
+      Bu yer biz uchun ham vatan. Jamoamiz shu hovlilar atrofida ulgʻaygan, bozorlar ohangini biladi va yodgorliklar ortidan odamlar ochiladigan yoʻnalishlar quradi — charx ortidagi kulol, bir piyola choy ustidagi suhbat."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"mapCenter":
+  "latitude": 41.511958
+  "longitude": 69.92404
+"badges":
+  - "FEATURED"
+  - "UNESCO"

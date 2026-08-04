@@ -25,7 +25,7 @@ import {
 	toDefaultRichText
 } from "./to-default-rich-text.js";
 import { isMediaBroken } from "./helpers/media-validator.js";
-import { checkMediaObjectExistsInStorage } from "./helpers/media-storage-check.js";
+import { checkMediaObjectExistsInStorage, putMediaObjectToStorage } from "./helpers/media-storage-check.js";
 import {
 	createSeedCostTracker,
 	createSeedStageLogger,
@@ -632,6 +632,19 @@ async function ensureExistingMedia(
 		);
 	}
 
+	const afterRepair = await checkMediaObjectExistsInStorage(
+		repaired,
+		sourcePath
+	);
+
+	if (!afterRepair.exists) {
+		const filePath = path.join(ROOT, "public", sourcePath);
+		console.log(
+			`  ! repair still missing in storage for ${sourcePath} — PutObject fallback`
+		);
+		await putMediaObjectToStorage(repaired, filePath, sourcePath);
+	}
+
 	cacheMediaEntry(mediaCache, sourcePath, repaired);
 	return repaired;
 }
@@ -655,7 +668,7 @@ async function ensureMediaOnce(
 
 	const created = await createMediaRecord(payload, sourcePath);
 
-	// Unique race: another create won — validate as existing (may need repair).
+	// Unique race / filename reuse: validate as existing (may need repair).
 	if (created.kind === "existing") {
 		return ensureExistingMedia(
 			payload,
@@ -665,12 +678,28 @@ async function ensureMediaOnce(
 		);
 	}
 
-	// Fresh upload: no HeadObject after create.
+	// Fresh create: verify object actually landed in storage (filePath uploads
+	// can succeed in DB while S3 put is missing — catch that here).
+	const storage = await checkMediaObjectExistsInStorage(
+		created.media,
+		sourcePath
+	);
+
+	if (!storage.exists) {
+		console.log(
+			`  ! fresh media missing in storage for ${sourcePath} (key=${storage.key}) — PutObject fallback`
+		);
+		const filePath = path.join(ROOT, "public", sourcePath);
+		await putMediaObjectToStorage(created.media, filePath, sourcePath);
+		cacheMediaEntry(mediaCache, sourcePath, created.media);
+		return created.media;
+	}
+
 	cacheMediaEntry(mediaCache, sourcePath, created.media);
 	return created.media;
 }
 
-async function ensureMedia(
+export async function ensureMedia(
 	payload: Payload,
 	mediaCache: TMediaCache,
 	sourcePath: string
@@ -1319,6 +1348,7 @@ export async function seedLocalizedDocOnce(
 	options?: {
 		published?: boolean;
 		skipSlugLookup?: boolean;
+		locales?: readonly TLocale[];
 		beforeCreate?: (
 			data: Record<string, unknown>,
 			locale: TLocale
@@ -1326,6 +1356,15 @@ export async function seedLocalizedDocOnce(
 	}
 ): Promise<{ id: number | string; createdDoc?: Record<string, unknown> }> {
 	const beforeCreate = options?.beforeCreate ?? (async (data) => data);
+	const localesToSeed = options?.locales ?? LOCALES;
+	const primaryLocale = localesToSeed.includes("en")
+		? "en"
+		: localesToSeed[0];
+
+	if (!primaryLocale) {
+		throw new Error(`No locales to seed for ${collection}`);
+	}
+
 	const slug = resolveSeedSlug(raw);
 	let doc =
 		!options?.skipSlugLookup && slug
@@ -1334,22 +1373,22 @@ export async function seedLocalizedDocOnce(
 	let createdDoc: Record<string, unknown> | undefined;
 
 	if (!doc) {
-		const enData = mergeStatusDefaults(
+		const primaryData = mergeStatusDefaults(
 			await beforeCreate(
-				pickLocale(raw, "en") as Record<string, unknown>,
-				"en"
+				pickLocale(raw, primaryLocale) as Record<string, unknown>,
+				primaryLocale
 			)
 		);
 
 		if (options?.published) {
-			enData._status = "published";
+			primaryData._status = "published";
 		}
 
 		const created = await profileRun("payload_create", () =>
 			payload.create({
 				collection,
-				data: enData,
-				locale: "en",
+				data: primaryData,
+				locale: primaryLocale,
 				draft: false,
 				...SEED_OP_OPTS
 			})
@@ -1357,10 +1396,32 @@ export async function seedLocalizedDocOnce(
 
 		doc = created;
 		createdDoc = created as unknown as Record<string, unknown>;
+	} else if (rawHasLocaleContent(raw, primaryLocale)) {
+		// Re-seed path: update primary locale on existing docs
+		const primaryData = mergeStatusDefaults(
+			await beforeCreate(
+				pickLocale(raw, primaryLocale) as Record<string, unknown>,
+				primaryLocale
+			)
+		);
+
+		if (options?.published) {
+			primaryData._status = "published";
+		}
+
+		await profileRun("payload_update_locales", () =>
+			payload.update({
+				collection,
+				id: doc!.id,
+				data: primaryData,
+				locale: primaryLocale,
+				...SEED_OP_OPTS
+			})
+		);
 	}
 
-	for (const locale of LOCALES) {
-		if (locale === "en") {
+	for (const locale of localesToSeed) {
+		if (locale === primaryLocale) {
 			continue;
 		}
 
@@ -1390,12 +1451,13 @@ export async function seedLocalizedDocOnce(
 	return { id: doc.id, createdDoc };
 }
 
-async function seedLocalizedDoc(
+export async function seedLocalizedDoc(
 	payload: Payload,
 	collection: CollectionSlug,
 	raw: Record<string, unknown>,
 	options?: {
 		published?: boolean;
+		locales?: readonly TLocale[];
 		beforeCreate?: (
 			data: Record<string, unknown>,
 			locale: TLocale
@@ -1594,7 +1656,8 @@ export async function refreshRouteMapStops(
 	payload: Payload,
 	collection: TRouteMapCollection,
 	badgeIds: Map<string, number>,
-	mediaCache: TMediaCache
+	mediaCache: TMediaCache,
+	options?: { countrySlug?: string; locales?: readonly TLocale[] }
 ): Promise<void> {
 	const contentDir = path.join(
 		CONTENT_DIR,
@@ -1603,11 +1666,30 @@ export async function refreshRouteMapStops(
 	const files = (await fs.readdir(contentDir)).filter((file) =>
 		file.endsWith(".yml")
 	);
+	const localesToRefresh = options?.locales ?? LOCALES;
 
 	for (const file of files) {
 		const item = await readYamlFile<Record<string, unknown>>(
 			path.join(contentDir, file)
 		);
+
+		if (options?.countrySlug) {
+			if (collection === "countries") {
+				const slug =
+					typeof item.slug === "object" &&
+					item.slug !== null &&
+					"en" in item.slug
+						? String((item.slug as Record<string, unknown>).en)
+						: file.replace(/\.yml$/, "");
+				if (slug !== options.countrySlug) {
+					continue;
+				}
+			} else if (
+				yamlFieldString(item, "country") !== options.countrySlug
+			) {
+				continue;
+			}
+		}
 
 		const blocks = item.blocks;
 
@@ -1655,7 +1737,7 @@ export async function refreshRouteMapStops(
 			);
 		}
 
-		for (const locale of LOCALES) {
+		for (const locale of localesToRefresh) {
 			if (!rawHasLocaleContent(item, locale)) {
 				continue;
 			}
@@ -2656,17 +2738,481 @@ async function runSeedNavigationOnly(): Promise<void> {
 	process.exit(0);
 }
 
+async function loadBadgeIdsFromDb(
+	payload: Payload
+): Promise<Map<string, number>> {
+	const result = await payload.find({
+		collection: "badges",
+		locale: "en",
+		limit: 100,
+		depth: 0,
+		overrideAccess: true
+	});
+	const badgeIds = new Map<string, number>();
+
+	for (const doc of result.docs) {
+		if (typeof doc.slug === "string") {
+			badgeIds.set(doc.slug, doc.id as number);
+		}
+	}
+
+	return badgeIds;
+}
+
+async function runSeedCityOnly(citySlug: string): Promise<void> {
+	const seedDbUri = resolveSeedDatabaseUri();
+	const profiler = createSeedProfiler();
+	const lookup = new SeedLookupCache();
+
+	logSeedConnectionInfo(seedDbUri);
+	console.log(`Seed mode: city only (${citySlug}, no DB reset)`);
+
+	process.env.PAYLOAD_SEED_MODE = "true";
+	process.env.PAYLOAD_DB_PUSH = "false";
+	process.env.DATABASE_URI = seedDbUri;
+
+	const { default: config } = await import("@payload-config");
+	await wakeDatabase(seedDbUri);
+	const payload = await getPayload({ config });
+	attachSeedPoolErrorHandler(payload);
+
+	const mediaDbIndex = await preloadMediaDbIndex(payload);
+	setSeedRuntimeContext(lookup, mediaDbIndex, profiler);
+
+	await lookup.ingestCountries(payload);
+	await lookup.ingestRegions(payload);
+	await lookup.ingestCities(payload);
+	await lookup.ingestAttractions(payload);
+
+	const mediaCache: TMediaCache = new Map();
+	const badgeIds = await loadBadgeIdsFromDb(payload);
+
+	const cityPath = path.join(CONTENT_DIR, "cities", `${citySlug}.yml`);
+	const cityItem = await readYamlFile<Record<string, unknown>>(cityPath);
+
+	console.log(`Updating city ${citySlug}...`);
+	const cityResult = await seedLocalizedDocOnce(payload, "cities", cityItem, {
+		published: true,
+		skipSlugLookup: false,
+		beforeCreate: async (data, locale) =>
+			resolveCitySeedData(payload, data, locale, badgeIds, mediaCache)
+	});
+
+	if (cityResult.createdDoc) {
+		registerCityFromDoc(lookup, cityResult.createdDoc);
+	}
+
+	const attractionsDir = path.join(CONTENT_DIR, "attractions");
+	const attractionFiles = (await fs.readdir(attractionsDir))
+		.filter((file) => file.endsWith(".yml"))
+		.sort();
+
+	let attractionCount = 0;
+
+	for (const file of attractionFiles) {
+		const item = await readYamlFile<Record<string, unknown>>(
+			path.join(attractionsDir, file)
+		);
+		const cityRef =
+			typeof item.city === "string"
+				? item.city
+				: item.city &&
+					  typeof item.city === "object" &&
+					  "en" in (item.city as object)
+					? String((item.city as Record<string, unknown>).en)
+					: null;
+
+		if (cityRef !== citySlug) {
+			continue;
+		}
+
+		const slug =
+			typeof item.slug === "object" &&
+			item.slug !== null &&
+			"en" in item.slug
+				? String((item.slug as Record<string, unknown>).en)
+				: file.replace(/\.yml$/, "");
+
+		await seedLocalizedDocOnce(payload, "attractions", item, {
+			published: true,
+			skipSlugLookup: false,
+			beforeCreate: async (data, locale) =>
+				resolveAttractionSeedData(
+					payload,
+					data,
+					locale,
+					badgeIds,
+					mediaCache
+				)
+		});
+		console.log(`  + attraction ${slug}`);
+		attractionCount++;
+	}
+
+	console.log(`Refreshing routeMap stops for city ${citySlug}...`);
+	for (const locale of LOCALES) {
+		if (!rawHasLocaleContent(cityItem, locale)) {
+			continue;
+		}
+
+		const localeData = await resolveSeedDocument(
+			payload,
+			mediaCache,
+			resolveBadgeIds(
+				pickLocale(cityItem, locale) as Record<string, unknown>,
+				badgeIds
+			),
+			locale
+		);
+
+		const existing = await findSeedDocBySlug(payload, "cities", citySlug);
+
+		if (!existing) {
+			throw new Error(`City not found after seed: ${citySlug}`);
+		}
+
+		await payload.update({
+			collection: "cities",
+			id: existing.id,
+			data: {
+				blocks: (localeData as Record<string, unknown>).blocks
+			},
+			locale,
+			...SEED_OP_OPTS
+		});
+	}
+
+	if (typeof payload.db?.destroy === "function") {
+		await payload.db.destroy();
+	}
+
+	console.log(
+		`City seed complete: ${citySlug} (+ ${attractionCount} attractions)`
+	);
+	process.exit(0);
+}
+
+function yamlFieldString(
+	item: Record<string, unknown>,
+	key: string
+): string | null {
+	const value = item[key];
+
+	if (typeof value === "string") {
+		return value;
+	}
+
+	if (value && typeof value === "object" && "en" in value) {
+		return String((value as Record<string, unknown>).en);
+	}
+
+	return null;
+}
+
+function yamlSlug(item: Record<string, unknown>, file: string): string {
+	const fromField = yamlFieldString(item, "slug");
+
+	return fromField || file.replace(/\.yml$/, "");
+}
+
+/**
+ * Upsert regions + cities + attractions for one country.
+ * Does not reset DB and does not create/update the country document.
+ * Usage: --only=destinations:<countrySlug>
+ */
+async function runSeedCountryDestinationsOnly(
+	countrySlug: string
+): Promise<void> {
+	const seedDbUri = resolveSeedDatabaseUri();
+	const profiler = createSeedProfiler();
+	const lookup = new SeedLookupCache();
+
+	if (!countrySlug) {
+		throw new Error("Missing country slug for destinations seed");
+	}
+
+	logSeedConnectionInfo(seedDbUri);
+	console.log(
+		`Seed mode: destinations only for country=${countrySlug} (regions+cities+attractions, no country doc, no DB reset)`
+	);
+
+	process.env.PAYLOAD_SEED_MODE = "true";
+	process.env.PAYLOAD_DB_PUSH = "false";
+	process.env.DATABASE_URI = seedDbUri;
+
+	const { default: config } = await import("@payload-config");
+	await wakeDatabase(seedDbUri);
+	const payload = await getPayload({ config });
+	attachSeedPoolErrorHandler(payload);
+
+	const mediaDbIndex = await preloadMediaDbIndex(payload);
+	setSeedRuntimeContext(lookup, mediaDbIndex, profiler);
+
+	await lookup.ingestCountries(payload);
+	await lookup.ingestRegions(payload);
+	await lookup.ingestCities(payload);
+	await lookup.ingestAttractions(payload);
+
+	const mediaCache: TMediaCache = new Map();
+	const badgeIds = await loadBadgeIdsFromDb(payload);
+
+	const belongsToCountry = (item: Record<string, unknown>): boolean =>
+		yamlFieldString(item, "country") === countrySlug;
+
+	const regionsDir = path.join(CONTENT_DIR, "regions");
+	const regionFiles = (await fs.readdir(regionsDir))
+		.filter((file) => file.endsWith(".yml"))
+		.sort();
+
+	let regionCount = 0;
+
+	console.log(`Updating regions for ${countrySlug}...`);
+	for (const [index, file] of regionFiles.entries()) {
+		const item = await readYamlFile<Record<string, unknown>>(
+			path.join(regionsDir, file)
+		);
+
+		if (!belongsToCountry(item)) {
+			continue;
+		}
+
+		const slug = yamlSlug(item, file);
+		const result = await seedLocalizedDocOnce(payload, "regions", item, {
+			published: true,
+			skipSlugLookup: false,
+			beforeCreate: async (data, locale) =>
+				resolveRegionSeedData(
+					payload,
+					applyGeoNavOrder(data, index),
+					locale,
+					badgeIds,
+					mediaCache
+				)
+		});
+
+		if (result.createdDoc) {
+			registerRegionFromDoc(lookup, result.createdDoc);
+		}
+
+		console.log(`  + region ${slug}`);
+		regionCount++;
+	}
+
+	await lookup.ingestRegions(payload);
+
+	const citiesDir = path.join(CONTENT_DIR, "cities");
+	const cityFiles = (await fs.readdir(citiesDir))
+		.filter((file) => file.endsWith(".yml"))
+		.sort();
+
+	let cityCount = 0;
+
+	console.log(`Updating cities for ${countrySlug}...`);
+	for (const [index, file] of cityFiles.entries()) {
+		const item = await readYamlFile<Record<string, unknown>>(
+			path.join(citiesDir, file)
+		);
+
+		if (!belongsToCountry(item)) {
+			continue;
+		}
+
+		const slug = yamlSlug(item, file);
+		const result = await seedLocalizedDocOnce(payload, "cities", item, {
+			published: true,
+			skipSlugLookup: false,
+			beforeCreate: async (data, locale) =>
+				resolveCitySeedData(
+					payload,
+					applyGeoNavOrder(data, index),
+					locale,
+					badgeIds,
+					mediaCache
+				)
+		});
+
+		if (result.createdDoc) {
+			registerCityFromDoc(lookup, result.createdDoc);
+		}
+
+		console.log(`  + city ${slug}`);
+		cityCount++;
+	}
+
+	await lookup.ingestCities(payload);
+
+	const attractionsDir = path.join(CONTENT_DIR, "attractions");
+	const attractionFiles = (await fs.readdir(attractionsDir))
+		.filter((file) => file.endsWith(".yml"))
+		.sort();
+
+	let attractionCount = 0;
+
+	console.log(`Updating attractions for ${countrySlug}...`);
+	for (const file of attractionFiles) {
+		const item = await readYamlFile<Record<string, unknown>>(
+			path.join(attractionsDir, file)
+		);
+
+		if (!belongsToCountry(item)) {
+			continue;
+		}
+
+		const slug = yamlSlug(item, file);
+		await seedLocalizedDocOnce(payload, "attractions", item, {
+			published: true,
+			skipSlugLookup: false,
+			beforeCreate: async (data, locale) =>
+				resolveAttractionSeedData(
+					payload,
+					data,
+					locale,
+					badgeIds,
+					mediaCache
+				)
+		});
+		console.log(`  + attraction ${slug}`);
+		attractionCount++;
+	}
+
+	await lookup.ingestAttractions(payload);
+
+	console.log(
+		`Refreshing routeMap stops (cities + regions + country) for ${countrySlug}...`
+	);
+	await refreshRouteMapStops(payload, "cities", badgeIds, mediaCache, {
+		countrySlug
+	});
+	await refreshRouteMapStops(payload, "regions", badgeIds, mediaCache, {
+		countrySlug
+	});
+	await refreshRouteMapStops(payload, "countries", badgeIds, mediaCache, {
+		countrySlug
+	});
+
+	if (typeof payload.db?.destroy === "function") {
+		await payload.db.destroy();
+	}
+
+	console.log(
+		`Destinations seed complete (${countrySlug}): regions=${regionCount}, cities=${cityCount}, attractions=${attractionCount}`
+	);
+	process.exit(0);
+}
+
+/**
+ * Upsert a single country document (no DB reset, no child entities).
+ * Usage: --only=country:<countrySlug>
+ */
+async function runSeedCountryOnly(countrySlug: string): Promise<void> {
+	const seedDbUri = resolveSeedDatabaseUri();
+	const profiler = createSeedProfiler();
+	const lookup = new SeedLookupCache();
+
+	if (!countrySlug) {
+		throw new Error("Missing country slug");
+	}
+
+	logSeedConnectionInfo(seedDbUri);
+	console.log(
+		`Seed mode: country only (${countrySlug}, no DB reset, no destinations)`
+	);
+
+	process.env.PAYLOAD_SEED_MODE = "true";
+	process.env.PAYLOAD_DB_PUSH = "false";
+	process.env.DATABASE_URI = seedDbUri;
+
+	const { default: config } = await import("@payload-config");
+	await wakeDatabase(seedDbUri);
+	const payload = await getPayload({ config });
+	attachSeedPoolErrorHandler(payload);
+
+	const mediaDbIndex = await preloadMediaDbIndex(payload);
+	setSeedRuntimeContext(lookup, mediaDbIndex, profiler);
+
+	await lookup.ingestCountries(payload);
+	await lookup.ingestRegions(payload);
+	await lookup.ingestCities(payload);
+	await lookup.ingestAttractions(payload);
+
+	const mediaCache: TMediaCache = new Map();
+	const badgeIds = await loadBadgeIdsFromDb(payload);
+
+	const countryPath = path.join(
+		CONTENT_DIR,
+		"countries",
+		`${countrySlug}.yml`
+	);
+	const countryItem = await readYamlFile<Record<string, unknown>>(countryPath);
+
+	console.log(`Updating country ${countrySlug}...`);
+	const result = await seedLocalizedDocOnce(
+		payload,
+		"countries",
+		countryItem,
+		{
+			published: true,
+			skipSlugLookup: false,
+			beforeCreate: async (data, locale) => {
+				const withBadges = resolveBadgeIds(data, badgeIds);
+				return resolveSeedDocument(
+					payload,
+					mediaCache,
+					withBadges,
+					locale,
+					{ deferRouteMapStops: true }
+				);
+			}
+		}
+	);
+
+	if (result.createdDoc) {
+		registerCountryFromDoc(lookup, result.createdDoc);
+	}
+
+	console.log(`Refreshing routeMap stops for country ${countrySlug}...`);
+	await refreshRouteMapStops(payload, "countries", badgeIds, mediaCache, {
+		countrySlug
+	});
+
+	if (typeof payload.db?.destroy === "function") {
+		await payload.db.destroy();
+	}
+
+	console.log(`Country seed complete: ${countrySlug}`);
+	process.exit(0);
+}
+
 if (isSeedEntrypoint) {
 	const only = getSeedOnlyTarget();
+	const destinationsMatch = only?.match(/^destinations:(.+)$/);
+	const countryMatch = only?.match(/^country:(.+)$/);
 
-	if (only && only !== "navigation") {
+	if (
+		only &&
+		only !== "navigation" &&
+		!only.startsWith("city:") &&
+		!destinationsMatch &&
+		!countryMatch
+	) {
 		console.error(
-			`Unknown --only target "${only}". Supported: navigation`
+			`Unknown --only target "${only}". Supported: navigation, city:<slug>, country:<slug>, destinations:<countrySlug>`
 		);
 		process.exit(1);
 	}
 
-	const run = only === "navigation" ? runSeedNavigationOnly : main;
+	const run = !only
+		? main
+		: only === "navigation"
+			? runSeedNavigationOnly
+			: destinationsMatch
+				? () =>
+						runSeedCountryDestinationsOnly(
+							destinationsMatch[1].trim()
+						)
+				: countryMatch
+					? () => runSeedCountryOnly(countryMatch[1].trim())
+					: () => runSeedCityOnly(only!.slice("city:".length).trim());
 
 	run().catch((error: unknown) => {
 		console.error("Seed failed:", error);

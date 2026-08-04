@@ -1,0 +1,281 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "korgalzhyn-state-nature-reserve"
+  "ru": "korgalzhyn-state-nature-reserve"
+  "uz": "korgalzhyn-state-nature-reserve"
+"title":
+  "en": "Korgalzhyn State Nature Reserve"
+  "ru": "Коргалжынский государственный природный заповедник"
+  "uz": "Qorgʻaljyn davlat tabiat qoʻriqxonasi"
+"subtitle":
+  "en": "Protected steppe and lakes in Saryarka"
+  "ru": "Охраняемая степь и озера Сарыарки"
+  "uz": "Saryarkaning qoʻriqlanadigan dashti va koʻllari"
+"excerpt":
+  "en": "Korgalzhyn State Nature Reserve is not a sightseeing stop at the end of a road. It is a protected landscape of dry steppe, freshwater and saline waters, reed edges, and migratory birds, where the first responsibility is to visit without disturbing the place."
+  "ru": "Коргалжынский заповедник - не смотровая остановка в конце дороги. Это охраняемый ландшафт сухой степи, пресных и соленых вод, камышовых кромок и перелетных птиц, где первая задача - увидеть место без беспокойства для природы."
+  "uz": "Qorgʻaljyn davlat tabiat qoʻriqxonasi yoʻl oxiridagi tomosha bekati emas. Bu quruq dasht, chuchuk va shoʻr suvlar, qamish chetlari va koʻchmanchi qushlardan iborat qoʻriqlanadigan landshaft; birinchi masʼuliyat joyni bezovta qilmasdan koʻrishdir."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "Korgalzhyn State Nature Reserve"
+      "ru": "Коргалжынский государственный природный заповедник"
+      "uz": "Qorgʻaljyn davlat tabiat qoʻriqxonasi"
+    "title":
+      "en": "Korgalzhyn State Nature Reserve"
+      "ru": "Коргалжынский государственный природный заповедник"
+      "uz": "Qorgʻaljyn davlat tabiat qoʻriqxonasi"
+    "description":
+      "en": "Protected steppe and lakes in Saryarka"
+      "ru": "Охраняемая степь и озера Сарыарки"
+      "uz": "Saryarkaning qoʻriqlanadigan dashti va koʻllari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Korgalzhyn State Nature Reserve"
+      "ru": "Коргалжынский государственный природный заповедник"
+      "uz": "Qorgʻaljyn davlat tabiat qoʻriqxonasi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Korgalzhyn State Nature Reserve is not a sightseeing stop at the end of a road."
+              "ru": "Коргалжынский заповедник - не смотровая остановка в конце дороги."
+              "uz": "Qorgʻaljyn davlat tabiat qoʻriqxonasi yoʻl oxiridagi tomosha bekati emas."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Korgalzhyn State Nature Reserve is not a sightseeing stop at the end of a road. It is a protected landscape of dry steppe, freshwater and saline waters, reed edges, and migratory birds, where the first responsibility is to visit without disturbing the place."
+              "ru": "Коргалжынский заповедник - не смотровая остановка в конце дороги. Это охраняемый ландшафт сухой степи, пресных и соленых вод, камышовых кромок и перелетных птиц, где первая задача - увидеть место без беспокойства для природы."
+              "uz": "Qorgʻaljyn davlat tabiat qoʻriqxonasi yoʻl oxiridagi tomosha bekati emas. Bu quruq dasht, chuchuk va shoʻr suvlar, qamish chetlari va koʻchmanchi qushlardan iborat qoʻriqlanadigan landshaft; birinchi masʼuliyat joyni bezovta qilmasdan koʻrishdir."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Protected steppe and lakes in Saryarka."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Охраняемая степь и озера Сарыарки."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Saryarkaning qoʻriqlanadigan dashti va koʻllari."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Korgalzhyn State Nature Reserve as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Коргалжынский государственный природный заповедник как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Qorgʻaljyn davlat tabiat qoʻriqxonasi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Korgalzhyn State Nature Reserve sits on the route"
+      "ru": "Где Коргалжынский государственный природный заповедник стоит на маршруте"
+      "uz": "Qorgʻaljyn davlat tabiat qoʻriqxonasi marshrutda qayerda"
+    "description":
+      "en": "One clear point for Korgalzhyn State Nature Reserve — Protected steppe and lakes in Saryarka."
+      "ru": "Одна понятная точка для «Коргалжынский государственный природный заповедник» — Охраняемая степь и озера Сарыарки."
+      "uz": "Qorgʻaljyn davlat tabiat qoʻriqxonasi uchun bitta aniq nuqta — Saryarkaning qoʻriqlanadigan dashti va koʻllari."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Korgalzhyn State Nature Reserve"
+        "ru": "Коргалжынский государственный природный заповедник"
+        "uz": "Qorgʻaljyn davlat tabiat qoʻriqxonasi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 50.4252609
+      "longitude": 68.8978389
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "korgalzhyn-state-nature-reserve"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qoʻshish"
+    "title":
+      "en": "Keep the reserve tied to the lake system"
+      "ru": "Держите заповедник рядом с системой озер"
+      "uz": "Qoʻriqxonani koʻllar tizimi bilan bogʻlang"
+    "description":
+      "en": "Lake Tengiz and the wider Korgalzhyn lake system belong with the reserve story. ALZHIR can fit on the road back toward Astana only when the wetland visit has enough time."
+      "ru": "Озеро Тенгиз и система Коргалжынских озер принадлежат той же истории заповедника. АЛЖИР можно поставить на обратной дороге к Астане только тогда, когда угодья не приходится сжимать."
+      "uz": "Tengiz koʻli va kengroq Qorgʻaljyn koʻllar tizimi qoʻriqxona hikoyasiga kiradi. ALJIRni Ostonaga qaytish yoʻlida faqat botqoqliklar shoshirilmaganida qoʻshish mumkin."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Lake Tengiz and Korgalzhyn Lake System"
+          "ru": "Озеро Тенгиз и Коргалжынская система озер"
+          "uz": "Tengiz koʻli va Qorgʻaljyn koʻllar tizimi"
+        "description":
+          "en": "Lake Tengiz and the Korgalzhyn lake system form the broad water side of the Saryarka route, where shore access, bird movement, and viewing distance need local checks."
+          "ru": "Озеро Тенгиз и Коргалжынская система озер образуют водный горизонт маршрута Сарыарки; подъезд к берегу, птицы и дистанция требуют местной проверки."
+          "uz": "Tengiz koʻli va Qorgʻaljyn koʻllar tizimi Saryarka yoʻnalishining keng suv tomonidir; qirgʻoq kirishi, qush harakati va kuzatuv masofasi mahalliy tekshiruvni talab qiladi."
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/korgalzhyn/lake-tengiz-korgalzhyn-lake-system"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "ALZHIR Memorial Museum near Astana"
+          "ru": "Мемориальный музей АЛЖИР под Астаной"
+          "uz": "Ostona yaqinidagi ALJIR memorial muzeyi"
+        "description":
+          "en": "ALZHIR takes the Astana route beyond new-capital architecture into a quiet memorial museum in Akmol village, where the story of women imprisoned during Soviet repression needs time and care."
+          "ru": "АЛЖИР выводит маршрут по Астане за пределы новой столичной архитектуры к тихому мемориальному музею в Акмоле, где история женщин, заключённых во время советских репрессий, требует времени и такта."
+          "uz": "ALJIR Ostona yoʻnalishini yangi poytaxt meʼmorchiligidan tashqariga, Aqmol qishlogʻidagi sokin memorial muzeyga olib chiqadi; bu yerda sovet qatagʻonida qamalgan ayollar tarixi vaqt va ehtiyotkorlik talab qiladi."
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/astana/alzhir-memorial-museum-near-astana"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Korgalzhyn State Nature Reserve"
+      "ru": "Что агентства спрашивают про Коргалжынский государственный природный заповедник"
+      "uz": "Agentliklar Qorgʻaljyn davlat tabiat qoʻriqxonasi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Korgalzhyn State Nature Reserve get in the day plan?"
+          "ru": "Сколько времени закладывать на Коргалжынский государственный природный заповедник в плане дня?"
+          "uz": "Qorgʻaljyn davlat tabiat qoʻriqxonasi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "a focused half-day with buffer is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Protected steppe and lakes in Saryarka”."
+          "ru": "Для большинства групп реалистичный диапазон — полдня с запасом. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Охраняемая степь и озера Сарыарки»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — zaxira bilan yarim kun. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Saryarkaning qoʻriqlanadigan dashti va koʻllari»."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "When is Korgalzhyn State Nature Reserve strongest during the day?"
+          "ru": "В какое время дня Коргалжынский государственный природный заповедник раскрывается сильнее?"
+          "uz": "Qorgʻaljyn davlat tabiat qoʻriqxonasi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer early morning or late afternoon. That usually improves comfort, photos, and how the stop feels in the sequence around korgalzhyn."
+          "ru": "Лучше рано утром или ближе к вечеру. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с korgalzhyn."
+          "uz": "erta tong yoki kechga yaqin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (korgalzhyn atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "How should Korgalzhyn State Nature Reserve sit next to nearby stops?"
+          "ru": "Как поставить Коргалжынский государственный природный заповедник рядом с соседними остановками?"
+          "uz": "Qorgʻaljyn davlat tabiat qoʻriqxonasini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Korgalzhyn State Nature Reserve to your Kazakhstan programme"
+      "ru": "Добавьте «Коргалжынский государственный природный заповедник» в программу (Казахстан)"
+      "uz": "Qorgʻaljyn davlat tabiat qoʻriqxonasini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Korgalzhyn State Nature Reserve | TourLink"
+    "ru": "Коргалжынский государственный природный заповедник | TourLink"
+    "uz": "Qorgʻaljyn davlat tabiat qoʻriqxonasi | TourLink"
+  "metaDescription":
+    "en": "Korgalzhyn State Nature Reserve is not a sightseeing stop at the end of a road. It is a protected landscape of dry steppe, freshwater and saline waters, reed edges, and migratory birds, where the first responsibility is to visit without disturbing the place."
+    "ru": "Коргалжынский заповедник - не смотровая остановка в конце дороги. Это охраняемый ландшафт сухой степи, пресных и соленых вод, камышовых кромок и перелетных птиц, где первая задача - увидеть место без беспокойства для природы."
+    "uz": "Qorgʻaljyn davlat tabiat qoʻriqxonasi yoʻl oxiridagi tomosha bekati emas. Bu quruq dasht, chuchuk va shoʻr suvlar, qamish chetlari va koʻchmanchi qushlardan iborat qoʻriqlanadigan landshaft; birinchi masʼuliyat joyni bezovta qilmasdan koʻrishdir."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "astana-and-akmola-steppe"
+"city": "korgalzhyn"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 50.4252609
+"longitude": 68.8978389

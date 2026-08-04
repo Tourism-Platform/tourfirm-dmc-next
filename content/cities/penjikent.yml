@@ -1,0 +1,610 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "penjikent"
+  "ru": "penjikent"
+  "uz": "penjikent"
+"title":
+  "en": "Penjikent"
+  "ru": "Пенджикент"
+  "uz": "Panjikent"
+"subtitle":
+  "en": "Sogdian ruins at the road to the Fann lakes"
+  "ru": "Согдийские руины на дороге к озёрам Фанских гор"
+  "uz": "Fan ko‘l yo‘llaridagi Sugʻd xarobalari"
+"excerpt":
+  "en": "Penjikent sits where the Zeravshan Valley changes from border road to mountain approach. Ancient walls above town, Sarazm nearby, a small museum, and a working market make the city a useful start before the Fann lake roads."
+  "ru": "Пенджикент стоит там, где Зеравшанская долина меняет пограничную дорогу на подход к горам. Древние стены над городом, Саразм рядом, небольшой музей и работающий рынок делают город важным началом перед дорогами к озёрам."
+  "uz": "Panjikent Zarafshon vodiysi chegara yo‘lidan tog‘larga kirishga o‘tadigan joyda turadi. Shahar ustidagi qadimiy devorlar, yaqin Sarazm, kichik muzey va ishlayotgan bozor uni ko‘l yo‘llaridan oldingi muhim boshlanishga aylantiradi."
+"heroImage": "assets/images/destinations/tajikistan/regions/fann-mountains-and-zeravshan/cities/penjikent.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan/regions/fann-mountains-and-zeravshan/cities/penjikent.webp"
+    "imageAlt":
+      "en": "Penjikent"
+      "ru": "Пенджикент"
+      "uz": "Panjikent"
+    "title":
+      "en": "Penjikent"
+      "ru": "Пенджикент"
+      "uz": "Panjikent"
+    "description":
+      "en": "Sogdian ruins at the road to the Fann lakes"
+      "ru": "Согдийские руины на дороге к озёрам Фанских гор"
+      "uz": "Fan ko‘l yo‘llaridagi Sugʻd xarobalari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Penjikent"
+      "ru": "Пенджикент"
+      "uz": "Panjikent"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Penjikent sits where the Zeravshan Valley changes from border road to mountain approach."
+              "ru": "Пенджикент стоит там, где Зеравшанская долина меняет пограничную дорогу на подход к горам."
+              "uz": "Panjikent Zarafshon vodiysi chegara yo‘lidan tog‘larga kirishga o‘tadigan joyda turadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Read Penjikent in a simple sequence: Ancient Penjikent for the Sogdian ridge, Sarazm for the older settlement story, the museum and market for the town today, then one onward road that fits the season."
+              "ru": "Пенджикент удобно читать по простой последовательности: древний Пенджикент на гребне, Саразм как более ранняя история поселений, музей и рынок как сегодняшний город, затем одна дорога дальше по сезону."
+              "uz": "Panjikentni oddiy ketma-ketlikda ko‘rish oson: qadimiy Panjikent Sugʻd tepaligi uchun, Sarazm yanada qadimiy manzil hikoyasi uchun, muzey va bozor bugungi shahar uchun, keyin mavsumga mos bitta davom yo‘li."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Penjikent works best when the valley has time before the mountain drive; the city stop should clarify the route, not compress it."
+              "ru": "Пенджикент раскрывается лучше, когда у долины есть время до горного переезда: городская остановка должна прояснить маршрут, а не сжать его."
+              "uz": "Tog‘ yo‘liga chiqishdan oldin vodiyga vaqt berilsa, Panjikent yaxshiroq ochiladi: shahar to‘xtashi yo‘nalishni aniqlashtirishi kerak, uni shoshilinch o‘tkazmasligi kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Penjikent as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Пенджикент как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Panjikent o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Ruins, museum, market, then the road"
+      "ru": "Руины, музей, рынок, затем дорога"
+      "uz": "Xarobalar, muzey, bozor, keyin yo‘l"
+    "description":
+      "en": "Read Penjikent in a simple sequence: Ancient Penjikent for the Sogdian ridge, Sarazm for the older settlement story, the museum and market for the town today, then one onward road that fits the season."
+      "ru": "Пенджикент удобно читать по простой последовательности: древний Пенджикент на гребне, Саразм как более ранняя история поселений, музей и рынок как сегодняшний город, затем одна дорога дальше по сезону."
+      "uz": "Panjikentni oddiy ketma-ketlikda ko‘rish oson: qadimiy Panjikent Sugʻd tepaligi uchun, Sarazm yanada qadimiy manzil hikoyasi uchun, muzey va bozor bugungi shahar uchun, keyin mavsumga mos bitta davom yo‘li."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route setting"
+        "ru": "Положение в маршруте"
+        "uz": "Yoʻnalishdagi oʻrni"
+      "title":
+        "en": "Zeravshan before the Fann Mountains"
+        "ru": "Зеравшан перед Фанскими горами"
+        "uz": "Fan togʻlari oldidagi Zarafshon"
+      "description":
+        "en": "Penjikent, Ancient Penjikent, Sarazm, and the Rudaki Museum stay in the valley. Seven Lakes and Iskanderkul are separate mountain choices after the city stop."
+        "ru": "Пенджикент, древний Пенджикент, Саразм и музей Рудаки остаются в долине. Семь озёр и Искандеркуль — отдельные горные решения после городского дня."
+        "uz": "Panjikent, qadimiy Panjikent, Sarazm va Rudakiy muzeyi vodiyda qoladi. Yetti ko‘l va Iskandarko‘l shahar tashrifidan keyingi alohida tog‘ tanlovlaridir."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.496134
+      "longitude": 67.572921
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "ancient-penjikent"
+      - "entityType": "attraction"
+        "entitySlug": "rudaki-museum-in-penjikent"
+    "aside":
+      "eyebrow":
+        "en": "Town sequence"
+        "ru": "Последовательность в городе"
+        "uz": "Shahar ketma-ketligi"
+      "title":
+        "en": "Old ridge, museum rooms, market streets"
+        "ru": "Старый гребень, музейные залы, рыночные улицы"
+        "uz": "Eski tepalik, muzey xonalari, bozor ko‘chalari"
+      "description":
+        "en": "Penjikent works best when the valley has time before the mountain drive; the city stop should clarify the route, not compress it."
+        "ru": "Пенджикент раскрывается лучше, когда у долины есть время до горного переезда: городская остановка должна прояснить маршрут, а не сжать его."
+        "uz": "Tog‘ yo‘liga chiqishdan oldin vodiyga vaqt berilsa, Panjikent yaxshiroq ochiladi: shahar to‘xtashi yo‘nalishni aniqlashtirishi kerak, uni shoshilinch o‘tkazmasligi kerak."
+      "items":
+        - "title":
+            "en": "Begin above town"
+            "ru": "Начните над городом"
+            "uz": "Shahar ustidan boshlang"
+          "description":
+            "en": "Ancient Penjikent shows why the Zeravshan Valley mattered before modern borders shaped the route."
+            "ru": "Древний Пенджикент показывает, почему Зеравшанская долина была важна задолго до современных границ."
+            "uz": "Qadimiy Panjikent Zarafshon vodiysi zamonaviy chegaralardan ancha oldin nega muhim bo‘lganini ko‘rsatadi."
+          "badge":
+            "en": "Main anchor"
+            "ru": "Главная опора"
+            "uz": "Asosiy tayanch"
+        - "title":
+            "en": "Give Sarazm its own visit"
+            "ru": "Дайте Саразму отдельный визит"
+            "uz": "Sarazmga alohida vaqt ajrating"
+          "description":
+            "en": "The UNESCO site belongs to an earlier settlement horizon, so it reads better as a dedicated stop near town."
+            "ru": "Памятник ЮНЕСКО относится к более раннему горизонту поселений, поэтому лучше воспринимается как отдельная остановка рядом с городом."
+            "uz": "UNESCO yodgorligi yanada qadimiy manzillar davriga tegishli, shuning uchun uni shahar yonidagi alohida to‘xtash sifatida ko‘rish yaxshiroq."
+          "badge":
+            "en": "UNESCO site"
+            "ru": "ЮНЕСКО"
+            "uz": "UNESCO joyi"
+        - "title":
+            "en": "Add museum and market time"
+            "ru": "Добавьте музей и рынок"
+            "uz": "Muzey va bozorga vaqt qo‘shing"
+          "description":
+            "en": "The Rudaki Museum and market streets bring daily Penjikent into a route otherwise led by archaeology."
+            "ru": "Музей Рудаки и рыночные улицы возвращают сегодняшний Пенджикент в маршрут, который иначе ведёт археология."
+            "uz": "Rudakiy muzeyi va bozor ko‘chalari arxeologiya yetaklagan yo‘nalishga bugungi Panjikentni qaytaradi."
+          "badge":
+            "en": "Easy middle"
+            "ru": "Спокойная середина"
+            "uz": "Sokin oʻrta qism"
+        - "title":
+            "en": "Set one mountain direction"
+            "ru": "Выберите одно горное направление"
+            "uz": "Bitta tog‘ yo‘lini belgilang"
+          "description":
+            "en": "Seven Lakes is a village-and-lake road; Iskanderkul is a separate lake-area move. Each needs its own timing."
+            "ru": "Семь озёр — дорога через сёла и озёра; Искандеркуль — отдельное озёрное направление. Каждому нужно своё время."
+            "uz": "Yetti ko‘l qishloqlar va ko‘llar yo‘li; Iskandarko‘l esa alohida ko‘l hududi. Har biri o‘z vaqtini talab qiladi."
+          "badge":
+            "en": "Route choice"
+            "ru": "Выбор маршрута"
+            "uz": "Yo‘l tanlovi"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrish"
+    "title":
+      "en": "Places that make Penjikent legible"
+      "ru": "Места, по которым понятен Пенджикент"
+      "uz": "Panjikentni tushuntiradigan joylar"
+    "description":
+      "en": "Start with the three cultural anchors that explain the city: Ancient Penjikent above town, UNESCO Sarazm nearby, and the Rudaki Museum with local history and excavated finds."
+      "ru": "Начните с трёх культурных опор города: древнего Пенджикента над городом, Саразма ЮНЕСКО рядом и музея Рудаки с местной историей и археологическими находками."
+      "uz": "Shaharni anglash uchun uchta madaniy tayanchdan boshlang: shahar ustidagi qadimiy Panjikent, yaqin UNESCO Sarazm va mahalliy tarix hamda topilmalarni ko‘rsatadigan Rudakiy muzeyi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Ancient Penjikent"
+          "ru": "Древний Пенджикент"
+          "uz": "Qadimiy Panjikent"
+        "description":
+          "en": "Ancient Penjikent sits above the modern town, with the Zeravshan Valley below and the mountain roads beyond. Walk it slowly: the low walls, palace and temple traces, and open view need time and explanation."
+          "ru": "Древний Пенджикент лежит над современным городом, с Зеравшанской долиной внизу и горными дорогами дальше. Здесь нужен неспешный шаг: низкие стены, следы дворца и храмов и открытый вид раскрываются с пояснением."
+          "uz": "Qadimiy Panjikent zamonaviy shahar ustida, pastda Zarafshon vodiysi va uzoqda togʻ yoʻllari bilan turadi. Bu yerda sekin yurish kerak: past devorlar, saroy va ibodatxona izlari hamda ochiq manzara izoh bilan yaxshiroq ochiladi."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/penjikent/ancient-penjikent"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Proto-urban Site of Sarazm"
+          "ru": "Протогородище Саразм"
+          "uz": "Sarazm protoshahar yodgorligi"
+        "description":
+          "en": "Near Penjikent, Sarazm takes the Zeravshan story back to the 4th and 3rd millennia BCE. The site is quiet at first glance; with the chronology in mind, its protected remains become early houses, work areas, metalworking, and exchange across Central Asia."
+          "ru": "Рядом с Пенджикентом Саразм уводит историю Зеравшана к IV-III тысячелетиям до н. э. Снаружи место кажется тихим, но с понятной хронологией его защищённые остатки складываются в ранние жилища, рабочие зоны, металлургию и обмен по Центральной Азии."
+          "uz": "Panjikent yaqinidagi Sarazm Zarafshon hikoyasini miloddan avvalgi IV-III ming yilliklarga qaytaradi. Avvaliga joy sokin koʻrinadi, lekin vaqt tartibi tushunarli boʻlsa, himoyalangan qoldiqlarda ilk uylar, ish maydonlari, metall ishlovi va Markaziy Osiyo boʻylab almashinuv koʻrina"
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/penjikent/proto-urban-site-of-sarazm"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Rudaki Museum in Penjikent"
+          "ru": "Музей Рудаки в Пенджикенте"
+          "uz": "Panjikentdagi Rudakiy muzeyi"
+        "description":
+          "en": "Inside the town, the museum gives names and objects to the archaeology outside. Rudaki's literary memory, local history rooms, and excavated material make Penjikent feel less like separate sites and more like a place with its own memory."
+          "ru": "В городе музей даёт археологии имена и предметы. Память Рудаки, местная история и найденные материалы помогают воспринимать Пенджикент не как набор площадок, а как город со своей памятью."
+          "uz": "Shahar ichida muzey tashqaridagi arxeologiyaga ism va buyumlar beradi. Rudakiy xotirasi, mahalliy tarix va topilmalar Panjikentni faqat joylar ketma-ketligi emas, oʻz xotirasi bor shahar sifatida koʻrsatadi."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/penjikent/rudaki-museum-in-penjikent"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City moments"
+      "ru": "Городские моменты"
+      "uz": "Shahar lahzalari"
+    "title":
+      "en": "Small moments before the mountain road"
+      "ru": "Небольшие моменты перед горной дорогой"
+      "uz": "Tog‘ yo‘lidan oldingi kichik lahzalar"
+    "description":
+      "en": "Penjikent is not only a transfer point. The city comes into focus through a ridge view, museum rooms, market sound, and the choice of which mountain road should come next."
+      "ru": "Пенджикент — не только переезд. Город становится понятнее через вид с гребня, музейные залы, звук рынка и выбор следующей горной дороги."
+      "uz": "Panjikent faqat o‘tib ketiladigan joy emas. Shahar tepalik manzarasi, muzey xonalari, bozor ovozi va keyingi tog‘ yo‘lini tanlash orqali ochiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Rudaki Museum between ruins and market"
+          "ru": "Музей Рудаки между руинами и рынком"
+          "uz": "Xarobalar va bozor orasidagi Rudakiy muzeyi"
+        "description":
+          "en": "A short museum stop brings Rudaki memory, local finds, and the town’s present life into the same visit."
+          "ru": "Короткая остановка в музее соединяет память о Рудаки, местные находки и живой город в одном визите."
+          "uz": "Qisqa muzey to‘xtashi Rudakiy xotirasi, mahalliy topilmalar va bugungi shahar hayotini bir tashrifda birlashtiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Sarazm before the lake roads"
+          "ru": "Саразм перед дорогами к озёрам"
+          "uz": "Ko‘l yo‘llaridan oldingi Sarazm"
+        "description":
+          "en": "Sarazm reaches farther back than the Silk Road story, giving the mountain route an older settlement horizon near Penjikent."
+          "ru": "Саразм уводит историю глубже Шёлкового пути и показывает рядом с Пенджикентом более ранний горизонт поселений."
+          "uz": "Sarazm Ipak yo‘li hikoyasidan ham qadimiyroq manzilni ochadi va Panjikent yonida tog‘ yo‘liga chuqurroq tarix beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Ancient Penjikent above town"
+          "ru": "Древний Пенджикент над городом"
+          "uz": "Shahar ustidagi qadimiy Panjikent"
+        "description":
+          "en": "On the ridge, broken walls and valley dust make the modern town feel close to its Sogdian past."
+          "ru": "На гребне видны стены, пыльная долина и современный город внизу — так согдийское прошлое становится ближе."
+          "uz": "Tepalikda devor izlari, vodiy changi va pastdagi shahar ko‘rinadi — Sugʻd o‘tmishi hozirgi Panjikentga yaqinlashadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "Plan Penjikent as a real stop"
+      "ru": "Планируйте Пенджикент как настоящую остановку"
+      "uz": "Panjikentni haqiqiy to‘xtash sifatida rejalang"
+    "description":
+      "en": "The city earns its time when archaeology, town life, and mountain-road decisions are kept separate enough to make sense."
+      "ru": "Город оправдывает своё время, когда археология, городская жизнь и решения по горным дорогам не смешаны в один спешный переезд."
+      "uz": "Arxeologiya, shahar hayoti va tog‘ yo‘li qarorlari bitta shoshilinch o‘tishga aralashib ketmasa, shahar o‘z vaqtini oqlaydi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Archaeology first"
+              "ru": "Сначала археология"
+              "uz": "Avval arxeologiya"
+            "description":
+              "en": "Ancient Penjikent and Sarazm make most sense near the beginning. They explain the valley before the route turns toward water, villages, and passes."
+              "ru": "Древний Пенджикент и Саразм лучше ставить ближе к началу. Они объясняют долину до того, как маршрут уйдёт к воде, сёлам и перевалам."
+              "uz": "Qadimiy Panjikent va Sarazmni tashrif boshiga yaqin qo‘yish ma’qul. Ular yo‘l suv, qishloqlar va dovonlarga burilishidan oldin vodiyni tushuntiradi."
+          - "type": "quote"
+            "quote":
+              "en": "Penjikent works best when old Zeravshan history has time before the first mountain road."
+              "ru": "Пенджикент лучше раскрывается, когда старая история Зеравшана успевает прозвучать до первой горной дороги."
+              "uz": "Panjikentda eski Zarafshon tarixi birinchi tog‘ yo‘lidan oldin eshitilsa, shahar yaxshiroq ochiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the town in the visit"
+              "ru": "Оставьте город в маршруте"
+              "uz": "Shaharni tashrif ichida qoldiring"
+            "description":
+              "en": "The Rudaki Museum and market streets stop the city from becoming only ruins and dates. They bring local memory, daily movement, and a human scale into the route."
+              "ru": "Музей Рудаки и рыночные улицы не дают Пенджикенту стать только руинами и датами. Они добавляют местную память, движение города и человеческий масштаб."
+              "uz": "Rudakiy muzeyi va bozor ko‘chalari Panjikentni faqat xarobalar va sanalarga aylantirmaydi. Ular mahalliy xotira, shahar harakati va insoniy o‘lcham qo‘shadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Choose the next road deliberately"
+              "ru": "Выбирайте следующую дорогу осознанно"
+              "uz": "Keyingi yo‘lni ongli tanlang"
+            "description":
+              "en": "Seven Lakes and Iskanderkul pull the route in different directions. Treat one as the next clear move unless there is enough time and current road information for more."
+              "ru": "Семь озёр и Искандеркуль ведут маршрут в разные стороны. Лучше выбрать одно ясное продолжение, если нет достаточно времени и свежей информации о дороге."
+              "uz": "Yetti ko‘l va Iskandarko‘l yo‘nalishni ikki tomonga tortadi. Vaqt va yo‘l haqidagi yangi ma’lumot yetarli bo‘lmasa, bitta aniq davomni tanlash yaxshiroq."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Let Penjikent clarify the valley first, then continue with one mountain direction that fits the season and pace."
+              "ru": "Сначала Пенджикент помогает понять долину, затем маршрут продолжается в одном горном направлении, которое подходит сезону и темпу."
+              "uz": "Avval Panjikent vodiy ma’nosini ochadi, keyin yo‘l mavsum va sur’atga mos bitta tog‘ tomonga davom etadi."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Stay"
+                  "ru": "Коротко Ночёвка"
+                  "uz": "Qisqacha Qolish"
+                "description":
+                  "en": "One night is enough for Ancient Penjikent, Sarazm, the museum, and a town walk; a second night helps if the route continues toward Seven Lakes or Iskanderkul."
+                  "ru": "Одной ночи достаточно для древнего Пенджикента, Саразма, музея и прогулки по городу; вторая помогает, если маршрут идёт к Семи озёрам или Искандеркулю."
+                  "uz": "Bir kecha qadimiy Panjikent, Sarazm, muzey va shahar sayri uchun yetadi; yo‘l Yetti ko‘l yoki Iskandarko‘l tomonga davom etsa, ikkinchi kecha yordam beradi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main reason"
+                  "ru": "Главная причина"
+                  "uz": "Asosiy sabab"
+                "description":
+                  "en": "Ancient Penjikent and Sarazm give the town a deeper role than a road stop between Samarkand and the mountains."
+                  "ru": "Древний Пенджикент и Саразм дают городу более глубокую роль, чем дорожная остановка между Самаркандом и горами."
+                  "uz": "Qadimiy Panjikent va Sarazm shaharga Samarqand bilan tog‘lar orasidagi yo‘l to‘xtashidan chuqurroq ma’no beradi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Yoʻldagi roli"
+                "description":
+                  "en": "Penjikent links the Zeravshan Valley with Tajikistan's first mountain-road choices."
+                  "ru": "Пенджикент связывает Зеравшанскую долину с первыми горными дорогами Таджикистана."
+                  "uz": "Panjikent Zarafshon vodiysini Tojikistonning ilk tog‘ yo‘llari bilan bog‘laydi."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and pace"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va surʼat"
+                "description":
+                  "en": "Valley visits are simpler than lake roads; weather, daylight, and road condition decide how far to continue."
+                  "ru": "Долинные места проще озёрных дорог; погода, световой день и состояние дороги решают, как далеко продолжать."
+                  "uz": "Vodiy tashriflari ko‘l yo‘llaridan osonroq; ob-havo, kunduzgi vaqt va yo‘l holati qanchalik uzoq davom etishni belgilaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Where to continue"
+      "ru": "Куда продолжить"
+      "uz": "Qayerga davom etish"
+    "title":
+      "en": "Visible onward choices from Penjikent"
+      "ru": "Видимые направления после Пенджикента"
+      "uz": "Panjikentdan keyingi ko‘rinadigan yo‘llar"
+    "description":
+      "en": "After Penjikent, the journey can return to Dushanbe for museums and valley roads, or continue much farther toward Khorog and the Pamirs."
+      "ru": "После Пенджикента путь может вернуться к Душанбе с музеями и долинными дорогами или уйти намного дальше к Хорогу и Памиру."
+      "uz": "Panjikentdan keyin yo‘l Dushanbening muzeylari va vodiy yo‘llariga qaytishi yoki ancha uzoqroqqa, Xorugʻ va Pomir tomonga davom etishi mumkin."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Seven Lakes"
+          "ru": "Семь озёр"
+          "uz": "Yetti Koʻl"
+        "description":
+          "en": "Seven Lakes, or Haftkul, carries the route above Penjikent into the Shing Valley: colour-changing water, village-road pauses, and a higher climb that depends on road, weather, vehicle, and daylight."
+          "ru": "Семь озёр, или Хафткуль, ведут из Пенджикента в долину Шинг: вода меняет цвет, дорога проходит через сёла, а подъём выше зависит от дороги, погоды, машины и светового дня."
+          "uz": "Yetti Koʻl, yaʼni Haftkoʻl, Panjikentdan Shing vodiysiga olib boradi: suv rangi oʻzgaradi, yoʻl qishloqlar oralab oʻtadi, yuqoriga chiqish esa yoʻl, ob-havo, mashina va kunduzgi vaqtga bogʻliq."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/seven-lakes"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan/next/penjikent-next-iskanderkul.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Iskanderkul"
+          "ru": "Искандеркуль"
+          "uz": "Iskandarkoʻl"
+        "description":
+          "en": "Iskanderkul is the lake-area pause in the Fann Mountains: turquoise water, red-grey slopes, a waterfall side walk, and road checks before the route climbs farther."
+          "ru": "Искандеркуль — озёрная остановка в Фанских горах: бирюзовая вода, красно-серые склоны, короткий выход к водопаду и проверка дороги перед дальнейшим подъёмом."
+          "uz": "Iskandarkoʻl Fan togʻlaridagi koʻl pauzasidir: feruza suv, qizil-kulrang yonbagʻirlar, sharsharaga qisqa chiqish va yoʻl yuqoriga davom etishidan oldingi tekshiruvlar."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/iskanderkul"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Dushanbe"
+          "ru": "Душанбе"
+          "uz": "Dushanbe"
+        "description":
+          "en": "Dushanbe is Tajikistan's calm arrival city: Rudaki Avenue shade, national museums, tea-house stops, and first choices toward Hissar, Varzob, or higher valleys."
+          "ru": "Душанбе — спокойное место прибытия в Таджикистан: тень проспекта Рудаки, национальные музеи, чайхана или рынок и первые решения к Гиссару, Варзобу или высоким долинам."
+          "uz": "Dushanbe Tojikistonga sokin kirish shahri: Rudakiy xiyoboni soyasi, milliy muzeylar, choyxona toʻxtashlari va Hisor, Varzob yoki baland vodiylar tomon ilk tanlovlar."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/dushanbe"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Khorog"
+          "ru": "Хорог"
+          "uz": "Xorugʻ"
+        "description":
+          "en": "Khorog gives the Pamir route a riverside town stop: Botanical Garden paths, Panj and Gunt river air, GBAO checks, and onward choices toward Wakhan, Bartang, or Murghab."
+          "ru": "Хорог даёт памирскому маршруту городскую остановку у рек: дорожки Ботанического сада, воздух Пянджа и Гунта, проверки ГБАО и выбор дороги к Вахану, Бартангу или Мургабу."
+          "uz": "Xorugʻ Pomir yoʻliga daryo bo‘yidagi shahar toʻxtashini beradi: Botanika bogʻi yoʻlaklari, Panj va Gunt havosi, GBAO tekshiruvlari va Vaxon, Bartang yoki Murgʻob sari yoʻl tanlovi."
+        "ctaHref": "/destinations/tajikistan/pamir-and-gbao/khorog"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Penjikent in the day plan"
+      "ru": "Как поставить Пенджикент в план дня"
+      "uz": "Panjikentni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Penjikent?"
+          "ru": "Сколько времени группам стоит проводить в Пенджикент?"
+          "uz": "Panjikentda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Sogdian ruins at the road to the Fann lakes”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Согдийские руины на дороге к озёрам Фанских гор»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Fan ko‘l yo‘llaridagi Sugʻd xarobalari»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Penjikent be a walkable core or a base for day trips?"
+          "ru": "Пенджикент — это пешеходное ядро или база для выездов?"
+          "uz": "Panjikent piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Penjikent's centre?"
+          "ru": "Где лучше ночевать относительно центра Пенджикент?"
+          "uz": "Panjikent markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan/regions/fann-mountains-and-zeravshan/cities/penjikent.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Penjikent stop into your Tajikistan programme"
+      "ru": "Встройте остановку «Пенджикент» в программу (Таджикистан)"
+      "uz": "Panjikent bekatini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Penjikent | TourLink"
+    "ru": "Пенджикент | TourLink"
+    "uz": "Panjikent | TourLink"
+  "metaDescription":
+    "en": "Penjikent sits where the Zeravshan Valley changes from border road to mountain approach. Ancient walls above town, Sarazm nearby, a small museum, and a working market make the city a useful start before the Fann lake roads."
+    "ru": "Пенджикент стоит там, где Зеравшанская долина меняет пограничную дорогу на подход к горам. Древние стены над городом, Саразм рядом, небольшой музей и работающий рынок делают город важным началом перед дорогами к озёрам."
+    "uz": "Panjikent Zarafshon vodiysi chegara yo‘lidan tog‘larga kirishga o‘tadigan joyda turadi. Shahar ustidagi qadimiy devorlar, yaqin Sarazm, kichik muzey va ishlayotgan bozor uni ko‘l yo‘llaridan oldingi muhim boshlanishga aylantiradi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "fann-mountains-and-zeravshan"
+"latitude": 39.4961693
+"longitude": 67.6141456

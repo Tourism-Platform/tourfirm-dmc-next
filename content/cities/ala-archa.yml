@@ -1,0 +1,544 @@
+# Generated from scrape/kyrgyzstan (multi-locale)
+"slug":
+  "en": "ala-archa"
+  "ru": "ala-archa"
+  "uz": "ala-archa"
+"title":
+  "en": "Ala-Archa"
+  "ru": "Ала-Арча"
+  "uz": "Ala-Archa"
+"subtitle":
+  "en": "Bishkek's closest mountain valley"
+  "ru": "Ближайшая к Бишкеку горная долина"
+  "uz": "Bishkekka eng yaqin togʻ vodiysi"
+"excerpt":
+  "en": "Ala-Archa is a mountain area rather than a built city. It gives Bishkek its closest real nature outing: the road enters a river gorge, juniper slopes rise above the valley, and the right walk depends on weather, daylight, footwear, and how much elevation belongs in the route."
+  "ru": "Ала-Арча — горная территория, а не городской маршрут. Она даёт Бишкеку самый близкий настоящий выход к природе: дорога входит в речное ущелье, арчовые склоны поднимаются над долиной, а правильная прогулка зависит от погоды, светового дня, обуви и того, сколько высоты уместно в маршруте."
+  "uz": "Ala-Archa shahar emas, togʻ hududidir. U Bishkekka eng yaqin haqiqiy tabiat chiqishini beradi: yo‘l daryo darasiga kiradi, archa yonbagʻirlari vodiy ustida ko‘tariladi, to‘g‘ri yurish esa ob-havo, kunduzgi vaqt, poyabzal va yo‘nalishga qancha balandlik mos kelishiga bogʻliq."
+"heroImage": "assets/images/destinations/kyrgyzstan/regions/bishkek-and-chuy-foothills/cities/ala-archa.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kyrgyzstan/regions/bishkek-and-chuy-foothills/cities/ala-archa.webp"
+    "imageAlt":
+      "en": "Ala-Archa"
+      "ru": "Ала-Арча"
+      "uz": "Ala-Archa"
+    "title":
+      "en": "Ala-Archa"
+      "ru": "Ала-Арча"
+      "uz": "Ala-Archa"
+    "description":
+      "en": "Bishkek's closest mountain valley"
+      "ru": "Ближайшая к Бишкеку горная долина"
+      "uz": "Bishkekka eng yaqin togʻ vodiysi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Ala-Archa"
+      "ru": "Ала-Арча"
+      "uz": "Ala-Archa"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Ala-Archa is a mountain area rather than a built city."
+              "ru": "Ала-Арча — горная территория, а не городской маршрут."
+              "uz": "Ala-Archa shahar emas, togʻ hududidir."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Read Ala-Archa through movement rather than streets: start in Bishkek, drive south to the official park access area, choose one realistic walk, then return to the capital or leave Chuy heritage for a separate route."
+              "ru": "Ала-Арчу лучше читать через движение, а не через улицы: начните в Бишкеке, поезжайте на юг к официальной зоне доступа в парк, выберите одну реалистичную прогулку, затем вернитесь в столицу или оставьте наследие Чуя для отдельного маршрута."
+              "uz": "Ala-Archani ko‘chalar orqali emas, harakat orqali o‘qing: Bishkekdan boshlang, janubga rasmiy park kirish hududiga boring, bitta real yurishni tanlang, keyin poytaxtga qayting yoki Chuy merosini alohida yo‘nalishga qoldiring."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Ala-Archa can be short and beautiful, but it loses clarity when every trail name and Chuy continuation is crowded into the same visit."
+              "ru": "Ала-Арча может быть короткой и красивой, но теряет ясность, когда каждое название тропы и каждое продолжение по Чую пытаются вместить в один визит."
+              "uz": "Ala-Archa qisqa va chiroyli bo‘lishi mumkin, lekin har bir so‘qmoq nomi va Chuydagi har bir davom bitta tashrifga tiqilsa, yo‘nalish xiralashadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Ala-Archa as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Ала-Арча как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Ala-Archa o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Bishkek, park access, then one mountain choice"
+      "ru": "Бишкек, вход в парк и один горный выбор"
+      "uz": "Bishkek, park kirishi va bitta togʻ tanlovi"
+    "description":
+      "en": "Read Ala-Archa through movement rather than streets: start in Bishkek, drive south to the official park access area, choose one realistic walk, then return to the capital or leave Chuy heritage for a separate route."
+      "ru": "Ала-Арчу лучше читать через движение, а не через улицы: начните в Бишкеке, поезжайте на юг к официальной зоне доступа в парк, выберите одну реалистичную прогулку, затем вернитесь в столицу или оставьте наследие Чуя для отдельного маршрута."
+      "uz": "Ala-Archani ko‘chalar orqali emas, harakat orqali o‘qing: Bishkekdan boshlang, janubga rasmiy park kirish hududiga boring, bitta real yurishni tanlang, keyin poytaxtga qayting yoki Chuy merosini alohida yo‘nalishga qoldiring."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Yoʻnalish xaritasi"
+      "title":
+        "en": "Bishkek, Ala-Archa, and the Chuy continuation"
+        "ru": "Бишкек, Ала-Арча и продолжение по Чую"
+        "uz": "Bishkek, Ala-Archa va Chuy davomi"
+      "description":
+        "en": "The map keeps the area clear: Bishkek is the usual start, Ala-Archa is the mountain turn, and Tokmok belongs to a different Chuy heritage move."
+        "ru": "Карта помогает удержать логику: Бишкек — обычное начало, Ала-Арча — горный поворот, а Токмок относится к другому движению по наследию Чуя."
+        "uz": "Xarita hudud mantiqini aniq tutadi: Bishkek odatiy boshlanish, Ala-Archa togʻ burilishi, Toqmoq esa boshqa Chuy merosi harakati."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 42.789148
+      "longitude": 74.798908
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "ala-archa-national-park"
+    "aside":
+      "eyebrow":
+        "en": "Route rhythm"
+        "ru": "Ритм маршрута"
+        "uz": "Yoʻnalish ritmi"
+      "title":
+        "en": "Keep the mountain outing clear"
+        "ru": "Держите горный выход ясным"
+        "uz": "Togʻ chiqishini aniq tuting"
+      "description":
+        "en": "Ala-Archa can be short and beautiful, but it loses clarity when every trail name and Chuy continuation is crowded into the same visit."
+        "ru": "Ала-Арча может быть короткой и красивой, но теряет ясность, когда каждое название тропы и каждое продолжение по Чую пытаются вместить в один визит."
+        "uz": "Ala-Archa qisqa va chiroyli bo‘lishi mumkin, lekin har bir so‘qmoq nomi va Chuydagi har bir davom bitta tashrifga tiqilsa, yo‘nalish xiralashadi."
+      "items":
+        - "title":
+            "en": "Bishkek first"
+            "ru": "Сначала Бишкек"
+            "uz": "Avval Bishkek"
+          "description":
+            "en": "Most routes begin and end in Bishkek, so the park visit should respect traffic, daylight, and the return drive."
+            "ru": "Большинство маршрутов начинается и заканчивается в Бишкеке, поэтому визит в парк должен учитывать трафик, световой день и обратную дорогу."
+            "uz": "Ko‘p yo‘nalishlar Bishkekdan boshlanib, Bishkekka qaytadi; shuning uchun park tashrifi transport, kunduzgi vaqt va qaytish yo‘lini hisobga olishi kerak."
+        - "title":
+            "en": "Enter the gorge"
+            "ru": "Войти в ущелье"
+            "uz": "Daraga kiring"
+          "description":
+            "en": "Use the official park access point as the practical threshold before choosing how far into the valley to go."
+            "ru": "Используйте официальный вход в парк как практический порог перед выбором, насколько далеко идти по долине."
+            "uz": "Vodiy ichida qanchalik uzoq borishni tanlashdan oldin rasmiy park kirishini amaliy chegara sifatida oling."
+        - "title":
+            "en": "Choose one level"
+            "ru": "Выбрать один уровень"
+            "uz": "Bitta darajani tanlang"
+          "description":
+            "en": "A river path, viewpoint, waterfall route, and higher trail are different visits; choose by current conditions."
+            "ru": "Речная тропа, видовая точка, водопадный маршрут и тропа выше — разные визиты; выбирайте по текущим условиям."
+            "uz": "Daryo yo‘li, manzara nuqtasi, sharshara yo‘nalishi va yuqoriroq so‘qmoq bir xil tashrif emas; joriy sharoitga qarab tanlang."
+        - "title":
+            "en": "Return or separate the Chuy road"
+            "ru": "Вернуться или отделить Чуйскую дорогу"
+            "uz": "Qayting yoki Chuy yo‘lini ajrating"
+          "description":
+            "en": "Burana and Tokmok work better as a focused Chuy heritage move than as an automatic add-on after the park."
+            "ru": "Бурана и Токмок лучше работают как отдельное движение по наследию Чуя, а не как автоматическое продолжение после парка."
+            "uz": "Burana va Toqmoq parkdan keyingi avtomatik davom emas, alohida Chuy merosi harakati sifatida yaxshiroq ishlaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrish"
+    "title":
+      "en": "The park is the main attraction"
+      "ru": "Парк — главная достопримечательность"
+      "uz": "Park — asosiy diqqatga sazovor joy"
+    "description":
+      "en": "Ala-Archa National Park is the attraction that makes this area clear. The gorge, river paths, and higher routes should stay inside that park story until separate trail access and safety review justify more public pages."
+      "ru": "Национальный парк Ала-Арча — достопримечательность, которая делает эту территорию понятной. Ущелье, речные тропы и маршруты выше должны оставаться внутри истории парка, пока доступ к отдельным тропам и безопасность не будут готовы для отдельных страниц."
+      "uz": "Ala-Archa milliy bogʻi bu hududni tushunarli qiladigan diqqatga sazovor joydir. Dara, daryo yo‘llari va yuqoriroq yo‘nalishlar alohida so‘qmoq kirishi va xavfsizlik tekshiruvi tayyor bo‘lmaguncha park hikoyasi ichida qolishi kerak."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/bishkek-and-chuy-foothills/cities/ala-archa/attractions/ala-archa-national-park.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Ala-Archa National Park"
+          "ru": "Национальный парк Ала-Арча"
+          "uz": "Ala-Archa milliy bogʻi"
+        "description":
+          "en": "Ala-Archa is often the first place where travelers feel the Tian Shan after Bishkek. The road leaves the city for a river gorge, juniper slopes, and high ridges that can look close until the weather changes. It is easy to reach, but the park still asks for the right shoes, enough"
+          "ru": "Ала-Арча часто становится первым местом, где после Бишкека чувствуется Тянь-Шань. Дорога уводит город к речному ущелью, арчовым склонам и высоким гребням, которые кажутся близкими, пока не меняется погода. Доехать сюда легко, но парку всё равно нужны правильная обувь, достаточный"
+          "uz": "Ala-Archa ko‘p sayohatchilar uchun Bishkekdan keyin Tyan-Shanni birinchi his qiladigan joydir. Yo‘l shaharni daryo darasi, archa yonbagʻirlari va ob-havo o‘zgarganda yaqinligi boshqacha seziladigan baland qirralarga olib chiqadi. Bu yerga yetib borish oson, lekin bogʻ baribir mos"
+        "ctaHref": "/destinations/kyrgyzstan/bishkek-and-chuy-foothills/ala-archa/ala-archa-national-park"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City rhythm"
+      "ru": "Ритм места"
+      "uz": "Hudud ritmi"
+    "title":
+      "en": "Three ways the mountain changes the route"
+      "ru": "Три способа, которыми горы меняют маршрут"
+      "uz": "Togʻ yo‘nalishni o‘zgartiradigan uch lahza"
+    "description":
+      "en": "Ala-Archa becomes a real route moment when the traveler hears the river after the city, slows under the trees, and chooses a walk that fits the weather instead of chasing a list."
+      "ru": "Ала-Арча становится живым маршрутным моментом, когда путешественник слышит реку после города, замедляется под деревьями и выбирает прогулку по погоде, а не по списку."
+      "uz": "Ala-Archa sayohatchi shahardan keyin daryoni eshitganda, daraxtlar ostida sekinlashganda va ro‘yxat ortidan quvmay, ob-havoga mos yurishni tanlaganda jonli yo‘nalish lahzasiga aylanadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "River noise after Bishkek"
+          "ru": "Шум реки после Бишкека"
+          "uz": "Bishkekdan keyingi daryo shovqini"
+        "description":
+          "en": "The city fades quickly once the road enters the gorge. Water comes first, then the valley opens enough for the mountains to feel close."
+          "ru": "Город быстро отступает, когда дорога входит в ущелье. Сначала слышна вода, затем долина раскрывается настолько, что горы кажутся близкими."
+          "uz": "Yo‘l daraga kirganda shahar tez ortda qoladi. Avval suv eshitiladi, keyin vodiy tog‘larni yaqin his qildiradigan darajada ochiladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Juniper shade in the gorge"
+          "ru": "Арчовая тень в ущелье"
+          "uz": "Daradagi archa soyasi"
+        "description":
+          "en": "Short walks can still feel complete when the route stays with the river, trees, and slope instead of rushing toward a higher trail."
+          "ru": "Короткие прогулки тоже могут быть полноценными, если маршрут остаётся с рекой, деревьями и склоном, а не торопится к более высокой тропе."
+          "uz": "Yo‘nalish daryo, daraxtlar va yonbagʻir bilan qolsa, qisqa yurish ham to‘liq sezilishi mumkin; har safar yuqoriroq so‘qmoqqa shoshish shart emas."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "A walk chosen for the weather"
+          "ru": "Прогулка, выбранная по погоде"
+          "uz": "Ob-havoga qarab tanlangan yurish"
+        "description":
+          "en": "The strongest Ala-Archa visit is not the longest one. It is the walk that matches daylight, shoes, forecast, and the traveler's energy."
+          "ru": "Самый сильный визит в Ала-Арчу — не самый длинный. Это прогулка, которая совпадает со световым днём, обувью, прогнозом и силами путешественника."
+          "uz": "Eng kuchli Ala-Archa tashrifi eng uzuni emas. U kunduzgi vaqt, poyabzal, prognoz va sayohatchining kuchiga mos keladigan yurishdir."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "Treat the mountain outing as a choice, not a checklist"
+      "ru": "Отнеситесь к горному выходу как к выбору, а не к списку"
+      "uz": "Togʻ chiqishini ro‘yxat emas, tanlov deb biling"
+    "description":
+      "en": "Ala-Archa is close to Bishkek, but closeness should not make the visit careless. The area reads best when the route gives it one clear job: bring the traveler into the Tian Shan and choose a walking level with care."
+      "ru": "Ала-Арча близко к Бишкеку, но близость не должна делать визит беспечным. Территория читается лучше всего, когда маршрут даёт ей одну ясную задачу: вывести путешественника к Тянь-Шаню и внимательно выбрать уровень прогулки."
+      "uz": "Ala-Archa Bishkekka yaqin, ammo yaqinlik tashrifni beparvo qilmasligi kerak. Hudud yo‘nalishda bitta aniq vazifa bajarganda yaxshi o‘qiladi: sayohatchini Tyan-Shanga olib kirish va yurish darajasini diqqat bilan tanlash."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Start from the capital"
+              "ru": "Начните со столицы"
+              "uz": "Poytaxtdan boshlang"
+            "description":
+              "en": "Bishkek gives the route its natural start and return. That makes Ala-Archa easy to add, but the road, park access, and daylight still need attention."
+              "ru": "Бишкек даёт маршруту естественное начало и возвращение. Благодаря этому Ала-Арчу легко добавить, но дорога, доступ в парк и световой день всё равно требуют внимания."
+              "uz": "Bishkek yo‘nalishga tabiiy boshlanish va qaytish nuqtasini beradi. Shu sabab Ala-Archani qo‘shish oson, lekin yo‘l, park kirishi va kunduzgi vaqt baribir eʼtibor talab qiladi."
+          - "type": "quote"
+            "quote":
+              "en": "Ala-Archa is close enough for a quick mountain outing, but it becomes memorable when the route admits that mountains decide part of the plan."
+              "ru": "Ала-Арча достаточно близка для быстрого горного выезда, но запоминается тогда, когда маршрут признаёт: часть плана решают горы."
+              "uz": "Ala-Archa tez togʻ chiqishi uchun yetarlicha yaqin, lekin yo‘nalish rejaning bir qismini togʻlar hal qilishini tan olganda esda qoladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the walk realistic"
+              "ru": "Держите прогулку реалистичной"
+              "uz": "Yurishni real tuting"
+            "description":
+              "en": "A soft river walk and a higher trail ask for different shoes, timing, weather, and confidence. A casual nature outing should not be stretched into a mountain promise."
+              "ru": "Мягкая прогулка вдоль реки и тропа выше требуют разной обуви, времени, погоды и уверенности. Спокойный выезд на природу не стоит растягивать в горное обещание."
+              "uz": "Daryo bo‘yidagi yengil yurish va yuqoriroq so‘qmoq turli poyabzal, vaqt, ob-havo va ishonch talab qiladi. Sokin tabiat chiqishini togʻ vaʼdasiga aylantirib yubormang."
+          - "type": "dashTitle"
+            "title":
+              "en": "Leave higher routes for the right day"
+              "ru": "Оставьте маршруты выше для подходящего дня"
+              "uz": "Yuqoriroq yo‘llarni mos kunga qoldiring"
+            "description":
+              "en": "Ak-Sai Waterfall, Ratsek Hut, glacier views, and winter access belong in the conversation only when current conditions, fitness, and local guidance support them."
+              "ru": "Водопад Ак-Сай, хижина Рацека, виды на ледники и зимний доступ уместны в разговоре только тогда, когда текущие условия, форма путешественника и местное сопровождение это поддерживают."
+              "uz": "Ak-Sai sharsharasi, Ratsek kulbasi, muzlik manzaralari va qishki kirish faqat joriy sharoit, jismoniy tayyorgarlik va mahalliy yo‘l-yo‘riq mos bo‘lganda suhbatga kiradi."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Что важно для путешественника"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Use Ala-Archa for the first mountain feeling near Bishkek, then let conditions decide how far the walk goes."
+              "ru": "Используйте Ала-Арчу для первого горного ощущения рядом с Бишкеком, а дальше пусть условия решат, насколько далеко идти."
+              "uz": "Ala-Archani Bishkek yaqinidagi birinchi togʻ hissi uchun tanlang, keyin qancha yurishni sharoit belgilasin."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Route role"
+                  "ru": "Коротко Роль в маршруте"
+                  "uz": "Qisqacha Yoʻnalishdagi roli"
+                "description":
+                  "en": "The area gives the capital a real Tian Shan turn without a long expedition."
+                  "ru": "Территория даёт столице настоящий поворот к Тянь-Шаню без долгой экспедиции."
+                  "uz": "Hudud poytaxtga uzoq ekspeditsiyasiz haqiqiy Tyan-Shan burilishini beradi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main anchor"
+                  "ru": "Главный ориентир"
+                  "uz": "Asosiy tayanch"
+                "description":
+                  "en": "The park, gorge, river, and ridges carry the public visit."
+                  "ru": "Парк, ущелье, река и гребни держат публичный визит."
+                  "uz": "Park, dara, daryo va qirralar ommaviy tashrifni ushlab turadi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Visit style"
+                  "ru": "Формат визита"
+                  "uz": "Tashrif shakli"
+                "description":
+                  "en": "A short walk and a longer hike need different timing."
+                  "ru": "Короткая прогулка и более длинный маршрут требуют разного времени."
+                  "uz": "Qisqa yurish va uzunroq yo‘l turli vaqt talab qiladi."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and weather"
+                  "ru": "Сезон и погода"
+                  "uz": "Mavsum va ob-havo"
+                "description":
+                  "en": "Snow, heat, wind, road condition, and daylight shape the route."
+                  "ru": "Снег, жара, ветер, состояние дороги и световой день формируют маршрут."
+                  "uz": "Qor, issiq, shamol, yo‘l holati va kunduzgi vaqt yo‘nalishni shakllantiradi."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Next move"
+                  "ru": "Следующий шаг"
+                  "uz": "Keyingi qadam"
+                "description":
+                  "en": "Keep Chuy heritage and lake roads as separate decisions when time is tight."
+                  "ru": "Когда времени мало, наследие Чуя и дорогу к озеру лучше держать отдельными решениями."
+                  "uz": "Vaqt tig‘iz bo‘lsa, Chuy merosi va ko‘l yo‘lini alohida qaror sifatida tuting."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqinda"
+    "title":
+      "en": "Back to Bishkek, east to Tokmok, or onward to Issyk-Kul"
+      "ru": "Назад в Бишкек, на восток к Токмоку или дальше к Иссык-Кулю"
+      "uz": "Bishkekka qaytish, sharqqa Toqmoqqa yoki Issiqkoʻlga davom etish"
+    "description":
+      "en": "Bishkek is the natural return point after Ala-Archa. Tokmok belongs when the next route choice is Chuy heritage, while Karakol belongs to a wider Issyk-Kul and mountain continuation."
+      "ru": "Бишкек — естественная точка возвращения после Ала-Арчи. Токмок уместен, когда следующий выбор маршрута — наследие Чуя, а Каракол относится к более широкому продолжению по Иссык-Кулю и горам."
+      "uz": "Ala-Archadan keyin Bishkek tabiiy qaytish nuqtasi. Keyingi tanlov Chuy merosi bo‘lsa, Toqmoq mos keladi; Qorako‘l esa Issiqko‘l va togʻlar bo‘ylab kengroq davomga tegishli."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/ala-archa-next-bishkek.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Bishkek"
+          "ru": "Бишкек"
+          "uz": "Bishkek"
+        "description":
+          "en": "Bishkek gives Kyrgyzstan a calm first frame: Ala-Too Square, Osh Bazaar, museum time, cafe streets, and quick roads to the Chuy foothills."
+          "ru": "Бишкек даёт Кыргызстану спокойный старт: площадь Ала-Тоо, Ошский базар, музейное время, кафе и быстрые дороги к Чуйским предгорьям."
+          "uz": "Bishkek Qirgʻizistonga xotirjam boshlanish beradi: Ala-Too maydoni, Oʻsh bozori, muzey vaqti, kafe koʻchalari hamda Chuy etaklariga tez yoʻllar."
+        "ctaHref": "/destinations/kyrgyzstan/bishkek-and-chuy-foothills/bishkek"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/ala-archa-next-tokmok.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Tokmok"
+          "ru": "Токмок"
+          "uz": "Toqmoq"
+        "description":
+          "en": "Tokmok gives the road east of Bishkek a clear Chuy Valley anchor: Burana Tower, Balasagun archaeology, open fields, and a route choice before Issyk-Kul or later Silk Road sites."
+          "ru": "Токмок даёт дороге восточнее Бишкека ясный ориентир Чуйской долины: башню Бурану, археологию Баласагуна, открытые поля и выбор перед Иссык-Кулем или более поздними точками Шёлкового пути."
+          "uz": "Toqmoq Bishkekdan sharqqa ketadigan yoʻlga aniq Chuy vodiysi tayanchini beradi: Burana minorasi, Balasagʻun arxeologiyasi, ochiq dalalar va Issiqkoʻl yoki keyingi Ipak yoʻli joylari oldidan yoʻnalish tanlovi."
+        "ctaHref": "/destinations/kyrgyzstan/bishkek-and-chuy-foothills/tokmok"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/ala-archa-next-karakol.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Karakol"
+          "ru": "Каракол"
+          "uz": "Qorakoʻl"
+        "description":
+          "en": "Karakol anchors eastern Issyk-Kul with Dungan food, timber religious landmarks, guesthouse streets, museum context, and measured choices toward valleys, hot springs, and high trails."
+          "ru": "Каракол держит восточный Иссык-Куль: дунганская еда, деревянные религиозные ориентиры, улицы гостевых домов, музейный контекст и продуманный выбор долин, источников и высоких троп."
+          "uz": "Qorakoʻl sharqiy Issiqkoʻlni ushlab turadi: dungan taomi, yogʻoch diniy moʻljallar, mehmon uylari koʻchalari, muzey konteksti hamda vodiylar, buloqlar va baland soʻqmoqlar sari puxta tanlov."
+        "ctaHref": "/destinations/kyrgyzstan/issyk-kul-and-karakol/karakol"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Ala-Archa in the day plan"
+      "ru": "Как поставить Ала-Арча в план дня"
+      "uz": "Ala-Archani kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Ala-Archa?"
+          "ru": "Сколько времени группам стоит проводить в Ала-Арча?"
+          "uz": "Ala-Archada guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Bishkek's closest mountain valley”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Ближайшая к Бишкеку горная долина»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Bishkekka eng yaqin togʻ vodiysi»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Ala-Archa be a walkable core or a base for day trips?"
+          "ru": "Ала-Арча — это пешеходное ядро или база для выездов?"
+          "uz": "Ala-Archa piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Ala-Archa's centre?"
+          "ru": "Где лучше ночевать относительно центра Ала-Арча?"
+          "uz": "Ala-Archa markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kyrgyzstan/regions/bishkek-and-chuy-foothills/cities/ala-archa.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Ala-Archa stop into your Kyrgyzstan programme"
+      "ru": "Встройте остановку «Ала-Арча» в программу (Кыргызстан)"
+      "uz": "Ala-Archa bekatini Qirgʻiziston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Ala-Archa | TourLink"
+    "ru": "Ала-Арча | TourLink"
+    "uz": "Ala-Archa | TourLink"
+  "metaDescription":
+    "en": "Ala-Archa is a mountain area rather than a built city. It gives Bishkek its closest real nature outing: the road enters a river gorge, juniper slopes rise above the valley, and the right walk depends on weather, daylight, footwear, and how much elevation belongs in the route."
+    "ru": "Ала-Арча — горная территория, а не городской маршрут. Она даёт Бишкеку самый близкий настоящий выход к природе: дорога входит в речное ущелье, арчовые склоны поднимаются над долиной, а правильная прогулка зависит от погоды, светового дня, обуви и того, сколько высоты уместно в маршруте."
+    "uz": "Ala-Archa shahar emas, togʻ hududidir. U Bishkekka eng yaqin haqiqiy tabiat chiqishini beradi: yo‘l daryo darasiga kiradi, archa yonbagʻirlari vodiy ustida ko‘tariladi, to‘g‘ri yurish esa ob-havo, kunduzgi vaqt, poyabzal va yo‘nalishga qancha balandlik mos kelishiga bogʻliq."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kyrgyzstan"
+"region": "bishkek-and-chuy-foothills"
+"latitude": 42.653648
+"longitude": 74.4979

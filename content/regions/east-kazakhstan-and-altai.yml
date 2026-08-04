@@ -1,0 +1,451 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "east-kazakhstan-and-altai"
+  "ru": "east-kazakhstan-and-altai"
+  "uz": "east-kazakhstan-and-altai"
+"title":
+  "en": "East Kazakhstan & Altai"
+  "ru": "Восточный Казахстан и Алтай"
+  "uz": "Sharqiy Qozogʻiston va Oltay"
+"subtitle":
+  "en": "Irtysh cities, Altai forests, and mountain roads"
+  "ru": "Города Иртыша, леса Алтая и горные дороги"
+  "uz": "Irtish shaharlari, Oltay oʻrmonlari va togʻ yoʻllari"
+"excerpt":
+  "en": "At Oskemen, the Irtysh and Ulba meet before the roads begin rising toward Altai forests. Semey adds literature, memory, and river-city context, while Katon-Karagay and Ridder pull the route toward protected valleys, high lakes, village honey, and weather that can change the pace.
+
+
+    This is Kazakhstan beyond the first city-and-steppe route. It needs space: city anchors first, then selected mountain roads, with local checks for protected areas, border proximity, road condition, and season before the eastern leg is fixed."
+  "ru": "В Усть-Каменогорске Иртыш и Ульба сходятся перед дорогами, которые начинают подниматься к алтайским лесам. Семей добавляет литературу, память и речной город, а Катон-Карагай и Риддер уводят маршрут к охраняемым долинам, высоким озёрам, деревенскому мёду и погоде, которая может менять темп.
+
+
+    Этот регион подходит тем, кто хочет увидеть Казахстан дальше первого городского и степного маршрута. Восточный участок лучше оставлять просторным: сначала городские опоры, затем выбранные горные дороги, с проверкой охраняемых территорий, близости границы, состояния дорог и сезона до фиксации маршрута."
+  "uz": "Oʻskemenda Irtish va Ulba daryolari Oltay oʻrmonlari tomon ko‘tariladigan yo‘llar oldidan uchrashadi. Semey adabiyot, xotira va daryo shahri ohangini qo‘shadi; Katon-Qaragʻay va Ridder esa yoʻnalishni qoʻriqlanadigan vodiylar, baland koʻllar, qishloq asali va surʼatni oʻzgartiradigan ob-havo tomon olib boradi.
+
+
+    Bu hudud Qozogʻistonni birinchi shahar va dasht yoʻnalishidan keyin chuqurroq ko‘rmoqchi bo‘lgan sayohatchilar uchun. Sharqiy qismni keng tutish kerak: avval shahar tayanchlari, keyin tanlangan togʻ yoʻllari; qoʻriqlanadigan hududlar, chegara yaqinligi, yoʻl holati va mavsum joyida tekshiriladi."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "East Kazakhstan & Altai"
+      "ru": "Восточный Казахстан и Алтай"
+      "uz": "Sharqiy Qozogʻiston va Oltay"
+    "title":
+      "en": "East Kazakhstan & Altai"
+      "ru": "Восточный Казахстан и Алтай"
+      "uz": "Sharqiy Qozogʻiston va Oltay"
+    "description":
+      "en": "Irtysh cities, Altai forests, and mountain roads"
+      "ru": "Города Иртыша, леса Алтая и горные дороги"
+      "uz": "Irtish shaharlari, Oltay oʻrmonlari va togʻ yoʻllari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О регионе"
+      "uz": "Hudud haqida"
+    "title":
+      "en": "East Kazakhstan & Altai"
+      "ru": "Восточный Казахстан и Алтай"
+      "uz": "Sharqiy Qozogʻiston va Oltay"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "At Oskemen, the Irtysh and Ulba meet before the roads begin rising toward Altai forests."
+              "ru": "В Усть-Каменогорске Иртыш и Ульба сходятся перед дорогами, которые начинают подниматься к алтайским лесам."
+              "uz": "Oʻskemenda Irtish va Ulba daryolari Oltay oʻrmonlari tomon ko‘tariladigan yo‘llar oldidan uchrashadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "The route comes into focus through four anchors: Oskemen for arrival, Semey for literature and the Irtysh, Katon-Karagay for the Altai nature route, and Ridder when the northern mountain road fits the season."
+              "ru": "Регион становится понятным через четыре опоры: Усть-Каменогорск для прибытия, Семей для литературы и Иртыша, Катон-Карагай для алтайской природы и Риддер, если северная горная дорога подходит по сезону."
+              "uz": "Hudud to‘rt tayanch orqali tushunarli bo‘ladi: kelish uchun Oʻskemen, adabiyot va Irtish uchun Semey, Oltay tabiat yoʻnalishi uchun Katon-Qaragʻay, mavsum mos kelsa shimoliy togʻ yoʻli uchun Ridder."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Distances, mountain weather, protected-area rules, and border proximity should be clear before the route leaves the cities."
+              "ru": "Расстояния, горная погода, правила охраняемых территорий и близость границы должны быть понятны до выезда из городов."
+              "uz": "Masofa, togʻ ob-havosi, qoʻriqlanadigan hudud qoidalari va chegara yaqinligi shaharlardan chiqishdan oldin aniq bo‘lishi kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need East Kazakhstan & Altai as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Восточный Казахстан и Алтай как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Sharqiy Qozogʻiston va Oltay o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "Oskemen first, then Irtysh and Altai choices"
+      "ru": "Сначала Усть-Каменогорск, затем Иртыш и Алтай"
+      "uz": "Avval Oʻskemen, keyin Irtish va Oltay tanlovi"
+    "description":
+      "en": "The route comes into focus through four anchors: Oskemen for arrival, Semey for literature and the Irtysh, Katon-Karagay for the Altai nature route, and Ridder when the northern mountain road fits the season."
+      "ru": "Регион становится понятным через четыре опоры: Усть-Каменогорск для прибытия, Семей для литературы и Иртыша, Катон-Карагай для алтайской природы и Риддер, если северная горная дорога подходит по сезону."
+      "uz": "Hudud to‘rt tayanch orqali tushunarli bo‘ladi: kelish uchun Oʻskemen, adabiyot va Irtish uchun Semey, Oltay tabiat yoʻnalishi uchun Katon-Qaragʻay, mavsum mos kelsa shimoliy togʻ yoʻli uchun Ridder."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route anchors"
+        "ru": "Опоры маршрута"
+        "uz": "Yoʻnalish tayanchlari"
+      "title":
+        "en": "Irtysh cities and Altai road anchors"
+        "ru": "Города Иртыша и алтайские дороги"
+        "uz": "Irtish shaharlari va Oltay yoʻl tayanchlari"
+      "description":
+        "en": "The map holds the region's public route shape: Oskemen and Semey on the Irtysh side, Katon-Karagay in the protected Altai landscape, and Ridder as a northern mountain extension."
+        "ru": "Карта держит форму региона: Усть-Каменогорск и Семей со стороны Иртыша, Катон-Карагай в охраняемом алтайском ландшафте и Риддер как северное горное продолжение."
+        "uz": "Xarita hudud shaklini ko‘rsatadi: Irtish tomondagi Oʻskemen va Semey, qoʻriqlanadigan Oltay landshaftidagi Katon-Qaragʻay va shimoliy togʻ davomi sifatida Ridder."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 50.016867
+      "longitude": 83.268296
+    "zoom": 9
+    "stops":
+      - "entityType": "city"
+        "entitySlug": "oskemen"
+      - "entityType": "city"
+        "entitySlug": "semey"
+      - "entityType": "city"
+        "entitySlug": "katon-karagay"
+      - "entityType": "city"
+        "entitySlug": "ridder"
+    "aside":
+      "eyebrow":
+        "en": "What to decide"
+        "ru": "Что решить"
+        "uz": "Nimani hal qilish"
+      "title":
+        "en": "Keep the east spacious"
+        "ru": "Оставьте востоку достаточно пространства"
+        "uz": "Sharqqa yetarli kenglik bering"
+      "description":
+        "en": "Distances, mountain weather, protected-area rules, and border proximity should be clear before the route leaves the cities."
+        "ru": "Расстояния, горная погода, правила охраняемых территорий и близость границы должны быть понятны до выезда из городов."
+        "uz": "Masofa, togʻ ob-havosi, qoʻriqlanadigan hudud qoidalari va chegara yaqinligi shaharlardan chiqishdan oldin aniq bo‘lishi kerak."
+      "items":
+        - "title":
+            "en": "Start with Oskemen"
+            "ru": "Начните с Усть-Каменогорска"
+            "uz": "Oʻskemendan boshlang"
+          "description":
+            "en": "Flights, rail, hotels, river orientation, and supplies make Oskemen the practical opening before longer Altai roads."
+            "ru": "Перелёты, железная дорога, отели, ориентир по рекам и запасы делают Усть-Каменогорск практичным началом перед длинными алтайскими дорогами."
+            "uz": "Parvoz, temir yoʻl, mehmonxonalar, daryo orqali orientir va zarur narsalar Oʻskemenni uzun Oltay yoʻllari oldidan amaliy boshlanishga aylantiradi."
+        - "title":
+            "en": "Add Semey with care"
+            "ru": "Добавляйте Семей внимательно"
+            "uz": "Semeyni ehtiyotkor qoʻshing"
+          "description":
+            "en": "Semey brings Abai, Dostoevsky, museums, riverfront, and sensitive memory; keep the tone measured and museum details current."
+            "ru": "Семей даёт Абая, Достоевского, музеи, набережную и чувствительную память; здесь важны сдержанный тон и актуальные музейные детали."
+            "uz": "Semey Abay, Dostoyevskiy, muzeylar, daryo bo‘yi va nozik xotirani beradi; bu yerda sokin ohang va tekshirilgan muzey tafsilotlari muhim."
+        - "title":
+            "en": "Give Katon-Karagay enough time"
+            "ru": "Дайте Катон-Карагаю достаточно времени"
+            "uz": "Katon-Qaragʻayga yetarli vaqt bering"
+          "description":
+            "en": "The national-park landscape, Berel, Rakhman Springs, Markakol, and village context need season, permit, road, and border-zone checks."
+            "ru": "Национально-парковый ландшафт, Берел, Рахмановские ключи, Маркаколь и деревенский контекст требуют проверки сезона, разрешений, дорог и приграничных правил."
+            "uz": "Milliy bogʻ landshafti, Berel, Raxman buloqlari, Markakoʻl va qishloq konteksti mavsum, ruxsat, yoʻl va chegara qoidalari tekshiruvini talab qiladi."
+        - "title":
+            "en": "Treat Ridder as a mountain branch"
+            "ru": "Считайте Риддер горной веткой"
+            "uz": "Ridderni togʻ yoʻnalishi sifatida ko‘ring"
+          "description":
+            "en": "Ridder points toward West Altai and Ivanovsky Ridge contexts, where weather, trail safety, and local guide quality matter."
+            "ru": "Риддер ведёт к контексту Западного Алтая и Ивановского хребта, где важны погода, безопасность троп и качество местного сопровождения."
+            "uz": "Ridder Gʻarbiy Oltay va Ivanovskiy tizmasi kontekstiga olib boradi; ob-havo, so‘qmoq xavfsizligi va mahalliy gid sifati muhim."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region character"
+      "ru": "Характер региона"
+      "uz": "Hudud xarakteri"
+    "title":
+      "en": "Where river cities give way to the Altai"
+      "ru": "Где речные города переходят в Алтай"
+      "uz": "Daryo shaharlari Oltayga o‘tadigan joy"
+    "description":
+      "en": "East Kazakhstan & Altai is not a quick scenic add-on. It moves from Irtysh river cities into forest, mining towns, high valleys, and protected landscapes where the road sets the rhythm.
+
+
+        «In the Altai, distance is not only a transfer; it gives the forests, rivers, and villages enough room to be understood.»"
+      "ru": "Восточный Казахстан и Алтай — не короткое живописное дополнение. Маршрут идёт от городов Иртыша к лесам, горняцким городам, высоким долинам и охраняемым ландшафтам, где дорога задаёт ритм.
+
+
+        «В Алтае расстояние — не просто трансфер; оно даёт лесам, рекам и сёлам достаточно пространства, чтобы они стали понятны.»"
+      "uz": "Sharqiy Qozogʻiston va Oltay qisqa manzarali qoʻshimcha emas. Yoʻnalish Irtish shaharlari, oʻrmonlar, konchilik shaharlari, baland vodiylar va yoʻl surʼatni belgilaydigan qoʻriqlanadigan landshaftlar orqali o‘tadi.
+
+
+        «Oltayda masofa faqat transfer emas; u oʻrmon, daryo va qishloqlarni anglash uchun yetarli kenglik beradi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region areas"
+      "ru": "Региональные точки"
+      "uz": "Hudud joylari"
+    "title":
+      "en": "Oskemen, Semey, Katon-Karagay, and Ridder"
+      "ru": "Усть-Каменогорск, Семей, Катон-Карагай и Риддер"
+      "uz": "Oʻskemen, Semey, Katon-Qaragʻay va Ridder"
+    "description":
+      "en": "Oskemen opens the region, Semey adds literary and river-city memory, Katon-Karagay carries the strongest mountain route, and Ridder remains a northern Altai branch for longer itineraries."
+      "ru": "Усть-Каменогорск открывает регион, Семей добавляет литературную и речную память, Катон-Карагай несёт самый сильный горный маршрут, а Риддер остаётся северной веткой Алтая для длинных поездок."
+      "uz": "Oʻskemen hududni ochadi, Semey adabiy va daryo xotirasini qo‘shadi, Katon-Qaragʻay eng kuchli togʻ yoʻnalishini ko‘taradi, Ridder esa uzunroq safarlar uchun shimoliy Oltay tarmogʻi bo‘lib qoladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Oskemen"
+          "ru": "Усть-Каменогорск"
+          "uz": "Oʻskemen"
+        "description":
+          "en": "Oskemen is where East Kazakhstan changes scale. The Irtysh and Ulba meet inside the city, the airport and rail links bring the route within reach, and beyond the streets the road divides toward Ridder, Katon-Karagay, and longer Altai plans. Read it as an arrival city with a river"
+          "ru": "В Усть-Каменогорске Восточный Казахстан меняет масштаб. Иртыш и Ульба сходятся внутри города, аэропорт и железная дорога делают маршрут достижимым, а за городскими улицами дорога расходится к Риддеру, Катон-Карагаю и более длинным алтайским планам. Смотрите на него как на город п"
+          "uz": "Oʻskemenda Sharqiy Qozogʻiston oʻlchami oʻzgaradi. Irtish va Ulba shahar ichida uchrashadi, aeroport va temir yoʻl yoʻnalishni yaqinlashtiradi, shahar koʻchalaridan keyin esa yoʻl Ridder, Katon-Qaragʻay va uzoqroq Oltay rejalariga ajraladi. Uni daryo chetidagi aniq vazifali kelis"
+        "ctaHref": "/destinations/kazakhstan/east-kazakhstan-and-altai/oskemen"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Semey"
+          "ru": "Семей"
+          "uz": "Semey"
+        "description":
+          "en": "Semey is more than a short note on the way to the Altai. The Irtysh gives the city its visible line; Abai and Dostoevsky give the visit a literary center; local museums help the route slow without turning painful history into spectacle. Approach Semey as a measured cultural stop:"
+          "ru": "Семей — не короткая сноска на пути к Алтаю. Иртыш даёт городу видимый край, Абай и Достоевский задают литературный центр, а музеи помогают замедлить маршрут без превращения сложной истории в зрелище. Смотрите на Семей как на размеренную культурную остановку: одна прогулка у реки,"
+          "uz": "Semey Oltayga borish yo‘lidagi qisqa izoh emas. Irtish shaharga aniq chekka beradi, Abay va Dostoevskiy tashrifga adabiy markaz qo‘shadi, muzeylar esa murakkab tarixni tomoshaga aylantirmasdan yo‘nalishni sekinlashtiradi. Semeyni o‘lchovli madaniy to‘xtash sifatida tuting: bitta "
+        "ctaHref": "/destinations/kazakhstan/east-kazakhstan-and-altai/semey"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Katon-Karagay"
+          "ru": "Катон-Карагай"
+          "uz": "Katon-Qaragʻay"
+        "description":
+          "en": "Katon-Karagay changes the scale of the eastern journey. After Oskemen and the Irtysh, the road moves toward dark forest, river valleys, pale mountain light, and protected Altai landscapes where weather can reshape the sequence. Come for distance, quiet, and enough time to let the"
+          "ru": "Катон-Карагай меняет масштаб восточного путешествия. После Усть-Каменогорска и Иртыша дорога уходит к тёмному лесу, речным долинам, светлым горным склонам и охраняемым алтайским ландшафтам, где погода может изменить порядок остановок. Сюда едут за расстоянием, тишиной и временем "
+          "uz": "Katon-Qaragʻay sharqiy safarning miqyosini oʻzgartiradi. Oʻskemen va Irtish ortda qolgach, yoʻl qoramtir oʻrmon, daryo vodiylari, och togʻ nuri va qoʻriqlanadigan Altay manzaralari tomon buriladi; bu yerda ob-havo toʻxtashlar ketma-ketligini oʻzgartirishi mumkin. Bu yerga masofa,"
+        "ctaHref": "/destinations/kazakhstan/east-kazakhstan-and-altai/katon-karagay"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ridder"
+          "ru": "Риддер"
+          "uz": "Ridder"
+        "description":
+          "en": "Ridder is not a polished resort stop. It is a working mountain town with mining memory, forest air, and roads that can change quickly with snow, weather, and local access rules.
+
+
+            Ridder fits after Oskemen when the trip is built for mountain time: a museum or town walk, a careful "
+          "ru": "Риддер — не отполированная курортная остановка. Это рабочий горный город с памятью о рудниках, лесным воздухом и дорогами, которые быстро меняются из-за снега, погоды и местных правил доступа.
+
+
+            Риддер хорошо встаёт после Усть-Каменогорска, когда поездка рассчитана на горное время"
+          "uz": "Ridder silliq kurort to‘xtashi emas. Bu konlar xotirasi, oʻrmon havosi va qor, ob-havo hamda mahalliy kirish qoidalari bilan tez o‘zgaradigan yoʻllari bor ishchi togʻ shahri.
+
+
+            Ridder safar togʻ vaqtiga qurilganda Oʻskemendan keyin mos tushadi: muzey yoki shahar sayri, Gʻarbiy Olt"
+        "ctaHref": "/destinations/kazakhstan/east-kazakhstan-and-altai/ridder"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Irtysh museums, Altai forests, and mountain routes"
+      "ru": "Музеи Иртыша, леса Алтая и горные маршруты"
+      "uz": "Irtish muzeylari, Oltay oʻrmonlari va togʻ yoʻllari"
+    "description":
+      "en": "This region is not revealed by one monument sequence. Its route includes Oskemen's riverfront and museums, Semey's literary memory, Katon-Karagay National Park, Berel, Rakhman Springs, Markakol, Bukhtarma, and Ridder's mountain edge."
+      "ru": "Этот регион раскрывает не одна цепочка памятников. Здесь соединяются набережные и музеи Усть-Каменогорска, литературная память Семея, Катон-Карагайский национальный парк, Берел, Рахмановские ключи, Маркаколь, Бухтарма и горная окраина Риддера."
+      "uz": "Bu hududni bitta yodgorlik zanjiri ochmaydi. Oʻskemen daryo bo‘yi va muzeylari, Semey adabiy xotirasi, Katon-Qaragʻay milliy bogʻi, Berel, Raxman buloqlari, Markakoʻl, Buxtarma va Ridderning togʻ chekkasi birga yoʻnalish ma’nosini beradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Katon-Karagay National Park"
+          "ru": "Катон-Карагайский национальный парк"
+          "uz": "Katon-Qaragʻay milliy bogʻi"
+        "description":
+          "en": "The park changes the scale of East Kazakhstan. After Oskemen and the Irtysh cities, the route moves toward forest, river valleys, mountain weather, and a protected landscape where distance is part of the experience. Treat Katon-Karagay as the Altai reason to slow down, not as one"
+          "ru": "Парк меняет масштаб Восточного Казахстана. После Усть-Каменогорска и городов на Иртыше маршрут уходит к лесу, речным долинам, горной погоде и охраняемому ландшафту, где расстояние становится частью впечатления. Катон-Карагай стоит воспринимать как алтайскую причину замедлиться, а"
+          "uz": "Bogʻ Sharqiy Qozogʻiston miqyosini oʻzgartiradi. Oʻskemen va Irtish shaharlari ortda qolgach, yoʻnalish oʻrmon, daryo vodiylari, togʻ ob-havosi va qoʻriqlanadigan manzaraga kiradi; bu yerda masofaning oʻzi taassurotning bir qismidir. Katon-Qaragʻayni shahardan keyingi yana bir to"
+        "ctaHref": "/destinations/kazakhstan/east-kazakhstan-and-altai/katon-karagay/katon-karagay-national-park"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region in detail"
+      "ru": "Регион в деталях"
+      "uz": "Hudud batafsil"
+    "title":
+      "en": "Practical questions about East Kazakhstan & Altai"
+      "ru": "Практические вопросы о регионе Восточный Казахстан и Алтай"
+      "uz": "Sharqiy Qozogʻiston va Oltay hududi bo‘yicha amaliy savollar"
+    "description":
+      "en": "Pace, season, and how this region connects to the next stop."
+      "ru": "Темп, сезон и как регион стыкуется со следующей остановкой."
+      "uz": "Sur’at, mavsum va hududning keyingi bekat bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many days does East Kazakhstan & Altai need in a programme?"
+          "ru": "Сколько дней нужно региону Восточный Казахстан и Алтай в программе?"
+          "uz": "Sharqiy Qozogʻiston va Oltay hududi dasturda necha kun olishi kerak?"
+        "description":
+          "en": "2–3 days usually works if you keep one strong core and treat outer stops as deliberate choices. The region brief is “Irtysh cities, Altai forests, and mountain roads”."
+          "ru": "Обычно хватает 2–3 дня, если держать одно сильное ядро, а внешние остановки выбирать осознанно. Кратко о регионе: «Города Иртыша, леса Алтая и горные дороги»."
+          "uz": "Odatda 2–3 kun yetadi — bitta kuchli yadro va tashqi bekatlarni ongli tanlov qiling. Hudud brifi: «Irtish shaharlari, Oltay oʻrmonlari va togʻ yoʻllari»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "What should come before and after East Kazakhstan & Altai?"
+          "ru": "Что ставить до и после региона Восточный Казахстан и Алтай?"
+          "uz": "Sharqiy Qozogʻiston va Oltaydan oldin va keyin nima qo‘yish kerak?"
+        "description":
+          "en": "Use neighbouring cities as clean handovers: arrive with a calm first night, leave after one completed chapter, and avoid stacking two long transfers on the same day."
+          "ru": "Соседние города держите как чистые стыки: приезжайте со спокойной первой ночью, уезжайте после завершённой главы и не ставьте два длинных переезда в один день."
+          "uz": "Qo‘shni shaharlarni toza ulanish sifatida tuting: sokin birinchi tun bilan keling, yakunlangan bobdan keyin chiqing va bir kunga ikkita uzun ko‘chishni qo‘ymang."
+      - "type": "destinationInsight"
+        "icon": "CloudSun"
+        "title":
+          "en": "What season logic matters most in East Kazakhstan & Altai?"
+          "ru": "Какая сезонная логика важнее всего в Восточный Казахстан и Алтай?"
+          "uz": "Sharqiy Qozogʻiston va Oltayda qaysi mavsum mantig‘i eng muhim?"
+        "description":
+          "en": "Heat, altitude, road condition, and opening hours change the product more than the brochure list. Build the region around what stays comfortable for the group that week."
+          "ru": "Жара, высота, состояние дорог и часы работы меняют продукт сильнее списка из брошюры. Собирайте регион вокруг того, что комфортно именно этой группе в эту неделю."
+          "uz": "Issiqlik, balandlik, yo‘l holati va ish soatlari broshyura ro‘yxatidan kuchliroq mahsulotni o‘zgartiradi. Hududni shu hafta guruh uchun qulay narsaga qurib chiqing."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a East Kazakhstan & Altai stop into your Kazakhstan programme"
+      "ru": "Встройте остановку «Восточный Казахстан и Алтай» в программу (Казахстан)"
+      "uz": "Sharqiy Qozogʻiston va Oltay bekatini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right extensions — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать нужные расширения — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va kerakli kengaytmalarni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "East Kazakhstan & Altai | TourLink"
+    "ru": "Восточный Казахстан и Алтай | TourLink"
+    "uz": "Sharqiy Qozogʻiston va Oltay | TourLink"
+  "metaDescription":
+    "en": "At Oskemen, the Irtysh and Ulba meet before the roads begin rising toward Altai forests. Semey adds literature, memory, and river-city context, while Katon-Karagay and Ridder pull the route toward protected valleys, high lakes, village honey, and weather that can change the pace.
+
+
+      This is Kazakhstan beyond the first city-and-steppe route. It needs space: city anchors first, then selected mountain roads, with local checks for protected areas, border proximity, road condition, and season before the eastern leg is fixed."
+    "ru": "В Усть-Каменогорске Иртыш и Ульба сходятся перед дорогами, которые начинают подниматься к алтайским лесам. Семей добавляет литературу, память и речной город, а Катон-Карагай и Риддер уводят маршрут к охраняемым долинам, высоким озёрам, деревенскому мёду и погоде, которая может менять темп.
+
+
+      Этот регион подходит тем, кто хочет увидеть Казахстан дальше первого городского и степного маршрута. Восточный участок лучше оставлять просторным: сначала городские опоры, затем выбранные горные дороги, с проверкой охраняемых территорий, близости границы, состояния дорог и сезона до фиксации маршрута."
+    "uz": "Oʻskemenda Irtish va Ulba daryolari Oltay oʻrmonlari tomon ko‘tariladigan yo‘llar oldidan uchrashadi. Semey adabiyot, xotira va daryo shahri ohangini qo‘shadi; Katon-Qaragʻay va Ridder esa yoʻnalishni qoʻriqlanadigan vodiylar, baland koʻllar, qishloq asali va surʼatni oʻzgartiradigan ob-havo tomon olib boradi.
+
+
+      Bu hudud Qozogʻistonni birinchi shahar va dasht yoʻnalishidan keyin chuqurroq ko‘rmoqchi bo‘lgan sayohatchilar uchun. Sharqiy qismni keng tutish kerak: avval shahar tayanchlari, keyin tanlangan togʻ yoʻllari; qoʻriqlanadigan hududlar, chegara yaqinligi, yoʻl holati va mavsum joyida tekshiriladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"mapCenter":
+  "latitude": 41.3
+  "longitude": 64.5

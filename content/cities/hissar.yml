@@ -1,0 +1,472 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "hissar"
+  "ru": "hissar"
+  "uz": "hissar"
+"title":
+  "en": "Hissar"
+  "ru": "Гиссар"
+  "uz": "Hisor"
+"subtitle":
+  "en": "A fortress town on the short road from Dushanbe"
+  "ru": "Крепостной город на коротком выезде из Душанбе"
+  "uz": "Dushanbedan qisqa yo‘ldagi qalʼa shahri"
+"excerpt":
+  "en": "Hissar changes the Dushanbe route without making it complicated. The road from the capital leads to a restored fortress gate, Old Madrasa courtyards, museum rooms, and the softer edge of the Hissar Valley. Come for one focused heritage outing, then return to the city or continue toward the valley and mountains."
+  "ru": "Гиссар меняет маршрут из Душанбе без лишней сложности. Дорога из столицы приводит к восстановленным крепостным воротам, дворам Старого медресе, музейным залам и мягкому краю Гиссарской долины. Приезжайте ради одного ясного исторического выезда, а затем возвращайтесь в город или продолжайте путь к долине и горам."
+  "uz": "Hisor Dushanbe yo‘lini ortiqcha murakkabliksiz o‘zgartiradi. Poytaxtdan yo‘l tiklangan qalʼa darvozasiga, Eski madrasa hovlilariga, muzey xonalariga va Hisor vodiysining yumshoq chetiga olib keladi. Bitta aniq tarixiy chiqish uchun keling, keyin shaharga qayting yoki vodiy va tog‘ tomonga davom eting."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "Hissar"
+      "ru": "Гиссар"
+      "uz": "Hisor"
+    "title":
+      "en": "Hissar"
+      "ru": "Гиссар"
+      "uz": "Hisor"
+    "description":
+      "en": "A fortress town on the short road from Dushanbe"
+      "ru": "Крепостной город на коротком выезде из Душанбе"
+      "uz": "Dushanbedan qisqa yo‘ldagi qalʼa shahri"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Hissar"
+      "ru": "Гиссар"
+      "uz": "Hisor"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Hissar changes the Dushanbe route without making it complicated."
+              "ru": "Гиссар меняет маршрут из Душанбе без лишней сложности."
+              "uz": "Hisor Dushanbe yo‘lini ortiqcha murakkabliksiz o‘zgartiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Keep the visit simple: leave Dushanbe, orient in Hissar, spend proper time at the fortress gate and Old Madrasa, then choose a return to the capital or a wider valley road."
+              "ru": "Держите визит простым: выехать из Душанбе, сориентироваться в Гиссаре, дать достаточно времени крепостным воротам и Старому медресе, а затем выбрать возвращение в столицу или более широкий маршрут по долине."
+              "uz": "Tashrifni oddiy saqlang: Dushanbedan chiqing, Hisorda mo‘ljal oling, qalʼa darvozasi va Eski madrasaga yetarli vaqt bering, keyin poytaxtga qaytish yoki vodiy bo‘ylab kengroq yo‘lni tanlang."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The fortress complex should carry the visit. A tea stop, road view, or return to Dushanbe can follow, but the gate, Old Madrasa, and museum rooms need the clearest time."
+              "ru": "Крепостной комплекс должен держать весь визит. Чайная остановка, вид с дороги или возвращение в Душанбе могут идти следом, но воротам, Старому медресе и музейным залам нужно самое ясное время."
+              "uz": "Qalʼa majmuasi tashrifning asosiy markazi bo‘lishi kerak. Choy to‘xtashi, yo‘l manzarasi yoki Dushanbega qaytish keyin kelishi mumkin, lekin darvoza, Eski madrasa va muzey xonalari eng aniq vaqtni olishi kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Hissar as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Гиссар как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Hisor o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "Dushanbe first, then the fortress complex"
+      "ru": "Сначала Душанбе, затем крепостной комплекс"
+      "uz": "Avval Dushanbe, keyin qalʼa majmuasi"
+    "description":
+      "en": "Keep the visit simple: leave Dushanbe, orient in Hissar, spend proper time at the fortress gate and Old Madrasa, then choose a return to the capital or a wider valley road."
+      "ru": "Держите визит простым: выехать из Душанбе, сориентироваться в Гиссаре, дать достаточно времени крепостным воротам и Старому медресе, а затем выбрать возвращение в столицу или более широкий маршрут по долине."
+      "uz": "Tashrifni oddiy saqlang: Dushanbedan chiqing, Hisorda mo‘ljal oling, qalʼa darvozasi va Eski madrasaga yetarli vaqt bering, keyin poytaxtga qaytish yoki vodiy bo‘ylab kengroq yo‘lni tanlang."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Yo‘nalish xaritasi"
+      "title":
+        "en": "Capital, town, gate, and Old Madrasa"
+        "ru": "Столица, город, ворота и Старое медресе"
+        "uz": "Poytaxt, shahar, darvoza va Eski madrasa"
+      "description":
+        "en": "Dushanbe anchors the start, Hissar marks the town, the fortress gate carries the main visit, and the Old Madrasa remains part of the same complex visit."
+        "ru": "Душанбе держит начало маршрута, Гиссар отмечает город, крепостные ворота несут главный визит, а Старое медресе остаётся частью того же комплекса."
+        "uz": "Dushanbe boshlanishni ushlab turadi, Hisor shaharni belgilaydi, qalʼa darvozasi asosiy tashrifni olib boradi, Eski madrasa esa shu majmua ichidagi qism bo‘lib qoladi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 38.520604
+      "longitude": 68.626254
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "hissar-fortress"
+    "aside":
+      "eyebrow":
+        "en": "First decision"
+        "ru": "Первое решение"
+        "uz": "Birinchi qaror"
+      "title":
+        "en": "Give the outing one center"
+        "ru": "Дайте выезду один центр"
+        "uz": "Chiqishga bitta markaz bering"
+      "description":
+        "en": "The fortress complex should carry the visit. A tea stop, road view, or return to Dushanbe can follow, but the gate, Old Madrasa, and museum rooms need the clearest time."
+        "ru": "Крепостной комплекс должен держать весь визит. Чайная остановка, вид с дороги или возвращение в Душанбе могут идти следом, но воротам, Старому медресе и музейным залам нужно самое ясное время."
+        "uz": "Qalʼa majmuasi tashrifning asosiy markazi bo‘lishi kerak. Choy to‘xtashi, yo‘l manzarasi yoki Dushanbega qaytish keyin kelishi mumkin, lekin darvoza, Eski madrasa va muzey xonalari eng aniq vaqtni olishi kerak."
+      "items":
+        - "title":
+            "en": "Start from Dushanbe"
+            "ru": "Начните из Душанбе"
+            "uz": "Dushanbedan boshlang"
+          "description":
+            "en": "Dushanbe is the practical start and return point for the short Hisor outing."
+            "ru": "Душанбе — практическое начало и точка возвращения для короткого выезда в Гиссар."
+            "uz": "Dushanbe Hisorga qisqa chiqish uchun amaliy boshlanish va qaytish nuqtasidir."
+        - "title":
+            "en": "Arrive in Hissar"
+            "ru": "Приезжайте в Гиссар"
+            "uz": "Hisorga yetib keling"
+          "description":
+            "en": "Hisor gives the trip its town and valley orientation before the fortress complex."
+            "ru": "Гиссар даёт поездке город и долину перед визитом в крепостной комплекс."
+            "uz": "Hisor qalʼa majmuasidan oldin shahar va vodiy moʻljalini beradi."
+        - "title":
+            "en": "Begin at the fortress gate"
+            "ru": "Начните с крепостных ворот"
+            "uz": "Qalʼa darvozasidan boshlang"
+          "description":
+            "en": "The fortress gate is the main anchor and deserves the first clear time in the visit."
+            "ru": "Крепостные ворота — главный якорь, которому нужно первое ясное время."
+            "uz": "Qalʼa darvozasi asosiy tayanchdir va tashrifda birinchi aniq vaqtni olishi kerak."
+        - "title":
+            "en": "Return calmly or continue by the valley road."
+            "ru": "Возвращайтесь спокойно или продолжайте по долине."
+            "uz": "Sokin qayting yoki vodiy yo‘li bo‘ylab davom eting."
+          "description":
+            "en": "Return to Dushanbe calmly or continue by the valley road only when the day supports it."
+            "ru": "Возвращайтесь в Душанбе спокойно или продолжайте по долине только когда это подходит дню."
+            "uz": "Dushanbega sokin qayting yoki faqat kun mos bo‘lsa vodiy yo‘li bo‘ylab davom eting."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Start with Hissar Fortress"
+      "ru": "Начните с Гиссарской крепости"
+      "uz": "Hisor qalʼasidan boshlang"
+    "description":
+      "en": "The visit begins with Hissar Fortress: restored gate, twin towers, Old Madrasa, museum rooms, and the open valley around the complex. The Old Madrasa belongs inside the fortress-complex visit; the museum display, Mahdumi Azam Mausoleum, and caravanserai traces need later source and access checks before they become separate public stops."
+      "ru": "Визит начинается с Гиссарской крепости: восстановленные ворота, две башни, Старое медресе, музейные залы и открытая долина вокруг комплекса. Старое медресе относится к визиту в крепостной комплекс; музейная экспозиция, мавзолей Махдуми Азам и следы караван-сарая требуют дальнейшей проверки источников и доступа, прежде чем станут отдельными публичными остановками."
+      "uz": "Tashrif Hisor qalʼasidan boshlanadi: tiklangan darvoza, ikki minora, Eski madrasa, muzey xonalari va majmua atrofidagi ochiq vodiy. Eski madrasa qalʼa majmuasi ichidagi tashrifga kiradi; muzey ekspozitsiyasi, Mahdumi Aʼzam maqbarasi va karvonsaroy izlari alohida ommaviy to‘xtash bo‘lishidan oldin keyingi manba va kirish tekshiruvlarini talab qiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Hissar Fortress"
+          "ru": "Гиссарская крепость"
+          "uz": "Hisor qalʼasi"
+        "description":
+          "en": "The gate appears first: two round towers, a high brick portal, and open ground at the edge of Hisor. It is the image most travelers remember from the short Dushanbe outing, but the visit gains meaning when you continue to the Old Madrasa, museum rooms, and the fortress grounds."
+          "ru": "Сначала видны ворота: две круглые башни, высокий кирпичный портал и открытая территория у Гиссара. Это главный образ короткой поездки из Душанбе, но визит становится содержательнее, когда вы продолжаете к старому медресе, музейным залам и территории крепости."
+          "uz": "Avval darvoza ko‘rinadi: ikki dumaloq minora, baland g‘isht peshtoq va Hisor chetidagi ochiq hudud. Bu Dushanbedan qisqa safarda ko‘p esda qoladigan manzara, lekin eski madrasa, muzey xonalari va qalʼa hududiga o‘tganda tashrif mazmunliroq bo‘ladi."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/hissar/hissar-fortress"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Hissar moments"
+      "ru": "Гиссарские моменты"
+      "uz": "Hisor lahzalari"
+    "title":
+      "en": "Gate, courtyard, and valley tea"
+      "ru": "Ворота, двор и чай в долине"
+      "uz": "Darvoza, hovli va vodiyda choy"
+    "description":
+      "en": "Hissar is strongest when the traveler has time to stand before the gate, step into the Old Madrasa courtyard, and let the return road show the valley as a lived place."
+      "ru": "Гиссар сильнее, когда у путешественника есть время постоять перед воротами, зайти во двор Старого медресе и дать обратной дороге показать долину как живое место."
+      "uz": "Hisor darvoza oldida turishga, Eski madrasa hovlisiga kirishga va qaytish yo‘li vodiyni yashab turgan joy sifatida ko‘rsatishiga vaqt bo‘lganda kuchliroq esda qoladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Gate and Old Madrasa courtyard"
+          "ru": "Ворота и двор Старого медресе"
+          "uz": "Darvoza va Eski madrasa hovlisi"
+        "description":
+          "en": "The restored portal draws the eye first; the Old Madrasa courtyard and museum rooms, when open, make the complex feel like a visit rather than one photograph."
+          "ru": "Восстановленный портал первым собирает взгляд; двор Старого медресе и музейные залы, если они открыты, превращают комплекс в настоящий визит, а не в одну фотографию."
+          "uz": "Tiklangan peshtoq birinchi bo‘lib ko‘zga tashlanadi; Eski madrasa hovlisi va ochiq bo‘lsa muzey xonalari majmuani bitta suratdan ko‘ra mazmunliroq tashrifga aylantiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Half-day from Dushanbe"
+          "ru": "Полдня из Душанбе"
+          "uz": "Dushanbedan yarim kun"
+        "description":
+          "en": "The road from Dushanbe can feel easy, but the outing is clearer when the fortress complex gets the first attention and any city stops stay secondary."
+          "ru": "Дорога из Душанбе кажется простой, но выезд получается понятнее, когда крепостной комплекс получает главное время, а городские остановки остаются вторыми."
+          "uz": "Dushanbedan yo‘l oson ko‘rinadi, lekin qalʼa majmuasiga asosiy vaqt ajratilib, shahar to‘xtashlari ikkinchi o‘rinda qolganda tashrif ravshanroq bo‘ladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Valley tea stop"
+          "ru": "Чайная остановка в долине"
+          "uz": "Vodiyda choy to‘xtashi"
+        "description":
+          "en": "If a simple tea stop or local conversation fits the day, it softens the return to Dushanbe and keeps Hissar connected to life in the valley."
+          "ru": "Если простая чайная остановка или местный разговор хорошо вписываются в программу, возвращение в Душанбе становится мягче, а Гиссар остаётся связанным с жизнью долины."
+          "uz": "Oddiy choy to‘xtashi yoki mahalliy suhbat dasturga mos kelsa, Dushanbega qaytish yumshoqroq kechadi va Hisor vodiy hayoti bilan yonma-yon qoladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Yo‘l oldidan"
+    "title":
+      "en": "Give Hissar enough attention"
+      "ru": "Дайте Гиссару достаточно внимания"
+      "uz": "Hisorga yetarli eʼtibor bering"
+    "description":
+      "en": "Because Hissar is close to Dushanbe, it is easy to treat it as a quick add-on. The visit feels better when the fortress complex has the main focus, access is checked close to the date, and the valley road is part of the plan rather than a passing view."
+      "ru": "Гиссар близко к Душанбе, поэтому его легко превратить в быстрое дополнение. Визит получается лучше, когда крепостной комплекс получает главное внимание, доступ проверен ближе к дате, а дорога по долине становится частью плана, а не случайным видом из окна."
+      "uz": "Hisor Dushanbega yaqin bo‘lgani uchun uni tez qo‘shimchaga aylantirish oson. Qalʼa majmuasi asosiy eʼtiborni olganda, kirish holati sanaga yaqin tekshirilganda va vodiy yo‘li faqat o‘tkinchi manzara emas, rejaning bir qismi bo‘lganda tashrif yaxshiroq kechadi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Begin at the main gate"
+              "ru": "Начните с главных ворот"
+              "uz": "Asosiy darvozadan boshlang"
+            "description":
+              "en": "The restored gate and two towers are the visual center. Start there, then let the guide connect the complex with the Old Madrasa and museum rooms when access allows."
+              "ru": "Восстановленные ворота и две башни — визуальный центр. Начните здесь, затем пусть гид свяжет комплекс со Старым медресе и музейными залами, если доступ позволяет."
+              "uz": "Tiklangan darvoza va ikki minora vizual markazdir. Shu yerda boshlang, keyin gid majmuani Eski madrasa va muzey xonalari bilan bog‘lasin, agar kirish imkon bo‘lsa."
+          - "type": "quote"
+            "quote":
+              "en": "Hissar is close to the capital, but the fortress gate deserves more than a quick roadside photograph."
+              "ru": "Гиссар близко к столице, но крепостные ворота заслуживают большего, чем быстрая фотография у дороги."
+              "uz": "Hisor poytaxtga yaqin, lekin qalʼa darvozasi yo‘l chetidagi tez suratdan ko‘ra ko‘proq eʼtibor talab qiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the Old Madrasa inside the fortress visit"
+              "ru": "Держите Старое медресе внутри визита в крепость"
+              "uz": "Eski madrasani qalʼa tashrifi ichida qoldiring"
+            "description":
+              "en": "The Old Madrasa belongs with the fortress-complex visit. Treat it as part of the same stop until its own access and visit details are confirmed."
+              "ru": "Старое медресе относится к визиту в крепостной комплекс. Считайте его частью той же остановки, пока его собственные условия визита не подтверждены."
+              "uz": "Eski madrasa qalʼa majmuasiga tashrif bilan birga turadi. Uning o‘z tashrif tafsilotlari tasdiqlanmaguncha, uni shu to‘xtashning bir qismi deb ko‘ring."
+          - "type": "dashTitle"
+            "title":
+              "en": "Let the return road show the valley"
+              "ru": "Пусть обратная дорога покажет долину"
+              "uz": "Qaytish yo‘li vodiyni ko‘rsatsin"
+            "description":
+              "en": "A tea stop, a slower return, or a roadside view can make Hissar feel lived-in as well as historical when local arrangements fit."
+              "ru": "Чайная остановка, более спокойное возвращение или вид с дороги могут показать Гиссар живым, а не только историческим, если местная организация подходит."
+              "uz": "Choy to‘xtashi, sekinroq qaytish yoki yo‘l manzarasi Hisorni faqat tarixiy emas, yashab turgan joy sifatida ko‘rsatishi mumkin, agar mahalliy tashkil qilish mos kelsa."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Что важно понять"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Let Hissar be one clear heritage outing from Dushanbe: gate first, Old Madrasa and museum rooms when open, then a calm return or valley stop."
+              "ru": "Сделайте Гиссар одним ясным историческим выездом из Душанбе: сначала ворота, затем Старое медресе и музейные залы, если они открыты, потом спокойное возвращение или остановка в долине."
+              "uz": "Hisorni Dushanbedan bitta aniq tarixiy chiqish sifatida ko‘ring: avval darvoza, ochiq bo‘lsa Eski madrasa va muzey xonalari, keyin sokin qaytish yoki vodiy to‘xtashi."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Yo‘l oldidan"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "Heritage town west of Dushanbe in the Hissar Valley, reached most practically from the capital."
+                  "ru": "Исторический город к западу от Душанбе в Гиссарской долине; удобнее всего ехать из столицы."
+                  "uz": "Dushanbedan g‘arbdagi Hisor vodiysida joylashgan tarixiy shahar; eng amaliy yo‘l poytaxtdan boshlanadi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main visit"
+                  "ru": "Главный визит"
+                  "uz": "Asosiy tashrif"
+                "description":
+                  "en": "Hissar Fortress, with the restored gate, Old Madrasa courtyard, museum rooms when open, and wider complex setting."
+                  "ru": "Гиссарская крепость: восстановленные ворота, двор Старого медресе, музейные залы, если они открыты, и пространство комплекса."
+                  "uz": "Hisor qalʼasi: tiklangan darvoza, Eski madrasa hovlisi, ochiq bo‘lsa muzey xonalari va majmua atrofidagi makon."
+              - "icon": "Sun"
+                "title":
+                  "en": "Time"
+                  "ru": "Время"
+                  "uz": "Vaqt"
+                "description":
+                  "en": "Plan it as a focused half-day or short heritage outing from Dushanbe, with current access checked close to the date."
+                  "ru": "Планируйте как сфокусированную поездку на полдня или короткий исторический выезд из Душанбе, с проверкой доступа ближе к дате."
+                  "uz": "Dushanbedan yarim kunlik yoki qisqa tarixiy chiqish sifatida rejalang; kirish holatini sanaga yaqin tekshiring."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and comfort"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va surʼat"
+                "description":
+                  "en": "The visit is possible in different seasons; heat, rain, event days, and local access can change the pace."
+                  "ru": "Посещение возможно в разные сезоны; жара, дождь, дни мероприятий и локальный доступ могут менять темп."
+                  "uz": "Turli mavsumlarda borish mumkin; issiq, yomg‘ir, tadbir kunlari va mahalliy kirish surʼatni o‘zgartirishi mumkin."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before travel"
+                  "ru": "Перед маршрутом"
+                  "uz": "Yo‘l oldidan"
+                "description":
+                  "en": "Confirm transport, opening/access details, guide availability, respectful behavior, and any tea or valley stop before confirming the program."
+                  "ru": "Подтвердите транспорт, актуальный доступ, возможность гида, уважительное поведение и любую чайную или долинную остановку до подтверждения программы."
+                  "uz": "Transport, joriy kirish, gid imkoniyati, hurmatli xatti-harakat va choy yoki vodiy to‘xtashi kerak bo‘lsa, uni safar tasdiqlanishidan oldin aniqlang."
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Hissar in the day plan"
+      "ru": "Как поставить Гиссар в план дня"
+      "uz": "Hisorni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Hissar?"
+          "ru": "Сколько времени группам стоит проводить в Гиссар?"
+          "uz": "Hisorda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A fortress town on the short road from Dushanbe”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Крепостной город на коротком выезде из Душанбе»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Dushanbedan qisqa yo‘ldagi qalʼa shahri»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Hissar be a walkable core or a base for day trips?"
+          "ru": "Гиссар — это пешеходное ядро или база для выездов?"
+          "uz": "Hisor piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Hissar's centre?"
+          "ru": "Где лучше ночевать относительно центра Гиссар?"
+          "uz": "Hisor markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Hissar stop into your Tajikistan programme"
+      "ru": "Встройте остановку «Гиссар» в программу (Таджикистан)"
+      "uz": "Hisor bekatini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Hissar | TourLink"
+    "ru": "Гиссар | TourLink"
+    "uz": "Hisor | TourLink"
+  "metaDescription":
+    "en": "Hissar changes the Dushanbe route without making it complicated. The road from the capital leads to a restored fortress gate, Old Madrasa courtyards, museum rooms, and the softer edge of the Hissar Valley. Come for one focused heritage outing, then return to the city or continue toward the valley and mountains."
+    "ru": "Гиссар меняет маршрут из Душанбе без лишней сложности. Дорога из столицы приводит к восстановленным крепостным воротам, дворам Старого медресе, музейным залам и мягкому краю Гиссарской долины. Приезжайте ради одного ясного исторического выезда, а затем возвращайтесь в город или продолжайте путь к долине и горам."
+    "uz": "Hisor Dushanbe yo‘lini ortiqcha murakkabliksiz o‘zgartiradi. Poytaxtdan yo‘l tiklangan qalʼa darvozasiga, Eski madrasa hovlilariga, muzey xonalariga va Hisor vodiysining yumshoq chetiga olib keladi. Bitta aniq tarixiy chiqish uchun keling, keyin shaharga qayting yoki vodiy va tog‘ tomonga davom eting."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "dushanbe-and-hissar-valley"
+"latitude": 38.5297202
+"longitude": 68.5579161

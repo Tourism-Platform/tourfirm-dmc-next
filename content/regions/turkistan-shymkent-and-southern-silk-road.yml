@@ -1,0 +1,430 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "turkistan-shymkent-and-southern-silk-road"
+  "ru": "turkistan-shymkent-and-southern-silk-road"
+  "uz": "turkistan-shymkent-and-southern-silk-road"
+"title":
+  "en": "Turkistan, Shymkent & the Southern Silk Road"
+  "ru": "Туркестан, Шымкент и южный Шёлковый путь"
+  "uz": "Turkiston, Chimkent va janubiy Ipak yoʻli"
+"subtitle":
+  "en": "Pilgrimage courtyards, bazaar cities, and the warm southern road"
+  "ru": "Паломнические дворы, базарные города и тёплая южная дорога"
+  "uz": "Ziyorat hovlilari, bozor shaharlari va iliq janubiy yoʻl"
+"excerpt":
+  "en": "South of the steppe, Kazakhstan changes temperature and pace. Shymkent gives the route a human city start: markets, food, hotels, airport access, and evenings that make the south feel close. Turkistan slows the journey around the Yasawi mausoleum and the Azret Sultan heritage setting. Otrar, Sauran, Sayram, Arystan Bab, Akyrtas, and the Western Tian Shan are not afterthoughts; they belong only when heat, distance, access, and respect are built into the route."
+  "ru": "Южнее степи Казахстан меняет температуру и темп. Шымкент даёт маршруту живое городское начало: рынки, еду, отели, аэропорт и вечера, в которых юг становится ближе. Туркестан замедляет поездку вокруг мавзолея Ясави и наследия Azret Sultan. Отрар, Сауран, Сайрам, Арыстан-Баб, Акыртас и Западный Тянь-Шань не добавки для галочки; они уместны только там, где в маршрут заложены жара, расстояния, доступ и уважительный темп."
+  "uz": "Dashtdan janubda Qozogʻistonning harorati va surʼati oʻzgaradi. Chimkent yoʻnalishga jonli shahar boshlanishini beradi: bozorlar, taom, mehmonxonalar, aeroport va janubni yaqinroq his qildiradigan oqshomlar. Turkiston safarni Yassaviy maqbarasi va Azret Sultan merosi atrofida sekinlashtiradi. Oʻtror, Sauran, Sayram, Arystan-Bab, Akyrtas va Gʻarbiy Tyan-Shan shunchaki qoʻshimcha bekatlar emas; ular issiq, masofa, kirish va hurmatli surʼat yoʻnalishga oldindan kiritilganda maʼnoli boʻladi."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "Turkistan, Shymkent & the Southern Silk Road"
+      "ru": "Туркестан, Шымкент и южный Шёлковый путь"
+      "uz": "Turkiston, Chimkent va janubiy Ipak yoʻli"
+    "title":
+      "en": "Turkistan, Shymkent & the Southern Silk Road"
+      "ru": "Туркестан, Шымкент и южный Шёлковый путь"
+      "uz": "Turkiston, Chimkent va janubiy Ipak yoʻli"
+    "description":
+      "en": "Pilgrimage courtyards, bazaar cities, and the warm southern road"
+      "ru": "Паломнические дворы, базарные города и тёплая южная дорога"
+      "uz": "Ziyorat hovlilari, bozor shaharlari va iliq janubiy yoʻl"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О регионе"
+      "uz": "Hudud haqida"
+    "title":
+      "en": "Turkistan, Shymkent & the Southern Silk Road"
+      "ru": "Туркестан, Шымкент и южный Шёлковый путь"
+      "uz": "Turkiston, Chimkent va janubiy Ipak yoʻli"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "South of the steppe, Kazakhstan changes temperature and pace."
+              "ru": "Южнее степи Казахстан меняет температуру и темп."
+              "uz": "Dashtdan janubda Qozogʻistonning harorati va surʼati oʻzgaradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "The south works best as a sequence: Shymkent for arrival, market life, and practical overnights; Turkistan for sacred architecture and heritage time; Otrar, Sauran, Sayram, Arystan Bab, Akyrtas, or Aksu-Zhabagly when the route can carry the extra distance."
+              "ru": "Юг лучше раскрывается как последовательность: Шымкент для прилёта, рынков и удобной ночёвки; Туркестан для священной архитектуры и времени на наследие; Отрар, Сауран, Сайрам, Арыстан-Баб, Акыртас или Аксу-Жабаглы, когда маршрут выдерживает дополнительную дорогу."
+              "uz": "Janub ketma-ketlikda yaxshiroq ochiladi: Chimkent kelish, bozor hayoti va qulay tunash uchun; Turkiston muqaddas meʼmorchilik va merosga vaqt ajratish uchun; Oʻtror, Sauran, Sayram, Arystan-Bab, Akyrtas yoki Aksu-Jabagʻli esa yoʻnalish qoʻshimcha masofani koʻtara olganda."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Shymkent, Turkistan, and the outer archaeological or mountain roads each ask for a different pace. The strongest routes keep those differences visible instead of folding the south into one long transfer."
+              "ru": "Шымкент, Туркестан и внешние археологические или горные дороги требуют разного темпа. Сильный маршрут сохраняет эту разницу, а не превращает юг в один длинный переезд."
+              "uz": "Chimkent, Turkiston va tashqi arxeologik yoki togʻ yoʻllari har xil surʼat soʻraydi. Kuchli yoʻnalish janubni bitta uzun koʻchishga aylantirmay, shu farqni saqlab qoladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Turkistan, Shymkent & the Southern Silk Road as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Туркестан, Шымкент и южный Шёлковый путь как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Turkiston, Chimkent va janubiy Ipak yoʻli o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Start in Shymkent, slow down in Turkistan"
+      "ru": "Начните с Шымкента, замедлитесь в Туркестане"
+      "uz": "Chimkentdan boshlang, Turkistonda sekinlashing"
+    "description":
+      "en": "The south works best as a sequence: Shymkent for arrival, market life, and practical overnights; Turkistan for sacred architecture and heritage time; Otrar, Sauran, Sayram, Arystan Bab, Akyrtas, or Aksu-Zhabagly when the route can carry the extra distance."
+      "ru": "Юг лучше раскрывается как последовательность: Шымкент для прилёта, рынков и удобной ночёвки; Туркестан для священной архитектуры и времени на наследие; Отрар, Сауран, Сайрам, Арыстан-Баб, Акыртас или Аксу-Жабаглы, когда маршрут выдерживает дополнительную дорогу."
+      "uz": "Janub ketma-ketlikda yaxshiroq ochiladi: Chimkent kelish, bozor hayoti va qulay tunash uchun; Turkiston muqaddas meʼmorchilik va merosga vaqt ajratish uchun; Oʻtror, Sauran, Sayram, Arystan-Bab, Akyrtas yoki Aksu-Jabagʻli esa yoʻnalish qoʻshimcha masofani koʻtara olganda."
+    "mapPanel":
+      "eyebrow":
+        "en": "Southern anchors"
+        "ru": "Южные ориентиры"
+        "uz": "Janubiy moʻljallar"
+      "title":
+        "en": "Shymkent city points and Turkistan heritage core"
+        "ru": "Городские точки Шымкента и наследие Туркестана"
+        "uz": "Chimkent shahar nuqtalari va Turkiston merosi"
+      "description":
+        "en": "The map shows the current route anchors: Shymkent, its old-city and bazaar stops, Turkistan, the Yasawi mausoleum, and Azret Sultan. Otrar, Sauran, Sayram, Arystan Bab, Akyrtas, and Aksu-Zhabagly remain wider-route extensions until their own pages are opened."
+        "ru": "На карте видны текущие ориентиры маршрута: Шымкент, старый город и базар, Туркестан, мавзолей Ясави и Azret Sultan. Отрар, Сауран, Сайрам, Арыстан-Баб, Акыртас и Аксу-Жабаглы остаются расширениями маршрута до открытия собственных страниц."
+        "uz": "Xaritada hozirgi yoʻnalish moʻljallari koʻrinadi: Chimkent, eski shahar va bozor, Turkiston, Yassaviy maqbarasi va Azret Sultan. Oʻtror, Sauran, Sayram, Arystan-Bab, Akyrtas va Aksu-Jabagʻli oʻz sahifalari ochilguncha kengroq yoʻnalish davomlari boʻlib qoladi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 42.805763
+      "longitude": 68.931875
+    "zoom": 9
+    "stops":
+      - "entityType": "city"
+        "entitySlug": "shymkent"
+      - "entityType": "attraction"
+        "entitySlug": "shymkent-old-city-citadel-area"
+      - "entityType": "attraction"
+        "entitySlug": "central-bazaar-upper-bazaar-shymkent"
+      - "entityType": "city"
+        "entitySlug": "turkistan"
+      - "entityType": "attraction"
+        "entitySlug": "mausoleum-of-khoja-ahmed-yasawi"
+      - "entityType": "attraction"
+        "entitySlug": "azret-sultan-historical-cultural-reserve-museum"
+    "aside":
+      "eyebrow":
+        "en": "Route shape"
+        "ru": "Форма маршрута"
+        "uz": "Yoʻnalish shakli"
+      "title":
+        "en": "City, shrine, extension"
+        "ru": "Город, святыня, продолжение"
+        "uz": "Shahar, ziyoratgoh, davom"
+      "description":
+        "en": "Shymkent, Turkistan, and the outer archaeological or mountain roads each ask for a different pace. The strongest routes keep those differences visible instead of folding the south into one long transfer."
+        "ru": "Шымкент, Туркестан и внешние археологические или горные дороги требуют разного темпа. Сильный маршрут сохраняет эту разницу, а не превращает юг в один длинный переезд."
+        "uz": "Chimkent, Turkiston va tashqi arxeologik yoki togʻ yoʻllari har xil surʼat soʻraydi. Kuchli yoʻnalish janubni bitta uzun koʻchishga aylantirmay, shu farqni saqlab qoladi."
+      "items":
+        - "title":
+            "en": "Shymkent first"
+            "ru": "Сначала Шымкент"
+            "uz": "Avval Chimkent"
+          "description":
+            "en": "Shymkent gives the southern route its arrival point, market energy, food, hotels, and first overnight before the road turns toward Turkistan or the foothills."
+            "ru": "Шымкент даёт южному маршруту точку прибытия, базарную энергию, еду, отели и первую ночёвку перед дорогой к Туркестану или предгорьям."
+            "uz": "Chimkent janubiy yoʻnalishga kelish nuqtasi, bozor harakati, taom, mehmonxonalar va Turkiston yoki togʻ etaklari oldidan birinchi tunashni beradi."
+        - "title":
+            "en": "Turkistan with enough time"
+            "ru": "Туркестан без спешки"
+            "uz": "Turkistonga vaqt bering"
+          "description":
+            "en": "The Yasawi mausoleum and Azret Sultan heritage area need shade, quiet walking, and a respectful pace, not a quick stop between transfers."
+            "ru": "Мавзолею Ясави и пространству Azret Sultan нужны тень, спокойная прогулка и уважительный темп, а не быстрая остановка между переездами."
+            "uz": "Yassaviy maqbarasi va Azret Sultan hududiga soya, sokin yurish va hurmatli surʼat kerak; ular ikki koʻchish orasidagi tez surat bekati emas."
+        - "title":
+            "en": "Outer route by choice"
+            "ru": "Внешний маршрут по выбору"
+            "uz": "Tashqi yoʻlni tanlab qoʻshing"
+          "description":
+            "en": "Otrar, Sauran, Sayram, Arystan Bab, Akyrtas, and Aksu-Zhabagly make sense when season, access, road time, and day length are checked honestly."
+            "ru": "Отрар, Сауран, Сайрам, Арыстан-Баб, Акыртас и Аксу-Жабаглы имеют смысл, когда сезон, доступ, дорога и длина дня посчитаны честно."
+            "uz": "Oʻtror, Sauran, Sayram, Arystan-Bab, Akyrtas va Aksu-Jabagʻli mavsum, kirish, yoʻl vaqti va kun uzunligi rost hisoblanganda maʼnoli boʻladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region character"
+      "ru": "Характер региона"
+      "uz": "Hudud ruhi"
+    "title":
+      "en": "Where Kazakhstan becomes warmer and older"
+      "ru": "Где Казахстан становится теплее и старше"
+      "uz": "Qozogʻiston iliqroq va qadimiyroq tuyuladigan joy"
+    "description":
+      "en": "Southern Kazakhstan turns a long-distance route into a lived corridor of shrines, markets, ruins, and foothill choices."
+      "ru": "Южный Казахстан превращает дальний маршрут в живой коридор святынь, рынков, руин и предгорных решений."
+      "uz": "Janubiy Qozogʻiston uzoq masofali yoʻnalishni ziyoratgohlar, bozorlar, xarobalar va togʻ etagi tanlovlaridan iborat jonli yoʻlakka aylantiradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region places"
+      "ru": "Места региона"
+      "uz": "Hududdagi joylar"
+    "title":
+      "en": "Turkistan and Shymkent as the southern anchors"
+      "ru": "Туркестан и Шымкент как южные ориентиры"
+      "uz": "Turkiston va Chimkent janubiy moʻljal sifatida"
+    "description":
+      "en": "Turkistan gives the route its sacred heritage center; Shymkent keeps the journey practical, warm, and connected to markets, transport, and onward roads."
+      "ru": "Туркестан даёт маршруту священный центр наследия; Шымкент делает поездку практичной, тёплой и связанной с рынками, транспортом и дальнейшими дорогами."
+      "uz": "Turkiston yoʻnalishga muqaddas meros markazini beradi; Chimkent safarni amaliy, iliq, bozorlar, transport va keyingi yoʻllar bilan bogʻlangan qiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Turkistan"
+          "ru": "Туркестан"
+          "uz": "Turkiston"
+        "description":
+          "en": "Turkistan slows the southern route around the blue dome of Khoja Ahmed Yasawi. In the square and the Azret Sultan reserve, brick, blue tile, pilgrim movement, and desert-edge light make the city the quiet center before the road turns to Otrar, Sauran, Shymkent, or Sayram."
+          "ru": "Туркестан замедляет южный маршрут вокруг голубого купола Ходжи Ахмеда Ясави. На площади и в заповеднике-музее «Азрет Султан» кирпич, синяя майолика, движение паломников и свет открытого юга делают город тихим центром перед дорогой к Отрару, Саурану, Шымкенту или Сайраму."
+          "uz": "Turkiston janubiy yoʻlni Xoja Ahmad Yasaviy maqbarasining moviy gumbazi atrofida sekinlashtiradi. Maydon va Azret Sulton hududida gʻisht, moviy koshin, ziyoratchilar harakati va ochiq janub yorugʻligi shaharni Oʻtror, Sauran, Chimkent yoki Sayramdan oldingi sokin markazga aylanti"
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/turkistan"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Shymkent"
+          "ru": "Шымкент"
+          "uz": "Chimkent"
+        "description":
+          "en": "Shymkent shows the south through city life, not only monuments. Begin around the old-city and citadel area, follow the noise into Central and Upper Bazaar, then choose whether the road turns toward Turkistan, Otrar, Sayram, or the foothills."
+          "ru": "Шымкент показывает юг не только через памятники, а через городскую жизнь. Сначала старый город и район цитадели, затем шум Центрального и Верхнего базара, а дальше выбор дороги: Туркестан, Отрар, Сайрам или предгорья."
+          "uz": "Chimkent janubni faqat yodgorliklar orqali emas, shahar hayoti orqali ko‘rsatadi. Avval eski shahar va qalʼa hududi, keyin Markaziy va Yuqori bozor shovqini, soʻng yoʻl tanlovi: Turkiston, Oʻtror, Sayram yoki togʻoldi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/shymkent"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrish"
+    "title":
+      "en": "Heritage, bazaar, and city life"
+      "ru": "Наследие, базар и городская жизнь"
+      "uz": "Meros, bozor va shahar hayoti"
+    "description":
+      "en": "The route usually begins with the Yasawi mausoleum and Azret Sultan in Turkistan, then uses Shymkent's old-city and bazaar stops to keep the south grounded in everyday life."
+      "ru": "Маршрут обычно начинается с мавзолея Ясави и Azret Sultan в Туркестане, а затем добавляет старый город и базар Шымкента, чтобы юг не отрывался от повседневной жизни."
+      "uz": "Yoʻnalish odatda Turkistondagi Yassaviy maqbarasi va Azret Sultandan boshlanadi, keyin janub kundalik hayotdan uzilmasligi uchun Chimkent eski shahri va bozorini qoʻshadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Mausoleum of Khoja Ahmed Yasawi"
+          "ru": "Мавзолей Ходжи Ахмеда Ясави"
+          "uz": "Xoja Ahmad Yasaviy maqbarasi"
+        "description":
+          "en": "The Mausoleum of Khoja Ahmed Yasawi anchors Turkistan before anything else. Its Timurid dome, fired-brick mass, and wide courtyard carry the memory of the Sufi teacher while pilgrims, families, and travelers keep the place active today."
+          "ru": "Мавзолей Ходжи Ахмеда Ясави — главный ориентир Туркестана. Тимуридский купол, кирпичный масштаб и широкий двор хранят память суфийского учителя, а паломники, семьи и путешественники поддерживают здесь живое движение."
+          "uz": "Xoja Ahmad Yasaviy maqbarasi Turkistonning eng muhim moʻljali. Temuriy gumbaz, pishiq gʻishtdan qurilgan katta hajm va keng hovli soʻfiy ustoz xotirasini saqlaydi; ziyoratchilar, oilalar va sayohatchilar esa bu joyga bugun ham hayot beradi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/turkistan/mausoleum-of-khoja-ahmed-yasawi"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Central Bazaar and Upper Bazaar"
+          "ru": "Центральный и Верхний базар"
+          "uz": "Markaziy va Yuqori bozor"
+        "description":
+          "en": "Central Bazaar and the Upper Bazaar area show Shymkent at street-market pace. After Shym Qala and the old-city area, the route can shift from citadel ground to bread counters, produce rows, bargaining voices, and people moving through the warm southern city."
+          "ru": "Центральный базар и район Верхнего базара показывают Шымкент в уличном рыночном ритме. После Шым Қала и старого города маршрут может перейти от цитадели к хлебным рядам, продуктам, голосам торга и людям, которые идут по делам в тёплом южном городе."
+          "uz": "Markaziy bozor va Yuqori bozor hududi Chimkentni ko‘cha-bozor ritmida ko‘rsatadi. Shym Qala va eski shahar hududidan keyin yoʻl qalʼa izlaridan non rastalari, mahsulotlar, savdo ovozlari va iliq janubiy shaharda ish bilan yurgan odamlar harakatiga oʻtadi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/shymkent/central-bazaar-upper-bazaar-shymkent"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Shymkent Old City and Shym Qala"
+          "ru": "Старый город Шымкента и Шым Қала"
+          "uz": "Chimkent eski shahri va Shym Qala"
+        "description":
+          "en": "Begin at Shym Qala, the open-air complex that makes Shymkent's citadel, shahristan, and rabad readable in one city walk. Its archaeological outline brings the 2,200-year city story into view before Central Bazaar adds bread rows, bargaining voices, and everyday movement."
+          "ru": "Начните с Шым Қала: этот комплекс под открытым небом помогает увидеть цитадель, шахристан и рабад как понятную городскую прогулку. Археологический контур показывает 2200-летнюю историю Шымкента, а затем Центральный базар добавляет хлебные ряды, голоса торга и повседневное движени"
+          "uz": "Avval Shym Qaladan boshlang: bu ochiq osmon ostidagi majmua Chimkent qalʼasi, shahristoni va rabodini tushunarli shahar sayriga aylantiradi. Arxeologik izlar 2200 yillik shahar tarixini ko‘rsatadi; keyin Markaziy bozor non rastalari, savdo ovozlari va kundalik harakatni qoʻshadi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/shymkent/shymkent-old-city-citadel-area"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Azret Sultan Historical-Cultural Reserve-Museum"
+          "ru": "Историко-культурный заповедник-музей «Азрет Султан»"
+          "uz": "Azret Sulton tarixiy-madaniy qoʻriqxona-muzeyi"
+        "description":
+          "en": "At Azret Sultan, the visit stays close to the Yasawi mausoleum but opens into the surrounding reserve-museum grounds. Open space, museum setting, and pilgrim movement help travelers understand why this part of Turkistan is treated as more than a single monument."
+          "ru": "В «Азрет Султане» маршрут остаётся рядом с мавзолеем Ясави, но раскрывается через территорию заповедника-музея. Открытые пространства, музейная среда и движение паломников помогают понять, почему эту часть Туркестана воспринимают шире, чем один памятник."
+          "uz": "Azret Sultonda yoʻl Yasaviy maqbarasiga yaqin qoladi, lekin qoʻriqxona-muzey hududi orqali kengayadi. Ochiq makon, muzey muhiti va ziyoratchilar harakati Turkistonning bu qismi nega bitta yodgorlikdan kengroq qabul qilinishini tushuntiradi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/turkistan/azret-sultan-historical-cultural-reserve-museum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region in detail"
+      "ru": "Регион в деталях"
+      "uz": "Hudud batafsil"
+    "title":
+      "en": "Practical questions about Turkistan, Shymkent & the Southern Silk Road"
+      "ru": "Практические вопросы о регионе Туркестан, Шымкент и южный Шёлковый путь"
+      "uz": "Turkiston, Chimkent va janubiy Ipak yoʻli hududi bo‘yicha amaliy savollar"
+    "description":
+      "en": "Pace, season, and how this region connects to the next stop."
+      "ru": "Темп, сезон и как регион стыкуется со следующей остановкой."
+      "uz": "Sur’at, mavsum va hududning keyingi bekat bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many days does Turkistan, Shymkent & the Southern Silk Road need in a programme?"
+          "ru": "Сколько дней нужно региону Туркестан, Шымкент и южный Шёлковый путь в программе?"
+          "uz": "Turkiston, Chimkent va janubiy Ipak yoʻli hududi dasturda necha kun olishi kerak?"
+        "description":
+          "en": "2–4 days usually works if you keep one strong core and treat outer stops as deliberate choices. The region brief is “Pilgrimage courtyards, bazaar cities, and the warm southern road”."
+          "ru": "Обычно хватает 2–4 дня, если держать одно сильное ядро, а внешние остановки выбирать осознанно. Кратко о регионе: «Паломнические дворы, базарные города и тёплая южная дорога»."
+          "uz": "Odatda 2–4 kun yetadi — bitta kuchli yadro va tashqi bekatlarni ongli tanlov qiling. Hudud brifi: «Ziyorat hovlilari, bozor shaharlari va iliq janubiy yoʻl»."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "What should come before and after Turkistan, Shymkent & the Southern Silk Road?"
+          "ru": "Что ставить до и после региона Туркестан, Шымкент и южный Шёлковый путь?"
+          "uz": "Turkiston, Chimkent va janubiy Ipak yoʻlidan oldin va keyin nima qo‘yish kerak?"
+        "description":
+          "en": "Use neighbouring cities as clean handovers: arrive with a calm first night, leave after one completed chapter, and avoid stacking two long transfers on the same day."
+          "ru": "Соседние города держите как чистые стыки: приезжайте со спокойной первой ночью, уезжайте после завершённой главы и не ставьте два длинных переезда в один день."
+          "uz": "Qo‘shni shaharlarni toza ulanish sifatida tuting: sokin birinchi tun bilan keling, yakunlangan bobdan keyin chiqing va bir kunga ikkita uzun ko‘chishni qo‘ymang."
+      - "type": "destinationInsight"
+        "icon": "Calendar"
+        "title":
+          "en": "What season logic matters most in Turkistan, Shymkent & the Southern Silk Road?"
+          "ru": "Какая сезонная логика важнее всего в Туркестан, Шымкент и южный Шёлковый путь?"
+          "uz": "Turkiston, Chimkent va janubiy Ipak yoʻlida qaysi mavsum mantig‘i eng muhim?"
+        "description":
+          "en": "Heat, altitude, road condition, and opening hours change the product more than the brochure list. Build the region around what stays comfortable for the group that week."
+          "ru": "Жара, высота, состояние дорог и часы работы меняют продукт сильнее списка из брошюры. Собирайте регион вокруг того, что комфортно именно этой группе в эту неделю."
+          "uz": "Issiqlik, balandlik, yo‘l holati va ish soatlari broshyura ro‘yxatidan kuchliroq mahsulotni o‘zgartiradi. Hududni shu hafta guruh uchun qulay narsaga qurib chiqing."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Turkistan, Shymkent & the Southern Silk Road stop into your Kazakhstan programme"
+      "ru": "Встройте остановку «Туркестан, Шымкент и южный Шёлковый путь» в программу (Казахстан)"
+      "uz": "Turkiston, Chimkent va janubiy Ipak yoʻli bekatini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right extensions — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать нужные расширения — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va kerakli kengaytmalarni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Turkistan, Shymkent & the Southern Silk Road | TourLink"
+    "ru": "Туркестан, Шымкент и южный Шёлковый путь | TourLink"
+    "uz": "Turkiston, Chimkent va janubiy Ipak yoʻli | TourLink"
+  "metaDescription":
+    "en": "South of the steppe, Kazakhstan changes temperature and pace. Shymkent gives the route a human city start: markets, food, hotels, airport access, and evenings that make the south feel close. Turkistan slows the journey around the Yasawi mausoleum and the Azret Sultan heritage setting. Otrar, Sauran, Sayram, Arystan Bab, Akyrtas, and the Western Tian Shan are not afterthoughts; they belong only when heat, distance, access, and respect are built into the route."
+    "ru": "Южнее степи Казахстан меняет температуру и темп. Шымкент даёт маршруту живое городское начало: рынки, еду, отели, аэропорт и вечера, в которых юг становится ближе. Туркестан замедляет поездку вокруг мавзолея Ясави и наследия Azret Sultan. Отрар, Сауран, Сайрам, Арыстан-Баб, Акыртас и Западный Тянь-Шань не добавки для галочки; они уместны только там, где в маршрут заложены жара, расстояния, доступ и уважительный темп."
+    "uz": "Dashtdan janubda Qozogʻistonning harorati va surʼati oʻzgaradi. Chimkent yoʻnalishga jonli shahar boshlanishini beradi: bozorlar, taom, mehmonxonalar, aeroport va janubni yaqinroq his qildiradigan oqshomlar. Turkiston safarni Yassaviy maqbarasi va Azret Sultan merosi atrofida sekinlashtiradi. Oʻtror, Sauran, Sayram, Arystan-Bab, Akyrtas va Gʻarbiy Tyan-Shan shunchaki qoʻshimcha bekatlar emas; ular issiq, masofa, kirish va hurmatli surʼat yoʻnalishga oldindan kiritilganda maʼnoli boʻladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"mapCenter":
+  "latitude": 42.3146962
+  "longitude": 69.5883282

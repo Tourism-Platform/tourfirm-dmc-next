@@ -1,0 +1,348 @@
+# Generated from scrape/turkmenistan (multi-locale)
+"slug":
+  "en": "old-nisa-mithradatkert"
+  "ru": "old-nisa-mithradatkert"
+  "uz": "old-nisa-mithradatkert"
+"title":
+  "en": "Old Nisa / Mithradatkert"
+  "ru": "Старая Ниса / Митридаткерт"
+  "uz": "Eski Nisa / Mitridatkert"
+"subtitle":
+  "en": "Parthian earthworks under Nisa's wide sky"
+  "ru": "Парфянские валы под широким небом Нисы"
+  "uz": "Nisaning keng osmoni ostidagi Parfiya devorlari"
+"excerpt":
+  "en": "At Old Nisa / Mithradatkert, the Nisa outing becomes physical. Low wall lines cross open ground, the sky stays wide, and the Parthian story moves from museum context into a place you walk carefully."
+  "ru": "В Старой Нисе / Митридаткерте выезд в Нису становится ощутимым. Низкие линии стен проходят по открытому грунту, небо остаётся широким, а парфянская история из музейного контекста переходит в место, по которому вы идёте осторожно."
+  "uz": "Eski Nisa / Mitridatkertda Nisa chiqishi jismoniy seziladi. Past devor chiziqlari ochiq zamin boʻylab ketadi, osmon keng qoladi, Parfiya tarixi esa muzeydagi izohdan ehtiyotkor yuriladigan joyga koʻchadi."
+"heroImage": "assets/images/destinations/turkmenistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "imageAlt":
+      "en": "Old Nisa / Mithradatkert"
+      "ru": "Старая Ниса / Митридаткерт"
+      "uz": "Eski Nisa / Mitridatkert"
+    "title":
+      "en": "Old Nisa / Mithradatkert"
+      "ru": "Старая Ниса / Митридаткерт"
+      "uz": "Eski Nisa / Mitridatkert"
+    "description":
+      "en": "Parthian earthworks under Nisa's wide sky"
+      "ru": "Парфянские валы под широким небом Нисы"
+      "uz": "Nisaning keng osmoni ostidagi Parfiya devorlari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Old Nisa / Mithradatkert"
+      "ru": "Старая Ниса / Митридаткерт"
+      "uz": "Eski Nisa / Mitridatkert"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "At Old Nisa / Mithradatkert, the Nisa outing becomes physical."
+              "ru": "В Старой Нисе / Митридаткерте выезд в Нису становится ощутимым."
+              "uz": "Eski Nisa / Mitridatkertda Nisa chiqishi jismoniy seziladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Old Nisa gives the UNESCO property a clear focal point."
+              "ru": "Старая Ниса даёт объекту ЮНЕСКО ясный фокус."
+              "uz": "Eski Nisa YUNESKO obyektiga aniq markaz beradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Parthian earthworks under Nisa's wide sky."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Парфянские валы под широким небом Нисы."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Nisaning keng osmoni ostidagi Parfiya devorlari."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Old Nisa / Mithradatkert as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Старая Ниса / Митридаткерт как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Eski Nisa / Mitridatkert o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Old Nisa / Mithradatkert sits on the route"
+      "ru": "Где Старая Ниса / Митридаткерт стоит на маршруте"
+      "uz": "Eski Nisa / Mitridatkert marshrutda qayerda"
+    "description":
+      "en": "One clear point for Old Nisa / Mithradatkert — Parthian earthworks under Nisa's wide sky."
+      "ru": "Одна понятная точка для «Старая Ниса / Митридаткерт» — Парфянские валы под широким небом Нисы."
+      "uz": "Eski Nisa / Mitridatkert uchun bitta aniq nuqta — Nisaning keng osmoni ostidagi Parfiya devorlari."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Old Nisa / Mithradatkert"
+        "ru": "Старая Ниса / Митридаткерт"
+        "uz": "Eski Nisa / Mitridatkert"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 37.9513315
+      "longitude": 58.2112316
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "old-nisa-mithradatkert"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Where Nisa's fortress form becomes visible"
+      "ru": "Где видна крепостная форма Нисы"
+      "uz": "Nisa qalʼa shakli koʻrinadigan joy"
+    "description":
+      "en": "Old Nisa gives the UNESCO property a clear focal point. The earthworks are modest in height, but they hold the royal name Mithradatkert, defensive lines, and ritual memory in one walk.
+
+
+        «Old Nisa is most powerful when you treat the quiet ground as the beginning of the Parthian story, not as another ruin on a list.»"
+      "ru": "Старая Ниса даёт объекту ЮНЕСКО ясный фокус. Земляные стены невысоки, но в одной прогулке держат имя Митридаткерт, оборонительные линии и память о ритуалах.
+
+
+        «Старая Ниса раскрывается сильнее, когда тихий грунт воспринимаешь как начало парфянской истории, а не как ещё одну руину в списке.»"
+      "uz": "Eski Nisa YUNESKO obyektiga aniq markaz beradi. Yer devorlari baland emas, lekin Mitridatkert nomi, mudofaa chiziqlari va marosim xotirasini bitta sayrda ushlab turadi.
+
+
+        «Eski Nisa sokin zaminni roʻyxatdagi yana bir xaroba emas, Parfiya hikoyasining boshlanishi sifatida koʻrganingizda kuchliroq.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "Wall lines, open ground, and royal memory"
+      "ru": "Стены, открытый грунт и царская память"
+      "uz": "Devor chiziqlari, ochiq zamin va shohlik xotirasi"
+    "description":
+      "en": "The visible elements are restrained: defensive lines at ground level, bare earth, and the royal name that gives the site its focus."
+      "ru": "Видимые элементы сдержанные: оборонительные линии у земли, открытый грунт и царское имя, которое удерживает фокус места."
+      "uz": "Koʻrinadigan unsurlar soddaroq: yer sathidagi mudofaa chiziqlari, yalang zamin va joyga fokus beradigan shohlik nomi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Walk slowly and protect the site"
+      "ru": "Идите медленно и берегите место"
+      "uz": "Sekin yuring va joyni asrang"
+    "description":
+      "en": "Old Nisa asks for a careful pace. Stay on permitted paths, avoid touching the earthworks, and leave enough time for the missing architecture to be explained without rushing."
+      "ru": "Старой Нисе нужен осторожный темп: оставайтесь на разрешённых проходах, не трогайте земляные стены и оставьте время для объяснения исчезнувшей архитектуры."
+      "uz": "Eski Nisa ehtiyotkor surʼatni talab qiladi: ruxsat etilgan yoʻlaklarda qoling, yer devorlariga tegmang va yoʻqolgan meʼmorchilikni tushuntirishga vaqt qoldiring."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qoʻshish"
+    "title":
+      "en": "What to add after Old Nisa"
+      "ru": "Что добавить после Старой Нисы"
+      "uz": "Eski Nisadan keyin nima qoʻshish"
+    "description":
+      "en": "Stay with archaeology first, then return to Ashgabat for museum rooms or craft stops that give the objects, patterns, and route a clearer setting."
+      "ru": "Сначала оставайтесь в археологической последовательности, затем вернитесь в Ашхабад к музеям или ремеслу, чтобы предметы, орнаменты и маршрут получили более ясную опору."
+      "uz": "Avval arxeologik ketma-ketlikda qoling, keyin obyektlar, naqshlar va yoʻl aniqroq koʻrinishi uchun Ashgabatdagi muzey yoki hunar toʻxtashlariga qayting."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Parthian Fortresses of Nisa"
+          "ru": "Парфянские крепости Нисы"
+          "uz": "Nisaning Parfiya qalʼalari"
+        "description":
+          "en": "Old and New Nisa sit low in the Kopet-Dag foothills near Ashgabat, where a short site walk opens one of the earliest Parthian centres."
+          "ru": "Старая и Новая Ниса лежат низко у предгорий Копетдага рядом с Ашхабадом, где короткая прогулка открывает один из ранних парфянских центров."
+          "uz": "Eski va Yangi Nisa Ashgabat yaqinidagi Kopetdogʻ etagida past joylashgan; qisqa sayr bu yerda erta Parfiya markazini ochib beradi."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/nisa/parthian-fortresses-of-nisa"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "National Museum of Turkmenistan"
+          "ru": "Национальный музей Туркменистана"
+          "uz": "Turkmaniston Milliy muzeyi"
+        "description":
+          "en": "National Museum of Turkmenistan brings Ashgabat indoors through Ancient History, Margush, Parthia, Middle Ages, carpets, and the objects that prepare Nisa and Merv."
+          "ru": "Национальный музей Туркменистана переводит Ашхабад внутрь: древняя история, Маргуш, Парфия, средневековые залы, ковры и подготовка к Нисе или Мерву."
+          "uz": "Turkmaniston Milliy muzeyi Ashgabatni ichkaridan ko‘rsatadi: qadimiy tarix, Margush, Parfiya, o‘rta asr zallari, gilamlar va Nisa yoki Merv oldidan kerakli tayyorgarlik."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat/national-museum-of-turkmenistan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Turkmen Carpet Museum"
+          "ru": "Музей туркменского ковра"
+          "uz": "Turkman gilami muzeyi"
+        "description":
+          "en": "Turkmen Carpet Museum brings the Ashgabat route close to Turkmen carpet weaving, with rare carpets, motif language, wool work, and a UNESCO-listed craft tradition."
+          "ru": "Музей туркменского ковра приближает маршрут по Ашхабаду к туркменскому ковроткачеству: редким коврам, языку орнамента, работе с шерстью и традиции, признанной ЮНЕСКО."
+          "uz": "Turkman gilami muzeyi Ashgabat yo‘lini turkman gilamdo‘zligiga yaqinlashtiradi: nodir gilamlar, naqsh tili, jun bilan ishlash va UNESCO tan olgan hunar anʼanasi."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat/turkmen-carpet-museum"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Old Nisa / Mithradatkert"
+      "ru": "Что агентства спрашивают про Старая Ниса / Митридаткерт"
+      "uz": "Agentliklar Eski Nisa / Mitridatkert haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Old Nisa / Mithradatkert get in the day plan?"
+          "ru": "Сколько времени закладывать на Старая Ниса / Митридаткерт в плане дня?"
+          "uz": "Eski Nisa / Mitridatkert uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "45–90 minutes is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Parthian earthworks under Nisa's wide sky”."
+          "ru": "Для большинства групп реалистичный диапазон — 45–90 минут. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Парфянские валы под широким небом Нисы»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 45–90 daqiqa. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Nisaning keng osmoni ostidagi Parfiya devorlari»."
+      - "type": "destinationInsight"
+        "icon": "Sunrise"
+        "title":
+          "en": "When is Old Nisa / Mithradatkert strongest during the day?"
+          "ru": "В какое время дня Старая Ниса / Митридаткерт раскрывается сильнее?"
+          "uz": "Eski Nisa / Mitridatkert kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer before the midday heat. That usually improves comfort, photos, and how the stop feels in the sequence around nisa."
+          "ru": "Лучше до полуденной жары. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с nisa."
+          "uz": "tushlik issiqligidan oldin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (nisa atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How should Old Nisa / Mithradatkert sit next to nearby stops?"
+          "ru": "Как поставить Старая Ниса / Митридаткерт рядом с соседними остановками?"
+          "uz": "Eski Nisa / Mitridatkertni yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Old Nisa / Mithradatkert to your Turkmenistan programme"
+      "ru": "Добавьте «Старая Ниса / Митридаткерт» в программу (Туркменистан)"
+      "uz": "Eski Nisa / Mitridatkertni Turkmaniston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Old Nisa / Mithradatkert | TourLink"
+    "ru": "Старая Ниса / Митридаткерт | TourLink"
+    "uz": "Eski Nisa / Mitridatkert | TourLink"
+  "metaDescription":
+    "en": "At Old Nisa / Mithradatkert, the Nisa outing becomes physical. Low wall lines cross open ground, the sky stays wide, and the Parthian story moves from museum context into a place you walk carefully."
+    "ru": "В Старой Нисе / Митридаткерте выезд в Нису становится ощутимым. Низкие линии стен проходят по открытому грунту, небо остаётся широким, а парфянская история из музейного контекста переходит в место, по которому вы идёте осторожно."
+    "uz": "Eski Nisa / Mitridatkertda Nisa chiqishi jismoniy seziladi. Past devor chiziqlari ochiq zamin boʻylab ketadi, osmon keng qoladi, Parfiya tarixi esa muzeydagi izohdan ehtiyotkor yuriladigan joyga koʻchadi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "turkmenistan"
+"region": "ashgabat-and-nisa"
+"city": "nisa"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 37.9513315
+"longitude": 58.2112316

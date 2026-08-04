@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "yakkatut-local-visit-confirmation"
+  "ru": "yakkatut-local-visit-confirmation"
+  "uz": "yakkatut-local-visit-confirmation"
+"title":
+  "en": "Before a Yakkatut Visit"
+  "ru": "Перед визитом в Яккатут"
+  "uz": "Yakkatutga borishdan oldin"
+"subtitle":
+  "en": "The local details that decide whether Yakkatut belongs in the route."
+  "ru": "Местные детали, от которых зависит место Яккатута в маршруте."
+  "uz": "Yakkatut yo‘lga kiradimi-yo‘qmi hal qiladigan mahalliy tafsilotlar."
+"excerpt":
+  "en": "A Yakkatut visit belongs in the route when the meeting point, welcome format, comfort details, and return timing are clear."
+  "ru": "Визит в Яккатут уместен, когда ясны точка встречи, формат приёма, бытовые детали и время возвращения."
+  "uz": "Uchrashuv joyi, qabul shakli, qulaylik tafsilotlari va qaytish vaqti aniq bo‘lganda Yakkatut yo‘lga mos keladi."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Before a Yakkatut Visit"
+      "ru": "Перед визитом в Яккатут"
+      "uz": "Yakkatutga borishdan oldin"
+    "title":
+      "en": "Before a Yakkatut Visit"
+      "ru": "Перед визитом в Яккатут"
+      "uz": "Yakkatutga borishdan oldin"
+    "description":
+      "en": "The local details that decide whether Yakkatut belongs in the route."
+      "ru": "Местные детали, от которых зависит место Яккатута в маршруте."
+      "uz": "Yakkatut yo‘lga kiradimi-yo‘qmi hal qiladigan mahalliy tafsilotlar."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Before a Yakkatut Visit"
+      "ru": "Перед визитом в Яккатут"
+      "uz": "Yakkatutga borishdan oldin"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "A Yakkatut visit belongs in the route when the meeting point, welcome format, comfort details, and return timing are clear."
+              "ru": "Визит в Яккатут уместен, когда ясны точка встречи, формат приёма, бытовые детали и время возвращения."
+              "uz": "Uchrashuv joyi, qabul shakli, qulaylik tafsilotlari va qaytish vaqti aniq bo‘lganda Yakkatut yo‘lga mos keladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Yakkatut should enter a program only when the village meeting point and welcome details are clear."
+              "ru": "Яккатут стоит включать в программу только тогда, когда точка встречи и детали приёма понятны."
+              "uz": "Yakkatut uchrashuv joyi va qabul tafsilotlari aniq bo‘lgandagina dasturga kirishi kerak."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — The local details that decide whether Yakkatut belongs in the route.."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Местные детали, от которых зависит место Яккатута в маршруте.."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Yakkatut yo‘lga kiradimi-yo‘qmi hal qiladigan mahalliy tafsilotlar.."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Before a Yakkatut Visit as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Перед визитом в Яккатут как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Yakkatutga borishdan oldin o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Before a Yakkatut Visit sits on the route"
+      "ru": "Где Перед визитом в Яккатут стоит на маршруте"
+      "uz": "Yakkatutga borishdan oldin marshrutda qayerda"
+    "description":
+      "en": "One clear point for Before a Yakkatut Visit — The local details that decide whether Yakkatut belongs in the route.."
+      "ru": "Одна понятная точка для «Перед визитом в Яккатут» — Местные детали, от которых зависит место Яккатута в маршруте.."
+      "uz": "Yakkatutga borishdan oldin uchun bitta aniq nuqta — Yakkatut yo‘lga kiradimi-yo‘qmi hal qiladigan mahalliy tafsilotlar.."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Before a Yakkatut Visit"
+        "ru": "Перед визитом в Яккатут"
+        "uz": "Yakkatutga borishdan oldin"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.615032
+      "longitude": 70.086145
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "yakkatut-local-visit-confirmation"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Agree the welcome before travel"
+      "ru": "Согласуйте приём до поездки"
+      "uz": "Qabulni safardan oldin kelishing"
+    "description":
+      "en": "Yakkatut should enter a program only when the village meeting point and welcome details are clear.
+
+
+        «Yakkatut is easier to enjoy when the basics are already settled.»"
+      "ru": "Яккатут стоит включать в программу только тогда, когда точка встречи и детали приёма понятны.
+
+
+        «Яккатут легче воспринимать, когда основа визита уже согласована.»"
+      "uz": "Yakkatut uchrashuv joyi va qabul tafsilotlari aniq bo‘lgandagina dasturga kirishi kerak.
+
+
+        «Tashrif asosi oldindan kelishilganda Yakkatutni qabul qilish osonroq bo‘ladi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "What should be clear"
+      "ru": "Что должно быть понятно"
+      "uz": "Nimalar aniq bo‘lishi kerak"
+    "description":
+      "en": "A calm Yakkatut visit depends on the meeting place, welcome format, and return timing."
+      "ru": "Спокойный визит в Яккатут зависит от точки встречи, формата приёма и возвращения."
+      "uz": "Sokin Yakkatut tashrifi uchrashuv joyi, qabul shakli va qaytish vaqtiga bog‘liq."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Set the basics before departure"
+      "ru": "Согласовать основу до выезда"
+      "uz": "Asosiy narsalarni jo‘nashdan oldin kelishish"
+    "description":
+      "en": "The village stop stays comfortable when the arrival point, welcome, etiquette, and return are already agreed."
+      "ru": "Остановка остаётся комфортной, когда точка прибытия, приём, этикет и возвращение уже понятны."
+      "uz": "Kelish joyi, qabul, etiket va qaytish aniq bo‘lsa, qishloq bekati qulay qoladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Yakkatut cues"
+      "ru": "Ориентиры Яккатута"
+      "uz": "Yakkatut mo‘ljallari"
+    "title":
+      "en": "Other Yakkatut cues"
+      "ru": "Другие ориентиры Яккатута"
+      "uz": "Yakkatutning boshqa mo‘ljallari"
+    "description":
+      "en": "Use the nearby Yakkatut cues together so the village reads as one modest stop."
+      "ru": "Соседние ориентиры лучше работают вместе, чтобы село воспринималось одной скромной остановкой."
+      "uz": "Yaqin mo‘ljallar birga turganda qishloq bitta kamtar bekat sifatida tushuniladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Yakkatut's Charvak Side"
+          "ru": "Чарвакская сторона Яккатута"
+          "uz": "Yakkatutning Chorvoq tomoni"
+        "description":
+          "en": "The Charvak side helps place Yakkatut inside the Bo‘stonliq mountain-reservoir route without turning it into a resort stop."
+          "ru": "Чарвакская сторона помогает понять Яккатут внутри горно-чарвакского маршрута Бостанлыка без курортного обещания."
+          "uz": "Chorvoq tomoni Yakkatutni kurort vaʼdasiga aylantirmasdan Bo‘stonliq tog‘-suv ombori yo‘lida tushuntiradi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/yakkatut/yakkatut-charvak-side-context"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Burchmulla and Koksu Side"
+          "ru": "Бурчмулла и сторона Коксу"
+          "uz": "Burchmulla va Ko‘ksuv tomoni"
+        "description":
+          "en": "Burchmulla and the Koksu side help place Yakkatut in Bo‘stonliq without turning nearby geography into its own stop."
+          "ru": "Бурчмулла и сторона Коксу помогают понять Яккатут в Бостанлыке, не превращая близкую географию в самостоятельную остановку."
+          "uz": "Burchmulla va Ko‘ksuv tomoni Yakkatutni Bo‘stonliqda tushuntiradi, yaqin geografiyani alohida bekatga aylantirmaydi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/yakkatut/yakkatut-burchmulla-koksu-context"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Before a Yakkatut Visit"
+      "ru": "Что агентства спрашивают про Перед визитом в Яккатут"
+      "uz": "Agentliklar Yakkatutga borishdan oldin haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Before a Yakkatut Visit get in the day plan?"
+          "ru": "Сколько времени закладывать на Перед визитом в Яккатут в плане дня?"
+          "uz": "Yakkatutga borishdan oldin uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "1–2 hours is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “The local details that decide whether Yakkatut belongs in the route.”."
+          "ru": "Для большинства групп реалистичный диапазон — 1–2 часа. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Местные детали, от которых зависит место Яккатута в маршруте.»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 1–2 soat. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Yakkatut yo‘lga kiradimi-yo‘qmi hal qiladigan mahalliy tafsilotlar.»."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "When is Before a Yakkatut Visit strongest during the day?"
+          "ru": "В какое время дня Перед визитом в Яккатут раскрывается сильнее?"
+          "uz": "Yakkatutga borishdan oldin kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer when the light is soft and queues are lighter. That usually improves comfort, photos, and how the stop feels in the sequence around yakkatut."
+          "ru": "Лучше когда свет мягче и очередей меньше. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с yakkatut."
+          "uz": "yorug‘lik yumshoq va navbat kamroq bo‘lganda afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (yakkatut atrofida)."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "How should Before a Yakkatut Visit sit next to nearby stops?"
+          "ru": "Как поставить Перед визитом в Яккатут рядом с соседними остановками?"
+          "uz": "Yakkatutga borishdan oldinni yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Before a Yakkatut Visit to your Uzbekistan programme"
+      "ru": "Добавьте «Перед визитом в Яккатут» в программу (Узбекистан)"
+      "uz": "Yakkatutga borishdan oldinni Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Before a Yakkatut Visit | TourLink"
+    "ru": "Перед визитом в Яккатут | TourLink"
+    "uz": "Yakkatutga borishdan oldin | TourLink"
+  "metaDescription":
+    "en": "A Yakkatut visit belongs in the route when the meeting point, welcome format, comfort details, and return timing are clear."
+    "ru": "Визит в Яккатут уместен, когда ясны точка встречи, формат приёма, бытовые детали и время возвращения."
+    "uz": "Uchrashuv joyi, qabul shakli, qulaylik tafsilotlari va qaytish vaqti aniq bo‘lganda Yakkatut yo‘lga mos keladi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "tashkent-region"
+"city": "yakkatut"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 41.615032
+"longitude": 70.086145

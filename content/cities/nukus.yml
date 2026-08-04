@@ -1,0 +1,609 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "nukus"
+  "ru": "nukus"
+  "uz": "nukus"
+"title":
+  "en": "Nukus"
+  "ru": "Нукус"
+  "uz": "Nukus"
+"subtitle":
+  "en": "Savitsky Museum, Moynaq, and ancient Khorezm"
+  "ru": "Музей Савицкого, Муйнак и древний Хорезм"
+  "uz": "Savitskiy muzeyi, Mo‘ynoq va qadimgi Xorazm"
+"excerpt":
+  "en": "Nukus makes western Uzbekistan more than a transfer. Start with the Savitsky Museum and Karakalpak collections, then decide whether the route continues to Moynaq, Chilpyk, Mizdakhan, or the fortresses of ancient Khorezm."
+  "ru": "Нукус делает западный Узбекистан больше, чем переездом. Начните с музея Савицкого и каракалпакских коллекций, а затем решайте, куда продолжать маршрут: к Муйнаку, Чилпыку, Миздакхану или крепостям древнего Хорезма."
+  "uz": "Nukus g‘arbiy O‘zbekistonni oddiy transferdan kengroq ko‘rsatadi. Avval Savitskiy muzeyi va qoraqalpoq kolleksiyalarini ko‘ring, keyin yo‘nalish Mo‘ynoqqa, Chilpiqqa, Mizdakhanga yoki qadimgi Xorazm qalʼalariga davom etishini tanlang."
+"heroImage": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/nukus.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/nukus.webp"
+    "imageAlt":
+      "en": "Nukus"
+      "ru": "Нукус"
+      "uz": "Nukus"
+    "title":
+      "en": "Nukus"
+      "ru": "Нукус"
+      "uz": "Nukus"
+    "description":
+      "en": "Savitsky Museum, Moynaq, and ancient Khorezm"
+      "ru": "Музей Савицкого, Муйнак и древний Хорезм"
+      "uz": "Savitskiy muzeyi, Mo‘ynoq va qadimgi Xorazm"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Nukus"
+      "ru": "Нукус"
+      "uz": "Nukus"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Nukus makes western Uzbekistan more than a transfer."
+              "ru": "Нукус делает западный Узбекистан больше, чем переездом."
+              "uz": "Nukus g‘arbiy O‘zbekistonni oddiy transferdan kengroq ko‘rsatadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Plan Nukus as more than a late arrival and an early departure: museum time comes first, then the road can turn toward Moynaq, Ellikqala, Mizdakhan, or Chilpyk without feeling like a transit afterthought."
+              "ru": "Планируйте Нукус не как поздний заезд и ранний выезд: сначала музейное время, затем дорога к Муйнаку, Элликкале, Миздакхану или Чилпыку без ощущения случайной транзитной остановки."
+              "uz": "Nukusni kech kelish va erta ketish sifatida rejalamang: avval muzeyga vaqt ajrating, keyin yo‘l Mo‘ynoq, Ellikqal’a, Mizdakhan yoki Chilpiq tomonga tranzit pauzadek sezilmasdan davom etadi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The Savitsky Museum and the State Museum show why Nukus matters before the route continues north to Moynaq, east to Ellikqala, or toward Mizdakhan and Chilpyk."
+              "ru": "Музей Савицкого и Государственный музей показывают, зачем задержаться в Нукусе перед продолжением на север к Муйнаку, на восток к Элликкале или к Миздакхану и Чилпыку."
+              "uz": "Savitskiy muzeyi va Davlat muzeyi Nukusda nega to‘xtash kerakligini ko‘rsatadi, keyin yo‘nalish shimolga Mo‘ynoqqa, sharqqa Ellikqal’aga yoki Mizdakhan va Chilpiq tomonga davom etadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Nukus as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Нукус как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Nukus o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Route order"
+      "ru": "Логика маршрута"
+      "uz": "Yo‘nalish tartibi"
+    "title":
+      "en": "Start with the museums, then choose the road"
+      "ru": "Сначала музеи, затем выбор дороги"
+      "uz": "Avval muzeylar, keyin yo‘l tanlovi"
+    "description":
+      "en": "Plan Nukus as more than a late arrival and an early departure: museum time comes first, then the road can turn toward Moynaq, Ellikqala, Mizdakhan, or Chilpyk without feeling like a transit afterthought."
+      "ru": "Планируйте Нукус не как поздний заезд и ранний выезд: сначала музейное время, затем дорога к Муйнаку, Элликкале, Миздакхану или Чилпыку без ощущения случайной транзитной остановки."
+      "uz": "Nukusni kech kelish va erta ketish sifatida rejalamang: avval muzeyga vaqt ajrating, keyin yo‘l Mo‘ynoq, Ellikqal’a, Mizdakhan yoki Chilpiq tomonga tranzit pauzadek sezilmasdan davom etadi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Western route points"
+        "ru": "Западные точки маршрута"
+        "uz": "G‘arbiy yo‘nalish nuqtalari"
+      "title":
+        "en": "Nukus with Moynaq and Ellikqala"
+        "ru": "Нукус рядом с Муйнаком и Элликкалой"
+        "uz": "Nukus Mo‘ynoq va Ellikqal’a bilan"
+      "description":
+        "en": "Use the map as a route check: Nukus anchors the museum start, Moynaq points north to the Aral story, and Ellikqala points east to ancient Khorezm."
+        "ru": "На карте Нукус остаётся музейным началом, Муйнак ведёт к истории Арала, а Элликкала — к древнему Хорезму."
+        "uz": "Xarita yo‘nalishni tekshirishga yordam beradi: Nukus muzeydan boshlanishni ushlab turadi, Mo‘ynoq Orol hikoyasiga, Ellikqal’a esa qadimgi Xorazmga olib boradi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 42.68863
+      "longitude": 59.852297
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "chilpyk-chilpik-dakhma"
+      - "entityType": "attraction"
+        "entitySlug": "mizdakhan-necropolis"
+      - "entityType": "attraction"
+        "entitySlug": "savitsky-state-museum-of-arts"
+      - "entityType": "attraction"
+        "entitySlug": "state-museum-history-culture-karakalpakstan"
+    "aside":
+      "eyebrow":
+        "en": "Route choice"
+        "ru": "Выбор маршрута"
+        "uz": "Yo‘nalish tanlovi"
+      "title":
+        "en": "Museum time before the long roads"
+        "ru": "Музей перед дальними дорогами"
+        "uz": "Uzoq yo‘llardan oldin muzey vaqti"
+      "description":
+        "en": "The Savitsky Museum and the State Museum show why Nukus matters before the route continues north to Moynaq, east to Ellikqala, or toward Mizdakhan and Chilpyk."
+        "ru": "Музей Савицкого и Государственный музей показывают, зачем задержаться в Нукусе перед продолжением на север к Муйнаку, на восток к Элликкале или к Миздакхану и Чилпыку."
+        "uz": "Savitskiy muzeyi va Davlat muzeyi Nukusda nega to‘xtash kerakligini ko‘rsatadi, keyin yo‘nalish shimolga Mo‘ynoqqa, sharqqa Ellikqal’aga yoki Mizdakhan va Chilpiq tomonga davom etadi."
+      "items":
+        - "title":
+            "en": "Start with Savitsky"
+            "ru": "Начните с Савицкого"
+            "uz": "Avval Savitskiy muzeyi"
+          "description":
+            "en": "The Savitsky Museum is the reason to slow down in Nukus: art, Karakalpak objects, and regional memory give the western route its first museum stop."
+            "ru": "Музей Савицкого — причина не проходить Нукус транзитом: искусство, каракалпакские предметы и память региона дают западному маршруту первую музейную остановку."
+            "uz": "Savitskiy muzeyi Nukusda sekinlashish sababi: sanʼat, qoraqalpoq buyumlari va hududiy xotira g‘arbiy yo‘nalishga birinchi muzey bekatini beradi."
+          "badge":
+            "en": "Museum first"
+            "ru": "Сначала музей"
+            "uz": "Avval muzey"
+        - "title":
+            "en": "Add local history"
+            "ru": "Добавьте местную историю"
+            "uz": "Mahalliy tarixni qo‘shing"
+          "description":
+            "en": "The State Museum, Berdakh-related culture, applied arts, costume details, and city spaces help explain where the route has arrived before it leaves town."
+            "ru": "Государственный музей, культура, связанная с Бердахом, прикладное искусство, детали костюма и городские пространства помогают понять, куда пришёл маршрут, прежде чем он уйдёт дальше."
+            "uz": "Davlat muzeyi, Berdaq bilan bog‘liq madaniyat, amaliy sanʼat, kiyim detallari va shahar makonlari yo‘nalish qayerga kelganini tushuntiradi."
+          "badge":
+            "en": "Karakalpak culture"
+            "ru": "Каракалпакская культура"
+            "uz": "Qoraqalpoq madaniyati"
+        - "title":
+            "en": "Keep Moynaq as its own stop"
+            "ru": "Муйнак — отдельная остановка"
+            "uz": "Mo‘ynoq alohida bekat"
+          "description":
+            "en": "Moynaq needs separate route time: ship hulls, dry ground, local museum material, and a different kind of visit from the city museums."
+            "ru": "Муйнак лучше планировать отдельно: корпуса кораблей, сухая земля, местный музейный материал и другой тип визита, чем в городских музеях."
+            "uz": "Mo‘ynoqni alohida rejalash kerak: kema korpuslari, quruq yer, mahalliy muzey materiali va shahar muzeylaridan boshqa turdagi tashrif."
+          "badge":
+            "en": "Aral road"
+            "ru": "Дорога к Аралу"
+            "uz": "Orol yo‘li"
+        - "title":
+            "en": "Choose Mizdakhan, Chilpyk, or Ellikqala"
+            "ru": "Выберите Миздакхан, Чилпык или Элликкалу"
+            "uz": "Mizdakhan, Chilpiq yoki Ellikqal’ani tanlang"
+          "description":
+            "en": "These are different continuations: Mizdakhan brings pilgrimage and archaeology near Khojeyli, Chilpyk sits south of Nukus by the Amu Darya road, and Ellikqala leads to ancient Khorezm."
+            "ru": "Это разные продолжения: Миздакхан связан с паломнической памятью и археологией у Ходжейли, Чилпык стоит к югу от Нукуса у дороги к Амударье, а Элликкала ведёт к древнему Хорезму."
+            "uz": "Bular turli davomlar: Mizdakhan Xo‘jayli yaqinidagi ziyorat va arxeologiya bilan bog‘liq, Chilpiq Nukus janubida Amudaryo yo‘li yonida turadi, Ellikqal’a esa qadimgi Xorazmga olib boradi."
+          "badge":
+            "en": "Next road"
+            "ru": "Следующая дорога"
+            "uz": "Keyingi yo‘l"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Main places around Nukus"
+      "ru": "Главные места вокруг Нукуса"
+      "uz": "Nukus atrofidagi asosiy joylar"
+    "description":
+      "en": "Start with Savitsky and the State Museum, then use Nukus for Mizdakhan, Chilpyk, and the road toward ancient Khorezm. A fuller city stop can include Berdakh-related culture, bazaar life, craft, and Aral-route logistics when access and timing fit."
+      "ru": "Начните с Савицкого и Государственного музея, затем используйте Нукус для Миздакхана, Чилпыка и дороги к древнему Хорезму. Более длинная остановка может включать культуру, связанную с Бердахом, рынки, ремесло и логистику маршрутов к Аралу, когда доступ и время подходят."
+      "uz": "Avval Savitskiy va Davlat muzeylaridan boshlang, keyin Nukusni Mizdakhan, Chilpiq va qadimgi Xorazm yo‘li bilan bog‘lang. Uzunroq shahar bekati Berdaq bilan bog‘liq madaniyat, bozor hayoti, hunar va Orol yo‘nalishi logistikasini ham qo‘shishi mumkin, agar kirish va vaqt mos bo‘lsa."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/nukus/attractions/savitsky-state-museum-of-arts.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Savitsky Museum"
+          "ru": "Музей Савицкого"
+          "uz": "Savitskiy muzeyi"
+        "description":
+          "en": "The Savitsky Museum is the reason to pause in Nukus instead of treating the city as a transfer. Inside, Russian avant-garde painting, Karakalpak craft, archaeological material, and Igor Savitsky's collecting story bring the region close before the route continues toward Moynaq, C"
+          "ru": "Музей Савицкого — причина задержаться в Нукусе, а не проехать мимо по дороге дальше. В его залах русский авангард, каракалпакское ремесло, археологические материалы и история Игоря Савицкого помогают увидеть регион до маршрута к Муйнаку, Чилпыку или Элликкале."
+          "uz": "Savitskiy muzeyi Nukusdan shunchaki o‘tib ketmaslik uchun sababdir. Uning zallarida rus avangard rangtasviri, qoraqalpoq hunari, arxeologik materiallar va Igor Savitskiy hikoyasi Mo‘ynoq, Chilpiq yoki Ellikqal’a yo‘lidan oldin mintaqani yaqinlashtiradi."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus/savitsky-state-museum-of-arts"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/nukus/attractions/state-museum-history-culture-karakalpakstan.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "History and Culture Museum"
+          "ru": "Музей истории и культуры"
+          "uz": "Tarix va madaniyat muzeyi"
+        "description":
+          "en": "Beside Savitsky, this museum shows Karakalpakstan differently: archaeology from ancient Khorezm, ethnographic objects, folk craft, Aral-region nature, and the republic's memory gathered in Nukus."
+          "ru": "Рядом с Савицким этот музей показывает Каракалпакстан иначе: через археологию древнего Хорезма, этнографические предметы, ремесло, природу Приаралья и память республики в Нукусе."
+          "uz": "Savitskiy yonida bu muzey Qoraqalpog‘istonni boshqacha ko‘rsatadi: qadimgi Xorazm arxeologiyasi, etnografik buyumlar, xalq hunari, Orolbo‘yi tabiati va respublika xotirasi Nukusda jamlangan."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus/state-museum-history-culture-karakalpakstan"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/nukus/attractions/mizdakhan-necropolis.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Mizdakhan Necropolis"
+          "ru": "Некрополь Миздакхан"
+          "uz": "Mizdaxon nekropoli"
+        "description":
+          "en": "Mizdakhan is not a single monument. It is a walk across hills near Khojeyli, where ancient burials, pilgrimage stories, mausoleum domes, and nearby Gyaur-Kala move the route beyond Nukus museums."
+          "ru": "Миздакхан — не один памятник, а прогулка по холмам у Ходжейли: древние погребения, паломнические предания, купола мавзолеев и контекст Гяур-Калы выводят маршрут за пределы музейного Нукуса."
+          "uz": "Mizdaxon bitta yodgorlik emas. Bu Xo‘jayli yaqinidagi tepaliklar bo‘ylab yuriladigan joy: qadimiy dafnlar, ziyorat rivoyatlari, maqbara gumbazlari va yaqin Gyaur-Kala Nukus muzeylaridan keyingi yo‘lni ochiq manzaraga olib chiqadi."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus/mizdakhan-necropolis"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/nukus/attractions/chilpyk-chilpik-dakhma.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Chilpyk / Chilpik Dakhma"
+          "ru": "Дахма Чилпык / Чилпик"
+          "uz": "Chilpiq / Chilpik daxmasi"
+        "description":
+          "en": "Chilpyk is best read as a hill and a ritual structure, not as another fortress. The circular adobe wall, exposed steps, and Amu Darya landscape connect Nukus with ancient Khorezm before the route continues toward Khiva or the desert fortresses."
+          "ru": "Чилпык лучше воспринимать как холм и ритуальное сооружение, а не как ещё одну крепость. Круглая сырцовая стена, открытые ступени и ландшафт Амударьи связывают Нукус с древним Хорезмом перед дорогой к Хиве или пустынным крепостям."
+          "uz": "Chilpiqni yana bir qalʼa emas, tepa va marosim inshooti sifatida ko‘rish kerak. Aylana xom g‘isht devor, ochiq zinapoyalar va Amudaryo manzarasi Nukusni qadimgi Xorazm bilan bog‘laydi, keyin yo‘l Xiva yoki cho‘l qalʼalariga davom etadi."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus/chilpyk-chilpik-dakhma"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City moments"
+      "ru": "Городские моменты"
+      "uz": "Shahar lahzalari"
+    "title":
+      "en": "Museum rooms and road choices"
+      "ru": "Музейные залы и выбор дороги"
+      "uz": "Muzey zallari va yo‘l tanlovi"
+    "description":
+      "en": "The strongest Nukus moments come from what the city actually adds to the route: Savitsky rooms, Karakalpak patterns, Mizdakhan or Chilpyk outside the city, and the first decision toward the Aral Sea or ancient Khorezm."
+      "ru": "Самые сильные моменты Нукуса связаны с тем, что город действительно добавляет маршруту: залы Савицкого, каракалпакские узоры, Миздакхан или Чилпык за городом и первый выбор дороги к Аралу или древнему Хорезму."
+      "uz": "Nukusning eng kuchli lahzalari shahar yo‘nalishga qo‘shadigan narsadan keladi: Savitskiy zallari, qoraqalpoq naqshlari, shahar tashqarisidagi Mizdakhan yoki Chilpiq, Orol yoki qadimgi Xorazm tomonga birinchi tanlov."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/nukus/nukus-character-1.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Mizdakhan's three hills"
+          "ru": "Три холма Миздакхана"
+          "uz": "Mizdakhan uch tepaligi"
+        "description":
+          "en": "Near Khojeyli, hill paths, mazars, baked earth, and a guide's quiet explanation turn the Nukus chapter toward pilgrimage memory and ancient Khorezm under open sky."
+          "ru": "У Ходжейли тропы на холмах, мазары, обожжённая земля и спокойное объяснение гида переводят главу Нукуса к паломнической памяти и древнему Хорезму под открытым небом."
+          "uz": "Xo‘jayli yaqinida tepalik yo‘llari, mozorlar, pishgan yer va gidning sokin izohi Nukus bobini ochiq osmon ostidagi ziyorat xotirasi va qadimgi Xorazmga buradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/nukus/nukus-character-2.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Chilpyk river wind"
+          "ru": "Речной ветер Чилпыка"
+          "uz": "Chilpiq daryo shamoli"
+        "description":
+          "en": "On the hill south of Nukus, dry wind, adobe wall, and Amu Darya light turn the road pause into an ancient open-air memory rather than a quick viewpoint."
+          "ru": "На холме к югу от Нукуса сухой ветер, сырцовая стена и свет Амударьи превращают дорожную паузу в древнюю память под открытым небом, а не в быстрый вид."
+          "uz": "Nukus janubidagi tepalikda quruq shamol, xom g‘isht devor va Amudaryo nuri yo‘l pauzasini tezkor manzaradan ko‘ra qadimiy ochiq osmon xotirasiga aylantiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Karakalpak patterns"
+          "ru": "Каракалпакские узоры"
+          "uz": "Qoraqalpoq naqshlari"
+        "description":
+          "en": "Embroidery, headdresses, woven lines, and museum cases give Karakalpak identity a close scale. The patterns turn the city pause into a quiet conversation with the region."
+          "ru": "Вышивка, головные уборы, тканые линии и музейные витрины приближают каракалпакскую идентичность. Узоры превращают городскую паузу в тихий разговор с регионом."
+          "uz": "Kashta, bosh kiyimlar, to‘qima chiziqlar va muzey vitrinalari qoraqalpoq o‘zligini yaqin miqyosda ko‘rsatadi. Naqshlar shahar pauzasini hudud bilan sokin suhbatga aylantiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Savitsky gallery quiet"
+          "ru": "Тишина галереи Савицкого"
+          "uz": "Savitskiy galereyasi sokinligi"
+        "description":
+          "en": "In a calm museum room, avant-garde color, Karakalpak objects, a lowered voice, and the hush of footsteps make Nukus feel larger than its broad streets outside."
+          "ru": "В спокойном зале музея авангардный цвет, каракалпакские предметы, пониженный голос и мягкий звук шагов делают Нукус шире, чем его прямые улицы за дверью."
+          "uz": "Sokin muzey zalida avangard rang, qoraqalpoq buyumlari, past ovoz va yumshoq qadam tovushi Nukusni tashqaridagi keng ko‘chalaridan ham kattaroq his qildiradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "How to place Nukus in the western route"
+      "ru": "Как поставить Нукус в западный маршрут"
+      "uz": "Nukusni g‘arbiy yo‘nalishga qanday joylashtirish"
+    "description":
+      "en": "Nukus works best when the route gives it a clear role: museum city, Karakalpak culture, and the decision point before Moynaq, Mizdakhan, Chilpyk, Ellikqala, or the return toward Khiva."
+      "ru": "Нукус лучше раскрывается, когда у него есть ясная роль: музейный город, каракалпакская культура и точка выбора перед Муйнаком, Миздакханом, Чилпыком, Элликкалой или возвращением к Хиве."
+      "uz": "Nukus yo‘nalishda aniq rol olganda yaxshiroq ochiladi: muzey shahri, qoraqalpoq madaniyati va Mo‘ynoq, Mizdakhan, Chilpiq, Ellikqal’a yoki Xiva tomonga qaytishdan oldingi tanlov nuqtasi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Museum first"
+              "ru": "Сначала музей"
+              "uz": "Avval muzey"
+            "description":
+              "en": "Start with Savitsky and add the State Museum when the route needs more local history. That keeps Nukus from becoming only an overnight stop before the next road."
+              "ru": "Начните с Савицкого и добавляйте Государственный музей, когда маршруту нужна более глубокая местная история. Так Нукус не превращается только в ночёвку перед следующей дорогой."
+              "uz": "Savitskiydan boshlang va yo‘nalishga mahalliy tarix kerak bo‘lsa, Davlat muzeyini qo‘shing. Shunda Nukus keyingi yo‘l oldidagi oddiy tunash joyiga aylanmaydi."
+          - "type": "quote"
+            "quote":
+              "en": "Nukus is where the western route stops being only a transfer."
+              "ru": "В Нукусе западный маршрут перестаёт быть просто переездом."
+              "uz": "Nukusda g‘arbiy yo‘nalish oddiy transfer bo‘lib qolmaydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Beyond Savitsky"
+              "ru": "Не только Савицкий"
+              "uz": "Savitskiydan tashqari"
+            "description":
+              "en": "Berdakh-related culture, applied arts, bazaar life, and Karakalpak food can make the city more complete, but they need current access and timing checks."
+              "ru": "Культура, связанная с Бердахом, прикладное искусство, рынки и каракалпакская еда могут сделать город полнее, но для них нужны актуальные проверки доступа и времени."
+              "uz": "Berdaq bilan bog‘liq madaniyat, amaliy sanʼat, bozorlar va qoraqalpoq taomlari shaharni to‘liqroq ko‘rsatishi mumkin, ammo ular uchun kirish va vaqtni tekshirish kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Choose the continuation"
+              "ru": "Выберите продолжение"
+              "uz": "Davomni tanlang"
+            "description":
+              "en": "Moynaq, Mizdakhan, Chilpyk, and Ellikqala should not be compressed automatically. Each one changes the route in a different direction."
+              "ru": "Муйнак, Миздакхан, Чилпык и Элликкалу не стоит автоматически сжимать в одну программу. Каждое направление меняет маршрут по-своему."
+              "uz": "Mo‘ynoq, Mizdakhan, Chilpiq va Ellikqal’ani avtomatik ravishda bitta dasturga siqmaslik kerak. Har biri yo‘nalishni boshqacha tomonga olib boradi."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchilar uchun"
+            "description":
+              "en": "Treat Nukus as the museum and planning stop for western Uzbekistan: Savitsky first, then the road that best fits Moynaq, Mizdakhan, Chilpyk, Ellikqala, or the return toward Khiva."
+              "ru": "Относитесь к Нукусу как к музейной и маршрутной остановке западного Узбекистана: сначала Савицкий, затем дорога, которая лучше подходит для Муйнака, Миздакхана, Чилпыка, Элликкалы или возвращения к Хиве."
+              "uz": "Nukusga g‘arbiy O‘zbekistonning muzey va yo‘nalish bekati sifatida qarang: avval Savitskiy, keyin Mo‘ynoq, Mizdakhan, Chilpiq, Ellikqal’a yoki Xiva tomonga qaytishga eng mos yo‘l."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before you go Route role"
+                  "ru": "Перед поездкой Роль в маршруте"
+                  "uz": "Safardan oldin Yo‘nalishdagi roli"
+                "description":
+                  "en": "Museum city and route anchor for Karakalpakstan after Khiva or Urgench."
+                  "ru": "Музейный город и маршрутная опора Каракалпакстана после Хивы или Ургенча."
+                  "uz": "Xiva yoki Urganchdan keyin Qoraqalpog‘iston uchun muzey shahri va yo‘nalish tayanchi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "First stop"
+                  "ru": "Первое место"
+                  "uz": "Birinchi bekat"
+                "description":
+                  "en": "Savitsky Museum, then the State Museum when the schedule allows."
+                  "ru": "Музей Савицкого, затем Государственный музей, если график позволяет."
+                  "uz": "Savitskiy muzeyi, keyin jadval mos bo‘lsa Tarix va madaniyat davlat muzeyi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Season and pace"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va surʼat"
+                "description":
+                  "en": "Spring and autumn are easiest; summer routes need heat-aware timing and confirmed transport."
+                  "ru": "Весна и осень проще; летом нужны маршрут с учётом жары и подтверждённый транспорт."
+                  "uz": "Bahor va kuz osonroq; yozgi yo‘nalishlarda issiqni hisobga olgan vaqt va tasdiqlangan transport kerak."
+              - "icon": "Route"
+                "title":
+                  "en": "Next roads"
+                  "ru": "Дальше"
+                  "uz": "Keyingi yo‘llar"
+                "description":
+                  "en": "Moynaq, Mizdakhan, Chilpyk, Ellikqala, or a longer Aral and Ustyurt continuation."
+                  "ru": "Муйнак, Миздакхан, Чилпык, Элликкала или более длинное продолжение к Аралу и Устюрту."
+                  "uz": "Mo‘ynoq, Mizdakhan, Chilpiq, Ellikqal’a yoki Orol va Ustyurt tomonga uzunroq davom."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route connections"
+      "ru": "Продолжение маршрута"
+      "uz": "Yo‘nalish davomi"
+    "title":
+      "en": "Where to continue after Nukus"
+      "ru": "Куда продолжать после Нукуса"
+      "uz": "Nukusdan keyin qayerga borish"
+    "description":
+      "en": "Moynaq, Ellikqala, and Khiva are not the same kind of continuation. Choose by distance, season, and whether the route needs the Aral story, ancient Khorezm, or a return toward Khiva."
+      "ru": "Муйнак, Элликкала и Хива — разные продолжения. Выбирайте по расстоянию, сезону и тому, что нужно маршруту: история Арала, древний Хорезм или возвращение к Хиве."
+      "uz": "Mo‘ynoq, Ellikqal’a va Xiva bir xil davom emas. Masofa, mavsum va yo‘nalishga kerak bo‘lgan mavzu bo‘yicha tanlang: Orol hikoyasi, qadimgi Xorazm yoki Xiva tomonga qaytish."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/nukus-next-moynaq.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Moynaq"
+          "ru": "Муйнак"
+          "uz": "Mo‘ynoq"
+        "description":
+          "en": "Plan Moynaq from Nukus with the ship graveyard, former fishing port, local museum, dry seabed, and Karakalpakstan route context."
+          "ru": "Муйнак из Нукуса: кладбище кораблей, бывший рыбацкий порт, местный музей, сухое морское дно и контекст маршрута по Каракалпакстану."
+          "uz": "Mo‘ynoqni Nukusdan rejalang: kema qabristoni, sobiq baliqchi porti, mahalliy muzey, quruq dengiz tubi va Qoraqalpog‘iston yo‘nalishi konteksti."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/moynaq"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/nukus-next-ellikqala.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ellikqala"
+          "ru": "Элликкала"
+          "uz": "Ellikqal’a"
+        "description":
+          "en": "Ellikqala brings the Karakalpakstan route to the desert fortresses of Ancient Khorezm: Toprak-Kala, Kyzyl-Kala, Ayaz-Kala, open roads, access checks, and the link between Nukus and Khiva."
+          "ru": "Элликкала выводит маршрут по Каракалпакстану к пустынным крепостям древнего Хорезма: Топрак-Кале, Кызыл-Кале, Аяз-Кале, открытым дорогам, проверкам доступа и пути между Нукусом и Хивой."
+          "uz": "Ellikqal’a Qoraqalpog‘iston yo‘lini qadimgi Xorazm qalʼalariga olib boradi: Tuproq-qalʼa, Qizil-qalʼa, Ayoz-qalʼa, ochiq yo‘llar, kirish tekshiruvlari va Nukus bilan Xiva orasidagi yo‘l."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/ellikqala"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Nukus in the day plan"
+      "ru": "Как поставить Нукус в план дня"
+      "uz": "Nukusni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Nukus?"
+          "ru": "Сколько времени группам стоит проводить в Нукус?"
+          "uz": "Nukusda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Savitsky Museum, Moynaq, and ancient Khorezm”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Музей Савицкого, Муйнак и древний Хорезм»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Savitskiy muzeyi, Mo‘ynoq va qadimgi Xorazm»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Nukus be a walkable core or a base for day trips?"
+          "ru": "Нукус — это пешеходное ядро или база для выездов?"
+          "uz": "Nukus piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Nukus's centre?"
+          "ru": "Где лучше ночевать относительно центра Нукус?"
+          "uz": "Nukus markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/nukus.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Nukus stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Нукус» в программу (Узбекистан)"
+      "uz": "Nukus bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Nukus | TourLink"
+    "ru": "Нукус | TourLink"
+    "uz": "Nukus | TourLink"
+  "metaDescription":
+    "en": "Nukus makes western Uzbekistan more than a transfer. Start with the Savitsky Museum and Karakalpak collections, then decide whether the route continues to Moynaq, Chilpyk, Mizdakhan, or the fortresses of ancient Khorezm."
+    "ru": "Нукус делает западный Узбекистан больше, чем переездом. Начните с музея Савицкого и каракалпакских коллекций, а затем решайте, куда продолжать маршрут: к Муйнаку, Чилпыку, Миздакхану или крепостям древнего Хорезма."
+    "uz": "Nukus g‘arbiy O‘zbekistonni oddiy transferdan kengroq ko‘rsatadi. Avval Savitskiy muzeyi va qoraqalpoq kolleksiyalarini ko‘ring, keyin yo‘nalish Mo‘ynoqqa, Chilpiqqa, Mizdakhanga yoki qadimgi Xorazm qalʼalariga davom etishini tanlang."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "karakalpakstan-and-aral-sea"
+"latitude": 42.4600229
+"longitude": 59.6176603

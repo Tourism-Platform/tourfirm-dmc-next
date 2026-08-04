@@ -1,0 +1,521 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "nurek"
+  "ru": "nurek"
+  "uz": "nurek"
+"title":
+  "en": "Nurek"
+  "ru": "Нурек"
+  "uz": "Nurek"
+"subtitle":
+  "en": "Water, dry hills, and the Vakhsh hydropower story"
+  "ru": "Вода, сухие холмы и история Вахшской гидроэнергии"
+  "uz": "Suv, quruq tepaliklar va Vaxsh gidroenergetikasi hikoyasi"
+"excerpt":
+  "en": "Nurek changes the southern road before it becomes a long Khatlon journey. Water appears between dry hills, the dam gives the landscape its scale, and the right visit stays clear-eyed: confirmed viewpoints, no casual infrastructure access, and an early choice between returning to Dushanbe or continuing toward Bokhtar and Kulob."
+  "ru": "Нурек меняет южную дорогу еще до того, как она становится длинным маршрутом по Хатлону. Между сухими холмами появляется вода, плотина задает месту масштаб, а удачный визит остается честным: проверенные смотровые точки, без обещаний свободного доступа к инфраструктуре, и раннее решение - вернуться в Душанбе или продолжить к Бохтару и Кулябу."
+  "uz": "Nurek janubiy yo‘l uzoq Xatlon marshrutiga aylanishidan oldin uning ohangini o‘zgartiradi. Quruq tepaliklar orasida suv ko‘rinadi, to‘g‘on manzaraga miqyos beradi, yaxshi tashrif esa aniq qoladi: tasdiqlangan tomosha nuqtalari, infratuzilmaga erkin kirish va’dasisiz, va Dushanbega qaytish yoki Boxtar hamda Ko‘lob tomon davom etish bo‘yicha erta qaror."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "Nurek"
+      "ru": "Нурек"
+      "uz": "Nurek"
+    "title":
+      "en": "Nurek"
+      "ru": "Нурек"
+      "uz": "Nurek"
+    "description":
+      "en": "Water, dry hills, and the Vakhsh hydropower story"
+      "ru": "Вода, сухие холмы и история Вахшской гидроэнергии"
+      "uz": "Suv, quruq tepaliklar va Vaxsh gidroenergetikasi hikoyasi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Nurek"
+      "ru": "Нурек"
+      "uz": "Nurek"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Nurek changes the southern road before it becomes a long Khatlon journey."
+              "ru": "Нурек меняет южную дорогу еще до того, как она становится длинным маршрутом по Хатлону."
+              "uz": "Nurek janubiy yo‘l uzoq Xatlon marshrutiga aylanishidan oldin uning ohangini o‘zgartiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Treat Nurek as a short, careful road stop. The value is in the approach, the reservoir views, and the hydropower setting; dam entry, facility visits, boating, swimming, shoreline access, and photography rules all need date-specific local confirmation."
+              "ru": "Смотрите на Нурек как на короткую и осторожную дорожную остановку. Ценность здесь - в подъезде, видах водохранилища и гидроэнергетическом масштабе; вход на плотину, посещение объектов, лодки, купание, береговой отдых и правила съемки требуют проверки под дату поездки."
+              "uz": "Nurekka qisqa va ehtiyotkor yo‘l to‘xtashi sifatida qarang. Qiymat yo‘lning o‘zida, suv ombori manzaralarida va gidroenergetika miqyosida; to‘g‘onga kirish, obyektlarni ko‘rish, qayiq, cho‘milish, qirg‘oq dami va suratga olish qoidalari safar sanasiga qarab mahalliy tekshiruv talab qiladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The clearest plan leaves Dushanbe without cramming the day, gives Nurek time for the road and water, then returns north or continues south only when the wider Khatlon route is already planned."
+              "ru": "Самый понятный план выходит из Душанбе без перегруза, оставляет Нуреку время на дорогу и воду, а затем возвращается на север или продолжается на юг только если широкий маршрут по Хатлону уже продуман."
+              "uz": "Eng tushunarli reja Dushanbedan kunni siqmasdan chiqadi, Nurekka yo‘l va suv uchun vaqt beradi, keyin shimolga qaytadi yoki kengroq Xatlon marshruti oldindan tuzilgan bo‘lsa, janubga davom etadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Nurek as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Нурек как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Nurek o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "Nurek makes sense from the road"
+      "ru": "Нурек понятен с дороги"
+      "uz": "Nurek yo‘lda tushunarli bo‘ladi"
+    "description":
+      "en": "Treat Nurek as a short, careful road stop. The value is in the approach, the reservoir views, and the hydropower setting; dam entry, facility visits, boating, swimming, shoreline access, and photography rules all need date-specific local confirmation."
+      "ru": "Смотрите на Нурек как на короткую и осторожную дорожную остановку. Ценность здесь - в подъезде, видах водохранилища и гидроэнергетическом масштабе; вход на плотину, посещение объектов, лодки, купание, береговой отдых и правила съемки требуют проверки под дату поездки."
+      "uz": "Nurekka qisqa va ehtiyotkor yo‘l to‘xtashi sifatida qarang. Qiymat yo‘lning o‘zida, suv ombori manzaralarida va gidroenergetika miqyosida; to‘g‘onga kirish, obyektlarni ko‘rish, qayiq, cho‘milish, qirg‘oq dami va suratga olish qoidalari safar sanasiga qarab mahalliy tekshiruv talab qiladi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Marshrut xaritasi"
+      "title":
+        "en": "Between the capital and southern Khatlon"
+        "ru": "Между столицей и южным Хатлоном"
+        "uz": "Poytaxt va janubiy Xatlon oralig‘ida"
+      "description":
+        "en": "The map marks Nurek between Dushanbe, Bokhtar, and Kulob. It is orientation, not an access guarantee: viewpoints, security-sensitive zones, heat, and road timing still need local checks."
+        "ru": "Карта показывает Нурек между столицей и южным Хатлоном. Это ориентация, а не гарантия доступа: смотровые точки, чувствительные зоны, жара и время дороги все равно требуют местной проверки."
+        "uz": "Xarita Nurekni Dushanbe, Boxtar va Ko‘lob oralig‘ida ko‘rsatadi. Bu faqat yo‘nalish, kirish kafolati emas: tomosha nuqtalari, sezgir hududlar, issiq va yo‘l vaqti baribir mahalliy tekshiruv talab qiladi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 38.179799
+      "longitude": 69.156122
+    "zoom": 14
+    "stops": []
+    "aside":
+      "eyebrow":
+        "en": "Route sequence"
+        "ru": "Последовательность"
+        "uz": "Ketma-ketlik"
+      "title":
+        "en": "Dushanbe to Nurek, then one clear next move"
+        "ru": "Из Душанбе к Нуреку, затем одно ясное продолжение"
+        "uz": "Dushanbedan Nurekka, keyin bitta aniq davom"
+      "description":
+        "en": "The clearest plan leaves Dushanbe without cramming the day, gives Nurek time for the road and water, then returns north or continues south only when the wider Khatlon route is already planned."
+        "ru": "Самый понятный план выходит из Душанбе без перегруза, оставляет Нуреку время на дорогу и воду, а затем возвращается на север или продолжается на юг только если широкий маршрут по Хатлону уже продуман."
+        "uz": "Eng tushunarli reja Dushanbedan kunni siqmasdan chiqadi, Nurekka yo‘l va suv uchun vaqt beradi, keyin shimolga qaytadi yoki kengroq Xatlon marshruti oldindan tuzilgan bo‘lsa, janubga davom etadi."
+      "items":
+        - "title":
+            "en": "Let the approach set the tone"
+            "ru": "Пусть подъезд задаст тон"
+            "uz": "Yo‘lning o‘zi ohang bersin"
+          "description":
+            "en": "The road from the capital is part of the reason to come: the city thins out, hills dry, and the Vakhsh valley begins to shape the view."
+            "ru": "Дорога из столицы уже часть причины ехать: город редеет, холмы становятся суше, и долина Вахша начинает формировать вид."
+            "uz": "Poytaxtdan chiqish yo‘li bu yerga kelish sababining bir qismi: shahar siyraklashadi, tepaliklar quriydi va Vaxsh vodiysi manzarani shakllantira boshlaydi."
+        - "title":
+            "en": "Keep the water stop simple"
+            "ru": "Держите остановку у воды простой"
+            "uz": "Suv yonidagi to‘xtashni sodda tuting"
+          "description":
+            "en": "The reservoir gives Nurek its clearest visual moment. Stay with broad views from safe, confirmed points instead of treating the shore as open recreation."
+            "ru": "Водохранилище дает Нуреку самый ясный визуальный момент. Оставайтесь у широких видов с безопасных, подтвержденных точек и не считайте берег открытым местом отдыха."
+            "uz": "Suv ombori Nurekning eng aniq vizual lahzasini beradi. Qirg‘oqni ochiq dam olish joyi deb qabul qilmay, xavfsiz va tasdiqlangan nuqtalardan keng manzaralarda qoling."
+        - "title":
+            "en": "Explain the dam without access claims"
+            "ru": "Объясняйте плотину без обещаний доступа"
+            "uz": "To‘g‘onni kirish va’dasisiz tushuntiring"
+          "description":
+            "en": "The dam matters to Tajikistan's energy story, but infrastructure is sensitive. Tell the story from confirmed viewpoints unless a current permission says otherwise."
+            "ru": "Плотина важна для энергетической истории Таджикистана, но инфраструктура чувствительна. Эту историю лучше смотреть с подтвержденных точек, если отдельное разрешение не открывает большего."
+            "uz": "To‘g‘on Tojikiston energetika hikoyasi uchun muhim, lekin infratuzilma sezgir. Uni hozirgi ruxsat boshqacha imkon bermasa, tasdiqlangan nuqtalardan tushuntiring."
+        - "title":
+            "en": "Let comfort set the limit"
+            "ru": "Пусть жара и время дороги задают предел"
+            "uz": "Issiq va yo‘l vaqti chegarani belgilasin"
+          "description":
+            "en": "Sun, shade, drinking water, vehicle comfort, and return distance should decide whether Nurek remains a day route or becomes the first step into Khatlon."
+            "ru": "Солнце, тень, питьевая вода, комфорт машины и расстояние обратной дороги должны решить, останется ли Нурек дневным маршрутом или станет первым шагом в Хатлон."
+            "uz": "Quyosh, soya, ichimlik suvi, mashina qulayligi va qaytish masofasi Nurek kunlik yo‘l bo‘lib qoladimi yoki Xatlonga birinchi qadam bo‘ladimi, shuni belgilashi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Water, dry hills, and one road choice"
+      "ru": "Вода, сухие холмы и один выбор дороги"
+      "uz": "Suv, quruq tepaliklar va bitta yo‘l tanlovi"
+    "description":
+      "en": "Keep Nurek compact: arrive from Dushanbe, take in the reservoir from confirmed viewpoints, treat the dam as an interpreted story, then choose whether to return or continue south."
+      "ru": "Нурек лучше проходить компактно: дорога из Душанбе, виды водохранилища с подтвержденных точек, история плотины без обещаний доступа, затем решение - возвращаться или продолжать на юг."
+      "uz": "Nurekni ixcham ko‘rish ma’qul: Dushanbe yo‘li, tasdiqlangan nuqtalardan suv ombori manzaralari, kirish va’dasisiz to‘g‘on hikoyasi, keyin qaytish yoki janubga davom etish qarori."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nurek moments"
+      "ru": "Моменты Нурека"
+      "uz": "Nurek lahzalari"
+    "title":
+      "en": "Three measured ways to understand the reservoir road"
+      "ru": "Три аккуратных способа понять дорогу к водохранилищу"
+      "uz": "Suv ombori yo‘lini tushunishning uch ehtiyotkor usuli"
+    "description":
+      "en": "Three small moments make Nurek useful: the road from Dushanbe, the dam story from safe viewpoints, and the decision to return or continue south."
+      "ru": "Три небольших момента делают Нурек понятным: дорога из Душанбе, история плотины с безопасных точек и решение - возвращаться или продолжать на юг."
+      "uz": "Uchta kichik lahza Nurekni tushunarli qiladi: Dushanbedan keladigan yo‘l, to‘g‘on hikoyasi xavfsiz nuqtalardan va qaytish yoki janubga davom etish qarori."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Water views without rushing the return"
+          "ru": "Виды воды без спешного возвращения"
+          "uz": "Qaytishni shoshirmasdan suv manzaralari"
+        "description":
+          "en": "The drive gives Nurek room to breathe: dry hills, Vakhsh water, and enough time to decide whether the route turns back or moves south."
+          "ru": "Поездка дает Нуреку пространство: сухие холмы, вода Вахша и время решить, поворачивать назад или двигаться на юг."
+          "uz": "Yo‘l Nurekka kenglik beradi: quruq tepaliklar, Vaxsh suvi va marshrut orqaga qaytadimi yoki janubga yuradimi, shuni hal qilish uchun vaqt."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "The dam story without access claims"
+          "ru": "История плотины без обещаний доступа"
+          "uz": "To‘g‘on hikoyasi kirish va’dasisiz"
+        "description":
+          "en": "Nurek's engineering scale helps explain the valley, but keep it to confirmed public viewpoints unless a current permission opens more."
+          "ru": "Инженерный масштаб Нурека помогает понять долину, но смотреть его нужно с подтвержденных публичных точек, если отдельное разрешение не открывает большего."
+          "uz": "Nurekning muhandislik miqyosi vodiyni tushunishga yordam beradi, lekin hozirgi ruxsat boshqacha imkon bermasa, uni faqat tasdiqlangan ochiq nuqtalardan ko‘rish ma’qul."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Return to Dushanbe or continue into Khatlon"
+          "ru": "Назад в Душанбе или дальше в Хатлон"
+          "uz": "Dushanbega qaytish yoki Xatlonga davom"
+        "description":
+          "en": "After the reservoir, choose one direction: a calm return to the capital or a planned continuation toward Bokhtar, Kulob, and southern Khatlon."
+          "ru": "После водохранилища выберите одно направление: спокойное возвращение в столицу или продуманное продолжение к Бохтару, Кулябу и южному Хатлону."
+          "uz": "Suv omboridan keyin bitta yo‘nalish ma’qul: poytaxtga sokin qaytish yoki Boxtar, Ko‘lob va janubiy Xatlon tomon rejalangan davom."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "A clear, careful reservoir stop"
+      "ru": "Ясная и осторожная остановка"
+      "uz": "Aniq va ehtiyotkor to‘xtash"
+    "description":
+      "en": "Nurek is most useful when the plan stays honest: a short reservoir-road stop, not a claim of open access to sensitive infrastructure."
+      "ru": "Нурек полезнее всего, когда план остается честным: короткая остановка на дороге к водохранилищу, а не обещание открытого доступа к чувствительной инфраструктуре."
+      "uz": "Reja halol qolganida Nurek eng foydali: bu suv ombori yo‘lidagi qisqa to‘xtash, sezgir infratuzilmaga ochiq kirish va’dasi emas."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "The road and water are enough"
+              "ru": "Дороги и воды здесь достаточно"
+              "uz": "Bu yerda yo‘l va suvning o‘zi yetarli"
+            "description":
+              "en": "The shift from Dushanbe to reservoir country is enough to make Nurek meaningful. It does not need a long list or a shoreline promise that is not confirmed."
+              "ru": "Переход от Душанбе к стране водохранилища уже делает Нурек осмысленным. Ему не нужен длинный список или неподтвержденное обещание берега."
+              "uz": "Dushanbedan suv ombori hududiga o‘tishning o‘zi Nurekni mazmunli qiladi. Unga uzun ro‘yxat yoki tasdiqlanmagan qirg‘oq va’dasi kerak emas."
+          - "type": "quote"
+            "quote":
+              "en": "Nurek is clearest as a road decision: water in the hills, hydropower scale, and access checked before the route promises more."
+              "ru": "Нурек яснее всего как дорожное решение: вода в холмах, гидроэнергетический масштаб и доступ, проверенный до того, как маршрут обещает больше."
+              "uz": "Nurek yo‘l qarori sifatida eng aniq: tepaliklar orasidagi suv, gidroenergetika miqyosi va marshrut ko‘proq va’da berishidan oldin tekshirilgan kirish."
+          - "type": "dashTitle"
+            "title":
+              "en": "A careful dam story"
+              "ru": "История плотины без лишних обещаний"
+              "uz": "To‘g‘on hikoyasi ortiqcha va’dalarsiz"
+            "description":
+              "en": "The hydropower setting gives the place scale, but access to infrastructure is not a casual sightseeing item. Treat the dam as an interpreted story unless permissions are clear."
+              "ru": "Гидроэнергетический масштаб дает месту силу, но доступ к инфраструктуре не является обычным туристическим пунктом. Считайте плотину объясненной историей, пока разрешения не ясны."
+              "uz": "Gidroenergetika miqyosi joyga kuch beradi, lekin infratuzilmaga kirish oddiy sayyohlik bandi emas. Ruxsatlar aniq bo‘lmaguncha, to‘g‘onni tushuntiriladigan mazmun sifatida qabul qiling."
+          - "type": "dashTitle"
+            "title":
+              "en": "Choose the next road before the stop gets rushed"
+              "ru": "Выберите следующую дорогу до спешки"
+              "uz": "Shoshilishdan oldin keyingi yo‘lni tanlang"
+            "description":
+              "en": "Nurek can close a compact Dushanbe day or start the move toward Bokhtar and Kulob. Trying to do both at once makes the stop feel rushed."
+              "ru": "Нурек может быть днем с возвращением в Душанбе или первым шагом к Бохтару и Кулябу. Смешивать оба замысла в один спешный день не стоит."
+              "uz": "Nurek Dushanbega qaytadigan kun yoki Boxtar va Ko‘lob tomon birinchi qadam bo‘lishi mumkin. Ikkalasini bitta shoshilinch kunga siqish to‘xtashni zaiflashtiradi."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Что важно путешественнику"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Come for reservoir scale and a measured road day. Leave dam access, shoreline recreation, boating, swimming, and facility visits out unless the local check says yes."
+              "ru": "Приезжайте за масштабом водохранилища и взвешенным дорожным днем. Доступ к плотине, береговой отдых, лодки, купание и посещение объектов оставляйте вне маршрута, пока местная проверка не скажет да."
+              "uz": "Suv ombori miqyosi va o‘lchangan yo‘l kuni uchun keling. To‘g‘onga kirish, qirg‘oq dami, qayiq, cho‘milish va obyektlarni ko‘rishni mahalliy tekshiruv ruxsat bermaguncha marshrutdan tashqarida qoldiring."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "Reservoir-road town in Khatlon & Southern Archaeology, southeast of Dushanbe."
+                  "ru": "Город на дороге к водохранилищу в регионе Хатлон и южная археология, к юго-востоку от Душанбе."
+                  "uz": "Dushanbedan janubi-sharqda, Xatlon va Janubiy arxeologiya hududidagi suv ombori yo‘li shahri."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Visit shape"
+                  "ru": "Формат визита"
+                  "uz": "Tashrif shakli"
+                "description":
+                  "en": "Usually a day route from Dushanbe or a short, checked stop before southern Khatlon."
+                  "ru": "Обычно дневной маршрут из Душанбе или короткая проверенная остановка перед южным Хатлоном."
+                  "uz": "Odatda Dushanbedan kunlik yo‘l yoki janubiy Xatlonga oldindan tekshirilgan qisqa to‘xtash."
+              - "icon": "Sun"
+                "title":
+                  "en": "What matters"
+                  "ru": "Что важно"
+                  "uz": "Muhim jihatlar"
+                "description":
+                  "en": "Vakhsh reservoir views, the dam's hydropower story, safe road viewpoints, and the Dushanbe-Khatlon decision."
+                  "ru": "Виды Вахшского водохранилища, гидроэнергетическая история плотины, безопасные дорожные точки и выбор Душанбе - Хатлон."
+                  "uz": "Vaxsh suv ombori manzaralari, to‘g‘onning gidroenergetika hikoyasi, xavfsiz yo‘l nuqtalari va Dushanbe - Xatlon qarori."
+              - "icon": "Route"
+                "title":
+                  "en": "Access"
+                  "ru": "Доступ"
+                  "uz": "Kirish"
+                "description":
+                  "en": "Dam areas, shoreline activity, facility visits, boating, swimming, photography, and recreation claims need local confirmation before they enter a program."
+                  "ru": "Плотина, береговая активность, посещение объектов, лодки, купание, съемка и рекреационные обещания требуют местного подтверждения до включения в программу."
+                  "uz": "To‘g‘on hududlari, qirg‘oq faoliyati, obyektlarga kirish, qayiq, cho‘milish, suratga olish va dam olish va’dalari dasturga kirishidan oldin mahalliy tasdiq talab qiladi."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Comfort"
+                  "ru": "Комфорт"
+                  "uz": "Qulaylik"
+                "description":
+                  "en": "Heat, shade, water, vehicle comfort, and return distance shape how long the stop should be."
+                  "ru": "Жара, тень, вода, комфорт машины и расстояние обратной дороги задают длительность остановки."
+                  "uz": "Issiq, soya, suv, mashina qulayligi va qaytish masofasi to‘xtash qancha davom etishini belgilaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Where to continue"
+      "ru": "Куда продолжить"
+      "uz": "Qayerga davom etish"
+    "title":
+      "en": "Dushanbe, Bokhtar, and Kulob"
+      "ru": "Душанбе, Бохтар и Куляб"
+      "uz": "Dushanbe, Boxtar va Ko‘lob"
+    "description":
+      "en": "Dushanbe is the natural start or return. Bokhtar and Kulob make sense when Nurek is part of a planned Khatlon route, not an overloaded day."
+      "ru": "Душанбе - естественное начало или возвращение. Бохтар и Куляб уместны, когда Нурек входит в продуманный маршрут по Хатлону, а не в перегруженный день."
+      "uz": "Dushanbe tabiiy boshlanish yoki qaytish nuqtasi. Boxtar va Ko‘lob Nurek rejalangan Xatlon marshrutining bir qismi bo‘lsa, ma’noli; haddan tashqari to‘ldirilgan kun uchun emas."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Dushanbe"
+          "ru": "Душанбе"
+          "uz": "Dushanbe"
+        "description":
+          "en": "Dushanbe is Tajikistan's calm arrival city: Rudaki Avenue shade, national museums, tea-house stops, and first choices toward Hissar, Varzob, or higher valleys."
+          "ru": "Душанбе — спокойное место прибытия в Таджикистан: тень проспекта Рудаки, национальные музеи, чайхана или рынок и первые решения к Гиссару, Варзобу или высоким долинам."
+          "uz": "Dushanbe Tojikistonga sokin kirish shahri: Rudakiy xiyoboni soyasi, milliy muzeylar, choyxona toʻxtashlari va Hisor, Varzob yoki baland vodiylar tomon ilk tanlovlar."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/dushanbe"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Bokhtar"
+          "ru": "Бохтар"
+          "uz": "Boxtar"
+        "description":
+          "en": "Bokhtar gives southern Tajikistan a human start: bazaar streets, regional museum context, nearby Ajina Teppa, and Vakhsh Valley roads shaped by local advice."
+          "ru": "Бохтар делает юг Таджикистана более живым и понятным: базарные улицы, региональный музей, Аджинатеппа рядом и дороги Вахшской долины, где важен местный совет."
+          "uz": "Boxtar janubiy Tojikistonga mahalliy ritm beradi: bozor ko‘chalari, mintaqaviy muzey, yaqin Ajinatepa va mahalliy maslahat talab qiladigan Vaxsh vodiysi yo‘llari."
+        "ctaHref": "/destinations/tajikistan/khatlon-and-southern-archaeology/bokhtar"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Kulob"
+          "ru": "Куляб"
+          "uz": "Koʻlob"
+        "description":
+          "en": "Kulob gives southern Khatlon a measured stop around the Hamadani shrine, market streets, museum time, and the carefully chosen road toward Hulbuk or Dushanbe."
+          "ru": "Куляб даёт южному Хатлону спокойную остановку: пространство Хамадани, рыночные улицы, время для музея и аккуратный выбор дороги к Хулбуку или Душанбе."
+          "uz": "Koʻlob janubiy Xatlonda Hamadoniy ziyoratgohi, bozor koʻchalari, muzey vaqti va Hulbuk yoki Dushanbe tomon ehtiyotkor yoʻl tanlovi uchun sokin toʻxtash beradi."
+        "ctaHref": "/destinations/tajikistan/khatlon-and-southern-archaeology/kulob"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Nurek in the day plan"
+      "ru": "Как поставить Нурек в план дня"
+      "uz": "Nurekni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Nurek?"
+          "ru": "Сколько времени группам стоит проводить в Нурек?"
+          "uz": "Nurekda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Water, dry hills, and the Vakhsh hydropower story”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Вода, сухие холмы и история Вахшской гидроэнергии»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Suv, quruq tepaliklar va Vaxsh gidroenergetikasi hikoyasi»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Nurek be a walkable core or a base for day trips?"
+          "ru": "Нурек — это пешеходное ядро или база для выездов?"
+          "uz": "Nurek piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Nurek's centre?"
+          "ru": "Где лучше ночевать относительно центра Нурек?"
+          "uz": "Nurek markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Nurek stop into your Tajikistan programme"
+      "ru": "Встройте остановку «Нурек» в программу (Таджикистан)"
+      "uz": "Nurek bekatini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Nurek | TourLink"
+    "ru": "Нурек | TourLink"
+    "uz": "Nurek | TourLink"
+  "metaDescription":
+    "en": "Nurek changes the southern road before it becomes a long Khatlon journey. Water appears between dry hills, the dam gives the landscape its scale, and the right visit stays clear-eyed: confirmed viewpoints, no casual infrastructure access, and an early choice between returning to Dushanbe or continuing toward Bokhtar and Kulob."
+    "ru": "Нурек меняет южную дорогу еще до того, как она становится длинным маршрутом по Хатлону. Между сухими холмами появляется вода, плотина задает месту масштаб, а удачный визит остается честным: проверенные смотровые точки, без обещаний свободного доступа к инфраструктуре, и раннее решение - вернуться в Душанбе или продолжить к Бохтару и Кулябу."
+    "uz": "Nurek janubiy yo‘l uzoq Xatlon marshrutiga aylanishidan oldin uning ohangini o‘zgartiradi. Quruq tepaliklar orasida suv ko‘rinadi, to‘g‘on manzaraga miqyos beradi, yaxshi tashrif esa aniq qoladi: tasdiqlangan tomosha nuqtalari, infratuzilmaga erkin kirish va’dasisiz, va Dushanbega qaytish yoki Boxtar hamda Ko‘lob tomon davom etish bo‘yicha erta qaror."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "khatlon-and-southern-archaeology"
+"latitude": 38.3896911
+"longitude": 69.3081146

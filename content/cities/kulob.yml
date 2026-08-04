@@ -1,0 +1,527 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "kulob"
+  "ru": "kulob"
+  "uz": "kulob"
+"title":
+  "en": "Kulob"
+  "ru": "Куляб"
+  "uz": "Koʻlob"
+"subtitle":
+  "en": "A shrine city on Khatlon's southern road"
+  "ru": "Святыня и южная дорога Хатлона"
+  "uz": "Xatlon janubiy yoʻlidagi ziyorat shahri"
+"excerpt":
+  "en": "South of Dushanbe, Kulob slows the route into a more local scale. The Hamadani courtyard, market streets, museum time, and the wider Ancient Khuttal story give the city its reason to stay before you choose whether to continue toward Hulbuk or return north."
+  "ru": "К югу от Душанбе Куляб переводит маршрут в более местный масштаб. Двор Хамадани, рыночные улицы, музейное время и история Древнего Хутталя дают городу причину для остановки перед выбором: продолжать к Хулбуку или возвращаться на север."
+  "uz": "Dushanbedan janubda Koʻlob yoʻnalishni mahalliyroq miqyosga olib kiradi. Hamadoniy hovlisi, bozor koʻchalari, muzey mazmuni va Qadimgi Xuttal hikoyasi shaharni toʻxtab tushunishga arziydigan qiladi; keyin Hulbuk tomonga davom etish yoki shimolga qaytishni tanlaysiz."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "Kulob"
+      "ru": "Куляб"
+      "uz": "Koʻlob"
+    "title":
+      "en": "Kulob"
+      "ru": "Куляб"
+      "uz": "Koʻlob"
+    "description":
+      "en": "A shrine city on Khatlon's southern road"
+      "ru": "Святыня и южная дорога Хатлона"
+      "uz": "Xatlon janubiy yoʻlidagi ziyorat shahri"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Kulob"
+      "ru": "Куляб"
+      "uz": "Koʻlob"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "South of Dushanbe, Kulob slows the route into a more local scale."
+              "ru": "К югу от Душанбе Куляб переводит маршрут в более местный масштаб."
+              "uz": "Dushanbedan janubda Koʻlob yoʻnalishni mahalliyroq miqyosga olib kiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Kulob helps the southern Khatlon route settle: begin with the city, keep the shrine visit respectful, leave time for market or museum, and add Hulbuk only when access, heat, guide support, and road comfort make sense."
+              "ru": "Куляб помогает собрать южный маршрут по Хатлону: начните с города, посетите святыню уважительно, оставьте время для рынка или музея и добавляйте Хулбук только тогда, когда доступ, жара, сопровождение и дорога подходят поездке."
+              "uz": "Koʻlob janubiy Xatlon yoʻnalishini tartibga soladi: avval shahar, ziyoratga hurmatli kirish, bozor yoki muzeyga vaqt, Hulbuk esa kirish, issiq, gid yordami va yoʻl qulayligi mos kelganda."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "A calm sequence keeps the route clear: arrive in Kulob, give the shrine and city streets their own time, then choose one continuation toward Hulbuk, Bokhtar, Nurek, or Dushanbe."
+              "ru": "Спокойная последовательность держит маршрут понятным: приехать в Куляб, дать время святыне и городским улицам, затем выбрать одно продолжение - к Хулбуку, Бохтару, Нуреку или Душанбе."
+              "uz": "Tinch ketma-ketlik yoʻnalishni aniq tutadi: Koʻlobga kelish, ziyorat va shahar koʻchalariga vaqt berish, keyin Hulbuk, Boxtar, Nurek yoki Dushanbe tomonga bitta davomni tanlash."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Kulob as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Куляб как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Koʻlob o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "Start with Kulob before the road widens again"
+      "ru": "Сначала Куляб, затем продолжение по Хатлону"
+      "uz": "Avval Koʻlob, keyin kengroq yoʻl"
+    "description":
+      "en": "Kulob helps the southern Khatlon route settle: begin with the city, keep the shrine visit respectful, leave time for market or museum, and add Hulbuk only when access, heat, guide support, and road comfort make sense."
+      "ru": "Куляб помогает собрать южный маршрут по Хатлону: начните с города, посетите святыню уважительно, оставьте время для рынка или музея и добавляйте Хулбук только тогда, когда доступ, жара, сопровождение и дорога подходят поездке."
+      "uz": "Koʻlob janubiy Xatlon yoʻnalishini tartibga soladi: avval shahar, ziyoratga hurmatli kirish, bozor yoki muzeyga vaqt, Hulbuk esa kirish, issiq, gid yordami va yoʻl qulayligi mos kelganda."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Yoʻnalish xaritasi"
+      "title":
+        "en": "Kulob and the southern Khatlon road"
+        "ru": "Куляб и южная дорога Хатлона"
+        "uz": "Koʻlob va janubiy Xatlon yoʻli"
+      "description":
+        "en": "The map anchors Kulob and nearby Khatlon route points. It helps with orientation, but every road, museum, and site still needs a travel- date decision."
+        "ru": "Карта закрепляет Куляб и соседние точки Хатлона. Это ориентир, а не обещание, что каждая дорога, музей или объект подойдёт в дату поездки."
+        "uz": "Xarita Koʻlob va Xatlonning yaqin yoʻl nuqtalarini koʻrsatadi. U yoʻnalish uchun moʻljal, lekin har bir yoʻl, muzey yoki obyekt safar sanasida mos boʻlishini vaʼda qilmaydi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 37.965829
+      "longitude": 69.441171
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "hulbuk-fortress-and-museum-reserve"
+      - "entityType": "attraction"
+        "entitySlug": "mir-sayyid-ali-hamadani-mausoleum"
+    "aside":
+      "eyebrow":
+        "en": "Route sequence"
+        "ru": "Порядок маршрута"
+        "uz": "Yoʻnalish ketma-ketligi"
+      "title":
+        "en": "Kulob first, then one Khatlon continuation"
+        "ru": "Сначала Куляб, затем одно продолжение по Хатлону"
+        "uz": "Avval Koʻlob, keyin Xatlonda bitta davom"
+      "description":
+        "en": "A calm sequence keeps the route clear: arrive in Kulob, give the shrine and city streets their own time, then choose one continuation toward Hulbuk, Bokhtar, Nurek, or Dushanbe."
+        "ru": "Спокойная последовательность держит маршрут понятным: приехать в Куляб, дать время святыне и городским улицам, затем выбрать одно продолжение - к Хулбуку, Бохтару, Нуреку или Душанбе."
+        "uz": "Tinch ketma-ketlik yoʻnalishni aniq tutadi: Koʻlobga kelish, ziyorat va shahar koʻchalariga vaqt berish, keyin Hulbuk, Boxtar, Nurek yoki Dushanbe tomonga bitta davomni tanlash."
+      "items":
+        - "title":
+            "en": "Begin with the Hamadani courtyard"
+            "ru": "Начните с двора Хамадани"
+            "uz": "Hamadoniy hovlisidan boshlang"
+          "description":
+            "en": "The Hamadani setting carries Kulob's strongest public memory. Move quietly, notice how local visitors use the space, and let the guide explain why the place matters before the road continues."
+            "ru": "Пространство Хамадани несёт главную общественную память Куляба. Идите спокойно, замечайте тон паломников и местных гостей, и дайте гиду объяснить, почему это место важно перед продолжением дороги."
+            "uz": "Hamadoniy makoni Koʻlobning eng kuchli ommaviy xotirasini olib yuradi. Sokin yuring, mahalliy ziyoratchilar kayfiyatini sezing va yoʻl davom etishidan oldin gid nima uchun bu joy muhimligini tushuntirsin."
+        - "title":
+            "en": "Keep time for market and museum"
+            "ru": "Дайте время рынку и музею"
+            "uz": "Bozor va muzeyga vaqt ajrating"
+          "description":
+            "en": "Food, tea, market streets, and regional objects give Kulob ordinary city texture. They keep the stop from becoming only a road sign toward Hulbuk."
+            "ru": "Еда, чай, рыночные улицы и региональные предметы дают Кулябу живую городскую фактуру. Так остановка не превращается только в указатель на Хулбук."
+            "uz": "Ovqat, choy, bozor koʻchalari va mintaqaviy buyumlar Koʻlobga tirik shahar tuygʻusini beradi. Shunda toʻxtash faqat Hulbuk sari yoʻl belgisi boʻlib qolmaydi."
+        - "title":
+            "en": "Add Hulbuk with current conditions"
+            "ru": "Добавляйте Хулбук только по текущим условиям"
+            "uz": "Hulbukni hozirgi sharoit bilan qoʻshing"
+          "description":
+            "en": "Hulbuk can deepen the Ancient Khuttal story, but it belongs after a current review of access, guide quality, heat, and road comfort."
+            "ru": "Хулбук может углубить историю Древнего Хутталя, но он уместен после свежего понимания доступа, сопровождения, жары и дорожного комфорта."
+            "uz": "Hulbuk Qadimgi Xuttal hikoyasini chuqurlashtirishi mumkin, lekin kirish, gid sifati, issiq va yoʻl qulayligi safar sanasiga yaqin mos kelganda."
+        - "title":
+            "en": "Let southern heat set the order"
+            "ru": "Пусть южная жара задаёт порядок"
+            "uz": "Janubiy issiq tartibni belgilasin"
+          "description":
+            "en": "In Khatlon, shade, water, vehicle comfort, and road surface can matter more than the number of stops. Plan the order around the season."
+            "ru": "В Хатлоне тень, вода, комфорт машины и состояние дороги могут быть важнее количества остановок. Стройте порядок по сезону."
+            "uz": "Xatlonda soya, suv, mashina qulayligi va yoʻl holati toʻxtashlar sonidan muhimroq boʻlishi mumkin. Tartibni mavsumga qarab tuzing."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to notice"
+      "ru": "Что заметить"
+      "uz": "Nimalarni sezish kerak"
+    "title":
+      "en": "Shrine, museum, and the road toward Hulbuk"
+      "ru": "Святыня, музей и дорога к Хулбуку"
+      "uz": "Ziyorat, muzey va Hulbuk yoʻli"
+    "description":
+      "en": "The Hamadani shrine setting, Kulob's regional museum, Hulbuk, and Khoja Mumin can shape a Kulob stay. Add them selectively, with access, timing, and guide support reviewed for each stop."
+      "ru": "Пространство Хамадани, региональный музей, Хулбук и Ходжа-Мумин могут задать форму поездке в Куляб. Добавляйте их выборочно, с актуальным пониманием доступа, времени и сопровождения для каждой остановки."
+      "uz": "Hamadoniy makoni, mintaqaviy muzey, Hulbuk va Xoja Moʻmin Koʻlob tashrifiga shakl berishi mumkin. Har bir toʻxtash uchun kirish, vaqt va gid yordamini yangilab bilib, ularni tanlab qoʻshing."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Mir Sayyid Ali Hamadani Mausoleum"
+          "ru": "Мавзолей Мир Саййида Али Хамадани"
+          "uz": "Mir Sayyid Ali Hamadani maqbarasi"
+        "description":
+          "en": "Mir Sayyid Ali Hamadani Mausoleum is the quiet turn in Kulob's city route. The shrine keeps the memory of a 14th-century poet, scholar, philosopher, and Sufi figure, and its garden setting asks for a slower, more respectful visit. Come with modest dress, ask locally which areas a"
+          "ru": "В маршруте по Кулябу мавзолей — момент, когда город становится тише. Святыня хранит память о поэте, ученом, философе и суфийской фигуре XIV века, а садовое окружение просит более медленного и уважительного визита. Приходите в скромной одежде, уточняйте на месте, какие зоны подход"
+          "uz": "Mir Sayyid Ali Hamadani maqbarasi Kulob marshrutidagi sokin burilishdir. Ziyoratgoh XIV asr shoiri, olimi, faylasufi va sufiy siymosi xotirasini saqlaydi; bog' muhiti esa sekinroq va hurmatliroq tashrifni talab qiladi. Kamtarona kiyinib boring, mehmonlar uchun qaysi joylar moslig"
+        "ctaHref": "/destinations/tajikistan/khatlon-and-southern-archaeology/kulob/mir-sayyid-ali-hamadani-mausoleum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Hulbuk Fortress and Museum Reserve"
+          "ru": "Крепость и музей-заповедник Хульбук"
+          "uz": "Xulbuk qalʼasi va muzey-qoʻriqxonasi"
+        "description":
+          "en": "At Hulbuk, the road from Kulob leaves the shrine city for the palace world of Ancient Khuttal. Reconstructed walls, a broad citadel plan, baked brick, carved ganch, ceramics, coins, and jewellery bring a medieval road network into view. Treat the map marker as orientation and che"
+          "ru": "В Хульбуке дорога от Куляба уходит от города святыни к дворцовому миру Древнего Хутталя. Восстановленные стены, широкий план цитадели, обожжённый кирпич, резной ганч, керамика, монеты и украшения выводят на поверхность средневековую сеть дорог. Считайте маркер на карте ориентиром"
+          "uz": "Xulbukda Koʻlobdan kelgan yoʻl ziyorat shahridan Qadimgi Xuttalning saroy dunyosiga oʻtadi. Tiklangan devorlar, keng sitadel rejasi, pishiq gʻisht, oʻyma ganch, sopol buyumlar, tangalar va taqinchoqlar oʻrta asr yoʻllari dunyosini koʻrsatadi. Xaritadagi markerni moʻljal sifatida "
+        "ctaHref": "/destinations/tajikistan/khatlon-and-southern-archaeology/kulob/hulbuk-fortress-and-museum-reserve"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Kulob moments"
+      "ru": "Моменты Куляба"
+      "uz": "Koʻlob lahzalari"
+    "title":
+      "en": "Three choices that give Kulob shape"
+      "ru": "Три выбора, которые собирают остановку"
+      "uz": "Toʻxtashga shakl beradigan uch tanlov"
+    "description":
+      "en": "A good Kulob stop is small by design: enter the shrine respectfully, keep time for food or the museum, and decide on the Hulbuk road with current local advice."
+      "ru": "Хорошая остановка в Кулябе намеренно небольшая: войти в святыню уважительно, оставить время для еды или музея и решить вопрос дороги к Хулбуку по свежему местному совету."
+      "uz": "Koʻlobdagi yaxshi toʻxtash ataylab kichik boʻladi: ziyoratga hurmat bilan kirish, ovqat yoki muzeyga vaqt berish va Hulbuk yoʻlini yangi mahalliy maslahat bilan tanlash."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Enter the Hamadani courtyard quietly"
+          "ru": "Войдите во двор Хамадани спокойно"
+          "uz": "Hamadoniy hovlisiga sokin kiring"
+        "description":
+          "en": "The shrine setting gives Kulob its tone: quiet movement, local respect, and a guide's explanation before the southern road continues."
+          "ru": "Пространство святыни задаёт тон Кулябу: спокойное движение, местное уважение и объяснение гида перед продолжением южной дороги."
+          "uz": "Ziyorat makoni Koʻlobga yoʻl kayfiyatini beradi: sokin harakat, mahalliy hurmat va janubiy yoʻl davomidan oldin gid izohi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Add city time before the road"
+          "ru": "Добавьте городское время перед дорогой"
+          "uz": "Yoʻldan oldin shaharga vaqt bering"
+        "description":
+          "en": "Tea, food, market streets, and regional museum time keep Kulob from becoming only a transfer toward Hulbuk."
+          "ru": "Чай, еда, рыночные улицы и региональный музей не дают Кулябу превратиться только в переезд к Хулбуку."
+          "uz": "Choy, ovqat, bozor koʻchalari va mintaqaviy muzey Koʻlobni faqat Hulbuk sari oʻtish joyiga aylantirmaydi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Choose Hulbuk with current advice"
+          "ru": "Выбирайте Хулбук по свежему совету"
+          "uz": "Hulbukni yangi maslahat bilan tanlang"
+        "description":
+          "en": "The Ancient Khuttal road can add depth when access, heat, guide support, and vehicle comfort are right for the travel date."
+          "ru": "Дорога Древнего Хутталя добавляет смысл, когда доступ, жара, сопровождение и машина подходят дате поездки."
+          "uz": "Qadimgi Xuttal yoʻli kirish, issiq, gid yordami va mashina qulayligi safar sanasiga mos kelganda mazmun qoʻshadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "Keep Kulob selective"
+      "ru": "Держите Куляб выборочным"
+      "uz": "Koʻlobni tanlangan saqlang"
+    "description":
+      "en": "Kulob reads best when the route has a clear shape: shrine first, city life next, and one onward choice if road conditions and traveler pace support it."
+      "ru": "Куляб понятнее, когда у маршрута есть ясная форма: сначала святыня, затем городская жизнь и одно продолжение, если дорога и темп путешествия это поддерживают."
+      "uz": "Yoʻnalishda aniq shakl boʻlsa, Koʻlob yaxshiroq tushuniladi: avval ziyorat, keyin shahar hayoti, yoʻl va sayohatchi surʼati mos kelsa, bitta davom."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Let the shrine set the tone"
+              "ru": "Пусть святыня задаст тон"
+              "uz": "Ziyorat makoni yoʻl kayfiyatini belgilasin"
+            "description":
+              "en": "The Hamadani setting is not a quick photo stop. Its value is in the courtyard mood, local respect, and the way Kulob's civic memory meets the wider southern road."
+              "ru": "Пространство Хамадани не должно ощущаться как быстрая фотостановка. Его ценность - в настроении двора, местном уважении и встрече городской памяти Куляба с южной дорогой."
+              "uz": "Hamadoniy makoni tez suratga olish joyidek sezilmasligi kerak. Uning qadri hovli kayfiyati, mahalliy hurmat va Koʻlobning shahar xotirasi janubiy yoʻl bilan tutashadigan joyidadir."
+          - "type": "quote"
+            "quote":
+              "en": "Kulob is strongest at a measured pace: shrine first, city life next, and the southern road only when the plan still feels right."
+              "ru": "Куляб сильнее всего в размеренном темпе: сначала святыня, затем городская жизнь, и только потом южная дорога, если план всё ещё выглядит верным."
+              "uz": "Koʻlob oʻlchovli surʼatda kuchliroq: avval ziyorat, keyin shahar hayoti, janubiy yoʻl esa reja hali ham mos boʻlsa."
+          - "type": "dashTitle"
+            "title":
+              "en": "Add ordinary city life"
+              "ru": "Добавьте обычную городскую жизнь"
+              "uz": "Oddiy shahar vaqtini qoʻshing"
+            "description":
+              "en": "Market streets, tea, food, and museum time make Kulob feel like a lived city rather than a waypoint toward Hulbuk."
+              "ru": "Рыночные улицы, чай, еда и музейное время делают Куляб живым городом, а не только точкой на дороге к Хулбуку."
+              "uz": "Bozor koʻchalari, choy, ovqat va muzey vaqti Koʻlobni tirik shahar sifatida koʻrsatadi, faqat Hulbuk sari yoʻl belgisi emas."
+          - "type": "dashTitle"
+            "title":
+              "en": "Choose one southern continuation"
+              "ru": "Выберите одно южное продолжение"
+              "uz": "Bitta janubiy davomni tanlang"
+            "description":
+              "en": "The route stays clearer when one continuation carries the next leg. Choose Hulbuk, Bokhtar, Nurek, or another Khatlon stop only when it is open, comfortable, and meaningful for the journey."
+              "ru": "Маршрут остаётся яснее, когда следующий отрезок держит одно продолжение. Выбирайте Хулбук, Бохтар, Нурек или другую остановку Хатлона только тогда, когда она открыта, комфортна и действительно важна поездке."
+              "uz": "Keyingi yoʻl bitta davomga tayansa, yoʻnalish aniqroq qoladi. Hulbuk, Boxtar, Nurek yoki boshqa Xatlon toʻxtashini faqat ochiq, qulay va safar uchun mazmunli boʻlganda tanlang."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Treat Kulob as a measured Khatlon stop, not a monument list: one strong city visit, one careful road choice, and current local advice before continuing."
+              "ru": "Воспринимайте Куляб как спокойную остановку Хатлона, а не список памятников: один сильный городской визит, один аккуратный выбор дороги и свежий местный совет перед продолжением."
+              "uz": "Koʻlobni yodgorliklar roʻyxati emas, oʻlchovli Xatlon toʻxtashi deb biling: bitta kuchli shahar tashrifi, bitta ehtiyotkor yoʻl tanlovi va davom etishdan oldin yangi mahalliy maslahat."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "City in Khatlon & Southern Archaeology, south of the main Dushanbe arrival route."
+                  "ru": "Город в туристическом регионе Хатлон и южная археология, к югу от основного прибытия через Душанбе."
+                  "uz": "Xatlon va janubiy arxeologiya turistik hududidagi shahar, asosiy Dushanbe kelish yoʻlidan janubda."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Stay"
+                  "ru": "Ночёвка"
+                  "uz": "Tunash"
+                "description":
+                  "en": "Usually one overnight stop when Kulob is paired with a measured Khatlon continuation."
+                  "ru": "Обычно одна ночь, если Куляб связан с размеренным продолжением по Хатлону."
+                  "uz": "Koʻlob oʻlchovli Xatlon davomi bilan bogʻlansa, odatda bir kecha."
+              - "icon": "Sun"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Yoʻnalishdagi roli"
+                "description":
+                  "en": "Southern city anchor for the Hamadani setting, market and museum time, and a possible Hulbuk continuation."
+                  "ru": "Южная городская опора для пространства Хамадани, рынка, музейного времени и возможного продолжения к Хулбуку."
+                  "uz": "Hamadoniy makoni, bozor, muzey vaqti va Hulbuk tomonga mumkin boʻlgan davom uchun janubiy shahar tayanchi."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and comfort"
+                  "ru": "Сезон и комфорт"
+                  "uz": "Mavsum va qulaylik"
+                "description":
+                  "en": "Heat, shade, road surface, vehicle comfort, and access conditions should shape the visit order."
+                  "ru": "Жара, тень, состояние дороги, комфорт машины и условия доступа должны задавать порядок посещений."
+                  "uz": "Issiq, soya, yoʻl holati, mashina qulayligi va kirish sharoiti tashrif tartibini belgilashi kerak."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before departure"
+                  "ru": "Перед выездом"
+                  "uz": "Joʻnashdan oldin"
+                "description":
+                  "en": "Confirm shrine etiquette, museum access, Hulbuk conditions, driver plan, water, and current local advice."
+                  "ru": "Уточните этикет святыни, доступ к музею, условия для Хулбука, план водителя, воду и свежий местный совет."
+                  "uz": "Ziyorat odobi, muzey kirishi, Hulbuk sharoiti, haydovchi rejasi, suv va yangi mahalliy maslahatni aniqlang."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Where to continue"
+      "ru": "Куда продолжить"
+      "uz": "Qayerga davom etish"
+    "title":
+      "en": "Dushanbe and the wider Khatlon route"
+      "ru": "Душанбе и широкий маршрут по Хатлону"
+      "uz": "Dushanbe va kengroq Xatlon yoʻnalishi"
+    "description":
+      "en": "Dushanbe is the main practical return point for now. Bokhtar, Nurek, and Kalai Hulbuk help orient the Khatlon map, but they should stay route names until their own visits are reviewed."
+      "ru": "Душанбе пока остаётся главным практичным пунктом возврата. Бохтар, Нурек и Калай-Хулбук помогают понять карту Хатлона, но их лучше держать как названия маршрута до отдельного решения."
+      "uz": "Hozircha Dushanbe asosiy amaliy qaytish nuqtasi. Boxtar, Nurek va Kalai Hulbuk Xatlon xaritasini tushunishga yordam beradi, lekin ular alohida koʻrib chiqilmaguncha yoʻl nomlari boʻlib qolishi kerak."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Dushanbe"
+          "ru": "Душанбе"
+          "uz": "Dushanbe"
+        "description":
+          "en": "Dushanbe is Tajikistan's calm arrival city: Rudaki Avenue shade, national museums, tea-house stops, and first choices toward Hissar, Varzob, or higher valleys."
+          "ru": "Душанбе — спокойное место прибытия в Таджикистан: тень проспекта Рудаки, национальные музеи, чайхана или рынок и первые решения к Гиссару, Варзобу или высоким долинам."
+          "uz": "Dushanbe Tojikistonga sokin kirish shahri: Rudakiy xiyoboni soyasi, milliy muzeylar, choyxona toʻxtashlari va Hisor, Varzob yoki baland vodiylar tomon ilk tanlovlar."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/dushanbe"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Kulob in the day plan"
+      "ru": "Как поставить Куляб в план дня"
+      "uz": "Koʻlobni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Kulob?"
+          "ru": "Сколько времени группам стоит проводить в Куляб?"
+          "uz": "Koʻlobda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “A shrine city on Khatlon's southern road”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Святыня и южная дорога Хатлона»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Xatlon janubiy yoʻlidagi ziyorat shahri»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Kulob be a walkable core or a base for day trips?"
+          "ru": "Куляб — это пешеходное ядро или база для выездов?"
+          "uz": "Koʻlob piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Kulob's centre?"
+          "ru": "Где лучше ночевать относительно центра Куляб?"
+          "uz": "Koʻlob markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Kulob stop into your Tajikistan programme"
+      "ru": "Встройте остановку «Куляб» в программу (Таджикистан)"
+      "uz": "Koʻlob bekatini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Kulob | TourLink"
+    "ru": "Куляб | TourLink"
+    "uz": "Koʻlob | TourLink"
+  "metaDescription":
+    "en": "South of Dushanbe, Kulob slows the route into a more local scale. The Hamadani courtyard, market streets, museum time, and the wider Ancient Khuttal story give the city its reason to stay before you choose whether to continue toward Hulbuk or return north."
+    "ru": "К югу от Душанбе Куляб переводит маршрут в более местный масштаб. Двор Хамадани, рыночные улицы, музейное время и история Древнего Хутталя дают городу причину для остановки перед выбором: продолжать к Хулбуку или возвращаться на север."
+    "uz": "Dushanbedan janubda Koʻlob yoʻnalishni mahalliyroq miqyosga olib kiradi. Hamadoniy hovlisi, bozor koʻchalari, muzey mazmuni va Qadimgi Xuttal hikoyasi shaharni toʻxtab tushunishga arziydigan qiladi; keyin Hulbuk tomonga davom etish yoki shimolga qaytishni tanlaysiz."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "khatlon-and-southern-archaeology"
+"latitude": 37.9081024
+"longitude": 69.7739482

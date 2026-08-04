@@ -1,0 +1,579 @@
+# Generated from scrape/kyrgyzstan (multi-locale)
+"slug":
+  "en": "osh"
+  "ru": "osh"
+  "uz": "osh"
+"title":
+  "en": "Osh"
+  "ru": "Ош"
+  "uz": "Oʻsh"
+"subtitle":
+  "en": "A southern Silk Road city under Sulaiman-Too"
+  "ru": "Южный город Шёлкового пути под Сулайман-Тоо"
+  "uz": "Sulaymon-Too ostidagi janubiy Ipak yoʻli shahri"
+"excerpt":
+  "en": "Osh is where Kyrgyzstan turns south. Sulaiman-Too holds the skyline, the bazaar keeps the streets moving, and the onward road asks for a clear choice: Uzgen, Alay, Sary-Mogul, the airport, or the long return north."
+  "ru": "В Оше Кыргызстан поворачивает на юг. Сулайман-Тоо держит городской силуэт, базар движет улицы, а дальнейшая дорога требует ясного выбора: Узген, Алай, Сары-Могол, аэропорт или длинный путь на север."
+  "uz": "Oʻshda Qirgʻiziston janubga buriladi. Sulaymon-Too shahar ufqini ushlab turadi, bozor koʻchalarga harakat beradi, keyingi yoʻl esa aniq tanlov soʻraydi: Oʻzgan, Oloy, Sari-Mogʻol, aeroport yoki shimolga uzun qaytish."
+"heroImage": "assets/images/destinations/kyrgyzstan/regions/osh-and-southern-silk-road/cities/osh.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kyrgyzstan/regions/osh-and-southern-silk-road/cities/osh.webp"
+    "imageAlt":
+      "en": "Osh"
+      "ru": "Ош"
+      "uz": "Oʻsh"
+    "title":
+      "en": "Osh"
+      "ru": "Ош"
+      "uz": "Oʻsh"
+    "description":
+      "en": "A southern Silk Road city under Sulaiman-Too"
+      "ru": "Южный город Шёлкового пути под Сулайман-Тоо"
+      "uz": "Sulaymon-Too ostidagi janubiy Ipak yoʻli shahri"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Osh"
+      "ru": "Ош"
+      "uz": "Oʻsh"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Osh is where Kyrgyzstan turns south."
+              "ru": "В Оше Кыргызстан поворачивает на юг."
+              "uz": "Oʻshda Qirgʻiziston janubga buriladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "The city becomes easier to understand when Sulaiman-Too, the bazaar, and the next road each have a clear place in the visit."
+              "ru": "Город легче понять, когда у Сулайман-Тоо, базара и следующей дороги есть своё место в посещении."
+              "uz": "Sulaymon-Too, bozor va keyingi yoʻl tashrif ichida oʻz oʻrnini olganda, shahar aniqroq ochiladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Heat, stairs, market crowds, road distance, and early departures all change how Osh feels. A calm plan gives the city more than a transfer stop."
+              "ru": "Жара, ступени, рынок, расстояния и ранние выезды меняют ощущение Оша. Спокойный план оставляет городу больше, чем роль пересадки."
+              "uz": "Issiq, zinapoyalar, bozor gavjumligi, masofa va erta joʻnashlar Oʻshni qanday his qilishni oʻzgartiradi. Xotirjam reja shaharni faqat transfer bekatiga aylantirmaydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Osh as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Ош как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Oʻsh o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Read Osh from mountain to market"
+      "ru": "Смотрите Ош от горы к базару"
+      "uz": "Oʻshni togʻdan bozorgacha tushuning"
+    "description":
+      "en": "The city becomes easier to understand when Sulaiman-Too, the bazaar, and the next road each have a clear place in the visit."
+      "ru": "Город легче понять, когда у Сулайман-Тоо, базара и следующей дороги есть своё место в посещении."
+      "uz": "Sulaymon-Too, bozor va keyingi yoʻl tashrif ichida oʻz oʻrnini olganda, shahar aniqroq ochiladi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Orientation"
+        "ru": "Ориентация"
+        "uz": "Moʻljal"
+      "title":
+        "en": "Mountain, market, and roads in one view"
+        "ru": "Гора, базар и дороги в одном кадре"
+        "uz": "Togʻ, bozor va yoʻllar bir koʻrinishda"
+      "description":
+        "en": "Sulaiman-Too fixes the skyline. The bazaar adds daily movement. The southern roads show how the journey leaves the city."
+        "ru": "Сулайман-Тоо держит силуэт. Базар добавляет ежедневное движение. Южные дороги показывают, куда путешествие уходит из города."
+        "uz": "Sulaymon-Too shahar ufqini belgilaydi. Bozor kundalik harakat qoʻshadi. Janubiy yoʻllar safar shahardan qayerga chiqishini koʻrsatadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.524997
+      "longitude": 72.792875
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "sulaiman-too-sacred-mountain"
+      - "entityType": "attraction"
+        "entitySlug": "sulaiman-too-museum-complex"
+      - "entityType": "attraction"
+        "entitySlug": "osh-bazaar"
+    "aside":
+      "eyebrow":
+        "en": "Route planning"
+        "ru": "Планирование"
+        "uz": "Rejalash"
+      "title":
+        "en": "Plan the southern pace with care"
+        "ru": "Планируйте южный темп спокойно"
+        "uz": "Janubiy surʼatni xotirjam rejalang"
+      "description":
+        "en": "Heat, stairs, market crowds, road distance, and early departures all change how Osh feels. A calm plan gives the city more than a transfer stop."
+        "ru": "Жара, ступени, рынок, расстояния и ранние выезды меняют ощущение Оша. Спокойный план оставляет городу больше, чем роль пересадки."
+        "uz": "Issiq, zinapoyalar, bozor gavjumligi, masofa va erta joʻnashlar Oʻshni qanday his qilishni oʻzgartiradi. Xotirjam reja shaharni faqat transfer bekatiga aylantirmaydi."
+      "items":
+        - "title":
+            "en": "Let Sulaiman-Too set the scale"
+            "ru": "Пусть Сулайман-Тоо задаст масштаб"
+            "uz": "Sulaymon-Too miqyosni belgilasin"
+          "description":
+            "en": "Cooler hours, stairs, and respectful behavior make the sacred mountain feel like more than a viewpoint."
+            "ru": "Прохладные часы, ступени и уважительное поведение помогают увидеть в священной горе больше, чем смотровую точку."
+            "uz": "Salqinroq soatlar, zinapoyalar va hurmatli harakat muqaddas togʻni oddiy tomosha nuqtasidan kengroq his qildiradi."
+        - "title":
+            "en": "Hear the bazaar before you leave the city"
+            "ru": "Услышьте базар до выезда из города"
+            "uz": "Shahardan chiqishdan oldin bozorni eshiting"
+          "description":
+            "en": "Bread, spices, dry fruit, textiles, and crowded lanes put daily Osh below the mountain."
+            "ru": "Лепёшки, специи, сухофрукты, ткани и тесные ряды показывают повседневный Ош у подножия горы."
+            "uz": "Non, ziravor, quruq meva, mato va gavjum yoʻlaklar togʻ ostidagi kundalik Oʻshni koʻrsatadi."
+        - "title":
+            "en": "Choose one road out"
+            "ru": "Выберите одну дорогу дальше"
+            "uz": "Keyingi bitta yoʻlni tanlang"
+          "description":
+            "en": "Uzgen, Alay, Sary-Mogul, the airport, and Bishkek pull the plan in different directions; one clear choice keeps the city readable."
+            "ru": "Узген, Алай, Сары-Могол, аэропорт и Бишкек тянут маршрут в разные стороны; один ясный выбор помогает городу остаться понятным."
+            "uz": "Oʻzgan, Oloy, Sari-Mogʻol, aeroport va Bishkek yoʻnalishni turli tomonga tortadi; bitta aniq tanlov shaharni tushunarli saqlaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrish"
+    "title":
+      "en": "The mountain, the museum, and the bazaar"
+      "ru": "Гора, музей и базар"
+      "uz": "Togʻ, muzey va bozor"
+    "description":
+      "en": "Sulaiman-Too gives Osh its sacred mountain frame. The museum complex adds historical context when its halls are open, and the bazaar brings food, trade, and daily movement back to street level."
+      "ru": "Сулайман-Тоо даёт Ошу священный горный кадр. Музейный комплекс добавляет исторический контекст, если залы открыты, а базар возвращает город к еде, торговле и движению улиц."
+      "uz": "Sulaymon-Too Oʻshga muqaddas togʻ ramkasini beradi. Muzey kompleksi zallari ochiq boʻlsa tarixiy kontekst qoʻshadi, bozor esa shaharni taom, savdo va koʻcha harakatiga qaytaradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/osh-and-southern-silk-road/cities/osh/attractions/sulaiman-too-sacred-mountain.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Sulaiman-Too Sacred Mountain"
+          "ru": "Священная гора Сулайман-Тоо"
+          "uz": "Sulaymon-Too muqaddas togʻi"
+        "description":
+          "en": "From Sulaiman-Too, Osh reads as bazaar roofs, valley roads, prayer spaces, and daily life beneath a World Heritage mountain. The visit feels best when the climb, heat, museum context, and nearby bazaar are given calm time."
+          "ru": "С Сулайман-Тоо Ош виден как крыши базара, дороги долины, места молитвы и повседневная жизнь под горой Всемирного наследия. Визит лучше раскрывается, когда подъём, жара, музейный контекст и близкий базар получают спокойное время."
+          "uz": "Sulaymon-Toodan Oʻsh bozor tomlari, vodiy yoʻllari, ibodat joylari va Jahon merosi togʻi ostidagi kundalik hayot sifatida koʻrinadi. Tashrif zinapoyalar, issiq, muzey konteksti va yaqin bozorga sokin vaqt qoldirilganda yaxshiroq ochiladi."
+        "ctaHref": "/destinations/kyrgyzstan/osh-and-southern-silk-road/osh/sulaiman-too-sacred-mountain"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/osh-and-southern-silk-road/cities/osh/attractions/sulaiman-too-museum-complex.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Sulaiman-Too Museum Complex"
+          "ru": "Музейный комплекс Сулайман-Тоо"
+          "uz": "Sulaymon-Too muzey kompleksi"
+        "description":
+          "en": "The museum complex gives Sulaiman-Too a historical frame when the group wants more than the view from the mountain. TourLink confirms access, halls, timing, and fit before adding it to the Osh day."
+          "ru": "Музейный комплекс уместен, когда путешественникам важно не только увидеть Сулайман-Тоо, но и понять его историю. TourLink заранее уточняет доступ, залы, время и интерес группы, прежде чем включать музей в день по Ошу."
+          "uz": "Muzey kompleksi sayohatchilar Sulaymon-Tooni faqat manzara sifatida emas, mazmuni bilan tushunishni xohlaganda mos keladi. TourLink uni Oʻsh kuniga qoʻshishdan oldin joriy kirish, zallar, vaqt va guruh qiziqishini aniqlaydi."
+        "ctaHref": "/destinations/kyrgyzstan/osh-and-southern-silk-road/osh/sulaiman-too-museum-complex"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/osh-and-southern-silk-road/cities/osh/attractions/osh-bazaar.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Osh Bazaar"
+          "ru": "Ошский базар"
+          "uz": "Oʻsh bozori"
+        "description":
+          "en": "Osh Bazaar is the living counterpoint to Sulaiman-Too: a place of bread steam, spice color, crowded aisles, daily goods, and sellers moving through a city where trade still feels close and immediate. On a first visit, the strongest route is simple: food rows, a few daily-goods ai"
+          "ru": "Ошский базар — живой контраст к Сулайман-Тоо: пар от лепёшек, цвет специй, плотные проходы, повседневные товары и продавцы в городе, где торговля остаётся близкой и настоящей. В первый визит легче идти короткой линией: ряды еды, несколько проходов с хозяйственными товарами и дост"
+          "uz": "Oʻsh bozori Sulaymon-Too bilan jonli muvozanat yaratadi: issiq non hidi, ziravor ranglari, gavjum yoʻlaklar, kundalik buyumlar va savdo ichidagi odamlar. Birinchi tashrifda taom qatorlari, bir nechta roʻzgʻor yoʻlaklari va bozorni shoshmasdan kuzatish yetarli."
+        "ctaHref": "/destinations/kyrgyzstan/osh-and-southern-silk-road/osh/osh-bazaar"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/osh-and-southern-silk-road/cities/osh/attractions/asaf-ibn-burhiya-mausoleum.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Asaf ibn Burhiya Mausoleum"
+          "ru": "Мавзолей Асафа ибн Бурхии"
+          "uz": "Asaf ibn Burhiya maqbarasi"
+        "description":
+          "en": "Asaf ibn Burhiya Mausoleum sits close to Osh's sacred mountain route. Local tradition links the place with the wise vizier of King Suleiman, while the visit itself stays grounded in a compact tomb chamber, a prayer room, and the etiquette of a living pilgrimage stop."
+          "ru": "Мавзолей Асафа ибн Бурхии находится рядом с маршрутом по священной горе Оша. Местная традиция связывает это место с мудрым визирем царя Сулеймана, а само посещение возвращает внимание к компактной погребальной камере, молитвенному помещению и этикету живой паломнической остановки"
+          "uz": "Asaf ibn Burhiya maqbarasi Oʻshning muqaddas togʻi yaqinida joylashgan. Mahalliy anʼana bu joyni shoh Sulaymonning dono vaziri bilan bogʻlaydi; tashrif esa ixcham qabr xonasi, ibodat joyi va tirik ziyorat maskanining odobiga suyanadi."
+        "ctaHref": "/destinations/kyrgyzstan/osh-and-southern-silk-road/osh/asaf-ibn-burhiya-mausoleum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City rhythm"
+      "ru": "Ритм города"
+      "uz": "Shahar ritmi"
+    "title":
+      "en": "Small ways into Osh"
+      "ru": "Три способа почувствовать Ош"
+      "uz": "Oʻshni his qiladigan uch lahza"
+    "description":
+      "en": "These city moments keep Osh practical and alive: early mountain air, bazaar lanes, and one honest road decision for the south."
+      "ru": "Эти городские моменты держат Ош живым и практичным: прохладное утро на горе, базарные ряды и честный выбор южной дороги."
+      "uz": "Bu shahar lahzalari Oʻshni tirik va amaliy saqlaydi: salqin togʻ tongi, bozor yoʻlaklari va janubiy yoʻl boʻyicha aniq tanlov."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan/character/osh/osh-character-1.webp"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Southern road choice"
+          "ru": "Выбор южной дороги"
+          "uz": "Janubiy yoʻl tanlovi"
+        "description":
+          "en": "From Osh the journey can stay with Uzgen, climb toward Alay and Sary-Mogul, or return north; one clear choice protects the city visit."
+          "ru": "Из Оша маршрут может остаться с Узгеном, подняться к Алаю и Сары-Моголу или вернуться на север; один ясный выбор бережёт городское время."
+          "uz": "Oʻshdan safar Oʻzgan bilan qolishi, Oloy va Sari-Mogʻol tomon koʻtarilishi yoki shimolga qaytishi mumkin; bitta aniq tanlov shahar tashrifini asraydi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Osh Bazaar lanes"
+          "ru": "Ряды Ошского базара"
+          "uz": "Oʻsh bozori yoʻlaklari"
+        "description":
+          "en": "Bread, tea, cloth, and spice rows show the city at street level, where the southern route feels lived rather than staged."
+          "ru": "Лепёшки, чай, ткани и специи показывают город на уровне улицы, где южный маршрут кажется живым, а не постановочным."
+          "uz": "Non, choy, mato va ziravor qatorlari shaharni koʻcha darajasida koʻrsatadi; janubiy yoʻnalish bu yerda sahna emas, tirik hayotdek seziladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan/character/osh/osh-character-3.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Sulaiman-Too in the cool hours"
+          "ru": "Сулайман-Тоо в прохладные часы"
+          "uz": "Sulaymon-Too salqin soatlarda"
+        "description":
+          "en": "Go up while the air is easier and the city roofs are still quiet; the sacred mountain sets Osh in place before the bazaar grows loud."
+          "ru": "Поднимитесь, пока воздух легче, а крыши города ещё тихие: священная гора ставит Ош на место до базарного шума."
+          "uz": "Havo yengilroq, shahar tomlari hali sokin paytda chiqing: muqaddas togʻ bozor shovqinidan oldin Oʻshni oʻrniga qoʻyadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "Let Osh stay southern"
+      "ru": "Оставьте Ошу южный характер"
+      "uz": "Oʻsh janubiy ohangini yoʻqotmasin"
+    "description":
+      "en": "Osh loses its value when it is treated as a quick stop between flights and mountain roads."
+      "ru": "Ош теряет ценность, когда его превращают в быстрый пункт между перелётом и горными дорогами."
+      "uz": "Oʻsh parvoz va togʻ yoʻllari orasidagi tez bekatga aylantirilsa, qiymatini yoʻqotadi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Let Sulaiman-Too lead"
+              "ru": "Пусть Сулайман-Тоо ведёт"
+              "uz": "Sulaymon-Too yoʻlni boshlasin"
+            "description":
+              "en": "The mountain is not only a view over the city. It brings pilgrimage memory, history, and everyday Osh into the same skyline."
+              "ru": "Гора — не только вид на город. Она собирает паломническую память, историю и повседневный Ош в одном силуэте."
+              "uz": "Togʻ faqat shahar manzarasi emas. U ziyorat xotirasi, tarix va kundalik Oʻshni bitta ufqqa yigʻadi."
+          - "type": "quote"
+            "quote":
+              "en": "Osh is clearest when the sacred mountain, the bazaar, and the road out each have their own weight."
+              "ru": "Ош понятнее всего, когда священная гора, базар и дорога дальше имеют собственный вес."
+              "uz": "Oʻsh muqaddas togʻ, bozor va keyingi yoʻlning har biri oʻz vazniga ega boʻlganda eng aniq koʻrinadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the bazaar close to real life"
+              "ru": "Держите базар близко к жизни"
+              "uz": "Bozor hayotga yaqin qolsin"
+            "description":
+              "en": "The market is strongest when you move through bread, spices, tea, cloth, and household goods with a clear path, not a forced wander through crowds."
+              "ru": "Базар сильнее, когда вы идёте через хлеб, специи, чай, ткани и хозяйственные ряды по понятному пути, а не блуждаете в толпе."
+              "uz": "Bozor non, ziravor, choy, mato va kundalik buyumlar orasidan aniq yoʻl bilan oʻtilganda kuchliroq; maqsadsiz gavjumlik uning maʼnosini susaytiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Decide the road before the plan blurs"
+              "ru": "Решите дорогу до перегруза маршрута"
+              "uz": "Yoʻlni reja ogʻirlashmasidan tanlang"
+            "description":
+              "en": "Southern Kyrgyzstan can turn toward heritage towns, high valleys, flights, or the long road north. Osh feels clearer when that choice is made before the plan is overloaded."
+              "ru": "Южный Кыргызстан может повернуть к городам наследия, высоким долинам, перелёту или длинной дороге на север. Ош понятнее, когда этот выбор сделан заранее."
+              "uz": "Janubiy Qirgʻiziston meros shaharlari, baland vodiylar, parvoz yoki shimolga uzun yoʻl tomon burilishi mumkin. Tanlov oldindan aniq boʻlsa, Oʻsh tushunarliroq qoladi."
+          - "type": "alert"
+            "title":
+              "en": "For the traveler"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Treat Osh as a southern city first: mountain air, bazaar movement, and one clear onward choice."
+              "ru": "Сначала воспринимайте Ош как южный город: горный воздух, движение рынка и один ясный выбор дальше."
+              "uz": "Oʻshni avval janubiy shahar sifatida qabul qiling: togʻ havosi, bozor harakati va keyingi yoʻl boʻyicha bitta aniq tanlov."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Good to know Time in the city"
+                  "ru": "Коротко Время в городе"
+                  "uz": "Qisqacha Shahardagi vaqt"
+                "description":
+                  "en": "One or two nights, depending on arrival time and the next road."
+                  "ru": "Одна-две ночи, в зависимости от прибытия и следующей дороги."
+                  "uz": "Kelish va keyingi yoʻlga qarab bir yoki ikki kecha."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main access"
+                  "ru": "Главный доступ"
+                  "uz": "Asosiy kirish"
+                "description":
+                  "en": "Osh International Airport and road links toward Uzgen, Alay, Sary-Mogul, and Bishkek."
+                  "ru": "Международный аэропорт Ош и дороги к Узгену, Алаю, Сары-Моголу и Бишкеку."
+                  "uz": "Oʻsh xalqaro aeroporti va Oʻzgan, Oloy, Sari-Mogʻol hamda Bishkek tomonga yoʻllar."
+              - "icon": "Sun"
+                "title":
+                  "en": "Heat and timing"
+                  "ru": "Жара и темп"
+                  "uz": "Issiq va surʼat"
+                "description":
+                  "en": "Warm months favor earlier mountain time and an unhurried market walk."
+                  "ru": "В тёплые месяцы гору лучше ставить раньше, а базар проходить без спешки."
+                  "uz": "Iliq oylarda togʻga ertaroq chiqish, bozorni esa shoshilmasdan yurish qulayroq."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Where Osh leads next"
+      "ru": "Куда ведёт Ош"
+      "uz": "Oʻsh qayerga olib boradi"
+    "title":
+      "en": "Uzgen, Alay, or the road north"
+      "ru": "Узген, Алай или дорога на север"
+      "uz": "Oʻzgan, Oloy yoki shimolga yoʻl"
+    "description":
+      "en": "Uzgen keeps the heritage route close. Sary-Mogul and the Alay side pull the journey higher. Bishkek brings the wider Kyrgyzstan route back to its northern rhythm."
+      "ru": "Узген держит рядом южное наследие. Сары-Могол и Алай ведут выше в горы. Бишкек возвращает маршрут к северному ритму Кыргызстана."
+      "uz": "Oʻzgan janubiy meros yoʻlini yaqin tutadi. Sari-Mogʻol va Oloy yoʻnalishni balandroq togʻlarga olib chiqadi. Bishkek esa Qirgʻiziston safarini shimoliy ritmga qaytaradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Uzgen"
+          "ru": "Узген"
+          "uz": "Oʻzgan"
+        "description":
+          "en": "Uzgen is the Osh-side Silk Road town where Karakhanid brickwork, a compact town setting, and the return road turn one heritage stop into a calmer southern route choice."
+          "ru": "Узген — городок Шёлкового пути рядом с Ошем: караханидская кладка, компактная городская среда и дорога обратно превращают одну остановку наследия в спокойный выбор по южному маршруту."
+          "uz": "Oʻzgan Osh yaqinidagi Buyuk Ipak yoʻli shaharchasi: Qoraxoniylar gʻishti, ixcham shahar muhiti va qaytish yoʻli bitta meros bekatini sokinroq janubiy yoʻnalishga aylantiradi."
+        "ctaHref": "/destinations/kyrgyzstan/osh-and-southern-silk-road/uzgen"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/osh-next-sary-mogul.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Sary-Mogul"
+          "ru": "Сары-Могол"
+          "uz": "Sary-Mogʻul"
+        "description":
+          "en": "Sary-Mogul turns southern Kyrgyzstan toward the Alay: a high village below the Trans-Alay range, where Tulpar-Kol, mountain passes, permits, and weather need a deliberate plan."
+          "ru": "Сары-Могол поворачивает юг Кыргызстана к Алаю: высокий кишлак под Заалайским хребтом, где Тулпар-Кёль, перевалы, разрешения и погода требуют отдельного плана."
+          "uz": "Sary-Mogʻul Qirgʻiziston janubini Olay tomonga buradi: Zaalay tizmasi ostidagi baland qishloq, Tulpar-Koʻl, dovonlar, ruxsatlar va ob-havo alohida reja soʻraydigan joy."
+        "ctaHref": "/destinations/kyrgyzstan/osh-and-southern-silk-road/sary-mogul"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/osh-next-bishkek.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Bishkek"
+          "ru": "Бишкек"
+          "uz": "Bishkek"
+        "description":
+          "en": "Bishkek gives Kyrgyzstan a calm first frame: Ala-Too Square, Osh Bazaar, museum time, cafe streets, and quick roads to the Chuy foothills."
+          "ru": "Бишкек даёт Кыргызстану спокойный старт: площадь Ала-Тоо, Ошский базар, музейное время, кафе и быстрые дороги к Чуйским предгорьям."
+          "uz": "Bishkek Qirgʻizistonga xotirjam boshlanish beradi: Ala-Too maydoni, Oʻsh bozori, muzey vaqti, kafe koʻchalari hamda Chuy etaklariga tez yoʻllar."
+        "ctaHref": "/destinations/kyrgyzstan/bishkek-and-chuy-foothills/bishkek"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Osh in the day plan"
+      "ru": "Как поставить Ош в план дня"
+      "uz": "Oʻshni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Osh?"
+          "ru": "Сколько времени группам стоит проводить в Ош?"
+          "uz": "Oʻshda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A southern Silk Road city under Sulaiman-Too”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Южный город Шёлкового пути под Сулайман-Тоо»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Sulaymon-Too ostidagi janubiy Ipak yoʻli shahri»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Osh be a walkable core or a base for day trips?"
+          "ru": "Ош — это пешеходное ядро или база для выездов?"
+          "uz": "Oʻsh piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Osh's centre?"
+          "ru": "Где лучше ночевать относительно центра Ош?"
+          "uz": "Oʻsh markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kyrgyzstan/regions/osh-and-southern-silk-road/cities/osh.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Osh stop into your Kyrgyzstan programme"
+      "ru": "Встройте остановку «Ош» в программу (Кыргызстан)"
+      "uz": "Oʻsh bekatini Qirgʻiziston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Osh | TourLink"
+    "ru": "Ош | TourLink"
+    "uz": "Oʻsh | TourLink"
+  "metaDescription":
+    "en": "Osh is where Kyrgyzstan turns south. Sulaiman-Too holds the skyline, the bazaar keeps the streets moving, and the onward road asks for a clear choice: Uzgen, Alay, Sary-Mogul, the airport, or the long return north."
+    "ru": "В Оше Кыргызстан поворачивает на юг. Сулайман-Тоо держит городской силуэт, базар движет улицы, а дальнейшая дорога требует ясного выбора: Узген, Алай, Сары-Могол, аэропорт или длинный путь на север."
+    "uz": "Oʻshda Qirgʻiziston janubga buriladi. Sulaymon-Too shahar ufqini ushlab turadi, bozor koʻchalarga harakat beradi, keyingi yoʻl esa aniq tanlov soʻraydi: Oʻzgan, Oloy, Sari-Mogʻol, aeroport yoki shimolga uzun qaytish."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kyrgyzstan"
+"region": "osh-and-southern-silk-road"
+"latitude": 40.5172678
+"longitude": 72.8049894

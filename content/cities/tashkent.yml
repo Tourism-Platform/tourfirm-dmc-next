@@ -1,265 +1,828 @@
-# Seed: коллекция cities — Tashkent
-# Источник (старая БД): cities.slug = tashkent
-# Блоки: OLD seed buildCityBlocks() — cities в БД blocks не содержит
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "tashkent"
+  "ru": "tashkent"
+  "uz": "tashkent"
+"title":
+  "en": "Tashkent"
+  "ru": "Ташкент"
+  "uz": "Toshkent"
+"subtitle":
+  "en": "The capital where Uzbekistan begins moving"
+  "ru": "Столица, с которой Узбекистан приходит в движение"
+  "uz": "Oʻzbekiston harakatga keladigan poytaxt"
+"excerpt":
+  "en": "Tashkent often begins with motion: an early flight, a train platform, the smell of bread near Chorsu, then the metro, museums, and wide avenues. It is not Uzbekistan’s postcard city, and that is why it matters. The city helps you enter the country in the present tense: through Hazrati Imam and Chorsu, metro stations, museum rooms, city squares, and the road to Chimgan."
+  "ru": "Ташкент часто начинается с движения: ранний рейс, перрон, запах лепёшек у Чорсу, потом метро, музеи и широкие проспекты. Это не открыточный образ Узбекистана — и именно поэтому город важен. Он помогает войти в страну в настоящем времени: через Хазрати Имам и Чорсу, станции метро, музейные залы, городские площади и дорогу к Чимгану."
+  "uz": "Toshkent ko‘pincha harakatdan boshlanadi: erta reys, vokzal perroni, Chorsu yaqinidagi non hidi, keyin metro, muzeylar va keng xiyobonlar. Bu Oʻzbekistonning klassik sayyohlik manzarasi emas — shuning uchun ham muhim. Shahar mamlakatga bugungi ritmda kirishga yordam beradi: Hazrati Imom va Chorsu, metro bekatlari, muzey zallari, shahar maydonlari va Chimyon tomonga yo‘l orqali."
+"heroImage": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent.webp"
+    "imageAlt":
+      "en": "Tashkent"
+      "ru": "Ташкент"
+      "uz": "Toshkent"
+    "title":
+      "en": "Tashkent"
+      "ru": "Ташкент"
+      "uz": "Toshkent"
+    "description":
+      "en": "The capital where Uzbekistan begins moving"
+      "ru": "Столица, с которой Узбекистан приходит в движение"
+      "uz": "Oʻzbekiston harakatga keladigan poytaxt"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
 
-slug:
-  en: tashkent
-  ru: tashkent
-  uz: tashkent
-title:
-  en: Tashkent
-  ru: Ташкент
-  uz: Toshkent
-excerpt:
-  en: Wide boulevards, Chorsu Bazaar and the gateway to Uzbekistan.
-  ru: Широкие проспекты, базар Чорсу и ворота в Узбекистан.
-  uz: Keng bulvarlar, Chorsu bozori va O'zbekistonga kirish eshigi.
-country: uzbekistan
-region: tashkent-region
-latitude: 41.2995
-longitude: 69.2401
-heroImage: assets/images/city/tashkent.jpg
-blocks:
-  - blockType: hero
-    image: assets/images/city/tashkent.jpg
-    imageAlt:
-      en: Tashkent city view
-      ru: Вид на Ташкент
-      uz: Toshkent manzarasi
-    title:
-      en: Tashkent
-      ru: Ташкент
-      uz: Toshkent
-    description:
-      en: Wide boulevards, Chorsu Bazaar and the gateway to Uzbekistan.
-      ru: Широкие проспекты, базар Чорсу и ворота в Узбекистан.
-      uz: Keng bulvarlar, Chorsu bozori va O'zbekistonga kirish eshigi.
-    actions:
-      - type: mailto
-        variant: default
-        title:
-          en: Request a tour
-          ru: Запросить тур
-          uz: Tur so'rash
-        email: info@tourlink.uz
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Tashkent"
+      "ru": "Ташкент"
+      "uz": "Toshkent"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Tashkent often begins with motion: an early flight, a train platform, the smell of bread near Chorsu, then the metro, museums, and wide avenues."
+              "ru": "Ташкент часто начинается с движения: ранний рейс, перрон, запах лепёшек у Чорсу, потом метро, музеи и широкие проспекты."
+              "uz": "Toshkent ko‘pincha harakatdan boshlanadi: erta reys, vokzal perroni, Chorsu yaqinidagi non hidi, keyin metro, muzeylar va keng xiyobonlar."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Tashkent is large, but a visitor day becomes clearer when arrival, the old city, metro interiors, museums, city squares, and the road out of the capital are held in one calm rhythm."
+              "ru": "Ташкент большой, но день путешественника становится понятнее, когда приезд, старый город, интерьеры метро, музеи, городские площади и выезд из столицы держатся в одном спокойном ритме."
+              "uz": "Toshkent katta, lekin sayohatchi kuni kelish, eski shahar, metro interyerlari, muzeylar, shahar maydonlari va poytaxtdan chiqish yoʻli bitta sokin ritmda turganda aniqroq bo‘ladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Arrival and the old city come first; after that, the day has room for one calm continuation: the metro, a museum, the modern centre, or the road toward Chimgan."
+              "ru": "Сначала в день входят приезд и старый город; затем остаётся одно спокойное продолжение — метро, музей, современный центр или дорога к Чимгану."
+              "uz": "Avval kunga kelish va eski shahar kiradi; keyin bitta sokin davomga joy qoladi — metro, muzey, zamonaviy markaz yoki Chimyon tomonga yo‘l."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Tashkent as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Ташкент как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Toshkent o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "A Tashkent day without rushing"
+      "ru": "День в Ташкенте без спешки"
+      "uz": "Toshkent kuni shoshmasdan"
+    "description":
+      "en": "Tashkent is large, but a visitor day becomes clearer when arrival, the old city, metro interiors, museums, city squares, and the road out of the capital are held in one calm rhythm."
+      "ru": "Ташкент большой, но день путешественника становится понятнее, когда приезд, старый город, интерьеры метро, музеи, городские площади и выезд из столицы держатся в одном спокойном ритме."
+      "uz": "Toshkent katta, lekin sayohatchi kuni kelish, eski shahar, metro interyerlari, muzeylar, shahar maydonlari va poytaxtdan chiqish yoʻli bitta sokin ritmda turganda aniqroq bo‘ladi."
+    "mapPanel":
+      "eyebrow":
+        "en": "On the route"
+        "ru": "На маршруте"
+        "uz": "Yoʻnalishda"
+      "title":
+        "en": "Old city, metro, museums, and the road out"
+        "ru": "Старый город, метро, музеи и выезд из столицы"
+        "uz": "Eski shahar, metro, muzeylar va poytaxtdan chiqish"
+      "description":
+        "en": "The map keeps arrival, Chorsu, Hazrati Imam, the metro, and the Applied Arts museum visible; Kukeldash, Amir Timur Square, history museums, modernist avenues, Sheikhantaur, Suzuk-Ota, or Chimgan should be added only when the pace is calm."
+        "ru": "Карта держит рядом приезд, Чорсу, Хазрати Имам, метро и Музей прикладного искусства; Кукельдаш, площадь Амира Темура, исторические музеи, модернистские проспекты, Шейхантаур, Сузук-Ота и Чимган стоит добавлять только при спокойном темпе."
+        "uz": "Xarita kelish, Chorsu, Hazrati Imom, metro va Amaliy sanʼat muzeyini yaqin tutadi; Koʻkaldosh, Amir Temur maydoni, tarix muzeylari, modernistik xiyobonlar, Shayxontohur, Suzuk Ota yoki Chimyon faqat ritm sokin bo‘lganda qo‘shiladi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.306936
+      "longitude": 69.25663
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "chorsu-bazaar"
+      - "entityType": "attraction"
+        "entitySlug": "khast-imam-complex"
+      - "entityType": "attraction"
+        "entitySlug": "state-museum-of-applied-arts"
+    "aside":
+      "eyebrow":
+        "en": "City rhythm"
+        "ru": "Ритм города"
+        "uz": "Shahar ritmi"
+      "title":
+        "en": "Arrival, old city, museums, onward road"
+        "ru": "Прибытие, старый город, музеи и дорога дальше"
+        "uz": "Kelish, eski shahar, muzeylar va davom yo‘li"
+      "description":
+        "en": "Arrival and the old city come first; after that, the day has room for one calm continuation: the metro, a museum, the modern centre, or the road toward Chimgan."
+        "ru": "Сначала в день входят приезд и старый город; затем остаётся одно спокойное продолжение — метро, музей, современный центр или дорога к Чимгану."
+        "uz": "Avval kunga kelish va eski shahar kiradi; keyin bitta sokin davomga joy qoladi — metro, muzey, zamonaviy markaz yoki Chimyon tomonga yo‘l."
+      "items":
+        - "title":
+            "en": "First, settle into the city"
+            "ru": "Сначала спокойно войти в город"
+            "uz": "Avval shaharga sokin kirish"
+          "description":
+            "en": "International flights, rail stations, and hotel timing decide how much of the city can fit before the first walk."
+            "ru": "Международные рейсы, вокзалы и время заселения решают, сколько города поместится до первой прогулки."
+            "uz": "Xalqaro reyslar, vokzallar va mehmonxonaga joylashish vaqti birinchi sayrdan oldin shaharning qancha qismi sig‘ishini belgilaydi."
+          "badge":
+            "en": "arrival"
+            "ru": "прибытие"
+            "uz": "kelish"
+        - "title":
+            "en": "The old city is better in the morning"
+            "ru": "Старый город лучше утром"
+            "uz": "Eski shahar tongda yaxshiroq"
+          "description":
+            "en": "Khast Imam, Chorsu, Kukeldash, and nearby mahalla lanes are easier to feel before the day becomes hot or traffic-heavy."
+            "ru": "Хаст-Имам, Чорсу, Кукельдаш и ближайшие махалли легче почувствовать до жары и плотного городского движения."
+            "uz": "Hazrati Imom, Chorsu, Koʻkaldosh va yaqin mahallalar kun qizib ketishidan yoki harakat zichlashishidan oldin yaxshiroq seziladi."
+          "badge":
+            "en": "old city"
+            "ru": "старый город"
+            "uz": "eski shahar"
+        - "title":
+            "en": "The metro connects the day"
+            "ru": "Метро связывает части дня"
+            "uz": "Metro kun qismlarini bogʻlaydi"
+          "description":
+            "en": "Metro interiors connect transport, memory, and design while linking the old-city side with central museums and avenues."
+            "ru": "Интерьеры метро соединяют транспорт, память и дизайн, а заодно связывают старогородскую сторону с центральными музеями и проспектами."
+            "uz": "Metro interyerlari transport, xotira va dizaynni bog‘laydi, eski shahar tomonini markaziy muzeylar va xiyobonlar bilan tutashtiradi."
+          "badge":
+            "en": "metro"
+            "ru": "метро"
+            "uz": "metro"
+        - "title":
+            "en": "Leave room for one continuation"
+            "ru": "Оставить место только для одного продолжения"
+            "uz": "Faqat bitta davomga joy qoldirish"
+          "description":
+            "en": "Applied Arts, history museums, modernist architecture, Sheikhantaur/Suzuk-Ota, or the mountain road can deepen the day, but not all at once."
+            "ru": "Музей прикладного искусства, исторические музеи, модернистская архитектура, Шейхантаур, Сузук-Ота или горная дорога могут углубить день, но не все сразу."
+            "uz": "Amaliy sanʼat, tarix muzeylari, modernistik arxitektura, Shayxontohur, Suzuk Ota yoki tog‘ yo‘li kunni chuqurlashtirishi mumkin, lekin hammasi birdan emas."
+          "badge":
+            "en": "pause"
+            "ru": "пауза"
+            "uz": "pauza"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nima ko‘rish kerak"
+    "title":
+      "en": "Main places that make the city clear"
+      "ru": "Главные места, с которых понятен город"
+      "uz": "Shaharni tushuntiradigan asosiy joylar"
+    "description":
+      "en": "Khast Imam and Chorsu give Tashkent its old city; the metro, Kukeldash, Amir Timur Square, the Applied Arts Museum, history museums, Sheikhantaur, Suzuk-Ota, and contemporary cultural spaces show the capital beyond arrival."
+      "ru": "Хаст-Имам и Чорсу дают старый город; метро, Кукельдаш, площадь Амира Темура, Музей прикладного искусства, исторические музеи, Шейхантаур, Сузук-Ота и современные культурные пространства показывают столицу за пределами прибытия."
+      "uz": "Hazrati Imom va Chorsu eski shaharni beradi; metro, Koʻkaldosh, Amir Temur maydoni, Amaliy sanʼat muzeyi, tarix muzeylari, Shayxontohur, Suzuk Ota va zamonaviy madaniy maydonlar poytaxtni faqat kelish shahri emasligini ko‘rsatadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/khast-imam-complex.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Khast Imam Complex"
+          "ru": "Комплекс Хазрати Имам"
+          "uz": "Hazrati Imom majmuasi"
+        "description":
+          "en": "Khast Imam gathers old Tashkent at a calmer scale: courtyards, tiled portals, madrasahs, mosques, shade, and a manuscript tradition. After the movement of Chorsu, the ensemble gives the city a quieter voice."
+          "ru": "Комплекс Хазрати Имам собирает старый Ташкент в спокойном масштабе: открытые дворы, мозаичные порталы, медресе, мечети, тень и историю рукописей. После движения Чорсу здесь появляется пауза, и старый город затихает."
+          "uz": "Hazrati Imom majmuasi eski Toshkentni sokin ritmda ochadi: ochiq hovlilar, koshinli peshtoqlar, madrasalar, masjidlar, soya va qoʻlyozmalar tarixi. Chorsudagi harakatdan keyin bu yer shaharni sekinroq his qilishga imkon beradi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/khast-imam-complex"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/chorsu-bazaar.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Chorsu Bazaar"
+          "ru": "Базар Чорсу"
+          "uz": "Chorsu bozori"
+        "description":
+          "en": "Chorsu makes old Tashkent immediate: a blue dome above the market, bread steam at the entrances, sellers behind dairy, dried fruit, spices, and hot-food rows. Before the quieter courtyards of Kukeldash or Khast Imam, the city feels lived-in and close."
+          "ru": "Чорсу сразу показывает старый Ташкент: синий купол над рынком, пар от лепёшек у входов, продавцы за молочными рядами, сухофруктами, специями и горячей едой. Перед более тихими дворами Кукельдаша или Хазрати Имам город ощущается живым и близким."
+          "uz": "Chorsu eski Toshkentni darhol yaqinlashtiradi: bozor ustidagi ko‘k gumbaz, kirishlardagi non isi, sut mahsulotlari, quruq mevalar, ziravorlar va issiq taomlar ortidagi sotuvchilar. Ko‘kaldosh yoki Hazrati Imomning sokinroq hovlilaridan oldin shahar tirik va yaqin seziladi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/chorsu-bazaar"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/tashkent-metro.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Tashkent Metro"
+          "ru": "Ташкентское метро"
+          "uz": "Toshkent metrosi"
+        "description":
+          "en": "In Tashkent, the metro is not only a way across town. You step below the streets and find blue arches, marble, lamps, mosaics, portraits of poets and thinkers, space-themed Kosmonavtlar, and people moving through the capital as usual."
+          "ru": "В Ташкенте метро — не только способ пересечь город. Вы спускаетесь под улицы и видите синие арки, мрамор, светильники, мозаики, портреты поэтов и мыслителей, космический Космонавтлар и людей, которые едут по столице как обычно."
+          "uz": "Toshkentda metro shaharni kesib o‘tishning oddiy usuli emas. Siz ko‘cha ostiga tushasiz va ko‘k ravoqlar, marmar, chiroqlar, mozaikalar, shoir va mutafakkirlar portretlari, kosmik mavzudagi Kosmonavtlar hamda poytaxt bo‘ylab odatdagidek ketayotgan odamlarni ko‘rasiz."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/tashkent-metro"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/kukeldash-madrasah.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Kukeldash Madrasah"
+          "ru": "Медресе Кукельдаш"
+          "uz": "Ko‘kaldosh madrasasi"
+        "description":
+          "en": "Beside Chorsu's market streets, Kukeldash lowers the tempo. Brick, blue tile, a shaded courtyard, and an active religious and educational setting remind you that old Tashkent is still used with care."
+          "ru": "Рядом с рыночными улицами Чорсу Кукельдаш снижает темп. Кирпич, синяя керамика, тенистый двор и действующая религиозно-образовательная среда напоминают, что старый Ташкент не только хранит историю, но и продолжает жить."
+          "uz": "Chorsu atrofidagi bozor ko‘chalari yonida Ko‘kaldosh surʼatni pasaytiradi. G‘isht, moviy koshin, soyali hovli va faol diniy-taʼlim muhiti eski Toshkent hali ham ehtiyot bilan foydalaniladigan joy ekanini eslatadi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/kukeldash-madrasah"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/amir-temur-square.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Amir Temur Square"
+          "ru": "Сквер Амира Темура"
+          "uz": "Amir Temur xiyoboni"
+        "description":
+          "en": "Between broad avenues, trees, nearby metro, and the bronze equestrian monument, the square gives Tashkent a clear central marker. It belongs as a compact stop: take in the statue and garden, then continue toward metro halls, museums, or old-city streets."
+          "ru": "Между широкими проспектами, деревьями, метро рядом и бронзовым конным памятником сквер даёт Ташкенту понятную центральную точку. Лучше оставить его компактной остановкой: увидеть памятник и зелёную часть, а затем продолжить к метро, музеям или улицам старого города."
+          "uz": "Keng shoh ko‘chalar, daraxtlar, yaqin metro va bronza otliq haykal orasida xiyobon Toshkentning aniq markaziy belgisi bo‘lib turadi. U ixcham mo‘ljal sifatida yaxshi: haykal va bog‘ni ko‘rib, keyin metro zallari, muzeylar yoki eski shahar tomonga davom etasiz."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/amir-temur-square"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/state-museum-of-temurids-history.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "State Museum of Temurids History"
+          "ru": "Государственный музей истории Темуридов"
+          "uz": "Temuriylar tarixi davlat muzeyi"
+        "description":
+          "en": "Amir Temur Square gives the monument; the museum gives the story room to settle. Inside the round turquoise-domed building, murals, a crystal chandelier, maps, models, miniatures, and display cases point the Tashkent visit onward to Samarkand and Shakhrisabz."
+          "ru": "В сквере вы видите памятник; в музее тема успевает сложиться. Внутри круглого здания с бирюзовым куполом росписи, хрустальная люстра, карты, макеты, миниатюры и витрины ведут ташкентский визит дальше — к Самарканду и Шахрисабзу."
+          "uz": "Xiyobonda yodgorlikni ko‘rasiz; muzey esa mavzuni sekinroq tushuntiradi. Feruza gumbazli yumaloq bino ichida devoriy suratlar, billur qandil, xaritalar, maketlar, miniatyuralar va vitrinalar Toshkent tashrifini Samarqand hamda Shahrisabz tomonga davom ettiradi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/state-museum-of-temurids-history"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/state-museum-of-history-of-uzbekistan.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "State Museum of History of Uzbekistan"
+          "ru": "Государственный музей истории Узбекистана"
+          "uz": "Oʻzbekiston tarixi davlat muzeyi"
+        "description":
+          "en": "The facade is already part of the story: a cube-like 1970 building wrapped in pale geometric screens. When the museum is open, the visit can move from that modernist shell into Uzbekistan's deeper historical arc; during repairs, it belongs only as a short exterior architecture pa"
+          "ru": "Фасад уже часть истории: кубическое здание 1970 года с бледными геометрическими экранами. Когда музей открыт, визит переходит из этой модернистской оболочки к большой истории страны; пока идёт ремонт, место лучше воспринимать как короткую архитектурную остановку, если доступ внут"
+          "uz": "Fasadning o‘zi ham hikoyaning bir qismi: 1970 yildagi kubsimon bino och rangli geometrik ekranlar bilan o‘ralgan. Kirish ochiq bo‘lsa, tashrif shu modernistik qobiqdan mamlakatning chuqurroq tarixiga o‘tadi; taʼmir davom etsa, kirish tasdiqlanmaguncha bu joy qisqa tashqi meʼmoriy"
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/state-museum-of-history-of-uzbekistan"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/state-museum-of-applied-arts.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "State Museum of Applied Arts"
+          "ru": "Музей прикладного искусства"
+          "uz": "Amaliy sanʼat muzeyi"
+        "description":
+          "en": "At the State Museum of Applied Arts, the building teaches the eye before the vitrines do. Painted panels, carved columns, wooden doors, ceramics, embroidery, jewelry, textiles, and ganch detail make applied art something you can read room by room."
+          "ru": "В этом музее сначала работает само здание. Расписные панели, резные колонны, деревянные двери, керамика, вышивка, украшения, ткани и ганч превращают прикладное искусство из музейного раздела в то, что можно рассматривать комнату за комнатой."
+          "uz": "Bu muzeyda avval binoning o‘zi ko‘zni tayyorlaydi. Naqshli panellar, o‘yma ustunlar, yog‘och eshiklar, kulolchilik, kashta, zargarlik, matolar va ganch amaliy sanʼatni muzey bo‘limidan xonama-xona ko‘riladigan tajribaga aylantiradi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/state-museum-of-applied-arts"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/tashkent-tv-tower.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Tashkent TV Tower"
+          "ru": "Ташкентская телебашня"
+          "uz": "Toshkent teleminorasi"
+        "description":
+          "en": "From the TV Tower, Tashkent stops being separate streets, museums, markets, and squares and becomes one wide capital below you. The 375 m landmark is still a working broadcast tower, so the visit belongs on a confirmed public route, with a view from around 100 m and enough flexib"
+          "ru": "С телебашни Ташкент перестаёт быть отдельными улицами, музеями, базарами и площадями: город собирается в широкую столицу под вами. 375-метровая башня остаётся действующим вещательным объектом, поэтому визит строится вокруг подтверждённого публичного маршрута, вида примерно со 100"
+          "uz": "Teleminoradan Toshkent alohida ko‘chalar, muzeylar, bozorlar va xiyobonlar yig‘indisi emas, pastda yoyilgan bitta poytaxt bo‘lib ko‘rinadi. 375 metrli minora hanuz amaldagi aloqa inshooti, shuning uchun tashrif tasdiqlangan ochiq yo‘l, taxminan 100 metrlik manzara va kirish o‘zga"
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/tashkent-tv-tower"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/sheikhantaur-ensemble.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Sheikhantaur Ensemble"
+          "ru": "Ансамбль Шейхантаур"
+          "uz": "Shayxontohur ansambli"
+        "description":
+          "en": "Sheikhantaur is easy to miss if you read Tashkent only through traffic, markets and landmark squares. Behind the surrounding city streets, three preserved mausoleums remember Sheikh Hovendi at-Tahur, Kaldyrgach-biy and Yunus Khan, adding a quiet old-city pause after Chorsu, Kukel"
+          "ru": "Шейхантаур легко пропустить, если смотреть на Ташкент только через движение, базары и главные площади. Среди городских улиц три сохранившихся мавзолея хранят память о шейхе Ховенди ат-Тахуре, Калдыргач-бие и Юнус-хане, добавляя тихую паузу старого города после Чорсу, Кукельдаша и"
+          "uz": "Agar Toshkentni faqat harakat, bozorlar va katta maydonlar orqali ko‘rsangiz, Shayxontohur ko‘zdan qochishi mumkin. Shahar ko‘chalari orasida uchta saqlangan maqbara Shayx Xovandi Tohur, Qaldirg‘ochbiy va Yunusxon xotirasini tutib turadi; Chorsu, Ko‘kaldosh va Hazrati Imomdan key"
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/sheikhantaur-ensemble"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/suzuk-ota-complex.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Suzuk-Ota Complex"
+          "ru": "Комплекс Сузук-Ота"
+          "uz": "Suzuk Ota majmuasi"
+        "description":
+          "en": "Near Chorsu, Suzuk-Ota slows the old-city route down. The complex brings together a mosque, mausoleum, restored mahalla space and craft tradition, so Tashkent's religious memory meets the handwork of its craftspeople."
+          "ru": "Рядом с Чорсу Сузук-Ота замедляет маршрут по старому городу. Комплекс соединяет мечеть, мавзолей, восстановленную махаллинскую среду и ремесленную традицию, так что религиозная память Ташкента встречается с живым ручным трудом мастеров."
+          "uz": "Chorsu yaqinida Suzuk Ota eski shahar yo‘lini sekinlashtiradi. Majmua masjid, maqbara, tiklangan mahalla muhiti va hunarmandchilik anʼanasini birlashtiradi; Toshkentning diniy xotirasi ustalarning qo‘l mehnati bilan yonma-yon ko‘rinadi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/suzuk-ota-complex"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/minor-mosque.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Minor Mosque"
+          "ru": "Мечеть Минор"
+          "uz": "Minor masjidi"
+        "description":
+          "en": "Minor Mosque gives Tashkent a bright contemporary landmark: white marble, two slim minarets, a turquoise dome and gardens beside the Ankhor canal. The visit feels strongest when it stays respectful, unhurried and aware of prayer-time rhythm."
+          "ru": "Мечеть Минор даёт Ташкенту яркий современный ориентир: белый мрамор, два тонких минарета, бирюзовый купол и сад у канала Анхор. Место раскрывается лучше, когда визит остаётся уважительным, неспешным и внимательным к ритму молитвы."
+          "uz": "Minor masjidi Toshkentga yorqin zamonaviy mo‘ljal beradi: oq marmar, ikki ingichka minora, feruza gumbaz va Anhor kanali bo‘yidagi bog‘. To‘xtam ehtiromli, shoshilmagan va namoz vaqti ritmiga sezgir bo‘lsa, taʼsiri kuchliroq bo‘ladi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/minor-mosque"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/ming-urik-settlement.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Ming Urik Settlement"
+          "ru": "Городище Минг-Урик"
+          "uz": "Ming O‘rik shahristoni"
+        "description":
+          "en": "Ming Urik is modest at first sight: an urban entrance, a roofed excavation, clay walls, pottery and reconstructed domestic corners. With a guide's explanation, the stop turns present-day Tashkent toward the earlier city of Chach and the fortified life that once stood near today's"
+          "ru": "Сначала Минг-Урик кажется скромным: городской вход, раскоп под навесом, глинобитные стены, керамика и реконструированные бытовые уголки. С объяснением гида остановка переводит сегодняшний Ташкент к более раннему Чачу и укреплённой городской жизни, которая когда-то стояла рядом с "
+          "uz": "Ming O‘rik avvaliga kamtar ko‘rinadi: shahar ichidagi kirish, tom ostidagi qazilma, loy devorlar, sopol buyumlar va rekonstruksiya qilingan turmush burchaklari. Gid izohi bilan bu to‘xtam bugungi Toshkentni qadimgi Chochga va hozirgi markaz yonida bo‘lgan mustahkamlangan shahar h"
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/ming-urik-settlement"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City rhythm"
+      "ru": "Ритм города"
+      "uz": "Shahar ritmi"
+    "title":
+      "en": "How Tashkent feels"
+      "ru": "Как чувствуется Ташкент"
+      "uz": "Toshkent qanday seziladi"
+    "description":
+      "en": "These are living city moments, not a checklist: tea after the old city, the metro, museum quiet, courtyard lunch, and evening avenues give Tashkent room to breathe."
+      "ru": "Это живые городские моменты, а не список галочек: чай после старого города, метро, музейная тишина, обед во дворе и вечерние проспекты оставляют Ташкенту пространство."
+      "uz": "Bular roʻyxat emas, tirik shahar lahzalari: eski shahardan keyingi choy, metro, muzey sokinligi, hovlida tushlik va kechki xiyobonlar Toshkentga kenglik qoldiradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/tashkent/tashkent-character-1.webp"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Courtyard Lunch in the Old City"
+          "ru": "Обед во дворе старого города"
+          "uz": "Eski shaharda hovli tushligi"
+        "description":
+          "en": "In a shaded courtyard near the old-city lanes, the table fills slowly: bread torn by hand, greens, soup, and tea poured before the next old-city story. You are not rushing between sights; for a while Tashkent keeps the pace of lunch."
+          "ru": "В тенистом дворе у улиц старого города стол наполняется не сразу: ломают лепёшку, ставят зелень, суп и пиалу чая перед следующим рассказом о старом городе. Вы не спешите от места к месту — на время Ташкент идёт в ритме обеда."
+          "uz": "Eski shahar ko‘chalari yonidagi soyali hovlida dasturxon sekin to‘ladi: non qo‘l bilan uziladi, ko‘kat, sho‘rva va eski shahar haqidagi navbatdagi hikoyadan oldin choy keladi. Siz joydan joyga shoshmaysiz — bir muddat Toshkent tushlik ritmida yashaydi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/tashkent/tashkent-character-2.webp"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Applied Arts Indoors"
+          "ru": "Тишина прикладного искусства"
+          "uz": "Amaliy sanʼat sokinligi"
+        "description":
+          "en": "In a museum room, the city becomes quieter: ceramics, embroidery, and carved wood ask for attention rather than speed. You notice pattern, material, and the hands behind them."
+          "ru": "В музейной комнате город становится тише: керамика, вышивка и резное дерево требуют не скорости, а внимания. Вы замечаете узор, материал и руки, которые за ними стоят."
+          "uz": "Muzey xonasida shahar sokinlashadi: keramika, kashta va o‘yma yog‘och tezlikni emas, eʼtiborni so‘raydi. Siz naqsh, material va ularning ortidagi qo‘llarni sezasiz."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/tashkent/tashkent-character-3.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Evening on Broad Avenues"
+          "ru": "Вечер на проспектах"
+          "uz": "Xiyobonlarda kechqurun"
+        "description":
+          "en": "By evening the city opens wider: fountains, parks, traffic, families walking late, and light caught in the trees. You step out of a museum day into a living capital, where an ordinary evening helps you feel the city."
+          "ru": "К вечеру город раскрывается шире: фонтаны, парки, движение, поздние прогулки семей и свет в кронах деревьев. Вы выходите из музейного дня в живую столицу, где обычный вечер помогает почувствовать город."
+          "uz": "Kechga borib shahar kengroq ochiladi: favvoralar, bog‘lar, harakat, kechki oilaviy sayrlar va daraxtlardagi yorug‘lik. Siz muzeyli kundan tirik poytaxtga chiqasiz, oddiy kecha esa shaharni his qilishga yordam beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/tashkent/tashkent-character-4.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Tea near Hazrati Imam"
+          "ru": "Чай у Хазрати Имам"
+          "uz": "Hazrati Imom yaqinida choy"
+        "description":
+          "en": "After the mosaic portals and courtyards of the old city, tea feels like part of the route. A cup cools in your hand, the conversation turns toward the mahalla, and Tashkent becomes a calm conversation rather than a list of sights."
+          "ru": "После мозаичных порталов и дворов старого города чай кажется частью маршрута. Пиала остывает в руках, разговор уходит к махалле, и Ташкент становится спокойным разговором, а не списком достопримечательностей."
+          "uz": "Eski shaharning mozaikali peshtoqlari va hovlilaridan keyin choy yo‘nalishning bir qismiga aylanadi. Piyola qo‘lingizda soviydi, suhbat mahalla tomonga ketadi, Toshkent esa joylar ro‘yxati emas, sokin suhbat bo‘lib qoladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/tashkent/tashkent-character-5.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Metro between Mosaics"
+          "ru": "Метро среди мозаик"
+          "uz": "Mozaikalar orasida metro"
+        "description":
+          "en": "A train arrives as if it were ordinary, but the station feels like a hall: marble, lamps, mosaics, and the quiet flow of passengers. You ride not only for transport, but to see how daily Tashkent became architecture."
+          "ru": "Поезд приходит как обычный транспорт, но станция выглядит как зал: мрамор, светильники, мозаики и тихий поток пассажиров. Вы едете не только ради дороги, а чтобы увидеть, как повседневный Ташкент стал архитектурой."
+          "uz": "Poyezd odatiy transportdek keladi, lekin bekat zalga o‘xshaydi: marmar, chiroqlar, mozaikalar va sokin yo‘lovchilar oqimi. Siz faqat yo‘l uchun emas, kundalik Toshkent qanday meʼmorchilikka aylanganini ko‘rish uchun ham minasiz."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/tashkent/tashkent-character-6.webp"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Morning at Chorsu"
+          "ru": "Утро на Чорсу"
+          "uz": "Chorsuda tong"
+        "description":
+          "en": "Under Chorsu’s blue dome, the day starts with hot bread, dried fruit, and voices calling across the stalls. You have time to slow down, taste, ask, and hear how Tashkent wakes up."
+          "ru": "Под синим куполом Чорсу день начинается с горячих лепёшек, сухофруктов и голосов продавцов. Вы успеваете замедлиться, попробовать, спросить и услышать, как просыпается Ташкент."
+          "uz": "Chorsu ko‘k gumbazi ostida kun issiq non, quritilgan meva va rastalar orasidagi ovozlardan boshlanadi. Siz sekinlashib, tatib ko‘rib, so‘rab va Toshkent qanday uyg‘onishini eshitishga ulgurishingiz mumkin."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "How to plan a Tashkent day"
+      "ru": "Как выстроить день в Ташкенте"
+      "uz": "Toshkent kunini qanday tuzish kerak"
+    "description":
+      "en": "Tashkent is easier to plan by the rhythm of the day, not by a list of places: arrival, the old city, metro and museum time, then one calm continuation before the mountains or the train onward."
+      "ru": "Ташкент проще планировать не списком мест, а ритмом дня: прибытие, старый город, метро и музеи, затем одно спокойное продолжение перед горами или поездом дальше."
+      "uz": "Toshkentni joylar roʻyxati emas, kun ritmi orqali rejalashtirish osonroq: kelish, eski shahar, metro va muzeylar, keyin togʻlar yoki keyingi poyezddan oldin bitta sokin davom."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Arrival and the first day"
+              "ru": "Прибытие и первый день"
+              "uz": "Kelish va birinchi kun"
+            "description":
+              "en": "Most routes begin at the airport or station. A calm transfer, realistic hotel timing, and a short first walk keep the city from becoming only a set of transfers."
+              "ru": "Большинство маршрутов начинается в аэропорту или на вокзале. Спокойный трансфер, понятное заселение и короткая первая прогулка помогают городу не превратиться в набор пересадок."
+              "uz": "Koʻp yoʻnalish aeroport yoki vokzaldan boshlanadi. Sokin transfer, aniq joylashish va qisqa birinchi sayr shaharni faqat ko‘chishlar to‘plamiga aylantirmaydi."
+          - "type": "quote"
+            "quote":
+              "en": "Tashkent opens the journey better when the first day does not try to show the whole city at once."
+              "ru": "Ташкент лучше открывает маршрут, когда первый день не пытается показать весь город сразу."
+              "uz": "Toshkent birinchi kun butun shaharni birdan ko‘rsatishga urinmaganda yoʻnalishni yaxshiroq ochadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Old city and markets"
+              "ru": "Старый город и рынки"
+              "uz": "Eski shahar va bozorlar"
+            "description":
+              "en": "Chorsu, Khast Imam, Kukeldash, and nearby mahalla lanes are easier to feel in the morning, when it is simpler to move between courtyards, the bazaar, and old-city streets."
+              "ru": "Чорсу, Хаст-Имам, Кукельдаш и ближайшие махалли лучше воспринимаются утром, когда легче двигаться между дворами, базаром и улицами старого города."
+              "uz": "Chorsu, Hazrati Imom, Koʻkaldosh va yaqin mahallalar tongda yaxshiroq seziladi, chunki hovlilar, bozor va eski shahar ko‘chalari orasida harakat qilish osonroq."
+          - "type": "dashTitle"
+            "title":
+              "en": "Museums, metro, and modern city"
+              "ru": "Музеи, метро и современный город"
+              "uz": "Muzeylar, metro va zamonaviy shahar"
+            "description":
+              "en": "Metro stations, the Applied Arts Museum, history museums, city squares, modernist avenues, and new cultural spaces show the capital without rushing. A day is clearer with one such continuation, not every stop at once."
+              "ru": "Станции метро, Музей прикладного искусства, исторические музеи, городские площади, модернистские проспекты и новые культурные пространства показывают столицу без спешки. В один день лучше оставить одно такое продолжение, а не все остановки сразу."
+              "uz": "Metro bekatlari, Amaliy sanʼat muzeyi, tarix muzeylari, shahar maydonlari, modernistik xiyobonlar va yangi madaniy maydonlar poytaxtni shoshmasdan ko‘rsatadi. Kun aniqroq bo‘lishi uchun hamma bekatni emas, shunday bitta davomni tanlash yetadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Mountains or onward route"
+              "ru": "Горы или продолжение"
+              "uz": "Togʻlar yoki davom"
+            "description":
+              "en": "Chimgan and Charvak can give the route air, but they need a clear road-and-weather check. Some journeys keep Tashkent as a city day; others let it become a calm start before the mountain road or the train to Samarkand."
+              "ru": "Чимган и Чарвак добавляют маршруту воздух, но им нужны понятные дорога и погода. Иногда Ташкент остаётся городским днём, иногда становится спокойным стартом перед горной дорогой или поездом в Самарканд."
+              "uz": "Chimyon va Chorvoq yoʻnalishga havo qoʻshadi, lekin yoʻl va ob-havo aniq boʻlishi kerak. Baʼzi safarlarda Toshkent shahar kuni boʻlib qoladi, boshqalarida esa togʻ yoʻli yoki Samarqand poyezdi oldidan sokin boshlanishga aylanadi."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "If you do not try to see everything at once, Tashkent becomes a clear first day of the route: old-city morning, metro or museum time, then one outing or the train onward."
+              "ru": "Если не пытаться увидеть всё сразу, Ташкент становится понятным первым днём маршрута: утро в старом городе, метро или музей, затем один выезд или поезд дальше."
+              "uz": "Hammasini birdan ko‘rishga urinmasangiz, Toshkent yo‘nalishning tushunarli birinchi kuniga aylanadi: eski shahar tongi, metro yoki muzey vaqti, keyin bitta chiqish yoki keyingi poyezd."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Stay"
+                  "ru": "Коротко Срок"
+                  "uz": "Qisqacha Muddat"
+                "description":
+                  "en": "1-2 nights; add one more for museums, architecture, mountains, or late arrivals."
+                  "ru": "1-2 ночи; ещё одна для музеев, архитектуры, гор или позднего прилёта."
+                  "uz": "1-2 kecha; muzeylar, meʼmorchilik, togʻlar yoki kech kelish uchun yana bir kecha."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Getting there"
+                  "ru": "Как добраться"
+                  "uz": "Qanday borish"
+                "description":
+                  "en": "Most international travelers enter Uzbekistan through Tashkent International Airport."
+                  "ru": "Большинство международных путешественников въезжает в Узбекистан через Международный аэропорт Ташкента."
+                  "uz": "Xalqaro sayohatchilarning koʻpi Oʻzbekistonga Toshkent xalqaro aeroporti orqali kiradi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Getting around"
+                  "ru": "По городу"
+                  "uz": "Shahar ichida"
+                "description":
+                  "en": "The metro, short taxi rides, and planned transfers keep the day comfortable; the old-city sights are not all walking distance from the modern centre."
+                  "ru": "Метро, короткие такси и трансферы помогают соединить день без лишней спешки; старогородские места не всегда рядом с современным центром."
+                  "uz": "Metro, qisqa taksi safarlari va transferlar kunni shoshirmasdan bogʻlaydi; eski shahar joylari doim markazdan piyoda masofada emas."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and pace"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va ritm"
+                "description":
+                  "en": "Spring and autumn are easiest for walks; summer needs early city time, metro and museum shade, and later starts; winter keeps museums and the metro strong."
+                  "ru": "Весна и осень удобнее для прогулок; летом нужны ранние городские часы, тень метро и музеев, более поздние выходы; зимой сильнее музеи и метро."
+                  "uz": "Bahor va kuz sayrlar uchun osonroq; yozda erta shahar vaqti, metro va muzey soyasi, kechroq chiqishlar kerak; qishda muzeylar va metro kuchliroq bo‘ladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Tour programs"
+      "ru": "Турпрограммы"
+      "uz": "Tur dasturlari"
+    "title":
+      "en": "Journeys that include Tashkent"
+      "ru": "Маршруты с Ташкентом"
+      "uz": "Toshkent kiradigan yoʻnalishlar"
+    "description":
+      "en": "Tashkent usually opens or closes a journey through Uzbekistan: arrival, the old city, the metro, museums, a Chimgan outing, or the train onward meet here naturally."
+      "ru": "Ташкент чаще всего открывает или завершает поездку по Узбекистану: прилёт, старый город, метро, музеи, выезд к Чимгану или поезд дальше удобно сходятся здесь."
+      "uz": "Toshkent odatda Oʻzbekiston bo‘ylab sayohatni boshlaydi yoki yakunlaydi: kelish, eski shahar, metro, muzeylar, Chimyon chiqishi yoki keyingi poyezd shu yerda tabiiy tutashadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqinda"
+    "title":
+      "en": "Nearby places in Tashkent & Chimgan"
+      "ru": "Ближайшие места в регионе Ташкент и Чимган"
+      "uz": "Toshkent va Chimyon hududidagi yaqin joylar"
+    "description":
+      "en": "The next move is usually mountain air, lake views, or the high-speed rail continuation toward Samarkand."
+      "ru": "Следующий шаг чаще всего ведёт к горному воздуху, воде Чарвака или скоростной железной дороге в сторону Самарканда."
+      "uz": "Keyingi qadam koʻpincha togʻ havosi, Chorvoq suvi yoki Samarqand tomonga tezyurar temiryoʻl davomiga olib boradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/tashkent-next-chimgan.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Chimgan"
+          "ru": "Чимган"
+          "uz": "Chimyon"
+        "description":
+          "en": "Chimgan gives Tashkent routes their closest mountain turn: foothill roads, Charvak water, open slopes, resort facilities, and guided gorge routes when conditions fit."
+          "ru": "Чимган даёт ташкентскому маршруту самый близкий горный поворот: предгорные дороги, воду Чарвака, открытые склоны, курортные выезды и ущелья с гидом, когда условия подходят."
+          "uz": "Chimyon Toshkent yoʻnalishiga eng yaqin togʻ burilishini beradi: togʻoldi yoʻllari, Chorvoq suvi, ochiq yonbagʻirlar, kurort chiqishlari va sharoit mos boʻlsa gidli daralar."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/chimgan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/tashkent-next-samarkand.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Samarkand"
+          "ru": "Самарканд"
+          "uz": "Samarqand"
+        "description":
+          "en": "Samarkand brings the route to monumental scale: Registan, Shah-i-Zinda, Bibi-Khanym, Gur-e-Amir, Siab Bazaar, Afrosiab, and Ulugh Beg Observatory."
+          "ru": "Самарканд даёт маршруту монументальный масштаб: Регистан, Шахи-Зинда, Биби-Ханым, Гур-Эмир, Сиабский базар, Афрасиаб и обсерватория Улугбека."
+          "uz": "Samarqand yoʻnalishga monumental miqyos beradi: Registon, Shohi Zinda, Bibi Xonim, Goʻri Amir, Siyob bozori, Afrosiyob va Ulugʻbek rasadxonasi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/samarkand"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
 
-  - blockType: regular
-    eyebrow:
-      en: Tashkent
-      ru: Ташкент
-      uz: Toshkent
-    title:
-      en: Iconic places
-      ru: Знаковые места
-      uz: Mashhur joylar
-    description:
-      en: Start with the old-city religious core, then layer markets, metro architecture and museums.
-      ru: Начните с религиозного ядра старого города, затем добавьте базары, архитектуру метро и музеи.
-      uz: Eski shaharning diniy markazidan boshlang, so'ngra bozorlar, metro me'morchiligi va muzeylarni qo'shing.
-    cards:
-      - type: routeIdea
-        image: assets/images/city/tashkent.jpg
-        badge:
-          en: Heritage
-          ru: Наследие
-          uz: Meros
-        title:
-          en: Khazrati Imam Complex
-          ru: Комплекс Хазрати Имам
-          uz: Hazrati Imom majmuasi
-        description:
-          en: Courtyards, Friday mosque and the spiritual heart of old Tashkent.
-          ru: Дворы, пятничная мечеть и духовное сердце старого Ташкента.
-          uz: Hovlilar, juma masjidi va eski Toshkentning ma'naviy markazi.
-        ctaHref: /destinations/uzbekistan/tashkent-region/tashkent/khazrati-imam-complex
-        ctaLabel:
-          en: View place
-          ru: Смотреть место
-          uz: Joyni ko'rish
-      - type: routeIdea
-        image: assets/images/city/tashkent.jpg
-        badge:
-          en: Market
-          ru: Бazar
-          uz: Bozor
-        title:
-          en: Chorsu Bazaar
-          ru: Базар Чорсу
-          uz: Chorsu bozori
-        description:
-          en: Central Asia's most atmospheric covered market under a turquoise dome.
-          ru: Самый атмосферный крытый рынок Центральной Азии под бирюзовым куполом.
-          uz: Moviy gumbaz ostidagi Markaziy Osiyoning eng jo'shqin yopiq bozori.
-        ctaHref: /destinations/uzbekistan/tashkent-region/tashkent/chorsu-bazaar
-        ctaLabel:
-          en: View place
-          ru: Смотреть место
-          uz: Joyni ko'rish
-      - type: routeIdea
-        image: assets/images/city/tashkent.jpg
-        badge:
-          en: Square
-          ru: Площадь
-          uz: Maydon
-        title:
-          en: Amir Timur Square
-          ru: Площадь Амира Тимура
-          uz: Amir Temur maydoni
-        description:
-          en: Central square with the Amir Timur monument and surrounding museums.
-          ru: Центральная площадь с монументом Амиру Тимуру и окружающими музеями.
-          uz: Amir Temur haydali markaziy maydon va atrofdagi muzeylar.
-        ctaHref: /destinations/uzbekistan/tashkent-region/tashkent/amir-timur-square
-        ctaLabel:
-          en: View place
-          ru: Смотреть место
-          uz: Joyni ko'rish
-      - type: routeIdea
-        image: assets/images/city/tashkent.jpg
-        badge:
-          en: Architecture
-          ru: Архитектура
-          uz: Me'morchilik
-        title:
-          en: Tashkent Metro
-          ru: Метро Ташкента
-          uz: Toshkent metropoliteni
-        description:
-          en: Soviet-era stations with marble, chandeliers and ceramic art.
-          ru: Станции советской эпохи с мрамором, люстрами и керамическим декором.
-          uz: Marmor, люстра va keramika bezaklari bilan sovet davri bekatlari.
-        ctaHref: /destinations/uzbekistan/tashkent-region/tashkent
-        ctaLabel:
-          en: Explore city
-          ru: Исследовать город
-          uz: Shaharni ko'rish
 
-  - blockType: regular
-    eyebrow:
-      en: Day plan
-      ru: План на день
-      uz: Kunlik reja
-    title:
-      en: A day in Tashkent — the highlights
-      ru: День в Ташкенте — главное
-      uz: Toshkentda bir kun — asosiy nuqtalar
-    description:
-      en: "A compact loop through old and modern Tashkent.\n\n• Morning: Khazrati Imam complex or Chorsu Bazaar in the old city.\n• Midday: plov lunch, then Amir Timur Museum or Applied Arts Museum.\n• Afternoon: metro architecture tour or Minor Mosque on the canal.\n• Evening: Broadway promenade, dinner and optional opera or theatre."
-      ru: "Компактный маршрут по старому и новому Ташкенту.\n\n• Утро: комплекс Хазрати Имам или базар Чорсу в старом городе.\n• Полдень: обед с пловом, затем музей Амира Тимура или музей прикладного искусства.\n• День: архитектура метро или мечеть Минор на канале.\n• Вечер: прогулка по Broadway, ужин и по желанию опера или театр."
-      uz: "Eski va zamonaviy Toshkent bo'ylab ixcham marshrut.\n\n• Ertalab: eski shaharda Hazrati Imom majmuasi yoki Chorsu bozori.\n• Tushlik: palov, keyin Amir Temur muzeyi yoki amaliy san'at muzeyi.\n• Kunduzi: metro me'morchiligi yoki Anhor kanalidagi Minor masjidi.\n• Kechqurun: Broadway sayr, kechki ovqat va ixtiyoriy opera yoki teatr."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Tashkent in the day plan"
+      "ru": "Как поставить Ташкент в план дня"
+      "uz": "Toshkentni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Tashkent?"
+          "ru": "Сколько времени группам стоит проводить в Ташкент?"
+          "uz": "Toshkentda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “The capital where Uzbekistan begins moving”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Столица, с которой Узбекистан приходит в движение»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Oʻzbekiston harakatga keladigan poytaxt»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Tashkent be a walkable core or a base for day trips?"
+          "ru": "Ташкент — это пешеходное ядро или база для выездов?"
+          "uz": "Toshkent piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Tashkent's centre?"
+          "ru": "Где лучше ночевать относительно центра Ташкент?"
+          "uz": "Toshkent markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Tashkent stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Ташкент» в программу (Узбекистан)"
+      "uz": "Toshkent bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
 
-  - blockType: routeMap
-    eyebrow:
-      en: Map
-      ru: Карта
-      uz: Xarita
-    title:
-      en: Old city walking loop
-      ru: Пеший маршрут по старому городу
-      uz: Eski shahar bo'ylab yurish
-    description:
-      en: A compact heritage circuit in central Tashkent.
-      ru: Компактный маршрут по наследию центрального Ташкента.
-      uz: Markaziy Toshkentda ixcham meros halqasi.
-    mapCenter:
-      latitude: 41.325
-      longitude: 69.25
-    zoom: 13
-    stops:
-      - entityType: attraction
-        entitySlug: khazrati-imam-complex
-      - entityType: attraction
-        entitySlug: chorsu-bazaar
-      - entityType: attraction
-        entitySlug: amir-timur-square
-
-  - blockType: regular
-    eyebrow:
-      en: Routes
-      ru: Маршруты
-      uz: Marshrutlar
-    title:
-      en: Routes including Tashkent
-      ru: Маршруты с Ташкентом
-      uz: Toshkentni o'z ichiga olgan marshrutlar
-    cards:
-      - type: routeIdea
-        image: assets/images/city/tashkent.jpg
-        badge:
-          en: 1 day
-          ru: 1 день
-          uz: 1 kun
-        meta:
-          en: Mountains
-          ru: Горы
-          uz: Tog'lar
-        title:
-          en: Tashkent & Chimgan day trip
-          ru: Однодневка «Ташкент и Чимган»
-          uz: Toshkent va Chimgan kunlik sayohati
-        description:
-          en: Heritage in the capital, then Charvak Lake and Chimgan mountains.
-          ru: Наследие столицы, затем озеро Чарвак и горы Чимган.
-          uz: Poytaxt merosi, so'ngra Charvak ko'li va Chimgan tog'lari.
-        ctaHref: /destinations/uzbekistan/tashkent-region/chimgan
-        ctaLabel:
-          en: View route
-          ru: Смотреть маршрут
-          uz: Marshrutni ko'rish
-
-  - blockType: regular
-    eyebrow:
-      en: Atmosphere
-      ru: Атмосфера
-      uz: Muhit
-    title:
-      en: What Tashkent feels like
-      ru: Как ощущается Ташкент
-      uz: Toshkent qanday his qilinadi
-    cards:
-      - type: destinationInsight
-        icon: Heart
-        title:
-          en: Food and tea
-          ru: Еда и чай
-          uz: Taom va choy
-        description:
-          en: Plov houses, green-tea chaikhanas and seasonal fruit markets.
-          ru: Пловные, чайханы с зелёным чаем и сезонные фруктовые базары.
-          uz: Palovxonalar, yashil choy choyxonalari va mavsumiy meva bozorlari.
-      - type: destinationInsight
-        icon: Eye
-        title:
-          en: Crafts and textiles
-          ru: Ремёсла и текстиль
-          uz: Hunarmandchilik va to'qimachilik
-        description:
-          en: Suzani embroidery, ceramics and wood carving in applied-arts museums.
-          ru: Сузани, керамика и резьба по дереву в музеях прикладного искусства.
-          uz: Suzani kashtachiligi, keramika va amaliy san'at muzeylaridagi yog'och o'yma.
-      - type: destinationInsight
-        icon: Compass
-        title:
-          en: Wide boulevards
-          ru: Широкие проспекты
-          uz: Keng bulvarlar
-        description:
-          en: Soviet planning meets a fast-modernising Central Asian capital.
-          ru: Советская планировка встречается с быстро модернизирующейся столицей Центральной Азии.
-          uz: Sovet rejalashtiruvi tez zamonlashayotgan Markaziy Osiyo poytaxti bilan uchrashadi.
-
-seo:
-  metaTitle:
-    en: Tashkent | TourLink
-    ru: Ташкент | TourLink
-    uz: Toshkent | TourLink
-  metaDescription:
-    en: Plan a Tashkent stay with TourLink — markets, metro architecture, old city, and logical day routes.
-    ru: Спланируйте пребывание в Ташкенте с TourLink — базары, метро, старый город и логичные маршруты на день.
-    uz: TourLink bilan Toshkentda qolishni rejalashtiring — bozorlar, metro, eski shahar va mantiqiy kunlik marshrutlar.
-  structuredDataType: TouristDestination
-status:
-  showInSitemap: true
-  noindex: false
-  hideFromNavigation: false
-  publishedAt: "2025-06-01"
+"seo":
+  "metaTitle":
+    "en": "Tashkent | TourLink"
+    "ru": "Ташкент | TourLink"
+    "uz": "Toshkent | TourLink"
+  "metaDescription":
+    "en": "Tashkent often begins with motion: an early flight, a train platform, the smell of bread near Chorsu, then the metro, museums, and wide avenues. It is not Uzbekistan’s postcard city, and that is why it matters. The city helps you enter the country in the present tense: through Hazrati Imam and Chorsu, metro stations, museum rooms, city squares, and the road to Chimgan."
+    "ru": "Ташкент часто начинается с движения: ранний рейс, перрон, запах лепёшек у Чорсу, потом метро, музеи и широкие проспекты. Это не открыточный образ Узбекистана — и именно поэтому город важен. Он помогает войти в страну в настоящем времени: через Хазрати Имам и Чорсу, станции метро, музейные залы, городские площади и дорогу к Чимгану."
+    "uz": "Toshkent ko‘pincha harakatdan boshlanadi: erta reys, vokzal perroni, Chorsu yaqinidagi non hidi, keyin metro, muzeylar va keng xiyobonlar. Bu Oʻzbekistonning klassik sayyohlik manzarasi emas — shuning uchun ham muhim. Shahar mamlakatga bugungi ritmda kirishga yordam beradi: Hazrati Imom va Chorsu, metro bekatlari, muzey zallari, shahar maydonlari va Chimyon tomonga yo‘l orqali."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "tashkent-region"
+"latitude": 41.3123363
+"longitude": 69.2787079

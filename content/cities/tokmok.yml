@@ -1,0 +1,586 @@
+# Generated from scrape/kyrgyzstan (multi-locale)
+"slug":
+  "en": "tokmok"
+  "ru": "tokmok"
+  "uz": "tokmok"
+"title":
+  "en": "Tokmok"
+  "ru": "Токмок"
+  "uz": "Toqmoq"
+"subtitle":
+  "en": "A Chuy Valley stop for Burana and the road east"
+  "ru": "Остановка Чуйской долины для Бураны и дороги на восток"
+  "uz": "Burana va sharqqa ketadigan yoʻl uchun Chuy vodiysi toʻxtashi"
+"excerpt":
+  "en": "Tokmok gives the first road east of Bishkek a reason to slow down. The town stays modest, but Burana Tower, Balasagun, and the open Chuy plain turn a simple transfer into a short Silk Road stop."
+  "ru": "Токмок даёт первой дороге восточнее Бишкека причину замедлиться. Сам город остаётся скромным, но башня Бурана, Баласагун и открытая Чуйская равнина превращают простой переезд в короткую остановку Шёлкового пути."
+  "uz": "Toqmoq Bishkekdan sharqqa birinchi yoʻlni sekinlashtirish uchun sabab beradi. Shaharning oʻzi kamtar, ammo Burana minorasi, Balasagʻun va ochiq Chuy tekisligi oddiy oʻtishni qisqa Ipak yoʻli toʻxtashiga aylantiradi."
+"heroImage": "assets/images/destinations/kyrgyzstan/regions/bishkek-and-chuy-foothills/cities/tokmok.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kyrgyzstan/regions/bishkek-and-chuy-foothills/cities/tokmok.webp"
+    "imageAlt":
+      "en": "Tokmok"
+      "ru": "Токмок"
+      "uz": "Toqmoq"
+    "title":
+      "en": "Tokmok"
+      "ru": "Токмок"
+      "uz": "Toqmoq"
+    "description":
+      "en": "A Chuy Valley stop for Burana and the road east"
+      "ru": "Остановка Чуйской долины для Бураны и дороги на восток"
+      "uz": "Burana va sharqqa ketadigan yoʻl uchun Chuy vodiysi toʻxtashi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Tokmok"
+      "ru": "Токмок"
+      "uz": "Toqmoq"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Tokmok gives the first road east of Bishkek a reason to slow down."
+              "ru": "Токмок даёт первой дороге восточнее Бишкека причину замедлиться."
+              "uz": "Toqmoq Bishkekdan sharqqa birinchi yoʻlni sekinlashtirish uchun sabab beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Read Tokmok through movement: arrive from Bishkek, keep Burana as the main anchor, then choose whether the route returns west, continues to Issyk-Kul, or adds one Chuy archaeology extension after current checks."
+              "ru": "Токмок лучше читать через движение: приехать из Бишкека, держать Бурану главным ориентиром, а затем выбрать — вернуться на запад, продолжить к Иссык-Кулю или добавить одну археологическую точку Чуя после актуальных проверок."
+              "uz": "Toqmoqni harakat orqali oʻqing: Bishkekdan kelish, Buranani asosiy tayanch qilish, keyin yoʻnalish gʻarbga qaytadimi, Issiqkoʻlga davom etadimi yoki joriy tekshiruvdan keyin Chuy arxeologiyasidan bitta joyni qoʻshadimi, shuni tanlash."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Tokmok is close enough to Bishkek for a compact heritage outing, but the road beyond it still needs honest timing, weather awareness, and access checks."
+              "ru": "Токмок достаточно близок к Бишкеку для короткой исторической поездки, но дорога дальше всё равно требует честного времени, внимания к погоде и проверки доступа."
+              "uz": "Toqmoq Bishkekka yaqin boʻlgani uchun qisqa meros safariga mos, ammo undan keyingi yoʻl baribir vaqt, ob-havo va kirish sharoitini tekshirishni talab qiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Tokmok as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Токмок как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Toqmoq o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Bishkek, Tokmok, Burana, then the road east"
+      "ru": "Бишкек, Токмок, Бурана и дорога на восток"
+      "uz": "Bishkek, Toqmoq, Burana va sharqqa ketadigan yoʻl"
+    "description":
+      "en": "Read Tokmok through movement: arrive from Bishkek, keep Burana as the main anchor, then choose whether the route returns west, continues to Issyk-Kul, or adds one Chuy archaeology extension after current checks."
+      "ru": "Токмок лучше читать через движение: приехать из Бишкека, держать Бурану главным ориентиром, а затем выбрать — вернуться на запад, продолжить к Иссык-Кулю или добавить одну археологическую точку Чуя после актуальных проверок."
+      "uz": "Toqmoqni harakat orqali oʻqing: Bishkekdan kelish, Buranani asosiy tayanch qilish, keyin yoʻnalish gʻarbga qaytadimi, Issiqkoʻlga davom etadimi yoki joriy tekshiruvdan keyin Chuy arxeologiyasidan bitta joyni qoʻshadimi, shuni tanlash."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Yoʻnalish xaritasi"
+      "title":
+        "en": "Tokmok and the Chuy Valley anchors"
+        "ru": "Токмок и ориентиры Чуйской долины"
+        "uz": "Toqmoq va Chuy vodiysi tayanchlari"
+      "description":
+        "en": "The map shows Tokmok, Burana, and Chuy archaeology extensions as orientation. It does not promise that every Chuy stop belongs in one visit."
+        "ru": "Карта показывает Токмок, Бурану и археологические продолжения Чуйской долины как ориентиры. Она не обещает, что все остановки Чуя уместны в один визит."
+        "uz": "Xarita Toqmoq, Burana va Chuy vodiysidagi arxeologik davomlarni orientir sifatida koʻrsatadi. U Chuydagi barcha toʻxtashlar bitta tashrifga sigʻadi degan vaʼda bermaydi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 42.824562
+      "longitude": 75.190891
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "burana-tower-balasagun-archaeological-site"
+      - "entityType": "attraction"
+        "entitySlug": "ak-beshim-suyab-archaeological-site"
+      - "entityType": "attraction"
+        "entitySlug": "krasnaya-rechka-navekat-archaeological-site"
+    "aside":
+      "eyebrow":
+        "en": "Route rhythm"
+        "ru": "Ритм маршрута"
+        "uz": "Yoʻnalish ritmi"
+      "title":
+        "en": "Keep the stop focused"
+        "ru": "Держите остановку сфокусированной"
+        "uz": "Toʻxtashni aniq tuting"
+      "description":
+        "en": "Tokmok is close enough to Bishkek for a compact heritage outing, but the road beyond it still needs honest timing, weather awareness, and access checks."
+        "ru": "Токмок достаточно близок к Бишкеку для короткой исторической поездки, но дорога дальше всё равно требует честного времени, внимания к погоде и проверки доступа."
+        "uz": "Toqmoq Bishkekka yaqin boʻlgani uchun qisqa meros safariga mos, ammo undan keyingi yoʻl baribir vaqt, ob-havo va kirish sharoitini tekshirishni talab qiladi."
+      "items":
+        - "title":
+            "en": "From Bishkek"
+            "ru": "Из Бишкека"
+            "uz": "Bishkekdan"
+          "description":
+            "en": "Plan the eastbound road with time for Burana, traffic, and the return or onward drive."
+            "ru": "Планируйте дорогу на восток с учётом Бураны, трафика, возвращения или следующего переезда."
+            "uz": "Sharqqa yoʻlni Burana, transport, qaytish yoki keyingi harakatni hisobga olib rejalang."
+        - "title":
+            "en": "Tokmok town"
+            "ru": "Токмок"
+            "uz": "Toqmoq shahri"
+          "description":
+            "en": "Let the town give local Chuy Valley context, without turning it into a long city program."
+            "ru": "Пусть город даёт контекст Чуйской долины, не превращаясь в длинную городскую программу."
+            "uz": "Shahar Chuy vodiysi kontekstini bersin, lekin uzoq shahar dasturiga aylanmasin."
+        - "title":
+            "en": "Burana first"
+            "ru": "Сначала Бурана"
+            "uz": "Avval Burana"
+          "description":
+            "en": "Give the tower, balbal stones, and Balasagun ground the clearest part of the stop."
+            "ru": "Башне, балбалам и площадке Баласагуна стоит отдать самую ясную часть остановки."
+            "uz": "Minora, balbal toshlari va Balasagʻun maydoniga toʻxtashning eng aniq qismini bering."
+        - "title":
+            "en": "Extensions only after checks"
+            "ru": "Продолжения после проверки"
+            "uz": "Davomlar tekshiruvdan keyin"
+          "description":
+            "en": "Ak-Beshim/Suyab and Krasnaya Rechka/Navekat deepen the story only when access and timing fit the travel date."
+            "ru": "Ак-Бешим/Суяб и Красная Речка/Навекат углубляют историю только тогда, когда доступ и время подходят к дате поездки."
+            "uz": "Ak-Beshim/Suyab va Krasnaya Rechka/Navekat faqat kirish va vaqt safar sanasiga mos boʻlsa, mavzuni chuqurlashtiradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrish"
+    "title":
+      "en": "Burana first, Chuy archaeology later"
+      "ru": "Сначала Бурана, затем археология Чуя"
+      "uz": "Avval Burana, keyin Chuy arxeologiyasi"
+    "description":
+      "en": "Burana is the attraction that makes Tokmok clear. Other Chuy archaeological names should stay in route context until access, timing, and the reason for a separate stop are ready."
+      "ru": "Бурана — достопримечательность, которая делает Токмок понятным. Другие археологические названия Чуя должны оставаться маршрутным контекстом, пока не подтверждены доступ, дорожное время и смысл отдельной остановки."
+      "uz": "Toqmoqni hozir Burana aniq koʻrsatadi. Chuydagi boshqa arxeologik nomlar kirish, yoʻl va alohida toʻxtash mazmuni aniqlanmaguncha yoʻnalish konteksti boʻlib qolishi kerak."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/bishkek-and-chuy-foothills/cities/tokmok/attractions/burana-tower-balasagun-archaeological-site.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Burana Tower / Balasagun archaeological site"
+          "ru": "Башня Бурана / археологический комплекс Баласагуна"
+          "uz": "Burana minorasi / Balasagʻun arxeologik hududi"
+        "description":
+          "en": "Burana is where the Tokmok road becomes more than a transfer east of Bishkek. The brick tower rises from open ground, the Tian Shan sits behind it, and the site keeps the memory of medieval Balasagun close enough to read without turning the stop into a long museum day."
+          "ru": "У Бураны дорога через Токмок перестаёт быть просто переездом восточнее Бишкека. Кирпичная башня стоит среди открытой равнины, за ней виден Тянь-Шань, а память о средневековом Баласагуне читается без длинной музейной программы."
+          "uz": "Burana yonida Toqmoq yoʻli Bishkekdan sharqqa oddiy oʻtish boʻlib qolmaydi. Gʻishtin minora ochiq tekislikdan koʻtariladi, ortida Tyan-Shan koʻrinadi, oʻrta asr Balasagʻun xotirasi esa uzoq muzey dasturisiz ham seziladi."
+        "ctaHref": "/destinations/kyrgyzstan/bishkek-and-chuy-foothills/tokmok/burana-tower-balasagun-archaeological-site"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/bishkek-and-chuy-foothills/cities/tokmok/attractions/ak-beshim-suyab-archaeological-site.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Ak-Beshim / Suyab archaeological site"
+          "ru": "Ак-Бешим / археологический памятник Суяб"
+          "uz": "Ak-Beshim / Suyab arxeologik yodgorligi"
+        "description":
+          "en": "Ak-Beshim is not a quick monument photograph. It is the archaeological site of Suyab, one of the Silk Road components around the Chuy Valley. Add it after Burana when there is time for explanation, a careful walk, and a clear reason to read more of the valley."
+          "ru": "Ак-Бешим — не быстрая фотография у памятника. Это археологическая территория Суяба, одного из компонентов Шёлкового пути в Чуйской долине. Добавляйте её после Бураны, когда есть время на объяснение, аккуратную прогулку и ясную причину увидеть долину шире."
+          "uz": "Ak-Beshim yodgorlik oldidagi tezkor surat emas. Bu Chuy vodiysidagi Ipak yoʻli komponentlaridan biri bo‘lgan Suyabning arxeologik maydoni. Uni Buranadan keyin tushuntirish, ehtiyotkor yurish va vodiyni kengroq ko‘rish uchun aniq sabab bo‘lganda qoʻshing."
+        "ctaHref": "/destinations/kyrgyzstan/bishkek-and-chuy-foothills/tokmok/ak-beshim-suyab-archaeological-site"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/bishkek-and-chuy-foothills/cities/tokmok/attractions/krasnaya-rechka-navekat-archaeological-site.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Krasnaya Rechka / Navekat archaeological site"
+          "ru": "Археологический памятник Красная Речка / Навекат"
+          "uz": "Krasnaya Rechka / Navekat arxeologik yodgorligi"
+        "description":
+          "en": "Krasnaya Rechka gives the Chuy plain a quieter archaeology stop after Burana and Ak-Beshim/Suyab. With the right context, the low traces of Navekat help the valley feel like a chain of city sites rather than one isolated landmark."
+          "ru": "Красная Речка даёт Чуйской равнине более тихую археологическую остановку после Бураны и Ак-Бешима/Суяба. С правильным контекстом низкие следы Навеката помогают увидеть долину как последовательность городищ, а не как один отдельный памятник."
+          "uz": "Krasnaya Rechka Chuy tekisligiga Burana va Ak-Beshim/Suyabdan keyingi sokinroq arxeologik toʻxtashni beradi. Toʻgʻri kontekst bilan Navekatning past izlari vodiyni bitta alohida yodgorlik emas, shahar yodgorliklari ketma-ketligi sifatida ko‘rsatadi."
+        "ctaHref": "/destinations/kyrgyzstan/bishkek-and-chuy-foothills/tokmok/krasnaya-rechka-navekat-archaeological-site"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City rhythm"
+      "ru": "Ритм города"
+      "uz": "Shahar ritmi"
+    "title":
+      "en": "Three small moments on the Chuy road"
+      "ru": "Три коротких момента на Чуйской дороге"
+      "uz": "Chuy yoʻlidagi uch kichik lahza"
+    "description":
+      "en": "Tokmok's rhythm comes from movement: first seeing the tower in the plain, walking the stone figures, and choosing what the road should do next."
+      "ru": "Ритм Токмока рождается из движения: первый вид башни на равнине, каменные фигуры рядом с ней и выбор следующего поворота дороги."
+      "uz": "Toqmoq ritmi harakatdan tugʻiladi: tekislikda minorani birinchi koʻrish, tosh haykallar yonidan yurish va yoʻlning keyingi burilishini tanlash."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Burana in the open plain"
+          "ru": "Бурана на открытой равнине"
+          "uz": "Ochiq tekislikdagi Burana"
+        "description":
+          "en": "The tower appears before the visit becomes complicated: a vertical brick form, open ground, and the Chuy Valley around Tokmok."
+          "ru": "Башня появляется до того, как визит становится сложным: вертикальная кирпичная форма, открытая земля и Чуйская долина вокруг Токмока."
+          "uz": "Minora tashrif murakkablashmasidan oldin koʻrinadi: tik gʻisht shakli, ochiq yer va Toqmoq atrofidagi Chuy vodiysi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Balbal stones beside the tower"
+          "ru": "Балбалы рядом с башней"
+          "uz": "Minora yonidagi balballar"
+        "description":
+          "en": "The stone figures keep the stop from becoming only a tower view and help the wider Balasagun site feel closer."
+          "ru": "Каменные фигуры не дают остановке стать только видом на башню и делают широкий Баласагун ближе."
+          "uz": "Tosh haykallar toʻxtashni faqat minora manzarasiga aylantirmaydi va kengroq Balasagʻun maydonini yaqinroq his qildiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "The next turn after Burana"
+          "ru": "Следующий поворот после Бураны"
+          "uz": "Buranadan keyingi burilish"
+        "description":
+          "en": "After Burana, the route should make one clear choice instead of crowding every Chuy archaeology name into the same stop."
+          "ru": "После Бураны маршрут должен выбрать одно ясное продолжение, а не собирать все археологические названия Чуя в одну остановку."
+          "uz": "Buranadan keyin yoʻnalish Chuydagi barcha arxeologik nomlarni bitta toʻxtashga yigʻmasdan, bitta aniq davomni tanlashi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "Keep Tokmok useful and focused"
+      "ru": "Оставьте Токмоку ясную роль"
+      "uz": "Toqmoqqa aniq vazifa qoldiring"
+    "description":
+      "en": "Tokmok is strongest when the route gives it one clear job: make Burana and the Chuy Valley road understandable before the journey moves on."
+      "ru": "Токмок сильнее всего тогда, когда маршрут даёт ему одну понятную задачу: объяснить Бурану и Чуйскую дорогу до следующего переезда."
+      "uz": "Toqmoq yoʻnalishda bitta aniq vazifani bajarganda kuchliroq: Burana va Chuy vodiysi yoʻlini keyingi harakatdan oldin tushunarli qilish."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Start with the road"
+              "ru": "Начните с дороги"
+              "uz": "Yoʻldan boshlang"
+            "description":
+              "en": "Tokmok belongs in the route because it sits between Bishkek and the Chuy heritage stops. The value is not a long town list; it is the moment when the road gains history."
+              "ru": "Токмок нужен маршруту потому, что стоит между Бишкеком и наследием Чуйской долины. Ценность не в длинном списке городских остановок, а в моменте, когда дорога получает историю."
+              "uz": "Toqmoq Bishkek va Chuy vodiysi merosi orasida turgani uchun yoʻnalishga kerak. Qimmatli tomoni uzun shahar roʻyxatida emas, yoʻl tarixiy maʼno oladigan lahzada."
+          - "type": "quote"
+            "quote":
+              "en": "Tokmok works best as a modest town with one clear tower, open Chuy ground, and an eastbound road that knows where it is going."
+              "ru": "Токмок лучше всего звучит как скромный город с одной ясной башней, открытой Чуйской равниной и дорогой на восток, которая понимает своё направление."
+              "uz": "Toqmoq kamtar shahar, bitta aniq minora, ochiq Chuy maydoni va qayerga ketayotganini biladigan sharqiy yoʻl sifatida eng yaxshi seziladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Give Burana enough attention"
+              "ru": "Дайте Буране достаточно внимания"
+              "uz": "Buranaga yetarli eʼtibor bering"
+            "description":
+              "en": "Rushing the tower weakens the visit. Leave time for the first view, brick detail, balbal stones, museum context, and current access rules."
+              "ru": "Спешка ослабляет визит. Оставьте время на первый вид башни, кирпичные детали, балбалы, музейный контекст и актуальные правила доступа."
+              "uz": "Shoshilish tashrifni kuchsizlantiradi. Minoraning birinchi koʻrinishi, gʻisht detallari, balbal toshlari, muzey konteksti va joriy kirish qoidalariga vaqt qoldiring."
+          - "type": "dashTitle"
+            "title":
+              "en": "Add extensions carefully"
+              "ru": "Добавляйте продолжения аккуратно"
+              "uz": "Davomlarni ehtiyotkor qoʻshing"
+            "description":
+              "en": "Ak-Beshim/Suyab and Krasnaya Rechka/Navekat can deepen the Silk Road story, but only when access, road time, and traveler interest support the extra stop."
+              "ru": "Ак-Бешим/Суяб и Красная Речка/Навекат могут углубить тему Шёлкового пути, но только когда доступ, дорожное время и интерес путешественника поддерживают дополнительную остановку."
+              "uz": "Ak-Beshim/Suyab va Krasnaya Rechka/Navekat Ipak yoʻli mavzusini chuqurlashtirishi mumkin, lekin faqat kirish, yoʻl vaqti va sayohatchi qiziqishi qoʻshimcha toʻxtashni oqlaganda."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Что важно для путешественника"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Let Tokmok clarify Burana and the Chuy road, not become a long city list."
+              "ru": "Пусть Токмок объясняет Бурану и Чуйскую дорогу, а не превращается в длинный городской список."
+              "uz": "Toqmoq Burana va Chuy yoʻlini tushuntirsin; uni uzun shahar roʻyxatiga aylantirmang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Route role"
+                  "ru": "Коротко Роль в маршруте"
+                  "uz": "Qisqacha Yoʻnalishdagi roli"
+                "description":
+                  "en": "Tokmok gives the first eastbound road a clear reason to pause."
+                  "ru": "Токмок даёт первой дороге на восток ясную причину для паузы."
+                  "uz": "Toqmoq sharqqa ketadigan birinchi yoʻlga aniq pauza sababi beradi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main magnet"
+                  "ru": "Главный ориентир"
+                  "uz": "Asosiy tayanch"
+                "description":
+                  "en": "The tower and archaeological site are the reason to come here first."
+                  "ru": "Башня и археологический комплекс — главный повод приехать сюда."
+                  "uz": "Minora va arxeologik yodgorlik bu yerga kelishning asosiy sababidir."
+              - "icon": "Sun"
+                "title":
+                  "en": "Visit style"
+                  "ru": "Формат визита"
+                  "uz": "Tashrif shakli"
+                "description":
+                  "en": "Most travelers use Tokmok as a focused stop rather than an overnight city."
+                  "ru": "Для большинства путешественников Токмок остаётся точной остановкой, а не городом для ночёвки."
+                  "uz": "Koʻpchilik sayohatchilar uchun Toqmoq tunash shahri emas, aniq toʻxtash boʻlib qoladi."
+              - "icon": "Route"
+                "title":
+                  "en": "Access checks"
+                  "ru": "Что проверить"
+                  "uz": "Nimani tekshirish"
+                "description":
+                  "en": "Check Burana access, museum rooms, heat, wind, and any extra archaeology close to the visit."
+                  "ru": "Ближе к визиту уточните доступ к Буране, музейные комнаты, жару, ветер и любые дополнительные археологические точки."
+                  "uz": "Tashrifga yaqin Burana kirishi, muzey xonalari, issiq, shamol va qoʻshimcha arxeologik joylarni aniqlang."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Next move"
+                  "ru": "Следующий шаг"
+                  "uz": "Keyingi qadam"
+                "description":
+                  "en": "Choose one continuation so the Chuy road stays clear."
+                  "ru": "Выберите одно продолжение, чтобы Чуйская дорога оставалась понятной."
+                  "uz": "Chuy yoʻli aniq qolishi uchun bitta davomni tanlang."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqinda"
+    "title":
+      "en": "Back to Bishkek or onward through Kyrgyzstan"
+      "ru": "Назад в Бишкек или дальше по Кыргызстану"
+      "uz": "Bishkekka qaytish yoki Qirgʻiziston boʻylab davom etish"
+    "description":
+      "en": "Bishkek is the natural return point. Ala-Archa and Karakol belong when the route turns toward mountains, national-park time, or the Issyk-Kul road."
+      "ru": "Бишкек остаётся естественной точкой возвращения. Ала-Арча и Каракол уместны, когда маршрут поворачивает к горам, национальному парку или дороге на Иссык-Куль."
+      "uz": "Bishkek tabiiy qaytish nuqtasi boʻlib qoladi. Ala-Archa va Qorakoʻl yoʻnalish togʻlarga, milliy bogʻ vaqtiga yoki Issiqkoʻl yoʻliga burilganda mos keladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/tokmok-next-bishkek.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Bishkek"
+          "ru": "Бишкек"
+          "uz": "Bishkek"
+        "description":
+          "en": "Bishkek gives Kyrgyzstan a calm first frame: Ala-Too Square, Osh Bazaar, museum time, cafe streets, and quick roads to the Chuy foothills."
+          "ru": "Бишкек даёт Кыргызстану спокойный старт: площадь Ала-Тоо, Ошский базар, музейное время, кафе и быстрые дороги к Чуйским предгорьям."
+          "uz": "Bishkek Qirgʻizistonga xotirjam boshlanish beradi: Ala-Too maydoni, Oʻsh bozori, muzey vaqti, kafe koʻchalari hamda Chuy etaklariga tez yoʻllar."
+        "ctaHref": "/destinations/kyrgyzstan/bishkek-and-chuy-foothills/bishkek"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/tokmok-next-ala-archa.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ala-Archa"
+          "ru": "Ала-Арча"
+          "uz": "Ala-Archa"
+        "description":
+          "en": "Ala-Archa is the national-park area south of Bishkek where the capital route turns toward a river gorge, juniper slopes, snowy ridges, and a walk chosen for current weather."
+          "ru": "Ала-Арча — территория национального парка к югу от Бишкека, где столичный маршрут переходит к речному ущелью, арчовым склонам, снежным гребням и прогулке по погоде."
+          "uz": "Ala-Archa Bishkekdan janubdagi milliy bogʻ hududi bo‘lib, poytaxt yo‘nalishini daryo darasi, archa yonbagʻirlari, qorli qirralar va ob-havoga mos yurish tanloviga olib chiqadi."
+        "ctaHref": "/destinations/kyrgyzstan/bishkek-and-chuy-foothills/ala-archa"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/tokmok-next-karakol.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Karakol"
+          "ru": "Каракол"
+          "uz": "Qorakoʻl"
+        "description":
+          "en": "Karakol anchors eastern Issyk-Kul with Dungan food, timber religious landmarks, guesthouse streets, museum context, and measured choices toward valleys, hot springs, and high trails."
+          "ru": "Каракол держит восточный Иссык-Куль: дунганская еда, деревянные религиозные ориентиры, улицы гостевых домов, музейный контекст и продуманный выбор долин, источников и высоких троп."
+          "uz": "Qorakoʻl sharqiy Issiqkoʻlni ushlab turadi: dungan taomi, yogʻoch diniy moʻljallar, mehmon uylari koʻchalari, muzey konteksti hamda vodiylar, buloqlar va baland soʻqmoqlar sari puxta tanlov."
+        "ctaHref": "/destinations/kyrgyzstan/issyk-kul-and-karakol/karakol"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Tokmok in the day plan"
+      "ru": "Как поставить Токмок в план дня"
+      "uz": "Toqmoqni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Tokmok?"
+          "ru": "Сколько времени группам стоит проводить в Токмок?"
+          "uz": "Toqmoqda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “A Chuy Valley stop for Burana and the road east”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Остановка Чуйской долины для Бураны и дороги на восток»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Burana va sharqqa ketadigan yoʻl uchun Chuy vodiysi toʻxtashi»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Tokmok be a walkable core or a base for day trips?"
+          "ru": "Токмок — это пешеходное ядро или база для выездов?"
+          "uz": "Toqmoq piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Tokmok's centre?"
+          "ru": "Где лучше ночевать относительно центра Токмок?"
+          "uz": "Toqmoq markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kyrgyzstan/regions/bishkek-and-chuy-foothills/cities/tokmok.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Tokmok stop into your Kyrgyzstan programme"
+      "ru": "Встройте остановку «Токмок» в программу (Кыргызстан)"
+      "uz": "Toqmoq bekatini Qirgʻiziston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Tokmok | TourLink"
+    "ru": "Токмок | TourLink"
+    "uz": "Toqmoq | TourLink"
+  "metaDescription":
+    "en": "Tokmok gives the first road east of Bishkek a reason to slow down. The town stays modest, but Burana Tower, Balasagun, and the open Chuy plain turn a simple transfer into a short Silk Road stop."
+    "ru": "Токмок даёт первой дороге восточнее Бишкека причину замедлиться. Сам город остаётся скромным, но башня Бурана, Баласагун и открытая Чуйская равнина превращают простой переезд в короткую остановку Шёлкового пути."
+    "uz": "Toqmoq Bishkekdan sharqqa birinchi yoʻlni sekinlashtirish uchun sabab beradi. Shaharning oʻzi kamtar, ammo Burana minorasi, Balasagʻun va ochiq Chuy tekisligi oddiy oʻtishni qisqa Ipak yoʻli toʻxtashiga aylantiradi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kyrgyzstan"
+"region": "bishkek-and-chuy-foothills"
+"latitude": 42.837655
+"longitude": 75.2951521

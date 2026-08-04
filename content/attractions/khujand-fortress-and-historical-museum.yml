@@ -1,0 +1,316 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "khujand-fortress-and-historical-museum"
+  "ru": "khujand-fortress-and-historical-museum"
+  "uz": "khujand-fortress-and-historical-museum"
+"title":
+  "en": "Khujand Fortress and Historical Museum"
+  "ru": "Худжандская крепость и исторический музей"
+  "uz": "Xoʻjand qalʼasi va tarixiy muzeyi"
+"subtitle":
+  "en": "Fortress walls, museum rooms, and Sogdian memory in Khujand"
+  "ru": "Крепостные стены, музейные залы и память Согда в Худжанде"
+  "uz": "Xoʻjanddagi qalʼa devorlari, muzey xonalari va Sugʻd xotirasi"
+"excerpt":
+  "en": "Khujand Fortress and Historical Museum turns a central city walk toward older Sughd. Start with the walls and towers for scale, then continue into the museum rooms when they are open for artifacts, textiles, mosaics, dioramas, and Temurmalik memory."
+  "ru": "Худжандская крепость и исторический музей разворачивают прогулку по центру к старому Согду. Сначала видны стены и башни, затем, если залы открыты, музей добавляет артефакты, ткани, мозаики, диорамы и память о Темурмалике."
+  "uz": "Xoʻjand qalʼasi va tarixiy muzeyi markazdagi sayrni qadimgi Sugʻd tarixiga buradi. Avval devorlar va minoralar miqyosni koʻrsatadi; zallar ochiq boʻlsa, muzey artefaktlar, matolar, mozaikalar, dioramalar va Temurmalik xotirasini qoʻshadi."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "Khujand Fortress and Historical Museum"
+      "ru": "Худжандская крепость и исторический музей"
+      "uz": "Xoʻjand qalʼasi va tarixiy muzeyi"
+    "title":
+      "en": "Khujand Fortress and Historical Museum"
+      "ru": "Худжандская крепость и исторический музей"
+      "uz": "Xoʻjand qalʼasi va tarixiy muzeyi"
+    "description":
+      "en": "Fortress walls, museum rooms, and Sogdian memory in Khujand"
+      "ru": "Крепостные стены, музейные залы и память Согда в Худжанде"
+      "uz": "Xoʻjanddagi qalʼa devorlari, muzey xonalari va Sugʻd xotirasi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Khujand Fortress and Historical Museum"
+      "ru": "Худжандская крепость и исторический музей"
+      "uz": "Xoʻjand qalʼasi va tarixiy muzeyi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Khujand Fortress and Historical Museum turns a central city walk toward older Sughd."
+              "ru": "Худжандская крепость и исторический музей разворачивают прогулку по центру к старому Согду."
+              "uz": "Xoʻjand qalʼasi va tarixiy muzeyi markazdagi sayrni qadimgi Sugʻd tarixiga buradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "After Panjshanbe and Sheikh Muslihiddin, the fortress brings the city sequence into Khujand's older civic story: defense, Sogdian-region objects, museum rooms, and the remembered figure of Temurmalik."
+              "ru": "После Панджшанбе и шейха Муслихиддина крепость переводит городскую последовательность к более ранней истории Худжанда: обороне, предметам Согдийского региона, музейным залам и памяти Темурмалика."
+              "uz": "Panjshanbe va Shayx Muslihiddindan keyin qalʼa shahar ketma-ketligini Xoʻjandning eskiroq tarixiga olib kiradi: mudofaa, Sugʻd mintaqasi buyumlari, muzey xonalari va Temurmalik xotirasi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Fortress walls, museum rooms, and Sogdian memory in Khujand."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Крепостные стены, музейные залы и память Согда в Худжанде."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Xoʻjanddagi qalʼa devorlari, muzey xonalari va Sugʻd xotirasi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Khujand Fortress and Historical Museum as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Худжандская крепость и исторический музей как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Xoʻjand qalʼasi va tarixiy muzeyi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Khujand Fortress and Historical Museum sits on the route"
+      "ru": "Где Худжандская крепость и исторический музей стоит на маршруте"
+      "uz": "Xoʻjand qalʼasi va tarixiy muzeyi marshrutda qayerda"
+    "description":
+      "en": "One clear point for Khujand Fortress and Historical Museum — Fortress walls, museum rooms, and Sogdian memory in Khujand."
+      "ru": "Одна понятная точка для «Худжандская крепость и исторический музей» — Крепостные стены, музейные залы и память Согда в Худжанде."
+      "uz": "Xoʻjand qalʼasi va tarixiy muzeyi uchun bitta aniq nuqta — Xoʻjanddagi qalʼa devorlari, muzey xonalari va Sugʻd xotirasi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Khujand Fortress and Historical Museum"
+        "ru": "Худжандская крепость и исторический музей"
+        "uz": "Xoʻjand qalʼasi va tarixiy muzeyi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.2861431
+      "longitude": 69.616662
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "khujand-fortress-and-historical-museum"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Khujand's history behind the walls"
+      "ru": "История Худжанда за крепостными стенами"
+      "uz": "Qalʼa devorlari ortidagi Xoʻjand tarixi"
+    "description":
+      "en": "After Panjshanbe and Sheikh Muslihiddin, the fortress brings the city sequence into Khujand's older civic story: defense, Sogdian-region objects, museum rooms, and the remembered figure of Temurmalik.
+
+
+        «From outside you read the fortress; inside, Khujand begins to explain its memory.»"
+      "ru": "После Панджшанбе и шейха Муслихиддина крепость переводит городскую последовательность к более ранней истории Худжанда: обороне, предметам Согдийского региона, музейным залам и памяти Темурмалика.
+
+
+        «Снаружи вы видите крепость; внутри яснее становится память города.»"
+      "uz": "Panjshanbe va Shayx Muslihiddindan keyin qalʼa shahar ketma-ketligini Xoʻjandning eskiroq tarixiga olib kiradi: mudofaa, Sugʻd mintaqasi buyumlari, muzey xonalari va Temurmalik xotirasi.
+
+
+        «Tashqarida qalʼani koʻrasiz; ichkarida shahar xotirasi aniqroq ochiladi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "Walls, rooms, and Temurmalik memory"
+      "ru": "Стены, залы и память Темурмалика"
+      "uz": "Devorlar, xonalar va Temurmalik xotirasi"
+    "description":
+      "en": "The gallery should move from the fortress exterior to the museum collection and then to the local story that keeps the site tied to Khujand. 1. **Fortress walls and towers** **alt:** Khujand Fortress walls and towers in central Khujand. **caption:** The exterior sets the scale before the visit moves toward the museum rooms. **media_label:** Fortress exterior 2. **Museum rooms** **alt:** Museum rooms with Sogdian-region artifacts in Khujand. **caption:** Textiles, mosaics, dioramas, and regional objects add meaning beyond the fortress walls. **media_label:** Museum collection 3. **Temurmalik memory** **alt:** Temurmalik story inside the Khujand fortress museum. **caption:** The local hero memory keeps the fortress tied to Khujand's own story. **media_label:** Temurmalik story"
+      "ru": "Взгляд движется от внешней формы крепости к музейной коллекции, а затем к местной памяти, которая удерживает место внутри Худжанда. 1. **Крепостные стены и башни** **alt:** Стены и башни Худжандской крепости в центре Худжанда. **caption:** Внешний контур задаёт масштаб перед переходом к музейным залам. **media_label:** Внешний вид крепости 2. **Музейные залы** **alt:** Залы исторического музея с артефактами Согдийского региона в Худжанде. **caption:** Ткани, мозаики, диорамы и региональные предметы дают больше смысла, чем один вид на стены. **media_label:** Музейная коллекция 3. **Память Темурмалика** **alt:** Темурмалик в музее Худжандской крепости. **caption:** Память местного героя удерживает крепость внутри собственной истории Худжанда. **media_label:** История Темурмалика"
+      "uz": "Koʻrish qalʼaning tashqi shaklidan muzey kolleksiyasiga, keyin esa bu joyni Xoʻjandga bogʻlab turadigan mahalliy hikoyaga oʻtadi. 1. **Qalʼa devorlari va minoralari** **alt:** Markaziy Xoʻjanddagi Xoʻjand qalʼasi devorlari va minoralari. **caption:** Tashqi koʻrinish muzey xonalariga oʻtishdan oldin miqyosni belgilaydi. **media_label:** Qalʼaning tashqi koʻrinishi 2. **Muzey xonalari** **alt:** Xoʻjanddagi Sugʻd mintaqasi artefaktlari bor muzey xonalari. **caption:** Matolar, mozaikalar, dioramalar va mintaqaviy buyumlar devorlardan naridagi kontekstni ochadi. **media_label:** Muzey kolleksiyasi 3. **Temurmalik xotirasi** **alt:** Xoʻjand qalʼasi muzeyidagi Temurmalik konteksti. **caption:** Mahalliy qahramon xotirasi qalʼani Xoʻjandning oʻz hikoyasi bilan bogʻlaydi. **media_label:** Temurmalik hikoyasi"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qoʻshish"
+    "title":
+      "en": "Add market life and the sacred center"
+      "ru": "Добавьте рынок и священный центр"
+      "uz": "Bozor hayoti va muqaddas markazni qoʻshing"
+    "description":
+      "en": "Panjshanbe brings the living market into the day. Sheikh Muslihiddin adds the sacred center nearby, so the city sequence can move from trade to worship to history without leaving central Khujand."
+      "ru": "Панджшанбе даёт живой рынок рядом с музейной частью дня. Шейх Муслихиддин добавляет священный центр, и прогулка по Худжанду может перейти от торговли к молитве и истории."
+      "uz": "Panjshanbe kunning tirik bozor qismini beradi. Shayx Muslihiddin yaqinidagi muqaddas markazni qoʻshadi, shunda Xoʻjand sayri savdodan ibodatga, keyin tarixga oʻtadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Panjshanbe Bazaar"
+          "ru": "Базар Панджшанбе"
+          "uz": "Panjshanbe bozori"
+        "description":
+          "en": "Panjshanbe Bazaar is Khujand's central market: bread, fruit, spices, textiles, household goods, and Thursday trade memory in one lively stop."
+          "ru": "Базар Панджшанбе — центральный рынок Худжанда: хлеб, фрукты, специи, ткани, товары на каждый день и память о четверговой торговле в одном живом месте."
+          "uz": "Panjshanbe bozori Xoʻjand markazidagi bozor: non, meva, ziravor, mato, kundalik buyumlar va payshanba savdosi xotirasi bir joyda jamlanadi."
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/khujand/panjshanbe-bazaar"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Sheikh Muslihiddin Mosque and Mausoleum"
+          "ru": "Мечеть и мавзолей шейха Муслихиддина"
+          "uz": "Shayx Muslihiddin masjidi va maqbarasi"
+        "description":
+          "en": "Beside Panjshanbe Bazaar, Sheikh Muslihiddin opens the quieter side of central Khujand: a revered mausoleum, mosque setting, madrasa memory, and worship etiquette."
+          "ru": "Рядом с Панджшанбе шейх Муслихиддин открывает более тихую сторону центра Худжанда: почитаемый мавзолей, мечеть, память медресе и правила уважительного визита."
+          "uz": "Panjshanbe bozori yonida Shayx Muslihiddin Xoʻjand markazining sokin tomonini ochadi: eʼzozlangan maqbara, masjid muhiti, madrasa xotirasi va hurmatli tashrif odobi."
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/khujand/sheikh-muslihiddin-mosque-and-mausoleum"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Khujand Fortress and Historical Museum"
+      "ru": "Что агентства спрашивают про Худжандская крепость и исторический музей"
+      "uz": "Agentliklar Xoʻjand qalʼasi va tarixiy muzeyi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Khujand Fortress and Historical Museum get in the day plan?"
+          "ru": "Сколько времени закладывать на Худжандская крепость и исторический музей в плане дня?"
+          "uz": "Xoʻjand qalʼasi va tarixiy muzeyi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "45–90 minutes is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Fortress walls, museum rooms, and Sogdian memory in Khujand”."
+          "ru": "Для большинства групп реалистичный диапазон — 45–90 минут. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Крепостные стены, музейные залы и память Согда в Худжанде»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 45–90 daqiqa. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Xoʻjanddagi qalʼa devorlari, muzey xonalari va Sugʻd xotirasi»."
+      - "type": "destinationInsight"
+        "icon": "Sunrise"
+        "title":
+          "en": "When is Khujand Fortress and Historical Museum strongest during the day?"
+          "ru": "В какое время дня Худжандская крепость и исторический музей раскрывается сильнее?"
+          "uz": "Xoʻjand qalʼasi va tarixiy muzeyi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer before the midday heat. That usually improves comfort, photos, and how the stop feels in the sequence around khujand."
+          "ru": "Лучше до полуденной жары. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с khujand."
+          "uz": "tushlik issiqligidan oldin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (khujand atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How should Khujand Fortress and Historical Museum sit next to nearby stops?"
+          "ru": "Как поставить Худжандская крепость и исторический музей рядом с соседними остановками?"
+          "uz": "Xoʻjand qalʼasi va tarixiy muzeyini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Khujand Fortress and Historical Museum to your Tajikistan programme"
+      "ru": "Добавьте «Худжандская крепость и исторический музей» в программу (Таджикистан)"
+      "uz": "Xoʻjand qalʼasi va tarixiy muzeyini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Khujand Fortress and Historical Museum | TourLink"
+    "ru": "Худжандская крепость и исторический музей | TourLink"
+    "uz": "Xoʻjand qalʼasi va tarixiy muzeyi | TourLink"
+  "metaDescription":
+    "en": "Khujand Fortress and Historical Museum turns a central city walk toward older Sughd. Start with the walls and towers for scale, then continue into the museum rooms when they are open for artifacts, textiles, mosaics, dioramas, and Temurmalik memory."
+    "ru": "Худжандская крепость и исторический музей разворачивают прогулку по центру к старому Согду. Сначала видны стены и башни, затем, если залы открыты, музей добавляет артефакты, ткани, мозаики, диорамы и память о Темурмалике."
+    "uz": "Xoʻjand qalʼasi va tarixiy muzeyi markazdagi sayrni qadimgi Sugʻd tarixiga buradi. Avval devorlar va minoralar miqyosni koʻrsatadi; zallar ochiq boʻlsa, muzey artefaktlar, matolar, mozaikalar, dioramalar va Temurmalik xotirasini qoʻshadi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "khujand-and-northern-tajikistan"
+"city": "khujand"
+"type": "FORTRESS"
+"importance": "RECOMMENDED"
+"latitude": 40.2861431
+"longitude": 69.616662

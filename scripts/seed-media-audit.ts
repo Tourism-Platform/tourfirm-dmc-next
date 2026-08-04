@@ -302,16 +302,15 @@ function printReport(stats: TAuditStats, checkOnly: boolean): void {
 }
 
 async function main(): Promise<void> {
-	if (process.env.DATABASE_URI_DIRECT) {
-		process.env.DATABASE_URI = process.env.DATABASE_URI_DIRECT;
-	}
-
+	const { resolveSeedDatabaseUri } = await import("./seed-timing.js");
+	process.env.DATABASE_URI = resolveSeedDatabaseUri();
 	process.env.PAYLOAD_DB_PUSH = "false";
 
 	const checkOnly = isCheckOnlyMode();
 	console.log(
 		`Media storage audit starting (${checkOnly ? "check-only" : "repair"})...`
 	);
+	console.log(`DB: ${process.env.DATABASE_URI.replace(/:[^:@/]+@/, ":***@")}`);
 
 	const { default: config } = await import("@payload-config");
 	const payload = await getPayload({ config });

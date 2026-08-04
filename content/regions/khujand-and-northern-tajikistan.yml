@@ -1,0 +1,516 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "khujand-and-northern-tajikistan"
+  "ru": "khujand-and-northern-tajikistan"
+  "uz": "khujand-and-northern-tajikistan"
+"title":
+  "en": "Khujand & Northern Tajikistan"
+  "ru": "Худжанд и северный Таджикистан"
+  "uz": "Xoʻjand va Shimoliy Tojikiston"
+"subtitle":
+  "en": "Syr Darya city, craft towns, and Ferghana Valley roads"
+  "ru": "Город на Сырдарье, ремесленные города и дороги Ферганской долины"
+  "uz": "Sirdaryo shahri, hunarmand shaharchalar va Fargʻona vodiysi yoʻllari"
+"excerpt":
+  "en": "Khujand gathers northern Tajikistan at river scale: the Syr Darya, Panjshanbe market stalls, fortress walls, shaded mosque courtyards, and evening walks that feel closer to the Ferghana Valley than to the high Pamirs.
+
+
+    The region is strongest as a measured northern turn. Khujand gives the arrival city; Istaravshan adds Mug Teppe, Kok Gumbaz, and craft streets; Isfara and Kayrakkum stay as carefully checked route extensions, with orchard, reservoir, and border-edge timing confirmed locally before the road is fixed."
+  "ru": "Худжанд собирает северный Таджикистан в масштабе реки: Сырдарья, ряды базара Панджшанбе, стены крепости, тень у мечетей и вечерние прогулки, которые ближе к Ферганской долине, чем к высоким Памирам.
+
+
+    Сильнее всего регион раскрывается как спокойный северный поворот маршрута. Худжанд даёт город прибытия; Истаравшан добавляет Муг-Теппе, Кок-Гумбаз и ремесленные улицы; Исфара и Кайраккум остаются аккуратными продолжениями маршрута, где сады, водохранилище и дороги рядом с границей нужно проверять на месте до фиксации программы."
+  "uz": "Xoʻjand Shimoliy Tojikistonni daryo miqyosida jamlaydi: Sirdaryo, Panjshanbe bozori rastalari, qalʼa devorlari, masjid hovlilaridagi soya va baland Pomirdan ko‘ra Fargʻona vodiysiga yaqinroq seziladigan kechki sayrlar.
+
+
+    Hudud eng kuchli tarzda shoshilmagan shimoliy burilish sifatida ochiladi. Xoʻjand kelish shahrini beradi; Istaravshan Mugʻtepa, Koʻk Gumbaz va hunarmand ko‘chalarni qo‘shadi; Isfara va Qayroqqum esa bogʻlar, suv ombori va chegara yonidagi yoʻllar joyida tekshirilgandan keyin marshrutga kiritiladigan ehtiyotkor davomlar bo‘lib qoladi."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "Khujand & Northern Tajikistan"
+      "ru": "Худжанд и северный Таджикистан"
+      "uz": "Xoʻjand va Shimoliy Tojikiston"
+    "title":
+      "en": "Khujand & Northern Tajikistan"
+      "ru": "Худжанд и северный Таджикистан"
+      "uz": "Xoʻjand va Shimoliy Tojikiston"
+    "description":
+      "en": "Syr Darya city, craft towns, and Ferghana Valley roads"
+      "ru": "Город на Сырдарье, ремесленные города и дороги Ферганской долины"
+      "uz": "Sirdaryo shahri, hunarmand shaharchalar va Fargʻona vodiysi yoʻllari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О регионе"
+      "uz": "Hudud haqida"
+    "title":
+      "en": "Khujand & Northern Tajikistan"
+      "ru": "Худжанд и северный Таджикистан"
+      "uz": "Xoʻjand va Shimoliy Tojikiston"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Khujand gathers northern Tajikistan at river scale: the Syr Darya, Panjshanbe market stalls, fortress walls, shaded mosque courtyards, and evening walks that feel closer to the Ferghana Valley than to the high Pamirs."
+              "ru": "Худжанд собирает северный Таджикистан в масштабе реки: Сырдарья, ряды базара Панджшанбе, стены крепости, тень у мечетей и вечерние прогулки, которые ближе к Ферганской долине, чем к высоким Памирам."
+              "uz": "Xoʻjand Shimoliy Tojikistonni daryo miqyosida jamlaydi: Sirdaryo, Panjshanbe bozori rastalari, qalʼa devorlari, masjid hovlilaridagi soya va baland Pomirdan ko‘ra Fargʻona vodiysiga yaqinroq seziladigan kechki sayrlar."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Read the north through Khujand first; add Istaravshan, Isfara, or Kayrakkum only when road time, season, and border context support the route."
+              "ru": "Север лучше читать через Худжанд; Истаравшан, Исфару или Кайраккум стоит добавлять тогда, когда это позволяют дорога, сезон и ситуация у границы."
+              "uz": "Shimolni avval Xoʻjand orqali o‘qing; Istaravshan, Isfara yoki Qayroqqumni yoʻl vaqti, mavsum va chegara holati yoʻnalishga mos kelganda qo‘shing."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Distances look manageable on a map, but bazaars, craft visits, river walks, and border-aware roads need time to feel clear rather than squeezed."
+              "ru": "На карте расстояния выглядят умеренными, но базары, ремесленные визиты, прогулки у реки и дороги рядом с границей требуют времени, чтобы не превратиться в список остановок."
+              "uz": "Masofalar xaritada yengil ko‘rinadi, lekin bozorlar, hunarmandchilik tashriflari, daryo bo‘yidagi sayrlar va chegara yonidagi yoʻllar ro‘yxatga aylanib qolmasligi uchun vaqt talab qiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Khujand & Northern Tajikistan as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Худжанд и северный Таджикистан как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Xoʻjand va Shimoliy Tojikiston o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "Khujand first, then valley choices"
+      "ru": "Сначала Худжанд, затем выбор по долине"
+      "uz": "Avval Xoʻjand, keyin vodiy tanlovi"
+    "description":
+      "en": "Read the north through Khujand first; add Istaravshan, Isfara, or Kayrakkum only when road time, season, and border context support the route."
+      "ru": "Север лучше читать через Худжанд; Истаравшан, Исфару или Кайраккум стоит добавлять тогда, когда это позволяют дорога, сезон и ситуация у границы."
+      "uz": "Shimolni avval Xoʻjand orqali o‘qing; Istaravshan, Isfara yoki Qayroqqumni yoʻl vaqti, mavsum va chegara holati yoʻnalishga mos kelganda qo‘shing."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route anchors"
+        "ru": "Опоры маршрута"
+        "uz": "Yoʻnalish tayanchlari"
+      "title":
+        "en": "Syr Darya, old towns, and reservoir edge"
+        "ru": "Сырдарья, старые города и край водохранилища"
+        "uz": "Sirdaryo, eski shaharchalar va suv ombori cheti"
+      "description":
+        "en": "The map keeps four northern anchors visible: Khujand on the Syr Darya, Istaravshan for old-town craft, Isfara near the eastern valley edge, and Kayrakkum for nearby water and road planning."
+        "ru": "Карта держит четыре северные опоры: Худжанд на Сырдарье, Истаравшан с ремесленным старым городом, Исфару у восточного края долины и Кайраккум как водную остановку рядом с Худжандом."
+        "uz": "Xarita to‘rt shimoliy tayanchni ko‘rsatadi: Sirdaryo bo‘yidagi Xoʻjand, hunarmand eski shahri bilan Istaravshan, vodiyning sharqiy chetidagi Isfara va Xoʻjandga yaqin suv yo‘nalishi sifatida Qayroqqum."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.147252
+      "longitude": 69.76407
+    "zoom": 9
+    "stops":
+      - "entityType": "city"
+        "entitySlug": "khujand"
+      - "entityType": "city"
+        "entitySlug": "istaravshan"
+      - "entityType": "city"
+        "entitySlug": "isfara"
+    "aside":
+      "eyebrow":
+        "en": "What to decide"
+        "ru": "Что решить"
+        "uz": "Nimani hal qilish"
+      "title":
+        "en": "Keep the north measured"
+        "ru": "Не торопите север"
+        "uz": "Shimolni shoshirmang"
+      "description":
+        "en": "Distances look manageable on a map, but bazaars, craft visits, river walks, and border-aware roads need time to feel clear rather than squeezed."
+        "ru": "На карте расстояния выглядят умеренными, но базары, ремесленные визиты, прогулки у реки и дороги рядом с границей требуют времени, чтобы не превратиться в список остановок."
+        "uz": "Masofalar xaritada yengil ko‘rinadi, lekin bozorlar, hunarmandchilik tashriflari, daryo bo‘yidagi sayrlar va chegara yonidagi yoʻllar ro‘yxatga aylanib qolmasligi uchun vaqt talab qiladi."
+      "items":
+        - "title":
+            "en": "Start with Khujand"
+            "ru": "Начните с Худжанда"
+            "uz": "Xoʻjanddan boshlang"
+          "description":
+            "en": "Panjshanbe Bazaar, the fortress museum, Sheikh Muslihiddin, and the Syr Darya give the north its first human scale."
+            "ru": "Базар Панджшанбе, музей в крепости, Шейх Муслихиддин и Сырдарья дают северу живой масштаб."
+            "uz": "Panjshanbe bozori, qalʼa muzeyi, Shayx Muslihiddin va Sirdaryo shimolga birinchi insoniy miqyos beradi."
+        - "title":
+            "en": "Add Istaravshan when the route can slow down"
+            "ru": "Добавляйте Истаравшан без спешки"
+            "uz": "Istaravshanni shoshirmay qo‘shing"
+          "description":
+            "en": "Mug Teppe, Kok Gumbaz, Hazrat-i Shoh, and craft streets ask for a calmer old-town stop rather than a quick name on the map."
+            "ru": "Муг-Теппе, Кок-Гумбаз, Хазрати Шох и ремесленные улицы требуют спокойной остановки, а не быстрого имени на карте."
+            "uz": "Mugʻtepa, Koʻk Gumbaz, Hazrati Shoh va hunarmand ko‘chalar xaritadagi tez nom emas, sokin eski shahar to‘xtashini so‘raydi."
+        - "title":
+            "en": "Treat Isfara as a careful extension"
+            "ru": "Относитесь к Исфаре как к осторожному продолжению"
+            "uz": "Isfarani ehtiyotkor davom deb ko‘ring"
+          "description":
+            "en": "Isfara can add orchard, bazaar, madrasa, and Chorku context, but border-side movement should be checked locally before it is promised."
+            "ru": "Исфара может добавить сады, базар, медресе и Чорку, но движение у границы нужно проверять на месте."
+            "uz": "Isfara bogʻlar, bozor, madrasa va Chorku maʼnosini qo‘shishi mumkin, lekin chegara yonidagi harakat joyida tekshirilishi kerak."
+        - "title":
+            "en": "Keep Kayrakkum as nearby water"
+            "ru": "Оставьте Кайраккум как близкую воду"
+            "uz": "Qayroqqumni yaqin suv sifatida qoldiring"
+          "description":
+            "en": "The Bahri Tojik reservoir can soften a Khujand stay, while the main cultural weight stays with the city and old towns."
+            "ru": "Бахри Тоджик может добавить к остановке в Худжанде короткий выезд к воде, но культурный центр маршрута остаётся в городе и старых северных городах."
+            "uz": "Bahri Tojik Xoʻjanddagi to‘xtashga qisqa suv yo‘lini qo‘shadi, ammo marshrutning madaniy ogʻirligi shahar va eski shimoliy shaharchalarda qoladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region character"
+      "ru": "Характер региона"
+      "uz": "Hudud xarakteri"
+    "title":
+      "en": "Where Tajikistan meets the Ferghana Valley"
+      "ru": "Где Таджикистан встречается с Ферганской долиной"
+      "uz": "Tojikiston Fargʻona vodiysi bilan uchrashadigan joy"
+    "description":
+      "en": "Northern Tajikistan changes the country route without sending it straight into high mountains. The north is river light, bazaar noise, craft streets, and valley roads where neighboring countries are never far from the map.
+
+
+        «The north is not a shortcut to the mountains; it is where Tajikistan meets the Ferghana Valley at a human scale.»"
+      "ru": "Северный Таджикистан меняет маршрут по стране, не уводя его сразу в высокие горы. Здесь есть свет реки, шум базара, ремесленные улицы и долинные дороги, где соседние страны всегда близко на карте.
+
+
+        «Север — не короткий путь к горам; это место, где Таджикистан встречается с Ферганской долиной в человеческом масштабе.»"
+      "uz": "Shimoliy Tojikiston mamlakat bo‘ylab yoʻnalishni darhol baland togʻlarga olib ketmasdan o‘zgartiradi. Bu yerda daryo nuri, bozor shovqini, hunarmand ko‘chalar va qo‘shni mamlakatlar xaritada yaqin turadigan vodiy yoʻllari bor.
+
+
+        «Shimol togʻlarga qisqa yoʻl emas; bu Tojikiston Fargʻona vodiysi bilan insoniy miqyosda uchrashadigan joy.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region areas"
+      "ru": "Региональные точки"
+      "uz": "Hudud joylari"
+    "title":
+      "en": "Khujand, Istaravshan, and Isfara"
+      "ru": "Худжанд, Истаравшан и Исфара"
+      "uz": "Xoʻjand, Istaravshan va Isfara"
+    "description":
+      "en": "Khujand is the main anchor. Istaravshan and Isfara widen the northern map through old-town craft, valley roads, and nearby points such as Kayrakkum, Kanibadam, and Buston."
+      "ru": "Худжанд остаётся главной опорой. Истаравшан и Исфара расширяют северную карту через ремесленный старый город, долинные дороги и дополнительные точки вроде Кайраккума, Канибадама и Бустана."
+      "uz": "Xoʻjand asosiy tayanch bo‘lib qoladi. Istaravshan va Isfara shimoliy xaritani hunarmand eski shahar, vodiy yoʻllari hamda Qayroqqum, Konibodom va Boʻston kabi qo‘shimcha joylar orqali kengaytiradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan/regions/khujand-and-northern-tajikistan/cities/khujand.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Khujand"
+          "ru": "Худжанд"
+          "uz": "Xoʻjand"
+        "description":
+          "en": "On the Syr Darya, Khujand still feels like a trading city before it feels like a checklist of sights. The first visit moves from Panjshanbe Bazaar to the Sheikh Muslihiddin complex, then to the fortress and historical museum, where Sogdian memory and the Temurmalik story help the"
+          "ru": "На Сырдарье Худжанд сначала ощущается как торговый город, а не как список достопримечательностей. Первый маршрут ведёт от базара Панджшанбе к комплексу шейха Муслихиддина, затем к крепости и историческому музею, где согдийская память и история Темурмалика помогают понять город."
+          "uz": "Sirdaryo boʻyida Xoʻjand avval savdo shahri sifatida seziladi, diqqatga sazovor joylar roʻyxati sifatida emas. Birinchi tashrif Panjshanbe bozoridan Shayx Muslihiddin majmuasiga, keyin qalʼa va tarixiy muzeyga olib boradi; u yerda Sugʻd xotirasi va Temurmalik hikoyasi shaharni tu"
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/khujand"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Istaravshan"
+          "ru": "Истаравшан"
+          "uz": "Istaravshan"
+        "description":
+          "en": "Istaravshan is strongest after Khujand, when the hill, blue dome, shrine etiquette, bazaar lanes, and craft workshops stay close enough to feel like one town. A guide helps check what is open, keeps sacred and workshop stops respectful, and lets the visit breathe instead of becom"
+          "ru": "Истаравшан сильнее всего раскрывается после Худжанда, когда холм, голубой купол, этикет святыни, базарные переулки и ремесленные мастерские остаются рядом и читаются как один город. Гид помогает проверить, что открыто, сохранить уважение к святыням и мастерским и не превратить по"
+          "uz": "Istaravshan Xoʻjanddan keyin, tepalik, moviy gumbaz, ziyorat odobi, bozor yoʻlaklari va hunarmand ustaxonalari bir shahardek yaqin turganda eng yaxshi ochiladi. Gid nimalar ochiqligini tekshiradi, ziyorat va ustaxona toʻxtashlarini hurmatli saqlaydi va tashrifni shoshilinch roʻyx"
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/istaravshan"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Isfara"
+          "ru": "Исфара"
+          "uz": "Isfara"
+        "description":
+          "en": "Start with Isfara itself: market lanes, older neighborhoods, and the first sense of eastern Sughd after Khujand and Istaravshan. Abdullo Khan Madrasa, Chorku context, shrine etiquette, and orchard roads can deepen the visit, but only after our local team confirms access, timing, "
+          "ru": "Начинайте с самой Исфары: рыночные переулки, старые кварталы и первое ощущение восточного Согда после Худжанда и Истаравшана. Медресе Абдулло Хана, контекст Чорку, этикет святынь и садовые дороги могут углубить посещение, но только после проверки доступа, времени и приема на мест"
+          "uz": "Isfarani shaharning o‘zidan boshlang: bozor yo‘laklari, eski mahallalar va Xo‘jand hamda Istaravshandan keyingi Sharqiy Sug‘d ohangi. Abdullo Xon madrasasi, Chorku, ziyorat odobi va bog‘ yo‘llari tashrifni chuqurlashtiradi, lekin faqat mahalliy jamoa kirish, vaqt va qabulni tasdi"
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/isfara"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Bazaar, fortress, craft, and valley context"
+      "ru": "Базар, крепость, ремёсла и долинный контекст"
+      "uz": "Bozor, qalʼa, hunarmandchilik va vodiy yoʻllari"
+    "description":
+      "en": "The route is shaped by Panjshanbe Bazaar, Sheikh Muslihiddin, the Khujand fortress museum, Kamoli Khujandi park, Arbob Palace, Mug Teppe, Kok Gumbaz, Hazrat-i Shoh, Isfara's old town, Chorku, and Kayrakkum reservoir."
+      "ru": "Маршрут складывают базар Панджшанбе, Шейх Муслихиддин, музей в Худжандской крепости, парк Камоли Худжанди, дворец Арбоб, Муг-Теппе, Кок-Гумбаз, Хазрати Шох, старая Исфара, Чорку и Кайраккумское водохранилище."
+      "uz": "Yoʻnalishni Panjshanbe bozori, Shayx Muslihiddin, Xoʻjand qalʼa muzeyi, Kamoli Xoʻjandiy bogʻi, Arbob saroyi, Mugʻtepa, Koʻk Gumbaz, Hazrati Shoh, eski Isfara, Chorku va Qayroqqum suv ombori shakllantiradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Panjshanbe Bazaar"
+          "ru": "Базар Панджшанбе"
+          "uz": "Panjshanbe bozori"
+        "description":
+          "en": "Panjshanbe Bazaar gives Khujand an immediate human scale. Its name means Thursday, a memory of market day, while today's visit is built from bread, fruit, spices, textiles, household goods, voices, and the quick movement of the city center."
+          "ru": "Базар Панджшанбе сразу показывает Худжанд через людей. Его название означает четверг и напоминает о рыночном дне; сегодняшний визит складывается из хлеба, фруктов, специй, тканей, повседневных товаров, голосов и быстрого движения городского центра."
+          "uz": "Panjshanbe bozori Xoʻjandni odamlar orqali tanishtiradi. Nomi payshanba degani va eski bozor kunini eslatadi; bugungi tashrif esa non, meva, ziravor, mato, kundalik buyumlar, bozor ovozlari va shahar markazining tez harakatidan tashkil topadi."
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/khujand/panjshanbe-bazaar"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Hazrat-i Shoh Complex"
+          "ru": "Комплекс Хазрат-и Шох"
+          "uz": "Hazrati Shoh majmuasi"
+        "description":
+          "en": "Hazrat-i Shoh is the Istaravshan stop where the route lowers its voice. After hill ruins and blue-dome architecture, the mosque setting asks for modest dress, quiet movement, and a local check on which visitor areas are open that day. Keep the camera discreet, and let the stop st"
+          "ru": "Хазрат-и Шох - остановка, где маршрут по Истаравшану становится тише. После холма с древней памятью и голубого купола мечеть просит скромной одежды, спокойного движения и местной проверки того, какие зоны открыты гостям в этот день. Камеру лучше держать ненавязчиво, а саму остано"
+          "uz": "Hazrati Shoh Istaravshan yoʻnalishi sokinlashadigan bekatdir. Tepalikdagi qadimiy xotira va moviy gumbazdan keyin masjid muhiti kamtar kiyim, sokin harakat va oʻsha kuni mehmonlar uchun qaysi joylar ochiq ekanini mahalliy tekshirishni talab qiladi. Kamerani ehtiyotkor tuting, bek"
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/istaravshan/hazrat-i-shoh-complex"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Kok Gumbaz Mosque and Madrasa"
+          "ru": "Мечеть-медресе Кок-Гумбаз"
+          "uz": "Koʻk Gumbaz masjid-madrasasi"
+        "description":
+          "en": "On Istaravshan's western side, Kok Gumbaz announces itself first by color: a light-blue dome above square brick and majolica. Closer in, the portal, painted walls, molded mihrab, and large hall turn the stop from a skyline marker into a mosque-madrasa with study and prayer memory"
+          "ru": "На западной стороне Истаравшана Кок-Гумбаз сначала запоминается цветом: светло-голубой купол поднимается над квадратным кирпичом и майоликой. Ближе видны портал, росписи, лепной михраб и большой зал, поэтому памятник перестаёт быть только силуэтом и становится мечетью-медресе с п"
+          "uz": "Istaravshanning gʻarbiy tomonida Koʻk Gumbaz avvalo rangi bilan esda qoladi: kvadrat gʻisht va majolika ustida havorang gumbaz koʻtariladi. Yaqinroq borganda peshtoq, devoriy bezaklar, bezatilgan mehrob va katta zal koʻrinadi; shunda yodgorlik faqat uzoqdan koʻrinadigan siluet em"
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/istaravshan/kok-gumbaz-mosque-and-madrasa"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Mug Teppe / Mug Castle"
+          "ru": "Муг-Теппе / крепость Муг"
+          "uz": "Mug Teppe / Mug qalʼasi"
+        "description":
+          "en": "Mug Teppe is a compact hill site, not a restored castle. Its value is quieter: settlement memory, traces of an old gate and dome, and the first context for understanding why Istaravshan's later monuments belong together. Start here, and Kok Gumbaz, Hazrat-i-Shoh, bazaar streets, "
+          "ru": "Муг-Теппе - компактная площадка на холме, а не восстановленная крепость. Его ценность спокойнее: память поселения, следы старых ворот и купола, первый контекст для понимания Истаравшана. Если начать прогулку здесь, Кок-Гумбаз, Хазрати-Шох, базарные улицы и кварталы ниже складываю"
+          "uz": "Mug Teppe qayta tiklangan qalʼa emas, ixcham tepalik maydonidir. Uning qiymati sokinroq: manzilgoh xotirasi, eski darvoza va gumbaz izlari, Istaravshanni tushunish uchun birinchi kontekst. Sayr shu yerdan boshlansa, Kok Gumbaz, Hazrati Shoh, bozor koʻchalari va pastdagi mahallala"
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/istaravshan/mug-teppe-mug-castle"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Arbob Palace near Khujand"
+          "ru": "Дворец Арбоб под Худжандом"
+          "uz": "Xoʻjand yaqinidagi Arbob saroyi"
+        "description":
+          "en": "Arbob Palace sits in the Bobojon Gafurov area beyond Khujand's walking core. The visit shifts the route from market noise and old-city anchors to a formal palace setting, park grounds, Soviet-era regional history, and the political memory attached to 1992."
+          "ru": "Дворец Арбоб находится в районе Бободжона Гафурова, за пределами пешеходного ядра Худжанда. Здесь маршрут меняет шум базара и центральные памятники на парадный дворец, парк, советскую региональную историю и память о событиях 1992 года."
+          "uz": "Arbob saroyi Bobojon Gʻafurov hududida, Xoʻjandning piyoda yuriladigan markazidan tashqarida joylashgan. Bu tashrif bozor shovqini va markaziy obidalardan tantanali saroy muhitiga, bogʻ hududiga, sovet davri mintaqaviy tarixiga va 1992-yil xotirasiga oʻtadi."
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/khujand/arbob-palace-near-khujand"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Kamoli Khujandi Park and Mausoleum"
+          "ru": "Парк и мавзолей Камоли Худжанди"
+          "uz": "Kamoli Xujandiy bogʻi va maqbarasi"
+        "description":
+          "en": "Kamoli Khujandi Park and Mausoleum gives central Khujand a quieter turn. After Panjshanbe, Sheikh Muslihiddin, and the fortress, the walk shifts toward a poet's public memory, trees, and a calmer memorial setting. It belongs as a compact addition when local access around the memo"
+          "ru": "Парк и мавзолей Камоли Худжанди дают центру Худжанда более тихий поворот. После Панджшанбе, Шейха Муслихиддина и крепости прогулка переходит к памяти о поэте, деревьям и спокойной мемориальной среде. Он уместен как короткое дополнение, когда доступ к мемориальной зоне проверен на"
+          "uz": "Kamoli Xujandiy bogʻi va maqbarasi Xoʻjand markaziga sokinroq burilish beradi. Panjshanbe, Shayx Muslihiddin va qalʼadan keyin bu joy yurishni shoir xotirasi, daraxtlar va xotirjam memorial muhitga olib kiradi. Memorial hududga kirish mahalliy tasdiqdan oʻtganda, u ixcham qoʻshim"
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/khujand/kamoli-khujandi-park-and-mausoleum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region in detail"
+      "ru": "Регион в деталях"
+      "uz": "Hudud batafsil"
+    "title":
+      "en": "Practical questions about Khujand & Northern Tajikistan"
+      "ru": "Практические вопросы о регионе Худжанд и северный Таджикистан"
+      "uz": "Xoʻjand va Shimoliy Tojikiston hududi bo‘yicha amaliy savollar"
+    "description":
+      "en": "Pace, season, and how this region connects to the next stop."
+      "ru": "Темп, сезон и как регион стыкуется со следующей остановкой."
+      "uz": "Sur’at, mavsum va hududning keyingi bekat bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many days does Khujand & Northern Tajikistan need in a programme?"
+          "ru": "Сколько дней нужно региону Худжанд и северный Таджикистан в программе?"
+          "uz": "Xoʻjand va Shimoliy Tojikiston hududi dasturda necha kun olishi kerak?"
+        "description":
+          "en": "2–3 days usually works if you keep one strong core and treat outer stops as deliberate choices. The region brief is “Syr Darya city, craft towns, and Ferghana Valley roads”."
+          "ru": "Обычно хватает 2–3 дня, если держать одно сильное ядро, а внешние остановки выбирать осознанно. Кратко о регионе: «Город на Сырдарье, ремесленные города и дороги Ферганской долины»."
+          "uz": "Odatda 2–3 kun yetadi — bitta kuchli yadro va tashqi bekatlarni ongli tanlov qiling. Hudud brifi: «Sirdaryo shahri, hunarmand shaharchalar va Fargʻona vodiysi yoʻllari»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "What should come before and after Khujand & Northern Tajikistan?"
+          "ru": "Что ставить до и после региона Худжанд и северный Таджикистан?"
+          "uz": "Xoʻjand va Shimoliy Tojikistondan oldin va keyin nima qo‘yish kerak?"
+        "description":
+          "en": "Use neighbouring cities as clean handovers: arrive with a calm first night, leave after one completed chapter, and avoid stacking two long transfers on the same day."
+          "ru": "Соседние города держите как чистые стыки: приезжайте со спокойной первой ночью, уезжайте после завершённой главы и не ставьте два длинных переезда в один день."
+          "uz": "Qo‘shni shaharlarni toza ulanish sifatida tuting: sokin birinchi tun bilan keling, yakunlangan bobdan keyin chiqing va bir kunga ikkita uzun ko‘chishni qo‘ymang."
+      - "type": "destinationInsight"
+        "icon": "CloudSun"
+        "title":
+          "en": "What season logic matters most in Khujand & Northern Tajikistan?"
+          "ru": "Какая сезонная логика важнее всего в Худжанд и северный Таджикистан?"
+          "uz": "Xoʻjand va Shimoliy Tojikistonda qaysi mavsum mantig‘i eng muhim?"
+        "description":
+          "en": "Heat, altitude, road condition, and opening hours change the product more than the brochure list. Build the region around what stays comfortable for the group that week."
+          "ru": "Жара, высота, состояние дорог и часы работы меняют продукт сильнее списка из брошюры. Собирайте регион вокруг того, что комфортно именно этой группе в эту неделю."
+          "uz": "Issiqlik, balandlik, yo‘l holati va ish soatlari broshyura ro‘yxatidan kuchliroq mahsulotni o‘zgartiradi. Hududni shu hafta guruh uchun qulay narsaga qurib chiqing."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Khujand & Northern Tajikistan stop into your Tajikistan programme"
+      "ru": "Встройте остановку «Худжанд и северный Таджикистан» в программу (Таджикистан)"
+      "uz": "Xoʻjand va Shimoliy Tojikiston bekatini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right extensions — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать нужные расширения — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va kerakli kengaytmalarni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Khujand & Northern Tajikistan | TourLink"
+    "ru": "Худжанд и северный Таджикистан | TourLink"
+    "uz": "Xoʻjand va Shimoliy Tojikiston | TourLink"
+  "metaDescription":
+    "en": "Khujand gathers northern Tajikistan at river scale: the Syr Darya, Panjshanbe market stalls, fortress walls, shaded mosque courtyards, and evening walks that feel closer to the Ferghana Valley than to the high Pamirs.
+
+
+      The region is strongest as a measured northern turn. Khujand gives the arrival city; Istaravshan adds Mug Teppe, Kok Gumbaz, and craft streets; Isfara and Kayrakkum stay as carefully checked route extensions, with orchard, reservoir, and border-edge timing confirmed locally before the road is fixed."
+    "ru": "Худжанд собирает северный Таджикистан в масштабе реки: Сырдарья, ряды базара Панджшанбе, стены крепости, тень у мечетей и вечерние прогулки, которые ближе к Ферганской долине, чем к высоким Памирам.
+
+
+      Сильнее всего регион раскрывается как спокойный северный поворот маршрута. Худжанд даёт город прибытия; Истаравшан добавляет Муг-Теппе, Кок-Гумбаз и ремесленные улицы; Исфара и Кайраккум остаются аккуратными продолжениями маршрута, где сады, водохранилище и дороги рядом с границей нужно проверять на месте до фиксации программы."
+    "uz": "Xoʻjand Shimoliy Tojikistonni daryo miqyosida jamlaydi: Sirdaryo, Panjshanbe bozori rastalari, qalʼa devorlari, masjid hovlilaridagi soya va baland Pomirdan ko‘ra Fargʻona vodiysiga yaqinroq seziladigan kechki sayrlar.
+
+
+      Hudud eng kuchli tarzda shoshilmagan shimoliy burilish sifatida ochiladi. Xoʻjand kelish shahrini beradi; Istaravshan Mugʻtepa, Koʻk Gumbaz va hunarmand ko‘chalarni qo‘shadi; Isfara va Qayroqqum esa bogʻlar, suv ombori va chegara yonidagi yoʻllar joyida tekshirilgandan keyin marshrutga kiritiladigan ehtiyotkor davomlar bo‘lib qoladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"mapCenter":
+  "latitude": 38.5664195
+  "longitude": 68.7906067

@@ -1,0 +1,567 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "nurata"
+  "ru": "nurata"
+  "uz": "nurata"
+"title":
+  "en": "Nurata"
+  "ru": "Нурата"
+  "uz": "Nurota"
+"subtitle":
+  "en": "Spring water, mosque shade, and desert roads"
+  "ru": "Вода источника, тень мечети и дорога в пустыню"
+  "uz": "Buloq suvi, masjid soyasi va cho‘l yo‘li"
+"excerpt":
+  "en": "Nurata gives the desert route a first moment of water and shade. At Chashma, spring water, the mosque courtyard, fish in the pool, and the old fortress hill make the town feel calm before the road turns toward Aydarkul or Sentyab."
+  "ru": "Нурата даёт пустынному маршруту первое ощущение воды и тени. У Чашмы источник, двор мечети, рыбы в бассейне и холм старой крепости делают город спокойным перед дорогой к Айдаркулю или Сентобу."
+  "uz": "Nurota cho‘l yo‘liga suv va soyaning birinchi hissini beradi. Chashmada buloq suvi, masjid hovlisi, hovuzdagi baliqlar va eski qalʼa tepaligi Aydarko‘l yoki Sentob tomon yo‘ldan oldin shaharni sokin qiladi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/nurata.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/nurata.webp"
+    "imageAlt":
+      "en": "Nurata"
+      "ru": "Нурата"
+      "uz": "Nurota"
+    "title":
+      "en": "Nurata"
+      "ru": "Нурата"
+      "uz": "Nurota"
+    "description":
+      "en": "Spring water, mosque shade, and desert roads"
+      "ru": "Вода источника, тень мечети и дорога в пустыню"
+      "uz": "Buloq suvi, masjid soyasi va cho‘l yo‘li"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Nurata"
+      "ru": "Нурата"
+      "uz": "Nurota"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Nurata gives the desert route a first moment of water and shade."
+              "ru": "Нурата даёт пустынному маршруту первое ощущение воды и тени."
+              "uz": "Nurota cho‘l yo‘liga suv va soyaning birinchi hissini beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Start in town with Chashma water and courtyard shade, then choose how far the route continues: up to Nur Fortress, out toward Aydarkul's shore, or onward to Sentyab's foothill paths."
+              "ru": "Сначала — Чашма и тень двора в городе; затем выбирайте продолжение: к крепости Нур, к берегу Айдаркуля или к предгорным тропам Сентоба."
+              "uz": "Avval shaharda Chashma suvi va hovli soyasi; keyin yo‘l qanday davom etishini tanlang: Nur qalʼasiga, Aydarko‘l qirg‘og‘iga yoki Sentobning tog‘oldi so‘qmoqlariga."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Water and shade come first. The route can then add the fortress hill, lake shore, village paths, or desert-camp roads if access and timing are clear."
+              "ru": "Сначала идут вода и тень. Затем маршрут может добавить холм крепости, берег озера, сельские тропы или дороги к пустынным лагерям, если доступ и время понятны."
+              "uz": "Avval suv va soya. Keyin yo‘l qalʼa tepaligi, ko‘l qirg‘og‘i, qishloq so‘qmoqlari yoki cho‘l lagerlari yo‘llarini qo‘shishi mumkin, agar kirish va vaqt aniq bo‘lsa."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Nurata as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Нурата как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Nurota o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "Spring town before the desert opens"
+      "ru": "Город источника перед пустыней"
+      "uz": "Cho‘l ochilishidan oldingi buloq shahri"
+    "description":
+      "en": "Start in town with Chashma water and courtyard shade, then choose how far the route continues: up to Nur Fortress, out toward Aydarkul's shore, or onward to Sentyab's foothill paths."
+      "ru": "Сначала — Чашма и тень двора в городе; затем выбирайте продолжение: к крепости Нур, к берегу Айдаркуля или к предгорным тропам Сентоба."
+      "uz": "Avval shaharda Chashma suvi va hovli soyasi; keyin yo‘l qanday davom etishini tanlang: Nur qalʼasiga, Aydarko‘l qirg‘og‘iga yoki Sentobning tog‘oldi so‘qmoqlariga."
+    "mapPanel":
+      "eyebrow":
+        "en": "Desert anchors"
+        "ru": "Опоры пустыни"
+        "uz": "Cho‘l tayanchlari"
+      "title":
+        "en": "Nurata, Aydarkul, and Sentyab"
+        "ru": "Нурата, Айдаркуль и Сентоб"
+        "uz": "Nurota, Aydarko‘l va Sentob"
+      "description":
+        "en": "The map keeps the spring town, lake shore, and foothill village in one frame, so the route reads as one desert-edge sequence instead of loose stops."
+        "ru": "Карта держит город источника, берег озера и предгорное село в одной рамке, поэтому маршрут воспринимается как единая последовательность у края пустыни, а не как набор отдельных остановок."
+        "uz": "Xarita buloq shahri, ko‘l qirg‘og‘i va tog‘oldi qishlog‘ini bitta doirada ushlab turadi, shunda yo‘l alohida bekatlar emas, cho‘l chetidagi yagona ketma-ketlik sifatida ko‘rinadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.695057
+      "longitude": 66.387333
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "chashma-complex-nurata"
+      - "entityType": "attraction"
+        "entitySlug": "nur-fortress-nurata"
+    "aside":
+      "eyebrow":
+        "en": "Route order"
+        "ru": "Порядок маршрута"
+        "uz": "Yo‘l tartibi"
+      "title":
+        "en": "Water first, then sand and foothills"
+        "ru": "Сначала вода, затем песок и предгорья"
+        "uz": "Avval suv, keyin qum va tog‘oldi"
+      "description":
+        "en": "Water and shade come first. The route can then add the fortress hill, lake shore, village paths, or desert-camp roads if access and timing are clear."
+        "ru": "Сначала идут вода и тень. Затем маршрут может добавить холм крепости, берег озера, сельские тропы или дороги к пустынным лагерям, если доступ и время понятны."
+        "uz": "Avval suv va soya. Keyin yo‘l qalʼa tepaligi, ko‘l qirg‘og‘i, qishloq so‘qmoqlari yoki cho‘l lagerlari yo‘llarini qo‘shishi mumkin, agar kirish va vaqt aniq bo‘lsa."
+      "items":
+        - "title":
+            "en": "Spring water gives the first image"
+            "ru": "Вода источника даёт первый образ"
+            "uz": "Buloq suvi birinchi obrazni beradi"
+          "description":
+            "en": "The pool, mosque courtyard, fish movement, and steady water sound make Nurata feel cool before the route turns toward dry land."
+            "ru": "Бассейн, двор мечети, движение рыб и ровный звук воды делают Нурату прохладной до поворота маршрута к сухой земле."
+            "uz": "Hovuz, masjid hovlisi, baliqlar harakati va suvning bir maromdagi tovushi Nurotani yo‘l quruq yerga burilishidan oldin salqin qiladi."
+          "badge":
+            "en": "Chashma"
+            "ru": "Чашма"
+            "uz": "Chashma"
+        - "title":
+            "en": "Fortress traces keep the past visible"
+            "ru": "Следы крепости держат прошлое видимым"
+            "uz": "Qalʼa izlari o‘tmishni ko‘rinadigan tutadi"
+          "description":
+            "en": "Dry earth, stone, and the hill above town add a rougher contrast after Chashma, with the desert road already close."
+            "ru": "Сухая земля, камень и холм над городом дают более грубый контраст после Чашмы, а пустынная дорога уже близко."
+            "uz": "Quruq tuproq, tosh va shahar ustidagi tepalik Chashmadan keyin dag‘alroq qarama-qarshilik beradi, cho‘l yo‘li esa allaqachon yaqin."
+          "badge":
+            "en": "Old earth"
+            "ru": "Старая земля"
+            "uz": "Eski tuproq"
+        - "title":
+            "en": "Aydarkul widens the next part"
+            "ru": "Айдаркуль расширяет следующую часть"
+            "uz": "Aydarko‘l keyingi qismni kengaytiradi"
+          "description":
+            "en": "Blue water, reeds, birds, and sand change the next part from town shade to open Kyzylkum light."
+            "ru": "Синяя вода, камыш, птицы и песок переводят следующую часть от городской тени к открытому свету Кызылкума."
+            "uz": "Ko‘k suv, qamish, qushlar va qum keyingi qismni shahar soyasidan ochiq Qizilqum nuriga o‘tkazadi."
+          "badge":
+            "en": "Lake road"
+            "ru": "Дорога к озеру"
+            "uz": "Ko‘l yo‘li"
+        - "title":
+            "en": "Sentyab brings people and paths"
+            "ru": "Сентоб приносит людей и тропы"
+            "uz": "Sentob odamlar va so‘qmoqlarni olib keladi"
+          "description":
+            "en": "Guesthouse courtyards, stone paths, and table voices give the region a human scale after the spring and lake."
+            "ru": "Дворы гостевых домов, каменные тропы и голоса за столом дают региону человеческий масштаб после источника и озера."
+            "uz": "Mehmon uylari hovlilari, tosh so‘qmoqlar va dasturxon ovozlari buloq va ko‘ldan keyin mintaqaga insoniy miqyos beradi."
+          "badge":
+            "en": "Foothills"
+            "ru": "Предгорья"
+            "uz": "Tog‘oldi"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Places that shape Nurata"
+      "ru": "Места, которые формируют Нурату"
+      "uz": "Nurotani shakllantiradigan joylar"
+    "description":
+      "en": "Start with Chashma Complex and Nur Fortress: spring water, mosque courtyards, fish in the pool, and the hill above town. Wider Nurata routes can then continue toward Aydarkul, Sentyab, Nuratau foothill villages, or desert-camp roads when access and timing fit."
+      "ru": "Начните с комплекса Чашма и крепости Нур: вода источника, дворы мечетей, рыбы в бассейне и холм над городом. Более широкие маршруты через Нурату могут продолжиться к Айдаркулю, Сентобу, предгорным селам Нуратау или дорогам к пустынным лагерям, когда доступ и время подходят."
+      "uz": "Chashma majmuasi va Nur qalʼasidan boshlang: buloq suvi, masjid hovlilari, hovuzdagi baliqlar va shahar ustidagi tepalik. Kengroq Nurota yo‘llari Aydarko‘l, Sentob, Nurota tog‘oldi qishloqlari yoki cho‘l lagerlari yo‘llariga davom etishi mumkin, agar kirish va vaqt mos bo‘lsa."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/nurata/attractions/chashma-complex-nurata.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Chashma Complex"
+          "ru": "Комплекс Чашма"
+          "uz": "Chashma majmuasi"
+        "description":
+          "en": "Chashma Complex gathers Nurata around water: the spring pool, the Juma Mosque, quiet courtyard movement, and the fortress hill above town. It is the clearest first stop before the route continues toward Aydarkul, Sentyab, or the Kyzylkum edge."
+          "ru": "Комплекс Чашма собирает Нурату вокруг воды: бассейн источника, мечеть Джума, спокойное движение во дворе и крепостной холм над городом. Это самая ясная первая остановка перед продолжением к Айдаркулю, Сентобу или краю Кызылкума."
+          "uz": "Chashma majmuasi Nurotani suv atrofida jamlaydi: buloq hovuzi, Juma masjidi, hovlidagi sokin harakat va shahar ustidagi qalʼa tepaligi. Bu Aydarko‘l, Sentob yoki Qizilqum chetiga davom etishdan oldingi eng aniq birinchi to‘xtash."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/nurata/chashma-complex-nurata"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/nurata/attractions/nur-fortress-nurata.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Nur Fortress"
+          "ru": "Крепость Нур"
+          "uz": "Nur qalʼasi"
+        "description":
+          "en": "Nur Fortress gives Chashma its high viewpoint. From the slope above the spring, remaining mud-brick wall traces and open views show why this small town mattered on roads between the cities, the lake, and the Kyzylkum. The Alexander story belongs here as local tradition, not as a "
+          "ru": "Крепость Нур даёт Чашме верхнюю точку обзора. Со склона над источником следы глинобитных стен и открытые виды показывают, почему этот небольшой город был важен на дорогах между городами, озером и Кызылкумом. Сюжет об Александре здесь звучит как местная традиция, а не как доказанн"
+          "uz": "Nur qalʼasi Chashmaga yuqoridan qarash imkonini beradi. Buloq ustidagi qiyalikdan ko‘rinadigan xom g‘isht devor izlari va ochiq manzara bu kichik shaharning shaharlar, ko‘l va Qizilqum orasidagi yo‘llarda nega muhim bo‘lganini ko‘rsatadi. Iskandar haqidagi hikoya bu yerda mahalli"
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/nurata/nur-fortress-nurata"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Local moments"
+      "ru": "Местные моменты"
+      "uz": "Mahalliy lahzalar"
+    "title":
+      "en": "Water, hill, and road moments"
+      "ru": "Вода, холм и дорога"
+      "uz": "Suv, tepalik va yo‘l"
+    "description":
+      "en": "These moments widen Nurata beyond its two main sites: Chashma shade, the fortress hill, the road to Aydarkul, and the foothill turn toward Sentyab."
+      "ru": "Эти моменты показывают Нурату шире двух главных мест: тень Чашмы, холм крепости, дорогу к Айдаркулю и поворот к предгорьям Сентоба."
+      "uz": "Bu lahzalar Nurotani ikki asosiy joydan kengroq ko‘rsatadi: Chashma soyasi, qalʼa tepaligi, Aydarko‘l yo‘li va Sentob tog‘oldiga burilish."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/nurata/nurata-character-1.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Chashma water and shade"
+          "ru": "Вода и тень Чашмы"
+          "uz": "Chashma suvi va soyasi"
+        "description":
+          "en": "Stand by the spring pool where fish move under mosque shade and quiet voices make Nurata feel like the first breath before the Kyzylkum road."
+          "ru": "У бассейна Чашмы рыбы движутся в воде, рядом ложится тень мечети, и Нурата ощущается первым спокойным вдохом перед дорогой в Кызылкум."
+          "uz": "Chashma hovuzi yonida baliqlar suvda harakatlanadi, masjid soyasi tushadi va Nurota Qizilqum yo‘lidan oldingi birinchi sokin nafasdek seziladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/nurata/nurata-character-2.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Fortress hill above Nurata"
+          "ru": "Крепостной холм над Нуратой"
+          "uz": "Nurota ustidagi qalʼa tepaligi"
+        "description":
+          "en": "Climb toward Nur Fortress traces for dry earth, rough stone, and a wider view back to Chashma before the road opens toward lake and desert."
+          "ru": "Подъём к следам крепости Нур даёт сухую землю, грубый камень и широкий вид назад к Чашме перед дорогой к озеру и пустыне."
+          "uz": "Nur qalʼasi izlari tomon ko‘tarilganda quruq tuproq, dag‘al tosh va ko‘l hamda cho‘l yo‘lidan oldin Chashmaga qaytadigan keng manzara ochiladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/nurata/nurata-character-3.webp"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "From Nurata toward Aydarkul"
+          "ru": "Из Нураты к Айдаркулю"
+          "uz": "Nurotadan Aydarko‘l tomon"
+        "description":
+          "en": "Leave the spring town for the lake road, where courtyard shade gives way to reeds, open sand, and the wider Kyzylkum horizon."
+          "ru": "После города источника дорога к озеру меняет тень двора на камыш, открытый песок и широкий горизонт Кызылкума."
+          "uz": "Buloq shahridan ko‘l yo‘liga chiqqanda hovli soyasi qamish, ochiq qum va keng Qizilqum ufqiga almashadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/nurata/nurata-character-4.webp"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Sentyab foothill road"
+          "ru": "Дорога к предгорьям Сентоба"
+          "uz": "Sentob tog‘oldi yo‘li"
+        "description":
+          "en": "Use Nurata as the point where the route can turn from spring water toward Sentyab's stone paths, guesthouse courtyards, and village table time."
+          "ru": "Нурата становится местом, где маршрут может уйти от воды источника к каменным тропам Сентоба, дворам гостевых домов и времени за сельским столом."
+          "uz": "Nurota yo‘l buloq suvidan Sentobning tosh so‘qmoqlari, mehmon uylari hovlilari va qishloq dasturxoni vaqtiga buriladigan nuqtaga aylanadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "How Nurata gives the desert route a cool beginning"
+      "ru": "Как Нурата даёт пустынному маршруту прохладное начало"
+      "uz": "Nurota cho‘l yo‘liga qanday salqin boshlanish beradi"
+    "description":
+      "en": "Nurata matters because the Kyzylkum route begins here with water and shade rather than empty distance. Chashma, Nur Fortress, and the roads beyond town give the traveler a clear threshold before lake, village, or desert night."
+      "ru": "Нурата важна потому, что путь к Кызылкуму здесь начинается с воды и тени, а не с пустого расстояния. Чашма, крепость Нур и дороги за городом дают путешественнику понятный порог перед озером, селом или пустынной ночью."
+      "uz": "Nurota muhim, chunki Qizilqum yo‘li bu yerda bo‘sh masofadan emas, suv va soyadan boshlanadi. Chashma, Nur qalʼasi va shahar ortidagi yo‘llar sayohatchiga ko‘l, qishloq yoki cho‘l tunidan oldin aniq ostonani beradi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Chashma spring"
+              "ru": "Источник Чашма"
+              "uz": "Chashma buloqi"
+            "description":
+              "en": "The spring gives Nurata its first pull: cool water, fish in the pool, courtyard shade, and a sound that softens the road before the desert."
+              "ru": "Источник даёт Нурате первое притяжение: прохладную воду, рыб в бассейне, тень двора и звук, который смягчает дорогу перед пустыней."
+              "uz": "Buloq Nurotadagi birinchi kuchli taassurotni beradi: salqin suv, hovuzdagi baliqlar, hovli soyasi va cho‘l oldidan yo‘lni yumshatadigan tovush."
+          - "type": "quote"
+            "quote":
+              "en": "In Nurata, the road to the desert begins beside water."
+              "ru": "В Нурате дорога к пустыне начинается у воды."
+              "uz": "Nurotada cho‘lga boradigan yo‘l suv yonidan boshlanadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Fortress earth"
+              "ru": "Крепостная земля"
+              "uz": "Qalʼa tuprog‘i"
+            "description":
+              "en": "Old fortress traces and dry stone add a rougher contrast above town, so the stop feels older and wider than the quiet streets first suggest."
+              "ru": "Следы старой крепости и сухой камень дают над городом более грубый контраст, поэтому остановка кажется старше и шире, чем сначала подсказывают тихие улицы."
+              "uz": "Eski qalʼa izlari va quruq tosh shahar ustida dag‘alroq qarama-qarshilik beradi, shu bois bekat sokin ko‘chalar avval ko‘rsatganidan qadimiyroq va kengroq seziladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Lake and village roads"
+              "ru": "Дороги к озеру и селу"
+              "uz": "Ko‘l va qishloq yo‘llari"
+            "description":
+              "en": "From Nurata, the route can continue toward Aydarkul's blue shore or Sentyab's foothill paths, keeping spring water, sand, and village life in one clear sequence."
+              "ru": "Из Нураты маршрут может продолжиться к синему берегу Айдаркуля или к предгорным тропам Сентоба, сохраняя воду источника, песок и сельскую жизнь в одной понятной последовательности."
+              "uz": "Nurotadan yo‘l Aydarko‘lning ko‘k qirg‘og‘iga yoki Sentobning tog‘oldi so‘qmoqlariga davom etishi mumkin, buloq suvi, qum va qishloq hayotini bitta aniq ketma-ketlikda ushlab turadi."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Nurata is strongest when the visit includes Chashma, the fortress hill, and a clear onward choice toward Aydarkul, Sentyab, or the Kyzylkum night."
+              "ru": "Нурата сильнее всего раскрывается, когда визит включает Чашму, холм крепости и понятное продолжение к Айдаркулю, Сентобу или ночи Кызылкума."
+              "uz": "Nurota tashrif Chashma, qalʼa tepaligi va Aydarko‘l, Sentob yoki Qizilqum tuniga aniq davomni o‘z ichiga olganda kuchliroq ochiladi."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before you go Anchor"
+                  "ru": "Перед поездкой Опора"
+                  "uz": "Safardan oldin Tayanch"
+                "description":
+                  "en": "Spring town and first calm stop in the Nurata, Aydarkul, and Kyzylkum route."
+                  "ru": "Город источника и первая спокойная остановка маршрута Нурата, Айдаркуль и Кызылкум."
+                  "uz": "Nurota, Aydarko‘l va Qizilqum yo‘nalishidagi buloq shahri va birinchi sokin to‘xtash."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main image"
+                  "ru": "Главный образ"
+                  "uz": "Asosiy obraz"
+                "description":
+                  "en": "Chashma spring, mosque courtyard, fish in the pool, old fortress traces, and desert-road light."
+                  "ru": "Источник Чашма, двор мечети, рыбы в бассейне, следы старой крепости и свет пустынной дороги."
+                  "uz": "Chashma buloqi, masjid hovlisi, hovuzdagi baliqlar, eski qalʼa izlari va cho‘l yo‘li nuri."
+              - "icon": "Sun"
+                "title":
+                  "en": "Season and pace"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va sur’at"
+                "description":
+                  "en": "Softer spring and autumn air make the courtyard, hill, and lake continuation easier to read."
+                  "ru": "Мягкая весна и осень помогают легче читать двор, холм и продолжение к озеру."
+                  "uz": "Yumshoq bahor va kuz havosi hovli, tepalik va ko‘l davomini o‘qishni osonlashtiradi."
+              - "icon": "Route"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Yo‘nalishdagi roli"
+                "description":
+                  "en": "A town threshold between Silk Road cities and the lake, foothill, desert-camp, and Kyzylkum roads."
+                  "ru": "Город-порог между городами Шёлкового пути и дорогами к озеру, предгорьям, пустынным лагерям и Кызылкуму."
+                  "uz": "Ipak yo‘li shaharlari bilan ko‘l, tog‘oldi, cho‘l lagerlari va Qizilqum yo‘llari orasidagi shahar-ostona."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby routes"
+      "ru": "Куда продолжить"
+      "uz": "Yaqin yo‘llar"
+    "title":
+      "en": "Where the desert route continues"
+      "ru": "Куда продолжается пустынный маршрут"
+      "uz": "Cho‘l yo‘li qayerga davom etadi"
+    "description":
+      "en": "Aydarkul opens the lake-and-sand horizon; Sentyab brings the route into foothill paths, guesthouse courtyards, and village table time."
+      "ru": "Айдаркуль открывает горизонт озера и песка; Сентоб уводит маршрут к предгорным тропам, дворам гостевых домов и времени за сельским столом."
+      "uz": "Aydarko‘l ko‘l va qum ufqini ochadi; Sentob yo‘lni tog‘oldi so‘qmoqlari, mehmon uylari hovlilari va qishloq dasturxoni vaqtiga olib kiradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/nurata-next-aydarkul.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Aydarkul"
+          "ru": "Айдаркуль"
+          "uz": "Aydarko‘l"
+        "description":
+          "en": "Aydarkul is the lake stop on the Kyzylkum road: open shore, reeds in the wind, soft sand, seasonal bird movement, and a route back toward Nurata or Sentyab."
+          "ru": "Айдаркуль — озёрная остановка на дороге по Кызылкуму: открытый берег, камыш на ветру, мягкий песок, сезонное движение птиц и путь обратно к Нурате или Сентобу."
+          "uz": "Aydarko‘l Qizilqum yo‘lidagi ko‘l bekati: ochiq qirg‘oq, shamoldagi qamish, yumshoq qum, mavsumiy qushlar harakati va Nurota yoki Sentobga qaytadigan yo‘l."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/aydarkul"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/nurata-next-sentyab.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Sentob"
+          "ru": "Сентоб"
+          "uz": "Sentob"
+        "description":
+          "en": "Sentob slows the Nurata-Aydarkul road at village scale: stone walls, shaded courtyards, garden produce, and Nuratau foothill views."
+          "ru": "Сентоб замедляет дорогу Нурата-Айдаркуль в сельском масштабе: каменные стены, тенистые дворы, садовые продукты и виды предгорий Нуратау."
+          "uz": "Sentob Nurota-Aydarko‘l yo‘lini qishloq miqyosida sekinlashtiradi: tosh devorlar, soyali hovlilar, bog‘ mahsuloti va Nurota tog‘oldi manzaralari."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/sentyab"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Nurata in the day plan"
+      "ru": "Как поставить Нурата в план дня"
+      "uz": "Nurotani kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Nurata?"
+          "ru": "Сколько времени группам стоит проводить в Нурата?"
+          "uz": "Nurotada guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Spring water, mosque shade, and desert roads”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Вода источника, тень мечети и дорога в пустыню»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Buloq suvi, masjid soyasi va cho‘l yo‘li»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Nurata be a walkable core or a base for day trips?"
+          "ru": "Нурата — это пешеходное ядро или база для выездов?"
+          "uz": "Nurota piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Nurata's centre?"
+          "ru": "Где лучше ночевать относительно центра Нурата?"
+          "uz": "Nurota markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/nurata.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Nurata stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Нурата» в программу (Узбекистан)"
+      "uz": "Nurota bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Nurata | TourLink"
+    "ru": "Нурата | TourLink"
+    "uz": "Nurota | TourLink"
+  "metaDescription":
+    "en": "Nurata gives the desert route a first moment of water and shade. At Chashma, spring water, the mosque courtyard, fish in the pool, and the old fortress hill make the town feel calm before the road turns toward Aydarkul or Sentyab."
+    "ru": "Нурата даёт пустынному маршруту первое ощущение воды и тени. У Чашмы источник, двор мечети, рыбы в бассейне и холм старой крепости делают город спокойным перед дорогой к Айдаркулю или Сентобу."
+    "uz": "Nurota cho‘l yo‘liga suv va soyaning birinchi hissini beradi. Chashmada buloq suvi, masjid hovlisi, hovuzdagi baliqlar va eski qalʼa tepaligi Aydarko‘l yoki Sentob tomon yo‘ldan oldin shaharni sokin qiladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "nurata-aydarkul-and-kyzylkum"
+"latitude": 40.5627799
+"longitude": 65.6903621

@@ -1,3 +1,5 @@
+import { LeadRequestButton } from "@/shared/ui/lead-request";
+
 import {
 	ActionType,
 	type TButtonRenderProps
@@ -23,6 +25,10 @@ export function ButtonRender({ type: variant, item }: TButtonRenderProps) {
 					title={item.title}
 					variant={item.variant}
 				/>
+			);
+		case ActionType.form:
+			return (
+				<LeadRequestButton title={item.title} variant={item.variant} />
 			);
 	}
 }

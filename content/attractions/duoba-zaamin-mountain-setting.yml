@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "duoba-zaamin-mountain-setting"
+  "ru": "duoba-zaamin-mountain-setting"
+  "uz": "duoba-zaamin-mountain-setting"
+"title":
+  "en": "Zaamin mountain setting"
+  "ru": "Горная среда Заамина"
+  "uz": "Zomin tog‘ muhiti"
+"subtitle":
+  "en": "Mountain air on the approach to Duoba"
+  "ru": "Горный воздух на подъезде к Дуобе"
+  "uz": "Duobaga boradigan yo‘ldagi tog‘ havosi"
+"excerpt":
+  "en": "The road into Duoba starts to feel like Zaamin before the village appears: bends, open air, and weather that can change quickly. This is the mountain approach around the mahalla visit, not a separate resort or fixed activity."
+  "ru": "Дорога к Дуобе начинает ощущаться как Заамин ещё до села: повороты, открытый воздух и погода, которая быстро меняется. Это горный подъезд к визиту в махаллю, а не отдельный курорт или активность с гарантированным доступом."
+  "uz": "Duobaga boradigan yo‘l qishloq ko‘rinishidan oldin ham Zominni sezdira boshlaydi: burilishlar, ochiq havo va tez o‘zgaradigan ob-havo. Bu mahalla tashrifi uchun tog‘ tomondan kirish, alohida kurort yoki kafolatlangan faoliyat emas."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Zaamin mountain setting"
+      "ru": "Горная среда Заамина"
+      "uz": "Zomin tog‘ muhiti"
+    "title":
+      "en": "Zaamin mountain setting"
+      "ru": "Горная среда Заамина"
+      "uz": "Zomin tog‘ muhiti"
+    "description":
+      "en": "Mountain air on the approach to Duoba"
+      "ru": "Горный воздух на подъезде к Дуобе"
+      "uz": "Duobaga boradigan yo‘ldagi tog‘ havosi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Zaamin mountain setting"
+      "ru": "Горная среда Заамина"
+      "uz": "Zomin tog‘ muhiti"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "The road into Duoba starts to feel like Zaamin before the village appears: bends, open air, and weather that can change quickly."
+              "ru": "Дорога к Дуобе начинает ощущаться как Заамин ещё до села: повороты, открытый воздух и погода, которая быстро меняется."
+              "uz": "Duobaga boradigan yo‘l qishloq ko‘rinishidan oldin ham Zominni sezdira boshlaydi: burilishlar, ochiq havo va tez o‘zgaradigan ob-havo."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "The road into Duoba starts to feel like Zaamin before the village appears: bends, open air, and weather that can change quickly."
+              "ru": "Дорога к Дуобе начинает ощущаться как Заамин ещё до села: повороты, открытый воздух и погода, которая быстро меняется."
+              "uz": "Duobaga boradigan yo‘l qishloq ko‘rinishidan oldin ham Zominni sezdira boshlaydi: burilishlar, ochiq havo va tez o‘zgaradigan ob-havo."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Mountain air on the approach to Duoba."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Горный воздух на подъезде к Дуобе."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Duobaga boradigan yo‘ldagi tog‘ havosi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Zaamin mountain setting as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Горная среда Заамина как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Zomin tog‘ muhiti o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Zaamin mountain setting sits on the route"
+      "ru": "Где Горная среда Заамина стоит на маршруте"
+      "uz": "Zomin tog‘ muhiti marshrutda qayerda"
+    "description":
+      "en": "One clear point for Zaamin mountain setting — Mountain air on the approach to Duoba."
+      "ru": "Одна понятная точка для «Горная среда Заамина» — Горный воздух на подъезде к Дуобе."
+      "uz": "Zomin tog‘ muhiti uchun bitta aniq nuqta — Duobaga boradigan yo‘ldagi tog‘ havosi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Zaamin mountain setting"
+        "ru": "Горная среда Заамина"
+        "uz": "Zomin tog‘ muhiti"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.9619506
+      "longitude": 68.3969972
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "duoba-zaamin-mountain-setting"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "How the Zaamin road changes the stop"
+      "ru": "Как зааминская дорога меняет остановку"
+      "uz": "Zomin yo‘li bekatni qanday o‘zgartiradi"
+    "description":
+      "en": "The road into Duoba starts to feel like Zaamin before the village appears: bends, open air, and weather that can change quickly. The mountain approach sets the mood, while the real meaning of the stop stays in the mahalla.
+
+
+        «The mountains should give Duoba air and pace, not turn the mahalla into a resort stop.»"
+      "ru": "Дорога к Дуобе начинает ощущаться как Заамин ещё до села: повороты, открытый воздух и погода, которая быстро меняется. Горный подъезд задаёт настроение, а смысл остановки остаётся в махалле.
+
+
+        «Горы должны дать Дуобе воздух и темп, а не превращать махаллю в курортную остановку.»"
+      "uz": "Duobaga boradigan yo‘l qishloq ko‘rinishidan oldin ham Zominni sezdira boshlaydi: burilishlar, ochiq havo va tez o‘zgaradigan ob-havo. Tog‘ tomondan kirish kayfiyat beradi, bekatning ma’nosi esa mahallada qoladi.
+
+
+        «Tog‘lar Duobaga havo va sur’at berishi kerak, mahallani kurort bekatiga aylantirmasligi kerak.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Road, air, and village edge"
+      "ru": "Дорога, воздух и край махалли"
+      "uz": "Yo‘l, havo va mahalla cheti"
+    "description":
+      "en": "Look first at the approach road, the open mountain air, and the way Duoba sits at the edge of the Zaamin-side route."
+      "ru": "Сначала смотрите на подъезд, открытый горный воздух и то, как Дуоба стоит у зааминского маршрута."
+      "uz": "Avval kirish yo‘li, ochiq tog‘ havosi va Duobaning Zomin tomoni marshrutidagi o‘rniga e’tibor bering."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как смотреть"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Let the village stay central"
+      "ru": "Оставьте махаллю в центре"
+      "uz": "Mahalla markazda qolsin"
+    "description":
+      "en": "Treat the air, road, and weather as part of Duoba’s mood; keep any activity decision separate and current."
+      "ru": "Воздух, дорога и погода становятся частью настроения Дуобы; решение о любой активности должно оставаться отдельным и актуальным."
+      "uz": "Havo, yo‘l va ob-havo Duoba kayfiyatining bir qismi bo‘lsin; har qanday faoliyat qarori alohida va dolzarb qolishi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Around Duoba"
+      "ru": "Вокруг Дуобы"
+      "uz": "Duoba atrofida"
+    "title":
+      "en": "Other sides of the Duoba stop"
+      "ru": "Другие стороны остановки в Дуобе"
+      "uz": "Duoba bekatining boshqa tomonlari"
+    "description":
+      "en": "Pair Duoba’s village life, mountain approach, and Zaamin-side ideas carefully, with each stop keeping its own role."
+      "ru": "Сочетайте сельскую жизнь Дуобы, горный подъезд и идеи со стороны Заамина аккуратно, не смешивая роли остановок."
+      "uz": "Duobaning qishloq hayoti, tog‘ tomondan kirishi va Zomin tomoni g‘oyalarini ehtiyotkor bog‘lang, har bekatning rolini alohida saqlang."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Family hospitality and craft mahalla"
+          "ru": "Махалля гостеприимства и ремесла"
+          "uz": "Mehmondo‘stlik va hunarmandchilik mahallasi"
+        "description":
+          "en": "In Duoba, the most memorable stop may be the quietest one: tea in a courtyard, a family meal, or a craft or cooking moment arranged with local people."
+          "ru": "В Дуобе самой запоминающейся может стать самая тихая остановка: чай во дворе, семейный обед, ремесло или готовка вместе с местными жителями."
+          "uz": "Duobada eng esda qoladigan bekat sokin bo‘lishi mumkin: hovlida choy, oilaviy taom, hunar yoki mahalliy odamlar bilan taom tayyorlash."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/duoba/duoba-guesthouse-and-craft-mahalla"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Cable car and Sufa side"
+          "ru": "Канатная дорога и сторона Суфы"
+          "uz": "Kanat yo‘li va Sufa tomoni"
+        "description":
+          "en": "Beyond Duoba, the Zaamin-side cable car, Sufa, Sherbulak, riding, quad, or snow ideas belong only when road time, access, weather, and schedules are clear."
+          "ru": "За пределами Дуобы канатная дорога, Суфа, Шербулак, лошади, квадроциклы или снег уместны только при ясных дороге, доступе, погоде и графике."
+          "uz": "Duobadan keyin Zomin tomondagi kanat yo‘li, Sufa, Sherbuloq, ot, kvadrosikl yoki qor faqat yo‘l, kirish, ob-havo va jadval aniq bo‘lsa qo‘shiladi."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/duoba/duoba-cable-car-and-sufa-route-context"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Zaamin mountain setting"
+      "ru": "Что агентства спрашивают про Горная среда Заамина"
+      "uz": "Agentliklar Zomin tog‘ muhiti haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Zaamin mountain setting get in the day plan?"
+          "ru": "Сколько времени закладывать на Горная среда Заамина в плане дня?"
+          "uz": "Zomin tog‘ muhiti uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "1–2 hours is a practical range for most groups. Keep the stop readable: one clear arrival, one clear exit. Place tone: “Mountain air on the approach to Duoba”."
+          "ru": "Для большинства групп реалистичный диапазон — 1–2 часа. Держите остановку читаемой: понятный вход и понятный выход. Характер места: «Горный воздух на подъезде к Дуобе»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 1–2 soat. Bekatni o‘qiladigan tuting: aniq kirish va aniq chiqish. Joy ohangi: «Duobaga boradigan yo‘ldagi tog‘ havosi»."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "When is Zaamin mountain setting strongest during the day?"
+          "ru": "В какое время дня Горная среда Заамина раскрывается сильнее?"
+          "uz": "Zomin tog‘ muhiti kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer when the light is soft and queues are lighter. That usually improves comfort, photos, and how the stop feels in the sequence around duoba."
+          "ru": "Лучше когда свет мягче и очередей меньше. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с duoba."
+          "uz": "yorug‘lik yumshoq va navbat kamroq bo‘lganda afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (duoba atrofida)."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "How should Zaamin mountain setting sit next to nearby stops?"
+          "ru": "Как поставить Горная среда Заамина рядом с соседними остановками?"
+          "uz": "Zomin tog‘ muhitini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Zaamin mountain setting to your Uzbekistan programme"
+      "ru": "Добавьте «Горная среда Заамина» в программу (Узбекистан)"
+      "uz": "Zomin tog‘ muhitini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Zaamin mountain setting | TourLink"
+    "ru": "Горная среда Заамина | TourLink"
+    "uz": "Zomin tog‘ muhiti | TourLink"
+  "metaDescription":
+    "en": "The road into Duoba starts to feel like Zaamin before the village appears: bends, open air, and weather that can change quickly. This is the mountain approach around the mahalla visit, not a separate resort or fixed activity."
+    "ru": "Дорога к Дуобе начинает ощущаться как Заамин ещё до села: повороты, открытый воздух и погода, которая быстро меняется. Это горный подъезд к визиту в махаллю, а не отдельный курорт или активность с гарантированным доступом."
+    "uz": "Duobaga boradigan yo‘l qishloq ko‘rinishidan oldin ham Zominni sezdira boshlaydi: burilishlar, ochiq havo va tez o‘zgaradigan ob-havo. Bu mahalla tashrifi uchun tog‘ tomondan kirish, alohida kurort yoki kafolatlangan faoliyat emas."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "zaamin-and-jizzakh-mountains"
+"city": "duoba"
+"type": "MOUNTAIN"
+"importance": "RECOMMENDED"
+"latitude": 39.9619506
+"longitude": 68.3969972

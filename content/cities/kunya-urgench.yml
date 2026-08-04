@@ -1,0 +1,654 @@
+# Generated from scrape/turkmenistan (multi-locale)
+"slug":
+  "en": "kunya-urgench"
+  "ru": "kunya-urgench"
+  "uz": "kunya-urgench"
+"title":
+  "en": "Kunya-Urgench"
+  "ru": "Куня-Ургенч"
+  "uz": "Ko‘hna Urganch"
+"subtitle":
+  "en": "Old Khorezm across open ground, brick, and sky"
+  "ru": "Старый Хорезм среди открытого пространства, кирпича и неба"
+  "uz": "Eski Xorazm ochiq makon, g‘isht va osmon orasida"
+"excerpt":
+  "en": "Kunya-Urgench makes old Khorezm feel spacious. The UNESCO landscape, Kutlug Timur Minaret, and Turabek Khanum Mausoleum sit apart, so the visit depends on open ground, heat, brick, sky, and the quiet between monuments. A guide helps turn that distance into the story of a former capital rather than a scatter of ruins."
+  "ru": "В Куня-Ургенче старый Хорезм ощущается через пространство. Объект ЮНЕСКО, минарет Кутлуг-Тимура и мавзолей Тюрабек-ханым стоят не вплотную, поэтому в визите важны открытый воздух, жара, кирпич, небо и тишина между памятниками. Гид помогает увидеть в этих расстояниях бывшую столицу, а не набор разрозненных руин."
+  "uz": "Ko‘hna Urganchda eski Xorazm kenglik orqali seziladi. UNESCO hududi, Qutlug‘ Temur minorasi va To‘rabek Xonim maqbarasi bir joyga zich to‘planmagan; shu bois tashrifda ochiq makon, issiq, g‘isht, osmon va yodgorliklar orasidagi sukunat muhim. Gid bu masofalarni alohida xarobalar emas, sobiq poytaxt hikoyasi sifatida tushuntiradi."
+"heroImage": "assets/images/destinations/turkmenistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "imageAlt":
+      "en": "Kunya-Urgench"
+      "ru": "Куня-Ургенч"
+      "uz": "Ko‘hna Urganch"
+    "title":
+      "en": "Kunya-Urgench"
+      "ru": "Куня-Ургенч"
+      "uz": "Ko‘hna Urganch"
+    "description":
+      "en": "Old Khorezm across open ground, brick, and sky"
+      "ru": "Старый Хорезм среди открытого пространства, кирпича и неба"
+      "uz": "Eski Xorazm ochiq makon, g‘isht va osmon orasida"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Kunya-Urgench"
+      "ru": "Куня-Ургенч"
+      "uz": "Ko‘hna Urganch"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Kunya-Urgench makes old Khorezm feel spacious."
+              "ru": "В Куня-Ургенче старый Хорезм ощущается через пространство."
+              "uz": "Ko‘hna Urganchda eski Xorazm kenglik orqali seziladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Arrive with time, start with the whole UNESCO landscape, then move to the minaret and Turabek Khanum when light, heat, and current access allow."
+              "ru": "Приезжайте с запасом времени, начните с общего ландшафта ЮНЕСКО, а затем переходите к минарету и Тюрабек-ханым, когда позволяют свет, жара и актуальный доступ."
+              "uz": "Yetarli vaqt bilan keling, avval UNESCO manzarasini yaxlit ko‘ring, keyin yorug‘lik, issiq va amaldagi kirish imkoniga qarab minoraga va To‘rabek Xonimga o‘ting."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Begin with the old city as a landscape, then let Kutlug Timur set the scale and Turabek Khanum bring the visit into brick, proportion, and ornament."
+              "ru": "Начните со старого города как с ландшафта, затем пусть Кутлуг-Тимур задаст масштаб, а Тюрабек-ханым приблизит визит к кирпичу, пропорции и орнаменту."
+              "uz": "Eski shaharni manzara sifatida ko‘ring, keyin Qutlug‘ Temur miqyosni ko‘rsatsin, To‘rabek Xonim esa tashrifni g‘isht, nisbat va naqshga yaqinlashtirsin."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Kunya-Urgench as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Куня-Ургенч как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Ko‘hna Urganch o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Plan the visit around distance and heat"
+      "ru": "Планируйте визит с учётом расстояний и жары"
+      "uz": "Masofa va issiqni hisobga olib tashrifni rejalang"
+    "description":
+      "en": "Arrive with time, start with the whole UNESCO landscape, then move to the minaret and Turabek Khanum when light, heat, and current access allow."
+      "ru": "Приезжайте с запасом времени, начните с общего ландшафта ЮНЕСКО, а затем переходите к минарету и Тюрабек-ханым, когда позволяют свет, жара и актуальный доступ."
+      "uz": "Yetarli vaqt bilan keling, avval UNESCO manzarasini yaxlit ko‘ring, keyin yorug‘lik, issiq va amaldagi kirish imkoniga qarab minoraga va To‘rabek Xonimga o‘ting."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place frame"
+        "ru": "Контур места"
+        "uz": "Joy ko‘rinishi"
+      "title":
+        "en": "Old Urgench across open ground"
+        "ru": "Старый Ургенч в открытом пространстве"
+        "uz": "Ochiq makondagi eski Urganch"
+      "description":
+        "en": "Stop order should follow current access and local guidance. Keep the first visit simple: landscape first, then the two strongest monuments."
+        "ru": "Точный порядок остановок должен следовать актуальному доступу и местному сопровождению. Для первого визита держите порядок простым: сначала ландшафт, затем два самых сильных памятника."
+        "uz": "To‘xtash tartibi amaldagi kirish va mahalliy gidlikka mos bo‘lishi kerak. Birinchi tashrifda tartib sodda bo‘lsin: avval manzara, keyin ikki eng kuchli yodgorlik."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 42.313287
+      "longitude": 59.143922
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "kunya-urgench-unesco-site"
+      - "entityType": "attraction"
+        "entitySlug": "kutlug-timur-minaret"
+      - "entityType": "attraction"
+        "entitySlug": "turabek-khanum-mausoleum"
+      - "entityType": "attraction"
+        "entitySlug": "sultan-tekesh-mausoleum"
+      - "entityType": "attraction"
+        "entitySlug": "il-arslan-mausoleum"
+      - "entityType": "attraction"
+        "entitySlug": "najm-ad-din-kubra-mausoleum"
+    "aside":
+      "eyebrow":
+        "en": "Visit rhythm"
+        "ru": "Ритм визита"
+        "uz": "Tashrif surʼati"
+      "title":
+        "en": "UNESCO landscape, minaret, mausoleum"
+        "ru": "Ландшафт ЮНЕСКО, минарет, мавзолей"
+        "uz": "UNESCO manzarasi, minora, maqbara"
+      "description":
+        "en": "Begin with the old city as a landscape, then let Kutlug Timur set the scale and Turabek Khanum bring the visit into brick, proportion, and ornament."
+        "ru": "Начните со старого города как с ландшафта, затем пусть Кутлуг-Тимур задаст масштаб, а Тюрабек-ханым приблизит визит к кирпичу, пропорции и орнаменту."
+        "uz": "Eski shaharni manzara sifatida ko‘ring, keyin Qutlug‘ Temur miqyosni ko‘rsatsin, To‘rabek Xonim esa tashrifni g‘isht, nisbat va naqshga yaqinlashtirsin."
+      "items":
+        - "title":
+            "en": "Start with the whole UNESCO landscape"
+            "ru": "Начните со всего ландшафта ЮНЕСКО"
+            "uz": "Butun UNESCO manzarasidan boshlang"
+          "description":
+            "en": "The old town area preserves monuments mainly from the 11th to 16th centuries across a broad protected landscape, so the first view should be wide."
+            "ru": "Старый город содержит памятники преимущественно XI-XVI веков, распределённые по широкому охраняемому ландшафту, поэтому первый взгляд должен быть широким."
+            "uz": "Eski shahar asosan XI-XVI asr yodgorliklarini keng muhofaza qilingan manzara bo‘ylab saqlaydi, shuning uchun birinchi qarash keng bo‘lishi kerak."
+          "badge":
+            "en": "UNESCO landscape"
+            "ru": "Ландшафт ЮНЕСКО"
+            "uz": "UNESCO manzarasi"
+        - "title":
+            "en": "Let the monuments set the scale"
+            "ru": "Дайте памятникам задать масштаб"
+            "uz": "Yodgorliklar miqyosni ko‘rsatsin"
+          "description":
+            "en": "Kutlug Timur gives the vertical marker; Turabek Khanum pulls the visit close to architectural detail and interior geometry."
+            "ru": "Кутлуг-Тимур даёт вертикальный знак; Тюрабек-ханым приближает визит к архитектурной детали и внутренней геометрии."
+            "uz": "Qutlug‘ Temur baland belgi beradi; To‘rabek Xonim tashrifni meʼmoriy tafsilot va ichki geometriyaga yaqinlashtiradi."
+          "badge":
+            "en": "Route order"
+            "ru": "Порядок маршрута"
+            "uz": "Yo‘l tartibi"
+        - "title":
+            "en": "Choose time with heat in mind"
+            "ru": "Выберите время с учётом жары"
+            "uz": "Vaqtni issiqni hisobga olib tanlang"
+          "description":
+            "en": "The open ground can feel exposed, so early starts and cooler months make the landscape easier to follow."
+            "ru": "Открытое пространство может быть тяжёлым, поэтому ранние старты и прохладные месяцы помогают лучше воспринимать ландшафт."
+            "uz": "Ochiq makon og‘ir tuyilishi mumkin, shuning uchun erta boshlash va salqin oylar manzarani yaxshiroq tushunishga yordam beradi."
+          "badge":
+            "en": "Season care"
+            "ru": "Сезонная осторожность"
+            "uz": "Mavsum ehtiyoti"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что смотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "The first places to understand Kunya-Urgench"
+      "ru": "Первые места, чтобы понять Куня-Ургенч"
+      "uz": "Ko‘hna Urganchni tushunish uchun birinchi joylar"
+    "description":
+      "en": "For a first visit, focus on the whole UNESCO landscape, Kutlug Timur Minaret, and Turabek Khanum Mausoleum before adding lesser-known stops."
+      "ru": "Для первого визита держите фокус на общем ландшафте ЮНЕСКО, минарете Кутлуг-Тимура и мавзолее Тюрабек-ханым; менее известные остановки можно добавлять позже."
+      "uz": "Birinchi tashrifda UNESCO manzarasi, Qutlug‘ Temur minorasi va To‘rabek Xonim maqbarasiga eʼtibor qarating; kamroq tanilgan to‘xtashlar keyingi chuqurroq safarga qolishi mumkin."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Kunya-Urgench UNESCO site"
+          "ru": "Объект ЮНЕСКО Куня-Ургенч"
+          "uz": "Ko‘hna Urganch UNESCO obyekti"
+        "description":
+          "en": "Kunya-Urgench is not a single monument stop. Across the old town, mosque remains, caravanserai gates, fortifications, mausoleums, and the 60-meter minaret keep old Khorezm visible through distance, brick, and open sky."
+          "ru": "Куня-Ургенч — не одна остановка у памятника. По территории старого города мечети, ворота караван-сараев, укрепления, мавзолеи и 60-метровый минарет показывают старый Хорезм через расстояние, кирпич и открытое небо."
+          "uz": "Ko‘hna Urganch bitta yodgorlik bekati emas. Eski shahar hududida masjid qoldiqlari, karvonsaroy darvozalari, istehkomlar, maqbaralar va 60 metrlik minora eski Xorazmni masofa, g‘isht va ochiq osmon orqali ko‘rsatadi."
+        "ctaHref": "/destinations/turkmenistan/dashoguz-and-kunya-urgench/kunya-urgench/kunya-urgench-unesco-site"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Kutlug Timur Minaret"
+          "ru": "Минарет Кутлуг-Тимура"
+          "uz": "Qutlug‘ Temur minorasi"
+        "description":
+          "en": "Kutlug Timur Minaret rises where Kunya-Urgench spreads across open ground. Its height, brick surface, and distance from the nearby mausoleums give the old city a visible measure before you move into smaller architectural detail."
+          "ru": "Минарет Кутлуг-Тимура поднимается там, где Куня-Ургенч раскрыт на открытом пространстве. Высота, кирпичная поверхность и расстояние до соседних мавзолеев дают старому городу видимый масштаб до перехода к более мелким архитектурным деталям."
+          "uz": "Qutlug‘ Temur minorasi Ko‘hna Urganch ochiq makonga yoyilgan joyda ko‘tariladi. Balandlik, g‘isht yuzasi va yaqin maqbaralargacha masofa eski shaharga ko‘rinadigan miqyos beradi, keyinroq esa mayda meʼmoriy tafsilotlarga o‘tish osonlashadi."
+        "ctaHref": "/destinations/turkmenistan/dashoguz-and-kunya-urgench/kunya-urgench/kutlug-timur-minaret"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Turabek Khanum Mausoleum"
+          "ru": "Мавзолей Тюрабек-ханым"
+          "uz": "To‘rabek Xonim maqbarasi"
+        "description":
+          "en": "Turabek Khanum pulls the northern visit inward. The UNESCO ground gives Kunya-Urgench distance, Kutlug Timur gives height, and this mausoleum brings the old capital down to chamber scale: exterior mass, a domed interior, measured brickwork, and decoration worth slowing for."
+          "ru": "Тюрабек-ханым уводит северный маршрут внутрь. Ландшафт ЮНЕСКО даёт Куня-Ургенчу расстояние, Кутлуг-Тимур — высоту, а этот мавзолей приближает старую столицу к масштабу зала: внешний объём, купольный интерьер, выверенный кирпич и декор, ради которого стоит замедлиться."
+          "uz": "To‘rabek Xonim shimoliy tashrifni ichkariga olib kiradi. UNESCO maydoni Ko‘hna Urganchga masofa beradi, Qutlug‘ Temur balandlikni ko‘rsatadi, bu maqbara esa eski poytaxtni xona miqyosiga yaqinlashtiradi: tashqi hajm, gumbazli ichki makon, o‘lchamli g‘isht va sekin ko‘rishga arziy"
+        "ctaHref": "/destinations/turkmenistan/dashoguz-and-kunya-urgench/kunya-urgench/turabek-khanum-mausoleum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Sultan Tekesh Mausoleum"
+          "ru": "Мавзолей Султана Текеша"
+          "uz": "Sulton Tekesh maqbarasi"
+        "description":
+          "en": "Sultan Tekesh Mausoleum gives Kunya-Urgench a different kind of monument: not the long vertical line of Kutlug Timur Minaret or the chamber detail of Turabek Khanum, but a royal brick tomb capped by blue tile. It makes the most sense after the wider UNESCO landscape has set the s"
+          "ru": "Мавзолей Султана Текеша даёт Куня-Ургенчу другой тип памятника: не длинную вертикаль минарета Кутлуг-Тимура и не внутреннюю деталь Тюрабек-ханым, а царскую кирпичную усыпальницу под голубой конической кровлей. Он понятнее после того, как ландшафт ЮНЕСКО уже задал масштаб старого "
+          "uz": "Sulton Tekesh maqbarasi Ko‘hna Urganchda boshqa turdagi yodgorlikni ko‘rsatadi: Qutlug‘ Temur minorasining uzun vertikal chizig‘i ham emas, To‘rabek Xonimdagi ichki bezak ham emas, balki ko‘k koshinli tom bilan yopilgan hukmdor g‘isht maqbarasi. UNESCO manzarasi eski Urganch ko‘l"
+        "ctaHref": "/destinations/turkmenistan/dashoguz-and-kunya-urgench/kunya-urgench/sultan-tekesh-mausoleum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Il Arslan Mausoleum"
+          "ru": "Мавзолей Иль-Арслана"
+          "uz": "Il Arslon maqbarasi"
+        "description":
+          "en": "Il Arslan Mausoleum slows the Kunya-Urgench visit to a closer scale. Instead of the height of Kutlug Timur Minaret or the sweep of the UNESCO landscape, this stop asks you to look at a compact brick body, a conical roof, and the detail held by a smaller tomb. It fits naturally ne"
+          "ru": "Мавзолей Иль-Арслана переводит визит по Куня-Ургенчу в более камерный масштаб. Это не высота минарета Кутлуг-Тимура и не широкий ландшафт ЮНЕСКО; здесь важно рассмотреть компактный кирпичный объём, коническую кровлю и деталь небольшого мавзолея. Он естественно встаёт рядом с Султ"
+          "uz": "Il Arslon maqbarasi Ko‘hna Urganch tashrifini yaqinroq ko‘lamga olib keladi. Bu Qutlug‘ Temur minorasining balandligi ham, keng UNESCO manzarasi ham emas; bu yerda ixcham g‘ishtli shakl, konussimon tom va kichik maqbaradagi detalga qaraysiz. U Sulton Tekesh yonida tabiiy ko‘rinad"
+        "ctaHref": "/destinations/turkmenistan/dashoguz-and-kunya-urgench/kunya-urgench/il-arslan-mausoleum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Najm ad-Din Kubra Mausoleum"
+          "ru": "Мавзолей Наджм ад-Дина Кубры"
+          "uz": "Najm ad-Din Kubra maqbarasi"
+        "description":
+          "en": "Najm ad-Din Kubra Mausoleum shifts Kunya-Urgench from monument scale to Sufi memory. After the open UNESCO landscape, minaret, and royal mausoleums, this northern stop asks for quieter movement, modest dress, and a careful reading of how old Khorezm is remembered. The stop is not"
+          "ru": "Мавзолей Наджм ад-Дина Кубры переводит визит по Куня-Ургенчу от масштаба памятников к паломнической памяти. После открытого ландшафта ЮНЕСКО, минарета и царских мавзолеев эта северная остановка требует более тихого движения, скромной одежды и внимания к тому, как старый Хорезм пр"
+          "uz": "Najm ad-Din Kubra maqbarasi Ko‘hna Urganch tashrifini yodgorliklar ko‘lamidan ziyorat xotirasiga buradi. Ochiq UNESCO manzarasi, minora va hukmdor maqbaralaridan keyin bu shimoliy to‘xtash sokinroq yurish, odobli kiyim va eski Xorazm nomlari qanday eslanishiga eʼtibor so‘raydi. B"
+        "ctaHref": "/destinations/turkmenistan/dashoguz-and-kunya-urgench/kunya-urgench/najm-ad-din-kubra-mausoleum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City rhythm"
+      "ru": "Ритм города"
+      "uz": "Shahar ritmi"
+    "title":
+      "en": "How the northern visit finds its pace"
+      "ru": "Как северный визит находит свой темп"
+      "uz": "Shimoliy tashrif o‘z surʼatini qanday topadi"
+    "description":
+      "en": "Kunya-Urgench becomes meaningful when access, guiding, heat-aware timing, and space between monuments are treated as part of the visit."
+      "ru": "Куня-Ургенч раскрывается, когда доступ, гид, время с учётом жары и расстояния между памятниками становятся частью визита."
+      "uz": "Ko‘hna Urganch kirish, gidlik, issiqni hisobga olgan vaqt va yodgorliklar orasidagi masofa tashrifning bir qismi bo‘lganda mazmunli bo‘ladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Old Khorezm across open ground"
+          "ru": "Старый Хорезм в открытом пространстве"
+          "uz": "Ochiq makondagi eski Xorazm"
+        "description":
+          "en": "Start with the UNESCO landscape so the minaret, mausoleums, brickwork, and silence feel like one former capital rather than isolated stops."
+          "ru": "Начните с ландшафта ЮНЕСКО, чтобы минарет, мавзолеи, кирпич и тишина ощущались как бывшая столица, а не отдельные остановки."
+          "uz": "UNESCO manzarasidan boshlang, shunda minora, maqbaralar, g‘isht va sukunat alohida to‘xtashlar emas, sobiq poytaxtdek seziladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Turabek Khanum's quiet interior"
+          "ru": "Купольная тишина Тюрабек-ханым"
+          "uz": "To‘rabek Xonimning sokin ichki makoni"
+        "description":
+          "en": "After the exposed monuments, the mausoleum brings the visit close to tile, proportion, and the calm geometry of a domed chamber."
+          "ru": "После открытых памятников мавзолей приближает визит к плитке, пропорции и спокойной геометрии купольного зала."
+          "uz": "Ochiq yodgorliklardan keyin maqbara tashrifni koshin, nisbat va gumbazli xonaning sokin geometriyasiga yaqinlashtiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Kutlug Timur's vertical marker"
+          "ru": "Вертикаль Кутлуг-Тимура"
+          "uz": "Qutlug‘ Temurning vertikal belgisi"
+        "description":
+          "en": "The 60-meter minaret gives the open landscape its scale; from a distance, it helps the whole site gather around one line."
+          "ru": "60-метровый минарет задаёт масштаб открытому ландшафту: издалека он собирает весь объект вокруг одной линии."
+          "uz": "60 metrlik minora ochiq manzaraga miqyos beradi; uzoqdan u butun joyni bitta chiziq atrofida jamlaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "How to give Kunya-Urgench enough time"
+      "ru": "Как дать Куня-Ургенчу достаточно времени"
+      "uz": "Ko‘hna Urganchga qanday yetarli vaqt berish kerak"
+    "description":
+      "en": "The site is powerful because it is open and spare. A rushed stop turns it into a monument list; a paced visit lets the former Khorezm capital feel connected."
+      "ru": "Сила места в его открытости и сдержанности. Слишком быстрый визит превращает его в список памятников; хороший темп помогает почувствовать бывшую столицу Хорезма как единое место."
+      "uz": "Joyning kuchi ochiqligi va sokinligida. Shoshilgan tashrif uni yodgorliklar ro‘yxatiga aylantiradi; yaxshi surʼat esa sobiq Xorazm poytaxtini yaxlit joy sifatida his qildiradi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "A landscape of distances"
+              "ru": "Ландшафт расстояний"
+              "uz": "Masofalar manzarasi"
+            "description":
+              "en": "Kunya-Urgench is not one dense monument square. Old Urgench survives in fragments, sightlines, and the minutes it takes to move between them."
+              "ru": "Куня-Ургенч — не плотная площадь памятников. Старый город сохранился во фрагментах, линиях взгляда и минутах движения между ними."
+              "uz": "Ko‘hna Urganch zich yodgorlik maydoni emas. Eski shahar bo‘laklar, qarash chiziqlari va ular orasidagi harakat daqiqalarida saqlangan."
+          - "type": "quote"
+            "quote":
+              "en": "The north feels strongest when there is time for silence, light, and the space between old Khorezm's surviving monuments."
+              "ru": "Север чувствуется сильнее, когда в маршруте есть время на тишину, свет и пространство между уцелевшими памятниками старого Хорезма."
+              "uz": "Shimoliy yo‘l eski Xorazmning saqlangan yodgorliklari orasidagi sukunat, yorug‘lik va masofaga vaqt bo‘lganda kuchliroq seziladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "The first three stops"
+              "ru": "Первые три остановки"
+              "uz": "Birinchi uch to‘xtash"
+            "description":
+              "en": "Begin with the UNESCO landscape, then let Kutlug Timur Minaret mark the skyline and Turabek Khanum Mausoleum bring the visit close to brickwork, proportion, and ornament."
+              "ru": "Начните с общего ландшафта ЮНЕСКО, затем пусть минарет Кутлуг-Тимура отметит горизонт, а мавзолей Тюрабек-ханым приблизит визит к кирпичу, пропорции и орнаменту."
+              "uz": "UNESCO manzarasidan boshlang, keyin Qutlug‘ Temur minorasi ufqni belgilasin, To‘rabek Xonim maqbarasi esa tashrifni g‘isht, nisbat va naqshga yaqinlashtirsin."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Вывод для путешественника"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Plan Kunya-Urgench deliberately: confirm access, start early when heat matters, and keep the first visit focused on the strongest monuments."
+              "ru": "Планируйте Куня-Ургенч осознанно: подтвердите доступ, начните рано, когда важна жара, и держите первый визит вокруг сильнейших памятников."
+              "uz": "Ko‘hna Urganchni ongli rejalang: kirishni tasdiqlang, issiq muhim bo‘lsa erta boshlang va birinchi tashrifni eng kuchli yodgorliklar atrofida tuting."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Time needed"
+                  "ru": "Коротко Сколько нужно"
+                  "uz": "Qisqacha Kerakli vaqt"
+                "description":
+                  "en": "Usually best as part of a planned northern day, not a quick addition between long drives."
+                  "ru": "Лучше как часть северного дня, а не быстрая добавка между длинными переездами."
+                  "uz": "Uzoq yo‘llar orasidagi tez qo‘shimcha emas, rejalangan shimoliy kunning bir qismi sifatida yaxshiroq."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main anchors"
+                  "ru": "Главные опоры"
+                  "uz": "Asosiy tayanchlar"
+                "description":
+                  "en": "The first visit is strongest when these three anchors stay in view."
+                  "ru": "Первый визит сильнее, когда эти три опоры остаются в центре."
+                  "uz": "Birinchi tashrif shu uch tayanch ko‘z oldida qolganda kuchliroq."
+              - "icon": "Sun"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль маршрута"
+                  "uz": "Yo‘l roli"
+                "description":
+                  "en": "Fits larger Turkmenistan or Khorezm-linked itineraries when the route allows enough time."
+                  "ru": "Подходит для больших маршрутов по Туркменистану или программ, связанных с Хорезмом, когда маршрут оставляет достаточно времени."
+                  "uz": "Marshrut yetarli vaqt berganda katta Turkmaniston yoki Xorazmga bog‘langan yo‘llarga mos keladi."
+              - "icon": "Route"
+                "title":
+                  "en": "Practical care"
+                  "ru": "Практическая осторожность"
+                  "uz": "Amaliy ehtiyot"
+                "description":
+                  "en": "Timing shapes comfort and the quality of interpretation."
+                  "ru": "Время посещения влияет и на комфорт, и на качество объяснения."
+                  "uz": "Tashrif vaqti ham qulaylikni, ham izoh sifatini belgilaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqin joylar"
+    "title":
+      "en": "After Kunya-Urgench"
+      "ru": "После Куня-Ургенча"
+      "uz": "Ko‘hna Urganchdan keyin"
+    "description":
+      "en": "Most routes return toward Ashgabat, Nisa, Mary, or Merv, depending on flights, border plans, and total route length."
+      "ru": "Большинство маршрутов возвращается к Ашхабаду, Нисе, Мары или Мерву в зависимости от рейсов, границы и общей длины поездки."
+      "uz": "Aksar marshrutlar reyslar, chegara rejalari va umumiy yo‘l uzunligiga qarab Ashxobod, Nisa, Mari yoki Marv tomonga qaytadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ashgabat"
+          "ru": "Ашхабад"
+          "uz": "Ashgabat"
+        "description":
+          "en": "Ashgabat opens Turkmenistan through white-marble avenues, monument parks, museum rooms, carpet craft, and a deliberate road choice toward Nisa."
+          "ru": "Ашхабад открывает Туркменистан беломраморными проспектами, монументальными парками, музейными залами, ковровым ремеслом и осознанным выбором дороги к Нисе."
+          "uz": "Ashgabat Turkmaniston yoʻlini oq marmar xiyobonlar, monument parklar, muzey zallari, gilam hunari va Nisa tomon ongli yoʻl tanlovi bilan ochadi."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Nisa"
+          "ru": "Ниса"
+          "uz": "Nisa"
+        "description":
+          "en": "Near Ashgabat, Nisa turns the first Turkmenistan route toward Old and New Nisa, low earthen walls, open foothill light, and Parthian history."
+          "ru": "Рядом с Ашхабадом Ниса переводит первую поездку по Туркменистану к Старой и Новой Нисе: низким земляным стенам, открытому свету предгорий и парфянской истории."
+          "uz": "Ashgabat yaqinida Nisa ilk Turkmaniston yoʻlini Eski va Yangi Nisaga, past tuproq devorlarga, ochiq togʻoldi nuriga va Parfiya tarixiga buradi."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/nisa"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Mary"
+          "ru": "Мары"
+          "uz": "Mari"
+        "description":
+          "en": "Mary is the city-side start for Ancient Merv, with arrival services, museum rooms, an overnight pause, and the road into the Murghab oasis."
+          "ru": "Мары — городское начало маршрута к древнему Мерву: прибытие, музейное введение, ночёвка и дорога в оазис Мургаба."
+          "uz": "Mari Qadimiy Marv yo‘nalishining shahar boshlanishi: kelish, muzey zallari, tunash va Murg‘ob vohasiga yo‘l."
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv/mary"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ancient Merv"
+          "ru": "Древний Мерв"
+          "uz": "Qadimiy Marv"
+        "description":
+          "en": "Ancient Merv is the UNESCO oasis outside Mary where Sultan Sanjar, Kyz Kala, earthen walls, and the space between ruins turn archaeology into a full route day."
+          "ru": "Древний Мерв — объект ЮНЕСКО у Мары, где мавзолей Султана Санджара, Кыз-Кала, глинобитные стены и расстояния между руинами превращают археологию в отдельный маршрутный день."
+          "uz": "Qadimiy Marv Mari yaqinidagi UNESCO vohasi bo‘lib, Sulton Sanjar, Qiz qal’a, xom g‘isht devorlar va xarobalar orasidagi masofa arxeologiyani alohida yo‘l kuniga aylantiradi."
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv/merv"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Kunya-Urgench in the day plan"
+      "ru": "Как поставить Куня-Ургенч в план дня"
+      "uz": "Ko‘hna Urganchni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Kunya-Urgench?"
+          "ru": "Сколько времени группам стоит проводить в Куня-Ургенч?"
+          "uz": "Ko‘hna Urganchda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Old Khorezm across open ground, brick, and sky”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Старый Хорезм среди открытого пространства, кирпича и неба»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Eski Xorazm ochiq makon, g‘isht va osmon orasida»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Kunya-Urgench be a walkable core or a base for day trips?"
+          "ru": "Куня-Ургенч — это пешеходное ядро или база для выездов?"
+          "uz": "Ko‘hna Urganch piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Kunya-Urgench's centre?"
+          "ru": "Где лучше ночевать относительно центра Куня-Ургенч?"
+          "uz": "Ko‘hna Urganch markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Kunya-Urgench stop into your Turkmenistan programme"
+      "ru": "Встройте остановку «Куня-Ургенч» в программу (Туркменистан)"
+      "uz": "Ko‘hna Urganch bekatini Turkmaniston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Kunya-Urgench | TourLink"
+    "ru": "Куня-Ургенч | TourLink"
+    "uz": "Ko‘hna Urganch | TourLink"
+  "metaDescription":
+    "en": "Kunya-Urgench makes old Khorezm feel spacious. The UNESCO landscape, Kutlug Timur Minaret, and Turabek Khanum Mausoleum sit apart, so the visit depends on open ground, heat, brick, sky, and the quiet between monuments. A guide helps turn that distance into the story of a former capital rather than a scatter of ruins."
+    "ru": "В Куня-Ургенче старый Хорезм ощущается через пространство. Объект ЮНЕСКО, минарет Кутлуг-Тимура и мавзолей Тюрабек-ханым стоят не вплотную, поэтому в визите важны открытый воздух, жара, кирпич, небо и тишина между памятниками. Гид помогает увидеть в этих расстояниях бывшую столицу, а не набор разрозненных руин."
+    "uz": "Ko‘hna Urganchda eski Xorazm kenglik orqali seziladi. UNESCO hududi, Qutlug‘ Temur minorasi va To‘rabek Xonim maqbarasi bir joyga zich to‘planmagan; shu bois tashrifda ochiq makon, issiq, g‘isht, osmon va yodgorliklar orasidagi sukunat muhim. Gid bu masofalarni alohida xarobalar emas, sobiq poytaxt hikoyasi sifatida tushuntiradi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "turkmenistan"
+"region": "dashoguz-and-kunya-urgench"
+"latitude": 42.3261336
+"longitude": 59.1530707

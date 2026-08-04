@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "chashma-parkent-spring-identity-context"
+  "ru": "chashma-parkent-spring-identity-context"
+  "uz": "chashma-parkent-spring-identity-context"
+"title":
+  "en": "Chashma Spring Name"
+  "ru": "Родниковое имя Чашмы"
+  "uz": "Chashmaning buloq nomi"
+"subtitle":
+  "en": "The water cue that gives the village its first meaning"
+  "ru": "Водный смысл, с которого начинается сельская остановка"
+  "uz": "Qishloq bekatini boshlaydigan suv maʼnosi"
+"excerpt":
+  "en": "The first thing to understand about Chashma is the name. It points toward water and gives the village stop a gentle reason to slow down, even before the route adds tea or nearby Kumushkon."
+  "ru": "Первое, что нужно понять о Чашме, — её название. Оно ведёт к воде и даёт сельской остановке мягкую причину замедлиться ещё до того, как маршрут добавит чай или соседний Кумушкан."
+  "uz": "Chashma haqida avval nomini tushunish kerak. U suvga ishora qiladi va yo‘l choy yoki yaqin Kumushkonni qo‘shishidan oldin ham qishloq bekatini sekinlashtiradi."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Chashma Spring Name"
+      "ru": "Родниковое имя Чашмы"
+      "uz": "Chashmaning buloq nomi"
+    "title":
+      "en": "Chashma Spring Name"
+      "ru": "Родниковое имя Чашмы"
+      "uz": "Chashmaning buloq nomi"
+    "description":
+      "en": "The water cue that gives the village its first meaning"
+      "ru": "Водный смысл, с которого начинается сельская остановка"
+      "uz": "Qishloq bekatini boshlaydigan suv maʼnosi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Chashma Spring Name"
+      "ru": "Родниковое имя Чашмы"
+      "uz": "Chashmaning buloq nomi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "The first thing to understand about Chashma is the name."
+              "ru": "Первое, что нужно понять о Чашме, — её название."
+              "uz": "Chashma haqida avval nomini tushunish kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "The water cue gives Chashma a modest travel reason without making it feel larger than it is."
+              "ru": "Родниковый смысл даёт Чашме скромную причину для остановки без преувеличения её масштаба."
+              "uz": "Buloq maʼnosi Chashmaga kichik sayohat sababini beradi, lekin uni ortiqcha kattalashtirmaydi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — The water cue that gives the village its first meaning."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Водный смысл, с которого начинается сельская остановка."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Qishloq bekatini boshlaydigan suv maʼnosi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Chashma Spring Name as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Родниковое имя Чашмы как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Chashmaning buloq nomi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Chashma Spring Name sits on the route"
+      "ru": "Где Родниковое имя Чашмы стоит на маршруте"
+      "uz": "Chashmaning buloq nomi marshrutda qayerda"
+    "description":
+      "en": "One clear point for Chashma Spring Name — The water cue that gives the village its first meaning."
+      "ru": "Одна понятная точка для «Родниковое имя Чашмы» — Водный смысл, с которого начинается сельская остановка."
+      "uz": "Chashmaning buloq nomi uchun bitta aniq nuqta — Qishloq bekatini boshlaydigan suv maʼnosi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Chashma Spring Name"
+        "ru": "Родниковое имя Чашмы"
+        "uz": "Chashmaning buloq nomi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.77831
+      "longitude": 64.4026
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "chashma-parkent-spring-identity-context"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "A name that points to water"
+      "ru": "Название, которое ведёт к воде"
+      "uz": "Suvga ishora qiladigan nom"
+    "description":
+      "en": "The water cue gives Chashma a modest travel reason without making it feel larger than it is.
+
+
+        «Let the water cue set the scale before the route adds anything larger.»"
+      "ru": "Родниковый смысл даёт Чашме скромную причину для остановки без преувеличения её масштаба.
+
+
+        «Пусть родниковый смысл задаёт масштаб, прежде чем маршрут добавит что-то большее.»"
+      "uz": "Buloq maʼnosi Chashmaga kichik sayohat sababini beradi, lekin uni ortiqcha kattalashtirmaydi.
+
+
+        «Yo‘l kattaroq narsani qo‘shishidan oldin buloq maʼnosi bekat o‘lchamini bersin.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Water cue, village approach, meeting point"
+      "ru": "Родниковый смысл, подход к селу и точка встречи"
+      "uz": "Buloq belgisi, qishloqqa yondashuv va uchrashuv joyi"
+    "description":
+      "en": "The visual story stays simple: the name, the village approach, and the place where the visit begins."
+      "ru": "Здесь всё остаётся простым: название, подъезд к селу и место, где начинается визит."
+      "uz": "Ko‘rinadigan hikoya oddiy qoladi: nom, qishloqqa kirish va tashrif boshlanadigan joy."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Keep the water cue modest"
+      "ru": "Держите родниковый смысл скромным"
+      "uz": "Buloq maʼnosini kichik tuting"
+    "description":
+      "en": "Treat the spring-side idea as a small village anchor and set the actual approach before travel."
+      "ru": "Относитесь к родниковой идее как к небольшому сельскому ориентиру и уточняйте реальный подход до поездки."
+      "uz": "Buloq g‘oyasini kichik qishloq mo‘ljali sifatida oling va haqiqiy yondashuvni safardan oldin belgilang."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby within Chashma"
+      "ru": "Рядом в Чашме"
+      "uz": "Chashmada yaqin"
+    "title":
+      "en": "What to pair with the water cue"
+      "ru": "Что добавить к родниковому смыслу"
+      "uz": "Buloq belgisiga nimani qo‘shish"
+    "description":
+      "en": "Add Kumushkon and the arrival point to keep the village stop clear."
+      "ru": "Кумушкан и точка прибытия помогают удержать сельскую остановку понятной."
+      "uz": "Kumushkon va kelish joyi qishloq bekatini aniq tutishga yordam beradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Chashma and Kumushkon Pairing"
+          "ru": "Чашма и Кумушкан в одном выезде"
+          "uz": "Chashma va Kumushkon juftligi"
+        "description":
+          "en": "Nearby Kumushkon gives Chashma a second Parkent point when both village stops are right for the same outing."
+          "ru": "Соседний Кумушкан даёт Чашме вторую паркентскую точку, когда оба сельских визита подходят для одного выезда."
+          "uz": "Yaqin Kumushkon ikkala qishloq bekati bitta chiqishga mos kelganda Chashmaga ikkinchi Parkent nuqtasini beradi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/chashma-parkent/chashma-parkent-kumushkon-pairing"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Chashma Arrival Point"
+          "ru": "Точка прибытия в Чашме"
+          "uz": "Chashmadagi kelish nuqtasi"
+        "description":
+          "en": "The Chashma stop starts with one practical question: where the group should arrive for this date."
+          "ru": "Остановка в Чашме начинается с одного практичного вопроса: куда группе прибыть на эту дату."
+          "uz": "Chashmadagi bekat bitta amaliy savoldan boshlanadi: guruh shu sanada qayerga keladi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/chashma-parkent/chashma-parkent-local-meeting-point"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Chashma Spring Name"
+      "ru": "Что агентства спрашивают про Родниковое имя Чашмы"
+      "uz": "Agentliklar Chashmaning buloq nomi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Chashma Spring Name get in the day plan?"
+          "ru": "Сколько времени закладывать на Родниковое имя Чашмы в плане дня?"
+          "uz": "Chashmaning buloq nomi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "1–2 hours is a practical range for most groups. Keep the stop readable: one clear arrival, one clear exit. Place tone: “The water cue that gives the village its first meaning”."
+          "ru": "Для большинства групп реалистичный диапазон — 1–2 часа. Держите остановку читаемой: понятный вход и понятный выход. Характер места: «Водный смысл, с которого начинается сельская остановка»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 1–2 soat. Bekatni o‘qiladigan tuting: aniq kirish va aniq chiqish. Joy ohangi: «Qishloq bekatini boshlaydigan suv maʼnosi»."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "When is Chashma Spring Name strongest during the day?"
+          "ru": "В какое время дня Родниковое имя Чашмы раскрывается сильнее?"
+          "uz": "Chashmaning buloq nomi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer when the light is soft and queues are lighter. That usually improves comfort, photos, and how the stop feels in the sequence around chashma-parkent."
+          "ru": "Лучше когда свет мягче и очередей меньше. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с chashma-parkent."
+          "uz": "yorug‘lik yumshoq va navbat kamroq bo‘lganda afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (chashma-parkent atrofida)."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "How should Chashma Spring Name sit next to nearby stops?"
+          "ru": "Как поставить Родниковое имя Чашмы рядом с соседними остановками?"
+          "uz": "Chashmaning buloq nomini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Chashma Spring Name to your Uzbekistan programme"
+      "ru": "Добавьте «Родниковое имя Чашмы» в программу (Узбекистан)"
+      "uz": "Chashmaning buloq nomini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Chashma Spring Name | TourLink"
+    "ru": "Родниковое имя Чашмы | TourLink"
+    "uz": "Chashmaning buloq nomi | TourLink"
+  "metaDescription":
+    "en": "The first thing to understand about Chashma is the name. It points toward water and gives the village stop a gentle reason to slow down, even before the route adds tea or nearby Kumushkon."
+    "ru": "Первое, что нужно понять о Чашме, — её название. Оно ведёт к воде и даёт сельской остановке мягкую причину замедлиться ещё до того, как маршрут добавит чай или соседний Кумушкан."
+    "uz": "Chashma haqida avval nomini tushunish kerak. U suvga ishora qiladi va yo‘l choy yoki yaqin Kumushkonni qo‘shishidan oldin ham qishloq bekatini sekinlashtiradi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "tashkent-region"
+"city": "chashma-parkent"
+"type": "PARK"
+"importance": "RECOMMENDED"
+"latitude": 39.77831
+"longitude": 64.4026

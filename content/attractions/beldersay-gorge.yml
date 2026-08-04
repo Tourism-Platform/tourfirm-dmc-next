@@ -1,44 +1,132 @@
-# Seed: коллекция attractions — Beldersay Gorge
-
-slug:
-  en: beldersay-gorge
-  ru: beldersay-gorge
-  uz: beldersay-gorge
-title:
-  en: Beldersay Gorge
-  ru: Ущелье Белdersay
-  uz: Beldersay yo'lagi
-subtitle:
-  en: Mountain gorge
-  ru: Горное ущелье
-  uz: Tog' yo'lagi
-excerpt:
-  en: Dramatic gorge scenery near Beldersay resort with seasonal streams and ridge walks.
-  ru: Эффектное ущелье у курорта Белdersay с сезонными ручьями и прогулками по гребню.
-  uz: Beldersay kurorti yaqinidagi ta'sirli yo'lak — mavsumiy oqimlar va tog' etagidagi yurishlar.
-country: uzbekistan
-region: tashkent-region
-city: chimgan
-type: NATURAL_SITE
-importance: RECOMMENDED
-latitude: 41.545
-longitude: 70.05
-heroImage: assets/images/city/tashkent.jpg
-blocks:
-  - blockType: hero
-    image: assets/images/city/tashkent.jpg
-    imageAlt:
-      en: Beldersay Gorge
-      ru: Ущелье Белdersay
-      uz: Beldersay yo'lagi
-    title:
-      en: Beldersay Gorge
-      ru: Ущелье Белdersay
-      uz: Beldersay yo'lagi
-    description:
-      en: Dramatic gorge scenery near Beldersay resort with seasonal streams and ridge walks.
-      ru: Эффектное ущелье у курорта Белdersay с сезонными ручьями и прогулками по гребню.
-      uz: Beldersay kurorti yaqinidagi ta'sirli yo'lak — mavsumiy oqimlar va tog' etagidagi yurishlar.
+# Patched attraction stub (quoted seed format)
+"slug":
+  "en": "beldersay-gorge"
+  "ru": "beldersay-gorge"
+  "uz": "beldersay-gorge"
+"title":
+  "en": "Beldersay Gorge"
+  "ru": "Ущелье Белdersay"
+  "uz": "Beldersay yo'lagi"
+"subtitle":
+  "en": "Mountain gorge"
+  "ru": "Горное ущелье"
+  "uz": "Tog' yo'lagi"
+"excerpt":
+  "en": "Dramatic gorge scenery near Beldersay resort with seasonal streams and ridge walks."
+  "ru": "Эффектное ущелье у курорта Белdersay с сезонными ручьями и прогулками по гребню."
+  "uz": "Beldersay kurorti yaqinidagi ta'sirli yo'lak — mavsumiy oqimlar va tog' etagidagi yurishlar."
+"heroImage": "assets/images/city/tashkent.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/city/tashkent.jpg"
+    "imageAlt":
+      "en": "Beldersay Gorge"
+      "ru": "Ущелье Белdersay"
+      "uz": "Beldersay yo'lagi"
+    "title":
+      "en": "Beldersay Gorge"
+      "ru": "Ущелье Белdersay"
+      "uz": "Beldersay yo'lagi"
+    "description":
+      "en": "Mountain gorge"
+      "ru": "Горное ущелье"
+      "uz": "Tog' yo'lagi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Beldersay Gorge"
+      "ru": "Ущелье Белdersay"
+      "uz": "Beldersay yo'lagi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Dramatic gorge scenery near Beldersay resort with seasonal streams and ridge walks."
+              "ru": "Эффектное ущелье у курорта Белdersay с сезонными ручьями и прогулками по гребню."
+              "uz": "Beldersay kurorti yaqinidagi ta'sirli yo'lak — mavsumiy oqimlar va tog' etagidagi yurishlar."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Dramatic gorge scenery near Beldersay resort with seasonal streams and ridge walks."
+              "ru": "Эффектное ущелье у курорта Белdersay с сезонными ручьями и прогулками по гребню."
+              "uz": "Beldersay kurorti yaqinidagi ta'sirli yo'lak — mavsumiy oqimlar va tog' etagidagi yurishlar."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Mountain gorge."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Горное ущелье."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Tog' yo'lagi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Beldersay Gorge as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Ущелье Белdersay как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Beldersay yo'lagi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Beldersay Gorge sits on the route"
+      "ru": "Где Ущелье Белdersay стоит на маршруте"
+      "uz": "Beldersay yo'lagi marshrutda qayerda"
+    "description":
+      "en": "One clear point for Beldersay Gorge — Mountain gorge."
+      "ru": "Одна понятная точка для «Ущелье Белdersay» — Горное ущелье."
+      "uz": "Beldersay yo'lagi uchun bitta aniq nuqta — Tog' yo'lagi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Beldersay Gorge"
+        "ru": "Ущелье Белdersay"
+        "uz": "Beldersay yo'lagi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.545
+      "longitude": 70.05
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "beldersay-gorge"
   - blockType: regular
     eyebrow:
       en: Visit tips
@@ -52,18 +140,101 @@ blocks:
       en: Combine with Beldersay resort visit. Spring and early summer bring strongest water flow; autumn offers clearer ridge views.
       ru: Сочетайте с посещением курорта Белdersay. Весной и ранним летом сильнее поток воды; осенью — чище виды с гребня.
       uz: Beldersay kurorti tashrifi bilan birlashtiring. Bahor va erta yozda suv oqimi kuchliroq; kuzda tog' etagidagi manzaralar aniqroq.
-seo:
-  metaTitle:
-    en: Beldersay Gorge | TourLink
-    ru: Ущелье Белdersay | TourLink
-    uz: Beldersay yo'lagi | TourLink
-  metaDescription:
-    en: Explore Beldersay Gorge near Chimgan — mountain scenery on the Tashkent day trip.
-    ru: Ущелье Белdersay у Чимгана — горные пейзажи однодневки из Ташкента.
-    uz: Chimgan yaqinidagi Beldersay yo'lagi — Toshkentdan kunlik sayohatdagi tog' manzaralari.
-  structuredDataType: TouristAttraction
-status:
-  showInSitemap: true
-  noindex: false
-  hideFromNavigation: false
-  publishedAt: "2026-06-17"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Beldersay Gorge"
+      "ru": "Что агентства спрашивают про Ущелье Белdersay"
+      "uz": "Agentliklar Beldersay yo'lagi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Beldersay Gorge get in the day plan?"
+          "ru": "Сколько времени закладывать на Ущелье Белdersay в плане дня?"
+          "uz": "Beldersay yo'lagi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "1–2 hours is a practical range for most groups. Keep the stop readable: one clear arrival, one clear exit. Place tone: “Mountain gorge”."
+          "ru": "Для большинства групп реалистичный диапазон — 1–2 часа. Держите остановку читаемой: понятный вход и понятный выход. Характер места: «Горное ущелье»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 1–2 soat. Bekatni o‘qiladigan tuting: aniq kirish va aniq chiqish. Joy ohangi: «Tog' yo'lagi»."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "When is Beldersay Gorge strongest during the day?"
+          "ru": "В какое время дня Ущелье Белdersay раскрывается сильнее?"
+          "uz": "Beldersay yo'lagi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer when the light is soft and queues are lighter. That usually improves comfort, photos, and how the stop feels in the sequence around chimgan."
+          "ru": "Лучше когда свет мягче и очередей меньше. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с chimgan."
+          "uz": "yorug‘lik yumshoq va navbat kamroq bo‘lganda afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (chimgan atrofida)."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "How should Beldersay Gorge sit next to nearby stops?"
+          "ru": "Как поставить Ущелье Белdersay рядом с соседними остановками?"
+          "uz": "Beldersay yo'lagini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/city/tashkent.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Beldersay Gorge to your Uzbekistan programme"
+      "ru": "Добавьте «Ущелье Белdersay» в программу (Узбекистан)"
+      "uz": "Beldersay yo'lagini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Beldersay Gorge | TourLink"
+    "ru": "Ущелье Белdersay | TourLink"
+    "uz": "Beldersay yo'lagi | TourLink"
+  "metaDescription":
+    "en": "Explore Beldersay Gorge near Chimgan — mountain scenery on the Tashkent day trip."
+    "ru": "Ущелье Белdersay у Чимгана — горные пейзажи однодневки из Ташкента."
+    "uz": "Chimgan yaqinidagi Beldersay yo'lagi — Toshkentdan kunlik sayohatdagi tog' manzaralari."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-06-17"
+"country": "uzbekistan"
+"region": "tashkent-region"
+"city": "chimgan"
+"type": "NATURAL_SITE"
+"importance": "RECOMMENDED"
+"latitude": 41.545
+"longitude": 70.05

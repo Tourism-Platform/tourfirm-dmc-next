@@ -1,0 +1,544 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "ishkashim"
+  "ru": "ishkashim"
+  "uz": "ishkashim"
+"title":
+  "en": "Ishkashim"
+  "ru": "Ишкашим"
+  "uz": "Ishkashim"
+"subtitle":
+  "en": "Where the Pamir road turns toward Wakhan"
+  "ru": "Где памирская дорога поворачивает к Вахану"
+  "uz": "Pomir yoʻli Vaxon tomon buriladigan joy"
+"excerpt":
+  "en": "Ishkashim sits low beside the Panj, where the road from Khorog begins to feel like Wakhan: slower, closer to the river, and more sensitive to conditions. Look across the valley, ask what has changed on the road, and let permits, weather, and border etiquette decide the next move."
+  "ru": "Ишкашим стоит ниже по долине у Пянджа, где дорога из Хорога начинает ощущаться как Вахан: медленнее, ближе к реке и внимательнее к условиям. Посмотрите на долину, узнайте, что изменилось на дороге, и пусть разрешения, погода и пограничный этикет зададут следующий шаг."
+  "uz": "Ishkashim Panj boʻyidagi pastroq vodiyda joylashgan: Xorugʻdan kelgan yoʻl shu yerda Vaxonga xos boʻlib sekinlashadi, daryoga yaqinlashadi va sharoitga koʻproq bogʻlanadi. Vodiyga qarang, yoʻl haqida yangilik soʻrang va ruxsatnoma, ob-havo hamda chegara odobi keyingi qadamni belgilasin."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "Ishkashim"
+      "ru": "Ишкашим"
+      "uz": "Ishkashim"
+    "title":
+      "en": "Ishkashim"
+      "ru": "Ишкашим"
+      "uz": "Ishkashim"
+    "description":
+      "en": "Where the Pamir road turns toward Wakhan"
+      "ru": "Где памирская дорога поворачивает к Вахану"
+      "uz": "Pomir yoʻli Vaxon tomon buriladigan joy"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Ishkashim"
+      "ru": "Ишкашим"
+      "uz": "Ishkashim"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Ishkashim sits low beside the Panj, where the road from Khorog begins to feel like Wakhan: slower, closer to the river, and more sensitive to conditions."
+              "ru": "Ишкашим стоит ниже по долине у Пянджа, где дорога из Хорога начинает ощущаться как Вахан: медленнее, ближе к реке и внимательнее к условиям."
+              "uz": "Ishkashim Panj boʻyidagi pastroq vodiyda joylashgan: Xorugʻdan kelgan yoʻl shu yerda Vaxonga xos boʻlib sekinlashadi, daryoga yaqinlashadi va sharoitga koʻproq bogʻlanadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Use Ishkashim as a calm decision point: arrive from Khorog, ask locally about the next section, keep photography respectful near the border, and leave only when permits, road conditions, and weather line up."
+              "ru": "Ишкашим полезен как спокойная точка решения: приехать из Хорога, спросить на месте о следующем участке, с уважением относиться к съёмке у границы и выезжать только тогда, когда разрешения, состояние дороги и погода позволяют."
+              "uz": "Ishkashimni sokin qaror nuqtasi deb qabul qiling: Xorugʻdan shoshilmasdan keling, keyingi qismni mahalliy maslahat bilan aniqlang, chegara yaqinida suratga olishda hurmat saqlang va ruxsatnoma, yoʻl hamda ob-havo mos kelganda davom eting."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "At Ishkashim, the Pamir route becomes a choice. Wakhan villages, fortress roads, Garm Chashma, and river viewpoints should be confirmed close to travel, not assumed from the map."
+              "ru": "В Ишкашиме памирский маршрут превращается в выбор. Ваханские деревни, дороги к крепостям, Гарм-Чашма и виды Пянджа лучше подтверждать ближе к поездке, а не по одной карте."
+              "uz": "Ishkashimda Pomir yoʻnalishi tanlovga aylanadi. Vaxon qishloqlari, qalʼa yoʻllari, Garm Chashma va Panj manzaralarini xaritaga qarab emas, safarga yaqin tasdiqlash kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Ishkashim as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Ишкашим как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Ishkashim o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "Check the valley before continuing"
+      "ru": "Проверьте долину перед продолжением"
+      "uz": "Davom etishdan oldin vodiy sharoitini tekshiring"
+    "description":
+      "en": "Use Ishkashim as a calm decision point: arrive from Khorog, ask locally about the next section, keep photography respectful near the border, and leave only when permits, road conditions, and weather line up."
+      "ru": "Ишкашим полезен как спокойная точка решения: приехать из Хорога, спросить на месте о следующем участке, с уважением относиться к съёмке у границы и выезжать только тогда, когда разрешения, состояние дороги и погода позволяют."
+      "uz": "Ishkashimni sokin qaror nuqtasi deb qabul qiling: Xorugʻdan shoshilmasdan keling, keyingi qismni mahalliy maslahat bilan aniqlang, chegara yaqinida suratga olishda hurmat saqlang va ruxsatnoma, yoʻl hamda ob-havo mos kelganda davom eting."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Yoʻnalish xaritasi"
+      "title":
+        "en": "Ishkashim on the Panj and Wakhan road"
+        "ru": "Ишкашим у Пянджа и дороги к Вахану"
+        "uz": "Ishkashim Panj va Vaxon yoʻlida"
+      "description":
+        "en": "The map marks the Tajik-side town on the Panj. It is an orientation point, not a live access guarantee for border-side roads, hot springs, or fortress routes."
+        "ru": "Точка на карте показывает таджикский городок у Пянджа. Это ориентир, а не гарантия текущего доступа к дорогам у границы, горячим источникам или крепостным маршрутам."
+        "uz": "Xarita Panj boʻyidagi tojik tomonidagi shaharchani koʻrsatadi. Bu moʻljal nuqtasi, lekin chegara yonidagi yoʻllar, issiq buloqlar yoki qalʼa yoʻnalishlari ochiq boʻlishiga amaldagi kafolat emas."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 36.726816
+      "longitude": 71.614225
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "garm-chashma-hot-springs"
+    "aside":
+      "eyebrow":
+        "en": "Route sequence"
+        "ru": "Порядок маршрута"
+        "uz": "Yoʻnalish ketma-ketligi"
+      "title":
+        "en": "Khorog, Ishkashim, then the chosen valley road"
+        "ru": "Хорог, Ишкашим, затем выбранная дорога по долине"
+        "uz": "Xorugʻ, Ishkashim, keyin tanlangan vodiy yoʻli"
+      "description":
+        "en": "At Ishkashim, the Pamir route becomes a choice. Wakhan villages, fortress roads, Garm Chashma, and river viewpoints should be confirmed close to travel, not assumed from the map."
+        "ru": "В Ишкашиме памирский маршрут превращается в выбор. Ваханские деревни, дороги к крепостям, Гарм-Чашма и виды Пянджа лучше подтверждать ближе к поездке, а не по одной карте."
+        "uz": "Ishkashimda Pomir yoʻnalishi tanlovga aylanadi. Vaxon qishloqlari, qalʼa yoʻllari, Garm Chashma va Panj manzaralarini xaritaga qarab emas, safarga yaqin tasdiqlash kerak."
+      "items":
+        - "title":
+            "en": "Arrive unhurried from Khorog"
+            "ru": "Приезжайте из Хорога без спешки"
+            "uz": "Xorugʻdan shoshilmasdan keling"
+          "description":
+            "en": "The road follows valleys and river bends before Ishkashim. A slower arrival leaves space for road news, fuel questions, and the next permit check."
+            "ru": "Дорога к Ишкашиму идёт по долинам и речным изгибам. Спокойный приезд оставляет время для дорожных новостей, вопросов о топливе и следующей проверки разрешений."
+            "uz": "Ishkashimgacha yoʻl vodiylar va daryo burilishlari boʻylab boradi. Sokin kelish yoʻl xabari, yoqilgʻi savollari va keyingi ruxsatnoma tekshiruvi uchun vaqt beradi."
+        - "title":
+            "en": "Treat the Panj as a lived border"
+            "ru": "Относитесь к Пянджу как к живой границе"
+            "uz": "Panjni odamlar yashaydigan chegara deb biling"
+          "description":
+            "en": "The river gives the town its strongest view, but people, homes, and border-side life are close. Ask before photographing anything sensitive."
+            "ru": "Река даёт городку самый сильный вид, но рядом люди, дома и жизнь у границы. Спрашивайте перед съёмкой всего чувствительного."
+            "uz": "Daryo shaharchaning eng kuchli manzarasini beradi, lekin yaqin atrofda odamlar, uylar va chegara hayoti bor. Nozik joylarni suratga olishdan oldin soʻrang."
+        - "title":
+            "en": "Choose Wakhan after local advice"
+            "ru": "Выбирайте Вахан после местного совета"
+            "uz": "Vaxonni yangi maslahat bilan tanlang"
+          "description":
+            "en": "Wakhan villages, fortress routes, hot springs, and river views should be added only when access, road comfort, and local conditions make sense."
+            "ru": "Ваханские деревни, крепостные маршруты, горячие источники и речные виды стоит добавлять только тогда, когда доступ, дорожный комфорт и местные условия это позволяют."
+            "uz": "Vaxon qishloqlari, qalʼa yoʻllari, issiq buloqlar va daryo manzaralarini faqat kirish, yoʻl qulayligi va mahalliy sharoit mos kelganda qoʻshing."
+        - "title":
+            "en": "Confirm before you leave"
+            "ru": "Подтвердите всё перед выездом"
+            "uz": "Joʻnashdan oldin tasdiqlang"
+          "description":
+            "en": "Review GBAO and border-zone rules, vehicle, driver, weather, road surface, accommodation, and hot-spring or fortress access before departure."
+            "ru": "Перед выездом ещё раз проверьте правила ГБАО и пограничной зоны, машину, водителя, погоду, состояние дороги, ночёвку и доступ к горячим источникам или крепостным дорогам."
+            "uz": "Joʻnashdan oldin GBAO va chegara hududi qoidalari, mashina, haydovchi, ob-havo, yoʻl holati, tunash joyi, issiq buloq yoki qalʼa yoʻli kirishini yana tekshiring."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to notice"
+      "ru": "Что заметить"
+      "uz": "Nimalarni sezish kerak"
+    "title":
+      "en": "River, road, and the Wakhan turn"
+      "ru": "Река, дорога и поворот к Вахану"
+      "uz": "Daryo, yoʻl va Vaxon burilishi"
+    "description":
+      "en": "Ishkashim does not need a long checklist. Its value sits in the Panj, the small bazaar rhythm, the turn toward Wakhan, and the hot-spring or fortress roads that need fresh access checks before you go."
+      "ru": "Ценность Ишкашима не в количестве остановок. Она сосредоточена в Пяндже, небольшом базарном ритме, повороте к Вахану и дорогах к горячим источникам или крепостям, которые требуют свежей проверки доступа."
+      "uz": "Ishkashimning ahamiyati toʻxtashlar sonida emas. U Panj, kichik bozor surʼati, Vaxon burilishi hamda issiq buloq yoki qalʼa tomon yoʻllarda jamlanadi; bu yoʻllar uchun kirish holatini yangidan tekshirish kerak."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Garm Chashma Hot Springs"
+          "ru": "Горячие источники Гарм Чашма"
+          "uz": "Garm Chashma issiq buloqlari"
+        "description":
+          "en": "Garm Chashma turns the Ishkashim road toward a warmer side valley. Mineral water, pale limestone terraces, mountain air, and a small sanatorium setting give the stop a different mood from a fortress, river view, or high-pass photograph. Come only with fresh local advice: the side"
+          "ru": "Гарм Чашма уводит дорогу Ишкашима в более тёплую боковую долину. Минеральная вода, светлые известняковые террасы, горный воздух и небольшая санаторная среда дают остановке другой тон, чем крепость, речной вид или кадр с перевала. Ехать сюда стоит только со свежим местным советом:"
+          "uz": "Garm Chashma Ishkashim yoʻlini issiqroq yon vodiyga buradi. Mineral suv, och ohaktosh terrasalari, togʻ havosi va kichik sanatoriy muhiti bu toʻxtashni qalʼa, daryo manzarasi yoki dovon suratidan boshqacha qiladi. Bu yerga faqat yangi mahalliy maslahat bilan boring: yon yoʻl, cho"
+        "ctaHref": "/destinations/tajikistan/pamir-and-gbao/ishkashim/garm-chashma-hot-springs"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Ishkashim moments"
+      "ru": "Моменты Ишкашима"
+      "uz": "Ishkashim lahzalari"
+    "title":
+      "en": "Three careful choices before Wakhan"
+      "ru": "Три аккуратных решения перед Ваханом"
+      "uz": "Vaxondan oldingi uch ehtiyotkor tanlov"
+    "description":
+      "en": "In Ishkashim, the useful moments are small: where the road turns, how the river-border feels, and which local advice should guide the next section."
+      "ru": "В Ишкашиме важны небольшие моменты: где дорога поворачивает, как ощущается река-граница и какой местный совет должен вести следующий участок."
+      "uz": "Ishkashimda foydali lahzalar kichik: yoʻl qayerda burilishi, daryo-chegara qanday sezilishi va keyingi qismni qaysi mahalliy maslahat boshqarishi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Begin the Wakhan road with the valley in view"
+          "ru": "Начните дорогу к Вахану с видом на долину"
+          "uz": "Vaxon yoʻlini vodiy koʻrinib turganda boshlang"
+        "description":
+          "en": "The turn from Khorog toward Wakhan slows beside the Panj, where villages, river bends, and access advice shape the next section."
+          "ru": "Поворот от Хорога к Вахану у Пянджа замедляется: деревни, изгибы реки и советы по доступу задают следующий участок."
+          "uz": "Xorugʻdan Vaxon tomonga burilish Panj yonida sekinlashadi; qishloqlar, daryo burilishlari va kirish boʻyicha maslahat keyingi qismni belgilaydi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "See the Panj as a lived border"
+          "ru": "Увидьте в Пяндже живую границу"
+          "uz": "Panjni odamlar yashaydigan chegara sifatida koʻring"
+        "description":
+          "en": "River views are part of the beauty, but people, homes, and border-side life ask for quiet movement and respectful photography."
+          "ru": "Виды реки красивы, но люди, дома и жизнь у границы требуют спокойного движения и уважительной съёмки."
+          "uz": "Daryo manzaralari goʻzal, lekin odamlar, uylar va chegara yonidagi hayot sokin harakat hamda hurmatli suratga olishni talab qiladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Use local advice for the next move"
+          "ru": "Сначала получите актуальный местный совет"
+          "uz": "Keyingi qadam uchun mahalliy maslahat oling"
+        "description":
+          "en": "Before leaving town, confirm road news, permits, weather, vehicle comfort, and hot-spring or fortress access in a fresh conversation."
+          "ru": "Перед выездом из городка заново проверьте дорогу, разрешения, погоду, машину, горячие источники и крепостные маршруты."
+          "uz": "Shaharchadan chiqishdan oldin yoʻl xabari, ruxsatnoma, ob-havo, mashina qulayligi, issiq buloq yoki qalʼa kirishini yangi suhbatda tasdiqlang."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "Keep the Wakhan decision current"
+      "ru": "Обновляйте решение по Вахану"
+      "uz": "Vaxon boʻyicha qarorni yangilab boring"
+    "description":
+      "en": "Ishkashim is where an onward plan needs a fresh read. The river may look calm, but permits, border sensitivity, road surface, weather, and local access can change the next valley section."
+      "ru": "Ишкашим — точка, где дальнейший план нужно сверить заново. Река может выглядеть спокойно, но разрешения, пограничный контекст, состояние дороги, погода и местный доступ могут изменить следующий участок долины."
+      "uz": "Ishkashim — davom rejasini qayta tekshiradigan joy. Daryo sokin koʻrinishi mumkin, lekin ruxsatnoma, chegara sezgirligi, yoʻl holati, ob-havo va mahalliy kirish keyingi vodiy qismini oʻzgartiradi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "The road changes mood here"
+              "ru": "Здесь меняется настроение дороги"
+              "uz": "Bu yerda yoʻl kayfiyati oʻzgaradi"
+            "description":
+              "en": "After Khorog, Ishkashim makes the Pamir route feel narrower and slower. The river stays close, villages move into the foreground, and the next road asks for more patience than the map suggests."
+              "ru": "После Хорога Ишкашим делает памирский маршрут уже и медленнее. Река остаётся рядом, деревни выходят на первый план, а следующая дорога требует больше терпения, чем кажется по карте."
+              "uz": "Xorugʻdan keyin Ishkashim Pomir yoʻnalishini torroq va sekinroq qiladi. Daryo yaqin qoladi, qishloqlar oldinga chiqadi, keyingi yoʻl esa xaritadagidan koʻra koʻproq sabr soʻraydi."
+          - "type": "quote"
+            "quote":
+              "en": "In Ishkashim, the next road is best chosen with the river in sight and the latest local advice in hand."
+              "ru": "В Ишкашиме следующую дорогу лучше выбирать, когда река перед глазами, а актуальный местный совет уже получен."
+              "uz": "Ishkashimda keyingi yoʻlni daryo koʻrinib turganda va eng yangi mahalliy maslahat olinganda tanlagan maʼqul."
+          - "type": "dashTitle"
+            "title":
+              "en": "The river is beautiful and sensitive"
+              "ru": "Пяндж красив и чувствителен"
+              "uz": "Daryo chiroyli va sezgir"
+            "description":
+              "en": "The Panj gives Ishkashim its strongest visual memory, but it is also a border where people live. Move quietly, ask before photographs, and let the town remain itself rather than a scene arranged for visitors."
+              "ru": "Пяндж оставляет самое сильное зрительное впечатление от Ишкашима, но это ещё и граница, рядом с которой живут люди. Двигайтесь спокойно, спрашивайте перед фотографиями и не превращайте городок в сцену для гостей."
+              "uz": "Panj Ishkashimning eng kuchli koʻrinishini beradi, lekin u odamlar yashaydigan chegara hamdir. Sokin harakat qiling, suratga olishdan oldin soʻrang va shaharchani mehmonlar uchun sahnaga aylantirmang."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the onward plan fresh"
+              "ru": "Обновляйте дальнейший план"
+              "uz": "Davom rejasini yangilab boring"
+            "description":
+              "en": "Wakhan, Garm Chashma, fortress roads, and river viewpoints should be chosen after fresh local advice. Conditions, permits, and comfort change the route more than distance alone."
+              "ru": "Вахан, Гарм-Чашма, крепостные дороги и виды Пянджа лучше выбирать после актуального местного совета. Условия, разрешения и комфорт меняют маршрут сильнее, чем одно расстояние."
+              "uz": "Vaxon, Garm Chashma, qalʼa yoʻllari va Panj manzaralarini yangi mahalliy maslahatdan keyin tanlagan yaxshi. Sharoit, ruxsatnoma va qulaylik yoʻnalishni masofadan koʻproq oʻzgartirishi mumkin."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Leave Ishkashim only when the Wakhan direction is still valid: permits, weather, road, driver, and border etiquette checked."
+              "ru": "Выезжайте из Ишкашима только тогда, когда направление к Вахану всё ещё подтверждено: разрешения, погода, дорога, водитель и этикет у границы проверены."
+              "uz": "Ishkashimdan Vaxon tomoni hali ham mosligi tasdiqlanganda chiqing: ruxsatnoma, ob-havo, yoʻl, haydovchi va chegara odobi tekshirilgan boʻlsin."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "Town on the Tajik side of the Panj, inside the Pamir & GBAO tourist region."
+                  "ru": "Городок на таджикской стороне Пянджа, внутри туристического региона Памир и ГБАО."
+                  "uz": "Panjning tojik tomonidagi shaharcha, Pomir va GBAO turistik hududi ichida."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Overnight stop"
+                  "ru": "Ночёвка"
+                  "uz": "Tunash"
+                "description":
+                  "en": "Usually one night when the route turns toward Wakhan; add time only when access, weather, or road conditions call for it."
+                  "ru": "Обычно одна ночь, если маршрут поворачивает к Вахану; больше времени нужно только при доступе, погоде или дорожных условиях."
+                  "uz": "Yoʻnalish Vaxon tomon burilsa, odatda bir kecha; kirish, ob-havo yoki yoʻl sharoiti talab qilsa, vaqt qoʻshiladi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Yoʻnalishdagi roli"
+                "description":
+                  "en": "Wakhan-turn stop between Khorog, Panj River villages, hot-spring roads, fortress routes, and wider Pamir choices."
+                  "ru": "Остановка перед Ваханом между Хорогом, деревнями у Пянджа, дорогами к горячим источникам, крепостными маршрутами и более широким Памиром."
+                  "uz": "Xorugʻ, Panj boʻyidagi qishloqlar, issiq buloq yoʻllari, qalʼa yoʻnalishlari va kengroq Pomir tanlovlari orasidagi Vaxon oldi toʻxtashi."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and comfort"
+                  "ru": "Сезон и комфорт"
+                  "uz": "Mavsum va qulaylik"
+                "description":
+                  "en": "Road surface, valley heat or cold, snow higher up, and border-zone sensitivity matter more than a fixed timetable."
+                  "ru": "Состояние дороги, жара или холод в долине, снег выше по маршруту и пограничный контекст важнее фиксированного расписания."
+                  "uz": "Yoʻl holati, vodiydagi issiq yoki sovuq, yuqoriroqdagi qor va chegara hududi sezgirligi qatʼiy jadvaldan muhimroq."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before departure"
+                  "ru": "Перед выездом"
+                  "uz": "Joʻnashdan oldin"
+                "description":
+                  "en": "Check GBAO and border-zone permits, vehicle, driver, weather, road condition, accommodation, and local access again before leaving."
+                  "ru": "Перед отъездом ещё раз проверьте разрешения ГБАО и пограничной зоны, машину, водителя, погоду, дорогу, ночёвку и местный доступ."
+                  "uz": "GBAO va chegara hududi ruxsatnomalari, mashina, haydovchi, ob-havo, yoʻl, tunash joyi va mahalliy kirishni ketishdan oldin yana tekshiring."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Where to continue"
+      "ru": "Куда продолжить"
+      "uz": "Qayerga davom etish"
+    "title":
+      "en": "Khorog, Murghab, Dushanbe, and the wider Pamir route"
+      "ru": "Хорог, Мургаб, Душанбе и широкий памирский маршрут"
+      "uz": "Xorugʻ, Murgʻob, Dushanbe va kengroq Pomir yoʻnalishi"
+    "description":
+      "en": "Khorog is the nearest larger town anchor. Murghab turns the route toward the eastern plateau, while Dushanbe remains the lower-road start or return point."
+      "ru": "Хорог остаётся ближайшим крупным ориентиром. Мургаб разворачивает маршрут к восточному плато, а Душанбе остаётся нижним началом или возвращением маршрута."
+      "uz": "Xorugʻ eng yaqin yirik yoʻnalish tayanchi. Murgʻob yoʻlni sharqiy plato tomonga buradi, Dushanbe esa pastki yoʻlning boshlanishi yoki qaytish nuqtasi boʻlib qoladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Khorog"
+          "ru": "Хорог"
+          "uz": "Xorugʻ"
+        "description":
+          "en": "Khorog gives the Pamir route a riverside town stop: Botanical Garden paths, Panj and Gunt river air, GBAO checks, and onward choices toward Wakhan, Bartang, or Murghab."
+          "ru": "Хорог даёт памирскому маршруту городскую остановку у рек: дорожки Ботанического сада, воздух Пянджа и Гунта, проверки ГБАО и выбор дороги к Вахану, Бартангу или Мургабу."
+          "uz": "Xorugʻ Pomir yoʻliga daryo bo‘yidagi shahar toʻxtashini beradi: Botanika bogʻi yoʻlaklari, Panj va Gunt havosi, GBAO tekshiruvlari va Vaxon, Bartang yoki Murgʻob sari yoʻl tanlovi."
+        "ctaHref": "/destinations/tajikistan/pamir-and-gbao/khorog"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Murghab"
+          "ru": "Мургаб"
+          "uz": "Murgʻob"
+        "description":
+          "en": "Murghab steadies the eastern Pamir route: thin air, simple town errands, fuel and permit checks, and one clear choice toward Karakul, Ak-Baital, Rangkul, Alichur, or Khorog."
+          "ru": "Мургаб упорядочивает дорогу по восточному Памиру: тонкий воздух, простые посёлковые дела, проверку топлива и разрешений и один ясный выбор к Каракулю, Ак-Байталу, Рангкулю, Аличуру или Хорогу."
+          "uz": "Murgʻob Sharqiy Pomir yoʻlini tartibga soladi: yupqa havo, oddiy shaharcha ishlari, yoqilgʻi va ruxsatnoma tekshiruvi hamda Qorakoʻl, Oq-Baytal, Rangkoʻl, Alichur yoki Xorugʻ sari bitta aniq tanlov."
+        "ctaHref": "/destinations/tajikistan/pamir-and-gbao/murghab"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Dushanbe"
+          "ru": "Душанбе"
+          "uz": "Dushanbe"
+        "description":
+          "en": "Dushanbe is Tajikistan's calm arrival city: Rudaki Avenue shade, national museums, tea-house stops, and first choices toward Hissar, Varzob, or higher valleys."
+          "ru": "Душанбе — спокойное место прибытия в Таджикистан: тень проспекта Рудаки, национальные музеи, чайхана или рынок и первые решения к Гиссару, Варзобу или высоким долинам."
+          "uz": "Dushanbe Tojikistonga sokin kirish shahri: Rudakiy xiyoboni soyasi, milliy muzeylar, choyxona toʻxtashlari va Hisor, Varzob yoki baland vodiylar tomon ilk tanlovlar."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/dushanbe"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Ishkashim in the day plan"
+      "ru": "Как поставить Ишкашим в план дня"
+      "uz": "Ishkashimni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Ishkashim?"
+          "ru": "Сколько времени группам стоит проводить в Ишкашим?"
+          "uz": "Ishkashimda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “Where the Pamir road turns toward Wakhan”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Где памирская дорога поворачивает к Вахану»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Pomir yoʻli Vaxon tomon buriladigan joy»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Ishkashim be a walkable core or a base for day trips?"
+          "ru": "Ишкашим — это пешеходное ядро или база для выездов?"
+          "uz": "Ishkashim piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Ishkashim's centre?"
+          "ru": "Где лучше ночевать относительно центра Ишкашим?"
+          "uz": "Ishkashim markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Ishkashim stop into your Tajikistan programme"
+      "ru": "Встройте остановку «Ишкашим» в программу (Таджикистан)"
+      "uz": "Ishkashim bekatini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Ishkashim | TourLink"
+    "ru": "Ишкашим | TourLink"
+    "uz": "Ishkashim | TourLink"
+  "metaDescription":
+    "en": "Ishkashim sits low beside the Panj, where the road from Khorog begins to feel like Wakhan: slower, closer to the river, and more sensitive to conditions. Look across the valley, ask what has changed on the road, and let permits, weather, and border etiquette decide the next move."
+    "ru": "Ишкашим стоит ниже по долине у Пянджа, где дорога из Хорога начинает ощущаться как Вахан: медленнее, ближе к реке и внимательнее к условиям. Посмотрите на долину, узнайте, что изменилось на дороге, и пусть разрешения, погода и пограничный этикет зададут следующий шаг."
+    "uz": "Ishkashim Panj boʻyidagi pastroq vodiyda joylashgan: Xorugʻdan kelgan yoʻl shu yerda Vaxonga xos boʻlib sekinlashadi, daryoga yaqinlashadi va sharoitga koʻproq bogʻlanadi. Vodiyga qarang, yoʻl haqida yangilik soʻrang va ruxsatnoma, ob-havo hamda chegara odobi keyingi qadamni belgilasin."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "pamir-and-gbao"
+"latitude": 36.726816
+"longitude": 71.6142247

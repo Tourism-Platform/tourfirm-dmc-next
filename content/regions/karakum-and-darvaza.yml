@@ -1,0 +1,339 @@
+# Generated from scrape/turkmenistan (multi-locale)
+"slug":
+  "en": "karakum-and-darvaza"
+  "ru": "karakum-and-darvaza"
+  "uz": "karakum-and-darvaza"
+"title":
+  "en": "Karakum & Darvaza"
+  "ru": "Каракумы и Дарваза"
+  "uz": "Qoraqum va Darvoza"
+"subtitle":
+  "en": "Desert road, crater area, and access checks"
+  "ru": "Пустынная дорога, район кратера и проверка доступа"
+  "uz": "Choʻl yoʻli, krater hududi va kirish tekshiruvi"
+"excerpt":
+  "en": "Karakum & Darvaza is not spare distance between Turkmenistan's monuments. It is the country's desert leg: long road hours, sparse settlements, open sand, and the question of whether the crater area belongs in the journey at all.
+
+
+    Darvaza can still be a powerful night stop, but it cannot be promised on old assumptions. Flame level, site access, overnight arrangements, heat, road conditions, and vehicle support all need a current local check before the desert leg is added."
+  "ru": "Каракумы и Дарваза — не пустой промежуток между памятниками Туркменистана. Это отдельный пустынный участок маршрута: долгие часы дороги, редкие поселения, открытый песок и вопрос, нужен ли район кратера в поездке вообще.
+
+
+    Дарваза может оставаться сильной ночной остановкой, но её нельзя обещать по старым ожиданиям. Уровень пламени, доступ к месту, ночёвка, жара, состояние дороги и машина требуют актуальной местной проверки до включения пустынного участка."
+  "uz": "Qoraqum va Darvoza Turkmaniston yodgorliklari orasidagi boʻsh masofa emas. Bu alohida choʻl kesimi: uzoq yoʻl soatlari, siyrak aholi punktlari, ochiq qum va krater hududi safarga kerakmi-yoʻqmi degan savol.
+
+
+    Darvoza hali ham kuchli tungi toʻxtash boʻlishi mumkin, lekin uni eski tasavvurlar bilan vaʼda qilib boʻlmaydi. Olov darajasi, joyga kirish, tunash tartibi, issiq, yoʻl holati va avtomobil yordami choʻl qismi qoʻshilishidan oldin joriy mahalliy tekshiruvni talab qiladi."
+"heroImage": "assets/images/destinations/turkmenistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "imageAlt":
+      "en": "Karakum & Darvaza"
+      "ru": "Каракумы и Дарваза"
+      "uz": "Qoraqum va Darvoza"
+    "title":
+      "en": "Karakum & Darvaza"
+      "ru": "Каракумы и Дарваза"
+      "uz": "Qoraqum va Darvoza"
+    "description":
+      "en": "Desert road, crater area, and access checks"
+      "ru": "Пустынная дорога, район кратера и проверка доступа"
+      "uz": "Choʻl yoʻli, krater hududi va kirish tekshiruvi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О регионе"
+      "uz": "Hudud haqida"
+    "title":
+      "en": "Karakum & Darvaza"
+      "ru": "Каракумы и Дарваза"
+      "uz": "Qoraqum va Darvoza"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Karakum & Darvaza is not spare distance between Turkmenistan's monuments."
+              "ru": "Каракумы и Дарваза — не пустой промежуток между памятниками Туркменистана."
+              "uz": "Qoraqum va Darvoza Turkmaniston yodgorliklari orasidagi boʻsh masofa emas."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Most routes approach from Ashgabat, cross the Karakum desert road, and then decide whether Yerbent, the Darvaza crater area, and a desert night fit the season and current site conditions."
+              "ru": "Чаще всего маршрут идёт от Ашхабада через каракумскую дорогу, а затем решает, подходят ли Ербент, район кратера Дарваза и ночь в пустыне под сезон и текущие условия."
+              "uz": "Yoʻnalish odatda Ashxoboddan boshlanib, Qoraqum yoʻli orqali oʻtadi, keyin esa Yerbent, Darvoza krateri hududi va choʻldagi tunash mavsum hamda joriy sharoitga mos keladimi, aniqlanadi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The route depends on current site status, reliable vehicle support, heat, wind, overnight arrangements, and enough road time on both sides of the crater area."
+              "ru": "Маршрут зависит от текущего статуса места, надёжной машины, жары, ветра, условий ночёвки и достаточного времени на дорогу до и после района кратера."
+              "uz": "Yoʻnalish joyning hozirgi holati, ishonchli avtomobil, issiq, shamol, tunash tartibi va krater hududigacha hamda undan keyingi yoʻl vaqtiga bogʻliq."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Karakum & Darvaza as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Каракумы и Дарваза как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Qoraqum va Darvoza o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "Yerbent, Darvaza, and the crater road"
+      "ru": "Ербент, Дарваза и дорога к кратеру"
+      "uz": "Yerbent, Darvoza va krater yoʻli"
+    "description":
+      "en": "Most routes approach from Ashgabat, cross the Karakum desert road, and then decide whether Yerbent, the Darvaza crater area, and a desert night fit the season and current site conditions."
+      "ru": "Чаще всего маршрут идёт от Ашхабада через каракумскую дорогу, а затем решает, подходят ли Ербент, район кратера Дарваза и ночь в пустыне под сезон и текущие условия."
+      "uz": "Yoʻnalish odatda Ashxoboddan boshlanib, Qoraqum yoʻli orqali oʻtadi, keyin esa Yerbent, Darvoza krateri hududi va choʻldagi tunash mavsum hamda joriy sharoitga mos keladimi, aniqlanadi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route anchors"
+        "ru": "Опоры маршрута"
+        "uz": "Yoʻnalish tayanchlari"
+      "title":
+        "en": "Karakum road, Yerbent, and Darvaza"
+        "ru": "Каракумская дорога, Ербент и Дарваза"
+        "uz": "Qoraqum yoʻli, Yerbent va Darvoza"
+      "description":
+        "en": "Read the map as a desert corridor, not a city cluster: Yerbent gives the road a human pause, Darvaza gives the crater area, and the wider Karakum explains the distance."
+        "ru": "Карта должна читаться как пустынный коридор, а не группа городов: Ербент даёт дороге человеческую паузу, Дарваза — район кратера, а Каракумы объясняют расстояние."
+        "uz": "Xarita shaharlar guruhi emas, choʻl yoʻli sifatida oʻqilishi kerak: Yerbent yoʻlga insoniy pauza beradi, Darvoza krater hududini koʻrsatadi, Qoraqum esa masofani tushuntiradi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.893902
+      "longitude": 58.966283
+    "zoom": 9
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "darvaza-gas-crater-door-to-hell"
+    "aside":
+      "eyebrow":
+        "en": "What to decide"
+        "ru": "Что решить"
+        "uz": "Nimani hal qilish"
+      "title":
+        "en": "Check the desert before adding the night"
+        "ru": "Проверьте пустыню до ночёвки"
+        "uz": "Tunashdan oldin choʻlni tekshiring"
+      "description":
+        "en": "The route depends on current site status, reliable vehicle support, heat, wind, overnight arrangements, and enough road time on both sides of the crater area."
+        "ru": "Маршрут зависит от текущего статуса места, надёжной машины, жары, ветра, условий ночёвки и достаточного времени на дорогу до и после района кратера."
+        "uz": "Yoʻnalish joyning hozirgi holati, ishonchli avtomobil, issiq, shamol, tunash tartibi va krater hududigacha hamda undan keyingi yoʻl vaqtiga bogʻliq."
+      "items":
+        - "title":
+            "en": "Yerbent before the crater road"
+            "ru": "Ербент перед дорогой к кратеру"
+            "uz": "Krater yoʻlidan oldingi Yerbent"
+          "description":
+            "en": "Yerbent can make the desert road feel lived-in without turning the village into a staged stop. Community contact and photography need local permission."
+            "ru": "Ербент помогает почувствовать пустынную дорогу живой, но не должен превращаться в постановочную остановку. Общение с жителями и фото требуют местного разрешения."
+            "uz": "Yerbent choʻl yoʻlini tirikroq his qildiradi, ammo uni sahnalashtirilgan toʻxtashga aylantirmaslik kerak. Mahalliy aloqa va suratga olish uchun ruxsat zarur."
+        - "title":
+            "en": "Darvaza needs a current check"
+            "ru": "Дарвазу нужно проверять сейчас"
+            "uz": "Darvoza hozirgi holati bilan tekshiriladi"
+          "description":
+            "en": "The crater area is the strongest visual anchor, but the visit depends on access, flame level, road condition, and safe overnight arrangements."
+            "ru": "Район кратера — главный визуальный ориентир, но визит зависит от доступа, уровня пламени, состояния дороги и безопасной ночёвки."
+            "uz": "Krater hududi eng kuchli vizual tayanch, lekin tashrif kirish, olov darajasi, yoʻl holati va xavfsiz tunash tartibiga bogʻliq."
+        - "title":
+            "en": "Karakum gives the route its scale"
+            "ru": "Каракумы задают масштаб"
+            "uz": "Qoraqum marshrut miqyosini beradi"
+          "description":
+            "en": "Sand, wind, fuel stops, and long distances are part of the experience, and they decide how much can be planned comfortably."
+            "ru": "Песок, ветер, заправки и длинные расстояния становятся частью впечатления и одновременно ограничивают план."
+            "uz": "Qum, shamol, yoqilgʻi toʻxtashlari va uzoq masofa taassurotning bir qismi, shu bilan birga rejani ham chegaralaydi."
+        - "title":
+            "en": "Camp only when it fits"
+            "ru": "Лагерь только когда всё сходится"
+            "uz": "Lager faqat sharoit mos kelganda"
+          "description":
+            "en": "A simple desert night can be memorable, but it belongs only when weather, vehicle support, camp standards, and timing are clear."
+            "ru": "Простая ночь в пустыне может запомниться, но она уместна только при понятной погоде, машине, стандартах лагеря и времени."
+            "uz": "Oddiy choʻl kechasi esda qolishi mumkin, lekin u ob-havo, avtomobil yordami, lager standarti va vaqt aniq boʻlganda mos keladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region character"
+      "ru": "Характер региона"
+      "uz": "Hudud xarakteri"
+    "title":
+      "en": "The desert is the point of the route"
+      "ru": "Пустыня и есть смысл маршрута"
+      "uz": "Marshrutning maʼnosi choʻlning oʻzida"
+    "description":
+      "en": "Karakum & Darvaza matters when the traveler understands the road, not only the crater. The value is in distance, silence, night planning, and a clear decision about whether the desert leg belongs.
+
+
+        «The crater matters most when the desert around it is treated with respect.»"
+      "ru": "Каракумы и Дарваза важны тогда, когда путешественник понимает дорогу, а не только кратер. Ценность маршрута — в расстоянии, тишине, ночном плане и честном решении, нужен ли пустынный участок.
+
+
+        «Кратер сильнее всего, когда пустыню вокруг него уважают.»"
+      "uz": "Qoraqum va Darvoza sayohatchi faqat kraterni emas, yoʻlni ham tushunganda muhim boʻladi. Qimmatli tomoni masofa, sukunat, tungi reja va choʻl qismi kerakmi-yoʻqmi degan aniq qarorda.
+
+
+        «Krater atrofidagi choʻl hurmat bilan koʻrilganda eng kuchli seziladi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route areas"
+      "ru": "Маршрутные зоны"
+      "uz": "Yoʻnalish hududlari"
+    "title":
+      "en": "Yerbent and Darvaza on the desert road"
+      "ru": "Ербент и Дарваза на пустынной дороге"
+      "uz": "Yerbent va Darvoza yoʻl mazmuni"
+    "description":
+      "en": "The region can explain the desert route now, while Darvaza and Yerbent remain road anchors until access, safety, and local-permission checks support a fuller visit."
+      "ru": "Регион уже может объяснять логику пустынной дороги, а Дарваза и Ербент остаются дорожными опорами, пока доступ, безопасность и местные разрешения не поддерживают более полный визит."
+      "uz": "Hudud hozircha choʻl yoʻli mantiqini tushuntiradi, Darvoza va Yerbent esa kirish, xavfsizlik va mahalliy ruxsatlar toʻliqroq tashrifni qoʻllab-quvvatlaguncha yoʻl tayanchlari boʻlib qoladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards": []
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrish"
+    "title":
+      "en": "Darvaza crater and the wider desert"
+      "ru": "Кратер Дарваза и большая пустыня"
+      "uz": "Darvoza krateri va keng choʻl"
+    "description":
+      "en": "The crater, road settlements, and Karakum landscape should read as one access-sensitive route system until access, safety, and overnight standards support a fuller Darvaza visit."
+      "ru": "Кратер, дорожные поселения и каракумский ландшафт должны читаться как одна система с чувствительным доступом, пока доступ, безопасность и ночёвка не поддерживают более полный визит в Дарвазу."
+      "uz": "Krater, yoʻl boʻyidagi aholi punktlari va Qoraqum manzarasi kirish, xavfsizlik va tunash sharoiti toʻliqroq Darvoza tashrifini qoʻllab-quvvatlaguncha bitta sezgir yoʻnalish tizimi sifatida oʻqilishi kerak."
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region in detail"
+      "ru": "Регион в деталях"
+      "uz": "Hudud batafsil"
+    "title":
+      "en": "Practical questions about Karakum & Darvaza"
+      "ru": "Практические вопросы о регионе Каракумы и Дарваза"
+      "uz": "Qoraqum va Darvoza hududi bo‘yicha amaliy savollar"
+    "description":
+      "en": "Pace, season, and how this region connects to the next stop."
+      "ru": "Темп, сезон и как регион стыкуется со следующей остановкой."
+      "uz": "Sur’at, mavsum va hududning keyingi bekat bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many days does Karakum & Darvaza need in a programme?"
+          "ru": "Сколько дней нужно региону Каракумы и Дарваза в программе?"
+          "uz": "Qoraqum va Darvoza hududi dasturda necha kun olishi kerak?"
+        "description":
+          "en": "3–5 days usually works if you keep one strong core and treat outer stops as deliberate choices. The region brief is “Desert road, crater area, and access checks”."
+          "ru": "Обычно хватает 3–5 дней, если держать одно сильное ядро, а внешние остановки выбирать осознанно. Кратко о регионе: «Пустынная дорога, район кратера и проверка доступа»."
+          "uz": "Odatda 3–5 kun yetadi — bitta kuchli yadro va tashqi bekatlarni ongli tanlov qiling. Hudud brifi: «Choʻl yoʻli, krater hududi va kirish tekshiruvi»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "What should come before and after Karakum & Darvaza?"
+          "ru": "Что ставить до и после региона Каракумы и Дарваза?"
+          "uz": "Qoraqum va Darvozadan oldin va keyin nima qo‘yish kerak?"
+        "description":
+          "en": "Use neighbouring cities as clean handovers: arrive with a calm first night, leave after one completed chapter, and avoid stacking two long transfers on the same day."
+          "ru": "Соседние города держите как чистые стыки: приезжайте со спокойной первой ночью, уезжайте после завершённой главы и не ставьте два длинных переезда в один день."
+          "uz": "Qo‘shni shaharlarni toza ulanish sifatida tuting: sokin birinchi tun bilan keling, yakunlangan bobdan keyin chiqing va bir kunga ikkita uzun ko‘chishni qo‘ymang."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "What season logic matters most in Karakum & Darvaza?"
+          "ru": "Какая сезонная логика важнее всего в Каракумы и Дарваза?"
+          "uz": "Qoraqum va Darvozada qaysi mavsum mantig‘i eng muhim?"
+        "description":
+          "en": "Heat, altitude, road condition, and opening hours change the product more than the brochure list. Build the region around what stays comfortable for the group that week."
+          "ru": "Жара, высота, состояние дорог и часы работы меняют продукт сильнее списка из брошюры. Собирайте регион вокруг того, что комфортно именно этой группе в эту неделю."
+          "uz": "Issiqlik, balandlik, yo‘l holati va ish soatlari broshyura ro‘yxatidan kuchliroq mahsulotni o‘zgartiradi. Hududni shu hafta guruh uchun qulay narsaga qurib chiqing."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Karakum & Darvaza stop into your Turkmenistan programme"
+      "ru": "Встройте остановку «Каракумы и Дарваза» в программу (Туркменистан)"
+      "uz": "Qoraqum va Darvoza bekatini Turkmaniston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right extensions — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать нужные расширения — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va kerakli kengaytmalarni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Karakum & Darvaza | TourLink"
+    "ru": "Каракумы и Дарваза | TourLink"
+    "uz": "Qoraqum va Darvoza | TourLink"
+  "metaDescription":
+    "en": "Karakum & Darvaza is not spare distance between Turkmenistan's monuments. It is the country's desert leg: long road hours, sparse settlements, open sand, and the question of whether the crater area belongs in the journey at all.
+
+
+      Darvaza can still be a powerful night stop, but it cannot be promised on old assumptions. Flame level, site access, overnight arrangements, heat, road conditions, and vehicle support all need a current local check before the desert leg is added."
+    "ru": "Каракумы и Дарваза — не пустой промежуток между памятниками Туркменистана. Это отдельный пустынный участок маршрута: долгие часы дороги, редкие поселения, открытый песок и вопрос, нужен ли район кратера в поездке вообще.
+
+
+      Дарваза может оставаться сильной ночной остановкой, но её нельзя обещать по старым ожиданиям. Уровень пламени, доступ к месту, ночёвка, жара, состояние дороги и машина требуют актуальной местной проверки до включения пустынного участка."
+    "uz": "Qoraqum va Darvoza Turkmaniston yodgorliklari orasidagi boʻsh masofa emas. Bu alohida choʻl kesimi: uzoq yoʻl soatlari, siyrak aholi punktlari, ochiq qum va krater hududi safarga kerakmi-yoʻqmi degan savol.
+
+
+      Darvoza hali ham kuchli tungi toʻxtash boʻlishi mumkin, lekin uni eski tasavvurlar bilan vaʼda qilib boʻlmaydi. Olov darajasi, joyga kirish, tunash tartibi, issiq, yoʻl holati va avtomobil yordami choʻl qismi qoʻshilishidan oldin joriy mahalliy tekshiruvni talab qiladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "turkmenistan"
+"mapCenter":
+  "latitude": 40.2525715
+  "longitude": 58.439608

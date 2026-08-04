@@ -1,0 +1,570 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "rabat-i-malik"
+  "ru": "rabat-i-malik"
+  "uz": "rabat-i-malik"
+"title":
+  "en": "Rabat-i Malik"
+  "ru": "Рабат-и Малик"
+  "uz": "Rabat-i Malik"
+"subtitle":
+  "en": "A Karakhanid portal and water dome near Navoi"
+  "ru": "Караханидский портал и водный купол у Навои"
+  "uz": "Navoiy yaqinidagi qoraxoniylar peshtoqi va suv gumbazi"
+"excerpt":
+  "en": "Near Navoi, Rabat-i Malik is a place to read the road rather than a city to walk through. The surviving caravanserai portal gives the plain a threshold; the nearby sardoba explains the water, shade, and rest that made movement possible."
+  "ru": "Рядом с Навои Рабат-и Малик лучше воспринимать не как город, а как место, где дорога становится понятной. Сохранившийся портал даёт равнине порог; сардоба рядом объясняет воду, тень и отдых, без которых движение было невозможно."
+  "uz": "Navoiy yaqinida Rabat-i Malik shahar bo‘ylab sayr emas, yo‘lni tushunarli qiladigan meros bekati. Saqlangan karvonsaroy peshtoqi tekislikka kirish nuqtasini beradi; yonidagi sardoba esa suv, soya va dam harakat uchun nega zarur bo‘lganini ko‘rsatadi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/rabat-i-malik.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/rabat-i-malik.webp"
+    "imageAlt":
+      "en": "Rabat-i Malik"
+      "ru": "Рабат-и Малик"
+      "uz": "Rabat-i Malik"
+    "title":
+      "en": "Rabat-i Malik"
+      "ru": "Рабат-и Малик"
+      "uz": "Rabat-i Malik"
+    "description":
+      "en": "A Karakhanid portal and water dome near Navoi"
+      "ru": "Караханидский портал и водный купол у Навои"
+      "uz": "Navoiy yaqinidagi qoraxoniylar peshtoqi va suv gumbazi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Rabat-i Malik"
+      "ru": "Рабат-и Малик"
+      "uz": "Rabat-i Malik"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Near Navoi, Rabat-i Malik is a place to read the road rather than a city to walk through."
+              "ru": "Рядом с Навои Рабат-и Малик лучше воспринимать не как город, а как место, где дорога становится понятной."
+              "uz": "Navoiy yaqinida Rabat-i Malik shahar bo‘ylab sayr emas, yo‘lni tushunarli qiladigan meros bekati."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "The visit is short, but the order matters: begin at the surviving portal, then carry that image to the sardoba, where the practical story of water, shade, animals, and rest becomes clear."
+              "ru": "Осмотр короткий, но порядок важен: сначала сохранившийся портал, затем сардоба рядом, где становится яснее практическая история воды, тени, животных и отдыха."
+              "uz": "Tashrif qisqa, lekin tartib muhim: avval saqlangan peshtoq, keyin yonidagi sardoba. Shunda suv, soya, hayvonlar va dam haqidagi amaliy hikoya ravshanlashadi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Rabat-i Malik works best on a transfer planned as a deliberate heritage stop between Bukhara, Samarkand, Navoi, Sarmyshsay, Nurata, or Aydarkul."
+              "ru": "Рабат-и Малик лучше всего работает в переезде, который заранее запланирован как внимательная остановка наследия между Бухарой, Самаркандом, Навои, Сармышсаем, Нуратой или Айдаркулем."
+              "uz": "Rabat-i Malik Buxoro, Samarqand, Navoiy, Sarmishsoy, Nurota yoki Aydarko‘l orasidagi yo‘lda oldindan meros bekati sifatida rejalanganda yaxshi ishlaydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Rabat-i Malik as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Рабат-и Малик как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Rabat-i Malik o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "Portal first, water beside it"
+      "ru": "Сначала портал, рядом вода"
+      "uz": "Avval peshtoq, yonida suv"
+    "description":
+      "en": "The visit is short, but the order matters: begin at the surviving portal, then carry that image to the sardoba, where the practical story of water, shade, animals, and rest becomes clear."
+      "ru": "Осмотр короткий, но порядок важен: сначала сохранившийся портал, затем сардоба рядом, где становится яснее практическая история воды, тени, животных и отдыха."
+      "uz": "Tashrif qisqa, lekin tartib muhim: avval saqlangan peshtoq, keyin yonidagi sardoba. Shunda suv, soya, hayvonlar va dam haqidagi amaliy hikoya ravshanlashadi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Map context"
+        "ru": "Контекст карты"
+        "uz": "Xarita konteksti"
+      "title":
+        "en": "Rabat-i Malik with Sarmyshsay and Nurata"
+        "ru": "Рабат-и Малик с Сармышсаем и Нуратой"
+        "uz": "Sarmishsoy va Nurota bilan Rabat-i Malik"
+      "description":
+        "en": "The two Rabat-i Malik points mark the portal and sardoba. Sarmyshsay and Nurata show how the same middle route can continue toward rock art, spring water, and the Kyzylkum edge."
+        "ru": "Две точки Рабат-и Малика отмечают портал и сардобу. Сармышсай и Нурата показывают, как тот же средний маршрут может продолжиться к петроглифам, воде источника и краю Кызылкума."
+        "uz": "Rabat-i Malikning ikki nuqtasi peshtoq va sardobani belgilaydi. Sarmishsoy va Nurota shu o‘rta yo‘l qoyatosh sanʼati, buloq suvi va Qizilqum chetiga qanday davom etishini ko‘rsatadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.27873
+      "longitude": 65.401518
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "sardoba-rabat-i-malik"
+    "aside":
+      "eyebrow":
+        "en": "Route fit"
+        "ru": "Место в маршруте"
+        "uz": "Yo‘nalishdagi o‘rni"
+      "title":
+        "en": "Between larger cities and the Nurata road"
+        "ru": "Между большими городами и дорогой к Нурате"
+        "uz": "Katta shaharlar va Nurota yo‘li orasida"
+      "description":
+        "en": "Rabat-i Malik works best on a transfer planned as a deliberate heritage stop between Bukhara, Samarkand, Navoi, Sarmyshsay, Nurata, or Aydarkul."
+        "ru": "Рабат-и Малик лучше всего работает в переезде, который заранее запланирован как внимательная остановка наследия между Бухарой, Самаркандом, Навои, Сармышсаем, Нуратой или Айдаркулем."
+        "uz": "Rabat-i Malik Buxoro, Samarqand, Navoiy, Sarmishsoy, Nurota yoki Aydarko‘l orasidagi yo‘lda oldindan meros bekati sifatida rejalanganda yaxshi ishlaydi."
+      "items":
+        - "title":
+            "en": "Start with the surviving entrance"
+            "ru": "Начать с сохранившегося входа"
+            "uz": "Saqlangan kirishdan boshlang"
+          "description":
+            "en": "The portal gives the stop its first image: patterned brick, height, and the sense of a threshold on the open plain."
+            "ru": "Портал даёт остановке первый образ: кирпичный узор, высоту и ощущение порога на открытой равнине."
+            "uz": "Peshtoq bekatga birinchi obraz beradi: g‘isht naqshi, balandlik va ochiq tekislikdagi kirish nuqtasi hissi."
+          "badge":
+            "en": "Portal"
+            "ru": "Портал"
+            "uz": "Peshtoq"
+        - "title":
+            "en": "Read the sardoba beside it"
+            "ru": "Прочитать сардобу рядом"
+            "uz": "Yonidagi sardobani o‘qing"
+          "description":
+            "en": "The nearby cistern moves the story from facade to survival: stored water, shade, animals slowing down, and people preparing for the next stage."
+            "ru": "Близкая цистерна переводит рассказ от фасада к выживанию: сохранённая вода, тень, замедляющиеся животные и люди перед следующим отрезком пути."
+            "uz": "Yaqin sardoba hikoyani fasaddan tiriklikka o‘tkazadi: saqlangan suv, soya, sekinlagan hayvonlar va keyingi yo‘l oldidagi odamlar."
+          "badge":
+            "en": "Water"
+            "ru": "Вода"
+            "uz": "Suv"
+        - "title":
+            "en": "Keep the corridor status precise"
+            "ru": "Держать статус коридора точным"
+            "uz": "Koridor maqomini aniq tuting"
+          "description":
+            "en": "Rabati Malik Caravanserai and Rabati Malik Sardoba are component sites within the Silk Roads: Zarafshan-Karakum Corridor inscription."
+            "ru": "Караван-сарай Рабати Малик и сардоба Рабати Малик входят в число компонентов объекта Silk Roads: Zarafshan-Karakum Corridor."
+            "uz": "Rabati Malik karvonsaroyi va Rabati Malik sardobasi Silk Roads: Zarafshan-Karakum Corridor obyektining komponentlari sifatida xaritada ko‘rsatilgan."
+          "badge":
+            "en": "Corridor"
+            "ru": "Коридор"
+            "uz": "Koridor"
+        - "title":
+            "en": "Let the light shape the stop"
+            "ru": "Дать свету сформировать остановку"
+            "uz": "Nurni bekatga ishlating"
+          "description":
+            "en": "Softer hours bring out the brick and dome; hot months need water, shade awareness, and a calm pace."
+            "ru": "Мягкие часы лучше раскрывают кирпич и купол; в жаркие месяцы нужны вода, внимание к тени и спокойный темп."
+            "uz": "Yumshoq vaqtlar g‘isht va gumbazni yaxshiroq ochadi; issiq oylarda suv, soya va sokin surʼat kerak bo‘ladi."
+          "badge":
+            "en": "Heat"
+            "ru": "Жара"
+            "uz": "Issiq"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "The portal and sardoba belong together"
+      "ru": "Портал и сардоба читаются вместе"
+      "uz": "Peshtoq va sardoba birga o‘qiladi"
+    "description":
+      "en": "The caravanserai portal gives Rabat-i Malik scale and arrival; the sardoba beside it explains how water made that stop possible."
+      "ru": "Портал караван-сарая даёт Рабат-и Малику масштаб и прибытие; сардоба рядом объясняет, как вода делала такую остановку возможной."
+      "uz": "Karvonsaroy peshtoqi Rabat-i Malikka miqyos va kelish hissini beradi; yonidagi sardoba esa suv bunday bekatni qanday mumkin qilganini tushuntiradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/rabat-i-malik/attractions/rabat-i-malik-caravanserai.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Rabat-i Malik Caravanserai"
+          "ru": "Караван-сарай Рабат-и Малик"
+          "uz": "Rabat-i Malik karvonsaroyi"
+        "description":
+          "en": "On the open road near Navoi, Rabat-i Malik turns a transfer into a real Silk Road stop. The high brick portal shows arrival first; the nearby sardoba explains how water and shade made movement possible across the plain."
+          "ru": "На открытой дороге у Навои Рабат-и Малик превращает переезд в настоящую остановку Шёлкового пути. Высокий кирпичный портал первым показывает прибытие; сардоба рядом объясняет, как вода и тень делали движение по равнине возможным."
+          "uz": "Navoiy yaqinidagi ochiq yo‘lda Rabat-i Malik oddiy o‘tishni haqiqiy Ipak yo‘li bekatiga aylantiradi. Baland g‘isht peshtoq avval kelishni ko‘rsatadi; yonidagi sardoba esa suv va soya tekislikdagi harakat uchun nega zarur bo‘lganini tushuntiradi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/rabat-i-malik/rabat-i-malik-caravanserai"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/rabat-i-malik/attractions/sardoba-rabat-i-malik.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Rabati Malik Sardoba"
+          "ru": "Сардоба Рабати Малик"
+          "uz": "Rabati Malik sardobasi"
+        "description":
+          "en": "Rabati Malik Sardoba gives the old Navoi road its practical half. The caravanserai portal speaks of arrival and scale; the brick cistern beside it speaks of water, shade, animals, and the care that made the next stage possible."
+          "ru": "Сардоба Рабати Малик показывает практическую половину старой дороги у Навои. Портал караван-сарая говорит о прибытии и масштабе; кирпичный резервуар рядом с ним — о воде, тени, животных и заботе, без которой следующий путь был бы невозможен."
+          "uz": "Rabati Malik sardobasi eski Navoiy yo‘lining amaliy yarmini ko‘rsatadi. Karvonsaroy peshtoqi kelish va salobat haqida gapirsa, yonidagi g‘ishtli sardoba suv, soya, hayvonlar va keyingi yo‘lni mumkin qilgan g‘amxo‘rlik haqida gapiradi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/rabat-i-malik/sardoba-rabat-i-malik"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How it feels"
+      "ru": "Как это ощущается"
+      "uz": "Qanday seziladi"
+    "title":
+      "en": "Three moments in one short stop"
+      "ru": "Три момента в короткой остановке"
+      "uz": "Qisqa bekatda uch lahza"
+    "description":
+      "en": "The strongest visit keeps three threads together: the threshold of the portal, the water logic of the sardoba, and the guide context that links both to the wider Silk Road."
+      "ru": "Сильный осмотр держит вместе три нити: порог портала, водную логику сардобы и объяснение гида, связывающее оба места с большим Шёлковым путём."
+      "uz": "Kuchli tashrif uch ipni birga tutadi: peshtoqdagi kirish hissi, sardobaning suv mantig‘i va ikkalasini keng Ipak yo‘liga bog‘laydigan gid izohi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Portal and water"
+          "ru": "Портал и вода"
+          "uz": "Peshtoq va suv"
+        "description":
+          "en": "Begin with the road-facing portal, then move to the sardoba beside it: brick, shadow, stored water, and guide context make the short stop feel human."
+          "ru": "Сначала дорожный портал, затем сардоба рядом: кирпич, тень, сохранённая вода и объяснение гида превращают короткую остановку в человеческую историю."
+          "uz": "Avval yo‘lga qaragan peshtoq, keyin yonidagi sardoba: g‘isht, soya, saqlangan suv va gid izohi qisqa bekatni insoniy qiladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Brick in open light"
+          "ru": "Кирпич в открытом свете"
+          "uz": "Ochiq nurdagi g‘isht"
+        "description":
+          "en": "Softer light brings out the patterned brick and the flat plain around it, so the caravanserai reads as a threshold rather than a ruin beside the road."
+          "ru": "Мягкий свет проявляет кирпичный узор и равнину вокруг, поэтому караван-сарай воспринимается как порог дороги, а не просто руина у трассы."
+          "uz": "Yumshoq nur g‘isht naqshi va atrofdagi tekislikni ochadi, shunda karvonsaroy yo‘l chetidagi xaroba emas, kirish nuqtasi bo‘lib ko‘rinadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Before the road widens"
+          "ru": "Перед продолжением дороги"
+          "uz": "Yo‘l kengayishidan oldin"
+        "description":
+          "en": "After the portal and sardoba, the route can continue toward Sarmyshsay, Nurata, or Aydarkul with a clearer sense of how water shaped this middle road."
+          "ru": "После портала и сардобы маршрут может идти к Сармышсаю, Нурате или Айдаркулю уже с понятным ощущением, как вода формировала эту среднюю часть пути."
+          "uz": "Peshtoq va sardobadan keyin yo‘l Sarmishsoy, Nurota yoki Aydarko‘l tomonga davom etadi; suv bu o‘rta yo‘lni qanday shakllantirgani aniqroq seziladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "How to give Rabat-i Malik enough attention"
+      "ru": "Как дать Рабат-и Малику достаточно внимания"
+      "uz": "Rabat-i Malikka yetarli eʼtibor berish"
+    "description":
+      "en": "This is not a long city stop. Its value is concentration: one surviving portal, one water structure, and enough context to understand how a road across the plain once supported people, animals, and trade."
+      "ru": "Это не длинная городская остановка. Её ценность в концентрации: один сохранившийся портал, одно водное сооружение и достаточно контекста, чтобы понять, как дорога через равнину поддерживала людей, животных и торговлю."
+      "uz": "Bu uzun shahar bekati emas. Uning qiymati jamlanishda: bitta saqlangan peshtoq, bitta suv inshooti va tekislikdan o‘tgan yo‘l odamlar, hayvonlar va savdoni qanday qo‘llaganini tushuntiradigan yetarli kontekst."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "At the portal"
+              "ru": "У портала"
+              "uz": "Peshtoq yonida"
+            "description":
+              "en": "Stand with the entrance before turning it into a date. The height, patterned brick, and road-facing position show arrival, protection, and the scale of movement across the plain."
+              "ru": "Постойте у входа, прежде чем превращать его в дату. Высота, кирпичный узор и положение лицом к дороге показывают прибытие, защиту и масштаб движения по равнине."
+              "uz": "Uni avval sana emas, kirish sifatida ko‘ring. Balandlik, g‘isht naqshi va yo‘lga qaragan holat kelish, himoya va tekislikdagi harakat miqyosini ko‘rsatadi."
+          - "type": "quote"
+            "quote":
+              "en": "The portal gives the road a threshold; the sardoba gives it water."
+              "ru": "Портал даёт дороге порог; сардоба даёт ей воду."
+              "uz": "Peshtoq yo‘lga kirish hissini beradi; sardoba unga suv beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "At the sardoba"
+              "ru": "У сардобы"
+              "uz": "Sardoba yonida"
+            "description":
+              "en": "The water dome makes the stop human. It shifts attention from architecture to thirst, shade, stored water, and the care a caravan route needed."
+              "ru": "Водный купол делает остановку человеческой. Он переводит внимание от архитектуры к жажде, тени, сохранённой воде и заботе, которая требовалась караванной дороге."
+              "uz": "Suv gumbazi bekatni insoniy qiladi. U diqqatni meʼmorlikdan tashnalik, soya, saqlangan suv va karvon yo‘liga kerak bo‘lgan g‘amxo‘rlikka buradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "On the wider corridor"
+              "ru": "В широком коридоре"
+              "uz": "Keng koridor ichida"
+            "description":
+              "en": "Use UNESCO wording carefully: the caravanserai and sardoba are components of the Silk Roads: Zarafshan-Karakum Corridor, while exact approach, parking, and on-site movement still need current local guidance."
+              "ru": "Используйте формулировку UNESCO аккуратно: караван-сарай и сардоба являются компонентами Silk Roads: Zarafshan-Karakum Corridor, а точный подъезд, парковка и движение на месте требуют актуальной местной ориентации."
+              "uz": "UNESCO atamasini ehtiyotkor ishlating: karvonsaroy va sardoba Silk Roads: Zarafshan-Karakum Corridor komponentlari, aniq yondashuv, parking va joydagi harakat esa hozirgi mahalliy yo‘l-yo‘riqqa bog‘liq."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Rabat-i Malik fits when the route needs one clear Silk Road image between larger stops: not a long detour, but a focused place to understand arrival, water, heat, and rest."
+              "ru": "Рабат-и Малик подходит, когда маршруту нужен один ясный образ Шёлкового пути между большими остановками: не длинный крюк, а сосредоточенное место, где понятны прибытие, вода, жара и отдых."
+              "uz": "Katta bekatlar orasida yo‘nalishga bitta ravshan Ipak yo‘li obrazi kerak bo‘lsa, Rabat-i Malik mos keladi: uzun aylanma emas, kelish, suv, issiq va damni tushuntiradigan jamlangan joy."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before you go Route role"
+                  "ru": "Перед поездкой Роль в маршруте"
+                  "uz": "Safardan oldin Yo‘nalishdagi roli"
+                "description":
+                  "en": "Short heritage stop near Navoi between Bukhara, Samarkand, and the Nurata route."
+                  "ru": "Короткая остановка наследия рядом с Навои между Бухарой, Самаркандом и маршрутом Нураты."
+                  "uz": "Buxoro, Samarqand va Nurota yo‘nalishi orasida, Navoiy yaqinidagi qisqa meros bekati."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main magnet"
+                  "ru": "Главный магнит"
+                  "uz": "Asosiy magnit"
+                "description":
+                  "en": "A surviving caravanserai portal paired with the nearby Rabati Malik Sardoba."
+                  "ru": "Сохранившийся портал караван-сарая рядом с сардобой Рабати Малик."
+                  "uz": "Yaqin Rabati Malik sardobasi bilan birga saqlangan karvonsaroy peshtoqi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Corridor status"
+                  "ru": "Статус коридора"
+                  "uz": "Koridor maqomi"
+                "description":
+                  "en": "Both Rabati Malik components are mapped within the Silk Roads: Zarafshan-Karakum Corridor inscription."
+                  "ru": "Оба компонента Рабати Малик отмечены в объекте Silk Roads: Zarafshan-Karakum Corridor."
+                  "uz": "Har ikki Rabati Malik komponenti Silk Roads: Zarafshan-Karakum Corridor obyektida xaritada ko‘rsatilgan."
+              - "icon": "Route"
+                "title":
+                  "en": "Light and heat"
+                  "ru": "Свет и жара"
+                  "uz": "Nur va issiq"
+                "description":
+                  "en": "Softer light helps the brick read clearly; hot months need water and shade awareness."
+                  "ru": "Мягкий свет лучше раскрывает кирпич; в жаркие месяцы нужны вода и внимание к тени."
+                  "uz": "Yumshoq nur g‘ishtni ravshanroq ko‘rsatadi; issiq oylarda suv va soya eʼtibori zarur."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route connections"
+      "ru": "Связи маршрута"
+      "uz": "Tayanch nuqtalar"
+    "title":
+      "en": "Where to continue after Rabat-i Malik"
+      "ru": "Куда продолжить после Рабат-и Малика"
+      "uz": "Rabat-i Malikdan keyin qayerga davom etish"
+    "description":
+      "en": "From the portal and sardoba, the middle route can turn toward Sarmyshsay's rock art, Nurata's Chashma spring, Aydarkul's open shore, or the road back toward Bukhara."
+      "ru": "От портала и сардобы средний маршрут может идти к петроглифам Сармышсая, источнику Чашма в Нурате, открытому берегу Айдаркуля или обратно к Бухаре."
+      "uz": "Peshtoq va sardobadan keyin o‘rta yo‘l Sarmishsoy petrogliflari, Nurotadagi Chashma bulog‘i, Aydarko‘lning ochiq qirg‘og‘i yoki Buxoroga qaytadigan yo‘l tomonga burilishi mumkin."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Sarmyshsay"
+          "ru": "Сармышсай"
+          "uz": "Sarmishsoy"
+        "description":
+          "en": "Sarmyshsay is the rock-art gorge on the Nurata and Kyzylkum route, with petroglyph walls, dark patina, guide context, and careful walking."
+          "ru": "Сармышсай — ущелье с петроглифами на маршруте Нураты и Кызылкума: скальные стены, тёмная патина, объяснение гида и бережная ходьба."
+          "uz": "Sarmishsoy Nurota va Qizilqum yo‘nalishidagi qoyatosh sanʼati darasi: petroglif devorlari, qoramtir patina, gid talqini va ehtiyot yurish."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/sarmyshsay"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/rabat-i-malik-next-nurata.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Nurata"
+          "ru": "Нурата"
+          "uz": "Nurota"
+        "description":
+          "en": "Nurata is the spring town before the Kyzylkum road: Chashma water, mosque shade, Nur Fortress above town, and the onward road to Aydarkul or Sentyab."
+          "ru": "Нурата — город источника перед дорогой в Кызылкум: вода Чашмы, тень мечети, крепость Нур над городом и продолжение к Айдаркулю или Сентобу."
+          "uz": "Nurota Qizilqum yo‘lidan oldingi buloq shahri: Chashma suvi, masjid soyasi, shahar ustidagi Nur qalʼasi va Aydarko‘l yoki Sentobga davom etadigan yo‘l."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/nurata"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/rabat-i-malik-next-aydarkul.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Aydarkul"
+          "ru": "Айдаркуль"
+          "uz": "Aydarko‘l"
+        "description":
+          "en": "Aydarkul is the lake stop on the Kyzylkum road: open shore, reeds in the wind, soft sand, seasonal bird movement, and a route back toward Nurata or Sentyab."
+          "ru": "Айдаркуль — озёрная остановка на дороге по Кызылкуму: открытый берег, камыш на ветру, мягкий песок, сезонное движение птиц и путь обратно к Нурате или Сентобу."
+          "uz": "Aydarko‘l Qizilqum yo‘lidagi ko‘l bekati: ochiq qirg‘oq, shamoldagi qamish, yumshoq qum, mavsumiy qushlar harakati va Nurota yoki Sentobga qaytadigan yo‘l."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/aydarkul"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Rabat-i Malik in the day plan"
+      "ru": "Как поставить Рабат-и Малик в план дня"
+      "uz": "Rabat-i Malikni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Rabat-i Malik?"
+          "ru": "Сколько времени группам стоит проводить в Рабат-и Малик?"
+          "uz": "Rabat-i Malikda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A Karakhanid portal and water dome near Navoi”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Караханидский портал и водный купол у Навои»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Navoiy yaqinidagi qoraxoniylar peshtoqi va suv gumbazi»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Rabat-i Malik be a walkable core or a base for day trips?"
+          "ru": "Рабат-и Малик — это пешеходное ядро или база для выездов?"
+          "uz": "Rabat-i Malik piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Rabat-i Malik's centre?"
+          "ru": "Где лучше ночевать относительно центра Рабат-и Малик?"
+          "uz": "Rabat-i Malik markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/rabat-i-malik.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Rabat-i Malik stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Рабат-и Малик» в программу (Узбекистан)"
+      "uz": "Rabat-i Malik bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Rabat-i Malik | TourLink"
+    "ru": "Рабат-и Малик | TourLink"
+    "uz": "Rabat-i Malik | TourLink"
+  "metaDescription":
+    "en": "Near Navoi, Rabat-i Malik is a place to read the road rather than a city to walk through. The surviving caravanserai portal gives the plain a threshold; the nearby sardoba explains the water, shade, and rest that made movement possible."
+    "ru": "Рядом с Навои Рабат-и Малик лучше воспринимать не как город, а как место, где дорога становится понятной. Сохранившийся портал даёт равнине порог; сардоба рядом объясняет воду, тень и отдых, без которых движение было невозможно."
+    "uz": "Navoiy yaqinida Rabat-i Malik shahar bo‘ylab sayr emas, yo‘lni tushunarli qiladigan meros bekati. Saqlangan karvonsaroy peshtoqi tekislikka kirish nuqtasini beradi; yonidagi sardoba esa suv, soya va dam harakat uchun nega zarur bo‘lganini ko‘rsatadi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "nurata-aydarkul-and-kyzylkum"
+"latitude": 40.12308
+"longitude": 65.14816

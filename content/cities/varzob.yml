@@ -1,0 +1,525 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "varzob"
+  "ru": "varzob"
+  "uz": "varzob"
+"title":
+  "en": "Varzob"
+  "ru": "Варзоб"
+  "uz": "Varzob"
+"subtitle":
+  "en": "River air just beyond Dushanbe"
+  "ru": "Речной воздух сразу за Душанбе"
+  "uz": "Dushanbe yaqinidagi daryo havosi"
+"excerpt":
+  "en": "Varzob sits just north of Dushanbe, where the capital's heat gives way to river bends and gorge air. It is not the Pamirs or the Fann Mountains; it is the close, useful mountain pause before a Tajikistan route goes higher."
+  "ru": "Варзоб лежит к северу от Душанбе, там, где жара столицы сменяется речными поворотами и воздухом ущелья. Это ещё не Памир и не Фанские горы, а близкая горная пауза перед тем, как маршрут по Таджикистану уходит выше."
+  "uz": "Varzob Dushanbedan shimolda, poytaxt issigʻi daryo burilishlari va dara havosiga almashadigan joyda boshlanadi. Bu hali Pomir ham, Fan togʻlari ham emas; Tojikiston yoʻli balandroqqa chiqishidan oldingi yaqin togʻ pauzasi."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "Varzob"
+      "ru": "Варзоб"
+      "uz": "Varzob"
+    "title":
+      "en": "Varzob"
+      "ru": "Варзоб"
+      "uz": "Varzob"
+    "description":
+      "en": "River air just beyond Dushanbe"
+      "ru": "Речной воздух сразу за Душанбе"
+      "uz": "Dushanbe yaqinidagi daryo havosi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Varzob"
+      "ru": "Варзоб"
+      "uz": "Varzob"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Varzob sits just north of Dushanbe, where the capital's heat gives way to river bends and gorge air."
+              "ru": "Варзоб лежит к северу от Душанбе, там, где жара столицы сменяется речными поворотами и воздухом ущелья."
+              "uz": "Varzob Dushanbedan shimolda, poytaxt issigʻi daryo burilishlari va dara havosiga almashadigan joyda boshlanadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Start in Dushanbe, follow the river road into the Varzob valley, and choose one confirmed stop. The visit should stay light unless current weather, traffic, and local access make a longer outing sensible."
+              "ru": "Начните в Душанбе, поезжайте вдоль реки в сторону Варзобской долины и выберите одну подтверждённую остановку. Выезд лучше оставлять лёгким, если только свежая погода, трафик и доступ не позволяют ехать дальше."
+              "uz": "Dushanbedan boshlang, daryo yoʻli boʻylab Varzob vodiysiga boring va bitta tasdiqlangan toʻxtashni tanlang. Ob-havo, tirbandlik va kirish imkoniyati uzoqroq chiqishni oqlamasa, tashrif yengil qolishi kerak."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Varzob is strongest when the route needs nature without a full mountain day: river sound, cooler shade, a short walk or meal, and a clear decision about whether to return."
+              "ru": "Варзоб особенно уместен, когда маршруту нужна природа без полноценного горного дня: звук реки, более прохладная тень, короткая прогулка или обед и понятное решение, возвращаться ли назад."
+              "uz": "Yoʻnalishga toʻliq togʻ kuni emas, tabiat kerak boʻlganda Varzob eng mos tushadi: daryo tovushi, salqinroq soya, qisqa yurish yoki ovqat va qaytish kerakmi-yoʻqligini aniq hal qilish."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Varzob as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Варзоб как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Varzob o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "From the capital to the river road"
+      "ru": "От столицы к речной дороге"
+      "uz": "Poytaxtdan daryo yoʻliga"
+    "description":
+      "en": "Start in Dushanbe, follow the river road into the Varzob valley, and choose one confirmed stop. The visit should stay light unless current weather, traffic, and local access make a longer outing sensible."
+      "ru": "Начните в Душанбе, поезжайте вдоль реки в сторону Варзобской долины и выберите одну подтверждённую остановку. Выезд лучше оставлять лёгким, если только свежая погода, трафик и доступ не позволяют ехать дальше."
+      "uz": "Dushanbedan boshlang, daryo yoʻli boʻylab Varzob vodiysiga boring va bitta tasdiqlangan toʻxtashni tanlang. Ob-havo, tirbandlik va kirish imkoniyati uzoqroq chiqishni oqlamasa, tashrif yengil qolishi kerak."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Yoʻnalish xaritasi"
+      "title":
+        "en": "Dushanbe, Varzob, the gorge, and Hissar"
+        "ru": "Душанбе, Варзоб, ущелье и Гиссар"
+        "uz": "Dushanbe, Varzob, dara va Hisor"
+      "description":
+        "en": "Dushanbe anchors the start. Varzob marks the river-road turn, Varzob Gorge is the confirmed nature stop, and Hissar is the separate heritage choice in the same arrival region."
+        "ru": "Душанбе задаёт начало. Варзоб отмечает поворот к речной дороге, Варзобское ущелье остаётся подтверждённой природной остановкой, а Гиссар — отдельным историческим выбором в том же регионе прибытия."
+        "uz": "Dushanbe boshlanishni belgilaydi. Varzob daryo yoʻliga burilishni koʻrsatadi, Varzob darasi tasdiqlangan tabiat toʻxtashi, Hisor esa shu kelish hududidagi alohida meros tanlovidir."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 38.688114
+      "longitude": 68.743488
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "varzob-gorge"
+    "aside":
+      "eyebrow":
+        "en": "First decision"
+        "ru": "Первое решение"
+        "uz": "Birinchi qaror"
+      "title":
+        "en": "Choose the nearby air change"
+        "ru": "Выберите близкую смену воздуха"
+        "uz": "Yaqin havo almashuvini tanlang"
+      "description":
+        "en": "Varzob is strongest when the route needs nature without a full mountain day: river sound, cooler shade, a short walk or meal, and a clear decision about whether to return."
+        "ru": "Варзоб особенно уместен, когда маршруту нужна природа без полноценного горного дня: звук реки, более прохладная тень, короткая прогулка или обед и понятное решение, возвращаться ли назад."
+        "uz": "Yoʻnalishga toʻliq togʻ kuni emas, tabiat kerak boʻlganda Varzob eng mos tushadi: daryo tovushi, salqinroq soya, qisqa yurish yoki ovqat va qaytish kerakmi-yoʻqligini aniq hal qilish."
+      "items":
+        - "title":
+            "en": "Start from Dushanbe"
+            "ru": "Начните из Душанбе"
+            "uz": "Dushanbedan boshlang"
+          "description":
+            "en": "Dushanbe is the practical start and return point for the short Varzob outing."
+            "ru": "Душанбе — практическое начало и точка возвращения для короткого выезда в Варзоб."
+            "uz": "Dushanbe Varzobga qisqa chiqish uchun amaliy boshlanish va qaytish nuqtasidir."
+        - "title":
+            "en": "Follow the river road"
+            "ru": "Следуйте вдоль реки"
+            "uz": "Daryo yoʻli boʻylab boring"
+          "description":
+            "en": "The river road gives the visit its cooler air and first valley movement."
+            "ru": "Дорога вдоль реки даёт визиту более прохладный воздух и первое движение в долину."
+            "uz": "Daryo yoʻli salqinroq havo va vodiyga birinchi harakatni beradi."
+        - "title":
+            "en": "Pause at one confirmed stop"
+            "ru": "Сделайте одну подтверждённую остановку"
+            "uz": "Bitta tasdiqlangan joyda toʻxtang"
+          "description":
+            "en": "Varzob Gorge is the confirmed nature stop and should stay simple."
+            "ru": "Варзобское ущелье — подтверждённая природная остановка, которую лучше держать простой."
+            "uz": "Varzob darasi tasdiqlangan tabiat toʻxtashidir va sodda qolishi kerak."
+        - "title":
+            "en": "Return, or continue only after current checks."
+            "ru": "Возвращайтесь или продолжайте только после свежей проверки."
+            "uz": "Yangi tekshiruvdan keyin qayting yoki davom eting."
+          "description":
+            "en": "Return, or continue only after current weather, road, and access checks."
+            "ru": "Возврат или продолжение зависят от текущей погоды, дороги и доступа."
+            "uz": "Qaytish yoki davom etish faqat hozirgi ob-havo, yoʻl va kirish tekshiruvlaridan keyin tanlanadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrish"
+    "title":
+      "en": "Start with Varzob Gorge"
+      "ru": "Начните с Варзобского ущелья"
+      "uz": "Varzob darasidan boshlang"
+    "description":
+      "en": "Treat Varzob Gorge as the confirmed nature stop: river air, gorge scenery, and a pause close to the capital. Resort areas, hot-spring or ski plans, and higher-valley hiking should stay separate until current access, season, and road checks are clear."
+      "ru": "Считайте Варзобское ущелье подтверждённой природной остановкой: речной воздух, ущелье и пауза рядом со столицей. Курортные зоны, горячие источники, лыжные планы и верхние долинные прогулки лучше оставлять отдельно, пока не проверены доступ, сезон и дорога."
+      "uz": "Varzob darasini tasdiqlangan tabiat toʻxtashi sifatida oling: daryo havosi, dara manzarasi va poytaxtga yaqin pauza. Kurort hududlari, issiq buloq yoki changʻi rejalari, yuqori vodiy yurishlari esa kirish, mavsum va yoʻl holati aniq tekshirilmaguncha alohida qolishi kerak."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Varzob Gorge"
+          "ru": "Варзобское ущелье"
+          "uz": "Varzob darasi"
+        "description":
+          "en": "The road into Varzob Gorge changes Dushanbe quickly. River bends replace city heat, the slopes tighten around the road, and water becomes the sound of the outing. It is a close nature break, not a fixed mountain program, so the best version stays responsive to weather, traffic, a"
+          "ru": "Дорога в Варзобское ущелье быстро меняет Душанбе. Вместо городской жары появляются речные повороты, склоны ближе подходят к дороге, и главным звуком становится вода. Это близкий выезд на природу, а не фиксированная горная программа, поэтому лучший вариант зависит от погоды, трафи"
+          "uz": "Varzob darasiga kiradigan yoʻl Dushanbeni tez oʻzgartiradi. Shahar issigʻi oʻrnini daryo burilishlari egallaydi, yonbagʻirlar yoʻlga yaqinlashadi, suv tovushi esa chiqishning asosiy ohangiga aylanadi. Bu belgilab qoʻyilgan togʻ dasturi emas, balki yaqin tabiat tanaffusi; eng yaxs"
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/varzob/varzob-gorge"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Varzob moments"
+      "ru": "Моменты Варзоба"
+      "uz": "Varzob lahzalari"
+    "title":
+      "en": "River air, a simple pause, and the road call"
+      "ru": "Речной воздух, простая пауза и решение по дороге"
+      "uz": "Daryo havosi, oddiy pauza va yoʻl qarori"
+    "description":
+      "en": "The best Varzob moments are not complicated. They come from the temperature change after Dushanbe, a calm stop near the river, and local judgement about how far the road should go."
+      "ru": "Лучшие моменты Варзоба простые: температура меняется после Душанбе, появляется спокойная остановка у реки, а местное решение подсказывает, насколько далеко ехать."
+      "uz": "Varzobning eng yaxshi lahzalari murakkab emas. Dushanbedan keyin harorat oʻzgaradi, daryo yonida sokin toʻxtash paydo boʻladi, mahalliy qaror esa yoʻl qanchalik davom etishini belgilaydi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "River air above Dushanbe"
+          "ru": "Речной воздух над Душанбе"
+          "uz": "Dushanbe ustidagi daryo havosi"
+        "description":
+          "en": "The river road brings cooler air and mountain edges quickly, giving travelers a first nature shift before any longer Tajikistan drive."
+          "ru": "Дорога вдоль реки быстро приносит более прохладный воздух и горные края, давая первое природное смещение перед долгими дорогами по Таджикистану."
+          "uz": "Daryo yoʻli tezda salqinroq havo va togʻ chekkalarini olib keladi, uzoq Tojikiston yoʻlidan oldin ilk tabiat almashuvini beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "A shaded valley pause"
+          "ru": "Тенистая пауза в долине"
+          "uz": "Vodiydagi soyali pauza"
+        "description":
+          "en": "A checked tea, meal, or rest stop keeps the outing relaxed and gives the river valley a lived-in rhythm without turning it into a long program."
+          "ru": "Проверенный чай, обед или короткий отдых сохраняют выезд спокойным и дают речной долине живой ритм без превращения в длинную программу."
+          "uz": "Tasdiqlangan choy, ovqat yoki qisqa dam olish chiqishni sokin tutadi va daryo vodiysiga uzun dastursiz jonli ritm beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "The turn-back decision"
+          "ru": "Решение о возвращении"
+          "uz": "Qaytish qarori"
+        "description":
+          "en": "A guide or driver who knows current conditions can keep the plan short, extend it carefully, or turn back before weather and traffic make the outing heavy."
+          "ru": "Гид или водитель, который знает текущие условия, может оставить план коротким, осторожно продлить его или повернуть назад до того, как погода и трафик утяжелят выезд."
+          "uz": "Hozirgi sharoitni biladigan gid yoki haydovchi rejani qisqa qoldirishi, ehtiyotkorlik bilan uzaytirishi yoki ob-havo va tirbandlik chiqishni ogʻirlashtirmasidan oldin qaytarishi mumkin."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "Plan Varzob lightly"
+      "ru": "Планируйте Варзоб легко"
+      "uz": "Varzobni yengil rejalang"
+    "description":
+      "en": "Varzob is close enough to feel easy, but it still depends on mountain weather, traffic, and the quality of the chosen stop. Keep the plan simple and confirm details near departure instead of promising a resort, trail, or upper-valley extension too early."
+      "ru": "Варзоб кажется простым из-за близости к Душанбе, но всё равно зависит от горной погоды, трафика и качества выбранной остановки. Оставляйте план простым и подтверждайте детали ближе к выезду, не обещая курорт, тропу или продолжение выше слишком рано."
+      "uz": "Varzob Dushanbega yaqinligi uchun oson koʻrinadi, lekin baribir togʻ ob-havosi, tirbandlik va tanlangan toʻxtash sifatiga bogʻliq. Rejani sodda tuting va kurort, yoʻlak yoki yuqori vodiy davomiga erta vaʼda bermasdan, tafsilotlarni safarga yaqin tasdiqlang."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Choose it for the nearby air change"
+              "ru": "Для близкой смены воздуха"
+              "uz": "Yaqin havo almashuvi uchun"
+            "description":
+              "en": "Varzob fits when travelers want river air after the capital, not a demanding mountain program."
+              "ru": "Варзоб подходит, когда после столицы нужен речной воздух, а не требовательная горная программа."
+              "uz": "Varzob poytaxtdan keyin daryo havosi kerak boʻlganda mos keladi, talabchan togʻ dasturi sifatida emas."
+          - "type": "quote"
+            "quote":
+              "en": "Varzob changes the air quickly; the route should stay light enough to turn back or continue with same-day conditions."
+              "ru": "Варзоб быстро меняет воздух; маршрут должен оставаться достаточно лёгким, чтобы вернуться или продолжить по условиям самого дня."
+              "uz": "Varzob havoni tez oʻzgartiradi; yoʻnalish oʻsha kungi sharoitga qarab qaytish yoki davom etish uchun yengil qolishi kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the stop simple"
+              "ru": "Простая остановка лучше"
+              "uz": "Toʻxtashni sodda tuting"
+            "description":
+              "en": "One confirmed meal, rest area, or short walk gives the outing enough shape."
+              "ru": "Один подтверждённый обед, место отдыха или короткая прогулка дают выезду достаточную форму."
+              "uz": "Bitta tasdiqlangan ovqat, dam olish joyi yoki qisqa yurish chiqishga yetarli shakl beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Confirm close to departure"
+              "ru": "Проверяйте ближе к выезду"
+              "uz": "Safarga yaqin tekshiring"
+            "description":
+              "en": "Weather, traffic, winter conditions, resort access, and walking options should be checked close to travel."
+              "ru": "Погоду, трафик, зимние условия, доступ к месту отдыха и варианты прогулки лучше уточнять незадолго до поездки."
+              "uz": "Ob-havo, tirbandlik, qishki sharoit, dam olish joyiga kirish va yurish imkoniyatlarini safarga yaqin aniqlagan maʼqul."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Что важно понять"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Varzob is best as the close river-road pause from Dushanbe: one clear stop, cooler air, and current checks before any higher road."
+              "ru": "Варзоб лучше всего раскрывается как близкая речная пауза из Душанбе: одна ясная остановка, более прохладный воздух и свежие проверки перед дорогой выше."
+              "uz": "Varzob Dushanbedan yaqin daryo yoʻli pauzasi sifatida eng yaxshi: bitta aniq toʻxtash, salqinroq havo va balandroq yoʻldan oldingi yangi tekshiruvlar."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "Mountain-area route north of Dushanbe in the Dushanbe & Hissar Valley tourist region."
+                  "ru": "Горный район к северу от Душанбе в туристическом регионе Душанбе и Гиссарская долина."
+                  "uz": "Dushanbedan shimoldagi togʻ hududi, Dushanbe va Hisor vodiysi turistik hududida."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main visit"
+                  "ru": "Главный визит"
+                  "uz": "Asosiy tashrif"
+                "description":
+                  "en": "Varzob Gorge, river air, and a light near-capital nature outing."
+                  "ru": "Варзобское ущелье, речной воздух и лёгкий природный выезд рядом со столицей."
+                  "uz": "Varzob darasi, daryo havosi va poytaxt yaqinidagi yengil tabiat chiqishi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Time"
+                  "ru": "Время"
+                  "uz": "Vaqt"
+                "description":
+                  "en": "Best treated as a half-day or relaxed near-city outing unless current plans support more."
+                  "ru": "Лучше планировать как полдня или спокойный близкий выезд, если свежие условия не поддерживают большее."
+                  "uz": "Hozirgi sharoit koʻproq vaqtni oqlamasa, yarim kun yoki shahar yaqinidagi sokin chiqish sifatida rejalash maʼqul."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and comfort"
+                  "ru": "Сезон и комфорт"
+                  "uz": "Mavsum va qulaylik"
+                "description":
+                  "en": "Warm weather makes the cool-air reason strongest; rain, winter conditions, heat, and traffic still need current review."
+                  "ru": "В тёплую погоду прохлада ощущается сильнее всего; дождь, зимняя дорога, жара и трафик всё равно требуют проверки."
+                  "uz": "Iliq ob-havoda salqin havo sababi eng kuchli; yomgʻir, qishki yoʻl, issiq va tirbandlik baribir yangi tekshiruv talab qiladi."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before travel"
+                  "ru": "Перед поездкой"
+                  "uz": "Safardan oldin"
+                "description":
+                  "en": "Confirm transport, weather, road condition, chosen stop, meal plan, and any walking or resort access close to the date."
+                  "ru": "Подтвердите транспорт, погоду, состояние дороги, выбранную остановку, питание и любой доступ к прогулке или курорту ближе к дате."
+                  "uz": "Transport, ob-havo, yoʻl holati, tanlangan toʻxtash, ovqat va har qanday yurish yoki kurort kirishini sanaga yaqin tasdiqlang."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqinda"
+    "title":
+      "en": "Dushanbe, Hissar, and the mountain edge"
+      "ru": "Душанбе, Гиссар и край гор"
+      "uz": "Dushanbe, Hisor va togʻ chekkasi"
+    "description":
+      "en": "Dushanbe is the start and return point. Hissar gives the same region a heritage outing; Varzob gives the river-road nature break. Choose one when the route is short instead of forcing both."
+      "ru": "Душанбе — точка начала и возвращения. Гиссар даёт этому региону исторический выезд, Варзоб — природную паузу у речной дороги. Если маршрут короткий, лучше выбрать одно, а не добавлять оба места автоматически."
+      "uz": "Dushanbe boshlanish va qaytish nuqtasidir. Hisor shu hududga meros chiqishini beradi; Varzob esa daryo yoʻli boʻyidagi tabiat pauzasini beradi. Yoʻnalish qisqa boʻlsa, ikkalasini majburan qoʻshmasdan bittasini tanlash maʼqul."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Dushanbe"
+          "ru": "Душанбе"
+          "uz": "Dushanbe"
+        "description":
+          "en": "Dushanbe is Tajikistan's calm arrival city: Rudaki Avenue shade, national museums, tea-house stops, and first choices toward Hissar, Varzob, or higher valleys."
+          "ru": "Душанбе — спокойное место прибытия в Таджикистан: тень проспекта Рудаки, национальные музеи, чайхана или рынок и первые решения к Гиссару, Варзобу или высоким долинам."
+          "uz": "Dushanbe Tojikistonga sokin kirish shahri: Rudakiy xiyoboni soyasi, milliy muzeylar, choyxona toʻxtashlari va Hisor, Varzob yoki baland vodiylar tomon ilk tanlovlar."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/dushanbe"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Hissar"
+          "ru": "Гиссар"
+          "uz": "Hisor"
+        "description":
+          "en": "Hissar turns a Dushanbe stay toward the valley: the fortress gate, Old Madrasa, museum rooms, and a simple town stop make a compact heritage outing."
+          "ru": "Гиссар выводит маршрут из Душанбе в долину: крепостные ворота, Старое медресе, музейные залы и короткая городская остановка складываются в спокойный исторический выезд."
+          "uz": "Hisor Dushanbe yo‘lini vodiyga olib chiqadi: qalʼa darvozasi, Eski madrasa, muzey xonalari va qisqa shahar to‘xtashi sokin tarixiy chiqishni beradi."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/hissar"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Varzob in the day plan"
+      "ru": "Как поставить Варзоб в план дня"
+      "uz": "Varzobni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Varzob?"
+          "ru": "Сколько времени группам стоит проводить в Варзоб?"
+          "uz": "Varzobda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “River air just beyond Dushanbe”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Речной воздух сразу за Душанбе»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Dushanbe yaqinidagi daryo havosi»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Varzob be a walkable core or a base for day trips?"
+          "ru": "Варзоб — это пешеходное ядро или база для выездов?"
+          "uz": "Varzob piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Varzob's centre?"
+          "ru": "Где лучше ночевать относительно центра Варзоб?"
+          "uz": "Varzob markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Varzob stop into your Tajikistan programme"
+      "ru": "Встройте остановку «Варзоб» в программу (Таджикистан)"
+      "uz": "Varzob bekatini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Varzob | TourLink"
+    "ru": "Варзоб | TourLink"
+    "uz": "Varzob | TourLink"
+  "metaDescription":
+    "en": "Varzob sits just north of Dushanbe, where the capital's heat gives way to river bends and gorge air. It is not the Pamirs or the Fann Mountains; it is the close, useful mountain pause before a Tajikistan route goes higher."
+    "ru": "Варзоб лежит к северу от Душанбе, там, где жара столицы сменяется речными поворотами и воздухом ущелья. Это ещё не Памир и не Фанские горы, а близкая горная пауза перед тем, как маршрут по Таджикистану уходит выше."
+    "uz": "Varzob Dushanbedan shimolda, poytaxt issigʻi daryo burilishlari va dara havosiga almashadigan joyda boshlanadi. Bu hali Pomir ham, Fan togʻlari ham emas; Tojikiston yoʻli balandroqqa chiqishidan oldingi yaqin togʻ pauzasi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "dushanbe-and-hissar-valley"
+"latitude": 38.7752817
+"longitude": 68.8184964

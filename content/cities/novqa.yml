@@ -1,0 +1,559 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "novqa"
+  "ru": "novqa"
+  "uz": "novqa"
+"title":
+  "en": "Novqa"
+  "ru": "Новка"
+  "uz": "Novqa"
+"subtitle":
+  "en": "A Bakhmal mountain village for courtyards, craft, and a slower road"
+  "ru": "Бахмальское горное село с дворами, ремеслом и неспешной дорогой"
+  "uz": "Hovli, hunar va sokin yo‘l bilan taniladigan Baxmal tog‘ qishlog‘i"
+"excerpt":
+  "en": "Novqa brings a human Bakhmal stop into the Zaamin & Jizzakh Mountains route. The road rises toward cooler air and orchard country, then the visit should narrow: one courtyard, one maker, tea or fruit at a table, and enough time for the village to be felt before the road continues."
+  "ru": "Новка добавляет маршруту Заамин и горы Джизака человеческую остановку в Бахмале. Дорога поднимается к садам и более прохладному воздуху, а сам визит лучше сузить: один двор, один мастер, чай или фрукты за столом и достаточно времени, чтобы почувствовать село до дальнейшей дороги."
+  "uz": "Novqa Zomin va Jizzax tog‘lari yo‘nalishiga Baxmaldagi insoniy bekatni qo‘shadi. Yo‘l bog‘lar va salqinroq havo tomon ko‘tariladi, tashrif esa torroq qolsa yaxshi: bitta hovli, bitta usta, dasturxon atrofida choy yoki meva va yo‘l davom etishidan oldin qishloqni sezishga yetarli vaqt."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Novqa"
+      "ru": "Новка"
+      "uz": "Novqa"
+    "title":
+      "en": "Novqa"
+      "ru": "Новка"
+      "uz": "Novqa"
+    "description":
+      "en": "A Bakhmal mountain village for courtyards, craft, and a slower road"
+      "ru": "Бахмальское горное село с дворами, ремеслом и неспешной дорогой"
+      "uz": "Hovli, hunar va sokin yo‘l bilan taniladigan Baxmal tog‘ qishlog‘i"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Novqa"
+      "ru": "Новка"
+      "uz": "Novqa"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Novqa brings a human Bakhmal stop into the Zaamin & Jizzakh Mountains route."
+              "ru": "Новка добавляет маршруту Заамин и горы Джизака человеческую остановку в Бахмале."
+              "uz": "Novqa Zomin va Jizzax tog‘lari yo‘nalishiga Baxmaldagi insoniy bekatni qo‘shadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Novqa sits on the Bakhmal side of the Jizzakh mountain route, where the road, village edge, and seasonal countryside shape the stop."
+              "ru": "Новка находится на бахмальской стороне джизакского горного маршрута, где дорога, край села и сезонная сельская жизнь задают остановке форму."
+              "uz": "Novqa Jizzax tog‘ yo‘lining Baxmal tomonida, yo‘l, qishloq cheti va mavsumiy manzara bekatni shakllantiradigan joyda turadi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The coordinate helps you understand where Novqa lies in Bakhmal. The first meeting place is set for the actual visit."
+              "ru": "Координата помогает понять, где Новка находится в Бахмале. Первое место встречи определяется под конкретный визит."
+              "uz": "Koordinata Novqaning Baxmaldagi o‘rnini tushunishga yordam beradi. Birinchi uchrashuv joyi aniq tashrifga qarab belgilanadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Novqa as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Новка как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Novqa o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Novqa on the Bakhmal road"
+      "ru": "Новка на дороге через Бахмал"
+      "uz": "Novqa Baxmal yo‘lida"
+    "description":
+      "en": "Novqa sits on the Bakhmal side of the Jizzakh mountain route, where the road, village edge, and seasonal countryside shape the stop."
+      "ru": "Новка находится на бахмальской стороне джизакского горного маршрута, где дорога, край села и сезонная сельская жизнь задают остановке форму."
+      "uz": "Novqa Jizzax tog‘ yo‘lining Baxmal tomonida, yo‘l, qishloq cheti va mavsumiy manzara bekatni shakllantiradigan joyda turadi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Map note"
+        "ru": "Примечание к карте"
+        "uz": "Xarita izohi"
+      "title":
+        "en": "Village point, not a doorstep"
+        "ru": "Точка села, не адрес"
+        "uz": "Qishloq nuqtasi, manzil emas"
+      "description":
+        "en": "The coordinate shows the Novqa village area; it does not mark a home, workshop, orchard, shrine entrance, trail start, parking area, or meeting place."
+        "ru": "Координата показывает сельскую зону Новки; это не дом, мастерская, сад, вход к святыне, начало тропы, парковка или место встречи."
+        "uz": "Koordinata Novqa qishloq hududini ko‘rsatadi; u xonadon, ustaxona, bog‘, ziyoratgoh kirishi, yo‘lak boshi, avtoturargoh yoki uchrashuv joyi emas."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.740566
+      "longitude": 68.063323
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "novqa-bakhmal-mountain-village-setting"
+    "aside":
+      "eyebrow":
+        "en": "How to read the map"
+        "ru": "Как читать карту"
+        "uz": "Xaritani qanday o‘qish"
+      "title":
+        "en": "Village first, exact meeting later"
+        "ru": "Сначала село, потом точное место встречи"
+        "uz": "Avval qishloq, keyin aniq uchrashuv"
+      "description":
+        "en": "The coordinate helps you understand where Novqa lies in Bakhmal. The first meeting place is set for the actual visit."
+        "ru": "Координата помогает понять, где Новка находится в Бахмале. Первое место встречи определяется под конкретный визит."
+        "uz": "Koordinata Novqaning Baxmaldagi o‘rnini tushunishga yordam beradi. Birinchi uchrashuv joyi aniq tashrifga qarab belgilanadi."
+      "items":
+        - "title":
+            "en": "Novqa"
+            "ru": "Новка"
+            "uz": "Novqa"
+          "description":
+            "en": "Orientation point for the Bakhmal tourism village; the actual table, craft room, walk, or meeting place is arranged for the visit."
+            "ru": "Ориентир туристического села Бахмальского района; конкретный стол, ремесленная комната, прогулка или встреча согласуются под визит."
+            "uz": "Baxmal turizm qishlog‘i uchun orientir; aniq dasturxon, hunar xonasi, sayr yoki uchrashuv joyi tashrifga qarab kelishiladi."
+          "badge":
+            "en": "Village point"
+            "ru": "Село"
+            "uz": "Qishloq nuqtasi"
+        - "title":
+            "en": "Bakhmal"
+            "ru": "Бахмал"
+            "uz": "Baxmal"
+          "description":
+            "en": "The district frame that gives Novqa its mountain road, orchard-country edge, and nearby village rhythm."
+            "ru": "Районная рамка, которая даёт Новке горную дорогу, край садов и ритм соседних сёл."
+            "uz": "Novqaga tog‘ yo‘li, bog‘lar cheti va yaqin qishloqlar maromini beradigan tuman doirasi."
+          "badge":
+            "en": "District frame"
+            "ru": "Район"
+            "uz": "Tuman doirasi"
+        - "title":
+            "en": "Muzbuloq"
+            "ru": "Музбулок"
+            "uz": "Muzbuloq"
+          "description":
+            "en": "A nearby Bakhmal mahalla when a wider village route has enough time."
+            "ru": "Близкая бахмальская махалля для более широкого сельского маршрута, если дорога оставляет достаточно времени."
+            "uz": "Yo‘l rejasi yetarli vaqt qoldirsa, kengroq qishloq yo‘nalishiga kiradigan yaqin Baxmal mahallasi."
+          "badge":
+            "en": "Nearby mahalla"
+            "ru": "Соседняя махалля"
+            "uz": "Yaqin mahalla"
+        - "title":
+            "en": "Duoba"
+            "ru": "Дуоба"
+            "uz": "Duoba"
+          "description":
+            "en": "A Zaamin-side mahalla that can pair with Novqa only when the route has a clear reason to cross districts."
+            "ru": "Махалля со стороны Заамина, которую стоит соединять с Новкой только при понятной причине пересечь районы."
+            "uz": "Tumanlar oralig‘ida yurishga aniq sabab bo‘lsa, Novqa bilan bog‘lanadigan Zomin tomoni mahallasi."
+          "badge":
+            "en": "Zaamin side"
+            "ru": "Сторона Заамина"
+            "uz": "Zomin tomoni"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What gives Novqa shape"
+      "ru": "Что формирует Новку"
+      "uz": "Novqani nima shakllantiradi"
+    "title":
+      "en": "Road air, courtyard life, and an Ota-side turn"
+      "ru": "Дорога, двор и тихий поворот к Ота"
+      "uz": "Yo‘l havosi, hovli hayoti va Ota tomondagi sokin burilish"
+    "description":
+      "en": "Understand Novqa through three separate parts: the Bakhmal road and village edge, craft or courtyard life, and an Ota-side ziyarat turn only when it fits the route."
+      "ru": "Читайте Новку через три отдельные части: бахмальскую дорогу и край села, ремесло или жизнь во дворе и паузу для зиярата со стороны Ота, если она подходит маршруту."
+      "uz": "Novqani uch alohida qism orqali tushuning: Baxmal yo‘li va qishloq cheti, hunar yoki hovli hayoti, hamda safarga mos bo‘lsa Ota tomondagi ziyorat bekati."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Bakhmal road and village edge"
+          "ru": "Бахмальская дорога и край села"
+          "uz": "Baxmal yo‘li va qishloq cheti"
+        "description":
+          "en": "Before any arranged courtyard or table, the Bakhmal road gives Novqa its first feeling: cooler air, orchard-country edges, and a village that should be reached slowly."
+          "ru": "До любого двора или стола дорога через Бахмал даёт Новке первое ощущение: более прохладный воздух, сады по сторонам и село, к которому нужно подъехать неспешно."
+          "uz": "Hovli yoki dasturxon kelishilishidan oldin Baxmal yo‘li Novqaga ilk tuyg‘uni beradi: salqinroq havo, bog‘lar cheti va shoshilmay yetib boriladigan qishloq."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/novqa/novqa-bakhmal-mountain-village-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Craft and courtyard life"
+          "ru": "Ремесло и жизнь во дворе"
+          "uz": "Hunar va hovli hayoti"
+        "description":
+          "en": "Novqa becomes memorable when the visit gathers around one maker, one table, or one courtyard detail instead of a list of activities."
+          "ru": "Новка запоминается, когда визит собирается вокруг одного мастера, одного стола или одной детали во дворе, а не вокруг списка занятий."
+          "uz": "Tashrif ko‘p mashg‘ulotlar ro‘yxati atrofida emas, bitta usta, bitta dasturxon yoki hovlidagi bitta detal atrofida jamlanganda Novqa esda qoladi."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/novqa/novqa-craft-and-heritage-life"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Ota-side ziyarat pause"
+          "ru": "Пауза для зиярата со стороны Ота"
+          "uz": "Ota tomondagi ziyorat bekati"
+        "description":
+          "en": "An Ota-side ziyarat stop near Bakhmal can add quiet respect to Novqa only when local guidance, timing, clothing, and expectations are right."
+          "ru": "Пауза для зиярата со стороны Ота рядом с Бахмалом уместна только тогда, когда местное сопровождение, время, одежда и ожидания гостей совпадают."
+          "uz": "Baxmal yaqinidagi Ota tomondagi ziyorat bekati mahalliy yo‘l-yo‘riq, vaqt, kiyim va mehmon kutishi mos kelgandagina Novqaga sokin hurmat qo‘shadi."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/novqa/novqa-ota-and-bakhmal-pilgrimage-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Village moments"
+      "ru": "Сельские моменты"
+      "uz": "Qishloq lahzalari"
+    "title":
+      "en": "Six small choices for Novqa"
+      "ru": "Шесть небольших выборов для Новки"
+      "uz": "Novqa uchun olti kichik tanlov"
+    "description":
+      "en": "These cards work when each moment stays specific: arrival through Bakhmal, one courtyard craft encounter, a seasonal table, a respectful Ota-side stop, a short village-edge walk, or a local event when dates match."
+      "ru": "Эти карточки полезны, когда каждый момент остаётся конкретным: въезд через Бахмал, ремесло во дворе, сезонный стол, уважительная остановка со стороны Ота, короткая прогулка у села или местное событие при совпадении дат."
+      "uz": "Har bir lahza aniq qolsa, bu kartalar foydali: Baxmal orqali kirish, hovlidagi hunar, mavsumiy dasturxon, Ota tomondagi hurmatli bekat, qishloq chetidagi qisqa sayr yoki sana mos kelsa mahalliy tadbir."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Arrival through Bakhmal"
+          "ru": "Въезд через Бахмал"
+          "uz": "Baxmal orqali kirish"
+        "description":
+          "en": "The road into Bakhmal gives Novqa its first texture: cooler air, orchard country, and a slower approach before the village meeting."
+          "ru": "Дорога через Бахмал даёт Новке первое ощущение: более прохладный воздух, сады по сторонам и неспешный подъезд перед сельской встречей."
+          "uz": "Baxmal yo‘li Novqaga ilk ohangni beradi: salqinroq havo, bog‘lar va qishloq uchrashuvidan oldingi sokin kirish."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Craft in a courtyard"
+          "ru": "Ремесло во дворе"
+          "uz": "Hovlidagi hunar"
+        "description":
+          "en": "One maker, one tool, and a courtyard conversation can carry the visit better than a list of demonstrations."
+          "ru": "Один мастер, один инструмент и разговор во дворе могут рассказать о визите больше, чем список показов."
+          "uz": "Bitta usta, bitta asbob va hovlidagi suhbat tashrifni ko‘p namoyishlar ro‘yxatidan yaxshiroq olib boradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Seasonal Bakhmal table"
+          "ru": "Сезонный бахмальский стол"
+          "uz": "Mavsumiy Baxmal dasturxoni"
+        "description":
+          "en": "Fruit, bread, tea, or a simple meal belongs when the season and the family table are genuinely part of the visit."
+          "ru": "Фрукты, лепёшка, чай или простая еда уместны, когда сезон и семейный стол действительно входят в визит."
+          "uz": "Meva, non, choy yoki oddiy taom mavsum va oilaviy dasturxon tashrifning haqiqiy qismiga aylanganda mos keladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Ota-side ziyarat pause"
+          "ru": "Пауза для зиярата со стороны Ота"
+          "uz": "Ota tomondagi ziyorat bekati"
+        "description":
+          "en": "A nearby ziyarat stop adds value only when local guidance keeps the visit quiet, respectful, and unhurried."
+          "ru": "Близкий зиярат уместен только тогда, когда местное сопровождение сохраняет тишину, уважение и неспешный темп."
+          "uz": "Yaqin ziyorat bekati mahalliy yo‘l-yo‘riq tashrifni sokin, hurmatli va shoshilmas tutganda ma’no beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Short village-edge walk"
+          "ru": "Короткая прогулка у края села"
+          "uz": "Qishloq chetidagi qisqa sayr"
+        "description":
+          "en": "A short walk near the village is about shade, footing, heat, and pace, not distance."
+          "ru": "Короткая прогулка у села зависит от тени, покрытия, жары и темпа, а не от расстояния."
+          "uz": "Qishloq yonidagi qisqa sayr masofadan ko‘ra soya, yo‘l yuzasi, issiq va maromga bog‘liq."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Bakhmal event day"
+          "ru": "День бахмальского события"
+          "uz": "Baxmal tadbiri kuni"
+        "description":
+          "en": "A local event can give the visit more life when dates genuinely match; otherwise Novqa should still stand on its village meeting."
+          "ru": "Местное событие добавляет жизни, когда даты действительно совпадают; если нет, Новка всё равно держится на сельской встрече."
+          "uz": "Mahalliy tadbir sanalar rostdan mos kelganda tashrifni jonlantiradi; mos kelmasa, Novqa qishloq uchrashuvi bilan ham yetarli."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "Keep Novqa personal and unhurried"
+      "ru": "Оставьте Новку личной и неспешной"
+      "uz": "Novqa shaxsiy va shoshilmas qolsin"
+    "description":
+      "en": "Novqa is strongest when one real village meeting carries the stop: the road in, a courtyard, a person making or serving something, and a next move chosen without crowding the route."
+      "ru": "Новка сильнее, когда остановку держит одна настоящая сельская встреча: дорога, двор, человек за работой или у стола и дальнейший ход без перегруза."
+      "uz": "Novqa bitta haqiqiy qishloq uchrashuvi tashrifni olib borganda kuchliroq: kirish yo‘li, hovli, ish qilayotgan yoki dasturxon tutayotgan odam va ortiqcha yuklanmagan keyingi qadam."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Arrive through Bakhmal"
+              "ru": "Въезжайте через Бахмал"
+              "uz": "Baxmal orqali kiring"
+            "description":
+              "en": "Let the mountain road do the first work: the village should feel reached, not simply named."
+              "ru": "Пусть горная дорога создаст первое ощущение: до села нужно доехать, а не просто назвать его."
+              "uz": "Birinchi hissiyotga tog‘ yo‘li sabab bo‘lsin: qishloqqa yetib boriladi, u shunchaki nomlanmaydi."
+          - "type": "quote"
+            "quote":
+              "en": "Novqa works best when one real meeting carries the visit."
+              "ru": "Новка лучше всего звучит, когда визит держит одна настоящая встреча."
+              "uz": "Novqa bitta haqiqiy uchrashuv tashrifni olib borganda kuchliroq."
+          - "type": "dashTitle"
+            "title":
+              "en": "Choose the human detail"
+              "ru": "Выберите человеческую деталь"
+              "uz": "Insoniy detalni tanlang"
+            "description":
+              "en": "A maker, a family table, a courtyard, or a seasonal food moment gives Novqa a clearer memory than a generic list."
+              "ru": "Мастер, семейный стол, двор или сезонная еда запоминаются яснее, чем общий список возможностей."
+              "uz": "Usta, oilaviy dasturxon, hovli yoki mavsumiy taom umumiy imkoniyatlar ro‘yxatidan ko‘ra yaxshiroq esda qoladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep additions modest"
+              "ru": "Оставьте продолжения скромными"
+              "uz": "Davomlarni vazmin saqlang"
+            "description":
+              "en": "Nature, Ota-side ziyarat time, or a local event should support the village visit, not crowd it."
+              "ru": "Природа, зиярат со стороны Ота или местное событие должны поддерживать сельский визит, а не вытеснять его."
+              "uz": "Tabiat, Ota tomondagi ziyorat yoki mahalliy tadbir qishloq tashrifini qo‘llasin, siqib chiqarmasin."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественников"
+              "uz": "Sayohatchilar uchun"
+            "description":
+              "en": "Choose Novqa for a Bakhmal village stop with mountain air, one human detail, and enough time to notice both."
+              "ru": "Выбирайте Новку для бахмальской сельской остановки с горным воздухом, человеческой деталью и достаточным временем, чтобы заметить и то и другое."
+              "uz": "Novqani tog‘ havosi, bitta insoniy detal va ikkalasini sezishga yetarli vaqt bo‘lgan Baxmal qishloq bekati sifatida tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Status"
+                  "ru": "Коротко Статус"
+                  "uz": "Qisqacha Maqom"
+                "description":
+                  "en": "Official tourism village in Bakhmal District, Jizzakh Region."
+                  "ru": "Официальное туристическое село Бахмальского района Джизакской области."
+                  "uz": "Jizzax viloyati Baxmal tumanidagi rasmiy turizm qishlog‘i."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main pull"
+                  "ru": "Главный смысл"
+                  "uz": "Asosiy mazmun"
+                "description":
+                  "en": "Bakhmal mountain air, village courtyards, craft details, and seasonal countryside."
+                  "ru": "Горный воздух Бахмала, сельские дворы, ремесленные детали и сезонная природа."
+                  "uz": "Baxmal tog‘ havosi, qishloq hovlilari, hunar detali va mavsumiy qishloq manzarasi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Visit shape"
+                  "ru": "Форма визита"
+                  "uz": "Tashrif shakli"
+                "description":
+                  "en": "One or two clear moments, not a long activity list."
+                  "ru": "Один или два ясных момента, а не длинный список активностей."
+                  "uz": "Uzoq faoliyat ro‘yxati emas, bir yoki ikki aniq lahza."
+              - "icon": "Route"
+                "title":
+                  "en": "Where it fits"
+                  "ru": "Где уместна"
+                  "uz": "Qayerga mos"
+                "description":
+                  "en": "A Bakhmal stop between Muzbuloq, Duoba, or the wider Jizzakh mountain road when time allows."
+                  "ru": "Бахмальская остановка между Музбулоком, Дуобой или широкой дорогой по горам Джизака, когда хватает времени."
+                  "uz": "Vaqt yetganda Muzbuloq, Duoba yoki kengroq Jizzax tog‘ yo‘li orasidagi Baxmal bekati."
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Novqa in the day plan"
+      "ru": "Как поставить Новка в план дня"
+      "uz": "Novqani kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Novqa?"
+          "ru": "Сколько времени группам стоит проводить в Новка?"
+          "uz": "Novqada guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A Bakhmal mountain village for courtyards, craft, and a slower road”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Бахмальское горное село с дворами, ремеслом и неспешной дорогой»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Hovli, hunar va sokin yo‘l bilan taniladigan Baxmal tog‘ qishlog‘i»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Novqa be a walkable core or a base for day trips?"
+          "ru": "Новка — это пешеходное ядро или база для выездов?"
+          "uz": "Novqa piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Novqa's centre?"
+          "ru": "Где лучше ночевать относительно центра Новка?"
+          "uz": "Novqa markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Novqa stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Новка» в программу (Узбекистан)"
+      "uz": "Novqa bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Novqa | TourLink"
+    "ru": "Новка | TourLink"
+    "uz": "Novqa | TourLink"
+  "metaDescription":
+    "en": "Novqa brings a human Bakhmal stop into the Zaamin & Jizzakh Mountains route. The road rises toward cooler air and orchard country, then the visit should narrow: one courtyard, one maker, tea or fruit at a table, and enough time for the village to be felt before the road continues."
+    "ru": "Новка добавляет маршруту Заамин и горы Джизака человеческую остановку в Бахмале. Дорога поднимается к садам и более прохладному воздуху, а сам визит лучше сузить: один двор, один мастер, чай или фрукты за столом и достаточно времени, чтобы почувствовать село до дальнейшей дороги."
+    "uz": "Novqa Zomin va Jizzax tog‘lari yo‘nalishiga Baxmaldagi insoniy bekatni qo‘shadi. Yo‘l bog‘lar va salqinroq havo tomon ko‘tariladi, tashrif esa torroq qolsa yaxshi: bitta hovli, bitta usta, dasturxon atrofida choy yoki meva va yo‘l davom etishidan oldin qishloqni sezishga yetarli vaqt."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "zaamin-and-jizzakh-mountains"
+"latitude": 39.75
+"longitude": 67.7166507

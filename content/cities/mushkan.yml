@@ -1,0 +1,654 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "mushkan"
+  "ru": "mushkan"
+  "uz": "mushkan"
+"title":
+  "en": "Mushkan"
+  "ru": "Мушкан"
+  "uz": "Mushkan"
+"subtitle":
+  "en": "A Nurota mountain village for bread, craft, music, and the Kichiksoy road"
+  "ru": "Горное село Нураты для хлеба, ремесла, музыки и дороги к Кичиксою"
+  "uz": "Non, hunar, musiqa va Kichiksoy yo‘li uchun Nurota tog‘ qishlog‘i"
+"excerpt":
+  "en": "Mushkan sits in Nurota District on the mountain side of the Nurata, Aydarkul & Kyzylkum route. It suits a modest village stop: a household meal, bread-making, weaving or music, and a nearby continuation toward Kichiksoy or Nurata."
+  "ru": "Мушкан находится в Нуратинском районе, на горной стороне маршрута Нурата, Айдаркуль и Кызылкум. Село подходит для спокойной сельской остановки: домашний стол, выпечка хлеба, ткачество или музыка и близкое продолжение к Кичиксою или Нурате."
+  "uz": "Mushkan Nurota tumanida, Nurota, Aydarko‘l va Qizilqum yo‘lining tog‘ tomonida joylashgan. Bu yer xonadon dasturxoni, non yopish, to‘quv yoki musiqa va Kichiksoy yoki Nurota tomon yaqin davom uchun sokin qishloq bekati bo‘la oladi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/mushkan.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/mushkan.webp"
+    "imageAlt":
+      "en": "Mushkan"
+      "ru": "Мушкан"
+      "uz": "Mushkan"
+    "title":
+      "en": "Mushkan"
+      "ru": "Мушкан"
+      "uz": "Mushkan"
+    "description":
+      "en": "A Nurota mountain village for bread, craft, music, and the Kichiksoy road"
+      "ru": "Горное село Нураты для хлеба, ремесла, музыки и дороги к Кичиксою"
+      "uz": "Non, hunar, musiqa va Kichiksoy yo‘li uchun Nurota tog‘ qishlog‘i"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Mushkan"
+      "ru": "Мушкан"
+      "uz": "Mushkan"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Mushkan sits in Nurota District on the mountain side of the Nurata, Aydarkul & Kyzylkum route."
+              "ru": "Мушкан находится в Нуратинском районе, на горной стороне маршрута Нурата, Айдаркуль и Кызылкум."
+              "uz": "Mushkan Nurota tumanida, Nurota, Aydarko‘l va Qizilqum yo‘lining tog‘ tomonida joylashgan."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "The route links Mushkan with Kichiksoy, Nurata, and Sentob so the village stop stays close to the mountain-side road."
+              "ru": "Маршрут связывает Мушкан с Кичиксоем, Нуратой и Сентобом, чтобы сельская остановка оставалась рядом с горной дорогой."
+              "uz": "Yo‘l Mushkanni Kichiksoy, Nurota va Sentob bilan bog‘laydi, shunda qishloq bekati tog‘ tomoni yo‘liga yaqin qoladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep Mushkan near Kichiksoy and Nurata before the route widens toward Sentob, Chuya, or Aydarkul."
+              "ru": "Держите Мушкан рядом с Кичиксоем и Нуратой, прежде чем маршрут расширится к Сентобу, Чуе или Айдаркулю."
+              "uz": "Yo‘l Sentob, Chuya yoki Aydarko‘l tomonga kengayishidan oldin Mushkan Kichiksoy va Nurota yaqinida qolsin."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Mushkan as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Мушкан как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Mushkan o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Route map"
+      "ru": "Карта маршрута"
+      "uz": "Marshrut xaritasi"
+    "title":
+      "en": "Mushkan on the Nurota village route"
+      "ru": "Мушкан на сельском маршруте Нураты"
+      "uz": "Mushkan Nurota qishloq yo‘lida"
+    "description":
+      "en": "The route links Mushkan with Kichiksoy, Nurata, and Sentob so the village stop stays close to the mountain-side road."
+      "ru": "Маршрут связывает Мушкан с Кичиксоем, Нуратой и Сентобом, чтобы сельская остановка оставалась рядом с горной дорогой."
+      "uz": "Yo‘l Mushkanni Kichiksoy, Nurota va Sentob bilan bog‘laydi, shunda qishloq bekati tog‘ tomoni yo‘liga yaqin qoladi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Map note"
+        "ru": "Примечание к карте"
+        "uz": "Xarita izohi"
+      "title":
+        "en": "Village anchors near Nurota"
+        "ru": "Сельские ориентиры рядом с Нуратой"
+        "uz": "Nurota yaqinidagi qishloq tayanchlari"
+      "description":
+        "en": "Markers show approximate route anchors around Mushkan, Kichiksoy, Nurata, and Sentob."
+        "ru": "Маркеры показывают приблизительные маршрутные ориентиры вокруг Мушкана, Кичиксоя, Нураты и Сентоба."
+        "uz": "Markerlar Mushkan, Kichiksoy, Nurota va Sentob atrofidagi taxminiy yo‘l tayanchlarini ko‘rsatadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.564688
+      "longitude": 65.976648
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "mushkan-homestay-yurt-and-service-plan"
+      - "entityType": "attraction"
+        "entitySlug": "mushkan-kichiksoy-nurata-route-context"
+      - "entityType": "attraction"
+        "entitySlug": "mushkan-nurata-foothill-village-setting"
+    "aside":
+      "eyebrow":
+        "en": "Route role"
+        "ru": "Место в маршруте"
+        "uz": "Yo‘ldagi roli"
+      "title":
+        "en": "Mushkan with Kichiksoy and Nurata"
+        "ru": "Мушкан с Кичиксоем и Нуратой"
+        "uz": "Mushkan Kichiksoy va Nurota bilan"
+      "description":
+        "en": "Keep Mushkan near Kichiksoy and Nurata before the route widens toward Sentob, Chuya, or Aydarkul."
+        "ru": "Держите Мушкан рядом с Кичиксоем и Нуратой, прежде чем маршрут расширится к Сентобу, Чуе или Айдаркулю."
+        "uz": "Yo‘l Sentob, Chuya yoki Aydarko‘l tomonga kengayishidan oldin Mushkan Kichiksoy va Nurota yaqinida qolsin."
+      "items":
+        - "title":
+            "en": "Mushkan"
+            "ru": "Мушкан"
+            "uz": "Mushkan"
+          "description":
+            "en": "Start with Mushkan as a quiet mountain village stop."
+            "ru": "Начните с Мушкана как с тихой горной сельской остановки."
+            "uz": "Mushkanni sokin tog‘ qishlog‘i bekati sifatida boshlang."
+          "badge":
+            "en": "Village stop"
+            "ru": "Сельская остановка"
+            "uz": "Qishloq bekati"
+        - "title":
+            "en": "Kichiksoy"
+            "ru": "Кичиксой"
+            "uz": "Kichiksoy"
+          "description":
+            "en": "Pair with Kichiksoy when the route can stay unhurried."
+            "ru": "Сочетайте с Кичиксоем, когда маршрут может оставаться неспешным."
+            "uz": "Yo‘l sokin qola olsa, Kichiksoy bilan juftlang."
+          "badge":
+            "en": "Nearby village"
+            "ru": "Соседнее село"
+            "uz": "Yaqin qishloq"
+        - "title":
+            "en": "Nurata"
+            "ru": "Нурата"
+            "uz": "Nurota"
+          "description":
+            "en": "Nurata keeps the village stops tied to the wider cultural route."
+            "ru": "Нурата связывает сельские остановки с более широким культурным маршрутом."
+            "uz": "Nurota qishloq bekatlarini kengroq madaniy yo‘lga bog‘lab turadi."
+          "badge":
+            "en": "Regional anchor"
+            "ru": "Региональная опора"
+            "uz": "Hududiy tayanch"
+        - "title":
+            "en": "Sentyab"
+            "ru": "Сентоб"
+            "uz": "Sentob"
+          "description":
+            "en": "Sentyab gives the wider mountain-village sequence when the route turns west."
+            "ru": "Сентоб даёт более широкую горно-сельскую последовательность, когда маршрут уходит западнее."
+            "uz": "Yo‘l g‘arbga burilganda Sentob kengroq tog‘ qishloqlari ketma-ketligini beradi."
+          "badge":
+            "en": "Mountain village"
+            "ru": "Горное село"
+            "uz": "Tog‘ qishlog‘i"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimani ko‘rish"
+    "title":
+      "en": "Three ways to understand Mushkan"
+      "ru": "Три способа понять Мушкан"
+      "uz": "Mushkanni tushunishning uch yo‘li"
+    "description":
+      "en": "Start with the village setting, then add the longer stay or the Kichiksoy-Nurata route role when they strengthen the visit."
+      "ru": "Начните с сельской среды, затем добавляйте более долгую остановку или роль Кичиксоя и Нураты, когда они усиливают визит."
+      "uz": "Qishloq muhitidan boshlang, keyin uzoqroq bekat yoki Kichiksoy-Nurota yo‘lidagi rol tashrifni kuchaytirsa, ularni qo‘shing."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Mushkan mountain-side village setting"
+          "ru": "Горная сельская среда Мушкана"
+          "uz": "Mushkan tog‘ tomoni qishloq muhiti"
+        "description":
+          "en": "Begin with the village before adding the table, craft, music, or a longer stay. Mushkan needs a little space: mountain air, open village edges, and the slower approach from the Nurota side."
+          "ru": "До домашнего стола, ремесла, музыки или более долгой остановки важна сама сельская среда. Мушкану нужно немного пространства: горный воздух, открытые края села и неспешный подъезд со стороны Нураты."
+          "uz": "Xonadon dasturxoni, hunar, musiqa yoki uzoqroq bekatdan oldin qishloq muhitini his qilish muhim. Mushkanga biroz joy kerak: tog‘ havosi, qishloq chetlari va Nurota tomondan sekinroq kirish."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/mushkan/mushkan-nurata-foothill-village-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Mushkan village stay and yurt-style pause"
+          "ru": "Сельская ночёвка и юрточная пауза в Мушкане"
+          "uz": "Mushkanda qishloq tunashi va o‘tov uslubidagi pauza"
+        "description":
+          "en": "For a longer stop, Mushkan is strongest around one center: a meal, a village night, or a yurt-style pause that still belongs to the village. Family homes and yurt camps belong here when they keep the traveler close to household life and the mountain-side setting."
+          "ru": "Для более долгой остановки Мушкану нужен один центр: еда, ночь в селе или юрточная пауза, которая всё равно принадлежит селу. Семейные дома и юрточные стоянки уместны здесь, когда они держат путешественника рядом с домашней жизнью и горной средой."
+          "uz": "Uzoqroq bekat uchun Mushkanda bitta markaz kerak: taom, qishloq kechasi yoki qishloqqa tegishli bo‘lib qoladigan o‘tov uslubidagi pauza. Oilaviy uy va o‘tov-lager tunashi sayohatchini xonadon hayoti va tog‘ tomoni muhitiga yaqin tutganda o‘rinli."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/mushkan/mushkan-homestay-yurt-and-service-plan"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Mushkan, Kichiksoy, and the Nurota route"
+          "ru": "Мушкан, Кичиксой и нуратинский маршрут"
+          "uz": "Mushkan, Kichiksoy va Nurota yo‘li"
+        "description":
+          "en": "This stop is about movement around Mushkan: nearby Kichiksoy, the return toward Nurata, and the choice to add Sentob or Chuya only when the journey has enough time."
+          "ru": "Эта остановка — о движении вокруг Мушкана: соседний Кичиксой, возвращение к Нурате и решение добавлять Сентоб или Чую только тогда, когда в маршруте есть достаточно времени."
+          "uz": "Bu bekat Mushkan atrofidagi harakat haqida: yaqin Kichiksoy, Nurota tomonga qaytish va Sentob yoki Chuyani faqat safarda yetarli vaqt bo‘lganda qo‘shish."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/mushkan/mushkan-kichiksoy-nurata-route-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Village moments"
+      "ru": "Сельские моменты"
+      "uz": "Qishloq lahzalari"
+    "title":
+      "en": "Mushkan village moments"
+      "ru": "Сельские моменты в Мушкане"
+      "uz": "Mushkandagi qishloq lahzalari"
+    "description":
+      "en": "These moments keep the visit human: arrival from the Nurota side, a household table, bread or weaving, music, a seasonal dairy detail, and Kichiksoy nearby."
+      "ru": "Эти моменты делают визит живым: подъезд со стороны Нураты, домашний стол, хлеб или ткачество, музыка, сезонная молочная деталь и близкий Кичиксой."
+      "uz": "Bu lahzalar tashrifni insoniy qiladi: Nurota tomondan kirish, xonadon dasturxoni, non yoki to‘quv, musiqa, mavsumiy sut detali va yaqin Kichiksoy."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Nurota-side arrival"
+          "ru": "Подъезд со стороны Нураты"
+          "uz": "Nurota tomondan kirish"
+        "description":
+          "en": "Let the road into Mushkan set the first rhythm: mountain side, village scale, and a slower arrival."
+          "ru": "Пусть подъезд к Мушкану задаст первое ощущение: горная сторона, сельский масштаб и более спокойный приезд."
+          "uz": "Mushkanga kirish yo‘li birinchi ohangni bersin: tog‘ tomoni, qishloq miqyosi va sekinroq kelish."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Village overnight"
+          "ru": "Сельская ночёвка"
+          "uz": "Qishloqda tunash"
+        "description":
+          "en": "Keep an overnight simple: a village night, a meal, and unhurried time around the table."
+          "ru": "Оставьте ночёвку простой: сельский вечер, еда и неспешное время за столом."
+          "uz": "Tunash oddiy qolsin: qishloq oqshomi, taom va dasturxon atrofida shoshilmas vaqt."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Yurt-style pause"
+          "ru": "Юрточная пауза"
+          "uz": "O‘tov uslubidagi to‘xtash"
+        "description":
+          "en": "A yurt-style setting should feel like part of the rural stop, not a separate show."
+          "ru": "Юрточная среда должна ощущаться частью сельской остановки, а не отдельным зрелищем."
+          "uz": "O‘tov uslubidagi muhit alohida tomosha emas, qishloq bekatining bir qismi bo‘lib sezilsin."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Bread, weaving, and music"
+          "ru": "Хлеб, ткачество и музыка"
+          "uz": "Non, to‘quv va musiqa"
+        "description":
+          "en": "Bread-making, weaving, or music can give Mushkan its human center."
+          "ru": "Выпечка хлеба, ткачество или музыка могут дать Мушкану человеческий центр."
+          "uz": "Non yopish, to‘quv yoki musiqa Mushkanga insoniy markaz beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Seasonal milk tradition"
+          "ru": "Сезонная молочная традиция"
+          "uz": "Mavsumiy sut an’anasi"
+        "description":
+          "en": "Camel or goat-milk traditions belong when the season makes them part of village life."
+          "ru": "Традиции верблюжьего или козьего молока уместны, когда сезон делает их частью сельской жизни."
+          "uz": "Tuya yoki echki suti an’analari mavsum ularni qishloq hayotining bir qismiga aylantirganda mos keladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Kichiksoy pairing"
+          "ru": "Сочетание с Кичиксоем"
+          "uz": "Kichiksoy bilan juftlik"
+        "description":
+          "en": "Pair Mushkan with Kichiksoy when the route can stay close and return toward Nurata without rushing."
+          "ru": "Сочетайте Мушкан с Кичиксоем, когда маршрут может оставаться близким и спокойно вернуться к Нурате."
+          "uz": "Yo‘l yaqin qolib, Nurota tomonga shoshilmay qayta olsa, Mushkanni Kichiksoy bilan juftlang."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "Keep Mushkan small enough to feel real"
+      "ru": "Оставьте Мушкан достаточно малым и живым"
+      "uz": "Mushkan kichik va tirik sezilsin"
+    "description":
+      "en": "Mushkan is strongest when it has a modest role: a mountain village, a table, a craft or music moment, and one nearby continuation."
+      "ru": "Мушкан сильнее всего, когда у него скромная роль: горное село, стол, ремесло или музыка и одно близкое продолжение."
+      "uz": "Mushkan vazmin rolga ega bo‘lganda kuchli: tog‘ qishlog‘i, dasturxon, hunar yoki musiqa lahzasi va bitta yaqin davom."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Begin with the village"
+              "ru": "Начните с села"
+              "uz": "Qishloqdan boshlang"
+            "description":
+              "en": "Mushkan is stronger when the traveler first notices streets, slopes, and the approach from the Nurota side."
+              "ru": "Мушкан сильнее, когда путешественник сначала замечает улицы, склоны и подъезд со стороны Нураты."
+              "uz": "Sayohatchi avval ko‘chalar, yonbag‘irlar va Nurota tomonidan kirishni sezganda Mushkan kuchliroq."
+          - "type": "quote"
+            "quote":
+              "en": "Mushkan is strongest as a quiet village stop: mountain air, a household table, and one close continuation."
+              "ru": "Мушкан сильнее всего как тихая сельская остановка: горный воздух, домашний стол и одно близкое продолжение."
+              "uz": "Mushkan sokin qishloq bekati sifatida kuchli: tog‘ havosi, xonadon dasturxoni va bitta yaqin davom."
+          - "type": "dashTitle"
+            "title":
+              "en": "Let the table and hands lead"
+              "ru": "Пусть ведут стол и руки"
+              "uz": "Dasturxon va qo‘llar yetaklasin"
+            "description":
+              "en": "Bread, food, weaving, music, or a small household moment gives the stop a human center."
+              "ru": "Хлеб, еда, ткачество, музыка или небольшой домашний момент дают остановке человеческий центр."
+              "uz": "Non, taom, to‘quv, musiqa yoki kichik xonadon lahzasi bekatga insoniy markaz beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the next move close"
+              "ru": "Держите следующий ход близким"
+              "uz": "Keyingi harakat yaqin qolsin"
+            "description":
+              "en": "The village pairs best with nearby Nurota stops when the route returns cleanly to the regional line."
+              "ru": "Село лучше сочетается с соседними нуратинскими остановками, когда маршрут чисто возвращается к региональной линии."
+              "uz": "Qishloq yaqin Nurota bekatlari bilan yo‘l hududiy chiziqqa toza qaytganda yaxshi juftlanadi."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Choose Mushkan for a softer Nurota-side village stop, not for a crowded activity list."
+              "ru": "Выбирайте Мушкан для мягкой сельской остановки со стороны Нураты, а не для перегруженного списка занятий."
+              "uz": "Mushkanni mashg‘ulotlarga to‘la dastur uchun emas, Nurota tomonidagi yumshoq qishloq bekati uchun tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before you go Status"
+                  "ru": "Перед поездкой Статус"
+                  "uz": "Borishdan oldin Maqom"
+                "description":
+                  "en": "Nurota District tourism village on the quieter mountain side."
+                  "ru": "Туристическое село Нуратинского района на более тихой горной стороне."
+                  "uz": "Nurota tumanidagi sokinroq tog‘ tomonidagi turizm qishlog‘i."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Setting"
+                  "ru": "Среда"
+                  "uz": "Muhit"
+                "description":
+                  "en": "Mountain village atmosphere, road approach, and small rural scale."
+                  "ru": "Горная сельская атмосфера, подъездная дорога и малый сельский масштаб."
+                  "uz": "Tog‘ qishlog‘i havosi, kirish yo‘li va kichik qishloq miqyosi."
+              - "icon": "Sun"
+                "title":
+                  "en": "People and table"
+                  "ru": "Люди и стол"
+                  "uz": "Odamlar va dasturxon"
+                "description":
+                  "en": "Household food, bread-making, weaving, music, and village encounters carry the stop."
+                  "ru": "Домашняя еда, выпечка хлеба, ткачество, музыка и сельские встречи несут остановку."
+                  "uz": "Xonadon taomi, non yopish, to‘quv, musiqa va qishloq uchrashuvlari bekatni olib boradi."
+              - "icon": "Route"
+                "title":
+                  "en": "Route role"
+                  "ru": "Место в маршруте"
+                  "uz": "Yo‘ldagi roli"
+                "description":
+                  "en": "Pairs naturally with Kichiksoy, Nurata, Sentob, or Chuya when the route stays close."
+                  "ru": "Естественно сочетается с Кичиксоем, Нуратой, Сентобом или Чуёй, когда маршрут остаётся близким."
+                  "uz": "Yo‘l yaqin qolsa, Kichiksoy, Nurota, Sentob yoki Chuya bilan tabiiy juftlanadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby route stops"
+      "ru": "Ближайшие остановки"
+      "uz": "Yaqin bekatlar"
+    "title":
+      "en": "Kichiksoy, Nurata, Sentob, and Chuya"
+      "ru": "Кичиксой, Нурата, Сентоб и Чуя"
+      "uz": "Kichiksoy, Nurota, Sentob va Chuya"
+    "description":
+      "en": "Kichiksoy is the closest village pairing, Nurata anchors the wider route, and Sentob or Chuya can extend the mountain-village sequence."
+      "ru": "Кичиксой — ближайшая сельская пара, Нурата держит широкий маршрут, а Сентоб или Чуя могут продолжить горно-сельскую последовательность."
+      "uz": "Kichiksoy eng yaqin qishloq jufti, Nurota keng yo‘lni tutadi, Sentob yoki Chuya esa tog‘ qishloqlari ketma-ketligini davom ettirishi mumkin."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Kichiksoy"
+          "ru": "Кичиксой"
+          "uz": "Kichiksoy"
+        "description":
+          "en": "Kichiksoy brings the Nurota village route down to village scale: Kattasoy MFY, a quiet road toward Mushkan, and a household table, bread, weaving, or music when it can be arranged."
+          "ru": "Кичиксой делает нуратинский сельский маршрут камернее: КФЙ Каттасой, спокойная дорога к Мушкану, домашний стол, хлеб, ткачество или музыка по договорённости."
+          "uz": "Kichiksoy Nurota qishloq yo‘lini qishloq miqyosiga olib tushiradi: Kattasoy MFY, Mushkan tomonga sokin yo‘l, kelishilsa xonadon dasturxoni, non, to‘quv yoki musiqa."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/kichiksoy"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/mushkan-next-nurata.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Nurata"
+          "ru": "Нурата"
+          "uz": "Nurota"
+        "description":
+          "en": "Nurata is the spring town before the Kyzylkum road: Chashma water, mosque shade, Nur Fortress above town, and the onward road to Aydarkul or Sentyab."
+          "ru": "Нурата — город источника перед дорогой в Кызылкум: вода Чашмы, тень мечети, крепость Нур над городом и продолжение к Айдаркулю или Сентобу."
+          "uz": "Nurota Qizilqum yo‘lidan oldingi buloq shahri: Chashma suvi, masjid soyasi, shahar ustidagi Nur qalʼasi va Aydarko‘l yoki Sentobga davom etadigan yo‘l."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/nurata"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/mushkan-next-sentyab.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Sentob"
+          "ru": "Сентоб"
+          "uz": "Sentob"
+        "description":
+          "en": "Sentob slows the Nurata-Aydarkul road at village scale: stone walls, shaded courtyards, garden produce, and Nuratau foothill views."
+          "ru": "Сентоб замедляет дорогу Нурата-Айдаркуль в сельском масштабе: каменные стены, тенистые дворы, садовые продукты и виды предгорий Нуратау."
+          "uz": "Sentob Nurota-Aydarko‘l yo‘lini qishloq miqyosida sekinlashtiradi: tosh devorlar, soyali hovlilar, bog‘ mahsuloti va Nurota tog‘oldi manzaralari."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/sentyab"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Chuya"
+          "ru": "Чуя"
+          "uz": "Chuya"
+        "description":
+          "en": "Chuya is a Nurata District tourism mahalla where foothill air, craft hands, qurut, bread, and carefully chosen ways to stay longer add a human stop near Nurata."
+          "ru": "Чуя — туристическая махалля Нуратинского района, где воздух предгорий, руки мастеров, курут, лепёшка и аккуратно выбранные варианты ночёвки добавляют маршруту живую сельскую остановку."
+          "uz": "Chuya Nurota tumanidagi turizm mahallasi; tog‘oldi havosi, usta qo‘llari, qurut, non va ehtiyotkor tanlangan tunash g‘oyalari Nurota yaqinida jonli qishloq bekatini qo‘shadi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/chuya"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Mushkan in the day plan"
+      "ru": "Как поставить Мушкан в план дня"
+      "uz": "Mushkanni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Mushkan?"
+          "ru": "Сколько времени группам стоит проводить в Мушкан?"
+          "uz": "Mushkanda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “A Nurota mountain village for bread, craft, music, and the Kichiksoy road”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Горное село Нураты для хлеба, ремесла, музыки и дороги к Кичиксою»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Non, hunar, musiqa va Kichiksoy yo‘li uchun Nurota tog‘ qishlog‘i»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Mushkan be a walkable core or a base for day trips?"
+          "ru": "Мушкан — это пешеходное ядро или база для выездов?"
+          "uz": "Mushkan piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Mushkan's centre?"
+          "ru": "Где лучше ночевать относительно центра Мушкан?"
+          "uz": "Mushkan markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/mushkan.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Mushkan stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Мушкан» в программу (Узбекистан)"
+      "uz": "Mushkan bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Mushkan | TourLink"
+    "ru": "Мушкан | TourLink"
+    "uz": "Mushkan | TourLink"
+  "metaDescription":
+    "en": "Mushkan sits in Nurota District on the mountain side of the Nurata, Aydarkul & Kyzylkum route. It suits a modest village stop: a household meal, bread-making, weaving or music, and a nearby continuation toward Kichiksoy or Nurata."
+    "ru": "Мушкан находится в Нуратинском районе, на горной стороне маршрута Нурата, Айдаркуль и Кызылкум. Село подходит для спокойной сельской остановки: домашний стол, выпечка хлеба, ткачество или музыка и близкое продолжение к Кичиксою или Нурате."
+    "uz": "Mushkan Nurota tumanida, Nurota, Aydarko‘l va Qizilqum yo‘lining tog‘ tomonida joylashgan. Bu yer xonadon dasturxoni, non yopish, to‘quv yoki musiqa va Kichiksoy yoki Nurota tomon yaqin davom uchun sokin qishloq bekati bo‘la oladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "nurata-aydarkul-and-kyzylkum"
+"latitude": 40.4307625
+"longitude": 65.0659844

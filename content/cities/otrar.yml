@@ -1,0 +1,567 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "otrar"
+  "ru": "otrar"
+  "uz": "otrar"
+"title":
+  "en": "Otrar"
+  "ru": "Отрар"
+  "uz": "Oʻtror"
+"subtitle":
+  "en": "Museum rooms, earthen ruins, and a shrine road near Shaulder"
+  "ru": "Музейные залы, земляные руины и дорога к святыне у Шаульдера"
+  "uz": "Shauildir yaqinidagi muzey zallari, tuproq xarobalar va ziyoratgoh yoʻli"
+"excerpt":
+  "en": "Otrar asks for slower looking. In Shaulder, the museum gives names to ceramics, coins, water-system fragments, bathhouse material, and the wider oasis. Outside, Otrartobe is low walls, gate lines, sun, and open earth; nearby Arystan Bab changes the road into a living shrine visit."
+  "ru": "Отрар требует медленного взгляда. В Шаульдере музей даёт имена керамике, монетам, фрагментам водных систем, материалам бань и всему оазису. Снаружи Отрартобе — это низкие стены, линии ворот, солнце и открытая земля; рядом Арыстан-Баб переводит дорогу к живой святыне."
+  "uz": "Oʻtror sekinroq qarashni soʻraydi. Shauildirdagi muzey sopol, tangalar, suv tizimi parchalari, hammom materiallari va keng vohaga nom beradi. Tashqarida Otrartobe past devorlar, darvoza chiziqlari, quyosh va ochiq tuproq bo‘lib ko‘rinadi; yaqin Arystan Bab esa yoʻlni tirik ziyoratgoh tashrifiga buradi."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "Otrar"
+      "ru": "Отрар"
+      "uz": "Oʻtror"
+    "title":
+      "en": "Otrar"
+      "ru": "Отрар"
+      "uz": "Oʻtror"
+    "description":
+      "en": "Museum rooms, earthen ruins, and a shrine road near Shaulder"
+      "ru": "Музейные залы, земляные руины и дорога к святыне у Шаульдера"
+      "uz": "Shauildir yaqinidagi muzey zallari, tuproq xarobalar va ziyoratgoh yoʻli"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Otrar"
+      "ru": "Отрар"
+      "uz": "Oʻtror"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Otrar asks for slower looking."
+              "ru": "Отрар требует медленного взгляда."
+              "uz": "Oʻtror sekinroq qarashni soʻraydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "The visit holds together when it begins with museum context, moves onto the exposed settlement with care, and gives Arystan Bab enough space for shrine etiquette."
+              "ru": "Визит складывается лучше, когда сначала появляется музейный контекст, затем открытое городище проходится бережно, а Арыстан-Баб получает время для этикета живой святыни."
+              "uz": "Tashrif avval muzey mazmunidan boshlanib, keyin ochiq shahar xarobasi ehtiyotkor ko‘rilganda va Arystan Bab ziyorat odobi uchun yetarli vaqt olganda bir butun bo‘ladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Begin indoors so the walls and gate lines outside carry meaning. Then decide how much to add from the settlement and shrine after checking heat, access, conservation rules, and etiquette."
+              "ru": "Начните в помещении, чтобы стены и линии ворот снаружи обрели смысл. После этого решайте, сколько добавить от городища и святыни, с учётом жары, доступа, правил сохранения и этикета."
+              "uz": "Avval bino ichidan boshlang, shunda tashqaridagi devor va darvoza chiziqlari maʼno oladi. Keyin issiq, kirish, saqlash qoidalari va odobni tekshirib, qadimgi shahar va ziyoratgohdan qancha qoʻshishni tanlang."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Otrar as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Отрар как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Oʻtror o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Start in Shaulder, then move into the oasis"
+      "ru": "Начните в Шаульдере, затем выходите в оазис"
+      "uz": "Shauildirdan boshlang, keyin vohaga chiqing"
+    "description":
+      "en": "The visit holds together when it begins with museum context, moves onto the exposed settlement with care, and gives Arystan Bab enough space for shrine etiquette."
+      "ru": "Визит складывается лучше, когда сначала появляется музейный контекст, затем открытое городище проходится бережно, а Арыстан-Баб получает время для этикета живой святыни."
+      "uz": "Tashrif avval muzey mazmunidan boshlanib, keyin ochiq shahar xarobasi ehtiyotkor ko‘rilganda va Arystan Bab ziyorat odobi uchun yetarli vaqt olganda bir butun bo‘ladi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Yoʻl xaritasi"
+      "title":
+        "en": "Turkistan, Shaulder, Otrartobe, and Arystan Bab"
+        "ru": "Туркестан, Шаульдер, Отрартобе и Арыстан-Баб"
+        "uz": "Turkiston, Shauildir, Otrartobe va Arystan Bab"
+      "description":
+        "en": "The map keeps the scale honest: Turkistan is the nearby heritage city, Shaulder holds the museum, Otrartobe marks the ancient settlement, and Arystan Bab sits close enough to shape the same road."
+        "ru": "Карта держит масштаб честным: Туркестан — ближайший город наследия, Шаульдер — музей, Отрартобе — древнее городище, а Арыстан-Баб достаточно близко, чтобы менять смысл этой же дороги."
+        "uz": "Xarita masofani rost ko‘rsatadi: Turkiston — yaqin meros shahri, Shauildir — muzey, Otrartobe — qadimgi shahar, Arystan Bab esa shu yoʻl maʼnosini o‘zgartiradigan yaqin ziyoratgoh."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 42.911589
+      "longitude": 68.315792
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "otrar-ancient-settlement"
+      - "entityType": "attraction"
+        "entitySlug": "otyrar-state-archaeological-museum-reserve"
+      - "entityType": "attraction"
+        "entitySlug": "arystan-bab-mausoleum"
+    "aside":
+      "eyebrow":
+        "en": "First decision"
+        "ru": "Первое решение"
+        "uz": "Birinchi qaror"
+      "title":
+        "en": "Museum first, open ruins second, shrine with care"
+        "ru": "Сначала музей, затем руины, святыня — с осторожностью"
+        "uz": "Avval muzey, keyin ochiq xarobalar, ziyoratgoh esa ehtiyotkorlik bilan"
+      "description":
+        "en": "Begin indoors so the walls and gate lines outside carry meaning. Then decide how much to add from the settlement and shrine after checking heat, access, conservation rules, and etiquette."
+        "ru": "Начните в помещении, чтобы стены и линии ворот снаружи обрели смысл. После этого решайте, сколько добавить от городища и святыни, с учётом жары, доступа, правил сохранения и этикета."
+        "uz": "Avval bino ichidan boshlang, shunda tashqaridagi devor va darvoza chiziqlari maʼno oladi. Keyin issiq, kirish, saqlash qoidalari va odobni tekshirib, qadimgi shahar va ziyoratgohdan qancha qoʻshishni tanlang."
+      "items":
+        - "title":
+            "en": "Arrive from Turkistan or Shymkent"
+            "ru": "Приехать из Туркестана или Шымкента"
+            "uz": "Turkiston yoki Chimkentdan yetib boring"
+          "description":
+            "en": "Turkistan gives the closest heritage approach; Shymkent works for a wider southern route with more services."
+            "ru": "Туркестан даёт ближайший подход через наследие; Шымкент удобен для более широкого южного маршрута с большим числом сервисов."
+            "uz": "Turkiston eng yaqin meros yondashuvini beradi; Chimkent esa xizmatlari ko‘proq bo‘lgan kengroq janubiy yo‘l uchun qulay."
+        - "title":
+            "en": "Begin at the museum"
+            "ru": "Начать с музея"
+            "uz": "Muzeydan boshlang"
+          "description":
+            "en": "Shaulder's museum gives the objects, maps, and oasis context before the open site."
+            "ru": "Музей в Шаульдере даёт предметы, карты и контекст оазиса перед открытым участком."
+            "uz": "Shauildirdagi muzey ochiq maydondan oldin buyumlar, xaritalar va voha mazmunini beradi."
+        - "title":
+            "en": "Walk Otrartobe with care"
+            "ru": "Пройти Отрартобе бережно"
+            "uz": "Otrartobeni ehtiyotkor ko‘ring"
+          "description":
+            "en": "Low walls and earth lines need guidance, conservation paths, water, footwear, and cooler hours."
+            "ru": "Низкие стены и линии земли требуют объяснения, правил сохранения, воды, обуви и более прохладных часов."
+            "uz": "Past devorlar va yer chiziqlari izoh, saqlash yoʻllari, suv, poyabzal va salqinroq soatlarni talab qiladi."
+        - "title":
+            "en": "Add Arystan Bab respectfully."
+            "ru": "Добавить Арыстан-Баб уважительно."
+            "uz": "Arystan Babni hurmat bilan qoʻshing."
+          "description":
+            "en": "The shrine is close enough for the same road, but dress, photos, and prayer-space boundaries need a local check."
+            "ru": "Святыня достаточно близко для той же дороги, но одежду, фото и границы молитвенного пространства нужно проверить на месте."
+            "uz": "Ziyoratgoh shu yoʻlga qoʻshish uchun yaqin, lekin kiyim, surat va ibodat hududi chegaralari mahalliy tekshiruvni talab qiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "The three anchors of an Otrar visit"
+      "ru": "Три опоры визита в Отрар"
+      "uz": "Oʻtror tashrifining uch tayanchi"
+    "description":
+      "en": "Keep the first Otrar visit focused on Otyrar Museum-Reserve, Otrar Ancient Settlement, and Arystan Bab. Kuryktobe, Kokmardan, Altyntobe, and other oasis sites belong to specialist archaeology planning until access, conservation, and guide support are confirmed."
+      "ru": "Первый визит в Отрар лучше держать вокруг Отырарского музея-заповедника, городища Отрар и Арыстан-Баба. Курыктобе, Кокмардан, Алтынтобе и другие объекты оазиса остаются специальной археологической темой, пока не подтверждены доступ, сохранность и сопровождение."
+      "uz": "Oʻtrorga birinchi tashrifni Oʻtror muzey-qoʻriqxonasi, Qadimgi Oʻtror shahri va Arystan Bab atrofida tuting. Kuryktobe, Kokmardan, Altyntobe va boshqa voha obyektlari kirish, saqlash va mahalliy izoh tasdiqlanmaguncha maxsus arxeologik mavzu bo‘lib qoladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Otrar Ancient Settlement"
+          "ru": "Городище Отрар"
+          "uz": "Qadimgi Oʻtror shahri"
+        "description":
+          "en": "Otrar is not a polished monument that explains itself at first glance. The settlement spreads low across open ground near Shaulder, where earth walls, gate traces, bathhouse evidence, and museum artifacts make the old oasis feel present again. Come after the Otyrar museum if you "
+          "ru": "Отрар не похож на отполированный памятник, который всё объясняет с первого взгляда. Городище лежит низко на открытом участке у Шаульдера: земляные стены, следы ворот, материалы бани и музейные находки возвращают старый оазис в настоящее. Если возможно, приезжайте после Отырарског"
+          "uz": "Oʻtror bir qarashda hammasini tushuntirib beradigan silliq yodgorlik emas. Shauildir yaqinidagi ochiq maydonda shahar past yotadi: tuproq devorlar, darvoza izlari, hammom dalillari va muzey topilmalari eski vohani yana bugungi manzaraga qaytaradi. Imkon bo‘lsa, avval Oʻtror muzey"
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/otrar/otrar-ancient-settlement"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Otyrar State Archaeological Museum-Reserve"
+          "ru": "Отырарский государственный археологический музей-заповедник"
+          "uz": "Oʻtror davlat arxeologik muzey-qoʻriqxonasi"
+        "description":
+          "en": "Begin Otrar indoors. In Shaulder, the museum-reserve brings the oasis into focus through artifacts from the Bronze Age to the 17th century: ceramics, tools, coins, tilework, water-supply pieces, bathhouse material, and ethnographic objects. From here, Otrartobe, Arystan Bab, and "
+          "ru": "Начните Отрар в помещении. В Шаульдере музей-заповедник собирает оазис через находки от бронзового века до XVII века: керамику, инструменты, монеты, плитку, части водоснабжения, материалы бани и этнографические предметы. После этого Отрартобе, Арыстан-Баб и памятники оазиса склад"
+          "uz": "Oʻtrorni binodan boshlang. Shauildirdagi muzey-qoʻriqxona vohani Bronza davridan XVII asrgacha bo‘lgan topilmalar orqali ko‘rsatadi: sopol, asboblar, tangalar, koshinlar, suv tizimi qismlari, hammom materiallari va etnografik buyumlar. Shundan keyin Otrartobe, Arystan Bab va voha"
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/otrar/otyrar-state-archaeological-museum-reserve"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Arystan Bab Mausoleum"
+          "ru": "Мавзолей Арыстан-Баб"
+          "uz": "Arystan Bab maqbarasi"
+        "description":
+          "en": "Arystan Bab turns the Otrar road from archaeology alone toward a living shrine. After museum rooms and open earthworks, you arrive where people pray, remember local stories, and move with care. Give the stop its own calm place in the journey, with dress, conduct, and photo rules "
+          "ru": "Арыстан-Баб переводит дорогу через Отрар из одной археологии к живой святыне. После музейных залов и открытых раскопов вы приезжаете туда, где люди молятся, хранят местные предания и движутся осторожнее. Такому визиту нужно собственное спокойное место: одежду, поведение и правила"
+          "uz": "Arystan Bab Oʻtror yoʻlini faqat arxeologiya emas, tirik ziyoratgoh tomon buradi. Muzey zallari va ochiq arxeologik maydondan keyin siz odamlar ibodat qiladigan, mahalliy rivoyatlarni eslaydigan va ehtiyotkorroq harakatlanadigan joyga kelasiz. Bu toʻxtash uchun alohida sokin vaqt"
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/otrar/arystan-bab-mausoleum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Otrar moments"
+      "ru": "Моменты Отрара"
+      "uz": "Oʻtror lahzalari"
+    "title":
+      "en": "Museum, open earth, living shrine"
+      "ru": "Музей, открытая земля и живая святыня"
+      "uz": "Muzey, ochiq tuproq va tirik ziyoratgoh"
+    "description":
+      "en": "Otrar's city-place story has three useful moments: objects that prepare the eye, open ground that needs interpretation, and a shrine stop shaped by etiquette."
+      "ru": "История Отрара как места держится на трёх моментах: предметы готовят взгляд, открытая земля требует объяснения, а остановка у святыни задаётся этикетом."
+      "uz": "Oʻtrorning joy sifatidagi hikoyasi uch lahzaga tayanadi: buyumlar ko‘zni tayyorlaydi, ochiq tuproq izoh talab qiladi, ziyoratgohdagi toʻxtash esa odob bilan shakllanadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Artifacts before open earth"
+          "ru": "Находки до открытой земли"
+          "uz": "Ochiq tuproqdan oldin topilmalar"
+        "description":
+          "en": "In Shaulder, ceramics, coins, water-system fragments, and bathhouse material help the ruins feel like a city of craft, trade, and daily life."
+          "ru": "В Шаульдере керамика, монеты, фрагменты водных систем и материалы бань помогают увидеть в руинах город ремесла, торговли и повседневной жизни."
+          "uz": "Shauildirda sopol, tangalar, suv tizimi parchalari va hammom materiallari xarobalarni hunar, savdo va kundalik hayotga ega shahar sifatida ko‘rsatadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Otrartobe on foot"
+          "ru": "Отрартобе пешком"
+          "uz": "Otrartobe piyoda"
+        "description":
+          "en": "Low walls, gate lines, dry ground, and fragments of urban life ask for a slower walk where the guide helps the eye find the city again."
+          "ru": "Низкие стены, линии ворот, сухая земля и фрагменты городской жизни требуют неспешной прогулки, где гид помогает снова увидеть город."
+          "uz": "Past devorlar, darvoza chiziqlari, quruq tuproq va shahar hayoti parchalari shoshilmas yurishni talab qiladi; gid ko‘zga yashiringan shaharni qayta ko‘rsatadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Arystan Bab with care"
+          "ru": "Арыстан-Баб бережно"
+          "uz": "Arystan Bab ehtiyotkorlik bilan"
+        "description":
+          "en": "The nearby mausoleum turns the archaeological road toward a living religious place, so dress, photos, and prayer-space boundaries should be checked locally."
+          "ru": "Близкий мавзолей переводит археологическую дорогу к живому религиозному месту, поэтому одежду, фото и границы молитвенных зон нужно проверить на месте."
+          "uz": "Yaqin maqbara arxeologik yoʻlni tirik diniy joyga buradi, shuning uchun kiyim, surat va ibodat hududi chegaralari mahalliy tekshirilishi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "Plan Otrar as an archaeological area, not a city walk"
+      "ru": "Планируйте Отрар как археологическую зону, а не городскую прогулку"
+      "uz": "Oʻtrorni shahar sayri emas, arxeologik hudud sifatida rejalang"
+    "description":
+      "en": "Otrar needs a slower plan than a city walk in Turkistan or Shymkent. Museum halls, exposed ground, and shrine space each ask for different timing, with heat, conservation rules, road time, and local access checks shaping the visit."
+      "ru": "Отрар требует более медленного плана, чем городская прогулка в Туркестане или Шымкенте. Музейные залы, открытое городище и святыня требуют разного времени, а визит формируют жара, правила сохранения, дорога и актуальные проверки доступа."
+      "uz": "Oʻtror Turkiston yoki Chimkentdagi shahar sayridan ko‘ra sekinroq reja talab qiladi. Muzey zallari, ochiq qadimgi shahar va ziyoratgoh har biri alohida vaqt soʻraydi; tashrifni issiq, saqlash qoidalari, yoʻl va mahalliy kirish tekshiruvlari belgilaydi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Begin with museum context"
+              "ru": "Начните с музейного контекста"
+              "uz": "Muzey mazmunidan boshlang"
+            "description":
+              "en": "The museum holds ceramics, tools, coins, water-system fragments, bathhouse material, and the wider Otyrar oasis story. That context helps the open site feel inhabited rather than empty."
+              "ru": "В музее есть керамика, инструменты, монеты, фрагменты водных систем, материалы бань и история Отырарского оазиса. После этого открытый участок меньше похож на пустую землю."
+              "uz": "Muzeyda sopol, asboblar, tangalar, suv tizimi parchalari, hammom materiallari va Oʻtror vohasi hikoyasi bor. Bu mazmun ochiq maydonni bo‘sh yer emas, yashagan shahar sifatida ko‘rsatadi."
+          - "type": "quote"
+            "quote":
+              "en": "Otrar starts to speak when the museum gives the objects names and the open ground is treated as a city, not as an empty ruin."
+              "ru": "Отрар оживает, когда музей даёт предметам имена, а открытая земля воспринимается как город, а не пустые руины."
+              "uz": "Muzey buyumlarga nom berganda va ochiq tuproq bo‘sh xaroba emas, shahar sifatida ko‘rilganda Oʻtror jonlanadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Protect the open site"
+              "ru": "Берегите открытый участок"
+              "uz": "Ochiq maydonni ehtiyot qiling"
+            "description":
+              "en": "Otrartobe is not a finished monument. Walk only where access and conservation rules allow, avoid fragile edges, and let the guide explain what low walls and ground lines mean."
+              "ru": "Отрартобе не выглядит как законченный памятник. Идите только там, где позволяют доступ и правила сохранения, не выходите на хрупкие края и дайте гиду объяснить линии стен и земли."
+              "uz": "Otrartobe tayyor yodgorlikka o‘xshamaydi. Faqat kirish va saqlash qoidalari ruxsat bergan joydan yuring, mo‘rt chetlarga chiqmang va gid past devorlar hamda tuproq chiziqlari nimani anglatishini tushuntirsin."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep shrine etiquette separate."
+              "ru": "Оставьте святыне отдельный этикет."
+              "uz": "Ziyoratgoh odobini alohida saqlang."
+            "description":
+              "en": "Arystan Bab belongs close to Otrar, but it asks for a living-shrine approach: modest clothing, quiet movement, photo caution, and current local advice before arrival."
+              "ru": "Арыстан-Баб близок к Отрару, но требует подхода живой святыни: скромной одежды, тихого движения, осторожности с фото и актуального местного совета до приезда."
+              "uz": "Arystan Bab Oʻtrorga yaqin, lekin tirik ziyoratgoh yondashuvini soʻraydi: kamtar kiyim, sokin harakat, suratga ehtiyotkorlik va kelishdan oldingi mahalliy maslahat."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Вывод для путешественника"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Begin with museum context, walk Otrartobe gently, and add Arystan Bab only when the route can keep a respectful pace."
+              "ru": "Начните с музейного контекста, пройдите Отрартобе бережно и добавляйте Арыстан-Баб только тогда, когда маршрут сохраняет уважительный темп."
+              "uz": "Muzey mazmunidan boshlang, Otrartobeni ehtiyotkor ko‘ring va Arystan Babni yoʻl hurmatli surʼatni saqlay olgandagina qoʻshing."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "Otrar sits in Turkistan Region around the museum, Otrartobe, and nearby Arystan Bab."
+                  "ru": "Отрар находится в Туркестанской области вокруг музея, Отрартобе и близкого Арыстан-Баба."
+                  "uz": "Oʻtror Turkiston viloyatida, muzey, Otrartobe va yaqin Arystan Bab atrofida joylashgan."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main anchors"
+                  "ru": "Главные ориентиры"
+                  "uz": "Asosiy moʻljallar"
+                "description":
+                  "en": "These three stops carry the first public visit."
+                  "ru": "Эти три остановки держат первый публичный визит."
+                  "uz": "Birinchi ommaviy tashrifni shu uch toʻxtash ushlab turadi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Time"
+                  "ru": "Время"
+                  "uz": "Vaqt"
+                "description":
+                  "en": "Exact road time, museum hours, tickets, and access should be checked close to travel."
+                  "ru": "Дорогу, часы музея, билеты и доступ нужно проверять ближе к поездке."
+                  "uz": "Yoʻl, muzey soati, chipta va kirish safarga yaqin tekshiriladi."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and heat"
+                  "ru": "Сезон и жара"
+                  "uz": "Mavsum va issiq"
+                "description":
+                  "en": "Summer sun, wind, uneven ground, shade, water, and footwear matter more than they would in a city center."
+                  "ru": "Летнее солнце, ветер, неровная земля, тень, вода и обувь важнее, чем в городском центре."
+                  "uz": "Yozgi quyosh, shamol, notekis yer, soya, suv va poyabzal shahar markazidagidan ko‘ra muhimroq."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before travel"
+                  "ru": "Перед поездкой"
+                  "uz": "Safardan oldin"
+                "description":
+                  "en": "Check museum hours, ticketing, guide language, site access, conservation paths, shrine etiquette, photo rules, and road timing."
+                  "ru": "Часы музея, билеты, язык гида, доступ на участок, правила сохранения, этикет святыни, фото и дорогу."
+                  "uz": "Muzey soati, chipta, gid tili, maydon kirishi, saqlash yoʻllari, ziyorat odobi, surat qoidalari va yoʻl vaqti."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqin joylar"
+    "title":
+      "en": "Turkistan and Shymkent frame the Otrar road"
+      "ru": "Туркестан и Шымкент задают рамку дороги к Отрару"
+      "uz": "Turkiston va Chimkent Oʻtror yoʻliga ramka beradi"
+    "description":
+      "en": "Turkistan is the closest heritage city for the Otrar road, while Shymkent gives the wider southern approach and more services. Sayram and Sauran can fit broader plans, but they should not crowd the first Otrar visit."
+      "ru": "Туркестан — ближайший город наследия для дороги к Отрару, а Шымкент даёт более широкий южный подход и больше сервисов. Сайрам и Сауран могут войти в расширенный план, но не должны перегружать первый визит в Отрар."
+      "uz": "Turkiston Oʻtror yoʻli uchun eng yaqin meros shahri, Chimkent esa kengroq janubiy yondashuv va ko‘proq xizmatlarni beradi. Sayram va Sauran kengroq rejaga kirishi mumkin, lekin birinchi Oʻtror tashrifini haddan tashqari to‘ldirmasligi kerak."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Turkistan"
+          "ru": "Туркестан"
+          "uz": "Turkiston"
+        "description":
+          "en": "Turkistan brings southern Kazakhstan into focus through the Yasawi mausoleum, Azret Sultan, pilgrim courtyards, and roads toward Otrar, Sauran, and Shymkent."
+          "ru": "Туркестан собирает южный Казахстан вокруг мавзолея Ясави, «Азрет Султан», паломнических дворов и дорог к Отрару, Саурану и Шымкенту."
+          "uz": "Turkiston janubiy Qozogʻistonni Yasaviy maqbarasi, Azret Sulton, ziyorat hovlilari va Oʻtror, Sauran, Chimkent tomonga yoʻllar orqali tushunarli qiladi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/turkistan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Shymkent"
+          "ru": "Шымкент"
+          "uz": "Chimkent"
+        "description":
+          "en": "Shymkent brings southern Kazakhstan down to street level: old-city traces, Central and Upper Bazaar, and road choices toward Turkistan, Otrar, Sayram, and the Western Tian Shan."
+          "ru": "Шымкент показывает южный Казахстан на уровне улиц: следы старого города, Центральный и Верхний базар и дороги к Туркестану, Отрару, Сайраму и Западному Тянь-Шаню."
+          "uz": "Chimkent janubiy Qozogʻistonni ko‘cha darajasida ko‘rsatadi: eski shahar izlari, Markaziy va Yuqori bozor hamda Turkiston, Oʻtror, Sayram va Gʻarbiy Tyan-Shan yoʻllari."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/shymkent"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Otrar in the day plan"
+      "ru": "Как поставить Отрар в план дня"
+      "uz": "Oʻtrorni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Otrar?"
+          "ru": "Сколько времени группам стоит проводить в Отрар?"
+          "uz": "Oʻtrorda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Museum rooms, earthen ruins, and a shrine road near Shaulder”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Музейные залы, земляные руины и дорога к святыне у Шаульдера»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Shauildir yaqinidagi muzey zallari, tuproq xarobalar va ziyoratgoh yoʻli»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Otrar be a walkable core or a base for day trips?"
+          "ru": "Отрар — это пешеходное ядро или база для выездов?"
+          "uz": "Oʻtror piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Otrar's centre?"
+          "ru": "Где лучше ночевать относительно центра Отрар?"
+          "uz": "Oʻtror markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Otrar stop into your Kazakhstan programme"
+      "ru": "Встройте остановку «Отрар» в программу (Казахстан)"
+      "uz": "Oʻtror bekatini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Otrar | TourLink"
+    "ru": "Отрар | TourLink"
+    "uz": "Oʻtror | TourLink"
+  "metaDescription":
+    "en": "Otrar asks for slower looking. In Shaulder, the museum gives names to ceramics, coins, water-system fragments, bathhouse material, and the wider oasis. Outside, Otrartobe is low walls, gate lines, sun, and open earth; nearby Arystan Bab changes the road into a living shrine visit."
+    "ru": "Отрар требует медленного взгляда. В Шаульдере музей даёт имена керамике, монетам, фрагментам водных систем, материалам бань и всему оазису. Снаружи Отрартобе — это низкие стены, линии ворот, солнце и открытая земля; рядом Арыстан-Баб переводит дорогу к живой святыне."
+    "uz": "Oʻtror sekinroq qarashni soʻraydi. Shauildirdagi muzey sopol, tangalar, suv tizimi parchalari, hammom materiallari va keng vohaga nom beradi. Tashqarida Otrartobe past devorlar, darvoza chiziqlari, quyosh va ochiq tuproq bo‘lib ko‘rinadi; yaqin Arystan Bab esa yoʻlni tirik ziyoratgoh tashrifiga buradi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "turkistan-shymkent-and-southern-silk-road"
+"latitude": 42.7767
+"longitude": 68.3692

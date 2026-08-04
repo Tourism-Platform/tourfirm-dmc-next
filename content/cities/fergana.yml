@@ -1,0 +1,553 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "fergana"
+  "ru": "fergana"
+  "uz": "fergana"
+"title":
+  "en": "Fergana"
+  "ru": "Фергана"
+  "uz": "Fargʻona"
+"subtitle":
+  "en": "A practical city stop in the Fergana Valley"
+  "ru": "Практичная городская остановка в Ферганской долине"
+  "uz": "Fargʻona vodiysidagi amaliy shahar toʻxtami"
+"excerpt":
+  "en": "Fergana is not the valley's palace, silk, or ceramics headline. It helps in another way: as an arrival city, an overnight stop, a museum introduction, and a measured place to choose the next road through the Valley."
+  "ru": "Фергана не главный дворцовый, шёлковый или керамический образ долины. Она помогает иначе: как город прибытия или ночёвки, музейное введение и спокойное место, где становится понятнее следующая дорога по долине."
+  "uz": "Fargʻona vodiyning saroy, ipak yoki kulolchilik boʻyicha bosh manzili emas. U boshqacha yordam beradi: kelish yoki tunash shahri, muzey orqali kirish nuqtasi va vodiy boʻylab keyingi yoʻlni tanlash uchun xotirjam joy sifatida."
+"heroImage": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/fergana.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/fergana.webp"
+    "imageAlt":
+      "en": "Fergana"
+      "ru": "Фергана"
+      "uz": "Fargʻona"
+    "title":
+      "en": "Fergana"
+      "ru": "Фергана"
+      "uz": "Fargʻona"
+    "description":
+      "en": "A practical city stop in the Fergana Valley"
+      "ru": "Практичная городская остановка в Ферганской долине"
+      "uz": "Fargʻona vodiysidagi amaliy shahar toʻxtami"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Fergana"
+      "ru": "Фергана"
+      "uz": "Fargʻona"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Fergana is not the valley's palace, silk, or ceramics headline."
+              "ru": "Фергана не главный дворцовый, шёлковый или керамический образ долины."
+              "uz": "Fargʻona vodiyning saroy, ipak yoki kulolchilik boʻyicha bosh manzili emas."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Fergana belongs in an itinerary when the valley needs an easier urban interval between stronger anchors. The Regional Museum can give context; the city's broad streets, park life, and market stops keep the visit human; the next road points to Margilan silk, Rishtan ceramics, Kokand heritage, Andijan, or Chust."
+              "ru": "Фергана нужна маршруту, когда между сильными точками долины требуется удобная городская остановка. Областной музей даёт контекст; широкие улицы, парк и рынок показывают обычную городскую жизнь; дальше дорога ведёт к маргиланскому шёлку, риштанской керамике, кокандскому наследию, Андижану или Чусту."
+              "uz": "Fargʻona vodiydagi kuchli nuqtalar orasida qulay shahar toʻxtami kerak boʻlganda yoʻlga mos keladi. Viloyat muzeyi kontekst beradi; keng koʻchalar, park va bozor oddiy shahar hayotini koʻrsatadi; keyingi yoʻl esa Margʻilon ipagi, Rishton kulolchiligi, Qoʻqon merosi, Andijon yoki Chust tomonga olib boradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Let Kokand, Margilan, and Rishtan carry the palace, silk, and ceramics story. Fergana helps when the journey needs arrival breathing space, a museum explanation, or a quieter night between craft towns and eastern-Valley choices."
+              "ru": "Дворцы, шёлк и керамику пусть раскрывают Коканд, Маргилан и Риштан. Фергана помогает, когда поездке нужны спокойное прибытие, музейное объяснение или тихая ночёвка между ремесленными городами и выбором восточной части долины."
+              "uz": "Saroy, ipak va kulolchilik hikoyasini Qoʻqon, Margʻilon va Rishton olib borsin. Fargʻona kelishdagi sokinlik, muzey izohi yoki hunarmandchilik shaharlari bilan sharqiy vodiy tanlovi orasida tinchroq tunash kerak boʻlganda yordam beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Fergana as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Фергана как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Fargʻona o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "How Fergana fits"
+      "ru": "Как Фергана входит в маршрут"
+      "uz": "Fargʻona yoʻlga qanday kiradi"
+    "title":
+      "en": "Arrival, museum time, and the next Valley road"
+      "ru": "Прибытие, музей и следующая дорога по долине"
+      "uz": "Kelish, muzey va vodiydagi keyingi yoʻl"
+    "description":
+      "en": "Fergana belongs in an itinerary when the valley needs an easier urban interval between stronger anchors. The Regional Museum can give context; the city's broad streets, park life, and market stops keep the visit human; the next road points to Margilan silk, Rishtan ceramics, Kokand heritage, Andijan, or Chust."
+      "ru": "Фергана нужна маршруту, когда между сильными точками долины требуется удобная городская остановка. Областной музей даёт контекст; широкие улицы, парк и рынок показывают обычную городскую жизнь; дальше дорога ведёт к маргиланскому шёлку, риштанской керамике, кокандскому наследию, Андижану или Чусту."
+      "uz": "Fargʻona vodiydagi kuchli nuqtalar orasida qulay shahar toʻxtami kerak boʻlganda yoʻlga mos keladi. Viloyat muzeyi kontekst beradi; keng koʻchalar, park va bozor oddiy shahar hayotini koʻrsatadi; keyingi yoʻl esa Margʻilon ipagi, Rishton kulolchiligi, Qoʻqon merosi, Andijon yoki Chust tomonga olib boradi."
+    "mapPanel":
+      "eyebrow":
+        "en": "City point"
+        "ru": "Городская точка"
+        "uz": "Shahar nuqtasi"
+      "title":
+        "en": "Fergana near the Valley's middle"
+        "ru": "Фергана ближе к середине долины"
+        "uz": "Fargʻona vodiy oʻrtasiga yaqin"
+      "description":
+        "en": "The city sits south of Margilan and west of Andijan. Museum hours, market timing, theatre access, guide language, and onward roads need a current check close to travel."
+        "ru": "Город находится южнее Маргилана и западнее Андижана. Часы музея, время рынка, доступ к театру, язык гида и дальнейшие дороги лучше проверять ближе к поездке."
+        "uz": "Shahar Margʻilondan janubda va Andijondan gʻarbda joylashgan. Muzey soatlari, bozor vaqti, teatrga kirish, gid tili va keyingi yoʻllarni safarga yaqin tekshirish kerak."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.376488
+      "longitude": 71.791319
+    "zoom": 14
+    "stops": []
+    "aside":
+      "eyebrow":
+        "en": "Route shape"
+        "ru": "Форма маршрута"
+        "uz": "Yoʻl shakli"
+      "title":
+        "en": "A city interval between stronger anchors"
+        "ru": "Городская остановка между сильными точками"
+        "uz": "Kuchli nuqtalar orasidagi shahar toʻxtami"
+      "description":
+        "en": "Let Kokand, Margilan, and Rishtan carry the palace, silk, and ceramics story. Fergana helps when the journey needs arrival breathing space, a museum explanation, or a quieter night between craft towns and eastern-Valley choices."
+        "ru": "Дворцы, шёлк и керамику пусть раскрывают Коканд, Маргилан и Риштан. Фергана помогает, когда поездке нужны спокойное прибытие, музейное объяснение или тихая ночёвка между ремесленными городами и выбором восточной части долины."
+        "uz": "Saroy, ipak va kulolchilik hikoyasini Qoʻqon, Margʻilon va Rishton olib borsin. Fargʻona kelishdagi sokinlik, muzey izohi yoki hunarmandchilik shaharlari bilan sharqiy vodiy tanlovi orasida tinchroq tunash kerak boʻlganda yordam beradi."
+      "items":
+        - "title":
+            "en": "Begin with the Regional Museum"
+            "ru": "Начните с областного музея"
+            "uz": "Viloyat muzeyidan boshlang"
+          "description":
+            "en": "The museum can frame archaeology, ethnography, natural history, clothing, instruments, and Silk Road trade before travelers move into silk, ceramics, or palace history."
+            "ru": "Музей может объяснить археологию, этнографию, природную историю, одежду, музыкальные инструменты и торговлю Шёлкового пути до того, как маршрут уйдёт к шёлку, керамике или дворцовой истории."
+            "uz": "Muzey yoʻl ipak, kulolchilik yoki saroy tarixiga oʻtishidan oldin arxeologiya, etnografiya, tabiat tarixi, kiyim, cholgʻu asboblari va Ipak yoʻli savdosini tushuntirishi mumkin."
+          "badge":
+            "en": "Museum"
+            "ru": "Музей"
+            "uz": "Muzey"
+        - "title":
+            "en": "Let the streets stay unhurried"
+            "ru": "Не торопите широкие улицы"
+            "uz": "Keng koʻchalarni shoshirmang"
+          "description":
+            "en": "Tree-lined avenues, park life, students, market sellers, and fruit stalls give Fergana a lived city texture without turning the stop into a checklist."
+            "ru": "Зелёные проспекты, парк, студенты, рыночные продавцы и фруктовые ряды дают Фергане живой городской характер без длинного списка остановок."
+            "uz": "Yashil xiyobonlar, park, talabalar, bozor sotuvchilari va meva rastalari Fargʻonaga jonli shahar kayfiyatini beradi, tashrifni uzun roʻyxatga aylantirmaydi."
+          "badge":
+            "en": "City life"
+            "ru": "Жизнь города"
+            "uz": "Shahar hayoti"
+        - "title":
+            "en": "The next road sets the focus"
+            "ru": "Дальнейший путь задаёт фокус"
+            "uz": "Davom yoʻli diqqatni belgilaydi"
+          "description":
+            "en": "From Fergana, the route can turn to Margilan's silk, Rishtan's ceramics, Kokand's palace story, Andijan, or Chust."
+            "ru": "Из Ферганы маршрут может повернуть к шёлку Маргилана, керамике Риштана, дворцовой истории Коканда, Андижану или Чусту."
+            "uz": "Fargʻonadan yoʻl Margʻilon ipagi, Rishton kulolchiligi, Qoʻqon saroy tarixi, Andijon yoki Chust tomonga burilishi mumkin."
+          "badge":
+            "en": "Next road"
+            "ru": "Следующая дорога"
+            "uz": "Keyingi yoʻl"
+        - "title":
+            "en": "Check the details close to travel"
+            "ru": "Уточняйте детали ближе к поездке"
+            "uz": "Tafsilotlarni safarga yaqin aniqlang"
+          "description":
+            "en": "Museum hours, market timing, theatre schedules, guide language, and road choices can change enough to verify before the visit."
+            "ru": "Часы музея, время рынка, расписание театра, язык гида и дороги дальше могут меняться, поэтому их лучше проверять перед визитом."
+            "uz": "Muzey soatlari, bozor vaqti, teatr jadvali, gid tili va keyingi yoʻllar oʻzgarishi mumkin, shuning uchun ularni tashrifdan oldin tekshirish kerak."
+          "badge":
+            "en": "Current checks"
+            "ru": "Проверки"
+            "uz": "Tekshiruvlar"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City moments"
+      "ru": "Городские моменты"
+      "uz": "Shahar lahzalari"
+    "title":
+      "en": "Three ways Fergana can help the route"
+      "ru": "Три способа включить Фергану в маршрут"
+      "uz": "Fargʻonani yoʻlga qoʻshishning uch usuli"
+    "description":
+      "en": "These moments keep the city modest and useful: a museum-led orientation, the road toward Margilan and Rishtan, and one light market or park stop before the Valley continues."
+      "ru": "Эти моменты сохраняют город скромным и полезным: музейная ориентация, дорога к Маргилану и Риштану и одна лёгкая остановка в парке или на рынке перед продолжением по долине."
+      "uz": "Bu lahzalar shaharni kamtar va foydali tutadi: muzey orqali yoʻnalish olish, Margʻilon va Rishton tomonga yoʻl tanlash hamda vodiy davom etishidan oldin park yoki bozordagi yengil toʻxtam."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Museum time before the Valley road"
+          "ru": "Музей перед дорогой по долине"
+          "uz": "Vodiy yoʻlidan oldin muzey vaqti"
+        "description":
+          "en": "The Regional Museum can explain archaeology, clothing, instruments, and trade before the route turns toward craft or heritage towns."
+          "ru": "Областной музей может объяснить археологию, одежду, музыкальные инструменты и торговлю до того, как маршрут повернёт к ремесленным или историческим городам."
+          "uz": "Viloyat muzeyi yoʻl hunarmandchilik yoki tarixiy shaharlarga burilishidan oldin arxeologiya, kiyim, cholgʻu asboblari va savdoni tushuntirishi mumkin."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Roads toward silk and ceramics"
+          "ru": "Дороги к шёлку и керамике"
+          "uz": "Ipak va kulolchilikka olib boradigan yoʻllar"
+        "description":
+          "en": "From Fergana, the route can turn toward Margilan's looms or Rishtan's blue-green ceramics while the city stays a practical stop, not the craft headline."
+          "ru": "Из Ферганы маршрут может уйти к маргиланским станкам или риштанской сине-зелёной керамике, а сам город останется практичной остановкой, не главным ремесленным центром."
+          "uz": "Fargʻonadan yoʻl Margʻilon dastgohlari yoki Rishtonning koʻk-yashil kulolchiligi tomon ketishi mumkin, shaharning oʻzi esa hunarmandchilik markazi emas, amaliy toʻxtam boʻlib qoladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Market, park, and an ordinary meal"
+          "ru": "Рынок, парк и простой обед"
+          "uz": "Bozor, park va oddiy ovqat"
+        "description":
+          "en": "A short park walk, market stop, tea, fruit, or simple meal gives the Valley route a human interval before the next town."
+          "ru": "Короткая прогулка в парке, рынок, чай, фрукты или простой обед дают маршруту по долине живую городскую передышку перед следующим городом."
+          "uz": "Qisqa park sayri, bozor toʻxtami, choy, meva yoki oddiy ovqat keyingi shahardan oldin vodiy yoʻliga jonli shahar nafasi beradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "Let Fergana clarify the route"
+      "ru": "Пусть Фергана проясняет маршрут"
+      "uz": "Fargʻona yoʻlni aniqroq qilsin"
+    "description":
+      "en": "Fergana is strongest when it stays practical: a green, service-rich city where the route can settle, gather context, and continue without losing time to a weak sightseeing list."
+      "ru": "Фергана сильнее всего, когда остаётся практичной: зелёный город с сервисами, где можно освоиться, получить музейный контекст и продолжить дорогу без слабого списка достопримечательностей."
+      "uz": "Fargʻona amaliy qolganda kuchliroq: xizmatlari bor yashil shahar, bu yerda yoʻl tinchlanadi, muzey konteksti olinadi va zaif joylar roʻyxatiga vaqt yoʻqotmasdan davom etadi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Start with the reason to stop"
+              "ru": "Начните с причины остановки"
+              "uz": "Toʻxtash sababidan boshlang"
+            "description":
+              "en": "Fergana helps when the Valley route needs an easier place to arrive, sleep, regroup, or understand the region before the craft towns."
+              "ru": "Фергана помогает, когда маршруту по долине нужно удобное место для прибытия, ночёвки, паузы или понимания региона перед ремесленными городами."
+              "uz": "Fargʻona vodiy yoʻliga kelish, tunash, oʻzini yigʻib olish yoki hunarmandchilik shaharlaridan oldin mintaqani tushunish kerak boʻlganda yordam beradi."
+          - "type": "quote"
+            "quote":
+              "en": "Fergana adds value when it steadies the Valley route, not when it tries to become the headline."
+              "ru": "Фергана ценна тогда, когда делает маршрут по долине спокойнее, а не когда пытается стать его главным событием."
+              "uz": "Fargʻona vodiy yoʻlini osoyishtaroq qilganda qadrli, uning asosiy voqeasiga aylanishga uringanda emas."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the museum visible"
+              "ru": "Держите музей заметным"
+              "uz": "Muzey koʻrinib tursin"
+            "description":
+              "en": "The Regional Museum can introduce archaeology, ethnography, natural history, clothing, instruments, and trade before travelers meet silk, ceramics, or palace history elsewhere."
+              "ru": "Областной музей может дать археологический, этнографический, природный, ремесленный и торговый контекст до шёлка, керамики или дворцовой истории в соседних городах."
+              "uz": "Viloyat muzeyi sayohatchilar ipak, kulolchilik yoki saroy tarixini qoʻshni shaharlarda koʻrishidan oldin arxeologiya, etnografiya, tabiat, kiyim, cholgʻu va savdo kontekstini beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Limit the city list"
+              "ru": "Не растягивайте городской список"
+              "uz": "Shahar roʻyxatini choʻzmang"
+            "description":
+              "en": "A park, market, boulevard, or theatre exterior can add texture, but one selective city stop is usually stronger than a long list of minor sights."
+              "ru": "Парк, рынок, бульвар или внешний вид театра могут добавить характер, но одна выбранная городская остановка обычно сильнее длинного списка малых мест."
+              "uz": "Park, bozor, bulvar yoki teatr tashqi koʻrinishi kayfiyat qoʻshishi mumkin, lekin bitta tanlangan shahar toʻxtami odatda mayda joylar roʻyxatidan kuchliroq."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Choose Fergana for a practical urban stop, museum context, and a clearer onward road through the Fergana Valley."
+              "ru": "Выбирайте Фергану для практичной городской остановки, музейного контекста и понятной дальнейшей дороги по Ферганской долине."
+              "uz": "Fargʻonani amaliy shahar toʻxtami, muzey konteksti va Fargʻona vodiysi boʻylab aniq davom yoʻli kerak boʻlganda tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Route role"
+                  "ru": "Коротко Роль в маршруте"
+                  "uz": "Qisqacha Yoʻldagi roli"
+                "description":
+                  "en": "Arrival city or overnight stop with museum context and onward Valley roads."
+                  "ru": "Город прибытия или ночёвки с музейным контекстом и дорогами дальше по долине."
+                  "uz": "Muzey konteksti va vodiy boʻylab davom yoʻllari bor kelish yoki tunash shahri."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main stop"
+                  "ru": "Главная остановка"
+                  "uz": "Asosiy toʻxtam"
+                "description":
+                  "en": "The Regional Museum is the clearest Fergana attraction to verify first."
+                  "ru": "Областной музей — самое понятное место Ферганы, которое стоит проверить первым."
+                  "uz": "Viloyat muzeyi Fargʻonada birinchi tekshiriladigan eng tushunarli joy."
+              - "icon": "Sun"
+                "title":
+                  "en": "Nearby anchors"
+                  "ru": "Соседние точки"
+                  "uz": "Yaqin nuqtalar"
+                "description":
+                  "en": "Margilan, Rishtan, Kokand, Andijan, and Chust carry the stronger surrounding stories."
+                  "ru": "Маргилан, Риштан, Коканд, Андижан и Чуст несут более сильные соседние сюжеты."
+                  "uz": "Margʻilon, Rishton, Qoʻqon, Andijon va Chust kuchliroq qoʻshni hikoyalarni olib boradi."
+              - "icon": "Route"
+                "title":
+                  "en": "Current checks"
+                  "ru": "Актуальные проверки"
+                  "uz": "Dolzarb tekshiruvlar"
+                "description":
+                  "en": "Museum hours, market timing, theatre access, guide language, and roads need same-week confirmation."
+                  "ru": "Часы музея, время рынка, доступ к театру, язык гида и дороги требуют подтверждения ближе к поездке."
+                  "uz": "Muzey soatlari, bozor vaqti, teatrga kirish, gid tili va yoʻllar safarga yaqin tasdiqlanishi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby route choices"
+      "ru": "Куда продолжить"
+      "uz": "Qayerga davom etish"
+    "title":
+      "en": "Continue to silk, ceramics, palace history, and eastern Valley roads"
+      "ru": "Дальше к шёлку, керамике, дворцовой истории и востоку долины"
+      "uz": "Ipak, kulolchilik, saroy tarixi va sharqiy vodiyga davom eting"
+    "description":
+      "en": "Fergana is strongest beside its better-known neighbors: Margilan for silk, Rishtan for ceramics, Kokand for palace history, and Andijan or Chust when the route opens farther east."
+      "ru": "Фергана сильнее рядом с более известными соседями: Маргиланом для шёлка, Риштаном для керамики, Кокандом для дворцовой истории, Андижаном или Чустом, когда маршрут уходит дальше на восток."
+      "uz": "Fargʻona mashhurroq qoʻshnilar yonida kuchliroq: Margʻilon ipak uchun, Rishton kulolchilik uchun, Qoʻqon saroy tarixi uchun, Andijon yoki Chust esa yoʻl sharqqa kengayganda."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/fergana-next-margilan.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Margilan"
+          "ru": "Маргилан"
+          "uz": "Margʻilon"
+        "description":
+          "en": "Margilan is the Fergana Valley's silk town: Yodgorlik, atlas and adras workshops, the craft centre, and routes toward Kokand history and Rishtan ceramics."
+          "ru": "Маргилан — шёлковый город Ферганской долины: Yodgorlik, мастерские атласа и адраса, ремесленный центр и маршруты к Коканду и Риштану."
+          "uz": "Margʻilon Fargʻona vodiysining ipak shahri: Yodgorlik, atlas va adras ustaxonalari, hunar markazi hamda Qoʻqon va Rishton yo‘nalishlari."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/margilan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/fergana-next-rishtan.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Rishtan"
+          "ru": "Риштан"
+          "uz": "Rishton"
+        "description":
+          "en": "Rishtan is the Fergana Valley's ceramics town: the International Ceramics Center, working studios, blue-green glaze, and route links to Kokand and Margilan."
+          "ru": "Риштан — керамический город Ферганской долины: Международный центр керамики, мастерские, сине-зелёная глазурь и маршруты к Коканду и Маргилану."
+          "uz": "Rishton Fargʻona vodiysining kulolchilik shahri: Xalqaro kulolchilik markazi, ustaxonalar, ko‘k-yashil sir hamda Qoʻqon va Margʻilon tomonga yo‘nalishlar."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/rishtan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/fergana-next-kokand.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Kokand"
+          "ru": "Коканд"
+          "uz": "Qoʻqon"
+        "description":
+          "en": "Kokand brings palace history into the Fergana Valley route before the day continues toward Margilan silk and Rishtan ceramics."
+          "ru": "Коканд добавляет маршруту по Ферганской долине дворец Худояр-хана, мечеть Джами, медресе и дорогу к Маргилану и Риштану."
+          "uz": "Qoʻqon Fargʻona vodiysi yoʻnalishiga Xudoyorxon saroyi, Jome masjidi, madrasalar va Margʻilon hamda Rishton tomonga yo‘lni qo‘shadi."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/kokand"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/fergana-next-andijan.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Andijan"
+          "ru": "Андижан"
+          "uz": "Andijon"
+        "description":
+          "en": "Andijan gives the Fergana Valley route an eastern cultural stop: Babur Memorial Park, Jomeh when access is clear, museum time, city food and street life, and onward choices toward Namangan or the wider valley."
+          "ru": "Андижан даёт маршруту по Ферганской долине восточную культурную остановку: парк Бабура, Джами при понятном доступе, музеи, городскую жизнь и выбор дороги к Намангану или дальше по долине."
+          "uz": "Andijon Fargʻona vodiysi yo‘liga sharqiy madaniy bekat qo‘shadi: Bobur bog‘i, Jome bo‘yicha kirish aniq bo‘lsa, muzeylar, shahar hayoti va Namangan yoki kengroq vodiy tomonga yo‘l tanlovi."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/andijan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/fergana-next-chust.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Chust"
+          "ru": "Чуст"
+          "uz": "Chust"
+        "description":
+          "en": "Chust adds a careful craft stop to the northern Fergana Valley: pichoq knives, doʻppi embroidery, and a Namangan-side route that makes sense only when real workshop access is checked."
+          "ru": "Чуст добавляет к северной части Ферганской долины аккуратную ремесленную остановку: ножи-пичак, вышивку доппи и маршрут через Наманган, который имеет смысл только при проверенном доступе."
+          "uz": "Chust shimoliy Fargʻona vodiysiga ehtiyotkor hunarmandchilik bekatini qoʻshadi: pichoq, doʻppi kashtasi va Namangan orqali yoʻl, faqat haqiqiy ustaxona kirishi tekshirilganda."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/chust"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Fergana in the day plan"
+      "ru": "Как поставить Фергана в план дня"
+      "uz": "Fargʻonani kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Fergana?"
+          "ru": "Сколько времени группам стоит проводить в Фергана?"
+          "uz": "Fargʻonada guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “A practical city stop in the Fergana Valley”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Практичная городская остановка в Ферганской долине»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Fargʻona vodiysidagi amaliy shahar toʻxtami»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Fergana be a walkable core or a base for day trips?"
+          "ru": "Фергана — это пешеходное ядро или база для выездов?"
+          "uz": "Fargʻona piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Fergana's centre?"
+          "ru": "Где лучше ночевать относительно центра Фергана?"
+          "uz": "Fargʻona markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/fergana.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Fergana stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Фергана» в программу (Узбекистан)"
+      "uz": "Fargʻona bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Fergana | TourLink"
+    "ru": "Фергана | TourLink"
+    "uz": "Fargʻona | TourLink"
+  "metaDescription":
+    "en": "Fergana is not the valley's palace, silk, or ceramics headline. It helps in another way: as an arrival city, an overnight stop, a museum introduction, and a measured place to choose the next road through the Valley."
+    "ru": "Фергана не главный дворцовый, шёлковый или керамический образ долины. Она помогает иначе: как город прибытия или ночёвки, музейное введение и спокойное место, где становится понятнее следующая дорога по долине."
+    "uz": "Fargʻona vodiyning saroy, ipak yoki kulolchilik boʻyicha bosh manzili emas. U boshqacha yordam beradi: kelish yoki tunash shahri, muzey orqali kirish nuqtasi va vodiy boʻylab keyingi yoʻlni tanlash uchun xotirjam joy sifatida."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "fergana-valley"
+"latitude": 40.3764879
+"longitude": 71.7913193

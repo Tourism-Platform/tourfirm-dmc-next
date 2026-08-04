@@ -1,0 +1,316 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "panjshanbe-bazaar"
+  "ru": "panjshanbe-bazaar"
+  "uz": "panjshanbe-bazaar"
+"title":
+  "en": "Panjshanbe Bazaar"
+  "ru": "Базар Панджшанбе"
+  "uz": "Panjshanbe bozori"
+"subtitle":
+  "en": "Khujand's market morning in the city center"
+  "ru": "Рыночное утро Худжанда в центре города"
+  "uz": "Xoʻjand markazidagi bozor tongi"
+"excerpt":
+  "en": "Panjshanbe Bazaar gives Khujand an immediate human scale. Its name means Thursday, a memory of market day, while today's visit is built from bread, fruit, spices, textiles, household goods, voices, and the quick movement of the city center."
+  "ru": "Базар Панджшанбе сразу показывает Худжанд через людей. Его название означает четверг и напоминает о рыночном дне; сегодняшний визит складывается из хлеба, фруктов, специй, тканей, повседневных товаров, голосов и быстрого движения городского центра."
+  "uz": "Panjshanbe bozori Xoʻjandni odamlar orqali tanishtiradi. Nomi payshanba degani va eski bozor kunini eslatadi; bugungi tashrif esa non, meva, ziravor, mato, kundalik buyumlar, bozor ovozlari va shahar markazining tez harakatidan tashkil topadi."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "Panjshanbe Bazaar"
+      "ru": "Базар Панджшанбе"
+      "uz": "Panjshanbe bozori"
+    "title":
+      "en": "Panjshanbe Bazaar"
+      "ru": "Базар Панджшанбе"
+      "uz": "Panjshanbe bozori"
+    "description":
+      "en": "Khujand's market morning in the city center"
+      "ru": "Рыночное утро Худжанда в центре города"
+      "uz": "Xoʻjand markazidagi bozor tongi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Panjshanbe Bazaar"
+      "ru": "Базар Панджшанбе"
+      "uz": "Panjshanbe bozori"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Panjshanbe Bazaar gives Khujand an immediate human scale."
+              "ru": "Базар Панджшанбе сразу показывает Худжанд через людей."
+              "uz": "Panjshanbe bozori Xoʻjandni odamlar orqali tanishtiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Panjshanbe is strongest at the start of a Khujand walk because it introduces the city through people rather than monuments."
+              "ru": "Панджшанбе лучше всего раскрывает Худжанд в начале прогулки, потому что вводит в город через людей, а не через памятники."
+              "uz": "Panjshanbe Xoʻjand yurishining boshida eng aniq seziladi, chunki u shaharni yodgorliklar orqali emas, odamlar orqali ochadi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Khujand's market morning in the city center."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Рыночное утро Худжанда в центре города."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Xoʻjand markazidagi bozor tongi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Panjshanbe Bazaar as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Базар Панджшанбе как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Panjshanbe bozori o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Panjshanbe Bazaar sits on the route"
+      "ru": "Где Базар Панджшанбе стоит на маршруте"
+      "uz": "Panjshanbe bozori marshrutda qayerda"
+    "description":
+      "en": "One clear point for Panjshanbe Bazaar — Khujand's market morning in the city center."
+      "ru": "Одна понятная точка для «Базар Панджшанбе» — Рыночное утро Худжанда в центре города."
+      "uz": "Panjshanbe bozori uchun bitta aniq nuqta — Xoʻjand markazidagi bozor tongi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Panjshanbe Bazaar"
+        "ru": "Базар Панджшанбе"
+        "uz": "Panjshanbe bozori"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.27934
+      "longitude": 69.6332017
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "panjshanbe-bazaar"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Where Khujand begins with trade"
+      "ru": "Где Худжанд начинается с торговли"
+      "uz": "Xoʻjand savdo bilan boshlanadigan joy"
+    "description":
+      "en": "Panjshanbe is strongest at the start of a Khujand walk because it introduces the city through people rather than monuments. The Silk Road idea becomes practical here: goods on the counters, sellers calling, food rows, and daily movement in the northern city center.
+
+
+        «Panjshanbe is not only a place to buy things; it is where Khujand starts sounding like itself.»"
+      "ru": "Панджшанбе лучше всего раскрывает Худжанд в начале прогулки, потому что вводит в город через людей, а не через памятники. Идея Шёлкового пути здесь становится простой и видимой: товары на прилавках, голоса продавцов, еда и повседневное движение в центре северного города.
+
+
+        «Панджшанбе — не только место покупок; здесь Худжанд начинает звучать как сам Худжанд.»"
+      "uz": "Panjshanbe Xoʻjand yurishining boshida eng aniq seziladi, chunki u shaharni yodgorliklar orqali emas, odamlar orqali ochadi. Ipak yoʻli gʻoyasi bu yerda amaliy koʻrinadi: rastadagi mahsulotlar, sotuvchilar ovozi, ovqat qatorlari va shimoliy shahar markazidagi kundalik harakat.
+
+
+        «Panjshanbe faqat xarid joyi emas; Xoʻjand aynan shu yerda oʻz ovozi bilan eshitila boshlaydi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "Market rows, food stalls, and city movement"
+      "ru": "Рыночные ряды, еда и движение города"
+      "uz": "Bozor qatorlari, oziq-ovqat rastalari va shahar harakati"
+    "description":
+      "en": "The bazaar is easiest to notice in three parts: the central market rows, the food and spice stalls, and the short walk back into Khujand's nearby landmarks. 1. **Central market rows** **alt:** Panjshanbe Bazaar market rows in central Khujand. **caption:** The market rows keep Khujand's trade memory visible in the city center. **media_label:** Panjshanbe market rows 2. **Food and spice rows** **alt:** Bread, fruit, spices, and produce rows inside Panjshanbe Bazaar. **caption:** Food, spices, and everyday shopping give the stop its human rhythm. **media_label:** Bread, fruit, and spices 3. **Central-city walk** **alt:** The city walk from Panjshanbe Bazaar toward nearby Khujand landmarks. **caption:** The bazaar pairs naturally with Sheikh Muslihiddin and the fortress museum. **media_label:** Bazaar to city walk"
+      "ru": "Базар легче воспринимать через три части: центральные торговые ряды, еду и специи, а также короткую прогулку к соседним ориентирам Худжанда. 1. **Центральные торговые ряды** **alt:** Торговые ряды базара Панджшанбе в центре Худжанда. **caption:** Рыночные ряды сохраняют торговую память Худжанда в центре города. **media_label:** Ряды Панджшанбе 2. **Еда и специи** **alt:** Хлеб, фрукты, специи и продуктовые ряды на базаре Панджшанбе. **caption:** Еда, специи и повседневные покупки дают остановке человеческий ритм. **media_label:** Хлеб, фрукты и специи 3. **Городская прогулка** **alt:** Прогулка от базара Панджшанбе к соседним ориентирам Худжанда. **caption:** Базар естественно сочетается с шейхом Муслихиддином и крепостным музеем. **media_label:** От базара к городу"
+      "uz": "Bozorni uch qismda koʻrish oson: markaziy savdo qatorlari, ovqat va ziravor rastalari, hamda yaqin diqqat joylarga olib boradigan shahar yurishi. 1. **Markaziy savdo qatorlari** **alt:** Xoʻjand markazidagi Panjshanbe bozori savdo qatorlari. **caption:** Savdo qatorlari Xoʻjandning bozor xotirasini shahar markazida saqlaydi. **media_label:** Panjshanbe savdo qatorlari 2. **Ovqat va ziravor qatorlari** **alt:** Panjshanbe bozoridagi non, meva, ziravor va mahsulot qatorlari. **caption:** Ovqat, ziravor va kundalik xarid bu joyga insoniy surʼat beradi. **media_label:** Non, meva va ziravorlar 3. **Markaziy shahar yurishi** **alt:** Panjshanbe bozoridan Xoʻjandning yaqin diqqat joylariga olib boradigan shahar yurishi. **caption:** Bozor Shayx Muslihiddin va qalʼa muzeyi bilan bitta markaziy yurishga kiradi. **media_label:** Bozordan shahar yurishiga"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nimalarni qoʻshish"
+    "title":
+      "en": "Continue to Sheikh Muslihiddin and the fortress museum"
+      "ru": "Продолжите к шейху Муслихиддину и крепостному музею"
+      "uz": "Shayx Muslihiddin va qalʼa muzeyiga davom eting"
+    "description":
+      "en": "Sheikh Muslihiddin changes the market mood into a sacred courtyard. The fortress museum adds the older city story before the route turns back to the river or out of the city."
+      "ru": "Шейх Муслихиддин переводит рыночное настроение в священный двор. Крепостной музей добавляет старую историю города перед выходом к реке или из города."
+      "uz": "Shayx Muslihiddin bozor kayfiyatini muqaddas hovli sokinligiga oʻtkazadi. Qalʼa muzeyi esa yoʻnalish daryo boʻyiga yoki shahar tashqarisiga burilishidan oldin tarixiy mazmun qoʻshadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Sheikh Muslihiddin Mosque and Mausoleum"
+          "ru": "Мечеть и мавзолей шейха Муслихиддина"
+          "uz": "Shayx Muslihiddin masjidi va maqbarasi"
+        "description":
+          "en": "Beside Panjshanbe Bazaar, Sheikh Muslihiddin opens the quieter side of central Khujand: a revered mausoleum, mosque setting, madrasa memory, and worship etiquette."
+          "ru": "Рядом с Панджшанбе шейх Муслихиддин открывает более тихую сторону центра Худжанда: почитаемый мавзолей, мечеть, память медресе и правила уважительного визита."
+          "uz": "Panjshanbe bozori yonida Shayx Muslihiddin Xoʻjand markazining sokin tomonini ochadi: eʼzozlangan maqbara, masjid muhiti, madrasa xotirasi va hurmatli tashrif odobi."
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/khujand/sheikh-muslihiddin-mosque-and-mausoleum"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Khujand Fortress and Historical Museum"
+          "ru": "Худжандская крепость и исторический музей"
+          "uz": "Xoʻjand qalʼasi va tarixiy muzeyi"
+        "description":
+          "en": "Khujand Fortress pairs a central city landmark with museum rooms for Sogdian-region artifacts, textiles, mosaics, and the Temurmalik story."
+          "ru": "Худжандская крепость соединяет центральный городской ориентир с музейными залами: артефакты Согдийского региона, ткани, мозаики и история Темурмалика."
+          "uz": "Xoʻjand qalʼasi markaziy shahar moʻljalini muzey xonalari bilan bogʻlaydi: Sugʻd mintaqasi artefaktlari, matolar, mozaikalar va Temurmalik hikoyasi."
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/khujand/khujand-fortress-and-historical-museum"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Panjshanbe Bazaar"
+      "ru": "Что агентства спрашивают про Базар Панджшанбе"
+      "uz": "Agentliklar Panjshanbe bozori haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Panjshanbe Bazaar get in the day plan?"
+          "ru": "Сколько времени закладывать на Базар Панджшанбе в плане дня?"
+          "uz": "Panjshanbe bozori uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "1–2 hours is a practical range for most groups. Keep the stop readable: one clear arrival, one clear exit. Place tone: “Khujand's market morning in the city center”."
+          "ru": "Для большинства групп реалистичный диапазон — 1–2 часа. Держите остановку читаемой: понятный вход и понятный выход. Характер места: «Рыночное утро Худжанда в центре города»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 1–2 soat. Bekatni o‘qiladigan tuting: aniq kirish va aniq chiqish. Joy ohangi: «Xoʻjand markazidagi bozor tongi»."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "When is Panjshanbe Bazaar strongest during the day?"
+          "ru": "В какое время дня Базар Панджшанбе раскрывается сильнее?"
+          "uz": "Panjshanbe bozori kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer when the light is soft and queues are lighter. That usually improves comfort, photos, and how the stop feels in the sequence around khujand."
+          "ru": "Лучше когда свет мягче и очередей меньше. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с khujand."
+          "uz": "yorug‘lik yumshoq va navbat kamroq bo‘lganda afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (khujand atrofida)."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "How should Panjshanbe Bazaar sit next to nearby stops?"
+          "ru": "Как поставить Базар Панджшанбе рядом с соседними остановками?"
+          "uz": "Panjshanbe bozorini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Panjshanbe Bazaar to your Tajikistan programme"
+      "ru": "Добавьте «Базар Панджшанбе» в программу (Таджикистан)"
+      "uz": "Panjshanbe bozorini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Panjshanbe Bazaar | TourLink"
+    "ru": "Базар Панджшанбе | TourLink"
+    "uz": "Panjshanbe bozori | TourLink"
+  "metaDescription":
+    "en": "Panjshanbe Bazaar gives Khujand an immediate human scale. Its name means Thursday, a memory of market day, while today's visit is built from bread, fruit, spices, textiles, household goods, voices, and the quick movement of the city center."
+    "ru": "Базар Панджшанбе сразу показывает Худжанд через людей. Его название означает четверг и напоминает о рыночном дне; сегодняшний визит складывается из хлеба, фруктов, специй, тканей, повседневных товаров, голосов и быстрого движения городского центра."
+    "uz": "Panjshanbe bozori Xoʻjandni odamlar orqali tanishtiradi. Nomi payshanba degani va eski bozor kunini eslatadi; bugungi tashrif esa non, meva, ziravor, mato, kundalik buyumlar, bozor ovozlari va shahar markazining tez harakatidan tashkil topadi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "khujand-and-northern-tajikistan"
+"city": "khujand"
+"type": "BAZAAR"
+"importance": "RECOMMENDED"
+"latitude": 40.27934
+"longitude": 69.6332017

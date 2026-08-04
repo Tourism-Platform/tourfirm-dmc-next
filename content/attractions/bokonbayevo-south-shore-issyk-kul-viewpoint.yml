@@ -1,0 +1,267 @@
+# Generated from scrape/kyrgyzstan (multi-locale)
+"slug":
+  "en": "bokonbayevo-south-shore-issyk-kul-viewpoint"
+  "ru": "bokonbayevo-south-shore-issyk-kul-viewpoint"
+  "uz": "bokonbayevo-south-shore-issyk-kul-viewpoint"
+"title":
+  "en": "Bokonbayevo South-Shore Issyk-Kul Viewpoint"
+  "ru": "Южный берег Иссык-Куля у Боконбаево"
+  "uz": "Bokonbayevo yaqinidagi Issiqkoʻl janubiy qirgʻogʻi"
+"subtitle":
+  "en": "A quiet pause on the lake road"
+  "ru": "Тихая пауза на дороге вдоль озера"
+  "uz": "Koʻl yoʻlidagi sokin pauza"
+"excerpt":
+  "en": "Near Bokonbayevo, Issyk-Kul stops feeling like only a resort lake. The road runs between open water, village houses, dry foothills, and south-shore turns, giving the route a quieter rhythm before it continues toward Skazka, Barskoon, or Karakol."
+  "ru": "У Боконбаево Иссык-Куль перестаёт быть только курортным озером. Дорога идёт между открытой водой, сельскими домами, сухими предгорьями и поворотами южного берега, поэтому маршрут получает более тихий ритм перед Сказкой, Барскооном или Караколом."
+  "uz": "Bokonbayevo yaqinida Issiqkoʻl faqat kurort koʻli boʻlib qolmaydi. Yoʻl ochiq suv, qishloq uylari, quruq togʻoldi va janubiy qirgʻoq burilishlari orasidan oʻtadi; shuning uchun Skazka, Barskoon yoki Qorakoʻldan oldin yoʻnalish sokinroq ritm oladi."
+"heroImage": "assets/images/destinations/kyrgyzstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kyrgyzstan.jpg"
+    "imageAlt":
+      "en": "Bokonbayevo South-Shore Issyk-Kul Viewpoint"
+      "ru": "Южный берег Иссык-Куля у Боконбаево"
+      "uz": "Bokonbayevo yaqinidagi Issiqkoʻl janubiy qirgʻogʻi"
+    "title":
+      "en": "Bokonbayevo South-Shore Issyk-Kul Viewpoint"
+      "ru": "Южный берег Иссык-Куля у Боконбаево"
+      "uz": "Bokonbayevo yaqinidagi Issiqkoʻl janubiy qirgʻogʻi"
+    "description":
+      "en": "A quiet pause on the lake road"
+      "ru": "Тихая пауза на дороге вдоль озера"
+      "uz": "Koʻl yoʻlidagi sokin pauza"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Bokonbayevo South-Shore Issyk-Kul Viewpoint"
+      "ru": "Южный берег Иссык-Куля у Боконбаево"
+      "uz": "Bokonbayevo yaqinidagi Issiqkoʻl janubiy qirgʻogʻi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Near Bokonbayevo, Issyk-Kul stops feeling like only a resort lake."
+              "ru": "У Боконбаево Иссык-Куль перестаёт быть только курортным озером."
+              "uz": "Bokonbayevo yaqinida Issiqkoʻl faqat kurort koʻli boʻlib qolmaydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "The stop matters because it explains Bokonbayevo without inventing a monument."
+              "ru": "Эта остановка важна тем, что объясняет Боконбаево без выдуманного памятника."
+              "uz": "Bu toʻxtash Bokonbayevoni sunʼiy yodgorlik hikoyasisiz tushuntirgani uchun muhim."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — A quiet pause on the lake road."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Тихая пауза на дороге вдоль озера."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Koʻl yoʻlidagi sokin pauza."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Bokonbayevo South-Shore Issyk-Kul Viewpoint as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Южный берег Иссык-Куля у Боконбаево как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Bokonbayevo yaqinidagi Issiqkoʻl janubiy qirgʻogʻi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Bokonbayevo South-Shore Issyk-Kul Viewpoint sits on the route"
+      "ru": "Где Южный берег Иссык-Куля у Боконбаево стоит на маршруте"
+      "uz": "Bokonbayevo yaqinidagi Issiqkoʻl janubiy qirgʻogʻi marshrutda qayerda"
+    "description":
+      "en": "One clear point for Bokonbayevo South-Shore Issyk-Kul Viewpoint — A quiet pause on the lake road."
+      "ru": "Одна понятная точка для «Южный берег Иссык-Куля у Боконбаево» — Тихая пауза на дороге вдоль озера."
+      "uz": "Bokonbayevo yaqinidagi Issiqkoʻl janubiy qirgʻogʻi uchun bitta aniq nuqta — Koʻl yoʻlidagi sokin pauza."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Bokonbayevo South-Shore Issyk-Kul Viewpoint"
+        "ru": "Южный берег Иссык-Куля у Боконбаево"
+        "uz": "Bokonbayevo yaqinidagi Issiqkoʻl janubiy qirgʻogʻi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 42.1137908
+      "longitude": 76.9979291
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "bokonbayevo-south-shore-issyk-kul-viewpoint"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Where the lake road changes pace"
+      "ru": "Где дорога вдоль озера меняет темп"
+      "uz": "Koʻl yoʻli surʼati oʻzgaradigan joy"
+    "description":
+      "en": "The stop matters because it explains Bokonbayevo without inventing a monument. You pause to understand the shore, the road, and the next route choice."
+      "ru": "Эта остановка важна тем, что объясняет Боконбаево без выдуманного памятника. Здесь можно увидеть берег, дорогу и следующее решение в маршруте."
+      "uz": "Bu toʻxtash Bokonbayevoni sunʼiy yodgorlik hikoyasisiz tushuntirgani uchun muhim. Bu yerda qirgʻoq, yoʻl va keyingi yoʻnalish tanlovi koʻrinadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "Water, village road, and south-shore turns"
+      "ru": "Вода, сельская дорога и повороты южного берега"
+      "uz": "Suv, qishloq yoʻli va janubiy qirgʻoq burilishlari"
+    "description":
+      "en": "This is a quiet visual stop, not a formal museum. The value is in the geography: lake edge, settlement, dry slopes, and the road that carries travelers toward south-shore canyons."
+      "ru": "Это тихая визуальная остановка, а не музей. Смысл даёт география: берег озера, посёлок, сухие склоны и дорога, которая ведёт к каньонам южного берега."
+      "uz": "Bu muzey emas, sokin vizual toʻxtash. Maʼnoni geografiya beradi: koʻl cheti, qishloq, quruq yonbagʻirlar va janubiy qirgʻoq kanyonlariga olib boradigan yoʻl."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday koʻrish"
+    "title":
+      "en": "Keep the stop simple and route-aware"
+      "ru": "Оставьте остановку простой и привязанной к маршруту"
+      "uz": "Toʻxtashni sodda va yoʻnalishga bogʻliq qoldiring"
+    "description":
+      "en": "Treat the viewpoint as a short pause that clarifies the south shore. It should stay modest unless the route also includes a separate hosted visit, canyon walk, or overnight in Bokonbayevo."
+      "ru": "Воспринимайте эту точку как короткую паузу, которая объясняет южный берег. Она должна оставаться скромной, если маршрут не включает отдельную встречу с хозяевами, прогулку к каньону или ночёвку в Боконбаево."
+      "uz": "Bu nuqtani janubiy qirgʻoqni tushuntiradigan qisqa pauza sifatida qabul qiling. Agar yoʻnalishda alohida mezbon bilan uchrashuv, kanyon yurishi yoki Bokonbayevoda tunash boʻlmasa, u ixcham qolishi kerak."
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Bokonbayevo South-Shore Issyk-Kul Viewpoint"
+      "ru": "Что агентства спрашивают про Южный берег Иссык-Куля у Боконбаево"
+      "uz": "Agentliklar Bokonbayevo yaqinidagi Issiqkoʻl janubiy qirgʻogʻi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Bokonbayevo South-Shore Issyk-Kul Viewpoint get in the day plan?"
+          "ru": "Сколько времени закладывать на Южный берег Иссык-Куля у Боконбаево в плане дня?"
+          "uz": "Bokonbayevo yaqinidagi Issiqkoʻl janubiy qirgʻogʻi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "1–2 hours is a practical range for most groups. Keep the stop readable: one clear arrival, one clear exit. Place tone: “A quiet pause on the lake road”."
+          "ru": "Для большинства групп реалистичный диапазон — 1–2 часа. Держите остановку читаемой: понятный вход и понятный выход. Характер места: «Тихая пауза на дороге вдоль озера»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 1–2 soat. Bekatni o‘qiladigan tuting: aniq kirish va aniq chiqish. Joy ohangi: «Koʻl yoʻlidagi sokin pauza»."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "When is Bokonbayevo South-Shore Issyk-Kul Viewpoint strongest during the day?"
+          "ru": "В какое время дня Южный берег Иссык-Куля у Боконбаево раскрывается сильнее?"
+          "uz": "Bokonbayevo yaqinidagi Issiqkoʻl janubiy qirgʻogʻi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer when the light is soft and queues are lighter. That usually improves comfort, photos, and how the stop feels in the sequence around bokonbayevo."
+          "ru": "Лучше когда свет мягче и очередей меньше. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с bokonbayevo."
+          "uz": "yorug‘lik yumshoq va navbat kamroq bo‘lganda afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (bokonbayevo atrofida)."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "How should Bokonbayevo South-Shore Issyk-Kul Viewpoint sit next to nearby stops?"
+          "ru": "Как поставить Южный берег Иссык-Куля у Боконбаево рядом с соседними остановками?"
+          "uz": "Bokonbayevo yaqinidagi Issiqkoʻl janubiy qirgʻogʻini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kyrgyzstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Bokonbayevo South-Shore Issyk-Kul Viewpoint to your Kyrgyzstan programme"
+      "ru": "Добавьте «Южный берег Иссык-Куля у Боконбаево» в программу (Кыргызстан)"
+      "uz": "Bokonbayevo yaqinidagi Issiqkoʻl janubiy qirgʻogʻini Qirgʻiziston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Bokonbayevo South-Shore Issyk-Kul Viewpoint | TourLink"
+    "ru": "Южный берег Иссык-Куля у Боконбаево | TourLink"
+    "uz": "Bokonbayevo yaqinidagi Issiqkoʻl janubiy qirgʻogʻi | TourLink"
+  "metaDescription":
+    "en": "Near Bokonbayevo, Issyk-Kul stops feeling like only a resort lake. The road runs between open water, village houses, dry foothills, and south-shore turns, giving the route a quieter rhythm before it continues toward Skazka, Barskoon, or Karakol."
+    "ru": "У Боконбаево Иссык-Куль перестаёт быть только курортным озером. Дорога идёт между открытой водой, сельскими домами, сухими предгорьями и поворотами южного берега, поэтому маршрут получает более тихий ритм перед Сказкой, Барскооном или Караколом."
+    "uz": "Bokonbayevo yaqinida Issiqkoʻl faqat kurort koʻli boʻlib qolmaydi. Yoʻl ochiq suv, qishloq uylari, quruq togʻoldi va janubiy qirgʻoq burilishlari orasidan oʻtadi; shuning uchun Skazka, Barskoon yoki Qorakoʻldan oldin yoʻnalish sokinroq ritm oladi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kyrgyzstan"
+"region": "issyk-kul-and-karakol"
+"city": "bokonbayevo"
+"type": "VIEWPOINT"
+"importance": "RECOMMENDED"
+"latitude": 42.1137908
+"longitude": 76.9979291

@@ -1,0 +1,527 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "saty"
+  "ru": "saty"
+  "uz": "saty"
+"title":
+  "en": "Saty"
+  "ru": "Саты"
+  "uz": "Saty"
+"subtitle":
+  "en": "A mountain-village night before Kolsai and Kaindy"
+  "ru": "Ночь в горном селе перед Кольсаем и Каинды"
+  "uz": "Kolsai va Qayindy oldidagi tog‘ qishlog‘ida tunash"
+"excerpt":
+  "en": "Saty gives the lake route a human rhythm. Guesthouse breakfasts begin before the first cars leave, the road climbs toward Kolsai and Kaindy, and the morning is easier when weather, park access, and transfer plans are checked the night before."
+  "ru": "Саты добавляет озерному маршруту человеческий ритм. В гостевых домах готовят завтрак до первых выездов, дорога поднимается к Кольсаю и Каинды, а утро начинается спокойнее, если погода, доступ в парк и трансфер понятны еще накануне."
+  "uz": "Saty ko‘llar yo‘liga insoniy ritm qo‘shadi. Mehmon uylarida ilk mashinalar chiqishidan oldin nonushta tayyorlanadi, yo‘l Kolsai va Qayindy tomon ko‘tariladi, ob-havo, parkka kirish va transfer rejasi bir kun oldin aniqlansa, tong ancha sokin boshlanadi."
+"heroImage": "assets/images/destinations/kazakhstan/regions/almaty-and-northern-tian-shan/cities/saty.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan/regions/almaty-and-northern-tian-shan/cities/saty.webp"
+    "imageAlt":
+      "en": "Saty"
+      "ru": "Саты"
+      "uz": "Saty"
+    "title":
+      "en": "Saty"
+      "ru": "Саты"
+      "uz": "Saty"
+    "description":
+      "en": "A mountain-village night before Kolsai and Kaindy"
+      "ru": "Ночь в горном селе перед Кольсаем и Каинды"
+      "uz": "Kolsai va Qayindy oldidagi tog‘ qishlog‘ida tunash"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Saty"
+      "ru": "Саты"
+      "uz": "Saty"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Saty gives the lake route a human rhythm."
+              "ru": "Саты добавляет озерному маршруту человеческий ритм."
+              "uz": "Saty ko‘llar yo‘liga insoniy ritm qo‘shadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Saty is easier to understand as a sequence than as a town plan: reach the village from Almaty, sleep close to the mountains, then decide how Kolsai and Kaindy fit the day's road, weather, vehicle, and park rules."
+              "ru": "Саты понятнее как последовательность, а не как схема улиц: приехать из Алматы, переночевать ближе к горам и решить, как Кольсай и Каинды сочетаются с дорогой, погодой, машиной и правилами парка."
+              "uz": "Satyni ko‘cha rejasi bilan emas, ketma-ket harakat bilan tushunish oson: Almatidan kelish, tog‘larga yaqin tunash, keyin Kolsai va Qayindy yo‘l, ob-havo, mashina va park qoidalariga qanday mos tushishini hal qilish."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The village night protects the part of the journey most travelers came for. Kolsai and Kaindy feel different when they are planned as mountain visits, not as quick stops after a long transfer."
+              "ru": "Ночь в селе сохраняет ту часть поездки, ради которой сюда едут. Кольсай и Каинды воспринимаются иначе, когда это горные выезды, а не быстрые остановки после длинного трансфера."
+              "uz": "Qishloqdagi tun sayohatchilar uchun eng muhim tog‘ tongini asraydi. Kolsai va Qayindy uzoq transferdan keyingi tez surat to‘xtashi emas, alohida tog‘ safaridek rejalanganda boshqacha seziladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Saty as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Саты как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Saty o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "From Almaty to a village night and the lake roads"
+      "ru": "Из Алматы к ночи в селе и дорогам к озерам"
+      "uz": "Almatidan qishloqdagi tunga va ko‘l yo‘llariga"
+    "description":
+      "en": "Saty is easier to understand as a sequence than as a town plan: reach the village from Almaty, sleep close to the mountains, then decide how Kolsai and Kaindy fit the day's road, weather, vehicle, and park rules."
+      "ru": "Саты понятнее как последовательность, а не как схема улиц: приехать из Алматы, переночевать ближе к горам и решить, как Кольсай и Каинды сочетаются с дорогой, погодой, машиной и правилами парка."
+      "uz": "Satyni ko‘cha rejasi bilan emas, ketma-ket harakat bilan tushunish oson: Almatidan kelish, tog‘larga yaqin tunash, keyin Kolsai va Qayindy yo‘l, ob-havo, mashina va park qoidalariga qanday mos tushishini hal qilish."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Marshrut xaritasi"
+      "title":
+        "en": "Saty between Almaty and the lake valleys"
+        "ru": "Саты между Алматы и озерными долинами"
+        "uz": "Saty Almati va ko‘l vodiylari orasida"
+      "description":
+        "en": "Almaty is the city gateway, Saty is the overnight pause, Kolsai is the protected mountain-lake anchor, and Kaindy needs a separate road and transfer check."
+        "ru": "Алматы - городской вход в маршрут, Саты - ночевка в селе, Кольсай - охраняемый горно-озерный ориентир, а Каинды требует отдельной проверки дороги и трансфера."
+        "uz": "Almati - kirish shahri, Saty - qishloqdagi tunash, Kolsai - muhofaza qilingan tog‘-ko‘l tayanchi, Qayindy esa alohida yo‘l va transfer tekshiruvini talab qiladi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 43.064004
+      "longitude": 77.947239
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "kolsai-lakes-national-park"
+      - "entityType": "attraction"
+        "entitySlug": "lake-kaindy"
+    "aside":
+      "eyebrow":
+        "en": "Route choice"
+        "ru": "Выбор маршрута"
+        "uz": "Yo‘nalish tanlovi"
+      "title":
+        "en": "Give the lakes a real morning"
+        "ru": "Дайте озерам настоящее утро"
+        "uz": "Ko‘llarga haqiqiy tong bering"
+      "description":
+        "en": "The village night protects the part of the journey most travelers came for. Kolsai and Kaindy feel different when they are planned as mountain visits, not as quick stops after a long transfer."
+        "ru": "Ночь в селе сохраняет ту часть поездки, ради которой сюда едут. Кольсай и Каинды воспринимаются иначе, когда это горные выезды, а не быстрые остановки после длинного трансфера."
+        "uz": "Qishloqdagi tun sayohatchilar uchun eng muhim tog‘ tongini asraydi. Kolsai va Qayindy uzoq transferdan keyingi tez surat to‘xtashi emas, alohida tog‘ safaridek rejalanganda boshqacha seziladi."
+      "items":
+        - "title":
+            "en": "Leave Almaty with margin"
+            "ru": "Выехать из Алматы с запасом"
+            "uz": "Almatidan zaxira vaqt bilan chiqing"
+          "description":
+            "en": "Almaty is the practical city anchor before the long road narrows toward Saty."
+            "ru": "Алматы остается практичным городским ориентиром перед длинной дорогой к Саты."
+            "uz": "Almati Saty tomonga uzun yo‘l boshlanishidan oldingi amaliy shahar tayanchi bo‘lib qoladi."
+        - "title":
+            "en": "Stay overnight in Saty"
+            "ru": "Переночевать в Саты"
+            "uz": "Satyda tunang"
+          "description":
+            "en": "The village night gives the lake route a meal, a bed, and a clearer mountain morning."
+            "ru": "Ночь в селе дает маршруту ужин, кровать и более ясное горное утро."
+            "uz": "Qishloqdagi tun yo‘nalishga ovqat, yotoq va aniqroq tog‘ tongini beradi."
+        - "title":
+            "en": "Check Kolsai and Kaindy access"
+            "ru": "Проверить доступ к Кольсаю и Каинды"
+            "uz": "Kolsai va Qayindyga kirishni tekshiring"
+          "description":
+            "en": "Kolsai and Kaindy need current checks for park access, weather, vehicle, and return timing."
+            "ru": "Для Кольсая и Каинды нужно проверить доступ в парк, погоду, машину и время возвращения."
+            "uz": "Kolsai va Qayindy uchun parkka kirish, ob-havo, mashina va qaytish vaqtini tekshirish kerak."
+        - "title":
+            "en": "Keep a weather buffer."
+            "ru": "Оставить запас на погоду."
+            "uz": "Ob-havo uchun vaqt qoldiring."
+          "description":
+            "en": "Mountain weather can change the order, so the plan should keep a buffer instead of forcing both lakes."
+            "ru": "Горная погода может менять порядок, поэтому в плане нужен запас, а не попытка форсировать оба озера."
+            "uz": "Tog‘ ob-havosi tartibni o‘zgartirishi mumkin, shuning uchun reja ikkala ko‘lni majburlashdan ko‘ra zaxira vaqt qoldirishi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Kolsai first, Kaindy when the road is right"
+      "ru": "Сначала Кольсай, Каинды - когда дорога подходит"
+      "uz": "Avval Kolsai, yo‘l mos bo‘lsa Qayindy"
+    "description":
+      "en": "Kolsai is the clearest lake anchor for Saty. Kaindy adds its flooded spruce trunks when the road, vehicle, season, and return timing are right. Black Canyon can belong to a wider Almaty nature route, but it should stay a separate road stop rather than part of the first Saty lake focus."
+      "ru": "Кольсай - самый ясный озерный ориентир для Саты. Каинды добавляет затопленные ели, когда дорога, машина, сезон и время возвращения позволяют ехать спокойно. Черный каньон может быть частью более широкой природной поездки из Алматы, но для Саты сначала важны два озерных выезда."
+      "uz": "Kolsai Saty uchun eng aniq ko‘l tayanchi. Yo‘l, mashina, mavsum va qaytish vaqti mos bo‘lsa, Qayindy suv ichidagi archa tanalarini qo‘shadi. Qora kanyon Almati atrofidagi kengroq tabiat yo‘liga kirishi mumkin, ammo Saty uchun birinchi navbatda ikki ko‘l safarini xotirjam qilish muhim."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Kolsai Lakes National Park"
+          "ru": "Национальный парк «Кольсайские озёра»"
+          "uz": "Kolsai ko‘llari milliy bog‘i"
+        "description":
+          "en": "Kolsai begins before the shore appears. After the road from Almaty, Saty gives the route a quiet overnight; the next morning, forest, water, and park rules set a slower mountain pace."
+          "ru": "Кольсай начинается до того, как появляется берег. После дороги из Алматы Саты даёт маршруту спокойную ночь; наутро лес, вода и правила парка задают более медленный горный темп."
+          "uz": "Kolsai qirg‘oq ko‘rinishidan oldin boshlanadi. Almatydan kelgan yo‘ldan so‘ng Saty yo‘nalishga sokin tun beradi; ertalab esa o‘rmon, suv va park qoidalari tog‘dagi sekinroq tempni belgilaydi."
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/saty/kolsai-lakes-national-park"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Lake Kaindy"
+          "ru": "Озеро Каинды"
+          "uz": "Qayindy ko‘li"
+        "description":
+          "en": "Kaindy is not simply another lake after Kolsai. The first view is stranger and quieter: spruce trunks standing in cold water, forested slopes around the shore, and a mountain road that needs a current local check before you go."
+          "ru": "Каинды — не просто ещё одно озеро после Кольсая. Первый вид здесь более странный и тихий: еловые стволы стоят в холодной воде, вокруг поднимаются лесистые склоны, а горную дорогу нужно проверить на месте перед выездом."
+          "uz": "Qayindy Kolsaydan keyingi shunchaki yana bir ko‘l emas. Birinchi manzara g‘alatiroq va sokinroq: sovuq suvda archa tanalari tik turadi, qirg‘oq atrofida o‘rmonli yonbag‘irlar bor, tog‘ yo‘lini esa chiqishdan oldin mahalliy tarzda tekshirish kerak."
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/saty/lake-kaindy"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Village rhythm"
+      "ru": "Ритм села"
+      "uz": "Qishloq ritmi"
+    "title":
+      "en": "Three moments before the lake road"
+      "ru": "Три момента перед дорогой к озерам"
+      "uz": "Ko‘l yo‘lidan oldingi uch lahza"
+    "description":
+      "en": "Saty works best through small, practical moments: arriving before dark, leaving while the village is quiet, and deciding Kaindy with current local advice."
+      "ru": "Саты лучше всего раскрывается через простые практичные моменты: приехать до темноты, выехать, пока село тихое, и решать Каинды по актуальному местному совету."
+      "uz": "Saty sodda amaliy lahzalar orqali yaxshi seziladi: qorong‘i tushmasdan yetib kelish, qishloq tinch paytda yo‘lga chiqish va Qayindy bo‘yicha qarorni ayni mahalliy maslahatga qarab qabul qilish."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Guesthouse evening"
+          "ru": "Вечер в гостевом доме"
+          "uz": "Mehmon uyidagi kech"
+        "description":
+          "en": "Dinner, tea, and a road conversation turn Saty into the calm start of the mountain day, not just a stop between Almaty and the lakes."
+          "ru": "Ужин, чай и разговор о дороге превращают Саты в спокойное начало горного дня, а не просто остановку между Алматы и озерами."
+          "uz": "Kechki ovqat, choy va yo‘l haqidagi suhbat Satyni Almati bilan ko‘llar orasidagi oddiy to‘xtash emas, tog‘ kunining sokin boshlanishiga aylantiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Early lake road"
+          "ru": "Ранняя дорога к озерам"
+          "uz": "Ko‘llarga erta yo‘l"
+        "description":
+          "en": "Kolsai feels more generous when breakfast, vehicle, weather, and park access are settled before the first climb."
+          "ru": "Кольсай раскрывается спокойнее, когда завтрак, машина, погода и доступ в парк понятны до первого подъема."
+          "uz": "Nonushta, mashina, ob-havo va parkka kirish birinchi ko‘tarilishdan oldin aniq bo‘lsa, Kolsai sokinroq ochiladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Kaindy transfer check"
+          "ru": "Проверка трансфера к Каинды"
+          "uz": "Qayindy transferini tekshirish"
+        "description":
+          "en": "Kaindy is close on the map, but season, road surface, vehicle choice, local advice, and return timing shape the visit."
+          "ru": "Каинды близко на карте, но визит определяют сезон, покрытие дороги, машина, местный совет и время возвращения."
+          "uz": "Qayindy xaritada yaqin, lekin tashrifni mavsum, yo‘l holati, mashina tanlovi, mahalliy maslahat va qaytish vaqti belgilaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "Plan Saty as a village stay before the lakes"
+      "ru": "Планируйте Саты как ночь в селе перед озерами"
+      "uz": "Satyni ko‘llardan oldingi qishloqdagi tunash sifatida rejalang"
+    "description":
+      "en": "Saty's strength is simple: a room, a meal, an early start, and time to confirm the conditions that make the lake visit feel calm."
+      "ru": "Сила Саты проста: комната, ужин, ранний выезд и время проверить условия, от которых зависит спокойный визит к озерам."
+      "uz": "Satyning kuchi oddiy: xona, ovqat, erta yo‘lga chiqish va ko‘l tashrifini sokin qiladigan sharoitlarni tekshirishga vaqt."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Arrive before dark"
+              "ru": "Приехать до темноты"
+              "uz": "Kech tushmasdan yetib kelish"
+            "description":
+              "en": "The road from Almaty ends more comfortably with dinner, rest, and a weather check than with a late push toward the lakes."
+              "ru": "Дорога из Алматы легче заканчивается ужином, отдыхом и проверкой погоды, чем поздним рывком к озерам."
+              "uz": "Almati yo‘li kechki ovqat, dam olish va ob-havo tekshiruvi bilan yakunlansa, ko‘llarga kechki shoshilishdan ko‘ra yengilroq o‘tadi."
+          - "type": "quote"
+            "quote":
+              "en": "In Saty, the lake route becomes human: dinner, a bed, an early road, and enough caution for mountain weather."
+              "ru": "В Саты озерный маршрут становится человеческим: ужин, кровать, ранняя дорога и достаточно осторожности для горной погоды."
+              "uz": "Satyda ko‘l yo‘li insoniy tus oladi: ovqat, yotoq, erta yo‘l va tog‘ ob-havosiga yetarli ehtiyot."
+          - "type": "dashTitle"
+            "title":
+              "en": "Let Kolsai shape the first outing"
+              "ru": "Отдать первый выезд Кольсаю"
+              "uz": "Birinchi chiqishni Kolsai belgilasin"
+            "description":
+              "en": "Kolsai is the main lake anchor for this route. Park access, walking comfort, footwear, and season decide how much of the protected landscape belongs in the visit."
+              "ru": "Кольсай - главный озерный ориентир этого маршрута. Доступ в парк, комфорт прогулки, обувь и сезон показывают, сколько охраняемого ландшафта стоит включать."
+              "uz": "Kolsai bu yo‘nalishning asosiy ko‘l tayanchi. Parkka kirish, yurish qulayligi, poyabzal va mavsum muhofaza qilingan landshaftning qanchasi tashrifga mosligini ko‘rsatadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep Kaindy flexible."
+              "ru": "Оставить Каинды гибким."
+              "uz": "Qayindyni moslashuvchan qoldiring."
+            "description":
+              "en": "Kaindy's flooded spruce trunks are memorable, but road condition, vehicle choice, local transfer rules, and return timing should decide whether the visit stays calm."
+              "ru": "Затопленные ели Каинды запоминаются, но состояние дороги, тип машины, местные правила трансфера и время возвращения должны решать, останется ли выезд спокойным."
+              "uz": "Qayindyning suvdagi archa tanalari esda qoladi, lekin yo‘l holati, mashina turi, mahalliy transfer qoidalari va qaytish vaqti safar sokin o‘tishini belgilashi kerak."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Что важно запомнить"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Sleep in Saty before the mountains, check the road and weather, and let Kolsai and Kaindy become proper visits rather than a rushed return from Almaty."
+              "ru": "Переночуйте в Саты перед горами, проверьте дорогу и погоду, и пусть Кольсай с Каинды станут настоящими визитами, а не быстрым возвращением из Алматы."
+              "uz": "Tog‘larga chiqishdan oldin Satyda tunang, yo‘l va ob-havoni tekshiring, Kolsai va Qayindy Almatidan shoshilinch qaytish emas, haqiqiy tashrif bo‘lib sezilsin."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqa ma’lumot Joy"
+                "description":
+                  "en": "Saty sits between the Almaty road and the Kolsai/Kaindy lake valleys."
+                  "ru": "Саты лежит между дорогой из Алматы и озерными долинами Кольсая и Каинды."
+                  "uz": "Saty Almati yo‘li bilan Kolsai-Qayindy ko‘l vodiylari orasida joylashgan."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main anchors"
+                  "ru": "Главные ориентиры"
+                  "uz": "Asosiy tayanchlar"
+                "description":
+                  "en": "They carry the lake focus for this route."
+                  "ru": "Именно они держат озерный фокус этого маршрута."
+                  "uz": "Bu yo‘nalishning ko‘l mazmunini aynan ular beradi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Stay"
+                  "ru": "Ночевка"
+                  "uz": "Tunash"
+                "description":
+                  "en": "A slower plan helps when weather, walking, and transfer checks matter."
+                  "ru": "Более медленный план помогает, когда важны погода, прогулки и трансфер."
+                  "uz": "Ob-havo, yurish va transfer tekshiruvlari muhim bo‘lsa, sekinroq reja yordam beradi."
+              - "icon": "Route"
+                "title":
+                  "en": "Access"
+                  "ru": "Доступ"
+                  "uz": "Kirish"
+                "description":
+                  "en": "Kaindy may need a suitable vehicle or local transfer; Kolsai depends on park rules and season."
+                  "ru": "Для Каинды может понадобиться подходящий автомобиль или местный трансфер; Кольсай зависит от правил парка и сезона."
+                  "uz": "Qayindy mos mashina yoki mahalliy transfer talab qilishi mumkin; Kolsai park qoidalari va mavsumga bog‘liq."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Confirm before travel"
+                  "ru": "Проверить до поездки"
+                  "uz": "Safardan oldin tekshiring"
+                "description":
+                  "en": "Guesthouses, meals, bathrooms, heating, park rules, weather, and road condition should be checked close to departure."
+                  "ru": "Гостевые дома, питание, санузлы, отопление, правила парка, погоду и дорогу стоит уточнять ближе к выезду."
+                  "uz": "Mehmon uylari, ovqat, sanitariya, isitish, park qoidalari, ob-havo va yo‘l holatini chiqishga yaqin aniqlash kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqin joylar"
+    "title":
+      "en": "Back toward Almaty"
+      "ru": "Обратно в сторону Алматы"
+      "uz": "Almati tomonga qaytish"
+    "description":
+      "en": "Almaty is the practical city anchor for Saty: flights, services, and the wider Kazakhstan journey. Kegen and Charyn may matter in a broader road plan, but they need their own access and timing checks before being added."
+      "ru": "Алматы остается практичным городским ориентиром для Саты: перелеты, сервисы и продолжение поездки по Казахстану. Кеген и Чарын могут быть важны в более широком дорожном плане, но перед добавлением им нужны отдельные проверки доступа и времени."
+      "uz": "Almati Saty uchun amaliy shahar tayanchi bo‘lib qoladi: aviareyslar, servislar va Qozog‘iston bo‘ylab kengroq safar. Kegen va Charyn kengroq yo‘l rejasida muhim bo‘lishi mumkin, lekin qo‘shilishidan oldin ularning kirish sharoiti va vaqti alohida tekshirilishi kerak."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan/next/saty-next-almaty.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Almaty"
+          "ru": "Алматы"
+          "uz": "Olmaota"
+        "description":
+          "en": "Almaty brings Kazakhstan into the foothills: leafy streets, market time, Kok-Tobe views, Medeu air, Shymbulak lift timing, and wider routes toward canyons, lakes, rock art, and steppe."
+          "ru": "Алматы вводит Казахстан в предгорья: зелёные улицы, рынок, виды Кок-Тобе, воздух Медеу, тайминг Шымбулака и выбор дорог к каньонам, озёрам, петроглифам и степи."
+          "uz": "Olmaota Qozogʻistonni togʻoldi kayfiyatida ochadi: yashil koʻchalar, bozor vaqti, Koʻk-Tobe manzarasi, Medeu havosi, Shimbuloq vaqt tanlovi hamda kanyon, ko‘l, qoya rasmlari va dasht yoʻllari."
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/almaty"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Saty in the day plan"
+      "ru": "Как поставить Саты в план дня"
+      "uz": "Satyni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Saty?"
+          "ru": "Сколько времени группам стоит проводить в Саты?"
+          "uz": "Satyda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A mountain-village night before Kolsai and Kaindy”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Ночь в горном селе перед Кольсаем и Каинды»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Kolsai va Qayindy oldidagi tog‘ qishlog‘ida tunash»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Saty be a walkable core or a base for day trips?"
+          "ru": "Саты — это пешеходное ядро или база для выездов?"
+          "uz": "Saty piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Saty's centre?"
+          "ru": "Где лучше ночевать относительно центра Саты?"
+          "uz": "Saty markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan/regions/almaty-and-northern-tian-shan/cities/saty.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Saty stop into your Kazakhstan programme"
+      "ru": "Встройте остановку «Саты» в программу (Казахстан)"
+      "uz": "Saty bekatini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Saty | TourLink"
+    "ru": "Саты | TourLink"
+    "uz": "Saty | TourLink"
+  "metaDescription":
+    "en": "Saty gives the lake route a human rhythm. Guesthouse breakfasts begin before the first cars leave, the road climbs toward Kolsai and Kaindy, and the morning is easier when weather, park access, and transfer plans are checked the night before."
+    "ru": "Саты добавляет озерному маршруту человеческий ритм. В гостевых домах готовят завтрак до первых выездов, дорога поднимается к Кольсаю и Каинды, а утро начинается спокойнее, если погода, доступ в парк и трансфер понятны еще накануне."
+    "uz": "Saty ko‘llar yo‘liga insoniy ritm qo‘shadi. Mehmon uylarida ilk mashinalar chiqishidan oldin nonushta tayyorlanadi, yo‘l Kolsai va Qayindy tomon ko‘tariladi, ob-havo, parkka kirish va transfer rejasi bir kun oldin aniqlansa, tong ancha sokin boshlanadi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "almaty-and-northern-tian-shan"
+"latitude": 43.070591
+"longitude": 78.408775

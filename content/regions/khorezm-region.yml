@@ -1,110 +1,448 @@
-# Seed: regions — Khorezm Region (from OLD DB regions/khiva)
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "khorezm-region"
+  "ru": "khorezm-region"
+  "uz": "khorezm-region"
+"title":
+  "en": "Khorezm"
+  "ru": "Хорезм"
+  "uz": "Xorazm"
+"subtitle":
+  "en": "Urgench, Khiva's walls, and the road west"
+  "ru": "Ургенч, стены Хивы и дорога на запад"
+  "uz": "Urganch, Xiva devorlari va g‘arbga yo‘l"
+"excerpt":
+  "en": "Khorezm carries the Uzbekistan route west: most journeys pass through Urgench, then the road tightens toward Khiva and the walls of Itchan Kala. Inside the city, Kalta Minor, Juma Mosque, gates, courtyards, and mudbrick lanes keep the day close and walkable. The region needs more than a quick transfer: the overnight location, the first evening by the walls, and an early walk in Itchan Kala all matter before the route turns back, continues toward desert fortresses, or links onward to the Aral Sea."
+  "ru": "Хорезм уводит маршрут по Узбекистану на запад: чаще всего через Ургенч, затем короткой дорогой к Хиве и стенам Ичан-Калы. Внутри города Кальта-Минор, Джума-мечеть, ворота, дворы и глинобитные улицы собирают день в пешую прогулку. Региону нужно больше, чем быстрый трансфер: важны не только дорога, но и место ночёвки, первый вечер у стен и ранний выход в Ичан-Калу, прежде чем путь вернётся назад, уйдёт к пустынным крепостям или продолжится к Аралу."
+  "uz": "Xorazm O‘zbekiston yo‘lini g‘arbga olib boradi: yo‘l ko‘pincha Urganch orqali o‘tadi, keyin Xiva va Ichan Qalʼa devorlariga yaqinlashadi. Shahar ichida Kalta Minor, Juma masjidi, darvozalar, hovlilar va paxsa ko‘chalar kunni piyoda va yaqin qiladi. Bu hududga shunchaki tez transfer yetmaydi: tunash joyi, devorlar yonidagi birinchi oqshom va Ichan Qalʼadagi erta sayr muhim. Keyin yo‘l ortga qaytishi, cho‘l qalʼalariga chiqishi yoki Orol dengizi tomon davom etishi mumkin."
+"heroImage": "assets/images/destinations/uzbekistan/regions/khorezm-region.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/khorezm-region.webp"
+    "imageAlt":
+      "en": "Khorezm"
+      "ru": "Хорезм"
+      "uz": "Xorazm"
+    "title":
+      "en": "Khorezm"
+      "ru": "Хорезм"
+      "uz": "Xorazm"
+    "description":
+      "en": "Urgench, Khiva's walls, and the road west"
+      "ru": "Ургенч, стены Хивы и дорога на запад"
+      "uz": "Urganch, Xiva devorlari va g‘arbga yo‘l"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
 
-slug:
-  en: khorezm-region
-  ru: khorezm-region
-  uz: khorezm-region
-title:
-  en: Khorezm Region
-  ru: Хорезмская область
-  uz: Xorazm viloyati
-subtitle:
-  en: Walled museum-city
-  ru: Город-музей за стенами
-  uz: Devorli muzey-shahar
-excerpt:
-  en: Itchan Kala — Central Asia's most intact walled old city.
-  ru: Ичан-Кала — самый цельный оборонительный старый город Центральной Азии.
-  uz: Ichan Qal'a — Markaziy Osiyodagi eng yaxshi saqlangan devorli qadimiy shahar.
-country: uzbekistan
-mapCenter:
-  latitude: 41.3783
-  longitude: 60.3639
-heroImage: assets/images/city/khiva.jpg
-blocks:
-  - blockType: hero
-    image: assets/images/city/khiva.jpg
-    imageAlt:
-      en: Khiva Itchan Kala
-      ru: Ичан-Кала, Хива
-      uz: Xiva, Ichan Qal'a
-    title:
-      en: Khorezm Region
-      ru: Хорезмская область
-      uz: Xorazm viloyati
-    description:
-      en: Itchan Kala — Central Asia's most intact walled old city.
-      ru: Ичан-Кала — самый цельный оборонительный старый город Центральной Азии.
-      uz: Ichan Qal'a — Markaziy Osiyodagi eng yaxshi saqlangan devorli qadimiy shahar.
-  - blockType: regular
-    eyebrow:
-      en: Overview
-      ru: Обзор
-      uz: Umumiy
-    title:
-      en: Khiva at a glance
-      ru: Хива в двух словах
-      uz: Xiva qisqacha
-    description:
-      en: "Khiva's Itchan Kala is one of the most complete historic urban ensembles in the region, enclosed by defensive walls. The city is walkable and photogenic; itineraries often use it as the final Silk Road chapter."
-      ru: "Ичан-Кала Хивы — один из самых цельных исторических ансамблей региона, окружённый оборонительными стенами. Город компактен и фотогеничен; часто становится финалом маршрута по Шёлковому пути."
-      uz: "Xivaning Ichan Qal'asi mintaqadagi eng to'liq tarixiy shahar ansamblilaridan biri, himoya devorlari bilan o'ralgan."
-  - blockType: regular
-    eyebrow:
-      en: Landmark
-      ru: Достопримечательность
-      uz: Diqqatga sazovor joy
-    title:
-      en: Inside Itchan Kala
-      ru: Внутри Ичан-Калы
-      uz: Ichan Qal'a ichida
-    description:
-      en: "Minarets, courtyards and mud-brick walls in concentrated form. Start with outer-wall viewpoints, then move through madrasa courtyards and museum complexes."
-      ru: "Минареты, дворы и глиняные стены в концентрированном виде. Начните с видов на внешние стены, затем пройдите через дворы медресе и музейные комплексы."
-      uz: "Minoralar, hovlilar va loy devorlar ixcham shaklda. Tashqi devor manzaralaridan boshlang."
-    cards:
-      - type: destinationInsight
-        icon: Timer
-        title:
-          en: Best pace
-          ru: Оптимальный темп
-          uz: Eng yaxshi ritm
-        description:
-          en: 1-2 nights is enough for core highlights.
-          ru: 1–2 ночи достаточно для основных точек.
-          uz: 1-2 tun asosiy diqqatga sazovor joylar uchun yetarli.
-      - type: destinationInsight
-        icon: ShieldCheck
-        title:
-          en: Heat strategy
-          ru: Жара
-          uz: Issiqlik
-        description:
-          en: Summer days are hot; plan walks for morning/evening.
-          ru: Летом жарко; прогулки лучше утром и вечером.
-          uz: Yoz kunlari issiq; yurishni ertalab/kechqurun rejalashtiring.
-      - type: destinationInsight
-        icon: Eye
-        title:
-          en: Program role
-          ru: Роль в маршруте
-          uz: Marshrutdagi o'rin
-        description:
-          en: Great as a visual finale after Bukhara.
-          ru: Сильный визуальный финал после Бухары.
-          uz: Buxorodan keyin kuchli vizual yakun.
-seo:
-  metaTitle:
-    en: Khorezm Region | TourLink
-    ru: Хорезмская область | TourLink
-    uz: Xorazm viloyati | TourLink
-  metaDescription:
-    en: Itchan Kala and walled-city heritage in Khorezm — TourLink region guide.
-    ru: Ичан-Кала и наследие города за стенами в Хорезме — гид TourLink.
-    uz: Ichan Qal'a va devorli shahar merosi — TourLink Xorazm gidi.
-  structuredDataType: TouristDestination
-status:
-  showInSitemap: true
-  noindex: false
-  hideFromNavigation: false
-  publishedAt: "2025-06-01"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О регионе"
+      "uz": "Hudud haqida"
+    "title":
+      "en": "Khorezm"
+      "ru": "Хорезм"
+      "uz": "Xorazm"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Khorezm carries the Uzbekistan route west: most journeys pass through Urgench, then the road tightens toward Khiva and the walls of Itchan Kala."
+              "ru": "Хорезм уводит маршрут по Узбекистану на запад: чаще всего через Ургенч, затем короткой дорогой к Хиве и стенам Ичан-Калы."
+              "uz": "Xorazm O‘zbekiston yo‘lini g‘arbga olib boradi: yo‘l ko‘pincha Urganch orqali o‘tadi, keyin Xiva va Ichan Qalʼa devorlariga yaqinlashadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Once the traveler reaches Khiva, Khorezm feels compact, but the first day depends on schedules, the road from Urgench, heat, and how close the hotel is to Itchan Kala."
+              "ru": "Когда путешественник уже в Хиве, Хорезм кажется компактным, но первый день зависит от расписания, дороги из Ургенча, жары и близости отеля к Ичан-Кале."
+              "uz": "Sayohatchi Xivaga yetgach, Xorazm ixcham ko‘rinadi, lekin birinchi kun jadval, Urganchdan yo‘l, issiq va mehmonxonaning Ichan Qalʼaga yaqinligiga bog‘liq."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Most routes enter Khorezm through Urgench, but the main time belongs in Khiva: the road to the city, an evening by the walls, and an early walk in Itchan Kala should be planned before the day fills up."
+              "ru": "Чаще всего маршрут заходит в Хорезм через Ургенч, но главное время лучше оставлять Хиве: дорога к городу, вечер у стен и ранний выход в Ичан-Калу должны быть заложены заранее."
+              "uz": "Marshrut ko‘pincha Xorazmga Urganch orqali kiradi, lekin asosiy vaqtni Xivaga qoldirish kerak: shaharga yo‘l, devorlar yonidagi oqshom va Ichan Qalʼaga erta chiqish oldindan rejalansin."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Khorezm as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Хорезм как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Xorazm o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "Through Urgench to Khiva, with time inside the walls"
+      "ru": "Через Ургенч к Хиве, без спешки внутри стен"
+      "uz": "Urganch orqali Xivaga, devorlar ichida shoshilmasdan"
+    "description":
+      "en": "Once the traveler reaches Khiva, Khorezm feels compact, but the first day depends on schedules, the road from Urgench, heat, and how close the hotel is to Itchan Kala."
+      "ru": "Когда путешественник уже в Хиве, Хорезм кажется компактным, но первый день зависит от расписания, дороги из Ургенча, жары и близости отеля к Ичан-Кале."
+      "uz": "Sayohatchi Xivaga yetgach, Xorazm ixcham ko‘rinadi, lekin birinchi kun jadval, Urganchdan yo‘l, issiq va mehmonxonaning Ichan Qalʼaga yaqinligiga bog‘liq."
+    "mapPanel":
+      "eyebrow":
+        "en": "Khiva route points"
+        "ru": "Точки Хивы"
+        "uz": "Xiva yoʻnalishi nuqtalari"
+      "title":
+        "en": "Urgench as the gateway, Khiva inside the walls"
+        "ru": "Дорога через Ургенч и Хива внутри стен"
+        "uz": "Urganch orqali yo‘l va devor ichidagi Xiva"
+      "description":
+        "en": "The map separates the Urgench connection from the walled-city stops, so the transfer, overnight choice, and next route decision stay clear."
+        "ru": "Карта отделяет дорогу через Ургенч от остановок внутри стен, чтобы трансфер, ночёвка и следующий шаг маршрута были понятны."
+        "uz": "Xarita Urganch orqali yo‘lni devor ichidagi bekatlardan ajratadi, shunda transfer, tunash joyi va keyingi yo‘l qarori aniq ko‘rinadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.46437
+      "longitude": 60.49262
+    "zoom": 9
+    "stops":
+      - "entityType": "city"
+        "entitySlug": "khiva"
+      - "entityType": "city"
+        "entitySlug": "urgench"
+      - "entityType": "attraction"
+        "entitySlug": "avesto-park-complex"
+      - "entityType": "attraction"
+        "entitySlug": "contemporary-art-museum-of-uzbekistan-urgench"
+      - "entityType": "attraction"
+        "entitySlug": "komiljon-otaniyozov-house-museum"
+      - "entityType": "attraction"
+        "entitySlug": "itchan-kala"
+      - "entityType": "attraction"
+        "entitySlug": "kalta-minor-minaret"
+      - "entityType": "attraction"
+        "entitySlug": "juma-mosque-khiva"
+    "aside":
+      "eyebrow":
+        "en": "What to plan first"
+        "ru": "Что важно учесть"
+        "uz": "Avval nimani rejalash kerak"
+      "title":
+        "en": "First the road to Khiva, then the walk inside the walls"
+        "ru": "Сначала дорога до Хивы, затем прогулка внутри стен"
+        "uz": "Avval Xivaga yo‘l, keyin devorlar ichidagi sayr"
+      "description":
+        "en": "Most routes enter Khorezm through Urgench, but the main time belongs in Khiva: the road to the city, an evening by the walls, and an early walk in Itchan Kala should be planned before the day fills up."
+        "ru": "Чаще всего маршрут заходит в Хорезм через Ургенч, но главное время лучше оставлять Хиве: дорога к городу, вечер у стен и ранний выход в Ичан-Калу должны быть заложены заранее."
+        "uz": "Marshrut ko‘pincha Xorazmga Urganch orqali kiradi, lekin asosiy vaqtni Xivaga qoldirish kerak: shaharga yo‘l, devorlar yonidagi oqshom va Ichan Qalʼaga erta chiqish oldindan rejalansin."
+      "items":
+        - "title":
+            "en": "Through Urgench to Khiva"
+            "ru": "Через Ургенч к Хиве"
+            "uz": "Urganch orqali Xivaga"
+          "description":
+            "en": "Urgench handles flights, rail connections, and the short transfer to Khiva; the travel experience begins once the road reaches the walls."
+            "ru": "Ургенч принимает авиарейсы, поезда и короткий трансфер к Хиве; главное впечатление начинается, когда дорога подходит к стенам."
+            "uz": "Urganch aviaparvozlar, poyezdlar va Xivaga qisqa transferni qabul qiladi; asosiy taassurot yo‘l devorlarga yetganda boshlanadi."
+          "badge":
+            "en": "Gateway"
+            "ru": "Вход"
+            "uz": "Kirish"
+        - "title":
+            "en": "Stay near Itchan Kala"
+            "ru": "Остановиться рядом с Ичан-Калой"
+            "uz": "Ichan Qalʼaga yaqin qolish"
+          "description":
+            "en": "A hotel near the walls keeps gates, morning walks, tea breaks, and evening returns close without adding extra transfers."
+            "ru": "Отель рядом со стенами оставляет близко ворота, утреннюю прогулку, чайную паузу и вечернее возвращение без лишних переездов."
+            "uz": "Devorlarga yaqin mehmonxona darvozalar, tonggi sayr, choy tanaffusi va kechki qaytishni ortiqcha transfersiz yaqin tutadi."
+          "badge":
+            "en": "Overnight stop"
+            "ru": "Где ночевать"
+            "uz": "Tunash joyi"
+        - "title":
+            "en": "Walk inside the walls"
+            "ru": "Прогулка внутри стен"
+            "uz": "Devorlar ichidagi sayr"
+          "description":
+            "en": "Itchan Kala, Kalta Minor, Juma Mosque, gates, lanes, and courtyards sit close enough for a walking day, but the route still needs pauses between monuments."
+            "ru": "Ичан-Кала, Кальта-Минор, Джума-мечеть, ворота, улицы и дворы стоят достаточно близко для пешего дня, но между памятниками всё равно нужны паузы."
+            "uz": "Ichan Qalʼa, Kalta Minor, Juma masjidi, darvozalar, ko‘chalar va hovlilar piyoda kun uchun yaqin, lekin yodgorliklar orasida pauza kerak."
+          "badge":
+            "en": "Old-city core"
+            "ru": "Старый город"
+            "uz": "Eski shahar"
+        - "title":
+            "en": "Close or continue the journey"
+            "ru": "Завершить или продолжить путь"
+            "uz": "Yoʻlni yakunlash yoki davom ettirish"
+          "description":
+            "en": "After Khiva, the route either turns back, adds desert-fortress stops, or continues toward the Aral Sea."
+            "ru": "После Хивы маршрут либо возвращается назад, либо добавляет пустынные крепости, либо продолжается к Аральскому морю."
+            "uz": "Xivadan keyin yo‘l ortga qaytadi, cho‘l qalʼalarini qo‘shadi yoki Orol dengizi tomonga davom etadi."
+          "badge":
+            "en": "Route decision"
+            "ru": "Решение"
+            "uz": "Qaror"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region character"
+      "ru": "Характер региона"
+      "uz": "Hudud xarakteri"
+    "title":
+      "en": "Urgench, Khiva's walls, and the road beyond"
+      "ru": "Ургенч, стены Хивы и дорога дальше"
+      "uz": "Urganch, Xiva devorlari va keyingi yo‘l"
+    "description":
+      "en": "Khorezm is easiest to plan when the road through Urgench, the night in Khiva, and the next route choice are treated as one western chapter of Uzbekistan.
+
+
+        «Khorezm opens up when Khiva is more than a daytime stop, with an evening by the walls and a morning walk.»"
+      "ru": "Хорезм легче планировать, когда дорога через Ургенч, ночь в Хиве и следующий шаг маршрута складываются в одну западную главу Узбекистана.
+
+
+        «Хорезм раскрывается лучше, когда Хива получает не только дневной осмотр, но и вечер у стен.»"
+      "uz": "Xorazmni Urganch orqali yo‘l, Xivadagi tun va keyingi yo‘l tanlovi O‘zbekistonning bitta g‘arbiy bobi sifatida ko‘rilganda rejalash osonroq bo‘ladi.
+
+
+        «Xiva faqat kunduzgi ko‘rish bilan cheklanmasa, devorlar yonidagi oqshom Xorazmni yaxshiroq ochadi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route and overnight"
+      "ru": "Маршрут и ночёвка"
+      "uz": "Marshrut va tunash"
+    "title":
+      "en": "Night in Khiva, route through Urgench"
+      "ru": "Ночь в Хиве, дорога через Ургенч"
+      "uz": "Xivada tunash, Urganch orqali yo‘l"
+    "description":
+      "en": "Keep the night in Khiva. Urgench connects the route with flights, trains, and the road into the oasis."
+      "ru": "Ночёвку лучше оставлять в Хиве; Ургенч помогает связать маршрут с авиарейсами, поездами и дорогой к городу."
+      "uz": "Tunashni Xivada qoldirgan maʼqul; Urganch marshrutni aviaparvozlar, poyezdlar va shaharga yo‘l bilan bog‘laydi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/khorezm-region/cities/khiva.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Khiva"
+          "ru": "Хива"
+          "uz": "Xiva"
+        "description":
+          "en": "Khiva works best when you return inside the walls during the day: first the gates and Kalta Minor, then Juma Mosque, palace courtyards, carved doors, workshops, and a meal in the old town before the route decides whether to stay in the city or continue across Khorezm."
+          "ru": "Хива лучше раскрывается не одним кругом, а возвращением внутрь стен: сначала ворота и Кальта-Минор, затем Джума-мечеть, дворцовые дворы, резные двери, мастерские и еда в старом городе до решения, останется ли маршрут в Хиве или уйдёт дальше по Хорезму."
+          "uz": "Xiva bir aylanishdan ko‘ra, kun davomida devorlar ichiga qaytilganda yaxshiroq ochiladi: avval darvozalar va Kalta Minor, keyin Juma masjidi, saroy hovlilari, o‘yma eshiklar, ustaxonalar va eski shahardagi ovqat; shundan so‘ng yo‘l Xivada qoladimi yoki Xorazm bo‘ylab davom etadim"
+        "ctaHref": "/destinations/uzbekistan/khorezm-region/khiva"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/khorezm-region/cities/urgench.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Urgench"
+          "ru": "Ургенч"
+          "uz": "Urganch"
+        "description":
+          "en": "Urgench is usually the practical threshold to Khorezm. Flights and trains arrive here, the road turns toward Khiva, and a spare window can become Avesto Park, CAMUZ, Ulli Hovli, or simply a quiet meal before Itchan Kala."
+          "ru": "Ургенч обычно становится порогом Хорезма. Сюда прилетают и приезжают поездом, отсюда дорога уходит к Хиве, а свободное окно можно отдать парку Авесто, CAMUZ, Ули-Ховли или спокойному ужину перед Ичан-Калой."
+          "uz": "Urganch odatda Xorazmga kirish ostonasi bo‘ladi. Parvozlar va poyezdlar shu yerga keladi, yo‘l Xivaga buriladi, ortgan vaqt esa Avesto bog‘i, CAMUZ, Ulli Hovli yoki Ichan Qalʼadan oldingi sokin kechki ovqatga aylanishi mumkin."
+        "ctaHref": "/destinations/uzbekistan/khorezm-region/urgench"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nima ko‘rish kerak"
+    "title":
+      "en": "Khiva inside the walls and Khorezm beyond"
+      "ru": "Хива внутри стен и Хорезм дальше"
+      "uz": "Devor ichidagi Xiva va undan keyingi Xorazm"
+    "description":
+      "en": "Start with Itchan Kala, Kalta Minor, and Juma Mosque inside Khiva. With enough time, add palace rooms, a mausoleum, a minaret, Dishan Kala, Nurullabay, and desert-fortress stops such as Toprak Kala."
+      "ru": "Начните с Ичан-Калы, Кальта-Минора и Джума-мечети в Хиве. Если в маршруте есть время, добавляйте дворец, мавзолей, минарет, Дишан-Калу, Нуруллабай и пустынные крепости вроде Топрак-Калы."
+      "uz": "Xivada Ichan Qalʼa, Kalta Minor va Juma masjididan boshlang. Marshrutda vaqt bo‘lsa, saroy, maqbara, minora, Dishan Qalʼa, Nurullaboy va Tuproq Qalʼa kabi cho‘l qalʼalarini qo‘shing."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/khorezm-region/cities/khiva/attractions/juma-mosque-khiva.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Juma Mosque"
+          "ru": "Джума-мечеть"
+          "uz": "Juma masjidi"
+        "description":
+          "en": "Juma Mosque changes the Khiva walk after the open streets of Itchan Kala: a low covered hall of wooden columns, close to Kalta Minor and the central route."
+          "ru": "Джума-мечеть меняет ход прогулки по Хиве: после открытых улиц Ичан-Калы появляется низкий крытый зал с деревянными колоннами, рядом с Кальта-Минором и центральным маршрутом."
+          "uz": "Juma masjidi Ichan Qalʼaning ochiq ko‘chalaridan keyin Xiva yurishini o‘zgartiradi: Kalta Minor va markaziy yo‘lga yaqin past yopiq yog‘och ustunli zal."
+        "ctaHref": "/destinations/uzbekistan/khorezm-region/khiva/juma-mosque-khiva"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/khorezm-region/cities/khiva/attractions/kalta-minor-minaret.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Kalta Minor"
+          "ru": "Кальта-Минор"
+          "uz": "Kalta Minor"
+        "description":
+          "en": "Kalta Minor gives Khiva a color you recognize before you know the streets: a wide unfinished minaret beside Muhammad Amin Khan Madrasah, close to the lanes where the Itchan Kala walk begins."
+          "ru": "Кальта-Минор даёт Хиве цвет, который запоминается раньше улиц: широкий незавершённый минарет рядом с медресе Мухаммад Амин-хана, близко к началу прогулки по Ичан-Кале."
+          "uz": "Kalta Minor Xivada ko‘chalardan oldin esda qoladigan rangni beradi: Muhammad Aminxon madrasasi yonidagi keng tugallanmagan minora, Ichan Qalʼa yurishi boshlanadigan ko‘chalarga yaqin."
+        "ctaHref": "/destinations/uzbekistan/khorezm-region/khiva/kalta-minor-minaret"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/khorezm-region/cities/khiva/attractions/itchan-kala.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Itchan Kala"
+          "ru": "Ичан-Кала"
+          "uz": "Ichan Qalʼa"
+        "description":
+          "en": "Itchan Kala is where Khiva becomes a walking city: gates, clay lanes, Kalta Minor, Juma Mosque, courtyards, workshops, and museum rooms stay inside one set of walls."
+          "ru": "Ичан-Кала — место, где Хива становится пешим городом: ворота, глинобитные улицы, Кальта-Минор, Джума-мечеть, дворы, мастерские и музейные комнаты остаются внутри одних стен."
+          "uz": "Ichan Qalʼa Xiva piyoda yuriladigan shaharga aylanadigan joy: darvozalar, loy ko‘chalar, Kalta Minor, Juma masjidi, hovlilar, ustaxonalar va muzey xonalari bir devor ichida qoladi."
+        "ctaHref": "/destinations/uzbekistan/khorezm-region/khiva/itchan-kala"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region in detail"
+      "ru": "Регион в деталях"
+      "uz": "Hudud batafsil"
+    "title":
+      "en": "Practical questions about Khorezm"
+      "ru": "Практические вопросы о регионе Хорезм"
+      "uz": "Xorazm hududi bo‘yicha amaliy savollar"
+    "description":
+      "en": "Pace, season, and how this region connects to the next stop."
+      "ru": "Темп, сезон и как регион стыкуется со следующей остановкой."
+      "uz": "Sur’at, mavsum va hududning keyingi bekat bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many days does Khorezm need in a programme?"
+          "ru": "Сколько дней нужно региону Хорезм в программе?"
+          "uz": "Xorazm hududi dasturda necha kun olishi kerak?"
+        "description":
+          "en": "2–4 days usually works if you keep one strong core and treat outer stops as deliberate choices. The region brief is “Urgench, Khiva's walls, and the road west”."
+          "ru": "Обычно хватает 2–4 дня, если держать одно сильное ядро, а внешние остановки выбирать осознанно. Кратко о регионе: «Ургенч, стены Хивы и дорога на запад»."
+          "uz": "Odatda 2–4 kun yetadi — bitta kuchli yadro va tashqi bekatlarni ongli tanlov qiling. Hudud brifi: «Urganch, Xiva devorlari va g‘arbga yo‘l»."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "What should come before and after Khorezm?"
+          "ru": "Что ставить до и после региона Хорезм?"
+          "uz": "Xorazmdan oldin va keyin nima qo‘yish kerak?"
+        "description":
+          "en": "Use neighbouring cities as clean handovers: arrive with a calm first night, leave after one completed chapter, and avoid stacking two long transfers on the same day."
+          "ru": "Соседние города держите как чистые стыки: приезжайте со спокойной первой ночью, уезжайте после завершённой главы и не ставьте два длинных переезда в один день."
+          "uz": "Qo‘shni shaharlarni toza ulanish sifatida tuting: sokin birinchi tun bilan keling, yakunlangan bobdan keyin chiqing va bir kunga ikkita uzun ko‘chishni qo‘ymang."
+      - "type": "destinationInsight"
+        "icon": "Calendar"
+        "title":
+          "en": "What season logic matters most in Khorezm?"
+          "ru": "Какая сезонная логика важнее всего в Хорезм?"
+          "uz": "Xorazmda qaysi mavsum mantig‘i eng muhim?"
+        "description":
+          "en": "Heat, altitude, road condition, and opening hours change the product more than the brochure list. Build the region around what stays comfortable for the group that week."
+          "ru": "Жара, высота, состояние дорог и часы работы меняют продукт сильнее списка из брошюры. Собирайте регион вокруг того, что комфортно именно этой группе в эту неделю."
+          "uz": "Issiqlik, balandlik, yo‘l holati va ish soatlari broshyura ro‘yxatidan kuchliroq mahsulotni o‘zgartiradi. Hududni shu hafta guruh uchun qulay narsaga qurib chiqing."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/khorezm-region.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Khorezm stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Хорезм» в программу (Узбекистан)"
+      "uz": "Xorazm bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right extensions — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать нужные расширения — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va kerakli kengaytmalarni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Khorezm | TourLink"
+    "ru": "Хорезм | TourLink"
+    "uz": "Xorazm | TourLink"
+  "metaDescription":
+    "en": "Khorezm carries the Uzbekistan route west: most journeys pass through Urgench, then the road tightens toward Khiva and the walls of Itchan Kala. Inside the city, Kalta Minor, Juma Mosque, gates, courtyards, and mudbrick lanes keep the day close and walkable. The region needs more than a quick transfer: the overnight location, the first evening by the walls, and an early walk in Itchan Kala all matter before the route turns back, continues toward desert fortresses, or links onward to the Aral Sea."
+    "ru": "Хорезм уводит маршрут по Узбекистану на запад: чаще всего через Ургенч, затем короткой дорогой к Хиве и стенам Ичан-Калы. Внутри города Кальта-Минор, Джума-мечеть, ворота, дворы и глинобитные улицы собирают день в пешую прогулку. Региону нужно больше, чем быстрый трансфер: важны не только дорога, но и место ночёвки, первый вечер у стен и ранний выход в Ичан-Калу, прежде чем путь вернётся назад, уйдёт к пустынным крепостям или продолжится к Аралу."
+    "uz": "Xorazm O‘zbekiston yo‘lini g‘arbga olib boradi: yo‘l ko‘pincha Urganch orqali o‘tadi, keyin Xiva va Ichan Qalʼa devorlariga yaqinlashadi. Shahar ichida Kalta Minor, Juma masjidi, darvozalar, hovlilar va paxsa ko‘chalar kunni piyoda va yaqin qiladi. Bu hududga shunchaki tez transfer yetmaydi: tunash joyi, devorlar yonidagi birinchi oqshom va Ichan Qalʼadagi erta sayr muhim. Keyin yo‘l ortga qaytishi, cho‘l qalʼalariga chiqishi yoki Orol dengizi tomon davom etishi mumkin."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"mapCenter":
+  "latitude": 41.3
+  "longitude": 64.5

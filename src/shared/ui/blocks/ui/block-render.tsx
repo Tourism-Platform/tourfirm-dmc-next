@@ -36,7 +36,8 @@ export function BlockRender({
 						item={{
 							title: action.item.title,
 							href: action.item.href,
-							email: action.item.email
+							email: action.item.email,
+							variant: action.item.variant
 						}}
 					/>
 				))}
@@ -131,7 +132,8 @@ export function BlockRender({
 						item={{
 							title: action.item.title,
 							href: action.item.href,
-							email: action.item.email
+							email: action.item.email,
+							variant: action.item.variant
 						}}
 					/>
 				))}
@@ -146,6 +148,7 @@ export function BlockRender({
 			description={section.description}
 			gridClassName={section.gridClassName}
 			emptyLabel={section.emptyLabel}
+			rows={section.rows}
 			actions={section.actions?.map((action, actionIndex) => (
 				<ButtonRender
 					key={actionIndex}
@@ -153,7 +156,8 @@ export function BlockRender({
 					item={{
 						title: action.item.title,
 						href: action.item.href,
-						email: action.item.email
+						email: action.item.email,
+						variant: action.item.variant
 					}}
 				/>
 			))}

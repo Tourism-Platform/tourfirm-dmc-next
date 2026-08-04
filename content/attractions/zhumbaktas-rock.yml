@@ -1,0 +1,329 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "zhumbaktas-rock"
+  "ru": "zhumbaktas-rock"
+  "uz": "zhumbaktas-rock"
+"title":
+  "en": "Zhumbaktas Rock"
+  "ru": "Жумбактас"
+  "uz": "Jumbaqtas qoyasi"
+"subtitle":
+  "en": "The lake landmark that gives Burabay its silhouette"
+  "ru": "Скала, по которой узнают озеро Бурабай"
+  "uz": "Burabay koʻlini tanitadigan qoya silueti"
+"excerpt":
+  "en": "After Lake Burabay sets the scene, Zhumbaktas gives the view its focal point. The rock rises from the water and changes by angle and light, so the resort landscape feels specific rather than generic. See it as a shore-view landmark, with access, weather, crowding, and season checked close to travel."
+  "ru": "Когда озеро Бурабай уже открывает пейзаж, Жумбактас даёт виду фокус. Скала стоит в воде и меняется по углу и свету, поэтому курортный ландшафт становится конкретным, а не просто красивым. Смотрите на неё как на береговой ориентир: доступ, погоду, сезон и загруженность нужно проверить ближе к поездке."
+  "uz": "Burabay koʻli manzarani ochgach, Jumbaqtas koʻrinishga aniq markaz beradi. Qoya suv ichida turadi, burchak va yorugʻlikka qarab boshqacha koʻrinadi va kurort manzarasini umumiy emas, aniq esda qoladigan qiladi. Uni qirgʻoqdan koʻriladigan moʻljal sifatida rejalashtiring; kirish, ob-havo, gavjumlik va mavsum safarga yaqin tekshiriladi."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "Zhumbaktas Rock"
+      "ru": "Жумбактас"
+      "uz": "Jumbaqtas qoyasi"
+    "title":
+      "en": "Zhumbaktas Rock"
+      "ru": "Жумбактас"
+      "uz": "Jumbaqtas qoyasi"
+    "description":
+      "en": "The lake landmark that gives Burabay its silhouette"
+      "ru": "Скала, по которой узнают озеро Бурабай"
+      "uz": "Burabay koʻlini tanitadigan qoya silueti"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Zhumbaktas Rock"
+      "ru": "Жумбактас"
+      "uz": "Jumbaqtas qoyasi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "After Lake Burabay sets the scene, Zhumbaktas gives the view its focal point."
+              "ru": "Когда озеро Бурабай уже открывает пейзаж, Жумбактас даёт виду фокус."
+              "uz": "Burabay koʻli manzarani ochgach, Jumbaqtas koʻrinishga aniq markaz beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Zhumbaktas gives Lake Burabay a memorable silhouette."
+              "ru": "Жумбактас даёт озеру Бурабай запоминающийся силуэт."
+              "uz": "Jumbaqtas Burabay koʻliga esda qoladigan siluet beradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — The lake landmark that gives Burabay its silhouette."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Скала, по которой узнают озеро Бурабай."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Burabay koʻlini tanitadigan qoya silueti."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Zhumbaktas Rock as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Жумбактас как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Jumbaqtas qoyasi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Zhumbaktas Rock sits on the route"
+      "ru": "Где Жумбактас стоит на маршруте"
+      "uz": "Jumbaqtas qoyasi marshrutda qayerda"
+    "description":
+      "en": "One clear point for Zhumbaktas Rock — The lake landmark that gives Burabay its silhouette."
+      "ru": "Одна понятная точка для «Жумбактас» — Скала, по которой узнают озеро Бурабай."
+      "uz": "Jumbaqtas qoyasi uchun bitta aniq nuqta — Burabay koʻlini tanitadigan qoya silueti."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Zhumbaktas Rock"
+        "ru": "Жумбактас"
+        "uz": "Jumbaqtas qoyasi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 53.0874971
+      "longitude": 70.2519321
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "zhumbaktas-rock"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Where the lake view becomes a landmark"
+      "ru": "Где озёрный вид становится ориентиром"
+      "uz": "Koʻl manzarasi aniq shakl oladigan joy"
+    "description":
+      "en": "Zhumbaktas gives Lake Burabay a memorable silhouette. The rock is small beside the wider park, but it carries an important route role: it focuses the water view, gives the shore a clear direction, and ties the lake to the granite-and-pine landscape around the resort.
+
+
+        «Zhumbaktas is strongest when the route slows down enough to let one rock, one lake view, and one careful angle carry the memory.»"
+      "ru": "Жумбактас даёт озеру Бурабай запоминающийся силуэт. Скала невелика рядом с большим парком, но важна для маршрута: она фокусирует вид через воду, подсказывает, куда смотреть с берега, и связывает озеро с гранитно-сосновым ландшафтом.
+
+
+        «Жумбактас запоминается, когда маршрут замедляется достаточно, чтобы одна скала, один озёрный вид и один удачный угол удержали всю сцену.»"
+      "uz": "Jumbaqtas Burabay koʻliga esda qoladigan siluet beradi. Qoya keng park yonida kichik koʻrinadi, lekin marshrutda muhim rol oʻynaydi: suv manzarasini aniq qiladi, qirgʻoqqa yoʻnalish beradi va koʻlni granit hamda qaragʻayli manzara bilan bogʻlaydi.
+
+
+        «Marshrut yetarlicha sekinlashganda Jumbaqtas esda qoladi: bitta qoya, bitta koʻl manzarasi va eʼtibor bilan tanlangan bitta burchak.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "Rock, water, and changing angles"
+      "ru": "Скала, вода и меняющиеся углы"
+      "uz": "Qoya, suv va oʻzgaruvchi burchaklar"
+    "description":
+      "en": "Zhumbaktas is a compact landmark, so the visit depends on the quality of the view rather than the number of stops. Water, light, shore position, and the surrounding pines all change how the rock appears."
+      "ru": "Жумбактас — компактный ориентир, поэтому визит держится на качестве вида, а не на количестве остановок. Вода, свет, положение берега и окружающие сосны меняют то, как выглядит скала."
+      "uz": "Jumbaqtas ixcham belgi, shuning uchun tashrif koʻp bekatlarga emas, manzara sifatiga tayanadi. Suv, yorugʻlik, qirgʻoq holati va atrofdagi qaragʻaylar qoya qanday koʻrinishini oʻzgartiradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday koʻrish"
+    "title":
+      "en": "Choose the viewing point before you go"
+      "ru": "Выберите точку обзора до поездки"
+      "uz": "Yoʻlga chiqishdan oldin koʻrish nuqtasini tanlang"
+    "description":
+      "en": "Zhumbaktas is easiest to enjoy when you know where the view will come from. The exact shore, access, weather, and crowding matter more than the map pin itself."
+      "ru": "Жумбактас проще оценить, когда понятно, откуда будет вид. Конкретный берег, доступ, погода и загруженность важнее самой точки на карте."
+      "uz": "Jumbaqtasni qayerdan koʻrish aniq boʻlganda baholash osonroq. Aniq qirgʻoq, kirish, ob-havo va gavjumlik xarita pinidan muhimroq."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqin atrofda"
+    "title":
+      "en": "Keep the lake and park together"
+      "ru": "Сохраните озеро и парк в одном маршруте"
+      "uz": "Koʻl va parkni bir yoʻnalishda saqlang"
+    "description":
+      "en": "Lake Burabay gives Zhumbaktas its setting, and Burabay National Park gives the stop its wider protected landscape. Add Okzhetpes, Bolektau, or a longer forest route only when conditions keep the visit comfortable."
+      "ru": "Озеро Бурабай даёт Жумбактасу его сцену, а национальный парк Бурабай — широкую охраняемую среду. Окжетпес, Бөлектау или более длинный лесной маршрут добавляйте только тогда, когда условия сохраняют комфортный день."
+      "uz": "Burabay koʻli Jumbaqtasga sahna beradi, Burabay milliy bogʻi esa keng qoʻriqlanadigan muhitni beradi. Oqjetpes, Bölektaū yoki uzunroq oʻrmon yoʻlini faqat sharoit kunni qulay saqlaganda qoʻshing."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Burabay National Park"
+          "ru": "Национальный парк Бурабай"
+          "uz": "Burabay milliy bogʻi"
+        "description":
+          "en": "Burabay National Park is a protected forest-and-lake landscape north of Astana, where pine shade, granite rocks, and lake air turn Burabay into a slower nature stay."
+          "ru": "Охраняемый лесо-озёрный ландшафт к северу от Астаны, где сосновая тень, гранитные скалы и озёрный воздух превращают Бурабай в спокойную природную остановку."
+          "uz": "Ostonadan shimoldagi qoʻriqlanadigan oʻrmon-koʻl manzarasi: qaragʻay soyasi, granit qoyalar va koʻl havosi Burabayni shoshilmay koʻriladigan tabiat bekatiga aylantiradi."
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/burabay/burabay-national-park"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Lake Burabay (Borovoe)"
+          "ru": "Озеро Бурабай (Боровое)"
+          "uz": "Burabay koʻli (Borovoe)"
+        "description":
+          "en": "Lake Burabay, also known as Borovoe, gives the resort area its central view: pine-fringed water, granite forms, and the first line toward Zhumbaktas."
+          "ru": "Озеро Бурабай, также известное как Боровое, даёт курортной зоне её главный вид: вода среди сосен, гранитные формы и первая линия к Жумбактасу."
+          "uz": "Burabay koʻli, Borovoe nomi bilan ham tanilgan, kurort hududining asosiy manzarasini beradi: qaragʻaylar orasidagi suv, granit qoyalar va Jumbaqtas tomonga birinchi yoʻnalish."
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/burabay/lake-borovoe-burabay-lake"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Zhumbaktas Rock"
+      "ru": "Что агентства спрашивают про Жумбактас"
+      "uz": "Agentliklar Jumbaqtas qoyasi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Zhumbaktas Rock get in the day plan?"
+          "ru": "Сколько времени закладывать на Жумбактас в плане дня?"
+          "uz": "Jumbaqtas qoyasi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "45–90 minutes is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “The lake landmark that gives Burabay its silhouette”."
+          "ru": "Для большинства групп реалистичный диапазон — 45–90 минут. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Скала, по которой узнают озеро Бурабай»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 45–90 daqiqa. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Burabay koʻlini tanitadigan qoya silueti»."
+      - "type": "destinationInsight"
+        "icon": "Sunrise"
+        "title":
+          "en": "When is Zhumbaktas Rock strongest during the day?"
+          "ru": "В какое время дня Жумбактас раскрывается сильнее?"
+          "uz": "Jumbaqtas qoyasi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer before the midday heat. That usually improves comfort, photos, and how the stop feels in the sequence around burabay."
+          "ru": "Лучше до полуденной жары. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с burabay."
+          "uz": "tushlik issiqligidan oldin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (burabay atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How should Zhumbaktas Rock sit next to nearby stops?"
+          "ru": "Как поставить Жумбактас рядом с соседними остановками?"
+          "uz": "Jumbaqtas qoyasini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Zhumbaktas Rock to your Kazakhstan programme"
+      "ru": "Добавьте «Жумбактас» в программу (Казахстан)"
+      "uz": "Jumbaqtas qoyasini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Zhumbaktas Rock | TourLink"
+    "ru": "Жумбактас | TourLink"
+    "uz": "Jumbaqtas qoyasi | TourLink"
+  "metaDescription":
+    "en": "After Lake Burabay sets the scene, Zhumbaktas gives the view its focal point. The rock rises from the water and changes by angle and light, so the resort landscape feels specific rather than generic. See it as a shore-view landmark, with access, weather, crowding, and season checked close to travel."
+    "ru": "Когда озеро Бурабай уже открывает пейзаж, Жумбактас даёт виду фокус. Скала стоит в воде и меняется по углу и свету, поэтому курортный ландшафт становится конкретным, а не просто красивым. Смотрите на неё как на береговой ориентир: доступ, погоду, сезон и загруженность нужно проверить ближе к поездке."
+    "uz": "Burabay koʻli manzarani ochgach, Jumbaqtas koʻrinishga aniq markaz beradi. Qoya suv ichida turadi, burchak va yorugʻlikka qarab boshqacha koʻrinadi va kurort manzarasini umumiy emas, aniq esda qoladigan qiladi. Uni qirgʻoqdan koʻriladigan moʻljal sifatida rejalashtiring; kirish, ob-havo, gavjumlik va mavsum safarga yaqin tekshiriladi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "astana-and-akmola-steppe"
+"city": "burabay"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 53.0874971
+"longitude": 70.2519321

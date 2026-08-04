@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "pangat-qoshrabot-ovul-setting"
+  "ru": "pangat-qoshrabot-ovul-setting"
+  "uz": "pangat-qoshrabot-ovul-setting"
+"title":
+  "en": "Qo‘shrabot-side ovul setting"
+  "ru": "Овульная среда со стороны Кушрабада"
+  "uz": "Qo‘shrabot tomoni ovul muhiti"
+"subtitle":
+  "en": "The village scale behind a Pangat stop"
+  "ru": "Сельский масштаб, который стоит за остановкой в Пангате"
+  "uz": "Pangat bekati ortidagi qishloq o‘lchami"
+"excerpt":
+  "en": "The Qo‘shrabot-side ovul setting explains Pangat as a small northern place with a local welcome, a short walk, and a return tied to Samarkand."
+  "ru": "Овульная среда со стороны Кушрабада объясняет Пангат как небольшое северное место с местным приёмом, короткой прогулкой и возвращением к Самарканду."
+  "uz": "Qo‘shrabot tomoni ovul muhiti Pangatni kichik shimoliy joy sifatida tushuntiradi: mahalliy qabul, qisqa sayr va Samarqandga qaytish."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Qo‘shrabot-side ovul setting"
+      "ru": "Овульная среда со стороны Кушрабада"
+      "uz": "Qo‘shrabot tomoni ovul muhiti"
+    "title":
+      "en": "Qo‘shrabot-side ovul setting"
+      "ru": "Овульная среда со стороны Кушрабада"
+      "uz": "Qo‘shrabot tomoni ovul muhiti"
+    "description":
+      "en": "The village scale behind a Pangat stop"
+      "ru": "Сельский масштаб, который стоит за остановкой в Пангате"
+      "uz": "Pangat bekati ortidagi qishloq o‘lchami"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Qo‘shrabot-side ovul setting"
+      "ru": "Овульная среда со стороны Кушрабада"
+      "uz": "Qo‘shrabot tomoni ovul muhiti"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "The Qo‘shrabot-side ovul setting explains Pangat as a small northern place with a local welcome, a short walk, and a return tied to Samarkand."
+              "ru": "Овульная среда со стороны Кушрабада объясняет Пангат как небольшое северное место с местным приёмом, короткой прогулкой и возвращением к Самарканду."
+              "uz": "Qo‘shrabot tomoni ovul muhiti Pangatni kichik shimoliy joy sifatida tushuntiradi: mahalliy qabul, qisqa sayr va Samarqandga qaytish."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Pangat makes most sense when the ovul setting stays visible and the visit does not outgrow the place."
+              "ru": "Пангат лучше всего раскрывается, когда овульная среда остаётся видимой, а визит не становится больше самого места."
+              "uz": "Ovul muhiti ko‘rinib turganda va tashrif joydan kattalashmaganda Pangat maʼniliroq."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — The village scale behind a Pangat stop."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Сельский масштаб, который стоит за остановкой в Пангате."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Pangat bekati ortidagi qishloq o‘lchami."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Qo‘shrabot-side ovul setting as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Овульная среда со стороны Кушрабада как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Qo‘shrabot tomoni ovul muhiti o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Qo‘shrabot-side ovul setting sits on the route"
+      "ru": "Где Овульная среда со стороны Кушрабада стоит на маршруте"
+      "uz": "Qo‘shrabot tomoni ovul muhiti marshrutda qayerda"
+    "description":
+      "en": "One clear point for Qo‘shrabot-side ovul setting — The village scale behind a Pangat stop."
+      "ru": "Одна понятная точка для «Овульная среда со стороны Кушрабада» — Сельский масштаб, который стоит за остановкой в Пангате."
+      "uz": "Qo‘shrabot tomoni ovul muhiti uchun bitta aniq nuqta — Pangat bekati ortidagi qishloq o‘lchami."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Qo‘shrabot-side ovul setting"
+        "ru": "Овульная среда со стороны Кушрабада"
+        "uz": "Qo‘shrabot tomoni ovul muhiti"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.2428862
+      "longitude": 66.6539594
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "pangat-qoshrabot-ovul-setting"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "The small scale that makes Pangat readable"
+      "ru": "Небольшой масштаб, на котором понятен Пангат"
+      "uz": "Pangatni tushunarli qiladigan kichik o‘lcham"
+    "description":
+      "en": "Pangat makes most sense when the ovul setting stays visible and the visit does not outgrow the place.
+
+
+        «The village scale is the point; Pangat loses force when the promise gets larger than the ovul.»"
+      "ru": "Пангат лучше всего раскрывается, когда овульная среда остаётся видимой, а визит не становится больше самого места.
+
+
+        «Сельский масштаб здесь главный; Пангат теряет силу, когда обещание становится больше овула.»"
+      "uz": "Ovul muhiti ko‘rinib turganda va tashrif joydan kattalashmaganda Pangat maʼniliroq.
+
+
+        «Qishloq o‘lchami asosiy nuqta; vaʼda ovuldan kattalashsa, Pangat kuchini yo‘qotadi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimani ko‘rasiz"
+    "title":
+      "en": "Ovul edge, local welcome, and the road back"
+      "ru": "Край овула, местный приём и дорога назад"
+      "uz": "Ovul cheti, mahalliy qabul va qaytish yo‘li"
+    "description":
+      "en": "The useful images are modest: the edge of the village, a human welcome, and the road that keeps the route whole."
+      "ru": "Лучшие образы здесь скромные: край села, человеческий приём и дорога, которая сохраняет маршрут цельным."
+      "uz": "Bu yerda eng foydali tasvirlar kamtar: qishloq cheti, insoniy qabul va yo‘lni butun tutadigan qaytish."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Keep the stop small"
+      "ru": "Оставьте остановку небольшой"
+      "uz": "Bekat kichik qolsin"
+    "description":
+      "en": "Read this as a short ovul pause with a local welcome, a light walk, and a clear return."
+      "ru": "Смотрите на это как на короткую паузу в овуле: местный приём, лёгкая прогулка и понятное возвращение."
+      "uz": "Buni qisqa ovul pauzasi sifatida ko‘ring: mahalliy qabul, yengil sayr va aniq qaytish."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qo‘shiladi"
+    "title":
+      "en": "What can support the ovul pause"
+      "ru": "Что поддерживает паузу в овуле"
+      "uz": "Ovul pauzasini nima qo‘llaydi"
+    "description":
+      "en": "Pair this setting only with Pangat details that keep the visit compact and truthful."
+      "ru": "Сочетайте эту среду только с деталями Пангата, которые сохраняют визит компактным и честным."
+      "uz": "Bu muhitni faqat tashrifni ixcham va haqqoniy tutadigan Pangat detallari bilan juftlang."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Sentob-side route direction"
+          "ru": "Направление в сторону Сентоба"
+          "uz": "Sentob tomoni yo‘nalishi"
+        "description":
+          "en": "The Sentob-side direction gives Pangat a wider mountain-road horizon, while the public visit stays modest unless the route and conditions are agreed locally."
+          "ru": "Направление в сторону Сентоба даёт Пангату более широкий горный горизонт, но сам визит остаётся скромным, если маршрут и условия не согласованы на месте."
+          "uz": "Sentob tomoni yo‘nalishi Pangatga kengroq tog‘ yo‘li ufqini beradi, ammo yo‘l va sharoit joyida kelishilmasa, tashrif kamtar qoladi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/pangat/pangat-sentob-route-and-extreme-context"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Pangat visit shape"
+          "ru": "Форма визита в Пангат"
+          "uz": "Pangat tashrifi shakli"
+        "description":
+          "en": "Meals, a short walk, and a quiet welcome make sense only when the Pangat visit has a clear shape for the travel date."
+          "ru": "Еда, короткая прогулка и тихий приём уместны, когда у визита в Пангат есть понятная форма на дату поездки."
+          "uz": "Taom, qisqa sayr va sokin qabul Pangat tashrifi safar sanasi uchun aniq shaklga ega bo‘lganda maʼnili."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/pangat/pangat-field-check-service-readiness"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Qo‘shrabot-side ovul setting"
+      "ru": "Что агентства спрашивают про Овульная среда со стороны Кушрабада"
+      "uz": "Agentliklar Qo‘shrabot tomoni ovul muhiti haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Qo‘shrabot-side ovul setting get in the day plan?"
+          "ru": "Сколько времени закладывать на Овульная среда со стороны Кушрабада в плане дня?"
+          "uz": "Qo‘shrabot tomoni ovul muhiti uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "45–90 minutes is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “The village scale behind a Pangat stop”."
+          "ru": "Для большинства групп реалистичный диапазон — 45–90 минут. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Сельский масштаб, который стоит за остановкой в Пангате»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 45–90 daqiqa. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Pangat bekati ortidagi qishloq o‘lchami»."
+      - "type": "destinationInsight"
+        "icon": "Sunrise"
+        "title":
+          "en": "When is Qo‘shrabot-side ovul setting strongest during the day?"
+          "ru": "В какое время дня Овульная среда со стороны Кушрабада раскрывается сильнее?"
+          "uz": "Qo‘shrabot tomoni ovul muhiti kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer before the midday heat. That usually improves comfort, photos, and how the stop feels in the sequence around pangat."
+          "ru": "Лучше до полуденной жары. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с pangat."
+          "uz": "tushlik issiqligidan oldin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (pangat atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How should Qo‘shrabot-side ovul setting sit next to nearby stops?"
+          "ru": "Как поставить Овульная среда со стороны Кушрабада рядом с соседними остановками?"
+          "uz": "Qo‘shrabot tomoni ovul muhitini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Qo‘shrabot-side ovul setting to your Uzbekistan programme"
+      "ru": "Добавьте «Овульная среда со стороны Кушрабада» в программу (Узбекистан)"
+      "uz": "Qo‘shrabot tomoni ovul muhitini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Qo‘shrabot-side ovul setting | TourLink"
+    "ru": "Овульная среда со стороны Кушрабада | TourLink"
+    "uz": "Qo‘shrabot tomoni ovul muhiti | TourLink"
+  "metaDescription":
+    "en": "The Qo‘shrabot-side ovul setting explains Pangat as a small northern place with a local welcome, a short walk, and a return tied to Samarkand."
+    "ru": "Овульная среда со стороны Кушрабада объясняет Пангат как небольшое северное место с местным приёмом, короткой прогулкой и возвращением к Самарканду."
+    "uz": "Qo‘shrabot tomoni ovul muhiti Pangatni kichik shimoliy joy sifatida tushuntiradi: mahalliy qabul, qisqa sayr va Samarqandga qaytish."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "samarkand-region"
+"city": "pangat"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 40.2428862
+"longitude": 66.6539594

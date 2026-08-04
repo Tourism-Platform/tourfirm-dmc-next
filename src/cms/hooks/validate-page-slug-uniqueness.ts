@@ -8,6 +8,10 @@ export const validatePageSlugUniqueness: CollectionBeforeValidateHook = async ({
 	originalDoc,
 	req
 }) => {
+	if (req.context?.isSeed) {
+		return data;
+	}
+
 	if (!data?.slug) {
 		return data;
 	}

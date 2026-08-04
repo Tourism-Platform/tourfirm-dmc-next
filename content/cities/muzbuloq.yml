@@ -1,0 +1,631 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "muzbuloq"
+  "ru": "muzbuloq"
+  "uz": "muzbuloq"
+"title":
+  "en": "Muzbuloq"
+  "ru": "Музбулок"
+  "uz": "Muzbuloq"
+"subtitle":
+  "en": "A Bakhmal mountain mahalla near Boyqongirsoy"
+  "ru": "Бахмальская горная махалля рядом с Бойконгирсаем"
+  "uz": "Boyqongirsoy yaqinidagi Baxmal tog‘ mahallasi"
+"excerpt":
+  "en": "Muzbuloq brings the Bakhmal side of the Jizzakh mountains down to village scale. Boyqongirsoy and the nearby mountain edge give the stop its reason; the visit should stay simple, local, and matched to the road and weather close to travel."
+  "ru": "Музбулок переводит бахмальскую сторону гор Джизака в сельский масштаб. Бойконгирсай и близкий горный край дают остановке смысл; сам визит должен оставаться простым, местным и соразмерным дороге и погоде."
+  "uz": "Muzbuloq Jizzax tog‘larining Baxmal tomonini qishloq miqyosida ko‘rsatadi. Boyqongirsoy va yaqin tog‘ cheti bekatga maʼno beradi; tashrif sodda, mahalliy va yo‘l hamda ob-havoga mos bo‘lishi kerak."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Muzbuloq"
+      "ru": "Музбулок"
+      "uz": "Muzbuloq"
+    "title":
+      "en": "Muzbuloq"
+      "ru": "Музбулок"
+      "uz": "Muzbuloq"
+    "description":
+      "en": "A Bakhmal mountain mahalla near Boyqongirsoy"
+      "ru": "Бахмальская горная махалля рядом с Бойконгирсаем"
+      "uz": "Boyqongirsoy yaqinidagi Baxmal tog‘ mahallasi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Muzbuloq"
+      "ru": "Музбулок"
+      "uz": "Muzbuloq"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Muzbuloq brings the Bakhmal side of the Jizzakh mountains down to village scale."
+              "ru": "Музбулок переводит бахмальскую сторону гор Джизака в сельский масштаб."
+              "uz": "Muzbuloq Jizzax tog‘larining Baxmal tomonini qishloq miqyosida ko‘rsatadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "These points show how the village sits with Bakhmal, Novqa, and Duoba. The map keeps the mountain route readable before walks, table time, and return rhythm are shaped for the trip."
+              "ru": "Эти точки показывают, как село связано с Бахмалом, Новкой и Дуобой. Карта помогает увидеть порядок горного маршрута, а прогулки и сельские паузы складываются под конкретную поездку."
+              "uz": "Bu nuqtalar qishloq Baxmal, Novqa va Duoba bilan qanday turishini ko‘rsatadi. Xarita yo‘l tartibini beradi, sayr va qishloq pauzalari esa aniq safarga qarab shakllanadi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Muzbuloq fits as a small Bakhmal pause, with nearby villages added only when they give the route a clearer rhythm."
+              "ru": "Музбулок лучше раскрывается как небольшая бахмальская пауза; соседние сёла добавляются только когда маршрут идёт спокойно."
+              "uz": "Muzbuloq kichik Baxmal pauzasi sifatida yaxshi jonlanadi; yaqin qishloqlar marshrut sokin qolganda qo‘shiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Muzbuloq as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Музбулок как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Muzbuloq o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Route map"
+      "ru": "Карта маршрута"
+      "uz": "Marshrut xaritasi"
+    "title":
+      "en": "Muzbuloq on the Bakhmal side"
+      "ru": "Музбулок на бахмальской стороне"
+      "uz": "Muzbuloq Baxmal tomonida"
+    "description":
+      "en": "These points show how the village sits with Bakhmal, Novqa, and Duoba. The map keeps the mountain route readable before walks, table time, and return rhythm are shaped for the trip."
+      "ru": "Эти точки показывают, как село связано с Бахмалом, Новкой и Дуобой. Карта помогает увидеть порядок горного маршрута, а прогулки и сельские паузы складываются под конкретную поездку."
+      "uz": "Bu nuqtalar qishloq Baxmal, Novqa va Duoba bilan qanday turishini ko‘rsatadi. Xarita yo‘l tartibini beradi, sayr va qishloq pauzalari esa aniq safarga qarab shakllanadi."
+    "mapPanel":
+      "eyebrow":
+        "en": "On the map"
+        "ru": "На карте"
+        "uz": "Xaritada"
+      "title":
+        "en": "Village stops around Muzbuloq"
+        "ru": "Сельские остановки вокруг Музбулока"
+        "uz": "Muzbuloq atrofidagi qishloq bekatlari"
+      "description":
+        "en": "The points orient the village and district; walks, rest pauses, and return timing still follow the actual road and season."
+        "ru": "Точки помогают сориентироваться в сёлах и районе; прогулки, остановки и обратный ритм зависят от реальной дороги и сезона."
+        "uz": "Nuqtalar qishloq va tuman bo‘ylab yo‘lni anglatadi; sayr, pauza va qaytish ritmi haqiqiy yo‘l hamda mavsumga qarab shakllanadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.740566
+      "longitude": 68.063323
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "muzbuloq-bakhmal-reserve-edge"
+    "aside":
+      "eyebrow":
+        "en": "Route rhythm"
+        "ru": "Ритм маршрута"
+        "uz": "Yo‘l ritmi"
+      "title":
+        "en": "Village first, nearby stops second"
+        "ru": "Сначала село, затем соседние остановки"
+        "uz": "Avval qishloq, keyin yaqin bekatlar"
+      "description":
+        "en": "Muzbuloq fits as a small Bakhmal pause, with nearby villages added only when they give the route a clearer rhythm."
+        "ru": "Музбулок лучше раскрывается как небольшая бахмальская пауза; соседние сёла добавляются только когда маршрут идёт спокойно."
+        "uz": "Muzbuloq kichik Baxmal pauzasi sifatida yaxshi jonlanadi; yaqin qishloqlar marshrut sokin qolganda qo‘shiladi."
+      "items":
+        - "title":
+            "en": "Muzbuloq"
+            "ru": "Музбулок"
+            "uz": "Muzbuloq"
+          "description":
+            "en": "The Bakhmal mountain-village pause near Boyqongirsoy."
+            "ru": "Бахмальская горная сельская пауза рядом с Бойконгирсаем."
+            "uz": "Boyqongirsoy yaqinidagi Baxmal tog‘-qishloq pauzasi."
+          "badge":
+            "en": "Village"
+            "ru": "Село"
+            "uz": "Qishloq"
+        - "title":
+            "en": "Bakhmal"
+            "ru": "Бахмал"
+            "uz": "Baxmal"
+          "description":
+            "en": "The district setting that gives the mountain road its rhythm."
+            "ru": "Районный контур, который задаёт ритм горной дороги."
+            "uz": "Tog‘ yo‘liga ritm beradigan tuman tomoni."
+          "badge":
+            "en": "District"
+            "ru": "Район"
+            "uz": "Tuman"
+        - "title":
+            "en": "Novqa"
+            "ru": "Новка"
+            "uz": "Novqa"
+          "description":
+            "en": "A nearby Bakhmal village for a route that stays unhurried."
+            "ru": "Близкое бахмальское село для маршрута без лишней спешки."
+            "uz": "Marshrut shoshilmasa qo‘shiladigan yaqin Baxmal qishlog‘i."
+          "badge":
+            "en": "Nearby village"
+            "ru": "Соседнее село"
+            "uz": "Yaqin qishloq"
+        - "title":
+            "en": "Duoba"
+            "ru": "Дуоба"
+            "uz": "Duoba"
+          "description":
+            "en": "A Zaamin-side village pairing for a wider mountain route."
+            "ru": "Сельская пара со стороны Заамина для более широкого горного маршрута."
+            "uz": "Kengroq tog‘ marshruti uchun Zomin tomonidagi qishloq jufti."
+          "badge":
+            "en": "Nearby village"
+            "ru": "Соседнее село"
+            "uz": "Yaqin qishloq"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What shapes the stop"
+      "ru": "Что формирует остановку"
+      "uz": "Bekatni nima shakllantiradi"
+    "title":
+      "en": "Boyqongirsoy, mountain edge, and village readiness"
+      "ru": "Бойконгирсай, горный край и сельский ритм"
+      "uz": "Boyqongirsoy, tog‘ cheti va qishloq ritmi"
+    "description":
+      "en": "These three guide pages explain Muzbuloq without overstating it: why it belongs in Bakhmal, how the nature pause feels, and when the stop can become a little more active."
+      "ru": "Эти три страницы объясняют, зачем Музбулок нужен Бахмалу, как работает природная пауза и когда остановка может стать активнее."
+      "uz": "Bu uch yo‘riqnoma Muzbuloq nega Baxmalga tegishli ekanini, tabiat pauzasi qanday ishlashini va bekat qachon faolroq bo‘lishini ko‘rsatadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Boyqongirsoy Side of Muzbuloq"
+          "ru": "Сторона Бойконгирсая у Музбулока"
+          "uz": "Muzbuloqning Boyqongirsoy tomoni"
+        "description":
+          "en": "Boyqongirsoy gives Muzbuloq its clearest nature cue. The eco-village idea feels believable when it grows from the village visit rather than from a separate activity label."
+          "ru": "Бойконгирсай — самая ясная природная причина Музбулока. Тема эко-села звучит убедительно тогда, когда растёт из самого сельского визита, а не из отдельной вывески активности."
+          "uz": "Boyqongirsoy Muzbuloq ortidagi eng ravshan tabiat sababidir. Ekoqishloq g‘oyasi alohida faoliyat yorlig‘i emas, qishloq tashrifidan tabiiy chiqqanda ishonchli eshitiladi."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/muzbuloq/muzbuloq-boyqongirsoy-eco-village-plan"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Bakhmal Mountain Edge"
+          "ru": "Горный край Бахмала"
+          "uz": "Baxmal tog‘ cheti"
+        "description":
+          "en": "The mountain edge sits close to the village. A short walk can add air and relief without turning Muzbuloq into a long hike."
+          "ru": "Горный край находится рядом с селом. Короткая прогулка добавляет воздуху и рельефу место в визите, но не превращает Музбулок в долгий поход."
+          "uz": "Tog‘ cheti qishloqqa yaqin turadi. Qisqa sayr Muzbuloqqa havo va relyef hissini qo‘shadi, lekin uni uzun yurishga aylantirmaydi."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/muzbuloq/muzbuloq-bakhmal-reserve-edge"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Muzbuloq Mountain Rest Stop"
+          "ru": "Горная пауза в Музбулоке"
+          "uz": "Muzbuloq tog‘ pauzasi"
+        "description":
+          "en": "This is the modest version of Muzbuloq as a rest stop: an unhurried road, a simple pause, and village welcome that fits the season."
+          "ru": "Самая точная версия Музбулока как места отдыха остаётся простой: дорога без лишней спешки, короткая пауза и сельский приём, подходящий сезону."
+          "uz": "Muzbuloqning dam olish bekati sifatidagi eng to‘g‘ri ko‘rinishi sodda: shoshilmagan yo‘l, qisqa pauza va mavsumga mos qishloq mehmondo‘stligi."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/muzbuloq/muzbuloq-mountain-recreation-checks"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Village moments"
+      "ru": "Сельские моменты"
+      "uz": "Qishloq lahzalari"
+    "title":
+      "en": "Six ways Muzbuloq can enter a route"
+      "ru": "Шесть способов включить Музбулок в маршрут"
+      "uz": "Muzbuloq marshrutga kirishining olti yo‘li"
+    "description":
+      "en": "The strongest moments stay small: arrival, mountain air, a short walk, a simple table, and one nearby continuation when the route stays relaxed."
+      "ru": "Остановка остаётся небольшой: въезд, горный воздух, короткая прогулка, простой стол и одно продолжение, если маршрут остаётся спокойным."
+      "uz": "Bekat kichik qolsin: kirish, tog‘ havosi, qisqa sayr, oddiy dasturxon va marshrut sokin qolganda bitta yaqin davom."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Boyqongirsoy-side arrival"
+          "ru": "Въезд со стороны Бойконгирсая"
+          "uz": "Boyqongirsoy tomondan kirish"
+        "description":
+          "en": "Arrive through the Bakhmal mountain side and let Boyqongirsoy explain why Muzbuloq belongs in the route."
+          "ru": "Въезжайте через бахмальскую горную сторону: Бойконгирсай объясняет, зачем Музбулок нужен маршруту."
+          "uz": "Baxmalning tog‘ tomoni orqali kiring: Boyqongirsoy Muzbuloqning marshrutdagi o‘rnini ko‘rsatadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Bakhmal mountain edge"
+          "ru": "Горный край Бахмала"
+          "uz": "Baxmal tog‘ cheti"
+        "description":
+          "en": "Keep the nature pause short and local, with road, weather, and footing read before the route is set."
+          "ru": "Делайте природную паузу короткой и местной: дорогу, погоду и покрытие уточняют заранее."
+          "uz": "Tabiat pauzasi qisqa va mahalliy bo‘lsin: yo‘l, ob-havo va qadam joyi oldindan aniqlanadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Short walk in mountain air"
+          "ru": "Короткая прогулка на горном воздухе"
+          "uz": "Tog‘ havosida qisqa sayr"
+        "description":
+          "en": "A light walk can be enough here; the point is the air, the village scale, and a clear return to the route."
+          "ru": "Здесь достаточно лёгкой прогулки: важны воздух, сельский масштаб и понятное возвращение к маршруту."
+          "uz": "Bu yerda yengil sayrning o‘zi yetarli: havo, qishloq miqyosi va yo‘lga qaytish muhim."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "A simple village table"
+          "ru": "Простой сельский стол"
+          "uz": "Oddiy qishloq dasturxoni"
+        "description":
+          "en": "Add a family table only when the welcome fits the date and the stop can stay unhurried."
+          "ru": "Добавляйте семейный стол только там, где приём подходит дате и остановка остаётся спокойной."
+          "uz": "Oilaviy dasturxon sana va qishloq ritmiga mos bo‘lsa, bekat shoshilmay o‘tadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Eco-village idea, carefully used"
+          "ru": "Идея эко-села без лишнего ожидания"
+          "uz": "Ekoqishloq g‘oyasi ehtiyot bilan"
+        "description":
+          "en": "Treat the eco-village theme as a local possibility, not a fixed public claim."
+          "ru": "Держите тему эко-села как местную возможность, а не как готовую публичную программу."
+          "uz": "Ekoqishloq mavzusini tayyor xizmat emas, mahalliy imkoniyat sifatida tuting."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Novqa or Duoba continuation"
+          "ru": "Продолжение к Новке или Дуобе"
+          "uz": "Novqa yoki Duoba davomi"
+        "description":
+          "en": "Continue to nearby villages only when the road time gives the Bakhmal stop a real purpose."
+          "ru": "Продолжайте к соседним сёлам только тогда, когда дорога делает бахмальскую остановку содержательной."
+          "uz": "Yaqin qishloqlarga yo‘l Baxmal bekatiga haqiqiy maʼno berganda davom eting."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "Muzbuloq as a small, local pause"
+      "ru": "Музбулок как небольшая местная пауза"
+      "uz": "Muzbuloq kichik mahalliy pauza sifatida"
+    "description":
+      "en": "Muzbuloq is strongest as a village pause, not as a resort-style claim."
+      "ru": "Музбулок сильнее всего как сельская пауза, а не как ожидание курортного ожидания."
+      "uz": "Muzbuloq tayyor kurort kutishsidan ko‘ra qishloq pauzasi sifatida kuchliroq."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Place first"
+              "ru": "Сначала место"
+              "uz": "Avval joy"
+            "description":
+              "en": "The village and mountain setting should lead before any activity format is added."
+              "ru": "Село и горный край ведут визит раньше любого формата активности."
+              "uz": "Qishloq va tog‘ cheti faoliyat formatidan oldin tashrifni boshqarsin."
+          - "type": "quote"
+            "quote":
+              "en": "Muzbuloq reads best as a modest Bakhmal village pause with the mountain route around it."
+              "ru": "Музбулок лучше всего становится скромная бахмальская сельская пауза в окружении горного маршрута."
+              "uz": "Muzbuloq tog‘ yo‘li orasidagi kamtar Baxmal qishloq pauzasi sifatida yaxshi ochiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Local rhythm"
+              "ru": "Местный ритм"
+              "uz": "Mahalliy ritm"
+            "description":
+              "en": "Meals, walks, and rest stops should fit the actual road, weather, and village rhythm."
+              "ru": "Еда, прогулки и остановки на воздухе должны подходить реальной дороге, погоде и сельскому темпу."
+              "uz": "Ovqat, sayr va havodagi pauza haqiqiy yo‘l, ob-havo va qishloq surʼatiga mos bo‘lishi kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Nearby pairing"
+              "ru": "Соседние сёла"
+              "uz": "Yaqin qishloqlar"
+            "description":
+              "en": "Novqa, Duoba, or another Bakhmal stop can make Muzbuloq more useful when the route has a clear purpose."
+              "ru": "Новка, Дуоба или другая бахмальская остановка усиливают Музбулок, когда у маршрута есть понятная причина."
+              "uz": "Novqa, Duoba yoki boshqa Baxmal bekati yo‘lga aniq sabab berganda Muzbuloq foydaliroq bo‘ladi."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Choose Muzbuloq when you want the Bakhmal side of the Jizzakh mountains in a small, locally paced stop."
+              "ru": "Выбирайте Музбулок, если хотите увидеть бахмальскую сторону гор Джизака в небольшом местном ритме."
+              "uz": "Jizzax tog‘larining Baxmal tomonini kichik mahalliy ritmda ko‘rmoqchi bo‘lsangiz, Muzbuloqni tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Status"
+                  "ru": "Коротко Статус"
+                  "uz": "Qisqacha Maqom"
+                "description":
+                  "en": "Tourism mahalla in Bakhmal District, Jizzakh Region."
+                  "ru": "Туристическая махалля Бахмальского района Джизакской области."
+                  "uz": "Jizzax viloyati Baxmal tumanidagi turizm mahallasi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main pull"
+                  "ru": "Главное притяжение"
+                  "uz": "Asosiy joziba"
+                "description":
+                  "en": "Boyqongirsoy and the Bakhmal mountain setting give the stop its reason."
+                  "ru": "Бойконгирсай и горный Бахмал дают остановке основной смысл."
+                  "uz": "Boyqongirsoy va Baxmal tog‘ tomoni bekatga asosiy maʼnoni beradi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Visit style"
+                  "ru": "Лучший формат"
+                  "uz": "Eng yaxshi shakl"
+                "description":
+                  "en": "A short village pause, family table, or light nature stop rather than an overfilled activity day."
+                  "ru": "Короткая сельская пауза, семейный стол или лёгкая природная остановка, а не перегруженный день активностей."
+                  "uz": "Qisqa qishloq pauzasi, oilaviy dasturxon yoki yengil tabiat bekati; haddan tashqari to‘la faol kun emas."
+              - "icon": "Route"
+                "title":
+                  "en": "Route fit"
+                  "ru": "Связь маршрута"
+                  "uz": "Yo‘lga moslik"
+                "description":
+                  "en": "Pairs with Novqa, Duoba, or another Bakhmal mountain outing when timing is clear."
+                  "ru": "Сочетается с Новкой, Дуобой или другим горным выездом Бахмала, когда маршрут идёт без спешки."
+                  "uz": "Vaqt yetarli bo‘lsa, Novqa, Duoba yoki boshqa Baxmal tog‘ yo‘li bilan bog‘lanadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby route stops"
+      "ru": "Близкие остановки"
+      "uz": "Yaqin bekatlar"
+    "title":
+      "en": "What to pair with Muzbuloq"
+      "ru": "Что поставить рядом с Музбулоком"
+      "uz": "Muzbuloqni nima bilan bog‘lash"
+    "description":
+      "en": "Novqa, Duoba, and Uzunbuloq stay separate village stops. They belong in the route when the road rhythm gives each one a reason."
+      "ru": "Новка, Дуоба и Узунбулок остаются отдельными сельскими остановками. Они уместны, когда дорога даёт каждой остановке отдельный смысл."
+      "uz": "Novqa, Duoba va Uzunbuloq alohida qishloq bekatlari. Yo‘l har biriga alohida maʼno berganda ular mos keladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Novqa"
+          "ru": "Новка"
+          "uz": "Novqa"
+        "description":
+          "en": "Novqa is an official tourism village in Bakhmal District, best understood through the road into the mountains, one courtyard or maker, and nearby turns only when they fit the route."
+          "ru": "Новка — официальное туристическое село Бахмальского района. Лучше всего она раскрывается через горную дорогу, один двор или встречу с мастером и только те соседние продолжения, которые подходят маршруту."
+          "uz": "Novqa Baxmal tumanidagi rasmiy turizm qishlog‘i. Uni tog‘ga olib kiradigan yo‘l, bitta hovli yoki usta uchrashuvi va faqat safarga mos yaqin davomlar orqali tushunish kerak."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/novqa"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Duoba"
+          "ru": "Дуоба"
+          "uz": "Duoba"
+        "description":
+          "en": "Duoba is a tourism mahalla in Zaamin District where family hospitality, craft or cooking, and mountain air turn the Jizzakh route into a small village stop."
+          "ru": "Дуоба — туристическая махалля в Зааминском районе: семейный приём, ремесло или готовка и горный воздух делают её спокойной сельской остановкой на маршруте по Джизаку."
+          "uz": "Duoba Zomin tumanidagi turizm mahallasi: oilaviy mehmondo‘stlik, hunar yoki taom tayyorlash va tog‘ havosi uni Jizzax yo‘lidagi sokin qishloq bekatiga aylantiradi."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/duoba"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Uzunbuloq"
+          "ru": "Узунбулок"
+          "uz": "Uzunbuloq"
+        "description":
+          "en": "Uzunbuloq is an official tourism mahalla in Gallaorol District. Treat it as a respectful village stop where Avliyo comes first, then a family table, craft room, shopping pause, or photo point if the date can support it."
+          "ru": "Узунбулок — официальная туристическая махалля Галляаральского района. Планируйте её как уважительную сельскую остановку: сначала Авлиё, затем семейный стол, ремесло, торговая пауза или место для фотографии, если дата это позволяет."
+          "uz": "Uzunbuloq G‘allaorol tumanidagi rasmiy turizm mahallasi. Uni Avliyo muhiti birinchi o‘rinda turadigan, keyin sana ko‘tarsa oilaviy dasturxon, hunar, savdo yoki rasm nuqtasi qo‘shiladigan sokin bekat sifatida rejalang."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/uzunbuloq"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Muzbuloq in the day plan"
+      "ru": "Как поставить Музбулок в план дня"
+      "uz": "Muzbuloqni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Muzbuloq?"
+          "ru": "Сколько времени группам стоит проводить в Музбулок?"
+          "uz": "Muzbuloqda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “A Bakhmal mountain mahalla near Boyqongirsoy”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Бахмальская горная махалля рядом с Бойконгирсаем»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Boyqongirsoy yaqinidagi Baxmal tog‘ mahallasi»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Muzbuloq be a walkable core or a base for day trips?"
+          "ru": "Музбулок — это пешеходное ядро или база для выездов?"
+          "uz": "Muzbuloq piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Muzbuloq's centre?"
+          "ru": "Где лучше ночевать относительно центра Музбулок?"
+          "uz": "Muzbuloq markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Muzbuloq stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Музбулок» в программу (Узбекистан)"
+      "uz": "Muzbuloq bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Muzbuloq | TourLink"
+    "ru": "Музбулок | TourLink"
+    "uz": "Muzbuloq | TourLink"
+  "metaDescription":
+    "en": "Muzbuloq brings the Bakhmal side of the Jizzakh mountains down to village scale. Boyqongirsoy and the nearby mountain edge give the stop its reason; the visit should stay simple, local, and matched to the road and weather close to travel."
+    "ru": "Музбулок переводит бахмальскую сторону гор Джизака в сельский масштаб. Бойконгирсай и близкий горный край дают остановке смысл; сам визит должен оставаться простым, местным и соразмерным дороге и погоде."
+    "uz": "Muzbuloq Jizzax tog‘larining Baxmal tomonini qishloq miqyosida ko‘rsatadi. Boyqongirsoy va yaqin tog‘ cheti bekatga maʼno beradi; tashrif sodda, mahalliy va yo‘l hamda ob-havoga mos bo‘lishi kerak."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "zaamin-and-jizzakh-mountains"
+"latitude": 39.7124767
+"longitude": 68.1358913

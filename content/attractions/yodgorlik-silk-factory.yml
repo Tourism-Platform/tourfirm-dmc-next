@@ -1,0 +1,267 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "yodgorlik-silk-factory"
+  "ru": "yodgorlik-silk-factory"
+  "uz": "yodgorlik-silk-factory"
+"title":
+  "en": "Yodgorlik Silk Factory"
+  "ru": "Шёлковая фабрика Yodgorlik"
+  "uz": "Yodgorlik ipak fabrikasi"
+"subtitle":
+  "en": "How Margilan silk is made"
+  "ru": "Как появляется маргиланский шёлк"
+  "uz": "Margʻilon ipagi qanday yaratiladi"
+"excerpt":
+  "en": "At Yodgorlik, the silk process stays close: thread is drawn from the cocoon, color is prepared, looms are at work, and artisans explain how Margilan fabric takes shape."
+  "ru": "На Yodgorlik процесс виден близко: здесь получают нить из кокона, готовят цвет, работают на станках, а мастера объясняют, как появляется маргиланская ткань."
+  "uz": "Yodgorlikda ipak jarayoni yaqindan ko‘rinadi: pilladan ip olinadi, rang tayyorlanadi, dastgohlar ishlaydi, ustalar esa Margʻilon matosi qanday paydo bo‘lishini tushuntiradi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/margilan/attractions/yodgorlik-silk-factory.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/margilan/attractions/yodgorlik-silk-factory.webp"
+    "imageAlt":
+      "en": "Yodgorlik Silk Factory"
+      "ru": "Шёлковая фабрика Yodgorlik"
+      "uz": "Yodgorlik ipak fabrikasi"
+    "title":
+      "en": "Yodgorlik Silk Factory"
+      "ru": "Шёлковая фабрика Yodgorlik"
+      "uz": "Yodgorlik ipak fabrikasi"
+    "description":
+      "en": "How Margilan silk is made"
+      "ru": "Как появляется маргиланский шёлк"
+      "uz": "Margʻilon ipagi qanday yaratiladi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Yodgorlik Silk Factory"
+      "ru": "Шёлковая фабрика Yodgorlik"
+      "uz": "Yodgorlik ipak fabrikasi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "At Yodgorlik, the silk process stays close: thread is drawn from the cocoon, color is prepared, looms are at work, and artisans explain how Margilan fabric takes shape."
+              "ru": "На Yodgorlik процесс виден близко: здесь получают нить из кокона, готовят цвет, работают на станках, а мастера объясняют, как появляется маргиланская ткань."
+              "uz": "Yodgorlikda ipak jarayoni yaqindan ko‘rinadi: pilladan ip olinadi, rang tayyorlanadi, dastgohlar ishlaydi, ustalar esa Margʻilon matosi qanday paydo bo‘lishini tushuntiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Yodgorlik matters because the work stays close."
+              "ru": "Ценность Yodgorlik в близости к работе."
+              "uz": "Yodgorlikning qadri ishga yaqinlikda."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — How Margilan silk is made."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Как появляется маргиланский шёлк."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Margʻilon ipagi qanday yaratiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Yodgorlik Silk Factory as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Шёлковая фабрика Yodgorlik как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Yodgorlik ipak fabrikasi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Yodgorlik Silk Factory sits on the route"
+      "ru": "Где Шёлковая фабрика Yodgorlik стоит на маршруте"
+      "uz": "Yodgorlik ipak fabrikasi marshrutda qayerda"
+    "description":
+      "en": "One clear point for Yodgorlik Silk Factory — How Margilan silk is made."
+      "ru": "Одна понятная точка для «Шёлковая фабрика Yodgorlik» — Как появляется маргиланский шёлк."
+      "uz": "Yodgorlik ipak fabrikasi uchun bitta aniq nuqta — Margʻilon ipagi qanday yaratiladi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Yodgorlik Silk Factory"
+        "ru": "Шёлковая фабрика Yodgorlik"
+        "uz": "Yodgorlik ipak fabrikasi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.4694865
+      "longitude": 71.719491
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "yodgorlik-silk-factory"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nima uchun bu joy"
+    "title":
+      "en": "Silk before the finished fabric"
+      "ru": "Шёлк до готовой ткани"
+      "uz": "Tayyor matodan oldingi ipak"
+    "description":
+      "en": "Yodgorlik matters because the work stays close. Instead of the word silk as a general label, travelers see material, tools, artisans' hands, and fabric taking shape step by step."
+      "ru": "Ценность Yodgorlik в близости к работе. Вместо общего слова «шёлк» путешественник видит материал, инструменты, руки мастеров и ткань, которая появляется постепенно."
+      "uz": "Yodgorlikning qadri ishga yaqinlikda. Ipak umumiy nom bo‘lib qolmaydi: sayohatchi material, asboblar, ustalar qo‘li va asta-sekin paydo bo‘layotgan matoni ko‘radi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Thread, dye, looms"
+      "ru": "Нить, краска, станки"
+      "uz": "Ip, bo‘yoq, dastgohlar"
+    "description":
+      "en": "The useful sequence is simple: raw material, thread, color, loom, and fabric."
+      "ru": "Полезная последовательность простая: сырьё, нить, цвет, станок и ткань."
+      "uz": "Foydali ketma-ketlik oddiy: xom ashyo, ip, rang, dastgoh va mato."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как проходит визит"
+      "uz": "Tashrif qanday kechadi"
+    "title":
+      "en": "Work first, finished fabric after"
+      "ru": "Сначала работа, потом готовая ткань"
+      "uz": "Avval ish, keyin tayyor mato"
+    "description":
+      "en": "Follow several stages in order: cocoons, thread, dye, looms, and finished fabric. Hours, demonstrations, and open areas should be checked close to the date."
+      "ru": "Лучше смотреть несколько этапов подряд: коконы, нить, красители, станки и готовую ткань. Часы, демонстрации и открытые зоны нужно уточнять ближе к дате."
+      "uz": "Bir necha bosqichni ketma-ket ko‘rgan maʼqul: pilla, ip, bo‘yoq, dastgoh va tayyor mato. Ish vaqti, namoyishlar va ochiq hududlar sanaga yaqin tekshiriladi."
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Yodgorlik Silk Factory"
+      "ru": "Что агентства спрашивают про Шёлковая фабрика Yodgorlik"
+      "uz": "Agentliklar Yodgorlik ipak fabrikasi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Yodgorlik Silk Factory get in the day plan?"
+          "ru": "Сколько времени закладывать на Шёлковая фабрика Yodgorlik в плане дня?"
+          "uz": "Yodgorlik ipak fabrikasi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "a focused half-day with buffer is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “How Margilan silk is made”."
+          "ru": "Для большинства групп реалистичный диапазон — полдня с запасом. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Как появляется маргиланский шёлк»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — zaxira bilan yarim kun. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Margʻilon ipagi qanday yaratiladi»."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "When is Yodgorlik Silk Factory strongest during the day?"
+          "ru": "В какое время дня Шёлковая фабрика Yodgorlik раскрывается сильнее?"
+          "uz": "Yodgorlik ipak fabrikasi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer early morning or late afternoon. That usually improves comfort, photos, and how the stop feels in the sequence around margilan."
+          "ru": "Лучше рано утром или ближе к вечеру. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с margilan."
+          "uz": "erta tong yoki kechga yaqin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (margilan atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "How should Yodgorlik Silk Factory sit next to nearby stops?"
+          "ru": "Как поставить Шёлковая фабрика Yodgorlik рядом с соседними остановками?"
+          "uz": "Yodgorlik ipak fabrikasini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/margilan/attractions/yodgorlik-silk-factory.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Yodgorlik Silk Factory to your Uzbekistan programme"
+      "ru": "Добавьте «Шёлковая фабрика Yodgorlik» в программу (Узбекистан)"
+      "uz": "Yodgorlik ipak fabrikasini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Yodgorlik Silk Factory | TourLink"
+    "ru": "Шёлковая фабрика Yodgorlik | TourLink"
+    "uz": "Yodgorlik ipak fabrikasi | TourLink"
+  "metaDescription":
+    "en": "At Yodgorlik, the silk process stays close: thread is drawn from the cocoon, color is prepared, looms are at work, and artisans explain how Margilan fabric takes shape."
+    "ru": "На Yodgorlik процесс виден близко: здесь получают нить из кокона, готовят цвет, работают на станках, а мастера объясняют, как появляется маргиланская ткань."
+    "uz": "Yodgorlikda ipak jarayoni yaqindan ko‘rinadi: pilladan ip olinadi, rang tayyorlanadi, dastgohlar ishlaydi, ustalar esa Margʻilon matosi qanday paydo bo‘lishini tushuntiradi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "fergana-valley"
+"city": "margilan"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 40.4694865
+"longitude": 71.719491

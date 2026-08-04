@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "ovjazsoy-orchards-and-household-life"
+  "ru": "ovjazsoy-orchards-and-household-life"
+  "uz": "ovjazsoy-orchards-and-household-life"
+"title":
+  "en": "Ovjazsoy Orchards and Household Life"
+  "ru": "Сады и дворовая жизнь Овжазсоя"
+  "uz": "Ovjazsoy bog‘lari va xonadon hayoti"
+"subtitle":
+  "en": "Gardens, farm routines, and family welcome at village scale"
+  "ru": "Сады, хозяйственный ритм и семейный приём в сельском масштабе"
+  "uz": "Bog‘lar, xo‘jalik ritmi va oilaviy qabul qishloq miqyosida"
+"excerpt":
+  "en": "Ovjazsoy is easiest to understand through ordinary village details: orchard edges, household yards, farming routines, and a modest family welcome when it is arranged for the date. The value is not performance; it is a short stop where the Ohangaron road meets everyday rural life."
+  "ru": "Овжазсой проще всего понять через обычные сельские детали: садовые края, дворы, хозяйственный ритм и скромный семейный приём, если он согласован на дату. Ценность здесь не в представлении, а в короткой остановке, где ахангаранская дорога встречается с повседневной сельской жизнью."
+  "uz": "Ovjazsoyni oddiy qishloq detallari orqali tushunish oson: bog‘ chetlari, hovlilar, xo‘jalik ritmi va safar sanasiga kelishilgan kamtar oilaviy qabul. Bu yerda qadr tomosha emas, Ohangaron yo‘li kundalik qishloq hayoti bilan uchrashadigan qisqa bekatdir."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Ovjazsoy Orchards and Household Life"
+      "ru": "Сады и дворовая жизнь Овжазсоя"
+      "uz": "Ovjazsoy bog‘lari va xonadon hayoti"
+    "title":
+      "en": "Ovjazsoy Orchards and Household Life"
+      "ru": "Сады и дворовая жизнь Овжазсоя"
+      "uz": "Ovjazsoy bog‘lari va xonadon hayoti"
+    "description":
+      "en": "Gardens, farm routines, and family welcome at village scale"
+      "ru": "Сады, хозяйственный ритм и семейный приём в сельском масштабе"
+      "uz": "Bog‘lar, xo‘jalik ritmi va oilaviy qabul qishloq miqyosida"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Ovjazsoy Orchards and Household Life"
+      "ru": "Сады и дворовая жизнь Овжазсоя"
+      "uz": "Ovjazsoy bog‘lari va xonadon hayoti"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Ovjazsoy is easiest to understand through ordinary village details: orchard edges, household yards, farming routines, and a modest family welcome when it is arranged for the date."
+              "ru": "Овжазсой проще всего понять через обычные сельские детали: садовые края, дворы, хозяйственный ритм и скромный семейный приём, если он согласован на дату."
+              "uz": "Ovjazsoyni oddiy qishloq detallari orqali tushunish oson: bog‘ chetlari, hovlilar, xo‘jalik ritmi va safar sanasiga kelishilgan kamtar oilaviy qabul."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "The gardens and household routines keep Ovjazsoy grounded in daily life rather than scenery alone."
+              "ru": "Сады и хозяйственный ритм удерживают Овжазсой в живой повседневности, а не только в пейзаже."
+              "uz": "Bog‘lar va xo‘jalik ritmi Ovjazsoyni faqat manzara emas, kundalik hayot ichida ushlab turadi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Gardens, farm routines, and family welcome at village scale."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Сады, хозяйственный ритм и семейный приём в сельском масштабе."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Bog‘lar, xo‘jalik ritmi va oilaviy qabul qishloq miqyosida."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Ovjazsoy Orchards and Household Life as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Сады и дворовая жизнь Овжазсоя как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Ovjazsoy bog‘lari va xonadon hayoti o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Ovjazsoy Orchards and Household Life sits on the route"
+      "ru": "Где Сады и дворовая жизнь Овжазсоя стоит на маршруте"
+      "uz": "Ovjazsoy bog‘lari va xonadon hayoti marshrutda qayerda"
+    "description":
+      "en": "One clear point for Ovjazsoy Orchards and Household Life — Gardens, farm routines, and family welcome at village scale."
+      "ru": "Одна понятная точка для «Сады и дворовая жизнь Овжазсоя» — Сады, хозяйственный ритм и семейный приём в сельском масштабе."
+      "uz": "Ovjazsoy bog‘lari va xonadon hayoti uchun bitta aniq nuqta — Bog‘lar, xo‘jalik ritmi va oilaviy qabul qishloq miqyosida."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Ovjazsoy Orchards and Household Life"
+        "ru": "Сады и дворовая жизнь Овжазсоя"
+        "uz": "Ovjazsoy bog‘lari va xonadon hayoti"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.858094
+      "longitude": 69.940681
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "ovjazsoy-orchards-and-household-life"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "The human scale of the village stop"
+      "ru": "Человеческий масштаб сельской остановки"
+      "uz": "Qishloq bekatining insoniy o‘lchami"
+    "description":
+      "en": "The gardens and household routines keep Ovjazsoy grounded in daily life rather than scenery alone.
+
+
+        «Ovjazsoy feels most convincing when the route leaves space for ordinary village life to stay ordinary.»"
+      "ru": "Сады и хозяйственный ритм удерживают Овжазсой в живой повседневности, а не только в пейзаже.
+
+
+        «Овжазсой убедительнее всего, когда маршрут оставляет обычной сельской жизни право оставаться обычной.»"
+      "uz": "Bog‘lar va xo‘jalik ritmi Ovjazsoyni faqat manzara emas, kundalik hayot ichida ushlab turadi.
+
+
+        «Ovjazsoy yo‘nalish oddiy qishloq hayotiga oddiy bo‘lib qolish imkonini berganda ishonarli.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Orchard edges, yards, and work rhythms"
+      "ru": "Садовые края, дворы и сельский ритм"
+      "uz": "Bog‘ chetlari, hovlilar va qishloq ritmi"
+    "description":
+      "en": "The gallery should stay close to the village: gardens, home-scale spaces, and farming routines."
+      "ru": "Галерея должна оставаться рядом с селом: сады, дворы и хозяйственная жизнь."
+      "uz": "Galereya qishloqqa yaqin qolishi kerak: bog‘lar, xonadon miqyosidagi joylar va xo‘jalik ritmi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Respect private village life"
+      "ru": "Уважайте частную сельскую жизнь"
+      "uz": "Xususiy qishloq hayotini hurmat qiling"
+    "description":
+      "en": "Keep the visit small, follow the arranged welcome, and let everyday routines stay natural."
+      "ru": "Держите визит небольшим, следуйте договорённости и не превращайте повседневность в постановку."
+      "uz": "Tashrifni kichik tuting, kelishilgan qabulga amal qiling va kundalik hayotni sahnaga aylantirmang."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby within Ovjazsoy"
+      "ru": "Рядом в Овжазсое"
+      "uz": "Ovjazsoy ichida yaqin"
+    "title":
+      "en": "What to add around the village stop"
+      "ru": "Что добавить вокруг сельской остановки"
+      "uz": "Qishloq bekati atrofida nimani qo‘shish"
+    "description":
+      "en": "Add the upper-slope setting or the Ohangaron road approach when the route can stay unhurried."
+      "ru": "Добавляйте верхнюю часть или ахангаранский подъезд, если маршрут остаётся спокойным."
+      "uz": "Yo‘nalish sokin qolsa, yuqori qism yoki Ohangaron yo‘lini qo‘shing."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ovjazsoy Upper-Slope Setting"
+          "ru": "Верхняя часть Овжазсоя"
+          "uz": "Ovjazsoyning yuqori qismi"
+        "description":
+          "en": "The upper part of Ovjazsoy gives the village stop cooler air, wider views, and a gentle nature-minded edge."
+          "ru": "Верхняя часть Овжазсоя даёт сельской остановке более прохладный воздух, открытый вид и мягкое ощущение природы."
+          "uz": "Ovjazsoyning yuqori qismi qishloq bekatiga salqinroq havo, kengroq ko‘rinish va tabiatga yaqin kayfiyat beradi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/ovjazsoy/ovjazsoy-upper-slope-ecotourism-context"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ohangaron Road Approach to Ovjazsoy"
+          "ru": "Ахангаранская дорога к Овжазсою"
+          "uz": "Ovjazsoyga Ohangaron yo‘li"
+        "description":
+          "en": "The road to Ovjazsoy changes the scale of the trip, moving from Tashkent’s edge toward a quieter Ohangaron village stop."
+          "ru": "Дорога к Овжазсою меняет масштаб поездки: от края Ташкента к более тихой сельской остановке Ахангарана."
+          "uz": "Ovjazsoyga boradigan yo‘l safar o‘lchamini o‘zgartiradi: Toshkent chetidan sokinroq Ohangaron qishloq bekatiga."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/ovjazsoy/ovjazsoy-ohangaron-road-context"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Ovjazsoy Orchards and Household Life"
+      "ru": "Что агентства спрашивают про Сады и дворовая жизнь Овжазсоя"
+      "uz": "Agentliklar Ovjazsoy bog‘lari va xonadon hayoti haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Ovjazsoy Orchards and Household Life get in the day plan?"
+          "ru": "Сколько времени закладывать на Сады и дворовая жизнь Овжазсоя в плане дня?"
+          "uz": "Ovjazsoy bog‘lari va xonadon hayoti uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "45–90 minutes is a practical range for most groups. Keep the stop readable: one clear arrival, one clear exit. Place tone: “Gardens, farm routines, and family welcome at village scale”."
+          "ru": "Для большинства групп реалистичный диапазон — 45–90 минут. Держите остановку читаемой: понятный вход и понятный выход. Характер места: «Сады, хозяйственный ритм и семейный приём в сельском масштабе»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 45–90 daqiqa. Bekatni o‘qiladigan tuting: aniq kirish va aniq chiqish. Joy ohangi: «Bog‘lar, xo‘jalik ritmi va oilaviy qabul qishloq miqyosida»."
+      - "type": "destinationInsight"
+        "icon": "Sunrise"
+        "title":
+          "en": "When is Ovjazsoy Orchards and Household Life strongest during the day?"
+          "ru": "В какое время дня Сады и дворовая жизнь Овжазсоя раскрывается сильнее?"
+          "uz": "Ovjazsoy bog‘lari va xonadon hayoti kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer before the midday heat. That usually improves comfort, photos, and how the stop feels in the sequence around ovjazsoy."
+          "ru": "Лучше до полуденной жары. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с ovjazsoy."
+          "uz": "tushlik issiqligidan oldin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (ovjazsoy atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How should Ovjazsoy Orchards and Household Life sit next to nearby stops?"
+          "ru": "Как поставить Сады и дворовая жизнь Овжазсоя рядом с соседними остановками?"
+          "uz": "Ovjazsoy bog‘lari va xonadon hayotini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Ovjazsoy Orchards and Household Life to your Uzbekistan programme"
+      "ru": "Добавьте «Сады и дворовая жизнь Овжазсоя» в программу (Узбекистан)"
+      "uz": "Ovjazsoy bog‘lari va xonadon hayotini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Ovjazsoy Orchards and Household Life | TourLink"
+    "ru": "Сады и дворовая жизнь Овжазсоя | TourLink"
+    "uz": "Ovjazsoy bog‘lari va xonadon hayoti | TourLink"
+  "metaDescription":
+    "en": "Ovjazsoy is easiest to understand through ordinary village details: orchard edges, household yards, farming routines, and a modest family welcome when it is arranged for the date. The value is not performance; it is a short stop where the Ohangaron road meets everyday rural life."
+    "ru": "Овжазсой проще всего понять через обычные сельские детали: садовые края, дворы, хозяйственный ритм и скромный семейный приём, если он согласован на дату. Ценность здесь не в представлении, а в короткой остановке, где ахангаранская дорога встречается с повседневной сельской жизнью."
+    "uz": "Ovjazsoyni oddiy qishloq detallari orqali tushunish oson: bog‘ chetlari, hovlilar, xo‘jalik ritmi va safar sanasiga kelishilgan kamtar oilaviy qabul. Bu yerda qadr tomosha emas, Ohangaron yo‘li kundalik qishloq hayoti bilan uchrashadigan qisqa bekatdir."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "tashkent-region"
+"city": "ovjazsoy"
+"type": "PARK"
+"importance": "RECOMMENDED"
+"latitude": 40.858094
+"longitude": 69.940681

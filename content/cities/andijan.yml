@@ -1,0 +1,572 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "andijan"
+  "ru": "andijan"
+  "uz": "andijan"
+"title":
+  "en": "Andijan"
+  "ru": "Андижан"
+  "uz": "Andijon"
+"subtitle":
+  "en": "Babur memory at the eastern edge of the Fergana Valley"
+  "ru": "Память о Бабуре на восточном краю Ферганской долины"
+  "uz": "Fargʻona vodiysining sharqiy chetida Bobur xotirasi"
+"excerpt":
+  "en": "Andijan is the valley city where Babur's memory gives the visit its clearest shape. Begin with the memorial hill and house-museum context, add Jomeh only when current access is clear, then leave time for street life, local food, or the road across the eastern valley."
+  "ru": "Андижан — город долины, где память о Бабуре задаёт самый ясный смысл поездки. Начните с мемориального холма и контекста дома-музея, добавляйте Джами только при понятном текущем доступе, а затем оставьте время для городской жизни, местной еды или дороги по восточной части долины."
+  "uz": "Andijon vodiyning Bobur xotirasi tashrifga eng aniq maʼno beradigan shahridir. Memorial tepalik va uy-muzey mazmunidan boshlang, Jomeni faqat joriy kirish sharoiti aniq bo‘lsa qo‘shing, keyin shahar hayoti, mahalliy taom yoki sharqiy vodiy yo‘liga vaqt ajrating."
+"heroImage": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/andijan.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/andijan.webp"
+    "imageAlt":
+      "en": "Andijan"
+      "ru": "Андижан"
+      "uz": "Andijon"
+    "title":
+      "en": "Andijan"
+      "ru": "Андижан"
+      "uz": "Andijon"
+    "description":
+      "en": "Babur memory at the eastern edge of the Fergana Valley"
+      "ru": "Память о Бабуре на восточном краю Ферганской долины"
+      "uz": "Fargʻona vodiysining sharqiy chetida Bobur xotirasi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Andijan"
+      "ru": "Андижан"
+      "uz": "Andijon"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Andijan is the valley city where Babur's memory gives the visit its clearest shape."
+              "ru": "Андижан — город долины, где память о Бабуре задаёт самый ясный смысл поездки."
+              "uz": "Andijon vodiyning Bobur xotirasi tashrifga eng aniq maʼno beradigan shahridir."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Andijan makes sense when the journey has a reason to continue beyond the classic craft line. Babur memory leads the stop; Jomeh, museums, and the road toward Namangan work best when they have enough time to feel connected."
+              "ru": "Андижан имеет смысл, когда поездка выходит за классическую ремесленную линию не ради галочки, а ради восточной части долины. Память о Бабуре задаёт главный вход в город; Джами, музеи и дорога к Намангану лучше раскрываются, когда между ними есть время и логика."
+              "uz": "Andijon klassik hunarmandchilik yo‘lidan keyin sharqiy vodiyga aniq sabab bilan davom etilganda maʼno topadi. Bobur xotirasi shaharga birinchi kirish nuqtasini beradi; Jome, muzeylar va Namangan tomonga yo‘l esa ular orasida yetarli vaqt va mantiq bo‘lsa yaxshiroq ochiladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Begin with Babur Memorial Park and the house-museum context. Add Jomeh when current timing and access allow it, then let the route decide whether Andijan is an overnight stop, a day visit, or a bridge toward Namangan."
+              "ru": "Начните с парка Бабура и контекста дома-музея. Добавляйте Джами, когда текущее время и доступ это позволяют, а затем пусть сам маршрут подскажет, будет ли Андижан ночёвкой, дневной остановкой или переходом к Намангану."
+              "uz": "Bobur bog‘i va uy-muzey mazmunidan boshlang. Jomeni joriy vaqt va kirish sharoiti imkon bersa qo‘shing, keyin Andijon tunash joyimi, kunduzgi bekatmi yoki Namangan tomonga o‘tish nuqtasimi, buni yo‘lning o‘zi belgilasin."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Andijan as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Андижан как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Andijon o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "How Andijan fits"
+      "ru": "Где уместен Андижан"
+      "uz": "Andijon qayerda mos"
+    "title":
+      "en": "Where Andijan belongs in the valley route"
+      "ru": "Где Андижан уместен в маршруте по долине"
+      "uz": "Andijon vodiy yo‘lida qayerga mos keladi"
+    "description":
+      "en": "Andijan makes sense when the journey has a reason to continue beyond the classic craft line. Babur memory leads the stop; Jomeh, museums, and the road toward Namangan work best when they have enough time to feel connected."
+      "ru": "Андижан имеет смысл, когда поездка выходит за классическую ремесленную линию не ради галочки, а ради восточной части долины. Память о Бабуре задаёт главный вход в город; Джами, музеи и дорога к Намангану лучше раскрываются, когда между ними есть время и логика."
+      "uz": "Andijon klassik hunarmandchilik yo‘lidan keyin sharqiy vodiyga aniq sabab bilan davom etilganda maʼno topadi. Bobur xotirasi shaharga birinchi kirish nuqtasini beradi; Jome, muzeylar va Namangan tomonga yo‘l esa ular orasida yetarli vaqt va mantiq bo‘lsa yaxshiroq ochiladi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Eastern Fergana point"
+        "ru": "Восточная точка Ферганы"
+        "uz": "Sharqiy Fargʻona nuqtasi"
+      "title":
+        "en": "Andijan at the far side of the valley"
+        "ru": "Андижан на дальней стороне долины"
+        "uz": "Andijon vodiyning sharqida"
+      "description":
+        "en": "The map places Andijan east of Kokand, Margilan, and Rishtan. It shows how the valley widens toward Namangan while the familiar craft-and-palace route remains to the west."
+        "ru": "Карта ставит Андижан восточнее Коканда, Маргилана и Риштана. Так видно, как долина расширяется к Намангану, а дворцово-ремесленная линия остаётся западнее."
+        "uz": "Xarita Andijonni Qo‘qon, Margʻilon va Rishtondan sharqda ko‘rsatadi. Bu vodiy Namangan tomonga qanday kengayishini, saroy-hunarmandchilik yo‘li esa g‘arbda qolishini ko‘rsatadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.783347
+      "longitude": 72.350675
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "babur-memorial-park-house-museum"
+      - "entityType": "attraction"
+        "entitySlug": "jomeh-jami-architectural-complex-andijan"
+    "aside":
+      "eyebrow":
+        "en": "Route shape"
+        "ru": "Форма маршрута"
+        "uz": "Yo‘l tartibi"
+      "title":
+        "en": "Babur first, then Jomeh and the onward road"
+        "ru": "Сначала Бабур, затем Джами и дорога дальше"
+        "uz": "Avval Bobur, keyin Jome va davom yo‘li"
+      "description":
+        "en": "Begin with Babur Memorial Park and the house-museum context. Add Jomeh when current timing and access allow it, then let the route decide whether Andijan is an overnight stop, a day visit, or a bridge toward Namangan."
+        "ru": "Начните с парка Бабура и контекста дома-музея. Добавляйте Джами, когда текущее время и доступ это позволяют, а затем пусть сам маршрут подскажет, будет ли Андижан ночёвкой, дневной остановкой или переходом к Намангану."
+        "uz": "Bobur bog‘i va uy-muzey mazmunidan boshlang. Jomeni joriy vaqt va kirish sharoiti imkon bersa qo‘shing, keyin Andijon tunash joyimi, kunduzgi bekatmi yoki Namangan tomonga o‘tish nuqtasimi, buni yo‘lning o‘zi belgilasin."
+      "items":
+        - "title":
+            "en": "Let Babur shape the first impression"
+            "ru": "Пусть Бабур задаст первое впечатление"
+            "uz": "Birinchi taassurotni Bobur belgilasin"
+          "description":
+            "en": "Babur Memorial Park, the house-museum story, the monument, and literary memory make Andijan more than a transit stop."
+            "ru": "Парк Бабура, история дома-музея, памятник и литературная память делают Андижан больше, чем транзитной остановкой."
+            "uz": "Bobur bog‘i, uy-muzey hikoyasi, yodgorlik va adabiy xotira Andijonni tranzit bekatdan ko‘ra mazmunliroq qiladi."
+          "badge":
+            "en": "Babur"
+            "ru": "Бабур"
+            "uz": "Bobur"
+        - "title":
+            "en": "Add Jomeh when access is clear"
+            "ru": "Добавляйте Джами, когда доступ понятен"
+            "uz": "Kirish aniq bo‘lsa, Jomeni qo‘shing"
+          "description":
+            "en": "The Jomeh complex, mosque, madrasah, and minaret can give the city a calm architectural stop when current visitor conditions are checked first."
+            "ru": "Комплекс Джами, мечеть, медресе и минарет могут дать городу спокойную архитектурную остановку, если сначала проверить текущие условия посещения."
+            "uz": "Jome majmuasi, masjid, madrasa va minora joriy tashrif sharoitlari oldindan tekshirilsa, shaharga sokin meʼmoriy bekat beradi."
+          "badge":
+            "en": "Jomeh"
+            "ru": "Джами"
+            "uz": "Jome"
+        - "title":
+            "en": "Leave one city-life pause"
+            "ru": "Оставьте одну паузу для городской жизни"
+            "uz": "Shahar hayoti uchun bitta pauza qoldiring"
+          "description":
+            "en": "A short walk, tea, fruit, bread, or a simple local meal helps Andijan feel like a living city, not only a memorial stop."
+            "ru": "Короткая прогулка, чай, фрукты, хлеб или простая местная еда помогают Андижану ощущаться живым городом, а не только мемориальной остановкой."
+            "uz": "Qisqa sayr, choy, meva, non yoki oddiy mahalliy taom Andijonni faqat memorial bekat emas, jonli shahar sifatida his qildiradi."
+          "badge":
+            "en": "City pause"
+            "ru": "Городская пауза"
+            "uz": "Shahar pauzasi"
+        - "title":
+            "en": "Decide whether to continue east"
+            "ru": "Решите, продолжать ли путь на восток"
+            "uz": "Sharqqa davom etishni hal qiling"
+          "description":
+            "en": "Andijan can close the valley chapter, continue toward Namangan, or open a deeper eastern-valley route when the timing is realistic."
+            "ru": "Андижан может завершать главу долины, продолжать маршрут к Намангану или открывать более глубокую программу по восточной Фергане, если время реалистично."
+            "uz": "Andijon vodiy bobini yakunlashi, Namangan tomonga davom ettirishi yoki vaqt real bo‘lsa, chuqurroq sharqiy vodiy yo‘lini ochishi mumkin."
+          "badge":
+            "en": "Eastern valley"
+            "ru": "Восточная долина"
+            "uz": "Sharqiy vodiy"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nima ko‘rish kerak"
+    "title":
+      "en": "Babur, Jomeh, and museum context"
+      "ru": "Бабур, Джами и музейный контекст"
+      "uz": "Bobur, Jome va muzey mazmuni"
+    "description":
+      "en": "Babur Memorial Park is the clearest first Andijan anchor. Jomeh and museum time can deepen the visit when current sources, access, and opening conditions are checked."
+      "ru": "Парк Бабура — самый ясный первый якорь Андижана. Джами и музейные остановки могут углубить визит, когда текущие источники, доступ и правила работы проверены."
+      "uz": "Bobur bog‘i Andijonning eng aniq birinchi tayanchidir. Jome va muzey bekatlari joriy manbalar, kirish va ish tartibi tekshirilganda tashrifni chuqurlashtirishi mumkin."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/andijan/attractions/babur-memorial-park-house-museum.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Babur Memorial Park and House Museum"
+          "ru": "Парк Бабура и дом-музей"
+          "uz": "Bobur bog‘i va uy-muzeyi"
+        "description":
+          "en": "Above Andijan, Bogishamol hill gathers the city's Babur memory into a place you can walk: formal gates, rising steps, a green-domed memorial, the equestrian monument, museum material when rooms are open, and trees along the slope. Start here when Andijan needs a clear purpose in "
+          "ru": "Над Андижаном холм Богишамол собирает городскую память о Бабуре в место, по которому можно пройти: ворота, лестницы, зелёный купол мемориала, конный памятник, музейный материал при открытых залах и деревья на склоне. Начинайте отсюда, если Андижану нужна ясная роль в маршруте по "
+          "uz": "Andijon ustidagi Bog‘ishamol tepaligi shaharning Bobur haqidagi xotirasini yurib ko‘riladigan joyga jamlaydi: darvozalar, zinapoyalar, yashil gumbazli memorial, otliq haykal, zallar ochiq bo‘lsa muzey materiali va yonbag‘irdagi daraxtlar. Andijonga vodiy yo‘lida aniq rol kerak bo"
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/andijan/babur-memorial-park-house-museum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/andijan/attractions/jomeh-jami-architectural-complex-andijan.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Jomeh Architectural Complex"
+          "ru": "Архитектурный комплекс Джоме"
+          "uz": "Jome meʼmoriy majmuasi"
+        "description":
+          "en": "In central Andijan, Jomeh brings the old part of the city into view: a minaret above garden shade, a broad courtyard, carved wooden columns, painted ceilings, and rooms where literary and art displays may be open. Together with Babur Memorial Park, it lets the eastern Fergana rou"
+          "ru": "В центре Андижана Джоме показывает старую часть города через конкретные детали: минарет над тенью деревьев, широкий двор, резные деревянные колонны, расписные потолки и залы, где могут быть открыты литературные и художественные экспозиции. Вместе с парком Бабура он показывает на "
+          "uz": "Andijon markazida Jome shaharning eski qismini aniq detallar orqali ko‘z oldingizga keltiradi: daraxt soyasi ustidagi minora, keng hovli, o‘yma yog‘och ustunlar, naqshli shiftlar va ochiq bo‘lsa adabiyot hamda sanʼat ekspozitsiyalari joylashgan xonalar. Bobur bog‘i bilan birga u "
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/andijan/jomeh-jami-architectural-complex-andijan"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City moments"
+      "ru": "Городские моменты"
+      "uz": "Shahar lahzalari"
+    "title":
+      "en": "How Andijan can feel in the itinerary"
+      "ru": "Как Андижан ощущается в программе"
+      "uz": "Andijon dasturda qanday seziladi"
+    "description":
+      "en": "These three city moments keep Andijan grounded: Babur memory, a careful Jomeh courtyard pause, and a short street-life break before the valley road continues."
+      "ru": "Эти три городских момента помогают Андижану звучать конкретно: память о Бабуре, осторожная пауза во дворе Джами и короткая городская передышка перед продолжением дороги по долине."
+      "uz": "Bu uch shahar lahzasi Andijonni aniq his qildiradi: Bobur xotirasi, Jome hovlisidagi ehtiyotkor pauza va vodiy yo‘li davom etishidan oldingi qisqa shahar tanaffusi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/andijan/andijan-character-1.webp"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "A city pause before the valley road"
+          "ru": "Городская пауза перед дорогой по долине"
+          "uz": "Vodiy yo‘lidan oldingi shahar pauzasi"
+        "description":
+          "en": "Between Babur, Jomeh, and the onward road, leave time for a short street walk, tea, fruit, bread, or a simple local meal."
+          "ru": "Между Бабуром, Джами и дорогой дальше оставьте время для короткой прогулки, чая, фруктов, хлеба или простой местной еды."
+          "uz": "Bobur, Jome va davom yo‘li orasida qisqa shahar sayri, choy, meva, non yoki oddiy mahalliy taom uchun vaqt ajrating."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/andijan/andijan-character-2.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Jomeh courtyard when access is clear"
+          "ru": "Двор Джами при понятном доступе"
+          "uz": "Kirish aniq bo‘lganda Jome hovlisi"
+        "description":
+          "en": "When the visit is confirmed locally, the courtyard, mosque, madrasah, and minaret give Andijan a calm architectural pause."
+          "ru": "Когда посещение подтверждено на месте, двор, мечеть, медресе и минарет дают Андижану спокойную архитектурную паузу."
+          "uz": "Tashrif mahalliy tarzda tasdiqlanganda, hovli, masjid, madrasa va minora Andijonga sokin meʼmoriy pauza beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/andijan/andijan-character-3.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Babur memory on Bogishamol hill"
+          "ru": "Память о Бабуре на Богишамоле"
+          "uz": "Bog‘ishamolda Bobur xotirasi"
+        "description":
+          "en": "Begin at Babur Memorial Park, where the monument, garden setting, and house-museum context give Andijan its clearest first note."
+          "ru": "Начните с парка Бабура: памятник, садовый холм и контекст дома-музея дают Андижану самый ясный первый смысл."
+          "uz": "Bobur bog‘idan boshlang: yodgorlik, bog‘li tepalik va uy-muzey mazmuni Andijonga eng aniq birinchi ohangni beradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "Why Andijan is worth a deliberate stop"
+      "ru": "Почему Андижан стоит делать осознанной остановкой"
+      "uz": "Nega Andijon ongli bekat bo‘lishi kerak"
+    "description":
+      "en": "Andijan earns its place when the route has a real reason: Babur memory, one careful architectural stop, city texture, and a clear decision about the eastern side of the Fergana Valley."
+      "ru": "Андижан заслуживает места, когда у маршрута есть настоящая причина: память о Бабуре, одна аккуратная архитектурная остановка, городская фактура и ясное решение по восточной стороне Ферганской долины."
+      "uz": "Andijon yo‘lda haqiqiy sabab bo‘lsa o‘z o‘rnini topadi: Bobur xotirasi, bitta ehtiyotkor meʼmoriy bekat, shahar hayoti va Fargʻona vodiysining sharqiy tomoni bo‘yicha aniq qaror."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Start with Babur"
+              "ru": "Начните с Бабура"
+              "uz": "Boburdan boshlang"
+            "description":
+              "en": "Babur Memorial Park, the house-museum context, and the city's literary memory explain why Andijan belongs in the itinerary."
+              "ru": "Парк Бабура, контекст дома-музея и литературная память города объясняют, зачем Андижан появляется в маршруте."
+              "uz": "Bobur bog‘i, uy-muzey mazmuni va shaharning adabiy xotirasi Andijon nega yo‘lga kirishini tushuntiradi."
+          - "type": "quote"
+            "quote":
+              "en": "Andijan is clearest when Babur memory opens the visit and the eastern valley road gives it purpose."
+              "ru": "Андижан понятнее всего, когда память о Бабуре открывает визит, а восточная дорога даёт ему цель."
+              "uz": "Andijon Bobur xotirasi tashrifni ochib, sharqiy vodiy yo‘li unga maqsad berganda eng aniq ko‘rinadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Add Jomeh and museums carefully"
+              "ru": "Добавляйте Джами и музеи аккуратно"
+              "uz": "Jome va muzeylarni ehtiyotkorlik bilan qo‘shing"
+            "description":
+              "en": "The Jomeh complex and museum stops can deepen the visit, but access, prayer time, opening rules, and group flow should be checked before they are promised."
+              "ru": "Комплекс Джами и музейные остановки могут углубить визит, но доступ, время молитвы, правила работы и движение группы нужно проверить заранее."
+              "uz": "Jome majmuasi va muzey bekatlari tashrifni chuqurlashtirishi mumkin, lekin kirish, namoz vaqti, ish qoidalari va guruh harakati oldindan tekshirilishi kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep one ordinary city moment"
+              "ru": "Оставьте один обычный городской момент"
+              "uz": "Bir oddiy shahar lahzasini qoldiring"
+            "description":
+              "en": "A short street walk, tea, bread, fruit, or a calm local meal helps Andijan feel like a living city, not just a Babur note."
+              "ru": "Короткая прогулка, чай, хлеб, фрукты или спокойный местный обед помогают Андижану ощущаться живым городом, а не только заметкой о Бабуре."
+              "uz": "Qisqa sayr, choy, non, meva yoki sokin mahalliy taom Andijonni faqat Bobur eslatmasi emas, jonli shahar sifatida his qildiradi."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Choose Andijan when the Fergana Valley route has a real reason for Babur, Jomeh, and an eastern-valley decision, not when the program only needs one more city name."
+              "ru": "Выбирайте Андижан, когда в маршруте по Ферганской долине есть настоящая причина для Бабура, Джами и восточного решения, а не когда программе нужно ещё одно городское название."
+              "uz": "Fargʻona vodiysi yo‘lida Bobur, Jome va haqiqiy sharqiy qaror uchun aniq sabab bo‘lsa, Andijonni tanlang; dasturga yana bir shahar nomi kerak bo‘lgani uchun emas."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Route role"
+                  "ru": "Коротко Роль в маршруте"
+                  "uz": "Qisqacha Yo‘ldagi roli"
+                "description":
+                  "en": "Eastern Fergana Valley city for Babur memory, Jomeh context, museums, and route decisions."
+                  "ru": "Восточный город Ферганской долины для памяти о Бабуре, Джами, музеев и маршрутных решений."
+                  "uz": "Bobur xotirasi, Jome mazmuni, muzeylar va yo‘l qarorlari uchun sharqiy Fargʻona vodiysi shahri."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main identity"
+                  "ru": "Главный смысл"
+                  "uz": "Asosiy maʼno"
+                "description":
+                  "en": "Babur Memorial Park and the house-museum story give the city its clearest travel meaning."
+                  "ru": "Парк Бабура и история дома-музея дают городу самую ясную туристическую причину."
+                  "uz": "Bobur bog‘i va uy-muzey hikoyasi shaharga eng aniq sayohat sababini beradi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Access checks"
+                  "ru": "Проверка доступа"
+                  "uz": "Kirish tekshiruvi"
+                "description":
+                  "en": "Jomeh, museums, national-house visits, and pilgrimage stops need current timing, access, and visitor-condition checks."
+                  "ru": "Джами, музеи, национальные дома и паломнические места требуют актуальной проверки времени, доступа и условий посещения."
+                  "uz": "Jome, muzeylar, milliy uy tashriflari va ziyorat joylari vaqt, kirish va tashrif sharoitlarini yangidan tekshirishni talab qiladi."
+              - "icon": "Route"
+                "title":
+                  "en": "Route pace"
+                  "ru": "Темп маршрута"
+                  "uz": "Yo‘l ritmi"
+                "description":
+                  "en": "A deliberate day stop or overnight works better than a rushed extra between the main western-valley anchors."
+                  "ru": "Осознанная дневная остановка или ночёвка лучше, чем спешная добавка между главными западными опорами долины."
+                  "uz": "Shoshilinch qo‘shimchadan ko‘ra ongli kunduzgi bekat yoki tunash asosiy g‘arbiy vodiy tayanchlari orasida yaxshiroq mos keladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Fergana Valley continuations"
+      "ru": "Продолжения по Ферганской долине"
+      "uz": "Fargʻona vodiysi davomlari"
+    "title":
+      "en": "Continue through Kokand, Margilan, and Rishtan"
+      "ru": "Продолжайте через Коканд, Маргилан и Риштан"
+      "uz": "Qo‘qon, Margʻilon va Rishton orqali davom eting"
+    "description":
+      "en": "Andijan widens the eastern side of the valley, while Kokand, Margilan, and Rishtan remain the main palace, silk, and ceramics anchors to pair with it."
+      "ru": "Андижан расширяет восточную сторону долины, а Коканд, Маргилан и Риштан остаются главными дворцовыми, шёлковыми и керамическими опорами, с которыми его можно соединить."
+      "uz": "Andijon vodiyning sharqiy tomonini kengaytiradi, Qo‘qon, Margʻilon va Rishton esa u bilan bog‘lanadigan asosiy saroy, ipak va kulolchilik tayanchlari bo‘lib qoladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/andijan-next-kokand.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Kokand"
+          "ru": "Коканд"
+          "uz": "Qoʻqon"
+        "description":
+          "en": "Kokand brings palace history into the Fergana Valley route before the day continues toward Margilan silk and Rishtan ceramics."
+          "ru": "Коканд добавляет маршруту по Ферганской долине дворец Худояр-хана, мечеть Джами, медресе и дорогу к Маргилану и Риштану."
+          "uz": "Qoʻqon Fargʻona vodiysi yoʻnalishiga Xudoyorxon saroyi, Jome masjidi, madrasalar va Margʻilon hamda Rishton tomonga yo‘lni qo‘shadi."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/kokand"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/andijan-next-margilan.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Margilan"
+          "ru": "Маргилан"
+          "uz": "Margʻilon"
+        "description":
+          "en": "Margilan is the Fergana Valley's silk town: Yodgorlik, atlas and adras workshops, the craft centre, and routes toward Kokand history and Rishtan ceramics."
+          "ru": "Маргилан — шёлковый город Ферганской долины: Yodgorlik, мастерские атласа и адраса, ремесленный центр и маршруты к Коканду и Риштану."
+          "uz": "Margʻilon Fargʻona vodiysining ipak shahri: Yodgorlik, atlas va adras ustaxonalari, hunar markazi hamda Qoʻqon va Rishton yo‘nalishlari."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/margilan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/andijan-next-rishtan.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Rishtan"
+          "ru": "Риштан"
+          "uz": "Rishton"
+        "description":
+          "en": "Rishtan is the Fergana Valley's ceramics town: the International Ceramics Center, working studios, blue-green glaze, and route links to Kokand and Margilan."
+          "ru": "Риштан — керамический город Ферганской долины: Международный центр керамики, мастерские, сине-зелёная глазурь и маршруты к Коканду и Маргилану."
+          "uz": "Rishton Fargʻona vodiysining kulolchilik shahri: Xalqaro kulolchilik markazi, ustaxonalar, ko‘k-yashil sir hamda Qoʻqon va Margʻilon tomonga yo‘nalishlar."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/rishtan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Andijan in the day plan"
+      "ru": "Как поставить Андижан в план дня"
+      "uz": "Andijonni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Andijan?"
+          "ru": "Сколько времени группам стоит проводить в Андижан?"
+          "uz": "Andijonda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Babur memory at the eastern edge of the Fergana Valley”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Память о Бабуре на восточном краю Ферганской долины»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Fargʻona vodiysining sharqiy chetida Bobur xotirasi»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Andijan be a walkable core or a base for day trips?"
+          "ru": "Андижан — это пешеходное ядро или база для выездов?"
+          "uz": "Andijon piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Andijan's centre?"
+          "ru": "Где лучше ночевать относительно центра Андижан?"
+          "uz": "Andijon markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/andijan.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Andijan stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Андижан» в программу (Узбекистан)"
+      "uz": "Andijon bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Andijan | TourLink"
+    "ru": "Андижан | TourLink"
+    "uz": "Andijon | TourLink"
+  "metaDescription":
+    "en": "Andijan is the valley city where Babur's memory gives the visit its clearest shape. Begin with the memorial hill and house-museum context, add Jomeh only when current access is clear, then leave time for street life, local food, or the road across the eastern valley."
+    "ru": "Андижан — город долины, где память о Бабуре задаёт самый ясный смысл поездки. Начните с мемориального холма и контекста дома-музея, добавляйте Джами только при понятном текущем доступе, а затем оставьте время для городской жизни, местной еды или дороги по восточной части долины."
+    "uz": "Andijon vodiyning Bobur xotirasi tashrifga eng aniq maʼno beradigan shahridir. Memorial tepalik va uy-muzey mazmunidan boshlang, Jomeni faqat joriy kirish sharoiti aniq bo‘lsa qo‘shing, keyin shahar hayoti, mahalliy taom yoki sharqiy vodiy yo‘liga vaqt ajrating."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "fergana-valley"
+"latitude": 40.7833471
+"longitude": 72.3506746

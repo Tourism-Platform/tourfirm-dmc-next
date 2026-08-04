@@ -1,0 +1,635 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "ukhum"
+  "ru": "ukhum"
+  "uz": "ukhum"
+"title":
+  "en": "Ukhum"
+  "ru": "Ухум"
+  "uz": "Uhum"
+"subtitle":
+  "en": "A Nuratau village of courtyard stays, old water channels, and guided petroglyph walks"
+  "ru": "Село Нуратау с гостевыми дворами, старыми арыками и прогулками к петроглифам с гидом"
+  "uz": "Mehmon hovlilari, eski ariqlar va petroglif yurishlari bor Nurota qishlog‘i"
+"excerpt":
+  "en": "Ukhum sits on the quieter Forish side of the Nuratau foothills. The best visit begins in the village itself: a courtyard stay, old water channels, nearby petroglyph slopes, and a walking plan that respects heat, footing, and the pace of the village."
+  "ru": "Ухум лежит на более тихой, фаришской стороне предгорий Нуратау. Лучший визит начинается в самом селе: во дворе гостевого дома, у старых арыков, на соседних петроглифных склонах и в таком темпе, который учитывает жару, тропы и масштаб села."
+  "uz": "Uhum Nurota tog‘oldilarining sokinroq, Forish tomonida joylashgan. Eng yaxshi tashrif qishloqning o‘zidan boshlanadi: mehmon uyi hovlisi, eski ariqlar, yaqin petroglif yonbag‘irlari hamda issiq, so‘qmoq va qishloq ko‘lamiga mos sekin yurish bilan."
+"heroImage": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/ukhum.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/ukhum.webp"
+    "imageAlt":
+      "en": "Ukhum"
+      "ru": "Ухум"
+      "uz": "Uhum"
+    "title":
+      "en": "Ukhum"
+      "ru": "Ухум"
+      "uz": "Uhum"
+    "description":
+      "en": "A Nuratau village of courtyard stays, old water channels, and guided petroglyph walks"
+      "ru": "Село Нуратау с гостевыми дворами, старыми арыками и прогулками к петроглифам с гидом"
+      "uz": "Mehmon hovlilari, eski ariqlar va petroglif yurishlari bor Nurota qishlog‘i"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Ukhum"
+      "ru": "Ухум"
+      "uz": "Uhum"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Ukhum sits on the quieter Forish side of the Nuratau foothills."
+              "ru": "Ухум лежит на более тихой, фаришской стороне предгорий Нуратау."
+              "uz": "Uhum Nurota tog‘oldilarining sokinroq, Forish tomonida joylashgan."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Ukhum works best at village scale. Settle into the courtyard first, then let the walk follow water channels, petroglyph slopes, craft details, and the cooler hours of the day."
+              "ru": "В Ухуме важен небольшой масштаб. Сначала гостевой двор и сельский ритм, затем прогулка к арыкам, петроглифным склонам, ремесленным деталям и тропам в спокойном темпе."
+              "uz": "Uhum kichik qishloq ko‘lamida yaxshi ochiladi. Avval hovli va qishloq surʼati, keyin esa ariqlar, petroglif yonbag‘irlari, hunar tafsilotlari va qisqa so‘qmoqlar keladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Start with the courtyard, the meal, and the village rhythm. From there, a guide can shape a short walk to water channels, petroglyph slopes, or the path toward Hayat or Asraf when the pace stays comfortable."
+              "ru": "Хороший визит в Ухум начинается с гостевого двора и сельского ритма. После этого прогулка может пойти к старым арыкам, петроглифам или в сторону Хаята и Асрафа, если темп остаётся спокойным."
+              "uz": "Yaxshi Uhum tashrifi hovli va qishloq ritmidan boshlanadi. Keyin yurish eski ariqlar, petroglif yonbag‘irlari yoki Hayot va Asraf tomonga ehtiyot davom etishi mumkin."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Ukhum as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Ухум как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Uhum o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "A village stay on the Forish side of Nuratau"
+      "ru": "Сельская остановка на фаришской стороне Нуратау"
+      "uz": "Nurotaning Forish tomonidagi qishloq bekati"
+    "description":
+      "en": "Ukhum works best at village scale. Settle into the courtyard first, then let the walk follow water channels, petroglyph slopes, craft details, and the cooler hours of the day."
+      "ru": "В Ухуме важен небольшой масштаб. Сначала гостевой двор и сельский ритм, затем прогулка к арыкам, петроглифным склонам, ремесленным деталям и тропам в спокойном темпе."
+      "uz": "Uhum kichik qishloq ko‘lamida yaxshi ochiladi. Avval hovli va qishloq surʼati, keyin esa ariqlar, petroglif yonbag‘irlari, hunar tafsilotlari va qisqa so‘qmoqlar keladi."
+    "mapPanel":
+      "eyebrow":
+        "en": "On the map"
+        "ru": "На карте"
+        "uz": "Xaritada"
+      "title":
+        "en": "Ukhum in the Nuratau foothills"
+        "ru": "Ухум в предгорьях Нуратау"
+        "uz": "Uhum Nurotaning Forish tomonida"
+      "description":
+        "en": "The point marks the village, not a parking place, trailhead, or guaranteed walking line."
+        "ru": "Точка отмечает село, а не парковку, начало тропы или гарантированную линию прогулки."
+        "uz": "Nuqta qishloq mo‘ljalini ko‘rsatadi, mashina to‘xtash joyi, so‘qmoq boshi yoki kafolatlangan yurish chizig‘ini emas."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.521403
+      "longitude": 66.794593
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "ukhum-petroglyph-slopes"
+      - "entityType": "attraction"
+        "entitySlug": "ukhum-village-foothill-setting"
+      - "entityType": "attraction"
+        "entitySlug": "ukhum-water-channels"
+    "aside":
+      "eyebrow":
+        "en": "How it fits"
+        "ru": "Как встроить в маршрут"
+        "uz": "Yo‘lga qanday qo‘shiladi"
+      "title":
+        "en": "Courtyard first, then the footpaths"
+        "ru": "Сначала гостевой двор, затем тропы"
+        "uz": "Avval hovli, keyin so‘qmoqlar"
+      "description":
+        "en": "Start with the courtyard, the meal, and the village rhythm. From there, a guide can shape a short walk to water channels, petroglyph slopes, or the path toward Hayat or Asraf when the pace stays comfortable."
+        "ru": "Хороший визит в Ухум начинается с гостевого двора и сельского ритма. После этого прогулка может пойти к старым арыкам, петроглифам или в сторону Хаята и Асрафа, если темп остаётся спокойным."
+        "uz": "Yaxshi Uhum tashrifi hovli va qishloq ritmidan boshlanadi. Keyin yurish eski ariqlar, petroglif yonbag‘irlari yoki Hayot va Asraf tomonga ehtiyot davom etishi mumkin."
+      "items":
+        - "title":
+            "en": "Start with the village itself"
+            "ru": "Начните с самого села"
+            "uz": "Qishloqning o‘zidan boshlang"
+          "description":
+            "en": "Courtyard time, old channels, petroglyph slopes, and short walks feel right when the route stays close enough for shade, water, and foothill paths to remain readable."
+            "ru": "Гостевой двор, арыки, петроглифные склоны и короткие прогулки раскрываются лучше, когда маршрут остаётся достаточно близким, чтобы читать воду, тень и предгорные тропы."
+            "uz": "Hovlidagi tunash, ariqlar, petroglif yonbag‘irlari va qisqa yo‘llar marshrut suv, soya va tog‘oldi so‘qmoqlarini o‘qiydigan darajada yaqin qolganda yaxshiroq ochiladi."
+          "badge":
+            "en": "tourism village"
+            "ru": "туристическое село"
+            "uz": "turizm qishlog‘i"
+        - "title":
+            "en": "Let the channels explain the village"
+            "ru": "Дайте арыкам объяснить село"
+            "uz": "Ariqlar qishloqni tushuntirsin"
+          "description":
+            "en": "Long-used water channels show how gardens, slopes, and daily life hold together in a dry foothill setting."
+            "ru": "Давно используемые водные каналы показывают, как сады, склоны и ежедневная жизнь держатся вместе в сухом предгорном месте."
+            "uz": "Uzoqdan beri ishlatilayotgan ariqlar bog‘lar, yonbag‘irlar va kundalik hayot quruq tog‘oldi chetida qanday birga turishini ko‘rsatadi."
+          "badge":
+            "en": "Water"
+            "ru": "Вода"
+            "uz": "Suv"
+        - "title":
+            "en": "Read the petroglyphs with a guide"
+            "ru": "Читать петроглифы с гидом"
+            "uz": "Petrogliflarni gid bilan o‘qing"
+          "description":
+            "en": "Rock-art slopes ask for patient looking, careful footing, and no touching or marking of stone surfaces."
+            "ru": "Петроглифы требуют спокойного взгляда, аккуратной ходьбы и правила не касаться и не отмечать каменную поверхность."
+            "uz": "Qoyatosh sanʼati sokin qarash, ehtiyot qadam va tosh yuzasiga tegmaslik hamda belgi qo‘ymaslik qoidasi bilan ko‘riladi."
+          "badge":
+            "en": "Rock marks"
+            "ru": "Наскальные знаки"
+            "uz": "Qoya izlari"
+        - "title":
+            "en": "Keep Hayat and Asraf flexible"
+            "ru": "Хаят и Асраф добавляйте спокойно"
+            "uz": "Hayot va Asrafni mos kunda qo‘shing"
+          "description":
+            "en": "Multi-village walking can link Ukhum with Hayat or Asraf, but distance, heat, luggage, and rough ground should fit the people walking that day."
+            "ru": "Переходы между селами могут связать Ухум с Хаятом или Асрафом, но расстояние, жара, багаж и каменистый путь должны подходить людям, которые идут в этот день."
+            "uz": "Qishloqlar orasidagi yurish Uhumni Hayot yoki Asraf bilan bog‘lashi mumkin, lekin masofa, issiq, yuk va toshli yo‘l o‘sha kuni yuradigan odamlarga mos bo‘lishi kerak."
+          "badge":
+            "en": "Village trail"
+            "ru": "Переход"
+            "uz": "So‘qmoq yo‘li"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "What helps you understand Ukhum"
+      "ru": "Что помогает понять Ухум"
+      "uz": "Uhumni tushuntiradigan joylar"
+    "description":
+      "en": "Start with the village scale: courtyards, old water channels, rock-art slopes, craft details, and the walking line toward neighboring Nuratau villages."
+      "ru": "Сначала смотрите на масштаб села: дворы, старые арыки, петроглифные склоны, ремесленные детали и пешую линию к соседним селам Нуратау."
+      "uz": "Avval qishloq ko‘lamiga qarang: hovlilar, eski ariqlar, petroglif yonbag‘irlari, hunar tafsilotlari va qo‘shni Nurota qishloqlari tomonga piyoda yo‘l."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Ukhum Water Channels"
+          "ru": "Арыки Ухума"
+          "uz": "Uhum ariqlari"
+        "description":
+          "en": "The water channels around Ukhum give the village walk its practical line. Follow them slowly and the place starts to read through water, gardens, path access, and the pace of a dry foothill settlement."
+          "ru": "Арыки вокруг Ухума дают сельской прогулке практическую линию. Когда идти вдоль них спокойно, село начинает читаться через воду, сады, доступ к тропам и темп сухого предгорья."
+          "uz": "Uhum atrofidagi ariqlar qishloq yurishining amaliy chizig‘ini beradi. Ularga sekin ergashsangiz, qishloq suv, bog‘lar, yo‘l kirishi va quruq tog‘oldi surʼati orqali o‘qila boshlaydi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/ukhum/ukhum-water-channels"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Ukhum Petroglyph Slopes"
+          "ru": "Петроглифные склоны Ухума"
+          "uz": "Uhum petroglif yonbag‘irlari"
+        "description":
+          "en": "The petroglyph slopes near Ukhum ask for more than a quick photo. The visit works when you approach slowly, keep the stone untouched, and let the older marks sit inside the wider village walk."
+          "ru": "Петроглифные склоны рядом с Ухумом требуют больше, чем быстрый снимок. Визит работает, когда вы подходите спокойно, не касаетесь камня и видите древние знаки как продолжение сельской прогулки."
+          "uz": "Uhum yaqinidagi petroglif yonbag‘irlari tez suratdan ko‘proq narsani so‘raydi. Tashrif sekin yaqinlashganda, toshga tegilmaganda va qadim izlar qishloq yurishining davomi sifatida ko‘rilganda ochiladi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/ukhum/ukhum-petroglyph-slopes"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Ukhum Foothill Village View"
+          "ru": "Предгорный вид Ухума"
+          "uz": "Uhum tog‘oldi qishloq manzarasi"
+        "description":
+          "en": "Above the road and courtyards, Ukhum opens toward the Nuratau slopes. This is the place to slow down, understand the village scale, and see how water, shade, dry hills, and nearby walking routes belong together."
+          "ru": "Над дорогой и дворами Ухум раскрывается к склонам Нуратау. Здесь удобно замедлиться, понять масштаб села и увидеть, как вода, тень, сухие холмы и соседние тропы складываются вместе."
+          "uz": "Yo‘l va hovlilar ustida Uhum Nurota yonbag‘irlariga ochiladi. Bu yerda sekinlashib, qishloq ko‘lamini va suv, soya, quruq tepaliklar hamda yaqin yurish yo‘llari qanday birlashishini ko‘rish mumkin."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/ukhum/ukhum-village-foothill-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Village moments"
+      "ru": "Сельские моменты"
+      "uz": "Qishloq lahzalari"
+    "title":
+      "en": "Six ways Ukhum slows down"
+      "ru": "Шесть способов почувствовать Ухум"
+      "uz": "Uhumni sekinroq his qildiradigan olti lahza"
+    "description":
+      "en": "Water, stone, courtyard life, craft work, foothill views, and a locally guided path toward Hayat or Asraf keep the visit modest, human, and specific."
+      "ru": "Вода, камень, гостевой двор, ремесло, виды предгорий и тропа к Хаяту или Асрафу сохраняют визит конкретным, скромным и живым."
+      "uz": "Suv, tosh, hovli hayoti, hunar, tog‘oldi manzarasi va Hayot yoki Asraf tomonga ehtiyot yurish Uhumni sodda va aniq ushlab turadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Water channels under the slopes"
+          "ru": "Арыки под склонами"
+          "uz": "Yonbag‘ir ostidagi ariqlar"
+        "description":
+          "en": "Long-used channels turn the walk into a village story: water, gardens, dry air, and the work that keeps Ukhum supplied."
+          "ru": "Давно используемые арыки превращают прогулку в сельскую историю: вода, сады, сухой воздух и работа, которая поддерживает Ухум."
+          "uz": "Uzoqdan beri ishlatiladigan ariqlar yurishni qishloq hikoyasiga aylantiradi: suv, bog‘lar, quruq havo va Uhumni taʼminlaydigan mehnat."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Petroglyphs with a guide"
+          "ru": "Петроглифы с гидом"
+          "uz": "Petrogliflar gid bilan"
+        "description":
+          "en": "Rock marks near the village need patient looking, guide explanation, careful footing, and a strict hands-off approach around the stone."
+          "ru": "Наскальные знаки рядом с селом требуют спокойного взгляда, объяснения гида, аккуратных шагов и полного отказа от касаний камня."
+          "uz": "Qishloq yonidagi qoya izlari sokin qarash, gid izohi, ehtiyot qadam va toshga tegmaslik qoidasini talab qiladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Courtyard table time"
+          "ru": "Время за столом во дворе"
+          "uz": "Hovlidagi dasturxon vaqti"
+        "description":
+          "en": "Tea, bread, garden shade, and home meals can carry the village visit when the courtyard, timing, and family rhythm fit the route."
+          "ru": "Чай, хлеб, тень сада и домашняя еда держат сельский визит, когда двор, время и ритм семьи подходят маршруту."
+          "uz": "Choy, non, bog‘ soyasi va uy ovqati qishloq tashrifini hovli, vaqt va oila surʼati yo‘lga mos kelganda ko‘taradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Wool, carpets, and kurpacha work"
+          "ru": "Шерсть, ковры и курпача"
+          "uz": "Jun, gilam va ko‘rpacha"
+        "description":
+          "en": "When a household is comfortable showing it, spinning, carpet work, or kurpacha making can add craft detail without turning daily life into a performance."
+          "ru": "Если семье удобно это показывать, прядение, ковровая работа или изготовление курпачи добавляют ремесленную деталь без превращения быта в представление."
+          "uz": "Xonadon uchun qulay bo‘lsa, yigirish, gilam ishlari yoki ko‘rpacha tikish kundalik hayotni tomoshaga aylantirmasdan hunar tafsilotini qo‘shadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Trail link to Hayat or Asraf"
+          "ru": "Тропа к Хаяту или Асрафу"
+          "uz": "Hayot yoki Asrafga so‘qmoq"
+        "description":
+          "en": "Ukhum can join the village-to-village walking line when heat, luggage, distance, and rough ground suit the people walking."
+          "ru": "Ухум может войти в переход между селами, когда жара, багаж, расстояние и каменистый путь подходят людям, которые идут пешком."
+          "uz": "Issiq, yuk, masofa va toshli yo‘l piyoda yuradigan odamlarga mos bo‘lsa, Uhum qishloqlar orasidagi yurishga qo‘shilishi mumkin."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Nuratau slope view"
+          "ru": "Склоны Нуратау"
+          "uz": "Nurota yonbag‘iri ko‘rinishi"
+        "description":
+          "en": "Rocky slopes, green pockets, and dry mountain air give the village its setting; longer walks should stay guided and unhurried."
+          "ru": "Каменные склоны, зелёные участки и сухой горный воздух задают селу предгорный характер, а более длинные прогулки лучше проходить с гидом и без спешки."
+          "uz": "Toshli yonbag‘irlar, yashil joylar va quruq tog‘ havosi qishloq tog‘oldi xarakterini beradi; uzoqroq yurishlar gid bilan va shoshilmasdan qolishi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "How to visit Ukhum at village scale"
+      "ru": "Как увидеть Ухум в сельском масштабе"
+      "uz": "Uhumni qishloq ko‘lamida ko‘rish"
+    "description":
+      "en": "Ukhum works at close range. Its value is daily life, water, rock marks, courtyard time, and footpaths that feel best when the visit stays unhurried."
+      "ru": "Ухум раскрывается на близкой дистанции. Его ценность рядом: повседневная жизнь, вода, наскальные знаки, гостевой двор и тропы, которые лучше раскрываются без спешки."
+      "uz": "Uhum yaqin masofada ochiladi. Uning qiymati kundalik hayot, suv, qoya izlari, hovli va shoshilmagan yurishlarda."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Water channels"
+              "ru": "Водные каналы"
+              "uz": "Ariqlar"
+            "description":
+              "en": "The channels give the walk a practical center: water, gardens, slope lines, and the daily work that keeps the village alive at the dry mountain edge."
+              "ru": "Арыки дают прогулке практический центр: вода, сады, линии склонов и ежедневная работа, которая поддерживает жизнь села у сухого горного края."
+              "uz": "Ariqlar yurishga amaliy markaz beradi: suv, bog‘lar, yonbag‘ir chiziqlari va quruq tog‘ chetida qishloqni tirik tutadigan kundalik mehnat."
+          - "type": "quote"
+            "quote":
+              "en": "Ukhum is strongest when the route begins in the courtyard, then lets the paths explain the place."
+              "ru": "Ухум сильнее всего, когда маршрут начинается во дворе, а затем тропы объясняют место."
+              "uz": "Uhum yo‘l hovlidan boshlanib, keyin so‘qmoqlar joyni tushuntirganda kuchliroq."
+          - "type": "dashTitle"
+            "title":
+              "en": "Rock marks"
+              "ru": "Наскальные знаки"
+              "uz": "Qoya izlari"
+            "description":
+              "en": "Petroglyphs should be read with a guide and careful behavior. The stone is not a prop, and the visit is stronger when it stays patient and hands-off."
+              "ru": "Петроглифы стоит читать с гидом и бережным поведением. Камень не реквизит, и визит сильнее, когда остаётся спокойным и без касаний."
+              "uz": "Petrogliflar gid va past taʼsirli xatti-harakat bilan o‘qiladi. Tosh rekvizit emas; tashrif sokin va tegmasdan o‘tganda kuchliroq."
+          - "type": "dashTitle"
+            "title":
+              "en": "Courtyard stay"
+              "ru": "Гостевой двор"
+              "uz": "Hovli ritmi"
+            "description":
+              "en": "Expect simple rooms, household routines, home meals, and a village pace shaped by the season and the day already underway."
+              "ru": "Здесь сильнее всего простые комнаты, распорядок дома, домашняя еда и сельский темп, который зависит от сезона и уже начавшегося дня."
+              "uz": "Bu yerda mehmon kutadigan narsa oddiy: xonalar, xonadon tartibi, uy ovqati va mavsum hamda kun surʼatiga bog‘liq qishloq ritmi."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Choose Ukhum when you want a small Nuratau village stop and are comfortable letting heat, walking pace, and village rhythm shape the visit."
+              "ru": "Выбирайте Ухум, если нужна небольшая сельская остановка в Нуратау и вы готовы, чтобы жара, темп ходьбы и сельский ритм задавали формат визита."
+              "uz": "Uhumni Nurotadagi kichik qishloq bekati kerak bo‘lsa va issiq, gid bilan yurish surʼati va qishloq ritmi tashrifni belgilashiga rozi bo‘lsangiz tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before you go Where it fits"
+                  "ru": "Перед поездкой Где уместен"
+                  "uz": "Safardan oldin Qayerga mos"
+                "description":
+                  "en": "Tourism village in Forish District's Nuratau foothills, useful for village stays and guided walks."
+                  "ru": "Туристическое село в предгорьях Нуратау Фаришского района, подходящее для сельской ночёвки и прогулок с гидом."
+                  "uz": "Forish tumanidagi Nurota tog‘oldi turizm qishlog‘i; mehmon uylari va gidli yurish dasturlari uchun foydali."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main draw"
+                  "ru": "Главное притяжение"
+                  "uz": "Asosiy joziba"
+                "description":
+                  "en": "Courtyard stays, old water channels, petroglyph slopes, and a quieter foothill setting."
+                  "ru": "Гостевые дворы, старые арыки, петроглифы и тихий предгорный край."
+                  "uz": "Mehmon hovlilari, eski ariqlar, petroglif yonbag‘irlari va sokin tog‘oldi cheti."
+              - "icon": "Sun"
+                "title":
+                  "en": "Visit shape"
+                  "ru": "Формат визита"
+                  "uz": "Tashrif shakli"
+                "description":
+                  "en": "Best as a village stay, courtyard meal, short guided walk, or village-to-village hiking segment."
+                  "ru": "Сельская ночёвка, еда во дворе, короткая прогулка с гидом или часть перехода между селами."
+                  "uz": "Qishloqda tunash, hovlidagi ovqat, qisqa gidli yurish yoki qishloqlar orasidagi piyoda yo‘l qismi sifatida yaxshi ochiladi."
+              - "icon": "Route"
+                "title":
+                  "en": "What shapes the visit"
+                  "ru": "Что задаёт темп"
+                  "uz": "Tashrif ritmi"
+                "description":
+                  "en": "Road approach, heat, meal timing, and walking distance shape how far the visit should go."
+                  "ru": "Подъезд, жара, время еды и длина прогулки определяют, насколько далеко стоит идти."
+                  "uz": "Yo‘l, issiq, ovqat va yurish masofasi tashrif qanchalik uzoqqa borishini belgilaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby route stops"
+      "ru": "Близкие точки маршрута"
+      "uz": "Yaqin yo‘l bekatlari"
+    "title":
+      "en": "Sentyab, Nurata, and Aydarkul around Ukhum"
+      "ru": "Сентоб, Нурата и Айдаркуль вокруг Ухума"
+      "uz": "Uhum atrofida Sentob, Nurota va Aydarko‘l"
+    "description":
+      "en": "Sentyab gives another foothill village stop; Nurata gives spring water and fortress traces; Aydarkul opens the lake and Kyzylkum road after the mountains."
+      "ru": "Сентоб даёт ещё одну предгорную сельскую остановку; Нурата — воду источника и следы крепости; Айдаркуль после гор открывает озеро и дорогу Кызылкума."
+      "uz": "Sentob yana bir tog‘oldi qishloq bekatini beradi; Nurota buloq suvi va qalʼa izlarini qo‘shadi; Aydarko‘l tog‘lardan keyin ko‘l va Qizilqum yo‘lini ochadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/ukhum-next-sentyab.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Sentob"
+          "ru": "Сентоб"
+          "uz": "Sentob"
+        "description":
+          "en": "Sentob slows the Nurata-Aydarkul road at village scale: stone walls, shaded courtyards, garden produce, and Nuratau foothill views."
+          "ru": "Сентоб замедляет дорогу Нурата-Айдаркуль в сельском масштабе: каменные стены, тенистые дворы, садовые продукты и виды предгорий Нуратау."
+          "uz": "Sentob Nurota-Aydarko‘l yo‘lini qishloq miqyosida sekinlashtiradi: tosh devorlar, soyali hovlilar, bog‘ mahsuloti va Nurota tog‘oldi manzaralari."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/sentyab"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/ukhum-next-nurata.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Nurata"
+          "ru": "Нурата"
+          "uz": "Nurota"
+        "description":
+          "en": "Nurata is the spring town before the Kyzylkum road: Chashma water, mosque shade, Nur Fortress above town, and the onward road to Aydarkul or Sentyab."
+          "ru": "Нурата — город источника перед дорогой в Кызылкум: вода Чашмы, тень мечети, крепость Нур над городом и продолжение к Айдаркулю или Сентобу."
+          "uz": "Nurota Qizilqum yo‘lidan oldingi buloq shahri: Chashma suvi, masjid soyasi, shahar ustidagi Nur qalʼasi va Aydarko‘l yoki Sentobga davom etadigan yo‘l."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/nurata"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/ukhum-next-aydarkul.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Aydarkul"
+          "ru": "Айдаркуль"
+          "uz": "Aydarko‘l"
+        "description":
+          "en": "Aydarkul is the lake stop on the Kyzylkum road: open shore, reeds in the wind, soft sand, seasonal bird movement, and a route back toward Nurata or Sentyab."
+          "ru": "Айдаркуль — озёрная остановка на дороге по Кызылкуму: открытый берег, камыш на ветру, мягкий песок, сезонное движение птиц и путь обратно к Нурате или Сентобу."
+          "uz": "Aydarko‘l Qizilqum yo‘lidagi ko‘l bekati: ochiq qirg‘oq, shamoldagi qamish, yumshoq qum, mavsumiy qushlar harakati va Nurota yoki Sentobga qaytadigan yo‘l."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/aydarkul"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Ukhum in the day plan"
+      "ru": "Как поставить Ухум в план дня"
+      "uz": "Uhumni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Ukhum?"
+          "ru": "Сколько времени группам стоит проводить в Ухум?"
+          "uz": "Uhumda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A Nuratau village of courtyard stays, old water channels, and guided petroglyph walks”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Село Нуратау с гостевыми дворами, старыми арыками и прогулками к петроглифам с гидом»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Mehmon hovlilari, eski ariqlar va petroglif yurishlari bor Nurota qishlog‘i»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Ukhum be a walkable core or a base for day trips?"
+          "ru": "Ухум — это пешеходное ядро или база для выездов?"
+          "uz": "Uhum piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Ukhum's centre?"
+          "ru": "Где лучше ночевать относительно центра Ухум?"
+          "uz": "Uhum markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/ukhum.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Ukhum stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Ухум» в программу (Узбекистан)"
+      "uz": "Uhum bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Ukhum | TourLink"
+    "ru": "Ухум | TourLink"
+    "uz": "Uhum | TourLink"
+  "metaDescription":
+    "en": "Ukhum sits on the quieter Forish side of the Nuratau foothills. The best visit begins in the village itself: a courtyard stay, old water channels, nearby petroglyph slopes, and a walking plan that respects heat, footing, and the pace of the village."
+    "ru": "Ухум лежит на более тихой, фаришской стороне предгорий Нуратау. Лучший визит начинается в самом селе: во дворе гостевого дома, у старых арыков, на соседних петроглифных склонах и в таком темпе, который учитывает жару, тропы и масштаб села."
+    "uz": "Uhum Nurota tog‘oldilarining sokinroq, Forish tomonida joylashgan. Eng yaxshi tashrif qishloqning o‘zidan boshlanadi: mehmon uyi hovlisi, eski ariqlar, yaqin petroglif yonbag‘irlari hamda issiq, so‘qmoq va qishloq ko‘lamiga mos sekin yurish bilan."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "nurata-aydarkul-and-kyzylkum"
+"latitude": 40.5214025
+"longitude": 66.7945927

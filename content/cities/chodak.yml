@@ -1,0 +1,635 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "chodak"
+  "ru": "chodak"
+  "uz": "chodak"
+"title":
+  "en": "Chodak"
+  "ru": "Чодак"
+  "uz": "Chodak"
+"subtitle":
+  "en": "A mountain village in the Chodaksoy valley"
+  "ru": "Горное село в долине Чодаксая"
+  "uz": "Chodaksoy vodiysidagi tog‘ qishlog‘i"
+"excerpt":
+  "en": "Chodak sits on the mountain side of Pop District, where the road rises toward cooler air, gardens, walnut groves, springs, and the Chodaksoy valley. In a Fergana Valley route, it belongs as a modest village pause, not as a guaranteed resort stop."
+  "ru": "Чодак лежит на горной стороне Папского района: дорога поднимается к прохладному воздуху, садам, ореховым рощам, родникам и долине Чодаксая. В маршруте по Ферганской долине это скромная сельская пауза, а не курортная остановка по умолчанию."
+  "uz": "Chodak Pop tumanining tog‘ tomonida joylashgan: yo‘l salqin havo, bog‘lar, yong‘oqzorlar, buloqlar va Chodaksoy vodiysiga ko‘tariladi. Farg‘ona vodiysi marshrutida bu doimiy kurort bekati emas, kamtar qishloq pauzasi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/chodak.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/chodak.webp"
+    "imageAlt":
+      "en": "Chodak"
+      "ru": "Чодак"
+      "uz": "Chodak"
+    "title":
+      "en": "Chodak"
+      "ru": "Чодак"
+      "uz": "Chodak"
+    "description":
+      "en": "A mountain village in the Chodaksoy valley"
+      "ru": "Горное село в долине Чодаксая"
+      "uz": "Chodaksoy vodiysidagi tog‘ qishlog‘i"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Chodak"
+      "ru": "Чодак"
+      "uz": "Chodak"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Chodak sits on the mountain side of Pop District, where the road rises toward cooler air, gardens, walnut groves, springs, and the Chodaksoy valley."
+              "ru": "Чодак лежит на горной стороне Папского района: дорога поднимается к прохладному воздуху, садам, ореховым рощам, родникам и долине Чодаксая."
+              "uz": "Chodak Pop tumanining tog‘ tomonida joylashgan: yo‘l salqin havo, bog‘lar, yong‘oqzorlar, buloqlar va Chodaksoy vodiysiga ko‘tariladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Approach Chodak through Namangan and Pop: the road sets the scale, and weather, vehicle fit, local welcome, and return time shape the stop."
+              "ru": "Подъезжайте к Чодаку через Наманган и Пап: дорога задаёт масштаб, а погода, транспорт, местный приём и возвращение формируют остановку."
+              "uz": "Chodakka Namangan va Pop orqali boring: yo‘l bekatning ko‘lamini belgilaydi, ob-havo, transport, mahalliy qabul va qaytish vaqti esa tashrif shaklini beradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Start from Namangan, pass through Pop, keep the Chodak stop compact, and pair Nanay or Chust only when the road still feels calm."
+              "ru": "Начните с Намангана, пройдите через Пап, держите остановку в Чодаке компактной и добавляйте Нанай или Чуст только когда дорога остаётся спокойной."
+              "uz": "Namangandan boshlang, Pop orqali o‘ting, Chodak bekatini ixcham tuting va Nanay yoki Chustni faqat yo‘l sokin bo‘lganda qo‘shing."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Chodak as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Чодак как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Chodak o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting there"
+      "ru": "Как добраться"
+      "uz": "Qanday boriladi"
+    "title":
+      "en": "Namangan, Pop, and the Chodak road"
+      "ru": "Наманган, Пап и дорога к Чодаку"
+      "uz": "Namangan, Pop va Chodak yo‘li"
+    "description":
+      "en": "Approach Chodak through Namangan and Pop: the road sets the scale, and weather, vehicle fit, local welcome, and return time shape the stop."
+      "ru": "Подъезжайте к Чодаку через Наманган и Пап: дорога задаёт масштаб, а погода, транспорт, местный приём и возвращение формируют остановку."
+      "uz": "Chodakka Namangan va Pop orqali boring: yo‘l bekatning ko‘lamini belgilaydi, ob-havo, transport, mahalliy qabul va qaytish vaqti esa tashrif shaklini beradi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Map orientation"
+        "ru": "Ориентир на карте"
+        "uz": "Xarita orientiri"
+      "title":
+        "en": "Approximate Chodak marker"
+        "ru": "Примерный маркер Чодака"
+        "uz": "Chodak taxminiy markeri"
+      "description":
+        "en": "The marker gives village-level orientation in Pop District. Meeting points, short walks, bridges, cableway, waterfall access, or other facilities are set locally for the date."
+        "ru": "Маркер даёт ориентир по селу Чодак в Папском районе. Места встречи, короткие прогулки, мосты, канатная дорога, водопад и другие объекты задаются под дату поездки."
+        "uz": "Marker Pop tumanidagi Chodak qishlog‘i bo‘yicha umumiy orientir beradi. Uchrashuv joylari, qisqa sayrlar, ko‘priklar, kanat yo‘li, sharshara yoki boshqa obyektlar safar sanasiga mos belgilanadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.080855
+      "longitude": 71.311901
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "chodak-local-hosting"
+      - "entityType": "attraction"
+        "entitySlug": "chodak-route-access"
+      - "entityType": "attraction"
+        "entitySlug": "chodak-status-context"
+    "aside":
+      "eyebrow":
+        "en": "Route order"
+        "ru": "Порядок маршрута"
+        "uz": "Marshrut tartibi"
+      "title":
+        "en": "Namangan, Pop, and the Chodak road"
+        "ru": "Наманган, Пап и дорога к Чодаку"
+        "uz": "Namangan, Pop va Chodak yo‘li"
+      "description":
+        "en": "Start from Namangan, pass through Pop, keep the Chodak stop compact, and pair Nanay or Chust only when the road still feels calm."
+        "ru": "Начните с Намангана, пройдите через Пап, держите остановку в Чодаке компактной и добавляйте Нанай или Чуст только когда дорога остаётся спокойной."
+        "uz": "Namangandan boshlang, Pop orqali o‘ting, Chodak bekatini ixcham tuting va Nanay yoki Chustni faqat yo‘l sokin bo‘lganda qo‘shing."
+      "items":
+        - "title":
+            "en": "Namangan"
+            "ru": "Наманган"
+            "uz": "Namangan"
+          "description":
+            "en": "City anchor for the northern Fergana Valley route and the clearest place to set timing."
+            "ru": "Городская опора северной части Ферганской долины и удобная точка для расчёта времени."
+            "uz": "Shimoliy Farg‘ona vodiysi yo‘li uchun shahar tayanchi va vaqtni belgilash uchun qulay nuqta."
+          "badge":
+            "en": "city"
+            "ru": "город"
+            "uz": "shahar"
+        - "title":
+            "en": "Pop"
+            "ru": "Пап"
+            "uz": "Pop"
+          "description":
+            "en": "District context before the mountain road begins to feel like a village approach."
+            "ru": "Районный контекст перед тем, как дорога становится горным подъездом к селу."
+            "uz": "Yo‘l tog‘ qishlog‘iga yondashuv bo‘lib sezilishidan oldingi tuman konteksti."
+          "badge":
+            "en": "district"
+            "ru": "район"
+            "uz": "tuman"
+        - "title":
+            "en": "Chodak"
+            "ru": "Чодак"
+            "uz": "Chodak"
+          "description":
+            "en": "Approximate Chodaksoy valley village marker; meeting points and walks are set for the travel date."
+            "ru": "Примерный ориентир села в долине Чодаксая; места встречи и прогулки задаются под дату поездки."
+            "uz": "Chodaksoy vodiysidagi qishloqning taxminiy belgisi; uchrashuv joylari va sayrlar safar sanasiga mos belgilanadi."
+          "badge":
+            "en": "village"
+            "ru": "село"
+            "uz": "qishloq"
+        - "title":
+            "en": "Nanay"
+            "ru": "Нанай"
+            "uz": "Nanay"
+          "description":
+            "en": "A nearby mountain-side tourism village to pair only when weather, road time, and return stay calm."
+            "ru": "Близкое горное туристическое село, которое стоит добавлять только при спокойной погоде, дороге и возвращении."
+            "uz": "Ob-havo, yo‘l vaqti va qaytish sokin bo‘lgandagina qo‘shiladigan yaqin tog‘ tomoni turizm qishlog‘i."
+          "badge":
+            "en": "nearby option"
+            "ru": "рядом"
+            "uz": "yaqin variant"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Chodak context"
+      "ru": "Контекст Чодака"
+      "uz": "Chodak konteksti"
+    "title":
+      "en": "Status, road, and local welcome"
+      "ru": "Статус, дорога и местный приём"
+      "uz": "Maqom, yo‘l va mahalliy qabul"
+    "description":
+      "en": "These three Chodak guide points keep the village readable: why it belongs in the route, how the road reaches it, and what local details need to be set before arrival."
+      "ru": "Эти три ориентира по Чодаку держат село понятным: зачем оно входит в маршрут, как к нему ведёт дорога и какие местные детали задаются до приезда."
+      "uz": "Bu uch Chodak yo‘riqi qishloqni tushunarli tutadi: u nega marshrutga kiradi, yo‘l qanday boradi va mahalliy tafsilotlar kelishdan oldin qanday belgilanadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/chodak/attractions/chodak-status-context.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Chodak tourism-village status"
+          "ru": "Статус туристического села Чодак"
+          "uz": "Chodak turizm qishlog‘i maqomi"
+        "description":
+          "en": "The status gives Chodak a clear place on the tourism map, but the visit should still begin with the village itself: mountain air, the Chodaksoy valley, gardens, springs, and local welcome."
+          "ru": "Статус даёт Чодаку понятное место на туристической карте, но визит всё равно должен начинаться с самого села: горного воздуха, долины Чодаксая, садов, родников и местного приёма."
+          "uz": "Maqom Chodakka turizm xaritasida aniq o‘rin beradi, lekin tashrif baribir qishloqning o‘zidan boshlanishi kerak: tog‘ havosi, Chodaksoy vodiysi, bog‘lar, buloqlar va mahalliy qabul."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/chodak/chodak-status-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/chodak/attractions/chodak-route-access.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Road to Chodak"
+          "ru": "Дорога к Чодаку"
+          "uz": "Chodakka yo‘l"
+        "description":
+          "en": "Chodak should be read through the road, not only through the map point. Namangan sets the timing, Pop gives the district frame, and the mountain approach decides how calm the village stop can feel."
+          "ru": "Чодак стоит читать через дорогу, а не только через точку на карте. Наманган задаёт время, Пап — районную рамку, а горный подъезд показывает, насколько спокойной может быть сельская остановка."
+          "uz": "Chodakni faqat xarita nuqtasi bilan emas, yo‘l orqali o‘qish kerak. Namangan vaqtni beradi, Pop tuman ramkasini belgilaydi, tog‘ yondashuvi esa qishloq bekati qanchalik sokin sezilishini ko‘rsatadi."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/chodak/chodak-route-access"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/chodak/attractions/chodak-local-hosting.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Local welcome in Chodak"
+          "ru": "Местный приём в Чодаке"
+          "uz": "Chodakdagi mahalliy qabul"
+        "description":
+          "en": "Chodak is strongest when the welcome stays small and real. A cup of tea, a simple meal, a short walk, or a conversation can give the stop human scale, but only when that meeting is genuinely arranged for the date."
+          "ru": "Чодак сильнее всего, когда приём остаётся небольшим и настоящим. Чашка чая, простая еда, короткая прогулка или разговор дают остановке человеческий масштаб, но только если такая встреча действительно согласована на дату поездки."
+          "uz": "Chodak qabul kichik va haqiqiy bo‘lganda kuchliroq. Bir piyola choy, oddiy taom, qisqa sayr yoki suhbat bekatga insoniy o‘lcham beradi, lekin faqat bunday uchrashuv safar sanasiga kelishilganda."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/chodak/chodak-local-hosting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Village moments"
+      "ru": "Сельские моменты"
+      "uz": "Qishloq lahzalari"
+    "title":
+      "en": "How Chodak can feel"
+      "ru": "Как может ощущаться Чодак"
+      "uz": "Chodak qanday sezilishi mumkin"
+    "description":
+      "en": "Six small moments give the stop human scale: arriving through Pop, valley air, a simple table, a short pause, local welcome, and an unhurried return."
+      "ru": "Шесть небольших моментов дают остановке человеческий масштаб: въезд через Пап, воздух долины, простой стол, короткая пауза, местный приём и спокойное возвращение."
+      "uz": "Oltita kichik lahza bekatga insoniy o‘lcham beradi: Pop orqali kirish, vodiy havosi, oddiy dasturxon, qisqa to‘xtash, mahalliy qabul va shoshilmagan qaytish."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Arrive through Pop"
+          "ru": "Въезд через Пап"
+          "uz": "Pop orqali kirish"
+        "description":
+          "en": "The road through Namangan and Pop slows the route before Chodak: a mountain-village stop, not a rushed add-on."
+          "ru": "Дорога через Наманган и Пап замедляет маршрут перед Чодаком: это горное село, а не спешное дополнение."
+          "uz": "Namangan va Pop orqali yo‘l Chodakdan oldin marshrutni sokinlashtiradi: bu shoshilinch qo‘shimcha emas, tog‘ qishlog‘i bekati."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "2024 tourism-village status"
+          "ru": "Статус туристического села с 2024 года"
+          "uz": "2024-yildagi turizm qishlog‘i maqomi"
+        "description":
+          "en": "The status points back to the village itself: Chodaksoy air, gardens, springs, and arrangements set for the date."
+          "ru": "Статус возвращает внимание к самому селу: воздуху Чодаксая, садам, родникам и договорённостям на дату поездки."
+          "uz": "Maqom e’tiborni qishloqning o‘ziga qaytaradi: Chodaksoy havosi, bog‘lar, buloqlar va safar sanasiga kelishilgan tafsilotlar."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Tea by the mountain road"
+          "ru": "Чай у горной дороги"
+          "uz": "Tog‘ yo‘li yonida choy"
+        "description":
+          "en": "A simple tea or meal gives the stop human scale when it has been arranged for that travel date."
+          "ru": "Простой чай или еда дают остановке человеческий масштаб, когда такая встреча согласована на дату поездки."
+          "uz": "Oddiy choy yoki taom safar sanasiga kelishilganda bekatga insoniy o‘lcham beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Chodaksoy valley pause"
+          "ru": "Пауза в долине Чодаксая"
+          "uz": "Chodaksoy vodiysida to‘xtash"
+        "description":
+          "en": "Cooler air, gardens, walnut groves, and the river valley give Chodak its clearest short-stop feeling."
+          "ru": "Прохладный воздух, сады, ореховые рощи и речная долина дают Чодаку самое ясное ощущение короткой остановки."
+          "uz": "Salqin havo, bog‘lar, yong‘oqzorlar va daryo vodiysi Chodakka eng aniq qisqa bekat hissini beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Local welcome, set for the date"
+          "ru": "Местный приём на дату поездки"
+          "uz": "Safar sanasiga kelishilgan mahalliy qabul"
+        "description":
+          "en": "Meals, walks, and development sites belong in the route only when they are open, appropriate, and current."
+          "ru": "Еда, прогулки и новые объекты входят в маршрут только когда они открыты, уместны и актуальны."
+          "uz": "Ovqat, sayr va rivojlanayotgan obyektlar faqat ochiq, mos va joriy bo‘lganda marshrutga kiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Return with road margin"
+          "ru": "Возвращение с запасом"
+          "uz": "Yo‘lga zaxira bilan qaytish"
+        "description":
+          "en": "A calm Chodak stop keeps enough time for weather, the mountain road, and the return toward Namangan, Nanay, or Chust."
+          "ru": "Спокойная остановка в Чодаке оставляет время на погоду, горную дорогу и возвращение к Намангану, Нанаю или Чусту."
+          "uz": "Sokin Chodak bekati ob-havo, tog‘ yo‘li va Namangan, Nanay yoki Chust tomonga qaytish uchun vaqt qoldiradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "Keep Chodak modest and well timed"
+      "ru": "Держать Чодак скромным и хорошо рассчитанным"
+      "uz": "Chodakni kamtar va vaqtiga mos tuting"
+    "description":
+      "en": "Chodak is strongest as a real mountain-village pause: Chodaksoy valley air, gardens, springs, and local welcome first; development projects only when they fit the date."
+      "ru": "Чодак сильнее всего как настоящая горная сельская пауза: воздух долины Чодаксая, сады, родники и местный приём сначала; проекты и объекты — только когда они подходят к дате поездки."
+      "uz": "Chodakning kuchi haqiqiy tog‘ qishlog‘i pauzasida: avval Chodaksoy vodiysi havosi, bog‘lar, buloqlar va mahalliy qabul; loyihalar va obyektlar esa faqat safar sanasiga mos bo‘lganda."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "What you notice"
+              "ru": "Что создаёт остановку"
+              "uz": "Nimani sezish kerak"
+            "description":
+              "en": "Let the place lead: cooler air, the Chodaksoy valley, gardens, springs, walnut groves, and mountain-village life are stronger than a list of projects."
+              "ru": "Пусть место говорит само: прохладный воздух, долина Чодаксая, сады, родники, ореховые рощи и сельская жизнь важнее списка проектов."
+              "uz": "Joyning o‘zi gapirsin: salqin havo, Chodaksoy vodiysi, bog‘lar, buloqlar, yong‘oqzorlar va tog‘ qishlog‘i hayoti loyihalar ro‘yxatidan kuchliroq."
+          - "type": "quote"
+            "quote":
+              "en": "Chodak should feel like a living mountain village, not a checklist of facilities."
+              "ru": "Чодак должен ощущаться живым горным селом, а не списком объектов."
+              "uz": "Chodak obyektlar ro‘yxati emas, jonli tog‘ qishlog‘i bo‘lib sezilishi kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Route fit"
+              "ru": "Роль в маршруте"
+              "uz": "Marshrutdagi o‘rni"
+            "description":
+              "en": "Chodak belongs after Namangan and Pop when the route has time for a rural mountain stop. Add Nanay or Chust only if the return remains unhurried."
+              "ru": "Чодак уместен после Намангана и Папа, когда в маршруте есть время для сельской горной остановки. Нанай или Чуст добавляйте только если возвращение остаётся спокойным."
+              "uz": "Chodak Namangan va Popdan keyin, marshrutda tog‘ qishlog‘i bekati uchun vaqt bo‘lganda mos keladi. Nanay yoki Chustni faqat qaytish shoshilinch bo‘lmasa qo‘shing."
+          - "type": "dashTitle"
+            "title":
+              "en": "Before travel"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "description":
+              "en": "Set the road, vehicle, meeting point, welcome, meal, and any recreation detail before the stop becomes part of the journey."
+              "ru": "Сложите дорогу, транспорт, место встречи, приём, питание и рекреационные детали до того, как остановка войдёт в путешествие."
+              "uz": "Yo‘l, transport, uchrashuv joyi, qabul, ovqat va dam olish tafsilotlarini bekat sayohatga kirishidan oldin bir joyga keltiring."
+          - "type": "alert"
+            "title":
+              "en": "When it belongs"
+              "ru": "Когда уместен"
+              "uz": "Qachon mos keladi"
+            "description":
+              "en": "Choose Chodak when the route has time for a careful Pop District mountain-village stop."
+              "ru": "Выбирайте Чодак, когда в маршруте есть время для аккуратной горной сельской остановки."
+              "uz": "Chodakni Pop tumanidagi ehtiyotkor tog‘ qishlog‘i bekati uchun vaqt bo‘lganda tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Status"
+                  "ru": "Коротко Статус"
+                  "uz": "Qisqacha Maqom"
+                "description":
+                  "en": "Tourism village - Pop District."
+                  "ru": "Туристическое село - Папский район."
+                  "uz": "Turizm qishlog‘i - Pop tumani."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Why go"
+                  "ru": "Зачем ехать"
+                  "uz": "Nega boriladi"
+                "description":
+                  "en": "Chodaksoy valley air, gardens, walnut groves, springs, tourism-village status, and local welcome when it is arranged for the date."
+                  "ru": "Воздух долины Чодаксая, сады, ореховые рощи, родники, статус туристического села и местный приём на дату поездки."
+                  "uz": "Chodaksoy vodiysi havosi, bog‘lar, yong‘oqzorlar, buloqlar, turizm qishlog‘i maqomi va safar sanasiga mos mahalliy qabul."
+              - "icon": "Sun"
+                "title":
+                  "en": "Route logic"
+                  "ru": "Маршрут"
+                  "uz": "Marshrut"
+                "description":
+                  "en": "A modest Namangan-side rural stop, often paired with Pop, Nanay, or Chust when timing is calm."
+                  "ru": "Скромная сельская остановка со стороны Намангана, часто вместе с Папом, Нанаем или Чустом при спокойном времени."
+                  "uz": "Namangan tomondagi kamtar qishloq bekati; vaqt sokin bo‘lsa Pop, Nanay yoki Chust bilan birga."
+              - "icon": "Route"
+                "title":
+                  "en": "Date-sensitive details"
+                  "ru": "Детали на дату"
+                  "uz": "Sanaga bog‘liq tafsilotlar"
+                "description":
+                  "en": "Chodak feels best when the road, weather, meeting point, local welcome, and return time are shaped before departure."
+                  "ru": "Чодак ощущается лучше, когда дорога, погода, место встречи, местный приём и возвращение сложены до выезда."
+                  "uz": "Chodak yo‘l, ob-havo, uchrashuv joyi, mahalliy qabul va qaytish vaqti jo‘nashdan oldin bir rejaga tushganda yaxshiroq seziladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby stops"
+      "ru": "Соседние остановки"
+      "uz": "Yaqin bekatlar"
+    "title":
+      "en": "Nearby route choices"
+      "ru": "Ближайшие варианты маршрута"
+      "uz": "Yaqin marshrut variantlari"
+    "description":
+      "en": "Namangan is the practical city anchor. Nanay and Chust can extend the northern valley route when road time and local arrangements stay calm."
+      "ru": "Наманган — практичная городская опора. Нанай и Чуст могут продолжить северный маршрут, если дорога и местные договорённости остаются спокойными."
+      "uz": "Namangan amaliy shahar tayanchi. Yo‘l va mahalliy kelishuvlar sokin bo‘lsa, Nanay va Chust shimoliy vodiy marshrutini davom ettirishi mumkin."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/chodak-next-namangan.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Namangan"
+          "ru": "Наманган"
+          "uz": "Namangan"
+        "description":
+          "en": "Namangan is the Valley's northern flower-city stop: Babur Park, seasonal color, Mullah-Kyrgyz heritage, and onward roads toward Chust, Andijan, or Akhsikent."
+          "ru": "Наманган — цветочная остановка северной части долины: парк Бабура, сезонный цвет, наследие Мулла-Киргиз и дороги к Чусту, Андижану или Ахсикенту."
+          "uz": "Namangan vodiyning shimoliy gul-shahar toʻxtashi: Bobur bogʻi, mavsumiy rang, Mulla Qirgʻiz merosi hamda Chust, Andijon yoki Axsikent tomonga yoʻllar."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/namangan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Nanay"
+          "ru": "Нанай"
+          "uz": "Nanay"
+        "description":
+          "en": "Nanay is an official tourism village in Yangiqo‘rg‘on District, where mountain air, local hospitality, craft and folklore context, and the road from Namangan can shape a modest rural stop."
+          "ru": "Нанай — официальное туристическое село Янгикурганского района: горный воздух, местное гостеприимство, ремёсла, фольклор и дорога из Намангана дают маршруту небольшую сельскую остановку."
+          "uz": "Nanay — Yangiqo‘rg‘on tumanidagi rasmiy turizm qishlog‘i; tog‘ havosi, mehmondo‘stlik, hunarmandchilik va folklor muhiti hamda Namangandan keladigan yo‘l unga sokin qishloq bekati sifatida qiymat beradi."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/nanay"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/chodak-next-chust.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Chust"
+          "ru": "Чуст"
+          "uz": "Chust"
+        "description":
+          "en": "Chust adds a careful craft stop to the northern Fergana Valley: pichoq knives, doʻppi embroidery, and a Namangan-side route that makes sense only when real workshop access is checked."
+          "ru": "Чуст добавляет к северной части Ферганской долины аккуратную ремесленную остановку: ножи-пичак, вышивку доппи и маршрут через Наманган, который имеет смысл только при проверенном доступе."
+          "uz": "Chust shimoliy Fargʻona vodiysiga ehtiyotkor hunarmandchilik bekatini qoʻshadi: pichoq, doʻppi kashtasi va Namangan orqali yoʻl, faqat haqiqiy ustaxona kirishi tekshirilganda."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/chust"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Chodak in the day plan"
+      "ru": "Как поставить Чодак в план дня"
+      "uz": "Chodakni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Chodak?"
+          "ru": "Сколько времени группам стоит проводить в Чодак?"
+          "uz": "Chodakda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A mountain village in the Chodaksoy valley”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Горное село в долине Чодаксая»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Chodaksoy vodiysidagi tog‘ qishlog‘i»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Chodak be a walkable core or a base for day trips?"
+          "ru": "Чодак — это пешеходное ядро или база для выездов?"
+          "uz": "Chodak piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Chodak's centre?"
+          "ru": "Где лучше ночевать относительно центра Чодак?"
+          "uz": "Chodak markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/chodak.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Chodak stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Чодак» в программу (Узбекистан)"
+      "uz": "Chodak bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Chodak | TourLink"
+    "ru": "Чодак | TourLink"
+    "uz": "Chodak | TourLink"
+  "metaDescription":
+    "en": "Chodak sits on the mountain side of Pop District, where the road rises toward cooler air, gardens, walnut groves, springs, and the Chodaksoy valley. In a Fergana Valley route, it belongs as a modest village pause, not as a guaranteed resort stop."
+    "ru": "Чодак лежит на горной стороне Папского района: дорога поднимается к прохладному воздуху, садам, ореховым рощам, родникам и долине Чодаксая. В маршруте по Ферганской долине это скромная сельская пауза, а не курортная остановка по умолчанию."
+    "uz": "Chodak Pop tumanining tog‘ tomonida joylashgan: yo‘l salqin havo, bog‘lar, yong‘oqzorlar, buloqlar va Chodaksoy vodiysiga ko‘tariladi. Farg‘ona vodiysi marshrutida bu doimiy kurort bekati emas, kamtar qishloq pauzasi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "fergana-valley"
+"latitude": 40.9361668
+"longitude": 70.7751641

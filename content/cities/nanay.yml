@@ -1,0 +1,635 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "nanay"
+  "ru": "nanay"
+  "uz": "nanay"
+"title":
+  "en": "Nanay"
+  "ru": "Нанай"
+  "uz": "Nanay"
+"subtitle":
+  "en": "A Namangan mountain-side tourism village with clean air, local culture, and a slower road"
+  "ru": "Туристическое село на горной стороне Намангана, где важны воздух, местная культура и спокойная дорога"
+  "uz": "Namangan tog‘ tomonidagi turizm qishlog‘i: toza havo, mahalliy madaniyat va sokin yo‘l"
+"excerpt":
+  "en": "Nanay sits on the mountain side of Namangan Region, where the Fergana Valley road leaves the larger city rhythm for cleaner air, village hospitality, and local culture. It belongs in a route as a modest tourism-village stop when the road, local welcome, and return timing are current."
+  "ru": "Нанай расположен на горной стороне Наманганской области, там, где маршрут по Ферганской долине уходит от городского ритма к чистому воздуху, сельскому гостеприимству и местной культуре. В маршруте это небольшая остановка туристического села, которую стоит включать, когда дорога, местный приём и время возвращения актуальны."
+  "uz": "Nanay Namangan viloyatining tog‘ tomonida joylashgan. Bu yerda Farg‘ona vodiysi yo‘li katta shahar sur’atidan chiqib, toza havo, qishloq mehmondo‘stligi va mahalliy madaniyatga yaqinlashadi. Yo‘nalishda Nanay kichik turizm qishlog‘i bekati sifatida yo‘l, mahalliy qabul va qaytish vaqti joriy bo‘lganda yaxshi ochiladi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/nanay.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/nanay.webp"
+    "imageAlt":
+      "en": "Nanay"
+      "ru": "Нанай"
+      "uz": "Nanay"
+    "title":
+      "en": "Nanay"
+      "ru": "Нанай"
+      "uz": "Nanay"
+    "description":
+      "en": "A Namangan mountain-side tourism village with clean air, local culture, and a slower road"
+      "ru": "Туристическое село на горной стороне Намангана, где важны воздух, местная культура и спокойная дорога"
+      "uz": "Namangan tog‘ tomonidagi turizm qishlog‘i: toza havo, mahalliy madaniyat va sokin yo‘l"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Nanay"
+      "ru": "Нанай"
+      "uz": "Nanay"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Nanay sits on the mountain side of Namangan Region, where the Fergana Valley road leaves the larger city rhythm for cleaner air, village hospitality, and local culture."
+              "ru": "Нанай расположен на горной стороне Наманганской области, там, где маршрут по Ферганской долине уходит от городского ритма к чистому воздуху, сельскому гостеприимству и местной культуре."
+              "uz": "Nanay Namangan viloyatining tog‘ tomonida joylashgan."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Start from Namangan, read Yangiqo‘rg‘on as the district reference, and keep Nanay compact enough to pair with Chodak or a return toward Chust."
+              "ru": "Начинайте с Намангана, держите Янгикурган как районный ориентир и оставляйте Нанай компактной остановкой, которую можно сочетать с Чодаком или возвращением к Чусту."
+              "uz": "Yo‘lni Namangandan boshlang, Yangiqo‘rg‘onni tuman orientiri sifatida oling va Nanayni Chodak yoki Chust tomonga qaytish bilan uyg‘unlashadigan ixcham bekat qiling."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The village stop works best when the road, weather, local welcome, and return plan are clear before departure."
+              "ru": "Сельская остановка работает лучше, когда дорога, погода, местный приём и обратный план понятны до выезда."
+              "uz": "Qishloq bekati yo‘l, ob-havo, mahalliy qabul va qaytish rejasi yo‘lga chiqishdan oldin aniq bo‘lganda yaxshiroq ishlaydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Nanay as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Нанай как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Nanay o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как ориентироваться"
+      "uz": "Yo‘lni tushunish"
+    "title":
+      "en": "Namangan, Yangiqo‘rg‘on, and the road to Nanay"
+      "ru": "Наманган, Янгикурган и дорога к Нанаю"
+      "uz": "Namangan, Yangiqo‘rg‘on va Nanay yo‘li"
+    "description":
+      "en": "Start from Namangan, read Yangiqo‘rg‘on as the district reference, and keep Nanay compact enough to pair with Chodak or a return toward Chust."
+      "ru": "Начинайте с Намангана, держите Янгикурган как районный ориентир и оставляйте Нанай компактной остановкой, которую можно сочетать с Чодаком или возвращением к Чусту."
+      "uz": "Yo‘lni Namangandan boshlang, Yangiqo‘rg‘onni tuman orientiri sifatida oling va Nanayni Chodak yoki Chust tomonga qaytish bilan uyg‘unlashadigan ixcham bekat qiling."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route orientation"
+        "ru": "Ориентир маршрута"
+        "uz": "Yo‘nalish belgisi"
+      "title":
+        "en": "Find Nanay from Namangan"
+        "ru": "Где находится Нанай от Намангана"
+        "uz": "Nanay Namangandan qayerda"
+      "description":
+        "en": "The marker is approximate and helps place Nanay in the northern Fergana Valley route. Confirm the exact meeting point locally."
+        "ru": "Отметка примерная и помогает понять место Наная в северной части маршрута по Ферганской долине. Точное место встречи подтвердите на месте."
+        "uz": "Belgi taxminiy bo‘lib, Nanayning Farg‘ona vodiysi shimolidagi yo‘nalishdagi o‘rnini tushunishga yordam beradi. Aniq uchrashuv joyini mahalliy tomondan tasdiqlang."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.186735
+      "longitude": 71.466016
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "nanay-local-hosting"
+      - "entityType": "attraction"
+        "entitySlug": "nanay-route-access"
+      - "entityType": "attraction"
+        "entitySlug": "nanay-status-context"
+    "aside":
+      "eyebrow":
+        "en": "Route rhythm"
+        "ru": "Ритм маршрута"
+        "uz": "Marshrut ritmi"
+      "title":
+        "en": "How Nanay fits the northern valley road"
+        "ru": "Как Нанай встраивается в северную дорогу долины"
+        "uz": "Nanay vodiyning shimoliy yo‘liga qanday qo‘shiladi"
+      "description":
+        "en": "The village stop works best when the road, weather, local welcome, and return plan are clear before departure."
+        "ru": "Сельская остановка работает лучше, когда дорога, погода, местный приём и обратный план понятны до выезда."
+        "uz": "Qishloq bekati yo‘l, ob-havo, mahalliy qabul va qaytish rejasi yo‘lga chiqishdan oldin aniq bo‘lganda yaxshiroq ishlaydi."
+      "items":
+        - "title":
+            "en": "Namangan"
+            "ru": "Наманган"
+            "uz": "Namangan"
+          "description":
+            "en": "City anchor for timing, vehicle planning, and the northern Fergana Valley setting."
+            "ru": "Городская опора для времени, транспорта и северной части маршрута по Ферганской долине."
+            "uz": "Vaqt, transport va Farg‘ona vodiysining shimoliy yo‘nalishi uchun shahar tayanchi."
+          "badge":
+            "en": "city"
+            "ru": "город"
+            "uz": "shahar"
+        - "title":
+            "en": "Yangiqo‘rg‘on District"
+            "ru": "Янгикурганский район"
+            "uz": "Yangiqo‘rg‘on tumani"
+          "description":
+            "en": "District context before the road becomes more rural toward Nanay."
+            "ru": "Районный контекст перед более сельским участком дороги к Нанаю."
+            "uz": "Nanay tomonga yo‘l qishloqroq tus olishidan oldingi tuman konteksti."
+          "badge":
+            "en": "district"
+            "ru": "район"
+            "uz": "tuman"
+        - "title":
+            "en": "Nanay"
+            "ru": "Нанай"
+            "uz": "Nanay"
+          "description":
+            "en": "Approximate village marker for Nanay orientation; confirm the exact meeting point locally."
+            "ru": "Ориентировочная отметка села Нанай; точное место встречи подтвердите на месте."
+            "uz": "Nanay bo‘yicha taxminiy qishloq belgisi; aniq uchrashuv joyini mahalliy tomondan tasdiqlang."
+          "badge":
+            "en": "village"
+            "ru": "село"
+            "uz": "qishloq"
+        - "title":
+            "en": "Chodak"
+            "ru": "Чодак"
+            "uz": "Chodak"
+          "description":
+            "en": "Possible mountain-side continuation when road timing, weather, and local arrangements stay calm."
+            "ru": "Возможное продолжение в сторону гор, когда время дороги, погода и местные договорённости спокойны."
+            "uz": "Yo‘l vaqti, ob-havo va mahalliy kelishuvlar sokin bo‘lganda tog‘ tomonga mumkin bo‘lgan davom."
+          "badge":
+            "en": "continue"
+            "ru": "дальше"
+            "uz": "davom"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What shapes Nanay"
+      "ru": "Что формирует Нанай"
+      "uz": "Nanayni tushuntiradigan jihatlar"
+    "title":
+      "en": "Status, road, and local welcome"
+      "ru": "Статус, дорога и местный приём"
+      "uz": "Maqom, yo‘l va mahalliy mehmondo‘stlik"
+    "description":
+      "en": "These three Nanay guides belong together: why the village is in scope, how the road reaches it, and what local arrangements make the stop feel human."
+      "ru": "Эти три ориентира по Нанаю работают вместе: почему село входит в маршрут, как к нему подъехать и какие местные договорённости делают остановку живой."
+      "uz": "Bu uch Nanay yo‘riqnomasi birga o‘qiladi: qishloq nega yo‘nalishga kiradi, unga qanday boriladi va qaysi mahalliy kelishuvlar to‘xtashni jonli qiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Nanay tourism-village status"
+          "ru": "Статус туристического села Нанай"
+          "uz": "Nanay turizm qishlog‘i maqomi"
+        "description":
+          "en": "Nanay’s tourism-village status should point travelers toward a real village setting, not a large attraction claim. Read the status through the air, the mountain-side road, local hospitality, and the pace of the community."
+          "ru": "Статус туристического села должен вести путешественника к настоящей сельской среде, а не к образу большой достопримечательности. Читайте этот статус через воздух, дорогу со стороны гор, местное гостеприимство и темп общины."
+          "uz": "Nanayning turizm qishlog‘i maqomi sayohatchini katta obyektga emas, haqiqiy qishloq muhitiga olib borishi kerak. Bu maqomni havo, tog‘ tomondagi yo‘l, mahalliy mehmondo‘stlik va jamoa sur’ati orqali o‘qing."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/nanay/nanay-status-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Road to Nanay"
+          "ru": "Дорога к Нанаю"
+          "uz": "Nanay yo‘li"
+        "description":
+          "en": "Nanay makes sense when the road is treated as part of the visit. Start with Namangan, let Yangiqo‘rg‘on set the district orientation, and leave enough time for the village stop and return."
+          "ru": "Нанай имеет смысл, когда дорога воспринимается как часть визита. Начинайте с Намангана, держите Янгикурган как районный ориентир и оставляйте время на сельскую остановку и возвращение."
+          "uz": "Nanay yo‘l tashrifning bir qismi sifatida qabul qilinganda ma’noli bo‘ladi. Namangandan boshlang, Yangiqo‘rg‘onni tuman orientiri qiling va qishloq bekati hamda qaytish uchun vaqt qoldiring."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/nanay/nanay-route-access"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Local welcome in Nanay"
+          "ru": "Местный приём в Нанае"
+          "uz": "Nanaydagi mahalliy mehmondo‘stlik"
+        "description":
+          "en": "Nanay should not promise a staged program unless the details are real for the travel date. When tea, simple food, craft context, folklore, or a local conversation is confirmed, the village stop becomes warmer and more memorable."
+          "ru": "Нанай не должен обещать постановочную программу, если детали не подтверждены на дату поездки. Когда чай, простая еда, ремесленный или фольклорный контекст либо местный разговор действительно согласованы, сельская остановка становится теплее и лучше запоминается."
+          "uz": "Nanayda tafsilotlar safar sanasiga tasdiqlanmagan bo‘lsa, sahnalashtirilgan dastur va’da qilinmasligi kerak. Choy, oddiy ovqat, hunarmandchilik yoki folklor konteksti, yoki mahalliy suhbat tasdiqlanganda qishloq bekati iliqroq va esda qolarliroq bo‘ladi."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/nanay/nanay-local-hosting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Village moments"
+      "ru": "Сельские моменты"
+      "uz": "Qishloq lahzalari"
+    "title":
+      "en": "How Nanay can feel"
+      "ru": "Как может ощущаться Нанай"
+      "uz": "Nanay qanday sezilishi mumkin"
+    "description":
+      "en": "Six small moments keep the stop grounded in the village itself rather than turning it into a checklist."
+      "ru": "Шесть небольших моментов помогают оставить остановку живой и сельской, а не превращать её в список проверок."
+      "uz": "Olti kichik lahza Nanayni ro‘yxat emas, haqiqiy qishloq to‘xtashi sifatida saqlaydi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Arrive through Namangan"
+          "ru": "Въезд через Наманган"
+          "uz": "Namangan orqali kirish"
+        "description":
+          "en": "From Namangan, the road toward Yangiqo‘rg‘on sets up Nanay as a smaller mountain-side stop, not a rushed detour."
+          "ru": "Дорога через Наманган и Янгикурган задаёт Нанаю правильный масштаб: небольшая сельская остановка, а не спешный объезд."
+          "uz": "Namangan va Yangiqo‘rg‘on orqali yo‘l Nanayni kichik qishloq bekati sifatida ko‘rsatadi, shoshilinch aylanma yo‘l emas."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Tourism-village status"
+          "ru": "Статус туристического села"
+          "uz": "Turizm qishlog‘i maqomi"
+        "description":
+          "en": "Nanay’s official status is useful when the visit shows the village setting itself: mountain air, local culture, and modest hospitality."
+          "ru": "Официальный статус Наная важен тогда, когда визит показывает само село: горный воздух, местную культуру и скромное гостеприимство."
+          "uz": "Nanayning rasmiy maqomi tashrif qishloq muhitini ko‘rsatsa foydali: tog‘ havosi, mahalliy madaniyat va sodda mehmondo‘stlik."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Tea or a simple table"
+          "ru": "Чай или простой стол"
+          "uz": "Choy yoki oddiy dasturxon"
+        "description":
+          "en": "A locally arranged meal or tea can make the stop warmer when it stays modest and tied to the village rhythm."
+          "ru": "Заранее согласованный чай или простая еда делают остановку теплее, если формат остаётся скромным и связанным с жизнью села."
+          "uz": "Mahalliy kelishilgan choy yoki sodda ovqat to‘xtashni iliqroq qiladi, agar u qishloq ritmiga bog‘liq va kamtar bo‘lsa."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Village air and a short pause"
+          "ru": "Сельский воздух и короткая пауза"
+          "uz": "Qishloq havosi va qisqa to‘xtash"
+        "description":
+          "en": "Clean air, mountain scenery, and an unhurried walk give Nanay its value between Namangan and the next valley road."
+          "ru": "Чистый воздух, горный пейзаж и неспешная прогулка дают Нанаю ценность между Наманганом и следующей дорогой по долине."
+          "uz": "Toza havo, tog‘ manzarasi va shoshilmagan sayr Nanayga Namangan bilan keyingi vodiy yo‘li orasida qiymat beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Local welcome details"
+          "ru": "Детали местного приёма"
+          "uz": "Mahalliy qabul tafsilotlari"
+        "description":
+          "en": "Local reception belongs here only when the date, place, and welcome are confirmed before the route starts."
+          "ru": "Местный приём уместен здесь только тогда, когда дата, место и формат подтверждены до начала маршрута."
+          "uz": "Mahalliy qabul faqat sana, joy va format yo‘l boshlanishidan oldin tasdiqlanganda mos keladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Return without rushing"
+          "ru": "Возвращение без спешки"
+          "uz": "Shoshilmasdan qaytish"
+        "description":
+          "en": "Keep enough time for the road back toward Namangan, Chust, or Chodak so the village stop stays calm."
+          "ru": "Оставьте достаточно времени на дорогу обратно к Намангану, Чусту или Чодаку, чтобы сельская остановка оставалась спокойной."
+          "uz": "Qishloq bekati sokin qolishi uchun Namangan, Chust yoki Chodak tomonga qaytish yo‘liga yetarli vaqt qoldiring."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safar oldidan"
+    "title":
+      "en": "Keep Nanay modest and well timed"
+      "ru": "Оставьте Нанай спокойной и точной остановкой"
+      "uz": "Nanayni sokin va aniq rejalangan bekat qiling"
+    "description":
+      "en": "Nanay is strongest when it stays a real village pause in Namangan Region: mountain air, local culture, and hospitality first, with practical details agreed before the route begins."
+      "ru": "Нанай сильнее всего работает как настоящая сельская пауза в Наманганской области: сначала горный воздух, местная культура и гостеприимство, а практические детали согласованы заранее."
+      "uz": "Nanay Namangan viloyatidagi haqiqiy qishloq pauzasi bo‘lganda eng yaxshi ochiladi: avval tog‘ havosi, mahalliy madaniyat va mehmondo‘stlik, amaliy tafsilotlar esa oldindan kelishilgan."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "What you notice"
+              "ru": "Что заметно"
+              "uz": "Nima seziladi"
+            "description":
+              "en": "The strongest details are simple: mountain scenery, clean air, village hospitality, and the way Nanay shifts the route away from the city pace."
+              "ru": "Самые сильные детали простые: горный пейзаж, чистый воздух, сельское гостеприимство и переход маршрута от городского темпа к более тихому."
+              "uz": "Eng kuchli tafsilotlar sodda: tog‘ manzarasi, toza havo, qishloq mehmondo‘stligi va yo‘lning shahar sur’atidan sokinroq muhitga o‘tishi."
+          - "type": "quote"
+            "quote":
+              "en": "Nanay should feel like a real village pause: clean air, local welcome, and a road plan that stays calm."
+              "ru": "Нанай должен ощущаться как настоящая сельская пауза: чистый воздух, местный приём и спокойный дорожный план."
+              "uz": "Nanay haqiqiy qishloq pauzasi bo‘lib sezilishi kerak: toza havo, mahalliy qabul va sokin yo‘l rejasi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Route fit"
+              "ru": "Как вписать в маршрут"
+              "uz": "Yo‘nalishga mosligi"
+            "description":
+              "en": "Nanay works best from Namangan through Yangiqo‘rg‘on, with time to reach the village, meet local people if arranged, and return without rushing."
+              "ru": "Нанай лучше всего работает из Намангана через Янгикурган, с временем на дорогу, встречу с местными людьми, если она согласована, и спокойное возвращение."
+              "uz": "Nanay Namangandan Yangiqo‘rg‘on orqali, qishloqqa yetish, kelishilgan bo‘lsa mahalliy odamlar bilan uchrashish va shoshilmasdan qaytish uchun vaqt bo‘lganda yaxshi ishlaydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Before travel"
+              "ru": "Перед поездкой"
+              "uz": "Safar oldidan"
+            "description":
+              "en": "Confirm the meeting point, local welcome, meal, road timing, and weather before Nanay becomes part of a guest route."
+              "ru": "Подтвердите место встречи, местный приём, простой стол, время дороги и погоду до включения Наная в гостевой маршрут."
+              "uz": "Nanayni mehmon yo‘nalishiga qo‘shishdan oldin uchrashuv joyi, mahalliy qabul, dasturxon, yo‘l vaqti va ob-havoni tasdiqlang."
+          - "type": "alert"
+            "title":
+              "en": "Best fit"
+              "ru": "Лучший формат"
+              "uz": "Eng mos holat"
+            "description":
+              "en": "Choose Nanay when the route has time for a modest Namangan-side village stop and current local arrangements."
+              "ru": "Выбирайте Нанай, когда в маршруте есть время для небольшой сельской остановки со стороны Намангана и подтверждённые местные договорённости."
+              "uz": "Nanayni yo‘nalishda Namangan tomondagi kichik qishloq bekati uchun vaqt va joriy mahalliy kelishuvlar bo‘lganda tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safar oldidan"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Status"
+                  "ru": "Коротко Статус"
+                  "uz": "Qisqacha Maqom"
+                "description":
+                  "en": "Tourism village - Yangiqo‘rg‘on District."
+                  "ru": "Туристическое село - Янгикурганский район."
+                  "uz": "Turizm qishlog‘i - Yangiqo‘rg‘on tumani."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Why go"
+                  "ru": "Зачем ехать"
+                  "uz": "Nega boriladi"
+                "description":
+                  "en": "Mountain air, local culture, hospitality, craft and folklore context."
+                  "ru": "Горный воздух, местная культура, гостеприимство, ремёсла и фольклорный контекст."
+                  "uz": "Tog‘ havosi, mahalliy madaniyat, mehmondo‘stlik, hunarmandchilik va folklor konteksti."
+              - "icon": "Sun"
+                "title":
+                  "en": "Route logic"
+                  "ru": "Маршрут"
+                  "uz": "Marshrut"
+                "description":
+                  "en": "A modest Namangan-side rural stop, often paired with Chodak or a return toward Chust."
+                  "ru": "Небольшая сельская остановка со стороны Намангана, которую можно сочетать с Чодаком или возвращением к Чусту."
+                  "uz": "Namangan tomondagi kichik qishloq bekati; Chodak yoki Chust tomonga qaytish bilan bog‘lash mumkin."
+              - "icon": "Route"
+                "title":
+                  "en": "Confirm locally"
+                  "ru": "Подтвердить на месте"
+                  "uz": "Mahalliy tasdiq"
+                "description":
+                  "en": "Meeting point, local welcome, road timing, weather, and return plan should be confirmed before departure."
+                  "ru": "Место встречи, местный приём, время дороги, погоду и возвращение нужно подтвердить до выезда."
+                  "uz": "Uchrashuv joyi, mahalliy qabul, yo‘l vaqti, ob-havo va qaytish rejasi yo‘lga chiqishdan oldin tasdiqlanishi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby stops"
+      "ru": "Соседние остановки"
+      "uz": "Yaqin bekatlar"
+    "title":
+      "en": "What to pair with Nanay"
+      "ru": "С чем сочетать Нанай"
+      "uz": "Nanayni nima bilan bog‘lash mumkin"
+    "description":
+      "en": "Namangan gives the city anchor; Chodak and Chust can extend the northern valley route when timing and access are right."
+      "ru": "Наманган даёт городской ориентир; Чодак и Чуст могут продолжить северный маршрут по долине, если время и доступ подходят."
+      "uz": "Namangan shahar tayanchini beradi; Chodak va Chust esa vaqt va kirish sharoiti mos bo‘lsa, vodiyning shimoliy yo‘nalishini davom ettiradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/nanay-next-namangan.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Namangan"
+          "ru": "Наманган"
+          "uz": "Namangan"
+        "description":
+          "en": "Namangan is the Valley's northern flower-city stop: Babur Park, seasonal color, Mullah-Kyrgyz heritage, and onward roads toward Chust, Andijan, or Akhsikent."
+          "ru": "Наманган — цветочная остановка северной части долины: парк Бабура, сезонный цвет, наследие Мулла-Киргиз и дороги к Чусту, Андижану или Ахсикенту."
+          "uz": "Namangan vodiyning shimoliy gul-shahar toʻxtashi: Bobur bogʻi, mavsumiy rang, Mulla Qirgʻiz merosi hamda Chust, Andijon yoki Axsikent tomonga yoʻllar."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/namangan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/nanay-next-chodak.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Chodak"
+          "ru": "Чодак"
+          "uz": "Chodak"
+        "description":
+          "en": "Chodak is a Pop District tourism village where cooler air, gardens, springs, and Chodaksoy valley roads can add a careful Namangan-side mountain pause."
+          "ru": "Чодак — туристическое село Папского района, где прохладный воздух, сады, родники и дорога по долине Чодаксая могут добавить маршруту спокойную горную паузу со стороны Намангана."
+          "uz": "Chodak Pop tumanidagi turizm qishlog‘i: salqin havo, bog‘lar, buloqlar va Chodaksoy vodiysi yo‘li Namangan tomondan sokin tog‘ bekatini qo‘shishi mumkin."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/chodak"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/nanay-next-chust.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Chust"
+          "ru": "Чуст"
+          "uz": "Chust"
+        "description":
+          "en": "Chust adds a careful craft stop to the northern Fergana Valley: pichoq knives, doʻppi embroidery, and a Namangan-side route that makes sense only when real workshop access is checked."
+          "ru": "Чуст добавляет к северной части Ферганской долины аккуратную ремесленную остановку: ножи-пичак, вышивку доппи и маршрут через Наманган, который имеет смысл только при проверенном доступе."
+          "uz": "Chust shimoliy Fargʻona vodiysiga ehtiyotkor hunarmandchilik bekatini qoʻshadi: pichoq, doʻppi kashtasi va Namangan orqali yoʻl, faqat haqiqiy ustaxona kirishi tekshirilganda."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/chust"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Nanay in the day plan"
+      "ru": "Как поставить Нанай в план дня"
+      "uz": "Nanayni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Nanay?"
+          "ru": "Сколько времени группам стоит проводить в Нанай?"
+          "uz": "Nanayda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “A Namangan mountain-side tourism village with clean air, local culture, and a slower road”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Туристическое село на горной стороне Намангана, где важны воздух, местная культура и спокойная дорога»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Namangan tog‘ tomonidagi turizm qishlog‘i: toza havo, mahalliy madaniyat va sokin yo‘l»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Nanay be a walkable core or a base for day trips?"
+          "ru": "Нанай — это пешеходное ядро или база для выездов?"
+          "uz": "Nanay piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Nanay's centre?"
+          "ru": "Где лучше ночевать относительно центра Нанай?"
+          "uz": "Nanay markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/fergana-valley/cities/nanay.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Nanay stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Нанай» в программу (Узбекистан)"
+      "uz": "Nanay bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Nanay | TourLink"
+    "ru": "Нанай | TourLink"
+    "uz": "Nanay | TourLink"
+  "metaDescription":
+    "en": "Nanay sits on the mountain side of Namangan Region, where the Fergana Valley road leaves the larger city rhythm for cleaner air, village hospitality, and local culture. It belongs in a route as a modest tourism-village stop when the road, local welcome, and return timing are current."
+    "ru": "Нанай расположен на горной стороне Наманганской области, там, где маршрут по Ферганской долине уходит от городского ритма к чистому воздуху, сельскому гостеприимству и местной культуре. В маршруте это небольшая остановка туристического села, которую стоит включать, когда дорога, местный приём и время возвращения актуальны."
+    "uz": "Nanay Namangan viloyatining tog‘ tomonida joylashgan. Bu yerda Farg‘ona vodiysi yo‘li katta shahar sur’atidan chiqib, toza havo, qishloq mehmondo‘stligi va mahalliy madaniyatga yaqinlashadi. Yo‘nalishda Nanay kichik turizm qishlog‘i bekati sifatida yo‘l, mahalliy qabul va qaytish vaqti joriy bo‘lganda yaxshi ochiladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "fergana-valley"
+"latitude": 41.5132361
+"longitude": 71.7027994

@@ -1,238 +1,620 @@
-# Seed: коллекция regions — Tashkent Region
-# Источник (старая БД): routes.slug = tashkent-and-chimgan
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "tashkent-region"
+  "ru": "tashkent-region"
+  "uz": "tashkent-region"
+"title":
+  "en": "Tashkent & Chimgan"
+  "ru": "Ташкент и Чимган"
+  "uz": "Toshkent va Chimyon"
+"subtitle":
+  "en": "Capital rhythm, mountain air, and foothill routes"
+  "ru": "Ритм столицы, горный воздух и дороги предгорий"
+  "uz": "Poytaxt ritmi, togʻ havosi va togʻoldi yoʻllari"
+"excerpt":
+  "en": "At Chorsu in the morning, Tashkent is already awake: bread steam, spice rows, metro doors opening below the market dome. By afternoon, the same journey can lead north through the Chirchiq valley toward Chimgan, Charvak, Amirsoy, Beldersay, Alaichak, and Ugam-Chatkal. This region gives Uzbekistan a calm first entry: the capital helps you settle in, while the foothills give the first pause before Samarkand, Bukhara, or Khiva."
+  "ru": "Утром у Чорсу Ташкент уже шумит: пар от лепёшек, ряды специй, двери метро под куполом базара. После обеда тот же маршрут может уйти на север через Чирчикскую долину к Чимгану, Чарваку, Амирсою, Бельдерсаю, Алайчаку и Угам-Чаткалу. Здесь путешествие получает спокойный вход в Узбекистан: столица помогает освоиться, а предгорья дают первую паузу перед Самаркандом, Бухарой или Хивой."
+  "uz": "Ertalab Chorsuda Toshkent allaqachon uygʻongan boʻladi: non isi, ziravor qatorlari, bozor gumbazi ostida ochilib-yopilayotgan metro eshiklari. Tushdan keyin shu yoʻnalish Chirchiq vodiysi orqali Chimyon, Chorvoq, Amirsoy, Beldersoy, Olaychoq va Ugom-Chotqol tomonga chiqishi mumkin. Bu yerda Oʻzbekistonga kirish sokinroq boshlanadi: poytaxt yoʻlga moslashishga yordam beradi, togʻoldi esa Samarqand, Buxoro yoki Xivadan oldin birinchi pauzani beradi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/tashkent-region.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/tashkent-region.webp"
+    "imageAlt":
+      "en": "Tashkent & Chimgan"
+      "ru": "Ташкент и Чимган"
+      "uz": "Toshkent va Chimyon"
+    "title":
+      "en": "Tashkent & Chimgan"
+      "ru": "Ташкент и Чимган"
+      "uz": "Toshkent va Chimyon"
+    "description":
+      "en": "Capital rhythm, mountain air, and foothill routes"
+      "ru": "Ритм столицы, горный воздух и дороги предгорий"
+      "uz": "Poytaxt ritmi, togʻ havosi va togʻoldi yoʻllari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
 
-slug:
-  en: tashkent-region
-  ru: tashkent-region
-  uz: tashkent-region
-title:
-  en: Tashkent & Chimgan
-  ru: Ташкент и Чимган
-  uz: Toshkent va Chimgan
-subtitle:
-  en: Capital culture and Tian Shan day escape
-  ru: Столица и горный выезд в Тянь-Шань
-  uz: Poytaxt madaniyati va Tian-Shan tog' sayohati
-excerpt:
-  en: Islamic heritage in old Tashkent, then mountains, Charvak Lake and Chimgan village in one day.
-  ru: Исламское наследие старого Ташкента, затем горы, озеро Чарвак и посёлок Чимган за один день.
-  uz: Eski Toshkentning islomiy merosi, so'ngra bir kunda tog'lar, Charvak ko'li va Chimgan qishlog'i.
-country: uzbekistan
-mapCenter:
-  latitude: 41.2995
-  longitude: 69.2401
-heroImage: assets/images/city/tashkent.jpg
-blocks:
-  - blockType: hero
-    image: assets/images/city/tashkent.jpg
-    imageAlt:
-      en: Tashkent and Chimgan
-      ru: Ташкент и Чимган
-      uz: Toshkent va Chimgan
-    title:
-      en: Tashkent & Chimgan
-      ru: Ташкент и Чимган
-      uz: Toshkent va Chimgan
-    description:
-      en: Tashkent locals escape summer heat in the Chimgan range, 80 km northeast of the capital. A typical day combines Khazrati Imam or Chorsu in the morning with Charvak Reservoir and Chimgan village in the afternoon.
-      ru: Жители Ташкента уезжают от летней жары в Чимганские горы — всего 80 км к северо-востоку от столицы. Типичный день сочетает Хазрати Имам или Чорсу утром с Чарваком и Чимганом после обеда.
-      uz: Toshkentliklar yoz issiqidan qochish uchun poytaxtdan 80 km shimoli-sharqda joylashgan Chimgan tog'lariga borishadi. Odatdagi kun ertalab Hazrati Imom yoki Chorsu bilan, tushdan keyin Charvak va Chimgan bilan tugaydi.
-    actions:
-      - type: mailto
-        variant: default
-        title:
-          en: Request a tour
-          ru: Запросить тур
-          uz: Tur so'rash
-        email: info@tourlink.uz
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О регионе"
+      "uz": "Hudud haqida"
+    "title":
+      "en": "Tashkent & Chimgan"
+      "ru": "Ташкент и Чимган"
+      "uz": "Toshkent va Chimyon"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "At Chorsu in the morning, Tashkent is already awake: bread steam, spice rows, metro doors opening below the market dome."
+              "ru": "Утром у Чорсу Ташкент уже шумит: пар от лепёшек, ряды специй, двери метро под куполом базара."
+              "uz": "Ertalab Chorsuda Toshkent allaqachon uygʻongan boʻladi: non isi, ziravor qatorlari, bozor gumbazi ostida ochilib-yopilayotgan metro eshiklari."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Tashkent is the easiest place to arrive, settle in, and find the first rhythm of the journey. Chimgan, Charvak, Amirsoy, Beldersay, Alaichak, and Ugam-Chatkal should be chosen by season, weather, road timing, traveler pace, and how much mountain time the day can comfortably hold."
+              "ru": "Ташкент проще всего принять как место прибытия, первой ночи и спокойного входа в маршрут. Чимган, Чарвак, Амирсой, Бельдерсай, Алайчак и Угам-Чаткал стоит выбирать по сезону, погоде, дороге, темпу путешествия и тому, сколько горного времени спокойно помещается в день."
+              "uz": "Toshkent kelish, birinchi tun va yoʻnalishga sokin kirish uchun eng oson joy. Chimyon, Chorvoq, Amirsoy, Beldersoy, Olaychoq va Ugom-Chotqol mavsum, ob-havo, yoʻl, sayohat ritmi va kunga qancha togʻ vaqti sigʻishiga qarab tanlanadi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Tashkent gives the route its first city start; Chimgan and Charvak add one nearby foothill outing, while Amirsoy, Beldersay, Alaichak, and Ugam-Chatkal fit best when season, weather, and pace leave enough room."
+              "ru": "Ташкент даёт маршруту первое городское начало; Чимган и Чарвак добавляют один близкий выезд в предгорья, а Амирсой, Бельдерсай, Алайчак и Угам-Чаткал лучше подходят, когда сезон, погода и темп оставляют достаточно места."
+              "uz": "Toshkent yoʻnalishga birinchi shahar boshlanishini beradi; Chimyon va Chorvoq yaqin togʻoldi chiqishini qoʻshadi, Amirsoy, Beldersoy, Olaychoq va Ugom-Chotqol esa mavsum, ob-havo va ritm yetarli joy qoldirganda yaxshiroq mos keladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Tashkent & Chimgan as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Ташкент и Чимган как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Toshkent va Chimyon o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "Capital, foothills, and the right pace"
+      "ru": "Столица, предгорья и правильный темп дня"
+      "uz": "Poytaxt, togʻoldi va kunning toʻgʻri ritmi"
+    "description":
+      "en": "Tashkent is the easiest place to arrive, settle in, and find the first rhythm of the journey. Chimgan, Charvak, Amirsoy, Beldersay, Alaichak, and Ugam-Chatkal should be chosen by season, weather, road timing, traveler pace, and how much mountain time the day can comfortably hold."
+      "ru": "Ташкент проще всего принять как место прибытия, первой ночи и спокойного входа в маршрут. Чимган, Чарвак, Амирсой, Бельдерсай, Алайчак и Угам-Чаткал стоит выбирать по сезону, погоде, дороге, темпу путешествия и тому, сколько горного времени спокойно помещается в день."
+      "uz": "Toshkent kelish, birinchi tun va yoʻnalishga sokin kirish uchun eng oson joy. Chimyon, Chorvoq, Amirsoy, Beldersoy, Olaychoq va Ugom-Chotqol mavsum, ob-havo, yoʻl, sayohat ritmi va kunga qancha togʻ vaqti sigʻishiga qarab tanlanadi."
+    "mapPanel":
+      "eyebrow":
+        "en": "On the route"
+        "ru": "На маршруте"
+        "uz": "Yoʻnalishda"
+      "title":
+        "en": "Capital and foothills in one frame"
+        "ru": "Столица и предгорья в одной рамке"
+        "uz": "Poytaxt va togʻoldi bitta ramkada"
+      "description":
+        "en": "The map shows where the city day ends and where the mountain or lake outings begin, so the move from Tashkent to the foothills does not become a rushed transfer."
+        "ru": "Карта показывает, где заканчивается городской день и где начинаются горные или водные выезды, чтобы переход из Ташкента к предгорьям не превращался в спешный трансфер."
+        "uz": "Xarita shahar kuni qayerda tugashi va togʻ yoki koʻl chiqishlari qayerda boshlanishini ko‘rsatadi, shunda Toshkentdan togʻoldiga oʻtish shoshilinch transferga aylanmaydi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.511958
+      "longitude": 69.92404
+    "zoom": 9
+    "stops":
+      - "entityType": "city"
+        "entitySlug": "tashkent"
+      - "entityType": "city"
+        "entitySlug": "chimgan"
+      - "entityType": "attraction"
+        "entitySlug": "chimgan-mountains"
+      - "entityType": "attraction"
+        "entitySlug": "greater-chimgan-peak"
+      - "entityType": "attraction"
+        "entitySlug": "charvak-reservoir"
+      - "entityType": "attraction"
+        "entitySlug": "amirsoy-mountain-resort"
+      - "entityType": "attraction"
+        "entitySlug": "beldersay-ski-resort"
+      - "entityType": "attraction"
+        "entitySlug": "gulkam-gorge"
+    "aside":
+      "eyebrow":
+        "en": "Route rhythm"
+        "ru": "Что важно учесть"
+        "uz": "Nimani avval ko‘ramiz"
+      "title":
+        "en": "Capital first, then selected foothills"
+        "ru": "Сначала столица, затем выбранные предгорья"
+        "uz": "Avval poytaxt, keyin tanlangan togʻoldi"
+      "description":
+        "en": "Tashkent gives the route its first city start; Chimgan and Charvak add one nearby foothill outing, while Amirsoy, Beldersay, Alaichak, and Ugam-Chatkal fit best when season, weather, and pace leave enough room."
+        "ru": "Ташкент даёт маршруту первое городское начало; Чимган и Чарвак добавляют один близкий выезд в предгорья, а Амирсой, Бельдерсай, Алайчак и Угам-Чаткал лучше подходят, когда сезон, погода и темп оставляют достаточно места."
+        "uz": "Toshkent yoʻnalishga birinchi shahar boshlanishini beradi; Chimyon va Chorvoq yaqin togʻoldi chiqishini qoʻshadi, Amirsoy, Beldersoy, Olaychoq va Ugom-Chotqol esa mavsum, ob-havo va ritm yetarli joy qoldirganda yaxshiroq mos keladi."
+      "items":
+        - "title":
+            "en": "Tashkent helps you settle in after arrival"
+            "ru": "Ташкент помогает освоиться после прибытия"
+            "uz": "Toshkent kelgandan keyin moslashishga yordam beradi"
+          "description":
+            "en": "The first night, old-city context, metro, markets, museums, and the rail line toward Samarkand help the journey begin calmly."
+            "ru": "Первая ночь, старый город, метро, рынки, музеи и вокзал помогают спокойно войти в маршрут до Самарканда."
+            "uz": "Birinchi tun, eski shahar, metro, bozorlar, muzeylar va vokzal Samarqandgacha yoʻnalishga sokin kirishga yordam beradi."
+          "badge":
+            "en": "capital start"
+            "ru": "столица"
+            "uz": "poytaxt starti"
+        - "title":
+            "en": "Chimgan and Charvak give a nearby mountain pause"
+            "ru": "Чимган и Чарвак дают близкую горную паузу"
+            "uz": "Chimyon va Chorvoq yaqin togʻ pauzasini beradi"
+          "description":
+            "en": "Chimgan brings foothill air and short walks; Charvak adds water and open space before the longer Silk Road cities."
+            "ru": "Чимган приносит воздух предгорий и короткие прогулки; Чарвак добавляет воду и пространство перед длинными городами Шёлкового пути."
+            "uz": "Chimyon togʻoldi havosi va qisqa yurishlarni beradi; Chorvoq esa uzun Ipak yoʻli shaharlaridan oldin suv va kenglik qoʻshadi."
+          "badge":
+            "en": "mountain air"
+            "ru": "горный воздух"
+            "uz": "tog‘ havosi"
+        - "title":
+            "en": "Mountain continuations depend on the season"
+            "ru": "Продолжения в горы зависят от сезона"
+            "uz": "Togʻ davomlari mavsumga bogʻliq"
+          "description":
+            "en": "Amirsoy, Beldersay, Alaichak, and Ugam-Chatkal can extend the day into the mountains, but they need the right season, road, and time."
+            "ru": "Амирсой, Бельдерсай, Алайчак и Угам-Чаткал могут расширить день в горы, но им нужны подходящие сезон, дорога и время."
+            "uz": "Amirsoy, Beldersoy, Olaychoq va Ugom-Chotqol kunni togʻ tomonga kengaytirishi mumkin, lekin ularga mos mavsum, yoʻl va vaqt kerak."
+          "badge":
+            "en": "route reset"
+            "ru": "перезапуск"
+            "uz": "qayta sozlash"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region character"
+      "ru": "Характер региона"
+      "uz": "Hudud xarakteri"
+    "title":
+      "en": "A capital start that opens to the foothills"
+      "ru": "Столичный старт, который открывается к предгорьям"
+      "uz": "Togʻoldiga ochiladigan poytaxt boshlanishi"
+    "description":
+      "en": "Tashkent & Chimgan is clearest when the capital remains the beginning and the foothills are chosen by season and time: Tashkent gives context, while Chimgan, Charvak, Amirsoy, Beldersay, Alaichak, and Ugam-Chatkal show how quickly the route can leave the city.
 
-  - blockType: regular
-    eyebrow:
-      en: Overview
-      ru: Обзор
-      uz: Umumiy
-    title:
-      en: How the day flows
-      ru: Как проходит день
-      uz: Kun qanday o'tadi
-    description:
-      en: "A realistic one-day sequence from the capital to the mountains.\n\n• Morning in Tashkent: Khazrati Imam complex or Chorsu Bazaar.\n• Drive northeast (~1.5–2 h) through the Chirchiq valley.\n• Photo stop at Charvak Reservoir, then Chimgan village.\n• Optional cable car, short hike or horseback riding before return."
-      ru: "Реалистичная однодневная связка от столицы к горам.\n\n• Утро в Ташкенте: комплекс Хазрати Имам или базар Чорсу.\n• Выезд на северо-восток (~1,5–2 ч) по долине Чирчика.\n• Остановка у Чарвака, затем посёлок Чимган.\n• По желанию — канатная дорога, короткий треккинг или конные прогулки."
-      uz: "Poytaxtdan tog'larga boruvchi real kunlik marshrut.\n\n• Ertalab Toshkent: Hazrati Imom majmuasi yoki Chorsu bozori.\n• Chirchiq vodiy bo'ylab shimoli-sharqga (~1,5–2 soat).\n• Charvakda fototo'xtash, keyin Chimgan qishlog'i.\n• Ixtiyoriy: kanat yo'li, qisqa yurish yoki ot sayohati."
 
-  - blockType: regular
-    eyebrow:
-      en: Lake
-      ru: Озеро
-      uz: Ko'l
-    title:
-      en: Charvak Reservoir stop
-      ru: Остановка у Чарвака
-      uz: Charvakdagi to'xtash
-    description:
-      en: Turquoise water and mountain backdrop make this the strongest visual break. Plan a short stop for photos and tea before continuing uphill to Chimgan.
-      ru: Бирюзовая вода и горный фон дают сильную визуальную паузу в маршруте. Запланируйте короткую остановку на фото и чай перед подъёмом к Чимгану.
-      uz: Moviy suv va tog' fonlari marshrutdagi eng kuchli vizual nuqtalardan biri. Chimganga ko'tarilishdan oldin surat va choy uchun qisqa to'xtash qo'ying.
+        «Tashkent & Chimgan becomes clearer when the capital remains the beginning and the mountains are a chosen pause, not another checklist stop.»"
+      "ru": "Ташкент и Чимган понятнее, когда столица остаётся началом, а предгорья выбираются по сезону и времени: Ташкент даёт контекст, а Чимган, Чарвак, Амирсой, Бельдерсай, Алайчак и Угам-Чаткал показывают, как быстро маршрут может выйти из города.
 
-  - blockType: regular
-    eyebrow:
-      en: Cities
-      ru: Города
-      uz: Shaharlar
-    title:
-      en: Two halves of the day route
-      ru: Две части однодневного маршрута
-      uz: Kunlik marshrutning ikki qismi
-    description:
-      en: Capital heritage in Tashkent, then mountains and Charvak in Chimgan.
-      ru: Наследие столицы в Ташкенте, затем горы и Чарвак в Чимгане.
-      uz: Toshkentda poytaxt merosi, so'ngra Chimganda tog'lar va Charvak.
-    cards:
-      - type: routeIdea
-        image: assets/images/city/tashkent.jpg
-        badge:
-          en: Capital
-          ru: Столица
-          uz: Poytaxt
-        title:
-          en: Tashkent
-          ru: Ташкент
-          uz: Toshkent
-        description:
-          en: Khazrati Imam, Chorsu Bazaar and old-city heritage — morning half of the route.
-          ru: Хазрати Имам, базар Чорсу и наследие старого города — утренняя часть маршрута.
-          uz: Hazrati Imom, Chorsu bozori va eski shahar merosi — marshrutning ertalabki qismi.
-        ctaHref: /destinations/uzbekistan/tashkent-region/tashkent
-        ctaLabel:
-          en: Explore city
-          ru: Исследовать город
-          uz: Shaharni ko'rish
-      - type: routeIdea
-        image: assets/images/city/tashkent.jpg
-        badge:
-          en: Mountains
-          ru: Горы
-          uz: Tog'lar
-        title:
-          en: Chimgan
-          ru: Чимган
-          uz: Chimgan
-        description:
-          en: Charvak Reservoir, cable car and alpine meadows — afternoon mountain half.
-          ru: Чарвак, канатная дорога и альпийские луга — горная часть после обеда.
-          uz: Charvak, kanat yo'li va alpine chimzorlar — tushdan keyingi tog' qismi.
-        ctaHref: /destinations/uzbekistan/tashkent-region/chimgan
-        ctaLabel:
-          en: Explore Chimgan
-          ru: Исследовать Чимган
-          uz: Chimganni ko'rish
 
-  - blockType: routeMap
-    eyebrow:
-      en: Map
-      ru: Карта
-      uz: Xarita
-    title:
-      en: Tashkent & Chimgan route
-      ru: Маршрут «Ташкент и Чимган»
-      uz: Toshkent va Chimgan marshruti
-    description:
-      en: Two city anchors — capital heritage and mountain escape in one day.
-      ru: Две городские опоры — наследие столицы и горный выезд за один день.
-      uz: Ikki shahar tayanchi — bir kunda poytaxt merosi va tog' sayohati.
-    mapCenter:
-      latitude: 41.4
-      longitude: 69.6
-    zoom: 9
-    stops:
-      - entityType: city
-        entitySlug: tashkent
-      - entityType: city
-        entitySlug: chimgan
+        «Ташкент и Чимган становятся понятнее, когда столица остаётся началом, а горы — выбранной паузой, а не обязательным пунктом списка.»"
+      "uz": "Toshkent va Chimyon poytaxt boshlanish boʻlib qolganida, togʻoldi esa mavsum va vaqtga qarab tanlanganda aniqroq bo‘ladi: Toshkent kontekst beradi, Chimyon, Chorvoq, Amirsoy, Beldersoy, Olaychoq va Ugom-Chotqol esa yoʻnalish shahardan qanchalik tez chiqishini ko‘rsatadi.
 
-  - blockType: regular
-    eyebrow:
-      en: Tips
-      ru: Практика
-      uz: Maslahat
-    title:
-      en: Practical notes for this day trip
-      ru: Полезные заметки по маршруту
-      uz: Marshrut bo'yicha amaliy tavsiyalar
-    cards:
-      - type: destinationInsight
-        icon: AlarmClock
-        title:
-          en: Start early
-          ru: Ранний старт
-          uz: Erta boshlang
-        description:
-          en: Leave Tashkent before traffic builds for smoother timing.
-          ru: Выезд до пика трафика делает день заметно комфортнее.
-          uz: Trafikdan oldin yo'lga chiqish kun ritmini yengillashtiradi.
-      - type: destinationInsight
-        icon: Shirt
-        title:
-          en: Layer clothing
-          ru: Одежда слоями
-          uz: Qatlamli kiyim
-        description:
-          en: Mountain weather shifts quickly versus city temperatures.
-          ru: Погода в горах меняется быстрее, чем в городе.
-          uz: Tog'dagi harorat shaharga nisbatan tezroq o'zgaradi.
-      - type: destinationInsight
-        icon: Utensils
-        title:
-          en: Flexible lunch
-          ru: Гибкий обед
-          uz: Moslashuvchan tushlik
-        description:
-          en: Keep lunch timing adaptive around road and stop durations.
-          ru: Лучше оставлять окно времени под дорогу и остановки.
-          uz: Yo'l va to'xtashlarga qarab vaqt oynasi qoldiring.
 
-  - blockType: cta
-    image: assets/images/city/tashkent.jpg
-    eyebrow:
-      en: Tailor-made
-      ru: Под запрос
-      uz: Individual
-    title:
-      en: Build this route for your group profile
-      ru: Настроим маршрут под ваш профиль группы
-      uz: Bu marshrutni guruh profilingizga moslaymiz
-    description:
-      en: We can rebalance city time, mountain activity and transfer pace by traveler type.
-      ru: Сбалансируем время в городе, активность в горах и темп переездов.
-      uz: Shahar va tog' qismi hamda transfer tempini sayohatchilarga qarab sozlaymiz.
-    actions:
-      - type: link
-        variant: default
-        title:
-          en: Discuss this route
-          ru: Обсудить маршрут
-          uz: Marshrutni muhokama qilish
-        href: /help/contact
-      - type: link
-        variant: outline
-        title:
-          en: See Uzbekistan country guide
-          ru: Открыть гайд по Узбекистану
-          uz: O'zbekiston gidini ochish
-        href: uzbekistan
+        «Toshkent va Chimyon poytaxt boshlanish boʻlib qolganida, togʻlar esa majburiy roʻyxat emas, tanlangan pauza boʻlganda aniqroq ochiladi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Where to start"
+      "ru": "Где начать"
+      "uz": "Qayerdan boshlash"
+    "title":
+      "en": "Capital and foothills in one route"
+      "ru": "Столица и предгорья в одном маршруте"
+      "uz": "Poytaxt va togʻoldi bitta yoʻnalishda"
+    "description":
+      "en": "The capital, Chimgan, Charvak, Amirsoy, Beldersay, Alaichak, and Ugam-Chatkal sit close enough to shape the first chapter. The point is to choose the right continuation, not to collect every stop in one day."
+      "ru": "Столица, Чимган, Чарвак, Амирсой, Бельдерсай, Алайчак и Угам-Чаткал стоят достаточно близко, чтобы задать первую главу. Важно выбрать подходящее продолжение, а не собрать все точки в один день."
+      "uz": "Poytaxt, Chimyon, Chorvoq, Amirsoy, Beldersoy, Olaychoq va Ugom-Chotqol birinchi bobni shakllantirishga yetarlicha yaqin. Muhimi, hamma bekatni bir kunda yigʻish emas, mos davomni tanlash."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Tashkent"
+          "ru": "Ташкент"
+          "uz": "Toshkent"
+        "description":
+          "en": "Tashkent often begins with motion: an early flight, a train platform, the smell of bread near Chorsu, then the metro, museums, and wide avenues. It is not Uzbekistan’s postcard city, and that is why it matters. The city helps you enter the country in the present tense: through Ha"
+          "ru": "Ташкент часто начинается с движения: ранний рейс, перрон, запах лепёшек у Чорсу, потом метро, музеи и широкие проспекты. Это не открыточный образ Узбекистана — и именно поэтому город важен. Он помогает войти в страну в настоящем времени: через Хазрати Имам и Чорсу, станции метро,"
+          "uz": "Toshkent ko‘pincha harakatdan boshlanadi: erta reys, vokzal perroni, Chorsu yaqinidagi non hidi, keyin metro, muzeylar va keng xiyobonlar. Bu Oʻzbekistonning klassik sayyohlik manzarasi emas — shuning uchun ham muhim. Shahar mamlakatga bugungi ritmda kirishga yordam beradi: Hazra"
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/chimgan.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Chimgan"
+          "ru": "Чимган"
+          "uz": "Chimyon"
+        "description":
+          "en": "Chimgan is where a Tashkent day opens into the foothills. The road follows the Chirchiq valley toward open slopes, Charvak light, resort roads, and guided gorges, so the visit feels best when one mountain plan is chosen before leaving the capital."
+          "ru": "Чимган — место, где день из Ташкента быстро выходит в предгорья. Дорога идёт через Чирчикскую долину к открытым склонам, свету Чарвака, курортным дорогам и ущельям с гидом, поэтому выезд лучше строить вокруг одного горного плана ещё до отправления из столицы."
+          "uz": "Chimyon — Toshkent kuni togʻoldiga ochiladigan joy. Yoʻl Chirchiq vodiysi orqali ochiq yonbagʻirlar, Chorvoq nuri, kurort yoʻllari va gidli daralarga olib boradi, shuning uchun poytaxtdan chiqishdan oldin bitta togʻ rejasi tanlansa, tashrif yaxshiroq kechadi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/chimgan"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Old city, city life, and foothills"
+      "ru": "Старый город, городская жизнь и предгорья"
+      "uz": "Eski shahar, shahar hayoti va togʻoldi"
+    "description":
+      "en": "Old-city context, bazaar rhythm, metro interiors, craft detail, mountain slopes, Charvak water, resort roads, and Ugam-Chatkal nature stand out when the day does not become a checklist."
+      "ru": "Старый город, базар, метро, ремесленные детали, горные склоны, вода Чарвака, курортные дороги и природа Угам-Чаткала лучше воспринимаются, когда день не превращается в перечень остановок."
+      "uz": "Eski shahar, bozor, metro, hunarmand detali, togʻ yonbagʻirlari, Chorvoq suvi, kurort yoʻllari va Ugom-Chotqol tabiati kun bekatlar roʻyxatiga aylanmaganda yaxshiroq seziladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Before a Yakkatut Visit"
+          "ru": "Перед визитом в Яккатут"
+          "uz": "Yakkatutga borishdan oldin"
+        "description":
+          "en": "A Yakkatut visit belongs in the route when the meeting point, welcome format, comfort details, and return timing are clear."
+          "ru": "Визит в Яккатут уместен, когда ясны точка встречи, формат приёма, бытовые детали и время возвращения."
+          "uz": "Uchrashuv joyi, qabul shakli, qulaylik tafsilotlari va qaytish vaqti aniq bo‘lganda Yakkatut yo‘lga mos keladi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/yakkatut/yakkatut-local-visit-confirmation"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Burchmulla and Koksu Side"
+          "ru": "Бурчмулла и сторона Коксу"
+          "uz": "Burchmulla va Ko‘ksuv tomoni"
+        "description":
+          "en": "Burchmulla and the Koksu side help place Yakkatut in Bo‘stonliq without turning nearby geography into its own stop."
+          "ru": "Бурчмулла и сторона Коксу помогают понять Яккатут в Бостанлыке, не превращая близкую географию в самостоятельную остановку."
+          "uz": "Burchmulla va Ko‘ksuv tomoni Yakkatutni Bo‘stonliqda tushuntiradi, yaqin geografiyani kafolatlangan bekatga aylantirmaydi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/yakkatut/yakkatut-burchmulla-koksu-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Yakkatut's Charvak Side"
+          "ru": "Чарвакская сторона Яккатута"
+          "uz": "Yakkatutning Chorvoq tomoni"
+        "description":
+          "en": "The Charvak side helps place Yakkatut inside the Bo‘stonliq mountain-reservoir route without turning it into a resort stop."
+          "ru": "Чарвакская сторона помогает понять Яккатут внутри горно-чарвакского маршрута Бостанлыка без курортного обещания."
+          "uz": "Chorvoq tomoni Yakkatutni kurort vaʼdasiga aylantirmasdan Bo‘stonliq tog‘-suv ombori yo‘lida tushuntiradi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/yakkatut/yakkatut-charvak-side-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Kumushkon and Chashma Pairing"
+          "ru": "Кумушкан и Чашма в одном выезде"
+          "uz": "Kumushkon va Chashma juftligi"
+        "description":
+          "en": "Kumushkon and nearby Chashma can make a calm two-village Parkent outing when both stops fit."
+          "ru": "Кумушкан и близкая Чашма могут сложиться в спокойный выезд по двум сёлам Паркента, если обе остановки уместны."
+          "uz": "Kumushkon va yaqin Chashma ikkala bekat mos kelsa, Parkentning ikki qishloqli sokin chiqishiga aylanadi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/kumushkon/kumushkon-chashma-route-pairing"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Clean Air and Village Life"
+          "ru": "Чистый воздух и сельская жизнь"
+          "uz": "Toza havo va qishloq hayoti"
+        "description":
+          "en": "Clean air, village roads, and everyday routines give Kumushkon its human scale."
+          "ru": "Чистый воздух, сельские дороги и повседневный ритм дают Кумушкану человеческий масштаб."
+          "uz": "Toza havo, qishloq yo‘llari va kundalik ritm Kumushkonga insoniy o‘lcham beradi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/kumushkon/kumushkon-clean-air-and-village-life"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Kumushkon's Parkent Setting"
+          "ru": "Паркентская сторона Кумушкана"
+          "uz": "Kumushkonning Parkent tomoni"
+        "description":
+          "en": "Official tourism-village status gives Kumushkon a clear Parkent route role near Tashkent."
+          "ru": "Официальный статус туристического села даёт Кумушкану понятную роль в маршруте рядом с Ташкентом."
+          "uz": "Rasmiy turizm qishlog‘i maqomi Kumushkonga Toshkent yaqinidagi Parkent yo‘lida aniq o‘rin beradi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/kumushkon/kumushkon-parkent-tourism-zone-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Chashma Arrival Point"
+          "ru": "Точка прибытия в Чашме"
+          "uz": "Chashmadagi kelish nuqtasi"
+        "description":
+          "en": "The most useful Chashma detail is simple: where the visit actually begins. It may be the spring side, a road point, the village center, or a tea table, but the answer should be clear before leaving Tashkent."
+          "ru": "Самая полезная деталь Чашмы проста: где именно начинается визит. Это может быть родниковая сторона, дорожная точка, центр села или чайный стол, но ответ должен быть понятен до выезда из Ташкента."
+          "uz": "Chashmadagi eng foydali detal oddiy: tashrif qayerdan boshlanadi. Bu buloq tomoni, yo‘l nuqtasi, qishloq markazi yoki choy dasturxoni bo‘lishi mumkin, lekin javob Toshkentdan chiqishdan oldin aniq bo‘lishi kerak."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/chashma-parkent/chashma-parkent-local-meeting-point"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Chashma and Kumushkon Pairing"
+          "ru": "Чашма и Кумушкан в одном выезде"
+          "uz": "Chashma va Kumushkon juftligi"
+        "description":
+          "en": "Chashma feels clearer when it is not treated as a lone marker. Nearby Kumushkon gives the Parkent outing a second village point, as long as both stops are suitable for the travel date."
+          "ru": "Чашма понятнее, когда её не превращают в одинокий маркер. Соседний Кумушкан даёт паркентской поездке вторую сельскую точку, если обе остановки подходят под конкретную дату."
+          "uz": "Chashma yolg‘iz marker sifatida emas, yaqin Kumushkon bilan ko‘rilganda aniqroq bo‘ladi. Ikkala bekat safar sanasiga mos bo‘lsa, Kumushkon Parkent chiqishiga ikkinchi qishloq nuqtasini beradi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/chashma-parkent/chashma-parkent-kumushkon-pairing"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Chashma Spring Name"
+          "ru": "Родниковое имя Чашмы"
+          "uz": "Chashmaning buloq nomi"
+        "description":
+          "en": "The first thing to understand about Chashma is the name. It points toward water and gives the village stop a gentle reason to slow down, even before the route adds tea or nearby Kumushkon."
+          "ru": "Первое, что нужно понять о Чашме, — её название. Оно ведёт к воде и даёт сельской остановке мягкую причину замедлиться ещё до того, как маршрут добавит чай или соседний Кумушкан."
+          "uz": "Chashma haqida avval nomini tushunish kerak. U suvga ishora qiladi va yo‘l choy yoki yaqin Kumushkonni qo‘shishidan oldin ham qishloq bekatini sekinlashtiradi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/chashma-parkent/chashma-parkent-spring-identity-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Arashan Higher-Route Choice"
+          "ru": "Выбор продолжения к Арашану"
+          "uz": "Arashan tomonga davom tanlovi"
+        "description":
+          "en": "Arashan should be treated as a separate mountain decision beyond the Ertoshsoy village stop. It needs current local guidance, suitable transport, and a safety-first call on the travel day."
+          "ru": "Арашан лучше рассматривать как отдельное горное решение за пределами визита в Эртошсой. Для него нужны актуальная местная информация, подходящий транспорт и выбор в пользу безопасности ближе к поездке."
+          "uz": "Arashanni Ertoshsoy qishloq bekatidan keyingi alohida tog‘ qarori sifatida ko‘ring. U safarga yaqin mahalliy yo‘l-yo‘riq, mos transport va xavfsizlikni birinchi qo‘yadigan qarorni talab qiladi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/ertoshsoy/ertoshsoy-arashan-extension-caution"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Ertoshsoy Air and Water"
+          "ru": "Воздух и вода Эртошсоя"
+          "uz": "Ertoshsoy havosi va suvi"
+        "description":
+          "en": "Ertoshsoy’s softer value is sensory: cleaner air, water, green-season slopes, and a simple local table when it is arranged for the date. This stop should feel like a village pause, not a fixed attraction."
+          "ru": "Мягкая ценность Эртошсоя ощущается телом: более чистый воздух, вода, зелёные склоны и простой местный стол, если он согласован к дате. Эта остановка должна оставаться сельской паузой, а не обещанной точкой осмотра."
+          "uz": "Ertoshsoyning yumshoq qiymati sezgida: tozaroq havo, suv, yashil yonbag‘irlar va safar sanasiga kelishilgan oddiy mahalliy dasturxon. Bu bekat qatʼiy tomosha nuqtasi emas, qishloq pauzasi bo‘lib qolishi kerak."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/ertoshsoy/ertoshsoy-clean-air-and-water-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Ertoshsoy Mountain Road"
+          "ru": "Горная дорога к Эртошсою"
+          "uz": "Ertoshsoy tog‘ yo‘li"
+        "description":
+          "en": "The Ertoshsoy road is the first real filter for the visit. Before the village becomes part of the plan, the road, the vehicle, the weather, and the return window need to make sense together."
+          "ru": "Дорога к Эртошсою — первый фильтр визита. Прежде чем село станет частью плана, дорога, транспорт, погода и окно возвращения должны складываться вместе."
+          "uz": "Ertoshsoy yo‘li tashrifning birinchi mezoni. Qishloq rejaga kirishidan oldin yo‘l, transport, ob-havo va qaytish oynasi bir-biriga mos kelishi kerak."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/ertoshsoy/ertoshsoy-mountain-road-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Programs"
+      "ru": "Программы"
+      "uz": "Dasturlar"
+    "title":
+      "en": "Tours through Tashkent & Chimgan"
+      "ru": "Туры через Ташкент и Чимган"
+      "uz": "Toshkent va Chimyon orqali oʻtadigan turlar"
+    "description":
+      "en": "Tashkent & Chimgan usually becomes the beginning of the route: arrival in the capital, old-city context, a short mountain pause, or a calm continuation toward Samarkand, Bukhara, and Khiva."
+      "ru": "Ташкент и Чимган чаще всего становятся началом маршрута: приезд в столицу, старый город, короткая горная пауза или спокойный выход дальше к Самарканду, Бухаре и Хиве."
+      "uz": "Toshkent va Chimyon ko‘pincha yoʻnalishning boshlanishi bo‘ladi: poytaxtga kelish, eski shahar, qisqa togʻ pauzasi yoki Samarqand, Buxoro va Xiva tomon sokin davom."
 
-seo:
-  metaTitle:
-    en: Tashkent & Chimgan — day route
-    ru: Ташкент и Чимган — маршрут на день
-    uz: Toshkent va Chimgan — kunlik marshrut
-  metaDescription:
-    en: Day route from Tashkent to Chimgan mountains and Charvak Lake with heritage stops in the capital.
-    ru: Однодневный маршрут из Ташкента в горы Чимган и на Чарвак с остановками по наследию столицы.
-    uz: Toshkentdan Chimgan tog'lari va Charvak ko'liga poytaxt merosi bilan kunlik marshrut.
-  structuredDataType: TouristDestination
-status:
-  showInSitemap: true
-  noindex: false
-  hideFromNavigation: false
-  publishedAt: "2026-06-17"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region in detail"
+      "ru": "Регион в деталях"
+      "uz": "Hudud batafsil"
+    "title":
+      "en": "Practical questions about Tashkent & Chimgan"
+      "ru": "Практические вопросы о регионе Ташкент и Чимган"
+      "uz": "Toshkent va Chimyon hududi bo‘yicha amaliy savollar"
+    "description":
+      "en": "Pace, season, and how this region connects to the next stop."
+      "ru": "Темп, сезон и как регион стыкуется со следующей остановкой."
+      "uz": "Sur’at, mavsum va hududning keyingi bekat bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many days does Tashkent & Chimgan need in a programme?"
+          "ru": "Сколько дней нужно региону Ташкент и Чимган в программе?"
+          "uz": "Toshkent va Chimyon hududi dasturda necha kun olishi kerak?"
+        "description":
+          "en": "2–3 days usually works if you keep one strong core and treat outer stops as deliberate choices. The region brief is “Capital rhythm, mountain air, and foothill routes”."
+          "ru": "Обычно хватает 2–3 дня, если держать одно сильное ядро, а внешние остановки выбирать осознанно. Кратко о регионе: «Ритм столицы, горный воздух и дороги предгорий»."
+          "uz": "Odatda 2–3 kun yetadi — bitta kuchli yadro va tashqi bekatlarni ongli tanlov qiling. Hudud brifi: «Poytaxt ritmi, togʻ havosi va togʻoldi yoʻllari»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "What should come before and after Tashkent & Chimgan?"
+          "ru": "Что ставить до и после региона Ташкент и Чимган?"
+          "uz": "Toshkent va Chimyondan oldin va keyin nima qo‘yish kerak?"
+        "description":
+          "en": "Use neighbouring cities as clean handovers: arrive with a calm first night, leave after one completed chapter, and avoid stacking two long transfers on the same day."
+          "ru": "Соседние города держите как чистые стыки: приезжайте со спокойной первой ночью, уезжайте после завершённой главы и не ставьте два длинных переезда в один день."
+          "uz": "Qo‘shni shaharlarni toza ulanish sifatida tuting: sokin birinchi tun bilan keling, yakunlangan bobdan keyin chiqing va bir kunga ikkita uzun ko‘chishni qo‘ymang."
+      - "type": "destinationInsight"
+        "icon": "CloudSun"
+        "title":
+          "en": "What season logic matters most in Tashkent & Chimgan?"
+          "ru": "Какая сезонная логика важнее всего в Ташкент и Чимган?"
+          "uz": "Toshkent va Chimyonda qaysi mavsum mantig‘i eng muhim?"
+        "description":
+          "en": "Heat, altitude, road condition, and opening hours change the product more than the brochure list. Build the region around what stays comfortable for the group that week."
+          "ru": "Жара, высота, состояние дорог и часы работы меняют продукт сильнее списка из брошюры. Собирайте регион вокруг того, что комфортно именно этой группе в эту неделю."
+          "uz": "Issiqlik, balandlik, yo‘l holati va ish soatlari broshyura ro‘yxatidan kuchliroq mahsulotni o‘zgartiradi. Hududni shu hafta guruh uchun qulay narsaga qurib chiqing."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/tashkent-region.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Tashkent & Chimgan stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Ташкент и Чимган» в программу (Узбекистан)"
+      "uz": "Toshkent va Chimyon bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right extensions — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать нужные расширения — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va kerakli kengaytmalarni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Tashkent & Chimgan | TourLink"
+    "ru": "Ташкент и Чимган | TourLink"
+    "uz": "Toshkent va Chimyon | TourLink"
+  "metaDescription":
+    "en": "At Chorsu in the morning, Tashkent is already awake: bread steam, spice rows, metro doors opening below the market dome. By afternoon, the same journey can lead north through the Chirchiq valley toward Chimgan, Charvak, Amirsoy, Beldersay, Alaichak, and Ugam-Chatkal. This region gives Uzbekistan a calm first entry: the capital helps you settle in, while the foothills give the first pause before Samarkand, Bukhara, or Khiva."
+    "ru": "Утром у Чорсу Ташкент уже шумит: пар от лепёшек, ряды специй, двери метро под куполом базара. После обеда тот же маршрут может уйти на север через Чирчикскую долину к Чимгану, Чарваку, Амирсою, Бельдерсаю, Алайчаку и Угам-Чаткалу. Здесь путешествие получает спокойный вход в Узбекистан: столица помогает освоиться, а предгорья дают первую паузу перед Самаркандом, Бухарой или Хивой."
+    "uz": "Ertalab Chorsuda Toshkent allaqachon uygʻongan boʻladi: non isi, ziravor qatorlari, bozor gumbazi ostida ochilib-yopilayotgan metro eshiklari. Tushdan keyin shu yoʻnalish Chirchiq vodiysi orqali Chimyon, Chorvoq, Amirsoy, Beldersoy, Olaychoq va Ugom-Chotqol tomonga chiqishi mumkin. Bu yerda Oʻzbekistonga kirish sokinroq boshlanadi: poytaxt yoʻlga moslashishga yordam beradi, togʻoldi esa Samarqand, Buxoro yoki Xivadan oldin birinchi pauzani beradi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"mapCenter":
+  "latitude": 41.3123363
+  "longitude": 69.2787079

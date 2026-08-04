@@ -1,0 +1,599 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "chashma-parkent"
+  "ru": "chashma-parkent"
+  "uz": "chashma-parkent"
+"title":
+  "en": "Chashma"
+  "ru": "Чашма"
+  "uz": "Chashma"
+"subtitle":
+  "en": "A small Parkent village stop shaped by a spring name and nearby Kumushkon"
+  "ru": "Небольшое село Паркента с родниковым именем и соседним Кумушканом"
+  "uz": "Buloq nomi va Kumushkon bilan bog‘langan kichik Parkent qishlog‘i"
+"excerpt":
+  "en": "Chashma sits on the Parkent side of Tashkent Region, close enough to Kumushkon for the two villages to make sense together. The name points toward water, but the visit should stay modest: a clear arrival point, a short hello or tea when it is arranged for the date, and enough time to understand the village without turning it into a large attraction."
+  "ru": "Чашма находится на паркентской стороне Ташкентской области, достаточно близко к Кумушкану, чтобы два села воспринимались вместе. Название ведёт к родниковому смыслу, а визит лучше держать скромным: понятная точка прибытия, короткая встреча или чай при договорённости и время увидеть село без превращения его в крупную достопримечательность."
+  "uz": "Chashma Toshkent viloyatining Parkent tomonida, Kumushkonga yaqin joylashgan; ikki qishloqni bir yo‘nalishda ko‘rish mumkin. Nomi suvga ishora qiladi, tashrif esa kamtar qolishi kerak: aniq kelish joyi, kelishilgan bo‘lsa qisqa uchrashuv yoki choy, qishloqni katta obyektga aylantirmay tushunish uchun vaqt."
+"heroImage": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/chashma-parkent.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/chashma-parkent.webp"
+    "imageAlt":
+      "en": "Chashma"
+      "ru": "Чашма"
+      "uz": "Chashma"
+    "title":
+      "en": "Chashma"
+      "ru": "Чашма"
+      "uz": "Chashma"
+    "description":
+      "en": "A small Parkent village stop shaped by a spring name and nearby Kumushkon"
+      "ru": "Небольшое село Паркента с родниковым именем и соседним Кумушканом"
+      "uz": "Buloq nomi va Kumushkon bilan bog‘langan kichik Parkent qishlog‘i"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Chashma"
+      "ru": "Чашма"
+      "uz": "Chashma"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Chashma sits on the Parkent side of Tashkent Region, close enough to Kumushkon for the two villages to make sense together."
+              "ru": "Чашма находится на паркентской стороне Ташкентской области, достаточно близко к Кумушкану, чтобы два села воспринимались вместе."
+              "uz": "Chashma Toshkent viloyatining Parkent tomonida, Kumushkonga yaqin joylashgan; ikki qishloqni bir yo‘nalishda ko‘rish mumkin."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Chashma fits best as a modest Parkent-side stop, with Kumushkon nearby and the real arrival point set close to travel."
+              "ru": "Чашма лучше всего входит в маршрут как небольшая паркентская остановка: рядом Кумушкан, а реальная точка прибытия уточняется ближе к поездке."
+              "uz": "Chashma Parkent tomonidagi kichik bekat sifatida mos keladi: Kumushkon yaqin, haqiqiy kelish joyi esa safarga yaqin belgilanadi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Chashma fits best as a modest Parkent-side stop, with Kumushkon nearby and the real arrival point set close to travel."
+              "ru": "Чашма лучше всего входит в маршрут как небольшая паркентская остановка: рядом Кумушкан, а реальная точка прибытия уточняется ближе к поездке."
+              "uz": "Chashma Parkent tomonidagi kichik bekat sifatida mos keladi: Kumushkon yaqin, haqiqiy kelish joyi esa safarga yaqin belgilanadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Chashma as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Чашма как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Chashma o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Route fit"
+      "ru": "Как вписать в маршрут"
+      "uz": "Yo‘nalishdagi o‘rni"
+    "title":
+      "en": "From Tashkent to Parkent, then Chashma and Kumushkon"
+      "ru": "Из Ташкента в Паркент, затем Чашма и Кумушкан"
+      "uz": "Toshkentdan Parkentga, keyin Chashma va Kumushkon"
+    "description":
+      "en": "Chashma fits best as a modest Parkent-side stop, with Kumushkon nearby and the real arrival point set close to travel."
+      "ru": "Чашма лучше всего входит в маршрут как небольшая паркентская остановка: рядом Кумушкан, а реальная точка прибытия уточняется ближе к поездке."
+      "uz": "Chashma Parkent tomonidagi kichik bekat sifatida mos keladi: Kumushkon yaqin, haqiqiy kelish joyi esa safarga yaqin belgilanadi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Map orientation"
+        "ru": "Ориентир на карте"
+        "uz": "Xarita mo‘ljali"
+      "title":
+        "en": "Approximate Chashma village marker"
+        "ru": "Примерный маркер Чашмы"
+        "uz": "Chashmaning taxminiy qishloq markeri"
+      "description":
+        "en": "The marker orients the Parkent District tourism-village area; the exact meeting point and spring-side approach are set close to travel."
+        "ru": "Маркер ориентирует по туристическому селу Паркентского района; точную встречу и подход к родниковой стороне согласуем ближе к поездке."
+        "uz": "Marker Parkent tumanidagi turizm qishlog‘i hududini ko‘rsatadi; aniq uchrashuv joyi va buloq tomoni yondashuvi safarga yaqin belgilanadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.293024
+      "longitude": 69.65094
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "chashma-parkent-kumushkon-pairing"
+    "aside":
+      "eyebrow":
+        "en": "Route fit"
+        "ru": "Как вписать в маршрут"
+        "uz": "Yo‘nalishdagi o‘rni"
+      "title":
+        "en": "From Tashkent to Parkent, then Chashma and Kumushkon"
+        "ru": "Из Ташкента в Паркент, затем Чашма и Кумушкан"
+        "uz": "Toshkentdan Parkentga, keyin Chashma va Kumushkon"
+      "description":
+        "en": "Chashma fits best as a modest Parkent-side stop, with Kumushkon nearby and the real arrival point set close to travel."
+        "ru": "Чашма лучше всего входит в маршрут как небольшая паркентская остановка: рядом Кумушкан, а реальная точка прибытия уточняется ближе к поездке."
+        "uz": "Chashma Parkent tomonidagi kichik bekat sifatida mos keladi: Kumushkon yaqin, haqiqiy kelish joyi esa safarga yaqin belgilanadi."
+      "items":
+        - "title":
+            "en": "Parkent"
+            "ru": "Чашма"
+            "uz": "Chashma"
+          "description":
+            "en": "District-road orientation point for Chashma and Kumushkon."
+            "ru": "Чашма: примерный маркер туристического села Паркентского района; точная встреча и подход к родниковой стороне согласуются ближе к поездке."
+            "uz": "Chashma: Parkent tumanidagi turizm qishlog‘ining taxminiy markeri; aniq uchrashuv joyi va buloq tomoni yondashuvi safarga yaqin kelishiladi."
+        - "title":
+            "en": "Chashma"
+            "ru": "Кумушкан"
+            "uz": "Kumushkon"
+          "description":
+            "en": "Chashma: approximate Parkent District tourism-village marker; exact meeting point and spring-side approach are set close to travel."
+            "ru": "Соседнее туристическое село Паркента, которое превращает Чашму в выезд из двух остановок, когда обе точки прибытия понятны."
+            "uz": "Ikkala kelish joyi aniq bo‘lsa, Chashmani ikki bekatli chiqishga aylantiradigan yaqin Parkent turizm qishlog‘i."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Chashma anchors"
+      "ru": "Ориентиры Чашмы"
+      "uz": "Chashma mo‘ljallari"
+    "title":
+      "en": "Three ways to understand Chashma"
+      "ru": "Три способа понять Чашму"
+      "uz": "Chashmani tushunishning uch yo‘li"
+    "description":
+      "en": "Water in the name, Kumushkon nearby, and the arrival point keep the Chashma stop honest and useful."
+      "ru": "Вода в названии, соседний Кумушкан и точка прибытия удерживают остановку честной и полезной."
+      "uz": "Nomdagi suv, yaqin Kumushkon va kelish joyi Chashma bekatini rost va foydali tutadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Chashma Spring Name"
+          "ru": "Родниковое имя Чашмы"
+          "uz": "Chashmaning buloq nomi"
+        "description":
+          "en": "The first thing to understand about Chashma is the name. It points toward water and gives the village stop a gentle reason to slow down, even before the route adds tea or nearby Kumushkon."
+          "ru": "Первое, что нужно понять о Чашме, — её название. Оно ведёт к воде и даёт сельской остановке мягкую причину замедлиться ещё до того, как маршрут добавит чай или соседний Кумушкан."
+          "uz": "Chashma haqida avval nomini tushunish kerak. U suvga ishora qiladi va yo‘l choy yoki yaqin Kumushkonni qo‘shishidan oldin ham qishloq bekatini sekinlashtiradi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/chashma-parkent/chashma-parkent-spring-identity-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Chashma and Kumushkon Pairing"
+          "ru": "Чашма и Кумушкан в одном выезде"
+          "uz": "Chashma va Kumushkon juftligi"
+        "description":
+          "en": "Chashma feels clearer when it is not treated as a lone marker. Nearby Kumushkon gives the Parkent outing a second village point, as long as both stops are suitable for the travel date."
+          "ru": "Чашма понятнее, когда её не превращают в одинокий маркер. Соседний Кумушкан даёт паркентской поездке вторую сельскую точку, если обе остановки подходят под конкретную дату."
+          "uz": "Chashma yolg‘iz marker sifatida emas, yaqin Kumushkon bilan ko‘rilganda aniqroq bo‘ladi. Ikkala bekat safar sanasiga mos bo‘lsa, Kumushkon Parkent chiqishiga ikkinchi qishloq nuqtasini beradi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/chashma-parkent/chashma-parkent-kumushkon-pairing"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Chashma Arrival Point"
+          "ru": "Точка прибытия в Чашме"
+          "uz": "Chashmadagi kelish nuqtasi"
+        "description":
+          "en": "The most useful Chashma detail is simple: where the visit actually begins. It may be the spring side, a road point, the village center, or a tea table, but the answer should be clear before leaving Tashkent."
+          "ru": "Самая полезная деталь Чашмы проста: где именно начинается визит. Это может быть родниковая сторона, дорожная точка, центр села или чайный стол, но ответ должен быть понятен до выезда из Ташкента."
+          "uz": "Chashmadagi eng foydali detal oddiy: tashrif qayerdan boshlanadi. Bu buloq tomoni, yo‘l nuqtasi, qishloq markazi yoki choy dasturxoni bo‘lishi mumkin, lekin javob Toshkentdan chiqishdan oldin aniq bo‘lishi kerak."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/chashma-parkent/chashma-parkent-local-meeting-point"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Village moments"
+      "ru": "Сельские моменты"
+      "uz": "Qishloq lahzalari"
+    "title":
+      "en": "Spring cue, tea, and a Parkent pairing"
+      "ru": "Родниковый смысл, чай и паркентская пара"
+      "uz": "Buloq belgisi, choy va Parkent juftligi"
+    "description":
+      "en": "Six small choices show how Chashma can stay modest, local, and useful inside a Tashkent-side outing."
+      "ru": "Шесть небольших решений показывают, как Чашма остаётся скромной, местной и полезной в выезде со стороны Ташкента."
+      "uz": "Olti kichik tanlov Chashma Toshkent tomoni chiqishida qanday kamtar, mahalliy va foydali qolishini ko‘rsatadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Water in the name"
+          "ru": "Родниковое имя"
+          "uz": "Buloq nomi"
+        "description":
+          "en": "Chashma’s name gives the visit its first cue: water, a small village scale, and a spring-side approach set locally."
+          "ru": "Название Чашмы сразу задаёт смысл остановки: вода, малый сельский масштаб и подход к родниковой стороне, который уточняется на месте."
+          "uz": "Chashma nomi tashrifga birinchi maʼnoni beradi: suv, kichik qishloq miqyosi va joyida belgilanadigan buloq tomoni yondashuvi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Tea, if arranged"
+          "ru": "Чай, если он согласован"
+          "uz": "Choy, kelishilgan bo‘lsa"
+        "description":
+          "en": "A short hello, tea, or home visit belongs here only when the local contact and timing are set for the date."
+          "ru": "Короткая встреча, чай или визит в дом уместны только тогда, когда контакт и время согласованы на дату."
+          "uz": "Qisqa uchrashuv, choy yoki xonadon tashrifi mahalliy aloqa va vaqt safar sanasiga belgilanganida kiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Kumushkon nearby"
+          "ru": "Кумушкан рядом"
+          "uz": "Kumushkon yonida"
+        "description":
+          "en": "Kumushkon gives Chashma a second Parkent point, so the outing feels like a pair of villages rather than a single marker."
+          "ru": "Кумушкан даёт Чашме вторую паркентскую точку, и поездка воспринимается как пара сёл, а не один маркер на карте."
+          "uz": "Kumushkon Chashmaga ikkinchi Parkent nuqtasini beradi, shunda chiqish bitta marker emas, ikki qishloq sifatida seziladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Heritage with restraint"
+          "ru": "Наследие без спешки"
+          "uz": "Merosni ehtiyot bilan"
+        "description":
+          "en": "Local heritage or a shrine setting can enrich the stop when the guide knows what is appropriate for the group."
+          "ru": "Местное наследие или святыня добавляют смысл, когда гид заранее понимает, что уместно для группы."
+          "uz": "Mahalliy meros yoki ziyorat joyi gid guruhga nima mosligini bilganida bekatga maʼno qo‘shadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Where the stop begins"
+          "ru": "Где начинается остановка"
+          "uz": "Bekat qayerdan boshlanadi"
+        "description":
+          "en": "Before travel, the team sets whether the arrival is by the spring side, a tea table, a road point, or the village center."
+          "ru": "До поездки команда уточняет, где начинается визит: у родниковой стороны, чайного стола, дороги или в центре села."
+          "uz": "Safardan oldin jamoa kelish joyini belgilaydi: buloq tomonimi, choy dasturxonimi, yo‘l nuqtasimi yoki qishloq markazimi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Light timing from Tashkent"
+          "ru": "Спокойный выезд из Ташкента"
+          "uz": "Toshkentdan sokin vaqt"
+        "description":
+          "en": "Keep the outing calm unless both Chashma and Kumushkon are set for the same Parkent route."
+          "ru": "Не уплотняйте выезд, если Чашма и Кумушкан не заданы для одного паркентского маршрута."
+          "uz": "Chashma va Kumushkon bitta Parkent yo‘nalishiga belgilanmasa, chiqishni siqmang."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "How to keep Chashma honest and enjoyable"
+      "ru": "Как оставить Чашму честной и приятной"
+      "uz": "Chashmani rost va yoqimli saqlash"
+    "description":
+      "en": "Chashma belongs in the route when it stays small: a water cue, a village pause, and nearby Kumushkon."
+      "ru": "Чашма уместна в маршруте, когда остаётся небольшой: родниковый смысл, сельская пауза и Кумушкан рядом."
+      "uz": "Chashma kichik qolganida yo‘nalishga mos tushadi: buloq maʼnosi, qishloq pauzasi va yaqin Kumushkon."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Water in the name"
+              "ru": "Родниковое имя"
+              "uz": "Buloq nomi"
+            "description":
+              "en": "Chashma’s name gives the stop its first clue; treat it as a gentle water-side cue, not a promise of a formal spring attraction."
+              "ru": "Название Чашмы даёт остановке первый смысл: мягкий водный ориентир, а не обещание отдельной большой достопримечательности."
+              "uz": "Chashma nomi bekatga birinchi maʼnoni beradi: katta alohida obyekt vaʼdasi emas, yumshoq suv mo‘ljali."
+          - "type": "quote"
+            "quote":
+              "en": "Let Chashma stay small: water in the name, Kumushkon nearby, and a clear start point."
+              "ru": "Оставьте Чашму небольшой: вода в названии, Кумушкан рядом и понятная точка начала."
+              "uz": "Chashma kichik qolsin: nomdagi suv, yonidagi Kumushkon va aniq boshlanish joyi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Kumushkon nearby"
+              "ru": "Кумушкан рядом"
+              "uz": "Kumushkon yonida"
+            "description":
+              "en": "Kumushkon gives the outing a second Parkent point, so Chashma feels less like a single marker and more like part of a small village pair."
+              "ru": "Кумушкан даёт поездке вторую паркентскую точку, поэтому Чашма воспринимается не одиночным маркером, а частью небольшой сельской пары."
+              "uz": "Kumushkon safarga ikkinchi Parkent nuqtasini beradi, shunda Chashma bitta marker emas, kichik qishloq juftligining bir qismi bo‘lib seziladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Where the stop begins"
+              "ru": "Где начинается остановка"
+              "uz": "Bekat qayerdan boshlanadi"
+            "description":
+              "en": "Before travel, the team clarifies where the guest actually arrives: by the spring side, a road point, the village center, or a tea table."
+              "ru": "До поездки команда уточняет, куда гость фактически прибывает: к родниковой стороне, дороге, центру села или чайному столу."
+              "uz": "Safardan oldin jamoa mehmon qayerga kelishini aniqlaydi: buloq tomonimi, yo‘l nuqtasimi, qishloq markazimi yoki choy dasturxonimi."
+          - "type": "alert"
+            "title":
+              "en": "Route decision"
+              "ru": "Решение по маршруту"
+              "uz": "Yo‘nalish qarori"
+            "description":
+              "en": "Keep Chashma when the arrival point and Kumushkon timing are clear; skip it when the route would make the stop feel rushed or vague."
+              "ru": "Оставляйте Чашму в маршруте, когда точка прибытия и время на Кумушкан понятны; убирайте, если остановка станет спешной или расплывчатой."
+              "uz": "Kelish joyi va Kumushkon vaqti aniq bo‘lsa, Chashmani qoldiring; bekat shoshilinch yoki noaniq bo‘lsa, yo‘lni soddalashtiring."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before travel Status"
+                  "ru": "Перед поездкой Статус"
+                  "uz": "Safardan oldin Maqom"
+                "description":
+                  "en": "Official tourism village in Parkent District."
+                  "ru": "Официальное туристическое село Паркентского района."
+                  "uz": "Parkent tumanidagi rasmiy turizm qishlog‘i."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Why go"
+                  "ru": "Зачем ехать"
+                  "uz": "Nega boriladi"
+                "description":
+                  "en": "A water-name cue, village life, heritage and shrine setting, and Kumushkon nearby."
+                  "ru": "Родниковое имя, сельская жизнь, наследие и святыни, а также Кумушкан рядом."
+                  "uz": "Buloq nomi, qishloq hayoti, meros va ziyorat joylari hamda yaqin Kumushkon."
+              - "icon": "Sun"
+                "title":
+                  "en": "Route fit"
+                  "ru": "Как вписать"
+                  "uz": "Yo‘nalishga mosligi"
+                "description":
+                  "en": "Fits from Tashkent through Parkent, especially when Kumushkon belongs in the same outing."
+                  "ru": "Подходит из Ташкента через Паркент, особенно когда Кумушкан уместен в том же выезде."
+                  "uz": "Toshkentdan Parkent orqali mos keladi, ayniqsa Kumushkon ham shu chiqishga kirsa."
+              - "icon": "Route"
+                "title":
+                  "en": "Set locally"
+                  "ru": "Уточнить на месте"
+                  "uz": "Joyida belgilash"
+                "description":
+                  "en": "Arrival point, spring-side approach, tea or home visit, and timing are set for the date."
+                  "ru": "Точка прибытия, подход к родниковой стороне, чай или визит в дом и время уточняются под дату."
+                  "uz": "Kelish joyi, buloq tomoni yondashuvi, choy yoki xonadon tashrifi va vaqt safar sanasiga belgilanadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby places"
+      "ru": "Рядом по маршруту"
+      "uz": "Yo‘ldagi yaqin joylar"
+    "title":
+      "en": "Where Chashma can lead next"
+      "ru": "Куда продолжить после Чашмы"
+      "uz": "Chashmadan keyin qayerga borish mumkin"
+    "description":
+      "en": "Kumushkon is the closest Parkent pair; Chimgan and Ovjazsoy widen the route toward the main foothill and Ohangaron sides."
+      "ru": "Кумушкан — ближайшая паркентская пара; Чимган и Овжазсой расширяют маршрут к главной предгорной и ахангаранской сторонам."
+      "uz": "Kumushkon eng yaqin Parkent jufti; Chimyon va Ovjazsoy esa yo‘lni asosiy tog‘oldi va Ohangaron tomonlariga kengaytiradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Kumushkon"
+          "ru": "Кумушкан"
+          "uz": "Kumushkon"
+        "description":
+          "en": "Kumushkon adds a Parkent village pause near Tashkent: cleaner air, everyday life, heritage cues, and nearby Chashma when the route has time."
+          "ru": "Кумушкан добавляет к выезду в Паркент сельскую паузу рядом с Ташкентом: чистый воздух, повседневную жизнь, наследие и Чашму, если маршрут не спешит."
+          "uz": "Kumushkon Toshkent yaqinidagi Parkent yo‘liga qishloq pauzasini qo‘shadi: toza havo, kundalik hayot, meros belgilari va yo‘l shoshilmasa Chashma."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/kumushkon"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/chashma-parkent-next-chimgan.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Chimgan"
+          "ru": "Чимган"
+          "uz": "Chimyon"
+        "description":
+          "en": "Chimgan gives Tashkent routes their closest mountain turn: foothill roads, Charvak water, open slopes, resort facilities, and guided gorge routes when conditions fit."
+          "ru": "Чимган даёт ташкентскому маршруту самый близкий горный поворот: предгорные дороги, воду Чарвака, открытые склоны, курортные выезды и ущелья с гидом, когда условия подходят."
+          "uz": "Chimyon Toshkent yoʻnalishiga eng yaqin togʻ burilishini beradi: togʻoldi yoʻllari, Chorvoq suvi, ochiq yonbagʻirlar, kurort chiqishlari va sharoit mos boʻlsa gidli daralar."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/chimgan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ovjazsoy"
+          "ru": "Овжазсой"
+          "uz": "Ovjazsoy"
+        "description":
+          "en": "Ovjazsoy adds a quiet Ohangaron village stop: orchards, household life, and upper-slope air, with exact meeting details set close to travel."
+          "ru": "Овжазсой добавляет ахангаранской стороне спокойную сельскую остановку: сады, дворовую жизнь и воздух верхней части, с деталями встречи ближе к поездке."
+          "uz": "Ovjazsoy Ohangaron tomoniga sokin qishloq bekatini qo‘shadi: bog‘lar, xonadon hayoti va yuqori qism havosi, uchrashuv tafsilotlari esa safarga yaqin belgilanadi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/ovjazsoy"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Chashma in the day plan"
+      "ru": "Как поставить Чашма в план дня"
+      "uz": "Chashmani kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Chashma?"
+          "ru": "Сколько времени группам стоит проводить в Чашма?"
+          "uz": "Chashmada guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A small Parkent village stop shaped by a spring name and nearby Kumushkon”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Небольшое село Паркента с родниковым именем и соседним Кумушканом»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Buloq nomi va Kumushkon bilan bog‘langan kichik Parkent qishlog‘i»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Chashma be a walkable core or a base for day trips?"
+          "ru": "Чашма — это пешеходное ядро или база для выездов?"
+          "uz": "Chashma piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Chashma's centre?"
+          "ru": "Где лучше ночевать относительно центра Чашма?"
+          "uz": "Chashma markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/chashma-parkent.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Chashma stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Чашма» в программу (Узбекистан)"
+      "uz": "Chashma bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Chashma | TourLink"
+    "ru": "Чашма | TourLink"
+    "uz": "Chashma | TourLink"
+  "metaDescription":
+    "en": "Chashma sits on the Parkent side of Tashkent Region, close enough to Kumushkon for the two villages to make sense together. The name points toward water, but the visit should stay modest: a clear arrival point, a short hello or tea when it is arranged for the date, and enough time to understand the village without turning it into a large attraction."
+    "ru": "Чашма находится на паркентской стороне Ташкентской области, достаточно близко к Кумушкану, чтобы два села воспринимались вместе. Название ведёт к родниковому смыслу, а визит лучше держать скромным: понятная точка прибытия, короткая встреча или чай при договорённости и время увидеть село без превращения его в крупную достопримечательность."
+    "uz": "Chashma Toshkent viloyatining Parkent tomonida, Kumushkonga yaqin joylashgan; ikki qishloqni bir yo‘nalishda ko‘rish mumkin. Nomi suvga ishora qiladi, tashrif esa kamtar qolishi kerak: aniq kelish joyi, kelishilgan bo‘lsa qisqa uchrashuv yoki choy, qishloqni katta obyektga aylantirmay tushunish uchun vaqt."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "tashkent-region"
+"latitude": 41.246896
+"longitude": 69.826574

@@ -8,7 +8,8 @@ export const actionFields: Field[] = [
 		options: [
 			{ label: "Mailto", value: "mailto" },
 			{ label: "Link", value: "link" },
-			{ label: "Tel", value: "tel" }
+			{ label: "Tel", value: "tel" },
+			{ label: "Lead form modal", value: "form" }
 		]
 	},
 	{

@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "qaynar-foothill-walking-setting"
+  "ru": "qaynar-foothill-walking-setting"
+  "uz": "qaynar-foothill-walking-setting"
+"title":
+  "en": "Qaynar Foothill Walks"
+  "ru": "Предгорные прогулки Кайнара"
+  "uz": "Qaynar tog‘oldi yurishlari"
+"subtitle":
+  "en": "Short field-edge walks below Taxtiqoracha Pass"
+  "ru": "Короткие прогулки по краям полей под перевалом Тахтакарача"
+  "uz": "Taxtiqoracha dovoni ostidagi dala chetlari bo‘ylab qisqa yurishlar"
+"excerpt":
+  "en": "Around Qaynar, the hills do not need a long trek. A short walk along field edges or low slopes adds air and movement after the spring, then brings the route back to the village."
+  "ru": "Вокруг Кайнара предгорья не требуют длинного похода. Короткая прогулка по краю поля или низкому склону добавляет воздуха после родника и возвращает маршрут к селу."
+  "uz": "Qaynar atrofidagi tog‘oldi uzoq piyoda safarni talab qilmaydi. Dala cheti yoki past yonbag‘ir bo‘ylab qisqa yurish buloqdan keyin havo va harakat qo‘shib, yo‘lni yana qishloqqa qaytaradi."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Qaynar Foothill Walks"
+      "ru": "Предгорные прогулки Кайнара"
+      "uz": "Qaynar tog‘oldi yurishlari"
+    "title":
+      "en": "Qaynar Foothill Walks"
+      "ru": "Предгорные прогулки Кайнара"
+      "uz": "Qaynar tog‘oldi yurishlari"
+    "description":
+      "en": "Short field-edge walks below Taxtiqoracha Pass"
+      "ru": "Короткие прогулки по краям полей под перевалом Тахтакарача"
+      "uz": "Taxtiqoracha dovoni ostidagi dala chetlari bo‘ylab qisqa yurishlar"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Qaynar Foothill Walks"
+      "ru": "Предгорные прогулки Кайнара"
+      "uz": "Qaynar tog‘oldi yurishlari"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Around Qaynar, the hills do not need a long trek."
+              "ru": "Вокруг Кайнара предгорья не требуют длинного похода."
+              "uz": "Qaynar atrofidagi tog‘oldi uzoq piyoda safarni talab qilmaydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "This is the gentle side of Qaynar: enough hillside air to feel Kitob's foothills, close enough to return to the spring, table, or onward road."
+              "ru": "Это мягкая сторона Кайнара: достаточно предгорного воздуха, чтобы почувствовать Китабский рельеф, и достаточно близко к селу, чтобы вернуться к роднику, столу или дороге дальше."
+              "uz": "Bu Qaynarning yengil tomoni: Kitob tog‘oldisini his qilish uchun yetarli havo, buloq, dasturxon yoki keyingi yo‘lga qaytish uchun esa qishloqqa yaqin masofa."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Short field-edge walks below Taxtiqoracha Pass."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Короткие прогулки по краям полей под перевалом Тахтакарача."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Taxtiqoracha dovoni ostidagi dala chetlari bo‘ylab qisqa yurishlar."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Qaynar Foothill Walks as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Предгорные прогулки Кайнара как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Qaynar tog‘oldi yurishlari o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Qaynar Foothill Walks sits on the route"
+      "ru": "Где Предгорные прогулки Кайнара стоит на маршруте"
+      "uz": "Qaynar tog‘oldi yurishlari marshrutda qayerda"
+    "description":
+      "en": "One clear point for Qaynar Foothill Walks — Short field-edge walks below Taxtiqoracha Pass."
+      "ru": "Одна понятная точка для «Предгорные прогулки Кайнара» — Короткие прогулки по краям полей под перевалом Тахтакарача."
+      "uz": "Qaynar tog‘oldi yurishlari uchun bitta aniq nuqta — Taxtiqoracha dovoni ostidagi dala chetlari bo‘ylab qisqa yurishlar."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Qaynar Foothill Walks"
+        "ru": "Предгорные прогулки Кайнара"
+        "uz": "Qaynar tog‘oldi yurishlari"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.2245198
+      "longitude": 66.9093211
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "qaynar-foothill-walking-setting"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "A short walk below the pass"
+      "ru": "Короткая прогулка под перевалом"
+      "uz": "Dovon ostidagi qisqa yurish"
+    "description":
+      "en": "This is the gentle side of Qaynar: enough hillside air to feel Kitob's foothills, close enough to return to the spring, table, or onward road.
+
+
+        «The hills add air to Qaynar when the walk still returns naturally to the village.»"
+      "ru": "Это мягкая сторона Кайнара: достаточно предгорного воздуха, чтобы почувствовать Китабский рельеф, и достаточно близко к селу, чтобы вернуться к роднику, столу или дороге дальше.
+
+
+        «Предгорья добавляют Кайнару воздуха, когда путь естественно возвращается к селу.»"
+      "uz": "Bu Qaynarning yengil tomoni: Kitob tog‘oldisini his qilish uchun yetarli havo, buloq, dasturxon yoki keyingi yo‘lga qaytish uchun esa qishloqqa yaqin masofa.
+
+
+        «Yurish qishloqqa tabiiy qaytganda, tog‘oldi Qaynarga havo qo‘shadi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Field edge, slope view, village return"
+      "ru": "Край поля, вид со склона, возвращение в село"
+      "uz": "Dala cheti, yonbag‘ir manzarasi, qishloqqa qaytish"
+    "description":
+      "en": "Look for small signs of the foothills: the field edge, the first rise, and the road back to Qaynar."
+      "ru": "Смотрите на небольшие признаки предгорий: край поля, первый подъём и дорогу обратно к Кайнару."
+      "uz": "Tog‘oldini kichik belgilardan ko‘ring: dala cheti, ilk ko‘tarilish va Qaynarga qaytadigan yo‘l."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как смотреть"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Keep the walk short and close"
+      "ru": "Коротко и рядом с селом"
+      "uz": "Yurish qisqa va qishloqqa yaqin qolsin"
+    "description":
+      "en": "Let the walk add air without crowding the spring, village table, road, or return transfer."
+      "ru": "Прогулка добавляет воздуха, но не вытесняет родник, сельский стол, дорогу и возвращение."
+      "uz": "Yurish havo qo‘shadi, lekin buloq, qishloq dasturxoni, yo‘l va qaytishni siqib chiqarmaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Around Qaynar"
+      "ru": "Вокруг Кайнара"
+      "uz": "Qaynar atrofida"
+    "title":
+      "en": "What to add around Qaynar"
+      "ru": "Что добавить вокруг Кайнара"
+      "uz": "Qaynar atrofida nimani qo‘shish mumkin"
+    "description":
+      "en": "Qaynar reads best in small parts: spring water, a light walk, and, when it fits naturally, a village table or outdoor pause."
+      "ru": "Кайнар лучше раскрывается небольшими частями: родниковая вода, лёгкая прогулка и, когда это естественно для маршрута, сельский стол или пауза на природе."
+      "uz": "Qaynar kichik qismlar orqali yaxshi ochiladi: buloq suvi, yengil yurish va yo‘lga tabiiy tushsa, qishloq dasturxoni yoki ochiq havo pauzasi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Qaynar Spring and Foothill Setting"
+          "ru": "Родник и предгорья Кайнара"
+          "uz": "Qaynar bulog‘i va tog‘oldi muhiti"
+        "description":
+          "en": "A modest Qaynar stop where spring water, fields, and foothill air slow the road below Taxtiqoracha Pass after Shakhrisabz."
+          "ru": "Скромная остановка в Кайнаре, где родниковая вода, поля и предгорный воздух замедляют дорогу под перевалом Тахтакарача после Шахрисабза."
+          "uz": "Qaynardagi kichik bekat, bu yerda buloq suvi, dalalar va tog‘oldi havosi Shahrisabzdan keyin Taxtiqoracha ostidagi yo‘lni sekinlashtiradi."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/qaynar/qaynar-spring-and-mountain-setting"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Qaynar Village Welcome"
+          "ru": "Сельская встреча в Кайнаре"
+          "uz": "Qaynar qishloq kutib olishi"
+        "description":
+          "en": "In Qaynar, the village welcome belongs close to the spring and foothill road: bread, tea, local food, craft, music, and open air when the visit can stay personal."
+          "ru": "В Кайнаре сельская встреча держится рядом с родником и предгорной дорогой: лепёшка, чай, местная еда, ремесло, музыка и воздух, когда визит может остаться личным."
+          "uz": "Qaynarda qishloq kutib olishi buloq va tog‘oldi yo‘liga yaqin turadi: non, choy, mahalliy taom, hunar, musiqa va tashrif shaxsiy qoladigan ochiq havo."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/qaynar/qaynar-village-food-craft-and-camping-setting"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Qaynar Foothill Walks"
+      "ru": "Что агентства спрашивают про Предгорные прогулки Кайнара"
+      "uz": "Agentliklar Qaynar tog‘oldi yurishlari haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Qaynar Foothill Walks get in the day plan?"
+          "ru": "Сколько времени закладывать на Предгорные прогулки Кайнара в плане дня?"
+          "uz": "Qaynar tog‘oldi yurishlari uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "1–2 hours is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Short field-edge walks below Taxtiqoracha Pass”."
+          "ru": "Для большинства групп реалистичный диапазон — 1–2 часа. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Короткие прогулки по краям полей под перевалом Тахтакарача»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 1–2 soat. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Taxtiqoracha dovoni ostidagi dala chetlari bo‘ylab qisqa yurishlar»."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "When is Qaynar Foothill Walks strongest during the day?"
+          "ru": "В какое время дня Предгорные прогулки Кайнара раскрывается сильнее?"
+          "uz": "Qaynar tog‘oldi yurishlari kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer when the light is soft and queues are lighter. That usually improves comfort, photos, and how the stop feels in the sequence around qaynar."
+          "ru": "Лучше когда свет мягче и очередей меньше. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с qaynar."
+          "uz": "yorug‘lik yumshoq va navbat kamroq bo‘lganda afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (qaynar atrofida)."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "How should Qaynar Foothill Walks sit next to nearby stops?"
+          "ru": "Как поставить Предгорные прогулки Кайнара рядом с соседними остановками?"
+          "uz": "Qaynar tog‘oldi yurishlarini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Qaynar Foothill Walks to your Uzbekistan programme"
+      "ru": "Добавьте «Предгорные прогулки Кайнара» в программу (Узбекистан)"
+      "uz": "Qaynar tog‘oldi yurishlarini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Qaynar Foothill Walks | TourLink"
+    "ru": "Предгорные прогулки Кайнара | TourLink"
+    "uz": "Qaynar tog‘oldi yurishlari | TourLink"
+  "metaDescription":
+    "en": "Around Qaynar, the hills do not need a long trek. A short walk along field edges or low slopes adds air and movement after the spring, then brings the route back to the village."
+    "ru": "Вокруг Кайнара предгорья не требуют длинного похода. Короткая прогулка по краю поля или низкому склону добавляет воздуха после родника и возвращает маршрут к селу."
+    "uz": "Qaynar atrofidagi tog‘oldi uzoq piyoda safarni talab qilmaydi. Dala cheti yoki past yonbag‘ir bo‘ylab qisqa yurish buloqdan keyin havo va harakat qo‘shib, yo‘lni yana qishloqqa qaytaradi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "kashkadarya-and-shakhrisabz"
+"city": "qaynar"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 39.2245198
+"longitude": 66.9093211

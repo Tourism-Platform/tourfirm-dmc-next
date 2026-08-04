@@ -1,66 +1,629 @@
-# Seed: cities — Samarkand (from OLD DB)
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "samarkand"
+  "ru": "samarkand"
+  "uz": "samarkand"
+"title":
+  "en": "Samarkand"
+  "ru": "Самарканд"
+  "uz": "Samarqand"
+"subtitle":
+  "en": "Blue tile, rail rhythm, and old-city life"
+  "ru": "Синяя керамика, ритм поездов и жизнь старого города"
+  "uz": "Koʻk koshin, poyezd ritmi va eski shahar hayoti"
+"excerpt":
+  "en": "Registan may be the first image travelers carry of Uzbekistan, but Samarkand is wider than one square. The day leads on to Shah-i-Zinda, Gur-e-Amir, Bibi-Khanym, Siab Bazaar, old lanes, early trains from Tashkent, Afrasiab beneath today's city, and the scientific story around Ulugh Beg's observatory."
+  "ru": "Регистан часто становится первым образом Узбекистана, но Самарканд шире одной площади. День ведёт дальше — к Шахи-Зинде, Гур-Эмиру, Биби-Ханым, Сиабскому базару, старым улицам, ранним поездам из Ташкента, Афрасиабу под современным городом и научной истории вокруг обсерватории Улугбека."
+  "uz": "Registon ko‘p sayohatchilar uchun Oʻzbekistonning birinchi tasviri bo‘lishi mumkin, lekin Samarqand bitta maydondan kengroq. Shahar ko‘k koshin, Go‘ri Amir, bozor noni, eski ko‘chalar, Toshkentdan keladigan erta poyezdlar, zamonaviy shahar ostidagi Afrosiyob va Ulug‘bek rasadxonasi tomon davom etadi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/samarkand.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/samarkand.webp"
+    "imageAlt":
+      "en": "Samarkand"
+      "ru": "Самарканд"
+      "uz": "Samarqand"
+    "title":
+      "en": "Samarkand"
+      "ru": "Самарканд"
+      "uz": "Samarqand"
+    "description":
+      "en": "Blue tile, rail rhythm, and old-city life"
+      "ru": "Синяя керамика, ритм поездов и жизнь старого города"
+      "uz": "Koʻk koshin, poyezd ritmi va eski shahar hayoti"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
 
-slug:
-  en: samarkand
-  ru: samarkand
-  uz: samarkand
-title:
-  en: Samarkand
-  ru: Самарканд
-  uz: Samarqand
-subtitle:
-  en: Timurid capital
-  ru: Столица эпохи Тимуридов
-  uz: Temuriylar poytaxti
-excerpt:
-  en: Registan, Shah-i-Zinda and the city that defines the Silk Road.
-  ru: Регистан, Шахи-Зинда и город, который определяет образ Шёлкового пути.
-  uz: Registon, Shohi Zinda va Ipak yo'lini ifodalovchi shahar.
-country: uzbekistan
-region: samarkand-region
-latitude: 39.6542
-longitude: 66.9597
-heroImage: assets/images/city/samarkand.jpg
-blocks:
-  - blockType: hero
-    image: assets/images/city/samarkand.jpg
-    imageAlt:
-      en: Registan Square, Samarkand
-      ru: Площадь Регистан, Самарканд
-      uz: Samarqand, Registon maydoni
-    title:
-      en: Samarkand
-      ru: Самарканд
-      uz: Samarqand
-    description:
-      en: Registan, Shah-i-Zinda and the city that defines the Silk Road.
-      ru: Регистан, Шахи-Зинда и город, который определяет образ Шёлкового пути.
-      uz: Registon, Shohi Zinda va Ipak yo'lini ifodalovchi shahar.
-  - blockType: regular
-    eyebrow:
-      en: Overview
-      ru: Обзор
-      uz: Umumiy
-    title:
-      en: Samarkand at a glance
-      ru: Самарканд в двух словах
-      uz: Samarqand qisqacha
-    description:
-      en: "Most first-time visitors pair Registan with Shah-i-Zinda and a slower old-city walk. Afrosiyob from Tashkent is the fastest link; 1-2 nights cover major monuments without rush."
-      ru: "Большинство гостей сочетают Регистан с Шахи-Зиндой и неспешной прогулкой по старому городу. «Афросиёб» из Ташкента — самый быстрый вариант; 1–2 ночи хватает на главные памятники."
-      uz: "Ko'pchilik mehmonlar Registonni Shohi Zinda va sekin eski shahar sayriga birlashtiradi. Toshkentdan Afrosiyob eng tez yo'l; 1-2 tun asosiy yodgorliklar uchun yetarli."
-seo:
-  metaTitle:
-    en: Samarkand | TourLink
-    ru: Самарканд | TourLink
-    uz: Samarqand | TourLink
-  metaDescription:
-    en: Registan, Shah-i-Zinda and Timurid Samarkand — TourLink city guide.
-    ru: Регистан, Шахи-Зинда и Самарканд эпохи Тимуридов — гид TourLink.
-    uz: Registon, Shohi Zinda va Temuriylar Samarqandi — TourLink shahri gidi.
-  structuredDataType: TouristDestination
-status:
-  showInSitemap: true
-  noindex: false
-  hideFromNavigation: false
-  publishedAt: "2025-06-01"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Samarkand"
+      "ru": "Самарканд"
+      "uz": "Samarqand"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Registan may be the first image travelers carry of Uzbekistan, but Samarkand is wider than one square."
+              "ru": "Регистан часто становится первым образом Узбекистана, но Самарканд шире одной площади."
+              "uz": "Registon ko‘p sayohatchilar uchun Oʻzbekistonning birinchi tasviri bo‘lishi mumkin, lekin Samarqand bitta maydondan kengroq."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "A Samarkand day is easier to keep unhurried when it starts with arrival, then moves through Registan, Shah-i-Zinda, Gur-e-Amir, Bibi-Khanym, Siab Bazaar, and one chosen continuation before the next train."
+              "ru": "День в Самарканде легче провести без спешки: сначала приезд, затем Регистан, Шахи-Зинда, Гур-Эмир, Биби-Ханым, Сиабский базар и одно выбранное продолжение перед следующим поездом."
+              "uz": "Samarqand kunini shoshirmasdan o‘tkazish osonroq: avval kelish, keyin Registon, Shohi Zinda, Go‘ri Amir, Bibi Xonim, Siyob bozori va keyingi poyezddan oldin tanlangan bitta davom."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The station or airport should feel like a calm start. A measured arrival leaves room for check-in, the first look at the domes, and the choice of how the route continues west."
+              "ru": "Вокзал или аэропорт лучше проходить без спешки. Спокойный приезд оставляет место для заселения, первого взгляда на купола и решения, как маршрут пойдёт дальше на запад."
+              "uz": "Vokzal yoki aeroportdan shoshilmasdan chiqish yaxshi. Sokin kelish mehmonxonaga joylashish, gumbazlarga ilk qarash va yo‘l gʻarbga qanday davom etishini tanlash uchun joy qoldiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Samarkand as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Самарканд как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Samarqand o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "Calm arrival, old city, and the road west"
+      "ru": "Спокойный приезд, старый город и дорога на запад"
+      "uz": "Sokin kelish, eski shahar va gʻarb yoʻli"
+    "description":
+      "en": "A Samarkand day is easier to keep unhurried when it starts with arrival, then moves through Registan, Shah-i-Zinda, Gur-e-Amir, Bibi-Khanym, Siab Bazaar, and one chosen continuation before the next train."
+      "ru": "День в Самарканде легче провести без спешки: сначала приезд, затем Регистан, Шахи-Зинда, Гур-Эмир, Биби-Ханым, Сиабский базар и одно выбранное продолжение перед следующим поездом."
+      "uz": "Samarqand kunini shoshirmasdan o‘tkazish osonroq: avval kelish, keyin Registon, Shohi Zinda, Go‘ri Amir, Bibi Xonim, Siyob bozori va keyingi poyezddan oldin tanlangan bitta davom."
+    "mapPanel":
+      "eyebrow":
+        "en": "Main places"
+        "ru": "Главные места"
+        "uz": "Asosiy joylar"
+      "title":
+        "en": "Registan, Shah-i-Zinda, and the old-city side"
+        "ru": "Регистан, Шахи-Зинда и старогородская сторона"
+        "uz": "Registon, Shohi Zinda va eski shahar tomoni"
+      "description":
+        "en": "The map shows the main places close together, but the city becomes clearer when Registan and the old-city side leave room for one continuation: Gur-e-Amir, Afrasiab, Ulugh Beg's observatory, a small old-city stop, or the craft road."
+        "ru": "Карта показывает главные места рядом, но город понятнее, когда Регистан и старогородская сторона оставляют место одному продолжению: Гур-Эмиру, Афрасиабу, обсерватории Улугбека, малой старогородской остановке или ремесленной дороге."
+        "uz": "Xarita asosiy joylarni yaqin ko‘rsatadi, lekin shahar Registon va eski shahar tomoni bitta davomga joy qoldirganda aniqroq ko‘rinadi: Go‘ri Amir, Afrosiyob, Ulug‘bek rasadxonasi, kichik eski shahar bekati yoki hunarmandchilik yo‘li."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.658237
+      "longitude": 66.979831
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "registan-square"
+      - "entityType": "attraction"
+        "entitySlug": "shah-i-zinda"
+      - "entityType": "attraction"
+        "entitySlug": "bibi-khanym-mosque"
+    "aside":
+      "eyebrow":
+        "en": "Route rhythm"
+        "ru": "Ритм маршрута"
+        "uz": "Marshrut ritmi"
+      "title":
+        "en": "Start by entering the city calmly"
+        "ru": "Сначала спокойно войти в город"
+        "uz": "Avval shaharga sokin kirish"
+      "description":
+        "en": "The station or airport should feel like a calm start. A measured arrival leaves room for check-in, the first look at the domes, and the choice of how the route continues west."
+        "ru": "Вокзал или аэропорт лучше проходить без спешки. Спокойный приезд оставляет место для заселения, первого взгляда на купола и решения, как маршрут пойдёт дальше на запад."
+        "uz": "Vokzal yoki aeroportdan shoshilmasdan chiqish yaxshi. Sokin kelish mehmonxonaga joylashish, gumbazlarga ilk qarash va yo‘l gʻarbga qanday davom etishini tanlash uchun joy qoldiradi."
+      "items":
+        - "title":
+            "en": "Arrival stays unhurried"
+            "ru": "Приезд начинается без спешки"
+            "uz": "Kelish shoshilmasdan boshlanadi"
+          "description":
+            "en": "Afrosiyob brings many travelers from Tashkent; a calm first transfer leaves room to settle in and see the blue domes without rushing."
+            "ru": "Afrosiyob часто привозит гостей из Ташкента; спокойный первый трансфер оставляет время заселиться и увидеть синие купола без спешки."
+            "uz": "Afrosiyob ko‘p mehmonlarni Toshkentdan olib keladi; sokin birinchi transfer joylashish va ko‘k gumbazlarni shoshilmasdan ko‘rish uchun vaqt qoldiradi."
+          "badge":
+            "en": "Rail arrival"
+            "ru": "Приезд поездом"
+            "uz": "Poyezd kelishi"
+        - "title":
+            "en": "Each sight needs its own pace"
+            "ru": "Главным местам нужен разный темп"
+            "uz": "Asosiy joylarga har xil ritm kerak"
+          "description":
+            "en": "Registan, Shah-i-Zinda, Bibi-Khanym, and Gur-e-Amir sit close enough for short transfers, but they do not ask for the same kind of visit: open square, close tilework, mosque beside market, and dynastic memory."
+            "ru": "Регистан, Шахи-Зинда, Биби-Ханым и Гур-Эмир стоят достаточно близко, но это не один тип посещения: открытая площадь, близкая керамика, мечеть у рынка и династическая память."
+            "uz": "Registon, Shohi Zinda, Bibi Xonim va Go‘ri Amir qisqa ko‘chishlar uchun yetarlicha yaqin, lekin ularni bir xil ko‘rib bo‘lmaydi: ochiq maydon, yaqin koshin, bozor yonidagi masjid va sulolaviy xotira."
+          "badge":
+            "en": "Main places"
+            "ru": "Главные места"
+            "uz": "Asosiy joylar"
+        - "title":
+            "en": "Siab Bazaar keeps the city human"
+            "ru": "Сиабский базар возвращает город к людям"
+            "uz": "Siyob bozori shaharni odamlarga qaytaradi"
+          "description":
+            "en": "Bread steam, market sound, old lanes, Chorsu Gallery, and small craft pauses keep the day from becoming only a monument checklist."
+            "ru": "Пар хлеба, звук рынка, старые улицы, галерея Чорсу и короткие ремесленные паузы не дают дню стать списком памятников."
+            "uz": "Non bugʻi, bozor tovushi, eski ko‘chalar, Chorsu galereyasi va qisqa hunarmandchilik pauzalari kunni faqat yodgorliklar ro‘yxatiga aylantirmaydi."
+          "badge":
+            "en": "Living city"
+            "ru": "Живой город"
+            "uz": "Tirik shahar"
+        - "title":
+            "en": "The route turns west from here"
+            "ru": "Отсюда маршрут уходит на запад"
+            "uz": "Marshrut bu yerdan gʻarbga buriladi"
+          "description":
+            "en": "After Samarkand, the route often continues to Bukhara, so the last morning or evening should not disappear into a departure rush."
+            "ru": "После Самарканда маршрут часто продолжается к Бухаре, поэтому последнее утро или вечер не стоит терять в спешке перед выездом."
+            "uz": "Samarqanddan keyin yo‘l ko‘pincha Buxoroga davom etadi, shuning uchun oxirgi tong yoki oqshom jo‘nash shoshilishida yo‘qolmasligi kerak."
+          "badge":
+            "en": "Onward route"
+            "ru": "Продолжение маршрута"
+            "uz": "Davom yoʻli"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Main places and the rest of the day"
+      "ru": "Главные места и продолжение дня"
+      "uz": "Asosiy joylar va kun davomi"
+    "description":
+      "en": "Registan, Shah-i-Zinda, and Bibi-Khanym give the first three city places. The wider route also depends on Gur-e-Amir, Siab Bazaar, Afrasiab, Ulugh Beg's observatory, and smaller old-city stops when timing allows."
+      "ru": "Регистан, Шахи-Зинда и Биби-Ханым дают первые три городские места. Более широкий маршрут также держится на Гур-Эмире, Сиабском базаре, Афрасиабе, обсерватории Улугбека и малых остановках старого города, когда позволяет темп."
+      "uz": "Registon, Shohi Zinda va Bibi Xonim birinchi uch shahar joyini beradi. Kengroq marshrut esa Go‘ri Amir, Siyob bozori, Afrosiyob, Ulug‘bek rasadxonasi va eski shaharning kichik bekatlariga ham joy qoldiradi, agar ritm bunga imkon bersa."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/samarkand/attractions/registan-square.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Registan Square"
+          "ru": "Регистан"
+          "uz": "Registon maydoni"
+        "description":
+          "en": "Registan is Samarkand at full scale: Ulugh Beg, Sher-Dor, and Tilya-Kori madrasahs facing one open square. The place is easiest to understand when the first view has time, then the details begin to separate: mosaic, calligraphy, courtyards, and doorways."
+          "ru": "Регистан показывает Самарканд в полном масштабе: медресе Улугбека, Шер-Дор и Тилля-Кари стоят вокруг открытой каменной площади. Место легче понять, если сначала дать время общему виду, а потом приблизиться к мозаике, каллиграфии, дворам и дверям медресе."
+          "uz": "Registon Samarqandni katta miqyosda ko‘rsatadi: Ulug‘bek, Sherdor va Tillakori madrasalari ochiq tosh maydon atrofida turadi. Joyni avval umumiy ko‘rinishga vaqt berib, keyin mozaika, xattotlik, hovlilar va eshiklarga yaqinlashganda tushunish osonroq."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/samarkand/registan-square"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/samarkand/attractions/shah-i-zinda.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Shah-i-Zinda"
+          "ru": "Шахи-Зинда"
+          "uz": "Shohi Zinda"
+        "description":
+          "en": "Shah-i-Zinda brings Samarkand close: a narrow ascent of mausoleums, blue mosaic almost within reach, and a sacred center tied to Qusam ibn Abbas. The place is understood step by step, not through one facade."
+          "ru": "Шахи-Зинда приближает Самарканд: узкий подъём мавзолеев, синяя мозаика почти рядом с рукой и сакральный центр, связанный с Кусамом ибн Аббасом. Место понимается шаг за шагом, а не через один фасад."
+          "uz": "Shohi Zinda Samarqandni yaqinlashtiradi: tor maqbaralar ko‘tarilishi, qo‘l yetgudek ko‘k koshin va Qusam ibn Abbos bilan bog‘liq muqaddas markaz. Bu joy bitta fasad orqali emas, qadam-baqadam tushuniladi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/samarkand/shah-i-zinda"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/samarkand/attractions/bibi-khanym-mosque.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Bibi-Khanym Mosque"
+          "ru": "Мечеть Биби-Ханым"
+          "uz": "Bibi Xonim masjidi"
+        "description":
+          "en": "Bibi-Khanym stands at the edge of monument and bazaar: a great portal, brick, blue ornament, and Siab Bazaar a few steps away. The place is easier to understand with the old-city life around it, not as a monument apart."
+          "ru": "Биби-Ханым стоит на границе памятника и базара: большой портал, кирпич, синий орнамент и Сиабский базар в нескольких шагах. Место понятнее не отдельно, а вместе со старогородской жизнью вокруг."
+          "uz": "Bibi Xonim yodgorlik va bozor chegarasida turadi: katta portal, g‘isht, ko‘k naqsh va bir necha qadam naridagi Siyob bozori. Bu joy alohida emas, atrofidagi eski shahar hayoti bilan tushunarliroq."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/samarkand/bibi-khanym-mosque"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City rhythm"
+      "ru": "Ритм города"
+      "uz": "Shahar ritmi"
+    "title":
+      "en": "How Samarkand feels"
+      "ru": "Как ощущается Самарканд"
+      "uz": "Samarqand qanday seziladi"
+    "description":
+      "en": "Part of the city opens away from the largest facades: bread near Siab Bazaar, blue ceramic up close, craft hands in Konigil, and a quiet return after Registan empties."
+      "ru": "Часть города открывается вдали от самых больших фасадов: хлеб у Сиабского базара, синяя керамика вблизи, руки мастеров в Конигиле и тихое возвращение после опустевшего Регистана."
+      "uz": "Shaharning bir qismi eng katta fasadlardan chetroqda seziladi: Siyob yaqinidagi non, yaqindan ko‘rilgan ko‘k koshin, Konigildagi usta qo‘llari va Registon tinchgandan keyingi qaytish."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/samarkand/samarkand-character-1.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Sacred heritage in context"
+          "ru": "Сакральное наследие"
+          "uz": "Muqaddas meros"
+        "description":
+          "en": "Shah-i-Zinda asks for slower steps, and Bibi-Khanym keeps sacred scale beside the market. The city feels different when prayer, memory, and daily movement stay in the same frame."
+          "ru": "В Шахи-Зинде шаг сам замедляется, а Биби-Ханым держит сакральный масштаб рядом с рынком. Город ощущается иначе, когда молитва, память и повседневное движение остаются в одном кадре."
+          "uz": "Shohi Zindada qadam o‘z-o‘zidan sekinlashadi, Bibi Xonim esa muqaddas miqyosni bozor yonida ushlab turadi. Ibodat, xotira va kundalik harakat bir manzarada qolganda shahar boshqacha seziladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/samarkand/samarkand-character-2.webp"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Bazaar and courtyard rhythm"
+          "ru": "Базар и двор"
+          "uz": "Bozor va hovli ritmi"
+        "description":
+          "en": "Near Siab Bazaar, Samarkand stops being only monuments: bread steam, fruit color, a tea pause, and courtyard shade bring the old city close enough to sit with it for a while."
+          "ru": "У Сиабского базара Самарканд перестаёт быть только памятниками: пар хлеба, цвет фруктов, пауза за чаем и тень двора приближают старый город так, что с ним хочется остаться на несколько минут."
+          "uz": "Siyob bozori yaqinida Samarqand faqat yodgorliklardan iborat bo‘lmay qoladi: non bug‘i, meva rangi, choy pauzasi va hovli soyasi eski shaharni yoningizga yaqin olib keladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/samarkand/samarkand-character-3.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Architecture in context"
+          "ru": "Архитектура в контексте"
+          "uz": "Kontekstdagi meʼmorchilik"
+        "description":
+          "en": "Registan, Shah-i-Zinda, and Bibi-Khanym are not separate postcard stops. Together they show how Samarkand moves from open square to close mosaic, mosque wall, bazaar sound, and old-city life."
+          "ru": "Регистан, Шахи-Зинда и Биби-Ханым — не отдельные открытки. Вместе они показывают, как Самарканд переходит от открытой площади к близкой мозаике, стенам мечети, звуку базара и жизни старого города."
+          "uz": "Registon, Shohi Zinda va Bibi Xonim alohida otkritka bekatlari emas. Birga ular Samarqand ochiq maydondan yaqin mozaika, masjid devori, bozor tovushi va eski shahar hayotiga qanday o‘tishini ko‘rsatadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/samarkand/samarkand-character-4.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Evening after Registan"
+          "ru": "Вечер после Регистана"
+          "uz": "Registondan keyingi oqshom"
+        "description":
+          "en": "After the square, Samarkand needs a slower return: quieter streets, the last color on tile, and enough space to let Shah-i-Zinda or the bazaar remain separate in memory, not folded into one list."
+          "ru": "После площади Самарканду нужен более медленный возврат: тихие улицы, последний цвет на керамике и достаточно места, чтобы Шахи-Зинда или базар остались отдельной памятью, а не частью одного списка."
+          "uz": "Maydondan keyin Samarqandga sekinroq qaytish kerak: sokin ko‘chalar, koshindagi oxirgi rang va Shohi Zinda yoki bozor bitta ro‘yxatga qo‘shilib ketmay, alohida xotira bo‘lib qolishi uchun yetarli joy."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/samarkand/samarkand-character-5.webp"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Afrasiab and the observatory"
+          "ru": "Афрасиаб и обсерватория"
+          "uz": "Afrosiyob va rasadxona"
+        "description":
+          "en": "Afrasiab and Ulugh Beg's observatory move the city beyond the postcard view. The route turns toward ancient ground, maps, fragments, and a scientific memory that changes how you read the domes."
+          "ru": "Афрасиаб и обсерватория Улугбека выводят город за пределы открыточного вида. Маршрут поворачивает к древней земле, картам, фрагментам и научной памяти, после которой купола воспринимаются иначе."
+          "uz": "Afrosiyob va Ulug‘bek rasadxonasi shaharni otkritka manzarasidan kengroq qiladi. Yo‘l qadimiy zamin, xaritalar, parcha topilmalar va gumbazlarni boshqacha o‘qishga yordam beradigan ilmiy xotiraga buriladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Konigil paper and hands"
+          "ru": "Конигил: бумага и руки"
+          "uz": "Konigil: qog‘oz va qo‘llar"
+        "description":
+          "en": "Outside the monumental core, Konigil slows the day to water channels, paper fibre, bread, and hands at work. You understand Samarkand not only through blue tile, but through a craft rhythm that still belongs to the region."
+          "ru": "За пределами главных памятников Конигил замедляет день: арыки, волокно бумаги, хлеб и работа рук. Самарканд становится понятнее не только через синюю керамику, но и через ремесленный ритм, который всё ещё принадлежит региону."
+          "uz": "Asosiy yodgorliklardan tashqarida Konigil kunni ariqlar, qog‘oz tolasi, non va ishlayotgan qo‘llar ritmiga sekinlashtiradi. Samarqand faqat ko‘k koshin orqali emas, hududga hanuz tegishli hunar ritmi orqali ham tushunarli bo‘ladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Yo‘lga chiqishdan oldin"
+    "title":
+      "en": "How to pace a Samarkand day"
+      "ru": "Как выстроить день в Самарканде"
+      "uz": "Samarqand kunini shoshmasdan ko‘rish"
+    "description":
+      "en": "Samarkand is easy to enter, and just as easy to turn into a list. The day feels clearer with simple pauses: market sound, station rhythm, one archaeological or scientific stop, and a pause after the open square."
+      "ru": "В Самарканд легко приехать, но день быстро превращается в список, если всё держится только на памятниках. Помогают простые паузы: звук рынка, ритм вокзала, одна археологическая или научная остановка и передышка после открытой площади."
+      "uz": "Samarqandga kelish oson, lekin kun tezda yodgorliklar ro‘yxatiga aylanib qolishi mumkin. Oddiy pauzalar yordam beradi: bozor tovushi, vokzal ritmi, bitta arxeologik yoki ilmiy to‘xtash va ochiq maydondan keyingi nafas."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Arrival without rush"
+              "ru": "Приезд без спешки"
+              "uz": "Shoshilmasdan kelish"
+            "description":
+              "en": "The train station or airport sets the first city impression. A calm transfer and a little room before the first visit keep the domes from feeling rushed."
+              "ru": "Вокзал или аэропорт задают первое впечатление. Спокойный трансфер и небольшая пауза перед первой прогулкой помогают увидеть купола без ощущения спешки."
+              "uz": "Vokzal yoki aeroport birinchi taassurotni beradi. Sokin transfer va birinchi sayrdan oldingi kichik pauza gumbazlarni shoshilmasdan ko‘rishga yordam beradi."
+          - "type": "quote"
+            "quote":
+              "en": "Samarkand stays whole when Registan leaves room for mausoleums, archaeology, the bazaar, and the road onward."
+              "ru": "Самарканд остаётся цельным, когда после Регистана есть место для мавзолеев, археологии, базара и дороги дальше."
+              "uz": "Samarqand Registondan keyin maqbaralar, arxeologiya, bozor va keyingi yo‘l uchun joy qolganida yaxlitroq seziladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Monuments, mausoleums, and archaeology"
+              "ru": "Памятники, мавзолеи и археология"
+              "uz": "Yodgorliklar, maqbaralar va arxeologiya"
+            "description":
+              "en": "Registan, Shah-i-Zinda, Bibi-Khanym, and Gur-e-Amir are close enough for short transfers, but each needs a different pace. Afrasiab and Ulugh Beg's observatory add older history and scientific context when the route has room."
+              "ru": "Регистан, Шахи-Зинда, Биби-Ханым и Гур-Эмир находятся недалеко друг от друга, но каждому месту нужен свой темп. Афрасиаб и обсерватория Улугбека добавляют древнюю историю и научный контекст, если в маршруте есть место."
+              "uz": "Registon, Shohi Zinda, Bibi Xonim va Go‘ri Amir bir-biriga yaqin, lekin har biri alohida ritmni so‘raydi. Afrosiyob va Ulug‘bek rasadxonasi marshrutda joy bo‘lsa, qadimiy tarix va ilmiy kontekst qo‘shadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Bazaar, small stops, and onward route"
+              "ru": "Базар, малые остановки и продолжение маршрута"
+              "uz": "Bozor, kichik bekatlar va davom yo‘li"
+            "description":
+              "en": "Siab Bazaar, Chorsu Gallery, old-city lanes, and small craft pauses give the day voices, bread, and street movement before the journey turns west toward Bukhara and Khiva."
+              "ru": "Сиабский базар, галерея Чорсу, старые улицы и короткие ремесленные паузы дают дню голоса, хлеб и движение старого города перед дорогой на запад к Бухаре и Хиве."
+              "uz": "Siyob bozori, Chorsu galereyasi, eski ko‘chalar va qisqa hunarmandchilik pauzalari Buxoro hamda Xivaga gʻarb yo‘li oldidan kunga ovoz, non hidi va eski shahar harakatini beradi."
+          - "type": "alert"
+            "title":
+              "en": "For the traveler"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "One calm morning or evening gives the square, tilework, mausoleum, bazaar, one calmer stop, and onward train enough room to belong together."
+              "ru": "Одного спокойного утра или вечера достаточно, чтобы площадь, керамика, мавзолей, базар, одна спокойная остановка и следующий поезд стали частью одного дня."
+              "uz": "Hech bo‘lmaganda bitta sokin tong yoki oqshom qolsa, maydon, koshin, maqbara, bozor, bitta sokin to‘xtash va keyingi poyezd bir kunning qismlariga aylanadi."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Yo‘lga chiqishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before you go Stay rhythm"
+                  "ru": "Перед поездкой Темп пребывания"
+                  "uz": "Yo‘l oldidan Qolish ritmi"
+                "description":
+                  "en": "Two nights give Registan, Shah-i-Zinda, Bibi-Khanym, Gur-e-Amir, the bazaar, and one archaeology or observatory stop enough room."
+                  "ru": "Две ночи дают место для Регистана, Шахи-Зинды, Биби-Ханым, Гур-Эмира, базара и одной археологической или обсерваторной остановки."
+                  "uz": "Ikki tun Registon, Shohi Zinda, Bibi Xonim, Go‘ri Amir, bozor va bitta arxeologiya yoki rasadxona to‘xtashi uchun joy beradi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main place"
+                  "ru": "Главное место"
+                  "uz": "Asosiy joy"
+                "description":
+                  "en": "Registan is the first major place, but the city becomes clearer with Shah-i-Zinda, Gur-e-Amir, and the old-city side."
+                  "ru": "Регистан — первое сильное место, но город понятнее вместе с Шахи-Зиндой, Гур-Эмиром и старым городом."
+                  "uz": "Registon birinchi kuchli joy, ammo shahar Shohi Zinda, Go‘ri Amir va eski shahar bilan tushunarliroq bo‘ladi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Best rhythm"
+                  "ru": "Лучший ритм"
+                  "uz": "Eng yaxshi ritm"
+                "description":
+                  "en": "Spring and autumn are easiest; summer needs early starts, cooler pauses, and evening returns."
+                  "ru": "Весна и осень удобнее всего; летом нужны ранние выходы, прохладные паузы и вечерние возвращения."
+                  "uz": "Bahor va kuz eng qulay; yozda erta chiqish, salqin pauzalar va kechki qaytish kerak."
+              - "icon": "Route"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Marshrutdagi roli"
+                "description":
+                  "en": "Rail link between Tashkent and Bukhara, with Khiva as the wider westward continuation."
+                  "ru": "Железнодорожный узел между Ташкентом и Бухарой, с Хивой как западным продолжением."
+                  "uz": "Toshkent va Buxoro orasidagi temiryo‘l tuguni, Xiva esa gʻarbdagi davom yo‘li."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route programs"
+      "ru": "Маршруты"
+      "uz": "Yo‘nalishlar"
+    "title":
+      "en": "Routes that include Samarkand"
+      "ru": "Маршруты с Самаркандом"
+      "uz": "Samarqand bor yo‘nalishlar"
+    "description":
+      "en": "Samarkand belongs in most Uzbekistan routes, but the number of hours changes the experience: a rushed stop shows monuments; a calmer stay adds Gur-e-Amir, Afrasiab or the observatory, market sound, and pauses."
+      "ru": "Самарканд входит в большинство маршрутов по Узбекистану, но время меняет сам день: спешная остановка показывает памятники, а спокойное пребывание добавляет Гур-Эмир, Афрасиаб или обсерваторию, звук базара и паузы."
+      "uz": "Samarqand Oʻzbekiston marshrutlarining ko‘pida bor, lekin vaqt tajribani o‘zgartiradi: shoshilgan bekat yodgorliklarni ko‘rsatadi, sokinroq qolish esa Go‘ri Amir, Afrosiyob yoki rasadxona, bozor tovushi va pauzalarni qo‘shadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route connections"
+      "ru": "Куда дальше"
+      "uz": "Keyingi yo‘l"
+    "title":
+      "en": "Where the route continues"
+      "ru": "Куда маршрут идёт дальше"
+      "uz": "Yo‘l qayerga davom etadi"
+    "description":
+      "en": "After Samarkand, the journey usually turns west to Bukhara and Khiva, where the scale tightens from open squares to old-city walls and courtyard rhythm."
+      "ru": "После Самарканда путь обычно уходит на запад к Бухаре и Хиве, где открытые площади сменяются стенами старого города и ритмом дворов."
+      "uz": "Samarqanddan keyin yo‘l ko‘pincha gʻarbga, Buxoro va Xivaga buriladi; u yerda ochiq maydonlar eski shahar devorlari va hovlilar ritmiga almashadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/samarkand-next-bukhara.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Bukhara"
+          "ru": "Бухара"
+          "uz": "Buxoro"
+        "description":
+          "en": "Bukhara comes together on foot: Poi-Kalyan, the Ark, Lyabi-Hauz, trading domes, courtyards, craft lanes, and nearby continuations."
+          "ru": "Бухара лучше раскрывается пешком: Пои-Калян, Арк, Ляби-Хауз, торговые купола, дворы, ремесленные улицы и близкие продолжения."
+          "uz": "Buxoro piyoda yaxshiroq ochiladi: Poyi Kalon, Ark, Labi Hovuz, savdo gumbazlari, hovlilar, hunarmand ko‘chalari va yaqin yoʻnalishlar."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/samarkand-next-khiva.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Khiva"
+          "ru": "Хива"
+          "uz": "Xiva"
+        "description":
+          "en": "Khiva holds the western edge of the classic route: Itchan Kala, Kalta Minor, Juma Mosque, palace courtyards, workshops, and the roads that continue through Khorezm."
+          "ru": "Хива держит западный край классического маршрута: Ичан-Кала, Кальта-Минор, Джума-мечеть, дворцовые дворы, мастерские и дороги дальше по Хорезму."
+          "uz": "Xiva klassik yo‘lning g‘arbiy chekkasini ushlab turadi: Ichan Qalʼa, Kalta Minor, Juma masjidi, saroy hovlilari, ustaxonalar va Xorazm bo‘ylab davom etadigan yo‘llar."
+        "ctaHref": "/destinations/uzbekistan/khorezm-region/khiva"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Samarkand in the day plan"
+      "ru": "Как поставить Самарканд в план дня"
+      "uz": "Samarqandni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Samarkand?"
+          "ru": "Сколько времени группам стоит проводить в Самарканд?"
+          "uz": "Samarqandda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “Blue tile, rail rhythm, and old-city life”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Синяя керамика, ритм поездов и жизнь старого города»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Koʻk koshin, poyezd ritmi va eski shahar hayoti»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Samarkand be a walkable core or a base for day trips?"
+          "ru": "Самарканд — это пешеходное ядро или база для выездов?"
+          "uz": "Samarqand piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Samarkand's centre?"
+          "ru": "Где лучше ночевать относительно центра Самарканд?"
+          "uz": "Samarqand markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/samarkand.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Samarkand stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Самарканд» в программу (Узбекистан)"
+      "uz": "Samarqand bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Samarkand | TourLink"
+    "ru": "Самарканд | TourLink"
+    "uz": "Samarqand | TourLink"
+  "metaDescription":
+    "en": "Registan may be the first image travelers carry of Uzbekistan, but Samarkand is wider than one square. The day leads on to Shah-i-Zinda, Gur-e-Amir, Bibi-Khanym, Siab Bazaar, old lanes, early trains from Tashkent, Afrasiab beneath today's city, and the scientific story around Ulugh Beg's observatory."
+    "ru": "Регистан часто становится первым образом Узбекистана, но Самарканд шире одной площади. День ведёт дальше — к Шахи-Зинде, Гур-Эмиру, Биби-Ханым, Сиабскому базару, старым улицам, ранним поездам из Ташкента, Афрасиабу под современным городом и научной истории вокруг обсерватории Улугбека."
+    "uz": "Registon ko‘p sayohatchilar uchun Oʻzbekistonning birinchi tasviri bo‘lishi mumkin, lekin Samarqand bitta maydondan kengroq. Shahar ko‘k koshin, Go‘ri Amir, bozor noni, eski ko‘chalar, Toshkentdan keladigan erta poyezdlar, zamonaviy shahar ostidagi Afrosiyob va Ulug‘bek rasadxonasi tomon davom etadi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "samarkand-region"
+"latitude": 39.6550017
+"longitude": 66.9756954

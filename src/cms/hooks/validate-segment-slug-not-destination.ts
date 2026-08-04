@@ -7,6 +7,10 @@ import { validateSegmentSlug } from "./validate-segment-slug";
 
 export const validateSegmentSlugNotDestination: CollectionBeforeValidateHook =
 	async ({ data, req }) => {
+		if (req.context?.isSeed) {
+			return data;
+		}
+
 		if (!data?.slug) {
 			return data;
 		}

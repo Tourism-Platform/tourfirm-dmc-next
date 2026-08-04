@@ -1,0 +1,654 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "kichiksoy"
+  "ru": "kichiksoy"
+  "uz": "kichiksoy"
+"title":
+  "en": "Kichiksoy"
+  "ru": "Кичиксой"
+  "uz": "Kichiksoy"
+"subtitle":
+  "en": "A small Nurota village stop between Kattasoy, Mushkan, and Nurata"
+  "ru": "Небольшая нуратинская сельская остановка между Каттасоем, Мушканом и Нуратой"
+  "uz": "Kattasoy, Mushkan va Nurota orasidagi kichik Nurota qishloq bekati"
+"excerpt":
+  "en": "Kichiksoy sits in Kattasoy MFY of Nurota District, close to Mushkan on the Nurota-side village road. It suits a measured rural pause: the approach road, the scale of the village, one household or craft moment when arranged, and an easy return toward Nurata, Sentob, Chuya, or Aydarkul."
+  "ru": "Кичиксой находится в КФЙ Каттасой Нуратинского района, рядом с Мушканом на нуратинской сельской дороге. Это место подходит для размеренной сельской паузы: подъездной дороги, масштаба села, одного домашнего или ремесленного момента по договорённости и возвращения к Нурате, Сентобу, Чуе или Айдаркулю."
+  "uz": "Kichiksoy Nurota tumanidagi Kattasoy MFYda, Mushkan yaqinidagi Nurota tomoni qishloq yo‘lida joylashgan. Bu joy o‘lchamli qishloq pauzasiga mos: kirish yo‘li, qishloq miqyosi, kelishilsa bitta xonadon yoki hunar lahzasi, keyin Nurota, Sentob, Chuya yoki Aydarko‘l tomonga qaytish."
+"heroImage": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/kichiksoy.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/kichiksoy.webp"
+    "imageAlt":
+      "en": "Kichiksoy"
+      "ru": "Кичиксой"
+      "uz": "Kichiksoy"
+    "title":
+      "en": "Kichiksoy"
+      "ru": "Кичиксой"
+      "uz": "Kichiksoy"
+    "description":
+      "en": "A small Nurota village stop between Kattasoy, Mushkan, and Nurata"
+      "ru": "Небольшая нуратинская сельская остановка между Каттасоем, Мушканом и Нуратой"
+      "uz": "Kattasoy, Mushkan va Nurota orasidagi kichik Nurota qishloq bekati"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Kichiksoy"
+      "ru": "Кичиксой"
+      "uz": "Kichiksoy"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Kichiksoy sits in Kattasoy MFY of Nurota District, close to Mushkan on the Nurota-side village road."
+              "ru": "Кичиксой находится в КФЙ Каттасой Нуратинского района, рядом с Мушканом на нуратинской сельской дороге."
+              "uz": "Kichiksoy Nurota tumanidagi Kattasoy MFYda, Mushkan yaqinidagi Nurota tomoni qishloq yo‘lida joylashgan."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Read Kichiksoy at village scale: first Kattasoy and the approach road, then one living moment if the season and local arrangement allow it."
+              "ru": "Смотрите на Кичиксой в сельском масштабе: сначала Каттасой и подъездная дорога, затем один живой момент, если сезон и местная договорённость позволяют."
+              "uz": "Kichiksoyni qishloq miqyosida ko‘ring: avval Kattasoy va kirish yo‘li, keyin mavsum va mahalliy kelishuv imkon bersa bitta tirik lahza."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Start with Kattasoy and the approach road, then keep Mushkan and Nurata close before the route widens toward Sentob, Chuya, or Aydarkul."
+              "ru": "Начните с Каттасоя и подъездной дороги, затем держите Мушкан и Нурату рядом, прежде чем маршрут расширится к Сентобу, Чуе или Айдаркулю."
+              "uz": "Kattasoy va kirish yo‘lidan boshlang, keyin yo‘l Sentob, Chuya yoki Aydarko‘lga kengayishidan oldin Mushkan va Nurotani yaqin tuting."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Kichiksoy as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Кичиксой как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Kichiksoy o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Route role"
+      "ru": "Место в маршруте"
+      "uz": "Yo‘ldagi roli"
+    "title":
+      "en": "Kichiksoy between Kattasoy, Mushkan, and Nurata"
+      "ru": "Кичиксой между Каттасоем, Мушканом и Нуратой"
+      "uz": "Kichiksoy Kattasoy, Mushkan va Nurota oralig‘ida"
+    "description":
+      "en": "Read Kichiksoy at village scale: first Kattasoy and the approach road, then one living moment if the season and local arrangement allow it."
+      "ru": "Смотрите на Кичиксой в сельском масштабе: сначала Каттасой и подъездная дорога, затем один живой момент, если сезон и местная договорённость позволяют."
+      "uz": "Kichiksoyni qishloq miqyosida ko‘ring: avval Kattasoy va kirish yo‘li, keyin mavsum va mahalliy kelishuv imkon bersa bitta tirik lahza."
+    "mapPanel":
+      "eyebrow":
+        "en": "On the map"
+        "ru": "На карте"
+        "uz": "Xaritada"
+      "title":
+        "en": "Kichiksoy, Mushkan, Nurata, and Sentob"
+        "ru": "Кичиксой, Мушкан, Нурата и Сентоб"
+        "uz": "Kichiksoy, Mushkan, Nurota va Sentob"
+      "description":
+        "en": "The marker orients the route area; exact village movement should still follow local road conditions and the nearby Nurota-side stops."
+        "ru": "Маркер ориентирует по зоне маршрута; точное движение по селу всё равно зависит от местных дорог и близких нуратинских остановок."
+        "uz": "Marker marshrut hududini ko‘rsatadi; qishloq ichidagi aniq harakat baribir mahalliy yo‘l holati va yaqin Nurota bekatlariga qarab shakllanadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.564688
+      "longitude": 65.976648
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "kichiksoy-eco-history-and-road-plan"
+      - "entityType": "attraction"
+        "entitySlug": "kichiksoy-kattasoy-village-setting"
+      - "entityType": "attraction"
+        "entitySlug": "kichiksoy-mushkan-nurata-service-context"
+    "aside":
+      "eyebrow":
+        "en": "Route role"
+        "ru": "Место в маршруте"
+        "uz": "Yo‘ldagi roli"
+      "title":
+        "en": "Kichiksoy between Kattasoy, Mushkan, and Nurata"
+        "ru": "Кичиксой между Каттасоем, Мушканом и Нуратой"
+        "uz": "Kichiksoy Kattasoy, Mushkan va Nurota oralig‘ida"
+      "description":
+        "en": "Start with Kattasoy and the approach road, then keep Mushkan and Nurata close before the route widens toward Sentob, Chuya, or Aydarkul."
+        "ru": "Начните с Каттасоя и подъездной дороги, затем держите Мушкан и Нурату рядом, прежде чем маршрут расширится к Сентобу, Чуе или Айдаркулю."
+        "uz": "Kattasoy va kirish yo‘lidan boshlang, keyin yo‘l Sentob, Chuya yoki Aydarko‘lga kengayishidan oldin Mushkan va Nurotani yaqin tuting."
+      "items":
+        - "title":
+            "en": "Begin at village scale"
+            "ru": "Начинайте с малого масштаба"
+            "uz": "Kichik miqyosdan boshlang"
+          "description":
+            "en": "Kichiksoy is useful as a measured rural pause, not a full activity list."
+            "ru": "Кичиксой полезен как размеренная сельская пауза, а не как полный список занятий."
+            "uz": "Kichiksoy to‘liq faoliyatlar yig‘indisi emas, o‘lchamli qishloq pauzasi sifatida foydali."
+          "badge":
+            "en": "Village-scale stop"
+            "ru": "Сельский масштаб"
+            "uz": "Qishloq miqyosi"
+        - "title":
+            "en": "Name the mahalla"
+            "ru": "Назовите махаллю"
+            "uz": "Mahallani nomlang"
+          "description":
+            "en": "Kattasoy gives the stop its local frame in Nurota District."
+            "ru": "Каттасой даёт остановке местную опору в Нуратинском районе."
+            "uz": "Kattasoy bekatga Nurota tumanidagi mahalliy tayanchni beradi."
+          "badge":
+            "en": "Kattasoy setting"
+            "ru": "Среда Каттасоя"
+            "uz": "Kattasoy muhiti"
+        - "title":
+            "en": "Notice the road in"
+            "ru": "Заметьте дорогу"
+            "uz": "Yo‘lga eʼtibor bering"
+          "description":
+            "en": "The road toward Mushkan is part of the rural sequence, not only a transfer."
+            "ru": "Дорога к Мушкану — часть сельской последовательности, а не просто переезд."
+            "uz": "Mushkan tomondagi yo‘l shunchaki o‘tish emas, qishloq ketma-ketligining bir qismi."
+          "badge":
+            "en": "Approach road"
+            "ru": "Подъездная дорога"
+            "uz": "Kirish yo‘li"
+        - "title":
+            "en": "Add one human center"
+            "ru": "Добавьте один человеческий центр"
+            "uz": "Bitta insoniy markaz qo‘shing"
+          "description":
+            "en": "A household meal, bread, weaving, or music gives the stop a clear center when arranged."
+            "ru": "Домашний стол, хлеб, ткачество или музыка дают остановке ясный центр по договорённости."
+            "uz": "Xonadon taomi, non, to‘quv yoki musiqa kelishilsa, bekatga aniq markaz beradi."
+          "badge":
+            "en": "Living detail"
+            "ru": "Живая деталь"
+            "uz": "Tirik detal"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to understand"
+      "ru": "Что понять"
+      "uz": "Nimani tushunish kerak"
+    "title":
+      "en": "What gives Kichiksoy its shape"
+      "ru": "Что формирует Кичиксой"
+      "uz": "Kichiksoy nimasi bilan shakllanadi"
+    "description":
+      "en": "Start with Kattasoy, the approach road, and the nearby Mushkan-Nurata line before adding any household or craft moment."
+      "ru": "Начните с Каттасоя, подъездной дороги и близкой линии Мушкан-Нурата, прежде чем добавлять домашний или ремесленный момент."
+      "uz": "Xonadon yoki hunar lahzasini qo‘shishdan oldin Kattasoy, kirish yo‘li va yaqin Mushkan-Nurota chizig‘idan boshlang."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Kichiksoy and Kattasoy village setting"
+          "ru": "Сельская среда Кичиксоя и Каттасоя"
+          "uz": "Kichiksoy va Kattasoy qishloq muhiti"
+        "description":
+          "en": "Kichiksoy opens first as a village setting. Kattasoy MFY, the approach road, and the quiet lanes give the stop its scale before any meal, craft, or longer pause is added."
+          "ru": "Кичиксой сначала раскрывается как сельская среда. КФЙ Каттасой, подъездная дорога и тихие улицы задают масштаб остановки до еды, ремесла или более долгой паузы."
+          "uz": "Kichiksoy avvalo qishloq muhiti sifatida ochiladi. Kattasoy MFY, kirish yo‘li va sokin ko‘chalar taom, hunar yoki uzoqroq pauzadan oldin bekatning miqyosini beradi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/kichiksoy/kichiksoy-kattasoy-village-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Kichiksoy history, landscape, and road approach"
+          "ru": "История, ландшафт и дорога Кичиксоя"
+          "uz": "Kichiksoy tarixi, landshafti va yo‘l kirishi"
+        "description":
+          "en": "This stop gives Kichiksoy a little more meaning without turning the village pause into a lecture: the road in, the Nurota-side landscape, and the reason Mushkan belongs nearby."
+          "ru": "Эта остановка добавляет Кичиксою немного смысла без превращения сельской паузы в лекцию: подъездная дорога, нуратинский ландшафт и причина держать Мушкан рядом."
+          "uz": "Bu bekat Kichiksoyga qishloq pauzasini maʼruzaga aylantirmasdan biroz maʼno qo‘shadi: kirish yo‘li, Nurota tomoni landshafti va Mushkanni yaqin tutish sababi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/kichiksoy/kichiksoy-eco-history-and-road-plan"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Kichiksoy with Mushkan and Nurata"
+          "ru": "Кичиксой с Мушканом и Нуратой"
+          "uz": "Kichiksoy Mushkan va Nurota bilan"
+        "description":
+          "en": "This stop explains the movement around Kichiksoy: first the village pause, then nearby Mushkan, and finally the return toward Nurata, Sentob, Chuya, or Aydarkul."
+          "ru": "Эта остановка объясняет движение вокруг Кичиксоя: сначала сельская пауза, затем близкий Мушкан и возвращение к Нурате, Сентобу, Чуе или Айдаркулю."
+          "uz": "Bu bekat Kichiksoy atrofidagi harakatni tushuntiradi: avval qishloq pauzasi, keyin yaqin Mushkan va Nurota, Sentob, Chuya yoki Aydarko‘l tomonga qaytish."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/kichiksoy/kichiksoy-mushkan-nurata-service-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Village moments"
+      "ru": "Сельские моменты"
+      "uz": "Qishloq lahzalari"
+    "title":
+      "en": "Six village moments around Kichiksoy"
+      "ru": "Шесть сельских моментов вокруг Кичиксоя"
+      "uz": "Kichiksoy atrofidagi oltita qishloq lahzasi"
+    "description":
+      "en": "The cards keep the stop grounded in arrival, road, household life, light interpretation, overnight possibilities, and the move toward Mushkan."
+      "ru": "Карточки держат остановку в живом масштабе: приезд, дорога, домашняя жизнь, лёгкое объяснение, ночёвка и движение к Мушкану."
+      "uz": "Kartalar bekatni kelish, yo‘l, xonadon hayoti, yengil izoh, tunash va Mushkan tomonga harakat bilan tirik miqyosda tutadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Arrive by the village road"
+          "ru": "Приезд по сельской дороге"
+          "uz": "Qishloq yo‘li bilan kirish"
+        "description":
+          "en": "The first impression is Kattasoy scale: low lanes, the approach road, and a pause before the route continues."
+          "ru": "Первое впечатление задаёт масштаб Каттасоя: низкие сельские улицы, подъездная дорога и пауза перед продолжением маршрута."
+          "uz": "Birinchi taassurotni Kattasoy miqyosi beradi: past qishloq ko‘chalari, kirish yo‘li va yo‘l davomidan oldingi pauza."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Kattasoy road approach"
+          "ru": "Дорога со стороны Каттасоя"
+          "uz": "Kattasoy tomondan kirish"
+        "description":
+          "en": "The road into Kichiksoy helps the village feel like part of the journey, not only a transfer between stops."
+          "ru": "Дорога к Кичиксою помогает селу ощущаться частью путешествия, а не просто переездом между остановками."
+          "uz": "Kichiksoyga kirish yo‘li qishloqni bekatlar orasidagi o‘tish emas, safarning bir qismi sifatida his qildiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "History and landscape"
+          "ru": "История и ландшафт"
+          "uz": "Tarix va landshaft"
+        "description":
+          "en": "Brief local meaning belongs here when it helps you read the road, the village edge, and the Nurota-side landscape."
+          "ru": "Короткий местный смысл уместен, когда помогает увидеть дорогу, край села и нуратинский ландшафт."
+          "uz": "Qisqa mahalliy maʼno yo‘lni, qishloq chetini va Nurota tomoni landshaftini ko‘rishga yordam bersa, shu yerga mos."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Bread, weaving, and music"
+          "ru": "Хлеб, ткачество и музыка"
+          "uz": "Non, to‘quv va musiqa"
+        "description":
+          "en": "Bread-making, weaving, or music can give the stop a living center when the local arrangement fits."
+          "ru": "Хлеб, ткачество или музыка могут дать остановке живой центр, когда местная договорённость складывается удачно."
+          "uz": "Non yopish, to‘quv yoki musiqa mahalliy kelishuv mos tushsa, bekatga tirik markaz beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Simple village overnight"
+          "ru": "Простая сельская ночёвка"
+          "uz": "Oddiy qishloq tunashi"
+        "description":
+          "en": "A simple village night can make sense when it grows naturally from Kichiksoy and the Nurota-side route."
+          "ru": "Простая сельская ночёвка уместна, когда естественно вырастает из Кичиксоя и нуратинского маршрута."
+          "uz": "Oddiy qishloq tunashi Kichiksoy va Nurota tomoni yo‘lidan tabiiy chiqsa, maʼno beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Toward Mushkan"
+          "ru": "В сторону Мушкана"
+          "uz": "Mushkan tomonga"
+        "description":
+          "en": "Mushkan gives Kichiksoy a close next move before the route returns toward Nurata."
+          "ru": "Мушкан даёт Кичиксою близкое продолжение перед возвращением к Нурате."
+          "uz": "Mushkan Kichiksoyga Nurota tomonga qaytishdan oldin yaqin keyingi harakat beradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "A small stop with one clear center"
+      "ru": "Небольшая остановка с одним ясным центром"
+      "uz": "Bitta aniq markazga ega kichik bekat"
+    "description":
+      "en": "Kichiksoy is strongest when the route stays simple: arrive by the Kattasoy road, choose one local moment, then keep the next move close."
+      "ru": "Кичиксой сильнее, когда маршрут остаётся простым: въезд по дороге Каттасоя, один местный момент и близкое продолжение пути."
+      "uz": "Kichiksoy yo‘l sodda qolganda kuchliroq: Kattasoy yo‘lidan kirish, bitta mahalliy lahza va yaqin davom."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the visit simple"
+              "ru": "Сохраняйте визит простым"
+              "uz": "Tashrifni sodda tuting"
+            "description":
+              "en": "The village is clearer as one rural pause than as a packed list of additions."
+              "ru": "Село понятнее как одна сельская пауза, а не как плотный список дополнений."
+              "uz": "Qishloq qo‘shimchalar yig‘indisi emas, bitta qishloq pauzasi sifatida tushunarliroq."
+          - "type": "quote"
+            "quote":
+              "en": "In Kichiksoy, the road, the household table, and the close move toward Mushkan matter more than a long list of activities."
+              "ru": "В Кичиксое дорога, домашний стол и близкий ход к Мушкану важнее длинного списка занятий."
+              "uz": "Kichiksoyda yo‘l, xonadon dasturxoni va Mushkan tomonga yaqin harakat ko‘p faoliyatlardan muhimroq."
+          - "type": "dashTitle"
+            "title":
+              "en": "Let the road carry meaning"
+              "ru": "Пусть дорога несёт смысл"
+              "uz": "Yo‘l maʼno bersin"
+            "description":
+              "en": "The Kattasoy approach and the road toward Mushkan explain why Kichiksoy belongs on this route."
+              "ru": "Подъезд со стороны Каттасоя и дорога к Мушкану объясняют, почему Кичиксой уместен на этом маршруте."
+              "uz": "Kattasoy tomondan kirish va Mushkan yo‘li Kichiksoy nega shu marshrutda ekanini tushuntiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Choose one local detail"
+              "ru": "Выберите одну местную деталь"
+              "uz": "Bitta mahalliy detalni tanlang"
+            "description":
+              "en": "A table, bread, weaving, or music gives the stop a living center without making it feel staged."
+              "ru": "Стол, хлеб, ткачество или музыка дают остановке живой центр без ощущения постановки."
+              "uz": "Dasturxon, non, to‘quv yoki musiqa bekatga sahnalashtirilmagan tirik markaz beradi."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественников"
+              "uz": "Sayohatchilar uchun"
+            "description":
+              "en": "Come for one grounded village pause, then continue toward Mushkan and Nurata without overloading the route."
+              "ru": "Приезжайте за одной живой сельской паузой, а затем продолжайте к Мушкану и Нурате без перегруза."
+              "uz": "Bitta asosli qishloq pauzasi uchun keling, keyin yo‘lni ortiqcha yuklamay Mushkan va Nurota tomonga davom eting."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Where it is"
+                  "ru": "Коротко Где находится"
+                  "uz": "Qisqacha Qayerda"
+                "description":
+                  "en": "Tourism village in Kattasoy MFY, Nurota District."
+                  "ru": "Туристическое село в КФЙ Каттасой, Нуратинский район."
+                  "uz": "Kattasoy MFY, Nurota tumanidagi turizm qishlog‘i."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Yo‘ldagi roli"
+                "description":
+                  "en": "A measured village pause between Mushkan and Nurata."
+                  "ru": "Размеренная сельская пауза между Мушканом и Нуратой."
+                  "uz": "Mushkan va Nurota orasidagi o‘lchamli qishloq pauzasi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Local moment"
+                  "ru": "Местный момент"
+                  "uz": "Mahalliy lahza"
+                "description":
+                  "en": "Household food, bread, weaving, music, or a village overnight when arranged."
+                  "ru": "Домашняя еда, хлеб, ткачество, музыка или сельская ночёвка по договорённости."
+                  "uz": "Kelishilsa xonadon taomi, non, to‘quv, musiqa yoki qishloqda tunash."
+              - "icon": "Route"
+                "title":
+                  "en": "Next move"
+                  "ru": "Дальше по пути"
+                  "uz": "Keyingi yo‘l"
+                "description":
+                  "en": "Pair with Mushkan, then continue toward Nurata, Sentob, Chuya, or Aydarkul."
+                  "ru": "Сочетайте с Мушканом, затем продолжайте к Нурате, Сентобу, Чуе или Айдаркулю."
+                  "uz": "Mushkan bilan juftlab, Nurota, Sentob, Chuya yoki Aydarko‘lga davom eting."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby route stops"
+      "ru": "Соседние остановки"
+      "uz": "Yaqin yo‘l bekatlari"
+    "title":
+      "en": "Where Kichiksoy can continue"
+      "ru": "Куда продолжить после Кичиксоя"
+      "uz": "Kichiksoydan keyin qayerga davom etish"
+    "description":
+      "en": "Mushkan, Nurata, Sentob, and Chuya keep Kichiksoy connected to the wider Nurota-Aydarkul route without turning it into a distant detour."
+      "ru": "Мушкан, Нурата, Сентоб и Чуя связывают Кичиксой с широким маршрутом Нурата-Айдаркуль без дальнего отклонения."
+      "uz": "Mushkan, Nurota, Sentob va Chuya Kichiksoyni Nurota-Aydarko‘l keng yo‘liga uzoq burilishsiz bog‘laydi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Mushkan"
+          "ru": "Мушкан"
+          "uz": "Mushkan"
+        "description":
+          "en": "Mushkan gives the Nurata route a quieter village stop: mountain air, a household table, bread, craft or music, and an easy pairing with Kichiksoy."
+          "ru": "Мушкан добавляет к нуратинскому маршруту тихую сельскую остановку: горный воздух, домашний стол, хлеб, ремесло или музыку и близкое сочетание с Кичиксоем."
+          "uz": "Mushkan Nurota yo‘liga sokin qishloq bekatini qo‘shadi: tog‘ havosi, xonadon dasturxoni, non, hunar yoki musiqa va Kichiksoy bilan yaqin juftlik."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/mushkan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/kichiksoy-next-nurata.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Nurata"
+          "ru": "Нурата"
+          "uz": "Nurota"
+        "description":
+          "en": "Nurata is the spring town before the Kyzylkum road: Chashma water, mosque shade, Nur Fortress above town, and the onward road to Aydarkul or Sentyab."
+          "ru": "Нурата — город источника перед дорогой в Кызылкум: вода Чашмы, тень мечети, крепость Нур над городом и продолжение к Айдаркулю или Сентобу."
+          "uz": "Nurota Qizilqum yo‘lidan oldingi buloq shahri: Chashma suvi, masjid soyasi, shahar ustidagi Nur qalʼasi va Aydarko‘l yoki Sentobga davom etadigan yo‘l."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/nurata"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/kichiksoy-next-sentyab.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Sentob"
+          "ru": "Сентоб"
+          "uz": "Sentob"
+        "description":
+          "en": "Sentob slows the Nurata-Aydarkul road at village scale: stone walls, shaded courtyards, garden produce, and Nuratau foothill views."
+          "ru": "Сентоб замедляет дорогу Нурата-Айдаркуль в сельском масштабе: каменные стены, тенистые дворы, садовые продукты и виды предгорий Нуратау."
+          "uz": "Sentob Nurota-Aydarko‘l yo‘lini qishloq miqyosida sekinlashtiradi: tosh devorlar, soyali hovlilar, bog‘ mahsuloti va Nurota tog‘oldi manzaralari."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/sentyab"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Chuya"
+          "ru": "Чуя"
+          "uz": "Chuya"
+        "description":
+          "en": "Chuya is a Nurata District tourism mahalla where foothill air, craft hands, qurut, bread, and carefully chosen ways to stay longer add a human stop near Nurata."
+          "ru": "Чуя — туристическая махалля Нуратинского района, где воздух предгорий, руки мастеров, курут, лепёшка и аккуратно выбранные варианты ночёвки добавляют маршруту живую сельскую остановку."
+          "uz": "Chuya Nurota tumanidagi turizm mahallasi; tog‘oldi havosi, usta qo‘llari, qurut, non va ehtiyotkor tanlangan tunash g‘oyalari Nurota yaqinida jonli qishloq bekatini qo‘shadi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/chuya"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Kichiksoy in the day plan"
+      "ru": "Как поставить Кичиксой в план дня"
+      "uz": "Kichiksoyni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Kichiksoy?"
+          "ru": "Сколько времени группам стоит проводить в Кичиксой?"
+          "uz": "Kichiksoyda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A small Nurota village stop between Kattasoy, Mushkan, and Nurata”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Небольшая нуратинская сельская остановка между Каттасоем, Мушканом и Нуратой»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Kattasoy, Mushkan va Nurota orasidagi kichik Nurota qishloq bekati»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Kichiksoy be a walkable core or a base for day trips?"
+          "ru": "Кичиксой — это пешеходное ядро или база для выездов?"
+          "uz": "Kichiksoy piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Kichiksoy's centre?"
+          "ru": "Где лучше ночевать относительно центра Кичиксой?"
+          "uz": "Kichiksoy markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/kichiksoy.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Kichiksoy stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Кичиксой» в программу (Узбекистан)"
+      "uz": "Kichiksoy bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Kichiksoy | TourLink"
+    "ru": "Кичиксой | TourLink"
+    "uz": "Kichiksoy | TourLink"
+  "metaDescription":
+    "en": "Kichiksoy sits in Kattasoy MFY of Nurota District, close to Mushkan on the Nurota-side village road. It suits a measured rural pause: the approach road, the scale of the village, one household or craft moment when arranged, and an easy return toward Nurata, Sentob, Chuya, or Aydarkul."
+    "ru": "Кичиксой находится в КФЙ Каттасой Нуратинского района, рядом с Мушканом на нуратинской сельской дороге. Это место подходит для размеренной сельской паузы: подъездной дороги, масштаба села, одного домашнего или ремесленного момента по договорённости и возвращения к Нурате, Сентобу, Чуе или Айдаркулю."
+    "uz": "Kichiksoy Nurota tumanidagi Kattasoy MFYda, Mushkan yaqinidagi Nurota tomoni qishloq yo‘lida joylashgan. Bu joy o‘lchamli qishloq pauzasiga mos: kirish yo‘li, qishloq miqyosi, kelishilsa bitta xonadon yoki hunar lahzasi, keyin Nurota, Sentob, Chuya yoki Aydarko‘l tomonga qaytish."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "nurata-aydarkul-and-kyzylkum"
+"latitude": 40.6589722
+"longitude": 66.4783583

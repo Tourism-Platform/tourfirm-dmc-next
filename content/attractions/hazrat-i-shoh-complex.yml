@@ -1,0 +1,329 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "hazrat-i-shoh-complex"
+  "ru": "hazrat-i-shoh-complex"
+  "uz": "hazrat-i-shoh-complex"
+"title":
+  "en": "Hazrat-i Shoh Complex"
+  "ru": "Комплекс Хазрат-и Шох"
+  "uz": "Hazrati Shoh majmuasi"
+"subtitle":
+  "en": "A respectful mosque stop in Istaravshan"
+  "ru": "Спокойная религиозная остановка Истаравшана"
+  "uz": "Istaravshandagi hurmatli ziyorat bekati"
+"excerpt":
+  "en": "Hazrat-i Shoh is the Istaravshan stop where the route lowers its voice. After hill ruins and blue-dome architecture, the mosque setting asks for modest dress, quiet movement, and a local check on which visitor areas are open that day. Keep the camera discreet, and let the stop stay respectful before the route continues through Mug Teppe, Kok Gumbaz, bazaar lanes, or craft streets."
+  "ru": "Хазрат-и Шох - остановка, где маршрут по Истаравшану становится тише. После холма с древней памятью и голубого купола мечеть просит скромной одежды, спокойного движения и местной проверки того, какие зоны открыты гостям в этот день. Камеру лучше держать ненавязчиво, а саму остановку оставить уважительной перед продолжением к Муг-Теппе, Кок-Гумбазу, базарным переулкам или ремесленным улицам."
+  "uz": "Hazrati Shoh Istaravshan yoʻnalishi sokinlashadigan bekatdir. Tepalikdagi qadimiy xotira va moviy gumbazdan keyin masjid muhiti kamtar kiyim, sokin harakat va oʻsha kuni mehmonlar uchun qaysi joylar ochiq ekanini mahalliy tekshirishni talab qiladi. Kamerani ehtiyotkor tuting, bekatni hurmat bilan saqlang va keyin yoʻnalish Mug Teppe, Koʻk Gumbaz, bozor yoʻlaklari yoki hunarmand koʻchalariga davom etsin."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "Hazrat-i Shoh Complex"
+      "ru": "Комплекс Хазрат-и Шох"
+      "uz": "Hazrati Shoh majmuasi"
+    "title":
+      "en": "Hazrat-i Shoh Complex"
+      "ru": "Комплекс Хазрат-и Шох"
+      "uz": "Hazrati Shoh majmuasi"
+    "description":
+      "en": "A respectful mosque stop in Istaravshan"
+      "ru": "Спокойная религиозная остановка Истаравшана"
+      "uz": "Istaravshandagi hurmatli ziyorat bekati"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Hazrat-i Shoh Complex"
+      "ru": "Комплекс Хазрат-и Шох"
+      "uz": "Hazrati Shoh majmuasi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Hazrat-i Shoh is the Istaravshan stop where the route lowers its voice."
+              "ru": "Хазрат-и Шох - остановка, где маршрут по Истаравшану становится тише."
+              "uz": "Hazrati Shoh Istaravshan yoʻnalishi sokinlashadigan bekatdir."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Hazrat-i Shoh adds a lived religious setting to Istaravshan: respectful movement, local access checks, and a calmer pace after the hill and blue dome."
+              "ru": "Хазрат-и Шох добавляет Истаравшану живую религиозную среду: уважительное движение, проверку доступа на месте и более спокойный темп после холма и голубого купола."
+              "uz": "Hazrati Shoh Istaravshanga tirik diniy muhit qoʻshadi: hurmatli harakat, mahalliy kirish tekshiruvi va tepalik hamda moviy gumbazdan keyingi sokinroq temp."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — A respectful mosque stop in Istaravshan."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Спокойная религиозная остановка Истаравшана."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Istaravshandagi hurmatli ziyorat bekati."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Hazrat-i Shoh Complex as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Комплекс Хазрат-и Шох как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Hazrati Shoh majmuasi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Hazrat-i Shoh Complex sits on the route"
+      "ru": "Где Комплекс Хазрат-и Шох стоит на маршруте"
+      "uz": "Hazrati Shoh majmuasi marshrutda qayerda"
+    "description":
+      "en": "One clear point for Hazrat-i Shoh Complex — A respectful mosque stop in Istaravshan."
+      "ru": "Одна понятная точка для «Комплекс Хазрат-и Шох» — Спокойная религиозная остановка Истаравшана."
+      "uz": "Hazrati Shoh majmuasi uchun bitta aniq nuqta — Istaravshandagi hurmatli ziyorat bekati."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Hazrat-i Shoh Complex"
+        "ru": "Комплекс Хазрат-и Шох"
+        "uz": "Hazrati Shoh majmuasi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.9099445
+      "longitude": 69.0036145
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "hazrat-i-shoh-complex"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "A mosque setting inside the town route"
+      "ru": "Религиозная остановка внутри городского маршрута"
+      "uz": "Shahar yoʻnalishidagi diniy bekat"
+    "description":
+      "en": "Hazrat-i Shoh adds a lived religious setting to Istaravshan: respectful movement, local access checks, and a calmer pace after the hill and blue dome.
+
+
+        «Hazrat-i Shoh rewards travelers who slow down before they look for details.»"
+      "ru": "Хазрат-и Шох добавляет Истаравшану живую религиозную среду: уважительное движение, проверку доступа на месте и более спокойный темп после холма и голубого купола.
+
+
+        «Хазрат-и Шох лучше раскрывается тем, кто замедляется раньше, чем начинает искать детали.»"
+      "uz": "Hazrati Shoh Istaravshanga tirik diniy muhit qoʻshadi: hurmatli harakat, mahalliy kirish tekshiruvi va tepalik hamda moviy gumbazdan keyingi sokinroq temp.
+
+
+        «Hazrati Shoh detallarni izlashdan oldin qadamni sekinlatgan sayohatchiga yaxshi ochiladi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "Mosque setting, old streets, and town context"
+      "ru": "Мечеть, старые улицы и городской контекст"
+      "uz": "Masjid muhiti, eski koʻchalar va shahar konteksti"
+    "description":
+      "en": "Read the stop through restraint: the mosque setting, the approach through Istaravshan, and the way the visit changes the town route's pace."
+      "ru": "Смотрите это место через сдержанность: мечеть, подход по Истаравшану и то, как остановка меняет темп городского маршрута."
+      "uz": "Bu bekatni bosiqlik orqali oʻqing: masjid muhiti, Istaravshan boʻylab yondashuv va tashrif shahar yoʻnalishi tempini qanday oʻzgartirishi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посетить"
+      "uz": "Qanday tashrif buyurish kerak"
+    "title":
+      "en": "Keep the stop modest and locally checked"
+      "ru": "Держите визит скромным и проверенным на месте"
+      "uz": "Tashrifni kamtar va joyida tekshirilgan holda tuting"
+    "description":
+      "en": "Hazrat-i Shoh should feel quiet. The strongest visit is simple: confirm what is open, enter respectfully if access is appropriate, and leave space for local religious use."
+      "ru": "Хазрат-и Шох должен ощущаться тихо. Лучший визит прост: заранее уточнить, что открыто, зайти уважительно, если доступ уместен, и оставить пространство для местной религиозной жизни."
+      "uz": "Hazrati Shoh sokin sezilishi kerak. Eng toʻgʻri tashrif oddiy: nima ochiq ekanini tekshirish, kirish mos boʻlsa hurmat bilan kirish va mahalliy diniy hayot uchun joy qoldirish."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qoʻshish mumkin"
+    "title":
+      "en": "Mug Teppe and Kok Gumbaz frame the town route"
+      "ru": "Муг-Теппе и Кок-Гумбаз задают рамку города"
+      "uz": "Mug Teppe va Koʻk Gumbaz shahar yoʻnalishini belgilaydi"
+    "description":
+      "en": "Hazrat-i Shoh makes most sense beside the two Istaravshan stops already ready for travelers: Mug Teppe for the older hill story and Kok Gumbaz for the blue-domed mosque-madrasa."
+      "ru": "Хазрат-и Шох понятнее рядом с двумя уже готовыми для путешественника остановками Истаравшана: Муг-Теппе даёт древний холм, а Кок-Гумбаз - голубокупольную мечеть-медресе."
+      "uz": "Hazrati Shoh sayohatchi uchun allaqachon tayyor bo'lgan ikki Istaravshan bekati yonida tushunarliroq: Mug Teppe qadimiy tepalik hikoyasini, Koʻk Gumbaz esa moviy gumbazli masjid-madrasani beradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Mug Teppe / Mug Castle"
+          "ru": "Муг-Теппе / крепость Муг"
+          "uz": "Mug Teppe / Mug qalʼasi"
+        "description":
+          "en": "Mug Teppe gives Istaravshan an early starting point: a fortified hill with settlement memory, gate fragments, and context for the monuments below."
+          "ru": "Муг-Теппе дает Истаравшану раннюю точку отсчета: укрепленный холм, память древнего поселения, фрагменты ворот и контекст для памятников ниже."
+          "uz": "Mug Teppe Istaravshanga erta boshlanish beradi: mustahkamlangan tepalik, qadimiy manzilgoh xotirasi, darvoza izlari va pastdagi yodgorliklarni tushunish uchun kontekst."
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/istaravshan/mug-teppe-mug-castle"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Kok Gumbaz Mosque and Madrasa"
+          "ru": "Мечеть-медресе Кок-Гумбаз"
+          "uz": "Koʻk Gumbaz masjid-madrasasi"
+        "description":
+          "en": "Kok Gumbaz gives Istaravshan a clear blue-dome landmark: a 16th-century mosque-madrasa with majolica, a molded mihrab, and a memory of study."
+          "ru": "Кок-Гумбаз даёт Истаравшану ясный голубой ориентир: мечеть-медресе XVI века с майоликой, лепным михрабом и памятью об учёбе."
+          "uz": "Koʻk Gumbaz Istaravshanga aniq havorang moʻljal beradi: XVI asr masjid-madrasasi, majolika, bezakli mehrob va ilm xotirasi."
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/istaravshan/kok-gumbaz-mosque-and-madrasa"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Hazrat-i Shoh Complex"
+      "ru": "Что агентства спрашивают про Комплекс Хазрат-и Шох"
+      "uz": "Agentliklar Hazrati Shoh majmuasi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Hazrat-i Shoh Complex get in the day plan?"
+          "ru": "Сколько времени закладывать на Комплекс Хазрат-и Шох в плане дня?"
+          "uz": "Hazrati Shoh majmuasi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "45–90 minutes is a practical range for most groups. Keep the stop readable: one clear arrival, one clear exit. Place tone: “A respectful mosque stop in Istaravshan”."
+          "ru": "Для большинства групп реалистичный диапазон — 45–90 минут. Держите остановку читаемой: понятный вход и понятный выход. Характер места: «Спокойная религиозная остановка Истаравшана»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 45–90 daqiqa. Bekatni o‘qiladigan tuting: aniq kirish va aniq chiqish. Joy ohangi: «Istaravshandagi hurmatli ziyorat bekati»."
+      - "type": "destinationInsight"
+        "icon": "Sunrise"
+        "title":
+          "en": "When is Hazrat-i Shoh Complex strongest during the day?"
+          "ru": "В какое время дня Комплекс Хазрат-и Шох раскрывается сильнее?"
+          "uz": "Hazrati Shoh majmuasi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer before the midday heat. That usually improves comfort, photos, and how the stop feels in the sequence around istaravshan."
+          "ru": "Лучше до полуденной жары. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с istaravshan."
+          "uz": "tushlik issiqligidan oldin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (istaravshan atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How should Hazrat-i Shoh Complex sit next to nearby stops?"
+          "ru": "Как поставить Комплекс Хазрат-и Шох рядом с соседними остановками?"
+          "uz": "Hazrati Shoh majmuasini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Hazrat-i Shoh Complex to your Tajikistan programme"
+      "ru": "Добавьте «Комплекс Хазрат-и Шох» в программу (Таджикистан)"
+      "uz": "Hazrati Shoh majmuasini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Hazrat-i Shoh Complex | TourLink"
+    "ru": "Комплекс Хазрат-и Шох | TourLink"
+    "uz": "Hazrati Shoh majmuasi | TourLink"
+  "metaDescription":
+    "en": "Hazrat-i Shoh is the Istaravshan stop where the route lowers its voice. After hill ruins and blue-dome architecture, the mosque setting asks for modest dress, quiet movement, and a local check on which visitor areas are open that day. Keep the camera discreet, and let the stop stay respectful before the route continues through Mug Teppe, Kok Gumbaz, bazaar lanes, or craft streets."
+    "ru": "Хазрат-и Шох - остановка, где маршрут по Истаравшану становится тише. После холма с древней памятью и голубого купола мечеть просит скромной одежды, спокойного движения и местной проверки того, какие зоны открыты гостям в этот день. Камеру лучше держать ненавязчиво, а саму остановку оставить уважительной перед продолжением к Муг-Теппе, Кок-Гумбазу, базарным переулкам или ремесленным улицам."
+    "uz": "Hazrati Shoh Istaravshan yoʻnalishi sokinlashadigan bekatdir. Tepalikdagi qadimiy xotira va moviy gumbazdan keyin masjid muhiti kamtar kiyim, sokin harakat va oʻsha kuni mehmonlar uchun qaysi joylar ochiq ekanini mahalliy tekshirishni talab qiladi. Kamerani ehtiyotkor tuting, bekatni hurmat bilan saqlang va keyin yoʻnalish Mug Teppe, Koʻk Gumbaz, bozor yoʻlaklari yoki hunarmand koʻchalariga davom etsin."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "khujand-and-northern-tajikistan"
+"city": "istaravshan"
+"type": "RELIGIOUS_SITE"
+"importance": "RECOMMENDED"
+"latitude": 39.9099445
+"longitude": 69.0036145

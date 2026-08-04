@@ -1,0 +1,644 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "astana"
+  "ru": "astana"
+  "uz": "astana"
+"title":
+  "en": "Astana"
+  "ru": "Астана"
+  "uz": "Ostona"
+"subtitle":
+  "en": "A planned capital with the steppe still close"
+  "ru": "Современная столица рядом со степью"
+  "uz": "Dashtga yaqin zamonaviy poytaxt"
+"excerpt":
+  "en": "Astana does not try to feel old. Its first impression is a wide Left Bank line: Baiterek, glass avenues, Nur Alem, the National Museum, and the Ishim River, with wind reminding you how close the steppe remains."
+  "ru": "Астана не пытается казаться старой. Первый образ города — широкая линия Левого берега: Байтерек, стеклянные проспекты, Nur Alem, Национальный музей и Ишим, а ветер напоминает, как близко степь."
+  "uz": "Ostona qadimiy shahar kabi ko‘rinishga urinmaydi. Uning birinchi taassuroti chap qirg‘oqdagi keng chiziqdan boshlanadi: Bayterek, keng shohko‘chalar va shisha binolar, Nur Alem, Milliy muzey va Ishim, shamol esa dasht qanchalik yaqinligini eslatadi."
+"heroImage": "assets/images/destinations/kazakhstan/regions/astana-and-akmola-steppe/cities/astana.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan/regions/astana-and-akmola-steppe/cities/astana.webp"
+    "imageAlt":
+      "en": "Astana"
+      "ru": "Астана"
+      "uz": "Ostona"
+    "title":
+      "en": "Astana"
+      "ru": "Астана"
+      "uz": "Ostona"
+    "description":
+      "en": "A planned capital with the steppe still close"
+      "ru": "Современная столица рядом со степью"
+      "uz": "Dashtga yaqin zamonaviy poytaxt"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Astana"
+      "ru": "Астана"
+      "uz": "Ostona"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Astana does not try to feel old."
+              "ru": "Астана не пытается казаться старой."
+              "uz": "Ostona qadimiy shahar kabi ko‘rinishga urinmaydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Astana is easiest when the visit follows the Left Bank first, then one indoor anchor and one river or boulevard pause."
+              "ru": "Астана становится понятнее, если сначала пройти Левый берег, затем выбрать один музей и оставить время для Ишима или бульвара."
+              "uz": "Ostona avval chap qirgʻoq, keyin bitta asosiy muzey va Ishim yoki bulvar bo‘yidagi tanaffus bilan yaxshiroq tushuniladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Begin around Baiterek and the Left Bank, choose Nur Alem or the National Museum, then let the Ishim River or dinner soften the formal scale."
+              "ru": "Начните у Байтерека и на Левом берегу, выберите Nur Alem или Национальный музей, а затем дайте масштабу города смягчиться у Ишима или за ужином."
+              "uz": "Bayterek va chap qirgʻoqdan boshlang, Nur Alem yoki Milliy muzeyni tanlang, so‘ng shahar miqyosi Ishim bo‘yida yoki kechki ovqatda yumshasin."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Astana as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Астана как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Ostona o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "How to move through Astana without rushing the city"
+      "ru": "Как двигаться по Астане без спешки"
+      "uz": "Ostonada shoshilmasdan yurish"
+    "description":
+      "en": "Astana is easiest when the visit follows the Left Bank first, then one indoor anchor and one river or boulevard pause."
+      "ru": "Астана становится понятнее, если сначала пройти Левый берег, затем выбрать один музей и оставить время для Ишима или бульвара."
+      "uz": "Ostona avval chap qirgʻoq, keyin bitta asosiy muzey va Ishim yoki bulvar bo‘yidagi tanaffus bilan yaxshiroq tushuniladi."
+    "mapPanel":
+      "eyebrow":
+        "en": "City map"
+        "ru": "Карта города"
+        "uz": "Shahar xaritasi"
+      "title":
+        "en": "Left Bank, river, and steppe roads"
+        "ru": "Левый берег, река и дороги к степи"
+        "uz": "Chap qirgʻoq, daryo va dasht yoʻllari"
+      "description":
+        "en": "The map looks spacious, but wind, heat, winter cold, and long blocks can make short transfers useful."
+        "ru": "На карте город кажется просторным, но ветер, жара, зимний холод и длинные кварталы быстро делают короткие трансферы полезными."
+        "uz": "Xaritada shahar keng ko‘rinadi, lekin shamol, issiq, qish sovugʻi va uzun kvartallar qisqa transferlarni foydali qiladi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 51.112925
+      "longitude": 71.445926
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "baiterek-monument"
+      - "entityType": "attraction"
+        "entitySlug": "nur-alem-museum-of-future-energy"
+      - "entityType": "attraction"
+        "entitySlug": "national-museum-of-the-republic-of-kazakhstan"
+    "aside":
+      "eyebrow":
+        "en": "City sequence"
+        "ru": "Маршрут по городу"
+        "uz": "Shahar tartibi"
+      "title":
+        "en": "Left Bank, museum, river"
+        "ru": "Левый берег, музей, Ишим"
+        "uz": "Chap qirgʻoq, muzey, Ishim"
+      "description":
+        "en": "Begin around Baiterek and the Left Bank, choose Nur Alem or the National Museum, then let the Ishim River or dinner soften the formal scale."
+        "ru": "Начните у Байтерека и на Левом берегу, выберите Nur Alem или Национальный музей, а затем дайте масштабу города смягчиться у Ишима или за ужином."
+        "uz": "Bayterek va chap qirgʻoqdan boshlang, Nur Alem yoki Milliy muzeyni tanlang, so‘ng shahar miqyosi Ishim bo‘yida yoki kechki ovqatda yumshasin."
+      "items":
+        - "title":
+            "en": "Begin around Baiterek"
+            "ru": "Начните вокруг Байтерека"
+            "uz": "Bayterek atrofidan boshlang"
+          "description":
+            "en": "The tower and boulevard give the city its first shape before the day turns to museums or the river."
+            "ru": "Башня и бульвар дают городу первую линию, прежде чем маршрут перейдёт к музеям или Ишиму."
+            "uz": "Minora va bulvar muzeylar yoki Ishimga o‘tishdan oldin shaharga birinchi shakl beradi."
+        - "title":
+            "en": "Choose one main indoor stop"
+            "ru": "Выберите одну главную остановку в помещении"
+            "uz": "Bitta asosiy yopiq joyni tanlang"
+          "description":
+            "en": "Nur Alem gives the Expo and future-energy story; the National Museum brings the route back to history and identity."
+            "ru": "Nur Alem раскрывает историю Expo и энергии будущего; Национальный музей возвращает маршрут к истории и идентичности."
+            "uz": "Nur Alem Expo va kelajak energiyasi hikoyasini beradi; Milliy muzey esa marshrutni tarix va o‘zlikka qaytaradi."
+        - "title":
+            "en": "Plan for wind and winter"
+            "ru": "Планируйте ветер и зиму"
+            "uz": "Shamol va qishni oldindan o‘ylang"
+          "description":
+            "en": "Open boulevards can feel exposed, so short transfers and warm indoor stops help the city day stay calm."
+            "ru": "Открытые бульвары могут быстро продуваться, поэтому короткие трансферы и тёплые паузы в помещении помогают сохранить спокойный темп."
+            "uz": "Ochiq bulvarlarda shamol kuchli seziladi; qisqa transferlar va iliq yopiq joylar shahar kunini sokinroq qiladi."
+        - "title":
+            "en": "Treat Burabay or Korgalzhyn as separate outings"
+            "ru": "Бурабай и Коргалжын — отдельные выезды"
+            "uz": "Burabay va Qoʻrgʻaljin alohida chiqishlar"
+          "description":
+            "en": "Lake forest and bird-reserve roads need their own timing, road plan, and season check."
+            "ru": "Озёрно-лесные дороги и птичий заповедник требуют своего времени, дорожного плана и проверки сезона."
+            "uz": "Ko‘l-o‘rmon yo‘llari va qushlar qo‘riqxonasi o‘z vaqti, yo‘l rejasi va mavsum tekshiruvini talab qiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Three anchors for the first city day"
+      "ru": "Три первых ориентира Астаны"
+      "uz": "Ostonaning uch birinchi mo‘ljali"
+    "description":
+      "en": "Baiterek sets the Left Bank in motion, Nur Alem gives the Expo-era future story, and the National Museum adds historical depth before the route turns back to the river."
+      "ru": "Байтерек задаёт Левый берег, Nur Alem показывает историю Expo, а Национальный музей добавляет историческую глубину перед возвращением к Ишиму."
+      "uz": "Bayterek chap qirgʻoqni anglatadi, Nur Alem Expo davri hikoyasini beradi, Milliy muzey esa Ishimga qaytishdan oldin tarixiy chuqurlik qo‘shadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan/regions/astana-and-akmola-steppe/cities/astana/attractions/baiterek-monument.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Baiterek Monument"
+          "ru": "Монумент Байтерек"
+          "uz": "Bayterek monumenti"
+        "description":
+          "en": "Baiterek rises where Astana's broad boulevard, government quarter, and open steppe sky meet. Start here and the modern capital becomes easier to place: its scale, wind, symmetry, and distance are visible before the museum visits begin."
+          "ru": "Байтерек поднимается там, где сходятся широкий бульвар, правительственный квартал и открытое степное небо. Начните здесь, и современная столица станет понятнее: её масштаб, ветер, симметрия и расстояния видны ещё до музеев."
+          "uz": "Bayterek keng bulvar, hukumat binolari joylashgan hudud va ochiq dasht osmoni tutashadigan joyda koʻtariladi. Shu yerdan boshlasangiz, zamonaviy poytaxtning miqyosi, shamoli, simmetriyasi va masofalari muzeylarga borishdan oldin ham seziladi."
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/astana/baiterek-monument"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan/regions/astana-and-akmola-steppe/cities/astana/attractions/nur-alem-museum-of-future-energy.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Nur Alem / Alem.AI Center"
+          "ru": "Nur Alem / центр Alem.AI"
+          "uz": "Nur Alem / Alem.AI markazi"
+        "description":
+          "en": "Nur Alem is the sphere that made Astana's Expo district instantly recognizable. Today the building should be read as a transformed landmark: the former Future Energy Museum has closed, and the sphere now points travelers toward Alem.AI, the Museum of Singularity, and the capital'"
+          "ru": "Nur Alem — сфера, по которой сразу узнают район Expo в Астане. Сегодня это уже не прежний Музей энергии будущего: музей завершил работу, а здание стало частью Alem.AI, Музея сингулярности и городской технологической среды."
+          "uz": "Nur Alem — Ostonadagi Expo hududini darhol tanitadigan sfera. Bugun bu avvalgi Kelajak energiyasi muzeyi emas: muzey ishini yakunlagan, bino esa Alem.AI, Singularity muzeyi va shaharning texnologik muhiti bilan bog‘langan."
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/astana/nur-alem-museum-of-future-energy"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan/regions/astana-and-akmola-steppe/cities/astana/attractions/national-museum-of-the-republic-of-kazakhstan.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "National Museum of the Republic of Kazakhstan"
+          "ru": "Национальный музей Республики Казахстан"
+          "uz": "Qozogʻiston Respublikasi Milliy muzeyi"
+        "description":
+          "en": "On Tauelsizdik Avenue, the National Museum anchors the cultural side of Astana's Independence Square. The visit moves from ancient and medieval history to the Gold Hall, ethnography, contemporary art, the Hall of Astana, and Independent Kazakhstan, giving the capital's civic scal"
+          "ru": "На проспекте Тауелсиздик Национальный музей закрепляет культурную сторону площади Независимости. Визит ведёт от древней и средневековой истории к Залу золота, этнографии, современному искусству, залу Астаны и независимому Казахстану, чтобы у гражданского масштаба столицы появилас"
+          "uz": "Tauelsizdik shohkoʻchasida Milliy muzey Mustaqillik maydonining madaniy tomonini mustahkamlaydi. Tashrif qadimgi va oʻrta asrlar tarixidan Oltin zal, etnografiya, zamonaviy sanʼat, Ostona zali va Mustaqil Qozogʻistonga oʻtadi, shunda poytaxtning fuqarolik miqyosida milliy tarix c"
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/astana/national-museum-of-the-republic-of-kazakhstan"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan/regions/astana-and-akmola-steppe/cities/astana/attractions/khan-shatyr.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Khan Shatyr"
+          "ru": "Хан Шатыр"
+          "uz": "Xan Shatir"
+        "description":
+          "en": "Khan Shatyr is not Astana's quietest stop, and that is why it belongs in the route. The tent roof gives the Left Bank a landmark you recognize from far away; inside, you see the everyday side of the planned capital: coffee stops, families, entertainment, and shelter from wind, co"
+          "ru": "Хан Шатыр — не самая тихая остановка в Астане, и именно поэтому он нужен в маршруте. Шатровая крыша даёт левому берегу ориентир, который видно издалека; внутри открывается повседневная сторона спланированной столицы: кофе, семьи, развлечения и защита от ветра, холода, жары или до"
+          "uz": "Xan Shatir Ostonadagi eng sokin bekat emas, shuning uchun ham u yoʻnalishda kerak. Chodir tom chap qirgʻoqqa uzoqdan taniladigan moʻljal beradi; ichkarida esa rejalangan poytaxtning kundalik tomoni ko‘rinadi: qahva, oilalar, ko‘ngilochar joylar va shamol, sovuq, issiq yoki yomgʻi"
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/astana/khan-shatyr"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan/regions/astana-and-akmola-steppe/cities/astana/attractions/hazret-sultan-mosque.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Hazret Sultan Mosque"
+          "ru": "Мечеть Хазрет Султан"
+          "uz": "Hazret Sultan masjidi"
+        "description":
+          "en": "Hazret Sultan Mosque gives Astana's monumental center a quieter register. The white-stone complex opened in 2012 beside Independence Square, with four 77-meter minarets, a 51-meter dome shaped by the shanyrak symbol, and a prayer hall built for daily worship and holiday crowds. A"
+          "ru": "Мечеть Хазрет Султан добавляет спокойный тон монументальному центру Астаны. Белокаменный комплекс открылся в 2012 году рядом с площадью Независимости: четыре 77-метровых минарета, 51-метровый купол с образом шанырака и молитвенный зал для ежедневной молитвы и праздничных собраний"
+          "uz": "Hazret Sultan masjidi Ostonaning monumentalli markaziga sokinroq ohang beradi. Oq toshli majmua 2012 yilda Mustaqillik maydoni yonida ochilgan: toʻrtta 77 metrlik minora, shanyrak timsolidagi 51 metrlik gumbaz va kundalik namoz hamda bayram jamoatlari uchun qurilgan keng namoz za"
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/astana/hazret-sultan-mosque"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan/regions/astana-and-akmola-steppe/cities/astana/attractions/palace-of-peace-and-reconciliation.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Palace of Peace and Reconciliation"
+          "ru": "Дворец мира и согласия"
+          "uz": "Tinchlik va totuvlik saroyi"
+        "description":
+          "en": "The Palace gives Astana's Independence Square a pyramid you can read from the pavement: stone, glass, and a stained-glass crown over a building made for congresses and performance. Designed by Foster + Partners after the first interfaith Congress in Astana, it belongs naturally w"
+          "ru": "Дворец мира и согласия даёт площади Независимости форму, которую видно сразу: камень, стекло и витражная вершина над зданием, созданным для конгрессов и выступлений. Проект Foster + Partners появился после первого межрелигиозного конгресса в Астане, поэтому дворец естественно чит"
+          "uz": "Tinchlik va totuvlik saroyi Mustaqillik maydoniga darhol taniladigan shakl beradi: kongresslar va sahna uchun yaratilgan bino ustida tosh, shisha va vitrajli choʻqqi. Foster + Partners loyihasi Ostonadagi birinchi dinlararo kongressdan keyin paydo boʻlgan, shuning uchun saroy Mil"
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/astana/palace-of-peace-and-reconciliation"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City moments"
+      "ru": "Городские моменты"
+      "uz": "Shahar lahzalari"
+    "title":
+      "en": "What softens the planned capital"
+      "ru": "Что смягчает плановую столицу"
+      "uz": "Rejali poytaxtni nima yumshatadi"
+    "description":
+      "en": "Astana feels less formal when the visit leaves space for boulevard wind, one museum interior, river light, and an unhurried meal between transfers."
+      "ru": "Астана становится менее формальной, когда в маршруте есть ветер на бульваре, один музейный интерьер, свет у Ишима и неспешный ужин между переездами."
+      "uz": "Bulvardagi shamol, bitta muzey ichkarisi, Ishim bo‘yidagi yorug‘lik va transferlar orasidagi shoshilmasdan ovqat Ostonani kamroq rasmiy qiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan/character/astana/astana-character-1.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Baiterek and the Left Bank boulevard"
+          "ru": "Байтерек и бульвар Левого берега"
+          "uz": "Bayterek va chap qirgʻoq bulvari"
+        "description":
+          "en": "Baiterek gives the planned capital a first line: tower views, open plazas, boulevard wind, and the scale of the Left Bank."
+          "ru": "Байтерек задаёт первую линию новой столицы: вид с башни, открытые площади, ветер на бульваре и масштаб Левого берега."
+          "uz": "Bayterek yangi poytaxtning ilk yoʻnalishini ko‘rsatadi: minora manzarasi, ochiq maydonlar, bulvar shamoli va chap qirgʻoq miqyosi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Nur Alem and the Expo sphere"
+          "ru": "Nur Alem и сфера Expo"
+          "uz": "Nur Alem va Expo sferasi"
+        "description":
+          "en": "The Expo sphere adds an indoor pause with future-energy displays, new architecture, and the wide space of Astana’s exhibition district."
+          "ru": "Сфера Expo даёт паузу в помещении: экспозиции об энергии будущего, новая архитектура и широкое пространство выставочного района."
+          "uz": "Expo sferasi tashrifga yopiq makondagi pauza qo‘shadi: kelajak energiyasi ekspozitsiyalari, yangi arxitektura va ko‘rgazma hududining keng maydoni."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "National Museum and steppe scale"
+          "ru": "Национальный музей и масштаб степи"
+          "uz": "Milliy muzey va dasht miqyosi"
+        "description":
+          "en": "The National Museum pairs state history with open avenues, helping Astana feel tied to the steppe rather than only to its towers."
+          "ru": "Национальный музей ставит историю государства рядом с широкими проспектами, и Астана ощущается связанной со степью, а не только с башнями."
+          "uz": "Milliy muzey davlat tarixini keng shohko‘chalar bilan yonma-yon ko‘rsatadi; Ostona faqat minoralar emas, dasht bilan bog‘langan poytaxtdek seziladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "How to plan Astana calmly"
+      "ru": "Как спланировать Астану спокойно"
+      "uz": "Ostonani sokin rejalash"
+    "description":
+      "en": "The capital can feel formal at first. A clear Left Bank sequence, one main indoor stop, and time by the river or over dinner make the city easier to feel, not only to map."
+      "ru": "Сначала столица может казаться формальной. Линия Левого берега, один главный музей и пауза у Ишима или за ужином помогают почувствовать город, а не только отметить здания на карте."
+      "uz": "Dastlab poytaxt rasmiy ko‘rinishi mumkin. Chap qirgʻoqdagi aniq yo‘l, bitta asosiy muzey va Ishim bo‘yidagi yoki kechki ovqatdagi pauza shaharni faqat xaritadagi binolar emas, tirik joy sifatida ko‘rsatadi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "First city day"
+              "ru": "Первый городской день"
+              "uz": "Birinchi shahar kuni"
+            "description":
+              "en": "Start with Baiterek and the Left Bank, choose one museum, then end with the Ishim River, a boulevard walk, or dinner rather than stacking more landmarks."
+              "ru": "Начните с Байтерека и Левого берега, выберите один музей, затем завершите день у Ишима, на бульваре или за ужином вместо новой серии остановок."
+              "uz": "Bayterek va chap qirgʻoqdan boshlang, bitta muzey tanlang, so‘ng kunni Ishim bo‘yida, bulvarda yoki kechki ovqatda yakunlang; yana bir necha yodgorlik qo‘shishga shoshilmang."
+          - "type": "quote"
+            "quote":
+              "en": "Astana is strongest when its planned capital line is balanced by one slower human stop."
+              "ru": "Астана сильнее всего, когда линия плановой столицы уравновешена одной неспешной человеческой паузой."
+              "uz": "Ostona rejali poytaxt chizigʻi bir sekin insoniy pauza bilan muvozanatlanganda kuchliroq seziladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Museum pause"
+              "ru": "Музейная пауза"
+              "uz": "Muzey pauzasi"
+            "description":
+              "en": "Nur Alem and the National Museum protect the visit from wind, heat, or cold while giving the city a story beyond its architecture."
+              "ru": "Nur Alem и Национальный музей защищают визит от ветра, жары или холода и дают городу историю за пределами архитектуры."
+              "uz": "Nur Alem va Milliy muzey shamol, issiq yoki sovuqdan saqlaydi va shaharga arxitekturadan tashqari hikoya beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Northern extension"
+              "ru": "Северное продолжение"
+              "uz": "Shimoliy davom"
+            "description":
+              "en": "Burabay and Korgalzhyn belong to a separate plan with road timing, season, and daylight checked before departure."
+              "ru": "Бурабай и Коргалжын лучше планировать отдельно: с дорогой, сезоном и световым днём, проверенными до выезда."
+              "uz": "Burabay va Qoʻrgʻaljin alohida reja bilan yaxshi chiqadi: yo‘l, mavsum va kunduzgi vaqt jo‘nashdan oldin tekshiriladi."
+          - "type": "alert"
+            "title":
+              "en": "For the traveler"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Come for the modern capital; leave knowing whether the next move is lake forest, bird reserve, business program, or the route back south."
+              "ru": "Приезжайте за современной столицей; уезжайте с понятным выбором — озёрный лес, птичий заповедник, деловая программа или маршрут обратно на юг."
+              "uz": "Zamonaviy poytaxt uchun keling; keyingi qadam ko‘l-o‘rmon, qushlar qo‘riqxonasi, biznes dasturi yoki janubga qaytish ekanini aniq bilib keting."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Good to know Stay"
+                  "ru": "Коротко Ночёвки"
+                  "uz": "Qisqacha Tunash"
+                "description":
+                  "en": "Two nights allow one calm city day; add another night if Burabay or Korgalzhyn is part of the route."
+                  "ru": "Две ночи дают один спокойный городской день; если в маршрут входят Бурабай или Коргалжын, добавьте ещё одну."
+                  "uz": "Ikki tun bitta sokin shahar kuniga yetadi; Burabay yoki Qoʻrgʻaljin bo‘lsa, yana bir tun qo‘shing."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Yoʻnalishdagi roli"
+                "description":
+                  "en": "Modern capital, museum stop, business city, and northern steppe anchor."
+                  "ru": "Современная столица, музейная остановка, деловой город и северная опора степного маршрута."
+                  "uz": "Zamonaviy poytaxt, muzey bekati, biznes shahri va shimoliy dasht tayanchi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Season and pace"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va surʼat"
+                "description":
+                  "en": "Late spring to early autumn is easiest. Winter can be rewarding, but wind and cold make indoor sequencing important."
+                  "ru": "С конца весны до начала осени проще всего. Зима может быть выразительной, но ветер и холод требуют тёплых пауз в помещении."
+                  "uz": "Kech bahordan erta kuzgacha eng oson. Qish taʼsirli bo‘lishi mumkin, lekin shamol va sovuq yopiq joylarni oldindan o‘ylashni talab qiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby places"
+      "ru": "Рядом"
+      "uz": "Yaqin joylar"
+    "title":
+      "en": "Where the route can go after Astana"
+      "ru": "Куда вести маршрут после Астаны"
+      "uz": "Ostonadan keyin yoʻl qayerga boradi"
+    "description":
+      "en": "From Astana, the route can turn north to Burabay’s lake forest, out to Korgalzhyn’s wetlands, or south by flight toward Almaty and Shymkent."
+      "ru": "Из Астаны маршрут может уйти на север к озёрам Бурабая, к водно-болотным угодьям Коргалжына или перелётом на юг — к Алматы и Шымкенту."
+      "uz": "Ostonadan yoʻl shimolga, Burabay ko‘l-o‘rmonlari va Qoʻrgʻaljin suv-botqoq hududlariga, yoki parvoz orqali janubga — Olmaota va Chimkentga burilishi mumkin."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Burabay"
+          "ru": "Бурабай"
+          "uz": "Burabay"
+        "description":
+          "en": "Burabay is the lake-and-pine place north of Astana where open steppe gives way to shore paths, granite silhouettes, and a calmer night around Lake Burabay."
+          "ru": "Бурабай - озёрно-сосновое место к северу от Астаны, где открытая степь переходит в береговые прогулки, гранитные силуэты и более спокойную ночь у озера."
+          "uz": "Burabay Ostonadan shimoldagi koʻl va qaragʻaylar joyi: ochiq dasht qirgʻoq yoʻllari, granit siluetlar va Burabay koʻli atrofidagi sokinroq tunga oʻtadi."
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/burabay"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Korgalzhyn"
+          "ru": "Коргалжын"
+          "uz": "Qorgʻaljyn"
+        "description":
+          "en": "Korgalzhyn turns the Astana journey toward Saryarka's protected lakes, reed beds, and migratory birds, with season and reserve access shaping every visit."
+          "ru": "Коргалжын поворачивает поездку из Астаны к охраняемым озерам Сарыарки, камышам и перелетным птицам; сезон и доступ в заповедник задают ритм визита."
+          "uz": "Qorgʻaljyn Ostona safarini Saryarkaning qoʻriqlanadigan koʻllari, qamishzorlari va ko'chmanchi qushlari sari buradi; mavsum va qoʻriqxona kirishi tashrif ritmini belgilaydi."
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/korgalzhyn"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan/next/astana-next-almaty.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Almaty"
+          "ru": "Алматы"
+          "uz": "Olmaota"
+        "description":
+          "en": "Almaty brings Kazakhstan into the foothills: leafy streets, market time, Kok-Tobe views, Medeu air, Shymbulak lift timing, and wider routes toward canyons, lakes, rock art, and steppe."
+          "ru": "Алматы вводит Казахстан в предгорья: зелёные улицы, рынок, виды Кок-Тобе, воздух Медеу, тайминг Шымбулака и выбор дорог к каньонам, озёрам, петроглифам и степи."
+          "uz": "Olmaota Qozogʻistonni togʻoldi kayfiyatida ochadi: yashil koʻchalar, bozor vaqti, Koʻk-Tobe manzarasi, Medeu havosi, Shimbuloq vaqt tanlovi hamda kanyon, ko‘l, qoya rasmlari va dasht yoʻllari."
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/almaty"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Shymkent"
+          "ru": "Шымкент"
+          "uz": "Chimkent"
+        "description":
+          "en": "Shymkent brings southern Kazakhstan down to street level: old-city traces, Central and Upper Bazaar, and road choices toward Turkistan, Otrar, Sayram, and the Western Tian Shan."
+          "ru": "Шымкент показывает южный Казахстан на уровне улиц: следы старого города, Центральный и Верхний базар и дороги к Туркестану, Отрару, Сайраму и Западному Тянь-Шаню."
+          "uz": "Chimkent janubiy Qozogʻistonni ko‘cha darajasida ko‘rsatadi: eski shahar izlari, Markaziy va Yuqori bozor hamda Turkiston, Oʻtror, Sayram va Gʻarbiy Tyan-Shan yoʻllari."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/shymkent"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Astana in the day plan"
+      "ru": "Как поставить Астана в план дня"
+      "uz": "Ostonani kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Astana?"
+          "ru": "Сколько времени группам стоит проводить в Астана?"
+          "uz": "Ostonada guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A planned capital with the steppe still close”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Современная столица рядом со степью»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Dashtga yaqin zamonaviy poytaxt»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Astana be a walkable core or a base for day trips?"
+          "ru": "Астана — это пешеходное ядро или база для выездов?"
+          "uz": "Ostona piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Astana's centre?"
+          "ru": "Где лучше ночевать относительно центра Астана?"
+          "uz": "Ostona markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan/regions/astana-and-akmola-steppe/cities/astana.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Astana stop into your Kazakhstan programme"
+      "ru": "Встройте остановку «Астана» в программу (Казахстан)"
+      "uz": "Ostona bekatini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Astana | TourLink"
+    "ru": "Астана | TourLink"
+    "uz": "Ostona | TourLink"
+  "metaDescription":
+    "en": "Astana does not try to feel old. Its first impression is a wide Left Bank line: Baiterek, glass avenues, Nur Alem, the National Museum, and the Ishim River, with wind reminding you how close the steppe remains."
+    "ru": "Астана не пытается казаться старой. Первый образ города — широкая линия Левого берега: Байтерек, стеклянные проспекты, Nur Alem, Национальный музей и Ишим, а ветер напоминает, как близко степь."
+    "uz": "Ostona qadimiy shahar kabi ko‘rinishga urinmaydi. Uning birinchi taassuroti chap qirg‘oqdagi keng chiziqdan boshlanadi: Bayterek, keng shohko‘chalar va shisha binolar, Nur Alem, Milliy muzey va Ishim, shamol esa dasht qanchalik yaqinligini eslatadi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "astana-and-akmola-steppe"
+"latitude": 51.1159933
+"longitude": 71.4677059

@@ -13,7 +13,8 @@ export default defineConfig([
 		"out/**",
 		"build/**",
 		"node_modules/**",
-		"next-env.d.ts"
+		"next-env.d.ts",
+		"scripts/**"
 	]),
 
 	...nextVitals,

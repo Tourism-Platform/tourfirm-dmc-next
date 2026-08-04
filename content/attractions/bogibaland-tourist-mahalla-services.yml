@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "bogibaland-tourist-mahalla-services"
+  "ru": "bogibaland-tourist-mahalla-services"
+  "uz": "bogibaland-tourist-mahalla-services"
+"title":
+  "en": "Bogibaland information center and fair spaces"
+  "ru": "Инфоцентр и ярмарочные пространства Богибаланда"
+  "uz": "Bog‘ibaland axborot nuqtasi va yarmarka joylari"
+"subtitle":
+  "en": "Signs, fair tables, and recreation areas in the tourism mahalla"
+  "ru": "Указатели, ярмарочные ряды и зоны отдыха в туристической махалле"
+  "uz": "Turizm mahallasidagi ko‘rsatkichlar, yarmarka rastalari va dam olish joylari"
+"excerpt":
+  "en": "This is the practical face of Bogibaland as a tourism mahalla: signs, a park map, visitor information, recreation areas, and fair tables that can carry figs, crafts, dried fruit, and preserves."
+  "ru": "Это практическая сторона Богибаланда как туристической махалли: указатели, карта парка, информационный пункт, зоны отдыха и ярмарочные ряды с инжиром, ремёслами, сухофруктами и вареньем."
+  "uz": "Bu Bog‘ibalandning turizm mahallasi sifatidagi amaliy tomoni: ko‘rsatkichlar, park xaritasi, axborot nuqtasi, dam olish joylari va anjir, hunar, quruq meva hamda murabbo keltiradigan yarmarka rastalari."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Bogibaland information center and fair spaces"
+      "ru": "Инфоцентр и ярмарочные пространства Богибаланда"
+      "uz": "Bog‘ibaland axborot nuqtasi va yarmarka joylari"
+    "title":
+      "en": "Bogibaland information center and fair spaces"
+      "ru": "Инфоцентр и ярмарочные пространства Богибаланда"
+      "uz": "Bog‘ibaland axborot nuqtasi va yarmarka joylari"
+    "description":
+      "en": "Signs, fair tables, and recreation areas in the tourism mahalla"
+      "ru": "Указатели, ярмарочные ряды и зоны отдыха в туристической махалле"
+      "uz": "Turizm mahallasidagi ko‘rsatkichlar, yarmarka rastalari va dam olish joylari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Bogibaland information center and fair spaces"
+      "ru": "Инфоцентр и ярмарочные пространства Богибаланда"
+      "uz": "Bog‘ibaland axborot nuqtasi va yarmarka joylari"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "This is the practical face of Bogibaland as a tourism mahalla: signs, a park map, visitor information, recreation areas, and fair tables that can carry figs, crafts, dried fruit, and preserves."
+              "ru": "Это практическая сторона Богибаланда как туристической махалли: указатели, карта парка, информационный пункт, зоны отдыха и ярмарочные ряды с инжиром, ремёслами, сухофруктами и вареньем."
+              "uz": "Bu Bog‘ibalandning turizm mahallasi sifatidagi amaliy tomoni: ko‘rsatkichlar, park xaritasi, axborot nuqtasi, dam olish joylari va anjir, hunar, quruq meva hamda murabbo keltiradigan yarmarka rastalari."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "The information point, fair tables, and recreation areas help travelers read Bogibaland before the route moves toward the fig gardens."
+              "ru": "Информационный пункт, ярмарочные ряды и зоны отдыха помогают прочитать Богибаланд до перехода к инжирным садам."
+              "uz": "Axborot nuqtasi, yarmarka rastalari va dam olish joylari anjir bog‘lariga o‘tishdan oldin Bog‘ibalandni tushunishga yordam beradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Signs, fair tables, and recreation areas in the tourism mahalla."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Указатели, ярмарочные ряды и зоны отдыха в туристической махалле."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Turizm mahallasidagi ko‘rsatkichlar, yarmarka rastalari va dam olish joylari."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Bogibaland information center and fair spaces as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Инфоцентр и ярмарочные пространства Богибаланда как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Bog‘ibaland axborot nuqtasi va yarmarka joylari o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Bogibaland information center and fair spaces sits on the route"
+      "ru": "Где Инфоцентр и ярмарочные пространства Богибаланда стоит на маршруте"
+      "uz": "Bog‘ibaland axborot nuqtasi va yarmarka joylari marshrutda qayerda"
+    "description":
+      "en": "One clear point for Bogibaland information center and fair spaces — Signs, fair tables, and recreation areas in the tourism mahalla."
+      "ru": "Одна понятная точка для «Инфоцентр и ярмарочные пространства Богибаланда» — Указатели, ярмарочные ряды и зоны отдыха в туристической махалле."
+      "uz": "Bog‘ibaland axborot nuqtasi va yarmarka joylari uchun bitta aniq nuqta — Turizm mahallasidagi ko‘rsatkichlar, yarmarka rastalari va dam olish joylari."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Bogibaland information center and fair spaces"
+        "ru": "Инфоцентр и ярмарочные пространства Богибаланда"
+        "uz": "Bog‘ibaland axborot nuqtasi va yarmarka joylari"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.52861
+      "longitude": 70.9425
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "bogibaland-tourist-mahalla-services"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Where the tourism mahalla becomes visible"
+      "ru": "Где туристическая махалля становится видимой"
+      "uz": "Turizm mahallasi ko‘rinadigan joy"
+    "description":
+      "en": "The information point, fair tables, and recreation areas help travelers read Bogibaland before the route moves toward the fig gardens.
+
+
+        «The information point and fair spaces make Bogibaland easier to read before the route moves into fig shade.»"
+      "ru": "Информационный пункт, ярмарочные ряды и зоны отдыха помогают прочитать Богибаланд до перехода к инжирным садам.
+
+
+        «Информационный пункт и ярмарочные пространства помогают понять Богибаланд до перехода в инжирную тень.»"
+      "uz": "Axborot nuqtasi, yarmarka rastalari va dam olish joylari anjir bog‘lariga o‘tishdan oldin Bog‘ibalandni tushunishga yordam beradi.
+
+
+        «Axborot nuqtasi va yarmarka joylari Bog‘ibalandni anjir soyasiga o‘tishdan oldin tushunarli qiladi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you’ll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimani ko‘rasiz"
+    "title":
+      "en": "Information, fair tables, and recreation spaces"
+      "ru": "Информация, ярмарочные ряды и зоны отдыха"
+      "uz": "Axborot, yarmarka rastalari va dam olish joylari"
+    "description":
+      "en": "These views should show how the tourism mahalla is organized around gardens and local pauses."
+      "ru": "Эти виды должны показывать, как туристическая махалля организована вокруг сада и местных пауз."
+      "uz": "Bu ko‘rinishlar turizm mahallasi bog‘lar va mahalliy pauzalar atrofida qanday tuzilganini ko‘rsatishi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как смотреть"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Let the fair stay seasonal"
+      "ru": "Оставьте ярмарку сезонной"
+      "uz": "Yarmarka mavsumiy bo‘lib qolsin"
+    "description":
+      "en": "Treat stalls, produce, and displays as part of the day when they are present; otherwise the information point and garden setting still explain the mahalla."
+      "ru": "Ряды, продукты и показы уместны, когда они входят в день; в более спокойный момент информационный пункт и садовая среда всё равно объясняют махаллю."
+      "uz": "Rastalar, mahsulotlar va namoyishlar kun ichida bor bo‘lsa mos; sokin paytda axborot nuqtasi va bog‘ mazmuni baribir mahallani tushuntiradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby Bogibaland details"
+      "ru": "Детали рядом в Богибаланде"
+      "uz": "Bog‘ibalanddagi yaqin tafsilotlar"
+    "title":
+      "en": "What to add around the fair spaces"
+      "ru": "Что добавить вокруг ярмарочных пространств"
+      "uz": "Yarmarka joylari atrofida nima qo‘shish"
+    "description":
+      "en": "Stay within the same mahalla story: Anjirzor, the city-edge pause, and a calm return toward Samarkand."
+      "ru": "Оставайтесь в той же истории махалли: Анжирзор, пауза у края города и спокойное возвращение к Самарканду."
+      "uz": "O‘sha mahalla hikoyasida qoling: Anjirzor, shahar-cheti pauzasi va Samarqand tomonga sokin qaytish."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Anjirzor fig gardens"
+          "ru": "Инжирные сады Анжирзор"
+          "uz": "Anjirzor anjir bog‘lari"
+        "description":
+          "en": "Anjirzor gives Bogibaland its strongest image: a wide fig garden with yellow and black trees, seasonal fruit, and a calmer pause after Samarkand."
+          "ru": "Анжирзор даёт Богибаланду главный образ: широкий инжирный сад с жёлтыми и чёрными деревьями, сезонными плодами и спокойной паузой после Самарканда."
+          "uz": "Anjirzor Bog‘ibalandga eng kuchli obraz beradi: sariq va qora daraxtli keng anjir bog‘i, mavsumiy meva va Samarqanddan keyingi sokin pauza."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/bogibaland/bogibaland-anjirzor-fig-garden"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Samarkand city-edge pause"
+          "ru": "Пауза у края Самарканда"
+          "uz": "Samarqand chetidagi pauza"
+        "description":
+          "en": "This Bogibaland stop keeps Samarkand close while changing the rhythm: city edge, mahalla setting, fig shade, and an easy return to the main route."
+          "ru": "Эта остановка в Богибаланде держит Самарканд рядом, но меняет ритм: край города, махаллинская среда, инжирная тень и лёгкое возвращение к маршруту."
+          "uz": "Bog‘ibalanddagi bu bekat Samarqandni yaqin tutadi, lekin ritmni o‘zgartiradi: shahar cheti, mahalla muhiti, anjir soyasi va asosiy marshrutga oson qaytish."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/bogibaland/bogibaland-samarkand-city-edge"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Bogibaland information center and fair spaces"
+      "ru": "Что агентства спрашивают про Инфоцентр и ярмарочные пространства Богибаланда"
+      "uz": "Agentliklar Bog‘ibaland axborot nuqtasi va yarmarka joylari haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Bogibaland information center and fair spaces get in the day plan?"
+          "ru": "Сколько времени закладывать на Инфоцентр и ярмарочные пространства Богибаланда в плане дня?"
+          "uz": "Bog‘ibaland axborot nuqtasi va yarmarka joylari uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "45–90 minutes is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Signs, fair tables, and recreation areas in the tourism mahalla”."
+          "ru": "Для большинства групп реалистичный диапазон — 45–90 минут. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Указатели, ярмарочные ряды и зоны отдыха в туристической махалле»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 45–90 daqiqa. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Turizm mahallasidagi ko‘rsatkichlar, yarmarka rastalari va dam olish joylari»."
+      - "type": "destinationInsight"
+        "icon": "Sunrise"
+        "title":
+          "en": "When is Bogibaland information center and fair spaces strongest during the day?"
+          "ru": "В какое время дня Инфоцентр и ярмарочные пространства Богибаланда раскрывается сильнее?"
+          "uz": "Bog‘ibaland axborot nuqtasi va yarmarka joylari kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer before the midday heat. That usually improves comfort, photos, and how the stop feels in the sequence around bogibaland."
+          "ru": "Лучше до полуденной жары. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с bogibaland."
+          "uz": "tushlik issiqligidan oldin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (bogibaland atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How should Bogibaland information center and fair spaces sit next to nearby stops?"
+          "ru": "Как поставить Инфоцентр и ярмарочные пространства Богибаланда рядом с соседними остановками?"
+          "uz": "Bog‘ibaland axborot nuqtasi va yarmarka joylarini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Bogibaland information center and fair spaces to your Uzbekistan programme"
+      "ru": "Добавьте «Инфоцентр и ярмарочные пространства Богибаланда» в программу (Узбекистан)"
+      "uz": "Bog‘ibaland axborot nuqtasi va yarmarka joylarini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Bogibaland information center and fair spaces | TourLink"
+    "ru": "Инфоцентр и ярмарочные пространства Богибаланда | TourLink"
+    "uz": "Bog‘ibaland axborot nuqtasi va yarmarka joylari | TourLink"
+  "metaDescription":
+    "en": "This is the practical face of Bogibaland as a tourism mahalla: signs, a park map, visitor information, recreation areas, and fair tables that can carry figs, crafts, dried fruit, and preserves."
+    "ru": "Это практическая сторона Богибаланда как туристической махалли: указатели, карта парка, информационный пункт, зоны отдыха и ярмарочные ряды с инжиром, ремёслами, сухофруктами и вареньем."
+    "uz": "Bu Bog‘ibalandning turizm mahallasi sifatidagi amaliy tomoni: ko‘rsatkichlar, park xaritasi, axborot nuqtasi, dam olish joylari va anjir, hunar, quruq meva hamda murabbo keltiradigan yarmarka rastalari."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "samarkand-region"
+"city": "bogibaland"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 40.52861
+"longitude": 70.9425

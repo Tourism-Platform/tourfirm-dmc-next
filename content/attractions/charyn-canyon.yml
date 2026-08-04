@@ -1,0 +1,329 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "charyn-canyon"
+  "ru": "charyn-canyon"
+  "uz": "charyn-canyon"
+"title":
+  "en": "Charyn Canyon"
+  "ru": "Чарынский каньон"
+  "uz": "Charyn kanyoni"
+"subtitle":
+  "en": "Valley of Castles, red walls, and the Charyn River"
+  "ru": "Долина замков, красные стены и река Чарын"
+  "uz": "Qal'alar vodiysi, qizil devorlar va Charyn daryosi"
+"excerpt":
+  "en": "East of Almaty, the steppe opens and then breaks into red walls above the Charyn River. Charyn is strongest when you give it enough daylight, cooler walking hours, and current park checks, so the canyon becomes more than a viewpoint from the rim."
+  "ru": "К востоку от Алматы степь раскрывается, а затем обрывается красными стенами над рекой Чарын. Чарын сильнее всего, когда для него есть световой день, более прохладные часы и актуальная проверка правил парка, чтобы каньон стал не только видом с края."
+  "uz": "Almatydan sharqda dasht ochiladi, keyin Charyn daryosi ustidagi qizil devorlarga ajraladi. Charyn yetarli kunduzgi yorug'lik, salqinroq yurish soatlari va park qoidalari tekshirilganda kuchliroq ochiladi; shunda kanyon faqat chetdan ko'riladigan manzara bo'lib qolmaydi."
+"heroImage": "assets/images/destinations/kazakhstan/regions/almaty-and-northern-tian-shan/cities/charyn-canyon/attractions/charyn-canyon.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan/regions/almaty-and-northern-tian-shan/cities/charyn-canyon/attractions/charyn-canyon.webp"
+    "imageAlt":
+      "en": "Charyn Canyon"
+      "ru": "Чарынский каньон"
+      "uz": "Charyn kanyoni"
+    "title":
+      "en": "Charyn Canyon"
+      "ru": "Чарынский каньон"
+      "uz": "Charyn kanyoni"
+    "description":
+      "en": "Valley of Castles, red walls, and the Charyn River"
+      "ru": "Долина замков, красные стены и река Чарын"
+      "uz": "Qal'alar vodiysi, qizil devorlar va Charyn daryosi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Charyn Canyon"
+      "ru": "Чарынский каньон"
+      "uz": "Charyn kanyoni"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "East of Almaty, the steppe opens and then breaks into red walls above the Charyn River."
+              "ru": "К востоку от Алматы степь раскрывается, а затем обрывается красными стенами над рекой Чарын."
+              "uz": "Almatydan sharqda dasht ochiladi, keyin Charyn daryosi ustidagi qizil devorlarga ajraladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Charyn gives southeast Kazakhstan one of its clearest landscape shifts."
+              "ru": "Чарын даёт юго-восточному Казахстану одну из самых заметных смен ландшафта."
+              "uz": "Charyn janubi-sharqiy Qozog'istonda landshaftning eng aniq o'zgarishlaridan birini beradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Valley of Castles, red walls, and the Charyn River."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Долина замков, красные стены и река Чарын."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Qal'alar vodiysi, qizil devorlar va Charyn daryosi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Charyn Canyon as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Чарынский каньон как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Charyn kanyoni o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Charyn Canyon sits on the route"
+      "ru": "Где Чарынский каньон стоит на маршруте"
+      "uz": "Charyn kanyoni marshrutda qayerda"
+    "description":
+      "en": "One clear point for Charyn Canyon — Valley of Castles, red walls, and the Charyn River."
+      "ru": "Одна понятная точка для «Чарынский каньон» — Долина замков, красные стены и река Чарын."
+      "uz": "Charyn kanyoni uchun bitta aniq nuqta — Qal'alar vodiysi, qizil devorlar va Charyn daryosi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Charyn Canyon"
+        "ru": "Чарынский каньон"
+        "uz": "Charyn kanyoni"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 43.3505016
+      "longitude": 79.0813412
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "charyn-canyon"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Where the Almaty road reaches canyon country"
+      "ru": "Где дорога из Алматы приходит в страну каньонов"
+      "uz": "Almaty yo'li kanyon manzarasiga yetadigan joy"
+    "description":
+      "en": "Charyn gives southeast Kazakhstan one of its clearest landscape shifts. The protected park lies about 200 km east of Almaty; a first visit usually centers on the Charyn gorge and Valley of Castles route, where the road, wind, rock, and river make scale visible.
+
+
+        «Charyn is strongest when you have time to leave the rim, feel the wind, and return before heat or daylight starts making the decisions.»"
+      "ru": "Чарын даёт юго-восточному Казахстану одну из самых заметных смен ландшафта. Охраняемый парк находится примерно в 200 км к востоку от Алматы; первая поездка обычно строится вокруг Чарынского ущелья и маршрута Долины замков, где дорога, ветер, камень и река делают масштаб видимым.
+
+
+        «Чарын сильнее всего, когда у вас есть время отойти от края, почувствовать ветер и вернуться до того, как жара или световой день начнут диктовать решения.»"
+      "uz": "Charyn janubi-sharqiy Qozog'istonda landshaftning eng aniq o'zgarishlaridan birini beradi. Muhofaza qilingan park Almatydan taxminan 200 km sharqda joylashgan; birinchi tashrif odatda Charyn darasi va Qal'alar vodiysi yo'nalishi atrofida quriladi, bu yerda yo'l, shamol, tosh va daryo miqyosni ko'rsatadi.
+
+
+        «Charyn eng kuchli taassurotni chetdan uzoqlashish, shamolni his qilish va issiq yoki yorug'lik qarorni belgilashidan oldin qaytishga vaqt bo'lganda beradi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko'rasiz"
+    "title":
+      "en": "Red walls, eroded forms, and the Charyn River"
+      "ru": "Красные стены, выветренные формы и река Чарын"
+      "uz": "Qizil devorlar, yemirilgan shakllar va Charyn daryosi"
+    "description":
+      "en": "Three elements make Charyn legible on the ground: red rock, open steppe, and the river line below the walls."
+      "ru": "На месте Чарын складывается из трёх простых элементов: красной породы, открытой степи и линии реки под стенами."
+      "uz": "Charyni joyida uch oddiy unsur tushuntiradi: qizil tosh, ochiq dasht va devorlar ostidagi daryo chizig'i."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko'rish"
+    "title":
+      "en": "Let light, heat, and access shape the walk"
+      "ru": "Пусть свет, жара и доступ задают прогулку"
+      "uz": "Yorug'lik, issiq va kirish tartibi yurishni belgilasin"
+    "description":
+      "en": "Charyn is a protected canyon visit. Before you commit to the walk, check the access rules, heat, wind, daylight, and return road."
+      "ru": "Чарын — это визит в охраняемый каньон. До подтверждения прогулки проверьте правила доступа, жару, ветер, световой день и обратную дорогу."
+      "uz": "Charyn muhofaza qilinadigan kanyon tashrifidir. Yurishni tasdiqlashdan oldin kirish qoidalari, issiq, shamol, kunduzgi yorug'lik va qaytish yo'lini tekshiring."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add on the wider road"
+      "ru": "Что добавить на большой дороге"
+      "uz": "Kengroq yo'lda nima qo'shish"
+    "title":
+      "en": "Continue toward Saty, Kolsai, and Kaindy only when the route has time"
+      "ru": "Продолжайте к Саты, Кольсаю и Каинды только когда маршрут выдерживает время"
+      "uz": "Saty, Kolsai va Kaindyga faqat yo'nalishda vaqt bo'lsa davom eting"
+    "description":
+      "en": "Kolsai and Lake Kaindy are stronger as the next mountain section after Saty, not as casual add-ons to Charyn. Pair them with the canyon only when daylight, weather, road time, and overnight plans support the move."
+      "ru": "Кольсай и озеро Каинды сильнее как следующий горный участок после Саты, а не как случайное дополнение к Чарыну. Соединяйте их с каньоном только когда световой день, погода, время в дороге и план ночёвки поддерживают такой переход."
+      "uz": "Kolsai va Kaindy Charynga tasodifiy qo'shimcha emas, Saty ortidan keladigan keyingi tog' qismidir. Ularni kanyon bilan faqat kunduzgi yorug'lik, ob-havo, yo'l vaqti va tunash rejasi bunga imkon berganda bog'lang."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Kolsai Lakes National Park"
+          "ru": "Национальный парк «Кольсайские озёра»"
+          "uz": "Kolsai ko‘llari milliy bog‘i"
+        "description":
+          "en": "Kolsai Lakes National Park is the Saty route's main mountain-water stop: forested lake shores, cooler air, protected-area rules, and access checks that need to be current before travel."
+          "ru": "Национальный парк «Кольсайские озёра» — главный горно-озёрный акцент маршрута через Саты: лесные берега, прохладный воздух, правила охраняемой территории и доступ, который нужно проверять ближе к поездке."
+          "uz": "Kolsai ko‘llari milliy bog‘i Saty yo‘nalishining asosiy tog‘-suv nuqtasi: o‘rmonli qirg‘oqlar, salqin havo, muhofaza hududi qoidalari va safarga yaqin tekshiriladigan kirish sharoiti."
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/saty/kolsai-lakes-national-park"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Lake Kaindy"
+          "ru": "Озеро Каинды"
+          "uz": "Qayindy ko‘li"
+        "description":
+          "en": "Lake Kaindy is Saty's most unusual lake stop: cold water, upright spruce trunks, and a mountain approach that needs weather, road, and local-transfer checks."
+          "ru": "Озеро Каинды — самый необычный озёрный выезд из Саты: холодная вода, стоящие ели и горный подъезд, где нужно проверить погоду, дорогу и местный трансфер."
+          "uz": "Qayindy ko‘li Satydan boriladigan eng noodatiy ko‘l manzaralaridan biri: sovuq suv, tik archa tanalari va ob-havo, yo‘l hamda mahalliy transferni tekshirish talab qiladigan tog‘ yo‘li."
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/saty/lake-kaindy"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Charyn Canyon"
+      "ru": "Что агентства спрашивают про Чарынский каньон"
+      "uz": "Agentliklar Charyn kanyoni haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Charyn Canyon get in the day plan?"
+          "ru": "Сколько времени закладывать на Чарынский каньон в плане дня?"
+          "uz": "Charyn kanyoni uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "45–90 minutes is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Valley of Castles, red walls, and the Charyn River”."
+          "ru": "Для большинства групп реалистичный диапазон — 45–90 минут. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Долина замков, красные стены и река Чарын»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 45–90 daqiqa. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Qal'alar vodiysi, qizil devorlar va Charyn daryosi»."
+      - "type": "destinationInsight"
+        "icon": "Sunrise"
+        "title":
+          "en": "When is Charyn Canyon strongest during the day?"
+          "ru": "В какое время дня Чарынский каньон раскрывается сильнее?"
+          "uz": "Charyn kanyoni kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer before the midday heat. That usually improves comfort, photos, and how the stop feels in the sequence around charyn-canyon."
+          "ru": "Лучше до полуденной жары. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с charyn-canyon."
+          "uz": "tushlik issiqligidan oldin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (charyn-canyon atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How should Charyn Canyon sit next to nearby stops?"
+          "ru": "Как поставить Чарынский каньон рядом с соседними остановками?"
+          "uz": "Charyn kanyonini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan/regions/almaty-and-northern-tian-shan/cities/charyn-canyon/attractions/charyn-canyon.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Charyn Canyon to your Kazakhstan programme"
+      "ru": "Добавьте «Чарынский каньон» в программу (Казахстан)"
+      "uz": "Charyn kanyonini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Charyn Canyon | TourLink"
+    "ru": "Чарынский каньон | TourLink"
+    "uz": "Charyn kanyoni | TourLink"
+  "metaDescription":
+    "en": "East of Almaty, the steppe opens and then breaks into red walls above the Charyn River. Charyn is strongest when you give it enough daylight, cooler walking hours, and current park checks, so the canyon becomes more than a viewpoint from the rim."
+    "ru": "К востоку от Алматы степь раскрывается, а затем обрывается красными стенами над рекой Чарын. Чарын сильнее всего, когда для него есть световой день, более прохладные часы и актуальная проверка правил парка, чтобы каньон стал не только видом с края."
+    "uz": "Almatydan sharqda dasht ochiladi, keyin Charyn daryosi ustidagi qizil devorlarga ajraladi. Charyn yetarli kunduzgi yorug'lik, salqinroq yurish soatlari va park qoidalari tekshirilganda kuchliroq ochiladi; shunda kanyon faqat chetdan ko'riladigan manzara bo'lib qolmaydi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "almaty-and-northern-tian-shan"
+"city": "charyn-canyon"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 43.3505016
+"longitude": 79.0813412

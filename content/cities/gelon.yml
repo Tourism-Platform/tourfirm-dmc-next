@@ -1,0 +1,650 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "gelon"
+  "ru": "gelon"
+  "uz": "gelon"
+"title":
+  "en": "G‘elon"
+  "ru": "Гелон"
+  "uz": "G‘elon"
+"subtitle":
+  "en": "A high mountain village of pakhsa lanes, water, and orchards above Hisorak"
+  "ru": "Высокогорное село над Хисораком: пахсовые улицы, вода и сады"
+  "uz": "Hisorak ustidagi paxsa ko‘chalar, suv va bog‘lar qishlog‘i"
+"excerpt":
+  "en": "G‘elon sits high above Hisorak, where the Shakhrisabz road climbs into sharper air, orchard slopes, and pakhsa clay lanes. The village is strongest at human scale: water channels, family tables, craft rooms, the old mill, and a mountain pace that asks the route to slow down."
+  "ru": "Гелон стоит высоко над Хисораком, там, где дорога из Шахрисабза поднимается к более резкому воздуху, садам на склонах и пахсовым улицам. Село сильнее всего раскрывается в человеческом масштабе: вода, домашние столы, ремесленные комнаты, старая мельница и горный ритм, который замедляет маршрут."
+  "uz": "G‘elon Hisorakdan yuqorida, Shahrisabz yo‘li tiniqroq havo, yonbag‘ir bog‘lari va paxsa ko‘chalarga ko‘tariladigan joyda turadi. Qishloqning kuchi xonadon o‘lchamida seziladi: suv, dasturxon, hunar xonalari, eski tegirmon va yo‘lni sekinlashtiradigan tog‘ ritmi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/gelon.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/gelon.webp"
+    "imageAlt":
+      "en": "G‘elon"
+      "ru": "Гелон"
+      "uz": "G‘elon"
+    "title":
+      "en": "G‘elon"
+      "ru": "Гелон"
+      "uz": "G‘elon"
+    "description":
+      "en": "A high mountain village of pakhsa lanes, water, and orchards above Hisorak"
+      "ru": "Высокогорное село над Хисораком: пахсовые улицы, вода и сады"
+      "uz": "Hisorak ustidagi paxsa ko‘chalar, suv va bog‘lar qishlog‘i"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "G‘elon"
+      "ru": "Гелон"
+      "uz": "G‘elon"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "G‘elon sits high above Hisorak, where the Shakhrisabz road climbs into sharper air, orchard slopes, and pakhsa clay lanes."
+              "ru": "Гелон стоит высоко над Хисораком, там, где дорога из Шахрисабза поднимается к более резкому воздуху, садам на склонах и пахсовым улицам."
+              "uz": "G‘elon Hisorakdan yuqorida, Shahrisabz yo‘li tiniqroq havo, yonbag‘ir bog‘lari va paxsa ko‘chalarga ko‘tariladigan joyda turadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "The route begins with Shakhrisabz, reaches the mountain approach at Hisorak, and then climbs toward G‘elon. The ascent already tells you how to move here: daylight, weather, vehicle comfort, and border-area context shape the rhythm before the first walk begins."
+              "ru": "Маршрут начинается с Шахрисабза, выходит к горному подъезду у Хисорака и затем поднимается к Гелону. Уже подъём подсказывает, как здесь двигаться: светлое время, погода, удобство машины и приграничный контекст задают ритм ещё до первой прогулки."
+              "uz": "Yo‘l Shahrisabzdan boshlanadi, Hisorakda tog‘ga kiradi va keyin G‘elonga ko‘tariladi. Ko‘tarilishning o‘zi bu yerda qanday harakatlanishni bildiradi: kunduzgi vaqt, ob-havo, mashina qulayligi va chegara hududi konteksti birinchi yurishdan oldin ham ritmni belgilaydi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "G‘elon belongs after the Timurid scale of Shakhrisabz. Hisorak marks the turn into the mountains; beyond it, the road, orchards, water, and pakhsa houses make the visit feel smaller, cooler, and more local."
+              "ru": "Гелон раскрывается после тимуридского масштаба Шахрисабза. Хисорак отмечает поворот в горы; дальше дорога, сады, вода и пахсовые дома делают визит камернее, прохладнее и ближе к местной жизни."
+              "uz": "G‘elon Shahrisabzning temuriy miqyosidan keyin ochiladi. Hisorak tog‘larga burilishni bildiradi; undan keyin yo‘l, bog‘lar, suv va paxsa uylar tashrifni kichikroq, salqinroq va mahalliyroq qiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need G‘elon as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Гелон как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun G‘elon o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "From Shakhrisabz up to G‘elon"
+      "ru": "Из Шахрисабза вверх к Гелону"
+      "uz": "Shahrisabzdan G‘elonga yuqoriga"
+    "description":
+      "en": "The route begins with Shakhrisabz, reaches the mountain approach at Hisorak, and then climbs toward G‘elon. The ascent already tells you how to move here: daylight, weather, vehicle comfort, and border-area context shape the rhythm before the first walk begins."
+      "ru": "Маршрут начинается с Шахрисабза, выходит к горному подъезду у Хисорака и затем поднимается к Гелону. Уже подъём подсказывает, как здесь двигаться: светлое время, погода, удобство машины и приграничный контекст задают ритм ещё до первой прогулки."
+      "uz": "Yo‘l Shahrisabzdan boshlanadi, Hisorakda tog‘ga kiradi va keyin G‘elonga ko‘tariladi. Ko‘tarilishning o‘zi bu yerda qanday harakatlanishni bildiradi: kunduzgi vaqt, ob-havo, mashina qulayligi va chegara hududi konteksti birinchi yurishdan oldin ham ritmni belgilaydi."
+    "mapPanel":
+      "eyebrow":
+        "en": "On the map"
+        "ru": "На карте"
+        "uz": "Xaritada"
+      "title":
+        "en": "G‘elon in Shahrisabz District"
+        "ru": "Гелон в Шахрисабзском районе"
+        "uz": "G‘elon Shahrisabz tumanida"
+      "description":
+        "en": "The marker shows the village area and the climb above Hisorak. It orients the route, not a private address, exact starting point, or access promise."
+        "ru": "Маркер показывает район села и подъём выше Хисорака. Это ориентир маршрута, а не частный адрес, точка старта или обещание доступа."
+        "uz": "Belgi Hisorak ustidagi qishloq hududi va ko‘tarilishni ko‘rsatadi. Bu yo‘l mo‘ljali, xususiy manzil, aniq boshlanish joyi yoki kirish vaʼdasi emas."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.048404
+      "longitude": 67.186798
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "gelon-hisorak-road-and-border-edge"
+    "aside":
+      "eyebrow":
+        "en": "How it fits"
+        "ru": "Как встроить в маршрут"
+        "uz": "Yo‘lga qanday qo‘shiladi"
+      "title":
+        "en": "Shakhrisabz, Hisorak, then the high village"
+        "ru": "Шахрисабз, Хисорак, затем высокогорное село"
+        "uz": "Shahrisabz, Hisorak, keyin baland tog‘ qishlog‘i"
+      "description":
+        "en": "G‘elon belongs after the Timurid scale of Shakhrisabz. Hisorak marks the turn into the mountains; beyond it, the road, orchards, water, and pakhsa houses make the visit feel smaller, cooler, and more local."
+        "ru": "Гелон раскрывается после тимуридского масштаба Шахрисабза. Хисорак отмечает поворот в горы; дальше дорога, сады, вода и пахсовые дома делают визит камернее, прохладнее и ближе к местной жизни."
+        "uz": "G‘elon Shahrisabzning temuriy miqyosidan keyin ochiladi. Hisorak tog‘larga burilishni bildiradi; undan keyin yo‘l, bog‘lar, suv va paxsa uylar tashrifni kichikroq, salqinroq va mahalliyroq qiladi."
+      "items":
+        - "title":
+            "en": "Shakhrisabz gives the heritage start"
+            "ru": "Шахрисабз даёт маршруту начало наследия"
+            "uz": "Shahrisabz yo‘lga meros boshlanishini beradi"
+          "description":
+            "en": "Ak-Saray and the historic centre give the route its first clear chapter before the road turns toward the mountains."
+            "ru": "Ак-Сарай и исторический центр дают маршруту первую ясную главу до поворота дороги в горы."
+            "uz": "Ak-Saroy va tarixiy markaz tog‘larga burilishdan oldin yo‘lning birinchi aniq bobini beradi."
+          "badge":
+            "en": "heritage start"
+            "ru": "начало наследия"
+            "uz": "meros boshlanishi"
+        - "title":
+            "en": "Hisorak marks the mountain approach"
+            "ru": "Хисорак отмечает горный подъезд"
+            "uz": "Hisorak tog‘ga kirishni belgilaydi"
+          "description":
+            "en": "Reservoir water, valley air, and the rising road make Hisorak the natural threshold before G‘elon, Sarchashma, Ko‘l, and higher villages."
+            "ru": "Вода водохранилища, воздух долины и поднимающаяся дорога делают Хисорак естественным порогом перед Гелоном, Сарчашмой, Колем и более высокими сёлами."
+            "uz": "Suv havzasi, vodiy havosi va yuqorilaydigan yo‘l Hisorakni G‘elon, Sarchashma, Ko‘l va yuqoriroq qishloqlar oldidagi tabiiy ostona qiladi."
+          "badge":
+            "en": "mountain approach"
+            "ru": "горный подъезд"
+            "uz": "tog‘ga kirish"
+        - "title":
+            "en": "G‘elon brings the high village scale"
+            "ru": "Гелон приносит масштаб высокогорного села"
+            "uz": "G‘elon baland tog‘ qishlog‘i miqyosini beradi"
+          "description":
+            "en": "Pakhsa lanes, orchards, water, craft rooms, and family tables move the route from monuments into daily mountain life."
+            "ru": "Пахсовые улицы, сады, вода, ремесленные комнаты и семейные столы переводят маршрут от памятников к повседневной горной жизни."
+            "uz": "Paxsa ko‘chalar, bog‘lar, suv, hunar xonalari va oilaviy dasturxon yo‘lni yodgorliklardan kundalik tog‘ hayotiga olib kiradi."
+          "badge":
+            "en": "high village"
+            "ru": "высокогорное село"
+            "uz": "baland qishloq"
+        - "title":
+            "en": "The Ko‘l road stays mountain-context background"
+            "ru": "Дорога к Колю остаётся горным контекстом"
+            "uz": "Ko‘l yo‘li tog‘ konteksti bo‘lib qoladi"
+          "description":
+            "en": "Infrastructure plans mention the Hisorak-G‘elon-Ko‘l road; for travelers, the important point is simpler: the high route changes with season, daylight, and road condition."
+            "ru": "В инфраструктурных планах упоминается дорога Хисорак — Гелон — Коль; для путешественника важнее простое правило: высокогорный маршрут меняется вместе с сезоном, светлым временем и состоянием дороги."
+            "uz": "Infratuzilma rejalarida Hisorak — G‘elon — Ko‘l yo‘li tilga olinadi; sayohatchi uchun muhimroq narsa oddiy: baland yo‘l mavsum, kunduzgi vaqt va yo‘l holati bilan o‘zgaradi."
+          "badge":
+            "en": "high route"
+            "ru": "горная дорога"
+            "uz": "tog‘ yo‘li"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "What gives G‘elon its mountain village shape"
+      "ru": "Что формирует горное село Гелон"
+      "uz": "G‘elon tog‘ qishlog‘i shaklini beradigan joylar"
+    "description":
+      "en": "G‘elon is not a one-monument stop. Its character comes from the climb above Hisorak, pakhsa lanes, orchards, water, craft rooms, and household-scale welcome."
+      "ru": "Гелон не сводится к одному памятнику. Его характер складывается из подъёма выше Хисорака, пахсовых улиц, садов, воды, ремесленных комнат и гостеприимства в масштабе дома."
+      "uz": "G‘elon bitta yodgorlik emas. Uning xarakteri Hisorak ustidagi ko‘tarilish, paxsa ko‘chalar, bog‘lar, suv, hunar xonalari va xonadon miqyosidagi mehmondo‘stlikdan keladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "G‘elon High Mountain Village Setting"
+          "ru": "Высокогорная среда Гелона"
+          "uz": "G‘elon baland tog‘ muhiti"
+        "description":
+          "en": "Come for the high village, not only the view. The road, houses, fields, water, and household work belong together, so the landscape reads as daily life rather than scenery alone."
+          "ru": "Приезжайте ради высокогорного села, а не только ради вида. Дорога, дома, поля, вода и домашний труд здесь связаны, поэтому пейзаж воспринимается как повседневная жизнь, а не просто декорация."
+          "uz": "Faqat manzara uchun emas, baland qishloq uchun keling. Yo‘l, uylar, dalalar, suv va xonadon mehnati bir-biriga bog‘langan, shuning uchun manzara yolg‘iz bezak emas, kundalik hayotga yaqin seziladi."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/gelon/gelon-high-mountain-village-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Hisorak Road Toward G‘elon"
+          "ru": "Дорога через Хисорак к Гелону"
+          "uz": "Hisorak orqali G‘elonga yo‘l"
+        "description":
+          "en": "The approach is not background. It is the threshold where the Shakhrisabz route leaves heritage monuments and rises toward high village life."
+          "ru": "Подъезд здесь не фон. Это порог, где маршрут из Шахрисабза оставляет памятники наследия и поднимается к жизни высокогорного села."
+          "uz": "Bu yerda yondashuv fon emas. U Shahrisabz yo‘li meros yodgorliklaridan chiqib, baland tog‘ qishlog‘i hayotiga ko‘tariladigan ostona."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/gelon/gelon-hisorak-road-and-border-edge"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "G‘elon Orchards, Crafts, and Family Stays"
+          "ru": "Сады, ремёсла и семейное размещение Гелона"
+          "uz": "G‘elon bog‘lari, hunari va oilaviy tunashlari"
+        "description":
+          "en": "This is the household side of G‘elon: gardens, livestock, woodcarving, painting rooms, the old stone mill, tea, and rooms offered by local families in season. The experience should stay small, personal, and close to daily life."
+          "ru": "Это домашняя сторона Гелона: сады, скот, резьба по дереву, живописные комнаты, старая каменная мельница, чай и комнаты, которые местные семьи предлагают в сезон. Впечатление должно оставаться малым, личным и близким к повседневной жизни."
+          "uz": "Bu G‘elonning xonadon tomoni: bog‘lar, chorva, yog‘och o‘ymakorligi, rassomchilik xonalari, eski tosh tegirmon, choy va mavsumda mahalliy oilalar beradigan xonalar. Tajriba kichik, shaxsiy va kundalik hayotga yaqin qoladi."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/gelon/gelon-orchards-crafts-and-homestay-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Village moments"
+      "ru": "Сельские моменты"
+      "uz": "Qishloq lahzalari"
+    "title":
+      "en": "Six ways to feel G‘elon"
+      "ru": "Шесть способов почувствовать Гелон"
+      "uz": "G‘elonni his qilishning olti yo‘li"
+    "description":
+      "en": "Keep the visit close to the village: the mountain arrival, a lane walk, orchard food, a craft room, water by the old mill, and the road rhythm above Hisorak."
+      "ru": "Держите визит рядом с селом: горный подъезд, прогулка по улицам, садовая еда, ремесленная комната, вода у старой мельницы и ритм дороги над Хисораком."
+      "uz": "Tashrifni qishloqqa yaqin tuting: tog‘ga kirish, ko‘cha bo‘ylab yurish, bog‘ taomi, hunar xonasi, eski tegirmon yonidagi suv va Hisorak ustidagi yo‘l ritmi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Arrival above Hisorak"
+          "ru": "Подъезд выше Хисорака"
+          "uz": "Hisorakdan yuqoriga kirish"
+        "description":
+          "en": "The road climbs from reservoir air into slopes, roofs, orchards, and colder light, so G‘elon begins before you step out of the car."
+          "ru": "Дорога поднимается от воды Хисорака к склонам, крышам, садам и более холодному свету, поэтому Гелон начинается ещё до первой прогулки."
+          "uz": "Yo‘l Hisorak suvidan yonbag‘irlar, tomlar, bog‘lar va salqinroq nurga ko‘tariladi; G‘elon birinchi yurishdan oldin boshlanadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Walk between pakhsa lanes"
+          "ru": "Прогулка по пахсовым улицам"
+          "uz": "Paxsa ko‘chalarda yurish"
+        "description":
+          "en": "A short village walk follows clay walls, narrow turns, water sounds, and rooflines, with the pace kept quiet enough for daily life to continue around you."
+          "ru": "Короткая прогулка идёт вдоль глиняных стен, узких поворотов, звука воды и линий крыш, в темпе, который не мешает повседневной жизни."
+          "uz": "Qisqa qishloq yurishi gil devorlar, tor burilishlar, suv ovozi va tomlar oralab o‘tadi; atrofdagi kundalik hayot o‘z ritmida qoladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Orchard table"
+          "ru": "Стол из садов"
+          "uz": "Bog‘ dasturxoni"
+        "description":
+          "en": "Apples, cherries, raspberries, pears, walnuts, tea, and simple mountain food make the village feel close when the table follows the season."
+          "ru": "Яблоки, черешня, малина, груши, орехи, чай и простая горная еда делают село ближе, когда стол живёт по сезону."
+          "uz": "Olma, gilos, malina, nok, yong‘oq, choy va sodda tog‘ taomi mavsumga ergashganda qishloq yaqinroq seziladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Craft rooms at home scale"
+          "ru": "Ремесло в масштабе дома"
+          "uz": "Xonadon o‘lchamidagi hunar"
+        "description":
+          "en": "Woodcarving, painting, and home-museum corners feel strongest when they stay personal: one room, one family story, and time to look closely."
+          "ru": "Резьба по дереву, живопись и домашние музейные уголки сильнее всего звучат лично: одна комната, одна семейная история и время рассмотреть детали."
+          "uz": "Yog‘och o‘ymakorligi, rassomchilik va uy-muzey burchaklari shaxsiy qolganda kuchliroq: bir xona, bir oilaviy hikoya va diqqat bilan qarash uchun vaqt."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Old mill and water"
+          "ru": "Старая мельница и вода"
+          "uz": "Eski tegirmon va suv"
+        "description":
+          "en": "The old stone mill and village water give G‘elon a working sound, the kind of detail that turns a mountain stop into a lived place."
+          "ru": "Старая каменная мельница и вода дают Гелону рабочий звук — ту деталь, из-за которой горная остановка становится живым местом."
+          "uz": "Eski tosh tegirmon va qishloq suvi G‘elonga mehnat ovozini beradi; tog‘dagi bekat shu tafsilot bilan yashagan joyga aylanadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Hisorak road rhythm"
+          "ru": "Ритм дороги через Хисорак"
+          "uz": "Hisorak yo‘li ritmi"
+        "description":
+          "en": "The climb itself is part of the experience: daylight, bends, weather, and border-area context shape how far and how calmly the route should go."
+          "ru": "Сам подъём — часть впечатления: светлое время, повороты, погода и приграничный контекст задают, насколько далеко и спокойно двигаться."
+          "uz": "Ko‘tarilishning o‘zi tajribaning bir qismi: kunduzgi vaqt, burilishlar, ob-havo va chegara hududi yo‘lning qanchalik sokin davom etishini belgilaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "Let the mountain road set the pace"
+      "ru": "Пусть темп задаёт горная дорога"
+      "uz": "Sur’atni tog‘ yo‘li belgilasin"
+    "description":
+      "en": "G‘elon feels strongest when the route gives the climb and the village enough quiet. The point is not to collect services, but to understand how a high settlement above Hisorak lives with water, gardens, craft, family tables, and weather."
+      "ru": "Гелон сильнее всего ощущается, когда маршрут оставляет подъёму и селу достаточно тишины. Смысл не в перечне услуг, а в том, как высокогорное поселение над Хисораком живёт с водой, садами, ремеслом, семейными столами и погодой."
+      "uz": "G‘elon yo‘l ko‘tarilishi va qishloqqa yetarli sokinlik berilganda kuchliroq seziladi. Maqsad xizmat sanash emas, Hisorak ustidagi baland manzil suv, bog‘, hunar, oilaviy dasturxon va ob-havo bilan qanday yashashini tushunishdir."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Road and season"
+              "ru": "Дорога и сезон"
+              "uz": "Yo‘l va mavsum"
+            "description":
+              "en": "First impressions begin before the village. Beyond Shakhrisabz and Hisorak, the road rises into clearer air, open slopes, and long views. Daylight, weather, and vehicle comfort matter because the approach is part of the visit, not just transit."
+              "ru": "Первое впечатление начинается до самого села. За Шахрисабзом и Хисораком дорога поднимается к более ясному воздуху, открытым склонам и дальним видам. Светлое время, погода и комфорт машины важны потому, что подъезд — часть визита, а не просто переезд."
+              "uz": "Birinchi taassurot qishloqdan oldin boshlanadi. Shahrisabz va Hisorakdan keyin yo‘l tiniqroq havo, ochiq yonbag‘irlar va uzoq manzaralarga ko‘tariladi. Kunduzgi vaqt, ob-havo va mashina qulayligi muhim, chunki bu kirish shunchaki o‘tish emas, tashrifning bir qismi."
+          - "type": "quote"
+            "quote":
+              "en": "The climb gives G‘elon its distance; the village gives it its warmth."
+              "ru": "Подъём даёт Гелону дистанцию; село даёт ему тепло."
+              "uz": "Ko‘tarilish G‘elonga masofa beradi; qishloq unga iliqlik beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Village life at household scale"
+              "ru": "Сельская жизнь в масштабе дома"
+              "uz": "Xonadon o‘lchamidagi qishloq hayoti"
+            "description":
+              "en": "Inside G‘elon, the memorable details are deliberately small: pakhsa walls, narrow lanes, gardens, livestock, potatoes, fruit, walnuts, a school, a mosque, a chaikhana, and the work of mountain households. A short walk stays close to daily life instead of turning the village into a show."
+              "ru": "В Гелоне запоминаются именно малые детали: пахсовые стены, узкие улицы, сады, скот, картофель, фрукты, орехи, школа, мечеть, чайхана и труд горных домов. Короткая прогулка остаётся рядом с повседневной жизнью и не превращает село в постановку."
+              "uz": "G‘elonda esda qoladigan tafsilotlar kichik: paxsa devorlar, tor ko‘chalar, bog‘lar, chorva, kartoshka, mevalar, yong‘oq, maktab, masjid, choyxona va tog‘ xonadonlarining mehnati. Qisqa yurish kundalik hayotga yaqin qoladi va qishloqni tomoshaga aylantirmaydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Craft rooms, water, and family tables"
+              "ru": "Ремесленные комнаты, вода и семейные столы"
+              "uz": "Hunar xonalari, suv va oilaviy dasturxon"
+            "description":
+              "en": "Woodcarving, painting rooms, home-museum corners, the old stone mill, tea, and seasonal family stays give the village its human voice. They belong in the route when the visit remains modest and respectful of household rhythm."
+              "ru": "Резьба по дереву, живописные комнаты, домашние музейные уголки, старая каменная мельница, чай и сезонное семейное размещение дают селу человеческий голос. Они уместны в маршруте, когда визит остаётся скромным и уважает домашний ритм."
+              "uz": "Yog‘och o‘ymakorligi, rassomchilik xonalari, uy-muzey burchaklari, eski tosh tegirmon, choy va mavsumiy oilaviy tunashlar qishloqqa insoniy ovoz beradi. Tashrif vazmin bo‘lib, xonadon ritmini hurmat qilganda ular yo‘lga mos tushadi."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Choose G‘elon when you want the Shakhrisabz route to rise into a real high-mountain village, with enough time for the road, a short walk, water, orchards, and a quiet table."
+              "ru": "Выбирайте Гелон, когда хотите, чтобы маршрут из Шахрисабза поднялся в настоящее высокогорное село, с временем на дорогу, короткую прогулку, воду, сады и тихий стол."
+              "uz": "Shahrisabz yo‘li haqiqiy baland tog‘ qishlog‘iga ko‘tarilishini, yo‘l, qisqa yurish, suv, bog‘lar va sokin dasturxonga vaqt bo‘lishini xohlasangiz, G‘elonni tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Official status"
+                  "ru": "Коротко Официальный статус"
+                  "uz": "Qisqacha Rasmiy maqom"
+                "description":
+                  "en": "Recognized tourism village in Shahrisabz District."
+                  "ru": "Туристическое село в Шахрисабзском районе."
+                  "uz": "Shahrisabz tumanidagi turizm qishlog‘i."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main setting"
+                  "ru": "Главная среда"
+                  "uz": "Asosiy muhit"
+                "description":
+                  "en": "High village above Hisorak in the Gissar and Pamir-Alay mountain context."
+                  "ru": "Высокогорное село выше Хисорака в гиссарском и памиро-алайском горном контексте."
+                  "uz": "Hisorak yuqorisidagi, Hisor va Pomir-Oloy tog‘lari kontekstidagi baland qishloq."
+              - "icon": "Sun"
+                "title":
+                  "en": "Visit shape"
+                  "ru": "Формат визита"
+                  "uz": "Tashrif shakli"
+                "description":
+                  "en": "Mountain road, pakhsa lanes, orchards, water, craft rooms, old mill, and family-table hospitality."
+                  "ru": "Горная дорога, пахсовые улицы, сады, вода, ремесленные комнаты, старая мельница и семейное гостеприимство."
+                  "uz": "Tog‘ yo‘li, paxsa ko‘chalar, bog‘lar, suv, hunar xonalari, eski tegirmon va oilaviy dasturxon mehmondo‘stligi."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and pace"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va sur’at"
+                "description":
+                  "en": "Daylight, weather, vehicle comfort, and a small-group pace make the visit feel natural."
+                  "ru": "Светлое время, погода, комфорт машины и малый масштаб группы помогают визиту оставаться естественным."
+                  "uz": "Kunduzgi vaqt, ob-havo, mashina qulayligi va kichik guruh sur’ati tashrifni tabiiy qiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby route stops"
+      "ru": "Ближайшие остановки маршрута"
+      "uz": "Yaqin yo‘l bekatlari"
+    "title":
+      "en": "Shakhrisabz and Kashkadarya around G‘elon"
+      "ru": "Шахрисабз и Кашкадарья вокруг Гелона"
+      "uz": "G‘elon atrofida Shahrisabz va Qashqadaryo"
+    "description":
+      "en": "Shakhrisabz is the heritage return point; Bashir and Qaynar add other village-scale choices in the region, and Qarshi keeps longer Kashkadarya routes connected."
+      "ru": "Шахрисабз остаётся точкой возвращения к наследию; Башир и Кайнар добавляют другие сельские варианты региона, а Карши удерживает длинные маршруты по Кашкадарье."
+      "uz": "Shahrisabz merosga qaytish nuqtasi; Bashir va Qaynar mintaqadagi boshqa qishloq miqyosidagi tanlovlarni qo‘shadi, Qarshi esa uzunroq Qashqadaryo yo‘llarini bog‘lab turadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/gelon-next-shakhrisabz.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Shakhrisabz"
+          "ru": "Шахрисабз"
+          "uz": "Shahrisabz"
+        "description":
+          "en": "Shakhrisabz adds a southern Timurid chapter to Uzbekistan routes: Ak-Saray, Dorut Tilovat, Kok Gumbaz, Dorus-Saodat, Chorsu, museums, and roads toward Kitab and the foothills."
+          "ru": "Шахрисабз добавляет маршруту по Узбекистану южную темуридскую главу: Ак-Сарай, Дорут-Тиловат, Кок-Гумбаз, Дорус-Саодат, Чорсу, музеи и дороги к Китабу и предгорьям."
+          "uz": "Shahrisabz O‘zbekiston yo‘nalishiga janubiy temuriy bob qo‘shadi: Ak-Saroy, Dorut Tilovat, Ko‘k Gumbaz, Dorus-Saodat, Chorsu, muzeylar va Kitob hamda tog‘oldi yo‘llari."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/shakhrisabz"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Hazrat Bashir"
+          "ru": "Хазрат Башир"
+          "uz": "Hazrati Bashir"
+        "description":
+          "en": "Hazrat Bashir is a Kitob District tourism village where a pilgrimage place, Qashqadaryo water, Qorabuloq shade, and family welcome slow the Shakhrisabz-side route."
+          "ru": "Хазрат Башир - туристическое село Китабского района, где зиарат, вода Кашкадарьи, тень Корабулока и семейное гостеприимство замедляют маршрут со стороны Шахрисабза."
+          "uz": "Hazrati Bashir - Kitob tumanidagi turizm qishlog‘i; ziyorat, Qashqadaryo suvi, Qorabuloq soyasi va oilaviy mehmonnavozlik Shahrisabz tomondagi yo‘lni sekinlashtiradi."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/bashir"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Qaynar"
+          "ru": "Кайнар"
+          "uz": "Qaynar"
+        "description":
+          "en": "Below Taxtiqoracha Pass, Qaynar gives the Kitob foothill road a quiet village stop with spring water, short walks, local food, and time to slow after Shakhrisabz."
+          "ru": "Под перевалом Тахтакарача Кайнар даёт дороге через Китабские предгорья спокойную сельскую остановку с родником, короткими прогулками, местной едой и паузой после Шахрисабза."
+          "uz": "Taxtiqoracha dovoni ostida Qaynar Kitob tog‘oldi yo‘liga sokin qishloq bekatini qo‘shadi: buloq suvi, qisqa yurish, mahalliy taom va Shahrisabzdan keyin sekinlashish."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/qaynar"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/gelon-next-qarshi.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Qarshi"
+          "ru": "Карши"
+          "uz": "Qarshi"
+        "description":
+          "en": "Qarshi gives Kashkadarya a working city stop after Shakhrisabz: old bridge arches, mosque courtyards, water heritage, market food, and roads toward Kitab."
+          "ru": "После Шахрисабза Карши даёт Кашкадарье живую городскую остановку: арки старого моста, дворы мечетей, водное наследие, еду на рынке и дороги к Китабу."
+          "uz": "Shahrisabzdan keyin Qarshi Qashqadaryoga jonli shahar bekatini qo‘shadi: eski ko‘prik arkalari, masjid hovlilari, suv merosi, bozor taomi va Kitob tomonga yo‘llar."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/qarshi"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place G‘elon in the day plan"
+      "ru": "Как поставить Гелон в план дня"
+      "uz": "G‘elonni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in G‘elon?"
+          "ru": "Сколько времени группам стоит проводить в Гелон?"
+          "uz": "G‘elonda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A high mountain village of pakhsa lanes, water, and orchards above Hisorak”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Высокогорное село над Хисораком: пахсовые улицы, вода и сады»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Hisorak ustidagi paxsa ko‘chalar, suv va bog‘lar qishlog‘i»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should G‘elon be a walkable core or a base for day trips?"
+          "ru": "Гелон — это пешеходное ядро или база для выездов?"
+          "uz": "G‘elon piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to G‘elon's centre?"
+          "ru": "Где лучше ночевать относительно центра Гелон?"
+          "uz": "G‘elon markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/gelon.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a G‘elon stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Гелон» в программу (Узбекистан)"
+      "uz": "G‘elon bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "G‘elon | TourLink"
+    "ru": "Гелон | TourLink"
+    "uz": "G‘elon | TourLink"
+  "metaDescription":
+    "en": "G‘elon sits high above Hisorak, where the Shakhrisabz road climbs into sharper air, orchard slopes, and pakhsa clay lanes. The village is strongest at human scale: water channels, family tables, craft rooms, the old mill, and a mountain pace that asks the route to slow down."
+    "ru": "Гелон стоит высоко над Хисораком, там, где дорога из Шахрисабза поднимается к более резкому воздуху, садам на склонах и пахсовым улицам. Село сильнее всего раскрывается в человеческом масштабе: вода, домашние столы, ремесленные комнаты, старая мельница и горный ритм, который замедляет маршрут."
+    "uz": "G‘elon Hisorakdan yuqorida, Shahrisabz yo‘li tiniqroq havo, yonbag‘ir bog‘lari va paxsa ko‘chalarga ko‘tariladigan joyda turadi. Qishloqning kuchi xonadon o‘lchamida seziladi: suv, dasturxon, hunar xonalari, eski tegirmon va yo‘lni sekinlashtiradigan tog‘ ritmi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "kashkadarya-and-shakhrisabz"
+"latitude": 39.0792781
+"longitude": 67.4610059

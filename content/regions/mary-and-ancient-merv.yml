@@ -1,0 +1,495 @@
+# Generated from scrape/turkmenistan (multi-locale)
+"slug":
+  "en": "mary-and-ancient-merv"
+  "ru": "mary-and-ancient-merv"
+  "uz": "mary-and-ancient-merv"
+"title":
+  "en": "Mary & Ancient Merv"
+  "ru": "Мары и древний Мерв"
+  "uz": "Mari va qadimiy Marv"
+"subtitle":
+  "en": "Mary, Merv, and the Murghab oasis road"
+  "ru": "Мары, Мерв и дорога оазиса Мургаб"
+  "uz": "Mari, Marv va Murg‘ob vohasi yo‘li"
+"excerpt":
+  "en": "This is Turkmenistan's great oasis turn. Mary gives the journey a human scale with arrival, rest, and museum interpretation; Merv carries it outward into one of Central Asia's major Silk Roads archaeological landscapes."
+  "ru": "Это главный оазисный поворот Туркменистана. Мары даёт путешествию человеческий масштаб через прибытие, отдых и музейное объяснение; Мерв уводит его дальше в один из больших археологических ландшафтов Центральной Азии на Шёлковом пути."
+  "uz": "Bu Turkmaniston yo‘lining katta voha burilishi. Mari kelish, dam olish va muzey izohi bilan safarga insoniy miqyos beradi; Marv esa uni Markaziy Osiyodagi yirik Ipak yo‘llari arxeologik manzarasiga olib chiqadi."
+"heroImage": "assets/images/destinations/turkmenistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "imageAlt":
+      "en": "Mary & Ancient Merv"
+      "ru": "Мары и древний Мерв"
+      "uz": "Mari va qadimiy Marv"
+    "title":
+      "en": "Mary & Ancient Merv"
+      "ru": "Мары и древний Мерв"
+      "uz": "Mari va qadimiy Marv"
+    "description":
+      "en": "Mary, Merv, and the Murghab oasis road"
+      "ru": "Мары, Мерв и дорога оазиса Мургаб"
+      "uz": "Mari, Marv va Murg‘ob vohasi yo‘li"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О регионе"
+      "uz": "Hudud haqida"
+    "title":
+      "en": "Mary & Ancient Merv"
+      "ru": "Мары и древний Мерв"
+      "uz": "Mari va qadimiy Marv"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "This is Turkmenistan's great oasis turn."
+              "ru": "Это главный оазисный поворот Туркменистана."
+              "uz": "Bu Turkmaniston yo‘lining katta voha burilishi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "The region reads best as two linked movements: settle in Mary, use the museum to understand the oasis story, then continue to Merv with enough time for distance, heat, and a guided walk through the site."
+              "ru": "Регион понятнее как два связанных движения: остановиться в Мары, через музей понять историю оазиса, затем продолжить к Мерву с запасом времени на расстояния, жару и прогулку по памятнику с гидом."
+              "uz": "Hududni ikki bog‘langan harakat sifatida o‘qish oson: Marida joylashish, muzey orqali voha hikoyasini tushunish, keyin masofa, issiq va gidli sayrga yetarli vaqt bilan Marvga borish."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Mary gives the arrival city, overnight stop, and museum reading before the route continues to the archaeological park."
+              "ru": "Мары даёт город прибытия, ночёвку и музейное чтение перед продолжением к археологическому парку."
+              "uz": "Mari arxeologik bog‘ga davom etishdan oldin kelish shahri, tunash joyi va muzeydagi o‘qishni beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Mary & Ancient Merv as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Мары и древний Мерв как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Mari va qadimiy Marv o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Arrive in Mary, then keep Merv unhurried"
+      "ru": "Сначала Мары, затем Мерв без спешки"
+      "uz": "Avval Mari, keyin Marvni shoshirmang"
+    "description":
+      "en": "The region reads best as two linked movements: settle in Mary, use the museum to understand the oasis story, then continue to Merv with enough time for distance, heat, and a guided walk through the site."
+      "ru": "Регион понятнее как два связанных движения: остановиться в Мары, через музей понять историю оазиса, затем продолжить к Мерву с запасом времени на расстояния, жару и прогулку по памятнику с гидом."
+      "uz": "Hududni ikki bog‘langan harakat sifatida o‘qish oson: Marida joylashish, muzey orqali voha hikoyasini tushunish, keyin masofa, issiq va gidli sayrga yetarli vaqt bilan Marvga borish."
+    "mapPanel":
+      "eyebrow":
+        "en": "Oasis map"
+        "ru": "Карта оазиса"
+        "uz": "Voha xaritasi"
+      "title":
+        "en": "Mary and the Merv oasis"
+        "ru": "Мары и оазис Мерва"
+        "uz": "Mari va Marv vohasi"
+      "description":
+        "en": "Mary, Merv, and the first published anchors carry the public route now. Gonur Depe, Margiana, Erk Kala, Gyaur Kala, and later wall circuits stay in wider coverage until access and timing are checked."
+        "ru": "Мары, Мерв и первые опубликованные опоры сейчас составляют публичный маршрут. Гонур-Депе, Маргиана, Эрк-Кала, Гяур-Кала и поздние стены Мерва остаются в расширенной карте покрытия, пока доступ и время не будут проверены."
+        "uz": "Mari, Marv va birinchi eʼlon qilingan tayanchlar hozir ommaviy yo‘lni tuzadi. Gonur Depe, Marg‘iyona, Erk qal’a, Govur qal’a va keyingi devor yo‘llari kirish va vaqt tekshirilguncha kengroq qamrovda qoladi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 37.645808
+      "longitude": 62.091584
+    "zoom": 9
+    "stops":
+      - "entityType": "city"
+        "entitySlug": "mary"
+      - "entityType": "city"
+        "entitySlug": "merv"
+      - "entityType": "attraction"
+        "entitySlug": "ancient-merv-unesco-park"
+    "aside":
+      "eyebrow":
+        "en": "Start here"
+        "ru": "Где начать"
+        "uz": "Qayerdan boshlash"
+      "title":
+        "en": "Mary before Merv"
+        "ru": "Мары перед Мервом"
+        "uz": "Marvdan oldin Mari"
+      "description":
+        "en": "Mary gives the arrival city, overnight stop, and museum reading before the route continues to the archaeological park."
+        "ru": "Мары даёт город прибытия, ночёвку и музейное чтение перед продолжением к археологическому парку."
+        "uz": "Mari arxeologik bog‘ga davom etishdan oldin kelish shahri, tunash joyi va muzeydagi o‘qishni beradi."
+      "items":
+        - "title":
+            "en": "Let Mary slow the route down"
+            "ru": "Начните спокойно в Мары"
+            "uz": "Marida yo‘lni sekin boshlang"
+          "description":
+            "en": "Mary gives the traveler a city pause before the open site: arrival, rest, and a clearer beginning for the Murghab oasis."
+            "ru": "Мары даёт городскую паузу перед открытым памятником: прибытие, отдых и более ясный вход в оазис Мургаб."
+            "uz": "Mari ochiq yodgorlikdan oldin shahar pauzasini beradi: kelish, dam olish va Murg‘ob vohasiga aniqroq kirish."
+          "badge":
+            "en": "City start"
+            "ru": "Городской старт"
+            "uz": "Shahar boshlanishi"
+        - "title":
+            "en": "Read the oasis indoors first"
+            "ru": "Сначала прочитайте оазис в музее"
+            "uz": "Avval vohani muzeyda o‘qing"
+          "description":
+            "en": "The regional museum helps turn Merv, Margiana, and oasis life from names on a map into objects, craft, and local memory."
+            "ru": "Региональный музей превращает Мерв, Маргиану и жизнь оазиса из названий на карте в предметы, ремесло и местную память."
+            "uz": "Mintaqaviy muzey Marv, Marg‘iyona va voha hayotini xaritadagi nomlardan buyumlar, hunar va mahalliy xotiraga aylantiradi."
+          "badge":
+            "en": "Interior stop"
+            "ru": "Внутренняя остановка"
+            "uz": "Ichki to‘xtash"
+        - "title":
+            "en": "Treat Merv as a landscape"
+            "ru": "Смотрите Мерв как ландшафт"
+            "uz": "Marvni keng manzara sifatida ko‘ring"
+          "description":
+            "en": "Ancient Merv spreads across separate ruins and open ground, so a strong visit needs time, shade, and a guide who can connect the main stops."
+            "ru": "Древний Мерв расположен отдельными руинами и открытой землёй, поэтому сильному посещению нужны время, тень и гид, который свяжет главные остановки."
+            "uz": "Qadimiy Marv alohida xarobalar va ochiq yer bo‘ylab yoyilgan, shuning uchun kuchli tashrifga vaqt, soya va asosiy nuqtalarni bog‘laydigan gid kerak."
+          "badge":
+            "en": "Archaeology"
+            "ru": "Археология"
+            "uz": "Arxeologiya"
+        - "title":
+            "en": "Keep deeper archaeology deliberate"
+            "ru": "Глубокую археологию добавляйте отдельно"
+            "uz": "Chuqur arxeologiyani alohida qo‘shing"
+          "description":
+            "en": "Gonur Depe, Margiana, and additional Merv ruins belong in the wider coverage map, but they need separate access and timing review before they become main route stops."
+            "ru": "Гонур-Депе, Маргиана и дополнительные руины Мерва важны для общей карты, но требуют отдельного подтверждения доступа и времени."
+            "uz": "Gonur Depe, Marg‘iyona va Marvning qo‘shimcha xarobalari umumiy xarita uchun muhim, ammo kirish va vaqt alohida tasdiqlanishi kerak."
+          "badge":
+            "en": "Later choices"
+            "ru": "Следующие выборы"
+            "uz": "Keyingi tanlovlar"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region character"
+      "ru": "Характер региона"
+      "uz": "Hudud xarakteri"
+    "title":
+      "en": "Where Turkmenistan becomes an oasis journey"
+      "ru": "Где Туркменистан становится оазисным путешествием"
+      "uz": "Turkmaniston voha safariga aylangan joy"
+    "description":
+      "en": "This region matters because it changes the scale of the trip. After Ashgabat and Nisa, the traveler reaches a working city, museum rooms, and an archaeological landscape once shaped by oasis settlement, caravan roads, Seljuk power, and desert-edge movement.
+
+
+        «Mary makes the oasis readable at human scale; Merv opens it into earth walls, Seljuk brick, and distance.»"
+      "ru": "Этот регион важен потому, что меняет масштаб поездки. После Ашхабада и Нисы гость выходит к живому городу, музейным залам и археологическому ландшафту, где сходились оазисные поселения, караванные дороги, сельджукская власть и движение у края пустыни.
+
+
+        «Мары делает оазис понятным в человеческом масштабе; Мерв раскрывает его через земляные стены, сельджукский кирпич и расстояние.»"
+      "uz": "Bu hudud muhim, chunki u safar miqyosini o‘zgartiradi. Ashxobod va Nisadan keyin mehmon ishlayotgan shahar, muzey zallari va qadimgi voha joylashuvlari, karvon yo‘llari, saljuqiy kuchi hamda cho‘l chetidagi harakatni saqlagan arxeologik manzaraga chiqadi.
+
+
+        «Mari vohani insoniy miqyosda tushunarli qiladi; Marv esa uni tuproq devorlar, saljuqiy g‘isht va masofa orqali ochadi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region areas"
+      "ru": "Районы региона"
+      "uz": "Hudud qismlari"
+    "title":
+      "en": "Mary first, Merv next"
+      "ru": "Сначала Мары, затем Мерв"
+      "uz": "Avval Mari, keyin Marv"
+    "description":
+      "en": "For travelers, Mary and Merv work as a pair: the city for arrival and interpretation, the archaeological area for the main heritage day."
+      "ru": "Для путешественника Мары и Мерв работают как пара: город для прибытия и объяснения, археологическая зона для главного дня наследия."
+      "uz": "Sayohatchi uchun Mari va Marv juftlik sifatida ishlaydi: kelish va izoh uchun shahar, asosiy meros kuni uchun arxeologik hudud."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Mary"
+          "ru": "Мары"
+          "uz": "Mari"
+        "description":
+          "en": "Mary is not the monument itself; it is where the Ancient Merv visit settles into a human scale. The city gives you a landing, museum rooms, rest, and then the road across the Murghab oasis toward the open ruins."
+          "ru": "Мары не сам памятник, а городское начало поездки к древнему Мерву. Здесь можно спокойно прибыть, отдохнуть, зайти в музейные залы и затем выехать через оазис Мургаба к открытым руинам."
+          "uz": "Mari yodgorlikning o‘zi emas; u Qadimiy Marvga borishning shahar boshlanishidir. Bu yerda yo‘nalish kelish, dam, muzey zallari va Murg‘ob vohasi orqali ochiq xarobalarga chiqadigan yo‘l bilan boshlanadi."
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv/mary"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ancient Merv"
+          "ru": "Древний Мерв"
+          "uz": "Qadimiy Marv"
+        "description":
+          "en": "Ancient Merv makes sense as you move through the oasis: the dome of Sultan Sanjar, the ridged walls of Kyz Kala, low earthworks, and desert light. Mary keeps the route practical, but the site still needs time, shade planning, and a guide who can connect the separate ruins."
+          "ru": "Древний Мерв понятен в движении по оазису: купол Султана Санджара, рифлёные стены Кыз-Калы, низкие валы и пустынный свет. Мары делает маршрут практичным, но самому Мерву всё равно нужны время, планирование жары и гид, который соединит разнесённые руины в понятный рассказ."
+          "uz": "Qadimiy Marvni voha bo‘ylab harakat qilib tushunasiz: Sulton Sanjar gumbazi, Qiz qal’aning qovurg‘ali devorlari, past tuproq izlari va cho‘l nuri. Mari yo‘lni amaliy qiladi, ammo Marvga baribir vaqt, issiqni hisobga olish va alohida xarobalarni bog‘laydigan gid kerak."
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv/merv"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что смотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "First anchors in Mary and Merv"
+      "ru": "Первые опоры в Мары и Мерве"
+      "uz": "Mari va Marvdagi birinchi tayanchlar"
+    "description":
+      "en": "Start with Mary Regional Museum, then Ancient Merv, Sultan Sanjar, and Kyz Kala. The set keeps the oasis readable without listing every ruin at once."
+      "ru": "Начните с Марыйского регионального музея, затем переходите к древнему Мерву, Султану Санджару и Кыз-Кале. Такой набор помогает понять оазис без перечисления всех руин сразу."
+      "uz": "Mari mintaqaviy muzeyidan boshlang, keyin qadimiy Marv, Sulton Sanjar va Qiz qal’aga o‘ting. Bu to‘plam vohani barcha xarobalarni birdan sanamasdan tushunarli qiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Sultan Sanjar Mausoleum"
+          "ru": "Мавзолей Султана Санджара"
+          "uz": "Sulton Sanjar maqbarasi"
+        "description":
+          "en": "In the open ground of Ancient Merv, Sultan Sanjar Mausoleum gives the Seljuk city a visible centre. Its cube-like brick body, dome, decoration traces, and open approach turn a wide archaeological park into one place you can stand, look around, and understand the scale."
+          "ru": "На открытой площадке Древнего Мерва мавзолей Султана Санджара собирает сельджукский город в один видимый центр. Кубический кирпичный объём, купол, следы декора и пространство вокруг помогают почувствовать масштаб Султан-Калы."
+          "uz": "Qadimiy Marvning ochiq hududida Sulton Sanjar maqbarasi saljuqiy shaharni ko‘rinadigan markazga jamlaydi. G‘ishtli kubsimon hajm, gumbaz, bezak izlari va atrofdagi kenglik Sulton Qal’a miqyosini his qildiradi."
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv/merv/sultan-sanjar-mausoleum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Ancient Merv UNESCO Park"
+          "ru": "Археологический парк Древний Мерв"
+          "uz": "Qadimiy Marv UNESCO arxeologik parki"
+        "description":
+          "en": "Ancient Merv UNESCO Park is not a single monument. Walls, tells, Seljuk remains, and roads between ruins sit across a wide oasis landscape, so the visit feels like moving between cities that once shared the same desert edge."
+          "ru": "Археологический парк Древний Мерв — не один памятник. Стены, археологические холмы, сельджукские остатки и дороги между руинами лежат в широком оазисном ландшафте, поэтому визит ощущается как движение между городами, которые когда-то стояли на одном краю пустыни."
+          "uz": "Qadimiy Marv UNESCO arxeologik parki bitta yodgorlik emas. Devorlar, arxeologik tepaliklar, saljuqiy qoldiqlar va xarobalar orasidagi yo‘llar keng voha manzarasiga yoyilgan; shuning uchun tashrif bir vaqtlar shu cho‘l chekkasida yashagan shaharlar orasida yurishdek seziladi."
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv/merv/ancient-merv-unesco-park"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Gyaur Kala"
+          "ru": "Гяур-Кала"
+          "uz": "Gyaur qal’a"
+        "description":
+          "en": "Gyaur Kala shows Ancient Merv at city scale. The stop is about walls, distance, and traces inside a large urban area rather than a single photogenic monument. With a guide, the stop can connect Erk Kala, Sultan Kala, mosque and cistern remains, Buddhist-period traces, and the way"
+          "ru": "Гяур-Кала показывает древний Мерв в масштабе города. Здесь важны стены, расстояние и следы внутри большой городской территории, а не один эффектный памятник. С гидом эта остановка связывает Эрк-Калу, Султан-Калу, следы мечети и водоёма, буддийский период и то, как Мерв менял форм"
+          "uz": "Gyaur qal’a qadimiy Marvni shahar ko‘lamida ko‘rsatadi. Bu yerda bitta ko‘zga tashlanadigan yodgorlik emas, devorlar, masofa va katta shahar hududi ichidagi izlar muhim. Gid bilan bu to‘xtash Erk qal’a, Sulton qal’a, masjid va suv inshooti izlari, buddaviy davr hamda Marv vohada "
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv/merv/gyaur-kala"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Erk Kala"
+          "ru": "Эрк-Кала"
+          "uz": "Erk qal’a"
+        "description":
+          "en": "Erk Kala brings Ancient Merv back to form, height, and perimeter. The stop is not about a finished monument; it is about reading a fortified mound, its edges, and the way Merv grew through different city areas in the Murghab oasis. It works best when the route slows down for guid"
+          "ru": "Эрк-Кала возвращает взгляд к форме, высоте и периметру древнего Мерва. Эта остановка не про законченный монумент, а про укреплённый холм, его края и то, как Мерв рос через разные городские участки в оазисе Мургаба. Лучше всего Эрк-Кала работает там, где маршрут замедляется для об"
+          "uz": "Erk qal’a qadimiy Marvni shakl, balandlik va perimetr orqali ko‘rsatadi. Bu to‘xtash tayyor monument haqida emas; u mustahkamlangan tepalik, uning chetlari va Marv Murg‘ob vohasida turli shahar hududlari orqali qanday o‘sganini tushunish haqida. Erk qal’a gid izohi uchun marom se"
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv/merv/erk-kala"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Kyz Kala / Great and Little Kyz Kala"
+          "ru": "Кыз-Кала / Большая и Малая Кыз-Кала"
+          "uz": "Qiz qal’a / Katta va Kichik Qiz qal’a"
+        "description":
+          "en": "Kyz Kala is one of the places where Ancient Merv becomes visible at a glance. Great and Little Kyz Kala stand as ribbed mudbrick forms in the open oasis, so you notice shadow, surface, and scale before the deeper site story begins."
+          "ru": "Кыз-Кала — одно из мест, где древний Мерв становится видимым с первого взгляда. Большая и Малая Кыз-Кала стоят в открытом оазисе ребристыми глинобитными объёмами, и сначала вы замечаете тень, поверхность и масштаб, а уже потом переходите к истории места."
+          "uz": "Qiz qal’a qadimiy Marvni bir qarashda tushunarli qiladigan joylardan biri. Katta va Kichik Qiz qal’a ochiq vohada taram-taram xom g‘isht devorlar bilan turadi; avval soya, devor yuzasi va miqyosni ko‘rasiz, keyin joyning tarixiy izohiga o‘tasiz."
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv/merv/kyz-kala-great-and-little-kyz-kala"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Mary Regional Museum"
+          "ru": "Марыйский региональный музей"
+          "uz": "Mari mintaqaviy muzeyi"
+        "description":
+          "en": "Mary Regional Museum brings the Murghab oasis indoors. Archaeology, ethnography, applied arts, and regional history give travelers tangible context before the road opens toward Ancient Merv."
+          "ru": "Марыйский региональный музей переносит оазис Мургаба в музейные залы. Археология, этнография, прикладное искусство и региональная история дают гостю предметный контекст до дороги к древнему Мерву."
+          "uz": "Mari mintaqaviy muzeyi Murg‘ob vohasini muzey zallariga olib kiradi. Arxeologiya, etnografiya, amaliy sanʼat va mintaqaviy tarix qadimiy Marv yo‘liga chiqishdan oldin mehmon uchun buyum va hikoya beradi."
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv/mary/mary-regional-museum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region in detail"
+      "ru": "Регион в деталях"
+      "uz": "Hudud batafsil"
+    "title":
+      "en": "Practical questions about Mary & Ancient Merv"
+      "ru": "Практические вопросы о регионе Мары и древний Мерв"
+      "uz": "Mari va qadimiy Marv hududi bo‘yicha amaliy savollar"
+    "description":
+      "en": "Pace, season, and how this region connects to the next stop."
+      "ru": "Темп, сезон и как регион стыкуется со следующей остановкой."
+      "uz": "Sur’at, mavsum va hududning keyingi bekat bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many days does Mary & Ancient Merv need in a programme?"
+          "ru": "Сколько дней нужно региону Мары и древний Мерв в программе?"
+          "uz": "Mari va qadimiy Marv hududi dasturda necha kun olishi kerak?"
+        "description":
+          "en": "2–4 days usually works if you keep one strong core and treat outer stops as deliberate choices. The region brief is “Mary, Merv, and the Murghab oasis road”."
+          "ru": "Обычно хватает 2–4 дня, если держать одно сильное ядро, а внешние остановки выбирать осознанно. Кратко о регионе: «Мары, Мерв и дорога оазиса Мургаб»."
+          "uz": "Odatda 2–4 kun yetadi — bitta kuchli yadro va tashqi bekatlarni ongli tanlov qiling. Hudud brifi: «Mari, Marv va Murg‘ob vohasi yo‘li»."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "What should come before and after Mary & Ancient Merv?"
+          "ru": "Что ставить до и после региона Мары и древний Мерв?"
+          "uz": "Mari va qadimiy Marvdan oldin va keyin nima qo‘yish kerak?"
+        "description":
+          "en": "Use neighbouring cities as clean handovers: arrive with a calm first night, leave after one completed chapter, and avoid stacking two long transfers on the same day."
+          "ru": "Соседние города держите как чистые стыки: приезжайте со спокойной первой ночью, уезжайте после завершённой главы и не ставьте два длинных переезда в один день."
+          "uz": "Qo‘shni shaharlarni toza ulanish sifatida tuting: sokin birinchi tun bilan keling, yakunlangan bobdan keyin chiqing va bir kunga ikkita uzun ko‘chishni qo‘ymang."
+      - "type": "destinationInsight"
+        "icon": "Calendar"
+        "title":
+          "en": "What season logic matters most in Mary & Ancient Merv?"
+          "ru": "Какая сезонная логика важнее всего в Мары и древний Мерв?"
+          "uz": "Mari va qadimiy Marvda qaysi mavsum mantig‘i eng muhim?"
+        "description":
+          "en": "Heat, altitude, road condition, and opening hours change the product more than the brochure list. Build the region around what stays comfortable for the group that week."
+          "ru": "Жара, высота, состояние дорог и часы работы меняют продукт сильнее списка из брошюры. Собирайте регион вокруг того, что комфортно именно этой группе в эту неделю."
+          "uz": "Issiqlik, balandlik, yo‘l holati va ish soatlari broshyura ro‘yxatidan kuchliroq mahsulotni o‘zgartiradi. Hududni shu hafta guruh uchun qulay narsaga qurib chiqing."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Mary & Ancient Merv stop into your Turkmenistan programme"
+      "ru": "Встройте остановку «Мары и древний Мерв» в программу (Туркменистан)"
+      "uz": "Mari va qadimiy Marv bekatini Turkmaniston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right extensions — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать нужные расширения — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va kerakli kengaytmalarni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Mary & Ancient Merv | TourLink"
+    "ru": "Мары и древний Мерв | TourLink"
+    "uz": "Mari va qadimiy Marv | TourLink"
+  "metaDescription":
+    "en": "This is Turkmenistan's great oasis turn. Mary gives the journey a human scale with arrival, rest, and museum interpretation; Merv carries it outward into one of Central Asia's major Silk Roads archaeological landscapes."
+    "ru": "Это главный оазисный поворот Туркменистана. Мары даёт путешествию человеческий масштаб через прибытие, отдых и музейное объяснение; Мерв уводит его дальше в один из больших археологических ландшафтов Центральной Азии на Шёлковом пути."
+    "uz": "Bu Turkmaniston yo‘lining katta voha burilishi. Mari kelish, dam olish va muzey izohi bilan safarga insoniy miqyos beradi; Marv esa uni Markaziy Osiyodagi yirik Ipak yo‘llari arxeologik manzarasiga olib chiqadi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "turkmenistan"
+"mapCenter":
+  "latitude": 37.6550864
+  "longitude": 62.1525555

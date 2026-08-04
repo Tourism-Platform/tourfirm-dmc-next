@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "uzunbuloq-avliyo-mahalla-setting"
+  "ru": "uzunbuloq-avliyo-mahalla-setting"
+  "uz": "uzunbuloq-avliyo-mahalla-setting"
+"title":
+  "en": "Avliyo mahalla setting"
+  "ru": "Среда махалли Авлиё"
+  "uz": "Avliyo mahallasi muhiti"
+"subtitle":
+  "en": "Where Uzunbuloq begins with respect"
+  "ru": "Где Узунбулок начинается с уважения"
+  "uz": "Uzunbuloq hurmat bilan boshlanadigan joy"
+"excerpt":
+  "en": "Avliyo is the threshold of the Uzunbuloq stop: the place where the visit starts with a village edge, a greeting, and a sense of what belongs there that day. A family table, craft room, meal, shopping pause, or photo point may follow later; the first meaning is respect."
+  "ru": "Авлиё — порог остановки в Узунбулоке: здесь визит начинается с края села, приветствия и понимания, что уместно именно сегодня. Семейный стол, ремесленная комната, питание, торговля или место для фотографии могут появиться позже; первый смысл здесь — уважение."
+  "uz": "Avliyo — Uzunbuloq bekatining ostonasi: tashrif qishloq cheti, birinchi salomlashuv va shu kunga nima mosligini aniqlashdan boshlanadi. Oilaviy dasturxon, hunar xonasi, ovqatlanish, savdo yoki rasm nuqtasi keyin qo‘shilishi mumkin; birinchi maʼno esa hurmat."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Avliyo mahalla setting"
+      "ru": "Среда махалли Авлиё"
+      "uz": "Avliyo mahallasi muhiti"
+    "title":
+      "en": "Avliyo mahalla setting"
+      "ru": "Среда махалли Авлиё"
+      "uz": "Avliyo mahallasi muhiti"
+    "description":
+      "en": "Where Uzunbuloq begins with respect"
+      "ru": "Где Узунбулок начинается с уважения"
+      "uz": "Uzunbuloq hurmat bilan boshlanadigan joy"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Avliyo mahalla setting"
+      "ru": "Среда махалли Авлиё"
+      "uz": "Avliyo mahallasi muhiti"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Avliyo is the threshold of the Uzunbuloq stop: the place where the visit starts with a village edge, a greeting, and a sense of what belongs there that day."
+              "ru": "Авлиё — порог остановки в Узунбулоке: здесь визит начинается с края села, приветствия и понимания, что уместно именно сегодня."
+              "uz": "Avliyo — Uzunbuloq bekatining ostonasi: tashrif qishloq cheti, birinchi salomlashuv va shu kunga nima mosligini aniqlashdan boshlanadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Avliyo keeps Uzunbuloq from becoming a list of add-ons."
+              "ru": "Авлиё удерживает Узунбулок от превращения в список возможностей."
+              "uz": "Avliyo Uzunbuloqni imkoniyatlar ro‘yxatiga aylantirmaydi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Where Uzunbuloq begins with respect."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Где Узунбулок начинается с уважения."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Uzunbuloq hurmat bilan boshlanadigan joy."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Avliyo mahalla setting as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Среда махалли Авлиё как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Avliyo mahallasi muhiti o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Avliyo mahalla setting sits on the route"
+      "ru": "Где Среда махалли Авлиё стоит на маршруте"
+      "uz": "Avliyo mahallasi muhiti marshrutda qayerda"
+    "description":
+      "en": "One clear point for Avliyo mahalla setting — Where Uzunbuloq begins with respect."
+      "ru": "Одна понятная точка для «Среда махалли Авлиё» — Где Узунбулок начинается с уважения."
+      "uz": "Avliyo mahallasi muhiti uchun bitta aniq nuqta — Uzunbuloq hurmat bilan boshlanadigan joy."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Avliyo mahalla setting"
+        "ru": "Среда махалли Авлиё"
+        "uz": "Avliyo mahallasi muhiti"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.9272686
+      "longitude": 67.6962452
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "uzunbuloq-avliyo-mahalla-setting"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "The first rule is entering well"
+      "ru": "Сначала войти правильно"
+      "uz": "Birinchi qoida — mahallaga to‘g‘ri kirish"
+    "description":
+      "en": "Avliyo keeps Uzunbuloq from becoming a list of add-ons. First, the traveler understands how to enter the mahalla: who to greet, where to pause, and what should not be rushed.
+
+
+        «Avliyo’s first value is restraint: enough time to enter the mahalla properly.»"
+      "ru": "Авлиё удерживает Узунбулок от превращения в список возможностей. Сначала путешественник понимает, как войти в махаллю: с кем поздороваться, где остановиться и что не стоит торопить.
+
+
+        «Главный подарок Авлиё — сдержанность: достаточно времени, чтобы войти в махаллю правильно.»"
+      "uz": "Avliyo Uzunbuloqni imkoniyatlar ro‘yxatiga aylantirmaydi. Avval sayohatchi mahallaga qanday kirishni: kim bilan salomlashish, qayerda to‘xtash va nimani shoshirmaslik kerakligini tushunadi.
+
+
+        «Avliyoning asosiy qiymati — vazminlik: mahallaga to‘g‘ri kirish uchun yetarli vaqt.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Village approach, greeting, modest scale"
+      "ru": "Подъезд, приветствие, малый масштаб"
+      "uz": "Kirish yo‘li, salomlashuv, kichik miqyos"
+    "description":
+      "en": "The details are practical and human: how the village is approached, who receives the group, and how small the first minutes stay."
+      "ru": "Здесь важны практичные человеческие детали: как подъехать к селу, кто встречает группу и насколько спокойными остаются первые минуты."
+      "uz": "Bu yerda amaliy va insoniy detallar muhim: qishloqqa qanday yaqinlashish, guruhni kim kutib olishi va ilk daqiqalar qanchalik vazmin qolishi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Let the mahalla set the pace"
+      "ru": "Пусть махалля задаст темп"
+      "uz": "Maromni mahalla belgilasin"
+    "description":
+      "en": "Treat Avliyo as the respectful start of Uzunbuloq: arrive calmly, read the etiquette, and let local guidance decide what follows."
+      "ru": "Относитесь к Авлиё как к уважительному началу Узунбулока: приезжайте спокойно, уточняйте этикет и доверяйте местной подсказке."
+      "uz": "Avliyoni Uzunbuloqning hurmatli boshlanishi deb biling: vazmin kiring, odobni aniqlang va keyingi qadamni mahalliy yo‘l-yo‘riqqa qoldiring."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Around Uzunbuloq"
+      "ru": "Вокруг Узунбулока"
+      "uz": "Uzunbuloq atrofida"
+    "title":
+      "en": "What to add after the Avliyo start"
+      "ru": "Что добавить после начала у Авлиё"
+      "uz": "Avliyodan keyin nima qo‘shish mumkin"
+    "description":
+      "en": "Keep the Avliyo arrival, pilgrimage setting, and guesthouse or craft choices separate so each one remains truthful for the date."
+      "ru": "Сохраняйте вход у Авлиё, паломническую среду и гостевые или ремесленные варианты отдельными выборами, чтобы каждый оставался честным на дату."
+      "uz": "Avliyo kirishi, ziyorat muhiti va mehmon uy yoki hunar variantlarini alohida tanlov sifatida saqlang; shunda har biri sana uchun haqqoniy qoladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Sa'd ibn Abu Waqqas shrine"
+          "ru": "Зиёратгоҳ Саада ибн Абу Ваккаса"
+          "uz": "Saʼd ibn Abu Vaqqos ziyoratgohi"
+        "description":
+          "en": "Near Avliyo village, the Sa'd ibn Abu Waqqas shrine shows the pilgrimage side of Uzunbuloq: springs and lakeside shade above, the old mosque and memorial space below."
+          "ru": "У села Авлиё зиёратгоҳ Саада ибн Абу Ваккаса показывает паломническую сторону Узунбулока: наверху родники и тень у воды, ниже старая мечеть и мемориальное пространство."
+          "uz": "Avliyo qishlog‘i yonida Saʼd ibn Abu Vaqqos ziyoratgohi Uzunbuloqning ziyorat tomonini ochadi: yuqorida buloqlar va suv bo‘yidagi soya, pastroqda eski masjid va xotira muhiti."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/uzunbuloq/uzunbuloq-saad-ibn-abu-waqqos-pilgrimage-context"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Family table and craft meeting"
+          "ru": "Семейный стол и ремесленная встреча"
+          "uz": "Oilaviy dasturxon va hunar uchrashuvi"
+        "description":
+          "en": "After Avliyo and the Saʼd ibn Abu Waqqos shrine, Uzunbuloq can slow into a family table or craft-room meeting that fits the date and the people involved."
+          "ru": "После Авлиё и зиёратгоха Саада ибн Абу Ваккаса Узунбулок может перейти к семейному столу или встрече с мастером, если это подходит дате, людям и темпу маршрута."
+          "uz": "Avliyo va Saʼd ibn Abu Vaqqos ziyoratgohidan keyin Uzunbuloq oilaviy dasturxon yoki hunar uchrashuviga sekin o‘tishi mumkin, agar oila, usta va vaqt shu tashrifga mos kelsa."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/uzunbuloq/uzunbuloq-guesthouse-craft-service-setting"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Avliyo mahalla setting"
+      "ru": "Что агентства спрашивают про Среда махалли Авлиё"
+      "uz": "Agentliklar Avliyo mahallasi muhiti haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Avliyo mahalla setting get in the day plan?"
+          "ru": "Сколько времени закладывать на Среда махалли Авлиё в плане дня?"
+          "uz": "Avliyo mahallasi muhiti uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "a focused half-day with buffer is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Where Uzunbuloq begins with respect”."
+          "ru": "Для большинства групп реалистичный диапазон — полдня с запасом. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Где Узунбулок начинается с уважения»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — zaxira bilan yarim kun. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Uzunbuloq hurmat bilan boshlanadigan joy»."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "When is Avliyo mahalla setting strongest during the day?"
+          "ru": "В какое время дня Среда махалли Авлиё раскрывается сильнее?"
+          "uz": "Avliyo mahallasi muhiti kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer early morning or late afternoon. That usually improves comfort, photos, and how the stop feels in the sequence around uzunbuloq."
+          "ru": "Лучше рано утром или ближе к вечеру. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с uzunbuloq."
+          "uz": "erta tong yoki kechga yaqin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (uzunbuloq atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "How should Avliyo mahalla setting sit next to nearby stops?"
+          "ru": "Как поставить Среда махалли Авлиё рядом с соседними остановками?"
+          "uz": "Avliyo mahallasi muhitini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Avliyo mahalla setting to your Uzbekistan programme"
+      "ru": "Добавьте «Среда махалли Авлиё» в программу (Узбекистан)"
+      "uz": "Avliyo mahallasi muhitini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Avliyo mahalla setting | TourLink"
+    "ru": "Среда махалли Авлиё | TourLink"
+    "uz": "Avliyo mahallasi muhiti | TourLink"
+  "metaDescription":
+    "en": "Avliyo is the threshold of the Uzunbuloq stop: the place where the visit starts with a village edge, a greeting, and a sense of what belongs there that day. A family table, craft room, meal, shopping pause, or photo point may follow later; the first meaning is respect."
+    "ru": "Авлиё — порог остановки в Узунбулоке: здесь визит начинается с края села, приветствия и понимания, что уместно именно сегодня. Семейный стол, ремесленная комната, питание, торговля или место для фотографии могут появиться позже; первый смысл здесь — уважение."
+    "uz": "Avliyo — Uzunbuloq bekatining ostonasi: tashrif qishloq cheti, birinchi salomlashuv va shu kunga nima mosligini aniqlashdan boshlanadi. Oilaviy dasturxon, hunar xonasi, ovqatlanish, savdo yoki rasm nuqtasi keyin qo‘shilishi mumkin; birinchi maʼno esa hurmat."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "zaamin-and-jizzakh-mountains"
+"city": "uzunbuloq"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 39.9272686
+"longitude": 67.6962452

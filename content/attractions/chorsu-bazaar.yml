@@ -1,69 +1,310 @@
-# Seed: коллекция attractions — Chorsu Bazaar
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "chorsu-bazaar"
+  "ru": "chorsu-bazaar"
+  "uz": "chorsu-bazaar"
+"title":
+  "en": "Chorsu Bazaar"
+  "ru": "Базар Чорсу"
+  "uz": "Chorsu bozori"
+"subtitle":
+  "en": "Tashkent's blue-domed market of the old city"
+  "ru": "Синий купол и рыночное утро старого Ташкента"
+  "uz": "Eski Toshkentning ko‘k gumbazi va bozor tongi"
+"excerpt":
+  "en": "Chorsu makes old Tashkent immediate: a blue dome above the market, bread steam at the entrances, sellers behind dairy, dried fruit, spices, and hot-food rows. Before the quieter courtyards of Kukeldash or Khast Imam, the city feels lived-in and close."
+  "ru": "Чорсу сразу показывает старый Ташкент: синий купол над рынком, пар от лепёшек у входов, продавцы за молочными рядами, сухофруктами, специями и горячей едой. Перед более тихими дворами Кукельдаша или Хазрати Имам город ощущается живым и близким."
+  "uz": "Chorsu eski Toshkentni darhol yaqinlashtiradi: bozor ustidagi ko‘k gumbaz, kirishlardagi non isi, sut mahsulotlari, quruq mevalar, ziravorlar va issiq taomlar ortidagi sotuvchilar. Ko‘kaldosh yoki Hazrati Imomning sokinroq hovlilaridan oldin shahar tirik va yaqin seziladi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/chorsu-bazaar.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/chorsu-bazaar.webp"
+    "imageAlt":
+      "en": "Chorsu Bazaar"
+      "ru": "Базар Чорсу"
+      "uz": "Chorsu bozori"
+    "title":
+      "en": "Chorsu Bazaar"
+      "ru": "Базар Чорсу"
+      "uz": "Chorsu bozori"
+    "description":
+      "en": "Tashkent's blue-domed market of the old city"
+      "ru": "Синий купол и рыночное утро старого Ташкента"
+      "uz": "Eski Toshkentning ko‘k gumbazi va bozor tongi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
 
-slug:
-  en: chorsu-bazaar
-  ru: chorsu-bazaar
-  uz: chorsu-bazaar
-title:
-  en: Chorsu Bazaar
-  ru: Базар Чорсу
-  uz: Chorsu bozori
-subtitle:
-  en: Covered market
-  ru: Крытый рынок
-  uz: Yopiq bozor
-excerpt:
-  en: Central Asia's most atmospheric covered market under a turquoise dome.
-  ru: Самый атмосферный крытый рынок Центральной Азии под бирюзовым куполом.
-  uz: Moviy gumbaz ostidagi Markaziy Osiyoning eng jo'shqin yopiq bozori.
-country: uzbekistan
-region: tashkent-region
-city: tashkent
-type: BAZAAR
-importance: MUST_SEE
-latitude: 41.3265
-longitude: 69.2342
-heroImage: assets/images/destinations/uzbekistan.jpg
-blocks:
-  - blockType: hero
-    image: assets/images/destinations/uzbekistan.jpg
-    imageAlt:
-      en: Chorsu Bazaar dome
-      ru: Купол базара Чорсу
-      uz: Chorsu bozori gumbazi
-    title:
-      en: Chorsu Bazaar
-      ru: Базар Чорсу
-      uz: Chorsu bozori
-    description:
-      en: Central Asia's most atmospheric covered market under a turquoise dome.
-      ru: Самый атмосферный крытый рынок Центральной Азии под бирюзовым куполом.
-      uz: Moviy gumbaz ostidagi Markaziy Osiyoning eng jo'shqin yopiq bozori.
-  - blockType: regular
-    eyebrow:
-      en: Visit tips
-      ru: Советы
-      uz: Maslahatlar
-    title:
-      en: Market rhythm
-      ru: Ритм базара
-      uz: Bozor ritmi
-    description:
-      en: "Best in the morning when bread, spices and fruit stalls are at their liveliest. The dome hall is the visual anchor; outer lanes add crafts and local snacks. Pair with Khazrati Imam Complex in the same old-city half-day."
-      ru: "Лучше утром, когда хлеб, специи и фрукты особенно живые. Купольный зал — визуальный центр; внешние ряды добавляют ремёсла и местные закуски. Сочетайте с комплексом Хазрати Имам в одной половине дня по старому городу."
-      uz: "Ertalab non, ziravorlar va meva do'konlari eng jonli bo'lganda yaxshi. Gumbazli zal vizual markaz; tashqi qatorlar hunarmandchilik va mahalliy taomlarni qo'shadi. Eski shaharda yarim kunlik sayrda Hazrati Imom majmuasi bilan birlashtiring."
-seo:
-  metaTitle:
-    en: Chorsu Bazaar | TourLink
-    ru: Базар Чорсу | TourLink
-    uz: Chorsu bozori | TourLink
-  metaDescription:
-    en: Visit Chorsu Bazaar in Tashkent — spices, bread, fruit, and old-city market life.
-    ru: Посетите базар Чорсу в Ташкенте — специи, хлеб, фрукты и жизнь старого города.
-    uz: Toshkentdagi Chorsu bozorini ziyorat qiling — ziravorlar, non, meva va eski shahar hayoti.
-  structuredDataType: TouristAttraction
-status:
-  showInSitemap: true
-  noindex: false
-  hideFromNavigation: false
-  publishedAt: "2025-06-01"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Chorsu Bazaar"
+      "ru": "Базар Чорсу"
+      "uz": "Chorsu bozori"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Chorsu makes old Tashkent immediate: a blue dome above the market, bread steam at the entrances, sellers behind dairy, dried fruit, spices, and hot-food rows."
+              "ru": "Чорсу сразу показывает старый Ташкент: синий купол над рынком, пар от лепёшек у входов, продавцы за молочными рядами, сухофруктами, специями и горячей едой."
+              "uz": "Chorsu eski Toshkentni darhol yaqinlashtiradi: bozor ustidagi ko‘k gumbaz, kirishlardagi non isi, sut mahsulotlari, quruq mevalar, ziravorlar va issiq taomlar ortidagi sotuvchilar."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Chorsu matters because it brings daily life into the Tashkent route."
+              "ru": "Чорсу важен потому, что возвращает повседневную жизнь в маршрут по Ташкенту."
+              "uz": "Chorsu muhim, chunki u Toshkent marshrutiga kundalik hayotni olib kiradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Tashkent's blue-domed market of the old city."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Синий купол и рыночное утро старого Ташкента."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Eski Toshkentning ko‘k gumbazi va bozor tongi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Chorsu Bazaar as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Базар Чорсу как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Chorsu bozori o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Chorsu Bazaar sits on the route"
+      "ru": "Где Базар Чорсу стоит на маршруте"
+      "uz": "Chorsu bozori marshrutda qayerda"
+    "description":
+      "en": "One clear point for Chorsu Bazaar — Tashkent's blue-domed market of the old city."
+      "ru": "Одна понятная точка для «Базар Чорсу» — Синий купол и рыночное утро старого Ташкента."
+      "uz": "Chorsu bozori uchun bitta aniq nuqta — Eski Toshkentning ko‘k gumbazi va bozor tongi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Chorsu Bazaar"
+        "ru": "Базар Чорсу"
+        "uz": "Chorsu bozori"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.3262282
+      "longitude": 69.236864
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "chorsu-bazaar"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "The market that gives old Tashkent its movement"
+      "ru": "Рынок, который даёт старому Ташкенту движение"
+      "uz": "Eski Toshkentga harakat beradigan bozor"
+    "description":
+      "en": "Chorsu matters because it brings daily life into the Tashkent route. The capital can feel broad and modern at first; here it gathers around counters, voices, baskets, smells, bargaining, and a market tradition tied to one of the city's oldest crossroads.
+
+
+        «At Chorsu, Tashkent is not introduced by a monument first; it is introduced by bread, voices, spices, and the blue dome.»"
+      "ru": "Чорсу важен потому, что возвращает повседневную жизнь в маршрут по Ташкенту. С первого взгляда столица может казаться широкой и современной; здесь она собирается вокруг прилавков, голосов, корзин, запахов, торга и рыночной традиции одного из старых перекрёстков города.
+
+
+        «На Чорсу Ташкент сначала представляется не памятником, а хлебом, голосами, специями и синим куполом.»"
+      "uz": "Chorsu muhim, chunki u Toshkent marshrutiga kundalik hayotni olib kiradi. Poytaxt birinchi qarashda keng va zamonaviy ko‘rinishi mumkin; bu yerda u rastalar, ovozlar, savatlar, hidlar, savdolashuv va shaharning eski chorrahalaridan biriga bog‘langan bozor anʼanasi atrofida jamlanadi.
+
+
+        «Chorsuda Toshkent sizni avval yodgorlik bilan emas, non, ovozlar, ziravorlar va ko‘k gumbaz bilan kutib oladi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Blue dome, market entrance, and city movement"
+      "ru": "Синий купол, вход на рынок и движение города"
+      "uz": "Ko‘k gumbaz, bozor kirishi va shahar harakati"
+    "description":
+      "en": "From outside, Chorsu first reads as a city landmark: turquoise dome, arched entrances, people arriving, and the open space before the market pulls you into its rows."
+      "ru": "Снаружи Чорсу сначала воспринимается как городской ориентир: бирюзовый купол, арочные входы, люди у входа и открытое пространство перед тем, как рынок втягивает вас в свои ряды."
+      "uz": "Tashqaridan Chorsu avval shahar mo‘ljali sifatida ko‘rinadi: feruza gumbaz, ravoqli kirishlar, kelayotgan odamlar va bozor sizni rastalariga tortishidan oldingi ochiq maydon."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Let the market set the pace before the next old-city stop"
+      "ru": "Дайте рынку задать темп перед следующей остановкой старого города"
+      "uz": "Keyingi eski shahar bekatidan oldin bozor surʼatini his qiling"
+    "description":
+      "en": "Chorsu is strongest when it stays a market, not a rushed shopping errand. Walk slowly, keep purchases optional, ask before photographing people or counters, and let the clearest food rows shape the visit on the day."
+      "ru": "Чорсу сильнее всего, когда остаётся рынком, а не быстрой остановкой за покупками. Идите спокойно, не превращайте покупки в обязанность, спрашивайте перед съёмкой людей или прилавков и выбирайте самые понятные ряды с едой по ситуации в день визита."
+      "uz": "Chorsu tez xarid bekati emas, haqiqiy bozor sifatida qolganda kuchli. Sekin yuring, xaridni majburiy qilmang, odamlar yoki peshtaxtalarni suratga olishdan oldin so‘rang va eng ravshan taom rastalarini tashrif kunidagi holatga qarab tanlang."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qo‘shish"
+    "title":
+      "en": "Khast Imam after the market"
+      "ru": "Хазрати Имам после рынка"
+      "uz": "Bozordan keyin Hazrati Imom"
+    "description":
+      "en": "Khast Imam gives the old-city route its quieter side after Chorsu: courtyards, tiled portals, manuscript tradition, and religious etiquette after the market's food and movement."
+      "ru": "После Чорсу Хазрати Имам показывает более тихую сторону старого города: дворы, мозаичные порталы, рукописную традицию и религиозный этикет после рыночной еды и движения."
+      "uz": "Chorsudan keyin Hazrati Imom eski shaharning sokinroq tomonini ko‘rsatadi: hovlilar, koshinli peshtoqlar, qo‘lyozmalar anʼanasi va bozor taomi hamda harakatidan keyingi diniy odob."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/chorsu-bazaar-next-khast-imam-complex.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Khast Imam Complex"
+          "ru": "Комплекс Хазрати Имам"
+          "uz": "Hazrati Imom majmuasi"
+        "description":
+          "en": "An old-city religious ensemble with courtyards, madrasahs, the Muyi Muborak Library, and the Uthman Quran story."
+          "ru": "Религиозный ансамбль старого Ташкента: дворы, медресе, библиотека Муйи Муборак и история Корана Усмана."
+          "uz": "Eski Toshkentdagi diniy majmua: hovlilar, madrasalar, Moʻyi Muborak kutubxonasi va Usmon Qurʼoni hikoyasi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/khast-imam-complex"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Chorsu Bazaar"
+      "ru": "Что агентства спрашивают про Базар Чорсу"
+      "uz": "Agentliklar Chorsu bozori haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Chorsu Bazaar get in the day plan?"
+          "ru": "Сколько времени закладывать на Базар Чорсу в плане дня?"
+          "uz": "Chorsu bozori uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "1–2 hours is a practical range for most groups. Keep the stop readable: one clear arrival, one clear exit. Place tone: “Tashkent's blue-domed market of the old city”."
+          "ru": "Для большинства групп реалистичный диапазон — 1–2 часа. Держите остановку читаемой: понятный вход и понятный выход. Характер места: «Синий купол и рыночное утро старого Ташкента»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 1–2 soat. Bekatni o‘qiladigan tuting: aniq kirish va aniq chiqish. Joy ohangi: «Eski Toshkentning ko‘k gumbazi va bozor tongi»."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "When is Chorsu Bazaar strongest during the day?"
+          "ru": "В какое время дня Базар Чорсу раскрывается сильнее?"
+          "uz": "Chorsu bozori kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer when the light is soft and queues are lighter. That usually improves comfort, photos, and how the stop feels in the sequence around tashkent."
+          "ru": "Лучше когда свет мягче и очередей меньше. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с tashkent."
+          "uz": "yorug‘lik yumshoq va navbat kamroq bo‘lganda afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (tashkent atrofida)."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "How should Chorsu Bazaar sit next to nearby stops?"
+          "ru": "Как поставить Базар Чорсу рядом с соседними остановками?"
+          "uz": "Chorsu bozorini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/chorsu-bazaar.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Chorsu Bazaar to your Uzbekistan programme"
+      "ru": "Добавьте «Базар Чорсу» в программу (Узбекистан)"
+      "uz": "Chorsu bozorini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Chorsu Bazaar | TourLink"
+    "ru": "Базар Чорсу | TourLink"
+    "uz": "Chorsu bozori | TourLink"
+  "metaDescription":
+    "en": "Chorsu makes old Tashkent immediate: a blue dome above the market, bread steam at the entrances, sellers behind dairy, dried fruit, spices, and hot-food rows. Before the quieter courtyards of Kukeldash or Khast Imam, the city feels lived-in and close."
+    "ru": "Чорсу сразу показывает старый Ташкент: синий купол над рынком, пар от лепёшек у входов, продавцы за молочными рядами, сухофруктами, специями и горячей едой. Перед более тихими дворами Кукельдаша или Хазрати Имам город ощущается живым и близким."
+    "uz": "Chorsu eski Toshkentni darhol yaqinlashtiradi: bozor ustidagi ko‘k gumbaz, kirishlardagi non isi, sut mahsulotlari, quruq mevalar, ziravorlar va issiq taomlar ortidagi sotuvchilar. Ko‘kaldosh yoki Hazrati Imomning sokinroq hovlilaridan oldin shahar tirik va yaqin seziladi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "tashkent-region"
+"city": "tashkent"
+"type": "BAZAAR"
+"importance": "RECOMMENDED"
+"latitude": 41.3262282
+"longitude": 69.236864

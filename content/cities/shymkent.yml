@@ -1,0 +1,533 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "shymkent"
+  "ru": "shymkent"
+  "uz": "shymkent"
+"title":
+  "en": "Shymkent"
+  "ru": "Шымкент"
+  "uz": "Chimkent"
+"subtitle":
+  "en": "Old streets, bazaar noise, and roads across the south"
+  "ru": "Старые улицы, шум базара и дороги юга"
+  "uz": "Eski ko‘chalar, bozor shovqini va janub yoʻllari"
+"excerpt":
+  "en": "Shymkent shows the south through city life, not only monuments. Begin around the old-city and citadel area, follow the noise into Central and Upper Bazaar, then choose whether the road turns toward Turkistan, Otrar, Sayram, or the foothills."
+  "ru": "Шымкент показывает юг не только через памятники, а через городскую жизнь. Сначала старый город и район цитадели, затем шум Центрального и Верхнего базара, а дальше выбор дороги: Туркестан, Отрар, Сайрам или предгорья."
+  "uz": "Chimkent janubni faqat yodgorliklar orqali emas, shahar hayoti orqali ko‘rsatadi. Avval eski shahar va qalʼa hududi, keyin Markaziy va Yuqori bozor shovqini, soʻng yoʻl tanlovi: Turkiston, Oʻtror, Sayram yoki togʻoldi."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "Shymkent"
+      "ru": "Шымкент"
+      "uz": "Chimkent"
+    "title":
+      "en": "Shymkent"
+      "ru": "Шымкент"
+      "uz": "Chimkent"
+    "description":
+      "en": "Old streets, bazaar noise, and roads across the south"
+      "ru": "Старые улицы, шум базара и дороги юга"
+      "uz": "Eski ko‘chalar, bozor shovqini va janub yoʻllari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Shymkent"
+      "ru": "Шымкент"
+      "uz": "Chimkent"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Shymkent shows the south through city life, not only monuments."
+              "ru": "Шымкент показывает юг не только через памятники, а через городскую жизнь."
+              "uz": "Chimkent janubni faqat yodgorliklar orqali emas, shahar hayoti orqali ko‘rsatadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "A clear Shymkent visit moves from the old-city and citadel area into Central and Upper Bazaar, then chooses one larger continuation beyond the city."
+              "ru": "Понятная прогулка по Шымкенту идёт от старого города и района цитадели к Центральному и Верхнему базару, а затем выбирает одно продолжение за городом."
+              "uz": "Chimkentni tushunarli ko‘rish eski shahar va qalʼa hududidan boshlanib, Markaziy va Yuqori bozorga oʻtadi, keyin shahar tashqarisidagi bitta katta davomni tanlaydi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep the sequence readable: older streets first, market life next, then one direction beyond Shymkent."
+              "ru": "Сохраняйте ход простым: сначала старые улицы, затем жизнь рынка и только потом одно направление за пределами Шымкента."
+              "uz": "Ketma-ketlikni oson oʻqing: avval eski ko‘chalar, keyin bozor hayoti, soʻng Chimkentdan tashqaridagi bitta yoʻnalish."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Shymkent as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Шымкент как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Chimkent o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "Old Shymkent, the bazaar, then the road"
+      "ru": "Старый Шымкент, базар, затем дорога"
+      "uz": "Eski Chimkent, bozor, keyin yoʻl"
+    "description":
+      "en": "A clear Shymkent visit moves from the old-city and citadel area into Central and Upper Bazaar, then chooses one larger continuation beyond the city."
+      "ru": "Понятная прогулка по Шымкенту идёт от старого города и района цитадели к Центральному и Верхнему базару, а затем выбирает одно продолжение за городом."
+      "uz": "Chimkentni tushunarli ko‘rish eski shahar va qalʼa hududidan boshlanib, Markaziy va Yuqori bozorga oʻtadi, keyin shahar tashqarisidagi bitta katta davomni tanlaydi."
+    "mapPanel":
+      "eyebrow":
+        "en": "City map"
+        "ru": "Карта города"
+        "uz": "Shahar xaritasi"
+      "title":
+        "en": "Shymkent and its southern choices"
+        "ru": "Шымкент и южные направления"
+        "uz": "Chimkent va janubiy tanlovlar"
+      "description":
+        "en": "The map anchors Shymkent, the old-city/citadel area, and Central and Upper Bazaar. Turkistan, Otrar, Sayram, Aksu-Zhabagly, and the Western Tian Shan need their own timing."
+        "ru": "Карта держит Шымкент, район старого города и цитадели, Центральный и Верхний базар. Туркестан, Отрар, Сайрам, Аксу-Жабаглы и Западный Тянь-Шань требуют отдельного времени."
+        "uz": "Xarita Chimkent, eski shahar va qalʼa hududi, Markaziy va Yuqori bozorni ushlab turadi. Turkiston, Oʻtror, Sayram, Aksu-Jabagʻli va Gʻarbiy Tyan-Shan alohida vaqt talab qiladi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 42.313357
+      "longitude": 69.593955
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "shymkent-old-city-citadel-area"
+      - "entityType": "attraction"
+        "entitySlug": "central-bazaar-upper-bazaar-shymkent"
+    "aside":
+      "eyebrow":
+        "en": "City sequence"
+        "ru": "Городская последовательность"
+        "uz": "Shahar ketma-ketligi"
+      "title":
+        "en": "Old center, market, southern road"
+        "ru": "Старый центр, рынок, южная дорога"
+        "uz": "Eski markaz, bozor, janubiy yoʻl"
+      "description":
+        "en": "Keep the sequence readable: older streets first, market life next, then one direction beyond Shymkent."
+        "ru": "Сохраняйте ход простым: сначала старые улицы, затем жизнь рынка и только потом одно направление за пределами Шымкента."
+        "uz": "Ketma-ketlikni oson oʻqing: avval eski ko‘chalar, keyin bozor hayoti, soʻng Chimkentdan tashqaridagi bitta yoʻnalish."
+      "items":
+        - "title":
+            "en": "Begin around the old city and citadel"
+            "ru": "Начните у старого города и цитадели"
+            "uz": "Eski shahar va qalʼadan boshlang"
+          "description":
+            "en": "The older center gives Shymkent historical weight before the visit turns into market streets and road choices."
+            "ru": "Старый центр даёт Шымкенту исторический вес до перехода к рынку и выбору дороги."
+            "uz": "Eski markaz Chimkentga bozor ko‘chalari va yoʻl tanlovidan oldin tarixiy vazn beradi."
+        - "title":
+            "en": "Move into Central and Upper Bazaar"
+            "ru": "Перейдите к Центральному и Верхнему базару"
+            "uz": "Markaziy va Yuqori bozorga oʻting"
+          "description":
+            "en": "Bread, fruit, fabrics, and quick exchanges make the city feel lived-in, not only useful between monuments."
+            "ru": "Лепёшки, фрукты, ткани и короткие разговоры делают город живым, а не только удобным между памятниками."
+            "uz": "Non, meva, mato va qisqa savdolashuvlar shaharni faqat yodgorliklar orasidagi qulay bekat emas, tirik joy qiladi."
+        - "title":
+            "en": "Set one clear continuation"
+            "ru": "Выберите одно продолжение"
+            "uz": "Bitta davomni tanlang"
+          "description":
+            "en": "Turkistan, Otrar, Sayram, Aksu-Zhabagly, and the Western Tian Shan each change the time on the road."
+            "ru": "Туркестан, Отрар, Сайрам, Аксу-Жабаглы и Западный Тянь-Шань по-разному меняют время в дороге."
+            "uz": "Turkiston, Oʻtror, Sayram, Aksu-Jabagʻli va Gʻarbiy Tyan-Shan yoʻldagi vaqtni har xil o‘zgartiradi."
+        - "title":
+            "en": "Use the cooler hours well"
+            "ru": "Используйте прохладные часы"
+            "uz": "Salqinroq soatlardan foydalaning"
+          "description":
+            "en": "Mornings and late afternoons make walking, market time, and longer transfers easier in the south."
+            "ru": "Утро и поздний день удобнее для прогулки, базара и длинных переездов по югу."
+            "uz": "Tong va kechki payt piyoda yurish, bozor vaqti va janubdagi uzunroq koʻchishlarni yengillashtiradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "Two anchors for the city visit"
+      "ru": "Два ориентира для городской прогулки"
+      "uz": "Shahar sayri uchun ikki tayanch"
+    "description":
+      "en": "Start with the old-city and citadel area, then let Central and Upper Bazaar give Shymkent its sound, food, and everyday movement."
+      "ru": "Начните со старого города и района цитадели, затем дайте Центральному и Верхнему базару показать звук, еду и повседневное движение Шымкента."
+      "uz": "Eski shahar va qalʼa hududidan boshlang, keyin Markaziy va Yuqori bozor Chimkentning tovushi, taomi va kundalik harakatini ko‘rsatsin."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Shymkent Old City and Shym Qala"
+          "ru": "Старый город Шымкента и Шым Қала"
+          "uz": "Chimkent eski shahri va Shym Qala"
+        "description":
+          "en": "Begin at Shym Qala, the open-air complex that makes Shymkent's citadel, shahristan, and rabad readable in one city walk. Its archaeological outline brings the 2,200-year city story into view before Central Bazaar adds bread rows, bargaining voices, and everyday movement."
+          "ru": "Начните с Шым Қала: этот комплекс под открытым небом помогает увидеть цитадель, шахристан и рабад как понятную городскую прогулку. Археологический контур показывает 2200-летнюю историю Шымкента, а затем Центральный базар добавляет хлебные ряды, голоса торга и повседневное движени"
+          "uz": "Avval Shym Qaladan boshlang: bu ochiq osmon ostidagi majmua Chimkent qalʼasi, shahristoni va rabodini tushunarli shahar sayriga aylantiradi. Arxeologik izlar 2200 yillik shahar tarixini ko‘rsatadi; keyin Markaziy bozor non rastalari, savdo ovozlari va kundalik harakatni qoʻshadi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/shymkent/shymkent-old-city-citadel-area"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Central Bazaar and Upper Bazaar"
+          "ru": "Центральный и Верхний базар"
+          "uz": "Markaziy va Yuqori bozor"
+        "description":
+          "en": "Central Bazaar and the Upper Bazaar area show Shymkent at street-market pace. After Shym Qala and the old-city area, the route can shift from citadel ground to bread counters, produce rows, bargaining voices, and people moving through the warm southern city."
+          "ru": "Центральный базар и район Верхнего базара показывают Шымкент в уличном рыночном ритме. После Шым Қала и старого города маршрут может перейти от цитадели к хлебным рядам, продуктам, голосам торга и людям, которые идут по делам в тёплом южном городе."
+          "uz": "Markaziy bozor va Yuqori bozor hududi Chimkentni ko‘cha-bozor ritmida ko‘rsatadi. Shym Qala va eski shahar hududidan keyin yoʻl qalʼa izlaridan non rastalari, mahsulotlar, savdo ovozlari va iliq janubiy shaharda ish bilan yurgan odamlar harakatiga oʻtadi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/shymkent/central-bazaar-upper-bazaar-shymkent"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City moments"
+      "ru": "Городские моменты"
+      "uz": "Shahar lahzalari"
+    "title":
+      "en": "Old streets, market tables, southern roads"
+      "ru": "Старые улицы, базарные прилавки и южные дороги"
+      "uz": "Eski ko‘chalar, bozor rastalari va janubiy yoʻllar"
+    "description":
+      "en": "These three Shymkent moments keep the city grounded in older streets, bazaar exchanges, and the choice of where the south opens next."
+      "ru": "Эти три момента удерживают Шымкент в живой городской ткани: старые улицы, базарные разговоры и выбор дороги дальше."
+      "uz": "Bu uch Chimkent lahzasi shaharni eski ko‘chalar, bozor suhbatlari va keyingi yoʻl tanlovi bilan tirik tutadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Old Shymkent first"
+          "ru": "Сначала старый Шымкент"
+          "uz": "Avval eski Chimkent"
+        "description":
+          "en": "The old-city and citadel area gives the city its first historical note before the market streets take over."
+          "ru": "Старый город и район цитадели дают Шымкенту первую историческую ноту перед шумом базарных улиц."
+          "uz": "Eski shahar va qalʼa hududi bozor ko‘chalari boshlanishidan oldin Chimkentga ilk tarixiy ohang beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Bread, fruit, and bazaar talk"
+          "ru": "Лепёшки, фрукты и базарные разговоры"
+          "uz": "Non, meva va bozor suhbatlari"
+        "description":
+          "en": "Central and Upper Bazaar bring Shymkent close: bread, fruit, fabrics, and quick exchanges around the stalls."
+          "ru": "Центральный и Верхний базар приближают Шымкент: лепёшки, фрукты, ткани и короткие разговоры у прилавков."
+          "uz": "Markaziy va Yuqori bozor Chimkentni yaqinlashtiradi: non, meva, mato va rastalar atrofidagi qisqa suhbatlar."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Border crossing"
+          "ru": "Граница"
+          "uz": "Chegara"
+        "title":
+          "en": "Choose the southern road"
+          "ru": "Выбрать южную дорогу"
+          "uz": "Janubiy yo‘lni tanlash"
+        "description":
+          "en": "From Shymkent the road can turn to Turkistan, Otrar, Sayram, Aksu-Zhabagly, or the Western Tian Shan."
+          "ru": "От Шымкента дорога может уйти к Туркестану, Отрару, Сайраму, Аксу-Жабаглы или Западному Тянь-Шаню."
+          "uz": "Chimkentdan yo‘l Turkiston, Oʻtror, Sayram, Aksu-Jabagʻli yoki Gʻarbiy Tyan-Shan tomonga ketishi mumkin."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "How to give Shymkent its place"
+      "ru": "Как дать Шымкенту своё место"
+      "uz": "Chimkentga o‘z o‘rnini qanday berish kerak"
+    "description":
+      "en": "Give Shymkent a real city day, and the south starts to feel connected rather than rushed."
+      "ru": "Дайте Шымкенту полноценный городской день, и юг перестанет ощущаться спешным набором остановок."
+      "uz": "Chimkentga haqiqiy shahar kuni ajrating, shunda janub shoshilgan bekatlar ro‘yxatidek tuyulmaydi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "First anchor"
+              "ru": "Первый ориентир"
+              "uz": "Birinchi moʻljal"
+            "description":
+              "en": "Start with old Shymkent so the city has history before the market streets and wider roads take over."
+              "ru": "Начните со старого Шымкента, чтобы у города появилась история до базарных улиц и больших дорог."
+              "uz": "Bozor ko‘chalari va katta yoʻllardan oldin shahar tarixga ega bo‘lishi uchun eski Chimkentdan boshlang."
+          - "type": "dashTitle"
+            "title":
+              "en": "Market time"
+              "ru": "Время рынка"
+              "uz": "Bozor vaqti"
+            "description":
+              "en": "Central and Upper Bazaar bring the city close through bread, fruit, fabric stalls, small purchases, and quick local exchanges."
+              "ru": "Центральный и Верхний базар приближают город через лепёшки, фрукты, ткани, небольшие покупки и короткие местные разговоры."
+              "uz": "Markaziy va Yuqori bozor shaharni non, meva, mato rastalari, kichik xaridlar va qisqa mahalliy suhbatlar orqali yaqinlashtiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Onward road"
+              "ru": "Дорога дальше"
+              "uz": "Keyingi yoʻl"
+            "description":
+              "en": "Shymkent should lead to one clear next move, not turn the whole south into a rushed checklist."
+              "ru": "Шымкент должен вести к одному ясному следующему ходу, а не превращать весь юг в спешный список."
+              "uz": "Chimkent keyingi bitta aniq yoʻlni ko‘rsatishi kerak; butun janubni shoshilinch ro‘yxatga aylantirish shart emas."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Good to know Main magnet"
+                  "ru": "Полезно знать Главный магнит"
+                  "uz": "Bilish foydali Asosiy magnit"
+                "description":
+                  "en": "Old-city and citadel traces paired with Central and Upper Bazaar."
+                  "ru": "Следы старого города и цитадели вместе с Центральным и Верхним базаром."
+                  "uz": "Eski shahar va qalʼa izlari Markaziy va Yuqori bozor bilan birga."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Stay"
+                  "ru": "Ночёвка"
+                  "uz": "Tunash"
+                "description":
+                  "en": "One night is usually enough before or after Turkistan, Otrar, Sayram, or the foothills."
+                  "ru": "Одна ночь обычно достаточна до или после Туркестана, Отрара, Сайрама или предгорий."
+                  "uz": "Bir tun odatda Turkiston, Oʻtror, Sayram yoki togʻoldidan oldin yoki keyin yetadi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Yoʻnalishdagi roli"
+                "description":
+                  "en": "Southern city stop between heritage, bazaar life, and mountain or Silk Road continuations."
+                  "ru": "Южный городской узел между наследием, базарной жизнью и продолжением к горам или Шёлковому пути."
+                  "uz": "Meros, bozor hayoti, togʻ yoki Ipak yoʻli davomlari orasidagi janubiy shahar bekati."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby places"
+      "ru": "Рядом по маршруту"
+      "uz": "Yaqin joylar"
+    "title":
+      "en": "Where the road can turn after Shymkent"
+      "ru": "Куда повернуть после Шымкента"
+      "uz": "Chimkentdan keyin yoʻl qayerga buriladi"
+    "description":
+      "en": "Turkistan, Otrar, and Sayram each change the southern route: sacred architecture, archaeology, or older town memory."
+      "ru": "Туркестан, Отрар и Сайрам по-разному меняют южный маршрут: священная архитектура, археология или память старого города."
+      "uz": "Turkiston, Oʻtror va Sayram janubiy yoʻnalishni har xil o‘zgartiradi: muqaddas meʼmorchilik, arxeologiya yoki eski shahar xotirasi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Turkistan"
+          "ru": "Туркестан"
+          "uz": "Turkiston"
+        "description":
+          "en": "Turkistan brings southern Kazakhstan into focus through the Yasawi mausoleum, Azret Sultan, pilgrim courtyards, and roads toward Otrar, Sauran, and Shymkent."
+          "ru": "Туркестан собирает южный Казахстан вокруг мавзолея Ясави, «Азрет Султан», паломнических дворов и дорог к Отрару, Саурану и Шымкенту."
+          "uz": "Turkiston janubiy Qozogʻistonni Yasaviy maqbarasi, Azret Sulton, ziyorat hovlilari va Oʻtror, Sauran, Chimkent tomonga yoʻllar orqali tushunarli qiladi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/turkistan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Otrar"
+          "ru": "Отрар"
+          "uz": "Oʻtror"
+        "description":
+          "en": "Near Shaulder, Otrar brings Otyrar Museum-Reserve, Otrartobe's open earth, and Arystan Bab into one southern Silk Road stop."
+          "ru": "У Шаульдера Отрар собирает Отырарский музей-заповедник, открытую землю Отрартобе и Арыстан-Баб в одну остановку Южного Шёлкового пути."
+          "uz": "Shauildir yaqinida Oʻtror Oʻtror muzey-qoʻriqxonasi, Otrartobening ochiq tuprogʻi va Arystan Babni Janubiy Ipak yoʻlidagi bitta toʻxtashga jamlaydi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/otrar"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Sayram"
+          "ru": "Сайрам"
+          "uz": "Sayram"
+        "description":
+          "en": "Sayram adds a quiet old-town stop to a Shymkent stay, with shrine streets, the Sairam Museum, and Ispijab history handled at a respectful pace."
+          "ru": "Сайрам добавляет к поездке из Шымкента спокойную старую часть: улицы святынь, Сайрамский музей и историю Испиджаба в уважительном темпе."
+          "uz": "Sayram Chimkentdan safarga sokin eski shahar toʻxtashini qoʻshadi: ziyorat koʻchalari, Sayram muzeyi va Isfijob tarixi hurmatli ritmda ochiladi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/sayram"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Shymkent in the day plan"
+      "ru": "Как поставить Шымкент в план дня"
+      "uz": "Chimkentni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Shymkent?"
+          "ru": "Сколько времени группам стоит проводить в Шымкент?"
+          "uz": "Chimkentda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Old streets, bazaar noise, and roads across the south”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Старые улицы, шум базара и дороги юга»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Eski ko‘chalar, bozor shovqini va janub yoʻllari»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Shymkent be a walkable core or a base for day trips?"
+          "ru": "Шымкент — это пешеходное ядро или база для выездов?"
+          "uz": "Chimkent piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Shymkent's centre?"
+          "ru": "Где лучше ночевать относительно центра Шымкент?"
+          "uz": "Chimkent markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Shymkent stop into your Kazakhstan programme"
+      "ru": "Встройте остановку «Шымкент» в программу (Казахстан)"
+      "uz": "Chimkent bekatini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Shymkent | TourLink"
+    "ru": "Шымкент | TourLink"
+    "uz": "Chimkent | TourLink"
+  "metaDescription":
+    "en": "Shymkent shows the south through city life, not only monuments. Begin around the old-city and citadel area, follow the noise into Central and Upper Bazaar, then choose whether the road turns toward Turkistan, Otrar, Sayram, or the foothills."
+    "ru": "Шымкент показывает юг не только через памятники, а через городскую жизнь. Сначала старый город и район цитадели, затем шум Центрального и Верхнего базара, а дальше выбор дороги: Туркестан, Отрар, Сайрам или предгорья."
+    "uz": "Chimkent janubni faqat yodgorliklar orqali emas, shahar hayoti orqali ko‘rsatadi. Avval eski shahar va qalʼa hududi, keyin Markaziy va Yuqori bozor shovqini, soʻng yoʻl tanlovi: Turkiston, Oʻtror, Sayram yoki togʻoldi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "turkistan-shymkent-and-southern-silk-road"
+"latitude": 42.3146962
+"longitude": 69.5883282

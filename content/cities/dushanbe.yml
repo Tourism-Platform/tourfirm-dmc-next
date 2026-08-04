@@ -1,0 +1,667 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "dushanbe"
+  "ru": "dushanbe"
+  "uz": "dushanbe"
+"title":
+  "en": "Dushanbe"
+  "ru": "Душанбе"
+  "uz": "Dushanbe"
+"subtitle":
+  "en": "Plane-tree shade before the mountain roads"
+  "ru": "Тень платанов перед горными дорогами"
+  "uz": "Togʻ yoʻllari oldidagi chinor soyasi"
+"excerpt":
+  "en": "Morning in Dushanbe begins under plane trees: fountains, wide avenues, museum facades, and mountain air from the valley edge. The capital lets travelers arrive gently before the route turns toward Hissar, Varzob, the Fann Mountains, or the Pamirs."
+  "ru": "Утро в Душанбе начинается под платанами: фонтаны, широкие проспекты, музейные фасады и горный воздух со стороны долины. Столица помогает мягко войти в страну перед дорогой к Гиссару, Варзобу, Фанским горам или Памиру."
+  "uz": "Dushanbeda tong chinorlar ostida boshlanadi: favvoralar, keng xiyobonlar, muzey fasadlari va vodiy tomondan keladigan togʻ havosi. Poytaxt Hisor, Varzob, Fan togʻlari yoki Pomir tomonga yoʻl olishdan oldin sayohatchini sokin kiritadi."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "Dushanbe"
+      "ru": "Душанбе"
+      "uz": "Dushanbe"
+    "title":
+      "en": "Dushanbe"
+      "ru": "Душанбе"
+      "uz": "Dushanbe"
+    "description":
+      "en": "Plane-tree shade before the mountain roads"
+      "ru": "Тень платанов перед горными дорогами"
+      "uz": "Togʻ yoʻllari oldidagi chinor soyasi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Dushanbe"
+      "ru": "Душанбе"
+      "uz": "Dushanbe"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Morning in Dushanbe begins under plane trees: fountains, wide avenues, museum facades, and mountain air from the valley edge."
+              "ru": "Утро в Душанбе начинается под платанами: фонтаны, широкие проспекты, музейные фасады и горный воздух со стороны долины."
+              "uz": "Dushanbeda tong chinorlar ostida boshlanadi: favvoralar, keng xiyobonlar, muzey fasadlari va vodiy tomondan keladigan togʻ havosi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Dushanbe is easiest to read in a simple sequence: start with Rudaki Avenue, choose one museum, add a tea house or market stop, then decide whether the next road belongs to Hissar, Varzob, or higher country."
+              "ru": "Душанбе легче читать в простой последовательности: начать с проспекта Рудаки, выбрать один музей, добавить чайхану или рынок, а затем решить, куда ведёт следующая дорога — к Гиссару, Варзобу или выше в горы."
+              "uz": "Dushanbe oddiy ketma-ketlikda oson tushuniladi: Rudakiy xiyobonidan boshlash, bitta muzey tanlash, choyxona yoki bozor toʻxtashini qoʻshish, soʻng keyingi yoʻl Hisor, Varzob yoki balandroq togʻlarga borishini hal qilish."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The capital does not need a hurried monument list. Let it open through one walk, one museum, and one unhurried stop before longer drives."
+              "ru": "Столице не нужен торопливый список памятников. Она лучше раскрывается через одну прогулку, один музей и спокойную остановку перед длинными переездами."
+              "uz": "Poytaxtga shoshilgan yodgorliklar roʻyxati kerak emas. U kelishdan keyin bitta sayr, bitta muzey va shoshilmas toʻxtash orqali tabiiyroq ochiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Dushanbe as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Душанбе как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Dushanbe o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "A calm first route through the capital"
+      "ru": "Спокойный первый маршрут по столице"
+      "uz": "Poytaxt boʻylab sokin birinchi yoʻl"
+    "description":
+      "en": "Dushanbe is easiest to read in a simple sequence: start with Rudaki Avenue, choose one museum, add a tea house or market stop, then decide whether the next road belongs to Hissar, Varzob, or higher country."
+      "ru": "Душанбе легче читать в простой последовательности: начать с проспекта Рудаки, выбрать один музей, добавить чайхану или рынок, а затем решить, куда ведёт следующая дорога — к Гиссару, Варзобу или выше в горы."
+      "uz": "Dushanbe oddiy ketma-ketlikda oson tushuniladi: Rudakiy xiyobonidan boshlash, bitta muzey tanlash, choyxona yoki bozor toʻxtashini qoʻshish, soʻng keyingi yoʻl Hisor, Varzob yoki balandroq togʻlarga borishini hal qilish."
+    "mapPanel":
+      "eyebrow":
+        "en": "City and roads"
+        "ru": "Город и дороги"
+        "uz": "Shahar va yoʻllar"
+      "title":
+        "en": "Dushanbe, Hissar, and Varzob"
+        "ru": "Душанбе, Гиссар и Варзоб"
+        "uz": "Dushanbe, Hisor va Varzob"
+      "description":
+        "en": "Rudaki Avenue and the museums hold the city sequence; Hissar and Varzob are close continuations when season, timing, and road conditions fit."
+        "ru": "Проспект Рудаки и музеи держат городскую последовательность; Гиссар и Варзоб становятся близким продолжением, когда подходят сезон, время и дорожные условия."
+        "uz": "Rudakiy xiyoboni va muzeylar shahar ketma-ketligini ushlab turadi; Hisor va Varzob esa mavsum, vaqt va yoʻl sharoiti mos kelganda yaqin davomga aylanadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 38.577422
+      "longitude": 68.777865
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "rudaki-park-and-rudaki-avenue"
+      - "entityType": "attraction"
+        "entitySlug": "national-museum-of-antiquities-of-tajikistan"
+    "aside":
+      "eyebrow":
+        "en": "First sequence"
+        "ru": "Первый порядок"
+        "uz": "Birinchi ketma-ketlik"
+      "title":
+        "en": "Avenue, museum, tea, road"
+        "ru": "Проспект, музей, чай, дорога"
+        "uz": "Xiyobon, muzey, choy, yoʻl"
+      "description":
+        "en": "The capital does not need a hurried monument list. Let it open through one walk, one museum, and one unhurried stop before longer drives."
+        "ru": "Столице не нужен торопливый список памятников. Она лучше раскрывается через одну прогулку, один музей и спокойную остановку перед длинными переездами."
+        "uz": "Poytaxtga shoshilgan yodgorliklar roʻyxati kerak emas. U kelishdan keyin bitta sayr, bitta muzey va shoshilmas toʻxtash orqali tabiiyroq ochiladi."
+      "items":
+        - "title":
+            "en": "Start with the central avenue"
+            "ru": "Начните с центрального проспекта"
+            "uz": "Markaziy xiyobondan boshlang"
+          "description":
+            "en": "Rudaki Avenue and the central park give the first walk shade, fountains, civic buildings, and an easy sense of the capital."
+            "ru": "Проспект Рудаки и центральный парк дают первой прогулке тень, фонтаны, городские здания и мягкое чувство столицы."
+            "uz": "Rudakiy xiyoboni va markaziy bogʻ birinchi sayrga soya, favvoralar, shahar binolari va poytaxtning yumshoq tuygʻusini beradi."
+          "badge":
+            "en": "First walk"
+            "ru": "Первая прогулка"
+            "uz": "Birinchi sayr"
+        - "title":
+            "en": "Add one strong museum stop"
+            "ru": "Добавьте один сильный музей"
+            "uz": "Bitta kuchli muzey qoʻshing"
+          "description":
+            "en": "The National Museum and the Museum of Antiquities help the wider Tajikistan route make sense before mountain or archaeological travel begins."
+            "ru": "Национальный музей и Музей древностей помогают понять будущий маршрут до горных и археологических участков."
+            "uz": "Milliy muzey va Qadimiyat muzeyi togʻ yoki arxeologiya yoʻllaridan oldin kengroq Tojikistonni tushunishga yordam beradi."
+          "badge":
+            "en": "Culture stop"
+            "ru": "Культурная остановка"
+            "uz": "Madaniy toʻxtash"
+        - "title":
+            "en": "Add tea or market time"
+            "ru": "Добавьте чайхану или рынок"
+            "uz": "Choy yoki bozor toʻxtashini qoʻshing"
+          "description":
+            "en": "A tea house or market stop keeps the arrival grounded and lets the capital feel lived, not only viewed."
+            "ru": "Чайхана или рынок удерживают первое знакомство в живом масштабе и показывают столицу не только как набор объектов."
+            "uz": "Choyxona yoki bozor toʻxtashi birinchi tanishuvni tirik miqyosda ushlab turadi va poytaxtni faqat obyektlar roʻyxati emas, shahar sifatida koʻrsatadi."
+          "badge":
+            "en": "Tea or market"
+            "ru": "Чай или рынок"
+            "uz": "Choy yoki bozor"
+        - "title":
+            "en": "Choose Hissar or Varzob"
+            "ru": "Выберите Гиссар или Варзоб"
+            "uz": "Hisor yoki Varzobni tanlang"
+          "description":
+            "en": "Hissar brings fortress heritage close to the capital; Varzob brings cooler air and the first mountain-road feeling."
+            "ru": "Гиссар добавляет наследие крепости рядом со столицей; Варзоб приносит прохладный воздух и первое ощущение горной дороги."
+            "uz": "Hisor poytaxt yoniga qalʼa merosini qoʻshadi; Varzob esa salqin havo va birinchi togʻ yoʻli tuygʻusini beradi."
+          "badge":
+            "en": "Continuation"
+            "ru": "Продолжение"
+            "uz": "Davom"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrish"
+    "title":
+      "en": "Places that make Dushanbe clear"
+      "ru": "Места, с которых понятен Душанбе"
+      "uz": "Dushanbeni tushuntiradigan joylar"
+    "description":
+      "en": "Begin with the city's clearest anchors: Rudaki Avenue for shade and scale, the National Museum for country context, and the Antiquities Museum for older routes before the road widens."
+      "ru": "Начните с самых ясных городских ориентиров: проспекта Рудаки для тени и масштаба, Национального музея для контекста страны и Музея древностей для более ранних маршрутов перед тем, как дорога станет шире."
+      "uz": "Eng aniq shahar tayanchlaridan boshlang: Rudakiy xiyoboni soya va miqyos beradi, Milliy muzey mamlakat kontekstini ochadi, Qadimiyat muzeyi esa yoʻl kengayishidan oldin qadimgi yoʻnalishlarni tushuntiradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Rudaki Park and Rudaki Avenue"
+          "ru": "Парк и проспект Рудаки"
+          "uz": "Rudakiy parki va Rudakiy xiyoboni"
+        "description":
+          "en": "Rudaki Park and the central avenue give Dushanbe a readable first hour. Plane trees shade the pavements, fountains break up the civic buildings, and the mountains at the edge of the city keep the next road in view."
+          "ru": "Парк и центральный проспект Рудаки дают Душанбе понятный первый час. Платаны закрывают тротуары тенью, фонтаны разбивают линию городских зданий, а горы на краю города держат в поле зрения следующую дорогу."
+          "uz": "Rudakiy parki va markaziy xiyobon Dushanbeni birinchi soatda tushunarli qiladi. Chinorlar yoʻlaklarga soya beradi, favvoralar shahar binolari orasini ochadi, shahar chetidagi togʻlar esa keyingi yoʻlni ko‘zda tutadi."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/dushanbe/rudaki-park-and-rudaki-avenue"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "National Museum of Tajikistan"
+          "ru": "Национальный музей Таджикистана"
+          "uz": "Tojikiston Milliy muzeyi"
+        "description":
+          "en": "The National Museum is a calm first frame for Tajikistan after the open city walk. Inside, maps, objects, and museum halls bring the country's mountains, archaeology, state history, and daily culture into a scale you can carry onto the road."
+          "ru": "После открытой прогулки по Душанбе Национальный музей даёт спокойную точку входа в Таджикистан. Внутри карты, предметы и залы помогают связать горы, археологию, государственную историю и повседневную культуру в один понятный маршрутный смысл."
+          "uz": "Dushanbedagi ochiq shahar sayridan keyin Milliy muzey Tojikistonga sokin kirish nuqtasini beradi. Ichkarida xaritalar, buyumlar va zallar togʻlar, arxeologiya, davlat hikoyasi va kundalik madaniyatni yoʻlga olib chiqish mumkin boʻlgan miqyosga keltiradi."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/dushanbe/national-museum-of-tajikistan"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "National Museum of Antiquities of Tajikistan"
+          "ru": "Национальный музей древностей Таджикистана"
+          "uz": "Tojikiston Qadimiyat milliy muzeyi"
+        "description":
+          "en": "The National Museum of Antiquities narrows Dushanbe to a quieter archaeology room: Buddhist-era finds, pre-Islamic objects, and fragments from older settlements. It belongs before the route leaves the capital for Penjikent, Hissar, Khatlon, or the Zeravshan Valley."
+          "ru": "В Национальном музее древностей Душанбе становится тише: буддийские находки, доисламские предметы и фрагменты древних поселений складываются в одну археологическую линию. Это уместная остановка перед дорогой к Пенджикенту, Гиссару, Хатлону или Зеравшанской долине."
+          "uz": "Tojikiston Qadimiyat milliy muzeyida Dushanbe sokinroq ko‘rinadi: buddaviy davr topilmalari, islomdan oldingi buyumlar va qadimiy manzilgoh parchalarini bitta arxeologik yoʻnalishda koʻrasiz. Bu Penjikent, Hisor, Xatlon yoki Zarafshon vodiysi tomonga chiqishdan oldin foydali toʻx"
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/dushanbe/national-museum-of-antiquities-of-tajikistan"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Navruz Palace / Kokhi Navruz"
+          "ru": "Дворец Навруз / Кохи Навруз"
+          "uz": "Navroʻz saroyi / Koʻhi Navroʻz"
+        "description":
+          "en": "Navruz Palace feels different from Dushanbe's museums and avenues. Built in 2014, the large five-floor complex turns national-style architecture into rooms of wood carving, stonework, glass mosaic, painted ceilings, and chandelier light; a short visit gives travelers a close look"
+          "ru": "Дворец Навруз воспринимается иначе, чем музеи и проспекты Душанбе. Построенный в 2014 году большой пятиэтажный комплекс собирает национальную архитектуру в залах с резьбой по дереву, камнем, стеклянной мозаикой, расписными потолками и светом люстр; короткий визит даёт внимательны"
+          "uz": "Navroʻz saroyi Dushanbe muzeylari va xiyobonlaridan boshqacha taassurot beradi. 2014 yilda qurilgan yirik besh qavatli majmua milliy uslubdagi meʼmorchilikni yogʻoch oʻymakorligi, tosh, shisha mozaika, naqshli shiftlar va qandil nuri bilan toʻldirilgan zallarga jamlaydi; qisqa ta"
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/dushanbe/navruz-palace-kokhi-navruz"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Mehrgon Bazaar"
+          "ru": "Базар Мехргон"
+          "uz": "Mehrgon bozori"
+        "description":
+          "en": "Mehrgon is Dushanbe's modern indoor bazaar: seasonal fruit, dried apricots, nuts, spices, honey, tea, and simple food counters under one large roof. It fits best in the morning, when the city day needs a human food scene between avenues, museums, and the next road."
+          "ru": "Мехргон — современный крытый базар Душанбе: сезонные фрукты, курага, орехи, специи, мёд, чай и простая еда под одной большой крышей. Лучше всего заходить утром, когда между проспектами, музеями и следующей дорогой нужен живой городской эпизод."
+          "uz": "Mehrgon — Dushanbedagi zamonaviy yopiq bozor: mavsumiy meva, quruq oʻrik, yongʻoq, ziravor, asal, choy va oddiy ovqat bitta katta tom ostida. Ertalab, xiyobonlar, muzeylar va keyingi yoʻl orasida shaharning kundalik ovqat manzarasini ko‘rish uchun qulay."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/dushanbe/mehrgon-bazaar"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Ismail Somoni Monument and Dusti Square"
+          "ru": "Памятник Исмаилу Сомони и площадь Дусти"
+          "uz": "Ismoil Somoniy haykali va Dusti maydoni"
+        "description":
+          "en": "Ismail Somoni stands at the center of Dusti Square, where a crowned statue, arch, fountains, traffic movement, and official buildings give central Dushanbe its ceremonial scale. The stop fits best as a clear pause on a first city walk, between Rudaki Avenue, museum time, and the "
+          "ru": "Исмаил Сомони стоит в центре площади Дусти, где фигура с короной, арка, фонтаны, движение машин и официальные здания задают парадный масштаб центра Душанбе. Лучше смотреть это место как короткую остановку в первой городской прогулке — между проспектом Рудаки, музеями и следующей "
+          "uz": "Ismoil Somoniy Dusti maydoni markazida turadi: tojli figura, arka, favvoralar, avtomobil harakati va rasmiy binolar Dushanbe markaziga tantanali poytaxt koʻrinishini beradi. Bu joyni birinchi shahar sayrida, Rudakiy shohkoʻchasi, muzey vaqti va keyingi yoʻl orasidagi qisqa toʻxta"
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/dushanbe/ismail-somoni-monument-and-dusti-square"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City moments"
+      "ru": "Городские моменты"
+      "uz": "Shahar lahzalari"
+    "title":
+      "en": "How Dushanbe sets the first pace"
+      "ru": "Как Душанбе задаёт первый темп"
+      "uz": "Dushanbe birinchi surʼatni qanday beradi"
+    "description":
+      "en": "The strongest Dushanbe moments stay simple: a shaded walk, one museum hour, tea-house conversation, and a clear choice before longer roads."
+      "ru": "Самые сильные моменты Душанбе остаются простыми: тенистая прогулка, музейный час, разговор за чаем и ясный выбор перед длинными дорогами."
+      "uz": "Dushanbening eng kuchli lahzalari oddiy qoladi: soyali sayr, bitta muzey soati, choy ustidagi suhbat va uzoq yoʻllardan oldin aniq tanlov."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "First road from the capital"
+          "ru": "Первая дорога из столицы"
+          "uz": "Poytaxtdan birinchi yoʻl"
+        "description":
+          "en": "After the avenue and museum time, Dushanbe helps choose the first extension: Hissar for heritage, Varzob for cooler air, or a longer road when season and pace allow."
+          "ru": "После проспекта и музеев Душанбе помогает выбрать первый выезд: Гиссар ради наследия, Варзоб ради прохладного воздуха или более дальнюю дорогу, если подходят сезон и темп."
+          "uz": "Xiyobon va muzeylardan keyin Dushanbe birinchi chiqishni tanlashga yordam beradi: Hisor meros uchun, Varzob salqin havo uchun yoki mavsum va surʼat mos kelsa uzoqroq yoʻl."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Museum morning in Dushanbe"
+          "ru": "Музейное утро в Душанбе"
+          "uz": "Dushanbedagi muzey tongi"
+        "description":
+          "en": "One quiet museum stop turns the next road into more than scenery: valleys, archaeology, and mountain cultures have names before you leave the capital."
+          "ru": "Одна спокойная музейная остановка превращает следующую дорогу во что-то большее, чем пейзаж: у долин, археологии и горных культур появляются имена ещё до выезда из столицы."
+          "uz": "Bitta sokin muzey toʻxtashi keyingi yoʻlni faqat manzara emas, maʼnoli yoʻnalishga aylantiradi: vodiylar, arxeologiya va togʻ madaniyatlari poytaxtdan chiqishdan oldin nom oladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Plane trees on Rudaki Avenue"
+          "ru": "Первая прогулка по проспекту Рудаки"
+          "uz": "Rudakiy shohko‘chasidagi birinchi yurish"
+        "description":
+          "en": "Parks, fountains, and wide pavements give Dushanbe a gentle first walk before the mountains begin to pull at the horizon."
+          "ru": "Парки, фонтаны и широкие тротуары дают Душанбе мягкое начало, пока горы только появляются на горизонте."
+          "uz": "Parklar, favvoralar va keng yo‘laklar tog‘lar hali ufqda ko‘rinayotgan paytda Dushanbega yumshoq boshlanish beradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "How to plan Dushanbe without rushing"
+      "ru": "Как спланировать Душанбе без спешки"
+      "uz": "Dushanbeni shoshilmasdan qanday rejalash"
+    "description":
+      "en": "Dushanbe earns its place when arrival stays gentle: a central walk, one museum, a living city stop, and then a clear choice toward Hissar, Varzob, or the longer roads."
+      "ru": "Душанбе занимает своё место, когда прибытие остаётся мягким: центральная прогулка, один музей, живая городская остановка и затем понятный выбор к Гиссару, Варзобу или дальним дорогам."
+      "uz": "Dushanbe kelish yumshoq qolganda oʻz oʻrnini topadi: markaziy sayr, bitta muzey, jonli shahar toʻxtashi va keyin Hisor, Varzob yoki uzoqroq yoʻllar tomon aniq tanlov."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Arrival first"
+              "ru": "Сначала прибытие"
+              "uz": "Avval kelish"
+            "description":
+              "en": "Start softly. A walk along Rudaki Avenue and an unhurried meal help the city feel welcoming after a flight or before a long transfer."
+              "ru": "Начните мягко. Прогулка по проспекту Рудаки и неспешная еда помогают войти в город после перелёта или перед длинным трансфером."
+              "uz": "Yumshoq boshlang. Rudakiy xiyobonidagi sayr va shoshilmagan ovqat parvozdan keyin yoki uzun transferdan oldin shaharga kirishni osonlashtiradi."
+          - "type": "quote"
+            "quote":
+              "en": "Dushanbe should feel like Tajikistan's first calm breath, not a city crossed off before the road begins."
+              "ru": "Душанбе должен ощущаться как первый спокойный вдох Таджикистана, а не как город, который нужно быстро вычеркнуть перед дорогой."
+              "uz": "Dushanbe yoʻl boshlanishidan oldin tez oʻtiladigan shahar emas, Tojikistonning birinchi sokin nafasi boʻlib sezilishi kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Museums with a purpose"
+              "ru": "Музеи с задачей"
+              "uz": "Maqsadli muzeylar"
+            "description":
+              "en": "The National Museum and the Museum of Antiquities give the route more than dates and objects. They help travelers connect state history, archaeology, mountains, and borderland stories before the road widens."
+              "ru": "Национальный музей и Музей древностей дают маршруту больше, чем даты и предметы. Они помогают связать государственную историю, археологию, горы и пограничные сюжеты перед тем, как дорога станет шире."
+              "uz": "Milliy muzey va Qadimiyat muzeyi yoʻnalishga sana va buyumlardan ko‘proq maʼno beradi. Ular davlat tarixi, arxeologiya, togʻlar va chegara hikoyalarini yoʻl kengayishidan oldin bogʻlab beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "The next road"
+              "ru": "Следующая дорога"
+              "uz": "Keyingi yoʻl"
+            "description":
+              "en": "Choose Hissar when the route needs fortress heritage close to the capital. Choose Varzob when cooler air and the first mountain-road feeling matter more."
+              "ru": "Выбирайте Гиссар, когда маршруту нужно наследие крепости рядом со столицей. Выбирайте Варзоб, когда важнее прохладный воздух и первое ощущение горной дороги."
+              "uz": "Poytaxt yaqinida qalʼa merosi kerak boʻlsa, Hisorni tanlang. Salqin havo va birinchi togʻ yoʻli tuygʻusi muhimroq boʻlsa, Varzobni tanlang."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Start with Rudaki Avenue and one museum, keep one living city stop, then choose whether the next move belongs to Hissar, Varzob, or a longer Tajikistan road."
+              "ru": "Начните с проспекта Рудаки и одного музея, добавьте живую городскую остановку, а затем решите, куда ведёт следующий шаг — к Гиссару, Варзобу или более дальней дороге по Таджикистану."
+              "uz": "Rudakiy xiyoboni va bitta muzeydan boshlang, jonli shahar toʻxtashini qoʻshing, keyin keyingi qadam Hisor, Varzob yoki uzoqroq Tojikiston yoʻliga tegishli ekanini tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Stay"
+                  "ru": "Коротко Ночёвка"
+                  "uz": "Qisqacha Qolish"
+                "description":
+                  "en": "Enough for a calm arrival, one city walk, one museum stop, and a nearby continuation if the route allows."
+                  "ru": "Хватит для спокойного прибытия, прогулки, одного музея и близкого продолжения, если маршрут это позволяет."
+                  "uz": "Sokin kelish, bitta sayr, bitta muzey va yoʻnalish imkon bersa yaqin davom uchun yetadi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Yoʻldagi roli"
+                "description":
+                  "en": "Best for airport arrival, cultural orientation, and preparation before mountain or cross-country roads."
+                  "ru": "Удобно для прилёта, культурной ориентации и подготовки перед горными или межрегиональными дорогами."
+                  "uz": "Aeroportdan kelish, madaniy moʻljal va togʻ yoki mamlakat boʻylab yoʻllarga tayyorgarlik uchun qulay."
+              - "icon": "Sun"
+                "title":
+                  "en": "Nearby road"
+                  "ru": "Ближняя дорога"
+                  "uz": "Yaqin yoʻl"
+                "description":
+                  "en": "Heritage and cooler valley air sit close enough to shape the first short extension from the capital."
+                  "ru": "Наследие и прохладный воздух долины находятся достаточно близко, чтобы стать первым выездом из столицы."
+                  "uz": "Meros va salqin vodiy havosi poytaxtdan birinchi qisqa chiqish sifatida yetarlicha yaqin."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and pace"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va surʼat"
+                "description":
+                  "en": "Summer heat makes shade and timing more important; higher roads need current local checks."
+                  "ru": "Летом важнее тень и время прогулок; высокие дороги требуют актуальной местной проверки."
+                  "uz": "Yozda soya va vaqt muhimroq; balandroq yoʻllar joriy mahalliy tekshiruvni talab qiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqin joylar"
+    "title":
+      "en": "Where the road can go after Dushanbe"
+      "ru": "Куда ведёт дорога после Душанбе"
+      "uz": "Dushanbedan keyin yoʻl qayerga boradi"
+    "description":
+      "en": "Close to the capital, Hissar carries fortress heritage and Varzob brings cooler valley air. When the journey widens, the road can turn west toward Penjikent or east and south toward the Pamirs."
+      "ru": "Рядом со столицей Гиссар хранит крепостное наследие, а Варзоб даёт прохладный воздух долины. Когда путешествие расширяется, дорога может уйти на запад к Пенджикенту или дальше к Памиру."
+      "uz": "Poytaxtga yaqin Hisor qalʼa merosini olib keladi, Varzob esa salqin vodiy havosini beradi. Safar kengaysa, yoʻl gʻarbga Penjikent tomonga yoki uzoqroq Pomir tomonga burilishi mumkin."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Hissar"
+          "ru": "Гиссар"
+          "uz": "Hisor"
+        "description":
+          "en": "Hissar turns a Dushanbe stay toward the valley: the fortress gate, Old Madrasa, museum rooms, and a simple town stop make a compact heritage outing."
+          "ru": "Гиссар выводит маршрут из Душанбе в долину: крепостные ворота, Старое медресе, музейные залы и короткая городская остановка складываются в спокойный исторический выезд."
+          "uz": "Hisor Dushanbe yo‘lini vodiyga olib chiqadi: qalʼa darvozasi, Eski madrasa, muzey xonalari va qisqa shahar to‘xtashi sokin tarixiy chiqishni beradi."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/hissar"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Varzob"
+          "ru": "Варзоб"
+          "uz": "Varzob"
+        "description":
+          "en": "Varzob is the close mountain-area outing from Dushanbe: river air, gorge scenery, one simple rest stop, and day-of weather decisions before higher roads."
+          "ru": "Варзоб — близкий горный выезд из Душанбе: речной воздух, ущелье, одна спокойная остановка и проверка погоды перед дорогами Таджикистана выше."
+          "uz": "Varzob Dushanbedan yaqin togʻ-hudud chiqishi: daryo havosi, dara manzarasi, bitta sokin toʻxtash va balandroq yoʻldan oldingi ob-havo tekshiruvi."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/varzob"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Penjikent"
+          "ru": "Пенджикент"
+          "uz": "Panjikent"
+        "description":
+          "en": "Penjikent anchors the western Fann Mountains route with Ancient Penjikent, UNESCO Sarazm, the Rudaki Museum, market life, and the first road choices toward Seven Lakes or Iskanderkul."
+          "ru": "Пенджикент открывает западную часть маршрута по Фанским горам: древний Пенджикент над городом, Саразм ЮНЕСКО, музей Рудаки, рынок и выбор дороги к Семи озёрам или Искандеркулю."
+          "uz": "Panjikent Fan togʻlari yo‘lining gʻarbiy qismini ochadi: shahar ustidagi qadimiy Panjikent, UNESCO Sarazm, Rudakiy muzeyi, bozor va Yetti ko‘l yoki Iskandarko‘l tomonga yo‘l tanlovi."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/penjikent"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Khorog"
+          "ru": "Хорог"
+          "uz": "Xorugʻ"
+        "description":
+          "en": "Khorog gives the Pamir route a riverside town stop: Botanical Garden paths, Panj and Gunt river air, GBAO checks, and onward choices toward Wakhan, Bartang, or Murghab."
+          "ru": "Хорог даёт памирскому маршруту городскую остановку у рек: дорожки Ботанического сада, воздух Пянджа и Гунта, проверки ГБАО и выбор дороги к Вахану, Бартангу или Мургабу."
+          "uz": "Xorugʻ Pomir yoʻliga daryo bo‘yidagi shahar toʻxtashini beradi: Botanika bogʻi yoʻlaklari, Panj va Gunt havosi, GBAO tekshiruvlari va Vaxon, Bartang yoki Murgʻob sari yoʻl tanlovi."
+        "ctaHref": "/destinations/tajikistan/pamir-and-gbao/khorog"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Dushanbe in the day plan"
+      "ru": "Как поставить Душанбе в план дня"
+      "uz": "Dushanbeni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Dushanbe?"
+          "ru": "Сколько времени группам стоит проводить в Душанбе?"
+          "uz": "Dushanbeda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Plane-tree shade before the mountain roads”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Тень платанов перед горными дорогами»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Togʻ yoʻllari oldidagi chinor soyasi»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Dushanbe be a walkable core or a base for day trips?"
+          "ru": "Душанбе — это пешеходное ядро или база для выездов?"
+          "uz": "Dushanbe piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Dushanbe's centre?"
+          "ru": "Где лучше ночевать относительно центра Душанбе?"
+          "uz": "Dushanbe markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Dushanbe stop into your Tajikistan programme"
+      "ru": "Встройте остановку «Душанбе» в программу (Таджикистан)"
+      "uz": "Dushanbe bekatini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Dushanbe | TourLink"
+    "ru": "Душанбе | TourLink"
+    "uz": "Dushanbe | TourLink"
+  "metaDescription":
+    "en": "Morning in Dushanbe begins under plane trees: fountains, wide avenues, museum facades, and mountain air from the valley edge. The capital lets travelers arrive gently before the route turns toward Hissar, Varzob, the Fann Mountains, or the Pamirs."
+    "ru": "Утро в Душанбе начинается под платанами: фонтаны, широкие проспекты, музейные фасады и горный воздух со стороны долины. Столица помогает мягко войти в страну перед дорогой к Гиссару, Варзобу, Фанским горам или Памиру."
+    "uz": "Dushanbeda tong chinorlar ostida boshlanadi: favvoralar, keng xiyobonlar, muzey fasadlari va vodiy tomondan keladigan togʻ havosi. Poytaxt Hisor, Varzob, Fan togʻlari yoki Pomir tomonga yoʻl olishdan oldin sayohatchini sokin kiritadi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "dushanbe-and-hissar-valley"
+"latitude": 38.5856814
+"longitude": 68.760331

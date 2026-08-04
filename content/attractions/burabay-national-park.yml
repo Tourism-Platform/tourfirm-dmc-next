@@ -1,0 +1,348 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "burabay-national-park"
+  "ru": "burabay-national-park"
+  "uz": "burabay-national-park"
+"title":
+  "en": "Burabay National Park"
+  "ru": "Национальный парк Бурабай"
+  "uz": "Burabay milliy bogʻi"
+"subtitle":
+  "en": "Pine shade, lake air, and granite hills north of Astana"
+  "ru": "Сосновая тень, озёрный воздух и гранитные холмы к северу от Астаны"
+  "uz": "Ostonadan shimoldagi qaragʻay soyasi, koʻl havosi va granit tepaliklar"
+"excerpt":
+  "en": "After the open road north from Astana, Burabay feels like a sudden change of air. Pines close around the lakes, granite forms lift over the water, and the stop starts to feel like its own nature stay rather than a quick add-on after the capital. Before you choose a lake edge, forest path, or viewpoint, current local checks for season, paths, access, and crowding still matter."
+  "ru": "После открытой дороги к северу от Астаны Бурабай ощущается как резкая смена воздуха. Сосны смыкаются вокруг озёр, гранитные формы поднимаются над водой, и остановка начинает восприниматься как отдельный природный выезд, а не короткое дополнение после столицы. Перед выбором берега, лесной тропы или смотровой всё равно нужны актуальные проверки сезона, троп, доступа и загруженности."
+  "uz": "Ostonadan shimolga ochiq yoʻldan keyin Burabay havosi birdan oʻzgaradi. Qaragʻaylar koʻllar atrofini oʻrab oladi, granit shakllar suv ustida koʻtariladi, va bu toʻxtash poytaxtdan keyingi tez qoʻshimcha emas, alohida tabiat safari kabi tuyula boshlaydi. Koʻl qirgʻogʻi, oʻrmon yoʻli yoki manzara nuqtasini tanlashdan oldin mavsum, yoʻllar, kirish va gavjumlik boʻyicha joriy mahalliy tekshiruvlar baribir muhim."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "Burabay National Park"
+      "ru": "Национальный парк Бурабай"
+      "uz": "Burabay milliy bogʻi"
+    "title":
+      "en": "Burabay National Park"
+      "ru": "Национальный парк Бурабай"
+      "uz": "Burabay milliy bogʻi"
+    "description":
+      "en": "Pine shade, lake air, and granite hills north of Astana"
+      "ru": "Сосновая тень, озёрный воздух и гранитные холмы к северу от Астаны"
+      "uz": "Ostonadan shimoldagi qaragʻay soyasi, koʻl havosi va granit tepaliklar"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Burabay National Park"
+      "ru": "Национальный парк Бурабай"
+      "uz": "Burabay milliy bogʻi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "After the open road north from Astana, Burabay feels like a sudden change of air."
+              "ru": "После открытой дороги к северу от Астаны Бурабай ощущается как резкая смена воздуха."
+              "uz": "Ostonadan shimolga ochiq yoʻldan keyin Burabay havosi birdan oʻzgaradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Burabay National Park is the main reason the Astana route turns north."
+              "ru": "Национальный парк Бурабай — главная причина, по которой маршрут из Астаны поворачивает на север."
+              "uz": "Burabay milliy bogʻi Ostona yoʻnalishining shimolga burilishidagi asosiy sababdir."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Pine shade, lake air, and granite hills north of Astana."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Сосновая тень, озёрный воздух и гранитные холмы к северу от Астаны."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Ostonadan shimoldagi qaragʻay soyasi, koʻl havosi va granit tepaliklar."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Burabay National Park as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Национальный парк Бурабай как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Burabay milliy bogʻi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Burabay National Park sits on the route"
+      "ru": "Где Национальный парк Бурабай стоит на маршруте"
+      "uz": "Burabay milliy bogʻi marshrutda qayerda"
+    "description":
+      "en": "One clear point for Burabay National Park — Pine shade, lake air, and granite hills north of Astana."
+      "ru": "Одна понятная точка для «Национальный парк Бурабай» — Сосновая тень, озёрный воздух и гранитные холмы к северу от Астаны."
+      "uz": "Burabay milliy bogʻi uchun bitta aniq nuqta — Ostonadan shimoldagi qaragʻay soyasi, koʻl havosi va granit tepaliklar."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Burabay National Park"
+        "ru": "Национальный парк Бурабай"
+        "uz": "Burabay milliy bogʻi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 53.002527
+      "longitude": 70.4319305
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "burabay-national-park"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Where the steppe route reaches forest and water"
+      "ru": "Где степной маршрут приходит к лесу и воде"
+      "uz": "Dasht yoʻli oʻrmon va suvga yetadigan joy"
+    "description":
+      "en": "Burabay National Park is the main reason the Astana route turns north. The protected landscape gathers pine forest, lake shores, rock silhouettes, and resort access into a nature stay that feels distinct from the capital and the open Akmola steppe.
+
+
+        «Burabay is strongest when the route slows down: pine shade, lake wind, and one or two viewpoints chosen with care.»"
+      "ru": "Национальный парк Бурабай — главная причина, по которой маршрут из Астаны поворачивает на север. Охраняемый ландшафт собирает сосновый лес, берега озёр, скальные силуэты и курортный доступ в природную остановку, которая отличается и от столицы, и от открытой Акмолинской степи.
+
+
+        «Бурабай сильнее всего, когда маршрут замедляется: сосновая тень, озёрный ветер и одна-две смотровые, выбранные с вниманием.»"
+      "uz": "Burabay milliy bogʻi Ostona yoʻnalishining shimolga burilishidagi asosiy sababdir. Qoʻriqlanadigan manzara qaragʻayzor, koʻl qirgʻoqlari, qoya siluetlari va kurort kirishini poytaxt hamda ochiq Aqmola dashtidan farq qiladigan tabiat toʻxtashiga jamlaydi.
+
+
+        «Burabay yoʻnalish sekinlashganda kuchliroq ochiladi: qaragʻay soyasi, koʻl shamoli va eʼtibor bilan tanlangan bir-ikki manzara nuqtasi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "Pines, lake air, and rock silhouettes"
+      "ru": "Сосны, озёрный воздух и скальные силуэты"
+      "uz": "Qaragʻaylar, koʻl havosi va qoya siluetlari"
+    "description":
+      "en": "Burabay reveals itself through a few simple elements: forest shade after the steppe, lake edges that open the view, and rock forms that give the park its recognizable shape."
+      "ru": "Бурабай раскрывается через несколько простых элементов: лесную тень после степи, берега озёр, которые открывают вид, и скальные формы, по которым узнаётся парк."
+      "uz": "Burabay bir necha oddiy element orqali ochiladi: dashtdan keyingi oʻrmon soyasi, manzarani ochadigan koʻl qirgʻoqlari va parkni tanitadigan qoya shakllari."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday koʻrish"
+    "title":
+      "en": "Treat the park as protected terrain, not a resort backdrop"
+      "ru": "Относитесь к парку как к охраняемой территории, а не к фону курорта"
+      "uz": "Parkni kurort foni emas, qoʻriqlanadigan hudud sifatida koʻring"
+    "description":
+      "en": "Burabay is easy to underestimate because it sits beside a resort settlement. A better visit starts with the park's current rules, the season, path condition, crowding, and how much walking feels right for you."
+      "ru": "Бурабай легко недооценить, потому что рядом есть курортный посёлок. Сильный визит начинается с правил парка, сезона, состояния троп, загруженности и того, сколько прогулки подходит именно вам."
+      "uz": "Burabayni yaqinidagi kurort shaharchasi sababli oson koʻrinadigan joy deb oʻylash mumkin. Kuchli tashrif park qoidalari, mavsum, piyoda yoʻllar holati, gavjumlik va sizga mos yurish miqdoridan boshlanadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nimalarni qoʻshish"
+    "title":
+      "en": "Pair the park with the lake and the first rock landmark"
+      "ru": "Соедините парк с озером и первой скальной точкой"
+      "uz": "Parkni koʻl va birinchi qoya belgisi bilan bogʻlang"
+    "description":
+      "en": "Lake Burabay and Zhumbaktas are the first nearby anchors for an easy Burabay sequence. Add Okzhetpes, Bolektau, or wider forest routes only when current access, season, walking comfort, and crowding make the combination sensible."
+      "ru": "Озеро Бурабай и Жумбактас — первые соседние опоры для понятной последовательности в Бурабае. Окжетпес, Бөлектау или более длинные лесные маршруты добавляйте только тогда, когда текущий доступ, сезон, комфорт прогулки и загруженность позволяют сделать это спокойно."
+      "uz": "Burabay koʻli va Jumbaqtas Burabaydagi oson ketma-ketlik uchun birinchi ikki qoʻshni tayanchdir. Oqjetpes, Bölektaū yoki kengroq oʻrmon yoʻllarini faqat joriy kirish, mavsum, yurish qulayligi va gavjumlik bunga imkon berganda qoʻshing."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Okzhetpes Rock"
+          "ru": "Окжетпес"
+          "uz": "Oqjetpes qoyasi"
+        "description":
+          "en": "Okzhetpes Rock gives Burabay its active high point: a granite profile above Lake Borovoe, pine slopes below, and a climb that only belongs when conditions are checked locally."
+          "ru": "Окжетпес даёт Бурабаю активную высоту: гранитный профиль над озером Боровое, сосновые склоны внизу и подъём, который уместен только после актуальной проверки условий."
+          "uz": "Oqjetpes qoyasi Burabayga faol balandlik beradi: Borovoe ko‘li ustidagi granit shakl, pastdagi qarag‘ayli yonbag‘irlar va faqat sharoit joyida tekshirilganda mos keladigan ko‘tarilish."
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/burabay/okzhetpes-rock"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Zhumbaktas Rock"
+          "ru": "Жумбактас"
+          "uz": "Jumbaqtas qoyasi"
+        "description":
+          "en": "Zhumbaktas Rock rises from Lake Burabay as a recognizable water landmark of the resort area: granite in the lake, pine shores around it, and a view that rewards the right shore and unhurried timing."
+          "ru": "Жумбактас поднимается из озера Бурабай как узнаваемый ориентир курортной зоны: гранит в воде, сосновые берега и вид, которому нужны правильная точка и неторопливое время."
+          "uz": "Jumbaqtas qoyasi Burabay koʻlidan kurort hududining taniladigan suv moʻljali sifatida koʻtariladi: suv ichidagi granit, qaragʻayli qirgʻoqlar va shoshilmasdan, toʻgʻri nuqtadan koʻriladigan manzara."
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/burabay/zhumbaktas-rock"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Lake Burabay (Borovoe)"
+          "ru": "Озеро Бурабай (Боровое)"
+          "uz": "Burabay koʻli (Borovoe)"
+        "description":
+          "en": "Lake Burabay, also known as Borovoe, gives the resort area its central view: pine-fringed water, granite forms, and the first line toward Zhumbaktas."
+          "ru": "Озеро Бурабай, также известное как Боровое, даёт курортной зоне её главный вид: вода среди сосен, гранитные формы и первая линия к Жумбактасу."
+          "uz": "Burabay koʻli, Borovoe nomi bilan ham tanilgan, kurort hududining asosiy manzarasini beradi: qaragʻaylar orasidagi suv, granit qoyalar va Jumbaqtas tomonga birinchi yoʻnalish."
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/burabay/lake-borovoe-burabay-lake"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Burabay National Park"
+      "ru": "Что агентства спрашивают про Национальный парк Бурабай"
+      "uz": "Agentliklar Burabay milliy bogʻi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Burabay National Park get in the day plan?"
+          "ru": "Сколько времени закладывать на Национальный парк Бурабай в плане дня?"
+          "uz": "Burabay milliy bogʻi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "a focused half-day with buffer is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Pine shade, lake air, and granite hills north of Astana”."
+          "ru": "Для большинства групп реалистичный диапазон — полдня с запасом. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Сосновая тень, озёрный воздух и гранитные холмы к северу от Астаны»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — zaxira bilan yarim kun. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Ostonadan shimoldagi qaragʻay soyasi, koʻl havosi va granit tepaliklar»."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "When is Burabay National Park strongest during the day?"
+          "ru": "В какое время дня Национальный парк Бурабай раскрывается сильнее?"
+          "uz": "Burabay milliy bogʻi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer early morning or late afternoon. That usually improves comfort, photos, and how the stop feels in the sequence around burabay."
+          "ru": "Лучше рано утром или ближе к вечеру. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с burabay."
+          "uz": "erta tong yoki kechga yaqin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (burabay atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "How should Burabay National Park sit next to nearby stops?"
+          "ru": "Как поставить Национальный парк Бурабай рядом с соседними остановками?"
+          "uz": "Burabay milliy bogʻini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Burabay National Park to your Kazakhstan programme"
+      "ru": "Добавьте «Национальный парк Бурабай» в программу (Казахстан)"
+      "uz": "Burabay milliy bogʻini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Burabay National Park | TourLink"
+    "ru": "Национальный парк Бурабай | TourLink"
+    "uz": "Burabay milliy bogʻi | TourLink"
+  "metaDescription":
+    "en": "After the open road north from Astana, Burabay feels like a sudden change of air. Pines close around the lakes, granite forms lift over the water, and the stop starts to feel like its own nature stay rather than a quick add-on after the capital. Before you choose a lake edge, forest path, or viewpoint, current local checks for season, paths, access, and crowding still matter."
+    "ru": "После открытой дороги к северу от Астаны Бурабай ощущается как резкая смена воздуха. Сосны смыкаются вокруг озёр, гранитные формы поднимаются над водой, и остановка начинает восприниматься как отдельный природный выезд, а не короткое дополнение после столицы. Перед выбором берега, лесной тропы или смотровой всё равно нужны актуальные проверки сезона, троп, доступа и загруженности."
+    "uz": "Ostonadan shimolga ochiq yoʻldan keyin Burabay havosi birdan oʻzgaradi. Qaragʻaylar koʻllar atrofini oʻrab oladi, granit shakllar suv ustida koʻtariladi, va bu toʻxtash poytaxtdan keyingi tez qoʻshimcha emas, alohida tabiat safari kabi tuyula boshlaydi. Koʻl qirgʻogʻi, oʻrmon yoʻli yoki manzara nuqtasini tanlashdan oldin mavsum, yoʻllar, kirish va gavjumlik boʻyicha joriy mahalliy tekshiruvlar baribir muhim."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "astana-and-akmola-steppe"
+"city": "burabay"
+"type": "FORTRESS"
+"importance": "RECOMMENDED"
+"latitude": 53.002527
+"longitude": 70.4319305

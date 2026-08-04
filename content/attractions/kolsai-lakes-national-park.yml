@@ -1,0 +1,310 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "kolsai-lakes-national-park"
+  "ru": "kolsai-lakes-national-park"
+  "uz": "kolsai-lakes-national-park"
+"title":
+  "en": "Kolsai Lakes National Park"
+  "ru": "Национальный парк «Кольсайские озёра»"
+  "uz": "Kolsai ko‘llari milliy bog‘i"
+"subtitle":
+  "en": "Mountain lakes after the Saty night"
+  "ru": "Горные озёра после ночи в Саты"
+  "uz": "Saty tunidan keyingi tog‘ ko‘llari"
+"excerpt":
+  "en": "Kolsai begins before the shore appears. After the road from Almaty, Saty gives the route a quiet overnight; the next morning, forest, water, and park rules set a slower mountain pace."
+  "ru": "Кольсай начинается до того, как появляется берег. После дороги из Алматы Саты даёт маршруту спокойную ночь; наутро лес, вода и правила парка задают более медленный горный темп."
+  "uz": "Kolsai qirg‘oq ko‘rinishidan oldin boshlanadi. Almatydan kelgan yo‘ldan so‘ng Saty yo‘nalishga sokin tun beradi; ertalab esa o‘rmon, suv va park qoidalari tog‘dagi sekinroq tempni belgilaydi."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "Kolsai Lakes National Park"
+      "ru": "Национальный парк «Кольсайские озёра»"
+      "uz": "Kolsai ko‘llari milliy bog‘i"
+    "title":
+      "en": "Kolsai Lakes National Park"
+      "ru": "Национальный парк «Кольсайские озёра»"
+      "uz": "Kolsai ko‘llari milliy bog‘i"
+    "description":
+      "en": "Mountain lakes after the Saty night"
+      "ru": "Горные озёра после ночи в Саты"
+      "uz": "Saty tunidan keyingi tog‘ ko‘llari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Kolsai Lakes National Park"
+      "ru": "Национальный парк «Кольсайские озёра»"
+      "uz": "Kolsai ko‘llari milliy bog‘i"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Kolsai begins before the shore appears."
+              "ru": "Кольсай начинается до того, как появляется берег."
+              "uz": "Kolsai qirg‘oq ko‘rinishidan oldin boshlanadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "The park changes the Almaty nature route from a long transfer into a real mountain-lake stay."
+              "ru": "Парк превращает природный маршрут из Алматы из длинного переезда в настоящий горно-озёрный выезд."
+              "uz": "Park Almaty tabiat yo‘lini uzun transferdan haqiqiy tog‘-ko‘l tashrifiga aylantiradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Mountain lakes after the Saty night."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Горные озёра после ночи в Саты."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Saty tunidan keyingi tog‘ ko‘llari."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Kolsai Lakes National Park as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Национальный парк «Кольсайские озёра» как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Kolsai ko‘llari milliy bog‘i o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Kolsai Lakes National Park sits on the route"
+      "ru": "Где Национальный парк «Кольсайские озёра» стоит на маршруте"
+      "uz": "Kolsai ko‘llari milliy bog‘i marshrutda qayerda"
+    "description":
+      "en": "One clear point for Kolsai Lakes National Park — Mountain lakes after the Saty night."
+      "ru": "Одна понятная точка для «Национальный парк «Кольсайские озёра»» — Горные озёра после ночи в Саты."
+      "uz": "Kolsai ko‘llari milliy bog‘i uchun bitta aniq nuqta — Saty tunidan keyingi tog‘ ko‘llari."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Kolsai Lakes National Park"
+        "ru": "Национальный парк «Кольсайские озёра»"
+        "uz": "Kolsai ko‘llari milliy bog‘i"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 42.964474
+      "longitude": 77.9684692
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "kolsai-lakes-national-park"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Where the lake route slows down"
+      "ru": "Где маршрут к озёрам замедляется"
+      "uz": "Ko‘llar yo‘nalishi sekinlashadigan joy"
+    "description":
+      "en": "The park changes the Almaty nature route from a long transfer into a real mountain-lake stay. The first Kolsai lake brings the main reward into view: dark water, spruce slopes, cooler air, and choices that depend on the day's conditions.
+
+
+        «Kolsai is most rewarding when the route gives the lake time to set the pace, not only time to reach the shore.»"
+      "ru": "Парк превращает природный маршрут из Алматы из длинного переезда в настоящий горно-озёрный выезд. Первое озеро сразу показывает главный смысл: тёмная вода, еловые склоны, прохладный воздух и решения, которые зависят от условий в конкретный день.
+
+
+        «Кольсай лучше раскрывается, когда у маршрута есть время, чтобы озеро задало темп, а не только чтобы доехать до берега.»"
+      "uz": "Park Almaty tabiat yo‘lini uzun transferdan haqiqiy tog‘-ko‘l tashrifiga aylantiradi. Birinchi Kolsai ko‘li asosiy mazmunni darhol ko‘rsatadi: qoramtir suv, archa yonbag‘irlari, salqin havo va ayni kundagi sharoitga bog‘liq qarorlar.
+
+
+        «Kolsai qirg‘oqqa shunchaki yetib borishdan ko‘ra, ko‘l tempini shoshirmaydigan yo‘nalishda kuchliroq ochiladi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Water, spruce slopes, and protected high country"
+      "ru": "Вода, еловые склоны и высокогорный ландшафт"
+      "uz": "Suv, archa yonbag‘irlari va baland tog‘ manzarasi"
+    "description":
+      "en": "Kolsai is best understood through what the traveler actually meets there: lake water, forested slopes, mountain weather, and the discipline of a protected landscape."
+      "ru": "Кольсай лучше понимать через то, что путешественник встречает на месте: воду озера, лесные склоны, горную погоду и порядок охраняемой территории."
+      "uz": "Kolsaini sayohatchi joyida uchratadigan narsalar orqali tushunish osonroq: ko‘l suvi, o‘rmonli yonbag‘irlar, tog‘ ob-havosi va muhofaza hududi tartibi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Plan the lakes around current conditions"
+      "ru": "Планируйте озёра по текущим условиям"
+      "uz": "Ko‘llarni joriy sharoitga qarab rejalang"
+    "description":
+      "en": "Treat Kolsai as a protected mountain visit, not a fixed photo stop. The strongest plan stays flexible around road, weather, access, and the amount of walking that feels right on the day."
+      "ru": "Относитесь к Кольсаю как к горному визиту в охраняемой зоне, а не как к фиксированной фототочке. Сильный маршрут сохраняет гибкость для дороги, погоды, доступа и той прогулки, которая будет уместна именно в этот день."
+      "uz": "Kolsaini oddiy surat nuqtasi emas, muhofaza hududidagi tog‘ tashrifi sifatida qabul qiling. Kuchli yo‘nalish yo‘l, ob-havo, kirish va aynan shu kuni qancha piyoda yurish mos kelishini hisobga oladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nimani qo‘shish mumkin"
+    "title":
+      "en": "Pair Kolsai with the right mountain stops"
+      "ru": "Сочетайте Кольсай с правильными горными остановками"
+      "uz": "Kolsaini to‘g‘ri tog‘ to‘xtashlari bilan juftlang"
+    "description":
+      "en": "Lake Kaindy is the natural companion once road and transfer checks are clear. Other canyon or road stops should stay separate until their own route, access, and owner review is complete."
+      "ru": "Озеро Каинды — естественное продолжение, когда дорога и трансфер проверены. Другие каньоны и дорожные остановки должны оставаться отдельным вопросом, пока их маршрут, доступ и владелец страницы не пройдут свой review."
+      "uz": "Yo‘l va transfer tekshiruvlari aniq bo‘lsa, Kaindy ko‘li tabiiy davom bo‘ladi. Boshqa kanyon yoki yo‘l to‘xtashlari esa o‘z marshruti, kirish sharoiti va sahifa egasi alohida ko‘rib chiqilgandan keyin qolishi kerak."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Lake Kaindy"
+          "ru": "Озеро Каинды"
+          "uz": "Qayindy ko‘li"
+        "description":
+          "en": "Lake Kaindy is Saty's most unusual lake stop: cold water, upright spruce trunks, and a mountain approach that needs weather, road, and local-transfer checks."
+          "ru": "Озеро Каинды — самый необычный озёрный выезд из Саты: холодная вода, стоящие ели и горный подъезд, где нужно проверить погоду, дорогу и местный трансфер."
+          "uz": "Qayindy ko‘li Satydan boriladigan eng noodatiy ko‘l manzaralaridan biri: sovuq suv, tik archa tanalari va ob-havo, yo‘l hamda mahalliy transferni tekshirish talab qiladigan tog‘ yo‘li."
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/saty/lake-kaindy"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Kolsai Lakes National Park"
+      "ru": "Что агентства спрашивают про Национальный парк «Кольсайские озёра»"
+      "uz": "Agentliklar Kolsai ko‘llari milliy bog‘i haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Kolsai Lakes National Park get in the day plan?"
+          "ru": "Сколько времени закладывать на Национальный парк «Кольсайские озёра» в плане дня?"
+          "uz": "Kolsai ko‘llari milliy bog‘i uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "1–2 hours is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Mountain lakes after the Saty night”."
+          "ru": "Для большинства групп реалистичный диапазон — 1–2 часа. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Горные озёра после ночи в Саты»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 1–2 soat. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Saty tunidan keyingi tog‘ ko‘llari»."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "When is Kolsai Lakes National Park strongest during the day?"
+          "ru": "В какое время дня Национальный парк «Кольсайские озёра» раскрывается сильнее?"
+          "uz": "Kolsai ko‘llari milliy bog‘i kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer when the light is soft and queues are lighter. That usually improves comfort, photos, and how the stop feels in the sequence around saty."
+          "ru": "Лучше когда свет мягче и очередей меньше. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с saty."
+          "uz": "yorug‘lik yumshoq va navbat kamroq bo‘lganda afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (saty atrofida)."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "How should Kolsai Lakes National Park sit next to nearby stops?"
+          "ru": "Как поставить Национальный парк «Кольсайские озёра» рядом с соседними остановками?"
+          "uz": "Kolsai ko‘llari milliy bog‘ini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Kolsai Lakes National Park to your Kazakhstan programme"
+      "ru": "Добавьте «Национальный парк «Кольсайские озёра»» в программу (Казахстан)"
+      "uz": "Kolsai ko‘llari milliy bog‘ini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Kolsai Lakes National Park | TourLink"
+    "ru": "Национальный парк «Кольсайские озёра» | TourLink"
+    "uz": "Kolsai ko‘llari milliy bog‘i | TourLink"
+  "metaDescription":
+    "en": "Kolsai begins before the shore appears. After the road from Almaty, Saty gives the route a quiet overnight; the next morning, forest, water, and park rules set a slower mountain pace."
+    "ru": "Кольсай начинается до того, как появляется берег. После дороги из Алматы Саты даёт маршруту спокойную ночь; наутро лес, вода и правила парка задают более медленный горный темп."
+    "uz": "Kolsai qirg‘oq ko‘rinishidan oldin boshlanadi. Almatydan kelgan yo‘ldan so‘ng Saty yo‘nalishga sokin tun beradi; ertalab esa o‘rmon, suv va park qoidalari tog‘dagi sekinroq tempni belgilaydi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "almaty-and-northern-tian-shan"
+"city": "saty"
+"type": "FORTRESS"
+"importance": "RECOMMENDED"
+"latitude": 42.964474
+"longitude": 77.9684692

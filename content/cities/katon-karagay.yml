@@ -1,0 +1,472 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "katon-karagay"
+  "ru": "katon-karagay"
+  "uz": "katon-karagay"
+"title":
+  "en": "Katon-Karagay"
+  "ru": "Катон-Карагай"
+  "uz": "Katon-Qaragʻay"
+"subtitle":
+  "en": "Forest roads into the Kazakh Altai"
+  "ru": "Лесные дороги в Казахский Алтай"
+  "uz": "Qozogʻiston Altayiga kiradigan oʻrmon yoʻllari"
+"excerpt":
+  "en": "Katon-Karagay changes the scale of the eastern journey. After Oskemen and the Irtysh, the road moves toward dark forest, river valleys, pale mountain light, and protected Altai landscapes where weather can reshape the sequence. Come for distance, quiet, and enough time to let the mountains enter the plan."
+  "ru": "Катон-Карагай меняет масштаб восточного путешествия. После Усть-Каменогорска и Иртыша дорога уходит к тёмному лесу, речным долинам, светлым горным склонам и охраняемым алтайским ландшафтам, где погода может изменить порядок остановок. Сюда едут за расстоянием, тишиной и временем для гор."
+  "uz": "Katon-Qaragʻay sharqiy safarning miqyosini oʻzgartiradi. Oʻskemen va Irtish ortda qolgach, yoʻl qoramtir oʻrmon, daryo vodiylari, och togʻ nuri va qoʻriqlanadigan Altay manzaralari tomon buriladi; bu yerda ob-havo toʻxtashlar ketma-ketligini oʻzgartirishi mumkin. Bu yerga masofa, sokinlik va togʻlarni his qilish uchun vaqt bilan keling."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "Katon-Karagay"
+      "ru": "Катон-Карагай"
+      "uz": "Katon-Qaragʻay"
+    "title":
+      "en": "Katon-Karagay"
+      "ru": "Катон-Карагай"
+      "uz": "Katon-Qaragʻay"
+    "description":
+      "en": "Forest roads into the Kazakh Altai"
+      "ru": "Лесные дороги в Казахский Алтай"
+      "uz": "Qozogʻiston Altayiga kiradigan oʻrmon yoʻllari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Katon-Karagay"
+      "ru": "Катон-Карагай"
+      "uz": "Katon-Qaragʻay"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Katon-Karagay changes the scale of the eastern journey."
+              "ru": "Катон-Карагай меняет масштаб восточного путешествия."
+              "uz": "Katon-Qaragʻay sharqiy safarning miqyosini oʻzgartiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Read Katon-Karagay in three parts: the approach from Oskemen, the national-park landscape, and any separate continuation toward Berel, Rakhman Springs, Markakol, or Bukhtarma."
+              "ru": "Катон-Карагай понятнее в трёх частях: подъезд из Усть-Каменогорска, ландшафт национального парка и отдельное продолжение к Берели, Рахмановским ключам, Маркаколю или Бухтарме."
+              "uz": "Katon-Qaragʻay uch qismda aniqroq tushuniladi: Oʻskemendan kirish, milliy bogʻ manzarasi va Berel, Raxman buloqlari, Markakoʻl yoki Buxtarma tomon alohida davom."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The Altai is stronger when the journey chooses a focus. Forest roads, river valleys, archaeological context, springs, lakes, and borderland weather can all affect timing, so one clear direction usually serves travelers better than a hard drive through every name."
+              "ru": "Алтай раскрывается сильнее, когда у путешествия есть фокус. Лесные дороги, речные долины, археологический контекст, источники, озёра и погода у границы могут менять время в пути, поэтому одно ясное направление обычно лучше тяжёлого переезда через все названия."
+              "uz": "Altay safarda aniq maqsad bo‘lganda kuchliroq ochiladi. Oʻrmon yoʻllari, daryo vodiylari, arxeologik kontekst, buloqlar, koʻllar va chegara yaqinidagi ob-havo vaqtni oʻzgartirishi mumkin, shuning uchun bitta ravshan yoʻnalish hamma nomlarni ogʻir yoʻlga tiqishdan yaxshiroq."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Katon-Karagay as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Катон-Карагай как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Katon-Qaragʻay o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "Give the Altai road space"
+      "ru": "Оставьте дороге в Алтай достаточно времени"
+      "uz": "Altay yoʻliga yetarli vaqt bering"
+    "description":
+      "en": "Read Katon-Karagay in three parts: the approach from Oskemen, the national-park landscape, and any separate continuation toward Berel, Rakhman Springs, Markakol, or Bukhtarma."
+      "ru": "Катон-Карагай понятнее в трёх частях: подъезд из Усть-Каменогорска, ландшафт национального парка и отдельное продолжение к Берели, Рахмановским ключам, Маркаколю или Бухтарме."
+      "uz": "Katon-Qaragʻay uch qismda aniqroq tushuniladi: Oʻskemendan kirish, milliy bogʻ manzarasi va Berel, Raxman buloqlari, Markakoʻl yoki Buxtarma tomon alohida davom."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Yoʻnalish xaritasi"
+      "title":
+        "en": "Oskemen approach and protected Altai landscape"
+        "ru": "Подъезд из Усть-Каменогорска и охраняемый Алтай"
+        "uz": "Oʻskemendan kirish va qoʻriqlanadigan Altay"
+      "description":
+        "en": "Use the map as orientation, not as a fixed driving line: Oskemen anchors arrival, Katon-Karagay marks the broad protected Altai area, and Ridder sits on a separate northern branch."
+        "ru": "Карта нужна для ориентира, а не как готовая автомобильная линия: Усть-Каменогорск держит прибытие, Катон-Карагай отмечает широкий охраняемый алтайский район, а Риддер остаётся отдельной северной веткой."
+        "uz": "Xarita tayyor haydash chizigʻi emas, orientir sifatida kerak: Oʻskemen kelishni ushlab turadi, Katon-Qaragʻay keng qoʻriqlanadigan Altay hududini bildiradi, Ridder esa alohida shimoliy tarmoq bo‘lib qoladi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 49.754937
+      "longitude": 84.874398
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "katon-karagay-national-park"
+    "aside":
+      "eyebrow":
+        "en": "First decision"
+        "ru": "Первое решение"
+        "uz": "Birinchi qaror"
+      "title":
+        "en": "Choose one mountain direction"
+        "ru": "Выберите одно горное направление"
+        "uz": "Bitta togʻ yoʻnalishini tanlang"
+      "description":
+        "en": "The Altai is stronger when the journey chooses a focus. Forest roads, river valleys, archaeological context, springs, lakes, and borderland weather can all affect timing, so one clear direction usually serves travelers better than a hard drive through every name."
+        "ru": "Алтай раскрывается сильнее, когда у путешествия есть фокус. Лесные дороги, речные долины, археологический контекст, источники, озёра и погода у границы могут менять время в пути, поэтому одно ясное направление обычно лучше тяжёлого переезда через все названия."
+        "uz": "Altay safarda aniq maqsad bo‘lganda kuchliroq ochiladi. Oʻrmon yoʻllari, daryo vodiylari, arxeologik kontekst, buloqlar, koʻllar va chegara yaqinidagi ob-havo vaqtni oʻzgartirishi mumkin, shuning uchun bitta ravshan yoʻnalish hamma nomlarni ogʻir yoʻlga tiqishdan yaxshiroq."
+      "items":
+        - "title":
+            "en": "Arrive through Oskemen"
+            "ru": "Приехать через Усть-Каменогорск"
+            "uz": "Oʻskemen orqali kelish"
+          "description":
+            "en": "Oskemen is the practical arrival city before the road turns toward Katon-Karagay and the Altai."
+            "ru": "Усть-Каменогорск удобен для прибытия перед дорогой к Катон-Карагаю и Алтаю."
+            "uz": "Oʻskemen Katon-Qaragʻay va Altay tomonga buriladigan yoʻldan oldingi amaliy kelish nuqtasidir."
+        - "title":
+            "en": "Follow the forest road"
+            "ru": "Войти в лесную дорогу"
+            "uz": "Oʻrmon yoʻliga kirish"
+          "description":
+            "en": "Forest roads, village edges, and river valleys make the approach part of the mountain experience."
+            "ru": "Лесные дороги, края сёл и речные долины делают подъезд частью горного впечатления."
+            "uz": "Oʻrmon yoʻllari, qishloq chetlari va daryo vodiylari kirishni togʻ taassurotining bir qismiga aylantiradi."
+        - "title":
+            "en": "Give the park time"
+            "ru": "Дать парку время"
+            "uz": "Milliy bogʻga vaqt berish"
+          "description":
+            "en": "The national-park landscape needs enough time for weather, roads, and local access advice."
+            "ru": "Ландшафт национального парка требует времени на погоду, дороги и местный совет по доступу."
+            "uz": "Milliy bogʻ manzarasi ob-havo, yoʻllar va mahalliy kirish maslahati uchun yetarli vaqt talab qiladi."
+        - "title":
+            "en": "Save one extension for later."
+            "ru": "Оставить одно продолжение на потом."
+            "uz": "Bitta davomni keyinga qoldirish."
+          "description":
+            "en": "Berel, Rakhman Springs, Markakol, or Bukhtarma are better saved as one confirmed continuation."
+            "ru": "Берель, Рахмановские ключи, Маркаколь или Бухтарму лучше оставлять как одно подтверждённое продолжение."
+            "uz": "Berel, Raxman buloqlari, Markakoʻl yoki Buxtarmani bitta tasdiqlangan davom sifatida qoldirish maʼqul."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrish"
+    "title":
+      "en": "Start with the national park"
+      "ru": "Начните с национального парка"
+      "uz": "Milliy bogʻdan boshlang"
+    "description":
+      "en": "Katon-Karagay has several possible continuations, but the first place to understand is the national park itself: protected Altai forest, mountain valleys, and access that changes with season and local advice."
+      "ru": "У Катон-Карагая есть несколько возможных продолжений, но сначала стоит понять сам национальный парк: охраняемый алтайский лес, горные долины и доступ, который меняется по сезону и местным советам."
+      "uz": "Katon-Qaragʻayda bir nechta davomlar bor, lekin avval milliy bogʻning oʻzini tushunish kerak: qoʻriqlanadigan Altay oʻrmoni, togʻ vodiylari va mavsum hamda mahalliy maslahatga qarab oʻzgaradigan kirish."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Katon-Karagay National Park"
+          "ru": "Катон-Карагайский национальный парк"
+          "uz": "Katon-Qaragʻay milliy bogʻi"
+        "description":
+          "en": "The park changes the scale of East Kazakhstan. After Oskemen and the Irtysh cities, the route moves toward forest, river valleys, mountain weather, and a protected landscape where distance is part of the experience. Treat Katon-Karagay as the Altai reason to slow down, not as one"
+          "ru": "Парк меняет масштаб Восточного Казахстана. После Усть-Каменогорска и городов на Иртыше маршрут уходит к лесу, речным долинам, горной погоде и охраняемому ландшафту, где расстояние становится частью впечатления. Катон-Карагай стоит воспринимать как алтайскую причину замедлиться, а"
+          "uz": "Bogʻ Sharqiy Qozogʻiston miqyosini oʻzgartiradi. Oʻskemen va Irtish shaharlari ortda qolgach, yoʻnalish oʻrmon, daryo vodiylari, togʻ ob-havosi va qoʻriqlanadigan manzaraga kiradi; bu yerda masofaning oʻzi taassurotning bir qismidir. Katon-Qaragʻayni shahardan keyingi yana bir to"
+        "ctaHref": "/destinations/kazakhstan/east-kazakhstan-and-altai/katon-karagay/katon-karagay-national-park"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Katon-Karagay moments"
+      "ru": "Моменты Катон-Карагая"
+      "uz": "Katon-Qaragʻay lahzalari"
+    "title":
+      "en": "Road, forest, and village quiet"
+      "ru": "Дорога, лес и сельская тишина"
+      "uz": "Yoʻl, oʻrmon va qishloq sokinligi"
+    "description":
+      "en": "The strongest moments here ask the traveler to accept distance. The road in, the forest and river pace, and a quiet village stop make the Altai feel inhabited as well as scenic."
+      "ru": "Самые сильные моменты здесь помогают принять расстояние. Дорога внутрь, лесной и речной темп, тихая сельская остановка делают Алтай не только красивым, но и обжитым."
+      "uz": "Bu yerdagi eng kuchli lahzalar masofani qabul qilishga yordam beradi. Ichkariga kiradigan yoʻl, oʻrmon va daryo tempi, sokin qishloq toʻxtashi Altayni faqat manzara emas, yashaydigan joy sifatida ham his qildiradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Altai road arrival"
+          "ru": "Дорога в Алтай"
+          "uz": "Altay yoʻliga kirish"
+        "description":
+          "en": "The drive from Oskemen is not empty time; river bends, villages, and forest edges begin changing the pace before the protected landscape fills the view."
+          "ru": "Путь из Усть-Каменогорска не пустое время: изгибы рек, сёла и кромки леса меняют темп ещё до охраняемого ландшафта."
+          "uz": "Oʻskemendan keladigan yoʻl boʻsh vaqt emas; daryo burilishlari, qishloqlar va oʻrmon chetlari qoʻriqlanadigan manzara oldidan tempni oʻzgartira boshlaydi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Forest and river pace"
+          "ru": "Лесной и речной темп"
+          "uz": "Oʻrmon va daryo tempi"
+        "description":
+          "en": "Short walks, viewpoints, and valley stops feel strongest when the plan follows light and mountain weather instead of a fixed list."
+          "ru": "Короткие прогулки, виды и остановки в долинах сильнее ощущаются, когда план следует свету и горной погоде, а не жёсткому списку."
+          "uz": "Qisqa sayrlar, manzara nuqtalari va vodiy toʻxtashlari reja qatʼiy roʻyxatga emas, yorugʻlik va togʻ ob-havosiga ergashganda kuchliroq seziladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Village honey pause"
+          "ru": "Чай и мёд в селе"
+          "uz": "Qishloqda choy va asal"
+        "description":
+          "en": "Tea, honey, and a quiet village visit can make the Altai feel inhabited, not only scenic, when the local host and timing are confirmed."
+          "ru": "Чай, мёд и спокойная встреча в селе помогают почувствовать Алтай живым местом, а не только пейзажем."
+          "uz": "Choy, asal va sokin qishloq uchrashuvi Altayni faqat manzara emas, yashaydigan joy sifatida his qildiradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Yoʻl oldidan"
+    "title":
+      "en": "Plan Katon-Karagay as the Altai leg, not a quick detour"
+      "ru": "Планируйте Катон-Карагай как алтайскую часть, а не быстрый выезд"
+      "uz": "Katon-Qaragʻayni tez burilish emas, Altay qismi sifatida rejalang"
+    "description":
+      "en": "Katon-Karagay is rewarding when the journey gives it real time. The protected landscape, Berel context, Rakhman Springs, lake extensions, and village stops all need date-specific local advice before they are added."
+      "ru": "Катон-Карагай становится ценным, когда путешествие даёт ему настоящее время. Охраняемый ландшафт, Берель, Рахмановские ключи, озёрные продолжения и сельские остановки требуют местного совета под конкретные даты."
+      "uz": "Katon-Qaragʻay safar unga haqiqiy vaqt berganda qadrlanadi. Qoʻriqlanadigan manzara, Berel konteksti, Raxman buloqlari, koʻl davomlari va qishloq toʻxtashlari aniq sanalar uchun mahalliy maslahat talab qiladi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the approach honest"
+              "ru": "Честно считайте подъезд"
+              "uz": "Kirish yoʻlini ochiq hisoblang"
+            "description":
+              "en": "Oskemen is the practical arrival city, but the Altai begins after a long road. The journey feels calmer when that distance is named clearly."
+              "ru": "Усть-Каменогорск удобен для прибытия, но Алтай начинается после длинной дороги. Путешествие спокойнее, когда это расстояние названо заранее."
+              "uz": "Oʻskemen kelish uchun qulay, lekin Altay uzun yoʻldan keyin boshlanadi. Bu masofa oldindan aniq aytilganda safar sokinroq bo‘ladi."
+          - "type": "quote"
+            "quote":
+              "en": "Katon-Karagay is not the quick scenic reward after Oskemen; it is where the eastern journey accepts the scale of the mountains."
+              "ru": "Катон-Карагай - не быстрый красивый приз после Усть-Каменогорска; здесь восточное путешествие принимает масштаб гор."
+              "uz": "Katon-Qaragʻay Oʻskemendan keyingi tez manzarali mukofot emas; bu yerda sharqiy safar togʻlar miqyosini qabul qiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Confirm protected-area access"
+              "ru": "Уточняйте доступ к охраняемой территории"
+              "uz": "Qoʻriqlanadigan hududga kirishni aniqlang"
+            "description":
+              "en": "National-park routes, borderland context, and remote valleys need current local advice before the program is fixed."
+              "ru": "Маршруты нацпарка, пограничный контекст и удалённые долины требуют актуального местного совета до фиксации программы."
+              "uz": "Milliy bogʻ yoʻnalishlari, chegara konteksti va uzoq vodiylar dastur mustahkamlanishidan oldin dolzarb mahalliy maslahat talab qiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Treat extensions one by one"
+              "ru": "Разбирайте продолжения по одному"
+              "uz": "Davomlarni bittadan ajrating"
+            "description":
+              "en": "Rakhman Springs, Berel, Markakol, Bukhtarma, and higher mountain roads are better added as separate choices with current access and weather advice."
+              "ru": "Рахмановские ключи, Берель, Маркаколь, Бухтарма и высокогорные дороги лучше добавлять как отдельные решения с актуальным доступом и погодой."
+              "uz": "Raxman buloqlari, Berel, Markakoʻl, Buxtarma va baland togʻ yoʻllari dolzarb kirish va ob-havo bilan alohida tanlov sifatida qoʻshilgani maʼqul."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Главное для путешественника"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Give Katon-Karagay time, choose one Altai direction, and let the latest road, weather, and local advice decide how far to go."
+              "ru": "Дайте Катон-Карагаю время, выберите одно алтайское направление и пусть свежие данные о дороге, погоде и доступе решат, как далеко ехать."
+              "uz": "Katon-Qaragʻayga vaqt bering, bitta Altay yoʻnalishini tanlang va eng yangi yoʻl, ob-havo hamda mahalliy maslahat qancha ichkariga borishni belgilasin."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Yoʻl oldidan"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "Protected Kazakh Altai landscape in East Kazakhstan Region, reached most practically through Oskemen."
+                  "ru": "Охраняемый ландшафт Казахского Алтая в Восточно-Казахстанской области; практичнее всего ехать через Усть-Каменогорск."
+                  "uz": "Sharqiy Qozogʻiston viloyatidagi qoʻriqlanadigan Qozogʻiston Altayi manzarasi; eng amaliy kirish Oʻskemen orqali."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main stop"
+                  "ru": "Главная остановка"
+                  "uz": "Asosiy toʻxtash"
+                "description":
+                  "en": "Rakhman Springs, Berel, Markakol, Bukhtarma, and other continuations need current access advice before they are added to a trip."
+                  "ru": "Рахмановские ключи, Берель, Маркаколь, Бухтарма и другие продолжения требуют актуального совета по доступу перед включением в поездку."
+                  "uz": "Raxman buloqlari, Berel, Markakoʻl, Buxtarma va boshqa davomlar safarga qoʻshilishidan oldin dolzarb kirish maslahati kerak."
+              - "icon": "Sun"
+                "title":
+                  "en": "Time"
+                  "ru": "Время"
+                  "uz": "Vaqt"
+                "description":
+                  "en": "Plan several nights if the Altai is the reason to come; a rushed overnight makes the distance feel heavier than the landscape."
+                  "ru": "Закладывайте несколько ночей, если Алтай является причиной поездки; спешная ночёвка делает расстояние тяжелее самого ландшафта."
+                  "uz": "Agar Altay kelishning asosiy sababi bo‘lsa, bir necha tun ajrating; shoshilgan bir kecha masofani manzaradan ogʻirroq his qildiradi."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and comfort"
+                  "ru": "Сезон и комфорт"
+                  "uz": "Mavsum va qulaylik"
+                "description":
+                  "en": "Summer and early autumn are easier; winter, spring thaw, rain, and mountain weather can reshape roads and access."
+                  "ru": "Лето и ранняя осень проще; зима, весенняя распутица, дождь и горная погода могут изменить дороги и доступ."
+                  "uz": "Yoz va erta kuz osonroq; qish, bahorgi loy, yomgʻir va togʻ ob-havosi yoʻl va kirishni oʻzgartirishi mumkin."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before travel"
+                  "ru": "Перед выездом"
+                  "uz": "Yoʻl oldidan"
+                "description":
+                  "en": "Confirm vehicle, driver, road condition, overnight options, protected-area rules, border proximity, local guide needs, and weather close to departure."
+                  "ru": "Уточните транспорт, водителя, состояние дороги, ночёвки, правила нацпарка, близость границы, необходимость местного гида и погоду ближе к выезду."
+                  "uz": "Transport, haydovchi, yoʻl holati, tunash imkoniyati, milliy bogʻ qoidalari, chegara yaqinligi, mahalliy gid ehtiyoji va ob-havoni joʻnashga yaqin aniqlang."
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Katon-Karagay in the day plan"
+      "ru": "Как поставить Катон-Карагай в план дня"
+      "uz": "Katon-Qaragʻayni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Katon-Karagay?"
+          "ru": "Сколько времени группам стоит проводить в Катон-Карагай?"
+          "uz": "Katon-Qaragʻayda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “Forest roads into the Kazakh Altai”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Лесные дороги в Казахский Алтай»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Qozogʻiston Altayiga kiradigan oʻrmon yoʻllari»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Katon-Karagay be a walkable core or a base for day trips?"
+          "ru": "Катон-Карагай — это пешеходное ядро или база для выездов?"
+          "uz": "Katon-Qaragʻay piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Katon-Karagay's centre?"
+          "ru": "Где лучше ночевать относительно центра Катон-Карагай?"
+          "uz": "Katon-Qaragʻay markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Katon-Karagay stop into your Kazakhstan programme"
+      "ru": "Встройте остановку «Катон-Карагай» в программу (Казахстан)"
+      "uz": "Katon-Qaragʻay bekatini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Katon-Karagay | TourLink"
+    "ru": "Катон-Карагай | TourLink"
+    "uz": "Katon-Qaragʻay | TourLink"
+  "metaDescription":
+    "en": "Katon-Karagay changes the scale of the eastern journey. After Oskemen and the Irtysh, the road moves toward dark forest, river valleys, pale mountain light, and protected Altai landscapes where weather can reshape the sequence. Come for distance, quiet, and enough time to let the mountains enter the plan."
+    "ru": "Катон-Карагай меняет масштаб восточного путешествия. После Усть-Каменогорска и Иртыша дорога уходит к тёмному лесу, речным долинам, светлым горным склонам и охраняемым алтайским ландшафтам, где погода может изменить порядок остановок. Сюда едут за расстоянием, тишиной и временем для гор."
+    "uz": "Katon-Qaragʻay sharqiy safarning miqyosini oʻzgartiradi. Oʻskemen va Irtish ortda qolgach, yoʻl qoramtir oʻrmon, daryo vodiylari, och togʻ nuri va qoʻriqlanadigan Altay manzaralari tomon buriladi; bu yerda ob-havo toʻxtashlar ketma-ketligini oʻzgartirishi mumkin. Bu yerga masofa, sokinlik va togʻlarni his qilish uchun vaqt bilan keling."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "east-kazakhstan-and-altai"
+"latitude": 49.3590172
+"longitude": 86.6746937

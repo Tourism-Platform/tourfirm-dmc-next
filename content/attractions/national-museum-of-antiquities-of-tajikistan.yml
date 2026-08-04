@@ -1,0 +1,320 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "national-museum-of-antiquities-of-tajikistan"
+  "ru": "national-museum-of-antiquities-of-tajikistan"
+  "uz": "national-museum-of-antiquities-of-tajikistan"
+"title":
+  "en": "National Museum of Antiquities of Tajikistan"
+  "ru": "Национальный музей древностей Таджикистана"
+  "uz": "Tojikiston Qadimiyat milliy muzeyi"
+"subtitle":
+  "en": "Buddhist and pre-Islamic archaeology in Dushanbe"
+  "ru": "Буддийская и доисламская археология в Душанбе"
+  "uz": "Dushanbedagi buddaviy va islomdan oldingi arxeologiya"
+"excerpt":
+  "en": "The National Museum of Antiquities narrows Dushanbe to a quieter archaeology room: Buddhist-era finds, pre-Islamic objects, and fragments from older settlements. It belongs before the route leaves the capital for Penjikent, Hissar, Khatlon, or the Zeravshan Valley."
+  "ru": "В Национальном музее древностей Душанбе становится тише: буддийские находки, доисламские предметы и фрагменты древних поселений складываются в одну археологическую линию. Это уместная остановка перед дорогой к Пенджикенту, Гиссару, Хатлону или Зеравшанской долине."
+  "uz": "Tojikiston Qadimiyat milliy muzeyida Dushanbe sokinroq ko‘rinadi: buddaviy davr topilmalari, islomdan oldingi buyumlar va qadimiy manzilgoh parchalarini bitta arxeologik yoʻnalishda koʻrasiz. Bu Penjikent, Hisor, Xatlon yoki Zarafshon vodiysi tomonga chiqishdan oldin foydali toʻxtash."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "National Museum of Antiquities of Tajikistan"
+      "ru": "Национальный музей древностей Таджикистана"
+      "uz": "Tojikiston Qadimiyat milliy muzeyi"
+    "title":
+      "en": "National Museum of Antiquities of Tajikistan"
+      "ru": "Национальный музей древностей Таджикистана"
+      "uz": "Tojikiston Qadimiyat milliy muzeyi"
+    "description":
+      "en": "Buddhist and pre-Islamic archaeology in Dushanbe"
+      "ru": "Буддийская и доисламская археология в Душанбе"
+      "uz": "Dushanbedagi buddaviy va islomdan oldingi arxeologiya"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "National Museum of Antiquities of Tajikistan"
+      "ru": "Национальный музей древностей Таджикистана"
+      "uz": "Tojikiston Qadimiyat milliy muzeyi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "The National Museum of Antiquities narrows Dushanbe to a quieter archaeology room: Buddhist-era finds, pre-Islamic objects, and fragments from older settlements."
+              "ru": "В Национальном музее древностей Душанбе становится тише: буддийские находки, доисламские предметы и фрагменты древних поселений складываются в одну археологическую линию."
+              "uz": "Tojikiston Qadimiyat milliy muzeyida Dushanbe sokinroq ko‘rinadi: buddaviy davr topilmalari, islomdan oldingi buyumlar va qadimiy manzilgoh parchalarini bitta arxeologik yoʻnalishda koʻrasiz."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "This museum helps the capital visit move from modern Dushanbe toward the ruins, fortress walls, Buddhist traces, and valley routes that appear later in Tajikistan."
+              "ru": "Этот музей помогает перейти от современного Душанбе к руинам, крепостным стенам, буддийским следам и долинным дорогам, которые появятся позже в маршруте."
+              "uz": "Bu muzey zamonaviy Dushanbedan keyin marshrutda uchraydigan xarobalar, qalʼa devorlari, buddaviy izlar va vodiy yoʻllariga yumshoq oʻtish beradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Buddhist and pre-Islamic archaeology in Dushanbe."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Буддийская и доисламская археология в Душанбе."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Dushanbedagi buddaviy va islomdan oldingi arxeologiya."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need National Museum of Antiquities of Tajikistan as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Национальный музей древностей Таджикистана как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Tojikiston Qadimiyat milliy muzeyi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where National Museum of Antiquities of Tajikistan sits on the route"
+      "ru": "Где Национальный музей древностей Таджикистана стоит на маршруте"
+      "uz": "Tojikiston Qadimiyat milliy muzeyi marshrutda qayerda"
+    "description":
+      "en": "One clear point for National Museum of Antiquities of Tajikistan — Buddhist and pre-Islamic archaeology in Dushanbe."
+      "ru": "Одна понятная точка для «Национальный музей древностей Таджикистана» — Буддийская и доисламская археология в Душанбе."
+      "uz": "Tojikiston Qadimiyat milliy muzeyi uchun bitta aniq nuqta — Dushanbedagi buddaviy va islomdan oldingi arxeologiya."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "National Museum of Antiquities of Tajikistan"
+        "ru": "Национальный музей древностей Таджикистана"
+        "uz": "Tojikiston Qadimiyat milliy muzeyi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 38.5664195
+      "longitude": 68.7906067
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "national-museum-of-antiquities-of-tajikistan"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "A quiet key to Tajikistan's older sites"
+      "ru": "Перед древними памятниками Таджикистана"
+      "uz": "Qadimiy joylar oldidan Dushanbe"
+    "description":
+      "en": "This museum helps the capital visit move from modern Dushanbe toward the ruins, fortress walls, Buddhist traces, and valley routes that appear later in Tajikistan."
+      "ru": "Этот музей помогает перейти от современного Душанбе к руинам, крепостным стенам, буддийским следам и долинным дорогам, которые появятся позже в маршруте."
+      "uz": "Bu muzey zamonaviy Dushanbedan keyin marshrutda uchraydigan xarobalar, qalʼa devorlari, buddaviy izlar va vodiy yoʻllariga yumshoq oʻtish beradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "Rooms, objects, ancient routes"
+      "ru": "Залы, предметы, древние дороги"
+      "uz": "Zallar, buyumlar, qadimiy yoʻllar"
+    "description":
+      "en": "The rooms are strongest when they stay connected to what comes later: settlement history, Buddhist traces, and the valleys beyond Dushanbe."
+      "ru": "Залы сильнее воспринимаются вместе с тем, что появится позже: историей поселений, буддийскими следами и долинами за пределами Душанбе."
+      "uz": "Zallar keyinroq ochiladigan mavzular bilan birga ko‘rilganda kuchliroq boʻladi: manzilgoh tarixi, buddaviy izlar va Dushanbedan tashqaridagi vodiylar."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday koʻrish"
+    "title":
+      "en": "Follow one archaeological thread"
+      "ru": "Следуйте одной археологической линии"
+      "uz": "Bitta arxeologiya yoʻnalishiga ergashing"
+    "description":
+      "en": "The museum reads best as a focused archaeology stop rather than a second broad overview after the National Museum. The strongest thread is the one that supports the rest of the journey."
+      "ru": "Музей лучше раскрывается как сфокусированная археологическая остановка, а не как второй широкий обзор после Национального музея. Самая сильная линия — та, которая поддерживает продолжение поездки."
+      "uz": "Muzey Milliy muzeydan keyingi ikkinchi keng sharh emas, diqqatli arxeologiya toʻxtashi sifatida yaxshiroq ochiladi. Eng kuchli yoʻnalish safarning davomini tushuntiradigan mavzudir."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda yana nimalar"
+    "title":
+      "en": "What to add after the Museum of Antiquities"
+      "ru": "Что добавить после Музея древностей"
+      "uz": "Qadimiyat muzeyidan keyin nima qoʻshish"
+    "description":
+      "en": "The National Museum widens the country story; Rudaki Avenue brings the route back into open air and city scale."
+      "ru": "Национальный музей расширяет историю страны; проспект Рудаки возвращает маршрут к открытому воздуху и городскому масштабу."
+      "uz": "Milliy muzey mamlakat hikoyasini kengaytiradi; Rudakiy xiyoboni esa marshrutni ochiq havo va shahar miqyosiga qaytaradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "National Museum of Tajikistan"
+          "ru": "Национальный музей Таджикистана"
+          "uz": "Tojikiston Milliy muzeyi"
+        "description":
+          "en": "The National Museum of Tajikistan gathers landscapes, state history, and everyday culture before routes continue toward Hissar, the Fann Mountains, or the Pamirs."
+          "ru": "Национальный музей Таджикистана в Душанбе собирает ландшафты, государственную историю и материальную культуру перед дорогой к Гиссару, Фанским горам или Памиру."
+          "uz": "Dushanbedagi Tojikiston Milliy muzeyi Hisor, Fan togʻlari yoki Pomir yoʻliga chiqishdan oldin landshaftlar, davlat tarixi va moddiy madaniyatni bir joyga jamlaydi."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/dushanbe/national-museum-of-tajikistan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Rudaki Park and Rudaki Avenue"
+          "ru": "Парк и проспект Рудаки"
+          "uz": "Rudakiy parki va Rudakiy xiyoboni"
+        "description":
+          "en": "Rudaki Park and Avenue make Dushanbe easy to enter on foot: plane-tree shade, fountains, civic buildings, and nearby museums before the road widens."
+          "ru": "Парк и проспект Рудаки помогают войти в Душанбе пешком: тень платанов, фонтаны, городские здания и близкие музеи перед дальнейшей дорогой."
+          "uz": "Rudakiy parki va xiyoboni Dushanbega piyoda kirishni osonlashtiradi: chinor soyasi, favvoralar, shahar binolari va keyingi yoʻldan oldingi yaqin muzeylar."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/dushanbe/rudaki-park-and-rudaki-avenue"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about National Museum of Antiquities of Tajikistan"
+      "ru": "Что агентства спрашивают про Национальный музей древностей Таджикистана"
+      "uz": "Agentliklar Tojikiston Qadimiyat milliy muzeyi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should National Museum of Antiquities of Tajikistan get in the day plan?"
+          "ru": "Сколько времени закладывать на Национальный музей древностей Таджикистана в плане дня?"
+          "uz": "Tojikiston Qadimiyat milliy muzeyi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "45–90 minutes is a practical range for most groups. Plan ticket timing and indoor pacing. Place tone: “Buddhist and pre-Islamic archaeology in Dushanbe”."
+          "ru": "Для большинства групп реалистичный диапазон — 45–90 минут. Заложите время на билеты и спокойный темп внутри. Характер места: «Буддийская и доисламская археология в Душанбе»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 45–90 daqiqa. Chipta va ichki sokin sur’at uchun vaqt qo‘ying. Joy ohangi: «Dushanbedagi buddaviy va islomdan oldingi arxeologiya»."
+      - "type": "destinationInsight"
+        "icon": "Sunrise"
+        "title":
+          "en": "When is National Museum of Antiquities of Tajikistan strongest during the day?"
+          "ru": "В какое время дня Национальный музей древностей Таджикистана раскрывается сильнее?"
+          "uz": "Tojikiston Qadimiyat milliy muzeyi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer before the midday heat. That usually improves comfort, photos, and how the stop feels in the sequence around dushanbe."
+          "ru": "Лучше до полуденной жары. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с dushanbe."
+          "uz": "tushlik issiqligidan oldin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (dushanbe atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How should National Museum of Antiquities of Tajikistan sit next to nearby stops?"
+          "ru": "Как поставить Национальный музей древностей Таджикистана рядом с соседними остановками?"
+          "uz": "Tojikiston Qadimiyat milliy muzeyini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add National Museum of Antiquities of Tajikistan to your Tajikistan programme"
+      "ru": "Добавьте «Национальный музей древностей Таджикистана» в программу (Таджикистан)"
+      "uz": "Tojikiston Qadimiyat milliy muzeyini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "National Museum of Antiquities of Tajikistan | TourLink"
+    "ru": "Национальный музей древностей Таджикистана | TourLink"
+    "uz": "Tojikiston Qadimiyat milliy muzeyi | TourLink"
+  "metaDescription":
+    "en": "The National Museum of Antiquities narrows Dushanbe to a quieter archaeology room: Buddhist-era finds, pre-Islamic objects, and fragments from older settlements. It belongs before the route leaves the capital for Penjikent, Hissar, Khatlon, or the Zeravshan Valley."
+    "ru": "В Национальном музее древностей Душанбе становится тише: буддийские находки, доисламские предметы и фрагменты древних поселений складываются в одну археологическую линию. Это уместная остановка перед дорогой к Пенджикенту, Гиссару, Хатлону или Зеравшанской долине."
+    "uz": "Tojikiston Qadimiyat milliy muzeyida Dushanbe sokinroq ko‘rinadi: buddaviy davr topilmalari, islomdan oldingi buyumlar va qadimiy manzilgoh parchalarini bitta arxeologik yoʻnalishda koʻrasiz. Bu Penjikent, Hisor, Xatlon yoki Zarafshon vodiysi tomonga chiqishdan oldin foydali toʻxtash."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "dushanbe-and-hissar-valley"
+"city": "dushanbe"
+"type": "MUSEUM"
+"importance": "RECOMMENDED"
+"latitude": 38.5664195
+"longitude": 68.7906067

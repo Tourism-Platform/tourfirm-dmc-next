@@ -1,110 +1,491 @@
-# Seed: regions — Samarkand Region (from OLD DB regions/samarkand)
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "samarkand-region"
+  "ru": "samarkand-region"
+  "uz": "samarkand-region"
+"title":
+  "en": "Samarkand"
+  "ru": "Самарканд"
+  "uz": "Samarqand"
+"subtitle":
+  "en": "City monuments, craft, archaeology, and the road to Bukhara"
+  "ru": "Городские памятники, ремесло, археология и дорога к Бухаре"
+  "uz": "Shahar yodgorliklari, hunarmandchilik, arxeologiya va Buxoro yoʻli"
+"excerpt":
+  "en": "Start with Samarkand city: Registan, Shah-i-Zinda, Bibi-Khanym, Siab Bazaar, Gur-e-Amir, Afrosiab, and Ulugh Beg Observatory make a clear first day. Then widen the region selectively: Konigil for craft, Urgut for the market and mountain side, Imam al-Bukhari and Saint Daniel for pilgrimage context, Tersak or Chor-Chinor for a separate outing, and the train onward to Bukhara."
+  "ru": "Начните с Самарканда: Регистан, Шахи-Зинда, Биби-Ханым, Сиабский базар, Гур-Эмир, Афрасиаб и обсерватория Улугбека дают понятный первый день. Затем регион лучше расширять выборочно: Конигил для ремесла, Ургут для рынка и горной стороны, Имам аль-Бухари и Святой Даниил для паломнического контекста, Терсак или Чор-Чинор для отдельного выезда, поезд дальше к Бухаре."
+  "uz": "Samarqand shahridan boshlang: Registon, Shohi Zinda, Bibi Xonim, Siyob bozori, Goʻri Amir, Afrosiyob va Ulugʻbek rasadxonasi birinchi kunni aniq qiladi. Keyin hududni tanlab kengaytiring: hunarmandchilik uchun Konigil, bozor va togʻ tomoni uchun Urgut, ziyorat konteksti uchun Imom al-Buxoriy va Doniyor paygʻambar, alohida chiqish uchun Tersak yoki Chor Chinor, Buxoro tomon davom etadigan poyezd."
+"heroImage": "assets/images/destinations/uzbekistan/regions/samarkand-region.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/samarkand-region.webp"
+    "imageAlt":
+      "en": "Samarkand"
+      "ru": "Самарканд"
+      "uz": "Samarqand"
+    "title":
+      "en": "Samarkand"
+      "ru": "Самарканд"
+      "uz": "Samarqand"
+    "description":
+      "en": "City monuments, craft, archaeology, and the road to Bukhara"
+      "ru": "Городские памятники, ремесло, археология и дорога к Бухаре"
+      "uz": "Shahar yodgorliklari, hunarmandchilik, arxeologiya va Buxoro yoʻli"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
 
-slug:
-  en: samarkand-region
-  ru: samarkand-region
-  uz: samarkand-region
-title:
-  en: Samarkand Region
-  ru: Самаркандская область
-  uz: Samarqand viloyati
-subtitle:
-  en: Timurid capital legacy
-  ru: Наследие столицы Тимуридов
-  uz: Temuriylar poytaxti merosi
-excerpt:
-  en: Registan, Shah-i-Zinda and the city that defines the Silk Road.
-  ru: Регистан, Шахи-Зинда и город, который определяет образ Шёлкового пути.
-  uz: Registon, Shohi Zinda va Ipak yo'lini ifodalovchi shahar.
-country: uzbekistan
-mapCenter:
-  latitude: 39.6542
-  longitude: 66.9597
-heroImage: assets/images/city/samarkand.jpg
-blocks:
-  - blockType: hero
-    image: assets/images/city/samarkand.jpg
-    imageAlt:
-      en: Registan in Samarkand
-      ru: Регистан в Самарканде
-      uz: Samarqand, Registon
-    title:
-      en: Samarkand Region
-      ru: Самаркандская область
-      uz: Samarqand viloyati
-    description:
-      en: Registan, Shah-i-Zinda and the city that defines the Silk Road.
-      ru: Регистан, Шахи-Зинда и город, который определяет образ Шёлкового пути.
-      uz: Registon, Shohi Zinda va Ipak yo'lini ifodalovchi shahar.
-  - blockType: regular
-    eyebrow:
-      en: Overview
-      ru: Обзор
-      uz: Umumiy
-    title:
-      en: Samarkand at a glance
-      ru: Самарканд в двух словах
-      uz: Samarqand qisqacha
-    description:
-      en: "Samarkand is the symbolic center of Uzbekistan's Silk Road narrative. Registan sets the visual tone, while Shah-i-Zinda adds spiritual and funerary architecture. Most first-time visits pair iconic monuments with a slower old-city walk to balance major landmarks and local rhythm."
-      ru: "Самарканд — символический центр узбекского Шёлкового пути. Регистан задаёт визуальный тон, а Шахи-Зинда добавляет духовную и погребальную архитектуру. Большинство первых визитов сочетают главные памятники с неспешной прогулкой по старому городу."
-      uz: "Samarqand O'zbekistonning Ipak yo'li hikoyasining ramzi. Registon vizual ohangni belgilaydi, Shohi Zinda esa ma'naviy me'morchilik qo'shadi."
-  - blockType: regular
-    eyebrow:
-      en: Landmark
-      ru: Достопримечательность
-      uz: Diqqatga sazovor joy
-    title:
-      en: Registan ensemble
-      ru: Ансамбль Регистана
-      uz: Registon ansambli
-    description:
-      en: "Three madrasas, monumental facades and evening illumination. Visit once in daytime for detail and once at dusk for atmosphere; both feel different."
-      ru: "Три медресе, монументальные фасады и вечерняя подсветка. Посетите днём ради деталей и на закате ради атмосферы."
-      uz: "Uchta madrasa, monumental fasadlar va kechki yoritish. Kun va kechqurun alohida taassurot beradi."
-    cards:
-      - type: destinationInsight
-        icon: Timer
-        title:
-          en: Best pace
-          ru: Оптимальный темп
-          uz: Eng yaxshi ritm
-        description:
-          en: 1-2 nights cover major monuments without rush.
-          ru: 1–2 ночи хватает на главные памятники без спешки.
-          uz: 1-2 tun asosiy yodgorliklarni shoshilmasdan ko'rish uchun yetarli.
-      - type: destinationInsight
-        icon: Zap
-        title:
-          en: Transport
-          ru: Транспорт
-          uz: Transport
-        description:
-          en: Afrosiyob from Tashkent is the fastest option.
-          ru: «Афросиёб» из Ташкента — самый быстрый вариант.
-          uz: Toshkentdan Afrosiyob eng tez variant.
-      - type: destinationInsight
-        icon: Eye
-        title:
-          en: Photo timing
-          ru: Время для фото
-          uz: Surat vaqti
-        description:
-          en: Early morning and golden hour are most rewarding.
-          ru: Раннее утро и золотой час дают лучшие кадры.
-          uz: Erta tong va oltin soat eng yaxshi natija beradi.
-seo:
-  metaTitle:
-    en: Samarkand Region | TourLink
-    ru: Самаркандская область | TourLink
-    uz: Samarqand viloyati | TourLink
-  metaDescription:
-    en: Registan, Shah-i-Zinda and Timurid architecture — Samarkand Region guide by TourLink.
-    ru: Регистан, Шахи-Зинда и архитектура эпохи Тимуридов — гид по Самаркандской области от TourLink.
-    uz: Registon, Shohi Zinda va Temuriylar me'morchiligi — TourLink bo'yicha Samarqand viloyati.
-  structuredDataType: TouristDestination
-status:
-  showInSitemap: true
-  noindex: false
-  hideFromNavigation: false
-  publishedAt: "2025-06-01"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О регионе"
+      "uz": "Hudud haqida"
+    "title":
+      "en": "Samarkand"
+      "ru": "Самарканд"
+      "uz": "Samarqand"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Start with Samarkand city: Registan, Shah-i-Zinda, Bibi-Khanym, Siab Bazaar, Gur-e-Amir, Afrosiab, and Ulugh Beg Observatory make a clear first day."
+              "ru": "Начните с Самарканда: Регистан, Шахи-Зинда, Биби-Ханым, Сиабский базар, Гур-Эмир, Афрасиаб и обсерватория Улугбека дают понятный первый день."
+              "uz": "Samarqand shahridan boshlang: Registon, Shohi Zinda, Bibi Xonim, Siyob bozori, Goʻri Amir, Afrosiyob va Ulugʻbek rasadxonasi birinchi kunni aniq qiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Samarkand region is clearer when the route first gives the city time, then chooses one wider continuation. Leave room for the old city, main monuments, bazaar, Afrosiab, and Ulugh Beg Observatory; after that, choose Konigil, Urgut, pilgrimage places, a village road, or the train to Bukhara."
+              "ru": "Самаркандский регион понятнее, когда маршрут сначала удерживает город, а затем выбирает одно продолжение. Дайте время старому городу, главным памятникам, базару, Афрасиабу и обсерватории Улугбека; после этого выбирайте Конигил, Ургут, паломнические места, сельскую дорогу или поезд к Бухаре."
+              "uz": "Samarqand hududi yoʻnalish avval shaharga vaqt berganda, keyin bitta davomni tanlaganda aniqroq ochiladi. Eski shahar, asosiy yodgorliklar, bozor, Afrosiyob va Ulugʻbek rasadxonasiga joy qoldiring; keyin Konigil, Urgut, ziyorat joylari, qishloq yoʻli yoki Buxoro poyezdini tanlang."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Samarkand can look easy on the map, but the better day gives the city time and chooses one outer outing before the route continues to Bukhara."
+              "ru": "На карте Самарканд кажется простым, но более точный день даёт время городу и выбирает один внешний выезд до продолжения в Бухару."
+              "uz": "Xaritada Samarqand oson koʻrinadi, lekin aniqroq kun shaharga vaqt beradi va Buxoroga davom etishdan oldin bitta tashqi chiqishni tanlaydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Samarkand as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Самарканд как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Samarqand o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "City day, craft, and the road west"
+      "ru": "Городской день, ремесло и дорога дальше на запад"
+      "uz": "Shahar kuni, hunarmandchilik va gʻarbga yoʻl"
+    "description":
+      "en": "Samarkand region is clearer when the route first gives the city time, then chooses one wider continuation. Leave room for the old city, main monuments, bazaar, Afrosiab, and Ulugh Beg Observatory; after that, choose Konigil, Urgut, pilgrimage places, a village road, or the train to Bukhara."
+      "ru": "Самаркандский регион понятнее, когда маршрут сначала удерживает город, а затем выбирает одно продолжение. Дайте время старому городу, главным памятникам, базару, Афрасиабу и обсерватории Улугбека; после этого выбирайте Конигил, Ургут, паломнические места, сельскую дорогу или поезд к Бухаре."
+      "uz": "Samarqand hududi yoʻnalish avval shaharga vaqt berganda, keyin bitta davomni tanlaganda aniqroq ochiladi. Eski shahar, asosiy yodgorliklar, bozor, Afrosiyob va Ulugʻbek rasadxonasiga joy qoldiring; keyin Konigil, Urgut, ziyorat joylari, qishloq yoʻli yoki Buxoro poyezdini tanlang."
+    "mapPanel":
+      "eyebrow":
+        "en": "Main places"
+        "ru": "Главные места"
+        "uz": "Asosiy joylar"
+      "title":
+        "en": "Main places and wider route context"
+        "ru": "Главные места и продолжение маршрута"
+        "uz": "Asosiy joylar va yoʻnalish davomi"
+      "description":
+        "en": "The visible points keep the first city day clear; Konigil, Urgut, Imam al-Bukhari, village roads, and the train to Bukhara show how the region continues beyond the square."
+        "ru": "Видимые точки держат первый городской день понятным; Конигил, Ургут, Имам аль-Бухари, сельские дороги и поезд к Бухаре показывают, как регион продолжается за пределами площади."
+        "uz": "Koʻrinadigan nuqtalar birinchi shahar kunini aniq qiladi; Konigil, Urgut, Imom al-Buxoriy, qishloq yoʻllari va Buxoro poyezdi hudud maydondan keyin qanday davom etishini koʻrsatadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.658237
+      "longitude": 66.979831
+    "zoom": 9
+    "stops":
+      - "entityType": "city"
+        "entitySlug": "samarkand"
+      - "entityType": "attraction"
+        "entitySlug": "registan-square"
+      - "entityType": "attraction"
+        "entitySlug": "shah-i-zinda"
+      - "entityType": "attraction"
+        "entitySlug": "bibi-khanym-mosque"
+    "aside":
+      "eyebrow":
+        "en": "Route rhythm"
+        "ru": "Что важно учесть"
+        "uz": "Nimani avval ko‘ramiz"
+      "title":
+        "en": "City first, then one continuation"
+        "ru": "Сначала город, затем одно продолжение"
+        "uz": "Avval shahar, keyin bitta davom"
+      "description":
+        "en": "Samarkand can look easy on the map, but the better day gives the city time and chooses one outer outing before the route continues to Bukhara."
+        "ru": "На карте Самарканд кажется простым, но более точный день даёт время городу и выбирает один внешний выезд до продолжения в Бухару."
+        "uz": "Xaritada Samarqand oson koʻrinadi, lekin aniqroq kun shaharga vaqt beradi va Buxoroga davom etishdan oldin bitta tashqi chiqishni tanlaydi."
+      "items":
+        - "title":
+            "en": "Rail arrival sets the pace"
+            "ru": "Приезд поездом задаёт темп"
+            "uz": "Poyezd bilan kelish ritmni belgilaydi"
+          "description":
+            "en": "The high-speed train gives a clear opening, but the region should not be compressed into a transfer: the first day needs room for the old city, the bazaar, and an unhurried story."
+            "ru": "Скоростной поезд даёт ясное начало, но регион лучше не сжимать в пересадку: первому дню нужно место для старого города, базара и спокойного рассказа."
+            "uz": "Tezyurar poyezd aniq boshlanish beradi, lekin hududni faqat transferga siqmaslik kerak: birinchi kunda eski shahar, bozor va shoshilmagan hikoya uchun joy bo‘lsin."
+          "badge":
+            "en": "rail arrival"
+            "ru": "поезд"
+            "uz": "poyezd"
+        - "title":
+            "en": "The main places need time between them"
+            "ru": "Главные места лучше раскрываются без спешки"
+            "uz": "Asosiy joylar shoshilmasdan yaxshiroq ochiladi"
+          "description":
+            "en": "Registan, Shah-i-Zinda, Bibi-Khanym, Gur-e-Amir, Afrosiab, Ulugh Beg Observatory, and Siab Bazaar feel stronger when the day has transitions, not only a list of stops."
+            "ru": "Регистан, Шахи-Зинда, Биби-Ханым, Гур-Эмир, Афрасиаб, обсерватория Улугбека и Сиабский базар работают сильнее, когда между ними есть переходы, а не только список остановок."
+            "uz": "Registon, Shohi Zinda, Bibi Xonim, Goʻri Amir, Afrosiyob, Ulugʻbek rasadxonasi va Siyob bozori faqat toʻxtashlar roʻyxati emas, ular orasida oʻtishlar bo‘lganda kuchliroq seziladi."
+          "badge":
+            "en": "main places"
+            "ru": "главные места"
+            "uz": "asosiy joylar"
+        - "title":
+            "en": "Konigil and Urgut take the route beyond the city"
+            "ru": "Конигил и Ургут выводят маршрут за пределы города"
+            "uz": "Konigil va Urgut yoʻnalishni shahardan tashqariga olib chiqadi"
+          "description":
+            "en": "Konigil, the paper workshop, Urgut market, and old-city craft lanes add hands, food, and the lived rhythm of the region around the monuments."
+            "ru": "Конигил, бумажная мастерская, Ургутский рынок и ремесленные улицы добавляют к памятникам работу рук, еду и живой ритм региона."
+            "uz": "Konigil, qogʻoz ustaxonasi, Urgut bozori va eski shahar hunarmand koʻchalari yodgorliklar atrofiga qoʻl mehnati, taom va hududning tirik ritmini qoʻshadi."
+          "badge":
+            "en": "craft and market"
+            "ru": "ремесло и рынок"
+            "uz": "hunarmandchilik va bozor"
+        - "title":
+            "en": "Pilgrimage and the road to Bukhara widen the route"
+            "ru": "Паломничество и дорога к Бухаре расширяют маршрут"
+            "uz": "Ziyorat va Buxoro yoʻli yoʻnalishni kengaytiradi"
+          "description":
+            "en": "Imam al-Bukhari, Saint Daniel, Tersak, Chor-Chinor, Silk Road Samarkand, and the train onward west help the route avoid ending at one square."
+            "ru": "Имам аль-Бухари, Святой Даниил, Терсак, Чор-Чинор, Silk Road Samarkand и поезд дальше на запад помогают не заканчивать маршрут одной площадью."
+            "uz": "Imom al-Buxoriy, Doniyor paygʻambar, Tersak, Chor Chinor, Silk Road Samarkand va gʻarbga davom etadigan poyezd yoʻnalishni bitta maydonda tugatib qoʻymaydi."
+          "badge":
+            "en": "continuations"
+            "ru": "продолжения"
+            "uz": "davomlar"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region character"
+      "ru": "Характер региона"
+      "uz": "Hudud xarakteri"
+    "title":
+      "en": "A region that begins in the city and continues by road"
+      "ru": "Регион, который начинается в городе и продолжается дорогами"
+      "uz": "Shahardan boshlanib, yoʻllar bilan davom etadigan hudud"
+    "description":
+      "en": "Samarkand region is held together by contrast: the country's most recognizable monuments stand close together, but the journey deepens when archaeology, a workshop, the bazaar, pilgrimage places, and the road toward Bukhara join them.
+
+
+        «Samarkand region is clearer when Registan becomes the beginning, not a replacement for the whole route.»"
+      "ru": "Самаркандский регион держится на контрасте: рядом стоят самые узнаваемые памятники страны, но смысл поездки становится глубже, когда к ним добавляются археология, мастерская, базар, паломнические места и дорога дальше к Бухаре.
+
+
+        «Самаркандский регион понятнее, когда Регистан становится началом, а не заменой всему маршруту.»"
+      "uz": "Samarqand hududi qarama-qarshilik bilan ushlanadi: mamlakatning eng taniqli yodgorliklari bir-biriga yaqin turadi, lekin sayohatga arxeologiya, ustaxona, bozor, ziyorat joylari va Buxoro tomonga yoʻl qoʻshilganda maʼno chuqurlashadi.
+
+
+        «Samarqand hududi Registon butun yoʻnalish o‘rnini bosmaganda, balki boshlanish bo‘lganda aniqroq ochiladi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Where the region begins"
+      "ru": "Откуда начинается регион"
+      "uz": "Hudud qayerdan boshlanadi"
+    "title":
+      "en": "Samarkand as the starting point"
+      "ru": "Самарканд как точка начала"
+      "uz": "Samarqand boshlanish nuqtasi sifatida"
+    "description":
+      "en": "Samarkand is the natural beginning of the region. From there, the route chooses one continuation: Konigil for craft, Urgut for the market and mountain side, pilgrimage places for a calmer outing, village roads, or the train to Bukhara."
+      "ru": "Самарканд — естественное начало региона. Дальше маршрут выбирает одно продолжение: Конигил для ремесла, Ургут для рынка и горной стороны, паломнические места для спокойного выезда, сельские дороги или поезд к Бухаре."
+      "uz": "Samarqand hududning tabiiy boshlanishi. Keyin yoʻnalish bitta davomni tanlaydi: hunarmandchilik uchun Konigil, bozor va togʻ tomoni uchun Urgut, sokin chiqish uchun ziyorat joylari, qishloq yoʻllari yoki Buxoro poyezdi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/samarkand.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Samarkand"
+          "ru": "Самарканд"
+          "uz": "Samarqand"
+        "description":
+          "en": "Registan may be the first image travelers carry of Uzbekistan, but Samarkand is wider than one square. The day leads on to Shah-i-Zinda, Gur-e-Amir, Bibi-Khanym, Siab Bazaar, old lanes, early trains from Tashkent, Afrasiab beneath today's city, and the scientific story around Ulu"
+          "ru": "Регистан часто становится первым образом Узбекистана, но Самарканд шире одной площади. День ведёт дальше — к Шахи-Зинде, Гур-Эмиру, Биби-Ханым, Сиабскому базару, старым улицам, ранним поездам из Ташкента, Афрасиабу под современным городом и научной истории вокруг обсерватории Улу"
+          "uz": "Registon ko‘p sayohatchilar uchun Oʻzbekistonning birinchi tasviri bo‘lishi mumkin, lekin Samarqand bitta maydondan kengroq. Shahar ko‘k koshin, Go‘ri Amir, bozor noni, eski ko‘chalar, Toshkentdan keladigan erta poyezdlar, zamonaviy shahar ostidagi Afrosiyob va Ulug‘bek rasadxona"
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/samarkand"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What reveals the region"
+      "ru": "Что раскрывает регион"
+      "uz": "Hududni nima ochadi"
+    "title":
+      "en": "Main places and regional continuations"
+      "ru": "Главные места и продолжения региона"
+      "uz": "Asosiy joylar va hudud davomlari"
+    "description":
+      "en": "The first places are Registan, Shah-i-Zinda, Bibi-Khanym, Gur-e-Amir, Afrosiab, Ulugh Beg Observatory, and Siab Bazaar. Then the meaning shifts: Konigil, Urgut, Imam al-Bukhari, Saint Daniel, Silk Road Samarkand, Tersak, and Chor-Chinor help show the region beyond a single city day."
+      "ru": "Первые места региона — Регистан, Шахи-Зинда, Биби-Ханым, Гур-Эмир, Афрасиаб, обсерватория Улугбека и Сиабский базар. Дальше смысл меняется: Конигил, Ургут, Имам аль-Бухари, Святой Даниил, Silk Road Samarkand, Терсак и Чор-Чинор помогают увидеть регион за пределами городского дня."
+      "uz": "Birinchi joylar — Registon, Shohi Zinda, Bibi Xonim, Goʻri Amir, Afrosiyob, Ulugʻbek rasadxonasi va Siyob bozori. Keyin maʼno oʻzgaradi: Konigil, Urgut, Imom al-Buxoriy, Doniyor paygʻambar, Silk Road Samarkand, Tersak va Chor Chinor hududni bitta shahar kunidan kengroq ko‘rsatadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Tayloq-side mahalla setting"
+          "ru": "Махалля со стороны Тайлака"
+          "uz": "Toyloq tomoni mahalla muhiti"
+        "description":
+          "en": "The Tayloq-side mahalla setting explains Bogizagon as a small countryside turn after Samarkand, with the visit kept modest and place-specific."
+          "ru": "Среда махалли со стороны Тайлака объясняет Богизагон как небольшой сельский поворот после Самарканда, со скромной и точной формой визита."
+          "uz": "Toyloq tomoni mahalla muhiti Bog‘izagonni Samarqanddan keyingi kichik qishloq burilishi sifatida tushuntiradi, tashrif kamtar va aniq qolganda."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/bogizagon/bogizagon-tayloq-mahalla-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Qo‘shrabot-side ovul setting"
+          "ru": "Овульная среда со стороны Кушрабада"
+          "uz": "Qo‘shrabot tomoni ovul muhiti"
+        "description":
+          "en": "The Qo‘shrabot-side ovul setting explains Pangat as a small northern place with a local welcome, a short walk, and a return tied to Samarkand."
+          "ru": "Овульная среда со стороны Кушрабада объясняет Пангат как небольшое северное место с местным приёмом, короткой прогулкой и возвращением к Самарканду."
+          "uz": "Qo‘shrabot tomoni ovul muhiti Pangatni kichik shimoliy joy sifatida tushuntiradi: mahalliy qabul, qisqa sayr va Samarqandga qaytish."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/pangat/pangat-qoshrabot-ovul-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Yangijoy village setting"
+          "ru": "Сельская среда Янгижой"
+          "uz": "Yangijoy qishloq muhiti"
+        "description":
+          "en": "Yangijoy’s village setting gives the stop its local scale. A developing tourism village near Samarkand, not a fixed attraction list."
+          "ru": "Сельская среда Янгижой даёт остановке местный масштаб. Это развивающееся туристическое село рядом с Самаркандом, а не список объектов."
+          "uz": "Yangijoy qishloq muhiti bekatga mahalliy miqyos beradi. Bu Samarqand yaqinidagi rivojlanayotgan turizm qishlog‘i, obyektlar ro‘yxati emas."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/yangijoy/yangijoy-samarkand-district-mahalla-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Urgut mountain air"
+          "ru": "Ургутский горный воздух"
+          "uz": "Urgut tog‘ havosi"
+        "description":
+          "en": "The first reason to stop in Omonqoton is the shift in air: the road leaves Samarkand’s city rhythm and begins to feel open, cooler, and slower."
+          "ru": "Первый повод остановиться в Омонкотоне — смена воздуха: дорога выходит из городского ритма Самарканда и становится просторнее, прохладнее и медленнее."
+          "uz": "Omonqotonda to‘xtashning birinchi sababi — havo almashishi: yo‘l Samarqand shahar sur’atidan chiqib, ochiqroq, salqinroq va sekinroq sezila boshlaydi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/omonqoton/omonqoton-urgut-mountain-climate"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Hazrati Dovud pilgrimage setting"
+          "ru": "Паломническая среда Хазрати Довуда"
+          "uz": "Hazrati Dovud ziyorat muhiti"
+        "description":
+          "en": "The Hazrati Dovud setting is the main reason Oqsoy should not be treated as a casual mountain stop. It brings sacred meaning to the Nurobod road and asks the route to slow down."
+          "ru": "Среда Хазрати Довуда — главная причина не воспринимать Оксой как случайную горную остановку. Она даёт дороге к Нурабаду сакральный смысл и требует более спокойного маршрута."
+          "uz": "Hazrati Dovud muhiti Oqsoyni oddiy tog‘ bekati sifatida ko‘rmaslikning asosiy sababidir. U Nurobod yo‘liga muqaddas ma’no beradi va marshrutni sekinlashtiradi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/oqsoy/oqsoy-hazrat-dovud-pilgrimage-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Urgut mountain village setting"
+          "ru": "Горная среда Ургута"
+          "uz": "Urgut tog‘ qishlog‘i muhiti"
+        "description":
+          "en": "The Urgut road is the first reason Tersak feels different from Samarkand. The road leaves the city scale, the air opens, and the village gives the visit a calmer pace."
+          "ru": "Горная среда — первая причина, по которой Терсак ощущается иначе, чем Самарканд. Дорога поворачивает к Ургуту, воздух становится просторнее, и село задаёт дню более медленный масштаб."
+          "uz": "Tog‘ muhiti Tersak Samarqanddan boshqacha sezilishining birinchi sababidir. Yo‘l Urgut tomonga buriladi, havo ochiladi va qishloq kunga sekinroq miqyos beradi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/tersak/tersak-urgut-mountain-village-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route shapes"
+      "ru": "Формы маршрута"
+      "uz": "Yoʻnalish shakllari"
+    "title":
+      "en": "How Samarkand continues the route"
+      "ru": "Как продолжить маршрут из Самарканда"
+      "uz": "Samarqanddan yoʻnalish qanday davom etadi"
+    "description":
+      "en": "Samarkand often becomes the strongest memory of the trip, but a good route does not end at Registan. It leaves room for archaeology, craft, a pilgrimage outing, or a calm train continuation to Bukhara."
+      "ru": "Самарканд часто остаётся главной памятью поездки, но хороший маршрут не заканчивается на Регистане. Он оставляет место для археологии, ремесла, паломнического выезда или спокойного продолжения поездом к Бухаре."
+      "uz": "Samarqand ko‘pincha O‘zbekiston yo‘nalishining asosiy xotirasi bo‘lib qoladi, lekin yaxshi yoʻnalish Registonda tugamaydi. U arxeologiya, hunarmandchilik, ziyorat chiqishi yoki Buxoro tomon sokin poyezd davomiga joy qoldiradi."
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region in detail"
+      "ru": "Регион в деталях"
+      "uz": "Hudud batafsil"
+    "title":
+      "en": "Practical questions about Samarkand"
+      "ru": "Практические вопросы о регионе Самарканд"
+      "uz": "Samarqand hududi bo‘yicha amaliy savollar"
+    "description":
+      "en": "Pace, season, and how this region connects to the next stop."
+      "ru": "Темп, сезон и как регион стыкуется со следующей остановкой."
+      "uz": "Sur’at, mavsum va hududning keyingi bekat bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many days does Samarkand need in a programme?"
+          "ru": "Сколько дней нужно региону Самарканд в программе?"
+          "uz": "Samarqand hududi dasturda necha kun olishi kerak?"
+        "description":
+          "en": "3–5 days usually works if you keep one strong core and treat outer stops as deliberate choices. The region brief is “City monuments, craft, archaeology, and the road to Bukhara”."
+          "ru": "Обычно хватает 3–5 дней, если держать одно сильное ядро, а внешние остановки выбирать осознанно. Кратко о регионе: «Городские памятники, ремесло, археология и дорога к Бухаре»."
+          "uz": "Odatda 3–5 kun yetadi — bitta kuchli yadro va tashqi bekatlarni ongli tanlov qiling. Hudud brifi: «Shahar yodgorliklari, hunarmandchilik, arxeologiya va Buxoro yoʻli»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "What should come before and after Samarkand?"
+          "ru": "Что ставить до и после региона Самарканд?"
+          "uz": "Samarqanddan oldin va keyin nima qo‘yish kerak?"
+        "description":
+          "en": "Use neighbouring cities as clean handovers: arrive with a calm first night, leave after one completed chapter, and avoid stacking two long transfers on the same day."
+          "ru": "Соседние города держите как чистые стыки: приезжайте со спокойной первой ночью, уезжайте после завершённой главы и не ставьте два длинных переезда в один день."
+          "uz": "Qo‘shni shaharlarni toza ulanish sifatida tuting: sokin birinchi tun bilan keling, yakunlangan bobdan keyin chiqing va bir kunga ikkita uzun ko‘chishni qo‘ymang."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "What season logic matters most in Samarkand?"
+          "ru": "Какая сезонная логика важнее всего в Самарканд?"
+          "uz": "Samarqandda qaysi mavsum mantig‘i eng muhim?"
+        "description":
+          "en": "Heat, altitude, road condition, and opening hours change the product more than the brochure list. Build the region around what stays comfortable for the group that week."
+          "ru": "Жара, высота, состояние дорог и часы работы меняют продукт сильнее списка из брошюры. Собирайте регион вокруг того, что комфортно именно этой группе в эту неделю."
+          "uz": "Issiqlik, balandlik, yo‘l holati va ish soatlari broshyura ro‘yxatidan kuchliroq mahsulotni o‘zgartiradi. Hududni shu hafta guruh uchun qulay narsaga qurib chiqing."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/samarkand-region.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Samarkand stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Самарканд» в программу (Узбекистан)"
+      "uz": "Samarqand bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right extensions — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать нужные расширения — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va kerakli kengaytmalarni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Samarkand | TourLink"
+    "ru": "Самарканд | TourLink"
+    "uz": "Samarqand | TourLink"
+  "metaDescription":
+    "en": "Start with Samarkand city: Registan, Shah-i-Zinda, Bibi-Khanym, Siab Bazaar, Gur-e-Amir, Afrosiab, and Ulugh Beg Observatory make a clear first day. Then widen the region selectively: Konigil for craft, Urgut for the market and mountain side, Imam al-Bukhari and Saint Daniel for pilgrimage context, Tersak or Chor-Chinor for a separate outing, and the train onward to Bukhara."
+    "ru": "Начните с Самарканда: Регистан, Шахи-Зинда, Биби-Ханым, Сиабский базар, Гур-Эмир, Афрасиаб и обсерватория Улугбека дают понятный первый день. Затем регион лучше расширять выборочно: Конигил для ремесла, Ургут для рынка и горной стороны, Имам аль-Бухари и Святой Даниил для паломнического контекста, Терсак или Чор-Чинор для отдельного выезда, поезд дальше к Бухаре."
+    "uz": "Samarqand shahridan boshlang: Registon, Shohi Zinda, Bibi Xonim, Siyob bozori, Goʻri Amir, Afrosiyob va Ulugʻbek rasadxonasi birinchi kunni aniq qiladi. Keyin hududni tanlab kengaytiring: hunarmandchilik uchun Konigil, bozor va togʻ tomoni uchun Urgut, ziyorat konteksti uchun Imom al-Buxoriy va Doniyor paygʻambar, alohida chiqish uchun Tersak yoki Chor Chinor, Buxoro tomon davom etadigan poyezd."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"mapCenter":
+  "latitude": 39.6550017
+  "longitude": 66.9756954

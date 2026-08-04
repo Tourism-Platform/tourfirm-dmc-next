@@ -1,0 +1,644 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "almaty"
+  "ru": "almaty"
+  "uz": "almaty"
+"title":
+  "en": "Almaty"
+  "ru": "Алматы"
+  "uz": "Olmaota"
+"subtitle":
+  "en": "Foothill streets under the Trans-Ili Alatau"
+  "ru": "Предгорные улицы под Заилийским Алатау"
+  "uz": "Zailiy Olatovi ostidagi togʻoldi koʻchalari"
+"excerpt":
+  "en": "Almaty does not need an immediate climb to feel shaped by the mountains. The visit begins with trees, traffic, coffee, market noise, and the former capital's civic scale; then the route can rise to Kok-Tobe, Medeu, or Shymbulak when weather, lift status, and the traveler’s pace support it."
+  "ru": "Алматы не нужно сразу подниматься в горы, чтобы чувствоваться городом у хребта. Сначала идут деревья, трафик, кофе, рынок и масштаб бывшей столицы; затем маршрут может подняться к Кок-Тобе, Медеу или Шымбулаку, если погода, подъёмники и темп путешествия позволяют."
+  "uz": "Olmaota togʻ kayfiyatini berishi uchun darhol balandlikka shoshilmaydi. Avval daraxtlar, tirbandlik, qahva, bozor shovqini va sobiq poytaxtning shahar miqyosi keladi; keyin ob-havo, lift holati va sayohatchi surʼati mos boʻlsa, yoʻl Koʻk-Tobe, Medeu yoki Shimbuloqqa koʻtariladi."
+"heroImage": "assets/images/destinations/kazakhstan/regions/almaty-and-northern-tian-shan/cities/almaty.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan/regions/almaty-and-northern-tian-shan/cities/almaty.webp"
+    "imageAlt":
+      "en": "Almaty"
+      "ru": "Алматы"
+      "uz": "Olmaota"
+    "title":
+      "en": "Almaty"
+      "ru": "Алматы"
+      "uz": "Olmaota"
+    "description":
+      "en": "Foothill streets under the Trans-Ili Alatau"
+      "ru": "Предгорные улицы под Заилийским Алатау"
+      "uz": "Zailiy Olatovi ostidagi togʻoldi koʻchalari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Almaty"
+      "ru": "Алматы"
+      "uz": "Olmaota"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Almaty does not need an immediate climb to feel shaped by the mountains."
+              "ru": "Алматы не нужно сразу подниматься в горы, чтобы чувствоваться городом у хребта."
+              "uz": "Olmaota togʻ kayfiyatini berishi uchun darhol balandlikka shoshilmaydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Almaty is clearest when the city floor and the mountain edge stay in sequence, not in competition."
+              "ru": "Алматы лучше раскрывается, когда городская часть и горный край идут последовательно, а не спорят за внимание."
+              "uz": "Olmaota pastki shahar qismi va togʻ cheti ketma-ket oʻqilganda aniqroq ko‘rinadi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Give the first hours to arrival, streets, food, or a viewpoint. Then choose Kok-Tobe, the Medeu-Shymbulak road, or a longer regional route."
+              "ru": "Оставьте первые часы для приезда, улиц, еды или видовой точки. Затем выбирайте: Кок-Тобе, дорога Медеу-Шымбулак или более длинный региональный маршрут."
+              "uz": "Ilk soatlarni kelish, koʻchalar, taom yoki manzarali nuqtaga bering. Keyin Koʻk-Tobe, Medeu-Shimbuloq yoʻli yoki uzunroq mintaqaviy yoʻnalishdan birini tanlang."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Almaty as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Алматы как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Olmaota o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "How to move"
+      "ru": "Как двигаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Start low, then choose one climb"
+      "ru": "Начните ниже, затем выберите один подъём"
+      "uz": "Avval pastdan boshlang, keyin bitta koʻtarilishni tanlang"
+    "description":
+      "en": "Almaty is clearest when the city floor and the mountain edge stay in sequence, not in competition."
+      "ru": "Алматы лучше раскрывается, когда городская часть и горный край идут последовательно, а не спорят за внимание."
+      "uz": "Olmaota pastki shahar qismi va togʻ cheti ketma-ket oʻqilganda aniqroq ko‘rinadi."
+    "mapPanel":
+      "eyebrow":
+        "en": "City and ridge"
+        "ru": "Город и хребет"
+        "uz": "Shahar va tizma"
+      "title":
+        "en": "Almaty, Medeu, Shymbulak, Kok-Tobe"
+        "ru": "Алматы, Медеу, Шымбулак, Кок-Тобе"
+        "uz": "Olmaota, Medeu, Shimbuloq, Koʻk-Tobe"
+      "description":
+        "en": "The map keeps the city and close mountain anchors together. Charyn, Kolsai, Kaindy, Tamgaly, and Altyn-Emel need separate road timing beyond this city frame."
+        "ru": "Карта держит вместе город и близкие горные ориентиры. Чарын, Кольсай, Каинды, Тамгалы и Алтын-Эмель требуют отдельного маршрутного времени за пределами городского кадра."
+        "uz": "Xarita shahar va yaqin togʻ moʻljallarini birga ushlab turadi. Charyn, Kolsai, Kaindy, Tamgaly va Altyn-Emel bu shahar doirasidan tashqarida alohida yoʻl va vaqt talab qiladi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 43.188787
+      "longitude": 77.015515
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "medeu-high-mountain-sports-complex"
+      - "entityType": "attraction"
+        "entitySlug": "shymbulak-mountain-resort"
+      - "entityType": "attraction"
+        "entitySlug": "kok-tobe-hill"
+    "aside":
+      "eyebrow":
+        "en": "What to decide"
+        "ru": "Что решить"
+        "uz": "Nimani tanlash"
+      "title":
+        "en": "City first, one climb second"
+        "ru": "Сначала город, затем один подъём"
+        "uz": "Avval shahar, keyin bitta koʻtarilish"
+      "description":
+        "en": "Give the first hours to arrival, streets, food, or a viewpoint. Then choose Kok-Tobe, the Medeu-Shymbulak road, or a longer regional route."
+        "ru": "Оставьте первые часы для приезда, улиц, еды или видовой точки. Затем выбирайте: Кок-Тобе, дорога Медеу-Шымбулак или более длинный региональный маршрут."
+        "uz": "Ilk soatlarni kelish, koʻchalar, taom yoki manzarali nuqtaga bering. Keyin Koʻk-Tobe, Medeu-Shimbuloq yoʻli yoki uzunroq mintaqaviy yoʻnalishdan birini tanlang."
+      "items":
+        - "title":
+            "en": "Let the city settle first"
+            "ru": "Дайте городу сначала собраться"
+            "uz": "Avval shahar joyiga tushsin"
+          "description":
+            "en": "Traffic, hotel position, and arrival time decide how much of the first hours should stay in central Almaty."
+            "ru": "Трафик, расположение отеля и время прилёта решают, сколько первых часов лучше оставить центральному Алматы."
+            "uz": "Tirbandlik, mehmonxona joyi va uchib kelish vaqti birinchi soatlarning qancha qismi markaziy Olmaotada qolishini belgilaydi."
+        - "title":
+            "en": "Use Kok-Tobe for the lighter view"
+            "ru": "Используйте Кок-Тобе для лёгкого вида"
+            "uz": "Yengil ko‘rinish uchun Koʻk-Tobeni tanlang"
+          "description":
+            "en": "Kok-Tobe explains the city shape without committing the visit to the higher valley."
+            "ru": "Кок-Тобе объясняет форму города без обязательства отдавать маршрут высокой долине."
+            "uz": "Koʻk-Tobe baland vodiyga kirib ketmasdan shahar shaklini tushuntiradi."
+        - "title":
+            "en": "Treat Medeu and Shymbulak as a weather choice"
+            "ru": "Считайте Медеу и Шымбулак погодным решением"
+            "uz": "Medeu va Shimbuloqni ob-havoga bogʻliq qaror deb ko‘ring"
+          "description":
+            "en": "The climb is close, but road time, lift status, snow, visibility, and clothing still matter."
+            "ru": "Подъём близко, но дорога, статус подъёмников, снег, видимость и одежда всё равно важны."
+            "uz": "Koʻtarilish yaqin, ammo yoʻl, lift holati, qor, koʻrinish va kiyim baribir ahamiyatli."
+        - "title":
+            "en": "Keep the bigger landscapes separate"
+            "ru": "Оставьте большие ландшафты отдельно"
+            "uz": "Katta landshaftlarni alohida qoldiring"
+          "description":
+            "en": "Charyn, Saty, Kolsai, Kaindy, Tamgaly, and Altyn-Emel are stronger as planned extensions, not add-ons to a city afternoon."
+            "ru": "Чарын, Саты, Кольсай, Каинды, Тамгалы и Алтын-Эмель сильнее как запланированные продолжения, а не добавки к городскому маршруту."
+            "uz": "Charyn, Saty, Kolsai, Kaindy, Tamgaly va Altyn-Emel shahar tushidan keyin qoʻshib yuboriladigan joylar emas, rejalangan davomlar sifatida kuchliroq."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nima ko‘rish"
+    "title":
+      "en": "Start with the city's mountain edge"
+      "ru": "Начните с горного края города"
+      "uz": "Shaharning togʻ chetidan boshlang"
+    "description":
+      "en": "The live public anchors are Kok-Tobe, Medeu, and Shymbulak. They show three versions of Almaty: quick viewpoint, high valley, and lift road."
+      "ru": "Живые публичные ориентиры — Кок-Тобе, Медеу и Шымбулак. Они показывают три версии Алматы: быстрый вид, высокую долину и дорогу к подъёмникам."
+      "uz": "Jonli ommaviy moʻljallar — Koʻk-Tobe, Medeu va Shimbuloq. Ular Olmaotaning uch xil holatini ko‘rsatadi: tez manzara, baland vodiy va lift yoʻli."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Medeu High-Mountain Sports Complex"
+          "ru": "Высокогорный спортивный комплекс Медеу"
+          "uz": "Medeu baland togʻ sport majmuasi"
+        "description":
+          "en": "Medeu is the point where Almaty stops feeling only urban. The road lifts into a cooler valley, the sports complex gives the mountains a clear focal point, and Shymbulak begins just beyond it."
+          "ru": "На Медеу Алматы перестаёт ощущаться только городом. Дорога уходит в прохладную долину, спортивный комплекс собирает взгляд, а за ним начинается подъём к Шымбулаку."
+          "uz": "Medeuda Olmaota faqat shahar sifatida sezilmay qoladi. Yoʻl salqin vodiyga koʻtariladi, sport majmuasi nigohni jamlaydi, uning ortidan Shimbuloqqa chiqish boshlanadi."
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/almaty/medeu-high-mountain-sports-complex"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Shymbulak Mountain Resort"
+          "ru": "Горный курорт Шымбулак"
+          "uz": "Shimbuloq togʻ kurorti"
+        "description":
+          "en": "Shymbulak rises above the Medeu valley on Almaty's southern mountain edge. In one outing, the city gives way to gondola stations, colder air, ridge views, cafes or walking paths, and winter slopes when the season allows. Treat it as the mountain part of the day: check weather, li"
+          "ru": "Шымбулак расположен выше долины Медеу на южном горном краю Алматы. За один выезд город сменяется станциями канатной дороги, более холодным воздухом, видами на хребет, кафе или прогулками, а зимой — горными склонами, если сезон и погода позволяют. Это отдельная горная часть дня: п"
+          "uz": "Shimbuloq Olmaotaning janubiy togʻ chetida, Medeu vodiysidan yuqorida joylashgan. Bir safarda shahar kanat yoʻli stansiyalari, salqinroq havo, tizma manzaralari, kafe yoki sayr yoʻllari bilan almashadi; qorli mavsumda esa yonbagʻirlar ham safarning bir qismiga aylanishi mumkin. U"
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/almaty/shymbulak-mountain-resort"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Kok-Tobe Hill"
+          "ru": "Холм Кок-Тобе"
+          "uz": "Koʻk-Tobe tepaligi"
+        "description":
+          "en": "Kok-Tobe rises close enough to central Almaty to feel like part of the city, but high enough to set the skyline against the Trans-Ili Alatau. In clear air, it gives a useful orientation view before a market, museum, dinner, or a separate Medeu-Shymbulak mountain plan."
+          "ru": "Кок-Тобе находится достаточно близко к центру, чтобы оставаться частью Алматы, и достаточно высоко, чтобы показать город на фоне Заилийского Алатау. В ясную погоду это удобный вид для ориентации перед рынком, музеем, ужином или отдельным выездом к Медеу и Шымбулаку."
+          "uz": "Koʻk-Tobe markaziy Olmaotaga yaqin bo‘lgani uchun shahar qismidek tuyuladi, balandligi esa shaharni Iliorti Olatovi fonida ko‘rsatadi. Havo ochiq bo‘lsa, u bozor, muzey, kechki ovqat yoki alohida Medeu-Shimbuloq rejasi oldidan yaxshi manzara beradi."
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/almaty/kok-tobe-hill"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Panfilov Park in Almaty"
+          "ru": "Парк Панфиловцев в Алматы"
+          "uz": "Olmaotadagi Panfilov bogʻi"
+        "description":
+          "en": "Panfilov Park is a small central green space with more weight than its size suggests. Trees and benches soften the street noise, the Memorial of Glory asks for a respectful pause, and Ascension Cathedral gives the park its most recognizable wooden silhouette."
+          "ru": "Парк Панфиловцев — небольшое зелёное пространство в центре Алматы, но смысл у него шире, чем размер. Деревья и скамейки смягчают шум улиц, Мемориал Славы требует уважительного тона, а Вознесенский собор даёт парку самый узнаваемый деревянный силуэт."
+          "uz": "Panfilov bogʻi Olmaota markazidagi kichik yashil makon, lekin uning mazmuni hajmidan kengroq. Daraxtlar va oʻrindiqlar koʻcha shovqinini yumshatadi, Shon-sharaf yodgorligi bu yerda ohangni sokin tutishni eslatadi, Voznesenskiy sobori esa bogʻga eng tanish yogʻoch siluetni beradi."
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/almaty/panfilov-park"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Ascension Cathedral in Almaty"
+          "ru": "Вознесенский собор в Алматы"
+          "uz": "Olmaotadagi Voznesenskiy sobori"
+        "description":
+          "en": "Ascension Cathedral rises from the trees of Panfilov Park with painted timber, domes, and an active church life behind the doors. It gives a central Almaty walk a strong architectural anchor while staying tied to the park, memorial paths, and city movement around it."
+          "ru": "Вознесенский собор поднимается среди деревьев Парка Панфиловцев: расписное дерево, купола и живая церковная среда за дверями. Он даёт прогулке по центру Алматы сильный архитектурный ориентир и остаётся связанным с парком, мемориальными аллеями и движением города вокруг."
+          "uz": "Voznesenskiy sobori Panfilov bogʻi daraxtlari orasidan koʻtariladi: boʻyalgan yogʻoch, gumbazlar va eshik ortidagi amaldagi cherkov hayoti. U markaziy Olmaota sayriga kuchli arxitektura markazini beradi va bogʻ, xotira yoʻlaklari hamda shahar harakati bilan birga qoladi."
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/almaty/ascension-cathedral-zenkov-cathedral"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Green Bazaar in Almaty"
+          "ru": "Зелёный базар в Алматы"
+          "uz": "Olmaotadagi Koʻk bozor"
+        "description":
+          "en": "Green Bazaar brings the city indoors around sellers arranging dried fruit, spice counters, fresh produce, canteens, and shoppers here for normal errands. After Panfilov Park or before Kok-Tobe and the foothills, it gives a central Almaty walk a warmer, more everyday pulse."
+          "ru": "Зелёный базар собирает город под одной крышей: продавцы раскладывают сухофрукты, рядом тянутся ряды со специями, свежими продуктами, столовыми и покупателями, пришедшими по обычным делам. После Парка Панфиловцев или перед Кок-Тобе и предгорьями он даёт центральной прогулке по Алм"
+          "uz": "Koʻk bozor shaharni bir joyga yigʻadi: sotuvchilar quruq mevalarni teradi, yonida ziravorlar, yangi mahsulotlar, oshxonalar va oddiy xarid uchun kelgan odamlar yuradi. Panfilov bogʻidan keyin yoki Koʻk-Tobe va togʻoldi tomonga chiqishdan oldin u Olmaota markazidagi sayrga iliqroq"
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/almaty/green-bazaar"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City moments"
+      "ru": "Городские моменты"
+      "uz": "Shahar lahzalari"
+    "title":
+      "en": "How Almaty becomes a journey"
+      "ru": "Как Алматы становится путешествием"
+      "uz": "Olmaota qanday sayohatga aylanadi"
+    "description":
+      "en": "These moments keep Almaty human before the route widens into the mountains: skyline, high air, and the first viewpoint."
+      "ru": "Эти моменты сохраняют человеческий масштаб Алматы до того, как маршрут расширится в горы: горизонт, высокий воздух и первая видовая точка."
+      "uz": "Bu lahzalar yoʻnalish kengroq togʻlarga chiqishidan oldin Olmaotaning insoniy miqyosini saqlaydi: ufq, baland havo va birinchi manzara."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan/character/almaty/almaty-character-1.webp"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Foothill city skyline"
+          "ru": "Горизонт предгорного города"
+          "uz": "Togʻoldi shahar ufqi"
+        "description":
+          "en": "Green districts, broad avenues, and the Tian Shan behind them make Almaty's setting visible before any mountain road begins."
+          "ru": "Зелёные районы, широкие проспекты и Тянь-Шань за ними показывают положение Алматы ещё до первой горной дороги."
+          "uz": "Yashil tumanlar, keng ko‘chalar va ortdagi Tyanshan togʻ yoʻli boshlanmasidan oldin ham Olmaota joylashuvini ko‘rsatadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Kok-Tobe first view"
+          "ru": "Первый вид с Кок-Тобе"
+          "uz": "Koʻk-Tobedagi birinchi manzara"
+        "description":
+          "en": "A lighter climb above the center gives travelers Almaty's shape: city grid, foothills, and mountain edge in one frame."
+          "ru": "Лёгкий подъём над центром даёт путешественнику форму Алматы: городскую сетку, предгорья и горный край в одном кадре."
+          "uz": "Markaz ustidagi yengil koʻtarilish sayohatchiga Olmaota shaklini beradi: shahar to‘ri, togʻoldi va togʻ cheti bir kadrda."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan/character/almaty/almaty-character-3.webp"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Medeu and Shymbulak air"
+          "ru": "Воздух Медеу и Шымбулака"
+          "uz": "Medeu va Shimbuloq havosi"
+        "description":
+          "en": "Treat the higher valley as a weather-aware climb: close to the city, but shaped by road time, lift status, visibility, and temperature."
+          "ru": "Считайте высокую долину погодным подъёмом: она близко к городу, но зависит от дороги, подъёмников, видимости и температуры."
+          "uz": "Baland vodiyni ob-havo bilan tanlanadigan koʻtarilish deb ko‘ring: u shaharga yaqin, lekin yoʻl, lift holati, ko‘rinish va haroratga bogʻliq."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "Let Almaty keep two tempos"
+      "ru": "Дайте Алматы два темпа"
+      "uz": "Olmaotaga ikki surʼat bering"
+    "description":
+      "en": "The city is comfortable, but it can lose its shape when every famous name is squeezed into one plan. Treat the city floor and the mountain edge as two related decisions."
+      "ru": "Город удобный, но теряет форму, если пытаться соединить все известные названия сразу. Планируйте городскую часть и горный край как два связанных решения."
+      "uz": "Shahar qulay, ammo hamma mashhur nomlarni birdaniga ulashga urinilsa, uning shakli yoʻqoladi. Shahar qismi va togʻ chetini bir-biriga bogʻliq ikki qaror sifatida rejalang."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "City floor"
+              "ru": "Городская часть"
+              "uz": "Shahar qismi"
+            "description":
+              "en": "A first walk, meal, or market hour helps travelers understand Almaty before the route points uphill."
+              "ru": "Первая прогулка, еда или час на рынке помогают понять Алматы до того, как маршрут пойдёт вверх."
+              "uz": "Birinchi sayr, ovqat yoki bozor soati yoʻl yuqoriga burilishidan oldin Olmaotani tushunishga yordam beradi."
+          - "type": "quote"
+            "quote":
+              "en": "Almaty opens best when the city explains the mountains before the road climbs into them."
+              "ru": "Алматы лучше раскрывается, когда город объясняет горы до того, как дорога начинает подниматься."
+              "uz": "Olmaota avval shahar togʻlarni tushuntirib berganda, keyin yoʻl yuqoriga ko‘tarilganda yaxshiroq ochiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "One climb"
+              "ru": "Один подъём"
+              "uz": "Bitta koʻtarilish"
+            "description":
+              "en": "Choose Kok-Tobe, or choose the Medeu-Shymbulak road; combining every high stop usually weakens the visit."
+              "ru": "Выберите Кок-Тобе или дорогу Медеу-Шымбулак; попытка соединить все высокие точки обычно ослабляет маршрут."
+              "uz": "Koʻk-Tobeni tanlang yoki Medeu-Shimbuloq yoʻlini tanlang; barcha baland nuqtalarni birga ulash odatda marshrutni zaiflashtiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Wider region"
+              "ru": "Шире в регион"
+              "uz": "Kengroq mintaqa"
+            "description":
+              "en": "Charyn, Saty, Kolsai, Kaindy, Tamgaly, Altyn-Emel, and the Assy Plateau deserve route space, current road checks, and season-aware timing."
+              "ru": "Чарын, Саты, Кольсай, Каинды, Тамгалы, Алтын-Эмель и плато Ассы требуют места в маршруте, актуальных дорожных проверок и сезонного тайминга."
+              "uz": "Charyn, Saty, Kolsai, Kaindy, Tamgaly, Altyn-Emel va Assy platosi yoʻnalishda alohida joy, joriy yoʻl tekshiruvi va mavsumiy vaqt talab qiladi."
+          - "type": "alert"
+            "title":
+              "en": "For the traveler"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Stay with the city long enough to understand it, then widen the route only as far as the season, roads, and traveler energy support."
+              "ru": "Задержитесь в городе достаточно, чтобы понять его, а затем расширяйте маршрут настолько, насколько позволяют сезон, дороги и силы путешественников."
+              "uz": "Shaharda uni tushunishga yetadigan vaqt qoling, keyin yoʻnalishni faqat mavsum, yoʻllar va sayohatchi kuchi qoʻllagan darajada kengaytiring."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Good to know Stay"
+                  "ru": "Коротко Ночёвки"
+                  "uz": "Qisqacha Tunash"
+                "description":
+                  "en": "Two nights give a calm city visit and one close mountain choice; add more for Charyn, Kolsai, Kaindy, Tamgaly, or Altyn-Emel."
+                  "ru": "Две ночи дают спокойный город и один близкий горный выбор; для Чарына, Кольсая, Каинды, Тамгалы или Алтын-Эмеля нужно больше времени."
+                  "uz": "Ikki tun sokin shahar tashrifi va bitta yaqin togʻ tanlovini beradi; Charyn, Kolsai, Kaindy, Tamgaly yoki Altyn-Emel uchun ko‘proq vaqt qoʻshing."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Yoʻnalishdagi roli"
+                "description":
+                  "en": "Arrival city, former-capital culture, and a natural start for southeast Kazakhstan's mountain routes."
+                  "ru": "Город прибытия, культура бывшей столицы и естественное начало горных маршрутов юго-восточного Казахстана."
+                  "uz": "Kelish shahri, sobiq poytaxt madaniyati va janubi-sharqiy Qozogʻiston togʻ yoʻllari uchun tabiiy boshlanish."
+              - "icon": "Sun"
+                "title":
+                  "en": "Weather and roads"
+                  "ru": "Погода и дороги"
+                  "uz": "Ob-havo va yoʻllar"
+                "description":
+                  "en": "High-mountain and remote-road plans need same-week checks for lifts, snow, visibility, access, and drive time."
+                  "ru": "Высокогорье и дальние дороги требуют проверок на той же неделе: подъёмники, снег, видимость, доступ и время в пути."
+                  "uz": "Baland togʻ va uzoq yoʻl rejalari uchun liftlar, qor, koʻrinish, kirish va yoʻl vaqtini shu hafta ichida tekshirish kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqin joylar"
+    "title":
+      "en": "Where Almaty can lead next"
+      "ru": "Куда может вести Алматы"
+      "uz": "Olmaota keyin qayerga olib borishi mumkin"
+    "description":
+      "en": "After the city, the route can stay in the northern Tian Shan, cross to the capital, or continue south toward Kazakhstan's heritage corridor."
+      "ru": "После города маршрут может остаться в Северном Тянь-Шане, перейти к столице или продолжиться на юг к наследию Казахстана."
+      "uz": "Shahardan keyin yoʻnalish Shimoliy Tyanshanda qolishi, poytaxtga oʻtishi yoki Qozogʻiston meros yoʻli bo‘ylab janubga davom etishi mumkin."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Saty"
+          "ru": "Саты"
+          "uz": "Saty"
+        "description":
+          "en": "Saty makes the Kolsai and Kaindy route calmer: a village night, a guesthouse meal, an early road, and local checks before the lake valleys."
+          "ru": "Саты делает путь к Кольсаю и Каинды спокойнее: ночь в селе, ужин в гостевом доме, ранний выезд и местные проверки перед озерными долинами."
+          "uz": "Saty Kolsai va Qayindy yo‘lini sokinroq qiladi: qishloqda tunash, mehmon uyidagi ovqat, erta yo‘lga chiqish va ko‘l vodiylaridan oldingi mahalliy tekshiruvlar."
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/saty"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan/next/almaty-next-charyn-canyon.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Charyn Canyon"
+          "ru": "Чарынский каньон"
+          "uz": "Charyn kanyoni"
+        "description":
+          "en": "Charyn Canyon is the red-rock stop east of Almaty where Valley of Castles timing, park access, heat, and the next road all shape the route."
+          "ru": "Чарынский каньон к востоку от Алматы требует отдельного решения: Долина замков, доступ в парк, жара, прогулка и следующая дорога."
+          "uz": "Charyn kanyoni Almatydan sharqda qizil qoyalar, Qal’alar vodiysi, park kirishi, issiq va keyingi yo‘l qarorini bir joyga jamlaydi."
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/charyn-canyon"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan/next/almaty-next-astana.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Astana"
+          "ru": "Астана"
+          "uz": "Ostona"
+        "description":
+          "en": "Astana brings Kazakhstan’s modern capital into the route: Baiterek on the Left Bank, Nur Alem, the National Museum, Ishim River wind, and northern continuations toward Burabay or Korgalzhyn."
+          "ru": "Астана показывает современную столицу Казахстана: Байтерек на Левом берегу, Nur Alem, Национальный музей, ветер у Ишима и северные продолжения к Бурабаю или Коргалжыну."
+          "uz": "Ostona Qozogʻistonning zamonaviy poytaxtini marshrutga olib kiradi: chap qirgʻoqdagi Bayterek, Nur Alem, Milliy muzey, Ishim shamoli va Burabay yoki Qoʻrgʻaljin tomonga shimoliy davomlar."
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/astana"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Turkistan"
+          "ru": "Туркестан"
+          "uz": "Turkiston"
+        "description":
+          "en": "Turkistan brings southern Kazakhstan into focus through the Yasawi mausoleum, Azret Sultan, pilgrim courtyards, and roads toward Otrar, Sauran, and Shymkent."
+          "ru": "Туркестан собирает южный Казахстан вокруг мавзолея Ясави, «Азрет Султан», паломнических дворов и дорог к Отрару, Саурану и Шымкенту."
+          "uz": "Turkiston janubiy Qozogʻistonni Yasaviy maqbarasi, Azret Sulton, ziyorat hovlilari va Oʻtror, Sauran, Chimkent tomonga yoʻllar orqali tushunarli qiladi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/turkistan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Almaty in the day plan"
+      "ru": "Как поставить Алматы в план дня"
+      "uz": "Olmaotani kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Almaty?"
+          "ru": "Сколько времени группам стоит проводить в Алматы?"
+          "uz": "Olmaotada guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Foothill streets under the Trans-Ili Alatau”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Предгорные улицы под Заилийским Алатау»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Zailiy Olatovi ostidagi togʻoldi koʻchalari»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Almaty be a walkable core or a base for day trips?"
+          "ru": "Алматы — это пешеходное ядро или база для выездов?"
+          "uz": "Olmaota piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Almaty's centre?"
+          "ru": "Где лучше ночевать относительно центра Алматы?"
+          "uz": "Olmaota markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan/regions/almaty-and-northern-tian-shan/cities/almaty.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Almaty stop into your Kazakhstan programme"
+      "ru": "Встройте остановку «Алматы» в программу (Казахстан)"
+      "uz": "Olmaota bekatini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Almaty | TourLink"
+    "ru": "Алматы | TourLink"
+    "uz": "Olmaota | TourLink"
+  "metaDescription":
+    "en": "Almaty does not need an immediate climb to feel shaped by the mountains. The visit begins with trees, traffic, coffee, market noise, and the former capital's civic scale; then the route can rise to Kok-Tobe, Medeu, or Shymbulak when weather, lift status, and the traveler’s pace support it."
+    "ru": "Алматы не нужно сразу подниматься в горы, чтобы чувствоваться городом у хребта. Сначала идут деревья, трафик, кофе, рынок и масштаб бывшей столицы; затем маршрут может подняться к Кок-Тобе, Медеу или Шымбулаку, если погода, подъёмники и темп путешествия позволяют."
+    "uz": "Olmaota togʻ kayfiyatini berishi uchun darhol balandlikka shoshilmaydi. Avval daraxtlar, tirbandlik, qahva, bozor shovqini va sobiq poytaxtning shahar miqyosi keladi; keyin ob-havo, lift holati va sayohatchi surʼati mos boʻlsa, yoʻl Koʻk-Tobe, Medeu yoki Shimbuloqqa koʻtariladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "almaty-and-northern-tian-shan"
+"latitude": 43.2363924
+"longitude": 76.9457275

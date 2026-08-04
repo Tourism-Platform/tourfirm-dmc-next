@@ -1,0 +1,570 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "nurata-aydarkul-and-kyzylkum"
+  "ru": "nurata-aydarkul-and-kyzylkum"
+  "uz": "nurata-aydarkul-and-kyzylkum"
+"title":
+  "en": "Nurata, Aydarkul & Kyzylkum"
+  "ru": "Нурата, Айдаркуль и Кызылкум"
+  "uz": "Nurota, Aydarko‘l va Qizilqum"
+"subtitle":
+  "en": "Road portals, rock art, Chashma spring, desert lake, and foothill villages"
+  "ru": "Дорожные порталы, петроглифы, Чашма, озеро в пустыне и предгорные сёла"
+  "uz": "Yo‘l peshtoqlari, petrogliflar, Chashma bulog‘i, cho‘l ko‘li va tog‘oldi qishloqlari"
+"excerpt":
+  "en": "Between Samarkand, Bukhara, and the Kyzylkum, this region turns the journey from monument streets toward open land. Rabat-i Malik and its Sardoba show how road travel depended on water; Sarmyshsay brings the route close to petroglyph stone; Nurata gathers Chashma, mosque courtyards, and fortress traces; Aydarkul widens the view to lake shore; Sentyab and nearby foothill roads add village paths, guesthouse tables, and cooler night air."
+  "ru": "Между Самаркандом, Бухарой и Кызылкумом этот регион уводит путешествие от улиц с памятниками к открытой земле. Рабат-и Малик и его сардоба показывают, как дорога зависела от воды; Сармышсай подводит маршрут к камню с петроглифами; Нурата собирает Чашму, дворы мечетей и следы крепости; Айдаркуль расширяет вид до берега озера; Сентоб и близкие предгорные дороги добавляют сельские тропы, столы гостевых домов и более прохладный ночной воздух."
+  "uz": "Samarqand, Buxoro va Qizilqum orasida bu mintaqa sayohatni yodgorlikli ko‘chalardan ochiq yer tomonga olib chiqadi. Rabat-i Malik va uning sardobasi yo‘l suvga qanday bog‘liq bo‘lganini ko‘rsatadi; Sarmishsoy yo‘lni petroglifli toshga yaqinlashtiradi; Nurota Chashma, masjid hovlilari va qalʼa izlarini jamlaydi; Aydarko‘l manzarani ko‘l qirg‘og‘igacha kengaytiradi; Sentob va yaqin tog‘oldi yo‘llari qishloq so‘qmoqlari, mehmon uylari dasturxoni va salqinroq tungi havoni qo‘shadi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum.webp"
+    "imageAlt":
+      "en": "Nurata, Aydarkul & Kyzylkum"
+      "ru": "Нурата, Айдаркуль и Кызылкум"
+      "uz": "Nurota, Aydarko‘l va Qizilqum"
+    "title":
+      "en": "Nurata, Aydarkul & Kyzylkum"
+      "ru": "Нурата, Айдаркуль и Кызылкум"
+      "uz": "Nurota, Aydarko‘l va Qizilqum"
+    "description":
+      "en": "Road portals, rock art, Chashma spring, desert lake, and foothill villages"
+      "ru": "Дорожные порталы, петроглифы, Чашма, озеро в пустыне и предгорные сёла"
+      "uz": "Yo‘l peshtoqlari, petrogliflar, Chashma bulog‘i, cho‘l ko‘li va tog‘oldi qishloqlari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О регионе"
+      "uz": "Hudud haqida"
+    "title":
+      "en": "Nurata, Aydarkul & Kyzylkum"
+      "ru": "Нурата, Айдаркуль и Кызылкум"
+      "uz": "Nurota, Aydarko‘l va Qizilqum"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Between Samarkand, Bukhara, and the Kyzylkum, this region turns the journey from monument streets toward open land."
+              "ru": "Между Самаркандом, Бухарой и Кызылкумом этот регион уводит путешествие от улиц с памятниками к открытой земле."
+              "uz": "Samarqand, Buxoro va Qizilqum orasida bu mintaqa sayohatni yodgorlikli ko‘chalardan ochiq yer tomonga olib chiqadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Start with Rabat-i Malik and the Sardoba on the Navoi road, then continue toward Sarmyshsay rock art, Chashma in Nurata, Aydarkul shore, and Sentyab's foothill village paths before the Kyzylkum night."
+              "ru": "Сначала идут Рабат-и Малик и сардоба на дороге у Навои, затем маршрут продолжается к петроглифам Сармышсая, Чашме в Нурате, берегу Айдаркуля и предгорным сельским тропам Сентоба перед ночью Кызылкума."
+              "uz": "Avval Navoiy yo‘lidagi Rabat-i Malik va Sardoba ko‘rinadi, keyin yo‘l Sarmishsoy petrogliflari, Nurotadagi Chashma, Aydarko‘l qirg‘og‘i va Qizilqum tunidan oldingi Sentob tog‘oldi qishloq yo‘llariga davom etadi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Together they show why this is not only a transfer road: caravanserai brick and stored water, dark petroglyph stone, Chashma spring, blue lake edge, and village paths below the Nuratau foothills."
+              "ru": "Вместе они показывают, что это не просто переезд: кирпич караван-сарая и сохранённая вода, тёмный камень с петроглифами, Чашма, синий берег озера и сельские тропы у предгорий Нуратау."
+              "uz": "Ular birga bu yo‘l faqat ko‘chish emasligini ko‘rsatadi: karvonsaroy g‘ishti va saqlangan suv, qoramtir petroglif toshi, Chashma bulog‘i, ko‘k ko‘l cheti va Nurota tog‘oldidagi qishloq yo‘llari."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Nurata, Aydarkul & Kyzylkum as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Нурата, Айдаркуль и Кызылкум как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Nurota, Aydarko‘l va Qizilqum o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "Road heritage first, then spring, lake, and desert air"
+      "ru": "Сначала дорожное наследие, затем источник, озеро и воздух пустыни"
+      "uz": "Avval yo‘l merosi, keyin buloq, ko‘l va cho‘l havosi"
+    "description":
+      "en": "Start with Rabat-i Malik and the Sardoba on the Navoi road, then continue toward Sarmyshsay rock art, Chashma in Nurata, Aydarkul shore, and Sentyab's foothill village paths before the Kyzylkum night."
+      "ru": "Сначала идут Рабат-и Малик и сардоба на дороге у Навои, затем маршрут продолжается к петроглифам Сармышсая, Чашме в Нурате, берегу Айдаркуля и предгорным сельским тропам Сентоба перед ночью Кызылкума."
+      "uz": "Avval Navoiy yo‘lidagi Rabat-i Malik va Sardoba ko‘rinadi, keyin yo‘l Sarmishsoy petrogliflari, Nurotadagi Chashma, Aydarko‘l qirg‘og‘i va Qizilqum tunidan oldingi Sentob tog‘oldi qishloq yo‘llariga davom etadi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route anchors"
+        "ru": "Опоры маршрута"
+        "uz": "Yo‘l tayanchlari"
+      "title":
+        "en": "From Rabat-i Malik and Sardoba to Sentyab"
+        "ru": "От Рабат-и Малика и сардобы к Сентобу"
+        "uz": "Rabat-i Malik va Sardobadan Sentobgacha"
+      "description":
+        "en": "The map shows the sequence: Rabat-i Malik and the Sardoba on the Navoi road, Sarmyshsay rock art, Chashma in Nurata, Aydarkul shore, and Sentyab below the Nuratau foothills."
+        "ru": "Карта показывает последовательность: Рабат-и Малик и сардоба на дороге у Навои, петроглифы Сармышсая, Чашма в Нурате, берег Айдаркуля и Сентоб у предгорий Нуратау."
+        "uz": "Xarita ketma-ketlikni ko‘rsatadi: Navoiy yo‘lidagi Rabat-i Malik va Sardoba, Sarmishsoy petrogliflari, Nurotadagi Chashma, Aydarko‘l qirg‘og‘i va Nurota tog‘oldidagi Sentob."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.439552
+      "longitude": 65.846285
+    "zoom": 9
+    "stops":
+      - "entityType": "city"
+        "entitySlug": "rabat-i-malik"
+      - "entityType": "attraction"
+        "entitySlug": "sardoba-rabat-i-malik"
+      - "entityType": "city"
+        "entitySlug": "sarmyshsay"
+      - "entityType": "city"
+        "entitySlug": "nurata"
+      - "entityType": "city"
+        "entitySlug": "aydarkul"
+      - "entityType": "city"
+        "entitySlug": "sentyab"
+    "aside":
+      "eyebrow":
+        "en": "Main anchors"
+        "ru": "Главные опоры"
+        "uz": "Asosiy tayanchlar"
+      "title":
+        "en": "Rabat-i Malik, Sarmyshsay, Nurata, Aydarkul, Sentyab"
+        "ru": "Рабат-и Малик, Сармышсай, Нурата, Айдаркуль, Сентоб"
+        "uz": "Rabat-i Malik, Sarmishsoy, Nurota, Aydarko‘l, Sentob"
+      "description":
+        "en": "Together they show why this is not only a transfer road: caravanserai brick and stored water, dark petroglyph stone, Chashma spring, blue lake edge, and village paths below the Nuratau foothills."
+        "ru": "Вместе они показывают, что это не просто переезд: кирпич караван-сарая и сохранённая вода, тёмный камень с петроглифами, Чашма, синий берег озера и сельские тропы у предгорий Нуратау."
+        "uz": "Ular birga bu yo‘l faqat ko‘chish emasligini ko‘rsatadi: karvonsaroy g‘ishti va saqlangan suv, qoramtir petroglif toshi, Chashma bulog‘i, ko‘k ko‘l cheti va Nurota tog‘oldidagi qishloq yo‘llari."
+      "items":
+        - "title":
+            "en": "Rabat-i Malik gives the road its first image"
+            "ru": "Рабат-и Малик даёт дороге первый образ"
+            "uz": "Rabat-i Malik yo‘lga birinchi obraz beradi"
+          "description":
+            "en": "The Karakhanid portal and nearby Sardoba turn the Navoi road into a Silk Road stop of brick, heat, shade, and stored water."
+            "ru": "Караханидский портал и близкая сардоба превращают дорогу у Навои в остановку Шёлкового пути: кирпич, жара, тень и сохранённая вода."
+            "uz": "Qoraxoniylar peshtoqi va yaqin Sardoba Navoiy yo‘lini g‘isht, issiq, soya va saqlangan suvga ega Ipak yo‘li bekatiga aylantiradi."
+          "badge":
+            "en": "Rabat-i Malik"
+            "ru": "Рабат-и Малик"
+            "uz": "Rabat-i Malik"
+        - "title":
+            "en": "Chashma brings water into the desert route"
+            "ru": "Чашма вводит воду в пустынный маршрут"
+            "uz": "Chashma cho‘l yo‘liga suv olib kiradi"
+          "description":
+            "en": "Chashma's spring, mosque courtyard, fish pool, and fortress traces make Nurata a clear stop before the road moves toward sand and lake."
+            "ru": "Источник Чашма, двор мечети, бассейн с рыбами и следы крепости делают Нурату понятной остановкой перед дорогой к песку и озеру."
+            "uz": "Chashma bulog‘i, masjid hovlisi, baliqli hovuz va qalʼa izlari Nurotani qum va ko‘l yo‘lidan oldingi tushunarli bekatga aylantiradi."
+          "badge":
+            "en": "Nurata"
+            "ru": "Нурата"
+            "uz": "Nurota"
+        - "title":
+            "en": "Aydarkul opens the horizon to water"
+            "ru": "Айдаркуль открывает горизонт к воде"
+            "uz": "Aydarko‘l ufqni suvga ochadi"
+          "description":
+            "en": "Lake shore, reeds, bird movement, and pale sand make the Kyzylkum edge feel broad rather than empty."
+            "ru": "Берег озера, камыш, движение птиц и светлый песок делают край Кызылкума широким, а не пустым."
+            "uz": "Ko‘l qirg‘og‘i, qamish, qushlar harakati va och qum Qizilqum chetini bo‘sh emas, keng his qildiradi."
+          "badge":
+            "en": "Aydarkul"
+            "ru": "Айдаркуль"
+            "uz": "Aydarko‘l"
+        - "title":
+            "en": "Sentyab adds foothill paths and village life"
+            "ru": "Сентоб добавляет предгорные тропы и сельскую жизнь"
+            "uz": "Sentob tog‘oldi so‘qmoqlari va qishloq hayotini qo‘shadi"
+          "description":
+            "en": "Guesthouse courtyards, village paths, stone slopes, and table conversations bring the route below the Nuratau foothills."
+            "ru": "Дворы гостевых домов, сельские тропы, каменные склоны и разговоры за столом ведут маршрут к предгорьям Нуратау."
+            "uz": "Mehmon uylari hovlilari, qishloq yo‘llari, tosh yonbag‘irlar va dasturxon atrofidagi suhbatlar yo‘lni Nurota tog‘oldiga olib boradi."
+          "badge":
+            "en": "Sentyab"
+            "ru": "Сентоб"
+            "uz": "Sentob"
+        - "title":
+            "en": "The desert changes after sunset"
+            "ru": "Пустыня меняется после заката"
+            "uz": "Cho‘l quyosh botgandan keyin o‘zgaradi"
+          "description":
+            "en": "After the lake and village roads, cooler air and a wider sky make the route feel different from the heritage cities."
+            "ru": "После озера и сельских дорог более прохладный воздух и широкое небо дают маршруту ощущение, не похожее на города наследия."
+            "uz": "Ko‘l va qishloq yo‘llaridan keyin salqinroq havo va keng osmon yo‘lga meros shaharlariga o‘xshamaydigan tuyg‘u beradi."
+          "badge":
+            "en": "Night"
+            "ru": "Ночь"
+            "uz": "Tun"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region character"
+      "ru": "Характер региона"
+      "uz": "Mintaqa xarakteri"
+    "title":
+      "en": "Where the city route opens into water, stone, and desert"
+      "ru": "Где городской маршрут открывается к воде, камню и пустыне"
+      "uz": "Shahar yo‘li suv, tosh va cho‘lga ochiladigan joy"
+    "description":
+      "en": "Nurata, Aydarkul, and the Kyzylkum edge sit between monumental cities and open land. The value here is not another grand facade, but the shift into spring water, petroglyph stone, village hospitality, lake wind, and distance.
+
+
+        «The middle of Uzbekistan can be quiet without feeling empty.»"
+      "ru": "Нурата, Айдаркуль и край Кызылкума лежат между монументальными городами и открытой землёй. Ценность здесь не в ещё одном большом фасаде, а в переходе к воде источника, камню с петроглифами, сельскому гостеприимству, ветру у озера и чувству расстояния.
+
+
+        «Середина Узбекистана может быть тихой и при этом не пустой.»"
+      "uz": "Nurota, Aydarko‘l va Qizilqum cheti monumental shaharlar bilan ochiq yer orasida turadi. Bu yerning qadri yana bir katta peshtoqda emas, balki buloq suvi, petroglif toshi, qishloq mehmondo‘stligi, ko‘l shamoli va masofa hissiga o‘tishda.
+
+
+        «O‘zbekistonning o‘rtasi sokin bo‘lib, bo‘sh tuyilmasligi mumkin.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region anchors"
+      "ru": "Опоры региона"
+      "uz": "Mintaqa tayanchlari"
+    "title":
+      "en": "Five anchors for the desert-edge route"
+      "ru": "Пять опор маршрута у края пустыни"
+      "uz": "Cho‘l chetidagi yo‘lning besh tayanchi"
+    "description":
+      "en": "The route starts clearest with these five anchors. Wider journeys can use Navoi or Karmana road context, continue toward Yangikazgan yurt-camp roads, or touch longer Kyzylkum edges such as Uchkuduk only when timing and local access make sense."
+      "ru": "Маршрут понятнее всего начинается с этих пяти опор. Более широкие поездки могут учитывать дорогу через Навои или Карману, уходить к юртовым дорогам Янгигазгана или затрагивать дальние края Кызылкума, включая Учкудук, только когда это оправдано временем и местными условиями."
+      "uz": "Yo‘l avvalo shu besh tayanch orqali ravshanlashadi. Kengroq sayohatlar Navoiy yoki Karmana yo‘l kontekstini, Yangigazgan o‘tov yo‘llarini yoki Uchkuduk kabi uzoq Qizilqum chetlarini faqat vaqt va mahalliy sharoit mos bo‘lganda qo‘shishi mumkin."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/nurata.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Nurata"
+          "ru": "Нурата"
+          "uz": "Nurota"
+        "description":
+          "en": "Nurata gives the desert route a first moment of water and shade. At Chashma, spring water, the mosque courtyard, fish in the pool, and the old fortress hill make the town feel calm before the road turns toward Aydarkul or Sentyab."
+          "ru": "Нурата даёт пустынному маршруту первое ощущение воды и тени. У Чашмы источник, двор мечети, рыбы в бассейне и холм старой крепости делают город спокойным перед дорогой к Айдаркулю или Сентобу."
+          "uz": "Nurota cho‘l yo‘liga suv va soyaning birinchi hissini beradi. Chashmada buloq suvi, masjid hovlisi, hovuzdagi baliqlar va eski qalʼa tepaligi Aydarko‘l yoki Sentob tomon yo‘ldan oldin shaharni sokin qiladi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/nurata"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/aydarkul.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Aydarkul"
+          "ru": "Айдаркуль"
+          "uz": "Aydarko‘l"
+        "description":
+          "en": "Aydarkul is the lake stop on the Kyzylkum road: open shore, reeds in the wind, soft sand, seasonal bird movement, and a route back toward Nurata or Sentyab."
+          "ru": "Айдаркуль — озёрная остановка на дороге по Кызылкуму: открытый берег, камыш на ветру, мягкий песок, сезонное движение птиц и путь обратно к Нурате или Сентобу."
+          "uz": "Aydarko‘l Qizilqum yo‘lidagi ko‘l bekati: ochiq qirg‘oq, shamoldagi qamish, yumshoq qum, mavsumiy qushlar harakati va Nurota yoki Sentobga qaytadigan yo‘l."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/aydarkul"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/sentyab.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Sentob"
+          "ru": "Сентоб"
+          "uz": "Sentob"
+        "description":
+          "en": "Sentob sits below the Nuratau slopes where the road from Nurata begins to loosen toward Aydarkul and the Kyzylkum. Stone walls, narrow lanes, garden shade, and household tables make the stop feel personal before the route opens again to lake, reeds, sand, and desert air."
+          "ru": "Сентоб лежит у склонов Нуратау, где дорога от Нураты начинает раскрываться к Айдаркулю и Кызылкуму. Каменные стены, узкие улицы, садовая тень и домашний стол делают остановку личной, прежде чем маршрут снова выйдет к озеру, камышам, песку и воздуху пустыни."
+          "uz": "Sentob Nurota yonbag‘irlari etagida, Nurotadan chiqqan yo‘l Aydarko‘l va Qizilqum sari ochila boshlaydigan joyda joylashgan. Tosh devorlar, tor ko‘chalar, bog‘ soyasi va xonadon dasturxoni yo‘l yana ko‘l, qamish, qum va cho‘l havosiga ochilishidan oldin bekatni shaxsiy qiladi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/sentyab"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/sarmyshsay.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Sarmyshsay"
+          "ru": "Сармышсай"
+          "uz": "Sarmishsoy"
+        "description":
+          "en": "On the road between Nurata, Aydarkul, and the Kyzylkum, Sarmyshsay turns a wide route toward close stone. The gorge holds animal figures, hunting scenes, symbols, and later inscriptions under dark patina, so the strongest visit is guided, unrushed, and hands-off around the rock."
+          "ru": "На дороге между Нуратой, Айдаркулем и Кызылкумом Сармышсай переводит широкий маршрут к близкому камню. В ущелье под тёмной патиной держатся фигуры животных, сцены охоты, символы и более поздние надписи, поэтому место лучше смотреть с гидом, без спешки и без касания скал."
+          "uz": "Nurota, Aydarko‘l va Qizilqum orasidagi yo‘lda Sarmishsoy keng yo‘nalishni yaqin toshga olib keladi. Darada qoramtir patina ostida hayvon qiyofalari, ov sahnalari, belgilar va keyingi yozuvlar saqlangan; shu bois joy gid bilan, shoshilmasdan va qoya yuzalariga tegmasdan yaxshiroq"
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/sarmyshsay"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum/cities/rabat-i-malik.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Rabat-i Malik"
+          "ru": "Рабат-и Малик"
+          "uz": "Rabat-i Malik"
+        "description":
+          "en": "Near Navoi, Rabat-i Malik is a place to read the road rather than a city to walk through. The surviving caravanserai portal gives the plain a threshold; the nearby sardoba explains the water, shade, and rest that made movement possible."
+          "ru": "Рядом с Навои Рабат-и Малик лучше воспринимать не как город, а как место, где дорога становится понятной. Сохранившийся портал даёт равнине порог; сардоба рядом объясняет воду, тень и отдых, без которых движение было невозможно."
+          "uz": "Navoiy yaqinida Rabat-i Malik shahar bo‘ylab sayr emas, yo‘lni tushunarli qiladigan meros bekati. Saqlangan karvonsaroy peshtoqi tekislikka kirish nuqtasini beradi; yonidagi sardoba esa suv, soya va dam harakat uchun nega zarur bo‘lganini ko‘rsatadi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/rabat-i-malik"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что смотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Portal brick, rock art, spring water, lake shore"
+      "ru": "Кирпич портала, петроглифы, вода источника, берег озера"
+      "uz": "Peshtoq g‘ishti, petrogliflar, buloq suvi, ko‘l qirg‘og‘i"
+    "description":
+      "en": "The strongest moments are simple and physical: portal brick, stored water, carved stone, cool spring sound, sand, birds, stone paths, firelight, and conversations at a table."
+      "ru": "Самые сильные моменты простые и физические: кирпич портала, сохранённая вода, вырезанный камень, прохладный звук источника, песок, птицы, каменные тропы, свет костра и разговоры за столом."
+      "uz": "Eng kuchli lahzalar oddiy va jismoniy: peshtoq g‘ishti, saqlangan suv, o‘yilgan tosh, salqin buloq tovushi, qum, qushlar, tosh so‘qmoqlar, gulxan nuri va dasturxon atrofidagi suhbatlar."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Kichiksoy and Kattasoy village setting"
+          "ru": "Сельская среда Кичиксоя и Каттасоя"
+          "uz": "Kichiksoy va Kattasoy qishloq muhiti"
+        "description":
+          "en": "Kichiksoy opens first as a village setting. Kattasoy MFY, the approach road, and the quiet lanes give the stop its scale before any meal, craft, or longer pause is added."
+          "ru": "Кичиксой сначала раскрывается как сельская среда. КФЙ Каттасой, подъездная дорога и тихие улицы задают масштаб остановки до еды, ремесла или более долгой паузы."
+          "uz": "Kichiksoy avvalo qishloq muhiti sifatida ochiladi. Kattasoy MFY, kirish yo‘li va sokin ko‘chalar taom, hunar yoki uzoqroq pauzadan oldin bekatning miqyosini beradi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/kichiksoy/kichiksoy-kattasoy-village-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Mushkan mountain-side village setting"
+          "ru": "Горная сельская среда Мушкана"
+          "uz": "Mushkan tog‘ tomoni qishloq muhiti"
+        "description":
+          "en": "Begin with the village before adding the table, craft, music, or a longer stay. Mushkan needs a little space: mountain air, open village edges, and the slower approach from the Nurota side."
+          "ru": "До домашнего стола, ремесла, музыки или более долгой остановки важна сама сельская среда. Мушкану нужно немного пространства: горный воздух, открытые края села и неспешный подъезд со стороны Нураты."
+          "uz": "Xonadon dasturxoni, hunar, musiqa yoki uzoqroq bekatdan oldin qishloq muhitini his qilish muhim. Mushkanga biroz joy kerak: tog‘ havosi, qishloq chetlari va Nurota tomondan sekinroq kirish."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/mushkan/mushkan-nurata-foothill-village-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Angidon mountain village setting"
+          "ru": "Горное село Ангидон"
+          "uz": "Angidon tog‘ qishlog‘i muhiti"
+        "description":
+          "en": "Begin with the village itself. Angidon sits high in Khatirchi District, where the air, slopes, and slower road make the stop feel different from the lower Navoi line."
+          "ru": "Начните с самого села. Ангидон лежит высоко в Хатырчинском районе, где воздух, склоны и более спокойная дорога отличают остановку от нижней линии Навои."
+          "uz": "Avval qishloqning o‘zidan boshlang. Angidon Xatirchi tumanida balandroqda joylashgan; havo, yonbag‘irlar va sokinroq yo‘l uni Navoiy pastlik yo‘lidan ajratadi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/angidon/angidon-high-mountain-village-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Kichiksoy with Mushkan and Nurata"
+          "ru": "Кичиксой с Мушканом и Нуратой"
+          "uz": "Kichiksoy Mushkan va Nurota bilan"
+        "description":
+          "en": "This stop explains the movement around Kichiksoy: first the village pause, then nearby Mushkan, and finally the return toward Nurata, Sentob, Chuya, or Aydarkul."
+          "ru": "Эта остановка объясняет движение вокруг Кичиксоя: сначала сельская пауза, затем близкий Мушкан и возвращение к Нурате, Сентобу, Чуе или Айдаркулю."
+          "uz": "Bu bekat Kichiksoy atrofidagi harakatni tushuntiradi: avval qishloq pauzasi, keyin yaqin Mushkan va Nurota, Sentob, Chuya yoki Aydarko‘l tomonga qaytish."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/kichiksoy/kichiksoy-mushkan-nurata-service-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Kichiksoy history, landscape, and road approach"
+          "ru": "История, ландшафт и дорога Кичиксоя"
+          "uz": "Kichiksoy tarixi, landshafti va yo‘l kirishi"
+        "description":
+          "en": "This stop gives Kichiksoy a little more meaning without turning the village pause into a lecture: the road in, the Nurota-side landscape, and the reason Mushkan belongs nearby."
+          "ru": "Эта остановка добавляет Кичиксою немного смысла без превращения сельской паузы в лекцию: подъездная дорога, нуратинский ландшафт и причина держать Мушкан рядом."
+          "uz": "Bu bekat Kichiksoyga qishloq pauzasini maʼruzaga aylantirmasdan biroz maʼno qo‘shadi: kirish yo‘li, Nurota tomoni landshafti va Mushkanni yaqin tutish sababi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/kichiksoy/kichiksoy-eco-history-and-road-plan"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Mushkan, Kichiksoy, and the Nurota route"
+          "ru": "Мушкан, Кичиксой и нуратинский маршрут"
+          "uz": "Mushkan, Kichiksoy va Nurota yo‘li"
+        "description":
+          "en": "This stop is about movement around Mushkan: nearby Kichiksoy, the return toward Nurata, and the choice to add Sentob or Chuya only when the journey has enough time."
+          "ru": "Эта остановка — о движении вокруг Мушкана: соседний Кичиксой, возвращение к Нурате и решение добавлять Сентоб или Чую только тогда, когда в маршруте есть достаточно времени."
+          "uz": "Bu bekat Mushkan atrofidagi harakat haqida: yaqin Kichiksoy, Nurota tomonga qaytish va Sentob yoki Chuyani faqat safarda yetarli vaqt bo‘lganda qo‘shish."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/mushkan/mushkan-kichiksoy-nurata-route-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region in detail"
+      "ru": "Регион в деталях"
+      "uz": "Hudud batafsil"
+    "title":
+      "en": "Practical questions about Nurata, Aydarkul & Kyzylkum"
+      "ru": "Практические вопросы о регионе Нурата, Айдаркуль и Кызылкум"
+      "uz": "Nurota, Aydarko‘l va Qizilqum hududi bo‘yicha amaliy savollar"
+    "description":
+      "en": "Pace, season, and how this region connects to the next stop."
+      "ru": "Темп, сезон и как регион стыкуется со следующей остановкой."
+      "uz": "Sur’at, mavsum va hududning keyingi bekat bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many days does Nurata, Aydarkul & Kyzylkum need in a programme?"
+          "ru": "Сколько дней нужно региону Нурата, Айдаркуль и Кызылкум в программе?"
+          "uz": "Nurota, Aydarko‘l va Qizilqum hududi dasturda necha kun olishi kerak?"
+        "description":
+          "en": "2–4 days usually works if you keep one strong core and treat outer stops as deliberate choices. The region brief is “Road portals, rock art, Chashma spring, desert lake, and foothill villages”."
+          "ru": "Обычно хватает 2–4 дня, если держать одно сильное ядро, а внешние остановки выбирать осознанно. Кратко о регионе: «Дорожные порталы, петроглифы, Чашма, озеро в пустыне и предгорные сёла»."
+          "uz": "Odatda 2–4 kun yetadi — bitta kuchli yadro va tashqi bekatlarni ongli tanlov qiling. Hudud brifi: «Yo‘l peshtoqlari, petrogliflar, Chashma bulog‘i, cho‘l ko‘li va tog‘oldi qishloqlari»."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "What should come before and after Nurata, Aydarkul & Kyzylkum?"
+          "ru": "Что ставить до и после региона Нурата, Айдаркуль и Кызылкум?"
+          "uz": "Nurota, Aydarko‘l va Qizilqumdan oldin va keyin nima qo‘yish kerak?"
+        "description":
+          "en": "Use neighbouring cities as clean handovers: arrive with a calm first night, leave after one completed chapter, and avoid stacking two long transfers on the same day."
+          "ru": "Соседние города держите как чистые стыки: приезжайте со спокойной первой ночью, уезжайте после завершённой главы и не ставьте два длинных переезда в один день."
+          "uz": "Qo‘shni shaharlarni toza ulanish sifatida tuting: sokin birinchi tun bilan keling, yakunlangan bobdan keyin chiqing va bir kunga ikkita uzun ko‘chishni qo‘ymang."
+      - "type": "destinationInsight"
+        "icon": "Calendar"
+        "title":
+          "en": "What season logic matters most in Nurata, Aydarkul & Kyzylkum?"
+          "ru": "Какая сезонная логика важнее всего в Нурата, Айдаркуль и Кызылкум?"
+          "uz": "Nurota, Aydarko‘l va Qizilqumda qaysi mavsum mantig‘i eng muhim?"
+        "description":
+          "en": "Heat, altitude, road condition, and opening hours change the product more than the brochure list. Build the region around what stays comfortable for the group that week."
+          "ru": "Жара, высота, состояние дорог и часы работы меняют продукт сильнее списка из брошюры. Собирайте регион вокруг того, что комфортно именно этой группе в эту неделю."
+          "uz": "Issiqlik, balandlik, yo‘l holati va ish soatlari broshyura ro‘yxatidan kuchliroq mahsulotni o‘zgartiradi. Hududni shu hafta guruh uchun qulay narsaga qurib chiqing."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Nurata, Aydarkul & Kyzylkum stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Нурата, Айдаркуль и Кызылкум» в программу (Узбекистан)"
+      "uz": "Nurota, Aydarko‘l va Qizilqum bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right extensions — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать нужные расширения — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va kerakli kengaytmalarni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Nurata, Aydarkul & Kyzylkum | TourLink"
+    "ru": "Нурата, Айдаркуль и Кызылкум | TourLink"
+    "uz": "Nurota, Aydarko‘l va Qizilqum | TourLink"
+  "metaDescription":
+    "en": "Between Samarkand, Bukhara, and the Kyzylkum, this region turns the journey from monument streets toward open land. Rabat-i Malik and its Sardoba show how road travel depended on water; Sarmyshsay brings the route close to petroglyph stone; Nurata gathers Chashma, mosque courtyards, and fortress traces; Aydarkul widens the view to lake shore; Sentyab and nearby foothill roads add village paths, guesthouse tables, and cooler night air."
+    "ru": "Между Самаркандом, Бухарой и Кызылкумом этот регион уводит путешествие от улиц с памятниками к открытой земле. Рабат-и Малик и его сардоба показывают, как дорога зависела от воды; Сармышсай подводит маршрут к камню с петроглифами; Нурата собирает Чашму, дворы мечетей и следы крепости; Айдаркуль расширяет вид до берега озера; Сентоб и близкие предгорные дороги добавляют сельские тропы, столы гостевых домов и более прохладный ночной воздух."
+    "uz": "Samarqand, Buxoro va Qizilqum orasida bu mintaqa sayohatni yodgorlikli ko‘chalardan ochiq yer tomonga olib chiqadi. Rabat-i Malik va uning sardobasi yo‘l suvga qanday bog‘liq bo‘lganini ko‘rsatadi; Sarmishsoy yo‘lni petroglifli toshga yaqinlashtiradi; Nurota Chashma, masjid hovlilari va qalʼa izlarini jamlaydi; Aydarko‘l manzarani ko‘l qirg‘og‘igacha kengaytiradi; Sentob va yaqin tog‘oldi yo‘llari qishloq so‘qmoqlari, mehmon uylari dasturxoni va salqinroq tungi havoni qo‘shadi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"mapCenter":
+  "latitude": 41.93014
+  "longitude": 60.78423

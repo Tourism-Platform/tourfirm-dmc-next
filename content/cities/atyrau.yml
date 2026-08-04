@@ -1,0 +1,502 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "atyrau"
+  "ru": "atyrau"
+  "uz": "atyrau"
+"title":
+  "en": "Atyrau"
+  "ru": "Атырау"
+  "uz": "Atyrau"
+"subtitle":
+  "en": "A Ural River stop before Saraishyq and the Caspian west"
+  "ru": "Урал, Сарайшык и спокойный старт каспийского запада"
+  "uz": "Sarayshyq va Kaspiy g‘arbi oldidagi Ural shahri"
+"excerpt":
+  "en": "Start with the river. Atyrau's central bridges and embankment turn a practical arrival city into a place you can read on foot, especially as heat eases and the light drops on the water. From there, keep the visit focused. Choose museum and mosque time inside the city, or set aside a separate road segment for Saraishyq after current access and timing are checked locally."
+  "ru": "Начните с реки. Центральные мосты и набережная превращают Атырау из практичного города прибытия в место, которое можно понять пешком, особенно когда жара спадает, а свет ложится на воду. Дальше держите визит собранным. Выберите музей и мечеть в городе или выделите отдельный отрезок дороги к Сарайшыку после актуальной проверки доступа и времени."
+  "uz": "Uraldan boshlang. Atyrauning markaziy ko‘priklari va qirg‘og‘i amaliy kelish shahrini piyoda tushuniladigan joyga aylantiradi, ayniqsa issiq pasayib, yorug‘lik suvga tushganda. Keyin tashrifni ixcham tuting. Shahar ichida muzey va masjid vaqtini tanlang yoki Sarayshyq uchun alohida yo‘l bo‘lagini ajrating, lekin avval joriy kirish va vaqtni joyida tekshiring."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "Atyrau"
+      "ru": "Атырау"
+      "uz": "Atyrau"
+    "title":
+      "en": "Atyrau"
+      "ru": "Атырау"
+      "uz": "Atyrau"
+    "description":
+      "en": "A Ural River stop before Saraishyq and the Caspian west"
+      "ru": "Урал, Сарайшык и спокойный старт каспийского запада"
+      "uz": "Sarayshyq va Kaspiy g‘arbi oldidagi Ural shahri"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Atyrau"
+      "ru": "Атырау"
+      "uz": "Atyrau"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Start with the river."
+              "ru": "Начните с реки."
+              "uz": "Uraldan boshlang."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Atyrau is easiest to understand from the Ural. The bridges and embankment give the day its first line; the museum, mosque, station, airport, and Saraishyq road fall into place from there."
+              "ru": "Атырау легче понять от Урала: центральные мосты, набережная, музеи, мечеть, аэропорт, железнодорожная станция и дорога к Сарайшыку складываются яснее, когда у города уже есть речная линия."
+              "uz": "Atyrauni Uraldan tushunish osonroq: markaziy ko‘priklar, qirg‘oq, muzeylar, masjid, aeroport, temir yo‘l stansiyasi va Sarayshyq yo‘li shahar daryo chizig‘iga ega bo‘lganda ravshanlashadi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "For a compact Atyrau stay, start at the Ural, then choose either the regional museum and Imangali Mosque inside the city or the road to Saraishyq. Save the longer western distances for a route with enough time and weather margin."
+              "ru": "Компактная остановка в Атырау не должна гнаться за каждым местом. Начните с Урала, добавьте музей и мечеть в городе или дорогу к Сарайшыку за его пределами, а остальное оставьте для более длинного западного маршрута."
+              "uz": "Ixcham Atyrau to‘xtovi hamma joyni quvmasligi kerak. Uraldan boshlang, shahar ichida viloyat muzeyi va Imangali masjidini yoki tashqarida Sarayshyq yo‘lini tanlang. Uzoqroq g‘arbiy masofalarni yetarli vaqt va ob-havo zaxirasi bor yo‘lga qoldiring."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Atyrau as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Атырау как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Atyrau o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Start with the river, then choose the wider road"
+      "ru": "Сначала река, затем выбор шире"
+      "uz": "Avval daryo, keyin kengroq yo‘l tanlovi"
+    "description":
+      "en": "Atyrau is easiest to understand from the Ural. The bridges and embankment give the day its first line; the museum, mosque, station, airport, and Saraishyq road fall into place from there."
+      "ru": "Атырау легче понять от Урала: центральные мосты, набережная, музеи, мечеть, аэропорт, железнодорожная станция и дорога к Сарайшыку складываются яснее, когда у города уже есть речная линия."
+      "uz": "Atyrauni Uraldan tushunish osonroq: markaziy ko‘priklar, qirg‘oq, muzeylar, masjid, aeroport, temir yo‘l stansiyasi va Sarayshyq yo‘li shahar daryo chizig‘iga ega bo‘lganda ravshanlashadi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Map anchor"
+        "ru": "Точка на карте"
+        "uz": "Xarita tayanchi"
+      "title":
+        "en": "Atyrau on the Ural"
+        "ru": "Атырау на Урале"
+        "uz": "Ural bo‘yidagi Atyrau"
+      "description":
+        "en": "The city marker gives first orientation. Museum entrances, bridge meeting points, and the Saraishyq visitor sequence should be checked locally before they are promised as fixed stops."
+        "ru": "Городская точка нужна для первой ориентации. Входы в музеи, место встречи у мостов и порядок визита в Сарайшыке лучше уточнять на месте, прежде чем обещать их как фиксированные остановки."
+        "uz": "Shahar markeri birinchi orientirni beradi. Muzey kirishlari, ko‘prikdagi uchrashuv joylari va Sarayshyq tashrif ketma-ketligi qat’iy to‘xtash sifatida va’da qilinishidan oldin joyida tekshiriladi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 47.106718
+      "longitude": 51.913898
+    "zoom": 14
+    "stops": []
+    "aside":
+      "eyebrow":
+        "en": "Visit sequence"
+        "ru": "Порядок визита"
+        "uz": "Tashrif tartibi"
+      "title":
+        "en": "River first, then one deeper stop"
+        "ru": "Сначала Урал, затем одна глубокая остановка"
+        "uz": "Avval Ural, keyin bitta chuqur to‘xtash"
+      "description":
+        "en": "For a compact Atyrau stay, start at the Ural, then choose either the regional museum and Imangali Mosque inside the city or the road to Saraishyq. Save the longer western distances for a route with enough time and weather margin."
+        "ru": "Компактная остановка в Атырау не должна гнаться за каждым местом. Начните с Урала, добавьте музей и мечеть в городе или дорогу к Сарайшыку за его пределами, а остальное оставьте для более длинного западного маршрута."
+        "uz": "Ixcham Atyrau to‘xtovi hamma joyni quvmasligi kerak. Uraldan boshlang, shahar ichida viloyat muzeyi va Imangali masjidini yoki tashqarida Sarayshyq yo‘lini tanlang. Uzoqroq g‘arbiy masofalarni yetarli vaqt va ob-havo zaxirasi bor yo‘lga qoldiring."
+      "items":
+        - "title":
+            "en": "Let the river explain the city"
+            "ru": "Пусть река объяснит город"
+            "uz": "Daryo shaharni tushuntirsin"
+          "description":
+            "en": "The Ural gives Atyrau a visible center: bridges, banks, and evening movement make the city clearer before any museum stop."
+            "ru": "Урал даёт Атырау видимый центр: мосты, берега и вечерняя прогулка делают город понятнее до музейной части."
+            "uz": "Ural Atyrauga ko‘rinadigan markaz beradi: ko‘priklar, qirg‘oqlar va kechki sayr muzeydan oldin shaharni ravshanroq qiladi."
+        - "title":
+            "en": "Walk when the heat eases"
+            "ru": "Гуляйте, когда жара спадает"
+            "uz": "Issiq pasayganda yuring"
+          "description":
+            "en": "The embankment is strongest late in the day, when the city slows and the river carries softer light through the center."
+            "ru": "Набережная сильнее всего ближе к вечеру, когда город замедляется, а река проводит мягкий свет через центр."
+            "uz": "Shahar sekinlashib, daryo markazdan yorug‘lik olib o‘tganda qirg‘oq sayri eng ishonarli bo‘ladi."
+        - "title":
+            "en": "Set aside Saraishyq time"
+            "ru": "Выделите Сарайшыку отдельное время"
+            "uz": "Sarayshyqqa alohida vaqt bering"
+          "description":
+            "en": "Saraishyq should be treated as a real historical extension from Atyrau, with road time, museum-reserve meaning, and visitor access checked before travel."
+            "ru": "Сарайшык должен быть настоящим историческим продолжением Атырау: с дорогой, музейным смыслом и проверенным доступом."
+            "uz": "Sarayshyq Atyraudan haqiqiy tarixiy davomdek sezilishi kerak: muzey-qo‘riqxona ma’nosi, yo‘l vaqti va kirish tartibi oldindan tekshiriladi."
+        - "title":
+            "en": "Treat long western roads honestly"
+            "ru": "Держите длинные западные дороги реалистичными"
+            "uz": "Uzoq g‘arbiy yo‘llarni real tuting"
+          "description":
+            "en": "Atyrau can sit with Aktau, Bozzhira, or wider steppe routes only when flight times, distances, heat, wind, and overnight stops make sense."
+            "ru": "Атырау соединяется с Актау, Бозжирой и степными продолжениями только тогда, когда рейсы, расстояния, жара, ветер и ночёвки складываются спокойно."
+            "uz": "Atyrau Aktau yoki kengroq dasht yo‘llari bilan faqat masofa, reyslar, issiq, shamol va tunashlar mos kelganda qo‘shiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Five places that make Atyrau readable"
+      "ru": "Пять мест, с которых понятен Атырау"
+      "uz": "Atyrauni tushunarli qiladigan besh joy"
+    "description":
+      "en": "A first Atyrau visit can stay focused: the Ural River, the bridge story, one museum, a mosque silhouette, and Saraishyq when road time allows."
+      "ru": "Первое знакомство может держаться на Урале, мостах, одном музее, силуэте мечети и Сарайшыке, если для него есть достаточно времени."
+      "uz": "Birinchi Atyrau tashrifi diqqatni jamlashi mumkin: Ural daryosi, ko‘prik hikoyasi, bitta muzey, masjid silueti va yo‘lda yetarli vaqt bo‘lsa Sarayshyq."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City moments"
+      "ru": "Городские моменты"
+      "uz": "Shahar lahzalari"
+    "title":
+      "en": "Three ways to read the river city"
+      "ru": "Три способа понять речной город"
+      "uz": "Daryo shahrini tushunishning uch yo‘li"
+    "description":
+      "en": "Atyrau gets stronger through small choices: walk the Ural, set aside Saraishyq road time, and let the city act as a calm western arrival."
+      "ru": "Атырау становится сильнее через небольшие решения: пройтись у Урала, дать время Сарайшыку и оставить городу спокойную роль западного прибытия."
+      "uz": "Atyrau kichik tanlovlar orqali kuchayadi: Ural bo‘ylab yurish, Sarayshyqqa vaqt berish va shaharni sokin g‘arbiy kelish sifatida qoldirish."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Let Atyrau hold a quiet western arrival"
+          "ru": "Пусть западный Казахстан начнётся спокойно"
+          "uz": "G‘arbiy Qozog‘iston sokin boshlansin"
+        "description":
+          "en": "Give the city an evening after a flight or train, then start the next road with the Ural already in view."
+          "ru": "Оставьте Атырау для спокойного вечера после рейса или поезда и прогулки у реки перед длинной западной дорогой."
+          "uz": "Uzoq g‘arbiy masofalarga burilishdan oldin Atyrauni sokin kech, reys yoki poyezddan keyingi tiklanish va daryo sayri uchun qoldiring."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Set aside a proper Saraishyq segment"
+          "ru": "Выделите Сарайшыку полноценный отрезок"
+          "uz": "Sarayshyqqa to‘liq yo‘l bo‘lagini ajrating"
+        "description":
+          "en": "Add Saraishyq when the route has enough space for the road, the museum-reserve, and a guide explanation that keeps the history grounded."
+          "ru": "Добавляйте Сарайшык, когда в маршруте есть время на дорогу, музей-заповедник и объяснение гида, которое удерживает историю предметной."
+          "uz": "Sarayshyqni yo‘lda masofa, muzey-qo‘riqxona va tarixni asosli tushuntiradigan gid uchun yetarli vaqt bo‘lganda qo‘shing."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Walk the Ural when the heat eases"
+          "ru": "Пройдитесь у Урала, когда жара спадает"
+          "uz": "Issiq pasayganda Ural bo‘ylab yuring"
+        "description":
+          "en": "Cross a bridge, follow the embankment, and let the river give Atyrau a calmer shape before the route moves elsewhere."
+          "ru": "Перейдите мост, пройдите по набережной и дайте реке сделать Атырау спокойнее до дальнейшего маршрута."
+          "uz": "Ko‘prikdan o‘ting, qirg‘oq bo‘ylab yuring va yo‘l boshqa tomonga ketishidan oldin daryo Atyrauga sokin shakl bersin."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "Plan Atyrau as a river stop, not a checklist"
+      "ru": "Планируйте Атырау как речную остановку, а не список мест"
+      "uz": "Atyrauni ro‘yxat emas, daryo bo‘yidagi to‘xtash sifatida rejalang"
+    "description":
+      "en": "Atyrau does not need to carry more than it can honestly offer. Its value is the Ural, a clear arrival, and the choice to stay in the city or continue toward Saraishyq and the Caspian west."
+      "ru": "Атырау не нужно делать тяжелее, чем он есть. Его ценность — Урал, спокойное прибытие и выбор: остаться в городе или продолжить к Сарайшыку и каспийскому западу."
+      "uz": "Atyrauga boridan ortiq yuk bermang. Uning qiymati Ural, ravshan kelish va shahar ichida qolish yoki Sarayshyq hamda Kaspiy g‘arbi tomonga davom etish tanlovidadir."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Start at the water"
+              "ru": "Начните там, где город встречается с водой"
+              "uz": "Shahar suv bilan uchrashadigan joydan boshlang"
+            "description":
+              "en": "The Ural turns Atyrau from a practical arrival city into a place with direction, light, and an easy first walk."
+              "ru": "Урал превращает Атырау из практичного города прибытия в место с направлением, светом и первой понятной прогулкой."
+              "uz": "Atyrau Ural bo‘yida tushunarliroq bo‘ladi. Qirg‘oq amaliy shaharni yo‘nalish, yorug‘lik va oson birinchi sayrga ega joyga aylantiradi."
+          - "type": "quote"
+            "quote":
+              "en": "Atyrau is strongest when the route lets the Ural settle the city first, then moves toward Saraishyq or the longer western road with enough time."
+              "ru": "Атырау сильнее всего, когда маршрут сначала даёт Уралу объяснить город, а затем уходит к Сарайшыку или длинной западной дороге с достаточным запасом времени."
+              "uz": "Atyrau yo‘l Uralga shaharni tushuntirish imkonini berganda, keyin esa eski tarix yoki uzun g‘arbiy masofalarga o‘tganda kuchliroq."
+          - "type": "dashTitle"
+            "title":
+              "en": "Choose one city anchor"
+              "ru": "Выберите одну городскую опору"
+              "uz": "Bitta shahar tayanchini tanlang"
+            "description":
+              "en": "Museum time, Imangali Mosque, and the bridge story are enough for a compact stay. They help explain the city without pretending it is a dense monument center."
+              "ru": "Музея, мечети и истории мостов достаточно для компактной остановки. Они помогают понять Атырау без попытки сделать из него плотный памятниковый центр."
+              "uz": "Muzey, masjid va ko‘prik hikoyasi ixcham shahar to‘xtovi uchun yetarli. Ular Atyrauni tushuntirishi kerak, shaharni katta yodgorlik markaziga o‘xshatmasligi kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Make Saraishyq a separate road decision"
+              "ru": "Относитесь к Сарайшыку как к настоящему продолжению"
+              "uz": "Sarayshyqni alohida yo‘l qarori qiling"
+            "description":
+              "en": "Saraishyq is not a quick label beside Atyrau. The museum-reserve, road time, and historical meaning need their own guide explanation and current access check."
+              "ru": "Сарайшык — не быстрая подпись рядом с Атырау. Музей-заповедник, дорога и исторический смысл требуют отдельного объяснения гида и актуальной проверки доступа."
+              "uz": "Sarayshyq Atyrau yonidagi tezkor nom emas. Muzey-qo‘riqxona, yo‘l va tarixiy ma’no alohida vaqt, gid tushuntirishi va joriy kirish tekshiruvini talab qiladi."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Что важно понять"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Come for a calm river arrival and a clear western route decision, not for a crowded monument circuit."
+              "ru": "Приезжайте за спокойным речным прибытием и понятным западным решением, а не за плотной программой памятников."
+              "uz": "Tig‘iz yodgorlik yo‘li uchun emas, sokin daryo kelishi va ravshan g‘arbiy yo‘l qarori uchun keling."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "Atyrau sits on the Ural River in western Kazakhstan and is part of the Mangystau & Caspian West route map."
+                  "ru": "Атырау стоит на Урале в западном Казахстане и входит в маршрутную карту Мангистау и Каспийского запада."
+                  "uz": "Atyrau g‘arbiy Qozog‘istonda Ural bo‘yida joylashgan va Mangistau hamda Kaspiy g‘arbi turistik hududi yo‘l xaritasiga kiradi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Stay"
+                  "ru": "Время"
+                  "uz": "Vaqt"
+                "description":
+                  "en": "Best as an arrival or overnight stop before Saraishyq, Aktau, or a longer western route."
+                  "ru": "Лучше всего как точка прибытия или ночёвка перед Сарайшыком, Актау или более длинным западным маршрутом."
+                  "uz": "Sarayshyq, Aktau yoki uzunroq g‘arbiy yo‘l oldidan daryo-shahar kelish nuqtasi sifatida kuchliroq."
+              - "icon": "Sun"
+                "title":
+                  "en": "Main story"
+                  "ru": "Главная история"
+                  "uz": "Asosiy hikoya"
+                "description":
+                  "en": "The river, embankment, and bridges give the city its clearest traveler-facing shape."
+                  "ru": "Река, набережная и мосты дают городу самый понятный образ для путешественника."
+                  "uz": "Daryo, qirg‘oq va ko‘priklar shaharning sayohatchi uchun eng ravshan shaklini beradi."
+              - "icon": "Route"
+                "title":
+                  "en": "Heritage"
+                  "ru": "Наследие"
+                  "uz": "Meros"
+                "description":
+                  "en": "Saraishyq is the strongest nearby historical stop, but it needs road time and current local checks."
+                  "ru": "Сарайшык — сильнейшая историческая остановка рядом, но ему нужны дорога, время и актуальная местная проверка."
+                  "uz": "Sarayshyq eng kuchli yaqin tarixiy to‘xtash, lekin unga vaqt va joriy mahalliy tekshiruv kerak."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Yo‘ldagi roli"
+                "description":
+                  "en": "Atyrau fits Caspian-west plans when flights, rail, river time, or a measured overnight stop help the route."
+                  "ru": "Атырау подходит каспийско-западным программам, когда маршруту помогают рейсы, поезд, время у реки или спокойная ночёвка."
+                  "uz": "Atyrau Kaspiy-g‘arb rejalariga reys, temir yo‘l, daryo vaqti yoki sokin kelish nuqtasi kerak bo‘lganda kiradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Where to continue"
+      "ru": "Куда продолжить"
+      "uz": "Qayerga davom etish"
+    "title":
+      "en": "Aktau, Bozzhira, and the western road"
+      "ru": "Актау, Бозжира и западная дорога"
+      "uz": "Aktau, Bozzhira va g‘arbiy yo‘l"
+    "description":
+      "en": "Atyrau pairs naturally with Aktau only on longer western Kazakhstan plans. Bozzhira belongs to a separate Mangystau road decision, not to a casual city extension."
+      "ru": "Атырау естественно соединяется с Актау только в более длинных маршрутах по западному Казахстану. Бозжира относится к отдельному мангистаускому решению, а не к случайному выезду из города."
+      "uz": "Atyrau Aktau bilan tabiiy ravishda faqat uzunroq g‘arbiy Qozog‘iston rejalarida juftlashadi. Bozzhira tasodifiy shahar davomi emas, alohida Mangistau yo‘l qaroridir."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Aktau"
+          "ru": "Актау"
+          "uz": "Aqtau"
+        "description":
+          "en": "Aktau gives western Kazakhstan its Caspian arrival point: sea-edge walks, a practical overnight, and the first calm decisions before Mangystau's long plateau roads."
+          "ru": "Актау даёт западному Казахстану каспийскую точку прибытия: прогулку у моря, спокойную ночёвку и первые решения перед длинными дорогами Мангистау."
+          "uz": "Aqtau gʻarbiy Qozogʻiston uchun Kaspiy bo'yidagi kirish shahri: dengiz bo'yidagi sayr, qulay tunash va Mangʻistovning uzun plato yoʻllaridan oldingi ilk qarorlar."
+        "ctaHref": "/destinations/kazakhstan/mangystau-and-caspian-west/aktau"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Bozzhira"
+          "ru": "Бозжыра"
+          "uz": "Bozzhira"
+        "description":
+          "en": "Bozzhira is the remote Mangystau area where white cliffs, fang-like rock, heat, wind, and fragile ground make the view a journey in itself."
+          "ru": "Бозжыра - удаленный участок Мангистау, где белые уступы, зубчатые скалы, жара, ветер и хрупкий грунт превращают вид в самостоятельную поездку."
+          "uz": "Bozzhira Mangistaudagi uzoq yoʻl hududi: oq qoyalar, tishsimon shakllar, issiq, shamol va nozik zamin manzarani alohida safar qaroriga aylantiradi."
+        "ctaHref": "/destinations/kazakhstan/mangystau-and-caspian-west/bozzhira"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Atyrau in the day plan"
+      "ru": "Как поставить Атырау в план дня"
+      "uz": "Atyrauni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Atyrau?"
+          "ru": "Сколько времени группам стоит проводить в Атырау?"
+          "uz": "Atyrauda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A Ural River stop before Saraishyq and the Caspian west”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Урал, Сарайшык и спокойный старт каспийского запада»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Sarayshyq va Kaspiy g‘arbi oldidagi Ural shahri»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Atyrau be a walkable core or a base for day trips?"
+          "ru": "Атырау — это пешеходное ядро или база для выездов?"
+          "uz": "Atyrau piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Atyrau's centre?"
+          "ru": "Где лучше ночевать относительно центра Атырау?"
+          "uz": "Atyrau markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Atyrau stop into your Kazakhstan programme"
+      "ru": "Встройте остановку «Атырау» в программу (Казахстан)"
+      "uz": "Atyrau bekatini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Atyrau | TourLink"
+    "ru": "Атырау | TourLink"
+    "uz": "Atyrau | TourLink"
+  "metaDescription":
+    "en": "Start with the river. Atyrau's central bridges and embankment turn a practical arrival city into a place you can read on foot, especially as heat eases and the light drops on the water. From there, keep the visit focused. Choose museum and mosque time inside the city, or set aside a separate road segment for Saraishyq after current access and timing are checked locally."
+    "ru": "Начните с реки. Центральные мосты и набережная превращают Атырау из практичного города прибытия в место, которое можно понять пешком, особенно когда жара спадает, а свет ложится на воду. Дальше держите визит собранным. Выберите музей и мечеть в городе или выделите отдельный отрезок дороги к Сарайшыку после актуальной проверки доступа и времени."
+    "uz": "Uraldan boshlang. Atyrauning markaziy ko‘priklari va qirg‘og‘i amaliy kelish shahrini piyoda tushuniladigan joyga aylantiradi, ayniqsa issiq pasayib, yorug‘lik suvga tushganda. Keyin tashrifni ixcham tuting. Shahar ichida muzey va masjid vaqtini tanlang yoki Sarayshyq uchun alohida yo‘l bo‘lagini ajrating, lekin avval joriy kirish va vaqtni joyida tekshiring."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "mangystau-and-caspian-west"
+"latitude": 47.1067183
+"longitude": 51.9138976

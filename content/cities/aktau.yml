@@ -1,0 +1,478 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "aktau"
+  "ru": "aktau"
+  "uz": "aktau"
+"title":
+  "en": "Aktau"
+  "ru": "Актау"
+  "uz": "Aqtau"
+"subtitle":
+  "en": "Caspian arrival before the Mangystau road"
+  "ru": "Каспийское прибытие перед дорогой в Мангистау"
+  "uz": "Mangʻistov yoʻlidan oldingi Kaspiy kirishi"
+"excerpt":
+  "en": "Aktau feels spare at first: pale blocks, sea wind, long horizons, and a city grid that quickly gives way to western Kazakhstan's harder landscapes. Start at the Caspian, let the first evening stay simple, and let the city show how far the road beyond it really is."
+  "ru": "Сначала Актау кажется сдержанным: светлые кварталы, ветер с моря, длинные горизонты и городская сетка, которая быстро переходит в более суровые ландшафты западного Казахстана. Начните у Каспия, оставьте первый вечер простым и дайте городу показать, насколько длинной будет дорога за его пределами."
+  "uz": "Aqtau avvaliga vazmin tuyuladi: och rangli kvartallar, dengiz shamoli, uzun ufqlar va tez orada gʻarbiy Qozogʻistonning qattiqroq manzaralariga ulanadigan shahar tuzilishi. Kaspiydan boshlang, birinchi kechani sodda qoldiring va shahar uning ortidagi yo'l qanchalik uzunligini ko'rsatsin."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "Aktau"
+      "ru": "Актау"
+      "uz": "Aqtau"
+    "title":
+      "en": "Aktau"
+      "ru": "Актау"
+      "uz": "Aqtau"
+    "description":
+      "en": "Caspian arrival before the Mangystau road"
+      "ru": "Каспийское прибытие перед дорогой в Мангистау"
+      "uz": "Mangʻistov yoʻlidan oldingi Kaspiy kirishi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Aktau"
+      "ru": "Актау"
+      "uz": "Aqtau"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Aktau feels spare at first: pale blocks, sea wind, long horizons, and a city grid that quickly gives way to western Kazakhstan's harder landscapes."
+              "ru": "Сначала Актау кажется сдержанным: светлые кварталы, ветер с моря, длинные горизонты и городская сетка, которая быстро переходит в более суровые ландшафты западного Казахстана."
+              "uz": "Aqtau avvaliga vazmin tuyuladi: och rangli kvartallar, dengiz shamoli, uzun ufqlar va tez orada gʻarbiy Qozogʻistonning qattiqroq manzaralariga ulanadigan shahar tuzilishi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Aktau makes sense when the first city time stays light. The shoreline, a museum stop when timing allows, and a quiet evening can prepare the traveler before Mangystau becomes a long-road journey."
+              "ru": "Актау раскрывается лучше, когда первое время в городе остаётся лёгким. Берег, музей при подходящем времени и спокойный вечер помогают подготовиться к Мангистау как к маршруту длинных дорог."
+              "uz": "Aqtaudagi ilk vaqt yengil bo'lsa, shahar yaxshiroq tushuniladi. Qirgʻoq, vaqt mos kelsa muzey va sokin kecha sayohatchini Mangʻistovning uzun yoʻllariga tayyorlaydi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Torysh, Sherkala, Beket-Ata, Airakty, Bozzhira, and other remote places need separate timing, daylight, suitable vehicles, etiquette, and current local checks. Aktau is where those choices become clear before the route leaves the city."
+              "ru": "Торыш, Шеркала, Бекет-Ата, Айракты, Бозжыра и другие удалённые места требуют отдельного времени, светового дня, подходящей машины, этикета и актуальных местных проверок. В Актау эти решения становятся понятными до выезда из города."
+              "uz": "Torysh, Sherqala, Beket-Ata, Airakty, Bozzhyra va boshqa uzoq joylarga alohida vaqt, kunduzgi yorugʻlik, mos avtomobil, odob va mahalliy tekshiruvlar kerak. Aqtauda bu tanlovlar shahar tashqarisiga chiqishdan oldin aniqroq bo'ladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Aktau as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Актау как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Aqtau o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как ориентироваться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "Start at the Caspian, then read the road"
+      "ru": "Начните у Каспия, потом читайте дорогу"
+      "uz": "Kaspiydan boshlang, keyin yo'lni o'qing"
+    "description":
+      "en": "Aktau makes sense when the first city time stays light. The shoreline, a museum stop when timing allows, and a quiet evening can prepare the traveler before Mangystau becomes a long-road journey."
+      "ru": "Актау раскрывается лучше, когда первое время в городе остаётся лёгким. Берег, музей при подходящем времени и спокойный вечер помогают подготовиться к Мангистау как к маршруту длинных дорог."
+      "uz": "Aqtaudagi ilk vaqt yengil bo'lsa, shahar yaxshiroq tushuniladi. Qirgʻoq, vaqt mos kelsa muzey va sokin kecha sayohatchini Mangʻistovning uzun yoʻllariga tayyorlaydi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Yo'nalish xaritasi"
+      "title":
+        "en": "Aktau, the shoreline, and first Mangystau directions"
+        "ru": "Актау, берег и первые направления Мангистау"
+        "uz": "Aqtau, qirgʻoq va Mangʻistovning birinchi yoʻnalishlari"
+      "description":
+        "en": "The map is for scale: Aktau and the Caspian edge sit close together, while Torysh, Sherkala, and Beket-Ata already belong to longer road decisions."
+        "ru": "Карта нужна для масштаба: Актау и каспийский берег находятся рядом, а Торыш, Шеркала и Бекет-Ата уже относятся к более длинным дорожным решениям."
+        "uz": "Xarita masofani ko'rsatish uchun kerak: Aqtau va Kaspiy qirgʻogʻi bir-biriga yaqin, Torysh, Sherqala va Beket-Ata esa allaqachon uzunroq yo'l qarorlariga kiradi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 43.898277
+      "longitude": 51.994563
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "caspian-sea-embankment-and-rocky-shoreline"
+      - "entityType": "attraction"
+        "entitySlug": "torysh-valley-of-balls"
+      - "entityType": "attraction"
+        "entitySlug": "sherkala-mountain"
+      - "entityType": "attraction"
+        "entitySlug": "beket-ata-underground-mosque"
+    "aside":
+      "eyebrow":
+        "en": "First decision"
+        "ru": "Первое решение"
+        "uz": "Birinchi qaror"
+      "title":
+        "en": "Keep the plateau out of a rush"
+        "ru": "Не торопите плато"
+        "uz": "Platoni shoshirmang"
+      "description":
+        "en": "Torysh, Sherkala, Beket-Ata, Airakty, Bozzhira, and other remote places need separate timing, daylight, suitable vehicles, etiquette, and current local checks. Aktau is where those choices become clear before the route leaves the city."
+        "ru": "Торыш, Шеркала, Бекет-Ата, Айракты, Бозжыра и другие удалённые места требуют отдельного времени, светового дня, подходящей машины, этикета и актуальных местных проверок. В Актау эти решения становятся понятными до выезда из города."
+        "uz": "Torysh, Sherqala, Beket-Ata, Airakty, Bozzhyra va boshqa uzoq joylarga alohida vaqt, kunduzgi yorugʻlik, mos avtomobil, odob va mahalliy tekshiruvlar kerak. Aqtauda bu tanlovlar shahar tashqarisiga chiqishdan oldin aniqroq bo'ladi."
+      "items":
+        - "title":
+            "en": "Arrive through Aktau"
+            "ru": "Прилететь через Актау"
+            "uz": "Aqtau orqali kelish"
+          "description":
+            "en": "The airport and hotels make Aktau the arrival or return point before longer Mangystau roads."
+            "ru": "Аэропорт и отели делают Актау точкой прибытия или возвращения перед длинными дорогами Мангистау."
+            "uz": "Aeroport va mehmonxonalar Aqtauni Mangʻistovning uzun yoʻllaridan oldingi kelish yoki qaytish nuqtasiga aylantiradi."
+        - "title":
+            "en": "Walk the Caspian edge"
+            "ru": "Пройтись у Каспия"
+            "uz": "Kaspiy bo'yida yurish"
+          "description":
+            "en": "The shoreline gives the first city hour a human scale before the route turns inland."
+            "ru": "Берег даёт первому городскому часу человеческий масштаб до поворота маршрута вглубь региона."
+            "uz": "Qirgʻoq marshrut ichkariga burilishidan oldin birinchi shahar soatiga insoniy miqyos beradi."
+        - "title":
+            "en": "Choose one desert direction"
+            "ru": "Выбрать одно пустынное направление"
+            "uz": "Bitta cho'l yoʻnalishini tanlash"
+          "description":
+            "en": "Torysh, Sherkala, Beket-Ata, Airakty, and Bozzhira should be chosen by timing, vehicle, and conditions."
+            "ru": "Торыш, Шеркала, Бекет-Ата, Айракты и Бозжыра выбираются по времени, машине и условиям."
+            "uz": "Torysh, Sherqala, Beket-Ata, Airakty va Bozzhyra vaqt, avtomobil va sharoitga qarab tanlanadi."
+        - "title":
+            "en": "Return with daylight."
+            "ru": "Вернуться засветло."
+            "uz": "Yorugʻlik borida qaytish."
+          "description":
+            "en": "Remote roads feel better when the return, rest, or next departure is planned before fatigue takes over."
+            "ru": "Удалённые дороги спокойнее, когда возвращение, отдых или следующий выезд продуманы до усталости."
+            "uz": "Qaytish, dam olish yoki keyingi chiqish charchoqdan oldin rejalansa, uzoq yoʻllar yengilroq seziladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nima ko'rish"
+    "title":
+      "en": "Begin with the Caspian edge"
+      "ru": "Начните с каспийского берега"
+      "uz": "Kaspiy qirgʻogʻidan boshlang"
+    "description":
+      "en": "Aktau's clearest first stop is the shoreline. It gives the city a human scale before museums, viewpoints, beaches, mosques, or remote Mangystau stops are added with their own timing and access checks."
+      "ru": "Самая ясная первая остановка в Актау — берег. Он даёт городу человеческий масштаб до того, как к маршруту добавляются музей, видовые точки, пляжи, мечети или удалённые места Мангистау со своими проверками времени и доступа."
+      "uz": "Aqtaudagi eng aniq birinchi to'xtov - qirgʻoq. U shaharni insoniy miqyosda ko'rsatadi; muzey, manzara nuqtalari, plyajlar, masjidlar yoki uzoq Mangʻistov joylari esa o'z vaqt va kirish tekshiruvlari bilan qo'shiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Caspian Sea Embankment and Rocky Shoreline"
+          "ru": "Каспийская набережная и скалистый берег"
+          "uz": "Kaspiy sayilgohi va toshli qirgʻoq"
+        "description":
+          "en": "Aktau does not introduce itself through an old monument. It begins where the city meets the Caspian: wind on the water, open pedestrian space, rocky edges, and a horizon that makes the inland road feel more serious. Keep this first hour simple, then decide how much of Mangystau t"
+          "ru": "Актау не начинает знакомство со старого памятника. Он начинается там, где город встречается с Каспием: ветер над водой, открытое пространство для прогулки, каменистые края и горизонт, после которого дорога вглубь региона ощущается серьезнее. Оставьте этот первый час простым, а за"
+          "uz": "Aqtau tanishuvni qadimiy yodgorlikdan boshlamaydi. U shahar Kaspiy bilan uchrashadigan joydan boshlanadi: suv ustidagi shamol, yurish uchun ochiq makon, toshli chetlar va ichkariga yoʻlni jiddiyroq his qildiradigan ufq. Shu birinchi soatni sodda qoldiring, keyin marshrut Mangʻist"
+        "ctaHref": "/destinations/kazakhstan/mangystau-and-caspian-west/aktau/caspian-sea-embankment-and-rocky-shoreline"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Aktau moments"
+      "ru": "Моменты Актау"
+      "uz": "Aqtau lahzalari"
+    "title":
+      "en": "Sea air, city context, road judgment"
+      "ru": "Морской воздух, городской контекст и дорожная трезвость"
+      "uz": "Dengiz havosi, shahar konteksti va yo'lni to'gʻri baholash"
+    "description":
+      "en": "Aktau is strongest when it gives travelers a few clear moments before or after the remote route, not when the whole peninsula is compressed into one city stop."
+      "ru": "Актау сильнее всего, когда даёт путешественнику несколько ясных моментов до или после удалённого маршрута, а не сжимает весь полуостров в одну городскую остановку."
+      "uz": "Aqtau uzoq yo'ldan oldin yoki keyin bir necha aniq lahza berganda kuchliroq; butun yarimorolni bitta shahar to'xtoviga siqish kerak emas."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Caspian first hour"
+          "ru": "Первый час у Каспия"
+          "uz": "Kaspiydagi birinchi soat"
+        "description":
+          "en": "Begin with the embankment, wind, open water, and people moving near the shore, so Aktau feels like a place before it becomes a transfer point."
+          "ru": "Начните с набережной, ветра, открытой воды и людей у берега, чтобы Актау стал местом, а не только пересадкой перед плато."
+          "uz": "Sayilgoh, shamol, ochiq suv va qirgʻoq yaqinidagi odamlar bilan boshlang, shunda Aqtau plato oldidagi shunchaki transfer emas, haqiqiy joy bo'lib seziladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Museum before the road"
+          "ru": "Музей перед дорогой"
+          "uz": "Yo'ldan oldingi muzey"
+        "description":
+          "en": "When timing and opening times allow, a short museum visit helps geology, nomadic memory, sacred geography, and rock landscapes become more than distant place names."
+          "ru": "Если время и режим работы позволяют, короткий музейный визит помогает геологии, кочевой памяти, сакральной географии и скальным ландшафтам стать не просто далёкими названиями."
+          "uz": "Vaqt va ochilish tartibi mos kelsa, qisqa muzey tashrifi geologiya, ko'chmanchi xotira, muqaddas geografiya va qoya manzaralarini uzoq nomlardan ko'ra aniqroq qiladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Road readiness"
+          "ru": "Готовность к дороге"
+          "uz": "Yo'lga tayyorgarlik"
+        "description":
+          "en": "Before a remote stop feels simple, the driver, vehicle, heat, wind, daylight, etiquette, and current access all need a fresh local check."
+          "ru": "До того как удалённая остановка покажется простой, нужно заново проверить водителя, машину, жару, ветер, световой день, этикет и текущий доступ."
+          "uz": "Uzoq to'xtov oddiydek ko'rinishidan oldin haydovchi, avtomobil, issiq, shamol, kunduzgi vaqt, odob va joriy kirish mahalliy qayta tekshirilishi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Yo'lga chiqishdan oldin"
+    "title":
+      "en": "Let Aktau make the road calmer"
+      "ru": "Пусть Актау сделает дорогу спокойнее"
+      "uz": "Aqtau yo'lni sokinroq qiladi"
+    "description":
+      "en": "Aktau helps the western Kazakhstan route because it gives the journey a place to arrive, rest, check the next road, and recover after long distances."
+      "ru": "Актау помогает маршруту по западному Казахстану, потому что даёт место для прибытия, отдыха, проверки следующей дороги и восстановления после длинных расстояний."
+      "uz": "Aqtau gʻarbiy Qozogʻiston yoʻnalishiga yordam beradi, chunki bu yerda kelish, dam olish, keyingi yo'lni tekshirish va uzun masofalardan keyin tiklanish mumkin."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the arrival light"
+              "ru": "Оставьте прибытие лёгким"
+              "uz": "Kelishni yengil qoldiring"
+            "description":
+              "en": "The shoreline is enough for first orientation after a flight or before an early departure. A crowded city program makes the next road harder."
+              "ru": "Берега достаточно для первой ориентации после перелёта или перед ранним выездом. Перегруженная городская программа усложняет следующую дорогу."
+              "uz": "Parvozdan keyin yoki erta yo'lga chiqishdan oldin qirgʻoq birinchi mo'ljal uchun yetarli. Juda to'la shahar dasturi keyingi yo'lni qiyinlashtiradi."
+          - "type": "quote"
+            "quote":
+              "en": "Aktau is strongest when it gives the route a calm first hour and the judgment to leave one more remote stop for another journey."
+              "ru": "Актау сильнее всего тогда, когда даёт маршруту спокойный первый час и здравый выбор оставить ещё одну удалённую остановку для другой поездки."
+              "uz": "Aqtau yo'nalishga sokin birinchi soat va yana bir uzoq to'xtovni boshqa safarga qoldirish uchun to'gʻri qaror beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Check the road close to travel"
+              "ru": "Проверяйте дорогу ближе к поездке"
+              "uz": "Yo'lni safarga yaqin tekshiring"
+            "description":
+              "en": "Heat, wind, surfaces, vehicle availability, and current access can change the plan. Confirm the details near the actual date."
+              "ru": "Жара, ветер, покрытие, доступность машин и текущий доступ могут изменить план. Подтверждайте детали ближе к конкретной дате."
+              "uz": "Issiq, shamol, yo'l sathi, avtomobil mavjudligi va joriy kirish rejani o'zgartirishi mumkin. Tafsilotlarni aniq sanaga yaqin tasdiqlang."
+          - "type": "dashTitle"
+            "title":
+              "en": "Separate sacred and scenic stops"
+              "ru": "Разделяйте сакральные и видовые остановки"
+              "uz": "Muqaddas va manzarali to'xtovlarni ajrating"
+            "description":
+              "en": "Beket-Ata needs etiquette and current local advice. Torysh, Sherkala, Airakty, and Bozzhira need road time, daylight, and suitable vehicles."
+              "ru": "Бекет-Ата требует этикета и актуального местного совета. Торыш, Шеркала, Айракты и Бозжыра требуют дорожного времени, светового дня и подходящей машины."
+              "uz": "Beket-Ata odob va joriy mahalliy maslahat talab qiladi. Torysh, Sherqala, Airakty va Bozzhyra yo'l vaqti, kunduzgi yorugʻlik va mos avtomobil talab qiladi."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Что запомнить"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Start at the Caspian, let the city steady the route, and treat each remote Mangystau stop as its own decision."
+              "ru": "Начните у Каспия, дайте городу выровнять маршрут и относитесь к каждой удалённой остановке Мангистау как к отдельному решению."
+              "uz": "Kaspiydan boshlang, shahar yo'nalishni tinchlantirsin va Mangʻistovdagi har bir uzoq to'xtovni alohida qaror sifatida ko'ring."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Yo'lga chiqishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "Caspian city in Mangystau Region, useful for arrivals, overnights, shoreline time, and western Kazakhstan route planning."
+                  "ru": "Каспийский город в Мангистауской области, удобный для прилёта, ночёвки, прогулки у моря и планирования маршрута по западному Казахстану."
+                  "uz": "Mangʻistov regionidagi Kaspiy shahri; kelish, tunash, qirgʻoq vaqti va gʻarbiy Qozogʻiston yoʻnalishini rejalash uchun qulay."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main city stop"
+                  "ru": "Главная городская остановка"
+                  "uz": "Asosiy shahar to'xtovi"
+                "description":
+                  "en": "Other Aktau and Mangystau places need their own verified timing and access."
+                  "ru": "Другим местам Актау и Мангистау нужны собственные проверки времени и доступа."
+                  "uz": "Aqtau va Mangʻistovdagi boshqa joylar uchun vaqt va kirish alohida tasdiqlanishi kerak."
+              - "icon": "Sun"
+                "title":
+                  "en": "Time"
+                  "ru": "Время"
+                  "uz": "Vaqt"
+                "description":
+                  "en": "Often one night before or after a Mangystau route, with extra time when flights, museum plans, or recovery after the road make it worthwhile."
+                  "ru": "Часто достаточно одной ночи до или после маршрута по Мангистау; больше времени нужно, если этого требуют рейсы, музей или восстановление после дороги."
+                  "uz": "Ko'pincha Mangʻistov yoʻnalishidan oldin yoki keyin bir tun yetarli; parvoz, muzey rejasi yoki yo'ldan keyingi tiklanish talab qilsa, ko'proq vaqt kerak bo'ladi."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and comfort"
+                  "ru": "Сезон и комфорт"
+                  "uz": "Mavsum va qulaylik"
+                "description":
+                  "en": "Spring and autumn are easier for remote roads; summer heat and winter wind can reshape the route."
+                  "ru": "Весна и осень легче для удалённых дорог; летняя жара и зимний ветер могут изменить форму маршрута."
+                  "uz": "Bahor va kuz uzoq yoʻllar uchun osonroq; yozgi issiq va qishki shamol yo'nalish shaklini o'zgartirishi mumkin."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before travel"
+                  "ru": "Перед поездкой"
+                  "uz": "Safardan oldin"
+                "description":
+                  "en": "Confirm flight timing, hotel logistics, vehicle, driver, road condition, daylight, weather, access, museum timing, shrine etiquette, and traveler readiness close to the date."
+                  "ru": "Ближе к дате проверьте время рейсов, отельную логистику, машину, водителя, состояние дорог, световой день, погоду, доступ, время музея, этикет у святынь и готовность путешественников."
+                  "uz": "Sanaga yaqin parvoz vaqti, mehmonxona logistikasi, avtomobil, haydovchi, yo'l holati, kunduzgi vaqt, ob-havo, kirish, muzey vaqti, ziyorat odobi va sayohatchilar tayyorgarligini tasdiqlang."
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Aktau in the day plan"
+      "ru": "Как поставить Актау в план дня"
+      "uz": "Aqtauni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Aktau?"
+          "ru": "Сколько времени группам стоит проводить в Актау?"
+          "uz": "Aqtauda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Caspian arrival before the Mangystau road”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Каспийское прибытие перед дорогой в Мангистау»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Mangʻistov yoʻlidan oldingi Kaspiy kirishi»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Aktau be a walkable core or a base for day trips?"
+          "ru": "Актау — это пешеходное ядро или база для выездов?"
+          "uz": "Aqtau piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Aktau's centre?"
+          "ru": "Где лучше ночевать относительно центра Актау?"
+          "uz": "Aqtau markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Aktau stop into your Kazakhstan programme"
+      "ru": "Встройте остановку «Актау» в программу (Казахстан)"
+      "uz": "Aqtau bekatini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Aktau | TourLink"
+    "ru": "Актау | TourLink"
+    "uz": "Aqtau | TourLink"
+  "metaDescription":
+    "en": "Aktau feels spare at first: pale blocks, sea wind, long horizons, and a city grid that quickly gives way to western Kazakhstan's harder landscapes. Start at the Caspian, let the first evening stay simple, and let the city show how far the road beyond it really is."
+    "ru": "Сначала Актау кажется сдержанным: светлые кварталы, ветер с моря, длинные горизонты и городская сетка, которая быстро переходит в более суровые ландшафты западного Казахстана. Начните у Каспия, оставьте первый вечер простым и дайте городу показать, насколько длинной будет дорога за его пределами."
+    "uz": "Aqtau avvaliga vazmin tuyuladi: och rangli kvartallar, dengiz shamoli, uzun ufqlar va tez orada gʻarbiy Qozogʻistonning qattiqroq manzaralariga ulanadigan shahar tuzilishi. Kaspiydan boshlang, birinchi kechani sodda qoldiring va shahar uning ortidagi yo'l qanchalik uzunligini ko'rsatsin."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "mangystau-and-caspian-west"
+"latitude": 43.6353364
+"longitude": 51.168222

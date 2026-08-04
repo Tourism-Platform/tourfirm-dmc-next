@@ -1,0 +1,593 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "urgench"
+  "ru": "urgench"
+  "uz": "urgench"
+"title":
+  "en": "Urgench"
+  "ru": "Ургенч"
+  "uz": "Urganch"
+"subtitle":
+  "en": "Khorezm's arrival city before Khiva"
+  "ru": "Город прибытия в Хорезм перед Хивой"
+  "uz": "Xiva oldidan Xorazmga kirish shahri"
+"excerpt":
+  "en": "Urgench is usually the practical threshold to Khorezm. Flights and trains arrive here, the road turns toward Khiva, and a spare window can become Avesto Park, CAMUZ, Ulli Hovli, or simply a quiet meal before Itchan Kala."
+  "ru": "Ургенч обычно становится порогом Хорезма. Сюда прилетают и приезжают поездом, отсюда дорога уходит к Хиве, а свободное окно можно отдать парку Авесто, CAMUZ, Ули-Ховли или спокойному ужину перед Ичан-Калой."
+  "uz": "Urganch odatda Xorazmga kirish ostonasi bo‘ladi. Parvozlar va poyezdlar shu yerga keladi, yo‘l Xivaga buriladi, ortgan vaqt esa Avesto bog‘i, CAMUZ, Ulli Hovli yoki Ichan Qalʼadan oldingi sokin kechki ovqatga aylanishi mumkin."
+"heroImage": "assets/images/destinations/uzbekistan/regions/khorezm-region/cities/urgench.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/khorezm-region/cities/urgench.webp"
+    "imageAlt":
+      "en": "Urgench"
+      "ru": "Ургенч"
+      "uz": "Urganch"
+    "title":
+      "en": "Urgench"
+      "ru": "Ургенч"
+      "uz": "Urganch"
+    "description":
+      "en": "Khorezm's arrival city before Khiva"
+      "ru": "Город прибытия в Хорезм перед Хивой"
+      "uz": "Xiva oldidan Xorazmga kirish shahri"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Urgench"
+      "ru": "Ургенч"
+      "uz": "Urganch"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Urgench is usually the practical threshold to Khorezm."
+              "ru": "Ургенч обычно становится порогом Хорезма."
+              "uz": "Urganch odatda Xorazmga kirish ostonasi bo‘ladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Urgench is not the city for a long walking program. Its value is clearer when arrival time, transfer distance, rest, and the next move are settled before any short cultural stop is added."
+              "ru": "Ургенч — не город для длинной прогулочной программы. Он становится полезнее, когда время прибытия, трансфер, отдых и следующий участок маршрута понятны до коротких культурных остановок."
+              "uz": "Urganch uzun piyoda dastur uchun shahar emas. Kelish vaqti, transfer, dam olish va keyingi yo‘l qisqa madaniy bekatlardan oldin aniq bo‘lsa, uning qiymati yaqqolroq ko‘rinadi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep the first stretch clean: arrival time, luggage, and the transfer to Khiva come first; Avesto Park, CAMUZ, or Ulli Hovli should only follow when the timing stays calm."
+              "ru": "Первый участок лучше держать ясным: время прибытия, багаж и трансфер к Хиве идут первыми; парк Авесто, CAMUZ или Ули-Ховли стоит добавлять только когда темп остаётся спокойным."
+              "uz": "Birinchi bo‘lakni aniq tuting: kelish vaqti, yuk va Xivaga transfer birinchi o‘rinda; Avesto bog‘i, CAMUZ yoki Ulli Hovli faqat yo‘l surʼati sokin qolsa qo‘shiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Urgench as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Ургенч как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Urganch o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "How Urgench fits"
+      "ru": "Где уместен Ургенч"
+      "uz": "Urganch qayerda o‘rinli"
+    "title":
+      "en": "Arrive, settle, then choose Khiva or the wider west"
+      "ru": "Приехать, выдохнуть и выбрать Хиву или западную дорогу"
+      "uz": "Yetib kelish, tin olish, so‘ng Xiva yoki g‘arbiy yo‘lni tanlash"
+    "description":
+      "en": "Urgench is not the city for a long walking program. Its value is clearer when arrival time, transfer distance, rest, and the next move are settled before any short cultural stop is added."
+      "ru": "Ургенч — не город для длинной прогулочной программы. Он становится полезнее, когда время прибытия, трансфер, отдых и следующий участок маршрута понятны до коротких культурных остановок."
+      "uz": "Urganch uzun piyoda dastur uchun shahar emas. Kelish vaqti, transfer, dam olish va keyingi yo‘l qisqa madaniy bekatlardan oldin aniq bo‘lsa, uning qiymati yaqqolroq ko‘rinadi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Western arrival point"
+        "ru": "Западная точка прибытия"
+        "uz": "G‘arbiy kelish nuqtasi"
+      "title":
+        "en": "Urgench at the Khorezm threshold"
+        "ru": "Ургенч у порога Хорезма"
+        "uz": "Urganch Xorazm ostonasida"
+      "description":
+        "en": "The map places Urgench where air and rail arrivals meet the Khiva road. Most routes turn quickly toward Khiva, then return east or continue toward the wider western road."
+        "ru": "Карта показывает Ургенч там, где прилёты и поезда встречают дорогу к Хиве. Большинство маршрутов быстро поворачивает к Хиве, а затем возвращается на восток или продолжается по западной дороге."
+        "uz": "Xarita Urganchni havo va temiryo‘l Xiva yo‘liga tutashadigan joyda ko‘rsatadi. Ko‘p yo‘nalishlar tezda Xivaga buriladi, keyin sharqqa qaytadi yoki kengroq g‘arbiy yo‘lga davom etadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.55179
+      "longitude": 60.631281
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "avesto-park-complex"
+      - "entityType": "attraction"
+        "entitySlug": "contemporary-art-museum-of-uzbekistan-urgench"
+      - "entityType": "attraction"
+        "entitySlug": "komiljon-otaniyozov-house-museum"
+    "aside":
+      "eyebrow":
+        "en": "Route shape"
+        "ru": "Форма маршрута"
+        "uz": "Yo‘l shakli"
+      "title":
+        "en": "Air or rail first, then the Khiva road"
+        "ru": "Сначала самолёт или поезд, затем дорога к Хиве"
+        "uz": "Avval havo yoki temiryo‘l, keyin Xiva yo‘li"
+      "description":
+        "en": "Keep the first stretch clean: arrival time, luggage, and the transfer to Khiva come first; Avesto Park, CAMUZ, or Ulli Hovli should only follow when the timing stays calm."
+        "ru": "Первый участок лучше держать ясным: время прибытия, багаж и трансфер к Хиве идут первыми; парк Авесто, CAMUZ или Ули-Ховли стоит добавлять только когда темп остаётся спокойным."
+        "uz": "Birinchi bo‘lakni aniq tuting: kelish vaqti, yuk va Xivaga transfer birinchi o‘rinda; Avesto bog‘i, CAMUZ yoki Ulli Hovli faqat yo‘l surʼati sokin qolsa qo‘shiladi."
+      "items":
+        - "title":
+            "en": "Air and rail shape the first decision"
+            "ru": "Рейсы и поезда задают первое решение"
+            "uz": "Parvoz va poyezd birinchi qarorni belgilaydi"
+          "description":
+            "en": "The airport and railway station make Urgench the entry point to Khorezm; schedules, luggage, and heat decide whether the route moves on or pauses."
+            "ru": "Аэропорт и вокзал делают Ургенч входом в Хорезм; расписание, багаж и жара показывают, ехать дальше сразу или сделать паузу."
+            "uz": "Aeroport va vokzal Urganchni Xorazmga kirish nuqtasi qiladi; jadval, yuk va issiq yo‘l darhol davom etadimi yoki qisqa to‘xtash bo‘ladimi, shuni ko‘rsatadi."
+          "badge":
+            "en": "Arrival"
+            "ru": "Прибытие"
+            "uz": "Kelish"
+        - "title":
+            "en": "Khiva keeps the main heritage time"
+            "ru": "Главное время наследия остаётся в Хиве"
+            "uz": "Merosning asosiy vaqti Xivada qoladi"
+          "description":
+            "en": "For most travelers, the meaningful walking belongs in and around Itchan Kala. Urgench makes that approach easier instead of standing in for Khiva."
+            "ru": "Для большинства путешественников содержательная прогулка проходит в Хиве и вокруг Ичан-Калы. Ургенч делает подход проще, не заменяя Хиву."
+            "uz": "Ko‘p sayohatchilar uchun mazmunli piyoda vaqt Xiva va Ichan Qalʼa atrofida o‘tadi. Urganch Xivani almashtirmaydi, unga yaqinlashishni osonlashtiradi."
+          "badge":
+            "en": "Khiva road"
+            "ru": "Дорога к Хиве"
+            "uz": "Xiva yo‘li"
+        - "title":
+            "en": "A short stop can add context"
+            "ru": "Короткая остановка добавляет контекст"
+            "uz": "Qisqa bekat kontekst qo‘shadi"
+          "description":
+            "en": "Avesto Park and the Contemporary Art Museum can give Urgench a real cultural note when opening times and transport are checked locally."
+            "ru": "Парк Авесто и Музей современного искусства дают Ургенчу культурный смысл, когда часы работы и транспорт проверены на месте."
+            "uz": "Avesto bog‘i va Zamonaviy sanʼat muzeyi ochilish vaqti hamda transport joyida tekshirilganda Urganchga haqiqiy madaniy ohang beradi."
+          "badge":
+            "en": "Avesto and CAMUZ"
+            "ru": "Авесто и CAMUZ"
+            "uz": "Avesto va CAMUZ"
+        - "title":
+            "en": "The western road starts to widen"
+            "ru": "Западная дорога расширяется"
+            "uz": "G‘arbiy yo‘l kengayadi"
+          "description":
+            "en": "When the program has enough margin, Ulli Hovli, Ancient Khorezm fortress routes, Nukus, or the Aral Sea can become the next decision from this chapter."
+            "ru": "Если программа сохраняет спокойный темп, Ули-Ховли, дороги к крепостям древнего Хорезма, Нукус или Арал становятся следующим выбором в этой части путешествия."
+            "uz": "Dastur sokin surʼatni saqlasa, Ulli Hovli, qadimgi Xorazm qalʼalari yo‘li, Nukus yoki Orol shu bobdagi keyingi tanlovga aylanadi."
+          "badge":
+            "en": "Wider west"
+            "ru": "Дальше на запад"
+            "uz": "G‘arbiy davom"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Avesto Park, CAMUZ, and Ulli Hovli"
+      "ru": "Парк Авесто, CAMUZ и Ули-Ховли"
+      "uz": "Avesto bog‘i, CAMUZ va Ulli Hovli"
+    "description":
+      "en": "Urgench is strongest with a short, chosen set: Avesto Park and its museum, CAMUZ for contemporary Khorezm art, and Ulli Hovli when the outing fits the transfer plan."
+      "ru": "Для Ургенча достаточно точечного набора: парк и музей Авесто, CAMUZ с современным искусством Хорезма и Ули-Ховли, если выезд подходит к трансферному плану."
+      "uz": "Urganch uchun qisqa va aniq tanlov yetarli: Avesto bog‘i va muzeyi, CAMUZdagi zamonaviy Xorazm sanʼati, transport rejasiga mos kelganda esa Ulli Hovli."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Avesto Park Complex"
+          "ru": "Парк Авесто в Ургенче"
+          "uz": "Urganchdagi Avesto bog‘i"
+        "description":
+          "en": "Avesto Park fits when Urgench has a spare, unhurried hour: enough to see the monument, hear why the museum matters, and continue toward Khiva without turning the transfer into a rush. Read it as a precise city stop, not as a substitute for Khiva's old town."
+          "ru": "Парк Авесто уместен, когда в Ургенче есть спокойный свободный час: увидеть памятник, услышать, почему важен музей, и продолжить дорогу к Хиве без спешки. Это точная городская остановка, а не замена историческому центру Хивы."
+          "uz": "Avesto bog‘i Urganchda bemalol bir soat bo‘lganda o‘rinli: yodgorlikni ko‘rish, muzey nima uchun muhimligini eshitish va Xivaga yo‘lni shoshirmasdan davom ettirish. Uni Xiva eski shahrining o‘rnini bosadigan joy emas, aniq shahar to‘xtami sifatida ko‘ring."
+        "ctaHref": "/destinations/uzbekistan/khorezm-region/urgench/avesto-park-complex"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Contemporary Art Museum of Uzbekistan (CAMUZ)"
+          "ru": "Музей современного искусства Узбекистана (CAMUZ)"
+          "uz": "O‘zbekiston zamonaviy sanʼat muzeyi (CAMUZ)"
+        "description":
+          "en": "CAMUZ shows another side of Khorezm in Urgench: paintings, graphic art, sculpture, and artists shaped by the region rather than fortress walls alone. It fits best when arrival, departure, or a short city loop leaves a quiet hour for the museum."
+          "ru": "CAMUZ показывает другой Хорезм в Ургенче: не только стены Хивы и дороги к крепостям, но живопись, графику, скульптуру и художников, связанных с регионом. Музей лучше добавлять, когда рядом с прилётом, выездом или коротким маршрутом по городу есть спокойный час."
+          "uz": "CAMUZ Urganchda Xorazmning boshqa tomonini ko‘rsatadi: faqat Xiva devorlari va qalʼalar yo‘li emas, rangtasvir, grafika, haykal va hududdan shakllangan rassomlar. Muzey kelish, ketish yoki qisqa shahar aylanishi atrofida sokin vaqt bo‘lganda mos."
+        "ctaHref": "/destinations/uzbekistan/khorezm-region/urgench/contemporary-art-museum-of-uzbekistan-urgench"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Komiljon Otaniyozov House Museum"
+          "ru": "Дом-музей Комилжона Отаниёзова"
+          "uz": "Komiljon Otaniyozov uy-muzeyi"
+        "description":
+          "en": "In Urgench, the Komiljon Otaniyozov House Museum brings Khorezm's music story down to house scale. It suits travelers who want the route to pause for a named artist and local memory before the road turns back toward Khiva."
+          "ru": "В Ургенче дом-музей Комилжона Отаниёзова переводит музыкальную историю Хорезма в масштаб городского дома. Он подходит тем, кто хочет увидеть в маршруте не только дорогу к Хиве, но и память о конкретном артисте."
+          "uz": "Urganchda Komiljon Otaniyozov uy-muzeyi Xorazm musiqasi haqidagi hikoyani shahar uyining sokin miqyosiga olib keladi. Bu joy yo‘lni faqat Xivaga borish emas, aniq bir sanʼatkor xotirasi orqali ham ko‘rmoqchi bo‘lgan mehmonlarga mos."
+        "ctaHref": "/destinations/uzbekistan/khorezm-region/urgench/komiljon-otaniyozov-house-museum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route moments"
+      "ru": "Моменты маршрута"
+      "uz": "Yo‘l lahzalari"
+    "title":
+      "en": "Arrival, city context, and the road beyond"
+      "ru": "Прибытие, городская пауза и дорога дальше"
+      "uz": "Kelish, shahar konteksti va keyingi yo‘l"
+    "description":
+      "en": "These Urgench moments keep the page honest: arrive cleanly, add one short culture loop if timing allows, or widen the route through Ulli Hovli."
+      "ru": "Эти моменты удерживают Ургенч в честной роли: спокойное прибытие, один короткий культурный круг при подходящем времени или выезд к Ули-Ховли."
+      "uz": "Bu lahzalar Urganchning aniq rolini saqlaydi: sokin kelish, vaqt mos bo‘lsa bitta qisqa madaniy aylanish yoki Ulli Hovli tomonga yo‘lni kengaytirish."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Rail"
+          "ru": "Поезд"
+          "uz": "Poyezd"
+        "title":
+          "en": "Arrive before Khiva"
+          "ru": "Прибытие перед Хивой"
+          "uz": "Xivadan oldin kelish"
+        "description":
+          "en": "Land, collect luggage, and let the road to Khiva stay calm: the first decision is whether to transfer straight on or pause in Urgench."
+          "ru": "Прилететь, забрать багаж и сохранить дорогу к Хиве спокойной: главное решение здесь — ехать сразу дальше или сделать короткую паузу в Ургенче."
+          "uz": "Kelish, yukni olish va Xivaga yo‘lni sokin saqlash: bu yerdagi asosiy qaror to‘g‘ridan-to‘g‘ri davom etish yoki Urganchda qisqa to‘xtash."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Avesto and CAMUZ in one loop"
+          "ru": "Авесто и CAMUZ за короткое окно"
+          "uz": "Avesto va CAMUZ bir qisqa aylanishda"
+        "description":
+          "en": "When schedules leave a clear window, Avesto Park and CAMUZ give Urgench a different note: Zoroastrian memory beside contemporary Khorezm art."
+          "ru": "Когда расписание даёт ясное окно, парк Авесто и CAMUZ добавляют Ургенчу другой смысл: зороастрийскую память рядом с современным искусством Хорезма."
+          "uz": "Jadval aniq vaqt bersa, Avesto bog‘i va CAMUZ Urganchga boshqa ohang qo‘shadi: zardushtiy xotira zamonaviy Xorazm sanʼati bilan yonma-yon."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Ulli Hovli beyond the city"
+          "ru": "Ули-Ховли за городом"
+          "uz": "Shahar tashqarisidagi Ulli Hovli"
+        "description":
+          "en": "Let Ulli Hovli become an extra Khorezm chapter only when transport and local visit conditions make the outing calm."
+          "ru": "Ули-Ховли становится дополнительной хорезмской главой только тогда, когда транспорт и условия посещения делают выезд спокойным."
+          "uz": "Ulli Hovli transport va tashrif sharoiti yo‘lni sokin qoldirgandagina qo‘shimcha Xorazm bobiga aylanadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Yo‘l oldidan"
+    "title":
+      "en": "How Urgench keeps the Khiva journey clear"
+      "ru": "Как Ургенч сохраняет день в Хиве ясным"
+      "uz": "Urganch Xiva safarini qanday yengillashtiradi"
+    "description":
+      "en": "Urgench matters most when it keeps the western chapter calm: arrival, transfer, rest, and a measured choice about what belongs before or after Khiva."
+      "ru": "Ургенч важнее всего тогда, когда делает западную главу спокойнее: прибытие, трансфер, отдых и ясный выбор того, что уместно до или после Хивы."
+      "uz": "Urganch g‘arbiy bobni sokin tutganda muhim: kelish, transfer, dam olish va Xivadan oldin yoki keyin nimani qo‘shish haqidagi aniq tanlov."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Arrival comes first"
+              "ru": "Сначала прибытие"
+              "uz": "Avval kelish"
+            "description":
+              "en": "Treat the flight, train, and transfer as part of the journey, not empty time before the route begins."
+              "ru": "Перелёт, поезд и трансфер лучше считать частью путешествия, а не пустым временем до начала маршрута."
+              "uz": "Parvoz, poyezd va transfer safar boshlanishi oldidagi bo‘sh vaqt emas, yo‘lning bir qismi sifatida ko‘riladi."
+          - "type": "quote"
+            "quote":
+              "en": "Urgench is at its best when it clears the way to Khiva and the western road."
+              "ru": "Ургенч сильнее всего тогда, когда расчищает путь к Хиве и западной дороге."
+              "uz": "Urganch Xiva va g‘arbiy yo‘lga yo‘l ochib berganda eng kuchli."
+          - "type": "dashTitle"
+            "title":
+              "en": "Khiva holds the main walk"
+              "ru": "Главное время — Хиве"
+              "uz": "Asosiy piyoda vaqt Xivada"
+            "description":
+              "en": "The strongest Khorezm stay is usually in or near Khiva. Urgench should make the approach calmer while Itchan Kala carries the main walking day."
+              "ru": "Самая сильная хорезмская ночёвка обычно находится в Хиве или рядом с ней. Ургенч делает подход спокойнее, а Ичан-Кала держит главный прогулочный день."
+              "uz": "Eng kuchli Xorazm tuni odatda Xiva yoki uning yaqinida bo‘ladi. Urganch yondashuvni sokinlashtiradi, Ichan Qalʼa esa asosiy piyoda kunni ushlab turadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "One extra stop, not a list"
+              "ru": "Одна дополнительная остановка, не список"
+              "uz": "Bitta qo‘shimcha bekat, ro‘yxat emas"
+            "description":
+              "en": "Avesto Park, CAMUZ, Ulli Hovli, or fortress-road planning can be worthwhile when they fit the transfer rhythm without making the route feel rushed."
+              "ru": "Парк Авесто, CAMUZ, Ули-Ховли или решения по крепостным дорогам имеют смысл, когда они совпадают с темпом трансфера и не делают маршрут спешным."
+              "uz": "Avesto bog‘i, CAMUZ, Ulli Hovli yoki qalʼalar yo‘li haqidagi qarorlar transfer surʼatiga mos tushganda va yo‘lni shoshiltirmaganda maʼnoli bo‘ladi."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Choose Urgench for clear arrivals and one measured Khorezm moment: a transfer, a rest, a short cultural stop, then the road to Khiva or the wider west."
+              "ru": "Выбирайте Ургенч для понятного прибытия и одного взвешенного хорезмского момента: трансфера, отдыха, короткой культурной остановки, а затем дороги к Хиве или дальше на запад."
+              "uz": "Urganchni aniq kelish va bitta vazmin Xorazm lahzasi uchun tanlang: transfer, dam olish, qisqa madaniy bekat, keyin Xiva yoki g‘arbiy yo‘l."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Yo‘l oldidan"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Route role"
+                  "ru": "Коротко Роль в маршруте"
+                  "uz": "Qisqacha Yo‘nalishdagi roli"
+                "description":
+                  "en": "Air, rail, and road arrival point for Khiva and wider Khorezm."
+                  "ru": "Точка прибытия к Хиве и шире по Хорезму через самолёт, поезд или дорожный трансфер."
+                  "uz": "Xiva va kengroq Xorazm uchun havo, temiryo‘l va yo‘l transferi orqali kelish nuqtasi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Khiva first"
+                  "ru": "Сначала Хива"
+                  "uz": "Avval Xiva"
+                "description":
+                  "en": "Khiva remains the main heritage stay; Urgench keeps arrival and departure clear."
+                  "ru": "Хива остаётся главным местом наследия; Ургенч делает прибытие и выезд яснее."
+                  "uz": "Xiva meros uchun asosiy joy bo‘lib qoladi; Urganch kelish va ketishni aniqroq qiladi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Short stops"
+                  "ru": "Короткие остановки"
+                  "uz": "Qisqa bekatlar"
+                "description":
+                  "en": "Avesto Park, CAMUZ, and Ulli Hovli belong only when timing, access, and transport are checked."
+                  "ru": "Парк Авесто, CAMUZ и Ули-Ховли уместны только после проверки времени, доступа и транспорта."
+                  "uz": "Avesto bog‘i, CAMUZ va Ulli Hovli vaqt, kirish va transport tekshirilgandan keyin mos keladi."
+              - "icon": "Route"
+                "title":
+                  "en": "Next choices"
+                  "ru": "Следующие решения"
+                  "uz": "Keyingi qarorlar"
+                "description":
+                  "en": "Return east, continue toward Ancient Khorezm fortress routes, or turn to Nukus and the Aral Sea."
+                  "ru": "Вернуться на восток, продолжить к крепостям древнего Хорезма или повернуть к Нукусу и Аралу."
+                  "uz": "Sharqqa qaytish, qadimgi Xorazm qalʼalari tomon davom etish yoki Nukus va Orolga burilish."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route continuations"
+      "ru": "Маршрутные продолжения"
+      "uz": "Yo‘l davomlari"
+    "title":
+      "en": "Khiva, Ellikqala, and Nukus around Urgench"
+      "ru": "Хива, Элликкала и Нукус вокруг Ургенча"
+      "uz": "Urganch atrofida Xiva, Ellikqal’a va Nukus"
+    "description":
+      "en": "Khiva carries the main heritage stay, Ellikqala leads into fortress-road planning, and Nukus opens the Karakalpakstan and Aral Sea chapter. Urgench sits between those choices."
+      "ru": "Хива держит главное наследие, Элликкала ведёт к дорогам крепостей, Нукус открывает Каракалпакстан и Арал. Ургенч находится между этими решениями."
+      "uz": "Xiva asosiy meros shahri bo‘lib qoladi, Ellikqal’a qalʼalar yo‘liga olib boradi, Nukus esa Qoraqalpog‘iston va Orol bobini ochadi. Urganch shu qarorlar orasida turadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/urgench-next-khiva.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Khiva"
+          "ru": "Хива"
+          "uz": "Xiva"
+        "description":
+          "en": "Khiva holds the western edge of the classic route: Itchan Kala, Kalta Minor, Juma Mosque, palace courtyards, workshops, and the roads that continue through Khorezm."
+          "ru": "Хива держит западный край классического маршрута: Ичан-Кала, Кальта-Минор, Джума-мечеть, дворцовые дворы, мастерские и дороги дальше по Хорезму."
+          "uz": "Xiva klassik yo‘lning g‘arbiy chekkasini ushlab turadi: Ichan Qalʼa, Kalta Minor, Juma masjidi, saroy hovlilari, ustaxonalar va Xorazm bo‘ylab davom etadigan yo‘llar."
+        "ctaHref": "/destinations/uzbekistan/khorezm-region/khiva"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/urgench-next-ellikqala.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ellikqala"
+          "ru": "Элликкала"
+          "uz": "Ellikqal’a"
+        "description":
+          "en": "Ellikqala brings the Karakalpakstan route to the desert fortresses of Ancient Khorezm: Toprak-Kala, Kyzyl-Kala, Ayaz-Kala, open roads, access checks, and the link between Nukus and Khiva."
+          "ru": "Элликкала выводит маршрут по Каракалпакстану к пустынным крепостям древнего Хорезма: Топрак-Кале, Кызыл-Кале, Аяз-Кале, открытым дорогам, проверкам доступа и пути между Нукусом и Хивой."
+          "uz": "Ellikqal’a Qoraqalpog‘iston yo‘lini qadimgi Xorazm qalʼalariga olib boradi: Tuproq-qalʼa, Qizil-qalʼa, Ayoz-qalʼa, ochiq yo‘llar, kirish tekshiruvlari va Nukus bilan Xiva orasidagi yo‘l."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/ellikqala"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Nukus"
+          "ru": "Нукус"
+          "uz": "Nukus"
+        "description":
+          "en": "Start in Nukus with the Savitsky Museum, then connect Karakalpak culture with Moynaq, Mizdakhan, Chilpyk, and the desert fortress road."
+          "ru": "Начните знакомство с Нукусом в музее Савицкого, а затем связывайте город с каракалпакской культурой, Муйнаком, Миздакханом, Чилпыком и дорогой к пустынным крепостям."
+          "uz": "Nukusni Savitskiy muzeyidan boshlang, keyin shaharni qoraqalpoq madaniyati, Mo‘ynoq, Mizdakhan, Chilpiq va cho‘l qalʼalari yo‘li bilan bog‘lang."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Urgench in the day plan"
+      "ru": "Как поставить Ургенч в план дня"
+      "uz": "Urganchni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Urgench?"
+          "ru": "Сколько времени группам стоит проводить в Ургенч?"
+          "uz": "Urganchda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “Khorezm's arrival city before Khiva”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Город прибытия в Хорезм перед Хивой»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Xiva oldidan Xorazmga kirish shahri»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Urgench be a walkable core or a base for day trips?"
+          "ru": "Ургенч — это пешеходное ядро или база для выездов?"
+          "uz": "Urganch piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Urgench's centre?"
+          "ru": "Где лучше ночевать относительно центра Ургенч?"
+          "uz": "Urganch markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/khorezm-region/cities/urgench.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Urgench stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Ургенч» в программу (Узбекистан)"
+      "uz": "Urganch bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Urgench | TourLink"
+    "ru": "Ургенч | TourLink"
+    "uz": "Urganch | TourLink"
+  "metaDescription":
+    "en": "Urgench is usually the practical threshold to Khorezm. Flights and trains arrive here, the road turns toward Khiva, and a spare window can become Avesto Park, CAMUZ, Ulli Hovli, or simply a quiet meal before Itchan Kala."
+    "ru": "Ургенч обычно становится порогом Хорезма. Сюда прилетают и приезжают поездом, отсюда дорога уходит к Хиве, а свободное окно можно отдать парку Авесто, CAMUZ, Ули-Ховли или спокойному ужину перед Ичан-Калой."
+    "uz": "Urganch odatda Xorazmga kirish ostonasi bo‘ladi. Parvozlar va poyezdlar shu yerga keladi, yo‘l Xivaga buriladi, ortgan vaqt esa Avesto bog‘i, CAMUZ, Ulli Hovli yoki Ichan Qalʼadan oldingi sokin kechki ovqatga aylanishi mumkin."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "khorezm-region"
+"latitude": 41.5517903
+"longitude": 60.631281

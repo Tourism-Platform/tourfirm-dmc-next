@@ -1,0 +1,631 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "tersak"
+  "ru": "tersak"
+  "uz": "tersak"
+"title":
+  "en": "Tersak"
+  "ru": "Терсак"
+  "uz": "Tersak"
+"subtitle":
+  "en": "An Urgut mountain village for home meals, cooler air, and a slower return"
+  "ru": "Горное село Ургута с домашним дастарханом, прохладным воздухом и спокойной дорогой"
+  "uz": "Oilaviy dasturxon, salqin havo va sokin qaytish yo‘li bor Urgut tog‘ qishlog‘i"
+"excerpt":
+  "en": "Tersak gives a Samarkand journey a slower Urgut-side village stop. Give the road time for a home meal, local food, flatbread, dairy traditions, and one short walk in cooler air."
+  "ru": "Терсак даёт самаркандскому маршруту более спокойную сельскую остановку со стороны Ургута. Село раскрывается, когда есть время для домашнего дастархана, местной еды, лепёшки, молочных традиций и короткой прогулки на свежем воздухе."
+  "uz": "Tersak Samarqand safariga Urgut tomondagi sokin qishloq to‘xtashini qo‘shadi. Yo‘l oilaviy dasturxon, mahalliy taom, non, sutli an’analar va salqin havodagi qisqa sayrga vaqt berganda qishloq kuchliroq ochiladi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/tersak.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/tersak.webp"
+    "imageAlt":
+      "en": "Tersak"
+      "ru": "Терсак"
+      "uz": "Tersak"
+    "title":
+      "en": "Tersak"
+      "ru": "Терсак"
+      "uz": "Tersak"
+    "description":
+      "en": "An Urgut mountain village for home meals, cooler air, and a slower return"
+      "ru": "Горное село Ургута с домашним дастарханом, прохладным воздухом и спокойной дорогой"
+      "uz": "Oilaviy dasturxon, salqin havo va sokin qaytish yo‘li bor Urgut tog‘ qishlog‘i"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Tersak"
+      "ru": "Терсак"
+      "uz": "Tersak"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Tersak gives a Samarkand journey a slower Urgut-side village stop."
+              "ru": "Терсак даёт самаркандскому маршруту более спокойную сельскую остановку со стороны Ургута."
+              "uz": "Tersak Samarqand safariga Urgut tomondagi sokin qishloq to‘xtashini qo‘shadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "The marker gives approximate village orientation, while the actual arrival side follows the chosen family table, path, and return route."
+              "ru": "Маркер показывает примерное положение села; фактический приезд зависит от выбранного семейного стола, прогулки и дороги назад."
+              "uz": "Marker qishloqni taxminiy ko‘rsatadi; haqiqiy kelish tomoni tanlangan oilaviy dasturxon, sayr va qaytish yo‘liga bog‘liq."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The route comes together when Samarkand opens the day, Urgut changes the air, Tersak brings the village meal, and the return stays calm."
+              "ru": "Маршрут лучше складывается, когда Самарканд задаёт день, Ургут меняет воздух, Терсак несёт семейный стол, а возвращение остаётся спокойным."
+              "uz": "Samarqand kunni boshlab, Urgut havoni o‘zgartirib, Tersak oilaviy dasturxonni olib, qaytish sokin qolsa marshrut yaxshiroq ochiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Tersak as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Терсак как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Tersak o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Route map"
+      "ru": "Карта маршрута"
+      "uz": "Marshrut xaritasi"
+    "title":
+      "en": "Tersak between Urgut and Samarkand"
+      "ru": "Терсак между Ургутом и Самаркандом"
+      "uz": "Tersak Urgut va Samarqand orasida"
+    "description":
+      "en": "The marker gives approximate village orientation, while the actual arrival side follows the chosen family table, path, and return route."
+      "ru": "Маркер показывает примерное положение села; фактический приезд зависит от выбранного семейного стола, прогулки и дороги назад."
+      "uz": "Marker qishloqni taxminiy ko‘rsatadi; haqiqiy kelish tomoni tanlangan oilaviy dasturxon, sayr va qaytish yo‘liga bog‘liq."
+    "mapPanel":
+      "eyebrow":
+        "en": "Map orientation"
+        "ru": "Ориентир на карте"
+        "uz": "Xarita orientiri"
+      "title":
+        "en": "Tersak with Urgut and the road back"
+        "ru": "Терсак с Ургутом и дорогой назад"
+        "uz": "Tersak Urgut va qaytish yo‘li bilan"
+      "description":
+        "en": "The marker gives village-area orientation, not a fixed doorway or activity address."
+        "ru": "Маркер помогает понять район села, но не является фиксированной дверью или адресом активности."
+        "uz": "Marker qishloq hududini tushunishga yordam beradi; u doimiy eshik yoki faoliyat manzili emas."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.439857
+      "longitude": 67.040209
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "tersak-urgut-mountain-village-setting"
+    "aside":
+      "eyebrow":
+        "en": "How the route comes together"
+        "ru": "Как складывается маршрут"
+        "uz": "Marshrut qanday yig‘iladi"
+      "title":
+        "en": "From Samarkand into Urgut air"
+        "ru": "От Самарканда к воздуху Ургута"
+        "uz": "Samarqanddan Urgut havosiga"
+      "description":
+        "en": "The route comes together when Samarkand opens the day, Urgut changes the air, Tersak brings the village meal, and the return stays calm."
+        "ru": "Маршрут лучше складывается, когда Самарканд задаёт день, Ургут меняет воздух, Терсак несёт семейный стол, а возвращение остаётся спокойным."
+        "uz": "Samarqand kunni boshlab, Urgut havoni o‘zgartirib, Tersak oilaviy dasturxonni olib, qaytish sokin qolsa marshrut yaxshiroq ochiladi."
+      "items":
+        - "title":
+            "en": "Samarkand"
+            "ru": "Самарканд"
+            "uz": "Samarqand"
+          "description":
+            "en": "Let Samarkand open the day before the route turns toward Urgut air."
+            "ru": "Пусть Самарканд откроет день перед поворотом к воздуху Ургута."
+            "uz": "Marshrut Urgut havosiga burilishdan oldin kunni Samarqand ochsin."
+          "badge":
+            "en": "Start city"
+            "ru": "Город старта"
+            "uz": "Boshlanish shahri"
+        - "title":
+            "en": "Urgut"
+            "ru": "Ургут"
+            "uz": "Urgut"
+          "description":
+            "en": "The Urgut side changes the mood from city monuments to mountain village pace."
+            "ru": "Ургутская сторона меняет настроение от городских памятников к горному селу."
+            "uz": "Urgut tomoni kayfiyatni shahar yodgorliklaridan tog‘ qishlog‘i sur’atiga o‘zgartiradi."
+          "badge":
+            "en": "District turn"
+            "ru": "Районный поворот"
+            "uz": "Tuman burilishi"
+        - "title":
+            "en": "Tersak"
+            "ru": "Терсак"
+            "uz": "Tersak"
+          "description":
+            "en": "Give the village enough time for family food, customs, and a light outdoor moment."
+            "ru": "Дайте селу время на семейную еду, обычаи и лёгкий выход на воздух."
+            "uz": "Qishloqqa oilaviy taom, odatlar va yengil ochiq havo lahzasi uchun yetarli vaqt bering."
+          "badge":
+            "en": "Village stop"
+            "ru": "Сельская остановка"
+            "uz": "Qishloq to‘xtashi"
+        - "title":
+            "en": "Omonqoton"
+            "ru": "Омонкотон"
+            "uz": "Omonqoton"
+          "description":
+            "en": "Keep this as a separate mountain-side choice when the road pace stays easy."
+            "ru": "Оставляйте это отдельным горным выбором, когда дорога остаётся спокойной."
+            "uz": "Yo‘l sur’ati yengil qolsa, buni alohida tog‘ tomoni tanlovi sifatida tuting."
+          "badge":
+            "en": "Nearby option"
+            "ru": "Соседний вариант"
+            "uz": "Yaqin variant"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What shapes the village day"
+      "ru": "Что формирует сельский день"
+      "uz": "Qishloq kunini nimalar shakllantiradi"
+    "title":
+      "en": "Mountain setting, family table, and open-air paths"
+      "ru": "Горная среда, домашний стол и открытые тропы"
+      "uz": "Tog‘ muhiti, oilaviy dasturxon va ochiq yo‘llar"
+    "description":
+      "en": "These Tersak stops show the village in three parts: the Urgut road, the home table, and one light outdoor continuation."
+      "ru": "Эти точки Терсака показывают сельский день в трёх частях: ургутская дорога, домашний дастархан и лёгкое продолжение на воздухе."
+      "uz": "Tersakka tegishli bu joylar qishloq kunini uch qismda ko‘rsatadi: Urgut yo‘li, oilaviy dasturxon va ochiq havodagi yengil davom."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Urgut mountain village setting"
+          "ru": "Горная среда Ургута"
+          "uz": "Urgut tog‘ qishlog‘i muhiti"
+        "description":
+          "en": "The Urgut road is the first reason Tersak feels different from Samarkand. The road leaves the city scale, the air opens, and the village gives the visit a calmer pace."
+          "ru": "Горная среда — первая причина, по которой Терсак ощущается иначе, чем Самарканд. Дорога поворачивает к Ургуту, воздух становится просторнее, и село задаёт дню более медленный масштаб."
+          "uz": "Tog‘ muhiti Tersak Samarqanddan boshqacha sezilishining birinchi sababidir. Yo‘l Urgut tomonga buriladi, havo ochiladi va qishloq kunga sekinroq miqyos beradi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/tersak/tersak-urgut-mountain-village-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Family table in Tersak"
+          "ru": "Домашний стол в Терсаке"
+          "uz": "Tersakdagi oilaviy dasturxon"
+        "description":
+          "en": "The family table is where Tersak becomes more than a mountain view. Bread, dairy, local food, and conversation slow the route and give the village stop a human centre."
+          "ru": "Домашний стол делает Терсак больше, чем горным видом. Еда, лепёшка, молочные продукты и разговор замедляют маршрут и дают сельской паузе человеческий центр."
+          "uz": "Oilaviy dasturxon Tersakni tog‘ manzarasidan ko‘proq narsaga aylantiradi. Taom, non, sutli mahsulotlar va suhbat marshrutni sekinlashtirib, qishloq to‘xtashiga insoniy markaz beradi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/tersak/tersak-family-guesthouse-and-table"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Fields, short walks, and horses"
+          "ru": "Поля, короткие прогулки и лошади"
+          "uz": "Dala, qisqa sayrlar va otlar"
+        "description":
+          "en": "Tersak’s outdoor side is strongest at a modest scale: a field edge, a short mountain walk, or horses when the day and season make the movement feel natural."
+          "ru": "Открытая часть Терсака сильнее в скромном масштабе: край поля, короткая горная тропа или лошади, когда день и сезон делают движение естественным."
+          "uz": "Tersakning ochiq havo tomoni ixcham miqyosda kuchliroq: dala cheti, qisqa tog‘ sayri yoki kun va mavsum tabiiy qilganda otlar."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/tersak/tersak-agro-walk-and-riding-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Village moments"
+      "ru": "Сельские моменты"
+      "uz": "Qishloq lahzalari"
+    "title":
+      "en": "Six small Tersak moments"
+      "ru": "Шесть небольших моментов Терсака"
+      "uz": "Tersakdagi olti kichik lahza"
+    "description":
+      "en": "The moments stay small and specific: arrival, bread, dairy, customs, a short path, and a clear road back."
+      "ru": "Моменты остаются небольшими и точными: приезд, лепёшка, молочные продукты, обычаи, короткая тропа и понятная дорога назад."
+      "uz": "Lahzalar kichik va aniq qoladi: kelish, non, sutli mahsulotlar, odatlar, qisqa yo‘l va ravon qaytish."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Arrival into Urgut air"
+          "ru": "Въезд в воздух Ургута"
+          "uz": "Urgut havosiga kirish"
+        "description":
+          "en": "Let the road out of Samarkand change the pace before the village table begins."
+          "ru": "Пусть дорога из Самарканда сменит темп до того, как начнётся сельский стол."
+          "uz": "Qishloq dasturxoni boshlanishidan oldin Samarqanddan chiqqan yo‘l sur’atni o‘zgartirsin."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Family table"
+          "ru": "Домашний стол"
+          "uz": "Oilaviy dasturxon"
+        "description":
+          "en": "Bread, dairy, local dishes, and conversation give the village stop its human centre."
+          "ru": "Лепёшка, молочные продукты, местные блюда и разговор дают сельской остановке человеческий центр."
+          "uz": "Non, sutli mahsulotlar, mahalliy taomlar va suhbat qishloq to‘xtashiga insoniy markaz beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Flatbread and dairy at the table"
+          "ru": "Лепёшка и молочные традиции"
+          "uz": "Non va sutli an’analar"
+        "description":
+          "en": "Small food traditions feel strongest when they stay close to the family table."
+          "ru": "Небольшие пищевые традиции сильнее всего звучат рядом с домашним столом."
+          "uz": "Kichik taom an’analari oilaviy dasturxon yonida eng kuchli seziladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Village customs, gently"
+          "ru": "Сельские обычаи без спешки"
+          "uz": "Qishloq odatlari sokin"
+        "description":
+          "en": "Customs come through people, food, and daily rhythm rather than staged explanation."
+          "ru": "Обычаи раскрываются через людей, еду и дневной уклад, а не через постановку."
+          "uz": "Odatlar sahna orqali emas, odamlar, taom va kun ritmi orqali yaxshiroq ochiladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Short mountain path"
+          "ru": "Короткая горная тропа"
+          "uz": "Qisqa tog‘ yo‘li"
+        "description":
+          "en": "A modest path or field edge is enough after the road and table have shaped the village stop."
+          "ru": "Скромной тропы или края поля достаточно после дороги и сельского стола."
+          "uz": "Yo‘l va dasturxon qishloq to‘xtashini belgilaganidan keyin ixcham yo‘l yoki dala cheti yetarli."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Return through Urgut"
+          "ru": "Возвращение через Ургут"
+          "uz": "Urgut orqali qaytish"
+        "description":
+          "en": "A calm road back keeps the mountain village stop part of the Samarkand route."
+          "ru": "Спокойная дорога назад сохраняет горную сельскую остановку частью самаркандского маршрута."
+          "uz": "Sokin qaytish yo‘li tog‘ qishlog‘i to‘xtashini Samarqand marshrutining bir qismi qilib saqlaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "How Tersak fits a Samarkand route"
+      "ru": "Как Терсак вписывается в самаркандский маршрут"
+      "uz": "Tersak Samarqand marshrutiga qanday kiradi"
+    "description":
+      "en": "Tersak is not a quick add-on to a monument day. It needs a calm road, a real home table, and enough time to return without rushing."
+      "ru": "Терсак — не быстрая добавка к дню памятников. Это спокойная ургутская остановка, которой нужны дорога без спешки, настоящий домашний дастархан и мягкое возвращение."
+      "uz": "Tersak yodgorlik kuniga tez qo‘shimcha emas. U sokin yo‘l, haqiqiy oilaviy dasturxon va shoshilmagan qaytishni talab qiladigan Urgut tomonidagi qishloq to‘xtashi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Give the road space"
+              "ru": "Дайте дороге пространство"
+              "uz": "Yo‘lga joy bering"
+            "description":
+              "en": "Tersak needs enough time for the move from Samarkand to feel like a change of air, not a rushed side turn."
+              "ru": "Терсаку нужно время, чтобы выезд из Самарканда ощущался сменой воздуха, а не спешным поворотом в сторону."
+              "uz": "Tersak Samarqanddan chiqish shoshilinch burilish emas, havo almashinuvi bo‘lib sezilishi uchun vaqt talab qiladi."
+          - "type": "quote"
+            "quote":
+              "en": "Tersak is strongest when the Urgut road ends at a real table and the mountain air stays unhurried."
+              "ru": "Терсак сильнее всего, когда ургутская дорога приводит к настоящему столу, а горный воздух остаётся неспешным."
+              "uz": "Tersak Urgut yo‘li haqiqiy dasturxonga olib kelib, tog‘ havosi shoshilmaganda eng kuchli ochiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Let the table lead"
+              "ru": "Пусть ведёт стол"
+              "uz": "Dasturxon yetaklasin"
+            "description":
+              "en": "Food, bread, dairy, and customs are the human centre of the village stop."
+              "ru": "Еда, лепёшка, молочные продукты и обычаи становятся человеческим центром сельской остановки."
+              "uz": "Taom, non, sutli mahsulotlar va odatlar qishloq to‘xtashining insoniy markaziga aylanadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the outdoors light"
+              "ru": "Держите прогулку лёгкой"
+              "uz": "Ochiq havoni yengil tuting"
+            "description":
+              "en": "A short path, field edge, or horse moment is enough after the road and the family table have already shaped the visit."
+              "ru": "Короткой тропы, края поля или момента с лошадьми достаточно после того, как дорога и домашний стол уже задали визит."
+              "uz": "Yo‘l va dasturxon qishloq to‘xtashini belgilaganidan keyin ixcham yo‘l yoki dala cheti yetarli."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественников"
+              "uz": "Sayohatchilar uchun"
+            "description":
+              "en": "Choose Tersak when you want the Samarkand route to breathe through a village table, mountain air, and a gentle return."
+              "ru": "Выбирайте Терсак, когда хотите, чтобы самаркандский маршрут вдохнул через сельский стол, горный воздух и мягкое возвращение."
+              "uz": "Samarqand marshruti qishloq dasturxoni, tog‘ havosi va yumshoq qaytish orqali nafas olishini istasangiz Tersakni tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Good to know Status"
+                  "ru": "Что важно знать Статус"
+                  "uz": "Bilish foydali Maqom"
+                "description":
+                  "en": "Official tourism village in Urgut District."
+                  "ru": "Официальное туристическое село Ургутского района."
+                  "uz": "Urgut tumanidagi rasmiy turizm qishlog‘i."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main draw"
+                  "ru": "Главный смысл"
+                  "uz": "Asosiy mazmun"
+                "description":
+                  "en": "Family tables, village food, flatbread and dairy traditions, customs, mountain air, and short outdoor moments."
+                  "ru": "Домашний стол, сельская еда, лепёшка, молочные традиции, обычаи, горный воздух и короткие прогулки."
+                  "uz": "Oilaviy dasturxon, qishloq taomi, non va sutli an’analar, odatlar, tog‘ havosi va qisqa sayrlar."
+              - "icon": "Sun"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Marshrutdagi rol"
+                "description":
+                  "en": "A fuller mountain-side village stop from Samarkand, not a quick extra stop."
+                  "ru": "Полноценная горная остановка от Самарканда, а не быстрая дополнительная точка."
+                  "uz": "Samarqanddan to‘liqroq tog‘ to‘xtashi, tez qo‘shimcha bekat emas."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and pace"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va sur’at"
+                "description":
+                  "en": "Best with enough time for the Urgut road, the family table, a modest walk, and an easy return."
+                  "ru": "Лучше всего, когда есть время на ургутскую дорогу, домашний стол, короткую прогулку и спокойное возвращение."
+                  "uz": "Urgut yo‘li, oilaviy dasturxon, qisqa sayr va ravon qaytishga vaqt bo‘lganda eng yaxshi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby Samarkand mountain stops"
+      "ru": "Соседние горные остановки"
+      "uz": "Samarqand yaqinidagi tog‘ bekatlari"
+    "title":
+      "en": "Where the route can continue"
+      "ru": "Куда продолжить маршрут"
+      "uz": "Marshrut qayerga davom etadi"
+    "description":
+      "en": "Omonqoton, Oqsoy, and Samarkand are separate choices; pair them with Tersak only when the road pace stays calm."
+      "ru": "Омонкотон, Оқсой и Самарканд остаются отдельными решениями; сочетайте их с Терсаком только когда дорога остаётся спокойной."
+      "uz": "Omonqoton, Oqsoy va Samarqand alohida tanlovlar; ularni Tersak bilan faqat yo‘l sur’ati sokin qolsa juftlang."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Omonqoton"
+          "ru": "Омонкотон"
+          "uz": "Omonqoton"
+        "description":
+          "en": "Omonqoton is an Urgut District tourism mahalla where spring water, cooler mountain air, family stays, and the Qoratepa road create a gentle break from Samarkand."
+          "ru": "Омонкотон — туристическая махалля Ургутского района, где родниковая вода, прохладный горный воздух, семейные дома и дорога к Коратепа создают мягкую паузу после Самарканда."
+          "uz": "Omonqoton Urgut tumanidagi turizm mahallasi: buloq suvi, salqin tog‘ havosi, oilaviy uylar va Qoratepa yo‘li Samarqanddan keyin sokin pauza beradi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/omonqoton"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Oqsoy"
+          "ru": "Оксой"
+          "uz": "Oqsoy"
+        "description":
+          "en": "Oqsoy turns a Samarkand journey toward Nurobod mountain air, the Hazrati Dovud pilgrimage setting, a family table or stay, short walks, and an unhurried return."
+          "ru": "Оксой поворачивает самаркандский маршрут к горному воздуху Нурабада, среде Хазрати Довуда, семейному столу или ночёвке, коротким прогулкам и неспешному возвращению."
+          "uz": "Oqsoy Samarqand yo‘lini Nurobod tog‘ havosi, Hazrati Dovud ziyorat muhiti, oilaviy dasturxon yoki tunash, qisqa sayrlar va shoshilmagan qaytish tomonga buradi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/oqsoy"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/tersak-next-samarkand.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Samarkand"
+          "ru": "Самарканд"
+          "uz": "Samarqand"
+        "description":
+          "en": "Samarkand brings the route to monumental scale: Registan, Shah-i-Zinda, Bibi-Khanym, Gur-e-Amir, Siab Bazaar, Afrosiab, and Ulugh Beg Observatory."
+          "ru": "Самарканд даёт маршруту монументальный масштаб: Регистан, Шахи-Зинда, Биби-Ханым, Гур-Эмир, Сиабский базар, Афрасиаб и обсерватория Улугбека."
+          "uz": "Samarqand yoʻnalishga monumental miqyos beradi: Registon, Shohi Zinda, Bibi Xonim, Goʻri Amir, Siyob bozori, Afrosiyob va Ulugʻbek rasadxonasi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/samarkand"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Tersak in the day plan"
+      "ru": "Как поставить Терсак в план дня"
+      "uz": "Tersakni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Tersak?"
+          "ru": "Сколько времени группам стоит проводить в Терсак?"
+          "uz": "Tersakda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “An Urgut mountain village for home meals, cooler air, and a slower return”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Горное село Ургута с домашним дастарханом, прохладным воздухом и спокойной дорогой»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Oilaviy dasturxon, salqin havo va sokin qaytish yo‘li bor Urgut tog‘ qishlog‘i»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Tersak be a walkable core or a base for day trips?"
+          "ru": "Терсак — это пешеходное ядро или база для выездов?"
+          "uz": "Tersak piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Tersak's centre?"
+          "ru": "Где лучше ночевать относительно центра Терсак?"
+          "uz": "Tersak markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/tersak.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Tersak stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Терсак» в программу (Узбекистан)"
+      "uz": "Tersak bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Tersak | TourLink"
+    "ru": "Терсак | TourLink"
+    "uz": "Tersak | TourLink"
+  "metaDescription":
+    "en": "Tersak gives a Samarkand journey a slower Urgut-side village stop. Give the road time for a home meal, local food, flatbread, dairy traditions, and one short walk in cooler air."
+    "ru": "Терсак даёт самаркандскому маршруту более спокойную сельскую остановку со стороны Ургута. Село раскрывается, когда есть время для домашнего дастархана, местной еды, лепёшки, молочных традиций и короткой прогулки на свежем воздухе."
+    "uz": "Tersak Samarqand safariga Urgut tomondagi sokin qishloq to‘xtashini qo‘shadi. Yo‘l oilaviy dasturxon, mahalliy taom, non, sutli an’analar va salqin havodagi qisqa sayrga vaqt berganda qishloq kuchliroq ochiladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "samarkand-region"
+"latitude": 39.3818761
+"longitude": 66.9770831

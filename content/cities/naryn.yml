@@ -1,0 +1,565 @@
+# Generated from scrape/kyrgyzstan (multi-locale)
+"slug":
+  "en": "naryn"
+  "ru": "naryn"
+  "uz": "naryn"
+"title":
+  "en": "Naryn"
+  "ru": "Нарын"
+  "uz": "Naryn"
+"subtitle":
+  "en": "A river city before the high country"
+  "ru": "Город у реки перед высокогорьем"
+  "uz": "Baland togʻlar oldidagi daryo shahri"
+"excerpt":
+  "en": "Naryn is not a city built around one monument. Its value is in the river, the dry mountain slopes, and the roads that make the central Tian Shan feel real before travelers choose a lake road, a caravanserai valley, or a deeper mountain journey."
+  "ru": "Нарын не строится вокруг одного памятника. Его ценность в реке, сухих горных склонах и дорогах, которые делают Центральный Тянь-Шань понятным перед выбором озёрной дороги, долины караван-сарая или более глубокого горного маршрута."
+  "uz": "Naryn bitta yodgorlik atrofida qurilgan shahar emas. Uning qadri daryo, quruq togʻ yonbagʻirlari va Markaziy Tyan-Shanni koʻl yoʻli, karvonsaroy vodiysi yoki uzoqroq togʻ safaridan oldin aniq his qildiradigan yoʻllarda."
+"heroImage": "assets/images/destinations/kyrgyzstan/regions/naryn-song-kul-and-central-tian-shan/cities/naryn.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kyrgyzstan/regions/naryn-song-kul-and-central-tian-shan/cities/naryn.webp"
+    "imageAlt":
+      "en": "Naryn"
+      "ru": "Нарын"
+      "uz": "Naryn"
+    "title":
+      "en": "Naryn"
+      "ru": "Нарын"
+      "uz": "Naryn"
+    "description":
+      "en": "A river city before the high country"
+      "ru": "Город у реки перед высокогорьем"
+      "uz": "Baland togʻlar oldidagi daryo shahri"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Naryn"
+      "ru": "Нарын"
+      "uz": "Naryn"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Naryn is not a city built around one monument."
+              "ru": "Нарын не строится вокруг одного памятника."
+              "uz": "Naryn bitta yodgorlik atrofida qurilgan shahar emas."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Read Naryn through movement: Kochkor on the approach, Song-Kul as the high-lake direction, Naryn as the river city, and Tash Rabat as the southbound Silk Road valley."
+              "ru": "Нарын понятнее через движение: Кочкор на подходе, Сон-Куль как направление к высокому озеру, Нарын как город у реки и Таш-Рабат как южная долина Шёлкового пути."
+              "uz": "Narynga harakat orqali qarang: kirish tomonda Kochkor, baland koʻl yoʻnalishi sifatida Soʻng-Koʻl, daryo shahri sifatida Naryn va janubdagi Ipak yoʻli vodiysi sifatida Tash-Rabat."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Naryn is clearest when the visit has one purpose: arrive by the river, sleep before a high road, check weather, or choose the next valley before the route continues higher or farther south."
+              "ru": "Нарын яснее всего, когда у остановки есть одна роль: приехать к реке, переночевать перед высокой дорогой, проверить погоду или выбрать следующую долину до продолжения на юг."
+              "uz": "Naryn toʻxtashi bitta rolga ega boʻlganda aniqroq: daryo boʻyiga kelish, baland yoʻldan oldin tunash, ob-havoni tekshirish yoki yoʻl janubga davom etishidan oldin keyingi vodiyni tanlash."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Naryn as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Нарын как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Naryn o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "River road, city stop, and highland choices"
+      "ru": "Дорога у реки, городская остановка и высокогорные решения"
+      "uz": "Daryo yoʻli, shahar toʻxtashi va baland togʻ tanlovlari"
+    "description":
+      "en": "Read Naryn through movement: Kochkor on the approach, Song-Kul as the high-lake direction, Naryn as the river city, and Tash Rabat as the southbound Silk Road valley."
+      "ru": "Нарын понятнее через движение: Кочкор на подходе, Сон-Куль как направление к высокому озеру, Нарын как город у реки и Таш-Рабат как южная долина Шёлкового пути."
+      "uz": "Narynga harakat orqali qarang: kirish tomonda Kochkor, baland koʻl yoʻnalishi sifatida Soʻng-Koʻl, daryo shahri sifatida Naryn va janubdagi Ipak yoʻli vodiysi sifatida Tash-Rabat."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Yoʻnalish xaritasi"
+      "title":
+        "en": "Naryn and the central highland route"
+        "ru": "Нарын и центральный высокогорный маршрут"
+        "uz": "Naryn va markaziy baland togʻ yoʻnalishi"
+      "description":
+        "en": "The map keeps Naryn connected to the places that shape most journeys through this region: Kochkor, Song-Kul, and the Tash Rabat direction."
+        "ru": "Карта связывает Нарын с местами, которые чаще всего формируют путешествие по региону: Кочкором, Сон-Кулем и направлением к Таш-Рабату."
+        "uz": "Xarita Naryinni bu mintaqadagi koʻp safarlarni shakllantiradigan joylar bilan bogʻlaydi: Kochkor, Soʻng-Koʻl va Tash-Rabat yoʻnalishi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.529087
+      "longitude": 75.733502
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "naryn-regional-museum"
+      - "entityType": "attraction"
+        "entitySlug": "salkyn-tor-national-park"
+    "aside":
+      "eyebrow":
+        "en": "Route planning"
+        "ru": "План маршрута"
+        "uz": "Yoʻnalish rejasi"
+      "title":
+        "en": "One clear reason to stop"
+        "ru": "Одна понятная причина остановиться"
+        "uz": "Toʻxtash uchun bitta aniq sabab"
+      "description":
+        "en": "Naryn is clearest when the visit has one purpose: arrive by the river, sleep before a high road, check weather, or choose the next valley before the route continues higher or farther south."
+        "ru": "Нарын яснее всего, когда у остановки есть одна роль: приехать к реке, переночевать перед высокой дорогой, проверить погоду или выбрать следующую долину до продолжения на юг."
+        "uz": "Naryn toʻxtashi bitta rolga ega boʻlganda aniqroq: daryo boʻyiga kelish, baland yoʻldan oldin tunash, ob-havoni tekshirish yoki yoʻl janubga davom etishidan oldin keyingi vodiyni tanlash."
+      "items":
+        - "title":
+            "en": "Arrive by the river"
+            "ru": "Приезжайте вдоль реки"
+            "uz": "Daryo boʻylab keling"
+          "description":
+            "en": "Most routes reach Naryn after road time from Kochkor or Bishkek, so the first useful pause is simple: river, dinner, sleep, and a calmer look at the next road."
+            "ru": "После дороги от Кочкора или Бишкека первая полезная пауза проста: река, ужин, сон и спокойная проверка следующего участка."
+            "uz": "Kochkor yoki Bishkekdan keyingi birinchi foydali pauza oddiy: daryo, kechki ovqat, uyqu va keyingi yoʻlni sokin tekshirish."
+        - "title":
+            "en": "Keep one stop useful"
+            "ru": "Сделайте остановку полезной"
+            "uz": "Bitta toʻxtash foydali boʻlsin"
+          "description":
+            "en": "A night in Naryn works best when it protects the highland plan rather than filling the city with forced sightseeing."
+            "ru": "Ночь в Нарыне лучше всего работает тогда, когда бережёт высокогорный план, а не заполняет город вынужденными остановками."
+            "uz": "Naryndagi tunash shaharni majburiy tomoshalar bilan toʻldirmasdan, baland togʻ rejasini himoya qilganda yaxshiroq."
+        - "title":
+            "en": "Check the high roads"
+            "ru": "Проверяйте высокие дороги"
+            "uz": "Baland yoʻllarni tekshiring"
+          "description":
+            "en": "Song-Kul, At-Bashy, Kel-Suu, and side valleys can change with season, snow, surface, vehicle, and permit needs."
+            "ru": "Сон-Куль, Ат-Баши, Кель-Суу и боковые долины зависят от сезона, снега, покрытия, машины и разрешений."
+            "uz": "Soʻng-Koʻl, At-Bashi, Kel-Suu va yon vodiylar mavsum, qor, yoʻl qoplamasi, avtomobil va ruxsatlarga bogʻliq."
+        - "title":
+            "en": "Choose the next valley"
+            "ru": "Выберите следующую долину"
+            "uz": "Keyingi vodiyni tanlang"
+          "description":
+            "en": "Tash Rabat, Kel-Suu, Song-Kul, and the return toward Kochkor are different route choices, not one compressed loop."
+            "ru": "Таш-Рабат, Кель-Суу, Сон-Куль и возвращение к Кочкору - разные решения маршрута, а не один сжатый круг."
+            "uz": "Tash-Rabat, Kel-Suu, Soʻng-Koʻl va Kochkor sari qaytish bitta siqilgan aylana emas, alohida yoʻnalish tanlovlari."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to notice"
+      "ru": "На что обратить внимание"
+      "uz": "Nimaga eʼtibor berish"
+    "title":
+      "en": "River city first, longer route choices next"
+      "ru": "Сначала город у реки, затем дальние маршруты"
+      "uz": "Avval daryo shahri, keyin uzoq yoʻl tanlovlari"
+    "description":
+      "en": "Start with what Naryn does best: orient the route by the river, leave space for local walking or museum time when details are current, and make the next choice clearer before Song-Kul, Eki-Naryn, Tash Rabat, At-Bashy, or Kel-Suu."
+      "ru": "Начните с того, что Нарын делает лучше всего: помогает понять речную дорогу, оставить время для прогулки, музея или рынка при актуальных деталях и яснее выбрать продолжение к Сон-Кулю, Эки-Нарыну, Таш-Рабату, Ат-Баши или Кель-Суу."
+      "uz": "Naryn eng yaxshi qiladigan ishdan boshlang: daryo yoʻlini tushuntiradi, joriy tafsilotlar aniq boʻlsa mahalliy sayr, muzey yoki bozor uchun vaqt beradi va Soʻng-Koʻl, Eki-Naryn, Tash-Rabat, At-Bashi yoki Kel-Suu oldidan tanlovni ravshanroq qiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/naryn-song-kul-and-central-tian-shan/cities/naryn/attractions/naryn-regional-museum.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Naryn Regional Museum"
+          "ru": "Нарынский региональный музей"
+          "uz": "Norin mintaqaviy muzeyi"
+        "description":
+          "en": "Naryn is often remembered through roads, weather, and the river. The museum gives that movement a quieter room: felt work, yurt life, local artefacts, and stories that make the highland route feel tied to people before you leave town."
+          "ru": "Нарын часто запоминается через дороги, погоду и реку. Музей добавляет этому движению более тихую комнату: войлок, юртовый быт, местные артефакты и истории, которые связывают высокогорный маршрут с людьми ещё до выезда из города."
+          "uz": "Norin ko‘pincha yoʻllar, ob-havo va daryo orqali esda qoladi. Muzey bu harakatga sokinroq xona qo‘shadi: kigiz, oʻtov hayoti, mahalliy topilmalar va shaharni tark etishdan oldin baland togʻ yoʻlini odamlarga yaqinlashtiradigan hikoyalar."
+        "ctaHref": "/destinations/kyrgyzstan/naryn-song-kul-and-central-tian-shan/naryn/naryn-regional-museum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/naryn-song-kul-and-central-tian-shan/cities/naryn/attractions/salkyn-tor-national-park.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Salkyn-Tor National Park"
+          "ru": "Природный парк Салкын-Тор"
+          "uz": "Salkyn-Tor milliy bogʻi"
+        "description":
+          "en": "Naryn often feels like a city of long roads and high passes. Salkyn-Tor brings the mountain edge closer: a protected gorge, forested slopes, spring water, and a quieter feel of the central Tian Shan before the road turns toward bigger highland choices."
+          "ru": "Нарын часто ощущается как город длинных дорог и высоких перевалов. Салкын-Тор приближает горный край: охраняемое ущелье, лесистые склоны, родниковую воду и более тихое ощущение центрального Тянь-Шаня перед большими высокогорными выездами."
+          "uz": "Norin ko‘pincha uzun yo‘llar va baland dovonlar shahri sifatida esda qoladi. Salkyn-Tor tog‘ chetini yaqinlashtiradi: muhofaza qilinadigan dara, o‘rmonli yonbag‘irlar, buloq suvi va katta baland tog‘ yo‘llaridan oldin markaziy Tyan-Shanni sokinroq his qilish imkonini beradi."
+        "ctaHref": "/destinations/kyrgyzstan/naryn-song-kul-and-central-tian-shan/naryn/salkyn-tor-national-park"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How Naryn feels"
+      "ru": "Как чувствуется Нарын"
+      "uz": "Naryn qanday seziladi"
+    "title":
+      "en": "Three ways Naryn makes the highland route readable"
+      "ru": "Три способа, которыми Нарын проясняет высокогорный маршрут"
+      "uz": "Naryn baland togʻ yoʻnalishini uch yoʻl bilan oydinlashtiradi"
+    "description":
+      "en": "Naryn turns a long mountain plan into three practical questions: how you arrive, what the weather allows, and which road deserves its own space next."
+      "ru": "Нарын превращает длинный горный план в три практичных вопроса: как вы приезжаете, что позволяет погода и какая дорога дальше заслуживает отдельного времени."
+      "uz": "Naryn uzun togʻ rejasini uch amaliy savolga aylantiradi: qanday kelasiz, ob-havo nimaga ruxsat beradi va keyingi qaysi yoʻl alohida vaqtga loyiq."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Arrive by the Naryn River"
+          "ru": "Приезд вдоль реки Нарын"
+          "uz": "Naryn daryosi boʻylab kelish"
+        "description":
+          "en": "The river gives the city its shape: open water, dry slopes, and the first real sense that central Kyrgyzstan has widened around the road."
+          "ru": "Река задаёт городу форму: открытая вода, сухие склоны и первое ощущение, что центральный Кыргызстан вокруг дороги стал шире."
+          "uz": "Daryo shaharga shakl beradi: ochiq suv, quruq yonbagʻirlar va markaziy Qirgʻiziston yoʻl atrofida kengayib borayotganini ilk his qilish."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan/character/naryn/naryn-character-2.webp"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Let the weather shape the plan"
+          "ru": "Пусть погода меняет план"
+          "uz": "Rejani ob-havo belgilasin"
+        "description":
+          "en": "Song-Kul roads, side valleys, and higher passes should stay flexible until current weather, vehicle, and access conditions are clear."
+          "ru": "Дороги к Сон-Кулю, боковые долины и высокие перевалы лучше оставлять гибкими, пока не понятны погода, машина и доступ."
+          "uz": "Soʻng-Koʻl yoʻllari, yon vodiylar va baland dovonlar ob-havo, avtomobil va kirish holati aniq boʻlmaguncha moslashuvchan qolishi kerak."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan/character/naryn/naryn-character-3.webp"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Choose the next road deliberately"
+          "ru": "Выберите следующую дорогу осознанно"
+          "uz": "Keyingi yoʻlni ongli tanlang"
+        "description":
+          "en": "Tash Rabat, At-Bashy, Kel-Suu, and the return toward Kochkor are different route choices, not small add-ons to one Naryn stop."
+          "ru": "Таш-Рабат, Ат-Баши, Кель-Суу и возвращение к Кочкору - разные решения маршрута, а не короткие добавки к одной остановке в Нарыне."
+          "uz": "Tash-Rabat, At-Bashi, Kel-Suu va Kochkorga qaytish bitta Naryn toʻxtashiga kichik qoʻshimcha emas, alohida yoʻnalish tanlovlaridir."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Yoʻlga chiqishdan oldin"
+    "title":
+      "en": "Keep Naryn calm, useful, and route-specific"
+      "ru": "Оставьте Нарын спокойным, полезным и точным"
+      "uz": "Naryinni sokin, foydali va aniq qoldiring"
+    "description":
+      "en": "Naryn is most helpful when it has a clear role in the route. It can be the river-city overnight, the place where the mountain plan settles, or the point where the southbound road becomes a real choice."
+      "ru": "Нарын полезнее всего, когда у него есть ясная роль в маршруте. Это может быть ночёвка у реки, место для спокойной проверки горного плана или точка, где южная дорога становится настоящим выбором."
+      "uz": "Naryn yoʻnalishda aniq rolga ega boʻlganda eng foydali. U daryo boʻyidagi tunash, togʻ rejasini sokin tekshirish joyi yoki janubiy yoʻl haqiqiy tanlovga aylanadigan nuqta boʻlishi mumkin."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Use the river city calmly"
+              "ru": "Начните с города у реки"
+              "uz": "Daryo shahri tinch boshlansin"
+            "description":
+              "en": "Let Naryn do the simple work first: arrive, see the river, eat, rest, and check the next road with current conditions in mind."
+              "ru": "Сначала пусть Нарын сделает простую работу: приезд, река, еда, отдых и проверка следующей дороги по текущим условиям."
+              "uz": "Avval Naryn oddiy ishini qilsin: kelish, daryoni koʻrish, ovqatlanish, dam olish va keyingi yoʻlni joriy sharoit bilan tekshirish."
+          - "type": "quote"
+            "quote":
+              "en": "Naryn is strongest when it makes the highland road readable, not when every valley is folded into one stop."
+              "ru": "Нарын сильнее всего тогда, когда проясняет высокогорную дорогу, а не собирает все долины в одну остановку."
+              "uz": "Naryn barcha vodiylarni bitta toʻxtashga yigʻganda emas, baland togʻ yoʻlini tushunarli qilganda kuchliroq."
+          - "type": "dashTitle"
+            "title":
+              "en": "Separate the big side roads"
+              "ru": "Отделяйте большие боковые дороги"
+              "uz": "Katta yon yoʻllarni ajrating"
+            "description":
+              "en": "Song-Kul, Eki-Naryn, At-Bashy, Tash Rabat, and Kel-Suu can all matter, but each asks for its own timing, vehicle, and weather check."
+              "ru": "Сон-Куль, Эки-Нарын, Ат-Баши, Таш-Рабат и Кель-Суу могут быть важны, но каждому нужны своё время, машина и проверка погоды."
+              "uz": "Soʻng-Koʻl, Eki-Naryn, At-Bashi, Tash-Rabat va Kel-Suu muhim boʻlishi mumkin, lekin har biri alohida vaqt, avtomobil va ob-havo tekshiruvini soʻraydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep winter compact"
+              "ru": "Зимой держите маршрут компактным"
+              "uz": "Qishda yoʻnalishni ixcham tuting"
+            "description":
+              "en": "In colder months, shorter city time and more conservative road choices usually serve the route better than ambitious high-valley plans."
+              "ru": "В холодный сезон короткая городская остановка и осторожный выбор дорог обычно лучше амбициозного плана по высоким долинам."
+              "uz": "Sovuq mavsumda qisqaroq shahar toʻxtashi va ehtiyotkor yoʻl tanlovi baland vodiylarga haddan tashqari katta rejadan foydaliroq."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Что важно для путешественника"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Let Naryn carry one role at a time: arrival city, useful overnight, weather check, or the choice before the route turns toward Song-Kul, Tash Rabat, At-Bashy, or Kel-Suu."
+              "ru": "Дайте Нарыну одну роль за раз: город прибытия, полезную ночёвку, проверку погоды или выбор перед дорогой к Сон-Кулю, Таш-Рабату, Ат-Баши или Кель-Суу."
+              "uz": "Narynga bir vaqtning oʻzida bitta rol bering: kelish shahri, foydali tunash, ob-havo tekshiruvi yoki Soʻng-Koʻl, Tash-Rabat, At-Bashi yoxud Kel-Suu oldidagi tanlov."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Yoʻlga chiqishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "Naryn sits in a dry mountain setting shaped by the Naryn River and roads toward higher country."
+                  "ru": "Нарын стоит в сухом горном ландшафте, который формируют река Нарын и дороги к более высоким районам."
+                  "uz": "Naryn daryosi va balandroq hududlarga boradigan yoʻllar shakllantirgan quruq togʻ muhitida turadi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Best role"
+                  "ru": "Лучшая роль"
+                  "uz": "Eng yaxshi roli"
+                "description":
+                  "en": "It helps the route breathe before lake roads, side valleys, or the southbound Silk Road direction."
+                  "ru": "Он помогает маршруту выдохнуть перед озёрными дорогами, боковыми долинами или южным направлением Шёлкового пути."
+                  "uz": "U yoʻnalishga koʻl yoʻllari, yon vodiylar yoki janubiy Ipak yoʻli yoʻnalishidan oldin nafas beradi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Season and pace"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va surʼat"
+                "description":
+                  "en": "Song-Kul, Kel-Suu, and high valleys change with season, weather, vehicle, and permit needs."
+                  "ru": "Сон-Куль, Кель-Суу и высокие долины меняются по сезону, погоде, транспорту и разрешениям."
+                  "uz": "Soʻng-Koʻl, Kel-Suu va baland vodiylar mavsum, ob-havo, transport va ruxsatlarga qarab oʻzgaradi."
+              - "icon": "Route"
+                "title":
+                  "en": "Route choice"
+                  "ru": "Выбор маршрута"
+                  "uz": "Yoʻnalish tanlovi"
+                "description":
+                  "en": "Tash Rabat, At-Bashy, Kel-Suu, and the return toward Kochkor each need their own timing."
+                  "ru": "Таш-Рабат, Ат-Баши, Кель-Суу и возвращение к Кочкору требуют собственного времени."
+                  "uz": "Tash-Rabat, At-Bashi, Kel-Suu va Kochkor sari qaytish alohida vaqt talab qiladi."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Local checks"
+                  "ru": "Проверки на месте"
+                  "uz": "Joydagi tekshiruvlar"
+                "description":
+                  "en": "Museum visits, protected-area access, border-zone valleys, and high roads should be confirmed close to travel."
+                  "ru": "Музей, нацпарки, приграничные долины и высокие дороги нужно уточнять ближе к поездке."
+                  "uz": "Muzey, milliy bogʻ, chegara yaqinidagi vodiylar va baland yoʻllar safarga yaqin tekshirilishi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqin joylar"
+    "title":
+      "en": "Kochkor, Song-Kul, and Tash Rabat shape the next choices"
+      "ru": "Кочкор, Сон-Куль и Таш-Рабат задают следующие решения"
+      "uz": "Kochkor, Soʻng-Koʻl va Tash-Rabat keyingi tanlovlarni belgilaydi"
+    "description":
+      "en": "Kochkor is often the craft and approach stop, Song-Kul is the high-lake direction, and Tash Rabat gives the southbound road its caravanserai purpose. Each needs its own timing instead of being treated as a minor detour from Naryn."
+      "ru": "Кочкор часто становится ремесленной и подъездной остановкой, Сон-Куль ведёт к высокому озеру, а Таш-Рабат даёт южной дороге караван-сарайный смысл. Каждому месту нужно своё время, а не роль короткого довеска к Нарыну."
+      "uz": "Kochkor koʻpincha hunarmandchilik va kirish toʻxtashi boʻladi, Soʻng-Koʻl baland koʻl yoʻnalishini beradi, Tash-Rabat esa janubiy yoʻlga karvonsaroy maʼnosini qoʻshadi. Har biriga Naryndan kichik burilish emas, oʻz vaqti kerak."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/naryn-next-kochkor.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Kochkor"
+          "ru": "Кочкор"
+          "uz": "Kochkor"
+        "description":
+          "en": "Kochkor gives the central highland route a careful first pause: felt craft, guesthouse time, market errands, and the road decisions before Song-Kul."
+          "ru": "Кочкор даёт центральному высокогорному маршруту спокойную первую паузу: войлочное ремесло, гостевой вечер, рыночные сборы и выбор дороги перед Сон-Кулем."
+          "uz": "Kochkor markaziy baland togʻ yoʻnalishiga sokin birinchi pauza beradi: kigiz hunari, mehmon uyi vaqti, bozor tayyorgarligi va Soʻng-Koʻl oldidagi yoʻl tanlovi."
+        "ctaHref": "/destinations/kyrgyzstan/naryn-song-kul-and-central-tian-shan/kochkor"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/naryn-next-song-kul.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Song-Kul"
+          "ru": "Сон-Куль"
+          "uz": "Soʻng-Koʻl"
+        "description":
+          "en": "Song-Kul is the high-pasture lake area where central Kyrgyzstan slows into yurt camps, cold nights, horses, and road choices toward Kochkor, Naryn, or Tash Rabat."
+          "ru": "Сон-Куль - высокогорный район озера, где центральный Кыргызстан замедляется до юртовых лагерей, холодных ночей, лошадей и выбора дороги к Кочкору, Нарыну или Таш-Рабату."
+          "uz": "Soʻng-Koʻl markaziy Qirgʻiziston sekinlashadigan baland yaylov-koʻl hududi: oʻtov lagerlari, sovuq tunlar, otlar va Kochkor, Narin yoki Tash Rabat sari yoʻl tanlovi."
+        "ctaHref": "/destinations/kyrgyzstan/naryn-song-kul-and-central-tian-shan/song-kul"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Tash Rabat"
+          "ru": "Таш-Рабат"
+          "uz": "Tash Rabat"
+        "description":
+          "en": "Tash Rabat is the high-valley stop beyond Naryn where the stone caravanserai, mountain weather, yurt-camp season, and southbound road turn Silk Road heritage into a careful route decision."
+          "ru": "Таш-Рабат - высокогорная остановка за Нарыном, где каменный караван-сарай, горная погода, сезон юртовых лагерей и южная дорога превращают наследие Шелкового пути в осознанное маршрутное решение."
+          "uz": "Tash Rabat Naryndan keyingi baland vodiy toʻxtashi: tosh karvonsaroy, togʻ ob-havosi, oʻtov lagerlari mavsumi va janubiy yoʻl Ipak yoʻli merosini ehtiyotkor marshrut qaroriga aylantiradi."
+        "ctaHref": "/destinations/kyrgyzstan/naryn-song-kul-and-central-tian-shan/tash-rabat"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Naryn in the day plan"
+      "ru": "Как поставить Нарын в план дня"
+      "uz": "Narynni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Naryn?"
+          "ru": "Сколько времени группам стоит проводить в Нарын?"
+          "uz": "Narynda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A river city before the high country”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Город у реки перед высокогорьем»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Baland togʻlar oldidagi daryo shahri»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Naryn be a walkable core or a base for day trips?"
+          "ru": "Нарын — это пешеходное ядро или база для выездов?"
+          "uz": "Naryn piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Naryn's centre?"
+          "ru": "Где лучше ночевать относительно центра Нарын?"
+          "uz": "Naryn markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kyrgyzstan/regions/naryn-song-kul-and-central-tian-shan/cities/naryn.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Naryn stop into your Kyrgyzstan programme"
+      "ru": "Встройте остановку «Нарын» в программу (Кыргызстан)"
+      "uz": "Naryn bekatini Qirgʻiziston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Naryn | TourLink"
+    "ru": "Нарын | TourLink"
+    "uz": "Naryn | TourLink"
+  "metaDescription":
+    "en": "Naryn is not a city built around one monument. Its value is in the river, the dry mountain slopes, and the roads that make the central Tian Shan feel real before travelers choose a lake road, a caravanserai valley, or a deeper mountain journey."
+    "ru": "Нарын не строится вокруг одного памятника. Его ценность в реке, сухих горных склонах и дорогах, которые делают Центральный Тянь-Шань понятным перед выбором озёрной дороги, долины караван-сарая или более глубокого горного маршрута."
+    "uz": "Naryn bitta yodgorlik atrofida qurilgan shahar emas. Uning qadri daryo, quruq togʻ yonbagʻirlari va Markaziy Tyan-Shanni koʻl yoʻli, karvonsaroy vodiysi yoki uzoqroq togʻ safaridan oldin aniq his qildiradigan yoʻllarda."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kyrgyzstan"
+"region": "naryn-song-kul-and-central-tian-shan"
+"latitude": 41.4285987
+"longitude": 75.997631

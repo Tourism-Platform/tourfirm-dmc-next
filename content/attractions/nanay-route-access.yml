@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "nanay-route-access"
+  "ru": "nanay-route-access"
+  "uz": "nanay-route-access"
+"title":
+  "en": "Road to Nanay"
+  "ru": "Дорога к Нанаю"
+  "uz": "Nanay yo‘li"
+"subtitle":
+  "en": "How the Namangan and Yangiqo‘rg‘on route makes Nanay a calm village stop rather than a rushed detour."
+  "ru": "Как маршрут через Наманган и Янгикурган делает Нанай спокойной сельской остановкой, а не спешным объездом."
+  "uz": "Namangan va Yangiqo‘rg‘on orqali yo‘l Nanayni shoshilinch aylanma emas, sokin qishloq bekati qiladi."
+"excerpt":
+  "en": "Nanay makes sense when the road is treated as part of the visit. Start with Namangan, let Yangiqo‘rg‘on set the district orientation, and leave enough time for the village stop and return."
+  "ru": "Нанай имеет смысл, когда дорога воспринимается как часть визита. Начинайте с Намангана, держите Янгикурган как районный ориентир и оставляйте время на сельскую остановку и возвращение."
+  "uz": "Nanay yo‘l tashrifning bir qismi sifatida qabul qilinganda ma’noli bo‘ladi. Namangandan boshlang, Yangiqo‘rg‘onni tuman orientiri qiling va qishloq bekati hamda qaytish uchun vaqt qoldiring."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Road to Nanay"
+      "ru": "Дорога к Нанаю"
+      "uz": "Nanay yo‘li"
+    "title":
+      "en": "Road to Nanay"
+      "ru": "Дорога к Нанаю"
+      "uz": "Nanay yo‘li"
+    "description":
+      "en": "How the Namangan and Yangiqo‘rg‘on route makes Nanay a calm village stop rather than a rushed detour."
+      "ru": "Как маршрут через Наманган и Янгикурган делает Нанай спокойной сельской остановкой, а не спешным объездом."
+      "uz": "Namangan va Yangiqo‘rg‘on orqali yo‘l Nanayni shoshilinch aylanma emas, sokin qishloq bekati qiladi."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Road to Nanay"
+      "ru": "Дорога к Нанаю"
+      "uz": "Nanay yo‘li"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Nanay makes sense when the road is treated as part of the visit."
+              "ru": "Нанай имеет смысл, когда дорога воспринимается как часть визита."
+              "uz": "Nanay yo‘l tashrifning bir qismi sifatida qabul qilinganda ma’noli bo‘ladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Nanay makes sense when the road is treated as part of the visit. Start with Namangan, let Yangiqo‘rg‘on set the district orientation, and leave enough time for the village stop and return."
+              "ru": "Нанай имеет смысл, когда дорога воспринимается как часть визита. Начинайте с Намангана, держите Янгикурган как районный ориентир и оставляйте время на сельскую остановку и возвращение."
+              "uz": "Nanay yo‘l tashrifning bir qismi sifatida qabul qilinganda ma’noli bo‘ladi. Namangandan boshlang, Yangiqo‘rg‘onni tuman orientiri qiling va qishloq bekati hamda qaytish uchun vaqt qoldiring."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — How the Namangan and Yangiqo‘rg‘on route makes Nanay a calm village stop rather than a rushed detour.."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Как маршрут через Наманган и Янгикурган делает Нанай спокойной сельской остановкой, а не спешным объездом.."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Namangan va Yangiqo‘rg‘on orqali yo‘l Nanayni shoshilinch aylanma emas, sokin qishloq bekati qiladi.."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Road to Nanay as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Дорога к Нанаю как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Nanay yo‘li o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Road to Nanay sits on the route"
+      "ru": "Где Дорога к Нанаю стоит на маршруте"
+      "uz": "Nanay yo‘li marshrutda qayerda"
+    "description":
+      "en": "One clear point for Road to Nanay — How the Namangan and Yangiqo‘rg‘on route makes Nanay a calm village stop rather than a rushed detour.."
+      "ru": "Одна понятная точка для «Дорога к Нанаю» — Как маршрут через Наманган и Янгикурган делает Нанай спокойной сельской остановкой, а не спешным объездом.."
+      "uz": "Nanay yo‘li uchun bitta aniq nuqta — Namangan va Yangiqo‘rg‘on orqali yo‘l Nanayni shoshilinch aylanma emas, sokin qishloq bekati qiladi.."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Road to Nanay"
+        "ru": "Дорога к Нанаю"
+        "uz": "Nanay yo‘li"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.5132361
+      "longitude": 71.7027994
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "nanay-route-access"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route context"
+      "ru": "Контекст маршрута"
+      "uz": "Yo‘nalish konteksti"
+    "title":
+      "en": "A road that sets the pace"
+      "ru": "Дорога задаёт темп"
+      "uz": "Yo‘l sur’atni belgilaydi"
+    "description":
+      "en": "The road should make Nanay feel calm. If timing, weather, meeting point, or return are uncertain, keep the stop brief.
+
+
+        «Nanay feels better when the road has margin: enough time to arrive, listen, and return without pressure.»"
+      "ru": "Дорога должна делать Нанай спокойным. Если время, погода, место встречи или возвращение неясны, оставьте остановку короткой.
+
+
+        «Нанай воспринимается лучше, когда у дороги есть запас: доехать, послушать и вернуться без давления.»"
+      "uz": "Yo‘l Nanayni sokin qilishi kerak. Vaqt, ob-havo, uchrashuv joyi yoki qaytish aniq bo‘lmasa, to‘xtashni qisqa qoldiring.
+
+
+        «Yetib borish, tinglash va bosimsiz qaytish uchun yo‘lda zaxira vaqt bo‘lsa, Nanay yaxshiroq seziladi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you’ll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "City start, district road, return margin"
+      "ru": "Городской старт, районная дорога, спокойное возвращение"
+      "uz": "Shahar boshlanishi, tuman yo‘li, qaytish zaxirasi"
+    "description":
+      "en": "Read the road as part of the stop: city anchor, district context, and enough time to leave calmly."
+      "ru": "Читайте дорогу как часть остановки: городской ориентир, районный контекст и достаточно времени на спокойный выезд."
+      "uz": "Yo‘lni to‘xtashning bir qismi sifatida o‘qing: shahar tayanchi, tuman konteksti va sokin chiqish uchun vaqt."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday tashrif buyurish"
+    "title":
+      "en": "Let the road stay calm"
+      "ru": "Пусть дорога остаётся спокойной"
+      "uz": "Yo‘l sokin qolsin"
+    "description":
+      "en": "Keep Nanay compact and do not overload the village pause. The road, local welcome, and return should all fit naturally."
+      "ru": "Оставляйте Нанай компактным и не перегружайте сельскую паузу. Дорога, местный приём и возвращение должны естественно помещаться в маршрут."
+      "uz": "Nanayni ixcham tuting va qishloq pauzasini ortiqcha yuklamang. Yo‘l, mahalliy qabul va qaytish tabiiy mos kelishi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Around Nanay"
+      "ru": "Вокруг Наная"
+      "uz": "Nanay atrofida"
+    "title":
+      "en": "Status and welcome beside the road"
+      "ru": "Статус и приём рядом с дорогой"
+      "uz": "Yo‘l yonidagi maqom va qabul"
+    "description":
+      "en": "Read the status and local-welcome context with the road so the stop stays realistic."
+      "ru": "Читайте статус и местный приём вместе с дорогой, чтобы остановка оставалась реалистичной."
+      "uz": "Bekat real bo‘lishi uchun maqom va mahalliy qabul kontekstini yo‘l bilan birga o‘qing."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Nanay tourism-village status"
+          "ru": "Статус туристического села Нанай"
+          "uz": "Nanay turizm qishlog‘i maqomi"
+        "description":
+          "en": "Nanay’s tourism-village status gives it a place in the Namangan route, while mountain air, local culture, hospitality, and modest scale create the traveler value."
+          "ru": "Статус туристического села даёт Нанаю место в маршруте со стороны Намангана, а ценность для гостя создают горный воздух, местная культура, гостеприимство и скромный масштаб."
+          "uz": "Nanayning turizm qishlog‘i maqomi uni Namangan tomondagi yo‘nalishga kiritadi, sayohatchi uchun qiymat esa tog‘ havosi, mahalliy madaniyat, mehmondo‘stlik va sodda ko‘lamdan keladi."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/nanay/nanay-status-context"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Local welcome in Nanay"
+          "ru": "Местный приём в Нанае"
+          "uz": "Nanaydagi mahalliy mehmondo‘stlik"
+        "description":
+          "en": "Nanay’s local welcome should stay modest and date-specific: hospitality, a simple table, craft or folklore context, and enough time to return calmly."
+          "ru": "Местный приём в Нанае должен оставаться скромным и привязанным к дате: гостеприимство, простой стол, ремесленный или фольклорный контекст и спокойное возвращение."
+          "uz": "Nanaydagi mahalliy mehmondo‘stlik sodda va safar sanasiga bog‘liq bo‘lishi kerak: mehmondo‘stlik, oddiy dasturxon, hunarmandchilik yoki folklor konteksti va sokin qaytish."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley/nanay/nanay-local-hosting"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Road to Nanay"
+      "ru": "Что агентства спрашивают про Дорога к Нанаю"
+      "uz": "Agentliklar Nanay yo‘li haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Road to Nanay get in the day plan?"
+          "ru": "Сколько времени закладывать на Дорога к Нанаю в плане дня?"
+          "uz": "Nanay yo‘li uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "a focused half-day with buffer is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “How the Namangan and Yangiqo‘rg‘on route makes Nanay a calm village stop rather than a rushed detour.”."
+          "ru": "Для большинства групп реалистичный диапазон — полдня с запасом. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Как маршрут через Наманган и Янгикурган делает Нанай спокойной сельской остановкой, а не спешным объездом.»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — zaxira bilan yarim kun. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Namangan va Yangiqo‘rg‘on orqali yo‘l Nanayni shoshilinch aylanma emas, sokin qishloq bekati qiladi.»."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "When is Road to Nanay strongest during the day?"
+          "ru": "В какое время дня Дорога к Нанаю раскрывается сильнее?"
+          "uz": "Nanay yo‘li kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer early morning or late afternoon. That usually improves comfort, photos, and how the stop feels in the sequence around nanay."
+          "ru": "Лучше рано утром или ближе к вечеру. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с nanay."
+          "uz": "erta tong yoki kechga yaqin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (nanay atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "How should Road to Nanay sit next to nearby stops?"
+          "ru": "Как поставить Дорога к Нанаю рядом с соседними остановками?"
+          "uz": "Nanay yo‘lini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Road to Nanay to your Uzbekistan programme"
+      "ru": "Добавьте «Дорога к Нанаю» в программу (Узбекистан)"
+      "uz": "Nanay yo‘lini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Road to Nanay | TourLink"
+    "ru": "Дорога к Нанаю | TourLink"
+    "uz": "Nanay yo‘li | TourLink"
+  "metaDescription":
+    "en": "Nanay makes sense when the road is treated as part of the visit. Start with Namangan, let Yangiqo‘rg‘on set the district orientation, and leave enough time for the village stop and return."
+    "ru": "Нанай имеет смысл, когда дорога воспринимается как часть визита. Начинайте с Намангана, держите Янгикурган как районный ориентир и оставляйте время на сельскую остановку и возвращение."
+    "uz": "Nanay yo‘l tashrifning bir qismi sifatida qabul qilinganda ma’noli bo‘ladi. Namangandan boshlang, Yangiqo‘rg‘onni tuman orientiri qiling va qishloq bekati hamda qaytish uchun vaqt qoldiring."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "fergana-valley"
+"city": "nanay"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 41.5132361
+"longitude": 71.7027994

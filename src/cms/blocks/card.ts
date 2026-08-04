@@ -14,7 +14,11 @@ const cardTypeOptions = [
 	{ label: "Services Business", value: "servicesBusiness" },
 	{ label: "Services Direction", value: "servicesDirection" },
 	{ label: "Services Process", value: "servicesProcess" },
-	{ label: "Trip Format", value: "tripFormat" }
+	{ label: "Trip Format", value: "tripFormat" },
+	{ label: "Dash Title", value: "dashTitle" },
+	{ label: "Quote", value: "quote" },
+	{ label: "Alert", value: "alert" },
+	{ label: "Mini Table", value: "miniTable" }
 ] as const;
 
 const whenType =
@@ -89,9 +93,17 @@ export const cardFields: Field[] = [
 				"tripFormat",
 				"servicesBusiness",
 				"servicesDirection",
-				"servicesProcess"
+				"servicesProcess",
+				"dashTitle",
+				"alert"
 			)
 		}
+	},
+	{
+		name: "quote",
+		type: "richText",
+		localized: true,
+		admin: { condition: whenType("quote") }
 	},
 	{
 		name: "meta",
@@ -168,9 +180,32 @@ export const cardFields: Field[] = [
 				"teamMember",
 				"overviewStat",
 				"servicesBusiness",
-				"tripFormat"
+				"tripFormat",
+				"miniTable"
 			)
 		}
+	},
+	{
+		name: "rows",
+		type: "array",
+		admin: { condition: whenType("miniTable") },
+		fields: [
+			{
+				name: "icon",
+				type: "text"
+			},
+			{
+				name: "title",
+				type: "text",
+				required: true,
+				localized: true
+			},
+			{
+				name: "description",
+				type: "text",
+				localized: true
+			}
+		]
 	},
 	{
 		name: "className",

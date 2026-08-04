@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "yangijoy-recreation-area-readiness"
+  "ru": "yangijoy-recreation-area-readiness"
+  "uz": "yangijoy-recreation-area-readiness"
+"title":
+  "en": "Yangijoy recreation pause"
+  "ru": "Пауза в зоне отдыха Янгижой"
+  "uz": "Yangijoy dam olish pauzasi"
+"subtitle":
+  "en": "A quiet stop when the village welcome is real"
+  "ru": "Тихая остановка, когда местный приём настоящий"
+  "uz": "Mahalliy kutib olish haqiqiy bo‘lgandagi sokin bekat"
+"excerpt":
+  "en": "Yangijoy’s recreation pause matters when it gives travelers a shaded place to sit, a short walk, and a calm return to Samarkand."
+  "ru": "Пауза в зоне отдыха Янгижой важна, когда даёт гостю тень, короткую прогулку и спокойное возвращение к Самарканду."
+  "uz": "Yangijoydagi dam olish pauzasi sayohatchiga soya, qisqa yurish va Samarqandga sokin qaytish berganda muhim."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Yangijoy recreation pause"
+      "ru": "Пауза в зоне отдыха Янгижой"
+      "uz": "Yangijoy dam olish pauzasi"
+    "title":
+      "en": "Yangijoy recreation pause"
+      "ru": "Пауза в зоне отдыха Янгижой"
+      "uz": "Yangijoy dam olish pauzasi"
+    "description":
+      "en": "A quiet stop when the village welcome is real"
+      "ru": "Тихая остановка, когда местный приём настоящий"
+      "uz": "Mahalliy kutib olish haqiqiy bo‘lgandagi sokin bekat"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Yangijoy recreation pause"
+      "ru": "Пауза в зоне отдыха Янгижой"
+      "uz": "Yangijoy dam olish pauzasi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Yangijoy’s recreation pause matters when it gives travelers a shaded place to sit, a short walk, and a calm return to Samarkand."
+              "ru": "Пауза в зоне отдыха Янгижой важна, когда даёт гостю тень, короткую прогулку и спокойное возвращение к Самарканду."
+              "uz": "Yangijoydagi dam olish pauzasi sayohatchiga soya, qisqa yurish va Samarqandga sokin qaytish berganda muhim."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Recreation in Yangijoy feels strongest as a real pause, not a big promise."
+              "ru": "Зона отдыха в Янгижой сильнее как настоящая пауза, а не большое обещанием."
+              "uz": "Yangijoydagi dam olish joyi katta vaʼda emas, haqiqiy pauza kabi seziladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — A quiet stop when the village welcome is real."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Тихая остановка, когда местный приём настоящий."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Mahalliy kutib olish haqiqiy bo‘lgandagi sokin bekat."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Yangijoy recreation pause as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Пауза в зоне отдыха Янгижой как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Yangijoy dam olish pauzasi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Yangijoy recreation pause sits on the route"
+      "ru": "Где Пауза в зоне отдыха Янгижой стоит на маршруте"
+      "uz": "Yangijoy dam olish pauzasi marshrutda qayerda"
+    "description":
+      "en": "One clear point for Yangijoy recreation pause — A quiet stop when the village welcome is real."
+      "ru": "Одна понятная точка для «Пауза в зоне отдыха Янгижой» — Тихая остановка, когда местный приём настоящий."
+      "uz": "Yangijoy dam olish pauzasi uchun bitta aniq nuqta — Mahalliy kutib olish haqiqiy bo‘lgandagi sokin bekat."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Yangijoy recreation pause"
+        "ru": "Пауза в зоне отдыха Янгижой"
+        "uz": "Yangijoy dam olish pauzasi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.5348632
+      "longitude": 66.9700136
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "yangijoy-recreation-area-readiness"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "A small reason to stop"
+      "ru": "Небольшая причина остановиться"
+      "uz": "To‘xtash uchun kichik sabab"
+    "description":
+      "en": "Recreation in Yangijoy feels strongest as a real pause, not a big promise.
+
+
+        «The recreation pause is strongest when it makes the village feel human, not when it tries to stand alone.»"
+      "ru": "Зона отдыха в Янгижой сильнее как настоящая пауза, а не большое обещанием.
+
+
+        «Пауза в зоне отдыха хороша, когда делает село живым, а не пытается стать отдельной целью.»"
+      "uz": "Yangijoydagi dam olish joyi katta vaʼda emas, haqiqiy pauza kabi seziladi.
+
+
+        «Dam olish pauzasi qishloqni insoniy qilganda yaxshi, alohida maqsad bo‘lishga urinmaganda.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Shaded pause, village welcome, and return road"
+      "ru": "Тень, сельский приём и дорога назад"
+      "uz": "Soyali pauza, qishloq kutib olishi va qaytish yo‘li"
+    "description":
+      "en": "The best details are quiet and useful for travelers. A place to pause, a human welcome, and the road back."
+      "ru": "Лучшие детали здесь тихие и понятные. Место для паузы, человеческий приём и дорога обратно."
+      "uz": "Eng yaxshi detallar sokin va tushunarli. Pauza joyi, insoniy kutib olish va qaytish yo‘li."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Come for a quiet pause"
+      "ru": "Приезжайте ради тихой паузы"
+      "uz": "Sokin pauza uchun keling"
+    "description":
+      "en": "Keep this as a short stop with shade, a local welcome, and enough time for a gentle return."
+      "ru": "Оставьте это короткой остановкой с тенью, местным приёмом и спокойным возвращением."
+      "uz": "Bu bekat soya, mahalliy kutib olish va sokin qaytish bilan qisqa qolsin."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qo‘shish"
+    "title":
+      "en": "What can support the pause"
+      "ru": "Что может поддержать паузу"
+      "uz": "Pauzani nima qo‘llashi mumkin"
+    "description":
+      "en": "Pair this stop only with nearby notes that keep the Yangijoy visit small and readable."
+      "ru": "Сочетайте эту остановку только с близкими деталями, которые сохраняют визит к Янгижой небольшим и понятным."
+      "uz": "Bu bekatni Yangijoy tashrifini kichik va tushunarli tutadigan yaqin detallar bilan juftlang."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Yangijoy village setting"
+          "ru": "Сельская среда Янгижой"
+          "uz": "Yangijoy qishloq muhiti"
+        "description":
+          "en": "Yangijoy’s village setting gives the stop its local scale. A developing tourism village near Samarkand, not a fixed attraction list."
+          "ru": "Сельская среда Янгижой даёт остановке местный масштаб. Это развивающееся туристическое село рядом с Самаркандом, а не список объектов."
+          "uz": "Yangijoy qishloq muhiti bekatga mahalliy miqyos beradi. Bu Samarqand yaqinidagi rivojlanayotgan turizm qishlog‘i, obyektlar ro‘yxati emas."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/yangijoy/yangijoy-samarkand-district-mahalla-setting"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Konigil and Samarkand route link"
+          "ru": "Маршрут через Конигиль и Самарканд"
+          "uz": "Konigil va Samarqand yo‘li"
+        "description":
+          "en": "Yangijoy is most useful when it sits near a stronger Samarkand District arc, especially Konigil’s craft stop or the return to Samarkand."
+          "ru": "Янгижой полезнее всего рядом с понятной линией Самаркандского района: ремесленным Конигилем или возвращением в Самарканд."
+          "uz": "Yangijoy Samarqand tumanidagi kuchliroq yo‘lga, ayniqsa Konigil hunarmandchiligi yoki Samarqandga qaytishga yaqin bo‘lganda foydali."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/yangijoy/yangijoy-konigil-samarkand-route-link"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Yangijoy recreation pause"
+      "ru": "Что агентства спрашивают про Пауза в зоне отдыха Янгижой"
+      "uz": "Agentliklar Yangijoy dam olish pauzasi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Yangijoy recreation pause get in the day plan?"
+          "ru": "Сколько времени закладывать на Пауза в зоне отдыха Янгижой в плане дня?"
+          "uz": "Yangijoy dam olish pauzasi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "1–2 hours is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “A quiet stop when the village welcome is real”."
+          "ru": "Для большинства групп реалистичный диапазон — 1–2 часа. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Тихая остановка, когда местный приём настоящий»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 1–2 soat. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Mahalliy kutib olish haqiqiy bo‘lgandagi sokin bekat»."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "When is Yangijoy recreation pause strongest during the day?"
+          "ru": "В какое время дня Пауза в зоне отдыха Янгижой раскрывается сильнее?"
+          "uz": "Yangijoy dam olish pauzasi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer when the light is soft and queues are lighter. That usually improves comfort, photos, and how the stop feels in the sequence around yangijoy."
+          "ru": "Лучше когда свет мягче и очередей меньше. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с yangijoy."
+          "uz": "yorug‘lik yumshoq va navbat kamroq bo‘lganda afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (yangijoy atrofida)."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "How should Yangijoy recreation pause sit next to nearby stops?"
+          "ru": "Как поставить Пауза в зоне отдыха Янгижой рядом с соседними остановками?"
+          "uz": "Yangijoy dam olish pauzasini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Yangijoy recreation pause to your Uzbekistan programme"
+      "ru": "Добавьте «Пауза в зоне отдыха Янгижой» в программу (Узбекистан)"
+      "uz": "Yangijoy dam olish pauzasini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Yangijoy recreation pause | TourLink"
+    "ru": "Пауза в зоне отдыха Янгижой | TourLink"
+    "uz": "Yangijoy dam olish pauzasi | TourLink"
+  "metaDescription":
+    "en": "Yangijoy’s recreation pause matters when it gives travelers a shaded place to sit, a short walk, and a calm return to Samarkand."
+    "ru": "Пауза в зоне отдыха Янгижой важна, когда даёт гостю тень, короткую прогулку и спокойное возвращение к Самарканду."
+    "uz": "Yangijoydagi dam olish pauzasi sayohatchiga soya, qisqa yurish va Samarqandga sokin qaytish berganda muhim."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "samarkand-region"
+"city": "yangijoy"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 39.5348632
+"longitude": 66.9700136

@@ -1,0 +1,297 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "iskanderkul-lake"
+  "ru": "iskanderkul-lake"
+  "uz": "iskanderkul-lake"
+"title":
+  "en": "Iskanderkul Lake"
+  "ru": "Озеро Искандеркуль"
+  "uz": "Iskandarkoʻl ko‘li"
+"subtitle":
+  "en": "Turquoise water in the Fann Mountains"
+  "ru": "Бирюзовая вода в Фанских горах"
+  "uz": "Fan togʻlaridagi feruza suv"
+"excerpt":
+  "en": "Iskanderkul Lake gives the Fann Mountains a clear first image. Water fills the basin below red-grey slopes, and the road suddenly feels less like transit and more like a place to stop, look, and decide the rest of the mountain day."
+  "ru": "Озеро Искандеркуль даёт Фанским горам первый ясный образ. Вода заполняет котловину под красно-серыми склонами, и дорога перестаёт быть просто переездом: здесь нужно остановиться, посмотреть и решить, как продолжать горный день."
+  "uz": "Iskandarkoʻl Fan togʻlariga birinchi aniq obraz beradi. Qizil-kulrang yonbagʻirlar ostidagi havzani suv toʻldiradi va yoʻl oddiy oʻtish emas, toʻxtab qarash hamda togʻ kunining qolgan qismini belgilash joyiga aylanadi."
+"heroImage": "assets/images/destinations/tajikistan/regions/fann-mountains-and-zeravshan/cities/iskanderkul/attractions/iskanderkul-lake.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan/regions/fann-mountains-and-zeravshan/cities/iskanderkul/attractions/iskanderkul-lake.webp"
+    "imageAlt":
+      "en": "Iskanderkul Lake"
+      "ru": "Озеро Искандеркуль"
+      "uz": "Iskandarkoʻl ko‘li"
+    "title":
+      "en": "Iskanderkul Lake"
+      "ru": "Озеро Искандеркуль"
+      "uz": "Iskandarkoʻl ko‘li"
+    "description":
+      "en": "Turquoise water in the Fann Mountains"
+      "ru": "Бирюзовая вода в Фанских горах"
+      "uz": "Fan togʻlaridagi feruza suv"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Iskanderkul Lake"
+      "ru": "Озеро Искандеркуль"
+      "uz": "Iskandarkoʻl ko‘li"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Iskanderkul Lake gives the Fann Mountains a clear first image."
+              "ru": "Озеро Искандеркуль даёт Фанским горам первый ясный образ."
+              "uz": "Iskandarkoʻl Fan togʻlariga birinchi aniq obraz beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "The lake matters because it turns a mountain transfer into a visible destination."
+              "ru": "Озеро важно потому, что превращает горный переезд в видимое место."
+              "uz": "Koʻl togʻ yoʻlini koʻrinadigan manzilga aylantirgani uchun muhim."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Turquoise water in the Fann Mountains."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Бирюзовая вода в Фанских горах."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Fan togʻlaridagi feruza suv."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Iskanderkul Lake as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Озеро Искандеркуль как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Iskandarkoʻl ko‘li o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Iskanderkul Lake sits on the route"
+      "ru": "Где Озеро Искандеркуль стоит на маршруте"
+      "uz": "Iskandarkoʻl ko‘li marshrutda qayerda"
+    "description":
+      "en": "One clear point for Iskanderkul Lake — Turquoise water in the Fann Mountains."
+      "ru": "Одна понятная точка для «Озеро Искандеркуль» — Бирюзовая вода в Фанских горах."
+      "uz": "Iskandarkoʻl ko‘li uchun bitta aniq nuqta — Fan togʻlaridagi feruza suv."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Iskanderkul Lake"
+        "ru": "Озеро Искандеркуль"
+        "uz": "Iskandarkoʻl ko‘li"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.0731747
+      "longitude": 68.3651312
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "iskanderkul-lake"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "The lake that makes the Fann road pause"
+      "ru": "Озеро, которое замедляет Фанскую дорогу"
+      "uz": "Fan yoʻlini sekinlashtiradigan koʻl"
+    "description":
+      "en": "The lake matters because it turns a mountain transfer into a visible destination. Before the route continues toward Penjikent, Dushanbe, Seven Lakes, or higher Fann choices, Iskanderkul gives travelers one calm frame of water and peaks.
+
+
+        «Iskanderkul Lake does not need a crowded plan; the water and slopes are the reason to slow down.»"
+      "ru": "Озеро важно потому, что превращает горный переезд в видимое место. Прежде чем маршрут продолжится к Пенджикенту, Душанбе, Семи озёрам или более высоким точкам Фанских гор, Искандеркуль даёт спокойный кадр воды и пиков.
+
+
+        «Озеру Искандеркуль не нужен перегруженный план; вода и склоны сами объясняют, зачем замедлиться.»"
+      "uz": "Koʻl togʻ yoʻlini koʻrinadigan manzilga aylantirgani uchun muhim. Yoʻnalish Panjikent, Dushanbe, Yetti koʻl yoki balandroq Fan tanlovlariga davom etishidan oldin Iskandarkoʻl suv va choʻqqilarni bir sokin manzarada beradi.
+
+
+        «Iskandarkoʻlga tigʻiz reja kerak emas; suv va yonbagʻirlar sekinlashish sababini oʻzi ko‘rsatadi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "Lake, slopes, and shore"
+      "ru": "Озеро, склоны и берег"
+      "uz": "Koʻl, yonbagʻirlar va qirgʻoq"
+    "description":
+      "en": "Read the lake from near to far: the water at the shore, the red-grey slopes around it, and the wider Fann frame that explains why the stop belongs in the journey."
+      "ru": "Смотрите озеро от ближнего к дальнему: вода у берега, красно-серые склоны вокруг и широкий кадр Фанских гор, который объясняет место в путешествии."
+      "uz": "Koʻlni yaqindan uzoqqa qarab oʻqing: qirgʻoqdagi suv, atrofdagi qizil-kulrang yonbagʻirlar va bu bekatning safardagi oʻrnini tushuntiradigan keng Fan manzarasi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qoʻshish"
+    "title":
+      "en": "Add the waterfall when the day allows"
+      "ru": "Добавьте водопад, если день позволяет"
+      "uz": "Kun imkon bersa, sharsharani qoʻshing"
+    "description":
+      "en": "Fann Niagara is the natural second stop near Iskanderkul Lake. Keep it as a short, condition-aware addition rather than a guaranteed extra when road time or weather is tight."
+      "ru": "Фанская Ниагара — естественная вторая остановка рядом с озером Искандеркуль. Держите её коротким и зависящим от условий дополнением, а не обязательным пунктом при плотной дороге или сложной погоде."
+      "uz": "Fan Niagara Iskandarkoʻl yaqinidagi tabiiy ikkinchi bekatdir. Yoʻl vaqti yoki ob-havo tigʻiz boʻlsa, uni majburiy emas, sharoitga bogʻliq qisqa qoʻshimcha sifatida qoldiring."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Iskanderkul Waterfall / Fann Niagara"
+          "ru": "Водопад Искандеркуля / Фанская Ниагара"
+          "uz": "Iskandarkoʻl sharsharasi / Fan Niagara"
+        "description":
+          "en": "Fann Niagara adds moving water to an Iskanderkul visit, close to the lake outflow and worth adding only when access, footing, and daylight are clear."
+          "ru": "Фанская Ниагара добавляет к Искандеркулю движущуюся воду: водопад рядом с выходом воды из озера, который стоит включать только при понятном подходе, поверхности и световом дне."
+          "uz": "Fan Niagara Iskandarkoʻl tashrifiga harakatdagi suv qoʻshadi: koʻl chiqishi yaqinidagi sharshara faqat kirish, yoʻl tagi va kunduzgi vaqt aniq boʻlsa qoʻshiladi."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/iskanderkul/iskanderkul-waterfall-fann-niagara"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Iskanderkul Lake"
+      "ru": "Что агентства спрашивают про Озеро Искандеркуль"
+      "uz": "Agentliklar Iskandarkoʻl ko‘li haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Iskanderkul Lake get in the day plan?"
+          "ru": "Сколько времени закладывать на Озеро Искандеркуль в плане дня?"
+          "uz": "Iskandarkoʻl ko‘li uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "45–90 minutes is a practical range for most groups. Keep the stop readable: one clear arrival, one clear exit. Place tone: “Turquoise water in the Fann Mountains”."
+          "ru": "Для большинства групп реалистичный диапазон — 45–90 минут. Держите остановку читаемой: понятный вход и понятный выход. Характер места: «Бирюзовая вода в Фанских горах»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 45–90 daqiqa. Bekatni o‘qiladigan tuting: aniq kirish va aniq chiqish. Joy ohangi: «Fan togʻlaridagi feruza suv»."
+      - "type": "destinationInsight"
+        "icon": "Sunrise"
+        "title":
+          "en": "When is Iskanderkul Lake strongest during the day?"
+          "ru": "В какое время дня Озеро Искандеркуль раскрывается сильнее?"
+          "uz": "Iskandarkoʻl ko‘li kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer before the midday heat. That usually improves comfort, photos, and how the stop feels in the sequence around iskanderkul."
+          "ru": "Лучше до полуденной жары. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с iskanderkul."
+          "uz": "tushlik issiqligidan oldin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (iskanderkul atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How should Iskanderkul Lake sit next to nearby stops?"
+          "ru": "Как поставить Озеро Искандеркуль рядом с соседними остановками?"
+          "uz": "Iskandarkoʻl ko‘lini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan/regions/fann-mountains-and-zeravshan/cities/iskanderkul/attractions/iskanderkul-lake.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Iskanderkul Lake to your Tajikistan programme"
+      "ru": "Добавьте «Озеро Искандеркуль» в программу (Таджикистан)"
+      "uz": "Iskandarkoʻl ko‘lini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Iskanderkul Lake | TourLink"
+    "ru": "Озеро Искандеркуль | TourLink"
+    "uz": "Iskandarkoʻl ko‘li | TourLink"
+  "metaDescription":
+    "en": "Iskanderkul Lake gives the Fann Mountains a clear first image. Water fills the basin below red-grey slopes, and the road suddenly feels less like transit and more like a place to stop, look, and decide the rest of the mountain day."
+    "ru": "Озеро Искандеркуль даёт Фанским горам первый ясный образ. Вода заполняет котловину под красно-серыми склонами, и дорога перестаёт быть просто переездом: здесь нужно остановиться, посмотреть и решить, как продолжать горный день."
+    "uz": "Iskandarkoʻl Fan togʻlariga birinchi aniq obraz beradi. Qizil-kulrang yonbagʻirlar ostidagi havzani suv toʻldiradi va yoʻl oddiy oʻtish emas, toʻxtab qarash hamda togʻ kunining qolgan qismini belgilash joyiga aylanadi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "fann-mountains-and-zeravshan"
+"city": "iskanderkul"
+"type": "LAKE"
+"importance": "RECOMMENDED"
+"latitude": 39.0731747
+"longitude": 68.3651312

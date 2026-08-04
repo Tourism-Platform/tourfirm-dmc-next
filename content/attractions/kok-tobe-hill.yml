@@ -1,0 +1,320 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "kok-tobe-hill"
+  "ru": "kok-tobe-hill"
+  "uz": "kok-tobe-hill"
+"title":
+  "en": "Kok-Tobe Hill"
+  "ru": "Холм Кок-Тобе"
+  "uz": "Koʻk-Tobe tepaligi"
+"subtitle":
+  "en": "Almaty's close cable-car hill"
+  "ru": "Близкий холм Алматы с канатной дорогой"
+  "uz": "Olmaotaning yaqin kanat yoʻli tepaligi"
+"excerpt":
+  "en": "Kok-Tobe rises close enough to central Almaty to feel like part of the city, but high enough to set the skyline against the Trans-Ili Alatau. In clear air, it gives a useful orientation view before a market, museum, dinner, or a separate Medeu-Shymbulak mountain plan."
+  "ru": "Кок-Тобе находится достаточно близко к центру, чтобы оставаться частью Алматы, и достаточно высоко, чтобы показать город на фоне Заилийского Алатау. В ясную погоду это удобный вид для ориентации перед рынком, музеем, ужином или отдельным выездом к Медеу и Шымбулаку."
+  "uz": "Koʻk-Tobe markaziy Olmaotaga yaqin bo‘lgani uchun shahar qismidek tuyuladi, balandligi esa shaharni Iliorti Olatovi fonida ko‘rsatadi. Havo ochiq bo‘lsa, u bozor, muzey, kechki ovqat yoki alohida Medeu-Shimbuloq rejasi oldidan yaxshi manzara beradi."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "Kok-Tobe Hill"
+      "ru": "Холм Кок-Тобе"
+      "uz": "Koʻk-Tobe tepaligi"
+    "title":
+      "en": "Kok-Tobe Hill"
+      "ru": "Холм Кок-Тобе"
+      "uz": "Koʻk-Tobe tepaligi"
+    "description":
+      "en": "Almaty's close cable-car hill"
+      "ru": "Близкий холм Алматы с канатной дорогой"
+      "uz": "Olmaotaning yaqin kanat yoʻli tepaligi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Kok-Tobe Hill"
+      "ru": "Холм Кок-Тобе"
+      "uz": "Koʻk-Tobe tepaligi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Kok-Tobe rises close enough to central Almaty to feel like part of the city, but high enough to set the skyline against the Trans-Ili Alatau."
+              "ru": "Кок-Тобе находится достаточно близко к центру, чтобы оставаться частью Алматы, и достаточно высоко, чтобы показать город на фоне Заилийского Алатау."
+              "uz": "Koʻk-Tobe markaziy Olmaotaga yaqin bo‘lgani uchun shahar qismidek tuyuladi, balandligi esa shaharni Iliorti Olatovi fonida ko‘rsatadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Kok-Tobe matters because it shows Almaty at a human scale: city below, ridges behind, and the plain opening beyond."
+              "ru": "Кок-Тобе важен тем, что показывает Алматы в понятном масштабе: город ниже, хребты за ним и равнина дальше."
+              "uz": "Koʻk-Tobe Olmaotani tushunarli o‘lchamda ko‘rsatadi: pastda shahar, ortda togʻ tizmalari, narida esa tekislik."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Almaty's close cable-car hill."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Близкий холм Алматы с канатной дорогой."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Olmaotaning yaqin kanat yoʻli tepaligi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Kok-Tobe Hill as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Холм Кок-Тобе как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Koʻk-Tobe tepaligi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Kok-Tobe Hill sits on the route"
+      "ru": "Где Холм Кок-Тобе стоит на маршруте"
+      "uz": "Koʻk-Tobe tepaligi marshrutda qayerda"
+    "description":
+      "en": "One clear point for Kok-Tobe Hill — Almaty's close cable-car hill."
+      "ru": "Одна понятная точка для «Холм Кок-Тобе» — Близкий холм Алматы с канатной дорогой."
+      "uz": "Koʻk-Tobe tepaligi uchun bitta aniq nuqta — Olmaotaning yaqin kanat yoʻli tepaligi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Kok-Tobe Hill"
+        "ru": "Холм Кок-Тобе"
+        "uz": "Koʻk-Tobe tepaligi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 43.2331024
+      "longitude": 76.9755299
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "kok-tobe-hill"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Where Almaty meets the foothills"
+      "ru": "Где Алматы встречается с предгорьями"
+      "uz": "Olmaota togʻ etaklari bilan tutashadigan joy"
+    "description":
+      "en": "Kok-Tobe matters because it shows Almaty at a human scale: city below, ridges behind, and the plain opening beyond."
+      "ru": "Кок-Тобе важен тем, что показывает Алматы в понятном масштабе: город ниже, хребты за ним и равнина дальше."
+      "uz": "Koʻk-Tobe Olmaotani tushunarli o‘lchamda ko‘rsatadi: pastda shahar, ortda togʻ tizmalari, narida esa tekislik."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "Skyline, foothills, and evening lights"
+      "ru": "Силуэт города, предгорья и вечерние огни"
+      "uz": "Shahar silueti, togʻ etaklari va kechki chiroqlar"
+    "description":
+      "en": "Kok-Tobe is a visual stop: the city grid below, ridges behind it, and a softer view when the air is clear toward evening."
+      "ru": "Кок-Тобе — визуальная точка: городская сетка ниже, хребты за ней и более мягкий вид, когда воздух чист к вечеру."
+      "uz": "Koʻk-Tobe vizual toʻxtash joyi: pastda shahar ko‘chalari, ortda togʻ tizmalari va havo ochiq bo‘lsa kechga yaqin yumshoqroq manzara."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday koʻrish"
+    "title":
+      "en": "Come for orientation, not a full mountain day"
+      "ru": "Приходите за ориентацией, а не за полным горным днём"
+      "uz": "Toʻliq togʻ kuni emas, shaharni anglash uchun keling"
+    "description":
+      "en": "Kok-Tobe is strongest when the plan needs a close view of Almaty before or after city time."
+      "ru": "Кок-Тобе особенно полезен, когда плану нужен близкий вид на Алматы до или после городского времени."
+      "uz": "Rejaga shahar oldidan yoki keyin yaqin manzara kerak bo‘lsa, Koʻk-Tobe eng foydali bo‘ladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qoʻshish mumkin"
+    "title":
+      "en": "Choose Medeu or Shymbulak for a higher mountain outing"
+      "ru": "Выберите Медеу или Шымбулак для более высокого горного выезда"
+      "uz": "Balandroq togʻ chiqishi uchun Medeu yoki Shimbuloqni tanlang"
+    "description":
+      "en": "Medeu starts the mountain road; Shymbulak takes it higher by lift. Keep Kok-Tobe as the close viewpoint when the plan needs more city time."
+      "ru": "Медеу начинает горную дорогу; Шымбулак поднимает её выше по канатной дороге. Оставляйте Кок-Тобе близкой видовой точкой, когда плану нужно больше городского времени."
+      "uz": "Medeu togʻ yo‘lini boshlaydi; Shimbuloq uni lift orqali balandroqqa olib chiqadi. Rejaga ko‘proq shahar vaqti kerak bo‘lsa, Koʻk-Tobe yaqin manzara nuqtasi bo‘lib qoladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Medeu High-Mountain Sports Complex"
+          "ru": "Высокогорный спортивный комплекс Медеу"
+          "uz": "Medeu baland togʻ sport majmuasi"
+        "description":
+          "en": "Medeu brings Almaty into the mountains: a high-mountain rink valley, cooler air, and the road that continues toward Shymbulak."
+          "ru": "Медеу выводит Алматы к горам: высокогорная долина с катком, прохладный воздух и дорога, которая продолжается к Шымбулаку."
+          "uz": "Medeu Olmaotani togʻlarga olib chiqadi: baland togʻ vodiysidagi muz maydoni, salqin havo va Shimbuloqqa davom etadigan yoʻl."
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/almaty/medeu-high-mountain-sports-complex"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Shymbulak Mountain Resort"
+          "ru": "Горный курорт Шымбулак"
+          "uz": "Shimbuloq togʻ kurorti"
+        "description":
+          "en": "Shymbulak takes an Almaty day above Medeu by road and gondola, with high-mountain air, wide views, and plans shaped by weather, lift access, and altitude."
+          "ru": "Шымбулак поднимает Алматы выше Медеу: к канатной дороге, горному воздуху, видам и плану, который зависит от погоды, доступа и высоты."
+          "uz": "Shimbuloq Olmaotani Medeu ustidan balandroqqa olib chiqadi: kanat yoʻli, togʻ havosi, keng manzara va ob-havo, kirish hamda balandlikka bogʻliq reja."
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/almaty/shymbulak-mountain-resort"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Kok-Tobe Hill"
+      "ru": "Что агентства спрашивают про Холм Кок-Тобе"
+      "uz": "Agentliklar Koʻk-Tobe tepaligi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Kok-Tobe Hill get in the day plan?"
+          "ru": "Сколько времени закладывать на Холм Кок-Тобе в плане дня?"
+          "uz": "Koʻk-Tobe tepaligi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "1–2 hours is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Almaty's close cable-car hill”."
+          "ru": "Для большинства групп реалистичный диапазон — 1–2 часа. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Близкий холм Алматы с канатной дорогой»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 1–2 soat. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Olmaotaning yaqin kanat yoʻli tepaligi»."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "When is Kok-Tobe Hill strongest during the day?"
+          "ru": "В какое время дня Холм Кок-Тобе раскрывается сильнее?"
+          "uz": "Koʻk-Tobe tepaligi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer when the light is soft and queues are lighter. That usually improves comfort, photos, and how the stop feels in the sequence around almaty."
+          "ru": "Лучше когда свет мягче и очередей меньше. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с almaty."
+          "uz": "yorug‘lik yumshoq va navbat kamroq bo‘lganda afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (almaty atrofida)."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "How should Kok-Tobe Hill sit next to nearby stops?"
+          "ru": "Как поставить Холм Кок-Тобе рядом с соседними остановками?"
+          "uz": "Koʻk-Tobe tepaligini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Kok-Tobe Hill to your Kazakhstan programme"
+      "ru": "Добавьте «Холм Кок-Тобе» в программу (Казахстан)"
+      "uz": "Koʻk-Tobe tepaligini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Kok-Tobe Hill | TourLink"
+    "ru": "Холм Кок-Тобе | TourLink"
+    "uz": "Koʻk-Tobe tepaligi | TourLink"
+  "metaDescription":
+    "en": "Kok-Tobe rises close enough to central Almaty to feel like part of the city, but high enough to set the skyline against the Trans-Ili Alatau. In clear air, it gives a useful orientation view before a market, museum, dinner, or a separate Medeu-Shymbulak mountain plan."
+    "ru": "Кок-Тобе находится достаточно близко к центру, чтобы оставаться частью Алматы, и достаточно высоко, чтобы показать город на фоне Заилийского Алатау. В ясную погоду это удобный вид для ориентации перед рынком, музеем, ужином или отдельным выездом к Медеу и Шымбулаку."
+    "uz": "Koʻk-Tobe markaziy Olmaotaga yaqin bo‘lgani uchun shahar qismidek tuyuladi, balandligi esa shaharni Iliorti Olatovi fonida ko‘rsatadi. Havo ochiq bo‘lsa, u bozor, muzey, kechki ovqat yoki alohida Medeu-Shimbuloq rejasi oldidan yaxshi manzara beradi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "almaty-and-northern-tian-shan"
+"city": "almaty"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 43.2331024
+"longitude": 76.9755299

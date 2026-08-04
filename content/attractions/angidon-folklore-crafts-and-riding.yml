@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "angidon-folklore-crafts-and-riding"
+  "ru": "angidon-folklore-crafts-and-riding"
+  "uz": "angidon-folklore-crafts-and-riding"
+"title":
+  "en": "Angidon folklore, craft, and outdoor traditions"
+  "ru": "Фольклор, ремёсла и отдых на воздухе в Ангидоне"
+  "uz": "Angidon folklori, hunari va ochiq havo an’analari"
+"subtitle":
+  "en": "Craft hands, songs, riding, and fishing close to the village"
+  "ru": "Руки мастеров, песни, верховые прогулки и рыбалка рядом с селом"
+  "uz": "Qishloqqa yaqin usta qo‘llari, qo‘shiqlar, ot minish va baliq ovi"
+"excerpt":
+  "en": "Angidon’s cultural side is strongest when it stays close: a craft hand, a song, a table, a short ride, or a fishing stop that belongs to the same mountain-village story."
+  "ru": "Культурная сторона Ангидона сильнее всего, когда остаётся рядом: руки мастера, песня, стол, короткая верховая прогулка или рыбалка, которые принадлежат одной истории горного села."
+  "uz": "Angidonning madaniy tomoni yaqin qolganda kuchli: usta qo‘li, qo‘shiq, dasturxon, qisqa ot minish yoki bitta tog‘ qishlog‘i hikoyasiga tegishli baliq ovi."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Angidon folklore, craft, and outdoor traditions"
+      "ru": "Фольклор, ремёсла и отдых на воздухе в Ангидоне"
+      "uz": "Angidon folklori, hunari va ochiq havo an’analari"
+    "title":
+      "en": "Angidon folklore, craft, and outdoor traditions"
+      "ru": "Фольклор, ремёсла и отдых на воздухе в Ангидоне"
+      "uz": "Angidon folklori, hunari va ochiq havo an’analari"
+    "description":
+      "en": "Craft hands, songs, riding, and fishing close to the village"
+      "ru": "Руки мастеров, песни, верховые прогулки и рыбалка рядом с селом"
+      "uz": "Qishloqqa yaqin usta qo‘llari, qo‘shiqlar, ot minish va baliq ovi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Angidon folklore, craft, and outdoor traditions"
+      "ru": "Фольклор, ремёсла и отдых на воздухе в Ангидоне"
+      "uz": "Angidon folklori, hunari va ochiq havo an’analari"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Angidon’s cultural side is strongest when it stays close: a craft hand, a song, a table, a short ride, or a fishing stop that belongs to the same mountain-village story."
+              "ru": "Культурная сторона Ангидона сильнее всего, когда остаётся рядом: руки мастера, песня, стол, короткая верховая прогулка или рыбалка, которые принадлежат одной истории горного села."
+              "uz": "Angidonning madaniy tomoni yaqin qolganda kuchli: usta qo‘li, qo‘shiq, dasturxon, qisqa ot minish yoki bitta tog‘ qishlog‘i hikoyasiga tegishli baliq ovi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "This side of Angidon should feel like the village speaking through people, hands, food, music, and open air."
+              "ru": "Эта сторона Ангидона должна звучать как село, которое говорит через людей, руки, еду, музыку и открытый воздух."
+              "uz": "Angidonning bu tomoni qishloq odamlar, qo‘llar, taom, musiqa va ochiq havo orqali gapirgandek sezilishi kerak."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Craft hands, songs, riding, and fishing close to the village."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Руки мастеров, песни, верховые прогулки и рыбалка рядом с селом."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Qishloqqa yaqin usta qo‘llari, qo‘shiqlar, ot minish va baliq ovi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Angidon folklore, craft, and outdoor traditions as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Фольклор, ремёсла и отдых на воздухе в Ангидоне как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Angidon folklori, hunari va ochiq havo an’analari o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Angidon folklore, craft, and outdoor traditions sits on the route"
+      "ru": "Где Фольклор, ремёсла и отдых на воздухе в Ангидоне стоит на маршруте"
+      "uz": "Angidon folklori, hunari va ochiq havo an’analari marshrutda qayerda"
+    "description":
+      "en": "One clear point for Angidon folklore, craft, and outdoor traditions — Craft hands, songs, riding, and fishing close to the village."
+      "ru": "Одна понятная точка для «Фольклор, ремёсла и отдых на воздухе в Ангидоне» — Руки мастеров, песни, верховые прогулки и рыбалка рядом с селом."
+      "uz": "Angidon folklori, hunari va ochiq havo an’analari uchun bitta aniq nuqta — Qishloqqa yaqin usta qo‘llari, qo‘shiqlar, ot minish va baliq ovi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Angidon folklore, craft, and outdoor traditions"
+        "ru": "Фольклор, ремёсла и отдых на воздухе в Ангидоне"
+        "uz": "Angidon folklori, hunari va ochiq havo an’analari"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.3048464
+      "longitude": 65.8784058
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "angidon-folklore-crafts-and-riding"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Let one village encounter lead"
+      "ru": "Пусть ведёт одна сельская встреча"
+      "uz": "Bitta qishloq uchrashuvi yetaklasin"
+    "description":
+      "en": "This side of Angidon should feel like the village speaking through people, hands, food, music, and open air.
+
+
+        «Angidon feels richer when one person, one craft hand, or one outdoor choice carries the moment.»"
+      "ru": "Эта сторона Ангидона должна звучать как село, которое говорит через людей, руки, еду, музыку и открытый воздух.
+
+
+        «Ангидон становится богаче, когда момент несут один человек, руки мастера или один природный выбор.»"
+      "uz": "Angidonning bu tomoni qishloq odamlar, qo‘llar, taom, musiqa va ochiq havo orqali gapirgandek sezilishi kerak.
+
+
+        «Angidon bir odam, bir usta qo‘li yoki bitta ochiq havo tanlovi lahzani ko‘targanda boyiydi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Hands, music, and open air"
+      "ru": "Руки, музыка и открытый воздух"
+      "uz": "Qo‘llar, musiqa va ochiq havo"
+    "description":
+      "en": "The best details stay close to people and the mountain village."
+      "ru": "Лучшие детали остаются рядом с людьми и горным селом."
+      "uz": "Eng yaxshi detallar odamlar va tog‘ qishlog‘iga yaqin qoladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Keep the moment close"
+      "ru": "Держите момент близко"
+      "uz": "Lahzani yaqin tuting"
+    "description":
+      "en": "Folklore, craft, riding, and fishing should feel like part of Angidon, not a separate set of tasks."
+      "ru": "Фольклор, ремесло, верховая прогулка и рыбалка должны ощущаться частью Ангидона, а не отдельным списком."
+      "uz": "Folklor, hunar, ot minish va baliq ovi alohida bandlar emas, Angidonning bir qismi bo‘lib sezilishi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qo‘shish"
+    "title":
+      "en": "What to add around the cultural moment"
+      "ru": "Что добавить вокруг культурного момента"
+      "uz": "Madaniy lahza atrofida nima qo‘shish"
+    "description":
+      "en": "Pair this angle with the high-mountain setting or a longer village stay so Angidon remains one coherent stop."
+      "ru": "Соединяйте этот ракурс с высокогорной средой или более долгой сельской остановкой, чтобы Ангидон оставался одной цельной остановкой."
+      "uz": "Bu qarashni baland tog‘ muhiti yoki uzoqroq qishloq bekati bilan juftlang, shunda Angidon bitta yaxlit bekat bo‘lib qoladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Angidon mountain village setting"
+          "ru": "Горное село Ангидон"
+          "uz": "Angidon tog‘ qishlog‘i muhiti"
+        "description":
+          "en": "Angidon’s mountain setting gives the visit its first value: clean air, slopes around the lanes, and a softer Khatirchi approach."
+          "ru": "Горная среда Ангидона даёт визиту первую ценность: чистый воздух, склоны рядом с улицами и мягкий подъезд со стороны Хатырчи."
+          "uz": "Angidonning tog‘ muhiti tashrifga birinchi qiymat beradi: toza havo, ko‘chalar yonidagi yonbag‘irlar va Xatirchidan yumshoq kirish."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/angidon/angidon-high-mountain-village-setting"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Angidon village overnight and quiet outdoor time"
+          "ru": "Сельская ночёвка и тихий отдых в Ангидоне"
+          "uz": "Angidonda qishloq tunashi va sokin ochiq havo"
+        "description":
+          "en": "A village overnight, family table, fishing, riding, or quiet outdoor time can deepen Angidon when one clear detail stays close to village life."
+          "ru": "Сельская ночёвка, домашний стол, рыбалка, верховая прогулка или тихий отдых могут углубить Ангидон, если один ясный акцент остаётся рядом с сельской жизнью."
+          "uz": "Qishloq tunashi, xonadon dasturxoni, baliq ovi, ot minish yoki sokin ochiq havo bitta aniq detal qishloq hayotiga yaqin qolsa, Angidonni chuqurlashtiradi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/angidon/angidon-guesthouses-and-recreation"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Angidon folklore, craft, and outdoor traditions"
+      "ru": "Что агентства спрашивают про Фольклор, ремёсла и отдых на воздухе в Ангидоне"
+      "uz": "Agentliklar Angidon folklori, hunari va ochiq havo an’analari haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Angidon folklore, craft, and outdoor traditions get in the day plan?"
+          "ru": "Сколько времени закладывать на Фольклор, ремёсла и отдых на воздухе в Ангидоне в плане дня?"
+          "uz": "Angidon folklori, hunari va ochiq havo an’analari uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "1–2 hours is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Craft hands, songs, riding, and fishing close to the village”."
+          "ru": "Для большинства групп реалистичный диапазон — 1–2 часа. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Руки мастеров, песни, верховые прогулки и рыбалка рядом с селом»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 1–2 soat. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Qishloqqa yaqin usta qo‘llari, qo‘shiqlar, ot minish va baliq ovi»."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "When is Angidon folklore, craft, and outdoor traditions strongest during the day?"
+          "ru": "В какое время дня Фольклор, ремёсла и отдых на воздухе в Ангидоне раскрывается сильнее?"
+          "uz": "Angidon folklori, hunari va ochiq havo an’analari kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer when the light is soft and queues are lighter. That usually improves comfort, photos, and how the stop feels in the sequence around angidon."
+          "ru": "Лучше когда свет мягче и очередей меньше. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с angidon."
+          "uz": "yorug‘lik yumshoq va navbat kamroq bo‘lganda afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (angidon atrofida)."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "How should Angidon folklore, craft, and outdoor traditions sit next to nearby stops?"
+          "ru": "Как поставить Фольклор, ремёсла и отдых на воздухе в Ангидоне рядом с соседними остановками?"
+          "uz": "Angidon folklori, hunari va ochiq havo an’analarini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Angidon folklore, craft, and outdoor traditions to your Uzbekistan programme"
+      "ru": "Добавьте «Фольклор, ремёсла и отдых на воздухе в Ангидоне» в программу (Узбекистан)"
+      "uz": "Angidon folklori, hunari va ochiq havo an’analarini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Angidon folklore, craft, and outdoor traditions | TourLink"
+    "ru": "Фольклор, ремёсла и отдых на воздухе в Ангидоне | TourLink"
+    "uz": "Angidon folklori, hunari va ochiq havo an’analari | TourLink"
+  "metaDescription":
+    "en": "Angidon’s cultural side is strongest when it stays close: a craft hand, a song, a table, a short ride, or a fishing stop that belongs to the same mountain-village story."
+    "ru": "Культурная сторона Ангидона сильнее всего, когда остаётся рядом: руки мастера, песня, стол, короткая верховая прогулка или рыбалка, которые принадлежат одной истории горного села."
+    "uz": "Angidonning madaniy tomoni yaqin qolganda kuchli: usta qo‘li, qo‘shiq, dasturxon, qisqa ot minish yoki bitta tog‘ qishlog‘i hikoyasiga tegishli baliq ovi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "nurata-aydarkul-and-kyzylkum"
+"city": "angidon"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 40.3048464
+"longitude": 65.8784058

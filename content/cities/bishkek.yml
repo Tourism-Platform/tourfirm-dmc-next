@@ -1,0 +1,579 @@
+# Generated from scrape/kyrgyzstan (multi-locale)
+"slug":
+  "en": "bishkek"
+  "ru": "bishkek"
+  "uz": "bishkek"
+"title":
+  "en": "Bishkek"
+  "ru": "Бишкек"
+  "uz": "Bishkek"
+"subtitle":
+  "en": "A capital with mountains at the edge"
+  "ru": "Столица с горами у края города"
+  "uz": "Shahar chetida togʻlari bor poytaxt"
+"excerpt":
+  "en": "Bishkek gives Kyrgyzstan a calm first frame: Ala-Too Square opens the city, Osh Bazaar adds bread steam and market movement, and the Tian Shan sits close enough to shape the next road."
+  "ru": "Бишкек задаёт Кыргызстану спокойный первый ритм: площадь Ала-Тоо открывает город, Ошский базар добавляет запах лепёшек и рыночное движение, а Тянь-Шань остаётся так близко, что влияет на следующую дорогу."
+  "uz": "Bishkek Qirgʻizistonga xotirjam birinchi ritm beradi: Ala-Too maydoni shaharni ochadi, Oʻsh bozori non hidi va bozor harakatini qoʻshadi, Tyan-Shan esa keyingi yoʻlni belgilaydigan darajada yaqin."
+"heroImage": "assets/images/destinations/kyrgyzstan/regions/bishkek-and-chuy-foothills/cities/bishkek.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kyrgyzstan/regions/bishkek-and-chuy-foothills/cities/bishkek.webp"
+    "imageAlt":
+      "en": "Bishkek"
+      "ru": "Бишкек"
+      "uz": "Bishkek"
+    "title":
+      "en": "Bishkek"
+      "ru": "Бишкек"
+      "uz": "Bishkek"
+    "description":
+      "en": "A capital with mountains at the edge"
+      "ru": "Столица с горами у края города"
+      "uz": "Shahar chetida togʻlari bor poytaxt"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Bishkek"
+      "ru": "Бишкек"
+      "uz": "Bishkek"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Bishkek gives Kyrgyzstan a calm first frame: Ala-Too Square opens the city, Osh Bazaar adds bread steam and market movement, and the Tian Shan sits close enough to shape the next road."
+              "ru": "Бишкек задаёт Кыргызстану спокойный первый ритм: площадь Ала-Тоо открывает город, Ошский базар добавляет запах лепёшек и рыночное движение, а Тянь-Шань остаётся так близко, что влияет на следующую дорогу."
+              "uz": "Bishkek Qirgʻizistonga xotirjam birinchi ritm beradi: Ala-Too maydoni shaharni ochadi, Oʻsh bozori non hidi va bozor harakatini qoʻshadi, Tyan-Shan esa keyingi yoʻlni belgilaydigan darajada yaqin."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Bishkek is not a checklist city. It is where travelers understand the pace of Kyrgyzstan before the road reaches higher landscapes."
+              "ru": "Бишкек не должен быть списком остановок. Здесь гости понимают темп Кыргызстана до того, как дорога уходит выше в горы."
+              "uz": "Bishkek roʻyxat qilib chiqiladigan shahar emas. Bu yerda mehmonlar yoʻl balandroq manzaralarga ketishidan oldin Qirgʻiziston tempini tushunadi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "A first Bishkek stay feels clearer with one city focus and one outward choice. Keep the center unhurried, then decide whether the next road points to Burana, Ala-Archa, Issyk-Kul, or Manas Airport."
+              "ru": "Первый останов в Бишкеке понятнее, когда в нём есть один городской фокус и одно продолжение. Оставьте центр без спешки, затем решите, куда ведёт следующая дорога: к Буране, Ала-Арче, Иссык-Кулю или аэропорту Манас."
+              "uz": "Bishkekdagi birinchi toʻxtash bitta shahar fokusi va bitta keyingi yoʻl bilan aniqroq boʻladi. Markazni shoshirmang, keyin yoʻl Burana, Ala-Archa, Issiqkoʻl yoki Manas aeroporti tomonga ketishini tanlang."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Bishkek as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Бишкек как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Bishkek o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Start in the center, then choose the road out"
+      "ru": "Начните в центре, затем выберите дорогу дальше"
+      "uz": "Markazdan boshlang, keyin keyingi yoʻlni tanlang"
+    "description":
+      "en": "Bishkek is not a checklist city. It is where travelers understand the pace of Kyrgyzstan before the road reaches higher landscapes."
+      "ru": "Бишкек не должен быть списком остановок. Здесь гости понимают темп Кыргызстана до того, как дорога уходит выше в горы."
+      "uz": "Bishkek roʻyxat qilib chiqiladigan shahar emas. Bu yerda mehmonlar yoʻl balandroq manzaralarga ketishidan oldin Qirgʻiziston tempini tushunadi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Orientation"
+        "ru": "Ориентация"
+        "uz": "Moʻljal"
+      "title":
+        "en": "A compact capital with useful road access"
+        "ru": "Компактная столица с удобными выездами"
+        "uz": "Qulay chiqish yoʻllariga ega ixcham poytaxt"
+      "description":
+        "en": "Most first stays work around central Bishkek, then continue toward Burana, Ala-Archa, Issyk-Kul, or Manas Airport."
+        "ru": "Первый останов обычно строится вокруг центрального Бишкека, а затем продолжается к Буране, Ала-Арче, Иссык-Кулю или аэропорту Манас."
+        "uz": "Birinchi toʻxtash odatda markaziy Bishkek atrofida quriladi, keyin Burana, Ala-Archa, Issiqkoʻl yoki Manas aeroporti tomonga davom etadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 42.876005
+      "longitude": 74.595195
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "ala-too-square"
+      - "entityType": "attraction"
+        "entitySlug": "state-history-museum-bishkek"
+      - "entityType": "attraction"
+        "entitySlug": "osh-bazaar-bishkek"
+    "aside":
+      "eyebrow":
+        "en": "Route planning"
+        "ru": "Планирование"
+        "uz": "Rejalash"
+      "title":
+        "en": "Keep the first day realistic"
+        "ru": "Держите первый день реалистичным"
+        "uz": "Birinchi kunni real tuting"
+      "description":
+        "en": "A first Bishkek stay feels clearer with one city focus and one outward choice. Keep the center unhurried, then decide whether the next road points to Burana, Ala-Archa, Issyk-Kul, or Manas Airport."
+        "ru": "Первый останов в Бишкеке понятнее, когда в нём есть один городской фокус и одно продолжение. Оставьте центр без спешки, затем решите, куда ведёт следующая дорога: к Буране, Ала-Арче, Иссык-Кулю или аэропорту Манас."
+        "uz": "Bishkekdagi birinchi toʻxtash bitta shahar fokusi va bitta keyingi yoʻl bilan aniqroq boʻladi. Markazni shoshirmang, keyin yoʻl Burana, Ala-Archa, Issiqkoʻl yoki Manas aeroporti tomonga ketishini tanlang."
+      "items":
+        - "title":
+            "en": "Read the city from Ala-Too Square"
+            "ru": "Считывайте город от площади Ала-Тоо"
+            "uz": "Shaharni Ala-Too maydonidan oʻqing"
+          "description":
+            "en": "The central square, museum setting, parks, and government buildings give first-time travelers a quick civic frame."
+            "ru": "Центральная площадь, музейное окружение, парки и государственные здания быстро дают первое понимание столицы."
+            "uz": "Markaziy maydon, muzey atrofi, parklar va davlat binolari mehmonlarga poytaxtni tez anglashga yordam beradi."
+        - "title":
+            "en": "Hear the city at Osh Bazaar"
+            "ru": "Услышьте город на Ошском базаре"
+            "uz": "Oʻsh bozorida shaharni eshiting"
+          "description":
+            "en": "Bread, spices, dry fruit, household goods, and busy lanes make the city feel practical rather than only monumental."
+            "ru": "Хлеб, специи, сухофрукты, хозяйственные ряды и плотное движение делают город практичным, а не только парадным."
+            "uz": "Non, ziravor, quruq meva, kundalik buyumlar va gavjum qatorlar shaharni faqat tantanali emas, amaliy ham qiladi."
+        - "title":
+            "en": "Keep one outward route in mind"
+            "ru": "Держите в плане одно продолжение"
+            "uz": "Bitta davomni yodda tuting"
+          "description":
+            "en": "Burana, Tokmok, Ala-Archa, and Issyk-Kul all ask for different timing, so the first city day should not overpromise."
+            "ru": "Бурана, Токмок, Ала-Арча и Иссык-Куль требуют разного времени, поэтому первый день в столице не должен обещать всё сразу."
+            "uz": "Burana, Toʻqmoq, Ala-Archa va Issiqkoʻl turli vaqt talab qiladi, shuning uchun birinchi kun hammasini vaʼda qilmasligi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nima koʻrish kerak"
+    "title":
+      "en": "Three city stops that explain Bishkek"
+      "ru": "Три городские точки, которые объясняют Бишкек"
+      "uz": "Bishkekni tushuntiradigan uch shahar nuqtasi"
+    "description":
+      "en": "Start with Ala-Too Square, add museum context when its halls are open and useful for the visit, and let Osh Bazaar bring in the capital's food, trade, and daily movement."
+      "ru": "Начните с площади Ала-Тоо, добавьте музейный контекст, когда залы открыты и уместны для визита, и дайте Ошскому базару показать еду, торговлю и ежедневное движение столицы."
+      "uz": "Ala-Too maydonidan boshlang, zallar ochiq va tashrifga mos boʻlsa muzey kontekstini qoʻshing, Oʻsh bozori esa poytaxtning taom, savdo va kundalik harakatini ko‘rsatsin."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/bishkek-and-chuy-foothills/cities/bishkek/attractions/ala-too-square.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Ala-Too Square"
+          "ru": "Площадь Ала-Тоо"
+          "uz": "Ala-Too maydoni"
+        "description":
+          "en": "Ala-Too Square is the broad public room at the center of Bishkek: flags, fountains, formal buildings, the State History Museum nearby, and the Tian Shan line beyond the city when the air is clear. For a first visit, it gives the capital a quick spatial shape before the walk conti"
+          "ru": "Площадь Ала-Тоо — широкое общественное пространство в центре Бишкека: флаги, фонтаны, официальные здания, рядом Государственный исторический музей, а при ясной погоде за городом виден Тянь-Шань. В первый визит она быстро даёт столице форму, а дальше прогулка естественно продолжае"
+          "uz": "Ala-Too maydoni Bishkek markazidagi keng jamoat makoni: bayroqlar, fontanlar, rasmiy binolar, yaqindagi Davlat tarixi muzeyi va havo ochiq paytda shahar ortidagi Tyan-Shan chizigʻi. Birinchi tashrifda u poytaxtni tez anglashga yordam beradi, keyin yurish muzey, park, kafeli koʻch"
+        "ctaHref": "/destinations/kyrgyzstan/bishkek-and-chuy-foothills/bishkek/ala-too-square"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/bishkek-and-chuy-foothills/cities/bishkek/attractions/state-history-museum-bishkek.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "State History Museum of Kyrgyzstan"
+          "ru": "Государственный исторический музей Кыргызстана"
+          "uz": "Qirgʻiziston Davlat tarixi muzeyi"
+        "description":
+          "en": "The State History Museum gives central Bishkek a quieter historical pause after the open space of Ala-Too Square. Treat it as a context stop: when the halls and access are current, it can help explain the country before the route continues toward parks, markets, valleys, lakes, o"
+          "ru": "Государственный исторический музей даёт центральному Бишкеку тихую историческую паузу после открытого пространства площади Ала-Тоо. Это место для контекста: когда актуальные залы и доступ подтверждены, музей помогает понять страну перед продолжением к паркам, рынкам, долинам, озё"
+          "uz": "Davlat tarixi muzeyi Ala-Too maydonining ochiq kengligidan keyin markaziy Bishkekka sokin tarixiy pauza beradi. Bu yer tarixiy mazmun uchun qulay bekat: zallar va kirish holati tasdiqlanganda, muzey mamlakatni parklar, bozorlar, vodiylar, koʻllar yoki janubga ketadigan yoʻl oldid"
+        "ctaHref": "/destinations/kyrgyzstan/bishkek-and-chuy-foothills/bishkek/state-history-museum-bishkek"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/bishkek-and-chuy-foothills/cities/bishkek/attractions/osh-bazaar-bishkek.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Osh Bazaar in Bishkek"
+          "ru": "Ошский базар в Бишкеке"
+          "uz": "Bishkekdagi Oʻsh bozori"
+        "description":
+          "en": "Osh Bazaar is Bishkek at street level: bread and spice rows, dry fruit, fabrics, small trades, sellers calling across counters, and shoppers moving between everyday goods. After Ala-Too Square or the museum, the market gives the city a warmer, busier voice."
+          "ru": "Ошский базар показывает Бишкек на уровне улицы: хлебные и пряные ряды, сухофрукты, ткани, мелкую торговлю, голоса продавцов и покупателей между повседневными товарами. После площади Ала-Тоо или музея рынок даёт городу более тёплый и живой голос."
+          "uz": "Oʻsh bozori Bishkekni ko‘cha darajasida ko‘rsatadi: non va ziravor qatorlari, quruq meva, matolar, mayda savdo, peshtaxtalar ortidan eshitiladigan sotuvchilar ovozi va kundalik buyumlar orasida yurgan xaridorlar. Ala-Too maydoni yoki muzeydan keyin bozor shaharga iliqroq va jonli"
+        "ctaHref": "/destinations/kyrgyzstan/bishkek-and-chuy-foothills/bishkek/osh-bazaar-bishkek"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City rhythm"
+      "ru": "Ритм города"
+      "uz": "Shahar ritmi"
+    "title":
+      "en": "Walks, food, and first mountain choices"
+      "ru": "Прогулки, еда и первые горные решения"
+      "uz": "Sayrlar, taom va birinchi togʻ tanlovlari"
+    "description":
+      "en": "These three moments keep the capital human: a first square walk, a market morning, and one clear choice toward the foothills."
+      "ru": "Эти три момента сохраняют Бишкек живым городом: первая прогулка по площади, рыночное утро и один ясный выбор в сторону предгорий."
+      "uz": "Bu uch lahza poytaxtni tirik shahar sifatida saqlaydi: maydondagi ilk sayr, bozor tongi va etaklar tomonga bitta aniq tanlov."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan/character/bishkek/bishkek-character-1.webp"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Foothill road decision"
+          "ru": "Выбор дороги в предгорья"
+          "uz": "Tog‘oldi yo‘lini tanlash"
+        "description":
+          "en": "After the center, choose one clear outing: Ala-Archa for mountain air, Tokmok and Burana for heritage, or the Chuy road for a longer continuation."
+          "ru": "После центра выберите один понятный выезд: Ала-Арчу ради горного воздуха, Токмок и Бурану ради истории или Чуйскую дорогу для продолжения."
+          "uz": "Markazdan keyin bitta aniq chiqishni tanlang: tog‘ havosi uchun Ala-Archa, tarix uchun To‘qmoq va Burana yoki uzoqroq davom uchun Chuy yo‘li."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Bishkek Osh Bazaar morning"
+          "ru": "Утро на Ошском базаре в Бишкеке"
+          "uz": "Bishkekdagi Osh bozorida tong"
+        "description":
+          "en": "Bread steam, spices, dry fruit, and household stalls show the capital as a lived city before the road turns outward."
+          "ru": "Пар от лепёшек, специи, сухофрукты и хозяйственные ряды показывают живую столицу до выезда за город."
+          "uz": "Non hidi, ziravor, quruq meva va ro‘zg‘or rastalari yo‘l shahardan chiqishidan oldin poytaxtning tirik ritmini ko‘rsatadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan/character/bishkek/bishkek-character-3.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Ala-Too first walk"
+          "ru": "Первая прогулка по Ала-Тоо"
+          "uz": "Ala-Too bo‘ylab birinchi yurish"
+        "description":
+          "en": "Start on Ala-Too Square, where the museum front, flag, fountains, and mountain horizon give Bishkek its first scale."
+          "ru": "Начните с площади Ала-Тоо: музейный фасад, флаг, фонтаны и горный горизонт сразу показывают масштаб Бишкека."
+          "uz": "Ala-Too maydonidan boshlang: muzey fasadi, bayroq, favvoralar va tog‘ ufqi Bishkekning ilk miqyosini ko‘rsatadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "Give the capital enough time to orient the journey"
+      "ru": "Дайте столице время настроить путешествие"
+      "uz": "Poytaxtga safarni tartibga solish uchun vaqt bering"
+    "description":
+      "en": "Bishkek deserves enough time to feel like a capital, not only an airport transfer."
+      "ru": "Бишкеку нужно достаточно времени, чтобы стать столицей в маршруте, а не только аэропортовым транзитом."
+      "uz": "Bishkekga faqat aeroport tranziti emas, poytaxt sifatida sezilish uchun yetarli vaqt kerak."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the center legible"
+              "ru": "Сделайте центр понятным"
+              "uz": "Markazni tushunarli qiling"
+            "description":
+              "en": "Ala-Too Square, the museum setting, parks, and nearby streets give the first city frame without turning the day into a forced march."
+              "ru": "Площадь Ала-Тоо, музейное окружение, парки и соседние улицы дают первый образ столицы без перегруженного маршрута."
+              "uz": "Ala-Too maydoni, muzey atrofi, parklar va yaqin koʻchalar kunni ortiqcha yuklamasdan poytaxtning birinchi obrazini beradi."
+          - "type": "quote"
+            "quote":
+              "en": "Bishkek is strongest when arrival turns into orientation."
+              "ru": "Бишкек сильнее всего, когда приезд превращается в ориентацию."
+              "uz": "Bishkek kelish kuni yoʻnalish olishga aylanganda eng kuchli."
+          - "type": "dashTitle"
+            "title":
+              "en": "Let the market show daily life"
+              "ru": "Пусть рынок покажет повседневную жизнь"
+              "uz": "Bozor kundalik hayotni ko‘rsatsin"
+            "description":
+              "en": "Osh Bazaar matters because food, trade, household stalls, and busy lanes put the capital's everyday energy in one place."
+              "ru": "Ошский базар важен тем, что еда, торговля, хозяйственные ряды и плотное движение собирают повседневную энергию столицы в одном месте."
+              "uz": "Oʻsh bozori muhim, chunki taom, savdo, roʻzgʻor rastalari va gavjum yoʻlaklar poytaxtning kundalik energiyasini bir joyga jamlaydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Choose one outward direction"
+              "ru": "Выберите одно направление дальше"
+              "uz": "Keyingi bitta yoʻnalishni tanlang"
+            "description":
+              "en": "Burana, Ala-Archa, Issyk-Kul, and Manas Airport pull the route in different directions. The route is calmer when the next road is chosen before more city stops are added."
+              "ru": "Бурана, Ала-Арча, Иссык-Куль и аэропорт Манас тянут маршрут в разные стороны. День спокойнее, когда следующая дорога выбрана до того, как в план добавляются новые городские остановки."
+              "uz": "Burana, Ala-Archa, Issiqkoʻl va Manas aeroporti yoʻnalishni turli tomonga tortadi. Keyingi yoʻl yangi shahar toʻxtashlari qoʻshilishidan oldin tanlansa, kun xotirjamroq boʻladi."
+          - "type": "alert"
+            "title":
+              "en": "For the traveler"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Let Bishkek set the pace for Kyrgyzstan: a central walk, a market morning, and a next road chosen with care."
+              "ru": "Пусть Бишкек задаст темп Кыргызстану: центральная прогулка, рыночное утро и следующая дорога, выбранная с запасом."
+              "uz": "Bishkek Qirgʻiziston ritmini belgilasin: markaziy sayr, bozor tongi va ehtiyot bilan tanlangan keyingi yoʻl."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Planning notes Suggested stay"
+                  "ru": "Коротко Сколько времени"
+                  "uz": "Rejalash qaydlari Qancha vaqt"
+                "description":
+                  "en": "One or two nights, depending on arrival time and onward road plans."
+                  "ru": "Одна-две ночи, в зависимости от прилёта и дальнейших дорог."
+                  "uz": "Kelish va keyingi yoʻllarga qarab bir yoki ikki kecha."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main access"
+                  "ru": "Главный доступ"
+                  "uz": "Asosiy kirish"
+                "description":
+                  "en": "Manas International Airport and road links through the Chuy Valley."
+                  "ru": "Международный аэропорт Манас и дороги через Чуйскую долину."
+                  "uz": "Manas xalqaro aeroporti va Chuy vodiysi orqali yoʻllar."
+              - "icon": "Sun"
+                "title":
+                  "en": "Season and pace"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va ritm"
+                "description":
+                  "en": "Spring and autumn are comfortable for city walks; summer days benefit from early starts."
+                  "ru": "Весна и осень комфортны для прогулок; летом лучше начинать раньше."
+                  "uz": "Bahor va kuz sayr uchun qulay; yozda erta boshlash foydali."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqin joylar"
+    "title":
+      "en": "Chuy foothills, lake roads, and the route south"
+      "ru": "Чуйские предгорья, дороги к озеру и маршрут на юг"
+      "uz": "Chuy etaklari, koʻl yoʻllari va janubga yoʻnalish"
+    "description":
+      "en": "Tokmok and Ala-Archa sit close to the capital. Karakol and Osh become the next major route anchors when the itinerary expands."
+      "ru": "Токмок и Ала-Арча находятся рядом со столицей. Каракол и Ош становятся следующими крупными опорами, когда маршрут расширяется."
+      "uz": "Toʻqmoq va Ala-Archa poytaxtga yaqin. Yoʻnalish kengaysa, Qorakoʻl va Oʻsh keyingi yirik tayanchlarga aylanadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/bishkek-next-tokmok.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Tokmok"
+          "ru": "Токмок"
+          "uz": "Toqmoq"
+        "description":
+          "en": "Tokmok gives the road east of Bishkek a clear Chuy Valley anchor: Burana Tower, Balasagun archaeology, open fields, and a route choice before Issyk-Kul or later Silk Road sites."
+          "ru": "Токмок даёт дороге восточнее Бишкека ясный ориентир Чуйской долины: башню Бурану, археологию Баласагуна, открытые поля и выбор перед Иссык-Кулем или более поздними точками Шёлкового пути."
+          "uz": "Toqmoq Bishkekdan sharqqa ketadigan yoʻlga aniq Chuy vodiysi tayanchini beradi: Burana minorasi, Balasagʻun arxeologiyasi, ochiq dalalar va Issiqkoʻl yoki keyingi Ipak yoʻli joylari oldidan yoʻnalish tanlovi."
+        "ctaHref": "/destinations/kyrgyzstan/bishkek-and-chuy-foothills/tokmok"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/bishkek-next-ala-archa.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ala-Archa"
+          "ru": "Ала-Арча"
+          "uz": "Ala-Archa"
+        "description":
+          "en": "Ala-Archa is the national-park area south of Bishkek where the capital route turns toward a river gorge, juniper slopes, snowy ridges, and a walk chosen for current weather."
+          "ru": "Ала-Арча — территория национального парка к югу от Бишкека, где столичный маршрут переходит к речному ущелью, арчовым склонам, снежным гребням и прогулке по погоде."
+          "uz": "Ala-Archa Bishkekdan janubdagi milliy bogʻ hududi bo‘lib, poytaxt yo‘nalishini daryo darasi, archa yonbagʻirlari, qorli qirralar va ob-havoga mos yurish tanloviga olib chiqadi."
+        "ctaHref": "/destinations/kyrgyzstan/bishkek-and-chuy-foothills/ala-archa"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/bishkek-next-karakol.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Karakol"
+          "ru": "Каракол"
+          "uz": "Qorakoʻl"
+        "description":
+          "en": "Karakol anchors eastern Issyk-Kul with Dungan food, timber religious landmarks, guesthouse streets, museum context, and measured choices toward valleys, hot springs, and high trails."
+          "ru": "Каракол держит восточный Иссык-Куль: дунганская еда, деревянные религиозные ориентиры, улицы гостевых домов, музейный контекст и продуманный выбор долин, источников и высоких троп."
+          "uz": "Qorakoʻl sharqiy Issiqkoʻlni ushlab turadi: dungan taomi, yogʻoch diniy moʻljallar, mehmon uylari koʻchalari, muzey konteksti hamda vodiylar, buloqlar va baland soʻqmoqlar sari puxta tanlov."
+        "ctaHref": "/destinations/kyrgyzstan/issyk-kul-and-karakol/karakol"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/bishkek-next-osh.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Osh"
+          "ru": "Ош"
+          "uz": "Oʻsh"
+        "description":
+          "en": "Osh is where Kyrgyzstan turns south: Sulaiman-Too above the city, bazaar lanes below it, and roads toward Uzgen, Alay, Sary-Mogul, and the Fergana edge."
+          "ru": "Ош — место, где Кыргызстан поворачивает на юг: Сулайман-Тоо над городом, базарные ряды у подножия и дороги к Узгену, Алаю, Сары-Моголу и Ферганской долине."
+          "uz": "Oʻshda Qirgʻiziston janubga buriladi: shahar ustida Sulaymon-Too, pastda bozor yoʻlaklari, oldinda esa Oʻzgan, Oloy, Sari-Mogʻol va Fargʻona vodiysi tomonga yoʻllar."
+        "ctaHref": "/destinations/kyrgyzstan/osh-and-southern-silk-road/osh"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Bishkek in the day plan"
+      "ru": "Как поставить Бишкек в план дня"
+      "uz": "Bishkekni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Bishkek?"
+          "ru": "Сколько времени группам стоит проводить в Бишкек?"
+          "uz": "Bishkekda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A capital with mountains at the edge”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Столица с горами у края города»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Shahar chetida togʻlari bor poytaxt»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Bishkek be a walkable core or a base for day trips?"
+          "ru": "Бишкек — это пешеходное ядро или база для выездов?"
+          "uz": "Bishkek piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Bishkek's centre?"
+          "ru": "Где лучше ночевать относительно центра Бишкек?"
+          "uz": "Bishkek markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kyrgyzstan/regions/bishkek-and-chuy-foothills/cities/bishkek.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Bishkek stop into your Kyrgyzstan programme"
+      "ru": "Встройте остановку «Бишкек» в программу (Кыргызстан)"
+      "uz": "Bishkek bekatini Qirgʻiziston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Bishkek | TourLink"
+    "ru": "Бишкек | TourLink"
+    "uz": "Bishkek | TourLink"
+  "metaDescription":
+    "en": "Bishkek gives Kyrgyzstan a calm first frame: Ala-Too Square opens the city, Osh Bazaar adds bread steam and market movement, and the Tian Shan sits close enough to shape the next road."
+    "ru": "Бишкек задаёт Кыргызстану спокойный первый ритм: площадь Ала-Тоо открывает город, Ошский базар добавляет запах лепёшек и рыночное движение, а Тянь-Шань остаётся так близко, что влияет на следующую дорогу."
+    "uz": "Bishkek Qirgʻizistonga xotirjam birinchi ritm beradi: Ala-Too maydoni shaharni ochadi, Oʻsh bozori non hidi va bozor harakatini qoʻshadi, Tyan-Shan esa keyingi yoʻlni belgilaydigan darajada yaqin."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kyrgyzstan"
+"region": "bishkek-and-chuy-foothills"
+"latitude": 42.8761424
+"longitude": 74.6036724

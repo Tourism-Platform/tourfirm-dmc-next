@@ -1,0 +1,563 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "uzunbuloq"
+  "ru": "uzunbuloq"
+  "uz": "uzunbuloq"
+"title":
+  "en": "Uzunbuloq"
+  "ru": "Узунбулок"
+  "uz": "Uzunbuloq"
+"subtitle":
+  "en": "A Gallaorol tourism mahalla where Avliyo shapes a careful village visit"
+  "ru": "Туристическая махалля Галляарала, где Авлиё задаёт спокойный сельский визит"
+  "uz": "Avliyo ziyorat muhiti tashrifni sokinlashtiradigan G‘allaorol turizm mahallasi"
+"excerpt":
+  "en": "Uzunbuloq gives the Zaamin & Jizzakh Mountains route a quieter Gallaorol stop. Start with the Avliyo mahalla and pilgrimage setting, then add a family table, craft room, shopping pause, or photo point only when it feels natural for the date and the people involved."
+  "ru": "Узунбулок добавляет маршруту Заамин и горы Джизака спокойную остановку в Галляарале. Начните с махалли Авлиё и паломнической среды; семейный стол, ремесленную комнату, торговую паузу или место для фотографии добавляйте только тогда, когда это естественно для даты и людей на месте."
+  "uz": "Uzunbuloq Zomin va Jizzax tog‘lari yo‘liga G‘allaorol tomondan sokin bekat qo‘shadi. Avval Avliyo mahallasi va ziyorat muhiti tushuniladi; oilaviy dasturxon, hunar xonasi, savdo yoki rasm nuqtasi esa sana va mahalliy odamlar uchun tabiiy bo‘lganda qo‘shiladi."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Uzunbuloq"
+      "ru": "Узунбулок"
+      "uz": "Uzunbuloq"
+    "title":
+      "en": "Uzunbuloq"
+      "ru": "Узунбулок"
+      "uz": "Uzunbuloq"
+    "description":
+      "en": "A Gallaorol tourism mahalla where Avliyo shapes a careful village visit"
+      "ru": "Туристическая махалля Галляарала, где Авлиё задаёт спокойный сельский визит"
+      "uz": "Avliyo ziyorat muhiti tashrifni sokinlashtiradigan G‘allaorol turizm mahallasi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Uzunbuloq"
+      "ru": "Узунбулок"
+      "uz": "Uzunbuloq"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Uzunbuloq gives the Zaamin & Jizzakh Mountains route a quieter Gallaorol stop."
+              "ru": "Узунбулок добавляет маршруту Заамин и горы Джизака спокойную остановку в Галляарале."
+              "uz": "Uzunbuloq Zomin va Jizzax tog‘lari yo‘liga G‘allaorol tomondan sokin bekat qo‘shadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "The route is clearer when Uzunbuloq is treated as a measured Gallaorol stop between Jizzakh City and the wider mountain-village road. The points below are orientation markers, not addresses for household visits or activities."
+              "ru": "Маршрут понятнее, когда Узунбулок остаётся спокойной галляаральской остановкой между Джизаком и горными сёлами. Точки ниже — ориентиры, а не адреса гостевых домов или мест встречи."
+              "uz": "Uzunbuloq Jizzax shahri va tog‘ qishloqlari orasida sokin G‘allaorol bekati bo‘lganda yo‘l aniqroq ko‘rinadi. Quyidagi nuqtalar orientir, mehmon uy yoki uchrashuv manzili emas."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The route is clearer when Uzunbuloq is treated as a measured Gallaorol stop between Jizzakh City and the wider mountain-village road. The points below are orientation markers, not addresses for household visits or activities."
+              "ru": "Маршрут понятнее, когда Узунбулок остаётся спокойной галляаральской остановкой между Джизаком и горными сёлами. Точки ниже — ориентиры, а не адреса гостевых домов или мест встречи."
+              "uz": "Uzunbuloq Jizzax shahri va tog‘ qishloqlari orasida sokin G‘allaorol bekati bo‘lganda yo‘l aniqroq ko‘rinadi. Quyidagi nuqtalar orientir, mehmon uy yoki uchrashuv manzili emas."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Uzunbuloq as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Узунбулок как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Uzunbuloq o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "How Uzunbuloq fits the Gallaorol road"
+      "ru": "Как Узунбулок вписывается в дорогу Галляарала"
+      "uz": "Uzunbuloq G‘allaorol yo‘liga qanday kiradi"
+    "description":
+      "en": "The route is clearer when Uzunbuloq is treated as a measured Gallaorol stop between Jizzakh City and the wider mountain-village road. The points below are orientation markers, not addresses for household visits or activities."
+      "ru": "Маршрут понятнее, когда Узунбулок остаётся спокойной галляаральской остановкой между Джизаком и горными сёлами. Точки ниже — ориентиры, а не адреса гостевых домов или мест встречи."
+      "uz": "Uzunbuloq Jizzax shahri va tog‘ qishloqlari orasida sokin G‘allaorol bekati bo‘lganda yo‘l aniqroq ko‘rinadi. Quyidagi nuqtalar orientir, mehmon uy yoki uchrashuv manzili emas."
+    "mapPanel":
+      "eyebrow":
+        "en": "Map note"
+        "ru": "Примечание к карте"
+        "uz": "Xarita izohi"
+      "title":
+        "en": "Village marker, not a guesthouse address"
+        "ru": "Ориентир села, не адрес гостевого дома"
+        "uz": "Qishloq orientiri, mehmon uy manzili emas"
+      "description":
+        "en": "The coordinate points to Uzunbuloq as a village anchor; it does not mark a guesthouse, trailhead, parking area, or meeting address."
+        "ru": "Координата указывает на Узунбулок как сельский ориентир; она не заменяет адрес гостевого дома, парковки, тропы или места встречи."
+        "uz": "Koordinata Uzunbuloqni qishloq nuqtasi sifatida ko‘rsatadi; u mehmon uy, avtoturargoh, yo‘lak yoki uchrashuv manzili o‘rnini bosmaydi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.959602
+      "longitude": 67.706397
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "uzunbuloq-avliyo-mahalla-setting"
+      - "entityType": "attraction"
+        "entitySlug": "uzunbuloq-guesthouse-craft-service-setting"
+      - "entityType": "attraction"
+        "entitySlug": "uzunbuloq-saad-ibn-abu-waqqos-pilgrimage-context"
+    "aside":
+      "eyebrow":
+        "en": "Getting around"
+        "ru": "Как перемещаться"
+        "uz": "Qanday yurish"
+      "title":
+        "en": "How Uzunbuloq fits the Gallaorol road"
+        "ru": "Как Узунбулок вписывается в дорогу Галляарала"
+        "uz": "Uzunbuloq G‘allaorol yo‘liga qanday kiradi"
+      "description":
+        "en": "The route is clearer when Uzunbuloq is treated as a measured Gallaorol stop between Jizzakh City and the wider mountain-village road. The points below are orientation markers, not addresses for household visits or activities."
+        "ru": "Маршрут понятнее, когда Узунбулок остаётся спокойной галляаральской остановкой между Джизаком и горными сёлами. Точки ниже — ориентиры, а не адреса гостевых домов или мест встречи."
+        "uz": "Uzunbuloq Jizzax shahri va tog‘ qishloqlari orasida sokin G‘allaorol bekati bo‘lganda yo‘l aniqroq ko‘rinadi. Quyidagi nuqtalar orientir, mehmon uy yoki uchrashuv manzili emas."
+      "items":
+        - "title":
+            "en": "Uzunbuloq is an official tourism mahalla"
+            "ru": "Узунбулок — официальная туристическая махалля"
+            "uz": "Uzunbuloq rasmiy turizm mahallasi"
+          "description":
+            "en": "The place is published as a tourism mahalla in Gallaorol District; the visit still needs to stay modest, respectful, and human in scale."
+            "ru": "Место опубликовано как туристическая махалля Галляаральского района; визит всё равно должен оставаться небольшим, уважительным и человеческим по масштабу."
+            "uz": "Manzil G‘allaorol tumanidagi turizm mahallasi sifatida eʼlon qilingan; tashrif baribir kichik, hurmatli va insoniy miqyosda qolishi kerak."
+          "badge":
+            "en": "Tourism mahalla"
+            "ru": "Туристическая махалля"
+            "uz": "Turizm mahallasi"
+        - "title":
+            "en": "Avliyo shapes the first minutes"
+            "ru": "Авлиё задаёт первые минуты"
+            "uz": "Avliyo birinchi daqiqalarni belgilaydi"
+          "description":
+            "en": "The pilgrimage setting asks for quieter timing, suitable behavior, and guidance from people who know what is appropriate that day."
+            "ru": "Паломническая среда просит более спокойного времени, уместного поведения и подсказки людей, которые знают, что подходит в этот день."
+            "uz": "Ziyorat muhiti sokinroq vaqt, mos xulq va o‘sha kuni nima o‘rinli ekanini biladigan odamlar yo‘l-yo‘rig‘ini talab qiladi."
+          "badge":
+            "en": "Avliyo"
+            "ru": "Авлиё"
+            "uz": "Avliyo"
+        - "title":
+            "en": "The marker is a village point"
+            "ru": "Координата показывает село"
+            "uz": "Koordinata qishloqni ko‘rsatadi"
+          "description":
+            "en": "The coordinate helps read the route; it is not a public address for a house, craft room, parking place, or meeting point."
+            "ru": "Координата помогает читать маршрут; это не публичный адрес дома, ремесленной комнаты, парковки или места встречи."
+            "uz": "Koordinata marshrutni o‘qishga yordam beradi; bu uy, hunar xonasi, avtoturargoh yoki uchrashuvning ommaviy manzili emas."
+          "badge":
+            "en": "Map"
+            "ru": "Ориентир"
+            "uz": "Orientir"
+        - "title":
+            "en": "Add only what fits the day"
+            "ru": "Добавляйте только уместное"
+            "uz": "Faqat mos kelganini qo‘shing"
+          "description":
+            "en": "A family table, craft room, shopping pause, or photo point belongs only when it feels right for the date and useful to the route."
+            "ru": "Семейный стол, ремесленная комната, торговая пауза или точка для фотографии должны подходить дате и ритму маршрута."
+            "uz": "Oilaviy dasturxon, hunar xonasi, savdo yoki rasm nuqtasi sanaga hamda yo‘l ritmiga mos bo‘lsa marshrutga kiradi."
+          "badge":
+            "en": "Village options"
+            "ru": "Сельская часть"
+            "uz": "Qishloq qismi"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What shapes the stop"
+      "ru": "Что задаёт остановку"
+      "uz": "Bekatni nima shakllantiradi"
+    "title":
+      "en": "Avliyo before village additions"
+      "ru": "Сначала Авлиё, затем сельские возможности"
+      "uz": "Avval Avliyo, keyin qishloq imkoniyatlari"
+    "description":
+      "en": "Avliyo, pilgrimage behavior, and modest household or craft options give Uzunbuloq its meaning. Keep the stop respectful and add shopping or photo areas only when they fit the travel dates."
+      "ru": "Авлиё, паломническое поведение и скромные варианты гостеприимства или ремесла дают Узунбулоку смысл. Оставляйте остановку уважительной и добавляйте торговлю или места для фотографии только когда они уместны по датам поездки."
+      "uz": "Avliyo, ziyorat odobi va kamtarona mehmon kutish yoki hunar imkonlari Uzunbuloqning maʼnosini beradi. Savdo yoki rasm nuqtalari safar sanasiga mos bo‘lgandagina qo‘shiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Avliyo mahalla setting"
+          "ru": "Среда махалли Авлиё"
+          "uz": "Avliyo mahallasi muhiti"
+        "description":
+          "en": "Avliyo is the threshold of the Uzunbuloq stop: the place where the visit starts with a village edge, a greeting, and a sense of what belongs there that day. A family table, craft room, meal, shopping pause, or photo point may follow later; the first meaning is respect."
+          "ru": "Авлиё — порог остановки в Узунбулоке: здесь визит начинается с края села, приветствия и понимания, что уместно именно сегодня. Семейный стол, ремесленная комната, питание, торговля или место для фотографии могут появиться позже; первый смысл здесь — уважение."
+          "uz": "Avliyo — Uzunbuloq bekatining ostonasi: tashrif qishloq cheti, birinchi salomlashuv va shu kunga nima mosligini aniqlashdan boshlanadi. Oilaviy dasturxon, hunar xonasi, ovqatlanish, savdo yoki rasm nuqtasi keyin qo‘shilishi mumkin; birinchi maʼno esa hurmat."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/uzunbuloq/uzunbuloq-avliyo-mahalla-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Sa'd ibn Abu Waqqas shrine"
+          "ru": "Зиёратгоҳ Саада ибн Абу Ваккаса"
+          "uz": "Saʼd ibn Abu Vaqqos ziyoratgohi"
+        "description":
+          "en": "Treat the Sa'd ibn Abu Waqqas shrine as the respectful center of the Uzunbuloq visit, not a quick photo stop. Start with the springs, old mosque, and memorial space, then let local etiquette shape how the group stays and moves."
+          "ru": "Относитесь к зиёратгоху Саада ибн Абу Ваккаса как к уважительному центру визита в Узунбулок, а не как к быстрой фото-остановке. Начните с родников, старой мечети и мемориального пространства, а затем позвольте местному этикету определить темп и поведение группы."
+          "uz": "Saʼd ibn Abu Vaqqos ziyoratgohini Uzunbuloq tashrifining hurmatli markazi sifatida ko‘ring; bu shoshilgan surat joyi emas. Avval buloqlar, eski masjid va xotira muhiti bilan tanishing, keyin mahalliy odob guruhning qanday turishi va harakat qilishini belgilasin."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/uzunbuloq/uzunbuloq-saad-ibn-abu-waqqos-pilgrimage-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Family table and craft meeting"
+          "ru": "Семейный стол и ремесленная встреча"
+          "uz": "Oilaviy dasturxon va hunar uchrashuvi"
+        "description":
+          "en": "After Avliyo and the Saʼd ibn Abu Waqqos shrine, Uzunbuloq can become a quieter village meeting: tea at a family table, a maker showing handwork, or one modest local stop if it suits the date. The visit is strongest when the mahalla receives the group at human scale."
+          "ru": "После Авлиё и зиёратгоха Саада ибн Абу Ваккаса Узунбулок может стать спокойной сельской встречей: чай за семейным столом, мастер за работой или одна небольшая местная остановка, если она подходит к дате. Сильнее всего визит получается, когда махалля принимает группу в человеческо"
+          "uz": "Avliyo va Saʼd ibn Abu Vaqqos ziyoratgohidan keyin Uzunbuloq sokin qishloq uchrashuviga aylanishi mumkin: oilaviy dasturxonda choy, ishini ko‘rsatayotgan usta yoki sanaga mos keladigan bitta kichik mahalliy to‘xtash. Tashrif mahalla guruhni insoniy miqyosda qabul qilganda kuchlir"
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/uzunbuloq/uzunbuloq-guesthouse-craft-service-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Village moments"
+      "ru": "Сельские моменты"
+      "uz": "Qishloq lahzalari"
+    "title":
+      "en": "Six ways Uzunbuloq can fit the visit"
+      "ru": "Шесть способов включить Узунбулок в визит"
+      "uz": "Uzunbuloqni tashrifga qo‘shishning olti yo‘li"
+    "description":
+      "en": "These moments are useful when they stay modest and local: a quiet arrival, a family table, a craft room, pilgrimage etiquette, planned photo or shopping areas, and the onward Gallaorol road."
+      "ru": "Эти моменты полезны, когда остаются скромными и местными: спокойный въезд, семейный стол, ремесленная комната, паломнический этикет, места для фотографии или торговли и дальнейшая дорога по Галляаралу."
+      "uz": "Bu lahzalar kamtarona va mahalliy bo‘lsa foydali: sokin kirish, oilaviy dasturxon, hunar xonasi, ziyorat odobi, rasm yoki savdo joylari va G‘allaorol yo‘li."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Arrival near Avliyo"
+          "ru": "Прибытие к Авлиё"
+          "uz": "Avliyo yonida sokin kirish"
+        "description":
+          "en": "Slow the first minutes down: quiet voices, suitable behavior, and guidance from someone who knows what is appropriate that day."
+          "ru": "Первые минуты лучше оставить спокойными: тише говорить, уточнить уместное поведение и дать паломнической среде задать темп."
+          "uz": "Birinchi daqiqalarni sekin o‘tkazing: past ovoz, mos xulq va ziyorat muhitiga yarashadigan vaqt."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Tea at a family table"
+          "ru": "Чай за семейным столом"
+          "uz": "Oilaviy dasturxonda choy"
+        "description":
+          "en": "When the welcome is real, tea or a simple meal turns the stop from a marker on the map into a human visit."
+          "ru": "Когда встреча настоящая, чай или простая еда превращают остановку из точки на карте в живой визит."
+          "uz": "Uchrashuv jonli bo‘lsa, choy yoki oddiy ovqat xaritadagi nuqtani insoniy tashrifga aylantiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Craft room with a maker"
+          "ru": "Ремесло рядом с мастером"
+          "uz": "Usta yonidagi hunar xonasi"
+        "description":
+          "en": "Keep the craft stop small and personal: time for the maker, the object, and the reason it belongs here."
+          "ru": "Оставьте время мастеру, предмету и объяснению, зачем это ремесло показано именно здесь."
+          "uz": "Usta, buyum va uning bu joydagi maʼnosi uchun yetarli vaqt qoldiring."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Pilgrimage etiquette"
+          "ru": "Паломнический этикет"
+          "uz": "Ziyorat odobi"
+        "description":
+          "en": "The Avliyo setting asks for clothing, timing, and behavior that fit a place of respect, not a quick photo stop."
+          "ru": "Среда Авлиё требует одежды, времени и поведения, подходящих для места уважения, а не для быстрой остановки ради фотографии."
+          "uz": "Avliyo muhiti kiyim, vaqt va xulqni hurmatli joyga mos saqlashni so‘raydi; bu shoshilgan rasm bekati emas."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Photo and shopping pause"
+          "ru": "Пауза для фотографии и торговли"
+          "uz": "Rasm va savdo pauzasi"
+        "description":
+          "en": "Use these pauses when they add to the day; otherwise keep the visit focused on the village and Avliyo setting."
+          "ru": "Такая пауза уместна, когда добавляет смысл дню; если нет, оставьте визит вокруг села и Авлиё."
+          "uz": "Bunday pauza kun mazmuniga qo‘shilsa mos; bo‘lmasa, tashrifni qishloq va Avliyo muhiti atrofida tuting."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Gallaorol road continuation"
+          "ru": "Продолжение по Галляаралу"
+          "uz": "G‘allaorol yo‘li davomi"
+        "description":
+          "en": "Continue through Gallaorol when the road plan gives Uzunbuloq enough time, rather than treating it as a quick detour."
+          "ru": "Продолжайте через Галляарал, когда дорога оставляет Узунбулоку достаточно времени, а не превращает его в быстрый объезд."
+          "uz": "Yo‘l Uzunbuloqqa yetarli vaqt qoldirganda G‘allaorol orqali davom etish maʼnoli bo‘ladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "Keep the stop small, respectful, and local"
+      "ru": "Оставьте остановку небольшой, уважительной и местной"
+      "uz": "Bekatni kichik, hurmatli va mahalliy tuting"
+    "description":
+      "en": "Uzunbuloq becomes a useful traveler stop when official tourism-mahalla status, Avliyo, receiving households, and road timing all support the same plan."
+      "ru": "Узунбулок становится понятной остановкой, когда официальный статус туристической махалли, Авлиё, принимающие семьи и дорога складываются в один реалистичный план."
+      "uz": "Uzunbuloq rasmiy turizm mahallasi maqomi, Avliyo muhiti, qabul qiluvchi oilalar va yo‘l vaqti bir reja ichida mos kelganda sayohatchi uchun aniq bekatga aylanadi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Start with Avliyo"
+              "ru": "Начните с Авлиё"
+              "uz": "Avliyodan boshlang"
+            "description":
+              "en": "Let the first minutes be quiet: clothing, behavior, and timing should match the pilgrimage setting."
+              "ru": "Первые минуты должны быть спокойными: одежда, поведение и время визита должны соответствовать паломнической среде."
+              "uz": "Birinchi daqiqalar sokin bo‘lsin: kiyim, xulq va tashrif vaqti ziyorat muhitiga mos kelishi kerak."
+          - "type": "quote"
+            "quote":
+              "en": "Uzunbuloq is strongest when the route gives the mahalla time to stay itself."
+              "ru": "Узунбулок сильнее, когда маршрут даёт махалле время остаться собой."
+              "uz": "Uzunbuloq mahallaga o‘zicha qolish uchun vaqt berilganda kuchliroq."
+          - "type": "dashTitle"
+            "title":
+              "en": "Add the village part carefully"
+              "ru": "Добавляйте сельскую часть аккуратно"
+              "uz": "Qishloq qismini ehtiyotkor qo‘shing"
+            "description":
+              "en": "A family table, craft room, shopping pause, or photo point should feel ready for the date and useful to the route, not added by default."
+              "ru": "Семейный стол, ремесленная комната, торговая пауза или место для фотографии должны быть уместны на дату, а не появляться в маршруте автоматически."
+              "uz": "Oilaviy dasturxon, hunar xonasi, savdo yoki rasm nuqtasi sanaga mos bo‘lsa qo‘shiladi, avtomatik tarzda emas."
+          - "type": "dashTitle"
+            "title":
+              "en": "Give Gallaorol time"
+              "ru": "Дайте Галляаралу время"
+              "uz": "G‘allaorolga vaqt bering"
+            "description":
+              "en": "Uzunbuloq is clearer when the route treats Gallaorol as its own village stop, not as a quick photo detour."
+              "ru": "Узунбулок понятнее, когда маршрут относится к Галляаралу как к отдельной сельской остановке, а не к быстрому фото-заезду."
+              "uz": "Uzunbuloq marshrut G‘allaorolni alohida qishloq bekati sifatida ko‘rganda aniqroq bo‘ladi, shoshilgan foto burilish sifatida emas."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественников"
+              "uz": "Sayohatchilar uchun"
+            "description":
+              "en": "Choose Uzunbuloq for a respectful Gallaorol stop where Avliyo and the village welcome stay small, clear, and date-fit."
+              "ru": "Выбирайте Узунбулок для уважительной остановки в Галляарале, где Авлиё и сельское гостеприимство остаются небольшими, понятными и уместными по дате."
+              "uz": "Uzunbuloqni Avliyo muhiti va qishloq mehmondo‘stligi kichik, aniq va sanaga mos qoladigan hurmatli G‘allaorol bekati sifatida tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Status"
+                  "ru": "Коротко Статус"
+                  "uz": "Qisqacha Maqom"
+                "description":
+                  "en": "Official tourism mahalla in Gallaorol District, Jizzakh Region."
+                  "ru": "Официальная туристическая махалля Галляаральского района Джизакской области."
+                  "uz": "Jizzax viloyati G‘allaorol tumanidagi rasmiy turizm mahallasi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Avliyo setting"
+                  "ru": "Среда Авлиё"
+                  "uz": "Avliyo muhiti"
+                "description":
+                  "en": "Avliyo gives the village a slower, more respectful visit than a nature-only stop."
+                  "ru": "Авлиё задаёт более спокойный и уважительный визит, чем у природной остановки."
+                  "uz": "Avliyo bu bekatni tabiat qishlog‘idan ko‘ra sokinroq va hurmatliroq qiladi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Village additions"
+                  "ru": "Сельская часть"
+                  "uz": "Qishloq qismi"
+                "description":
+                  "en": "A family table, craft room, shopping pause, or photo point should fit the date and the route pace."
+                  "ru": "Семейный стол, ремесло, торговая пауза или место для фотографии должны подходить дате и темпу маршрута."
+                  "uz": "Oilaviy dasturxon, hunar, savdo yoki rasm nuqtasi sana va yo‘l ritmiga mos bo‘lishi kerak."
+              - "icon": "Route"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Marshrut roli"
+                "description":
+                  "en": "A measured Gallaorol stop between Jizzakh City and the mountain-village route."
+                  "ru": "Спокойная остановка в Галляарале между Джизаком и горными сёлами."
+                  "uz": "Jizzax shahri va tog‘ qishloqlari orasidagi sokin G‘allaorol bekati."
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Uzunbuloq in the day plan"
+      "ru": "Как поставить Узунбулок в план дня"
+      "uz": "Uzunbuloqni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Uzunbuloq?"
+          "ru": "Сколько времени группам стоит проводить в Узунбулок?"
+          "uz": "Uzunbuloqda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “A Gallaorol tourism mahalla where Avliyo shapes a careful village visit”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Туристическая махалля Галляарала, где Авлиё задаёт спокойный сельский визит»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Avliyo ziyorat muhiti tashrifni sokinlashtiradigan G‘allaorol turizm mahallasi»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Uzunbuloq be a walkable core or a base for day trips?"
+          "ru": "Узунбулок — это пешеходное ядро или база для выездов?"
+          "uz": "Uzunbuloq piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Uzunbuloq's centre?"
+          "ru": "Где лучше ночевать относительно центра Узунбулок?"
+          "uz": "Uzunbuloq markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Uzunbuloq stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Узунбулок» в программу (Узбекистан)"
+      "uz": "Uzunbuloq bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Uzunbuloq | TourLink"
+    "ru": "Узунбулок | TourLink"
+    "uz": "Uzunbuloq | TourLink"
+  "metaDescription":
+    "en": "Uzunbuloq gives the Zaamin & Jizzakh Mountains route a quieter Gallaorol stop. Start with the Avliyo mahalla and pilgrimage setting, then add a family table, craft room, shopping pause, or photo point only when it feels natural for the date and the people involved."
+    "ru": "Узунбулок добавляет маршруту Заамин и горы Джизака спокойную остановку в Галляарале. Начните с махалли Авлиё и паломнической среды; семейный стол, ремесленную комнату, торговую паузу или место для фотографии добавляйте только тогда, когда это естественно для даты и людей на месте."
+    "uz": "Uzunbuloq Zomin va Jizzax tog‘lari yo‘liga G‘allaorol tomondan sokin bekat qo‘shadi. Avval Avliyo mahallasi va ziyorat muhiti tushuniladi; oilaviy dasturxon, hunar xonasi, savdo yoki rasm nuqtasi esa sana va mahalliy odamlar uchun tabiiy bo‘lganda qo‘shiladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "zaamin-and-jizzakh-mountains"
+"latitude": 39.9272686
+"longitude": 67.6962452

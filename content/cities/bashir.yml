@@ -1,0 +1,604 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "bashir"
+  "ru": "bashir"
+  "uz": "bashir"
+"title":
+  "en": "Hazrat Bashir"
+  "ru": "Хазрат Башир"
+  "uz": "Hazrati Bashir"
+"subtitle":
+  "en": "A Kitob foothill village of pilgrimage, water, and family welcome"
+  "ru": "Зиаратное село в предгорьях Китаба: вода, тень и семейный прием"
+  "uz": "Kitob tog‘oldilaridagi ziyorat, suv va oilaviy mehmonnavozlik qishlog‘i"
+"excerpt":
+  "en": "The road to Hazrat Bashir leaves the Timurid scale of Shakhrisabz and Kitab for a quieter foothill rhythm. Travelers come for the sacred context, water runs near old plane trees, and family guesthouses make the village a place to enter with care rather than hurry through."
+  "ru": "Дорога к Хазрат Баширу уводит от тимуридского масштаба Шахрисабза и Китаба к более тихому предгорному ритму. Сюда приезжают ради зиаратного контекста; рядом с чинарами слышна вода, а семейные гостевые дома делают село местом, куда входят бережно, а не проезжают наскоро."
+  "uz": "Hazrati Bashirga boradigan yo‘l Shahrisabz va Kitobdagi temuriy kenglikdan sokinroq tog‘oldi surʼatiga o‘tadi. Bu yerga ziyorat maʼnosi uchun kelishadi; eski chinorlar yonida suv ovozi eshitiladi, oilaviy mehmon uylari esa qishloqqa shoshmasdan, hurmat bilan kirishni talab qiladi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/bashir.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/bashir.webp"
+    "imageAlt":
+      "en": "Hazrat Bashir"
+      "ru": "Хазрат Башир"
+      "uz": "Hazrati Bashir"
+    "title":
+      "en": "Hazrat Bashir"
+      "ru": "Хазрат Башир"
+      "uz": "Hazrati Bashir"
+    "description":
+      "en": "A Kitob foothill village of pilgrimage, water, and family welcome"
+      "ru": "Зиаратное село в предгорьях Китаба: вода, тень и семейный прием"
+      "uz": "Kitob tog‘oldilaridagi ziyorat, suv va oilaviy mehmonnavozlik qishlog‘i"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Hazrat Bashir"
+      "ru": "Хазрат Башир"
+      "uz": "Hazrati Bashir"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "The road to Hazrat Bashir leaves the Timurid scale of Shakhrisabz and Kitab for a quieter foothill rhythm."
+              "ru": "Дорога к Хазрат Баширу уводит от тимуридского масштаба Шахрисабза и Китаба к более тихому предгорному ритму."
+              "uz": "Hazrati Bashirga boradigan yo‘l Shahrisabz va Kitobdagi temuriy kenglikdan sokinroq tog‘oldi surʼatiga o‘tadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Come to Bashir as a slower continuation from Shakhrisabz or Kitab: first the heritage road, then the foothill turn, then a village pause shaped by the sacred place, water, and family hospitality."
+              "ru": "К Баширу лучше подходить как к спокойному продолжению после Шахрисабза или Китаба: сначала наследие, затем предгорный поворот, затем сельская пауза со святыней, водой и семейным приемом."
+              "uz": "Bashirga Shahrisabz yoki Kitobdan keyingi sokin davom sifatida yondashing: avval meros yo‘li, keyin tog‘oldi burilishi, so‘ng ziyorat, suv va oilaviy mehmonnavozlik bilan qishloq pauzasi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Bashir fits the route when the day can stay quiet enough for the shrine, water, shade, and family welcome."
+              "ru": "Башир стоит добавлять в маршрут, когда день может остаться достаточно спокойным для святыни, воды, тени и семейного приема."
+              "uz": "Bashir ziyorat, suv, soya va oilaviy qabul uchun kun yetarlicha sokin bo‘lganda yo‘lga mos tushadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Hazrat Bashir as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Хазрат Башир как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Hazrati Bashir o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "Bashir on the Shakhrisabz and Kitab foothill road"
+      "ru": "Башир на дороге Шахрисабз - Китаб"
+      "uz": "Bashir Shahrisabz - Kitob tog‘oldi yo‘lida"
+    "description":
+      "en": "Come to Bashir as a slower continuation from Shakhrisabz or Kitab: first the heritage road, then the foothill turn, then a village pause shaped by the sacred place, water, and family hospitality."
+      "ru": "К Баширу лучше подходить как к спокойному продолжению после Шахрисабза или Китаба: сначала наследие, затем предгорный поворот, затем сельская пауза со святыней, водой и семейным приемом."
+      "uz": "Bashirga Shahrisabz yoki Kitobdan keyingi sokin davom sifatida yondashing: avval meros yo‘li, keyin tog‘oldi burilishi, so‘ng ziyorat, suv va oilaviy mehmonnavozlik bilan qishloq pauzasi."
+    "mapPanel":
+      "eyebrow":
+        "en": "On the map"
+        "ru": "На карте"
+        "uz": "Xaritada"
+      "title":
+        "en": "Hazrat Bashir in Kitob District"
+        "ru": "Хазрат Башир в Китабском районе"
+        "uz": "Hazrati Bashir Kitob tumanida"
+      "description":
+        "en": "The map shows the village position; the shrine approach, walk, and meeting place are set for the visit."
+        "ru": "Карта показывает положение села; подход к святыне, прогулка и место встречи определяются под визит."
+        "uz": "Xarita qishloq joylashuvini ko‘rsatadi; ziyorat joyiga yondashuv, yurish va uchrashuv joyi tashrifga qarab belgilanadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.147305
+      "longitude": 66.934388
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "bashir-qashqadaryo-river-spring-setting"
+      - "entityType": "attraction"
+        "entitySlug": "bashir-village-guesthouse-setting"
+      - "entityType": "attraction"
+        "entitySlug": "hazrat-bashir-shrine-courtyard"
+    "aside":
+      "eyebrow":
+        "en": "Route fit"
+        "ru": "Логика маршрута"
+        "uz": "Yo‘l mantiqi"
+      "title":
+        "en": "Shakhrisabz, Kitab, then Bashir"
+        "ru": "Шахрисабз, Китаб, затем Башир"
+        "uz": "Shahrisabz, Kitob, keyin Bashir"
+      "description":
+        "en": "Bashir fits the route when the day can stay quiet enough for the shrine, water, shade, and family welcome."
+        "ru": "Башир стоит добавлять в маршрут, когда день может остаться достаточно спокойным для святыни, воды, тени и семейного приема."
+        "uz": "Bashir ziyorat, suv, soya va oilaviy qabul uchun kun yetarlicha sokin bo‘lganda yo‘lga mos tushadi."
+      "items":
+        - "title":
+            "en": "Bashir is the quiet village pause"
+            "ru": "Башир - тихая сельская пауза"
+            "uz": "Bashir - sokin qishloq pauzasi"
+          "description":
+            "en": "Shrine context, water, old trees, and family welcome make sense when the visit leaves room to enter respectfully."
+            "ru": "Зиаратный контекст, вода, старые деревья и семейный прием раскрываются, когда визиту оставляют время войти спокойно."
+            "uz": "Ziyorat maʼnosi, suv, eski daraxtlar va oilaviy qabul tashrifga shoshilmasdan kirilganda ochiladi."
+          "badge":
+            "en": "tourism village"
+            "ru": "туристическое село"
+            "uz": "turizm qishlog‘i"
+        - "title":
+            "en": "Kitab turns the road toward the foothills"
+            "ru": "Китаб поворачивает дорогу к предгорьям"
+            "uz": "Kitob yo‘lni tog‘oldiga buradi"
+          "description":
+            "en": "Kitab is the practical turn toward Bashir and Qaynar, where the route shifts from city heritage to village terrain."
+            "ru": "Через Китаб маршрут уходит к Баширу и Кайнару, меняя городское наследие на сельский рельеф."
+            "uz": "Kitob orqali yo‘l Bashir va Qaynar tomonga o‘tib, shahar merosidan qishloq relyefiga almashadi."
+          "badge":
+            "en": "foothill road"
+            "ru": "предгорная дорога"
+            "uz": "tog‘oldi yo‘li"
+        - "title":
+            "en": "Shakhrisabz gives the route its frame"
+            "ru": "Шахрисабз задает масштаб маршрута"
+            "uz": "Shahrisabz yo‘lga kenglik beradi"
+          "description":
+            "en": "Ak-Saray and the historic center place Bashir inside the wider Kashkadarya story before the road narrows toward the mountains."
+            "ru": "Ак-Сарай и исторический центр связывают Башир с историей Кашкадарьи до того, как дорога сужается к горам."
+            "uz": "Ak-Saroy va tarixiy markaz Bashirni tog‘larga torayadigan yo‘ldan oldin Qashqadaryo hikoyasiga bog‘laydi."
+          "badge":
+            "en": "heritage before foothills"
+            "ru": "наследие перед предгорьями"
+            "uz": "tog‘oldidan oldingi meros"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Shrine, water, and village welcome"
+      "ru": "Святыня, вода и сельский прием"
+      "uz": "Ziyorat, suv va qishloq mehmonnavozligi"
+    "description":
+      "en": "The strongest Bashir stops are close together in meaning: the sacred place, the river-and-spring shade, and the family guesthouse setting."
+      "ru": "Главные остановки Башира близки по смыслу: зиаратное место, речная и родниковая тень, семейный гостевой формат."
+      "uz": "Bashirdagi asosiy to‘xtashlar maʼno jihatidan yaqin: ziyorat joyi, daryo va buloq soyasi, oilaviy mehmon uyi muhiti."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Hazrat Bashir Pilgrimage Place"
+          "ru": "Зиаратное место Хазрат Башир"
+          "uz": "Hazrati Bashir ziyorat joyi"
+        "description":
+          "en": "The sacred place is the first reason to slow down in Bashir. Treat it as a living pilgrimage setting: ask before photographing, follow local etiquette, and keep the visit quieter than the road might suggest."
+          "ru": "Святыня - первая причина замедлиться в Башире. Относитесь к ней как к живому зиаратному месту: спрашивайте перед съемкой, следуйте местному этикету и держите визит спокойнее, чем диктует дорожный график."
+          "uz": "Ziyorat joyi Bashirda sekinlashishning birinchi sababidir. Uni tirik ziyorat maskani sifatida ko‘ring: suratdan oldin so‘rang, mahalliy odobga amal qiling va tashrifni yo‘l jadvalidan sokinroq tuting."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/bashir/hazrat-bashir-shrine-courtyard"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Bashir River and Qorabuloq Spring"
+          "ru": "Река и родник Корабулок в Башире"
+          "uz": "Bashir daryosi va Qorabuloq bulog‘i"
+        "description":
+          "en": "The water around Bashir is context, not a cure claim. It gives the village sound, shade, and a reason to pause between the sacred place, family welcome, and the foothill road."
+          "ru": "Вода вокруг Башира - это контекст, а не лечебное обещание. Она дает селу звук, тень и повод сделать паузу между святыней, семейным приемом и предгорной дорогой."
+          "uz": "Bashir atrofidagi suv shifo vaʼdasi emas, qishloq konteksti. U qishloqqa ovoz, soya va ziyorat joyi, oilaviy qabul hamda tog‘oldi yo‘li orasida pauza beradi."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/bashir/bashir-qashqadaryo-river-spring-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Bashir Family Guesthouse Setting"
+          "ru": "Семейный гостевой формат Башира"
+          "uz": "Bashir oilaviy mehmon uylari muhiti"
+        "description":
+          "en": "The family guesthouse side of Bashir matters because it brings people into the route. Tea, bread, a home meal, courtyard time, or an overnight stay should feel mutual, respectful, and scaled to the village."
+          "ru": "Семейная гостевая сторона Башира важна потому, что возвращает людей в маршрут. Чай, хлеб, домашняя еда, время во дворе или ночевка должны ощущаться взаимно, уважительно и в масштабе села."
+          "uz": "Bashirning oilaviy mehmon uyi tomoni yo‘lga odamlarni qaytaradi. Choy, non, uy ovqati, hovlidagi vaqt yoki tunash ikki tomonlama, hurmatli va qishloq miqyosida bo‘lishi lozim."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/bashir/bashir-village-guesthouse-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Village rhythm"
+      "ru": "Ритм села"
+      "uz": "Qishloq surʼati"
+    "title":
+      "en": "Six ways Bashir slows the route"
+      "ru": "Шесть способов замедлиться в Башире"
+      "uz": "Bashirda sekinlashishning olti yo‘li"
+    "description":
+      "en": "Respectful pilgrimage, spring shade, the family table, a short lane walk, craft or food welcome, and the final foothill approach keep Bashir useful without making the visit feel procedural."
+      "ru": "Бережный зиарат, родниковая тень, семейный стол, короткая прогулка, ремесло или еда и последний предгорный подъезд сохраняют Башир живым, а не чек-листовым."
+      "uz": "Ehtiyotkor ziyorat, buloq soyasi, oilaviy dasturxon, qisqa qishloq yurishi, hunar yoki taom va oxirgi tog‘oldi yo‘li Bashirni chek-list emas, tirik qishloq sifatida ushlab turadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Shrine visit with quiet etiquette"
+          "ru": "Зиарат с тихим этикетом"
+          "uz": "Sokin odob bilan ziyorat"
+        "description":
+          "en": "Arrive with modest dress, a quiet voice, and guidance on photography so the sacred context stays central."
+          "ru": "Приходите в скромной одежде, говорите тише и уточняйте съемку, чтобы главным оставался зиаратный смысл."
+          "uz": "Kamtar kiyim, past ovoz va surat bo‘yicha yo‘l-yo‘riq muqaddas maʼnoni markazda qoldiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Qorabuloq shade and river sound"
+          "ru": "Тень Корабулока и шум реки"
+          "uz": "Qorabuloq soyasi va daryo ovozi"
+        "description":
+          "en": "A pause by the spring and old trees lets the foothill road fall quiet before the village table or the return to Kitab."
+          "ru": "Пауза у родника и старых деревьев делает предгорную дорогу тише перед сельским столом или возвращением к Китабу."
+          "uz": "Buloq va eski daraxtlar yonidagi pauza qishloq dasturxoni yoki Kitobga qaytishdan oldin yo‘lni sokinlashtiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Family guesthouse table"
+          "ru": "Семейный гостевой стол"
+          "uz": "Oilaviy mehmon dasturxoni"
+        "description":
+          "en": "Tea, bread, and a home meal turn Bashir into a human stop when the family is ready to receive guests."
+          "ru": "Чай, хлеб и домашняя еда делают Башир человеческой остановкой, когда семья готова принять гостей."
+          "uz": "Choy, non va uy ovqati oila mehmon kutishga tayyor bo‘lganda Bashirni insoniy bekatga aylantiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Short village walk"
+          "ru": "Короткая прогулка по селу"
+          "uz": "Qisqa qishloq yurishi"
+        "description":
+          "en": "Move between homes, water, and shade at village pace; the walk stays modest, respectful, and close to local guidance."
+          "ru": "Идите между домами, водой и тенью в сельском темпе; прогулка остается скромной, уважительной и с местной подсказкой."
+          "uz": "Uylar, suv va soya orasida qishloq surʼatida yuring; yurish kamtar, hurmatli va mahalliy yo‘l-yo‘riqqa yaqin bo‘lsin."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Craft and food welcome"
+          "ru": "Ремесло и еда при готовом приеме"
+          "uz": "Hunar va taomli kutib olish"
+        "description":
+          "en": "Local food, craft, or a small cultural welcome adds people to the pilgrimage story when the family or community is ready."
+          "ru": "Местная еда, ремесло или небольшая встреча добавляют людей к зиаратной истории, когда семья или сообщество готовы."
+          "uz": "Mahalliy taom, hunar yoki kichik madaniy kutib olish oila yoki jamoa tayyor bo‘lganda ziyorat hikoyasiga odamlarni qo‘shadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Kitob foothill approach"
+          "ru": "Предгорный подъезд через Китаб"
+          "uz": "Kitob tog‘oldi yo‘li"
+        "description":
+          "en": "The road from Shakhrisabz and Kitab is part of the feeling: heritage gives way to foothill villages, water, and shade."
+          "ru": "Дорога от Шахрисабза и Китаба - часть ощущения: наследие уступает место предгорным селам, воде и тени."
+          "uz": "Shahrisabz va Kitobdan keladigan yo‘l ham hissiyotning bir qismi: meros o‘rnini tog‘oldi qishloqlari, suv va soya egallaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "Let the village set the pace"
+      "ru": "Дайте селу задать темп"
+      "uz": "Qishloq surʼatini qishloq belgilasin"
+    "description":
+      "en": "Bashir is strongest when the sacred place, water, shade, and family welcome stay in balance."
+      "ru": "Башир сильнее всего, когда святыня, вода, тень и семейный прием остаются в равновесии."
+      "uz": "Bashir ziyorat, suv, soya va oilaviy qabul muvozanatda qolganida kuchliroq."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "At the sacred place"
+              "ru": "У святыни"
+              "uz": "Ziyorat joyida"
+            "description":
+              "en": "Dress, photography, prayer moments, and group movement should follow local guidance, so the sacred setting stays central."
+              "ru": "Одежда, съемка, моменты молитвы и движение группы идут через местное объяснение, чтобы священный контекст оставался главным."
+              "uz": "Kiyim, surat, ibodat paytlari va guruh harakati mahalliy tushuntirish bilan borsa, muqaddas maʼno markazda qoladi."
+          - "type": "quote"
+            "quote":
+              "en": "Arrive quietly, listen for the water, and let Bashir stay a village rather than a stop to tick off."
+              "ru": "Войдите тихо, прислушайтесь к воде и позвольте Баширу остаться селом, а не пунктом для галочки."
+              "uz": "Sokin kiring, suv ovozini tinglang va Bashir ro‘yxatdagi belgi emas, qishloq bo‘lib qolsin."
+          - "type": "dashTitle"
+            "title":
+              "en": "Water and plane-tree shade"
+              "ru": "Вода и тень чинар"
+              "uz": "Suv va chinor soyasi"
+            "description":
+              "en": "River sound, Qorabuloq context, and old trees give the route its pause; keep this part quiet and claim-free."
+              "ru": "Шум реки, Корабулок и старые деревья дают маршруту паузу; здесь важны тишина и отсутствие лечебных обещаний."
+              "uz": "Daryo ovozi, Qorabuloq va eski daraxtlar yo‘lga pauza beradi; bu yerda sokinlik va sog‘liq vaʼdasisiz hikoya muhim."
+          - "type": "dashTitle"
+            "title":
+              "en": "Family welcome"
+              "ru": "Семейный прием"
+              "uz": "Oilaviy qabul"
+            "description":
+              "en": "A meal, tea, or overnight stay belongs here when the family is ready and the visit can stay respectful."
+              "ru": "Обед, чай или ночевка уместны тогда, когда семья готова принять гостей и визит остается уважительным."
+              "uz": "Ovqat, choy yoki tunash oila tayyor bo‘lganda va tashrif hurmatli qolganida mos keladi."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchilar uchun"
+            "description":
+              "en": "Choose Bashir when you want the Kashkadarya route to become quieter: a respectful pilgrimage setting, river shade, and a village table below the Kitob foothills."
+              "ru": "Выбирайте Башир, когда маршруту по Кашкадарье нужна тишина: зиарат, речная тень и сельский стол в предгорьях Китаба."
+              "uz": "Qashqadaryo yo‘liga sokinlik kerak bo‘lsa, Bashirni tanlang: ziyorat, daryo soyasi va Kitob tog‘oldilaridagi qishloq dasturxoni."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before you go Official status"
+                  "ru": "Перед поездкой Официальный статус"
+                  "uz": "Safardan oldin Rasmiy maqom"
+                "description":
+                  "en": "Bashir received tourism-village status in 2025 along with nearby Qaynar."
+                  "ru": "Башир получил статус туристического села в 2025 году вместе с соседним Кайнаром."
+                  "uz": "Bashir 2025 yilda yaqin Qaynar bilan birga turizm qishlog‘i maqomini olgan."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main draw"
+                  "ru": "Главное притяжение"
+                  "uz": "Asosiy sabab"
+                "description":
+                  "en": "Pilgrimage context, Qashqadaryo water, Qorabuloq spring shade, and a family guesthouse table."
+                  "ru": "Зиаратный контекст, вода Кашкадарьи, тень Корабулока и семейный гостевой стол."
+                  "uz": "Ziyorat maʼnosi, Qashqadaryo suvi, Qorabuloq soyasi va oilaviy mehmon dasturxoni."
+              - "icon": "Sun"
+                "title":
+                  "en": "Visit shape"
+                  "ru": "Формат визита"
+                  "uz": "Tashrif shakli"
+                "description":
+                  "en": "A respectful pilgrimage stop, a short water-and-shade walk, a meal, or an overnight stay in the Kitob foothills."
+                  "ru": "Бережный зиарат, короткая прогулка у воды и тени, обед или ночевка в предгорьях Китаба."
+                  "uz": "Hurmatli ziyorat, suv va soya bo‘ylab qisqa yurish, ovqat yoki Kitob tog‘oldilarida tunash."
+              - "icon": "Route"
+                "title":
+                  "en": "Local rhythm"
+                  "ru": "Местный ритм"
+                  "uz": "Mahalliy surʼat"
+                "description":
+                  "en": "Etiquette, family welcome, weather, and the final approach are shaped close to travel."
+                  "ru": "Этикет, семейный прием, погода и финальный подъезд складываются ближе к поездке."
+                  "uz": "Odob, oilaviy qabul, ob-havo va oxirgi yo‘l safarga yaqin shakllanadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby route stops"
+      "ru": "Близкие остановки"
+      "uz": "Yaqin bekatlar"
+    "title":
+      "en": "Shakhrisabz and Qarshi around Bashir"
+      "ru": "Шахрисабз и Карши вокруг Башира"
+      "uz": "Bashir atrofida Shahrisabz va Qarshi"
+    "description":
+      "en": "Shakhrisabz gives the heritage scale before the foothill road; Qarshi keeps the Bashir pause connected to the wider Kashkadarya route."
+      "ru": "Шахрисабз дает масштаб наследия перед предгорной дорогой; Карши возвращает Башир к широкому маршруту по Кашкадарье."
+      "uz": "Shahrisabz tog‘oldi yo‘lidan oldin meros kengligini beradi; Qarshi Bashir pauzasini kengroq Qashqadaryo yo‘liga qaytaradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/bashir-next-shakhrisabz.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Shakhrisabz"
+          "ru": "Шахрисабз"
+          "uz": "Shahrisabz"
+        "description":
+          "en": "Shakhrisabz adds a southern Timurid chapter to Uzbekistan routes: Ak-Saray, Dorut Tilovat, Kok Gumbaz, Dorus-Saodat, Chorsu, museums, and roads toward Kitab and the foothills."
+          "ru": "Шахрисабз добавляет маршруту по Узбекистану южную темуридскую главу: Ак-Сарай, Дорут-Тиловат, Кок-Гумбаз, Дорус-Саодат, Чорсу, музеи и дороги к Китабу и предгорьям."
+          "uz": "Shahrisabz O‘zbekiston yo‘nalishiga janubiy temuriy bob qo‘shadi: Ak-Saroy, Dorut Tilovat, Ko‘k Gumbaz, Dorus-Saodat, Chorsu, muzeylar va Kitob hamda tog‘oldi yo‘llari."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/shakhrisabz"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/bashir-next-qarshi.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Qarshi"
+          "ru": "Карши"
+          "uz": "Qarshi"
+        "description":
+          "en": "Qarshi gives Kashkadarya a working city stop after Shakhrisabz: old bridge arches, mosque courtyards, water heritage, market food, and roads toward Kitab."
+          "ru": "После Шахрисабза Карши даёт Кашкадарье живую городскую остановку: арки старого моста, дворы мечетей, водное наследие, еду на рынке и дороги к Китабу."
+          "uz": "Shahrisabzdan keyin Qarshi Qashqadaryoga jonli shahar bekatini qo‘shadi: eski ko‘prik arkalari, masjid hovlilari, suv merosi, bozor taomi va Kitob tomonga yo‘llar."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/qarshi"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Hazrat Bashir in the day plan"
+      "ru": "Как поставить Хазрат Башир в план дня"
+      "uz": "Hazrati Bashirni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Hazrat Bashir?"
+          "ru": "Сколько времени группам стоит проводить в Хазрат Башир?"
+          "uz": "Hazrati Bashirda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A Kitob foothill village of pilgrimage, water, and family welcome”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Зиаратное село в предгорьях Китаба: вода, тень и семейный прием»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Kitob tog‘oldilaridagi ziyorat, suv va oilaviy mehmonnavozlik qishlog‘i»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Hazrat Bashir be a walkable core or a base for day trips?"
+          "ru": "Хазрат Башир — это пешеходное ядро или база для выездов?"
+          "uz": "Hazrati Bashir piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Hazrat Bashir's centre?"
+          "ru": "Где лучше ночевать относительно центра Хазрат Башир?"
+          "uz": "Hazrati Bashir markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/bashir.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Hazrat Bashir stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Хазрат Башир» в программу (Узбекистан)"
+      "uz": "Hazrati Bashir bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Hazrat Bashir | TourLink"
+    "ru": "Хазрат Башир | TourLink"
+    "uz": "Hazrati Bashir | TourLink"
+  "metaDescription":
+    "en": "The road to Hazrat Bashir leaves the Timurid scale of Shakhrisabz and Kitab for a quieter foothill rhythm. Travelers come for the sacred context, water runs near old plane trees, and family guesthouses make the village a place to enter with care rather than hurry through."
+    "ru": "Дорога к Хазрат Баширу уводит от тимуридского масштаба Шахрисабза и Китаба к более тихому предгорному ритму. Сюда приезжают ради зиаратного контекста; рядом с чинарами слышна вода, а семейные гостевые дома делают село местом, куда входят бережно, а не проезжают наскоро."
+    "uz": "Hazrati Bashirga boradigan yo‘l Shahrisabz va Kitobdagi temuriy kenglikdan sokinroq tog‘oldi surʼatiga o‘tadi. Bu yerga ziyorat maʼnosi uchun kelishadi; eski chinorlar yonida suv ovozi eshitiladi, oilaviy mehmon uylari esa qishloqqa shoshmasdan, hurmat bilan kirishni talab qiladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "kashkadarya-and-shakhrisabz"
+"latitude": 39.2713718
+"longitude": 67.1016734

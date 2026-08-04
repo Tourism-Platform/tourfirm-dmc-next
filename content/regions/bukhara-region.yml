@@ -1,110 +1,519 @@
-# Seed: regions — Bukhara Region (from OLD DB regions/bukhara)
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "bukhara-region"
+  "ru": "bukhara-region"
+  "uz": "bukhara-region"
+"title":
+  "en": "Bukhara"
+  "ru": "Бухара"
+  "uz": "Buxoro"
+"subtitle":
+  "en": "Old city, craft towns, and the road to Khiva"
+  "ru": "Старый город, ремесленные остановки и дорога к Хиве"
+  "uz": "Eski shahar, hunarmandchilik bekatlari va Xiva yoʻli"
+"excerpt":
+  "en": "For travelers, Bukhara region starts in the old city: Lyabi-Hauz, the trading domes, Poi-Kalyan, and the Ark sit close enough for a first day on foot. From there the route can continue to Gijduvan ceramics, Vabkent, the Seven Pirs, Sitorai Mokhi-Khosa, Chor-Bakr, Bahauddin Naqshband, Varakhsha, Paikend, Jeyran, Kagan, and the road to Khiva."
+  "ru": "Для путешественника Бухарский регион начинается со старого города: Ляби-Хауз, торговые купола, Пои-Калян и Арк стоят достаточно близко, чтобы первый день проходил пешком. Дальше маршрут может продолжиться к гиждуванской керамике, Вабкенту, Семи пирам, Ситораи Мохи-Хоса, Чор-Бакру, Бахауддину Накшбанду, Варахше, Пайкенду, Джейрану, Кагану и дороге на Хиву."
+  "uz": "Sayohatchi uchun Buxoro hududi eski shahardan boshlanadi: Labi Hovuz, savdo gumbazlari, Poyi Kalon va Ark birinchi kunni piyoda o‘tkazishga yetarlicha yaqin. Keyin yo‘l Gʻijduvon keramikasi, Vobkent, Yetti Pir, Sitorai Mohi-Xosa, Chor Bakr, Bahouddin Naqshband, Varaxsha, Poykend, Jayron, Kogon va Xiva tomonga davom etishi mumkin."
+"heroImage": "assets/images/destinations/uzbekistan/regions/bukhara-region.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/bukhara-region.webp"
+    "imageAlt":
+      "en": "Bukhara"
+      "ru": "Бухара"
+      "uz": "Buxoro"
+    "title":
+      "en": "Bukhara"
+      "ru": "Бухара"
+      "uz": "Buxoro"
+    "description":
+      "en": "Old city, craft towns, and the road to Khiva"
+      "ru": "Старый город, ремесленные остановки и дорога к Хиве"
+      "uz": "Eski shahar, hunarmandchilik bekatlari va Xiva yoʻli"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
 
-slug:
-  en: bukhara-region
-  ru: bukhara-region
-  uz: bukhara-region
-title:
-  en: Bukhara Region
-  ru: Бухарская область
-  uz: Buxoro viloyati
-subtitle:
-  en: Old-town atmosphere
-  ru: Атмосфера старого города
-  uz: Qadimiy shahar muhiti
-excerpt:
-  en: A living museum of domes, madrasas and covered bazaars.
-  ru: Живой музей куполов, медресе и крытых базаров.
-  uz: Gumbazlar, madrasalar va yopiq bozorlarning jonli muzeyi.
-country: uzbekistan
-mapCenter:
-  latitude: 39.7681
-  longitude: 64.4556
-heroImage: assets/images/city/bukhara.jpg
-blocks:
-  - blockType: hero
-    image: assets/images/city/bukhara.jpg
-    imageAlt:
-      en: Bukhara old town
-      ru: Старый город Бухары
-      uz: Buxoro qadimiy shahar
-    title:
-      en: Bukhara Region
-      ru: Бухарская область
-      uz: Buxoro viloyati
-    description:
-      en: A living museum of domes, madrasas and covered bazaars.
-      ru: Живой музей куполов, медресе и крытых базаров.
-      uz: Gumbazlar, madrasalar va yopiq bozorlarning jonli muzeyi.
-  - blockType: regular
-    eyebrow:
-      en: Overview
-      ru: Обзор
-      uz: Umumiy
-    title:
-      en: Bukhara at a glance
-      ru: Бухара в двух словах
-      uz: Buxoro qisqacha
-    description:
-      en: "Bukhara rewards slow walking: domed bazaars, mosque courts and madrasa facades connect in a compact old-town grid. It is ideal after Samarkand: less monumental, more intimate, with strong evening ambience around Lyab-i Hauz."
-      ru: "Бухара награждает неспешные прогулки: купольные базары, дворы мечетей и фасады медресе в компактной сетке старого города. Идеальна после Самарканда — менее монументальна, более камерна."
-      uz: "Buxoro sekin yurishni qadrlaydi: gumbazli bozorlar, masjid hovlilari va madrasa fasadlari ixcham qadimiy shahar to'rida bog'lanadi."
-  - blockType: regular
-    eyebrow:
-      en: Landmark
-      ru: Достопримечательность
-      uz: Diqqatga sazovor joy
-    title:
-      en: Poi-Kalyan and old quarter
-      ru: Пои-Кalyan и старый квартал
-      uz: Po'i Kalon va qadimiy mahalla
-    description:
-      en: "Minaret, mosque and madrasa in one coherent historic core. Use Poi-Kalyan as orientation point and branch into nearby trading domes and craft lanes."
-      ru: "Минарет, мечеть и медресе в одном историческом ядре. Используйте Пои-Кalyan как ориентир и уходите в торговые купола и ремесленные улочки."
-      uz: "Minorа, masjid va madrasa bitta tarixiy markazda. Po'i Kalonni yo'nalish nuqtasi sifatida ishlating."
-    cards:
-      - type: destinationInsight
-        icon: Timer
-        title:
-          en: Best pace
-          ru: Оптимальный темп
-          uz: Eng yaxshi ritm
-        description:
-          en: 2 nights works for a calm old-city program.
-          ru: 2 ночи подходят для спокойной программы по старому городу.
-          uz: 2 tun tinch dastur uchun yetarli.
-      - type: destinationInsight
-        icon: Heart
-        title:
-          en: Evening mood
-          ru: Вечерняя атмосфера
-          uz: Kechki muhit
-        description:
-          en: Lyab-i Hauz area is strongest after sunset.
-          ru: Район Ляби-Хауз особенно хорош после заката.
-          uz: Lyabi-Hovuz atrofi quyosh botgandan keyin eng yaxshi.
-      - type: destinationInsight
-        icon: Compass
-        title:
-          en: Shopping
-          ru: Покупки
-          uz: Xarid
-        description:
-          en: Allow time for textiles, spices and crafts.
-          ru: Оставьте время на текстиль, специи и ремёсла.
-          uz: Matolar, ziravorlar va hunarmandchilik uchun vaqt qoldiring.
-seo:
-  metaTitle:
-    en: Bukhara Region | TourLink
-    ru: Бухарская область | TourLink
-    uz: Buxoro viloyati | TourLink
-  metaDescription:
-    en: Medieval trading domes, the Ark fortress and Bukhara old town — TourLink region guide.
-    ru: Средневековые торговые купола, крепость Арк и старый город Бухары — гид TourLink.
-    uz: O'rta asr savdo gumbazlari, Ark qal'asi va Buxoro qadimiy shahri — TourLink gidi.
-  structuredDataType: TouristDestination
-status:
-  showInSitemap: true
-  noindex: false
-  hideFromNavigation: false
-  publishedAt: "2025-06-01"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О регионе"
+      "uz": "Hudud haqida"
+    "title":
+      "en": "Bukhara"
+      "ru": "Бухара"
+      "uz": "Buxoro"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "For travelers, Bukhara region starts in the old city: Lyabi-Hauz, the trading domes, Poi-Kalyan, and the Ark sit close enough for a first day on foot."
+              "ru": "Для путешественника Бухарский регион начинается со старого города: Ляби-Хауз, торговые купола, Пои-Калян и Арк стоят достаточно близко, чтобы первый день проходил пешком."
+              "uz": "Sayohatchi uchun Buxoro hududi eski shahardan boshlanadi: Labi Hovuz, savdo gumbazlari, Poyi Kalon va Ark birinchi kunni piyoda o‘tkazishga yetarlicha yaqin."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "The old city makes distances feel short, but Bukhara region is broader than the first walk. Poi-Kalyan, the Ark, and Lyabi-Hauz belong in one old-city route; craft, palace, ziyorat sites, archaeology, nature, Kagan rail arrival, or the road west work better as a deliberate next choice."
+              "ru": "Старый город делает расстояния короткими, но Бухарский регион шире первой прогулки. Пои-Калян, Арк и Ляби-Хауз лучше оставить в одном старогородском маршруте; ремесло, дворец, паломнические места, археологию, природу, приезд через Каган или дорогу на запад добавляйте как отдельный выбор."
+              "uz": "Eski shahar masofalarni qisqa qiladi, lekin Buxoro hududi birinchi sayrdan kengroq. Poyi Kalon, Ark va Labi Hovuzni bitta eski shahar yoʻlida ko‘rish qulay; hunarmandchilik, saroy, ziyorat joylari, arxeologiya, tabiat, Kogon orqali kelish yoki gʻarbga yoʻl esa alohida tanlov bo‘lgani yaxshi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep the old city as its own walk, then choose the continuation that fits the route: craft, palace, ziyorat, archaeology, museum context, nature, rail arrival through Kagan, or the road west."
+              "ru": "Старый город лучше оставить отдельной прогулкой; после него выбирайте одно продолжение по интересу: ремесло, дворец, паломнические места, археологию, музейный контекст, природу, приезд через Каган или дорогу на запад."
+              "uz": "Eski shaharni alohida sayr sifatida qoldiring; undan keyin qiziqishingizga qarab bitta davomni tanlang: hunarmandchilik, saroy, ziyorat joylari, arxeologiya, muzey konteksti, tabiat, Kogon orqali kelish yoki gʻarbga yoʻl."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Bukhara as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Бухара как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Buxoro o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "Old city first, then selected regional outings"
+      "ru": "Сначала старый город, затем выбранные выезды по региону"
+      "uz": "Avval eski shahar, keyin hudud bo‘ylab tanlangan chiqishlar"
+    "description":
+      "en": "The old city makes distances feel short, but Bukhara region is broader than the first walk. Poi-Kalyan, the Ark, and Lyabi-Hauz belong in one old-city route; craft, palace, ziyorat sites, archaeology, nature, Kagan rail arrival, or the road west work better as a deliberate next choice."
+      "ru": "Старый город делает расстояния короткими, но Бухарский регион шире первой прогулки. Пои-Калян, Арк и Ляби-Хауз лучше оставить в одном старогородском маршруте; ремесло, дворец, паломнические места, археологию, природу, приезд через Каган или дорогу на запад добавляйте как отдельный выбор."
+      "uz": "Eski shahar masofalarni qisqa qiladi, lekin Buxoro hududi birinchi sayrdan kengroq. Poyi Kalon, Ark va Labi Hovuzni bitta eski shahar yoʻlida ko‘rish qulay; hunarmandchilik, saroy, ziyorat joylari, arxeologiya, tabiat, Kogon orqali kelish yoki gʻarbga yoʻl esa alohida tanlov bo‘lgani yaxshi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route cities"
+        "ru": "Города маршрута"
+        "uz": "Yoʻnalish shaharlari"
+      "title":
+        "en": "How to read the route"
+        "ru": "Как читать маршрут"
+        "uz": "Yoʻnalishni qanday o‘qish"
+      "description":
+        "en": "The map holds the old-city core first — Lyabi-Hauz, Poi-Kalyan, the Ark — then Gijduvan and outer stops that turn Bukhara into a regional day or the road west to Khiva."
+        "ru": "Карта сначала держит ядро старого города — Ляби-Хауз, Пои-Калян, Арк — затем Гиждуван и внешние остановки, которые превращают Бухару в региональный день или дорогу на запад к Хиве."
+        "uz": "Xarita avval eski shahar yadrosini ushlaydi — Labi Hovuz, Poyi Kalon, Ark — keyin Gʻijduvon va Buxoroni hudud kuni yoki gʻarbda Xiva yoʻliga aylantiradigan tashqi bekatlar."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.816904
+      "longitude": 64.444919
+    "zoom": 9
+    "stops":
+      - "entityType": "city"
+        "entitySlug": "bukhara"
+      - "entityType": "city"
+        "entitySlug": "gijduvan"
+      - "entityType": "attraction"
+        "entitySlug": "poi-kalyan-complex"
+      - "entityType": "attraction"
+        "entitySlug": "ark-citadel"
+      - "entityType": "attraction"
+        "entitySlug": "bukhara-state-architectural-art-museum-preserve"
+      - "entityType": "attraction"
+        "entitySlug": "lyabi-hauz-ensemble"
+      - "entityType": "attraction"
+        "entitySlug": "samanid-mausoleum"
+      - "entityType": "attraction"
+        "entitySlug": "chashma-ayub-mausoleum"
+    "aside":
+      "eyebrow":
+        "en": "Route choice"
+        "ru": "Выбор маршрута"
+        "uz": "Marshrut tanlovi"
+      "title":
+        "en": "Old city first, then one continuation"
+        "ru": "Сначала старый город, затем одно продолжение"
+        "uz": "Avval eski shahar, keyin bitta davom"
+      "description":
+        "en": "Keep the old city as its own walk, then choose the continuation that fits the route: craft, palace, ziyorat, archaeology, museum context, nature, rail arrival through Kagan, or the road west."
+        "ru": "Старый город лучше оставить отдельной прогулкой; после него выбирайте одно продолжение по интересу: ремесло, дворец, паломнические места, археологию, музейный контекст, природу, приезд через Каган или дорогу на запад."
+        "uz": "Eski shaharni alohida sayr sifatida qoldiring; undan keyin qiziqishingizga qarab bitta davomni tanlang: hunarmandchilik, saroy, ziyorat joylari, arxeologiya, muzey konteksti, tabiat, Kogon orqali kelish yoki gʻarbga yoʻl."
+      "items":
+        - "title":
+            "en": "Stay close to the old city"
+            "ru": "Жить ближе к старому городу"
+            "uz": "Eski shaharga yaqin turing"
+          "description":
+            "en": "A hotel near the historic center keeps the first walk simple and makes returns for tea, lunch, or an evening pass through the lanes easier."
+            "ru": "Отель рядом с историческим центром упрощает первую прогулку и оставляет возможность вернуться к чаю, обеду или вечернему проходу по улицам."
+            "uz": "Tarixiy markazga yaqin mehmonxona birinchi sayrni osonlashtiradi va choy, tushlik yoki kechki koʻcha yurishi uchun qaytishni qulay qiladi."
+          "badge":
+            "en": "Starting point"
+            "ru": "Начало маршрута"
+            "uz": "Boshlanish nuqtasi"
+        - "title":
+            "en": "Lyabi-Hauz starts the walk gently"
+            "ru": "Ляби-Хауз мягко начинает прогулку"
+            "uz": "Labi Hovuz sayrni yumshoq boshlaydi"
+          "description":
+            "en": "Water, trees, teahouses, and nearby lanes give the old city a natural opening before the route narrows into trading domes and monument courtyards."
+            "ru": "Вода, деревья, чайханы и близкие улицы дают старому городу естественное начало перед торговыми куполами и дворами памятников."
+            "uz": "Suv, daraxtlar, choyxonalar va yaqin koʻchalar savdo gumbazlari va yodgorlik hovlilariga kirishdan oldin eski shaharga tabiiy boshlanish beradi."
+          "badge":
+            "en": "Soft start"
+            "ru": "Мягкое начало"
+            "uz": "Yumshoq boshlanish"
+        - "title":
+            "en": "Poi-Kalyan and the Ark set the main scale"
+            "ru": "Пои-Калян и Арк задают главный масштаб"
+            "uz": "Poyi Kalon va Ark asosiy miqyosni beradi"
+          "description":
+            "en": "The minaret and madrasahs hold the skyline; the Ark moves the story toward rulers, gates, walls, and Bukhara's political memory."
+            "ru": "Минарет и медресе держат силуэт города, а Арк переводит рассказ к правителям, воротам, стенам и политической памяти Бухары."
+            "uz": "Minora va madrasalar shahar siluetini ushlab turadi; Ark esa hikoyani hukmdorlar, darvozalar, devorlar va Buxoroning siyosiy xotirasiga olib boradi."
+          "badge":
+            "en": "Monument spine"
+            "ru": "Линия памятников"
+            "uz": "Yodgorliklar chizigʻi"
+        - "title":
+            "en": "Choose outer stops deliberately"
+            "ru": "Внешние остановки лучше выбирать осознанно"
+            "uz": "Tashqi bekatlarni ongli tanlash kerak"
+          "description":
+            "en": "Gijduvan ceramics, Vabkent, Sitorai Mokhi-Khosa, Chor-Bakr, Bahauddin Naqshband, Seven Pirs, Varakhsha, Paikend, and Jeyran can shape a half-day, a second day, or the road west."
+            "ru": "Керамика Гиждувана, Вабкент, Ситораи Мохи-Хоса, Чор-Бакр, Бахауддин Накшбанд, Семь пиров, Варахша, Пайкенд и Джейран могут стать половиной дня, вторым днём или частью дороги на запад."
+            "uz": "Gʻijduvon keramikasi, Vobkent, Sitorai Mohi-Xosa, Chor Bakr, Bahouddin Naqshband, Yetti Pir, Varaxsha, Poykend va Jayron yarim kun, ikkinchi kun yoki gʻarbga yoʻlning bir qismiga aylanishi mumkin."
+          "badge":
+            "en": "Route extension"
+            "ru": "Продолжение маршрута"
+            "uz": "Marshrut davomi"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region character"
+      "ru": "Характер региона"
+      "uz": "Hudud xarakteri"
+    "title":
+      "en": "The old city as the beginning, not the whole region"
+      "ru": "Старый город как начало, а не весь регион"
+      "uz": "Eski shahar - boshlanish, butun hudud emas"
+    "description":
+      "en": "The strongest Bukhara route lets the old center settle first, then uses craft, palace, pilgrimage, archaeology, nature, and rail-gateway stops to show why the region is larger than the city walls.
+
+
+        «Bukhara region is clearer when the old city becomes the starting point, not a substitute for the whole route.»"
+      "ru": "Самый сильный маршрут по Бухаре сначала даёт старому центру стать понятным, а затем через ремесло, дворец, паломнические места, археологию, природу и железнодорожные ворота показывает, что регион больше городских стен.
+
+
+        «Бухарский регион понятнее, когда старый город становится отправной точкой, а не заменяет собой весь маршрут.»"
+      "uz": "Buxoro boʻylab eng kuchli yoʻnalish avval eski markazni tushunarli qiladi, keyin hunarmandchilik, saroy, ziyorat, arxeologiya, tabiat va temiryoʻl kirishlari orqali hudud shahar devorlaridan kengroq ekanini ko‘rsatadi.
+
+
+        «Buxoro hududi eski shahar butun yoʻnalish oʻrnini bosmay, boshlanish nuqtasi bo‘lganda aniqroq ko‘rinadi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Where to start"
+      "ru": "Где начать"
+      "uz": "Qayerdan boshlash"
+    "title":
+      "en": "Old city first, then the wider route"
+      "ru": "Старый город и выезды из него"
+      "uz": "Avval eski shahar, keyin kengroq yo‘l"
+    "description":
+      "en": "Start with Bukhara's old city. Gijduvan adds ceramics, family workshops, and the first pir on the Seven Pirs road; Vabkent, Romitan-area ziyorat, Kagan, and other outer points make the route wider than one city."
+      "ru": "Начните со старого города Бухары. Гиждуван добавляет керамику, семейные мастерские и первого из Семи пиров; Вабкент, паломнические остановки у Ромитана, Каган и другие внешние точки делают маршрут шире одного города."
+      "uz": "Buxoroning eski shahridan boshlang. Gʻijduvon keramika, oilaviy ustaxonalar va Yetti Pir yoʻlidagi birinchi pirni qoʻshadi; Vobkent, Romitan atrofidagi ziyorat joylari, Kogon va boshqa tashqi nuqtalar yoʻlni bitta shahardan kengroq qiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Bukhara"
+          "ru": "Бухара"
+          "uz": "Buxoro"
+        "description":
+          "en": "Bukhara does not open from one square. The old center comes together through short transitions: a shaded trading dome, a carved doorway, tea beside Lyabi-Hauz, then the sudden vertical line of Kalyan Minaret above the lanes."
+          "ru": "Бухара не раскрывается с одной площади. Старый центр собирается из коротких переходов: тенистый торговый купол, резная дверь, чай у Ляби-Хауза, а затем резкая вертикаль минарета Калян над улицами."
+          "uz": "Buxoro bitta maydondan ochilmaydi. Eski markaz qisqa o‘tishlardan yigʻiladi: soyali savdo gumbazi, o‘yma eshik, Labi Hovuz yonidagi choy, keyin ko‘chalar ustida ko‘tarilgan Kalon minorasi."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/gijduvan.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Gijduvan"
+          "ru": "Гиждуван"
+          "uz": "Gʻijduvon"
+        "description":
+          "en": "On the road from Bukhara, Gijduvan shifts the day from old-city monuments to clay, pattern, and the hands that make them. The visit centers on ceramics, with Abdulkhalik Gijduvani added when the route also follows the Seven Pirs story."
+          "ru": "На дороге из Бухары Гиждуван переводит день от памятников старого города к глине, узору и рукам мастера. Главный смысл визита — керамика; Абдулхалик Гиждувани входит в день, когда маршрут связан с историей Семи пиров."
+          "uz": "Buxorodan chiqadigan yoʻlda Gʻijduvon kunni eski shahar yodgorliklaridan loy, naqsh va usta qoʻliga buradi. Tashrifning asosiy maʼnosi kulolchilik, Abduxoliq Gʻijduvoniy esa yoʻnalish Yetti Pir hikoyasi bilan bogʻlanganda kunga kiradi."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/gijduvan"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nima ko‘rish kerak"
+    "title":
+      "en": "Old city and places beyond it"
+      "ru": "Старый город и места за его пределами"
+      "uz": "Eski shahar va uning tashqarisidagi joylar"
+    "description":
+      "en": "Poi-Kalyan, the Ark, and Lyabi-Hauz shape the first old-city walk. The Samanid Mausoleum, Chashma-Ayub, Bolo-Hauz, Magoki-Attori, Chor Minor, madrasahs, trading domes, museum houses, and the museum-preserve deepen the city day; Sitorai Mokhi-Khosa, Bahauddin Naqshband, Chor-Bakr, Gijduvan, Vabkent, Varakhsha, Paikend, and Jeyran carry the route beyond the compact center."
+      "ru": "Из Пои-Каляна, Арка и Ляби-Хауза складывается первая прогулка по старой Бухаре. Мавзолей Саманидов, Чашма-Аюб, Боло-Хауз, Магоки-Аттори, Чор-Минор, медресе, торговые купола, музейные дома и музей-заповедник углубляют городской день; Ситораи Мохи-Хоса, Бахауддин Накшбанд, Чор-Бакр, Гиждуван, Вабкент, Варахша, Пайкенд и Джейран продолжают маршрут за пределами компактного центра."
+      "uz": "Poyi Kalon, Ark va Labi Hovuzdan eski Buxoro bo‘ylab birinchi sayr yigʻiladi. Somoniylar maqbarasi, Chashma-Ayub, Bolo-Hauz, Magʻoki Attori, Chor Minor, madrasalar, savdo gumbazlari, muzey uylari va muzey-qo‘riqxona shahar kunini chuqurlashtiradi; Sitorai Mohi-Xosa, Bahouddin Naqshband, Chor Bakr, Gʻijduvon, Vobkent, Varaxsha, Poykend va Jayron yo‘lni ixcham markazdan tashqariga davom ettiradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara/attractions/samanid-mausoleum.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Samanid Mausoleum"
+          "ru": "Мавзолей Саманидов"
+          "uz": "Somoniylar maqbarasi"
+        "description":
+          "en": "At this compact 10th-century tomb, Bukhara's early Islamic architecture comes through in the brickwork, the balanced cube-and-dome form, and the calm park setting around it."
+          "ru": "В этой компактной усыпальнице X века ранняя исламская архитектура Бухары видна в кирпичной кладке, уравновешенной форме куба и купола и спокойном парковом окружении."
+          "uz": "Bu ixcham X asr maqbarasida Buxoroning ilk islom meʼmorchiligi g‘isht terimi, kub va gumbazning muvozanatli shakli hamda atrofdagi sokin park muhiti orqali ko‘rinadi."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara/samanid-mausoleum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Abdulkhalik Gijduvani"
+          "ru": "Абдулхалик Гиждувани"
+          "uz": "Abduxoliq Gʻijduvoniy"
+        "description":
+          "en": "This is the Gijduvan stop where the day moves from craft to pilgrimage memory: a memorial courtyard, the mausoleum, and the start of the Seven Pirs route before the road turns back toward Bukhara."
+          "ru": "Это остановка в Гиждуване, где день переходит от ремесла к паломнической памяти: мемориальный двор, мавзолей и начало маршрута Семи пиров перед возвращением дороги к Бухаре."
+          "uz": "Bu Gʻijduvondagi kun hunardan ziyorat xotirasiga oʻtadigan toʻxtash: memorial hovli, maqbara va Buxoroga qaytish yoʻlidan oldin Yetti Pir marshrutining boshlanishi."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/gijduvan/abdulkhalik-gijduvani-memorial-complex"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara/attractions/bukhara-state-architectural-art-museum-preserve.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Bukhara Museum-Preserve"
+          "ru": "Бухарский музей-заповедник"
+          "uz": "Buxoro muzey-qo‘riqxonasi"
+        "description":
+          "en": "Bukhara State Art-Architectural Museum-Preserve is a museum system, not a single monument. The Ark gives it the clearest public address; the branches continue the story through palace rooms, a merchant house, fine-art galleries, documents, coins, textiles, books, and objects from"
+          "ru": "Бухарский государственный архитектурно-художественный музей-заповедник — это музейная система, а не один памятник. Арк даёт ей самый понятный публичный адрес; филиалы продолжают тему через дворцовые залы, купеческий дом, художественные коллекции, документы, монеты, ткани, книги и"
+          "uz": "Buxoro davlat meʼmoriy-badiiy muzey-qo‘riqxonasi bitta yodgorlik emas, balki muzey tizimidir. Ark uning eng tushunarli ommaviy manzili; filiallar esa saroy xonalari, savdogar uyi, tasviriy sanʼat, hujjatlar, tangalar, matolar, kitoblar va Buxoroning kundalik hayoti buyumlari orqa"
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara/bukhara-state-architectural-art-museum-preserve"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara/attractions/fayzulla-khodjaev-house-museum.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Fayzulla Khodjaev House-Museum"
+          "ru": "Дом-музей Файзуллы Ходжаева"
+          "uz": "Fayzulla Xo‘jayev uy-muzeyi"
+        "description":
+          "en": "Fayzulla Khodjaev House-Museum shows another side of Bukhara: a merchant family house with courtyards, painted rooms, carved wood, porcelain, clothing, and the public story of Fayzulla Khodjaev."
+          "ru": "Дом-музей Файзуллы Ходжаева показывает другую сторону Бухары: купеческий семейный дом с дворами, расписными комнатами, резным деревом, фарфором, одеждой и историей Файзуллы Ходжаева как общественного деятеля."
+          "uz": "Fayzulla Xo‘jayev uy-muzeyi Buxoroning boshqa tomonini ko‘rsatadi: hovlilari, bezakli xonalari, o‘yma yog‘ochi, chinnisi, kiyimlari va Fayzulla Xo‘jayevning jamoat hayoti bilan bog‘liq savdogar oilasi uyi."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara/fayzulla-khodjaev-house-museum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara/attractions/abdulaziz-khan-madrasah.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Abdulaziz Khan Madrasah"
+          "ru": "Медресе Абдулазиз-хана"
+          "uz": "Abdulazizxon madrasasi"
+        "description":
+          "en": "Abdulaziz Khan Madrasah stands opposite Ulugbek Madrasah, so the two monuments are best seen together. One belongs to the Timurid tradition of learning; the other shows 17th-century Bukhara through a painted portal, carved detail, and the lived street beside the trading domes."
+          "ru": "Медресе Абдулазиз-хана стоит напротив медресе Улугбека, поэтому два памятника удобно смотреть вместе. Один связан с тимуридской традицией учёбы, другой показывает Бухару XVII века через расписной портал, резные детали и жизнь улицы у торговых куполов."
+          "uz": "Abdulazizxon madrasasi Ulugbek madrasasi ro‘parasida turadi, shuning uchun ikki yodgorlikni birga ko‘rish maʼqul. Biri temuriylar davri ilm anʼanasi bilan bog‘liq; ikkinchisi XVII asr Buxorosini rangli peshtoq, o‘yma detal va savdo gumbazlari yonidagi ko‘cha hayoti orqali ko‘rsat"
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara/abdulaziz-khan-madrasah"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara/attractions/ulugbek-madrasah-bukhara.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Ulugbek Madrasah"
+          "ru": "Медресе Улугбека в Бухаре"
+          "uz": "Buxorodagi Ulugbek madrasasi"
+        "description":
+          "en": "In Bukhara, Ulugbek Madrasah slows the old-city walk after the trading domes. The courtyard, portal, surviving tilework, and Mirzo Ulugbek's name bring the route from bazaar movement toward the city's history of study."
+          "ru": "В Бухаре медресе Улугбека делает старогородскую прогулку спокойнее после торговых куполов. Двор, портал, сохранившаяся керамика и имя Мирзо Улугбека переводят маршрут от движения базара к городской истории знания."
+          "uz": "Buxoroda Ulugbek madrasasi savdo gumbazlaridan keyin eski shahar sayrini sokinlashtiradi. Hovli, portal, saqlangan koshin bezaklari va Mirzo Ulugbek nomi marshrutni bozor harakatidan shaharning ilm tarixiga olib boradi."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara/ulugbek-madrasah-bukhara"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route shapes"
+      "ru": "Форма маршрута"
+      "uz": "Marshrut shakllari"
+    "title":
+      "en": "How Bukhara shapes the westward route"
+      "ru": "Как Бухара меняет путь на запад"
+      "uz": "Buxoro gʻarbga yoʻlni qanday oʻzgartiradi"
+    "description":
+      "en": "Bukhara can be the calm midpoint between Samarkand and Khiva when the route starts with the old city and chooses one or two continuations by meaning: Gijduvan, Vabkent, Seven Pirs, palace, necropolis, archaeology, nature, or the road to Khorezm."
+      "ru": "Бухара может стать спокойной серединой пути между Самаркандом и Хивой, если маршрут начинается со старого города и выбирает одно-два продолжения по смыслу: Гиждуван, Вабкент, Семь пиров, дворец, некрополь, археологию, природу или дорогу к Хорезму."
+      "uz": "Buxoro Samarqand va Xiva orasida sokin oʻrta nuqta boʻla oladi, agar yoʻnalish eski shahardan boshlanib, maʼnosi bo‘yicha bir yoki ikki davomni tanlasa: Gʻijduvon, Vobkent, Yetti Pir, saroy, nekropol, arxeologiya, tabiat yoki Xorazm tomonga yoʻl."
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region in detail"
+      "ru": "Регион в деталях"
+      "uz": "Hudud batafsil"
+    "title":
+      "en": "Practical questions about Bukhara"
+      "ru": "Практические вопросы о регионе Бухара"
+      "uz": "Buxoro hududi bo‘yicha amaliy savollar"
+    "description":
+      "en": "Pace, season, and how this region connects to the next stop."
+      "ru": "Темп, сезон и как регион стыкуется со следующей остановкой."
+      "uz": "Sur’at, mavsum va hududning keyingi bekat bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many days does Bukhara need in a programme?"
+          "ru": "Сколько дней нужно региону Бухара в программе?"
+          "uz": "Buxoro hududi dasturda necha kun olishi kerak?"
+        "description":
+          "en": "2–3 days usually works if you keep one strong core and treat outer stops as deliberate choices. The region brief is “Old city, craft towns, and the road to Khiva”."
+          "ru": "Обычно хватает 2–3 дня, если держать одно сильное ядро, а внешние остановки выбирать осознанно. Кратко о регионе: «Старый город, ремесленные остановки и дорога к Хиве»."
+          "uz": "Odatda 2–3 kun yetadi — bitta kuchli yadro va tashqi bekatlarni ongli tanlov qiling. Hudud brifi: «Eski shahar, hunarmandchilik bekatlari va Xiva yoʻli»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "What should come before and after Bukhara?"
+          "ru": "Что ставить до и после региона Бухара?"
+          "uz": "Buxorodan oldin va keyin nima qo‘yish kerak?"
+        "description":
+          "en": "Use neighbouring cities as clean handovers: arrive with a calm first night, leave after one completed chapter, and avoid stacking two long transfers on the same day."
+          "ru": "Соседние города держите как чистые стыки: приезжайте со спокойной первой ночью, уезжайте после завершённой главы и не ставьте два длинных переезда в один день."
+          "uz": "Qo‘shni shaharlarni toza ulanish sifatida tuting: sokin birinchi tun bilan keling, yakunlangan bobdan keyin chiqing va bir kunga ikkita uzun ko‘chishni qo‘ymang."
+      - "type": "destinationInsight"
+        "icon": "CloudSun"
+        "title":
+          "en": "What season logic matters most in Bukhara?"
+          "ru": "Какая сезонная логика важнее всего в Бухара?"
+          "uz": "Buxoroda qaysi mavsum mantig‘i eng muhim?"
+        "description":
+          "en": "Heat, altitude, road condition, and opening hours change the product more than the brochure list. Build the region around what stays comfortable for the group that week."
+          "ru": "Жара, высота, состояние дорог и часы работы меняют продукт сильнее списка из брошюры. Собирайте регион вокруг того, что комфортно именно этой группе в эту неделю."
+          "uz": "Issiqlik, balandlik, yo‘l holati va ish soatlari broshyura ro‘yxatidan kuchliroq mahsulotni o‘zgartiradi. Hududni shu hafta guruh uchun qulay narsaga qurib chiqing."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/bukhara-region.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Bukhara stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Бухара» в программу (Узбекистан)"
+      "uz": "Buxoro bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right extensions — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать нужные расширения — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va kerakli kengaytmalarni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Bukhara | TourLink"
+    "ru": "Бухара | TourLink"
+    "uz": "Buxoro | TourLink"
+  "metaDescription":
+    "en": "For travelers, Bukhara region starts in the old city: Lyabi-Hauz, the trading domes, Poi-Kalyan, and the Ark sit close enough for a first day on foot. From there the route can continue to Gijduvan ceramics, Vabkent, the Seven Pirs, Sitorai Mokhi-Khosa, Chor-Bakr, Bahauddin Naqshband, Varakhsha, Paikend, Jeyran, Kagan, and the road to Khiva."
+    "ru": "Для путешественника Бухарский регион начинается со старого города: Ляби-Хауз, торговые купола, Пои-Калян и Арк стоят достаточно близко, чтобы первый день проходил пешком. Дальше маршрут может продолжиться к гиждуванской керамике, Вабкенту, Семи пирам, Ситораи Мохи-Хоса, Чор-Бакру, Бахауддину Накшбанду, Варахше, Пайкенду, Джейрану, Кагану и дороге на Хиву."
+    "uz": "Sayohatchi uchun Buxoro hududi eski shahardan boshlanadi: Labi Hovuz, savdo gumbazlari, Poyi Kalon va Ark birinchi kunni piyoda o‘tkazishga yetarlicha yaqin. Keyin yo‘l Gʻijduvon keramikasi, Vobkent, Yetti Pir, Sitorai Mohi-Xosa, Chor Bakr, Bahouddin Naqshband, Varaxsha, Poykend, Jayron, Kogon va Xiva tomonga davom etishi mumkin."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"mapCenter":
+  "latitude": 39.7759835
+  "longitude": 64.415153

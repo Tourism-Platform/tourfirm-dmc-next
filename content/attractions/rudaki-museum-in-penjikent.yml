@@ -1,0 +1,329 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "rudaki-museum-in-penjikent"
+  "ru": "rudaki-museum-in-penjikent"
+  "uz": "rudaki-museum-in-penjikent"
+"title":
+  "en": "Rudaki Museum in Penjikent"
+  "ru": "Музей Рудаки в Пенджикенте"
+  "uz": "Panjikentdagi Rudakiy muzeyi"
+"subtitle":
+  "en": "Poetry, local finds, and Penjikent memory"
+  "ru": "Поэзия, местные находки и память Пенджикента"
+  "uz": "Sheʼr, mahalliy topilmalar va Panjikent xotirasi"
+"excerpt":
+  "en": "Inside the town, the museum gives names and objects to the archaeology outside. Rudaki's literary memory, local history rooms, and excavated material make Penjikent feel less like separate sites and more like a place with its own memory."
+  "ru": "В городе музей даёт археологии имена и предметы. Память Рудаки, местная история и найденные материалы помогают воспринимать Пенджикент не как набор площадок, а как город со своей памятью."
+  "uz": "Shahar ichida muzey tashqaridagi arxeologiyaga ism va buyumlar beradi. Rudakiy xotirasi, mahalliy tarix va topilmalar Panjikentni faqat joylar ketma-ketligi emas, oʻz xotirasi bor shahar sifatida koʻrsatadi."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "Rudaki Museum in Penjikent"
+      "ru": "Музей Рудаки в Пенджикенте"
+      "uz": "Panjikentdagi Rudakiy muzeyi"
+    "title":
+      "en": "Rudaki Museum in Penjikent"
+      "ru": "Музей Рудаки в Пенджикенте"
+      "uz": "Panjikentdagi Rudakiy muzeyi"
+    "description":
+      "en": "Poetry, local finds, and Penjikent memory"
+      "ru": "Поэзия, местные находки и память Пенджикента"
+      "uz": "Sheʼr, mahalliy topilmalar va Panjikent xotirasi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Rudaki Museum in Penjikent"
+      "ru": "Музей Рудаки в Пенджикенте"
+      "uz": "Panjikentdagi Rudakiy muzeyi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Inside the town, the museum gives names and objects to the archaeology outside."
+              "ru": "В городе музей даёт археологии имена и предметы."
+              "uz": "Shahar ichida muzey tashqaridagi arxeologiyaga ism va buyumlar beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "This is a modest local museum, and that scale is part of its value."
+              "ru": "Это скромный местный музей, и в этой камерности есть его ценность."
+              "uz": "Bu katta emas, mahalliy muzey; aynan shu ixchamlik uning kuchi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Poetry, local finds, and Penjikent memory."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Поэзия, местные находки и память Пенджикента."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Sheʼr, mahalliy topilmalar va Panjikent xotirasi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Rudaki Museum in Penjikent as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Музей Рудаки в Пенджикенте как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Panjikentdagi Rudakiy muzeyi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Rudaki Museum in Penjikent sits on the route"
+      "ru": "Где Музей Рудаки в Пенджикенте стоит на маршруте"
+      "uz": "Panjikentdagi Rudakiy muzeyi marshrutda qayerda"
+    "description":
+      "en": "One clear point for Rudaki Museum in Penjikent — Poetry, local finds, and Penjikent memory."
+      "ru": "Одна понятная точка для «Музей Рудаки в Пенджикенте» — Поэзия, местные находки и память Пенджикента."
+      "uz": "Panjikentdagi Rudakiy muzeyi uchun bitta aniq nuqta — Sheʼr, mahalliy topilmalar va Panjikent xotirasi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Rudaki Museum in Penjikent"
+        "ru": "Музей Рудаки в Пенджикенте"
+        "uz": "Panjikentdagi Rudakiy muzeyi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.4951755
+      "longitude": 67.5962908
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "rudaki-museum-in-penjikent"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Where ruins, poetry, and town memory meet"
+      "ru": "Где сходятся руины, поэзия и память города"
+      "uz": "Xarobalar, sheʼr va shahar xotirasi uchrashadigan joy"
+    "description":
+      "en": "This is a modest local museum, and that scale is part of its value. After Ancient Penjikent or before Sarazm, the rooms give the valley's archaeology, literature, and town history a quieter human frame.
+
+
+        «Inside the museum, Penjikent's archaeology becomes names, objects, and literary memory.»"
+      "ru": "Это скромный местный музей, и в этой камерности есть его ценность. После Древнего Пенджикента или перед Саразмом залы дают археологии долины, литературе и истории города более человеческий масштаб.
+
+
+        «В залах Пенджикента археология становится именами, предметами и литературной памятью.»"
+      "uz": "Bu katta emas, mahalliy muzey; aynan shu ixchamlik uning kuchi. Qadimiy Panjikentdan keyin yoki Sarazmdan oldin u sayohatchiga vodiy arxeologiyasi, adabiy xotira va shahar tarixini birga tushunish uchun sokin xonalar beradi.
+
+
+        «Muzey xonalarida Panjikent arxeologiyasi ism, buyum va adabiy xotiraga aylanadi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "Rooms, finds, Rudaki memory"
+      "ru": "Залы, находки, память Рудаки"
+      "uz": "Xonalar, topilmalar, Rudakiy xotirasi"
+    "description":
+      "en": "The gallery story is compact: local displays, archaeological material, and Rudaki memory that help the town speak between its bigger sites."
+      "ru": "Здесь всё компактно: местные экспозиции, археологические материалы и память Рудаки помогают городу звучать между более крупными площадками."
+      "uz": "Bu yerda hikoya ixcham: mahalliy ekspozitsiyalar, arxeologik materiallar va Rudakiy xotirasi shaharni yirikroq joylar orasida tushunarli qiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday koʻrish"
+    "title":
+      "en": "Keep the visit focused"
+      "ru": "Короткий визит, ясный фокус"
+      "uz": "Qisqa tashrif, aniq diqqat"
+    "description":
+      "en": "The museum is strongest as a short, attentive stop. Give it enough time for the displays to clarify one archaeological site, then return to the town or valley route."
+      "ru": "Музей лучше всего воспринимается как короткая внимательная остановка. Дайте экспозиции прояснить одну археологическую точку, а затем спокойно возвращайтесь к городу или долине."
+      "uz": "Muzey qisqa va eʼtiborli toʻxtash sifatida yaxshi ochiladi. Ekspozitsiya bitta arxeologik joyni tushuntirsin, keyin tashrif shahar yoki vodiy yoʻliga qaytadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda yana nimalar"
+    "title":
+      "en": "What to add around the museum"
+      "ru": "Что добавить вокруг музея"
+      "uz": "Muzey atrofida yana nimalarni koʻrish"
+    "description":
+      "en": "Pair the museum with Ancient Penjikent for the Sogdian ridge, or with Sarazm when the route reaches back to the valley's earliest settlement story."
+      "ru": "Добавьте древний Пенджикент ради согдийского городища или Саразм, если маршрут обращается к самой ранней истории долины."
+      "uz": "Sugʻd tepaligi uchun Qadimiy Panjikentni, vodiyning eng qadimiy manzil hikoyasi uchun Sarazmni qoʻshing."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ancient Penjikent"
+          "ru": "Древний Пенджикент"
+          "uz": "Qadimiy Panjikent"
+        "description":
+          "en": "Above modern Penjikent, Sogdian wall lines, palace and temple traces make Ancient Penjikent the city's clearest heritage stop before the Fann Mountains."
+          "ru": "Над современным Пенджикентом линии согдийских стен, следы дворца и храмов делают Древний Пенджикент главным историческим ориентиром перед Фанскими горами."
+          "uz": "Zamonaviy Panjikent ustida Sugʻd devor chiziqlari, saroy va ibodatxona izlari Qadimiy Panjikentni Fan togʻlari oldidagi asosiy meros manziliga aylantiradi."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/penjikent/ancient-penjikent"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Proto-urban Site of Sarazm"
+          "ru": "Протогородище Саразм"
+          "uz": "Sarazm protoshahar yodgorligi"
+        "description":
+          "en": "Near Penjikent, UNESCO-listed Sarazm takes the Zeravshan Valley back to the 4th and 3rd millennia BCE, when early settlement, craft, metalwork, and exchange were already shaping Central Asia."
+          "ru": "Рядом с Пенджикентом Саразм из списка ЮНЕСКО возвращает Зеравшанскую долину к IV-III тысячелетиям до н. э.: раннему поселению, ремеслу, металлу и дальнему обмену."
+          "uz": "Panjikent yaqinidagi UNESCO roʻyxatiga kiritilgan Sarazm Zarafshon vodiysini miloddan avvalgi IV-III ming yilliklarga qaytaradi: ilk manzil, hunar, metall ishlovi va uzoq almashinuv."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/penjikent/proto-urban-site-of-sarazm"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Rudaki Museum in Penjikent"
+      "ru": "Что агентства спрашивают про Музей Рудаки в Пенджикенте"
+      "uz": "Agentliklar Panjikentdagi Rudakiy muzeyi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Rudaki Museum in Penjikent get in the day plan?"
+          "ru": "Сколько времени закладывать на Музей Рудаки в Пенджикенте в плане дня?"
+          "uz": "Panjikentdagi Rudakiy muzeyi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "45–90 minutes is a practical range for most groups. Plan ticket timing and indoor pacing. Place tone: “Poetry, local finds, and Penjikent memory”."
+          "ru": "Для большинства групп реалистичный диапазон — 45–90 минут. Заложите время на билеты и спокойный темп внутри. Характер места: «Поэзия, местные находки и память Пенджикента»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 45–90 daqiqa. Chipta va ichki sokin sur’at uchun vaqt qo‘ying. Joy ohangi: «Sheʼr, mahalliy topilmalar va Panjikent xotirasi»."
+      - "type": "destinationInsight"
+        "icon": "Sunrise"
+        "title":
+          "en": "When is Rudaki Museum in Penjikent strongest during the day?"
+          "ru": "В какое время дня Музей Рудаки в Пенджикенте раскрывается сильнее?"
+          "uz": "Panjikentdagi Rudakiy muzeyi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer before the midday heat. That usually improves comfort, photos, and how the stop feels in the sequence around penjikent."
+          "ru": "Лучше до полуденной жары. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с penjikent."
+          "uz": "tushlik issiqligidan oldin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (penjikent atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How should Rudaki Museum in Penjikent sit next to nearby stops?"
+          "ru": "Как поставить Музей Рудаки в Пенджикенте рядом с соседними остановками?"
+          "uz": "Panjikentdagi Rudakiy muzeyini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Rudaki Museum in Penjikent to your Tajikistan programme"
+      "ru": "Добавьте «Музей Рудаки в Пенджикенте» в программу (Таджикистан)"
+      "uz": "Panjikentdagi Rudakiy muzeyini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Rudaki Museum in Penjikent | TourLink"
+    "ru": "Музей Рудаки в Пенджикенте | TourLink"
+    "uz": "Panjikentdagi Rudakiy muzeyi | TourLink"
+  "metaDescription":
+    "en": "Inside the town, the museum gives names and objects to the archaeology outside. Rudaki's literary memory, local history rooms, and excavated material make Penjikent feel less like separate sites and more like a place with its own memory."
+    "ru": "В городе музей даёт археологии имена и предметы. Память Рудаки, местная история и найденные материалы помогают воспринимать Пенджикент не как набор площадок, а как город со своей памятью."
+    "uz": "Shahar ichida muzey tashqaridagi arxeologiyaga ism va buyumlar beradi. Rudakiy xotirasi, mahalliy tarix va topilmalar Panjikentni faqat joylar ketma-ketligi emas, oʻz xotirasi bor shahar sifatida koʻrsatadi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "fann-mountains-and-zeravshan"
+"city": "penjikent"
+"type": "MUSEUM"
+"importance": "RECOMMENDED"
+"latitude": 39.4951755
+"longitude": 67.5962908

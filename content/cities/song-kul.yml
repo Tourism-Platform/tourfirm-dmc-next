@@ -1,0 +1,544 @@
+# Generated from scrape/kyrgyzstan (multi-locale)
+"slug":
+  "en": "song-kul"
+  "ru": "song-kul"
+  "uz": "song-kul"
+"title":
+  "en": "Song-Kul"
+  "ru": "Сон-Куль"
+  "uz": "Soʻng-Koʻl"
+"subtitle":
+  "en": "High pasture, yurt camps, and onward mountain roads"
+  "ru": "Высокогорное пастбище, юртовые лагеря и дальнейшие горные дороги"
+  "uz": "Baland yaylov, oʻtov lagerlari va keyingi togʻ yoʻllari"
+"excerpt":
+  "en": "Song-Kul is where the central highland route opens into water, pasture, horses, and sky. The lake area feels spacious because the journey slows down; it stays comfortable when weather, altitude, road condition, and the night's camp are treated with care."
+  "ru": "Сон-Куль - место, где центральный высокогорный маршрут раскрывается водой, пастбищем, лошадьми и небом. Район озера кажется просторным потому, что путь здесь замедляется; комфортным он остается, когда к погоде, высоте, состоянию дороги и лагерю на ночь относятся внимательно."
+  "uz": "Soʻng-Koʻl markaziy baland hudud marshruti suv, yaylov, otlar va osmonga ochiladigan joy. Koʻl hududi yoʻl sekinlashgani uchun keng tuyuladi; ob-havo, balandlik, yoʻl holati va tunash lageriga eʼtibor berilganda qulay bo‘ladi."
+"heroImage": "assets/images/destinations/kyrgyzstan/regions/naryn-song-kul-and-central-tian-shan/cities/song-kul.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kyrgyzstan/regions/naryn-song-kul-and-central-tian-shan/cities/song-kul.webp"
+    "imageAlt":
+      "en": "Song-Kul"
+      "ru": "Сон-Куль"
+      "uz": "Soʻng-Koʻl"
+    "title":
+      "en": "Song-Kul"
+      "ru": "Сон-Куль"
+      "uz": "Soʻng-Koʻl"
+    "description":
+      "en": "High pasture, yurt camps, and onward mountain roads"
+      "ru": "Высокогорное пастбище, юртовые лагеря и дальнейшие горные дороги"
+      "uz": "Baland yaylov, oʻtov lagerlari va keyingi togʻ yoʻllari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Song-Kul"
+      "ru": "Сон-Куль"
+      "uz": "Soʻng-Koʻl"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Song-Kul is where the central highland route opens into water, pasture, horses, and sky."
+              "ru": "Сон-Куль - место, где центральный высокогорный маршрут раскрывается водой, пастбищем, лошадьми и небом."
+              "uz": "Soʻng-Koʻl markaziy baland hudud marshruti suv, yaylov, otlar va osmonga ochiladigan joy."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Read Song-Kul through movement rather than streets: climb in from Kochkor or Naryn, keep the lake as the main pause, choose the yurt-camp overnight carefully, then decide whether the route returns west, continues to Naryn, or turns later toward Tash Rabat."
+              "ru": "Сон-Куль лучше читать через движение, а не через улицы: подняться со стороны Кочкора или Нарына, оставить озеро главной паузой, внимательно выбрать юртовую ночевку и затем решить, вернется ли маршрут на запад, продолжится к Нарыну или позже повернет к Таш-Рабату."
+              "uz": "Soʻng-Koʻlni ko‘chalar orqali emas, harakat orqali o‘qing: Kochkor yoki Narin tomondan ko‘tariling, koʻlni asosiy pauza qiling, oʻtovdagi tunashni diqqat bilan tanlang, keyin yoʻl gʻarbga qaytadimi, Naringa davom etadimi yoki keyinroq Tash Rabatga buriladimi, shuni hal qiling."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Song-Kul feels strongest when the route does less, not more. One lake, one camp, one weather-aware road choice, and a realistic exit usually make the high country feel clearer."
+              "ru": "Сон-Куль сильнее, когда маршрут делает меньше, а не больше. Одно озеро, один лагерь, одна дорога с учетом погоды и реалистичный выезд обычно раскрывают высокогорье лучше."
+              "uz": "Soʻng-Koʻl marshrut kamroq narsani tanlaganda kuchliroq ochiladi. Bitta koʻl, bitta lager, ob-havoga mos bitta yoʻl tanlovi va real chiqish baland hududni yaxshiroq his qildiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Song-Kul as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Сон-Куль как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Soʻng-Koʻl o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Lake shore, camps, and the road out"
+      "ru": "Берег озера, лагеря и дорога дальше"
+      "uz": "Koʻl qirgʻogʻi, lagerlar va keyingi yoʻl"
+    "description":
+      "en": "Read Song-Kul through movement rather than streets: climb in from Kochkor or Naryn, keep the lake as the main pause, choose the yurt-camp overnight carefully, then decide whether the route returns west, continues to Naryn, or turns later toward Tash Rabat."
+      "ru": "Сон-Куль лучше читать через движение, а не через улицы: подняться со стороны Кочкора или Нарына, оставить озеро главной паузой, внимательно выбрать юртовую ночевку и затем решить, вернется ли маршрут на запад, продолжится к Нарыну или позже повернет к Таш-Рабату."
+      "uz": "Soʻng-Koʻlni ko‘chalar orqali emas, harakat orqali o‘qing: Kochkor yoki Narin tomondan ko‘tariling, koʻlni asosiy pauza qiling, oʻtovdagi tunashni diqqat bilan tanlang, keyin yoʻl gʻarbga qaytadimi, Naringa davom etadimi yoki keyinroq Tash Rabatga buriladimi, shuni hal qiling."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Marshrut xaritasi"
+      "title":
+        "en": "Song-Kul and the central highland choices"
+        "ru": "Сон-Куль и выбор центрального высокогорья"
+        "uz": "Soʻng-Koʻl va markaziy baland hudud tanlovlari"
+      "description":
+        "en": "The map keeps the lake-area logic visible: Kochkor on the approach, Song-Kul Lake as the anchor, Naryn on the practical river road, and Tash Rabat as a separate southbound continuation."
+        "ru": "Карта держит логику района озера: Кочкор на подходе, озеро Сон-Куль как главный ориентир, Нарын на практичной речной дороге и Таш-Рабат как отдельное южное продолжение."
+        "uz": "Xarita koʻl hududi mantiqini ko‘rsatadi: yondashuvda Kochkor, asosiy tayanch sifatida Soʻng-Koʻl koʻli, amaliy daryo yoʻlida Narin va alohida janubiy davom sifatida Tash Rabat."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.576582
+      "longitude": 75.548905
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "song-kul-lake"
+    "aside":
+      "eyebrow":
+        "en": "Route choice"
+        "ru": "Выбор маршрута"
+        "uz": "Marshrut tanlovi"
+      "title":
+        "en": "Keep the lake as the main pause"
+        "ru": "Оставьте озеро главной паузой"
+        "uz": "Koʻl asosiy pauza bo‘lib qolsin"
+      "description":
+        "en": "Song-Kul feels strongest when the route does less, not more. One lake, one camp, one weather-aware road choice, and a realistic exit usually make the high country feel clearer."
+        "ru": "Сон-Куль сильнее, когда маршрут делает меньше, а не больше. Одно озеро, один лагерь, одна дорога с учетом погоды и реалистичный выезд обычно раскрывают высокогорье лучше."
+        "uz": "Soʻng-Koʻl marshrut kamroq narsani tanlaganda kuchliroq ochiladi. Bitta koʻl, bitta lager, ob-havoga mos bitta yoʻl tanlovi va real chiqish baland hududni yaxshiroq his qildiradi."
+      "items":
+        - "title":
+            "en": "Choose the approach"
+            "ru": "Выберите подход"
+            "uz": "Yondashuvni tanlang"
+          "description":
+            "en": "Kochkor and Naryn give different road logic. The right approach depends on season, vehicle, previous overnight, and where the journey goes next."
+            "ru": "Кочкор и Нарын дают разную дорожную логику. Правильный подход зависит от сезона, машины, предыдущей ночевки и дальнейшего маршрута."
+            "uz": "Kochkor va Narin turli yoʻl mantiqini beradi. Toʻgʻri yondashuv mavsum, avtomobil, oldingi tunash va keyingi marshrutga bogʻliq."
+        - "title":
+            "en": "Make the lake the anchor"
+            "ru": "Сделайте озеро главным"
+            "uz": "Koʻlni tayanch qiling"
+          "description":
+            "en": "The lake should be the reason for the high-country pause, not a quick viewpoint squeezed between other mountain names."
+            "ru": "Озеро должно быть причиной высокогорной паузы, а не короткой смотровой точкой между другими горными названиями."
+            "uz": "Koʻl baland hududdagi pauzaning sababi bo‘lishi kerak, boshqa togʻ nomlari orasidagi qisqa tomosha nuqtasi emas."
+        - "title":
+            "en": "Check the camp"
+            "ru": "Проверьте лагерь"
+            "uz": "Lagerni tekshiring"
+          "description":
+            "en": "Heating, bedding, meals, sanitation, host readiness, and group size should be clear before the lake is confirmed."
+            "ru": "Отопление, постель, питание, санитарные условия, готовность хозяев и размер группы должны быть ясны до подтверждения озера."
+            "uz": "Isitish, yotoq, ovqat, sanitariya, mezbon tayyorgarligi va guruh hajmi koʻl tasdiqlanishidan oldin aniq bo‘lishi kerak."
+        - "title":
+            "en": "Decide the road out"
+            "ru": "Решите дорогу дальше"
+            "uz": "Keyingi yoʻlni hal qiling"
+          "description":
+            "en": "Naryn, Kochkor, Tash Rabat, and wider Central Tian Shan routes can all connect, but each needs enough road time and weather margin."
+            "ru": "Нарын, Кочкор, Таш-Рабат и другие дороги Центрального Тянь-Шаня могут связываться с Сон-Кулем, но каждому нужен запас времени и погоды."
+            "uz": "Narin, Kochkor, Tash Rabat va Markaziy Tyan-Shanning kengroq yoʻllari bogʻlanishi mumkin, lekin har biriga yoʻl va ob-havo zaxirasi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что смотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Start with the lake, then let the pasture explain the rest"
+      "ru": "Начните с озера, а пастбище объяснит остальное"
+      "uz": "Koʻldan boshlang, yaylov qolganini tushuntiradi"
+    "description":
+      "en": "Begin with Song-Kul Lake itself. Around it, yurt camps, riding routes, pass approaches, pasture culture, and birdlife add context only when the right host, access, and safety checks are clear."
+      "ru": "Начните с самого озера Сон-Куль. Вокруг него юртовые лагеря, верховая езда, перевальные подходы, пастбищная культура и птицы добавляют контекст только тогда, когда понятны хозяева, доступ и безопасность."
+      "uz": "Avval Soʻng-Koʻl koʻlining o‘zidan boshlang. Uning atrofida oʻtov lagerlari, ot minish, dovon yoʻllari, yaylov madaniyati va qushlar faqat mezbon, kirish va xavfsizlik aniq bo‘lganda kontekst qoʻshadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/naryn-song-kul-and-central-tian-shan/cities/song-kul/attractions/song-kul-lake.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Song-Kul Lake"
+          "ru": "Озеро Сон-Куль"
+          "uz": "Soʻng-Koʻl koʻli"
+        "description":
+          "en": "Song-Kul is where the Naryn high country opens wide. The lake lies among summer pasture, yurt camps, horses, and mountain roads that ask for patience. The visit is strongest with a night at the lake, a season check close to travel, and room for weather."
+          "ru": "Сон-Куль - место, где Нарынское высокогорье раскрывается широко. Озеро лежит среди летних пастбищ, юртовых лагерей, лошадей и горных дорог, которым нужно терпение. Сильный визит дает озеру ночь, проверяет сезон ближе к поездке и оставляет место погоде."
+          "uz": "Soʻng-Koʻl Narin baland hududi keng ochiladigan joy. Koʻl yozgi yaylovlar, oʻtov lagerlari, otlar va sabr talab qiladigan togʻ yoʻllari orasida yotadi. Kuchli tashrif koʻlga bir tun beradi, mavsumni safarga yaqin tekshiradi va ob-havo uchun joy qoldiradi."
+        "ctaHref": "/destinations/kyrgyzstan/naryn-song-kul-and-central-tian-shan/song-kul/song-kul-lake"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How Song-Kul feels"
+      "ru": "Как чувствуется Сон-Куль"
+      "uz": "Soʻng-Koʻl qanday seziladi"
+    "title":
+      "en": "Three ways the lake changes the route"
+      "ru": "Три способа, которыми озеро меняет маршрут"
+      "uz": "Koʻl marshrutni uch xil o‘zgartiradi"
+    "description":
+      "en": "Song-Kul is strongest when the road, the overnight, and the season are treated as part of the place rather than as logistics hidden behind the view."
+      "ru": "Сон-Куль сильнее всего, когда дорога, ночевка и сезон воспринимаются как часть места, а не как логистика, спрятанная за видом."
+      "uz": "Soʻng-Koʻl yoʻl, tunash va mavsum manzara ortida yashiringan logistika emas, joyning bir qismi sifatida ko‘rilganda kuchliroq ochiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan/character/song-kul/song-kul-character-1.webp"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Match the lake to the season"
+          "ru": "Сверьте озеро с сезоном"
+          "uz": "Koʻlni mavsumga moslang"
+        "description":
+          "en": "Roads, weather, warmth, meals, and camp readiness decide how calm the lake will feel once you arrive."
+          "ru": "Дороги, погода, тепло, питание и готовность лагеря решают, насколько спокойным будет озеро после приезда."
+          "uz": "Yoʻl, ob-havo, issiqlik, ovqat va lager tayyorgarligi yetib kelganingizda koʻl qanchalik sokin sezilishini belgilaydi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan/character/song-kul/song-kul-character-2.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Let the night define the lake"
+          "ru": "Пусть ночь определит озеро"
+          "uz": "Tun koʻlni belgilasin"
+        "description":
+          "en": "Song-Kul becomes more than scenery when the stove, bedding, tea, cold air, and host rhythm make the overnight real."
+          "ru": "Сон-Куль становится больше чем пейзажем, когда печь, постель, чай, холодный воздух и ритм хозяев делают ночевку настоящей."
+          "uz": "Pech, yotoq, choy, sovuq havo va mezbon ritmi tunashni haqiqiy qilganda Soʻng-Koʻl manzaradan ko‘proq narsaga aylanadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan/character/song-kul/song-kul-character-3.webp"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Arrive by the high road"
+          "ru": "Приехать по высокой дороге"
+          "uz": "Baland yoʻl orqali yetib boring"
+        "description":
+          "en": "The approach changes the scale of the journey: passes, open grass, and the first view of the lake make it clear why this road should not be rushed."
+          "ru": "Подход меняет масштаб поездки: перевалы, открытая трава и первый вид озера объясняют, почему эту дорогу не стоит проходить в спешке."
+          "uz": "Yondashuv sayohat miqyosini o‘zgartiradi: dovonlar, ochiq oʻtloq va koʻlning birinchi ko‘rinishi bu yoʻlni shoshirmaslik kerakligini ko‘rsatadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Yoʻlga chiqishdan oldin"
+    "title":
+      "en": "Let the lake stay spacious"
+      "ru": "Дайте озеру остаться просторным"
+      "uz": "Koʻl keng bo‘lib qolsin"
+    "description":
+      "en": "Song-Kul asks for a lighter plan than many maps suggest. The route should protect time for the road, the lake, the camp, and weather changes instead of adding every nearby highland name."
+      "ru": "Сон-Куль просит более легкого плана, чем кажется по карте. Маршрут должен защищать время на дорогу, озеро, лагерь и перемену погоды, а не добавлять каждое высокогорное название рядом."
+      "uz": "Soʻng-Koʻl xaritada ko‘ringanidan yengilroq reja so‘raydi. Marshrut yoʻl, koʻl, lager va ob-havo o‘zgarishiga vaqt qoldirishi kerak, yaqin atrofdagi har bir baland hudud nomini qo‘shishi emas."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Choose the approach"
+              "ru": "Выберите подход"
+              "uz": "Yondashuvni tanlang"
+            "description":
+              "en": "Kochkor and Naryn give different road logic. The right choice depends on season, vehicle, previous overnight, and where the route goes next."
+              "ru": "Кочкор и Нарын дают разную дорожную логику. Правильный выбор зависит от сезона, машины, предыдущей ночевки и дальнейшего маршрута."
+              "uz": "Kochkor va Narin turli yoʻl mantiqini beradi. Toʻgʻri tanlov mavsum, avtomobil, oldingi tunash va keyingi marshrutga bogʻliq."
+          - "type": "quote"
+            "quote":
+              "en": "Song-Kul is spacious because the plan is restrained: one lake, one night, the right road, and enough respect for weather."
+              "ru": "Сон-Куль остается просторным, когда план сдержан: одно озеро, одна ночь, правильная дорога и уважение к погоде."
+              "uz": "Soʻng-Koʻl reja tiyilganida keng bo‘lib qoladi: bitta koʻl, bitta tun, toʻgʻri yoʻl va ob-havoga yetarli hurmat."
+          - "type": "dashTitle"
+            "title":
+              "en": "Make camp standards explicit"
+              "ru": "Проговорите стандарты лагеря"
+              "uz": "Lager standartlarini aniq qiling"
+            "description":
+              "en": "Heating, bedding, meals, sanitation, host readiness, and group size should be clear before the lake is confirmed."
+              "ru": "Отопление, постель, питание, санитарные условия, готовность хозяев и размер группы должны быть ясны до подтверждения озера."
+              "uz": "Isitish, yotoq, ovqat, sanitariya, mezbon tayyorgarligi va guruh hajmi koʻl tasdiqlanishidan oldin aniq bo‘lishi kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Leave the exit unhurried"
+              "ru": "Планируйте выезд без спешки"
+              "uz": "Chiqish yoʻlini shoshirmang"
+            "description":
+              "en": "Tash Rabat, Naryn, Kochkor, and wider Central Tian Shan routes can all connect, but each needs enough road time and weather margin."
+              "ru": "Таш-Рабат, Нарын, Кочкор и другие дороги Центрального Тянь-Шаня могут связываться с Сон-Кулем, но каждому нужен запас времени и погоды."
+              "uz": "Tash Rabat, Narin, Kochkor va Markaziy Tyan-Shanning kengroq yoʻllari bogʻlanishi mumkin, lekin har biriga yoʻl va ob-havo zaxirasi kerak."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Главное для путешественника"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Treat Song-Kul as a high-country stay built around the lake, not as a crowded shortcut between other mountain names."
+              "ru": "Относитесь к Сон-Кулю как к высокогорной остановке вокруг озера, а не как к короткому коридору между другими горными названиями."
+              "uz": "Soʻng-Koʻlni boshqa togʻ nomlari orasidagi qisqa koridor emas, koʻl atrofida qurilgan baland hududdagi tunash sifatida qabul qiling."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Yoʻlga chiqishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Что важно знать Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "Song-Kul is a seasonal lake and jailoo context, not a built town."
+                  "ru": "Сон-Куль - сезонное озеро и джайлоо, а не город."
+                  "uz": "Soʻng-Koʻl mavsumiy koʻl va jayloo, qurilgan shahar emas."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main reason to stay"
+                  "ru": "Главная причина остаться"
+                  "uz": "Qolish sababi"
+                "description":
+                  "en": "The lake is strongest when travelers give it a night instead of treating it as a quick viewpoint."
+                  "ru": "Озеро сильнее, когда ему дают ночь, а не используют как короткую смотровую точку."
+                  "uz": "Koʻl qisqa tomosha nuqtasi emas, tun berilganda kuchliroq ochiladi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Season and pace"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va surʼat"
+                "description":
+                  "en": "Road openings, rain, snow, wind, temperature, and camp readiness shape the plan."
+                  "ru": "Дороги, дождь, снег, ветер, температура и готовность лагеря формируют план."
+                  "uz": "Yoʻllar, yomgʻir, qor, shamol, harorat va lager tayyorgarligi rejani belgilaydi."
+              - "icon": "Route"
+                "title":
+                  "en": "Route choice"
+                  "ru": "Выбор маршрута"
+                  "uz": "Marshrut tanlovi"
+                "description":
+                  "en": "Kochkor, Naryn, and Tash Rabat are different route decisions, not small add-ons."
+                  "ru": "Кочкор, Нарын и Таш-Рабат - разные решения, а не небольшие добавки."
+                  "uz": "Kochkor, Narin va Tash Rabat kichik qo‘shimchalar emas, alohida qarorlar."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Confirm locally"
+                  "ru": "Проверить на месте"
+                  "uz": "Mahalliy tekshiruv"
+                "description":
+                  "en": "Hosts, camp standards, road condition, riding plans, and weather should be checked close to travel."
+                  "ru": "Хозяев, стандарты лагеря, состояние дороги, верховую программу и погоду нужно проверять ближе к поездке."
+                  "uz": "Mezbonlar, lager standartlari, yoʻl holati, ot minish rejasi va ob-havo safarga yaqin tekshirilishi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqinda"
+    "title":
+      "en": "Kochkor, Naryn, and Tash Rabat shape the next choices"
+      "ru": "Кочкор, Нарын и Таш-Рабат задают следующие решения"
+      "uz": "Kochkor, Narin va Tash Rabat keyingi tanlovlarni belgilaydi"
+    "description":
+      "en": "Kochkor often gives the craft-and-host approach, Naryn gives the practical river-road pause, and Tash Rabat adds a separate caravanserai valley when the route has enough time. Song-Kul connects them, but should not be used to compress them."
+      "ru": "Кочкор часто дает ремесленный и гостевой подход, Нарын - практичную паузу на речной дороге, а Таш-Рабат добавляет отдельную долину караван-сарая, если у маршрута хватает времени. Сон-Куль связывает их, но не должен их сжимать."
+      "uz": "Kochkor ko‘pincha hunarmandchilik va mezbonlik yondashuvini beradi, Narin amaliy daryo-yoʻl pauzasini beradi, Tash Rabat esa vaqt yetarli bo‘lsa, alohida karvonsaroy vodiysini qoʻshadi. Soʻng-Koʻl ularni bogʻlaydi, lekin siqmasligi kerak."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/song-kul-next-kochkor.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Kochkor"
+          "ru": "Кочкор"
+          "uz": "Kochkor"
+        "description":
+          "en": "Kochkor gives the central highland route a careful first pause: felt craft, guesthouse time, market errands, and the road decisions before Song-Kul."
+          "ru": "Кочкор даёт центральному высокогорному маршруту спокойную первую паузу: войлочное ремесло, гостевой вечер, рыночные сборы и выбор дороги перед Сон-Кулем."
+          "uz": "Kochkor markaziy baland togʻ yoʻnalishiga sokin birinchi pauza beradi: kigiz hunari, mehmon uyi vaqti, bozor tayyorgarligi va Soʻng-Koʻl oldidagi yoʻl tanlovi."
+        "ctaHref": "/destinations/kyrgyzstan/naryn-song-kul-and-central-tian-shan/kochkor"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/song-kul-next-naryn.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Naryn"
+          "ru": "Нарын"
+          "uz": "Naryn"
+        "description":
+          "en": "Naryn gives the central Tian Shan route a useful river pause: a city overnight, dry mountain slopes, and weather-aware choices before the road turns toward Song-Kul, Tash Rabat, At-Bashy, or Kel-Suu."
+          "ru": "Нарын даёт маршруту по Центральному Тянь-Шаню полезную паузу у реки: городскую ночёвку, сухие горные склоны и выбор по погоде перед дорогой к Сон-Кулю, Таш-Рабату, Ат-Баши или Кель-Суу."
+          "uz": "Naryn Markaziy Tyan-Shan yoʻnalishiga daryo boʻyidagi foydali pauzani beradi: shaharda tunash, quruq togʻ yonbagʻirlari va Soʻng-Koʻl, Tash-Rabat, At-Bashi yoki Kel-Suu sari yoʻldan oldingi ob-havo tanlovi."
+        "ctaHref": "/destinations/kyrgyzstan/naryn-song-kul-and-central-tian-shan/naryn"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Tash Rabat"
+          "ru": "Таш-Рабат"
+          "uz": "Tash Rabat"
+        "description":
+          "en": "Tash Rabat is the high-valley stop beyond Naryn where the stone caravanserai, mountain weather, yurt-camp season, and southbound road turn Silk Road heritage into a careful route decision."
+          "ru": "Таш-Рабат - высокогорная остановка за Нарыном, где каменный караван-сарай, горная погода, сезон юртовых лагерей и южная дорога превращают наследие Шелкового пути в осознанное маршрутное решение."
+          "uz": "Tash Rabat Naryndan keyingi baland vodiy toʻxtashi: tosh karvonsaroy, togʻ ob-havosi, oʻtov lagerlari mavsumi va janubiy yoʻl Ipak yoʻli merosini ehtiyotkor marshrut qaroriga aylantiradi."
+        "ctaHref": "/destinations/kyrgyzstan/naryn-song-kul-and-central-tian-shan/tash-rabat"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Song-Kul in the day plan"
+      "ru": "Как поставить Сон-Куль в план дня"
+      "uz": "Soʻng-Koʻlni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Song-Kul?"
+          "ru": "Сколько времени группам стоит проводить в Сон-Куль?"
+          "uz": "Soʻng-Koʻlda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “High pasture, yurt camps, and onward mountain roads”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Высокогорное пастбище, юртовые лагеря и дальнейшие горные дороги»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Baland yaylov, oʻtov lagerlari va keyingi togʻ yoʻllari»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Song-Kul be a walkable core or a base for day trips?"
+          "ru": "Сон-Куль — это пешеходное ядро или база для выездов?"
+          "uz": "Soʻng-Koʻl piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Song-Kul's centre?"
+          "ru": "Где лучше ночевать относительно центра Сон-Куль?"
+          "uz": "Soʻng-Koʻl markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kyrgyzstan/regions/naryn-song-kul-and-central-tian-shan/cities/song-kul.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Song-Kul stop into your Kyrgyzstan programme"
+      "ru": "Встройте остановку «Сон-Куль» в программу (Кыргызстан)"
+      "uz": "Soʻng-Koʻl bekatini Qirgʻiziston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Song-Kul | TourLink"
+    "ru": "Сон-Куль | TourLink"
+    "uz": "Soʻng-Koʻl | TourLink"
+  "metaDescription":
+    "en": "Song-Kul is where the central highland route opens into water, pasture, horses, and sky. The lake area feels spacious because the journey slows down; it stays comfortable when weather, altitude, road condition, and the night's camp are treated with care."
+    "ru": "Сон-Куль - место, где центральный высокогорный маршрут раскрывается водой, пастбищем, лошадьми и небом. Район озера кажется просторным потому, что путь здесь замедляется; комфортным он остается, когда к погоде, высоте, состоянию дороги и лагерю на ночь относятся внимательно."
+    "uz": "Soʻng-Koʻl markaziy baland hudud marshruti suv, yaylov, otlar va osmonga ochiladigan joy. Koʻl hududi yoʻl sekinlashgani uchun keng tuyuladi; ob-havo, balandlik, yoʻl holati va tunash lageriga eʼtibor berilganda qulay bo‘ladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kyrgyzstan"
+"region": "naryn-song-kul-and-central-tian-shan"
+"latitude": 41.841375
+"longitude": 75.1551824

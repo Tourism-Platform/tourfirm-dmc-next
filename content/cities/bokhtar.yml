@@ -1,0 +1,502 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "bokhtar"
+  "ru": "bokhtar"
+  "uz": "bokhtar"
+"title":
+  "en": "Bokhtar"
+  "ru": "Бохтар"
+  "uz": "Boxtar"
+"subtitle":
+  "en": "A Vakhsh Valley city before the southern roads"
+  "ru": "Город Вахшской долины перед южными дорогами"
+  "uz": "Janubiy yo‘llardan oldingi Vaxsh vodiysi shahri"
+"excerpt":
+  "en": "South of Dushanbe, Bokhtar brings the route down into warmer valley country. Market streets, regional museum time, Ajina Teppa nearby, and the Vakhsh road network make the southern leg easier to understand before it moves again."
+  "ru": "Южнее Душанбе Бохтар опускает маршрут в теплую долинную часть страны. Рынок, региональный музей, близость Аджинатеппы и дороги Вахша помогают понять южный отрезок до того, как маршрут снова двинется дальше."
+  "uz": "Dushanbedan janubda Boxtar yo‘nalishni iliq vodiy hududiga tushiradi. Bozor, mintaqaviy muzey, yaqin Ajinatepa va Vaxsh yo‘llari janubiy qismni keyingi harakatdan oldin tushunarli qiladi."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "Bokhtar"
+      "ru": "Бохтар"
+      "uz": "Boxtar"
+    "title":
+      "en": "Bokhtar"
+      "ru": "Бохтар"
+      "uz": "Boxtar"
+    "description":
+      "en": "A Vakhsh Valley city before the southern roads"
+      "ru": "Город Вахшской долины перед южными дорогами"
+      "uz": "Janubiy yo‘llardan oldingi Vaxsh vodiysi shahri"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Bokhtar"
+      "ru": "Бохтар"
+      "uz": "Boxtar"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "South of Dushanbe, Bokhtar brings the route down into warmer valley country."
+              "ru": "Южнее Душанбе Бохтар опускает маршрут в теплую долинную часть страны."
+              "uz": "Dushanbedan janubda Boxtar yo‘nalishni iliq vodiy hududiga tushiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Bokhtar should stay selective. Begin with the city and market rhythm, add museum or Ajina Teppa only when conditions fit, and choose one continuation when heat, road surface, and guide support make it worthwhile."
+              "ru": "Бохтар лучше оставлять выборочным. Начните с города и рынка, добавьте музей или Аджинатеппу, если условия подходят, и выбирайте одно продолжение, когда жара, дорога и сопровождение позволяют."
+              "uz": "Boxtarni tanlab ko‘rgan ma’qul. Shahar va bozor ritmidan boshlang, muzey yoki Ajinatepani sharoit mos kelsa qo‘shing, va issiq, yo‘l hamda gid yordami mos kelganda bitta davomni tanlang."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "A clear southern leg keeps Bokhtar from becoming a road list: city life first, one heritage stop next, and then a decision toward Kulob, Nurek, Ajina Teppa, Kalai Hulbuk, or a return north."
+              "ru": "Понятный южный отрезок не превращает Бохтар в список дорог: сначала городская жизнь, затем один исторический контекст и только потом выбор к Кулябу, Нуреку, Аджинатеппе, Калаи Хульбук или обратно на север."
+              "uz": "Aniq janubiy qism Boxtarni yo‘llar ro‘yxatiga aylantirmaydi: avval shahar hayoti, keyin bitta meros izohi va so‘ng Ko‘lob, Nurek, Ajinatepa, Kalai Xulbuk yoki shimolga qaytish qarori."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Bokhtar as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Бохтар как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Boxtar o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "Start in the city, then choose one southern road"
+      "ru": "Сначала город, затем одна южная дорога"
+      "uz": "Avval shahar, keyin bitta janubiy yo‘l"
+    "description":
+      "en": "Bokhtar should stay selective. Begin with the city and market rhythm, add museum or Ajina Teppa only when conditions fit, and choose one continuation when heat, road surface, and guide support make it worthwhile."
+      "ru": "Бохтар лучше оставлять выборочным. Начните с города и рынка, добавьте музей или Аджинатеппу, если условия подходят, и выбирайте одно продолжение, когда жара, дорога и сопровождение позволяют."
+      "uz": "Boxtarni tanlab ko‘rgan ma’qul. Shahar va bozor ritmidan boshlang, muzey yoki Ajinatepani sharoit mos kelsa qo‘shing, va issiq, yo‘l hamda gid yordami mos kelganda bitta davomni tanlang."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Marshrut xaritasi"
+      "title":
+        "en": "Bokhtar, Vakhsh roads, and Ancient Khuttal"
+        "ru": "Бохтар, дороги Вахша и Древний Хутталь"
+        "uz": "Boxtar, Vaxsh yo‘llari va Qadimgi Xuttal"
+      "description":
+        "en": "The map anchors Bokhtar with nearby Khatlon route points. It helps orientation, while site access, heat, and road comfort still need to fit the travel date."
+        "ru": "Карта связывает Бохтар с ближайшими точками Хатлона. Она помогает с ориентацией, но доступ, жара и состояние дорог должны подходить под дату поездки."
+        "uz": "Xarita Boxtarni yaqin Xatlon nuqtalari bilan ko‘rsatadi. U yo‘nalishni tushunishga yordam beradi, ammo kirish, issiq va yo‘l qulayligi safar sanasiga mos bo‘lishi kerak."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 37.941865
+      "longitude": 69.255065
+    "zoom": 14
+    "stops": []
+    "aside":
+      "eyebrow":
+        "en": "Route sequence"
+        "ru": "Последовательность"
+        "uz": "Ketma-ketlik"
+      "title":
+        "en": "City first, then one continuation"
+        "ru": "Сначала город, затем одно продолжение"
+        "uz": "Avval shahar, keyin bitta davom"
+      "description":
+        "en": "A clear southern leg keeps Bokhtar from becoming a road list: city life first, one heritage stop next, and then a decision toward Kulob, Nurek, Ajina Teppa, Kalai Hulbuk, or a return north."
+        "ru": "Понятный южный отрезок не превращает Бохтар в список дорог: сначала городская жизнь, затем один исторический контекст и только потом выбор к Кулябу, Нуреку, Аджинатеппе, Калаи Хульбук или обратно на север."
+        "uz": "Aniq janubiy qism Boxtarni yo‘llar ro‘yxatiga aylantirmaydi: avval shahar hayoti, keyin bitta meros izohi va so‘ng Ko‘lob, Nurek, Ajinatepa, Kalai Xulbuk yoki shimolga qaytish qarori."
+      "items":
+        - "title":
+            "en": "Begin with the market streets"
+            "ru": "Начните с рыночных улиц"
+            "uz": "Bozor ko‘chalaridan boshlang"
+          "description":
+            "en": "Bokhtar's city life gives the Vakhsh Valley a human start: food stalls, errands, traffic, and the everyday movement that archaeology alone cannot show."
+            "ru": "Городская жизнь Бохтара дает Вахшской долине человеческое начало: еда, покупки, движение и повседневный ритм, которого не видно только по археологии."
+            "uz": "Boxtarning shahar hayoti Vaxsh vodiysiga insoniy boshlanish beradi: ovqat, xarid, harakat va faqat arxeologiyada ko‘rinmaydigan kundalik ritm."
+        - "title":
+            "en": "Use the museum for Khatlon context"
+            "ru": "Дайте музею объяснить Хатлон"
+            "uz": "Muzey Xatlonni tushuntirsin"
+          "description":
+            "en": "The regional museum can help the south read as a lived region, not only a set of ruins. Confirm opening hours and collection access before the visit."
+            "ru": "Региональный музей помогает увидеть юг как живой регион, а не только набор руин. Часы работы и доступ к экспозиции нужно проверить заранее."
+            "uz": "Mintaqaviy muzey janubni faqat xarobalar emas, yashayotgan hudud sifatida ko‘rsatadi. Ish vaqti va ekspozitsiyaga kirish oldindan aniqlanadi."
+        - "title":
+            "en": "Add archaeology only when conditions fit"
+            "ru": "Добавляйте археологию только при подходящих условиях"
+            "uz": "Arxeologiyani faqat sharoit mos bo‘lsa qo‘shing"
+          "description":
+            "en": "Ajina Teppa is the strongest nearby archaeology signal, but it works best with a guide, manageable heat, and road timing that make the stop responsible."
+            "ru": "Аджинатеппа — самый сильный археологический сигнал рядом с Бохтаром, но остановка требует проверки доступа, гида, жары и дороги."
+            "uz": "Ajinatepa Boxtar yaqinidagi eng kuchli arxeologik belgi, ammo to‘xtash kirish, gid, issiq va yo‘l sharoiti mos bo‘lganda to‘g‘ri keladi."
+        - "title":
+            "en": "Let comfort shape the order"
+            "ru": "Пусть порядок задает комфорт"
+            "uz": "Tartibni qulaylik belgilasin"
+          "description":
+            "en": "In Khatlon, shade, water, vehicle comfort, and road surface can matter more than adding another stop. Keep the route calm."
+            "ru": "В Хатлоне тень, вода, комфорт машины и состояние дороги могут быть важнее еще одной остановки. Сохраняйте спокойный маршрут."
+            "uz": "Xatlonda soya, suv, mashina qulayligi va yo‘l holati yana bir to‘xtashdan muhimroq bo‘lishi mumkin. Yo‘nalishni sokin tuting."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "City life before the southern road"
+      "ru": "Городская жизнь перед южной дорогой"
+      "uz": "Janubiy yo‘ldan oldingi shahar hayoti"
+    "description":
+      "en": "Bokhtar is best read through a few practical anchors rather than a long checklist. Start with the living city, then add one heritage or road decision."
+      "ru": "Бохтар лучше читать через несколько практичных ориентиров, а не длинный список. Сначала живой город, затем один исторический или дорожный выбор."
+      "uz": "Boxtarni uzun ro‘yxat bilan emas, bir nechta amaliy mo‘ljal orqali tushunish yaxshiroq. Avval tirik shahar, keyin bitta tarixiy yoki yo‘l tanlovi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Bokhtar moments"
+      "ru": "Моменты Бохтара"
+      "uz": "Boxtar lahzalari"
+    "title":
+      "en": "Three choices that make the city useful"
+      "ru": "Три выбора, которые делают город полезным"
+      "uz": "Shaharni foydali qiladigan uch tanlov"
+    "description":
+      "en": "Keep Bokhtar small and purposeful: a market morning, one guided heritage context, and a road decision shaped by current local advice."
+      "ru": "Бохтар лучше держать небольшим и точным: рыночное утро, один исторический контекст и дорожное решение с местным советом."
+      "uz": "Boxtarni kichik va aniq tuting: bozor tongi, bitta tarixiy izoh va mahalliy maslahatga tayangan yo‘l qarori."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Start with city life before the road"
+          "ru": "Сначала городская жизнь, потом дорога"
+          "uz": "Yo‘ldan oldin shahar hayotidan boshlash"
+        "description":
+          "en": "Bread, fruit, traffic, and ordinary errands give Bokhtar a human start before museum time or the southern archaeology road."
+          "ru": "Хлеб, фрукты, движение и повседневные дела дают Бохтару человеческое начало перед музеем или южной археологической дорогой."
+          "uz": "Non, meva, harakat va kundalik ishlar muzey yoki janubiy arxeologiya yo‘lidan oldin Boxtarga insoniy boshlanish beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Buddhist archaeology near Bokhtar"
+          "ru": "Буддийская археология рядом с Бохтаром"
+          "uz": "Boxtar yaqinidagi buddaviy arxeologiya"
+        "description":
+          "en": "The stop can deepen Khatlon's archaeology story when access, guide quality, heat, and road comfort fit the travel date."
+          "ru": "Остановка углубляет историю археологии Хатлона, если доступ, гид, жара и дорога подходят под дату поездки."
+          "uz": "Kirish, gid sifati, issiq va yo‘l qulayligi safar sanasiga mos kelsa, bu to‘xtash Xatlon arxeologiyasini chuqurlashtiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Choose the southern continuation calmly"
+          "ru": "Спокойно выберите южное продолжение"
+          "uz": "Janubiy davomni xotirjam tanlash"
+        "description":
+          "en": "Bokhtar helps decide whether the next move is Kulob, Nurek, Ajina Teppa, Kalai Hulbuk, or a return north."
+          "ru": "Бохтар помогает решить, что дальше: Куляб, Нурек, Аджинатеппа, Калаи Хульбук или возвращение на север."
+          "uz": "Boxtar keyingi harakat Ko‘lob, Nurek, Ajinatepa, Kalai Xulbuk yoki shimolga qaytish bo‘lishini aniqlashga yordam beradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "Keep Bokhtar honest and selective"
+      "ru": "Держите Бохтар честным и выборочным"
+      "uz": "Boxtarni halol va tanlangan holda saqlang"
+    "description":
+      "en": "Bokhtar becomes useful when the traveler understands what it can and cannot carry: city life, museum context, and one careful southern continuation."
+      "ru": "Бохтар полезен, когда понятно, что он может взять на себя: живой город, музейный контекст и одно аккуратное продолжение на юг."
+      "uz": "Boxtar nima bera olishini aniq tushuntirganda foydali: shahar hayoti, muzey mazmuni va janubga bitta ehtiyotkor davom."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Let the city speak first"
+              "ru": "Дайте городу прозвучать первым"
+              "uz": "Avval shahar gapirsin"
+            "description":
+              "en": "Bokhtar is strongest when it starts with living city texture: the market, food, errands, and the ordinary pace of the Vakhsh Valley."
+              "ru": "Бохтар сильнее всего начинается с городской жизни: рынка, еды, повседневного движения и обычного темпа Вахшской долины."
+              "uz": "Boxtar shahar hayotidan boshlanganda kuchliroq: bozor, ovqat, kundalik harakat va Vaxsh vodiysining odatiy ritmi."
+          - "type": "quote"
+            "quote":
+              "en": "Bokhtar is strongest when it keeps the south readable: city life first, one heritage context, and a road choice made with current local advice."
+              "ru": "Бохтар сильнее всего, когда юг остается понятным: сначала город, затем один исторический контекст и дорожный выбор по свежей местным советом."
+              "uz": "Boxtar janubni tushunarli tutganda kuchli: avval shahar, keyin bitta tarixiy izoh va mahalliy maslahat bilan yo‘l qarori."
+          - "type": "dashTitle"
+            "title":
+              "en": "Add archaeology with care"
+              "ru": "Добавляйте археологию аккуратно"
+              "uz": "Arxeologiyani ehtiyotkor qo‘shing"
+            "description":
+              "en": "Ajina Teppa and wider Ancient Khuttal context can deepen the route, but they need current information, a guide who can explain them well, and a plan that respects heat and access."
+              "ru": "Аджинатеппа и широкий контекст Древнего Хутталя могут углубить маршрут, но им нужны свежие данные, хороший гид, уважение к жаре и понимание доступа."
+              "uz": "Ajinatepa va Qadimgi Xuttal izohi yo‘nalishni chuqurlashtirishi mumkin, ammo ularga aniq ma’lumot, yaxshi gid, issiqni hisobga olish va kirish tushunilgan reja kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Choose one onward road"
+              "ru": "Выберите одну дальнейшую дорогу"
+              "uz": "Bitta keyingi yo‘lni tanlang"
+            "description":
+              "en": "The southern leg stays clearer when Bokhtar leads to one next decision: Kulob, Nurek, Ajina Teppa, Kalai Hulbuk, or a return toward Dushanbe."
+              "ru": "Южный отрезок остается понятнее, когда Бохтар ведет к одному следующему решению: Кулябу, Нуреку, Аджинатеппе, Калаи Хульбук или возвращению к Душанбе."
+              "uz": "Janubiy qism Boxtar bitta keyingi qarorga olib kelganda tushunarliroq: Ko‘lob, Nurek, Ajinatepa, Kalai Xulbuk yoki Dushanbe tomon qaytish."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Что важно путешественнику"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Treat Bokhtar as a Vakhsh Valley anchor, not a monument list: one city reading, one careful heritage choice, and a confirmed road before continuing."
+              "ru": "Воспринимайте Бохтар как ориентир Вахшской долины: один городской сюжет, один аккуратный выбор наследия и проверенная дорога дальше."
+              "uz": "Boxtarni Vaxsh vodiysi tayanchi sifatida ko‘ring: bitta shahar tushunchasi, bitta ehtiyotkor meros tanlovi va davomdan oldin aniqlangan yo‘l."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "City in Khatlon & Southern Archaeology, in the Vakhsh Valley south of Dushanbe."
+                  "ru": "Город региона Хатлон и южная археология в Вахшской долине, южнее Душанбе."
+                  "uz": "Dushanbedan janubda, Vaxsh vodiysidagi Xatlon va Janubiy arxeologiya shahri."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Stay"
+                  "ru": "Время"
+                  "uz": "Vaqt"
+                "description":
+                  "en": "Usually a short city stop or one overnight stop when the southern route needs it."
+                  "ru": "Обычно короткая городская остановка или одна ночь, если южному маршруту это нужно."
+                  "uz": "Odatda qisqa shahar to‘xtashi yoki janubiy yo‘nalish talab qilsa bir kecha."
+              - "icon": "Sun"
+                "title":
+                  "en": "Main anchors"
+                  "ru": "Главные ориентиры"
+                  "uz": "Asosiy mo‘ljallar"
+                "description":
+                  "en": "Market streets, regional museum, Ajina Teppa context, and valley-road decisions."
+                  "ru": "Рыночные улицы, региональный музей, контекст Аджинатеппы и выбор дорог по долине."
+                  "uz": "Bozor ko‘chalari, mintaqaviy muzey, Ajinatepa izohi va vodiy yo‘llari tanlovi."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and comfort"
+                  "ru": "Сезон и комфорт"
+                  "uz": "Mavsum va qulaylik"
+                "description":
+                  "en": "Heat, shade, road surface, museum access, and vehicle comfort should shape the visit order."
+                  "ru": "Жара, тень, дорога, доступ к музею и комфорт машины задают порядок визита."
+                  "uz": "Issiq, soya, yo‘l, muzey kirishi va mashina qulayligi tashrif tartibini belgilaydi."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before departure"
+                  "ru": "Перед выездом"
+                  "uz": "Yo‘lga chiqishdan oldin"
+                "description":
+                  "en": "Confirm museum access, Ajina Teppa conditions, road timing, water, guide support, and current local advice."
+                  "ru": "Уточните музей, условия Аджинатеппы, время дороги, воду, гида и местный совет."
+                  "uz": "Muzey, Ajinatepa sharoiti, yo‘l vaqti, suv, gid va mahalliy maslahatni aniqlang."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Where to continue"
+      "ru": "Куда продолжить"
+      "uz": "Qayerga davom etish"
+    "title":
+      "en": "Dushanbe, Kulob, and the wider Khatlon route"
+      "ru": "Душанбе, Куляб и широкий маршрут Хатлона"
+      "uz": "Dushanbe, Ko‘lob va kengroq Xatlon yo‘nalishi"
+    "description":
+      "en": "Dushanbe remains the main return point; Kulob is the strongest southern continuation already open. Nurek and other Khatlon roads need separate timing and road decisions."
+      "ru": "Душанбе остается главным возвращением, а Куляб — самым сильным открытым южным продолжением. Нурек и другие дороги Хатлона требуют отдельной оценки времени и дорожных условий."
+      "uz": "Dushanbe asosiy qaytish nuqtasi bo‘lib qoladi; Ko‘lob esa hozircha eng kuchli ochiq janubiy davom. Nurek va boshqa Xatlon yo‘llari alohida vaqt va yo‘l qarorini talab qiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Dushanbe"
+          "ru": "Душанбе"
+          "uz": "Dushanbe"
+        "description":
+          "en": "Dushanbe is Tajikistan's calm arrival city: Rudaki Avenue shade, national museums, tea-house stops, and first choices toward Hissar, Varzob, or higher valleys."
+          "ru": "Душанбе — спокойное место прибытия в Таджикистан: тень проспекта Рудаки, национальные музеи, чайхана или рынок и первые решения к Гиссару, Варзобу или высоким долинам."
+          "uz": "Dushanbe Tojikistonga sokin kirish shahri: Rudakiy xiyoboni soyasi, milliy muzeylar, choyxona toʻxtashlari va Hisor, Varzob yoki baland vodiylar tomon ilk tanlovlar."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/dushanbe"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Kulob"
+          "ru": "Куляб"
+          "uz": "Koʻlob"
+        "description":
+          "en": "Kulob gives southern Khatlon a measured stop around the Hamadani shrine, market streets, museum time, and the carefully chosen road toward Hulbuk or Dushanbe."
+          "ru": "Куляб даёт южному Хатлону спокойную остановку: пространство Хамадани, рыночные улицы, время для музея и аккуратный выбор дороги к Хулбуку или Душанбе."
+          "uz": "Koʻlob janubiy Xatlonda Hamadoniy ziyoratgohi, bozor koʻchalari, muzey vaqti va Hulbuk yoki Dushanbe tomon ehtiyotkor yoʻl tanlovi uchun sokin toʻxtash beradi."
+        "ctaHref": "/destinations/tajikistan/khatlon-and-southern-archaeology/kulob"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Bokhtar in the day plan"
+      "ru": "Как поставить Бохтар в план дня"
+      "uz": "Boxtarni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Bokhtar?"
+          "ru": "Сколько времени группам стоит проводить в Бохтар?"
+          "uz": "Boxtarda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A Vakhsh Valley city before the southern roads”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Город Вахшской долины перед южными дорогами»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Janubiy yo‘llardan oldingi Vaxsh vodiysi shahri»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Bokhtar be a walkable core or a base for day trips?"
+          "ru": "Бохтар — это пешеходное ядро или база для выездов?"
+          "uz": "Boxtar piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Bokhtar's centre?"
+          "ru": "Где лучше ночевать относительно центра Бохтар?"
+          "uz": "Boxtar markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Bokhtar stop into your Tajikistan programme"
+      "ru": "Встройте остановку «Бохтар» в программу (Таджикистан)"
+      "uz": "Boxtar bekatini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Bokhtar | TourLink"
+    "ru": "Бохтар | TourLink"
+    "uz": "Boxtar | TourLink"
+  "metaDescription":
+    "en": "South of Dushanbe, Bokhtar brings the route down into warmer valley country. Market streets, regional museum time, Ajina Teppa nearby, and the Vakhsh road network make the southern leg easier to understand before it moves again."
+    "ru": "Южнее Душанбе Бохтар опускает маршрут в теплую долинную часть страны. Рынок, региональный музей, близость Аджинатеппы и дороги Вахша помогают понять южный отрезок до того, как маршрут снова двинется дальше."
+    "uz": "Dushanbedan janubda Boxtar yo‘nalishni iliq vodiy hududiga tushiradi. Bozor, mintaqaviy muzey, yaqin Ajinatepa va Vaxsh yo‘llari janubiy qismni keyingi harakatdan oldin tushunarli qiladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "khatlon-and-southern-archaeology"
+"latitude": 37.8357217
+"longitude": 68.7820957

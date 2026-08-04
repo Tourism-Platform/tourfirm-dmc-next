@@ -1,0 +1,263 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "katon-karagay-national-park"
+  "ru": "katon-karagay-national-park"
+  "uz": "katon-karagay-national-park"
+"title":
+  "en": "Katon-Karagay National Park"
+  "ru": "Катон-Карагайский национальный парк"
+  "uz": "Katon-Qaragʻay milliy bogʻi"
+"subtitle":
+  "en": "A protected Altai landscape that asks for time"
+  "ru": "Охраняемый Алтай, на который нужно время"
+  "uz": "Vaqt talab qiladigan qoʻriqlanadigan Altay manzarasi"
+"excerpt":
+  "en": "The park changes the scale of East Kazakhstan. After Oskemen and the Irtysh cities, the route moves toward forest, river valleys, mountain weather, and a protected landscape where distance is part of the experience. Treat Katon-Karagay as the Altai reason to slow down, not as one more stop after the city."
+  "ru": "Парк меняет масштаб Восточного Казахстана. После Усть-Каменогорска и городов на Иртыше маршрут уходит к лесу, речным долинам, горной погоде и охраняемому ландшафту, где расстояние становится частью впечатления. Катон-Карагай стоит воспринимать как алтайскую причину замедлиться, а не как ещё одну остановку после города."
+  "uz": "Bogʻ Sharqiy Qozogʻiston miqyosini oʻzgartiradi. Oʻskemen va Irtish shaharlari ortda qolgach, yoʻnalish oʻrmon, daryo vodiylari, togʻ ob-havosi va qoʻriqlanadigan manzaraga kiradi; bu yerda masofaning oʻzi taassurotning bir qismidir. Katon-Qaragʻayni shahardan keyingi yana bir toʻxtash emas, Altay uchun sekinlashish sababi sifatida ko‘ring."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "Katon-Karagay National Park"
+      "ru": "Катон-Карагайский национальный парк"
+      "uz": "Katon-Qaragʻay milliy bogʻi"
+    "title":
+      "en": "Katon-Karagay National Park"
+      "ru": "Катон-Карагайский национальный парк"
+      "uz": "Katon-Qaragʻay milliy bogʻi"
+    "description":
+      "en": "A protected Altai landscape that asks for time"
+      "ru": "Охраняемый Алтай, на который нужно время"
+      "uz": "Vaqt talab qiladigan qoʻriqlanadigan Altay manzarasi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Katon-Karagay National Park"
+      "ru": "Катон-Карагайский национальный парк"
+      "uz": "Katon-Qaragʻay milliy bogʻi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "The park changes the scale of East Kazakhstan."
+              "ru": "Парк меняет масштаб Восточного Казахстана."
+              "uz": "Bogʻ Sharqiy Qozogʻiston miqyosini oʻzgartiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Katon-Karagay National Park explains why travelers continue this far east: protected Altai forest, long valleys, alpine weather, and enough distance from the city for the journey to feel different."
+              "ru": "Катон-Карагайский национальный парк объясняет, зачем ехать так далеко на восток: охраняемый алтайский лес, длинные долины, горная погода и дистанция от города делают путешествие другим."
+              "uz": "Katon-Qaragʻay milliy bogʻi sayohatchilar nega bunchalik sharqqa borishini tushuntiradi: qoʻriqlanadigan Altay oʻrmoni, uzun vodiylar, togʻ ob-havosi va shahardan uzoqlik safarni boshqacha qiladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — A protected Altai landscape that asks for time."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Охраняемый Алтай, на который нужно время."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Vaqt talab qiladigan qoʻriqlanadigan Altay manzarasi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Katon-Karagay National Park as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Катон-Карагайский национальный парк как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Katon-Qaragʻay milliy bogʻi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Katon-Karagay National Park sits on the route"
+      "ru": "Где Катон-Карагайский национальный парк стоит на маршруте"
+      "uz": "Katon-Qaragʻay milliy bogʻi marshrutda qayerda"
+    "description":
+      "en": "One clear point for Katon-Karagay National Park — A protected Altai landscape that asks for time."
+      "ru": "Одна понятная точка для «Катон-Карагайский национальный парк» — Охраняемый Алтай, на который нужно время."
+      "uz": "Katon-Qaragʻay milliy bogʻi uchun bitta aniq nuqta — Vaqt talab qiladigan qoʻriqlanadigan Altay manzarasi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Katon-Karagay National Park"
+        "ru": "Катон-Карагайский национальный парк"
+        "uz": "Katon-Qaragʻay milliy bogʻi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 49.3590172
+      "longitude": 86.6746937
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "katon-karagay-national-park"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "The mountain anchor of the eastern route"
+      "ru": "Горный ориентир восточного маршрута"
+      "uz": "Sharqiy yoʻnalishning togʻ tayanchi"
+    "description":
+      "en": "Katon-Karagay National Park explains why travelers continue this far east: protected Altai forest, long valleys, alpine weather, and enough distance from the city for the journey to feel different.
+
+
+        «Here the route stops feeling urban and starts answering to forest, weather, distance, and protected-area rules.»"
+      "ru": "Катон-Карагайский национальный парк объясняет, зачем ехать так далеко на восток: охраняемый алтайский лес, длинные долины, горная погода и дистанция от города делают путешествие другим.
+
+
+        «Здесь маршрут перестаёт быть городским и начинает подчиняться лесу, погоде, расстоянию и правилам охраняемой территории.»"
+      "uz": "Katon-Qaragʻay milliy bogʻi sayohatchilar nega bunchalik sharqqa borishini tushuntiradi: qoʻriqlanadigan Altay oʻrmoni, uzun vodiylar, togʻ ob-havosi va shahardan uzoqlik safarni boshqacha qiladi.
+
+
+        «Bu yerda yoʻnalish shahar ritmidan chiqib, oʻrmon, ob-havo, masofa va qoʻriqlanadigan hudud qoidalariga bo‘ysuna boshlaydi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "Forest, valleys, and mountain-road scale"
+      "ru": "Лес, долины и масштаб горной дороги"
+      "uz": "Oʻrmon, vodiylar va togʻ yoʻli miqyosi"
+    "description":
+      "en": "The park is best introduced through broad landscape cues. What you see depends on the chosen road, season, weather, and local access advice."
+      "ru": "Парк лучше открывается через крупные ландшафтные ориентиры. То, что увидит путешественник, зависит от выбранной дороги, сезона, погоды и местного совета по доступу."
+      "uz": "Bogʻni yirik landshaft belgilari orqali tushunish osonroq. Nima koʻrishingiz tanlangan yoʻl, mavsum, ob-havo va mahalliy kirish maslahatiga bogʻliq."
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Katon-Karagay National Park"
+      "ru": "Что агентства спрашивают про Катон-Карагайский национальный парк"
+      "uz": "Agentliklar Katon-Qaragʻay milliy bogʻi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Katon-Karagay National Park get in the day plan?"
+          "ru": "Сколько времени закладывать на Катон-Карагайский национальный парк в плане дня?"
+          "uz": "Katon-Qaragʻay milliy bogʻi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "a focused half-day with buffer is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “A protected Altai landscape that asks for time”."
+          "ru": "Для большинства групп реалистичный диапазон — полдня с запасом. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Охраняемый Алтай, на который нужно время»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — zaxira bilan yarim kun. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Vaqt talab qiladigan qoʻriqlanadigan Altay manzarasi»."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "When is Katon-Karagay National Park strongest during the day?"
+          "ru": "В какое время дня Катон-Карагайский национальный парк раскрывается сильнее?"
+          "uz": "Katon-Qaragʻay milliy bogʻi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer early morning or late afternoon. That usually improves comfort, photos, and how the stop feels in the sequence around katon-karagay."
+          "ru": "Лучше рано утром или ближе к вечеру. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с katon-karagay."
+          "uz": "erta tong yoki kechga yaqin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (katon-karagay atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "How should Katon-Karagay National Park sit next to nearby stops?"
+          "ru": "Как поставить Катон-Карагайский национальный парк рядом с соседними остановками?"
+          "uz": "Katon-Qaragʻay milliy bogʻini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Katon-Karagay National Park to your Kazakhstan programme"
+      "ru": "Добавьте «Катон-Карагайский национальный парк» в программу (Казахстан)"
+      "uz": "Katon-Qaragʻay milliy bogʻini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Katon-Karagay National Park | TourLink"
+    "ru": "Катон-Карагайский национальный парк | TourLink"
+    "uz": "Katon-Qaragʻay milliy bogʻi | TourLink"
+  "metaDescription":
+    "en": "The park changes the scale of East Kazakhstan. After Oskemen and the Irtysh cities, the route moves toward forest, river valleys, mountain weather, and a protected landscape where distance is part of the experience. Treat Katon-Karagay as the Altai reason to slow down, not as one more stop after the city."
+    "ru": "Парк меняет масштаб Восточного Казахстана. После Усть-Каменогорска и городов на Иртыше маршрут уходит к лесу, речным долинам, горной погоде и охраняемому ландшафту, где расстояние становится частью впечатления. Катон-Карагай стоит воспринимать как алтайскую причину замедлиться, а не как ещё одну остановку после города."
+    "uz": "Bogʻ Sharqiy Qozogʻiston miqyosini oʻzgartiradi. Oʻskemen va Irtish shaharlari ortda qolgach, yoʻnalish oʻrmon, daryo vodiylari, togʻ ob-havosi va qoʻriqlanadigan manzaraga kiradi; bu yerda masofaning oʻzi taassurotning bir qismidir. Katon-Qaragʻayni shahardan keyingi yana bir toʻxtash emas, Altay uchun sekinlashish sababi sifatida ko‘ring."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "east-kazakhstan-and-altai"
+"city": "katon-karagay"
+"type": "FORTRESS"
+"importance": "RECOMMENDED"
+"latitude": 49.3590172
+"longitude": 86.6746937

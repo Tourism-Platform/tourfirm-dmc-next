@@ -1,0 +1,631 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "oqsoy"
+  "ru": "oqsoy"
+  "uz": "oqsoy"
+"title":
+  "en": "Oqsoy"
+  "ru": "Оксой"
+  "uz": "Oqsoy"
+"subtitle":
+  "en": "A Nurobod mountain village by the Hazrati Dovud pilgrimage road"
+  "ru": "Горное село Нурабада у паломнической дороги Хазрати Довуда"
+  "uz": "Hazrati Dovud ziyorat yo‘li yonidagi Nurobod tog‘ qishlog‘i"
+"excerpt":
+  "en": "Oqsoy takes Samarkand into the Nurobod mountains. The Hazrati Dovud setting gives the road a sacred tone, while the village is strongest as a simple arrival with a family table or stay, a short walk, and a calm road back."
+  "ru": "Оксой выводит Самарканд к горам Нурабада. Среда Хазрати Довуда задаёт дороге сакральный тон, а село сильнее всего раскрывается через простой приезд, семейный стол или ночёвку, короткую прогулку и спокойную дорогу назад."
+  "uz": "Oqsoy Samarqandni Nurobod tog‘lari tomon olib chiqadi. Hazrati Dovud muhiti yo‘lga muqaddas ohang beradi, qishloq esa sodda kelish, oilaviy dasturxon yoki tunash, qisqa sayr va sokin qaytish bilan kuchliroq ochiladi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/oqsoy.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/oqsoy.webp"
+    "imageAlt":
+      "en": "Oqsoy"
+      "ru": "Оксой"
+      "uz": "Oqsoy"
+    "title":
+      "en": "Oqsoy"
+      "ru": "Оксой"
+      "uz": "Oqsoy"
+    "description":
+      "en": "A Nurobod mountain village by the Hazrati Dovud pilgrimage road"
+      "ru": "Горное село Нурабада у паломнической дороги Хазрати Довуда"
+      "uz": "Hazrati Dovud ziyorat yo‘li yonidagi Nurobod tog‘ qishlog‘i"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Oqsoy"
+      "ru": "Оксой"
+      "uz": "Oqsoy"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Oqsoy takes Samarkand into the Nurobod mountains."
+              "ru": "Оксой выводит Самарканд к горам Нурабада."
+              "uz": "Oqsoy Samarqandni Nurobod tog‘lari tomon olib chiqadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Start from Samarkand, let the Nurobod road change the scale, then give Oqsoy time for the sacred setting, village welcome, and return."
+              "ru": "Начните с Самарканда, дайте нурабадской дороге изменить масштаб, а затем оставьте Оксою время на святыню, сельский приём и возвращение."
+              "uz": "Samarqanddan boshlang, Nurobod yo‘li miqyosni o‘zgartirsin, keyin Oqsoyga muqaddas muhit, qishloq qabul qilishi va qaytish uchun vaqt bering."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Start from Samarkand, let the Nurobod road change the scale, then give Oqsoy time for the sacred setting, village welcome, and return."
+              "ru": "Начните с Самарканда, дайте нурабадской дороге изменить масштаб, а затем оставьте Оксою время на святыню, сельский приём и возвращение."
+              "uz": "Samarqanddan boshlang, Nurobod yo‘li miqyosni o‘zgartirsin, keyin Oqsoyga muqaddas muhit, qishloq qabul qilishi va qaytish uchun vaqt bering."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Oqsoy as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Оксой как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Oqsoy o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Route fit"
+      "ru": "Логика маршрута"
+      "uz": "Marshrutdagi o‘rni"
+    "title":
+      "en": "From Samarkand to Nurobod mountain air"
+      "ru": "От Самарканда к горному воздуху Нурабада"
+      "uz": "Samarqanddan Nurobod tog‘ havosiga"
+    "description":
+      "en": "Start from Samarkand, let the Nurobod road change the scale, then give Oqsoy time for the sacred setting, village welcome, and return."
+      "ru": "Начните с Самарканда, дайте нурабадской дороге изменить масштаб, а затем оставьте Оксою время на святыню, сельский приём и возвращение."
+      "uz": "Samarqanddan boshlang, Nurobod yo‘li miqyosni o‘zgartirsin, keyin Oqsoyga muqaddas muhit, qishloq qabul qilishi va qaytish uchun vaqt bering."
+    "mapPanel":
+      "eyebrow":
+        "en": "Map orientation"
+        "ru": "Ориентир на карте"
+        "uz": "Xarita orientiri"
+      "title":
+        "en": "Oqsoy on the Nurobod side of Samarkand"
+        "ru": "Оксой на нурабадской стороне Самарканда"
+        "uz": "Oqsoy Samarqandning Nurobod tomonida"
+      "description":
+        "en": "The marker gives village-area orientation; the actual arrival, pilgrimage-side movement, family table, and return are arranged for the date."
+        "ru": "Маркер показывает район села; фактический приезд, движение у святыни, семейный стол и возвращение собираются под дату."
+        "uz": "Marker qishloq hududini ko‘rsatadi; haqiqiy kelish, ziyorat tomondagi harakat, oilaviy dasturxon va qaytish sanaga qarab tuziladi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.522144
+      "longitude": 66.713371
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "oqsoy-nurobod-mountain-village-setting"
+    "aside":
+      "eyebrow":
+        "en": "Route fit"
+        "ru": "Логика маршрута"
+        "uz": "Marshrutdagi o‘rni"
+      "title":
+        "en": "From Samarkand to Nurobod mountain air"
+        "ru": "От Самарканда к горному воздуху Нурабада"
+        "uz": "Samarqanddan Nurobod tog‘ havosiga"
+      "description":
+        "en": "Start from Samarkand, let the Nurobod road change the scale, then give Oqsoy time for the sacred setting, village welcome, and return."
+        "ru": "Начните с Самарканда, дайте нурабадской дороге изменить масштаб, а затем оставьте Оксою время на святыню, сельский приём и возвращение."
+        "uz": "Samarqanddan boshlang, Nurobod yo‘li miqyosni o‘zgartirsin, keyin Oqsoyga muqaddas muhit, qishloq qabul qilishi va qaytish uchun vaqt bering."
+      "items":
+        - "title":
+            "en": "Let Samarkand open the day"
+            "ru": "Пусть день начнётся в Самарканде"
+            "uz": "Kun Samarqanddan boshlansin"
+          "description":
+            "en": "Oqsoy feels clearer after the city has already given the route its main monuments and old-city movement."
+            "ru": "Оксой понятнее после того, как город уже дал маршруту главные памятники и движение старого центра."
+            "uz": "Oqsoy shahar marshrutga asosiy yodgorliklar va eski markaz harakatini bergandan keyin aniqroq seziladi."
+          "badge":
+            "en": "Start city"
+            "ru": "Город старта"
+            "uz": "Boshlanish shahri"
+        - "title":
+            "en": "The road changes the scale"
+            "ru": "Дорога меняет масштаб"
+            "uz": "Yo‘l miqyosni o‘zgartiradi"
+          "description":
+            "en": "The turn toward Nurobod brings more distance, mountain air, and a slower village side of Samarkand Region."
+            "ru": "Поворот к Нурабаду добавляет дистанцию, горный воздух и более спокойную сельскую сторону Самаркандской области."
+            "uz": "Nurobod tomonga burilish masofa, tog‘ havosi va Samarqand viloyatining sokinroq qishloq tomonini qo‘shadi."
+          "badge":
+            "en": "Nurobod road"
+            "ru": "Дорога к Нурабаду"
+            "uz": "Nurobod yo‘li"
+        - "title":
+            "en": "Respect shapes the stop"
+            "ru": "Уважение задаёт остановку"
+            "uz": "Hurmat bekatni shakllantiradi"
+          "description":
+            "en": "The Hazrati Dovud setting asks for modest timing, clothing, and behavior before the village part begins."
+            "ru": "Среда Хазрати Довуда требует спокойного времени, скромной одежды и уважительного поведения до сельской части визита."
+            "uz": "Hazrati Dovud muhiti qishloq qismidan oldin sokin vaqt, kamtar kiyim va hurmatli xulqni talab qiladi."
+          "badge":
+            "en": "Pilgrimage setting"
+            "ru": "Паломническая среда"
+            "uz": "Ziyorat muhiti"
+        - "title":
+            "en": "Keep the village side human"
+            "ru": "Сохраняйте человеческий масштаб"
+            "uz": "Insoniy miqyosni saqlang"
+          "description":
+            "en": "A family-run stay, local food, a short walk, or a seasonal village stop should deepen the visit rather than overload it."
+            "ru": "Семейный приём, местная еда, короткая прогулка или небольшой сельский момент должны углублять визит, а не перегружать его."
+            "uz": "Oilaviy qabul, mahalliy taom, qisqa sayr yoki kichik qishloq lahzasi tashrifni chuqurlashtirsin, ortiqcha yuklamasin."
+          "badge":
+            "en": "Village time"
+            "ru": "Сельское время"
+            "uz": "Qishloq vaqti"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What shapes the village day"
+      "ru": "Что формирует сельский день"
+      "uz": "Qishloq kunini nimalar shakllantiradi"
+    "title":
+      "en": "Pilgrimage road, mountain village, and village welcome"
+      "ru": "Паломническая дорога, горное село и приезд"
+      "uz": "Ziyorat yo‘li, tog‘ qishlog‘i va kelish tomoni"
+    "description":
+      "en": "These Oqsoy stops keep the visit in three clear parts: the Hazrati Dovud setting, the Nurobod mountain village, and the family-run arrival side."
+      "ru": "Эти точки Оксоя держат визит в трёх частях: среда Хазрати Довуда, горное село Нурабада и семейная сторона приезда."
+      "uz": "Oqsoyga tegishli bu joylar tashrifni uch qismda tutadi: Hazrati Dovud muhiti, Nurobod tog‘ qishlog‘i va oilaviy kelish tomoni."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Hazrati Dovud pilgrimage setting"
+          "ru": "Паломническая среда Хазрати Довуда"
+          "uz": "Hazrati Dovud ziyorat muhiti"
+        "description":
+          "en": "The Hazrati Dovud setting is the main reason Oqsoy should not be treated as a casual mountain stop. It brings sacred meaning to the Nurobod road and asks the route to slow down."
+          "ru": "Среда Хазрати Довуда — главная причина не воспринимать Оксой как случайную горную остановку. Она даёт дороге к Нурабаду сакральный смысл и требует более спокойного маршрута."
+          "uz": "Hazrati Dovud muhiti Oqsoyni oddiy tog‘ bekati sifatida ko‘rmaslikning asosiy sababidir. U Nurobod yo‘liga muqaddas ma’no beradi va marshrutni sekinlashtiradi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/oqsoy/oqsoy-hazrat-dovud-pilgrimage-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Nurobod mountain village setting"
+          "ru": "Горная среда Нурабада"
+          "uz": "Nurobod tog‘ qishlog‘i muhiti"
+        "description":
+          "en": "Oqsoy feels different because the route has to leave Samarkand and turn into the Nurobod side. The road, air, and village scale are part of the visit."
+          "ru": "Оксой ощущается иначе, потому что маршрут выходит из Самарканда и поворачивает к Нурабаду. Дорога, воздух и сельский масштаб становятся частью визита."
+          "uz": "Oqsoy boshqacha seziladi, chunki marshrut Samarqanddan chiqib Nurobod tomonga buriladi. Yo‘l, havo va qishloq miqyosi tashrifning bir qismiga aylanadi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/oqsoy/oqsoy-nurobod-mountain-village-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Village welcome and family table"
+          "ru": "Сельский приём и семейный стол"
+          "uz": "Qishloq qabul qilishi va oilaviy dasturxon"
+        "description":
+          "en": "Oqsoy’s official tourism-village status matters only when it becomes a comfortable village welcome: where travelers arrive, eat or stay, move gently, and return without strain."
+          "ru": "Официальный статус туристического села важен для Оксоя только тогда, когда превращается в понятный сельский приём: куда приезжают, где едят или остаются, как мягко двигаются и спокойно возвращаются."
+          "uz": "Oqsoyning rasmiy turizm qishlog‘i maqomi sayohatchilar uchun qulay qishloq qabuliga aylangandagina muhim: qayerga kelish, qayerda ovqatlanish yoki qolish, qanday yengil harakatlanish va qanday qaytish."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/oqsoy/oqsoy-guesthouse-road-and-parking-check"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Village moments"
+      "ru": "Сельские моменты"
+      "uz": "Qishloq lahzalari"
+    "title":
+      "en": "Six Oqsoy village moments"
+      "ru": "Шесть сельских моментов Оксоя"
+      "uz": "Oqsoyning olti qishloq lahzasi"
+    "description":
+      "en": "Together they move from the Nurobod road to sacred respect, village arrival, a family table, a short walk, and the road back."
+      "ru": "Вместе они ведут от нурабадской дороги к уважению у святыни, сельскому приезду, семейному столу, короткой прогулке и дороге назад."
+      "uz": "Ular Nurobod yo‘lidan ziyoratdagi hurmatga, qishloqqa kelishga, oilaviy dasturxonga, qisqa sayrga va qaytish yo‘liga olib boradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Road toward Nurobod air"
+          "ru": "Дорога к воздуху Нурабада"
+          "uz": "Nurobod havosi tomon yo‘l"
+        "description":
+          "en": "The drive from Samarkand changes scale before Oqsoy begins."
+          "ru": "Переезд из Самарканда меняет масштаб ещё до приезда в Оксой."
+          "uz": "Samarqanddan yo‘l Oqsoyga yetmasdan oldin miqyosni o‘zgartiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Respect near Hazrati Dovud"
+          "ru": "Уважение у Хазрати Довуда"
+          "uz": "Hazrati Dovud yonida hurmat"
+        "description":
+          "en": "Modest clothing and quiet timing let the sacred setting lead the stop."
+          "ru": "Скромная одежда и спокойное время позволяют святыне вести остановку."
+          "uz": "Kamtar kiyim va sokin vaqt muqaddas muhitni yetakchi qiladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Mountain village arrival"
+          "ru": "Приезд в горное село"
+          "uz": "Tog‘ qishlog‘iga kelish"
+        "description":
+          "en": "Oqsoy feels clearest when the arrival becomes a village welcome, not a rushed stop."
+          "ru": "Оксой лучше раскрывается, когда приезд ощущается сельским приёмом, а не спешной точкой."
+          "uz": "Kelish shoshilinch bekat emas, qishloq qabul qilishi kabi sezilganda Oqsoy yaxshiroq ochiladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Family table or stay"
+          "ru": "Семейный стол или ночёвка"
+          "uz": "Oilaviy dasturxon yoki tunash"
+        "description":
+          "en": "A simple meal or overnight plan gives the mountain stop its human center."
+          "ru": "Простая еда или ночёвка дают горной остановке человеческий центр."
+          "uz": "Oddiy ovqat yoki tunash tog‘ bekatiga insoniy markaz beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Short walk or village moment"
+          "ru": "Короткая прогулка или сельский эпизод"
+          "uz": "Qisqa sayr yoki qishloq lahzasi"
+        "description":
+          "en": "Keep the outdoor part small so the road and sacred setting stay clear."
+          "ru": "Оставьте выход на воздух небольшим, чтобы дорога и святыня не потеряли ясность."
+          "uz": "Yo‘l va muqaddas muhit aniq qolishi uchun ochiq havo qismini kichik tuting."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Calm return to Samarkand"
+          "ru": "Спокойное возвращение к Самарканду"
+          "uz": "Samarqandga sokin qaytish"
+        "description":
+          "en": "A measured road back keeps Oqsoy part of the Samarkand journey."
+          "ru": "Размеренная дорога назад оставляет Оксой частью самаркандского маршрута."
+          "uz": "O‘lchangan qaytish yo‘li Oqsoyni Samarqand marshrutining qismi qilib saqlaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "How Oqsoy fits a Samarkand route"
+      "ru": "Как Оксой вписывается в самаркандский маршрут"
+      "uz": "Oqsoy Samarqand marshrutiga qanday kiradi"
+    "description":
+      "en": "Oqsoy is not a quick countryside add-on. It is a Nurobod mountain stop where the sacred setting, village welcome, road time, and season have to hold together."
+      "ru": "Оксой — не быстрая сельская добавка. Это горная остановка Нурабада, где святыня, сельский приём, дорога и сезон должны держаться вместе."
+      "uz": "Oqsoy tez qishloq qo‘shimchasi emas. Bu Nurobod tog‘ bekati bo‘lib, muqaddas muhit, qishloq qabul qilishi, yo‘l va mavsum birga ushlanganda yaxshi ochiladi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Give the road time"
+              "ru": "Дайте дороге время"
+              "uz": "Yo‘lga vaqt bering"
+            "description":
+              "en": "Oqsoy belongs when the move from Samarkand to Nurobod feels like a real mountain extension, not a rushed side turn."
+              "ru": "Оксой уместен, когда путь от Самарканда к Нурабаду ощущается настоящим горным продолжением, а не спешным поворотом."
+              "uz": "Oqsoy Samarqanddan Nurobodga borish shoshilinch burilish emas, haqiqiy tog‘ davomi bo‘lib sezilganda mos keladi."
+          - "type": "quote"
+            "quote":
+              "en": "Oqsoy is strongest when the Nurobod road, sacred mountain setting, and village welcome stay in one unhurried route."
+              "ru": "Оксой сильнее всего, когда нурабадская дорога, сакральная горная среда и сельский приём остаются в одном неспешном маршруте."
+              "uz": "Oqsoy Nurobod yo‘li, muqaddas tog‘ muhiti va qishloq qabul qilishi bitta shoshilmagan marshrutda qolganida kuchliroq ochiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Let respect lead"
+              "ru": "Пусть ведёт уважение"
+              "uz": "Hurmat yetaklasin"
+            "description":
+              "en": "The Hazrati Dovud setting should shape the clothing, pace, and tone before any village meal or walk is added."
+              "ru": "Среда Хазрати Довуда должна задавать одежду, темп и тон до того, как добавляется сельский стол или прогулка."
+              "uz": "Hazrati Dovud muhiti qishloq dasturxoni yoki sayrdan oldin kiyim, sur’at va ohangni belgilasin."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the village simple"
+              "ru": "Оставьте село простым"
+              "uz": "Qishloqni sodda tuting"
+            "description":
+              "en": "A family-run table, local products, or a short open-air moment is enough when the mountain road already gives the stop its scale."
+              "ru": "Семейного стола, местных продуктов или короткого выхода на воздух достаточно, когда горная дорога уже дала остановке масштаб."
+              "uz": "Tog‘ yo‘li bekatga miqyos bergandan keyin oilaviy dasturxon, mahalliy mahsulot yoki qisqa ochiq havo lahzasi yetarli."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественников"
+              "uz": "Sayohatchilar uchun"
+            "description":
+              "en": "Choose Oqsoy when Samarkand should open toward Nurobod mountain air, pilgrimage respect, and a quiet village return."
+              "ru": "Выбирайте Оксой, когда хотите открыть Самарканд к горному воздуху Нурабада, паломническому уважению и спокойному сельскому возвращению."
+              "uz": "Samarqand Nurobod tog‘ havosi, ziyoratdagi hurmat va sokin qishloq qaytishiga ochilishini istasangiz Oqsoyni tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Good to know Status"
+                  "ru": "Что важно знать Статус"
+                  "uz": "Bilish foydali Maqom"
+                "description":
+                  "en": "Official tourism village in Nurobod District."
+                  "ru": "Официальное туристическое село Нурабадского района."
+                  "uz": "Nurobod tumanidagi rasmiy turizm qishlog‘i."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main draw"
+                  "ru": "Главный смысл"
+                  "uz": "Asosiy mazmun"
+                "description":
+                  "en": "Nurobod mountain air, the Hazrati Dovud pilgrimage setting, family-run stays, local food, short walks, and seasonal village life."
+                  "ru": "Горный воздух Нурабада, паломническая среда Хазрати Довуда, семейный приём, местная еда, короткие прогулки и сезонная сельская жизнь."
+                  "uz": "Nurobod tog‘ havosi, Hazrati Dovud ziyorat muhiti, oilaviy qabul, mahalliy taom, qisqa sayrlar va mavsumiy qishloq hayoti."
+              - "icon": "Sun"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Marshrutdagi rol"
+                "description":
+                  "en": "A mountain-and-pilgrimage extension from Samarkand that needs its own time."
+                  "ru": "Полноценное горно-паломническое продолжение от Самарканда."
+                  "uz": "Samarqanddan to‘liqroq tog‘ va ziyorat davomi."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and pace"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va sur’at"
+                "description":
+                  "en": "Plan cooler hours and enough time for the road, sacred setting, village stop, and return."
+                  "ru": "Планируйте прохладные часы и достаточно времени на дорогу, святыню, сельскую остановку и возвращение."
+                  "uz": "Salqinroq soatlar hamda yo‘l, ziyorat muhiti, qishloq to‘xtashi va qaytishga yetarli vaqt rejalanganda yaxshiroq."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby Samarkand mountain stops"
+      "ru": "Соседние горные остановки"
+      "uz": "Samarqand yaqinidagi tog‘ bekatlari"
+    "title":
+      "en": "Where the route can continue"
+      "ru": "Куда продолжить маршрут"
+      "uz": "Marshrut qayerga davom etadi"
+    "description":
+      "en": "Omonqoton, Tersak, and Samarkand are separate choices; pair them with Oqsoy only when the road pace stays calm."
+      "ru": "Омонкотон, Терсак и Самарканд остаются отдельными решениями; сочетайте их с Оксоем только когда дорога остаётся спокойной."
+      "uz": "Omonqoton, Tersak va Samarqand alohida tanlovlar; ularni Oqsoy bilan faqat yo‘l sur’ati sokin qolsa juftlang."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Omonqoton"
+          "ru": "Омонкотон"
+          "uz": "Omonqoton"
+        "description":
+          "en": "Omonqoton is an Urgut District tourism mahalla where spring water, cooler mountain air, family stays, and the Qoratepa road create a gentle break from Samarkand."
+          "ru": "Омонкотон — туристическая махалля Ургутского района, где родниковая вода, прохладный горный воздух, семейные дома и дорога к Коратепа создают мягкую паузу после Самарканда."
+          "uz": "Omonqoton Urgut tumanidagi turizm mahallasi: buloq suvi, salqin tog‘ havosi, oilaviy uylar va Qoratepa yo‘li Samarqanddan keyin sokin pauza beradi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/omonqoton"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Tersak"
+          "ru": "Терсак"
+          "uz": "Tersak"
+        "description":
+          "en": "Tersak takes a Samarkand route into the Urgut hills for a home meal, warm bread, dairy traditions, village customs, short paths, horses, and cooler air."
+          "ru": "Терсак уводит самаркандский маршрут к Ургутским горам: домашний дастархан, лепёшка, молочные традиции, сельские обычаи, короткие прогулки, лошади и прохладный воздух."
+          "uz": "Tersak Samarqand marshrutini Urgut tog‘lariga olib chiqadi: oilaviy dasturxon, non, sutli an’analar, qishloq odatlari, qisqa sayrlar, otlar va salqin havo."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/tersak"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/oqsoy-next-samarkand.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Samarkand"
+          "ru": "Самарканд"
+          "uz": "Samarqand"
+        "description":
+          "en": "Samarkand brings the route to monumental scale: Registan, Shah-i-Zinda, Bibi-Khanym, Gur-e-Amir, Siab Bazaar, Afrosiab, and Ulugh Beg Observatory."
+          "ru": "Самарканд даёт маршруту монументальный масштаб: Регистан, Шахи-Зинда, Биби-Ханым, Гур-Эмир, Сиабский базар, Афрасиаб и обсерватория Улугбека."
+          "uz": "Samarqand yoʻnalishga monumental miqyos beradi: Registon, Shohi Zinda, Bibi Xonim, Goʻri Amir, Siyob bozori, Afrosiyob va Ulugʻbek rasadxonasi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/samarkand"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Oqsoy in the day plan"
+      "ru": "Как поставить Оксой в план дня"
+      "uz": "Oqsoyni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Oqsoy?"
+          "ru": "Сколько времени группам стоит проводить в Оксой?"
+          "uz": "Oqsoyda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “A Nurobod mountain village by the Hazrati Dovud pilgrimage road”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Горное село Нурабада у паломнической дороги Хазрати Довуда»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Hazrati Dovud ziyorat yo‘li yonidagi Nurobod tog‘ qishlog‘i»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Oqsoy be a walkable core or a base for day trips?"
+          "ru": "Оксой — это пешеходное ядро или база для выездов?"
+          "uz": "Oqsoy piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Oqsoy's centre?"
+          "ru": "Где лучше ночевать относительно центра Оксой?"
+          "uz": "Oqsoy markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/oqsoy.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Oqsoy stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Оксой» в программу (Узбекистан)"
+      "uz": "Oqsoy bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Oqsoy | TourLink"
+    "ru": "Оксой | TourLink"
+    "uz": "Oqsoy | TourLink"
+  "metaDescription":
+    "en": "Oqsoy takes Samarkand into the Nurobod mountains. The Hazrati Dovud setting gives the road a sacred tone, while the village is strongest as a simple arrival with a family table or stay, a short walk, and a calm road back."
+    "ru": "Оксой выводит Самарканд к горам Нурабада. Среда Хазрати Довуда задаёт дороге сакральный тон, а село сильнее всего раскрывается через простой приезд, семейный стол или ночёвку, короткую прогулку и спокойную дорогу назад."
+    "uz": "Oqsoy Samarqandni Nurobod tog‘lari tomon olib chiqadi. Hazrati Dovud muhiti yo‘lga muqaddas ohang beradi, qishloq esa sodda kelish, oilaviy dasturxon yoki tunash, qisqa sayr va sokin qaytish bilan kuchliroq ochiladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "samarkand-region"
+"latitude": 39.5109223
+"longitude": 66.6279819

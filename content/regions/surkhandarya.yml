@@ -1,0 +1,405 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "surkhandarya"
+  "ru": "surkhandarya"
+  "uz": "surkhandarya"
+"title":
+  "en": "Surkhandarya"
+  "ru": "Сурхандарья"
+  "uz": "Surxondaryo"
+"subtitle":
+  "en": "Termez archaeology, the Amu Darya, and Boysun mountains"
+  "ru": "Археология Термеза, Амударья и горы Байсуна"
+  "uz": "Termiz arxeologiyasi, Amudaryo va Boysun tog‘lari"
+"excerpt":
+  "en": "Surkhandarya is clearest when the far south is not squeezed between the classic cities. Start in Termez for early Buddhist sites, Kushan-era archaeology, Islamic memorials, and the Amu Darya, then continue toward Boysun for mountain roads, village culture, canyons, and another side of Uzbekistan."
+  "ru": "Сурхандарья понятнее, когда дальний юг не сжимают между классическими городами. Начните с Термеза: ранние буддийские памятники, кушанская археология, исламские мемориалы и Амударья; затем продолжайте к Байсуну — к горным дорогам, культуре селений, каньонам и другой стороне Узбекистана."
+  "uz": "Surxondaryo klassik shaharlar orasida siqilmaganda yaxshiroq tushuniladi. Termizdan boshlang: ilk buddaviy yodgorliklar, Kushon davri arxeologiyasi, islomiy yodgorliklar va Amudaryo; keyin Boysun tomonga — tog‘ yo‘llari, qishloq madaniyati, kanyonlar va O‘zbekistonning boshqa bir tomoni sari davom eting."
+"heroImage": "assets/images/destinations/uzbekistan/regions/surkhandarya.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/surkhandarya.webp"
+    "imageAlt":
+      "en": "Surkhandarya"
+      "ru": "Сурхандарья"
+      "uz": "Surxondaryo"
+    "title":
+      "en": "Surkhandarya"
+      "ru": "Сурхандарья"
+      "uz": "Surxondaryo"
+    "description":
+      "en": "Termez archaeology, the Amu Darya, and Boysun mountains"
+      "ru": "Археология Термеза, Амударья и горы Байсуна"
+      "uz": "Termiz arxeologiyasi, Amudaryo va Boysun tog‘lari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О регионе"
+      "uz": "Hudud haqida"
+    "title":
+      "en": "Surkhandarya"
+      "ru": "Сурхандарья"
+      "uz": "Surxondaryo"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Surkhandarya is clearest when the far south is not squeezed between the classic cities."
+              "ru": "Сурхандарья понятнее, когда дальний юг не сжимают между классическими городами."
+              "uz": "Surxondaryo klassik shaharlar orasida siqilmaganda yaxshiroq tushuniladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Plan Surkhandarya as a southern part of the journey, not a quick detour. Termez gives the archaeology and river context; Boysun belongs when the route can carry the mountain road."
+              "ru": "Сурхандарью лучше планировать как отдельную южную часть маршрута, а не быструю добавку. Термез даёт археологию и контекст Амударьи; Байсун уместен, когда маршрут готов к горной дороге."
+              "uz": "Surxondaryoni tez qo‘shimcha emas, yo‘nalishning alohida janubiy qismi sifatida rejalash yaxshiroq. Termiz arxeologiya va Amudaryo kontekstini beradi; Boysun esa tog‘ yo‘li mos kelganda qo‘shiladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Termez, Boysun, and the farther stops should not be placed between the classic cities as a quick insert. Road time, season, heat, and site rules decide the order before the itinerary is confirmed."
+              "ru": "Термез, Байсун и дальние остановки нельзя ставить между классическими городами как короткую вставку. Порядок маршрута зависит от дороги, сезона, жары и правил посещения отдельных мест."
+              "uz": "Termiz, Boysun va uzoq bekatlarni klassik shaharlar orasidagi qisqa qo‘shimcha sifatida qo‘yib bo‘lmaydi. Yo‘l vaqti, mavsum, issiq va ayrim joylar qoidalari yakuniy yo‘nalishdan oldin tartibni belgilaydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Surkhandarya as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Сурхандарья как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Surxondaryo o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Route logic"
+      "ru": "Логика маршрута"
+      "uz": "Yo‘nalish mantig‘i"
+    "title":
+      "en": "Start in Termez, continue toward Boysun"
+      "ru": "Сначала Термез, затем Байсун"
+      "uz": "Avval Termiz, keyin Boysun"
+    "description":
+      "en": "Plan Surkhandarya as a southern part of the journey, not a quick detour. Termez gives the archaeology and river context; Boysun belongs when the route can carry the mountain road."
+      "ru": "Сурхандарью лучше планировать как отдельную южную часть маршрута, а не быструю добавку. Термез даёт археологию и контекст Амударьи; Байсун уместен, когда маршрут готов к горной дороге."
+      "uz": "Surxondaryoni tez qo‘shimcha emas, yo‘nalishning alohida janubiy qismi sifatida rejalash yaxshiroq. Termiz arxeologiya va Amudaryo kontekstini beradi; Boysun esa tog‘ yo‘li mos kelganda qo‘shiladi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Key places"
+        "ru": "Ключевые места"
+        "uz": "Asosiy joylar"
+      "title":
+        "en": "Termez and Boysun"
+        "ru": "Термез и Байсун"
+        "uz": "Termiz va Boysun"
+      "description":
+        "en": "The map should keep both parts of the southern route visible: Termez for archaeology and the Amu Darya, Boysun for the mountain continuation."
+        "ru": "Карта должна держать две главные точки юга: Термез для археологии и Амударьи, Байсун для горного продолжения."
+        "uz": "Xarita janubiy yo‘nalishning ikkala qismini ko‘rsatishi kerak: Termiz arxeologiya va Amudaryo uchun, Boysun esa tog‘ davomi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 37.722123
+      "longitude": 67.241576
+    "zoom": 9
+    "stops":
+      - "entityType": "city"
+        "entitySlug": "termez"
+      - "entityType": "city"
+        "entitySlug": "boysun"
+    "aside":
+      "eyebrow":
+        "en": "Distance, heat, access"
+        "ru": "Расстояния, жара и доступ"
+        "uz": "Masofa, issiq va kirish"
+      "title":
+        "en": "Check the route order before confirming the south"
+        "ru": "Сначала проверьте порядок маршрута"
+        "uz": "Janubni tasdiqlashdan oldin tartibni tekshiring"
+      "description":
+        "en": "Termez, Boysun, and the farther stops should not be placed between the classic cities as a quick insert. Road time, season, heat, and site rules decide the order before the itinerary is confirmed."
+        "ru": "Термез, Байсун и дальние остановки нельзя ставить между классическими городами как короткую вставку. Порядок маршрута зависит от дороги, сезона, жары и правил посещения отдельных мест."
+        "uz": "Termiz, Boysun va uzoq bekatlarni klassik shaharlar orasidagi qisqa qo‘shimcha sifatida qo‘yib bo‘lmaydi. Yo‘l vaqti, mavsum, issiq va ayrim joylar qoidalari yakuniy yo‘nalishdan oldin tartibni belgilaydi."
+      "items":
+        - "title":
+            "en": "Start with Termez"
+            "ru": "Начните с Термеза"
+            "uz": "Termizdan boshlang"
+          "description":
+            "en": "Use Termez for museum context, Old Termez, Fayaz Tepa, Karatepa, Zurmala, and the first Islamic memorial stops near the Amu Darya."
+            "ru": "Археологический музей, Старый Термез, Фаязтепа, Каратепа, Зурмала и первые исламские мемориальные места у Амударьи дают югу понятный контекст."
+            "uz": "Termizdan muzey konteksti, Eski Termiz, Fayoztepa, Qoratepa, Zurmala va Amudaryo yaqinidagi ilk islomiy memorial bekatlar uchun foydalaning."
+          "badge":
+            "en": "archaeology"
+            "ru": "археология"
+            "uz": "arxeologiya"
+        - "title":
+            "en": "Add Boysun when the mountain road fits"
+            "ru": "Добавляйте Байсун, когда подходит горная дорога"
+            "uz": "Tog‘ yo‘li mos kelganda Boysunni qo‘shing"
+          "description":
+            "en": "Boysun changes the southern route through ridges, villages, music, craft memory, canyons, and the Baysuntau landscape."
+            "ru": "Байсун меняет южный маршрут через хребты, селения, музыку, ремесленную память, каньоны и Байсунтау."
+            "uz": "Boysun janubiy yo‘nalishni tizmalar, qishloqlar, musiqa, hunar xotirasi, kanyonlar va Boysuntov orqali o‘zgartiradi."
+          "badge":
+            "en": "mountains"
+            "ru": "горы"
+            "uz": "tog‘lar"
+        - "title":
+            "en": "Confirm season, road, and access"
+            "ru": "Проверяйте сезон, дорогу и доступ"
+            "uz": "Mavsum, yo‘l va kirishni tasdiqlang"
+          "description":
+            "en": "Summer heat, road time, festival dates, mountain conditions, and site rules can change the final route order."
+            "ru": "Летняя жара, дорога, фестивальные даты, состояние горных участков и правила посещения отдельных мест могут изменить финальный порядок маршрута."
+            "uz": "Yozgi issiq, yo‘l vaqti, festival sanalari, tog‘ sharoiti va ayrim joylar qoidalari yakuniy yo‘nalish tartibini o‘zgartirishi mumkin."
+          "badge":
+            "en": "planning"
+            "ru": "планирование"
+            "uz": "rejalash"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region character"
+      "ru": "Характер региона"
+      "uz": "Mintaqa xarakteri"
+    "title":
+      "en": "Where the route reaches the far south"
+      "ru": "Где маршрут уходит на дальний юг"
+      "uz": "Yo‘nalish uzoq janubga yetadigan joy"
+    "description":
+      "en": "Surkhandarya does not repeat Samarkand, Bukhara, or Khiva. Here the route turns toward Termez, the Amu Darya, archaeological sites, memorial complexes, and the mountain culture of Boysun.
+
+
+        «Surkhandarya is clearest when the south becomes its own part of the journey.»"
+      "ru": "Сурхандарья не повторяет Самарканд, Бухару или Хиву. Здесь маршрут уходит к Термезу, Амударье, археологическим площадкам, мемориальным комплексам и горной культуре Байсуна.
+
+
+        «Сурхандарья понятнее, когда юг становится отдельной частью маршрута.»"
+      "uz": "Surxondaryo Samarqand, Buxoro yoki Xivani takrorlamaydi. Bu yerda yo‘nalish Termiz, Amudaryo, arxeologik joylar, memorial majmualar va Boysun tog‘ madaniyati tomon boradi.
+
+
+        «Janub yo‘nalishning alohida qismiga aylanganda Surxondaryo yaxshiroq tushuniladi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Main places"
+      "ru": "Главные места"
+      "uz": "Asosiy joylar"
+    "title":
+      "en": "Termez and Boysun show two sides of the south"
+      "ru": "Термез и Байсун показывают две стороны юга"
+      "uz": "Termiz va Boysun janubning ikki tomonini ko‘rsatadi"
+    "description":
+      "en": "Termez holds archaeology, museum context, the Amu Darya, and memorial complexes. Boysun adds mountains, villages, canyons, and living cultural memory."
+      "ru": "Термез держит археологию, музейный контекст, Амударью и мемориальные комплексы. Байсун добавляет горы, селения, каньоны и живую культурную память."
+      "uz": "Termiz arxeologiya, muzey konteksti, Amudaryo va memorial majmualarni ushlab turadi. Boysun tog‘lar, qishloqlar, kanyonlar va tirik madaniy xotirani qo‘shadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/surkhandarya/cities/termez.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Termez"
+          "ru": "Термез"
+          "uz": "Termiz"
+        "description":
+          "en": "Termez changes the pace of an Uzbekistan journey. Here the route moves from classic city monuments to Ancient Termiz, Buddhist monastery sites, the archaeology museum, shrine courtyards, and the Amu Darya edge. It feels strongest when the first stop gives context before you go ou"
+          "ru": "Термез меняет темп путешествия по Узбекистану. Здесь маршрут уходит от классических городских памятников к Древнему Термезу, буддийским монастырским местам, археологическому музею, дворам святынь и Амударье. Сильнее всего город раскрывается, когда сначала появляется музейный конт"
+          "uz": "Termiz O‘zbekiston bo‘ylab sayohat surʼatini o‘zgartiradi. Bu yerda yo‘nalish klassik shahar yodgorliklaridan Qadimgi Termiz, buddaviy monastir joylari, arxeologiya muzeyi, ziyorat hovlilari va Amudaryoga tomon o‘tadi. Avval muzey konteksti paydo bo‘lib, keyin shahar tashqarisida"
+        "ctaHref": "/destinations/uzbekistan/surkhandarya/termez"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/surkhandarya/cities/boysun.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Boysun"
+          "ru": "Байсун"
+          "uz": "Boysun"
+        "description":
+          "en": "After Termez, the road to Boysun changes the southern route: open archaeological ground gives way to ridges, village roofs, songs, embroidery, tandoor bread, and a cultural space recognized by UNESCO as intangible heritage. Boysun belongs in the route as a careful mountain-and-cu"
+          "ru": "После Термеза дорога к Байсуну меняет южный маршрут: вместо открытой археологической земли появляются хребты, крыши селений, песни, вышивка, тандыры и культурное пространство, которое UNESCO признаёт нематериальным наследием. Байсун сильнее как аккуратное горно-культурное продолж"
+          "uz": "Termizdan keyin Boysunga boradigan yo‘l janubiy yo‘nalishni o‘zgartiradi: ochiq arxeologik yer o‘rniga tizmalar, qishloq tomlari, qo‘shiqlar, kashta, tandirlar va UNESCO nomoddiy meros sifatida tan olgan madaniy makon paydo bo‘ladi. Boysun tog‘ va madaniyat davomi sifatida kuchli"
+        "ctaHref": "/destinations/uzbekistan/surkhandarya/boysun"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что смотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Key places around Termez and Boysun"
+      "ru": "Главные места вокруг Термеза и Байсуна"
+      "uz": "Termiz va Boysun atrofidagi asosiy joylar"
+    "description":
+      "en": "Start with Old Termez, the museum, Fayaztepa, Karatepa, Zurmala, Sultan Saodat, and Al-Hakim at-Termezi; add Baysuntau only when the route can carry the mountain road."
+      "ru": "Начинайте со Старого Термеза, музея, Фаязтепы, Каратепы, Зурмалы, Султан-Саодата и Аль-Хакима ат-Термизи; Байсунтау добавляйте только тогда, когда маршрут готов к горной дороге."
+      "uz": "Eski Termiz, muzey, Fayoztepa, Qoratepa, Zurmala, Sulton Saodat va Al-Hakim at-Termiziydan boshlang; Boysuntovni faqat yo‘nalish tog‘ yo‘liga tayyor bo‘lganda qo‘shing."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/surkhandarya/cities/boysun/attractions/baysuntau-mountains.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Baysuntau Mountains"
+          "ru": "Горы Байсунтау"
+          "uz": "Boysuntov tog‘lari"
+        "description":
+          "en": "After Termez, Baysuntau changes the southern route from open archaeological ground to mountain roads above Boysun: ridges, ravines, cave context, village courtyards, and seasonal access that should be checked before the route is confirmed."
+          "ru": "После Термеза Байсунтау меняет южный маршрут: открытое археологическое пространство сменяется горными дорогами над Байсуном, хребтами, оврагами, пещерным контекстом, дворами селений и сезонным доступом, который нужно проверить до утверждения маршрута."
+          "uz": "Termizdan keyin Boysuntov janubiy yo‘nalishni ochiq arxeologik yerdan Boysun ustidagi tog‘ yo‘llariga olib chiqadi: tizmalar, jarliklar, g‘or konteksti, qishloq hovlilari va yo‘l tasdiqlanishidan oldin tekshiriladigan mavsumiy kirish."
+        "ctaHref": "/destinations/uzbekistan/surkhandarya/boysun/baysuntau-mountains"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/surkhandarya/cities/termez/attractions/old-termez-ancient-termiz.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Ancient Termiz"
+          "ru": "Древний Термез"
+          "uz": "Qadimgi Termiz"
+        "description":
+          "en": "Ancient Termiz gives the Termez route its older scale. West of the modern city, citadel traces, Buddhist sites, stupa remains, shrine routes, and the Amu Darya edge connect the museum, Fayaz Tepa, Zurmala, and later memorials into one southern landscape."
+          "ru": "Древний Термез возвращает маршруту по Термезу древний масштаб. К западу от современного города следы цитадели, буддийские места, остатки ступ, дороги к святыням и Амударья связывают музей, Фаязтепу, Зурмалу и поздние мемориалы в один южный ландшафт."
+          "uz": "Qadimgi Termiz Termiz yo‘nalishiga qadimiy miqyos beradi. Zamonaviy shahar g‘arbida qalʼa izlari, buddaviy joylar, stupa qoldiqlari, ziyorat yo‘llari va Amudaryo muzey, Fayoztepa, Zurmala hamda keyingi memoriallarni bitta janubiy manzaraga bog‘laydi."
+        "ctaHref": "/destinations/uzbekistan/surkhandarya/termez/old-termez-ancient-termiz"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region in detail"
+      "ru": "Регион в деталях"
+      "uz": "Hudud batafsil"
+    "title":
+      "en": "Practical questions about Surkhandarya"
+      "ru": "Практические вопросы о регионе Сурхандарья"
+      "uz": "Surxondaryo hududi bo‘yicha amaliy savollar"
+    "description":
+      "en": "Pace, season, and how this region connects to the next stop."
+      "ru": "Темп, сезон и как регион стыкуется со следующей остановкой."
+      "uz": "Sur’at, mavsum va hududning keyingi bekat bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many days does Surkhandarya need in a programme?"
+          "ru": "Сколько дней нужно региону Сурхандарья в программе?"
+          "uz": "Surxondaryo hududi dasturda necha kun olishi kerak?"
+        "description":
+          "en": "3–5 days usually works if you keep one strong core and treat outer stops as deliberate choices. The region brief is “Termez archaeology, the Amu Darya, and Boysun mountains”."
+          "ru": "Обычно хватает 3–5 дней, если держать одно сильное ядро, а внешние остановки выбирать осознанно. Кратко о регионе: «Археология Термеза, Амударья и горы Байсуна»."
+          "uz": "Odatda 3–5 kun yetadi — bitta kuchli yadro va tashqi bekatlarni ongli tanlov qiling. Hudud brifi: «Termiz arxeologiyasi, Amudaryo va Boysun tog‘lari»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "What should come before and after Surkhandarya?"
+          "ru": "Что ставить до и после региона Сурхандарья?"
+          "uz": "Surxondaryodan oldin va keyin nima qo‘yish kerak?"
+        "description":
+          "en": "Use neighbouring cities as clean handovers: arrive with a calm first night, leave after one completed chapter, and avoid stacking two long transfers on the same day."
+          "ru": "Соседние города держите как чистые стыки: приезжайте со спокойной первой ночью, уезжайте после завершённой главы и не ставьте два длинных переезда в один день."
+          "uz": "Qo‘shni shaharlarni toza ulanish sifatida tuting: sokin birinchi tun bilan keling, yakunlangan bobdan keyin chiqing va bir kunga ikkita uzun ko‘chishni qo‘ymang."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "What season logic matters most in Surkhandarya?"
+          "ru": "Какая сезонная логика важнее всего в Сурхандарья?"
+          "uz": "Surxondaryoda qaysi mavsum mantig‘i eng muhim?"
+        "description":
+          "en": "Heat, altitude, road condition, and opening hours change the product more than the brochure list. Build the region around what stays comfortable for the group that week."
+          "ru": "Жара, высота, состояние дорог и часы работы меняют продукт сильнее списка из брошюры. Собирайте регион вокруг того, что комфортно именно этой группе в эту неделю."
+          "uz": "Issiqlik, balandlik, yo‘l holati va ish soatlari broshyura ro‘yxatidan kuchliroq mahsulotni o‘zgartiradi. Hududni shu hafta guruh uchun qulay narsaga qurib chiqing."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/surkhandarya.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Surkhandarya stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Сурхандарья» в программу (Узбекистан)"
+      "uz": "Surxondaryo bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right extensions — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать нужные расширения — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va kerakli kengaytmalarni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Surkhandarya | TourLink"
+    "ru": "Сурхандарья | TourLink"
+    "uz": "Surxondaryo | TourLink"
+  "metaDescription":
+    "en": "Surkhandarya is clearest when the far south is not squeezed between the classic cities. Start in Termez for early Buddhist sites, Kushan-era archaeology, Islamic memorials, and the Amu Darya, then continue toward Boysun for mountain roads, village culture, canyons, and another side of Uzbekistan."
+    "ru": "Сурхандарья понятнее, когда дальний юг не сжимают между классическими городами. Начните с Термеза: ранние буддийские памятники, кушанская археология, исламские мемориалы и Амударья; затем продолжайте к Байсуну — к горным дорогам, культуре селений, каньонам и другой стороне Узбекистана."
+    "uz": "Surxondaryo klassik shaharlar orasida siqilmaganda yaxshiroq tushuniladi. Termizdan boshlang: ilk buddaviy yodgorliklar, Kushon davri arxeologiyasi, islomiy yodgorliklar va Amudaryo; keyin Boysun tomonga — tog‘ yo‘llari, qishloq madaniyati, kanyonlar va O‘zbekistonning boshqa bir tomoni sari davom eting."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"mapCenter":
+  "latitude": 41.3
+  "longitude": 64.5

@@ -1,0 +1,586 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "seven-lakes"
+  "ru": "seven-lakes"
+  "uz": "seven-lakes"
+"title":
+  "en": "Seven Lakes"
+  "ru": "Семь озёр"
+  "uz": "Yetti Koʻl"
+"subtitle":
+  "en": "The Haftkul lake road above Penjikent"
+  "ru": "Маршрут Хафткуль над Пенджикентом"
+  "uz": "Panjikent ustidagi Haftkoʻl yoʻli"
+"excerpt":
+  "en": "Seven Lakes is the lake road that takes the Zeravshan journey above Penjikent toward water, cliffs, and mountain villages. The road climbs through the Shing Valley, where the visit changes from first colour at Mijgon to the wider pause at Marguzor. Hazorchashma belongs in the plan only when current conditions make the upper section sensible."
+  "ru": "Семь озёр ведут зеравшанский маршрут над Пенджикентом к воде, скалам и горным сёлам. Дорога поднимается через долину Шинг: от первого цвета Мижгона к широкой паузе у Маргузора. Хазорчашма входит в план только тогда, когда текущие условия делают верхний участок разумным."
+  "uz": "Yetti Koʻl Zarafshon yoʻlini Panjikent ustidan suv, qoyalar va togʻ qishloqlari tomon olib chiqadi. Yoʻl Shing vodiysi orqali koʻtariladi: Mijgondagi birinchi rangdan Marguzor yonidagi kengroq pauzagacha. Hazorchashma faqat hozirgi sharoit yuqori qismni maʼqul qilganda rejaga kiradi."
+"heroImage": "assets/images/destinations/tajikistan/regions/fann-mountains-and-zeravshan/cities/seven-lakes.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan/regions/fann-mountains-and-zeravshan/cities/seven-lakes.webp"
+    "imageAlt":
+      "en": "Seven Lakes"
+      "ru": "Семь озёр"
+      "uz": "Yetti Koʻl"
+    "title":
+      "en": "Seven Lakes"
+      "ru": "Семь озёр"
+      "uz": "Yetti Koʻl"
+    "description":
+      "en": "The Haftkul lake road above Penjikent"
+      "ru": "Маршрут Хафткуль над Пенджикентом"
+      "uz": "Panjikent ustidagi Haftkoʻl yoʻli"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Seven Lakes"
+      "ru": "Семь озёр"
+      "uz": "Yetti Koʻl"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Seven Lakes is the lake road that takes the Zeravshan journey above Penjikent toward water, cliffs, and mountain villages."
+              "ru": "Семь озёр ведут зеравшанский маршрут над Пенджикентом к воде, скалам и горным сёлам."
+              "uz": "Yetti Koʻl Zarafshon yoʻlini Panjikent ustidan suv, qoyalar va togʻ qishloqlari tomon olib chiqadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Move from Penjikent toward the lakes in order rather than racing for the top. Mijgon gives the first shift of colour, Marguzor carries the main scale, and Hazorchashma stays conditional until the road, weather, vehicle, and daylight all make sense."
+              "ru": "К озёрам лучше двигаться по порядку, а не гнаться сразу к верхней точке. Мижгон даёт первую смену цвета, Маргузор - главный масштаб, а Хазорчашма остаётся условным продолжением, пока дорога, погода, машина и световой день не складываются спокойно."
+              "uz": "Koʻllarga Panjikentdan tartib bilan boring, eng yuqori nuqtaga shoshilmang. Mijgon birinchi rang almashinuvini beradi, Marguzor asosiy miqyosni ochadi, Hazorchashma esa yoʻl, ob-havo, mashina va kunduzgi vaqt mos kelgandagina qoʻshiladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Start with the lower lakes and the village road. If current conditions are right, the visit can continue higher; if not, a lower-lake route still gives the valley its shape."
+              "ru": "Начните с нижних озёр и дороги через сёла. Если условия подходят, маршрут может продолжиться выше; если нет, нижняя часть всё равно раскрывает характер долины."
+              "uz": "Pastki koʻllar va qishloqlar oralab boradigan yoʻldan boshlang. Sharoit mos boʻlsa, tashrif yuqoriga davom etadi; mos boʻlmasa, pastki koʻllarning oʻzi ham vodiyning xarakterini ochadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Seven Lakes as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Семь озёр как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Yetti Koʻl o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "Follow the lakes from lower to higher water"
+      "ru": "Идти от нижних озёр к верхним"
+      "uz": "Koʻllarni pastdan yuqoriga koʻrish"
+    "description":
+      "en": "Move from Penjikent toward the lakes in order rather than racing for the top. Mijgon gives the first shift of colour, Marguzor carries the main scale, and Hazorchashma stays conditional until the road, weather, vehicle, and daylight all make sense."
+      "ru": "К озёрам лучше двигаться по порядку, а не гнаться сразу к верхней точке. Мижгон даёт первую смену цвета, Маргузор - главный масштаб, а Хазорчашма остаётся условным продолжением, пока дорога, погода, машина и световой день не складываются спокойно."
+      "uz": "Koʻllarga Panjikentdan tartib bilan boring, eng yuqori nuqtaga shoshilmang. Mijgon birinchi rang almashinuvini beradi, Marguzor asosiy miqyosni ochadi, Hazorchashma esa yoʻl, ob-havo, mashina va kunduzgi vaqt mos kelgandagina qoʻshiladi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Marshrut xaritasi"
+      "title":
+        "en": "Penjikent, Haftkul, Mijgon, Marguzor, and Hazorchashma"
+        "ru": "Пенджикент, Хафткуль, Мижгон, Маргузор и Хазорчашма"
+        "uz": "Panjikent, Haftkoʻl, Mijgon, Marguzor va Hazorchashma"
+      "description":
+        "en": "Penjikent frames the approach; Haftkul marks the valley; Mijgon, Marguzor, and Hazorchashma show how the lake road rises from first colour to the upper-lake choice."
+        "ru": "Пенджикент задаёт подход к долине; Хафткуль отмечает озёрную линию; Мижгон, Маргузор и Хазорчашма показывают, как дорога поднимается от первого цвета к решению о верхнем озере."
+        "uz": "Panjikent vodiyga kirish yoʻlini belgilaydi; Haftkoʻl koʻllar vodiysini koʻrsatadi; Mijgon, Marguzor va Hazorchashma yoʻl qanday qilib birinchi rangdan yuqori koʻl qarorigacha koʻtarilishini bildiradi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.225846
+      "longitude": 67.793771
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "mijgon-lake"
+      - "entityType": "attraction"
+        "entitySlug": "marguzor-lake"
+      - "entityType": "attraction"
+        "entitySlug": "hazorchashma-lake"
+    "aside":
+      "eyebrow":
+        "en": "First decision"
+        "ru": "Первое решение"
+        "uz": "Birinchi qaror"
+      "title":
+        "en": "Lower lakes first"
+        "ru": "Сначала нижние озёра"
+        "uz": "Avval pastki koʻllar"
+      "description":
+        "en": "Start with the lower lakes and the village road. If current conditions are right, the visit can continue higher; if not, a lower-lake route still gives the valley its shape."
+        "ru": "Начните с нижних озёр и дороги через сёла. Если условия подходят, маршрут может продолжиться выше; если нет, нижняя часть всё равно раскрывает характер долины."
+        "uz": "Pastki koʻllar va qishloqlar oralab boradigan yoʻldan boshlang. Sharoit mos boʻlsa, tashrif yuqoriga davom etadi; mos boʻlmasa, pastki koʻllarning oʻzi ham vodiyning xarakterini ochadi."
+      "items":
+        - "title":
+            "en": "Start in Penjikent"
+            "ru": "Начать в Пенджикенте"
+            "uz": "Panjikentdan boshlash"
+          "description":
+            "en": "Penjikent is the practical approach city before the road enters the Shing Valley."
+            "ru": "Пенджикент даёт практический подход к дороге, прежде чем она входит в долину Шинг."
+            "uz": "Panjikent yoʻl Shing vodiysiga kirishidan oldingi amaliy yondashuv shahri."
+        - "title":
+            "en": "Move through the lower lakes"
+            "ru": "Пройти нижние озёра"
+            "uz": "Pastki koʻllar orqali yurish"
+          "description":
+            "en": "The lower lakes give the first colour sequence before the road asks for bigger decisions."
+            "ru": "Нижние озёра дают первую цветовую последовательность, прежде чем дорога требует более серьёзных решений."
+            "uz": "Pastki koʻllar yoʻl kattaroq qarorlarni soʻrashidan oldin birinchi rang ketma-ketligini beradi."
+        - "title":
+            "en": "Give Marguzor time"
+            "ru": "Дать Маргузору время"
+            "uz": "Marguzorga vaqt berish"
+          "description":
+            "en": "Marguzor is the broad lake pause that should not be rushed on the way upward."
+            "ru": "Маргузор — широкая озёрная пауза, которую не стоит торопить по пути выше."
+            "uz": "Marguzor yuqoriga borishda shoshirmaslik kerak boʻlgan keng koʻl pauzasidir."
+        - "title":
+            "en": "Check conditions before Hazorchashma."
+            "ru": "Проверить условия перед Хазорчашмой."
+            "uz": "Hazorchashmadan oldin sharoitni tekshirish."
+          "description":
+            "en": "Hazorchashma belongs only when road, weather, vehicle, and daylight still support the upper section."
+            "ru": "Хазорчашма входит в маршрут только когда дорога, погода, машина и световой день ещё поддерживают верхний участок."
+            "uz": "Hazorchashma faqat yoʻl, ob-havo, mashina va kunduzgi vaqt yuqori qismni qoʻllaganda qoʻshiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrish"
+    "title":
+      "en": "Three lake anchors shape the valley visit"
+      "ru": "Три озёрных акцента задают визит в долину"
+      "uz": "Uch koʻl tayanchi vodiy tashrifini shakllantiradi"
+    "description":
+      "en": "Haftkul has seven named lakes. For a first visit, three anchors keep the valley clear: Mijgon for the first colour shift, Marguzor for the main lake scale and village setting, and Hazorchashma for the high-road question."
+      "ru": "В Хафткуле семь именных озёр. Для первого визита три опоры помогают читать долину спокойно: Мижгон для первой смены цвета, Маргузор для главного масштаба и сельской жизни, Хазорчашма для вопроса о верхней дороге."
+      "uz": "Haftkoʻlda yetti nomli koʻl bor. Birinchi tashrif uchun uch tayanch vodiyni tushunarli qiladi: Mijgon - birinchi rang almashinuvi, Marguzor - asosiy koʻl miqyosi va qishloq muhiti, Hazorchashma - yuqori yoʻl haqidagi savol."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Mijgon Lake"
+          "ru": "Озеро Мижгон"
+          "uz": "Mijgon ko‘li"
+        "description":
+          "en": "Mijgon is the lower-lake stop where the Seven Lakes road first changes from approach to arrival. After the climb from the Penjikent side through the Shing Valley, the water gives Haftkul its first visible colour before Marguzor and the higher lakes."
+          "ru": "Мижгон - нижнее озеро, где дорога Семи озёр впервые ощущается не подъездом, а самим Хафткулем. После подъёма со стороны Пенджикента через долину Шинг вода даёт маршруту первый цвет перед Маргузором и верхними озёрами."
+          "uz": "Mijgon - Yetti Koʻl yoʻli ilk bor oddiy yondashuvdan Haftkoʻlning oʻziga aylana boshlaydigan pastki koʻl. Panjikent tomondan Shing vodiysi orqali koʻtarilgach, suv yoʻlga birinchi rang beradi va Marguzor hamda yuqori koʻllardan oldin tempni sekinlashtiradi."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/seven-lakes/mijgon-lake"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Marguzor Lake"
+          "ru": "Озеро Маргузор"
+          "uz": "Marguzor ko‘li"
+        "description":
+          "en": "Marguzor gives the Seven Lakes route its main sense of scale. After the lower water, village road, and first colour changes, this wider lake is where the Haftkul visit can pause before any decision to continue toward Hazorchashma."
+          "ru": "Маргузор даёт маршруту Семи озёр главное ощущение масштаба. После нижней воды, дороги через кишлаки и первых смен цвета это более широкое озеро становится местом паузы перед решением, продолжать ли путь к Хазорчашме."
+          "uz": "Marguzor Yetti Koʻl yoʻliga asosiy kenglik hissini beradi. Pastki suv, qishloq yoʻli va birinchi rang almashinuvidan keyin bu kengroq koʻl Hazorchashma tomon davom etish qaroridan oldingi tabiiy pauzaga aylanadi."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/seven-lakes/marguzor-lake"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Hazorchashma Lake"
+          "ru": "Озеро Хазорчашма"
+          "uz": "Hazorchashma ko‘li"
+        "description":
+          "en": "Hazorchashma should stay optional. It sits higher in the Seven Lakes / Haftkul sequence after Mijgon and Marguzor, and it belongs in the visit only when the valley road, weather, vehicle, daylight, traveler comfort, and return margin still support a calm continuation."
+          "ru": "Хазорчашма не должна быть обязательной целью. Озеро находится выше в последовательности Семь озёр / Хафткуль, после Мижгона и Маргузора, и подходит для визита только когда дорога долины, погода, машина, световой день, комфорт путешественников и запас на возвращение всё ещё поддер"
+          "uz": "Hazorchashma majburiy manzil boʻlib qolmasligi kerak. U Yetti Koʻl / Haftkoʻl ketma-ketligida Mijgon va Marguzordan keyin yuqoriroqda joylashgan, va vodiy yoʻli, ob-havo, mashina, kunduzgi vaqt, sayohatchilar qulayligi hamda qaytish zaxirasi xotirjam davomga imkon bergandagina ta"
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/seven-lakes/hazorchashma-lake"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Seven Lakes moments"
+      "ru": "Моменты Семи озёр"
+      "uz": "Yetti Koʻl lahzalari"
+    "title":
+      "en": "Colour, village road, and the upper-lake call"
+      "ru": "Цвет, сельская дорога и решение о верхнем озере"
+      "uz": "Rang, qishloq yoʻli va yuqori koʻl tanlovi"
+    "description":
+      "en": "The strongest Seven Lakes moments are not separate attractions to collect. They are changes in pace: the first water colour, the road beside village life, and the honest choice of whether to continue higher."
+      "ru": "Самые сильные моменты Семи озёр - не отдельные точки для галочки. Это смена темпа: первый цвет воды, дорога рядом с сельской жизнью и честный выбор, ехать ли выше."
+      "uz": "Yetti Koʻlning eng kuchli lahzalari alohida nuqtalar yigʻindisi emas. Bu tempning oʻzgarishi: suvning birinchi rangi, qishloq hayoti yonidan oʻtadigan yoʻl va yuqoriga davom etish kerakmi degan halol tanlov."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "First colour at Mijgon"
+          "ru": "Первый цвет у Мижгона"
+          "uz": "Mijgondagi birinchi rang"
+        "description":
+          "en": "Mijgon is where the road first opens to mineral-coloured water below the cliffs. Pause here before the valley becomes a list of lakes."
+          "ru": "У Мижгона дорога впервые раскрывается к минеральной воде под скалами. Здесь стоит сделать паузу, пока долина не превратилась в простой список озёр."
+          "uz": "Mijgonda yoʻl ilk bor qoyalar ostidagi rangdor suvga ochiladi. Vodiy oddiy koʻllar roʻyxatiga aylanib qolmasidan, shu yerda toʻxtab nafas oling."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Village road pauses"
+          "ru": "Паузы на сельской дороге"
+          "uz": "Qishloq yoʻlidagi pauzalar"
+        "description":
+          "en": "The lake road passes close to village life. Photos, meals, and short stops feel better when the guide reads the moment locally and the route is not pushed upward too fast."
+          "ru": "Озёрная дорога проходит рядом с сельской жизнью. Фотографии, еда и короткие остановки получаются спокойнее, когда гид чувствует момент на месте и маршрут не торопят наверх."
+          "uz": "Koʻllar yoʻli qishloq hayotiga yaqin boradi. Surat, ovqat va qisqa toʻxtashlar mahalliy gid vaziyatni sezib, yoʻlni yuqoriga shoshirmaganda yaxshiroq kechadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Hazorchashma, if the road allows"
+          "ru": "Хазорчашма, если дорога позволяет"
+          "uz": "Yoʻl imkon bersa, Hazorchashma"
+        "description":
+          "en": "Hazorchashma adds height, but only when road, weather, vehicle, and daylight support the climb. Stopping lower can still make a complete Seven Lakes visit."
+          "ru": "Хазорчашма добавляет высоту, но только когда дорога, погода, машина и световой день поддерживают подъём. Остановиться ниже тоже может быть цельным визитом к Семи озёрам."
+          "uz": "Hazorchashma balandlik qoʻshadi, lekin yoʻl, ob-havo, mashina va kunduzgi vaqt chiqishni qoʻllaganda. Pastroqda toʻxtash ham Yetti Koʻl tashrifini toʻliq qilishi mumkin."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Yoʻlga chiqishdan oldin"
+    "title":
+      "en": "Plan the lake road with patience"
+      "ru": "Планируйте озёрную дорогу с терпением"
+      "uz": "Koʻl yoʻlini sabr bilan rejalang"
+    "description":
+      "en": "The distances can look simple on a map, but the valley asks for slower judgment. Water level, road surface, village traffic, meal stops, and weather can all change how far the visit should go."
+      "ru": "На карте расстояния могут выглядеть простыми, но долина требует более медленной оценки. Уровень воды, поверхность дороги, движение в сёлах, остановки на еду и погода могут изменить то, насколько высоко стоит подниматься."
+      "uz": "Xarita masofalarni sodda koʻrsatishi mumkin, lekin vodiy sekinroq bahoni talab qiladi. Suv darajasi, yoʻl yuzasi, qishloq harakati, ovqat uchun toʻxtashlar va ob-havo qanchalik yuqoriga borishni oʻzgartirishi mumkin."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Begin with the lower lakes"
+              "ru": "Начните с нижних озёр"
+              "uz": "Pastki koʻllardan boshlang"
+            "description":
+              "en": "Mijgon, Soya, Hushyor, Nofin, and Khurdak build the climb gradually. Your guide can choose pauses that make the changes visible without turning every stop into the same photograph."
+              "ru": "Мижгон, Соя, Хушёр, Нофин и Хурдак постепенно собирают подъём. Гид может выбрать паузы так, чтобы перемены были заметны, а каждое озеро не превращалось в одинаковую фотографию."
+              "uz": "Mijgon, Soya, Hushyor, Nofin va Khurdak koʻtarilishni asta-sekin yigʻadi. Gid oʻzgarishlar koʻrinadigan, lekin har bir toʻxtash bir xil suratga aylanmaydigan pauzalarni tanlay oladi."
+          - "type": "quote"
+            "quote":
+              "en": "The strongest Seven Lakes visit is not the one that reaches the highest point; it is the one that lets the valley change in front of you."
+              "ru": "Самый сильный визит к Семи озёрам не тот, что любой ценой доходит до верхней точки, а тот, в котором долина успевает измениться у вас на глазах."
+              "uz": "Yetti Koʻlning eng kuchli tashrifi eng yuqori nuqtaga qanday boʻlsa ham yetib borish emas, balki vodiyning koʻz oldingizda oʻzgarishiga vaqt berishdir."
+          - "type": "dashTitle"
+            "title":
+              "en": "Give Marguzor the main pause"
+              "ru": "Дайте Маргузору главную паузу"
+              "uz": "Marguzorga asosiy pauzani bering"
+            "description":
+              "en": "Marguzor gives the valley its broadest water frame and village setting. If the route reaches this level, the lake deserves time to be seen properly."
+              "ru": "Маргузор даёт самый широкий водный вид и показывает сельскую жизнь долины. Если маршрут дошёл до этого уровня, озеру нужно время, чтобы его действительно увидеть."
+              "uz": "Marguzor vodiydagi eng keng suv manzarasi va qishloq muhitini beradi. Yoʻl shu darajaga yetsa, koʻlni chindan koʻrish uchun unga vaqt kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Let Hazorchashma stay conditional"
+              "ru": "Оставьте Хазорчашму условным продолжением"
+              "uz": "Hazorchashma shartli davom boʻlib qolsin"
+            "description":
+              "en": "Hazorchashma sits higher in the sequence. Continue only when the current road, daylight, vehicle, and group comfort make the upper section sensible."
+              "ru": "Хазорчашма стоит выше в последовательности. Продолжать стоит только тогда, когда текущая дорога, световой день, машина и самочувствие группы делают верхний участок разумным."
+              "uz": "Hazorchashma ketma-ketlikda yuqoriroqda turadi. Hozirgi yoʻl, kunduzgi vaqt, mashina va guruhning holati yuqori qismni maʼqul qilgandagina davom eting."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Come for the colour sequence, give Marguzor real time, and decide on Hazorchashma with the conditions in front of you."
+              "ru": "Ехать стоит ради цветовой последовательности, времени у Маргузора и честного решения на месте, нужна ли Хазорчашма именно в этот визит."
+              "uz": "Rang ketma-ketligi, Marguzor yonidagi vaqt va Hazorchashma aynan shu tashrifga kerakmi degan sharoitga qarab halol qaror uchun boring."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Yoʻlga chiqishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "within the Fann Mountains & Zeravshan tourist region."
+                  "ru": "внутри туристического региона Фанские горы и Зеравшан."
+                  "uz": "Fan togʻlari va Zarafshon turistik hududi ichida."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main visit"
+                  "ru": "Главный визит"
+                  "uz": "Asosiy tashrif"
+                "description":
+                  "en": "village-road pauses, Marguzor's scale, and the decision of whether Hazorchashma fits the conditions."
+                  "ru": "паузы на сельской дороге, масштаб Маргузора и решение, подходит ли Хазорчашма под условия."
+                  "uz": "qishloq yoʻlidagi pauzalar, Marguzor miqyosi va Hazorchashma sharoitga mos keladimi degan qaror."
+              - "icon": "Sun"
+                "title":
+                  "en": "Time"
+                  "ru": "Время"
+                  "uz": "Vaqt"
+                "description":
+                  "en": "or as part of a slower Fann Mountains program when arrangements support it."
+                  "ru": "если договорённости это поддерживают."
+                  "uz": "Fan togʻlaridagi sekinroq dastur sifatida koʻrish yaxshiroq."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and comfort"
+                  "ru": "Сезон и комфорт"
+                  "uz": "Mavsum va qulaylik"
+                "description":
+                  "en": "road surface, and weather still need current checks."
+                  "ru": "лето и ранняя осень дают основной комфорт; уровень воды, дорога и погода всё равно проверяются ближе к поездке."
+                  "uz": "road surface, and weather still need current checks."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before travel"
+                  "ru": "Перед поездкой"
+                  "uz": "Yoʻlga chiqishdan oldin"
+                "description":
+                  "en": "vehicle suitability, daylight, meal and rest stops, village etiquette, photography sensitivity, and the sense of continuing to the upper lake."
+                  "ru": "подходящую машину, световой день, остановки на еду и отдых, этикет в сёлах, чувствительность к фотографиям и смысл продолжения к верхнему озеру."
+                  "uz": "vehicle suitability, daylight, meal and rest stops, village etiquette, photography sensitivity, and the sense of continuing to the upper lake."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqinda"
+    "title":
+      "en": "Penjikent, Iskanderkul, and the Fann road"
+      "ru": "Пенджикент, Искандеркуль и дорога Фанских гор"
+      "uz": "Panjikent, Iskandarkoʻl va Fan yoʻli"
+    "description":
+      "en": "Penjikent gives the nearest practical approach to Haftkul. Iskanderkul is another Fann lake route with separate road time, while Dushanbe anchors longer Tajikistan journeys before or after the Zeravshan side."
+      "ru": "Пенджикент даёт ближайший практический подход к Хафткулю. Искандеркуль - другой озёрный маршрут Фанских гор со своим временем в дороге, а Душанбе держит более длинные маршруты по Таджикистану до или после Зеравшана."
+      "uz": "Panjikent Haftkoʻlga eng yaqin amaliy yondashuvni beradi. Iskandarkoʻl Fan togʻlaridagi boshqa koʻl yoʻli va alohida yoʻl vaqtiga ega; Dushanbe esa Zarafshondan oldin yoki keyin uzunroq Tojikiston safarlarining tayanchidir."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Penjikent"
+          "ru": "Пенджикент"
+          "uz": "Panjikent"
+        "description":
+          "en": "Penjikent anchors the western Fann Mountains route with Ancient Penjikent, UNESCO Sarazm, the Rudaki Museum, market life, and the first road choices toward Seven Lakes or Iskanderkul."
+          "ru": "Пенджикент открывает западную часть маршрута по Фанским горам: древний Пенджикент над городом, Саразм ЮНЕСКО, музей Рудаки, рынок и выбор дороги к Семи озёрам или Искандеркулю."
+          "uz": "Panjikent Fan togʻlari yo‘lining gʻarbiy qismini ochadi: shahar ustidagi qadimiy Panjikent, UNESCO Sarazm, Rudakiy muzeyi, bozor va Yetti ko‘l yoki Iskandarko‘l tomonga yo‘l tanlovi."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/penjikent"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan/next/seven-lakes-next-iskanderkul.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Iskanderkul"
+          "ru": "Искандеркуль"
+          "uz": "Iskandarkoʻl"
+        "description":
+          "en": "Iskanderkul is the lake-area pause in the Fann Mountains: turquoise water, red-grey slopes, a waterfall side walk, and road checks before the route climbs farther."
+          "ru": "Искандеркуль — озёрная остановка в Фанских горах: бирюзовая вода, красно-серые склоны, короткий выход к водопаду и проверка дороги перед дальнейшим подъёмом."
+          "uz": "Iskandarkoʻl Fan togʻlaridagi koʻl pauzasidir: feruza suv, qizil-kulrang yonbagʻirlar, sharsharaga qisqa chiqish va yoʻl yuqoriga davom etishidan oldingi tekshiruvlar."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/iskanderkul"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Dushanbe"
+          "ru": "Душанбе"
+          "uz": "Dushanbe"
+        "description":
+          "en": "Dushanbe is Tajikistan's calm arrival city: Rudaki Avenue shade, national museums, tea-house stops, and first choices toward Hissar, Varzob, or higher valleys."
+          "ru": "Душанбе — спокойное место прибытия в Таджикистан: тень проспекта Рудаки, национальные музеи, чайхана или рынок и первые решения к Гиссару, Варзобу или высоким долинам."
+          "uz": "Dushanbe Tojikistonga sokin kirish shahri: Rudakiy xiyoboni soyasi, milliy muzeylar, choyxona toʻxtashlari va Hisor, Varzob yoki baland vodiylar tomon ilk tanlovlar."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/dushanbe"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Seven Lakes in the day plan"
+      "ru": "Как поставить Семь озёр в план дня"
+      "uz": "Yetti Koʻlni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Seven Lakes?"
+          "ru": "Сколько времени группам стоит проводить в Семь озёр?"
+          "uz": "Yetti Koʻlda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “The Haftkul lake road above Penjikent”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Маршрут Хафткуль над Пенджикентом»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Panjikent ustidagi Haftkoʻl yoʻli»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Seven Lakes be a walkable core or a base for day trips?"
+          "ru": "Семь озёр — это пешеходное ядро или база для выездов?"
+          "uz": "Yetti Koʻl piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Seven Lakes's centre?"
+          "ru": "Где лучше ночевать относительно центра Семь озёр?"
+          "uz": "Yetti Koʻl markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan/regions/fann-mountains-and-zeravshan/cities/seven-lakes.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Seven Lakes stop into your Tajikistan programme"
+      "ru": "Встройте остановку «Семь озёр» в программу (Таджикистан)"
+      "uz": "Yetti Koʻl bekatini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Seven Lakes | TourLink"
+    "ru": "Семь озёр | TourLink"
+    "uz": "Yetti Koʻl | TourLink"
+  "metaDescription":
+    "en": "Seven Lakes is the lake road that takes the Zeravshan journey above Penjikent toward water, cliffs, and mountain villages. The road climbs through the Shing Valley, where the visit changes from first colour at Mijgon to the wider pause at Marguzor. Hazorchashma belongs in the plan only when current conditions make the upper section sensible."
+    "ru": "Семь озёр ведут зеравшанский маршрут над Пенджикентом к воде, скалам и горным сёлам. Дорога поднимается через долину Шинг: от первого цвета Мижгона к широкой паузе у Маргузора. Хазорчашма входит в план только тогда, когда текущие условия делают верхний участок разумным."
+    "uz": "Yetti Koʻl Zarafshon yoʻlini Panjikent ustidan suv, qoyalar va togʻ qishloqlari tomon olib chiqadi. Yoʻl Shing vodiysi orqali koʻtariladi: Mijgondagi birinchi rangdan Marguzor yonidagi kengroq pauzagacha. Hazorchashma faqat hozirgi sharoit yuqori qismni maʼqul qilganda rejaga kiradi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "fann-mountains-and-zeravshan"
+"latitude": 39.1636694
+"longitude": 67.8390772

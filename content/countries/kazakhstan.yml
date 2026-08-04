@@ -1,79 +1,607 @@
-# Seed: коллекция countries — Kazakhstan
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "kazakhstan"
+  "ru": "kazakhstan"
+  "uz": "kazakhstan"
+"title":
+  "en": "Kazakhstan"
+  "ru": "Казахстан"
+  "uz": "Qozogʻiston"
+"subtitle":
+  "en": "Steppe scale, mountain cities, and Silk Road south"
+  "ru": "Степной масштаб, горные города и южный Шёлковый путь"
+  "uz": "Dasht miqyosi, togʻ shaharlari va janubiy Ipak yoʻli"
+"excerpt":
+  "en": "Kazakhstan gives Central Asia its scale: trains cross steppe horizons through the night.
 
-slug:
-  en: kazakhstan
-  ru: kazakhstan
-  uz: kazakhstan
-title:
-  en: Kazakhstan
-  ru: Казахстан
-  uz: Qozog'iston
-subtitle:
-  en: Wide horizon
-  ru: Широкий контур
-  uz: Keng kontur
-excerpt:
-  en: Steppe and city silhouettes
-  ru: Степи и силуэты городов
-  uz: Dashtlar va shahar siluetlari
-mapCenter:
-  latitude: 43.2389
-  longitude: 76.8897
-heroImage: assets/images/destinations/kazahstan.jpg
-badges:
-  - POPULAR
-blocks:
-  - blockType: hero
-    image: assets/images/destinations/kazahstan.jpg
-    imageAlt:
-      en: Almaty and the Tien Shan foothills
-      ru: Алматы и предгорья Тянь-Шаня
-      uz: Olmaota va Tyan-Shan etag'i
-    title:
-      en: Kazakhstan
-      ru: Казахстан
-      uz: Qozog'iston
-    description:
-      en: Steppe and city silhouettes
-      ru: Степи и силуэты городов
-      uz: Dashtlar va shahar siluetlari
-    note:
-      en: A wide country where routes can stretch from modern Almaty to ancient Turkestan and desert canyons.
-      ru: Широкая страна, где маршрут может тянуться от современной Алматы до древнего Туркестана и пустынных каньонов.
-      uz: Zamonaviy Olmaotadan qadimiy Turkistonga va cho'l kanyonlarigacha cho'zilishga imkon beradigan keng mamlakat.
-    actions:
-      - type: mailto
-        variant: default
-        title:
-          en: Request a tour
-          ru: Запросить тур
-          uz: Tur so'rash
-        email: info@tourlink.uz
-  - blockType: regular
-    eyebrow:
-      en: Key cities
-      ru: Ключевые города
-      uz: Asosiy shaharlar
-    title:
-      en: Where routes usually start
-      ru: Откуда обычно начинаются маршруты
-      uz: Marshrutlar odatda qayerdan boshlanadi
-    description:
-      en: "Almaty, Turkestan, Charyn, and Mangystau — city energy, sacred history, canyon drama, and the western desert edge."
-      ru: "Алматы, Туркестан, Чарын и Мангистау — городская энергия, священная история, каньоны и западный край пустыни."
-      uz: "Olmaota, Turkiston, Sharyn va Mang'istov — shahar energiyasi, muqaddas tarix, kanyonlar va g'arbiy cho'l chegarasi."
-seo:
-  metaTitle:
-    en: Kazakhstan tours | TourLink
-    ru: Туры в Казахстан | TourLink
-    uz: Qozog'istonda turlar | TourLink
-  metaDescription:
-    en: Steppe horizons, Almaty, Turkestan, and canyon routes across Kazakhstan — from TourLink DMC.
-    ru: Степные горизонты, Алматы, Туркестан и каньонные маршруты по Казахстану — от DMC TourLink.
-    uz: Dasht ufqalari, Olmaota, Turkiston va Qozog'iston bo'ylab kanyon marshrutlari — TourLink DMC dan.
-  structuredDataType: TouristDestination
-status:
-  showInSitemap: true
-  noindex: false
-  hideFromNavigation: false
-  publishedAt: "2025-06-01"
+
+    The journey moves from Astana's broad avenues to Almaty's foothills, Shymkent's southern rhythm, and Turkistan's pilgrimage courtyards."
+  "ru": "Казахстан даёт Центральной Азии масштаб: поезд всю ночь идёт через степные горизонты.
+
+
+    Маршрут движется от широких проспектов Астаны к предгорьям Алматы, южному ритму Шымкента и паломническим дворам Туркестана."
+  "uz": "Qozogʻiston Markaziy Osiyoga miqyos beradi: poyezd dasht ufqlari boʻylab tun boʻyi yuradi.
+
+
+    Yoʻl Ostonaning keng xiyobonlaridan Olmaota togʻoldilariga, Chimkentning janubiy ritmi va Turkistonning ziyorat hovlilariga boradi."
+"heroImage": "assets/images/destinations/kazakhstan/country.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan/country.webp"
+    "imageAlt":
+      "en": "Kazakhstan"
+      "ru": "Казахстан"
+      "uz": "Qozogʻiston"
+    "title":
+      "en": "Kazakhstan"
+      "ru": "Казахстан"
+      "uz": "Qozogʻiston"
+    "description":
+      "en": "Astana, Almaty, Turkistan and the steppe — Central Asia at continental scale."
+      "ru": "Астана, Алматы, Туркестан и степь — Центральная Азия континентального масштаба."
+      "uz": "Ostona, Olmaota, Turkiston va dasht — qit’a miqyosidagi Markaziy Osiyo."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О стране"
+      "uz": "Mamlakat haqida"
+    "title":
+      "en": "Kazakhstan"
+      "ru": "Казахстан"
+      "uz": "Qozogʻiston"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Kazakhstan gives Central Asia its continental scale — capitals, foothills, and Silk Road south across real distances."
+              "ru": "Казахстан даёт Центральной Азии континентальный масштаб — столицы, предгорья и южный Шёлковый путь через настоящие расстояния."
+              "uz": "Qozogʻiston Markaziy Osiyoga qitʼa miqyosini beradi — poytaxtlar, togʻoldilar va janubiy Ipak yoʻli haqiqiy masofalar orqali."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Astana sets the modern capital tone; Almaty opens mountains and city life; Turkistan and the south hold pilgrimage courtyards and older Silk Road depth. Distances are the product’s grammar: trains, flights and road days must be planned as part of the experience, not as leftovers between hotels."
+              "ru": "Астана задаёт тон современной столицы; Алматы открывает горы и городской ритм; Туркестан и юг держат паломнические дворы и более старую глубину Шёлкового пути. Расстояния — грамматика продукта: поезда, перелёты и дорожные дни планируют как часть опыта, а не как остаток между отелями."
+              "uz": "Ostona zamonaviy poytaxt ohangini beradi; Olmaota togʻ va shahar hayotini ochadi; Turkiston va janub ziyorat hovlilari va Ipak yoʻlining qadimiy chuqurligini ushlaydi. Masofalar — mahsulot grammatikasi: poyezd, parvoz va yoʻl kunlari mehmonxona orasidagi qoldiq emas, tajribaning qismi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "One strong anchor per leg, honest travel days, and a season that respects steppe heat, mountain weather and long horizons."
+              "ru": "Один сильный якорь на каждый этап, честные дни в пути и сезон, который учитывает степную жару, горную погоду и длинные горизонты."
+              "uz": "Har bosqichda bitta kuchli tayanch, halol yoʻl kunlari va dasht issiqligi, togʻ ob-havosi va uzoq ufqni hisobga olgan mavsum."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies building wider Central Asia programmes, or clients who want capital polish next to mountain and heritage depth."
+              "ru": "Агентствам, собирающим широкий маршрут по Центральной Азии, и клиентам, которым нужен столичный лоск рядом с горами и наследием."
+              "uz": "Keng Markaziy Osiyo dasturini yigʻayotgan agentliklar va togʻ-meros yonida poytaxt jilosini xohlagan mijozlar."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Route logic"
+      "ru": "Логика маршрута"
+      "uz": "Yoʻnalish mantigʻi"
+    "title":
+      "en": "How routes take shape in Kazakhstan"
+      "ru": "Как складывается маршрут по Казахстану"
+      "uz": "Qozogʻiston boʻylab yoʻnalish qanday shakllanadi"
+    "description":
+      "en": "Kazakhstan is too large to treat as one compressed list. The clearest routes start with a main anchor: Almaty and the Tian Shan, Astana and the steppe, or Shymkent and Turkistan on the southern Silk Road."
+      "ru": "Казахстан слишком велик для сжатого списка остановок. Самые ясные маршруты начинаются с главной опоры: Алматы и Тянь-Шань, Астана и степь или Шымкент с Туркестаном на южной линии Шёлкового пути."
+      "uz": "Qozogʻistonni bitta siqilgan roʻyxat sifatida koʻrish qiyin. Eng ravshan yoʻnalishlar asosiy tayanchdan boshlanadi: Olmaota va Tyanshan, Ostona va dasht yoki janubiy Ipak yoʻlida Chimkent hamda Turkiston."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route anchors"
+        "ru": "Ориентиры маршрута"
+        "uz": "Yoʻnalish tayanchlari"
+      "title":
+        "en": "Mountains, capital, and southern heritage"
+        "ru": "Горы, столица и южное наследие"
+        "uz": "Togʻlar, poytaxt va janubiy meros"
+      "description":
+        "en": "Keep four anchors in view: Almaty, Astana, Shymkent, and Turkistan. Flights, rail options, road conditions, season, and your pace decide how much distance belongs in one journey."
+        "ru": "Держите в фокусе четыре опоры: Алматы, Астану, Шымкент и Туркестан. Перелёты, поезда, состояние дорог, сезон и ваш темп подскажут, сколько расстояния стоит включать в одну поездку."
+        "uz": "Toʻrt yoʻnalish nuqtasini ko‘zda tuting: Olmaota, Ostona, Chimkent va Turkiston. Parvoz, poyezd, yoʻl holati, mavsum va sizning surʼatingiz bitta safarga qancha masofa sigʻishini belgilaydi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.3775
+      "longitude": 64.5853
+    "zoom": 6
+    "stops":
+      - "entityType": "region"
+        "entitySlug": "almaty-and-northern-tian-shan"
+      - "entityType": "region"
+        "entitySlug": "astana-and-akmola-steppe"
+      - "entityType": "region"
+        "entitySlug": "turkistan-shymkent-and-southern-silk-road"
+      - "entityType": "region"
+        "entitySlug": "east-kazakhstan-and-altai"
+      - "entityType": "region"
+        "entitySlug": "mangystau-and-caspian-west"
+      - "entityType": "region"
+        "entitySlug": "taraz-and-jambyl-silk-road"
+    "aside":
+      "eyebrow":
+        "en": "Route rhythm"
+        "ru": "Ритм маршрута"
+        "uz": "Yoʻnalish surʼati"
+      "title":
+        "en": "Start with one anchor, then pace the distances"
+        "ru": "Начните с одной опоры, затем распределите расстояния"
+        "uz": "Avval bitta yoʻnalish nuqtasini tanlang, keyin masofani taqsimlang"
+      "description":
+        "en": "Almaty, Astana, Shymkent, and Turkistan each change the journey in a different way. The route feels better when those anchors are paced as distinct chapters rather than squeezed into one long transfer chain."
+        "ru": "Алматы, Астана, Шымкент и Туркестан по-разному меняют путешествие. Маршрут становится спокойнее, когда эти опоры идут отдельными главами, а не одной длинной цепочкой переездов."
+        "uz": "Olmaota, Ostona, Chimkent va Turkiston safarni har xil tomonga oʻzgartiradi. Bu tayanchlar bitta uzun koʻchish zanjiri emas, alohida bo‘limlar sifatida berilganda yoʻnalish sokinroq seziladi."
+      "items":
+        - "title":
+            "en": "Almaty opens the Tian Shan side"
+            "ru": "Алматы открывает сторону Тянь-Шаня"
+            "uz": "Olmaota Tyanshan tomonini ochadi"
+          "description":
+            "en": "Almaty brings city rhythm close to Medeu, Shymbulak, Kok-Tobe, foothill roads, and higher mountain choices."
+            "ru": "Алматы держит городской ритм рядом с Медеу, Шымбулаком, Кок-Тобе, предгорными дорогами и более высокими горными выездами."
+            "uz": "Olmaota shahar surʼatini Medeu, Shymbuloq, Koʻk-Tobe, togʻoldi yoʻllari va balandroq togʻ tanlovlariga yaqin tutadi."
+          "badge":
+            "en": "mountains"
+            "ru": "горы"
+            "uz": "togʻlar"
+        - "title":
+            "en": "Astana gives the steppe a capital scale"
+            "ru": "Астана даёт степи столичный масштаб"
+            "uz": "Ostona dashtga poytaxt miqyosini beradi"
+          "description":
+            "en": "Astana changes the mood with broad avenues, museums, new architecture, wind, and the open steppe around the city."
+            "ru": "Астана меняет настроение широкими проспектами, музеями, новой архитектурой, ветром и открытой степью вокруг города."
+            "uz": "Ostona keng shohkoʻchalar, muzeylar, yangi meʼmorchilik, shamol va shahar atrofidagi ochiq dasht bilan kayfiyatni oʻzgartiradi."
+          "badge":
+            "en": "capital"
+            "ru": "столица"
+            "uz": "poytaxt"
+        - "title":
+            "en": "The south carries the Silk Road line"
+            "ru": "Юг держит линию Шёлкового пути"
+            "uz": "Janub Ipak yoʻli chizigʻini ushlab turadi"
+          "description":
+            "en": "Shymkent and Turkistan bring bazaars, citadel memory, pilgrimage courtyards, and the Yasawi ensemble into the journey."
+            "ru": "Шымкент и Туркестан добавляют базары, память цитадели, паломнические дворы и ансамбль Ясави."
+            "uz": "Chimkent va Turkiston bozorlar, qalʼa xotirasi, ziyorat hovlilari va Yassaviy majmuasini safarga olib kiradi."
+          "badge":
+            "en": "south"
+            "ru": "юг"
+            "uz": "janub"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route ideas"
+      "ru": "Идеи маршрута"
+      "uz": "Yoʻnalish gʻoyalari"
+    "title":
+      "en": "Kazakhstan routes by request"
+      "ru": "Маршруты по Казахстану под запрос"
+      "uz": "Qozogʻiston yoʻnalishlari soʻrov boʻyicha"
+    "description":
+      "en": "Until published tour programs are ready, we shape Kazakhstan itineraries around distance, season, flights, rail, and the places that deserve a slower stop."
+      "ru": "Пока опубликованные тур-программы готовятся, мы собираем маршруты по Казахстану с учётом расстояний, сезона, перелётов, поездов и мест, где стоит задержаться."
+      "uz": "Tayyor tur dasturlari eʼlon qilinmaguncha, biz Qozogʻiston safarlarini masofa, mavsum, parvoz, poyezd va sekinroq ko‘rishga arziydigan joylarga qarab tuzamiz."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Tourist regions"
+      "ru": "Туристические регионы"
+      "uz": "Turistik hududlar"
+    "title":
+      "en": "Regions of Kazakhstan"
+      "ru": "Регионы Казахстана"
+      "uz": "Qozogʻiston hududlari"
+    "description":
+      "en": "Kazakhstan is easiest to plan through broad travel regions: Almaty & Northern Tian Shan for the mountain edge, Astana & Akmola Steppe for capital scale, and Turkistan/Shymkent & the Southern Silk Road for southern heritage. Mangystau and East Kazakhstan/Altai remain strong near-term extensions when the route has the right season and distance."
+      "ru": "Казахстан проще планировать через крупные туристические регионы: Алматы и Северный Тянь-Шань для горного края, Астана и Акмолинская степь для столичного масштаба, Туркестан/Шымкент и южный Шёлковый путь для южного наследия. Мангистау и Восточный Казахстан/Алтай остаются сильными ближайшими расширениями, если сезон и расстояние подходят."
+      "uz": "Qozogʻistonni yirik turistik hududlar orqali rejalash osonroq: Olmaota va Shimoliy Tyanshan togʻ cheti uchun, Ostona va Aqmola dashti poytaxt miqyosi uchun, Turkiston/Shimkent va janubiy Ipak yoʻli janubiy meros uchun. Mangʻistov va Sharqiy Qozogʻiston/Oltay mavsum va masofa mos kelganda kuchli yaqin kengaytmalar boʻlib qoladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan/regions/region-almaty-and-northern-tian-shan.webp"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Almaty & Northern Tian Shan"
+          "ru": "Алматы и Северный Тянь-Шань"
+          "uz": "Olmaota va Shimoliy Tyan-Shan"
+        "description":
+          "en": "Almaty & Northern Tian Shan brings Kazakhstan close to the mountains: city streets, Medeu, Shymbulak, Kok-Tobe, and roads toward Charyn, Saty, Kolsai, Kaindy, Tamgaly, and Altyn-Emel."
+          "ru": "Алматы и Северный Тянь-Шань быстро подводят Казахстан к горам: зелёные улицы, Медеу, Шымбулак, Кок-Тобе, Чарын, Саты, Кольсай, Каинды и дальние дороги к Тамгалы или Алтын-Эмелю."
+          "uz": "Olmaota va Shimoliy Tyan-Shan Qozogʻistonni togʻlarga yaqin olib keladi: yashil shahar koʻchalari, Medeu, Shimbuloq, Koʻk-Tobe, Chorin, Sati, Koʻlsay, Qayindi va Tamgʻali yoki Oltin-Emel tomonga uzoqroq yoʻllar."
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan/regions/region-astana-and-akmola-steppe.webp"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Astana & Akmola Steppe"
+          "ru": "Астана и Акмолинская степь"
+          "uz": "Ostona va Aqmola dashti"
+        "description":
+          "en": "Astana & Akmola Steppe starts in Kazakhstan's modern capital, then opens north toward Burabay lake country and Korgalzhyn's protected wetlands."
+          "ru": "Астана и Акмолинская степь начинаются в современной столице Казахстана, а затем открываются к озёрному Бурабаю и заповедным водно-болотным угодьям Коргалжына."
+          "uz": "Ostona va Aqmola dashti Qozogʻistonning zamonaviy poytaxtidan boshlanib, shimolda Burabay koʻl hududi va Qoʻrgʻaljinning muhofaza qilinadigan suv-botqoq yerlari tomon ochiladi."
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Turkistan, Shymkent & the Southern Silk Road"
+          "ru": "Туркестан, Шымкент и южный Шёлковый путь"
+          "uz": "Turkiston, Chimkent va janubiy Ipak yoʻli"
+        "description":
+          "en": "Turkistan and Shymkent open Kazakhstan's southern Silk Road through the Yasawi mausoleum, Azret Sultan, Shymkent markets, Otrar and Sauran archaeology, Sayram memory, and the Western Tian Shan edge."
+          "ru": "Туркестан и Шымкент открывают южный Шёлковый путь Казахстана через мавзолей Ясави, Azret Sultan, рынки Шымкента, археологию Отрара и Саурана, память Сайрама и край Западного Тянь-Шаня."
+          "uz": "Turkiston va Chimkent Qozogʻistonning janubiy Ipak yoʻlini ochadi: Yassaviy maqbarasi, Azret Sultan, Chimkent bozorlari, Oʻtror va Sauran arxeologiyasi, Sayram xotirasi hamda Gʻarbiy Tyan-Shan etagi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "East Kazakhstan & Altai"
+          "ru": "Восточный Казахстан и Алтай"
+          "uz": "Mangʻistov va Kaspiy gʻarbi"
+        "description":
+          "en": "East Kazakhstan & Altai leads from Oskemen and Semey toward the Kazakh Altai: Irtysh river cities, Katon-Karagay forests, Ridder, Markakol, and mountain roads shaped by season and access."
+          "ru": "Восточный Казахстан и Алтай ведут от Усть-Каменогорска и Семея к Казахскому Алтаю: города Иртыша, леса Катон-Карагая, Риддер, Маркаколь и дороги, где важны сезон и доступ."
+          "uz": "Mangʻistov va Kaspiy gʻarbi Qozogʻistonni Kaspiy bo‘yi va cho‘l ichkarisiga olib kiradi: Aqtau, Bozzhira, Torysh, Sherkala, Beket-Ata va puxta vaqt talab qiladigan uzun yo‘llar."
+        "ctaHref": "/destinations/kazakhstan/east-kazakhstan-and-altai"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Mangystau & Caspian West"
+          "ru": "Мангистау и запад Каспия"
+          "uz": "Sharqiy Qozogʻiston va Oltay"
+        "description":
+          "en": "Mangystau & Caspian West carries Kazakhstan toward the Caspian edge and desert interior: Aktau, Bozzhira, Torysh, Sherkala, Beket-Ata, and long roads that need careful timing."
+          "ru": "Мангистау и запад Каспия ведут Казахстан к Каспию и пустынным ландшафтам: Актау, Бозжыра, Торыш, Шеркала, Бекет-Ата и длинные дороги, где важен точный расчёт времени."
+          "uz": "Sharqiy Qozogʻiston va Oltay Oʻskemen va Semeydan Qozogʻiston Oltayiga olib boradi: Irtish shaharlari, Katon-Qaragʻay oʻrmonlari, Ridder, Markakoʻl va mavsum hamda kirish sharoitiga bogʻliq togʻ yoʻllari."
+        "ctaHref": "/destinations/kazakhstan/mangystau-and-caspian-west"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Taraz & Jambyl Silk Road"
+          "ru": "Тараз и Жамбылский Шёлковый путь"
+          "uz": "Taraz va Jambyl Ipak yo‘li"
+        "description":
+          "en": "A measured southern Kazakhstan stop around Talas-side Taraz, the Aisha Bibi and Babaji Khatun mausoleums, Karakhan, Ancient Taraz, and Akyrtas when the road is right."
+          "ru": "Размеренная остановка на юге Казахстана: Тараз у Таласа, мавзолеи Айша-Биби и Бабаджи-Хатун, Карахан, Древний Тараз и Акыртас, если дорога подходит."
+          "uz": "Janubiy Qozog‘istondagi sokin to‘xtash: Talas bo‘yidagi Taraz, Aysha-Bibi va Babaji-Xotun maqbaralari, Qoraxon, Qadimgi Taraz va yo‘l mos bo‘lsa Akyrtas."
+        "ctaHref": "/destinations/kazakhstan/taraz-and-jambyl-silk-road"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "When to go"
+      "ru": "Когда ехать"
+      "uz": "Qachon borish"
+    "title":
+      "en": "Seasonal rhythm"
+      "ru": "Сезонный ритм"
+      "uz": "Mavsumiy surʼat"
+    "description":
+      "en": "Heat, snow, mountain access, desert comfort, and city walking all change the best route shape."
+      "ru": "Жара, снег, горный доступ, пустынный комфорт и городские прогулки меняют форму маршрута."
+      "uz": "Issiq, qor, togʻ yoʻllari, choʻl qulayligi va shahar sayrlari yoʻnalish shaklini oʻzgartiradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-4"
+    "cards":
+      - "type": "tripFormat"
+        "icon": "Flower2"
+        "badge":
+          "en": "Spring March-May"
+          "ru": "Весна март-май"
+          "uz": "Bahor mart-may"
+        "title":
+          "en": "Spring"
+          "ru": "Весна"
+          "uz": "Bahor"
+        "description":
+          "en": "March belongs to Nauryz and the slow thaw. April and May are strong for first Kazakhstan routes: Almaty feels alive, Charyn is comfortable, Turkistan is warm, and roads are easier before summer heat."
+          "ru": "Март принадлежит Наурызу и медленной оттепели. Апрель и май сильны для первого маршрута по Казахстану: Алматы оживает, Чарын комфортен, Туркестан тёплый, а дороги проще до летней жары."
+          "uz": "Mart Navroʻz va sekin erish davri. Aprel va may Qozogʻiston bilan ilk tanishuv uchun kuchli: Olmaota jonlanadi, Charyn qulay, Turkiston iliq, yoʻllar esa yozgi jaziramadan oldin yengilroq."
+      - "type": "tripFormat"
+        "icon": "Sun"
+        "badge":
+          "en": "Summer June-August"
+          "ru": "Лето июнь-август"
+          "uz": "Yoz iyun-avgust"
+        "title":
+          "en": "Summer"
+          "ru": "Лето"
+          "uz": "Yoz"
+        "description":
+          "en": "Summer is strongest when the route respects altitude and distance. Almaty foothills, Kolsai and Kaindy, Burabay, and eastern mountain routes are good choices; the southern steppe and Mangystau need heat-aware planning."
+          "ru": "Лето лучше всего раскрывается там, где маршрут уважает высоту и расстояние. Предгорья Алматы, Кольсай и Каинды, Бурабай и восточные горные маршруты — хорошие решения; южная степь и Мангистау требуют плана с учётом жары."
+          "uz": "Yoz balandlik va masofa hisobga olinganda yaxshiroq ochiladi. Olmaota togʻoldi, Koʻlsay va Qayindi, Burabay va sharqiy togʻ yoʻnalishlari yaxshi tanlov; janubiy dasht va Mangʻistov issiqni hisobga olgan reja talab qiladi."
+      - "type": "tripFormat"
+        "icon": "Leaf"
+        "badge":
+          "en": "Autumn September-November"
+          "ru": "Осень сентябрь-ноябрь"
+          "uz": "Kuz sentabr-noyabr"
+        "title":
+          "en": "Autumn"
+          "ru": "Осень"
+          "uz": "Kuz"
+        "description":
+          "en": "September and October are often the most balanced months: dry air, softer light, cooler roads, and long views across the steppe. November is quieter and better for city-led or business travel."
+          "ru": "Сентябрь и октябрь часто самые сбалансированные месяцы: сухой воздух, мягкий свет, прохладные дороги и длинные виды через степь. Ноябрь тише и лучше подходит для городских или деловых поездок."
+          "uz": "Sentabr va oktabr koʻpincha eng muvozanatli oylar: quruq havo, yumshoq nur, salqinroq yoʻllar va dasht boʻylab uzoq manzaralar. Noyabr sokinroq va shahar yoki biznes safarlariga mosroq."
+      - "type": "tripFormat"
+        "icon": "Snowflake"
+        "badge":
+          "en": "Winter December-February"
+          "ru": "Зима декабрь-февраль"
+          "uz": "Qish dekabr-fevral"
+        "title":
+          "en": "Winter"
+          "ru": "Зима"
+          "uz": "Qish"
+        "description":
+          "en": "Winter is clear about its limits: Astana can be severe, and long road routes need caution. Almaty has a different winter logic, with mountains, skating, snow, warm cafes, and compact cultural days."
+          "ru": "Зима честно показывает ограничения: в Астане бывает сурово, а длинные автопереезды требуют осторожности. У Алматы другая зимняя логика: горы, каток, снег, тёплые кафе и компактные культурные дни."
+          "uz": "Qish cheklovlarni aniq koʻrsatadi: Ostonada sovuq keskin boʻlishi mumkin, uzoq avtomobil yoʻllari ehtiyotkorlik talab qiladi. Olmaotada esa qish boshqacha: togʻlar, muz maydoni, qor, iliq kafelar va ixcham madaniy kunlar."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Planning basics"
+      "ru": "Планирование"
+      "uz": "Rejalash asoslari"
+    "title":
+      "en": "Practical starting points"
+      "ru": "Практичные ориентиры"
+      "uz": "Amaliy tayanchlar"
+    "description":
+      "en": ""
+      "ru": ""
+      "uz": ""
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-4"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "Passport"
+        "title":
+          "en": "Visa"
+          "ru": "Виза"
+          "uz": "Viza"
+        "description":
+          "en": "Visa Check by passport
+
+
+            Visa-free rules vary by nationality and stay length. For multi-country journeys, check Kazakhstan entry rules together with the rest of the route."
+          "ru": "Виза Проверяется по паспорту
+
+
+            Безвизовые правила зависят от гражданства и срока пребывания. Для комбинированных маршрутов проверяйте правила въезда в Казахстан вместе с остальной поездкой."
+          "uz": "Viza Pasport boʻyicha tekshiriladi
+
+
+            Vizasiz kirish qoidalari fuqarolik va qolish muddatiga bogʻliq. Bir nechta mamlakatli safarlarda Qozogʻiston kirish qoidalarini butun yoʻnalish bilan birga tekshiring."
+      - "type": "destinationInsight"
+        "icon": "Wallet"
+        "title":
+          "en": "Money"
+          "ru": "Деньги"
+          "uz": "Pul"
+        "description":
+          "en": "Money Tenge, cards, cash
+
+
+            Cards work well in major cities. Carry cash for markets, small cafes, rural stops, and remote mountain, steppe, or western routes."
+          "ru": "Деньги Тенге, карты, наличные
+
+
+            В крупных городах карты работают хорошо. Наличные нужны для рынков, небольших кафе, сельских остановок и удалённых горных, степных или западных маршрутов."
+          "uz": "Pul Tenge, karta, naqd
+
+
+            Yirik shaharlarda karta yaxshi ishlaydi. Bozorlar, kichik kafelar, qishloq toʻxtashlari va uzoq togʻ, dasht yoki gʻarbiy yoʻnalishlar uchun naqd pul olib yuring."
+      - "type": "destinationInsight"
+        "icon": "ShieldCheck"
+        "title":
+          "en": "Safety"
+          "ru": "Безопасность"
+          "uz": "Xavfsizlik"
+        "description":
+          "en": "Safety Straightforward with planning
+
+
+            Cities are generally easy for travelers. Remote nature routes need suitable vehicles, weather checks, realistic timing, and enough margin for distance."
+          "ru": "Безопасность Спокойно при хорошем плане
+
+
+            Города обычно понятны путешественнику. Для удалённой природы нужны подходящие машины, проверка погоды, реалистичное время и запас на расстояния."
+          "uz": "Xavfsizlik Yaxshi reja bilan sokin
+
+
+            Shaharlar sayohatchi uchun odatda tushunarli. Uzoq tabiat yoʻnalishlarida mos transport, ob-havo tekshiruvi, real vaqt va masofa uchun zaxira zarur."
+      - "type": "destinationInsight"
+        "icon": "Train"
+        "title":
+          "en": "Transport"
+          "ru": "Транспорт"
+          "uz": "Transport"
+        "description":
+          "en": "Transport Distance decides the rhythm
+
+
+            Flights connect far cities, rail can add a slower rhythm, and tested vehicles matter for canyons, steppe, Mangystau, and mountain roads."
+          "ru": "Транспорт Расстояние задаёт ритм
+
+
+            Перелёты соединяют дальние города, поезд может добавить спокойный ритм, а проверенные машины важны для каньонов, степи, Мангистау и горных дорог."
+          "uz": "Transport Masofa surʼatni belgilaydi
+
+
+            Parvozlar uzoq shaharlarni ulaydi, poyezd sekinroq surʼat qoʻshishi mumkin, kanyonlar, dasht, Mangʻistov va togʻ yoʻllarida esa tekshirilgan mashina muhim."
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Routes in detail"
+      "ru": "Маршруты в деталях"
+      "uz": "Marshrutlar batafsil"
+    "title":
+      "en": "How route pace works in practice"
+      "ru": "Как темп маршрута работает на практике"
+      "uz": "Marshrut sur’ati amalda qanday ishlaydi"
+    "description":
+      "en": "Use these notes to brief clients on transfers and overnight logic in Kazakhstan."
+      "ru": "Используйте эти заметки для брифа клиентов по переездам и логике ночёвок в Казахстан."
+      "uz": "Ko‘chishlar va tunash mantig‘i bo‘yicha mijoz brifi uchun ushbu izohlardan foydalaning (Qozogʻiston)."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many nights work for a first trip to Kazakhstan?"
+          "ru": "Сколько ночей оптимально для первой поездки (Казахстан)?"
+          "uz": "Qozogʻistonga birinchi safar uchun necha tun yetarli?"
+        "description":
+          "en": "For a first programme, 8–12 nights usually holds: keep the classic spine readable, then add one extension only if the season and group pace allow it. Use “Steppe scale, mountain cities, and Silk Road south” as the brief for what the country actually sells."
+          "ru": "Для первой программы обычно хватает 8–12 ночей: держите классическую линию читаемой и добавляйте одно расширение только если сезон и темп группы позволяют. Ориентир страны — «Степной масштаб, горные города и южный Шёлковый путь»."
+          "uz": "Birinchi dastur uchun odatda 8–12 tun yetadi: klassik chiziqni o‘qiladigan tuting, kengaytmani esa mavsum va guruh sur’ati ruxsat bersagina qo‘shing. Mamlakat brifi — «Dasht miqyosi, togʻ shaharlari va janubiy Ipak yoʻli»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Where are the long transfers in Kazakhstan, and how do you soften them?"
+          "ru": "Где в маршруте по стране «Казахстан» длинные переезды и как их смягчить?"
+          "uz": "Qozogʻiston marshrutida uzun ko‘chishlar qayerda va ularni qanday yumshatish mumkin?"
+        "description":
+          "en": "Plan long road or rail legs as part of the product, not leftovers between hotels. Evening or overnight moves, buffer mornings, and one clear anchor per day keep Kazakhstan sellable for agencies."
+          "ru": "Длинные ж/д или автомобильные участки планируйте как часть продукта, а не как остаток между отелями. Вечерние/ночные переезды, запас утра и один ясный якорь на день делают Казахстан удобным для агентств."
+          "uz": "Uzun temiryo‘l yoki avto bo‘limlarni mehmonxona orasidagi qoldiq emas, mahsulot qismi qiling. Kechki/tungi ko‘chish, ertalab zaxirasi va kuniga bitta aniq tayanch Qozogʻistonni agentliklar uchun sotiladigan qiladi."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "How do you mix culture and landscape in Kazakhstan without overload?"
+          "ru": "Как совместить культуру и природу в программе по «Казахстан» без перегруза?"
+          "uz": "Qozogʻiston dasturida madaniyat va tabiatni ortiqcha yuklamasdan qanday birlashtirish mumkin?"
+        "description":
+          "en": "Split the trip into readable chapters: heritage days, then one nature or foothill pause, then return to the main city line. Clients remember clarity more than packing every highlight into one week."
+          "ru": "Делите поездку на читаемые главы: дни наследия, затем одна природная или предгорная пауза, затем возврат к основной городской линии. Клиенты лучше помнят ясность, чем попытку уместить все хайлайты в одну неделю."
+          "uz": "Safarni o‘qiladigan boblarga bo‘ling: meros kunlari, keyin bitta tabiat yoki tog‘oldi pauza, so‘ng asosiy shahar chizig‘iga qaytish. Mijozlar bir haftaga hamma narsani tiqishdan ko‘ra aniqlikni eslaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan/country.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Plan a route through Kazakhstan with TourLink"
+      "ru": "Спланируйте маршрут по Казахстану с TourLink"
+      "uz": "TourLink bilan Qozog‘iston bo‘ylab marshrut rejalang"
+    "description":
+      "en": "We shape programmes around real distances, seasons, and the stops that deserve more time."
+      "ru": "Собираем программы с учётом реальных расстояний, сезона и мест, где стоит задержаться."
+      "uz": "Haqiqiy masofalar, mavsum va ko‘proq vaqt talab qiladigan joylar asosida dasturlar tuzamiz."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+"seo":
+  "metaTitle":
+    "en": "Kazakhstan | TourLink"
+    "ru": "Казахстан | TourLink"
+    "uz": "Qozogʻiston | TourLink"
+  "metaDescription":
+    "en": "Kazakhstan gives Central Asia its scale: trains cross steppe horizons through the night.
+
+
+      The journey moves from Astana's broad avenues to Almaty's foothills, Shymkent's southern rhythm, and Turkistan's pilgrimage courtyards."
+    "ru": "Казахстан даёт Центральной Азии масштаб: поезд всю ночь идёт через степные горизонты.
+
+
+      Маршрут движется от широких проспектов Астаны к предгорьям Алматы, южному ритму Шымкента и паломническим дворам Туркестана."
+    "uz": "Qozogʻiston Markaziy Osiyoga miqyos beradi: poyezd dasht ufqlari boʻylab tun boʻyi yuradi.
+
+
+      Yoʻl Ostonaning keng xiyobonlaridan Olmaota togʻoldilariga, Chimkentning janubiy ritmi va Turkistonning ziyorat hovlilariga boradi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"mapCenter":
+  "latitude": 44.992257
+  "longitude": 71.568033
+"badges":
+  - "FEATURED"
+  - "UNESCO"

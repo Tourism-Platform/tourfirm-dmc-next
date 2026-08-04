@@ -1,66 +1,616 @@
-# Seed: cities — Khiva (from OLD DB regions/khiva)
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "khiva"
+  "ru": "khiva"
+  "uz": "khiva"
+"title":
+  "en": "Khiva"
+  "ru": "Хива"
+  "uz": "Xiva"
+"subtitle":
+  "en": "A walled city at the western edge of the route"
+  "ru": "Город за стенами на западном краю маршрута"
+  "uz": "Yo‘lning g‘arbiy chekkasidagi devorli shahar"
+"excerpt":
+  "en": "Khiva works best when you return inside the walls during the day: first the gates and Kalta Minor, then Juma Mosque, palace courtyards, carved doors, workshops, and a meal in the old town before the route decides whether to stay in the city or continue across Khorezm."
+  "ru": "Хива лучше раскрывается не одним кругом, а возвращением внутрь стен: сначала ворота и Кальта-Минор, затем Джума-мечеть, дворцовые дворы, резные двери, мастерские и еда в старом городе до решения, останется ли маршрут в Хиве или уйдёт дальше по Хорезму."
+  "uz": "Xiva bir aylanishdan ko‘ra, kun davomida devorlar ichiga qaytilganda yaxshiroq ochiladi: avval darvozalar va Kalta Minor, keyin Juma masjidi, saroy hovlilari, o‘yma eshiklar, ustaxonalar va eski shahardagi ovqat; shundan so‘ng yo‘l Xivada qoladimi yoki Xorazm bo‘ylab davom etadimi, aniqroq bo‘ladi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/khorezm-region/cities/khiva.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/khorezm-region/cities/khiva.webp"
+    "imageAlt":
+      "en": "Khiva"
+      "ru": "Хива"
+      "uz": "Xiva"
+    "title":
+      "en": "Khiva"
+      "ru": "Хива"
+      "uz": "Xiva"
+    "description":
+      "en": "A walled city at the western edge of the route"
+      "ru": "Город за стенами на западном краю маршрута"
+      "uz": "Yo‘lning g‘arbiy chekkasidagi devorli shahar"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
 
-slug:
-  en: khiva
-  ru: khiva
-  uz: khiva
-title:
-  en: Khiva
-  ru: Хива
-  uz: Xiva
-subtitle:
-  en: Walled museum-city
-  ru: Город-музей за стенами
-  uz: Devorli muzey-shahar
-excerpt:
-  en: Itchan Kala — Central Asia's most intact walled old city.
-  ru: Ичан-Кала — самый цельный оборонительный старый город Центральной Азии.
-  uz: Ichan Qal'a — Markaziy Osiyodagi eng yaxshi saqlangan devorli qadimiy shahar.
-country: uzbekistan
-region: khorezm-region
-latitude: 41.3783
-longitude: 60.3639
-heroImage: assets/images/city/khiva.jpg
-blocks:
-  - blockType: hero
-    image: assets/images/city/khiva.jpg
-    imageAlt:
-      en: Khiva Itchan Kala
-      ru: Ичан-Кала, Хива
-      uz: Xiva, Ichan Qal'a
-    title:
-      en: Khiva
-      ru: Хива
-      uz: Xiva
-    description:
-      en: Itchan Kala — Central Asia's most intact walled old city.
-      ru: Ичан-Кала — самый цельный оборонительный старый город Центральной Азии.
-      uz: Ichan Qal'a — Markaziy Osiyodagi eng yaxshi saqlangan devorli qadimiy shahar.
-  - blockType: regular
-    eyebrow:
-      en: Overview
-      ru: Обзор
-      uz: Umumiy
-    title:
-      en: Khiva at a glance
-      ru: Хива в двух словах
-      uz: Xiva qisqacha
-    description:
-      en: "Walkable and photogenic — minarets, courtyards and mud-brick walls in concentrated form. Often the final Silk Road chapter after Bukhara; 1-2 nights cover core highlights."
-      ru: "Компактный и фотогеничный город — минареты, дворы и глиняные стены. Часто финал маршрута после Бухары; 1–2 ночи хватает на основные точки."
-      uz: "Yurish uchun qulay va suratga tushirish uchun ajoyib — minoralar, hovlilar va loy devorlar. Ko'pincha Buxorodan keyin Ipak yo'lining yakuni; 1-2 tun yetarli."
-seo:
-  metaTitle:
-    en: Khiva | TourLink
-    ru: Хива | TourLink
-    uz: Xiva | TourLink
-  metaDescription:
-    en: Itchan Kala and walled-city heritage in Khiva — TourLink city guide.
-    ru: Ичан-Кала и наследие города за стенами в Хиве — гид TourLink.
-    uz: Ichan Qal'a va devorli shahar merosi — TourLink Xiva gidi.
-  structuredDataType: TouristDestination
-status:
-  showInSitemap: true
-  noindex: false
-  hideFromNavigation: false
-  publishedAt: "2025-06-01"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Khiva"
+      "ru": "Хива"
+      "uz": "Xiva"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Khiva works best when you return inside the walls during the day: first the gates and Kalta Minor, then Juma Mosque, palace courtyards, carved doors, workshops, and a meal in the old town before the route decides whether to stay in the city or continue across Khorezm."
+              "ru": "Хива лучше раскрывается не одним кругом, а возвращением внутрь стен: сначала ворота и Кальта-Минор, затем Джума-мечеть, дворцовые дворы, резные двери, мастерские и еда в старом городе до решения, останется ли маршрут в Хиве или уйдёт дальше по Хорезму."
+              "uz": "Xiva bir aylanishdan ko‘ra, kun davomida devorlar ichiga qaytilganda yaxshiroq ochiladi: avval darvozalar va Kalta Minor, keyin Juma masjidi, saroy hovlilari, o‘yma eshiklar, ustaxonalar va eski shahardagi ovqat; shundan so‘ng yo‘l Xivada qoladimi yoki Xorazm bo‘ylab davom etadimi, aniqroq bo‘ladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "In Khiva, the day is less about counting stops and more about order: a first walk inside Itchan Kala, time for interiors and craft, then a clear decision to stay with the walled city or leave for Khorezm beyond it."
+              "ru": "В Хиве важно не количество точек, а порядок дня: первая прогулка внутри Ичан-Калы, время для интерьеров и ремесла, затем отдельное решение — остаться в городе за стенами или выйти к Хорезму за ним."
+              "uz": "Xivada muhim narsa nuqtalar soni emas, kun tartibi: Ichan Qalʼadagi birinchi yurish, interyer va hunarga vaqt, keyin devor ichida qolish yoki undan tashqaridagi Xorazmga chiqish qarori."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep the first route inside the walls: gates, Kalta Minor, Juma Mosque, shopfronts, and carved doors give Khiva its shape before palace rooms, museums, and roads beyond the city enter the day."
+              "ru": "Первый маршрут лучше держать внутри стен: ворота, Кальта-Минор, Джума-мечеть, лавки и резные двери дают Хиве форму до дворцовых комнат, музеев и дорог за город."
+              "uz": "Birinchi yo‘lni devor ichida tutgan maʼqul: darvozalar, Kalta Minor, Juma masjidi, do‘konlar va o‘yma eshiklar saroy xonalari, muzeylar va shahar tashqarisidagi yo‘llardan oldin Xivaga shakl beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Khiva as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Хива как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Xiva o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "Start inside the walls, then decide what comes next"
+      "ru": "Сначала город за стенами, потом дорога дальше"
+      "uz": "Avval devor ichidagi shahar, keyin keyingi yo‘l"
+    "description":
+      "en": "In Khiva, the day is less about counting stops and more about order: a first walk inside Itchan Kala, time for interiors and craft, then a clear decision to stay with the walled city or leave for Khorezm beyond it."
+      "ru": "В Хиве важно не количество точек, а порядок дня: первая прогулка внутри Ичан-Калы, время для интерьеров и ремесла, затем отдельное решение — остаться в городе за стенами или выйти к Хорезму за ним."
+      "uz": "Xivada muhim narsa nuqtalar soni emas, kun tartibi: Ichan Qalʼadagi birinchi yurish, interyer va hunarga vaqt, keyin devor ichida qolish yoki undan tashqaridagi Xorazmga chiqish qarori."
+    "mapPanel":
+      "eyebrow":
+        "en": "Main city points"
+        "ru": "Главные точки города"
+        "uz": "Shaharning asosiy nuqtalari"
+      "title":
+        "en": "Itchan Kala, Urgench, and roads through Khorezm"
+        "ru": "Ичан-Кала, Ургенч и дороги по Хорезму"
+        "uz": "Ichan Qalʼa, Urganch va Xorazm yo‘llari"
+      "description":
+        "en": "The map makes Khiva look compact, but the day changes with the choice: palace rooms inside the walls, Nurullabay and Dishan-Kala nearby, or a separate road toward the desert fortresses."
+        "ru": "На карте Хива кажется компактной, но день меняется от выбранного продолжения: дворцы и музейные комнаты внутри стен, Нуруллабай и Дишан-Кала рядом или отдельная дорога к пустынным крепостям."
+        "uz": "Xaritada Xiva ixcham ko‘rinadi, lekin kun tanlangan davomga qarab o‘zgaradi: devor ichidagi saroy va muzey xonalari, yaqin Nurullaboy va Dishan Qalʼa yoki cho‘l qalʼalariga alohida yo‘l."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.377871
+      "longitude": 60.360294
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "itchan-kala"
+      - "entityType": "attraction"
+        "entitySlug": "kalta-minor-minaret"
+      - "entityType": "attraction"
+        "entitySlug": "juma-mosque-khiva"
+    "aside":
+      "eyebrow":
+        "en": "Start of the day"
+        "ru": "Начало дня"
+        "uz": "Kun boshlanishi"
+      "title":
+        "en": "Begin inside Itchan Kala"
+        "ru": "Начать внутри Ичан-Калы"
+        "uz": "Ichan Qalʼa ichidan boshlash"
+      "description":
+        "en": "Keep the first route inside the walls: gates, Kalta Minor, Juma Mosque, shopfronts, and carved doors give Khiva its shape before palace rooms, museums, and roads beyond the city enter the day."
+        "ru": "Первый маршрут лучше держать внутри стен: ворота, Кальта-Минор, Джума-мечеть, лавки и резные двери дают Хиве форму до дворцовых комнат, музеев и дорог за город."
+        "uz": "Birinchi yo‘lni devor ichida tutgan maʼqul: darvozalar, Kalta Minor, Juma masjidi, do‘konlar va o‘yma eshiklar saroy xonalari, muzeylar va shahar tashqarisidagi yo‘llardan oldin Xivaga shakl beradi."
+      "items":
+        - "title":
+            "en": "Enter the city through a gate"
+            "ru": "Войти в город через ворота"
+            "uz": "Shaharga darvoza orqali kirish"
+          "description":
+            "en": "Start at an Itchan Kala gate: walls, narrow lanes, shopfronts, and the first view of Kalta Minor set the scale before the larger monuments take over."
+            "ru": "Начните с ворот Ичан-Калы: стены, узкие улицы, лавки и первый вид на Кальта-Минор сразу задают масштаб Хивы."
+            "uz": "Ichan Qalʼa darvozasidan boshlang: devorlar, tor ko‘chalar, do‘konlar va Kalta Minorga birinchi qarash Xivaning miqyosini darhol ko‘rsatadi."
+          "badge":
+            "en": "First step"
+            "ru": "Первый шаг"
+            "uz": "Birinchi qadam"
+        - "title":
+            "en": "Leave time for Juma Mosque"
+            "ru": "Оставить время Джума-мечети"
+            "uz": "Juma masjidiga vaqt qoldirish"
+          "description":
+            "en": "After the bright streets, Juma Mosque changes the city: wooden columns, a low hall, and quiet movement give Khiva another pace."
+            "ru": "После ярких улиц Джума-мечеть меняет ощущение города: деревянные колонны, низкий зал и тишина дают Хиве другой темп."
+            "uz": "Yorqin ko‘chalardan keyin Juma masjidi shahar kayfiyatini o‘zgartiradi: yog‘och ustunlar, past zal va sokinlik Xivaga boshqa temp beradi."
+          "badge":
+            "en": "Inside the walls"
+            "ru": "Внутри стен"
+            "uz": "Devor ichida"
+        - "title":
+            "en": "Do not make one fast circuit do everything"
+            "ru": "Не сжимать всё в один круг"
+            "uz": "Hamma narsani bitta aylanaga siqmaslik"
+          "description":
+            "en": "Kunya-Ark, Tash Khauli, Islam Khoja, Pahlavon Mahmud, and the museum-reserve read better when they have their own time, not the last space after the first walk."
+            "ru": "Куня-Арк, Таш-Хаули, Ислам-Ходжа, Пахлаван-Махмуд и музей-заповедник лучше воспринимаются, когда у них есть отдельное время, а не остаток после первой прогулки."
+            "uz": "Kunya Ark, Tosh Hovli, Islom Xo‘ja, Pahlavon Mahmud va muzey-qo‘riqxona birinchi yurishdan qolgan vaqtga emas, alohida vaqtga ega bo‘lsa yaxshiroq tushuniladi."
+          "badge":
+            "en": "Palaces and museums"
+            "ru": "Дворцы и музеи"
+            "uz": "Saroylar va muzeylar"
+        - "title":
+            "en": "Decide whether you need an outing"
+            "ru": "Решить, нужен ли выезд"
+            "uz": "Chiqish kerakmi, oldindan hal qilish"
+          "description":
+            "en": "Nurullabay, Dishan-Kala, and the desert fortresses work better as a separate Khorezm continuation, especially when the route later turns toward Urgench, Nukus, or the Aral Sea."
+            "ru": "Нуруллабай, Дишан-Кала и пустынные крепости лучше планировать как отдельное продолжение Хивы, особенно если маршрут затем уходит к Ургенчу, Нукусу или Аралу."
+            "uz": "Nurullaboy, Dishan Qalʼa va cho‘l qalʼalari Xivaning alohida Xorazm davomi sifatida yaxshiroq ishlaydi, ayniqsa yo‘l keyin Urganch, Nukus yoki Orol tomonga burilsa."
+          "badge":
+            "en": "Beyond the walls"
+            "ru": "За пределами стен"
+            "uz": "Devorlardan tashqarida"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Main places in Khiva"
+      "ru": "Главные места Хивы"
+      "uz": "Xivaning asosiy joylari"
+    "description":
+      "en": "Itchan Kala, Kalta Minor, and Juma Mosque give Khiva its first image. When the day has room, add Kunya-Ark, Tash Khauli, Islam Khoja, Pahlavon Mahmud, Nurullabay, or Dishan-Kala without turning the walk into a checklist."
+      "ru": "Ичан-Кала, Кальта-Минор и Джума-мечеть дают первый образ Хивы. Если в дне есть место, добавляйте Куня-Арк, Таш-Хаули, Ислам-Ходжу, Пахлаван-Махмуда, Нуруллабай или Дишан-Калу без превращения прогулки в список."
+      "uz": "Ichan Qalʼa, Kalta Minor va Juma masjidi Xivaning birinchi tasvirini beradi. Kunda joy bo‘lsa, Kunya Ark, Tosh Hovli, Islom Xo‘ja, Pahlavon Mahmud, Nurullaboy yoki Dishan Qalʼani ro‘yxatga aylantirmasdan qo‘shing."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/khorezm-region/cities/khiva/attractions/itchan-kala.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Itchan Kala"
+          "ru": "Ичан-Кала"
+          "uz": "Ichan Qalʼa"
+        "description":
+          "en": "Itchan Kala is where Khiva becomes a walking city: gates, clay lanes, Kalta Minor, Juma Mosque, courtyards, workshops, and museum rooms stay inside one set of walls."
+          "ru": "Ичан-Кала — место, где Хива становится пешим городом: ворота, глинобитные улицы, Кальта-Минор, Джума-мечеть, дворы, мастерские и музейные комнаты остаются внутри одних стен."
+          "uz": "Ichan Qalʼa Xiva piyoda yuriladigan shaharga aylanadigan joy: darvozalar, loy ko‘chalar, Kalta Minor, Juma masjidi, hovlilar, ustaxonalar va muzey xonalari bir devor ichida qoladi."
+        "ctaHref": "/destinations/uzbekistan/khorezm-region/khiva/itchan-kala"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/khorezm-region/cities/khiva/attractions/kalta-minor-minaret.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Kalta Minor"
+          "ru": "Кальта-Минор"
+          "uz": "Kalta Minor"
+        "description":
+          "en": "Kalta Minor gives Khiva a color you recognize before you know the streets: a wide unfinished minaret beside Muhammad Amin Khan Madrasah, close to the lanes where the Itchan Kala walk begins."
+          "ru": "Кальта-Минор даёт Хиве цвет, который запоминается раньше улиц: широкий незавершённый минарет рядом с медресе Мухаммад Амин-хана, близко к началу прогулки по Ичан-Кале."
+          "uz": "Kalta Minor Xivada ko‘chalardan oldin esda qoladigan rangni beradi: Muhammad Aminxon madrasasi yonidagi keng tugallanmagan minora, Ichan Qalʼa yurishi boshlanadigan ko‘chalarga yaqin."
+        "ctaHref": "/destinations/uzbekistan/khorezm-region/khiva/kalta-minor-minaret"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/khorezm-region/cities/khiva/attractions/juma-mosque-khiva.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Juma Mosque"
+          "ru": "Джума-мечеть"
+          "uz": "Juma masjidi"
+        "description":
+          "en": "Juma Mosque changes the Khiva walk after the open streets of Itchan Kala: a low covered hall of wooden columns, close to Kalta Minor and the central route."
+          "ru": "Джума-мечеть меняет ход прогулки по Хиве: после открытых улиц Ичан-Калы появляется низкий крытый зал с деревянными колоннами, рядом с Кальта-Минором и центральным маршрутом."
+          "uz": "Juma masjidi Ichan Qalʼaning ochiq ko‘chalaridan keyin Xiva yurishini o‘zgartiradi: Kalta Minor va markaziy yo‘lga yaqin past yopiq yog‘och ustunli zal."
+        "ctaHref": "/destinations/uzbekistan/khorezm-region/khiva/juma-mosque-khiva"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "In the city"
+      "ru": "В городе"
+      "uz": "Shahar ichida"
+    "title":
+      "en": "What stays with you between monuments"
+      "ru": "Что остаётся между памятниками"
+      "uz": "Yodgorliklar orasida nima qoladi"
+    "description":
+      "en": "Khiva is not only its main monuments: a workshop sound behind a door, tea after the walk, carved wood, a palace room, and the decision to leave the walls make the city feel less like a museum."
+      "ru": "Хива запоминается не только главными объектами: звук мастерской за дверью, чай после прогулки, резьба на воротах, дворцовая комната и решение выйти за стены делают город менее музейным."
+      "uz": "Xiva faqat asosiy obʼektlar bilan esda qolmaydi: eshik ortidagi ustaxona tovushi, yurishdan keyingi choy, darvozadagi o‘yma, saroy xonasi va devorlardan chiqish qarori shaharni kamroq muzey kabi qiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/khiva/khiva-character-1.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Inside the walls"
+          "ru": "Внутри стен"
+          "uz": "Devorlar ichida"
+        "description":
+          "en": "Gates, Kalta Minor, Juma Mosque, and the short lanes fit together better when you return inside Itchan Kala at least twice in the day."
+          "ru": "Ворота, Кальта-Минор, Джума-мечеть и короткие улицы лучше складываются, когда в Ичан-Калу возвращаются хотя бы дважды за день."
+          "uz": "Darvozalar, Kalta Minor, Juma masjidi va qisqa ko‘chalar Ichan Qalʼaga kun davomida kamida ikki marta qaytilganda yaxshiroq birlashadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/khiva/khiva-character-2.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Gates and lanes"
+          "ru": "Ворота и улицы"
+          "uz": "Darvozalar va ko‘chalar"
+        "description":
+          "en": "Gates, shopfronts, doorways, and narrow passages show Khiva as a living town inside the walls, not only a museum area."
+          "ru": "Ворота, лавки, дверные проёмы и узкие проходы показывают Хиву как настоящий город внутри стен, а не только музейную территорию."
+          "uz": "Darvozalar, do‘konlar, eshiklar va tor o‘tishlar Xivani devor ichidagi tirik shahar sifatida ko‘rsatadi, faqat muzey hududi emas."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/khiva/khiva-character-3.webp"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Doors and workshops"
+          "ru": "Двери и мастерские"
+          "uz": "Eshiklar va ustaxonalar"
+        "description":
+          "en": "Carved doors, courtyard entrances, and the sound of tools behind the main streets bring working craft back into the Khiva walk."
+          "ru": "Резные двери, входы во дворы и звуки инструментов за главными улицами возвращают в прогулку живую работу мастеров."
+          "uz": "O‘yma eshiklar, hovli kirishlari va asosiy ko‘chalar ortidagi asbob tovushlari Xiva yurishiga ustalar mehnatini qaytaradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/khiva/khiva-character-4.webp"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Khorezm food and tea"
+          "ru": "Хорезмская еда и чай"
+          "uz": "Xorazm taomi va choy"
+        "description":
+          "en": "Tea, shivit oshi, and an unhurried meal matter as much as the monuments here; without that pause, the day turns too quickly into a museum route."
+          "ru": "Чай, шивит оши и спокойная еда нужны Хиве так же, как памятники: без этой паузы день быстро становится слишком музейным."
+          "uz": "Choy, shivit oshi va shoshilmasdan qilingan ovqat Xivada yodgorliklar kabi muhim; bu pauzasiz kun juda tez muzey yo‘liga aylanadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/khiva/khiva-character-5.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Palaces and museum rooms"
+          "ru": "Дворцы и музеи"
+          "uz": "Saroylar va muzeylar"
+        "description":
+          "en": "Palace courtyards, mausoleums, and museum rooms need their own time; this is where Khiva moves from the street into court, family, and museum memory."
+          "ru": "Дворцовые дворы, мавзолеи и музейные комнаты требуют отдельного времени: здесь Хива переходит от улицы к придворной и семейной памяти."
+          "uz": "Saroy hovlilari, maqbaralar va muzey xonalari alohida vaqt talab qiladi; shu yerda Xiva ko‘chadan saroy, oila va muzey xotirasiga o‘tadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/khiva/khiva-character-6.webp"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "The fortress-road choice"
+          "ru": "Выбор крепостной дороги"
+          "uz": "Qalʼalar yo‘li tanlovi"
+        "description":
+          "en": "After the walled city, the route either returns through Urgench or continues toward Nurullabay, Dishan-Kala, desert fortresses, Nukus, and the Aral Sea."
+          "ru": "После города за стенами маршрут либо возвращается через Ургенч, либо уходит к Нуруллабаю, Дишан-Кале, пустынным крепостям, Нукусу и Аралу."
+          "uz": "Devorli shahardan keyin yo‘l Urganch orqali qaytishi yoki Nurullaboy, Dishan Qalʼa, cho‘l qalʼalari, Nukus va Orol tomonga davom etishi mumkin."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Yo‘lga chiqishdan oldin"
+    "title":
+      "en": "How not to compress Khiva into one circuit"
+      "ru": "Как не сжать Хиву в один круг"
+      "uz": "Xivani bitta aylanishga siqmaslik"
+    "description":
+      "en": "Itchan Kala is compact, so it is easy to move too quickly. Separate the day before it starts: first walk, interiors, food, craft, and only then the choice of whether to leave the walls."
+      "ru": "Ичан-Кала компактна, поэтому её легко пройти слишком быстро. Лучше заранее разделить день: первая прогулка, интерьеры, еда, ремесло и только потом решение о выезде за стены."
+      "uz": "Ichan Qalʼa ixcham, shuning uchun uni juda tez aylanib chiqish oson. Kunni oldindan bo‘ling: birinchi yurish, interyerlar, ovqat, hunar va shundan keyingina devor tashqarisiga chiqish qarori."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Return inside the walls"
+              "ru": "Вернуться внутрь стен"
+              "uz": "Devorlar ichiga qaytish"
+            "description":
+              "en": "Khiva reads better when you can come back into Itchan Kala after a rest or a meal. One fast circuit makes the city feel too flat."
+              "ru": "Хива лучше воспринимается, когда в Ичан-Калу возвращаются после отдыха или еды. Один быстрый круг делает город слишком плоским."
+              "uz": "Dam yoki ovqatdan keyin Ichan Qalʼaga qayta kirish mumkin bo‘lsa, Xiva yaxshiroq o‘qiladi. Bitta tez aylanish shaharni juda tekis ko‘rsatadi."
+          - "type": "quote"
+            "quote":
+              "en": "Khiva is small on the map, but the day inside the walls fills quickly."
+              "ru": "Хива маленькая на карте, но день внутри стен быстро становится плотным."
+              "uz": "Xiva xaritada kichik, lekin devorlar ichidagi kun tez to‘lib ketadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Give palaces and museums their own time"
+              "ru": "Дать время дворцам и музеям"
+              "uz": "Saroy va muzeylarga alohida vaqt berish"
+            "description":
+              "en": "Kunya-Ark, Tash Khauli, Islam Khoja, Pahlavon Mahmud, Muhammad Amin Khan Madrasah, and the museum-reserve should not be the leftover part of the walk."
+              "ru": "Куня-Арк, Таш-Хаули, Ислам-Ходжа, Пахлаван-Махмуд, медресе Мухаммад Амин-хана и музей-заповедник не должны быть остатком после прогулки."
+              "uz": "Kunya Ark, Tosh Hovli, Islom Xo‘ja, Pahlavon Mahmud, Muhammad Aminxon madrasasi va muzey-qo‘riqxona yurishdan qolgan vaqt bo‘lib qolmasligi kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the outing separate"
+              "ru": "Вынести выезд за город отдельно"
+              "uz": "Shahar tashqarisidagi chiqishni alohida tutish"
+            "description":
+              "en": "Nurullabay, Dishan-Kala, and the desert fortresses work better as a separate continuation of Khiva, not an add-on to an already full day inside the walls."
+              "ru": "Нуруллабай, Дишан-Кала и пустынные крепости лучше смотрятся как отдельное продолжение Хивы, а не как добавка к уже полному дню."
+              "uz": "Nurullaboy, Dishan Qalʼa va cho‘l qalʼalari allaqachon to‘lgan kunga qo‘shimcha emas, Xivaning alohida davomi sifatida yaxshiroq ko‘rinadi."
+          - "type": "alert"
+            "title":
+              "en": "For the traveler"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Plan Khiva as a city you return to during the day: first the walls and main landmarks, then food, craft details, interiors, and only after that the road beyond the city."
+              "ru": "Планируйте Хиву как город, в который возвращаются в течение дня: сначала стены и главные ориентиры, затем еда, ремесленные детали, интерьеры и только потом дорога дальше."
+              "uz": "Xivani kun davomida qaytiladigan shahar sifatida rejalang: avval devorlar va asosiy orientirlar, keyin ovqat, hunar detallari, interyerlar va shundan keyingina keyingi yo‘l."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Yo‘lga chiqishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before you go Where to stay"
+                  "ru": "Перед поездкой Где остановиться"
+                  "uz": "Yo‘l oldidan Qayerda qolish"
+                "description":
+                  "en": "Inside Itchan Kala or near the walls, so morning, daytime, and evening returns do not need extra transfers."
+                  "ru": "Внутри Ичан-Калы или рядом со стенами, чтобы утром, днём и вечером можно было возвращаться без лишних переездов."
+                  "uz": "Ichan Qalʼa ichida yoki devorlar yonida; ertalab, kunduzi va kechqurun ortiqcha transfersiz qaytish oson bo‘ladi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "First circuit"
+                  "ru": "Первый круг"
+                  "uz": "Birinchi aylanish"
+                "description":
+                  "en": "Gates, Kalta Minor, Juma Mosque, shopfront lanes, and carved doors."
+                  "ru": "Ворота, Кальта-Минор, Джума-мечеть, улицы с лавками и резные двери."
+                  "uz": "Darvozalar, Kalta Minor, Juma masjidi, do‘konli ko‘chalar va o‘yma eshiklar."
+              - "icon": "Sun"
+                "title":
+                  "en": "Season and pace"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va temp"
+                "description":
+                  "en": "Spring and autumn are easiest; in summer, start early, keep the hottest hours for rest or interiors, and return later in the day."
+                  "ru": "Весной и осенью проще; летом лучше начинать рано, самые жаркие часы оставлять для отдыха или интерьеров и возвращаться позже."
+                  "uz": "Bahor va kuz osonroq; yozda erta boshlash, eng issiq soatlarni dam yoki ichki joylarga qoldirish va kunning keyinroq qismida qaytish maʼqul."
+              - "icon": "Route"
+                "title":
+                  "en": "What comes next"
+                  "ru": "Дальше по маршруту"
+                  "uz": "Keyingi yo‘l"
+                "description":
+                  "en": "Return through Urgench, or continue toward Nurullabay, Dishan-Kala, the fortresses, Nukus, and the Aral Sea."
+                  "ru": "Возврат через Ургенч или продолжение к Нуруллабаю, Дишан-Кале, крепостям, Нукусу и Аралу."
+                  "uz": "Urganch orqali qaytish yoki Nurullaboy, Dishan Qalʼa, qalʼalar, Nukus va Orol tomonga davom etish."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Where next"
+      "ru": "Куда дальше"
+      "uz": "Keyin qayerga"
+    "title":
+      "en": "After Khiva: back to Bukhara or farther through Khorezm"
+      "ru": "После Хивы: назад к Бухаре или дальше по Хорезму"
+      "uz": "Xivadan keyin: Buxoroga qaytish yoki Xorazm bo‘ylab davom"
+    "description":
+      "en": "Most routes return through Urgench toward Bukhara and Samarkand. Longer journeys can use Khiva as the start of a road toward desert fortresses, Nukus, and the Aral Sea."
+      "ru": "Чаще маршрут возвращается через Ургенч к Бухаре и Самарканду. Если поездка длиннее, Хива может стать началом дороги к пустынным крепостям, Нукусу и Аралу."
+      "uz": "Yo‘l ko‘pincha Urganch orqali Buxoro va Samarqand tomonga qaytadi. Uzunroq safarda Xiva cho‘l qalʼalari, Nukus va Orol tomonga boshlanadigan yo‘lga aylanishi mumkin."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/khiva-next-bukhara.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Bukhara"
+          "ru": "Бухара"
+          "uz": "Buxoro"
+        "description":
+          "en": "Bukhara comes together on foot: Poi-Kalyan, the Ark, Lyabi-Hauz, trading domes, courtyards, craft lanes, and nearby continuations."
+          "ru": "Бухара лучше раскрывается пешком: Пои-Калян, Арк, Ляби-Хауз, торговые купола, дворы, ремесленные улицы и близкие продолжения."
+          "uz": "Buxoro piyoda yaxshiroq ochiladi: Poyi Kalon, Ark, Labi Hovuz, savdo gumbazlari, hovlilar, hunarmand ko‘chalari va yaqin yoʻnalishlar."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/khiva-next-samarkand.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Samarkand"
+          "ru": "Самарканд"
+          "uz": "Samarqand"
+        "description":
+          "en": "Samarkand brings the route to monumental scale: Registan, Shah-i-Zinda, Bibi-Khanym, Gur-e-Amir, Siab Bazaar, Afrosiab, and Ulugh Beg Observatory."
+          "ru": "Самарканд даёт маршруту монументальный масштаб: Регистан, Шахи-Зинда, Биби-Ханым, Гур-Эмир, Сиабский базар, Афрасиаб и обсерватория Улугбека."
+          "uz": "Samarqand yoʻnalishga monumental miqyos beradi: Registon, Shohi Zinda, Bibi Xonim, Goʻri Amir, Siyob bozori, Afrosiyob va Ulugʻbek rasadxonasi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/samarkand"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Khiva in the day plan"
+      "ru": "Как поставить Хива в план дня"
+      "uz": "Xivani kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Khiva?"
+          "ru": "Сколько времени группам стоит проводить в Хива?"
+          "uz": "Xivada guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A walled city at the western edge of the route”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Город за стенами на западном краю маршрута»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Yo‘lning g‘arbiy chekkasidagi devorli shahar»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Khiva be a walkable core or a base for day trips?"
+          "ru": "Хива — это пешеходное ядро или база для выездов?"
+          "uz": "Xiva piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Khiva's centre?"
+          "ru": "Где лучше ночевать относительно центра Хива?"
+          "uz": "Xiva markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/khorezm-region/cities/khiva.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Khiva stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Хива» в программу (Узбекистан)"
+      "uz": "Xiva bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Khiva | TourLink"
+    "ru": "Хива | TourLink"
+    "uz": "Xiva | TourLink"
+  "metaDescription":
+    "en": "Khiva works best when you return inside the walls during the day: first the gates and Kalta Minor, then Juma Mosque, palace courtyards, carved doors, workshops, and a meal in the old town before the route decides whether to stay in the city or continue across Khorezm."
+    "ru": "Хива лучше раскрывается не одним кругом, а возвращением внутрь стен: сначала ворота и Кальта-Минор, затем Джума-мечеть, дворцовые дворы, резные двери, мастерские и еда в старом городе до решения, останется ли маршрут в Хиве или уйдёт дальше по Хорезму."
+    "uz": "Xiva bir aylanishdan ko‘ra, kun davomida devorlar ichiga qaytilganda yaxshiroq ochiladi: avval darvozalar va Kalta Minor, keyin Juma masjidi, saroy hovlilari, o‘yma eshiklar, ustaxonalar va eski shahardagi ovqat; shundan so‘ng yo‘l Xivada qoladimi yoki Xorazm bo‘ylab davom etadimi, aniqroq bo‘ladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "khorezm-region"
+"latitude": 41.3775101
+"longitude": 60.3634553

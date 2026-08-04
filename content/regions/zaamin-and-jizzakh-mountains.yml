@@ -1,0 +1,523 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "zaamin-and-jizzakh-mountains"
+  "ru": "zaamin-and-jizzakh-mountains"
+  "uz": "zaamin-and-jizzakh-mountains"
+"title":
+  "en": "Zaamin & Jizzakh Mountains"
+  "ru": "Заамин и горы Джизака"
+  "uz": "Zomin va Jizzax tog‘lari"
+"subtitle":
+  "en": "Mountain mahallas and village roads between Zaamin, Bakhmal, and Gallaorol"
+  "ru": "Горные махалли и сельские дороги между Заамином, Бахмалом и Галляаралом"
+  "uz": "Zomin, Baxmal va G‘allaorol oralig‘idagi tog‘ mahallalari va qishloq yo‘llari"
+"excerpt":
+  "en": "This is the quieter Jizzakh side of Uzbekistan’s tourism-village map: Zaamin mountain air, Bakhmal village roads, Gallaorol pilgrimage context, and small rural stops where the final route depends on hosts, access, weather, and local readiness."
+  "ru": "Это более тихая джизакская сторона карты туристических сёл Узбекистана: горный воздух Заамина, сельские дороги Бахмала, паломнический контекст Галляарала и небольшие остановки, где финальный маршрут зависит от хозяев, доступа, погоды и готовности на месте."
+  "uz": "Bu O‘zbekiston turizm qishloqlari xaritasining sokinroq Jizzax tomoni: Zomin tog‘ havosi, Baxmal qishloq yo‘llari, G‘allaorol ziyorat konteksti va yakuniy marshrut mezbon, kirish, ob-havo hamda mahalliy tayyorgarlikka bog‘liq kichik bekatlar."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Zaamin & Jizzakh Mountains"
+      "ru": "Заамин и горы Джизака"
+      "uz": "Zomin va Jizzax tog‘lari"
+    "title":
+      "en": "Zaamin & Jizzakh Mountains"
+      "ru": "Заамин и горы Джизака"
+      "uz": "Zomin va Jizzax tog‘lari"
+    "description":
+      "en": "Mountain mahallas and village roads between Zaamin, Bakhmal, and Gallaorol"
+      "ru": "Горные махалли и сельские дороги между Заамином, Бахмалом и Галляаралом"
+      "uz": "Zomin, Baxmal va G‘allaorol oralig‘idagi tog‘ mahallalari va qishloq yo‘llari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О регионе"
+      "uz": "Hudud haqida"
+    "title":
+      "en": "Zaamin & Jizzakh Mountains"
+      "ru": "Заамин и горы Джизака"
+      "uz": "Zomin va Jizzax tog‘lari"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "This is the quieter Jizzakh side of Uzbekistan’s tourism-village map: Zaamin mountain air, Bakhmal village roads, Gallaorol pilgrimage context, and small rural stops where the final route depends on hosts, access, weather, and local readiness."
+              "ru": "Это более тихая джизакская сторона карты туристических сёл Узбекистана: горный воздух Заамина, сельские дороги Бахмала, паломнический контекст Галляарала и небольшие остановки, где финальный маршрут зависит от хозяев, доступа, погоды и готовности на месте."
+              "uz": "Bu O‘zbekiston turizm qishloqlari xaritasining sokinroq Jizzax tomoni: Zomin tog‘ havosi, Baxmal qishloq yo‘llari, G‘allaorol ziyorat konteksti va yakuniy marshrut mezbon, kirish, ob-havo hamda mahalliy tayyorgarlikka bog‘liq kichik bekatlar."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "These points show the shape of the route. Hosts, services, roads, trails, parking, and meeting places are confirmed close to travel."
+              "ru": "Эти точки показывают форму маршрута. Хозяева, услуги, дороги, тропы, парковки и места встречи подтверждаются ближе к поездке."
+              "uz": "Bu nuqtalar marshrut shaklini ko‘rsatadi. Mezbonlar, xizmatlar, yo‘l, yo‘lak, avtoturargoh va uchrashuv joylari safarga yaqin tasdiqlanadi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The map gives village and district anchors. Guesthouses, craft sessions, walks, horse rides, winter formats, toilets, meals, and access still need local confirmation near travel."
+              "ru": "Карта даёт сельские и районные опоры. Гостевые дома, ремесленные встречи, прогулки, лошади, зимние форматы, туалеты, питание и доступ подтверждаются ближе к поездке."
+              "uz": "Xarita qishloq va tuman tayanchlarini beradi. Mehmon uylar, hunarmandchilik uchrashuvlari, sayrlar, otlar, qishki formatlar, hojatxona, ovqat va kirish safarga yaqin tasdiqlanadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Zaamin & Jizzakh Mountains as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Заамин и горы Джизака как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Zomin va Jizzax tog‘lari o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Route map"
+      "ru": "Карта маршрута"
+      "uz": "Marshrut xaritasi"
+    "title":
+      "en": "Duoba, Novqa, Muzbuloq, and Uzunbuloq across Jizzakh’s mountain side"
+      "ru": "Дуоба, Новка, Музбулок и Узунбулок на горной стороне Джизака"
+      "uz": "Jizzax tog‘ tomonida Duoba, Novqa, Muzbuloq va Uzunbuloq"
+    "description":
+      "en": "These points show the shape of the route. Hosts, services, roads, trails, parking, and meeting places are confirmed close to travel."
+      "ru": "Эти точки показывают форму маршрута. Хозяева, услуги, дороги, тропы, парковки и места встречи подтверждаются ближе к поездке."
+      "uz": "Bu nuqtalar marshrut shaklini ko‘rsatadi. Mezbonlar, xizmatlar, yo‘l, yo‘lak, avtoturargoh va uchrashuv joylari safarga yaqin tasdiqlanadi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Map note"
+        "ru": "Примечание к карте"
+        "uz": "Xarita izohi"
+      "title":
+        "en": "Route anchors, not service addresses"
+        "ru": "Опоры маршрута, не адреса услуг"
+        "uz": "Marshrut tayanchlari, xizmat manzillari emas"
+      "description":
+        "en": "Markers show route and village anchors, not exact guesthouse, trailhead, parking, or activity addresses."
+        "ru": "Маркеры показывают маршрутные и сельские опоры, а не точные адреса гостевых домов, троп, парковок или активностей."
+        "uz": "Markerlar marshrut va qishloq tayanchlarini ko‘rsatadi; ular mehmon uy, yo‘lak, avtoturargoh yoki faoliyatning aniq manzili emas."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.899998
+      "longitude": 67.964265
+    "zoom": 9
+    "stops":
+      - "entityType": "city"
+        "entitySlug": "duoba"
+      - "entityType": "attraction"
+        "entitySlug": "duoba-zaamin-mountain-setting"
+      - "entityType": "city"
+        "entitySlug": "novqa"
+      - "entityType": "city"
+        "entitySlug": "muzbuloq"
+      - "entityType": "city"
+        "entitySlug": "uzunbuloq"
+    "aside":
+      "eyebrow":
+        "en": "How to read the route"
+        "ru": "Как читать маршрут"
+        "uz": "Marshrutni qanday o‘qish"
+      "title":
+        "en": "Let local confirmation shape the visit"
+        "ru": "Визит задают подтверждённые детали"
+        "uz": "Tashrif tasdiqlangan tafsilotlarga qarab shakllanadi"
+      "description":
+        "en": "The map gives village and district anchors. Guesthouses, craft sessions, walks, horse rides, winter formats, toilets, meals, and access still need local confirmation near travel."
+        "ru": "Карта даёт сельские и районные опоры. Гостевые дома, ремесленные встречи, прогулки, лошади, зимние форматы, туалеты, питание и доступ подтверждаются ближе к поездке."
+        "uz": "Xarita qishloq va tuman tayanchlarini beradi. Mehmon uylar, hunarmandchilik uchrashuvlari, sayrlar, otlar, qishki formatlar, hojatxona, ovqat va kirish safarga yaqin tasdiqlanadi."
+      "items":
+        - "title":
+            "en": "Duoba"
+            "ru": "Дуоба"
+            "uz": "Duoba"
+          "description":
+            "en": "This marker shows the route shape; exact services and meeting points are confirmed locally."
+            "ru": "Маркер показывает форму маршрута; точные услуги и встречи подтверждаются на месте."
+            "uz": "Marker marshrut shaklini ko‘rsatadi; aniq xizmatlar va uchrashuv joylari mahalliy tasdiqlanadi."
+          "badge":
+            "en": "Route anchor"
+            "ru": "Опора маршрута"
+            "uz": "Marshrut tayanchi"
+        - "title":
+            "en": "Zaamin"
+            "ru": "Заамин"
+            "uz": "Zomin"
+          "description":
+            "en": "This marker shows the route shape; exact services and meeting points are confirmed locally."
+            "ru": "Маркер показывает форму маршрута; точные услуги и встречи подтверждаются на месте."
+            "uz": "Marker marshrut shaklini ko‘rsatadi; aniq xizmatlar va uchrashuv joylari mahalliy tasdiqlanadi."
+          "badge":
+            "en": "Route anchor"
+            "ru": "Опора маршрута"
+            "uz": "Marshrut tayanchi"
+        - "title":
+            "en": "Novqa"
+            "ru": "Новка"
+            "uz": "Novqa"
+          "description":
+            "en": "This marker shows the route shape; exact services and meeting points are confirmed locally."
+            "ru": "Маркер показывает форму маршрута; точные услуги и встречи подтверждаются на месте."
+            "uz": "Marker marshrut shaklini ko‘rsatadi; aniq xizmatlar va uchrashuv joylari mahalliy tasdiqlanadi."
+          "badge":
+            "en": "Route anchor"
+            "ru": "Опора маршрута"
+            "uz": "Marshrut tayanchi"
+        - "title":
+            "en": "Muzbuloq"
+            "ru": "Музбулок"
+            "uz": "Muzbuloq"
+          "description":
+            "en": "This marker shows the route shape; exact services and meeting points are confirmed locally."
+            "ru": "Маркер показывает форму маршрута; точные услуги и встречи подтверждаются на месте."
+            "uz": "Marker marshrut shaklini ko‘rsatadi; aniq xizmatlar va uchrashuv joylari mahalliy tasdiqlanadi."
+          "badge":
+            "en": "Route anchor"
+            "ru": "Опора маршрута"
+            "uz": "Marshrut tayanchi"
+        - "title":
+            "en": "Uzunbuloq"
+            "ru": "Узунбулок"
+            "uz": "Uzunbuloq"
+          "description":
+            "en": "This marker shows the route shape; exact services and meeting points are confirmed locally."
+            "ru": "Маркер показывает форму маршрута; точные услуги и встречи подтверждаются на месте."
+            "uz": "Marker marshrut shaklini ko‘rsatadi; aniq xizmatlar va uchrashuv joylari mahalliy tasdiqlanadi."
+          "badge":
+            "en": "Route anchor"
+            "ru": "Опора маршрута"
+            "uz": "Marshrut tayanchi"
+        - "title":
+            "en": "Gallaorol"
+            "ru": "Галляарал"
+            "uz": "G‘allaorol"
+          "description":
+            "en": "This marker shows the route shape; exact services and meeting points are confirmed locally."
+            "ru": "Маркер показывает форму маршрута; точные услуги и встречи подтверждаются на месте."
+            "uz": "Marker marshrut shaklini ko‘rsatadi; aniq xizmatlar va uchrashuv joylari mahalliy tasdiqlanadi."
+          "badge":
+            "en": "Route anchor"
+            "ru": "Опора маршрута"
+            "uz": "Marshrut tayanchi"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "A newer rural chapter, handled with care"
+      "ru": "Новая сельская глава, с осторожным обещанием"
+      "uz": "Ehtiyotkor vaʼda bilan yangi qishloq bobi"
+    "description":
+      "en": "The Jizzakh mountain villages are strongest as small, host-led stops rather than fixed attractions.
+
+
+        «The Jizzakh mountain-village route is strongest when the map is matched with local readiness.»"
+      "ru": "Горные сёла Джизака сильнее всего как небольшие остановки с хозяевами, а не как фиксированный список достопримечательностей.
+
+
+        «Джизакский горно-сельский маршрут силён, когда карта совпадает с готовностью на месте.»"
+      "uz": "Jizzax tog‘ qishloqlari qatʼiy diqqatga sazovor joylar ro‘yxati emas, kichik mezbonli bekatlar sifatida kuchliroq.
+
+
+        «Jizzax tog‘-qishloq marshruti xarita mahalliy tayyorgarlik bilan mos kelganda kuchli.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Village anchors"
+      "ru": "Сельские опоры"
+      "uz": "Qishloq tayanchlari"
+    "title":
+      "en": "Four Jizzakh places that shape the route"
+      "ru": "Четыре джизакских места, которые задают маршрут"
+      "uz": "Marshrutni shakllantiradigan to‘rtta Jizzax manzili"
+    "description":
+      "en": "Duoba, Novqa, Muzbuloq, and Uzunbuloq give the first practical shape to the Jizzakh mountain-village route."
+      "ru": "Дуоба, Новка, Музбулок и Узунбулок дают первую практическую форму джизакскому горно-сельскому маршруту."
+      "uz": "Duoba, Novqa, Muzbuloq va Uzunbuloq Jizzax tog‘-qishloq marshrutining birinchi amaliy shaklini beradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Duoba"
+          "ru": "Дуоба"
+          "uz": "Duoba"
+        "description":
+          "en": "On the Zaamin side of the Jizzakh mountain route, Duoba brings the journey down to mahalla scale. Tea, a family meal, a craft demonstration, or cooking with a receiving household gives the stop its human center; cable-car, Sufa, riding, quad, and snow ideas come only after season"
+          "ru": "На зааминской стороне джизакского горного маршрута Дуоба возвращает поездку к масштабу махалли. Чай, семейный обед, ремесленный показ или готовка с принимающей семьёй дают остановке человеческий центр; канатная дорога, Суфа, лошади, квадроциклы и снег добавляются только после про"
+          "uz": "Jizzax tog‘ marshrutining Zomin tomonida Duoba safarni mahalla miqyosiga tushiradi. Mehmon kutadigan oila bilan choy, oilaviy ovqat, hunar namoyishi yoki taom tayyorlash bekatga insoniy markaz beradi; kanat yo‘li, Sufa, ot, kvadrosikl va qor esa mavsum, yo‘l va kirish tekshirilga"
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/duoba"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Novqa"
+          "ru": "Новка"
+          "uz": "Novqa"
+        "description":
+          "en": "Novqa brings a human Bakhmal stop into the Zaamin & Jizzakh Mountains route. The road rises toward cooler air and orchard country, then the visit should narrow: one courtyard, one maker, tea or fruit at a table, and enough time for the village to be felt before the road continues"
+          "ru": "Новка добавляет маршруту Заамин и горы Джизака человеческую остановку в Бахмале. Дорога поднимается к садам и более прохладному воздуху, а сам визит лучше сузить: один двор, один мастер, чай или фрукты за столом и достаточно времени, чтобы почувствовать село до дальнейшей дороги."
+          "uz": "Novqa Zomin va Jizzax tog‘lari yo‘nalishiga Baxmaldagi insoniy bekatni qo‘shadi. Yo‘l bog‘lar va salqinroq havo tomon ko‘tariladi, tashrif esa torroq qolsa yaxshi: bitta hovli, bitta usta, dasturxon atrofida choy yoki meva va yo‘l davom etishidan oldin qishloqni sezishga yetarli "
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/novqa"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Muzbuloq"
+          "ru": "Музбулок"
+          "uz": "Muzbuloq"
+        "description":
+          "en": "Muzbuloq brings the Bakhmal side of the Jizzakh mountains down to village scale. Boyqongirsoy and the nearby mountain edge give the stop its reason; the visit should stay simple, local, and matched to the road and weather close to travel."
+          "ru": "Музбулок переводит бахмальскую сторону гор Джизака в сельский масштаб. Бойконгирсай и близкий горный край дают остановке смысл; сам визит должен оставаться простым, местным и соразмерным дороге и погоде."
+          "uz": "Muzbuloq Jizzax tog‘larining Baxmal tomonini qishloq miqyosida ko‘rsatadi. Boyqongirsoy va yaqin tog‘ cheti bekatga maʼno beradi; tashrif sodda, mahalliy va yo‘l hamda ob-havoga mos bo‘lishi kerak."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/muzbuloq"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Uzunbuloq"
+          "ru": "Узунбулок"
+          "uz": "Uzunbuloq"
+        "description":
+          "en": "Uzunbuloq gives the Zaamin & Jizzakh Mountains route a quieter Gallaorol stop. Start with the Avliyo mahalla and pilgrimage setting, then add a family table, craft room, shopping pause, or photo point only when it feels natural for the date and the people involved."
+          "ru": "Узунбулок добавляет маршруту Заамин и горы Джизака спокойную остановку в Галляарале. Начните с махалли Авлиё и паломнической среды; семейный стол, ремесленную комнату, торговую паузу или место для фотографии добавляйте только тогда, когда это естественно для даты и людей на месте"
+          "uz": "Uzunbuloq Zomin va Jizzax tog‘lari yo‘liga G‘allaorol tomondan sokin bekat qo‘shadi. Avval Avliyo mahallasi va ziyorat muhiti tushuniladi; oilaviy dasturxon, hunar xonasi, savdo yoki rasm nuqtasi esa sana va mahalliy odamlar uchun tabiiy bo‘lganda qo‘shiladi."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/uzunbuloq"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route fit"
+      "ru": "Логика маршрута"
+      "uz": "Marshrut mantiqi"
+    "title":
+      "en": "What gives the region its shape"
+      "ru": "Что формирует регион"
+      "uz": "Hududni nima shakllantiradi"
+    "description":
+      "en": "The useful frame is practical and human: mountain setting, hosted village life, road logic, pilgrimage tone, and the difference between place status and services confirmed for a specific trip."
+      "ru": "Полезный контекст здесь практический и человеческий: горная среда, гостевая сельская жизнь, дороги, паломнический тон и разница между статусом места и услугами на конкретную поездку."
+      "uz": "Bu yerda foydali ramka amaliy va insoniy: tog‘ muhiti, mezbonli qishloq hayoti, yo‘l mantiqi, ziyorat ohangi va joy maqomi bilan aniq safar uchun tasdiqlanadigan xizmatlar orasidagi farq."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Boyqongirsoy Side of Muzbuloq"
+          "ru": "Сторона Бойконгирсая у Музбулока"
+          "uz": "Muzbuloqning Boyqongirsoy tomoni"
+        "description":
+          "en": "Boyqongirsoy gives Muzbuloq its clearest nature cue. The eco-village idea feels believable when it grows from the village visit rather than from a separate activity label."
+          "ru": "Бойконгирсай — самая ясная природная причина Музбулока. Тема эко-села звучит убедительно тогда, когда растёт из самого сельского визита, а не из отдельной вывески активности."
+          "uz": "Boyqongirsoy Muzbuloq ortidagi eng ravshan tabiat sababidir. Ekoqishloq g‘oyasi alohida faoliyat yorlig‘i emas, qishloq tashrifidan tabiiy chiqqanda ishonchli eshitiladi."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/muzbuloq/muzbuloq-boyqongirsoy-eco-village-plan"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Bakhmal road and village edge"
+          "ru": "Бахмальская дорога и край села"
+          "uz": "Baxmal yo‘li va qishloq cheti"
+        "description":
+          "en": "Before any arranged courtyard or table, the Bakhmal road gives Novqa its first feeling: cooler air, orchard-country edges, and a village that should be reached slowly."
+          "ru": "До любого двора или стола дорога через Бахмал даёт Новке первое ощущение: более прохладный воздух, сады по сторонам и село, к которому нужно подъехать неспешно."
+          "uz": "Hovli yoki dasturxon kelishilishidan oldin Baxmal yo‘li Novqaga ilk tuyg‘uni beradi: salqinroq havo, bog‘lar cheti va shoshilmay yetib boriladigan qishloq."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/novqa/novqa-bakhmal-mountain-village-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Avliyo mahalla setting"
+          "ru": "Среда махалли Авлиё"
+          "uz": "Avliyo mahallasi muhiti"
+        "description":
+          "en": "Avliyo is the threshold of the Uzunbuloq stop: the place where the visit starts with a village edge, a greeting, and a sense of what belongs there that day. A family table, craft room, meal, shopping pause, or photo point may follow later; the first meaning is respect."
+          "ru": "Авлиё — порог остановки в Узунбулоке: здесь визит начинается с края села, приветствия и понимания, что уместно именно сегодня. Семейный стол, ремесленная комната, питание, торговля или место для фотографии могут появиться позже; первый смысл здесь — уважение."
+          "uz": "Avliyo — Uzunbuloq bekatining ostonasi: tashrif qishloq cheti, birinchi salomlashuv va shu kunga nima mosligini aniqlashdan boshlanadi. Oilaviy dasturxon, hunar xonasi, ovqatlanish, savdo yoki rasm nuqtasi keyin qo‘shilishi mumkin; birinchi maʼno esa hurmat."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/uzunbuloq/uzunbuloq-avliyo-mahalla-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Zaamin mountain setting"
+          "ru": "Горная среда Заамина"
+          "uz": "Zomin tog‘ muhiti"
+        "description":
+          "en": "The road into Duoba starts to feel like Zaamin before the village appears: bends, open air, and weather that can change quickly. This is the mountain approach around the mahalla visit, not a separate resort or fixed activity."
+          "ru": "Дорога к Дуобе начинает ощущаться как Заамин ещё до села: повороты, открытый воздух и погода, которая быстро меняется. Это горный подъезд к визиту в махаллю, а не отдельный курорт или активность с гарантированным доступом."
+          "uz": "Duobaga boradigan yo‘l qishloq ko‘rinishidan oldin ham Zominni sezdira boshlaydi: burilishlar, ochiq havo va tez o‘zgaradigan ob-havo. Bu mahalla tashrifi uchun tog‘ tomondan kirish, alohida kurort yoki kafolatlangan faoliyat emas."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/duoba/duoba-zaamin-mountain-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region in detail"
+      "ru": "Регион в деталях"
+      "uz": "Hudud batafsil"
+    "title":
+      "en": "Practical questions about Zaamin & Jizzakh Mountains"
+      "ru": "Практические вопросы о регионе Заамин и горы Джизака"
+      "uz": "Zomin va Jizzax tog‘lari hududi bo‘yicha amaliy savollar"
+    "description":
+      "en": "Pace, season, and how this region connects to the next stop."
+      "ru": "Темп, сезон и как регион стыкуется со следующей остановкой."
+      "uz": "Sur’at, mavsum va hududning keyingi bekat bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many days does Zaamin & Jizzakh Mountains need in a programme?"
+          "ru": "Сколько дней нужно региону Заамин и горы Джизака в программе?"
+          "uz": "Zomin va Jizzax tog‘lari hududi dasturda necha kun olishi kerak?"
+        "description":
+          "en": "2–4 days usually works if you keep one strong core and treat outer stops as deliberate choices. The region brief is “Mountain mahallas and village roads between Zaamin, Bakhmal, and Gallaorol”."
+          "ru": "Обычно хватает 2–4 дня, если держать одно сильное ядро, а внешние остановки выбирать осознанно. Кратко о регионе: «Горные махалли и сельские дороги между Заамином, Бахмалом и Галляаралом»."
+          "uz": "Odatda 2–4 kun yetadi — bitta kuchli yadro va tashqi bekatlarni ongli tanlov qiling. Hudud brifi: «Zomin, Baxmal va G‘allaorol oralig‘idagi tog‘ mahallalari va qishloq yo‘llari»."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "What should come before and after Zaamin & Jizzakh Mountains?"
+          "ru": "Что ставить до и после региона Заамин и горы Джизака?"
+          "uz": "Zomin va Jizzax tog‘laridan oldin va keyin nima qo‘yish kerak?"
+        "description":
+          "en": "Use neighbouring cities as clean handovers: arrive with a calm first night, leave after one completed chapter, and avoid stacking two long transfers on the same day."
+          "ru": "Соседние города держите как чистые стыки: приезжайте со спокойной первой ночью, уезжайте после завершённой главы и не ставьте два длинных переезда в один день."
+          "uz": "Qo‘shni shaharlarni toza ulanish sifatida tuting: sokin birinchi tun bilan keling, yakunlangan bobdan keyin chiqing va bir kunga ikkita uzun ko‘chishni qo‘ymang."
+      - "type": "destinationInsight"
+        "icon": "Calendar"
+        "title":
+          "en": "What season logic matters most in Zaamin & Jizzakh Mountains?"
+          "ru": "Какая сезонная логика важнее всего в Заамин и горы Джизака?"
+          "uz": "Zomin va Jizzax tog‘larida qaysi mavsum mantig‘i eng muhim?"
+        "description":
+          "en": "Heat, altitude, road condition, and opening hours change the product more than the brochure list. Build the region around what stays comfortable for the group that week."
+          "ru": "Жара, высота, состояние дорог и часы работы меняют продукт сильнее списка из брошюры. Собирайте регион вокруг того, что комфортно именно этой группе в эту неделю."
+          "uz": "Issiqlik, balandlik, yo‘l holati va ish soatlari broshyura ro‘yxatidan kuchliroq mahsulotni o‘zgartiradi. Hududni shu hafta guruh uchun qulay narsaga qurib chiqing."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Zaamin & Jizzakh Mountains stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Заамин и горы Джизака» в программу (Узбекистан)"
+      "uz": "Zomin va Jizzax tog‘lari bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right extensions — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать нужные расширения — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va kerakli kengaytmalarni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Zaamin & Jizzakh Mountains | TourLink"
+    "ru": "Заамин и горы Джизака | TourLink"
+    "uz": "Zomin va Jizzax tog‘lari | TourLink"
+  "metaDescription":
+    "en": "This is the quieter Jizzakh side of Uzbekistan’s tourism-village map: Zaamin mountain air, Bakhmal village roads, Gallaorol pilgrimage context, and small rural stops where the final route depends on hosts, access, weather, and local readiness."
+    "ru": "Это более тихая джизакская сторона карты туристических сёл Узбекистана: горный воздух Заамина, сельские дороги Бахмала, паломнический контекст Галляарала и небольшие остановки, где финальный маршрут зависит от хозяев, доступа, погоды и готовности на месте."
+    "uz": "Bu O‘zbekiston turizm qishloqlari xaritasining sokinroq Jizzax tomoni: Zomin tog‘ havosi, Baxmal qishloq yo‘llari, G‘allaorol ziyorat konteksti va yakuniy marshrut mezbon, kirish, ob-havo hamda mahalliy tayyorgarlikka bog‘liq kichik bekatlar."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"mapCenter":
+  "latitude": 39.9619506
+  "longitude": 68.3969972

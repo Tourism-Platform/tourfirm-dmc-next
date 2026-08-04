@@ -1,0 +1,559 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "duoba"
+  "ru": "duoba"
+  "uz": "duoba"
+"title":
+  "en": "Duoba"
+  "ru": "Дуоба"
+  "uz": "Duoba"
+"subtitle":
+  "en": "Village hospitality and mountain air on the Zaamin side"
+  "ru": "Сельское гостеприимство и горный воздух со стороны Заамина"
+  "uz": "Zomin tomonidagi mehmondo‘stlik va tog‘ havosi"
+"excerpt":
+  "en": "On the Zaamin side of the Jizzakh mountain route, Duoba brings the journey down to mahalla scale. Tea, a family meal, a craft demonstration, or cooking with a receiving household gives the stop its human center; cable-car, Sufa, riding, quad, and snow ideas come only after season, road, and access checks."
+  "ru": "На зааминской стороне джизакского горного маршрута Дуоба возвращает поездку к масштабу махалли. Чай, семейный обед, ремесленный показ или готовка с принимающей семьёй дают остановке человеческий центр; канатная дорога, Суфа, лошади, квадроциклы и снег добавляются только после проверки сезона, дороги и доступа."
+  "uz": "Jizzax tog‘ marshrutining Zomin tomonida Duoba safarni mahalla miqyosiga tushiradi. Mehmon kutadigan oila bilan choy, oilaviy ovqat, hunar namoyishi yoki taom tayyorlash bekatga insoniy markaz beradi; kanat yo‘li, Sufa, ot, kvadrosikl va qor esa mavsum, yo‘l va kirish tekshirilgandan keyin qo‘shiladi."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Duoba"
+      "ru": "Дуоба"
+      "uz": "Duoba"
+    "title":
+      "en": "Duoba"
+      "ru": "Дуоба"
+      "uz": "Duoba"
+    "description":
+      "en": "Village hospitality and mountain air on the Zaamin side"
+      "ru": "Сельское гостеприимство и горный воздух со стороны Заамина"
+      "uz": "Zomin tomonidagi mehmondo‘stlik va tog‘ havosi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Duoba"
+      "ru": "Дуоба"
+      "uz": "Duoba"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "On the Zaamin side of the Jizzakh mountain route, Duoba brings the journey down to mahalla scale."
+              "ru": "На зааминской стороне джизакского горного маршрута Дуоба возвращает поездку к масштабу махалли."
+              "uz": "Jizzax tog‘ marshrutining Zomin tomonida Duoba safarni mahalla miqyosiga tushiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "The map places Duoba beside Zaamin, Jizzakh City, and nearby village stops. The Duoba marker is orientation only; exact households, walks, activity starts, and meeting places are confirmed before travel."
+              "ru": "Карта помогает увидеть Дуобу рядом с Заамином, Джизаком и соседними сельскими остановками. Маркер Дуобы — только ориентир; точные дома, прогулки, начало активностей и места встречи подтверждаются перед поездкой."
+              "uz": "Xarita Duobani Zomin, Jizzax shahri va yaqin qishloq bekatlari yonida ko‘rsatadi. Duoba markeri faqat orientir; aniq xonadon, sayr, faoliyat boshlanishi va uchrashuv joylari safar oldidan tasdiqlanadi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The marker helps you understand the route area; guesthouses, walks, parking, and recreation starts are confirmed separately for the trip."
+              "ru": "Маркер помогает понять район маршрута; гостевые дома, прогулки, парковка и начало активностей подтверждаются отдельно для поездки."
+              "uz": "Marker marshrut hududini tushunishga yordam beradi; mehmon uy, sayr, avtoturargoh va faoliyat boshlanishi alohida tasdiqlanadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Duoba as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Дуоба как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Duoba o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Route map"
+      "ru": "Карта маршрута"
+      "uz": "Marshrut xaritasi"
+    "title":
+      "en": "Duoba on the Zaamin side"
+      "ru": "Дуоба на зааминской стороне"
+      "uz": "Duoba Zomin tomonida"
+    "description":
+      "en": "The map places Duoba beside Zaamin, Jizzakh City, and nearby village stops. The Duoba marker is orientation only; exact households, walks, activity starts, and meeting places are confirmed before travel."
+      "ru": "Карта помогает увидеть Дуобу рядом с Заамином, Джизаком и соседними сельскими остановками. Маркер Дуобы — только ориентир; точные дома, прогулки, начало активностей и места встречи подтверждаются перед поездкой."
+      "uz": "Xarita Duobani Zomin, Jizzax shahri va yaqin qishloq bekatlari yonida ko‘rsatadi. Duoba markeri faqat orientir; aniq xonadon, sayr, faoliyat boshlanishi va uchrashuv joylari safar oldidan tasdiqlanadi."
+    "mapPanel":
+      "eyebrow":
+        "en": "On the map"
+        "ru": "На карте"
+        "uz": "Xaritada"
+      "title":
+        "en": "Duoba in the Zaamin-side route"
+        "ru": "Дуоба в зааминском маршруте"
+        "uz": "Duoba Zomin tomonidagi marshrutda"
+      "description":
+        "en": "The points show how Duoba sits with Zaamin, Jizzakh City, and Muzbuloq. The actual pace and any recreation continuation depend on the travel date."
+        "ru": "Точки показывают, как Дуоба соотносится с Заамином, Джизаком и Музбулоком. Реальный темп и любое продолжение к отдыху зависят от даты поездки."
+        "uz": "Nuqtalar Duoba Zomin, Jizzax shahri va Muzbuloq bilan qanday turishini ko‘rsatadi. Haqiqiy temp va har qanday dam olish davomi safar sanasiga bog‘liq."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.898689
+      "longitude": 68.186919
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "duoba-zaamin-mountain-setting"
+    "aside":
+      "eyebrow":
+        "en": "How to read the map"
+        "ru": "Как читать карту"
+        "uz": "Xaritani qanday o‘qish"
+      "title":
+        "en": "Village stop, not a public address"
+        "ru": "Сельская остановка, не публичный адрес"
+        "uz": "Qishloq bekati, ommaviy manzil emas"
+      "description":
+        "en": "The marker helps you understand the route area; guesthouses, walks, parking, and recreation starts are confirmed separately for the trip."
+        "ru": "Маркер помогает понять район маршрута; гостевые дома, прогулки, парковка и начало активностей подтверждаются отдельно для поездки."
+        "uz": "Marker marshrut hududini tushunishga yordam beradi; mehmon uy, sayr, avtoturargoh va faoliyat boshlanishi alohida tasdiqlanadi."
+      "items":
+        - "title":
+            "en": "Duoba"
+            "ru": "Дуоба"
+            "uz": "Duoba"
+          "description":
+            "en": "Tourism mahalla and orientation point for the Zaamin-side village stop."
+            "ru": "Туристическая махалля и ориентир для сельской остановки со стороны Заамина."
+            "uz": "Zomin tomonidagi qishloq bekati uchun turizm mahallasi va orientir nuqta."
+          "badge":
+            "en": "Village stop"
+            "ru": "Сельская остановка"
+            "uz": "Qishloq bekati"
+        - "title":
+            "en": "Zaamin"
+            "ru": "Заамин"
+            "uz": "Zomin"
+          "description":
+            "en": "The nearby district town gives the route its road approach and possible recreation continuation."
+            "ru": "Ближайший районный центр даёт маршруту дорогу со стороны Заамина и возможное продолжение к отдыху."
+            "uz": "Yaqin tuman shahri marshrutga Zomin tomoni yo‘lini va ehtimoliy dam olish davomlarini beradi."
+          "badge":
+            "en": "District town"
+            "ru": "Районный город"
+            "uz": "Tuman shahri"
+        - "title":
+            "en": "Jizzakh City"
+            "ru": "Джизак"
+            "uz": "Jizzax shahri"
+          "description":
+            "en": "The regional city can frame arrival or departure for the mountain-village route."
+            "ru": "Город может стать началом или завершением горно-сельского маршрута."
+            "uz": "Hududiy shahar tog‘-qishloq marshrutining boshlanishi yoki yakuni bo‘lishi mumkin."
+          "badge":
+            "en": "Regional gateway"
+            "ru": "Региональные ворота"
+            "uz": "Hududiy kirish"
+        - "title":
+            "en": "Muzbuloq"
+            "ru": "Музбулок"
+            "uz": "Muzbuloq"
+          "description":
+            "en": "A Bakhmal-side stop to pair with Duoba only when road time gives the route a clear reason."
+            "ru": "Бахмальская остановка уместна рядом с Дуобой только когда дорога даёт маршруту понятную причину."
+            "uz": "Baxmal tomoni bekati Duoba bilan faqat yo‘l vaqti marshrutga aniq sabab berganda juftlanadi."
+          "badge":
+            "en": "Nearby village"
+            "ru": "Соседняя махалля"
+            "uz": "Yaqin mahalla"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What shapes the stop"
+      "ru": "Что формирует остановку"
+      "uz": "Bekatni nima ochadi"
+    "title":
+      "en": "Mountain air, mahalla hospitality, and the Zaamin side"
+      "ru": "Горный воздух, махаллинское гостеприимство и сторона Заамина"
+      "uz": "Tog‘ havosi, mahalla mehmondo‘stligi va Zomin tomoni"
+    "description":
+      "en": "Duoba is clearer when the village visit stays at the center and wider Zaamin recreation stays optional."
+      "ru": "Дуоба понятнее, когда сельский визит остаётся в центре, а отдых вокруг Заамина остаётся отдельным продолжением."
+      "uz": "Duoba qishloq tashrifi markazda qolib, Zomin atrofidagi dam olish alohida davom bo‘lganda aniqroq ochiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Zaamin mountain setting"
+          "ru": "Горная среда Заамина"
+          "uz": "Zomin tog‘ muhiti"
+        "description":
+          "en": "The road into Duoba starts to feel like Zaamin before the village appears: bends, open air, and weather that can change quickly. This is the mountain approach around the mahalla visit, not a separate resort or fixed activity."
+          "ru": "Дорога к Дуобе начинает ощущаться как Заамин ещё до села: повороты, открытый воздух и погода, которая быстро меняется. Это горный подъезд к визиту в махаллю, а не отдельный курорт или активность с гарантированным доступом."
+          "uz": "Duobaga boradigan yo‘l qishloq ko‘rinishidan oldin ham Zominni sezdira boshlaydi: burilishlar, ochiq havo va tez o‘zgaradigan ob-havo. Bu mahalla tashrifi uchun tog‘ tomondan kirish, alohida kurort yoki kafolatlangan faoliyat emas."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/duoba/duoba-zaamin-mountain-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Family hospitality and craft mahalla"
+          "ru": "Махалля гостеприимства и ремесла"
+          "uz": "Mehmondo‘stlik va hunarmandchilik mahallasi"
+        "description":
+          "en": "In Duoba, the most memorable stop may be the quietest one: tea in a courtyard, a family meal, or a craft or cooking moment arranged with local people."
+          "ru": "В Дуобе самой запоминающейся может стать самая тихая остановка: чай во дворе, семейный обед, ремесло или готовка вместе с местными жителями."
+          "uz": "Duobada eng esda qoladigan bekat sokin bo‘lishi mumkin: hovlida choy, oilaviy taom, hunar yoki mahalliy odamlar bilan taom tayyorlash."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/duoba/duoba-guesthouse-and-craft-mahalla"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Cable car and Sufa side"
+          "ru": "Канатная дорога и сторона Суфы"
+          "uz": "Kanat yo‘li va Sufa tomoni"
+        "description":
+          "en": "Duoba should first feel like a village stop. The Zaamin-side road can widen the journey toward the cable car, Sufa, Sherbulak, riding, quad routes, or snow only when the travel date makes those choices practical."
+          "ru": "Дуоба сначала должна ощущаться сельской остановкой. Дорога к зааминской стороне может продолжить маршрут к канатной дороге, Суфе, Шербулаку, лошадям, квадроциклам или снегу только тогда, когда дата поездки делает это реалистичным."
+          "uz": "Duoba avvalo qishloq bekati bo‘lib sezilishi kerak. Zomin tomoni yo‘li kanat yo‘li, Sufa, Sherbuloq, ot, kvadrosikl yoki qor sari faqat safar sanasi buni real qilganda davom etadi."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains/duoba/duoba-cable-car-and-sufa-route-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Village moments"
+      "ru": "Сельские моменты"
+      "uz": "Qishloq lahzalari"
+    "title":
+      "en": "Six Duoba moments to plan carefully"
+      "ru": "Шесть моментов Дуобы, которые стоит планировать аккуратно"
+      "uz": "Ehtiyotkor rejalash kerak bo‘lgan olti Duoba lahzasi"
+    "description":
+      "en": "The strongest moments are small: the mountain road, a family table, craft or cooking, and carefully checked Zaamin-side options."
+      "ru": "Самые сильные моменты здесь небольшие: горная дорога, семейный стол, ремесло или готовка и зааминские продолжения только после проверки."
+      "uz": "Eng kuchli lahzalar kichik: tog‘ yo‘li, oilaviy dasturxon, hunar yoki taom va tekshiruvdan keyingi Zomin tomoni imkonlari."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Arrival from the Zaamin road"
+          "ru": "Въезд со стороны Заамина"
+          "uz": "Zomin yo‘lidan kirish"
+        "description":
+          "en": "The road brings cooler air before the village appears; the visit can slow into tea, a short walk, or conversation with a receiving family."
+          "ru": "Дорога сначала приносит прохладный воздух; дальше визит замедляется до чая, короткой прогулки или разговора с принимающей семьёй."
+          "uz": "Yo‘l avval salqinroq havoni olib keladi; keyin tashrif choy, qisqa sayr yoki mehmon kutadigan oila bilan suhbatga sekinlashadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Tea at a family table"
+          "ru": "Чай за семейным столом"
+          "uz": "Oilaviy dasturxonda choy"
+        "description":
+          "en": "A meal or overnight stay belongs here when a family is ready for guests, so the stop feels received rather than staged."
+          "ru": "Обед или ночёвка уместны, когда семья готова принимать гостей; тогда остановка ощущается живой, а не постановочной."
+          "uz": "Ovqat yoki tunash oila mehmon kutishga tayyor bo‘lganda mos keladi; shunda bekat sahnalashtirilgan emas, jonli seziladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Craft or cooking with a local participant"
+          "ru": "Ремесло или готовка с местным участником"
+          "uz": "Mahalliy ishtirokchi bilan hunar yoki taom"
+        "description":
+          "en": "When a local participant leads the moment, craft or cooking gives Duoba a face, a voice, and a reason to pause."
+          "ru": "Когда момент ведёт местный участник, ремесло или готовка дают Дуобе лицо, голос и повод задержаться."
+          "uz": "Mahalliy ishtirokchi boshqarganda, hunar yoki taom Duobaga yuz, ovoz va to‘xtash sababini beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Zaamin recreation, after checks"
+          "ru": "Отдых у Заамина после проверки"
+          "uz": "Tekshiruvdan keyin Zomin dam olishi"
+        "description":
+          "en": "A cable-car or recreation continuation can follow the village stop after access, schedule, and weather are checked."
+          "ru": "Канатная дорога или отдых могут продолжить сельскую остановку после проверки доступа, графика и погоды."
+          "uz": "Kanat yo‘li yoki dam olish qishloq bekatidan keyin kirish, jadval va ob-havo tekshirilgach qo‘shilishi mumkin."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Horse, quad, or snow questions"
+          "ru": "Лошади, квадроциклы или снег"
+          "uz": "Ot, kvadrosikl yoki qor savollari"
+        "description":
+          "en": "Active formats need the right season, road, equipment, and local support; without that, Duoba should stay simple."
+          "ru": "Активным форматам нужны сезон, дорога, снаряжение и поддержка на месте; без этого Дуобу лучше оставить простой сельской остановкой."
+          "uz": "Faol formatlarga mavsum, yo‘l, jihoz va joydagi yordam kerak; bularsiz Duoba oddiy qishloq bekati bo‘lib qolgani yaxshi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Sufa and Sherbulak as a continuation"
+          "ru": "Суфа и Шербулак как продолжение"
+          "uz": "Sufa va Sherbuloq davom sifatida"
+        "description":
+          "en": "These wider Zaamin-side names belong only as a separate continuation, not as a promise inside Duoba itself."
+          "ru": "Эти зааминские названия уместны только как отдельное продолжение, а не как обещание внутри самой Дуобы."
+          "uz": "Bu Zomin tomonidagi kengroq nomlar faqat alohida davom sifatida mos keladi, Duobaning ichki vaʼdasi sifatida emas."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "Keep Duoba personal and modest"
+      "ru": "Как сохранить живой масштаб Дуобы"
+      "uz": "Duobani samimiy va vazmin saqlash"
+    "description":
+      "en": "Duoba is strongest at human scale: a mahalla visit with family hospitality, craft or cooking, and mountain air around it."
+      "ru": "Дуоба сильнее всего на человеческом масштабе: визит в махаллю с семейным приёмом, ремеслом или готовкой и горным воздухом вокруг."
+      "uz": "Duoba insoniy miqyosda kuchliroq: oilaviy mehmondo‘stlik, hunar yoki taom va atrofida tog‘ havosi bor mahalla tashrifi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Start with the mahalla"
+              "ru": "Начните с махалли"
+              "uz": "Mahalladan boshlang"
+            "description":
+              "en": "Begin with the family or local participant who can receive guests that day."
+              "ru": "Начните с семьи или местного участника, который может принять гостей в этот день."
+              "uz": "O‘sha kuni mehmon kutishi mumkin bo‘lgan oila yoki mahalliy ishtirokchidan boshlang."
+          - "type": "quote"
+            "quote":
+              "en": "In Duoba, the mountain route feels strongest when it begins at a village table."
+              "ru": "В Дуобе горный маршрут сильнее всего начинается за сельским столом."
+              "uz": "Duobada tog‘ marshruti qishloq dasturxonidan boshlanganda kuchliroq seziladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep recreation flexible"
+              "ru": "Оставьте отдых гибким"
+              "uz": "Dam olishni moslashuvchan qoldiring"
+            "description":
+              "en": "Treat cable-car, Sufa, riding, quad, and snow ideas as separate checks, not as the reason to choose Duoba."
+              "ru": "Канатная дорога, Суфа, лошади, квадроциклы и снег — отдельные проверки, а не причина выбирать Дуобу сами по себе."
+              "uz": "Kanat yo‘li, Sufa, ot, kvadrosikl va qor Duobani tanlash sababi emas, alohida tekshiruvlardir."
+          - "type": "dashTitle"
+            "title":
+              "en": "Give the road enough time"
+              "ru": "Дайте дороге время"
+              "uz": "Yo‘lga vaqt bering"
+            "description":
+              "en": "Let the road support the village visit instead of reducing Duoba to a quick name beside Zaamin."
+              "ru": "Пусть дорога поддержит сельский визит, а не сведёт Дуобу к быстрому названию рядом с Заамином."
+              "uz": "Yo‘l Duobani Zomin yonidagi tez nomga aylantirmasdan, qishloq tashrifini qo‘llasin."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественников"
+              "uz": "Sayohatchilar uchun"
+            "description":
+              "en": "Choose Duoba for a modest Zaamin-side village stop: hospitality first, mountain air around it, and recreation only when the conditions are right."
+              "ru": "Выбирайте Дуобу для спокойной сельской остановки у Заамина: сначала гостеприимство, вокруг него горный воздух, а отдых только при подходящих условиях."
+              "uz": "Duobani Zomin tomonidagi vazmin qishloq bekati uchun tanlang: avval mehmondo‘stlik, atrofida tog‘ havosi, dam olish esa sharoit mos bo‘lganda."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Status"
+                  "ru": "Коротко Статус"
+                  "uz": "Qisqacha Maqom"
+                "description":
+                  "en": "Official tourism mahalla in Zaamin District, Jizzakh Region."
+                  "ru": "Официальная туристическая махалля Зааминского района Джизакской области."
+                  "uz": "Jizzax viloyati Zomin tumanidagi rasmiy turizm mahallasi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main pull"
+                  "ru": "Главный смысл"
+                  "uz": "Asosiy mazmun"
+                "description":
+                  "en": "Family hospitality, craft or cooking moments, and Zaamin-side mountain air."
+                  "ru": "Семейное гостеприимство, ремесло или готовка и горный воздух со стороны Заамина."
+                  "uz": "Oilaviy mehmondo‘stlik, hunar yoki taom tayyorlash va Zomin tomoni tog‘ havosi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Marshrutdagi rol"
+                "description":
+                  "en": "A village stop before or after Zaamin-side nature or recreation when the route has enough time."
+                  "ru": "Сельская остановка до или после зааминской природы и отдыха, если в маршруте достаточно времени."
+                  "uz": "Marshrutda yetarli vaqt bo‘lsa, Zomin tomoni tabiati yoki dam olishidan oldin yoki keyin qishloq bekati."
+              - "icon": "Route"
+                "title":
+                  "en": "Confirm before travel"
+                  "ru": "Перед поездкой"
+                  "uz": "Safar oldidan"
+                "description":
+                  "en": "Meals, homes, road condition, weather, comfort basics, and activity access are checked close to travel."
+                  "ru": "Питание, дома, состояние дороги, погода, бытовые детали и доступ к активностям подтверждаются ближе к поездке."
+                  "uz": "Ovqat, xonadon, yo‘l holati, ob-havo, qulaylik detallari va faoliyatga kirish safarga yaqin tasdiqlanadi."
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Duoba in the day plan"
+      "ru": "Как поставить Дуоба в план дня"
+      "uz": "Duobani kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Duoba?"
+          "ru": "Сколько времени группам стоит проводить в Дуоба?"
+          "uz": "Duobada guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “Village hospitality and mountain air on the Zaamin side”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Сельское гостеприимство и горный воздух со стороны Заамина»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Zomin tomonidagi mehmondo‘stlik va tog‘ havosi»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Duoba be a walkable core or a base for day trips?"
+          "ru": "Дуоба — это пешеходное ядро или база для выездов?"
+          "uz": "Duoba piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Duoba's centre?"
+          "ru": "Где лучше ночевать относительно центра Дуоба?"
+          "uz": "Duoba markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Duoba stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Дуоба» в программу (Узбекистан)"
+      "uz": "Duoba bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Duoba | TourLink"
+    "ru": "Дуоба | TourLink"
+    "uz": "Duoba | TourLink"
+  "metaDescription":
+    "en": "On the Zaamin side of the Jizzakh mountain route, Duoba brings the journey down to mahalla scale. Tea, a family meal, a craft demonstration, or cooking with a receiving household gives the stop its human center; cable-car, Sufa, riding, quad, and snow ideas come only after season, road, and access checks."
+    "ru": "На зааминской стороне джизакского горного маршрута Дуоба возвращает поездку к масштабу махалли. Чай, семейный обед, ремесленный показ или готовка с принимающей семьёй дают остановке человеческий центр; канатная дорога, Суфа, лошади, квадроциклы и снег добавляются только после проверки сезона, дороги и доступа."
+    "uz": "Jizzax tog‘ marshrutining Zomin tomonida Duoba safarni mahalla miqyosiga tushiradi. Mehmon kutadigan oila bilan choy, oilaviy ovqat, hunar namoyishi yoki taom tayyorlash bekatga insoniy markaz beradi; kanat yo‘li, Sufa, ot, kvadrosikl va qor esa mavsum, yo‘l va kirish tekshirilgandan keyin qo‘shiladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "zaamin-and-jizzakh-mountains"
+"latitude": 39.7871495
+"longitude": 68.3913787

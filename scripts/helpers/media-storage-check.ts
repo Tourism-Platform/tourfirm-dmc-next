@@ -1,9 +1,12 @@
 import {
 	HeadObjectCommand,
+	PutObjectCommand,
 	S3Client,
 	type S3ClientConfig
 } from "@aws-sdk/client-s3";
 import { getFileKey } from "@payloadcms/plugin-cloud-storage/utilities";
+import { readFileSync } from "node:fs";
+import path from "node:path";
 
 import type { Media } from "@/payload-types";
 
@@ -158,4 +161,40 @@ export async function checkMediaObjectExistsInStorage(
 
 		throw error;
 	}
+}
+
+function guessContentType(filename: string): string {
+	const ext = path.extname(filename).toLowerCase();
+	if (ext === ".webp") return "image/webp";
+	if (ext === ".png") return "image/png";
+	if (ext === ".jpg" || ext === ".jpeg") return "image/jpeg";
+	if (ext === ".gif") return "image/gif";
+	if (ext === ".svg") return "image/svg+xml";
+	return "application/octet-stream";
+}
+
+/**
+ * Force-upload a local public file to the media storage key.
+ * Used when Payload create/update leaves a DB row without an R2 object.
+ */
+export async function putMediaObjectToStorage(
+	media: TMediaForStorageKey,
+	absoluteFilePath: string,
+	sourcePath: string
+): Promise<{ key: string }> {
+	const { bucket } = requireS3Env();
+	const key = resolveMediaStorageKey(media, sourcePath);
+	const Body = readFileSync(absoluteFilePath);
+	const client = getS3Client();
+
+	await client.send(
+		new PutObjectCommand({
+			Bucket: bucket,
+			Key: key,
+			Body,
+			ContentType: guessContentType(key)
+		})
+	);
+
+	return { key };
 }

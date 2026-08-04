@@ -1,0 +1,493 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "isfara"
+  "ru": "isfara"
+  "uz": "isfara"
+"title":
+  "en": "Isfara"
+  "ru": "Исфара"
+  "uz": "Isfara"
+"subtitle":
+  "en": "Eastern Sughd town of bazaars, orchards, and locally guided side roads"
+  "ru": "Восточный город Согда с базаром, садами и дорогами под местным сопровождением"
+  "uz": "Bozori, bog‘lari va mahalliy yo‘l-yo‘riqqa tayangan yon yo‘llari bor Sharqiy Sug‘d shahri"
+"excerpt":
+  "en": "Start with Isfara itself: market lanes, older neighborhoods, and the first sense of eastern Sughd after Khujand and Istaravshan. Abdullo Khan Madrasa, Chorku context, shrine etiquette, and orchard roads can deepen the visit, but only after our local team confirms access, timing, and welcome."
+  "ru": "Начинайте с самой Исфары: рыночные переулки, старые кварталы и первое ощущение восточного Согда после Худжанда и Истаравшана. Медресе Абдулло Хана, контекст Чорку, этикет святынь и садовые дороги могут углубить посещение, но только после проверки доступа, времени и приема на месте."
+  "uz": "Isfarani shaharning o‘zidan boshlang: bozor yo‘laklari, eski mahallalar va Xo‘jand hamda Istaravshandan keyingi Sharqiy Sug‘d ohangi. Abdullo Xon madrasasi, Chorku, ziyorat odobi va bog‘ yo‘llari tashrifni chuqurlashtiradi, lekin faqat mahalliy jamoa kirish, vaqt va qabulni tasdiqlaganidan keyin."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "Isfara"
+      "ru": "Исфара"
+      "uz": "Isfara"
+    "title":
+      "en": "Isfara"
+      "ru": "Исфара"
+      "uz": "Isfara"
+    "description":
+      "en": "Eastern Sughd town of bazaars, orchards, and locally guided side roads"
+      "ru": "Восточный город Согда с базаром, садами и дорогами под местным сопровождением"
+      "uz": "Bozori, bog‘lari va mahalliy yo‘l-yo‘riqqa tayangan yon yo‘llari bor Sharqiy Sug‘d shahri"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Isfara"
+      "ru": "Исфара"
+      "uz": "Isfara"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Start with Isfara itself: market lanes, older neighborhoods, and the first sense of eastern Sughd after Khujand and Istaravshan."
+              "ru": "Начинайте с самой Исфары: рыночные переулки, старые кварталы и первое ощущение восточного Согда после Худжанда и Истаравшана."
+              "uz": "Isfarani shaharning o‘zidan boshlang: bozor yo‘laklari, eski mahallalar va Xo‘jand hamda Istaravshandan keyingi Sharqiy Sug‘d ohangi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Isfara fits best after the northern route has settled through Khujand and Istaravshan. The town gives the visit a clear beginning; Chorku, shrine, orchard, or village context should stay flexible until current guidance confirms the road, etiquette, and timing."
+              "ru": "Исфара лучше подходит после того, как северный маршрут уже прошел через Худжанд и Истаравшан. Город дает понятное начало; Чорку, святыни, сады или сельский контекст остаются гибкими до проверки дороги, этикета и времени."
+              "uz": "Isfara shimoliy yo‘nalish Xo‘jand va Istaravshan orqali shakllangandan keyin yaxshiroq mos keladi. Shahar tashrifga aniq boshlanish beradi; Chorku, ziyorat, bog‘ yoki qishloq mavzulari yo‘l, odob va vaqt bo‘yicha joriy ma’lumot tasdiqlanguncha moslashuvchan qoladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep the visit centered on Isfara until local guidance makes a Chorku, shrine, or orchard road appropriate."
+              "ru": "Держите посещение вокруг Исфары, пока местная команда не подтвердит, что дорога к Чорку, святыне или садам действительно уместна."
+              "uz": "Mahalliy ma’lumot Chorku, ziyorat yoki bog‘ yo‘li mosligini tasdiqlamaguncha tashrifni Isfaraning o‘zida tuting."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Isfara as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Исфара как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Isfara o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "Start in town, then add outer roads with current guidance"
+      "ru": "Сначала город, внешние дороги — по актуальной местной информации"
+      "uz": "Avval shahar, tashqi yo‘llar esa joriy ma’lumotdan keyin"
+    "description":
+      "en": "Isfara fits best after the northern route has settled through Khujand and Istaravshan. The town gives the visit a clear beginning; Chorku, shrine, orchard, or village context should stay flexible until current guidance confirms the road, etiquette, and timing."
+      "ru": "Исфара лучше подходит после того, как северный маршрут уже прошел через Худжанд и Истаравшан. Город дает понятное начало; Чорку, святыни, сады или сельский контекст остаются гибкими до проверки дороги, этикета и времени."
+      "uz": "Isfara shimoliy yo‘nalish Xo‘jand va Istaravshan orqali shakllangandan keyin yaxshiroq mos keladi. Shahar tashrifga aniq boshlanish beradi; Chorku, ziyorat, bog‘ yoki qishloq mavzulari yo‘l, odob va vaqt bo‘yicha joriy ma’lumot tasdiqlanguncha moslashuvchan qoladi."
+    "mapPanel":
+      "eyebrow":
+        "en": "On the map"
+        "ru": "На карте"
+        "uz": "Xaritada"
+      "title":
+        "en": "Isfara at the eastern end of the northern route"
+        "ru": "Исфара на восточном конце северного маршрута"
+        "uz": "Isfara shimoliy yo‘nalishning sharqiy uchida"
+      "description":
+        "en": "The map pin marks Isfara town. It places the eastern end of the Khujand and Istaravshan sequence without promising shrine access, village roads, or border-adjacent movement."
+        "ru": "Точка отмечает сам город. Она показывает восточное продолжение после Худжанда и Истаравшана, но не обещает доступ к святыням, сельским дорогам или приграничным перемещениям."
+        "uz": "Xarita nuqtasi Isfara shahrini ko‘rsatadi. U Xo‘jand va Istaravshandan keyingi sharqiy davomni tushuntiradi, ammo ziyoratga kirish, qishloq yo‘llari yoki chegara yaqinidagi harakatni va’da qilmaydi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.123264
+      "longitude": 70.613416
+    "zoom": 14
+    "stops": []
+    "aside":
+      "eyebrow":
+        "en": "Visit order"
+        "ru": "Порядок посещения"
+        "uz": "Tashrif tartibi"
+      "title":
+        "en": "Town first, outer stops only when clear"
+        "ru": "Сначала город, внешние остановки — когда условия ясны"
+        "uz": "Avval shahar, keyin sharoiti aniq tashqi to‘xtashlar"
+      "description":
+        "en": "Keep the visit centered on Isfara until local guidance makes a Chorku, shrine, or orchard road appropriate."
+        "ru": "Держите посещение вокруг Исфары, пока местная команда не подтвердит, что дорога к Чорку, святыне или садам действительно уместна."
+        "uz": "Mahalliy ma’lumot Chorku, ziyorat yoki bog‘ yo‘li mosligini tasdiqlamaguncha tashrifni Isfaraning o‘zida tuting."
+      "items":
+        - "title":
+            "en": "Come from Khujand or Istaravshan with route margin"
+            "ru": "Приезжайте из Худжанда или Истаравшана с запасом"
+            "uz": "Xo‘jand yoki Istaravshandan vaqt zaxirasi bilan keling"
+          "description":
+            "en": "Leave time for the town, the return road, and any local confirmation needed before outer stops are included."
+            "ru": "Нужен запас на город, обратную дорогу и местные уточнения перед включением внешних остановок."
+            "uz": "Shahar, qaytish yo‘li va tashqi to‘xtashlarni qo‘shishdan oldingi mahalliy aniqliklar uchun zaxira kerak."
+        - "title":
+            "en": "Begin with the bazaar and old streets"
+            "ru": "Начните с базара и старых улиц"
+            "uz": "Bozor va eski ko‘chalardan boshlang"
+          "description":
+            "en": "Market lanes and older neighborhoods give Isfara its clearest everyday rhythm before the route looks outward."
+            "ru": "Рынок и старые кварталы дают Исфаре самое понятное живое начало, прежде чем маршрут посмотрит дальше."
+            "uz": "Bozor yo‘laklari va eski mahallalar Isfaraga eng tushunarli boshlanish beradi, keyin yo‘l tashqariga qarashi mumkin."
+        - "title":
+            "en": "Handle Chorku and shrine context with a local guide"
+            "ru": "Чорку и святыни смотрят с местным сопровождением"
+            "uz": "Chorku va ziyorat joylarini mahalliy yo‘l-yo‘riq bilan ko‘ring"
+          "description":
+            "en": "Chorku and Hazrati Shoh context can add meaning when access, etiquette, and welcome are clear."
+            "ru": "Контекст Чорку и Хазрати Шох может быть важен, когда понятны доступ, этикет и прием."
+            "uz": "Chorku va Hazrati Shoh mazmuni kirish, odob va qabul aniq bo‘lganda ma’no qo‘shadi."
+        - "title":
+            "en": "Use orchard roads when the season supports them"
+            "ru": "Добавляйте садовые дороги по сезону"
+            "uz": "Bog‘ yo‘llarini mavsum mos bo‘lsa qo‘shing"
+          "description":
+            "en": "Apricot country feels strongest when fruit season, hosts, and road timing align with the travel date."
+            "ru": "Абрикосовый край сильнее всего раскрывается, когда сезон, хозяева и время дороги совпадают с датой поездки."
+            "uz": "O‘rik hududi meva mavsumi, mezbonlar va yo‘l vaqti sayohat sanasiga mos kelganda kuchliroq bo‘ladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Old streets, madrasa context, Chorku, and orchards"
+      "ru": "Старые улицы, медресе, Чорку и сады"
+      "uz": "Eski ko‘chalar, madrasa, Chorku va bog‘lar"
+    "description":
+      "en": "Treat these as Isfara visit ideas, not guarantees. The route can begin with the bazaar and older neighborhoods, then add madrasa, Chorku, shrine, or orchard context only when current guidance supports it."
+      "ru": "Относитесь к этим местам как к идеям для посещения Исфары, а не как к гарантии. Маршрут может начаться с базара и старых кварталов, а затем добавить медресе, Чорку, святыни или сады только при актуальной местной проверке."
+      "uz": "Bu joylarni Isfara tashrifi uchun g‘oya sifatida ko‘ring, kafolat sifatida emas. Yo‘l bozor va eski mahallalardan boshlanib, madrasa, Chorku, ziyorat yoki bog‘ mavzusini faqat joriy mahalliy ma’lumotdan keyin qo‘shishi mumkin."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Town moments"
+      "ru": "Городские моменты"
+      "uz": "Shahar lahzalari"
+    "title":
+      "en": "Market, madrasa, and outer-road decisions"
+      "ru": "Рынок, медресе и решения по внешним дорогам"
+      "uz": "Bozor, madrasa va tashqi yo‘llar bo‘yicha qaror"
+    "description":
+      "en": "Three small Isfara moments work when they stay honest: a market morning, a careful heritage stop, and a decision about Chorku or orchard roads made with current local guidance."
+      "ru": "Три небольших момента Исфары работают, когда остаются честными: утро на рынке, аккуратная остановка у наследия и решение по Чорку или садам на основе текущей местной проверки."
+      "uz": "Isfaraning uch kichik lahzasi halol qolganda kuchli: bozor tongi, ehtiyotkor meros to‘xtashi va Chorku yoki bog‘ yo‘li bo‘yicha joriy mahalliy ma’lumotga asoslangan qaror."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Begin with the bazaar, then orchards if the season fits"
+          "ru": "Начните с базара, а сады добавьте по сезону"
+          "uz": "Bozordan boshlang, bog‘larni esa mavsum mos bo‘lsa qo‘shing"
+        "description":
+          "en": "Market lanes give Isfara an open start; orchard or apricot context belongs only when season and hosts make it real."
+          "ru": "Рынок дает Исфаре открытое начало; садовый или абрикосовый контекст уместен только тогда, когда сезон и хозяева делают его настоящим."
+          "uz": "Bozor yo‘laklari Isfaraga ochiq boshlanish beradi; bog‘ yoki o‘rik mavzusi faqat mavsum va mezbonlar uni haqiqiy qilganda qo‘shiladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Read the madrasa as a careful heritage stop"
+          "ru": "Смотрите медресе как аккуратную остановку наследия"
+          "uz": "Madrasani ehtiyotkor meros to‘xtashi sifatida ko‘ring"
+        "description":
+          "en": "Abdullo Khan Madrasa can anchor the heritage side of Isfara while access, timing, and visit conditions are confirmed locally."
+          "ru": "Медресе Абдулло Хана может стать спокойным ориентиром наследия, пока доступ, время и условия посещения проверяются на месте."
+          "uz": "Abdullo Xon madrasasi kirish, vaqt va tashrif sharoiti mahalliy tekshirilayotgan paytda Isfaraning meros tomoniga sokin tayanch bo‘la oladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Choose Chorku with current guidance"
+          "ru": "Выбирайте Чорку только с актуальной проверкой"
+          "uz": "Chorkuni faqat joriy ma’lumot bilan tanlang"
+        "description":
+          "en": "Chorku, shrine context, and outer roads should enter the route only when access, etiquette, road timing, and welcome are clear."
+          "ru": "Чорку, контекст святынь и внешние дороги входят в маршрут только тогда, когда понятны доступ, этикет, время дороги и прием."
+          "uz": "Chorku, ziyorat mazmuni va tashqi yo‘llar yo‘nalishga faqat kirish, odob, yo‘l vaqti va qabul aniq bo‘lganda kiradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "Keep the visit narrower than the map"
+      "ru": "Держите посещение уже, чем карта"
+      "uz": "Tashrifni xaritadan torroq tuting"
+    "description":
+      "en": "Isfara has real route value, but it needs restraint. A useful visit starts with bazaar streets and older neighborhoods, then adds madrasa, Chorku, shrine, or orchard context only when local guidance supports it."
+      "ru": "У Исфары есть настоящая маршрутная ценность, но ей нужна аккуратность. Полезное посещение начинается с базарных улиц и старых кварталов, а затем добавляет медресе, Чорку, святыни или сады только при местной проверке."
+      "uz": "Isfaraning haqiqiy yo‘nalish qiymati bor, lekin unga ehtiyotkorlik kerak. Foydali tashrif bozor ko‘chalari va eski mahallalardan boshlanadi, keyin madrasa, Chorku, ziyorat yoki bog‘ mavzusi faqat mahalliy tekshiruvdan keyin qo‘shiladi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Let the town speak first"
+              "ru": "Пусть сначала говорит город"
+              "uz": "Avval shahar gapirsin"
+            "description":
+              "en": "Old streets, the bazaar, food stops, and everyday movement give the safest first reading of Isfara. They show eastern Sughd without fragile claims."
+              "ru": "Старые улицы, базар, еда и повседневное движение дают самое безопасное первое чтение Исфары. Так восточный Согд появляется без хрупких обещаний."
+              "uz": "Eski ko‘chalar, bozor, ovqatlanish va kundalik harakat Isfarani tushunishning eng xavfsiz boshlanishidir. Ular Sharqiy Sug‘dni nozik va’dalarsiz ko‘rsatadi."
+          - "type": "quote"
+            "quote":
+              "en": "Isfara is strongest as a careful eastern Sughd town stop, with outer stories added only when current local guidance supports them."
+              "ru": "Исфара сильнее всего звучит как аккуратная городская остановка в восточном Согде, где внешние сюжеты добавляются только после местной проверки."
+              "uz": "Isfara Sharqiy Sug‘ddagi ehtiyotkor shahar to‘xtashi sifatida va’da berilganda, tashqi hikoyalar esa mahalliy tekshiruvdan keyin qo‘shilganda kuchliroq bo‘ladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Add heritage with restraint"
+              "ru": "Добавляйте наследие сдержанно"
+              "uz": "Merosni ehtiyotkor qo‘shing"
+            "description":
+              "en": "Abdullo Khan Madrasa and Chorku-related heritage can deepen the visit when access, etiquette, and timing are clear. The route should not turn uncertain access into a promise."
+              "ru": "Медресе Абдулло Хана и наследие Чорку могут углубить посещение, когда понятны доступ, этикет и время. Маршрут не должен превращать неопределенный доступ в обещание."
+              "uz": "Abdullo Xon madrasasi va Chorku bilan bog‘liq meros kirish, odob va vaqt aniq bo‘lganda tashrifni chuqurlashtiradi. Yo‘nalish noaniq kirishni va’daga aylantirmasligi kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Leave sensitive roads out until confirmed"
+              "ru": "Оставляйте чувствительные дороги до подтверждения"
+              "uz": "Sezgir yo‘llarni tasdiq bo‘lmaguncha chetda qoldiring"
+            "description":
+              "en": "Border-adjacent roads belong outside the itinerary unless current guidance says they are appropriate. Travelers should see a clear town visit, not a promise of every road on the map."
+              "ru": "Приграничные дороги не входят в маршрут, пока актуальная проверка не подтвердит их уместность. Путешественник должен видеть понятное посещение города, а не обещание каждой дороги на карте."
+              "uz": "Chegara yaqinidagi yo‘llar joriy ma’lumot ularni mos deb ko‘rsatmaguncha marshrutga kirmaydi. Sayohatchi xaritadagi har bir yo‘l va’dasini emas, aniq shahar tashrifini ko‘rishi kerak."
+          - "type": "alert"
+            "title":
+              "en": "Route takeaway"
+              "ru": "Вывод для маршрута"
+              "uz": "Yo‘nalish xulosasi"
+            "description":
+              "en": "Add Isfara after Khujand and Istaravshan only when the schedule, side-road access, shrine etiquette, and orchard season can be checked before confirmation."
+              "ru": "Добавляйте Исфару после Худжанда и Истаравшана только тогда, когда расписание, боковые дороги, этикет святынь и сезон садов можно проверить до подтверждения."
+              "uz": "Isfarani Xo‘jand va Istaravshandan keyin faqat jadval, yon yo‘lga kirish, ziyorat odobi va bog‘ mavsumini tasdiqlashdan oldin tekshirish mumkin bo‘lsa qo‘shing."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Route role"
+                  "ru": "Коротко Роль в маршруте"
+                  "uz": "Qisqacha Yo‘nalish roli"
+                "description":
+                  "en": "Best after Khujand and Istaravshan, with enough route margin."
+                  "ru": "Лучше после Худжанда и Истаравшана, с запасом в маршруте."
+                  "uz": "Xo‘jand va Istaravshandan keyin, yo‘nalishda yetarli zaxira bo‘lsa."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main anchors"
+                  "ru": "Главные ориентиры"
+                  "uz": "Asosiy mo‘ljallar"
+                "description":
+                  "en": "Town streets, Abdullo Khan context, and seasonal fruit country."
+                  "ru": "Городские улицы, контекст Абдулло Хана и сезонные сады."
+                  "uz": "Shahar ko‘chalari, Abdullo Xon mazmuni va mavsumiy bog‘lar."
+              - "icon": "Sun"
+                "title":
+                  "en": "Time needed"
+                  "ru": "Сколько времени"
+                  "uz": "Kerakli vaqt"
+                "description":
+                  "en": "Do not squeeze Isfara into a late transfer."
+                  "ru": "Не вжимайте Исфару в поздний переезд."
+                  "uz": "Isfarani kechki transferga siqib qo‘ymang."
+              - "icon": "Route"
+                "title":
+                  "en": "Local guidance"
+                  "ru": "Местная проверка"
+                  "uz": "Mahalliy tekshiruv"
+                "description":
+                  "en": "Confirm shrine access, village roads, and current conditions before promising outer stops."
+                  "ru": "Уточняйте доступ к святыням, сельские дороги и текущие условия до обещания внешних остановок."
+                  "uz": "Tashqi to‘xtashlarni va’da qilishdan oldin ziyoratga kirish, qishloq yo‘llari va joriy sharoitlarni aniqlang."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqin joylar"
+    "title":
+      "en": "Khujand and Istaravshan before Isfara"
+      "ru": "Худжанд и Истаравшан перед Исфарой"
+      "uz": "Isfaradan oldin Xo‘jand va Istaravshan"
+    "description":
+      "en": "Khujand and Istaravshan remain the stronger anchors for northern Tajikistan. Isfara extends the route eastward only when the valley timing and access make sense."
+      "ru": "Худжанд и Истаравшан остаются главными опорами северного Таджикистана. Исфара расширяет маршрут на восток только тогда, когда подходят время, дорога и доступ."
+      "uz": "Xo‘jand va Istaravshan Shimoliy Tojikistonning asosiy tayanchlari bo‘lib qoladi. Isfara yo‘nalishni sharqqa faqat vodiy vaqti va kirish imkoniyati mos bo‘lganda kengaytiradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Khujand"
+          "ru": "Худжанд"
+          "uz": "Xoʻjand"
+        "description":
+          "en": "Khujand brings northern Tajikistan into focus through a compact center: Panjshanbe Bazaar, Sheikh Muslihiddin's sacred complex, the fortress museum, and the Syr Darya before the road opens across Sughd."
+          "ru": "Худжанд помогает увидеть северный Таджикистан через компактный центр: базар Панджшанбе, священный комплекс шейха Муслихиддина, крепостной музей и Сырдарью перед дорогами по Согду."
+          "uz": "Xoʻjand Shimoliy Tojikistonni ixcham markaz orqali tanitadi: Panjshanbe bozori, Shayx Muslihiddin muqaddas majmuasi, qalʼa muzeyi va Sugʻd boʻylab keyingi yoʻllardan oldin Sirdaryo."
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/khujand"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Istaravshan"
+          "ru": "Истаравшан"
+          "uz": "Istaravshan"
+        "description":
+          "en": "Istaravshan adds an old-town craft stop to northern Tajikistan: Mug Teppe above the streets, Kok Gumbaz's blue dome, Hazrat-i Shoh, bazaar lanes, and workshop life when access is right."
+          "ru": "Истаравшан добавляет северному Таджикистану ремесленный старый город: Муг-Теппе над улицами, голубой купол Кок-Гумбаза, Хазрат-и Шох, базарные переулки и мастерские, когда доступ подтвержден."
+          "uz": "Istaravshan Shimoliy Tojikistonga eski hunarmand shahar tajribasini qoʻshadi: koʻchalar ustidagi Mug Teppe, Koʻk Gumbazning moviy gumbazi, Hazrati Shoh, bozor yoʻlaklari va kirish tasdiqlansa ustaxonalar."
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/istaravshan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Isfara in the day plan"
+      "ru": "Как поставить Исфара в план дня"
+      "uz": "Isfarani kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Isfara?"
+          "ru": "Сколько времени группам стоит проводить в Исфара?"
+          "uz": "Isfarada guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Eastern Sughd town of bazaars, orchards, and locally guided side roads”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Восточный город Согда с базаром, садами и дорогами под местным сопровождением»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Bozori, bog‘lari va mahalliy yo‘l-yo‘riqqa tayangan yon yo‘llari bor Sharqiy Sug‘d shahri»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Isfara be a walkable core or a base for day trips?"
+          "ru": "Исфара — это пешеходное ядро или база для выездов?"
+          "uz": "Isfara piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Isfara's centre?"
+          "ru": "Где лучше ночевать относительно центра Исфара?"
+          "uz": "Isfara markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Isfara stop into your Tajikistan programme"
+      "ru": "Встройте остановку «Исфара» в программу (Таджикистан)"
+      "uz": "Isfara bekatini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Isfara | TourLink"
+    "ru": "Исфара | TourLink"
+    "uz": "Isfara | TourLink"
+  "metaDescription":
+    "en": "Start with Isfara itself: market lanes, older neighborhoods, and the first sense of eastern Sughd after Khujand and Istaravshan. Abdullo Khan Madrasa, Chorku context, shrine etiquette, and orchard roads can deepen the visit, but only after our local team confirms access, timing, and welcome."
+    "ru": "Начинайте с самой Исфары: рыночные переулки, старые кварталы и первое ощущение восточного Согда после Худжанда и Истаравшана. Медресе Абдулло Хана, контекст Чорку, этикет святынь и садовые дороги могут углубить посещение, но только после проверки доступа, времени и приема на месте."
+    "uz": "Isfarani shaharning o‘zidan boshlang: bozor yo‘laklari, eski mahallalar va Xo‘jand hamda Istaravshandan keyingi Sharqiy Sug‘d ohangi. Abdullo Xon madrasasi, Chorku, ziyorat odobi va bog‘ yo‘llari tashrifni chuqurlashtiradi, lekin faqat mahalliy jamoa kirish, vaqt va qabulni tasdiqlaganidan keyin."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "khujand-and-northern-tajikistan"
+"latitude": 40.123264
+"longitude": 70.6134164

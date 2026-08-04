@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "chuya-craft-and-household-setting"
+  "ru": "chuya-craft-and-household-setting"
+  "uz": "chuya-craft-and-household-setting"
+"title":
+  "en": "Chuya Crafts, Food, and Household Table"
+  "ru": "Ремёсла, еда и домашний стол Чуи"
+  "uz": "Chuya hunari, taomi va xonadon dasturxoni"
+"subtitle":
+  "en": "Carpet weaving, qurut, bread, and small household moments"
+  "ru": "Ковроткачество, курут, лепёшка и небольшие домашние моменты"
+  "uz": "Gilam to‘qish, qurut, non va kichik xonadon lahzalari"
+"excerpt":
+  "en": "Chuya's craft and food side is strongest at household scale: hands at the carpet, bread on the table, qurut drying, and time that feels personal rather than performed."
+  "ru": "Ремесленная и гастрономическая сторона Чуи сильнее всего в домашнем масштабе: руки у ковра, лепёшка на столе, курут, который сушится, и время, которое ощущается личным, а не постановочным."
+  "uz": "Chuyaning hunar va ovqat tomoni xonadon miqyosida kuchliroq: gilam yonidagi qo‘llar, dasturxondagi non, quriyotgan qurut va tomosha emas, shaxsiy seziladigan vaqt."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Chuya Crafts, Food, and Household Table"
+      "ru": "Ремёсла, еда и домашний стол Чуи"
+      "uz": "Chuya hunari, taomi va xonadon dasturxoni"
+    "title":
+      "en": "Chuya Crafts, Food, and Household Table"
+      "ru": "Ремёсла, еда и домашний стол Чуи"
+      "uz": "Chuya hunari, taomi va xonadon dasturxoni"
+    "description":
+      "en": "Carpet weaving, qurut, bread, and small household moments"
+      "ru": "Ковроткачество, курут, лепёшка и небольшие домашние моменты"
+      "uz": "Gilam to‘qish, qurut, non va kichik xonadon lahzalari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Chuya Crafts, Food, and Household Table"
+      "ru": "Ремёсла, еда и домашний стол Чуи"
+      "uz": "Chuya hunari, taomi va xonadon dasturxoni"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Chuya's craft and food side is strongest at household scale: hands at the carpet, bread on the table, qurut drying, and time that feels personal rather than performed."
+              "ru": "Ремесленная и гастрономическая сторона Чуи сильнее всего в домашнем масштабе: руки у ковра, лепёшка на столе, курут, который сушится, и время, которое ощущается личным, а не постановочным."
+              "uz": "Chuyaning hunar va ovqat tomoni xonadon miqyosida kuchliroq: gilam yonidagi qo‘llar, dasturxondagi non, quriyotgan qurut va tomosha emas, shaxsiy seziladigan vaqt."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Chuya becomes memorable when the stop moves from landscape into hands, food, and ordinary household rhythm."
+              "ru": "Чуя запоминается, когда остановка переходит от пейзажа к рукам, еде и обычному домашнему ритму."
+              "uz": "Chuya manzaradan qo‘l, ovqat va oddiy xonadon sur’atiga o‘tganda esda qoladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Carpet weaving, qurut, bread, and small household moments."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Ковроткачество, курут, лепёшка и небольшие домашние моменты."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Gilam to‘qish, qurut, non va kichik xonadon lahzalari."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Chuya Crafts, Food, and Household Table as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Ремёсла, еда и домашний стол Чуи как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Chuya hunari, taomi va xonadon dasturxoni o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Chuya Crafts, Food, and Household Table sits on the route"
+      "ru": "Где Ремёсла, еда и домашний стол Чуи стоит на маршруте"
+      "uz": "Chuya hunari, taomi va xonadon dasturxoni marshrutda qayerda"
+    "description":
+      "en": "One clear point for Chuya Crafts, Food, and Household Table — Carpet weaving, qurut, bread, and small household moments."
+      "ru": "Одна понятная точка для «Ремёсла, еда и домашний стол Чуи» — Ковроткачество, курут, лепёшка и небольшие домашние моменты."
+      "uz": "Chuya hunari, taomi va xonadon dasturxoni uchun bitta aniq nuqta — Gilam to‘qish, qurut, non va kichik xonadon lahzalari."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Chuya Crafts, Food, and Household Table"
+        "ru": "Ремёсла, еда и домашний стол Чуи"
+        "uz": "Chuya hunari, taomi va xonadon dasturxoni"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 40.4525285
+      "longitude": 66.0476206
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "chuya-craft-and-household-setting"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "The human scale of the mahalla"
+      "ru": "Человеческий масштаб махалли"
+      "uz": "Mahallaning insoniy miqyosi"
+    "description":
+      "en": "Chuya becomes memorable when the stop moves from landscape into hands, food, and ordinary household rhythm.
+
+
+        «Chuya's craft side is strongest when one household moment carries the stop.»"
+      "ru": "Чуя запоминается, когда остановка переходит от пейзажа к рукам, еде и обычному домашнему ритму.
+
+
+        «Ремесленная сторона Чуи сильнее всего, когда один домашний момент держит остановку.»"
+      "uz": "Chuya manzaradan qo‘l, ovqat va oddiy xonadon sur’atiga o‘tganda esda qoladi.
+
+
+        «Chuyaning hunar tomoni bitta xonadon lahzasi bekatni ko‘targanda kuchliroq.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Craft hands, qurut, a small table"
+      "ru": "Руки мастеров, курут, небольшой стол"
+      "uz": "Hunar qo‘llari, qurut, kichik dasturxon"
+    "description":
+      "en": "The visible details are modest, but they make the village feel lived rather than staged."
+      "ru": "Видимые детали скромны, но именно они делают село живым, а не постановочным."
+      "uz": "Ko‘rinadigan tafsilotlar kamtar, lekin ular qishloqni tomosha emas, tirik joy sifatida sezdiradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Keep the encounter small"
+      "ru": "Сохраняйте малый масштаб"
+      "uz": "Uchrashuv kichik qolsin"
+    "description":
+      "en": "Household moments are strongest when the route gives them space and respects the family's own rhythm."
+      "ru": "Домашние моменты лучше всего работают, когда маршрут даёт им место и уважает собственный ритм семьи."
+      "uz": "Xonadon lahzalari yo‘l ularga joy berganda va oilaning o‘z sur’atini hurmat qilganda yaxshiroq."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qo‘shish"
+    "title":
+      "en": "What to add around the household moment"
+      "ru": "Что добавить вокруг домашнего момента"
+      "uz": "Xonadon lahzasi atrofida nima qo‘shish"
+    "description":
+      "en": "Pair craft and food with the Nuratau foothill setting, or keep one village-stay or outdoor option if the route needs more time in Chuya."
+      "ru": "Соедините ремёсла и еду с предгорной средой Нуратау или оставьте один вариант ночёвки или отдыха, если маршруту нужно больше времени в Чуе."
+      "uz": "Hunar va ovqatni Nurota tog‘oldi muhiti bilan bog‘lang yoki yo‘lga Chuyada ko‘proq vaqt kerak bo‘lsa, bitta tunash yoki ochiq havo variantini qoldiring."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Chuya Nuratau Foothill Edge"
+          "ru": "Предгорный край Чуи в Нуратау"
+          "uz": "Chuyaning Nurota tog‘oldi cheti"
+        "description":
+          "en": "Chuya's foothill edge brings Nuratau air, springs, slopes, and a slower village feeling to the route near Nurata."
+          "ru": "Предгорная среда даёт Чуе первое впечатление: воздух Нуратау, родники, склоны и край села, где маршрут рядом с Нуратой замедляется."
+          "uz": "Chuyaning tog‘oldi cheti bekatga Nurota havosi, buloqlar, yonbag‘irlar va Nurota yaqinidagi sekin qishloq tuyg‘usini beradi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/chuya/chuya-nuratau-foothill-setting"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Chuya Village Stays and Outdoor Choices"
+          "ru": "Сельские ночёвки и отдых в Чуе"
+          "uz": "Chuyada qishloq tunashi va ochiq havo tanlovi"
+        "description":
+          "en": "Village stays, glamping, wooden-house ideas, horse riding, agro-tourism, and ropeway context can deepen Chuya when one choice fits the route."
+          "ru": "Сельские ночёвки, глэмпинг, деревянные домики, лошади, агротуризм и среда канатной дороги делают Чую глубже, когда в маршрут входит один подходящий вариант."
+          "uz": "Qishloq tunashi, glamping, yog‘och uylar, ot minish, agro-turizm va osma yo‘l muhiti bitta tanlov yo‘lga mos kelsa, Chuyani chuqurlashtiradi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum/chuya/chuya-guesthouse-and-glamping-setting"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Chuya Crafts, Food, and Household Table"
+      "ru": "Что агентства спрашивают про Ремёсла, еда и домашний стол Чуи"
+      "uz": "Agentliklar Chuya hunari, taomi va xonadon dasturxoni haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Chuya Crafts, Food, and Household Table get in the day plan?"
+          "ru": "Сколько времени закладывать на Ремёсла, еда и домашний стол Чуи в плане дня?"
+          "uz": "Chuya hunari, taomi va xonadon dasturxoni uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "a focused half-day with buffer is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Carpet weaving, qurut, bread, and small household moments”."
+          "ru": "Для большинства групп реалистичный диапазон — полдня с запасом. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Ковроткачество, курут, лепёшка и небольшие домашние моменты»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — zaxira bilan yarim kun. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Gilam to‘qish, qurut, non va kichik xonadon lahzalari»."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "When is Chuya Crafts, Food, and Household Table strongest during the day?"
+          "ru": "В какое время дня Ремёсла, еда и домашний стол Чуи раскрывается сильнее?"
+          "uz": "Chuya hunari, taomi va xonadon dasturxoni kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer early morning or late afternoon. That usually improves comfort, photos, and how the stop feels in the sequence around chuya."
+          "ru": "Лучше рано утром или ближе к вечеру. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с chuya."
+          "uz": "erta tong yoki kechga yaqin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (chuya atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "How should Chuya Crafts, Food, and Household Table sit next to nearby stops?"
+          "ru": "Как поставить Ремёсла, еда и домашний стол Чуи рядом с соседними остановками?"
+          "uz": "Chuya hunari, taomi va xonadon dasturxonini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Chuya Crafts, Food, and Household Table to your Uzbekistan programme"
+      "ru": "Добавьте «Ремёсла, еда и домашний стол Чуи» в программу (Узбекистан)"
+      "uz": "Chuya hunari, taomi va xonadon dasturxonini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Chuya Crafts, Food, and Household Table | TourLink"
+    "ru": "Ремёсла, еда и домашний стол Чуи | TourLink"
+    "uz": "Chuya hunari, taomi va xonadon dasturxoni | TourLink"
+  "metaDescription":
+    "en": "Chuya's craft and food side is strongest at household scale: hands at the carpet, bread on the table, qurut drying, and time that feels personal rather than performed."
+    "ru": "Ремесленная и гастрономическая сторона Чуи сильнее всего в домашнем масштабе: руки у ковра, лепёшка на столе, курут, который сушится, и время, которое ощущается личным, а не постановочным."
+    "uz": "Chuyaning hunar va ovqat tomoni xonadon miqyosida kuchliroq: gilam yonidagi qo‘llar, dasturxondagi non, quriyotgan qurut va tomosha emas, shaxsiy seziladigan vaqt."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "nurata-aydarkul-and-kyzylkum"
+"city": "chuya"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 40.4525285
+"longitude": 66.0476206

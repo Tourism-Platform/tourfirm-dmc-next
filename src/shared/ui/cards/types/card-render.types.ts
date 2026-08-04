@@ -16,8 +16,18 @@ export enum CardType {
 	ServicesBusiness = "servicesBusiness",
 	ServicesDirection = "servicesDirection",
 	ServicesProcess = "servicesProcess",
-	TripFormat = "tripFormat"
+	TripFormat = "tripFormat",
+	DashTitle = "dashTitle",
+	Quote = "quote",
+	Alert = "alert",
+	MiniTable = "miniTable"
 }
+
+export type TCardItemRow = {
+	icon?: LucideIcon | string;
+	title: string;
+	description: string;
+};
 
 export interface ICardItem {
 	href?: string;
@@ -37,6 +47,8 @@ export interface ICardItem {
 	step?: string;
 	icon?: LucideIcon | string;
 	className?: string;
+	quoteHtml?: string;
+	rows?: TCardItemRow[];
 }
 
 export type TCardRenderProps = {

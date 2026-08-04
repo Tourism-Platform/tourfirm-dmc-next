@@ -1,0 +1,565 @@
+# Generated from scrape/turkmenistan (multi-locale)
+"slug":
+  "en": "gokdepe"
+  "ru": "gokdepe"
+  "uz": "gokdepe"
+"title":
+  "en": "Gokdepe"
+  "ru": "Гёкдепе"
+  "uz": "Goʻkdepe"
+"subtitle":
+  "en": "Ahal town of mosque, memory, and foothill road"
+  "ru": "Городок Ахала с мечетью, памятью и дорогой предгорий"
+  "uz": "Ahaldagi masjid, xotira va togʻoldi yoʻli shaharchasi"
+"excerpt":
+  "en": "West of Ashgabat, Gokdepe changes the capital route from marble scale to a quieter town setting. The visit is not about adding many stops. It is about entering the mosque respectfully, reading the fortress site with care, and deciding whether the Ahal road fits the route conditions."
+  "ru": "К западу от Ашхабада Гёкдепе переводит столичный маршрут из мраморного масштаба в более тихую городскую среду. Здесь не нужно набирать много остановок. Важнее уважительно войти в мечеть, спокойно прочитать место крепости и понять, подходит ли дороге Ахала текущий темп маршрута."
+  "uz": "Ashxobod gʻarbida Goʻkdepe poytaxt marshrutini marmar miqyosdan sokinroq shahar muhitiga oʻtkazadi. Bu yerda koʻp bekat qoʻshish shart emas. Muhimi - masjidga hurmat bilan kirish, qalʼa joyini ehtiyotkor tushunish va Ahal yoʻli shu marshrut sharoitiga mos keladimi, shuni hal qilish."
+"heroImage": "assets/images/destinations/turkmenistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "imageAlt":
+      "en": "Gokdepe"
+      "ru": "Гёкдепе"
+      "uz": "Goʻkdepe"
+    "title":
+      "en": "Gokdepe"
+      "ru": "Гёкдепе"
+      "uz": "Goʻkdepe"
+    "description":
+      "en": "Ahal town of mosque, memory, and foothill road"
+      "ru": "Городок Ахала с мечетью, памятью и дорогой предгорий"
+      "uz": "Ahaldagi masjid, xotira va togʻoldi yoʻli shaharchasi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Gokdepe"
+      "ru": "Гёкдепе"
+      "uz": "Goʻkdepe"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "West of Ashgabat, Gokdepe changes the capital route from marble scale to a quieter town setting."
+              "ru": "К западу от Ашхабада Гёкдепе переводит столичный маршрут из мраморного масштаба в более тихую городскую среду."
+              "uz": "Ashxobod gʻarbida Goʻkdepe poytaxt marshrutini marmar miqyosdan sokinroq shahar muhitiga oʻtkazadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Gokdepe is strongest as a compact outing from Ashgabat: arrive with a clear purpose, give the mosque and fortress site enough quiet time, and keep road and heat decisions current."
+              "ru": "Гёкдепе яснее раскрывается как компактный выезд из Ашхабада: приехать с понятной задачей, дать мечети и месту крепости спокойное время и проверять дорогу и жару под конкретную дату."
+              "uz": "Goʻkdepe Ashxoboddan ixcham tashrif sifatida eng aniq ochiladi: aniq maqsad bilan kelish, masjid va qalʼa joyiga sokin vaqt berish, yoʻl va issiqni sana boʻyicha tekshirish."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "A calm sequence keeps the visit useful: start with the town, enter the mosque with respect, let the guide frame the fortress site, then decide whether the road should continue."
+              "ru": "Спокойный порядок делает визит полезным: начать с Гёкдепе, уважительно войти в мечеть, дать гиду объяснить место крепости, затем решить, стоит ли продолжать дорогу."
+              "uz": "Sokin tartib tashrifni foydali qiladi: Goʻkdepedan boshlang, masjidga hurmat bilan kiring, gid qalʼa joyini tushuntirsin, keyin yoʻl davom etadimi, shuni hal qiling."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Gokdepe as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Гёкдепе как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Goʻkdepe o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Keep the Gokdepe stop focused"
+      "ru": "Держите остановку в Гёкдепе собранной"
+      "uz": "Goʻkdepe toʻxtashini aniq tuting"
+    "description":
+      "en": "Gokdepe is strongest as a compact outing from Ashgabat: arrive with a clear purpose, give the mosque and fortress site enough quiet time, and keep road and heat decisions current."
+      "ru": "Гёкдепе яснее раскрывается как компактный выезд из Ашхабада: приехать с понятной задачей, дать мечети и месту крепости спокойное время и проверять дорогу и жару под конкретную дату."
+      "uz": "Goʻkdepe Ashxoboddan ixcham tashrif sifatida eng aniq ochiladi: aniq maqsad bilan kelish, masjid va qalʼa joyiga sokin vaqt berish, yoʻl va issiqni sana boʻyicha tekshirish."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Marshrut xaritasi"
+      "title":
+        "en": "Gokdepe, mosque, and fortress site"
+        "ru": "Гёкдепе, мечеть и место крепости"
+        "uz": "Goʻkdepe, masjid va qalʼa joyi"
+      "description":
+        "en": "The map marks the town, Saparmurat Hajji Mosque, and the Geok Tepe fortress site. It helps with orientation, while exact access, prayer times, heat, and road timing stay date-specific."
+        "ru": "Карта отмечает городок, мечеть Сапармурата Хаджи и место крепости Гёк-Тепе. Она помогает с ориентацией, а доступ, время молитв, жара и дорога остаются вопросами конкретной даты."
+        "uz": "Xarita shaharcha, Saparmurat Hoji masjidi va Goʻkdepe qalʼasi joyini belgilaydi. U yoʻnalishni tushunishga yordam beradi, kirish, namoz vaqtlari, issiq va yoʻl esa aniq sanaga bogʻliq."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 38.162097
+      "longitude": 57.965871
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "geok-tepe-fortress-site"
+      - "entityType": "attraction"
+        "entitySlug": "saparmurat-hajji-mosque"
+    "aside":
+      "eyebrow":
+        "en": "Route sequence"
+        "ru": "Последовательность"
+        "uz": "Ketma-ketlik"
+      "title":
+        "en": "Town first, then one Ahal decision"
+        "ru": "Сначала городок, затем одно решение по Ахалу"
+        "uz": "Avval shaharcha, keyin bitta Ahal qarori"
+      "description":
+        "en": "A calm sequence keeps the visit useful: start with the town, enter the mosque with respect, let the guide frame the fortress site, then decide whether the road should continue."
+        "ru": "Спокойный порядок делает визит полезным: начать с Гёкдепе, уважительно войти в мечеть, дать гиду объяснить место крепости, затем решить, стоит ли продолжать дорогу."
+        "uz": "Sokin tartib tashrifni foydali qiladi: Goʻkdepedan boshlang, masjidga hurmat bilan kiring, gid qalʼa joyini tushuntirsin, keyin yoʻl davom etadimi, shuni hal qiling."
+      "items":
+        - "title":
+            "en": "Start with the town setting"
+            "ru": "Начните с городского масштаба"
+            "uz": "Shaharcha muhitidan boshlang"
+          "description":
+            "en": "Gokdepe is close enough to Ashgabat for a short outing, but the stop feels better when it is not rushed between unrelated places."
+            "ru": "Гёкдепе достаточно близко к Ашхабаду для короткого выезда, но остановка воспринимается лучше, когда её не сжимают между несвязанными местами."
+            "uz": "Goʻkdepe Ashxoboddan qisqa tashrif uchun yetarlicha yaqin, lekin uni aloqasi yoʻq joylar orasiga tiqib qoʻymaganda yaxshiroq seziladi."
+        - "title":
+            "en": "Enter with mosque etiquette first"
+            "ru": "Сначала этикет мечети"
+            "uz": "Avval masjid odobi"
+          "description":
+            "en": "Dress, voice, photography, and timing should follow local advice. The visit should feel respectful before it becomes explanatory."
+            "ru": "Одежда, голос, фотографии и время посещения должны следовать местному совету. Визит сначала должен быть уважительным, а уже потом объяснительным."
+            "uz": "Kiyim, ovoz, suratga olish va vaqt mahalliy maslahatga mos boʻlishi kerak. Tashrif avval hurmatli, keyin izohli boʻlsin."
+        - "title":
+            "en": "Let the fortress site stay careful"
+            "ru": "Оставьте истории крепости аккуратный тон"
+            "uz": "Qalʼa hikoyasida ehtiyotkor ohang saqlang"
+          "description":
+            "en": "The Geok Tepe story is sensitive. It needs a guide who can keep the tone factual, human, and calm rather than dramatic."
+            "ru": "История Гёк-Тепе чувствительна. Здесь нужен гид, который удержит рассказ фактическим, человеческим и спокойным, без драматизации."
+            "uz": "Goʻkdepe hikoyasi sezgir. Uni faktlarga tayangan, insoniy va sokin tilda tushuntira oladigan gid kerak."
+        - "title":
+            "en": "Choose the Ahal continuation deliberately"
+            "ru": "Выбирайте продолжение по Ахалу осознанно"
+            "uz": "Ahal davomiga ongli qaror qiling"
+          "description":
+            "en": "Gokdepe can extend an Ashgabat outing, but only when heat, vehicle comfort, access, and the traveler's pace are aligned."
+            "ru": "Гёкдепе может продолжить выезд из Ашхабада, но только когда жара, комфорт машины, доступ и темп путешественника совпадают."
+            "uz": "Goʻkdepe Ashxoboddan chiqishni davom ettirishi mumkin, lekin issiq, mashina qulayligi, kirish va sayohatchi surʼati mos kelganda."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrish"
+    "title":
+      "en": "Mosque, fortress site, and Ahal memory"
+      "ru": "Мечеть, место крепости и память Ахала"
+      "uz": "Masjid, qalʼa joyi va Ahal xotirasi"
+    "description":
+      "en": "For travelers, Gokdepe rests on two anchors: Saparmurat Hajji Mosque and the Geok Tepe fortress site. Treat them as a careful pair, not as a long attraction list."
+      "ru": "Для путешественника Гёкдепе держится на двух опорах: мечети Сапармурата Хаджи и месте крепости Гёк-Тепе. Их стоит воспринимать как аккуратную пару, а не как длинный список достопримечательностей."
+      "uz": "Sayohatchi uchun Goʻkdepe ikki tayanchga suyanadi: Saparmurat Hoji masjidi va Goʻkdepe qalʼasi joyi. Ularni uzun roʻyxat emas, ehtiyotkor juftlik sifatida qabul qiling."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Geok Tepe Fortress site"
+          "ru": "Место крепости Гёк-Тепе"
+          "uz": "Goʻkdepe qalʼasi joyi"
+        "description":
+          "en": "In Gokdepe, the fortress site holds the town's most sensitive historical reading. The visit should stay quiet: understand the ground, listen to the guide, and keep the mosque and wider Ahal road in the same calm frame."
+          "ru": "В Гёкдепе место крепости удерживает самый чувствительный исторический смысл города. Визит должен оставаться тихим: понять землю, выслушать гида и держать мечеть с дорогой Ахала в одном спокойном контуре."
+          "uz": "Goʻkdepedagi qalʼa joyi shaharchaning eng sezgir tarixiy maʼnosini ushlab turadi. Tashrif sokin boʻlsin: yerning maʼnosini tushuning, gidni tinglang, masjid va Ahal yoʻlini bir xotirjam doirada saqlang."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/gokdepe/geok-tepe-fortress-site"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Saparmurat Hajji Mosque"
+          "ru": "Мечеть Сапармурата Хаджи"
+          "uz": "Saparmurat Hoji masjidi"
+        "description":
+          "en": "In Gokdepe, the mosque should set the tone of the stop. Dress, voice, timing, and photography come first; only then does the guide connect the building to the fortress-site memory and the Ahal road from Ashgabat."
+          "ru": "В Гёкдепе именно мечеть должна задавать тон остановке. Одежда, голос, время и фотографии идут первыми; только потом гид объясняет здание вместе с памятью места крепости и дорогой Ахала из Ашхабада."
+          "uz": "Goʻkdepedagi masjid toʻxtash ohangini belgilashi kerak. Kiyim, ovoz, vaqt va surat masalasi birinchi oʻrinda; shundan keyin gid binoni qalʼa joyi xotirasi va Ashxoboddan Ahal yoʻlini birga tushuntiradi."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/gokdepe/saparmurat-hajji-mosque"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Gokdepe moments"
+      "ru": "Моменты Гёкдепе"
+      "uz": "Goʻkdepe lahzalari"
+    "title":
+      "en": "Three ways to read the stop"
+      "ru": "Три смысловые опоры остановки"
+      "uz": "Toʻxtashning uch tayanchi"
+    "description":
+      "en": "The strongest Gokdepe visit is quiet: mosque etiquette, a guided fortress-site reading, and an Ahal road decision that respects heat, access, and pace."
+      "ru": "Сильный визит в Гёкдепе тихий по форме: этикет мечети, прогулка по месту крепости с гидом и решение по дороге Ахала без спешки."
+      "uz": "Kuchli Goʻkdepe tashrifi sokin boʻladi: masjid odobi, gid bilan qalʼa joyini tushunish va issiq, kirish hamda surʼatni hurmat qiladigan Ahal yoʻli qarori."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Enter the mosque at the right pace"
+          "ru": "Войдите в мечеть в правильном темпе"
+          "uz": "Masjidga toʻgʻri surʼatda kiring"
+        "description":
+          "en": "In Gokdepe, the visit starts with dress, voice, timing, and a guide who keeps the mosque stop respectful before the story widens."
+          "ru": "В Гёкдепе визит начинается с одежды, голоса, времени и гида, который удерживает остановку уважительной до расширения рассказа."
+          "uz": "Goʻkdepedagi tashrif kiyim, ovoz, vaqt va masjid toʻxtashini hurmatli tutadigan gid bilan boshlanadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Let the fortress site stay quiet"
+          "ru": "Оставьте месту крепости тишину"
+          "uz": "Qalʼa joyini sokin qoldiring"
+        "description":
+          "en": "The ground is subtle, so the guide's tone matters: factual, human, and calm enough for the place to be understood without spectacle."
+          "ru": "Место сдержанное, поэтому важен тон гида: фактический, человеческий и спокойный, без превращения истории в спектакль."
+          "uz": "Zamin soddaroq, shuning uchun gid ohangi muhim: faktlarga tayangan, insoniy va tomoshaga aylantirmaydigan sokin ohang."
+      - "type": "experience"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Decide whether to continue the Ahal road"
+          "ru": "Решите, продолжать ли дорогу Ахала"
+          "uz": "Ahal yoʻlini davom ettirish kerakmi, shuni hal qiling"
+        "description":
+          "en": "Gokdepe is close to Ashgabat, but heat, access, vehicle comfort, and the traveler's pace decide whether the Ahal outing should continue."
+          "ru": "Гёкдепе близко к Ашхабаду, но жара, доступ, комфорт машины и темп путешественника решают, стоит ли продолжать выезд по Ахалу."
+          "uz": "Goʻkdepe Ashxobodga yaqin, lekin issiq, kirish, mashina qulayligi va sayohatchi surʼati Ahal tashrifi davom etishini belgilaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Yoʻlga chiqishdan oldin"
+    "title":
+      "en": "Keep the tone calm and the route selective"
+      "ru": "Держите тон спокойным, а маршрут выборочным"
+      "uz": "Ohangni sokin, marshrutni tanlangan saqlang"
+    "description":
+      "en": "Gokdepe should not feel like a casual extra stop. It earns its place when the traveler knows why the town matters and when the route allows respectful behavior."
+      "ru": "Гёкдепе не должен ощущаться случайной добавкой. Он становится уместным, когда путешественник понимает, зачем место нужно, и когда маршрут позволяет вести себя уважительно."
+      "uz": "Goʻkdepe tasodifiy qoʻshimcha kabi sezilmasligi kerak. Joy nima uchun muhimligi tushunarli boʻlsa va marshrut hurmatli tashrifga imkon bersa, u oʻrnini topadi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Let etiquette set the first step"
+              "ru": "Пусть этикет задаст первый шаг"
+              "uz": "Birinchi qadamni odob belgilasin"
+            "description":
+              "en": "The mosque is an active religious setting. The visit starts with dress, voice, timing, and photography choices before it becomes a sightseeing stop."
+              "ru": "Мечеть остаётся действующим религиозным местом. Визит начинается с одежды, голоса, времени и отношения к фотографиям, а не с поспешного осмотра."
+              "uz": "Masjid amaldagi diniy joy. Tashrif shoshilinch tomoshadan emas, kiyim, ovoz, vaqt va suratga olishga munosabatdan boshlanadi."
+          - "type": "quote"
+            "quote":
+              "en": "Gokdepe is strongest when it stays quiet: mosque etiquette first, memory handled with care, and the road chosen only when conditions support it."
+              "ru": "Гёкдепе сильнее всего в тишине: сначала этикет мечети, затем память места крепости и только потом дорога, если условия это позволяют."
+              "uz": "Goʻkdepe tinch qolganda kuchliroq: avval masjid odobi, keyin qalʼa joyi xotirasi, soʻnggina sharoit imkon bersa yoʻl."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the fortress story human"
+              "ru": "Говорите о крепости человечески"
+              "uz": "Qalʼa xotirasini insoniy ayting"
+            "description":
+              "en": "The Geok Tepe fortress site carries difficult memory. The guide's role is to keep the history clear and grounded, without turning it into spectacle."
+              "ru": "Место Гёк-Тепе связано с трудной памятью. Задача гида - дать ясный и сдержанный рассказ, не превращая историю в спектакль."
+              "uz": "Goʻkdepe joyi ogʻir xotira bilan bogʻliq. Gid vazifasi tarixni sahnalashtirmasdan, aniq va sokin tushuntirishdir."
+          - "type": "dashTitle"
+            "title":
+              "en": "Make the road earn its place"
+              "ru": "Дорога должна быть оправдана"
+              "uz": "Yoʻl oʻz oʻrnini oqlasin"
+            "description":
+              "en": "Gokdepe belongs in an Ashgabat outing when access, heat, and timing are clear. If heat, documents, or access feel tight, the stop should wait for a better plan."
+              "ru": "Гёкдепе подходит к выезду из Ашхабада, когда понятны доступ, жара и время. Если жара, документы или доступ сжимают программу, остановку лучше перенести в более спокойный план."
+              "uz": "Goʻkdepe Ashxoboddan chiqishga mos keladi, agar kirish, issiq va vaqt aniq boʻlsa. Issiq, hujjatlar yoki kirish rejani siqsa, toʻxtashni tinchroq sanaga qoldirish yaxshiroq."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Вывод для путешественника"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Treat Gokdepe as a focused Ahal stop: one mosque, one fortress-site reading, and current local advice before the road continues."
+              "ru": "Воспринимайте Гёкдепе как собранную остановку Ахала: одна мечеть, одно место крепости и актуальный местный совет перед продолжением дороги."
+              "uz": "Goʻkdepeni aniq Ahal toʻxtashi sifatida oling: bitta masjid, bitta qalʼa joyi va yoʻl davomidan oldin joriy mahalliy maslahat."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Yoʻlga chiqishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "Useful as a focused extension from the capital region, not as a separate overnight destination for most routes."
+                  "ru": "Подходит как осмысленное продолжение из столицы, а не как отдельная ночёвка в большинстве маршрутов."
+                  "uz": "Koʻp marshrutlarda alohida tunash joyi emas, poytaxtdan maʼnoli davom sifatida foydali."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main anchors"
+                  "ru": "Главные опоры"
+                  "uz": "Asosiy tayanchlar"
+                "description":
+                  "en": "Saparmurat Hajji Mosque and the Geok Tepe fortress site carry the traveler visit."
+                  "ru": "Мечеть Сапармурата Хаджи и место крепости Гёк-Тепе формируют публичный визит."
+                  "uz": "Saparmurat Hoji masjidi va Goʻkdepe qalʼasi joyi sayohatchi tashrifini shakllantiradi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Time needed"
+                  "ru": "Время"
+                  "uz": "Kerakli vaqt"
+                "description":
+                  "en": "The stop should leave room for etiquette, guide context, and the drive from Ashgabat."
+                  "ru": "Нужен запас на этикет, рассказ гида и дорогу из Ашхабада."
+                  "uz": "Odob, gid izohi va Ashxoboddan yoʻl uchun vaqt qoldiring."
+              - "icon": "Route"
+                "title":
+                  "en": "Heat and pace"
+                  "ru": "Жара и темп"
+                  "uz": "Issiq va surʼat"
+                "description":
+                  "en": "Open ground and road time make early or late planning more comfortable in warm months."
+                  "ru": "Открытое пространство и дорога делают раннее или позднее время комфортнее в тёплые месяцы."
+                  "uz": "Ochiq joy va yoʻl vaqti issiq oylarda erta yoki kechroq rejani qulay qiladi."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before departure"
+                  "ru": "Перед выездом"
+                  "uz": "Joʻnashdan oldin"
+                "description":
+                  "en": "Check mosque etiquette, prayer-time access, road conditions, vehicle comfort, and current local advice."
+                  "ru": "Нужны актуальные данные по этикету мечети, времени молитв, дороге, машине и местному совету."
+                  "uz": "Masjid odobi, namoz vaqtlari, yoʻl holati, mashina qulayligi va mahalliy maslahatni aniqlang."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Where to continue"
+      "ru": "Куда продолжить"
+      "uz": "Qayerga davom etish"
+    "title":
+      "en": "Ashgabat, Nisa, and the wider Turkmenistan route"
+      "ru": "Ашхабад, Ниса и широкий маршрут по Туркменистану"
+      "uz": "Ashxobod, Nisa va kengroq Turkmaniston yoʻli"
+    "description":
+      "en": "Ashgabat is the practical return point, Nisa gives the region its archaeological pairing, and Mary belongs to longer routes that continue beyond the capital region."
+      "ru": "Ашхабад остаётся практической точкой возвращения, Ниса даёт региону археологическую пару, а Мары появляется в маршрутах, которые идут дальше столичного региона."
+      "uz": "Ashxobod amaliy qaytish nuqtasi, Nisa regionga arxeologik juftlik beradi, Mari esa poytaxt regionidan uzoqroq davom etadigan marshrutlarga kiradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ashgabat"
+          "ru": "Ашхабад"
+          "uz": "Ashgabat"
+        "description":
+          "en": "Ashgabat opens Turkmenistan through white-marble avenues, monument parks, museum rooms, carpet craft, and a deliberate road choice toward Nisa."
+          "ru": "Ашхабад открывает Туркменистан беломраморными проспектами, монументальными парками, музейными залами, ковровым ремеслом и осознанным выбором дороги к Нисе."
+          "uz": "Ashgabat Turkmaniston yoʻlini oq marmar xiyobonlar, monument parklar, muzey zallari, gilam hunari va Nisa tomon ongli yoʻl tanlovi bilan ochadi."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Nisa"
+          "ru": "Ниса"
+          "uz": "Nisa"
+        "description":
+          "en": "Near Ashgabat, Nisa turns the first Turkmenistan route toward Old and New Nisa, low earthen walls, open foothill light, and Parthian history."
+          "ru": "Рядом с Ашхабадом Ниса переводит первую поездку по Туркменистану к Старой и Новой Нисе: низким земляным стенам, открытому свету предгорий и парфянской истории."
+          "uz": "Ashgabat yaqinida Nisa ilk Turkmaniston yoʻlini Eski va Yangi Nisaga, past tuproq devorlarga, ochiq togʻoldi nuriga va Parfiya tarixiga buradi."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/nisa"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Mary"
+          "ru": "Мары"
+          "uz": "Mari"
+        "description":
+          "en": "Mary is the city-side start for Ancient Merv, with arrival services, museum rooms, an overnight pause, and the road into the Murghab oasis."
+          "ru": "Мары — городское начало маршрута к древнему Мерву: прибытие, музейное введение, ночёвка и дорога в оазис Мургаба."
+          "uz": "Mari Qadimiy Marv yo‘nalishining shahar boshlanishi: kelish, muzey zallari, tunash va Murg‘ob vohasiga yo‘l."
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv/mary"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Gokdepe in the day plan"
+      "ru": "Как поставить Гёкдепе в план дня"
+      "uz": "Goʻkdepeni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Gokdepe?"
+          "ru": "Сколько времени группам стоит проводить в Гёкдепе?"
+          "uz": "Goʻkdepeda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Ahal town of mosque, memory, and foothill road”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Городок Ахала с мечетью, памятью и дорогой предгорий»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Ahaldagi masjid, xotira va togʻoldi yoʻli shaharchasi»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Gokdepe be a walkable core or a base for day trips?"
+          "ru": "Гёкдепе — это пешеходное ядро или база для выездов?"
+          "uz": "Goʻkdepe piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Gokdepe's centre?"
+          "ru": "Где лучше ночевать относительно центра Гёкдепе?"
+          "uz": "Goʻkdepe markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Gokdepe stop into your Turkmenistan programme"
+      "ru": "Встройте остановку «Гёкдепе» в программу (Туркменистан)"
+      "uz": "Goʻkdepe bekatini Turkmaniston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Gokdepe | TourLink"
+    "ru": "Гёкдепе | TourLink"
+    "uz": "Goʻkdepe | TourLink"
+  "metaDescription":
+    "en": "West of Ashgabat, Gokdepe changes the capital route from marble scale to a quieter town setting. The visit is not about adding many stops. It is about entering the mosque respectfully, reading the fortress site with care, and deciding whether the Ahal road fits the route conditions."
+    "ru": "К западу от Ашхабада Гёкдепе переводит столичный маршрут из мраморного масштаба в более тихую городскую среду. Здесь не нужно набирать много остановок. Важнее уважительно войти в мечеть, спокойно прочитать место крепости и понять, подходит ли дороге Ахала текущий темп маршрута."
+    "uz": "Ashxobod gʻarbida Goʻkdepe poytaxt marshrutini marmar miqyosdan sokinroq shahar muhitiga oʻtkazadi. Bu yerda koʻp bekat qoʻshish shart emas. Muhimi - masjidga hurmat bilan kirish, qalʼa joyini ehtiyotkor tushunish va Ahal yoʻli shu marshrut sharoitiga mos keladimi, shuni hal qilish."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "turkmenistan"
+"region": "ashgabat-and-nisa"
+"latitude": 38.1553965
+"longitude": 57.9619789

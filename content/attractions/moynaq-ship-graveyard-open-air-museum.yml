@@ -1,0 +1,301 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "moynaq-ship-graveyard-open-air-museum"
+  "ru": "moynaq-ship-graveyard-open-air-museum"
+  "uz": "moynaq-ship-graveyard-open-air-museum"
+"title":
+  "en": "Moynaq Ship Graveyard"
+  "ru": "Кладбище кораблей в Муйнаке"
+  "uz": "Mo‘ynoq kemalar qabristoni"
+"subtitle":
+  "en": "Former port, rusted ships, and the road from Nukus"
+  "ru": "Бывший порт, ржавые суда и дорога из Нукуса"
+  "uz": "Sobiq port, zanglagan kemalar va Nukusdan yo‘l"
+"excerpt":
+  "en": "North of Nukus, Moynaq brings the Aral Sea story down to ground level: rusted fishing vessels, the former port, the town museum, and the long road back all shape the same visit."
+  "ru": "К северу от Нукуса история Арала становится конкретной: ржавые рыбацкие суда, бывший порт, городской музей и обратная дорога относятся к одному визиту, а не к отдельной фотоостановке."
+  "uz": "Nukusdan shimolda Mo‘ynoq Orol hikoyasini aniqroq qiladi: zanglagan baliqchi kemalari, sobiq port, shahar muzeyi va qaytish yo‘li bitta tashrifning qismlariga aylanadi."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Moynaq Ship Graveyard"
+      "ru": "Кладбище кораблей в Муйнаке"
+      "uz": "Mo‘ynoq kemalar qabristoni"
+    "title":
+      "en": "Moynaq Ship Graveyard"
+      "ru": "Кладбище кораблей в Муйнаке"
+      "uz": "Mo‘ynoq kemalar qabristoni"
+    "description":
+      "en": "Former port, rusted ships, and the road from Nukus"
+      "ru": "Бывший порт, ржавые суда и дорога из Нукуса"
+      "uz": "Sobiq port, zanglagan kemalar va Nukusdan yo‘l"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Moynaq Ship Graveyard"
+      "ru": "Кладбище кораблей в Муйнаке"
+      "uz": "Mo‘ynoq kemalar qabristoni"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "North of Nukus, Moynaq brings the Aral Sea story down to ground level: rusted fishing vessels, the former port, the town museum, and the long road back all shape the same visit."
+              "ru": "К северу от Нукуса история Арала становится конкретной: ржавые рыбацкие суда, бывший порт, городской музей и обратная дорога относятся к одному визиту, а не к отдельной фотоостановке."
+              "uz": "Nukusdan shimolda Mo‘ynoq Orol hikoyasini aniqroq qiladi: zanglagan baliqchi kemalari, sobiq port, shahar muzeyi va qaytish yo‘li bitta tashrifning qismlariga aylanadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "The ship graveyard matters because it makes Moynaq more than a point on the map: vessels, dry ground, port memory, and the nearby museum show how the Aral Sea route belongs to a town that once worked on water."
+              "ru": "Кладбище кораблей важно потому, что Муйнак перестаёт быть просто точкой на карте."
+              "uz": "Kemalar qabristoni Mo‘ynoqni xaritadagi oddiy nuqtadan katta qiladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Former port, rusted ships, and the road from Nukus."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Бывший порт, ржавые суда и дорога из Нукуса."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Sobiq port, zanglagan kemalar va Nukusdan yo‘l."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Moynaq Ship Graveyard as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Кладбище кораблей в Муйнаке как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Mo‘ynoq kemalar qabristoni o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Moynaq Ship Graveyard sits on the route"
+      "ru": "Где Кладбище кораблей в Муйнаке стоит на маршруте"
+      "uz": "Mo‘ynoq kemalar qabristoni marshrutda qayerda"
+    "description":
+      "en": "One clear point for Moynaq Ship Graveyard — Former port, rusted ships, and the road from Nukus."
+      "ru": "Одна понятная точка для «Кладбище кораблей в Муйнаке» — Бывший порт, ржавые суда и дорога из Нукуса."
+      "uz": "Mo‘ynoq kemalar qabristoni uchun bitta aniq nuqta — Sobiq port, zanglagan kemalar va Nukusdan yo‘l."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Moynaq Ship Graveyard"
+        "ru": "Кладбище кораблей в Муйнаке"
+        "uz": "Mo‘ynoq kemalar qabristoni"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.7778852
+      "longitude": 64.4110872
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "moynaq-ship-graveyard-open-air-museum"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nima uchun bu joy"
+    "title":
+      "en": "A former port at the center of the Aral Sea story"
+      "ru": "Бывший порт в центре истории Арала"
+      "uz": "Orol hikoyasining markazidagi sobiq port"
+    "description":
+      "en": "The ship graveyard matters because it makes Moynaq more than a point on the map: vessels, dry ground, port memory, and the nearby museum show how the Aral Sea route belongs to a town that once worked on water."
+      "ru": "Кладбище кораблей важно потому, что Муйнак перестаёт быть просто точкой на карте. Суда, высохшая земля, память порта и соседний музей показывают, как маршрут к Аралу связан с городом, который когда-то работал на воде."
+      "uz": "Kemalar qabristoni Mo‘ynoqni xaritadagi oddiy nuqtadan katta qiladi. Kemalar, quruq yer, port xotirasi va yaqin muzey Orol yo‘nalishi bir vaqtlar suvda mehnat qilgan shahar bilan qanday bog‘langanini ko‘rsatadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Ships, dry ground, and former port memory"
+      "ru": "Суда, бывший порт и память города"
+      "uz": "Kemalar, quruq yer va sobiq port xotirasi"
+    "description":
+      "en": "Moynaq is visually spare: ship hulls, former port ground, open sky, town memory, and the sense of distance from Nukus."
+      "ru": "Визуально Муйнак сдержан: корпуса судов, земля бывшего порта, открытое небо, память города и ощущение расстояния от Нукуса."
+      "uz": "Mo‘ynoqning ko‘rinishi sokin: kema korpuslari, sobiq port yeri, ochiq osmon, shahar xotirasi va Nukusdan masofa hissi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как проходит визит"
+      "uz": "Tashrif qanday kechadi"
+    "title":
+      "en": "See the ships, then add the town"
+      "ru": "Сначала корабли, затем город"
+      "uz": "Avval kemalar, keyin shahar"
+    "description":
+      "en": "Plan the ship graveyard with the local museum, weather at the open site, and the return to Nukus. The former port is easier to understand when it is not treated as only a quick photograph."
+      "ru": "Кладбище кораблей лучше планировать вместе с местным музеем, погодой на открытой площадке и возвращением в Нукус. Бывший порт понятнее, когда его не превращают только в быструю фотографию."
+      "uz": "Kemalar qabristonini mahalliy muzey, ochiq hududdagi ob-havo va Nukusga qaytish bilan birga rejalash yaxshiroq. Sobiq port faqat tez suratga aylantirilmasa, aniqroq tushuniladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nimalar bor"
+    "title":
+      "en": "Add Savitsky Museum in Nukus"
+      "ru": "Добавить музей Савицкого в Нукусе"
+      "uz": "Nukusda Savitskiy muzeyini qo‘shish"
+    "description":
+      "en": "Savitsky Museum brings art, Karakalpak objects, archaeology, and a strong city pause before or after the road to Moynaq."
+      "ru": "Музей Савицкого добавляет искусство, каракалпакские предметы, археологию и сильную городскую паузу до или после дороги в Муйнак."
+      "uz": "Savitskiy muzeyi Mo‘ynoqqa yo‘ldan oldin yoki keyin sanʼat, qoraqalpoq buyumlari, arxeologiya va kuchli shahar pauzasini qo‘shadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Savitsky Museum"
+          "ru": "Музей Савицкого"
+          "uz": "Savitskiy muzeyi"
+        "description":
+          "en": "The Savitsky State Museum is the main cultural reason to pause in Nukus: Russian avant-garde painting, Karakalpak applied art, archaeology, and Igor Savitsky's collecting story before the route continues toward Moynaq or Ellikqala."
+          "ru": "Музей Савицкого — главный культурный повод задержаться в Нукусе: русский авангард, каракалпакское прикладное искусство, археология и история Игоря Савицкого перед дорогой к Муйнаку или Элликкале."
+          "uz": "Savitskiy muzeyi Nukusda to‘xtash uchun asosiy madaniy sababdir: rus avangard rangtasviri, qoraqalpoq amaliy sanʼati, arxeologiya va Igor Savitskiy hikoyasi Mo‘ynoq yoki Ellikqal’a yo‘lidan oldin."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus/savitsky-state-museum-of-arts"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Moynaq Ship Graveyard"
+      "ru": "Что агентства спрашивают про Кладбище кораблей в Муйнаке"
+      "uz": "Agentliklar Mo‘ynoq kemalar qabristoni haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Moynaq Ship Graveyard get in the day plan?"
+          "ru": "Сколько времени закладывать на Кладбище кораблей в Муйнаке в плане дня?"
+          "uz": "Mo‘ynoq kemalar qabristoni uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "45–90 minutes is a practical range for most groups. Plan ticket timing and indoor pacing. Place tone: “Former port, rusted ships, and the road from Nukus”."
+          "ru": "Для большинства групп реалистичный диапазон — 45–90 минут. Заложите время на билеты и спокойный темп внутри. Характер места: «Бывший порт, ржавые суда и дорога из Нукуса»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 45–90 daqiqa. Chipta va ichki sokin sur’at uchun vaqt qo‘ying. Joy ohangi: «Sobiq port, zanglagan kemalar va Nukusdan yo‘l»."
+      - "type": "destinationInsight"
+        "icon": "Sunrise"
+        "title":
+          "en": "When is Moynaq Ship Graveyard strongest during the day?"
+          "ru": "В какое время дня Кладбище кораблей в Муйнаке раскрывается сильнее?"
+          "uz": "Mo‘ynoq kemalar qabristoni kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer before the midday heat. That usually improves comfort, photos, and how the stop feels in the sequence around moynaq."
+          "ru": "Лучше до полуденной жары. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с moynaq."
+          "uz": "tushlik issiqligidan oldin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (moynaq atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How should Moynaq Ship Graveyard sit next to nearby stops?"
+          "ru": "Как поставить Кладбище кораблей в Муйнаке рядом с соседними остановками?"
+          "uz": "Mo‘ynoq kemalar qabristonini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Moynaq Ship Graveyard to your Uzbekistan programme"
+      "ru": "Добавьте «Кладбище кораблей в Муйнаке» в программу (Узбекистан)"
+      "uz": "Mo‘ynoq kemalar qabristonini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Moynaq Ship Graveyard | TourLink"
+    "ru": "Кладбище кораблей в Муйнаке | TourLink"
+    "uz": "Mo‘ynoq kemalar qabristoni | TourLink"
+  "metaDescription":
+    "en": "North of Nukus, Moynaq brings the Aral Sea story down to ground level: rusted fishing vessels, the former port, the town museum, and the long road back all shape the same visit."
+    "ru": "К северу от Нукуса история Арала становится конкретной: ржавые рыбацкие суда, бывший порт, городской музей и обратная дорога относятся к одному визиту, а не к отдельной фотоостановке."
+    "uz": "Nukusdan shimolda Mo‘ynoq Orol hikoyasini aniqroq qiladi: zanglagan baliqchi kemalari, sobiq port, shahar muzeyi va qaytish yo‘li bitta tashrifning qismlariga aylanadi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "karakalpakstan-and-aral-sea"
+"city": "moynaq"
+"type": "MUSEUM"
+"importance": "RECOMMENDED"
+"latitude": 39.7778852
+"longitude": 64.4110872

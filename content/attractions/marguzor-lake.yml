@@ -1,0 +1,316 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "marguzor-lake"
+  "ru": "marguzor-lake"
+  "uz": "marguzor-lake"
+"title":
+  "en": "Marguzor Lake"
+  "ru": "Озеро Маргузор"
+  "uz": "Marguzor ko‘li"
+"subtitle":
+  "en": "The broad lake pause of Haftkul"
+  "ru": "Широкая озёрная пауза Хафткуль"
+  "uz": "Haftkoʻlning keng koʻl pauzasi"
+"excerpt":
+  "en": "Marguzor gives the Seven Lakes route its main sense of scale. After the lower water, village road, and first colour changes, this wider lake is where the Haftkul visit can pause before any decision to continue toward Hazorchashma."
+  "ru": "Маргузор даёт маршруту Семи озёр главное ощущение масштаба. После нижней воды, дороги через кишлаки и первых смен цвета это более широкое озеро становится местом паузы перед решением, продолжать ли путь к Хазорчашме."
+  "uz": "Marguzor Yetti Koʻl yoʻliga asosiy kenglik hissini beradi. Pastki suv, qishloq yoʻli va birinchi rang almashinuvidan keyin bu kengroq koʻl Hazorchashma tomon davom etish qaroridan oldingi tabiiy pauzaga aylanadi."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "Marguzor Lake"
+      "ru": "Озеро Маргузор"
+      "uz": "Marguzor ko‘li"
+    "title":
+      "en": "Marguzor Lake"
+      "ru": "Озеро Маргузор"
+      "uz": "Marguzor ko‘li"
+    "description":
+      "en": "The broad lake pause of Haftkul"
+      "ru": "Широкая озёрная пауза Хафткуль"
+      "uz": "Haftkoʻlning keng koʻl pauzasi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Marguzor Lake"
+      "ru": "Озеро Маргузор"
+      "uz": "Marguzor ko‘li"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Marguzor gives the Seven Lakes route its main sense of scale."
+              "ru": "Маргузор даёт маршруту Семи озёр главное ощущение масштаба."
+              "uz": "Marguzor Yetti Koʻl yoʻliga asosiy kenglik hissini beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Marguzor matters because it is the route's broadest lake anchor."
+              "ru": "Маргузор важен, потому что это самый широкий озёрный якорь маршрута."
+              "uz": "Marguzor muhim, chunki u yoʻnalishning eng keng koʻl tayanchidir."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — The broad lake pause of Haftkul."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Широкая озёрная пауза Хафткуль."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Haftkoʻlning keng koʻl pauzasi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Marguzor Lake as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Озеро Маргузор как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Marguzor ko‘li o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Marguzor Lake sits on the route"
+      "ru": "Где Озеро Маргузор стоит на маршруте"
+      "uz": "Marguzor ko‘li marshrutda qayerda"
+    "description":
+      "en": "One clear point for Marguzor Lake — The broad lake pause of Haftkul."
+      "ru": "Одна понятная точка для «Озеро Маргузор» — Широкая озёрная пауза Хафткуль."
+      "uz": "Marguzor ko‘li uchun bitta aniq nuqta — Haftkoʻlning keng koʻl pauzasi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Marguzor Lake"
+        "ru": "Озеро Маргузор"
+        "uz": "Marguzor ko‘li"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.1437224
+      "longitude": 67.8567648
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "marguzor-lake"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "The lake that gives Haftkul its scale"
+      "ru": "Озеро, которое даёт Хафткулю масштаб"
+      "uz": "Haftkoʻlga kenglik beradigan koʻl"
+    "description":
+      "en": "Marguzor matters because it is the route's broadest lake anchor. The lower lakes introduce the sequence; Marguzor gives travelers the fuller water view that makes Seven Lakes feel like a mountain-lake visit, not only a road with stops.
+
+
+        «Marguzor is the lake that lets the Seven Lakes route stop counting and start settling.»"
+      "ru": "Маргузор важен, потому что это самый широкий озёрный якорь маршрута. Нижние озёра вводят в последовательность; Маргузор даёт путешественникам большой водный вид, благодаря которому Семь озёр ощущаются горно-озёрным маршрутом, а не только дорогой с остановками.
+
+
+        «Маргузор - озеро, где маршрут Семи озёр перестаёт считать остановки и начинает оседать в памяти.»"
+      "uz": "Marguzor muhim, chunki u yoʻnalishning eng keng koʻl tayanchidir. Pastki koʻllar ketma-ketlikni boshlab beradi; Marguzor esa sayohatchiga katta suv manzarasini beradi va Yetti Koʻlni shunchaki toʻxtashlar yoʻli emas, togʻ-koʻl tashrifi sifatida his qildiradi.
+
+
+        «Marguzor - Yetti Koʻl yoʻli sanashdan toʻxtab, xotirada joylashishni boshlaydigan ko‘l.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "Broad water, village setting, and the road above"
+      "ru": "Широкая вода, сёла и дорога выше"
+      "uz": "Keng suv, qishloq muhiti va yuqori yoʻl"
+    "description":
+      "en": "The stop is best understood through three views: the wide lake surface, the village-road setting, and the continuation toward the upper lakes. 1. **Broad lake view** **alt:** Marguzor Lake widening the Seven Lakes route in Tajikistan. **caption:** Marguzor gives Haftkul its broadest lake pause. **media_label:** Marguzor wide lake view 2. **Village-road setting** **alt:** The Seven Lakes road and village setting near Marguzor Lake. **caption:** The lived valley shapes the pace and care of the stop. **media_label:** Marguzor road and village setting 3. **Road toward the upper lakes** **alt:** The road continuing from Marguzor toward the upper Haftkul lakes. **caption:** Marguzor is the natural place to review whether the route should continue higher. **media_label:** Road above Marguzor"
+      "ru": "Остановку лучше читать через три простых вида: широкую поверхность озера, сельскую дорогу вокруг него и продолжение к верхним озёрам. 1. **Широкий вид озера** **alt:** Озеро Маргузор расширяет маршрут Семи озёр в Таджикистане. **caption:** Маргузор даёт Хафткулю самую широкую озёрную паузу. **media_label:** Широкий вид озера Маргузор 2. **Сёла и дорога** **alt:** Дорога Семи озёр и сельская жизнь рядом с озером Маргузор. **caption:** Живая долина задаёт темп и бережность этой остановки. **media_label:** Дорога и кишлак у Маргузора 3. **Решение о подъёме** **alt:** Дорога от Маргузора к верхним озёрам Хафткуль. **caption:** Маргузор - естественное место, чтобы проверить, стоит ли продолжать выше. **media_label:** Дорога выше Маргузора"
+      "uz": "Bu toʻxtash uch oddiy ko‘rinish orqali yaxshi tushuniladi: keng ko‘l yuzasi, qishloq-yo‘l muhiti va yuqori ko‘llar tomon davom. 1. **Keng koʻl manzarasi** **alt:** Tojikistondagi Yetti Koʻl yoʻlini kengaytiradigan Marguzor ko‘li. **caption:** Marguzor Haftkoʻlga eng keng koʻl pauzasini beradi. **media_label:** Marguzor keng koʻl manzarasi 2. **Qishloq va yoʻl muhiti** **alt:** Marguzor ko‘li yaqinidagi Yetti Koʻl yoʻli va qishloq muhiti. **caption:** Tirik vodiy toʻxtash surʼati va ehtiyotkorligini belgilaydi. **media_label:** Marguzor yoʻli va qishloq muhiti 3. **Yuqori yoʻl qarori** **alt:** Marguzordan Haftkoʻlning yuqori koʻllari tomon davom etadigan yoʻl. **caption:** Marguzor yuqoriga davom etish kerakmi degan savolni tekshirish uchun tabiiy joy. **media_label:** Marguzordan keyingi yoʻl"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qoʻshish"
+    "title":
+      "en": "Mijgon below, Hazorchashma above"
+      "ru": "Мижгон ниже, Хазорчашма выше"
+      "uz": "Pastda Mijgon, yuqorida Hazorchashma"
+    "description":
+      "en": "Mijgon gives the first lower-lake colour before Marguzor. Hazorchashma belongs to the route only when the upper road, weather, vehicle, and daylight support the continuation."
+      "ru": "Мижгон даёт первую смену цвета перед Маргузором. Хазорчашма становится верхним продолжением, когда дорога, погода и световой день это поддерживают."
+      "uz": "Mijgon Marguzordan oldin birinchi rang almashinuvini beradi. Hazorchashma yuqori yoʻl, ob-havo va kunduzgi vaqt mos boʻlsa yuqori davomga aylanadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Mijgon Lake"
+          "ru": "Озеро Мижгон"
+          "uz": "Mijgon ko‘li"
+        "description":
+          "en": "Mijgon Lake is the first clear colour pause on the Seven Lakes road above Penjikent, where the Shing Valley route shifts from village road to water."
+          "ru": "Озеро Мижгон - первая ясная цветовая пауза на дороге Семи озёр над Пенджикентом: здесь путь через долину Шинг переходит от сельской дороги к воде."
+          "uz": "Mijgon ko‘li Panjikent ustidagi Yetti Koʻl yoʻlida birinchi rang pauzasini beradi: Shing vodiysidagi qishloq yoʻli shu yerda suv manzarasiga oʻtadi."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/seven-lakes/mijgon-lake"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Hazorchashma Lake"
+          "ru": "Озеро Хазорчашма"
+          "uz": "Hazorchashma ko‘li"
+        "description":
+          "en": "Hazorchashma Lake is the conditions-based upper stop on the Seven Lakes road, reached beyond Marguzor only when road, weather, vehicle, daylight, comfort, and return margin support it."
+          "ru": "Озеро Хазорчашма - верхнее продолжение маршрута Семь озёр, к которому стоит ехать после Маргузора только когда дорога, погода, машина, световой день, комфорт путешественников и запас на обратный путь позволяют спокойный визит."
+          "uz": "Hazorchashma ko‘li Yetti Koʻl yoʻlidagi sharoitga bogʻliq yuqori bekatdir: Marguzordan keyin unga faqat yoʻl, ob-havo, mashina, kunduzgi vaqt, sayohatchilar qulayligi va qaytish zaxirasi imkon bersa boriladi."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/seven-lakes/hazorchashma-lake"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Marguzor Lake"
+      "ru": "Что агентства спрашивают про Озеро Маргузор"
+      "uz": "Agentliklar Marguzor ko‘li haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Marguzor Lake get in the day plan?"
+          "ru": "Сколько времени закладывать на Озеро Маргузор в плане дня?"
+          "uz": "Marguzor ko‘li uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "a focused half-day with buffer is a practical range for most groups. Keep the stop readable: one clear arrival, one clear exit. Place tone: “The broad lake pause of Haftkul”."
+          "ru": "Для большинства групп реалистичный диапазон — полдня с запасом. Держите остановку читаемой: понятный вход и понятный выход. Характер места: «Широкая озёрная пауза Хафткуль»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — zaxira bilan yarim kun. Bekatni o‘qiladigan tuting: aniq kirish va aniq chiqish. Joy ohangi: «Haftkoʻlning keng koʻl pauzasi»."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "When is Marguzor Lake strongest during the day?"
+          "ru": "В какое время дня Озеро Маргузор раскрывается сильнее?"
+          "uz": "Marguzor ko‘li kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer early morning or late afternoon. That usually improves comfort, photos, and how the stop feels in the sequence around seven-lakes."
+          "ru": "Лучше рано утром или ближе к вечеру. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с seven-lakes."
+          "uz": "erta tong yoki kechga yaqin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (seven-lakes atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "How should Marguzor Lake sit next to nearby stops?"
+          "ru": "Как поставить Озеро Маргузор рядом с соседними остановками?"
+          "uz": "Marguzor ko‘lini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Marguzor Lake to your Tajikistan programme"
+      "ru": "Добавьте «Озеро Маргузор» в программу (Таджикистан)"
+      "uz": "Marguzor ko‘lini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Marguzor Lake | TourLink"
+    "ru": "Озеро Маргузор | TourLink"
+    "uz": "Marguzor ko‘li | TourLink"
+  "metaDescription":
+    "en": "Marguzor gives the Seven Lakes route its main sense of scale. After the lower water, village road, and first colour changes, this wider lake is where the Haftkul visit can pause before any decision to continue toward Hazorchashma."
+    "ru": "Маргузор даёт маршруту Семи озёр главное ощущение масштаба. После нижней воды, дороги через кишлаки и первых смен цвета это более широкое озеро становится местом паузы перед решением, продолжать ли путь к Хазорчашме."
+    "uz": "Marguzor Yetti Koʻl yoʻliga asosiy kenglik hissini beradi. Pastki suv, qishloq yoʻli va birinchi rang almashinuvidan keyin bu kengroq koʻl Hazorchashma tomon davom etish qaroridan oldingi tabiiy pauzaga aylanadi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "fann-mountains-and-zeravshan"
+"city": "seven-lakes"
+"type": "LAKE"
+"importance": "RECOMMENDED"
+"latitude": 39.1437224
+"longitude": 67.8567648

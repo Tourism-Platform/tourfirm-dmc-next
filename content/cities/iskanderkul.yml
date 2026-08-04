@@ -1,0 +1,565 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "iskanderkul"
+  "ru": "iskanderkul"
+  "uz": "iskanderkul"
+"title":
+  "en": "Iskanderkul"
+  "ru": "Искандеркуль"
+  "uz": "Iskandarkoʻl"
+"subtitle":
+  "en": "A lake pause beneath the Fann peaks"
+  "ru": "Озёрная пауза под пиками Фанских гор"
+  "uz": "Fan choʻqqilari ostidagi koʻl pauzasi"
+"excerpt":
+  "en": "Iskanderkul is where the Fann Mountains become water first. The road reaches a turquoise lake held by red-grey slopes, with Dushanbe on one side of the journey and Penjikent on the other. Treat it as a mountain pause with one or two clear stops, not as a rushed photo turn."
+  "ru": "На Искандеркуле Фанские горы сначала становятся водой. Дорога выходит к бирюзовому озеру в красно-серых склонах: Душанбе остаётся с одной стороны маршрута, Пенджикент — с другой. Это горная пауза с одной-двумя ясными остановками, а не быстрый разворот ради фотографии."
+  "uz": "Iskandarkoʻlda Fan togʻlari avval suvga aylanadi. Yoʻl qizil-kulrang yonbagʻirlar orasidagi feruza koʻlga keladi: Dushanbe yoʻnalishning bir tomonida, Panjikent esa ikkinchi tomonida qoladi. Buni shoshilinch surat toʻxtashi emas, bir-ikki aniq bekatli togʻ pauzasi sifatida ko‘rish kerak."
+"heroImage": "assets/images/destinations/tajikistan/regions/fann-mountains-and-zeravshan/cities/iskanderkul.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan/regions/fann-mountains-and-zeravshan/cities/iskanderkul.webp"
+    "imageAlt":
+      "en": "Iskanderkul"
+      "ru": "Искандеркуль"
+      "uz": "Iskandarkoʻl"
+    "title":
+      "en": "Iskanderkul"
+      "ru": "Искандеркуль"
+      "uz": "Iskandarkoʻl"
+    "description":
+      "en": "A lake pause beneath the Fann peaks"
+      "ru": "Озёрная пауза под пиками Фанских гор"
+      "uz": "Fan choʻqqilari ostidagi koʻl pauzasi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Iskanderkul"
+      "ru": "Искандеркуль"
+      "uz": "Iskandarkoʻl"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Iskanderkul is where the Fann Mountains become water first."
+              "ru": "На Искандеркуле Фанские горы сначала становятся водой."
+              "uz": "Iskandarkoʻlda Fan togʻlari avval suvga aylanadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Iskanderkul sits between long mountain-road decisions. The lake, the nearby waterfall, and the onward choice toward Penjikent or Dushanbe should be planned around current road, weather, and daylight conditions."
+              "ru": "Искандеркуль стоит внутри длинного горного решения. Озеро, близкий водопад и дальнейший выбор в сторону Пенджикента или Душанбе лучше планировать с учётом текущей дороги, погоды и светового дня."
+              "uz": "Iskandarkoʻl uzun togʻ yoʻli qarorlari ichida turadi. Koʻl, yaqin sharshara va Panjikent yoki Dushanbe tomonga keyingi tanlov hozirgi yoʻl, ob-havo va kunduzgi vaqtga qarab rejalashtiriladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The lake is the reason to stop. Add Fann Niagara only when the approach, footing, and daylight are clear, then choose a return toward Dushanbe or a continuation toward Zeravshan."
+              "ru": "Озеро — причина остановки. Фанскую Ниагару стоит добавить только когда понятны подход, поверхность и световой день; затем выбрать возвращение к Душанбе или продолжение к Зеравшану."
+              "uz": "Toʻxtashning sababi — ko‘l. Fan Niagarani faqat yondashuv, yo‘l tagi va kunduzgi vaqt aniq bo‘lsa qo‘shing; keyin Dushanbega qaytish yoki Zarafshon tomonga davom etishni tanlang."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Iskanderkul as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Искандеркуль как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Iskandarkoʻl o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "Read the lake road before adding distance"
+      "ru": "Сначала понять дорогу к озеру"
+      "uz": "Avval koʻl yoʻlini tushunish"
+    "description":
+      "en": "Iskanderkul sits between long mountain-road decisions. The lake, the nearby waterfall, and the onward choice toward Penjikent or Dushanbe should be planned around current road, weather, and daylight conditions."
+      "ru": "Искандеркуль стоит внутри длинного горного решения. Озеро, близкий водопад и дальнейший выбор в сторону Пенджикента или Душанбе лучше планировать с учётом текущей дороги, погоды и светового дня."
+      "uz": "Iskandarkoʻl uzun togʻ yoʻli qarorlari ichida turadi. Koʻl, yaqin sharshara va Panjikent yoki Dushanbe tomonga keyingi tanlov hozirgi yoʻl, ob-havo va kunduzgi vaqtga qarab rejalashtiriladi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Marshrut xaritasi"
+      "title":
+        "en": "Dushanbe, Iskanderkul, Fann Niagara, and Penjikent"
+        "ru": "Душанбе, Искандеркуль, Фанская Ниагара и Пенджикент"
+        "uz": "Dushanbe, Iskandarkoʻl, Fan Niagara va Panjikent"
+      "description":
+        "en": "Dushanbe and Penjikent frame the wider road. Iskanderkul marks the lake-area pause, and Fann Niagara adds a short nature stop near the lake outflow."
+        "ru": "Душанбе и Пенджикент задают рамку большой дороги. Искандеркуль отмечает озёрную паузу, а Фанская Ниагара добавляет короткую природную остановку у выхода воды."
+        "uz": "Dushanbe va Panjikent katta yoʻlni ramkalaydi. Iskandarkoʻl koʻl hududi pauzasini belgilaydi, Fan Niagara esa koʻl chiqishidagi qisqa tabiat bekatini qoʻshadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.064985
+      "longitude": 68.299751
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "iskanderkul-lake"
+      - "entityType": "attraction"
+        "entitySlug": "iskanderkul-waterfall-fann-niagara"
+    "aside":
+      "eyebrow":
+        "en": "First decision"
+        "ru": "Первое решение"
+        "uz": "Birinchi qaror"
+      "title":
+        "en": "Start with the lake"
+        "ru": "Начните с озера"
+        "uz": "Avval ko‘lni tanlang"
+      "description":
+        "en": "The lake is the reason to stop. Add Fann Niagara only when the approach, footing, and daylight are clear, then choose a return toward Dushanbe or a continuation toward Zeravshan."
+        "ru": "Озеро — причина остановки. Фанскую Ниагару стоит добавить только когда понятны подход, поверхность и световой день; затем выбрать возвращение к Душанбе или продолжение к Зеравшану."
+        "uz": "Toʻxtashning sababi — ko‘l. Fan Niagarani faqat yondashuv, yo‘l tagi va kunduzgi vaqt aniq bo‘lsa qo‘shing; keyin Dushanbega qaytish yoki Zarafshon tomonga davom etishni tanlang."
+      "items":
+        - "title":
+            "en": "Start with the road choice"
+            "ru": "Сначала выбрать дорогу"
+            "uz": "Avval yoʻl tanlovini belgilang"
+          "description":
+            "en": "Dushanbe is the practical start or return point for the long mountain-road approach."
+            "ru": "Душанбе — практическое начало или точка возвращения для длинного горного подъезда."
+            "uz": "Dushanbe uzun togʻ yoʻli yondashuvi uchun amaliy boshlanish yoki qaytish nuqtasidir."
+        - "title":
+            "en": "Stop for the lake"
+            "ru": "Остановиться ради озера"
+            "uz": "Koʻl uchun toʻxtang"
+          "description":
+            "en": "Iskanderkul Lake is the main stop and should keep the first share of time."
+            "ru": "Озеро Искандеркуль остаётся главным акцентом и получает первое время визита."
+            "uz": "Iskandarkoʻl ko‘li asosiy bekat bo‘lib, tashrifning birinchi vaqtini oladi."
+        - "title":
+            "en": "Add the waterfall only when timing fits"
+            "ru": "Добавить водопад, если хватает времени"
+            "uz": "Vaqt yetsa sharsharani qoʻshing"
+          "description":
+            "en": "Fann Niagara is added only when access, footing, and daylight still fit."
+            "ru": "Фанская Ниагара добавляется только когда подходят доступ, поверхность и световой день."
+            "uz": "Fan Niagara kirish, yoʻl tagi va kunduzgi vaqt mos bo‘lsa qo‘shiladi."
+        - "title":
+            "en": "Continue or return with daylight in mind."
+            "ru": "Возвращаться или продолжать с учётом светового дня."
+            "uz": "Kunduzgi vaqtga qarab davom eting yoki qayting."
+          "description":
+            "en": "Return toward Dushanbe or continue toward Penjikent after the road check."
+            "ru": "После дорожной проверки маршрут возвращается к Душанбе или продолжается к Пенджикенту."
+            "uz": "Yoʻl tekshiruvidan keyin yoʻnalish Dushanbega qaytadi yoki Panjikentga davom etadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrish"
+    "title":
+      "en": "Lake first, waterfall second"
+      "ru": "Сначала озеро, затем водопад"
+      "uz": "Avval koʻl, keyin sharshara"
+    "description":
+      "en": "Keep the visit focused: the lake gives the area its scale, Fann Niagara adds movement and sound, and Snake Lake remains wider Fann context until its access is checked for a separate route."
+      "ru": "Держите визит сфокусированным: озеро Искандеркуль даёт месту масштаб, Фанская Ниагара добавляет движение и звук, а Змеиное озеро остаётся более широким контекстом Фанских гор до отдельной проверки доступа."
+      "uz": "Tashrifni jamlangan holda saqlang: ko‘l hududga ko‘lam beradi, Fan Niagara harakat va tovush qo‘shadi, Ilon ko‘li esa alohida yo‘nalish uchun kirish tekshirilmaguncha kengroq Fan kontekstida qoladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan/regions/fann-mountains-and-zeravshan/cities/iskanderkul/attractions/iskanderkul-lake.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Iskanderkul Lake"
+          "ru": "Озеро Искандеркуль"
+          "uz": "Iskandarkoʻl ko‘li"
+        "description":
+          "en": "Iskanderkul Lake gives the Fann Mountains a clear first image. Water fills the basin below red-grey slopes, and the road suddenly feels less like transit and more like a place to stop, look, and decide the rest of the mountain day."
+          "ru": "Озеро Искандеркуль даёт Фанским горам первый ясный образ. Вода заполняет котловину под красно-серыми склонами, и дорога перестаёт быть просто переездом: здесь нужно остановиться, посмотреть и решить, как продолжать горный день."
+          "uz": "Iskandarkoʻl Fan togʻlariga birinchi aniq obraz beradi. Qizil-kulrang yonbagʻirlar ostidagi havzani suv toʻldiradi va yoʻl oddiy oʻtish emas, toʻxtab qarash hamda togʻ kunining qolgan qismini belgilash joyiga aylanadi."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/iskanderkul/iskanderkul-lake"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan/regions/fann-mountains-and-zeravshan/cities/iskanderkul/attractions/iskanderkul-waterfall-fann-niagara.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Iskanderkul Waterfall / Fann Niagara"
+          "ru": "Водопад Искандеркуля / Фанская Ниагара"
+          "uz": "Iskandarkoʻl sharsharasi / Fan Niagara"
+        "description":
+          "en": "Fann Niagara gives Iskanderkul a second sound after the stillness of the lake. Keep it beside the lake visit, and add it only when road time, footing, water level, and local access make the short side stop sensible."
+          "ru": "Фанская Ниагара даёт Искандеркулю второй звук после спокойной воды озера. Держите её рядом с озёрным визитом и добавляйте только когда время дороги, подход, уровень воды и местный доступ делают короткую остановку разумной."
+          "uz": "Fan Niagara Iskandarkoʻlning sokin suvidan keyin ikkinchi tovush beradi. Uni ko‘l tashrifi yonida saqlang va yoʻl vaqti, yondashuv, suv darajasi hamda mahalliy kirish qisqa bekatni oqilona qilganda qoʻshing."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/iskanderkul/iskanderkul-waterfall-fann-niagara"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Iskanderkul moments"
+      "ru": "Моменты Искандеркуля"
+      "uz": "Iskandarkoʻl lahzalari"
+    "title":
+      "en": "Water, slopes, and a careful road call"
+      "ru": "Вода, склоны и честное дорожное решение"
+      "uz": "Suv, yonbagʻirlar va ehtiyotkor yoʻl qarori"
+    "description":
+      "en": "The best Iskanderkul moments are simple: the first view from the road, time at the shore, and the local check that decides whether the waterfall or the onward road still fits."
+      "ru": "Самые сильные моменты Искандеркуля простые: первый вид с дороги, время у берега и местная проверка, которая показывает, подходит ли водопад или дальнейшая дорога."
+      "uz": "Iskandarkoʻlning eng kuchli lahzalari oddiy: yoʻldan birinchi ko‘rinish, qirg‘oqdagi vaqt va sharshara yoki keyingi yo‘l mos kelishini ko‘rsatadigan mahalliy tekshiruv."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan/character/iskanderkul/iskanderkul-character-1.webp"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "First view of the lake"
+          "ru": "Первый вид на озеро"
+          "uz": "Ko‘lning birinchi manzarasi"
+        "description":
+          "en": "The mountain road tightens, then turquoise water appears below the Fann slopes. That first view is the reason to slow the route before the camera comes out."
+          "ru": "Горная дорога сужается, затем под склонами Фанских гор появляется бирюзовая вода. Ради этого вида маршрут стоит замедлить до первой фотографии."
+          "uz": "Togʻ yoʻli torayadi, keyin Fan yonbagʻirlari ostida feruza suv koʻrinadi. Shu manzara uchun yo‘nalishni birinchi suratdan oldin sekinlashtirish kerak."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan/character/iskanderkul/iskanderkul-character-2.webp"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "A pause by the shore"
+          "ru": "Время у берега"
+          "uz": "Qirg‘oqdagi vaqt"
+        "description":
+          "en": "A quiet shore stop gives travelers time to feel the basin's scale before the plan returns to the road."
+          "ru": "Спокойная остановка у берега помогает почувствовать масштаб котловины, прежде чем план снова вернётся к дороге."
+          "uz": "Sokin qirg‘oq bekati havzaning ko‘lamini his qildiradi, keyin reja yana yo‘lga qaytadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan/character/iskanderkul/iskanderkul-character-3.webp"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "The weather window"
+          "ru": "Погодное окно"
+          "uz": "Ob-havo oynasi"
+        "description":
+          "en": "A guide or driver checks current road, footing, and daylight so the waterfall is added only when the mountain day still feels calm."
+          "ru": "Гид или водитель сверяет дорогу, подход и световой день, чтобы добавить водопад только тогда, когда горный день остаётся спокойным."
+          "uz": "Gid yoki haydovchi yo‘l, yondashuv va kunduzgi vaqtni tekshiradi, shunda sharshara faqat tog‘ kuni hali sokin bo‘lganda qo‘shiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Yoʻlga chiqishdan oldin"
+    "title":
+      "en": "Plan the lake with road time in mind"
+      "ru": "Планировать озеро с учётом дороги"
+      "uz": "Koʻlni yoʻl vaqti bilan rejalashtiring"
+    "description":
+      "en": "Iskanderkul looks simple on a map, but the route is still a mountain-road choice. Keep the visit focused, confirm the road close to departure, and avoid locking in extra stops before weather and daylight are clear."
+      "ru": "На карте Искандеркуль выглядит просто, но это всё равно горная дорога. Лучше держать визит сфокусированным, проверять условия ближе к выезду и не закреплять дополнительные остановки до понимания погоды и светового дня."
+      "uz": "Xaritada Iskandarkoʻl oddiy koʻrinadi, lekin bu baribir togʻ yoʻli tanlovidir. Tashrifni jamlangan holda saqlang, sharoitni chiqishga yaqin tekshiring va ob-havo hamda kunduzgi vaqt aniq boʻlmaguncha qoʻshimcha bekatlarni qatʼiy kiritmang."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Choose the main stop first"
+              "ru": "Сначала выбрать главный акцент"
+              "uz": "Asosiy toʻxtashni birinchi tanlang"
+            "description":
+              "en": "Let the lake lead the visit. The waterfall is a good second stop when the day still feels calm."
+              "ru": "Пусть визит ведёт озеро. Водопад становится хорошей второй остановкой, когда день остаётся спокойным."
+              "uz": "Tashrifni koʻl boshqarsin. Kun sokin qolsa, sharshara yaxshi ikkinchi bekatga aylanadi."
+          - "type": "quote"
+            "quote":
+              "en": "Iskanderkul is not a checklist stop; it is the moment when the Fann road slows down beside water."
+              "ru": "Искандеркуль — не пункт в списке, а момент, когда дорога Фанских гор замедляется у воды."
+              "uz": "Iskandarkoʻl roʻyxatdagi punkt emas; bu Fan yoʻli suv yonida sekinlashadigan lahza."
+          - "type": "dashTitle"
+            "title":
+              "en": "Check road and season close to travel"
+              "ru": "Проверить дорогу и сезон ближе к выезду"
+              "uz": "Yoʻl va mavsumni chiqishga yaqin tekshiring"
+            "description":
+              "en": "Mountain weather, winter conditions, rockfall risk, and daylight can change the route even when the distance looks manageable."
+              "ru": "Горная погода, зимние условия, риск камнепадов и световой день могут изменить маршрут даже при кажущейся небольшой дистанции."
+              "uz": "Togʻ ob-havosi, qishki sharoit, tosh koʻchishi xavfi va kunduzgi vaqt masofa maqbul koʻringanda ham yoʻnalishni oʻzgartirishi mumkin."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the wider Fann route selective"
+              "ru": "Отбирать продолжения по Фанским горам"
+              "uz": "Fan davomlarini tanlab qoʻshing"
+            "description":
+              "en": "Penjikent, Seven Lakes, Artuch, and higher Fann routes need their own timing rather than being folded into a rushed lake visit."
+              "ru": "Пенджикент, Семь озёр, Артуч и высокие маршруты требуют собственного времени, а не спешного добавления к озеру."
+              "uz": "Panjikent, Yetti koʻl, Artuch va yuqori Fan yoʻllari shoshilinch koʻl tashrifiga qoʻshilmasdan, oʻz vaqtini talab qiladi."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Что важно путешественнику"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Come for the lake first, add the waterfall when conditions allow, and keep longer Fann choices for a route that has enough time."
+              "ru": "Ехать прежде всего ради озера, добавлять водопад при подходящих условиях и оставлять длинные продолжения по Фанским горам для маршрута с достаточным временем."
+              "uz": "Avval koʻl uchun boring, sharoit imkon bersa sharsharani qoʻshing, uzun Fan davomlarini esa yetarli vaqti bor yoʻnalishga qoldiring."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Yoʻlga chiqishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "Lake area in the Fann Mountains & Zeravshan tourist region of Tajikistan."
+                  "ru": "Озёрная зона в туристическом регионе Фанские горы и Зеравшан."
+                  "uz": "Tojikistondagi Fan togʻlari va Zarafshon turistik hududidagi koʻl zonasi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main visit"
+                  "ru": "Главный визит"
+                  "uz": "Asosiy tashrif"
+                "description":
+                  "en": "Iskanderkul Lake, Fann peaks, and the Fann Niagara waterfall side walk."
+                  "ru": "Озеро Искандеркуль, пики Фанских гор и короткий выход к Фанской Ниагаре."
+                  "uz": "Iskandarkoʻl, Fan choʻqqilari va Fan Niagara sharsharasiga qisqa chiqish."
+              - "icon": "Sun"
+                "title":
+                  "en": "Time"
+                  "ru": "Время"
+                  "uz": "Vaqt"
+                "description":
+                  "en": "Usually a long mountain-road day or a calmer overnight nearby when the route supports it."
+                  "ru": "Обычно длинный горный день или более спокойная ночёвка поблизости, если маршрут это поддерживает."
+                  "uz": "Odatda uzun togʻ yoʻli kuni yoki yoʻnalish imkon bersa, yaqin atrofda sokinroq tunash."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and comfort"
+                  "ru": "Сезон и комфорт"
+                  "uz": "Mavsum va qulaylik"
+                "description":
+                  "en": "Late spring through autumn is the main comfort window; winter and shoulder seasons need current road checks."
+                  "ru": "Поздняя весна, лето и осень — основной комфортный период; зимой и в межсезонье нужны текущие дорожные проверки."
+                  "uz": "Kech bahordan kuzgacha asosiy qulay davr; qish va oraliq mavsumlarda hozirgi yoʻl tekshiruvi zarur."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before travel"
+                  "ru": "Перед поездкой"
+                  "uz": "Safar oldidan"
+                "description":
+                  "en": "Confirm road condition, weather, daylight, driver support, meal/rest stops, and waterfall access close to the date."
+                  "ru": "Проверить дорогу, погоду, световой день, водителя, остановки для еды и отдыха, а также доступ к водопаду."
+                  "uz": "Yoʻl holati, ob-havo, kunduzgi vaqt, haydovchi yordami, ovqat/dam olish toʻxtashlari va sharshara kirishini tekshiring."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqin joylar"
+    "title":
+      "en": "Dushanbe, Penjikent, and the Fann road"
+      "ru": "Душанбе, Пенджикент и дорога Фанских гор"
+      "uz": "Dushanbe, Panjikent va Fan yoʻli"
+    "description":
+      "en": "Dushanbe gives the practical start or return. Penjikent brings the route onto the Zeravshan side. Varzob is a separate near-capital mountain outing, while Seven Lakes belongs to a fuller Fann program rather than a quick add-on."
+      "ru": "Душанбе даёт практическое начало или возвращение. Пенджикент выводит маршрут на зеравшанскую сторону. Варзоб — отдельный горный выезд рядом со столицей, а Семь озёр относятся к более полной программе по Фанским горам, не к быстрому добавлению."
+      "uz": "Dushanbe amaliy boshlanish yoki qaytishni beradi. Panjikent yo‘nalishni Zarafshon tomoniga olib chiqadi. Varzob poytaxt yaqinidagi alohida tog‘ chiqishi, Yetti ko‘l esa tez qo‘shimcha emas, to‘liqroq Fan dasturiga tegishli."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Dushanbe"
+          "ru": "Душанбе"
+          "uz": "Dushanbe"
+        "description":
+          "en": "Dushanbe is Tajikistan's calm arrival city: Rudaki Avenue shade, national museums, tea-house stops, and first choices toward Hissar, Varzob, or higher valleys."
+          "ru": "Душанбе — спокойное место прибытия в Таджикистан: тень проспекта Рудаки, национальные музеи, чайхана или рынок и первые решения к Гиссару, Варзобу или высоким долинам."
+          "uz": "Dushanbe Tojikistonga sokin kirish shahri: Rudakiy xiyoboni soyasi, milliy muzeylar, choyxona toʻxtashlari va Hisor, Varzob yoki baland vodiylar tomon ilk tanlovlar."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/dushanbe"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Penjikent"
+          "ru": "Пенджикент"
+          "uz": "Panjikent"
+        "description":
+          "en": "Penjikent anchors the western Fann Mountains route with Ancient Penjikent, UNESCO Sarazm, the Rudaki Museum, market life, and the first road choices toward Seven Lakes or Iskanderkul."
+          "ru": "Пенджикент открывает западную часть маршрута по Фанским горам: древний Пенджикент над городом, Саразм ЮНЕСКО, музей Рудаки, рынок и выбор дороги к Семи озёрам или Искандеркулю."
+          "uz": "Panjikent Fan togʻlari yo‘lining gʻarbiy qismini ochadi: shahar ustidagi qadimiy Panjikent, UNESCO Sarazm, Rudakiy muzeyi, bozor va Yetti ko‘l yoki Iskandarko‘l tomonga yo‘l tanlovi."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/penjikent"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Varzob"
+          "ru": "Варзоб"
+          "uz": "Varzob"
+        "description":
+          "en": "Varzob is the close mountain-area outing from Dushanbe: river air, gorge scenery, one simple rest stop, and day-of weather decisions before higher roads."
+          "ru": "Варзоб — близкий горный выезд из Душанбе: речной воздух, ущелье, одна спокойная остановка и проверка погоды перед дорогами Таджикистана выше."
+          "uz": "Varzob Dushanbedan yaqin togʻ-hudud chiqishi: daryo havosi, dara manzarasi, bitta sokin toʻxtash va balandroq yoʻldan oldingi ob-havo tekshiruvi."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/varzob"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Iskanderkul in the day plan"
+      "ru": "Как поставить Искандеркуль в план дня"
+      "uz": "Iskandarkoʻlni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Iskanderkul?"
+          "ru": "Сколько времени группам стоит проводить в Искандеркуль?"
+          "uz": "Iskandarkoʻlda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A lake pause beneath the Fann peaks”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Озёрная пауза под пиками Фанских гор»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Fan choʻqqilari ostidagi koʻl pauzasi»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Iskanderkul be a walkable core or a base for day trips?"
+          "ru": "Искандеркуль — это пешеходное ядро или база для выездов?"
+          "uz": "Iskandarkoʻl piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Iskanderkul's centre?"
+          "ru": "Где лучше ночевать относительно центра Искандеркуль?"
+          "uz": "Iskandarkoʻl markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan/regions/fann-mountains-and-zeravshan/cities/iskanderkul.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Iskanderkul stop into your Tajikistan programme"
+      "ru": "Встройте остановку «Искандеркуль» в программу (Таджикистан)"
+      "uz": "Iskandarkoʻl bekatini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Iskanderkul | TourLink"
+    "ru": "Искандеркуль | TourLink"
+    "uz": "Iskandarkoʻl | TourLink"
+  "metaDescription":
+    "en": "Iskanderkul is where the Fann Mountains become water first. The road reaches a turquoise lake held by red-grey slopes, with Dushanbe on one side of the journey and Penjikent on the other. Treat it as a mountain pause with one or two clear stops, not as a rushed photo turn."
+    "ru": "На Искандеркуле Фанские горы сначала становятся водой. Дорога выходит к бирюзовому озеру в красно-серых склонах: Душанбе остаётся с одной стороны маршрута, Пенджикент — с другой. Это горная пауза с одной-двумя ясными остановками, а не быстрый разворот ради фотографии."
+    "uz": "Iskandarkoʻlda Fan togʻlari avval suvga aylanadi. Yoʻl qizil-kulrang yonbagʻirlar orasidagi feruza koʻlga keladi: Dushanbe yoʻnalishning bir tomonida, Panjikent esa ikkinchi tomonida qoladi. Buni shoshilinch surat toʻxtashi emas, bir-ikki aniq bekatli togʻ pauzasi sifatida ko‘rish kerak."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "fann-mountains-and-zeravshan"
+"latitude": 39.0845774
+"longitude": 68.3710124

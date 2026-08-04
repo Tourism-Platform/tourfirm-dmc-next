@@ -1,0 +1,348 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "alzhir-memorial-museum-near-astana"
+  "ru": "alzhir-memorial-museum-near-astana"
+  "uz": "alzhir-memorial-museum-near-astana"
+"title":
+  "en": "ALZHIR Memorial Museum near Astana"
+  "ru": "Мемориальный музей АЛЖИР под Астаной"
+  "uz": "Ostona yaqinidagi ALJIR memorial muzeyi"
+"subtitle":
+  "en": "A restrained memory route beyond Astana"
+  "ru": "Сдержанный маршрут памяти за пределами Астаны"
+  "uz": "Ostona tashqarisidagi bosiq xotira yoʻnalishi"
+"excerpt":
+  "en": "ALZHIR changes the rhythm of an Astana journey. After the capital's glass towers, museums, and ceremonial avenues, the road to Akmol village leads to a place shaped by loss, names, barracks, and the women imprisoned here during Soviet repression. The value of the visit is not another sight checked off. It is the choice to slow down enough to understand what the memorial asks you to remember."
+  "ru": "АЛЖИР меняет ритм поездки по Астане. После стеклянных башен, музеев и широких церемониальных проспектов дорога в Акмол ведёт к месту, где главными становятся утрата, имена, бараки и женщины, заключённые здесь во время советских репрессий. Ценность визита не в ещё одной отметке в списке, а в выборе замедлиться и понять, что именно мемориал просит помнить."
+  "uz": "ALJIR Ostona safarining ritmini oʻzgartiradi. Poytaxtning shisha minoralari, muzeylari va keng marosim shohkoʻchalaridan keyin Aqmolga olib boradigan yoʻl yoʻqotish, ismlar, baraklar va sovet qatagʻoni davrida bu yerda qamalgan ayollar haqida oʻylashga majbur qiladi. Tashrifning qadri navbatdagi joyni belgilab qoʻyishda emas, memorial nimani eslashni soʻrayotganini anglash uchun sekinlashishda."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "ALZHIR Memorial Museum near Astana"
+      "ru": "Мемориальный музей АЛЖИР под Астаной"
+      "uz": "Ostona yaqinidagi ALJIR memorial muzeyi"
+    "title":
+      "en": "ALZHIR Memorial Museum near Astana"
+      "ru": "Мемориальный музей АЛЖИР под Астаной"
+      "uz": "Ostona yaqinidagi ALJIR memorial muzeyi"
+    "description":
+      "en": "A restrained memory route beyond Astana"
+      "ru": "Сдержанный маршрут памяти за пределами Астаны"
+      "uz": "Ostona tashqarisidagi bosiq xotira yoʻnalishi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "ALZHIR Memorial Museum near Astana"
+      "ru": "Мемориальный музей АЛЖИР под Астаной"
+      "uz": "Ostona yaqinidagi ALJIR memorial muzeyi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "ALZHIR changes the rhythm of an Astana journey."
+              "ru": "АЛЖИР меняет ритм поездки по Астане."
+              "uz": "ALJIR Ostona safarining ritmini oʻzgartiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "ALZHIR matters because it gives the Astana region a necessary human and historical counterweight: beyond the planned capital, the steppe still carries the memory of repression."
+              "ru": "АЛЖИР важен тем, что даёт региону Астаны необходимый человеческий и исторический противовес: за пределами спланированной столицы степь хранит память о репрессиях."
+              "uz": "ALJIR muhim, chunki u Ostona hududiga zarur insoniy va tarixiy qarama-qarshi ohang beradi: rejalangan poytaxt tashqarisida dasht qatagʻon xotirasini saqlaydi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — A restrained memory route beyond Astana."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Сдержанный маршрут памяти за пределами Астаны."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Ostona tashqarisidagi bosiq xotira yoʻnalishi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need ALZHIR Memorial Museum near Astana as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Мемориальный музей АЛЖИР под Астаной как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Ostona yaqinidagi ALJIR memorial muzeyi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where ALZHIR Memorial Museum near Astana sits on the route"
+      "ru": "Где Мемориальный музей АЛЖИР под Астаной стоит на маршруте"
+      "uz": "Ostona yaqinidagi ALJIR memorial muzeyi marshrutda qayerda"
+    "description":
+      "en": "One clear point for ALZHIR Memorial Museum near Astana — A restrained memory route beyond Astana."
+      "ru": "Одна понятная точка для «Мемориальный музей АЛЖИР под Астаной» — Сдержанный маршрут памяти за пределами Астаны."
+      "uz": "Ostona yaqinidagi ALJIR memorial muzeyi uchun bitta aniq nuqta — Ostona tashqarisidagi bosiq xotira yoʻnalishi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "ALZHIR Memorial Museum near Astana"
+        "ru": "Мемориальный музей АЛЖИР под Астаной"
+        "uz": "Ostona yaqinidagi ALJIR memorial muzeyi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 51.1182297
+      "longitude": 71.4693823
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "alzhir-memorial-museum-near-astana"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "A memorial that changes the capital route"
+      "ru": "Мемориал, который меняет маршрут по столице"
+      "uz": "Poytaxt yoʻnalishini oʻzgartiradigan memorial"
+    "description":
+      "en": "ALZHIR matters because it gives the Astana region a necessary human and historical counterweight: beyond the planned capital, the steppe still carries the memory of repression.
+
+
+        «The strongest moment at ALZHIR is the pause after the facts, when the memorial stops being a name and becomes a place of individual lives.»"
+      "ru": "АЛЖИР важен тем, что даёт региону Астаны необходимый человеческий и исторический противовес: за пределами спланированной столицы степь хранит память о репрессиях.
+
+
+        «Самый сильный момент в АЛЖИРе приходит после фактов, когда мемориал перестаёт быть названием и становится местом отдельных жизней.»"
+      "uz": "ALJIR muhim, chunki u Ostona hududiga zarur insoniy va tarixiy qarama-qarshi ohang beradi: rejalangan poytaxt tashqarisida dasht qatagʻon xotirasini saqlaydi.
+
+
+        «ALJIRdagi eng kuchli lahza faktlardan keyin keladi: memorial nom boʻlishdan chiqib, alohida insonlar hayoti joyiga aylanadi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "Arch, plaques, barrack, and rail car"
+      "ru": "Арка, таблички, барак и вагон"
+      "uz": "Arka, lavhalar, barak va vagon"
+    "description":
+      "en": "The route through the grounds moves from memorial architecture into museum evidence: the Arch of Sorrow, commemorative plaques, symbolic installations, steles, the rail car, and the barrack."
+      "ru": "Маршрут по территории ведёт от мемориальной архитектуры к музейным свидетельствам: Арке скорби, памятным табличкам, символическим композициям, стелам, вагону и бараку."
+      "uz": "Hudud boʻylab yoʻl memorial meʼmorchilikdan muzey guvohliklariga olib boradi: Qaygʻu arkasi, yodgorlik lavhalari, ramziy kompozitsiyalar, stelalar, vagon va barak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday koʻrish"
+    "title":
+      "en": "Come for memory, not spectacle"
+      "ru": "Приезжайте за памятью, не за зрелищем"
+      "uz": "Tomosha uchun emas, xotira uchun keling"
+    "description":
+      "en": "ALZHIR should feel slower than the city stops around it. The best visit keeps space for context, quiet, and questions rather than treating the museum as a quick extension from Astana."
+      "ru": "АЛЖИР должен ощущаться медленнее городских остановок вокруг него. Лучший визит оставляет место для контекста, тишины и вопросов, а не превращает музей в быстрый выезд из Астаны."
+      "uz": "ALJIR atrofidagi shahar bekatlaridan sekinroq his qilinishi kerak. Eng yaxshi tashrif kontekst, sukut va savollar uchun joy qoldiradi; muzeyni Ostonadan tez chiqib keladigan qoʻshimcha bekatga aylantirmaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add with care"
+      "ru": "Что добавить с тактом"
+      "uz": "Ehtiyotkorlik bilan nima qoʻshish mumkin"
+    "title":
+      "en": "Return to Astana through history and public space"
+      "ru": "Вернуться в Астану через историю и общественное пространство"
+      "uz": "Ostonaga tarix va jamoat makoni orqali qaytish"
+    "description":
+      "en": "After ALZHIR, the National Museum can widen the historical frame; the Palace of Peace and Reconciliation can show the capital's public-symbolic language; and Hazret Sultan Mosque can bring the route back into the city quietly."
+      "ru": "После АЛЖИРа Национальный музей может расширить историческую рамку, Дворец мира и согласия показать публичный символический язык столицы, а мечеть Хазрет Султан мягко вернуть маршрут в город."
+      "uz": "ALJIRdan keyin Milliy muzey tarixiy doirani kengaytirishi mumkin; Tinchlik va totuvlik saroyi poytaxtning jamoat ramzlari tilini koʻrsatadi; Hazret Sultan masjidi esa yoʻnalishni shaharga sokin qaytaradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "National Museum of the Republic of Kazakhstan"
+          "ru": "Национальный музей Республики Казахстан"
+          "uz": "Qozogʻiston Respublikasi Milliy muzeyi"
+        "description":
+          "en": "On Astana's Independence Square, the National Museum brings the country's ancient history, Gold Hall, ethnography, contemporary art, and independence story into one focused museum visit."
+          "ru": "На площади Независимости Национальный музей собирает древнюю и средневековую историю, Зал золота, этнографию, современное искусство и историю независимого Казахстана в один спокойный музейный визит."
+          "uz": "Mustaqillik maydonidagi Milliy muzey qadimgi va oʻrta asrlar tarixi, Oltin zal, etnografiya, zamonaviy sanʼat va Mustaqil Qozogʻiston hikoyasini bitta puxta muzey tashrifida jamlaydi."
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/astana/national-museum-of-the-republic-of-kazakhstan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Palace of Peace and Reconciliation"
+          "ru": "Дворец мира и согласия"
+          "uz": "Tinchlik va totuvlik saroyi"
+        "description":
+          "en": "Near Independence Square, the Palace of Peace and Reconciliation turns Astana's modern architecture into a stop about interfaith congresses, performance, stained glass, and nearby national landmarks."
+          "ru": "У площади Независимости Дворец мира и согласия превращает современную архитектуру Астаны в остановку о межрелигиозных конгрессах, сцене, витраже и местах столицы рядом."
+          "uz": "Mustaqillik maydoni yaqinida Tinchlik va totuvlik saroyi Ostonaning zamonaviy meʼmorchiligini dinlararo kongresslar, sahna, vitraj va yaqin poytaxt joylari bilan bogʻlaydi."
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/astana/palace-of-peace-and-reconciliation"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Hazret Sultan Mosque"
+          "ru": "Мечеть Хазрет Султан"
+          "uz": "Hazret Sultan masjidi"
+        "description":
+          "en": "Hazret Sultan Mosque brings a living religious pause to Astana's Independence Square, with a shanyrak-inspired dome, four 77-meter minarets, Kazakh ornament, and mosque etiquette to keep in mind."
+          "ru": "Мечеть Хазрет Султан добавляет площади Независимости живую религиозную паузу: купол с образом шанырака, четыре 77-метровых минарета, казахский орнамент и мечетный этикет, о котором важно помнить."
+          "uz": "Hazret Sultan masjidi Mustaqillik maydoni yoʻnalishiga sokin diniy bekat qoʻshadi: shanyrak timsolidagi gumbaz, toʻrtta 77 metrlik minora, qozoqcha bezak va esda tutish kerak boʻlgan masjid odobi."
+        "ctaHref": "/destinations/kazakhstan/astana-and-akmola-steppe/astana/hazret-sultan-mosque"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about ALZHIR Memorial Museum near Astana"
+      "ru": "Что агентства спрашивают про Мемориальный музей АЛЖИР под Астаной"
+      "uz": "Agentliklar Ostona yaqinidagi ALJIR memorial muzeyi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should ALZHIR Memorial Museum near Astana get in the day plan?"
+          "ru": "Сколько времени закладывать на Мемориальный музей АЛЖИР под Астаной в плане дня?"
+          "uz": "Ostona yaqinidagi ALJIR memorial muzeyi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "a focused half-day with buffer is a practical range for most groups. Plan ticket timing and indoor pacing. Place tone: “A restrained memory route beyond Astana”."
+          "ru": "Для большинства групп реалистичный диапазон — полдня с запасом. Заложите время на билеты и спокойный темп внутри. Характер места: «Сдержанный маршрут памяти за пределами Астаны»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — zaxira bilan yarim kun. Chipta va ichki sokin sur’at uchun vaqt qo‘ying. Joy ohangi: «Ostona tashqarisidagi bosiq xotira yoʻnalishi»."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "When is ALZHIR Memorial Museum near Astana strongest during the day?"
+          "ru": "В какое время дня Мемориальный музей АЛЖИР под Астаной раскрывается сильнее?"
+          "uz": "Ostona yaqinidagi ALJIR memorial muzeyi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer early morning or late afternoon. That usually improves comfort, photos, and how the stop feels in the sequence around astana."
+          "ru": "Лучше рано утром или ближе к вечеру. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с astana."
+          "uz": "erta tong yoki kechga yaqin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (astana atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "How should ALZHIR Memorial Museum near Astana sit next to nearby stops?"
+          "ru": "Как поставить Мемориальный музей АЛЖИР под Астаной рядом с соседними остановками?"
+          "uz": "Ostona yaqinidagi ALJIR memorial muzeyini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add ALZHIR Memorial Museum near Astana to your Kazakhstan programme"
+      "ru": "Добавьте «Мемориальный музей АЛЖИР под Астаной» в программу (Казахстан)"
+      "uz": "Ostona yaqinidagi ALJIR memorial muzeyini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "ALZHIR Memorial Museum near Astana | TourLink"
+    "ru": "Мемориальный музей АЛЖИР под Астаной | TourLink"
+    "uz": "Ostona yaqinidagi ALJIR memorial muzeyi | TourLink"
+  "metaDescription":
+    "en": "ALZHIR changes the rhythm of an Astana journey. After the capital's glass towers, museums, and ceremonial avenues, the road to Akmol village leads to a place shaped by loss, names, barracks, and the women imprisoned here during Soviet repression. The value of the visit is not another sight checked off. It is the choice to slow down enough to understand what the memorial asks you to remember."
+    "ru": "АЛЖИР меняет ритм поездки по Астане. После стеклянных башен, музеев и широких церемониальных проспектов дорога в Акмол ведёт к месту, где главными становятся утрата, имена, бараки и женщины, заключённые здесь во время советских репрессий. Ценность визита не в ещё одной отметке в списке, а в выборе замедлиться и понять, что именно мемориал просит помнить."
+    "uz": "ALJIR Ostona safarining ritmini oʻzgartiradi. Poytaxtning shisha minoralari, muzeylari va keng marosim shohkoʻchalaridan keyin Aqmolga olib boradigan yoʻl yoʻqotish, ismlar, baraklar va sovet qatagʻoni davrida bu yerda qamalgan ayollar haqida oʻylashga majbur qiladi. Tashrifning qadri navbatdagi joyni belgilab qoʻyishda emas, memorial nimani eslashni soʻrayotganini anglash uchun sekinlashishda."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "astana-and-akmola-steppe"
+"city": "astana"
+"type": "MUSEUM"
+"importance": "RECOMMENDED"
+"latitude": 51.1182297
+"longitude": 71.4693823

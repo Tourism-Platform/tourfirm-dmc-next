@@ -2,7 +2,8 @@ import type { TButtonVariantsProps } from "../../shadcn-ui/button";
 
 export enum ActionType {
 	mailto = "mailto",
-	link = "link"
+	link = "link",
+	form = "form"
 }
 
 export interface IButtonItem {

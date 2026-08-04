@@ -1,0 +1,506 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "bozzhira"
+  "ru": "bozzhira"
+  "uz": "bozzhira"
+"title":
+  "en": "Bozzhira"
+  "ru": "Бозжыра"
+  "uz": "Bozzhira"
+"subtitle":
+  "en": "White cliffs on the Ustyurt edge"
+  "ru": "Белые уступы на краю Устюрта"
+  "uz": "Ustyurt chetidagi oq qoyalar"
+"excerpt":
+  "en": "Bozzhira is where Mangystau opens into pale escarpments, fang-like rock, and a plateau that makes distance visible. The reward is not only the view; it is the measured approach, the local driver's judgment, the light on the chalk, and the choice to leave the ground unmarked."
+  "ru": "Бозжыра - место, где Мангистау раскрывается белыми уступами, зубчатыми скалами и плато, на котором особенно чувствуется расстояние. Впечатление рождается не только на смотровой: его создают размеренный подъезд, решение местного водителя, свет на меловой поверхности и бережное движение без следов."
+  "uz": "Bozzhira Mangistau och rangli qoya devorlari, tishsimon shakllar va masofani sezdiradigan plato bilan ochiladigan joy. Taassurot faqat manzaradan tugʻilmaydi; uni oʻlchangan yoʻl, mahalliy haydovchi qarori, boʻr yuzasidagi yorugʻlik va zaminni izsiz qoldirish istagi yaratadi."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "Bozzhira"
+      "ru": "Бозжыра"
+      "uz": "Bozzhira"
+    "title":
+      "en": "Bozzhira"
+      "ru": "Бозжыра"
+      "uz": "Bozzhira"
+    "description":
+      "en": "White cliffs on the Ustyurt edge"
+      "ru": "Белые уступы на краю Устюрта"
+      "uz": "Ustyurt chetidagi oq qoyalar"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Bozzhira"
+      "ru": "Бозжыра"
+      "uz": "Bozzhira"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Bozzhira is where Mangystau opens into pale escarpments, fang-like rock, and a plateau that makes distance visible."
+              "ru": "Бозжыра - место, где Мангистау раскрывается белыми уступами, зубчатыми скалами и плато, на котором особенно чувствуется расстояние."
+              "uz": "Bozzhira Mangistau och rangli qoya devorlari, tishsimon shakllar va masofani sezdiradigan plato bilan ochiladigan joy."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Bozzhira makes sense when the route is built around one clear stop. Aktau is the practical start, but the tract needs a suitable vehicle, daylight, water, weather awareness, and a checked return or overnight plan."
+              "ru": "Бозжыра понятна, когда маршрут держится вокруг одной главной остановки. Актау остается практичным началом, но урочищу нужны подходящая машина, световой запас, вода, внимание к погоде и заранее понятный план возвращения или ночевки."
+              "uz": "Bozzhira bitta aniq toʻxtash atrofida rejalanganda tushunarli boʻladi. Aktau amaliy boshlanish nuqtasi, lekin hududga mos avtomobil, kunduzgi vaqt, suv, ob-havoga e'tibor va qaytish yoki tunash boʻyicha aniq reja kerak."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Pick the main reason for the drive first: the fang-like forms, a higher panorama, a short walking section, or a checked night near the tract. The road should follow that choice."
+              "ru": "Сначала выберите главный смысл выезда: зубчатые формы, верхнюю панораму, короткий пеший участок или проверенную ночевку у урочища. Дорога должна следовать за этим выбором."
+              "uz": "Avval yoʻlning asosiy sababini tanlang: tishsimon shakllar, yuqori panorama, qisqa piyoda qism yoki hudud yaqinidagi tekshirilgan tunash. Yoʻl shu tanlovga ergashsin."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Bozzhira as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Бозжыра как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Bozzhira o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как добраться и двигаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Choose the view before the road"
+      "ru": "Сначала выберите вид, потом дорогу"
+      "uz": "Avval koʻrinishni, keyin yoʻlni tanlang"
+    "description":
+      "en": "Bozzhira makes sense when the route is built around one clear stop. Aktau is the practical start, but the tract needs a suitable vehicle, daylight, water, weather awareness, and a checked return or overnight plan."
+      "ru": "Бозжыра понятна, когда маршрут держится вокруг одной главной остановки. Актау остается практичным началом, но урочищу нужны подходящая машина, световой запас, вода, внимание к погоде и заранее понятный план возвращения или ночевки."
+      "uz": "Bozzhira bitta aniq toʻxtash atrofida rejalanganda tushunarli boʻladi. Aktau amaliy boshlanish nuqtasi, lekin hududga mos avtomobil, kunduzgi vaqt, suv, ob-havoga e'tibor va qaytish yoki tunash boʻyicha aniq reja kerak."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Yoʻl xaritasi"
+      "title":
+        "en": "Bozzhira on the Ustyurt edge"
+        "ru": "Бозжыра на краю Устюрта"
+        "uz": "Bozzhira Ustyurt chetida"
+      "description":
+        "en": "The marker is approximate. It shows the route area, not an entrance, parking place, campsite, safe driving line, or complete road track. Confirm road, weather, access, and overnight plans locally."
+        "ru": "Маркер примерный. Он показывает район, а не въезд, парковку, место ночевки, безопасную линию движения или полный трек. Дорогу, погоду, доступ и ночевку нужно подтверждать на месте."
+        "uz": "Belgi taxminiy. U hududni koʻrsatadi, lekin kirish joyi, avtoturargoh, tunash joyi, xavfsiz haydash chizigʻi yoki toʻliq yoʻl treki emas. Yoʻl, ob-havo, kirish va tunash rejalarini mahalliy sharoit boʻyicha tasdiqlang."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 43.4719
+      "longitude": 54.0575
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "bozzhyra-boszhira-tract"
+    "aside":
+      "eyebrow":
+        "en": "What to decide"
+        "ru": "Что решить"
+        "uz": "Nimani hal qilish kerak"
+      "title":
+        "en": "One focus, then the approach"
+        "ru": "Один фокус, затем подъезд"
+        "uz": "Bir fokus, keyin yaqinlashuv"
+      "description":
+        "en": "Pick the main reason for the drive first: the fang-like forms, a higher panorama, a short walking section, or a checked night near the tract. The road should follow that choice."
+        "ru": "Сначала выберите главный смысл выезда: зубчатые формы, верхнюю панораму, короткий пеший участок или проверенную ночевку у урочища. Дорога должна следовать за этим выбором."
+        "uz": "Avval yoʻlning asosiy sababini tanlang: tishsimon shakllar, yuqori panorama, qisqa piyoda qism yoki hudud yaqinidagi tekshirilgan tunash. Yoʻl shu tanlovga ergashsin."
+      "items":
+        - "title":
+            "en": "Start with one viewpoint"
+            "ru": "Начните с одной смотровой"
+            "uz": "Bitta koʻrinish nuqtasidan boshlang"
+          "description":
+            "en": "The fangs, high panorama, and lower chalk floor ask for different approaches. Choosing one main view keeps the visit calm and gives the cliffs time to register."
+            "ru": "Зубцы, верхняя панорама и нижняя меловая поверхность требуют разного подъезда. Один главный вид делает посещение спокойнее и дает скалам время раскрыться."
+            "uz": "Tishsimon shakllar, yuqori panorama va pastki oq zamin turli yondashuvni talab qiladi. Bitta asosiy manzara tashrifni sokinroq qiladi va qoyalarning ta'siri ochilishiga vaqt beradi."
+        - "title":
+            "en": "Keep the road honest"
+            "ru": "Оцените дорогу честно"
+            "uz": "Yoʻlni rost baholang"
+          "description":
+            "en": "Unpaved sections, steep ground, rain, and limited signs make the right vehicle and local driver advice part of the visit, not a late detail."
+            "ru": "Грунтовые участки, крутые места, дождь и слабые указатели делают подходящую машину и совет местного водителя частью поездки, а не поздней деталью."
+            "uz": "Tuproq yoʻllar, tik joylar, yomgʻir va kam belgilar mos avtomobil hamda mahalliy haydovchi maslahatini safarning muhim qismiga aylantiradi."
+        - "title":
+            "en": "Give the cliffs softer hours"
+            "ru": "Дайте скалам мягкие часы"
+            "uz": "Qoyalarga yumshoq soatlarni bering"
+          "description":
+            "en": "The white contours hold more depth outside harsh midday. In summer, heat and open ground can change how long it is sensible to stay."
+            "ru": "Белые линии глубже видны вне жесткого полудня. Летом жара и открытый грунт могут изменить то, сколько времени разумно оставаться у урочища."
+            "uz": "Oq chiziqlar qattiq tush paytidan tashqarida chuqurroq koʻrinadi. Yozda issiq va ochiq zamin qancha qolish mumkinligini oʻzgartiradi."
+        - "title":
+            "en": "Decide before you leave Aktau"
+            "ru": "Решите до выезда из Актау"
+            "uz": "Aktaudan chiqishdan oldin hal qiling"
+          "description":
+            "en": "Sunrise, sunset, and stars can justify staying near the tract, but water, gear, wind, waste, permission, and return timing need a clear plan."
+            "ru": "Рассвет, закат и звезды могут быть причиной остаться рядом, но вода, снаряжение, ветер, мусор, разрешение и обратная дорога требуют ясного плана."
+            "uz": "Tong, quyosh botishi va yulduzlar hudud yaqinida qolish uchun sabab boʻlishi mumkin, lekin suv, jihoz, shamol, chiqindi, ruxsat va qaytish vaqti aniq reja talab qiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see first"
+      "ru": "Что смотреть сначала"
+      "uz": "Avval nimani koʻrish kerak"
+    "title":
+      "en": "The tract is the main reason to come"
+      "ru": "Урочище - главная причина приезда"
+      "uz": "Hududning oʻzi kelish sababi"
+    "description":
+      "en": "Bozzhira's own tract carries the visit: fang-like forms, chalk walls, open plateau, and viewpoint choices. Add other Mangystau stops only when the road plan still feels realistic."
+      "ru": "Само урочище Бозжыра держит этот визит: зубчатые формы, меловые стены, открытое плато и выбор смотровых точек. Другие места Мангистау стоит добавлять только тогда, когда дорожный план остается реалистичным."
+      "uz": "Bozzhiraning oʻz hududi tashrifni ushlab turadi: tishsimon shakllar, oq devorlar, ochiq plato va koʻrinish nuqtalari tanlovi. Mangistaudagi boshqa joylarni faqat yoʻl rejasi real qolsa qoʻshing."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Bozzhyra / Boszhira Tract"
+          "ru": "Урочище Бозжыра"
+          "uz": "Bozzhyra / Boszhira hududi"
+        "description":
+          "en": "The tract is more than a viewpoint. It is where the Mangystau road opens into white rock, cut edges, pale bowls, and a silence that makes the group slow down. The visit is strongest when the road has been checked locally and you have enough time to step back, understand the scale"
+          "ru": "Урочище - не просто смотровая точка. Здесь дорога по Мангистау раскрывается в белой породе, резаных краях, светлых чашах и тишине, которая заставляет группу замедлиться. Визит сильнее, когда дорога проверена на месте, а у путешественника есть время отойти, почувствовать масштаб и"
+          "uz": "Hudud faqat koʻrinish nuqtasi emas. Bu yerda Mangistau yoʻli oq tosh, kesilgan chetlar, och rangli chuqurliklar va guruhni sekinlashtiradigan sukunatga ochiladi. Yoʻl mahalliy tekshirilgan, sayohatchida esa orqaga chekinib, miqyosni anglash va zaminni izsiz qoldirish uchun vaqt b"
+        "ctaHref": "/destinations/kazakhstan/mangystau-and-caspian-west/bozzhira/bozzhyra-boszhira-tract"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route moments"
+      "ru": "Маршрутные моменты"
+      "uz": "Yoʻl lahzalari"
+    "title":
+      "en": "Three choices before the plateau opens"
+      "ru": "Три решения перед открытым плато"
+      "uz": "Ochiq plato oldidan uch qaror"
+    "description":
+      "en": "The area reads best when the first view, the light and ground, and the return-or-camp decision each have their own place."
+      "ru": "Бозжыра становится понятнее, когда первый вид, свет с грунтом и выбор между возвращением и ночевкой получают свое место."
+      "uz": "Birinchi koʻrinish, yorugʻlik bilan zamin va qaytish yoki tunash qarori alohida oʻrin olganda Bozzhira aniqroq seziladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Keep the evening realistic"
+          "ru": "Держите вечер реалистичным"
+          "uz": "Kechani real saqlang"
+        "description":
+          "en": "Sunrise, sunset, and stars can be reasons to stay, but water, gear, wind, permission, and the return drive must be settled first."
+          "ru": "Рассвет, закат и звезды могут быть причиной остаться, но вода, снаряжение, ветер, разрешение и обратная дорога решаются заранее."
+          "uz": "Tong, quyosh botishi va yulduzlar qolish sababi boʻlishi mumkin, lekin suv, jihoz, shamol, ruxsat va qaytish yoʻli oldindan hal qilinadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Let conditions shape the stop"
+          "ru": "Пусть условия задают остановку"
+          "uz": "Sharoit toʻxtashni belgilasin"
+        "description":
+          "en": "Softer light, heat, wind, rain, and fragile edges decide where the visit should slow down and where it should stay back."
+          "ru": "Мягкий свет, жара, ветер, дождь и хрупкие края подсказывают, где задержаться, а где лучше держаться дальше."
+          "uz": "Yumshoq yorugʻlik, issiq, shamol, yomgʻir va nozik chetlar qayerda sekinlashish, qayerda uzoqroq turish kerakligini bildiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Choose the view before the road expands"
+          "ru": "Выберите вид до расширения дороги"
+          "uz": "Yoʻl kengayishidan oldin manzarani tanlang"
+        "description":
+          "en": "Begin with one panorama or fang-like form, so the white cliffs get enough light, walking margin, and quiet."
+          "ru": "Начните с одной панорамы или зубчатой формы, чтобы белым скалам хватило света, запаса на ходьбу и тишины."
+          "uz": "Bitta panorama yoki tishsimon shakldan boshlang, shunda oq qoyalarga yorugʻlik, piyoda zaxira va sokinlik yetadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Yoʻlga chiqishdan oldin"
+    "title":
+      "en": "Let the landscape set the pace"
+      "ru": "Пусть ландшафт задает темп"
+      "uz": "Landshaft tempni belgilasin"
+    "description":
+      "en": "Bozzhira rewards restraint. The cliffs stay memorable when the road, light, silence, and open ground are given enough time."
+      "ru": "Бозжыра благодарит за сдержанность. Скалы запоминаются сильнее, когда дороге, свету, тишине и открытому пространству дают достаточно времени."
+      "uz": "Bozzhira vazminlikni qadrlaydi. Yoʻl, yorugʻlik, sukunat va ochiq zaminga yetarli vaqt berilganda qoyalar koʻproq esda qoladi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Start with one view"
+              "ru": "Начните с одного вида"
+              "uz": "Bitta koʻrinishdan boshlang"
+            "description":
+              "en": "The area has several viewpoint choices. One main focus gives the cliffs enough light, walking margin, and quiet."
+              "ru": "В урочище несколько смотровых вариантов. Один главный фокус дает скалам достаточно света, запаса на ходьбу и тишины."
+              "uz": "Hududda bir nechta koʻrinish tanlovi bor. Bitta asosiy fokus qoyalarga yorugʻlik, piyoda zaxira va sokinlik beradi."
+          - "type": "quote"
+            "quote":
+              "en": "Bozzhira is strongest when the route stops chasing one more place and lets the white cliffs set the pace."
+              "ru": "Бозжыра сильнее, когда маршрут перестает гнаться за еще одной точкой и позволяет белым скалам задать темп."
+              "uz": "Bozzhira yoʻl yana bir nuqtani quvishni toʻxtatib, oq qoyalar tempni belgilaganda eng kuchli boʻladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Respect the ground"
+              "ru": "Берегите грунт"
+              "uz": "Zaminni asrang"
+            "description":
+              "en": "Bozzhira's pale surface is part of the experience and part of the risk. Stay with local guidance, avoid fragile edges, and keep vehicles away from ground that should not be marked."
+              "ru": "Светлая поверхность Бозжыры - часть впечатления и часть риска. Держитесь местных рекомендаций, не подходите к хрупким краям и не оставляйте следы там, где грунт не должен быть отмечен."
+              "uz": "Bozzhiraning oq yuzasi taassurotning ham, xavfning ham bir qismi. Mahalliy tavsiyaga amal qiling, nozik chetlardan uzoqroq turing va iz qolmasligi kerak boʻlgan joyda avtomobil izini qoldirmang."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the return realistic"
+              "ru": "Реалистично считайте возвращение"
+              "uz": "Qaytishni real hisoblang"
+            "description":
+              "en": "Aktau is far enough that the return needs daylight, fuel, water, and driver judgment. If sunrise, sunset, or stars are the reason to go, the overnight plan needs as much care as the road."
+              "ru": "Актау достаточно далеко, поэтому обратная дорога требует света, топлива, воды и водительского решения. Если смысл поездки в рассвете, закате или звездах, ночевку нужно планировать так же внимательно, как дорогу."
+              "uz": "Aktau yetarlicha uzoq, shuning uchun qaytish yorugʻlik, yoqilgʻi, suv va haydovchi qarorini talab qiladi. Agar tong, quyosh botishi yoki yulduzlar safar sababi boʻlsa, tunash ham yoʻl kabi diqqat bilan rejalashtiriladi."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Что важно путешественнику"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Choose Bozzhira when the route can give the road, viewpoint, heat, water, and fragile ground the attention they need."
+              "ru": "Выбирайте Бозжыру, если маршрут может дать дороге, виду, жаре, воде и хрупкому грунту столько внимания, сколько они требуют."
+              "uz": "Bozzhirani yoʻl, koʻrinish, issiq, suv va nozik zaminga yetarli e'tibor bera oladigan yoʻnalishda tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Yoʻlga chiqishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Route role"
+                  "ru": "Коротко Роль в маршруте"
+                  "uz": "Qisqacha Yoʻnalishdagi roli"
+                "description":
+                  "en": "Ustyurt cliffs, fang-like formations, and viewpoint time."
+                  "ru": "Уступы Устюрта, зубчатые формы и время на обзор."
+                  "uz": "Ustyurt qoyalari, tishsimon shakllar va koʻrinish vaqti."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main draw"
+                  "ru": "Главное впечатление"
+                  "uz": "Asosiy taassurot"
+                "description":
+                  "en": "Limestone and chalk cliffs, sharp buttes, and wide plateau views."
+                  "ru": "Известняковые и меловые стены, острые останцы и широкие виды плато."
+                  "uz": "Ohaktosh va boʻr devorlari, oʻtkir shakllar va keng plato manzaralari."
+              - "icon": "Sun"
+                "title":
+                  "en": "Access"
+                  "ru": "Доступ"
+                  "uz": "Kirish"
+                "description":
+                  "en": "Suitable vehicle, dry-weather judgment, local driver advice, and return timing."
+                  "ru": "Подходящая машина, сухая погода, совет водителя и время возвращения."
+                  "uz": "Mos avtomobil, quruq ob-havo bahosi, haydovchi maslahati va qaytish vaqti."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and pace"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va temp"
+                "description":
+                  "en": "Cooler seasons are easier; heat, wind, rain, and no shade can reshape the visit."
+                  "ru": "Прохладные сезоны проще; жара, ветер, дождь и отсутствие тени могут изменить визит."
+                  "uz": "Salqin fasllar yengilroq; issiq, shamol, yomgʻir va soyasizlik tashrifni oʻzgartirishi mumkin."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Route fit"
+                  "ru": "Формат поездки"
+                  "uz": "Safardagi oʻrni"
+                "description":
+                  "en": "Best as its own Mangystau road stop, not a casual add-on from Aktau."
+                  "ru": "Лучше как своя дорога по Мангистау, а не случайная добавка из Актау."
+                  "uz": "Aktaudan tasodifiy qoʻshimcha emas, Mangistau yoʻlidagi alohida toʻxtash sifatida kuchliroq."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby places"
+      "ru": "Рядом"
+      "uz": "Yaqin joylar"
+    "title":
+      "en": "Return to Aktau with the road still clear"
+      "ru": "Возвращайтесь к Актау, пока дорога остается понятной"
+      "uz": "Yoʻl hali tushunarli paytda Aktauga qayting"
+    "description":
+      "en": "Aktau remains the practical arrival and recovery point for Bozzhira. Other Mangystau areas belong after their own access, weather, and timing checks."
+      "ru": "Актау остается практичной точкой прилета и восстановления после Бозжыры. Другие районы Мангистау стоит добавлять после отдельной проверки доступа, погоды и времени."
+      "uz": "Aktau Bozzhira uchun amaliy kelish va tiklanish nuqtasi boʻlib qoladi. Mangistaudagi boshqa hududlar alohida kirish, ob-havo va vaqt tekshiruvlaridan keyin qoʻshiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Aktau"
+          "ru": "Актау"
+          "uz": "Aqtau"
+        "description":
+          "en": "Aktau gives western Kazakhstan its Caspian arrival point: sea-edge walks, a practical overnight, and the first calm decisions before Mangystau's long plateau roads."
+          "ru": "Актау даёт западному Казахстану каспийскую точку прибытия: прогулку у моря, спокойную ночёвку и первые решения перед длинными дорогами Мангистау."
+          "uz": "Aqtau gʻarbiy Qozogʻiston uchun Kaspiy bo'yidagi kirish shahri: dengiz bo'yidagi sayr, qulay tunash va Mangʻistovning uzun plato yoʻllaridan oldingi ilk qarorlar."
+        "ctaHref": "/destinations/kazakhstan/mangystau-and-caspian-west/aktau"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Bozzhira in the day plan"
+      "ru": "Как поставить Бозжыра в план дня"
+      "uz": "Bozzhirani kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Bozzhira?"
+          "ru": "Сколько времени группам стоит проводить в Бозжыра?"
+          "uz": "Bozzhirada guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “White cliffs on the Ustyurt edge”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Белые уступы на краю Устюрта»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Ustyurt chetidagi oq qoyalar»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Bozzhira be a walkable core or a base for day trips?"
+          "ru": "Бозжыра — это пешеходное ядро или база для выездов?"
+          "uz": "Bozzhira piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Bozzhira's centre?"
+          "ru": "Где лучше ночевать относительно центра Бозжыра?"
+          "uz": "Bozzhira markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Bozzhira stop into your Kazakhstan programme"
+      "ru": "Встройте остановку «Бозжыра» в программу (Казахстан)"
+      "uz": "Bozzhira bekatini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Bozzhira | TourLink"
+    "ru": "Бозжыра | TourLink"
+    "uz": "Bozzhira | TourLink"
+  "metaDescription":
+    "en": "Bozzhira is where Mangystau opens into pale escarpments, fang-like rock, and a plateau that makes distance visible. The reward is not only the view; it is the measured approach, the local driver's judgment, the light on the chalk, and the choice to leave the ground unmarked."
+    "ru": "Бозжыра - место, где Мангистау раскрывается белыми уступами, зубчатыми скалами и плато, на котором особенно чувствуется расстояние. Впечатление рождается не только на смотровой: его создают размеренный подъезд, решение местного водителя, свет на меловой поверхности и бережное движение без следов."
+    "uz": "Bozzhira Mangistau och rangli qoya devorlari, tishsimon shakllar va masofani sezdiradigan plato bilan ochiladigan joy. Taassurot faqat manzaradan tugʻilmaydi; uni oʻlchangan yoʻl, mahalliy haydovchi qarori, boʻr yuzasidagi yorugʻlik va zaminni izsiz qoldirish istagi yaratadi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "mangystau-and-caspian-west"
+"latitude": 43.4719
+"longitude": 54.0575

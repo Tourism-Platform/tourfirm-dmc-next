@@ -1,0 +1,702 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "shakhrisabz"
+  "ru": "shakhrisabz"
+  "uz": "shakhrisabz"
+"title":
+  "en": "Shakhrisabz"
+  "ru": "Шахрисабз"
+  "uz": "Shahrisabz"
+"subtitle":
+  "en": "Ak-Saray, Timurid courtyards, and the foothill road"
+  "ru": "Ак-Сарай, дворы Тимуридов и дорога к предгорьям"
+  "uz": "Ak-Saroy, temuriy hovlilar va tog‘oldi yo‘li"
+"excerpt":
+  "en": "Shakhrisabz changes the journey after Samarkand. The city begins with the surviving Ak-Saray portal, then moves into Dorut Tilovat, Kok Gumbaz, Dorus-Saodat, Chorsu, museum rooms, and the road east toward Kitab, where the Kashkadarya route starts to approach the foothills."
+  "ru": "После Самарканда Шахрисабз меняет ход маршрута. Город начинается с сохранившегося портала Ак-Сарая, затем переходит к Дорут-Тиловату, Кок-Гумбазу, Дорус-Саодату, Чорсу, музейным залам и дороге на восток к Китабу, где маршрут по Кашкадарье начинает подходить к предгорьям."
+  "uz": "Samarqanddan keyin Shahrisabz yo‘l kayfiyatini o‘zgartiradi. Shahar saqlangan Ak-Saroy peshtoqidan boshlanadi, keyin Dorut Tilovat, Ko‘k Gumbaz, Dorus-Saodat, Chorsu, muzey xonalari va Qashqadaryo yo‘li tog‘oldiga yaqinlashadigan Kitob tomonga o‘tadi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/shakhrisabz.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/shakhrisabz.webp"
+    "imageAlt":
+      "en": "Shakhrisabz"
+      "ru": "Шахрисабз"
+      "uz": "Shahrisabz"
+    "title":
+      "en": "Shakhrisabz"
+      "ru": "Шахрисабз"
+      "uz": "Shahrisabz"
+    "description":
+      "en": "Ak-Saray, Timurid courtyards, and the foothill road"
+      "ru": "Ак-Сарай, дворы Тимуридов и дорога к предгорьям"
+      "uz": "Ak-Saroy, temuriy hovlilar va tog‘oldi yo‘li"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Shakhrisabz"
+      "ru": "Шахрисабз"
+      "uz": "Shahrisabz"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Shakhrisabz changes the journey after Samarkand."
+              "ru": "После Самарканда Шахрисабз меняет ход маршрута."
+              "uz": "Samarqanddan keyin Shahrisabz yo‘l kayfiyatini o‘zgartiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Shakhrisabz is easiest to follow from Ak-Saray into nearby courtyards, memorial spaces, Chorsu, and museum rooms before the road turns toward Qarshi or Kitab."
+              "ru": "Шахрисабз проще воспринимать от Ак-Сарая к близким дворам, мемориальным местам, Чорсу и музейным залам, прежде чем дорога повернёт к Карши или Китабу."
+              "uz": "Shahrisabzni Ak-Saroydan yaqin hovlilar, memorial joylar, Chorsu va muzey xonalariga o‘tib ko‘rish osonroq; undan keyin yo‘l Qarshi yoki Kitob tomonga buriladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Ak-Saray gives the opening landmark; Dorut Tilovat, Kok Gumbaz, Dorus-Saodat, Chorsu, and the museums make the city more than a palace stop."
+              "ru": "Ак-Сарай даёт первую точку маршрута; Дорут-Тиловат, Кок-Гумбаз, Дорус-Саодат, Чорсу и музеи показывают, что город не сводится к одной дворцовой остановке."
+              "uz": "Ak-Saroy yo‘lning birinchi tayanchini beradi; Dorut Tilovat, Ko‘k Gumbaz, Dorus-Saodat, Chorsu va muzeylar shaharni bitta saroy bekatidan kengroq ko‘rsatadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Shakhrisabz as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Шахрисабз как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Shahrisabz o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "По городу"
+      "uz": "Shahar bo‘ylab"
+    "title":
+      "en": "Start with Ak-Saray, then follow the centre"
+      "ru": "Начните с Ак-Сарая, затем идите по центру"
+      "uz": "Avval Ak-Saroy, keyin markaz bo‘ylab"
+    "description":
+      "en": "Shakhrisabz is easiest to follow from Ak-Saray into nearby courtyards, memorial spaces, Chorsu, and museum rooms before the road turns toward Qarshi or Kitab."
+      "ru": "Шахрисабз проще воспринимать от Ак-Сарая к близким дворам, мемориальным местам, Чорсу и музейным залам, прежде чем дорога повернёт к Карши или Китабу."
+      "uz": "Shahrisabzni Ak-Saroydan yaqin hovlilar, memorial joylar, Chorsu va muzey xonalariga o‘tib ko‘rish osonroq; undan keyin yo‘l Qarshi yoki Kitob tomonga buriladi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Kashkadarya route"
+        "ru": "Маршрут по Кашкадарье"
+        "uz": "Qashqadaryo yo‘li"
+      "title":
+        "en": "Shakhrisabz with Qarshi and Kitab"
+        "ru": "Шахрисабз вместе с Карши и Китабом"
+        "uz": "Qarshi va Kitob bilan Shahrisabz"
+      "description":
+        "en": "The map keeps Shakhrisabz connected to Qarshi city life and Kitab foothill roads, so the city is not treated only as a detour from Samarkand."
+        "ru": "Карта связывает Шахрисабз с городской жизнью Карши и дорогами к предгорьям у Китаба, чтобы город не воспринимался только как выезд из Самарканда."
+        "uz": "Xarita Shahrisabzni Qarshi shahar hayoti va Kitob tomondagi tog‘oldi yo‘llari bilan bog‘laydi, shuning uchun shahar faqat Samarqanddan chiqiladigan qisqa yo‘l sifatida ko‘rinmaydi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.003455
+      "longitude": 66.49809
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "ak-saray-palace-shakhrisabz"
+      - "entityType": "attraction"
+        "entitySlug": "amir-temur-museum-shakhrisabz"
+      - "entityType": "attraction"
+        "entitySlug": "chorsu-covered-bazaar-shakhrisabz"
+      - "entityType": "attraction"
+        "entitySlug": "crypt-of-amir-temur-shakhrisabz"
+      - "entityType": "attraction"
+        "entitySlug": "dorus-saodat-complex"
+      - "entityType": "attraction"
+        "entitySlug": "dorut-tilovat-ensemble"
+      - "entityType": "attraction"
+        "entitySlug": "gumbazi-sayyidon-mausoleum"
+      - "entityType": "attraction"
+        "entitySlug": "kok-gumbaz-mosque-shakhrisabz"
+      - "entityType": "attraction"
+        "entitySlug": "makom-museum-shakhrisabz"
+      - "entityType": "attraction"
+        "entitySlug": "shamsiddin-kulol-mausoleum"
+    "aside":
+      "eyebrow":
+        "en": "City route"
+        "ru": "Маршрут по городу"
+        "uz": "Shahar yo‘li"
+      "title":
+        "en": "Ak-Saray, courtyards, and museums"
+        "ru": "Ак-Сарай, дворы и музеи"
+        "uz": "Ak-Saroy, hovlilar va muzeylar"
+      "description":
+        "en": "Ak-Saray gives the opening landmark; Dorut Tilovat, Kok Gumbaz, Dorus-Saodat, Chorsu, and the museums make the city more than a palace stop."
+        "ru": "Ак-Сарай даёт первую точку маршрута; Дорут-Тиловат, Кок-Гумбаз, Дорус-Саодат, Чорсу и музеи показывают, что город не сводится к одной дворцовой остановке."
+        "uz": "Ak-Saroy yo‘lning birinchi tayanchini beradi; Dorut Tilovat, Ko‘k Gumbaz, Dorus-Saodat, Chorsu va muzeylar shaharni bitta saroy bekatidan kengroq ko‘rsatadi."
+      "items":
+        - "title":
+            "en": "Ak-Saray opens the city route"
+            "ru": "Ак-Сарай открывает маршрут по городу"
+            "uz": "Ak-Saroy shahar yo‘lini ochadi"
+          "description":
+            "en": "The surviving portal and wall remains make Timur's ambition visible before the route turns to courtyards, memorial spaces, and museum context."
+            "ru": "Сохранившийся портал и стены показывают замысел Тимура, прежде чем маршрут перейдёт к дворам, мемориальным местам и музейному контексту."
+            "uz": "Saqlangan peshtoq va devor qoldiqlari Amir Temur niyatini ko‘rsatadi, keyin yo‘l hovlilar, memorial joylar va muzey kontekstiga o‘tadi."
+          "badge":
+            "en": "Ak-Saray"
+            "ru": "Ак-Сарай"
+            "uz": "Ak-Saroy"
+        - "title":
+            "en": "Dorut Tilovat leads into nearby stops"
+            "ru": "Дорут-Тиловат ведёт к соседним остановкам"
+            "uz": "Dorut Tilovat yaqin bekatlarga olib boradi"
+          "description":
+            "en": "Kok Gumbaz, Shamsiddin Kulol, and Gumbazi Sayyidon sit close enough to form a clear continuation after the palace."
+            "ru": "Кок-Гумбаз, Шамсиддин Кулол и Гумбази-Саййидон стоят близко друг к другу и становятся ясным продолжением после дворца."
+            "uz": "Ko‘k Gumbaz, Shamsiddin Kulol va Gumbazi Sayyidon bir-biriga yaqin turadi va saroydan keyingi aniq davomni yaratadi."
+          "badge":
+            "en": "Courtyards"
+            "ru": "Дворы"
+            "uz": "Hovlilar"
+        - "title":
+            "en": "Chorsu and the museums add market life"
+            "ru": "Чорсу и музеи добавляют рынок и коллекции"
+            "uz": "Chorsu va muzeylar bozor hayotini qo‘shadi"
+          "description":
+            "en": "The covered bazaar, Amir Temur Museum, and Maqom Museum bring market movement, objects, and music into the heritage walk."
+            "ru": "Крытый базар, Музей Амира Темура и Музей макома вводят в прогулку движение рынка, предметы и музыку."
+            "uz": "Yopiq bozor, Amir Temur muzeyi va Maqom muzeyi meros sayriga bozor harakati, muzey buyumlari va musiqani qo‘shadi."
+          "badge":
+            "en": "Chorsu"
+            "ru": "Чорсу"
+            "uz": "Chorsu"
+        - "title":
+            "en": "Kitab opens the foothill continuation"
+            "ru": "Китаб открывает продолжение к предгорьям"
+            "uz": "Kitob tog‘oldi davomiga yo‘l ochadi"
+          "description":
+            "en": "Beyond the city, the route can turn toward Kitab, Gissarak, Sarchashma, G'elon, or the road back to Qarshi once access and timing are checked."
+            "ru": "За городом маршрут может повернуть к Китабу, Гиссараку, Сарчашме, Гелону или обратно к Карши, когда понятны доступ и время в дороге."
+            "uz": "Shahar ortida yo‘l Kitob, G‘issarak, Sarchashma, G‘elon yoki Qarshi tomonga qaytishi mumkin; buning uchun kirish va vaqt oldindan aniq bo‘lishi kerak."
+          "badge":
+            "en": "Kitab"
+            "ru": "Китаб"
+            "uz": "Kitob"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Main places in Shakhrisabz"
+      "ru": "Главные места Шахрисабза"
+      "uz": "Shahrisabzning asosiy joylari"
+    "description":
+      "en": "Start with Ak-Saray, then follow the historic centre through Dorut Tilovat, Kok Gumbaz, Shamsiddin Kulol, Gumbazi Sayyidon, Dorus-Saodat, the Crypt of Amir Temur, Chorsu, and the museum stops. Historic baths and smaller mosque context remain for later local verification."
+      "ru": "Начните с Ак-Сарая, затем проходите исторический центр через Дорут-Тиловат, Кок-Гумбаз, Шамсиддина Кулола, Гумбази-Саййидон, Дорус-Саодат, склеп Амира Темура, Чорсу и музейные остановки. Исторические бани и малые мечети остаются для будущей местной проверки."
+      "uz": "Ak-Saroydan boshlang, keyin tarixiy markaz bo‘ylab Dorut Tilovat, Ko‘k Gumbaz, Shamsiddin Kulol, Gumbazi Sayyidon, Dorus-Saodat, Amir Temur sag‘anasi, Chorsu va muzey bekatlariga o‘ting. Tarixiy hammomlar va kichik masjidlar keyingi mahalliy tekshiruv uchun qoladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/shakhrisabz/attractions/ak-saray-palace-shakhrisabz.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Ak-Saray Palace"
+          "ru": "Дворец Ак-Сарай"
+          "uz": "Ak-Saroy saroyi"
+        "description":
+          "en": "Ak-Saray gives Shakhrisabz its first landmark: two surviving palace walls, blue tile and inscription traces, and an open square where the lost Timurid palace becomes easier to imagine before the route continues to the city's courtyards and memorial sites."
+          "ru": "Ак-Сарай даёт Шахрисабзу первый главный ориентир: две уцелевшие стены дворцового портала, следы синей майолики и надписей, открытая площадь и ощущение утраченного дворца до перехода к дворам и мемориальным местам города."
+          "uz": "Ak-Saroy Shahrisabzga birinchi asosiy mo‘ljalni beradi: saqlangan ikki saroy peshtoqi devori, ko‘k koshin va yozuv izlari, ochiq maydon va shahar hovlilari hamda memorial joylariga o‘tishdan oldin yo‘qolgan saroyni tasavvur qilish imkoniyati."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/shakhrisabz/ak-saray-palace-shakhrisabz"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/shakhrisabz/attractions/dorut-tilovat-ensemble.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Dorut Tilovat"
+          "ru": "Дорут-Тиловат"
+          "uz": "Dorut Tilovat"
+        "description":
+          "en": "Dorut Tilovat continues Shakhrisabz after Ak-Saray through a religious courtyard setting: mausoleum memory, Kok Gumbaz close by, and a sacred place where the visit needs attention rather than speed."
+          "ru": "После Ак-Сарая маршрут в Шахрисабзе переходит к Дорут-Тиловату: двору ансамбля, памяти мавзолеев, Кок-Гумбазу рядом и религиозному месту, где лучше идти спокойно и с уважением."
+          "uz": "Dorut Tilovat Shahrisabz yo‘lini Ak-Saroydan keyin boshqa muhitda davom ettiradi: hovli ansambli, maqbaralar xotirasi, yonidagi Ko‘k Gumbaz va shoshmasdan, hurmat bilan ko‘riladigan muqaddas joy."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/shakhrisabz/dorut-tilovat-ensemble"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/shakhrisabz/attractions/kok-gumbaz-mosque-shakhrisabz.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Kok Gumbaz"
+          "ru": "Кок-Гумбаз"
+          "uz": "Ko‘k Gumbaz"
+        "description":
+          "en": "After Ak-Saray, Kok Gumbaz gives the Shakhrisabz route a different kind of landmark: not a palace wall, but a mosque within Dorut Tilovat where the dome, brickwork, inscriptions, and courtyard are close enough to read together."
+          "ru": "После Ак-Сарая Кок-Гумбаз даёт маршруту по Шахрисабзу другой ориентир: не дворцовую стену, а мечеть внутри Дорут-Тиловата, где купол, кирпичная кладка, надписи и двор читаются вместе."
+          "uz": "Ak-Saroydan keyin Ko‘k Gumbaz Shahrisabz yo‘liga boshqa belgi beradi: saroy devori emas, Dorut Tilovat ichidagi masjid. Bu yerda gumbaz, g‘isht, yozuvlar va hovli birga ko‘rinadi."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/shakhrisabz/kok-gumbaz-mosque-shakhrisabz"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/shakhrisabz/attractions/shamsiddin-kulol-mausoleum.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Shamsiddin Kulol"
+          "ru": "Шамсиддин Кулол"
+          "uz": "Shamsiddin Kulol"
+        "description":
+          "en": "After Kok Gumbaz, Shamsiddin Kulol changes the focus inside Dorut Tilovat: from the blue-domed mosque to the burial of a Sufi teacher, the tombstone story, and the way visitors move through a religious memorial setting."
+          "ru": "После Кок-Гумбаза Шамсиддин Кулол меняет фокус внутри Дорут-Тиловата: от синего купола мечети к захоронению суфийского наставника, истории надгробия и тому, как посетители проходят религиозное мемориальное место."
+          "uz": "Ko‘k Gumbazdan keyin Shamsiddin Kulol Dorut Tilovat ichidagi diqqatni o‘zgartiradi: ko‘k gumbazli masjiddan so‘fiy ustoz dafn joyiga, qabrtosh hikoyasiga va diniy memorial joyda harakat qilish odobiga."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/shakhrisabz/shamsiddin-kulol-mausoleum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/shakhrisabz/attractions/gumbazi-sayyidon-mausoleum.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Gumbazi Sayyidon"
+          "ru": "Гумбази-Саййидон"
+          "uz": "Gumbazi Sayyidon"
+        "description":
+          "en": "After the blue dome of Kok Gumbaz and the Shamsiddin Kulol memorial, Gumbazi Sayyidon shifts attention to a smaller mausoleum: inscriptions, marble tombstones, painted traces, and the family memory of the Sayyids."
+          "ru": "После синего купола Кок-Гумбаза и мавзолея Шамсиддина Кулола Гумбази-Саййидон переводит внимание к небольшому мавзолею: надписям, мраморным надгробиям, следам росписи и родовой памяти сейидов."
+          "uz": "Ko‘k Gumbazning moviy gumbazi va Shamsiddin Kulol maqbarasidan keyin Gumbazi Sayyidon eʼtiborni kichik maqbaraga qaratadi: yozuvlar, marmar qabrtoshlar, bezak izlari va sayyidlar nasabi xotirasiga."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/shakhrisabz/gumbazi-sayyidon-mausoleum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/shakhrisabz/attractions/dorus-saodat-complex.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Dorus-Saodat"
+          "ru": "Дорус-Саодат"
+          "uz": "Dorus-Saodat"
+        "description":
+          "en": "Dorus-Saodat changes the focus after Ak-Saray: Jahangir's mausoleum, surviving brickwork, a mosque setting, and the crypt nearby make family memory concrete."
+          "ru": "В Дорус-Саодате после Ак-Сарая внимание переходит к семейной памяти: мавзолею Джахангира, уцелевшей кирпичной архитектуре, пространству мечети и склепу рядом."
+          "uz": "Dorus-Saodatda Ak-Saroydan keyin eʼtibor oilaviy xotiraga o‘tadi: Jahongir maqbarasi, saqlangan g‘isht meʼmorchiligi, masjid hududi va yaqin sag‘ana."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/shakhrisabz/dorus-saodat-complex"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/shakhrisabz/attractions/crypt-of-amir-temur-shakhrisabz.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Crypt of Amir Temur"
+          "ru": "Склеп Амира Темура"
+          "uz": "Amir Temur sag‘anasi"
+        "description":
+          "en": "Near Dorus-Saodat, Shakhrisabz narrows from Timurid scale to a single underground chamber. The crypt was prepared for Amir Temur, but he was not buried here; if it is open, the visit is brief, quiet, and strongest when that fact stays plain."
+          "ru": "Рядом с Дорус-Саодат Шахрисабз сужается от тимуридского масштаба до одной подземной камеры. Склеп был подготовлен для Амира Темура, но он не был похоронен здесь; если камера открыта, визит получается коротким, тихим и сильнее всего действует тогда, когда факт остаётся простым."
+          "uz": "Dorus-Saodat yonida Shahrisabz temuriylar miqyosidan bitta yerosti kameraga torayadi. Sag‘ana Amir Temur uchun tayyorlangan, ammo u bu yerda dafn etilmagan; agar kamera ochiq bo‘lsa, tashrif qisqa, sokin va fakt sodda qolganida kuchliroq bo‘ladi."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/shakhrisabz/crypt-of-amir-temur-shakhrisabz"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/shakhrisabz/attractions/chorsu-covered-bazaar-shakhrisabz.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Chorsu Covered Bazaar"
+          "ru": "Крытый базар Чорсу"
+          "uz": "Chorsu yopiq bozori"
+        "description":
+          "en": "Chorsu brings Shakhrisabz back to the street. UNESCO names the Chor-su bazaar within the historic centre: a covered market at the meeting of old routes, where an octagonal plan, central cupola, brick passages, and passing trade keep the walk from becoming only palaces and memoria"
+          "ru": "Чорсу возвращает прогулку по Шахрисабзу к городской улице. UNESCO называет базар Chor-su внутри исторического центра: крытый рынок на встрече старых дорог, где восьмиугольный план, центральный купол, кирпичные проходы и торговая память не дают маршруту стать только чередой дворцо"
+          "uz": "Chorsu Shahrisabz sayrini yana shahar ko‘chasiga qaytaradi. UNESCO Chor-su bozorini tarixiy markaz ichida tilga oladi: eski yo‘llar tutashgan joydagi yopiq bozor, sakkiz qirrali reja, markaziy gumbaz, g‘isht yo‘laklar va savdo xotirasi marshrutni faqat saroy va memoriallardan ibo"
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/shakhrisabz/chorsu-covered-bazaar-shakhrisabz"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/shakhrisabz/attractions/amir-temur-museum-shakhrisabz.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Amir Temur Museum"
+          "ru": "Музей Амира Темура"
+          "uz": "Amir Temur muzeyi"
+        "description":
+          "en": "Inside Chubin Madrasah, Amir Temur Museum slows the Shakhrisabz walk down to rooms, cases, courtyard displays, and object detail. After Ak-Saray's scale and the memorial courtyards, the museum helps the city feel close enough to read through carved wood, ceramics, fragments, mode"
+          "ru": "Внутри медресе Чубин Музей Амира Темура переводит прогулку по Шахрисабзу в другой масштаб: залы, витрины, двор и детали предметов. После размаха Ак-Сарая и мемориальных дворов здесь легче рассмотреть город вблизи: резное дерево, керамику, фрагменты, модели и темуридские материалы"
+          "uz": "Chubin madrasasi ichida Amir Temur muzeyi Shahrisabz sayrini boshqa miqyosga olib kiradi: zallar, vitrinalar, hovli va buyum tafsilotlari. Ak-Saroyning keng manzarasi va memorial hovlilardan keyin bu yerda shaharni yaqindan ko‘rish osonlashadi: o‘yma yog‘och, sopol, parchalar, ma"
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/shakhrisabz/amir-temur-museum-shakhrisabz"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/shakhrisabz/attractions/makom-museum-shakhrisabz.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Maqom Museum"
+          "ru": "Музей макома"
+          "uz": "Maqom muzeyi"
+        "description":
+          "en": "Near the Oq-Saroy area, Maqom Museum gathers archive photographs, documents, musical instruments, and the memory of maqom schools. It gives the Shakhrisabz route a calmer room after the monuments, where Timurid architecture is joined by classical music memory and living Uzbek rep"
+          "ru": "Рядом с зоной Ак-Сарая Музей макома собирает архивные фотографии, документы, музыкальные инструменты и память о школах макома. После памятников он даёт маршруту более тихую комнату, где темуридская архитектура соединяется с классической музыкальной памятью и живым узбекским репер"
+          "uz": "Ak-Saroy hududiga yaqin Maqom muzeyida arxiv suratlari, hujjatlar, musiqa asboblari va maqom maktablari xotirasi jamlanadi. Yodgorliklar ortidan u Shahrisabz yo‘nalishiga tinchroq xona beradi: temuriy meʼmorchilik mumtoz musiqa xotirasi va tirik o‘zbek repertuari bilan bog‘lanadi"
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/shakhrisabz/makom-museum-shakhrisabz"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City moments"
+      "ru": "Городские моменты"
+      "uz": "Shahar lahzalari"
+    "title":
+      "en": "Shakhrisabz beyond the main monuments"
+      "ru": "Шахрисабз шире главных памятников"
+      "uz": "Shahrisabz asosiy yodgorliklardan kengroq"
+    "description":
+      "en": "The city comes through in three clear moments: the Ak-Saray approach, the Dorut Tilovat and Kok Gumbaz courtyard setting, and the road that can continue toward Kitab and the foothills."
+      "ru": "Город лучше раскрывается через три момента: подход к Ак-Сараю, двор Дорут-Тиловата с Кок-Гумбазом и дорогу, которая может продолжиться к Китабу и предгорьям."
+      "uz": "Shahar uchta aniq lahzada yaxshi ochiladi: Ak-Saroyga yondashuv, Dorut Tilovat va Ko‘k Gumbaz hovli muhiti, hamda Kitob va tog‘oldi tomonga davom etishi mumkin bo‘lgan yo‘l."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/shakhrisabz/shakhrisabz-character-1.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Shakhrisabz heritage walk"
+          "ru": "Прогулка по наследию Шахрисабза"
+          "uz": "Shahrisabz merosi bo‘ylab sayr"
+        "description":
+          "en": "Ak-Saray, shrine ensembles, Chorsu, and museum context make Shakhrisabz the first clear reason to take the Kashkadarya road south from Samarkand."
+          "ru": "Ак-Сарай, ансамбли святынь, Чорсу и музейный контекст дают Шахрисабзу первую ясную причину выехать по кашкадарьинской дороге к югу от Самарканда."
+          "uz": "Ak-Saroy, ziyorat ansambllari, Chorsu va muzey konteksti Shahrisabzni Samarqanddan janubga Qashqadaryo yo‘liga chiqish uchun birinchi aniq sababga aylantiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/shakhrisabz/shakhrisabz-character-2.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Dorut Tilovat and Kok Gumbaz"
+          "ru": "Дорут-Тиловат и Кок-Гумбаз"
+          "uz": "Dorut Tilovat va Ko‘k Gumbaz"
+        "description":
+          "en": "After Ak-Saray, Dorut Tilovat brings the route into Kok Gumbaz, courtyard space, revered names, and the more intimate side of Shakhrisabz's memorial centre."
+          "ru": "После Ак-Сарая Дорут-Тиловат переводит маршрут к Кок-Гумбазу, дворам, почитаемым именам и более камерной стороне мемориального центра Шахрисабза."
+          "uz": "Ak-Saroydan keyin Dorut Tilovat yo‘lni Ko‘k Gumbaz, hovlilar, eʼzozlangan ismlar va Shahrisabz memorial markazining sokinroq tomoniga olib kiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/shakhrisabz/shakhrisabz-character-3.webp"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Road toward the foothills"
+          "ru": "Дорога к предгорьям"
+          "uz": "Tog‘oldi tomonga yo‘l"
+        "description":
+          "en": "Beyond Shakhrisabz, the route can continue toward Kitab, Gissarak, Sarchashma, mountain villages, and the Gissar edge when road conditions and access are clear."
+          "ru": "После Шахрисабза маршрут может продолжаться к Китабу, Гиссараку, Сарчашме, горным селениям и Гиссарскому краю, если понятны дорога и доступ."
+          "uz": "Shahrisabzdan keyin yo‘nalish Kitob, G‘issarak, Sarchashma, tog‘ qishloqlari va Hisor chetiga davom etishi mumkin, agar yo‘l sharoiti va kirish aniq bo‘lsa."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "How to read Shakhrisabz after Samarkand"
+      "ru": "Как читать Шахрисабз после Самарканда"
+      "uz": "Samarqanddan keyin Shahrisabzni qanday o‘qish kerak"
+    "description":
+      "en": "Shakhrisabz needs more than a quick palace stop. Ak-Saray starts the visit, but the city becomes clearer through nearby courtyards, memorial places, Chorsu, museum collections, and the choice of where the Kashkadarya route goes next."
+      "ru": "Шахрисабзу нужно больше, чем короткая дворцовая остановка. Ак-Сарай начинает визит, но город становится понятнее через близкие дворы, мемориальные места, Чорсу, музейные коллекции и выбор следующей дороги по Кашкадарье."
+      "uz": "Shahrisabzga tez saroy bekati sifatida qarash yetarli emas. Ak-Saroy tashrifni boshlaydi, lekin shahar yaqin hovlilar, memorial joylar, Chorsu, muzey buyumlari va Qashqadaryo yo‘li qayerga davom etishini tanlash orqali aniqroq bo‘ladi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Start at Ak-Saray"
+              "ru": "Сначала Ак-Сарай"
+              "uz": "Avval Ak-Saroy"
+            "description":
+              "en": "Ak-Saray gives the route its first orientation: not just a palace ruin, but the reason Shakhrisabz has to be read as Timur's southern city."
+              "ru": "Ак-Сарай даёт маршруту первую ориентацию: это не только руина дворца, а причина читать Шахрисабз как южный город Тимура."
+              "uz": "Ak-Saroy yo‘lga birinchi yo‘nalishni beradi: bu faqat saroy xarobasi emas, Shahrisabzni Amir Temurning janubiy shahri sifatida o‘qish sababidir."
+          - "type": "quote"
+            "quote":
+              "en": "Shakhrisabz begins with Ak-Saray; the city comes into focus through courtyards, market passages, museums, and the road after it."
+              "ru": "Шахрисабз начинается с Ак-Сарая; город складывается через дворы, рыночные проходы, музеи и дорогу после них."
+              "uz": "Shahrisabz Ak-Saroydan boshlanadi; shahar hovlilar, bozor yo‘laklari, muzeylar va undan keyingi yo‘l orqali to‘liqroq ko‘rinadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Move into Dorut Tilovat"
+              "ru": "Дальше Дорут-Тиловат"
+              "uz": "Keyin Dorut Tilovat"
+            "description":
+              "en": "The next stops sit closer together: Kok Gumbaz, Shamsiddin Kulol, Gumbazi Sayyidon, and the courtyard setting around them."
+              "ru": "Следующие остановки стоят близко друг к другу: Кок-Гумбаз, Шамсиддин Кулол, Гумбази-Саййидон и двор вокруг них."
+              "uz": "Keyingi bekatlar bir-biriga yaqin turadi: Ko‘k Gumbaz, Shamsiddin Kulol, Gumbazi Sayyidon va ularning atrofidagi hovli."
+          - "type": "dashTitle"
+            "title":
+              "en": "Choose the next road"
+              "ru": "Выберите следующую дорогу"
+              "uz": "Keyingi yo‘lni tanlang"
+            "description":
+              "en": "Chorsu and the museums can keep the walk in the historic centre; add Kitab, Gissarak, Sarchashma, or Qarshi only when route timing and access are clear."
+              "ru": "Чорсу и музеи могут оставить прогулку в историческом центре; Китаб, Гиссарак, Сарчашму или Карши стоит добавлять только тогда, когда понятны дорога и доступ."
+              "uz": "Chorsu va muzeylar sayrni tarixiy markaz ichida ushlab turishi mumkin; Kitob, G‘issarak, Sarchashma yoki Qarshini esa yo‘l va kirish aniq bo‘lganda qo‘shgan yaxshi."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Start at Ak-Saray, then let the route pass through Dorut Tilovat, Dorus-Saodat, Chorsu, and at least one museum or foothill continuation when timing and access are clear."
+              "ru": "Начните с Ак-Сарая, но не ограничивайтесь им: проведите маршрут через Дорут-Тиловат, Дорус-Саодат, Чорсу и хотя бы один музей или продолжение к предгорьям, когда подходят время и доступ."
+              "uz": "Ak-Saroydan boshlang, lekin shaharni shu yerda tugatmang: vaqt va kirish mos bo‘lsa, yo‘l Dorut Tilovat, Dorus-Saodat, Chorsu va kamida bitta muzey yoki tog‘oldi davomi orqali davom etsin."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before you go Route role"
+                  "ru": "Перед поездкой Роль в маршруте"
+                  "uz": "Safardan oldin Yo‘nalishdagi roli"
+                "description":
+                  "en": "Heritage city south of Samarkand and the first major stop in Kashkadarya."
+                  "ru": "Город наследия к югу от Самарканда и первая крупная остановка в Кашкадарье."
+                  "uz": "Samarqanddan janubdagi meros shahri va Qashqadaryodagi birinchi yirik bekat."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main places"
+                  "ru": "Главные места"
+                  "uz": "Asosiy joylar"
+                "description":
+                  "en": "Ak-Saray, Dorut Tilovat, Kok Gumbaz, Dorus-Saodat, Chorsu, Amir Temur Museum, and Maqom Museum."
+                  "ru": "Ак-Сарай, Дорут-Тиловат, Кок-Гумбаз, Дорус-Саодат, Чорсу, Музей Амира Темура и Музей макома."
+                  "uz": "Ak-Saroy, Dorut Tilovat, Ko‘k Gumbaz, Dorus-Saodat, Chorsu, Amir Temur muzeyi va Maqom muzeyi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Season and pace"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va surʼat"
+                "description":
+                  "en": "Spring and autumn are easier for walking the open monument areas; in hotter months, museum time or lunch helps break up the outdoor route."
+                  "ru": "Весной и осенью легче гулять по открытым памятникам; в жаркие месяцы музей или обед помогают разделить прогулку на части."
+                  "uz": "Bahor va kuz ochiq yodgorlik joylarida yurishga qulayroq; issiq oylarda muzey yoki tushlik tashqi sayrni bo‘lib beradi."
+              - "icon": "Route"
+                "title":
+                  "en": "Continue toward"
+                  "ru": "Куда продолжить"
+                  "uz": "Qayerga davom etish"
+                "description":
+                  "en": "The route can return to Samarkand, continue south to Qarshi, or turn east toward Kitab, Gissarak, and Sarchashma when conditions are clear."
+                  "ru": "Маршрут может вернуться к Самарканду, уйти на юг к Карши или повернуть на восток к Китабу, Гиссараку и Сарчашме, когда условия понятны."
+                  "uz": "Sharoit aniq bo‘lsa, yo‘l Samarqandga qaytishi, janubga Qarshi tomonga davom etishi yoki sharqqa Kitob, G‘issarak va Sarchashmaga burilishi mumkin."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Next along the route"
+      "ru": "Дальше по маршруту"
+      "uz": "Yo‘lning davomi"
+    "title":
+      "en": "Qarshi and Kitab after Shakhrisabz"
+      "ru": "Карши и Китаб после Шахрисабза"
+      "uz": "Shahrisabzdan keyin Qarshi va Kitob"
+    "description":
+      "en": "Qarshi adds southern city life and food; Kitab opens the foothill route toward Gissarak, Sarchashma, science, shrines, and mountain villages."
+      "ru": "Карши добавляет южную городскую жизнь и еду; Китаб открывает дорогу к предгорьям, Гиссараку, Сарчашме, научным и паломническим местам, а также горным селениям."
+      "uz": "Qarshi janubiy shahar hayoti va taomni qo‘shadi; Kitob esa G‘issarak, Sarchashma, ilmiy va ziyorat joylari hamda tog‘ qishloqlari tomonga yo‘l ochadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/shakhrisabz-next-qarshi.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Qarshi"
+          "ru": "Карши"
+          "uz": "Qarshi"
+        "description":
+          "en": "Qarshi gives Kashkadarya a working city stop after Shakhrisabz: old bridge arches, mosque courtyards, water heritage, market food, and roads toward Kitab."
+          "ru": "После Шахрисабза Карши даёт Кашкадарье живую городскую остановку: арки старого моста, дворы мечетей, водное наследие, еду на рынке и дороги к Китабу."
+          "uz": "Shahrisabzdan keyin Qarshi Qashqadaryoga jonli shahar bekatini qo‘shadi: eski ko‘prik arkalari, masjid hovlilari, suv merosi, bozor taomi va Kitob tomonga yo‘llar."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/qarshi"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Shakhrisabz in the day plan"
+      "ru": "Как поставить Шахрисабз в план дня"
+      "uz": "Shahrisabzni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Shakhrisabz?"
+          "ru": "Сколько времени группам стоит проводить в Шахрисабз?"
+          "uz": "Shahrisabzda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “Ak-Saray, Timurid courtyards, and the foothill road”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Ак-Сарай, дворы Тимуридов и дорога к предгорьям»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Ak-Saroy, temuriy hovlilar va tog‘oldi yo‘li»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Shakhrisabz be a walkable core or a base for day trips?"
+          "ru": "Шахрисабз — это пешеходное ядро или база для выездов?"
+          "uz": "Shahrisabz piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Shakhrisabz's centre?"
+          "ru": "Где лучше ночевать относительно центра Шахрисабз?"
+          "uz": "Shahrisabz markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/shakhrisabz.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Shakhrisabz stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Шахрисабз» в программу (Узбекистан)"
+      "uz": "Shahrisabz bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Shakhrisabz | TourLink"
+    "ru": "Шахрисабз | TourLink"
+    "uz": "Shahrisabz | TourLink"
+  "metaDescription":
+    "en": "Shakhrisabz changes the journey after Samarkand. The city begins with the surviving Ak-Saray portal, then moves into Dorut Tilovat, Kok Gumbaz, Dorus-Saodat, Chorsu, museum rooms, and the road east toward Kitab, where the Kashkadarya route starts to approach the foothills."
+    "ru": "После Самарканда Шахрисабз меняет ход маршрута. Город начинается с сохранившегося портала Ак-Сарая, затем переходит к Дорут-Тиловату, Кок-Гумбазу, Дорус-Саодату, Чорсу, музейным залам и дороге на восток к Китабу, где маршрут по Кашкадарье начинает подходить к предгорьям."
+    "uz": "Samarqanddan keyin Shahrisabz yo‘l kayfiyatini o‘zgartiradi. Shahar saqlangan Ak-Saroy peshtoqidan boshlanadi, keyin Dorut Tilovat, Ko‘k Gumbaz, Dorus-Saodat, Chorsu, muzey xonalari va Qashqadaryo yo‘li tog‘oldiga yaqinlashadigan Kitob tomonga o‘tadi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "kashkadarya-and-shakhrisabz"
+"latitude": 39.0525821
+"longitude": 66.8278643

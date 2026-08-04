@@ -1,0 +1,502 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "karakalpakstan-and-aral-sea"
+  "ru": "karakalpakstan-and-aral-sea"
+  "uz": "karakalpakstan-and-aral-sea"
+"title":
+  "en": "Karakalpakstan & Aral Sea"
+  "ru": "Каракалпакстан и Аральское море"
+  "uz": "Qoraqalpog‘iston va Orol dengizi"
+"subtitle":
+  "en": "Nukus museums, Aral memory, and ancient Khorezm fortresses"
+  "ru": "Музеи Нукуса, память Арала и крепости древнего Хорезма"
+  "uz": "Nukus muzeylari, Orol xotirasi va qadimgi Xorazm qalʼalari"
+"excerpt":
+  "en": "Beyond Khiva, Karakalpakstan gives the route a different scale: Nukus brings the Savitsky Museum and regional history, Moynaq brings the Aral Sea story, and Ellikqala leads toward the desert fortresses of ancient Khorezm."
+  "ru": "После Хивы Каракалпакстан меняет масштаб маршрута: Нукус даёт музей Савицкого и историю региона, Муйнак приближает тему Аральского моря, а Элликкала ведёт к пустынным крепостям древнего Хорезма."
+  "uz": "Xivadan keyin Qoraqalpog‘iston yo‘nalish miqyosini o‘zgartiradi: Nukus Savitskiy muzeyi va mintaqa tarixini beradi, Mo‘ynoq Orol dengizi hikoyasini yaqinlashtiradi, Ellikqal’a esa qadimgi Xorazm cho‘l qalʼalariga olib boradi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea.webp"
+    "imageAlt":
+      "en": "Karakalpakstan & Aral Sea"
+      "ru": "Каракалпакстан и Аральское море"
+      "uz": "Qoraqalpog‘iston va Orol dengizi"
+    "title":
+      "en": "Karakalpakstan & Aral Sea"
+      "ru": "Каракалпакстан и Аральское море"
+      "uz": "Qoraqalpog‘iston va Orol dengizi"
+    "description":
+      "en": "Nukus museums, Aral memory, and ancient Khorezm fortresses"
+      "ru": "Музеи Нукуса, память Арала и крепости древнего Хорезма"
+      "uz": "Nukus muzeylari, Orol xotirasi va qadimgi Xorazm qalʼalari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О регионе"
+      "uz": "Hudud haqida"
+    "title":
+      "en": "Karakalpakstan & Aral Sea"
+      "ru": "Каракалпакстан и Аральское море"
+      "uz": "Qoraqalpog‘iston va Orol dengizi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Beyond Khiva, Karakalpakstan gives the route a different scale: Nukus brings the Savitsky Museum and regional history, Moynaq brings the Aral Sea story, and Ellikqala leads toward the desert fortresses of ancient Khorezm."
+              "ru": "После Хивы Каракалпакстан меняет масштаб маршрута: Нукус даёт музей Савицкого и историю региона, Муйнак приближает тему Аральского моря, а Элликкала ведёт к пустынным крепостям древнего Хорезма."
+              "uz": "Xivadan keyin Qoraqalpog‘iston yo‘nalish miqyosini o‘zgartiradi: Nukus Savitskiy muzeyi va mintaqa tarixini beradi, Mo‘ynoq Orol dengizi hikoyasini yaqinlashtiradi, Ellikqal’a esa qadimgi Xorazm cho‘l qalʼalariga olib boradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "The region is easier to plan from Nukus outward. From there, the route can turn north toward Moynaq and the Aral Sea story, south toward Mizdakhan and Chilpyk, or east toward Ellikqala and the ancient Khorezm fortresses."
+              "ru": "Регион удобнее собирать от Нукуса наружу. Отсюда маршрут может идти к Муйнаку и теме Арала, к Миздакхану и Чилпыку или к Элликкале и крепостям древнего Хорезма."
+              "uz": "Mintaqani Nukusdan tashqariga qarab rejalash osonroq. Shu yerdan yo‘l Mo‘ynoq va Orol hikoyasiga, Mizdaxon va Chilpiqqa yoki Ellikqal’a hamda qadimgi Xorazm qalʼalariga buriladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Road distances, museum schedules, heat, and remote-site access should be checked before the route is confirmed."
+              "ru": "Расстояния, музейные графики, жара и доступ к удалённым местам лучше проверить до утверждения маршрута."
+              "uz": "Masofalar, muzey kunlari, issiq va uzoqdagi joylarga kirish yo‘nalish tasdiqlanishidan oldin tekshirilishi kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Karakalpakstan & Aral Sea as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Каракалпакстан и Аральское море как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Qoraqalpog‘iston va Orol dengizi o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "Start with Nukus, then choose the Aral or fortress route"
+      "ru": "Сначала Нукус, затем Арал или крепости"
+      "uz": "Avval Nukus, keyin Orol yoki qalʼalar yo‘li"
+    "description":
+      "en": "The region is easier to plan from Nukus outward. From there, the route can turn north toward Moynaq and the Aral Sea story, south toward Mizdakhan and Chilpyk, or east toward Ellikqala and the ancient Khorezm fortresses."
+      "ru": "Регион удобнее собирать от Нукуса наружу. Отсюда маршрут может идти к Муйнаку и теме Арала, к Миздакхану и Чилпыку или к Элликкале и крепостям древнего Хорезма."
+      "uz": "Mintaqani Nukusdan tashqariga qarab rejalash osonroq. Shu yerdan yo‘l Mo‘ynoq va Orol hikoyasiga, Mizdaxon va Chilpiqqa yoki Ellikqal’a hamda qadimgi Xorazm qalʼalariga buriladi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Regional anchors"
+        "ru": "Опоры региона"
+        "uz": "Mintaqa tayanchlari"
+      "title":
+        "en": "Nukus, Moynaq, and Ellikqala"
+        "ru": "Нукус, Муйнак и Элликкала"
+        "uz": "Nukus, Mo‘ynoq va Ellikqal’a"
+      "description":
+        "en": "The map keeps the first decisions visible: start in Nukus, continue toward Moynaq and the Aral Sea, or turn toward Ellikqala, Toprak-Kala, Kyzyl-Kala, and Ayaz-Kala."
+        "ru": "Карта держит видимыми первые решения: начать в Нукусе, продолжить к Муйнаку и Аралу или повернуть к Элликкале, Топрак-Кале, Кызыл-Кале и Аяз-Кале."
+        "uz": "Xarita birinchi qarorlarni ko‘rsatadi: Nukusdan boshlash, Mo‘ynoq va Orol tomonga davom etish yoki Ellikqal’a, Tuproq-qal’a, Qizil-qal’a va Ayoz-qal’a tomonga burilish."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 42.68863
+      "longitude": 59.852297
+    "zoom": 9
+    "stops":
+      - "entityType": "city"
+        "entitySlug": "nukus"
+      - "entityType": "city"
+        "entitySlug": "moynaq"
+      - "entityType": "city"
+        "entitySlug": "ellikqala"
+    "aside":
+      "eyebrow":
+        "en": "Distance and access"
+        "ru": "Дорога и доступ"
+        "uz": "Yo‘l va kirish"
+      "title":
+        "en": "Check roads, season, and access first"
+        "ru": "Сначала проверить дороги, сезон и доступ"
+        "uz": "Avval yo‘l, mavsum va kirishni tekshiring"
+      "description":
+        "en": "Road distances, museum schedules, heat, and remote-site access should be checked before the route is confirmed."
+        "ru": "Расстояния, музейные графики, жара и доступ к удалённым местам лучше проверить до утверждения маршрута."
+        "uz": "Masofalar, muzey kunlari, issiq va uzoqdagi joylarga kirish yo‘nalish tasdiqlanishidan oldin tekshirilishi kerak."
+      "items":
+        - "title":
+            "en": "Nukus sets the region in context"
+            "ru": "Нукус задаёт контекст региона"
+            "uz": "Nukus mintaqa kontekstini beradi"
+          "description":
+            "en": "Start with Savitsky Museum, the State Museum, Karakalpak objects, archaeology, and city streets before the route opens into longer distances."
+            "ru": "Начните с музея Савицкого, Государственного музея, каракалпакских предметов, археологии и городских улиц до выхода маршрута на большие расстояния."
+            "uz": "Savitskiy muzeyi, Davlat muzeyi, qoraqalpoq buyumlari, arxeologiya va uzoq masofalardan oldingi shahar ko‘chalaridan boshlang."
+          "badge":
+            "en": "museums"
+            "ru": "музеи"
+            "uz": "muzeylar"
+        - "title":
+            "en": "Moynaq needs time for the Aral story"
+            "ru": "Муйнаку нужно время для истории Арала"
+            "uz": "Mo‘ynoqda Orol hikoyasiga vaqt kerak"
+          "description":
+            "en": "The ship graveyard, local museum, dry ground, and road north from Nukus make Moynaq a route chapter, not a quick photo stop."
+            "ru": "Кладбище кораблей, местный музей, сухая земля и северная дорога из Нукуса делают Муйнак частью маршрута, а не быстрой фотоостановкой."
+            "uz": "Kemalar qabristoni, mahalliy muzey, quruq yer va Nukusdan shimolga yo‘l Mo‘ynoqni tez surat bekati emas, yo‘nalishning alohida qismiga aylantiradi."
+          "badge":
+            "en": "Aral Sea"
+            "ru": "Аральское море"
+            "uz": "Orol dengizi"
+        - "title":
+            "en": "Ellikqala opens ancient Khorezm"
+            "ru": "Элликкала открывает древний Хорезм"
+            "uz": "Ellikqal’a qadimgi Xorazmni ochadi"
+          "description":
+            "en": "Toprak-Kala, Kyzyl-Kala, and Ayaz-Kala make the fortress route concrete through walls, hill views, restored forms, and open desert."
+            "ru": "Топрак-Кала, Кызыл-Кала и Аяз-Кала делают крепостной маршрут конкретным: стены, виды с холмов, восстановленные формы и открытая пустыня."
+            "uz": "Tuproq-qal’a, Qizil-qal’a va Ayoz-qal’a devorlar, tepalik manzaralari, tiklangan shakllar va ochiq cho‘l orqali qalʼalar yo‘lini aniq qiladi."
+          "badge":
+            "en": "fortresses"
+            "ru": "крепости"
+            "uz": "qalʼalar"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region character"
+      "ru": "Характер региона"
+      "uz": "Mintaqa xarakteri"
+    "title":
+      "en": "A western chapter after Khiva"
+      "ru": "Западная глава после Хивы"
+      "uz": "Xivadan keyingi g‘arbiy bob"
+    "description":
+      "en": "Karakalpakstan is where the classic Uzbekistan route leaves the oasis cities and becomes wider, drier, and more remote. Nukus, Moynaq, Mizdakhan, Chilpyk, and Ellikqala explain the west through museums, memory, sacred ground, and ancient Khorezm.
+
+
+        «After Khiva, Karakalpakstan becomes its own western route.»"
+      "ru": "В Каракалпакстане классический маршрут по Узбекистану уходит от городов-оазисов к более широкому, сухому и удалённому западу. Нукус, Муйнак, Миздакхан, Чилпык и Элликкала объясняют этот край через музеи, память, святые места и древний Хорезм.
+
+
+        «После Хивы Каракалпакстан становится отдельным западным маршрутом.»"
+      "uz": "Qoraqalpog‘istonda klassik O‘zbekiston yo‘nalishi voha shaharlaridan kengroq, quruqroq va uzoqroq g‘arbga chiqadi. Nukus, Mo‘ynoq, Mizdaxon, Chilpiq va Ellikqal’a bu tomonni muzeylar, xotira, ziyorat joylari va qadimgi Xorazm orqali tushuntiradi.
+
+
+        «Xivadan keyin Qoraqalpog‘iston alohida g‘arbiy yo‘nalishga aylanadi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region anchors"
+      "ru": "Опоры региона"
+      "uz": "Mintaqa tayanchlari"
+    "title":
+      "en": "Nukus, Moynaq, and Ellikqala shape the route"
+      "ru": "Нукус, Муйнак и Элликкала собирают маршрут"
+      "uz": "Nukus, Mo‘ynoq va Ellikqal’a yo‘nalishni tuzadi"
+    "description":
+      "en": "Start with the city that gives context, then choose the Aral Sea road or the fortress route."
+      "ru": "Начните с города, который даёт контекст, затем выбирайте дорогу к Аралу или крепостной маршрут."
+      "uz": "Avval kontekst beradigan shahardan boshlang, keyin Orol yo‘lini yoki qalʼalar yo‘nalishini tanlang."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/nukus.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Nukus"
+          "ru": "Нукус"
+          "uz": "Nukus"
+        "description":
+          "en": "Nukus makes western Uzbekistan more than a transfer. Start with the Savitsky Museum and Karakalpak collections, then decide whether the route continues to Moynaq, Chilpyk, Mizdakhan, or the fortresses of ancient Khorezm."
+          "ru": "Нукус делает западный Узбекистан больше, чем переездом. Начните с музея Савицкого и каракалпакских коллекций, а затем решайте, куда продолжать маршрут: к Муйнаку, Чилпыку, Миздакхану или крепостям древнего Хорезма."
+          "uz": "Nukus g‘arbiy O‘zbekistonni oddiy transferdan kengroq ko‘rsatadi. Avval Savitskiy muzeyi va qoraqalpoq kolleksiyalarini ko‘ring, keyin yo‘nalish Mo‘ynoqqa, Chilpiqqa, Mizdakhanga yoki qadimgi Xorazm qalʼalariga davom etishini tanlang."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/moynaq.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Moynaq"
+          "ru": "Муйнак"
+          "uz": "Mo‘ynoq"
+        "description":
+          "en": "Moynaq works best as a planned Aral Sea chapter from Nukus: a former fishing port, ship graveyard, local museum, dry ground, and the road north all need time to be understood together."
+          "ru": "Муйнак лучше планировать как отдельную главу Арала из Нукуса: бывший рыбацкий порт, кладбище кораблей, местный музей, сухая земля и северная дорога требуют времени, чтобы сложиться в одну историю."
+          "uz": "Mo‘ynoq Nukusdan rejalangan Orol bobidek yaxshiroq ochiladi: sobiq baliqchi porti, kema qabristoni, mahalliy muzey, quruq yer va shimoliy yo‘l birga tushunilishi uchun vaqt kerak."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/moynaq"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/ellikqala.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ellikqala"
+          "ru": "Элликкала"
+          "uz": "Ellikqal’a"
+        "description":
+          "en": "Ellikqala is not a compact town stop. It is a fortress area where the route leaves Nukus, Moynaq, or Khiva for Toprak-Kala, Kyzyl-Kala, and Ayaz-Kala; mud-brick walls, exposed ground, road time, and archaeological context all belong to the same visit."
+          "ru": "Элликкала — не компактная городская остановка. Это территория крепостей, куда маршрут выходит из Нукуса, Муйнака или Хивы ради Топрак-Калы, Кызыл-Калы и Аяз-Калы; глинобитные стены, открытая местность, дорожное время и археологический контекст здесь идут вместе."
+          "uz": "Ellikqal’a ixcham shahar bekati emas. Bu Nukus, Mo‘ynoq yoki Xivadan Tuproq-qalʼa, Qizil-qalʼa va Ayoz-qalʼa tomonga chiqadigan qalʼalar hududi; paxsa devorlar, ochiq yer, yo‘l va arxeologik kontekst bu yerda birga seziladi."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/ellikqala"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что смотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Museums, Aral memory, and ancient Khorezm"
+      "ru": "Музеи, память Арала и древний Хорезм"
+      "uz": "Muzeylar, Orol xotirasi va qadimgi Xorazm"
+    "description":
+      "en": "These stops explain the west through art, local history, sacred ground, Aral Sea memory, and the desert fortresses of ancient Khorezm."
+      "ru": "Эти места объясняют запад через искусство, локальную историю, святые места, память Арала и пустынные крепости древнего Хорезма."
+      "uz": "Bu joylar g‘arbni sanʼat, mahalliy tarix, ziyorat joylari, Orol xotirasi va qadimgi Xorazm cho‘l qalʼalari orqali tushuntiradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/ellikqala/attractions/ayaz-kala-fortress-complex.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Ayaz-Kala Fortress Complex"
+          "ru": "Крепостной комплекс Аяз-Кала"
+          "uz": "Ayoz-qalʼa qalʼa majmuasi"
+        "description":
+          "en": "After Toprak-Kala and Kyzyl-Kala, Ayaz-Kala takes the Ellikqala route onto wider desert ground. Its walls sit above the plain, and the three-site complex helps you read ancient Khorezm as a landscape, not only a row of ruins."
+          "ru": "После Топрак-Калы и Кызыл-Калы Аяз-Кала раскрывает Элликкалу шире: стены стоят над равниной, а комплекс из трёх городищ помогает увидеть древний Хорезм как пространство, а не только ряд руин."
+          "uz": "Tuproq-qalʼa va Qizil-qalʼadan so‘ng Ayoz-qalʼa Ellikqal’a yo‘lini kengroq ochadi: devorlar tekislik ustida turadi, uch qismli majmua esa qadimgi Xorazmni faqat xarobalar qatori emas, keng makon sifatida ko‘rsatadi."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/ellikqala/ayaz-kala-fortress-complex"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/ellikqala/attractions/toprak-kala-route-context.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Toprak-Kala Fortress"
+          "ru": "Крепость Топрак-Кала"
+          "uz": "Tuproq-qalʼa qalʼasi"
+        "description":
+          "en": "Toprak-Kala is the stop where the Ellikqala fortress route becomes more than walls on the horizon. The raised palace area, room traces, defensive lines, sanctuaries, and excavated finds help the site read as a city where power, worship, work, and daily life once met."
+          "ru": "Топрак-Кала — остановка, где маршрут крепостей Элликкалы становится больше, чем линией стен на горизонте. Дворцовая часть, следы помещений, оборонительные линии, святилища и находки помогают читать площадку как город, где рядом существовали власть, культ, работа и повседневная жи"
+          "uz": "Tuproq-qalʼa Ellikqal’a qalʼalari yo‘lida ufqdagi devorlardan ko‘proq narsa ko‘rsatadigan bekatdir. Saroy qismi, xona izlari, mudofaa chiziqlari, ziyorat joylari va topilmalar bu maydonni hokimiyat, ibodat, mehnat va kundalik hayot uchrashgan shahar sifatida o‘qishga yordam berad"
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/ellikqala/toprak-kala-route-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Moynaq Ship Graveyard"
+          "ru": "Кладбище кораблей в Муйнаке"
+          "uz": "Mo‘ynoq kemalar qabristoni"
+        "description":
+          "en": "North of Nukus, Moynaq brings the Aral Sea story down to ground level: rusted fishing vessels, the former port, the town museum, and the long road back all shape the same visit."
+          "ru": "К северу от Нукуса история Арала становится конкретной: ржавые рыбацкие суда, бывший порт, городской музей и обратная дорога относятся к одному визиту, а не к отдельной фотоостановке."
+          "uz": "Nukusdan shimolda Mo‘ynoq Orol hikoyasini aniqroq qiladi: zanglagan baliqchi kemalari, sobiq port, shahar muzeyi va qaytish yo‘li bitta tashrifning qismlariga aylanadi."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/moynaq/moynaq-ship-graveyard-open-air-museum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/nukus/attractions/savitsky-state-museum-of-arts.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Savitsky Museum"
+          "ru": "Музей Савицкого"
+          "uz": "Savitskiy muzeyi"
+        "description":
+          "en": "The Savitsky Museum is the reason to pause in Nukus instead of treating the city as a transfer. Inside, Russian avant-garde painting, Karakalpak craft, archaeological material, and Igor Savitsky's collecting story bring the region close before the route continues toward Moynaq, C"
+          "ru": "Музей Савицкого — причина задержаться в Нукусе, а не проехать мимо по дороге дальше. В его залах русский авангард, каракалпакское ремесло, археологические материалы и история Игоря Савицкого помогают увидеть регион до маршрута к Муйнаку, Чилпыку или Элликкале."
+          "uz": "Savitskiy muzeyi Nukusdan shunchaki o‘tib ketmaslik uchun sababdir. Uning zallarida rus avangard rangtasviri, qoraqalpoq hunari, arxeologik materiallar va Igor Savitskiy hikoyasi Mo‘ynoq, Chilpiq yoki Ellikqal’a yo‘lidan oldin mintaqani yaqinlashtiradi."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus/savitsky-state-museum-of-arts"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/ellikqala/attractions/kyzyl-kala-route-context.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Kyzyl-Kala Fortress"
+          "ru": "Крепость Кызыл-Кала"
+          "uz": "Qizil-qalʼa qalʼasi"
+        "description":
+          "en": "Kyzyl-Kala is the close comparison after Toprak-Kala. Instead of a palace-city plan, the traveler sees a compact red fortress with restored walls, tower lines, arrow-shaped openings, and a sloped approach across the Ellikqala plain."
+          "ru": "Кызыл-Кала — близкое сравнение после Топрак-Калы. Вместо плана дворцового города здесь видна компактная красная крепость: восстановленные стены, линии башен, бойницы и наклонный подход через равнину Элликкалы."
+          "uz": "Qizil-qalʼa Tuproq-qalʼadan keyingi yaqin taqqoslashdir. Saroy-shahar rejasi o‘rniga bu yerda tiklangan devorlari, minora chiziqlari, o‘q tuynuklari va Ellikqal’a tekisligi bo‘ylab qiya yondashuvi bor ixcham qizil qalʼa ko‘rinadi."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/ellikqala/kyzyl-kala-route-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/nukus/attractions/mizdakhan-necropolis.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Mizdakhan Necropolis"
+          "ru": "Некрополь Миздакхан"
+          "uz": "Mizdaxon nekropoli"
+        "description":
+          "en": "Mizdakhan is not a single monument. It is a walk across hills near Khojeyli, where ancient burials, pilgrimage stories, mausoleum domes, and nearby Gyaur-Kala move the route beyond Nukus museums."
+          "ru": "Миздакхан — не один памятник, а прогулка по холмам у Ходжейли: древние погребения, паломнические предания, купола мавзолеев и контекст Гяур-Калы выводят маршрут за пределы музейного Нукуса."
+          "uz": "Mizdaxon bitta yodgorlik emas. Bu Xo‘jayli yaqinidagi tepaliklar bo‘ylab yuriladigan joy: qadimiy dafnlar, ziyorat rivoyatlari, maqbara gumbazlari va yaqin Gyaur-Kala Nukus muzeylaridan keyingi yo‘lni ochiq manzaraga olib chiqadi."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus/mizdakhan-necropolis"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region in detail"
+      "ru": "Регион в деталях"
+      "uz": "Hudud batafsil"
+    "title":
+      "en": "Practical questions about Karakalpakstan & Aral Sea"
+      "ru": "Практические вопросы о регионе Каракалпакстан и Аральское море"
+      "uz": "Qoraqalpog‘iston va Orol dengizi hududi bo‘yicha amaliy savollar"
+    "description":
+      "en": "Pace, season, and how this region connects to the next stop."
+      "ru": "Темп, сезон и как регион стыкуется со следующей остановкой."
+      "uz": "Sur’at, mavsum va hududning keyingi bekat bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many days does Karakalpakstan & Aral Sea need in a programme?"
+          "ru": "Сколько дней нужно региону Каракалпакстан и Аральское море в программе?"
+          "uz": "Qoraqalpog‘iston va Orol dengizi hududi dasturda necha kun olishi kerak?"
+        "description":
+          "en": "2–3 days usually works if you keep one strong core and treat outer stops as deliberate choices. The region brief is “Nukus museums, Aral memory, and ancient Khorezm fortresses”."
+          "ru": "Обычно хватает 2–3 дня, если держать одно сильное ядро, а внешние остановки выбирать осознанно. Кратко о регионе: «Музеи Нукуса, память Арала и крепости древнего Хорезма»."
+          "uz": "Odatda 2–3 kun yetadi — bitta kuchli yadro va tashqi bekatlarni ongli tanlov qiling. Hudud brifi: «Nukus muzeylari, Orol xotirasi va qadimgi Xorazm qalʼalari»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "What should come before and after Karakalpakstan & Aral Sea?"
+          "ru": "Что ставить до и после региона Каракалпакстан и Аральское море?"
+          "uz": "Qoraqalpog‘iston va Orol dengizidan oldin va keyin nima qo‘yish kerak?"
+        "description":
+          "en": "Use neighbouring cities as clean handovers: arrive with a calm first night, leave after one completed chapter, and avoid stacking two long transfers on the same day."
+          "ru": "Соседние города держите как чистые стыки: приезжайте со спокойной первой ночью, уезжайте после завершённой главы и не ставьте два длинных переезда в один день."
+          "uz": "Qo‘shni shaharlarni toza ulanish sifatida tuting: sokin birinchi tun bilan keling, yakunlangan bobdan keyin chiqing va bir kunga ikkita uzun ko‘chishni qo‘ymang."
+      - "type": "destinationInsight"
+        "icon": "CloudSun"
+        "title":
+          "en": "What season logic matters most in Karakalpakstan & Aral Sea?"
+          "ru": "Какая сезонная логика важнее всего в Каракалпакстан и Аральское море?"
+          "uz": "Qoraqalpog‘iston va Orol dengizida qaysi mavsum mantig‘i eng muhim?"
+        "description":
+          "en": "Heat, altitude, road condition, and opening hours change the product more than the brochure list. Build the region around what stays comfortable for the group that week."
+          "ru": "Жара, высота, состояние дорог и часы работы меняют продукт сильнее списка из брошюры. Собирайте регион вокруг того, что комфортно именно этой группе в эту неделю."
+          "uz": "Issiqlik, balandlik, yo‘l holati va ish soatlari broshyura ro‘yxatidan kuchliroq mahsulotni o‘zgartiradi. Hududni shu hafta guruh uchun qulay narsaga qurib chiqing."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Karakalpakstan & Aral Sea stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Каракалпакстан и Аральское море» в программу (Узбекистан)"
+      "uz": "Qoraqalpog‘iston va Orol dengizi bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right extensions — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать нужные расширения — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va kerakli kengaytmalarni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Karakalpakstan & Aral Sea | TourLink"
+    "ru": "Каракалпакстан и Аральское море | TourLink"
+    "uz": "Qoraqalpog‘iston va Orol dengizi | TourLink"
+  "metaDescription":
+    "en": "Beyond Khiva, Karakalpakstan gives the route a different scale: Nukus brings the Savitsky Museum and regional history, Moynaq brings the Aral Sea story, and Ellikqala leads toward the desert fortresses of ancient Khorezm."
+    "ru": "После Хивы Каракалпакстан меняет масштаб маршрута: Нукус даёт музей Савицкого и историю региона, Муйнак приближает тему Аральского моря, а Элликкала ведёт к пустынным крепостям древнего Хорезма."
+    "uz": "Xivadan keyin Qoraqalpog‘iston yo‘nalish miqyosini o‘zgartiradi: Nukus Savitskiy muzeyi va mintaqa tarixini beradi, Mo‘ynoq Orol dengizi hikoyasini yaqinlashtiradi, Ellikqal’a esa qadimgi Xorazm cho‘l qalʼalariga olib boradi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"mapCenter":
+  "latitude": 40.0279591
+  "longitude": 67.5892851

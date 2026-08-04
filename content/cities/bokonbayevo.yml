@@ -1,0 +1,544 @@
+# Generated from scrape/kyrgyzstan (multi-locale)
+"slug":
+  "en": "bokonbayevo"
+  "ru": "bokonbayevo"
+  "uz": "bokonbayevo"
+"title":
+  "en": "Bokonbayevo"
+  "ru": "Боконбаево"
+  "uz": "Bokonbayevo"
+"subtitle":
+  "en": "Issyk-Kul's quieter south-shore village"
+  "ru": "Более тихое село южного берега Иссык-Куля"
+  "uz": "Issiqkoʻl janubiy qirgʻogʻidagi sokin qishloq"
+"excerpt":
+  "en": "Bokonbayevo gives the Issyk-Kul route a slower south-shore voice. The village sits between lake road, simple overnights, hosted culture, and the canyon country that begins to pull the route east toward Skazka and Karakol."
+  "ru": "Боконбаево даёт маршруту по Иссык-Кулю более медленный южнобережный голос. Село стоит между озёрной дорогой, простыми ночёвками, культурными встречами с хозяевами и каньонами, которые ведут маршрут на восток к Сказке и Караколу."
+  "uz": "Bokonbayevo Issiqkoʻl yoʻnalishiga sekinroq janubiy qirgʻoq ohangini beradi. Qishloq koʻl yoʻli, oddiy tunash, mezbonli madaniy uchrashuvlar va Skazka hamda Qorakoʻl sari tortadigan kanyonlar orasida turadi."
+"heroImage": "assets/images/destinations/kyrgyzstan/regions/issyk-kul-and-karakol/cities/bokonbayevo.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kyrgyzstan/regions/issyk-kul-and-karakol/cities/bokonbayevo.webp"
+    "imageAlt":
+      "en": "Bokonbayevo"
+      "ru": "Боконбаево"
+      "uz": "Bokonbayevo"
+    "title":
+      "en": "Bokonbayevo"
+      "ru": "Боконбаево"
+      "uz": "Bokonbayevo"
+    "description":
+      "en": "Issyk-Kul's quieter south-shore village"
+      "ru": "Более тихое село южного берега Иссык-Куля"
+      "uz": "Issiqkoʻl janubiy qirgʻogʻidagi sokin qishloq"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Bokonbayevo"
+      "ru": "Боконбаево"
+      "uz": "Bokonbayevo"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Bokonbayevo gives the Issyk-Kul route a slower south-shore voice."
+              "ru": "Боконбаево даёт маршруту по Иссык-Кулю более медленный южнобережный голос."
+              "uz": "Bokonbayevo Issiqkoʻl yoʻnalishiga sekinroq janubiy qirgʻoq ohangini beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Read Bokonbayevo through the road rather than through a monument list. The map keeps four ideas separate: the village point, the south-shore viewpoint, the north-shore return through Cholpon-Ata, and the eastbound move toward Karakol."
+              "ru": "Боконбаево лучше читать через дорогу, а не через список памятников. Карта разделяет четыре идеи: точку села, ориентир южного берега, возвращение на северный берег через Чолпон-Ату и движение на восток к Караколу."
+              "uz": "Bokonbayevoni yodgorliklar roʻyxati orqali emas, yoʻl orqali oʻqish yaxshiroq. Xarita toʻrt fikrni ajratadi: qishloq nuqtasi, janubiy qirgʻoq moʻljali, Cholpon-Ota orqali shimoliy qirgʻoqqa qaytish va Qorakoʻl sari sharqiy davom."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Bokonbayevo works best with one clear role: a short lake-road pause, a simple overnight, or a hosted cultural stop arranged with enough care."
+              "ru": "Боконбаево сильнее всего, когда у него одна ясная роль: короткая пауза у озёрной дороги, простая ночёвка или культурная встреча, подготовленная с достаточной осторожностью."
+              "uz": "Bokonbayevo bitta aniq rolda kuchliroq: koʻl yoʻlidagi qisqa pauza, oddiy tunash yoki yetarlicha ehtiyotkor tayyorlangan madaniy uchrashuv."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Bokonbayevo as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Боконбаево как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Bokonbayevo o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как ориентироваться"
+      "uz": "Qanday yoʻnalish olish"
+    "title":
+      "en": "Village, lake road, and south-shore choices"
+      "ru": "Село, озёрная дорога и выбор южного берега"
+      "uz": "Qishloq, koʻl yoʻli va janubiy qirgʻoq tanlovi"
+    "description":
+      "en": "Read Bokonbayevo through the road rather than through a monument list. The map keeps four ideas separate: the village point, the south-shore viewpoint, the north-shore return through Cholpon-Ata, and the eastbound move toward Karakol."
+      "ru": "Боконбаево лучше читать через дорогу, а не через список памятников. Карта разделяет четыре идеи: точку села, ориентир южного берега, возвращение на северный берег через Чолпон-Ату и движение на восток к Караколу."
+      "uz": "Bokonbayevoni yodgorliklar roʻyxati orqali emas, yoʻl orqali oʻqish yaxshiroq. Xarita toʻrt fikrni ajratadi: qishloq nuqtasi, janubiy qirgʻoq moʻljali, Cholpon-Ota orqali shimoliy qirgʻoqqa qaytish va Qorakoʻl sari sharqiy davom."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Yoʻnalish xaritasi"
+      "title":
+        "en": "Bokonbayevo, the lake road, and onward choices"
+        "ru": "Боконбаево, дорога вдоль озера и продолжение маршрута"
+        "uz": "Bokonbayevo, koʻl yoʻli va davom tanlovi"
+      "description":
+        "en": "The route map keeps Bokonbayevo as a south-shore village point, then shows how the road can turn toward the viewpoint, Cholpon-Ata, or Karakol."
+        "ru": "Карта показывает Боконбаево как село южного берега, а затем помогает понять, куда дорога уходит дальше: к ориентиру на берегу, Чолпон-Ате или Караколу."
+        "uz": "Xarita Bokonbayevoni janubiy qirgʻoq qishlogʻi sifatida koʻrsatadi, keyin yoʻl qayerga davom etishini aniqlaydi: qirgʻoq moʻljaliga, Cholpon-Otaga yoki Qorakoʻlga."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 42.340258
+      "longitude": 77.364808
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "bokonbayevo-south-shore-issyk-kul-viewpoint"
+    "aside":
+      "eyebrow":
+        "en": "Route rhythm"
+        "ru": "Ритм маршрута"
+        "uz": "Yoʻnalish ritmi"
+      "title":
+        "en": "Keep the south-shore stop modest"
+        "ru": "Оставьте остановку на южном берегу скромной"
+        "uz": "Janubiy qirgʻoq toʻxtashini ixcham qoldiring"
+      "description":
+        "en": "Bokonbayevo works best with one clear role: a short lake-road pause, a simple overnight, or a hosted cultural stop arranged with enough care."
+        "ru": "Боконбаево сильнее всего, когда у него одна ясная роль: короткая пауза у озёрной дороги, простая ночёвка или культурная встреча, подготовленная с достаточной осторожностью."
+        "uz": "Bokonbayevo bitta aniq rolda kuchliroq: koʻl yoʻlidagi qisqa pauza, oddiy tunash yoki yetarlicha ehtiyotkor tayyorlangan madaniy uchrashuv."
+      "items":
+        - "title":
+            "en": "Arrive on the lake road"
+            "ru": "Приезжайте по дороге вдоль озера"
+            "uz": "Koʻl yoʻli bilan keling"
+          "description":
+            "en": "Bokonbayevo usually makes sense after the route has already slowed into the south shore."
+            "ru": "Боконбаево обычно понятно тогда, когда маршрут уже замедлился на южном берегу."
+            "uz": "Bokonbayevo odatda yoʻnalish janubiy qirgʻoqda sekinlashgandan keyin tushunarli boʻladi."
+        - "title":
+            "en": "Keep it simple"
+            "ru": "Держите её простой"
+            "uz": "Uni sodda tuting"
+          "description":
+            "en": "The village is strongest as a pause or overnight, not as a crowded attraction list."
+            "ru": "Село сильнее как пауза или ночёвка, а не как плотный список достопримечательностей."
+            "uz": "Qishloq zich diqqatga sazovor joylar roʻyxati emas, pauza yoki tunash sifatida kuchliroq."
+        - "title":
+            "en": "Separate the visit"
+            "ru": "Отделяйте визит"
+            "uz": "Tashrifni ajrating"
+          "description":
+            "en": "Salbuurun, craft, or yurt encounters need hosts, permissions, and the right timing."
+            "ru": "Салбуурун, ремёсла и юрточные визиты требуют хозяев, разрешений и правильного времени."
+            "uz": "Salbuurun, hunarmandchilik yoki oʻtov tashriflari mezbon, ruxsat va toʻgʻri vaqt talab qiladi."
+        - "title":
+            "en": "Choose the next move"
+            "ru": "Выберите следующий шаг"
+            "uz": "Keyingi harakatni tanlang"
+          "description":
+            "en": "Skazka, other canyon routes, and Karakol each ask for their own space in the route."
+            "ru": "Сказка, другие каньоны и Каракол требуют собственного места в маршруте."
+            "uz": "Skazka, boshqa kanyonlar va Qorakoʻl yoʻnalishda oʻz joyiga ega boʻlishi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrish"
+    "title":
+      "en": "One public anchor, with wider context nearby"
+      "ru": "Один публичный ориентир и широкий контекст рядом"
+      "uz": "Bitta ommaviy moʻljal va yaqinroq keng kontekst"
+    "description":
+      "en": "The south-shore viewpoint is the first public attraction anchor for Bokonbayevo. Skazka Canyon, Salbuurun culture, craft visits, beach stops, and canyon routes remain separate context until their own access, host, and source checks are ready."
+      "ru": "Южнобережная точка-ориентир — первая публичная достопримечательность Боконбаево. Сказочный каньон, культура салбуурун, ремёсла, пляжные остановки и каньонные маршруты остаются отдельным контекстом, пока не готовы их доступ, хозяева и источники."
+      "uz": "Janubiy qirgʻoq moʻljali Bokonbayevoning birinchi ommaviy diqqatga sazovor joyidir. Skazka kanyoni, salbuurun madaniyati, hunarmandchilik, plyaj toʻxtashlari va kanyon yoʻllari kirish, mezbon va manba tekshiruvlari tayyor boʻlmaguncha alohida kontekst boʻlib qoladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Bokonbayevo South-Shore Issyk-Kul Viewpoint"
+          "ru": "Южный берег Иссык-Куля у Боконбаево"
+          "uz": "Bokonbayevo yaqinidagi Issiqkoʻl janubiy qirgʻogʻi"
+        "description":
+          "en": "Near Bokonbayevo, Issyk-Kul stops feeling like only a resort lake. The road runs between open water, village houses, dry foothills, and south-shore turns, giving the route a quieter rhythm before it continues toward Skazka, Barskoon, or Karakol."
+          "ru": "У Боконбаево Иссык-Куль перестаёт быть только курортным озером. Дорога идёт между открытой водой, сельскими домами, сухими предгорьями и поворотами южного берега, поэтому маршрут получает более тихий ритм перед Сказкой, Барскооном или Караколом."
+          "uz": "Bokonbayevo yaqinida Issiqkoʻl faqat kurort koʻli boʻlib qolmaydi. Yoʻl ochiq suv, qishloq uylari, quruq togʻoldi va janubiy qirgʻoq burilishlari orasidan oʻtadi; shuning uchun Skazka, Barskoon yoki Qorakoʻldan oldin yoʻnalish sokinroq ritm oladi."
+        "ctaHref": "/destinations/kyrgyzstan/issyk-kul-and-karakol/bokonbayevo/bokonbayevo-south-shore-issyk-kul-viewpoint"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How Bokonbayevo feels"
+      "ru": "Как чувствуется Боконбаево"
+      "uz": "Bokonbayevo qanday seziladi"
+    "title":
+      "en": "Three ways Bokonbayevo changes the lake route"
+      "ru": "Три способа, которыми Боконбаево меняет маршрут у озера"
+      "uz": "Bokonbayevo koʻl yoʻnalishini uch xil oʻzgartiradi"
+    "description":
+      "en": "Bokonbayevo is strongest when it slows the lake loop, keeps culture tied to real hosts, and gives Skazka or Karakol its own route choice."
+      "ru": "Боконбаево сильнее всего тогда, когда замедляет кольцо вокруг озера, связывает культуру с реальными хозяевами и оставляет Сказке или Караколу отдельное маршрутное решение."
+      "uz": "Bokonbayevo koʻl aylanasini sekinlashtirganda, madaniyatni haqiqiy mezbon bilan bogʻlaganda va Skazka yoki Qorakoʻlga alohida yoʻnalish tanlovi qoldirganda kuchliroq boʻladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Let the south shore slow the lake loop"
+          "ru": "Дайте южному берегу замедлить озёрный маршрут"
+          "uz": "Janubiy qirgʻoq koʻl yoʻlini sekinlashtirsin"
+        "description":
+          "en": "The road near Bokonbayevo feels quieter than the resort shore: open lake, village edges, dry slopes, and a pause before the route moves on."
+          "ru": "Дорога у Боконбаево тише курортного берега: открытое озеро, край села, сухие склоны и пауза перед продолжением маршрута."
+          "uz": "Bokonbayevo yaqinidagi yoʻl kurort qirgʻogʻidan sokinroq: ochiq koʻl, qishloq cheti, quruq yonbagʻirlar va davomdan oldingi pauza."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Meet culture through a real host"
+          "ru": "Знакомьтесь с культурой через настоящего хозяина"
+          "uz": "Madaniyatni haqiqiy mezbon orqali koʻring"
+        "description":
+          "en": "Salbuurun, felt, yurt, or family-hosted visits belong here only when the welcome, timing, and permissions are clear."
+          "ru": "Салбуурун, войлок, юрта или семейный приём уместны здесь только тогда, когда понятны хозяин, время и разрешения."
+          "uz": "Salbuurun, kigiz, oʻtov yoki oilaviy tashrif bu yerda faqat mezbon, vaqt va ruxsatlar aniq boʻlganda oʻrinli."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan/character/bokonbayevo/bokonbayevo-character-3.webp"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Save Skazka for its own turn"
+          "ru": "Оставьте Сказке отдельный поворот"
+          "uz": "Skazkaga alohida burilish qoldiring"
+        "description":
+          "en": "Treating Skazka as a quick add-on weakens both stops. The canyon deserves its own road time, light, and walking plan."
+          "ru": "Сказку не стоит превращать в быстрый довесок к остановке в селе. Каньону нужны собственная дорога, свет и план прогулки."
+          "uz": "Skazkani qishloq toʻxtashiga tez qoʻshimcha qilish ikkala joyni ham zaiflashtiradi. Kanyon alohida yoʻl, yorugʻlik va yurish rejasini talab qiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Yoʻlga chiqishdan oldin"
+    "title":
+      "en": "Keep Bokonbayevo unhurried and specific"
+      "ru": "Оставьте Боконбаево спокойным и конкретным"
+      "uz": "Bokonbayevoni sokin va aniq qoldiring"
+    "description":
+      "en": "Bokonbayevo is strongest when the route gives it one clear job. It can be a short south-shore pause, a simple overnight, or a hosted cultural stop; it becomes weaker when every canyon, craft, and lake idea is pressed into one visit."
+      "ru": "Боконбаево сильнее всего тогда, когда у него есть одна понятная роль. Это может быть короткая пауза на южном берегу, простая ночёвка или культурная встреча с хозяевами; слабее оно становится, когда в него пытаются вместить сразу все каньоны, ремёсла и озёрные идеи."
+      "uz": "Bokonbayevo eng kuchli boʻladigan payt — uning bitta aniq roli boʻlganda. U janubiy qirgʻoqdagi qisqa pauza, oddiy tunash yoki mezbonli madaniy uchrashuv boʻlishi mumkin; hamma kanyon, hunarmandchilik va koʻl gʻoyalarini bitta joyga siqqanda esa zaiflashadi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Let the road set the pace"
+              "ru": "Пусть дорога задаёт темп"
+              "uz": "Yoʻl surʼatni belgilasin"
+            "description":
+              "en": "Bokonbayevo makes sense when the Issyk-Kul loop has slowed from resort traffic into village road, open water, and dry south-shore slopes."
+              "ru": "Боконбаево становится понятным, когда кольцо вокруг Иссык-Куля замедляется до сельской дороги, открытой воды и сухих склонов южного берега."
+              "uz": "Bokonbayevo Issiqkoʻl aylanasining ritmi qishloq yoʻli, ochiq suv va janubiy qirgʻoqning quruq yonbagʻirlariga sekinlashganda tushunarli boʻladi."
+          - "type": "quote"
+            "quote":
+              "en": "Bokonbayevo is not a stop to overload. It is where the Issyk-Kul route becomes quieter, more local, and more deliberate."
+              "ru": "Боконбаево — не остановка ради списка. Это место, где маршрут вокруг Иссык-Куля становится тише, местнее и осознаннее."
+              "uz": "Bokonbayevo roʻyxat uchun toʻxtash emas. Bu Issiqkoʻl yoʻnalishi sokinroq, mahalliyroq va ongliroq boʻladigan joy."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep hosted culture honest"
+              "ru": "Держите культурные встречи честными"
+              "uz": "Madaniy uchrashuvlarni halol tuting"
+            "description":
+              "en": "Salbuurun, craft, and yurt visits work only with real hosts and current permissions. They must never become staged filler."
+              "ru": "Салбуурун, ремёсла и юрточные визиты стоит включать только с реальными хозяевами и актуальными разрешениями. Они не должны быть постановочным заполнением маршрута."
+              "uz": "Salbuurun, hunarmandchilik va oʻtov tashriflari faqat haqiqiy mezbonlar va joriy ruxsatlar bilan kiritilishi kerak. Ular yoʻnalishni toʻldirish uchun sahnalashtirilgan boʻlmasligi kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Give Skazka its own time"
+              "ru": "Дайте Сказке отдельное время"
+              "uz": "Skazkaga alohida vaqt bering"
+            "description":
+              "en": "The canyon is close enough to shape the route, but it needs its own light, walking surface, and road plan."
+              "ru": "Каньон достаточно близко, чтобы влиять на маршрут, но ему нужны собственный свет, покрытие под ногами и дорожный план."
+              "uz": "Kanyon yoʻnalishni shakllantiradigan darajada yaqin, lekin unga oʻz yorugʻligi, yurish yuzasi va yoʻl rejasi kerak."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Что важно для путешественника"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Let Bokonbayevo carry one south-shore role: pause, overnight, hosted culture, or the decision toward Skazka and Karakol."
+              "ru": "Дайте Боконбаево одну роль на южном берегу: паузу, ночёвку, культурную встречу или решение перед Сказкой и Караколом."
+              "uz": "Bokonbayevoga janubiy qirgʻoqdagi bitta rol bering: pauza, tunash, madaniy uchrashuv yoki Skazka va Qorakoʻl oldidagi qaror."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Yoʻlga chiqishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "A village stop between the western lake road and the eastbound route toward Karakol."
+                  "ru": "Село между западной дорогой вдоль озера и движением на восток к Караколу."
+                  "uz": "Gʻarbiy koʻl yoʻli va Qorakoʻl sari sharqiy davom orasidagi qishloq."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Best role"
+                  "ru": "Лучшая роль"
+                  "uz": "Eng yaxshi roli"
+                "description":
+                  "en": "Strongest when the route does not overload it with every nearby canyon and culture idea."
+                  "ru": "Сильнее всего, когда маршрут не перегружает его всеми каньонами и культурными идеями рядом."
+                  "uz": "Yoʻnalish uni hamma yaqin kanyon va madaniy gʻoyalar bilan toʻldirmaganda kuchliroq."
+              - "icon": "Sun"
+                "title":
+                  "en": "Character"
+                  "ru": "Характер"
+                  "uz": "Xarakter"
+                "description":
+                  "en": "Simple stays, local rhythm, and culture only when a real host is ready."
+                  "ru": "Простые ночёвки, местный ритм и культура только при готовом хозяине."
+                  "uz": "Oddiy tunash, mahalliy ritm va faqat mezbon tayyor boʻlganda madaniyat."
+              - "icon": "Route"
+                "title":
+                  "en": "Access"
+                  "ru": "Доступ"
+                  "uz": "Kirish"
+                "description":
+                  "en": "Weather, road timing, host readiness, and canyon access need checking close to the visit."
+                  "ru": "Погоду, дорожное время, готовность хозяев и доступ к каньонам нужно проверять ближе к визиту."
+                  "uz": "Ob-havo, yoʻl vaqti, mezbon tayyorligi va kanyonlarga kirish tashrifga yaqin tekshirilishi kerak."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Next choice"
+                  "ru": "Следующий выбор"
+                  "uz": "Keyingi tanlov"
+                "description":
+                  "en": "The next move needs to stay clear before adding more stops."
+                  "ru": "Следующий шаг должен быть ясен до добавления новых остановок."
+                  "uz": "Yangi toʻxtashlar qoʻshilishidan oldin keyingi harakat aniq boʻlishi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqin joylar"
+    "title":
+      "en": "Karakol east, Cholpon-Ata around the lake, Bishkek beyond"
+      "ru": "Каракол на востоке, Чолпон-Ата вокруг озера, Бишкек дальше"
+      "uz": "Sharqda Qorakoʻl, koʻl atrofida Cholpon-Ota, undan narida Bishkek"
+    "description":
+      "en": "Karakol is the main eastbound continuation for valleys, churches, Dungan history, and mountain access. Cholpon-Ata brings the route back to the north shore, while Bishkek remains the usual arrival or return city."
+      "ru": "Каракол — главное продолжение на восток к долинам, церквям, дунганской истории и горам. Чолпон-Ата возвращает маршрут на северный берег, а Бишкек остаётся обычным городом прилёта или возвращения."
+      "uz": "Qorakoʻl vodiylar, cherkovlar, dungan tarixi va togʻ yoʻllari uchun asosiy sharqiy davomdir. Cholpon-Ota yoʻnalishni shimoliy qirgʻoqqa qaytaradi, Bishkek esa odatda kelish yoki qaytish shahri boʻlib qoladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/bokonbayevo-next-karakol.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Karakol"
+          "ru": "Каракол"
+          "uz": "Qorakoʻl"
+        "description":
+          "en": "Karakol anchors eastern Issyk-Kul with Dungan food, timber religious landmarks, guesthouse streets, museum context, and measured choices toward valleys, hot springs, and high trails."
+          "ru": "Каракол держит восточный Иссык-Куль: дунганская еда, деревянные религиозные ориентиры, улицы гостевых домов, музейный контекст и продуманный выбор долин, источников и высоких троп."
+          "uz": "Qorakoʻl sharqiy Issiqkoʻlni ushlab turadi: dungan taomi, yogʻoch diniy moʻljallar, mehmon uylari koʻchalari, muzey konteksti hamda vodiylar, buloqlar va baland soʻqmoqlar sari puxta tanlov."
+        "ctaHref": "/destinations/kyrgyzstan/issyk-kul-and-karakol/karakol"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/bokonbayevo-next-cholpon-ata.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Cholpon-Ata"
+          "ru": "Чолпон-Ата"
+          "uz": "Cholpon-Ata"
+        "description":
+          "en": "Cholpon-Ata gives the Issyk-Kul route a clear first pause by the water: resort streets, shore time, Ruh Ordo, petroglyphs above town, and a choice before the road continues toward Karakol or the south shore."
+          "ru": "Чолпон-Ата даёт маршруту по Иссык-Кулю понятную первую паузу у воды: курортные улицы, берег, Рух Ордо, петроглифы над городом и выбор перед дорогой к Караколу или южному берегу."
+          "uz": "Cholpon-Ata Issiqkoʻl yoʻnalishiga suv bo‘yidagi aniq ilk pauza beradi: kurort ko‘chalari, qirg‘oq vaqti, Ruh Ordo, shahar tepasidagi petrogliflar va Karakol yoki janubiy qirg‘oq tomon ketishdan oldingi tanlov."
+        "ctaHref": "/destinations/kyrgyzstan/issyk-kul-and-karakol/cholpon-ata"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/bokonbayevo-next-bishkek.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Bishkek"
+          "ru": "Бишкек"
+          "uz": "Bishkek"
+        "description":
+          "en": "Bishkek gives Kyrgyzstan a calm first frame: Ala-Too Square, Osh Bazaar, museum time, cafe streets, and quick roads to the Chuy foothills."
+          "ru": "Бишкек даёт Кыргызстану спокойный старт: площадь Ала-Тоо, Ошский базар, музейное время, кафе и быстрые дороги к Чуйским предгорьям."
+          "uz": "Bishkek Qirgʻizistonga xotirjam boshlanish beradi: Ala-Too maydoni, Oʻsh bozori, muzey vaqti, kafe koʻchalari hamda Chuy etaklariga tez yoʻllar."
+        "ctaHref": "/destinations/kyrgyzstan/bishkek-and-chuy-foothills/bishkek"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Bokonbayevo in the day plan"
+      "ru": "Как поставить Боконбаево в план дня"
+      "uz": "Bokonbayevoni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Bokonbayevo?"
+          "ru": "Сколько времени группам стоит проводить в Боконбаево?"
+          "uz": "Bokonbayevoda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Issyk-Kul's quieter south-shore village”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Более тихое село южного берега Иссык-Куля»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Issiqkoʻl janubiy qirgʻogʻidagi sokin qishloq»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Bokonbayevo be a walkable core or a base for day trips?"
+          "ru": "Боконбаево — это пешеходное ядро или база для выездов?"
+          "uz": "Bokonbayevo piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Bokonbayevo's centre?"
+          "ru": "Где лучше ночевать относительно центра Боконбаево?"
+          "uz": "Bokonbayevo markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kyrgyzstan/regions/issyk-kul-and-karakol/cities/bokonbayevo.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Bokonbayevo stop into your Kyrgyzstan programme"
+      "ru": "Встройте остановку «Боконбаево» в программу (Кыргызстан)"
+      "uz": "Bokonbayevo bekatini Qirgʻiziston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Bokonbayevo | TourLink"
+    "ru": "Боконбаево | TourLink"
+    "uz": "Bokonbayevo | TourLink"
+  "metaDescription":
+    "en": "Bokonbayevo gives the Issyk-Kul route a slower south-shore voice. The village sits between lake road, simple overnights, hosted culture, and the canyon country that begins to pull the route east toward Skazka and Karakol."
+    "ru": "Боконбаево даёт маршруту по Иссык-Кулю более медленный южнобережный голос. Село стоит между озёрной дорогой, простыми ночёвками, культурными встречами с хозяевами и каньонами, которые ведут маршрут на восток к Сказке и Караколу."
+    "uz": "Bokonbayevo Issiqkoʻl yoʻnalishiga sekinroq janubiy qirgʻoq ohangini beradi. Qishloq koʻl yoʻli, oddiy tunash, mezbonli madaniy uchrashuvlar va Skazka hamda Qorakoʻl sari tortadigan kanyonlar orasida turadi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kyrgyzstan"
+"region": "issyk-kul-and-karakol"
+"latitude": 42.1137908
+"longitude": 76.9979291

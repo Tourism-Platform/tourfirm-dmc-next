@@ -1,0 +1,539 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "istaravshan"
+  "ru": "istaravshan"
+  "uz": "istaravshan"
+"title":
+  "en": "Istaravshan"
+  "ru": "Истаравшан"
+  "uz": "Istaravshan"
+"subtitle":
+  "en": "A northern craft town below Mug Teppe"
+  "ru": "Северный ремесленный город у Муг-Теппе"
+  "uz": "Mug Teppe yonidagi shimoliy hunarmand shahar"
+"excerpt":
+  "en": "Istaravshan is strongest after Khujand, when the hill, blue dome, shrine etiquette, bazaar lanes, and craft workshops stay close enough to feel like one town. A guide helps check what is open, keeps sacred and workshop stops respectful, and lets the visit breathe instead of becoming a list of quick stops."
+  "ru": "Истаравшан сильнее всего раскрывается после Худжанда, когда холм, голубой купол, этикет святыни, базарные переулки и ремесленные мастерские остаются рядом и читаются как один город. Гид помогает проверить, что открыто, сохранить уважение к святыням и мастерским и не превратить посещение в спешный список остановок."
+  "uz": "Istaravshan Xoʻjanddan keyin, tepalik, moviy gumbaz, ziyorat odobi, bozor yoʻlaklari va hunarmand ustaxonalari bir shahardek yaqin turganda eng yaxshi ochiladi. Gid nimalar ochiqligini tekshiradi, ziyorat va ustaxona toʻxtashlarini hurmatli saqlaydi va tashrifni shoshilinch roʻyxatga aylantirmaydi."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "Istaravshan"
+      "ru": "Истаравшан"
+      "uz": "Istaravshan"
+    "title":
+      "en": "Istaravshan"
+      "ru": "Истаравшан"
+      "uz": "Istaravshan"
+    "description":
+      "en": "A northern craft town below Mug Teppe"
+      "ru": "Северный ремесленный город у Муг-Теппе"
+      "uz": "Mug Teppe yonidagi shimoliy hunarmand shahar"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Istaravshan"
+      "ru": "Истаравшан"
+      "uz": "Istaravshan"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Istaravshan is strongest after Khujand, when the hill, blue dome, shrine etiquette, bazaar lanes, and craft workshops stay close enough to feel like one town."
+              "ru": "Истаравшан сильнее всего раскрывается после Худжанда, когда холм, голубой купол, этикет святыни, базарные переулки и ремесленные мастерские остаются рядом и читаются как один город."
+              "uz": "Istaravshan Xoʻjanddan keyin, tepalik, moviy gumbaz, ziyorat odobi, bozor yoʻlaklari va hunarmand ustaxonalari bir shahardek yaqin turganda eng yaxshi ochiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "The visit feels clearest as a compact sequence: arrive from Khujand, look first to Mug Teppe, then return to Kok Gumbaz, Hazrat-i Shoh, bazaar lanes, and craft streets according to what is open that day."
+              "ru": "Посещение лучше воспринимается как компактная последовательность: приезд из Худжанда, Муг-Теппе, затем Кок-Гумбаз, Хазрат-и Шох, базарные переулки и ремесленные улицы по тому доступу, который открыт в этот день."
+              "uz": "Tashrif ixcham ketma-ketlikda aniqroq seziladi: Xoʻjanddan kelish, avval Mug Teppega qarash, keyin Koʻk Gumbaz, Hazrati Shoh, bozor yoʻlaklari va hunarmand koʻchalariga oʻsha kungi kirish imkoniyatiga qarab qaytish."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Istaravshan does not need a race through every lane. The stronger visit chooses the hill, one or two architectural stops, and one living craft or bazaar moment if the local team confirms the welcome."
+              "ru": "Истаравшан не требует гонки по всем переулкам. Сильнее работает спокойный выбор: холм, одна-две архитектурные остановки и один ремесленный или базарный эпизод, если местная команда подтвердила приглашение."
+              "uz": "Istaravshanda har bir koʻchani shoshilib aylanib chiqish shart emas. Kuchliroq tashrif tepalikni, bir-ikki meʼmoriy toʻxtashni va mahalliy jamoa tasdiqlasa, bitta hunarmand yoki bozor uchrashuvini tanlaydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Istaravshan as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Истаравшан как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Istaravshan o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "Start above town, then walk back into the streets"
+      "ru": "Сначала над городом, затем обратно к улицам"
+      "uz": "Avval shahar tepasidan, keyin koʻchalarga qayting"
+    "description":
+      "en": "The visit feels clearest as a compact sequence: arrive from Khujand, look first to Mug Teppe, then return to Kok Gumbaz, Hazrat-i Shoh, bazaar lanes, and craft streets according to what is open that day."
+      "ru": "Посещение лучше воспринимается как компактная последовательность: приезд из Худжанда, Муг-Теппе, затем Кок-Гумбаз, Хазрат-и Шох, базарные переулки и ремесленные улицы по тому доступу, который открыт в этот день."
+      "uz": "Tashrif ixcham ketma-ketlikda aniqroq seziladi: Xoʻjanddan kelish, avval Mug Teppega qarash, keyin Koʻk Gumbaz, Hazrati Shoh, bozor yoʻlaklari va hunarmand koʻchalariga oʻsha kungi kirish imkoniyatiga qarab qaytish."
+    "mapPanel":
+      "eyebrow":
+        "en": "On the map"
+        "ru": "На карте"
+        "uz": "Xaritada"
+      "title":
+        "en": "Istaravshan and its three route anchors"
+        "ru": "Истаравшан и три ориентира маршрута"
+        "uz": "Istaravshan va uch yoʻnalish moʻljali"
+      "description":
+        "en": "The pins mark the town, Mug Teppe, Kok Gumbaz, and Hazrat-i Shoh. They help with orientation, but they do not confirm entrance, hours, photography rules, or vehicle stopping."
+        "ru": "Точки отмечают город, Муг-Теппе, Кок-Гумбаз и Хазрат-и Шох. Они помогают ориентироваться, но не подтверждают вход, часы, правила съемки или место остановки транспорта."
+        "uz": "Nuqtalar shahar, Mug Teppe, Koʻk Gumbaz va Hazrati Shohni belgilaydi. Ular moʻljal olishga yordam beradi, lekin kirish, ish vaqti, suratga olish qoidalari yoki transport toʻxtash joyini tasdiqlamaydi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.910825
+      "longitude": 69.000571
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "mug-teppe-mug-castle"
+      - "entityType": "attraction"
+        "entitySlug": "kok-gumbaz-mosque-and-madrasa"
+      - "entityType": "attraction"
+        "entitySlug": "hazrat-i-shoh-complex"
+    "aside":
+      "eyebrow":
+        "en": "Visit rhythm"
+        "ru": "Ритм посещения"
+        "uz": "Tashrif ritmi"
+      "title":
+        "en": "Keep the town sequence compact"
+        "ru": "Сохраните компактную последовательность"
+        "uz": "Shahar ketma-ketligini ixcham saqlang"
+      "description":
+        "en": "Istaravshan does not need a race through every lane. The stronger visit chooses the hill, one or two architectural stops, and one living craft or bazaar moment if the local team confirms the welcome."
+        "ru": "Истаравшан не требует гонки по всем переулкам. Сильнее работает спокойный выбор: холм, одна-две архитектурные остановки и один ремесленный или базарный эпизод, если местная команда подтвердила приглашение."
+        "uz": "Istaravshanda har bir koʻchani shoshilib aylanib chiqish shart emas. Kuchliroq tashrif tepalikni, bir-ikki meʼmoriy toʻxtashni va mahalliy jamoa tasdiqlasa, bitta hunarmand yoki bozor uchrashuvini tanlaydi."
+      "items":
+        - "title":
+            "en": "Come from Khujand without rushing the stop"
+            "ru": "Едьте из Худжанда без спешки"
+            "uz": "Xoʻjanddan shoshilmasdan keling"
+          "description":
+            "en": "Khujand is the clear northern start. Istaravshan feels better when the road leaves enough time for the town to unfold."
+            "ru": "Худжанд остается понятным северным началом. Истаравшан воспринимается лучше, когда дорога оставляет городу время раскрыться."
+            "uz": "Xoʻjand shimoldagi aniq boshlanishdir. Yoʻl shaharga ochilish uchun yetarli vaqt berganda Istaravshan yaxshiroq seziladi."
+        - "title":
+            "en": "Let Mug Teppe set the older story"
+            "ru": "Пусть Муг-Теппе задаст раннюю историю"
+            "uz": "Mug Teppe qadimgi hikoyani boshlab bersin"
+          "description":
+            "en": "The hill gives the later mosque, shrine, bazaar, and craft streets an older settlement frame before you come back down into town."
+            "ru": "Холм помогает увидеть мечеть, святыню, базар и ремесленные улицы как продолжение более раннего поселения."
+            "uz": "Tepalik keyingi masjid, ziyorat joyi, bozor va hunarmand koʻchalarini qadimgi manzil xotirasi bilan bogʻlashga yordam beradi."
+        - "title":
+            "en": "Pair the blue dome with respectful shrine time"
+            "ru": "Совместите голубой купол и уважительное посещение святыни"
+            "uz": "Moviy gumbazni hurmatli ziyorat bilan qoʻshing"
+          "description":
+            "en": "Kok Gumbaz and Hazrat-i Shoh sit close enough for a compact town sequence, but access and etiquette still need local guidance."
+            "ru": "Кок-Гумбаз и Хазрат-и Шох находятся достаточно близко для компактной прогулки, но доступ и этикет требуют местного сопровождения."
+            "uz": "Koʻk Gumbaz va Hazrati Shoh ixcham shahar yurishi uchun yaqin, ammo kirish va odob mahalliy yoʻl-yoʻriqni talab qiladi."
+        - "title":
+            "en": "Add workshops only when the welcome is real"
+            "ru": "Добавляйте мастерские только при настоящем приглашении"
+            "uz": "Ustaxonani faqat haqiqiy taklif boʻlsa qoʻshing"
+          "description":
+            "en": "Blacksmith and knife-making visits belong in the program only when artisans are ready for guests and the encounter does not feel staged."
+            "ru": "Кузнецы и мастера ножей уместны в программе только тогда, когда ремесленники готовы принять гостей и встреча не выглядит постановочной."
+            "uz": "Temirchi va pichoqsoz ustaxonasi dasturga faqat ustalar mehmonlarga tayyor boʻlsa va uchrashuv sahnalashtirilgandek tuyulmasa kiradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrish"
+    "title":
+      "en": "Mug Teppe, Kok Gumbaz, and Hazrat-i Shoh"
+      "ru": "Муг-Теппе, Кок-Гумбаз и Хазрат-и Шох"
+      "uz": "Mug Teppe, Koʻk Gumbaz va Hazrati Shoh"
+    "description":
+      "en": "These three stops make Istaravshan legible for travelers: an older hill above town, a light-blue dome, and a sacred place where modest dress and quiet movement matter."
+      "ru": "Эти три остановки помогают прочитать Истаравшан: ранний холм над городом, светло-голубой купол и святое место, где важны закрытая одежда и спокойное движение."
+      "uz": "Bu uch toʻxtash Istaravshanni sayohatchi uchun tushunarli qiladi: shahar ustidagi qadimgi tepalik, och-moviy gumbaz va yopiq kiyim hamda sokin yurish muhim boʻlgan ziyorat joyi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Mug Teppe / Mug Castle"
+          "ru": "Муг-Теппе / крепость Муг"
+          "uz": "Mug Teppe / Mug qalʼasi"
+        "description":
+          "en": "Mug Teppe is a compact hill site, not a restored castle. Its value is quieter: settlement memory, traces of an old gate and dome, and the first context for understanding why Istaravshan's later monuments belong together. Start here, and Kok Gumbaz, Hazrat-i-Shoh, bazaar streets, "
+          "ru": "Муг-Теппе - компактная площадка на холме, а не восстановленная крепость. Его ценность спокойнее: память поселения, следы старых ворот и купола, первый контекст для понимания Истаравшана. Если начать прогулку здесь, Кок-Гумбаз, Хазрати-Шох, базарные улицы и кварталы ниже складываю"
+          "uz": "Mug Teppe qayta tiklangan qalʼa emas, ixcham tepalik maydonidir. Uning qiymati sokinroq: manzilgoh xotirasi, eski darvoza va gumbaz izlari, Istaravshanni tushunish uchun birinchi kontekst. Sayr shu yerdan boshlansa, Kok Gumbaz, Hazrati Shoh, bozor koʻchalari va pastdagi mahallala"
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/istaravshan/mug-teppe-mug-castle"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Kok Gumbaz Mosque and Madrasa"
+          "ru": "Мечеть-медресе Кок-Гумбаз"
+          "uz": "Koʻk Gumbaz masjid-madrasasi"
+        "description":
+          "en": "On Istaravshan's western side, Kok Gumbaz announces itself first by color: a light-blue dome above square brick and majolica. Closer in, the portal, painted walls, molded mihrab, and large hall turn the stop from a skyline marker into a mosque-madrasa with study and prayer memory"
+          "ru": "На западной стороне Истаравшана Кок-Гумбаз сначала запоминается цветом: светло-голубой купол поднимается над квадратным кирпичом и майоликой. Ближе видны портал, росписи, лепной михраб и большой зал, поэтому памятник перестаёт быть только силуэтом и становится мечетью-медресе с п"
+          "uz": "Istaravshanning gʻarbiy tomonida Koʻk Gumbaz avvalo rangi bilan esda qoladi: kvadrat gʻisht va majolika ustida havorang gumbaz koʻtariladi. Yaqinroq borganda peshtoq, devoriy bezaklar, bezatilgan mehrob va katta zal koʻrinadi; shunda yodgorlik faqat uzoqdan koʻrinadigan siluet em"
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/istaravshan/kok-gumbaz-mosque-and-madrasa"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Hazrat-i Shoh Complex"
+          "ru": "Комплекс Хазрат-и Шох"
+          "uz": "Hazrati Shoh majmuasi"
+        "description":
+          "en": "Hazrat-i Shoh is the Istaravshan stop where the route lowers its voice. After hill ruins and blue-dome architecture, the mosque setting asks for modest dress, quiet movement, and a local check on which visitor areas are open that day. Keep the camera discreet, and let the stop st"
+          "ru": "Хазрат-и Шох - остановка, где маршрут по Истаравшану становится тише. После холма с древней памятью и голубого купола мечеть просит скромной одежды, спокойного движения и местной проверки того, какие зоны открыты гостям в этот день. Камеру лучше держать ненавязчиво, а саму остано"
+          "uz": "Hazrati Shoh Istaravshan yoʻnalishi sokinlashadigan bekatdir. Tepalikdagi qadimiy xotira va moviy gumbazdan keyin masjid muhiti kamtar kiyim, sokin harakat va oʻsha kuni mehmonlar uchun qaysi joylar ochiq ekanini mahalliy tekshirishni talab qiladi. Kamerani ehtiyotkor tuting, bek"
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/istaravshan/hazrat-i-shoh-complex"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City moments"
+      "ru": "Городские моменты"
+      "uz": "Shahar lahzalari"
+    "title":
+      "en": "Craft, etiquette, and the northern road"
+      "ru": "Ремесло, этикет и северная дорога"
+      "uz": "Hunar, odob va shimoliy yoʻl"
+    "description":
+      "en": "Beyond the monuments, Istaravshan depends on judgment: which workshop is open, how the shrine visit should be handled, and how the road from Khujand shapes the pace."
+      "ru": "За пределами памятников Истаравшану нужна внимательность: какая мастерская открыта, как вести себя у святыни и как дорога из Худжанда задает темп."
+      "uz": "Yodgorliklardan tashqarida Istaravshan eʼtibor talab qiladi: qaysi ustaxona ochiq, ziyorat qanday odob bilan oʻtadi va Xoʻjanddan keladigan yoʻl surʼatni qanday belgilaydi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Walk the old craft streets"
+          "ru": "Пройдите по ремесленным улицам"
+          "uz": "Hunarmand koʻchalardan yuring"
+        "description":
+          "en": "After Mug Teppe, Kok Gumbaz, and Hazrat-i Shoh, bazaar lanes, workshop doors, and older houses bring Istaravshan back to daily life."
+          "ru": "После Муг-Теппе, Кок-Гумбаза и Хазрат-и Шох базарные переулки, двери мастерских и старые дома возвращают Истаравшан к повседневной жизни."
+          "uz": "Mug Teppe, Koʻk Gumbaz va Hazrati Shohdan keyin bozor yoʻlaklari, ustaxona eshiklari va eski uylar Istaravshanni kundalik hayotga qaytaradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Step into a working knife workshop"
+          "ru": "Зайдите в действующую ножевую мастерскую"
+          "uz": "Ishlayotgan pichoqsoz ustaxonaga kiring"
+        "description":
+          "en": "Knife-making belongs in the visit only when a willing workshop, careful guide, and respectful timing make the encounter feel real."
+          "ru": "Ножевое ремесло уместно в посещении только тогда, когда есть открытая мастерская, внимательный гид и время для уважительной встречи."
+          "uz": "Pichoqsozlik tashrifga faqat ochiq ustaxona, ehtiyotkor gid va hurmatli uchrashuv uchun vaqt boʻlganda kiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Arrive after Khujand"
+          "ru": "Приезжайте после Худжанда"
+          "uz": "Xoʻjanddan keyin yetib keling"
+        "description":
+          "en": "The road from Khujand lets the journey shift from river city to hill, blue dome, shrine etiquette, and the next valley choice."
+          "ru": "Дорога из Худжанда переводит путешествие от города на Сырдарье к холму, голубому куполу, этикету святыни и следующему выбору в долине."
+          "uz": "Xoʻjanddan keladigan yoʻl sayohatni Sirdaryo boʻyidagi shahardan tepalik, moviy gumbaz, ziyorat odobi va vodiydagi keyingi tanlovga olib oʻtadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "Keep the town at human scale"
+      "ru": "Сохраните человеческий масштаб города"
+      "uz": "Shahar insoniy miqyosda qolsin"
+    "description":
+      "en": "Istaravshan is strongest when monuments, shrine etiquette, bazaar lanes, and craft work stay inside one measured town walk. At that pace it reads as a lived place, not a list of buildings."
+      "ru": "Истаравшан сильнее всего звучит, когда памятники, уважение к святыням, базарные переулки и ремесло остаются внутри одной размеренной прогулки. В таком темпе это живой город, а не перечень зданий."
+      "uz": "Istaravshan yodgorliklar, ziyorat odobi, bozor yoʻlaklari va hunarmand ishi bitta sokin shahar yurishi ichida qolganida kuchliroq seziladi. Shu surʼatda u binolar roʻyxati emas, tirik shahar boʻlib oʻqiladi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Begin above the town"
+              "ru": "Начните над городом"
+              "uz": "Shahar tepasidan boshlang"
+            "description":
+              "en": "Mug Teppe gives the settlement story before the visit drops into the streets. The hill does not need heavy claims; it helps the later monuments make sense."
+              "ru": "Муг-Теппе дает историю раннего поселения до того, как посещение спускается на улицы. Холму не нужны громкие обещания: он помогает понять поздние памятники города."
+              "uz": "Mug Teppe tashrif koʻchalarga tushishidan oldin qadimgi manzil hikoyasini beradi. Tepalikka katta daʼvolar kerak emas; u keyingi yodgorliklarni tushunarli qiladi."
+          - "type": "quote"
+            "quote":
+              "en": "Istaravshan is most memorable when the old hill, blue dome, shrine etiquette, and craft streets feel like one town rather than separate stops."
+              "ru": "Истаравшан запоминается сильнее всего, когда старый холм, голубой купол, этикет святыни и ремесленные улицы становятся одним городом, а не отдельными остановками."
+              "uz": "Istaravshan qadimgi tepalik, moviy gumbaz, ziyorat odobi va hunarmand koʻchalari alohida toʻxtashlar emas, bitta shahar boʻlib sezilganda esda qoladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep architecture and etiquette together"
+              "ru": "Держите архитектуру и этикет вместе"
+              "uz": "Meʼmorlik va odobni birga tuting"
+            "description":
+              "en": "Kok Gumbaz brings color, brick, and mosque-madrasa memory. Hazrat-i Shoh asks for modest dress, a quiet voice, and a local check on which areas are appropriate for guests."
+              "ru": "Кок-Гумбаз приносит цвет, кирпич и память мечети-медресе. Хазрат-и Шох требует закрытой одежды, тихого голоса и местной проверки зон, куда уместно входить гостям."
+              "uz": "Koʻk Gumbaz rang, gʻisht va masjid-madrasa xotirasini olib keladi. Hazrati Shoh yopiq kiyim, past ovoz va mehmonlar uchun qaysi joylar mosligini mahalliy tekshirishni talab qiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Treat craft life as a real encounter"
+              "ru": "Относитесь к ремеслу как к настоящей встрече"
+              "uz": "Hunarni haqiqiy uchrashuv sifatida qabul qiling"
+            "description":
+              "en": "Istaravshan's blacksmith and knife-making reputation matters only when there is a willing workshop and enough time for a respectful visit. If access is not right, bazaar lanes and old streets still carry the town's everyday life."
+              "ru": "Кузнечное и ножевое ремесло Истаравшана важно только при открытой мастерской и времени на уважительную встречу. Если доступ не подходит, базарные переулки и старые улицы все равно сохраняют повседневную жизнь города."
+              "uz": "Istaravshanning temirchilik va pichoqsozlik obroʻsi ochiq ustaxona va hurmatli uchrashuv uchun vaqt boʻlgandagina muhim. Kirish mos boʻlmasa, bozor yoʻlaklari va eski koʻchalar ham shaharning kundalik hayotini saqlaydi."
+          - "type": "alert"
+            "title":
+              "en": "Route takeaway"
+              "ru": "Вывод для маршрута"
+              "uz": "Yoʻnalish xulosasi"
+            "description":
+              "en": "Start from Khujand, choose the town sequence carefully, and keep any workshop or bazaar encounter flexible until the local team confirms the welcome."
+              "ru": "Начинайте из Худжанда, аккуратно выбирайте городскую последовательность и оставляйте мастерскую или базар гибкими до подтверждения местной команды."
+              "uz": "Xoʻjanddan boshlang, shahar ketma-ketligini ehtiyotkor tanlang va ustaxona yoki bozor qismini mahalliy jamoa tasdiqlaguncha moslashuvchan qoldiring."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Route role"
+                  "ru": "Коротко Роль в маршруте"
+                  "uz": "Qisqacha Yoʻnalish roli"
+                "description":
+                  "en": "A northern Tajikistan stop after Khujand."
+                  "ru": "Северная остановка после Худжанда."
+                  "uz": "Xoʻjanddan keyingi shimoliy toʻxtash."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main anchors"
+                  "ru": "Главные ориентиры"
+                  "uz": "Asosiy moʻljallar"
+                "description":
+                  "en": "Mug Teppe, Kok Gumbaz, and Hazrat-i Shoh."
+                  "ru": "Муг-Теппе, Кок-Гумбаз и Хазрат-и Шох."
+                  "uz": "Mug Teppe, Koʻk Gumbaz va Hazrati Shoh."
+              - "icon": "Sun"
+                "title":
+                  "en": "Time needed"
+                  "ru": "Время"
+                  "uz": "Kerakli vaqt"
+                "description":
+                  "en": "Choose by road timing and workshop access."
+                  "ru": "Решение зависит от дороги и доступа к мастерским."
+                  "uz": "Qaror yoʻl va ustaxonaga kirishga bogʻliq."
+              - "icon": "Route"
+                "title":
+                  "en": "Local checks"
+                  "ru": "Местная проверка"
+                  "uz": "Mahalliy tekshiruv"
+                "description":
+                  "en": "Confirm workshops, shrine areas, and photography."
+                  "ru": "Уточняйте мастерские, зоны святынь и съемку."
+                  "uz": "Ustaxona, ziyorat zonalari va suratga olishni aniqlang."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqin joylar"
+    "title":
+      "en": "Khujand before and after Istaravshan"
+      "ru": "Худжанд до и после Истаравшана"
+      "uz": "Istaravshandan oldin va keyin Xoʻjand"
+    "description":
+      "en": "Khujand remains the reliable nearby city for the northern route. Isfara and the eastern valley should stay flexible until road timing and local conditions are checked."
+      "ru": "Худжанд остается надежным соседним городом для северного маршрута. Исфару и восточную часть долины лучше оставлять гибкими до проверки дороги и местных условий."
+      "uz": "Xoʻjand shimoliy yoʻnalish uchun ishonchli yaqin shahardir. Isfara va vodiyning sharqiy qismi yoʻl va mahalliy sharoit tekshirilguncha moslashuvchan qolishi kerak."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Khujand"
+          "ru": "Худжанд"
+          "uz": "Xoʻjand"
+        "description":
+          "en": "Khujand brings northern Tajikistan into focus through a compact center: Panjshanbe Bazaar, Sheikh Muslihiddin's sacred complex, the fortress museum, and the Syr Darya before the road opens across Sughd."
+          "ru": "Худжанд помогает увидеть северный Таджикистан через компактный центр: базар Панджшанбе, священный комплекс шейха Муслихиддина, крепостной музей и Сырдарью перед дорогами по Согду."
+          "uz": "Xoʻjand Shimoliy Tojikistonni ixcham markaz orqali tanitadi: Panjshanbe bozori, Shayx Muslihiddin muqaddas majmuasi, qalʼa muzeyi va Sugʻd boʻylab keyingi yoʻllardan oldin Sirdaryo."
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan/khujand"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Istaravshan in the day plan"
+      "ru": "Как поставить Истаравшан в план дня"
+      "uz": "Istaravshanni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Istaravshan?"
+          "ru": "Сколько времени группам стоит проводить в Истаравшан?"
+          "uz": "Istaravshanda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A northern craft town below Mug Teppe”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Северный ремесленный город у Муг-Теппе»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Mug Teppe yonidagi shimoliy hunarmand shahar»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Istaravshan be a walkable core or a base for day trips?"
+          "ru": "Истаравшан — это пешеходное ядро или база для выездов?"
+          "uz": "Istaravshan piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Istaravshan's centre?"
+          "ru": "Где лучше ночевать относительно центра Истаравшан?"
+          "uz": "Istaravshan markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Istaravshan stop into your Tajikistan programme"
+      "ru": "Встройте остановку «Истаравшан» в программу (Таджикистан)"
+      "uz": "Istaravshan bekatini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Istaravshan | TourLink"
+    "ru": "Истаравшан | TourLink"
+    "uz": "Istaravshan | TourLink"
+  "metaDescription":
+    "en": "Istaravshan is strongest after Khujand, when the hill, blue dome, shrine etiquette, bazaar lanes, and craft workshops stay close enough to feel like one town. A guide helps check what is open, keeps sacred and workshop stops respectful, and lets the visit breathe instead of becoming a list of quick stops."
+    "ru": "Истаравшан сильнее всего раскрывается после Худжанда, когда холм, голубой купол, этикет святыни, базарные переулки и ремесленные мастерские остаются рядом и читаются как один город. Гид помогает проверить, что открыто, сохранить уважение к святыням и мастерским и не превратить посещение в спешный список остановок."
+    "uz": "Istaravshan Xoʻjanddan keyin, tepalik, moviy gumbaz, ziyorat odobi, bozor yoʻlaklari va hunarmand ustaxonalari bir shahardek yaqin turganda eng yaxshi ochiladi. Gid nimalar ochiqligini tekshiradi, ziyorat va ustaxona toʻxtashlarini hurmatli saqlaydi va tashrifni shoshilinch roʻyxatga aylantirmaydi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "khujand-and-northern-tajikistan"
+"latitude": 39.9080152
+"longitude": 68.9956351

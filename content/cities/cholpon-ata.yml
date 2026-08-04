@@ -1,0 +1,546 @@
+# Generated from scrape/kyrgyzstan (multi-locale)
+"slug":
+  "en": "cholpon-ata"
+  "ru": "cholpon-ata"
+  "uz": "cholpon-ata"
+"title":
+  "en": "Cholpon-Ata"
+  "ru": "Чолпон-Ата"
+  "uz": "Cholpon-Ata"
+"subtitle":
+  "en": "Issyk-Kul's practical north-shore stop"
+  "ru": "Практичная остановка на северном берегу Иссык-Куля"
+  "uz": "Issiqkoʻl shimoliy qirgʻogʻidagi amaliy toʻxtash"
+"excerpt":
+  "en": "Cholpon-Ata is not the whole lake. It is the practical north-shore town where travelers can slow down after the Bishkek road, touch the water, choose one or two cultural stops, and decide whether the next move is Karakol, the south shore, or a quieter mountain detour."
+  "ru": "Чолпон-Ата — не весь Иссык-Куль. Это практичный городок северного берега, где после дороги из Бишкека можно замедлиться, выйти к воде, выбрать одну-две культурные остановки и решить, куда дальше вести маршрут: к Караколу, на южный берег или в более тихую горную сторону."
+  "uz": "Cholpon-Ata butun Issiqkoʻl emas. Bu Bishkek yo‘lidan keyin sekinlashish, suvga chiqish, bir-ikki madaniy to‘xtashni tanlash va keyingi harakat Karakol, janubiy qirg‘oq yoki tinchroq togʻ tomonga borishini hal qilish mumkin bo‘lgan amaliy shimoliy qirg‘oq shaharchasi."
+"heroImage": "assets/images/destinations/kyrgyzstan/regions/issyk-kul-and-karakol/cities/cholpon-ata.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kyrgyzstan/regions/issyk-kul-and-karakol/cities/cholpon-ata.webp"
+    "imageAlt":
+      "en": "Cholpon-Ata"
+      "ru": "Чолпон-Ата"
+      "uz": "Cholpon-Ata"
+    "title":
+      "en": "Cholpon-Ata"
+      "ru": "Чолпон-Ата"
+      "uz": "Cholpon-Ata"
+    "description":
+      "en": "Issyk-Kul's practical north-shore stop"
+      "ru": "Практичная остановка на северном берегу Иссык-Куля"
+      "uz": "Issiqkoʻl shimoliy qirgʻogʻidagi amaliy toʻxtash"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Cholpon-Ata"
+      "ru": "Чолпон-Ата"
+      "uz": "Cholpon-Ata"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Cholpon-Ata is not the whole lake."
+              "ru": "Чолпон-Ата — не весь Иссык-Куль."
+              "uz": "Cholpon-Ata butun Issiqkoʻl emas."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Read Cholpon-Ata through three simple points: the town and shore, Ruh Ordo by the water, and the petroglyph field above the streets. The map keeps the stop compact before the wider Issyk-Kul road opens again."
+              "ru": "Чолпон-Ату удобно читать через три простые точки: город и берег, Рух Ордо у воды и поле петроглифов выше улиц. Карта удерживает остановку компактной, прежде чем снова откроется большая дорога вокруг Иссык-Куля."
+              "uz": "Cholpon-Atani uch oddiy nuqta orqali o‘qish qulay: shaharcha va qirg‘oq, suv bo‘yidagi Ruh Ordo va ko‘chalar ustidagi petroglif maydoni. Xarita keng Issiqkoʻl yo‘li yana ochilishidan oldin to‘xtashni ixcham tutadi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Cholpon-Ata is strongest when it gives the lake route one calm pause instead of trying to become every Issyk-Kul extension at once."
+              "ru": "Чолпон-Ата сильнее всего, когда даёт маршруту одну спокойную паузу у озера, а не пытается стать всеми продолжениями Иссык-Куля сразу."
+              "uz": "Cholpon-Ata yoʻnalishga ko‘l bo‘yida bitta sokin pauza berganda eng kuchli; u birdaniga barcha Issiqkoʻl davomlariga aylanishi shart emas."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Cholpon-Ata as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Чолпон-Ата как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Cholpon-Ata o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Town, lakefront, and two cultural anchors"
+      "ru": "Город, берег и два культурных ориентира"
+      "uz": "Shaharcha, qirgʻoq va ikki madaniy tayanch"
+    "description":
+      "en": "Read Cholpon-Ata through three simple points: the town and shore, Ruh Ordo by the water, and the petroglyph field above the streets. The map keeps the stop compact before the wider Issyk-Kul road opens again."
+      "ru": "Чолпон-Ату удобно читать через три простые точки: город и берег, Рух Ордо у воды и поле петроглифов выше улиц. Карта удерживает остановку компактной, прежде чем снова откроется большая дорога вокруг Иссык-Куля."
+      "uz": "Cholpon-Atani uch oddiy nuqta orqali o‘qish qulay: shaharcha va qirg‘oq, suv bo‘yidagi Ruh Ordo va ko‘chalar ustidagi petroglif maydoni. Xarita keng Issiqkoʻl yo‘li yana ochilishidan oldin to‘xtashni ixcham tutadi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Yoʻnalish xaritasi"
+      "title":
+        "en": "Cholpon-Ata, Ruh Ordo, and the petroglyph field"
+        "ru": "Чолпон-Ата, Рух Ордо и поле петроглифов"
+        "uz": "Cholpon-Ata, Ruh Ordo va petroglif maydoni"
+      "description":
+        "en": "The town point holds the shore and resort rhythm, Ruh Ordo stays close to the lake, and the petroglyph field sits above Cholpon-Ata."
+        "ru": "Городская точка держит берег и курортный ритм, Рух Ордо остаётся рядом с озером, а поле петроглифов лежит выше Чолпон-Аты."
+        "uz": "Shaharcha nuqtasi qirg‘oq va kurort ritmini ushlab turadi, Ruh Ordo ko‘lga yaqin qoladi, petroglif maydoni esa Cholpon-Ata ustida joylashgan."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 42.650097
+      "longitude": 77.072913
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "ruh-ordo-cultural-center"
+      - "entityType": "attraction"
+        "entitySlug": "cholpon-ata-petroglyph-open-air-museum"
+    "aside":
+      "eyebrow":
+        "en": "Route rhythm"
+        "ru": "Ритм маршрута"
+        "uz": "Yoʻnalish ritmi"
+      "title":
+        "en": "Keep the north-shore stop clear"
+        "ru": "Сохраните ясность северного берега"
+        "uz": "Shimoliy qirgʻoq toʻxtashini aniq tuting"
+      "description":
+        "en": "Cholpon-Ata is strongest when it gives the lake route one calm pause instead of trying to become every Issyk-Kul extension at once."
+        "ru": "Чолпон-Ата сильнее всего, когда даёт маршруту одну спокойную паузу у озера, а не пытается стать всеми продолжениями Иссык-Куля сразу."
+        "uz": "Cholpon-Ata yoʻnalishga ko‘l bo‘yida bitta sokin pauza berganda eng kuchli; u birdaniga barcha Issiqkoʻl davomlariga aylanishi shart emas."
+      "items":
+        - "title":
+            "en": "Arrive by the water"
+            "ru": "Приехать к воде"
+            "uz": "Suv bo‘yiga yetib kelish"
+          "description":
+            "en": "Most routes arrive from Bishkek or the Chuy road, so the first job is to let the traveler actually feel the lake."
+            "ru": "Большинство маршрутов приходит из Бишкека или с Чуйской дороги, поэтому первая задача — дать путешественнику действительно почувствовать озеро."
+            "uz": "Ko‘p yo‘nalishlar Bishkek yoki Chuy yo‘lidan keladi, shuning uchun birinchi vazifa sayohatchiga ko‘lni chinakam his qildirishdir."
+        - "title":
+            "en": "Use the resort rhythm lightly"
+            "ru": "Легко взять курортный ритм"
+            "uz": "Kurort ritmini yengil oling"
+          "description":
+            "en": "The town can be a short stop or overnight pause, especially when the route needs comfort before moving east or south."
+            "ru": "Город может быть короткой остановкой или ночёвкой, особенно когда маршруту нужен комфорт перед движением на восток или юг."
+            "uz": "Shaharcha qisqa to‘xtash yoki tunash pauzasi sifatida yaxshi, ayniqsa yo‘nalish sharq yoki janubga ketishdan oldin qulaylik so‘rasa."
+        - "title":
+            "en": "Choose one or two anchors"
+            "ru": "Выбрать один или два ориентира"
+            "uz": "Bir yoki ikki tayanchni tanlang"
+          "description":
+            "en": "Ruh Ordo and the petroglyph field give the stop cultural shape without turning it into a long museum day."
+            "ru": "Рух Ордо и поле петроглифов дают остановке культурную форму, не превращая её в длинный музейный день."
+            "uz": "Ruh Ordo va petroglif maydoni to‘xtashga madaniy shakl beradi, uni uzun muzey kuniga aylantirmaydi."
+        - "title":
+            "en": "Decide the next shore"
+            "ru": "Решить, какой берег дальше"
+            "uz": "Keyingi qirgʻoqni tanlang"
+          "description":
+            "en": "After Cholpon-Ata, the road can continue toward Karakol, cross to the south shore, or slow down with a nearby valley route."
+            "ru": "После Чолпон-Аты дорога может идти к Караколу, перейти на южный берег или замедлиться через близкую долинную поездку."
+            "uz": "Cholpon-Atadan keyin yo‘l Karakolga borishi, janubiy qirg‘oqqa o‘tishi yoki yaqin vodiy yo‘nalishi bilan sekinlashishi mumkin."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrish"
+    "title":
+      "en": "Two anchors beyond the beach"
+      "ru": "Два ориентира кроме пляжа"
+      "uz": "Plyajdan tashqari ikki tayanch"
+    "description":
+      "en": "Ruh Ordo and the petroglyph field are the public anchors that give Cholpon-Ata more than resort-town value. The hippodrome, local museum, beaches, and nearby gorge routes remain useful context until they are ready for their own review."
+      "ru": "Рух Ордо и поле петроглифов — публичные ориентиры, которые дают Чолпон-Ате больше, чем курортную ценность. Ипподром, местный музей, пляжи и близкие ущелья остаются полезным контекстом, пока не пройдут отдельную проверку."
+      "uz": "Ruh Ordo va petroglif maydoni Cholpon-Ataga kurort shaharchasidan kengroq maʼno beradigan asosiy ochiq orientirlardir. Ippodrom, mahalliy muzey, plyajlar va yaqin daralar alohida ko‘rib chiqilgunga qadar yo‘nalish konteksti bo‘lib qoladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/issyk-kul-and-karakol/cities/cholpon-ata/attractions/ruh-ordo-cultural-center.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Ruh Ordo Cultural Center"
+          "ru": "Культурный центр Рух Ордо"
+          "uz": "Ruh Ordo madaniyat markazi"
+        "description":
+          "en": "Ruh Ordo changes the mood of Cholpon-Ata. Instead of another beach stop, the lakeshore becomes an open-air cultural center with faith pavilions, Aitmatov references, sculpture, and a komuz-shaped pier reaching into Issyk-Kul."
+          "ru": "Рух Ордо меняет настроение Чолпон-Аты. Вместо очередной пляжной остановки берег становится культурным центром под открытым небом: религиозные павильоны, память об Айтматове, скульптура и пирс в форме комуза, уходящий в Иссык-Куль."
+          "uz": "Ruh Ordo Cholpon-Ataning kayfiyatini o‘zgartiradi. Yana bir sohil bekati o‘rniga qirg‘oq ochiq osmon ostidagi madaniyat markaziga aylanadi: e’tiqod pavilonlari, Aytmatov xotirasi, haykallar va Issiqko‘l ichiga cho‘zilgan komuz shaklidagi ko‘l yo‘lagi."
+        "ctaHref": "/destinations/kyrgyzstan/issyk-kul-and-karakol/cholpon-ata/ruh-ordo-cultural-center"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/issyk-kul-and-karakol/cities/cholpon-ata/attractions/cholpon-ata-petroglyph-open-air-museum.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Cholpon-Ata Petroglyph Open-Air Museum"
+          "ru": "Музей петроглифов под открытым небом в Чолпон-Ате"
+          "uz": "Cholpon-Ata ochiq osmon ostidagi petrogliflar muzeyi"
+        "description":
+          "en": "Above Cholpon-Ata, the lake road opens onto an archaeological field. Dark stones, animal figures, hunting scenes, and wide Issyk-Kul air make the stop feel older and quieter than the resort town below."
+          "ru": "Над Чолпон-Атой дорога у озера выходит к археологическому полю. Тёмные камни, фигуры животных, сцены охоты и широкий воздух Иссык-Куля делают остановку старше и тише, чем курортный город ниже."
+          "uz": "Cholpon-Ata ustida ko‘l yo‘li arxeologik maydonga chiqadi. Qoramtir toshlar, hayvon tasvirlari, ov sahnalari va Issiqko‘lning keng havosi bu to‘xtashni pastdagi kurort shaharchasidan qadimiyroq va sokinroq qiladi."
+        "ctaHref": "/destinations/kyrgyzstan/issyk-kul-and-karakol/cholpon-ata/cholpon-ata-petroglyph-open-air-museum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City rhythm"
+      "ru": "Ритм места"
+      "uz": "Shaharcha ritmi"
+    "title":
+      "en": "Three ways Cholpon-Ata changes the route"
+      "ru": "Три способа, которыми Чолпон-Ата меняет маршрут"
+      "uz": "Cholpon-Ata yoʻnalishni oʻzgartiradigan uch lahza"
+    "description":
+      "en": "The town is useful when it gives the route a real lake pause, separates culture from beach time, and makes the next Issyk-Kul choice deliberate."
+      "ru": "Город полезен, когда даёт маршруту настоящую паузу у озера, отделяет культуру от пляжного времени и делает следующий выбор по Иссык-Кулю осознанным."
+      "uz": "Shaharcha yo‘nalishga haqiqiy ko‘l pauzasi berganda, madaniyatni plyaj vaqtidan ajratganda va keyingi Issiqkoʻl tanlovini ongli qilganda foydali bo‘ladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan/character/cholpon-ata/cholpon-ata-character-1.webp"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Let the lake reset the road"
+          "ru": "Дайте озеру сменить ритм дороги"
+          "uz": "Ko‘l yo‘l ritmini yangilasin"
+        "description":
+          "en": "Cholpon-Ata can be the first real Issyk-Kul pause: water, light, a slower walk, and the feeling that the drive has finally given way to the lake."
+          "ru": "Чолпон-Ата может стать первой настоящей паузой у Иссык-Куля: вода, свет, более медленная прогулка и ощущение, что переезд наконец уступил место озеру."
+          "uz": "Cholpon-Ata Issiqkoʻldagi birinchi haqiqiy pauza bo‘lishi mumkin: suv, yorugʻlik, sekinroq yurish va yo‘l nihoyat ko‘lga joy berganini his qilish."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan/character/cholpon-ata/cholpon-ata-character-2.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Keep culture and old stones distinct"
+          "ru": "Разведите культуру и древние камни"
+          "uz": "Madaniyat va qadimiy toshlarni ajrating"
+        "description":
+          "en": "Ruh Ordo and the petroglyph field are strongest when they keep their own mood: one by the water, one above town, both giving the resort stop more depth."
+          "ru": "Рух Ордо и поле петроглифов сильнее, когда сохраняют собственное настроение: одно место у воды, другое над городом, и оба дают курортной остановке глубину."
+          "uz": "Ruh Ordo va petroglif maydoni o‘z kayfiyatini saqlaganda kuchliroq: biri suv bo‘yida, biri shaharcha tepasida, ikkalasi ham kurort to‘xtashiga chuqurlik beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan/character/cholpon-ata/cholpon-ata-character-3.webp"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Choose the next shore consciously"
+          "ru": "Выберите следующий берег осознанно"
+          "uz": "Keyingi qirgʻoqni ongli tanlang"
+        "description":
+          "en": "From Cholpon-Ata, the route can continue toward Karakol, cross to the south shore, or stay local; the right choice depends on season, road time, and the lake pause the route needs before moving on."
+          "ru": "Из Чолпон-Аты маршрут может идти к Караколу, перейти на южный берег или остаться рядом; выбор зависит от сезона, дороги и паузы у озера, которая нужна маршруту."
+          "uz": "Cholpon-Atadan yo‘nalish Karakolga borishi, janubiy qirg‘oqqa o‘tishi yoki yaqin atrofda qolishi mumkin; to‘g‘ri tanlov mavsum, yo‘l vaqti va yo‘nalishga kerak bo‘lgan ko‘l pauzasiga bogʻliq."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "Make the town a clear lake stop, not a checklist"
+      "ru": "Сделайте город ясной остановкой у озера, а не списком"
+      "uz": "Shaharchani roʻyxat emas, aniq ko‘l toʻxtashi qiling"
+    "description":
+      "en": "Cholpon-Ata can be quick, crowded, easy, useful, or surprisingly reflective depending on how the route treats it. The strongest plan gives the town one job: let Issyk-Kul enter the journey before the road asks for another decision."
+      "ru": "Чолпон-Ата может быть быстрой, шумной, удобной, полезной или неожиданно спокойной — всё зависит от того, как маршрут с ней обращается. Самый сильный план даёт городу одну задачу: впустить Иссык-Куль в поездку до того, как дорога попросит нового решения."
+      "uz": "Cholpon-Ata yo‘nalish unga qanday munosabatda bo‘lishiga qarab tez, gavjum, qulay, foydali yoki kutilmaganda sokin bo‘lishi mumkin. Eng kuchli reja shaharchaga bitta vazifa beradi: yo‘l yangi qaror so‘rashidan oldin Issiqkoʻlni safarga kiritish."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Let the lake be the first reason"
+              "ru": "Пусть озеро будет первой причиной"
+              "uz": "Ko‘l birinchi sabab bo‘lsin"
+            "description":
+              "en": "The drive from Bishkek or Chuy can make the lake feel like a prize at the end of the road. A walk by the water, a slower meal, or an overnight pause helps the route change pace before more ambitious mountain or shore choices."
+              "ru": "Дорога из Бишкека или Чуя может сделать озеро наградой в конце переезда. Прогулка у воды, спокойная еда или ночёвка помогают маршруту сменить темп перед более амбициозным выбором гор или берега."
+              "uz": "Bishkek yoki Chuydan keladigan yo‘l ko‘lni safar oxiridagi mukofotdek his qildirishi mumkin. Suv bo‘yida yurish, sokin ovqat yoki tunash pauzasi togʻ yoki qirgʻoq bo‘yicha kattaroq tanlovdan oldin yo‘nalish surʼatini o‘zgartiradi."
+          - "type": "quote"
+            "quote":
+              "en": "Cholpon-Ata is most useful when it gives the route a real pause by the water, then lets the lake road continue with purpose."
+              "ru": "Чолпон-Ата полезнее всего, когда даёт маршруту настоящую паузу у воды, а затем позволяет дороге вокруг озера продолжиться осмысленно."
+              "uz": "Cholpon-Ata yo‘nalishga suv bo‘yida haqiqiy pauza berganda eng foydali, keyin esa ko‘l yo‘li maqsad bilan davom etadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Separate the two cultural stops"
+              "ru": "Разделите две культурные остановки"
+              "uz": "Ikki madaniy toʻxtashni ajrating"
+            "description":
+              "en": "Ruh Ordo and the petroglyph field ask for different moods. One is lakefront and symbolic; the other is open-air archaeology above town. Keeping them distinct makes the town feel clearer."
+              "ru": "Рух Ордо и поле петроглифов требуют разного настроения. Один ориентир стоит у воды и говорит символами; другой — открытая археология над городом. Когда они не смешаны, Чолпон-Ата становится понятнее."
+              "uz": "Ruh Ordo va petroglif maydoni turli kayfiyat so‘raydi. Biri suv bo‘yida va ramziy; ikkinchisi shahar tepasidagi ochiq osmon osti arxeologiyasi. Ularni alohida tutish shaharchani aniqroq qiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Choose the next move before leaving"
+              "ru": "Выберите следующий ход до выезда"
+              "uz": "Ketishdan oldin keyingi harakatni tanlang"
+            "description":
+              "en": "Karakol, Grigorievka-Semenovka, Bokonbayevo, and the south shore all pull the route in different directions. Cholpon-Ata should help that choice, not blur it."
+              "ru": "Каракол, Григорьевка и Семёновка, Боконбаево и южный берег тянут маршрут в разные стороны. Чолпон-Ата должна помочь с выбором, а не размыть его."
+              "uz": "Karakol, Grigoryevka-Semyonovka, Bokonbayevo va janubiy qirgʻoq yoʻnalishni turli tomonga tortadi. Cholpon-Ata bu tanlovga yordam berishi kerak, uni xiralashtirmasligi kerak."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Что важно для путешественника"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Use Cholpon-Ata for lake contact, one focused cultural stop, and a clean decision about where Issyk-Kul goes next."
+              "ru": "Чолпон-Ата подходит для контакта с озером, одной точной культурной остановки и ясного решения, куда дальше ведёт Иссык-Куль."
+              "uz": "Cholpon-Atani ko‘l bilan aloqa, bitta aniq madaniy to‘xtash va Issiqkoʻl keyin qayerga borishini hal qilish uchun tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Route role"
+                  "ru": "Коротко Роль в маршруте"
+                  "uz": "Qisqacha Yoʻnalishdagi roli"
+                "description":
+                  "en": "The town is strongest as the first clear pause on the north shore."
+                  "ru": "Город сильнее всего как первая понятная пауза на северном берегу."
+                  "uz": "Shaharcha shimoliy qirgʻoqdagi birinchi aniq pauza sifatida eng kuchli."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Town feel"
+                  "ru": "Ощущение города"
+                  "uz": "Shaharcha hissi"
+                "description":
+                  "en": "Lakefront walks and resort streets set the immediate rhythm."
+                  "ru": "Прогулки у воды и курортные улицы задают ближайший ритм."
+                  "uz": "Suv bo‘yidagi yurishlar va kurort ko‘chalari yaqin ritmni beradi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Main anchors"
+                  "ru": "Главные ориентиры"
+                  "uz": "Asosiy tayanchlar"
+                "description":
+                  "en": "Ruh Ordo and the petroglyph field carry the public culture story."
+                  "ru": "Рух Ордо и поле петроглифов держат публичную культурную историю."
+                  "uz": "Ruh Ordo va petroglif maydoni asosiy madaniy hikoyani ushlab turadi."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and pace"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va surʼat"
+                "description":
+                  "en": "Summer crowds, lake glare, wind, and events can change the pace."
+                  "ru": "Летние толпы, яркий свет у озера, ветер и события могут менять темп."
+                  "uz": "Yozgi gavjumlik, ko‘l bo‘yidagi yorqin nur, shamol va tadbirlar surʼatni o‘zgartirishi mumkin."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Next move"
+                  "ru": "Следующий шаг"
+                  "uz": "Keyingi qadam"
+                "description":
+                  "en": "The next choice is east to Karakol, south across the lake, or slower local valleys."
+                  "ru": "Следующий выбор — на восток к Караколу, на южный берег или в более тихие долины."
+                  "uz": "Keyingi tanlov sharqqa Karakol, janubiy qirgʻoq yoki sokinroq vodiylar bo‘ladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqinda"
+    "title":
+      "en": "Karakol east, Bishkek west, south shore later"
+      "ru": "Каракол на восток, Бишкек на запад, южный берег позже"
+      "uz": "Karakol sharqda, Bishkek gʻarbda, janubiy qirgʻoq keyinroq"
+    "description":
+      "en": "Karakol is the main eastbound continuation, while Bishkek remains the usual westbound start or return. Bokonbayevo and the south shore matter for later planning, but they belong to a separate next step rather than this compact town stop."
+      "ru": "Каракол — главное продолжение на восток, а Бишкек остаётся обычной западной точкой старта или возвращения. Боконбаево и южный берег важны для следующего этапа, но лучше держать их отдельным шагом, а не добавлять к этой компактной остановке."
+      "uz": "Karakol sharqqa asosiy davom, Bishkek esa odatiy gʻarbiy boshlanish yoki qaytish nuqtasi bo‘lib qoladi. Bokonbayevo va janubiy qirgʻoq keyingi bosqich uchun muhim, lekin ularni bu ixcham shaharcha to‘xtashiga qo‘shmasdan alohida qadam sifatida qoldirgan yaxshi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/cholpon-ata-next-karakol.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Karakol"
+          "ru": "Каракол"
+          "uz": "Qorakoʻl"
+        "description":
+          "en": "Karakol anchors eastern Issyk-Kul with Dungan food, timber religious landmarks, guesthouse streets, museum context, and measured choices toward valleys, hot springs, and high trails."
+          "ru": "Каракол держит восточный Иссык-Куль: дунганская еда, деревянные религиозные ориентиры, улицы гостевых домов, музейный контекст и продуманный выбор долин, источников и высоких троп."
+          "uz": "Qorakoʻl sharqiy Issiqkoʻlni ushlab turadi: dungan taomi, yogʻoch diniy moʻljallar, mehmon uylari koʻchalari, muzey konteksti hamda vodiylar, buloqlar va baland soʻqmoqlar sari puxta tanlov."
+        "ctaHref": "/destinations/kyrgyzstan/issyk-kul-and-karakol/karakol"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/cholpon-ata-next-bishkek.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Bishkek"
+          "ru": "Бишкек"
+          "uz": "Bishkek"
+        "description":
+          "en": "Bishkek gives Kyrgyzstan a calm first frame: Ala-Too Square, Osh Bazaar, museum time, cafe streets, and quick roads to the Chuy foothills."
+          "ru": "Бишкек даёт Кыргызстану спокойный старт: площадь Ала-Тоо, Ошский базар, музейное время, кафе и быстрые дороги к Чуйским предгорьям."
+          "uz": "Bishkek Qirgʻizistonga xotirjam boshlanish beradi: Ala-Too maydoni, Oʻsh bozori, muzey vaqti, kafe koʻchalari hamda Chuy etaklariga tez yoʻllar."
+        "ctaHref": "/destinations/kyrgyzstan/bishkek-and-chuy-foothills/bishkek"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Cholpon-Ata in the day plan"
+      "ru": "Как поставить Чолпон-Ата в план дня"
+      "uz": "Cholpon-Atani kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Cholpon-Ata?"
+          "ru": "Сколько времени группам стоит проводить в Чолпон-Ата?"
+          "uz": "Cholpon-Atada guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Issyk-Kul's practical north-shore stop”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Практичная остановка на северном берегу Иссык-Куля»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Issiqkoʻl shimoliy qirgʻogʻidagi amaliy toʻxtash»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Cholpon-Ata be a walkable core or a base for day trips?"
+          "ru": "Чолпон-Ата — это пешеходное ядро или база для выездов?"
+          "uz": "Cholpon-Ata piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Cholpon-Ata's centre?"
+          "ru": "Где лучше ночевать относительно центра Чолпон-Ата?"
+          "uz": "Cholpon-Ata markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kyrgyzstan/regions/issyk-kul-and-karakol/cities/cholpon-ata.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Cholpon-Ata stop into your Kyrgyzstan programme"
+      "ru": "Встройте остановку «Чолпон-Ата» в программу (Кыргызстан)"
+      "uz": "Cholpon-Ata bekatini Qirgʻiziston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Cholpon-Ata | TourLink"
+    "ru": "Чолпон-Ата | TourLink"
+    "uz": "Cholpon-Ata | TourLink"
+  "metaDescription":
+    "en": "Cholpon-Ata is not the whole lake. It is the practical north-shore town where travelers can slow down after the Bishkek road, touch the water, choose one or two cultural stops, and decide whether the next move is Karakol, the south shore, or a quieter mountain detour."
+    "ru": "Чолпон-Ата — не весь Иссык-Куль. Это практичный городок северного берега, где после дороги из Бишкека можно замедлиться, выйти к воде, выбрать одну-две культурные остановки и решить, куда дальше вести маршрут: к Караколу, на южный берег или в более тихую горную сторону."
+    "uz": "Cholpon-Ata butun Issiqkoʻl emas. Bu Bishkek yo‘lidan keyin sekinlashish, suvga chiqish, bir-ikki madaniy to‘xtashni tanlash va keyingi harakat Karakol, janubiy qirg‘oq yoki tinchroq togʻ tomonga borishini hal qilish mumkin bo‘lgan amaliy shimoliy qirg‘oq shaharchasi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kyrgyzstan"
+"region": "issyk-kul-and-karakol"
+"latitude": 42.6417055
+"longitude": 77.0665164

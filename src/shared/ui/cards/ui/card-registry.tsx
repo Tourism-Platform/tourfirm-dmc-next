@@ -6,10 +6,14 @@ import { CardType, type ICardItem } from "../types/card-render.types";
 
 import { BlogCard } from "./blog-card";
 import { CountryCard } from "./country-card";
+import { DashTitleCard } from "./dash-title-card";
 import { DestinationInsightCard } from "./destination-insight-card";
 import { ExperienceCard } from "./experience-card";
+import { InsightAlertCard } from "./insight-alert-card";
+import { MiniTableCard } from "./mini-table-card";
 import { NewsCard } from "./news-card";
 import { OverviewStatCard } from "./overview-stat-card";
+import { QuoteCard } from "./quote-card";
 import { RouteCard } from "./route-card";
 import { RouteIdeaCard } from "./route-idea-card";
 import { ServicesBusinessCard } from "./services-business-card";
@@ -177,6 +181,42 @@ export const CARD_REGISTRY: Partial<Record<CardType, TCardRenderer>> = {
 				icon: getLucideIcon(item.icon),
 				title: item.title ?? "",
 				description: item.description ?? ""
+			}}
+		/>
+	),
+	[CardType.DashTitle]: (item) => (
+		<DashTitleCard
+			data={{
+				title: item.title ?? "",
+				description: item.description ?? ""
+			}}
+		/>
+	),
+	[CardType.Quote]: (item) => (
+		<QuoteCard
+			data={{
+				quoteHtml: item.quoteHtml ?? ""
+			}}
+		/>
+	),
+	[CardType.Alert]: (item) => (
+		<InsightAlertCard
+			data={{
+				title: item.title ?? "",
+				description: item.description ?? ""
+			}}
+		/>
+	),
+	[CardType.MiniTable]: (item) => (
+		<MiniTableCard
+			data={{
+				title: item.title ?? "",
+				icon: item.icon ? getLucideIcon(item.icon) : undefined,
+				rows: (item.rows ?? []).map((row) => ({
+					icon: getLucideIcon(row.icon),
+					title: row.title,
+					description: row.description
+				}))
 			}}
 		/>
 	)

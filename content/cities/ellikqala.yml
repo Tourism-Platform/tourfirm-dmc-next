@@ -1,0 +1,650 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "ellikqala"
+  "ru": "ellikqala"
+  "uz": "ellikqala"
+"title":
+  "en": "Ellikqala"
+  "ru": "Элликкала"
+  "uz": "Ellikqal’a"
+"subtitle":
+  "en": "Desert fortresses of Ancient Khorezm between Nukus and Khiva"
+  "ru": "Пустынные крепости древнего Хорезма между Нукусом и Хивой"
+  "uz": "Nukus va Xiva orasidagi qadimgi Xorazm qalʼalari"
+"excerpt":
+  "en": "Ellikqala is not a compact town stop. It is a fortress area where the route leaves Nukus, Moynaq, or Khiva for Toprak-Kala, Kyzyl-Kala, and Ayaz-Kala; mud-brick walls, exposed ground, road time, and archaeological context all belong to the same visit."
+  "ru": "Элликкала — не компактная городская остановка. Это территория крепостей, куда маршрут выходит из Нукуса, Муйнака или Хивы ради Топрак-Калы, Кызыл-Калы и Аяз-Калы; глинобитные стены, открытая местность, дорожное время и археологический контекст здесь идут вместе."
+  "uz": "Ellikqal’a ixcham shahar bekati emas. Bu Nukus, Mo‘ynoq yoki Xivadan Tuproq-qalʼa, Qizil-qalʼa va Ayoz-qalʼa tomonga chiqadigan qalʼalar hududi; paxsa devorlar, ochiq yer, yo‘l va arxeologik kontekst bu yerda birga seziladi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/ellikqala.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/ellikqala.webp"
+    "imageAlt":
+      "en": "Ellikqala"
+      "ru": "Элликкала"
+      "uz": "Ellikqal’a"
+    "title":
+      "en": "Ellikqala"
+      "ru": "Элликкала"
+      "uz": "Ellikqal’a"
+    "description":
+      "en": "Desert fortresses of Ancient Khorezm between Nukus and Khiva"
+      "ru": "Пустынные крепости древнего Хорезма между Нукусом и Хивой"
+      "uz": "Nukus va Xiva orasidagi qadimgi Xorazm qalʼalari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Ellikqala"
+      "ru": "Элликкала"
+      "uz": "Ellikqal’a"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Ellikqala is not a compact town stop."
+              "ru": "Элликкала — не компактная городская остановка."
+              "uz": "Ellikqal’a ixcham shahar bekati emas."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Ellikqala is easier to plan as a sequence: Toprak-Kala for palace-city scale, Kyzyl-Kala for close red-wall comparison, and Ayaz-Kala for higher desert ground."
+              "ru": "Элликкалу проще планировать как последовательность: Топрак-Кала даёт масштаб дворцового города, Кызыл-Кала — близкое сравнение красных стен, Аяз-Кала — более высокий пустынный рельеф."
+              "uz": "Ellikqal’ani ketma-ketlik sifatida rejalash osonroq: Tuproq-qalʼa saroy-shahar miqyosini, Qizil-qalʼa yaqin qizil devor taqqoslashini, Ayoz-qalʼa esa balandroq cho‘l relyefini beradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The core trio can connect with Nukus, Khiva, Urgench, or a longer Karakalpakstan route, but driving time, access, heat, and walking surfaces need to be checked first."
+              "ru": "Основная тройка может идти вместе с Нукусом, Хивой, Ургенчем или более длинным маршрутом по Каракалпакстану, но сначала нужно проверить дорогу, доступ, жару и условия пешего прохода."
+              "uz": "Asosiy uchlik Nukus, Xiva, Urganch yoki uzunroq Qoraqalpog‘iston yo‘li bilan bog‘lanishi mumkin, ammo avval yo‘l vaqti, kirish, issiq va piyoda yurish sharoiti tekshiriladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Ellikqala as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Элликкала как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Ellikqal’a o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "Toprak-Kala, Kyzyl-Kala, and Ayaz-Kala from the western road"
+      "ru": "Топрак-Кала, Кызыл-Кала и Аяз-Кала с западной дороги"
+      "uz": "Tuproq-qalʼa, Qizil-qalʼa va Ayoz-qalʼa g‘arbiy yo‘ldan"
+    "description":
+      "en": "Ellikqala is easier to plan as a sequence: Toprak-Kala for palace-city scale, Kyzyl-Kala for close red-wall comparison, and Ayaz-Kala for higher desert ground."
+      "ru": "Элликкалу проще планировать как последовательность: Топрак-Кала даёт масштаб дворцового города, Кызыл-Кала — близкое сравнение красных стен, Аяз-Кала — более высокий пустынный рельеф."
+      "uz": "Ellikqal’ani ketma-ketlik sifatida rejalash osonroq: Tuproq-qalʼa saroy-shahar miqyosini, Qizil-qalʼa yaqin qizil devor taqqoslashini, Ayoz-qalʼa esa balandroq cho‘l relyefini beradi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Western anchors"
+        "ru": "Западные опоры"
+        "uz": "G‘arbiy nuqtalar"
+      "title":
+        "en": "Toprak-Kala, Kyzyl-Kala, Ayaz-Kala, Nukus, and Moynaq"
+        "ru": "Топрак-Кала, Кызыл-Кала, Аяз-Кала, Нукус и Муйнак"
+        "uz": "Tuproq-qalʼa, Qizil-qalʼa, Ayoz-qalʼa, Nukus va Mo‘ynoq"
+      "description":
+        "en": "The map keeps the fortress sequence tied to practical anchors: Nukus for context, Moynaq for the Aral chapter, and the road back toward Khiva or Urgench."
+        "ru": "Карта держит крепостную последовательность рядом с практическими опорами: Нукусом для контекста, Муйнаком для аральской главы и дорогой обратно к Хиве или Ургенчу."
+        "uz": "Xarita qalʼalar ketma-ketligini amaliy nuqtalar bilan bog‘laydi: kontekst uchun Nukus, Orol bobi uchun Mo‘ynoq, Xiva yoki Urganchga qaytadigan yo‘l."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 42.321455
+      "longitude": 60.365755
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "toprak-kala-route-context"
+      - "entityType": "attraction"
+        "entitySlug": "kyzyl-kala-route-context"
+      - "entityType": "attraction"
+        "entitySlug": "ayaz-kala-fortress-complex"
+    "aside":
+      "eyebrow":
+        "en": "Route order"
+        "ru": "Порядок маршрута"
+        "uz": "Yo‘l tartibi"
+      "title":
+        "en": "Choose the sequence before adding more stops"
+        "ru": "Сначала последовательность, потом дополнительные остановки"
+        "uz": "Avval ketma-ketlik, keyin qo‘shimcha bekatlar"
+      "description":
+        "en": "The core trio can connect with Nukus, Khiva, Urgench, or a longer Karakalpakstan route, but driving time, access, heat, and walking surfaces need to be checked first."
+        "ru": "Основная тройка может идти вместе с Нукусом, Хивой, Ургенчем или более длинным маршрутом по Каракалпакстану, но сначала нужно проверить дорогу, доступ, жару и условия пешего прохода."
+        "uz": "Asosiy uchlik Nukus, Xiva, Urganch yoki uzunroq Qoraqalpog‘iston yo‘li bilan bog‘lanishi mumkin, ammo avval yo‘l vaqti, kirish, issiq va piyoda yurish sharoiti tekshiriladi."
+      "items":
+        - "title":
+            "en": "Toprak-Kala starts with palace-city scale"
+            "ru": "Топрак-Кала начинает с масштаба дворцового города"
+            "uz": "Tuproq-qalʼa saroy-shahar miqyosidan boshlaydi"
+          "description":
+            "en": "Wall lines and room traces make Ancient Khorezm visible before the route compares the nearby fortress pair."
+            "ru": "Линии стен и следы комнат делают древний Хорезм видимым до сравнения с соседней крепостью."
+            "uz": "Devor chiziqlari va xona izlari yaqin qalʼa juftligi bilan taqqoslashdan oldin qadimgi Xorazmni ko‘rinadigan qiladi."
+          "badge":
+            "en": "palace city"
+            "ru": "дворцовый город"
+            "uz": "saroy-shahar"
+        - "title":
+            "en": "Kyzyl-Kala gives the close comparison"
+            "ru": "Кызыл-Кала даёт близкое сравнение"
+            "uz": "Qizil-qalʼa yaqin taqqoslash beradi"
+          "description":
+            "en": "Restored red walls, defensive openings, and the short distance from Toprak-Kala make this stop useful for reading the pair together."
+            "ru": "Восстановленные красные стены, бойницы и короткое расстояние от Топрак-Калы помогают читать эту пару вместе."
+            "uz": "Tiklangan qizil devorlar, mudofaa teshiklari va Tuproq-qalʼadan qisqa masofa bu juftlikni birga tushunishga yordam beradi."
+          "badge":
+            "en": "red fortress"
+            "ru": "красная крепость"
+            "uz": "qizil qalʼa"
+        - "title":
+            "en": "Ayaz-Kala changes the scale"
+            "ru": "Аяз-Кала меняет масштаб"
+            "uz": "Ayoz-qalʼa miqyosni o‘zgartiradi"
+          "description":
+            "en": "The fortress group, slopes, and Ayazkol direction add a wider landscape stop that needs access and walking checks."
+            "ru": "Группа крепостей, склоны и направление Аязколя добавляют более широкий ландшафтный останов, которому нужны проверки доступа и прохода."
+            "uz": "Qalʼalar guruhi, qiyaliklar va Ayozko‘l tomoni kirish hamda piyoda yurish tekshiruvlarini talab qiladigan kengroq manzara bekatini qo‘shadi."
+          "badge":
+            "en": "higher ground"
+            "ru": "высокий рельеф"
+            "uz": "baland relyef"
+        - "title":
+            "en": "The wider area keeps Ancient Khorezm in view"
+            "ru": "Широкая территория держит древний Хорезм в маршруте"
+            "uz": "Keng hudud qadimgi Xorazmni yo‘lda saqlaydi"
+          "description":
+            "en": "The Ellikqala anchor keeps later fortress candidates visible without turning the first route into a long list."
+            "ru": "Точка Элликкалы оставляет будущие крепости видимыми, не превращая первый маршрут в длинный список."
+            "uz": "Ellikqal’a nuqtasi keyingi qalʼa nomzodlarini ko‘rinadigan saqlaydi, lekin birinchi yo‘lni uzun ro‘yxatga aylantirmaydi."
+          "badge":
+            "en": "route area"
+            "ru": "территория маршрута"
+            "uz": "yo‘l hududi"
+        - "title":
+            "en": "Nukus gives the museum context"
+            "ru": "Нукус даёт музейный контекст"
+            "uz": "Nukus muzey kontekstini beradi"
+          "description":
+            "en": "Savitsky and the State Museum give context before or after the road south toward the fortress route."
+            "ru": "Савицкий и музей истории дают контекст до или после дороги на юг к крепостному маршруту."
+            "uz": "Savitskiy va tarix muzeyi janubdagi qalʼalar yo‘liga chiqishdan oldin yoki keyin kontekst beradi."
+          "badge":
+            "en": "museum city"
+            "ru": "музейный город"
+            "uz": "muzey shahri"
+        - "title":
+            "en": "Moynaq belongs to a longer western plan"
+            "ru": "Муйнак относится к более длинному западному плану"
+            "uz": "Mo‘ynoq uzunroq g‘arbiy rejaga kiradi"
+          "description":
+            "en": "The former sea town adds the Aral chapter on longer routes beyond the fortress sequence."
+            "ru": "Бывший морской город добавляет аральскую главу в более длинных маршрутах после крепостной последовательности."
+            "uz": "Sobiq dengiz shahri qalʼalar ketma-ketligidan keyingi uzunroq yo‘llarda Orol bobini qo‘shadi."
+          "badge":
+            "en": "Aral route"
+            "ru": "маршрут Арала"
+            "uz": "Orol yo‘li"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Fortresses first, museum context when access fits"
+      "ru": "Сначала крепости, затем музейный контекст при доступе"
+      "uz": "Avval qalʼalar, kirish mos bo‘lsa muzey konteksti"
+    "description":
+      "en": "The core Ellikqala sequence still starts with Toprak-Kala, Kyzyl-Kala, and Ayaz-Kala. The Buston museum adds indoor context when opening, access, and route timing are clear."
+      "ru": "Основная последовательность Элликкалы по-прежнему начинается с Топрак-Калы, Кызыл-Калы и Аяз-Калы. Музей в Бустоне добавляет контекст в помещении, когда открытие, доступ и время маршрута понятны."
+      "uz": "Ellikqal’aning asosiy ketma-ketligi baribir Tuproq-qalʼa, Qizil-qalʼa va Ayoz-qalʼadan boshlanadi. Bo‘stondagi muzey ochilish, kirish va yo‘l vaqti aniq bo‘lganda bino ichidagi kontekstni qo‘shadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/ellikqala/attractions/toprak-kala-route-context.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Toprak-Kala Fortress"
+          "ru": "Крепость Топрак-Кала"
+          "uz": "Tuproq-qalʼa qalʼasi"
+        "description":
+          "en": "Toprak-Kala is the stop where the Ellikqala fortress route becomes more than walls on the horizon. The raised palace area, room traces, defensive lines, sanctuaries, and excavated finds help the site read as a city where power, worship, work, and daily life once met."
+          "ru": "Топрак-Кала — остановка, где маршрут крепостей Элликкалы становится больше, чем линией стен на горизонте. Дворцовая часть, следы помещений, оборонительные линии, святилища и находки помогают читать площадку как город, где рядом существовали власть, культ, работа и повседневная жи"
+          "uz": "Tuproq-qalʼa Ellikqal’a qalʼalari yo‘lida ufqdagi devorlardan ko‘proq narsa ko‘rsatadigan bekatdir. Saroy qismi, xona izlari, mudofaa chiziqlari, ziyorat joylari va topilmalar bu maydonni hokimiyat, ibodat, mehnat va kundalik hayot uchrashgan shahar sifatida o‘qishga yordam berad"
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/ellikqala/toprak-kala-route-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/ellikqala/attractions/kyzyl-kala-route-context.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Kyzyl-Kala Fortress"
+          "ru": "Крепость Кызыл-Кала"
+          "uz": "Qizil-qalʼa qalʼasi"
+        "description":
+          "en": "Kyzyl-Kala is the close comparison after Toprak-Kala. Instead of a palace-city plan, the traveler sees a compact red fortress with restored walls, tower lines, arrow-shaped openings, and a sloped approach across the Ellikqala plain."
+          "ru": "Кызыл-Кала — близкое сравнение после Топрак-Калы. Вместо плана дворцового города здесь видна компактная красная крепость: восстановленные стены, линии башен, бойницы и наклонный подход через равнину Элликкалы."
+          "uz": "Qizil-qalʼa Tuproq-qalʼadan keyingi yaqin taqqoslashdir. Saroy-shahar rejasi o‘rniga bu yerda tiklangan devorlari, minora chiziqlari, o‘q tuynuklari va Ellikqal’a tekisligi bo‘ylab qiya yondashuvi bor ixcham qizil qalʼa ko‘rinadi."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/ellikqala/kyzyl-kala-route-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/ellikqala/attractions/ayaz-kala-fortress-complex.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Ayaz-Kala Fortress Complex"
+          "ru": "Крепостной комплекс Аяз-Кала"
+          "uz": "Ayoz-qalʼa qalʼa majmuasi"
+        "description":
+          "en": "After Toprak-Kala and Kyzyl-Kala, Ayaz-Kala takes the Ellikqala route onto wider desert ground. Its walls sit above the plain, and the three-site complex helps you read ancient Khorezm as a landscape, not only a row of ruins."
+          "ru": "После Топрак-Калы и Кызыл-Калы Аяз-Кала раскрывает Элликкалу шире: стены стоят над равниной, а комплекс из трёх городищ помогает увидеть древний Хорезм как пространство, а не только ряд руин."
+          "uz": "Tuproq-qalʼa va Qizil-qalʼadan so‘ng Ayoz-qalʼa Ellikqal’a yo‘lini kengroq ochadi: devorlar tekislik ustida turadi, uch qismli majmua esa qadimgi Xorazmni faqat xarobalar qatori emas, keng makon sifatida ko‘rsatadi."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/ellikqala/ayaz-kala-fortress-complex"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/ellikqala/attractions/ellikqala-museum-of-archaeology-and-history.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Ellikqala Museum of Archaeology and History"
+          "ru": "Музей археологии и истории Элликкалы"
+          "uz": "Ellikqal’a arxeologiya va tarix muzeyi"
+        "description":
+          "en": "In Buston, the Ellikqala Museum of Archaeology and History brings the fortress route indoors for a quieter reading. Archaeological finds, local history, ethnography, applied arts, and Sergei Pavlovich Tolstov's name help the open ruins outside feel part of a wider Ancient Khorezm"
+          "ru": "В Бустоне музей археологии и истории Элликкалы переносит крепостной маршрут в помещение и задаёт ему более спокойное чтение. Археологические находки, местная история, этнография, прикладное искусство и имя Сергея Павловича Толстова помогают увидеть открытые руины как часть истори"
+          "uz": "Bo‘stonda Ellikqal’a arxeologiya va tarix muzeyi qalʼalar yo‘lini xonalar ichiga olib kirib, unga sokinroq maʼno beradi. Arxeologik topilmalar, mahalliy tarix, etnografiya, amaliy sanʼat va Sergey Pavlovich Tolstov nomi tashqaridagi xarobalarni qadimgi Xorazm tarixining bir qismi"
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/ellikqala/ellikqala-museum-of-archaeology-and-history"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route moments"
+      "ru": "Моменты маршрута"
+      "uz": "Yo‘l lahzalari"
+    "title":
+      "en": "How the fortress route changes"
+      "ru": "Как меняется крепостной маршрут"
+      "uz": "Qalʼalar yo‘li qanday o‘zgaradi"
+    "description":
+      "en": "The route is easier to understand through concrete moments: the core sequence, Toprak-Kala's palace-city plan, Kyzyl-Kala's close comparison, and Ayaz-Kala's higher ground."
+      "ru": "Маршрут понятнее через конкретные моменты: общую последовательность, план дворцового города в Топрак-Кале, близкое сравнение с Кызыл-Калой и высокий рельеф Аяз-Калы."
+      "uz": "Yo‘l aniq lahzalar orqali yaxshiroq tushuniladi: umumiy ketma-ketlik, Tuproq-qalʼaning saroy-shahar rejasi, Qizil-qalʼa bilan yaqin taqqoslash va Ayoz-qalʼaning balandroq joyi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/ellikqala/ellikqala-character-1.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Fortress sequence on open ground"
+          "ru": "Последовательность крепостей"
+          "uz": "Qalʼalar ketma-ketligi"
+        "description":
+          "en": "Toprak-Kala, Kyzyl-Kala, and Ayaz-Kala make the route clearer as a sequence: palace-city ruins, close red-wall comparison, and higher desert ground."
+          "ru": "Топрак-Кала, Кызыл-Кала и Аяз-Кала понятнее вместе: дворцовый город, близкое сравнение красных стен и более высокий пустынный рельеф."
+          "uz": "Tuproq-qalʼa, Qizil-qalʼa va Ayoz-qalʼa birga aniqroq ochiladi: saroy-shahar xarobasi, qizil devorlar bilan yaqin taqqoslash va balandroq cho‘l relyefi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/ellikqala/ellikqala-character-2.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Toprak-Kala before the pair"
+          "ru": "Топрак-Кала перед парой крепостей"
+          "uz": "Juftlikdan oldin Tuproq-qalʼa"
+        "description":
+          "en": "At Toprak-Kala, wall lines and room traces explain the former palace-city before the route moves to nearby Kyzyl-Kala."
+          "ru": "У Топрак-Калы линии стен и следы комнат помогают понять бывший дворцовый город до короткого переезда к Кызыл-Кале."
+          "uz": "Tuproq-qalʼada devor chiziqlari va xona izlari sobiq saroy-shaharni tushuntiradi, keyin yo‘l yaqin Qizil-qalʼaga o‘tadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/ellikqala/ellikqala-character-3.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Kyzyl-Kala beside Toprak-Kala"
+          "ru": "Кызыл-Кала рядом с Топрак-Калой"
+          "uz": "Qizil-qalʼa Tuproq-qalʼa yonida"
+        "description":
+          "en": "Kyzyl-Kala gives a close comparison after Toprak-Kala: restored red walls, defensive openings, and a compact stop in the same fortress landscape."
+          "ru": "Кызыл-Кала даёт близкое сравнение после Топрак-Калы: восстановленные красные стены, бойницы и компактную остановку в том же крепостном ландшафте."
+          "uz": "Qizil-qalʼa Tuproq-qalʼadan keyin yaqin taqqoslash beradi: tiklangan qizil devorlar, mudofaa teshiklari va shu qalʼalar manzarasidagi ixcham bekat."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/ellikqala/ellikqala-character-4.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Ayaz-Kala on higher ground"
+          "ru": "Аяз-Кала выше равнины"
+          "uz": "Ayoz-qalʼa balandroq joyda"
+        "description":
+          "en": "Ayaz-Kala brings the route to higher desert ground, where the fortress group, slopes, and Ayazkol direction need enough time and safe access checks."
+          "ru": "Аяз-Кала выводит маршрут на более высокий пустынный рельеф, где группе крепостей, склонам и направлению Аязколя нужны время и проверка безопасного доступа."
+          "uz": "Ayoz-qalʼa yo‘lni balandroq cho‘l relyefiga olib chiqadi; qalʼalar guruhi, qiyaliklar va Ayozko‘l tomoni uchun vaqt va xavfsiz kirish tekshiruvi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route planning"
+      "ru": "Планирование маршрута"
+      "uz": "Yo‘lni rejalash"
+    "title":
+      "en": "Where Ellikqala fits in western Uzbekistan"
+      "ru": "Где Элликкала уместна в западном Узбекистане"
+      "uz": "Ellikqal’a g‘arbiy O‘zbekistonda qayerga mos tushadi"
+    "description":
+      "en": "Ellikqala matters because Ancient Khorezm becomes visible outside museum rooms: mud-brick fortresses, palace-city traces, red walls, high ground, and long distances between stops."
+      "ru": "Элликкала важна потому, что древний Хорезм здесь виден за пределами музейных залов: глинобитные крепости, следы дворцового города, красные стены, высокий рельеф и большие расстояния между остановками."
+      "uz": "Ellikqal’a muhim, chunki qadimgi Xorazm bu yerda muzey zallaridan tashqarida ko‘rinadi: paxsa qalʼalar, saroy-shahar izlari, qizil devorlar, balandroq relyef va bekatlar orasidagi masofa."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Start with direction"
+              "ru": "Начните с направления дороги"
+              "uz": "Yo‘l yo‘nalishidan boshlang"
+            "description":
+              "en": "Whether the route starts from Nukus, Khiva, Urgench, or a longer Karakalpakstan plan, the start and return point decide how many fortress stops make sense."
+              "ru": "От реальной точки старта и возвращения — Нукуса, Хивы, Ургенча или более длинного плана по Каракалпакстану — зависит разумное число крепостных остановок."
+              "uz": "Nukus, Xiva, Urganch yoki uzunroq Qoraqalpog‘iston rejasidan qaysi biri start va qaytish nuqtasi bo‘lishi qancha qalʼa bekati maʼqul ekanini belgilaydi."
+          - "type": "quote"
+            "quote":
+              "en": "Ellikqala is clearer as a fortress sequence than as a list of every ruin within reach."
+              "ru": "Элликкала понятнее как последовательность крепостей, а не как список всех руин поблизости."
+              "uz": "Ellikqal’a yaqin xarobalar ro‘yxati emas, qalʼalar ketma-ketligi sifatida tushunarliroq."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the trio clear"
+              "ru": "Три крепости, три роли"
+              "uz": "Uch qalʼaning uch roli"
+            "description":
+              "en": "Toprak-Kala, Kyzyl-Kala, and Ayaz-Kala each need a different kind of attention. The visit is clearer when you can compare them, instead of letting three walls blur into one stop."
+              "ru": "Топрак-Кала, Кызыл-Кала и Аяз-Кала требуют разного внимания. Визит становится яснее, когда их можно сравнить, а не превратить три стены в одну остановку."
+              "uz": "Tuproq-qalʼa, Qizil-qalʼa va Ayoz-qalʼa har biri boshqa eʼtibor talab qiladi. Ularni solishtirish mumkin bo‘lganda tashrif aniqroq bo‘ladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Check conditions"
+              "ru": "Проверьте условия"
+              "uz": "Sharoitni tekshiring"
+            "description":
+              "en": "Road surface, walking ground, heat, wind, shade, museum access, and conservation limits should be checked before the final itinerary is confirmed."
+              "ru": "Дороги, пешая поверхность, жара, ветер, тень, доступ к музею и правила сохранности нужно уточнить до финального маршрута."
+              "uz": "Yo‘l, piyoda yuriladigan yuzalar, issiq, shamol, soya, muzeyga kirish va saqlash qoidalari yakuniy yo‘nalishdan oldin aniqlanadi."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Choose Ellikqala when western Uzbekistan needs archaeology in the landscape: the fortress trio, a private vehicle, access checks, and time to move between stops without turning the route into a checklist."
+              "ru": "Выбирайте Элликкалу, когда западному Узбекистану нужна археология в ландшафте: три главные крепости, частный транспорт, практические проверки и достаточно времени на переезды между остановками."
+              "uz": "G‘arbiy O‘zbekistonda manzara ichidagi arxeologiya kerak bo‘lganda Ellikqal’ani tanlang: uch asosiy qalʼa, xususiy transport, amaliy tekshiruvlar va bekatlar orasida shoshilmasdan harakatlanish."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Route planning"
+              "ru": "Планирование маршрута"
+              "uz": "Yo‘lni rejalash"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Route area"
+                  "ru": "Коротко Территория маршрута"
+                  "uz": "Qisqacha Yo‘l hududi"
+                "description":
+                  "en": "Archaeological area in Karakalpakstan tied to the Ancient Khorezm fortress route."
+                  "ru": "Археологическая территория Каракалпакстана, связанная с крепостями древнего Хорезма."
+                  "uz": "Qoraqalpog‘istondagi qadimgi Xorazm qalʼalari yo‘li bilan bog‘liq arxeologik hudud."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main stops"
+                  "ru": "Главные остановки"
+                  "uz": "Asosiy bekatlar"
+                "description":
+                  "en": "Toprak-Kala, Kyzyl-Kala, and Ayaz-Kala form the core fortress sequence."
+                  "ru": "Топрак-Кала, Кызыл-Кала и Аяз-Кала образуют основную последовательность крепостей."
+                  "uz": "Tuproq-qalʼa, Qizil-qalʼa va Ayoz-qalʼa asosiy qalʼalar ketma-ketligini beradi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Season and access"
+                  "ru": "Сезон и доступ"
+                  "uz": "Mavsum va kirish"
+                "description":
+                  "en": "Heat, wind, unshaded ground, road condition, and walking surfaces should be checked before confirming the route."
+                  "ru": "Жару, ветер, нехватку тени, состояние дорог и поверхность прохода нужно проверять до утверждения маршрута."
+                  "uz": "Issiq, shamol, kam soya, yo‘l holati va yurish yuzasini yo‘l tasdiqlanishidan oldin tekshirish kerak."
+              - "icon": "Route"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Yo‘nalishdagi roli"
+                "description":
+                  "en": "Archaeological continuation between Nukus, Khiva, Urgench, Moynaq, and the wider western itinerary."
+                  "ru": "Археологическое продолжение между Нукусом, Хивой, Ургенчем, Муйнаком и большим западным маршрутом."
+                  "uz": "Nukus, Xiva, Urganch, Mo‘ynoq va keng g‘arbiy yo‘nalish orasidagi arxeologik davom."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route connections"
+      "ru": "Связи маршрута"
+      "uz": "Yo‘l aloqalari"
+    "title":
+      "en": "Nukus, Moynaq, and Khiva around Ellikqala"
+      "ru": "Нукус, Муйнак и Хива вокруг Элликкалы"
+      "uz": "Ellikqal’a atrofida Nukus, Mo‘ynoq va Xiva"
+    "description":
+      "en": "Nukus gives museum context, Moynaq belongs to the longer Aral Sea chapter, and Khiva or Urgench can turn the fortress route back toward Khorezm."
+      "ru": "Нукус даёт музейный контекст, Муйнак относится к более длинной аральской главе, а Хива или Ургенч возвращают крепостной маршрут к Хорезму."
+      "uz": "Nukus muzey kontekstini beradi, Mo‘ynoq uzunroq Orol bobiga kiradi, Xiva yoki Urganch esa qalʼalar yo‘lini Xorazm tomonga qaytaradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Nukus"
+          "ru": "Нукус"
+          "uz": "Nukus"
+        "description":
+          "en": "Start in Nukus with the Savitsky Museum, then connect Karakalpak culture with Moynaq, Mizdakhan, Chilpyk, and the desert fortress road."
+          "ru": "Начните знакомство с Нукусом в музее Савицкого, а затем связывайте город с каракалпакской культурой, Муйнаком, Миздакханом, Чилпыком и дорогой к пустынным крепостям."
+          "uz": "Nukusni Savitskiy muzeyidan boshlang, keyin shaharni qoraqalpoq madaniyati, Mo‘ynoq, Mizdakhan, Chilpiq va cho‘l qalʼalari yo‘li bilan bog‘lang."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/ellikqala-next-moynaq.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Moynaq"
+          "ru": "Муйнак"
+          "uz": "Mo‘ynoq"
+        "description":
+          "en": "Plan Moynaq from Nukus with the ship graveyard, former fishing port, local museum, dry seabed, and Karakalpakstan route context."
+          "ru": "Муйнак из Нукуса: кладбище кораблей, бывший рыбацкий порт, местный музей, сухое морское дно и контекст маршрута по Каракалпакстану."
+          "uz": "Mo‘ynoqni Nukusdan rejalang: kema qabristoni, sobiq baliqchi porti, mahalliy muzey, quruq dengiz tubi va Qoraqalpog‘iston yo‘nalishi konteksti."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea/moynaq"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/ellikqala-next-khiva.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Khiva"
+          "ru": "Хива"
+          "uz": "Xiva"
+        "description":
+          "en": "Khiva holds the western edge of the classic route: Itchan Kala, Kalta Minor, Juma Mosque, palace courtyards, workshops, and the roads that continue through Khorezm."
+          "ru": "Хива держит западный край классического маршрута: Ичан-Кала, Кальта-Минор, Джума-мечеть, дворцовые дворы, мастерские и дороги дальше по Хорезму."
+          "uz": "Xiva klassik yo‘lning g‘arbiy chekkasini ushlab turadi: Ichan Qalʼa, Kalta Minor, Juma masjidi, saroy hovlilari, ustaxonalar va Xorazm bo‘ylab davom etadigan yo‘llar."
+        "ctaHref": "/destinations/uzbekistan/khorezm-region/khiva"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Ellikqala in the day plan"
+      "ru": "Как поставить Элликкала в план дня"
+      "uz": "Ellikqal’ani kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Ellikqala?"
+          "ru": "Сколько времени группам стоит проводить в Элликкала?"
+          "uz": "Ellikqal’ada guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "2–3 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Desert fortresses of Ancient Khorezm between Nukus and Khiva”."
+          "ru": "Обычно хватает 2–3 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Пустынные крепости древнего Хорезма между Нукусом и Хивой»."
+          "uz": "Odatda 2–3 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Nukus va Xiva orasidagi qadimgi Xorazm qalʼalari»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "Should Ellikqala be a walkable core or a base for day trips?"
+          "ru": "Элликкала — это пешеходное ядро или база для выездов?"
+          "uz": "Ellikqal’a piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Hotel"
+        "title":
+          "en": "Where should overnight be relative to Ellikqala's centre?"
+          "ru": "Где лучше ночевать относительно центра Элликкала?"
+          "uz": "Ellikqal’a markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea/cities/ellikqala.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Ellikqala stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Элликкала» в программу (Узбекистан)"
+      "uz": "Ellikqal’a bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Ellikqala | TourLink"
+    "ru": "Элликкала | TourLink"
+    "uz": "Ellikqal’a | TourLink"
+  "metaDescription":
+    "en": "Ellikqala is not a compact town stop. It is a fortress area where the route leaves Nukus, Moynaq, or Khiva for Toprak-Kala, Kyzyl-Kala, and Ayaz-Kala; mud-brick walls, exposed ground, road time, and archaeological context all belong to the same visit."
+    "ru": "Элликкала — не компактная городская остановка. Это территория крепостей, куда маршрут выходит из Нукуса, Муйнака или Хивы ради Топрак-Калы, Кызыл-Калы и Аяз-Калы; глинобитные стены, открытая местность, дорожное время и археологический контекст здесь идут вместе."
+    "uz": "Ellikqal’a ixcham shahar bekati emas. Bu Nukus, Mo‘ynoq yoki Xivadan Tuproq-qalʼa, Qizil-qalʼa va Ayoz-qalʼa tomonga chiqadigan qalʼalar hududi; paxsa devorlar, ochiq yer, yo‘l va arxeologik kontekst bu yerda birga seziladi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "karakalpakstan-and-aral-sea"
+"latitude": 41.8415401
+"longitude": 60.9094854

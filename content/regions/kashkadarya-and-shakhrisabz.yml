@@ -1,0 +1,483 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "kashkadarya-and-shakhrisabz"
+  "ru": "kashkadarya-and-shakhrisabz"
+  "uz": "kashkadarya-and-shakhrisabz"
+"title":
+  "en": "Kashkadarya & Shakhrisabz"
+  "ru": "Кашкадарья и Шахрисабз"
+  "uz": "Qashqadaryo va Shahrisabz"
+"subtitle":
+  "en": "Shakhrisabz heritage, Qarshi, Kitab, and Gissar foothill roads"
+  "ru": "Наследие Шахрисабза, Карши, Китаб и дороги к Гиссару"
+  "uz": "Shahrisabz merosi, Qarshi, Kitob va Hisor tog‘oldi yo‘llari"
+"excerpt":
+  "en": "South of Samarkand, Kashkadarya changes the Uzbekistan route without leaving the classic city line behind. Shakhrisabz is the first anchor: Ak-Saray, the UNESCO-listed historic centre, Dorut Tilovat, Dorus-Saodat, Kok Gumbaz, Chorsu, and museum context. Longer routes can continue toward Qarshi, Kitab, Langar Ata, reservoirs, mountain villages, and the Gissar foothills before returning to Samarkand or carrying on toward Surkhandarya."
+  "ru": "К югу от Самарканда Кашкадарья меняет маршрут по Узбекистану, но не отрывает его от классической линии городов. Первая точка региона — Шахрисабз: Ак-Сарай, исторический центр из списка UNESCO, Дорут-Тиловат, Дорус-Саодат, Кок-Гумбаз, Чорсу и музейный контекст. Более длинные маршруты могут продолжаться к Карши, Китабу, Лангар-Ата, водохранилищам, горным селениям и Гиссарским предгорьям, а затем возвращаться к Самарканду или уходить дальше к Сурхандарье."
+  "uz": "Samarqanddan janubda Qashqadaryo O‘zbekiston yo‘nalishini o‘zgartiradi, lekin klassik shaharlar chizig‘idan uzib yubormaydi. Mintaqaning birinchi nuqtasi Shahrisabz: Ak-Saroy, UNESCO ro‘yxatidagi tarixiy markaz, Dorut Tilovat, Dorus Saodat, Ko‘k-Gumbaz, Chorsu va muzey konteksti. Uzunroq yo‘nalishlar Qarshi, Kitob, Langar ota, suv omborlari, tog‘ qishloqlari va Hisor etaklariga davom etib, keyin Samarqandga qaytishi yoki Surxondaryo tomonga yurishi mumkin."
+"heroImage": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz.webp"
+    "imageAlt":
+      "en": "Kashkadarya & Shakhrisabz"
+      "ru": "Кашкадарья и Шахрисабз"
+      "uz": "Qashqadaryo va Shahrisabz"
+    "title":
+      "en": "Kashkadarya & Shakhrisabz"
+      "ru": "Кашкадарья и Шахрисабз"
+      "uz": "Qashqadaryo va Shahrisabz"
+    "description":
+      "en": "Shakhrisabz heritage, Qarshi, Kitab, and Gissar foothill roads"
+      "ru": "Наследие Шахрисабза, Карши, Китаб и дороги к Гиссару"
+      "uz": "Shahrisabz merosi, Qarshi, Kitob va Hisor tog‘oldi yo‘llari"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О регионе"
+      "uz": "Hudud haqida"
+    "title":
+      "en": "Kashkadarya & Shakhrisabz"
+      "ru": "Кашкадарья и Шахрисабз"
+      "uz": "Qashqadaryo va Shahrisabz"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "South of Samarkand, Kashkadarya changes the Uzbekistan route without leaving the classic city line behind."
+              "ru": "К югу от Самарканда Кашкадарья меняет маршрут по Узбекистану, но не отрывает его от классической линии городов."
+              "uz": "Samarqanddan janubda Qashqadaryo O‘zbekiston yo‘nalishini o‘zgartiradi, lekin klassik shaharlar chizig‘idan uzib yubormaydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "The first Kashkadarya line starts with Shakhrisabz, then adds Qarshi or Kitab only when the route continues through the region."
+              "ru": "Первая линия Кашкадарьи начинается с Шахрисабза, а Карши или Китаб добавляются тогда, когда маршрут продолжается по региону."
+              "uz": "Qashqadaryoning birinchi chizig‘i Shahrisabzdan boshlanadi; Qarshi yoki Kitob yo‘nalish mintaqa ichidan davom etsa qo‘shiladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Start with Shakhrisabz. Add Qarshi, Kitab, Langar Ata, or the foothill roads only when access, road time, and the reason for the extension are clear."
+              "ru": "Начните с Шахрисабза. Добавляйте Карши, Китаб, Лангар-Ата или предгорные дороги, когда понятны доступ, дорога и смысл продолжения."
+              "uz": "Shahrisabzdan boshlang. Qarshi, Kitob, Langar ota yoki tog‘oldi yo‘llarini kirish, yo‘l va davomning sababi aniq bo‘lganda qo‘shing."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Kashkadarya & Shakhrisabz as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Кашкадарья и Шахрисабз как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Qashqadaryo va Shahrisabz o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Route logic"
+      "ru": "Логика маршрута"
+      "uz": "Yo‘nalish mantiqi"
+    "title":
+      "en": "Shakhrisabz, Qarshi, and Kitab"
+      "ru": "Шахрисабз, Карши и Китаб"
+      "uz": "Shahrisabz, Qarshi va Kitob"
+    "description":
+      "en": "The first Kashkadarya line starts with Shakhrisabz, then adds Qarshi or Kitab only when the route continues through the region."
+      "ru": "Первая линия Кашкадарьи начинается с Шахрисабза, а Карши или Китаб добавляются тогда, когда маршрут продолжается по региону."
+      "uz": "Qashqadaryoning birinchi chizig‘i Shahrisabzdan boshlanadi; Qarshi yoki Kitob yo‘nalish mintaqa ichidan davom etsa qo‘shiladi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Southern anchors"
+        "ru": "Южные точки"
+        "uz": "Janubiy nuqtalar"
+      "title":
+        "en": "The Kashkadarya line south of Samarkand"
+        "ru": "Линия Кашкадарьи к югу от Самарканда"
+        "uz": "Samarqanddan janubdagi Qashqadaryo chizig‘i"
+      "description":
+        "en": "Shakhrisabz is the heritage anchor, Qarshi supports longer southern routes, and Kitab marks the turn toward the Gissar foothills."
+        "ru": "Шахрисабз остаётся местом наследия, Карши поддерживает более длинные южные маршруты, а Китаб обозначает поворот к Гиссарским предгорьям."
+        "uz": "Shahrisabz meros nuqtasi, Qarshi uzunroq janubiy yo‘nalishlar uchun shahar bekati, Kitob esa Hisor etaklariga burilishdir."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.003455
+      "longitude": 66.49809
+    "zoom": 9
+    "stops":
+      - "entityType": "city"
+        "entitySlug": "shakhrisabz"
+      - "entityType": "city"
+        "entitySlug": "qarshi"
+      - "entityType": "attraction"
+        "entitySlug": "jayrakhona-kitab-foothill-approach"
+    "aside":
+      "eyebrow":
+        "en": "Planning logic"
+        "ru": "Планирование"
+        "uz": "Rejalash mantiqi"
+      "title":
+        "en": "Heritage first, then the southern or foothill extension"
+        "ru": "Сначала наследие, затем южное или предгорное продолжение"
+        "uz": "Avval meros, keyin janubiy yoki tog‘oldi davomi"
+      "description":
+        "en": "Start with Shakhrisabz. Add Qarshi, Kitab, Langar Ata, or the foothill roads only when access, road time, and the reason for the extension are clear."
+        "ru": "Начните с Шахрисабза. Добавляйте Карши, Китаб, Лангар-Ата или предгорные дороги, когда понятны доступ, дорога и смысл продолжения."
+        "uz": "Shahrisabzdan boshlang. Qarshi, Kitob, Langar ota yoki tog‘oldi yo‘llarini kirish, yo‘l va davomning sababi aniq bo‘lganda qo‘shing."
+      "items":
+        - "title":
+            "en": "Shakhrisabz gives the route its heritage focus"
+            "ru": "Шахрисабз открывает тему наследия"
+            "uz": "Shahrisabz meros mavzusini ochadi"
+          "description":
+            "en": "Ak-Saray, the historic centre, shrine ensembles, Chorsu, and museums give the region its first clear stop south of Samarkand."
+            "ru": "Ак-Сарай, исторический центр, ансамбли святынь, Чорсу и музеи дают региону первую ясную остановку к югу от Самарканда."
+            "uz": "Ak-Saroy, tarixiy markaz, ziyorat ansambllari, Chorsu va muzeylar Samarqanddan janubdagi birinchi aniq bekatni beradi."
+          "badge":
+            "en": "heritage anchor"
+            "ru": "место наследия"
+            "uz": "meros nuqtasi"
+        - "title":
+            "en": "Qarshi supports longer southern routes"
+            "ru": "Карши поддерживает длинные южные маршруты"
+            "uz": "Qarshi uzunroq janubiy yo‘nalishlarni qo‘llaydi"
+          "description":
+            "en": "Bridges, mosques, old-city streets, food, and museum context make sense when the route continues through Kashkadarya."
+            "ru": "Мосты, мечети, улицы старого города, еда и музейный контекст уместны, когда маршрут продолжается через Кашкадарью."
+            "uz": "Ko‘priklar, masjidlar, eski shahar ko‘chalari, taom va muzey konteksti yo‘nalish Qashqadaryo ichidan davom etsa o‘rinli."
+          "badge":
+            "en": "city route"
+            "ru": "городской маршрут"
+            "uz": "shahar yo‘li"
+        - "title":
+            "en": "Kitab opens the foothill turn"
+            "ru": "Китаб открывает поворот к предгорьям"
+            "uz": "Kitob tog‘oldiga burilishni ochadi"
+          "description":
+            "en": "Kitab points the route toward Gissarak, Sarchashma, mountain villages, and the Gissar edge."
+            "ru": "Китаб направляет маршрут к Гиссараку, Сарчашме, горным селениям и Гиссарскому краю."
+            "uz": "Kitob yo‘nalishni G‘issarak, Sarchashma, tog‘ qishloqlari va Hisor chetiga qaratadi."
+          "badge":
+            "en": "foothills"
+            "ru": "предгорья"
+            "uz": "tog‘oldi"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region character"
+      "ru": "Характер региона"
+      "uz": "Mintaqa xarakteri"
+    "title":
+      "en": "Kashkadarya gives the Samarkand route a southern continuation"
+      "ru": "Кашкадарья продолжает самаркандский маршрут на юг"
+      "uz": "Qashqadaryo Samarqand yo‘lini janubga davom ettiradi"
+    "description":
+      "en": "Kashkadarya is more than one stop after Samarkand. Shakhrisabz comes first; then Qarshi, Kitab, Langar Ata, foothill roads, food, and mountain extensions can widen the route.
+
+
+        «Kashkadarya is strongest when Shakhrisabz starts the route and the journey continues toward Qarshi, Kitab, or the foothills.»"
+      "ru": "Кашкадарья — больше, чем одна остановка после Самарканда. Сначала идёт Шахрисабз; затем Карши, Китаб, Лангар-Ата, предгорные дороги, еда и горные продолжения могут расширить маршрут.
+
+
+        «Кашкадарья убедительнее, когда после Шахрисабза маршрут продолжается к Карши, Китабу или предгорьям.»"
+      "uz": "Qashqadaryo Samarqanddan keyingi bitta bekat emas. Avval Shahrisabz keladi; keyin Qarshi, Kitob, Langar ota, tog‘oldi yo‘llari, taom va tog‘li davomlar yo‘nalishni kengaytirishi mumkin.
+
+
+        «Qashqadaryo Shahrisabzdan keyin yo‘l Qarshi, Kitob yoki tog‘oldiga davom etganda aniqroq ko‘rinadi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Main places"
+      "ru": "Главные места"
+      "uz": "Asosiy joylar"
+    "title":
+      "en": "Shakhrisabz first, Qarshi for longer routes"
+      "ru": "Сначала Шахрисабз, Карши — для длинных маршрутов"
+      "uz": "Avval Shahrisabz, uzun yo‘nalishlarda Qarshi"
+    "description":
+      "en": "Shakhrisabz opens the region's heritage story. Qarshi becomes useful when the trip continues through Kashkadarya instead of returning straight to Samarkand."
+      "ru": "Шахрисабз открывает тему наследия региона. Карши становится полезен, когда поездка продолжается через Кашкадарью, а не возвращается сразу к Самарканду."
+      "uz": "Shahrisabz mintaqaning meros mavzusini ochadi. Safar Qashqadaryo ichidan davom etsa va Samarqandga darhol qaytmasa, Qarshi foydali bo‘ladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/shakhrisabz.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Shakhrisabz"
+          "ru": "Шахрисабз"
+          "uz": "Shahrisabz"
+        "description":
+          "en": "Shakhrisabz changes the journey after Samarkand. The city begins with the surviving Ak-Saray portal, then moves into Dorut Tilovat, Kok Gumbaz, Dorus-Saodat, Chorsu, museum rooms, and the road east toward Kitab, where the Kashkadarya route starts to approach the foothills."
+          "ru": "После Самарканда Шахрисабз меняет ход маршрута. Город начинается с сохранившегося портала Ак-Сарая, затем переходит к Дорут-Тиловату, Кок-Гумбазу, Дорус-Саодату, Чорсу, музейным залам и дороге на восток к Китабу, где маршрут по Кашкадарье начинает подходить к предгорьям."
+          "uz": "Samarqanddan keyin Shahrisabz yo‘l kayfiyatini o‘zgartiradi. Shahar saqlangan Ak-Saroy peshtoqidan boshlanadi, keyin Dorut Tilovat, Ko‘k Gumbaz, Dorus-Saodat, Chorsu, muzey xonalari va Qashqadaryo yo‘li tog‘oldiga yaqinlashadigan Kitob tomonga o‘tadi."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/shakhrisabz"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz/cities/qarshi.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Qarshi"
+          "ru": "Карши"
+          "uz": "Qarshi"
+        "description":
+          "en": "After Shakhrisabz, Qarshi brings the route down to a working city: bridge arches over the river, mosque courtyards, old water structures, market voices, tandoor smoke, and evening streets."
+          "ru": "После Шахрисабза Карши переводит маршрут в живой город: арки моста над рекой, дворы мечетей, старые водные сооружения, голоса рынка, дым тандыра и вечерние улицы."
+          "uz": "Shahrisabzdan keyin Qarshi yo‘nalishni jonli shaharga olib kiradi: daryo ustidagi ko‘prik arkalari, masjid hovlilari, eski suv inshootlari, bozor ovozlari, tandir tutuni va kechki ko‘chalar."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/qarshi"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Ak-Saray, shrine ensembles, museums, and Qarshi stops"
+      "ru": "Ак-Сарай, ансамбли святынь, музеи и места Карши"
+      "uz": "Ak-Saroy, ziyorat ansambllari, muzeylar va Qarshi joylari"
+    "description":
+      "en": "Start with Shakhrisabz: Ak-Saray, Dorut Tilovat, Dorus-Saodat, Kok Gumbaz, Chorsu, Amir Temur Museum, and Maqom Museum. Qarshi adds bridge, mosque, sardoba, and memorial stops for longer routes."
+      "ru": "Начинайте с Шахрисабза: Ак-Сарай, Дорут-Тиловат, Дорус-Саодат, Кок-Гумбаз, Чорсу, музей Амира Темура и музей макома. Для более длинных маршрутов Карши добавляет мост, мечеть, сардобу и мемориальные остановки."
+      "uz": "Shahrisabzdan boshlang: Ak-Saroy, Dorut Tilovat, Dorus Saodat, Ko‘k-Gumbaz, Chorsu, Amir Temur muzeyi va Maqom muzeyi. Uzunroq yo‘nalishlarda Qarshi ko‘prik, masjid, sardoba va memorial bekatlarni qo‘shadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Kitob Foothill Approach to Jayrakhona"
+          "ru": "Предгорный подъезд к Жайрахоне со стороны Китаба"
+          "uz": "Kitobdan Jayraxonaga tog‘oldi yondashuvi"
+        "description":
+          "en": "This route-area page makes the approach legible. Kitob is the hinge between Shakhrisabz's heritage scale and the smaller roads that lead toward Jayrakhona, Tupchoq, fields, and the lower foothills."
+          "ru": "Подъезд со стороны Китаба делает дорогу к Жайрахоне понятной. Китаб становится связующим пунктом между масштабом наследия Шахрисабза и малыми дорогами к Жайрахоне, Тупчоку, полям и нижним предгорьям."
+          "uz": "Kitob tomondagi yondashuv Jayraxonaga boradigan yo‘lni tushunarli qiladi. Kitob Shahrisabzning meros miqyosi bilan Jayraxona, Tupchoq, dalalar va past tog‘oldilarga boradigan kichik yo‘llar orasidagi burilish nuqtasidir."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/jayrakhona/jayrakhona-kitab-foothill-approach"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Jayrakhona Village Setting"
+          "ru": "Сельская среда Жайрахоны"
+          "uz": "Jayraxona qishloq muhiti"
+        "description":
+          "en": "This is the core of the Jayrakhona stop. The value is not a large sight, but the way the route changes after Kitob: lower roads, village lanes, field edges, and daily life continuing at its own pace."
+          "ru": "Это основа остановки в Жайрахоне. Смысл не в крупной достопримечательности, а в том, как маршрут меняется после Китаба: низкие дороги, сельские улицы, края полей и повседневная жизнь в своём темпе."
+          "uz": "Bu Jayraxona to‘xtamining asosiy mazmuni. Qimmatli tomoni katta diqqatga sazovor joyda emas, balki Kitobdan keyin yo‘l qanday o‘zgarishida: pastroq yo‘llar, qishloq ko‘chalari, dala chetlari va o‘z sur’atidagi kundalik hayot."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/jayrakhona/jayrakhona-village-and-mahalla-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Hisorak Reservoir and Cable-Car Area"
+          "ru": "Гиссаракское водохранилище и зона канатной дороги"
+          "uz": "Hisorak suv ombori va kanat yo‘li hududi"
+        "description":
+          "en": "Treat Hisorak as an extension, not an automatic promise. Reservoir views, the cable-car area, boat rides, and higher outings can make the day stronger when the road, weather, safety, and return time line up."
+          "ru": "Держите Гиссарак как расширение, а не автоматическое обещание. Виды водохранилища, зона канатной дороги, катера и более высокие выезды усиливают день, когда дорога, погода, безопасность и возвращение складываются."
+          "uz": "Hisorakni avtomatik vaʼda emas, kengayish sifatida tuting. Suv ombori manzaralari, kanat yo‘li hududi, qayiqlar va yuqoriroq chiqishlar yo‘l, ob-havo, xavfsizlik va qaytish vaqti mos kelganda kunni kuchaytiradi."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/miraki/miraki-hisorak-reservoir-and-cable-car-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Miraki Aksu River Eco-Trail"
+          "ru": "Экотропа реки Аксу в Мираки"
+          "uz": "Miroqi Oqsuv daryosi ekoso‘qmog‘i"
+        "description":
+          "en": "The river keeps Miraki human-scale. Follow it as a gentle foothill walk when the path is comfortable, the weather is kind, and the group has the right equipment."
+          "ru": "Река сохраняет человеческий масштаб Мираки. Идите вдоль неё как по мягкой предгорной прогулке, когда путь удобен, погода спокойная и у группы есть подходящее снаряжение."
+          "uz": "Daryo Miroqini insoniy o‘lchamda tutadi. Yo‘l qulay, ob-havo sokin va guruhda kerakli jihozlar bo‘lsa, uni yumshoq tog‘oldi sayri sifatida o‘qing."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/miraki/miraki-aksu-river-eco-trail-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Hisorak Road Toward G‘elon"
+          "ru": "Дорога через Хисорак к Гелону"
+          "uz": "Hisorak orqali G‘elonga yo‘l"
+        "description":
+          "en": "The approach is not background. It is the threshold where the Shakhrisabz route leaves heritage monuments and rises toward high village life."
+          "ru": "Подъезд здесь не фон. Это порог, где маршрут из Шахрисабза оставляет памятники наследия и поднимается к жизни высокогорного села."
+          "uz": "Bu yerda yondashuv fon emas. U Shahrisabz yo‘li meros yodgorliklaridan chiqib, baland tog‘ qishlog‘i hayotiga ko‘tariladigan ostona."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/gelon/gelon-hisorak-road-and-border-edge"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "G‘elon High Mountain Village Setting"
+          "ru": "Высокогорная среда Гелона"
+          "uz": "G‘elon baland tog‘ muhiti"
+        "description":
+          "en": "Come for the high village, not only the view. The road, houses, fields, water, and household work belong together, so the landscape reads as daily life rather than scenery alone."
+          "ru": "Приезжайте ради высокогорного села, а не только ради вида. Дорога, дома, поля, вода и домашний труд здесь связаны, поэтому пейзаж воспринимается как повседневная жизнь, а не просто декорация."
+          "uz": "Faqat manzara uchun emas, baland qishloq uchun keling. Yo‘l, uylar, dalalar, suv va xonadon mehnati bir-biriga bog‘langan, shuning uchun manzara yolg‘iz bezak emas, kundalik hayotga yaqin seziladi."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/gelon/gelon-high-mountain-village-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region in detail"
+      "ru": "Регион в деталях"
+      "uz": "Hudud batafsil"
+    "title":
+      "en": "Practical questions about Kashkadarya & Shakhrisabz"
+      "ru": "Практические вопросы о регионе Кашкадарья и Шахрисабз"
+      "uz": "Qashqadaryo va Shahrisabz hududi bo‘yicha amaliy savollar"
+    "description":
+      "en": "Pace, season, and how this region connects to the next stop."
+      "ru": "Темп, сезон и как регион стыкуется со следующей остановкой."
+      "uz": "Sur’at, mavsum va hududning keyingi bekat bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many days does Kashkadarya & Shakhrisabz need in a programme?"
+          "ru": "Сколько дней нужно региону Кашкадарья и Шахрисабз в программе?"
+          "uz": "Qashqadaryo va Shahrisabz hududi dasturda necha kun olishi kerak?"
+        "description":
+          "en": "2–4 days usually works if you keep one strong core and treat outer stops as deliberate choices. The region brief is “Shakhrisabz heritage, Qarshi, Kitab, and Gissar foothill roads”."
+          "ru": "Обычно хватает 2–4 дня, если держать одно сильное ядро, а внешние остановки выбирать осознанно. Кратко о регионе: «Наследие Шахрисабза, Карши, Китаб и дороги к Гиссару»."
+          "uz": "Odatda 2–4 kun yetadi — bitta kuchli yadro va tashqi bekatlarni ongli tanlov qiling. Hudud brifi: «Shahrisabz merosi, Qarshi, Kitob va Hisor tog‘oldi yo‘llari»."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "What should come before and after Kashkadarya & Shakhrisabz?"
+          "ru": "Что ставить до и после региона Кашкадарья и Шахрисабз?"
+          "uz": "Qashqadaryo va Shahrisabzdan oldin va keyin nima qo‘yish kerak?"
+        "description":
+          "en": "Use neighbouring cities as clean handovers: arrive with a calm first night, leave after one completed chapter, and avoid stacking two long transfers on the same day."
+          "ru": "Соседние города держите как чистые стыки: приезжайте со спокойной первой ночью, уезжайте после завершённой главы и не ставьте два длинных переезда в один день."
+          "uz": "Qo‘shni shaharlarni toza ulanish sifatida tuting: sokin birinchi tun bilan keling, yakunlangan bobdan keyin chiqing va bir kunga ikkita uzun ko‘chishni qo‘ymang."
+      - "type": "destinationInsight"
+        "icon": "Calendar"
+        "title":
+          "en": "What season logic matters most in Kashkadarya & Shakhrisabz?"
+          "ru": "Какая сезонная логика важнее всего в Кашкадарья и Шахрисабз?"
+          "uz": "Qashqadaryo va Shahrisabzda qaysi mavsum mantig‘i eng muhim?"
+        "description":
+          "en": "Heat, altitude, road condition, and opening hours change the product more than the brochure list. Build the region around what stays comfortable for the group that week."
+          "ru": "Жара, высота, состояние дорог и часы работы меняют продукт сильнее списка из брошюры. Собирайте регион вокруг того, что комфортно именно этой группе в эту неделю."
+          "uz": "Issiqlik, balandlik, yo‘l holati va ish soatlari broshyura ro‘yxatidan kuchliroq mahsulotni o‘zgartiradi. Hududni shu hafta guruh uchun qulay narsaga qurib chiqing."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Kashkadarya & Shakhrisabz stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Кашкадарья и Шахрисабз» в программу (Узбекистан)"
+      "uz": "Qashqadaryo va Shahrisabz bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right extensions — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать нужные расширения — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va kerakli kengaytmalarni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Kashkadarya & Shakhrisabz | TourLink"
+    "ru": "Кашкадарья и Шахрисабз | TourLink"
+    "uz": "Qashqadaryo va Shahrisabz | TourLink"
+  "metaDescription":
+    "en": "South of Samarkand, Kashkadarya changes the Uzbekistan route without leaving the classic city line behind. Shakhrisabz is the first anchor: Ak-Saray, the UNESCO-listed historic centre, Dorut Tilovat, Dorus-Saodat, Kok Gumbaz, Chorsu, and museum context. Longer routes can continue toward Qarshi, Kitab, Langar Ata, reservoirs, mountain villages, and the Gissar foothills before returning to Samarkand or carrying on toward Surkhandarya."
+    "ru": "К югу от Самарканда Кашкадарья меняет маршрут по Узбекистану, но не отрывает его от классической линии городов. Первая точка региона — Шахрисабз: Ак-Сарай, исторический центр из списка UNESCO, Дорут-Тиловат, Дорус-Саодат, Кок-Гумбаз, Чорсу и музейный контекст. Более длинные маршруты могут продолжаться к Карши, Китабу, Лангар-Ата, водохранилищам, горным селениям и Гиссарским предгорьям, а затем возвращаться к Самарканду или уходить дальше к Сурхандарье."
+    "uz": "Samarqanddan janubda Qashqadaryo O‘zbekiston yo‘nalishini o‘zgartiradi, lekin klassik shaharlar chizig‘idan uzib yubormaydi. Mintaqaning birinchi nuqtasi Shahrisabz: Ak-Saroy, UNESCO ro‘yxatidagi tarixiy markaz, Dorut Tilovat, Dorus Saodat, Ko‘k-Gumbaz, Chorsu va muzey konteksti. Uzunroq yo‘nalishlar Qarshi, Kitob, Langar ota, suv omborlari, tog‘ qishloqlari va Hisor etaklariga davom etib, keyin Samarqandga qaytishi yoki Surxondaryo tomonga yurishi mumkin."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"mapCenter":
+  "latitude": 39.0525821
+  "longitude": 66.8278643

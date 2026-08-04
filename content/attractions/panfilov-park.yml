@@ -1,0 +1,348 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "panfilov-park"
+  "ru": "panfilov-park"
+  "uz": "panfilov-park"
+"title":
+  "en": "Panfilov Park in Almaty"
+  "ru": "Парк Панфиловцев в Алматы"
+  "uz": "Olmaotadagi Panfilov bogʻi"
+"subtitle":
+  "en": "A memorial park in Almaty's old center"
+  "ru": "Мемориальный парк в старой части Алматы"
+  "uz": "Olmaotaning eski markazidagi xotira bogʻi"
+"excerpt":
+  "en": "Panfilov Park is a small central green space with more weight than its size suggests. Trees and benches soften the street noise, the Memorial of Glory asks for a respectful pause, and Ascension Cathedral gives the park its most recognizable wooden silhouette."
+  "ru": "Парк Панфиловцев — небольшое зелёное пространство в центре Алматы, но смысл у него шире, чем размер. Деревья и скамейки смягчают шум улиц, Мемориал Славы требует уважительного тона, а Вознесенский собор даёт парку самый узнаваемый деревянный силуэт."
+  "uz": "Panfilov bogʻi Olmaota markazidagi kichik yashil makon, lekin uning mazmuni hajmidan kengroq. Daraxtlar va oʻrindiqlar koʻcha shovqinini yumshatadi, Shon-sharaf yodgorligi bu yerda ohangni sokin tutishni eslatadi, Voznesenskiy sobori esa bogʻga eng tanish yogʻoch siluetni beradi."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "Panfilov Park in Almaty"
+      "ru": "Парк Панфиловцев в Алматы"
+      "uz": "Olmaotadagi Panfilov bogʻi"
+    "title":
+      "en": "Panfilov Park in Almaty"
+      "ru": "Парк Панфиловцев в Алматы"
+      "uz": "Olmaotadagi Panfilov bogʻi"
+    "description":
+      "en": "A memorial park in Almaty's old center"
+      "ru": "Мемориальный парк в старой части Алматы"
+      "uz": "Olmaotaning eski markazidagi xotira bogʻi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Panfilov Park in Almaty"
+      "ru": "Парк Панфиловцев в Алматы"
+      "uz": "Olmaotadagi Panfilov bogʻi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Panfilov Park is a small central green space with more weight than its size suggests."
+              "ru": "Парк Панфиловцев — небольшое зелёное пространство в центре Алматы, но смысл у него шире, чем размер."
+              "uz": "Panfilov bogʻi Olmaota markazidagi kichik yashil makon, lekin uning mazmuni hajmidan kengroq."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Panfilov Park matters because it brings Almaty's civic memory, everyday walking space, and the cathedral's wooden architecture into one compact stop."
+              "ru": "Парк Панфиловцев важен тем, что в одном компактном месте держит память Алматы, повседневную прогулку и деревянную архитектуру собора."
+              "uz": "Panfilov bogʻi Olmaota xotirasi, kundalik sayr va soborning yogʻoch arxitekturasini bitta ixcham joyda jamlagani uchun muhim."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — A memorial park in Almaty's old center."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Мемориальный парк в старой части Алматы."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Olmaotaning eski markazidagi xotira bogʻi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Panfilov Park in Almaty as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Парк Панфиловцев в Алматы как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Olmaotadagi Panfilov bogʻi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Panfilov Park in Almaty sits on the route"
+      "ru": "Где Парк Панфиловцев в Алматы стоит на маршруте"
+      "uz": "Olmaotadagi Panfilov bogʻi marshrutda qayerda"
+    "description":
+      "en": "One clear point for Panfilov Park in Almaty — A memorial park in Almaty's old center."
+      "ru": "Одна понятная точка для «Парк Панфиловцев в Алматы» — Мемориальный парк в старой части Алматы."
+      "uz": "Olmaotadagi Panfilov bogʻi uchun bitta aniq nuqta — Olmaotaning eski markazidagi xotira bogʻi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Panfilov Park in Almaty"
+        "ru": "Парк Панфиловцев в Алматы"
+        "uz": "Olmaotadagi Panfilov bogʻi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 43.2363924
+      "longitude": 76.9457275
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "panfilov-park"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Where city shade meets memory"
+      "ru": "Где тень аллей встречается с памятью города"
+      "uz": "Daraxt soyasi va shahar xotirasi uchrashadigan joy"
+    "description":
+      "en": "Panfilov Park matters because it brings Almaty's civic memory, everyday walking space, and the cathedral's wooden architecture into one compact stop.
+
+
+        «Panfilov Park is most memorable when it is not rushed: shade, remembrance, and the cathedral silhouette all sit within a few quiet paths.»"
+      "ru": "Парк Панфиловцев важен тем, что в одном компактном месте держит память Алматы, повседневную прогулку и деревянную архитектуру собора.
+
+
+        «Парк Панфиловцев запоминается сильнее без спешки: тень, память и силуэт собора держатся в нескольких тихих аллеях.»"
+      "uz": "Panfilov bogʻi Olmaota xotirasi, kundalik sayr va soborning yogʻoch arxitekturasini bitta ixcham joyda jamlagani uchun muhim.
+
+
+        «Panfilov bogʻi shoshilmaganda yaxshiroq esda qoladi: soya, xotira va sobor silueti bir necha sokin yoʻlak ichida turadi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "Shaded paths, memorial space, and the cathedral profile"
+      "ru": "Аллеи, мемориальное пространство и силуэт собора"
+      "uz": "Soyali yoʻlaklar, xotira makoni va sobor silueti"
+    "description":
+      "en": "The park is easiest to read in sequence: enter through the paths, give the memorial its own moment, then let the cathedral set the visual memory of the stop."
+      "ru": "Парк легче читать по порядку: войти через аллеи, дать мемориалу отдельное время, а затем оставить главным визуальным впечатлением собор."
+      "uz": "Bogʻni ketma-ket koʻrish osonroq: yoʻlaklardan kiring, yodgorlikka alohida vaqt bering, keyin sobor tashrifning asosiy vizual xotirasiga aylansin."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday tashrif buyurish"
+    "title":
+      "en": "Walk it slowly and give the memorial space"
+      "ru": "Идите не спеша и дайте мемориалу пространство"
+      "uz": "Shoshilmay yuring va yodgorlikka joy bering"
+    "description":
+      "en": "Panfilov Park is compact, but a rushed loop makes it feel like a checklist. Start with the park setting, then move toward the memorial and cathedral."
+      "ru": "Парк Панфиловцев компактен, но быстрый круг делает его похожим на список отметок. Начните с парковой среды, затем переходите к мемориалу и собору."
+      "uz": "Panfilov bogʻi ixcham, lekin tez aylanib chiqilsa, roʻyxatga oʻxshab qoladi. Avval bogʻ muhitidan boshlang, keyin yodgorlik va soborga oʻting."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda yana nima qoʻshish"
+    "title":
+      "en": "City view or mountain edge"
+      "ru": "Вид на город или горный край"
+      "uz": "Shahar manzarasi yoki togʻ cheti"
+    "description":
+      "en": "After the park, stay close with Kok-Tobe's city view or turn the route toward Medeu and Shymbulak when the schedule and weather support the mountain edge."
+      "ru": "После парка можно остаться ближе к центру с видом с Кок-Тобе или повернуть маршрут к Медеу и Шымбулаку, если погода и график поддерживают выезд к горам."
+      "uz": "Bogʻdan keyin Koʻk-Tobe manzarasi bilan markazga yaqin qolish yoki ob-havo va jadval mos boʻlsa, yoʻnalishni Medeu va Shimbuloq tomonga burish mumkin."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Medeu High-Mountain Sports Complex"
+          "ru": "Высокогорный спортивный комплекс Медеу"
+          "uz": "Medeu baland togʻ sport majmuasi"
+        "description":
+          "en": "Medeu brings Almaty into the mountains: a high-mountain rink valley, cooler air, and the road that continues toward Shymbulak."
+          "ru": "Медеу выводит Алматы к горам: высокогорная долина с катком, прохладный воздух и дорога, которая продолжается к Шымбулаку."
+          "uz": "Medeu Olmaotani togʻlarga olib chiqadi: baland togʻ vodiysidagi muz maydoni, salqin havo va Shimbuloqqa davom etadigan yoʻl."
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/almaty/medeu-high-mountain-sports-complex"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Kok-Tobe Hill"
+          "ru": "Холм Кок-Тобе"
+          "uz": "Koʻk-Tobe tepaligi"
+        "description":
+          "en": "Kok-Tobe gives Almaty a close first view from above: skyline, foothill ridges, cable-car access to check for the day, and a calmer option than a longer Medeu-Shymbulak outing."
+          "ru": "Кок-Тобе даёт Алматы близкий вид сверху: силуэт города, предгорные хребты, канатную дорогу с проверкой на день визита и более спокойную альтернативу длинному выезду к Медеу и Шымбулаку."
+          "uz": "Koʻk-Tobe Olmaotani yuqoridan ko‘rish uchun yaqin joy: shahar silueti, togʻ etaklari, tashrif kuni tekshiriladigan kanat yoʻli va Medeu-Shimbuloqqa uzoqroq chiqishga nisbatan sokinroq tanlov."
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/almaty/kok-tobe-hill"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Shymbulak Mountain Resort"
+          "ru": "Горный курорт Шымбулак"
+          "uz": "Shimbuloq togʻ kurorti"
+        "description":
+          "en": "Shymbulak takes an Almaty day above Medeu by road and gondola, with high-mountain air, wide views, and plans shaped by weather, lift access, and altitude."
+          "ru": "Шымбулак поднимает Алматы выше Медеу: к канатной дороге, горному воздуху, видам и плану, который зависит от погоды, доступа и высоты."
+          "uz": "Shimbuloq Olmaotani Medeu ustidan balandroqqa olib chiqadi: kanat yoʻli, togʻ havosi, keng manzara va ob-havo, kirish hamda balandlikka bogʻliq reja."
+        "ctaHref": "/destinations/kazakhstan/almaty-and-northern-tian-shan/almaty/shymbulak-mountain-resort"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Panfilov Park in Almaty"
+      "ru": "Что агентства спрашивают про Парк Панфиловцев в Алматы"
+      "uz": "Agentliklar Olmaotadagi Panfilov bogʻi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Panfilov Park in Almaty get in the day plan?"
+          "ru": "Сколько времени закладывать на Парк Панфиловцев в Алматы в плане дня?"
+          "uz": "Olmaotadagi Panfilov bogʻi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "45–90 minutes is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “A memorial park in Almaty's old center”."
+          "ru": "Для большинства групп реалистичный диапазон — 45–90 минут. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Мемориальный парк в старой части Алматы»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 45–90 daqiqa. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Olmaotaning eski markazidagi xotira bogʻi»."
+      - "type": "destinationInsight"
+        "icon": "Sunrise"
+        "title":
+          "en": "When is Panfilov Park in Almaty strongest during the day?"
+          "ru": "В какое время дня Парк Панфиловцев в Алматы раскрывается сильнее?"
+          "uz": "Olmaotadagi Panfilov bogʻi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer before the midday heat. That usually improves comfort, photos, and how the stop feels in the sequence around almaty."
+          "ru": "Лучше до полуденной жары. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с almaty."
+          "uz": "tushlik issiqligidan oldin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (almaty atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How should Panfilov Park in Almaty sit next to nearby stops?"
+          "ru": "Как поставить Парк Панфиловцев в Алматы рядом с соседними остановками?"
+          "uz": "Olmaotadagi Panfilov bogʻini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Panfilov Park in Almaty to your Kazakhstan programme"
+      "ru": "Добавьте «Парк Панфиловцев в Алматы» в программу (Казахстан)"
+      "uz": "Olmaotadagi Panfilov bogʻini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Panfilov Park in Almaty | TourLink"
+    "ru": "Парк Панфиловцев в Алматы | TourLink"
+    "uz": "Olmaotadagi Panfilov bogʻi | TourLink"
+  "metaDescription":
+    "en": "Panfilov Park is a small central green space with more weight than its size suggests. Trees and benches soften the street noise, the Memorial of Glory asks for a respectful pause, and Ascension Cathedral gives the park its most recognizable wooden silhouette."
+    "ru": "Парк Панфиловцев — небольшое зелёное пространство в центре Алматы, но смысл у него шире, чем размер. Деревья и скамейки смягчают шум улиц, Мемориал Славы требует уважительного тона, а Вознесенский собор даёт парку самый узнаваемый деревянный силуэт."
+    "uz": "Panfilov bogʻi Olmaota markazidagi kichik yashil makon, lekin uning mazmuni hajmidan kengroq. Daraxtlar va oʻrindiqlar koʻcha shovqinini yumshatadi, Shon-sharaf yodgorligi bu yerda ohangni sokin tutishni eslatadi, Voznesenskiy sobori esa bogʻga eng tanish yogʻoch siluetni beradi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "almaty-and-northern-tian-shan"
+"city": "almaty"
+"type": "FORTRESS"
+"importance": "RECOMMENDED"
+"latitude": 43.2363924
+"longitude": 76.9457275

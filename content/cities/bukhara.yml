@@ -1,66 +1,809 @@
-# Seed: cities — Bukhara (from OLD DB)
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "bukhara"
+  "ru": "bukhara"
+  "uz": "bukhara"
+"title":
+  "en": "Bukhara"
+  "ru": "Бухара"
+  "uz": "Buxoro"
+"subtitle":
+  "en": "Old-city shade, courtyards, and a walkable Silk Road rhythm"
+  "ru": "Тень старого города, дворы и пешеходный ритм Шёлкового пути"
+  "uz": "Eski shahar soyasi, hovlilar va piyoda Ipak yo‘li ritmi"
+"excerpt":
+  "en": "Bukhara does not open from one square. The old center comes together through short transitions: a shaded trading dome, a carved doorway, tea beside Lyabi-Hauz, then the sudden vertical line of Kalyan Minaret above the lanes."
+  "ru": "Бухара не раскрывается с одной площади. Старый центр собирается из коротких переходов: тенистый торговый купол, резная дверь, чай у Ляби-Хауза, а затем резкая вертикаль минарета Калян над улицами."
+  "uz": "Buxoro bitta maydondan ochilmaydi. Eski markaz qisqa o‘tishlardan yigʻiladi: soyali savdo gumbazi, o‘yma eshik, Labi Hovuz yonidagi choy, keyin ko‘chalar ustida ko‘tarilgan Kalon minorasi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara.webp"
+    "imageAlt":
+      "en": "Bukhara"
+      "ru": "Бухара"
+      "uz": "Buxoro"
+    "title":
+      "en": "Bukhara"
+      "ru": "Бухара"
+      "uz": "Buxoro"
+    "description":
+      "en": "Old-city shade, courtyards, and a walkable Silk Road rhythm"
+      "ru": "Тень старого города, дворы и пешеходный ритм Шёлкового пути"
+      "uz": "Eski shahar soyasi, hovlilar va piyoda Ipak yo‘li ritmi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
 
-slug:
-  en: bukhara
-  ru: bukhara
-  uz: bukhara
-title:
-  en: Bukhara
-  ru: Бухара
-  uz: Buxoro
-subtitle:
-  en: Old-town atmosphere
-  ru: Атмосфера старого города
-  uz: Qadimiy shahar muhiti
-excerpt:
-  en: A living museum of domes, madrasas and covered bazaars.
-  ru: Живой музей куполов, медресе и крытых базаров.
-  uz: Gumbazlar, madrasalar va yopiq bozorlarning jonli muzeyi.
-country: uzbekistan
-region: bukhara-region
-latitude: 39.7681
-longitude: 64.4556
-heroImage: assets/images/city/bukhara.jpg
-blocks:
-  - blockType: hero
-    image: assets/images/city/bukhara.jpg
-    imageAlt:
-      en: Bukhara old town
-      ru: Старый город Бухары
-      uz: Buxoro qadimiy shahar
-    title:
-      en: Bukhara
-      ru: Бухара
-      uz: Buxoro
-    description:
-      en: A living museum of domes, madrasas and covered bazaars.
-      ru: Живой музей куполов, медресе и крытых базаров.
-      uz: Gumbazlar, madrasalar va yopiq bozorlarning jonli muzeyi.
-  - blockType: regular
-    eyebrow:
-      en: Overview
-      ru: Обзор
-      uz: Umumiy
-    title:
-      en: Bukhara at a glance
-      ru: Бухара в двух словах
-      uz: Buxoro qisqacha
-    description:
-      en: "Compact old-town grid with domed bazaars, Poi-Kalyan and the Ark fortress. Ideal after Samarkand — less monumental, more intimate, with strong evening ambience around Lyab-i Hauz."
-      ru: "Компактная сетка старого города с купольными базарами, Пои-Kalyan и крепостью Арк. Идеальна после Самарканда — камернее, с сильной вечерней атмосферой у Ляби-Хауз."
-      uz: "Gumbazli bozorlar, Po'i Kalon va Ark qal'asi bilan ixcham qadimiy shahar. Samarqandan keyin ideal — kamroq monumental, ko'proq yaqin, Lyabi-Hovuz atrofida kuchli kechki muhit."
-seo:
-  metaTitle:
-    en: Bukhara | TourLink
-    ru: Бухара | TourLink
-    uz: Buxoro | TourLink
-  metaDescription:
-    en: Medieval trading domes, the Ark and Bukhara old town — TourLink city guide.
-    ru: Средневековые торговые купола, Арк и старый город Бухары — гид TourLink.
-    uz: O'rta asr savdo gumbazlari, Ark va Buxoro qadimiy shahri — TourLink gidi.
-  structuredDataType: TouristDestination
-status:
-  showInSitemap: true
-  noindex: false
-  hideFromNavigation: false
-  publishedAt: "2025-06-01"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Bukhara"
+      "ru": "Бухара"
+      "uz": "Buxoro"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Bukhara does not open from one square."
+              "ru": "Бухара не раскрывается с одной площади."
+              "uz": "Buxoro bitta maydondan ochilmaydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Bukhara feels compact when the hotel sits near the old city, but heat, shade, courtyards, and outer craft or pilgrimage stops still shape the day."
+              "ru": "Бухара кажется компактной, если жить рядом со старым городом, но жара, тень, дворы и внешние ремесленные или паломнические точки всё равно задают ритм дня."
+              "uz": "Buxoro eski shahar yaqinida ixcham seziladi, lekin issiq, soya, hovlilar va tashqi hunarmandchilik yoki ziyorat joylari kun ritmini belgilaydi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Lyabi-Hauz, Poi-Kalyan, the Ark, and the trading lanes can shape one old-city walk. Outer stops feel better after the city has had time to slow down."
+              "ru": "Ляби-Хауз, Пои-Калян, Арк и торговые улицы складываются в одну прогулку по старой Бухаре. Внешние остановки лучше добавлять после того, как город успел замедлиться."
+              "uz": "Labi Hovuz, Poyi Kalon, Ark va savdo ko‘chalari eski Buxoro bo‘ylab bitta sayrga yigʻiladi. Tashqi bekatlar shahar sekinlashgandan keyin yaxshiroq seziladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Bukhara as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Бухара как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Buxoro o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Harakatlanish"
+    "title":
+      "en": "Walk the old city first, then choose what comes next"
+      "ru": "Сначала прогулка по старому городу, затем выбранное продолжение"
+      "uz": "Avval eski shahar sayri, keyin tanlangan davom"
+    "description":
+      "en": "Bukhara feels compact when the hotel sits near the old city, but heat, shade, courtyards, and outer craft or pilgrimage stops still shape the day."
+      "ru": "Бухара кажется компактной, если жить рядом со старым городом, но жара, тень, дворы и внешние ремесленные или паломнические точки всё равно задают ритм дня."
+      "uz": "Buxoro eski shahar yaqinida ixcham seziladi, lekin issiq, soya, hovlilar va tashqi hunarmandchilik yoki ziyorat joylari kun ritmini belgilaydi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Old-city anchors"
+        "ru": "Опоры старого города"
+        "uz": "Eski shahar tayanchlari"
+      "title":
+        "en": "Lyabi-Hauz, Poi-Kalyan, and the Ark"
+        "ru": "Ляби-Хауз, Пои-Калян и Арк"
+        "uz": "Labi Hovuz, Poyi Kalon va Ark"
+      "description":
+        "en": "The map keeps the old-city places close before the day continues toward craft, palace, or pilgrimage context outside the center."
+        "ru": "Карта показывает места старого города рядом друг с другом, прежде чем день продолжится к ремеслу, дворцу или паломническим местам за пределами центра."
+        "uz": "Xarita eski shahar joylarini bir-biriga yaqin ko‘rsatadi, keyin kun hunarmandchilik, saroy yoki ziyorat joylariga davom etadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.776626
+      "longitude": 64.410445
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "poi-kalyan-complex"
+      - "entityType": "attraction"
+        "entitySlug": "ark-citadel"
+      - "entityType": "attraction"
+        "entitySlug": "bukhara-state-architectural-art-museum-preserve"
+      - "entityType": "attraction"
+        "entitySlug": "lyabi-hauz-ensemble"
+      - "entityType": "attraction"
+        "entitySlug": "samanid-mausoleum"
+      - "entityType": "attraction"
+        "entitySlug": "chashma-ayub-mausoleum"
+      - "entityType": "attraction"
+        "entitySlug": "bolo-hauz-mosque"
+    "aside":
+      "eyebrow":
+        "en": "Route rhythm"
+        "ru": "Ритм маршрута"
+        "uz": "Marshrut ritmi"
+      "title":
+        "en": "The first walk stays on foot"
+        "ru": "Первая прогулка остаётся пешей"
+        "uz": "Birinchi sayr piyoda qoladi"
+      "description":
+        "en": "Lyabi-Hauz, Poi-Kalyan, the Ark, and the trading lanes can shape one old-city walk. Outer stops feel better after the city has had time to slow down."
+        "ru": "Ляби-Хауз, Пои-Калян, Арк и торговые улицы складываются в одну прогулку по старой Бухаре. Внешние остановки лучше добавлять после того, как город успел замедлиться."
+        "uz": "Labi Hovuz, Poyi Kalon, Ark va savdo ko‘chalari eski Buxoro bo‘ylab bitta sayrga yigʻiladi. Tashqi bekatlar shahar sekinlashgandan keyin yaxshiroq seziladi."
+      "items":
+        - "title":
+            "en": "The first day starts easier near the old city"
+            "ru": "Первый день легче начинается рядом со старым городом"
+            "uz": "Birinchi kun eski shahar yonida osonroq boshlanadi"
+          "description":
+            "en": "A hotel close to the historic centre keeps shade, water, courtyards, and evening returns within reach instead of turning the day into transfers."
+            "ru": "Отель рядом с историческим центром оставляет рядом тень, воду, дворы и вечерние возвращения, а не превращает день в переезды."
+            "uz": "Tarixiy markazga yaqin mehmonxona soya, suv, hovlilar va kechki qaytishlarni yaqin tutadi; kun transferlarga aylanmaydi."
+          "badge":
+            "en": "Arrival area"
+            "ru": "Рядом со старым городом"
+            "uz": "Eski shahar yonida"
+        - "title":
+            "en": "Lyabi-Hauz gathers the city gently"
+            "ru": "Ляби-Хауз мягко собирает город"
+            "uz": "Labi Hovuz shaharni sokin yigʻadi"
+          "description":
+            "en": "The pool, trees, tea tables, and nearby lanes make the first walk social and shaded before the route moves toward the trading domes."
+            "ru": "Вода, деревья, чайные столы и близкие улицы делают первую прогулку живой и тенистой перед торговыми куполами."
+            "uz": "Hovuz, daraxtlar, choy stollari va yaqin ko‘chalar birinchi yurishni savdo gumbazlari oldidan ijtimoiy va soyali qiladi."
+          "badge":
+            "en": "Soft start"
+            "ru": "Мягкий старт"
+            "uz": "Yumshoq start"
+        - "title":
+            "en": "Poi-Kalyan and the Ark change the scale"
+            "ru": "Пои-Калян и Арк меняют масштаб"
+            "uz": "Poyi Kalon va Ark miqyosni o‘zgartiradi"
+          "description":
+            "en": "Kalyan Minaret gives the vertical frame; the Ark shifts the story toward rulers, gates, and Bukhara's political weight."
+            "ru": "Минарет Калян даёт вертикаль, а Арк переводит рассказ к правителям, воротам и политическому весу Бухары."
+            "uz": "Kalon minorasi vertikal ramkani beradi; Ark hikoyani hukmdorlar, darvozalar va Buxoroning siyosiy vazniga olib boradi."
+          "badge":
+            "en": "Monument spine"
+            "ru": "Ось памятников"
+            "uz": "Yodgorlik o‘qi"
+        - "title":
+            "en": "Outer stops need room"
+            "ru": "Выездам за пределы центра нужно место"
+            "uz": "Markazdan tashqaridagi chiqishlarga vaqt kerak"
+          "description":
+            "en": "Gijduvan, Sitorai Mokhi-Khosa, Vabkent, and Naqshband-linked stops feel stronger as deliberate extensions, after the old city has settled."
+            "ru": "Гиждуван, Ситораи Мохи-Хоса, Вабкент и точки, связанные с Накшбандом, сильнее ощущаются как отдельные расширения после старого города."
+            "uz": "Gʻijduvon, Sitorai Mohi-Xosa, Vobkent va Naqshband bilan bogʻliq joylar eski shahar tinchgandan keyin alohida kengaytma sifatida kuchliroq seziladi."
+          "badge":
+            "en": "Extension"
+            "ru": "Расширение"
+            "uz": "Kengaytma"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Main places of old Bukhara"
+      "ru": "Главные места старой Бухары"
+      "uz": "Eski Buxoroning asosiy joylari"
+    "description":
+      "en": "Poi-Kalyan, the Ark, and Lyabi-Hauz give the city three different entries: the minaret's height, citadel memory, and water with shaded tea tables. The walk then opens through the Samanid Mausoleum, Chashma-Ayub, Bolo-Hauz, Magoki-Attori, Chor Minor, madrasahs, trading domes, Fayzulla Khodjaev House-Museum, and the museum-preserve. With more time, Sitorai Mokhi-Khosa, Bahauddin Naqshband, and Chor-Bakr carry the day beyond the compact center."
+      "ru": "Пои-Калян, Арк и Ляби-Хауз дают три разных входа в город: вертикаль минарета, крепостную память и воду с тенистыми чайными столами. Дальше пешая линия раскрывается через мавзолей Саманидов, Чашма-Аюб, Боло-Хауз, Магоки-Аттори, Чор-Минор, медресе, торговые купола, дом-музей Файзуллы Ходжаева и музей-заповедник. Если в городе есть больше времени, Ситораи Мохи-Хоса, Бахауддин Накшбанд и Чор-Бакр выводят день за пределы компактного центра."
+      "uz": "Poyi Kalon, Ark va Labi Hovuz shaharga uch xil kirish beradi: minora balandligi, qalʼa xotirasi va soyali choy stollari yonidagi suv. Keyin piyoda yo‘l Somoniylar maqbarasi, Chashma-Ayub, Bolo-Hauz, Magʻoki Attori, Chor Minor, madrasalar, savdo gumbazlari, Fayzulla Xo‘jayev uy-muzeyi va muzey-qo‘riqxona orqali ochiladi. Shaharda ko‘proq vaqt bo‘lsa, Sitorai Mohi-Xosa, Bahouddin Naqshband va Chor Bakr kunni ixcham markazdan tashqariga olib chiqadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara/attractions/poi-kalyan-complex.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Poi-Kalyan Complex"
+          "ru": "Комплекс Пои-Калян"
+          "uz": "Poyi Kalon majmuasi"
+        "description":
+          "en": "Poi-Kalyan changes Bukhara's scale at once: the Kalyan minaret rises above warm brick, Kalyan Mosque, and Miri-Arab Madrasah, while the old-city lanes stay close enough for the day to remain on foot."
+          "ru": "Пои-Калян сразу меняет масштаб Бухары: минарет Калян поднимается над тёплым кирпичом, мечетью Калян и медресе Мири-Араб, а вокруг остаются пешеходные улицы старого города."
+          "uz": "Poyi Kalon Buxoro miqyosini darhol o‘zgartiradi: Kalon minorasi iliq g‘isht, Kalon masjidi va Mir Arab madrasasi ustida ko‘tariladi, atrofida esa eski shaharning piyoda ko‘chalari qoladi."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara/poi-kalyan-complex"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara/attractions/ark-citadel.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Ark Fortress"
+          "ru": "Арк"
+          "uz": "Ark qalʼasi"
+        "description":
+          "en": "The Ark gives the Bukhara day a different kind of stop: massive walls, a raised entrance, interior rooms, and a clear look back toward the lanes you have just walked."
+          "ru": "Арк добавляет к дню в старой Бухаре другую остановку: мощные стены, приподнятый вход, внутренние залы и взгляд назад на улицы, по которым вы только что шли."
+          "uz": "Arkda eski Buxoro bo‘ylab sayr boshqa ko‘rinish oladi: katta devorlar, baland kirish, ichki xonalar va hozirgina yurgan ko‘chalarga qaraydigan manzara."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara/ark-citadel"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara/attractions/lyabi-hauz-ensemble.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Lyabi-Hauz Ensemble"
+          "ru": "Ляби-Хауз"
+          "uz": "Labi Hovuz ansambli"
+        "description":
+          "en": "At Lyabi-Hauz, the old-city walk opens around the hauz: trees and tea tables by the water, Nadir Divan-Begi Madrasah and Khanaka, Kukeldash Madrasah nearby, and lanes leading back toward the trading passages."
+          "ru": "У Ляби-Хауза прогулка по старой Бухаре раскрывается вокруг хауза: деревья и чайные столы у воды, медресе и ханака Нодира Диван-Беги, рядом медресе Кукельдаш и улицы, ведущие к торговым проходам."
+          "uz": "Labi Hovuzda eski Buxoro sayri hovuz atrofida ochiladi: suv bo‘yidagi daraxtlar va choy stollari, Nodir Devonbegi madrasasi va xonaqohi, yaqinidagi Ko‘kaldosh madrasasi hamda savdo yo‘laklariga olib boradigan ko‘chalar."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara/lyabi-hauz-ensemble"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara/attractions/samanid-mausoleum.webp"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Samanid Mausoleum"
+          "ru": "Мавзолей Саманидов"
+          "uz": "Somoniylar maqbarasi"
+        "description":
+          "en": "At this compact 10th-century tomb, Bukhara's early Islamic architecture comes through in the brickwork, the balanced cube-and-dome form, and the calm park setting around it."
+          "ru": "В этой компактной усыпальнице X века ранняя исламская архитектура Бухары видна в кирпичной кладке, уравновешенной форме куба и купола и спокойном парковом окружении."
+          "uz": "Bu ixcham X asr maqbarasida Buxoroning ilk islom meʼmorchiligi g‘isht terimi, kub va gumbazning muvozanatli shakli hamda atrofdagi sokin park muhiti orqali ko‘rinadi."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara/samanid-mausoleum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara/attractions/chashma-ayub-mausoleum.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Chashma-Ayub Mausoleum"
+          "ru": "Мавзолей Чашма-Аюб"
+          "uz": "Chashma-Ayub maqbarasi"
+        "description":
+          "en": "Near the Samanid Mausoleum, Chashma-Ayub shows another side of Bukhara: a spring associated with Job, a low shrine, trees, and a conical dome away from the larger ensembles."
+          "ru": "Рядом с мавзолеем Саманидов Чашма-Аюб показывает другую сторону Бухары: родник, связанный с Айюбом, низкую святыню, деревья и конический купол вдали от крупных ансамблей."
+          "uz": "Somoniylar maqbarasi yonida Chashma-Ayub Buxoroning boshqa tomonini ko‘rsatadi: Ayub bilan bog‘langan buloq, past maqbara, daraxtlar va yirik ansambllardan chetroqdagi konus gumbaz."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara/chashma-ayub-mausoleum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara/attractions/bolo-hauz-mosque.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Bolo-Hauz Mosque"
+          "ru": "Мечеть Боло-Хауз"
+          "uz": "Bolo-Hauz masjidi"
+        "description":
+          "en": "At Bolo-Hauz, the Ark is close, but the first detail is the hauz, the historic water basin in front of the mosque. Around it, the carved wooden iwan, mosque porch, and old Registan edge make a short, calm stop between the citadel and the western side of the old-city route."
+          "ru": "В Боло-Хаузе Арк совсем рядом, но первым замечаешь хауз — исторический водоём перед мечетью. Вокруг него складываются резной деревянный айван, крыльцо мечети и край старого Регистана — короткая спокойная остановка между цитаделью и западной частью старогородского маршрута."
+          "uz": "Bolo-Hauzda Ark juda yaqin, lekin avval masjid oldidagi hovuz ko‘zga tashlanadi. Uning atrofida o‘yma yog‘och ayvon, masjid ayvoni va eski Registon cheti sitadel bilan eski shahar yo‘lining g‘arbiy tomoni orasidagi qisqa, sokin bekatni hosil qiladi."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara/bolo-hauz-mosque"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara/attractions/magoki-attori-mosque.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Magoki-Attori Mosque"
+          "ru": "Мечеть Магоки-Аттори"
+          "uz": "Magʻoki Attori masjidi"
+        "description":
+          "en": "Magoki-Attori is a small but memorable pause near Lyabi-Hauz: an early mosque site where a carved lower portal, blue ornament, and the old Attoron bazaar story bring Bukhara's past closer to the walking route."
+          "ru": "Магоки-Аттори — небольшая, но запоминающаяся остановка рядом с Ляби-Хаузом: раннее место мечети, где нижний резной портал, синий орнамент и история базара Атторон приближают прошлое Бухары к пешему маршруту."
+          "uz": "Magʻoki Attori Labi Hovuz yaqinidagi kichik, ammo esda qoladigan bekat: bu yerda pastki oʻyma portal, ko‘k naqsh va eski Attoron bozori hikoyasi Buxoro tarixini piyoda yo‘lga yaqinlashtiradi."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara/magoki-attori-mosque"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara/attractions/chor-minor.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Chor Minor"
+          "ru": "Чор-Минор"
+          "uz": "Chor Minor"
+        "description":
+          "en": "At Chor Minor, Bukhara shifts from big ensembles to a neighborhood lane. Four blue-domed towers rise above a compact gatehouse, while homes, doors, and everyday movement keep the monument close."
+          "ru": "Чор-Минор показывает другую сторону старой Бухары: не площадь и не большой ансамбль, а тихую улицу с воротами бывшего медресе. Четыре башни с синими куполами видны над светлыми стенами, и памятник воспринимается почти в масштабе квартала."
+          "uz": "Chor Minor eski Buxoroning boshqa tomonini ko‘rsatadi: katta maydon yoki yirik ansambl emas, sobiq madrasa darvozasi turgan sokin ko‘cha. Ko‘k gumbazlar och rang devorlar ustida ko‘rinadi, yodgorlik esa mahalla ritmiga yaqin seziladi."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara/chor-minor"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara/attractions/ulugbek-madrasah-bukhara.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Ulugbek Madrasah"
+          "ru": "Медресе Улугбека в Бухаре"
+          "uz": "Buxorodagi Ulugbek madrasasi"
+        "description":
+          "en": "In Bukhara, Ulugbek Madrasah slows the old-city walk after the trading domes. The courtyard, portal, surviving tilework, and Mirzo Ulugbek's name bring the route from bazaar movement toward the city's history of study."
+          "ru": "В Бухаре медресе Улугбека делает старогородскую прогулку спокойнее после торговых куполов. Двор, портал, сохранившаяся керамика и имя Мирзо Улугбека переводят маршрут от движения базара к городской истории знания."
+          "uz": "Buxoroda Ulugbek madrasasi savdo gumbazlaridan keyin eski shahar sayrini sokinlashtiradi. Hovli, portal, saqlangan koshin bezaklari va Mirzo Ulugbek nomi marshrutni bozor harakatidan shaharning ilm tarixiga olib boradi."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara/ulugbek-madrasah-bukhara"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara/attractions/abdulaziz-khan-madrasah.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Abdulaziz Khan Madrasah"
+          "ru": "Медресе Абдулазиз-хана"
+          "uz": "Abdulazizxon madrasasi"
+        "description":
+          "en": "Abdulaziz Khan Madrasah stands opposite Ulugbek Madrasah, so the two monuments are best seen together. One belongs to the Timurid tradition of learning; the other shows 17th-century Bukhara through a painted portal, carved detail, and the lived street beside the trading domes."
+          "ru": "Медресе Абдулазиз-хана стоит напротив медресе Улугбека, поэтому два памятника удобно смотреть вместе. Один связан с тимуридской традицией учёбы, другой показывает Бухару XVII века через расписной портал, резные детали и жизнь улицы у торговых куполов."
+          "uz": "Abdulazizxon madrasasi Ulugbek madrasasi ro‘parasida turadi, shuning uchun ikki yodgorlikni birga ko‘rish maʼqul. Biri temuriylar davri ilm anʼanasi bilan bog‘liq; ikkinchisi XVII asr Buxorosini rangli peshtoq, o‘yma detal va savdo gumbazlari yonidagi ko‘cha hayoti orqali ko‘rsat"
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara/abdulaziz-khan-madrasah"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara/attractions/trading-domes-of-bukhara.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Trading Domes of Bukhara"
+          "ru": "Торговые купола Бухары"
+          "uz": "Buxoro Savdo gumbazlari"
+        "description":
+          "en": "At the Trading Domes, the Bukhara walk passes through covered trade: brick vaults overhead, shopfronts at the sides, textiles, copperwork, ceramics, and bargaining at a slower pace."
+          "ru": "У Торговых куполов бухарская прогулка проходит через крытую торговлю: над головой кирпичные своды, по сторонам лавки, ткани, медная работа, керамика и спокойный торг."
+          "uz": "Savdo gumbazlarida Buxoro sayri yopiq savdo ichidan o‘tadi: tepada gʻisht ravoqlar, yon tomonda rastalar, matolar, mis buyumlar, keramika va sokin savdolashuv."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara/trading-domes-of-bukhara"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara/attractions/fayzulla-khodjaev-house-museum.webp"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Fayzulla Khodjaev House-Museum"
+          "ru": "Дом-музей Файзуллы Ходжаева"
+          "uz": "Fayzulla Xo‘jayev uy-muzeyi"
+        "description":
+          "en": "Fayzulla Khodjaev House-Museum shows another side of Bukhara: a merchant family house with courtyards, painted rooms, carved wood, porcelain, clothing, and the public story of Fayzulla Khodjaev."
+          "ru": "Дом-музей Файзуллы Ходжаева показывает другую сторону Бухары: купеческий семейный дом с дворами, расписными комнатами, резным деревом, фарфором, одеждой и историей Файзуллы Ходжаева как общественного деятеля."
+          "uz": "Fayzulla Xo‘jayev uy-muzeyi Buxoroning boshqa tomonini ko‘rsatadi: hovlilari, bezakli xonalari, o‘yma yog‘ochi, chinnisi, kiyimlari va Fayzulla Xo‘jayevning jamoat hayoti bilan bog‘liq savdogar oilasi uyi."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region/bukhara/fayzulla-khodjaev-house-museum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City rhythm"
+      "ru": "Ритм города"
+      "uz": "Shahar ritmi"
+    "title":
+      "en": "How Bukhara feels"
+      "ru": "Как ощущается Бухара"
+      "uz": "Buxoro qanday seziladi"
+    "description":
+      "en": "Bukhara's strongest moments are slow and close: tea beside water, brickwork in warm light, textiles under domes, and an evening return when the minaret becomes a marker in the lanes."
+      "ru": "Самые сильные моменты Бухары медленные и близкие: чай у воды, кирпич в тёплом свете, ткани под куполами и вечернее возвращение, когда минарет становится ориентиром в улицах."
+      "uz": "Buxoroning eng kuchli lahzalari sekin va yaqin: suv yonidagi choy, iliq nurdagi gʻisht, gumbazlar ostidagi matolar va minora ko‘chalarda belgi bo‘lib qolgan kechki qaytish."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/bukhara/bukhara-character-1.webp"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Bazaar And Courtyard Rhythm"
+          "ru": "Базар и двор"
+          "uz": "Bozor va hovli ritmi"
+        "description":
+          "en": "At the morning bazaar, flatbread, dried apricot, and spice sit in the same warm air. A vendor cuts a melon for you to taste, and later the city slows down over tea in a shaded courtyard."
+          "ru": "На утреннем базаре в одном тёплом воздухе держатся лепёшка, курага и специи. Продавец режет дыню, чтобы вы попробовали, а позже город замедляется за чаем в тенистом дворе."
+          "uz": "Ertalabki bozorda non, quritilgan o‘rik va ziravor hidi bir iliq havoda qo‘shiladi. Sotuvchi siz tatib ko‘rishingiz uchun qovun kesadi, keyin shahar soyali hovlida choy bilan sekinlashadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/bukhara/bukhara-character-2.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Craft passage"
+          "ru": "Ремесленный проход"
+          "uz": "Hunarmandchilik yo‘lagi"
+        "description":
+          "en": "Brick vaults, shopfronts, textiles, copperwork, and ceramics make the route between Lyabi-Hauz and Poi-Kalyan feel like a working part of old Bukhara."
+          "ru": "Кирпичные своды, лавки, ткани, медная работа и керамика показывают участок между Ляби-Хаузом и Пои-Каляном как живую часть старой Бухары."
+          "uz": "Gʻisht ravoqlar, rastalar, matolar, mis buyumlar va keramika Labi Hovuz bilan Poyi Kalon orasidagi yo‘lni eski Buxoroning ishlayotgan qismi sifatida ko‘rsatadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/bukhara/bukhara-character-3.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Architecture in context"
+          "ru": "Архитектура в контексте"
+          "uz": "Kontekstdagi meʼmorchilik"
+        "description":
+          "en": "A madrasah, a fortress, and a walled street are more than separate monuments. Together they show where cities traded, ruled, studied, and met, so the route feels like a working place rather than a postcard sequence."
+          "ru": "Медресе, крепость и улица за стенами важны не только по отдельности. Вместе они показывают, где торговали, где правили, где учились и где встречались, поэтому маршрут ощущается не набором открыток, а живым городом."
+          "uz": "Madrasa, qalʼa va devor ichidagi ko‘cha alohida yodgorliklardan ko‘ra ko‘proq maʼno beradi. Birgalikda ular qayerda savdo bo‘lgan, qayerda hukm yuritilgan, qayerda taʼlim olingan va odamlar qayerda uchrashganini ko‘rsatadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/bukhara/bukhara-character-4.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Early brickwork"
+          "ru": "Ранний кирпич"
+          "uz": "Ilk gʻisht"
+        "description":
+          "en": "The small Samanid mausoleum brings Bukhara to an earlier scale: carved brick, park shade, and a quiet pause after minarets and fortress walls."
+          "ru": "Небольшой мавзолей Саманидов возвращает Бухару к более раннему масштабу: резной кирпич, тень парка и тихая пауза после минаретов и крепостных стен."
+          "uz": "Kichik Somoniylar maqbarasi Buxoroni ertaroq miqyosga qaytaradi: o‘yma gʻisht, park soyasi va minora hamda qalʼa devorlaridan keyingi sokin pauza."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/bukhara/bukhara-character-5.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Merchant rooms"
+          "ru": "Купеческие комнаты"
+          "uz": "Savdogar xonalari"
+        "description":
+          "en": "Painted rooms, carved wood, porcelain, clothing, and household displays bring the old-city walk into a merchant house at Fayzulla Khodjaev House-Museum."
+          "ru": "Расписные комнаты, резное дерево, фарфор, одежда и бытовые экспозиции показывают старую Бухару внутри купеческого дома Файзуллы Ходжаева."
+          "uz": "Bezakli xonalar, o‘yma yog‘och, chinni, kiyim va maishiy ekspozitsiyalar eski Buxoroni Fayzulla Xo‘jayevning savdogar uyi ichidan ko‘rsatadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/character/bukhara/bukhara-character-6.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Palace garden and rooms"
+          "ru": "Сад и дворцовые комнаты"
+          "uz": "Bogʻ va saroy xonalari"
+        "description":
+          "en": "A short drive from the old city brings marble lions, garden paths, mirrored rooms, and applied-art displays into the last emir's summer residence."
+          "ru": "Короткий выезд из старого города приводит к мраморным львам, садовым дорожкам, зеркальным комнатам и прикладному искусству летней резиденции последнего эмира."
+          "uz": "Eski shahardan qisqa yo‘l marmar sherlar, bogʻ yo‘llari, oynali xonalar va amaliy sanʼatni so‘nggi amirning yozgi qarorgohida ko‘rsatadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Yo‘lga chiqishdan oldin"
+    "title":
+      "en": "How to give Bukhara enough time"
+      "ru": "Как дать Бухаре достаточно времени"
+      "uz": "Buxoroga qanday yetarli vaqt berish kerak"
+    "description":
+      "en": "Bukhara rewards a slower city stay. The old centre is walkable, but the memory comes from pauses: shade, carved wood, brick pattern, water, tea, and the guide's thread between power, trade, and daily life."
+      "ru": "Бухара лучше раскрывается при медленном пребывании в городе. Старый центр пешеходный, но память остаётся от пауз: тени, резного дерева, кирпичного узора, воды, чая и нити рассказа между властью, торговлей и повседневностью."
+      "uz": "Buxoro sekin shahar ritmida yaxshiroq ochiladi. Eski markaz piyoda, ammo xotira pauzalarda qoladi: soya, o‘yma yogʻoch, gʻisht naqshi, suv, choy va hokimiyat, savdo hamda kundalik hayotni bogʻlaydigan hikoya."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Stay near the old city"
+              "ru": "Рядом со старым городом"
+              "uz": "Eski shahar yonida qolish"
+            "description":
+              "en": "Staying inside or near the historic centre lets the day move between monuments, tea, lunch, shade, and evening light without repeated long transfers."
+              "ru": "Жизнь внутри или рядом с историческим центром позволяет дню двигаться между памятниками, чаем, обедом, тенью и вечерним светом без длинных повторных переездов."
+              "uz": "Tarixiy markaz ichida yoki yaqinida yashash kunni yodgorliklar, choy, tushlik, soya va kechki nur orasida uzoq takroriy transferlarsiz olib boradi."
+          - "type": "quote"
+            "quote":
+              "en": "Bukhara is most memorable when the old city remains close enough to revisit."
+              "ru": "Бухара запоминается сильнее, когда к старому городу можно вернуться."
+              "uz": "Buxoro eski shaharga qaytish imkoni qolganda kuchliroq esda qoladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Walking rhythm"
+              "ru": "Пешеходный ритм"
+              "uz": "Piyoda ritm"
+            "description":
+              "en": "The old city is strongest on foot, but not as a forced march. Short pauses help the carved doors, brickwork, and domes become distinct."
+              "ru": "Старый город сильнее всего пешком, но не как принудительный марш. Короткие паузы помогают различить резные двери, кирпич и купола."
+              "uz": "Eski shahar piyoda eng kuchli, lekin bu majburiy yurish emas. Qisqa pauzalar o‘yma eshik, gʻisht va gumbazlarni alohida ko‘rsatadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Beyond the old city"
+              "ru": "За пределами старого города"
+              "uz": "Eski shahardan tashqarida"
+            "description":
+              "en": "Craft, palace, and pilgrimage stops outside the center work best as measured continuations when the itinerary has enough space."
+              "ru": "Ремесленные, дворцовые и паломнические остановки за пределами центра лучше добавлять как размеренные продолжения, когда в маршруте есть место."
+              "uz": "Markaz tashqarisidagi hunarmandchilik, saroy va ziyorat bekatlarini marshrutda joy bo‘lsa, shoshilmas davom sifatida qo‘shgan yaxshiroq."
+          - "type": "alert"
+            "title":
+              "en": "For the traveler"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "The first walk feels best on foot. The city grows richer when the day returns to shade and water instead of racing from one outer stop to another."
+              "ru": "Первая прогулка лучше чувствуется пешком. Город становится богаче, когда день возвращается к тени и воде, а не спешит от одной внешней точки к другой."
+              "uz": "Birinchi sayr piyoda yaxshiroq seziladi. Kun soya va suvga qaytganda, tashqi bekatlar orasida shoshilgandan ko‘ra shahar boyroq seziladi."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Yo‘lga chiqishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before you go Where to stay"
+                  "ru": "Перед поездкой Где остановиться"
+                  "uz": "Yo‘l oldidan Qayerda qolish"
+                "description":
+                  "en": "Old-city hotels or nearby streets keep walks, shade, and evening returns simple."
+                  "ru": "Отели в старом городе или рядом с ним упрощают прогулки, тень и вечерние возвращения."
+                  "uz": "Eski shahar ichidagi yoki yaqinidagi mehmonxonalar yurish, soya va kechki qaytishni osonlashtiradi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main magnet"
+                  "ru": "Главный магнит"
+                  "uz": "Asosiy magnet"
+                "description":
+                  "en": "Poi-Kalyan, the Ark, Lyabi-Hauz, trading domes, courtyards, and craft lanes."
+                  "ru": "Пои-Калян, Арк, Ляби-Хауз, торговые купола, дворы и ремесленные улицы."
+                  "uz": "Poyi Kalon, Ark, Labi Hovuz, savdo gumbazlari, hovlilar va hunarmandchilik ko‘chalari."
+              - "icon": "Sun"
+                "title":
+                  "en": "Best rhythm"
+                  "ru": "Лучший ритм"
+                  "uz": "Eng yaxshi ritm"
+                "description":
+                  "en": "Spring and autumn are easiest; summer works with early walks, shaded pauses, and later evenings."
+                  "ru": "Весна и осень удобнее всего; летом помогают ранние прогулки, тенистые паузы и поздние вечера."
+                  "uz": "Bahor va kuz eng qulay; yozda erta yurishlar, soyali pauzalar va kech oqshomlar yordam beradi."
+              - "icon": "Route"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Marshrutdagi roli"
+                "description":
+                  "en": "Classic midpoint between Samarkand and Khiva, with craft and pilgrimage extensions when time allows."
+                  "ru": "Классическая середина между Самаркандом и Хивой, с ремесленными и паломническими расширениями при наличии времени."
+                  "uz": "Samarqand va Xiva orasidagi klassik to‘xtash; vaqt bo‘lsa hunarmandchilik va ziyorat davomlari qo‘shiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Tour programs"
+      "ru": "Программы"
+      "uz": "Tur dasturlari"
+    "title":
+      "en": "Tours that visit Bukhara"
+      "ru": "Туры, которые проходят через Бухару"
+      "uz": "Buxorodan o‘tadigan turlar"
+    "description":
+      "en": "Bukhara belongs in almost every classic Uzbekistan itinerary, but nights matter: one night shows the main places; two or three give the old city room to breathe."
+      "ru": "Бухара есть почти в каждом классическом маршруте по Узбекистану, но ночи важны: одна показывает главное, две или три дают старому городу воздух."
+      "uz": "Buxoro deyarli har bir klassik Oʻzbekiston marshrutida bor, lekin tunlar muhim: bir tun asosiy joylarni ko‘rsatadi, ikki yoki uch tun eski shaharga nafas beradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route connections"
+      "ru": "Опорные точки"
+      "uz": "Tayanch nuqtalar"
+    "title":
+      "en": "Where the route continues"
+      "ru": "Куда маршрут идёт дальше"
+      "uz": "Yo‘l qayerga davom etadi"
+    "description":
+      "en": "Bukhara usually sits between Samarkand and Khiva: one side brings monumental scale, the other narrows the journey into the walled city of Khorezm."
+      "ru": "Бухара обычно стоит между Самаркандом и Хивой: с одной стороны приходит монументальный масштаб, с другой маршрут сужается к хорезмскому городу-крепости."
+      "uz": "Buxoro odatda Samarqand va Xiva orasida turadi: bir tomonda monumental miqyos, ikkinchi tomonda Xorazmning devorli shahri bor."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/bukhara-next-samarkand.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Samarkand"
+          "ru": "Самарканд"
+          "uz": "Samarqand"
+        "description":
+          "en": "Samarkand brings the route to monumental scale: Registan, Shah-i-Zinda, Bibi-Khanym, Gur-e-Amir, Siab Bazaar, Afrosiab, and Ulugh Beg Observatory."
+          "ru": "Самарканд даёт маршруту монументальный масштаб: Регистан, Шахи-Зинда, Биби-Ханым, Гур-Эмир, Сиабский базар, Афрасиаб и обсерватория Улугбека."
+          "uz": "Samarqand yoʻnalishga monumental miqyos beradi: Registon, Shohi Zinda, Bibi Xonim, Goʻri Amir, Siyob bozori, Afrosiyob va Ulugʻbek rasadxonasi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/samarkand"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/bukhara-next-khiva.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Khiva"
+          "ru": "Хива"
+          "uz": "Xiva"
+        "description":
+          "en": "Khiva holds the western edge of the classic route: Itchan Kala, Kalta Minor, Juma Mosque, palace courtyards, workshops, and the roads that continue through Khorezm."
+          "ru": "Хива держит западный край классического маршрута: Ичан-Кала, Кальта-Минор, Джума-мечеть, дворцовые дворы, мастерские и дороги дальше по Хорезму."
+          "uz": "Xiva klassik yo‘lning g‘arbiy chekkasini ushlab turadi: Ichan Qalʼa, Kalta Minor, Juma masjidi, saroy hovlilari, ustaxonalar va Xorazm bo‘ylab davom etadigan yo‘llar."
+        "ctaHref": "/destinations/uzbekistan/khorezm-region/khiva"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Bukhara in the day plan"
+      "ru": "Как поставить Бухара в план дня"
+      "uz": "Buxoroni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Bukhara?"
+          "ru": "Сколько времени группам стоит проводить в Бухара?"
+          "uz": "Buxoroda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Old-city shade, courtyards, and a walkable Silk Road rhythm”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Тень старого города, дворы и пешеходный ритм Шёлкового пути»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Eski shahar soyasi, hovlilar va piyoda Ipak yo‘li ritmi»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Bukhara be a walkable core or a base for day trips?"
+          "ru": "Бухара — это пешеходное ядро или база для выездов?"
+          "uz": "Buxoro piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Bukhara's centre?"
+          "ru": "Где лучше ночевать относительно центра Бухара?"
+          "uz": "Buxoro markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/bukhara-region/cities/bukhara.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Bukhara stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Бухара» в программу (Узбекистан)"
+      "uz": "Buxoro bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Bukhara | TourLink"
+    "ru": "Бухара | TourLink"
+    "uz": "Buxoro | TourLink"
+  "metaDescription":
+    "en": "Bukhara does not open from one square. The old center comes together through short transitions: a shaded trading dome, a carved doorway, tea beside Lyabi-Hauz, then the sudden vertical line of Kalyan Minaret above the lanes."
+    "ru": "Бухара не раскрывается с одной площади. Старый центр собирается из коротких переходов: тенистый торговый купол, резная дверь, чай у Ляби-Хауза, а затем резкая вертикаль минарета Калян над улицами."
+    "uz": "Buxoro bitta maydondan ochilmaydi. Eski markaz qisqa o‘tishlardan yigʻiladi: soyali savdo gumbazi, o‘yma eshik, Labi Hovuz yonidagi choy, keyin ko‘chalar ustida ko‘tarilgan Kalon minorasi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "bukhara-region"
+"latitude": 39.7759835
+"longitude": 64.415153

@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "gelon-hisorak-road-and-border-edge"
+  "ru": "gelon-hisorak-road-and-border-edge"
+  "uz": "gelon-hisorak-road-and-border-edge"
+"title":
+  "en": "Hisorak Road Toward G‘elon"
+  "ru": "Дорога через Хисорак к Гелону"
+  "uz": "Hisorak orqali G‘elonga yo‘l"
+"subtitle":
+  "en": "The climb that turns Shakhrisabz into a mountain route"
+  "ru": "Подъём, который превращает Шахрисабз в горный маршрут"
+  "uz": "Shahrisabz yo‘lini tog‘ yo‘nalishiga aylantiradigan ko‘tarilish"
+"excerpt":
+  "en": "The approach is not background. It is the threshold where the Shakhrisabz route leaves heritage monuments and rises toward high village life."
+  "ru": "Подъезд здесь не фон. Это порог, где маршрут из Шахрисабза оставляет памятники наследия и поднимается к жизни высокогорного села."
+  "uz": "Bu yerda yondashuv fon emas. U Shahrisabz yo‘li meros yodgorliklaridan chiqib, baland tog‘ qishlog‘i hayotiga ko‘tariladigan ostona."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Hisorak Road Toward G‘elon"
+      "ru": "Дорога через Хисорак к Гелону"
+      "uz": "Hisorak orqali G‘elonga yo‘l"
+    "title":
+      "en": "Hisorak Road Toward G‘elon"
+      "ru": "Дорога через Хисорак к Гелону"
+      "uz": "Hisorak orqali G‘elonga yo‘l"
+    "description":
+      "en": "The climb that turns Shakhrisabz into a mountain route"
+      "ru": "Подъём, который превращает Шахрисабз в горный маршрут"
+      "uz": "Shahrisabz yo‘lini tog‘ yo‘nalishiga aylantiradigan ko‘tarilish"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Hisorak Road Toward G‘elon"
+      "ru": "Дорога через Хисорак к Гелону"
+      "uz": "Hisorak orqali G‘elonga yo‘l"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "The approach is not background."
+              "ru": "Подъезд здесь не фон."
+              "uz": "Bu yerda yondashuv fon emas."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "The climb is part of the destination, because it changes the route’s scale before the village begins."
+              "ru": "Подъём становится частью места, потому что меняет масштаб маршрута до начала села."
+              "uz": "Ko‘tarilish joyning bir qismiga aylanadi, chunki qishloqdan oldin ham yo‘l miqyosini o‘zgartiradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — The climb that turns Shakhrisabz into a mountain route."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Подъём, который превращает Шахрисабз в горный маршрут."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Shahrisabz yo‘lini tog‘ yo‘nalishiga aylantiradigan ko‘tarilish."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Hisorak Road Toward G‘elon as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Дорога через Хисорак к Гелону как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Hisorak orqali G‘elonga yo‘l o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Hisorak Road Toward G‘elon sits on the route"
+      "ru": "Где Дорога через Хисорак к Гелону стоит на маршруте"
+      "uz": "Hisorak orqali G‘elonga yo‘l marshrutda qayerda"
+    "description":
+      "en": "One clear point for Hisorak Road Toward G‘elon — The climb that turns Shakhrisabz into a mountain route."
+      "ru": "Одна понятная точка для «Дорога через Хисорак к Гелону» — Подъём, который превращает Шахрисабз в горный маршрут."
+      "uz": "Hisorak orqali G‘elonga yo‘l uchun bitta aniq nuqta — Shahrisabz yo‘lini tog‘ yo‘nalishiga aylantiradigan ko‘tarilish."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Hisorak Road Toward G‘elon"
+        "ru": "Дорога через Хисорак к Гелону"
+        "uz": "Hisorak orqali G‘elonga yo‘l"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.0133525
+      "longitude": 67.2715232
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "gelon-hisorak-road-and-border-edge"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "The road that makes G‘elon more than a detour"
+      "ru": "Дорога, которая делает Гелон не просто крюком"
+      "uz": "G‘elonni shunchaki aylanma emas qiladigan yo‘l"
+    "description":
+      "en": "The climb is part of the destination, because it changes the route’s scale before the village begins.
+
+
+        «G‘elon begins on the road before it appears as a village.»"
+      "ru": "Подъём становится частью места, потому что меняет масштаб маршрута до начала села.
+
+
+        «Гелон начинается на дороге ещё до того, как появляется как село.»"
+      "uz": "Ko‘tarilish joyning bir qismiga aylanadi, chunki qishloqdan oldin ham yo‘l miqyosini o‘zgartiradi.
+
+
+        «G‘elon qishloq bo‘lib ko‘rinishidan oldin yo‘lda boshlanadi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Reservoir air, bends, and mountain arrival"
+      "ru": "Воздух водохранилища, повороты и горный въезд"
+      "uz": "Suv havzasi havosi, burilishlar va tog‘ kirishi"
+    "description":
+      "en": "Notice the road as a sequence of water, bends, light, and arrival, not as empty distance."
+      "ru": "Воспринимайте дорогу как последовательность воды, поворотов, света и прибытия, а не как пустое расстояние."
+      "uz": "Yo‘lni bo‘sh masofa emas, suv, burilish, nur va kelish ketma-ketligi sifatida sezing."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Let the climb stay part of the visit"
+      "ru": "Оставьте подъём частью визита"
+      "uz": "Ko‘tarilish tashrifning bir qismi bo‘lib qolsin"
+    "description":
+      "en": "Let light, bends, and mountain air turn the road into part of the visit instead of treating it as dead time."
+      "ru": "Свет, повороты и горный воздух делают дорогу частью визита, а не пустым временем."
+      "uz": "Nur, burilishlar va tog‘ havosi yo‘lni bo‘sh vaqt emas, tashrifning bir qismiga aylantiradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Around G‘elon"
+      "ru": "Вокруг Гелона"
+      "uz": "G‘elon atrofida"
+    "title":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qo‘shish"
+    "description":
+      "en": "Add another side of G‘elon when the route has enough quiet for a second small stop."
+      "ru": "Добавьте соседнюю сторону Гелона, когда маршрут остаётся спокойным и позволяет вторую небольшую остановку."
+      "uz": "Yo‘l sokin qolib, ikkinchi kichik bekatga vaqt bersa, G‘elonning boshqa tomonini qo‘shing."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "G‘elon High Mountain Village Setting"
+          "ru": "Высокогорная среда Гелона"
+          "uz": "G‘elon baland tog‘ muhiti"
+        "description":
+          "en": "G‘elon’s mountain setting gives the village its first feeling: the climb, open slopes, orchards, pakhsa lanes, and long views above Hisorak."
+          "ru": "Высокогорная среда Гелона даёт первое ощущение места: подъём, открытые склоны, сады, пахсовые улицы и дальние виды над Хисораком."
+          "uz": "G‘elonning baland tog‘ muhiti joyning birinchi hissini beradi: ko‘tarilish, ochiq yonbag‘irlar, bog‘lar, paxsa ko‘chalar va Hisorak ustidagi uzoq manzaralar."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/gelon/gelon-high-mountain-village-setting"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "G‘elon Orchards, Crafts, and Family Stays"
+          "ru": "Сады, ремёсла и семейное размещение Гелона"
+          "uz": "G‘elon bog‘lari, hunari va oilaviy tunashlari"
+        "description":
+          "en": "G‘elon’s orchards, craft rooms, old mill, tea, and seasonal family stays give the high village its human voice."
+          "ru": "Сады, ремесленные комнаты, старая мельница, чай и сезонное размещение в семьях дают высокогорному селу человеческий голос."
+          "uz": "G‘elon bog‘lari, hunar xonalari, eski tegirmon, choy va mavsumiy oilaviy tunashlar baland tog‘ qishlog‘iga insoniy ovoz beradi."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/gelon/gelon-orchards-crafts-and-homestay-setting"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Hisorak Road Toward G‘elon"
+      "ru": "Что агентства спрашивают про Дорога через Хисорак к Гелону"
+      "uz": "Agentliklar Hisorak orqali G‘elonga yo‘l haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Hisorak Road Toward G‘elon get in the day plan?"
+          "ru": "Сколько времени закладывать на Дорога через Хисорак к Гелону в плане дня?"
+          "uz": "Hisorak orqali G‘elonga yo‘l uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "45–90 minutes is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “The climb that turns Shakhrisabz into a mountain route”."
+          "ru": "Для большинства групп реалистичный диапазон — 45–90 минут. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Подъём, который превращает Шахрисабз в горный маршрут»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 45–90 daqiqa. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Shahrisabz yo‘lini tog‘ yo‘nalishiga aylantiradigan ko‘tarilish»."
+      - "type": "destinationInsight"
+        "icon": "Sunrise"
+        "title":
+          "en": "When is Hisorak Road Toward G‘elon strongest during the day?"
+          "ru": "В какое время дня Дорога через Хисорак к Гелону раскрывается сильнее?"
+          "uz": "Hisorak orqali G‘elonga yo‘l kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer before the midday heat. That usually improves comfort, photos, and how the stop feels in the sequence around gelon."
+          "ru": "Лучше до полуденной жары. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с gelon."
+          "uz": "tushlik issiqligidan oldin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (gelon atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How should Hisorak Road Toward G‘elon sit next to nearby stops?"
+          "ru": "Как поставить Дорога через Хисорак к Гелону рядом с соседними остановками?"
+          "uz": "Hisorak orqali G‘elonga yo‘lni yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Hisorak Road Toward G‘elon to your Uzbekistan programme"
+      "ru": "Добавьте «Дорога через Хисорак к Гелону» в программу (Узбекистан)"
+      "uz": "Hisorak orqali G‘elonga yo‘lni Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Hisorak Road Toward G‘elon | TourLink"
+    "ru": "Дорога через Хисорак к Гелону | TourLink"
+    "uz": "Hisorak orqali G‘elonga yo‘l | TourLink"
+  "metaDescription":
+    "en": "The approach is not background. It is the threshold where the Shakhrisabz route leaves heritage monuments and rises toward high village life."
+    "ru": "Подъезд здесь не фон. Это порог, где маршрут из Шахрисабза оставляет памятники наследия и поднимается к жизни высокогорного села."
+    "uz": "Bu yerda yondashuv fon emas. U Shahrisabz yo‘li meros yodgorliklaridan chiqib, baland tog‘ qishlog‘i hayotiga ko‘tariladigan ostona."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "kashkadarya-and-shakhrisabz"
+"city": "gelon"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 39.0133525
+"longitude": 67.2715232

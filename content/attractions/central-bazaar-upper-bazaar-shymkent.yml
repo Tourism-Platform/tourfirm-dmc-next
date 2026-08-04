@@ -1,0 +1,301 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "central-bazaar-upper-bazaar-shymkent"
+  "ru": "central-bazaar-upper-bazaar-shymkent"
+  "uz": "central-bazaar-upper-bazaar-shymkent"
+"title":
+  "en": "Central Bazaar and Upper Bazaar"
+  "ru": "Центральный и Верхний базар"
+  "uz": "Markaziy va Yuqori bozor"
+"subtitle":
+  "en": "Bread counters, produce rows, and a city in motion"
+  "ru": "Хлебные ряды, продукты и город в движении"
+  "uz": "Non rastalari, mahsulotlar va harakatdagi shahar"
+"excerpt":
+  "en": "Central Bazaar and the Upper Bazaar area show Shymkent at street-market pace. After Shym Qala and the old-city area, the route can shift from citadel ground to bread counters, produce rows, bargaining voices, and people moving through the warm southern city."
+  "ru": "Центральный базар и район Верхнего базара показывают Шымкент в уличном рыночном ритме. После Шым Қала и старого города маршрут может перейти от цитадели к хлебным рядам, продуктам, голосам торга и людям, которые идут по делам в тёплом южном городе."
+  "uz": "Markaziy bozor va Yuqori bozor hududi Chimkentni ko‘cha-bozor ritmida ko‘rsatadi. Shym Qala va eski shahar hududidan keyin yoʻl qalʼa izlaridan non rastalari, mahsulotlar, savdo ovozlari va iliq janubiy shaharda ish bilan yurgan odamlar harakatiga oʻtadi."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "Central Bazaar and Upper Bazaar"
+      "ru": "Центральный и Верхний базар"
+      "uz": "Markaziy va Yuqori bozor"
+    "title":
+      "en": "Central Bazaar and Upper Bazaar"
+      "ru": "Центральный и Верхний базар"
+      "uz": "Markaziy va Yuqori bozor"
+    "description":
+      "en": "Bread counters, produce rows, and a city in motion"
+      "ru": "Хлебные ряды, продукты и город в движении"
+      "uz": "Non rastalari, mahsulotlar va harakatdagi shahar"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Central Bazaar and Upper Bazaar"
+      "ru": "Центральный и Верхний базар"
+      "uz": "Markaziy va Yuqori bozor"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Central Bazaar and the Upper Bazaar area show Shymkent at street-market pace."
+              "ru": "Центральный базар и район Верхнего базара показывают Шымкент в уличном рыночном ритме."
+              "uz": "Markaziy bozor va Yuqori bozor hududi Chimkentni ko‘cha-bozor ritmida ko‘rsatadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "The bazaar's value is not a single landmark."
+              "ru": "Ценность базара не в одном ориентире."
+              "uz": "Bozorning qadri bitta belgida emas."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Bread counters, produce rows, and a city in motion."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Хлебные ряды, продукты и город в движении."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Non rastalari, mahsulotlar va harakatdagi shahar."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Central Bazaar and Upper Bazaar as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Центральный и Верхний базар как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Markaziy va Yuqori bozor o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Central Bazaar and Upper Bazaar sits on the route"
+      "ru": "Где Центральный и Верхний базар стоит на маршруте"
+      "uz": "Markaziy va Yuqori bozor marshrutda qayerda"
+    "description":
+      "en": "One clear point for Central Bazaar and Upper Bazaar — Bread counters, produce rows, and a city in motion."
+      "ru": "Одна понятная точка для «Центральный и Верхний базар» — Хлебные ряды, продукты и город в движении."
+      "uz": "Markaziy va Yuqori bozor uchun bitta aniq nuqta — Non rastalari, mahsulotlar va harakatdagi shahar."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Central Bazaar and Upper Bazaar"
+        "ru": "Центральный и Верхний базар"
+        "uz": "Markaziy va Yuqori bozor"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 42.309874
+      "longitude": 69.6045367
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "central-bazaar-upper-bazaar-shymkent"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Where Shymkent becomes a lived city stop"
+      "ru": "Где Шымкент становится живой городской остановкой"
+      "uz": "Chimkent jonli shahar bekatiga aylanadigan joy"
+    "description":
+      "en": "The bazaar's value is not a single landmark. It is the everyday movement around bread, produce, small purchases, and quick greetings."
+      "ru": "Ценность базара не в одном ориентире. Она в движении вокруг лепёшек, продуктов, небольших покупок и коротких приветствий."
+      "uz": "Bozorning qadri bitta belgida emas. U non, mahsulot, kichik xaridlar va qisqa salom-alik atrofidagi kundalik harakatda."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "Produce, bread, city movement"
+      "ru": "Продукты, хлеб, движение города"
+      "uz": "Mahsulot, non, shahar harakati"
+    "description":
+      "en": "The gallery should stay close to what the visit actually offers: market rows, food counters, and people moving through daily errands."
+      "ru": "Галерея должна оставаться рядом с тем, что действительно даёт визит: рыночные ряды, еда и люди, занятые обычными делами."
+      "uz": "Galereya tashrifning haqiqiy mazmuniga yaqin turishi kerak: bozor rastalari, taom peshtaxtalari va kundalik ish bilan yurgan odamlar."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday koʻrish"
+    "title":
+      "en": "A focused market stop"
+      "ru": "Сфокусированный визит на базар"
+      "uz": "Aniq bozor tashrifi"
+    "description":
+      "en": "Keep the visit simple and respectful: follow the food rows, ask before close portraits, and choose timing that keeps heat and street crossings manageable."
+      "ru": "Держите визит простым и уважительным: пройдите вдоль рядов с едой, спрашивайте перед близкими портретами и выбирайте время, когда жара и переходы не мешают."
+      "uz": "Tashrifni sodda va hurmatli tuting: taom rastalarini kuzating, yaqin portretlardan oldin so‘rang va issiq hamda ko‘cha o‘tishlari qulay bo‘ladigan vaqtni tanlang."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qoʻshish"
+    "title":
+      "en": "Shym Qala before the market"
+      "ru": "Шым Қала перед рынком"
+      "uz": "Bozordan oldin Shym Qala"
+    "description":
+      "en": "Shym Qala and the old citadel area give the stop its historical start; Central and Upper Bazaar then brings in food rows, voices, and present-day Shymkent."
+      "ru": "Шым Қала и район старой цитадели дают остановке историческое начало; Центральный и Верхний базар добавляют ряды с едой, голоса и сегодняшний Шымкент."
+      "uz": "Shym Qala va eski qalʼa hududi to‘xtashga tarixiy boshlanish beradi; Markaziy va Yuqori bozor esa taom rastalari, ovozlar va bugungi Chimkentni qoʻshadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Shymkent Old City and Shym Qala"
+          "ru": "Старый город Шымкента и Шым Қала"
+          "uz": "Chimkent eski shahri va Shym Qala"
+        "description":
+          "en": "Shym Qala gives Shymkent a 2,200-year city story through the old citadel, shahristan, and rabad before Central Bazaar or the road toward Turkistan, Sayram, Otrar, and the foothills."
+          "ru": "Шым Қала и старый район цитадели показывают Шымкент как город с 2200-летней историей перед Центральным базаром или дорогой к Туркестану, Сайраму, Отрару и предгорьям."
+          "uz": "Shym Qala va eski qalʼa hududi Chimkentni 2200 yillik shahar tarixi bilan ko‘rsatadi, keyin yoʻl Markaziy bozor, Turkiston, Sayram, Oʻtror yoki togʻoldilarga davom etadi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/shymkent/shymkent-old-city-citadel-area"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Central Bazaar and Upper Bazaar"
+      "ru": "Что агентства спрашивают про Центральный и Верхний базар"
+      "uz": "Agentliklar Markaziy va Yuqori bozor haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Central Bazaar and Upper Bazaar get in the day plan?"
+          "ru": "Сколько времени закладывать на Центральный и Верхний базар в плане дня?"
+          "uz": "Markaziy va Yuqori bozor uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "1–2 hours is a practical range for most groups. Keep the stop readable: one clear arrival, one clear exit. Place tone: “Bread counters, produce rows, and a city in motion”."
+          "ru": "Для большинства групп реалистичный диапазон — 1–2 часа. Держите остановку читаемой: понятный вход и понятный выход. Характер места: «Хлебные ряды, продукты и город в движении»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 1–2 soat. Bekatni o‘qiladigan tuting: aniq kirish va aniq chiqish. Joy ohangi: «Non rastalari, mahsulotlar va harakatdagi shahar»."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "When is Central Bazaar and Upper Bazaar strongest during the day?"
+          "ru": "В какое время дня Центральный и Верхний базар раскрывается сильнее?"
+          "uz": "Markaziy va Yuqori bozor kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer when the light is soft and queues are lighter. That usually improves comfort, photos, and how the stop feels in the sequence around shymkent."
+          "ru": "Лучше когда свет мягче и очередей меньше. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с shymkent."
+          "uz": "yorug‘lik yumshoq va navbat kamroq bo‘lganda afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (shymkent atrofida)."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "How should Central Bazaar and Upper Bazaar sit next to nearby stops?"
+          "ru": "Как поставить Центральный и Верхний базар рядом с соседними остановками?"
+          "uz": "Markaziy va Yuqori bozorni yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Central Bazaar and Upper Bazaar to your Kazakhstan programme"
+      "ru": "Добавьте «Центральный и Верхний базар» в программу (Казахстан)"
+      "uz": "Markaziy va Yuqori bozorni Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Central Bazaar and Upper Bazaar | TourLink"
+    "ru": "Центральный и Верхний базар | TourLink"
+    "uz": "Markaziy va Yuqori bozor | TourLink"
+  "metaDescription":
+    "en": "Central Bazaar and the Upper Bazaar area show Shymkent at street-market pace. After Shym Qala and the old-city area, the route can shift from citadel ground to bread counters, produce rows, bargaining voices, and people moving through the warm southern city."
+    "ru": "Центральный базар и район Верхнего базара показывают Шымкент в уличном рыночном ритме. После Шым Қала и старого города маршрут может перейти от цитадели к хлебным рядам, продуктам, голосам торга и людям, которые идут по делам в тёплом южном городе."
+    "uz": "Markaziy bozor va Yuqori bozor hududi Chimkentni ko‘cha-bozor ritmida ko‘rsatadi. Shym Qala va eski shahar hududidan keyin yoʻl qalʼa izlaridan non rastalari, mahsulotlar, savdo ovozlari va iliq janubiy shaharda ish bilan yurgan odamlar harakatiga oʻtadi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "turkistan-shymkent-and-southern-silk-road"
+"city": "shymkent"
+"type": "BAZAAR"
+"importance": "RECOMMENDED"
+"latitude": 42.309874
+"longitude": 69.6045367

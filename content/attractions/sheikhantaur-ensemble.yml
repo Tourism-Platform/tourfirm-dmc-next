@@ -1,0 +1,367 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "sheikhantaur-ensemble"
+  "ru": "sheikhantaur-ensemble"
+  "uz": "sheikhantaur-ensemble"
+"title":
+  "en": "Sheikhantaur Ensemble"
+  "ru": "Ансамбль Шейхантаур"
+  "uz": "Shayxontohur ansambli"
+"subtitle":
+  "en": "A quiet mausoleum ensemble in central Tashkent"
+  "ru": "Тихий ансамбль мавзолеев в центре Ташкента"
+  "uz": "Toshkent markazidagi sokin maqbaralar ansambli"
+"excerpt":
+  "en": "Sheikhantaur is easy to miss if you read Tashkent only through traffic, markets and landmark squares. Behind the surrounding city streets, three preserved mausoleums remember Sheikh Hovendi at-Tahur, Kaldyrgach-biy and Yunus Khan, adding a quiet old-city pause after Chorsu, Kukeldash and Khast Imam."
+  "ru": "Шейхантаур легко пропустить, если смотреть на Ташкент только через движение, базары и главные площади. Среди городских улиц три сохранившихся мавзолея хранят память о шейхе Ховенди ат-Тахуре, Калдыргач-бие и Юнус-хане, добавляя тихую паузу старого города после Чорсу, Кукельдаша и Хаст-Имама."
+  "uz": "Agar Toshkentni faqat harakat, bozorlar va katta maydonlar orqali ko‘rsangiz, Shayxontohur ko‘zdan qochishi mumkin. Shahar ko‘chalari orasida uchta saqlangan maqbara Shayx Xovandi Tohur, Qaldirg‘ochbiy va Yunusxon xotirasini tutib turadi; Chorsu, Ko‘kaldosh va Hazrati Imomdan keyin poytaxtga sokin eski shahar to‘xtamini qo‘shadi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/sheikhantaur-ensemble.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/sheikhantaur-ensemble.webp"
+    "imageAlt":
+      "en": "Sheikhantaur Ensemble"
+      "ru": "Ансамбль Шейхантаур"
+      "uz": "Shayxontohur ansambli"
+    "title":
+      "en": "Sheikhantaur Ensemble"
+      "ru": "Ансамбль Шейхантаур"
+      "uz": "Shayxontohur ansambli"
+    "description":
+      "en": "A quiet mausoleum ensemble in central Tashkent"
+      "ru": "Тихий ансамбль мавзолеев в центре Ташкента"
+      "uz": "Toshkent markazidagi sokin maqbaralar ansambli"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Sheikhantaur Ensemble"
+      "ru": "Ансамбль Шейхантаур"
+      "uz": "Shayxontohur ansambli"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Sheikhantaur is easy to miss if you read Tashkent only through traffic, markets and landmark squares."
+              "ru": "Шейхантаур легко пропустить, если смотреть на Ташкент только через движение, базары и главные площади."
+              "uz": "Agar Toshkentni faqat harakat, bozorlar va katta maydonlar orqali ko‘rsangiz, Shayxontohur ko‘zdan qochishi mumkin."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Tashkent often introduces itself through movement: arrival roads, metro stations, Chorsu, broad avenues and museum rooms."
+              "ru": "Ташкент часто начинается с движения: дорога из аэропорта, метро, Чорсу, широкие проспекты и музейные залы."
+              "uz": "Toshkent ko‘pincha harakat bilan boshlanadi: aeroport yo‘li, metro bekatlari, Chorsu, keng shohko‘chalar va muzey zallari."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — A quiet mausoleum ensemble in central Tashkent."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Тихий ансамбль мавзолеев в центре Ташкента."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Toshkent markazidagi sokin maqbaralar ansambli."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Sheikhantaur Ensemble as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Ансамбль Шейхантаур как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Shayxontohur ansambli o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Sheikhantaur Ensemble sits on the route"
+      "ru": "Где Ансамбль Шейхантаур стоит на маршруте"
+      "uz": "Shayxontohur ansambli marshrutda qayerda"
+    "description":
+      "en": "One clear point for Sheikhantaur Ensemble — A quiet mausoleum ensemble in central Tashkent."
+      "ru": "Одна понятная точка для «Ансамбль Шейхантаур» — Тихий ансамбль мавзолеев в центре Ташкента."
+      "uz": "Shayxontohur ansambli uchun bitta aniq nuqta — Toshkent markazidagi sokin maqbaralar ansambli."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Sheikhantaur Ensemble"
+        "ru": "Ансамбль Шейхантаур"
+        "uz": "Shayxontohur ansambli"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.3123363
+      "longitude": 69.2787079
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "sheikhantaur-ensemble"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "A quieter memory inside old Tashkent"
+      "ru": "Тихая память внутри старого Ташкента"
+      "uz": "Eski Toshkent ichidagi sokin xotira"
+    "description":
+      "en": "Tashkent often introduces itself through movement: arrival roads, metro stations, Chorsu, broad avenues and museum rooms. Sheikhantaur slows that rhythm. The ensemble is small beside the scale of the capital, but it carries a long city memory: Sufi teaching, local rulers, restored mausoleums and courtyard time that helps old Tashkent feel lived, not listed.
+
+
+        «At Sheikhantaur, Tashkent lowers its voice: three mausoleums, shade, memory and a visit that rewards patience.»"
+      "ru": "Ташкент часто начинается с движения: дорога из аэропорта, метро, Чорсу, широкие проспекты и музейные залы. Шейхантаур замедляет этот ритм. Ансамбль невелик по сравнению с масштабом столицы, но в нём держится долгая городская память: суфийское учение, местные правители, восстановленные мавзолеи и двор, где старый Ташкент ощущается живым, а не перечисленным.
+
+
+        «Шейхантаур - место, где Ташкент говорит тише: три мавзолея, тень, память и маршрут, которому нужно терпение.»"
+      "uz": "Toshkent ko‘pincha harakat bilan boshlanadi: aeroport yo‘li, metro bekatlari, Chorsu, keng shohko‘chalar va muzey zallari. Shayxontohur bu ritmni sekinlashtiradi. Ansambl poytaxt miqyosida kichik, lekin unda shaharning uzoq xotirasi bor: so‘fiylik taʼlimi, mahalliy hukmdorlar, tiklangan maqbaralar va eski Toshkentni ro‘yxat emas, tirik joy sifatida his qildiradigan sokin hovli va yo‘laklar.
+
+
+        «Shayxontohurda Toshkent sokinlashadi: uch maqbara, soya, xotira va sabr talab qiladigan yo‘l.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Mausoleums, shade and old-city quiet"
+      "ru": "Мавзолеи, тень и тишина старого города"
+      "uz": "Maqbaralar, soya va eski shahar sokinligi"
+    "description":
+      "en": "Read the ensemble slowly: first the three mausoleums, then Kaldyrgach-biy's unusual dome, then the paths and shaded memorial space that soften the city around it."
+      "ru": "Смотрите ансамбль постепенно: сначала три мавзолея, затем необычный купол Калдыргач-бия, потом дорожки и тень мемориального пространства, которые смягчают город вокруг."
+      "uz": "Ansamblni asta ko‘ring: avval uch maqbara, keyin Qaldirg‘ochbiyning noodatiy gumbazi, so‘ng shahar shovqinini yumshatadigan yo‘laklar va soyali xotira muhiti."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Keep the stop slow and respectful"
+      "ru": "Держите спокойный и уважительный темп"
+      "uz": "Tashrifni sokin va ehtiromli tuting"
+    "description":
+      "en": "Sheikhantaur is a memorial and religious setting, so the visit should feel quieter than a museum stop. Check current access, interior openings and local use before building the route around the ensemble."
+      "ru": "Шейхантаур - мемориальное и религиозное место, поэтому визит здесь должен быть тише музейной остановки. Актуальный доступ, открытые интерьеры и местное использование лучше проверять перед приездом."
+      "uz": "Shayxontohur xotira va diniy muhitdir, shuning uchun tashrif muzey to‘xtamidan sokinroq bo‘lishi kerak. Joriy kirish, ochiq ichki joylar va mahalliy foydalanish kelishdan oldin tekshirilgani maʼqul."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add with Sheikhantaur"
+      "ru": "Что добавить к Шейхантауру"
+      "uz": "Shayxontohur bilan nima qo‘shish"
+    "title":
+      "en": "Keep old Tashkent in one route"
+      "ru": "Старый Ташкент в одном маршруте"
+      "uz": "Eski Toshkentni bitta yo‘lda ko‘ring"
+    "description":
+      "en": "Pair the ensemble with nearby old-city anchors: Khast Imam for the larger religious complex, Kukeldash for madrasah scale, Chorsu for market life and the metro for the wider capital route."
+      "ru": "Рядом с ансамблем удобно смотреть Хаст-Имам как большой религиозный комплекс, Кукельдаш как масштаб медресе, Чорсу как живой рынок, а метро как продолжение к современной столице."
+      "uz": "Ansambl yaqin eski shahar joylari bilan yonma-yon yaxshi ochiladi: Hazrati Imom katta diniy majmuani, Ko‘kaldosh madrasa ko‘lamini, Chorsu bozor hayotini, metro esa poytaxtning kengroq yo‘lini beradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/sheikhantaur-ensemble-next-khast-imam-complex.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Khast Imam Complex"
+          "ru": "Комплекс Хазрати Имам"
+          "uz": "Hazrati Imom majmuasi"
+        "description":
+          "en": "An old-city religious ensemble with courtyards, madrasahs, the Muyi Muborak Library, and the Uthman Quran story."
+          "ru": "Религиозный ансамбль старого Ташкента: дворы, медресе, библиотека Муйи Муборак и история Корана Усмана."
+          "uz": "Eski Toshkentdagi diniy majmua: hovlilar, madrasalar, Moʻyi Muborak kutubxonasi va Usmon Qurʼoni hikoyasi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/khast-imam-complex"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/sheikhantaur-ensemble-next-chorsu-bazaar.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Chorsu Bazaar"
+          "ru": "Базар Чорсу"
+          "uz": "Chorsu bozori"
+        "description":
+          "en": "Chorsu is Tashkent's market morning in full motion: a turquoise dome, bread steam, dairy counters, dried fruit, spices, hot food, and an old-city walk toward Kukeldash and Khast Imam."
+          "ru": "Чорсу — рыночное утро Ташкента в движении: бирюзовый купол, пар от лепёшек, молочные ряды, сухофрукты, специи, горячая еда и прогулка по старому городу к Кукельдашу и Хазрати Имам."
+          "uz": "Chorsu — Toshkentning harakatdagi bozor tongi: feruza gumbaz, non isi, sut mahsulotlari rastalari, quruq mevalar, ziravorlar, issiq taomlar va Ko‘kaldosh hamda Hazrati Imom tomonga eski shahar sayri."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/chorsu-bazaar"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/sheikhantaur-ensemble-next-kukeldash-madrasah.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Kukeldash Madrasah"
+          "ru": "Медресе Кукельдаш"
+          "uz": "Ko‘kaldosh madrasasi"
+        "description":
+          "en": "Kukeldash Madrasah anchors the walk beside Chorsu with a 16th-century portal, a quiet courtyard, tiled detail, and a functioning religious setting to approach with care."
+          "ru": "Медресе Кукельдаш добавляет прогулке у Чорсу архитектурную паузу: портал XVI века, внутренний двор, керамические детали и действующая религиозная среда, где важны спокойный темп и проверка доступа."
+          "uz": "Ko‘kaldosh madrasasi Chorsu yonidagi sayrga sokin meʼmoriy pauza beradi: XVI asr peshtoqi, hovli, koshin detallari va ehtiyot bilan kiriladigan faol diniy muhit."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/kukeldash-madrasah"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/sheikhantaur-ensemble-next-tashkent-metro.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Tashkent Metro"
+          "ru": "Ташкентское метро"
+          "uz": "Toshkent metrosi"
+        "description":
+          "en": "Tashkent Metro turns a cross-city ride into architecture: Kosmonavtlar, blue halls, marble, chandeliers, mosaics, and the daily movement of the capital."
+          "ru": "Ташкентское метро превращает городской переезд в архитектурный фрагмент: Космонавтлар, синие залы, мрамор, люстры, мозаики и обычное движение столицы."
+          "uz": "Toshkent metrosi shahar ichidagi yo‘lni meʼmoriy lavhaga aylantiradi: Kosmonavtlar, ko‘k zallar, marmar, qandillar, mozaikalar va poytaxtning kundalik harakati."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/tashkent-metro"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Sheikhantaur Ensemble"
+      "ru": "Что агентства спрашивают про Ансамбль Шейхантаур"
+      "uz": "Agentliklar Shayxontohur ansambli haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Sheikhantaur Ensemble get in the day plan?"
+          "ru": "Сколько времени закладывать на Ансамбль Шейхантаур в плане дня?"
+          "uz": "Shayxontohur ansambli uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "45–90 minutes is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “A quiet mausoleum ensemble in central Tashkent”."
+          "ru": "Для большинства групп реалистичный диапазон — 45–90 минут. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Тихий ансамбль мавзолеев в центре Ташкента»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 45–90 daqiqa. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Toshkent markazidagi sokin maqbaralar ansambli»."
+      - "type": "destinationInsight"
+        "icon": "Sunrise"
+        "title":
+          "en": "When is Sheikhantaur Ensemble strongest during the day?"
+          "ru": "В какое время дня Ансамбль Шейхантаур раскрывается сильнее?"
+          "uz": "Shayxontohur ansambli kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer before the midday heat. That usually improves comfort, photos, and how the stop feels in the sequence around tashkent."
+          "ru": "Лучше до полуденной жары. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с tashkent."
+          "uz": "tushlik issiqligidan oldin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (tashkent atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How should Sheikhantaur Ensemble sit next to nearby stops?"
+          "ru": "Как поставить Ансамбль Шейхантаур рядом с соседними остановками?"
+          "uz": "Shayxontohur ansamblini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/sheikhantaur-ensemble.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Sheikhantaur Ensemble to your Uzbekistan programme"
+      "ru": "Добавьте «Ансамбль Шейхантаур» в программу (Узбекистан)"
+      "uz": "Shayxontohur ansamblini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Sheikhantaur Ensemble | TourLink"
+    "ru": "Ансамбль Шейхантаур | TourLink"
+    "uz": "Shayxontohur ansambli | TourLink"
+  "metaDescription":
+    "en": "Sheikhantaur is easy to miss if you read Tashkent only through traffic, markets and landmark squares. Behind the surrounding city streets, three preserved mausoleums remember Sheikh Hovendi at-Tahur, Kaldyrgach-biy and Yunus Khan, adding a quiet old-city pause after Chorsu, Kukeldash and Khast Imam."
+    "ru": "Шейхантаур легко пропустить, если смотреть на Ташкент только через движение, базары и главные площади. Среди городских улиц три сохранившихся мавзолея хранят память о шейхе Ховенди ат-Тахуре, Калдыргач-бие и Юнус-хане, добавляя тихую паузу старого города после Чорсу, Кукельдаша и Хаст-Имама."
+    "uz": "Agar Toshkentni faqat harakat, bozorlar va katta maydonlar orqali ko‘rsangiz, Shayxontohur ko‘zdan qochishi mumkin. Shahar ko‘chalari orasida uchta saqlangan maqbara Shayx Xovandi Tohur, Qaldirg‘ochbiy va Yunusxon xotirasini tutib turadi; Chorsu, Ko‘kaldosh va Hazrati Imomdan keyin poytaxtga sokin eski shahar to‘xtamini qo‘shadi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "tashkent-region"
+"city": "tashkent"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 41.3123363
+"longitude": 69.2787079

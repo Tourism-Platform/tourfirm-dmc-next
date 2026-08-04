@@ -1,8 +1,14 @@
+import { convertLexicalToHTML } from "@payloadcms/richtext-lexical/html";
 import { convertLexicalToPlaintext } from "@payloadcms/richtext-lexical/plaintext";
 import "server-only";
 
 import { resolveMediaUrl } from "@/shared/lib/media/resolve-media-url";
-import { BlockType, type TBlockRenderProps } from "@/shared/ui/blocks";
+import {
+	BlockType,
+	type TBlockRenderProps,
+	type TColumnRatio,
+	type TContentRow
+} from "@/shared/ui/blocks";
 import {
 	ActionType,
 	type TButtonRenderProps
@@ -26,6 +32,8 @@ type TCmsAction = NonNullable<
 	Extract<TCmsPageBlock, { blockType: "hero" }>["actions"]
 >[number];
 
+type TCmsRegularBlock = Extract<TCmsPageBlock, { blockType: "regular" }>;
+
 const ROUTE_MAP_TILE_URL =
 	"https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png";
 
@@ -46,6 +54,21 @@ function richTextToPlain(value: unknown): string | undefined {
 	});
 }
 
+function richTextToHtml(value: unknown): string | undefined {
+	if (!value) {
+		return undefined;
+	}
+
+	if (typeof value === "string") {
+		return value;
+	}
+
+	return convertLexicalToHTML({
+		data: value as Parameters<typeof convertLexicalToHTML>[0]["data"],
+		disableContainer: true
+	});
+}
+
 function mapCmsAction(action: TCmsAction): TButtonRenderProps {
 	if (action.type === "mailto") {
 		return {
@@ -53,6 +76,16 @@ function mapCmsAction(action: TCmsAction): TButtonRenderProps {
 			item: {
 				title: action.title,
 				email: action.email ?? undefined,
+				variant: action.variant ?? undefined
+			}
+		};
+	}
+
+	if (action.type === "form") {
+		return {
+			type: ActionType.form,
+			item: {
+				title: action.title,
 				variant: action.variant ?? undefined
 			}
 		};
@@ -100,6 +133,7 @@ function mapCmsCard(card: TEnrichedCmsCard, index: number): TCardRenderProps {
 			badge: staticCard.badge ?? undefined,
 			title: staticCard.title ?? undefined,
 			description: richTextToPlain(staticCard.description),
+			quoteHtml: richTextToHtml(staticCard.quote),
 			meta: staticCard.meta ?? undefined,
 			value: staticCard.value ?? undefined,
 			cities,
@@ -111,9 +145,29 @@ function mapCmsCard(card: TEnrichedCmsCard, index: number): TCardRenderProps {
 			participants: staticCard.participants ?? undefined,
 			step: staticCard.step ?? undefined,
 			icon: staticCard.icon ?? undefined,
-			className: staticCard.className ?? undefined
+			className: staticCard.className ?? undefined,
+			rows: staticCard.rows?.map((row) => ({
+				icon: row.icon ?? undefined,
+				title: row.title,
+				description: row.description ?? ""
+			}))
 		}
 	};
+}
+
+function mapCmsContentRows(
+	rows: NonNullable<TCmsRegularBlock["rows"]> | null | undefined
+): TContentRow[] | undefined {
+	if (!rows?.length) {
+		return undefined;
+	}
+
+	return rows.map((row, index) => ({
+		key: row.id ?? String(index),
+		ratio: (row.ratio as TColumnRatio | null | undefined) ?? undefined,
+		left: row.left?.map(mapCmsCard) ?? [],
+		right: row.right?.map(mapCmsCard) ?? []
+	}));
 }
 
 // routeMap requires populated stop.relation (depth >= 2 on document fetch).
@@ -199,17 +253,21 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 				cards: block.cards?.map(mapCmsCard) ?? []
 			};
 
-		case "regular":
+		case "regular": {
+			const regularBlock = block as TCmsRegularBlock;
+
 			return {
 				blockType: BlockType.regular,
-				eyebrow: block.eyebrow ?? undefined,
-				title: block.title,
-				description: richTextToPlain(block.description),
-				gridClassName: block.gridClassName ?? undefined,
-				actions: block.actions?.map(mapCmsAction),
-				cards: block.cards?.map(mapCmsCard) ?? [],
-				emptyLabel: block._emptyLabel
+				eyebrow: regularBlock.eyebrow ?? undefined,
+				title: regularBlock.title,
+				description: richTextToPlain(regularBlock.description),
+				gridClassName: regularBlock.gridClassName ?? undefined,
+				actions: regularBlock.actions?.map(mapCmsAction),
+				rows: mapCmsContentRows(regularBlock.rows),
+				cards: regularBlock.cards?.map(mapCmsCard) ?? [],
+				emptyLabel: regularBlock._emptyLabel
 			};
+		}
 
 		case "cta":
 			return {

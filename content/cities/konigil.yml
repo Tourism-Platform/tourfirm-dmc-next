@@ -1,0 +1,635 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "konigil"
+  "ru": "konigil"
+  "uz": "konigil"
+"title":
+  "en": "Konigil"
+  "ru": "Конигил"
+  "uz": "Konigil"
+"subtitle":
+  "en": "Handmade paper, Siab water, and a calm village pause near Samarkand"
+  "ru": "Бумага ручной работы, вода Сиаба и спокойная пауза рядом с Самаркандом"
+  "uz": "Samarqand yaqinidagi qo‘l qog‘ozi, Siyob suvi va sokin qishloq pauzasi"
+"excerpt":
+  "en": "Konigil sits just outside Samarkand, where the route can step from tiled monuments into handmade paper, Siab water, a wooden wheel, and a slower craft lane."
+  "ru": "Конигил расположен совсем рядом с Самаркандом: здесь маршрут выходит от мозаичных памятников к бумаге ручной работы, воде Сиаба, деревянному колесу и более тихой ремесленной улице."
+  "uz": "Konigil Samarqanddan uncha uzoq emas: bu yerda marshrut koshinli yodgorliklardan qo‘l qog‘ozi, Siyob suvi, yog‘och charx va sokinroq hunarmandchilik yo‘lagiga o‘tadi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/konigil.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/konigil.webp"
+    "imageAlt":
+      "en": "Konigil"
+      "ru": "Конигил"
+      "uz": "Konigil"
+    "title":
+      "en": "Konigil"
+      "ru": "Конигил"
+      "uz": "Konigil"
+    "description":
+      "en": "Handmade paper, Siab water, and a calm village pause near Samarkand"
+      "ru": "Бумага ручной работы, вода Сиаба и спокойная пауза рядом с Самаркандом"
+      "uz": "Samarqand yaqinidagi qo‘l qog‘ozi, Siyob suvi va sokin qishloq pauzasi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Konigil"
+      "ru": "Конигил"
+      "uz": "Konigil"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Konigil sits just outside Samarkand, where the route can step from tiled monuments into handmade paper, Siab water, a wooden wheel, and a slower craft lane."
+              "ru": "Конигил расположен совсем рядом с Самаркандом: здесь маршрут выходит от мозаичных памятников к бумаге ручной работы, воде Сиаба, деревянному колесу и более тихой ремесленной улице."
+              "uz": "Konigil Samarqanddan uncha uzoq emas: bu yerda marshrut koshinli yodgorliklardan qo‘l qog‘ozi, Siyob suvi, yog‘och charx va sokinroq hunarmandchilik yo‘lagiga o‘tadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "This map keeps the route simple: Samarkand first, Konigil for paper and Siab water, then either a return to the city or one nearby village continuation."
+              "ru": "Карта держит маршрут простым: сначала Самарканд, затем Конигил ради бумаги и воды Сиаба, потом возвращение в город или одно соседнее сельское продолжение."
+              "uz": "Xarita marshrutni sodda tutadi: avval Samarqand, keyin qog‘oz va Siyob suvi uchun Konigil, so‘ng shaharga qaytish yoki bitta yaqin qishloq davomi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The craft village belongs close to the city: Meros and the Siab-side lane should be enough before any nearby continuation is added."
+              "ru": "Ремесленное село живёт рядом с городом: Meros и улицы у Сиаба обычно достаточно до любого соседнего продолжения."
+              "uz": "Hunarmandchilik qishlog‘i shahar yonida qoladi: Meros va Siyob bo‘yidagi yo‘lak yaqin davom qo‘shilishidan oldin yetarli bo‘lishi kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Konigil as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Конигил как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Konigil o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Route map"
+      "ru": "Карта маршрута"
+      "uz": "Marshrut xaritasi"
+    "title":
+      "en": "Konigil beside Samarkand"
+      "ru": "Конигил рядом с Самаркандом"
+      "uz": "Konigil Samarqand yonida"
+    "description":
+      "en": "This map keeps the route simple: Samarkand first, Konigil for paper and Siab water, then either a return to the city or one nearby village continuation."
+      "ru": "Карта держит маршрут простым: сначала Самарканд, затем Конигил ради бумаги и воды Сиаба, потом возвращение в город или одно соседнее сельское продолжение."
+      "uz": "Xarita marshrutni sodda tutadi: avval Samarqand, keyin qog‘oz va Siyob suvi uchun Konigil, so‘ng shaharga qaytish yoki bitta yaqin qishloq davomi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Map note"
+        "ru": "Ориентир на карте"
+        "uz": "Xarita izohi"
+      "title":
+        "en": "Konigil with Samarkand, Yangijoy, and Bogibaland"
+        "ru": "Конигил рядом с Самаркандом, Янгижой и Богибаландом"
+        "uz": "Konigil Samarqand, Yangijoy va Bog‘ibaland bilan"
+      "description":
+        "en": "The marker is an orientation point for the village area and the nearby route choices."
+        "ru": "Маркер служит ориентиром района села и соседних вариантов маршрута."
+        "uz": "Marker qishloq hududi va yaqin marshrut tanlovlari uchun orientirdir."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.634623
+      "longitude": 66.995417
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "konigil-meros-paper-mill-setting"
+      - "entityType": "attraction"
+        "entitySlug": "konigil-samarkand-district-hosts"
+      - "entityType": "attraction"
+        "entitySlug": "konigil-siab-river-and-craft-lane"
+    "aside":
+      "eyebrow":
+        "en": "How the route moves"
+        "ru": "Как движется маршрут"
+        "uz": "Marshrut qanday yuradi"
+      "title":
+        "en": "Samarkand, paper, water, return"
+        "ru": "Самарканд, бумага, вода, возвращение"
+        "uz": "Samarqand, qog‘oz, suv, qaytish"
+      "description":
+        "en": "The craft village belongs close to the city: Meros and the Siab-side lane should be enough before any nearby continuation is added."
+        "ru": "Ремесленное село живёт рядом с городом: Meros и улицы у Сиаба обычно достаточно до любого соседнего продолжения."
+        "uz": "Hunarmandchilik qishlog‘i shahar yonida qoladi: Meros va Siyob bo‘yidagi yo‘lak yaqin davom qo‘shilishidan oldin yetarli bo‘lishi kerak."
+      "items":
+        - "title":
+            "en": "Samarkand"
+            "ru": "Самарканд"
+            "uz": "Samarqand"
+          "description":
+            "en": "Begin with Samarkand’s monument core, then step out to Konigil when the route needs a craft pause."
+            "ru": "Начните с монументального ядра Самарканда, затем выйдите к Конигилю, когда маршруту нужна ремесленная пауза."
+            "uz": "Samarqandning monumental markazidan boshlang, marshrutga hunarmandchilik pauzasi kerak bo‘lsa Konigilga chiqing."
+          "badge":
+            "en": "Start city"
+            "ru": "Город старта"
+            "uz": "Boshlanish shahri"
+        - "title":
+            "en": "Konigil"
+            "ru": "Конигил"
+            "uz": "Konigil"
+          "description":
+            "en": "Konigil is the paper-and-water stop: Meros, the Siab-side lane, tea, and a short return toward Samarkand."
+            "ru": "Конигил — остановка бумаги и воды: Meros, улица у Сиаба, чай и короткое возвращение к Самарканду."
+            "uz": "Konigil qog‘oz va suv bekati: Meros, Siyob bo‘yidagi yo‘lak, choy va Samarqandga qisqa qaytish."
+          "badge":
+            "en": "Craft village"
+            "ru": "Ремесленное село"
+            "uz": "Hunarmandchilik qishlog‘i"
+        - "title":
+            "en": "Yangijoy"
+            "ru": "Янгижой"
+            "uz": "Yangijoy"
+          "description":
+            "en": "Add Yangijoy when the route needs another quiet village moment after Konigil."
+            "ru": "Добавляйте Янгижой, когда маршруту нужен ещё один тихий сельский момент после Конигиля."
+            "uz": "Konigildan keyin marshrutga yana bir sokin qishloq lahzasi kerak bo‘lsa Yangijoyni qo‘shing."
+          "badge":
+            "en": "Nearby village"
+            "ru": "Соседнее село"
+            "uz": "Yaqin qishloq"
+        - "title":
+            "en": "Bogibaland"
+            "ru": "Богибаланд"
+            "uz": "Bog‘ibaland"
+          "description":
+            "en": "Bogibaland can extend the softer Samarkand edge with gardens and mahalla life."
+            "ru": "Богибаланд может продлить мягкую самаркандскую окраину садами и жизнью махалли."
+            "uz": "Bog‘ibaland Samarqandning yumshoq chetini bog‘lar va mahalla hayoti bilan davom ettirishi mumkin."
+          "badge":
+            "en": "Nearby mahalla"
+            "ru": "Соседняя махалля"
+            "uz": "Yaqin mahalla"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimani ko‘rish"
+    "title":
+      "en": "Paper, water, and the village route"
+      "ru": "Бумага, вода и сельский маршрут"
+      "uz": "Qog‘oz, suv va qishloq yo‘li"
+    "description":
+      "en": "Konigil stays clearest through its real anchors: Meros paper-making, the Siab-side lane, and the way the village fits beside Samarkand."
+      "ru": "Конигил лучше всего раскрывается через реальные опоры: бумагу Meros, улицу у Сиаба и место села рядом с Самаркандом."
+      "uz": "Konigil haqiqiy tayanchlari orqali yaxshiroq ochiladi: Meros qog‘ozi, Siyob bo‘yidagi yo‘lak va qishloqning Samarqand yonidagi o‘rni."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Meros paper mill and water wheel"
+          "ru": "Бумажная мельница Meros и водяное колесо"
+          "uz": "Meros qog‘oz tegirmoni va suv charxi"
+        "description":
+          "en": "At Meros, Konigil’s paper craft becomes visible through water, handwork, unbleached sheets, and a yard close to the Siab-side village setting."
+          "ru": "В Meros бумажное ремесло Конигиля становится видимым через воду, ручной труд, небелёные листы и двор рядом с сельской средой Сиаба."
+          "uz": "Merosda Konigilning qog‘oz hunari suv, qo‘l mehnati, oqartirilmagan varaqlar va Siyob bo‘yidagi qishloq muhiti yaqinidagi hovli orqali ko‘rinadi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/konigil/konigil-meros-paper-mill-setting"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Siab River craft lane"
+          "ru": "Ремесленная улица у Сиаба"
+          "uz": "Siyob bo‘yidagi hunarmandchilik yo‘lagi"
+        "description":
+          "en": "The Siab-side lane gives Konigil its quieter half: shade, water, tea, and a gentle walk after Samarkand’s monument scale."
+          "ru": "Улица у Сиаба даёт Конигилю более тихую половину: тень, воду, чай и мягкую прогулку после масштаба самаркандских памятников."
+          "uz": "Siyob bo‘yidagi yo‘lak Konigilning sokinroq yarmini beradi: soya, suv, choy va Samarqand yodgorliklari miqyosidan keyingi yumshoq sayr."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/konigil/konigil-siab-river-and-craft-lane"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Konigil on the Samarkand village route"
+          "ru": "Конигил на сельском маршруте Самарканда"
+          "uz": "Konigil Samarqand qishloq yo‘lida"
+        "description":
+          "en": "Konigil sits close enough to Samarkand for a short craft detour, with Bogibaland and Yangijoy nearby when the route needs more village time."
+          "ru": "Конигил достаточно близок к Самарканду для короткого ремесленного выезда; Богибаланд и Янгижой можно добавить, если маршруту нужно больше сельского времени."
+          "uz": "Konigil Samarqanddan qisqa hunarmandchilik burilishi uchun yetarlicha yaqin; marshrutga ko‘proq qishloq vaqti kerak bo‘lsa Bog‘ibaland va Yangijoy yaqin."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/konigil/konigil-samarkand-district-hosts"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Village moments"
+      "ru": "Сельские моменты"
+      "uz": "Qishloq lahzalari"
+    "title":
+      "en": "How Konigil feels on the route"
+      "ru": "Как Конигил ощущается в маршруте"
+      "uz": "Konigil marshrutda qanday seziladi"
+    "description":
+      "en": "These six moments keep Konigil human-scale: paper hands, moving water, tea, craft texture, the mill rhythm, and the return to Samarkand."
+      "ru": "Эти шесть моментов сохраняют человеческий масштаб Конигиля: руки у бумаги, вода в движении, чай, ремесленная фактура, ритм мельницы и возвращение в Самарканд."
+      "uz": "Bu olti lahza Konigilni inson miqyosida saqlaydi: qog‘ozdagi qo‘llar, harakatdagi suv, choy, hunar fakturasi, tegirmon ritmi va Samarqandga qaytish."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Paper at Meros"
+          "ru": "Бумага в Meros"
+          "uz": "Merosdagi qog‘oz"
+        "description":
+          "en": "Watch the paper sequence turn natural material, water, and handwork into warm yellow sheets."
+          "ru": "Посмотрите, как природное сырьё, вода и ручной труд превращаются в тёплые желтоватые листы."
+          "uz": "Tabiiy material, suv va qo‘l mehnati iliq sarg‘ish varaqlarga aylanishini kuzating."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Siab water walk"
+          "ru": "Прогулка у воды Сиаба"
+          "uz": "Siyob suvi bo‘yidagi sayr"
+        "description":
+          "en": "Step from the mill toward shade and moving water, where Konigil feels quieter than Samarkand."
+          "ru": "Выйдите от мельницы к тени и движущейся воде, где Конигил ощущается тише Самарканда."
+          "uz": "Tegirmondan soya va oqayotgan suv tomonga chiqing; bu yerda Konigil Samarqanddan sokinroq seziladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Tea by the river"
+          "ru": "Чай у реки"
+          "uz": "Daryo bo‘yida choy"
+        "description":
+          "en": "Pause for tea near the water, so the paper stop has a quieter village ending."
+          "ru": "Остановитесь на чай у воды, чтобы бумажная остановка получила более тихое сельское завершение."
+          "uz": "Suv yaqinida choyga to‘xtang, shunda qog‘oz bekati sokinroq qishloq yakunini oladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Craft-yard hands"
+          "ru": "Руки ремесленного двора"
+          "uz": "Hunarmandchilik hovlisidagi qo‘llar"
+        "description":
+          "en": "Stay close to the material, the wheel, and the artisan’s pace instead of rushing through the stop."
+          "ru": "Оставайтесь рядом с материалом, колесом и темпом мастера, а не проходите остановку насквозь."
+          "uz": "Bekatdan shoshilmay o‘tish o‘rniga material, charx va usta surʼatiga yaqin turing."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Meros mill rhythm"
+          "ru": "Ритм мельницы Meros"
+          "uz": "Meros tegirmoni ritmi"
+        "description":
+          "en": "Let the water wheel and paper process carry the visit before souvenirs enter the story."
+          "ru": "Пусть водяное колесо и бумажный процесс ведут визит до того, как появятся сувениры."
+          "uz": "Suvenirlar hikoyaga kirishidan oldin suv charxi va qog‘oz jarayoni tashrifni olib borsin."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Return to Samarkand"
+          "ru": "Возвращение в Самарканд"
+          "uz": "Samarqandga qaytish"
+        "description":
+          "en": "Close the village pause cleanly, with Samarkand’s monuments and evening streets still nearby."
+          "ru": "Завершите сельскую паузу ясно, пока памятники и вечерние улицы Самарканда остаются рядом."
+          "uz": "Qishloq pauzasini ravon yakunlang; Samarqand yodgorliklari va kechki ko‘chalari yaqin qoladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "How to shape a Konigil visit"
+      "ru": "Как выстроить визит в Конигил"
+      "uz": "Konigil tashrifini qanday tuzish"
+    "description":
+      "en": "Konigil is strongest as a short craft-and-river pause, not as a second city day."
+      "ru": "Конигил сильнее всего как короткая ремесленная и речная пауза, а не как второй городской день."
+      "uz": "Konigil ikkinchi shahar kuni emas, qisqa hunarmandchilik va daryo pauzasi sifatida kuchliroq."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Start with Meros"
+              "ru": "Начните с Meros"
+              "uz": "Merosdan boshlang"
+            "description":
+              "en": "The mill gives the visit its purpose: manual paper-making, natural raw materials, a water wheel, and a craft yard close to the river."
+              "ru": "Мельница даёт визиту смысл: ручное изготовление бумаги, природное сырьё, водяное колесо и ремесленный двор рядом с рекой."
+              "uz": "Tegirmon tashrifga maʼno beradi: qo‘l qog‘ozi, tabiiy xomashyo, suv charxi va daryo yaqinidagi hunarmandchilik hovlisi."
+          - "type": "quote"
+            "quote":
+              "en": "Konigil is where a Samarkand route can move from tile and stone into paper fibre, water, and a quieter village lane."
+              "ru": "Конигил — место, где самаркандский маршрут переходит от камня и мозаики к бумажному волокну, воде и тихой сельской улице."
+              "uz": "Konigil Samarqand marshruti tosh va koshindan qog‘oz tolasi, suv va sokin qishloq yo‘lagiga o‘tadigan joy."
+          - "type": "dashTitle"
+            "title":
+              "en": "Let the water soften the stop"
+              "ru": "Пусть вода смягчит остановку"
+              "uz": "Suv bekatni yumshatsin"
+            "description":
+              "en": "After monument courtyards, a shaded lane and tea by the Siab make the route feel smaller and more personal."
+              "ru": "После монументальных дворов тенистая улица и чай у Сиаба делают маршрут меньше и личнее."
+              "uz": "Monumental hovlilardan keyin Siyob bo‘yidagi soyali yo‘lak va choy marshrutni kichikroq va shaxsiyroq qiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Return without rushing"
+              "ru": "Вернитесь без спешки"
+              "uz": "Shoshmasdan qayting"
+            "description":
+              "en": "Samarkand remains the anchor; after Konigil, the route can return cleanly or add one nearby village stop."
+              "ru": "Самарканд остаётся опорой; после Конигиля маршрут может спокойно вернуться в город или добавить одно соседнее село."
+              "uz": "Samarqand tayanch bo‘lib qoladi; Konigildan keyin marshrut shaharga ravon qaytishi yoki bitta yaqin qishloq bekatini qo‘shishi mumkin."
+          - "type": "alert"
+            "title":
+              "en": "Good for"
+              "ru": "Кому подойдёт"
+              "uz": "Kimga mos"
+            "description":
+              "en": "Choose Konigil when you want a nearby craft pause that still belongs clearly to the Samarkand route."
+              "ru": "Выбирайте Конигил, если нужна близкая ремесленная пауза, которая всё ещё ясно принадлежит самаркандскому маршруту."
+              "uz": "Konigilni Samarqand marshrutiga aniq tegishli bo‘lgan yaqin hunarmandchilik pauzasi kerak bo‘lganda tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Distance"
+                  "ru": "Коротко Расстояние"
+                  "uz": "Qisqacha Masofa"
+                "description":
+                  "en": "About 13 km from Samarkand, close enough for a compact outing."
+                  "ru": "Около 13 км от Самарканда, достаточно близко для компактного выезда."
+                  "uz": "Samarqanddan taxminan 13 km, ixcham chiqish uchun yaqin."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main magnet"
+                  "ru": "Главный магнит"
+                  "uz": "Asosiy magnet"
+                "description":
+                  "en": "Meros paper mill, handmade Samarkand paper, and the water wheel."
+                  "ru": "Мельница Meros, самаркандская бумага ручной работы и водяное колесо."
+                  "uz": "Meros tegirmoni, Samarqand qo‘l qog‘ozi va suv charxi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Marshrutdagi rol"
+                "description":
+                  "en": "A craft-and-water pause before returning to Samarkand."
+                  "ru": "Ремесленная и водная пауза перед возвращением в Самарканд."
+                  "uz": "Samarqandga qaytishdan oldingi hunarmandchilik va suv pauzasi."
+              - "icon": "Route"
+                "title":
+                  "en": "Pace"
+                  "ru": "Темп"
+                  "uz": "Surʼat"
+                "description":
+                  "en": "Best as a short, shaded stop with paper first and any nearby continuation kept selective."
+                  "ru": "Лучше как короткая тенистая остановка: сначала бумага, а любое соседнее продолжение — выборочно."
+                  "uz": "Qisqa, soyali bekat sifatida yaxshi: avval qog‘oz, yaqin davom esa faqat zarur bo‘lsa."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby places"
+      "ru": "Рядом по маршруту"
+      "uz": "Marshrut bo‘yidagi yaqin joylar"
+    "title":
+      "en": "Where the route can continue"
+      "ru": "Куда продолжить"
+      "uz": "Qayerga davom etish"
+    "description":
+      "en": "Samarkand is the natural return; Bogibaland and Yangijoy are nearby village choices when the route needs a second soft stop."
+      "ru": "Самарканд — естественное возвращение; Богибаланд и Янгижой становятся соседними сельскими вариантами, когда маршруту нужна вторая мягкая остановка."
+      "uz": "Samarqand tabiiy qaytish nuqtasi; Bog‘ibaland va Yangijoy marshrutga ikkinchi yumshoq qishloq bekati kerak bo‘lganda yaqin tanlov bo‘ladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/konigil-next-samarkand.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Samarkand"
+          "ru": "Самарканд"
+          "uz": "Samarqand"
+        "description":
+          "en": "Samarkand brings the route to monumental scale: Registan, Shah-i-Zinda, Bibi-Khanym, Gur-e-Amir, Siab Bazaar, Afrosiab, and Ulugh Beg Observatory."
+          "ru": "Самарканд даёт маршруту монументальный масштаб: Регистан, Шахи-Зинда, Биби-Ханым, Гур-Эмир, Сиабский базар, Афрасиаб и обсерватория Улугбека."
+          "uz": "Samarqand yoʻnalishga monumental miqyos beradi: Registon, Shohi Zinda, Bibi Xonim, Goʻri Amir, Siyob bozori, Afrosiyob va Ulugʻbek rasadxonasi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/samarkand"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Bogibaland"
+          "ru": "Богибаланд"
+          "uz": "Bog‘ibaland"
+        "description":
+          "en": "Bogibaland adds a quieter edge to Samarkand: Anjirzor fig gardens, seasonal fair tables, and a mahalla pause after the city’s monuments."
+          "ru": "Богибаланд добавляет к Самарканду более тихий край: сады Анжирзора, сезонную ярмарку и махаллинскую паузу после памятников."
+          "uz": "Bog‘ibaland Samarqandga sokinroq chekka ritm qo‘shadi: Anjirzor bog‘lari, mavsumiy yarmarka va yodgorliklardan keyingi mahalla pauzasi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/bogibaland"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Yangijoy"
+          "ru": "Янгижой"
+          "uz": "Yangijoy"
+        "description":
+          "en": "Yangijoy is a developing Samarkand District tourism village where a small rural pause can soften the route after the city."
+          "ru": "Янгижой — развивающееся туристическое село Самаркандского района, где короткая сельская пауза смягчает маршрут после города."
+          "uz": "Yangijoy Samarqand tumanidagi rivojlanayotgan turizm qishlog‘i bo‘lib, shahardan keyin qisqa qishloq pauzasini beradi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/yangijoy"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Konigil in the day plan"
+      "ru": "Как поставить Конигил в план дня"
+      "uz": "Konigilni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Konigil?"
+          "ru": "Сколько времени группам стоит проводить в Конигил?"
+          "uz": "Konigilda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “Handmade paper, Siab water, and a calm village pause near Samarkand”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Бумага ручной работы, вода Сиаба и спокойная пауза рядом с Самаркандом»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Samarqand yaqinidagi qo‘l qog‘ozi, Siyob suvi va sokin qishloq pauzasi»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Konigil be a walkable core or a base for day trips?"
+          "ru": "Конигил — это пешеходное ядро или база для выездов?"
+          "uz": "Konigil piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Konigil's centre?"
+          "ru": "Где лучше ночевать относительно центра Конигил?"
+          "uz": "Konigil markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/konigil.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Konigil stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Конигил» в программу (Узбекистан)"
+      "uz": "Konigil bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Konigil | TourLink"
+    "ru": "Конигил | TourLink"
+    "uz": "Konigil | TourLink"
+  "metaDescription":
+    "en": "Konigil sits just outside Samarkand, where the route can step from tiled monuments into handmade paper, Siab water, a wooden wheel, and a slower craft lane."
+    "ru": "Конигил расположен совсем рядом с Самаркандом: здесь маршрут выходит от мозаичных памятников к бумаге ручной работы, воде Сиаба, деревянному колесу и более тихой ремесленной улице."
+    "uz": "Konigil Samarqanddan uncha uzoq emas: bu yerda marshrut koshinli yodgorliklardan qo‘l qog‘ozi, Siyob suvi, yog‘och charx va sokinroq hunarmandchilik yo‘lagiga o‘tadi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "samarkand-region"
+"latitude": 39.6655494
+"longitude": 67.0416454

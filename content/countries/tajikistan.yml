@@ -1,79 +1,586 @@
-# Seed: коллекция countries — Tajikistan
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "tajikistan"
+  "ru": "tajikistan"
+  "uz": "tajikistan"
+"title":
+  "en": "Tajikistan"
+  "ru": "Таджикистан"
+  "uz": "Tojikiston"
+"subtitle":
+  "en": "Where the Pamirs touch the sky"
+  "ru": "Там, где Памир касается неба"
+  "uz": "Pomir osmonga tegadigan joy"
+"excerpt":
+  "en": "Tajikistan turns vertical quickly: Dushanbe starts with plane trees, fountains, and valley roads.
 
-slug:
-  en: tajikistan
-  ru: tajikistan
-  uz: tajikistan
-title:
-  en: Tajikistan
-  ru: Таджикистан
-  uz: Tojikiston
-subtitle:
-  en: High roads
-  ru: Высокие дороги
-  uz: Baland yo'llar
-excerpt:
-  en: Where the Pamir touches the sky
-  ru: Там, где Памир касается неба
-  uz: Pomir osmonga tegadigan joy
-mapCenter:
-  latitude: 38.5598
-  longitude: 68.7870
-heroImage: assets/images/destinations/tadjikistan.jpg
-badges:
-  - HIDDEN_GEM
-blocks:
-  - blockType: hero
-    image: assets/images/destinations/tadjikistan.jpg
-    imageAlt:
-      en: Pamir Highway and high mountain passes
-      ru: Памирский тракт и высокогорные перевалы
-      uz: Pomir trakti va baland tog' o'tishlari
-    title:
-      en: Tajikistan
-      ru: Таджикистан
-      uz: Tojikiston
-    description:
-      en: Where the Pamir touches the sky
-      ru: Там, где Памир касается неба
-      uz: Pomir osmonga tegadigan joy
-    note:
-      en: High roads and remote valleys — a country for travelers ready for altitude, permits, and slower pacing.
-      ru: Высокие дороги и удалённые долины — страна для путешественников, готовых к высоте, разрешениям и неспешному ритму.
-      uz: Baland yo'llar va uzoq vodiy — balandlik, ruxsatlar va sekin ritmga tayyor sayohatchilar uchun mamlakat.
-    actions:
-      - type: mailto
-        variant: default
-        title:
-          en: Request a tour
-          ru: Запросить тур
-          uz: Tur so'rash
-        email: info@tourlink.uz
-  - blockType: regular
-    eyebrow:
-      en: Key cities
-      ru: Ключевые города
-      uz: Asosiy shaharlar
-    title:
-      en: Where routes usually start
-      ru: Откуда обычно начинаются маршруты
-      uz: Marshrutlar odatda qayerdan boshlanadi
-    description:
-      en: "Dushanbe, Fan Mountains, Seven Lakes, and the Pamir — capital gateway, alpine lakes, and the roof of the route."
-      ru: "Душанбе, Фанские горы, Семь озёр и Памир — столичные ворота, альпийские озёра и крыша маршрута."
-      uz: "Dushanbe, Fan tog'lari, Yetti ko'l va Pomir — poytaxt darvozasi, alp ko'llari va marshrutning cho'qqisi."
-seo:
-  metaTitle:
-    en: Tajikistan tours | TourLink
-    ru: Туры в Таджикистан | TourLink
-    uz: Tojikistonda turlar | TourLink
-  metaDescription:
-    en: Pamir high roads, Fan Mountains, and Seven Lakes — Tajikistan routes from TourLink DMC.
-    ru: Высокие дороги Памира, Фанские горы и Семь озёр — маршруты по Таджикистану от DMC TourLink.
-    uz: Pomir baland yo'llari, Fan tog'lari va Yetti ko'l — TourLink DMC dan Tojikiston marshrutlari.
-  structuredDataType: TouristDestination
-status:
-  showInSitemap: true
-  noindex: false
-  hideFromNavigation: false
-  publishedAt: "2025-06-01"
+
+    Penjikent and Sarazm open older Zeravshan history; Khorog resets the scale before the Pamirs, where altitude and weather set the pace."
+  "ru": "В Таджикистане маршрут быстро становится вертикальным: Душанбе встречает платанами, фонтанами и дорогами долин.
+
+
+    Пенджикент и Саразм открывают историю Зеравшана; Хорог меняет масштаб перед Памиром, где высота и погода задают темп."
+  "uz": "Tojikistonda yoʻl tezda balandlikka koʻtariladi: Dushanbe chinorlar, favvoralar va vodiy yoʻllari bilan boshlanadi.
+
+
+    Panjikent va Sarazm Zarafshon tarixini ochadi; Xorugʻ esa Pomir oldidan miqyosni oʻzgartiradi."
+"heroImage": "assets/images/destinations/tajikistan/country.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan/country.webp"
+    "imageAlt":
+      "en": "Tajikistan"
+      "ru": "Таджикистан"
+      "uz": "Tojikiston"
+    "title":
+      "en": "Tajikistan"
+      "ru": "Таджикистан"
+      "uz": "Tojikiston"
+    "description":
+      "en": "Dushanbe, Penjikent and the Pamirs — altitude, valleys, and mountain roads."
+      "ru": "Душанбе, Пенджикент и Памир — высота, долины и горные дороги."
+      "uz": "Dushanbe, Panjakent va Pomir — balandlik, vodiy va tog‘ yo‘llari."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О стране"
+      "uz": "Mamlakat haqida"
+    "title":
+      "en": "Tajikistan"
+      "ru": "Таджикистан"
+      "uz": "Tojikiston"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Tajikistan turns vertical quickly — valleys, ancient Zeravshan towns, then Pamir altitude that resets the clock."
+              "ru": "Таджикистан быстро становится вертикальным — долины, древние города Зеравшана, затем памирская высота, которая сбрасывает часы."
+              "uz": "Tojikiston tez vertikalga aylanadi — vodiy, Zarafshonning qadimiy shaharlari, keyin soatni tiklaydigan Pomir balandligi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Dushanbe starts with plane trees and valley roads; Penjikent and Sarazm open older history; Khorog resets scale before the Pamirs. Permits, road condition and overnight rhythm belong in the product design — not as footnotes after the brochure."
+              "ru": "Душанбе начинается с платанов и долинных дорог; Пенджикент и Саразм открывают более старую историю; Хорог сбрасывает масштаб перед Памиром. Разрешения, состояние дорог и ритм ночёвок входят в дизайн продукта — а не в сноски после брошюры."
+              "uz": "Dushanbe chinorlar va vodiy yoʻllari bilan boshlanadi; Panjakent va Sarazm qadimiy tarixni ochadi; Xoʻrog Pomirdan oldin miqyosni tiklaydi. Ruxsatnomalar, yoʻl holati va tunash ritmi mahsulot dizayniga kiradi — broshyura ostidagi izoh emas."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Spare time for the road, honest altitude planning, and hosts who make remote days feel human."
+              "ru": "Запас времени на дорогу, честное планирование высоты и хозяева, с которыми дальние дни остаются человеческими."
+              "uz": "Yoʻl uchun vaqt zaxirasi, balandlikni halol rejalash va uzoq kunlarni insoniy qiladigan mezbonlar."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Travellers ready for mountain seriousness — and agencies that need a partner who plans permits and pace before the first climb."
+              "ru": "Путешественникам, готовым к горной серьёзности, и агентствам, которым нужен партнёр, планирующий разрешения и темп до первого подъёма."
+              "uz": "Togʻ jiddiyligiga tayyor sayohatchilar va birinchi koʻtarilishdan oldin ruxsatnoma va surʼatni rejalaydigan hamkor kerak boʻlgan agentliklar."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Route logic"
+      "ru": "Логика маршрута"
+      "uz": "Yo‘nalish mantig‘i"
+    "title":
+      "en": "How Tajikistan opens by region"
+      "ru": "Как Таджикистан раскрывается по регионам"
+      "uz": "Tojikiston hududlar orqali qanday ochiladi"
+    "description":
+      "en": "The strongest journeys keep three travel worlds distinct: Dushanbe and Hissar for arrival, Penjikent and Zeravshan for archaeology, and Khorog with the Pamirs for altitude and long-road timing."
+      "ru": "Самые сильные маршруты разделяют три разных мира: Душанбе и Гиссар для первого входа, Пенджикент и Зеравшан для археологии, Хорог и Памир для высоты и длинной дороги."
+      "uz": "Eng yaxshi yo‘nalishlar uch xil safar dunyosini ajratadi: Dushanbe va Hisor birinchi kirish uchun, Panjikent va Zarafshon arxeologiya uchun, Xorug‘ va Pomir balandlik hamda uzoq yo‘l vaqti uchun."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route anchors"
+        "ru": "Ориентиры маршрута"
+        "uz": "Yo‘nalish tayanchlari"
+      "title":
+        "en": "Dushanbe, Zeravshan, and Khorog"
+        "ru": "Душанбе, Зеравшан и Хорог"
+        "uz": "Dushanbe, Zarafshon va Xorug‘"
+      "description":
+        "en": "The map shows the main country anchors; drive times, permits, and mountain access still need a fresh seasonal check."
+        "ru": "Карта показывает главные опоры страны; точное время в пути, разрешения и горный доступ всё равно нужно проверять по сезону."
+        "uz": "Xarita mamlakatning asosiy tayanchlarini ko‘rsatadi; aniq yo‘l vaqti, ruxsatnomalar va tog‘ga kirish mavsumga qarab yangidan tekshiriladi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.3775
+      "longitude": 64.5853
+    "zoom": 6
+    "stops":
+      - "entityType": "region"
+        "entitySlug": "dushanbe-and-hissar-valley"
+      - "entityType": "region"
+        "entitySlug": "pamir-and-gbao"
+      - "entityType": "region"
+        "entitySlug": "fann-mountains-and-zeravshan"
+      - "entityType": "region"
+        "entitySlug": "khatlon-and-southern-archaeology"
+      - "entityType": "region"
+        "entitySlug": "khujand-and-northern-tajikistan"
+    "aside":
+      "eyebrow":
+        "en": "Route choices"
+        "ru": "Выбор маршрута"
+        "uz": "Yo‘nalish tanlovi"
+      "title":
+        "en": "Three anchors, one high-country journey"
+        "ru": "Три опоры одного горного путешествия"
+        "uz": "Bitta tog‘ safarining uch tayanchi"
+      "description":
+        "en": "Capital walks, Zeravshan archaeology, and Pamir mountain roads ask for different energy. Separating them keeps the journey calmer and more memorable."
+        "ru": "Столичные прогулки, археология Зеравшана и памирские горные дороги требуют разной энергии. Когда их не смешивают, путешествие становится спокойнее и лучше запоминается."
+        "uz": "Poytaxt sayrlari, Zarafshon arxeologiyasi va Pomir tog‘ yo‘llari boshqa-boshqa energiya talab qiladi. Ularni ajratish sayohatni sokinroq va esda qolarliroq qiladi."
+      "items":
+        - "title":
+            "en": "Dushanbe gives the first frame"
+            "ru": "Душанбе задаёт первую рамку"
+            "uz": "Dushanbe birinchi ramkani beradi"
+          "description":
+            "en": "Shaded avenues, museums, cafes, and nearby valley roads let travelers settle before the journey climbs."
+            "ru": "Тенистые проспекты, музеи, кафе и дороги ближайших долин помогают освоиться до подъёма в горы."
+            "uz": "Soyali shohko‘chalar, muzeylar, kafelar va yaqin vodiy yo‘llari tog‘larga ko‘tarilishdan oldin safarga kirishga yordam beradi."
+          "badge":
+            "en": "capital"
+            "ru": "столица"
+            "uz": "poytaxt"
+        - "title":
+            "en": "Penjikent opens the Zeravshan story"
+            "ru": "Пенджикент открывает историю Зеравшана"
+            "uz": "Panjikent Zarafshon hikoyasini ochadi"
+          "description":
+            "en": "Ancient Penjikent, Sarazm, and Rudaki's literary memory give the western side a reason to pause before mountains or Samarkand."
+            "ru": "Древний Пенджикент, Саразм и литературная память Рудаки дают западной стороне причину задержаться перед горами или Самаркандом."
+            "uz": "Qadimgi Panjikent, Sarazm va Rudakiy xotirasi g‘arbiy tomonga tog‘lar yoki Samarqanddan oldin to‘xtash sababini beradi."
+          "badge":
+            "en": "archaeology"
+            "ru": "археология"
+            "uz": "arxeologiya"
+        - "title":
+            "en": "Khorog changes the scale"
+            "ru": "Хорог меняет масштаб"
+            "uz": "Xorug‘ miqyosni o‘zgartiradi"
+          "description":
+            "en": "River valleys, botanical slopes, altitude, permits, and weather start to matter here before the journey continues higher."
+            "ru": "Здесь в центр выходят речные долины, ботанические склоны, высота, разрешения и погода перед продолжением выше."
+            "uz": "Bu yerda daryo vodiylari, botanika yonbag‘irlari, balandlik, ruxsatnomalar va ob-havo yuqoriroq yo‘l oldidan muhim bo‘lib qoladi."
+          "badge":
+            "en": "Pamir"
+            "ru": "Памир"
+            "uz": "Pomir"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route ideas"
+      "ru": "Идеи маршрута"
+      "uz": "Yoʻnalish gʻoyalari"
+    "title":
+      "en": "Tajikistan routes by request"
+      "ru": "Маршруты по Таджикистану под запрос"
+      "uz": "Tojikiston yo‘nalishlari so‘rov bo‘yicha"
+    "description":
+      "en": "Until published tour programs are ready, we shape Tajikistan itineraries around altitude, permits, road time, and local hosts."
+      "ru": "Пока опубликованные тур-программы готовятся, мы собираем маршруты по Таджикистану с учётом высоты, разрешений, дороги и местных хозяев."
+      "uz": "Tayyor tur dasturlari nashr etilguncha, biz Tojikiston safarlarini balandlik, ruxsatnomalar, yo‘l vaqti va mahalliy mezbonlarga qarab tuzamiz."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Tourist regions"
+      "ru": "Туристические регионы"
+      "uz": "Turistik hududlar"
+    "title":
+      "en": "Regions of Tajikistan"
+      "ru": "Регионы Таджикистана"
+      "uz": "Tojikiston hududlari"
+    "description":
+      "en": "For travel, Tajikistan is easier to understand through valleys and mountain systems: Dushanbe & Hissar for arrival, the Fann Mountains & Zeravshan for archaeology and lake roads, Pamir & GBAO for high-country travel, with Khujand and Khatlon waiting as later northern and southern extensions."
+      "ru": "Для путешествия Таджикистан понятнее через долины и горные системы: Душанбе и Гиссар для первого входа, Фанские горы и Зеравшан для археологии и озёрных дорог, Памир и ГБАО для высокогорья, а Худжанд и Хатлон — как будущие северное и южное продолжения."
+      "uz": "Sayohat uchun Tojikistonni vodiylar va tog‘ tizimlari orqali tushunish osonroq: Dushanbe va Hisor birinchi kirish uchun, Fan tog‘lari va Zarafshon arxeologiya hamda ko‘l yo‘llari uchun, Pomir va GBAO baland tog‘li safar uchun, Xo‘jand va Xatlon esa keyingi shimoliy va janubiy davom sifatida."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Dushanbe & Hissar Valley"
+          "ru": "Душанбе и Гиссарская долина"
+          "uz": "Dushanbe va Hisor vodiysi"
+        "description":
+          "en": "Dushanbe & Hissar Valley is Tajikistan's calm arrival region: capital walks, museum time, Hissar Fortress context, and the first mountain road toward Varzob."
+          "ru": "Душанбе и Гиссарская долина — спокойное начало Таджикистана: прогулки по столице, музеи, контекст Гиссарской крепости и первая дорога к Варзобу."
+          "uz": "Dushanbe va Hisor vodiysi Tojikistonga sokin kirish beradi: poytaxt sayri, muzeylar, Hisor qalʼasi konteksti va Varzob tomon ilk togʻ yoʻli."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Fann Mountains & Zeravshan"
+          "ru": "Памир и ГБАО"
+          "uz": "Fan togʻlari va Zarafshon"
+        "description":
+          "en": "Fann Mountains & Zeravshan links Penjikent and Sarazm with Iskanderkul, Seven Lakes, Artuch, and Alovaddin, turning western Tajikistan from Sogdian history toward slower mountain roads."
+          "ru": "Памир и ГБАО — высокогорный регион Таджикистана: Хорог, долины Пянджа и Гунта, ботанический сад и дальнейшие решения к Вахану, Мургабу, Бартангу и Каракулю."
+          "uz": "Fan togʻlari va Zarafshon Panjikent va Sarazmni Iskandarkoʻl, Yetti koʻl, Artuch va Alovaddin bilan bogʻlaydi: gʻarbiy Tojikiston Sugʻd tarixidan sekinroq togʻ yoʻllariga o‘tadi."
+        "ctaHref": "/destinations/tajikistan/pamir-and-gbao"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan/regions/region-fann-mountains-and-zeravshan.webp"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Pamir & GBAO"
+          "ru": "Фанские горы и Зеравшан"
+          "uz": "Pomir va GBAO"
+        "description":
+          "en": "Pamir & GBAO is Tajikistan’s high-road region: Khorog, the Panj and Gunt valleys, the Botanical Garden, and onward choices toward the Wakhan, Murghab, Bartang, and Karakul."
+          "ru": "Фанские горы и Зеравшан ведут от Пенджикента и Саразма к Искандеркулю, Семи озёрам, Артучу и Аловаддину: от согдийской истории к медленным горным дорогам."
+          "uz": "Pomir va GBAO — Tojikistonning baland yoʻl hududi: Xorugʻ, Panj va Gunt vodiylari, Botanika bogʻi hamda Vaxon, Murgʻob, Bartang va Qorakoʻl tomon tanlovlar."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Khatlon & Southern Archaeology"
+          "ru": "Хатлон и южная археология"
+          "uz": "Xatlon va Janubiy arxeologiya"
+        "description":
+          "en": "Khatlon & Southern Archaeology carries Tajikistan south of Dushanbe into Kulob, Bokhtar, Nurek, Ajinatepa, and Kalai Hulbuk, where archaeology, heat, and access checks shape the route."
+          "ru": "Хатлон и южная археология ведут к югу от Душанбе: Куляб, Бохтар, Нурек, Аджинатеппа и Калаи Хульбук, где археология, жара и доступ задают маршрут."
+          "uz": "Xatlon va Janubiy arxeologiya Dushanbedan janubga Koʻlob, Boxtar, Nurek, Ajinatepa va Kalai Xulbuk orqali olib boradi; bu yerda arxeologiya, issiq va kirish tekshiruvlari yoʻnalishni belgilaydi."
+        "ctaHref": "/destinations/tajikistan/khatlon-and-southern-archaeology"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Khujand & Northern Tajikistan"
+          "ru": "Худжанд и северный Таджикистан"
+          "uz": "Xoʻjand va Shimoliy Tojikiston"
+        "description":
+          "en": "Khujand & Northern Tajikistan follows the Syr Darya into Tajikistan's northern valley: Khujand's bazaar and fortress, Istaravshan's craft town, Isfara's orchard edge, and road choices that need local timing."
+          "ru": "Худжанд и северный Таджикистан ведут маршрут вдоль Сырдарьи: базар и крепость Худжанда, ремесленный Истаравшан, садовый край Исфары и дороги, где важна местная проверка времени."
+          "uz": "Xoʻjand va Shimoliy Tojikiston yoʻnalishi Sirdaryo bo‘ylab boradi: Xoʻjand bozori va qalʼasi, Istaravshan hunarmandchiligi, Isfara bogʻlari va mahalliy tekshiruv talab qiladigan yoʻllar."
+        "ctaHref": "/destinations/tajikistan/khujand-and-northern-tajikistan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "When to go"
+      "ru": "Когда ехать"
+      "uz": "Qachon borish"
+    "title":
+      "en": "Seasonal rhythm"
+      "ru": "Сезонный ритм"
+      "uz": "Mavsumiy ritm"
+    "description":
+      "en": "Valley heat, high passes, Nowruz, and Pamir access change the country quickly; the right season depends on how high the journey goes."
+      "ru": "Жара в долинах, высокие перевалы, Навруз и доступ к Памиру быстро меняют страну; правильный сезон зависит от того, насколько высоко поднимается путешествие."
+      "uz": "Vodiylardagi issiq, baland dovonlar, Navro‘z va Pomirga kirish imkoniyati mamlakatni tez o‘zgartiradi; to‘g‘ri mavsum sayohat qanchalik balandga chiqishiga bog‘liq."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-4"
+    "cards":
+      - "type": "tripFormat"
+        "icon": "Flower2"
+        "badge":
+          "en": "Spring March-May"
+          "ru": "Весна март-май"
+          "uz": "Bahor mart-may"
+        "title":
+          "en": "Spring"
+          "ru": "Весна"
+          "uz": "Bahor"
+        "description":
+          "en": "Spring starts in Dushanbe, Khujand, Penjikent, and the lower valleys. Nowruz brings public color; April and May add blossoms, markets, and easier valley roads. High Pamir and some Fann routes still need fresh access checks."
+          "ru": "Весна начинается в Душанбе, Худжанде, Пенджикенте и нижних долинах. Навруз приносит первый публичный цвет; апрель и май добавляют цветение, рынки и более мягкие дороги в долинах. Высокий Памир и часть Фанских маршрутов всё ещё требуют свежей проверки доступа."
+          "uz": "Bahor Dushanbe, Xo‘jand, Panjikent va past vodiylardan boshlanadi. Navro‘z mavsumga birinchi rang beradi; aprel va may gullar, bozorlar va yengilroq vodiy yo‘llarini olib keladi. Baland Pomir va ayrim Fan yo‘llari uchun hali yangi kirish tekshiruvi kerak."
+      - "type": "tripFormat"
+        "icon": "Sun"
+        "badge":
+          "en": "Summer June-August"
+          "ru": "Лето июнь-август"
+          "uz": "Yoz iyun-avgust"
+        "title":
+          "en": "Summer"
+          "ru": "Лето"
+          "uz": "Yoz"
+        "description":
+          "en": "June to August is the main window for the Fann Mountains and the Pamir Highway. Lowlands can be hot, but altitude brings long light, open passes, homestays, lakes, and roads that hold together better. Serious mountain routes still need buffer days."
+          "ru": "Июнь, июль и август — главное окно для Фанских гор и Памирского тракта. В низинах жарко, зато высота даёт длинный свет, открытые перевалы, гостевые дома, озёра и более устойчивые дороги. Для серьёзных горных маршрутов всё равно нужен запас дней."
+          "uz": "Iyun-avgust Fan tog‘lari va Pomir trakti uchun asosiy davr. Pastliklarda issiq bo‘lishi mumkin, lekin balandlik uzun yorug‘lik, ochiq dovonlar, mehmon uylari, ko‘llar va barqarorroq yo‘llarni beradi. Jiddiy tog‘ yo‘nalishlariga baribir zaxira kunlar kerak."
+      - "type": "tripFormat"
+        "icon": "Leaf"
+        "badge":
+          "en": "Autumn September-November"
+          "ru": "Осень сентябрь-ноябрь"
+          "uz": "Kuz sentabr-noyabr"
+        "title":
+          "en": "Autumn"
+          "ru": "Осень"
+          "uz": "Kuz"
+        "description":
+          "en": "September often gives the clearest air and strongest mountain light. October can be beautiful in lower valleys, though high roads change fast. By November, compact cultural programs are safer than ambitious mountain crossings."
+          "ru": "Сентябрь часто даёт самый чистый воздух и сильный горный свет. Октябрь красив в нижних долинах, но высокие дороги быстро меняются. К ноябрю компактные культурные программы безопаснее, чем амбициозные горные переезды."
+          "uz": "Sentabr ko‘pincha eng tiniq havo va kuchli tog‘ nurini beradi. Oktabr past vodiylarda chiroyli, lekin baland yo‘llar tez o‘zgaradi. Noyabrga kelib ixcham madaniy dasturlar katta tog‘ kesib o‘tishlaridan xavfsizroq."
+      - "type": "tripFormat"
+        "icon": "Snowflake"
+        "badge":
+          "en": "Winter December-February"
+          "ru": "Зима декабрь-февраль"
+          "uz": "Qish dekabr-fevral"
+        "title":
+          "en": "Winter"
+          "ru": "Зима"
+          "uz": "Qish"
+        "description":
+          "en": "Winter suits Dushanbe, Khujand, Hissar, and selected lowland visits more than high-road travel. Pamir Highway sections, remote valleys, and high passes require caution, flexible timing, and local weather checks."
+          "ru": "Зимой лучше подходят Душанбе, Худжанд, Гиссар и отдельные низинные выезды, а не высокогорные дороги. Участки Памирского тракта, удалённые долины и перевалы требуют осторожности, гибкого времени и местной проверки погоды."
+          "uz": "Qishda Dushanbe, Xo‘jand, Hisor va ayrim past yo‘nalishlar baland tog‘ yo‘llaridan ko‘ra mosroq. Pomir trakti qismlari, uzoq vodiylar va baland dovonlar ehtiyot, moslashuvchan vaqt va mahalliy ob-havo tekshiruvini talab qiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Planning basics"
+      "ru": "Планирование"
+      "uz": "Rejalash asoslari"
+    "title":
+      "en": "Practical starting points"
+      "ru": "Практичные ориентиры"
+      "uz": "Amaliy boshlang‘ich nuqtalar"
+    "description":
+      "en": ""
+      "ru": ""
+      "uz": ""
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-4"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "Passport"
+        "title":
+          "en": "Visa"
+          "ru": "Виза"
+          "uz": "Viza"
+        "description":
+          "en": "Visa Check visa and permits
+
+
+            Many passports have short visa-free entry; others use an e-visa. Pamir/GBAO travel may need an additional permit, so check the rule before the route is fixed."
+          "ru": "Виза Проверьте визу и разрешения
+
+
+            Для многих паспортов действует краткий безвизовый въезд; другим нужна e-visa. Для Памира и ГБАО может понадобиться отдельное разрешение, поэтому правило лучше проверить до фиксации маршрута."
+          "uz": "Viza Viza va ruxsatnomalarni tekshiring
+
+
+            Ko‘p pasportlar qisqa muddatga vizasiz kira oladi; boshqalarga e-visa kerak. Pomir va GBAO uchun qo‘shimcha ruxsatnoma kerak bo‘lishi mumkin, shuning uchun qoidani yo‘nalish yakunlanishidan oldin tekshiring."
+      - "type": "destinationInsight"
+        "icon": "Wallet"
+        "title":
+          "en": "Money"
+          "ru": "Деньги"
+          "uz": "Pul"
+        "description":
+          "en": "Money Somoni and cash
+
+
+            Cards are most useful in Dushanbe and larger cities. Carry somoni cash for villages, homestays, markets, mountain roads, and driver stops."
+          "ru": "Деньги Сомони и наличные
+
+
+            Карты полезнее всего в Душанбе и крупных городах. Для деревень, гостевых домов, рынков, горных дорог и остановок у водителя нужны сомони наличными."
+          "uz": "Pul Somoni va naqd pul
+
+
+            Kartalar asosan Dushanbe va yirik shaharlarda foydali. Qishloqlar, mehmon uylari, bozorlar, tog‘ yo‘llari va haydovchi to‘xtashlari uchun somoni naqd pul olib yuring."
+      - "type": "destinationInsight"
+        "icon": "ShieldCheck"
+        "title":
+          "en": "Safety"
+          "ru": "Безопасность"
+          "uz": "Xavfsizlik"
+        "description":
+          "en": "Safety Altitude and roads
+
+
+            Altitude, remote roads, weather, border zones, and long drives matter here. A calm itinerary is safer than a tight one."
+          "ru": "Безопасность Высота и дороги
+
+
+            Здесь важны высота, удалённые дороги, погода, приграничные зоны и длинные переезды. Спокойный маршрут безопаснее плотного."
+          "uz": "Xavfsizlik Balandlik va yo‘llar
+
+
+            Bu yerda balandlik, uzoq yo‘llar, ob-havo, chegara hududlari va uzun yurishlar muhim. Sokin yo‘nalish juda zich rejadan xavfsizroq."
+      - "type": "destinationInsight"
+        "icon": "Train"
+        "title":
+          "en": "Transport"
+          "ru": "Транспорт"
+          "uz": "Transport"
+        "description":
+          "en": "Транспорт Дорога — часть путешествия
+
+
+            Transport The road is part of the journey"
+          "ru": "Транспорт Дорога — часть путешествия
+
+
+            Покрытие дорог, сезон, зоны разрешений и места ночёвок определяют, какие переезды и горные участки подходят под даты."
+          "uz": "Transport Yo‘l sayohatning bir qismi
+
+
+            Yo‘l qoplamasi, mavsum, ruxsat zonalari va tunash joylari qaysi dovonlar va tog‘ qismlari sanalarga mos kelishini belgilaydi."
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Routes in detail"
+      "ru": "Маршруты в деталях"
+      "uz": "Marshrutlar batafsil"
+    "title":
+      "en": "How route pace works in practice"
+      "ru": "Как темп маршрута работает на практике"
+      "uz": "Marshrut sur’ati amalda qanday ishlaydi"
+    "description":
+      "en": "Use these notes to brief clients on transfers and overnight logic in Tajikistan."
+      "ru": "Используйте эти заметки для брифа клиентов по переездам и логике ночёвок в Таджикистан."
+      "uz": "Ko‘chishlar va tunash mantig‘i bo‘yicha mijoz brifi uchun ushbu izohlardan foydalaning (Tojikiston)."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many nights work for a first trip to Tajikistan?"
+          "ru": "Сколько ночей оптимально для первой поездки (Таджикистан)?"
+          "uz": "Tojikistonga birinchi safar uchun necha tun yetarli?"
+        "description":
+          "en": "For a first programme, 6–9 nights usually holds: keep the classic spine readable, then add one extension only if the season and group pace allow it. Use “Where the Pamirs touch the sky” as the brief for what the country actually sells."
+          "ru": "Для первой программы обычно хватает 6–9 ночей: держите классическую линию читаемой и добавляйте одно расширение только если сезон и темп группы позволяют. Ориентир страны — «Там, где Памир касается неба»."
+          "uz": "Birinchi dastur uchun odatda 6–9 tun yetadi: klassik chiziqni o‘qiladigan tuting, kengaytmani esa mavsum va guruh sur’ati ruxsat bersagina qo‘shing. Mamlakat brifi — «Pomir osmonga tegadigan joy»."
+      - "type": "destinationInsight"
+        "icon": "TrainFront"
+        "title":
+          "en": "Where are the long transfers in Tajikistan, and how do you soften them?"
+          "ru": "Где в маршруте по стране «Таджикистан» длинные переезды и как их смягчить?"
+          "uz": "Tojikiston marshrutida uzun ko‘chishlar qayerda va ularni qanday yumshatish mumkin?"
+        "description":
+          "en": "Plan long road or rail legs as part of the product, not leftovers between hotels. Evening or overnight moves, buffer mornings, and one clear anchor per day keep Tajikistan sellable for agencies."
+          "ru": "Длинные ж/д или автомобильные участки планируйте как часть продукта, а не как остаток между отелями. Вечерние/ночные переезды, запас утра и один ясный якорь на день делают Таджикистан удобным для агентств."
+          "uz": "Uzun temiryo‘l yoki avto bo‘limlarni mehmonxona orasidagi qoldiq emas, mahsulot qismi qiling. Kechki/tungi ko‘chish, ertalab zaxirasi va kuniga bitta aniq tayanch Tojikistonni agentliklar uchun sotiladigan qiladi."
+      - "type": "destinationInsight"
+        "icon": "Mountain"
+        "title":
+          "en": "How do you mix culture and landscape in Tajikistan without overload?"
+          "ru": "Как совместить культуру и природу в программе по «Таджикистан» без перегруза?"
+          "uz": "Tojikiston dasturida madaniyat va tabiatni ortiqcha yuklamasdan qanday birlashtirish mumkin?"
+        "description":
+          "en": "Split the trip into readable chapters: heritage days, then one nature or foothill pause, then return to the main city line. Clients remember clarity more than packing every highlight into one week."
+          "ru": "Делите поездку на читаемые главы: дни наследия, затем одна природная или предгорная пауза, затем возврат к основной городской линии. Клиенты лучше помнят ясность, чем попытку уместить все хайлайты в одну неделю."
+          "uz": "Safarni o‘qiladigan boblarga bo‘ling: meros kunlari, keyin bitta tabiat yoki tog‘oldi pauza, so‘ng asosiy shahar chizig‘iga qaytish. Mijozlar bir haftaga hamma narsani tiqishdan ko‘ra aniqlikni eslaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan/country.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Plan a route through Tajikistan with TourLink"
+      "ru": "Спланируйте маршрут по Таджикистану с TourLink"
+      "uz": "TourLink bilan Tojikiston bo‘ylab marshrut rejalang"
+    "description":
+      "en": "We plan with time for the road — permits, altitude, conditions, and local teams included."
+      "ru": "Планируем с запасом на дорогу — разрешения, высота, условия и локальная команда включены."
+      "uz": "Yo‘l uchun vaqt qoldirib rejalaymiz — ruxsatnomalar, balandlik, sharoit va mahalliy jamoa bilan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+"seo":
+  "metaTitle":
+    "en": "Tajikistan | TourLink"
+    "ru": "Таджикистан | TourLink"
+    "uz": "Tojikiston | TourLink"
+  "metaDescription":
+    "en": "Tajikistan turns vertical quickly: Dushanbe starts with plane trees, fountains, and valley roads.
+
+
+      Penjikent and Sarazm open older Zeravshan history; Khorog resets the scale before the Pamirs, where altitude and weather set the pace."
+    "ru": "В Таджикистане маршрут быстро становится вертикальным: Душанбе встречает платанами, фонтанами и дорогами долин.
+
+
+      Пенджикент и Саразм открывают историю Зеравшана; Хорог меняет масштаб перед Памиром, где высота и погода задают темп."
+    "uz": "Tojikistonda yoʻl tezda balandlikka koʻtariladi: Dushanbe chinorlar, favvoralar va vodiy yoʻllari bilan boshlanadi.
+
+
+      Panjikent va Sarazm Zarafshon tarixini ochadi; Xorugʻ esa Pomir oldidan miqyosni oʻzgartiradi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"mapCenter":
+  "latitude": 38.524256
+  "longitude": 69.3078
+"badges":
+  - "FEATURED"
+  - "UNESCO"

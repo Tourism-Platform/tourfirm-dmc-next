@@ -1,79 +1,580 @@
-# Seed: коллекция countries — Kyrgyzstan
+# Generated from scrape/kyrgyzstan (multi-locale)
+"slug":
+  "en": "kyrgyzstan"
+  "ru": "kyrgyzstan"
+  "uz": "kyrgyzstan"
+"title":
+  "en": "Kyrgyzstan"
+  "ru": "Кыргызстан"
+  "uz": "Qirgʻiziston"
+"subtitle":
+  "en": "Mountains, lakes, and nomad roads"
+  "ru": "Горы, озёра и дороги кочевников"
+  "uz": "Togʻlar, koʻllar va koʻchmanchi yoʻllar"
+"excerpt":
+  "en": "At Song-Kul, summer comes late: horses move through the grass and smoke rises from a yurt stove.
 
-slug:
-  en: kyrgyzstan
-  ru: kyrgyzstan
-  uz: kyrgyzstan
-title:
-  en: Kyrgyzstan
-  ru: Кыргызстан
-  uz: Qirg'iziston
-subtitle:
-  en: Mountain rhythm
-  ru: Горный ритм
-  uz: Tog'li ritm
-excerpt:
-  en: Mountains, lakes, and nomad roads
-  ru: Горы, озёра и дороги кочевников
-  uz: Tog'lar, ko'llar va ko'chmanchi yo'llari
-mapCenter:
-  latitude: 42.8746
-  longitude: 74.5698
-heroImage: assets/images/destinations/kirgizstan.jpg
-badges:
-  - MUST_SEE
-blocks:
-  - blockType: hero
-    image: assets/images/destinations/kirgizstan.jpg
-    imageAlt:
-      en: Issyk-Kul lake and Tien Shan mountains
-      ru: Озеро Иссык-Куль и горы Тянь-Шаня
-      uz: Issiqko'l ko'li va Tyan-Shan tog'lari
-    title:
-      en: Kyrgyzstan
-      ru: Кыргызстан
-      uz: Qirg'iziston
-    description:
-      en: Mountains, lakes, and nomad roads
-      ru: Горы, озёра и дороги кочевников
-      uz: Tog'lar, ko'llar va ko'chmanchi yo'llari
-    note:
-      en: A mountain country where yurt stays, lake shores, and high passes set the pace of the route.
-      ru: Горная страна, где юрты, берега озёр и высокие перевалы задают ритм маршрута.
-      uz: Yurtlar, ko'l qirg'oqlari va baland o'tishlar marshrut ritmini belgilaydigan tog'li mamlakat.
-    actions:
-      - type: mailto
-        variant: default
-        title:
-          en: Request a tour
-          ru: Запросить тур
-          uz: Tur so'rash
-        email: info@tourlink.uz
-  - blockType: regular
-    eyebrow:
-      en: Key cities
-      ru: Ключевые города
-      uz: Asosiy shaharlar
-    title:
-      en: Where routes usually start
-      ru: Откуда обычно начинаются маршруты
-      uz: Marshrutlar odatda qayerdan boshlanadi
-    description:
-      en: "Bishkek, Issyk-Kul, Karakol, and Son-Kul — capital calm, alpine water, eastern valleys, and high pasture nights."
-      ru: "Бишкек, Иссык-Куль, Каракол и Сон-Куль — столица, альпийская вода, восточные долины и ночи на высоких пастбищах."
-      uz: "Bishkek, Issiqko'l, Karakol va Son-Kul — poytaxt, alp suvi, sharqiy vodiy va baland yaylov kechalari."
-seo:
-  metaTitle:
-    en: Kyrgyzstan tours | TourLink
-    ru: Туры в Кыргызстан | TourLink
-    uz: Qirg'izistonda turlar | TourLink
-  metaDescription:
-    en: Mountains, lakes, and nomad roads across Kyrgyzstan — routes coordinated by TourLink DMC.
-    ru: Горы, озёра и дороги кочевников по Кыргызстану — маршруты от DMC TourLink.
-    uz: Qirg'iziston bo'ylab tog'lar, ko'llar va ko'chmanchi yo'llari — TourLink DMC marshrutlari.
-  structuredDataType: TouristDestination
-status:
-  showInSitemap: true
-  noindex: false
-  hideFromNavigation: false
-  publishedAt: "2025-06-01"
+
+    Bishkek, Issyk-Kul, Karakol, and Osh show Kyrgyzstan through high pastures, blue water, mountain roads, and the old Silk Road."
+  "ru": "На Сон-Куле лето приходит поздно: лошади идут по траве, из юрты тянется дым.
+
+
+    Бишкек, Иссык-Куль, Каракол и Ош раскрывают Кыргызстан через высокие пастбища, синюю воду, горные дороги и старый Шёлковый путь."
+  "uz": "Soʻng-Koʻlda yoz kech keladi: otlar oʻtloqda yuradi, oʻtovdan tutun koʻtariladi.
+
+
+    Bishkek, Issiqkoʻl, Qorakoʻl va Oʻsh Qirgʻizistonni baland yaylovlar, moviy suv, togʻ yoʻllari va eski Ipak yoʻli orqali ochadi."
+"heroImage": "assets/images/destinations/kyrgyzstan/country.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kyrgyzstan/country.webp"
+    "imageAlt":
+      "en": "Kyrgyzstan"
+      "ru": "Кыргызстан"
+      "uz": "Qirgʻiziston"
+    "title":
+      "en": "Kyrgyzstan"
+      "ru": "Кыргызстан"
+      "uz": "Qirgʻiziston"
+    "description":
+      "en": "Song-Kul, Issyk-Kul, Karakol and Osh — mountains, pastures, and road rhythm."
+      "ru": "Сон-Куль, Иссык-Куль, Каракол и Ош — горы, джайлоо и ритм дороги."
+      "uz": "So‘ngko‘l, Issiqko‘l, Qorako‘l va O‘sh — tog‘lar, yaylovlar va yo‘l ritmi."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О стране"
+      "uz": "Mamlakat haqida"
+    "title":
+      "en": "Kyrgyzstan"
+      "ru": "Кыргызстан"
+      "uz": "Qirgʻiziston"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Kyrgyzstan is read through the road — high pastures, lake light, and mountain passes that set the pace."
+              "ru": "Кыргызстан читается по дороге — джайлоо, свет озера и перевалы, которые задают темп."
+              "uz": "Qirgʻiziston yoʻl orqali oʻqiladi — yaylovlar, koʻl nuri va surʼatni belgilaydigan dovonlar."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Bishkek opens the valley gateway; Issyk-Kul and Karakol hold water, mountains and seasonal rhythm; Osh brings Silk Road south and a different city scale. Drivers, hosts and altitude matter as much as sights — the product works when road time is designed, not improvised."
+              "ru": "Бишкек открывает долину; Иссык-Куль и Каракол держат воду, горы и сезонный ритм; Ош приносит южный Шёлковый путь и другой масштаб города. Водители, хозяева и высота важны не меньше достопримечательностей — продукт работает, когда дорога спроектирована, а не импровизирована."
+              "uz": "Bishkek vodiy darvozasini ochadi; Issiqkoʻl va Qorakoʻl suv, togʻ va mavsum ritmini ushlaydi; Oʻsh janubiy Ipak yoʻli va boshqa shahar miqyosini olib keladi. Haydovchi, mezbon va balandlik diqqatga sazovor joylardek muhim — mahsulot yoʻl improvisatsiya emas, loyiha boʻlganda ishlaydi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Season, altitude and comfort level decide whether the journey stays soft or goes deeper into the mountains."
+              "ru": "Сезон, высота и уровень комфорта решают, останется ли поездка мягкой или уйдёт глубже в горы."
+              "uz": "Mavsum, balandlik va qulaylik darajasi safar yumshoq qolishini yoki togʻlarga chuqurroq ketishini belgilaydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Clients who want landscape and living culture — yurt stays, lake days, mountain roads — with a DMC that respects weather and driving reality."
+              "ru": "Клиентам, которым нужны пейзаж и живая культура — юрты, озёрные дни, горные дороги — и DMC, который уважает погоду и реальность дороги."
+              "uz": "Manzara va tirik madaniyatni xohlagan mijozlar — oʻtov, koʻl kunlari, togʻ yoʻllari — va ob-havo hamda yoʻl haqiqatini hurmat qiladigan DMC."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Route logic"
+      "ru": "Логика маршрута"
+      "uz": "Yo‘nalish mantig‘i"
+    "title":
+      "en": "How routes take shape in Kyrgyzstan"
+      "ru": "Как складывается маршрут по Кыргызстану"
+      "uz": "Qirg‘iziston bo‘ylab yo‘nalish qanday tuziladi"
+    "description":
+      "en": "Bishkek gives the first city rhythm, Karakol opens the Issyk-Kul and mountain side, and Osh carries the journey toward the southern Silk Road."
+      "ru": "Бишкек даёт первый городской ритм, Каракол открывает сторону Иссык-Куля и гор, а Ош ведёт маршрут к южной линии Шёлкового пути."
+      "uz": "Bishkek birinchi shahar ritmini beradi, Karakol Issiqko‘l va tog‘ tomonni ochadi, O‘sh esa yo‘nalishni janubiy Ipak yo‘liga olib boradi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route anchors"
+        "ru": "Ориентиры маршрута"
+        "uz": "Yo‘nalish tayanchlari"
+      "title":
+        "en": "Capital, lake side, and southern road"
+        "ru": "Столица, озёрная сторона и южная дорога"
+        "uz": "Poytaxt, ko‘l tomoni va janubiy yo‘l"
+      "description":
+        "en": "The map keeps the main anchors visible; exact timing still depends on road conditions, season, and transport checks."
+        "ru": "Карта удерживает главные опоры маршрута; точное время всё равно зависит от дороги, сезона и проверки транспорта."
+        "uz": "Xarita asosiy tayanchlarni ko‘rsatadi; aniq vaqt yo‘l holati, mavsum va transport tekshiruviga bogʻliq."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.3775
+      "longitude": 64.5853
+    "zoom": 6
+    "stops":
+      - "entityType": "region"
+        "entitySlug": "bishkek-and-chuy-foothills"
+      - "entityType": "region"
+        "entitySlug": "issyk-kul-and-karakol"
+      - "entityType": "region"
+        "entitySlug": "osh-and-southern-silk-road"
+      - "entityType": "region"
+        "entitySlug": "jalal-abad-and-arslanbob"
+      - "entityType": "region"
+        "entitySlug": "naryn-song-kul-and-central-tian-shan"
+    "aside":
+      "eyebrow":
+        "en": "Route rhythm"
+        "ru": "Ритм маршрута"
+        "uz": "Yo‘nalish surʼati"
+      "title":
+        "en": "Start with the road rhythm"
+        "ru": "Сначала ритм дороги"
+        "uz": "Avval yo‘l surʼati"
+      "description":
+        "en": "Kyrgyzstan becomes clearer when Bishkek, Issyk-Kul and Karakol, and Osh are planned as separate anchors, with weather and road time kept honest."
+        "ru": "Кыргызстан становится понятнее, когда Бишкек, Иссык-Куль с Караколом и Ош идут как отдельные опоры маршрута, а погода и время в пути учтены честно."
+        "uz": "Bishkek, Issiqkoʻl va Qorakoʻl hamda Oʻsh alohida tayanch bo‘lib turganda, ob-havo va yo‘l vaqti ochiq hisoblanganda Qirgʻiziston aniqroq o‘qiladi."
+      "items":
+        - "title":
+            "en": "Bishkek first"
+            "ru": "Сначала Бишкек"
+            "uz": "Avval Bishkek"
+          "description":
+            "en": "The capital gives the route a calm start with squares, museums, bazaars, and the first view of the Tian Shan."
+            "ru": "Столица даёт спокойный старт: площади, музеи, базары и первый вид на Тянь-Шань."
+            "uz": "Poytaxt maydonlar, muzeylar, bozorlar va Tyanshan tomon birinchi ko‘rinish bilan sokin boshlanish beradi."
+          "badge":
+            "en": "arrival"
+            "ru": "прилёт"
+            "uz": "kelish"
+        - "title":
+            "en": "Karakol and the eastern lake side"
+            "ru": "Каракол и восточная сторона озера"
+            "uz": "Karakol va ko‘lning sharqiy tomoni"
+          "description":
+            "en": "Karakol keeps city, wooden landmarks, food, valleys, and high-mountain choices close enough to plan clearly."
+            "ru": "Каракол помогает связать город, деревянные памятники, еду, долины и горные выезды без лишней путаницы."
+            "uz": "Karakol shahar, yog‘och yodgorliklar, taom, vodiylar va tog‘ yo‘llarini tushunarli tartibda ushlab turadi."
+          "badge":
+            "en": "lake side"
+            "ru": "озеро"
+            "uz": "ko‘l tomoni"
+        - "title":
+            "en": "Osh turns the route south"
+            "ru": "Ош разворачивает маршрут на юг"
+            "uz": "O‘sh yo‘nalishni janubga buradi"
+          "description":
+            "en": "Sulaiman-Too, bazaar lanes, and the road toward the Alay make Osh a different southern anchor, not a repeat of the capital."
+            "ru": "Сулейман-Тоо, базарные ряды и дорога к Алаю делают Ош отдельной южной опорой, а не повтором столицы."
+            "uz": "Sulaymon-Too, bozor yo‘laklari va Oloy tomonga yo‘l O‘shni poytaxt takrori emas, alohida janubiy tayanch qiladi."
+          "badge":
+            "en": "south"
+            "ru": "юг"
+            "uz": "janub"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Route ideas"
+      "ru": "Идеи маршрута"
+      "uz": "Yoʻnalish gʻoyalari"
+    "title":
+      "en": "Kyrgyzstan routes by request"
+      "ru": "Маршруты по Кыргызстану под запрос"
+      "uz": "Qirgʻiziston yoʻnalishlari soʻrov bo‘yicha"
+    "description":
+      "en": "Mountain routes, lake journeys, and cross-border programs can be shaped around weather, road time, and local hosts."
+      "ru": "Горные маршруты, озёрные дороги и программы через границу можно собрать с учётом погоды, времени в пути и местных хозяев."
+      "uz": "Togʻ yoʻnalishlari, koʻl yoʻllari va chegaradan oʻtadigan dasturlar ob-havo, yoʻl va mahalliy mezbonlar ritmiga moslab tuziladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Tourist regions"
+      "ru": "Туристические регионы"
+      "uz": "Turistik hududlar"
+    "title":
+      "en": "Regions of Kyrgyzstan"
+      "ru": "Регионы Кыргызстана"
+      "uz": "Qirgʻiziston hududlari"
+    "description":
+      "en": "Kyrgyzstan is easier to plan through travel regions: Bishkek & Chuy Foothills, Issyk-Kul & Karakol, Osh & the Southern Silk Road, plus near-term mountain and forest routes around Naryn/Song-Kul and Jalal-Abad/Arslanbob."
+      "ru": "Кыргызстан удобнее планировать через туристические регионы: Бишкек и предгорья Чуйской долины, Иссык-Куль и Каракол, Ош и Южный Шёлковый путь, а также ближайшие горные и лесные маршруты вокруг Нарына/Сон-Куля и Джалал-Абада/Арсланбоба."
+      "uz": "Qirgʻizistonni turistik hududlar orqali rejalash osonroq: Bishkek va Chuy etaklari, Issiqkoʻl va Qorakoʻl, Oʻsh va janubiy Ipak yoʻli, shuningdek Narin/Song-Koʻl va Jalolobod/Arslonbob atrofidagi yaqin togʻ va o‘rmon yoʻnalishlari."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/region-bishkek-and-chuy-foothills.webp"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Bishkek & Chuy Foothills"
+          "ru": "Бишкек и предгорья Чуйской долины"
+          "uz": "Bishkek va Chuy etaklari"
+        "description":
+          "en": "Bishkek, Burana, and the Chuy foothills give Kyrgyzstan a calm first frame: city orientation, Silk Road memory, and nearby mountain air."
+          "ru": "Бишкек, Бурана и Чуйские предгорья дают Кыргызстану спокойный первый кадр: городскую ориентацию, память Шёлкового пути и близкий горный воздух."
+          "uz": "Bishkek, Burana va Chuy etaklari Qirgʻizistonga sokin birinchi yoʻnalish beradi: shahar moʻljali, Ipak yoʻli xotirasi va yaqin togʻ havosi."
+        "ctaHref": "/destinations/kyrgyzstan/bishkek-and-chuy-foothills"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/region-issyk-kul-and-karakol.webp"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Issyk-Kul & Karakol"
+          "ru": "Иссык-Куль и Каракол"
+          "uz": "Issiqkoʻl va Qorakoʻl"
+        "description":
+          "en": "Issyk-Kul & Karakol leads from Kyrgyzstan's lake road to Karakol food, wooden landmarks, red canyons, south-shore villages, and Terskey Ala-Too valleys."
+          "ru": "Иссык-Куль и Каракол ведут от озёрной дороги Кыргызстана к дунганской еде, деревянным ориентирам, красным каньонам, южному берегу и долинам Терскей Ала-Тоо."
+          "uz": "Issiqkoʻl va Qorakoʻl Qirgʻizistonning koʻl yoʻlini Qorakoʻl taomi, yogʻoch inshootlar, qizil daralar, janubiy qirgʻoq va Terskey Ala-Too vodiylariga olib boradi."
+        "ctaHref": "/destinations/kyrgyzstan/issyk-kul-and-karakol"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/region-osh-and-southern-silk-road.webp"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Osh & Southern Silk Road"
+          "ru": "Ош и Южный Шёлковый путь"
+          "uz": "Oʻsh va Janubiy Ipak yoʻli"
+        "description":
+          "en": "Osh and the southern Silk Road bring Kyrgyzstan into warmer rhythm: Sulaiman-Too, bazaar streets, Uzgen brickwork, and the road toward Alay."
+          "ru": "Ош и Южный Шёлковый путь показывают Кыргызстан с юга: Сулайман-Тоо, базарные улицы, кирпичная архитектура Узгена и дорога к Алаю."
+          "uz": "Oʻsh va janubiy Ipak yoʻli Qirgʻizistonning janubini ochadi: Sulaymon-Too, bozor koʻchalari, Oʻzgan gʻisht meʼmorchiligi va Oloy yoʻli."
+        "ctaHref": "/destinations/kyrgyzstan/osh-and-southern-silk-road"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/region-jalal-abad-and-arslanbob.webp"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Jalal-Abad & Arslanbob"
+          "ru": "Джалал-Абад и Арсланбоб"
+          "uz": "Jalolobod va Arslonbob"
+        "description":
+          "en": "Jalal-Abad & Arslanbob opens Kyrgyzstan's western road through Jalal-Abad / Manas, Arslanbob's walnut-forest village rhythm, and the protected lake country of Sary-Chelek."
+          "ru": "Джалал-Абад и Арсланбоб открывают западный маршрут Кыргызстана через Джалал-Абад / Манас, деревенский ритм Арсланбоба у орехового леса и озёрную природу Сары-Челека."
+          "uz": "Jalolobod va Arslonbob Qirgʻizistonning gʻarbiy yoʻlini Jalolobod / Manas, Arslonbobning yongʻoq oʻrmoni qishloq ritmi va Sary-Chelek koʻl tabiati orqali ochadi."
+        "ctaHref": "/destinations/kyrgyzstan/jalal-abad-and-arslanbob"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/regions/region-naryn-song-kul-and-central-tian-shan.webp"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Naryn, Song-Kul & Central Tian Shan"
+          "ru": "Нарын, Сон-Куль и Центральный Тянь-Шань"
+          "uz": "Narin, Song-Koʻl va Markaziy Tyan-Shan"
+        "description":
+          "en": "Naryn, Song-Kul & Central Tian Shan carries Kyrgyzstan into high country: Kochkor craft stops, the Naryn road, Song-Kul yurt camps, and Tash Rabat's caravanserai valley."
+          "ru": "Нарын, Сон-Куль и Центральный Тянь-Шань выводят маршрут Кыргызстана в высокогорье: ремесленный Кочкор, дороги вдоль Нарына, юрты Сон-Куля и долину караван-сарая Таш-Рабат."
+          "uz": "Narin, Song-Koʻl va Markaziy Tyan-Shan Qirgʻiziston yoʻnalishini baland hududga olib chiqadi: Kochkor hunarmandchiligi, Narin daryosi yoʻllari, Song-Koʻl oʻtovlari va Tash Rabat vodiysi."
+        "ctaHref": "/destinations/kyrgyzstan/naryn-song-kul-and-central-tian-shan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "When to go"
+      "ru": "Когда ехать"
+      "uz": "Qachon borish"
+    "title":
+      "en": "Seasonal rhythm"
+      "ru": "Сезонный ритм"
+      "uz": "Mavsumiy surʼat"
+    "description":
+      "en": "Altitude, lake roads, pasture access, and city walking rhythm shape the right season."
+      "ru": "Высота, дороги к озеру, доступ к пастбищам и городские прогулки помогают выбрать правильный сезон."
+      "uz": "Balandlik, ko‘l yo‘llari, yaylovlarga chiqish va shahar sayrlari to‘g‘ri mavsumni tanlashga yordam beradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-4"
+    "cards":
+      - "type": "tripFormat"
+        "icon": "Flower2"
+        "badge":
+          "en": "Spring March–May"
+          "ru": "Весна март – май"
+          "uz": "Bahor mart – may"
+        "title":
+          "en": "Spring"
+          "ru": "Весна"
+          "uz": "Bahor"
+        "description":
+          "en": "Spring starts in Bishkek and the lower valleys, not in the high pastures. March is still early, April brings green foothills, and May is good for cultural routes, Burana, Osh, and lower trails. Song-Kul and high passes usually need more patience."
+          "ru": "Весна начинается в Бишкеке и нижних долинах, а не на высоких пастбищах. Март ещё ранний, апрель зеленит предгорья, май подходит для культурных маршрутов, Бураны, Оша и лёгких троп. Сон-Куль и перевалы обычно требуют терпения."
+          "uz": "Bahor baland yaylovlarda emas, Bishkek va past vodiylarda boshlanadi. Mart hali erta, aprel togʻ etaklarini yashartiradi, may esa madaniy marshrutlar, Burana, Oʻsh va yengil yoʻllar uchun qulay. Soʻng-Koʻl va dovonlar odatda koʻproq sabr talab qiladi."
+      - "type": "tripFormat"
+        "icon": "Sun"
+        "badge":
+          "en": "Summer June–August"
+          "ru": "Лето июнь – август"
+          "uz": "Yoz iyun – avgust"
+        "title":
+          "en": "Summer"
+          "ru": "Лето"
+          "uz": "Yoz"
+        "description":
+          "en": "This is Kyrgyzstan's main season. Yurts return to jailoo, lake roads become reliable, and long days make mountain routes work. July and August are the busiest around Issyk-Kul, so we plan the rhythm carefully: early starts, quieter valleys, and enough time between drives."
+          "ru": "Главный сезон Кыргызстана. Юрты возвращаются на джайлоо, озёрные дороги становятся надёжнее, длинный день помогает строить горные маршруты. В июле и августе Иссык-Куль оживлён, поэтому важен правильный ритм: ранние выезды, тихие долины и запас между переездами."
+          "uz": "Bu Qirgʻizistonning asosiy mavsumi. Oʻtovlar yaylovga qaytadi, koʻl yoʻllari ishonchliroq boʻladi, uzun kunlar togʻ marshrutlariga imkon beradi. Iyul va avgustda Issiqkoʻl gavjum, shuning uchun ritm muhim: erta chiqish, tinch vodiylar va yoʻllar orasida yetarli vaqt."
+      - "type": "tripFormat"
+        "icon": "Leaf"
+        "badge":
+          "en": "Autumn September–November"
+          "ru": "Осень сентябрь – ноябрь"
+          "uz": "Kuz sentabr – noyabr"
+        "title":
+          "en": "Autumn"
+          "ru": "Осень"
+          "uz": "Kuz"
+        "description":
+          "en": "September is often the most balanced month: clear air, fewer vehicles on lake roads, and strong light in the valleys. October can be beautiful but needs a softer route shape. November is already a city-and-lowland month, with high routes closing as snow returns."
+          "ru": "Сентябрь часто самый сбалансированный месяц: чистый воздух, меньше машин у озера и сильный свет в долинах. Октябрь может быть красивым, но требует честного маршрута. Ноябрь — уже месяц городов и низин, пока снег возвращается на высоту."
+          "uz": "Sentabr koʻpincha eng muvozanatli oy: tiniq havo, koʻl yoʻllarida kamroq mashina va vodiylarda kuchli nur. Oktabr chiroyli boʻlishi mumkin, lekin real marshrut talab qiladi. Noyabr esa qor balandlikka qaytadigan shahar va past vodiylar oyidir."
+      - "type": "tripFormat"
+        "icon": "Snowflake"
+        "badge":
+          "en": "Winter December–February"
+          "ru": "Зима декабрь – февраль"
+          "uz": "Qish dekabr – fevral"
+        "title":
+          "en": "Winter"
+          "ru": "Зима"
+          "uz": "Qish"
+        "description":
+          "en": "Winter is not the season for open-ended mountain travel. Roads, daylight, and weather set the limits. Bishkek, Osh, Karakol, and selected winter landscapes can still work when the day stays compact and honest about cold, snow, and road conditions."
+          "ru": "Зима меняет Кыргызстан на более короткие и спокойные дни. Дороги, свет и погода задают границы; Бишкек, Ош, Каракол и отдельные зимние пейзажи остаются живыми, если вы принимаете холод, снег и более медленный темп."
+          "uz": "Qish erkin togʻ sayohati uchun mavsum emas. Yoʻllar, kun uzunligi va ob-havo chegarani belgilaydi. Bishkek, Oʻsh, Qorakoʻl va ayrim qishki manzaralar ishlashi mumkin, ammo dastur ixcham va sovuq, qor, yoʻl sharoitiga nisbatan halol boʻlishi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Planning basics"
+      "ru": "Планирование"
+      "uz": "Rejalash asoslari"
+    "title":
+      "en": "Practical starting points"
+      "ru": "Практичные ориентиры"
+      "uz": "Amaliy boshlangʻich nuqtalar"
+    "description":
+      "en": ""
+      "ru": ""
+      "uz": ""
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-4"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "Passport"
+        "title":
+          "en": "Visa"
+          "ru": "Виза"
+          "uz": "Viza"
+        "description":
+          "en": "Visa Check by passport
+
+
+            Visa-free and e-visa rules depend on passport and stay length. Check the official rule before dates feel final."
+          "ru": "Виза Проверить по паспорту
+
+
+            Безвизовый въезд и e-visa зависят от паспорта и срока поездки. Проверьте официальное правило до финального маршрута."
+          "uz": "Viza Pasport bo‘yicha tekshiring
+
+
+            Vizasiz kirish va e-visa qoidalari pasport va qolish muddatiga bogʻliq. Yakuniy marshrutdan oldin rasmiy qoidani tekshiring."
+      - "type": "destinationInsight"
+        "icon": "Wallet"
+        "title":
+          "en": "Money"
+          "ru": "Деньги"
+          "uz": "Pul"
+        "description":
+          "en": "Money Kyrgyz som, cards, cash
+
+
+            Cards work in Bishkek and larger towns. Carry cash for guesthouses, markets, yurt camps, mountain routes, and small cafes."
+          "ru": "Деньги Сом, карты, наличные
+
+
+            Карты работают в Бишкеке и крупных городах. Наличные нужны для гостевых домов, базаров, юрточных лагерей и горных маршрутов."
+          "uz": "Pul Qirgʻiz somi, karta, naqd
+
+
+            Kartalar Bishkek va yirik shaharlarda ishlaydi. Mehmon uylari, bozorlar, o‘tov lagerlari va tog‘ yo‘llari uchun naqd kerak."
+      - "type": "destinationInsight"
+        "icon": "ShieldCheck"
+        "title":
+          "en": "Safety"
+          "ru": "Безопасность"
+          "uz": "Xavfsizlik"
+        "description":
+          "en": "Safety Prepare for altitude and weather
+
+
+            The main risks are practical: altitude, weather, long drives, and remote roads. A slower route often feels better than a fast one."
+          "ru": "Безопасность Готовьтесь к высоте и погоде"
+          "uz": "Xavfsizlik Balandlik va ob-havoga tayyorlaning"
+      - "type": "destinationInsight"
+        "icon": "Train"
+        "title":
+          "en": "Transport"
+          "ru": "Транспорт"
+          "uz": "Yo‘l va transport"
+        "description":
+          "en": "Transport Roads decide timing
+
+
+            Distances can look short on the map. Mountain roads, passes, and weather often decide how the day feels."
+          "ru": "Транспорт Дороги решают время
+
+
+            На карте расстояния выглядят короткими. В реальности день часто определяют перевалы, состояние дороги и погода."
+          "uz": "Yo‘l va transport Yo‘l vaqtni belgilaydi
+
+
+            Xaritada masofalar qisqa ko‘rinadi. Amalda kunni ko‘pincha dovon, yo‘l holati va ob-havo belgilaydi."
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Routes in detail"
+      "ru": "Маршруты в деталях"
+      "uz": "Marshrutlar batafsil"
+    "title":
+      "en": "How route pace works in practice"
+      "ru": "Как темп маршрута работает на практике"
+      "uz": "Marshrut sur’ati amalda qanday ishlaydi"
+    "description":
+      "en": "Use these notes to brief clients on transfers and overnight logic in Kyrgyzstan."
+      "ru": "Используйте эти заметки для брифа клиентов по переездам и логике ночёвок в Кыргызстан."
+      "uz": "Ko‘chishlar va tunash mantig‘i bo‘yicha mijoz brifi uchun ushbu izohlardan foydalaning (Qirgʻiziston)."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many nights work for a first trip to Kyrgyzstan?"
+          "ru": "Сколько ночей оптимально для первой поездки (Кыргызстан)?"
+          "uz": "Qirgʻizistonga birinchi safar uchun necha tun yetarli?"
+        "description":
+          "en": "For a first programme, 8–12 nights usually holds: keep the classic spine readable, then add one extension only if the season and group pace allow it. Use “Mountains, lakes, and nomad roads” as the brief for what the country actually sells."
+          "ru": "Для первой программы обычно хватает 8–12 ночей: держите классическую линию читаемой и добавляйте одно расширение только если сезон и темп группы позволяют. Ориентир страны — «Горы, озёра и дороги кочевников»."
+          "uz": "Birinchi dastur uchun odatda 8–12 tun yetadi: klassik chiziqni o‘qiladigan tuting, kengaytmani esa mavsum va guruh sur’ati ruxsat bersagina qo‘shing. Mamlakat brifi — «Togʻlar, koʻllar va koʻchmanchi yoʻllar»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Where are the long transfers in Kyrgyzstan, and how do you soften them?"
+          "ru": "Где в маршруте по стране «Кыргызстан» длинные переезды и как их смягчить?"
+          "uz": "Qirgʻiziston marshrutida uzun ko‘chishlar qayerda va ularni qanday yumshatish mumkin?"
+        "description":
+          "en": "Plan long road or rail legs as part of the product, not leftovers between hotels. Evening or overnight moves, buffer mornings, and one clear anchor per day keep Kyrgyzstan sellable for agencies."
+          "ru": "Длинные ж/д или автомобильные участки планируйте как часть продукта, а не как остаток между отелями. Вечерние/ночные переезды, запас утра и один ясный якорь на день делают Кыргызстан удобным для агентств."
+          "uz": "Uzun temiryo‘l yoki avto bo‘limlarni mehmonxona orasidagi qoldiq emas, mahsulot qismi qiling. Kechki/tungi ko‘chish, ertalab zaxirasi va kuniga bitta aniq tayanch Qirgʻizistonni agentliklar uchun sotiladigan qiladi."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "How do you mix culture and landscape in Kyrgyzstan without overload?"
+          "ru": "Как совместить культуру и природу в программе по «Кыргызстан» без перегруза?"
+          "uz": "Qirgʻiziston dasturida madaniyat va tabiatni ortiqcha yuklamasdan qanday birlashtirish mumkin?"
+        "description":
+          "en": "Split the trip into readable chapters: heritage days, then one nature or foothill pause, then return to the main city line. Clients remember clarity more than packing every highlight into one week."
+          "ru": "Делите поездку на читаемые главы: дни наследия, затем одна природная или предгорная пауза, затем возврат к основной городской линии. Клиенты лучше помнят ясность, чем попытку уместить все хайлайты в одну неделю."
+          "uz": "Safarni o‘qiladigan boblarga bo‘ling: meros kunlari, keyin bitta tabiat yoki tog‘oldi pauza, so‘ng asosiy shahar chizig‘iga qaytish. Mijozlar bir haftaga hamma narsani tiqishdan ko‘ra aniqlikni eslaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kyrgyzstan/country.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Plan a route through Kyrgyzstan with TourLink"
+      "ru": "Спланируйте маршрут по Кыргызстану с TourLink"
+      "uz": "TourLink bilan Qirg‘iziston bo‘ylab marshrut rejalang"
+    "description":
+      "en": "We build journeys around altitude, seasons, driving time, and the hosts who make the road real."
+      "ru": "Строим поездки вокруг высоты, сезона, дороги и хозяев, благодаря которым маршрут становится настоящим."
+      "uz": "Balandlik, mavsum, yo‘l va marshrutni haqiqiy qiladigan mezbonlar atrofida sayohatlar quramiz."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+"seo":
+  "metaTitle":
+    "en": "Kyrgyzstan | TourLink"
+    "ru": "Кыргызстан | TourLink"
+    "uz": "Qirgʻiziston | TourLink"
+  "metaDescription":
+    "en": "At Song-Kul, summer comes late: horses move through the grass and smoke rises from a yurt stove.
+
+
+      Bishkek, Issyk-Kul, Karakol, and Osh show Kyrgyzstan through high pastures, blue water, mountain roads, and the old Silk Road."
+    "ru": "На Сон-Куле лето приходит поздно: лошади идут по траве, из юрты тянется дым.
+
+
+      Бишкек, Иссык-Куль, Каракол и Ош раскрывают Кыргызстан через высокие пастбища, синюю воду, горные дороги и старый Шёлковый путь."
+    "uz": "Soʻng-Koʻlda yoz kech keladi: otlar oʻtloqda yuradi, oʻtovdan tutun koʻtariladi.
+
+
+      Bishkek, Issiqkoʻl, Qorakoʻl va Oʻsh Qirgʻizistonni baland yaylovlar, moviy suv, togʻ yoʻllari va eski Ipak yoʻli orqali ochadi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"mapCenter":
+  "latitude": 41.961718
+  "longitude": 75.268506
+"badges":
+  - "FEATURED"
+  - "UNESCO"

@@ -1,44 +1,132 @@
-# Seed: attractions — Registan (Samarkand)
-
-slug:
-  en: registan
-  ru: registan
-  uz: registan
-title:
-  en: Registan
-  ru: Регистан
-  uz: Registon
-subtitle:
-  en: Timurid ensemble
-  ru: Тимуридский ансамбль
-  uz: Temuriylar ansambli
-excerpt:
-  en: Three madrasas, monumental facades and evening illumination — the defining image of the Silk Road.
-  ru: Три медресе, монументальные фасады и вечерняя подсветка — главный образ Шёлкового пути.
-  uz: Uchta madrasa, monumental fasadlar va kechki yoritish — Ipak yo'lining ramziy surati.
-country: uzbekistan
-region: samarkand-region
-city: samarkand
-type: LANDMARK
-importance: MUST_SEE
-latitude: 39.6547
-longitude: 66.9757
-heroImage: assets/images/city/samarkand.jpg
-blocks:
-  - blockType: hero
-    image: assets/images/city/samarkand.jpg
-    imageAlt:
-      en: Registan Square, Samarkand
-      ru: Площадь Регистан, Самарканд
-      uz: Samarqand, Registon maydoni
-    title:
-      en: Registan
-      ru: Регистан
-      uz: Registon
-    description:
-      en: Three madrasas, monumental facades and evening illumination — the defining image of the Silk Road.
-      ru: Три медресе, монументальные фасады и вечерняя подсветка — главный образ Шёлкового пути.
-      uz: Uchta madrasa, monumental fasadlar va kechki yoritish — Ipak yo'lining ramziy surati.
+# Patched attraction stub (quoted seed format)
+"slug":
+  "en": "registan"
+  "ru": "registan"
+  "uz": "registan"
+"title":
+  "en": "Registan"
+  "ru": "Регистан"
+  "uz": "Registon"
+"subtitle":
+  "en": "Timurid ensemble"
+  "ru": "Тимуридский ансамбль"
+  "uz": "Temuriylar ansambli"
+"excerpt":
+  "en": "Three madrasas, monumental facades and evening illumination — the defining image of the Silk Road."
+  "ru": "Три медресе, монументальные фасады и вечерняя подсветка — главный образ Шёлкового пути."
+  "uz": "Uchta madrasa, monumental fasadlar va kechki yoritish — Ipak yo'lining ramziy surati."
+"heroImage": "assets/images/city/samarkand.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/city/samarkand.jpg"
+    "imageAlt":
+      "en": "Registan"
+      "ru": "Регистан"
+      "uz": "Registon"
+    "title":
+      "en": "Registan"
+      "ru": "Регистан"
+      "uz": "Registon"
+    "description":
+      "en": "Timurid ensemble"
+      "ru": "Тимуридский ансамбль"
+      "uz": "Temuriylar ansambli"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Registan"
+      "ru": "Регистан"
+      "uz": "Registon"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Three madrasas, monumental facades and evening illumination — the defining image of the Silk Road."
+              "ru": "Три медресе, монументальные фасады и вечерняя подсветка — главный образ Шёлкового пути."
+              "uz": "Uchta madrasa, monumental fasadlar va kechki yoritish — Ipak yo'lining ramziy surati."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Three madrasas, monumental facades and evening illumination — the defining image of the Silk Road."
+              "ru": "Три медресе, монументальные фасады и вечерняя подсветка — главный образ Шёлкового пути."
+              "uz": "Uchta madrasa, monumental fasadlar va kechki yoritish — Ipak yo'lining ramziy surati."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Timurid ensemble."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Тимуридский ансамбль."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Temuriylar ansambli."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Registan as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Регистан как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Registon o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Registan sits on the route"
+      "ru": "Где Регистан стоит на маршруте"
+      "uz": "Registon marshrutda qayerda"
+    "description":
+      "en": "One clear point for Registan — Timurid ensemble."
+      "ru": "Одна понятная точка для «Регистан» — Тимуридский ансамбль."
+      "uz": "Registon uchun bitta aniq nuqta — Temuriylar ansambli."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Registan"
+        "ru": "Регистан"
+        "uz": "Registon"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.6547
+      "longitude": 66.9757
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "registan"
   - blockType: regular
     eyebrow:
       en: Visit tips
@@ -49,21 +137,104 @@ blocks:
       ru: Днём и вечером
       uz: Kun va kech
     description:
-      en: "Visit once in daytime for tile detail and once at dusk for atmosphere and illumination. Early morning and golden hour are most rewarding for photography."
-      ru: "Посетите днём ради деталей кафельной облицовки и на закате ради атмосферы и подсветки. Раннее утро и золотой час — лучшее время для фото."
-      uz: "Kunduzi kafel tafsilotlari, kechqurun esa muhit va yoritish uchun tashrif buyuring. Erta tong va oltin soat suratga olish uchun eng yaxshi."
-seo:
-  metaTitle:
-    en: Registan | TourLink
-    ru: Регистан | TourLink
-    uz: Registon | TourLink
-  metaDescription:
-    en: Registan ensemble in Samarkand — three madrasas and the Silk Road's defining monument.
-    ru: Ансамбль Регистана в Самарканде — три медресе и главный памятник Шёлкового пути.
-    uz: Samarqanddagi Registon ansambli — uchta madrasa va Ipak yo'lining ramziy yodgorligi.
-  structuredDataType: TouristAttraction
-status:
-  showInSitemap: true
-  noindex: false
-  hideFromNavigation: false
-  publishedAt: "2025-06-01"
+      en: Visit once in daytime for tile detail and once at dusk for atmosphere and illumination. Early morning and golden hour are most rewarding for photography.
+      ru: Посетите днём ради деталей кафельной облицовки и на закате ради атмосферы и подсветки. Раннее утро и золотой час — лучшее время для фото.
+      uz: Kunduzi kafel tafsilotlari, kechqurun esa muhit va yoritish uchun tashrif buyuring. Erta tong va oltin soat suratga olish uchun eng yaxshi.
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Registan"
+      "ru": "Что агентства спрашивают про Регистан"
+      "uz": "Agentliklar Registon haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Registan get in the day plan?"
+          "ru": "Сколько времени закладывать на Регистан в плане дня?"
+          "uz": "Registon uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "45–90 minutes is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Timurid ensemble”."
+          "ru": "Для большинства групп реалистичный диапазон — 45–90 минут. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Тимуридский ансамбль»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 45–90 daqiqa. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Temuriylar ansambli»."
+      - "type": "destinationInsight"
+        "icon": "Sunrise"
+        "title":
+          "en": "When is Registan strongest during the day?"
+          "ru": "В какое время дня Регистан раскрывается сильнее?"
+          "uz": "Registon kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer before the midday heat. That usually improves comfort, photos, and how the stop feels in the sequence around samarkand."
+          "ru": "Лучше до полуденной жары. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с samarkand."
+          "uz": "tushlik issiqligidan oldin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (samarkand atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How should Registan sit next to nearby stops?"
+          "ru": "Как поставить Регистан рядом с соседними остановками?"
+          "uz": "Registonni yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/city/samarkand.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Registan to your Uzbekistan programme"
+      "ru": "Добавьте «Регистан» в программу (Узбекистан)"
+      "uz": "Registonni Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Registan | TourLink"
+    "ru": "Регистан | TourLink"
+    "uz": "Registon | TourLink"
+  "metaDescription":
+    "en": "Registan ensemble in Samarkand — three madrasas and the Silk Road's defining monument."
+    "ru": "Ансамбль Регистана в Самарканде — три медресе и главный памятник Шёлкового пути."
+    "uz": "Samarqanddagi Registon ansambli — uchta madrasa va Ipak yo'lining ramziy yodgorligi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2025-06-01"
+"country": "uzbekistan"
+"region": "samarkand-region"
+"city": "samarkand"
+"type": "LANDMARK"
+"importance": "MUST_SEE"
+"latitude": 39.6547
+"longitude": 66.9757

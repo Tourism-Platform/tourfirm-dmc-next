@@ -1,0 +1,690 @@
+# Generated from scrape/turkmenistan (multi-locale)
+"slug":
+  "en": "ashgabat"
+  "ru": "ashgabat"
+  "uz": "ashgabat"
+"title":
+  "en": "Ashgabat"
+  "ru": "Ашхабад"
+  "uz": "Ashgabat"
+"subtitle":
+  "en": "White marble, museum rooms, and the road to Nisa"
+  "ru": "Белый мрамор, музейные залы и дорога к Нисе"
+  "uz": "Oq marmar, muzey zallari va Nisa yoʻli"
+"excerpt":
+  "en": "Ashgabat first shows Turkmenistan through formal scale, then brings it closer. White-marble avenues and ceremonial parks set the capital's public face; the State Museum, carpet galleries, and the road toward Nisa bring the visit back to objects, craft, and older history."
+  "ru": "Ашхабад сначала показывает Туркменистан с официальной стороны, а потом становится ближе. Беломраморные проспекты и церемониальные парки задают образ столицы; Государственный музей, ковровые галереи и дорога к Нисе возвращают маршрут к предметам, ремеслу и более древней истории."
+  "uz": "Ashgabat Turkmanistonni avval rasmiy ko‘rsatadi, keyin yaqinlashtiradi. Oq marmar xiyobonlar va marosim parklar poytaxt qiyofasini beradi; Davlat muzeyi, gilam galereyalari va Nisa yoʻli esa yoʻnalishni buyumlar, hunar va qadimiyroq tarixga qaytaradi."
+"heroImage": "assets/images/destinations/turkmenistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "imageAlt":
+      "en": "Ashgabat"
+      "ru": "Ашхабад"
+      "uz": "Ashgabat"
+    "title":
+      "en": "Ashgabat"
+      "ru": "Ашхабад"
+      "uz": "Ashgabat"
+    "description":
+      "en": "White marble, museum rooms, and the road to Nisa"
+      "ru": "Белый мрамор, музейные залы и дорога к Нисе"
+      "uz": "Oq marmar, muzey zallari va Nisa yoʻli"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Ashgabat"
+      "ru": "Ашхабад"
+      "uz": "Ashgabat"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Ashgabat first shows Turkmenistan through formal scale, then brings it closer."
+              "ru": "Ашхабад сначала показывает Туркменистан с официальной стороны, а потом становится ближе."
+              "uz": "Ashgabat Turkmanistonni avval rasmiy ko‘rsatadi, keyin yaqinlashtiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Ashgabat is easier to follow when the first city movement stays clear: arrival and scale, one monument park, one museum or craft stop, and a deliberate choice about Nisa."
+              "ru": "Ашхабад понятнее, когда первый городской проход держится четырёх движений: прибытие и масштаб, один монументальный парк, один музей или ремесленная остановка и осознанный выбор Нисы."
+              "uz": "Ashgabat birinchi shahar bosqichi aniq qolganda tushunarliroq: kelish va miqyos, bitta monument parki, bitta muzey yoki hunar toʻxtashi va Nisa haqida ongli qaror."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "From the outside, the capital can feel large and official. Slow the pace and step indoors once, and the city becomes easier to understand through archaeology, pattern, and craft."
+              "ru": "Снаружи столица может казаться большой и официальной. Замедлитесь и зайдите внутрь хотя бы один раз — через археологию, орнамент и ремесло город становится ближе."
+              "uz": "Poytaxt tashqaridan katta va rasmiy tuyuladi. Surʼatni sekinlatib, hech bo‘lmasa bir marta ichkariga kiring — arxeologiya, naqsh va hunar orqali shahar yaqinroq bo‘ladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Ashgabat as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Ашхабад как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Ashgabat o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "A capital day without turning it into a checklist"
+      "ru": "Столичный день без списка объектов"
+      "uz": "Roʻyxatga aylanmaydigan poytaxt kuni"
+    "description":
+      "en": "Ashgabat is easier to follow when the first city movement stays clear: arrival and scale, one monument park, one museum or craft stop, and a deliberate choice about Nisa."
+      "ru": "Ашхабад понятнее, когда первый городской проход держится четырёх движений: прибытие и масштаб, один монументальный парк, один музей или ремесленная остановка и осознанный выбор Нисы."
+      "uz": "Ashgabat birinchi shahar bosqichi aniq qolganda tushunarliroq: kelish va miqyos, bitta monument parki, bitta muzey yoki hunar toʻxtashi va Nisa haqida ongli qaror."
+    "mapPanel":
+      "eyebrow":
+        "en": "City frame"
+        "ru": "Каркас города"
+        "uz": "Shahar ramkasi"
+      "title":
+        "en": "Ashgabat before Nisa"
+        "ru": "Ашхабад перед Нисой"
+        "uz": "Nisa oldidagi Ashgabat"
+      "description":
+        "en": "Start with the capital itself. Nisa, Gokdepe, and the Ahal foothills belong as deliberate route choices, not casual additions at the end."
+        "ru": "Начинайте с самой столицы. Ниса, Гёкдепе и предгорья Ахала — осознанные продолжения маршрута, а не случайные добавления в конце."
+        "uz": "Avval poytaxtning oʻzidan boshlang. Nisa, Goʻkdepe va Ahal togʻoldilari oxirida tasodifan qoʻshiladigan joylar emas, alohida tanlanadigan davomlardir."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 37.902163
+      "longitude": 58.335592
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "independence-monument-and-park"
+      - "entityType": "attraction"
+        "entitySlug": "turkmen-carpet-museum"
+      - "entityType": "attraction"
+        "entitySlug": "national-museum-of-turkmenistan"
+      - "entityType": "attraction"
+        "entitySlug": "neutrality-monument"
+    "aside":
+      "eyebrow":
+        "en": "City sequence"
+        "ru": "Городская последовательность"
+        "uz": "Shahar ketma-ketligi"
+      "title":
+        "en": "Avenue, monument, museum, road"
+        "ru": "Проспект, монумент, музей, дорога"
+        "uz": "Xiyobon, monument, muzey, yoʻl"
+      "description":
+        "en": "From the outside, the capital can feel large and official. Slow the pace and step indoors once, and the city becomes easier to understand through archaeology, pattern, and craft."
+        "ru": "Снаружи столица может казаться большой и официальной. Замедлитесь и зайдите внутрь хотя бы один раз — через археологию, орнамент и ремесло город становится ближе."
+        "uz": "Poytaxt tashqaridan katta va rasmiy tuyuladi. Surʼatni sekinlatib, hech bo‘lmasa bir marta ichkariga kiring — arxeologiya, naqsh va hunar orqali shahar yaqinroq bo‘ladi."
+      "items":
+        - "title":
+            "en": "Understand the scale first"
+            "ru": "Сначала поймите масштаб"
+            "uz": "Avval miqyosni tushuning"
+          "description":
+            "en": "Start with avenues and public spaces so the capital's scale makes sense before you move into individual stops."
+            "ru": "Начните с проспектов и общественных пространств, чтобы столица стала понятна до отдельных остановок."
+            "uz": "Xiyobonlar va jamoat makonlaridan boshlang, shunda alohida toʻxtashlardan oldin poytaxt miqyosi tushunarli bo‘ladi."
+          "badge":
+            "en": "First impression"
+            "ru": "Первое впечатление"
+            "uz": "Birinchi taassurot"
+        - "title":
+            "en": "Choose one park carefully"
+            "ru": "Выберите один парк осознанно"
+            "uz": "Bitta parkni ongli tanlang"
+          "description":
+            "en": "Independence and Neutrality show different sides of the modern capital. You can see both, but one carefully chosen park leaves more attention for the museum rooms."
+            "ru": "Независимость и Нейтралитет показывают разные стороны современной столицы. Можно увидеть оба, но один выбранный парк оставляет больше внимания для музейных залов."
+            "uz": "Mustaqillik va Betaraflik zamonaviy shaharning turli tomonlarini ko‘rsatadi. Ikkisini ham ko‘rish mumkin, lekin bitta tanlangan park muzey zallari uchun ko‘proq eʼtibor qoldiradi."
+          "badge":
+            "en": "City symbols"
+            "ru": "Символы города"
+            "uz": "Shahar ramzlari"
+        - "title":
+            "en": "Add museum or craft time"
+            "ru": "Добавьте музей или ремесло"
+            "uz": "Muzey yoki hunar qoʻshing"
+          "description":
+            "en": "The State Museum and Carpet Museum move the visit from facades toward archaeology, pattern, and handwork."
+            "ru": "Государственный музей и Музей ковра переводят маршрут от фасадов к археологии, орнаменту и ручной работе."
+            "uz": "Davlat muzeyi va Gilam muzeyi tashrifni fasadlardan arxeologiya, naqsh va qoʻl mehnatiga olib kiradi."
+          "badge":
+            "en": "Interior stop"
+            "ru": "Остановка внутри"
+            "uz": "Ichki toʻxtash"
+        - "title":
+            "en": "Decide whether Nisa belongs today"
+            "ru": "Решите, входит ли Ниса сегодня"
+            "uz": "Nisa bugun kiradimi, alohida hal qiling"
+          "description":
+            "en": "The archaeological road changes the pace. Treat Nisa as a deliberate continuation, especially in heat or when access and timing need a same-day check."
+            "ru": "Археологическая дорога меняет темп. Относитесь к Нисе как к осознанному продолжению, особенно в жару или когда доступ и время нужно уточнить в день поездки."
+            "uz": "Arxeologik yoʻl surʼatni o‘zgartiradi. Issiqda yoki kirish va vaqtni safar kuni aniqlash kerak bo‘lganda Nisani ongli davom sifatida tanlang."
+          "badge":
+            "en": "Nisa road"
+            "ru": "Дорога к Нисе"
+            "uz": "Nisa yoʻli"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrish"
+    "title":
+      "en": "Places that make Ashgabat clear"
+      "ru": "Места, с которых понятен Ашхабад"
+      "uz": "Ashgabatni tushuntiradigan joylar"
+    "description":
+      "en": "Focus the first city movement on Ashgabat's clearest anchors: monument parks for scale, the State Museum for history, and the Carpet Museum for craft and pattern."
+      "ru": "Первый городской проход лучше держать на главных опорах Ашхабада: монументальных парках для масштаба, Государственном музее для истории и Музее ковра для ремесла и орнамента."
+      "uz": "Birinchi shahar bosqichini Ashgabatning eng aniq tayanchlarida tuting: miqyos uchun monument parklar, tarix uchun Davlat muzeyi, hunar va naqsh uchun Gilam muzeyi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Independence Monument and Park"
+          "ru": "Монумент Независимости и парк"
+          "uz": "Mustaqillik monumenti va parki"
+        "description":
+          "en": "Independence Monument and Park makes Ashgabat's civic scale physical: a broad park approach, fountains and statues, and a 118-meter column crowned with a gilded crescent and five stars. The lower form recalls a Turkmen yurt; if the Museum of Independence is open, the stop can mov"
+          "ru": "Монумент Независимости и парк делают масштаб Ашхабада физически ощутимым: широкий подход через парк, фонтаны и статуи, 118-метровая колонна с позолоченным полумесяцем и пятью звёздами. Нижняя форма монумента отсылает к туркменской юрте; если Музей Независимости открыт, остановка "
+          "uz": "Mustaqillik monumenti va parki Ashgabat miqyosini jismonan sezdiradi: park bo‘ylab keng yaqinlashuv, favvoralar va haykallar, ustida zarhal yarim oy va besh yulduz turgan 118 metrlik ustun. Pastki shakl turkman o‘tovini eslatadi; Mustaqillik muzeyi ochiq bo‘lsa, tashqi ramzlar si"
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat/independence-monument-and-park"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Neutrality Monument"
+          "ru": "Монумент Нейтралитета"
+          "uz": "Betaraflik monumenti"
+        "description":
+          "en": "Neutrality Monument rises from Ashgabat's southern ceremonial landscape as a 95-meter white-marble structure on three pylons. The form recalls a Turkmen tagan, the hearth stand, while viewing levels and the golden figure make the stop a quick lesson in how the capital uses height"
+          "ru": "Монумент Нейтралитета поднимается в южной церемониальной части Ашхабада как 95-метровое беломраморное сооружение на трёх пилонах. Его форма напоминает туркменский таган, очажную подставку; видовые уровни и золотая фигура превращают остановку в короткое объяснение того, как столиц"
+          "uz": "Betaraflik monumenti Ashgabatning janubiy tantanali hududida uch pilon ustidagi 95 metrlik oq marmar inshoot sifatida ko‘tariladi. Uning shakli turkman o‘choq taganini eslatadi; tomosha maydonchalari va oltin figura bu toʻxtashni poytaxt balandlik, marmar va ochiq maydonlar orqal"
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat/neutrality-monument"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "National Museum of Turkmenistan"
+          "ru": "Национальный музей Туркменистана"
+          "uz": "Turkmaniston Milliy muzeyi"
+        "description":
+          "en": "After Ashgabat's monument parks, the National Museum changes the scale. Ancient History, Margush, Parthia, medieval routes, carpet halls, and state symbols give the capital an interior thread before the journey turns toward Nisa, Merv, or the desert road."
+          "ru": "После монументальных парков Ашхабада Национальный музей меняет масштаб. Залы древней истории, Маргуша, Парфии, средневековых городов, ковров и государственных символов дают столице внутреннюю нить перед дорогой к Нисе, Мерву или пустыне."
+          "uz": "Ashgabatning monument parklaridan keyin Milliy muzey miqyosni o‘zgartiradi. Qadimiy tarix, Margush, Parfiya, o‘rta asr yo‘llari, gilam zallari va davlat ramzlari poytaxtga ichki mazmun beradi; keyin yo‘l Nisa, Merv yoki sahro tomonga davom etadi."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat/national-museum-of-turkmenistan"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Turkmen Carpet Museum"
+          "ru": "Музей туркменского ковра"
+          "uz": "Turkman gilami muzeyi"
+        "description":
+          "en": "After Ashgabat's white marble, monument parks, and national museum halls, the Turkmen Carpet Museum brings the route down to wool, knot, motif, and the hands behind them. Its halls are tied to a craft tradition recognized by UNESCO and to a national museum collection of about 2,0"
+          "ru": "После белого мрамора Ашхабада, монументальных парков и залов Национального музея Музей туркменского ковра приближает маршрут к шерсти, узлу, орнаменту и рукам, которые стоят за ними. Его залы связаны с ремеслом, признанным ЮНЕСКО, и с музейным собранием примерно из 2 000 редких к"
+          "uz": "Ashgabatning oq marmari, monument bog‘lari va Milliy muzey zallaridan keyin Turkman gilami muzeyi yo‘lni jun, tugun, naqsh va ularning ortidagi qo‘llarga yaqinlashtiradi. Uning zallari UNESCO tan olgan hunar anʼanasi va taxminan 2 000 nodir gilam eksponati saqlanadigan muzey to‘p"
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat/turkmen-carpet-museum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Tolkuchka / Altyn Asyr Bazaar"
+          "ru": "Толкучка / базар «Алтын Асыр»"
+          "uz": "Tolkuchka / Altyn Asyr bozori"
+        "description":
+          "en": "After Ashgabat's marble avenues, monument parks, and museum rooms, Tolkuchka / Altyn Asyr Bazaar changes the city's texture. The route moves toward market lanes, fabric, carpet rows, household goods, voices, traffic, and everyday trading on the Bagtyyarlyk side of Ashgabat. This "
+          "ru": "После мраморных проспектов, монументальных парков и музейных залов Толкучка / базар «Алтын Асыр» меняет фактуру Ашхабада. Маршрут выходит к рыночным рядам, тканям, коврам, бытовым товарам, голосам, транспорту и повседневной торговле на стороне Багтыярлыка. Это не прогулка от цент"
+          "uz": "Ashgabatning marmar xiyobonlari, monument bog‘lari va muzey zallaridan keyin Tolkuchka / Altyn Asyr bozori shahar fakturasini o‘zgartiradi. Yo‘nalish bozor yo‘laklari, matolar, gilam qatorlari, maishiy buyumlar, ovozlar, transport va Bagtyyarlyk tomonidagi kundalik savdoga olib c"
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat/tolkuchka-altyn-asyr-bazaar"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Ertugrul Gazi Mosque"
+          "ru": "Мечеть Эртугрул Гази"
+          "uz": "Ertugrul Gazi masjidi"
+        "description":
+          "en": "After Ashgabat's monument parks, wide avenues, and museum rooms, Ertugrul Gazi Mosque changes the pace. Four white minarets, a dome, a courtyard fountain, and Turkish-style detail bring the route into an active religious place rather than another ceremonial landmark. The mosque i"
+          "ru": "После монументальных парков, широких проспектов и музейных залов мечеть Эртугрул Гази меняет темп Ашхабада. Четыре белых минарета, купол, двор с фонтаном и турецкий архитектурный облик вводят маршрут в действующее религиозное пространство, а не в очередной парадный ориентир. Мече"
+          "uz": "Ashgabatning monument bog‘lari, keng xiyobonlari va muzey zallaridan keyin Ertugrul Gazi masjidi shahar surʼatini o‘zgartiradi. To‘rtta oq minora, gumbaz, favvorali hovli va turkcha meʼmoriy detal yo‘nalishni yana bir rasmiy belgiga emas, faol diniy joyga olib kiradi. Masjid Azad"
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat/ertugrul-gazi-mosque"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Turkmenbashi Ruhy Mosque"
+          "ru": "Мечеть Туркменбаши Рухы"
+          "uz": "Turkmanboshi Ruhy masjidi"
+        "description":
+          "en": "After Ashgabat's museums and monument parks, Turkmenbashi Ruhy Mosque takes the route west to Gypjak. The setting changes quickly: central-city monuments give way to a white-marble mosque complex, four high minarets, fountains, and a memorial tone that calls for a quieter visit. "
+          "ru": "После музеев и монументальных парков Ашхабада мечеть Туркменбаши Рухы выводит маршрут к Гыпджаку. Здесь меняется ощущение маршрута: центральные монументы уступают место беломраморному комплексу, четырём высоким минаретам, фонтанам и мемориальной среде, где нужна более спокойная м"
+          "uz": "Ashxobod muzeylari va monument bog‘laridan keyin Turkmanboshi Ruhy masjidi yo‘lni Gypjakka olib chiqadi. Manzara tez o‘zgaradi: markazdagi monumentlar ortda qolib, oq marmar masjid majmuasi, to‘rt baland minora, favvoralar va sokinroq tashrifni talab qiladigan xotira muhiti boshl"
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat/turkmenbashi-ruhy-mosque"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City moments"
+      "ru": "Городские моменты"
+      "uz": "Shahar lahzalari"
+    "title":
+      "en": "What brings Ashgabat closer"
+      "ru": "Что приближает Ашхабад"
+      "uz": "Ashgabatni yaqinlashtiradigan narsalar"
+    "description":
+      "en": "The strongest moments move from white-marble scale to museum rooms, carpet craft, and the first archaeological road toward Nisa."
+      "ru": "Сильнейшие моменты ведут от беломраморного масштаба к музейным залам, ковровому ремеслу и первой археологической дороге к Нисе."
+      "uz": "Eng kuchli lahzalar oq marmar miqyosdan muzey zallari, gilam hunari va Nisa tomon birinchi arxeologik yoʻlga olib boradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "National Museum before Nisa"
+          "ru": "Национальный музей перед Нисой"
+          "uz": "Nisa oldidan Milliy muzey"
+        "description":
+          "en": "The National Museum gives the capital a quieter historical stop before the route turns toward Nisa and older archaeological ground."
+          "ru": "Национальный музей даёт столице спокойную историческую остановку перед дорогой к Нисе и более древним археологическим местам."
+          "uz": "Milliy muzey poytaxtga Nisa va qadimiyroq arxeologik joylar yoʻlidan oldin sokin tarixiy toʻxtash beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Carpet craft inside the city"
+          "ru": "Ковровое ремесло в городе"
+          "uz": "Shahar ichidagi gilam hunari"
+        "description":
+          "en": "In the Carpet Museum, wool, pattern, and scale bring the capital back to handwork after its open formal spaces."
+          "ru": "В Музее ковра шерсть, орнамент и масштаб возвращают столицу к ручной работе после открытых официальных пространств."
+          "uz": "Gilam muzeyida jun, naqsh va miqyos ochiq rasmiy makonlardan keyin poytaxtni qoʻl mehnatiga qaytaradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Ashgabat in white marble"
+          "ru": "Ашхабад в белом мраморе"
+          "uz": "Oq marmardagi Ashgabat"
+        "description":
+          "en": "White stone, wide avenues, monument parks, and the Kopet Dag edge set the formal scale travelers meet on arrival."
+          "ru": "Белый камень, широкие проспекты, монументальные парки и край Копетдага задают официальный масштаб, с которым путешественник встречает столицу."
+          "uz": "Oq tosh, keng xiyobonlar, monument parklar va Kopetdog‘ cheti sayohatchi kelganda ko‘radigan rasmiy miqyosni belgilaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "How to plan the capital calmly"
+      "ru": "Как спокойно спланировать столицу"
+      "uz": "Poytaxtni sokin rejalash"
+    "description":
+      "en": "Ashgabat is easier to enjoy when the first movement stays measured: open spaces, one monument park, one museum or craft stop, and a clear decision about Nisa or the next road."
+      "ru": "Ашхабад проще почувствовать, когда первый проход остаётся размеренным: открытые пространства, один монументальный парк, музейная или ремесленная остановка и ясное решение о Нисе или следующей дороге."
+      "uz": "Ashgabat birinchi bosqich vazmin qolganida yaxshi seziladi: ochiq makonlar, bitta monument parki, muzey yoki hunar toʻxtashi va Nisa yoki keyingi yoʻl haqida aniq qaror."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Scale before detail"
+              "ru": "Масштаб до деталей"
+              "uz": "Detaldan oldin miqyos"
+            "description":
+              "en": "Keep the first movement broad. Avenues, parks, and monument silhouettes show why Ashgabat feels formal before you step inside."
+              "ru": "Первый проход лучше держать широким. Проспекты, парки и силуэты монументов объясняют официальность Ашхабада до перехода внутрь."
+              "uz": "Birinchi harakat keng qolsin. Xiyobonlar, parklar va monument siluetlari ichkariga kirishdan oldin Ashgabatning nega rasmiy tuyulishini tushuntiradi."
+          - "type": "quote"
+            "quote":
+              "en": "Ashgabat should not become a drive past white facades; one museum room or carpet motif can make the capital feel human."
+              "ru": "Ашхабад становится живее, когда это не только проезд мимо белых фасадов: один музейный зал или ковровый мотив приближает столицу."
+              "uz": "Ashgabat oq fasadlar yonidan shunchaki o‘tib ketishdek sezilmasin; bitta muzey xonasi yoki gilam naqshi poytaxtni insoniyroq qiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "A human pause"
+              "ru": "Человеческая пауза"
+              "uz": "Insoniy pauza"
+            "description":
+              "en": "Museum rooms and carpet displays bring the city closer. They bring archaeology, wool, pattern, and craft memory into a capital that can otherwise feel distant from its boulevards."
+              "ru": "Музейные залы и ковровые экспозиции приближают город. Археология, шерсть, орнамент и память ремесла делают столицу менее далёкой, чем её бульвары."
+              "uz": "Muzey zallari va gilam ekspozitsiyalari shaharni yaqinlashtiradi. Arxeologiya, jun, naqsh va hunar xotirasi poytaxtni keng xiyobonlardan ko‘ra iliqroq sezdiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "The road beyond"
+              "ru": "Дорога дальше"
+              "uz": "Keyingi yoʻl"
+            "description":
+              "en": "Nisa turns the route from capital orientation toward archaeology. Treat it as its own choice when heat, access, or onward travel toward Mary and Merv matters."
+              "ru": "Ниса переводит маршрут от столичной ориентации к археологии. Выбирайте её отдельно, особенно если важны жара, доступ или продолжение к Мары и Мерву."
+              "uz": "Nisa yoʻnalishni poytaxt moʻljalidan arxeologiyaga olib o‘tadi. Issiq, kirish yoki Mary va Merv tomon davom muhim bo‘lsa, uni alohida tanlang."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Keep the first Ashgabat movement simple: city scale, one monument park, one interior stop, and a considered choice about Nisa or the next road."
+              "ru": "Соберите первый проход просто: масштаб города, один монументальный парк, одна внутренняя остановка и осознанный выбор Нисы или следующей дороги."
+              "uz": "Birinchi Ashgabat bosqichini sodda tuting: shahar miqyosi, bitta monument parki, bitta ichki toʻxtash va Nisa yoki keyingi yoʻl haqida oʻylangan tanlov."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Stay"
+                  "ru": "Коротко Ночёвка"
+                  "uz": "Qisqacha Qolish"
+                "description":
+                  "en": "Enough for arrival, one city circuit, one museum or craft stop, and a separate Nisa decision when the route allows."
+                  "ru": "Достаточно для прибытия, одного городского круга, музея или ремесленной остановки и отдельного решения по Нисе, если маршрут позволяет."
+                  "uz": "Kelish, bitta shahar aylanishi, muzey yoki hunar toʻxtashi va yoʻnalish imkon bersa, Nisa boʻyicha alohida qaror uchun yetarli."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Yoʻldagi roli"
+                "description":
+                  "en": "Best for airport arrival, city orientation, first museum context, and the transition toward Ahal or Mary."
+                  "ru": "Удобно для прилёта, ориентации в городе, первого музейного контекста и перехода к Ахалу или Мары."
+                  "uz": "Aeroportdan kelish, shaharni anglash, birinchi muzey konteksti va Ahal yoki Mary tomonga oʻtish uchun qulay."
+              - "icon": "Sun"
+                "title":
+                  "en": "Main anchors"
+                  "ru": "Главные опоры"
+                  "uz": "Asosiy tayanchlar"
+                "description":
+                  "en": "The strongest stops pair public symbolism with archaeology, objects, and craft."
+                  "ru": "Сильнейшие остановки соединяют публичную символику с археологией, предметами и ремеслом."
+                  "uz": "Eng kuchli toʻxtashlar ommaviy ramzlarni arxeologiya, buyumlar va hunar bilan birlashtiradi."
+              - "icon": "Route"
+                "title":
+                  "en": "Light and heat"
+                  "ru": "Свет и жара"
+                  "uz": "Nur va issiq"
+                "description":
+                  "en": "Open spaces can feel exposed; museum and craft stops help balance hotter months."
+                  "ru": "Открытые пространства могут быть жёсткими; музеи и ремесленные остановки помогают уравновесить жаркие месяцы."
+                  "uz": "Ochiq makonlar qattiq sezilishi mumkin; muzey va hunar toʻxtashlari issiq oylarda safarni muvozanatlaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Where to continue"
+      "ru": "Куда продолжить"
+      "uz": "Qayerga davom etish"
+    "title":
+      "en": "Nearby places after Ashgabat"
+      "ru": "Ближайшие места после Ашхабада"
+      "uz": "Ashgabatdan keyingi yaqin joylar"
+    "description":
+      "en": "Nisa is the immediate archaeological continuation. Mary is the clearest onward city when the route turns toward Ancient Merv; other Ahal and desert roads should stay separate choices, not casual add-ons."
+      "ru": "Ниса — ближайшее археологическое продолжение. Мары — самый понятный следующий город, если маршрут уходит к древнему Мерву; дороги Ахала и пустыни лучше оставлять отдельными решениями."
+      "uz": "Nisa eng yaqin arxeologik davomdir. Yoʻnalish qadimiy Marv tomon burilsa, Mary eng tushunarli keyingi shahar bo‘ladi; Ahal va sahro yoʻllarini alohida qaror sifatida qoldirgan maʼqul."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Nisa"
+          "ru": "Ниса"
+          "uz": "Nisa"
+        "description":
+          "en": "Near Ashgabat, Nisa turns the first Turkmenistan route toward Old and New Nisa, low earthen walls, open foothill light, and Parthian history."
+          "ru": "Рядом с Ашхабадом Ниса переводит первую поездку по Туркменистану к Старой и Новой Нисе: низким земляным стенам, открытому свету предгорий и парфянской истории."
+          "uz": "Ashgabat yaqinida Nisa ilk Turkmaniston yoʻlini Eski va Yangi Nisaga, past tuproq devorlarga, ochiq togʻoldi nuriga va Parfiya tarixiga buradi."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/nisa"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Gokdepe"
+          "ru": "Гёкдепе"
+          "uz": "Goʻkdepe"
+        "description":
+          "en": "Gokdepe gives the Ashgabat route a quieter Ahal stop: mosque etiquette, the Geok Tepe fortress site, and a westward road that needs careful timing."
+          "ru": "Гёкдепе даёт маршруту из Ашхабада более тихую остановку Ахала: этикет мечети, место крепости Гёк-Тепе и дорогу, где важен точный темп."
+          "uz": "Goʻkdepe Ashxobod yoʻliga sokin Ahal toʻxtashini qoʻshadi: masjid odobi, Goʻkdepe qalʼasi joyi va aniq vaqt talab qiladigan gʻarbiy yoʻl."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/gokdepe"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Mary"
+          "ru": "Мары"
+          "uz": "Mari"
+        "description":
+          "en": "Mary is the city-side start for Ancient Merv, with arrival services, museum rooms, an overnight pause, and the road into the Murghab oasis."
+          "ru": "Мары — городское начало маршрута к древнему Мерву: прибытие, музейное введение, ночёвка и дорога в оазис Мургаба."
+          "uz": "Mari Qadimiy Marv yo‘nalishining shahar boshlanishi: kelish, muzey zallari, tunash va Murg‘ob vohasiga yo‘l."
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv/mary"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Darvaza"
+          "ru": "Дарваза"
+          "uz": "Darvoza"
+        "description":
+          "en": "Darvaza is the Karakum route leg where the crater, road hours, heat, wind, and overnight plan need a fresh local check before they belong in the journey."
+          "ru": "Дарваза - участок маршрута через Каракумы, где кратер, длинная дорога, жара, ветер и ночёвка требуют свежей местной проверки перед включением в поездку."
+          "uz": "Darvoza Qoraqum marshrutidagi yoʻl qismi: krater, uzoq yoʻl, issiq, shamol va tunash rejasi safarga kirishidan oldin mahalliy tekshiruv talab qiladi."
+        "ctaHref": "/destinations/turkmenistan/karakum-and-darvaza/darvaza"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Ashgabat in the day plan"
+      "ru": "Как поставить Ашхабад в план дня"
+      "uz": "Ashgabatni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Ashgabat?"
+          "ru": "Сколько времени группам стоит проводить в Ашхабад?"
+          "uz": "Ashgabatda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “White marble, museum rooms, and the road to Nisa”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Белый мрамор, музейные залы и дорога к Нисе»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Oq marmar, muzey zallari va Nisa yoʻli»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Ashgabat be a walkable core or a base for day trips?"
+          "ru": "Ашхабад — это пешеходное ядро или база для выездов?"
+          "uz": "Ashgabat piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Ashgabat's centre?"
+          "ru": "Где лучше ночевать относительно центра Ашхабад?"
+          "uz": "Ashgabat markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Ashgabat stop into your Turkmenistan programme"
+      "ru": "Встройте остановку «Ашхабад» в программу (Туркменистан)"
+      "uz": "Ashgabat bekatini Turkmaniston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Ashgabat | TourLink"
+    "ru": "Ашхабад | TourLink"
+    "uz": "Ashgabat | TourLink"
+  "metaDescription":
+    "en": "Ashgabat first shows Turkmenistan through formal scale, then brings it closer. White-marble avenues and ceremonial parks set the capital's public face; the State Museum, carpet galleries, and the road toward Nisa bring the visit back to objects, craft, and older history."
+    "ru": "Ашхабад сначала показывает Туркменистан с официальной стороны, а потом становится ближе. Беломраморные проспекты и церемониальные парки задают образ столицы; Государственный музей, ковровые галереи и дорога к Нисе возвращают маршрут к предметам, ремеслу и более древней истории."
+    "uz": "Ashgabat Turkmanistonni avval rasmiy ko‘rsatadi, keyin yaqinlashtiradi. Oq marmar xiyobonlar va marosim parklar poytaxt qiyofasini beradi; Davlat muzeyi, gilam galereyalari va Nisa yoʻli esa yoʻnalishni buyumlar, hunar va qadimiyroq tarixga qaytaradi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "turkmenistan"
+"region": "ashgabat-and-nisa"
+"latitude": 37.9378322
+"longitude": 58.2359467

@@ -1,0 +1,590 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "turkistan"
+  "ru": "turkistan"
+  "uz": "turkistan"
+"title":
+  "en": "Turkistan"
+  "ru": "Туркестан"
+  "uz": "Turkiston"
+"subtitle":
+  "en": "Sacred city on Kazakhstan's southern Silk Road"
+  "ru": "Священный город на южном Шёлковом пути"
+  "uz": "Janubiy Ipak yoʻlidagi muqaddas shahar"
+"excerpt":
+  "en": "Turkistan slows the southern route around the blue dome of Khoja Ahmed Yasawi. In the square and the Azret Sultan reserve, brick, blue tile, pilgrim movement, and desert-edge light make the city the quiet center before the road turns to Otrar, Sauran, Shymkent, or Sayram."
+  "ru": "Туркестан замедляет южный маршрут вокруг голубого купола Ходжи Ахмеда Ясави. На площади и в заповеднике-музее «Азрет Султан» кирпич, синяя майолика, движение паломников и свет открытого юга делают город тихим центром перед дорогой к Отрару, Саурану, Шымкенту или Сайраму."
+  "uz": "Turkiston janubiy yoʻlni Xoja Ahmad Yasaviy maqbarasining moviy gumbazi atrofida sekinlashtiradi. Maydon va Azret Sulton hududida gʻisht, moviy koshin, ziyoratchilar harakati va ochiq janub yorugʻligi shaharni Oʻtror, Sauran, Chimkent yoki Sayramdan oldingi sokin markazga aylantiradi."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "Turkistan"
+      "ru": "Туркестан"
+      "uz": "Turkiston"
+    "title":
+      "en": "Turkistan"
+      "ru": "Туркестан"
+      "uz": "Turkiston"
+    "description":
+      "en": "Sacred city on Kazakhstan's southern Silk Road"
+      "ru": "Священный город на южном Шёлковом пути"
+      "uz": "Janubiy Ipak yoʻlidagi muqaddas shahar"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Turkistan"
+      "ru": "Туркестан"
+      "uz": "Turkiston"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Turkistan slows the southern route around the blue dome of Khoja Ahmed Yasawi."
+              "ru": "Туркестан замедляет южный маршрут вокруг голубого купола Ходжи Ахмеда Ясави."
+              "uz": "Turkiston janubiy yoʻlni Xoja Ahmad Yasaviy maqbarasining moviy gumbazi atrofida sekinlashtiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "After the mausoleum and its courtyards, choose the next movement: Azret Sultan in the same heritage area, archaeology toward Otrar or Sauran, or a wider southern route through Shymkent and Sayram."
+              "ru": "После мавзолея и его дворов выберите следующее движение: «Азрет Султан» в той же зоне наследия, археологию к Отрару или Саурану либо более широкий южный маршрут через Шымкент и Сайрам."
+              "uz": "Maqbara va uning hovlilaridan keyin keyingi harakatni tanlang: o‘sha meros hududidagi Azret Sulton, Oʻtror yoki Sauran tomonga arxeologiya, yoki Chimkent va Sayram orqali kengroq janubiy yoʻl."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Let the first walk stay close to the mausoleum, then add one continuation only when heat, distance, and access make it sensible."
+              "ru": "Пусть первая прогулка останется рядом с мавзолеем; продолжение стоит добавлять только когда жара, расстояние и доступность позволяют."
+              "uz": "Birinchi yurish maqbaraga yaqin qolsin; davomini faqat issiq, masofa va kirish imkoniyati toʻgʻri kelganda qoʻshing."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Turkistan as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Туркестан как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Turkiston o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "Start with the mausoleum, then widen the route"
+      "ru": "Начните с мавзолея, затем расширяйте маршрут"
+      "uz": "Maqbaradan boshlang, keyin yoʻlni kengaytiring"
+    "description":
+      "en": "After the mausoleum and its courtyards, choose the next movement: Azret Sultan in the same heritage area, archaeology toward Otrar or Sauran, or a wider southern route through Shymkent and Sayram."
+      "ru": "После мавзолея и его дворов выберите следующее движение: «Азрет Султан» в той же зоне наследия, археологию к Отрару или Саурану либо более широкий южный маршрут через Шымкент и Сайрам."
+      "uz": "Maqbara va uning hovlilaridan keyin keyingi harakatni tanlang: o‘sha meros hududidagi Azret Sulton, Oʻtror yoki Sauran tomonga arxeologiya, yoki Chimkent va Sayram orqali kengroq janubiy yoʻl."
+    "mapPanel":
+      "eyebrow":
+        "en": "Southern points"
+        "ru": "Южные ориентиры"
+        "uz": "Janubiy moʻljallar"
+      "title":
+        "en": "Turkistan, Yasawi, and Azret Sultan"
+        "ru": "Туркестан, Ясави и «Азрет Султан»"
+        "uz": "Turkiston, Yasaviy va Azret Sulton"
+      "description":
+        "en": "Here the map stays close to Turkistan: the city, the Yasawi mausoleum, and Azret Sultan. Otrar, Sauran, Sayram, and Shymkent require separate road timing."
+        "ru": "Здесь карта остаётся близко к Туркестану: город, мавзолей Ясави и «Азрет Султан». Отрар, Сауран, Сайрам и Шымкент требуют отдельного дорожного расчёта."
+        "uz": "Bu yerda xarita Turkistonga yaqin qoladi: shahar, Yasaviy maqbarasi va Azret Sulton. Oʻtror, Sauran, Sayram va Chimkent alohida yoʻl vaqtini talab qiladi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 43.298169
+      "longitude": 68.269795
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "mausoleum-of-khoja-ahmed-yasawi"
+      - "entityType": "attraction"
+        "entitySlug": "azret-sultan-historical-cultural-reserve-museum"
+    "aside":
+      "eyebrow":
+        "en": "Visit sequence"
+        "ru": "Последовательность визита"
+        "uz": "Tashrif ketma-ketligi"
+      "title":
+        "en": "Dome, reserve, road"
+        "ru": "Купол, заповедник, дорога"
+        "uz": "Gumbaz, hudud, yoʻl"
+      "description":
+        "en": "Let the first walk stay close to the mausoleum, then add one continuation only when heat, distance, and access make it sensible."
+        "ru": "Пусть первая прогулка останется рядом с мавзолеем; продолжение стоит добавлять только когда жара, расстояние и доступность позволяют."
+        "uz": "Birinchi yurish maqbaraga yaqin qolsin; davomini faqat issiq, masofa va kirish imkoniyati toʻgʻri kelganda qoʻshing."
+      "items":
+        - "title":
+            "en": "Begin at the Yasawi mausoleum"
+            "ru": "Начните с мавзолея Ясави"
+            "uz": "Yasaviy maqbarasidan boshlang"
+          "description":
+            "en": "The dome, courtyard, and pilgrim movement give the city its first meaning."
+            "ru": "Купол, двор и движение паломников дают городу первый смысл."
+            "uz": "Gumbaz, hovli va ziyoratchilar harakati shaharga birinchi maʼno beradi."
+        - "title":
+            "en": "Keep Azret Sultan with the mausoleum"
+            "ru": "Держите «Азрет Султан» вместе с мавзолеем"
+            "uz": "Azret Sultonni maqbara bilan birga tuting"
+          "description":
+            "en": "The reserve-museum context turns the visit from one famous dome into a wider sacred district."
+            "ru": "Контекст заповедника-музея превращает визит от одного знаменитого купола в более широкую священную территорию."
+            "uz": "Qoʻriqxona-muzey konteksti tashrifni bitta mashhur gumbazdan kengroq muqaddas hududga aylantiradi."
+        - "title":
+            "en": "Give the visit quiet hours"
+            "ru": "Оставьте визиту тихие часы"
+            "uz": "Tashrifga sokin soatlar bering"
+          "description":
+            "en": "Morning, late afternoon, shade, and prayer-time awareness matter more than a long object list."
+            "ru": "Утро, поздний день, тень и внимание к времени молитвы важнее длинного списка объектов."
+            "uz": "Tong, kechki payt, soya va ibodat vaqtiga eʼtibor uzun roʻyxatdan muhimroq."
+        - "title":
+            "en": "Choose one outer direction"
+            "ru": "Выберите одно внешнее направление"
+            "uz": "Bitta tashqi yoʻnalishni tanlang"
+          "description":
+            "en": "Otrar and Sauran make the route archaeological; Shymkent gives city life; Sayram adds pilgrimage memory."
+            "ru": "Отрар и Сауран делают маршрут археологическим; Шымкент добавляет городскую жизнь; Сайрам — паломническую память."
+            "uz": "Oʻtror va Sauran yoʻlni arxeologik qiladi; Chimkent shahar hayotini beradi; Sayram ziyorat xotirasini qoʻshadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "The places that make Turkistan clear"
+      "ru": "Места, с которых понятен Туркестан"
+      "uz": "Turkistonni tushuntiradigan joylar"
+    "description":
+      "en": "The first city walk belongs around the Yasawi mausoleum and Azret Sultan. Otrar, Sauran, Arystan Bab, Hilvet, and Karavan Saray change the route only when time and access are checked."
+      "ru": "Первая городская прогулка принадлежит мавзолею Ясави и «Азрет Султан». Отрар, Сауран, Арыстан-Баб, Хильвет и Karavan Saray меняют маршрут только когда проверены время и доступность."
+      "uz": "Birinchi shahar yurishi Yasaviy maqbarasi va Azret Sultonga tegishli. Oʻtror, Sauran, Arystan Bab, Hilvet va Karavan Saray faqat vaqt va kirish tekshirilganda yoʻlni o‘zgartiradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Mausoleum of Khoja Ahmed Yasawi"
+          "ru": "Мавзолей Ходжи Ахмеда Ясави"
+          "uz": "Xoja Ahmad Yasaviy maqbarasi"
+        "description":
+          "en": "The Mausoleum of Khoja Ahmed Yasawi anchors Turkistan before anything else. Its Timurid dome, fired-brick mass, and wide courtyard carry the memory of the Sufi teacher while pilgrims, families, and travelers keep the place active today."
+          "ru": "Мавзолей Ходжи Ахмеда Ясави — главный ориентир Туркестана. Тимуридский купол, кирпичный масштаб и широкий двор хранят память суфийского учителя, а паломники, семьи и путешественники поддерживают здесь живое движение."
+          "uz": "Xoja Ahmad Yasaviy maqbarasi Turkistonning eng muhim moʻljali. Temuriy gumbaz, pishiq gʻishtdan qurilgan katta hajm va keng hovli soʻfiy ustoz xotirasini saqlaydi; ziyoratchilar, oilalar va sayohatchilar esa bu joyga bugun ham hayot beradi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/turkistan/mausoleum-of-khoja-ahmed-yasawi"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Azret Sultan Historical-Cultural Reserve-Museum"
+          "ru": "Историко-культурный заповедник-музей «Азрет Султан»"
+          "uz": "Azret Sulton tarixiy-madaniy qoʻriqxona-muzeyi"
+        "description":
+          "en": "At Azret Sultan, the visit stays close to the Yasawi mausoleum but opens into the surrounding reserve-museum grounds. Open space, museum setting, and pilgrim movement help travelers understand why this part of Turkistan is treated as more than a single monument."
+          "ru": "В «Азрет Султане» маршрут остаётся рядом с мавзолеем Ясави, но раскрывается через территорию заповедника-музея. Открытые пространства, музейная среда и движение паломников помогают понять, почему эту часть Туркестана воспринимают шире, чем один памятник."
+          "uz": "Azret Sultonda yoʻl Yasaviy maqbarasiga yaqin qoladi, lekin qoʻriqxona-muzey hududi orqali kengayadi. Ochiq makon, muzey muhiti va ziyoratchilar harakati Turkistonning bu qismi nega bitta yodgorlikdan kengroq qabul qilinishini tushuntiradi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/turkistan/azret-sultan-historical-cultural-reserve-museum"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Sauran Ancient City near Turkistan"
+          "ru": "Древний город Сауран под Туркестаном"
+          "uz": "Turkiston yaqinidagi Sauran qadimiy shahri"
+        "description":
+          "en": "Sauran changes the scale of a Turkistan visit. After mausoleum courtyards and museum context, the road reaches a fortified settlement where earth walls, gate lines, a moat, and open steppe help you picture the old city as one whole form."
+          "ru": "Сауран меняет масштаб визита в Туркестан. После дворов мавзолея и музейного контекста дорога приводит к укреплённому поселению, где земляные стены, линии ворот, ров и открытая степь помогают представить старый город целиком."
+          "uz": "Sauran Turkiston tashrifining miqyosini oʻzgartiradi. Maqbara hovlilari va muzeydagi tushuntirishdan keyin yoʻl mustahkamlangan qadimiy manzilgohga boradi: tuproq devorlar, darvoza chiziqlari, xandaq va ochiq dasht eski shaharni bir butun shaklda tasavvur qilishga yordam beradi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/turkistan/sauran-ancient-city-route-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Otrar Ancient City near Turkistan"
+          "ru": "Древний город Отрар под Туркестаном"
+          "uz": "Turkiston yaqinidagi Otrar qadimiy shahri"
+        "description":
+          "en": "Otrar shifts the Turkistan route from monumental sacred architecture to the remains of an oasis city. With museum context and a good guide, low walls, gate traces, bathhouse evidence, and earthen streets begin to read as a Silk Road settlement rather than isolated ruins."
+          "ru": "Отрар меняет интонацию маршрута по Туркестану: от сакральной архитектуры дорога переходит к остаткам оазисного города. Низкие стены, следы ворот, банный контекст и музейные находки помогают увидеть здесь город, а не разрозненные руины."
+          "uz": "Otrar Turkiston yoʻlining ohangini oʻzgartiradi: muqaddas meʼmorchilikdan keyin yoʻl voha shahrining izlariga chiqadi. Past devorlar, darvoza izlari, hammom konteksti va muzey topilmalari yodgorlikni oddiy xaroba rasmi emas, shahar sifatida koʻrishga yordam beradi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/turkistan/otrar-ancient-city-route-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Recommended"
+          "ru": "Рекомендуем"
+          "uz": "Tavsiya"
+        "title":
+          "en": "Arystan Bab Mausoleum near Turkistan"
+          "ru": "Мавзолей Арыстан-Баб под Туркестаном"
+          "uz": "Turkiston yaqinidagi Arystan Bab maqbarasi"
+        "description":
+          "en": "Arystan Bab changes the tone of a Turkistan journey. After the monumental sacred core and before or after Otrar's archaeology, the shrine asks for a slower, quieter stop shaped by pilgrimage etiquette, local custom, and the route's spiritual memory."
+          "ru": "Арыстан-Баб меняет тон путешествия по Туркестану. После монументального сакрального центра и до или после археологии Отрара святыня просит более медленной, тихой остановки, где важны этикет, местный обычай и духовная память дороги."
+          "uz": "Arystan Bab Turkiston sayohatining ohangini oʻzgartiradi. Monumental muqaddas markazdan keyin va Otrar arxeologiyasidan oldin yoki keyin bu ziyoratgoh sekinroq, sokinroq toʻxtashni, mahalliy odobni va yoʻlning ruhiy xotirasini talab qiladi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/turkistan/arystan-bab-mausoleum-route-context"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City rhythm"
+      "ru": "Ритм города"
+      "uz": "Shahar ritmi"
+    "title":
+      "en": "Courtyard pause, heritage framing, evening city"
+      "ru": "Пауза во дворе, наследие, вечерний город"
+      "uz": "Hovli pauzasi, meros talqini, kechki shahar"
+    "description":
+      "en": "These moments slow Turkistan down: the courtyard around the dome, Azret Sultan's museum context, and the softer pilgrim-city feeling after the heat breaks."
+      "ru": "Эти моменты замедляют Туркестан: двор у купола, музейный контекст «Азрет Султан» и более мягкое чувство города паломников после жары."
+      "uz": "Bu lahzalar Turkistonni sekinlashtiradi: gumbaz atrofidagi hovli, Azret Sultonning muzey konteksti va issiq pasaygandan keyingi ziyorat shahri tuygʻusi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Evening pilgrim city"
+          "ru": "Вечерний город паломников"
+          "uz": "Kechki ziyorat shahri"
+        "description":
+          "en": "Evening lets the heritage area breathe: quieter paths, softer light, and a stronger sense of a living pilgrimage city."
+          "ru": "Вечер даёт территории наследия выдохнуть: тише становятся дорожки, мягче свет и сильнее ощущение живого города паломников."
+          "uz": "Kech meros hududiga nafas beradi: yoʻllar sokinlashadi, yorugʻlik yumshaydi va tirik ziyorat shahri tuygʻusi kuchayadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Azret Sultan museum framing"
+          "ru": "Музейная рамка «Азрет Султан»"
+          "uz": "Azret Sulton muzey ramkasi"
+        "description":
+          "en": "The reserve-museum context keeps the mausoleum connected to courtyards, sacred space, and city memory instead of a single photo stop."
+          "ru": "Контекст заповедника-музея удерживает мавзолей рядом с дворами, священным пространством и памятью города, а не превращает его в одну фотостановку."
+          "uz": "Qoʻriqxona-muzey konteksti maqbarani bitta foto bekati emas, hovlilar, muqaddas makon va shahar xotirasi bilan bogʻlab turadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Yasawi courtyard pause"
+          "ru": "Двор Ясави"
+          "uz": "Yassaviy hovlisi"
+        "description":
+          "en": "Stand back from the dome long enough to feel the scale: brick, blue tile, footsteps, and pilgrim movement give the southern route its quiet center."
+          "ru": "Отойдите от купола достаточно далеко, чтобы почувствовать масштаб: кирпич, синяя майолика, шаги и движение паломников дают южному маршруту тихий центр."
+          "uz": "Gumbazdan biroz chekinib, miqyosni his qiling: gʻisht, moviy koshin, qadamlar va ziyoratchilar harakati janubiy yoʻlga sokin markaz beradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "How Turkistan shapes the southern route"
+      "ru": "Как Туркестан формирует южный маршрут"
+      "uz": "Turkiston janubiy yoʻnalishni qanday shakllantiradi"
+    "description":
+      "en": "Turkistan is where southern Kazakhstan becomes less about distance and more about attention: dome, reserve, pilgrim movement, and road choices."
+      "ru": "В Туркестане южный Казахстан становится меньше про расстояния и больше про внимание: купол, заповедник, движение паломников и выбор дальнейшей дороги."
+      "uz": "Turkistonda janubiy Qozogʻiston masofadan ko‘ra ko‘proq eʼtibor haqida bo‘ladi: gumbaz, meros hududi, ziyoratchilar harakati va yoʻl tanlovlari."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "First reading"
+              "ru": "Первое чтение"
+              "uz": "Birinchi oʻqish"
+            "description":
+              "en": "Begin with the blue dome, the courtyard scale, and the quiet movement around them before adding a city checklist."
+              "ru": "Начните с голубого купола, масштаба двора и тихого движения вокруг них, а затем добавляйте городской список."
+              "uz": "Shahar roʻyxatidan oldin moviy gumbaz, hovli miqyosi va ular atrofidagi sokin harakatdan boshlang."
+          - "type": "dashTitle"
+            "title":
+              "en": "Route shape"
+              "ru": "Форма маршрута"
+              "uz": "Yoʻnalish shakli"
+            "description":
+              "en": "Turkistan fits before Otrar and Sauran when the route moves into archaeology, or after Shymkent when it shifts from warm city life to sacred heritage."
+              "ru": "Туркестан подходит перед Отраром и Саураном, когда маршрут идёт в археологию, или после Шымкента, когда он переходит от тёплой городской жизни к священному наследию."
+              "uz": "Yoʻnalish arxeologiyaga borganda Turkiston Oʻtror va Saurandan oldin, iliq shahar hayotidan muqaddas merosga oʻtganda esa Chimkentdan keyin mos keladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Respectful pacing"
+              "ru": "Уважительный темп"
+              "uz": "Hurmatli surʼat"
+            "description":
+              "en": "This is a pilgrimage setting as well as a heritage site. Dress, voice, photography, and timing should feel respectful."
+              "ru": "Это паломническое место и объект наследия одновременно. Одежда, голос, фотографии и время должны быть уважительными."
+              "uz": "Bu ziyorat muhiti ham, meros obyekti ham. Kiyim, ovoz, suratga olish va vaqt hurmatli bo‘lishi kerak."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Good to know Main magnet"
+                  "ru": "Полезно знать Главный магнит"
+                  "uz": "Bilish foydali Asosiy magnit"
+                "description":
+                  "en": "Khoja Ahmed Yasawi Mausoleum with the Azret Sultan reserve-museum around it."
+                  "ru": "Мавзолей Ходжи Ахмеда Ясави и заповедник-музей «Азрет Султан» вокруг него."
+                  "uz": "Xoja Ahmad Yasaviy maqbarasi va uning atrofidagi Azret Sulton qoʻriqxona-muzeyi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Stay"
+                  "ru": "Ночёвка"
+                  "uz": "Tunash"
+                "description":
+                  "en": "One night keeps the visit calm; a second night can support Otrar, Sauran, or Sayram."
+                  "ru": "Одна ночь делает визит спокойнее; вторая может поддержать Отрар, Сауран или Сайрам."
+                  "uz": "Bir tun tashrifni sokin qiladi; ikkinchi tun Oʻtror, Sauran yoki Sayramga yordam beradi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Season and pace"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va surʼat"
+                "description":
+                  "en": "Heat and open squares make morning, late afternoon, and shaded pauses important."
+                  "ru": "Жара и открытые площади делают утро, поздний день и паузы в тени важными."
+                  "uz": "Issiq va ochiq maydonlar tong, kechki payt va soyadagi pauzalarni muhim qiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby places"
+      "ru": "Рядом по маршруту"
+      "uz": "Yaqin joylar"
+    "title":
+      "en": "Where Turkistan can lead next"
+      "ru": "Куда Туркестан ведёт дальше"
+      "uz": "Turkiston keyin qayerga olib boradi"
+    "description":
+      "en": "Shymkent is the natural city continuation; Otrar, Sayram, Sauran, and Arystan Bab belong when the route can carry archaeology, pilgrimage memory, and more road time."
+      "ru": "Шымкент — естественное городское продолжение; Отрар, Сайрам, Сауран и Арыстан-Баб уместны, когда маршрут выдерживает археологию, паломническую память и больше дороги."
+      "uz": "Chimkent tabiiy shahar davomi; Oʻtror, Sayram, Sauran va Arystan Bab arxeologiya, ziyorat xotirasi va ko‘proq yoʻl vaqtini ko‘tara oladigan marshrutga mos keladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Shymkent"
+          "ru": "Шымкент"
+          "uz": "Chimkent"
+        "description":
+          "en": "Shymkent brings southern Kazakhstan down to street level: old-city traces, Central and Upper Bazaar, and road choices toward Turkistan, Otrar, Sayram, and the Western Tian Shan."
+          "ru": "Шымкент показывает южный Казахстан на уровне улиц: следы старого города, Центральный и Верхний базар и дороги к Туркестану, Отрару, Сайраму и Западному Тянь-Шаню."
+          "uz": "Chimkent janubiy Qozogʻistonni ko‘cha darajasida ko‘rsatadi: eski shahar izlari, Markaziy va Yuqori bozor hamda Turkiston, Oʻtror, Sayram va Gʻarbiy Tyan-Shan yoʻllari."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/shymkent"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Otrar"
+          "ru": "Отрар"
+          "uz": "Oʻtror"
+        "description":
+          "en": "Near Shaulder, Otrar brings Otyrar Museum-Reserve, Otrartobe's open earth, and Arystan Bab into one southern Silk Road stop."
+          "ru": "У Шаульдера Отрар собирает Отырарский музей-заповедник, открытую землю Отрартобе и Арыстан-Баб в одну остановку Южного Шёлкового пути."
+          "uz": "Shauildir yaqinida Oʻtror Oʻtror muzey-qoʻriqxonasi, Otrartobening ochiq tuprogʻi va Arystan Babni Janubiy Ipak yoʻlidagi bitta toʻxtashga jamlaydi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/otrar"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Sayram"
+          "ru": "Сайрам"
+          "uz": "Sayram"
+        "description":
+          "en": "Sayram adds a quiet old-town stop to a Shymkent stay, with shrine streets, the Sairam Museum, and Ispijab history handled at a respectful pace."
+          "ru": "Сайрам добавляет к поездке из Шымкента спокойную старую часть: улицы святынь, Сайрамский музей и историю Испиджаба в уважительном темпе."
+          "uz": "Sayram Chimkentdan safarga sokin eski shahar toʻxtashini qoʻshadi: ziyorat koʻchalari, Sayram muzeyi va Isfijob tarixi hurmatli ritmda ochiladi."
+        "ctaHref": "/destinations/kazakhstan/turkistan-shymkent-and-southern-silk-road/sayram"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Turkistan in the day plan"
+      "ru": "Как поставить Туркестан в план дня"
+      "uz": "Turkistonni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Turkistan?"
+          "ru": "Сколько времени группам стоит проводить в Туркестан?"
+          "uz": "Turkistonda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “Sacred city on Kazakhstan's southern Silk Road”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Священный город на южном Шёлковом пути»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Janubiy Ipak yoʻlidagi muqaddas shahar»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Turkistan be a walkable core or a base for day trips?"
+          "ru": "Туркестан — это пешеходное ядро или база для выездов?"
+          "uz": "Turkiston piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Turkistan's centre?"
+          "ru": "Где лучше ночевать относительно центра Туркестан?"
+          "uz": "Turkiston markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Turkistan stop into your Kazakhstan programme"
+      "ru": "Встройте остановку «Туркестан» в программу (Казахстан)"
+      "uz": "Turkiston bekatini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Turkistan | TourLink"
+    "ru": "Туркестан | TourLink"
+    "uz": "Turkiston | TourLink"
+  "metaDescription":
+    "en": "Turkistan slows the southern route around the blue dome of Khoja Ahmed Yasawi. In the square and the Azret Sultan reserve, brick, blue tile, pilgrim movement, and desert-edge light make the city the quiet center before the road turns to Otrar, Sauran, Shymkent, or Sayram."
+    "ru": "Туркестан замедляет южный маршрут вокруг голубого купола Ходжи Ахмеда Ясави. На площади и в заповеднике-музее «Азрет Султан» кирпич, синяя майолика, движение паломников и свет открытого юга делают город тихим центром перед дорогой к Отрару, Саурану, Шымкенту или Сайраму."
+    "uz": "Turkiston janubiy yoʻlni Xoja Ahmad Yasaviy maqbarasining moviy gumbazi atrofida sekinlashtiradi. Maydon va Azret Sulton hududida gʻisht, moviy koshin, ziyoratchilar harakati va ochiq janub yorugʻligi shaharni Oʻtror, Sauran, Chimkent yoki Sayramdan oldingi sokin markazga aylantiradi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "turkistan-shymkent-and-southern-silk-road"
+"latitude": 43.3019457
+"longitude": 68.2703698

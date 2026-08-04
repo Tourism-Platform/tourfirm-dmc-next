@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "bashir-qashqadaryo-river-spring-setting"
+  "ru": "bashir-qashqadaryo-river-spring-setting"
+  "uz": "bashir-qashqadaryo-river-spring-setting"
+"title":
+  "en": "Bashir River and Qorabuloq Spring"
+  "ru": "Река и родник Корабулок в Башире"
+  "uz": "Bashir daryosi va Qorabuloq bulog‘i"
+"subtitle":
+  "en": "Qashqadaryo water, spring shade, and old plane trees"
+  "ru": "Вода Кашкадарьи, родниковая тень и старые чинары"
+  "uz": "Qashqadaryo suvi, buloq soyasi va eski chinorlar"
+"excerpt":
+  "en": "The water around Bashir is context, not a cure claim. It gives the village sound, shade, and a reason to pause between the sacred place, family welcome, and the foothill road."
+  "ru": "Вода вокруг Башира - это контекст, а не лечебное обещание. Она дает селу звук, тень и повод сделать паузу между святыней, семейным приемом и предгорной дорогой."
+  "uz": "Bashir atrofidagi suv shifo vaʼdasi emas, qishloq konteksti. U qishloqqa ovoz, soya va ziyorat joyi, oilaviy qabul hamda tog‘oldi yo‘li orasida pauza beradi."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Bashir River and Qorabuloq Spring"
+      "ru": "Река и родник Корабулок в Башире"
+      "uz": "Bashir daryosi va Qorabuloq bulog‘i"
+    "title":
+      "en": "Bashir River and Qorabuloq Spring"
+      "ru": "Река и родник Корабулок в Башире"
+      "uz": "Bashir daryosi va Qorabuloq bulog‘i"
+    "description":
+      "en": "Qashqadaryo water, spring shade, and old plane trees"
+      "ru": "Вода Кашкадарьи, родниковая тень и старые чинары"
+      "uz": "Qashqadaryo suvi, buloq soyasi va eski chinorlar"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Bashir River and Qorabuloq Spring"
+      "ru": "Река и родник Корабулок в Башире"
+      "uz": "Bashir daryosi va Qorabuloq bulog‘i"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "The water around Bashir is context, not a cure claim."
+              "ru": "Вода вокруг Башира - это контекст, а не лечебное обещание."
+              "uz": "Bashir atrofidagi suv shifo vaʼdasi emas, qishloq konteksti."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "River sound, Qorabuloq shade, and old trees give Bashir its second rhythm after the sacred place."
+              "ru": "Шум реки, тень Корабулока и старые деревья дают Баширу второй ритм после святыни."
+              "uz": "Daryo ovozi, Qorabuloq soyasi va eski daraxtlar ziyorat joyidan keyin Bashirga ikkinchi ritm beradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Qashqadaryo water, spring shade, and old plane trees."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Вода Кашкадарьи, родниковая тень и старые чинары."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Qashqadaryo suvi, buloq soyasi va eski chinorlar."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Bashir River and Qorabuloq Spring as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Река и родник Корабулок в Башире как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Bashir daryosi va Qorabuloq bulog‘i o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Bashir River and Qorabuloq Spring sits on the route"
+      "ru": "Где Река и родник Корабулок в Башире стоит на маршруте"
+      "uz": "Bashir daryosi va Qorabuloq bulog‘i marshrutda qayerda"
+    "description":
+      "en": "One clear point for Bashir River and Qorabuloq Spring — Qashqadaryo water, spring shade, and old plane trees."
+      "ru": "Одна понятная точка для «Река и родник Корабулок в Башире» — Вода Кашкадарьи, родниковая тень и старые чинары."
+      "uz": "Bashir daryosi va Qorabuloq bulog‘i uchun bitta aniq nuqta — Qashqadaryo suvi, buloq soyasi va eski chinorlar."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Bashir River and Qorabuloq Spring"
+        "ru": "Река и родник Корабулок в Башире"
+        "uz": "Bashir daryosi va Qorabuloq bulog‘i"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.2713718
+      "longitude": 67.1016734
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "bashir-qashqadaryo-river-spring-setting"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "The water that softens the village visit"
+      "ru": "Вода, которая смягчает визит в село"
+      "uz": "Qishloq tashrifini yumshatadigan suv"
+    "description":
+      "en": "River sound, Qorabuloq shade, and old trees give Bashir its second rhythm after the sacred place.
+
+
+        «Let the water make the route quieter, not louder.»"
+      "ru": "Шум реки, тень Корабулока и старые деревья дают Баширу второй ритм после святыни.
+
+
+        «Пусть вода делает маршрут тише, а не громче.»"
+      "uz": "Daryo ovozi, Qorabuloq soyasi va eski daraxtlar ziyorat joyidan keyin Bashirga ikkinchi ritm beradi.
+
+
+        «Suv yo‘lni balandroq emas, sokinroq qilsin.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you will see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Water, trees, and a quiet pause"
+      "ru": "Вода, деревья и тихая пауза"
+      "uz": "Suv, daraxtlar va sokin pauza"
+    "description":
+      "en": "The setting is strongest when it stays close to water, shade, and the village path."
+      "ru": "Место раскрывается лучше всего рядом с водой, тенью и сельской тропой."
+      "uz": "Muhit suv, soya va qishloq yo‘liga yaqin qolganda kuchliroq ochiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Keep the water stop simple"
+      "ru": "Оставьте водную остановку простой"
+      "uz": "Suv bekatini sodda qoldiring"
+    "description":
+      "en": "A quiet pause, a short walk, and respect for nearby homes are enough here."
+      "ru": "Тихой паузы, короткой прогулки и уважения к соседним домам здесь достаточно."
+      "uz": "Bu yerda sokin pauza, qisqa yurish va yaqin uylarni hurmat qilish yetarli."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Around Bashir"
+      "ru": "Вокруг Башира"
+      "uz": "Bashir atrofida"
+    "title":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qo‘shish"
+    "description":
+      "en": "Add the neighboring side of Bashir when the day can stay calm."
+      "ru": "Добавьте соседнюю сторону Башира, если день остается спокойным."
+      "uz": "Kun sokin qolsa, Bashirning qo‘shni tomonini qo‘shing."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Hazrat Bashir Pilgrimage Place"
+          "ru": "Зиаратное место Хазрат Башир"
+          "uz": "Hazrati Bashir ziyorat joyi"
+        "description":
+          "en": "Hazrat Bashir pilgrimage place gives the village its spiritual center; arrive with modest dress, a quiet voice, and local guidance on photography and group movement."
+          "ru": "Зиаратное место Хазрат Башир задает селу духовный центр; приходите в скромной одежде, говорите тихо и следуйте местным правилам съемки и движения группы."
+          "uz": "Hazrati Bashir ziyorat joyi qishloqqa ruhiy markaz beradi; kamtar kiyim, past ovoz hamda surat va guruh harakati bo‘yicha mahalliy odob bilan kiring."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/bashir/hazrat-bashir-shrine-courtyard"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Bashir Family Guesthouse Setting"
+          "ru": "Семейный гостевой формат Башира"
+          "uz": "Bashir oilaviy mehmon uylari muhiti"
+        "description":
+          "en": "Bashir’s guesthouse setting turns the shrine visit into a human village pause when a family table, courtyard time, or overnight stay is genuinely welcome."
+          "ru": "Гостевой формат Башира превращает зиарат в человеческую сельскую паузу, когда семейный стол, двор или ночевка действительно уместны."
+          "uz": "Bashirdagi mehmon uyi muhiti ziyoratni insoniy qishloq pauzasiga aylantiradi, agar dasturxon, hovli va tunash oilaga ham mos bo‘lsa."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/bashir/bashir-village-guesthouse-setting"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Bashir River and Qorabuloq Spring"
+      "ru": "Что агентства спрашивают про Река и родник Корабулок в Башире"
+      "uz": "Agentliklar Bashir daryosi va Qorabuloq bulog‘i haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Bashir River and Qorabuloq Spring get in the day plan?"
+          "ru": "Сколько времени закладывать на Река и родник Корабулок в Башире в плане дня?"
+          "uz": "Bashir daryosi va Qorabuloq bulog‘i uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "a focused half-day with buffer is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Qashqadaryo water, spring shade, and old plane trees”."
+          "ru": "Для большинства групп реалистичный диапазон — полдня с запасом. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Вода Кашкадарьи, родниковая тень и старые чинары»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — zaxira bilan yarim kun. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Qashqadaryo suvi, buloq soyasi va eski chinorlar»."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "When is Bashir River and Qorabuloq Spring strongest during the day?"
+          "ru": "В какое время дня Река и родник Корабулок в Башире раскрывается сильнее?"
+          "uz": "Bashir daryosi va Qorabuloq bulog‘i kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer early morning or late afternoon. That usually improves comfort, photos, and how the stop feels in the sequence around bashir."
+          "ru": "Лучше рано утром или ближе к вечеру. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с bashir."
+          "uz": "erta tong yoki kechga yaqin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (bashir atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "How should Bashir River and Qorabuloq Spring sit next to nearby stops?"
+          "ru": "Как поставить Река и родник Корабулок в Башире рядом с соседними остановками?"
+          "uz": "Bashir daryosi va Qorabuloq bulog‘ini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Bashir River and Qorabuloq Spring to your Uzbekistan programme"
+      "ru": "Добавьте «Река и родник Корабулок в Башире» в программу (Узбекистан)"
+      "uz": "Bashir daryosi va Qorabuloq bulog‘ini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Bashir River and Qorabuloq Spring | TourLink"
+    "ru": "Река и родник Корабулок в Башире | TourLink"
+    "uz": "Bashir daryosi va Qorabuloq bulog‘i | TourLink"
+  "metaDescription":
+    "en": "The water around Bashir is context, not a cure claim. It gives the village sound, shade, and a reason to pause between the sacred place, family welcome, and the foothill road."
+    "ru": "Вода вокруг Башира - это контекст, а не лечебное обещание. Она дает селу звук, тень и повод сделать паузу между святыней, семейным приемом и предгорной дорогой."
+    "uz": "Bashir atrofidagi suv shifo vaʼdasi emas, qishloq konteksti. U qishloqqa ovoz, soya va ziyorat joyi, oilaviy qabul hamda tog‘oldi yo‘li orasida pauza beradi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "kashkadarya-and-shakhrisabz"
+"city": "bashir"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 39.2713718
+"longitude": 67.1016734

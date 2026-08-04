@@ -1,0 +1,544 @@
+# Generated from scrape/turkmenistan (multi-locale)
+"slug":
+  "en": "darvaza"
+  "ru": "darvaza"
+  "uz": "darvaza"
+"title":
+  "en": "Darvaza"
+  "ru": "Дарваза"
+  "uz": "Darvoza"
+"subtitle":
+  "en": "Karakum road, crater night, and a careful desert decision"
+  "ru": "Дорога Каракумов, ночь у кратера и аккуратное решение"
+  "uz": "Qoraqum yoʻli, krater tuni va ehtiyotkor qaror"
+"excerpt":
+  "en": "Darvaza begins as a long Karakum road leg. The crater area, darkness, wind, and possible overnight stop can make the journey memorable, but only when current access, vehicle support, weather, and camp standards line up. When they do, Darvaza gives Turkmenistan a stark desert night between Ashgabat and the northern or eastern route."
+  "ru": "Дарваза начинается как длинная дорога через Каракумы. Кратерная зона, темнота, ветер и возможная ночёвка могут запомниться надолго, но только когда доступ, машина, погода и лагерь подтверждены. Тогда Дарваза даёт Туркменистану суровую пустынную ночь между Ашхабадом и северным или восточным продолжением."
+  "uz": "Darvoza uzoq Qoraqum yoʻli sifatida boshlanadi. Krater hududi, qorongʻilik, shamol va mumkin bo‘lgan tunash safarni esda qoldirishi mumkin, lekin kirish, transport, ob-havo va lager sharoiti mos kelganda. Shunda Darvoza Ashxobod bilan shimoliy yoki sharqiy davom orasida keskin sahro tunini beradi."
+"heroImage": "assets/images/destinations/turkmenistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "imageAlt":
+      "en": "Darvaza"
+      "ru": "Дарваза"
+      "uz": "Darvoza"
+    "title":
+      "en": "Darvaza"
+      "ru": "Дарваза"
+      "uz": "Darvoza"
+    "description":
+      "en": "Karakum road, crater night, and a careful desert decision"
+      "ru": "Дорога Каракумов, ночь у кратера и аккуратное решение"
+      "uz": "Qoraqum yoʻli, krater tuni va ehtiyotkor qaror"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Darvaza"
+      "ru": "Дарваза"
+      "uz": "Darvoza"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Darvaza begins as a long Karakum road leg."
+              "ru": "Дарваза начинается как длинная дорога через Каракумы."
+              "uz": "Darvoza uzoq Qoraqum yoʻli sifatida boshlanadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "The useful map starts before the crater. Yerbent gives the road a human stop when permission and timing allow it, the crater area gives the main visual anchor, and the wider Karakum explains why heat, wind, fuel, vehicle support, and night timing matter."
+              "ru": "Полезная карта начинается до кратера. Ербент добавляет дороге человеческий масштаб, когда это уместно по времени и разрешению, кратерная зона даёт главный визуальный ориентир, а Каракумы объясняют, почему важны жара, ветер, топливо, машина и время после наступления темноты."
+              "uz": "Foydali xarita kraterdan oldin boshlanadi. Yerbent ruxsat va vaqt mos kelganda yoʻlga insoniy o‘lcham qo‘shadi, krater hududi asosiy ko‘rinish tayanchi bo‘ladi, keng Qoraqum esa issiq, shamol, yoqilgʻi, transport va tun vaqtini nega tekshirish kerakligini tushuntiradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "A calm Darvaza plan keeps the route clear: cross the desert with enough road time, confirm what the crater allows now, and keep the overnight optional until the conditions are clear."
+              "ru": "Спокойный план Дарвазы держит маршрут ясным: проехать пустыню с запасом времени, подтвердить текущую ситуацию у кратера и оставить ночёвку необязательной, пока условия не ясны."
+              "uz": "Sokin Darvoza rejasi marshrutni aniq tutadi: sahrodan yetarli vaqt bilan o‘tish, krater hozir nimaga ruxsat berishini tasdiqlash va tunashni sharoit aniq bo‘lmaguncha majburiy qilmaslik."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Darvaza as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Дарваза как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Darvoza o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "A desert corridor, not a city cluster"
+      "ru": "Пустынный коридор, а не городская группа"
+      "uz": "Shahar guruhi emas, sahro yoʻlagi"
+    "description":
+      "en": "The useful map starts before the crater. Yerbent gives the road a human stop when permission and timing allow it, the crater area gives the main visual anchor, and the wider Karakum explains why heat, wind, fuel, vehicle support, and night timing matter."
+      "ru": "Полезная карта начинается до кратера. Ербент добавляет дороге человеческий масштаб, когда это уместно по времени и разрешению, кратерная зона даёт главный визуальный ориентир, а Каракумы объясняют, почему важны жара, ветер, топливо, машина и время после наступления темноты."
+      "uz": "Foydali xarita kraterdan oldin boshlanadi. Yerbent ruxsat va vaqt mos kelganda yoʻlga insoniy o‘lcham qo‘shadi, krater hududi asosiy ko‘rinish tayanchi bo‘ladi, keng Qoraqum esa issiq, shamol, yoqilgʻi, transport va tun vaqtini nega tekshirish kerakligini tushuntiradi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Marshrut xaritasi"
+      "title":
+        "en": "Yerbent, Darvaza, and the Karakum corridor"
+        "ru": "Ербент, Дарваза и коридор Каракумов"
+        "uz": "Yerbent, Darvoza va Qoraqum yoʻlagi"
+      "description":
+        "en": "The map is a corridor rather than a city map. It marks a road stop, the crater area, and the wider desert distance that decides whether Darvaza belongs in the route."
+        "ru": "Это не городская карта, а коридор. Она показывает дорожную остановку, кратерную зону и расстояние пустыни, от которого зависит, нужна ли Дарваза в маршруте."
+        "uz": "Bu shahar xaritasi emas, balki yoʻlak. Unda yoʻl to‘xtashi, krater hududi va Darvoza marshrutga kirishi kerakmi-yo‘qmi hal qiladigan sahro masofasi ko‘rinadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.893902
+      "longitude": 58.966283
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "darvaza-gas-crater-door-to-hell"
+    "aside":
+      "eyebrow":
+        "en": "Route sequence"
+        "ru": "Последовательность"
+        "uz": "Marshrut ketma-ketligi"
+      "title":
+        "en": "Road stop, crater, desert scale"
+        "ru": "Дорога, кратер и масштаб пустыни"
+        "uz": "Yoʻl, krater tekshiruvi va sahro miqyosi"
+      "description":
+        "en": "A calm Darvaza plan keeps the route clear: cross the desert with enough road time, confirm what the crater allows now, and keep the overnight optional until the conditions are clear."
+        "ru": "Спокойный план Дарвазы держит маршрут ясным: проехать пустыню с запасом времени, подтвердить текущую ситуацию у кратера и оставить ночёвку необязательной, пока условия не ясны."
+        "uz": "Sokin Darvoza rejasi marshrutni aniq tutadi: sahrodan yetarli vaqt bilan o‘tish, krater hozir nimaga ruxsat berishini tasdiqlash va tunashni sharoit aniq bo‘lmaguncha majburiy qilmaslik."
+      "items":
+        - "title":
+            "en": "Treat the drive as part of the visit"
+            "ru": "Считайте дорогу частью визита"
+            "uz": "Yoʻlni tashrifning bir qismi deb biling"
+          "description":
+            "en": "Darvaza asks for long road hours, fuel planning, and a vehicle that suits the season. The crater is only one point in that movement."
+            "ru": "Дарваза требует длинного переезда, расчёта топлива и машины, подходящей сезону. Кратер - только одна точка в этом движении."
+            "uz": "Darvoza uzoq yoʻl, yoqilgʻi rejasi va mavsumga mos transport talab qiladi. Krater bu harakatdagi faqat bitta nuqta."
+        - "title":
+            "en": "Use Yerbent only with permission-aware timing"
+            "ru": "Оставляйте Ербент короткой и уважительной остановкой"
+            "uz": "Yerbent qisqa va hurmatli to‘xtash bo‘lsin"
+          "description":
+            "en": "Yerbent can make the Karakum road feel lived-in, but it should not become a staged village stop. Welcome and photography need local advice."
+            "ru": "Ербент помогает почувствовать Каракумы живой дорогой, но не должен превращаться в постановочную деревенскую сцену. Встреча и фотографии требуют местного совета."
+            "uz": "Yerbent Qoraqum yoʻlini tirikroq his qildiradi, lekin sahnalashtirilgan qishloq ko‘rinishiga aylanmasligi kerak. Kutib olish va suratga olish mahalliy maslahatga bogʻliq."
+        - "title":
+            "en": "Confirm the crater close to departure"
+            "ru": "Подтвердите кратер ближе к выезду"
+            "uz": "Kraterni jo‘nashga yaqin tasdiqlang"
+          "description":
+            "en": "The crater area's flame level, access, safety perimeter, and road surface can change, so the visit should be confirmed close to departure."
+            "ru": "Сила огня, доступ к площадке, безопасный периметр и покрытие дороги могут меняться. Визит нужно подтверждать ближе к выезду."
+            "uz": "Olov holati, maydonga kirish, xavfsiz perimetr va yoʻl yuzasi o‘zgarishi mumkin. Tashrif jo‘nashga yaqin tasdiqlanadi."
+        - "title":
+            "en": "Keep the desert night optional"
+            "ru": "Оставляйте пустынную ночь вариантом"
+            "uz": "Sahro tunini variant sifatida qoldiring"
+          "description":
+            "en": "A simple night near the route can be memorable, but only when weather, camp standards, guide support, water, and return timing are clear."
+            "ru": "Простая ночь рядом с маршрутом может запомниться, но только когда понятны погода, лагерь, гид, вода и время возвращения."
+            "uz": "Marshrut yonidagi oddiy tun esda qolishi mumkin, lekin ob-havo, lager, gid, suv va qaytish vaqti aniq bo‘lgandagina."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "The crater area, with the desert around it"
+      "ru": "Кратерная зона и пустыня вокруг неё"
+      "uz": "Krater hududi va uning atrofidagi sahro"
+    "description":
+      "en": "Darvaza's public visit rests on one main attraction: the gas crater area. Other crater-area stops should wait until access, identity, and current conditions are clear."
+      "ru": "Публичный визит в Дарвазе держится на одной главной точке: зоне газового кратера. Другие кратерные остановки остаются для поздней проверки, пока не ясны доступ, идентичность и текущие условия."
+      "uz": "Darvozadagi ommaviy tashrif bitta asosiy nuqtaga tayanadi: gaz krateri hududi. Loy va suv kraterlari kirish, joy aniqligi va joriy sharoit tekshirilmaguncha keyingi ko‘rib chiqishda qoladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Darvaza Gas Crater / Door to Hell"
+          "ru": "Газовый кратер Дарваза / Врата ада"
+          "uz": "Darvoza gaz krateri / Doʻzax darvozasi"
+        "description":
+          "en": "The Darvaza Gas Crater sits deep in the Karakum as the route's stark night anchor. Its meaning is not only the fire. It is the long desert road, the changing site status, the safe viewing distance, and the decision about whether an overnight stop belongs in this journey."
+          "ru": "Газовый кратер Дарваза лежит глубоко в Каракумах как суровая ночная опора маршрута. Его смысл не только в огне. Это длинная пустынная дорога, меняющийся статус площадки, безопасная дистанция и решение, нужна ли ночёвка именно в этом путешествии."
+          "uz": "Darvoza gaz krateri Qoraqum ichida marshrutning keskin tungi tayanchi bo‘lib turadi. Uning maʼnosi faqat olovda emas. Bu uzoq sahro yoʻli, o‘zgaradigan maydon holati, xavfsiz perimetr va tunash aynan shu safarga kerakmi degan qarordir."
+        "ctaHref": "/destinations/turkmenistan/karakum-and-darvaza/darvaza/darvaza-gas-crater-door-to-hell"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Darvaza moments"
+      "ru": "Моменты Дарвазы"
+      "uz": "Darvoza lahzalari"
+    "title":
+      "en": "Three choices that shape the desert leg"
+      "ru": "Три выбора, которые задают пустынный участок"
+      "uz": "Sahro qismini belgilaydigan uch tanlov"
+    "description":
+      "en": "Darvaza becomes stronger when the night view, camp choice, and Karakum road are planned as one careful sequence."
+      "ru": "Дарваза сильнее, когда ночной вид, выбор лагеря и дорога Каракумов складываются в одну аккуратную последовательность."
+      "uz": "Darvoza tungi manzara, lager tanlovi va Qoraqum yoʻli bitta ehtiyotkor ketma-ketlikka aylanganda kuchliroq seziladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "See the crater only when the night fits"
+          "ru": "Смотрите кратер ночью только когда условия подходят"
+          "uz": "Kraterni faqat tun sharoiti mos bo‘lsa ko‘ring"
+        "description":
+          "en": "The after-dark stop is strongest when current access, safe distance, wind, warmth, and return timing all line up."
+          "ru": "Ночная остановка сильнее всего при актуальном доступе, безопасной дистанции, понятном ветре, тепле и времени возвращения."
+          "uz": "Tungi to‘xtash kirish, xavfsiz masofa, shamol, issiqlik va qaytish vaqti mos kelganda kuchliroq."
+      - "type": "experience"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Make the desert night optional"
+          "ru": "Оставляйте пустынную ночь вариантом"
+          "uz": "Sahro tunini variant sifatida qoldiring"
+        "description":
+          "en": "A camp belongs only when vehicle support, water, warmth, guide coverage, and morning road timing are already clear."
+          "ru": "Лагерь уместен только когда понятны машина, вода, тепло, сопровождение гида и утренняя дорога."
+          "uz": "Lager faqat transport, suv, issiqlik, gid qo‘llovi va ertalabki yoʻl vaqti aniq bo‘lganda mos keladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Let the road stay part of the memory"
+          "ru": "Пусть дорога останется частью памяти"
+          "uz": "Yoʻl ham xotiraning qismi bo‘lsin"
+        "description":
+          "en": "Yerbent, fuel stops, open sand, and the guide's current advice keep Darvaza tied to the wider desert route."
+          "ru": "Ербент, дорожные остановки, открытый песок и актуальный совет гида удерживают Дарвазу внутри широкого пустынного маршрута."
+          "uz": "Yerbent, yoʻldagi to‘xtashlar, ochiq qum va gidning joriy maslahati Darvozani kengroq sahro marshrutiga bogʻlaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Safardan oldin"
+    "title":
+      "en": "Let the conditions shape the stop"
+      "ru": "Пусть условия задают остановку"
+      "uz": "To‘xtashni joriy sharoit hal qilsin"
+    "description":
+      "en": "Darvaza can be powerful, but it should not be built from old photographs. The important question is whether the crater area fits this route safely, honestly, and comfortably on the travel date."
+      "ru": "Дарваза может быть сильной, но её нельзя строить на старых фотографиях. Важный вопрос простой: подходит ли кратерная зона этому маршруту безопасно, честно и комфортно именно на эту дату?"
+      "uz": "Darvoza kuchli bo‘lishi mumkin, lekin uni eski suratlar asosida qurib bo‘lmaydi. Muhim savol oddiy: krater hududi aynan shu sanada marshrutga xavfsiz, aniq va qulay tarzda mos keladimi?"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the crater specific"
+              "ru": "Говорите о кратере конкретно, без театра"
+              "uz": "Krater haqida aniq gapiring, teatrsiz"
+            "description":
+              "en": "The crater is widely known, but travelers should not expect a fixed flame scale or a guaranteed night scene. The stronger visit starts with what can be checked for this date."
+              "ru": "Кратер широко известен, но путешественнику не стоит ждать неизменной картины огня или гарантированной ночной сцены. Сильный визит начинается с того, что можно проверить на эту дату."
+              "uz": "Krater keng tanilgan, lekin mehmon doimiy olov miqyosini yoki kafolatlangan tungi manzarani kutmasligi kerak. Kuchli tashrif shu sana uchun tekshiriladigan narsadan boshlanadi."
+          - "type": "quote"
+            "quote":
+              "en": "Darvaza matters most when the crater stays connected to the road, weather, people, and safety of the Karakum."
+              "ru": "Дарваза важнее всего тогда, когда кратер остаётся связан с дорогой, погодой, людьми и безопасностью Каракумов."
+              "uz": "Darvoza krater Qoraqum yoʻli, ob-havo, odamlar va xavfsizlik bilan birga turganda eng muhim bo‘ladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Let the road stay human"
+              "ru": "Дорога должна оставаться человеческой"
+              "uz": "Yoʻl insoniy bo‘lib qolsin"
+            "description":
+              "en": "Yerbent and the small road stops remind the traveler that the Karakum is not empty scenery. Stops should stay respectful, brief, and guided by local permission."
+              "ru": "Ербент и небольшие дорожные остановки напоминают, что Каракумы - не пустой фон. Такие остановки должны быть уважительными, короткими и согласованными."
+              "uz": "Yerbent va kichik yoʻl to‘xtashlari Qoraqum bo‘sh fon emasligini eslatadi. Bunday to‘xtashlar hurmatli, qisqa va mahalliy rozilik bilan bo‘lishi kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Make the night earn its place"
+              "ru": "Ночёвка должна быть оправдана"
+              "uz": "Tunash o‘z o‘rnini oqlasin"
+            "description":
+              "en": "A desert night is strongest when it feels simple and safe: good vehicle support, clear water and warmth, a realistic departure plan, and no pressure to stay if conditions argue against it."
+              "ru": "Пустынная ночь сильнее всего, когда она простая и безопасная: подходящая машина, вода и тепло, ясный план выезда и отсутствие давления остаться, если условия против."
+              "uz": "Sahro tuni oddiy va xavfsiz bo‘lganda kuchliroq: mos transport, suv va issiq kiyim, aniq ketish rejasi va sharoit to‘g‘ri kelmasa qolishga bosim yo‘qligi."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Вывод для путешественника"
+              "uz": "Sayohatchi uchun xulosa"
+            "description":
+              "en": "Add Darvaza when the current crater status, route timing, vehicle, weather, and overnight plan make the desert leg clear."
+              "ru": "Добавляйте Дарвазу, когда текущий статус кратера, дорога, машина, погода и ночёвка делают пустынный участок понятным."
+              "uz": "Krater holati, yoʻl vaqti, transport, ob-havo va tunash rejasi sahro qismini aniq qilganda Darvozani qo‘shing."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Safardan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "Darvaza is handled as a desert-road anchor, not as a conventional town stay."
+                  "ru": "Дарваза рассматривается как дорожная опора в пустыне, а не как обычная городская ночёвка."
+                  "uz": "Darvoza odatiy shahar tunashi emas, sahro yoʻlidagi tayanch sifatida olinadi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main anchor"
+                  "ru": "Главная опора"
+                  "uz": "Asosiy tayanch"
+                "description":
+                  "en": "The crater is the clear public magnet, but flame level and site access need a current local check."
+                  "ru": "Кратер - главный публичный магнит, но силу огня и доступ нужно проверять на месте."
+                  "uz": "Krater ommaviy tashrifning asosiy magniti, ammo olov holati va kirish mahalliy tekshiruvga muhtoj."
+              - "icon": "Sun"
+                "title":
+                  "en": "Time needed"
+                  "ru": "Время"
+                  "uz": "Kerakli vaqt"
+                "description":
+                  "en": "The route needs enough space for the drive, possible night viewing, rest, and a safe return or continuation."
+                  "ru": "Нужен запас на дорогу, возможный ночной просмотр, отдых и безопасное возвращение или продолжение."
+                  "uz": "Yoʻl, mumkin bo‘lgan tungi ko‘rish, dam va xavfsiz qaytish yoki davom uchun yetarli vaqt kerak."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and comfort"
+                  "ru": "Сезон и комфорт"
+                  "uz": "Mavsum va qulaylik"
+                "description":
+                  "en": "Summer heat, wind, and winter nights can make the desert leg more demanding."
+                  "ru": "Летняя жара, ветер и зимние ночи делают пустынный участок более требовательным."
+                  "uz": "Yozgi issiq, shamol va qishki tunlar sahro qismini talabchanroq qiladi."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before departure"
+                  "ru": "Перед выездом"
+                  "uz": "Jo‘nashdan oldin"
+                "description":
+                  "en": "Current site status, vehicle support, water, guide rules, camp standards, and road timing decide whether to include Darvaza."
+                  "ru": "Текущий статус площадки, машина, вода, гид, стандарты лагеря и время дороги решают, включать ли Дарвазу."
+                  "uz": "Maydonning joriy holati, transport, suv, gid qoidalari, lager standarti va yoʻl vaqti Darvozani qo‘shish-qo‘shmaslikni belgilaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Where to continue"
+      "ru": "Куда продолжить"
+      "uz": "Qayerga davom etish"
+    "title":
+      "en": "Ashgabat, Kunya-Urgench, and Merv"
+      "ru": "Ашхабад, Куня-Ургенч и Мерв"
+      "uz": "Ashxobod, Koʻhna Urganch va Marv"
+    "description":
+      "en": "Darvaza usually belongs between larger Turkmenistan anchors: the capital region, the northern Khorezm route, or a longer program that turns back toward Mary and Merv."
+      "ru": "Дарваза обычно стоит между крупными опорами Туркменистана: столичным регионом, северным маршрутом Хорезма или более длинной программой, которая возвращается к Мары и Мерву."
+      "uz": "Darvoza odatda Turkmanistonning kattaroq tayanchlari orasida turadi: poytaxt hududi, shimoliy Xorazm yoʻli yoki Mary va Marvga qaytadigan uzunroq dastur."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ashgabat"
+          "ru": "Ашхабад"
+          "uz": "Ashgabat"
+        "description":
+          "en": "Ashgabat opens Turkmenistan through white-marble avenues, monument parks, museum rooms, carpet craft, and a deliberate road choice toward Nisa."
+          "ru": "Ашхабад открывает Туркменистан беломраморными проспектами, монументальными парками, музейными залами, ковровым ремеслом и осознанным выбором дороги к Нисе."
+          "uz": "Ashgabat Turkmaniston yoʻlini oq marmar xiyobonlar, monument parklar, muzey zallari, gilam hunari va Nisa tomon ongli yoʻl tanlovi bilan ochadi."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Kunya-Urgench"
+          "ru": "Куня-Ургенч"
+          "uz": "Ko‘hna Urganch"
+        "description":
+          "en": "Kunya-Urgench turns old Khorezm into an open-air visit: a UNESCO landscape, the 60-meter Kutlug Timur Minaret, Turabek Khanum geometry, brickwork, heat, and silence."
+          "ru": "Куня-Ургенч раскрывает старый Хорезм как открытый археологический ландшафт: объект ЮНЕСКО, 60-метровый минарет Кутлуг-Тимура, геометрия Тюрабек-ханым, кирпич, жара и тишина."
+          "uz": "Ko‘hna Urganch eski Xorazmni ochiq arxeologik manzara sifatida ko‘rsatadi: UNESCO hududi, 60 metrlik Qutlug‘ Temur minorasi, To‘rabek Xonim geometriyasi, g‘isht, issiq va sukunat."
+        "ctaHref": "/destinations/turkmenistan/dashoguz-and-kunya-urgench/kunya-urgench"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ancient Merv"
+          "ru": "Древний Мерв"
+          "uz": "Qadimiy Marv"
+        "description":
+          "en": "Ancient Merv is the UNESCO oasis outside Mary where Sultan Sanjar, Kyz Kala, earthen walls, and the space between ruins turn archaeology into a full route day."
+          "ru": "Древний Мерв — объект ЮНЕСКО у Мары, где мавзолей Султана Санджара, Кыз-Кала, глинобитные стены и расстояния между руинами превращают археологию в отдельный маршрутный день."
+          "uz": "Qadimiy Marv Mari yaqinidagi UNESCO vohasi bo‘lib, Sulton Sanjar, Qiz qal’a, xom g‘isht devorlar va xarobalar orasidagi masofa arxeologiyani alohida yo‘l kuniga aylantiradi."
+        "ctaHref": "/destinations/turkmenistan/mary-and-ancient-merv/merv"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Darvaza in the day plan"
+      "ru": "Как поставить Дарваза в план дня"
+      "uz": "Darvozani kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Darvaza?"
+          "ru": "Сколько времени группам стоит проводить в Дарваза?"
+          "uz": "Darvozada guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “Karakum road, crater night, and a careful desert decision”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Дорога Каракумов, ночь у кратера и аккуратное решение»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Qoraqum yoʻli, krater tuni va ehtiyotkor qaror»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Darvaza be a walkable core or a base for day trips?"
+          "ru": "Дарваза — это пешеходное ядро или база для выездов?"
+          "uz": "Darvoza piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Darvaza's centre?"
+          "ru": "Где лучше ночевать относительно центра Дарваза?"
+          "uz": "Darvoza markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Darvaza stop into your Turkmenistan programme"
+      "ru": "Встройте остановку «Дарваза» в программу (Туркменистан)"
+      "uz": "Darvoza bekatini Turkmaniston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Darvaza | TourLink"
+    "ru": "Дарваза | TourLink"
+    "uz": "Darvoza | TourLink"
+  "metaDescription":
+    "en": "Darvaza begins as a long Karakum road leg. The crater area, darkness, wind, and possible overnight stop can make the journey memorable, but only when current access, vehicle support, weather, and camp standards line up. When they do, Darvaza gives Turkmenistan a stark desert night between Ashgabat and the northern or eastern route."
+    "ru": "Дарваза начинается как длинная дорога через Каракумы. Кратерная зона, темнота, ветер и возможная ночёвка могут запомниться надолго, но только когда доступ, машина, погода и лагерь подтверждены. Тогда Дарваза даёт Туркменистану суровую пустынную ночь между Ашхабадом и северным или восточным продолжением."
+    "uz": "Darvoza uzoq Qoraqum yoʻli sifatida boshlanadi. Krater hududi, qorongʻilik, shamol va mumkin bo‘lgan tunash safarni esda qoldirishi mumkin, lekin kirish, transport, ob-havo va lager sharoiti mos kelganda. Shunda Darvoza Ashxobod bilan shimoliy yoki sharqiy davom orasida keskin sahro tunini beradi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "turkmenistan"
+"region": "karakum-and-darvaza"
+"latitude": 40.2525715
+"longitude": 58.439608

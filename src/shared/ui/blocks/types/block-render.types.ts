@@ -17,6 +17,34 @@ export enum BlockType {
 	cta = "cta"
 }
 
+export type TColumnRatio =
+	| "1:1"
+	| "1:2"
+	| "2:1"
+	| "1:3"
+	| "3:1"
+	| "2:3"
+	| "3:2"
+	| "1:4"
+	| "4:1"
+	| "3:4"
+	| "4:3"
+	| "1:5"
+	| "5:1"
+	| "2:5"
+	| "5:2"
+	| "3:5"
+	| "5:3"
+	| "4:5"
+	| "5:4";
+
+export type TContentRow = {
+	key?: string;
+	ratio?: TColumnRatio;
+	left?: TCardRenderProps[];
+	right?: TCardRenderProps[];
+};
+
 export type TFaqQuestionProps = {
 	key?: string;
 	icon?: string;
@@ -88,6 +116,7 @@ export type TBlockRenderProps = {
 	children?: ReactNode;
 	actions?: TButtonRenderProps[];
 	cards?: TCardRenderProps[];
+	rows?: TContentRow[];
 	center?: LatLngExpression;
 	zoom?: number;
 	minZoom?: number;

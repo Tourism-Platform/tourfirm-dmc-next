@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "qaynar-spring-and-mountain-setting"
+  "ru": "qaynar-spring-and-mountain-setting"
+  "uz": "qaynar-spring-and-mountain-setting"
+"title":
+  "en": "Qaynar Spring and Foothill Setting"
+  "ru": "Родник и предгорья Кайнара"
+  "uz": "Qaynar bulog‘i va tog‘oldi muhiti"
+"subtitle":
+  "en": "Water, fields, and foothill air below Taxtiqoracha Pass"
+  "ru": "Вода, поля и предгорный воздух под перевалом Тахтакарача"
+  "uz": "Taxtiqoracha ostidagi suv, dalalar va tog‘oldi havosi"
+"excerpt":
+  "en": "Below Taxtiqoracha Pass, Qaynar's spring gives the village its first clear note with water close to the fields, cooler air from the slopes, and a pause after Shakhrisabz's monuments. Come for the setting itself, not for a resort promise."
+  "ru": "Под перевалом Тахтакарача родник даёт Кайнару первый ясный знак: воду у полей, более прохладный воздух со склонов и паузу после памятников Шахрисабза. Сюда стоит ехать за самим местом, а не за курортным обещанием."
+  "uz": "Taxtiqoracha dovoni ostida Qaynar bulog‘i qishloqqa birinchi aniq belgi beradi: dalalar yonidagi suv, yonbag‘irlardan keladigan salqinroq havo va Shahrisabz yodgorliklaridan keyingi sokin pauza. Bu joy kurort vaʼdasi emas, aynan shu muhitning o‘zi."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Qaynar Spring and Foothill Setting"
+      "ru": "Родник и предгорья Кайнара"
+      "uz": "Qaynar bulog‘i va tog‘oldi muhiti"
+    "title":
+      "en": "Qaynar Spring and Foothill Setting"
+      "ru": "Родник и предгорья Кайнара"
+      "uz": "Qaynar bulog‘i va tog‘oldi muhiti"
+    "description":
+      "en": "Water, fields, and foothill air below Taxtiqoracha Pass"
+      "ru": "Вода, поля и предгорный воздух под перевалом Тахтакарача"
+      "uz": "Taxtiqoracha ostidagi suv, dalalar va tog‘oldi havosi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Qaynar Spring and Foothill Setting"
+      "ru": "Родник и предгорья Кайнара"
+      "uz": "Qaynar bulog‘i va tog‘oldi muhiti"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Below Taxtiqoracha Pass, Qaynar's spring gives the village its first clear note with water close to the fields, cooler air from the slopes, and a pause after Shakhrisabz's monuments."
+              "ru": "Под перевалом Тахтакарача родник даёт Кайнару первый ясный знак: воду у полей, более прохладный воздух со склонов и паузу после памятников Шахрисабза."
+              "uz": "Taxtiqoracha dovoni ostida Qaynar bulog‘i qishloqqa birinchi aniq belgi beradi: dalalar yonidagi suv, yonbag‘irlardan keladigan salqinroq havo va Shahrisabz yodgorliklaridan keyingi sokin pauza."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "The stop is clearest when it stays close to what is actually here - water, fields, slope, and the village road below Taxtiqoracha Pass."
+              "ru": "Остановка понятнее всего, когда держится за то, что здесь действительно есть - воду, поля, склон и сельскую дорогу под Тахтакарача."
+              "uz": "Bekat aynan bor narsaga yaqin qolsa tushunarliroq bo‘ladi - suv, dalalar, yonbag‘ir va Taxtiqoracha ostidagi qishloq yo‘li."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Water, fields, and foothill air below Taxtiqoracha Pass."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Вода, поля и предгорный воздух под перевалом Тахтакарача."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Taxtiqoracha ostidagi suv, dalalar va tog‘oldi havosi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Qaynar Spring and Foothill Setting as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Родник и предгорья Кайнара как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Qaynar bulog‘i va tog‘oldi muhiti o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Qaynar Spring and Foothill Setting sits on the route"
+      "ru": "Где Родник и предгорья Кайнара стоит на маршруте"
+      "uz": "Qaynar bulog‘i va tog‘oldi muhiti marshrutda qayerda"
+    "description":
+      "en": "One clear point for Qaynar Spring and Foothill Setting — Water, fields, and foothill air below Taxtiqoracha Pass."
+      "ru": "Одна понятная точка для «Родник и предгорья Кайнара» — Вода, поля и предгорный воздух под перевалом Тахтакарача."
+      "uz": "Qaynar bulog‘i va tog‘oldi muhiti uchun bitta aniq nuqta — Taxtiqoracha ostidagi suv, dalalar va tog‘oldi havosi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Qaynar Spring and Foothill Setting"
+        "ru": "Родник и предгорья Кайнара"
+        "uz": "Qaynar bulog‘i va tog‘oldi muhiti"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.2245198
+      "longitude": 66.9093211
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "qaynar-spring-and-mountain-setting"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "A spring pause below the pass"
+      "ru": "Родниковая пауза под перевалом"
+      "uz": "Dovon ostidagi buloq pauzasi"
+    "description":
+      "en": "The stop is clearest when it stays close to what is actually here - water, fields, slope, and the village road below Taxtiqoracha Pass.
+
+
+        «Water, fields, and cooler air make Qaynar feel like the first breath of the foothills.»"
+      "ru": "Остановка понятнее всего, когда держится за то, что здесь действительно есть - воду, поля, склон и сельскую дорогу под Тахтакарача.
+
+
+        «Вода, поля и прохладный воздух делают Кайнар первым дыханием предгорий.»"
+      "uz": "Bekat aynan bor narsaga yaqin qolsa tushunarliroq bo‘ladi - suv, dalalar, yonbag‘ir va Taxtiqoracha ostidagi qishloq yo‘li.
+
+
+        «Suv, dalalar va salqinroq havo Qaynarni tog‘oldining birinchi nafasi qilib ko‘rsatadi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Water, fields, and pass-side views"
+      "ru": "Вода, поля и виды со стороны перевала"
+      "uz": "Suv, dalalar va dovon tomondagi manzara"
+    "description":
+      "en": "The small details are the point: water at village scale, fields below the pass, and a road that begins to feel higher."
+      "ru": "Здесь важны малые детали: вода в сельском масштабе, поля под перевалом и дорога, где уже чувствуется подъём."
+      "uz": "Muhim narsa kichik detallarda: qishloq miqyosidagi suv, dovon ostidagi dalalar va balandroqqa ko‘tarila boshlagan yo‘l."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как смотреть"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Keep the pause close to the village"
+      "ru": "Держите паузу рядом с селом"
+      "uz": "Pauzani qishloqqa yaqin tuting"
+    "description":
+      "en": "Treat the spring as a short, calm stop near Qaynar, with enough time to notice the water, fields, and road before moving on."
+      "ru": "Воспринимайте родник как короткую спокойную остановку у Кайнара, где есть время заметить воду, поля и дорогу перед продолжением."
+      "uz": "Buloqni Qaynar yonidagi qisqa va sokin bekat sifatida ko‘ring; suv, dalalar va keyingi yo‘lni sezishga vaqt qoldiring."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Around Qaynar"
+      "ru": "Вокруг Кайнара"
+      "uz": "Qaynar atrofida"
+    "title":
+      "en": "What to add around Qaynar"
+      "ru": "Что добавить вокруг Кайнара"
+      "uz": "Qaynar atrofida nimani qo‘shish mumkin"
+    "description":
+      "en": "Add a short walk or a village table when it makes the Qaynar stop feel fuller without losing its quiet scale."
+      "ru": "Добавляйте короткую прогулку или сельский стол, когда это делает остановку в Кайнаре полнее и не забирает её спокойный масштаб."
+      "uz": "Qisqa yurish yoki qishloq dasturxonini bekatni boyitib, sokin miqyosini saqlaganda qo‘shing."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Qaynar Foothill Walks"
+          "ru": "Предгорные прогулки Кайнара"
+          "uz": "Qaynar tog‘oldi yurishlari"
+        "description":
+          "en": "Short Qaynar walks keep the village close: field edges, low slopes, foothill air, and an easy return after the spring."
+          "ru": "Короткие прогулки в Кайнаре держатся рядом с селом: края полей, низкие склоны, предгорный воздух и спокойное возвращение после родника."
+          "uz": "Qaynardagi qisqa yurish qishloqqa yaqin qoladi: dala chetlari, past yonbag‘irlar, tog‘oldi havosi va buloqdan keyin sokin qaytish."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/qaynar/qaynar-foothill-walking-setting"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Qaynar Village Welcome"
+          "ru": "Сельская встреча в Кайнаре"
+          "uz": "Qaynar qishloq kutib olishi"
+        "description":
+          "en": "In Qaynar, the village welcome belongs close to the spring and foothill road: bread, tea, local food, craft, music, and open air when the visit can stay personal."
+          "ru": "В Кайнаре сельская встреча держится рядом с родником и предгорной дорогой: лепёшка, чай, местная еда, ремесло, музыка и воздух, когда визит может остаться личным."
+          "uz": "Qaynarda qishloq kutib olishi buloq va tog‘oldi yo‘liga yaqin turadi: non, choy, mahalliy taom, hunar, musiqa va tashrif shaxsiy qoladigan ochiq havo."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz/qaynar/qaynar-village-food-craft-and-camping-setting"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Qaynar Spring and Foothill Setting"
+      "ru": "Что агентства спрашивают про Родник и предгорья Кайнара"
+      "uz": "Agentliklar Qaynar bulog‘i va tog‘oldi muhiti haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Qaynar Spring and Foothill Setting get in the day plan?"
+          "ru": "Сколько времени закладывать на Родник и предгорья Кайнара в плане дня?"
+          "uz": "Qaynar bulog‘i va tog‘oldi muhiti uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "45–90 minutes is a practical range for most groups. Keep the stop readable: one clear arrival, one clear exit. Place tone: “Water, fields, and foothill air below Taxtiqoracha Pass”."
+          "ru": "Для большинства групп реалистичный диапазон — 45–90 минут. Держите остановку читаемой: понятный вход и понятный выход. Характер места: «Вода, поля и предгорный воздух под перевалом Тахтакарача»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 45–90 daqiqa. Bekatni o‘qiladigan tuting: aniq kirish va aniq chiqish. Joy ohangi: «Taxtiqoracha ostidagi suv, dalalar va tog‘oldi havosi»."
+      - "type": "destinationInsight"
+        "icon": "Sunrise"
+        "title":
+          "en": "When is Qaynar Spring and Foothill Setting strongest during the day?"
+          "ru": "В какое время дня Родник и предгорья Кайнара раскрывается сильнее?"
+          "uz": "Qaynar bulog‘i va tog‘oldi muhiti kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer before the midday heat. That usually improves comfort, photos, and how the stop feels in the sequence around qaynar."
+          "ru": "Лучше до полуденной жары. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с qaynar."
+          "uz": "tushlik issiqligidan oldin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (qaynar atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "How should Qaynar Spring and Foothill Setting sit next to nearby stops?"
+          "ru": "Как поставить Родник и предгорья Кайнара рядом с соседними остановками?"
+          "uz": "Qaynar bulog‘i va tog‘oldi muhitini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Qaynar Spring and Foothill Setting to your Uzbekistan programme"
+      "ru": "Добавьте «Родник и предгорья Кайнара» в программу (Узбекистан)"
+      "uz": "Qaynar bulog‘i va tog‘oldi muhitini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Qaynar Spring and Foothill Setting | TourLink"
+    "ru": "Родник и предгорья Кайнара | TourLink"
+    "uz": "Qaynar bulog‘i va tog‘oldi muhiti | TourLink"
+  "metaDescription":
+    "en": "Below Taxtiqoracha Pass, Qaynar's spring gives the village its first clear note with water close to the fields, cooler air from the slopes, and a pause after Shakhrisabz's monuments. Come for the setting itself, not for a resort promise."
+    "ru": "Под перевалом Тахтакарача родник даёт Кайнару первый ясный знак: воду у полей, более прохладный воздух со склонов и паузу после памятников Шахрисабза. Сюда стоит ехать за самим местом, а не за курортным обещанием."
+    "uz": "Taxtiqoracha dovoni ostida Qaynar bulog‘i qishloqqa birinchi aniq belgi beradi: dalalar yonidagi suv, yonbag‘irlardan keladigan salqinroq havo va Shahrisabz yodgorliklaridan keyingi sokin pauza. Bu joy kurort vaʼdasi emas, aynan shu muhitning o‘zi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "kashkadarya-and-shakhrisabz"
+"city": "qaynar"
+"type": "MOUNTAIN"
+"importance": "RECOMMENDED"
+"latitude": 39.2245198
+"longitude": 66.9093211

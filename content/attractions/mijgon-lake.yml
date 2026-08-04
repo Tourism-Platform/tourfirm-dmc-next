@@ -1,0 +1,316 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "mijgon-lake"
+  "ru": "mijgon-lake"
+  "uz": "mijgon-lake"
+"title":
+  "en": "Mijgon Lake"
+  "ru": "Озеро Мижгон"
+  "uz": "Mijgon ko‘li"
+"subtitle":
+  "en": "The first lake pause on the Haftkul road"
+  "ru": "Первая озёрная пауза на дороге Хафткуль"
+  "uz": "Haftkoʻl yoʻlidagi birinchi koʻl pauzasi"
+"excerpt":
+  "en": "Mijgon is the lower-lake stop where the Seven Lakes road first changes from approach to arrival. After the climb from the Penjikent side through the Shing Valley, the water gives Haftkul its first visible colour before Marguzor and the higher lakes."
+  "ru": "Мижгон - нижнее озеро, где дорога Семи озёр впервые ощущается не подъездом, а самим Хафткулем. После подъёма со стороны Пенджикента через долину Шинг вода даёт маршруту первый цвет перед Маргузором и верхними озёрами."
+  "uz": "Mijgon - Yetti Koʻl yoʻli ilk bor oddiy yondashuvdan Haftkoʻlning oʻziga aylana boshlaydigan pastki koʻl. Panjikent tomondan Shing vodiysi orqali koʻtarilgach, suv yoʻlga birinchi rang beradi va Marguzor hamda yuqori koʻllardan oldin tempni sekinlashtiradi."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "Mijgon Lake"
+      "ru": "Озеро Мижгон"
+      "uz": "Mijgon ko‘li"
+    "title":
+      "en": "Mijgon Lake"
+      "ru": "Озеро Мижгон"
+      "uz": "Mijgon ko‘li"
+    "description":
+      "en": "The first lake pause on the Haftkul road"
+      "ru": "Первая озёрная пауза на дороге Хафткуль"
+      "uz": "Haftkoʻl yoʻlidagi birinchi koʻl pauzasi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Mijgon Lake"
+      "ru": "Озеро Мижгон"
+      "uz": "Mijgon ko‘li"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Mijgon is the lower-lake stop where the Seven Lakes road first changes from approach to arrival."
+              "ru": "Мижгон - нижнее озеро, где дорога Семи озёр впервые ощущается не подъездом, а самим Хафткулем."
+              "uz": "Mijgon - Yetti Koʻl yoʻli ilk bor oddiy yondashuvdan Haftkoʻlning oʻziga aylana boshlaydigan pastki koʻl."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Mijgon matters because it is the first lake where the Seven Lakes road stops feeling like an approach."
+              "ru": "Мижгон важен как первое озеро, после которого дорога Семи озёр перестаёт быть только подъездом."
+              "uz": "Mijgon muhim, chunki Yetti Koʻl yoʻli shu yerda faqat yondashuv boʻlib qolmaydi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — The first lake pause on the Haftkul road."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Первая озёрная пауза на дороге Хафткуль."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Haftkoʻl yoʻlidagi birinchi koʻl pauzasi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Mijgon Lake as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Озеро Мижгон как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Mijgon ko‘li o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Mijgon Lake sits on the route"
+      "ru": "Где Озеро Мижгон стоит на маршруте"
+      "uz": "Mijgon ko‘li marshrutda qayerda"
+    "description":
+      "en": "One clear point for Mijgon Lake — The first lake pause on the Haftkul road."
+      "ru": "Одна понятная точка для «Озеро Мижгон» — Первая озёрная пауза на дороге Хафткуль."
+      "uz": "Mijgon ko‘li uchun bitta aniq nuqta — Haftkoʻl yoʻlidagi birinchi koʻl pauzasi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Mijgon Lake"
+        "ru": "Озеро Мижгон"
+        "uz": "Mijgon ko‘li"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.2206353
+      "longitude": 67.8010251
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "mijgon-lake"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Where Haftkul first becomes water"
+      "ru": "Где Хафткуль впервые становится озёрной дорогой"
+      "uz": "Haftkoʻl ilk bor suv bilan ochiladigan joy"
+    "description":
+      "en": "Mijgon matters because it is the first lake where the Seven Lakes road stops feeling like an approach. The pause can be short, but it gives travelers the first colour and valley setting of the Haftkul sequence.
+
+
+        «Mijgon is not the largest lake; it is the first moment when Haftkul asks you to slow down.»"
+      "ru": "Мижгон важен как первое озеро, после которого дорога Семи озёр перестаёт быть только подъездом. Остановка может быть короткой, но именно здесь появляется первый цвет воды и ощущение долины Хафткуль.
+
+
+        «Мижгон не самое большое озеро, но именно здесь Хафткуль впервые просит сбавить скорость.»"
+      "uz": "Mijgon muhim, chunki Yetti Koʻl yoʻli shu yerda faqat yondashuv boʻlib qolmaydi. Toʻxtash qisqa boʻlishi mumkin, lekin aynan shu joyda Haftkoʻl ketma-ketligining birinchi rangi va vodiy hissi paydo boʻladi.
+
+
+        «Mijgon eng katta koʻl emas, lekin Haftkoʻl birinchi marta aynan shu yerda sekinlashishni soʻraydi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni koʻrasiz"
+    "title":
+      "en": "Lower lake, valley road, and first water colour"
+      "ru": "Нижнее озеро, дорога долины и первый цвет воды"
+      "uz": "Pastki koʻl, vodiy yoʻli va suvning birinchi rangi"
+    "description":
+      "en": "The stop is best understood in three simple views: the lower-lake colour, the Shing Valley approach, and the road continuing toward the next lakes. 1. **Lower-lake colour** **alt:** Mijgon Lake water below the lower Seven Lakes road in Tajikistan. **caption:** Mijgon gives the Haftkul route its first visible colour change. **media_label:** Mijgon water and valley setting 2. **Shing Valley approach** **alt:** The road approach toward Mijgon Lake in the Shing Valley above Penjikent. **caption:** The approach through the lived valley makes the first water view feel different. **media_label:** Shing Valley approach 3. **Road onward** **alt:** The Seven Lakes road continuing from Mijgon toward the middle lakes. **caption:** After Mijgon, the route opens toward wider water at Marguzor. **media_label:** Road toward Marguzor"
+      "ru": "Эту остановку проще читать через три вида: цвет нижнего озера, подход по долине Шинг и дорогу, которая продолжается к следующим озёрам. 1. **Цвет нижнего озера** **alt:** Вода озера Мижгон ниже дороги Семи озёр в Таджикистане. **caption:** Мижгон даёт маршруту Хафткуль первую заметную смену цвета. **media_label:** Вода Мижгона и долина 2. **Подход через долину Шинг** **alt:** Дорога к озеру Мижгон через долину Шинг над Пенджикентом. **caption:** Подъезд через живую долину меняет ощущение первого вида на воду. **media_label:** Подход через долину Шинг 3. **Дорога дальше** **alt:** Дорога Семи озёр от Мижгона к средним озёрам. **caption:** После Мижгона маршрут раскрывается к более широкой воде Маргузора. **media_label:** Дорога к Маргузору"
+      "uz": "Bu toʻxtashni uch oddiy koʻrinish orqali tushunish oson: pastki koʻl rangi, Shing vodiysi orqali yondashuv va keyingi koʻllarga ketadigan yoʻl. 1. **Pastki koʻl rangi** **alt:** Tojikistondagi Yetti Koʻl yoʻli pastida Mijgon ko‘li suvi. **caption:** Mijgon Haftkoʻl yoʻliga birinchi ko‘rinadigan rang almashinuvini beradi. **media_label:** Mijgon suvi va vodiy muhiti 2. **Shing vodiysi orqali yondashuv** **alt:** Panjikent ustidagi Shing vodiysi orqali Mijgon ko‘liga boradigan yoʻl. **caption:** Yashaydigan vodiy orqali kelish birinchi suv manzarasini boshqacha his qildiradi. **media_label:** Shing vodiysi yondashuvi 3. **Davom etadigan yoʻl** **alt:** Mijgondan oʻrta koʻllar tomon davom etadigan Yetti Koʻl yoʻli. **caption:** Mijgondan keyin yoʻl Marguzorning kengroq suvi tomon ochiladi. **media_label:** Marguzor tomon yoʻl"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qoʻshish"
+    "title":
+      "en": "Continue toward Marguzor and Hazorchashma"
+      "ru": "Продолжить к Маргузору и Хазорчашме"
+      "uz": "Marguzor va Hazorchashma tomon davom etish"
+    "description":
+      "en": "Marguzor gives the Seven Lakes road its wider water frame. Hazorchashma is a higher continuation only when road, weather, vehicle, and daylight support it."
+      "ru": "Маргузор даёт дороге Семи озёр более широкий водный вид. Хазорчашма уместна как верхнее продолжение только когда это позволяют дорога, погода, машина и световой день."
+      "uz": "Marguzor Yetti Koʻl yoʻliga kengroq suv manzarasini beradi. Hazorchashma esa faqat yoʻl, ob-havo, mashina va kunduzgi vaqt imkon berganda qoʻshiladigan yuqori davomdir."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Marguzor Lake"
+          "ru": "Озеро Маргузор"
+          "uz": "Marguzor ko‘li"
+        "description":
+          "en": "Marguzor Lake is the broad lake anchor of the Seven Lakes road above Penjikent, the place where the Haftkul route slows between Mijgon below and the upper-lake choice ahead."
+          "ru": "Озеро Маргузор - широкий озёрный якорь дороги Семи озёр над Пенджикентом, место, где маршрут Хафткуль замедляется между Мижгоном ниже и выбором верхней дороги впереди."
+          "uz": "Marguzor ko‘li Panjikent ustidagi Yetti Koʻl yoʻlining keng koʻl tayanchidir: bu yerda Haftkoʻl yoʻnalishi pastdagi Mijgondan keyin sekinlashadi va yuqori yoʻl qarori oldidan toʻxtaydi."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/seven-lakes/marguzor-lake"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Hazorchashma Lake"
+          "ru": "Озеро Хазорчашма"
+          "uz": "Hazorchashma ko‘li"
+        "description":
+          "en": "Hazorchashma Lake is the conditions-based upper stop on the Seven Lakes road, reached beyond Marguzor only when road, weather, vehicle, daylight, comfort, and return margin support it."
+          "ru": "Озеро Хазорчашма - верхнее продолжение маршрута Семь озёр, к которому стоит ехать после Маргузора только когда дорога, погода, машина, световой день, комфорт путешественников и запас на обратный путь позволяют спокойный визит."
+          "uz": "Hazorchashma ko‘li Yetti Koʻl yoʻlidagi sharoitga bogʻliq yuqori bekatdir: Marguzordan keyin unga faqat yoʻl, ob-havo, mashina, kunduzgi vaqt, sayohatchilar qulayligi va qaytish zaxirasi imkon bersa boriladi."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/seven-lakes/hazorchashma-lake"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Mijgon Lake"
+      "ru": "Что агентства спрашивают про Озеро Мижгон"
+      "uz": "Agentliklar Mijgon ko‘li haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Mijgon Lake get in the day plan?"
+          "ru": "Сколько времени закладывать на Озеро Мижгон в плане дня?"
+          "uz": "Mijgon ko‘li uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "a focused half-day with buffer is a practical range for most groups. Keep the stop readable: one clear arrival, one clear exit. Place tone: “The first lake pause on the Haftkul road”."
+          "ru": "Для большинства групп реалистичный диапазон — полдня с запасом. Держите остановку читаемой: понятный вход и понятный выход. Характер места: «Первая озёрная пауза на дороге Хафткуль»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — zaxira bilan yarim kun. Bekatni o‘qiladigan tuting: aniq kirish va aniq chiqish. Joy ohangi: «Haftkoʻl yoʻlidagi birinchi koʻl pauzasi»."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "When is Mijgon Lake strongest during the day?"
+          "ru": "В какое время дня Озеро Мижгон раскрывается сильнее?"
+          "uz": "Mijgon ko‘li kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer early morning or late afternoon. That usually improves comfort, photos, and how the stop feels in the sequence around seven-lakes."
+          "ru": "Лучше рано утром или ближе к вечеру. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с seven-lakes."
+          "uz": "erta tong yoki kechga yaqin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (seven-lakes atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "How should Mijgon Lake sit next to nearby stops?"
+          "ru": "Как поставить Озеро Мижгон рядом с соседними остановками?"
+          "uz": "Mijgon ko‘lini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Mijgon Lake to your Tajikistan programme"
+      "ru": "Добавьте «Озеро Мижгон» в программу (Таджикистан)"
+      "uz": "Mijgon ko‘lini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Mijgon Lake | TourLink"
+    "ru": "Озеро Мижгон | TourLink"
+    "uz": "Mijgon ko‘li | TourLink"
+  "metaDescription":
+    "en": "Mijgon is the lower-lake stop where the Seven Lakes road first changes from approach to arrival. After the climb from the Penjikent side through the Shing Valley, the water gives Haftkul its first visible colour before Marguzor and the higher lakes."
+    "ru": "Мижгон - нижнее озеро, где дорога Семи озёр впервые ощущается не подъездом, а самим Хафткулем. После подъёма со стороны Пенджикента через долину Шинг вода даёт маршруту первый цвет перед Маргузором и верхними озёрами."
+    "uz": "Mijgon - Yetti Koʻl yoʻli ilk bor oddiy yondashuvdan Haftkoʻlning oʻziga aylana boshlaydigan pastki koʻl. Panjikent tomondan Shing vodiysi orqali koʻtarilgach, suv yoʻlga birinchi rang beradi va Marguzor hamda yuqori koʻllardan oldin tempni sekinlashtiradi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "fann-mountains-and-zeravshan"
+"city": "seven-lakes"
+"type": "LAKE"
+"importance": "RECOMMENDED"
+"latitude": 39.2206353
+"longitude": 67.8010251

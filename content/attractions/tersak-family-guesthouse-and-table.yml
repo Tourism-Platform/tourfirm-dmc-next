@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "tersak-family-guesthouse-and-table"
+  "ru": "tersak-family-guesthouse-and-table"
+  "uz": "tersak-family-guesthouse-and-table"
+"title":
+  "en": "Family table in Tersak"
+  "ru": "Домашний стол в Терсаке"
+  "uz": "Tersakdagi oilaviy dasturxon"
+"subtitle":
+  "en": "Bread, dairy, and village food at the heart of the stop"
+  "ru": "Лепёшка, молочные продукты и сельская еда в центре паузы"
+  "uz": "To‘xtash markazidagi non, sutli mahsulotlar va qishloq taomi"
+"excerpt":
+  "en": "The family table is where Tersak becomes more than a mountain view. Bread, dairy, local food, and conversation slow the route and give the village stop a human centre."
+  "ru": "Домашний стол делает Терсак больше, чем горным видом. Еда, лепёшка, молочные продукты и разговор замедляют маршрут и дают сельской паузе человеческий центр."
+  "uz": "Oilaviy dasturxon Tersakni tog‘ manzarasidan ko‘proq narsaga aylantiradi. Taom, non, sutli mahsulotlar va suhbat marshrutni sekinlashtirib, qishloq to‘xtashiga insoniy markaz beradi."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Family table in Tersak"
+      "ru": "Домашний стол в Терсаке"
+      "uz": "Tersakdagi oilaviy dasturxon"
+    "title":
+      "en": "Family table in Tersak"
+      "ru": "Домашний стол в Терсаке"
+      "uz": "Tersakdagi oilaviy dasturxon"
+    "description":
+      "en": "Bread, dairy, and village food at the heart of the stop"
+      "ru": "Лепёшка, молочные продукты и сельская еда в центре паузы"
+      "uz": "To‘xtash markazidagi non, sutli mahsulotlar va qishloq taomi"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Family table in Tersak"
+      "ru": "Домашний стол в Терсаке"
+      "uz": "Tersakdagi oilaviy dasturxon"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "The family table is where Tersak becomes more than a mountain view."
+              "ru": "Домашний стол делает Терсак больше, чем горным видом."
+              "uz": "Oilaviy dasturxon Tersakni tog‘ manzarasidan ko‘proq narsaga aylantiradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Food is the easiest way for Tersak to become a real village stop rather than a scenic turn off the Samarkand route."
+              "ru": "Еда проще всего превращает Терсак в настоящий сельский визит, а не просто в красивый поворот от Самарканда."
+              "uz": "Taom Tersakni Samarqand yo‘lidan chiroyli burilish emas, haqiqiy qishloq tashrifiga aylantiradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Bread, dairy, and village food at the heart of the stop."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Лепёшка, молочные продукты и сельская еда в центре паузы."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — To‘xtash markazidagi non, sutli mahsulotlar va qishloq taomi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Family table in Tersak as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Домашний стол в Терсаке как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Tersakdagi oilaviy dasturxon o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Family table in Tersak sits on the route"
+      "ru": "Где Домашний стол в Терсаке стоит на маршруте"
+      "uz": "Tersakdagi oilaviy dasturxon marshrutda qayerda"
+    "description":
+      "en": "One clear point for Family table in Tersak — Bread, dairy, and village food at the heart of the stop."
+      "ru": "Одна понятная точка для «Домашний стол в Терсаке» — Лепёшка, молочные продукты и сельская еда в центре паузы."
+      "uz": "Tersakdagi oilaviy dasturxon uchun bitta aniq nuqta — To‘xtash markazidagi non, sutli mahsulotlar va qishloq taomi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Family table in Tersak"
+        "ru": "Домашний стол в Терсаке"
+        "uz": "Tersakdagi oilaviy dasturxon"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.3818761
+      "longitude": 66.9770831
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "tersak-family-guesthouse-and-table"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "The human centre of Tersak"
+      "ru": "Человеческий центр терсакской паузы"
+      "uz": "Tersak to‘xtashining insoniy markazi"
+    "description":
+      "en": "Food is the easiest way for Tersak to become a real village stop rather than a scenic turn off the Samarkand route.
+
+
+        «Tersak becomes memorable when the road ends at a table, not only at a view.»"
+      "ru": "Еда проще всего превращает Терсак в настоящий сельский визит, а не просто в красивый поворот от Самарканда.
+
+
+        «Терсак запоминается, когда дорога заканчивается у стола, а не только у вида.»"
+      "uz": "Taom Tersakni Samarqand yo‘lidan chiroyli burilish emas, haqiqiy qishloq tashrifiga aylantiradi.
+
+
+        «Tersak yo‘l faqat manzarada emas, dasturxon oldida tugaganda esda qoladi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you’ll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Bread, dairy, and a village table"
+      "ru": "Лепёшка, молочные продукты и сельский стол"
+      "uz": "Non, sutli mahsulotlar va qishloq dasturxoni"
+    "description":
+      "en": "The gallery keeps the food and home pace that make Tersak feel lived in."
+      "ru": "Галерея держит еду и домашний ритм, благодаря которым Терсак ощущается живым."
+      "uz": "Galereya Tersakni tirik his qildiradigan taom va uy ritmini ko‘rsatadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Let the meal stay personal"
+      "ru": "Пусть еда останется личной"
+      "uz": "Taom shaxsiy qolsin"
+    "description":
+      "en": "The table feels strongest as a village meal, not a rushed scheduled stop."
+      "ru": "Дастархан сильнее раскрывается как сельская встреча, а не как спешный обед по расписанию."
+      "uz": "Dasturxon shoshilinch ovqat emas, qishloq uchrashuvi kabi sezilganda kuchliroq."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby Tersak details"
+      "ru": "Детали Терсака рядом"
+      "uz": "Tersak tafsilotlari yaqinida"
+    "title":
+      "en": "What to add around the table"
+      "ru": "Что добавить вокруг стола"
+      "uz": "Dasturxon atrofida nima qo‘shish"
+    "description":
+      "en": "Keep additions close to the same village day: the Urgut setting, a short path, and an easy return."
+      "ru": "Оставляйте добавления рядом с тем же сельским днём: ургутская среда, короткая тропа и спокойное возвращение."
+      "uz": "Qo‘shimchalar bir qishloq kuni ichida qolsin: Urgut muhiti, qisqa yo‘l va sokin qaytish."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Urgut mountain village setting"
+          "ru": "Горная среда Ургута"
+          "uz": "Urgut tog‘ qishlog‘i muhiti"
+        "description":
+          "en": "This Tersak stop explains the mountain-village side of the route: the Urgut road, cooler air, village lanes, and a slower scale after Samarkand."
+          "ru": "Эта остановка показывает горно-сельскую сторону Терсака: дорогу к Ургуту, более свежий воздух, сельские улицы и другой масштаб после Самарканда."
+          "uz": "Bu Tersak bekati marshrutning tog‘-qishloq tomonini ochadi: Urgut yo‘li, salqinroq havo, qishloq ko‘chalari va Samarqanddan keyingi sekinroq miqyos."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/tersak/tersak-urgut-mountain-village-setting"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Fields, short walks, and horses"
+          "ru": "Поля, короткие прогулки и лошади"
+          "uz": "Dala, qisqa sayrlar va otlar"
+        "description":
+          "en": "Fields, short mountain walks, and horses add Tersak’s outdoor side when the season, route pace, and local guidance make the movement feel easy."
+          "ru": "Поля, короткие горные прогулки и лошади добавляют Терсаку движение на воздухе, когда сезон, темп маршрута и сопровождение делают его лёгким."
+          "uz": "Dala, qisqa tog‘ sayrlari va otlar mavsum, marshrut sur’ati va mahalliy yo‘l-yo‘riq harakatni yengil qilganda Tersakka ochiq havo ritmini qo‘shadi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/tersak/tersak-agro-walk-and-riding-context"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Family table in Tersak"
+      "ru": "Что агентства спрашивают про Домашний стол в Терсаке"
+      "uz": "Agentliklar Tersakdagi oilaviy dasturxon haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Family table in Tersak get in the day plan?"
+          "ru": "Сколько времени закладывать на Домашний стол в Терсаке в плане дня?"
+          "uz": "Tersakdagi oilaviy dasturxon uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "a focused half-day with buffer is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Bread, dairy, and village food at the heart of the stop”."
+          "ru": "Для большинства групп реалистичный диапазон — полдня с запасом. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Лепёшка, молочные продукты и сельская еда в центре паузы»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — zaxira bilan yarim kun. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «To‘xtash markazidagi non, sutli mahsulotlar va qishloq taomi»."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "When is Family table in Tersak strongest during the day?"
+          "ru": "В какое время дня Домашний стол в Терсаке раскрывается сильнее?"
+          "uz": "Tersakdagi oilaviy dasturxon kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer early morning or late afternoon. That usually improves comfort, photos, and how the stop feels in the sequence around tersak."
+          "ru": "Лучше рано утром или ближе к вечеру. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с tersak."
+          "uz": "erta tong yoki kechga yaqin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (tersak atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "How should Family table in Tersak sit next to nearby stops?"
+          "ru": "Как поставить Домашний стол в Терсаке рядом с соседними остановками?"
+          "uz": "Tersakdagi oilaviy dasturxonni yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Family table in Tersak to your Uzbekistan programme"
+      "ru": "Добавьте «Домашний стол в Терсаке» в программу (Узбекистан)"
+      "uz": "Tersakdagi oilaviy dasturxonni Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Family table in Tersak | TourLink"
+    "ru": "Домашний стол в Терсаке | TourLink"
+    "uz": "Tersakdagi oilaviy dasturxon | TourLink"
+  "metaDescription":
+    "en": "The family table is where Tersak becomes more than a mountain view. Bread, dairy, local food, and conversation slow the route and give the village stop a human centre."
+    "ru": "Домашний стол делает Терсак больше, чем горным видом. Еда, лепёшка, молочные продукты и разговор замедляют маршрут и дают сельской паузе человеческий центр."
+    "uz": "Oilaviy dasturxon Tersakni tog‘ manzarasidan ko‘proq narsaga aylantiradi. Taom, non, sutli mahsulotlar va suhbat marshrutni sekinlashtirib, qishloq to‘xtashiga insoniy markaz beradi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "samarkand-region"
+"city": "tersak"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 39.3818761
+"longitude": 66.9770831

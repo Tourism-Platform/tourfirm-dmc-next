@@ -42,6 +42,24 @@ function normalizeDescriptionField(value: unknown): unknown {
 	return value;
 }
 
+function normalizeCardEntry(card: unknown): unknown {
+	if (!card || typeof card !== "object") {
+		return card;
+	}
+
+	const cardEntry = { ...(card as Record<string, unknown>) };
+
+	if ("description" in cardEntry) {
+		cardEntry.description = normalizeDescriptionField(cardEntry.description);
+	}
+
+	if ("quote" in cardEntry) {
+		cardEntry.quote = normalizeDescriptionField(cardEntry.quote);
+	}
+
+	return cardEntry;
+}
+
 export function normalizeRichTextDescriptions(blocks: unknown[]): unknown[] {
 	return blocks.map((block) => {
 		if (!block || typeof block !== "object") {
@@ -55,20 +73,26 @@ export function normalizeRichTextDescriptions(blocks: unknown[]): unknown[] {
 		}
 
 		if (Array.isArray(entry.cards)) {
-			entry.cards = entry.cards.map((card) => {
-				if (!card || typeof card !== "object") {
-					return card;
+			entry.cards = entry.cards.map(normalizeCardEntry);
+		}
+
+		if (Array.isArray(entry.rows)) {
+			entry.rows = entry.rows.map((row) => {
+				if (!row || typeof row !== "object") {
+					return row;
 				}
 
-				const cardEntry = { ...(card as Record<string, unknown>) };
+				const rowEntry = { ...(row as Record<string, unknown>) };
 
-				if ("description" in cardEntry) {
-					cardEntry.description = normalizeDescriptionField(
-						cardEntry.description
-					);
+				if (Array.isArray(rowEntry.left)) {
+					rowEntry.left = rowEntry.left.map(normalizeCardEntry);
 				}
 
-				return cardEntry;
+				if (Array.isArray(rowEntry.right)) {
+					rowEntry.right = rowEntry.right.map(normalizeCardEntry);
+				}
+
+				return rowEntry;
 			});
 		}
 

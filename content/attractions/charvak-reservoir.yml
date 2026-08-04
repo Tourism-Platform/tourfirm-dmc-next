@@ -1,70 +1,329 @@
-# Seed: коллекция attractions — Charvak Reservoir
-# Источник (старая БД): route stop coords 41.623 / 70.028
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "charvak-reservoir"
+  "ru": "charvak-reservoir"
+  "uz": "charvak-reservoir"
+"title":
+  "en": "Charvak Reservoir"
+  "ru": "Чарвакское водохранилище"
+  "uz": "Chorvoq suv ombori"
+"subtitle":
+  "en": "Blue water below the Chimgan ridges"
+  "ru": "Синяя вода под хребтами Чимгана"
+  "uz": "Chimyon tizmalari ostidagi ko‘k suv"
+"excerpt":
+  "en": "Charvak Reservoir changes a Chimgan outing from slope views to water and open horizon. Come first for the reservoir itself: a viewpoint, a shore meal, or a seasonal recreation stop, with swimming or boating decided locally by weather, operator, and water safety conditions."
+  "ru": "Чарвакское водохранилище переводит выезд к Чимгану от склонов к воде и открытому горизонту. Сначала сюда приезжают за самим видом: обзорной точкой, обедом у берега или сезонной зоной отдыха, а купание и лодки решаются на месте по погоде, оператору и условиям безопасности."
+  "uz": "Chorvoq suv ombori Chimyonga chiqishni yonbag‘ir manzarasidan suv va ochiq ufqqa olib o‘tadi. Avval bu yerga suvning o‘zi uchun kelasiz: tomosha nuqtasi, qirg‘oqdagi tushlik yoki mavsumiy dam olish joyi; suzish va qayiq esa ob-havo, operator va suv xavfsizligi bo‘yicha joyida hal qilinadi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/chimgan/attractions/charvak-reservoir.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/chimgan/attractions/charvak-reservoir.webp"
+    "imageAlt":
+      "en": "Charvak Reservoir"
+      "ru": "Чарвакское водохранилище"
+      "uz": "Chorvoq suv ombori"
+    "title":
+      "en": "Charvak Reservoir"
+      "ru": "Чарвакское водохранилище"
+      "uz": "Chorvoq suv ombori"
+    "description":
+      "en": "Blue water below the Chimgan ridges"
+      "ru": "Синяя вода под хребтами Чимгана"
+      "uz": "Chimyon tizmalari ostidagi ko‘k suv"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
 
-slug:
-  en: charvak-reservoir
-  ru: charvak-reservoir
-  uz: charvak-reservoir
-title:
-  en: Charvak Reservoir
-  ru: Чарвакское водохранилище
-  uz: Charvak suv ombori
-subtitle:
-  en: Mountain lake
-  ru: Горное озеро
-  uz: Tog' ko'li
-excerpt:
-  en: Turquoise water and mountain backdrop — the strongest visual break on the road to Chimgan.
-  ru: Бирюзовая вода и горный фон — главная визуальная пауза по дороге к Чимгану.
-  uz: Moviy suv va tog' fonlari — Chimganga bor yo'ldagi eng kuchli vizual nuqta.
-country: uzbekistan
-region: tashkent-region
-city: chimgan
-type: LAKE
-importance: MUST_SEE
-latitude: 41.623
-longitude: 70.028
-heroImage: assets/images/city/tashkent.jpg
-blocks:
-  - blockType: hero
-    image: assets/images/city/tashkent.jpg
-    imageAlt:
-      en: Charvak Reservoir
-      ru: Чарвакское водохранилище
-      uz: Charvak suv ombori
-    title:
-      en: Charvak Reservoir
-      ru: Чарвакское водохранилище
-      uz: Charvak suv ombori
-    description:
-      en: Turquoise water and mountain backdrop — the strongest visual break on the road to Chimgan.
-      ru: Бирюзовая вода и горный фон — главная визуальная пауза по дороге к Чимгану.
-      uz: Moviy suv va tog' fonlari — Chimganga bor yo'ldagi eng kuchli vizual nuqta.
-  - blockType: regular
-    eyebrow:
-      en: Visit tips
-      ru: Советы
-      uz: Maslahatlar
-    title:
-      en: Photo stop timing
-      ru: Время для фото-остановки
-      uz: Fototo'xtash vaqti
-    description:
-      en: Plan 20–30 minutes for photos and tea before continuing uphill to Chimgan village. Best light in late morning when water colour is strongest.
-      ru: Заложите 20–30 минут на фото и чай перед подъёмом к Чимгану. Лучший свет — поздним утром, когда цвет воды наиболее насыщенный.
-      uz: Chimgan qishlog'iga ko'tarilishdan oldin surat va choy uchun 20–30 daqiqa qoldiring. Eng yaxshi yorug'lik — kechki ertalab, suv rangi eng jonli bo'lganda.
-seo:
-  metaTitle:
-    en: Charvak Reservoir | TourLink
-    ru: Чарвакское водохранилище | TourLink
-    uz: Charvak suv ombori | TourLink
-  metaDescription:
-    en: Visit Charvak Reservoir on the Tashkent–Chimgan day route — turquoise mountain lake stop.
-    ru: Остановка у Чарвака на маршруте Ташкент–Чимган — бирюзовое горное озеро.
-    uz: Toshkent–Chimgan marshrutida Charvak suv omborini ziyorat qiling — moviy tog' ko'li.
-  structuredDataType: TouristAttraction
-status:
-  showInSitemap: true
-  noindex: false
-  hideFromNavigation: false
-  publishedAt: "2026-06-17"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Charvak Reservoir"
+      "ru": "Чарвакское водохранилище"
+      "uz": "Chorvoq suv ombori"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Charvak Reservoir changes a Chimgan outing from slope views to water and open horizon."
+              "ru": "Чарвакское водохранилище переводит выезд к Чимгану от склонов к воде и открытому горизонту."
+              "uz": "Chorvoq suv ombori Chimyonga chiqishni yonbag‘ir manzarasidan suv va ochiq ufqqa olib o‘tadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Charvak gives the Tashkent-and-Chimgan route a different tempo."
+              "ru": "Чарвак даёт маршруту Ташкент-Чимган другой темп."
+              "uz": "Chorvoq Toshkent-Chimyon yo‘liga boshqa sur’at beradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Blue water below the Chimgan ridges."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Синяя вода под хребтами Чимгана."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Chimyon tizmalari ostidagi ko‘k suv."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Charvak Reservoir as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Чарвакское водохранилище как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Chorvoq suv ombori o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Charvak Reservoir sits on the route"
+      "ru": "Где Чарвакское водохранилище стоит на маршруте"
+      "uz": "Chorvoq suv ombori marshrutda qayerda"
+    "description":
+      "en": "One clear point for Charvak Reservoir — Blue water below the Chimgan ridges."
+      "ru": "Одна понятная точка для «Чарвакское водохранилище» — Синяя вода под хребтами Чимгана."
+      "uz": "Chorvoq suv ombori uchun bitta aniq nuqta — Chimyon tizmalari ostidagi ko‘k suv."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Charvak Reservoir"
+        "ru": "Чарвакское водохранилище"
+        "uz": "Chorvoq suv ombori"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.6375
+      "longitude": 70.033333
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "charvak-reservoir"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Where the mountain road opens to water"
+      "ru": "Где горная дорога выходит к воде"
+      "uz": "Tog‘ yo‘li suvga ochiladigan joy"
+    "description":
+      "en": "Charvak gives the Tashkent-and-Chimgan route a different tempo. After the capital and the lower mountain road, the reservoir adds a broad blue surface, dry red-grey slopes, shore life in warm months, and a calmer way to feel the foothills without committing to a trail.
+
+
+        «Charvak is best when the plan stays clear: water and ridges first, shore activity only when the day supports it.»"
+      "ru": "Чарвак даёт маршруту Ташкент-Чимган другой темп. После столицы и нижней горной дороги появляется широкая синяя вода, сухие красно-серые склоны, береговая жизнь в тёплые месяцы и более спокойный способ почувствовать предгорья без обязательной тропы.
+
+
+        «Чарвак лучше всего раскрывается в ясном плане: сначала вода и хребты, а береговая активность — только когда день это позволяет.»"
+      "uz": "Chorvoq Toshkent-Chimyon yo‘liga boshqa sur’at beradi. Poytaxt va pastki tog‘ yo‘lidan keyin keng ko‘k suv, quruq qizil-kulrang yonbag‘irlar, issiq oylardagi qirg‘oq hayoti va murakkab so‘qmoqsiz tog‘oldini his qilish imkoniyati paydo bo‘ladi.
+
+
+        «Chorvoq aniq rejada eng yaxshi ochiladi: avval suv va tizmalar, qirg‘oq faoliyati esa faqat kun sharoiti ko‘tarsa.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Reservoir, shore, and mountain water"
+      "ru": "Водохранилище, берег и горная вода"
+      "uz": "Suv ombori, qirg‘oq va tog‘ suvi"
+    "description":
+      "en": "Charvak changes with the season, but the main image stays clear: water held below the mountains, shore roads and villages, and ridges that make the reservoir feel part of the Chimgan landscape."
+      "ru": "Чарвак меняется по сезонам, но главный образ остаётся ясным: вода под горами, береговые дороги и посёлки, хребты, из-за которых водохранилище воспринимается частью чимганского пейзажа."
+      "uz": "Chorvoq mavsumga qarab o‘zgaradi, lekin asosiy manzara aniq qoladi: tog‘lar ostidagi suv, qirg‘oq yo‘llari va qishloqlar, suv omborini Chimyon manzarasining bir qismi qiladigan tizmalar."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Keep the water plan flexible"
+      "ru": "Держите водный план гибким"
+      "uz": "Suv rejasini moslashuvchan tuting"
+    "description":
+      "en": "Charvak can be a viewpoint, a shore lunch, a beach stop, or a seasonal activity area. The right version depends on weather, weekend crowds, water conditions, and which facilities are open."
+      "ru": "Чарвак может быть обзорной точкой, обедом у берега, пляжной остановкой или сезонной зоной активности. Правильная версия зависит от погоды, нагрузки выходного дня, состояния воды и открытых площадок."
+      "uz": "Chorvoq tomosha nuqtasi, qirg‘oqdagi tushlik, plyaj to‘xtashi yoki mavsumiy faoliyat hududi bo‘lishi mumkin. To‘g‘ri shakl ob-havo, dam olish kunlari bosimi, suv holati va ochiq obyektlarga bog‘liq."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby from Chimgan"
+      "ru": "Рядом с Чимганом"
+      "uz": "Chimyonga yaqin"
+    "title":
+      "en": "What to pair with Charvak"
+      "ru": "С чем сочетать Чарвак"
+      "uz": "Chorvoq bilan nimalarni juftlash"
+    "description":
+      "en": "Nearby choices stay clearest when Charvak is paired with one mountain reference: Chimgan Mountains for the broader slope setting, or Greater Chimgan for the skyline above the road when conditions allow."
+      "ru": "Соседние остановки становятся понятнее, когда Чарвак связан с одним горным ориентиром: Чимганскими горами для общего склонового пейзажа или Большим Чимганом для силуэта над дорогой, если условия подходят."
+      "uz": "Yaqin joylar Chorvoq bitta tog‘ mo‘ljali bilan bog‘langanda aniqroq seziladi: Chimyon tog‘lari kengroq yonbag‘ir manzarasini beradi, Katta Chimyon esa sharoit mos bo‘lsa yo‘l ustidagi siluetni ko‘rsatadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/charvak-reservoir-next-chimgan-mountains.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Chimgan Mountains"
+          "ru": "Чимганские горы"
+          "uz": "Chimyon tog‘lari"
+        "description":
+          "en": "The Chimgan Mountains bring the Tashkent route into cooler air, with open slopes, Greater Chimgan on the skyline, and visit choices shaped by season, weather, and local mountain checks."
+          "ru": "Чимганские горы выводят ташкентский маршрут к прохладному воздуху: открытые склоны, Большой Чимган на горизонте и выбор выезда, который зависит от сезона, погоды и местной проверки."
+          "uz": "Chimyon tog‘lari Toshkent yo‘nalishini salqin havoga olib chiqadi: ochiq yonbag‘irlar, ufqdagi Katta Chimyon va mavsum, ob-havo hamda mahalliy tekshiruvga bog‘liq tashrif tanlovi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/chimgan/chimgan-mountains"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/charvak-reservoir-next-greater-chimgan-peak.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Greater Chimgan Peak"
+          "ru": "Большой Чимган"
+          "uz": "Katta Chimyon"
+        "description":
+          "en": "Greater Chimgan is the 3,309 m peak that shapes Chimgan's skyline. It is easy to admire from below; any ridge or summit plan needs season, weather, fitness, and local mountain guidance."
+          "ru": "Большой Чимган — вершина 3 309 м, которая формирует силуэт Чимгана. Её легко увидеть снизу; выходы к гребню или вершине требуют сезона, погоды, формы и местного горного сопровождения."
+          "uz": "Katta Chimyon — Chimyonga siluet beradigan 3 309 metrlik cho‘qqi. Uni pastdan ko‘rish oson; qir yoki cho‘qqi rejasi esa mavsum, ob-havo, tayyorgarlik va mahalliy tog‘ yo‘l-yo‘rig‘ini talab qiladi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/chimgan/greater-chimgan-peak"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Charvak Reservoir"
+      "ru": "Что агентства спрашивают про Чарвакское водохранилище"
+      "uz": "Agentliklar Chorvoq suv ombori haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Charvak Reservoir get in the day plan?"
+          "ru": "Сколько времени закладывать на Чарвакское водохранилище в плане дня?"
+          "uz": "Chorvoq suv ombori uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "a focused half-day with buffer is a practical range for most groups. Keep the stop readable: one clear arrival, one clear exit. Place tone: “Blue water below the Chimgan ridges”."
+          "ru": "Для большинства групп реалистичный диапазон — полдня с запасом. Держите остановку читаемой: понятный вход и понятный выход. Характер места: «Синяя вода под хребтами Чимгана»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — zaxira bilan yarim kun. Bekatni o‘qiladigan tuting: aniq kirish va aniq chiqish. Joy ohangi: «Chimyon tizmalari ostidagi ko‘k suv»."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "When is Charvak Reservoir strongest during the day?"
+          "ru": "В какое время дня Чарвакское водохранилище раскрывается сильнее?"
+          "uz": "Chorvoq suv ombori kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer early morning or late afternoon. That usually improves comfort, photos, and how the stop feels in the sequence around chimgan."
+          "ru": "Лучше рано утром или ближе к вечеру. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с chimgan."
+          "uz": "erta tong yoki kechga yaqin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (chimgan atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "How should Charvak Reservoir sit next to nearby stops?"
+          "ru": "Как поставить Чарвакское водохранилище рядом с соседними остановками?"
+          "uz": "Chorvoq suv omborini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/chimgan/attractions/charvak-reservoir.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Charvak Reservoir to your Uzbekistan programme"
+      "ru": "Добавьте «Чарвакское водохранилище» в программу (Узбекистан)"
+      "uz": "Chorvoq suv omborini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Charvak Reservoir | TourLink"
+    "ru": "Чарвакское водохранилище | TourLink"
+    "uz": "Chorvoq suv ombori | TourLink"
+  "metaDescription":
+    "en": "Charvak Reservoir changes a Chimgan outing from slope views to water and open horizon. Come first for the reservoir itself: a viewpoint, a shore meal, or a seasonal recreation stop, with swimming or boating decided locally by weather, operator, and water safety conditions."
+    "ru": "Чарвакское водохранилище переводит выезд к Чимгану от склонов к воде и открытому горизонту. Сначала сюда приезжают за самим видом: обзорной точкой, обедом у берега или сезонной зоной отдыха, а купание и лодки решаются на месте по погоде, оператору и условиям безопасности."
+    "uz": "Chorvoq suv ombori Chimyonga chiqishni yonbag‘ir manzarasidan suv va ochiq ufqqa olib o‘tadi. Avval bu yerga suvning o‘zi uchun kelasiz: tomosha nuqtasi, qirg‘oqdagi tushlik yoki mavsumiy dam olish joyi; suzish va qayiq esa ob-havo, operator va suv xavfsizligi bo‘yicha joyida hal qilinadi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "tashkent-region"
+"city": "chimgan"
+"type": "LAKE"
+"importance": "RECOMMENDED"
+"latitude": 41.6375
+"longitude": 70.033333

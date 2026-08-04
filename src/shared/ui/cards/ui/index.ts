@@ -20,3 +20,7 @@ export { BlogCard } from "./blog-card";
 export { NewsCard } from "./news-card";
 export { TradeFairCard } from "./trade-fair-card";
 export { TripFormatCard } from "./trip-format-card";
+export { DashTitleCard } from "./dash-title-card";
+export { QuoteCard } from "./quote-card";
+export { InsightAlertCard } from "./insight-alert-card";
+export { MiniTableCard } from "./mini-table-card";

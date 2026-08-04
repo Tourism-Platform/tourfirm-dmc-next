@@ -1,0 +1,368 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "pamir-and-gbao"
+  "ru": "pamir-and-gbao"
+  "uz": "pamir-and-gbao"
+"title":
+  "en": "Pamir & GBAO"
+  "ru": "Памир и ГБАО"
+  "uz": "Pomir va GBAO"
+"subtitle":
+  "en": "High Pamir roads, river valleys, and Khorog before the passes"
+  "ru": "Высокие дороги Памира, речные долины и Хорог перед перевалами"
+  "uz": "Pomirning baland yoʻllari, daryo vodiylari va dovonlar oldidagi Xorugʻ"
+"excerpt":
+  "en": "Pamir & GBAO is where Tajikistan turns into high-road travel. Khorog gives the journey a town anchor before the Panj valley, the Wakhan road, the Murghab plateau, Bartang, and Karakul make altitude, permits, road condition, and time part of the route."
+  "ru": "Памир и ГБАО — место, где Таджикистан переходит в путешествие по высоким дорогам. Хорог даёт маршруту городской якорь перед долиной Пянджа, дорогой в Вахан, плато Мургаба, Бартангом и Каракулем, где высота, разрешения, состояние дороги и запас времени становятся частью маршрута."
+  "uz": "Pomir va GBAO Tojikiston baland yoʻl safariga aylana boshlaydigan hudud. Xorugʻ Panj vodiysi, Vaxon yoʻli, Murgʻob platosi, Bartang va Qorakoʻldan oldin shahar tayanchini beradi; bu yoʻllarda balandlik, ruxsatnoma, yoʻl holati va vaqt zaxirasi marshrutning bir qismiga aylanadi."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "Pamir & GBAO"
+      "ru": "Памир и ГБАО"
+      "uz": "Pomir va GBAO"
+    "title":
+      "en": "Pamir & GBAO"
+      "ru": "Памир и ГБАО"
+      "uz": "Pomir va GBAO"
+    "description":
+      "en": "High Pamir roads, river valleys, and Khorog before the passes"
+      "ru": "Высокие дороги Памира, речные долины и Хорог перед перевалами"
+      "uz": "Pomirning baland yoʻllari, daryo vodiylari va dovonlar oldidagi Xorugʻ"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О регионе"
+      "uz": "Hudud haqida"
+    "title":
+      "en": "Pamir & GBAO"
+      "ru": "Памир и ГБАО"
+      "uz": "Pomir va GBAO"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Pamir & GBAO is where Tajikistan turns into high-road travel."
+              "ru": "Памир и ГБАО — место, где Таджикистан переходит в путешествие по высоким дорогам."
+              "uz": "Pomir va GBAO Tojikiston baland yoʻl safariga aylana boshlaydigan hudud."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Begin in Khorog, then choose one high-road direction after checking current conditions: Wakhan and Ishkashim, Bartang, Murghab and the eastern plateau, Karakul, or the road back west."
+              "ru": "Начните с Хорога, затем выберите одно высокогорное направление с учётом текущих условий: Вахан и Ишкашим, Бартанг, Мургаб и восточное плато, Каракуль или дорогу обратно на запад."
+              "uz": "Xorugʻdan boshlang, keyin joriy sharoitga qarab bitta baland yoʻl yoʻnalishini tanlang: Vaxon va Ishkashim, Bartang, Murgʻob va sharqiy plato, Qorakoʻl yoki gʻarbga qaytish."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The Pamir route reads best when Khorog comes first and the next move is chosen with current access, altitude, and road condition in mind."
+              "ru": "Памирский маршрут читается лучше, когда первым идёт Хорог, а следующий ход выбирается с учётом доступа, высоты и состояния дорог."
+              "uz": "Pomir marshruti avval Xorugʻdan boshlanib, keyingi yoʻl kirish, balandlik va yoʻl holatiga qarab tanlanganda aniqroq oʻqiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Pamir & GBAO as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Памир и ГБАО как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Pomir va GBAO o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "How the Pamir road opens from Khorog"
+      "ru": "Как памирская дорога раскрывается от Хорога"
+      "uz": "Pomir yoʻli Xorugʻdan qanday ochiladi"
+    "description":
+      "en": "Begin in Khorog, then choose one high-road direction after checking current conditions: Wakhan and Ishkashim, Bartang, Murghab and the eastern plateau, Karakul, or the road back west."
+      "ru": "Начните с Хорога, затем выберите одно высокогорное направление с учётом текущих условий: Вахан и Ишкашим, Бартанг, Мургаб и восточное плато, Каракуль или дорогу обратно на запад."
+      "uz": "Xorugʻdan boshlang, keyin joriy sharoitga qarab bitta baland yoʻl yoʻnalishini tanlang: Vaxon va Ishkashim, Bartang, Murgʻob va sharqiy plato, Qorakoʻl yoki gʻarbga qaytish."
+    "mapPanel":
+      "eyebrow":
+        "en": "Pamir anchors"
+        "ru": "Ориентиры Памира"
+        "uz": "Pomir moʻljallari"
+      "title":
+        "en": "Khorog, rivers, and high-road choices"
+        "ru": "Хорог, реки и выбор высоких дорог"
+        "uz": "Xorugʻ, daryolar va baland yoʻl tanlovlari"
+      "description":
+        "en": "The map keeps the main anchors visible while the wider Pamir route stays dependent on permits, weather, altitude, and road condition."
+        "ru": "Карта держит главные ориентиры в одном кадре, а широкий памирский маршрут остаётся зависимым от разрешений, погоды, высоты и состояния дорог."
+        "uz": "Xarita asosiy moʻljallarni bir joyda ko‘rsatadi, keng Pomir yoʻli esa ruxsatnoma, ob-havo, balandlik va yoʻl holatiga bogʻliq qoladi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 37.48473
+      "longitude": 71.573663
+    "zoom": 9
+    "stops":
+      - "entityType": "city"
+        "entitySlug": "khorog"
+    "aside":
+      "eyebrow":
+        "en": "Route choices"
+        "ru": "Выбор дороги"
+        "uz": "Yoʻl tanlovi"
+      "title":
+        "en": "Khorog first, then one high-road direction"
+        "ru": "Сначала Хорог, затем одно высокогорное направление"
+        "uz": "Avval Xorugʻ, keyin bitta baland yoʻl yoʻnalishi"
+      "description":
+        "en": "The Pamir route reads best when Khorog comes first and the next move is chosen with current access, altitude, and road condition in mind."
+        "ru": "Памирский маршрут читается лучше, когда первым идёт Хорог, а следующий ход выбирается с учётом доступа, высоты и состояния дорог."
+        "uz": "Pomir marshruti avval Xorugʻdan boshlanib, keyingi yoʻl kirish, balandlik va yoʻl holatiga qarab tanlanganda aniqroq oʻqiladi."
+      "items":
+        - "title":
+            "en": "Khorog"
+            "ru": "Хорог"
+            "uz": "Xorugʻ"
+          "description":
+            "en": "Khorog gives the region its town scale: rivers, guesthouses, the Botanical Garden, and a practical check before the next valley."
+            "ru": "Хорог даёт региону городской масштаб: реки, гостевые дома, ботанический сад и практическую проверку перед следующей долиной."
+            "uz": "Xorugʻ hududga shahar miqyosini beradi: daryolar, mehmon uylari, Botanika bogʻi va keyingi vodiy oldidan amaliy tekshiruv."
+          "badge":
+            "en": "Khorog"
+            "ru": "Хорог"
+            "uz": "Xorugʻ"
+        - "title":
+            "en": "Wakhan and Ishkashim"
+            "ru": "Вахан и Ишкашим"
+            "uz": "Vaxon va Ishkashim"
+          "description":
+            "en": "The Panj River road leads toward fort ruins, hot springs, fields, villages, and border-valley views; access should be checked close to departure."
+            "ru": "Дорога вдоль Пянджа ведёт к руинам крепостей, горячим источникам, полям, сёлам и видам пограничной долины; доступ лучше проверять ближе к выезду."
+            "uz": "Panj boʻyidagi yoʻl qalʼa xarobalari, issiq buloqlar, dalalar, qishloqlar va chegara vodiysi manzaralariga olib boradi; kirish imkoniyati safarga yaqin tekshiriladi."
+          "badge":
+            "en": "Wakhan and Ishkashim"
+            "ru": "Вахан и Ишкашим"
+            "uz": "Vaxon va Ishkashim"
+        - "title":
+            "en": "Murghab and high lakes"
+            "ru": "Мургаб и высокие озёра"
+            "uz": "Murgʻob va baland koʻllar"
+          "description":
+            "en": "The eastern plateau, Murghab, Bulunkul, Karakul, and long distances need altitude awareness, fuel planning, current road information, and flexible timing."
+            "ru": "Восточное плато, Мургаб, Булункуль, Каракуль и длинные расстояния требуют внимания к высоте, топливу, свежей дорожной информации и гибкому темпу."
+            "uz": "Sharqiy plato, Murgʻob, Bulunkul, Qorakoʻl va uzoq masofalar balandlik, yoqilgʻi, yangi yoʻl maʼlumoti va moslashuvchan surʼatni talab qiladi."
+          "badge":
+            "en": "Murghab and high lakes"
+            "ru": "Мургаб и высокие озёра"
+            "uz": "Murgʻob va baland koʻllar"
+        - "title":
+            "en": "Wakhan road area"
+            "ru": "Ваханская дорога"
+            "uz": "Vaxon yoʻli"
+          "description":
+            "en": "The Wakhan road carries fortress ruins, hot springs, villages, and river-border landscapes when border and road conditions allow."
+            "ru": "Ваханская дорога даёт руины крепостей, горячие источники, сёла и пейзажи вдоль пограничной реки, если позволяют граница и дорога."
+            "uz": "Vaxon yoʻli qalʼa xarobalari, issiq buloqlar, qishloqlar va chegara daryosi manzaralarini beradi, agar chegara va yoʻl sharoiti imkon bersa."
+          "badge":
+            "en": "Wakhan road area"
+            "ru": "Ваханская дорога"
+            "uz": "Vaxon yoʻli"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region character"
+      "ru": "Характер региона"
+      "uz": "Hudud ruhi"
+    "title":
+      "en": "A high-road region shaped by decisions"
+      "ru": "Высокогорный регион, который строится на решениях"
+      "uz": "Qarorlar bilan shakllanadigan baland yoʻl hududi"
+    "description":
+      "en": "Pamir & GBAO feels strongest when distance, altitude, permits, weather, and local stops are treated as part of the journey, not as paperwork around it."
+      "ru": "Памир и ГБАО сильнее всего воспринимаются, когда расстояние, высота, разрешения, погода и местные остановки становятся частью путешествия, а не бумажным фоном вокруг него."
+      "uz": "Pomir va GBAO masofa, balandlik, ruxsatnomalar, ob-havo va mahalliy toʻxtashlar sayohatning bir qismi sifatida ko‘rilganda kuchliroq ochiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Road areas"
+      "ru": "Дорожные зоны"
+      "uz": "Yoʻl hududlari"
+    "title":
+      "en": "Where the Pamir route can continue"
+      "ru": "Куда может продолжиться памирский маршрут"
+      "uz": "Pomir yoʻli qayerga davom etishi mumkin"
+    "description":
+      "en": "Khorog is the town anchor. Murghab, Ishkashim, the Wakhan road, Bartang, Bulunkul, and Karakul show the wider region as route choices that depend on access, season, and road condition."
+      "ru": "Хорог — городской якорь маршрута. Мургаб, Ишкашим, Ваханская дорога, Бартанг, Булункуль и Каракуль показывают более широкий регион как выборы, зависящие от доступа, сезона и состояния дороги."
+      "uz": "Xorugʻ marshrutning shahar tayanchidir. Murgʻob, Ishkashim, Vaxon yoʻli, Bartang, Bulunkul va Qorakoʻl kengroq hududni kirish, mavsum va yoʻl holatiga bogʻliq tanlovlar sifatida ko‘rsatadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Khorog"
+          "ru": "Хорог"
+          "uz": "Xorugʻ"
+        "description":
+          "en": "Khorog sits where the Panj and Gunt river valleys make the Pamir road feel like a town again. After the long approach, travelers can walk near the water, breathe river air, and check permits, weather, road reports, and the next valley before the route climbs higher."
+          "ru": "Хорог стоит там, где долины Пянджа и Гунта снова превращают памирскую дорогу в город. После долгого подъезда здесь можно пройтись у воды, почувствовать речной воздух и проверить разрешения, погоду, состояние дороги и следующую долину перед новым набором высоты."
+          "uz": "Xorugʻ Panj va Gunt vodiylari Pomir yoʻlini yana shaharga aylantiradigan joyda turadi. Uzoq yoʻldan keyin bu yerda suv bo‘yida yurish, daryo havosini his qilish va yoʻl balandroqqa ko‘tarilishidan oldin ruxsatnoma, ob-havo, yoʻl holati hamda keyingi vodiyni tekshirish mumkin."
+        "ctaHref": "/destinations/tajikistan/pamir-and-gbao/khorog"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni ko‘rish"
+    "title":
+      "en": "Places that give the high road shape"
+      "ru": "Места, которые придают высокой дороге форму"
+      "uz": "Baland yoʻlga shakl beradigan joylar"
+    "description":
+      "en": "Khorog Botanical Garden is the easiest visitor stop in town. Wider Pamir choices, including Yamchun, hot springs, Murghab, the Wakhan road, Bartang, and high lakes, belong in the plan only after access and road conditions are current."
+      "ru": "Ботанический сад Хорога — самая простая городская точка для визита. Ямчун, горячие источники, Мургаб, Ваханская дорога, Бартанг и высокие озёра входят в план только после свежей проверки доступа и дорог."
+      "uz": "Xorugʻ Botanika bogʻi shahardagi eng oson tashrif nuqtasidir. Yamchun, issiq buloqlar, Murgʻob, Vaxon yoʻli, Bartang va baland koʻllar kirish hamda yoʻl sharoiti yangidan tekshirilgandan keyingina rejaga kiradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Khorog Botanical Garden"
+          "ru": "Ботанический сад Хорога"
+          "uz": "Xorugʻ Botanika bogʻi"
+        "description":
+          "en": "Above Khorog, the Botanical Garden gives the town a quieter frame. Paths cross planted slopes, the town drops below, and the rivers and mountains come together in one clear view."
+          "ru": "Над Хорогом Ботанический сад даёт городу более тихую рамку. Дорожки проходят по склонам с посадками, город остаётся ниже, а реки и горы собираются в один ясный вид."
+          "uz": "Xorugʻ ustida Botanika bogʻi shaharga sokinroq ramka beradi. Yoʻlaklar ekilgan yonbagʻirlardan oʻtadi, shahar pastda qoladi, daryolar va togʻlar esa bir aniq manzarada jamlanadi."
+        "ctaHref": "/destinations/tajikistan/pamir-and-gbao/khorog/khorog-botanical-garden"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Region in detail"
+      "ru": "Регион в деталях"
+      "uz": "Hudud batafsil"
+    "title":
+      "en": "Practical questions about Pamir & GBAO"
+      "ru": "Практические вопросы о регионе Памир и ГБАО"
+      "uz": "Pomir va GBAO hududi bo‘yicha amaliy savollar"
+    "description":
+      "en": "Pace, season, and how this region connects to the next stop."
+      "ru": "Темп, сезон и как регион стыкуется со следующей остановкой."
+      "uz": "Sur’at, mavsum va hududning keyingi bekat bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How many days does Pamir & GBAO need in a programme?"
+          "ru": "Сколько дней нужно региону Памир и ГБАО в программе?"
+          "uz": "Pomir va GBAO hududi dasturda necha kun olishi kerak?"
+        "description":
+          "en": "3–5 days usually works if you keep one strong core and treat outer stops as deliberate choices. The region brief is “High Pamir roads, river valleys, and Khorog before the passes”."
+          "ru": "Обычно хватает 3–5 дней, если держать одно сильное ядро, а внешние остановки выбирать осознанно. Кратко о регионе: «Высокие дороги Памира, речные долины и Хорог перед перевалами»."
+          "uz": "Odatda 3–5 kun yetadi — bitta kuchli yadro va tashqi bekatlarni ongli tanlov qiling. Hudud brifi: «Pomirning baland yoʻllari, daryo vodiylari va dovonlar oldidagi Xorugʻ»."
+      - "type": "destinationInsight"
+        "icon": "Landmark"
+        "title":
+          "en": "What should come before and after Pamir & GBAO?"
+          "ru": "Что ставить до и после региона Памир и ГБАО?"
+          "uz": "Pomir va GBAOdan oldin va keyin nima qo‘yish kerak?"
+        "description":
+          "en": "Use neighbouring cities as clean handovers: arrive with a calm first night, leave after one completed chapter, and avoid stacking two long transfers on the same day."
+          "ru": "Соседние города держите как чистые стыки: приезжайте со спокойной первой ночью, уезжайте после завершённой главы и не ставьте два длинных переезда в один день."
+          "uz": "Qo‘shni shaharlarni toza ulanish sifatida tuting: sokin birinchi tun bilan keling, yakunlangan bobdan keyin chiqing va bir kunga ikkita uzun ko‘chishni qo‘ymang."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "What season logic matters most in Pamir & GBAO?"
+          "ru": "Какая сезонная логика важнее всего в Памир и ГБАО?"
+          "uz": "Pomir va GBAOda qaysi mavsum mantig‘i eng muhim?"
+        "description":
+          "en": "Heat, altitude, road condition, and opening hours change the product more than the brochure list. Build the region around what stays comfortable for the group that week."
+          "ru": "Жара, высота, состояние дорог и часы работы меняют продукт сильнее списка из брошюры. Собирайте регион вокруг того, что комфортно именно этой группе в эту неделю."
+          "uz": "Issiqlik, balandlik, yo‘l holati va ish soatlari broshyura ro‘yxatidan kuchliroq mahsulotni o‘zgartiradi. Hududni shu hafta guruh uchun qulay narsaga qurib chiqing."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Pamir & GBAO stop into your Tajikistan programme"
+      "ru": "Встройте остановку «Памир и ГБАО» в программу (Таджикистан)"
+      "uz": "Pomir va GBAO bekatini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right extensions — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать нужные расширения — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va kerakli kengaytmalarni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Pamir & GBAO | TourLink"
+    "ru": "Памир и ГБАО | TourLink"
+    "uz": "Pomir va GBAO | TourLink"
+  "metaDescription":
+    "en": "Pamir & GBAO is where Tajikistan turns into high-road travel. Khorog gives the journey a town anchor before the Panj valley, the Wakhan road, the Murghab plateau, Bartang, and Karakul make altitude, permits, road condition, and time part of the route."
+    "ru": "Памир и ГБАО — место, где Таджикистан переходит в путешествие по высоким дорогам. Хорог даёт маршруту городской якорь перед долиной Пянджа, дорогой в Вахан, плато Мургаба, Бартангом и Каракулем, где высота, разрешения, состояние дороги и запас времени становятся частью маршрута."
+    "uz": "Pomir va GBAO Tojikiston baland yoʻl safariga aylana boshlaydigan hudud. Xorugʻ Panj vodiysi, Vaxon yoʻli, Murgʻob platosi, Bartang va Qorakoʻldan oldin shahar tayanchini beradi; bu yoʻllarda balandlik, ruxsatnoma, yoʻl holati va vaqt zaxirasi marshrutning bir qismiga aylanadi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"mapCenter":
+  "latitude": 41.3
+  "longitude": 64.5

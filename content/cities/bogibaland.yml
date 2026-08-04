@@ -1,0 +1,635 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "bogibaland"
+  "ru": "bogibaland"
+  "uz": "bogibaland"
+"title":
+  "en": "Bogibaland"
+  "ru": "Богибаланд"
+  "uz": "Bog‘ibaland"
+"subtitle":
+  "en": "A Samarkand city-edge mahalla of fig shade, fairs, and quieter pauses"
+  "ru": "Махалля у края Самарканда: инжирная тень, ярмарка и спокойная пауза"
+  "uz": "Samarqand chetidagi mahalla: anjir soyasi, yarmarka va sokin pauza"
+"excerpt":
+  "en": "Bogibaland is where Samarkand loosens its pace. The tourism mahalla gathers Anjirzor fig gardens, seasonal produce, small fair traditions, visitor information, and recreation spaces into a gentler stop on the city edge."
+  "ru": "Богибаланд — место, где самаркандский день сбавляет темп. Туристическая махалля объединяет инжирные сады Анжирзора, сезонные продукты, небольшую ярмарочную традицию, информационный пункт и зоны отдыха в мягкую остановку у края города."
+  "uz": "Bog‘ibalandda Samarqand kuni sekinlashadi. Turizm mahallasi Anjirzor anjir bog‘lari, mavsumiy meva, kichik yarmarka an’anasi, axborot nuqtasi va dam olish joylarini shahar chetidagi yumshoq bekatga jamlaydi."
+"heroImage": "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/bogibaland.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/bogibaland.webp"
+    "imageAlt":
+      "en": "Bogibaland"
+      "ru": "Богибаланд"
+      "uz": "Bog‘ibaland"
+    "title":
+      "en": "Bogibaland"
+      "ru": "Богибаланд"
+      "uz": "Bog‘ibaland"
+    "description":
+      "en": "A Samarkand city-edge mahalla of fig shade, fairs, and quieter pauses"
+      "ru": "Махалля у края Самарканда: инжирная тень, ярмарка и спокойная пауза"
+      "uz": "Samarqand chetidagi mahalla: anjir soyasi, yarmarka va sokin pauza"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Bogibaland"
+      "ru": "Богибаланд"
+      "uz": "Bog‘ibaland"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Bogibaland is where Samarkand loosens its pace."
+              "ru": "Богибаланд — место, где самаркандский день сбавляет темп."
+              "uz": "Bog‘ibalandda Samarqand kuni sekinlashadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Bogibaland fits best as a short pause after Samarkand’s monumental scale: fig trees, seasonal produce, and a mahalla setting without turning the day into another heavy sightseeing block."
+              "ru": "Богибаланд лучше смотрится как короткая пауза после монументального Самарканда: инжирные деревья, сезонные продукты и махаллинская среда без перегруза дня."
+              "uz": "Bog‘ibaland monumental Samarqanddan keyin qisqa pauza sifatida yaxshi ochiladi: anjir daraxtlari, mavsumiy meva va mahalla muhiti kunni og‘irlashtirmaydi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Bogibaland fits best as a short pause after Samarkand’s monumental scale: fig trees, seasonal produce, and a mahalla setting without turning the day into another heavy sightseeing block."
+              "ru": "Богибаланд лучше смотрится как короткая пауза после монументального Самарканда: инжирные деревья, сезонные продукты и махаллинская среда без перегруза дня."
+              "uz": "Bog‘ibaland monumental Samarqanddan keyin qisqa pauza sifatida yaxshi ochiladi: anjir daraxtlari, mavsumiy meva va mahalla muhiti kunni og‘irlashtirmaydi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Bogibaland as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Богибаланд как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Bog‘ibaland o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Route fit"
+      "ru": "Логика маршрута"
+      "uz": "Marshrutdagi o‘rni"
+    "title":
+      "en": "From monuments to fig shade"
+      "ru": "От памятников к инжирной тени"
+      "uz": "Yodgorliklardan anjir soyasiga"
+    "description":
+      "en": "Bogibaland fits best as a short pause after Samarkand’s monumental scale: fig trees, seasonal produce, and a mahalla setting without turning the day into another heavy sightseeing block."
+      "ru": "Богибаланд лучше смотрится как короткая пауза после монументального Самарканда: инжирные деревья, сезонные продукты и махаллинская среда без перегруза дня."
+      "uz": "Bog‘ibaland monumental Samarqanddan keyin qisqa pauza sifatida yaxshi ochiladi: anjir daraxtlari, mavsumiy meva va mahalla muhiti kunni og‘irlashtirmaydi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Map orientation"
+        "ru": "Ориентир на карте"
+        "uz": "Xarita orientiri"
+      "title":
+        "en": "Bogibaland on Samarkand’s quieter edge"
+        "ru": "Богибаланд на спокойном краю Самарканда"
+        "uz": "Bog‘ibaland Samarqandning sokin chetida"
+      "description":
+        "en": "The marker gives approximate orientation for the mahalla area, not a fixed visitor entrance."
+        "ru": "Маркер показывает примерное положение махалли, а не фиксированный вход для гостей."
+        "uz": "Marker mahalla hududini taxminiy ko‘rsatadi; u mehmonlar uchun doimiy kirish joyi emas."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.634623
+      "longitude": 66.995417
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "bogibaland-anjirzor-fig-garden"
+      - "entityType": "attraction"
+        "entitySlug": "bogibaland-samarkand-city-edge"
+      - "entityType": "attraction"
+        "entitySlug": "bogibaland-tourist-mahalla-services"
+    "aside":
+      "eyebrow":
+        "en": "Route fit"
+        "ru": "Логика маршрута"
+        "uz": "Marshrutdagi o‘rni"
+      "title":
+        "en": "From monuments to fig shade"
+        "ru": "От памятников к инжирной тени"
+        "uz": "Yodgorliklardan anjir soyasiga"
+      "description":
+        "en": "Bogibaland fits best as a short pause after Samarkand’s monumental scale: fig trees, seasonal produce, and a mahalla setting without turning the day into another heavy sightseeing block."
+        "ru": "Богибаланд лучше смотрится как короткая пауза после монументального Самарканда: инжирные деревья, сезонные продукты и махаллинская среда без перегруза дня."
+        "uz": "Bog‘ibaland monumental Samarqanddan keyin qisqa pauza sifatida yaxshi ochiladi: anjir daraxtlari, mavsumiy meva va mahalla muhiti kunni og‘irlashtirmaydi."
+      "items":
+        - "title":
+            "en": "A softer Samarkand edge"
+            "ru": "Более мягкий край Самарканда"
+            "uz": "Samarqandning yumshoqroq cheti"
+          "description":
+            "en": "Official tourism-mahalla status gives Bogibaland a clear role as a short local pause near the city."
+            "ru": "Статус туристической махалли даёт Богибаланду понятную роль короткой местной паузы рядом с городом."
+            "uz": "Turizm mahallasi maqomi Bog‘ibalandga shahar yonidagi qisqa mahalliy pauza rolini beradi."
+          "badge":
+            "en": "Tourism mahalla"
+            "ru": "Туристическая махалля"
+            "uz": "Turizm mahallasi"
+        - "title":
+            "en": "Fig gardens set the tone"
+            "ru": "Инжирные сады задают настроение"
+            "uz": "Anjir bog‘lari kayfiyatni belgilaydi"
+          "description":
+            "en": "Yellow and black fig trees, shade, and seasonal fruit carry the strongest local identity."
+            "ru": "Жёлтые и чёрные инжирные деревья, тень и сезонные плоды дают месту главный образ."
+            "uz": "Sariq va qora anjir daraxtlari, soya va mavsumiy meva joyning eng kuchli obrazini yaratadi."
+          "badge":
+            "en": "Anjirzor"
+            "ru": "Анжирзор"
+            "uz": "Anjirzor"
+        - "title":
+            "en": "Small fair spaces add local texture"
+            "ru": "Небольшие ярмарочные пространства добавляют локальность"
+            "uz": "Kichik yarmarka joylari mahalliylik qo‘shadi"
+          "description":
+            "en": "Handicrafts, figs, dried fruit, preserves, signs, and the information point make the stop legible when the day is active."
+            "ru": "Ремёсла, инжир, сухофрукты, варенье, указатели и информационный пункт помогают прочитать остановку, когда день оживает."
+            "uz": "Hunarmandchilik, anjir, quruq meva, murabbo, ko‘rsatkichlar va axborot nuqtasi kun jonli bo‘lganda bekatni tushunarli qiladi."
+          "badge":
+            "en": "Fair texture"
+            "ru": "Ярмарочная фактура"
+            "uz": "Yarmarka tuslari"
+        - "title":
+            "en": "Keep the pause light"
+            "ru": "Сохраните лёгкий ритм"
+            "uz": "Pauzani yengil tuting"
+          "description":
+            "en": "Bogibaland works as a short breath before the route returns to Samarkand or continues toward another nearby village."
+            "ru": "Богибаланд работает как короткая передышка перед возвращением в Самарканд или продолжением к соседнему селу."
+            "uz": "Bog‘ibaland Samarqandga qaytish yoki yaqin qishloqqa davom etishdan oldingi qisqa nafas sifatida ishlaydi."
+          "badge":
+            "en": "Route role"
+            "ru": "Роль в маршруте"
+            "uz": "Marshrutdagi rol"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What gives the mahalla its shape"
+      "ru": "Что формирует махаллю"
+      "uz": "Mahallani nimalar ochadi"
+    "title":
+      "en": "Fig gardens, fair spaces, and city-edge rhythm"
+      "ru": "Инжирные сады, ярмарка и ритм городского края"
+      "uz": "Anjir bog‘lari, yarmarka joylari va shahar cheti ritmi"
+    "description":
+      "en": "These Bogibaland-owned stops explain why the mahalla can work as a gentler Samarkand pause rather than another monument visit."
+      "ru": "Эти собственные точки Богибаланда объясняют, почему махалля работает как мягкая самаркандская пауза, а не как ещё один монументальный визит."
+      "uz": "Bog‘ibalandga tegishli bu joylar mahalla yana bir yodgorlik tashrifi emas, balki yumshoq Samarqand pauzasi bo‘lishini tushuntiradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Anjirzor fig gardens"
+          "ru": "Инжирные сады Анжирзор"
+          "uz": "Anjirzor anjir bog‘lari"
+        "description":
+          "en": "Anjirzor turns Bogibaland from a map point into a place you can feel: trees, shade, seasonal fruit, and a pause that belongs after Samarkand’s monuments."
+          "ru": "Анжирзор превращает Богибаланд из точки на карте в ощутимое место: деревья, тень, сезонные плоды и пауза после самаркандских памятников."
+          "uz": "Anjirzor Bog‘ibalandni xaritadagi nuqtadan seziladigan joyga aylantiradi: daraxtlar, soya, mavsumiy meva va Samarqand yodgorliklaridan keyingi pauza."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/bogibaland/bogibaland-anjirzor-fig-garden"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Bogibaland information center and fair spaces"
+          "ru": "Инфоцентр и ярмарочные пространства Богибаланда"
+          "uz": "Bog‘ibaland axborot nuqtasi va yarmarka joylari"
+        "description":
+          "en": "This is the practical face of Bogibaland as a tourism mahalla: signs, a park map, visitor information, recreation areas, and fair tables that can carry figs, crafts, dried fruit, and preserves."
+          "ru": "Это практическая сторона Богибаланда как туристической махалли: указатели, карта парка, информационный пункт, зоны отдыха и ярмарочные ряды с инжиром, ремёслами, сухофруктами и вареньем."
+          "uz": "Bu Bog‘ibalandning turizm mahallasi sifatidagi amaliy tomoni: ko‘rsatkichlar, park xaritasi, axborot nuqtasi, dam olish joylari va anjir, hunar, quruq meva hamda murabbo keltiradigan yarmarka rastalari."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/bogibaland/bogibaland-tourist-mahalla-services"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Samarkand city-edge pause"
+          "ru": "Пауза у края Самарканда"
+          "uz": "Samarqand chetidagi pauza"
+        "description":
+          "en": "Bogibaland works because it stays close to Samarkand but changes the day’s texture: from monumental squares to a mahalla edge, fig shade, and a shorter local pause."
+          "ru": "Богибаланд работает потому, что остаётся рядом с Самаркандом, но меняет фактуру дня: от монументальных площадей к краю махалли, инжирной тени и короткой местной паузе."
+          "uz": "Bog‘ibaland Samarqandga yaqin qolgani, ammo kun fakturasini o‘zgartirgani uchun ishlaydi: monumental maydonlardan mahalla cheti, anjir soyasi va qisqa mahalliy pauzaga."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/bogibaland/bogibaland-samarkand-city-edge"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Mahalla moments"
+      "ru": "Махаллинские моменты"
+      "uz": "Mahalla lahzalari"
+    "title":
+      "en": "Six ways to read Bogibaland"
+      "ru": "Шесть способов прочитать Богибаланд"
+      "uz": "Bog‘ibalandni o‘qishning olti yo‘li"
+    "description":
+      "en": "Each moment stays light: fig shade, seasonal produce, local fair texture, and a clear return to the Samarkand route."
+      "ru": "Каждый момент остаётся лёгким: инжирная тень, сезонные продукты, ярмарочная фактура и понятное возвращение к самаркандскому маршруту."
+      "uz": "Har bir lahza yengil qoladi: anjir soyasi, mavsumiy meva, yarmarka tuslari va Samarqand marshrutiga ravon qaytish."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Under the Anjirzor figs"
+          "ru": "Под инжирами Анжирзора"
+          "uz": "Anjirzor anjirlari ostida"
+        "description":
+          "en": "A short pause among yellow and black fig trees gives Samarkand’s monument day a softer edge."
+          "ru": "Короткая пауза среди жёлтых и чёрных инжирных деревьев смягчает день памятников."
+          "uz": "Sariq va qora anjir daraxtlari orasidagi qisqa pauza Samarqand kunini yumshatadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Seasonal fruit and preserves"
+          "ru": "Сезонные фрукты и варенье"
+          "uz": "Mavsumiy meva va murabbo"
+        "description":
+          "en": "Fruit, tea, and preserves make the stop feel rooted in Bogibaland’s garden season."
+          "ru": "Фрукты, чай и варенье связывают остановку с садовым сезоном Богибаланда."
+          "uz": "Meva, choy va murabbo bekatni Bog‘ibaland bog‘ mavsumi bilan bog‘laydi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Craft"
+          "ru": "Ремёсла"
+          "uz": "Hunarmandchilik"
+        "title":
+          "en": "Figs, crafts, and fair stalls"
+          "ru": "Инжир, ремёсла и ярмарочные ряды"
+          "uz": "Anjir, hunar va yarmarka rastalari"
+        "description":
+          "en": "Handicrafts, figs, dried fruit, and preserves turn the mahalla stop into a small local fair moment."
+          "ru": "Ремёсла, инжир, сухофрукты и варенье превращают остановку в небольшой ярмарочный момент."
+          "uz": "Hunarmandchilik, anjir, quruq meva va murabbo mahalla bekatini kichik yarmarka lahzasiga aylantiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "A quieter Samarkand edge"
+          "ru": "Тихий край Самарканда"
+          "uz": "Samarqandning sokin cheti"
+        "description":
+          "en": "Recreation spaces and fig shade let the route slow before returning to Samarkand’s monumental scale."
+          "ru": "Зоны отдыха и инжирная тень дают маршруту замедлиться перед возвращением к масштабу Самарканда."
+          "uz": "Dam olish joylari va anjir soyasi marshrutni Samarqand miqyosiga qaytishdan oldin sekinlashtiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Park map and first bearings"
+          "ru": "Карта парка и первые ориентиры"
+          "uz": "Park xaritasi va ilk orientirlar"
+        "description":
+          "en": "Signs, racks, and the information point help travelers read the mahalla before the garden areas."
+          "ru": "Указатели, стенды и информационный пункт помогают понять махаллю перед переходом к садовым зонам."
+          "uz": "Ko‘rsatkichlar, stendlar va axborot nuqtasi bog‘ tomon yurishdan oldin mahallani tushunishga yordam beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Yellow and black figs"
+          "ru": "Жёлтый и чёрный инжир"
+          "uz": "Sariq va qora anjirlar"
+        "description":
+          "en": "The garden’s yellow and black fig trees give Bogibaland one of its most specific local images."
+          "ru": "Жёлтые и чёрные инжирные деревья дают Богибаланду один из самых конкретных местных образов."
+          "uz": "Bog‘dagi sariq va qora anjir daraxtlari Bog‘ibalandga eng aniq mahalliy obrazlardan birini beradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "How Bogibaland fits a Samarkand day"
+      "ru": "Как Богибаланд вписывается в самаркандский день"
+      "uz": "Bog‘ibaland Samarqand kuniga qanday kiradi"
+    "description":
+      "en": "Bogibaland belongs near Samarkand when the route needs a softer pause after monuments, not another long sightseeing chapter."
+      "ru": "Богибаланд уместен рядом с Самаркандом, когда после памятников нужна мягкая пауза, а не ещё один длинный экскурсионный блок."
+      "uz": "Bog‘ibaland Samarqand yonida yodgorliklardan keyin yumshoq pauza kerak bo‘lganda mos keladi, yana bir uzun ekskursiya bo‘limi sifatida emas."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Start with Anjirzor"
+              "ru": "Начните с Анжирзора"
+              "uz": "Anjirzordan boshlang"
+            "description":
+              "en": "The strongest image is the fig garden: yellow and black trees, seasonal fruit, and shade that changes the scale of a Samarkand day."
+              "ru": "Главный образ — инжирный сад: жёлтые и чёрные деревья, сезонные плоды и тень, меняющая масштаб самаркандского дня."
+              "uz": "Eng kuchli obraz — anjir bog‘i: sariq va qora daraxtlar, mavsumiy meva va Samarqand kunining miqyosini o‘zgartiradigan soya."
+          - "type": "quote"
+            "quote":
+              "en": "Bogibaland is strongest when fig shade, seasonal fair texture, and Samarkand’s city edge meet in one calm pause."
+              "ru": "Богибаланд раскрывается сильнее всего, когда инжирная тень, ярмарочная фактура и край Самарканда складываются в одну спокойную паузу."
+              "uz": "Bog‘ibaland anjir soyasi, yarmarka tuslari va Samarqand cheti bir sokin pauzaga aylanganda kuchli ochiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Let the fair stay seasonal"
+              "ru": "Оставьте ярмарку сезонной"
+              "uz": "Yarmarka mavsumiy bo‘lib qolsin"
+            "description":
+              "en": "Handicrafts, figs, dried fruit, preserves, signs, and the information point add value when they are part of the day’s real scene."
+              "ru": "Ремёсла, инжир, сухофрукты, варенье, указатели и информационный пункт ценны, когда они входят в живую сцену дня."
+              "uz": "Hunarmandchilik, anjir, quruq meva, murabbo, ko‘rsatkichlar va axborot nuqtasi kunning jonli sahnasiga kirganda qadrli."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the stop gentle"
+              "ru": "Сохраните мягкий ритм"
+              "uz": "Yumshoq ritmni saqlang"
+            "description":
+              "en": "Bogibaland should feel like a short breath on the city edge before the route returns to Samarkand, Konigil, or another nearby village."
+              "ru": "Богибаланд должен ощущаться как короткая передышка у края города перед возвращением в Самарканд, Конигил или другое соседнее село."
+              "uz": "Bog‘ibaland Samarqand, Konigil yoki boshqa yaqin qishloqqa qaytishdan oldin shahar chetidagi qisqa nafasdek sezilishi kerak."
+          - "type": "alert"
+            "title":
+              "en": "For travelers"
+              "ru": "Для путешественников"
+              "uz": "Sayohatchilar uchun"
+            "description":
+              "en": "Choose Bogibaland for a short garden-and-mahalla pause when the season and route rhythm make the stop feel natural."
+              "ru": "Выбирайте Богибаланд для короткой садово-махаллинской паузы, когда сезон и ритм маршрута делают остановку естественной."
+              "uz": "Mavsum va marshrut ritmi bekatni tabiiy qilganda Bog‘ibalandni qisqa bog‘-mahalla pauzasi uchun tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Good to know Status"
+                  "ru": "Что важно знать Статус"
+                  "uz": "Bilish foydali Maqom"
+                "description":
+                  "en": "Official tourism mahalla in Samarkand city coverage."
+                  "ru": "Туристическая махалля в городской зоне Самарканда."
+                  "uz": "Samarqand shahri hududidagi turizm mahallasi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main draw"
+                  "ru": "Главный смысл"
+                  "uz": "Asosiy mazmun"
+                "description":
+                  "en": "Anjirzor fig gardens, seasonal produce, fair traditions, and a quieter mahalla pause."
+                  "ru": "Инжирные сады Анжирзора, сезонные продукты, ярмарочная традиция и более тихая махаллинская пауза."
+                  "uz": "Anjirzor anjir bog‘lari, mavsumiy meva, yarmarka an’anasi va sokinroq mahalla pauzasi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Marshrutdagi rol"
+                "description":
+                  "en": "A gentle city-edge stop after monument-heavy Samarkand."
+                  "ru": "Мягкая остановка у края города после насыщенного Самарканда."
+                  "uz": "Samarqandning yodgorliklarga boy kunidan keyingi yumshoq shahar-cheti bekati."
+              - "icon": "Route"
+                "title":
+                  "en": "Season and pace"
+                  "ru": "Сезон и темп"
+                  "uz": "Mavsum va sur’at"
+                "description":
+                  "en": "Best treated as a short, seasonal pause rather than a full sightseeing block."
+                  "ru": "Лучше работает как короткая сезонная пауза, а не как большой экскурсионный блок."
+                  "uz": "Katta ekskursiya bo‘limidan ko‘ra qisqa mavsumiy pauza sifatida yaxshiroq ishlaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby Samarkand-side stops"
+      "ru": "Соседние остановки рядом с Самаркандом"
+      "uz": "Samarqand yonidagi yaqin bekatlar"
+    "title":
+      "en": "Where the route can continue"
+      "ru": "Куда продолжить маршрут"
+      "uz": "Marshrut qayerga davom etadi"
+    "description":
+      "en": "Samarkand, Konigil, and Yangijoy stay separate route choices; pair them with Bogibaland only when the day remains unhurried."
+      "ru": "Самарканд, Конигил и Янгижой остаются отдельными вариантами маршрута; сочетайте их с Богибаландом только когда день не становится перегруженным."
+      "uz": "Samarqand, Konigil va Yangijoy alohida marshrut tanlovlari bo‘lib qoladi; ularni Bog‘ibaland bilan kun shoshilmaganda ulang."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/bogibaland-next-samarkand.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Samarkand"
+          "ru": "Самарканд"
+          "uz": "Samarqand"
+        "description":
+          "en": "Samarkand brings the route to monumental scale: Registan, Shah-i-Zinda, Bibi-Khanym, Gur-e-Amir, Siab Bazaar, Afrosiab, and Ulugh Beg Observatory."
+          "ru": "Самарканд даёт маршруту монументальный масштаб: Регистан, Шахи-Зинда, Биби-Ханым, Гур-Эмир, Сиабский базар, Афрасиаб и обсерватория Улугбека."
+          "uz": "Samarqand yoʻnalishga monumental miqyos beradi: Registon, Shohi Zinda, Bibi Xonim, Goʻri Amir, Siyob bozori, Afrosiyob va Ulugʻbek rasadxonasi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/samarkand"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Konigil"
+          "ru": "Конигил"
+          "uz": "Konigil"
+        "description":
+          "en": "Konigil turns a Samarkand route toward handmade paper at Meros, Siab-side shade, a water wheel, tea, and a clear return to the city."
+          "ru": "Конигил поворачивает самаркандский маршрут к бумаге Meros, тени у Сиаба, водяному колесу, чаю и ясному возвращению в город."
+          "uz": "Konigil Samarqand marshrutini Meros qog‘ozi, Siyob bo‘yidagi soya, suv charxi, choy va shaharga ravon qaytish tomon buradi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/konigil"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Yangijoy"
+          "ru": "Янгижой"
+          "uz": "Yangijoy"
+        "description":
+          "en": "Yangijoy is a developing Samarkand District tourism village where a small rural pause can soften the route after the city."
+          "ru": "Янгижой — развивающееся туристическое село Самаркандского района, где короткая сельская пауза смягчает маршрут после города."
+          "uz": "Yangijoy Samarqand tumanidagi rivojlanayotgan turizm qishlog‘i bo‘lib, shahardan keyin qisqa qishloq pauzasini beradi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/yangijoy"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Bogibaland in the day plan"
+      "ru": "Как поставить Богибаланд в план дня"
+      "uz": "Bog‘ibalandni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Bogibaland?"
+          "ru": "Сколько времени группам стоит проводить в Богибаланд?"
+          "uz": "Bog‘ibalandda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "one focused city day plus overnight is usually enough when the old core or main anchors get a full walking window. City tone: “A Samarkand city-edge mahalla of fig shade, fairs, and quieter pauses”."
+          "ru": "Обычно хватает один насыщенный городской день плюс ночёвка, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Махалля у края Самарканда: инжирная тень, ярмарка и спокойная пауза»."
+          "uz": "Odatda bitta zich shahar kuni va tunash yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Samarqand chetidagi mahalla: anjir soyasi, yarmarka va sokin pauza»."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "Should Bogibaland be a walkable core or a base for day trips?"
+          "ru": "Богибаланд — это пешеходное ядро или база для выездов?"
+          "uz": "Bog‘ibaland piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Moon"
+        "title":
+          "en": "Where should overnight be relative to Bogibaland's centre?"
+          "ru": "Где лучше ночевать относительно центра Богибаланд?"
+          "uz": "Bog‘ibaland markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/bogibaland.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Bogibaland stop into your Uzbekistan programme"
+      "ru": "Встройте остановку «Богибаланд» в программу (Узбекистан)"
+      "uz": "Bog‘ibaland bekatini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Bogibaland | TourLink"
+    "ru": "Богибаланд | TourLink"
+    "uz": "Bog‘ibaland | TourLink"
+  "metaDescription":
+    "en": "Bogibaland is where Samarkand loosens its pace. The tourism mahalla gathers Anjirzor fig gardens, seasonal produce, small fair traditions, visitor information, and recreation spaces into a gentler stop on the city edge."
+    "ru": "Богибаланд — место, где самаркандский день сбавляет темп. Туристическая махалля объединяет инжирные сады Анжирзора, сезонные продукты, небольшую ярмарочную традицию, информационный пункт и зоны отдыха в мягкую остановку у края города."
+    "uz": "Bog‘ibalandda Samarqand kuni sekinlashadi. Turizm mahallasi Anjirzor anjir bog‘lari, mavsumiy meva, kichik yarmarka an’anasi, axborot nuqtasi va dam olish joylarini shahar chetidagi yumshoq bekatga jamlaydi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "samarkand-region"
+"latitude": 39.6830788
+"longitude": 66.9943133

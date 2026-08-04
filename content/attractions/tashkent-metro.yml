@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "tashkent-metro"
+  "ru": "tashkent-metro"
+  "uz": "tashkent-metro"
+"title":
+  "en": "Tashkent Metro"
+  "ru": "Ташкентское метро"
+  "uz": "Toshkent metrosi"
+"subtitle":
+  "en": "Tashkent's underground route of art and movement"
+  "ru": "Подземный маршрут искусства и движения"
+  "uz": "Sanʼat va harakatning yer osti yo‘li"
+"excerpt":
+  "en": "In Tashkent, the metro is not only a way across town. You step below the streets and find blue arches, marble, lamps, mosaics, portraits of poets and thinkers, space-themed Kosmonavtlar, and people moving through the capital as usual."
+  "ru": "В Ташкенте метро — не только способ пересечь город. Вы спускаетесь под улицы и видите синие арки, мрамор, светильники, мозаики, портреты поэтов и мыслителей, космический Космонавтлар и людей, которые едут по столице как обычно."
+  "uz": "Toshkentda metro shaharni kesib o‘tishning oddiy usuli emas. Siz ko‘cha ostiga tushasiz va ko‘k ravoqlar, marmar, chiroqlar, mozaikalar, shoir va mutafakkirlar portretlari, kosmik mavzudagi Kosmonavtlar hamda poytaxt bo‘ylab odatdagidek ketayotgan odamlarni ko‘rasiz."
+"heroImage": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/tashkent-metro.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/tashkent-metro.webp"
+    "imageAlt":
+      "en": "Tashkent Metro"
+      "ru": "Ташкентское метро"
+      "uz": "Toshkent metrosi"
+    "title":
+      "en": "Tashkent Metro"
+      "ru": "Ташкентское метро"
+      "uz": "Toshkent metrosi"
+    "description":
+      "en": "Tashkent's underground route of art and movement"
+      "ru": "Подземный маршрут искусства и движения"
+      "uz": "Sanʼat va harakatning yer osti yo‘li"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Tashkent Metro"
+      "ru": "Ташкентское метро"
+      "uz": "Toshkent metrosi"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "In Tashkent, the metro is not only a way across town."
+              "ru": "В Ташкенте метро — не только способ пересечь город."
+              "uz": "Toshkentda metro shaharni kesib o‘tishning oddiy usuli emas."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "The metro gives Tashkent's modern story a visible form."
+              "ru": "Метро даёт современной истории Ташкента видимую форму."
+              "uz": "Metro Toshkentning zamonaviy hikoyasini ko‘zga ko‘rinadigan qiladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Tashkent's underground route of art and movement."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Подземный маршрут искусства и движения."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Sanʼat va harakatning yer osti yo‘li."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Tashkent Metro as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Ташкентское метро как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Toshkent metrosi o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Tashkent Metro sits on the route"
+      "ru": "Где Ташкентское метро стоит на маршруте"
+      "uz": "Toshkent metrosi marshrutda qayerda"
+    "description":
+      "en": "One clear point for Tashkent Metro — Tashkent's underground route of art and movement."
+      "ru": "Одна понятная точка для «Ташкентское метро» — Подземный маршрут искусства и движения."
+      "uz": "Toshkent metrosi uchun bitta aniq nuqta — Sanʼat va harakatning yer osti yo‘li."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Tashkent Metro"
+        "ru": "Ташкентское метро"
+        "uz": "Toshkent metrosi"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.3123363
+      "longitude": 69.2787079
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "tashkent-metro"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "An underground gallery inside daily transport"
+      "ru": "Подземная галерея внутри обычного транспорта"
+      "uz": "Kundalik transport ichidagi yer osti galereyasi"
+    "description":
+      "en": "The metro gives Tashkent's modern story a visible form. Travelers do not need every station. A compact ride can show how Soviet-era civic design, Uzbek ornament, public art, and ordinary passenger life meet below the city.
+
+
+        «In Tashkent, the metro helps the city speak through movement, not only through monuments.»"
+      "ru": "Метро даёт современной истории Ташкента видимую форму. Путешественнику не нужно видеть каждую станцию. Короткая поездка показывает, как советский городской дизайн, узбекский орнамент, общественное искусство и обычная жизнь пассажиров встречаются под городом.
+
+
+        «В Ташкенте метро помогает городу говорить через движение, а не только через памятники.»"
+      "uz": "Metro Toshkentning zamonaviy hikoyasini ko‘zga ko‘rinadigan qiladi. Sayohatchiga har bir bekatni ko‘rish shart emas. Qisqa safar sovet davri shahar dizayni, o‘zbek naqshi, jamoat sanʼati va yo‘lovchilar hayoti yer ostida qanday uchrashishini ko‘rsatadi.
+
+
+        «Toshkentda metro shaharni faqat yodgorliklar orqali emas, harakat orqali ham tushuntiradi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Trains, station halls, and decorated underground space"
+      "ru": "Поезда, станционные залы и украшенное подземное пространство"
+      "uz": "Poyezdlar, bekat zallari va bezatilgan yer osti makoni"
+    "description":
+      "en": "The strongest metro views include both architecture and motion: halls built with care, trains arriving, and passengers using the city around you."
+      "ru": "Лучшие виды метро соединяют архитектуру и движение: залы, сделанные с вниманием, прибывающие поезда и пассажиров, которые пользуются городом вокруг вас."
+      "uz": "Metroning eng kuchli ko‘rinishlari meʼmorchilik va harakatni birlashtiradi: eʼtibor bilan qurilgan zallar, kelayotgan poyezdlar va shaharni ishlatayotgan yo‘lovchilar."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Let the ride stay part of the city"
+      "ru": "Пусть поездка остаётся частью города"
+      "uz": "Safar shahar kunining bir qismi bo‘lib qolsin"
+    "description":
+      "en": "Keep the metro stop focused enough to feel fresh. A short station set, a clear exit, and a good next stop above ground make the experience stronger than a long underground checklist."
+      "ru": "Метро сильнее, когда не превращается в длинный подземный список. Несколько станций, понятный выход и хорошая следующая точка наверху дают больше, чем попытка увидеть всё сразу."
+      "uz": "Metro uzun yer osti ro‘yxatiga aylanmaganda kuchliroq. Bir necha bekat, aniq chiqish va yer ustidagi yaxshi keyingi nuqta hammasini birdan ko‘rishga urinishdan ko‘ra yaxshiroq ishlaydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add around it"
+      "ru": "Что добавить вокруг"
+      "uz": "Atrofida nima qo‘shish"
+    "title":
+      "en": "Old city before or after the stations"
+      "ru": "Старый город до или после станций"
+      "uz": "Bekatlardan oldin yoki keyin eski shahar"
+    "description":
+      "en": "Chorsu and Khast Imam give the metro a strong contrast: market life, courtyards, religious memory, and then the capital's decorated underground movement."
+      "ru": "Чорсу и Хазрати Имам дают метро сильный контраст: рыночную жизнь, дворы, религиозную память и затем украшенное подземное движение столицы."
+      "uz": "Chorsu va Hazrati Imom metroga kuchli kontrast beradi: bozor hayoti, hovlilar, diniy xotira va undan keyin poytaxtning bezakli yer osti harakati."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/tashkent-metro-next-chorsu-bazaar.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Chorsu Bazaar"
+          "ru": "Базар Чорсу"
+          "uz": "Chorsu bozori"
+        "description":
+          "en": "Chorsu is Tashkent's market morning in full motion: a turquoise dome, bread steam, dairy counters, dried fruit, spices, hot food, and an old-city walk toward Kukeldash and Khast Imam."
+          "ru": "Чорсу — рыночное утро Ташкента в движении: бирюзовый купол, пар от лепёшек, молочные ряды, сухофрукты, специи, горячая еда и прогулка по старому городу к Кукельдашу и Хазрати Имам."
+          "uz": "Chorsu — Toshkentning harakatdagi bozor tongi: feruza gumbaz, non isi, sut mahsulotlari rastalari, quruq mevalar, ziravorlar, issiq taomlar va Ko‘kaldosh hamda Hazrati Imom tomonga eski shahar sayri."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/chorsu-bazaar"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/next/tashkent-metro-next-khast-imam-complex.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Khast Imam Complex"
+          "ru": "Комплекс Хазрати Имам"
+          "uz": "Hazrati Imom majmuasi"
+        "description":
+          "en": "An old-city religious ensemble with courtyards, madrasahs, the Muyi Muborak Library, and the Uthman Quran story."
+          "ru": "Религиозный ансамбль старого Ташкента: дворы, медресе, библиотека Муйи Муборак и история Корана Усмана."
+          "uz": "Eski Toshkentdagi diniy majmua: hovlilar, madrasalar, Moʻyi Muborak kutubxonasi va Usmon Qurʼoni hikoyasi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region/tashkent/khast-imam-complex"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Tashkent Metro"
+      "ru": "Что агентства спрашивают про Ташкентское метро"
+      "uz": "Agentliklar Toshkent metrosi haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Tashkent Metro get in the day plan?"
+          "ru": "Сколько времени закладывать на Ташкентское метро в плане дня?"
+          "uz": "Toshkent metrosi uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "a focused half-day with buffer is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Tashkent's underground route of art and movement”."
+          "ru": "Для большинства групп реалистичный диапазон — полдня с запасом. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Подземный маршрут искусства и движения»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — zaxira bilan yarim kun. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Sanʼat va harakatning yer osti yo‘li»."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "When is Tashkent Metro strongest during the day?"
+          "ru": "В какое время дня Ташкентское метро раскрывается сильнее?"
+          "uz": "Toshkent metrosi kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer early morning or late afternoon. That usually improves comfort, photos, and how the stop feels in the sequence around tashkent."
+          "ru": "Лучше рано утром или ближе к вечеру. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с tashkent."
+          "uz": "erta tong yoki kechga yaqin afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (tashkent atrofida)."
+      - "type": "destinationInsight"
+        "icon": "Compass"
+        "title":
+          "en": "How should Tashkent Metro sit next to nearby stops?"
+          "ru": "Как поставить Ташкентское метро рядом с соседними остановками?"
+          "uz": "Toshkent metrosini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan/regions/tashkent-region/cities/tashkent/attractions/tashkent-metro.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Tashkent Metro to your Uzbekistan programme"
+      "ru": "Добавьте «Ташкентское метро» в программу (Узбекистан)"
+      "uz": "Toshkent metrosini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Tashkent Metro | TourLink"
+    "ru": "Ташкентское метро | TourLink"
+    "uz": "Toshkent metrosi | TourLink"
+  "metaDescription":
+    "en": "In Tashkent, the metro is not only a way across town. You step below the streets and find blue arches, marble, lamps, mosaics, portraits of poets and thinkers, space-themed Kosmonavtlar, and people moving through the capital as usual."
+    "ru": "В Ташкенте метро — не только способ пересечь город. Вы спускаетесь под улицы и видите синие арки, мрамор, светильники, мозаики, портреты поэтов и мыслителей, космический Космонавтлар и людей, которые едут по столице как обычно."
+    "uz": "Toshkentda metro shaharni kesib o‘tishning oddiy usuli emas. Siz ko‘cha ostiga tushasiz va ko‘k ravoqlar, marmar, chiroqlar, mozaikalar, shoir va mutafakkirlar portretlari, kosmik mavzudagi Kosmonavtlar hamda poytaxt bo‘ylab odatdagidek ketayotgan odamlarni ko‘rasiz."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "tashkent-region"
+"city": "tashkent"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 41.3123363
+"longitude": 69.2787079

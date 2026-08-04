@@ -10,6 +10,7 @@
     "seed": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed.ts",
     "seed:fast": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed.ts",
     "seed:full": "cross-env NODE_OPTIONS=--no-deprecation SEED_FULL_RESET=true tsx scripts/seed.ts",
+    "seed:local": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed-local-fast.ts",
     "seed:navigation": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed.ts --only=navigation",
     "seed:media-audit": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed-media-audit.ts",
     "seed:media-audit:check": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed-media-audit.ts --check-only",

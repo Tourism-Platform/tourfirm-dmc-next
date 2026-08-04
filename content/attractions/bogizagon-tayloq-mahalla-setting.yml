@@ -1,0 +1,329 @@
+# Generated from scrape/uzbekistan (multi-locale)
+"slug":
+  "en": "bogizagon-tayloq-mahalla-setting"
+  "ru": "bogizagon-tayloq-mahalla-setting"
+  "uz": "bogizagon-tayloq-mahalla-setting"
+"title":
+  "en": "Tayloq-side mahalla setting"
+  "ru": "Махалля со стороны Тайлака"
+  "uz": "Toyloq tomoni mahalla muhiti"
+"subtitle":
+  "en": "Where the Bogizagon stop sits outside Samarkand"
+  "ru": "Где Богизагон входит в маршрут за Самаркандом"
+  "uz": "Bog‘izagon Samarqanddan keyingi yo‘lga kiradigan joy"
+"excerpt":
+  "en": "The Tayloq-side mahalla setting explains Bogizagon as a small countryside turn after Samarkand, with the visit kept modest and place-specific."
+  "ru": "Среда махалли со стороны Тайлака объясняет Богизагон как небольшой сельский поворот после Самарканда, со скромной и точной формой визита."
+  "uz": "Toyloq tomoni mahalla muhiti Bog‘izagonni Samarqanddan keyingi kichik qishloq burilishi sifatida tushuntiradi, tashrif kamtar va aniq qolganda."
+"heroImage": "assets/images/destinations/uzbekistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "imageAlt":
+      "en": "Tayloq-side mahalla setting"
+      "ru": "Махалля со стороны Тайлака"
+      "uz": "Toyloq tomoni mahalla muhiti"
+    "title":
+      "en": "Tayloq-side mahalla setting"
+      "ru": "Махалля со стороны Тайлака"
+      "uz": "Toyloq tomoni mahalla muhiti"
+    "description":
+      "en": "Where the Bogizagon stop sits outside Samarkand"
+      "ru": "Где Богизагон входит в маршрут за Самаркандом"
+      "uz": "Bog‘izagon Samarqanddan keyingi yo‘lga kiradigan joy"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Tayloq-side mahalla setting"
+      "ru": "Махалля со стороны Тайлака"
+      "uz": "Toyloq tomoni mahalla muhiti"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "The Tayloq-side mahalla setting explains Bogizagon as a small countryside turn after Samarkand, with the visit kept modest and place-specific."
+              "ru": "Среда махалли со стороны Тайлака объясняет Богизагон как небольшой сельский поворот после Самарканда, со скромной и точной формой визита."
+              "uz": "Toyloq tomoni mahalla muhiti Bog‘izagonni Samarqanddan keyingi kichik qishloq burilishi sifatida tushuntiradi, tashrif kamtar va aniq qolganda."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "Bogizagon becomes readable when the Tayloq-side setting stays visible and the visit does not outgrow the mahalla."
+              "ru": "Богизагон становится понятным, когда тайлакская среда остаётся видимой, а визит не вырастает больше махалли."
+              "uz": "Toyloq tomoni muhit ko‘rinib turganda va tashrif mahalladan kattalashmaganda Bog‘izagon tushunarli bo‘ladi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — Where the Bogizagon stop sits outside Samarkand."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — Где Богизагон входит в маршрут за Самаркандом."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Bog‘izagon Samarqanddan keyingi yo‘lga kiradigan joy."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Tayloq-side mahalla setting as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Махалля со стороны Тайлака как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Toyloq tomoni mahalla muhiti o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Tayloq-side mahalla setting sits on the route"
+      "ru": "Где Махалля со стороны Тайлака стоит на маршруте"
+      "uz": "Toyloq tomoni mahalla muhiti marshrutda qayerda"
+    "description":
+      "en": "One clear point for Tayloq-side mahalla setting — Where the Bogizagon stop sits outside Samarkand."
+      "ru": "Одна понятная точка для «Махалля со стороны Тайлака» — Где Богизагон входит в маршрут за Самаркандом."
+      "uz": "Toyloq tomoni mahalla muhiti uchun bitta aniq nuqta — Bog‘izagon Samarqanddan keyingi yo‘lga kiradigan joy."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Tayloq-side mahalla setting"
+        "ru": "Махалля со стороны Тайлака"
+        "uz": "Toyloq tomoni mahalla muhiti"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 39.602447
+      "longitude": 67.0916916
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "bogizagon-tayloq-mahalla-setting"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "The small setting that gives Bogizagon a place"
+      "ru": "Небольшая среда, которая даёт Богизагону место"
+      "uz": "Bog‘izagonga joy beradigan kichik muhit"
+    "description":
+      "en": "Bogizagon becomes readable when the Tayloq-side setting stays visible and the visit does not outgrow the mahalla.
+
+
+        «The Tayloq-side setting gives Bogizagon its value when the stop stays small.»"
+      "ru": "Богизагон становится понятным, когда тайлакская среда остаётся видимой, а визит не вырастает больше махалли.
+
+
+        «Тайлакская среда даёт Богизагону смысл, когда остановка остаётся небольшой.»"
+      "uz": "Toyloq tomoni muhit ko‘rinib turganda va tashrif mahalladan kattalashmaganda Bog‘izagon tushunarli bo‘ladi.
+
+
+        «Toyloq tomoni muhit bekat kichik qolganda Bog‘izagonga qiymat beradi.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimani ko‘rasiz"
+    "title":
+      "en": "Mahalla edge, local welcome, and return road"
+      "ru": "Край махалли, местный приём и дорога назад"
+      "uz": "Mahalla cheti, mahalliy qabul va qaytish yo‘li"
+    "description":
+      "en": "The strongest details are simple: the edge of the mahalla, a human welcome, and the road back."
+      "ru": "Здесь важны простые детали: край махалли, человеческий приём и дорога обратно."
+      "uz": "Bu yerda sodda detallar muhim: mahalla cheti, insoniy qabul va qaytish yo‘li."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Keep the stop close to the mahalla"
+      "ru": "Держите остановку рядом с махаллёй"
+      "uz": "Bekat mahallaga yaqin qolsin"
+    "description":
+      "en": "A short arrival, a local welcome, and an easy return are enough for this setting."
+      "ru": "Короткого приезда, местного приёма и лёгкого возвращения достаточно для этой среды."
+      "uz": "Bu muhit uchun qisqa kelish, mahalliy qabul va yengil qaytish yetarli."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to add nearby"
+      "ru": "Что добавить рядом"
+      "uz": "Yaqinda nima qo‘shiladi"
+    "title":
+      "en": "What can support the mahalla pause"
+      "ru": "Что поддерживает паузу в махалле"
+      "uz": "Mahalla pauzasi nimaga tayanadi"
+    "description":
+      "en": "Pair this setting only with Bogizagon details that keep the visit compact and truthful."
+      "ru": "Сочетайте эту среду только с деталями Богизагона, которые сохраняют визит компактным и честным."
+      "uz": "Bu muhitni faqat tashrifni ixcham va haqqoniy tutadigan Bog‘izagon detallari bilan juftlang."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Agro and vineyard lead"
+          "ru": "Агро- и виноградный ориентир"
+          "uz": "Agro va uzumzor yo‘nalishi"
+        "description":
+          "en": "Bogizagon’s agro and vineyard lead gives the stop its possible traveler value when the local visit matches the Tayloq-side setting."
+          "ru": "Агро- и виноградный ориентир даёт Богизагону ценность для путешественника, когда реальный визит совпадает с тайлакской средой."
+          "uz": "Bog‘izagonning agro va uzumzor yo‘nalishi mahalliy tashrif Toyloq tomoni muhitiga mos kelganda sayohatchi uchun qiymat beradi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/bogizagon/bogizagon-agro-vineyard-context"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Bogizagon map identity"
+          "ru": "Богизагон на карте"
+          "uz": "Bog‘izagon xaritadagi o‘rni"
+        "description":
+          "en": "The Bogizagon marker helps place a Tayloq-side mahalla pause, while the visit itself comes from one clear agro or vineyard thread and the return to Samarkand."
+          "ru": "Маркер Богизагона помогает поставить паузу в махалле со стороны Тайлака, а сам визит держится на одной агро- или виноградной теме и возвращении к Самарканду."
+          "uz": "Bog‘izagon markeri Toyloq tomoni mahalla pauzasini joyiga qo‘yadi, tashrifning o‘zi esa bitta agro yoki uzumzor mavzusi va Samarqandga qaytishga tayanadi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region/bogizagon/bogizagon-map-identity-and-service-check"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Tayloq-side mahalla setting"
+      "ru": "Что агентства спрашивают про Махалля со стороны Тайлака"
+      "uz": "Agentliklar Toyloq tomoni mahalla muhiti haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Tayloq-side mahalla setting get in the day plan?"
+          "ru": "Сколько времени закладывать на Махалля со стороны Тайлака в плане дня?"
+          "uz": "Toyloq tomoni mahalla muhiti uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "1–2 hours is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “Where the Bogizagon stop sits outside Samarkand”."
+          "ru": "Для большинства групп реалистичный диапазон — 1–2 часа. Оставьте время на стены, смотровые и переход между дворами. Характер места: «Где Богизагон входит в маршрут за Самаркандом»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 1–2 soat. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Bog‘izagon Samarqanddan keyingi yo‘lga kiradigan joy»."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "When is Tayloq-side mahalla setting strongest during the day?"
+          "ru": "В какое время дня Махалля со стороны Тайлака раскрывается сильнее?"
+          "uz": "Toyloq tomoni mahalla muhiti kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer when the light is soft and queues are lighter. That usually improves comfort, photos, and how the stop feels in the sequence around bogizagon."
+          "ru": "Лучше когда свет мягче и очередей меньше. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с bogizagon."
+          "uz": "yorug‘lik yumshoq va navbat kamroq bo‘lganda afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (bogizagon atrofida)."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "How should Tayloq-side mahalla setting sit next to nearby stops?"
+          "ru": "Как поставить Махалля со стороны Тайлака рядом с соседними остановками?"
+          "uz": "Toyloq tomoni mahalla muhitini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/uzbekistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Tayloq-side mahalla setting to your Uzbekistan programme"
+      "ru": "Добавьте «Махалля со стороны Тайлака» в программу (Узбекистан)"
+      "uz": "Toyloq tomoni mahalla muhitini Oʻzbekiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Tayloq-side mahalla setting | TourLink"
+    "ru": "Махалля со стороны Тайлака | TourLink"
+    "uz": "Toyloq tomoni mahalla muhiti | TourLink"
+  "metaDescription":
+    "en": "The Tayloq-side mahalla setting explains Bogizagon as a small countryside turn after Samarkand, with the visit kept modest and place-specific."
+    "ru": "Среда махалли со стороны Тайлака объясняет Богизагон как небольшой сельский поворот после Самарканда, со скромной и точной формой визита."
+    "uz": "Toyloq tomoni mahalla muhiti Bog‘izagonni Samarqanddan keyingi kichik qishloq burilishi sifatida tushuntiradi, tashrif kamtar va aniq qolganda."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "uzbekistan"
+"region": "samarkand-region"
+"city": "bogizagon"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 39.602447
+"longitude": 67.0916916

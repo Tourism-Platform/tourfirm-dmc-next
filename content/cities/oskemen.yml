@@ -1,0 +1,470 @@
+# Generated from scrape/kazakhstan (multi-locale)
+"slug":
+  "en": "oskemen"
+  "ru": "oskemen"
+  "uz": "oskemen"
+"title":
+  "en": "Oskemen"
+  "ru": "Усть-Каменогорск"
+  "uz": "Oʻskemen"
+"subtitle":
+  "en": "Irtysh arrival city for the Altai road"
+  "ru": "Город прибытия на Иртыше перед дорогой к Алтаю"
+  "uz": "Oltay yoʻli oldidagi Irtish kelish shahri"
+"excerpt":
+  "en": "Oskemen is where East Kazakhstan changes scale. The Irtysh and Ulba meet inside the city, the airport and rail links bring the route within reach, and beyond the streets the road divides toward Ridder, Katon-Karagay, and longer Altai plans. Read it as an arrival city with a river edge and a clear purpose: rest after the transfer, check the latest road conditions with the guide or driver, then leave for the mountains with fewer assumptions."
+  "ru": "В Усть-Каменогорске Восточный Казахстан меняет масштаб. Иртыш и Ульба сходятся внутри города, аэропорт и железная дорога делают маршрут достижимым, а за городскими улицами дорога расходится к Риддеру, Катон-Карагаю и более длинным алтайским планам. Смотрите на него как на город прибытия с речным краем и ясной задачей: отдохнуть после переезда, вместе с гидом или водителем проверить свежую дорожную обстановку и уехать к горам без лишних предположений."
+  "uz": "Oʻskemenda Sharqiy Qozogʻiston oʻlchami oʻzgaradi. Irtish va Ulba shahar ichida uchrashadi, aeroport va temir yoʻl yoʻnalishni yaqinlashtiradi, shahar koʻchalaridan keyin esa yoʻl Ridder, Katon-Qaragʻay va uzoqroq Oltay rejalariga ajraladi. Uni daryo chetidagi aniq vazifali kelish shahri sifatida qabul qiling: transferdan keyin dam oling, gid yoki haydovchi bilan soʻnggi yoʻl holatini tekshiring, keyin togʻlarga kamroq taxmin bilan chiqing."
+"heroImage": "assets/images/destinations/kazakhstan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "imageAlt":
+      "en": "Oskemen"
+      "ru": "Усть-Каменогорск"
+      "uz": "Oʻskemen"
+    "title":
+      "en": "Oskemen"
+      "ru": "Усть-Каменогорск"
+      "uz": "Oʻskemen"
+    "description":
+      "en": "Irtysh arrival city for the Altai road"
+      "ru": "Город прибытия на Иртыше перед дорогой к Алтаю"
+      "uz": "Oltay yoʻli oldidagi Irtish kelish shahri"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Oskemen"
+      "ru": "Усть-Каменогорск"
+      "uz": "Oʻskemen"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Oskemen is where East Kazakhstan changes scale."
+              "ru": "В Усть-Каменогорске Восточный Казахстан меняет масштаб."
+              "uz": "Oʻskemenda Sharqiy Qozogʻiston oʻlchami oʻzgaradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Oskemen is easiest when the visit has a simple order: arrive by air, rail, or road; understand the Irtysh and Ulba setting; keep the city stop light; then choose either the Ridder branch or the longer Katon-Karagay direction with current conditions in mind."
+              "ru": "Усть-Каменогорск проще читать в спокойном порядке: приехать самолётом, поездом или по дороге; понять место Иртыша и Ульбы; оставить городскую остановку лёгкой; затем выбрать Риддер или более длинное направление к Катон-Карагаю с учётом текущих условий."
+              "uz": "Oʻskemen sodda tartibda yaxshi tushuniladi: samolyot, poyezd yoki yoʻl orqali keling; Irtish va Ulba joylashuvini anglang; shahar toʻxtashini yengil saqlang; keyin hozirgi sharoitga qarab Ridder tarmogʻi yoki Katon-Qaragʻay tomon uzunroq yoʻlni tanlang."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "A light city stop can make the eastern leg calmer: a river walk, an overnight, and a current road check before the mountain roads begin."
+              "ru": "Город помогает восточному отрезку собраться перед горными дорогами. Лёгкая остановка, прогулка у реки, ночёвка и свежая проверка дороги делают следующий выбор спокойнее и точнее."
+              "uz": "Shahar sharqiy qismni togʻ yoʻllaridan oldin tartibga keltiradi. Yengil toʻxtash, daryo boʻyidagi sayr, tunash va soʻnggi yoʻl tekshiruvi keyingi tanlovni tinchroq va aniqroq qiladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Oskemen as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Усть-Каменогорск как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Oʻskemen o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Read the river city before the road climbs"
+      "ru": "Сначала речной город, затем дорога выше"
+      "uz": "Yoʻl koʻtarilishidan oldin daryo shahrini tushunib oling"
+    "description":
+      "en": "Oskemen is easiest when the visit has a simple order: arrive by air, rail, or road; understand the Irtysh and Ulba setting; keep the city stop light; then choose either the Ridder branch or the longer Katon-Karagay direction with current conditions in mind."
+      "ru": "Усть-Каменогорск проще читать в спокойном порядке: приехать самолётом, поездом или по дороге; понять место Иртыша и Ульбы; оставить городскую остановку лёгкой; затем выбрать Риддер или более длинное направление к Катон-Карагаю с учётом текущих условий."
+      "uz": "Oʻskemen sodda tartibda yaxshi tushuniladi: samolyot, poyezd yoki yoʻl orqali keling; Irtish va Ulba joylashuvini anglang; shahar toʻxtashini yengil saqlang; keyin hozirgi sharoitga qarab Ridder tarmogʻi yoki Katon-Qaragʻay tomon uzunroq yoʻlni tanlang."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route map"
+        "ru": "Карта маршрута"
+        "uz": "Yoʻnalish xaritasi"
+      "title":
+        "en": "Oskemen, Ridder, and the Altai road"
+        "ru": "Усть-Каменогорск, Риддер и дорога к Алтаю"
+        "uz": "Oʻskemen, Ridder va Oltay yoʻli"
+      "description":
+        "en": "The map keeps the sequence simple: Oskemen first, then two possible mountain directions. Road status, timing, and access still need a close local check before travel."
+        "ru": "На карте Усть-Каменогорск отмечен как точка прибытия, а дальше показаны два горных направления. Состояние дороги, время в пути и доступ всё равно нужно проверять на месте ближе к поездке."
+        "uz": "Xaritada ketma-ketlik sodda koʻrinadi: avval Oʻskemen, keyin ikki togʻ yoʻnalishi. Yoʻl holati, vaqt va kirish imkoniyati safar oldidan mahalliy tekshiruvni talab qiladi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 49.88691
+      "longitude": 84.2743
+    "zoom": 14
+    "stops": []
+    "aside":
+      "eyebrow":
+        "en": "Route sequence"
+        "ru": "Логика маршрута"
+        "uz": "Yoʻl ketma-ketligi"
+      "title":
+        "en": "Arrive, pause, check, continue"
+        "ru": "Приехать, выдохнуть, проверить, продолжить"
+        "uz": "Keling, dam oling, tekshiring, davom eting"
+      "description":
+        "en": "A light city stop can make the eastern leg calmer: a river walk, an overnight, and a current road check before the mountain roads begin."
+        "ru": "Город помогает восточному отрезку собраться перед горными дорогами. Лёгкая остановка, прогулка у реки, ночёвка и свежая проверка дороги делают следующий выбор спокойнее и точнее."
+        "uz": "Shahar sharqiy qismni togʻ yoʻllaridan oldin tartibga keltiradi. Yengil toʻxtash, daryo boʻyidagi sayr, tunash va soʻnggi yoʻl tekshiruvi keyingi tanlovni tinchroq va aniqroq qiladi."
+      "items":
+        - "title":
+            "en": "Start where the rivers meet"
+            "ru": "Начните там, где сходятся реки"
+            "uz": "Daryolar tutashgan joydan boshlang"
+          "description":
+            "en": "The Irtysh and Ulba make Oskemen feel less like a transit stop and more like the first readable point of the eastern route."
+            "ru": "Иртыш и Ульба делают Усть-Каменогорск не просто транзитной остановкой, а первой понятной точкой восточного маршрута."
+            "uz": "Irtish va Ulba Oʻskemenni oddiy tranzit emas, sharqiy yoʻnalishning birinchi tushunarli nuqtasiga aylantiradi."
+        - "title":
+            "en": "Keep the first evening simple"
+            "ru": "Оставьте первый вечер простым"
+            "uz": "Birinchi kechani sodda qoldiring"
+          "description":
+            "en": "A river walk, dinner, and a short route briefing can do more for the journey than forcing extra city stops after a long transfer."
+            "ru": "Прогулка у реки, ужин и короткий разговор о следующей дороге часто дают поездке больше, чем лишние городские остановки после долгого переезда."
+            "uz": "Daryo boʻyida yurish, kechki ovqat va keyingi yoʻl haqida qisqa suhbat uzoq transferdan keyingi ortiqcha shahar toʻxtashlaridan koʻra foydaliroq boʻlishi mumkin."
+        - "title":
+            "en": "Choose the next branch clearly"
+            "ru": "Выберите следующее направление ясно"
+            "uz": "Keyingi yoʻnalishni aniq tanlang"
+          "description":
+            "en": "Ridder and Katon-Karagay point to different Altai journeys. Treat them as separate choices shaped by season, vehicle, road surface, and guide support."
+            "ru": "Риддер и Катон-Карагай ведут к разным алтайским поездкам. Их нужно разделять по сезону, машине, состоянию дороги и сопровождению."
+            "uz": "Ridder va Katon-Qaragʻay turli Oltay safarlariga olib boradi. Ularni mavsum, transport, yoʻl holati va hamrohga qarab alohida tanlash kerak."
+        - "title":
+            "en": "Review the details before leaving"
+            "ru": "Уточните детали до выезда"
+            "uz": "Shahardan chiqishdan oldin soʻrang"
+          "description":
+            "en": "Weather, protected-area rules, border-zone sensitivity, fuel, and accommodation fit should be reviewed close to departure."
+            "ru": "Погода, правила охраняемых территорий, близость пограничных зон, топливо и формат ночёвки проверяются ближе к отправлению."
+            "uz": "Ob-havo, qoʻriqlanadigan hudud qoidalari, chegara hududiga yaqinlik, yoqilgʻi va tunash mosligi joʻnashga yaqin qayta tekshiriladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Oskemen rhythm"
+      "ru": "Ритм Усть-Каменогорска"
+      "uz": "Oʻskemen ritmi"
+    "title":
+      "en": "Three small moments before the Altai"
+      "ru": "Три маленьких момента перед Алтаем"
+      "uz": "Oltaydan oldingi uch kichik lahza"
+    "description":
+      "en": "Oskemen matters most in modest, useful moments: the river arrival, the road check, and the pause that lets the eastern leg begin without rush."
+      "ru": "Усть-Каменогорск важнее всего в скромных, полезных моментах: речное прибытие, проверка дороги и пауза, которая помогает восточному отрезку начаться без спешки."
+      "uz": "Oʻskemen eng koʻp kamtar, foydali lahzalarda ahamiyatli: daryo orqali kelish, yoʻlni tekshirish va sharqiy qismni shoshirmasdan boshlashga yordam beradigan sokin toʻxtash."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Start where the rivers meet"
+          "ru": "Начните там, где сходятся реки"
+          "uz": "Daryolar tutashgan joydan boshlang"
+        "description":
+          "en": "A short walk near the Irtysh and Ulba turns Oskemen from an arrival point into the first readable pause of the eastern Kazakhstan route."
+          "ru": "Короткая прогулка у Иртыша и Ульбы превращает Усть-Каменогорск из точки прибытия в первую понятную паузу восточного маршрута."
+          "uz": "Irtish va Ulba yaqinidagi qisqa sayr Oʻskemenni kelish nuqtasidan sharqiy Qozogʻiston yoʻlidagi birinchi tushunarli toʻxtashga aylantiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Check the mountain road before leaving"
+          "ru": "Проверьте горную дорогу до выезда"
+          "uz": "Chiqishdan oldin togʻ yoʻlini tekshiring"
+        "description":
+          "en": "Before Ridder or Katon-Karagay, the useful moment is practical and human: ask the driver and guide what the road, weather, and access allow today."
+          "ru": "Перед Риддером или Катон-Карагаем важен простой человеческий момент: спросить водителя и гида, что сегодня позволяют дорога, погода и доступ."
+          "uz": "Ridder yoki Katon-Qaragʻaydan oldin foydali lahza amaliy va insoniy: haydovchi hamda giddan bugun yoʻl, ob-havo va kirish nimaga imkon berishini soʻrang."
+      - "type": "experience"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "Food"
+          "ru": "Еда"
+          "uz": "Taom"
+        "title":
+          "en": "Let an ordinary evening help the route"
+          "ru": "Пусть обычный вечер поможет маршруту"
+          "uz": "Oddiy oqshom yoʻlga yordam bersin"
+        "description":
+          "en": "Dinner, tea, basic supplies, and one calm conversation can make the next mountain day feel chosen rather than rushed."
+          "ru": "Ужин, чай, простые покупки и один спокойный разговор помогают следующему горному дню стать осознанным, а не спешным."
+          "uz": "Kechki ovqat, choy, oddiy tayyorgarlik va bitta sokin suhbat keyingi togʻ kunini shoshilinch emas, ongli tanlangan qiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "Keep Oskemen practical, but not flat"
+      "ru": "Оставьте Усть-Каменогорск практичным, но не плоским"
+      "uz": "Amaliy shahar, lekin quruq toʻxtash emas"
+    "description":
+      "en": "Oskemen has the clearest value when it carries one role well: arrival city, overnight stop, road-check point, or first river pause before the Altai begins."
+      "ru": "Усть-Каменогорск лучше всего раскрывается, когда у него есть одна ясная роль: город прибытия, ночёвка, точка проверки дороги или первая речная пауза перед Алтаем."
+      "uz": "Oʻskemen bitta rolni yaxshi bajarganda eng aniq koʻrinadi: kelish shahri, tunash joyi, yoʻlni tekshirish nuqtasi yoki Oltaydan oldingi birinchi daryo toʻxtashi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Let the river arrival set the first pace"
+              "ru": "Пусть реки зададут первый темп"
+              "uz": "Daryolar birinchi surʼatni bersin"
+            "description":
+              "en": "The Irtysh and Ulba give the city a visible starting point. A short walk and a calm meal can make the eastern leg feel less abstract before the route turns toward forest and mountains."
+              "ru": "Иртыш и Ульба дают городу видимую точку начала. Короткая прогулка и спокойный ужин помогают восточному отрезку стать менее абстрактным до того, как маршрут уйдёт к лесам и горам."
+              "uz": "Irtish va Ulba shaharga koʻrinadigan boshlanish nuqtasini beradi. Qisqa sayr va tinch kechki ovqat sharqiy qismni yoʻl oʻrmon va togʻlarga ketishidan oldin aniqroq qiladi."
+          - "type": "quote"
+            "quote":
+              "en": "Oskemen is strongest when it turns the eastern route from a name on a map into a decision you can actually make."
+              "ru": "Усть-Каменогорск силён тогда, когда превращает восточный маршрут из названия на карте в решение, которое можно спокойно принять."
+              "uz": "Oʻskemen sharqiy yoʻnalishni xaritadagi nomdan haqiqatan tanlash mumkin boʻlgan qarorga aylantirganda eng kuchli boʻladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Keep the city stop honest"
+              "ru": "Держите городскую остановку честной"
+              "uz": "Shahar toʻxtashini rost tuting"
+            "description":
+              "en": "Museum time, riverfront walking, and ordinary city errands can be useful, but they should not crowd the route when the main reason for Oskemen is the road beyond it."
+              "ru": "Музейное время, прогулка у воды и обычные городские дела могут быть полезны, но не должны перегружать маршрут, если главная причина остановки здесь - дорога дальше."
+              "uz": "Muzey vaqti, suv boʻyidagi yurish va oddiy shahar yumushlari foydali boʻlishi mumkin, lekin Oʻskemendagi asosiy sabab keyingi yoʻl boʻlsa, ular marshrutni bosib ketmasligi kerak."
+          - "type": "dashTitle"
+            "title":
+              "en": "Separate Ridder from Katon-Karagay"
+              "ru": "Разделяйте Риддер и Катон-Карагай"
+              "uz": "Ridder va Katon-Qaragʻayni ajrating"
+            "description":
+              "en": "The northern Ridder branch and the longer Katon-Karagay direction ask for different weather windows, road comfort, and guide checks. Choosing one clearly serves the traveler better than stacking both as casual add-ons."
+              "ru": "Северное направление к Риддеру и более длинная дорога к Катон-Карагаю требуют разных погодных окон, комфорта на дороге и проверки сопровождения. Один ясный выбор лучше для гостя, чем два случайных дополнения."
+              "uz": "Shimoliy Ridder tarmogʻi va Katon-Qaragʻay tomon uzunroq yoʻl turli ob-havo oynalari, yoʻl qulayligi va hamroh tekshiruvini soʻraydi. Ikki tasodifiy qoʻshimchadan koʻra bitta aniq tanlov mehmon uchun yaxshiroq."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Главное для гостя"
+              "uz": "Mehmon uchun xulosa"
+            "description":
+              "en": "Let Oskemen give you arrival, rest, river orientation, and one mountain direction chosen with current local advice."
+              "ru": "Пусть Усть-Каменогорск даст прибытие, отдых, речной ориентир и один горный выбор по свежему местному совету."
+              "uz": "Oʻskemen sizga kelish, dam olish, daryo moʻljali va soʻnggi mahalliy maslahat bilan tanlangan bitta togʻ yoʻnalishini beradi."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Place"
+                  "ru": "Коротко Место"
+                  "uz": "Qisqacha Joy"
+                "description":
+                  "en": "East Kazakhstan city at the Irtysh and Ulba confluence, under the broader East Kazakhstan & Altai tourist region."
+                  "ru": "Город Восточного Казахстана у слияния Иртыша и Ульбы, внутри туристического региона Восточный Казахстан и Алтай."
+                  "uz": "Irtish va Ulba tutashgan joydagi Sharqiy Qozogʻiston shahri, Sharqiy Qozogʻiston va Oltay turistik hududi ichida."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Stay"
+                  "ru": "Ночёвка"
+                  "uz": "Tunash"
+                "description":
+                  "en": "Usually one overnight stop before the longer mountain road, or a short city pause after arrival."
+                  "ru": "Обычно одна ночь перед длинной горной дорогой или короткая городская пауза после прибытия."
+                  "uz": "Odatda uzun togʻ yoʻlidan oldin bir tun yoki kelishdan keyingi qisqa shahar toʻxtashi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Yoʻldagi roli"
+                "description":
+                  "en": "Air, rail, river, hotel, supply, and road-decision anchor for the eastern Kazakhstan leg."
+                  "ru": "Авиаприбытие, железная дорога, реки, гостиницы, покупки и выбор дороги для восточного отрезка Казахстана."
+                  "uz": "Sharqiy Qozogʻiston qismi uchun havo, temir yoʻl, daryo, mehmonxona, tayyorgarlik va yoʻl tanlash tayanchi."
+              - "icon": "Route"
+                "title":
+                  "en": "Mountain roads"
+                  "ru": "Горные дороги"
+                  "uz": "Togʻ yoʻllari"
+                "description":
+                  "en": "Ridder and Katon-Karagay need separate timing, vehicle, season, and local guide checks."
+                  "ru": "Риддер и Катон-Карагай требуют отдельного времени, машины, сезона и проверки местного сопровождения."
+                  "uz": "Ridder va Katon-Qaragʻay alohida vaqt, transport, mavsum va mahalliy hamroh tekshiruvini talab qiladi."
+              - "icon": "MapPin"
+                "title":
+                  "en": "Before departure"
+                  "ru": "Перед выездом"
+                  "uz": "Joʻnashdan oldin"
+                "description":
+                  "en": "Confirm weather, road surface, protected-area rules, border-zone sensitivity, and accommodation fit before leaving the city."
+                  "ru": "Проверьте погоду, состояние дороги, правила охраняемых территорий, близость пограничных зон и формат ночёвки."
+                  "uz": "Ob-havo, yoʻl holati, qoʻriqlanadigan hudud qoidalari, chegara hududiga yaqinlik va tunash mosligini tasdiqlang."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Where to continue"
+      "ru": "Куда продолжить"
+      "uz": "Qayerga davom etish"
+    "title":
+      "en": "Katon-Karagay and the wider eastern route"
+      "ru": "Катон-Карагай и широкий восточный маршрут"
+      "uz": "Katon-Qaragʻay va kengroq sharqiy yoʻnalish"
+    "description":
+      "en": "Katon-Karagay is the clearest current continuation from Oskemen. Ridder, Semey, Markakol, Rakhman Springs, Sibiny, and Bukhtarma remain wider East Kazakhstan choices that need their own timing and access checks before they are built into the route."
+      "ru": "Катон-Карагай сейчас выглядит самым ясным продолжением из Усть-Каменогорска. Риддер, Семей, Маркаколь, Рахмановские ключи, Сибинские озёра и Бухтарма остаются более широкими вариантами Восточного Казахстана: для них нужно отдельно проверять сезон, дорогу и доступ."
+      "uz": "Katon-Qaragʻay hozir Oʻskemendan keyingi eng aniq davomdir. Ridder, Semey, Markakoʻl, Raxman buloqlari, Sibin koʻllari va Buxtarma esa Sharqiy Qozogʻistonning kengroq variantlari boʻlib qoladi; ularni yoʻnalishga qoʻshishdan oldin mavsum, yoʻl va kirishni alohida tekshirish kerak."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kazakhstan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Katon-Karagay"
+          "ru": "Катон-Карагай"
+          "uz": "Katon-Qaragʻay"
+        "description":
+          "en": "Katon-Karagay carries East Kazakhstan beyond Oskemen into protected Altai forest, river valleys, village quiet, and mountain roads that need unhurried time."
+          "ru": "Катон-Карагай ведёт Восточный Казахстан дальше Усть-Каменогорска: к охраняемым алтайским лесам, речным долинам, тихим сёлам и горным дорогам, которым нужно время."
+          "uz": "Katon-Qaragʻay Sharqiy Qozogʻistonni Oʻskemendan nariga olib chiqadi: qoʻriqlanadigan Altay oʻrmonlari, daryo vodiylari, sokin qishloqlar va vaqt talab qiladigan togʻ yoʻllari."
+        "ctaHref": "/destinations/kazakhstan/east-kazakhstan-and-altai/katon-karagay"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Oskemen in the day plan"
+      "ru": "Как поставить Усть-Каменогорск в план дня"
+      "uz": "Oʻskemenni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Oskemen?"
+          "ru": "Сколько времени группам стоит проводить в Усть-Каменогорск?"
+          "uz": "Oʻskemenda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “Irtysh arrival city for the Altai road”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Город прибытия на Иртыше перед дорогой к Алтаю»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Oltay yoʻli oldidagi Irtish kelish shahri»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Oskemen be a walkable core or a base for day trips?"
+          "ru": "Усть-Каменогорск — это пешеходное ядро или база для выездов?"
+          "uz": "Oʻskemen piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Oskemen's centre?"
+          "ru": "Где лучше ночевать относительно центра Усть-Каменогорск?"
+          "uz": "Oʻskemen markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kazakhstan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Oskemen stop into your Kazakhstan programme"
+      "ru": "Встройте остановку «Усть-Каменогорск» в программу (Казахстан)"
+      "uz": "Oʻskemen bekatini Qozogʻiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Oskemen | TourLink"
+    "ru": "Усть-Каменогорск | TourLink"
+    "uz": "Oʻskemen | TourLink"
+  "metaDescription":
+    "en": "Oskemen is where East Kazakhstan changes scale. The Irtysh and Ulba meet inside the city, the airport and rail links bring the route within reach, and beyond the streets the road divides toward Ridder, Katon-Karagay, and longer Altai plans. Read it as an arrival city with a river edge and a clear purpose: rest after the transfer, check the latest road conditions with the guide or driver, then leave for the mountains with fewer assumptions."
+    "ru": "В Усть-Каменогорске Восточный Казахстан меняет масштаб. Иртыш и Ульба сходятся внутри города, аэропорт и железная дорога делают маршрут достижимым, а за городскими улицами дорога расходится к Риддеру, Катон-Карагаю и более длинным алтайским планам. Смотрите на него как на город прибытия с речным краем и ясной задачей: отдохнуть после переезда, вместе с гидом или водителем проверить свежую дорожную обстановку и уехать к горам без лишних предположений."
+    "uz": "Oʻskemenda Sharqiy Qozogʻiston oʻlchami oʻzgaradi. Irtish va Ulba shahar ichida uchrashadi, aeroport va temir yoʻl yoʻnalishni yaqinlashtiradi, shahar koʻchalaridan keyin esa yoʻl Ridder, Katon-Qaragʻay va uzoqroq Oltay rejalariga ajraladi. Uni daryo chetidagi aniq vazifali kelish shahri sifatida qabul qiling: transferdan keyin dam oling, gid yoki haydovchi bilan soʻnggi yoʻl holatini tekshiring, keyin togʻlarga kamroq taxmin bilan chiqing."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kazakhstan"
+"region": "east-kazakhstan-and-altai"
+"latitude": 49.9484438
+"longitude": 82.6274791

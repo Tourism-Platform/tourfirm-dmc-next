@@ -1,0 +1,348 @@
+# Generated from scrape/turkmenistan (multi-locale)
+"slug":
+  "en": "neutrality-monument"
+  "ru": "neutrality-monument"
+  "uz": "neutrality-monument"
+"title":
+  "en": "Neutrality Monument"
+  "ru": "Монумент Нейтралитета"
+  "uz": "Betaraflik monumenti"
+"subtitle":
+  "en": "A 95-meter landmark over Ashgabat's ceremonial south"
+  "ru": "95-метровый ориентир над церемониальным югом Ашхабада"
+  "uz": "Ashgabat janubidagi 95 metrlik tantanali moʻljal"
+"excerpt":
+  "en": "Neutrality Monument rises from Ashgabat's southern ceremonial landscape as a 95-meter white-marble structure on three pylons. The form recalls a Turkmen tagan, the hearth stand, while viewing levels and the golden figure make the stop a quick lesson in how the capital uses height, marble, and open squares to express state symbolism. It works best between Independence Monument, the National Museum, or the Carpet Museum, where exterior scale can give way to objects, craft, and history."
+  "ru": "Монумент Нейтралитета поднимается в южной церемониальной части Ашхабада как 95-метровое беломраморное сооружение на трёх пилонах. Его форма напоминает туркменский таган, очажную подставку; видовые уровни и золотая фигура превращают остановку в короткое объяснение того, как столица говорит высотой, мрамором и открытыми площадями. Монумент лучше воспринимается рядом с Монументом Независимости, Национальным музеем или Музеем ковра: внешний масштаб тогда получает продолжение в предметах, ремесле и истории."
+  "uz": "Betaraflik monumenti Ashgabatning janubiy tantanali hududida uch pilon ustidagi 95 metrlik oq marmar inshoot sifatida ko‘tariladi. Uning shakli turkman o‘choq taganini eslatadi; tomosha maydonchalari va oltin figura bu toʻxtashni poytaxt balandlik, marmar va ochiq maydonlar orqali davlat ramzlarini qanday ko‘rsatishini tushuntiradigan qisqa tajribaga aylantiradi. Monument Mustaqillik monumenti, Milliy muzey yoki Gilam muzeyi bilan birga kelganda aniqroq seziladi: tashqi miqyos keyin buyumlar, hunar va tarix bilan davom etadi."
+"heroImage": "assets/images/destinations/turkmenistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "imageAlt":
+      "en": "Neutrality Monument"
+      "ru": "Монумент Нейтралитета"
+      "uz": "Betaraflik monumenti"
+    "title":
+      "en": "Neutrality Monument"
+      "ru": "Монумент Нейтралитета"
+      "uz": "Betaraflik monumenti"
+    "description":
+      "en": "A 95-meter landmark over Ashgabat's ceremonial south"
+      "ru": "95-метровый ориентир над церемониальным югом Ашхабада"
+      "uz": "Ashgabat janubidagi 95 metrlik tantanali moʻljal"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О месте"
+      "uz": "Joy haqida"
+    "title":
+      "en": "Neutrality Monument"
+      "ru": "Монумент Нейтралитета"
+      "uz": "Betaraflik monumenti"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Neutrality Monument rises from Ashgabat's southern ceremonial landscape as a 95-meter white-marble structure on three pylons."
+              "ru": "Монумент Нейтралитета поднимается в южной церемониальной части Ашхабада как 95-метровое беломраморное сооружение на трёх пилонах."
+              "uz": "Betaraflik monumenti Ashgabatning janubiy tantanali hududida uch pilon ustidagi 95 metrlik oq marmar inshoot sifatida ko‘tariladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the stop works"
+              "ru": "Как устроена остановка"
+              "uz": "Bekat qanday ishlaydi"
+            "description":
+              "en": "This is not a long museum visit."
+              "ru": "Это не длинное музейное посещение, а короткая, сильная остановка: форма, высота и подход к монументу показывают, почему современный Ашхабад часто начинает с масштаба, а уже потом раскрывает детали."
+              "uz": "Bu uzun muzey tashrifi emas."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Keep this stop clear on the map and in the day plan — A 95-meter landmark over Ashgabat's ceremonial south."
+              "ru": "Держите эту остановку понятной на карте и в плане дня — 95-метровый ориентир над церемониальным югом Ашхабада."
+              "uz": "Bu bekatni xaritada va kun rejasida aniq tuting — Ashgabat janubidagi 95 metrlik tantanali moʻljal."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Neutrality Monument as a readable stop — honest timing and a clear place on the route."
+              "ru": "Агентствам и путешественникам, которым нужен Монумент Нейтралитета как читаемая остановка — честное время и понятное место в маршруте."
+              "uz": "Agentliklar va sayohatchilar uchun Betaraflik monumenti o‘qiladigan bekat — halol vaqt va marshrutda aniq joy."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "On the map"
+      "ru": "На карте"
+      "uz": "Xaritada"
+    "title":
+      "en": "Where Neutrality Monument sits on the route"
+      "ru": "Где Монумент Нейтралитета стоит на маршруте"
+      "uz": "Betaraflik monumenti marshrutda qayerda"
+    "description":
+      "en": "One clear point for Neutrality Monument — A 95-meter landmark over Ashgabat's ceremonial south."
+      "ru": "Одна понятная точка для «Монумент Нейтралитета» — 95-метровый ориентир над церемониальным югом Ашхабада."
+      "uz": "Betaraflik monumenti uchun bitta aniq nuqta — Ashgabat janubidagi 95 metrlik tantanali moʻljal."
+    "mapPanel":
+      "eyebrow":
+        "en": "Place"
+        "ru": "Место"
+        "uz": "Joy"
+      "title":
+        "en": "Neutrality Monument"
+        "ru": "Монумент Нейтралитета"
+        "uz": "Betaraflik monumenti"
+      "description":
+        "en": "The map pin marks this attraction so the stop stays readable in the day plan."
+        "ru": "Точка на карте отмечает эту достопримечательность, чтобы остановка оставалась читаемой в плане дня."
+        "uz": "Xarita nuqtasi shu diqqatga sazovor joyni belgilaydi — bekat kun rejasida o‘qiladigan bo‘lib qolishi uchun."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 37.8821093
+      "longitude": 58.3333177
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "neutrality-monument"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Why this place"
+      "ru": "Почему это место"
+      "uz": "Nega bu joy"
+    "title":
+      "en": "Height, symbolism, and a view over the capital"
+      "ru": "Высота, символика и вид на столицу"
+      "uz": "Balandlik, ramz va poytaxt manzarasi"
+    "description":
+      "en": "This is not a long museum visit. It is a short, high-impact stop: a monument whose shape, height, and approach show why modern Ashgabat often speaks through scale before detail.
+
+
+        «At Neutrality Monument, Ashgabat becomes vertical for a moment: white marble, wide approaches, and a viewpoint that can explain the city from above.»"
+      "ru": "Это не длинное музейное посещение, а короткая, сильная остановка: форма, высота и подход к монументу показывают, почему современный Ашхабад часто начинает с масштаба, а уже потом раскрывает детали.
+
+
+        «У Монумента Нейтралитета Ашхабад на время становится вертикальным: белый мрамор, широкие подходы и видовая точка, с которой город можно увидеть сверху.»"
+      "uz": "Bu uzun muzey tashrifi emas. Bu qisqa, lekin kuchli toʻxtash: monumentning shakli, balandligi va unga yaqinlashish yo‘li zamonaviy Ashgabat avval miqyos orqali, keyin detal orqali gapirishini ko‘rsatadi.
+
+
+        «Betaraflik monumenti yonida Ashgabat bir lahzaga vertikal ko‘rinadi: oq marmar, keng yondashuvlar va shaharni yuqoridan ko‘rsatadigan nuqta.»"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What you'll see"
+      "ru": "Что вы увидите"
+      "uz": "Nimalarni ko‘rasiz"
+    "title":
+      "en": "Pylons, viewing levels, and skyline"
+      "ru": "Пилоны, видовые уровни и силуэт"
+      "uz": "Pilonlar, tomosha maydonchalari va siluet"
+    "description":
+      "en": "The monument is best understood through three visible elements: the structural form, the raised visitor levels, and the skyline marker above them."
+      "ru": "Монумент лучше понимать через три видимые части: конструкцию, поднятые уровни для посетителей и верхний знак на силуэте города."
+      "uz": "Monument uch ko‘rinadigan qism orqali tushunarli bo‘ladi: konstruksiya, mehmonlar uchun ko‘tarilgan maydonchalar va shahar siluetidagi yuqori belgi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "How to visit"
+      "ru": "Как посещать"
+      "uz": "Qanday ko‘rish"
+    "title":
+      "en": "Plan it as a concise landmark stop"
+      "ru": "Планируйте как короткую остановку у ориентира"
+      "uz": "Uni qisqa moʻljal toʻxtashi sifatida rejalang"
+    "description":
+      "en": "Neutrality Monument works best as one focused part of an Ashgabat city circuit. Keep enough time for the exterior scale, then give the route a different texture indoors."
+      "ru": "Монумент Нейтралитета лучше работает как одна ясная часть городского маршрута по Ашхабаду. Дайте время внешнему масштабу, а затем добавьте к маршруту другой материал внутри музея."
+      "uz": "Betaraflik monumenti Ashgabat shahar marshrutining bir aniq qismi bo‘lganda yaxshiroq ishlaydi. Tashqi miqyosga vaqt bering, keyin muzey ichidagi boshqa mazmun bilan davom eting."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby in Ashgabat"
+      "ru": "Рядом в Ашхабаде"
+      "uz": "Ashgabatda yaqin joylar"
+    "title":
+      "en": "What to add after Neutrality Monument"
+      "ru": "Что добавить после Монумента Нейтралитета"
+      "uz": "Betaraflik monumentidan keyin nima qo‘shish"
+    "description":
+      "en": "Compare it with Independence Monument for ceremonial scale, then move indoors to the National Museum or Carpet Museum for archaeology, state history, and carpet craft."
+      "ru": "Сравните его с Монументом Независимости по церемониальному масштабу, а затем перейдите в Национальный музей или Музей ковра за археологией, государственной историей и ремеслом."
+      "uz": "Uni tantanali miqyos bo‘yicha Mustaqillik monumenti bilan solishtiring, keyin arxeologiya, davlat tarixi va gilam hunari uchun Milliy muzey yoki Gilam muzeyiga o‘ting."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Independence Monument and Park"
+          "ru": "Монумент Независимости и парк"
+          "uz": "Mustaqillik monumenti va parki"
+        "description":
+          "en": "Independence Monument and Park shows Ashgabat at ceremonial scale: a 118-meter column, yurt-shaped base, fountains, statues, and nearby museums."
+          "ru": "Монумент Независимости и парк показывают Ашхабад в церемониальном масштабе: 118-метровая колонна, форма юрты, фонтаны, статуи и музеи рядом."
+          "uz": "Mustaqillik monumenti va parki Ashgabatning marosim miqyosini ko‘rsatadi: 118 metrlik ustun, o‘tov shakli, favvoralar, haykallar va yaqin muzeylar."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat/independence-monument-and-park"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "National Museum of Turkmenistan"
+          "ru": "Национальный музей Туркменистана"
+          "uz": "Turkmaniston Milliy muzeyi"
+        "description":
+          "en": "National Museum of Turkmenistan brings Ashgabat indoors through Ancient History, Margush, Parthia, Middle Ages, carpets, and the objects that prepare Nisa and Merv."
+          "ru": "Национальный музей Туркменистана переводит Ашхабад внутрь: древняя история, Маргуш, Парфия, средневековые залы, ковры и подготовка к Нисе или Мерву."
+          "uz": "Turkmaniston Milliy muzeyi Ashgabatni ichkaridan ko‘rsatadi: qadimiy tarix, Margush, Parfiya, o‘rta asr zallari, gilamlar va Nisa yoki Merv oldidan kerakli tayyorgarlik."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat/national-museum-of-turkmenistan"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/turkmenistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Turkmen Carpet Museum"
+          "ru": "Музей туркменского ковра"
+          "uz": "Turkman gilami muzeyi"
+        "description":
+          "en": "Turkmen Carpet Museum brings the Ashgabat route close to Turkmen carpet weaving, with rare carpets, motif language, wool work, and a UNESCO-listed craft tradition."
+          "ru": "Музей туркменского ковра приближает маршрут по Ашхабаду к туркменскому ковроткачеству: редким коврам, языку орнамента, работе с шерстью и традиции, признанной ЮНЕСКО."
+          "uz": "Turkman gilami muzeyi Ashgabat yo‘lini turkman gilamdo‘zligiga yaqinlashtiradi: nodir gilamlar, naqsh tili, jun bilan ishlash va UNESCO tan olgan hunar anʼanasi."
+        "ctaHref": "/destinations/turkmenistan/ashgabat-and-nisa/ashgabat/turkmen-carpet-museum"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Place in detail"
+      "ru": "Место в деталях"
+      "uz": "Joy batafsil"
+    "title":
+      "en": "What agencies ask about Neutrality Monument"
+      "ru": "Что агентства спрашивают про Монумент Нейтралитета"
+      "uz": "Agentliklar Betaraflik monumenti haqida nima so‘raydi"
+    "description":
+      "en": "Timing, best hours, and how this stop fits neighbouring pins."
+      "ru": "Тайминг, лучшие часы и как остановка стыкуется с соседними точками."
+      "uz": "Tayming, eng yaxshi soatlar va bekatning yaqin nuqtalar bilan ulanishi."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How much time should Neutrality Monument get in the day plan?"
+          "ru": "Сколько времени закладывать на Монумент Нейтралитета в плане дня?"
+          "uz": "Betaraflik monumenti uchun kun rejasida qancha vaqt ajratish kerak?"
+        "description":
+          "en": "1–2 hours is a practical range for most groups. Leave time for walls, viewpoints, and the walk between courtyards. Place tone: “A 95-meter landmark over Ashgabat's ceremonial south”."
+          "ru": "Для большинства групп реалистичный диапазон — 1–2 часа. Оставьте время на стены, смотровые и переход между дворами. Характер места: «95-метровый ориентир над церемониальным югом Ашхабада»."
+          "uz": "Ko‘p guruhlar uchun amaliy diapazon — 1–2 soat. Devor, manzara va hovlilar orasidagi yo‘l uchun vaqt qoldiring. Joy ohangi: «Ashgabat janubidagi 95 metrlik tantanali moʻljal»."
+      - "type": "destinationInsight"
+        "icon": "Sun"
+        "title":
+          "en": "When is Neutrality Monument strongest during the day?"
+          "ru": "В какое время дня Монумент Нейтралитета раскрывается сильнее?"
+          "uz": "Betaraflik monumenti kunning qaysi vaqtida kuchliroq ochiladi?"
+        "description":
+          "en": "Prefer when the light is soft and queues are lighter. That usually improves comfort, photos, and how the stop feels in the sequence around ashgabat."
+          "ru": "Лучше когда свет мягче и очередей меньше. Так обычно выигрывают комфорт, кадры и ощущение остановки в последовательности рядом с ashgabat."
+          "uz": "yorug‘lik yumshoq va navbat kamroq bo‘lganda afzal. Bu odatda qulaylik, surat va bekatning ketma-ketlikdagi hisini yaxshilaydi (ashgabat atrofida)."
+      - "type": "destinationInsight"
+        "icon": "MapPin"
+        "title":
+          "en": "How should Neutrality Monument sit next to nearby stops?"
+          "ru": "Как поставить Монумент Нейтралитета рядом с соседними остановками?"
+          "uz": "Betaraflik monumentini yaqin bekatlar yonida qanday joylashtirish kerak?"
+        "description":
+          "en": "Treat it as one clear pin on the map: arrive intentionally, avoid sandwiching it between two rushed monuments, and keep the next move short enough that the group still has energy."
+          "ru": "Держите это как одну ясную точку на карте: приезжайте осознанно, не зажимайте между двумя спешными памятниками и оставляйте следующий ход достаточно коротким, чтобы у группы оставались силы."
+          "uz": "Buni xaritada bitta aniq nuqta qiling: ongli keling, ikkita shoshilinch yodgorlik orasiga tiqmang va keyingi qadamni guruhda kuch qoladigan qilib qisqa tuting."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/turkmenistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Add Neutrality Monument to your Turkmenistan programme"
+      "ru": "Добавьте «Монумент Нейтралитета» в программу (Туркменистан)"
+      "uz": "Betaraflik monumentini Turkmaniston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies place this stop with realistic timing — without rushing the places that matter."
+      "ru": "Помогаем агентствам поставить эту остановку с реалистичным таймингом — без спешки там, где важны места."
+      "uz": "Agentliklarga bu bekatni real vaqt bilan qo‘yishda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Neutrality Monument | TourLink"
+    "ru": "Монумент Нейтралитета | TourLink"
+    "uz": "Betaraflik monumenti | TourLink"
+  "metaDescription":
+    "en": "Neutrality Monument rises from Ashgabat's southern ceremonial landscape as a 95-meter white-marble structure on three pylons. The form recalls a Turkmen tagan, the hearth stand, while viewing levels and the golden figure make the stop a quick lesson in how the capital uses height, marble, and open squares to express state symbolism. It works best between Independence Monument, the National Museum, or the Carpet Museum, where exterior scale can give way to objects, craft, and history."
+    "ru": "Монумент Нейтралитета поднимается в южной церемониальной части Ашхабада как 95-метровое беломраморное сооружение на трёх пилонах. Его форма напоминает туркменский таган, очажную подставку; видовые уровни и золотая фигура превращают остановку в короткое объяснение того, как столица говорит высотой, мрамором и открытыми площадями. Монумент лучше воспринимается рядом с Монументом Независимости, Национальным музеем или Музеем ковра: внешний масштаб тогда получает продолжение в предметах, ремесле и истории."
+    "uz": "Betaraflik monumenti Ashgabatning janubiy tantanali hududida uch pilon ustidagi 95 metrlik oq marmar inshoot sifatida ko‘tariladi. Uning shakli turkman o‘choq taganini eslatadi; tomosha maydonchalari va oltin figura bu toʻxtashni poytaxt balandlik, marmar va ochiq maydonlar orqali davlat ramzlarini qanday ko‘rsatishini tushuntiradigan qisqa tajribaga aylantiradi. Monument Mustaqillik monumenti, Milliy muzey yoki Gilam muzeyi bilan birga kelganda aniqroq seziladi: tashqi miqyos keyin buyumlar, hunar va tarix bilan davom etadi."
+  "structuredDataType": "TouristAttraction"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "turkmenistan"
+"region": "ashgabat-and-nisa"
+"city": "ashgabat"
+"type": "LANDMARK"
+"importance": "RECOMMENDED"
+"latitude": 37.8821093
+"longitude": 58.3333177

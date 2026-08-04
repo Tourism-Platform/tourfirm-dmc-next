@@ -1,0 +1,570 @@
+# Generated from scrape/tajikistan (multi-locale)
+"slug":
+  "en": "khorog"
+  "ru": "khorog"
+  "uz": "khorog"
+"title":
+  "en": "Khorog"
+  "ru": "Хорог"
+  "uz": "Xorugʻ"
+"subtitle":
+  "en": "River town before the high Pamir roads"
+  "ru": "Город у рек перед высокими дорогами Памира"
+  "uz": "Baland Pomir yoʻllaridan oldingi daryo shahri"
+"excerpt":
+  "en": "Khorog sits where the Panj and Gunt river valleys make the Pamir road feel like a town again. After the long approach, travelers can walk near the water, breathe river air, and check permits, weather, road reports, and the next valley before the route climbs higher."
+  "ru": "Хорог стоит там, где долины Пянджа и Гунта снова превращают памирскую дорогу в город. После долгого подъезда здесь можно пройтись у воды, почувствовать речной воздух и проверить разрешения, погоду, состояние дороги и следующую долину перед новым набором высоты."
+  "uz": "Xorugʻ Panj va Gunt vodiylari Pomir yoʻlini yana shaharga aylantiradigan joyda turadi. Uzoq yoʻldan keyin bu yerda suv bo‘yida yurish, daryo havosini his qilish va yoʻl balandroqqa ko‘tarilishidan oldin ruxsatnoma, ob-havo, yoʻl holati hamda keyingi vodiyni tekshirish mumkin."
+"heroImage": "assets/images/destinations/tajikistan.jpg"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "imageAlt":
+      "en": "Khorog"
+      "ru": "Хорог"
+      "uz": "Xorugʻ"
+    "title":
+      "en": "Khorog"
+      "ru": "Хорог"
+      "uz": "Xorugʻ"
+    "description":
+      "en": "River town before the high Pamir roads"
+      "ru": "Город у рек перед высокими дорогами Памира"
+      "uz": "Baland Pomir yoʻllaridan oldingi daryo shahri"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Khorog"
+      "ru": "Хорог"
+      "uz": "Xorugʻ"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Khorog sits where the Panj and Gunt river valleys make the Pamir road feel like a town again."
+              "ru": "Хорог стоит там, где долины Пянджа и Гунта снова превращают памирскую дорогу в город."
+              "uz": "Xorugʻ Panj va Gunt vodiylari Pomir yoʻlini yana shaharga aylantiradigan joyda turadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Keep the Khorog sequence simple: arrive from the long road, walk near the rivers, add the Botanical Garden, then confirm whether the next section points toward Wakhan, Bartang, Murghab, or back west."
+              "ru": "Сохраните порядок простым: приехать после длинной дороги, пройтись у рек, добавить Ботанический сад, а затем уточнить, ведёт ли следующий участок к Вахану, Бартангу, Мургабу или обратно на запад."
+              "uz": "Xorugʻdagi tartibni sodda saqlang: uzoq yoʻldan keyin yetib keling, daryolar yonida yuring, Botanika bogʻini qoʻshing, keyin keyingi qism Vaxon, Bartang, Murgʻob yoki gʻarbga qaytish tomonga borishini aniqlang."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Khorog helps most with a clear town sequence before high-road distance takes over again."
+              "ru": "Хорог полезнее всего, когда перед высокогорными расстояниями у маршрута появляется понятный городской порядок."
+              "uz": "Xorugʻ baland yoʻl masofalari yana boshlanishidan oldin yoʻnalishga aniq shahar tartibini beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Khorog as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Хорог как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Xorugʻ o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday yurish"
+    "title":
+      "en": "Rivers, garden paths, and the next road"
+      "ru": "Реки, дорожки сада и следующая дорога"
+      "uz": "Daryolar, bogʻ yoʻlaklari va keyingi yoʻl"
+    "description":
+      "en": "Keep the Khorog sequence simple: arrive from the long road, walk near the rivers, add the Botanical Garden, then confirm whether the next section points toward Wakhan, Bartang, Murghab, or back west."
+      "ru": "Сохраните порядок простым: приехать после длинной дороги, пройтись у рек, добавить Ботанический сад, а затем уточнить, ведёт ли следующий участок к Вахану, Бартангу, Мургабу или обратно на запад."
+      "uz": "Xorugʻdagi tartibni sodda saqlang: uzoq yoʻldan keyin yetib keling, daryolar yonida yuring, Botanika bogʻini qoʻshing, keyin keyingi qism Vaxon, Bartang, Murgʻob yoki gʻarbga qaytish tomonga borishini aniqlang."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route setting"
+        "ru": "Положение в маршруте"
+        "uz": "Yoʻnalishdagi oʻrni"
+      "title":
+        "en": "Khorog inside Pamir & GBAO"
+        "ru": "Хорог внутри Памира и ГБАО"
+        "uz": "Xorugʻ Pomir va GBAO ichida"
+      "description":
+        "en": "The town sits where the Panj and Gunt river valleys, GBAO travel checks, and roads toward Wakhan, Bartang, Murghab, and Karakul meet."
+        "ru": "Город стоит там, где долины Пянджа и Гунта, проверки для путешествия по ГБАО и дороги к Вахану, Бартангу, Мургабу и Каракулю сходятся в один выбор."
+        "uz": "Shahar Panj va Gunt vodiylari, GBAO safar tekshiruvlari hamda Vaxon, Bartang, Murgʻob va Qorakoʻl tomonga ketadigan yoʻllar uchrashadigan joyda turadi."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 37.48473
+      "longitude": 71.573663
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "khorog-botanical-garden"
+    "aside":
+      "eyebrow":
+        "en": "Town sequence"
+        "ru": "Порядок в городе"
+        "uz": "Shahar ketma-ketligi"
+      "title":
+        "en": "Arrive, walk, check, continue"
+        "ru": "Приезд, прогулка, проверка, продолжение"
+        "uz": "Kelish, sayr, tekshiruv, davom"
+      "description":
+        "en": "Khorog helps most with a clear town sequence before high-road distance takes over again."
+        "ru": "Хорог полезнее всего, когда перед высокогорными расстояниями у маршрута появляется понятный городской порядок."
+        "uz": "Xorugʻ baland yoʻl masofalari yana boshlanishidan oldin yoʻnalishga aniq shahar tartibini beradi."
+      "items":
+        - "title":
+            "en": "Move back to town scale"
+            "ru": "Вернитесь к городскому масштабу"
+            "uz": "Shahar miqyosiga qayting"
+          "description":
+            "en": "After Dushanbe or the lower valleys, Khorog gives the route streets, bridges, meals, and a calmer human scale before higher sections continue."
+            "ru": "После Душанбе или нижних долин Хорог возвращает маршруту улицы, мосты, ужин и более спокойный человеческий масштаб перед высокими участками."
+            "uz": "Dushanbe yoki past vodiylardan keyin Xorugʻ yoʻnalishga koʻchalar, koʻpriklar, ovqat va baland qismlardan oldingi sokinroq insoniy miqyosni qaytaradi."
+          "badge":
+            "en": "Town scale"
+            "ru": "Городской масштаб"
+            "uz": "Shahar miqyosi"
+        - "title":
+            "en": "Read the Panj and Gunt setting"
+            "ru": "Прочитайте положение Пянджа и Гунта"
+            "uz": "Panj va Gunt oʻrnini tushuning"
+          "description":
+            "en": "The rivers explain why the town matters: water, bridges, tight slopes, and a walkable center between long road sections."
+            "ru": "Реки объясняют значение города: вода, мосты, тесные склоны и центр, по которому можно пройтись между длинными дорожными участками."
+            "uz": "Daryolar shahar nega muhimligini ko‘rsatadi: suv, ko‘priklar, tik yonbagʻirlar va uzun yoʻl qismlari orasidagi piyoda yuriladigan markaz."
+          "badge":
+            "en": "Short walk"
+            "ru": "Короткая прогулка"
+            "uz": "Qisqa sayr"
+        - "title":
+            "en": "Go above town"
+            "ru": "Поднимитесь над городом"
+            "uz": "Shahar ustiga chiqing"
+          "description":
+            "en": "The Botanical Garden gives Khorog a hillside viewpoint, planted paths, and a softer way to notice Pamir plant life."
+            "ru": "Ботанический сад даёт Хорогу точку обзора на склоне, дорожки среди посадок и более мягкий способ заметить памирскую растительность."
+            "uz": "Botanika bogʻi Xorugʻga yonbagʻirdagi kuzatuv nuqtasi, ekilgan yoʻlaklar va Pomir oʻsimliklarini sezishning yumshoqroq yoʻlini beradi."
+          "badge":
+            "en": "Main stop"
+            "ru": "Главное место"
+            "uz": "Asosiy joy"
+        - "title":
+            "en": "Confirm the next valley"
+            "ru": "Уточните следующую долину"
+            "uz": "Keyingi vodiyni aniqlang"
+          "description":
+            "en": "Weather, permits, altitude, fuel, and road surface shape whether the route continues toward Wakhan, Bartang, Murghab, Karakul, or back west."
+            "ru": "Погода, разрешения, высота, топливо и состояние дороги определяют, пойдёт ли маршрут к Вахану, Бартангу, Мургабу, Каракулю или обратно на запад."
+            "uz": "Ob-havo, ruxsatnoma, balandlik, yoqilgʻi va yoʻl holati yoʻnalish Vaxon, Bartang, Murgʻob, Qorakoʻl yoki gʻarbga qaytish tomon borishini belgilaydi."
+          "badge":
+            "en": "Before departure"
+            "ru": "Перед выездом"
+            "uz": "Yoʻlga chiqishdan oldin"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrish"
+    "title":
+      "en": "Start with the garden above town"
+      "ru": "Начните с сада над городом"
+      "uz": "Shahar ustidagi bogʻdan boshlang"
+    "description":
+      "en": "For a first Khorog visit, start with the Botanical Garden: a hillside garden above the rivers. Keep museum, bazaar, hot-spring, and Wakhan plans flexible until current access and road checks support them."
+      "ru": "Для первого знакомства с Хорогом начните с Ботанического сада: сада на склоне над реками. Музей, рынок, горячие источники и Вахан лучше держать гибкой частью широкой памирской программы, пока доступ и дорога не проверены на месте."
+      "uz": "Xorugʻ bilan birinchi tanishuvni Botanika bogʻidan boshlang: daryolar ustidagi yonbagʻir bogʻi. Muzey, bozor, issiq buloqlar va Vaxon rejalarini kirish hamda yoʻl holati joyida tekshirilmaguncha kengroq Pomir dasturida moslashuvchan saqlang."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Khorog Botanical Garden"
+          "ru": "Ботанический сад Хорога"
+          "uz": "Xorugʻ Botanika bogʻi"
+        "description":
+          "en": "Above Khorog, the Botanical Garden gives the town a quieter frame. Paths cross planted slopes, the town drops below, and the rivers and mountains come together in one clear view."
+          "ru": "Над Хорогом Ботанический сад даёт городу более тихую рамку. Дорожки проходят по склонам с посадками, город остаётся ниже, а реки и горы собираются в один ясный вид."
+          "uz": "Xorugʻ ustida Botanika bogʻi shaharga sokinroq ramka beradi. Yoʻlaklar ekilgan yonbagʻirlardan oʻtadi, shahar pastda qoladi, daryolar va togʻlar esa bir aniq manzarada jamlanadi."
+        "ctaHref": "/destinations/tajikistan/pamir-and-gbao/khorog/khorog-botanical-garden"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City moments"
+      "ru": "Городские моменты"
+      "uz": "Shahar lahzalari"
+    "title":
+      "en": "What makes Khorog feel lived-in"
+      "ru": "Что делает Хорог живым городом"
+      "uz": "Xorugʻni tirik shahar qiladigan narsalar"
+    "description":
+      "en": "Khorog is not only the place between roads. River walks, garden paths, guesthouse tables, and local road news give the Pamir journey a human scale before the next valley."
+      "ru": "Хорог — не только место между дорогами. Прогулки у рек, дорожки сада, гостевые дома и местные дорожные новости возвращают памирскому маршруту человеческий масштаб перед следующей долиной."
+      "uz": "Xorugʻ faqat yoʻllar orasidagi joy emas. Daryo sayrlari, bogʻ yoʻlaklari, mehmon uylari va mahalliy yoʻl xabarlari keyingi vodiydan oldin Pomir yoʻliga insoniy miqyos beradi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "River walk after the road"
+          "ru": "Прогулка у рек после дороги"
+          "uz": "Yoʻldan keyingi daryo sayri"
+        "description":
+          "en": "Walk near the Panj and Gunt after the long drive, when bridges, river sound, and close mountain walls bring the Pamir route back to town scale."
+          "ru": "Пройдитесь у Пянджа и Гунта после долгой дороги: мосты, звук воды и близкие горы возвращают памирскому маршруту городской масштаб."
+          "uz": "Uzoq yoʻldan keyin Panj va Gunt yonida yuring: ko‘priklar, daryo ovozi va yaqin togʻ devorlari Pomir yoʻliga shahar miqyosini qaytaradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Garden slope above Khorog"
+          "ru": "Склон сада над Хорогом"
+          "uz": "Xorugʻ ustidagi bogʻ yonbagʻri"
+        "description":
+          "en": "Climb to the Botanical Garden for planted paths, river-valley views, and a gentler first reading of Pamir altitude above town."
+          "ru": "Поднимитесь к Ботаническому саду за дорожками, видами на речную долину и более мягким ощущением памирской высоты над городом."
+          "uz": "Botanika bogʻiga ko‘tariling: yoʻlaklar, daryo vodiysi manzaralari va shahar ustidagi Pomir balandligini yumshoqroq his qilish shu yerda."
+      - "type": "experience"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "Soft adventure"
+          "ru": "Лёгкий активный маршрут"
+          "uz": "Yengil faol yoʻnalish"
+        "title":
+          "en": "Road news over tea"
+          "ru": "Дорожные новости за чаем"
+          "uz": "Choy ustidagi yoʻl xabarlari"
+        "description":
+          "en": "Before Wakhan, Bartang, or Murghab, use a guesthouse table or local stop to make weather, permits, fuel, and altitude part of the plan."
+          "ru": "Перед Ваханом, Бартангом или Мургабом обсудите погоду, разрешения, топливо и высоту за гостевым столом или местной остановкой."
+          "uz": "Vaxon, Bartang yoki Murgʻobdan oldin mehmon uyi dasturxoni yoki mahalliy toʻxtashda ob-havo, ruxsatnoma, yoqilgʻi va balandlikni reja ichiga kiriting."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "Plan Khorog before the high road"
+      "ru": "Планируйте Хорог перед высокими дорогами"
+      "uz": "Xorugʻni baland yoʻldan oldin rejalang"
+    "description":
+      "en": "The town earns its night when travelers use it for recovery, local checks, and a clearer choice of the next valley, not just sleep and fuel."
+      "ru": "Город оправдывает ночёвку, когда путешественники используют его для восстановления после дороги, местных проверок и более ясного выбора следующей долины, а не только для сна и топлива."
+      "uz": "Sayohatchilar Xorugʻni faqat uxlash va yoqilgʻi uchun emas, yoʻldan keyin tiklanish, mahalliy tekshiruvlar va keyingi vodiyni aniqroq tanlash uchun ishlatganda shahar oʻz oʻrnini ko‘rsatadi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "Town scale after distance"
+              "ru": "Городской масштаб после расстояния"
+              "uz": "Masofadan keyingi shahar miqyosi"
+            "description":
+              "en": "After the mountain road, Khorog's value is ordinary in the best sense: a walk, a meal, and an unhurried evening can make the next section safer and more meaningful."
+              "ru": "После горной дороги ценность Хорога в хорошем смысле простая: прогулка, ужин и неспешный вечер могут сделать следующий участок безопаснее и содержательнее."
+              "uz": "Togʻ yoʻlidan keyin Xorugʻning qadri yaxshi maʼnoda oddiy: sayr, ovqat va shoshilmas oqshom keyingi qismni xavfsizroq va mazmunliroq qilishi mumkin."
+          - "type": "quote"
+            "quote":
+              "en": "Khorog matters because the Pamir road becomes easier to understand when travelers return to town scale before choosing the next valley."
+              "ru": "Хорог важен потому, что памирскую дорогу легче понять, когда путешественники возвращаются к городскому масштабу перед выбором следующей долины."
+              "uz": "Sayohatchilar keyingi vodiyni tanlashdan oldin shahar miqyosiga qaytganda, Pomir yoʻlini tushunish osonlashadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Garden above the rivers"
+              "ru": "Сад над реками"
+              "uz": "Daryolar ustidagi bogʻ"
+            "description":
+              "en": "The Botanical Garden lifts the visit above town without turning it into a hard excursion. It brings plants, air, and a view back over the river setting."
+              "ru": "Ботанический сад поднимает визит над городом, но не превращает его в тяжёлый выезд. Он даёт растения, воздух и вид обратно на речную долину."
+              "uz": "Botanika bogʻi tashrifni shahar ustiga olib chiqadi, lekin uni ogʻir chiqishga aylantirmaydi. U oʻsimliklar, havo va daryo vodiysiga qaytgan manzarani beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Checks before high country"
+              "ru": "Проверки перед высокогорьем"
+              "uz": "Baland mamlakatdan oldingi tekshiruvlar"
+            "description":
+              "en": "Before leaving, confirm GBAO rules, border-area sensitivity, weather, road surface, fuel, and altitude pacing. The plan can change quickly when the next valley is high."
+              "ru": "Перед выездом уточните правила ГБАО, пограничные зоны, погоду, состояние дороги, топливо и темп высоты. План может быстро измениться, когда следующая долина уходит выше."
+              "uz": "Yoʻlga chiqishdan oldin GBAO qoidalari, chegara hududlari, ob-havo, yoʻl holati, yoqilgʻi va balandlik surʼatini aniqlang. Keyingi vodiy balandroqqa ketganda reja tez oʻzgarishi mumkin."
+          - "type": "alert"
+            "title":
+              "en": "Traveler takeaway"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Use Khorog to walk, rest, check the road, and choose one high-country direction with care."
+              "ru": "Используйте Хорог для прогулки, отдыха, проверки дороги и внимательного выбора одного высокогорного направления."
+              "uz": "Xorugʻda yuring, dam oling, yoʻlni tekshiring va bitta baland yoʻnalishni ehtiyotkorlik bilan tanlang."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "At a glance Stay"
+                  "ru": "Коротко Ночёвка"
+                  "uz": "Qisqacha Qolish"
+                "description":
+                  "en": "One night handles arrival and road checks; two can help when altitude, vehicle, or valley decisions need a slower pace."
+                  "ru": "Одна ночь закрывает прибытие и дорожные проверки; две помогают, если высота, машина или выбор долины требуют более спокойного темпа."
+                  "uz": "Bir kecha kelish va yoʻl tekshiruvlari uchun yetadi; balandlik, mashina yoki vodiy tanlovi sekinroq surʼat talab qilsa, ikki kecha yordam beradi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main stop"
+                  "ru": "Главное место"
+                  "uz": "Asosiy joy"
+                "description":
+                  "en": "The garden is the clearest confirmed Khorog stop and keeps the town from feeling only logistical."
+                  "ru": "Сад — самая ясная подтверждённая остановка Хорога и не даёт городу звучать только как логистический пункт."
+                  "uz": "Bogʻ Xorugʻdagi eng aniq tasdiqlangan toʻxtashdir va shaharni faqat logistika nuqtasi qilib ko‘rsatmaydi."
+              - "icon": "Sun"
+                "title":
+                  "en": "Route role"
+                  "ru": "Роль в маршруте"
+                  "uz": "Yoʻldagi roli"
+                "description":
+                  "en": "Khorog helps the route choose between the Wakhan, Bartang, Murghab, high lakes, or the road back west."
+                  "ru": "Хорог помогает выбрать между Ваханом, Бартангом, Мургабом, высокими озёрами или дорогой обратно на запад."
+                  "uz": "Xorugʻ Vaxon, Bartang, Murgʻob, baland koʻllar yoki gʻarbga qaytish yoʻli orasidan tanlashga yordam beradi."
+              - "icon": "Route"
+                "title":
+                  "en": "Permits and altitude"
+                  "ru": "Разрешения и высота"
+                  "uz": "Ruxsatnoma va balandlik"
+                "description":
+                  "en": "GBAO rules, border-area sensitivity, road reports, and altitude pacing must be current before the route moves on."
+                  "ru": "Правила ГБАО, пограничные зоны, дорожные отчёты и темп высоты должны быть актуальны до продолжения маршрута."
+                  "uz": "GBAO qoidalari, chegara hududlari, yoʻl xabarlari va balandlik surʼati yoʻnalish davomidan oldin dolzarb boʻlishi kerak."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Where to continue"
+      "ru": "Куда продолжить"
+      "uz": "Qayerga davom etish"
+    "title":
+      "en": "Where the route can turn next"
+      "ru": "Куда может повернуть маршрут"
+      "uz": "Yoʻnalish qayerga burilishi mumkin"
+    "description":
+      "en": "From Khorog, the route can return toward Dushanbe, reconnect with Zeravshan through Penjikent, or move deeper into Pamir & GBAO through Ishkashim, Wakhan, Murghab, Bartang, and Karakul when current conditions support it."
+      "ru": "Из Хорога маршрут может вернуться к Душанбе, выйти к Зеравшану через Пенджикент или уйти глубже в Памир и ГБАО через Ишкашим, Вахан, Мургаб, Бартанг и Каракуль, если текущие условия это позволяют."
+      "uz": "Xorugʻdan yoʻnalish Dushanbe tomonga qaytishi, Panjikent orqali Zarafshonga chiqishi yoki joriy sharoitlar imkon bersa, Ishkashim, Vaxon, Murgʻob, Bartang va Qorakoʻl orqali Pomir va GBAO ichkarisiga chuqurroq kirishi mumkin."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Dushanbe"
+          "ru": "Душанбе"
+          "uz": "Dushanbe"
+        "description":
+          "en": "Dushanbe is Tajikistan's calm arrival city: Rudaki Avenue shade, national museums, tea-house stops, and first choices toward Hissar, Varzob, or higher valleys."
+          "ru": "Душанбе — спокойное место прибытия в Таджикистан: тень проспекта Рудаки, национальные музеи, чайхана или рынок и первые решения к Гиссару, Варзобу или высоким долинам."
+          "uz": "Dushanbe Tojikistonga sokin kirish shahri: Rudakiy xiyoboni soyasi, milliy muzeylar, choyxona toʻxtashlari va Hisor, Varzob yoki baland vodiylar tomon ilk tanlovlar."
+        "ctaHref": "/destinations/tajikistan/dushanbe-and-hissar-valley/dushanbe"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Penjikent"
+          "ru": "Пенджикент"
+          "uz": "Panjikent"
+        "description":
+          "en": "Penjikent anchors the western Fann Mountains route with Ancient Penjikent, UNESCO Sarazm, the Rudaki Museum, market life, and the first road choices toward Seven Lakes or Iskanderkul."
+          "ru": "Пенджикент открывает западную часть маршрута по Фанским горам: древний Пенджикент над городом, Саразм ЮНЕСКО, музей Рудаки, рынок и выбор дороги к Семи озёрам или Искандеркулю."
+          "uz": "Panjikent Fan togʻlari yo‘lining gʻarbiy qismini ochadi: shahar ustidagi qadimiy Panjikent, UNESCO Sarazm, Rudakiy muzeyi, bozor va Yetti ko‘l yoki Iskandarko‘l tomonga yo‘l tanlovi."
+        "ctaHref": "/destinations/tajikistan/fann-mountains-and-zeravshan/penjikent"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Ishkashim"
+          "ru": "Ишкашим"
+          "uz": "Ishkashim"
+        "description":
+          "en": "Ishkashim is the Pamir route's turn toward Wakhan: Panj River views, border etiquette, village roads, permits, weather, and local access advice before the next valley."
+          "ru": "Ишкашим — аккуратный поворот к Вахану на памирском маршруте: Пяндж, жизнь у границы, деревенская дорога, разрешения, погода и местные советы перед следующей долиной."
+          "uz": "Ishkashim Pomir yoʻnalishidagi Vaxon burilishi: Panj manzarasi, chegara yonidagi odob, qishloq yoʻli, ruxsatnoma, ob-havo va keyingi vodiy oldidan mahalliy maslahat."
+        "ctaHref": "/destinations/tajikistan/pamir-and-gbao/ishkashim"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/tajikistan.jpg"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Murghab"
+          "ru": "Мургаб"
+          "uz": "Murgʻob"
+        "description":
+          "en": "Murghab steadies the eastern Pamir route: thin air, simple town errands, fuel and permit checks, and one clear choice toward Karakul, Ak-Baital, Rangkul, Alichur, or Khorog."
+          "ru": "Мургаб упорядочивает дорогу по восточному Памиру: тонкий воздух, простые посёлковые дела, проверку топлива и разрешений и один ясный выбор к Каракулю, Ак-Байталу, Рангкулю, Аличуру или Хорогу."
+          "uz": "Murgʻob Sharqiy Pomir yoʻlini tartibga soladi: yupqa havo, oddiy shaharcha ishlari, yoqilgʻi va ruxsatnoma tekshiruvi hamda Qorakoʻl, Oq-Baytal, Rangkoʻl, Alichur yoki Xorugʻ sari bitta aniq tanlov."
+        "ctaHref": "/destinations/tajikistan/pamir-and-gbao/murghab"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Khorog in the day plan"
+      "ru": "Как поставить Хорог в план дня"
+      "uz": "Xorugʻni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Khorog?"
+          "ru": "Сколько времени группам стоит проводить в Хорог?"
+          "uz": "Xorugʻda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “River town before the high Pamir roads”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Город у рек перед высокими дорогами Памира»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Baland Pomir yoʻllaridan oldingi daryo shahri»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Khorog be a walkable core or a base for day trips?"
+          "ru": "Хорог — это пешеходное ядро или база для выездов?"
+          "uz": "Xorugʻ piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Khorog's centre?"
+          "ru": "Где лучше ночевать относительно центра Хорог?"
+          "uz": "Xorugʻ markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/tajikistan.jpg"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Khorog stop into your Tajikistan programme"
+      "ru": "Встройте остановку «Хорог» в программу (Таджикистан)"
+      "uz": "Xorugʻ bekatini Tojikiston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Khorog | TourLink"
+    "ru": "Хорог | TourLink"
+    "uz": "Xorugʻ | TourLink"
+  "metaDescription":
+    "en": "Khorog sits where the Panj and Gunt river valleys make the Pamir road feel like a town again. After the long approach, travelers can walk near the water, breathe river air, and check permits, weather, road reports, and the next valley before the route climbs higher."
+    "ru": "Хорог стоит там, где долины Пянджа и Гунта снова превращают памирскую дорогу в город. После долгого подъезда здесь можно пройтись у воды, почувствовать речной воздух и проверить разрешения, погоду, состояние дороги и следующую долину перед новым набором высоты."
+    "uz": "Xorugʻ Panj va Gunt vodiylari Pomir yoʻlini yana shaharga aylantiradigan joyda turadi. Uzoq yoʻldan keyin bu yerda suv bo‘yida yurish, daryo havosini his qilish va yoʻl balandroqqa ko‘tarilishidan oldin ruxsatnoma, ob-havo, yoʻl holati hamda keyingi vodiyni tekshirish mumkin."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "tajikistan"
+"region": "pamir-and-gbao"
+"latitude": 37.4909171
+"longitude": 71.548922

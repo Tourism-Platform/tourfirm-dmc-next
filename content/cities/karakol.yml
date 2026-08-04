@@ -1,0 +1,551 @@
+# Generated from scrape/kyrgyzstan (multi-locale)
+"slug":
+  "en": "karakol"
+  "ru": "karakol"
+  "uz": "karakol"
+"title":
+  "en": "Karakol"
+  "ru": "Каракол"
+  "uz": "Qorakoʻl"
+"subtitle":
+  "en": "A timber-landmark town before the high valleys"
+  "ru": "Город деревянных ориентиров перед высокими долинами"
+  "uz": "Baland vodiylar oldidagi yogʻoch moʻljalli shahar"
+"excerpt":
+  "en": "Karakol gives eastern Issyk-Kul its town rhythm before the route climbs higher. Dungan kitchens, a painted wooden mosque, a timber cathedral, guesthouses, and museum context help travelers choose whether the next day belongs to Jeti-Oguz, Altyn-Arashan, Ala-Kol, hot springs, or a quieter lake-road continuation."
+  "ru": "Каракол задаёт восточному Иссык-Кулю городской ритм до подъёма выше. Дунганская кухня, расписная деревянная мечеть, деревянный собор, гостевые дома и музейный контекст помогают понять, стоит ли следующий день посвятить Джети-Огузу, Алтын-Арашану, Ала-Кулю, горячим источникам или более спокойному продолжению по озёрной дороге."
+  "uz": "Qorakoʻl sharqiy Issiqkoʻlga togʻga chiqishdan oldin shahar ritmini beradi. Dungan oshxonasi, boʻyalgan yogʻoch masjid, yogʻoch sobor, mehmon uylari va muzey konteksti keyingi kun Jeti-Oʻgʻuz, Oltin-Arashan, Ala-Koʻl, issiq buloqlar yoki sokinroq koʻl yoʻli davomiga tegishli boʻlishini aniqlashga yordam beradi."
+"heroImage": "assets/images/destinations/kyrgyzstan/regions/issyk-kul-and-karakol/cities/karakol.webp"
+"blocks":
+  - "blockType": "hero"
+    "image": "assets/images/destinations/kyrgyzstan/regions/issyk-kul-and-karakol/cities/karakol.webp"
+    "imageAlt":
+      "en": "Karakol"
+      "ru": "Каракол"
+      "uz": "Qorakoʻl"
+    "title":
+      "en": "Karakol"
+      "ru": "Каракол"
+      "uz": "Qorakoʻl"
+    "description":
+      "en": "A timber-landmark town before the high valleys"
+      "ru": "Город деревянных ориентиров перед высокими долинами"
+      "uz": "Baland vodiylar oldidagi yogʻoch moʻljalli shahar"
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Request a tour"
+          "ru": "Запросить тур"
+          "uz": "Turni so‘rash"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О городе"
+      "uz": "Shahar haqida"
+    "title":
+      "en": "Karakol"
+      "ru": "Каракол"
+      "uz": "Qorakoʻl"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Karakol gives eastern Issyk-Kul its town rhythm before the route climbs higher."
+              "ru": "Каракол задаёт восточному Иссык-Кулю городской ритм до подъёма выше."
+              "uz": "Qorakoʻl sharqiy Issiqkoʻlga togʻga chiqishdan oldin shahar ritmini beradi."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Karakol is more than the place where mountain days begin. Food, side streets, the mosque, the cathedral, and museum context give the eastern route its human scale."
+              "ru": "Каракол — больше, чем место начала горного дня. Еда, боковые улицы, мечеть, собор и музейный контекст дают восточному маршруту человеческий масштаб."
+              "uz": "Qorakoʻl faqat togʻ kuni boshlanadigan joy emas. Taom, yon koʻchalar, masjid, sobor va muzey konteksti sharqiy yoʻnalishga insoniy oʻlcham beradi."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "The town reads better when food, streets, mosque, and cathedral have their own pace before a valley road, hot spring trip, or trek changes the effort."
+              "ru": "Город читается яснее, когда еда, улицы, мечеть и собор сохраняют свой темп до того, как долина, источники или трек меняют нагрузку."
+              "uz": "Taom, koʻchalar, masjid va sobor oʻz tempida qolsa, keyin vodiy yoʻli, buloq safari yoki trek kuchni oʻzgartirsa ham, shahar aniqroq seziladi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travellers who need Karakol as a readable stop — strong places, honest pacing, and logistics that hold."
+              "ru": "Агентствам и путешественникам, которым нужен Каракол как читаемая остановка — сильные места, честный темп и логистика, которая держит."
+              "uz": "Agentliklar va sayohatchilar uchun Qorakoʻl o‘qiladigan bekat — kuchli joylar, halol sur’at va ushlab turadigan logistika."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Getting around"
+      "ru": "Как перемещаться"
+      "uz": "Qanday harakatlanish"
+    "title":
+      "en": "Town first, trailhead second"
+      "ru": "Сначала город, затем тропа"
+      "uz": "Avval shahar, keyin soʻqmoq"
+    "description":
+      "en": "Karakol is more than the place where mountain days begin. Food, side streets, the mosque, the cathedral, and museum context give the eastern route its human scale."
+      "ru": "Каракол — больше, чем место начала горного дня. Еда, боковые улицы, мечеть, собор и музейный контекст дают восточному маршруту человеческий масштаб."
+      "uz": "Qorakoʻl faqat togʻ kuni boshlanadigan joy emas. Taom, yon koʻchalar, masjid, sobor va muzey konteksti sharqiy yoʻnalishga insoniy oʻlcham beradi."
+    "mapPanel":
+      "eyebrow":
+        "en": "Orientation"
+        "ru": "Ориентация"
+        "uz": "Moʻljal"
+      "title":
+        "en": "Between the lake road and the valleys"
+        "ru": "Между озёрной дорогой и долинами"
+        "uz": "Koʻl yoʻli va vodiylar orasida"
+      "description":
+        "en": "Begin with the town, then choose Jeti-Oguz, Altyn-Arashan, Ala-Kol, or another mountain continuation only when season, road, and effort fit."
+        "ru": "Начните с города, а затем выбирайте Джети-Огуз, Алтын-Арашан, Ала-Куль или другое горное продолжение только тогда, когда подходят сезон, дорога и нагрузка."
+        "uz": "Avval shahardan boshlang, keyin mavsum, yoʻl va kuch mos boʻlsa Jeti-Oʻgʻuz, Oltin-Arashan, Ala-Koʻl yoki boshqa togʻ davomiga oʻting."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 42.512794
+      "longitude": 78.375871
+    "zoom": 14
+    "stops":
+      - "entityType": "attraction"
+        "entitySlug": "dungan-mosque-karakol"
+      - "entityType": "attraction"
+        "entitySlug": "holy-trinity-cathedral-karakol"
+      - "entityType": "attraction"
+        "entitySlug": "przhevalsky-museum-memorial"
+    "aside":
+      "eyebrow":
+        "en": "Planning"
+        "ru": "Планирование"
+        "uz": "Rejalash"
+      "title":
+        "en": "Keep the town walk separate from the mountain road"
+        "ru": "Разведите городскую прогулку и горную дорогу"
+        "uz": "Shahar sayrini togʻ yoʻlidan ajrating"
+      "description":
+        "en": "The town reads better when food, streets, mosque, and cathedral have their own pace before a valley road, hot spring trip, or trek changes the effort."
+        "ru": "Город читается яснее, когда еда, улицы, мечеть и собор сохраняют свой темп до того, как долина, источники или трек меняют нагрузку."
+        "uz": "Taom, koʻchalar, masjid va sobor oʻz tempida qolsa, keyin vodiy yoʻli, buloq safari yoki trek kuchni oʻzgartirsa ham, shahar aniqroq seziladi."
+      "items":
+        - "title":
+            "en": "Put the timber landmarks first"
+            "ru": "Сначала деревянные памятники"
+            "uz": "Avval yogʻoch inshootlar"
+          "description":
+            "en": "The mosque and cathedral show Karakol's multi-community story without turning the visit into a long museum day."
+            "ru": "Мечеть и собор показывают многосоставную историю Каракола без длинной музейной программы."
+            "uz": "Masjid va sobor Qorakoʻlning turli jamoalar tarixini uzun muzey kuniga aylantirmasdan koʻrsatadi."
+        - "title":
+            "en": "Let dinner explain the town"
+            "ru": "Пусть ужин объяснит город"
+            "uz": "Kechki ovqat shaharni tushuntirsin"
+          "description":
+            "en": "Dungan and local food bring the town back to daily life before the road climbs higher."
+            "ru": "Дунганская и местная еда возвращают город к повседневной жизни до подъёма дороги выше."
+            "uz": "Dungan va mahalliy taomlar yoʻl balandroqqa chiqishidan oldin shaharni kundalik hayotga qaytaradi."
+        - "title":
+            "en": "Choose one mountain continuation with care"
+            "ru": "Выберите одно горное продолжение внимательно"
+            "uz": "Bitta togʻ davomini ehtiyot tanlang"
+          "description":
+            "en": "Valleys, hot springs, ski days, and treks each need their own road, season, and effort check."
+            "ru": "Долины, горячие источники, лыжные дни и треки требуют отдельной проверки дороги, сезона и нагрузки."
+            "uz": "Vodiylar, issiq buloqlar, changʻi kunlari va trekkingning har biri alohida yoʻl, mavsum va kuch tekshiruvini soʻraydi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "What to see"
+      "ru": "Что посмотреть"
+      "uz": "Nimalarni koʻrish"
+    "title":
+      "en": "Three landmarks that make Karakol a town"
+      "ru": "Три ориентира, которые делают Каракол городом"
+      "uz": "Qorakoʻlni shahar qiladigan uch moʻljal"
+    "description":
+      "en": "The Dungan Mosque and Holy Trinity Cathedral show Karakol's timber religious life; the Przhevalsky Museum adds historical context when current access fits the day."
+      "ru": "Дунганская мечеть и Свято-Троицкий собор показывают деревянную религиозную сторону Каракола; музей Пржевальского добавляет исторический контекст, когда текущий доступ подходит для дня."
+      "uz": "Dungan masjidi va Muqaddas Uchlik sobori Qorakoʻlning yogʻoch diniy tomonini koʻrsatadi; Prjevalskiy muzeyi esa joriy kirish sharoiti kunga mos boʻlsa tarixiy kontekst qoʻshadi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Dungan Mosque"
+          "ru": "Дунганская мечеть"
+          "uz": "Dungan masjidi"
+        "description":
+          "en": "Dungan Mosque is one of Karakol's clearest city landmarks: painted wooden detail, a modest courtyard, and a religious setting near the town center. It belongs beside Holy Trinity Cathedral and a slower Karakol walk, showing how communities, worship, food, and mountain roads meet "
+          "ru": "Дунганская мечеть — один из самых ясных городских ориентиров Каракола: расписные деревянные детали, скромный двор и религиозная среда рядом с центром. Рядом со Свято-Троицким собором и неспешной прогулкой она показывает, как в городе сходятся общины, молитва, еда и дороги к горам"
+          "uz": "Dungan masjidi Qorakoʻlning eng aniq shahar belgilaridan biri: boʻyalgan yogʻoch bezaklar, kamtar hovli va markazga yaqin diniy muhit. Muqaddas Uchlik sobori va sekinroq shahar sayri yonida u Qorakoʻlda jamoalar, ibodat, ovqat va togʻ yoʻllari qanday yonma-yon turishini koʻrsatad"
+        "ctaHref": "/destinations/kyrgyzstan/issyk-kul-and-karakol/karakol/dungan-mosque-karakol"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Holy Trinity Cathedral"
+          "ru": "Свято-Троицкий собор"
+          "uz": "Muqaddas Uchlik sobori"
+        "description":
+          "en": "Holy Trinity Cathedral is Karakol's wooden Orthodox landmark: painted timber, garden shade, and a living church setting near the town center. It pairs naturally with the Dungan Mosque because the two places show different communities leaving visible marks in the same mountain tow"
+          "ru": "Свято-Троицкий собор — деревянный православный ориентир Каракола: расписные детали, садовая тень и действующая церковная среда рядом с центром. Вместе с Дунганской мечетью он показывает, как разные общины оставили видимые следы в одном горном городе."
+          "uz": "Muqaddas Uchlik sobori Qorakoʻlning yogʻoch pravoslav belgisi: boʻyalgan detallar, bogʻ soyasi va markazga yaqin ibodat muhiti. Dungan masjidi bilan birga u turli jamoalar bir togʻ shahrida qanday koʻrinadigan iz qoldirganini ochadi."
+        "ctaHref": "/destinations/kyrgyzstan/issyk-kul-and-karakol/karakol/holy-trinity-cathedral-karakol"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "Must see"
+          "ru": "Главное"
+          "uz": "Asosiy"
+        "title":
+          "en": "Przhevalsky Museum and Memorial"
+          "ru": "Музей и мемориал Пржевальского"
+          "uz": "Prjevalskiy muzeyi va memoriali"
+        "description":
+          "en": "Przhevalsky Museum and Memorial gives Karakol a quieter historical edge outside the town center. After the Dungan Mosque, Holy Trinity Cathedral, and local food, the museum and memorial widen the story toward exploration, memory, and the eastern side of Issyk-Kul."
+          "ru": "Музей и мемориал Пржевальского даёт Караколу более тихий исторический ракурс за пределами центра. После Дунганской мечети, Свято-Троицкого собора и городской еды здесь появляется более широкий рассказ — об исследованиях, памяти и восточной стороне Иссык-Куля."
+          "uz": "Prjevalskiy muzeyi va memoriali Qorakoʻlga markazdan tashqaridagi sokinroq tarixiy rakurs beradi. Dungan masjidi, Muqaddas Uchlik sobori va shahar taomidan keyin bu yerda tadqiqotlar, xotira va Issiqkoʻlning sharqiy tomoni haqidagi kengroq hikoya ochiladi."
+        "ctaHref": "/destinations/kyrgyzstan/issyk-kul-and-karakol/karakol/przhevalsky-museum-memorial"
+        "ctaLabel":
+          "en": "Open place"
+          "ru": "Открыть место"
+          "uz": "Joyni ochish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City rhythm"
+      "ru": "Ритм города"
+      "uz": "Shahar ritmi"
+    "title":
+      "en": "Details, quiet walks, and one mountain choice"
+      "ru": "Детали, спокойные прогулки и один выбор в горы"
+      "uz": "Detallar, sokin yurishlar va bitta togʻ tanlovi"
+    "description":
+      "en": "These small choices sharpen the city day: look closer at the mosque and cathedral, then decide whether one mountain continuation belongs after the town."
+      "ru": "Эти небольшие форматы уточняют городской день: присмотритесь к мечети и собору, а затем решите, нужно ли после города одно горное продолжение."
+      "uz": "Bu kichik tanlovlar shahar kunini aniqroq qiladi: masjid va soborga yaqinroq qarang, keyin shahardan keyin bitta togʻ davomi kerakmi, shuni belgilang."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan/character/karakol/karakol-character-1.webp"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "One valley choice from Karakol"
+          "ru": "Один выбор долины из Каракола"
+          "uz": "Qorakoʻldan bitta vodiy tanlovi"
+        "description":
+          "en": "Hot springs, red-rock gorges, lake views, and high trails each ask for different timing, road conditions, and effort."
+          "ru": "Горячие источники, красные ущелья, виды на озеро и высокие тропы требуют разного времени, дороги и нагрузки."
+          "uz": "Issiq buloqlar, qizil daralar, koʻl manzaralari va baland soʻqmoqlar har xil vaqt, yoʻl sharoiti va kuch talab qiladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Wooden cathedral walk"
+          "ru": "Прогулка к деревянному собору"
+          "uz": "Yogʻoch sobor sari yurish"
+        "description":
+          "en": "Garden shade, painted timber, and an active church setting slow the city walk between the mosque and the mountain road."
+          "ru": "Садовая тень, расписное дерево и действующая церковная среда замедляют городскую прогулку между мечетью и горной дорогой."
+          "uz": "Bogʻ soyasi, boʻyalgan yogʻoch va faol cherkov muhiti masjid bilan togʻ yoʻli orasidagi shahar sayrini sekinlashtiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/kyrgyzstan.jpg"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Dungan Mosque timber detail"
+          "ru": "Деревянные детали Дунганской мечети"
+          "uz": "Dungan masjidining yogʻoch detallari"
+        "description":
+          "en": "Painted wood, a quiet courtyard, and Chinese-influenced rooflines give Karakol a different texture from the lake road."
+          "ru": "Расписное дерево, тихий двор и формы с китайским влиянием дают Караколу иной рисунок после дороги вдоль озера."
+          "uz": "Boʻyalgan yogʻoch, sokin hovli va xitoyona taʼsirdagi shakllar Qorakoʻlga koʻl yoʻlidan boshqa ohang beradi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Before you go"
+      "ru": "Перед поездкой"
+      "uz": "Borishdan oldin"
+    "title":
+      "en": "Before the mountains, give Karakol its own pace"
+      "ru": "До гор дайте Караколу свой темп"
+      "uz": "Togʻlardan oldin Qorakoʻlga oʻz tempi kerak"
+    "description":
+      "en": "Town time makes the eastern route warmer, clearer, and easier to pace."
+      "ru": "Время в городе делает восточный маршрут теплее, яснее и спокойнее по ритму."
+      "uz": "Shahardagi vaqt sharqiy yoʻnalishni iliqroq, aniqroq va xotirjamroq qiladi."
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "dashTitle"
+            "title":
+              "en": "The town carries the route"
+              "ru": "Город держит маршрут"
+              "uz": "Shahar yoʻnalishni ushlab turadi"
+            "description":
+              "en": "Food, timber architecture, guesthouse streets, and museum context are part of Karakol's travel value, not filler before the mountains."
+              "ru": "Еда, деревянная архитектура, улицы гостевых домов и музейный контекст — часть ценности Каракола, а не пауза перед горами."
+              "uz": "Taom, yogʻoch meʼmorchilik, mehmon uylari koʻchalari va muzey konteksti Qorakoʻlning qiymati; ular togʻlardan oldingi boʻsh pauza emas."
+          - "type": "quote"
+            "quote":
+              "en": "Karakol is where the mountain route becomes a place, not only a departure."
+              "ru": "Каракол — место, где горный маршрут становится живым, а не просто начинается."
+              "uz": "Qorakoʻlda togʻ yoʻnalishi faqat boshlanmaydi, haqiqiy joyga aylanadi."
+          - "type": "dashTitle"
+            "title":
+              "en": "Give the valleys their own choice"
+              "ru": "Долинам нужен отдельный выбор"
+              "uz": "Vodiylarga alohida tanlov kerak"
+            "description":
+              "en": "Jeti-Oguz, Altyn-Arashan, Ala-Kol, ski days, and treks ask for different seasons, roads, and traveler effort."
+              "ru": "Джети-Огуз, Алтын-Арашан, Ала-Куль, лыжные дни и треки зависят от разных сезонов, дорог и нагрузки."
+              "uz": "Jeti-Oʻgʻuz, Oltin-Arashan, Ala-Koʻl, changʻi kunlari va trekking turli mavsum, yoʻl va mehmon kuchiga bogʻliq."
+          - "type": "alert"
+            "title":
+              "en": "For the traveler"
+              "ru": "Для путешественника"
+              "uz": "Sayohatchi uchun"
+            "description":
+              "en": "Stay long enough for the town to register, then add one mountain continuation when timing and conditions are honest."
+              "ru": "Остановитесь так, чтобы город успел проявиться, а затем добавьте одно горное продолжение, если время и условия честно это позволяют."
+              "uz": "Shahar oʻzini koʻrsatishi uchun yetarli qoling, keyin vaqt va sharoit rost boʻlsa bitta togʻ davomini qoʻshing."
+        "right":
+          - "type": "miniTable"
+            "title":
+              "en": "Before you go"
+              "ru": "Перед поездкой"
+              "uz": "Borishdan oldin"
+            "icon": "Circle"
+            "rows":
+              - "icon": "MapPin"
+                "title":
+                  "en": "Planning notes Suggested stay"
+                  "ru": "Коротко Сколько времени"
+                  "uz": "Rejalash qaydlari Qancha vaqt"
+                "description":
+                  "en": "Two nights usually keep the town and one mountain choice from competing with each other."
+                  "ru": "Две ночи обычно помогают не сталкивать город и один горный выезд друг с другом."
+                  "uz": "Ikki kecha odatda shahar va bitta togʻ chiqishini bir-biri bilan siqishtirmaslikka yordam beradi."
+              - "icon": "Landmark"
+                "title":
+                  "en": "Main access"
+                  "ru": "Главный доступ"
+                  "uz": "Asosiy kirish"
+                "description":
+                  "en": "Road route around Issyk-Kul, usually from Bishkek or lake stops."
+                  "ru": "Дорога вокруг Иссык-Куля, обычно из Бишкека или озёрных остановок."
+                  "uz": "Odatda Bishkek yoki koʻl bekatlaridan Issiqkoʻl atrofidagi yoʻl."
+              - "icon": "Sun"
+                "title":
+                  "en": "Season"
+                  "ru": "Сезон"
+                  "uz": "Mavsum"
+                "description":
+                  "en": "City walks stay flexible; valleys, hot springs, ski days, and treks depend on weather and access."
+                  "ru": "Городские прогулки гибкие; долины, источники, лыжные дни и треки зависят от погоды и доступа."
+                  "uz": "Shahar sayrlari moslashuvchan; vodiylar, buloqlar, changʻi kunlari va treklarga ob-havo hamda kirish taʼsir qiladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Nearby"
+      "ru": "Рядом"
+      "uz": "Yaqin joylar"
+    "title":
+      "en": "Lake towns, south shore, or back to Bishkek"
+      "ru": "Города у озера, южный берег или возвращение к Бишкеку"
+      "uz": "Koʻl shaharlari, janubiy qirgʻoq yoki Bishkekka qaytish"
+    "description":
+      "en": "Cholpon-Ata and Bokonbayevo continue the Issyk-Kul circle; Bishkek resets the road, flight plan, or next Kyrgyzstan route."
+      "ru": "Чолпон-Ата и Боконбаево продолжают круг вокруг Иссык-Куля; Бишкек перезапускает дорогу, перелёт или следующий маршрут по Кыргызстану."
+      "uz": "Choʻlpon-Ota va Boʻkonboyevo Issiqkoʻl aylanasini davom ettiradi; Bishkek esa yoʻl, parvoz yoki Qirgʻiziston boʻylab keyingi yoʻnalishni qayta boshlaydi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/karakol-next-cholpon-ata.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Cholpon-Ata"
+          "ru": "Чолпон-Ата"
+          "uz": "Cholpon-Ata"
+        "description":
+          "en": "Cholpon-Ata gives the Issyk-Kul route a clear first pause by the water: resort streets, shore time, Ruh Ordo, petroglyphs above town, and a choice before the road continues toward Karakol or the south shore."
+          "ru": "Чолпон-Ата даёт маршруту по Иссык-Кулю понятную первую паузу у воды: курортные улицы, берег, Рух Ордо, петроглифы над городом и выбор перед дорогой к Караколу или южному берегу."
+          "uz": "Cholpon-Ata Issiqkoʻl yoʻnalishiga suv bo‘yidagi aniq ilk pauza beradi: kurort ko‘chalari, qirg‘oq vaqti, Ruh Ordo, shahar tepasidagi petrogliflar va Karakol yoki janubiy qirg‘oq tomon ketishdan oldingi tanlov."
+        "ctaHref": "/destinations/kyrgyzstan/issyk-kul-and-karakol/cholpon-ata"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/karakol-next-bokonbayevo.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Bokonbayevo"
+          "ru": "Боконбаево"
+          "uz": "Bokonbayevo"
+        "description":
+          "en": "Bokonbayevo gives the Issyk-Kul loop a quieter pause: a south-shore village road, simple overnight rhythm, hosted culture when it is arranged well, and a clear choice between Skazka, Karakol, or the road back west."
+          "ru": "Боконбаево даёт кольцу вокруг Иссык-Куля другую паузу: сельскую дорогу на южном берегу, простой ритм ночёвки, культурные встречи только при правильной организации и выбор между Сказкой, Караколом или дорогой обратно на запад."
+          "uz": "Bokonbayevo Issiqkoʻl aylanasiga boshqacha pauza beradi: janubiy qirgʻoqdagi qishloq yoʻli, sodda tunash ritmi, toʻgʻri tashkil qilinganda madaniy uchrashuvlar va Skazka, Qorakoʻl yoki gʻarbga qaytish yoʻli orasidagi tanlov."
+        "ctaHref": "/destinations/kyrgyzstan/issyk-kul-and-karakol/bokonbayevo"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/kyrgyzstan/next/karakol-next-bishkek.webp"
+        "badge":
+          "en": "City"
+          "ru": "Город"
+          "uz": "Shahar"
+        "title":
+          "en": "Bishkek"
+          "ru": "Бишкек"
+          "uz": "Bishkek"
+        "description":
+          "en": "Bishkek gives Kyrgyzstan a calm first frame: Ala-Too Square, Osh Bazaar, museum time, cafe streets, and quick roads to the Chuy foothills."
+          "ru": "Бишкек даёт Кыргызстану спокойный старт: площадь Ала-Тоо, Ошский базар, музейное время, кафе и быстрые дороги к Чуйским предгорьям."
+          "uz": "Bishkek Qirgʻizistonga xotirjam boshlanish beradi: Ala-Too maydoni, Oʻsh bozori, muzey vaqti, kafe koʻchalari hamda Chuy etaklariga tez yoʻllar."
+        "ctaHref": "/destinations/kyrgyzstan/bishkek-and-chuy-foothills/bishkek"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+
+
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "City in detail"
+      "ru": "Город в деталях"
+      "uz": "Shahar batafsil"
+    "title":
+      "en": "How to place Karakol in the day plan"
+      "ru": "Как поставить Каракол в план дня"
+      "uz": "Qorakoʻlni kun rejasiga qanday joylashtirish"
+    "description":
+      "en": "Walking time, overnight location, and when day trips make sense."
+      "ru": "Пешее время, место ночёвки и когда выезды имеют смысл."
+      "uz": "Piyoda vaqt, tunash joyi va chiqishlar qachon o‘rinli."
+    "gridClassName": "grid-cols-1"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "CircleQuestionMark"
+        "title":
+          "en": "How long should groups stay in Karakol?"
+          "ru": "Сколько времени группам стоит проводить в Каракол?"
+          "uz": "Qorakoʻlda guruhlar qancha vaqt o‘tkazishi kerak?"
+        "description":
+          "en": "1–2 nights is usually enough when the old core or main anchors get a full walking window. City tone: “A timber-landmark town before the high valleys”."
+          "ru": "Обычно хватает 1–2 ночи, если старому центру или главным якорям дать полноценное пешеходное окно. Тон города: «Город деревянных ориентиров перед высокими долинами»."
+          "uz": "Odatda 1–2 tun yetadi — eski markaz yoki asosiy tayanchlarga to‘liq piyoda oyna bersangiz. Shahar ohangi: «Baland vodiylar oldidagi yogʻoch moʻljalli shahar»."
+      - "type": "destinationInsight"
+        "icon": "Footprints"
+        "title":
+          "en": "Should Karakol be a walkable core or a base for day trips?"
+          "ru": "Каракол — это пешеходное ядро или база для выездов?"
+          "uz": "Qorakoʻl piyoda yadroimi yoki chiqishlar uchun baza?"
+        "description":
+          "en": "Start with the compact city walk first. Day trips only after the centre has settled — otherwise the stop feels like a transfer with monuments attached."
+          "ru": "Сначала компактная городская прогулка. Выезды — только после того, как центр «сел»; иначе остановка ощущается как трансфер с памятниками."
+          "uz": "Avval ixcham shahar sayri. Chiqishlar — markaz joylashgandan keyin; aks holda bekat yodgorlikli transferdek tuyuladi."
+      - "type": "destinationInsight"
+        "icon": "Clock"
+        "title":
+          "en": "Where should overnight be relative to Karakol's centre?"
+          "ru": "Где лучше ночевать относительно центра Каракол?"
+          "uz": "Qorakoʻl markaziga nisbatan qayerda tunash yaxshi?"
+        "description":
+          "en": "Stay close enough for an evening return on foot or a short transfer. That keeps tea, dinner, and a second pass through the lanes easy without burning the next morning."
+          "ru": "Живите достаточно близко, чтобы вечером вернуться пешком или коротким трансфером. Так чай, ужин и второй проход по улицам остаются лёгкими и не сжигают следующее утро."
+          "uz": "Kechqurun piyoda yoki qisqa transfer bilan qaytishga yaqin turing. Choy, kechki ovqat va ko‘chalardan ikkinchi o‘tish oson qoladi, erta tongni yoqib yubormaydi."
+  - "blockType": "cta"
+    "image": "assets/images/destinations/kyrgyzstan/regions/issyk-kul-and-karakol/cities/karakol.webp"
+    "eyebrow":
+      "en": "On request"
+      "ru": "Под запрос"
+      "uz": "So‘rov bo‘yicha"
+    "title":
+      "en": "Build a Karakol stop into your Kyrgyzstan programme"
+      "ru": "Встройте остановку «Каракол» в программу (Кыргызстан)"
+      "uz": "Qorakoʻl bekatini Qirgʻiziston dasturingizga qo‘shing"
+    "description":
+      "en": "We help agencies set a realistic pace and choose the right next move — without rushing the places that matter."
+      "ru": "Помогаем агентствам выстроить реалистичный темп и выбрать следующий шаг — без спешки там, где важны места."
+      "uz": "Agentliklarga real sur’at va keyingi qadamni tanlashda yordam beramiz — muhim joylarni shoshiltirmasdan."
+    "actions":
+      - "type": "form"
+        "variant": "default"
+        "title":
+          "en": "Discuss the route"
+          "ru": "Обсудить маршрут"
+          "uz": "Marshrutni muhokama qilish"
+      - "type": "link"
+        "variant": "secondary"
+        "title":
+          "en": "Open catalog"
+          "ru": "Открыть каталог"
+          "uz": "Katalogni ochish"
+        "href": "/catalog"
+
+"seo":
+  "metaTitle":
+    "en": "Karakol | TourLink"
+    "ru": "Каракол | TourLink"
+    "uz": "Qorakoʻl | TourLink"
+  "metaDescription":
+    "en": "Karakol gives eastern Issyk-Kul its town rhythm before the route climbs higher. Dungan kitchens, a painted wooden mosque, a timber cathedral, guesthouses, and museum context help travelers choose whether the next day belongs to Jeti-Oguz, Altyn-Arashan, Ala-Kol, hot springs, or a quieter lake-road continuation."
+    "ru": "Каракол задаёт восточному Иссык-Кулю городской ритм до подъёма выше. Дунганская кухня, расписная деревянная мечеть, деревянный собор, гостевые дома и музейный контекст помогают понять, стоит ли следующий день посвятить Джети-Огузу, Алтын-Арашану, Ала-Кулю, горячим источникам или более спокойному продолжению по озёрной дороге."
+    "uz": "Qorakoʻl sharqiy Issiqkoʻlga togʻga chiqishdan oldin shahar ritmini beradi. Dungan oshxonasi, boʻyalgan yogʻoch masjid, yogʻoch sobor, mehmon uylari va muzey konteksti keyingi kun Jeti-Oʻgʻuz, Oltin-Arashan, Ala-Koʻl, issiq buloqlar yoki sokinroq koʻl yoʻli davomiga tegishli boʻlishini aniqlashga yordam beradi."
+  "structuredDataType": "TouristDestination"
+"status":
+  "showInSitemap": true
+  "noindex": false
+  "hideFromNavigation": false
+  "publishedAt": "2026-08-01"
+"country": "kyrgyzstan"
+"region": "issyk-kul-and-karakol"
+"latitude": 42.4917441
+"longitude": 78.396857
