@@ -13,7 +13,8 @@ import type {
 	TUiCatalog,
 	TUiCommon,
 	TUiContent,
-	TUiDiscovery
+	TUiDiscovery,
+	TUiLogin
 } from "./ui-content.types";
 
 const UI_GLOBAL_SLUGS = [
@@ -21,7 +22,8 @@ const UI_GLOBAL_SLUGS = [
 	"footer",
 	"ui-common",
 	"ui-catalog",
-	"ui-discovery"
+	"ui-discovery",
+	"ui-login"
 ] as const;
 
 type TUiGlobalSlug = (typeof UI_GLOBAL_SLUGS)[number];
@@ -67,7 +69,11 @@ function mapUiContentBundle(
 		discovery: mapGlobalUiContent(
 			fallback["ui-discovery"],
 			current["ui-discovery"]
-		) as TUiDiscovery
+		) as TUiDiscovery,
+		login: mapGlobalUiContent(
+			fallback["ui-login"],
+			current["ui-login"]
+		) as TUiLogin
 	};
 }
 

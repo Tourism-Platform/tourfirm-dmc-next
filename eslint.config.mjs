@@ -160,7 +160,8 @@ export default defineConfig([
 							from: "entities",
 							allow: ["entities", "shared"]
 						},
-						{ from: "shared", allow: ["shared"] }
+						// type-only store hooks (CRM pattern): shared → app
+						{ from: "shared", allow: ["shared", "app"] }
 					]
 				}
 			],

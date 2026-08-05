@@ -31,6 +31,11 @@ export type TUiHeader = {
 			comingSoon: string;
 		};
 	};
+	userMenu: {
+		login: string;
+		logout: string;
+		defaultUserName: string;
+	};
 };
 
 export type TUiFooter = {
@@ -127,12 +132,29 @@ export type TUiDiscovery = {
 	tradeFairs: TUiPaginationLabels;
 };
 
+export type TUiLogin = {
+	meta: TUiMeta;
+	form: {
+		title: string;
+		description: string;
+		googleButton: string;
+		trustNote: string;
+	};
+	sidePanel: {
+		brandLabel: string;
+		title: string;
+		subtitle: string;
+		quote: string;
+	};
+};
+
 export type TUiContent = {
 	header: TUiHeader;
 	footer: TUiFooter;
 	common: TUiCommon;
 	catalog: TUiCatalog;
 	discovery: TUiDiscovery;
+	login: TUiLogin;
 };
 
 export type TLanguageSetting = {

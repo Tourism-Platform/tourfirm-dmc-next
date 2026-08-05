@@ -25,7 +25,8 @@ export type TNeonSeedStage =
 	| "newsHub"
 	| "refreshRouteMapCountries"
 	| "refreshRouteMapRegions"
-	| "refreshRouteMapCities";
+	| "refreshRouteMapCities"
+	| "refreshRouteMapAttractions";
 
 export type TNeonSeedItem = {
 	itemIndex: number;
@@ -65,7 +66,8 @@ const ALL_STAGES: TNeonSeedStage[] = [
 	"newsHub",
 	"refreshRouteMapCountries",
 	"refreshRouteMapRegions",
-	"refreshRouteMapCities"
+	"refreshRouteMapCities",
+	"refreshRouteMapAttractions"
 ];
 
 function createEmptyStageCounts(): Record<TNeonSeedStage, number> {
@@ -393,7 +395,8 @@ async function loadMilestone2Items(startIndex: number): Promise<{
 	const refreshStages = [
 		"refreshRouteMapCountries",
 		"refreshRouteMapRegions",
-		"refreshRouteMapCities"
+		"refreshRouteMapCities",
+		"refreshRouteMapAttractions"
 	] as const;
 
 	for (const [stageIndex, stage] of refreshStages.entries()) {
@@ -459,7 +462,7 @@ export function printDryRunReport(report: TDryRunReport): void {
 	console.log(`  milestone 2: themes=${report.stages.themes}, attractions=${report.stages.attractions}, experiences=${report.stages.experiences}, experiencePatches=${report.stages.experiencePatches}, routes=${report.stages.routes}, routePatches=${report.stages.routePatches}`);
 	console.log(`  map points: ${report.stages.mapPoints}`);
 	console.log(`  globals: routesHub=${report.stages.routesHub}, experiencesHub=${report.stages.experiencesHub}`);
-	console.log(`  refresh route map: countries=${report.stages.refreshRouteMapCountries}, regions=${report.stages.refreshRouteMapRegions}, cities=${report.stages.refreshRouteMapCities}`);
+	console.log(`  refresh route map: countries=${report.stages.refreshRouteMapCountries}, regions=${report.stages.refreshRouteMapRegions}, cities=${report.stages.refreshRouteMapCities}, attractions=${report.stages.refreshRouteMapAttractions}`);
 	console.log(`  unique media paths: ${report.mediaPaths.length}`);
 
 	if (report.mediaPaths.length > 0) {

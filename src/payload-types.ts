@@ -207,6 +207,7 @@ export interface Config {
 		"ui-common": UiCommon;
 		"ui-catalog": UiCatalog;
 		"ui-discovery": UiDiscovery;
+		"ui-login": UiLogin;
 	};
 	globalsSelect: {
 		homepage: HomepageSelect<false> | HomepageSelect<true>;
@@ -226,6 +227,7 @@ export interface Config {
 		"ui-common": UiCommonSelect<false> | UiCommonSelect<true>;
 		"ui-catalog": UiCatalogSelect<false> | UiCatalogSelect<true>;
 		"ui-discovery": UiDiscoverySelect<false> | UiDiscoverySelect<true>;
+		"ui-login": UiLoginSelect<false> | UiLoginSelect<true>;
 	};
 	locale:
 		| "en"
@@ -27395,6 +27397,23 @@ export interface Header {
 			  )
 			| null;
 	};
+	/**
+	 * Authenticated user dropdown links. Order = display order.
+	 */
+	userMenuItems?:
+		| {
+				title?: string | null;
+				/**
+				 * Internal path, e.g. /booking
+				 */
+				href: string;
+				/**
+				 * Lucide icon name, optional
+				 */
+				icon?: string | null;
+				id?: string | null;
+		  }[]
+		| null;
 	uiTexts?: {
 		public?: {
 			nav?: {
@@ -27435,6 +27454,11 @@ export interface Header {
 				mobileMenu?: string | null;
 				comingSoon?: string | null;
 			};
+		};
+		userMenu?: {
+			login?: string | null;
+			logout?: string | null;
+			defaultUserName?: string | null;
 		};
 	};
 	updatedAt?: string | null;
@@ -27796,6 +27820,31 @@ export interface UiDiscovery {
 	tradeFairs?: {
 		paginationPrev?: string | null;
 		paginationNext?: string | null;
+	};
+	updatedAt?: string | null;
+	createdAt?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ui-login".
+ */
+export interface UiLogin {
+	id: number;
+	meta?: {
+		title?: string | null;
+		description?: string | null;
+	};
+	form?: {
+		title?: string | null;
+		description?: string | null;
+		googleButton?: string | null;
+		trustNote?: string | null;
+	};
+	sidePanel?: {
+		brandLabel?: string | null;
+		title?: string | null;
+		subtitle?: string | null;
+		quote?: string | null;
 	};
 	updatedAt?: string | null;
 	createdAt?: string | null;
@@ -30659,6 +30708,14 @@ export interface HeaderSelect<T extends boolean = true> {
 				title?: T;
 				variant?: T;
 		  };
+	userMenuItems?:
+		| T
+		| {
+				title?: T;
+				href?: T;
+				icon?: T;
+				id?: T;
+		  };
 	uiTexts?:
 		| T
 		| {
@@ -30725,6 +30782,13 @@ export interface HeaderSelect<T extends boolean = true> {
 										mobileMenu?: T;
 										comingSoon?: T;
 								  };
+					  };
+				userMenu?:
+					| T
+					| {
+							login?: T;
+							logout?: T;
+							defaultUserName?: T;
 					  };
 		  };
 	updatedAt?: T;
@@ -31162,6 +31226,37 @@ export interface UiDiscoverySelect<T extends boolean = true> {
 		| {
 				paginationPrev?: T;
 				paginationNext?: T;
+		  };
+	updatedAt?: T;
+	createdAt?: T;
+	globalType?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ui-login_select".
+ */
+export interface UiLoginSelect<T extends boolean = true> {
+	meta?:
+		| T
+		| {
+				title?: T;
+				description?: T;
+		  };
+	form?:
+		| T
+		| {
+				title?: T;
+				description?: T;
+				googleButton?: T;
+				trustNote?: T;
+		  };
+	sidePanel?:
+		| T
+		| {
+				brandLabel?: T;
+				title?: T;
+				subtitle?: T;
+				quote?: T;
 		  };
 	updatedAt?: T;
 	createdAt?: T;

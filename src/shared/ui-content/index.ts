@@ -14,5 +14,6 @@ export type {
 	TUiDiscovery,
 	TUiFooter,
 	TUiHeader,
+	TUiLogin,
 	TUiPaginationLabels
 } from "./ui-content.types";

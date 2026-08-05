@@ -1,13 +1,23 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { randomBytes } from "node:crypto";
 
 import "./load-env.js";
 
 import { getPayload, type CollectionSlug, type Payload } from "payload";
 import { parse as parseYaml } from "yaml";
+import pg from "pg";
 
-import type { City, Country, Footer, Header, Media, Region } from "@/payload-types";
+import type {
+	Attraction,
+	City,
+	Country,
+	Footer,
+	Header,
+	Media,
+	Region
+} from "@/payload-types";
 
 import {
 	mergeFooterColumnsById,
@@ -56,13 +66,84 @@ import { SUPPORTED_LOCALES } from "../config/supported-locales.js";
 
 const SEED_STAGE_COUNT = 20;
 
-type TRouteMapCollection = "countries" | "regions" | "cities";
+type TRouteMapCollection =
+	| "countries"
+	| "regions"
+	| "cities"
+	| "attractions";
 
 const ROUTE_MAP_CONTENT_DIRS: Record<TRouteMapCollection, string> = {
 	countries: "countries",
 	regions: "regions",
-	cities: "cities"
+	cities: "cities",
+	attractions: "attractions"
 };
+
+const ROUTE_MAP_SQL_TABLES: Record<
+	TRouteMapCollection,
+	{
+		locales: string;
+		routeMap: string;
+		stops: string;
+		rels: string;
+	}
+> = {
+	countries: {
+		locales: "countries_locales",
+		routeMap: "countries_blocks_route_map",
+		stops: "countries_blocks_route_map_stops",
+		rels: "countries_rels"
+	},
+	regions: {
+		locales: "regions_locales",
+		routeMap: "regions_blocks_route_map",
+		stops: "regions_blocks_route_map_stops",
+		rels: "regions_rels"
+	},
+	cities: {
+		locales: "cities_locales",
+		routeMap: "cities_blocks_route_map",
+		stops: "cities_blocks_route_map_stops",
+		rels: "cities_rels"
+	},
+	attractions: {
+		locales: "attractions_locales",
+		routeMap: "attractions_blocks_route_map",
+		stops: "attractions_blocks_route_map_stops",
+		rels: "attractions_rels"
+	}
+};
+
+const ENTITY_REL_COLUMN: Record<
+	"country" | "region" | "city" | "attraction",
+	string
+> = {
+	country: "countries_id",
+	region: "regions_id",
+	city: "cities_id",
+	attraction: "attractions_id"
+};
+
+async function mapPool<T>(
+	items: T[],
+	concurrency: number,
+	worker: (item: T) => Promise<void>
+): Promise<void> {
+	let nextIndex = 0;
+
+	const runners = Array.from(
+		{ length: Math.max(1, Math.min(concurrency, items.length || 1)) },
+		async () => {
+			while (nextIndex < items.length) {
+				const current = nextIndex;
+				nextIndex += 1;
+				await worker(items[current]);
+			}
+		}
+	);
+
+	await Promise.all(runners);
+}
 
 const LOCALES = SUPPORTED_LOCALES;
 type TLocale = (typeof LOCALES)[number];
@@ -1338,7 +1419,9 @@ export async function resolveAttractionSeedData(
 
 	const withBadges = resolveBadgeIds(result, badgeIds);
 
-	return resolveSeedDocument(payload, mediaCache, withBadges, locale);
+	return resolveSeedDocument(payload, mediaCache, withBadges, locale, {
+		deferRouteMapStops: true
+	});
 }
 
 export async function seedLocalizedDocOnce(
@@ -1653,10 +1736,10 @@ async function seedCountries(
 }
 
 export async function refreshRouteMapStops(
-	payload: Payload,
+	_payload: Payload,
 	collection: TRouteMapCollection,
-	badgeIds: Map<string, number>,
-	mediaCache: TMediaCache,
+	_badgeIds: Map<string, number>,
+	_mediaCache: TMediaCache,
 	options?: { countrySlug?: string; locales?: readonly TLocale[] }
 ): Promise<void> {
 	const contentDir = path.join(
@@ -1666,7 +1749,22 @@ export async function refreshRouteMapStops(
 	const files = (await fs.readdir(contentDir)).filter((file) =>
 		file.endsWith(".yml")
 	);
-	const localesToRefresh = options?.locales ?? LOCALES;
+	const tables = ROUTE_MAP_SQL_TABLES[collection];
+	const uri = process.env.DATABASE_URI?.trim();
+
+	if (!uri) {
+		throw new Error("DATABASE_URI is not set for routeMap refresh");
+	}
+
+	type TRefreshJob = {
+		slug: string;
+		resolvedStops: Array<{
+			entityType: TRouteMapEntityType;
+			relationValue: number;
+		}>;
+	};
+
+	const jobs: TRefreshJob[] = [];
 
 	for (const file of files) {
 		const item = await readYamlFile<Record<string, unknown>>(
@@ -1697,15 +1795,15 @@ export async function refreshRouteMapStops(
 			continue;
 		}
 
-		const hasRouteMapStops = blocks.some(
+		const routeMapBlock = blocks.find(
 			(block) =>
 				block &&
 				typeof block === "object" &&
 				(block as Record<string, unknown>).blockType === "routeMap" &&
 				Array.isArray((block as Record<string, unknown>).stops)
-		);
+		) as Record<string, unknown> | undefined;
 
-		if (!hasRouteMapStops) {
+		if (!routeMapBlock) {
 			continue;
 		}
 
@@ -1716,61 +1814,157 @@ export async function refreshRouteMapStops(
 				? String((item.slug as Record<string, unknown>).en)
 				: file.replace(/\.yml$/, "");
 
-		const existing = await payload.find({
-			collection,
-			where: {
-				slug: {
-					equals: slug
+		const resolved = (await resolveRouteMapStops(
+			routeMapBlock.stops as unknown[]
+		)) as Array<Record<string, unknown>>;
+
+		const resolvedStops = resolved
+			.map((stop) => {
+				const entityType = stop.entityType as
+					| TRouteMapEntityType
+					| undefined;
+				const relation = stop.relation as
+					| { value?: number }
+					| undefined;
+
+				if (!entityType || typeof relation?.value !== "number") {
+					return null;
 				}
-			},
-			locale: "en",
-			limit: 1,
-			depth: 0,
-			...SEED_OP_OPTS
-		});
 
-		const doc = existing.docs[0];
-
-		if (!doc) {
-			throw new Error(
-				`${collection} not found for routeMap refresh: ${slug}`
+				return {
+					entityType,
+					relationValue: relation.value
+				};
+			})
+			.filter(
+				(
+					stop
+				): stop is {
+					entityType: TRouteMapEntityType;
+					relationValue: number;
+				} => stop !== null
 			);
+
+		if (resolvedStops.length === 0) {
+			continue;
 		}
 
-		for (const locale of localesToRefresh) {
-			if (!rawHasLocaleContent(item, locale)) {
-				continue;
+		jobs.push({ slug, resolvedStops });
+	}
+
+	const pool = new pg.Pool({
+		connectionString: uri,
+		max: 4,
+		connectionTimeoutMillis: 30_000,
+		idleTimeoutMillis: 30_000,
+		keepAlive: true
+	});
+
+	try {
+		await mapPool(jobs, 2, async (job) => {
+			const client = await pool.connect();
+
+			try {
+				await client.query("BEGIN");
+
+				const docResult = await client.query<{ id: number }>(
+					`SELECT _parent_id AS id
+					 FROM ${tables.locales}
+					 WHERE slug = $1 AND _locale = 'en'
+					 LIMIT 1`,
+					[job.slug]
+				);
+				const docId = docResult.rows[0]?.id;
+
+				if (!docId) {
+					console.warn(
+						`  ! ${collection} not found for routeMap refresh: ${job.slug}`
+					);
+					await client.query("ROLLBACK");
+					return;
+				}
+
+				const blocksResult = await client.query<{
+					id: string;
+					_order: number;
+					_locale: string;
+				}>(
+					`SELECT id, _order, _locale
+					 FROM ${tables.routeMap}
+					 WHERE _parent_id = $1`,
+					[docId]
+				);
+
+				if (blocksResult.rows.length === 0) {
+					console.warn(
+						`  ! ${collection} has no routeMap block: ${job.slug}`
+					);
+					await client.query("ROLLBACK");
+					return;
+				}
+
+				await client.query(
+					`DELETE FROM ${tables.rels}
+					 WHERE parent_id = $1
+					   AND path LIKE '%.stops.%.relation'`,
+					[docId]
+				);
+
+				for (const block of blocksResult.rows) {
+					await client.query(
+						`DELETE FROM ${tables.stops} WHERE _parent_id = $1`,
+						[block.id]
+					);
+
+					const blockIndex = Number(block._order) - 1;
+
+					for (
+						let stopIndex = 0;
+						stopIndex < job.resolvedStops.length;
+						stopIndex += 1
+					) {
+						const stop = job.resolvedStops[stopIndex];
+						const stopId = randomBytes(12).toString("hex");
+						const relColumn = ENTITY_REL_COLUMN[stop.entityType];
+						const pathValue = `blocks.${blockIndex}.stops.${stopIndex}.relation`;
+
+						await client.query(
+							`INSERT INTO ${tables.stops}
+								(_order, _parent_id, _locale, id, entity_type)
+							 VALUES ($1, $2, $3, $4, $5)`,
+							[
+								stopIndex + 1,
+								block.id,
+								block._locale,
+								stopId,
+								stop.entityType
+							]
+						);
+
+						await client.query(
+							`INSERT INTO ${tables.rels}
+								(parent_id, path, locale, ${relColumn})
+							 VALUES ($1, $2, $3, $4)`,
+							[docId, pathValue, block._locale, stop.relationValue]
+						);
+					}
+				}
+
+				await client.query("COMMIT");
+				console.log(`  ~ ${collection} routeMap stops ${job.slug}`);
+			} catch (error) {
+				await client.query("ROLLBACK");
+				console.warn(
+					`  ! ${collection} routeMap refresh skipped ${job.slug}: ${
+						error instanceof Error ? error.message : String(error)
+					}`
+				);
+			} finally {
+				client.release();
 			}
-
-			const localeData = await resolveSeedDocument(
-				payload,
-				mediaCache,
-				resolveBadgeIds(
-					pickLocale(item, locale) as Record<string, unknown>,
-					badgeIds
-				),
-				locale
-			);
-
-			const blocksData = localeData.blocks as
-				| Country["blocks"]
-				| Region["blocks"]
-				| City["blocks"];
-
-			await profileRun("payload_update_locales", () =>
-				payload.update({
-					collection,
-					id: doc.id,
-					data: {
-						blocks: blocksData
-					},
-					locale,
-					...SEED_OP_OPTS
-				})
-			);
-		}
-
-		console.log(`  ~ ${collection} routeMap stops ${slug}`);
+		});
+	} finally {
+		await pool.end();
 	}
 }
 
@@ -1961,7 +2155,7 @@ async function resolvePageSeedData(
 	return resolveSeedDocument(payload, mediaCache, result, locale);
 }
 
-async function seedSegments(payload: Payload): Promise<Map<string, number>> {
+export async function seedSegments(payload: Payload): Promise<Map<string, number>> {
 	const filePath = path.join(CONTENT_DIR, "segments.yml");
 	const items = await readYamlFile<Record<string, unknown>[]>(filePath);
 
@@ -1985,7 +2179,7 @@ async function seedSegments(payload: Payload): Promise<Map<string, number>> {
 	return segmentIds;
 }
 
-async function seedPages(
+export async function seedPages(
 	payload: Payload,
 	mediaCache: TMediaCache
 ): Promise<{ count: number; pageIds: Map<string, number> }> {
@@ -2044,7 +2238,7 @@ type TNavigationSeedContext = {
 	destinationSlug: string;
 };
 
-async function buildNavigationContextFromDb(
+export async function buildNavigationContextFromDb(
 	payload: Payload
 ): Promise<TNavigationSeedContext> {
 	const [segmentsResult, pagesResult, destination] = await Promise.all([
@@ -2206,7 +2400,7 @@ async function resolveFooterColumns(
 	);
 }
 
-async function seedNavigation(
+export async function seedNavigation(
 	payload: Payload,
 	mediaCache: TMediaCache,
 	context: TNavigationSeedContext
@@ -2280,6 +2474,14 @@ async function seedNavigation(
 					| undefined,
 				localizedAreas
 			);
+			const mergedUserMenuItems = mergeNavItemsById(
+				headerWithIds?.userMenuItems as
+					| Record<string, unknown>[]
+					| undefined,
+				(pickLocale(localized.userMenuItems, locale) as
+					| Record<string, unknown>[]
+					| undefined) ?? []
+			);
 
 			await payload.updateGlobal({
 				slug: "header",
@@ -2287,6 +2489,8 @@ async function seedNavigation(
 					navItems: mergedNavItems as Header["navItems"],
 					informationAreas:
 						mergedAreas as Header["informationAreas"],
+					userMenuItems:
+						mergedUserMenuItems as Header["userMenuItems"],
 					ctaAction: localized.ctaAction as Header["ctaAction"]
 				},
 				locale,
@@ -2613,6 +2817,7 @@ async function runSeed(): Promise<void> {
 
 	log.start("Refreshing route map stops");
 	await profiler.run("route_refresh", async () => {
+		await refreshRouteMapStops(payload, "attractions", badgeIds, mediaCache);
 		await refreshRouteMapStops(payload, "cities", badgeIds, mediaCache);
 		await refreshRouteMapStops(payload, "regions", badgeIds, mediaCache);
 		await refreshRouteMapStops(payload, "countries", badgeIds, mediaCache);

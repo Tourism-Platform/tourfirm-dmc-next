@@ -14,6 +14,7 @@ import { getPayload } from "payload";
 import {
 	CONTENT_DIR,
 	readYamlFile,
+	refreshRouteMapStops,
 	resolveAttractionSeedData,
 	resolveSeedSlug,
 	seedLocalizedDocOnce,
@@ -103,6 +104,11 @@ async function main(): Promise<void> {
 
 		console.log(`  + attraction ${slug}`);
 	}
+
+	console.log("Refreshing attraction routeMap stops...");
+	await refreshRouteMapStops(payload, "attractions", badgeIds, mediaCache, {
+		locales: SUPPORTED_LOCALES
+	});
 
 	if (typeof payload.db?.destroy === "function") {
 		await payload.db.destroy();

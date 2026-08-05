@@ -3,6 +3,7 @@ import type { GlobalConfig } from "payload";
 import { authenticatedOrPublished } from "../access/authenticated-or-published";
 import { navigationItemFields } from "../fields/navigation-item";
 import { headerUiTextsFields } from "../fields/ui-content/header-ui-texts-fields";
+import { localizedText } from "../fields/ui-content/localized-text";
 
 export const Header: GlobalConfig = {
 	slug: "header",
@@ -91,6 +92,40 @@ export const Header: GlobalConfig = {
 						{ label: "Ghost", value: "ghost" },
 						{ label: "Link", value: "link" }
 					]
+				}
+			]
+		},
+		{
+			name: "userMenuItems",
+			type: "array",
+			labels: {
+				singular: "Menu item",
+				plural: "User menu items"
+			},
+			admin: {
+				description:
+					"Authenticated user dropdown links. Order = display order.",
+				components: {
+					RowLabel:
+						"@/cms/admin/user-menu-item-row-label#UserMenuItemRowLabel"
+				}
+			},
+			fields: [
+				localizedText("title"),
+				{
+					name: "href",
+					type: "text",
+					required: true,
+					admin: {
+						description: "Internal path, e.g. /booking"
+					}
+				},
+				{
+					name: "icon",
+					type: "text",
+					admin: {
+						description: "Lucide icon name, optional"
+					}
 				}
 			]
 		},

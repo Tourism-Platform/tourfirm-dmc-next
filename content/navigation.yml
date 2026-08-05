@@ -16,6 +16,13 @@ header:
         en: Trade fairs
         ru: Выставки
         uz: Ko'rgazmalar
+  userMenuItems:
+    - title:
+        en: Booking
+        ru: Бронирование
+        uz: Bron qilish
+      href: /booking
+      icon: calendar
   navItems:
     - type: custom
       label:

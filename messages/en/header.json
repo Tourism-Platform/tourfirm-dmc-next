@@ -164,5 +164,10 @@
 				"reports": "Reports"
 			}
 		}
+	},
+	"user_menu": {
+		"login": "Log in",
+		"logout": "Log out",
+		"default_user_name": "User"
 	}
 }

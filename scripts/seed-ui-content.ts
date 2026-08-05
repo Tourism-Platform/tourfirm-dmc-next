@@ -17,7 +17,8 @@ type TUiGlobalSlug =
 	| "footer"
 	| "ui-common"
 	| "ui-catalog"
-	| "ui-discovery";
+	| "ui-discovery"
+	| "ui-login";
 
 const ROOT_DIR = path.resolve(
 	path.dirname(fileURLToPath(import.meta.url)),
@@ -118,6 +119,7 @@ function buildHeaderUiTexts(header: Record<string, unknown>) {
 	const routes = nav.routes as Record<string, unknown> | undefined;
 	const experiences = nav.experiences as Record<string, unknown> | undefined;
 	const information = nav.information as Record<string, unknown> | undefined;
+	const userMenu = header.user_menu as Record<string, unknown> | undefined;
 
 	return {
 		public: {
@@ -129,8 +131,13 @@ function buildHeaderUiTexts(header: Record<string, unknown>) {
 				mobileMenu: nav.mobile_menu,
 				comingSoon: nav.coming_soon
 			}
-		}
+		},
+		userMenu: convertKeysDeep(userMenu ?? {})
 	};
+}
+
+function buildUiLogin(login: Record<string, unknown>) {
+	return convertKeysDeep(login);
 }
 
 function buildFooterUiTexts(footer: Record<string, unknown>) {
@@ -216,6 +223,9 @@ async function updateGlobalLocale(
 					: {}),
 				...(Array.isArray(existing?.informationAreas)
 					? { informationAreas: existing.informationAreas }
+					: {}),
+				...(Array.isArray(existing?.userMenuItems)
+					? { userMenuItems: existing.userMenuItems }
 					: {})
 			};
 		}
@@ -239,7 +249,7 @@ export async function seedUiContent(payload: Payload): Promise<void> {
 			continue;
 		}
 
-		const [header, footer, common, catalog, discovery, company] =
+		const [header, footer, common, catalog, discovery, company, login] =
 			await Promise.all([
 				loadMessageFile<Record<string, unknown>>(locale, "header.json"),
 				loadMessageFile<Record<string, unknown>>(locale, "footer.json"),
@@ -249,7 +259,8 @@ export async function seedUiContent(payload: Payload): Promise<void> {
 					locale,
 					"discovery_page.json"
 				),
-				loadMessageFile<Record<string, unknown>>(locale, "company_page.json")
+				loadMessageFile<Record<string, unknown>>(locale, "company_page.json"),
+				loadMessageFile<Record<string, unknown>>(locale, "login_page.json")
 			]);
 
 		const headerUiTexts = buildHeaderUiTexts(header);
@@ -289,6 +300,12 @@ export async function seedUiContent(payload: Payload): Promise<void> {
 				company,
 				String(destinationsLabel?.label ?? "Destinations")
 			)
+		);
+		await updateGlobalLocale(
+			payload,
+			"ui-login",
+			locale,
+			buildUiLogin(login)
 		);
 
 		console.log(`  + ui content locale ${locale}`);

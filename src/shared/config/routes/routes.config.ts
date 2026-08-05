@@ -2,7 +2,11 @@ export const ENUM_PATH = {
 	MAIN: {
 		ROOT: "/",
 		DESTINATIONS: "/destinations",
-		CATALOG: "/catalog"
+		CATALOG: "/catalog",
+		BOOKING: "/booking"
+	},
+	AUTH: {
+		LOGIN: "/login"
 	},
 	DISCOVERY: {
 		ROUTES: "/routes",

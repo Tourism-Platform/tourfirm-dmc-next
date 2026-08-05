@@ -17,6 +17,8 @@ import {
 	loadUiContent
 } from "@/shared/ui-content/server";
 
+import { AuthBootstrap } from "@/features/auth";
+
 import { FooterDefault, HeaderDefault } from "@/widgets/layouts/default";
 
 import Providers from "../__providers";
@@ -50,6 +52,12 @@ type TProps = {
 	children: ReactNode;
 	params: Promise<{ locale: string }>;
 };
+
+/**
+ * Always read localeAvailability / nav from CMS.
+ * Static build against an empty DB would otherwise bake permanent 404s.
+ */
+export const dynamic = "force-dynamic";
 
 export function generateStaticParams() {
 	return routing.locales.map((locale) => ({ locale }));
@@ -110,7 +118,9 @@ export default async function LocaleLayout({ children, params }: TProps) {
 								logoSrc={layoutNavigation.logoSrc}
 								dropdownLanguages={dropdownLanguages}
 								brandName={uiContent.footer.brand.name}
+								userMenuItems={layoutNavigation.userMenuItems}
 							/>
+							<AuthBootstrap />
 							<div className="flex flex-1 flex-col">
 								{children}
 							</div>

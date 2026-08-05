@@ -40,7 +40,9 @@ export function isRetryableNeonError(error: unknown): boolean {
 		text.includes("econnreset") ||
 		text.includes("connection terminated") ||
 		text.includes("server closed the connection") ||
-		text.includes("connection terminated unexpectedly")
+		text.includes("connection terminated unexpectedly") ||
+		text.includes("deadlock detected") ||
+		text.includes("40p01")
 	);
 }
 

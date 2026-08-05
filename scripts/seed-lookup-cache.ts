@@ -220,6 +220,54 @@ export class SeedLookupCache {
 		}
 	}
 
+	async ingestTradeFairs(payload: Payload): Promise<void> {
+		const result = await payload.find({
+			collection: "trade-fairs",
+			locale: "en",
+			limit: 500,
+			depth: 0,
+			overrideAccess: true
+		});
+
+		for (const doc of result.docs) {
+			if (typeof doc.slug === "string") {
+				this.tradeFairs.set(doc.slug, doc.id as number);
+			}
+		}
+	}
+
+	async ingestBlog(payload: Payload): Promise<void> {
+		const result = await payload.find({
+			collection: "blog",
+			locale: "en",
+			limit: 500,
+			depth: 0,
+			overrideAccess: true
+		});
+
+		for (const doc of result.docs) {
+			if (typeof doc.slug === "string") {
+				this.blog.set(doc.slug, doc.id as number);
+			}
+		}
+	}
+
+	async ingestNews(payload: Payload): Promise<void> {
+		const result = await payload.find({
+			collection: "news",
+			locale: "en",
+			limit: 500,
+			depth: 0,
+			overrideAccess: true
+		});
+
+		for (const doc of result.docs) {
+			if (typeof doc.slug === "string") {
+				this.news.set(doc.slug, doc.id as number);
+			}
+		}
+	}
+
 	getCountryId(slug: string): number {
 		const id = this.countries.get(slug);
 

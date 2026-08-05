@@ -32,6 +32,7 @@ import { FooterColumnRowLabel as FooterColumnRowLabel_ff40b815c4b7cb10ab19c8d0e4
 import { AdminIcon as AdminIcon_7ff1318b27e6185e1edc8dcc995406b1 } from "@/cms/admin/graphics/admin-icon";
 import { AdminLogo as AdminLogo_c5f15d74eaf168d2593005f2658bc623 } from "@/cms/admin/graphics/admin-logo";
 import { NavigationItemRowLabel as NavigationItemRowLabel_777b2d54df12f823b0c9dca68a0f9179 } from "@/cms/admin/navigation-item-row-label";
+import { UserMenuItemRowLabel as UserMenuItemRowLabel_26da86b258443fd889ee631d22a9449f } from "@/cms/admin/user-menu-item-row-label";
 
 /** @type import('payload').ImportMap */
 export const importMap = {
@@ -87,6 +88,8 @@ export const importMap = {
 		LegalPagesListView_d52035fd3ab5be21489cf1a807288a51,
 	"@/cms/admin/navigation-item-row-label#NavigationItemRowLabel":
 		NavigationItemRowLabel_777b2d54df12f823b0c9dca68a0f9179,
+	"@/cms/admin/user-menu-item-row-label#UserMenuItemRowLabel":
+		UserMenuItemRowLabel_26da86b258443fd889ee631d22a9449f,
 	"@/cms/admin/footer-column-row-label#FooterColumnRowLabel":
 		FooterColumnRowLabel_ff40b815c4b7cb10ab19c8d0e4001716,
 	"@/cms/admin/graphics/admin-icon#AdminIcon":

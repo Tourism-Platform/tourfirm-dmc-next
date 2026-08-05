@@ -87,6 +87,15 @@ export const headerUiTextsFields: Field[] = [
 						]
 					}
 				]
+			},
+			{
+				name: "userMenu",
+				type: "group",
+				fields: [
+					localizedText("login"),
+					localizedText("logout"),
+					localizedText("defaultUserName")
+				]
 			}
 		]
 	}

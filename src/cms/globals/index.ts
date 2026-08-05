@@ -16,6 +16,7 @@ import { TradeFairsHub } from "./trade-fairs-hub";
 import { UiCatalog } from "./ui-catalog";
 import { UiCommon } from "./ui-common";
 import { UiDiscovery } from "./ui-discovery";
+import { UiLogin } from "./ui-login";
 
 const rawGlobals: GlobalConfig[] = [
 	Homepage,
@@ -30,7 +31,8 @@ const rawGlobals: GlobalConfig[] = [
 	Footer,
 	UiCommon,
 	UiCatalog,
-	UiDiscovery
+	UiDiscovery,
+	UiLogin
 ];
 
 export const globals = groupGlobals(rawGlobals, ADMIN_ALL_GLOBALS_NAVIGATION);

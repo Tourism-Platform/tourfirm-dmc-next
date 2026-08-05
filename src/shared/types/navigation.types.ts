@@ -50,3 +50,10 @@ export type TResolvedSocialLink = {
 	url: string;
 	showInFooter?: boolean;
 };
+
+export type TResolvedUserMenuItem = {
+	key: string;
+	title: string;
+	href: string;
+	icon?: string;
+};

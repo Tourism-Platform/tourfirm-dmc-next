@@ -8,7 +8,8 @@ import type { TInformationNavTree } from "@/shared/types/information-nav.types";
 import type {
 	TResolvedFooterColumn,
 	TResolvedNavLink,
-	TResolvedSocialLink
+	TResolvedSocialLink,
+	TResolvedUserMenuItem
 } from "@/shared/types/navigation.types";
 
 import { getDestination, getFooter, getHeader } from "../api";
@@ -34,6 +35,7 @@ export type TLayoutNavigation = {
 	socialLinks: TResolvedSocialLink[];
 	logoSrc?: string;
 	copyrightText?: string;
+	userMenuItems: TResolvedUserMenuItem[];
 };
 
 export async function loadLayoutNavigation(
@@ -132,6 +134,13 @@ export async function loadLayoutNavigation(
 			})) ?? [];
 
 	const logoSrc = resolveMediaUrl(headerGlobal?.logo) || undefined;
+	const userMenuItems =
+		headerGlobal?.userMenuItems?.map((item, index) => ({
+			key: item.id ?? String(index),
+			title: item.title?.trim() || "",
+			href: item.href?.trim() || "",
+			icon: item.icon?.trim() || undefined
+		})) ?? [];
 
 	return {
 		navItems,
@@ -144,6 +153,7 @@ export async function loadLayoutNavigation(
 		footerColumns,
 		socialLinks,
 		logoSrc,
-		copyrightText: footerGlobal?.copyrightText ?? undefined
+		copyrightText: footerGlobal?.copyrightText ?? undefined,
+		userMenuItems
 	};
 }

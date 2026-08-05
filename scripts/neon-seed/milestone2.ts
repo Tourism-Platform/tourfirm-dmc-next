@@ -288,7 +288,9 @@ async function seedRefreshRouteMapItem(
 			? "countries"
 			: item.stage === "refreshRouteMapRegions"
 				? "regions"
-				: "cities";
+				: item.stage === "refreshRouteMapAttractions"
+					? "attractions"
+					: "cities";
 
 	try {
 		await withRetry(
@@ -300,7 +302,7 @@ async function seedRefreshRouteMapItem(
 						ctx.badgeIds,
 						ctx.mediaCache
 					),
-					90_000,
+					2_700_000,
 					`refresh ${collection} routeMap`
 				),
 			`refreshRouteMap:${collection}`
@@ -315,8 +317,13 @@ async function seedRefreshRouteMapItem(
 
 		const message = error instanceof Error ? error.message.toLowerCase() : "";
 
-		if (message.includes("timed out")) {
-			console.log(`  refresh skip ${collection} routeMap (timeout on Neon)`);
+		if (
+			message.includes("the following fields are invalid") ||
+			(error instanceof Error && error.name === "ValidationError")
+		) {
+			console.log(
+				`  refresh skip ${collection} routeMap (${error instanceof Error ? error.message : String(error)})`
+			);
 			return;
 		}
 
@@ -399,6 +406,7 @@ export async function seedMilestone2Item(
 		case "refreshRouteMapCountries":
 		case "refreshRouteMapRegions":
 		case "refreshRouteMapCities":
+		case "refreshRouteMapAttractions":
 			await seedRefreshRouteMapItem(ctx, item);
 			return;
 		default:

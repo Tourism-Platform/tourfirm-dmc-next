@@ -164,5 +164,10 @@
 				"reports": "Reports"
 			}
 		}
+	},
+	"user_menu": {
+		"login": "Kirish",
+		"logout": "Chiqish",
+		"default_user_name": "Foydalanuvchi"
 	}
 }

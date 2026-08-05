@@ -9,8 +9,11 @@ import type { TDestinationsNavTree } from "@/shared/types/destinations-nav.types
 import type { TDiscoveryNavTree } from "@/shared/types/discovery-nav.types";
 import type { TInformationNavTree } from "@/shared/types/information-nav.types";
 import type { TResolvedNavLink } from "@/shared/types/navigation.types";
+import type { TResolvedUserMenuItem } from "@/shared/types/navigation.types";
 import { LanguageToggle, ThemeToggle } from "@/shared/ui";
 import type { TDropdownLanguage } from "@/shared/ui-content";
+
+import { UserMenu } from "@/features/layout";
 
 import { PublicMobileNavMenu } from "./ui/public-mobile-nav-menu";
 import { PublicNavMenu } from "./ui/public-nav-menu";
@@ -26,6 +29,7 @@ type TProps = {
 	logoSrc?: string;
 	dropdownLanguages?: TDropdownLanguage[];
 	brandName?: string;
+	userMenuItems: TResolvedUserMenuItem[];
 };
 
 export const HeaderDefault: FC<TProps> = ({
@@ -36,7 +40,8 @@ export const HeaderDefault: FC<TProps> = ({
 	informationNav = null,
 	logoSrc = DEFAULT_LOGO_SRC,
 	dropdownLanguages,
-	brandName = "TourLink"
+	brandName = "TourLink",
+	userMenuItems
 }) => {
 	const isRemoteLogo = logoSrc.startsWith("http");
 
@@ -81,6 +86,7 @@ export const HeaderDefault: FC<TProps> = ({
 				<div className="flex shrink-0 items-center gap-2">
 					<ThemeToggle />
 					<LanguageToggle languages={dropdownLanguages} />
+					<UserMenu items={userMenuItems} />
 				</div>
 			</div>
 		</header>

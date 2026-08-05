@@ -1,0 +1,18 @@
+{
+	"meta": {
+		"title": "Login",
+		"description": "Sign in to TourLink"
+	},
+	"form": {
+		"title": "Welcome back",
+		"description": "Sign in to manage bookings and continue your travel plans.",
+		"google_button": "Continue with Google",
+		"trust_note": "Secure sign-in powered by Google. We never store your password."
+	},
+	"side_panel": {
+		"brand_label": "TourLink",
+		"title": "Discover Central Asia",
+		"subtitle": "Curated routes, trusted operators, seamless booking.",
+		"quote": "Your journey starts with one click."
+	}
+}

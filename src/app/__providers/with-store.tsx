@@ -3,7 +3,7 @@
 import type { ReactNode } from "react";
 import { Provider } from "react-redux";
 
-import { store } from "@/shared/lib/store";
+import { store } from "./store";
 
 type TWithStoreProps = {
 	children: ReactNode;
