@@ -1,7 +1,9 @@
 /**
- * Seed Neon globals needed for public site after wipe:
- * ui-common, homepage, destination, segments, pages, header, footer.
- * Usage: npx tsx scripts/seed-neon-globals.ts
+ * Neon shell seed (no geo / discovery collections):
+ * 1) npm run db:ensure:neon-shell
+ * 2) npm run seed:neon:globals
+ *
+ * Seeds: ui-*, destination, homepage, segments, pages, navigation, tours.
  */
 import path from "node:path";
 
@@ -22,6 +24,7 @@ import {
 	setSeedRuntimeContext
 } from "./seed.js";
 import { SeedLookupCache } from "./seed-lookup-cache.js";
+import { seedToursPage } from "./seed/seeders/tours-page.js";
 import { seedUiContent } from "./seed-ui-content.js";
 import {
 	attachSeedPoolErrorHandler,
@@ -69,7 +72,7 @@ async function main(): Promise<void> {
 	process.env.PAYLOAD_SEED_MODE = "true";
 	process.env.PAYLOAD_DB_PUSH = "false";
 
-	console.log(`Seeding Neon globals → ${maskConnectionUri(uri)}`);
+	console.log(`Seeding Neon shell globals → ${maskConnectionUri(uri)}`);
 	await wakeDatabase(uri);
 
 	const { default: config } = await import("@payload-config");
@@ -79,20 +82,10 @@ async function main(): Promise<void> {
 	const lookup = new SeedLookupCache();
 	const mediaDbIndex = await preloadMediaDbIndex(payload);
 	setSeedRuntimeContext(lookup, mediaDbIndex);
-	await lookup.ingestCountries(payload);
-	await lookup.ingestRegions(payload);
-	await lookup.ingestCities(payload);
-	await lookup.ingestAttractions(payload);
-	await lookup.ingestThemes(payload);
-	await lookup.ingestRoutes(payload);
-	await lookup.ingestExperiences(payload);
-	await lookup.ingestTradeFairs(payload);
-	await lookup.ingestBlog(payload);
-	await lookup.ingestNews(payload);
 
 	const mediaCache = new Map();
 
-	console.log("Seeding UI content (localeAvailability)...");
+	console.log("Seeding UI content...");
 	await seedUiContent(payload);
 
 	const destinationRaw = await readYamlFile<Record<string, unknown>>(
@@ -114,7 +107,8 @@ async function main(): Promise<void> {
 			payload,
 			mediaCache,
 			localized,
-			locale
+			locale,
+			{ skipMissingRelations: true }
 		);
 
 		if (locale === "en" && typeof data.slug === "string") {
@@ -149,7 +143,10 @@ async function main(): Promise<void> {
 			mediaCache,
 			localized,
 			locale,
-			{ hrefPrefix: navigationRootSlug }
+			{
+				hrefPrefix: navigationRootSlug,
+				skipMissingRelations: true
+			}
 		);
 
 		await payload.updateGlobal({
@@ -161,52 +158,21 @@ async function main(): Promise<void> {
 		console.log(`  + homepage ${locale}`);
 	}
 
-	const existingSegments = await payload.find({
-		collection: "segments",
-		limit: 1,
-		depth: 0,
-		overrideAccess: true
-	});
+	console.log("Seeding segments...");
+	const segmentIds = await seedSegments(payload);
+	lookup.ingestSegments(segmentIds);
 
-	if (existingSegments.totalDocs === 0) {
-		const segmentIds = await seedSegments(payload);
-		lookup.ingestSegments(segmentIds);
-	} else {
-		console.log(`Segments already present (${existingSegments.totalDocs}+), skip`);
-		const all = await payload.find({
-			collection: "segments",
-			limit: 500,
-			depth: 0,
-			pagination: false,
-			overrideAccess: true
-		});
-		const segmentIds = new Map<string, number>();
-		for (const doc of all.docs) {
-			if (typeof doc.slug === "string") {
-				segmentIds.set(doc.slug, doc.id as number);
-			}
-		}
-		lookup.ingestSegments(segmentIds);
-	}
-
-	const existingPages = await payload.find({
-		collection: "pages",
-		limit: 1,
-		depth: 0,
-		overrideAccess: true
-	});
-
-	if (existingPages.totalDocs === 0) {
-		await seedPages(payload, mediaCache);
-	} else {
-		console.log(`Pages already present (${existingPages.totalDocs}+), skip`);
-	}
+	console.log("Seeding pages...");
+	await seedPages(payload, mediaCache, { skipMissingRelations: true });
 
 	const navContext = await buildNavigationContextFromDb(payload);
 	console.log(
 		`Nav context: segments=${navContext.segmentIds.size}, pages=${navContext.pageIds.size}, destination=/${navContext.destinationSlug}`
 	);
 	await seedNavigation(payload, mediaCache, navContext);
+
+	console.log("Seeding tours page (catalog.yml)...");
+	await seedToursPage(payload);
 
 	const header = await payload.findGlobal({
 		slug: "header",
@@ -216,6 +182,12 @@ async function main(): Promise<void> {
 	});
 	const footer = await payload.findGlobal({
 		slug: "footer",
+		locale: "en",
+		depth: 0,
+		overrideAccess: true
+	});
+	const homepage = await payload.findGlobal({
+		slug: "homepage",
 		locale: "en",
 		depth: 0,
 		overrideAccess: true
@@ -231,8 +203,8 @@ async function main(): Promise<void> {
 				footerColumns: Array.isArray(footer?.columns)
 					? footer.columns.length
 					: 0,
-				footerSocial: Array.isArray(footer?.socialLinks)
-					? footer.socialLinks.length
+				homepageBlocks: Array.isArray(homepage?.blocks)
+					? homepage.blocks.length
 					: 0
 			}
 		})
@@ -242,7 +214,7 @@ async function main(): Promise<void> {
 		await payload.db.destroy();
 	}
 
-	console.log("Neon globals seed complete");
+	console.log("Neon shell globals seed complete");
 	process.exit(0);
 }
 

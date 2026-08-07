@@ -1,5 +1,6 @@
 "use client";
 
+import { Login3Icon } from "@solar-icons/react/outline";
 import { Loader, LogOutIcon } from "lucide-react";
 import type { FC } from "react";
 
@@ -79,11 +80,14 @@ export const UserMenu: FC<TProps> = ({ items }) => {
 		return (
 			<Button
 				variant="default"
-				size="sm"
-				className="min-w-28 px-5"
+				size="icon"
+				className="size-9 md:min-w-28 md:px-5 md:w-auto"
 				asChild
 			>
-				<Link href={ENUM_PATH.AUTH.LOGIN}>{userMenu.login}</Link>
+				<Link href={ENUM_PATH.AUTH.LOGIN} aria-label={userMenu.login}>
+					<Login3Icon className="size-5 md:hidden" />
+					<span className="hidden md:inline">{userMenu.login}</span>
+				</Link>
 			</Button>
 		);
 	}

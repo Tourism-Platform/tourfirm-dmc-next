@@ -77,14 +77,14 @@ export const HeaderDefault: FC<TProps> = ({
 					</Link>
 				</div>
 
-				<div className="hidden min-w-0 flex-1 md:block">
+				<div className="hidden min-w-0 flex-1 md:grid w-full">
 					<PublicNavMenu
 						items={navItems}
 						destinationsNav={destinationsNav}
 						routesNav={routesNav}
 						experiencesNav={experiencesNav}
 						informationNav={informationNav}
-						className="max-w-full justify-start"
+						className="w-full"
 					/>
 				</div>
 

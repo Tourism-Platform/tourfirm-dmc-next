@@ -149,16 +149,16 @@ export const PublicNavMenu: FC<IPublicNavMenuProps> = ({
 	return (
 		<NavigationMenu
 			viewport={false}
-			className={cn("max-w-none justify-start max-md:hidden", className)}
+			style={{ justifyContent: "unset" }}
+			delayDuration={200}
+			className={cn("max-w-none grid w-full max-md:hidden", className)}
 		>
 			<NavigationMenuList
 				className={cn(
-					"!grid w-full flex-none list-none gap-x-1 gap-y-0.5",
-					"grid-cols-4 grid-rows-2",
-					"justify-items-center items-center",
-					"[&_[data-slot=navigation-menu-item]]:flex [&_[data-slot=navigation-menu-item]]:min-w-0 [&_[data-slot=navigation-menu-item]]:w-full [&_[data-slot=navigation-menu-item]]:items-center [&_[data-slot=navigation-menu-item]]:justify-center",
-					"[&_a]:justify-center",
-					"[&_button]:justify-center"
+					"grid w-full flex-none list-none gap-y-0.5",
+					"grid-cols-[repeat(4,max-content)] justify-between justify-items-center items-center",
+					// Two-row hover: path to top dropdown crosses bottom items — ignore them while open
+					"[&:has([data-state=open])_[data-slot=navigation-menu-item]:not(:has([data-state=open]))]:pointer-events-none"
 				)}
 			>
 				{items.map(renderEntry)}

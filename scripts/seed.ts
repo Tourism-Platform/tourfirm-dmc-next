@@ -158,6 +158,8 @@ const SEED_OP_OPTS = {
 type TResolvePageOptions = {
 	hrefPrefix?: string;
 	deferRouteMapStops?: boolean;
+	/** Skip country/relatedDoc cards when lookup misses (globals-only Neon seed). */
+	skipMissingRelations?: boolean;
 };
 
 function buildPrefixedCountryHref(
@@ -895,7 +897,17 @@ async function resolveBlockCards(
 		const entry = card as Record<string, unknown>;
 
 		if (entry.type === "country" && entry.countrySlug) {
-			resolved.push(await resolveCountryCard(entry, locale, options));
+			try {
+				resolved.push(await resolveCountryCard(entry, locale, options));
+			} catch (error) {
+				if (!options?.skipMissingRelations) {
+					throw error;
+				}
+
+				console.warn(
+					`  ~ skip country card "${String(entry.countrySlug)}" (${error instanceof Error ? error.message : String(error)})`
+				);
+			}
 			continue;
 		}
 
@@ -915,20 +927,30 @@ async function resolveBlockCards(
 				);
 			}
 
-			const id = activeLookup.getDiscoveryDocId(
-				collection,
-				entry.relatedDocSlug
-			);
-			// eslint-disable-next-line @typescript-eslint/no-unused-vars
-			const { relatedDocSlug: _slug, ...rest } = entry;
+			try {
+				const id = activeLookup.getDiscoveryDocId(
+					collection,
+					entry.relatedDocSlug
+				);
+				// eslint-disable-next-line @typescript-eslint/no-unused-vars
+				const { relatedDocSlug: _slug, ...rest } = entry;
 
-			resolved.push({
-				...rest,
-				relatedDoc: {
-					relationTo: collection,
-					value: id
+				resolved.push({
+					...rest,
+					relatedDoc: {
+						relationTo: collection,
+						value: id
+					}
+				});
+			} catch (error) {
+				if (!options?.skipMissingRelations) {
+					throw error;
 				}
-			});
+
+				console.warn(
+					`  ~ skip ${collection} card "${entry.relatedDocSlug}" (${error instanceof Error ? error.message : String(error)})`
+				);
+			}
 			continue;
 		}
 
@@ -956,35 +978,49 @@ async function findRouteMapEntityId(
 
 async function resolveRouteMapStops(
 	stops: unknown[],
+	options?: TResolvePageOptions
 ): Promise<unknown[]> {
-	return Promise.all(
-		stops.map(async (stop) => {
-			if (!stop || typeof stop !== "object") {
-				return stop;
-			}
+	const resolved: unknown[] = [];
 
-			const entry = { ...(stop as Record<string, unknown>) };
-			const entityType = entry.entityType as TRouteMapEntityType | undefined;
-			const entitySlug = entry.entitySlug;
+	for (const stop of stops) {
+		if (!stop || typeof stop !== "object") {
+			resolved.push(stop);
+			continue;
+		}
 
-			if (!entityType || typeof entitySlug !== "string") {
-				return entry;
-			}
+		const entry = { ...(stop as Record<string, unknown>) };
+		const entityType = entry.entityType as TRouteMapEntityType | undefined;
+		const entitySlug = entry.entitySlug;
 
-			const collection = ROUTE_MAP_ENTITY_COLLECTION[entityType];
+		if (!entityType || typeof entitySlug !== "string") {
+			resolved.push(entry);
+			continue;
+		}
+
+		const collection = ROUTE_MAP_ENTITY_COLLECTION[entityType];
+
+		try {
 			const id = await findRouteMapEntityId(entityType, entitySlug);
-
 			delete entry.entitySlug;
-
-			return {
+			resolved.push({
 				...entry,
 				relation: {
 					relationTo: collection,
 					value: id
 				}
-			};
-		})
-	);
+			});
+		} catch (error) {
+			if (!options?.skipMissingRelations) {
+				throw error;
+			}
+
+			console.warn(
+				`  ~ skip routeMap stop "${entityType}:${entitySlug}" (${error instanceof Error ? error.message : String(error)})`
+			);
+		}
+	}
+
+	return resolved;
 }
 
 async function resolvePageBlocks(
@@ -1031,7 +1067,10 @@ async function resolvePageBlocks(
 				if (options?.deferRouteMapStops) {
 					delete entry.stops;
 				} else {
-					entry.stops = await resolveRouteMapStops(entry.stops);
+					entry.stops = await resolveRouteMapStops(
+						entry.stops,
+						options
+					);
 				}
 			}
 
@@ -1555,10 +1594,7 @@ export async function seedLocalizedDoc(
 			markSeedRetry();
 		}
 
-		return seedLocalizedDocOnce(payload, collection, raw, {
-			...options,
-			skipSlugLookup: attempt === 1
-		});
+		return seedLocalizedDocOnce(payload, collection, raw, options);
 	}, label);
 }
 
@@ -2144,7 +2180,8 @@ async function resolvePageSeedData(
 	payload: Payload,
 	mediaCache: TMediaCache,
 	data: Record<string, unknown>,
-	locale: TLocale
+	locale: TLocale,
+	options?: TResolvePageOptions
 ): Promise<Record<string, unknown>> {
 	const result = { ...data };
 
@@ -2152,7 +2189,7 @@ async function resolvePageSeedData(
 		result.segment = await findSegmentIdBySlug(result.segment);
 	}
 
-	return resolveSeedDocument(payload, mediaCache, result, locale);
+	return resolveSeedDocument(payload, mediaCache, result, locale, options);
 }
 
 export async function seedSegments(payload: Payload): Promise<Map<string, number>> {
@@ -2181,7 +2218,8 @@ export async function seedSegments(payload: Payload): Promise<Map<string, number
 
 export async function seedPages(
 	payload: Payload,
-	mediaCache: TMediaCache
+	mediaCache: TMediaCache,
+	options?: TResolvePageOptions
 ): Promise<{ count: number; pageIds: Map<string, number> }> {
 	const pagesDir = path.join(CONTENT_DIR, "pages");
 	const files = (await fs.readdir(pagesDir))
@@ -2210,7 +2248,7 @@ export async function seedPages(
 		const result = await seedLocalizedDoc(payload, "pages", item, {
 			published: true,
 			beforeCreate: async (data, locale) =>
-				resolvePageSeedData(payload, mediaCache, data, locale)
+				resolvePageSeedData(payload, mediaCache, data, locale, options)
 		});
 
 		const segmentSlug =

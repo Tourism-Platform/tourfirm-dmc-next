@@ -46,7 +46,7 @@ export function BlocksLayout({
 				/>
 			))}
 			{overviewStatsSections.map((section, index) => (
-				<div key={index} className="pt-20">
+				<div key={index} className="pt-28 md:pt-20">
 					<BlockRender {...section} />
 				</div>
 			))}
