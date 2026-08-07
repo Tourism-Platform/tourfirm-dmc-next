@@ -24,14 +24,36 @@ header:
       href: /booking
       icon: calendar
   navItems:
-    - type: custom
+    - type: group
       label:
-        en: Catalog
-        ru: Каталог
-        uz: Katalog
-      icon: compass
-      href: /catalog
+        en: Tours & Activities
+        ru: Туры и Активности
+        uz: Turlar va faoliyatlar
+      icon: map
       target: _self
+      groupItems:
+        - type: custom
+          label:
+            en: Tours
+            ru: Туры
+            uz: Turlar
+          icon: ticket
+          href: /tours
+          description:
+            en: Tour landing and highlights
+            ru: Лендинг туров и подборки
+            uz: Turlar landing sahifasi
+        - type: custom
+          label:
+            en: Catalog
+            ru: Каталог
+            uz: Katalog
+          icon: compass
+          href: /tours/catalog
+          description:
+            en: Search and filter all tours
+            ru: Поиск и фильтры по всем турам
+            uz: Barcha turlarni qidirish
     - type: custom
       label:
         en: Destinations
@@ -116,6 +138,112 @@ header:
             en: Share your feedback
             ru: Поделитесь мнением
             uz: Fikringizni bildiring
+    - type: group
+      label:
+        en: Help
+        ru: Помощь
+        uz: Yordam
+      icon: life-buoy
+      target: _self
+      groupItems:
+        - type: page
+          page: help/support
+          icon: headphones
+          label:
+            en: Support
+            ru: Поддержка
+            uz: Qo'llab-quvvatlash
+          description:
+            en: Get help from our team
+            ru: Помощь от нашей команды
+            uz: Jamoamizdan yordam
+        - type: page
+          page: help/contact
+          icon: mail
+          label:
+            en: Contact us
+            ru: Связаться с нами
+            uz: Bog'lanish
+          description:
+            en: Write or call TourLink
+            ru: Напишите или позвоните TourLink
+            uz: TourLink bilan bog'laning
+        - type: page
+          page: help/faq
+          icon: circle-help
+          label:
+            en: FAQ
+            ru: FAQ
+            uz: FAQ
+          description:
+            en: Answers to common questions
+            ru: Ответы на частые вопросы
+            uz: Tez-tez so'raladigan savollar
+        - type: page
+          page: help/training
+          icon: graduation-cap
+          label:
+            en: Training & support
+            ru: Обучение и поддержка
+            uz: O'qitish va qo'llab-quvvatlash
+          description:
+            en: Learn how TourLink works
+            ru: Как работает TourLink
+            uz: TourLink qanday ishlaydi
+        - type: page
+          page: help/more-info
+          icon: info
+          label:
+            en: More service info
+            ru: Дополнительная информация
+            uz: Qo'shimcha ma'lumot
+          description:
+            en: Extra service details
+            ru: Дополнительные детали сервиса
+            uz: Xizmat haqida qo'shimcha
+    - type: group
+      label:
+        en: Policies
+        ru: Политики
+        uz: Siyosatlar
+      icon: scale
+      target: _self
+      groupItems:
+        - type: page
+          page: legal/terms
+          icon: file-text
+          label:
+            en: Terms of use
+            ru: Условия использования
+            uz: Foydalanish shartlari
+        - type: page
+          page: legal/booking
+          icon: clipboard-list
+          label:
+            en: Booking terms
+            ru: Условия бронирования
+            uz: Bron qilish shartlari
+        - type: page
+          page: legal/cancellation
+          icon: ban
+          label:
+            en: Cancellation policy
+            ru: Политика отмены
+            uz: Bekor qilish siyosati
+        - type: page
+          page: legal/cookies
+          icon: cookie
+          label:
+            en: Cookie policy
+            ru: Политика cookies
+            uz: Cookie siyosati
+        - type: page
+          page: legal/privacy
+          icon: shield
+          label:
+            en: Privacy policy
+            ru: Политика конфиденциальности
+            uz: Maxfiylik siyosati
 footer:
   copyrightText:
     en: © {year} TourLink. All rights reserved.
@@ -216,10 +344,16 @@ footer:
           href: __DESTINATION_SLUG__
         - type: custom
           label:
-            en: Tours & activities
-            ru: Туры и активности
-            uz: Turlar va faoliyatlar
-          href: /catalog
+            en: Tours
+            ru: Туры
+            uz: Turlar
+          href: /tours
+        - type: custom
+          label:
+            en: Catalog
+            ru: Каталог
+            uz: Katalog
+          href: /tours/catalog
         - type: page
           page: partners/agencies
           label:

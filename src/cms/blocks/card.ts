@@ -19,7 +19,8 @@ const cardTypeOptions = [
 	{ label: "Quote", value: "quote" },
 	{ label: "Alert", value: "alert" },
 	{ label: "Mini Table", value: "miniTable" },
-	{ label: "Catalog Feed", value: "catalogFeed" }
+	{ label: "Catalog Feed", value: "catalogFeed" },
+	{ label: "Tour Destination", value: "tourDestination" }
 ] as const;
 
 const whenType =
@@ -42,7 +43,9 @@ export const cardFields: Field[] = [
 	{
 		name: "href",
 		type: "text",
-		admin: { condition: whenType("country", "teamMember") }
+		admin: {
+			condition: whenType("country", "tourDestination", "teamMember")
+		}
 	},
 	{
 		name: "image",
@@ -52,6 +55,7 @@ export const cardFields: Field[] = [
 		admin: {
 			condition: whenType(
 				"country",
+				"tourDestination",
 				"routeIdea",
 				"experience",
 				"blog",
@@ -69,6 +73,7 @@ export const cardFields: Field[] = [
 			description: "Static path fallback when Media upload is empty",
 			condition: whenType(
 				"country",
+				"tourDestination",
 				"routeIdea",
 				"experience",
 				"blog",
@@ -86,6 +91,7 @@ export const cardFields: Field[] = [
 		admin: {
 			condition: whenType(
 				"country",
+				"tourDestination",
 				"routeIdea",
 				"experience",
 				"tripFormat",
@@ -105,6 +111,7 @@ export const cardFields: Field[] = [
 		admin: {
 			condition: whenType(
 				"country",
+				"tourDestination",
 				"destinationInsight",
 				"teamMember",
 				"routeIdea",
@@ -155,12 +162,12 @@ export const cardFields: Field[] = [
 				localized: true
 			}
 		],
-		admin: { condition: whenType("country") }
+		admin: { condition: whenType("country", "tourDestination") }
 	},
 	{
 		name: "featured",
 		type: "checkbox",
-		admin: { condition: whenType("country") }
+		admin: { condition: whenType("country", "tourDestination") }
 	},
 	{
 		name: "ctaHref",

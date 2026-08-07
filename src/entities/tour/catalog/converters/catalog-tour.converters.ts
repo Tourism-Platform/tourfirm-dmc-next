@@ -1,14 +1,44 @@
+import { TourCategory } from "@/shared/api";
 import type { IPaginationResponse } from "@/shared/types";
+import { createEnumMapper } from "@/shared/utils";
 
+import { languageMapper } from "../../preview-tour";
+import { CATALOG_DURATION_PRESETS } from "../config";
 import {
+	type ENUM_CATALOG_DURATION_TYPE,
 	ENUM_CATALOG_TOUR_TYPES,
 	type ENUM_CATALOG_TOUR_TYPES_TYPE,
+	type ENUM_TOUR_CATEGORY_TYPE,
 	type ICatalogTourCard,
+	type ICatalogTourFilters,
 	type IFilterOption,
 	type IFilterOptionBackend,
 	type TCatalogTourBackend,
+	type TCatalogTourQueryBackend,
 	type TListCatalogToursBackendResponse
 } from "../types";
+
+const tourCategoriesMapper = createEnumMapper<
+	ENUM_TOUR_CATEGORY_TYPE,
+	TourCategory
+>({
+	cultural_historical: TourCategory.CulturalHistorical,
+	religious_spiritual: TourCategory.ReligiousSpiritual,
+	archaeological: TourCategory.Archaeological,
+	adventure_outdoor: TourCategory.AdventureOutdoor,
+	eco_nature: TourCategory.EcoNature,
+	hiking_trekking: TourCategory.HikingTrekking,
+	city_tour: TourCategory.CityTour,
+	gastronomy_culinary: TourCategory.GastronomyCulinary,
+	photography_creative: TourCategory.PhotographyCreative,
+	educational: TourCategory.Educational,
+	master_class_workshop: TourCategory.MasterClassWorkshop,
+	wellness_spa: TourCategory.WellnessSpa,
+	yoga_meditation: TourCategory.YogaMeditation,
+	business_mice: TourCategory.BusinessMice,
+	family_kids: TourCategory.FamilyKids,
+	multi_destination: TourCategory.MultiDestination
+});
 
 const mapTourType = (value: string): ENUM_CATALOG_TOUR_TYPES_TYPE => {
 	const normalized = value.toLowerCase();
@@ -21,6 +51,22 @@ const mapTourType = (value: string): ENUM_CATALOG_TOUR_TYPES_TYPE => {
 	}
 
 	return ENUM_CATALOG_TOUR_TYPES.GROUP;
+};
+
+const mapDurationFiltersToQuery = (
+	selected: ENUM_CATALOG_DURATION_TYPE[] | undefined
+): Pick<
+	TCatalogTourQueryBackend,
+	"duration_days_min" | "duration_days_max"
+> => {
+	if (!selected?.length) return {};
+
+	const presets = selected.map((key) => CATALOG_DURATION_PRESETS[key]);
+
+	return {
+		duration_days_min: Math.min(...presets.map((p) => p.from)),
+		duration_days_max: Math.max(...presets.map((p) => p.to))
+	};
 };
 
 export const mapCatalogTourToFrontend = (
@@ -55,13 +101,27 @@ export const mapCatalogTourToFrontend = (
 };
 
 export const mapCatalogTourPaginatedToFrontend = (
-	response: TListCatalogToursBackendResponse
-): IPaginationResponse<ICatalogTourCard> => ({
-	data: response.map(mapCatalogTourToFrontend),
-	total: response.length
-});
+	response: TListCatalogToursBackendResponse,
+	pagination?: Pick<ICatalogTourFilters, "page" | "limit">
+): IPaginationResponse<ICatalogTourCard> => {
+	const data = response.map(mapCatalogTourToFrontend);
+	const limit = pagination?.limit ?? data.length;
+	const page = pagination?.page ?? 1;
+	const skip = Math.max(0, (page - 1) * limit);
+	const isLastPage = data.length < limit;
 
-export const mapCatalogToursToFrontend = mapCatalogTourPaginatedToFrontend;
+	return {
+		data,
+		// Backend returns a bare array — total is exact on a short page,
+		// otherwise "at least one more" so consumers can keep paging off total.
+		total: isLastPage ? skip + data.length : skip + data.length + 1
+	};
+};
+
+export const mapCatalogToursToFrontend = (
+	response: TListCatalogToursBackendResponse
+): IPaginationResponse<ICatalogTourCard> =>
+	mapCatalogTourPaginatedToFrontend(response);
 
 export const mapFilterOptionToFrontend = (
 	data: IFilterOptionBackend
@@ -74,3 +134,21 @@ export const mapFilterOptionToFrontend = (
 export const mapFilterOptionsToFrontend = (
 	data: IFilterOptionBackend[]
 ): IFilterOption[] => data.map(mapFilterOptionToFrontend);
+
+export const mapCatalogTourFiltersToPublicCatalogQuery = (
+	filters: ICatalogTourFilters
+): TCatalogTourQueryBackend => ({
+	...(filters?.page > 1 && { skip: (filters.page - 1) * filters?.limit }),
+	...(filters?.limit && { limit: filters.limit }),
+	...(!!filters?.filters?.category?.length && {
+		categories: tourCategoriesMapper.toMany(filters.filters.category)
+	}),
+	...(!!filters?.filters?.region?.length && {
+		city: filters.filters.region[0]
+	}),
+	...(!!filters?.filters?.language?.length && {
+		language: languageMapper.to(filters.filters.language[0])
+	}),
+	...mapDurationFiltersToQuery(filters?.filters?.duration),
+	...(!!filters?.search?.trim().length && { q: filters.search })
+});

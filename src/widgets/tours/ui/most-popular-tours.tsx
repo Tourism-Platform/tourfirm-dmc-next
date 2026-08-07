@@ -56,7 +56,7 @@ const MostPopularToursBase: FC<TMostPopularToursProps> = ({
 			<Carousel opts={{ align: "start" }} className="w-full">
 				<CarouselContent className="-ml-3 pb-2 sm:-ml-4">
 					{isLoading
-						? Array.from({ length: 3 }).map((_, index) => (
+						? Array.from({ length: 4 }).map((_, index) => (
 								<CarouselItem
 									key={`skeleton-${index}`}
 									className="basis-full pl-3 sm:basis-1/2 sm:pl-4 lg:basis-[31%]"

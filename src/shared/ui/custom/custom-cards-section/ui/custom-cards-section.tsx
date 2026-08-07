@@ -1,10 +1,20 @@
 import { cn } from "@/shared/lib/utils";
 import { CardRender } from "@/shared/ui/cards/ui/card-render";
+import {
+	Carousel,
+	CarouselContent,
+	CarouselItem,
+	CarouselNext,
+	CarouselPrevious
+} from "@/shared/ui/shadcn-ui/carousel";
 
 import { CustomSectionHeader } from "../../custom-section-header";
 import type { TCardsSectionProps } from "../model/types/custom-cards-section.types";
 
 import { ContentRows } from "./content-rows";
+
+const CAROUSEL_ITEM_CLASS =
+	"basis-[83%] pl-3 sm:basis-1/2 sm:pl-4 md:basis-[40%] lg:basis-[31%]";
 
 export function CardsSection({
 	eyebrow,
@@ -13,10 +23,13 @@ export function CardsSection({
 	cards,
 	rows,
 	gridClassName,
+	displayMode = "grid",
 	actions,
 	emptyLabel
 }: TCardsSectionProps) {
-	const hasHeader = eyebrow || title || description || actions;
+	const isCarousel = displayMode === "carousel";
+	const hasHeader =
+		eyebrow || title || description || (!isCarousel && actions);
 	const hasRows = Boolean(rows?.length);
 	const hasCards = cards.length > 0;
 
@@ -27,11 +40,26 @@ export function CardsSection({
 					eyebrow={eyebrow}
 					title={title!}
 					description={description}
-					actions={actions}
+					actions={isCarousel ? undefined : actions}
 				/>
 			)}
 			{hasRows ? (
 				<ContentRows rows={rows!} />
+			) : hasCards && isCarousel ? (
+				<Carousel opts={{ align: "start" }} className="w-full">
+					<CarouselContent className="-ml-3 pb-2 sm:-ml-4">
+						{cards.map((card, index) => (
+							<CarouselItem
+								key={card.key ?? String(index)}
+								className={CAROUSEL_ITEM_CLASS}
+							>
+								<CardRender type={card.type} item={card.item} />
+							</CarouselItem>
+						))}
+					</CarouselContent>
+					<CarouselPrevious className="hidden sm:flex" />
+					<CarouselNext className="hidden sm:flex" />
+				</Carousel>
 			) : hasCards ? (
 				<div
 					className={cn(
@@ -49,6 +77,9 @@ export function CardsSection({
 				</div>
 			) : emptyLabel ? (
 				<p className="text-muted-foreground text-sm">{emptyLabel}</p>
+			) : null}
+			{isCarousel && actions ? (
+				<div className="flex justify-center">{actions}</div>
 			) : null}
 		</section>
 	);

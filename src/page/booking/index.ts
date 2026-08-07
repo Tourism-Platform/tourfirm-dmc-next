@@ -1,1 +1,1 @@
-export { BookingPage } from "./ui";
+export { BookingPage, BookingOrderPage } from "./ui";

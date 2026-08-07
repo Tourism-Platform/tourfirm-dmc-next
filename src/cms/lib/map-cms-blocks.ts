@@ -264,6 +264,9 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 				title: regularBlock.title,
 				description: richTextToPlain(regularBlock.description),
 				gridClassName: regularBlock.gridClassName ?? undefined,
+				displayMode:
+					(regularBlock as { displayMode?: "grid" | "carousel" })
+						.displayMode ?? "grid",
 				actions: regularBlock.actions?.map(mapCmsAction),
 				rows: mapCmsContentRows(regularBlock.rows),
 				cards: regularBlock.cards?.map(mapCmsCard) ?? [],

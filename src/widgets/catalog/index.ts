@@ -1,0 +1,1 @@
+export { CatalogTours } from "./ui";

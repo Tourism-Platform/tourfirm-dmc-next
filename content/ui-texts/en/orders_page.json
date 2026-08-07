@@ -1,0 +1,70 @@
+{
+	"page_name": "Orders",
+	"table": {
+		"order_id": "Order ID",
+		"tour_name": "Tour name",
+		"pax": "PAX",
+		"dates": "Dates"
+	},
+	"search_placeholder": "Search orders",
+	"empty": "No orders yet",
+	"statuses": {
+		"new": "New",
+		"in_processing": "In processing",
+		"booking": "Booking",
+		"in_progress": "In progress",
+		"completed": "Completed",
+		"cancelled": "Cancelled"
+	},
+	"toasts": {
+		"load": {
+			"error": "Failed to load orders"
+		}
+	},
+	"buttons": {
+		"back": "Back"
+	},
+	"header": {
+		"order_status": "Order status"
+	},
+	"order_info": {
+		"title": "Order info",
+		"fields": {
+			"tour_name": "Tour name",
+			"type": "Type",
+			"pax": "PAX",
+			"route": "Route",
+			"duration": "Duration",
+			"dates": "Dates",
+			"comment": "Comment"
+		}
+	},
+	"contact_info": {
+		"title": "Contact info",
+		"fields": {
+			"client": "Client",
+			"email": "Email",
+			"phone": "Phone number"
+		}
+	},
+	"not_found": {
+		"title": "Order not found",
+		"description": "Sorry, we couldn't find the order with this ID. Please check the data or return to the order list."
+	},
+	"pax_information": {
+		"title": "PAX information",
+		"table": {
+			"full_name": "Full name",
+			"gender": "Gender",
+			"nationality": "Nationality",
+			"date_of_birth": "Date of birth",
+			"passport_number": "Passport #",
+			"expired_date": "Expired date",
+			"comment": "Comment",
+			"genders": {
+				"male": "Male",
+				"female": "Female"
+			}
+		}
+	}
+}

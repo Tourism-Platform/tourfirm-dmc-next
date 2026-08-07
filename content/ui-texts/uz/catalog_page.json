@@ -1,0 +1,54 @@
+{
+	"meta": {
+		"title": "Turlar katalogi | TourLink",
+		"description": "Turarni hudud, davomiylik, til, kategoriya va narx bo‘yicha filtrlash."
+	},
+	"hero": {
+		"title": "Katalog"
+	},
+	"header": {
+		"found": "{count, plural, one {Qidiruvingiz bo‘yicha # tur topildi} other {Qidiruvingiz bo‘yicha # tur topildi}}"
+	},
+	"filters": {
+		"title": "Filtrlar",
+		"fields": {
+			"price": "Sayohatchi uchun narx",
+			"region": "Hudud",
+			"duration": "Tur davomiyligi",
+			"language": "Til",
+			"category": "Kategoriya"
+		},
+		"durations": {
+			"half_day": "Yarim kun",
+			"full_day": "To‘liq kun",
+			"multi_days": "Bir necha kun"
+		},
+		"buttons": {
+			"reset": "Tozalash",
+			"apply": "Qollash"
+		}
+	},
+	"toolbar": {
+		"filters": "Filtrlar",
+		"clear_filters": "Filtrlarni tozalash"
+	},
+	"view": {
+		"grid": "Setka",
+		"list": "Royxat"
+	},
+	"toasts": {
+		"load_error": "Katalogni yuklashda xatolik"
+	},
+	"alert": {
+		"title": "O‘xshash variantlar:",
+		"description": "Bu variantlar qidiruvingizga mos, lekin belgilangan sanalardan tashqarida."
+	},
+	"popular_tours": {
+		"title": "Eng mashhur turlar"
+	},
+	"pagination": {
+		"prev": "Oldingi",
+		"next": "Keyingi",
+		"page": "{total} dan {page}-sahifa"
+	}
+}

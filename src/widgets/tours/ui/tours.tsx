@@ -30,7 +30,7 @@ const ToursBase: FC<TToursProps> = ({ sections }) => {
 	const searchForm = useForm<TSearchTours>({
 		resolver: zodResolver(schema),
 		defaultValues: {
-			destination: "",
+			destination: null,
 			dates: undefined
 		}
 	});
@@ -38,7 +38,7 @@ const ToursBase: FC<TToursProps> = ({ sections }) => {
 	return (
 		<div className="flex flex-col">
 			<HeroSection form={searchForm} />
-			<div className="flex w-full flex-col gap-12 py-16 sm:gap-14 sm:pt-20 lg:gap-16">
+			<div className="flex w-full flex-col gap-12 pt-28 sm:gap-14 sm:pt-32 lg:gap-16">
 				{/* <RecentlySearch form={searchForm} /> */}
 				<ToursBlocks sections={sections} />
 			</div>

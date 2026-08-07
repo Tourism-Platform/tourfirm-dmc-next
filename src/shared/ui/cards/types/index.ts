@@ -1,4 +1,8 @@
 export type { ICountryCard, TCountryCardProps } from "./country-card.types";
+export type {
+	TTourDestinationCard,
+	TTourDestinationCardProps
+} from "./tour-destination-card.types";
 export {
 	CardType,
 	type ICardItem,

@@ -113,6 +113,7 @@ export type TBlockRenderProps = {
 	note?: string;
 	description?: string;
 	gridClassName?: string;
+	displayMode?: "grid" | "carousel";
 	imageSrc?: string;
 	imageAlt?: string;
 	children?: ReactNode;

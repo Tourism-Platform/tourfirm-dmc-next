@@ -154,6 +154,7 @@ export function BlockRender({
 			title={section.title!}
 			description={section.description}
 			gridClassName={section.gridClassName}
+			displayMode={section.displayMode}
 			emptyLabel={section.emptyLabel}
 			rows={section.rows}
 			actions={section.actions?.map((action, actionIndex) => (

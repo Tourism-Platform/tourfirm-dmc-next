@@ -27,7 +27,7 @@ export function CmsPagination({
 	}
 
 	return (
-		<div className="flex w-full flex-col gap-8 pb-16 sm:py-20">
+		<div className="flex w-full flex-col gap-8 sm:pt-4">
 			<nav
 				className="flex items-center justify-center gap-4"
 				aria-label={ariaLabel}

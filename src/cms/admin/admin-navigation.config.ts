@@ -79,6 +79,8 @@ export const ADMIN_UI_CONTENT_GLOBALS_NAVIGATION: TAdminNavSection = {
 		"footer",
 		"ui-common",
 		"ui-tours",
+		"ui-catalog",
+		"ui-orders",
 		"ui-discovery",
 		"ui-login",
 		"ui-preview",

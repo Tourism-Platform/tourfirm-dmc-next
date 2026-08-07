@@ -81,7 +81,7 @@ async function renderWidgetNode(
 		}
 		case "experienceMeta":
 			return (
-				<div className="flex w-full flex-col gap-12 py-16 sm:gap-14 sm:py-20 lg:gap-16">
+				<div className="flex w-full flex-col gap-12 pt-16 sm:gap-14 sm:pt-20 lg:gap-16">
 					<ExperienceMetaBar
 						{...(model.props as Parameters<
 							typeof ExperienceMetaBar

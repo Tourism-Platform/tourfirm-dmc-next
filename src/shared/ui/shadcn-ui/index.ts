@@ -14,6 +14,7 @@ export * from "./collapsible";
 export * from "./date-picker-input";
 export * from "./datefield-rac";
 export * from "./dialog";
+export * from "./drawer";
 export * from "./dropdown-menu";
 export * from "./field";
 export * from "./form";

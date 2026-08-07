@@ -2,6 +2,7 @@
 
 import { zodResolver } from "@hookform/resolvers/zod";
 import { MapPin, Search } from "lucide-react";
+import { useLocale } from "next-intl";
 import type { FC } from "react";
 import { useMemo } from "react";
 import { type UseFormReturn, useForm } from "react-hook-form";
@@ -19,11 +20,11 @@ import {
 } from "@/shared/ui";
 import { createNestedTextResolver, useUiContent } from "@/shared/ui-content";
 
+import { useGeoSearchFieldProps } from "@/entities/geo";
 import {
 	type TSearchTours,
 	createSearchToursSchema,
-	mapSearchToursToCatalogQuery,
-	useGetCatalogDestinationsQuery
+	mapSearchToursToCatalogQuery
 } from "@/entities/tour";
 
 interface ISearchToursBarProps {
@@ -40,16 +41,8 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 		tours as unknown as Record<string, unknown>
 	);
 	const router = useRouter();
-	const { data: destinations = [] } = useGetCatalogDestinationsQuery();
-
-	const destinationOptions = useMemo(
-		() =>
-			destinations.map((item) => ({
-				label: item.title,
-				value: item.id
-			})),
-		[destinations]
-	);
+	const locale = useLocale();
+	const geoField = useGeoSearchFieldProps(locale);
 
 	const schema = useMemo(
 		() => createSearchToursSchema(tours.search.where.required),
@@ -59,7 +52,7 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 	const localForm = useForm<TSearchTours>({
 		resolver: zodResolver(schema),
 		defaultValues: {
-			destination: "",
+			destination: null,
 			dates: undefined
 		}
 	});
@@ -68,7 +61,7 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 
 	const onSubmit = (data: TSearchTours) => {
 		const route = buildRouteWithQuery(
-			ENUM_PATH.MAIN.TOURS,
+			ENUM_PATH.TOURS.CATALOG,
 			mapSearchToursToCatalogQuery(data)
 		);
 		router.push(route);
@@ -93,9 +86,11 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 							name="destination"
 							label="search.where.label"
 							placeholder="search.where.placeholder"
-							fieldType="autocomplete"
+							fieldType="geo"
 							emptyText="search.where.empty"
-							options={destinationOptions}
+							options={geoField.options}
+							onQueryChange={geoField.onQueryChange}
+							isLoading={geoField.isLoading}
 							t={t}
 							className="mb-0"
 						/>

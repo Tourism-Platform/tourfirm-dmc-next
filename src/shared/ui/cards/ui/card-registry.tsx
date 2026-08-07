@@ -21,6 +21,7 @@ import { ServicesBusinessCard } from "./services-business-card";
 import { ServicesDirectionCard } from "./services-direction-card";
 import { ServicesProcessCard } from "./services-process-card";
 import { TeamMemberCard } from "./team-member-card";
+import { TourDestinationCard } from "./tour-destination-card";
 import { TradeFairCard } from "./trade-fair-card";
 import { TripFormatCard } from "./trip-format-card";
 
@@ -70,6 +71,20 @@ export const CARD_REGISTRY: Partial<Record<CardType, TCardRenderer>> = {
 				title: item.title ?? "",
 				description: item.description ?? "",
 				cities: item.cities ?? [],
+				featured: item.featured,
+				className: item.className
+			}}
+		/>
+	),
+	[CardType.TourDestination]: (item) => (
+		<TourDestinationCard
+			data={{
+				href: item.href ?? "",
+				imageUrl: item.imageUrl ?? "",
+				badge: item.badge,
+				title: item.title ?? "",
+				description: item.description,
+				cities: item.cities,
 				featured: item.featured,
 				className: item.className
 			}}

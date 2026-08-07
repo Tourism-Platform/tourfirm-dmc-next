@@ -15,9 +15,11 @@ import { SiteSettings } from "./site-settings";
 import { Tours } from "./tours";
 import { TradeFairsHub } from "./trade-fairs-hub";
 import { UiBooking } from "./ui-booking";
+import { UiCatalog } from "./ui-catalog";
 import { UiCommon } from "./ui-common";
 import { UiDiscovery } from "./ui-discovery";
 import { UiLogin } from "./ui-login";
+import { UiOrders } from "./ui-orders";
 import { UiPreview } from "./ui-preview";
 import { UiTours } from "./ui-tours";
 
@@ -35,6 +37,8 @@ const rawGlobals: GlobalConfig[] = [
 	Footer,
 	UiCommon,
 	UiTours,
+	UiCatalog,
+	UiOrders,
 	UiDiscovery,
 	UiLogin,
 	UiPreview,

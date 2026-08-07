@@ -17,7 +17,7 @@ function withHeroSearchBar(section: TBlockRenderProps): TBlockRenderProps {
 
 	return {
 		...section,
-		children: <SearchToursBar className="shadow-lg" />
+		children: <SearchToursBar className="translate-y-1/2 shadow-lg" />
 	};
 }
 

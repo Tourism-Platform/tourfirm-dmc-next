@@ -21,7 +21,8 @@ export enum CardType {
 	Quote = "quote",
 	Alert = "alert",
 	MiniTable = "miniTable",
-	CatalogFeed = "catalogFeed"
+	CatalogFeed = "catalogFeed",
+	TourDestination = "tourDestination"
 }
 
 export type TCardItemRow = {

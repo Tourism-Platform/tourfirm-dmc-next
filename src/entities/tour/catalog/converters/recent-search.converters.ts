@@ -4,10 +4,15 @@ import type { IRecentSearch, IRecentSearchBackend } from "../types";
 import { mapBackendDatesToDateRange } from "./search-tours.converters";
 
 const mapRecentSearchToSearchTours = (
-	destination: string,
+	label: string,
 	dates: TDateRange
 ): TSearchTours => ({
-	destination,
+	destination: {
+		lat: 0,
+		long: 0,
+		label,
+		name: label
+	},
 	dates: dates.from || dates.to ? { ...dates } : undefined
 });
 
@@ -22,7 +27,10 @@ export const mapRecentlySearchToFrontend = (
 		label: data.label,
 		tourType: data.tour_type,
 		dates,
-		searchTours: mapRecentSearchToSearchTours(data.destination, dates)
+		searchTours: mapRecentSearchToSearchTours(
+			data.label ?? data.destination,
+			dates
+		)
 	};
 };
 

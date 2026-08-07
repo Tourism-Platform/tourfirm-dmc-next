@@ -49,6 +49,15 @@ export const Regular: Block = {
 			type: "text"
 		},
 		{
+			name: "displayMode",
+			type: "select",
+			defaultValue: "grid",
+			options: [
+				{ label: "Grid", value: "grid" },
+				{ label: "Carousel", value: "carousel" }
+			]
+		},
+		{
 			name: "actions",
 			type: "array",
 			fields: actionFields

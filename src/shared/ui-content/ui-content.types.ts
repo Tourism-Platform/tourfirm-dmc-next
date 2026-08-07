@@ -1,4 +1,6 @@
 import type { TUiBooking } from "./ui-booking.types";
+import type { TUiCatalog } from "./ui-catalog.types";
+import type { TUiOrders } from "./ui-orders.types";
 import type { TUiPreview } from "./ui-preview.types";
 
 export type TUiMeta = {
@@ -157,6 +159,8 @@ export type TUiLogin = {
 };
 
 export type { TUiBooking } from "./ui-booking.types";
+export type { TUiCatalog } from "./ui-catalog.types";
+export type { TUiOrders } from "./ui-orders.types";
 export type { TUiPreview } from "./ui-preview.types";
 
 export type TUiContent = {
@@ -164,6 +168,8 @@ export type TUiContent = {
 	footer: TUiFooter;
 	common: TUiCommon;
 	tours: TUiTours;
+	catalog: TUiCatalog;
+	orders: TUiOrders;
 	discovery: TUiDiscovery;
 	login: TUiLogin;
 	preview: TUiPreview;

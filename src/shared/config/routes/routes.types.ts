@@ -16,8 +16,17 @@ export type ENUM_PATH_TYPE =
 	| THelpPath;
 
 export type TQueryParams = {
+	[ENUM_PATH.TOURS.CATALOG]: {
+		destination?: string;
+		lat?: string;
+		long?: string;
+		checkIn?: string;
+		checkOut?: string;
+	};
 	[ENUM_PATH.MAIN.TOURS]: {
 		destination?: string;
+		lat?: string;
+		long?: string;
 		checkIn?: string;
 		checkOut?: string;
 	};

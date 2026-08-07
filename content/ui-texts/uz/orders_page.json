@@ -1,0 +1,70 @@
+{
+	"page_name": "Buyurtmalar",
+	"table": {
+		"order_id": "Buyurtma ID",
+		"tour_name": "Tur nomi",
+		"pax": "PAX",
+		"dates": "Sanalar"
+	},
+	"search_placeholder": "Buyurtmalarni qidirish",
+	"empty": "Hali buyurtmalar yo'q",
+	"statuses": {
+		"new": "Yangi",
+		"in_processing": "Jarayonda",
+		"booking": "Bron",
+		"in_progress": "Bajarilmoqda",
+		"completed": "Yakunlangan",
+		"cancelled": "Bekor qilingan"
+	},
+	"toasts": {
+		"load": {
+			"error": "Buyurtmalarni yuklab bo'lmadi"
+		}
+	},
+	"buttons": {
+		"back": "Orqaga"
+	},
+	"header": {
+		"order_status": "Buyurtma holati"
+	},
+	"order_info": {
+		"title": "Buyurtma ma'lumoti",
+		"fields": {
+			"tour_name": "Tur nomi",
+			"type": "Tur",
+			"pax": "PAX",
+			"route": "Marshrut",
+			"duration": "Davomiylik",
+			"dates": "Sanalar",
+			"comment": "Izoh"
+		}
+	},
+	"contact_info": {
+		"title": "Aloqa ma'lumoti",
+		"fields": {
+			"client": "Mijoz",
+			"email": "Email",
+			"phone": "Telefon"
+		}
+	},
+	"not_found": {
+		"title": "Buyurtma topilmadi",
+		"description": "Ushbu ID bo'yicha buyurtma topilmadi. Ma'lumotni tekshiring yoki ro'yxatga qayting."
+	},
+	"pax_information": {
+		"title": "Yo'lovchilar (PAX)",
+		"table": {
+			"full_name": "F.I.Sh.",
+			"gender": "Jins",
+			"nationality": "Fuqarolik",
+			"date_of_birth": "Tug'ilgan sana",
+			"passport_number": "Pasport №",
+			"expired_date": "Amal qilish muddati",
+			"comment": "Izoh",
+			"genders": {
+				"male": "Erkak",
+				"female": "Ayol"
+			}
+		}
+	}
+}

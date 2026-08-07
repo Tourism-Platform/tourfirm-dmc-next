@@ -4,11 +4,13 @@ export {
 	formatUiText
 } from "./format-ui-text";
 export { UiContentProvider, useUiContent } from "./provider";
+export type { TUiOrders } from "./ui-orders.types";
 export type {
 	TDiscoveryPaginationKey,
 	TDropdownLanguage,
 	TLocaleAvailability,
 	TUiTours,
+	TUiCatalog,
 	TUiCommon,
 	TUiContent,
 	TUiDiscovery,

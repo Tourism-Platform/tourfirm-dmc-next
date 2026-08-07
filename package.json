@@ -16,9 +16,12 @@
     "seed:ui-login": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed/ui-login.ts",
     "seed:ui-tours": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed/ui-tours.ts",
     "seed:ui-booking": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed/ui-booking.ts",
+    "seed:ui-catalog": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed/ui-catalog.ts",
+    "seed:ui-orders": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed/ui-orders.ts",
     "seed:tours": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed-tours.ts",
     "db:ensure:ui-preview": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/ensure-ui-preview-schema.ts",
     "db:ensure:ui-booking": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/ensure-ui-booking-schema.ts",
+    "db:ensure:ui-catalog-orders": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/ensure-ui-catalog-orders-schema.ts",
     "seed:media-audit": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed-media-audit.ts",
     "seed:media-audit:check": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed-media-audit.ts --check-only",
     "seed:spike:dt": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/spikes/spike-disable-transaction.ts",
@@ -38,6 +41,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/modifiers": "^9.0.0",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
     "@hookform/resolvers": "^5.4.0",
     "@internationalized/date": "^3.12.2",
     "@payloadcms/db-postgres": "^3.85.1",
@@ -53,6 +60,8 @@
     "@radix-ui/react-slot": "^1.2.5",
     "@radix-ui/react-toggle": "^1.1.11",
     "@reduxjs/toolkit": "^2.12.0",
+    "@solar-icons/react": "^2.0.0",
+    "@tanstack/react-table": "^8.21.3",
     "@tiptap/core": "^3.26.0",
     "@tiptap/extension-text-align": "^3.26.0",
     "@tiptap/html": "^3.26.0",
@@ -96,6 +105,7 @@
     "sonner": "^2.0.7",
     "tailwind-merge": "^3.6.0",
     "tw-animate-css": "^1.4.0",
+    "vaul": "^1.1.2",
     "zod": "^4.4.3"
   },
   "devDependencies": {

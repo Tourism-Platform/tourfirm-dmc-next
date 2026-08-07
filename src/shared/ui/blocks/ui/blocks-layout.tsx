@@ -46,11 +46,14 @@ export function BlocksLayout({
 				/>
 			))}
 			{overviewStatsSections.map((section, index) => (
-				<BlockRender key={index} {...section} />
+				<div key={index} className="pt-20">
+					<BlockRender {...section} />
+				</div>
 			))}
 			<div
 				className={cn(
-					"flex w-full flex-col gap-12 py-16 sm:gap-14 sm:py-20 lg:gap-16",
+					"flex w-full flex-col gap-12 pt-12 sm:gap-14 sm:pt-14 lg:gap-16",
+					!overviewStatsSections.length && "pt-28 sm:pt-32",
 					contentClassName
 				)}
 			>

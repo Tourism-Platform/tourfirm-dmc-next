@@ -207,6 +207,8 @@ export interface Config {
 		footer: Footer;
 		"ui-common": UiCommon;
 		"ui-tours": UiTour;
+		"ui-catalog": UiCatalog;
+		"ui-orders": UiOrder;
 		"ui-discovery": UiDiscovery;
 		"ui-login": UiLogin;
 		"ui-preview": UiPreview;
@@ -230,6 +232,8 @@ export interface Config {
 		footer: FooterSelect<false> | FooterSelect<true>;
 		"ui-common": UiCommonSelect<false> | UiCommonSelect<true>;
 		"ui-tours": UiToursSelect<false> | UiToursSelect<true>;
+		"ui-catalog": UiCatalogSelect<false> | UiCatalogSelect<true>;
+		"ui-orders": UiOrdersSelect<false> | UiOrdersSelect<true>;
 		"ui-discovery": UiDiscoverySelect<false> | UiDiscoverySelect<true>;
 		"ui-login": UiLoginSelect<false> | UiLoginSelect<true>;
 		"ui-preview": UiPreviewSelect<false> | UiPreviewSelect<true>;
@@ -397,7 +401,8 @@ export interface Country {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -529,6 +534,7 @@ export interface Country {
 					[k: string]: unknown;
 				} | null;
 				gridClassName?: string | null;
+				displayMode?: ("grid" | "carousel") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -599,7 +605,8 @@ export interface Country {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -726,7 +733,8 @@ export interface Country {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -859,7 +867,8 @@ export interface Country {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -1739,7 +1748,8 @@ export interface Route {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -1871,6 +1881,7 @@ export interface Route {
 					[k: string]: unknown;
 				} | null;
 				gridClassName?: string | null;
+				displayMode?: ("grid" | "carousel") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -1941,7 +1952,8 @@ export interface Route {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -2068,7 +2080,8 @@ export interface Route {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -2201,7 +2214,8 @@ export interface Route {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -2979,7 +2993,8 @@ export interface City {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -3111,6 +3126,7 @@ export interface City {
 					[k: string]: unknown;
 				} | null;
 				gridClassName?: string | null;
+				displayMode?: ("grid" | "carousel") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -3181,7 +3197,8 @@ export interface City {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -3308,7 +3325,8 @@ export interface City {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -3441,7 +3459,8 @@ export interface City {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -4230,7 +4249,8 @@ export interface Region {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -4362,6 +4382,7 @@ export interface Region {
 					[k: string]: unknown;
 				} | null;
 				gridClassName?: string | null;
+				displayMode?: ("grid" | "carousel") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -4432,7 +4453,8 @@ export interface Region {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -4559,7 +4581,8 @@ export interface Region {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -4692,7 +4715,8 @@ export interface Region {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -5499,7 +5523,8 @@ export interface Experience {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -5631,6 +5656,7 @@ export interface Experience {
 					[k: string]: unknown;
 				} | null;
 				gridClassName?: string | null;
+				displayMode?: ("grid" | "carousel") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -5701,7 +5727,8 @@ export interface Experience {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -5828,7 +5855,8 @@ export interface Experience {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -5961,7 +5989,8 @@ export interface Experience {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -6714,7 +6743,8 @@ export interface Theme {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -6846,6 +6876,7 @@ export interface Theme {
 					[k: string]: unknown;
 				} | null;
 				gridClassName?: string | null;
+				displayMode?: ("grid" | "carousel") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -6916,7 +6947,8 @@ export interface Theme {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -7043,7 +7075,8 @@ export interface Theme {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -7176,7 +7209,8 @@ export interface Theme {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -7958,7 +7992,8 @@ export interface TradeFair {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -8090,6 +8125,7 @@ export interface TradeFair {
 					[k: string]: unknown;
 				} | null;
 				gridClassName?: string | null;
+				displayMode?: ("grid" | "carousel") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -8160,7 +8196,8 @@ export interface TradeFair {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -8287,7 +8324,8 @@ export interface TradeFair {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -8420,7 +8458,8 @@ export interface TradeFair {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -9200,7 +9239,8 @@ export interface Blog {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -9332,6 +9372,7 @@ export interface Blog {
 					[k: string]: unknown;
 				} | null;
 				gridClassName?: string | null;
+				displayMode?: ("grid" | "carousel") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -9402,7 +9443,8 @@ export interface Blog {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -9529,7 +9571,8 @@ export interface Blog {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -9662,7 +9705,8 @@ export interface Blog {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -10433,7 +10477,8 @@ export interface News {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -10565,6 +10610,7 @@ export interface News {
 					[k: string]: unknown;
 				} | null;
 				gridClassName?: string | null;
+				displayMode?: ("grid" | "carousel") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -10635,7 +10681,8 @@ export interface News {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -10762,7 +10809,8 @@ export interface News {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -10895,7 +10943,8 @@ export interface News {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -11689,7 +11738,8 @@ export interface Attraction {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -11821,6 +11871,7 @@ export interface Attraction {
 					[k: string]: unknown;
 				} | null;
 				gridClassName?: string | null;
+				displayMode?: ("grid" | "carousel") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -11891,7 +11942,8 @@ export interface Attraction {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -12018,7 +12070,8 @@ export interface Attraction {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -12151,7 +12204,8 @@ export interface Attraction {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -12945,7 +12999,8 @@ export interface Page {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -13077,6 +13132,7 @@ export interface Page {
 					[k: string]: unknown;
 				} | null;
 				gridClassName?: string | null;
+				displayMode?: ("grid" | "carousel") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -13147,7 +13203,8 @@ export interface Page {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -13274,7 +13331,8 @@ export interface Page {
 											| "quote"
 											| "alert"
 											| "miniTable"
-											| "catalogFeed";
+											| "catalogFeed"
+											| "tourDestination";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -13407,7 +13465,8 @@ export interface Page {
 								| "quote"
 								| "alert"
 								| "miniTable"
-								| "catalogFeed";
+								| "catalogFeed"
+								| "tourDestination";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -14322,6 +14381,7 @@ export interface CountriesSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							gridClassName?: T;
+							displayMode?: T;
 							actions?:
 								| T
 								| {
@@ -14751,6 +14811,7 @@ export interface RegionsSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							gridClassName?: T;
+							displayMode?: T;
 							actions?:
 								| T
 								| {
@@ -15174,6 +15235,7 @@ export interface CitiesSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							gridClassName?: T;
+							displayMode?: T;
 							actions?:
 								| T
 								| {
@@ -15603,6 +15665,7 @@ export interface AttractionsSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							gridClassName?: T;
+							displayMode?: T;
 							actions?:
 								| T
 								| {
@@ -16033,6 +16096,7 @@ export interface RoutesSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							gridClassName?: T;
+							displayMode?: T;
 							actions?:
 								| T
 								| {
@@ -16478,6 +16542,7 @@ export interface ExperiencesSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							gridClassName?: T;
+							displayMode?: T;
 							actions?:
 								| T
 								| {
@@ -16905,6 +16970,7 @@ export interface TradeFairsSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							gridClassName?: T;
+							displayMode?: T;
 							actions?:
 								| T
 								| {
@@ -17334,6 +17400,7 @@ export interface BlogSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							gridClassName?: T;
+							displayMode?: T;
 							actions?:
 								| T
 								| {
@@ -17757,6 +17824,7 @@ export interface NewsSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							gridClassName?: T;
+							displayMode?: T;
 							actions?:
 								| T
 								| {
@@ -18182,6 +18250,7 @@ export interface PagesSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							gridClassName?: T;
+							displayMode?: T;
 							actions?:
 								| T
 								| {
@@ -18607,6 +18676,7 @@ export interface ThemesSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							gridClassName?: T;
+							displayMode?: T;
 							actions?:
 								| T
 								| {
@@ -19127,7 +19197,8 @@ export interface Homepage {
 										| "quote"
 										| "alert"
 										| "miniTable"
-										| "catalogFeed";
+										| "catalogFeed"
+										| "tourDestination";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -19259,6 +19330,7 @@ export interface Homepage {
 							[k: string]: unknown;
 						} | null;
 						gridClassName?: string | null;
+						displayMode?: ("grid" | "carousel") | null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -19329,7 +19401,8 @@ export interface Homepage {
 													| "quote"
 													| "alert"
 													| "miniTable"
-													| "catalogFeed";
+													| "catalogFeed"
+													| "tourDestination";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -19476,7 +19549,8 @@ export interface Homepage {
 													| "quote"
 													| "alert"
 													| "miniTable"
-													| "catalogFeed";
+													| "catalogFeed"
+													| "tourDestination";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -19629,7 +19703,8 @@ export interface Homepage {
 										| "quote"
 										| "alert"
 										| "miniTable"
-										| "catalogFeed";
+										| "catalogFeed"
+										| "tourDestination";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -20315,6 +20390,7 @@ export interface Tour {
 							[k: string]: unknown;
 						} | null;
 						gridClassName?: string | null;
+						displayMode?: ("grid" | "carousel") | null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -20385,7 +20461,8 @@ export interface Tour {
 													| "quote"
 													| "alert"
 													| "miniTable"
-													| "catalogFeed";
+													| "catalogFeed"
+													| "tourDestination";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -20532,7 +20609,8 @@ export interface Tour {
 													| "quote"
 													| "alert"
 													| "miniTable"
-													| "catalogFeed";
+													| "catalogFeed"
+													| "tourDestination";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -20685,7 +20763,8 @@ export interface Tour {
 										| "quote"
 										| "alert"
 										| "miniTable"
-										| "catalogFeed";
+										| "catalogFeed"
+										| "tourDestination";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -21035,7 +21114,8 @@ export interface Destination {
 										| "quote"
 										| "alert"
 										| "miniTable"
-										| "catalogFeed";
+										| "catalogFeed"
+										| "tourDestination";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -21167,6 +21247,7 @@ export interface Destination {
 							[k: string]: unknown;
 						} | null;
 						gridClassName?: string | null;
+						displayMode?: ("grid" | "carousel") | null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -21237,7 +21318,8 @@ export interface Destination {
 													| "quote"
 													| "alert"
 													| "miniTable"
-													| "catalogFeed";
+													| "catalogFeed"
+													| "tourDestination";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -21384,7 +21466,8 @@ export interface Destination {
 													| "quote"
 													| "alert"
 													| "miniTable"
-													| "catalogFeed";
+													| "catalogFeed"
+													| "tourDestination";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -21537,7 +21620,8 @@ export interface Destination {
 										| "quote"
 										| "alert"
 										| "miniTable"
-										| "catalogFeed";
+										| "catalogFeed"
+										| "tourDestination";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -22275,7 +22359,8 @@ export interface RoutesHub {
 										| "quote"
 										| "alert"
 										| "miniTable"
-										| "catalogFeed";
+										| "catalogFeed"
+										| "tourDestination";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -22407,6 +22492,7 @@ export interface RoutesHub {
 							[k: string]: unknown;
 						} | null;
 						gridClassName?: string | null;
+						displayMode?: ("grid" | "carousel") | null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -22477,7 +22563,8 @@ export interface RoutesHub {
 													| "quote"
 													| "alert"
 													| "miniTable"
-													| "catalogFeed";
+													| "catalogFeed"
+													| "tourDestination";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -22624,7 +22711,8 @@ export interface RoutesHub {
 													| "quote"
 													| "alert"
 													| "miniTable"
-													| "catalogFeed";
+													| "catalogFeed"
+													| "tourDestination";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -22777,7 +22865,8 @@ export interface RoutesHub {
 										| "quote"
 										| "alert"
 										| "miniTable"
-										| "catalogFeed";
+										| "catalogFeed"
+										| "tourDestination";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -23515,7 +23604,8 @@ export interface ExperiencesHub {
 										| "quote"
 										| "alert"
 										| "miniTable"
-										| "catalogFeed";
+										| "catalogFeed"
+										| "tourDestination";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -23647,6 +23737,7 @@ export interface ExperiencesHub {
 							[k: string]: unknown;
 						} | null;
 						gridClassName?: string | null;
+						displayMode?: ("grid" | "carousel") | null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -23717,7 +23808,8 @@ export interface ExperiencesHub {
 													| "quote"
 													| "alert"
 													| "miniTable"
-													| "catalogFeed";
+													| "catalogFeed"
+													| "tourDestination";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -23864,7 +23956,8 @@ export interface ExperiencesHub {
 													| "quote"
 													| "alert"
 													| "miniTable"
-													| "catalogFeed";
+													| "catalogFeed"
+													| "tourDestination";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -24017,7 +24110,8 @@ export interface ExperiencesHub {
 										| "quote"
 										| "alert"
 										| "miniTable"
-										| "catalogFeed";
+										| "catalogFeed"
+										| "tourDestination";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -24755,7 +24849,8 @@ export interface TradeFairsHub {
 										| "quote"
 										| "alert"
 										| "miniTable"
-										| "catalogFeed";
+										| "catalogFeed"
+										| "tourDestination";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -24887,6 +24982,7 @@ export interface TradeFairsHub {
 							[k: string]: unknown;
 						} | null;
 						gridClassName?: string | null;
+						displayMode?: ("grid" | "carousel") | null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -24957,7 +25053,8 @@ export interface TradeFairsHub {
 													| "quote"
 													| "alert"
 													| "miniTable"
-													| "catalogFeed";
+													| "catalogFeed"
+													| "tourDestination";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -25104,7 +25201,8 @@ export interface TradeFairsHub {
 													| "quote"
 													| "alert"
 													| "miniTable"
-													| "catalogFeed";
+													| "catalogFeed"
+													| "tourDestination";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -25257,7 +25355,8 @@ export interface TradeFairsHub {
 										| "quote"
 										| "alert"
 										| "miniTable"
-										| "catalogFeed";
+										| "catalogFeed"
+										| "tourDestination";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -25995,7 +26094,8 @@ export interface BlogHub {
 										| "quote"
 										| "alert"
 										| "miniTable"
-										| "catalogFeed";
+										| "catalogFeed"
+										| "tourDestination";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -26127,6 +26227,7 @@ export interface BlogHub {
 							[k: string]: unknown;
 						} | null;
 						gridClassName?: string | null;
+						displayMode?: ("grid" | "carousel") | null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -26197,7 +26298,8 @@ export interface BlogHub {
 													| "quote"
 													| "alert"
 													| "miniTable"
-													| "catalogFeed";
+													| "catalogFeed"
+													| "tourDestination";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -26344,7 +26446,8 @@ export interface BlogHub {
 													| "quote"
 													| "alert"
 													| "miniTable"
-													| "catalogFeed";
+													| "catalogFeed"
+													| "tourDestination";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -26497,7 +26600,8 @@ export interface BlogHub {
 										| "quote"
 										| "alert"
 										| "miniTable"
-										| "catalogFeed";
+										| "catalogFeed"
+										| "tourDestination";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -27235,7 +27339,8 @@ export interface NewsHub {
 										| "quote"
 										| "alert"
 										| "miniTable"
-										| "catalogFeed";
+										| "catalogFeed"
+										| "tourDestination";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -27367,6 +27472,7 @@ export interface NewsHub {
 							[k: string]: unknown;
 						} | null;
 						gridClassName?: string | null;
+						displayMode?: ("grid" | "carousel") | null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -27437,7 +27543,8 @@ export interface NewsHub {
 													| "quote"
 													| "alert"
 													| "miniTable"
-													| "catalogFeed";
+													| "catalogFeed"
+													| "tourDestination";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -27584,7 +27691,8 @@ export interface NewsHub {
 													| "quote"
 													| "alert"
 													| "miniTable"
-													| "catalogFeed";
+													| "catalogFeed"
+													| "tourDestination";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -27737,7 +27845,8 @@ export interface NewsHub {
 										| "quote"
 										| "alert"
 										| "miniTable"
-										| "catalogFeed";
+										| "catalogFeed"
+										| "tourDestination";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -28881,6 +28990,132 @@ export interface UiTour {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ui-catalog".
+ */
+export interface UiCatalog {
+	id: number;
+	meta?: {
+		title?: string | null;
+		description?: string | null;
+	};
+	header?: {
+		found?: string | null;
+	};
+	filters?: {
+		title?: string | null;
+		fields?: {
+			price?: string | null;
+			region?: string | null;
+			duration?: string | null;
+			language?: string | null;
+			category?: string | null;
+		};
+		durations?: {
+			halfDay?: string | null;
+			fullDay?: string | null;
+			multiDays?: string | null;
+		};
+		buttons?: {
+			reset?: string | null;
+		};
+	};
+	toasts?: {
+		loadError?: string | null;
+	};
+	alert?: {
+		title?: string | null;
+		description?: string | null;
+	};
+	popularTours?: {
+		title?: string | null;
+	};
+	pagination?: {
+		prev?: string | null;
+		next?: string | null;
+		page?: string | null;
+	};
+	updatedAt?: string | null;
+	createdAt?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ui-orders".
+ */
+export interface UiOrder {
+	id: number;
+	pageName?: string | null;
+	table?: {
+		orderId?: string | null;
+		tourName?: string | null;
+		pax?: string | null;
+		dates?: string | null;
+	};
+	searchPlaceholder?: string | null;
+	empty?: string | null;
+	statuses?: {
+		new?: string | null;
+		inProcessing?: string | null;
+		booking?: string | null;
+		inProgress?: string | null;
+		completed?: string | null;
+		cancelled?: string | null;
+	};
+	toasts?: {
+		load?: {
+			error?: string | null;
+		};
+	};
+	buttons?: {
+		back?: string | null;
+	};
+	header?: {
+		orderStatus?: string | null;
+	};
+	orderInfo?: {
+		title?: string | null;
+		fields?: {
+			tourName?: string | null;
+			type?: string | null;
+			pax?: string | null;
+			route?: string | null;
+			duration?: string | null;
+			dates?: string | null;
+			comment?: string | null;
+		};
+	};
+	contactInfo?: {
+		title?: string | null;
+		fields?: {
+			client?: string | null;
+			email?: string | null;
+			phone?: string | null;
+		};
+	};
+	notFound?: {
+		title?: string | null;
+		description?: string | null;
+	};
+	paxInformation?: {
+		title?: string | null;
+		table?: {
+			fullName?: string | null;
+			gender?: string | null;
+			nationality?: string | null;
+			dateOfBirth?: string | null;
+			passportNumber?: string | null;
+			expiredDate?: string | null;
+			comment?: string | null;
+			genders?: {
+				male?: string | null;
+				female?: string | null;
+			};
+		};
+	};
+	updatedAt?: string | null;
+	createdAt?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "ui-discovery".
  */
 export interface UiDiscovery {
@@ -29393,6 +29628,7 @@ export interface HomepageSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							gridClassName?: T;
+							displayMode?: T;
 							actions?:
 								| T
 								| {
@@ -29725,6 +29961,7 @@ export interface ToursSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							gridClassName?: T;
+							displayMode?: T;
 							actions?:
 								| T
 								| {
@@ -30024,6 +30261,7 @@ export interface DestinationSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							gridClassName?: T;
+							displayMode?: T;
 							actions?:
 								| T
 								| {
@@ -30426,6 +30664,7 @@ export interface RoutesHubSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							gridClassName?: T;
+							displayMode?: T;
 							actions?:
 								| T
 								| {
@@ -30828,6 +31067,7 @@ export interface ExperiencesHubSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							gridClassName?: T;
+							displayMode?: T;
 							actions?:
 								| T
 								| {
@@ -31230,6 +31470,7 @@ export interface TradeFairsHubSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							gridClassName?: T;
+							displayMode?: T;
 							actions?:
 								| T
 								| {
@@ -31632,6 +31873,7 @@ export interface BlogHubSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							gridClassName?: T;
+							displayMode?: T;
 							actions?:
 								| T
 								| {
@@ -32034,6 +32276,7 @@ export interface NewsHubSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							gridClassName?: T;
+							displayMode?: T;
 							actions?:
 								| T
 								| {
@@ -32897,6 +33140,180 @@ export interface UiToursSelect<T extends boolean = true> {
 		| T
 		| {
 				loadError?: T;
+		  };
+	updatedAt?: T;
+	createdAt?: T;
+	globalType?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ui-catalog_select".
+ */
+export interface UiCatalogSelect<T extends boolean = true> {
+	meta?:
+		| T
+		| {
+				title?: T;
+				description?: T;
+		  };
+	header?:
+		| T
+		| {
+				found?: T;
+		  };
+	filters?:
+		| T
+		| {
+				title?: T;
+				fields?:
+					| T
+					| {
+							price?: T;
+							region?: T;
+							duration?: T;
+							language?: T;
+							category?: T;
+					  };
+				durations?:
+					| T
+					| {
+							halfDay?: T;
+							fullDay?: T;
+							multiDays?: T;
+					  };
+				buttons?:
+					| T
+					| {
+							reset?: T;
+					  };
+		  };
+	toasts?:
+		| T
+		| {
+				loadError?: T;
+		  };
+	alert?:
+		| T
+		| {
+				title?: T;
+				description?: T;
+		  };
+	popularTours?:
+		| T
+		| {
+				title?: T;
+		  };
+	pagination?:
+		| T
+		| {
+				prev?: T;
+				next?: T;
+				page?: T;
+		  };
+	updatedAt?: T;
+	createdAt?: T;
+	globalType?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ui-orders_select".
+ */
+export interface UiOrdersSelect<T extends boolean = true> {
+	pageName?: T;
+	table?:
+		| T
+		| {
+				orderId?: T;
+				tourName?: T;
+				pax?: T;
+				dates?: T;
+		  };
+	searchPlaceholder?: T;
+	empty?: T;
+	statuses?:
+		| T
+		| {
+				new?: T;
+				inProcessing?: T;
+				booking?: T;
+				inProgress?: T;
+				completed?: T;
+				cancelled?: T;
+		  };
+	toasts?:
+		| T
+		| {
+				load?:
+					| T
+					| {
+							error?: T;
+					  };
+		  };
+	buttons?:
+		| T
+		| {
+				back?: T;
+		  };
+	header?:
+		| T
+		| {
+				orderStatus?: T;
+		  };
+	orderInfo?:
+		| T
+		| {
+				title?: T;
+				fields?:
+					| T
+					| {
+							tourName?: T;
+							type?: T;
+							pax?: T;
+							route?: T;
+							duration?: T;
+							dates?: T;
+							comment?: T;
+					  };
+		  };
+	contactInfo?:
+		| T
+		| {
+				title?: T;
+				fields?:
+					| T
+					| {
+							client?: T;
+							email?: T;
+							phone?: T;
+					  };
+		  };
+	notFound?:
+		| T
+		| {
+				title?: T;
+				description?: T;
+		  };
+	paxInformation?:
+		| T
+		| {
+				title?: T;
+				table?:
+					| T
+					| {
+							fullName?: T;
+							gender?: T;
+							nationality?: T;
+							dateOfBirth?: T;
+							passportNumber?: T;
+							expiredDate?: T;
+							comment?: T;
+							genders?:
+								| T
+								| {
+										male?: T;
+										female?: T;
+								  };
+					  };
 		  };
 	updatedAt?: T;
 	createdAt?: T;

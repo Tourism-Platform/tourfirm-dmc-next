@@ -17,31 +17,41 @@ const LG_GRID_COLS = [
 
 function getOverviewStatsGridClassName(count: number) {
 	const cols = Math.max(count, 1);
-	const smCols = Math.min(cols, 2);
 
 	return cn(
-		"grid-cols-1",
-		smCols === 2 && "sm:grid-cols-2",
+		"grid-cols-2",
 		LG_GRID_COLS[Math.min(cols, LG_GRID_COLS.length) - 1]
 	);
 }
 
 export function OverviewStatsSection({ cards }: TOverviewStatsSectionProps) {
+	const isOdd = cards.length % 2 === 1;
+
 	return (
-		<section className="full-bleed border-b bg-muted/40">
+		<section className="full-bleed">
 			<div
 				className={cn(
-					"mx-auto grid max-w-7xl gap-3 px-4 py-6 sm:px-6 lg:gap-4 lg:px-8 lg:py-8",
+					"mx-auto grid max-w-7xl gap-3 px-4 py-6 sm:gap-4 sm:px-6 lg:gap-4 lg:px-8 lg:py-8",
 					getOverviewStatsGridClassName(cards.length)
 				)}
 			>
-				{cards.map((card, index) => (
-					<CardRender
-						key={String(index)}
-						type={CardType.OverviewStat}
-						item={card.item}
-					/>
-				))}
+				{cards.map((card, index) => {
+					const isLastOdd = isOdd && index === cards.length - 1;
+
+					return (
+						<div
+							key={String(index)}
+							className={cn(
+								isLastOdd && "col-span-2 lg:col-span-1"
+							)}
+						>
+							<CardRender
+								type={CardType.OverviewStat}
+								item={card.item}
+							/>
+						</div>
+					);
+				})}
 			</div>
 		</section>
 	);

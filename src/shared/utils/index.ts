@@ -5,4 +5,4 @@ export * from "./format-date";
 export * from "./file";
 export * from "./create-enum-wrapper";
 export * from "./geo-option.utils";
-// export * from "./geo-display.utils";
+export * from "./geo-display.utils";

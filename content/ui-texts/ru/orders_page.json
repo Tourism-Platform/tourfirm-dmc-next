@@ -1,0 +1,70 @@
+{
+	"page_name": "Заказы",
+	"table": {
+		"order_id": "ID заказа",
+		"tour_name": "Название тура",
+		"pax": "PAX",
+		"dates": "Даты"
+	},
+	"search_placeholder": "Поиск заказов",
+	"empty": "Заказов пока нет",
+	"statuses": {
+		"new": "Новый",
+		"in_processing": "В обработке",
+		"booking": "Бронирование",
+		"in_progress": "В процессе",
+		"completed": "Завершён",
+		"cancelled": "Отменён"
+	},
+	"toasts": {
+		"load": {
+			"error": "Не удалось загрузить заказы"
+		}
+	},
+	"buttons": {
+		"back": "Назад"
+	},
+	"header": {
+		"order_status": "Статус заказа"
+	},
+	"order_info": {
+		"title": "Информация о заказе",
+		"fields": {
+			"tour_name": "Название тура",
+			"type": "Тип",
+			"pax": "PAX",
+			"route": "Маршрут",
+			"duration": "Длительность",
+			"dates": "Даты",
+			"comment": "Комментарий"
+		}
+	},
+	"contact_info": {
+		"title": "Контактная информация",
+		"fields": {
+			"client": "Клиент",
+			"email": "Email",
+			"phone": "Номер телефона"
+		}
+	},
+	"not_found": {
+		"title": "Заказ не найден",
+		"description": "К сожалению, мы не смогли найти заказ с таким идентификатором. Проверьте данные или вернитесь к списку заказов."
+	},
+	"pax_information": {
+		"title": "Информация о пассажирах (PAX)",
+		"table": {
+			"full_name": "ФИО",
+			"gender": "Пол",
+			"nationality": "Гражданство",
+			"date_of_birth": "Дата рождения",
+			"passport_number": "№ Паспорта",
+			"expired_date": "Срок действия",
+			"comment": "Комментарий",
+			"genders": {
+				"male": "Мужской",
+				"female": "Женский"
+			}
+		}
+	}
+}

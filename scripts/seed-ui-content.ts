@@ -16,7 +16,9 @@ import {
 import { UI_TEXTS_DIR } from "./seed/lib/paths.js";
 import { updateGlobalLocale } from "./seed/lib/update-global.js";
 import { seedUiBooking } from "./seed/seeders/ui-booking.js";
+import { seedUiCatalog } from "./seed/seeders/ui-catalog.js";
 import { seedUiLogin } from "./seed/seeders/ui-login.js";
+import { seedUiOrders } from "./seed/seeders/ui-orders.js";
 import { seedUiPreview } from "./seed/seeders/ui-preview.js";
 
 const LOCALES = SUPPORTED_LOCALES;
@@ -258,10 +260,14 @@ export async function seedUiContent(payload: Payload): Promise<void> {
 	await seedUiLogin(payload);
 	await seedUiPreview(payload);
 	await seedUiBooking(payload);
+	await seedUiCatalog(payload);
+	await seedUiOrders(payload);
 }
 
 export { seedUiPreview } from "./seed/seeders/ui-preview.js";
 export { seedUiLogin } from "./seed/seeders/ui-login.js";
 export { seedUiBooking } from "./seed/seeders/ui-booking.js";
+export { seedUiCatalog } from "./seed/seeders/ui-catalog.js";
+export { seedUiOrders } from "./seed/seeders/ui-orders.js";
 export { seedUiTours } from "./seed/seeders/ui-tours.js";
 export { seedToursPage } from "./seed/seeders/tours-page.js";

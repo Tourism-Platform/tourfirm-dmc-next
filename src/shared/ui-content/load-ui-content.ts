@@ -5,6 +5,7 @@ import type { TypedLocale } from "payload";
 import { cache } from "react";
 import "server-only";
 
+import { DEFAULT_UI_CATALOG } from "./ui-catalog.defaults";
 import {
 	mapFooterUiTexts,
 	mapGlobalUiContent,
@@ -12,13 +13,16 @@ import {
 } from "./ui-content.mapper";
 import type {
 	TUiBooking,
+	TUiCatalog,
 	TUiCommon,
 	TUiContent,
 	TUiDiscovery,
 	TUiLogin,
+	TUiOrders,
 	TUiPreview,
 	TUiTours
 } from "./ui-content.types";
+import { DEFAULT_UI_ORDERS } from "./ui-orders.defaults";
 import { UI_CONTENT_CACHE_TAG } from "@/cms/cache/cache-tags";
 
 const UI_GLOBAL_SLUGS = [
@@ -26,6 +30,8 @@ const UI_GLOBAL_SLUGS = [
 	"footer",
 	"ui-common",
 	"ui-tours",
+	"ui-catalog",
+	"ui-orders",
 	"ui-discovery",
 	"ui-login",
 	"ui-preview",
@@ -85,6 +91,20 @@ function mapUiContentBundle(
 			fallback["ui-tours"],
 			current["ui-tours"]
 		) as TUiTours,
+		catalog: mapGlobalUiContent(
+			DEFAULT_UI_CATALOG,
+			mapGlobalUiContent(
+				fallback["ui-catalog"] as unknown as TUiCatalog,
+				current["ui-catalog"] as unknown as TUiCatalog
+			)
+		) as TUiCatalog,
+		orders: mapGlobalUiContent(
+			DEFAULT_UI_ORDERS,
+			mapGlobalUiContent(
+				fallback["ui-orders"] as unknown as TUiOrders,
+				current["ui-orders"] as unknown as TUiOrders
+			)
+		) as TUiOrders,
 		discovery: mapGlobalUiContent(
 			fallback["ui-discovery"],
 			current["ui-discovery"]

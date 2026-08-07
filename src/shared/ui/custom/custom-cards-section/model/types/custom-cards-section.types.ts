@@ -10,6 +10,7 @@ export type TCardsSectionProps = {
 	cards: TCardRenderProps[];
 	rows?: TContentRow[];
 	gridClassName?: string;
+	displayMode?: "grid" | "carousel";
 	actions?: ReactNode;
 	emptyLabel?: string;
 };

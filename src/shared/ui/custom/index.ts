@@ -1,3 +1,4 @@
+export * from "./smart-table";
 export * from "./custom-autocomplete";
 export * from "./custom-geo-select";
 export * from "./custom-calendar-range";
@@ -11,6 +12,7 @@ export * from "./custom-upload-main-image";
 export * from "./custom-upload-images";
 export * from "./custom-price-filter";
 export * from "./custom-accordion";
+export * from "./custom-accordion-range";
 export * from "./custom-input-select";
 export * from "./custom-selectable-card";
 export * from "./custom-section-header";

@@ -31,14 +31,14 @@ const HeroSectionBase: FC<IHeroSectionProps> = ({ form }) => {
 				sizes="100vw"
 			/>
 			<div className="absolute inset-0 z-[1] bg-black/40" />
-			<h1 className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center px-4 text-center text-4xl tracking-wide text-white uppercase sm:text-5xl lg:text-6xl xl:text-7xl">
+			<h1 className="pointer-events-none absolute inset-x-0 top-[32%] z-10 -translate-y-1/2 px-4 text-center text-4xl tracking-wide text-white uppercase sm:top-[36%] sm:text-5xl lg:text-6xl xl:text-7xl">
 				{tours.hero.title}
 			</h1>
 			<div className="relative z-20 flex min-h-[420px] flex-col justify-end sm:min-h-[520px]">
 				<div className="mx-auto w-full max-w-7xl px-4 pb-0 sm:px-6 lg:px-8">
 					<SearchToursBar
 						form={form}
-						className="-mb-10 shadow-lg sm:-mb-12"
+						className="translate-y-1/2 shadow-lg"
 					/>
 				</div>
 			</div>

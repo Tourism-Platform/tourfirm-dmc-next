@@ -80,6 +80,87 @@ blocks:
           ru: Связь с рынками
           uz: Bozorlar bilan bog'lanish
 
+  - blockType: routeLine
+    eyebrow:
+      en: How we work
+      ru: Как мы работаем
+      uz: Qanday ishlaymiz
+    title:
+      en: One line — from the first message to the last day.
+      ru: Одна линия — от первого письма до последнего дня.
+      uz: Bitta chiziq — birinchi xatdan oxirgi kungacha.
+    description:
+      en: Guides, transport, hotels, activities, and border crossings are ours — not outsourced. That is why the trip finds its rhythm before the city list.
+      ru: Гиды, транспорт, отели, активности и переходы границ — всё это наше, а не подряд со стороны. Поэтому у поездки появляется ритм раньше, чем список городов.
+      uz: Gidlar, transport, mehmonxonalar, faoliyatlar va chegaralar — bularning hammasi bizniki, tashqi pudratchi emas. Shuning uchun sayohat shaharlar ro'yxatidan oldin o'z ritmini topadi.
+    start:
+      label:
+        en: Start
+        ru: Начало
+        uz: Boshlanish
+      title:
+        en: TourLink, Tashkent
+        ru: TourLink, Ташкент
+        uz: TourLink, Toshkent
+      description:
+        en: You write once — we assemble the route from there.
+        ru: Вы пишете нам один раз — дальше маршрут собираем мы.
+        uz: Bir marta yozasiz — marshrutni bundan keyin biz yig'amiz.
+    items:
+      - title:
+          en: Guides
+          ru: Гиды
+          uz: Gidlar
+        description:
+          en: Our own, who know the city from inside — where, when, and at what pace.
+          ru: Свои, знают город изнутри — где, когда и в каком темпе идти.
+          uz: O'zimizniki, shaharni ichkaridan biladi — qayerda, qachon va qanday tempda.
+      - title:
+          en: Transport
+          ru: Транспорт
+          uz: Transport
+        description:
+          en: Our cars and on-site pickup — matched to the route and group size.
+          ru: Свои машины и встреча на месте — под маршрут и размер группы.
+          uz: O'z mashinalarimiz va joyida kutib olish — marshrut va guruh hajmiga mos.
+      - title:
+          en: Hotels
+          ru: Отели
+          uz: Mehmonxonalar
+        description:
+          en: Vetted stays booked ahead — no surprises from the photos.
+          ru: Проверенные, забронированы заранее — без сюрпризов «по фото».
+          uz: Tekshirilgan, oldindan bron qilingan — fotodagi kutilmagan holatlarsiz.
+      - title:
+          en: Activities
+          ru: Активности
+          uz: Faoliyatlar
+        description:
+          en: Crafts, makers, and tastings — what makes the day feel alive.
+          ru: Ремёсла, мастера и дегустации — то, что делает день живым.
+          uz: Hunarmandchilik, ustalar va degustatsiyalar — kunni jonli qiladigan narsa.
+      - title:
+          en: Borders
+          ru: Границы
+          uz: Chegaralar
+        description:
+          en: Crossings planned in advance — no hours lost at the checkpoint.
+          ru: Переходы спланированы заранее — без потерянных часов на кордоне.
+          uz: O'tishlar oldindan rejalashtirilgan — kordonlarda soatlar yo'qolmasin.
+    end:
+      label:
+        en: Result
+        ru: Результат
+        uz: Natija
+      title:
+        en: Your route
+        ru: Ваш маршрут
+        uz: Sizning marshrutingiz
+      description:
+        en: One team owns the whole line.
+        ru: За всю линию отвечает одна команда.
+        uz: Butun chiziq uchun bitta jamoa javobgar.
+
   - blockType: regular
     eyebrow:
       en: Where we work
@@ -370,87 +451,6 @@ blocks:
           en: Request a route
           ru: Запросить маршрут
           uz: Marshrut so'rash
-
-  - blockType: routeLine
-    eyebrow:
-      en: How we work
-      ru: Как мы работаем
-      uz: Qanday ishlaymiz
-    title:
-      en: One line — from the first message to the last day.
-      ru: Одна линия — от первого письма до последнего дня.
-      uz: Bitta chiziq — birinchi xatdan oxirgi kungacha.
-    description:
-      en: Guides, transport, hotels, activities, and border crossings are ours — not outsourced. That is why the trip finds its rhythm before the city list.
-      ru: Гиды, транспорт, отели, активности и переходы границ — всё это наше, а не подряд со стороны. Поэтому у поездки появляется ритм раньше, чем список городов.
-      uz: Gidlar, transport, mehmonxonalar, faoliyatlar va chegaralar — bularning hammasi bizniki, tashqi pudratchi emas. Shuning uchun sayohat shaharlar ro'yxatidan oldin o'z ritmini topadi.
-    start:
-      label:
-        en: Start
-        ru: Начало
-        uz: Boshlanish
-      title:
-        en: TourLink, Tashkent
-        ru: TourLink, Ташкент
-        uz: TourLink, Toshkent
-      description:
-        en: You write once — we assemble the route from there.
-        ru: Вы пишете нам один раз — дальше маршрут собираем мы.
-        uz: Bir marta yozasiz — marshrutni bundan keyin biz yig'amiz.
-    items:
-      - title:
-          en: Guides
-          ru: Гиды
-          uz: Gidlar
-        description:
-          en: Our own, who know the city from inside — where, when, and at what pace.
-          ru: Свои, знают город изнутри — где, когда и в каком темпе идти.
-          uz: O'zimizniki, shaharni ichkaridan biladi — qayerda, qachon va qanday tempda.
-      - title:
-          en: Transport
-          ru: Транспорт
-          uz: Transport
-        description:
-          en: Our cars and on-site pickup — matched to the route and group size.
-          ru: Свои машины и встреча на месте — под маршрут и размер группы.
-          uz: O'z mashinalarimiz va joyida kutib olish — marshrut va guruh hajmiga mos.
-      - title:
-          en: Hotels
-          ru: Отели
-          uz: Mehmonxonalar
-        description:
-          en: Vetted stays booked ahead — no surprises from the photos.
-          ru: Проверенные, забронированы заранее — без сюрпризов «по фото».
-          uz: Tekshirilgan, oldindan bron qilingan — fotodagi kutilmagan holatlarsiz.
-      - title:
-          en: Activities
-          ru: Активности
-          uz: Faoliyatlar
-        description:
-          en: Crafts, makers, and tastings — what makes the day feel alive.
-          ru: Ремёсла, мастера и дегустации — то, что делает день живым.
-          uz: Hunarmandchilik, ustalar va degustatsiyalar — kunni jonli qiladigan narsa.
-      - title:
-          en: Borders
-          ru: Границы
-          uz: Chegaralar
-        description:
-          en: Crossings planned in advance — no hours lost at the checkpoint.
-          ru: Переходы спланированы заранее — без потерянных часов на кордоне.
-          uz: O'tishlar oldindan rejalashtirilgan — kordonlarda soatlar yo'qolmasin.
-    end:
-      label:
-        en: Result
-        ru: Результат
-        uz: Natija
-      title:
-        en: Your route
-        ru: Ваш маршрут
-        uz: Sizning marshrutingiz
-      description:
-        en: One team owns the whole line.
-        ru: За всю линию отвечает одна команда.
-        uz: Butun chiziq uchun bitta jamoa javobgar.
 
   - blockType: regular
     eyebrow:

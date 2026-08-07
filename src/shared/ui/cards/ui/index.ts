@@ -19,6 +19,7 @@ export { TeamMemberCard } from "./team-member-card";
 export { BlogCard } from "./blog-card";
 export { CatalogFeedCard } from "./catalog-feed-card";
 export { NewsCard } from "./news-card";
+export { TourDestinationCard } from "./tour-destination-card";
 export { TradeFairCard } from "./trade-fair-card";
 export { TripFormatCard } from "./trip-format-card";
 export { DashTitleCard } from "./dash-title-card";

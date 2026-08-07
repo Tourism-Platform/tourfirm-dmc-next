@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: TProps) {
 		title: "Booking",
 		description: "Manage your bookings",
 		locale,
-		path: ENUM_PATH.MAIN.BOOKING
+		path: ENUM_PATH.BOOKING.ROOT
 	});
 }
 

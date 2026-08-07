@@ -1,0 +1,54 @@
+{
+	"meta": {
+		"title": "Tour catalog | TourLink",
+		"description": "Browse and filter tours by region, duration, language, category and price."
+	},
+	"hero": {
+		"title": "Catalog"
+	},
+	"header": {
+		"found": "{count, plural, one {# Tour Found on Your Search} other {# Tours Found on Your Search}}"
+	},
+	"filters": {
+		"title": "Filters",
+		"fields": {
+			"price": "Price per traveler",
+			"region": "Region",
+			"duration": "Duration of the tour",
+			"language": "Language",
+			"category": "Category"
+		},
+		"durations": {
+			"half_day": "Half day",
+			"full_day": "Full day",
+			"multi_days": "Multi days"
+		},
+		"buttons": {
+			"reset": "Reset",
+			"apply": "Apply"
+		}
+	},
+	"toolbar": {
+		"filters": "Filters",
+		"clear_filters": "Clear filters"
+	},
+	"view": {
+		"grid": "Grid view",
+		"list": "List view"
+	},
+	"toasts": {
+		"load_error": "Error loading catalog"
+	},
+	"alert": {
+		"title": "Similar options:",
+		"description": "These options match your search criteria but are outside the dates you specified."
+	},
+	"popular_tours": {
+		"title": "Most Popular Tours"
+	},
+	"pagination": {
+		"prev": "Previous",
+		"next": "Next",
+		"page": "Page {page} of {total}"
+	}
+}

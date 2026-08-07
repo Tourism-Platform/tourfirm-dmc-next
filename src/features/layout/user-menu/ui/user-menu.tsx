@@ -55,7 +55,12 @@ export const UserMenu: FC<TProps> = ({ items }) => {
 
 	if (!isAuth) {
 		return (
-			<Button variant="outline" size="sm" asChild>
+			<Button
+				variant="default"
+				size="sm"
+				className="min-w-28 px-5"
+				asChild
+			>
 				<Link href={ENUM_PATH.AUTH.LOGIN}>{userMenu.login}</Link>
 			</Button>
 		);

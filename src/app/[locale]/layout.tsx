@@ -121,7 +121,7 @@ export default async function LocaleLayout({ children, params }: TProps) {
 								userMenuItems={layoutNavigation.userMenuItems}
 							/>
 							<AuthBootstrap />
-							<main className="mx-auto flex w-full max-w-7xl flex-1 flex-col px-4 sm:px-6 lg:px-8">
+							<main className="mx-auto flex w-full max-w-7xl flex-1 flex-col px-4 pb-16 sm:px-6 sm:pb-20 lg:px-8">
 								{children}
 							</main>
 							<FooterDefault

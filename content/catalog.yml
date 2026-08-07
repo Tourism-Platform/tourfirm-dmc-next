@@ -11,12 +11,12 @@ en:
       eyebrow: Insights
       title: News & blog
       description: null
-      gridClassName: grid grid-cols-1 gap-4 md:grid-cols-3
+      displayMode: carousel
       actions:
         - type: link
           title: View all
           href: /blog
-          variant: link
+          variant: outline
       cards:
         - type: catalogFeed
           title: Top 5 hidden gems of Samarkand you must visit
@@ -46,7 +46,7 @@ en:
       actions:
         - type: link
           title: See more
-          href: /catalog
+          href: /tours/catalog
           variant: destructive
     - blockType: regular
       eyebrow: Explore
@@ -57,40 +57,40 @@ en:
         - type: link
           title: View all
           href: /destinations
-          variant: link
+          variant: outline
       cards:
-        - type: country
+        - type: tourDestination
           title: Samarkand
           description: 12 tours & activities
           badge: Uzbekistan
           href: /destinations
           imageUrl: /assets/images/city/samarkand.jpg
           className: null
-        - type: country
+        - type: tourDestination
           title: Bukhara
           description: 9 tours & activities
           badge: Uzbekistan
           href: /destinations
           imageUrl: /assets/images/city/bukhara.jpg
-        - type: country
+        - type: tourDestination
           title: Khiva
           description: 7 tours & activities
           badge: Uzbekistan
           href: /destinations
           imageUrl: /assets/images/city/khiva.jpg
-        - type: country
+        - type: tourDestination
           title: Tashkent
           description: 15 tours & activities
           badge: Uzbekistan
           href: /destinations
           imageUrl: /assets/images/city/tashkent.jpg
-        - type: country
+        - type: tourDestination
           title: Fergana
           description: 6 tours & activities
           badge: Uzbekistan
           href: /destinations
           imageUrl: /assets/images/city/fergana.jpg
-        - type: country
+        - type: tourDestination
           title: Nukus
           description: 4 tours & activities
           badge: Uzbekistan
@@ -108,12 +108,12 @@ ru:
     - blockType: regular
       eyebrow: Материалы
       title: Новости и блог
-      gridClassName: grid grid-cols-1 gap-4 md:grid-cols-3
+      displayMode: carousel
       actions:
         - type: link
           title: Смотреть все
           href: /blog
-          variant: link
+          variant: outline
       cards:
         - type: catalogFeed
           title: 5 скрытых жемчужин Самарканда
@@ -142,7 +142,7 @@ ru:
       actions:
         - type: link
           title: Смотреть ещё
-          href: /catalog
+          href: /tours/catalog
           variant: destructive
     - blockType: regular
       eyebrow: Направления
@@ -152,39 +152,39 @@ ru:
         - type: link
           title: Смотреть все
           href: /destinations
-          variant: link
+          variant: outline
       cards:
-        - type: country
+        - type: tourDestination
           title: Самарканд
           description: 12 туров
           badge: Узбекистан
           href: /destinations
           imageUrl: /assets/images/city/samarkand.jpg
-        - type: country
+        - type: tourDestination
           title: Бухара
           description: 9 туров
           badge: Узбекистан
           href: /destinations
           imageUrl: /assets/images/city/bukhara.jpg
-        - type: country
+        - type: tourDestination
           title: Хива
           description: 7 туров
           badge: Узбекистан
           href: /destinations
           imageUrl: /assets/images/city/khiva.jpg
-        - type: country
+        - type: tourDestination
           title: Ташкент
           description: 15 туров
           badge: Узбекистан
           href: /destinations
           imageUrl: /assets/images/city/tashkent.jpg
-        - type: country
+        - type: tourDestination
           title: Фергана
           description: 6 туров
           badge: Узбекистан
           href: /destinations
           imageUrl: /assets/images/city/fergana.jpg
-        - type: country
+        - type: tourDestination
           title: Нукус
           description: 4 тура
           badge: Узбекистан
@@ -202,12 +202,12 @@ uz:
     - blockType: regular
       eyebrow: Materiallar
       title: Yangiliklar va blog
-      gridClassName: grid grid-cols-1 gap-4 md:grid-cols-3
+      displayMode: carousel
       actions:
         - type: link
           title: Barchasini ko'rish
           href: /blog
-          variant: link
+          variant: outline
       cards:
         - type: catalogFeed
           title: Samarqandning 5 ta yashirin gavhari
@@ -236,7 +236,7 @@ uz:
       actions:
         - type: link
           title: Ko'proq
-          href: /catalog
+          href: /tours/catalog
           variant: destructive
     - blockType: regular
       eyebrow: Yo'nalishlar
@@ -246,39 +246,39 @@ uz:
         - type: link
           title: Barchasini ko'rish
           href: /destinations
-          variant: link
+          variant: outline
       cards:
-        - type: country
+        - type: tourDestination
           title: Samarqand
           description: 12 ta tur
           badge: O'zbekiston
           href: /destinations
           imageUrl: /assets/images/city/samarkand.jpg
-        - type: country
+        - type: tourDestination
           title: Buxoro
           description: 9 ta tur
           badge: O'zbekiston
           href: /destinations
           imageUrl: /assets/images/city/bukhara.jpg
-        - type: country
+        - type: tourDestination
           title: Xiva
           description: 7 ta tur
           badge: O'zbekiston
           href: /destinations
           imageUrl: /assets/images/city/khiva.jpg
-        - type: country
+        - type: tourDestination
           title: Toshkent
           description: 15 ta tur
           badge: O'zbekiston
           href: /destinations
           imageUrl: /assets/images/city/tashkent.jpg
-        - type: country
+        - type: tourDestination
           title: Farg'ona
           description: 6 ta tur
           badge: O'zbekiston
           href: /destinations
           imageUrl: /assets/images/city/fergana.jpg
-        - type: country
+        - type: tourDestination
           title: Nukus
           description: 4 ta tur
           badge: O'zbekiston
