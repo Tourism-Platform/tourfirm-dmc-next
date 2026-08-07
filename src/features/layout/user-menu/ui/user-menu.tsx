@@ -32,7 +32,25 @@ type TProps = {
 	items: TResolvedUserMenuItem[];
 };
 
-function getInitials(firstName: string, lastName: string): string {
+function getDisplayName(
+	firstName: string | undefined,
+	lastName: string | undefined,
+	email: string | undefined,
+	fallback: string
+): string {
+	const fullName = [firstName, lastName]
+		.map((part) => part?.trim())
+		.filter(Boolean)
+		.join(" ");
+
+	return fullName || email?.trim() || fallback;
+}
+
+function getInitials(
+	firstName: string,
+	lastName: string,
+	email: string
+): string {
 	const first = firstName.trim().charAt(0);
 	const last = lastName.trim().charAt(0);
 
@@ -40,7 +58,11 @@ function getInitials(firstName: string, lastName: string): string {
 		return `${first}${last}`.toUpperCase();
 	}
 
-	return first || last || "";
+	if (first || last) {
+		return (first || last).toUpperCase();
+	}
+
+	return email.trim().charAt(0).toUpperCase();
 }
 
 export const UserMenu: FC<TProps> = ({ items }) => {
@@ -66,11 +88,19 @@ export const UserMenu: FC<TProps> = ({ items }) => {
 		);
 	}
 
-	const displayName =
-		accountData?.firstName && accountData?.lastName
-			? `${accountData.firstName} ${accountData.lastName}`
-			: userMenu.defaultUserName;
+	const displayName = getDisplayName(
+		accountData?.firstName,
+		accountData?.lastName,
+		authAccount?.email,
+		userMenu.defaultUserName
+	);
 	const avatarSrc = accountData?.avatar ?? authAccount?.picture ?? undefined;
+	const initials =
+		getInitials(
+			accountData?.firstName ?? "",
+			accountData?.lastName ?? "",
+			authAccount?.email ?? ""
+		) || userMenu.defaultUserName.charAt(0);
 
 	return (
 		<DropdownMenu>
@@ -83,13 +113,10 @@ export const UserMenu: FC<TProps> = ({ items }) => {
 					<Avatar className="size-9 cursor-pointer">
 						<AvatarImage src={avatarSrc} alt={displayName} />
 						<AvatarFallback>
-							{isAccountLoading ? (
+							{isAccountLoading || isAuthLoading ? (
 								<Skeleton className="size-4" />
 							) : (
-								getInitials(
-									accountData?.firstName ?? "",
-									accountData?.lastName ?? ""
-								) || userMenu.defaultUserName.charAt(0)
+								initials
 							)}
 						</AvatarFallback>
 					</Avatar>
@@ -98,7 +125,7 @@ export const UserMenu: FC<TProps> = ({ items }) => {
 			<DropdownMenuContent className="max-w-64" align="end">
 				<DropdownMenuLabel className="flex min-w-0 flex-col gap-1">
 					<span className="text-foreground truncate text-sm font-medium">
-						{isAccountLoading ? (
+						{isAccountLoading || isAuthLoading ? (
 							<Skeleton className="h-4 w-24" />
 						) : (
 							displayName

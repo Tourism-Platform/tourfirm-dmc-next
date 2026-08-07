@@ -1,12 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
-
-import { ENUM_PATH } from "@/shared/config";
-import { useAppSelector } from "@/shared/hooks";
-import { useRouter } from "@/shared/i18n";
-
-import { useGetAuthAccountQuery } from "@/entities/auth";
+import { useRequireAuth } from "@/features/auth";
 
 import { OrderId } from "@/widgets/booking";
 
@@ -15,22 +9,9 @@ type TProps = {
 };
 
 export function BookingOrderPage({ orderId }: TProps) {
-	const router = useRouter();
-	const isAuth = useAppSelector((state) => state.userSlice.isAuth);
-	const { isError, isLoading, isSuccess } = useGetAuthAccountQuery(
-		undefined,
-		{
-			skip: !isAuth
-		}
-	);
+	const { isReady, isChecking } = useRequireAuth();
 
-	useEffect(() => {
-		if (!isAuth || isError) {
-			router.replace(ENUM_PATH.AUTH.LOGIN);
-		}
-	}, [isAuth, isError, router]);
-
-	if (!isAuth || isLoading || !isSuccess) {
+	if (isChecking || !isReady) {
 		return null;
 	}
 

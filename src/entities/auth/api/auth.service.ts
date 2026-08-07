@@ -5,7 +5,7 @@ import type { IAuthAccount, TAuthAccountBackend } from "../types";
 
 import { authApi } from "./auth.api";
 
-export const AuthService = baseApi.injectEndpoints({
+export const AuthService = authApi.injectEndpoints({
 	endpoints: (build) => ({
 		getAuthAccount: build.query<IAuthAccount, void>({
 			query: () => AUTH_PATHS.getMyAccount,
