@@ -18,14 +18,14 @@ const OUT = path.join(ROOT, ".perf-profile-results.json");
 const ROUTES = [
 	{
 		id: "booking",
-		path: `/en/catalog/${TOUR}/booking`,
+		path: `/en/tours/${TOUR}/booking`,
 		matchFn: (l) =>
-			l.includes(`GET /en/catalog/${TOUR}/booking 200`) &&
+			l.includes(`GET /en/tours/${TOUR}/booking 200`) &&
 			l.includes("application-code")
 	},
 	{
 		id: "catalog",
-		path: "/en/catalog",
+		path: "/en/tours",
 		matchFn: (l) =>
 			/GET \/en\/catalog 200/.test(l) && l.includes("application-code")
 	}

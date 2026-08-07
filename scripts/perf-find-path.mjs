@@ -10,7 +10,7 @@ const SRC = path.join(ROOT, "src");
 const TARGET = process.argv[2] || "animated-beam";
 const ENTRY =
 	process.argv[3] ||
-	"src/page/catalog-tour-booking/ui/catalog-tour-booking-page.tsx";
+	"src/page/tour-booking/ui/tour-booking-page.tsx";
 
 const fromRe =
 	/(?:import|export)(?:\s+type)?\s+[\s\S]*?\s+from\s+["']([^"']+)["']/g;

@@ -18,14 +18,14 @@ export const RecentSearchCard: FC<IRecentSearchCardProps> = ({
 	data,
 	onClick
 }) => {
-	const { catalog } = useUiContent();
+	const { tours } = useUiContent();
 	const { formatDateRange } = useFormatDateRange();
 
 	const tourTypeLabel =
 		data.tourType === "group"
-			? catalog.recent.tourType.group
+			? tours.recent.tourType.group
 			: data.tourType === "private"
-				? catalog.recent.tourType.private
+				? tours.recent.tourType.private
 				: null;
 
 	return (

@@ -12,12 +12,12 @@ import {
 } from "./ui-content.mapper";
 import type {
 	TUiBooking,
-	TUiCatalog,
 	TUiCommon,
 	TUiContent,
 	TUiDiscovery,
 	TUiLogin,
-	TUiPreview
+	TUiPreview,
+	TUiTours
 } from "./ui-content.types";
 import { UI_CONTENT_CACHE_TAG } from "@/cms/cache/cache-tags";
 
@@ -25,7 +25,7 @@ const UI_GLOBAL_SLUGS = [
 	"header",
 	"footer",
 	"ui-common",
-	"ui-catalog",
+	"ui-tours",
 	"ui-discovery",
 	"ui-login",
 	"ui-preview",
@@ -81,10 +81,10 @@ function mapUiContentBundle(
 			fallback["ui-common"],
 			current["ui-common"]
 		) as TUiCommon,
-		catalog: mapGlobalUiContent(
-			fallback["ui-catalog"],
-			current["ui-catalog"]
-		) as TUiCatalog,
+		tours: mapGlobalUiContent(
+			fallback["ui-tours"],
+			current["ui-tours"]
+		) as TUiTours,
 		discovery: mapGlobalUiContent(
 			fallback["ui-discovery"],
 			current["ui-discovery"]

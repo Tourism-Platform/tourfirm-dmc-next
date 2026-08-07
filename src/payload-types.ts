@@ -195,7 +195,7 @@ export interface Config {
 		  )[];
 	globals: {
 		homepage: Homepage;
-		catalog: Catalog;
+		tours: Tour;
 		destination: Destination;
 		"routes-hub": RoutesHub;
 		"experiences-hub": ExperiencesHub;
@@ -206,7 +206,7 @@ export interface Config {
 		header: Header;
 		footer: Footer;
 		"ui-common": UiCommon;
-		"ui-catalog": UiCatalog;
+		"ui-tours": UiTour;
 		"ui-discovery": UiDiscovery;
 		"ui-login": UiLogin;
 		"ui-preview": UiPreview;
@@ -214,7 +214,7 @@ export interface Config {
 	};
 	globalsSelect: {
 		homepage: HomepageSelect<false> | HomepageSelect<true>;
-		catalog: CatalogSelect<false> | CatalogSelect<true>;
+		tours: ToursSelect<false> | ToursSelect<true>;
 		destination: DestinationSelect<false> | DestinationSelect<true>;
 		"routes-hub": RoutesHubSelect<false> | RoutesHubSelect<true>;
 		"experiences-hub":
@@ -229,7 +229,7 @@ export interface Config {
 		header: HeaderSelect<false> | HeaderSelect<true>;
 		footer: FooterSelect<false> | FooterSelect<true>;
 		"ui-common": UiCommonSelect<false> | UiCommonSelect<true>;
-		"ui-catalog": UiCatalogSelect<false> | UiCatalogSelect<true>;
+		"ui-tours": UiToursSelect<false> | UiToursSelect<true>;
 		"ui-discovery": UiDiscoverySelect<false> | UiDiscoverySelect<true>;
 		"ui-login": UiLoginSelect<false> | UiLoginSelect<true>;
 		"ui-preview": UiPreviewSelect<false> | UiPreviewSelect<true>;
@@ -20265,9 +20265,9 @@ export interface Homepage {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "catalog".
+ * via the `definition` "tours".
  */
-export interface Catalog {
+export interface Tour {
 	id: number;
 	seo?: {
 		metaTitle?: string | null;
@@ -28812,9 +28812,9 @@ export interface UiCommon {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "ui-catalog".
+ * via the `definition` "ui-tours".
  */
-export interface UiCatalog {
+export interface UiTour {
 	id: number;
 	meta?: {
 		title?: string | null;
@@ -29700,9 +29700,9 @@ export interface HomepageSelect<T extends boolean = true> {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "catalog_select".
+ * via the `definition` "tours_select".
  */
-export interface CatalogSelect<T extends boolean = true> {
+export interface ToursSelect<T extends boolean = true> {
 	seo?:
 		| T
 		| {
@@ -32809,9 +32809,9 @@ export interface UiCommonSelect<T extends boolean = true> {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "ui-catalog_select".
+ * via the `definition` "ui-tours_select".
  */
-export interface UiCatalogSelect<T extends boolean = true> {
+export interface UiToursSelect<T extends boolean = true> {
 	meta?:
 		| T
 		| {

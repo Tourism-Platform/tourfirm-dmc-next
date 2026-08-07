@@ -272,14 +272,14 @@ export function mapAttractionToGeoCard(
 
 export function buildCatalogHref(catalogQuery?: string | null): string {
 	if (!catalogQuery?.trim()) {
-		return ENUM_PATH.MAIN.CATALOG;
+		return ENUM_PATH.MAIN.TOURS;
 	}
 
 	const query = catalogQuery.startsWith("?")
 		? catalogQuery
 		: `?${catalogQuery}`;
 
-	return `${ENUM_PATH.MAIN.CATALOG}${query}`;
+	return `${ENUM_PATH.MAIN.TOURS}${query}`;
 }
 
 export function extractMapPoints(route: Route) {

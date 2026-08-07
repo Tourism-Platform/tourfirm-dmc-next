@@ -196,7 +196,7 @@ describe("resolveFooterNavigation", () => {
 						id: "catalog",
 						type: "custom" as const,
 						label: "Catalog",
-						href: "/catalog"
+						href: "/tours"
 					},
 					{
 						id: "about",

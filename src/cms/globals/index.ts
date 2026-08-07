@@ -4,7 +4,6 @@ import { ADMIN_ALL_GLOBALS_NAVIGATION } from "../admin/admin-navigation.config";
 import { groupGlobals } from "../admin/group-collections";
 
 import { BlogHub } from "./blog-hub";
-import { Catalog } from "./catalog";
 import { Destination } from "./destination";
 import { ExperiencesHub } from "./experiences-hub";
 import { Footer } from "./footer";
@@ -13,17 +12,18 @@ import { Homepage } from "./homepage";
 import { NewsHub } from "./news-hub";
 import { RoutesHub } from "./routes-hub";
 import { SiteSettings } from "./site-settings";
+import { Tours } from "./tours";
 import { TradeFairsHub } from "./trade-fairs-hub";
 import { UiBooking } from "./ui-booking";
-import { UiCatalog } from "./ui-catalog";
 import { UiCommon } from "./ui-common";
 import { UiDiscovery } from "./ui-discovery";
 import { UiLogin } from "./ui-login";
 import { UiPreview } from "./ui-preview";
+import { UiTours } from "./ui-tours";
 
 const rawGlobals: GlobalConfig[] = [
 	Homepage,
-	Catalog,
+	Tours,
 	Destination,
 	RoutesHub,
 	ExperiencesHub,
@@ -34,7 +34,7 @@ const rawGlobals: GlobalConfig[] = [
 	Header,
 	Footer,
 	UiCommon,
-	UiCatalog,
+	UiTours,
 	UiDiscovery,
 	UiLogin,
 	UiPreview,

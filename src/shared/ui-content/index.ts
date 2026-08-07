@@ -8,7 +8,7 @@ export type {
 	TDiscoveryPaginationKey,
 	TDropdownLanguage,
 	TLocaleAvailability,
-	TUiCatalog,
+	TUiTours,
 	TUiCommon,
 	TUiContent,
 	TUiDiscovery,

@@ -24,7 +24,7 @@ import { ENUM_CATALOG_TOUR_TYPES } from "../types";
 import type { ICatalogTourCard } from "../types";
 
 const VISIBLE_CATEGORIES = 2;
-const TOUR_PLACEHOLDER = "/assets/images/tours/silk-road.jpg";
+const TOUR_PLACEHOLDER = "/assets/images/catalog/silk-road.jpg";
 
 type TCatalogTourCardProps = {
 	data: ICatalogTourCard;
@@ -42,12 +42,12 @@ export const CatalogTourCard: FC<TCatalogTourCardProps> = ({
 	className
 }) => {
 	const router = useRouter();
-	const { catalog } = useUiContent();
-	const card = catalog.card;
+	const { tours } = useUiContent();
+	const card = tours.card;
 	const [isImageLoaded, setIsImageLoaded] = useState(false);
 
-	const tourHref = buildRoute(ENUM_PATH.CATALOG.TOUR, { tourId: tour.id });
-	const bookingHref = buildRoute(ENUM_PATH.CATALOG.BOOKING, {
+	const tourHref = buildRoute(ENUM_PATH.TOURS.TOUR, { tourId: tour.id });
+	const bookingHref = buildRoute(ENUM_PATH.TOURS.BOOKING, {
 		tourId: tour.id
 	});
 
@@ -117,8 +117,8 @@ export const CatalogTourCard: FC<TCatalogTourCardProps> = ({
 
 	const typeLabel =
 		tour.type === ENUM_CATALOG_TOUR_TYPES.PRIVATE
-			? catalog.recent.tourType.private
-			: catalog.recent.tourType.group;
+			? tours.recent.tourType.private
+			: tours.recent.tourType.group;
 
 	return (
 		<Card

@@ -17,13 +17,13 @@ const id = process.argv[2] || "booking";
 
 const ROUTES = {
 	booking: {
-		path: `/en/catalog/${TOUR}/booking`,
+		path: `/en/tours/${TOUR}/booking`,
 		match: (l) =>
-			l.includes(`GET /en/catalog/${TOUR}/booking 200`) &&
+			l.includes(`GET /en/tours/${TOUR}/booking 200`) &&
 			l.includes("application-code")
 	},
 	catalog: {
-		path: "/en/catalog",
+		path: "/en/tours",
 		match: (l) =>
 			/GET \/en\/catalog 200/.test(l) && l.includes("application-code")
 	}

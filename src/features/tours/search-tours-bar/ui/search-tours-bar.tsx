@@ -35,9 +35,9 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 	form: externalForm,
 	className
 }) => {
-	const { catalog } = useUiContent();
+	const { tours } = useUiContent();
 	const t = createNestedTextResolver(
-		catalog as unknown as Record<string, unknown>
+		tours as unknown as Record<string, unknown>
 	);
 	const router = useRouter();
 	const { data: destinations = [] } = useGetCatalogDestinationsQuery();
@@ -52,8 +52,8 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 	);
 
 	const schema = useMemo(
-		() => createSearchToursSchema(catalog.search.where.required),
-		[catalog.search.where.required]
+		() => createSearchToursSchema(tours.search.where.required),
+		[tours.search.where.required]
 	);
 
 	const localForm = useForm<TSearchTours>({
@@ -68,7 +68,7 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 
 	const onSubmit = (data: TSearchTours) => {
 		const route = buildRouteWithQuery(
-			ENUM_PATH.MAIN.CATALOG,
+			ENUM_PATH.MAIN.TOURS,
 			mapSearchToursToCatalogQuery(data)
 		);
 		router.push(route);
@@ -120,7 +120,7 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 							size="lg"
 							className="h-12 gap-2 rounded-xl px-6 text-base font-semibold shadow-sm sm:min-w-40"
 						>
-							{catalog.search.submit}
+							{tours.search.submit}
 							<Search className="size-5" />
 						</Button>
 					</form>

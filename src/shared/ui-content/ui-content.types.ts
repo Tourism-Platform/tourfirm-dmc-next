@@ -89,7 +89,7 @@ export type TUiCommon = {
 	languageToggle: { en: string; ru: string; uz: string };
 };
 
-export type TUiCatalog = {
+export type TUiTours = {
 	meta: TUiMeta;
 	hero: { title: string };
 	search: {
@@ -163,7 +163,7 @@ export type TUiContent = {
 	header: TUiHeader;
 	footer: TUiFooter;
 	common: TUiCommon;
-	catalog: TUiCatalog;
+	tours: TUiTours;
 	discovery: TUiDiscovery;
 	login: TUiLogin;
 	preview: TUiPreview;

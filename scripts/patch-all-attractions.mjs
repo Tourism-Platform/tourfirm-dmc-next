@@ -71,7 +71,7 @@ function heroActionsYaml() {
           "en": "Open catalog"
           "ru": "Открыть каталог"
           "uz": "Katalogni ochish"
-        "href": "/catalog"`;
+        "href": "/tours"`;
 }
 
 function resolveSlug(doc, file) {
@@ -245,7 +245,7 @@ function ctaBlockYaml(doc) {
           "en": "Open catalog"
           "ru": "Открыть каталог"
           "uz": "Katalogni ochish"
-        "href": "/catalog"
+        "href": "/tours"
 `;
 }
 

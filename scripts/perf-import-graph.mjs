@@ -37,7 +37,7 @@ function parseArgs(argv) {
 	}
 	if (!entries.length) {
 		entries.push(
-			"src/page/catalog-tour-booking/ui/catalog-tour-booking-page.tsx"
+			"src/page/tour-booking/ui/tour-booking-page.tsx"
 		);
 	}
 	return { name, entries };

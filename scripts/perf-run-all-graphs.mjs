@@ -21,18 +21,18 @@ const ROUTES = [
 	},
 	{
 		name: "catalog",
-		page: ["src/page/catalog/ui/catalog-page.tsx"]
+		page: ["src/page/tours/ui/catalog-page.tsx"]
 	},
 	{
 		name: "preview",
 		page: [
-			"src/page/catalog-tour-preview/ui/catalog-tour-preview-page.tsx"
+			"src/page/tour-preview/ui/tour-preview-page.tsx"
 		]
 	},
 	{
 		name: "booking",
 		page: [
-			"src/page/catalog-tour-booking/ui/catalog-tour-booking-page.tsx"
+			"src/page/tour-booking/ui/tour-booking-page.tsx"
 		]
 	},
 	{
@@ -42,7 +42,7 @@ const ROUTES = [
 	{
 		name: "option",
 		page: [
-			"src/page/catalog-tour-preview/ui/catalog-tour-option-preview-page.tsx"
+			"src/page/tour-preview/ui/tour-option-preview-page.tsx"
 		]
 	}
 ];

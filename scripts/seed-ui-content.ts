@@ -150,7 +150,7 @@ function buildUiCommon(
 	};
 }
 
-function buildUiCatalog(catalog: Record<string, unknown>) {
+function buildUiTours(catalog: Record<string, unknown>) {
 	return convertKeysDeep(catalog);
 }
 
@@ -196,7 +196,7 @@ export async function seedUiContent(payload: Payload): Promise<void> {
 				loadJsonSource<Record<string, unknown>>(locale, "header.json"),
 				loadJsonSource<Record<string, unknown>>(locale, "footer.json"),
 				loadJsonSource<Record<string, unknown>>(locale, "common.json"),
-				loadJsonSource<Record<string, unknown>>(locale, "catalog_page.json"),
+				loadJsonSource<Record<string, unknown>>(locale, "tours_page.json"),
 				loadJsonSource<Record<string, unknown>>(locale, "discovery_page.json"),
 				loadJsonSource<Record<string, unknown>>(locale, "company_page.json")
 			]);
@@ -227,9 +227,9 @@ export async function seedUiContent(payload: Payload): Promise<void> {
 		if (catalog) {
 			await updateGlobalLocale(
 				payload,
-				"ui-catalog",
+				"ui-tours",
 				locale,
-				buildUiCatalog(catalog)
+				buildUiTours(catalog)
 			);
 		}
 
@@ -263,5 +263,5 @@ export async function seedUiContent(payload: Payload): Promise<void> {
 export { seedUiPreview } from "./seed/seeders/ui-preview.js";
 export { seedUiLogin } from "./seed/seeders/ui-login.js";
 export { seedUiBooking } from "./seed/seeders/ui-booking.js";
-export { seedUiCatalog } from "./seed/seeders/ui-catalog.js";
-export { seedCatalogPage } from "./seed/seeders/catalog-page.js";
+export { seedUiTours } from "./seed/seeders/ui-tours.js";
+export { seedToursPage } from "./seed/seeders/tours-page.js";

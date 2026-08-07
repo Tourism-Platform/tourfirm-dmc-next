@@ -7,11 +7,11 @@ import {
 } from "../mock";
 
 export const tourCatalogHandlers = [
-	http.get("*/tours/recently-searched", async () => {
+	http.get("*/catalog/recently-searched", async () => {
 		await delay(300);
 		return HttpResponse.json(RECENT_SEARCHES_MOCK);
 	}),
-	http.get("*/tours/catalog/filters/destinations", async () => {
+	http.get("*/catalog/tours/filters/destinations", async () => {
 		await delay(300);
 		return HttpResponse.json({
 			data: CATALOG_DESTINATIONS_MOCK,

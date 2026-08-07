@@ -18,7 +18,7 @@ export { getDestination } from "./get-destination";
 export { getFooter } from "./get-footer";
 export { getHeader } from "./get-header";
 export { getHomepage } from "./get-homepage";
-export { getCatalog } from "./get-catalog";
+export { getTours } from "./get-tours";
 export {
 	findCollectionDocuments,
 	findCollectionDocumentBySlug,

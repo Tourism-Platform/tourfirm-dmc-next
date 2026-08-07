@@ -78,7 +78,7 @@ export const ADMIN_UI_CONTENT_GLOBALS_NAVIGATION: TAdminNavSection = {
 		"header",
 		"footer",
 		"ui-common",
-		"ui-catalog",
+		"ui-tours",
 		"ui-discovery",
 		"ui-login",
 		"ui-preview",
@@ -88,7 +88,7 @@ export const ADMIN_UI_CONTENT_GLOBALS_NAVIGATION: TAdminNavSection = {
 
 export const ADMIN_GLOBALS_NAVIGATION: TAdminNavSection = {
 	label: "Globals",
-	items: ["homepage", "catalog", "site-settings"]
+	items: ["homepage", "tours", "site-settings"]
 };
 
 export const ADMIN_ALL_GLOBALS_NAVIGATION: TAdminNavSection[] = [

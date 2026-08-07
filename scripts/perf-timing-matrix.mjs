@@ -23,19 +23,19 @@ const ROUTES = [
 	},
 	{
 		id: "catalog",
-		path: "/en/catalog",
+		path: "/en/tours",
 		matchFn: (l) => /GET \/en\/catalog 200/.test(l)
 	},
 	{
 		id: "preview",
-		path: `/en/catalog/${TOUR}`,
+		path: `/en/tours/${TOUR}`,
 		matchFn: (l) =>
-			l.includes(`GET /en/catalog/${TOUR} 200`) && !l.includes("/booking")
+			l.includes(`GET /en/tours/${TOUR} 200`) && !l.includes("/booking")
 	},
 	{
 		id: "booking",
-		path: `/en/catalog/${TOUR}/booking`,
-		matchFn: (l) => l.includes(`GET /en/catalog/${TOUR}/booking 200`)
+		path: `/en/tours/${TOUR}/booking`,
+		matchFn: (l) => l.includes(`GET /en/tours/${TOUR}/booking 200`)
 	}
 ];
 

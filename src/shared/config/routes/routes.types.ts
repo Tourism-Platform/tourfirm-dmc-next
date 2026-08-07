@@ -16,7 +16,7 @@ export type ENUM_PATH_TYPE =
 	| THelpPath;
 
 export type TQueryParams = {
-	[ENUM_PATH.MAIN.CATALOG]: {
+	[ENUM_PATH.MAIN.TOURS]: {
 		destination?: string;
 		checkIn?: string;
 		checkOut?: string;

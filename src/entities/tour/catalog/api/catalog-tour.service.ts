@@ -23,13 +23,13 @@ import type {
 export const catalogTourApi = baseApi.injectEndpoints({
 	endpoints: (builder) => ({
 		getCatalogDestinations: builder.query<IFilterOption[], void>({
-			query: () => ({ url: "/tours/catalog/filters/destinations" }),
+			query: () => ({ url: "/catalog/tours/filters/destinations" }),
 			transformResponse: (response: { data: IFilterOptionBackend[] }) =>
 				mapFilterOptionsToFrontend(response.data),
 			providesTags: [ENUM_API_TAGS.TOURS_CATALOG]
 		}),
 		getRecentlySearchedTours: builder.query<IRecentSearch[], void>({
-			query: () => ({ url: "/tours/recently-searched" }),
+			query: () => ({ url: "/catalog/recently-searched" }),
 			transformResponse: (response: IRecentSearchBackend[]) =>
 				mapRecentlySearchesToFrontend(response),
 			providesTags: [ENUM_API_TAGS.TOURS_CATALOG]
