@@ -21,7 +21,7 @@ const HeroSectionBase: FC<IHeroSectionProps> = ({ form }) => {
 	const { catalog } = useUiContent();
 
 	return (
-		<section className="relative min-h-[420px] sm:min-h-[520px]">
+		<section className="full-bleed relative min-h-[420px] sm:min-h-[520px]">
 			<Image
 				src={HERO_IMAGE}
 				alt={catalog.hero.title}

@@ -14,7 +14,9 @@ export enum BlockType {
 	timeline = "timeline",
 	itinerary = "itinerary",
 	routeLine = "routeLine",
-	cta = "cta"
+	cta = "cta",
+	mostPopularTours = "mostPopularTours",
+	specialOffers = "specialOffers"
 }
 
 export type TColumnRatio =

@@ -1,16 +1,14 @@
 import type { TypedLocale } from "payload";
 
-import { Catalog } from "@/widgets/catalog";
+import type { TBlockRenderProps } from "@/shared/ui/blocks";
 
-import { findFeaturedBlogPosts } from "@/cms/api/find-blog-posts";
-import { mapBlogToCard } from "@/cms/lib/map-discovery-cards";
+import { Catalog } from "@/widgets/catalog";
 
 type TProps = {
 	locale: TypedLocale;
+	sections: TBlockRenderProps[];
 };
 
-export async function CatalogPage({ locale }: TProps) {
-	const blogPosts = await findFeaturedBlogPosts(locale, 3);
-
-	return <Catalog blogPosts={blogPosts.map(mapBlogToCard)} />;
+export function CatalogPage({ sections }: TProps) {
+	return <Catalog sections={sections} />;
 }

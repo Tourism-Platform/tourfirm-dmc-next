@@ -1,0 +1,40 @@
+{
+  "label": "exp-b-stub-x3",
+  "times": 3,
+  "routes": {
+    "booking": {
+      "cold": [
+        {
+          "raw": "GET /en/catalog/30fdf8f0-4336-4cbf-a7e6-fb698d65a9d2/booking 200 in 75s (next.js: 36.0s, proxy.ts: 228ms, application-code: 38.9s)",
+          "total": "75s",
+          "next": "36.0s",
+          "app": "38.9s",
+          "proxy": "228ms",
+          "elapsedMs": 77500
+        },
+        {
+          "raw": "GET /en/catalog/30fdf8f0-4336-4cbf-a7e6-fb698d65a9d2/booking 200 in 77s (next.js: 37.2s, proxy.ts: 244ms, application-code: 39.1s)",
+          "total": "77s",
+          "next": "37.2s",
+          "app": "39.1s",
+          "proxy": "244ms",
+          "elapsedMs": 78691
+        },
+        {
+          "raw": "GET /en/catalog/30fdf8f0-4336-4cbf-a7e6-fb698d65a9d2/booking 200 in 75s (next.js: 36.2s, proxy.ts: 258ms, application-code: 38.9s)",
+          "total": "75s",
+          "next": "36.2s",
+          "app": "38.9s",
+          "proxy": "258ms",
+          "elapsedMs": 78636
+        }
+      ],
+      "medians": {
+        "coldTotalMs": 75000,
+        "coldNextMs": 36200,
+        "coldAppMs": 38900
+      }
+    }
+  },
+  "updatedAt": "2026-08-06T18:18:50.344Z"
+}

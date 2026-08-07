@@ -5,6 +5,7 @@ import { getLucideIcon } from "@/shared/lib/get-lucide-icon";
 import { CardType, type ICardItem } from "../types/card-render.types";
 
 import { BlogCard } from "./blog-card";
+import { CatalogFeedCard } from "./catalog-feed-card";
 import { CountryCard } from "./country-card";
 import { DashTitleCard } from "./dash-title-card";
 import { DestinationInsightCard } from "./destination-insight-card";
@@ -69,7 +70,8 @@ export const CARD_REGISTRY: Partial<Record<CardType, TCardRenderer>> = {
 				title: item.title ?? "",
 				description: item.description ?? "",
 				cities: item.cities ?? [],
-				featured: item.featured
+				featured: item.featured,
+				className: item.className
 			}}
 		/>
 	),
@@ -219,5 +221,6 @@ export const CARD_REGISTRY: Partial<Record<CardType, TCardRenderer>> = {
 				}))
 			}}
 		/>
-	)
+	),
+	[CardType.CatalogFeed]: (item) => <CatalogFeedCard data={item} />
 };

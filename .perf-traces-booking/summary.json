@@ -1,0 +1,142 @@
+{
+  "id": "booking",
+  "timing": {
+    "line": "GET /en/catalog/30fdf8f0-4336-4cbf-a7e6-fb698d65a9d2/booking 200 in 2.1min (next.js: 55s, proxy.ts: 282ms, application-code: 71s)",
+    "elapsedMs": 129165
+  },
+  "traceSummary": {
+    "eventCount": 22,
+    "ranked": [
+      {
+        "name": "handle-request",
+        "count": 2,
+        "totalMs": 126302,
+        "maxMs": 126022,
+        "samples": [
+          {
+            "ms": 280,
+            "url": "/en/catalog/30fdf8f0-4336-4cbf-a7e6-fb698d65a9d2/booking"
+          },
+          {
+            "ms": 126022,
+            "url": "/en/catalog/30fdf8f0-4336-4cbf-a7e6-fb698d65a9d2/booking"
+          }
+        ]
+      },
+      {
+        "name": "render-path",
+        "count": 1,
+        "totalMs": 70950,
+        "maxMs": 70950,
+        "samples": []
+      },
+      {
+        "name": "compile-path",
+        "count": 4,
+        "totalMs": 40368,
+        "maxMs": 39621,
+        "samples": [
+          {
+            "ms": 417,
+            "trigger": "instrumentation Node.js"
+          },
+          {
+            "ms": 56,
+            "trigger": "instrumentation Edge"
+          },
+          {
+            "ms": 274,
+            "trigger": "proxy"
+          },
+          {
+            "ms": 39621,
+            "trigger": "/[locale]/catalog/[tourId]/booking"
+          }
+        ]
+      },
+      {
+        "name": "turbopack-persistence",
+        "count": 3,
+        "totalMs": 5125,
+        "maxMs": 5086,
+        "samples": []
+      },
+      {
+        "name": "start-dev-server",
+        "count": 1,
+        "totalMs": 2936,
+        "maxMs": 2936,
+        "samples": []
+      },
+      {
+        "name": "turbopack-compaction",
+        "count": 1,
+        "totalMs": 2721,
+        "maxMs": 2721,
+        "samples": []
+      },
+      {
+        "name": "setup-dev-bundler",
+        "count": 1,
+        "totalMs": 1608,
+        "maxMs": 1608,
+        "samples": []
+      },
+      {
+        "name": "ensure-page",
+        "count": 7,
+        "totalMs": 4,
+        "maxMs": 1,
+        "samples": [
+          {
+            "ms": 1,
+            "inputPage": "/src/proxy"
+          },
+          {
+            "ms": 1,
+            "inputPage": "/src/proxy"
+          },
+          {
+            "ms": 1,
+            "inputPage": "/src/proxy"
+          },
+          {
+            "ms": 1,
+            "inputPage": "/en/catalog/30fdf8f0-4336-4cbf-a7e6-fb698d65a9d2/booking"
+          },
+          {
+            "ms": 0,
+            "inputPage": "/en/catalog/30fdf8f0-4336-4cbf-a7e6-fb698d65a9d2/booking"
+          },
+          {
+            "ms": 0,
+            "inputPage": "/en/catalog/30fdf8f0-4336-4cbf-a7e6-fb698d65a9d2/booking"
+          },
+          {
+            "ms": 0,
+            "inputPage": "/en/catalog/30fdf8f0-4336-4cbf-a7e6-fb698d65a9d2/booking"
+          }
+        ]
+      },
+      {
+        "name": "hot-reloader",
+        "count": 1,
+        "totalMs": 0,
+        "maxMs": 0,
+        "samples": []
+      },
+      {
+        "name": "memory-usage",
+        "count": 1,
+        "totalMs": 0,
+        "maxMs": 0,
+        "samples": []
+      }
+    ]
+  },
+  "copied": [
+    "trace",
+    "trace-turbopack"
+  ],
+  "updatedAt": "2026-08-06T18:31:34.692Z"
+}

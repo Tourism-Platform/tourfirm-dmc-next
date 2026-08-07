@@ -1,0 +1,172 @@
+{
+	"page_name": "Booking",
+	"back_to_tour": "Back to tour",
+	"stepper": {
+		"step1": {
+			"label": "STEP 1",
+			"title": "Date & travellers"
+		},
+		"step2": {
+			"label": "STEP 2",
+			"title": "Traveller details"
+		},
+		"step3": {
+			"label": "STEP 3",
+			"title": "Confirmation"
+		}
+	},
+	"step1": {
+		"start_date": {
+			"title": "Select start date",
+			"description": "The tour runs from the date you choose."
+		},
+		"calendar": {
+			"available": "Available",
+			"sold_out": "Sold out",
+			"selected": "Selected"
+		},
+		"travellers": {
+			"title": "Travellers",
+			"description": "How many people will be joining the tour?",
+			"max_limit": "Max 20 per booking",
+			"errors": {
+				"min": "Minimum 1 traveller",
+				"max": "Maximum 20 travellers"
+			}
+		},
+		"options": {
+			"title": "Choose option",
+			"description": "You can change this selection — it affects the final price.",
+			"locked": "Option cannot be changed after booking is created.",
+			"per_person": "/ person",
+			"errors": {
+				"required": "Option must be selected"
+			}
+		},
+		"fields": {
+			"date": {
+				"errors": {
+					"required": "Date is required"
+				}
+			}
+		},
+		"continue": "Continue →"
+	},
+	"step2": {
+		"title": "Traveller information",
+		"description": "Please provide details for each traveller as they appear on their passport.",
+		"traveller": "Traveller",
+		"lead": "Lead",
+		"make_lead": "Make lead",
+		"optional_hint": "Passport scan is required for each filled traveller",
+		"show_all": "Show all",
+		"hide_all": "Hide all",
+		"add_traveller": "Add traveller",
+		"filled": "Filled",
+		"fields": {
+			"first_name": {
+				"label": "First name",
+				"errors": { "required": "First name is required" }
+			},
+			"last_name": {
+				"label": "Last name",
+				"errors": { "required": "Last name is required" }
+			},
+			"gender": {
+				"label": "Gender",
+				"options": {
+					"male": "Male",
+					"female": "Female"
+				}
+			},
+			"date_of_birth": {
+				"label": "Date of birth",
+				"errors": { "required": "Date of birth is required" }
+			},
+			"nationality": {
+				"label": "Nationality",
+				"placeholder": "Select country",
+				"empty": "No country found.",
+				"errors": {
+					"required": "Nationality is required",
+					"invalid": "Select a valid country"
+				}
+			},
+			"passport_number": {
+				"label": "Passport number",
+				"errors": { "required": "Passport number is required" }
+			},
+			"passport_expiry": {
+				"label": "Passport expiry",
+				"errors": { "required": "Passport expiry is required" }
+			},
+			"note": {
+				"label": "Note"
+			},
+			"file": {
+				"label": "Passport scan",
+				"click_to_upload": "Click to upload",
+				"or_drag": "or drag & drop",
+				"formats": "PDF, DOC, DOCX, XLS less than 50MB",
+				"errors": {
+					"required": "Passport scan is required"
+				}
+			}
+		},
+		"back": "← Back",
+		"submit": "Submit booking →"
+	},
+	"step3": {
+		"success_title": "Booking request submitted",
+		"success_desc": "Your request has been sent to the provider. We've emailed a copy to",
+		"booking_id": "Booking ID:",
+		"copied": "Booking ID copied",
+		"copy_failed": "Failed to copy",
+		"summary": {
+			"title": "Booking summary",
+			"tour": "Tour",
+			"start_date": "Start date",
+			"end_date": "End date",
+			"travellers": "Travellers",
+			"package": "Package",
+			"estimated_total": "Estimated total"
+		},
+		"timeline": {
+			"request_submitted": {
+				"title": "Request submitted",
+				"desc": "Just now · We've received your booking details."
+			},
+			"provider_review": {
+				"title": "Provider review",
+				"desc": "The provider will respond within 24 hours. You'll get an email when there's news."
+			},
+			"booking_confirmed": {
+				"title": "Booking confirmed",
+				"desc": "Once approved, you'll receive payment instructions."
+			},
+			"payment_info": {
+				"title": "Payment info",
+				"desc": "Pay and receive your final itinerary and travel documents."
+			},
+			"voucher_time": {
+				"title": "Voucher time",
+				"desc": "We send to you voucher with your itinerary and document."
+			}
+		},
+		"view_my_bookings": "← View my bookings",
+		"catalogue": "Catalogue →"
+	},
+	"sidebar": {
+		"title": "YOUR BOOKING",
+		"start_date": "Start date",
+		"end_date": "End date",
+		"duration": "Duration",
+		"travellers": "Travellers",
+		"package": "Package",
+		"price_per_person": "Price per person",
+		"estimated_total": "Estimated total",
+		"not_selected": "Not selected",
+		"days": "days",
+		"person": "person"
+	}
+}

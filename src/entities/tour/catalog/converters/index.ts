@@ -1,5 +1,6 @@
 export {
 	mapCatalogTourToFrontend,
+	mapCatalogTourPaginatedToFrontend,
 	mapCatalogToursToFrontend,
 	mapFilterOptionToFrontend,
 	mapFilterOptionsToFrontend

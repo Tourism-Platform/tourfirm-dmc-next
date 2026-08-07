@@ -1,0 +1,72 @@
+{
+  "routes": {
+    "booking": {
+      "readyMs": 3042,
+      "timing": {
+        "raw": "GET /en/catalog/30fdf8f0-4336-4cbf-a7e6-fb698d65a9d2/booking 200 in 84s (next.js: 38.8s, proxy.ts: 250ms, application-code: 45s)",
+        "total": "84s",
+        "next": "38.8s",
+        "app": "45s",
+        "proxy": "250ms",
+        "elapsedMs": 86821
+      },
+      "artifacts": [
+        {
+          "path": ".next/dev/trace",
+          "bytes": 3841
+        },
+        {
+          "path": ".next/dev/logs/next-development.log",
+          "bytes": 413
+        }
+      ],
+      "artifactsAfterExit": [
+        {
+          "path": ".next/dev/trace",
+          "bytes": 4844
+        },
+        {
+          "path": ".next/dev/logs/next-development.log",
+          "bytes": 413
+        }
+      ]
+    },
+    "catalog": {
+      "readyMs": 6633,
+      "timing": {
+        "raw": "GET /en/catalog 200 in 87s (next.js: 47s, proxy.ts: 255ms, generate-params: 12.6s, application-code: 39.6s)",
+        "total": "87s",
+        "next": "47s",
+        "app": "39.6s",
+        "proxy": "255ms",
+        "elapsedMs": 90797
+      },
+      "artifacts": [
+        {
+          "path": ".next/dev/trace",
+          "bytes": 3633
+        },
+        {
+          "path": ".next/dev/logs/next-development.log",
+          "bytes": 396
+        }
+      ],
+      "artifactsAfterExit": [
+        {
+          "path": ".next/dev/trace",
+          "bytes": 4524
+        },
+        {
+          "path": ".next/dev/logs/next-development.log",
+          "bytes": 396
+        }
+      ]
+    }
+  },
+  "artifacts": [],
+  "notes": [
+    "NEXT_TURBOPACK_TRACING=1 + --experimental-cpu-prof on Next 16.2.7",
+    "Published Next only includes overview/info-level Turbopack tracing"
+  ],
+  "updatedAt": "2026-08-06T18:27:52.674Z"
+}

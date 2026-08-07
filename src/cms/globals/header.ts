@@ -4,11 +4,15 @@ import { authenticatedOrPublished } from "../access/authenticated-or-published";
 import { navigationItemFields } from "../fields/navigation-item";
 import { headerUiTextsFields } from "../fields/ui-content/header-ui-texts-fields";
 import { localizedText } from "../fields/ui-content/localized-text";
+import { revalidateHeaderCache } from "../hooks/revalidate-layout-cms";
 
 export const Header: GlobalConfig = {
 	slug: "header",
 	access: {
 		read: authenticatedOrPublished
+	},
+	hooks: {
+		afterChange: [revalidateHeaderCache]
 	},
 	fields: [
 		{

@@ -2,6 +2,7 @@ import type { GlobalConfig } from "payload";
 
 import { authenticatedOrPublished } from "../access/authenticated-or-published";
 import { localizedText } from "../fields/ui-content/localized-text";
+import { revalidateUiContentCache } from "../hooks/revalidate-layout-cms";
 
 const paginationFields = [
 	localizedText("paginationPrev"),
@@ -13,6 +14,9 @@ export const UiDiscovery: GlobalConfig = {
 	label: "Discovery",
 	access: {
 		read: authenticatedOrPublished
+	},
+	hooks: {
+		afterChange: [revalidateUiContentCache]
 	},
 	fields: [
 		localizedText("geoBreadcrumbLabel"),

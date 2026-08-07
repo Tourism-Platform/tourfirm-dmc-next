@@ -269,8 +269,17 @@ function enrichRegularBlock(
 				...card,
 				_enriched: {
 					key: card.id ?? String(index),
-					type: resolved.type,
-					item: resolved.item
+					type:
+						card.type === "catalogFeed"
+							? CardType.CatalogFeed
+							: resolved.type,
+					item: {
+						...resolved.item,
+						className: card.className ?? resolved.item.className,
+						readMoreLabel:
+							card.ctaLabel ?? resolved.item.readMoreLabel,
+						ctaLabel: card.ctaLabel ?? resolved.item.ctaLabel
+					}
 				}
 			};
 		});

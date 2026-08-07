@@ -5,7 +5,6 @@ import type {
 import { Separator } from "@/shared/ui";
 import type { TUiFooter } from "@/shared/ui-content";
 
-import { FooterContact } from "./footer-contact";
 import { FooterCopyright } from "./footer-copyright";
 import { FooterLogo } from "./footer-logo";
 import { FooterSection } from "./footer-section";
@@ -41,7 +40,6 @@ export const FooterDefault = async ({
 						brandName={uiTexts.brand.name}
 						tagline={tagline}
 					/>
-					<FooterContact />
 				</div>
 
 				{rowOne.length > 0 ? (

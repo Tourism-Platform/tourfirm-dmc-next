@@ -8,6 +8,7 @@ import { type UseFormReturn, useForm } from "react-hook-form";
 
 import { ENUM_PATH, buildRouteWithQuery } from "@/shared/config";
 import { useRouter } from "@/shared/i18n";
+import { cn } from "@/shared/lib/utils";
 import {
 	Button,
 	Card,
@@ -74,11 +75,16 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 	};
 
 	return (
-		<Card className={className}>
-			<CardContent>
+		<Card
+			className={cn(
+				"rounded-2xl border border-white/60 bg-background/95 shadow-[0_18px_50px_-24px_rgba(0,0,0,0.45)] backdrop-blur-md",
+				className
+			)}
+		>
+			<CardContent className="px-4 sm:px-6">
 				<Form {...form}>
 					<form
-						className="grid grid-cols-1 items-end gap-4 md:grid-cols-[1fr_auto_1fr_auto]"
+						className="grid grid-cols-1 items-end gap-3 md:grid-cols-[1fr_auto_1fr_auto] md:gap-4"
 						onSubmit={form.handleSubmit(onSubmit)}
 					>
 						<CustomField
@@ -96,7 +102,7 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 
 						<Separator
 							orientation="vertical"
-							className="hidden h-8 md:block"
+							className="bg-border/80 hidden h-10 md:block"
 						/>
 
 						<CustomField
@@ -111,12 +117,11 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 
 						<Button
 							type="submit"
-							className="h-auto px-5 py-3 text-base sm:text-lg"
+							size="lg"
+							className="h-12 gap-2 rounded-xl px-6 text-base font-semibold shadow-sm sm:min-w-40"
 						>
-							<span className="flex items-center gap-2">
-								{catalog.search.submit}
-								<Search className="size-5" />
-							</span>
+							{catalog.search.submit}
+							<Search className="size-5" />
 						</Button>
 					</form>
 				</Form>

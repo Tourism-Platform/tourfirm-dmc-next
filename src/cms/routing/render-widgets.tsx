@@ -81,7 +81,7 @@ async function renderWidgetNode(
 		}
 		case "experienceMeta":
 			return (
-				<div className="mx-auto flex w-full max-w-7xl flex-col gap-12 px-4 py-16 sm:gap-14 sm:px-6 sm:py-20 lg:gap-16 lg:px-8">
+				<div className="flex w-full flex-col gap-12 py-16 sm:gap-14 sm:py-20 lg:gap-16">
 					<ExperienceMetaBar
 						{...(model.props as Parameters<
 							typeof ExperienceMetaBar
@@ -91,7 +91,7 @@ async function renderWidgetNode(
 			);
 		case "discoveryFilterBar":
 			return (
-				<div className="mx-auto flex w-full max-w-7xl flex-col gap-8 px-4 py-10 sm:px-6 lg:px-8">
+				<div className="flex w-full flex-col gap-8 py-10">
 					<DiscoveryFilterBar
 						filters={
 							model.props.filters as Parameters<

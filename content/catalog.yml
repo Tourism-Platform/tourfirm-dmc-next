@@ -1,0 +1,286 @@
+en:
+  seo:
+    metaTitle: Tours catalog | TourLink
+    metaDescription: Search tailor-made tours across Uzbekistan and Central Asia.
+  blocks:
+    - blockType: mostPopularTours
+      eyebrow: Catalog
+      title: Most popular tours
+      description: null
+    - blockType: regular
+      eyebrow: Insights
+      title: News & blog
+      description: null
+      gridClassName: grid grid-cols-1 gap-4 md:grid-cols-3
+      actions:
+        - type: link
+          title: View all
+          href: /blog
+          variant: link
+      cards:
+        - type: catalogFeed
+          title: Top 5 hidden gems of Samarkand you must visit
+          meta: October 26, 2023
+          href: /company/news
+          imageUrl: /assets/images/samarkand.jpg
+          className: bg-accent
+          ctaLabel: Read more
+        - type: catalogFeed
+          title: How to plan a perfect Silk Road itinerary
+          meta: October 18, 2023
+          href: /blog
+          imageUrl: /assets/images/tours/silk-road.jpg
+          className: bg-secondary
+          ctaLabel: Read more
+        - type: catalogFeed
+          title: "Best time to visit Uzbekistan: seasonal guide"
+          meta: October 10, 2023
+          href: /blog
+          imageUrl: /assets/images/people.jpg
+          className: bg-muted
+          ctaLabel: Read more
+    - blockType: specialOffers
+      eyebrow: Deals
+      title: Special offers
+      description: null
+      actions:
+        - type: link
+          title: See more
+          href: /catalog
+          variant: destructive
+    - blockType: regular
+      eyebrow: Explore
+      title: Top destinations
+      description: null
+      gridClassName: grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3
+      actions:
+        - type: link
+          title: View all
+          href: /destinations
+          variant: link
+      cards:
+        - type: country
+          title: Samarkand
+          description: 12 tours & activities
+          badge: Uzbekistan
+          href: /destinations
+          imageUrl: /assets/images/city/samarkand.jpg
+          className: null
+        - type: country
+          title: Bukhara
+          description: 9 tours & activities
+          badge: Uzbekistan
+          href: /destinations
+          imageUrl: /assets/images/city/bukhara.jpg
+        - type: country
+          title: Khiva
+          description: 7 tours & activities
+          badge: Uzbekistan
+          href: /destinations
+          imageUrl: /assets/images/city/khiva.jpg
+        - type: country
+          title: Tashkent
+          description: 15 tours & activities
+          badge: Uzbekistan
+          href: /destinations
+          imageUrl: /assets/images/city/tashkent.jpg
+        - type: country
+          title: Fergana
+          description: 6 tours & activities
+          badge: Uzbekistan
+          href: /destinations
+          imageUrl: /assets/images/city/fergana.jpg
+        - type: country
+          title: Nukus
+          description: 4 tours & activities
+          badge: Uzbekistan
+          href: /destinations
+          imageUrl: /assets/images/city/nukus.jpg
+ru:
+  seo:
+    metaTitle: Каталог туров | TourLink
+    metaDescription: Подберите туры по Узбекистану и Центральной Азии.
+  blocks:
+    - blockType: mostPopularTours
+      eyebrow: Каталог
+      title: Самые популярные туры
+      description: null
+    - blockType: regular
+      eyebrow: Материалы
+      title: Новости и блог
+      gridClassName: grid grid-cols-1 gap-4 md:grid-cols-3
+      actions:
+        - type: link
+          title: Смотреть все
+          href: /blog
+          variant: link
+      cards:
+        - type: catalogFeed
+          title: 5 скрытых жемчужин Самарканда
+          meta: 26 октября 2023
+          href: /company/news
+          imageUrl: /assets/images/samarkand.jpg
+          className: bg-accent
+          ctaLabel: Читать
+        - type: catalogFeed
+          title: Как спланировать маршрут по Шёлковому пути
+          meta: 18 октября 2023
+          href: /blog
+          imageUrl: /assets/images/tours/silk-road.jpg
+          className: bg-secondary
+          ctaLabel: Читать
+        - type: catalogFeed
+          title: Когда лучше ехать в Узбекистан
+          meta: 10 октября 2023
+          href: /blog
+          imageUrl: /assets/images/people.jpg
+          className: bg-muted
+          ctaLabel: Читать
+    - blockType: specialOffers
+      eyebrow: Акции
+      title: Специальные предложения
+      actions:
+        - type: link
+          title: Смотреть ещё
+          href: /catalog
+          variant: destructive
+    - blockType: regular
+      eyebrow: Направления
+      title: Топ направлений
+      gridClassName: grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3
+      actions:
+        - type: link
+          title: Смотреть все
+          href: /destinations
+          variant: link
+      cards:
+        - type: country
+          title: Самарканд
+          description: 12 туров
+          badge: Узбекистан
+          href: /destinations
+          imageUrl: /assets/images/city/samarkand.jpg
+        - type: country
+          title: Бухара
+          description: 9 туров
+          badge: Узбекистан
+          href: /destinations
+          imageUrl: /assets/images/city/bukhara.jpg
+        - type: country
+          title: Хива
+          description: 7 туров
+          badge: Узбекистан
+          href: /destinations
+          imageUrl: /assets/images/city/khiva.jpg
+        - type: country
+          title: Ташкент
+          description: 15 туров
+          badge: Узбекистан
+          href: /destinations
+          imageUrl: /assets/images/city/tashkent.jpg
+        - type: country
+          title: Фергана
+          description: 6 туров
+          badge: Узбекистан
+          href: /destinations
+          imageUrl: /assets/images/city/fergana.jpg
+        - type: country
+          title: Нукус
+          description: 4 тура
+          badge: Узбекистан
+          href: /destinations
+          imageUrl: /assets/images/city/nukus.jpg
+uz:
+  seo:
+    metaTitle: Turlar katalogi | TourLink
+    metaDescription: O'zbekiston va Markaziy Osiyo bo'ylab turlarni tanlang.
+  blocks:
+    - blockType: mostPopularTours
+      eyebrow: Katalog
+      title: Eng mashhur turlar
+      description: null
+    - blockType: regular
+      eyebrow: Materiallar
+      title: Yangiliklar va blog
+      gridClassName: grid grid-cols-1 gap-4 md:grid-cols-3
+      actions:
+        - type: link
+          title: Barchasini ko'rish
+          href: /blog
+          variant: link
+      cards:
+        - type: catalogFeed
+          title: Samarqandning 5 ta yashirin gavhari
+          meta: 2023-yil 26-oktabr
+          href: /company/news
+          imageUrl: /assets/images/samarkand.jpg
+          className: bg-accent
+          ctaLabel: O'qish
+        - type: catalogFeed
+          title: Ipak yo'li marshrutini qanday rejalashtirish
+          meta: 2023-yil 18-oktabr
+          href: /blog
+          imageUrl: /assets/images/tours/silk-road.jpg
+          className: bg-secondary
+          ctaLabel: O'qish
+        - type: catalogFeed
+          title: O'zbekistonga qachon borish kerak
+          meta: 2023-yil 10-oktabr
+          href: /blog
+          imageUrl: /assets/images/people.jpg
+          className: bg-muted
+          ctaLabel: O'qish
+    - blockType: specialOffers
+      eyebrow: Aksiyalar
+      title: Maxsus takliflar
+      actions:
+        - type: link
+          title: Ko'proq
+          href: /catalog
+          variant: destructive
+    - blockType: regular
+      eyebrow: Yo'nalishlar
+      title: Top yo'nalishlar
+      gridClassName: grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3
+      actions:
+        - type: link
+          title: Barchasini ko'rish
+          href: /destinations
+          variant: link
+      cards:
+        - type: country
+          title: Samarqand
+          description: 12 ta tur
+          badge: O'zbekiston
+          href: /destinations
+          imageUrl: /assets/images/city/samarkand.jpg
+        - type: country
+          title: Buxoro
+          description: 9 ta tur
+          badge: O'zbekiston
+          href: /destinations
+          imageUrl: /assets/images/city/bukhara.jpg
+        - type: country
+          title: Xiva
+          description: 7 ta tur
+          badge: O'zbekiston
+          href: /destinations
+          imageUrl: /assets/images/city/khiva.jpg
+        - type: country
+          title: Toshkent
+          description: 15 ta tur
+          badge: O'zbekiston
+          href: /destinations
+          imageUrl: /assets/images/city/tashkent.jpg
+        - type: country
+          title: Farg'ona
+          description: 6 ta tur
+          badge: O'zbekiston
+          href: /destinations
+          imageUrl: /assets/images/city/fergana.jpg
+        - type: country
+          title: Nukus
+          description: 4 ta tur
+          badge: O'zbekiston
+          href: /destinations
+          imageUrl: /assets/images/city/nukus.jpg

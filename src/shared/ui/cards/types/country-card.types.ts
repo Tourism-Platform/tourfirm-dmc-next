@@ -6,6 +6,7 @@ export interface ICountryCard {
 	description: string;
 	cities: string[];
 	featured?: boolean;
+	className?: string;
 }
 
 export type TCountryCardProps = {

@@ -6,37 +6,54 @@ import type { DateValue, TimeValue } from "react-aria-components";
 import type { Control } from "react-hook-form";
 
 import { cn } from "@/shared/lib/utils";
-import type {
-	BadgeSize,
-	BadgeVariant,
-	CustomAutocompleteProps,
-	CustomGeoSelectProps
-} from "@/shared/ui";
 import {
 	CustomAutocomplete,
-	CustomCalendarRange,
+	type CustomAutocompleteProps
+} from "@/shared/ui/custom/custom-autocomplete";
+import { CustomCalendarRange } from "@/shared/ui/custom/custom-calendar-range";
+import {
+	CustomCountrySelect,
+	type CustomCountrySelectProps
+} from "@/shared/ui/custom/custom-country-select";
+import {
 	CustomGeoSelect,
+	type CustomGeoSelectProps
+} from "@/shared/ui/custom/custom-geo-select";
+import {
+	CustomUploadFilesField,
+	type ICustomUploadFilesProps
+} from "@/shared/ui/custom/custom-upload-files";
+import { DatePicker } from "@/shared/ui/date-picker";
+import type { BadgeSize, BadgeVariant } from "@/shared/ui/shadcn-ui/badge";
+import {
 	DatePickerInput,
-	type DatePickerInputProps,
+	type DatePickerInputProps
+} from "@/shared/ui/shadcn-ui/date-picker-input";
+import {
 	FormControl,
 	FormField,
 	FormItem,
 	FormLabel,
-	FormMessage,
-	Input,
+	FormMessage
+} from "@/shared/ui/shadcn-ui/form";
+import { Input } from "@/shared/ui/shadcn-ui/input";
+import {
 	MultipleSelector,
 	type MultipleSelectorDisplayMode,
-	type Option as MultipleSelectorOption,
-	PasswordInput,
+	type Option as MultipleSelectorOption
+} from "@/shared/ui/shadcn-ui/multiselect";
+import { PasswordInput } from "@/shared/ui/shadcn-ui/password-input";
+import { PhoneInput } from "@/shared/ui/shadcn-ui/phone-input";
+import {
 	SelectPicker,
-	type SelectPickerProps,
-	Switch,
-	Textarea,
+	type SelectPickerProps
+} from "@/shared/ui/shadcn-ui/select-picker";
+import { Switch } from "@/shared/ui/shadcn-ui/switch";
+import { Textarea } from "@/shared/ui/shadcn-ui/textarea";
+import {
 	TimePickerInput,
 	type TimePickerInputProps
-} from "@/shared/ui";
-import { DatePicker } from "@/shared/ui/date-picker";
-import { PhoneInput } from "@/shared/ui/shadcn-ui/phone-input";
+} from "@/shared/ui/shadcn-ui/time-picker-input";
 
 export type CustomFieldVariant =
 	| "input"
@@ -47,7 +64,9 @@ export type CustomFieldVariant =
 	| "date"
 	| "select"
 	| "multiselect"
+	| "upload"
 	| "autocomplete"
+	| "country"
 	| "geo"
 	| "dateRange"
 	| "datePicker"
@@ -94,11 +113,6 @@ type SelectFieldVariant = BaseFieldProps & {
 	fieldType: Extract<CustomFieldVariant, "select">;
 } & SelectPickerProps;
 
-type EditorFieldVariant = BaseFieldProps & {
-	fieldType: Extract<CustomFieldVariant, "editor">;
-	defaultValue?: string;
-};
-
 type MultiselectFieldVariant = BaseFieldProps & {
 	fieldType: Extract<CustomFieldVariant, "multiselect">;
 	options: MultipleSelectorOption[];
@@ -112,6 +126,14 @@ type MultiselectFieldVariant = BaseFieldProps & {
 type AutocompleteFieldVariant = BaseFieldProps & {
 	fieldType: Extract<CustomFieldVariant, "autocomplete">;
 } & Omit<CustomAutocompleteProps, "value" | "onChange">;
+
+type CountryFieldVariant = BaseFieldProps & {
+	fieldType: Extract<CustomFieldVariant, "country">;
+} & Omit<CustomCountrySelectProps, "value" | "onChange">;
+
+type UploadFieldVariant = BaseFieldProps & {
+	fieldType: Extract<CustomFieldVariant, "upload">;
+} & ICustomUploadFilesProps;
 
 type GeoFieldVariant = BaseFieldProps & {
 	fieldType: Extract<CustomFieldVariant, "geo">;
@@ -140,8 +162,9 @@ type CustomFieldProps =
 	| DateFieldVariant
 	| SelectFieldVariant
 	| MultiselectFieldVariant
-	| EditorFieldVariant
+	| UploadFieldVariant
 	| AutocompleteFieldVariant
+	| CountryFieldVariant
 	| GeoFieldVariant
 	| DateRangeFieldVariant
 	| DatePickerFieldVariant
@@ -179,13 +202,16 @@ export const CustomField: FC<CustomFieldProps> = (props) => {
 		...rest
 	} = props;
 
+	const resolveText = (key?: string): string | undefined =>
+		key ? t(key) : undefined;
+
 	const renderInput = (field: any) => {
 		switch (fieldType) {
 			case "input":
 				return (
 					<Input
 						{...rest}
-						placeholder={t(props.placeholder)}
+						placeholder={resolveText(props.placeholder)}
 						{...field}
 						onChange={(event) => {
 							if (props.type === "number") {
@@ -203,7 +229,7 @@ export const CustomField: FC<CustomFieldProps> = (props) => {
 				return (
 					<PasswordInput
 						{...rest}
-						placeholder={t(props.placeholder)}
+						placeholder={resolveText(props.placeholder)}
 						{...field}
 					/>
 				);
@@ -212,7 +238,7 @@ export const CustomField: FC<CustomFieldProps> = (props) => {
 					<PhoneInput
 						{...rest}
 						international
-						placeholder={t(props.placeholder)}
+						placeholder={resolveText(props.placeholder)}
 						{...field}
 					/>
 				);
@@ -221,7 +247,7 @@ export const CustomField: FC<CustomFieldProps> = (props) => {
 					<Textarea
 						{...rest}
 						className="resize-none h-32"
-						placeholder={t(props.placeholder)}
+						placeholder={resolveText(props.placeholder)}
 						{...field}
 					/>
 				);
@@ -267,7 +293,7 @@ export const CustomField: FC<CustomFieldProps> = (props) => {
 				return (
 					<SelectPicker
 						{...rest}
-						placeholder={t(props.placeholder)}
+						placeholder={resolveText(props.placeholder)}
 						{...field}
 					/>
 				);
@@ -275,7 +301,7 @@ export const CustomField: FC<CustomFieldProps> = (props) => {
 				return (
 					<MultipleSelector
 						defaultOptions={props.options}
-						placeholder={t(props.placeholder)}
+						placeholder={resolveText(props.placeholder)}
 						value={props.options.filter(
 							(opt: MultipleSelectorOption) =>
 								(field.value || []).includes(opt.value)
@@ -297,9 +323,26 @@ export const CustomField: FC<CustomFieldProps> = (props) => {
 				return (
 					<CustomAutocomplete
 						{...props}
-						placeholder={t(props.placeholder)}
-						emptyText={t(props.emptyText)}
+						placeholder={resolveText(props.placeholder)}
+						emptyText={resolveText(props.emptyText)}
 						value={field.value}
+						onChange={field.onChange}
+					/>
+				);
+			case "upload":
+				return (
+					<CustomUploadFilesField
+						{...props}
+						readOnly={props.readOnly || props.disabled}
+					/>
+				);
+			case "country":
+				return (
+					<CustomCountrySelect
+						{...props}
+						placeholder={resolveText(props.placeholder)}
+						emptyText={resolveText(props.emptyText)}
+						value={field.value ?? ""}
 						onChange={field.onChange}
 					/>
 				);
@@ -307,8 +350,8 @@ export const CustomField: FC<CustomFieldProps> = (props) => {
 				return (
 					<CustomGeoSelect
 						{...props}
-						placeholder={t(props.placeholder)}
-						emptyText={t(props.emptyText)}
+						placeholder={resolveText(props.placeholder)}
+						emptyText={resolveText(props.emptyText)}
 						value={field.value ?? null}
 						onChange={field.onChange}
 					/>
@@ -317,7 +360,7 @@ export const CustomField: FC<CustomFieldProps> = (props) => {
 				return (
 					<CustomCalendarRange
 						{...props}
-						placeholder={t(props.placeholder)}
+						placeholder={resolveText(props.placeholder)}
 						{...field}
 					/>
 				);
@@ -348,7 +391,7 @@ export const CustomField: FC<CustomFieldProps> = (props) => {
 				return (
 					<Input
 						{...rest}
-						placeholder={t(props.placeholder)}
+						placeholder={resolveText(props.placeholder)}
 						{...field}
 						onChange={(event) => {
 							if (props.type === "number") {

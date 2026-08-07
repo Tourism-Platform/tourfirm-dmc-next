@@ -9,7 +9,7 @@ import {
 	SelectItem,
 	SelectTrigger,
 	SelectValue
-} from "@/shared/ui";
+} from "@/shared/ui/shadcn-ui/select";
 
 export interface SelectPickerOption {
 	label: string;

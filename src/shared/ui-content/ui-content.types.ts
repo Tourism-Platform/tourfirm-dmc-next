@@ -1,3 +1,6 @@
+import type { TUiBooking } from "./ui-booking.types";
+import type { TUiPreview } from "./ui-preview.types";
+
 export type TUiMeta = {
 	title: string;
 	description: string;
@@ -113,6 +116,11 @@ export type TUiCatalog = {
 		durationDays: string;
 		freeCancellation: string;
 		priceFrom: string;
+		bookNow: string;
+		duration: string;
+		group: string;
+		age: string;
+		options: string;
 	};
 	toasts: { loadError: string };
 };
@@ -148,6 +156,9 @@ export type TUiLogin = {
 	};
 };
 
+export type { TUiBooking } from "./ui-booking.types";
+export type { TUiPreview } from "./ui-preview.types";
+
 export type TUiContent = {
 	header: TUiHeader;
 	footer: TUiFooter;
@@ -155,6 +166,8 @@ export type TUiContent = {
 	catalog: TUiCatalog;
 	discovery: TUiDiscovery;
 	login: TUiLogin;
+	preview: TUiPreview;
+	booking: TUiBooking;
 };
 
 export type TLanguageSetting = {

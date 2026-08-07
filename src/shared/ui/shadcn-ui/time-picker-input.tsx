@@ -8,7 +8,7 @@ import {
 	type TimeValue
 } from "react-aria-components";
 
-import { DateInput } from "@/shared/ui";
+import { DateInput } from "@/shared/ui/shadcn-ui/datefield-rac";
 
 export type TimePickerInputProps = TimeFieldProps<TimeValue> & {
 	"aria-invalid"?: boolean | "true" | "false";

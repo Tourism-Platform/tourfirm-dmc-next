@@ -10,11 +10,13 @@ import {
 	CommandGroup,
 	CommandInput,
 	CommandItem,
-	CommandList,
+	CommandList
+} from "@/shared/ui/shadcn-ui/command";
+import {
 	Popover,
 	PopoverContent,
 	PopoverTrigger
-} from "@/shared/ui";
+} from "@/shared/ui/shadcn-ui/popover";
 
 export interface CustomAutocompleteOption {
 	label: string;

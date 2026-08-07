@@ -1,9 +1,11 @@
 import type { TCardRenderProps } from "@/shared/ui/cards";
 import type { TRouteMapStop } from "@/shared/ui/route-map";
 
-import type { Homepage } from "@/payload-types";
+import type { Catalog, Homepage } from "@/payload-types";
 
-export type TCmsPageBlock = NonNullable<Homepage["blocks"]>[number];
+export type TCmsPageBlock =
+	| NonNullable<Homepage["blocks"]>[number]
+	| NonNullable<Catalog["blocks"]>[number];
 
 export type TResolveBlockDataContext = {
 	document: Record<string, unknown>;

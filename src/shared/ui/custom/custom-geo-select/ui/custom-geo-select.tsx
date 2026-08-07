@@ -15,13 +15,13 @@ import type {
 	IGeoSelectOption,
 	TGeoFormValue
 } from "@/shared/types/geo-form.types";
+import { Input } from "@/shared/ui/shadcn-ui/input";
 import {
-	Input,
 	Popover,
 	PopoverAnchor,
-	PopoverContent,
-	ScrollArea
-} from "@/shared/ui";
+	PopoverContent
+} from "@/shared/ui/shadcn-ui/popover";
+import { ScrollArea } from "@/shared/ui/shadcn-ui/scroll-area";
 import { encodeGeoOptionValue } from "@/shared/utils/geo-option.utils";
 
 export interface CustomGeoSelectProps {

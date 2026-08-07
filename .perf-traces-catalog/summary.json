@@ -1,0 +1,142 @@
+{
+  "id": "catalog",
+  "timing": {
+    "line": "GET /en/catalog 200 in 2.2min (next.js: 67s, proxy.ts: 970ms, generate-params: 23.7s, application-code: 66s)",
+    "elapsedMs": 143252
+  },
+  "traceSummary": {
+    "eventCount": 23,
+    "ranked": [
+      {
+        "name": "handle-request",
+        "count": 2,
+        "totalMs": 134062,
+        "maxMs": 133098,
+        "samples": [
+          {
+            "ms": 965,
+            "url": "/en/catalog"
+          },
+          {
+            "ms": 133098,
+            "url": "/en/catalog"
+          }
+        ]
+      },
+      {
+        "name": "render-path",
+        "count": 1,
+        "totalMs": 65897,
+        "maxMs": 65897,
+        "samples": []
+      },
+      {
+        "name": "compile-path",
+        "count": 4,
+        "totalMs": 44659,
+        "maxMs": 42063,
+        "samples": [
+          {
+            "ms": 1265,
+            "trigger": "instrumentation Node.js"
+          },
+          {
+            "ms": 171,
+            "trigger": "instrumentation Edge"
+          },
+          {
+            "ms": 1159,
+            "trigger": "proxy"
+          },
+          {
+            "ms": 42063,
+            "trigger": "/[locale]/catalog"
+          }
+        ]
+      },
+      {
+        "name": "turbopack-persistence",
+        "count": 4,
+        "totalMs": 21446,
+        "maxMs": 21382,
+        "samples": []
+      },
+      {
+        "name": "start-dev-server",
+        "count": 1,
+        "totalMs": 8640,
+        "maxMs": 8640,
+        "samples": []
+      },
+      {
+        "name": "setup-dev-bundler",
+        "count": 1,
+        "totalMs": 4999,
+        "maxMs": 4999,
+        "samples": []
+      },
+      {
+        "name": "turbopack-compaction",
+        "count": 1,
+        "totalMs": 3693,
+        "maxMs": 3693,
+        "samples": []
+      },
+      {
+        "name": "ensure-page",
+        "count": 7,
+        "totalMs": 17,
+        "maxMs": 4,
+        "samples": [
+          {
+            "ms": 4,
+            "inputPage": "/src/proxy"
+          },
+          {
+            "ms": 3,
+            "inputPage": "/src/proxy"
+          },
+          {
+            "ms": 2,
+            "inputPage": "/src/proxy"
+          },
+          {
+            "ms": 2,
+            "inputPage": "/en/catalog"
+          },
+          {
+            "ms": 1,
+            "inputPage": "/en/catalog"
+          },
+          {
+            "ms": 3,
+            "inputPage": "/en/catalog"
+          },
+          {
+            "ms": 2,
+            "inputPage": "/en/catalog"
+          }
+        ]
+      },
+      {
+        "name": "hot-reloader",
+        "count": 1,
+        "totalMs": 1,
+        "maxMs": 1,
+        "samples": []
+      },
+      {
+        "name": "memory-usage",
+        "count": 1,
+        "totalMs": 0,
+        "maxMs": 0,
+        "samples": []
+      }
+    ]
+  },
+  "copied": [
+    "trace",
+    "trace-turbopack"
+  ],
+  "updatedAt": "2026-08-06T18:34:11.944Z"
+}

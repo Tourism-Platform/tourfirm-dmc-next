@@ -8,28 +8,25 @@ import {
 	DEFAULT_LOCALE,
 	SUPPORTED_LOCALES
 } from "../config/supported-locales.js";
+import { convertKeysDeep } from "./seed/lib/convert-keys.js";
+import {
+	hasUiTextFile,
+	loadUiTextFile
+} from "./seed/lib/load-ui-text.js";
+import { UI_TEXTS_DIR } from "./seed/lib/paths.js";
+import { updateGlobalLocale } from "./seed/lib/update-global.js";
+import { seedUiBooking } from "./seed/seeders/ui-booking.js";
+import { seedUiLogin } from "./seed/seeders/ui-login.js";
+import { seedUiPreview } from "./seed/seeders/ui-preview.js";
 
 const LOCALES = SUPPORTED_LOCALES;
 type TLocale = (typeof LOCALES)[number];
-
-type TUiGlobalSlug =
-	| "header"
-	| "footer"
-	| "ui-common"
-	| "ui-catalog"
-	| "ui-discovery"
-	| "ui-login";
 
 const ROOT_DIR = path.resolve(
 	path.dirname(fileURLToPath(import.meta.url)),
 	".."
 );
 const MESSAGES_DIR = path.join(ROOT_DIR, "messages");
-
-const SEED_OP_OPTS = {
-	overrideAccess: true as const,
-	context: { isSeed: true } as const
-};
 
 const SEED_LOCALE_AVAILABILITY_DEFAULTS: Record<
 	string,
@@ -53,27 +50,6 @@ const SEED_LOCALE_AVAILABILITY_DEFAULTS: Record<
 	hi: { label: "हिन्दी", enabled: false, showInDropdown: false }
 };
 
-function toCamelCase(key: string): string {
-	return key.replace(/_([a-z])/g, (_, char: string) => char.toUpperCase());
-}
-
-function convertKeysDeep<T>(value: T): T {
-	if (Array.isArray(value)) {
-		return value.map((item) => convertKeysDeep(item)) as T;
-	}
-
-	if (value && typeof value === "object") {
-		return Object.fromEntries(
-			Object.entries(value).map(([key, nested]) => [
-				toCamelCase(key),
-				convertKeysDeep(nested)
-			])
-		) as T;
-	}
-
-	return value;
-}
-
 function buildSeedLocaleAvailability() {
 	return Object.fromEntries(
 		SUPPORTED_LOCALES.map((code) => [
@@ -96,7 +72,7 @@ async function hasMessageBundle(locale: string): Promise<boolean> {
 	}
 }
 
-async function loadMessageFile<T>(
+async function loadLegacyMessageFile<T>(
 	locale: TLocale,
 	fileName: string
 ): Promise<T> {
@@ -104,6 +80,21 @@ async function loadMessageFile<T>(
 	const raw = await fs.readFile(filePath, "utf8");
 
 	return JSON.parse(raw) as T;
+}
+
+async function loadJsonSource<T>(
+	locale: TLocale,
+	fileName: string
+): Promise<T | null> {
+	if (await hasUiTextFile(locale, fileName)) {
+		return loadUiTextFile<T>(locale, fileName);
+	}
+
+	try {
+		return await loadLegacyMessageFile<T>(locale, fileName);
+	} catch {
+		return null;
+	}
 }
 
 function buildHeaderUiTexts(header: Record<string, unknown>) {
@@ -134,10 +125,6 @@ function buildHeaderUiTexts(header: Record<string, unknown>) {
 		},
 		userMenu: convertKeysDeep(userMenu ?? {})
 	};
-}
-
-function buildUiLogin(login: Record<string, unknown>) {
-	return convertKeysDeep(login);
 }
 
 function buildFooterUiTexts(footer: Record<string, unknown>) {
@@ -189,125 +176,92 @@ function buildUiDiscovery(
 	};
 }
 
-async function updateGlobalLocale(
-	payload: Payload,
-	slug: TUiGlobalSlug,
-	locale: TLocale,
-	data: Record<string, unknown>
-) {
-	// Partial uiTexts updates must keep required localized array fields
-	// (columns / navItems), otherwise Payload validates them as empty.
-	let nextData = data;
-
-	if (slug === "footer" || slug === "header") {
-		const existing = await payload.findGlobal({
-			slug,
-			locale,
-			depth: 0,
-			...SEED_OP_OPTS
-		});
-
-		if (slug === "footer" && Array.isArray(existing?.columns)) {
-			nextData = {
-				...data,
-				columns: existing.columns
-			};
-		}
-
-		if (slug === "header") {
-			nextData = {
-				...data,
-				...(existing?.logo != null ? { logo: existing.logo } : {}),
-				...(Array.isArray(existing?.navItems)
-					? { navItems: existing.navItems }
-					: {}),
-				...(Array.isArray(existing?.informationAreas)
-					? { informationAreas: existing.informationAreas }
-					: {}),
-				...(Array.isArray(existing?.userMenuItems)
-					? { userMenuItems: existing.userMenuItems }
-					: {})
-			};
-		}
-	}
-
-	await payload.updateGlobal({
-		slug,
-		data: nextData,
-		locale,
-		draft: false,
-		...SEED_OP_OPTS
-	});
-}
-
 export async function seedUiContent(payload: Payload): Promise<void> {
-	console.log("Seeding UI content globals...");
+	console.log("Seeding legacy UI content globals (messages/ui-texts)...");
 
 	for (const locale of LOCALES) {
-		if (!(await hasMessageBundle(locale))) {
-			console.log(`  ~ skip ui content locale ${locale} (no messages/)`);
+		const hasMessages = await hasMessageBundle(locale);
+		const hasUiTexts = await fs
+			.access(path.join(UI_TEXTS_DIR, locale))
+			.then(() => true)
+			.catch(() => false);
+
+		if (!hasMessages && !hasUiTexts) {
+			console.log(`  ~ skip ui content locale ${locale} (no sources)`);
 			continue;
 		}
 
-		const [header, footer, common, catalog, discovery, company, login] =
+		const [header, footer, common, catalog, discovery, company] =
 			await Promise.all([
-				loadMessageFile<Record<string, unknown>>(locale, "header.json"),
-				loadMessageFile<Record<string, unknown>>(locale, "footer.json"),
-				loadMessageFile<Record<string, unknown>>(locale, "common.json"),
-				loadMessageFile<Record<string, unknown>>(locale, "catalog_page.json"),
-				loadMessageFile<Record<string, unknown>>(
-					locale,
-					"discovery_page.json"
-				),
-				loadMessageFile<Record<string, unknown>>(locale, "company_page.json"),
-				loadMessageFile<Record<string, unknown>>(locale, "login_page.json")
+				loadJsonSource<Record<string, unknown>>(locale, "header.json"),
+				loadJsonSource<Record<string, unknown>>(locale, "footer.json"),
+				loadJsonSource<Record<string, unknown>>(locale, "common.json"),
+				loadJsonSource<Record<string, unknown>>(locale, "catalog_page.json"),
+				loadJsonSource<Record<string, unknown>>(locale, "discovery_page.json"),
+				loadJsonSource<Record<string, unknown>>(locale, "company_page.json")
 			]);
 
-		const headerUiTexts = buildHeaderUiTexts(header);
-		const footerUiTexts = buildFooterUiTexts(footer);
-		const destinationsLabel = (
-			(header.public as Record<string, unknown> | undefined)?.nav as
-				| Record<string, unknown>
-				| undefined
-		)?.destinations as Record<string, unknown> | undefined;
+		if (header) {
+			await updateGlobalLocale(payload, "header", locale, {
+				uiTexts: buildHeaderUiTexts(header)
+			});
+		}
 
-		await updateGlobalLocale(payload, "header", locale, {
-			uiTexts: headerUiTexts
-		});
-		await updateGlobalLocale(payload, "footer", locale, {
-			uiTexts: footerUiTexts
-		});
-		await updateGlobalLocale(
-			payload,
-			"ui-common",
-			locale,
-			buildUiCommon(common, footer, {
-				includeLocaleAvailability: locale === DEFAULT_LOCALE
-			})
-		);
-		await updateGlobalLocale(
-			payload,
-			"ui-catalog",
-			locale,
-			buildUiCatalog(catalog)
-		);
-		await updateGlobalLocale(
-			payload,
-			"ui-discovery",
-			locale,
-			buildUiDiscovery(
-				discovery,
-				company,
-				String(destinationsLabel?.label ?? "Destinations")
-			)
-		);
-		await updateGlobalLocale(
-			payload,
-			"ui-login",
-			locale,
-			buildUiLogin(login)
-		);
+		if (footer) {
+			await updateGlobalLocale(payload, "footer", locale, {
+				uiTexts: buildFooterUiTexts(footer)
+			});
+		}
 
-		console.log(`  + ui content locale ${locale}`);
+		if (common && footer) {
+			await updateGlobalLocale(
+				payload,
+				"ui-common",
+				locale,
+				buildUiCommon(common, footer, {
+					includeLocaleAvailability: locale === DEFAULT_LOCALE
+				})
+			);
+		}
+
+		if (catalog) {
+			await updateGlobalLocale(
+				payload,
+				"ui-catalog",
+				locale,
+				buildUiCatalog(catalog)
+			);
+		}
+
+		if (discovery && company && header) {
+			const destinationsLabel = (
+				(header.public as Record<string, unknown> | undefined)?.nav as
+					| Record<string, unknown>
+					| undefined
+			)?.destinations as Record<string, unknown> | undefined;
+
+			await updateGlobalLocale(
+				payload,
+				"ui-discovery",
+				locale,
+				buildUiDiscovery(
+					discovery,
+					company,
+					String(destinationsLabel?.label ?? "Destinations")
+				)
+			);
+		}
+
+		console.log(`  + legacy ui content locale ${locale}`);
 	}
+
+	await seedUiLogin(payload);
+	await seedUiPreview(payload);
+	await seedUiBooking(payload);
 }
+
+export { seedUiPreview } from "./seed/seeders/ui-preview.js";
+export { seedUiLogin } from "./seed/seeders/ui-login.js";
+export { seedUiBooking } from "./seed/seeders/ui-booking.js";
+export { seedUiCatalog } from "./seed/seeders/ui-catalog.js";
+export { seedCatalogPage } from "./seed/seeders/catalog-page.js";

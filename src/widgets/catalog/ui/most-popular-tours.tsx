@@ -19,7 +19,17 @@ import {
 	useGetPopularToursQuery
 } from "@/entities/tour";
 
-const MostPopularToursBase: FC = () => {
+type TMostPopularToursProps = {
+	eyebrow?: string;
+	title: string;
+	description?: string;
+};
+
+const MostPopularToursBase: FC<TMostPopularToursProps> = ({
+	eyebrow,
+	title,
+	description
+}) => {
 	const { catalog } = useUiContent();
 	const { data, isLoading, isError } = useGetPopularToursQuery();
 	const tours = data?.data ?? [];
@@ -30,16 +40,26 @@ const MostPopularToursBase: FC = () => {
 
 	return (
 		<section className="flex flex-col gap-6 sm:gap-7">
-			<h2 className="text-xl font-semibold sm:text-2xl">
-				{catalog.popular.title}
-			</h2>
+			<div className="space-y-2">
+				{eyebrow ? (
+					<p className="text-muted-foreground text-sm font-medium tracking-wide uppercase">
+						{eyebrow}
+					</p>
+				) : null}
+				<h2 className="text-xl font-semibold sm:text-2xl">{title}</h2>
+				{description ? (
+					<p className="text-muted-foreground max-w-2xl text-sm sm:text-base">
+						{description}
+					</p>
+				) : null}
+			</div>
 			<Carousel opts={{ align: "start" }} className="w-full">
 				<CarouselContent className="-ml-3 pb-2 sm:-ml-4">
 					{isLoading
-						? Array.from({ length: 4 }).map((_, index) => (
+						? Array.from({ length: 3 }).map((_, index) => (
 								<CarouselItem
 									key={`skeleton-${index}`}
-									className="basis-full pl-3 sm:basis-1/2 sm:pl-4 lg:basis-1/4"
+									className="basis-full pl-3 sm:basis-1/2 sm:pl-4 lg:basis-[31%]"
 								>
 									<CatalogTourCardSkeleton />
 								</CarouselItem>
@@ -47,7 +67,7 @@ const MostPopularToursBase: FC = () => {
 						: tours.map((tour) => (
 								<CarouselItem
 									key={tour.id}
-									className="basis-full pl-3 sm:basis-1/2 sm:pl-4 lg:basis-1/4"
+									className="basis-full pl-3 sm:basis-1/2 sm:pl-4 lg:basis-[31%]"
 								>
 									<CatalogTourCard data={tour} />
 								</CarouselItem>

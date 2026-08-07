@@ -20,7 +20,8 @@ export enum CardType {
 	DashTitle = "dashTitle",
 	Quote = "quote",
 	Alert = "alert",
-	MiniTable = "miniTable"
+	MiniTable = "miniTable",
+	CatalogFeed = "catalogFeed"
 }
 
 export type TCardItemRow = {
@@ -49,6 +50,7 @@ export interface ICardItem {
 	className?: string;
 	quoteHtml?: string;
 	rows?: TCardItemRow[];
+	readMoreLabel?: string;
 }
 
 export type TCardRenderProps = {

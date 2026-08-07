@@ -1,4 +1,5 @@
 import config from "@payload-config";
+import { unstable_cache } from "next/cache";
 import { getPayload } from "payload";
 import type { TypedLocale } from "payload";
 import { cache } from "react";
@@ -10,12 +11,15 @@ import {
 	mapHeaderUiTexts
 } from "./ui-content.mapper";
 import type {
+	TUiBooking,
 	TUiCatalog,
 	TUiCommon,
 	TUiContent,
 	TUiDiscovery,
-	TUiLogin
+	TUiLogin,
+	TUiPreview
 } from "./ui-content.types";
+import { UI_CONTENT_CACHE_TAG } from "@/cms/cache/cache-tags";
 
 const UI_GLOBAL_SLUGS = [
 	"header",
@@ -23,12 +27,14 @@ const UI_GLOBAL_SLUGS = [
 	"ui-common",
 	"ui-catalog",
 	"ui-discovery",
-	"ui-login"
+	"ui-login",
+	"ui-preview",
+	"ui-booking"
 ] as const;
 
 type TUiGlobalSlug = (typeof UI_GLOBAL_SLUGS)[number];
 
-async function fetchUiGlobals(locale: TypedLocale) {
+async function fetchUiGlobalsUncached(locale: TypedLocale) {
 	const payload = await getPayload({ config });
 
 	const entries = await Promise.all(
@@ -50,6 +56,19 @@ async function fetchUiGlobals(locale: TypedLocale) {
 		Record<string, unknown>
 	>;
 }
+
+const getCachedUiGlobals = unstable_cache(
+	fetchUiGlobalsUncached,
+	["ui-globals"],
+	{
+		tags: [UI_CONTENT_CACHE_TAG],
+		revalidate: 60
+	}
+);
+
+const fetchUiGlobals = cache(async (locale: TypedLocale) => {
+	return getCachedUiGlobals(locale);
+});
 
 function mapUiContentBundle(
 	fallback: Record<TUiGlobalSlug, Record<string, unknown>>,
@@ -73,17 +92,24 @@ function mapUiContentBundle(
 		login: mapGlobalUiContent(
 			fallback["ui-login"],
 			current["ui-login"]
-		) as TUiLogin
+		) as TUiLogin,
+		preview: mapGlobalUiContent(
+			fallback["ui-preview"],
+			current["ui-preview"]
+		) as TUiPreview,
+		booking: mapGlobalUiContent(
+			fallback["ui-booking"],
+			current["ui-booking"]
+		) as TUiBooking
 	};
 }
 
 export const loadUiContent = cache(
 	async (locale: string): Promise<TUiContent> => {
 		const typedLocale = locale as TypedLocale;
-		const [fallback, current] = await Promise.all([
-			fetchUiGlobals("en"),
-			locale === "en" ? fetchUiGlobals("en") : fetchUiGlobals(typedLocale)
-		]);
+		const fallback = await fetchUiGlobals("en");
+		const current =
+			locale === "en" ? fallback : await fetchUiGlobals(typedLocale);
 
 		return mapUiContentBundle(fallback, current);
 	}

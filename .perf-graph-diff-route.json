@@ -1,0 +1,19 @@
+{
+  "commonRouteCount": 431,
+  "commonHeavyOrBarrel": [
+    "src/shared/ui/index.ts",
+    "src/shared/ui/custom/index.ts",
+    "src/shared/ui/shadcn-ui/animated-beam.tsx",
+    "src/shared/ui/custom/custom-editor/index.ts",
+    "src/shared/ui/custom/custom-editor/previewer.tsx",
+    "src/shared/ui/custom/custom-editor/previewer-simple.tsx",
+    "src/shared/ui/custom/custom-editor/model/parse-tiptap-doc.ts",
+    "src/shared/ui/custom/custom-editor/model/tiptap-to-plain-text.ts"
+  ],
+  "sizes": {
+    "home": 464,
+    "catalog": 469,
+    "preview": 506,
+    "booking": 461
+  }
+}

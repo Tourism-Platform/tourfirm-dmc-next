@@ -7,20 +7,22 @@ import flags from "react-phone-number-input/flags";
 import "react-phone-number-input/style.css";
 
 import { cn } from "@/shared/lib/utils";
+import { Button } from "@/shared/ui/shadcn-ui/button";
 import {
-	Button,
 	Command,
 	CommandEmpty,
 	CommandGroup,
 	CommandInput,
 	CommandItem,
-	CommandList,
-	Input,
+	CommandList
+} from "@/shared/ui/shadcn-ui/command";
+import { Input } from "@/shared/ui/shadcn-ui/input";
+import {
 	Popover,
 	PopoverContent,
-	PopoverTrigger,
-	ScrollArea
-} from "@/shared/ui";
+	PopoverTrigger
+} from "@/shared/ui/shadcn-ui/popover";
+import { ScrollArea } from "@/shared/ui/shadcn-ui/scroll-area";
 
 type PhoneInputProps = Omit<
 	React.ComponentProps<"input">,

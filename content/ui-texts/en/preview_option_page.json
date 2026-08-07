@@ -1,0 +1,61 @@
+{
+	"page_name": "Option Preview",
+	"back": "Back to tour",
+	"day": {
+		"title": "Day {{n}}"
+	},
+	"sections": {
+		"option": {
+			"day": "Day",
+			"view_details": "View details",
+			"details": "Details",
+			"one_of_them": "(One of them)",
+			"read_more": "Read more"
+		}
+	},
+	"tabs": {
+		"tour_information": "Tour information",
+		"full_itinerary": "Full itinerary",
+		"pricing": "Pricing"
+	},
+	"sheet": {
+		"pickup_info": "Pickup info",
+		"pickup": "Pickup",
+		"dropoff": "Drop-off",
+		"to": "to",
+		"amenities": "Amenities",
+		"schedule_info": "Schedule info",
+		"nights": "Nights",
+		"check_in": "Check in",
+		"check_out": "Check out",
+		"activity_info": "Activity info",
+		"info_time": "Time",
+		"location": "Location",
+		"start_time": "Start time",
+		"end_time": "End time",
+		"flight_info": "Flight information"
+	},
+	"pricing": {
+		"title": "Pricing Breakdown",
+		"total_price": "Total price",
+		"total_hint": "Per person · depends on dates and selected options",
+		"details": "What's included",
+		"details_hint": "Open “View details” to see what’s included",
+		"choice_of": "Your choice",
+		"or": "or",
+		"accomodation": "Accommodation",
+		"activity": "Activities",
+		"transportation": "Transportation",
+		"sections": {
+			"accommodation": {
+				"blurb": "Comfortable stays along the route — already in the price"
+			},
+			"activity": {
+				"blurb": "Guided experiences and entries included"
+			},
+			"transportation": {
+				"blurb": "Transfers and intercity travel with no extras"
+			}
+		}
+	}
+}

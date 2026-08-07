@@ -18,7 +18,8 @@ const cardTypeOptions = [
 	{ label: "Dash Title", value: "dashTitle" },
 	{ label: "Quote", value: "quote" },
 	{ label: "Alert", value: "alert" },
-	{ label: "Mini Table", value: "miniTable" }
+	{ label: "Mini Table", value: "miniTable" },
+	{ label: "Catalog Feed", value: "catalogFeed" }
 ] as const;
 
 const whenType =
@@ -56,6 +57,24 @@ export const cardFields: Field[] = [
 				"blog",
 				"journal",
 				"news",
+				"catalogFeed",
+				"servicesDirection"
+			)
+		}
+	},
+	{
+		name: "imageUrl",
+		type: "text",
+		admin: {
+			description: "Static path fallback when Media upload is empty",
+			condition: whenType(
+				"country",
+				"routeIdea",
+				"experience",
+				"blog",
+				"journal",
+				"news",
+				"catalogFeed",
 				"servicesDirection"
 			)
 		}
@@ -109,7 +128,15 @@ export const cardFields: Field[] = [
 		name: "meta",
 		type: "text",
 		localized: true,
-		admin: { condition: whenType("routeIdea", "blog", "journal", "news") }
+		admin: {
+			condition: whenType(
+				"routeIdea",
+				"blog",
+				"journal",
+				"news",
+				"catalogFeed"
+			)
+		}
 	},
 	{
 		name: "value",
@@ -144,7 +171,9 @@ export const cardFields: Field[] = [
 		name: "ctaLabel",
 		type: "text",
 		localized: true,
-		admin: { condition: whenType("routeIdea", "servicesDirection") }
+		admin: {
+			condition: whenType("routeIdea", "servicesDirection", "catalogFeed")
+		}
 	},
 	{
 		name: "stand",
@@ -210,6 +239,8 @@ export const cardFields: Field[] = [
 	{
 		name: "className",
 		type: "text",
-		admin: { condition: whenType("servicesBusiness") }
+		admin: {
+			condition: whenType("servicesBusiness", "catalogFeed", "country")
+		}
 	}
 ];

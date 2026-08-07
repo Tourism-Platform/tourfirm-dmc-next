@@ -80,13 +80,15 @@ export const ADMIN_UI_CONTENT_GLOBALS_NAVIGATION: TAdminNavSection = {
 		"ui-common",
 		"ui-catalog",
 		"ui-discovery",
-		"ui-login"
+		"ui-login",
+		"ui-preview",
+		"ui-booking"
 	]
 };
 
 export const ADMIN_GLOBALS_NAVIGATION: TAdminNavSection = {
 	label: "Globals",
-	items: ["homepage", "site-settings"]
+	items: ["homepage", "catalog", "site-settings"]
 };
 
 export const ADMIN_ALL_GLOBALS_NAVIGATION: TAdminNavSection[] = [

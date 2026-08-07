@@ -8,7 +8,12 @@ import { type FC, useState } from "react";
 import { type DateRange } from "react-day-picker";
 
 import { cn } from "@/shared/lib/utils";
-import { Calendar, Popover, PopoverContent, PopoverTrigger } from "@/shared/ui";
+import { Calendar } from "@/shared/ui/shadcn-ui/calendar";
+import {
+	Popover,
+	PopoverContent,
+	PopoverTrigger
+} from "@/shared/ui/shadcn-ui/popover";
 
 const locales = {
 	ru,

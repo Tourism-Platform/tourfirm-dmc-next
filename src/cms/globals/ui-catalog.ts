@@ -2,12 +2,16 @@ import type { GlobalConfig } from "payload";
 
 import { authenticatedOrPublished } from "../access/authenticated-or-published";
 import { localizedText } from "../fields/ui-content/localized-text";
+import { revalidateUiContentCache } from "../hooks/revalidate-layout-cms";
 
 export const UiCatalog: GlobalConfig = {
 	slug: "ui-catalog",
 	label: "Catalog",
 	access: {
 		read: authenticatedOrPublished
+	},
+	hooks: {
+		afterChange: [revalidateUiContentCache]
 	},
 	fields: [
 		{
@@ -97,7 +101,12 @@ export const UiCatalog: GlobalConfig = {
 				localizedText("reviews"),
 				localizedText("durationDays"),
 				localizedText("freeCancellation"),
-				localizedText("priceFrom")
+				localizedText("priceFrom"),
+				localizedText("bookNow"),
+				localizedText("duration"),
+				localizedText("group"),
+				localizedText("age"),
+				localizedText("options")
 			]
 		},
 		{

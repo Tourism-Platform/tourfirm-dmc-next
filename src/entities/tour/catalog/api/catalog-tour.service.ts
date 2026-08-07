@@ -1,18 +1,23 @@
-import { ENUM_API_TAGS, baseApi } from "@/shared/api";
+import {
+	DEFAULT_CATALOG_SECTION_QUERY,
+	ENUM_API_TAGS,
+	TOUR_CATALOG_PATHS,
+	baseApi
+} from "@/shared/api";
 import type { IPaginationResponse } from "@/shared/types";
 
 import {
-	mapCatalogToursToFrontend,
+	mapCatalogTourPaginatedToFrontend,
 	mapFilterOptionsToFrontend,
 	mapRecentlySearchesToFrontend
 } from "../converters";
 import type {
-	ICatalogTourBackend,
 	ICatalogTourCard,
 	IFilterOption,
 	IFilterOptionBackend,
 	IRecentSearch,
-	IRecentSearchBackend
+	IRecentSearchBackend,
+	TListCatalogToursBackendResponse
 } from "../types";
 
 export const catalogTourApi = baseApi.injectEndpoints({
@@ -33,18 +38,24 @@ export const catalogTourApi = baseApi.injectEndpoints({
 			IPaginationResponse<ICatalogTourCard>,
 			void
 		>({
-			query: () => ({ url: "/tours/popular" }),
-			transformResponse: (response: { data: ICatalogTourBackend[] }) =>
-				mapCatalogToursToFrontend(response.data),
+			query: () => ({
+				...TOUR_CATALOG_PATHS.listPublicCatalog,
+				params: DEFAULT_CATALOG_SECTION_QUERY
+			}),
+			transformResponse: (response: TListCatalogToursBackendResponse) =>
+				mapCatalogTourPaginatedToFrontend(response),
 			providesTags: [ENUM_API_TAGS.TOURS_CATALOG]
 		}),
 		getSpecialOfferTours: builder.query<
 			IPaginationResponse<ICatalogTourCard>,
 			void
 		>({
-			query: () => ({ url: "/tours/special-offers" }),
-			transformResponse: (response: { data: ICatalogTourBackend[] }) =>
-				mapCatalogToursToFrontend(response.data),
+			query: () => ({
+				...TOUR_CATALOG_PATHS.listPublicCatalog,
+				params: DEFAULT_CATALOG_SECTION_QUERY
+			}),
+			transformResponse: (response: TListCatalogToursBackendResponse) =>
+				mapCatalogTourPaginatedToFrontend(response),
 			providesTags: [ENUM_API_TAGS.TOURS_CATALOG]
 		})
 	})

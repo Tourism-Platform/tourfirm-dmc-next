@@ -22,7 +22,8 @@ const badgeVariants = cva(
 				blue: "bg-blue-500/20 text-blue-600 border-none rounded-sm",
 				yellow: "bg-yellow-500/20 text-yellow-600 border-none rounded-sm",
 				orange: "bg-orange-500/20 text-orange-600 border-none rounded-sm",
-				cyan: "bg-cyan-500/20 text-cyan-600 border-none rounded-sm"
+				cyan: "bg-cyan-500/20 text-cyan-600 border-none rounded-sm",
+				black: "bg-foreground text-background border-none rounded-sm"
 			},
 			size: {
 				sm: "h-6 px-2.5 text-xs",

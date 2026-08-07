@@ -4,6 +4,10 @@ export function createNestedTextResolver(
 	root: Record<string, unknown>
 ): (path: string, values?: TFormatValues) => string {
 	return (path: string, values?: TFormatValues) => {
+		if (!path) {
+			return "";
+		}
+
 		const resolved = path.split(".").reduce<unknown>((acc, key) => {
 			if (acc && typeof acc === "object" && key in acc) {
 				return (acc as Record<string, unknown>)[key];

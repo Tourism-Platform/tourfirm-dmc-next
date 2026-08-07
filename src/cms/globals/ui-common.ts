@@ -3,12 +3,16 @@ import type { GlobalConfig } from "payload";
 import { authenticatedOrPublished } from "../access/authenticated-or-published";
 import { buildLocaleAvailabilityFields } from "../fields/locale-availability-fields";
 import { localizedText } from "../fields/ui-content/localized-text";
+import { revalidateUiCommonCache } from "../hooks/revalidate-layout-cms";
 
 export const UiCommon: GlobalConfig = {
 	slug: "ui-common",
 	label: "Common",
 	access: {
 		read: authenticatedOrPublished
+	},
+	hooks: {
+		afterChange: [revalidateUiCommonCache]
 	},
 	fields: [
 		{

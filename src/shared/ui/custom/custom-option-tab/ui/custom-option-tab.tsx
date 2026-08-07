@@ -12,9 +12,9 @@ const tabVariants = cva(
 		variants: {
 			variant: {
 				default: "",
-				tongue: "data-[state=active]:border-primary data-[state=active]:text-primary data-[state=active]:bg-accent/50 pl-4 py-2 rounded-t-lg rounded-b-none border-b-2 transition-all cursor-pointer border-transparent text-muted-foreground  hover:!bg-accent hover:!text-accent-foreground hover:!border-primary",
+				tongue: "data-[state=active]:border-primary data-[state=active]:text-primary data-[state=active]:bg-accent/50 pl-4 py-2 rounded-t-lg rounded-b-none border-b-2 transition-all cursor-pointer border-transparent text-muted-foreground hover:!bg-accent hover:!text-accent-foreground hover:!border-primary",
 				outline:
-					" first:rounded-l-lg last:rounded-r-lg rounded-none data-[state=active]:border-primary data-[state=active]:text-primary data-[state=active]:bg-accent/50 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50",
+					"first:rounded-l-lg last:rounded-r-lg rounded-none data-[state=active]:border-primary data-[state=active]:text-primary data-[state=active]:bg-accent/50 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50",
 				bigOutline:
 					"rounded-lg data-[state=active]:border-primary data-[state=active]:text-primary data-[state=active]:bg-accent/50 border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50"
 			}

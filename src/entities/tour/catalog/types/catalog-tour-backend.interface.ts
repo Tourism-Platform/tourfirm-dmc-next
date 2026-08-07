@@ -1,13 +1,8 @@
-export interface ICatalogTourBackend {
-	id: string;
-	title: string;
-	description: string;
-	duration: number;
-	price_from: number;
-	price_to: number;
-	image_url: string;
-	rating: number;
-	reviews_count: number;
-	has_free_cancellation: boolean;
-	is_recommended?: boolean;
-}
+import type {
+	TPublicTourCatalogSchema,
+	TTourCatalogPublicQuery
+} from "@/shared/api";
+
+export type TCatalogTourBackend = TPublicTourCatalogSchema;
+export type TListCatalogToursBackendResponse = TPublicTourCatalogSchema[];
+export type TCatalogTourQueryBackend = TTourCatalogPublicQuery;

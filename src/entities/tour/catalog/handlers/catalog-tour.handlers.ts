@@ -3,8 +3,7 @@ import { HttpResponse, delay, http } from "msw";
 import {
 	CATALOG_DESTINATIONS_MOCK,
 	POPULAR_TOURS_MOCK,
-	RECENT_SEARCHES_MOCK,
-	SPECIAL_OFFERS_MOCK
+	RECENT_SEARCHES_MOCK
 } from "../mock";
 
 export const tourCatalogHandlers = [
@@ -19,18 +18,8 @@ export const tourCatalogHandlers = [
 			total: CATALOG_DESTINATIONS_MOCK.length
 		});
 	}),
-	http.get("*/tours/popular", async () => {
+	http.get("*/tour/catalog/public", async () => {
 		await delay(300);
-		return HttpResponse.json({
-			data: POPULAR_TOURS_MOCK,
-			total: POPULAR_TOURS_MOCK.length
-		});
-	}),
-	http.get("*/tours/special-offers", async () => {
-		await delay(300);
-		return HttpResponse.json({
-			data: SPECIAL_OFFERS_MOCK,
-			total: SPECIAL_OFFERS_MOCK.length
-		});
+		return HttpResponse.json(POPULAR_TOURS_MOCK);
 	})
 ];

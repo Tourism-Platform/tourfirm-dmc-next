@@ -5,6 +5,13 @@ export const ENUM_PATH = {
 		CATALOG: "/catalog",
 		BOOKING: "/booking"
 	},
+	CATALOG: {
+		ROOT: "/catalog",
+		TOUR: "/catalog/:tourId",
+		TOUR_OPTION: "/catalog/:tourId/option/:optionId",
+		BOOKING: "/catalog/:tourId/booking",
+		BOOKING_DRAFT: "/catalog/:tourId/booking/:bookingId"
+	},
 	AUTH: {
 		LOGIN: "/login"
 	},

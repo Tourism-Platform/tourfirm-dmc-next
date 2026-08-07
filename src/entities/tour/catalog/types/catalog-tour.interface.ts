@@ -1,13 +1,22 @@
+import type { ENUM_CATALOG_TOUR_TYPES_TYPE } from "./catalog-tour-type.types";
+
 export interface ICatalogTourCard {
 	id: string;
 	title: string;
 	description: string;
-	duration: number;
+	days: number;
+	nights: number;
 	priceFrom: number;
 	priceTo: number;
+	currency: string;
 	imageUrl: string;
-	rating: number;
-	reviewsCount: number;
-	hasFreeCancellation: boolean;
-	isRecommended?: boolean;
+	route: string[];
+	type: ENUM_CATALOG_TOUR_TYPES_TYPE;
+	categories: string[];
+	languages: string[];
+	groupSizeMin: number | null;
+	groupSizeMax: number;
+	ageFrom: number | null;
+	ageTo: number | null;
+	optionCount: number | null;
 }

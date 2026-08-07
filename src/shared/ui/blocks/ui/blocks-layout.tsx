@@ -50,7 +50,7 @@ export function BlocksLayout({
 			))}
 			<div
 				className={cn(
-					"mx-auto flex w-full max-w-7xl flex-col gap-12 px-4 py-16 sm:gap-14 sm:px-6 sm:py-20 lg:gap-16 lg:px-8",
+					"flex w-full flex-col gap-12 py-16 sm:gap-14 sm:py-20 lg:gap-16",
 					contentClassName
 				)}
 			>

@@ -1,0 +1,1 @@
+export { CatalogTourBookingPage } from "./ui";

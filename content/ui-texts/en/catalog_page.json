@@ -47,9 +47,14 @@
 	"card": {
 		"recommended": "Recommended",
 		"reviews": "{count} reviews",
-		"duration_days": "{count, plural, one {# day} other {# days}}",
+		"duration_days": "{count} days",
 		"free_cancellation": "Free cancellation",
-		"price_from": "From {price}"
+		"price_from": "From {price}",
+		"book_now": "Book Now",
+		"duration": "{days}d / {nights}n",
+		"group": "{min}–{max}",
+		"age": "{from}–{to} yrs",
+		"options": "{count} options"
 	},
 	"toasts": {
 		"load_error": "Failed to load tours"

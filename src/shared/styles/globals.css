@@ -10,6 +10,15 @@
 		@apply border-border outline-ring/50;
 	}
 	body {
-		@apply bg-background text-foreground;
+		@apply bg-background text-foreground overflow-x-hidden;
+	}
+}
+
+@layer utilities {
+	/* Escape max-w main for edge-to-edge heroes / bands */
+	.full-bleed {
+		width: 100vw;
+		margin-left: calc(50% - 50vw);
+		margin-right: calc(50% - 50vw);
 	}
 }

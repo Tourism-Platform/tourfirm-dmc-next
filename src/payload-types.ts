@@ -195,6 +195,7 @@ export interface Config {
 		  )[];
 	globals: {
 		homepage: Homepage;
+		catalog: Catalog;
 		destination: Destination;
 		"routes-hub": RoutesHub;
 		"experiences-hub": ExperiencesHub;
@@ -208,9 +209,12 @@ export interface Config {
 		"ui-catalog": UiCatalog;
 		"ui-discovery": UiDiscovery;
 		"ui-login": UiLogin;
+		"ui-preview": UiPreview;
+		"ui-booking": UiBooking;
 	};
 	globalsSelect: {
 		homepage: HomepageSelect<false> | HomepageSelect<true>;
+		catalog: CatalogSelect<false> | CatalogSelect<true>;
 		destination: DestinationSelect<false> | DestinationSelect<true>;
 		"routes-hub": RoutesHubSelect<false> | RoutesHubSelect<true>;
 		"experiences-hub":
@@ -228,6 +232,8 @@ export interface Config {
 		"ui-catalog": UiCatalogSelect<false> | UiCatalogSelect<true>;
 		"ui-discovery": UiDiscoverySelect<false> | UiDiscoverySelect<true>;
 		"ui-login": UiLoginSelect<false> | UiLoginSelect<true>;
+		"ui-preview": UiPreviewSelect<false> | UiPreviewSelect<true>;
+		"ui-booking": UiBookingSelect<false> | UiBookingSelect<true>;
 	};
 	locale:
 		| "en"
@@ -390,7 +396,8 @@ export interface Country {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -414,6 +421,10 @@ export interface Country {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -587,7 +598,8 @@ export interface Country {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -611,6 +623,10 @@ export interface Country {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -709,7 +725,8 @@ export interface Country {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -733,6 +750,10 @@ export interface Country {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -837,7 +858,8 @@ export interface Country {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -861,6 +883,10 @@ export interface Country {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -1712,7 +1738,8 @@ export interface Route {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -1736,6 +1763,10 @@ export interface Route {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -1909,7 +1940,8 @@ export interface Route {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -1933,6 +1965,10 @@ export interface Route {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -2031,7 +2067,8 @@ export interface Route {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -2055,6 +2092,10 @@ export interface Route {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -2159,7 +2200,8 @@ export interface Route {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -2183,6 +2225,10 @@ export interface Route {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -2932,7 +2978,8 @@ export interface City {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -2956,6 +3003,10 @@ export interface City {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -3129,7 +3180,8 @@ export interface City {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -3153,6 +3205,10 @@ export interface City {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -3251,7 +3307,8 @@ export interface City {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -3275,6 +3332,10 @@ export interface City {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -3379,7 +3440,8 @@ export interface City {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -3403,6 +3465,10 @@ export interface City {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -4163,7 +4229,8 @@ export interface Region {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -4187,6 +4254,10 @@ export interface Region {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -4360,7 +4431,8 @@ export interface Region {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -4384,6 +4456,10 @@ export interface Region {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -4482,7 +4558,8 @@ export interface Region {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -4506,6 +4583,10 @@ export interface Region {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -4610,7 +4691,8 @@ export interface Region {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -4634,6 +4716,10 @@ export interface Region {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -5412,7 +5498,8 @@ export interface Experience {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -5436,6 +5523,10 @@ export interface Experience {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -5609,7 +5700,8 @@ export interface Experience {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -5633,6 +5725,10 @@ export interface Experience {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -5731,7 +5827,8 @@ export interface Experience {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -5755,6 +5852,10 @@ export interface Experience {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -5859,7 +5960,8 @@ export interface Experience {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -5883,6 +5985,10 @@ export interface Experience {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -6607,7 +6713,8 @@ export interface Theme {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -6631,6 +6738,10 @@ export interface Theme {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -6804,7 +6915,8 @@ export interface Theme {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -6828,6 +6940,10 @@ export interface Theme {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -6926,7 +7042,8 @@ export interface Theme {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -6950,6 +7067,10 @@ export interface Theme {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -7054,7 +7175,8 @@ export interface Theme {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -7078,6 +7200,10 @@ export interface Theme {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -7831,7 +7957,8 @@ export interface TradeFair {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -7855,6 +7982,10 @@ export interface TradeFair {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -8028,7 +8159,8 @@ export interface TradeFair {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -8052,6 +8184,10 @@ export interface TradeFair {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -8150,7 +8286,8 @@ export interface TradeFair {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -8174,6 +8311,10 @@ export interface TradeFair {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -8278,7 +8419,8 @@ export interface TradeFair {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -8302,6 +8444,10 @@ export interface TradeFair {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -9053,7 +9199,8 @@ export interface Blog {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -9077,6 +9224,10 @@ export interface Blog {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -9250,7 +9401,8 @@ export interface Blog {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -9274,6 +9426,10 @@ export interface Blog {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -9372,7 +9528,8 @@ export interface Blog {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -9396,6 +9553,10 @@ export interface Blog {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -9500,7 +9661,8 @@ export interface Blog {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -9524,6 +9686,10 @@ export interface Blog {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -10266,7 +10432,8 @@ export interface News {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -10290,6 +10457,10 @@ export interface News {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -10463,7 +10634,8 @@ export interface News {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -10487,6 +10659,10 @@ export interface News {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -10585,7 +10761,8 @@ export interface News {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -10609,6 +10786,10 @@ export interface News {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -10713,7 +10894,8 @@ export interface News {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -10737,6 +10919,10 @@ export interface News {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -11502,7 +11688,8 @@ export interface Attraction {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -11526,6 +11713,10 @@ export interface Attraction {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -11699,7 +11890,8 @@ export interface Attraction {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -11723,6 +11915,10 @@ export interface Attraction {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -11821,7 +12017,8 @@ export interface Attraction {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -11845,6 +12042,10 @@ export interface Attraction {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -11949,7 +12150,8 @@ export interface Attraction {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -11973,6 +12175,10 @@ export interface Attraction {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -12738,7 +12944,8 @@ export interface Page {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -12762,6 +12969,10 @@ export interface Page {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -12935,7 +13146,8 @@ export interface Page {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -12959,6 +13171,10 @@ export interface Page {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -13057,7 +13273,8 @@ export interface Page {
 											| "dashTitle"
 											| "quote"
 											| "alert"
-											| "miniTable";
+											| "miniTable"
+											| "catalogFeed";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -13081,6 +13298,10 @@ export interface Page {
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
+										/**
+										 * Static path fallback when Media upload is empty
+										 */
+										imageUrl?: string | null;
 										badge?: string | null;
 										title?: string | null;
 										description?: {
@@ -13185,7 +13406,8 @@ export interface Page {
 								| "dashTitle"
 								| "quote"
 								| "alert"
-								| "miniTable";
+								| "miniTable"
+								| "catalogFeed";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -13209,6 +13431,10 @@ export interface Page {
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
+							/**
+							 * Static path fallback when Media upload is empty
+							 */
+							imageUrl?: string | null;
 							badge?: string | null;
 							title?: string | null;
 							description?: {
@@ -14054,6 +14280,7 @@ export interface CountriesSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -14118,6 +14345,7 @@ export interface CountriesSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -14156,6 +14384,7 @@ export interface CountriesSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -14196,6 +14425,7 @@ export interface CountriesSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -14479,6 +14709,7 @@ export interface RegionsSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -14543,6 +14774,7 @@ export interface RegionsSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -14581,6 +14813,7 @@ export interface RegionsSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -14621,6 +14854,7 @@ export interface RegionsSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -14898,6 +15132,7 @@ export interface CitiesSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -14962,6 +15197,7 @@ export interface CitiesSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -15000,6 +15236,7 @@ export interface CitiesSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -15040,6 +15277,7 @@ export interface CitiesSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -15323,6 +15561,7 @@ export interface AttractionsSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -15387,6 +15626,7 @@ export interface AttractionsSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -15425,6 +15665,7 @@ export interface AttractionsSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -15465,6 +15706,7 @@ export interface AttractionsSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -15749,6 +15991,7 @@ export interface RoutesSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -15813,6 +16056,7 @@ export interface RoutesSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -15851,6 +16095,7 @@ export interface RoutesSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -15891,6 +16136,7 @@ export interface RoutesSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -16190,6 +16436,7 @@ export interface ExperiencesSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -16254,6 +16501,7 @@ export interface ExperiencesSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -16292,6 +16540,7 @@ export interface ExperiencesSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -16332,6 +16581,7 @@ export interface ExperiencesSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -16613,6 +16863,7 @@ export interface TradeFairsSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -16677,6 +16928,7 @@ export interface TradeFairsSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -16715,6 +16967,7 @@ export interface TradeFairsSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -16755,6 +17008,7 @@ export interface TradeFairsSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -17038,6 +17292,7 @@ export interface BlogSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -17102,6 +17357,7 @@ export interface BlogSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -17140,6 +17396,7 @@ export interface BlogSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -17180,6 +17437,7 @@ export interface BlogSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -17457,6 +17715,7 @@ export interface NewsSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -17521,6 +17780,7 @@ export interface NewsSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -17559,6 +17819,7 @@ export interface NewsSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -17599,6 +17860,7 @@ export interface NewsSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -17878,6 +18140,7 @@ export interface PagesSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -17942,6 +18205,7 @@ export interface PagesSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -17980,6 +18244,7 @@ export interface PagesSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -18020,6 +18285,7 @@ export interface PagesSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -18299,6 +18565,7 @@ export interface ThemesSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -18363,6 +18630,7 @@ export interface ThemesSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -18401,6 +18669,7 @@ export interface ThemesSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -18441,6 +18710,7 @@ export interface ThemesSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -18856,7 +19126,8 @@ export interface Homepage {
 										| "dashTitle"
 										| "quote"
 										| "alert"
-										| "miniTable";
+										| "miniTable"
+										| "catalogFeed";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -18880,6 +19151,10 @@ export interface Homepage {
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
+									/**
+									 * Static path fallback when Media upload is empty
+									 */
+									imageUrl?: string | null;
 									badge?: string | null;
 									title?: string | null;
 									description?: {
@@ -19053,7 +19328,8 @@ export interface Homepage {
 													| "dashTitle"
 													| "quote"
 													| "alert"
-													| "miniTable";
+													| "miniTable"
+													| "catalogFeed";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -19087,6 +19363,10 @@ export interface Homepage {
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
+												/**
+												 * Static path fallback when Media upload is empty
+												 */
+												imageUrl?: string | null;
 												badge?: string | null;
 												title?: string | null;
 												description?: {
@@ -19195,7 +19475,8 @@ export interface Homepage {
 													| "dashTitle"
 													| "quote"
 													| "alert"
-													| "miniTable";
+													| "miniTable"
+													| "catalogFeed";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -19229,6 +19510,10 @@ export interface Homepage {
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
+												/**
+												 * Static path fallback when Media upload is empty
+												 */
+												imageUrl?: string | null;
 												badge?: string | null;
 												title?: string | null;
 												description?: {
@@ -19343,7 +19628,8 @@ export interface Homepage {
 										| "dashTitle"
 										| "quote"
 										| "alert"
-										| "miniTable";
+										| "miniTable"
+										| "catalogFeed";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -19367,6 +19653,10 @@ export interface Homepage {
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
+									/**
+									 * Static path fallback when Media upload is empty
+									 */
+									imageUrl?: string | null;
 									badge?: string | null;
 									title?: string | null;
 									description?: {
@@ -19975,6 +20265,677 @@ export interface Homepage {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "catalog".
+ */
+export interface Catalog {
+	id: number;
+	seo?: {
+		metaTitle?: string | null;
+		metaDescription?: string | null;
+		canonicalOverride?: string | null;
+		ogTitle?: string | null;
+		ogDescription?: string | null;
+		ogImage?: (number | null) | Media;
+		robotsNoindex?: boolean | null;
+		structuredDataType?:
+			| (
+					| "WebPage"
+					| "TouristDestination"
+					| "TouristAttraction"
+					| "TouristTrip"
+					| "Article"
+			  )
+			| null;
+	};
+	blocks?:
+		| (
+				| {
+						eyebrow?: string | null;
+						title: string;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
+						gridClassName?: string | null;
+						actions?:
+							| {
+									type: "mailto" | "link" | "tel" | "form";
+									variant?:
+										| (
+												| "default"
+												| "destructive"
+												| "outline"
+												| "secondary"
+												| "ghost"
+												| "link"
+										  )
+										| null;
+									title: string;
+									href?: string | null;
+									email?: string | null;
+									phone?: string | null;
+									target?: ("_self" | "_blank") | null;
+									id?: string | null;
+							  }[]
+							| null;
+						rows?:
+							| {
+									/**
+									 * Left:Right ratio when both columns have content. Ignored if one column is empty.
+									 */
+									ratio?:
+										| (
+												| "1:1"
+												| "1:2"
+												| "2:1"
+												| "1:3"
+												| "3:1"
+												| "2:3"
+												| "3:2"
+												| "1:4"
+												| "4:1"
+												| "3:4"
+												| "4:3"
+												| "1:5"
+												| "5:1"
+												| "2:5"
+												| "5:2"
+												| "3:5"
+												| "5:3"
+												| "4:5"
+												| "5:4"
+										  )
+										| null;
+									left?:
+										| {
+												type:
+													| "country"
+													| "destinationInsight"
+													| "teamMember"
+													| "routeIdea"
+													| "experience"
+													| "tradeFair"
+													| "blog"
+													| "news"
+													| "journal"
+													| "overviewStat"
+													| "servicesBusiness"
+													| "servicesDirection"
+													| "servicesProcess"
+													| "tripFormat"
+													| "dashTitle"
+													| "quote"
+													| "alert"
+													| "miniTable"
+													| "catalogFeed";
+												relatedDoc?:
+													| ({
+															relationTo: "routes";
+															value:
+																| number
+																| Route;
+													  } | null)
+													| ({
+															relationTo: "experiences";
+															value:
+																| number
+																| Experience;
+													  } | null)
+													| ({
+															relationTo: "trade-fairs";
+															value:
+																| number
+																| TradeFair;
+													  } | null)
+													| ({
+															relationTo: "blog";
+															value:
+																| number
+																| Blog;
+													  } | null)
+													| ({
+															relationTo: "news";
+															value:
+																| number
+																| News;
+													  } | null);
+												href?: string | null;
+												image?: (number | null) | Media;
+												/**
+												 * Static path fallback when Media upload is empty
+												 */
+												imageUrl?: string | null;
+												badge?: string | null;
+												title?: string | null;
+												description?: {
+													root: {
+														type: string;
+														children: {
+															type: any;
+															version: number;
+															[
+																k: string
+															]: unknown;
+														}[];
+														direction:
+															| ("ltr" | "rtl")
+															| null;
+														format:
+															| "left"
+															| "start"
+															| "center"
+															| "right"
+															| "end"
+															| "justify"
+															| "";
+														indent: number;
+														version: number;
+													};
+													[k: string]: unknown;
+												} | null;
+												quote?: {
+													root: {
+														type: string;
+														children: {
+															type: any;
+															version: number;
+															[
+																k: string
+															]: unknown;
+														}[];
+														direction:
+															| ("ltr" | "rtl")
+															| null;
+														format:
+															| "left"
+															| "start"
+															| "center"
+															| "right"
+															| "end"
+															| "justify"
+															| "";
+														indent: number;
+														version: number;
+													};
+													[k: string]: unknown;
+												} | null;
+												meta?: string | null;
+												value?: string | null;
+												cities?:
+													| {
+															name?:
+																| string
+																| null;
+															id?: string | null;
+													  }[]
+													| null;
+												featured?: boolean | null;
+												ctaHref?: string | null;
+												ctaLabel?: string | null;
+												stand?: string | null;
+												country?: string | null;
+												participants?: string | null;
+												step?: string | null;
+												icon?: string | null;
+												rows?:
+													| {
+															icon?:
+																| string
+																| null;
+															title: string;
+															description?:
+																| string
+																| null;
+															id?: string | null;
+													  }[]
+													| null;
+												className?: string | null;
+												id?: string | null;
+										  }[]
+										| null;
+									right?:
+										| {
+												type:
+													| "country"
+													| "destinationInsight"
+													| "teamMember"
+													| "routeIdea"
+													| "experience"
+													| "tradeFair"
+													| "blog"
+													| "news"
+													| "journal"
+													| "overviewStat"
+													| "servicesBusiness"
+													| "servicesDirection"
+													| "servicesProcess"
+													| "tripFormat"
+													| "dashTitle"
+													| "quote"
+													| "alert"
+													| "miniTable"
+													| "catalogFeed";
+												relatedDoc?:
+													| ({
+															relationTo: "routes";
+															value:
+																| number
+																| Route;
+													  } | null)
+													| ({
+															relationTo: "experiences";
+															value:
+																| number
+																| Experience;
+													  } | null)
+													| ({
+															relationTo: "trade-fairs";
+															value:
+																| number
+																| TradeFair;
+													  } | null)
+													| ({
+															relationTo: "blog";
+															value:
+																| number
+																| Blog;
+													  } | null)
+													| ({
+															relationTo: "news";
+															value:
+																| number
+																| News;
+													  } | null);
+												href?: string | null;
+												image?: (number | null) | Media;
+												/**
+												 * Static path fallback when Media upload is empty
+												 */
+												imageUrl?: string | null;
+												badge?: string | null;
+												title?: string | null;
+												description?: {
+													root: {
+														type: string;
+														children: {
+															type: any;
+															version: number;
+															[
+																k: string
+															]: unknown;
+														}[];
+														direction:
+															| ("ltr" | "rtl")
+															| null;
+														format:
+															| "left"
+															| "start"
+															| "center"
+															| "right"
+															| "end"
+															| "justify"
+															| "";
+														indent: number;
+														version: number;
+													};
+													[k: string]: unknown;
+												} | null;
+												quote?: {
+													root: {
+														type: string;
+														children: {
+															type: any;
+															version: number;
+															[
+																k: string
+															]: unknown;
+														}[];
+														direction:
+															| ("ltr" | "rtl")
+															| null;
+														format:
+															| "left"
+															| "start"
+															| "center"
+															| "right"
+															| "end"
+															| "justify"
+															| "";
+														indent: number;
+														version: number;
+													};
+													[k: string]: unknown;
+												} | null;
+												meta?: string | null;
+												value?: string | null;
+												cities?:
+													| {
+															name?:
+																| string
+																| null;
+															id?: string | null;
+													  }[]
+													| null;
+												featured?: boolean | null;
+												ctaHref?: string | null;
+												ctaLabel?: string | null;
+												stand?: string | null;
+												country?: string | null;
+												participants?: string | null;
+												step?: string | null;
+												icon?: string | null;
+												rows?:
+													| {
+															icon?:
+																| string
+																| null;
+															title: string;
+															description?:
+																| string
+																| null;
+															id?: string | null;
+													  }[]
+													| null;
+												className?: string | null;
+												id?: string | null;
+										  }[]
+										| null;
+									id?: string | null;
+							  }[]
+							| null;
+						/**
+						 * Legacy flat card grid. Used when Content Rows are empty.
+						 */
+						cards?:
+							| {
+									type:
+										| "country"
+										| "destinationInsight"
+										| "teamMember"
+										| "routeIdea"
+										| "experience"
+										| "tradeFair"
+										| "blog"
+										| "news"
+										| "journal"
+										| "overviewStat"
+										| "servicesBusiness"
+										| "servicesDirection"
+										| "servicesProcess"
+										| "tripFormat"
+										| "dashTitle"
+										| "quote"
+										| "alert"
+										| "miniTable"
+										| "catalogFeed";
+									relatedDoc?:
+										| ({
+												relationTo: "routes";
+												value: number | Route;
+										  } | null)
+										| ({
+												relationTo: "experiences";
+												value: number | Experience;
+										  } | null)
+										| ({
+												relationTo: "trade-fairs";
+												value: number | TradeFair;
+										  } | null)
+										| ({
+												relationTo: "blog";
+												value: number | Blog;
+										  } | null)
+										| ({
+												relationTo: "news";
+												value: number | News;
+										  } | null);
+									href?: string | null;
+									image?: (number | null) | Media;
+									/**
+									 * Static path fallback when Media upload is empty
+									 */
+									imageUrl?: string | null;
+									badge?: string | null;
+									title?: string | null;
+									description?: {
+										root: {
+											type: string;
+											children: {
+												type: any;
+												version: number;
+												[k: string]: unknown;
+											}[];
+											direction: ("ltr" | "rtl") | null;
+											format:
+												| "left"
+												| "start"
+												| "center"
+												| "right"
+												| "end"
+												| "justify"
+												| "";
+											indent: number;
+											version: number;
+										};
+										[k: string]: unknown;
+									} | null;
+									quote?: {
+										root: {
+											type: string;
+											children: {
+												type: any;
+												version: number;
+												[k: string]: unknown;
+											}[];
+											direction: ("ltr" | "rtl") | null;
+											format:
+												| "left"
+												| "start"
+												| "center"
+												| "right"
+												| "end"
+												| "justify"
+												| "";
+											indent: number;
+											version: number;
+										};
+										[k: string]: unknown;
+									} | null;
+									meta?: string | null;
+									value?: string | null;
+									cities?:
+										| {
+												name?: string | null;
+												id?: string | null;
+										  }[]
+										| null;
+									featured?: boolean | null;
+									ctaHref?: string | null;
+									ctaLabel?: string | null;
+									stand?: string | null;
+									country?: string | null;
+									participants?: string | null;
+									step?: string | null;
+									icon?: string | null;
+									rows?:
+										| {
+												icon?: string | null;
+												title: string;
+												description?: string | null;
+												id?: string | null;
+										  }[]
+										| null;
+									className?: string | null;
+									id?: string | null;
+							  }[]
+							| null;
+						cardsSource?: {
+							type?:
+								| ("static" | "documentField" | "collection")
+								| null;
+							field?: string | null;
+							collection?: string | null;
+							emptyLabel?: string | null;
+						};
+						id?: string | null;
+						blockName?: string | null;
+						blockType: "regular";
+				  }
+				| {
+						eyebrow?: string | null;
+						title: string;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
+						id?: string | null;
+						blockName?: string | null;
+						blockType: "mostPopularTours";
+				  }
+				| {
+						eyebrow?: string | null;
+						title: string;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
+						actions?:
+							| {
+									type: "mailto" | "link" | "tel" | "form";
+									variant?:
+										| (
+												| "default"
+												| "destructive"
+												| "outline"
+												| "secondary"
+												| "ghost"
+												| "link"
+										  )
+										| null;
+									title: string;
+									href?: string | null;
+									email?: string | null;
+									phone?: string | null;
+									target?: ("_self" | "_blank") | null;
+									id?: string | null;
+							  }[]
+							| null;
+						id?: string | null;
+						blockName?: string | null;
+						blockType: "specialOffers";
+				  }
+				| {
+						image?: (number | null) | Media;
+						eyebrow?: string | null;
+						title?: string | null;
+						description?: {
+							root: {
+								type: string;
+								children: {
+									type: any;
+									version: number;
+									[k: string]: unknown;
+								}[];
+								direction: ("ltr" | "rtl") | null;
+								format:
+									| "left"
+									| "start"
+									| "center"
+									| "right"
+									| "end"
+									| "justify"
+									| "";
+								indent: number;
+								version: number;
+							};
+							[k: string]: unknown;
+						} | null;
+						actions?:
+							| {
+									type: "mailto" | "link" | "tel" | "form";
+									variant?:
+										| (
+												| "default"
+												| "destructive"
+												| "outline"
+												| "secondary"
+												| "ghost"
+												| "link"
+										  )
+										| null;
+									title: string;
+									href?: string | null;
+									email?: string | null;
+									phone?: string | null;
+									target?: ("_self" | "_blank") | null;
+									id?: string | null;
+							  }[]
+							| null;
+						id?: string | null;
+						blockName?: string | null;
+						blockType: "cta";
+				  }
+		  )[]
+		| null;
+	updatedAt?: string | null;
+	createdAt?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "destination".
  */
 export interface Destination {
@@ -20073,7 +21034,8 @@ export interface Destination {
 										| "dashTitle"
 										| "quote"
 										| "alert"
-										| "miniTable";
+										| "miniTable"
+										| "catalogFeed";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -20097,6 +21059,10 @@ export interface Destination {
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
+									/**
+									 * Static path fallback when Media upload is empty
+									 */
+									imageUrl?: string | null;
 									badge?: string | null;
 									title?: string | null;
 									description?: {
@@ -20270,7 +21236,8 @@ export interface Destination {
 													| "dashTitle"
 													| "quote"
 													| "alert"
-													| "miniTable";
+													| "miniTable"
+													| "catalogFeed";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -20304,6 +21271,10 @@ export interface Destination {
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
+												/**
+												 * Static path fallback when Media upload is empty
+												 */
+												imageUrl?: string | null;
 												badge?: string | null;
 												title?: string | null;
 												description?: {
@@ -20412,7 +21383,8 @@ export interface Destination {
 													| "dashTitle"
 													| "quote"
 													| "alert"
-													| "miniTable";
+													| "miniTable"
+													| "catalogFeed";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -20446,6 +21418,10 @@ export interface Destination {
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
+												/**
+												 * Static path fallback when Media upload is empty
+												 */
+												imageUrl?: string | null;
 												badge?: string | null;
 												title?: string | null;
 												description?: {
@@ -20560,7 +21536,8 @@ export interface Destination {
 										| "dashTitle"
 										| "quote"
 										| "alert"
-										| "miniTable";
+										| "miniTable"
+										| "catalogFeed";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -20584,6 +21561,10 @@ export interface Destination {
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
+									/**
+									 * Static path fallback when Media upload is empty
+									 */
+									imageUrl?: string | null;
 									badge?: string | null;
 									title?: string | null;
 									description?: {
@@ -21293,7 +22274,8 @@ export interface RoutesHub {
 										| "dashTitle"
 										| "quote"
 										| "alert"
-										| "miniTable";
+										| "miniTable"
+										| "catalogFeed";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -21317,6 +22299,10 @@ export interface RoutesHub {
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
+									/**
+									 * Static path fallback when Media upload is empty
+									 */
+									imageUrl?: string | null;
 									badge?: string | null;
 									title?: string | null;
 									description?: {
@@ -21490,7 +22476,8 @@ export interface RoutesHub {
 													| "dashTitle"
 													| "quote"
 													| "alert"
-													| "miniTable";
+													| "miniTable"
+													| "catalogFeed";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -21524,6 +22511,10 @@ export interface RoutesHub {
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
+												/**
+												 * Static path fallback when Media upload is empty
+												 */
+												imageUrl?: string | null;
 												badge?: string | null;
 												title?: string | null;
 												description?: {
@@ -21632,7 +22623,8 @@ export interface RoutesHub {
 													| "dashTitle"
 													| "quote"
 													| "alert"
-													| "miniTable";
+													| "miniTable"
+													| "catalogFeed";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -21666,6 +22658,10 @@ export interface RoutesHub {
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
+												/**
+												 * Static path fallback when Media upload is empty
+												 */
+												imageUrl?: string | null;
 												badge?: string | null;
 												title?: string | null;
 												description?: {
@@ -21780,7 +22776,8 @@ export interface RoutesHub {
 										| "dashTitle"
 										| "quote"
 										| "alert"
-										| "miniTable";
+										| "miniTable"
+										| "catalogFeed";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -21804,6 +22801,10 @@ export interface RoutesHub {
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
+									/**
+									 * Static path fallback when Media upload is empty
+									 */
+									imageUrl?: string | null;
 									badge?: string | null;
 									title?: string | null;
 									description?: {
@@ -22513,7 +23514,8 @@ export interface ExperiencesHub {
 										| "dashTitle"
 										| "quote"
 										| "alert"
-										| "miniTable";
+										| "miniTable"
+										| "catalogFeed";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -22537,6 +23539,10 @@ export interface ExperiencesHub {
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
+									/**
+									 * Static path fallback when Media upload is empty
+									 */
+									imageUrl?: string | null;
 									badge?: string | null;
 									title?: string | null;
 									description?: {
@@ -22710,7 +23716,8 @@ export interface ExperiencesHub {
 													| "dashTitle"
 													| "quote"
 													| "alert"
-													| "miniTable";
+													| "miniTable"
+													| "catalogFeed";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -22744,6 +23751,10 @@ export interface ExperiencesHub {
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
+												/**
+												 * Static path fallback when Media upload is empty
+												 */
+												imageUrl?: string | null;
 												badge?: string | null;
 												title?: string | null;
 												description?: {
@@ -22852,7 +23863,8 @@ export interface ExperiencesHub {
 													| "dashTitle"
 													| "quote"
 													| "alert"
-													| "miniTable";
+													| "miniTable"
+													| "catalogFeed";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -22886,6 +23898,10 @@ export interface ExperiencesHub {
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
+												/**
+												 * Static path fallback when Media upload is empty
+												 */
+												imageUrl?: string | null;
 												badge?: string | null;
 												title?: string | null;
 												description?: {
@@ -23000,7 +24016,8 @@ export interface ExperiencesHub {
 										| "dashTitle"
 										| "quote"
 										| "alert"
-										| "miniTable";
+										| "miniTable"
+										| "catalogFeed";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -23024,6 +24041,10 @@ export interface ExperiencesHub {
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
+									/**
+									 * Static path fallback when Media upload is empty
+									 */
+									imageUrl?: string | null;
 									badge?: string | null;
 									title?: string | null;
 									description?: {
@@ -23733,7 +24754,8 @@ export interface TradeFairsHub {
 										| "dashTitle"
 										| "quote"
 										| "alert"
-										| "miniTable";
+										| "miniTable"
+										| "catalogFeed";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -23757,6 +24779,10 @@ export interface TradeFairsHub {
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
+									/**
+									 * Static path fallback when Media upload is empty
+									 */
+									imageUrl?: string | null;
 									badge?: string | null;
 									title?: string | null;
 									description?: {
@@ -23930,7 +24956,8 @@ export interface TradeFairsHub {
 													| "dashTitle"
 													| "quote"
 													| "alert"
-													| "miniTable";
+													| "miniTable"
+													| "catalogFeed";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -23964,6 +24991,10 @@ export interface TradeFairsHub {
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
+												/**
+												 * Static path fallback when Media upload is empty
+												 */
+												imageUrl?: string | null;
 												badge?: string | null;
 												title?: string | null;
 												description?: {
@@ -24072,7 +25103,8 @@ export interface TradeFairsHub {
 													| "dashTitle"
 													| "quote"
 													| "alert"
-													| "miniTable";
+													| "miniTable"
+													| "catalogFeed";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -24106,6 +25138,10 @@ export interface TradeFairsHub {
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
+												/**
+												 * Static path fallback when Media upload is empty
+												 */
+												imageUrl?: string | null;
 												badge?: string | null;
 												title?: string | null;
 												description?: {
@@ -24220,7 +25256,8 @@ export interface TradeFairsHub {
 										| "dashTitle"
 										| "quote"
 										| "alert"
-										| "miniTable";
+										| "miniTable"
+										| "catalogFeed";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -24244,6 +25281,10 @@ export interface TradeFairsHub {
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
+									/**
+									 * Static path fallback when Media upload is empty
+									 */
+									imageUrl?: string | null;
 									badge?: string | null;
 									title?: string | null;
 									description?: {
@@ -24953,7 +25994,8 @@ export interface BlogHub {
 										| "dashTitle"
 										| "quote"
 										| "alert"
-										| "miniTable";
+										| "miniTable"
+										| "catalogFeed";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -24977,6 +26019,10 @@ export interface BlogHub {
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
+									/**
+									 * Static path fallback when Media upload is empty
+									 */
+									imageUrl?: string | null;
 									badge?: string | null;
 									title?: string | null;
 									description?: {
@@ -25150,7 +26196,8 @@ export interface BlogHub {
 													| "dashTitle"
 													| "quote"
 													| "alert"
-													| "miniTable";
+													| "miniTable"
+													| "catalogFeed";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -25184,6 +26231,10 @@ export interface BlogHub {
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
+												/**
+												 * Static path fallback when Media upload is empty
+												 */
+												imageUrl?: string | null;
 												badge?: string | null;
 												title?: string | null;
 												description?: {
@@ -25292,7 +26343,8 @@ export interface BlogHub {
 													| "dashTitle"
 													| "quote"
 													| "alert"
-													| "miniTable";
+													| "miniTable"
+													| "catalogFeed";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -25326,6 +26378,10 @@ export interface BlogHub {
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
+												/**
+												 * Static path fallback when Media upload is empty
+												 */
+												imageUrl?: string | null;
 												badge?: string | null;
 												title?: string | null;
 												description?: {
@@ -25440,7 +26496,8 @@ export interface BlogHub {
 										| "dashTitle"
 										| "quote"
 										| "alert"
-										| "miniTable";
+										| "miniTable"
+										| "catalogFeed";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -25464,6 +26521,10 @@ export interface BlogHub {
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
+									/**
+									 * Static path fallback when Media upload is empty
+									 */
+									imageUrl?: string | null;
 									badge?: string | null;
 									title?: string | null;
 									description?: {
@@ -26173,7 +27234,8 @@ export interface NewsHub {
 										| "dashTitle"
 										| "quote"
 										| "alert"
-										| "miniTable";
+										| "miniTable"
+										| "catalogFeed";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -26197,6 +27259,10 @@ export interface NewsHub {
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
+									/**
+									 * Static path fallback when Media upload is empty
+									 */
+									imageUrl?: string | null;
 									badge?: string | null;
 									title?: string | null;
 									description?: {
@@ -26370,7 +27436,8 @@ export interface NewsHub {
 													| "dashTitle"
 													| "quote"
 													| "alert"
-													| "miniTable";
+													| "miniTable"
+													| "catalogFeed";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -26404,6 +27471,10 @@ export interface NewsHub {
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
+												/**
+												 * Static path fallback when Media upload is empty
+												 */
+												imageUrl?: string | null;
 												badge?: string | null;
 												title?: string | null;
 												description?: {
@@ -26512,7 +27583,8 @@ export interface NewsHub {
 													| "dashTitle"
 													| "quote"
 													| "alert"
-													| "miniTable";
+													| "miniTable"
+													| "catalogFeed";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -26546,6 +27618,10 @@ export interface NewsHub {
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
+												/**
+												 * Static path fallback when Media upload is empty
+												 */
+												imageUrl?: string | null;
 												badge?: string | null;
 												title?: string | null;
 												description?: {
@@ -26660,7 +27736,8 @@ export interface NewsHub {
 										| "dashTitle"
 										| "quote"
 										| "alert"
-										| "miniTable";
+										| "miniTable"
+										| "catalogFeed";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -26684,6 +27761,10 @@ export interface NewsHub {
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
+									/**
+									 * Static path fallback when Media upload is empty
+									 */
+									imageUrl?: string | null;
 									badge?: string | null;
 									title?: string | null;
 									description?: {
@@ -27786,6 +28867,11 @@ export interface UiCatalog {
 		durationDays?: string | null;
 		freeCancellation?: string | null;
 		priceFrom?: string | null;
+		bookNow?: string | null;
+		duration?: string | null;
+		group?: string | null;
+		age?: string | null;
+		options?: string | null;
 	};
 	toasts?: {
 		loadError?: string | null;
@@ -27851,6 +28937,369 @@ export interface UiLogin {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ui-preview".
+ */
+export interface UiPreview {
+	id: number;
+	tour?: {
+		pageName?: string | null;
+		back?: string | null;
+		notFound?: string | null;
+		bookNow?: string | null;
+		hero?: {
+			duration?: {
+				daysOne?: string | null;
+				daysFew?: string | null;
+				daysMany?: string | null;
+				daysOther?: string | null;
+				nightsOne?: string | null;
+				nightsFew?: string | null;
+				nightsMany?: string | null;
+				nightsOther?: string | null;
+			};
+			groupSize?: {
+				personsOne?: string | null;
+				personsFew?: string | null;
+				personsMany?: string | null;
+				personsOther?: string | null;
+			};
+			ageNoRestrictions?: string | null;
+			ageRequiresFrom?: string | null;
+			ageRequiresTo?: string | null;
+			ageRequiresRange?: string | null;
+		};
+		sections?: {
+			overview?: {
+				title?: string | null;
+			};
+			cities?: {
+				label?: string | null;
+			};
+			languages?: {
+				label?: string | null;
+			};
+			included?: {
+				title?: string | null;
+			};
+			notIncluded?: {
+				title?: string | null;
+			};
+			meetingPickup?: {
+				title?: string | null;
+				start?: string | null;
+				pickupDetails?: string | null;
+				endPoint?: string | null;
+			};
+			cancellation?: {
+				title?: string | null;
+			};
+			additionalInfo?: {
+				title?: string | null;
+			};
+			itinerary?: {
+				title?: string | null;
+				subtitle?: string | null;
+				card?: {
+					from?: string | null;
+					perPerson?: string | null;
+					priceDepends?: string | null;
+					viewItinerary?: string | null;
+					day?: string | null;
+					readMore?: string | null;
+					bookPackage?: string | null;
+				};
+			};
+		};
+		provider?: {
+			title?: string | null;
+			additionalInfo?: string | null;
+		};
+		tabs?: {
+			tourInformation?: string | null;
+			fullItinerary?: string | null;
+			pricing?: string | null;
+		};
+		toasts?: {
+			load?: {
+				error?: string | null;
+			};
+			option?: {
+				error?: string | null;
+			};
+		};
+	};
+	option?: {
+		pageName?: string | null;
+		back?: string | null;
+		day?: {
+			title?: string | null;
+		};
+		sections?: {
+			option?: {
+				day?: string | null;
+				viewDetails?: string | null;
+				details?: string | null;
+				oneOfThem?: string | null;
+				readMore?: string | null;
+			};
+		};
+		tabs?: {
+			tourInformation?: string | null;
+			fullItinerary?: string | null;
+			pricing?: string | null;
+		};
+		sheet?: {
+			pickupInfo?: string | null;
+			pickup?: string | null;
+			dropoff?: string | null;
+			to?: string | null;
+			amenities?: string | null;
+			scheduleInfo?: string | null;
+			nights?: string | null;
+			checkIn?: string | null;
+			checkOut?: string | null;
+			activityInfo?: string | null;
+			infoTime?: string | null;
+			location?: string | null;
+			startTime?: string | null;
+			endTime?: string | null;
+			flightInfo?: string | null;
+		};
+		pricing?: {
+			title?: string | null;
+			totalPrice?: string | null;
+			totalHint?: string | null;
+			details?: string | null;
+			detailsHint?: string | null;
+			choiceOf?: string | null;
+			or?: string | null;
+			accomodation?: string | null;
+			activity?: string | null;
+			transportation?: string | null;
+			sections?: {
+				accommodation?: {
+					blurb?: string | null;
+				};
+				activity?: {
+					blurb?: string | null;
+				};
+				transportation?: {
+					blurb?: string | null;
+				};
+			};
+		};
+	};
+	labels?: {
+		languages?: {
+			english?: string | null;
+			russian?: string | null;
+			spanish?: string | null;
+			italian?: string | null;
+			french?: string | null;
+			chinese?: string | null;
+			japanese?: string | null;
+			uzbek?: string | null;
+			portuguese?: string | null;
+		};
+		pickup?: {
+			airport?: string | null;
+			hotel?: string | null;
+		};
+	};
+	updatedAt?: string | null;
+	createdAt?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ui-booking".
+ */
+export interface UiBooking {
+	id: number;
+	pageName?: string | null;
+	backToTour?: string | null;
+	stepper?: {
+		step1?: {
+			label?: string | null;
+			title?: string | null;
+		};
+		step2?: {
+			label?: string | null;
+			title?: string | null;
+		};
+		step3?: {
+			label?: string | null;
+			title?: string | null;
+		};
+	};
+	step1?: {
+		startDate?: {
+			title?: string | null;
+			description?: string | null;
+		};
+		calendar?: {
+			available?: string | null;
+			soldOut?: string | null;
+			selected?: string | null;
+		};
+		travellers?: {
+			title?: string | null;
+			description?: string | null;
+			maxLimit?: string | null;
+			errors?: {
+				min?: string | null;
+				max?: string | null;
+			};
+		};
+		options?: {
+			title?: string | null;
+			description?: string | null;
+			locked?: string | null;
+			perPerson?: string | null;
+			errors?: {
+				required?: string | null;
+			};
+		};
+		fields?: {
+			date?: {
+				errors?: {
+					required?: string | null;
+				};
+			};
+		};
+		continue?: string | null;
+	};
+	step2?: {
+		title?: string | null;
+		description?: string | null;
+		traveller?: string | null;
+		lead?: string | null;
+		makeLead?: string | null;
+		optionalHint?: string | null;
+		showAll?: string | null;
+		hideAll?: string | null;
+		addTraveller?: string | null;
+		filled?: string | null;
+		fields?: {
+			firstName?: {
+				label?: string | null;
+				errors?: {
+					required?: string | null;
+				};
+			};
+			lastName?: {
+				label?: string | null;
+				errors?: {
+					required?: string | null;
+				};
+			};
+			gender?: {
+				label?: string | null;
+				options?: {
+					male?: string | null;
+					female?: string | null;
+				};
+			};
+			dateOfBirth?: {
+				label?: string | null;
+				errors?: {
+					required?: string | null;
+				};
+			};
+			nationality?: {
+				label?: string | null;
+				placeholder?: string | null;
+				empty?: string | null;
+				errors?: {
+					required?: string | null;
+					invalid?: string | null;
+				};
+			};
+			passportNumber?: {
+				label?: string | null;
+				errors?: {
+					required?: string | null;
+				};
+			};
+			passportExpiry?: {
+				label?: string | null;
+				errors?: {
+					required?: string | null;
+				};
+			};
+			note?: {
+				label?: string | null;
+			};
+			file?: {
+				label?: string | null;
+				clickToUpload?: string | null;
+				orDrag?: string | null;
+				formats?: string | null;
+				errors?: {
+					required?: string | null;
+				};
+			};
+		};
+		back?: string | null;
+		submit?: string | null;
+	};
+	step3?: {
+		successTitle?: string | null;
+		successDesc?: string | null;
+		bookingId?: string | null;
+		copied?: string | null;
+		copyFailed?: string | null;
+		summary?: {
+			title?: string | null;
+			tour?: string | null;
+			startDate?: string | null;
+			endDate?: string | null;
+			travellers?: string | null;
+			package?: string | null;
+			estimatedTotal?: string | null;
+		};
+		timeline?: {
+			requestSubmitted?: {
+				title?: string | null;
+				desc?: string | null;
+			};
+			providerReview?: {
+				title?: string | null;
+				desc?: string | null;
+			};
+			bookingConfirmed?: {
+				title?: string | null;
+				desc?: string | null;
+			};
+			paymentInfo?: {
+				title?: string | null;
+				desc?: string | null;
+			};
+			voucherTime?: {
+				title?: string | null;
+				desc?: string | null;
+			};
+		};
+		viewMyBookings?: string | null;
+		catalogue?: string | null;
+	};
+	sidebar?: {
+		title?: string | null;
+		startDate?: string | null;
+		endDate?: string | null;
+		duration?: string | null;
+		travellers?: string | null;
+		package?: string | null;
+		pricePerPerson?: string | null;
+		estimatedTotal?: string | null;
+		notSelected?: string | null;
+		days?: string | null;
+		person?: string | null;
+	};
+	updatedAt?: string | null;
+	createdAt?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "homepage_select".
  */
 export interface HomepageSelect<T extends boolean = true> {
@@ -27902,6 +29351,7 @@ export interface HomepageSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -27966,6 +29416,7 @@ export interface HomepageSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -28004,6 +29455,7 @@ export interface HomepageSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -28044,6 +29496,7 @@ export interface HomepageSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -28247,6 +29700,236 @@ export interface HomepageSelect<T extends boolean = true> {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "catalog_select".
+ */
+export interface CatalogSelect<T extends boolean = true> {
+	seo?:
+		| T
+		| {
+				metaTitle?: T;
+				metaDescription?: T;
+				canonicalOverride?: T;
+				ogTitle?: T;
+				ogDescription?: T;
+				ogImage?: T;
+				robotsNoindex?: T;
+				structuredDataType?: T;
+		  };
+	blocks?:
+		| T
+		| {
+				regular?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							gridClassName?: T;
+							actions?:
+								| T
+								| {
+										type?: T;
+										variant?: T;
+										title?: T;
+										href?: T;
+										email?: T;
+										phone?: T;
+										target?: T;
+										id?: T;
+								  };
+							rows?:
+								| T
+								| {
+										ratio?: T;
+										left?:
+											| T
+											| {
+													type?: T;
+													relatedDoc?: T;
+													href?: T;
+													image?: T;
+													imageUrl?: T;
+													badge?: T;
+													title?: T;
+													description?: T;
+													quote?: T;
+													meta?: T;
+													value?: T;
+													cities?:
+														| T
+														| {
+																name?: T;
+																id?: T;
+														  };
+													featured?: T;
+													ctaHref?: T;
+													ctaLabel?: T;
+													stand?: T;
+													country?: T;
+													participants?: T;
+													step?: T;
+													icon?: T;
+													rows?:
+														| T
+														| {
+																icon?: T;
+																title?: T;
+																description?: T;
+																id?: T;
+														  };
+													className?: T;
+													id?: T;
+											  };
+										right?:
+											| T
+											| {
+													type?: T;
+													relatedDoc?: T;
+													href?: T;
+													image?: T;
+													imageUrl?: T;
+													badge?: T;
+													title?: T;
+													description?: T;
+													quote?: T;
+													meta?: T;
+													value?: T;
+													cities?:
+														| T
+														| {
+																name?: T;
+																id?: T;
+														  };
+													featured?: T;
+													ctaHref?: T;
+													ctaLabel?: T;
+													stand?: T;
+													country?: T;
+													participants?: T;
+													step?: T;
+													icon?: T;
+													rows?:
+														| T
+														| {
+																icon?: T;
+																title?: T;
+																description?: T;
+																id?: T;
+														  };
+													className?: T;
+													id?: T;
+											  };
+										id?: T;
+								  };
+							cards?:
+								| T
+								| {
+										type?: T;
+										relatedDoc?: T;
+										href?: T;
+										image?: T;
+										imageUrl?: T;
+										badge?: T;
+										title?: T;
+										description?: T;
+										quote?: T;
+										meta?: T;
+										value?: T;
+										cities?:
+											| T
+											| {
+													name?: T;
+													id?: T;
+											  };
+										featured?: T;
+										ctaHref?: T;
+										ctaLabel?: T;
+										stand?: T;
+										country?: T;
+										participants?: T;
+										step?: T;
+										icon?: T;
+										rows?:
+											| T
+											| {
+													icon?: T;
+													title?: T;
+													description?: T;
+													id?: T;
+											  };
+										className?: T;
+										id?: T;
+								  };
+							cardsSource?:
+								| T
+								| {
+										type?: T;
+										field?: T;
+										collection?: T;
+										emptyLabel?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+				mostPopularTours?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							id?: T;
+							blockName?: T;
+					  };
+				specialOffers?:
+					| T
+					| {
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							actions?:
+								| T
+								| {
+										type?: T;
+										variant?: T;
+										title?: T;
+										href?: T;
+										email?: T;
+										phone?: T;
+										target?: T;
+										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+				cta?:
+					| T
+					| {
+							image?: T;
+							eyebrow?: T;
+							title?: T;
+							description?: T;
+							actions?:
+								| T
+								| {
+										type?: T;
+										variant?: T;
+										title?: T;
+										href?: T;
+										email?: T;
+										phone?: T;
+										target?: T;
+										id?: T;
+								  };
+							id?: T;
+							blockName?: T;
+					  };
+		  };
+	updatedAt?: T;
+	createdAt?: T;
+	globalType?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "destination_select".
  */
 export interface DestinationSelect<T extends boolean = true> {
@@ -28299,6 +29982,7 @@ export interface DestinationSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -28363,6 +30047,7 @@ export interface DestinationSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -28401,6 +30086,7 @@ export interface DestinationSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -28441,6 +30127,7 @@ export interface DestinationSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -28697,6 +30384,7 @@ export interface RoutesHubSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -28761,6 +30449,7 @@ export interface RoutesHubSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -28799,6 +30488,7 @@ export interface RoutesHubSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -28839,6 +30529,7 @@ export interface RoutesHubSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -29095,6 +30786,7 @@ export interface ExperiencesHubSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -29159,6 +30851,7 @@ export interface ExperiencesHubSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -29197,6 +30890,7 @@ export interface ExperiencesHubSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -29237,6 +30931,7 @@ export interface ExperiencesHubSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -29493,6 +31188,7 @@ export interface TradeFairsHubSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -29557,6 +31253,7 @@ export interface TradeFairsHubSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -29595,6 +31292,7 @@ export interface TradeFairsHubSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -29635,6 +31333,7 @@ export interface TradeFairsHubSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -29891,6 +31590,7 @@ export interface BlogHubSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -29955,6 +31655,7 @@ export interface BlogHubSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -29993,6 +31694,7 @@ export interface BlogHubSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -30033,6 +31735,7 @@ export interface BlogHubSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -30289,6 +31992,7 @@ export interface NewsHubSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -30353,6 +32057,7 @@ export interface NewsHubSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -30391,6 +32096,7 @@ export interface NewsHubSelect<T extends boolean = true> {
 													relatedDoc?: T;
 													href?: T;
 													image?: T;
+													imageUrl?: T;
 													badge?: T;
 													title?: T;
 													description?: T;
@@ -30431,6 +32137,7 @@ export interface NewsHubSelect<T extends boolean = true> {
 										relatedDoc?: T;
 										href?: T;
 										image?: T;
+										imageUrl?: T;
 										badge?: T;
 										title?: T;
 										description?: T;
@@ -31180,6 +32887,11 @@ export interface UiCatalogSelect<T extends boolean = true> {
 				durationDays?: T;
 				freeCancellation?: T;
 				priceFrom?: T;
+				bookNow?: T;
+				duration?: T;
+				group?: T;
+				age?: T;
+				options?: T;
 		  };
 	toasts?:
 		| T
@@ -31257,6 +32969,521 @@ export interface UiLoginSelect<T extends boolean = true> {
 				title?: T;
 				subtitle?: T;
 				quote?: T;
+		  };
+	updatedAt?: T;
+	createdAt?: T;
+	globalType?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ui-preview_select".
+ */
+export interface UiPreviewSelect<T extends boolean = true> {
+	tour?:
+		| T
+		| {
+				pageName?: T;
+				back?: T;
+				notFound?: T;
+				bookNow?: T;
+				hero?:
+					| T
+					| {
+							duration?:
+								| T
+								| {
+										daysOne?: T;
+										daysFew?: T;
+										daysMany?: T;
+										daysOther?: T;
+										nightsOne?: T;
+										nightsFew?: T;
+										nightsMany?: T;
+										nightsOther?: T;
+								  };
+							groupSize?:
+								| T
+								| {
+										personsOne?: T;
+										personsFew?: T;
+										personsMany?: T;
+										personsOther?: T;
+								  };
+							ageNoRestrictions?: T;
+							ageRequiresFrom?: T;
+							ageRequiresTo?: T;
+							ageRequiresRange?: T;
+					  };
+				sections?:
+					| T
+					| {
+							overview?:
+								| T
+								| {
+										title?: T;
+								  };
+							cities?:
+								| T
+								| {
+										label?: T;
+								  };
+							languages?:
+								| T
+								| {
+										label?: T;
+								  };
+							included?:
+								| T
+								| {
+										title?: T;
+								  };
+							notIncluded?:
+								| T
+								| {
+										title?: T;
+								  };
+							meetingPickup?:
+								| T
+								| {
+										title?: T;
+										start?: T;
+										pickupDetails?: T;
+										endPoint?: T;
+								  };
+							cancellation?:
+								| T
+								| {
+										title?: T;
+								  };
+							additionalInfo?:
+								| T
+								| {
+										title?: T;
+								  };
+							itinerary?:
+								| T
+								| {
+										title?: T;
+										subtitle?: T;
+										card?:
+											| T
+											| {
+													from?: T;
+													perPerson?: T;
+													priceDepends?: T;
+													viewItinerary?: T;
+													day?: T;
+													readMore?: T;
+													bookPackage?: T;
+											  };
+								  };
+					  };
+				provider?:
+					| T
+					| {
+							title?: T;
+							additionalInfo?: T;
+					  };
+				tabs?:
+					| T
+					| {
+							tourInformation?: T;
+							fullItinerary?: T;
+							pricing?: T;
+					  };
+				toasts?:
+					| T
+					| {
+							load?:
+								| T
+								| {
+										error?: T;
+								  };
+							option?:
+								| T
+								| {
+										error?: T;
+								  };
+					  };
+		  };
+	option?:
+		| T
+		| {
+				pageName?: T;
+				back?: T;
+				day?:
+					| T
+					| {
+							title?: T;
+					  };
+				sections?:
+					| T
+					| {
+							option?:
+								| T
+								| {
+										day?: T;
+										viewDetails?: T;
+										details?: T;
+										oneOfThem?: T;
+										readMore?: T;
+								  };
+					  };
+				tabs?:
+					| T
+					| {
+							tourInformation?: T;
+							fullItinerary?: T;
+							pricing?: T;
+					  };
+				sheet?:
+					| T
+					| {
+							pickupInfo?: T;
+							pickup?: T;
+							dropoff?: T;
+							to?: T;
+							amenities?: T;
+							scheduleInfo?: T;
+							nights?: T;
+							checkIn?: T;
+							checkOut?: T;
+							activityInfo?: T;
+							infoTime?: T;
+							location?: T;
+							startTime?: T;
+							endTime?: T;
+							flightInfo?: T;
+					  };
+				pricing?:
+					| T
+					| {
+							title?: T;
+							totalPrice?: T;
+							totalHint?: T;
+							details?: T;
+							detailsHint?: T;
+							choiceOf?: T;
+							or?: T;
+							accomodation?: T;
+							activity?: T;
+							transportation?: T;
+							sections?:
+								| T
+								| {
+										accommodation?:
+											| T
+											| {
+													blurb?: T;
+											  };
+										activity?:
+											| T
+											| {
+													blurb?: T;
+											  };
+										transportation?:
+											| T
+											| {
+													blurb?: T;
+											  };
+								  };
+					  };
+		  };
+	labels?:
+		| T
+		| {
+				languages?:
+					| T
+					| {
+							english?: T;
+							russian?: T;
+							spanish?: T;
+							italian?: T;
+							french?: T;
+							chinese?: T;
+							japanese?: T;
+							uzbek?: T;
+							portuguese?: T;
+					  };
+				pickup?:
+					| T
+					| {
+							airport?: T;
+							hotel?: T;
+					  };
+		  };
+	updatedAt?: T;
+	createdAt?: T;
+	globalType?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ui-booking_select".
+ */
+export interface UiBookingSelect<T extends boolean = true> {
+	pageName?: T;
+	backToTour?: T;
+	stepper?:
+		| T
+		| {
+				step1?:
+					| T
+					| {
+							label?: T;
+							title?: T;
+					  };
+				step2?:
+					| T
+					| {
+							label?: T;
+							title?: T;
+					  };
+				step3?:
+					| T
+					| {
+							label?: T;
+							title?: T;
+					  };
+		  };
+	step1?:
+		| T
+		| {
+				startDate?:
+					| T
+					| {
+							title?: T;
+							description?: T;
+					  };
+				calendar?:
+					| T
+					| {
+							available?: T;
+							soldOut?: T;
+							selected?: T;
+					  };
+				travellers?:
+					| T
+					| {
+							title?: T;
+							description?: T;
+							maxLimit?: T;
+							errors?:
+								| T
+								| {
+										min?: T;
+										max?: T;
+								  };
+					  };
+				options?:
+					| T
+					| {
+							title?: T;
+							description?: T;
+							locked?: T;
+							perPerson?: T;
+							errors?:
+								| T
+								| {
+										required?: T;
+								  };
+					  };
+				fields?:
+					| T
+					| {
+							date?:
+								| T
+								| {
+										errors?:
+											| T
+											| {
+													required?: T;
+											  };
+								  };
+					  };
+				continue?: T;
+		  };
+	step2?:
+		| T
+		| {
+				title?: T;
+				description?: T;
+				traveller?: T;
+				lead?: T;
+				makeLead?: T;
+				optionalHint?: T;
+				showAll?: T;
+				hideAll?: T;
+				addTraveller?: T;
+				filled?: T;
+				fields?:
+					| T
+					| {
+							firstName?:
+								| T
+								| {
+										label?: T;
+										errors?:
+											| T
+											| {
+													required?: T;
+											  };
+								  };
+							lastName?:
+								| T
+								| {
+										label?: T;
+										errors?:
+											| T
+											| {
+													required?: T;
+											  };
+								  };
+							gender?:
+								| T
+								| {
+										label?: T;
+										options?:
+											| T
+											| {
+													male?: T;
+													female?: T;
+											  };
+								  };
+							dateOfBirth?:
+								| T
+								| {
+										label?: T;
+										errors?:
+											| T
+											| {
+													required?: T;
+											  };
+								  };
+							nationality?:
+								| T
+								| {
+										label?: T;
+										placeholder?: T;
+										empty?: T;
+										errors?:
+											| T
+											| {
+													required?: T;
+													invalid?: T;
+											  };
+								  };
+							passportNumber?:
+								| T
+								| {
+										label?: T;
+										errors?:
+											| T
+											| {
+													required?: T;
+											  };
+								  };
+							passportExpiry?:
+								| T
+								| {
+										label?: T;
+										errors?:
+											| T
+											| {
+													required?: T;
+											  };
+								  };
+							note?:
+								| T
+								| {
+										label?: T;
+								  };
+							file?:
+								| T
+								| {
+										label?: T;
+										clickToUpload?: T;
+										orDrag?: T;
+										formats?: T;
+										errors?:
+											| T
+											| {
+													required?: T;
+											  };
+								  };
+					  };
+				back?: T;
+				submit?: T;
+		  };
+	step3?:
+		| T
+		| {
+				successTitle?: T;
+				successDesc?: T;
+				bookingId?: T;
+				copied?: T;
+				copyFailed?: T;
+				summary?:
+					| T
+					| {
+							title?: T;
+							tour?: T;
+							startDate?: T;
+							endDate?: T;
+							travellers?: T;
+							package?: T;
+							estimatedTotal?: T;
+					  };
+				timeline?:
+					| T
+					| {
+							requestSubmitted?:
+								| T
+								| {
+										title?: T;
+										desc?: T;
+								  };
+							providerReview?:
+								| T
+								| {
+										title?: T;
+										desc?: T;
+								  };
+							bookingConfirmed?:
+								| T
+								| {
+										title?: T;
+										desc?: T;
+								  };
+							paymentInfo?:
+								| T
+								| {
+										title?: T;
+										desc?: T;
+								  };
+							voucherTime?:
+								| T
+								| {
+										title?: T;
+										desc?: T;
+								  };
+					  };
+				viewMyBookings?: T;
+				catalogue?: T;
+		  };
+	sidebar?:
+		| T
+		| {
+				title?: T;
+				startDate?: T;
+				endDate?: T;
+				duration?: T;
+				travellers?: T;
+				package?: T;
+				pricePerPerson?: T;
+				estimatedTotal?: T;
+				notSelected?: T;
+				days?: T;
+				person?: T;
 		  };
 	updatedAt?: T;
 	createdAt?: T;

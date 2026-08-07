@@ -17,6 +17,7 @@ export { ServicesDirectionCard } from "./services-direction-card";
 export { ServicesProcessCard } from "./services-process-card";
 export { TeamMemberCard } from "./team-member-card";
 export { BlogCard } from "./blog-card";
+export { CatalogFeedCard } from "./catalog-feed-card";
 export { NewsCard } from "./news-card";
 export { TradeFairCard } from "./trade-fair-card";
 export { TripFormatCard } from "./trip-format-card";

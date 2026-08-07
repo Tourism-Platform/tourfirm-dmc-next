@@ -28,10 +28,10 @@ function getOverviewStatsGridClassName(count: number) {
 
 export function OverviewStatsSection({ cards }: TOverviewStatsSectionProps) {
 	return (
-		<section className="border-b bg-muted/40">
+		<section className="full-bleed border-b bg-muted/40">
 			<div
 				className={cn(
-					"mx-auto grid max-w-7xl gap-3 px-4 py-6 sm:px-6 lg:gap-4 lg:py-8",
+					"mx-auto grid max-w-7xl gap-3 px-4 py-6 sm:px-6 lg:gap-4 lg:px-8 lg:py-8",
 					getOverviewStatsGridClassName(cards.length)
 				)}
 			>

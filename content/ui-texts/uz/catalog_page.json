@@ -47,9 +47,14 @@
 	"card": {
 		"recommended": "Tavsiya etiladi",
 		"reviews": "{count} ta sharh",
-		"duration_days": "{count, plural, one {# kun} other {# kun}}",
+		"duration_days": "{count} kun",
 		"free_cancellation": "Bepul bekor qilish",
-		"price_from": "{price} dan"
+		"price_from": "{price} dan",
+		"book_now": "Bron qilish",
+		"duration": "{days}k / {nights}t",
+		"group": "{min}–{max}",
+		"age": "{from}–{to} yosh",
+		"options": "{count} variant"
 	},
 	"toasts": {
 		"load_error": "Turlarni yuklab bo'lmadi"

@@ -4,10 +4,14 @@ import { Calendar as CalendarIcon } from "lucide-react";
 import { useState } from "react";
 import { type DateRange } from "react-day-picker";
 
-import { Button } from "@/shared/ui";
-import { Calendar } from "@/shared/ui";
-import { Popover, PopoverContent, PopoverTrigger } from "@/shared/ui";
 import { useUiContent } from "@/shared/ui-content";
+import { Button } from "@/shared/ui/shadcn-ui/button";
+import { Calendar } from "@/shared/ui/shadcn-ui/calendar";
+import {
+	Popover,
+	PopoverContent,
+	PopoverTrigger
+} from "@/shared/ui/shadcn-ui/popover";
 
 interface IDatePickerProps {
 	from?: Date;

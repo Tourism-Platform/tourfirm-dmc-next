@@ -121,9 +121,9 @@ export default async function LocaleLayout({ children, params }: TProps) {
 								userMenuItems={layoutNavigation.userMenuItems}
 							/>
 							<AuthBootstrap />
-							<div className="flex flex-1 flex-col">
+							<main className="mx-auto flex w-full max-w-7xl flex-1 flex-col px-4 sm:px-6 lg:px-8">
 								{children}
-							</div>
+							</main>
 							<FooterDefault
 								columns={layoutNavigation.footerColumns}
 								socialLinks={layoutNavigation.socialLinks}

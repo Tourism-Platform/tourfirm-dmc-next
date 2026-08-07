@@ -47,9 +47,14 @@
 	"card": {
 		"recommended": "Рекомендуем",
 		"reviews": "{count} отзывов",
-		"duration_days": "{count, plural, one {# день} few {# дня} many {# дней} other {# дней}}",
+		"duration_days": "{count} дн.",
 		"free_cancellation": "Бесплатная отмена",
-		"price_from": "От {price}"
+		"price_from": "От {price}",
+		"book_now": "Забронировать",
+		"duration": "{days}д / {nights}н",
+		"group": "{min}–{max}",
+		"age": "{from}–{to} лет",
+		"options": "{count} опций"
 	},
 	"toasts": {
 		"load_error": "Не удалось загрузить туры"

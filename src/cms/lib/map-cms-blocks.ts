@@ -127,9 +127,11 @@ function mapCmsCard(card: TEnrichedCmsCard, index: number): TCardRenderProps {
 		type: cardType,
 		item: {
 			href: staticCard.href ?? undefined,
-			imageUrl: resolveMediaUrl(
-				staticCard.image as number | Media | null | undefined
-			),
+			imageUrl:
+				(staticCard as { imageUrl?: string | null }).imageUrl ||
+				resolveMediaUrl(
+					staticCard.image as number | Media | null | undefined
+				),
 			badge: staticCard.badge ?? undefined,
 			title: staticCard.title ?? undefined,
 			description: richTextToPlain(staticCard.description),
@@ -279,6 +281,23 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 					: undefined,
 				eyebrow: block.eyebrow ?? undefined,
 				title: block.title ?? undefined,
+				description: richTextToPlain(block.description),
+				actions: block.actions?.map(mapCmsAction)
+			};
+
+		case "mostPopularTours":
+			return {
+				blockType: BlockType.mostPopularTours,
+				eyebrow: block.eyebrow ?? undefined,
+				title: block.title,
+				description: richTextToPlain(block.description)
+			};
+
+		case "specialOffers":
+			return {
+				blockType: BlockType.specialOffers,
+				eyebrow: block.eyebrow ?? undefined,
+				title: block.title,
 				description: richTextToPlain(block.description),
 				actions: block.actions?.map(mapCmsAction)
 			};

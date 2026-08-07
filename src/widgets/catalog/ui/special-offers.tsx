@@ -3,10 +3,7 @@
 import { type FC, useEffect } from "react";
 import { toast } from "sonner";
 
-import { ENUM_PATH } from "@/shared/config";
-import { Link } from "@/shared/i18n";
 import {
-	Button,
 	Carousel,
 	CarouselContent,
 	CarouselItem,
@@ -15,6 +12,8 @@ import {
 	withErrorBoundary
 } from "@/shared/ui";
 import { useUiContent } from "@/shared/ui-content";
+import { ButtonRender } from "@/shared/ui/buttons";
+import type { TButtonRenderProps } from "@/shared/ui/buttons/types/button-render.types";
 
 import {
 	CatalogTourCard,
@@ -22,7 +21,19 @@ import {
 	useGetSpecialOfferToursQuery
 } from "@/entities/tour";
 
-const SpecialOffersBase: FC = () => {
+type TSpecialOffersProps = {
+	eyebrow?: string;
+	title: string;
+	description?: string;
+	actions?: TButtonRenderProps[];
+};
+
+const SpecialOffersBase: FC<TSpecialOffersProps> = ({
+	eyebrow,
+	title,
+	description,
+	actions
+}) => {
 	const { catalog } = useUiContent();
 	const { data, isLoading, isError } = useGetSpecialOfferToursQuery();
 	const tours = data?.data ?? [];
@@ -32,45 +43,59 @@ const SpecialOffersBase: FC = () => {
 	}, [isError, catalog.toasts.loadError]);
 
 	return (
-		<section className="overflow-hidden rounded-2xl bg-gradient-to-r from-accent via-secondary to-muted p-6 sm:p-10">
-			<div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-[1fr_2fr]">
-				<div className="flex flex-col gap-4">
+		<section className="overflow-hidden rounded-2xl bg-gradient-to-r from-accent via-secondary to-muted p-6 sm:p-8 lg:p-10">
+			<div className="mb-6 flex flex-col gap-4 sm:mb-8 sm:flex-row sm:items-end sm:justify-between">
+				<div className="max-w-2xl space-y-2">
+					{eyebrow ? (
+						<p className="text-muted-foreground text-sm font-medium tracking-wide uppercase">
+							{eyebrow}
+						</p>
+					) : null}
 					<h2 className="text-destructive text-2xl font-bold uppercase sm:text-3xl">
-						{catalog.offers.title}
+						{title}
 					</h2>
-					<p className="text-muted-foreground text-sm sm:text-base">
-						{catalog.offers.subtitle}
-					</p>
-					<Button asChild variant="destructive" className="w-fit">
-						<Link href={ENUM_PATH.MAIN.CATALOG}>
-							{catalog.offers.cta}
-						</Link>
-					</Button>
+					{description ? (
+						<p className="text-muted-foreground text-sm sm:text-base">
+							{description}
+						</p>
+					) : null}
 				</div>
-				<Carousel opts={{ align: "start" }} className="w-full">
-					<CarouselContent className="-ml-3 pb-2 sm:-ml-4">
-						{isLoading
-							? Array.from({ length: 3 }).map((_, index) => (
-									<CarouselItem
-										key={`skeleton-${index}`}
-										className="basis-full pl-3 sm:basis-1/2 sm:pl-4 lg:basis-1/3"
-									>
-										<CatalogTourCardSkeleton />
-									</CarouselItem>
-								))
-							: tours.map((tour) => (
-									<CarouselItem
-										key={tour.id}
-										className="basis-full pl-3 sm:basis-1/2 sm:pl-4 lg:basis-1/3"
-									>
-										<CatalogTourCard data={tour} />
-									</CarouselItem>
-								))}
-					</CarouselContent>
-					<CarouselPrevious className="hidden sm:flex" />
-					<CarouselNext className="hidden sm:flex" />
-				</Carousel>
+				{actions?.length ? (
+					<div className="flex flex-wrap gap-2">
+						{actions.map((action, index) => (
+							<ButtonRender
+								key={index}
+								type={action.type}
+								item={action.item}
+							/>
+						))}
+					</div>
+				) : null}
 			</div>
+
+			<Carousel opts={{ align: "start" }} className="w-full">
+				<CarouselContent className="-ml-3 pb-2 sm:-ml-4">
+					{isLoading
+						? Array.from({ length: 3 }).map((_, index) => (
+								<CarouselItem
+									key={`skeleton-${index}`}
+									className="basis-full pl-3 sm:basis-1/2 sm:pl-4 lg:basis-[31%]"
+								>
+									<CatalogTourCardSkeleton />
+								</CarouselItem>
+							))
+						: tours.map((tour) => (
+								<CarouselItem
+									key={tour.id}
+									className="basis-full pl-3 sm:basis-1/2 sm:pl-4 lg:basis-[31%]"
+								>
+									<CatalogTourCard data={tour} />
+								</CarouselItem>
+							))}
+				</CarouselContent>
+				<CarouselPrevious className="hidden sm:flex" />
+				<CarouselNext className="hidden sm:flex" />
+			</Carousel>
 		</section>
 	);
 };

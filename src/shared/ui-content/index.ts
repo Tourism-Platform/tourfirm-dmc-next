@@ -14,6 +14,13 @@ export type {
 	TUiDiscovery,
 	TUiFooter,
 	TUiHeader,
+	TUiBooking,
 	TUiLogin,
-	TUiPaginationLabels
+	TUiPaginationLabels,
+	TUiPreview
 } from "./ui-content.types";
+export type {
+	TUiPreviewOption,
+	TUiPreviewTour,
+	TUiPreviewLabels
+} from "./ui-preview.types";

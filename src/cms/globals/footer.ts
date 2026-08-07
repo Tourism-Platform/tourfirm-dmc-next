@@ -5,11 +5,15 @@ import { socialPlatformSelectOptions } from "@/shared/config/social-platforms";
 import { authenticatedOrPublished } from "../access/authenticated-or-published";
 import { navigationItemFields } from "../fields/navigation-item";
 import { footerUiTextsFields } from "../fields/ui-content/footer-ui-texts-fields";
+import { revalidateFooterCache } from "../hooks/revalidate-layout-cms";
 
 export const Footer: GlobalConfig = {
 	slug: "footer",
 	access: {
 		read: authenticatedOrPublished
+	},
+	hooks: {
+		afterChange: [revalidateFooterCache]
 	},
 	fields: [
 		{

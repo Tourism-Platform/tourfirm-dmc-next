@@ -1,4 +1,5 @@
 export * from "./format-to-dollars";
+export * from "./format-money";
 export * from "./format-compact-amount";
 export * from "./format-date";
 export * from "./file";

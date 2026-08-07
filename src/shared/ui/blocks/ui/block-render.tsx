@@ -21,6 +21,13 @@ export function BlockRender({
 	topContent,
 	...section
 }: TBlockRenderProps & TBlockRenderOptions) {
+	if (
+		section.blockType === BlockType.mostPopularTours ||
+		section.blockType === BlockType.specialOffers
+	) {
+		return null;
+	}
+
 	if (section.blockType === BlockType.hero) {
 		return (
 			<CustomPageHero

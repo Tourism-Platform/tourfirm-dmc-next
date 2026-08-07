@@ -53,7 +53,13 @@ export function CustomPageHero({
 	const sizeClasses = SIZE_CLASSES[size];
 
 	return (
-		<section className={cn("relative", sizeClasses.section, className)}>
+		<section
+			className={cn(
+				"full-bleed relative",
+				sizeClasses.section,
+				className
+			)}
+		>
 			<Image
 				src={imageSrc}
 				alt={imageAlt}

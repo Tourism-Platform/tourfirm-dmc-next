@@ -1,0 +1,87 @@
+{
+	"page_name": "Предпросмотр тура",
+	"back": "Вернуться в каталог",
+	"not_found": "Тур не найден",
+	"book_now": "Забронировать",
+	"hero": {
+		"duration": {
+			"days_one": "{{count}} день",
+			"days_few": "{{count}} дня",
+			"days_many": "{{count}} дней",
+			"days_other": "{{count}} дней",
+			"nights_one": "{{count}} ночь",
+			"nights_few": "{{count}} ночи",
+			"nights_many": "{{count}} ночей",
+			"nights_other": "{{count}} ночей"
+		},
+		"group_size": {
+			"persons_one": "{{count}} человек",
+			"persons_few": "{{count}} человека",
+			"persons_many": "{{count}} человек",
+			"persons_other": "{{count}} человек"
+		},
+		"age_no_restrictions": "Без ограничений по возрасту",
+		"age_requires_from": "От {{from}} лет",
+		"age_requires_to": "До {{to}} лет",
+		"age_requires_range": "{{from}}–{{to}} лет"
+	},
+	"sections": {
+		"overview": {
+			"title": "Обзор"
+		},
+		"cities": {
+			"label": "Города"
+		},
+		"languages": {
+			"label": "Языки"
+		},
+		"included": {
+			"title": "Что включено"
+		},
+		"not_included": {
+			"title": "Что не включено"
+		},
+		"meeting_pickup": {
+			"title": "Встреча и трансфер",
+			"start": "Начало",
+			"pickup_details": "Детали трансфера",
+			"end_point": "Конечная точка"
+		},
+		"cancellation": {
+			"title": "Политика отмены"
+		},
+		"additional_info": {
+			"title": "Дополнительная информация"
+		},
+		"itinerary": {
+			"title": "Маршрут",
+			"subtitle": "Два способа пройти этот тур. Выберите подходящий пакет — они предлагают один и тот же маршрут, но отличаются уровнем проживания, питанием и эксклюзивными активностями.",
+			"card": {
+				"from": "От",
+				"per_person": "за человека",
+				"price_depends": "Цена зависит от количества человек",
+				"view_itinerary": "Посмотреть маршрут",
+				"day": "День",
+				"read_more": "Читать далее",
+				"book_package": "Забронировать этот пакет"
+			}
+		}
+	},
+	"provider": {
+		"title": "Провайдер",
+		"additional_info": "Дополнительная информация"
+	},
+	"tabs": {
+		"tour_information": "Информация о туре",
+		"full_itinerary": "Полный маршрут",
+		"pricing": "Цены"
+	},
+	"toasts": {
+		"load": {
+			"error": "Не удалось загрузить данные предпросмотра"
+		},
+		"option": {
+			"error": "Не удалось загрузить данные пакета"
+		}
+	}
+}

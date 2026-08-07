@@ -7,8 +7,12 @@ import { useEffect } from "react";
 
 import { useDebounce } from "@/shared/hooks";
 import { cn } from "@/shared/lib/utils";
-import { Badge, type BadgeSize, type BadgeVariant } from "@/shared/ui";
 import { formatUiText, useUiContent } from "@/shared/ui-content";
+import {
+	Badge,
+	type BadgeSize,
+	type BadgeVariant
+} from "@/shared/ui/shadcn-ui/badge";
 import {
 	Command,
 	CommandGroup,

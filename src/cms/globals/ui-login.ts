@@ -2,12 +2,16 @@ import type { GlobalConfig } from "payload";
 
 import { authenticatedOrPublished } from "../access/authenticated-or-published";
 import { localizedText } from "../fields/ui-content/localized-text";
+import { revalidateUiContentCache } from "../hooks/revalidate-layout-cms";
 
 export const UiLogin: GlobalConfig = {
 	slug: "ui-login",
 	label: "Login",
 	access: {
 		read: authenticatedOrPublished
+	},
+	hooks: {
+		afterChange: [revalidateUiContentCache]
 	},
 	fields: [
 		{
