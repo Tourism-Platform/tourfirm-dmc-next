@@ -1,4 +1,5 @@
 import config from "@payload-config";
+import { unstable_cache } from "next/cache";
 import type { Where } from "payload";
 import { getPayload } from "payload";
 import { cache } from "react";
@@ -22,43 +23,66 @@ function buildBlogWhere(filters: TBlogListFilters): Where {
 	return { and };
 }
 
+async function fetchBlogPosts(
+	locale: string,
+	page: number,
+	limit: number,
+	featured: boolean
+): Promise<TDiscoveryListResult<Blog>> {
+	try {
+		const payload = await getPayload({ config });
+		const filters: TBlogListFilters = {
+			page,
+			limit,
+			...(featured ? { featured: true } : {})
+		};
+
+		const result = await payload.find({
+			collection: "blog",
+			locale: toGeoLocale(locale),
+			fallbackLocale: "en",
+			depth: 1,
+			page,
+			limit,
+			sort: ["sortOrder", "title"],
+			where: buildBlogWhere(filters)
+		});
+
+		return {
+			docs: result.docs,
+			totalDocs: result.totalDocs,
+			page: result.page ?? 1,
+			totalPages: result.totalPages,
+			hasNextPage: result.hasNextPage,
+			hasPrevPage: result.hasPrevPage
+		};
+	} catch {
+		return {
+			docs: [],
+			totalDocs: 0,
+			page: 1,
+			totalPages: 0,
+			hasNextPage: false,
+			hasPrevPage: false
+		};
+	}
+}
+
+const getCachedBlogPosts = unstable_cache(fetchBlogPosts, ["blog-posts"], {
+	revalidate: 60
+});
+
 export const findBlogPosts = cache(
 	async (
 		locale: string,
 		filters: TBlogListFilters = {}
 	): Promise<TDiscoveryListResult<Blog>> => {
-		try {
-			const payload = await getPayload({ config });
-
-			const result = await payload.find({
-				collection: "blog",
-				locale: toGeoLocale(locale),
-				fallbackLocale: "en",
-				depth: 1,
-				page: filters.page ?? 1,
-				limit: filters.limit ?? DISCOVERY_LIST_DEFAULT_LIMIT,
-				sort: ["sortOrder", "title"],
-				where: buildBlogWhere(filters)
-			});
-
-			return {
-				docs: result.docs,
-				totalDocs: result.totalDocs,
-				page: result.page ?? 1,
-				totalPages: result.totalPages,
-				hasNextPage: result.hasNextPage,
-				hasPrevPage: result.hasPrevPage
-			};
-		} catch {
-			return {
-				docs: [],
-				totalDocs: 0,
-				page: 1,
-				totalPages: 0,
-				hasNextPage: false,
-				hasPrevPage: false
-			};
-		}
+		return getCachedBlogPosts(
+			locale,
+			filters.page ?? 1,
+			filters.limit ?? DISCOVERY_LIST_DEFAULT_LIMIT,
+			Boolean(filters.featured)
+		);
 	}
 );
 

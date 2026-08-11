@@ -1,4 +1,6 @@
+import { unstable_cache } from "next/cache";
 import type { TypedLocale } from "payload";
+import { cache } from "react";
 import "server-only";
 
 import { resolveMediaUrl } from "@/shared/lib/media/resolve-media-url";
@@ -38,7 +40,7 @@ export type TLayoutNavigation = {
 	userMenuItems: TResolvedUserMenuItem[];
 };
 
-export async function loadLayoutNavigation(
+async function fetchLayoutNavigation(
 	locale: string
 ): Promise<TLayoutNavigation> {
 	const typedLocale = locale as TypedLocale;
@@ -157,3 +159,15 @@ export async function loadLayoutNavigation(
 		userMenuItems
 	};
 }
+
+const getCachedLayoutNavigation = unstable_cache(
+	fetchLayoutNavigation,
+	["layout-navigation"],
+	{ revalidate: 60 }
+);
+
+export const loadLayoutNavigation = cache(
+	async (locale: string): Promise<TLayoutNavigation> => {
+		return getCachedLayoutNavigation(locale);
+	}
+);

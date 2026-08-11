@@ -3,7 +3,7 @@ import { setRequestLocale } from "next-intl/server";
 import { Exo_2, JetBrains_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import { notFound } from "next/navigation";
-import type { ReactNode } from "react";
+import { type ReactNode, Suspense } from "react";
 
 import { ENUM_PATH } from "@/shared/config";
 import { routing } from "@/shared/i18n";
@@ -57,12 +57,6 @@ type TProps = {
 	params: Promise<{ locale: string }>;
 };
 
-/**
- * Always read localeAvailability / nav from CMS.
- * Static build against an empty DB would otherwise bake permanent 404s.
- */
-export const dynamic = "force-dynamic";
-
 export function generateStaticParams() {
 	return routing.locales.map((locale) => ({ locale }));
 }
@@ -112,7 +106,9 @@ export default async function LocaleLayout({ children, params }: TProps) {
 					<NextIntlClientProvider locale={locale} timeZone="UTC">
 						<UiContentProvider value={uiContent}>
 							<AuthBootstrap />
-							<GoogleCallbackRedirector />
+							<Suspense fallback={null}>
+								<GoogleCallbackRedirector />
+							</Suspense>
 							<LocaleShell
 								header={
 									<HeaderDefault

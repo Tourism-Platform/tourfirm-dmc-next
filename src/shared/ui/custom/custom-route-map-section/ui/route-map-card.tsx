@@ -1,6 +1,6 @@
 import { ExternalLink } from "lucide-react";
 
-import { Link } from "@/shared/i18n/navigation";
+import { Link } from "@/shared/i18n";
 import type { TRouteMapPanelHeaderProps } from "@/shared/ui/blocks/types/block-render.types";
 import { RouteMapView } from "@/shared/ui/route-map";
 import type { TRouteMapProps } from "@/shared/ui/route-map";

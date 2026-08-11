@@ -1,4 +1,5 @@
 import config from "@payload-config";
+import { unstable_cache } from "next/cache";
 import type { Where } from "payload";
 import { getPayload } from "payload";
 import { cache } from "react";
@@ -74,44 +75,57 @@ function buildRouteWhere(
 	return { and };
 }
 
+async function fetchRoutes(
+	locale: string,
+	filtersKey: string
+): Promise<TDiscoveryListResult<Route>> {
+	const filters = JSON.parse(filtersKey) as TRouteListFilters;
+
+	try {
+		const payload = await getPayload({ config });
+		const ids = await resolveRouteFilterIds(filters);
+
+		const result = await payload.find({
+			collection: "routes",
+			locale: toGeoLocale(locale),
+			fallbackLocale: "en",
+			depth: 1,
+			page: filters.page ?? 1,
+			limit: filters.limit ?? DISCOVERY_LIST_DEFAULT_LIMIT,
+			sort: ["sortOrder", "title"],
+			where: buildRouteWhere(filters, ids)
+		});
+
+		return {
+			docs: result.docs,
+			totalDocs: result.totalDocs,
+			page: result.page ?? 1,
+			totalPages: result.totalPages,
+			hasNextPage: result.hasNextPage,
+			hasPrevPage: result.hasPrevPage
+		};
+	} catch {
+		return {
+			docs: [],
+			totalDocs: 0,
+			page: 1,
+			totalPages: 0,
+			hasNextPage: false,
+			hasPrevPage: false
+		};
+	}
+}
+
+const getCachedRoutes = unstable_cache(fetchRoutes, ["routes-list"], {
+	revalidate: 60
+});
+
 export const findRoutes = cache(
 	async (
 		locale: string,
 		filters: TRouteListFilters = {}
 	): Promise<TDiscoveryListResult<Route>> => {
-		try {
-			const payload = await getPayload({ config });
-			const ids = await resolveRouteFilterIds(filters);
-
-			const result = await payload.find({
-				collection: "routes",
-				locale: toGeoLocale(locale),
-				fallbackLocale: "en",
-				depth: 1,
-				page: filters.page ?? 1,
-				limit: filters.limit ?? DISCOVERY_LIST_DEFAULT_LIMIT,
-				sort: ["sortOrder", "title"],
-				where: buildRouteWhere(filters, ids)
-			});
-
-			return {
-				docs: result.docs,
-				totalDocs: result.totalDocs,
-				page: result.page ?? 1,
-				totalPages: result.totalPages,
-				hasNextPage: result.hasNextPage,
-				hasPrevPage: result.hasPrevPage
-			};
-		} catch {
-			return {
-				docs: [],
-				totalDocs: 0,
-				page: 1,
-				totalPages: 0,
-				hasNextPage: false,
-				hasPrevPage: false
-			};
-		}
+		return getCachedRoutes(locale, JSON.stringify(filters));
 	}
 );
 

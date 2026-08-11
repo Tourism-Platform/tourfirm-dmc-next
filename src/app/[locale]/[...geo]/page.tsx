@@ -1,5 +1,8 @@
 import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
+
+import { SuspenseLoader } from "@/shared/ui";
 
 import { resolveAppRoute } from "@/cms/routing";
 import {
@@ -9,9 +12,11 @@ import {
 
 export const revalidate = 60;
 
+type TSearchParams = { page?: string; theme?: string; country?: string };
+
 type TProps = {
 	params: Promise<{ locale: string; geo: string[] }>;
-	searchParams: Promise<{ page?: string; theme?: string; country?: string }>;
+	searchParams: Promise<TSearchParams>;
 };
 
 export async function generateMetadata({ params, searchParams }: TProps) {
@@ -26,16 +31,21 @@ export async function generateMetadata({ params, searchParams }: TProps) {
 	return buildCmsRouteMetadata(route, locale, query);
 }
 
-export default async function GeoCatchAllRoute({
-	params,
+type TGeoContentProps = {
+	locale: string;
+	segments: string[];
+	searchParams: Promise<TSearchParams>;
+};
+
+async function GeoContent({
+	locale,
+	segments,
 	searchParams
-}: TProps) {
-	const { locale, geo } = await params;
+}: TGeoContentProps) {
 	const query = await searchParams;
 
 	setRequestLocale(locale);
 
-	const segments = geo ?? [];
 	const route = await resolveAppRoute(locale, segments);
 
 	if (!route) {
@@ -43,4 +53,24 @@ export default async function GeoCatchAllRoute({
 	}
 
 	return renderCmsRoute(route, locale, query);
+}
+
+export default async function GeoCatchAllRoute({
+	params,
+	searchParams
+}: TProps) {
+	const { locale, geo } = await params;
+	const segments = geo ?? [];
+
+	setRequestLocale(locale);
+
+	return (
+		<Suspense fallback={<SuspenseLoader />}>
+			<GeoContent
+				locale={locale}
+				segments={segments}
+				searchParams={searchParams}
+			/>
+		</Suspense>
+	);
 }

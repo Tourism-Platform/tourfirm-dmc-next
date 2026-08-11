@@ -6,7 +6,16 @@ import { Loader } from "lucide-react";
 import type { Locale } from "next-intl";
 import { useLocale } from "next-intl";
 import { useParams } from "next/navigation";
-import { type FC, type JSX, useId, useMemo, useTransition } from "react";
+import { useTopLoader } from "nextjs-toploader";
+import {
+	type FC,
+	type JSX,
+	useEffect,
+	useId,
+	useMemo,
+	useRef,
+	useTransition
+} from "react";
 
 import { routing, usePathname, useRouter } from "@/shared/i18n";
 import { cn } from "@/shared/lib/utils";
@@ -52,9 +61,24 @@ export const LanguageToggle: FC<TProps> = ({ languages = [] }) => {
 	const router = useRouter();
 	const pathname = usePathname();
 	const params = useParams();
+	const loader = useTopLoader();
 	const [isPending, startTransition] = useTransition();
+	const wasPendingRef = useRef(false);
+
+	useEffect(() => {
+		if (isPending) {
+			wasPendingRef.current = true;
+			return;
+		}
+
+		if (wasPendingRef.current) {
+			wasPendingRef.current = false;
+			loader.done();
+		}
+	}, [isPending, loader]);
 
 	function onSelectChange(nextLocale: Locale) {
+		loader.start();
 		startTransition(() => {
 			router.replace(
 				// @ts-expect-error -- pathname and params always match for current route

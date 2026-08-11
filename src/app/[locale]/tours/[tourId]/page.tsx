@@ -3,8 +3,6 @@ import type { TypedLocale } from "payload";
 
 import { TourPreviewPage } from "@/page/tour-preview";
 
-export const dynamic = "force-dynamic";
-
 type TProps = {
 	params: Promise<{ locale: TypedLocale; tourId: string }>;
 };
