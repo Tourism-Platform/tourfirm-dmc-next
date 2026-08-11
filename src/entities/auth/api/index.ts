@@ -3,5 +3,6 @@ export { authBaseQuery } from "./auth-base-query";
 export {
 	AuthService,
 	useGetAuthAccountQuery,
+	useLazyGoogleCallbackQuery,
 	useSignOutMutation
 } from "./auth.service";

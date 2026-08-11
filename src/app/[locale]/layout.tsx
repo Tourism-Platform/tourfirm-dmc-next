@@ -17,7 +17,7 @@ import {
 	loadUiContent
 } from "@/shared/ui-content/server";
 
-import { AuthBootstrap } from "@/features/auth";
+import { AuthBootstrap, GoogleCallbackRedirector } from "@/features/auth";
 
 import {
 	FooterDefault,
@@ -112,6 +112,7 @@ export default async function LocaleLayout({ children, params }: TProps) {
 					<NextIntlClientProvider locale={locale} timeZone="UTC">
 						<UiContentProvider value={uiContent}>
 							<AuthBootstrap />
+							<GoogleCallbackRedirector />
 							<LocaleShell
 								header={
 									<HeaderDefault

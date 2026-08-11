@@ -13,6 +13,19 @@ export const AuthService = authApi.injectEndpoints({
 				mapAuthAccountToFrontend(response),
 			providesTags: [ENUM_API_TAGS.AUTH_ACCOUNT]
 		}),
+		googleCallback: build.query<void, Record<string, string>>({
+			query: (params) => ({
+				url: AUTH_PATHS.googleCallback.url,
+				method: AUTH_PATHS.googleCallback.method,
+				params
+			}),
+			async onQueryStarted(_, { dispatch, queryFulfilled }) {
+				await queryFulfilled;
+				dispatch(
+					authApi.util.invalidateTags([ENUM_API_TAGS.AUTH_ACCOUNT])
+				);
+			}
+		}),
 		signOut: build.mutation<void, void>({
 			query: () => AUTH_PATHS.logoutUser,
 			async onQueryStarted(_, { dispatch, queryFulfilled }) {
@@ -24,4 +37,8 @@ export const AuthService = authApi.injectEndpoints({
 	})
 });
 
-export const { useGetAuthAccountQuery, useSignOutMutation } = AuthService;
+export const {
+	useGetAuthAccountQuery,
+	useLazyGoogleCallbackQuery,
+	useSignOutMutation
+} = AuthService;
