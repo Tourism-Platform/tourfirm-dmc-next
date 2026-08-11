@@ -1,3 +1,5 @@
+import type { TEnumLanguagesType } from "@/entities/tour/preview-tour";
+
 const getStorageKey = (bookingId: string): string =>
 	`preview-booking-${bookingId}`;
 
@@ -5,6 +7,7 @@ export interface IBookingDraft {
 	date: string;
 	travellers_count: number;
 	option_id: string;
+	language: TEnumLanguagesType;
 	tourId: string;
 }
 

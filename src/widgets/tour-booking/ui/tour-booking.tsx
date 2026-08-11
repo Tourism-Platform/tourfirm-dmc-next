@@ -54,6 +54,7 @@ const TourBookingBase: FC<ITourBookingProps> = ({ tourId, bookingId }) => {
 		tourData,
 		options,
 		availableDates,
+		availableLanguages,
 		handleCalendarMonthChange,
 		isOptionsLoading
 	} = useTourBooking({ tourId, bookingId });
@@ -159,16 +160,7 @@ const TourBookingBase: FC<ITourBookingProps> = ({ tourId, bookingId }) => {
 				>
 					<form
 						id={BOOKING_FORM_ID}
-						onSubmit={form.handleSubmit(onSubmit, (errors) => {
-							console.log(
-								"[booking submit] validation errors",
-								errors
-							);
-							console.log(
-								"[booking submit] values",
-								form.getValues()
-							);
-						})}
+						onSubmit={form.handleSubmit(onSubmit)}
 						className={`flex w-full min-w-0 flex-col gap-8 ${currentStep === LAST_STEP ? "mx-auto max-w-3xl" : ""}`}
 					>
 						{currentStep === 1 && (
@@ -176,6 +168,7 @@ const TourBookingBase: FC<ITourBookingProps> = ({ tourId, bookingId }) => {
 								onMonthChange={handleCalendarMonthChange}
 								options={options}
 								availableDates={availableDates}
+								availableLanguages={availableLanguages}
 								isOptionsLoading={isOptionsLoading}
 								isOptionLocked={!!bookingId}
 							/>

@@ -37,8 +37,10 @@ import {
 	parseStoredLocalDate,
 	useGetPreviewTourGeneralQuery,
 	useGetPreviewTourOptionsQuery,
+	useGetPreviewTourQuery,
 	useGetPreviewTourScheduleQuery
 } from "@/entities/tour/preview-tour";
+import type { TEnumLanguagesType } from "@/entities/tour/preview-tour";
 
 import {
 	getInitialPreviewCalendarRange,
@@ -70,6 +72,13 @@ export const useTourBooking = ({
 
 	const { data: tourData, isLoading: isTourLoading } =
 		useGetPreviewTourGeneralQuery(tourId, { skip: !tourId });
+
+	const { data: previewLanding } = useGetPreviewTourQuery(tourId, {
+		skip: !tourId
+	});
+
+	const availableLanguages: TEnumLanguagesType[] =
+		previewLanding?.languages ?? [];
 
 	const {
 		data: options = [],
@@ -134,6 +143,7 @@ export const useTourBooking = ({
 				date: parseStoredLocalDate(draft.date),
 				travellers_count: draft.travellers_count,
 				option_id: draft.option_id,
+				language: draft.language,
 				travellers: Array.from(
 					{ length: draft.travellers_count },
 					() => ({})
@@ -148,6 +158,27 @@ export const useTourBooking = ({
 			restoreDraft(bookingIdParam);
 		}
 	}, [bookingIdParam, restoreDraft]);
+
+	useEffect(() => {
+		if (bookingIdParam || !availableLanguages.length) return;
+
+		const currentLanguage = form.getValues(
+			ENUM_FORM_PREVIEW_BOOKING.LANGUAGE
+		);
+
+		if (
+			currentLanguage &&
+			availableLanguages.includes(currentLanguage as TEnumLanguagesType)
+		) {
+			return;
+		}
+
+		form.setValue(
+			ENUM_FORM_PREVIEW_BOOKING.LANGUAGE,
+			availableLanguages[0],
+			{ shouldValidate: true }
+		);
+	}, [availableLanguages, bookingIdParam, form]);
 
 	useEffect(() => {
 		hasSyncedPax.current = false;
@@ -173,7 +204,8 @@ export const useTourBooking = ({
 		const isValid = await form.trigger([
 			"date",
 			"travellers_count",
-			"option_id"
+			"option_id",
+			"language"
 		]);
 
 		if (!isValid) return;
@@ -192,6 +224,7 @@ export const useTourBooking = ({
 					date: formatDateToISO(formData.date),
 					travellers_count: formData.travellers_count,
 					option_id: formData.option_id,
+					language: formData.language,
 					tourId
 				});
 
@@ -203,13 +236,15 @@ export const useTourBooking = ({
 			const created = await createBookingOrder({
 				tourOptionId: formData.option_id,
 				date: formData.date,
-				pax: formData.travellers_count
+				pax: formData.travellers_count,
+				lang: formData.language
 			}).unwrap();
 
 			saveBookingDraft(created.id, {
 				date: formatDateToISO(formData.date),
 				travellers_count: formData.travellers_count,
 				option_id: formData.option_id,
+				language: formData.language,
 				tourId
 			});
 
@@ -351,6 +386,7 @@ export const useTourBooking = ({
 		tourData,
 		options,
 		availableDates,
+		availableLanguages,
 		handleCalendarMonthChange,
 		isTourLoading,
 		isOptionsLoading,

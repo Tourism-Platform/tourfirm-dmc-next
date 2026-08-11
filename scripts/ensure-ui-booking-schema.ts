@@ -62,10 +62,7 @@ export async function ensureUiBookingSchema(): Promise<void> {
 			"SELECT to_regclass('public.ui_booking') AS reg"
 		);
 
-		if (exists.rows[0]?.reg) {
-			console.log("ui_booking already exists — skip schema ensure");
-			return;
-		}
+		const hasUiBooking = Boolean(exists.rows[0]?.reg);
 
 		const shape = await loadBookingShape();
 		const localeColumns = flattenLocaleColumns(shape);
@@ -73,38 +70,66 @@ export async function ensureUiBookingSchema(): Promise<void> {
 			.map((column) => `"${column}" varchar`)
 			.join(",\n  ");
 
-		await client.query("BEGIN");
+		if (!hasUiBooking) {
+			await client.query("BEGIN");
 
-		try {
-			await client.query(`
-				CREATE TABLE "ui_booking" (
-					"id" serial PRIMARY KEY,
-					"updated_at" timestamptz DEFAULT now(),
-					"created_at" timestamptz DEFAULT now()
+			try {
+				await client.query(`
+					CREATE TABLE "ui_booking" (
+						"id" serial PRIMARY KEY,
+						"updated_at" timestamptz DEFAULT now(),
+						"created_at" timestamptz DEFAULT now()
+					);
+				`);
+
+				await client.query(`
+					CREATE TABLE "ui_booking_locales" (
+						"id" serial PRIMARY KEY,
+						"_locale" "_locales" NOT NULL,
+						"_parent_id" integer NOT NULL,
+						${localeColumnDefs},
+						CONSTRAINT "ui_booking_locales_parent_id_fk"
+							FOREIGN KEY ("_parent_id") REFERENCES "ui_booking"("id") ON DELETE CASCADE
+					);
+				`);
+
+				await client.query(`
+					INSERT INTO "ui_booking" ("updated_at", "created_at")
+					VALUES (now(), now());
+				`);
+
+				await client.query("COMMIT");
+				console.log("Created ui_booking + ui_booking_locales");
+			} catch (error) {
+				await client.query("ROLLBACK");
+				throw error;
+			}
+		} else {
+			const existing = await client.query(
+				`SELECT "column_name" FROM "information_schema"."columns" WHERE "table_schema" = 'public' AND "table_name" = 'ui_booking_locales'`
+			);
+
+			const existingSet = new Set<string>(
+				existing.rows.map((row) => row.column_name as string)
+			);
+
+			const missingColumns = localeColumns.filter(
+				(column) => !existingSet.has(column)
+			);
+
+			for (const column of missingColumns) {
+				await client.query(
+					`ALTER TABLE "ui_booking_locales" ADD COLUMN "${column}" varchar`
 				);
-			`);
+			}
 
-			await client.query(`
-				CREATE TABLE "ui_booking_locales" (
-					"id" serial PRIMARY KEY,
-					"_locale" "_locales" NOT NULL,
-					"_parent_id" integer NOT NULL,
-					${localeColumnDefs},
-					CONSTRAINT "ui_booking_locales_parent_id_fk"
-						FOREIGN KEY ("_parent_id") REFERENCES "ui_booking"("id") ON DELETE CASCADE
+			if (missingColumns.length > 0) {
+				console.log(
+					`Extended ui_booking_locales with ${missingColumns.length} columns`
 				);
-			`);
-
-			await client.query(`
-				INSERT INTO "ui_booking" ("updated_at", "created_at")
-				VALUES (now(), now());
-			`);
-
-			await client.query("COMMIT");
-			console.log("Created ui_booking + ui_booking_locales");
-		} catch (error) {
-			await client.query("ROLLBACK");
-			throw error;
+			} else {
+				console.log("ui_booking_locales already up to date");
+			}
 		}
 	} finally {
 		await client.end();

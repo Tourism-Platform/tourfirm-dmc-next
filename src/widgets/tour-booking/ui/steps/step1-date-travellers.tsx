@@ -6,6 +6,11 @@ import { type FC, useEffect } from "react";
 import { useFormContext } from "react-hook-form";
 
 import { useIsMobile } from "@/shared/hooks";
+import {
+	CustomOptionTabs,
+	CustomOptionTabsList,
+	CustomOptionTabsTrigger
+} from "@/shared/ui";
 import { createNestedTextResolver, useUiContent } from "@/shared/ui-content";
 import { Button } from "@/shared/ui/shadcn-ui/button";
 import { Calendar } from "@/shared/ui/shadcn-ui/calendar";
@@ -21,7 +26,11 @@ import {
 	ENUM_FORM_PREVIEW_BOOKING,
 	type TPreviewBookingSchema
 } from "@/entities/tour/preview-booking";
-import type { IPreviewOptionCard } from "@/entities/tour/preview-tour";
+import { getTourLanguageShortLabel } from "@/entities/tour/preview-tour";
+import type {
+	IPreviewOptionCard,
+	TEnumLanguagesType
+} from "@/entities/tour/preview-tour";
 
 import { TourBookingOptionCard } from "../tour-booking-option-card";
 
@@ -29,6 +38,7 @@ interface IStep1Props {
 	onMonthChange: (month: Date) => void;
 	options: IPreviewOptionCard[];
 	availableDates: Date[];
+	availableLanguages: TEnumLanguagesType[];
 	isOptionsLoading: boolean;
 	isOptionLocked?: boolean;
 }
@@ -37,6 +47,7 @@ export const Step1DateTravellers: FC<IStep1Props> = ({
 	onMonthChange,
 	options,
 	availableDates,
+	availableLanguages,
 	isOptionsLoading,
 	isOptionLocked = false
 }) => {
@@ -49,6 +60,9 @@ export const Step1DateTravellers: FC<IStep1Props> = ({
 	const count = form.watch(ENUM_FORM_PREVIEW_BOOKING.TRAVELLERS_COUNT);
 	const selectedOptionId = form.watch(ENUM_FORM_PREVIEW_BOOKING.OPTION_ID);
 	const selectedDate = form.watch(ENUM_FORM_PREVIEW_BOOKING.DATE);
+	const selectedLanguage = form.watch(ENUM_FORM_PREVIEW_BOOKING.LANGUAGE);
+	const currentLanguage =
+		selectedLanguage ?? availableLanguages[0] ?? ("" as TEnumLanguagesType);
 
 	useEffect(() => {
 		const currentArr =
@@ -67,6 +81,42 @@ export const Step1DateTravellers: FC<IStep1Props> = ({
 
 	return (
 		<div className="flex flex-col gap-6 w-full">
+			{!!availableLanguages.length && (
+				<Card>
+					<CardContent className="flex flex-col gap-4 border-t pt-4">
+						<CustomOptionTabs
+							value={currentLanguage}
+							onValueChange={(value) => {
+								if (isOptionLocked) return;
+								form.setValue(
+									ENUM_FORM_PREVIEW_BOOKING.LANGUAGE,
+									value as TEnumLanguagesType,
+									{ shouldValidate: true }
+								);
+							}}
+						>
+							<CustomOptionTabsList
+								className="w-fit gap-1"
+								style={{
+									gridTemplateColumns: `repeat(${availableLanguages.length}, minmax(0, auto))`
+								}}
+							>
+								{availableLanguages.map((language) => (
+									<CustomOptionTabsTrigger
+										key={language}
+										value={language}
+										variant="outline"
+										disabled={isOptionLocked}
+									>
+										{getTourLanguageShortLabel(language)}
+									</CustomOptionTabsTrigger>
+								))}
+							</CustomOptionTabsList>
+						</CustomOptionTabs>
+					</CardContent>
+				</Card>
+			)}
+
 			<Card>
 				<CardHeader>
 					<CardTitle className="text-lg">

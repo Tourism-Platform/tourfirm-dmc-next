@@ -1,4 +1,4 @@
-import type { BookingOrderResponse } from "@/shared/api";
+import type { BookingOrderResponse, LanguageCode } from "@/shared/api";
 
 import type { Gender } from "./gender.types";
 
@@ -8,6 +8,7 @@ export type TBookingCreateBackend = {
 	tour_option_id: string;
 	date: string;
 	pax: number;
+	lang?: LanguageCode;
 	comment?: string | null;
 };
 

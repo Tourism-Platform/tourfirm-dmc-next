@@ -3,11 +3,13 @@ import { z } from "zod";
 import { isValidCountryCode } from "@/shared/lib";
 
 import { Gender, hasTravellerPassportFile } from "@/entities/booking";
+import { ENUM_LANGUAGES } from "@/entities/tour/preview-tour";
 
 export const ENUM_FORM_PREVIEW_BOOKING = {
 	DATE: "date",
 	TRAVELLERS_COUNT: "travellers_count",
 	OPTION_ID: "option_id",
+	LANGUAGE: "language",
 	TRAVELLERS: "travellers",
 	FIRST_NAME: "first_name",
 	LAST_NAME: "last_name",
@@ -103,14 +105,16 @@ export const PREVIEW_BOOKING_SCHEMA = z.object({
 	[ENUM_FORM_PREVIEW_BOOKING.OPTION_ID]: z
 		.string()
 		.min(1, { message: "step1.options.errors.required" }),
+	[ENUM_FORM_PREVIEW_BOOKING.LANGUAGE]: z.nativeEnum(ENUM_LANGUAGES, {
+		error: "step1.language.errors.required"
+	}),
 	[ENUM_FORM_PREVIEW_BOOKING.TRAVELLERS]: z.array(TRAVELLER_DETAILS_SCHEMA)
 });
 
 export const PREVIEW_BOOKING_DEFAULT_VALUES = {
-	[ENUM_FORM_PREVIEW_BOOKING.DATE]: undefined,
 	[ENUM_FORM_PREVIEW_BOOKING.TRAVELLERS_COUNT]: 1,
 	[ENUM_FORM_PREVIEW_BOOKING.OPTION_ID]: "",
 	[ENUM_FORM_PREVIEW_BOOKING.TRAVELLERS]: [{}]
-} satisfies z.input<typeof PREVIEW_BOOKING_SCHEMA>;
+} as Partial<z.infer<typeof PREVIEW_BOOKING_SCHEMA>>;
 
 export type TPreviewBookingSchema = z.infer<typeof PREVIEW_BOOKING_SCHEMA>;

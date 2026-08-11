@@ -9,6 +9,9 @@ const MAP_LANGUAGES: Partial<Record<TEnumLanguagesType, LanguageCode>> = {
 	[ENUM_LANGUAGES.ENGLISH]: LanguageCode.En,
 	[ENUM_LANGUAGES.SPANISH]: LanguageCode.Es,
 	[ENUM_LANGUAGES.ITALIAN]: LanguageCode.It,
+	[ENUM_LANGUAGES.FRENCH]: LanguageCode.Fr,
+	[ENUM_LANGUAGES.CHINESE]: LanguageCode.Zh,
+	[ENUM_LANGUAGES.JAPANESE]: LanguageCode.Ja,
 	[ENUM_LANGUAGES.PORTUGUESE]: LanguageCode.Pt,
 	[ENUM_LANGUAGES.UZBEK]: LanguageCode.Uz
 };
@@ -26,3 +29,8 @@ export const languageMapper = createEnumMapper<
 export const pickupMapper = createEnumMapper<TEnumPickupTypeType, PickupType>(
 	MAP_PICKUP
 );
+
+export function getTourLanguageShortLabel(lang: TEnumLanguagesType): string {
+	const code = languageMapper.to(lang);
+	return code ? code.toUpperCase() : String(lang).toUpperCase();
+}

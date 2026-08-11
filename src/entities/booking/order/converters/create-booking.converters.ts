@@ -1,5 +1,7 @@
 import { formatDateToISO } from "@/shared/utils";
 
+import { languageMapper } from "@/entities/tour/preview-tour";
+
 import type {
 	ICreateBookingRequest,
 	ICreatedBooking,
@@ -13,6 +15,7 @@ export const mapCreateBookingToBackend = (
 	tour_option_id: data.tourOptionId,
 	date: formatDateToISO(data.date),
 	pax: data.pax,
+	lang: languageMapper.to(data.lang)!,
 	comment: data.comment ?? null
 });
 
