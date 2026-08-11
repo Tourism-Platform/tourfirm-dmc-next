@@ -16,16 +16,26 @@
 		"completed": "Completed",
 		"cancelled": "Cancelled"
 	},
+	"invoice_statuses": {
+		"draft": "Draft",
+		"sent": "Sent",
+		"partial": "Partial",
+		"paid": "Paid",
+		"overdue": "Overdue",
+		"cancelled": "Cancelled"
+	},
 	"toasts": {
 		"load": {
 			"error": "Failed to load orders"
 		}
 	},
 	"buttons": {
-		"back": "Back"
+		"back": "Back",
+		"export": "Export"
 	},
 	"header": {
-		"order_status": "Order status"
+		"order_status": "Order status",
+		"invoice_status": "Invoice status"
 	},
 	"order_info": {
 		"title": "Order info",
@@ -47,6 +57,15 @@
 			"phone": "Phone number"
 		}
 	},
+	"report": {
+		"title": "Report"
+	},
+	"tour_review": {
+		"title": "Tour review",
+		"table": {
+			"item": "Item"
+		}
+	},
 	"not_found": {
 		"title": "Order not found",
 		"description": "Sorry, we couldn't find the order with this ID. Please check the data or return to the order list."
@@ -61,6 +80,7 @@
 			"passport_number": "Passport #",
 			"expired_date": "Expired date",
 			"comment": "Comment",
+			"file": "File",
 			"genders": {
 				"male": "Male",
 				"female": "Female"

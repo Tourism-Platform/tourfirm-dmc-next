@@ -1,104 +1,89 @@
 "use client";
 
-import { type FC } from "react";
+import { type FC, useCallback, useMemo } from "react";
 
-import { getCountryLabel } from "@/shared/lib/countries";
 import {
 	Card,
 	CardContent,
 	CardHeader,
 	CardTitle,
+	SmartTable,
 	withErrorBoundary
 } from "@/shared/ui";
 import { useUiContent } from "@/shared/ui-content";
 
-import { Gender, type IBookingPax } from "@/entities/booking";
+import { type TPaxReviewDetail, type TPaxReviewItem } from "@/entities/booking";
+
+import { PAX_DETAILS_COLUMNS, PAX_REVIEW_COLUMNS } from "../model/config";
+
+const SUBTABLE_LAYOUT = {
+	rowBorder: true,
+	headerBackground: true,
+	showHeader: false
+};
+
+const MAIN_TABLE_LAYOUT = {
+	rowBorder: true,
+	headerBackground: false
+};
+
+const getRowCanExpandFn = (row: { original: TPaxReviewItem }) =>
+	row.original.items.length > 0;
+
+const OrderPaxReviewSubTable: FC<{ items: TPaxReviewDetail[] }> = ({
+	items
+}) => {
+	const { orders } = useUiContent();
+	const columns = useMemo(
+		() => PAX_DETAILS_COLUMNS(orders.paxInformation.table),
+		[orders.paxInformation.table]
+	);
+
+	return (
+		<div className="p-2">
+			<SmartTable
+				data={items}
+				columns={columns}
+				showTopFilters={false}
+				showPagination={false}
+				tableLayout={SUBTABLE_LAYOUT}
+			/>
+		</div>
+	);
+};
 
 type TOrderPaxReviewProps = {
-	items?: IBookingPax[];
+	items?: TPaxReviewItem[];
 };
 
 const OrderPaxReviewBase: FC<TOrderPaxReviewProps> = ({ items = [] }) => {
 	const { orders } = useUiContent();
-	const labels = orders.paxInformation.table;
+
+	const renderSubTable = useCallback(
+		(subItems: TPaxReviewDetail[]) => (
+			<OrderPaxReviewSubTable items={subItems} />
+		),
+		[]
+	);
+
+	const columns = useMemo(
+		() => PAX_REVIEW_COLUMNS(orders.paxInformation.table, renderSubTable),
+		[orders.paxInformation.table, renderSubTable]
+	);
 
 	return (
 		<Card>
 			<CardHeader className="text-lg font-semibold">
 				<CardTitle>{orders.paxInformation.title}</CardTitle>
 			</CardHeader>
-			<CardContent className="flex flex-col gap-4">
-				{items.length === 0 ? (
-					<p className="text-sm text-muted-foreground">-</p>
-				) : (
-					items.map((pax) => (
-						<div
-							key={pax.id}
-							className="grid gap-3 rounded-lg border border-border/60 p-4 sm:grid-cols-2 lg:grid-cols-3"
-						>
-							<div className="flex flex-col gap-1">
-								<span className="text-xs text-muted-foreground">
-									{labels.fullName}
-								</span>
-								<span className="text-sm font-medium">
-									{pax.name}
-								</span>
-							</div>
-							<div className="flex flex-col gap-1">
-								<span className="text-xs text-muted-foreground">
-									{labels.gender}
-								</span>
-								<span className="text-sm font-medium">
-									{pax.gender === Gender.M
-										? labels.genders.male
-										: labels.genders.female}
-								</span>
-							</div>
-							<div className="flex flex-col gap-1">
-								<span className="text-xs text-muted-foreground">
-									{labels.nationality}
-								</span>
-								<span className="text-sm font-medium">
-									{getCountryLabel(pax.nationality, "en")}
-								</span>
-							</div>
-							<div className="flex flex-col gap-1">
-								<span className="text-xs text-muted-foreground">
-									{labels.dateOfBirth}
-								</span>
-								<span className="text-sm font-medium">
-									{pax.dateOfBirth}
-								</span>
-							</div>
-							<div className="flex flex-col gap-1">
-								<span className="text-xs text-muted-foreground">
-									{labels.passportNumber}
-								</span>
-								<span className="text-sm font-medium">
-									{pax.passportNum}
-								</span>
-							</div>
-							<div className="flex flex-col gap-1">
-								<span className="text-xs text-muted-foreground">
-									{labels.expiredDate}
-								</span>
-								<span className="text-sm font-medium">
-									{pax.passportExpiryDate}
-								</span>
-							</div>
-							{pax.comment ? (
-								<div className="flex flex-col gap-1 sm:col-span-2 lg:col-span-3">
-									<span className="text-xs text-muted-foreground">
-										{labels.comment}
-									</span>
-									<span className="text-sm font-medium">
-										{pax.comment}
-									</span>
-								</div>
-							) : null}
-						</div>
-					))
-				)}
+			<CardContent>
+				<SmartTable
+					data={items}
+					columns={columns}
+					getRowCanExpand={getRowCanExpandFn}
+					tableLayout={MAIN_TABLE_LAYOUT}
+					showTopFilters={false}
+				/>
 			</CardContent>
 		</Card>
 	);

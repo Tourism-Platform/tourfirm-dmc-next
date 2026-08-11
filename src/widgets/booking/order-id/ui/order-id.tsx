@@ -13,6 +13,8 @@ import { OrderIdSkeleton } from "./order-id-skeleton";
 import { OrderInfoCard } from "./order-info-card";
 import { OrderNotFound } from "./order-not-found";
 import { OrderPaxReview } from "./order-pax-review";
+import { OrderReport } from "./order-report";
+import { OrderTourReview } from "./order-tour-review";
 
 type TOrderIdProps = {
 	orderId: string;
@@ -20,8 +22,14 @@ type TOrderIdProps = {
 
 export const OrderId: FC<TOrderIdProps> = ({ orderId }) => {
 	const { orders } = useUiContent();
-	const { order, orderItems, contactItems, paxDetails, isLoading } =
-		useOrderDetails(orderId);
+	const {
+		order,
+		orderItems,
+		contactItems,
+		paxDetails,
+		tourReviewItems,
+		isLoading
+	} = useOrderDetails(orderId);
 
 	if (isLoading) {
 		return <OrderIdSkeleton />;
@@ -34,9 +42,12 @@ export const OrderId: FC<TOrderIdProps> = ({ orderId }) => {
 	return (
 		<div className="flex flex-col gap-8 text-foreground">
 			<OrderHeader
-				orderId={order.orderNumber ?? order.orderId}
+				orderNumber={order.orderNumber || order.orderId}
 				status={order.status}
+				invoiceStatus={order.invoiceStatus}
 			/>
+
+			{order.report && <OrderReport report={order.report} />}
 
 			<div className="grid gap-6 md:grid-cols-2">
 				<OrderInfoCard
@@ -49,6 +60,10 @@ export const OrderId: FC<TOrderIdProps> = ({ orderId }) => {
 					items={contactItems}
 				/>
 			</div>
+
+			{order.status !== ENUM_ORDER_STATUS.CANCELLED && (
+				<OrderTourReview items={tourReviewItems} />
+			)}
 
 			{order.status !== ENUM_ORDER_STATUS.CANCELLED && (
 				<OrderPaxReview items={paxDetails} />

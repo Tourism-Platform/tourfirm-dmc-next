@@ -3,7 +3,11 @@ import type { TypedLocale } from "payload";
 
 import { ENUM_PATH } from "@/shared/config";
 import { createPageMetadata } from "@/shared/lib/seo";
-import { loadUiContent } from "@/shared/ui-content/server";
+import {
+	getDropdownLanguages,
+	getLocaleAvailability,
+	loadUiContent
+} from "@/shared/ui-content/server";
 
 import { LoginPage } from "@/page/login";
 
@@ -29,5 +33,8 @@ export default async function LoginRoute({ params }: TProps) {
 	const { locale } = await params;
 	setRequestLocale(locale);
 
-	return <LoginPage />;
+	const availability = await getLocaleAvailability();
+	const languages = getDropdownLanguages(availability);
+
+	return <LoginPage languages={languages} />;
 }

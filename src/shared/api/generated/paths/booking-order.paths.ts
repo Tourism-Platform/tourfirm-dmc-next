@@ -1,14 +1,23 @@
 import type {
+	BookingCreate,
+	BookingItineraryResponse,
 	BookingOrderDetail,
 	BookingOrderListResponse,
-	BookingStatus
+	BookingOrderResponse,
+	BookingStatus,
+	BookingUpdate
 } from "../Api";
 
 export const BOOKING_ORDER_PATHS = {
 	createOrder: {
 		url: "/booking/order",
-		method: "POST"
-	},
+		method: "POST",
+		_types: {} as {
+			body: BookingCreate;
+			query: void;
+			response: BookingOrderResponse;
+		}
+	} as const,
 	listMyBookings: {
 		url: "/booking/order/my",
 		method: "GET",
@@ -26,15 +35,35 @@ export const BOOKING_ORDER_PATHS = {
 			response: BookingOrderListResponse;
 		}
 	} as const,
+	getBookingItinerary: (bookingId: string) =>
+		({
+			url: `/booking/order/${bookingId}/itinerary`,
+			method: "GET",
+			_types: {} as {
+				body: void;
+				query: void;
+				response: BookingItineraryResponse;
+			}
+		}) as const,
 	updateOrder: (bookingId: string) =>
 		({
 			url: `/booking/order/${bookingId}`,
-			method: "PATCH"
+			method: "PATCH",
+			_types: {} as {
+				body: BookingUpdate;
+				query: void;
+				response: BookingOrderResponse;
+			}
 		}) as const,
 	submitOrder: (bookingId: string) =>
 		({
 			url: `/booking/order/${bookingId}/submit`,
-			method: "PATCH"
+			method: "PATCH",
+			_types: {} as {
+				body: void;
+				query: void;
+				response: BookingOrderResponse;
+			}
 		}) as const,
 	getOrder: (bookingId: string) =>
 		({

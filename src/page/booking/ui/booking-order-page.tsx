@@ -1,7 +1,5 @@
 "use client";
 
-import { useRequireAuth } from "@/features/auth";
-
 import { OrderId } from "@/widgets/booking";
 
 type TProps = {
@@ -9,14 +7,8 @@ type TProps = {
 };
 
 export function BookingOrderPage({ orderId }: TProps) {
-	const { isReady, isChecking } = useRequireAuth();
-
-	if (isChecking || !isReady) {
-		return null;
-	}
-
 	return (
-		<div className="flex flex-1 flex-col pt-10">
+		<div className="flex min-h-0 flex-1 flex-col pt-10">
 			<OrderId orderId={orderId} />
 		</div>
 	);

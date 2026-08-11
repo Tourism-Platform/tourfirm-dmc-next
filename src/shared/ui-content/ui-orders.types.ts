@@ -16,6 +16,14 @@ export type TUiOrders = {
 		completed: string;
 		cancelled: string;
 	};
+	invoiceStatuses: {
+		draft: string;
+		sent: string;
+		partial: string;
+		paid: string;
+		overdue: string;
+		cancelled: string;
+	};
 	toasts: {
 		load: {
 			error: string;
@@ -23,9 +31,11 @@ export type TUiOrders = {
 	};
 	buttons: {
 		back: string;
+		export: string;
 	};
 	header: {
 		orderStatus: string;
+		invoiceStatus: string;
 	};
 	orderInfo: {
 		title: string;
@@ -47,6 +57,15 @@ export type TUiOrders = {
 			phone: string;
 		};
 	};
+	report: {
+		title: string;
+	};
+	tourReview: {
+		title: string;
+		table: {
+			item: string;
+		};
+	};
 	notFound: {
 		title: string;
 		description: string;
@@ -61,6 +80,7 @@ export type TUiOrders = {
 			passportNumber: string;
 			expiredDate: string;
 			comment: string;
+			file: string;
 			genders: {
 				male: string;
 				female: string;

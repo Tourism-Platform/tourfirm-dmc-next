@@ -16,7 +16,7 @@ export type TPriceRangeSchema = {
 
 export type TPublicTourCatalogSchema = {
 	tour_id: string;
-	name: string;
+	title: string | null;
 	cover_image_url: string | null;
 	description: string | null;
 	days: number;

@@ -1,4 +1,3 @@
-import type { BookingOrderDetail } from "@/shared/api";
 import { formatDate } from "@/shared/utils";
 
 import {
@@ -9,7 +8,6 @@ import {
 	type IOrderDetail,
 	type IOrderTourInfo,
 	type IOrderUserInfo,
-	type TBookingOrderBackend,
 	type TBookingOrderBackendResponse,
 	type TBookingOrderDetailBackend,
 	type TBookingOrderListItemBackend,
@@ -25,7 +23,7 @@ const formatTourDuration = (days: number, nights: number): string =>
 	`${days} days / ${nights} nights`;
 
 const mapOrderAgencyInfo = (
-	agency: BookingOrderDetail["agency"]
+	agency: TBookingOrderDetailBackend["agency"]
 ): IOrderAgencyInfo => ({
 	id: agency?.id ?? "",
 	name: agency?.name ?? "",
@@ -36,7 +34,7 @@ const mapOrderAgencyInfo = (
 });
 
 const mapOrderUserInfo = (
-	user: BookingOrderDetail["user"]
+	user: TBookingOrderDetailBackend["user"]
 ): IOrderUserInfo | null => {
 	if (!user) return null;
 
@@ -49,11 +47,14 @@ const mapOrderUserInfo = (
 	};
 };
 
-const mapOrderTourInfo = (tour: BookingOrderDetail["tour"]): IOrderTourInfo => {
+const mapOrderTourInfo = (
+	tour: TBookingOrderDetailBackend["tour"]
+): IOrderTourInfo => {
 	const orderType = bookingTourTypeMapper.from(tour.typ)!;
+	const tourName = tour.title ?? "";
 
 	return {
-		name: tour.name,
+		name: tourName,
 		type: orderType,
 		days: tour.days,
 		nights: tour.nights,
@@ -76,45 +77,41 @@ export const mapBookingOrderListItemToFrontend = (
 		from: formatDate(data.date),
 		to: formatDate(data.end_date)
 	},
-	tourName: data.tour_name,
+	tourName: data.tour_name ?? "",
 	status: orderStatusMapper.from(data.status)!
 });
-
-export const mapBookingOrderToFrontend = (data: TBookingOrderBackend) =>
-	mapBookingOrderListItemToFrontend(
-		data as unknown as TBookingOrderListItemBackend
-	);
 
 export const mapBookingOrderDetailToFrontend = (
 	data: TBookingOrderDetailBackend
 ): IOrderDetail => {
-	const tour = mapOrderTourInfo(data.tour);
+	const { order, tour: tourRaw, agency, user } = data;
+	const tour = mapOrderTourInfo(tourRaw);
 
 	return {
-		orderId: data.id,
-		orderNumber: data.order_number || data.id,
+		orderId: order.id,
+		orderNumber: order.order_number || order.id,
 		orderType: tour.type,
 		dateCreated: "",
 		client: "",
 		clientType: ENUM_CLIENT_TYPE_OPTIONS.AGENCY,
-		pax: data.pax,
+		pax: order.pax,
 		dates: {
-			from: formatDate(data.date),
-			to: formatDate(data.end_date)
+			from: formatDate(order.date),
+			to: formatDate(order.end_date)
 		},
 		tourName: tour.name,
-		status: orderStatusMapper.from(data.status)!,
-		agencyId: data.agency_id ?? "",
-		agency: mapOrderAgencyInfo(data.agency),
-		userId: data.user_id ?? null,
-		user: mapOrderUserInfo(data.user),
-		tourOptionId: data.tour_option_id,
+		status: orderStatusMapper.from(order.status)!,
+		agencyId: order.agency_id ?? "",
+		agency: mapOrderAgencyInfo(agency),
+		userId: order.user_id ?? null,
+		user: mapOrderUserInfo(user),
+		tourOptionId: order.tour_option_id,
 		tour,
 		duration: tour.duration,
 		route: tour.route,
-		comment: data.comment ?? undefined,
-		tourAmount: data.tour_amount,
-		paidAmount: data.paid_amount
+		comment: order.comment ?? undefined,
+		tourAmount: order.tour_amount,
+		paidAmount: order.paid_amount
 	};
 };
 
@@ -131,12 +128,18 @@ export const mapBookingOrderPaginatedToFrontend = (
 
 export const mapBookingOrderFiltersToBackend = (
 	filters: IBookingOrderFilters
-): TBookingOrderPaginatedQuery => ({
-	booking_status: orderStatusMapper.to(filters.status?.[0]),
-	tour_id: filters.tourId || null,
-	q: filters.search || null,
-	date_from: filters.dateFrom || null,
-	date_to: filters.dateTo || null,
-	skip: (filters.page - 1) * filters.limit,
-	limit: filters.limit
-});
+): TBookingOrderPaginatedQuery => {
+	const params: TBookingOrderPaginatedQuery = {
+		skip: (filters.page - 1) * filters.limit,
+		limit: filters.limit
+	};
+
+	const bookingStatus = orderStatusMapper.to(filters.status?.[0]);
+	if (bookingStatus) params.booking_status = bookingStatus;
+	if (filters.tourId) params.tour_id = filters.tourId;
+	if (filters.search) params.q = filters.search;
+	if (filters.dateFrom) params.date_from = filters.dateFrom;
+	if (filters.dateTo) params.date_to = filters.dateTo;
+
+	return params;
+};

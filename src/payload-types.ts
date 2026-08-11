@@ -29060,6 +29060,14 @@ export interface UiOrder {
 		completed?: string | null;
 		cancelled?: string | null;
 	};
+	invoiceStatuses?: {
+		draft?: string | null;
+		sent?: string | null;
+		partial?: string | null;
+		paid?: string | null;
+		overdue?: string | null;
+		cancelled?: string | null;
+	};
 	toasts?: {
 		load?: {
 			error?: string | null;
@@ -29067,9 +29075,11 @@ export interface UiOrder {
 	};
 	buttons?: {
 		back?: string | null;
+		export?: string | null;
 	};
 	header?: {
 		orderStatus?: string | null;
+		invoiceStatus?: string | null;
 	};
 	orderInfo?: {
 		title?: string | null;
@@ -29091,6 +29101,15 @@ export interface UiOrder {
 			phone?: string | null;
 		};
 	};
+	report?: {
+		title?: string | null;
+	};
+	tourReview?: {
+		title?: string | null;
+		table?: {
+			item?: string | null;
+		};
+	};
 	notFound?: {
 		title?: string | null;
 		description?: string | null;
@@ -29105,6 +29124,7 @@ export interface UiOrder {
 			passportNumber?: string | null;
 			expiredDate?: string | null;
 			comment?: string | null;
+			file?: string | null;
 			genders?: {
 				male?: string | null;
 				female?: string | null;
@@ -33240,6 +33260,16 @@ export interface UiOrdersSelect<T extends boolean = true> {
 				completed?: T;
 				cancelled?: T;
 		  };
+	invoiceStatuses?:
+		| T
+		| {
+				draft?: T;
+				sent?: T;
+				partial?: T;
+				paid?: T;
+				overdue?: T;
+				cancelled?: T;
+		  };
 	toasts?:
 		| T
 		| {
@@ -33253,11 +33283,13 @@ export interface UiOrdersSelect<T extends boolean = true> {
 		| T
 		| {
 				back?: T;
+				export?: T;
 		  };
 	header?:
 		| T
 		| {
 				orderStatus?: T;
+				invoiceStatus?: T;
 		  };
 	orderInfo?:
 		| T
@@ -33287,6 +33319,21 @@ export interface UiOrdersSelect<T extends boolean = true> {
 							phone?: T;
 					  };
 		  };
+	report?:
+		| T
+		| {
+				title?: T;
+		  };
+	tourReview?:
+		| T
+		| {
+				title?: T;
+				table?:
+					| T
+					| {
+							item?: T;
+					  };
+		  };
 	notFound?:
 		| T
 		| {
@@ -33307,6 +33354,7 @@ export interface UiOrdersSelect<T extends boolean = true> {
 							passportNumber?: T;
 							expiredDate?: T;
 							comment?: T;
+							file?: T;
 							genders?:
 								| T
 								| {

@@ -1,16 +1,8 @@
-import type { TCurrency } from "@/shared/api";
+import type { BookingOrderResponse } from "@/shared/api";
 
 import type { Gender } from "./gender.types";
 
-export type TBookingModelBackend = {
-	id: string;
-	tour_option_id: string;
-	date: string;
-	end_date: string;
-	pax: number;
-	tour_amount: string;
-	tour_currency: TCurrency;
-};
+export type TBookingModelBackend = BookingOrderResponse;
 
 export type TBookingCreateBackend = {
 	tour_option_id: string;

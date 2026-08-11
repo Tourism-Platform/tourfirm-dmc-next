@@ -18,16 +18,26 @@ export const DEFAULT_UI_ORDERS: TUiOrders = {
 		completed: "Completed",
 		cancelled: "Cancelled"
 	},
+	invoiceStatuses: {
+		draft: "Draft",
+		sent: "Sent",
+		partial: "Partial",
+		paid: "Paid",
+		overdue: "Overdue",
+		cancelled: "Cancelled"
+	},
 	toasts: {
 		load: {
 			error: "Failed to load orders"
 		}
 	},
 	buttons: {
-		back: "Back"
+		back: "Back",
+		export: "Export"
 	},
 	header: {
-		orderStatus: "Order status"
+		orderStatus: "Order status",
+		invoiceStatus: "Invoice status"
 	},
 	orderInfo: {
 		title: "Order info",
@@ -49,6 +59,15 @@ export const DEFAULT_UI_ORDERS: TUiOrders = {
 			phone: "Phone number"
 		}
 	},
+	report: {
+		title: "Report"
+	},
+	tourReview: {
+		title: "Tour review",
+		table: {
+			item: "Item"
+		}
+	},
 	notFound: {
 		title: "Order not found",
 		description:
@@ -64,6 +83,7 @@ export const DEFAULT_UI_ORDERS: TUiOrders = {
 			passportNumber: "Passport #",
 			expiredDate: "Expired date",
 			comment: "Comment",
+			file: "File",
 			genders: {
 				male: "Male",
 				female: "Female"

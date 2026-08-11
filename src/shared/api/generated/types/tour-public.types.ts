@@ -5,7 +5,7 @@ import type {
 	MonetaryValueSchema,
 	MultiEventPubOutput,
 	OperatorPreviewPubSchema,
-	TourMetaModel,
+	TourMetaResponse,
 	TourOptionPreviewSchemaOutput,
 	TourOptionPublicResponse,
 	TourSchedulePubSchema
@@ -16,7 +16,7 @@ export type TCurrency = Currency | (string & {});
 
 export type TMonetaryValueSchema = MonetaryValueSchema;
 export type TLandingPagePubSchema = LandingPagePubSchema;
-export type TTourMetaModel = TourMetaModel;
+export type TTourMetaModel = TourMetaResponse;
 export type TOperatorPreviewPubSchema = OperatorPreviewPubSchema;
 export type TTourOptionPreviewSchemaOutput = TourOptionPreviewSchemaOutput;
 export type TTourOptionPublicResponse = TourOptionPublicResponse;

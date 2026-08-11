@@ -10,7 +10,7 @@ export const PREVIEW_TOUR_GENERAL_MOCK = {
 	cover_image_path: "123",
 	duration_hours: 10,
 	typ: TourType.Regular,
-	name: "Embark on an Unforgettable Archaeological Journey",
+	title: "Embark on an Unforgettable Archaeological Journey",
 	group_size: 15,
 	days: 10,
 	nights: 10,

@@ -15,12 +15,15 @@ import {
 	useGetBookingOrdersQuery
 } from "@/entities/booking";
 
+import { useRequireAuth } from "@/features/auth";
+
 import { COLUMNS, getOrderStatusLabel } from "../model";
 
 const STATUS_OPTIONS = Object.values(ENUM_ORDER_STATUS);
 
 const OrdersBase: FC = () => {
 	const { orders: ordersUi } = useUiContent();
+	const { isReady, isChecking } = useRequireAuth();
 	const { watch, setValue } = useForm<Required<IBookingOrderFilters>>({
 		defaultValues: {
 			status: [ENUM_ORDER_STATUS.NEW],
@@ -31,18 +34,22 @@ const OrdersBase: FC = () => {
 	});
 
 	const filters = watch();
+	const skipQuery = !isReady;
 
 	const {
 		data: ordersData,
 		isLoading,
 		isFetching,
 		isError
-	} = useGetBookingOrdersQuery({
-		status: filters.status,
-		search: filters.search,
-		page: filters.page,
-		limit: filters.limit
-	});
+	} = useGetBookingOrdersQuery(
+		{
+			status: filters.status,
+			search: filters.search,
+			page: filters.page,
+			limit: filters.limit
+		},
+		{ skip: skipQuery }
+	);
 
 	useEffect(() => {
 		if (isError) {
@@ -106,16 +113,18 @@ const OrdersBase: FC = () => {
 		[filters.page, filters.limit]
 	);
 
+	const showTableLoading = isChecking || skipQuery || isLoading || isFetching;
+
 	return (
-		<section className="flex flex-col gap-5">
+		<section className="flex min-h-0 flex-1 flex-col gap-5">
 			<h1 className="text-3xl font-semibold">{ordersUi.pageName}</h1>
-			<Card>
-				<CardContent>
+			<Card className="flex min-h-0 flex-1 flex-col">
+				<CardContent className="flex min-h-0 flex-1 flex-col">
 					<SmartTable
 						data={orders}
 						columns={columns}
 						recordCount={totalCount}
-						isLoading={isLoading || isFetching}
+						isLoading={showTableLoading}
 						loadingMode="skeleton"
 						pagination={paginationObj}
 						onPaginationChange={handlePaginationChange}

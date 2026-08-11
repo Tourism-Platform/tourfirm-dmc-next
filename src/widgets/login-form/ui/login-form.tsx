@@ -1,12 +1,19 @@
 "use client";
 
+import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import type { FC } from "react";
 
 import { ENUM_PATH } from "@/shared/config";
 import { Link } from "@/shared/i18n";
-import { Button, Card, CardContent } from "@/shared/ui";
-import { useUiContent } from "@/shared/ui-content";
+import {
+	Button,
+	Card,
+	CardContent,
+	LanguageToggle,
+	ThemeToggle
+} from "@/shared/ui";
+import { type TDropdownLanguage, useUiContent } from "@/shared/ui-content";
 
 import { useGoogleLogin } from "@/features/auth";
 
@@ -14,13 +21,34 @@ import { GoogleIcon } from "./google-icon";
 
 const LOGO_SRC = "/assets/images/logo.svg";
 
-export const LoginForm: FC = () => {
+type TProps = {
+	languages?: TDropdownLanguage[];
+};
+
+export const LoginForm: FC<TProps> = ({ languages = [] }) => {
 	const { login, footer } = useUiContent();
 	const { handleGoogleLogin } = useGoogleLogin();
 
 	return (
-		<Card className="w-full max-w-md border-border/60 bg-card/80 shadow-xl backdrop-blur-sm">
-			<CardContent className="flex flex-col gap-6 p-6 sm:p-8">
+		<Card className="relative w-full max-w-md border-border/60 bg-card/80 shadow-xl backdrop-blur-sm">
+			<Button
+				variant="ghost"
+				type="button"
+				size="icon"
+				className="absolute left-3 top-3 z-10 text-muted-foreground hover:text-foreground"
+				asChild
+			>
+				<Link href={ENUM_PATH.MAIN.ROOT} aria-label="Back">
+					<ArrowLeft className="size-4" />
+				</Link>
+			</Button>
+
+			<div className="absolute right-3 top-3 z-10 flex items-center gap-2">
+				<ThemeToggle />
+				<LanguageToggle languages={languages} />
+			</div>
+
+			<CardContent className="flex flex-col gap-6 p-6 pt-12 sm:p-8 sm:pt-14">
 				<div className="flex flex-col items-center gap-4 text-center">
 					<Link
 						href={ENUM_PATH.MAIN.ROOT}

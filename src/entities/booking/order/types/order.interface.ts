@@ -35,6 +35,18 @@ export interface IOrderUserInfo {
 	phoneNumber?: string | null;
 }
 
+export interface IOrderOperatorInfo {
+	id: string;
+	name: string;
+	businessName?: string | null;
+	contactPerson?: string | null;
+	contactPosition?: string | null;
+	contactEmail?: string | null;
+	contactPhone?: string | null;
+	websiteUrl?: string | null;
+	logoUrl?: string | null;
+}
+
 export interface IOrder {
 	orderId: string;
 	orderNumber?: string;

@@ -12,7 +12,7 @@ export const mapPreviewTourGeneralToFrontend = (
 ): IPreviewTourGeneral => ({
 	id: backend.id,
 	status: previewTourStatusMapper.from(backend.status)!,
-	tourTitle: backend.name,
+	tourTitle: backend.title ?? "",
 	tourType: previewTourTypeMapper.from(backend.typ)!,
 	groupSize: backend.group_size,
 	duration: {

@@ -11,18 +11,42 @@ import { useUiContent } from "@/shared/ui-content";
 
 import {
 	BOOKING_ORDER_STATUS_VARIANTS,
-	type ENUM_ORDER_STATUS_TYPE
+	type ENUM_INVOICE_STATUS_TYPE,
+	ENUM_ORDER_STATUS,
+	type ENUM_ORDER_STATUS_TYPE,
+	INVOICE_STATUS_VARIANTS
 } from "@/entities/booking";
 
 import { getOrderStatusLabel } from "../../orders/model";
 
 type TOrderHeaderProps = {
-	orderId: string;
+	orderNumber: string;
 	status: ENUM_ORDER_STATUS_TYPE;
+	invoiceStatus?: ENUM_INVOICE_STATUS_TYPE;
 };
 
-export const OrderHeader: FC<TOrderHeaderProps> = ({ orderId, status }) => {
+const getInvoiceStatusLabel = (
+	labels: Record<string, string>,
+	status: ENUM_INVOICE_STATUS_TYPE
+): string => labels[status] ?? status;
+
+export const OrderHeader: FC<TOrderHeaderProps> = ({
+	orderNumber,
+	status,
+	invoiceStatus
+}) => {
 	const { orders } = useUiContent();
+
+	const showInvoiceStatus =
+		status === ENUM_ORDER_STATUS.BOOKING ||
+		status === ENUM_ORDER_STATUS.COMPLETED ||
+		status === ENUM_ORDER_STATUS.IN_PROGRESS;
+
+	const showExport =
+		status === ENUM_ORDER_STATUS.IN_PROGRESS ||
+		status === ENUM_ORDER_STATUS.COMPLETED ||
+		status === ENUM_ORDER_STATUS.BOOKING ||
+		status === ENUM_ORDER_STATUS.IN_PROCESSING;
 
 	return (
 		<div className="grid gap-5">
@@ -42,19 +66,56 @@ export const OrderHeader: FC<TOrderHeaderProps> = ({ orderId, status }) => {
 			<div className="grid gap-2">
 				<div className="flex items-center justify-between">
 					<div className="flex flex-col gap-3">
-						<h1 className="text-3xl">{orderId}</h1>
-						<div className="flex items-center gap-2">
-							<span className="text-sm font-medium">
-								{orders.header.orderStatus}:
-							</span>
-							<Badge
-								variant={BOOKING_ORDER_STATUS_VARIANTS[status]}
-								className={cn("px-3 py-1 text-xs font-bold")}
-							>
-								{getOrderStatusLabel(orders.statuses, status)}
-							</Badge>
+						<h1 className="text-3xl">{orderNumber}</h1>
+						<div className="flex items-center gap-4">
+							<div className="flex items-center gap-2">
+								<span className="text-sm font-medium">
+									{orders.header.orderStatus}:
+								</span>
+								<Badge
+									variant={
+										BOOKING_ORDER_STATUS_VARIANTS[status]
+									}
+									className={cn(
+										"px-3 py-1 text-xs font-bold"
+									)}
+								>
+									{getOrderStatusLabel(
+										orders.statuses,
+										status
+									)}
+								</Badge>
+							</div>
+
+							{invoiceStatus && showInvoiceStatus && (
+								<div className="flex items-center gap-2">
+									<span className="text-sm font-medium">
+										{orders.header.invoiceStatus}:
+									</span>
+									<Badge
+										variant={
+											INVOICE_STATUS_VARIANTS[
+												invoiceStatus
+											]
+										}
+										className={cn(
+											"px-3 py-1 text-xs font-bold"
+										)}
+									>
+										{getInvoiceStatusLabel(
+											orders.invoiceStatuses,
+											invoiceStatus
+										)}
+									</Badge>
+								</div>
+							)}
 						</div>
 					</div>
+					{showExport && (
+						<Button variant="slate" type="button">
+							{orders.buttons.export}
+						</Button>
+					)}
 				</div>
 			</div>
 		</div>

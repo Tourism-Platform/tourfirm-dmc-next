@@ -65,7 +65,7 @@ export enum TourStatus {
 
 /** TourListSortField */
 export enum TourListSortField {
-	Name = "name",
+	Title = "title",
 	Status = "status",
 	GroupSize = "group_size",
 	CreatedAt = "created_at"
@@ -142,6 +142,57 @@ export enum PaymentMethod {
 	Cash = "cash",
 	Other = "other",
 	CreditCard = "credit_card"
+}
+
+/**
+ * LedgerSource
+ * Which rail produced the entry. Bank, card and SWIFT rails append their
+ * own members here; the posting contract does not change.
+ */
+export enum LedgerSource {
+	Invoice = "invoice",
+	ClientPayment = "client_payment",
+	InvoicePayment = "invoice_payment",
+	SupplierPayment = "supplier_payment",
+	Manual = "manual"
+}
+
+/**
+ * LedgerParty
+ * One end of an entry. ``OPERATOR`` is a party like any other, not an
+ * implied centre — that is what lets a future entry record an agency paying a
+ * supplier directly, with the operator's books merely observing it.
+ */
+export enum LedgerParty {
+	User = "user",
+	Agency = "agency",
+	Supplier = "supplier",
+	Operator = "operator"
+}
+
+/**
+ * LedgerFlow
+ * Derived read lens, never stored: which way an entry moves relative to the
+ * operator's own books. ``INBOUND`` is ``payee_typ = OPERATOR``. Entries where
+ * the operator is neither end have no flow.
+ */
+export enum LedgerFlow {
+	Inbound = "inbound",
+	Outbound = "outbound"
+}
+
+/**
+ * LedgerEntryType
+ * ``ACCRUAL`` is what was agreed and is now owed; ``SETTLEMENT`` is cash
+ * that actually moved. Debt is the difference between the two.
+ *
+ * There is exactly one accrual per source row and it is restated in place as
+ * the operator edits the agreed figure. Settlements accumulate — an invoice
+ * paid in three instalments posts three of them.
+ */
+export enum LedgerEntryType {
+	Accrual = "accrual",
+	Settlement = "settlement"
 }
 
 /** LanguageCode */
@@ -262,7 +313,21 @@ export enum ClientPaymentStatus {
 export enum BookingTransition {
 	Submit = "submit",
 	MoveToPending = "move-to-pending",
-	MoveToConfirmed = "move-to-confirmed"
+	MoveToConfirmed = "move-to-confirmed",
+	MoveToInProgress = "move-to-in-progress",
+	MoveToCompleted = "move-to-completed"
+}
+
+/** BookingStatusLabel */
+export enum BookingStatusLabel {
+	Draft = "Draft",
+	New = "New",
+	InProcessing = "In processing",
+	Booked = "Booked",
+	InProgress = "In progress",
+	Complete = "Complete",
+	Cancelled = "Cancelled",
+	Declined = "Declined"
 }
 
 /** BookingStatus */
@@ -489,6 +554,11 @@ export interface ActivityEventPubReadInput {
 	/** Is Optional */
 	is_optional?: boolean | null;
 	/**
+	 * Date
+	 * Calendar date this event falls on, computed as the booking's departure date plus ``day - 1``. Null in the catalogue, where a template tour has no departure date to anchor against.
+	 */
+	date?: string | null;
+	/**
 	 * Typ
 	 * @default "activity"
 	 */
@@ -508,6 +578,11 @@ export interface ActivityEventPubReadOutput {
 	position?: number | null;
 	/** Is Optional */
 	is_optional?: boolean | null;
+	/**
+	 * Date
+	 * Calendar date this event falls on, computed as the booking's departure date plus ``day - 1``. Null in the catalogue, where a template tour has no departure date to anchor against.
+	 */
+	date?: string | null;
 	/**
 	 * Typ
 	 * @default "activity"
@@ -974,15 +1049,14 @@ export interface BodyCreatePaymentBookingPaymentPost {
 	 */
 	amount_uzs: number;
 	/**
-	 * Exchange Rate
-	 * @exclusiveMin 0
-	 */
-	exchange_rate: number;
-	/**
 	 * File
 	 * @format binary
 	 */
 	file: File;
+	/** @default "UZS" */
+	currency?: Currency;
+	/** Exchange Rate */
+	exchange_rate?: number | null;
 	/** Note */
 	note?: string | null;
 }
@@ -1122,6 +1196,108 @@ export interface BookingEventAvailabilityResponse {
 	event_typ: EventTypes | null;
 }
 
+/**
+ * BookingFilesPresent
+ * Which documents this order already has, without exposing storage keys —
+ * the board only needs to show a paperclip and whether it is complete.
+ */
+export interface BookingFilesPresent {
+	/** Voucher */
+	voucher: boolean;
+	/** Invoice Pdf */
+	invoice_pdf: boolean;
+	/** Supplier Receipts */
+	supplier_receipts: number;
+	/** Client Payment Proofs */
+	client_payment_proofs: number;
+}
+
+/**
+ * BookingFinancialsResponse
+ * Full two-sided position on one order, every figure in the operator's base
+ * currency so the money-in and money-out halves are directly comparable.
+ *
+ * Planned figures are what the frozen snapshot prices out. Accrued figures are
+ * what has actually been billed and taken on — the issued invoice on the
+ * revenue side, the seeded supplier payments on the cost side. Settled figures
+ * are cash that moved. The three tiers answer three different questions and
+ * are deliberately not collapsed:
+ *
+ * - ``receivable`` = revenue accrued but not yet received (this order's debtor
+ *   position); ``payable`` = cost accrued but not yet paid out (creditor).
+ * - ``accrual_profit`` is the margin already locked in contractually;
+ *   ``settled_profit`` is cash actually in hand. They converge as an order
+ *   completes, and a persistent gap is exactly what needs chasing.
+ *
+ * ``planned`` figures carry the min/max spread from optional events and
+ * category alternatives; the realised tiers are single values.
+ */
+export interface BookingFinancialsResponse {
+	/**
+	 * Booking Id
+	 * @format uuid
+	 */
+	booking_id: string;
+	/** Order Number */
+	order_number: string;
+	currency: Currency;
+	/**
+	 * Planned Revenue
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	planned_revenue: string;
+	/**
+	 * Planned Cost
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	planned_cost: string;
+	/**
+	 * Planned Profit
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	planned_profit: string;
+	/**
+	 * Revenue Accrued
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	revenue_accrued: string;
+	/**
+	 * Revenue Settled
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	revenue_settled: string;
+	/**
+	 * Receivable
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	receivable: string;
+	/**
+	 * Cost Accrued
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	cost_accrued: string;
+	/**
+	 * Cost Settled
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	cost_settled: string;
+	/**
+	 * Payable
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	payable: string;
+	/**
+	 * Accrual Profit
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	accrual_profit: string;
+	/**
+	 * Settled Profit
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	settled_profit: string;
+}
+
 /** BookingItineraryResponse */
 export interface BookingItineraryResponse {
 	/**
@@ -1145,17 +1321,11 @@ export interface BookingItineraryResponse {
 						typ: "flight";
 				  } & FlightEventPubReadOutput)
 				| ({
-						typ: "guide";
-				  } & GuideEventPubReadOutput)
-				| ({
 						typ: "housing";
 				  } & HousingEventPubReadOutput)
 				| ({
 						typ: "ref";
 				  } & InformationEventPubReadOutput)
-				| ({
-						typ: "supplementary";
-				  } & SupplementaryEventPubReadOutput)
 				| ({
 						typ: "train";
 				  } & TrainEventPubReadOutput)
@@ -1167,106 +1337,15 @@ export interface BookingItineraryResponse {
 	)[];
 }
 
-/** BookingOrderDetail */
-export interface BookingOrderDetail {
-	/**
-	 * Id
-	 * @format uuid
-	 */
-	id: string;
-	/** Agency Id */
-	agency_id?: string | null;
-	/** User Id */
-	user_id?: string | null;
-	/**
-	 * Operator Id
-	 * @format uuid
-	 */
-	operator_id: string;
-	/**
-	 * Tour Option Id
-	 * @format uuid
-	 */
-	tour_option_id: string;
-	/** Snapshot Id */
-	snapshot_id?: string | null;
-	/**
-	 * Date
-	 * @format date
-	 */
-	date: string;
-	/**
-	 * End Date
-	 * @format date
-	 */
-	end_date: string;
-	/** Pax */
-	pax: number;
-	status: BookingStatus;
-	/**
-	 * Paid Amount
-	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
-	 */
-	paid_amount: string;
-	paid_currency: Currency;
-	/**
-	 * Tour Amount
-	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
-	 */
-	tour_amount: string;
-	tour_currency: Currency;
-	/** Fx Rate Id */
-	fx_rate_id?: string | null;
-	/** Fx Rate Applied */
-	fx_rate_applied?: string | null;
-	/** Agreed Price */
-	agreed_price?: string | null;
-	/** Cancelled At */
-	cancelled_at?: string | null;
-	/** Cancellation Reason */
-	cancellation_reason?: string | null;
-	/** Comment */
-	comment?: string | null;
-	/** Voucher Path */
-	voucher_path?: string | null;
-	/** Order Number */
-	order_number: string;
+/**
+ * BookingOrderClientDetail
+ * Agency/tourist-facing order detail: instead of echoing the caller's own
+ * identity it carries the ``operator`` contact block — who to reach about
+ * this booking.
+ */
+export interface BookingOrderClientDetail {
+	order: BookingOrderResponse;
 	tour: OrderTourInfo;
-	agency?: OrderAgencyInfo | null;
-	user?: OrderUserInfo | null;
-}
-
-/** BookingOrderListItem */
-export interface BookingOrderListItem {
-	/**
-	 * Id
-	 * @format uuid
-	 */
-	id: string;
-	/** Client Name */
-	client_name: string;
-	client_type: BookingClientType;
-	/** Tour Name */
-	tour_name: string;
-	tour_type: TourType;
-	status: BookingStatus;
-	/**
-	 * Date
-	 * @format date
-	 */
-	date: string;
-	/**
-	 * End Date
-	 * @format date
-	 */
-	end_date: string;
-	/**
-	 * Created At
-	 * @format date-time
-	 */
-	created_at: string;
-	/** Pax */
-	pax: number;
 	/**
 	 * Who to contact about this booking — the operator running the tour. Joined
 	 * into the listing rather than fetched per row so an agency or tourist can reach
@@ -1275,8 +1354,18 @@ export interface BookingOrderListItem {
 	 * in yet.
 	 */
 	operator: OrderOperatorInfo;
-	/** Order Number */
-	order_number: string;
+}
+
+/**
+ * BookingOrderDetail
+ * Operator-facing order detail: who placed the booking — exactly one of
+ * ``agency`` / ``user`` is set, mirroring the booking's owner column.
+ */
+export interface BookingOrderDetail {
+	order: BookingOrderResponse;
+	tour: OrderTourInfo;
+	agency?: OrderAgencyInfo | null;
+	user?: OrderUserInfo | null;
 }
 
 /** BookingOrderListResponse */
@@ -1284,7 +1373,7 @@ export interface BookingOrderListResponse {
 	/** Total Count */
 	total_count: number;
 	/** Data */
-	data: BookingOrderListItem[];
+	data: BookingOrderRow[];
 }
 
 /** BookingOrderResponse */
@@ -1353,6 +1442,52 @@ export interface BookingOrderResponse {
 	order_number: string;
 }
 
+/** BookingOrderRow */
+export interface BookingOrderRow {
+	/**
+	 * Id
+	 * @format uuid
+	 */
+	id: string;
+	/**
+	 * Order Number
+	 * @default ""
+	 */
+	order_number?: string;
+	/** Client Name */
+	client_name: string;
+	client_type: BookingClientType;
+	/** Tour Name */
+	tour_name: string | null;
+	tour_type: TourType;
+	status: BookingStatus;
+	/**
+	 * Date
+	 * @format date
+	 */
+	date: string;
+	/**
+	 * End Date
+	 * @format date
+	 */
+	end_date: string;
+	/**
+	 * Created At
+	 * @format date-time
+	 */
+	created_at: string;
+	/** Pax */
+	pax: number;
+	/**
+	 * Who to contact about this booking — the operator running the tour. Joined
+	 * into the listing rather than fetched per row so an agency or tourist can reach
+	 * the right person without a follow-up call per booking. Every field but ``id``
+	 * and ``name`` lives on ``operator_info``, which an operator may not have filled
+	 * in yet.
+	 */
+	operator: OrderOperatorInfo;
+}
+
 /** BookingPaxFilesModel */
 export interface BookingPaxFilesModel {
 	/**
@@ -1402,6 +1537,237 @@ export interface BookingPaxModel {
 	expired_date: string;
 	/** Comment */
 	comment: string | null;
+}
+
+/** BookingReconciliationListResponse */
+export interface BookingReconciliationListResponse {
+	/** Total Count */
+	total_count: number;
+	currency: Currency;
+	/**
+	 * Grand totals across the *whole filtered set*, not just the page.
+	 *
+	 * Only ledger-derived figures appear here. Planned totals are deliberately
+	 * absent: they require re-pricing every matching snapshot, and a number that
+	 * silently covered only the current page would be worse than no number.
+	 */
+	totals: ReconciliationTotalsOutput;
+	/** Data */
+	data: BookingReconciliationRowOutput[];
+}
+
+/**
+ * BookingReconciliationRow
+ * One order on the reconciliation board, every figure in the operator's
+ * base currency.
+ *
+ * ``planned_*`` is re-priced from the frozen snapshot, so an order that has
+ * not been invoiced yet still shows what it is worth. ``*_accrued`` is what
+ * has actually been billed and committed, ``*_settled`` is cash that moved,
+ * and the two debt figures are the gap between them.
+ *
+ * ``variance`` is ``planned_cost - cost_accrued``: positive means the order is
+ * running under its planned supplier budget, negative that it has overrun.
+ */
+export interface BookingReconciliationRowInput {
+	/**
+	 * Booking Id
+	 * @format uuid
+	 */
+	booking_id: string;
+	/** Order Number */
+	order_number: string;
+	status: BookingStatus;
+	status_label: BookingStatusLabel;
+	/**
+	 * Date
+	 * @format date
+	 */
+	date: string;
+	/**
+	 * End Date
+	 * @format date
+	 */
+	end_date: string;
+	/**
+	 * Created At
+	 * @format date-time
+	 */
+	created_at: string;
+	/** Pax */
+	pax: number;
+	/** Tour Name */
+	tour_name: string | null;
+	tour_type: TourType;
+	/** Client Name */
+	client_name: string;
+	client_type: BookingClientType;
+	currency: Currency;
+	/** Planned Revenue */
+	planned_revenue: number | string;
+	/** Planned Cost */
+	planned_cost: number | string;
+	/** Planned Profit */
+	planned_profit: number | string;
+	/** Revenue Accrued */
+	revenue_accrued: number | string;
+	/** Revenue Settled */
+	revenue_settled: number | string;
+	/** Receivable */
+	receivable: number | string;
+	/** Cost Accrued */
+	cost_accrued: number | string;
+	/** Cost Settled */
+	cost_settled: number | string;
+	/** Payable */
+	payable: number | string;
+	/** Accrual Profit */
+	accrual_profit: number | string;
+	/** Settled Profit */
+	settled_profit: number | string;
+	/** Variance */
+	variance: number | string;
+	/** Invoice Id */
+	invoice_id: string | null;
+	/** Invoice Number */
+	invoice_number: string | null;
+	/**
+	 * Which documents this order already has, without exposing storage keys —
+	 * the board only needs to show a paperclip and whether it is complete.
+	 */
+	files: BookingFilesPresent;
+	/**
+	 * Counts behind the payable figure, so a row explains itself: how many
+	 * event lines exist, how many are settled, and how many are still filed under
+	 * no supplier at all.
+	 */
+	supplier_lines: SupplierLineTally;
+	client_payments: ClientPaymentTally;
+}
+
+/**
+ * BookingReconciliationRow
+ * One order on the reconciliation board, every figure in the operator's
+ * base currency.
+ *
+ * ``planned_*`` is re-priced from the frozen snapshot, so an order that has
+ * not been invoiced yet still shows what it is worth. ``*_accrued`` is what
+ * has actually been billed and committed, ``*_settled`` is cash that moved,
+ * and the two debt figures are the gap between them.
+ *
+ * ``variance`` is ``planned_cost - cost_accrued``: positive means the order is
+ * running under its planned supplier budget, negative that it has overrun.
+ */
+export interface BookingReconciliationRowOutput {
+	/**
+	 * Booking Id
+	 * @format uuid
+	 */
+	booking_id: string;
+	/** Order Number */
+	order_number: string;
+	status: BookingStatus;
+	status_label: BookingStatusLabel;
+	/**
+	 * Date
+	 * @format date
+	 */
+	date: string;
+	/**
+	 * End Date
+	 * @format date
+	 */
+	end_date: string;
+	/**
+	 * Created At
+	 * @format date-time
+	 */
+	created_at: string;
+	/** Pax */
+	pax: number;
+	/** Tour Name */
+	tour_name: string | null;
+	tour_type: TourType;
+	/** Client Name */
+	client_name: string;
+	client_type: BookingClientType;
+	currency: Currency;
+	/**
+	 * Planned Revenue
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	planned_revenue: string;
+	/**
+	 * Planned Cost
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	planned_cost: string;
+	/**
+	 * Planned Profit
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	planned_profit: string;
+	/**
+	 * Revenue Accrued
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	revenue_accrued: string;
+	/**
+	 * Revenue Settled
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	revenue_settled: string;
+	/**
+	 * Receivable
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	receivable: string;
+	/**
+	 * Cost Accrued
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	cost_accrued: string;
+	/**
+	 * Cost Settled
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	cost_settled: string;
+	/**
+	 * Payable
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	payable: string;
+	/**
+	 * Accrual Profit
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	accrual_profit: string;
+	/**
+	 * Settled Profit
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	settled_profit: string;
+	/**
+	 * Variance
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	variance: string;
+	/** Invoice Id */
+	invoice_id: string | null;
+	/** Invoice Number */
+	invoice_number: string | null;
+	/**
+	 * Which documents this order already has, without exposing storage keys —
+	 * the board only needs to show a paperclip and whether it is complete.
+	 */
+	files: BookingFilesPresent;
+	/**
+	 * Counts behind the payable figure, so a row explains itself: how many
+	 * event lines exist, how many are settled, and how many are still filed under
+	 * no supplier at all.
+	 */
+	supplier_lines: SupplierLineTally;
+	client_payments: ClientPaymentTally;
 }
 
 /** BookingUpdate */
@@ -1529,6 +1895,11 @@ export interface BusEventPubReadInput {
 	/** Is Optional */
 	is_optional?: boolean | null;
 	/**
+	 * Date
+	 * Calendar date this event falls on, computed as the booking's departure date plus ``day - 1``. Null in the catalogue, where a template tour has no departure date to anchor against.
+	 */
+	date?: string | null;
+	/**
 	 * Typ
 	 * @default "bus"
 	 */
@@ -1548,6 +1919,11 @@ export interface BusEventPubReadOutput {
 	position?: number | null;
 	/** Is Optional */
 	is_optional?: boolean | null;
+	/**
+	 * Date
+	 * Calendar date this event falls on, computed as the booking's departure date plus ``day - 1``. Null in the catalogue, where a template tour has no departure date to anchor against.
+	 */
+	date?: string | null;
 	/**
 	 * Typ
 	 * @default "bus"
@@ -1817,7 +2193,14 @@ export interface ClientPaymentListResponse {
 	data: ClientPaymentResponse[];
 }
 
-/** ClientPaymentResponse */
+/**
+ * ClientPaymentResponse
+ * ``rate`` and ``base_amount`` are read back off the ledger settlement this
+ * payment produced, not recomputed at read time — so the figure here is the
+ * one the reconciliation actually counted, at the rate that was true when the
+ * payment was confirmed. Both are ``None`` until confirmation, because an
+ * unconfirmed receipt has no pinned rate yet.
+ */
 export interface ClientPaymentResponse {
 	/**
 	 * Id
@@ -1839,10 +2222,14 @@ export interface ClientPaymentResponse {
 	/** Client Name */
 	client_name: string;
 	/** Tour Name */
-	tour_name: string;
+	tour_name: string | null;
 	/** Amount */
 	amount: number;
 	currency: Currency;
+	/** Rate */
+	rate?: string | null;
+	/** Base Amount */
+	base_amount?: string | null;
 	status: ClientPaymentStatus;
 	/** Note */
 	note?: string | null;
@@ -1854,12 +2241,101 @@ export interface ClientPaymentResponse {
 	updated_at?: string | null;
 }
 
+/** ClientPaymentTally */
+export interface ClientPaymentTally {
+	/** Recorded */
+	recorded: number;
+	/** Confirmed */
+	confirmed: number;
+	/** Unconfirmed */
+	unconfirmed: number;
+}
+
 /** ClientPaymentUpdate */
 export interface ClientPaymentUpdate {
 	/** Amount */
 	amount?: number | null;
 	/** Note */
 	note?: string | null;
+}
+
+/** CounterpartyBalanceListResponse */
+export interface CounterpartyBalanceListResponse {
+	/** Total Count */
+	total_count: number;
+	currency: Currency;
+	/**
+	 * Total Outstanding
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	total_outstanding: string;
+	/** Data */
+	data: CounterpartyBalanceResponseOutput[];
+}
+
+/**
+ * CounterpartyBalanceResponse
+ * One debtor or creditor line, in the operator's base currency.
+ *
+ * ``billed`` / ``paid`` read from the operator's side of the relationship: for
+ * a debtor they are what the operator invoiced and what came in, for a
+ * creditor what the supplier charged and what went out.
+ */
+export interface CounterpartyBalanceResponseInput {
+	/**
+	 * One end of an entry. ``OPERATOR`` is a party like any other, not an
+	 * implied centre — that is what lets a future entry record an agency paying a
+	 * supplier directly, with the operator's books merely observing it.
+	 */
+	party_typ: LedgerParty;
+	/** Party Id */
+	party_id: string | null;
+	/** Party Name */
+	party_name: string | null;
+	/** Billed */
+	billed: number | string;
+	/** Paid */
+	paid: number | string;
+	/** Outstanding */
+	outstanding: number | string;
+	currency: Currency;
+}
+
+/**
+ * CounterpartyBalanceResponse
+ * One debtor or creditor line, in the operator's base currency.
+ *
+ * ``billed`` / ``paid`` read from the operator's side of the relationship: for
+ * a debtor they are what the operator invoiced and what came in, for a
+ * creditor what the supplier charged and what went out.
+ */
+export interface CounterpartyBalanceResponseOutput {
+	/**
+	 * One end of an entry. ``OPERATOR`` is a party like any other, not an
+	 * implied centre — that is what lets a future entry record an agency paying a
+	 * supplier directly, with the operator's books merely observing it.
+	 */
+	party_typ: LedgerParty;
+	/** Party Id */
+	party_id: string | null;
+	/** Party Name */
+	party_name: string | null;
+	/**
+	 * Billed
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	billed: string;
+	/**
+	 * Paid
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	paid: string;
+	/**
+	 * Outstanding
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	outstanding: string;
+	currency: Currency;
 }
 
 /** CreateAgencySchema */
@@ -2041,6 +2517,161 @@ export interface EventReorderSchema {
 	 * @min 0
 	 */
 	position: number;
+}
+
+/**
+ * EventVarianceLine
+ * One event's planned spend against what the operator actually committed.
+ *
+ * ``planned_min``/``planned_max`` come off the frozen snapshot; ``accrued`` is
+ * what the operator entered as the real supplier cost; ``settled`` is the part
+ * of it marked paid with a receipt attached. ``variance`` is
+ * ``planned_max - accrued`` — positive means the event came in under its
+ * planned budget, negative means it overran.
+ *
+ * ``payment_id`` addresses the seeded supplier payment row backing this event —
+ * one per ``(booking_id, event_id)`` — so the line opens straight into
+ * ``/operator/supplier-payment/{payment_id}``. It is ``None`` only while the
+ * booking is unconfirmed and no payment has been seeded yet.
+ *
+ * Check:
+ * - ``GET /booking/order/operator/{booking_id}/financials`` for order totals
+ * - ``GET /operator/supplier-payment/{payment_id}`` for the payment detail
+ */
+export interface EventVarianceLineInput {
+	/**
+	 * Event Id
+	 * @format uuid
+	 */
+	event_id: string;
+	/** Payment Id */
+	payment_id: string | null;
+	/** Event Name */
+	event_name: string | null;
+	event_typ: EventTypes | null;
+	/**
+	 * Date
+	 * @format date
+	 */
+	date: string;
+	/** Planned Min */
+	planned_min: number | string;
+	/** Planned Max */
+	planned_max: number | string;
+	/** Accrued */
+	accrued: number | string;
+	/** Settled */
+	settled: number | string;
+	/** Payable */
+	payable: number | string;
+	/** Variance */
+	variance: number | string;
+}
+
+/**
+ * EventVarianceLine
+ * One event's planned spend against what the operator actually committed.
+ *
+ * ``planned_min``/``planned_max`` come off the frozen snapshot; ``accrued`` is
+ * what the operator entered as the real supplier cost; ``settled`` is the part
+ * of it marked paid with a receipt attached. ``variance`` is
+ * ``planned_max - accrued`` — positive means the event came in under its
+ * planned budget, negative means it overran.
+ *
+ * ``payment_id`` addresses the seeded supplier payment row backing this event —
+ * one per ``(booking_id, event_id)`` — so the line opens straight into
+ * ``/operator/supplier-payment/{payment_id}``. It is ``None`` only while the
+ * booking is unconfirmed and no payment has been seeded yet.
+ *
+ * Check:
+ * - ``GET /booking/order/operator/{booking_id}/financials`` for order totals
+ * - ``GET /operator/supplier-payment/{payment_id}`` for the payment detail
+ */
+export interface EventVarianceLineOutput {
+	/**
+	 * Event Id
+	 * @format uuid
+	 */
+	event_id: string;
+	/** Payment Id */
+	payment_id: string | null;
+	/** Event Name */
+	event_name: string | null;
+	event_typ: EventTypes | null;
+	/**
+	 * Date
+	 * @format date
+	 */
+	date: string;
+	/**
+	 * Planned Min
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	planned_min: string;
+	/**
+	 * Planned Max
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	planned_max: string;
+	/**
+	 * Accrued
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	accrued: string;
+	/**
+	 * Settled
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	settled: string;
+	/**
+	 * Payable
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	payable: string;
+	/**
+	 * Variance
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	variance: string;
+}
+
+/** EventVarianceResponse */
+export interface EventVarianceResponse {
+	/**
+	 * Booking Id
+	 * @format uuid
+	 */
+	booking_id: string;
+	/** Order Number */
+	order_number: string;
+	currency: Currency;
+	/**
+	 * Planned Total Min
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	planned_total_min: string;
+	/**
+	 * Planned Total Max
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	planned_total_max: string;
+	/**
+	 * Accrued Total
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	accrued_total: string;
+	/**
+	 * Settled Total
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	settled_total: string;
+	/**
+	 * Variance Total
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	variance_total: string;
+	/** Events */
+	events: EventVarianceLineOutput[];
 }
 
 /** ExcludedDateCreate */
@@ -2384,6 +3015,11 @@ export interface FlightEventPubReadInput {
 	/** Is Optional */
 	is_optional?: boolean | null;
 	/**
+	 * Date
+	 * Calendar date this event falls on, computed as the booking's departure date plus ``day - 1``. Null in the catalogue, where a template tour has no departure date to anchor against.
+	 */
+	date?: string | null;
+	/**
 	 * Typ
 	 * @default "flight"
 	 */
@@ -2403,6 +3039,11 @@ export interface FlightEventPubReadOutput {
 	position?: number | null;
 	/** Is Optional */
 	is_optional?: boolean | null;
+	/**
+	 * Date
+	 * Calendar date this event falls on, computed as the booking's departure date plus ``day - 1``. Null in the catalogue, where a template tour has no departure date to anchor against.
+	 */
+	date?: string | null;
 	/**
 	 * Typ
 	 * @default "flight"
@@ -2827,8 +3468,8 @@ export interface FrozenTourMeta {
 	 * @format uuid
 	 */
 	id: string;
-	/** Name */
-	name: string;
+	/** Title */
+	title?: string | null;
 	/** Cover Image Path */
 	cover_image_path?: string | null;
 	/** Group Size */
@@ -3055,30 +3696,6 @@ export interface GuideDetailsOutput {
 	categories?: GuideByLanguageCategoryOutput[];
 }
 
-/** GuideDetailsPubSchema */
-export interface GuideDetailsPubSchemaInput {
-	/** Name */
-	name?: string | null;
-	/** Duration */
-	duration?: number | null;
-	/** Typ Tiers */
-	typ_tiers?: GuideTypeTierPubSchema[] | null;
-	/** Categories */
-	categories?: GuideLanguagePubSchema[] | null;
-}
-
-/** GuideDetailsPubSchema */
-export interface GuideDetailsPubSchemaOutput {
-	/** Name */
-	name?: string | null;
-	/** Duration */
-	duration?: number | null;
-	/** Typ Tiers */
-	typ_tiers?: GuideTypeTierPubSchema[] | null;
-	/** Categories */
-	categories?: GuideLanguagePubSchema[] | null;
-}
-
 /** GuideEvent */
 export interface GuideEventInput {
 	/**
@@ -3125,46 +3742,6 @@ export interface GuideEventOutput {
 	 */
 	typ?: "guide";
 	details?: GuideDetailsOutput | null;
-}
-
-/** GuideEventPubRead */
-export interface GuideEventPubReadInput {
-	/** Name */
-	name?: string | null;
-	/** Description */
-	description?: string | null;
-	/** Day */
-	day?: number | null;
-	/** Position */
-	position?: number | null;
-	/** Is Optional */
-	is_optional?: boolean | null;
-	/**
-	 * Typ
-	 * @default "guide"
-	 */
-	typ?: "guide";
-	details?: GuideDetailsPubSchemaInput | null;
-}
-
-/** GuideEventPubRead */
-export interface GuideEventPubReadOutput {
-	/** Name */
-	name?: string | null;
-	/** Description */
-	description?: string | null;
-	/** Day */
-	day?: number | null;
-	/** Position */
-	position?: number | null;
-	/** Is Optional */
-	is_optional?: boolean | null;
-	/**
-	 * Typ
-	 * @default "guide"
-	 */
-	typ?: "guide";
-	details?: GuideDetailsPubSchemaOutput | null;
 }
 
 /** GuideEventTypeRead */
@@ -3223,11 +3800,6 @@ export interface GuideEventTypeReadOutput {
 	 * Option (alternative) id; populated on read, ignored on write.
 	 */
 	id?: string | null;
-}
-
-/** GuideLanguagePubSchema */
-export interface GuideLanguagePubSchema {
-	lang?: LanguageCode | null;
 }
 
 /** GuideSingleEvent */
@@ -3323,13 +3895,6 @@ export interface GuideTypeTier {
 	 */
 	up_to_pax: number;
 	typ: GuideType;
-}
-
-/** GuideTypeTierPubSchema */
-export interface GuideTypeTierPubSchema {
-	/** Up To Pax */
-	up_to_pax?: number | null;
-	typ?: GuideType | null;
 }
 
 /** HTTPValidationError */
@@ -3509,6 +4074,11 @@ export interface HousingEventPubReadInput {
 	/** Is Optional */
 	is_optional?: boolean | null;
 	/**
+	 * Date
+	 * Calendar date this event falls on, computed as the booking's departure date plus ``day - 1``. Null in the catalogue, where a template tour has no departure date to anchor against.
+	 */
+	date?: string | null;
+	/**
 	 * Typ
 	 * @default "housing"
 	 */
@@ -3528,6 +4098,11 @@ export interface HousingEventPubReadOutput {
 	position?: number | null;
 	/** Is Optional */
 	is_optional?: boolean | null;
+	/**
+	 * Date
+	 * Calendar date this event falls on, computed as the booking's departure date plus ``day - 1``. Null in the catalogue, where a template tour has no departure date to anchor against.
+	 */
+	date?: string | null;
 	/**
 	 * Typ
 	 * @default "housing"
@@ -3859,6 +4434,11 @@ export interface InformationEventPubReadInput {
 	/** Is Optional */
 	is_optional?: boolean | null;
 	/**
+	 * Date
+	 * Calendar date this event falls on, computed as the booking's departure date plus ``day - 1``. Null in the catalogue, where a template tour has no departure date to anchor against.
+	 */
+	date?: string | null;
+	/**
 	 * Typ
 	 * @default "ref"
 	 */
@@ -3878,6 +4458,11 @@ export interface InformationEventPubReadOutput {
 	position?: number | null;
 	/** Is Optional */
 	is_optional?: boolean | null;
+	/**
+	 * Date
+	 * Calendar date this event falls on, computed as the booking's departure date plus ``day - 1``. Null in the catalogue, where a template tour has no departure date to anchor against.
+	 */
+	date?: string | null;
 	/**
 	 * Typ
 	 * @default "ref"
@@ -4222,8 +4807,6 @@ export interface LandingPageResponse {
 	cancellation_policy?: string | null;
 	/** Additional Information */
 	additional_information?: string | null;
-	/** Languages */
-	languages?: LanguageCode[];
 	/** Pickup Type */
 	pickup_type?: PickupType[];
 	/** Amenities Included */
@@ -4235,6 +4818,8 @@ export interface LandingPageResponse {
 	 * @format uuid
 	 */
 	id: string;
+	/** Languages */
+	languages: LanguageCode[];
 	/** Created At */
 	created_at?: string | null;
 	/** Updated At */
@@ -4257,14 +4842,173 @@ export interface LandingPageUpdate {
 	cancellation_policy?: string | null;
 	/** Additional Information */
 	additional_information?: string | null;
-	/** Languages */
-	languages?: LanguageCode[] | null;
 	/** Pickup Type */
 	pickup_type?: PickupType[] | null;
 	/** Amenities Included */
 	amenities_included?: string[] | null;
 	/** Amenities Not Included */
 	amenities_not_included?: string[] | null;
+}
+
+/** LedgerEntryListResponse */
+export interface LedgerEntryListResponse {
+	/** Total Count */
+	total_count: number;
+	/** Data */
+	data: LedgerEntryResponseOutput[];
+}
+
+/**
+ * LedgerEntryResponse
+ * ``flow`` is derived, not stored: ``INBOUND`` when the operator is the
+ * payee, ``OUTBOUND`` when they are the payer, ``None`` for an entry between
+ * two other participants that the operator's books merely observe.
+ */
+export interface LedgerEntryResponseInput {
+	/**
+	 * Id
+	 * @format uuid
+	 */
+	id: string;
+	/**
+	 * Operator Id
+	 * @format uuid
+	 */
+	operator_id: string;
+	/** Booking Id */
+	booking_id: string | null;
+	/** Order Number */
+	order_number: string | null;
+	/** Snapshot Event Id */
+	snapshot_event_id: string | null;
+	/**
+	 * ``ACCRUAL`` is what was agreed and is now owed; ``SETTLEMENT`` is cash
+	 * that actually moved. Debt is the difference between the two.
+	 *
+	 * There is exactly one accrual per source row and it is restated in place as
+	 * the operator edits the agreed figure. Settlements accumulate — an invoice
+	 * paid in three instalments posts three of them.
+	 */
+	typ: LedgerEntryType;
+	/**
+	 * One end of an entry. ``OPERATOR`` is a party like any other, not an
+	 * implied centre — that is what lets a future entry record an agency paying a
+	 * supplier directly, with the operator's books merely observing it.
+	 */
+	payer_typ: LedgerParty;
+	/** Payer Id */
+	payer_id: string | null;
+	/**
+	 * One end of an entry. ``OPERATOR`` is a party like any other, not an
+	 * implied centre — that is what lets a future entry record an agency paying a
+	 * supplier directly, with the operator's books merely observing it.
+	 */
+	payee_typ: LedgerParty;
+	/** Payee Id */
+	payee_id: string | null;
+	flow: LedgerFlow | null;
+	/** Amount */
+	amount: number | string;
+	currency: Currency;
+	/** Rate */
+	rate: number | string;
+	/** Base Amount */
+	base_amount: number | string;
+	/**
+	 * Which rail produced the entry. Bank, card and SWIFT rails append their
+	 * own members here; the posting contract does not change.
+	 */
+	source: LedgerSource;
+	/** Source Id */
+	source_id: string | null;
+	/**
+	 * Occurred At
+	 * @format date-time
+	 */
+	occurred_at: string;
+	/** Note */
+	note: string | null;
+}
+
+/**
+ * LedgerEntryResponse
+ * ``flow`` is derived, not stored: ``INBOUND`` when the operator is the
+ * payee, ``OUTBOUND`` when they are the payer, ``None`` for an entry between
+ * two other participants that the operator's books merely observe.
+ */
+export interface LedgerEntryResponseOutput {
+	/**
+	 * Id
+	 * @format uuid
+	 */
+	id: string;
+	/**
+	 * Operator Id
+	 * @format uuid
+	 */
+	operator_id: string;
+	/** Booking Id */
+	booking_id: string | null;
+	/** Order Number */
+	order_number: string | null;
+	/** Snapshot Event Id */
+	snapshot_event_id: string | null;
+	/**
+	 * ``ACCRUAL`` is what was agreed and is now owed; ``SETTLEMENT`` is cash
+	 * that actually moved. Debt is the difference between the two.
+	 *
+	 * There is exactly one accrual per source row and it is restated in place as
+	 * the operator edits the agreed figure. Settlements accumulate — an invoice
+	 * paid in three instalments posts three of them.
+	 */
+	typ: LedgerEntryType;
+	/**
+	 * One end of an entry. ``OPERATOR`` is a party like any other, not an
+	 * implied centre — that is what lets a future entry record an agency paying a
+	 * supplier directly, with the operator's books merely observing it.
+	 */
+	payer_typ: LedgerParty;
+	/** Payer Id */
+	payer_id: string | null;
+	/**
+	 * One end of an entry. ``OPERATOR`` is a party like any other, not an
+	 * implied centre — that is what lets a future entry record an agency paying a
+	 * supplier directly, with the operator's books merely observing it.
+	 */
+	payee_typ: LedgerParty;
+	/** Payee Id */
+	payee_id: string | null;
+	flow: LedgerFlow | null;
+	/**
+	 * Amount
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	amount: string;
+	currency: Currency;
+	/**
+	 * Rate
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	rate: string;
+	/**
+	 * Base Amount
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	base_amount: string;
+	/**
+	 * Which rail produced the entry. Bank, card and SWIFT rails append their
+	 * own members here; the posting contract does not change.
+	 */
+	source: LedgerSource;
+	/** Source Id */
+	source_id: string | null;
+	/**
+	 * Occurred At
+	 * @format date-time
+	 */
+	occurred_at: string;
+	/** Note */
+	note: string | null;
 }
 
 /** LocationInSchema */
@@ -4465,6 +5209,11 @@ export interface MultiEventPubInput {
 	position?: number | null;
 	/** Is Optional */
 	is_optional?: boolean | null;
+	/**
+	 * Date
+	 * Calendar date this event falls on, computed as the booking's departure date plus ``day - 1``. Null in the catalogue, where a template tour has no departure date to anchor against.
+	 */
+	date?: string | null;
 	/** Typ */
 	typ: "options";
 	/** Details */
@@ -4480,17 +5229,11 @@ export interface MultiEventPubInput {
 						typ: "flight";
 				  } & FlightEventPubReadInput)
 				| ({
-						typ: "guide";
-				  } & GuideEventPubReadInput)
-				| ({
 						typ: "housing";
 				  } & HousingEventPubReadInput)
 				| ({
 						typ: "ref";
 				  } & InformationEventPubReadInput)
-				| ({
-						typ: "supplementary";
-				  } & SupplementaryEventPubReadInput)
 				| ({
 						typ: "train";
 				  } & TrainEventPubReadInput)
@@ -4513,6 +5256,11 @@ export interface MultiEventPubOutput {
 	position?: number | null;
 	/** Is Optional */
 	is_optional?: boolean | null;
+	/**
+	 * Date
+	 * Calendar date this event falls on, computed as the booking's departure date plus ``day - 1``. Null in the catalogue, where a template tour has no departure date to anchor against.
+	 */
+	date?: string | null;
 	/** Typ */
 	typ: "options";
 	/** Details */
@@ -4528,17 +5276,11 @@ export interface MultiEventPubOutput {
 						typ: "flight";
 				  } & FlightEventPubReadOutput)
 				| ({
-						typ: "guide";
-				  } & GuideEventPubReadOutput)
-				| ({
 						typ: "housing";
 				  } & HousingEventPubReadOutput)
 				| ({
 						typ: "ref";
 				  } & InformationEventPubReadOutput)
-				| ({
-						typ: "supplementary";
-				  } & SupplementaryEventPubReadOutput)
 				| ({
 						typ: "train";
 				  } & TrainEventPubReadOutput)
@@ -5388,8 +6130,8 @@ export interface OrderTourInfo {
 	 * @format uuid
 	 */
 	id: string;
-	/** Name */
-	name: string;
+	/** Title */
+	title: string | null;
 	typ: TourType;
 	/** Days */
 	days: number;
@@ -6121,8 +6863,8 @@ export interface PublicTourCatalogSchemaInput {
 	 * @format uuid
 	 */
 	tour_id: string;
-	/** Name */
-	name: string;
+	/** Title */
+	title: string | null;
 	/** Cover Image Url */
 	cover_image_url: string | null;
 	/** Description */
@@ -6163,8 +6905,8 @@ export interface PublicTourCatalogSchemaOutput {
 	 * @format uuid
 	 */
 	tour_id: string;
-	/** Name */
-	name: string;
+	/** Title */
+	title: string | null;
 	/** Cover Image Url */
 	cover_image_url: string | null;
 	/** Description */
@@ -6196,6 +6938,84 @@ export interface PublicTourCatalogSchemaOutput {
 	price_per_person: PriceRangeSchema | null;
 	/** Option Count */
 	option_count?: number | null;
+}
+
+/**
+ * ReconciliationTotals
+ * Grand totals across the *whole filtered set*, not just the page.
+ *
+ * Only ledger-derived figures appear here. Planned totals are deliberately
+ * absent: they require re-pricing every matching snapshot, and a number that
+ * silently covered only the current page would be worse than no number.
+ */
+export interface ReconciliationTotalsInput {
+	/** Revenue Accrued */
+	revenue_accrued: number | string;
+	/** Revenue Settled */
+	revenue_settled: number | string;
+	/** Receivable */
+	receivable: number | string;
+	/** Cost Accrued */
+	cost_accrued: number | string;
+	/** Cost Settled */
+	cost_settled: number | string;
+	/** Payable */
+	payable: number | string;
+	/** Settled Profit */
+	settled_profit: number | string;
+	/** Accrual Profit */
+	accrual_profit: number | string;
+}
+
+/**
+ * ReconciliationTotals
+ * Grand totals across the *whole filtered set*, not just the page.
+ *
+ * Only ledger-derived figures appear here. Planned totals are deliberately
+ * absent: they require re-pricing every matching snapshot, and a number that
+ * silently covered only the current page would be worse than no number.
+ */
+export interface ReconciliationTotalsOutput {
+	/**
+	 * Revenue Accrued
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	revenue_accrued: string;
+	/**
+	 * Revenue Settled
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	revenue_settled: string;
+	/**
+	 * Receivable
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	receivable: string;
+	/**
+	 * Cost Accrued
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	cost_accrued: string;
+	/**
+	 * Cost Settled
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	cost_settled: string;
+	/**
+	 * Payable
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	payable: string;
+	/**
+	 * Settled Profit
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	settled_profit: string;
+	/**
+	 * Accrual Profit
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	accrual_profit: string;
 }
 
 /** RecurrenceDateModel */
@@ -6417,12 +7237,6 @@ export interface SupplementaryDetailsOutput {
 	item?: SupplementaryItemOutput[];
 }
 
-/** SupplementaryDetailsPubSchema */
-export interface SupplementaryDetailsPubSchema {
-	/** Item */
-	item?: SupplementaryItemPubSchema[] | null;
-}
-
 /** SupplementaryEvent */
 export interface SupplementaryEventInput {
 	/**
@@ -6469,46 +7283,6 @@ export interface SupplementaryEventOutput {
 	 */
 	typ?: "supplementary";
 	details?: SupplementaryDetailsOutput | null;
-}
-
-/** SupplementaryEventPubRead */
-export interface SupplementaryEventPubReadInput {
-	/** Name */
-	name?: string | null;
-	/** Description */
-	description?: string | null;
-	/** Day */
-	day?: number | null;
-	/** Position */
-	position?: number | null;
-	/** Is Optional */
-	is_optional?: boolean | null;
-	/**
-	 * Typ
-	 * @default "supplementary"
-	 */
-	typ?: "supplementary";
-	details?: SupplementaryDetailsPubSchema | null;
-}
-
-/** SupplementaryEventPubRead */
-export interface SupplementaryEventPubReadOutput {
-	/** Name */
-	name?: string | null;
-	/** Description */
-	description?: string | null;
-	/** Day */
-	day?: number | null;
-	/** Position */
-	position?: number | null;
-	/** Is Optional */
-	is_optional?: boolean | null;
-	/**
-	 * Typ
-	 * @default "supplementary"
-	 */
-	typ?: "supplementary";
-	details?: SupplementaryDetailsPubSchema | null;
 }
 
 /** SupplementaryEventTypeRead */
@@ -6609,12 +7383,6 @@ export interface SupplementaryItemOutput {
 		| null;
 }
 
-/** SupplementaryItemPubSchema */
-export interface SupplementaryItemPubSchema {
-	/** Name */
-	name?: string | null;
-}
-
 /** SupplementarySingleEvent */
 export interface SupplementarySingleEventInput {
 	/**
@@ -6711,6 +7479,25 @@ export interface SupplierCreateSchema {
 	supplier_type: SupplierType;
 }
 
+/**
+ * SupplierLineTally
+ * Counts behind the payable figure, so a row explains itself: how many
+ * event lines exist, how many are settled, and how many are still filed under
+ * no supplier at all.
+ */
+export interface SupplierLineTally {
+	/** Total */
+	total: number;
+	/** Paid */
+	paid: number;
+	/** Unpaid */
+	unpaid: number;
+	/** Unassigned Supplier */
+	unassigned_supplier: number;
+	/** Unpriced */
+	unpriced: number;
+}
+
 /** SupplierListResponse */
 export interface SupplierListResponse {
 	/** Total Count */
@@ -6746,6 +7533,118 @@ export interface SupplierModel {
 	deleted_at: string | null;
 }
 
+/** SupplierPaymentListResponse */
+export interface SupplierPaymentListResponse {
+	/** Total Count */
+	total_count: number;
+	/** Data */
+	data: SupplierPaymentListRowOutput[];
+}
+
+/**
+ * SupplierPaymentListRow
+ * One row of the browse table — enough to render, filter and sort, nothing
+ * more.
+ *
+ * The receipt is reduced to ``has_receipt`` because the signed URL expires in
+ * 900s and a list can stay open far longer than that; ``rate``, ``note`` and
+ * the receipt itself are read from the detail call when a row is opened.
+ *
+ * Check:
+ * - ``GET /operator/supplier-payment/{payment_id}`` for the full row
+ */
+export interface SupplierPaymentListRowInput {
+	/**
+	 * Payment Id
+	 * @format uuid
+	 */
+	payment_id: string;
+	/**
+	 * Booking Id
+	 * @format uuid
+	 */
+	booking_id: string;
+	/** Order Number */
+	order_number: string;
+	/**
+	 * Event Id
+	 * @format uuid
+	 */
+	event_id: string;
+	/** Event Name */
+	event_name: string | null;
+	event_typ: EventTypes | null;
+	/** Supplier Id */
+	supplier_id: string | null;
+	/** Supplier Name */
+	supplier_name: string | null;
+	/** Amount */
+	amount: number | string;
+	currency: Currency;
+	/** Base Amount */
+	base_amount: number | string;
+	/** Has Receipt */
+	has_receipt: boolean;
+	status: SupplierPaymentStatus;
+	/** Paid At */
+	paid_at: string | null;
+}
+
+/**
+ * SupplierPaymentListRow
+ * One row of the browse table — enough to render, filter and sort, nothing
+ * more.
+ *
+ * The receipt is reduced to ``has_receipt`` because the signed URL expires in
+ * 900s and a list can stay open far longer than that; ``rate``, ``note`` and
+ * the receipt itself are read from the detail call when a row is opened.
+ *
+ * Check:
+ * - ``GET /operator/supplier-payment/{payment_id}`` for the full row
+ */
+export interface SupplierPaymentListRowOutput {
+	/**
+	 * Payment Id
+	 * @format uuid
+	 */
+	payment_id: string;
+	/**
+	 * Booking Id
+	 * @format uuid
+	 */
+	booking_id: string;
+	/** Order Number */
+	order_number: string;
+	/**
+	 * Event Id
+	 * @format uuid
+	 */
+	event_id: string;
+	/** Event Name */
+	event_name: string | null;
+	event_typ: EventTypes | null;
+	/** Supplier Id */
+	supplier_id: string | null;
+	/** Supplier Name */
+	supplier_name: string | null;
+	/**
+	 * Amount
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	amount: string;
+	currency: Currency;
+	/**
+	 * Base Amount
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	base_amount: string;
+	/** Has Receipt */
+	has_receipt: boolean;
+	status: SupplierPaymentStatus;
+	/** Paid At */
+	paid_at: string | null;
+}
+
 /**
  * SupplierPaymentResponse
  * Adds ``base_amount`` — the real cost converted into the operator's base
@@ -6754,10 +7653,10 @@ export interface SupplierModel {
  */
 export interface SupplierPaymentResponse {
 	/**
-	 * Id
+	 * Payment Id
 	 * @format uuid
 	 */
-	id: string;
+	payment_id: string;
 	/**
 	 * Operator Id
 	 * @format uuid
@@ -6954,13 +7853,17 @@ export interface TourListResponse {
 	/** Total Count */
 	total_count: number;
 	/** Data */
-	data: TourMetaModel[];
+	data: TourMetaResponse[];
 }
 
 /** TourMetaCreateSchema */
 export interface TourMetaCreateSchema {
-	/** Name */
-	name: string;
+	/**
+	 * Title
+	 * @minLength 1
+	 * @maxLength 255
+	 */
+	title: string;
 	/**
 	 * Days
 	 * @min 1
@@ -7000,13 +7903,28 @@ export interface TourMetaCreateSchema {
 	languages?: LanguageCode[];
 }
 
-/** TourMetaModel */
-export interface TourMetaModel {
+/**
+ * TourMetaResponse
+ * ``tour_meta`` joined to its landing page, which owns the tour title. The
+ * tour row itself carries no text — every reader that used to select
+ * ``tour_meta.name`` now reads ``landing_page.title`` through this shape.
+ */
+export interface TourMetaResponse {
 	/**
 	 * Id
 	 * @format uuid
 	 */
 	id: string;
+	/**
+	 * Created At
+	 * @format date-time
+	 */
+	created_at: string;
+	/**
+	 * Updated At
+	 * @format date-time
+	 */
+	updated_at: string;
 	/**
 	 * Operator Id
 	 * @format uuid
@@ -7018,8 +7936,8 @@ export interface TourMetaModel {
 	agency_id: string | null;
 	/** Landing Id */
 	landing_id: string | null;
-	/** Name */
-	name: string;
+	/** Title */
+	title: string | null;
 	/** Cover Image Path */
 	cover_image_path: string | null;
 	/** Group Size */
@@ -7044,10 +7962,13 @@ export interface TourMetaModel {
 	languages: LanguageCode[];
 }
 
-/** TourMetaUpdateSchema */
+/**
+ * TourMetaUpdateSchema
+ * The tour title is not here on purpose: it lives on ``landing_page.title``
+ * and is renamed through ``PATCH /tour/{tour_id}/landing``, which is also where
+ * the per-operator uniqueness check and the translation re-run hang off.
+ */
 export interface TourMetaUpdateSchema {
-	/** Name */
-	name?: string | null;
 	typ?: TourType | null;
 	/** Agency Id */
 	agency_id?: string | null;
@@ -7324,17 +8245,11 @@ export interface TourOptionPublicResponse {
 						typ: "flight";
 				  } & FlightEventPubReadOutput)
 				| ({
-						typ: "guide";
-				  } & GuideEventPubReadOutput)
-				| ({
 						typ: "housing";
 				  } & HousingEventPubReadOutput)
 				| ({
 						typ: "ref";
 				  } & InformationEventPubReadOutput)
-				| ({
-						typ: "supplementary";
-				  } & SupplementaryEventPubReadOutput)
 				| ({
 						typ: "train";
 				  } & TrainEventPubReadOutput)
@@ -7545,6 +8460,21 @@ export interface TourSnapshotSchemaOutput {
  * - ``real_cost`` — actually recorded supplier-payment ledger, FX-converted to
  *   base (amount × pinned rate). Captures real cost + exchange differences.
  * - ``real_profit`` = confirmed_revenue − real_cost (real-time performance).
+ *
+ * Cash-basis figures come off the money ledger and answer a different question
+ * — not what was agreed, but what has actually moved. They span every booking
+ * on the tour regardless of status, because a cancelled order can still leave
+ * a retained deposit or an already-paid supplier on the books, and dropping
+ * those would overstate the tour's position:
+ *
+ * - ``revenue_accrued`` / ``cost_accrued`` — billed and committed. These are
+ *   the ledger's own restatement of the two accrual figures above and should
+ *   track them; a gap means an invoice or supplier payment bypassed a seam.
+ * - ``revenue_settled`` / ``cost_settled`` — cash received and cash paid out.
+ * - ``receivable`` — still owed to the operator by agencies and tourists.
+ * - ``payable`` — still owed by the operator to suppliers.
+ * - ``settled_profit`` = revenue_settled − cost_settled: margin in hand, as
+ *   opposed to ``real_profit``, which is margin on paper.
  */
 export interface TourStatisticsResponse {
 	/**
@@ -7621,6 +8551,48 @@ export interface TourStatisticsResponse {
 	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
 	 */
 	real_profit?: string;
+	/**
+	 * Revenue Accrued
+	 * @default "0"
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	revenue_accrued?: string;
+	/**
+	 * Revenue Settled
+	 * @default "0"
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	revenue_settled?: string;
+	/**
+	 * Receivable
+	 * @default "0"
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	receivable?: string;
+	/**
+	 * Cost Accrued
+	 * @default "0"
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	cost_accrued?: string;
+	/**
+	 * Cost Settled
+	 * @default "0"
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	cost_settled?: string;
+	/**
+	 * Payable
+	 * @default "0"
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	payable?: string;
+	/**
+	 * Settled Profit
+	 * @default "0"
+	 * @pattern ^(?!^[-+.]*$)[+-]?0*\d*\.?\d*$
+	 */
+	settled_profit?: string;
 	/** @default "USD" */
 	currency?: Currency;
 }
@@ -7755,6 +8727,11 @@ export interface TrainEventPubReadInput {
 	/** Is Optional */
 	is_optional?: boolean | null;
 	/**
+	 * Date
+	 * Calendar date this event falls on, computed as the booking's departure date plus ``day - 1``. Null in the catalogue, where a template tour has no departure date to anchor against.
+	 */
+	date?: string | null;
+	/**
 	 * Typ
 	 * @default "train"
 	 */
@@ -7774,6 +8751,11 @@ export interface TrainEventPubReadOutput {
 	position?: number | null;
 	/** Is Optional */
 	is_optional?: boolean | null;
+	/**
+	 * Date
+	 * Calendar date this event falls on, computed as the booking's departure date plus ``day - 1``. Null in the catalogue, where a template tour has no departure date to anchor against.
+	 */
+	date?: string | null;
 	/**
 	 * Typ
 	 * @default "train"
@@ -8233,6 +9215,11 @@ export interface TransferEventPubReadInput {
 	/** Is Optional */
 	is_optional?: boolean | null;
 	/**
+	 * Date
+	 * Calendar date this event falls on, computed as the booking's departure date plus ``day - 1``. Null in the catalogue, where a template tour has no departure date to anchor against.
+	 */
+	date?: string | null;
+	/**
 	 * Typ
 	 * @default "transfer"
 	 */
@@ -8252,6 +9239,11 @@ export interface TransferEventPubReadOutput {
 	position?: number | null;
 	/** Is Optional */
 	is_optional?: boolean | null;
+	/**
+	 * Date
+	 * Calendar date this event falls on, computed as the booking's departure date plus ``day - 1``. Null in the catalogue, where a template tour has no departure date to anchor against.
+	 */
+	date?: string | null;
 	/**
 	 * Typ
 	 * @default "transfer"
@@ -8627,8 +9619,10 @@ export interface ListPublicCatalogTourCatalogPublicGetParams {
 	city?: string | null;
 	/** Country */
 	country?: string | null;
-	/** Language */
-	language?: LanguageCode | null;
+	/** Tour Lang */
+	tour_lang?: LanguageCode | null;
+	/** @default "en" */
+	read_lang?: LanguageCode;
 	/**
 	 * Skip
 	 * @min 0
@@ -8659,8 +9653,10 @@ export interface ListAgencyCatalogTourCatalogAgencyGetParams {
 	city?: string | null;
 	/** Country */
 	country?: string | null;
-	/** Language */
-	language?: LanguageCode | null;
+	/** Tour Lang */
+	tour_lang?: LanguageCode | null;
+	/** @default "en" */
+	read_lang?: LanguageCode;
 	/**
 	 * Skip
 	 * @min 0
@@ -9698,6 +10694,8 @@ export interface SetPrimaryLandingImageTourTourIdLandingImagesImageIdSetPrimaryP
 }
 
 export interface GetTourTourTourIdPublicGetParams {
+	/** @default "en" */
+	read_lang?: LanguageCode;
 	/**
 	 * Tour Id
 	 * @format uuid
@@ -10316,6 +11314,75 @@ export interface RemoveAgencyDocumentAgencyMeDocumentsFileIdDeleteParams {
 	fileId: string;
 }
 
+export interface ListBookingAvailabilityBookingOrderOperatorBookingIdAvailabilityGetParams {
+	/**
+	 * Booking Id
+	 * @format uuid
+	 */
+	bookingId: string;
+}
+
+export interface ApplyEventAvailabilityBookingOrderOperatorBookingIdEventsEventIdOptionsOptionIndexAvailabilityPatchParams {
+	/**
+	 * Booking Id
+	 * @format uuid
+	 */
+	bookingId: string;
+	/**
+	 * Event Id
+	 * @format uuid
+	 */
+	eventId: string;
+	/** Option Index */
+	optionIndex: number;
+}
+
+export interface GetUserBookingOrderBookingOrderUserBookingIdGetParams {
+	/** @default "en" */
+	lang?: LanguageCode;
+	/**
+	 * Booking Id
+	 * @format uuid
+	 */
+	bookingId: string;
+}
+
+export interface GetAgencyBookingOrderBookingOrderAgencyBookingIdGetParams {
+	/** @default "en" */
+	lang?: LanguageCode;
+	/**
+	 * Booking Id
+	 * @format uuid
+	 */
+	bookingId: string;
+}
+
+export interface GetOperatorBookingOrderBookingOrderOperatorBookingIdGetParams {
+	/** @default "en" */
+	lang?: LanguageCode;
+	/**
+	 * Booking Id
+	 * @format uuid
+	 */
+	bookingId: string;
+}
+
+export interface GetOperatorOrderFinancialsBookingOrderOperatorBookingIdFinancialsGetParams {
+	/**
+	 * Booking Id
+	 * @format uuid
+	 */
+	bookingId: string;
+}
+
+export interface GetOperatorOrderVarianceBookingOrderOperatorBookingIdVarianceGetParams {
+	/**
+	 * Booking Id
+	 * @format uuid
+	 */
+	bookingId: string;
+}
+
 export interface GetOperatorBookingItineraryBookingOrderOperatorBookingIdItineraryGetParams {
 	/**
 	 * Booking Id
@@ -10339,29 +11406,6 @@ export interface DeclineBookingBookingOrderOperatorBookingIdDeclinePostParams {
 	 * @format uuid
 	 */
 	bookingId: string;
-}
-
-export interface ListBookingAvailabilityBookingOrderOperatorBookingIdAvailabilityGetParams {
-	/**
-	 * Booking Id
-	 * @format uuid
-	 */
-	bookingId: string;
-}
-
-export interface ApplyEventAvailabilityBookingOrderOperatorBookingIdEventsEventIdOptionsOptionIndexAvailabilityPatchParams {
-	/**
-	 * Booking Id
-	 * @format uuid
-	 */
-	bookingId: string;
-	/**
-	 * Event Id
-	 * @format uuid
-	 */
-	eventId: string;
-	/** Option Index */
-	optionIndex: number;
 }
 
 export interface ListMyBookingsBookingOrderMyGetParams {
@@ -10390,9 +11434,15 @@ export interface ListMyBookingsBookingOrderMyGetParams {
 	limit?: number;
 }
 
-export interface GetBookingOrderBookingOrderBookingIdGetParams {
-	/** @default "en" */
-	lang?: LanguageCode;
+export interface GetBookingItineraryBookingOrderBookingIdItineraryGetParams {
+	/**
+	 * Booking Id
+	 * @format uuid
+	 */
+	bookingId: string;
+}
+
+export interface SubmitBookingOrderBookingOrderBookingIdSubmitPatchParams {
 	/**
 	 * Booking Id
 	 * @format uuid
@@ -10409,22 +11459,6 @@ export interface UpdateBookingOrderBookingOrderBookingIdPatchParams {
 }
 
 export interface DeleteBookingOrderBookingOrderBookingIdDeleteParams {
-	/**
-	 * Booking Id
-	 * @format uuid
-	 */
-	bookingId: string;
-}
-
-export interface GetBookingItineraryBookingOrderBookingIdItineraryGetParams {
-	/**
-	 * Booking Id
-	 * @format uuid
-	 */
-	bookingId: string;
-}
-
-export interface SubmitBookingOrderBookingOrderBookingIdSubmitPatchParams {
 	/**
 	 * Booking Id
 	 * @format uuid
@@ -10703,6 +11737,42 @@ export interface DownloadAttachmentBookingPaymentPaymentIdAttachmentGetParams {
 	paymentId: string;
 }
 
+export interface ListBookingReconciliationBookingReconciliationGetParams {
+	/** Status */
+	status?: BookingStatus | null;
+	/** Tour Id */
+	tour_id?: string | null;
+	/** Date From */
+	date_from?: string | null;
+	/** Date To */
+	date_to?: string | null;
+	/**
+	 * Outstanding Only
+	 * @default false
+	 */
+	outstanding_only?: boolean;
+	/**
+	 * Payable Only
+	 * @default false
+	 */
+	payable_only?: boolean;
+	/** Q */
+	q?: string | null;
+	/**
+	 * Skip
+	 * @min 0
+	 * @default 0
+	 */
+	skip?: number;
+	/**
+	 * Limit
+	 * @min 1
+	 * @max 100
+	 * @default 10
+	 */
+	limit?: number;
+}
+
 export interface UploadVoucherBookingVoucherBookingIdPostParams {
 	/**
 	 * Booking Id
@@ -10777,6 +11847,72 @@ export interface RecordInvoicePaymentInvoiceInvoiceIdPaymentPostParams {
 	 * @format uuid
 	 */
 	invoiceId: string;
+}
+
+export interface ListLedgerEntriesLedgerOperatorGetParams {
+	/** Booking Id */
+	booking_id?: string | null;
+	/** Party Typ */
+	party_typ?: LedgerParty | null;
+	/** Party Id */
+	party_id?: string | null;
+	/** Flow */
+	flow?: LedgerFlow | null;
+	/** Typ */
+	typ?: LedgerEntryType | null;
+	/** Source */
+	source?: LedgerSource | null;
+	/** Occurred From */
+	occurred_from?: string | null;
+	/** Occurred To */
+	occurred_to?: string | null;
+	/** Q */
+	q?: string | null;
+	/**
+	 * Skip
+	 * @min 0
+	 * @default 0
+	 */
+	skip?: number;
+	/**
+	 * Limit
+	 * @min 1
+	 * @max 100
+	 * @default 10
+	 */
+	limit?: number;
+}
+
+export interface ListDebtorsLedgerOperatorDebtorsGetParams {
+	/**
+	 * Skip
+	 * @min 0
+	 * @default 0
+	 */
+	skip?: number;
+	/**
+	 * Limit
+	 * @min 1
+	 * @max 100
+	 * @default 10
+	 */
+	limit?: number;
+}
+
+export interface ListCreditorsLedgerOperatorCreditorsGetParams {
+	/**
+	 * Skip
+	 * @min 0
+	 * @default 0
+	 */
+	skip?: number;
+	/**
+	 * Limit
+	 * @min 1
+	 * @max 100
+	 * @default 10
+	 */
+	limit?: number;
 }
 
 export interface SearchGeoSearchGetParams {

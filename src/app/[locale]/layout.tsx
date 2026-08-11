@@ -19,7 +19,11 @@ import {
 
 import { AuthBootstrap } from "@/features/auth";
 
-import { FooterDefault, HeaderDefault } from "@/widgets/layouts/default";
+import {
+	FooterDefault,
+	HeaderDefault,
+	LocaleShell
+} from "@/widgets/layouts/default";
 
 import Providers from "../__providers";
 
@@ -107,29 +111,44 @@ export default async function LocaleLayout({ children, params }: TProps) {
 				<Providers>
 					<NextIntlClientProvider locale={locale} timeZone="UTC">
 						<UiContentProvider value={uiContent}>
-							<HeaderDefault
-								navItems={layoutNavigation.navItems}
-								destinationsNav={
-									layoutNavigation.destinationsNav
-								}
-								routesNav={layoutNavigation.routesNav}
-								experiencesNav={layoutNavigation.experiencesNav}
-								informationNav={layoutNavigation.informationNav}
-								logoSrc={layoutNavigation.logoSrc}
-								dropdownLanguages={dropdownLanguages}
-								brandName={uiContent.footer.brand.name}
-								userMenuItems={layoutNavigation.userMenuItems}
-							/>
 							<AuthBootstrap />
-							<main className="mx-auto flex w-full max-w-7xl flex-1 flex-col px-4 pb-16 sm:px-6 sm:pb-20 lg:px-8">
+							<LocaleShell
+								header={
+									<HeaderDefault
+										navItems={layoutNavigation.navItems}
+										destinationsNav={
+											layoutNavigation.destinationsNav
+										}
+										routesNav={layoutNavigation.routesNav}
+										experiencesNav={
+											layoutNavigation.experiencesNav
+										}
+										informationNav={
+											layoutNavigation.informationNav
+										}
+										logoSrc={layoutNavigation.logoSrc}
+										dropdownLanguages={dropdownLanguages}
+										brandName={uiContent.footer.brand.name}
+										userMenuItems={
+											layoutNavigation.userMenuItems
+										}
+									/>
+								}
+								footer={
+									<FooterDefault
+										columns={layoutNavigation.footerColumns}
+										socialLinks={
+											layoutNavigation.socialLinks
+										}
+										copyrightText={
+											layoutNavigation.copyrightText
+										}
+										uiTexts={uiContent.footer}
+									/>
+								}
+							>
 								{children}
-							</main>
-							<FooterDefault
-								columns={layoutNavigation.footerColumns}
-								socialLinks={layoutNavigation.socialLinks}
-								copyrightText={layoutNavigation.copyrightText}
-								uiTexts={uiContent.footer}
-							/>
+							</LocaleShell>
 						</UiContentProvider>
 					</NextIntlClientProvider>
 				</Providers>

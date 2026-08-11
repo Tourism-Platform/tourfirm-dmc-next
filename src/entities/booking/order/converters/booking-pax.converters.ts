@@ -7,6 +7,8 @@ import type {
 	TBookingPaxBackend,
 	TBookingPaxListBackendResponse,
 	TPaxCreateBackend,
+	TPaxReviewDetail,
+	TPaxReviewItem,
 	TPaxUpdateBackend
 } from "../types";
 
@@ -81,6 +83,44 @@ export const mapBookingPaxToTravellerForm = (
 export const mapBookingPaxListToFrontend = (
 	response: TBookingPaxListBackendResponse
 ): IBookingPax[] => response.data.map(mapBookingPaxToFrontend);
+
+export const mapBookingPaxToPaxReviewItem = (
+	pax: IBookingPax
+): TPaxReviewItem => {
+	const items: TPaxReviewDetail[] = [];
+
+	if (pax.comment) {
+		items.push({
+			id: `${pax.id}-comment`,
+			type: "comment",
+			value: pax.comment
+		});
+	}
+
+	for (const file of pax.files) {
+		items.push({
+			id: file.id,
+			type: "file",
+			value: file.fileName,
+			file: { id: file.id, fileName: file.fileName }
+		});
+	}
+
+	return {
+		id: pax.id,
+		fullName: pax.name,
+		gender: pax.gender,
+		nationality: pax.nationality,
+		dateOfBirth: pax.dateOfBirth,
+		passportNumber: pax.passportNum,
+		expiredDate: pax.passportExpiryDate,
+		items
+	};
+};
+
+export const mapBookingPaxListToPaxReview = (
+	data: IBookingPax[]
+): TPaxReviewItem[] => data.map(mapBookingPaxToPaxReviewItem);
 
 const isTravellerFieldsComplete = (traveller: ITravellerPaxInput) =>
 	Boolean(

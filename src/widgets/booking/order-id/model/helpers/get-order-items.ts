@@ -1,11 +1,11 @@
 import type { TUiOrders } from "@/shared/ui-content";
 
-import { type IOrderDetail } from "@/entities/booking";
+import { type IUserOrderDetail } from "@/entities/booking";
 
 import { type IInfoItem } from "../types";
 
 export const getOrderItems = (
-	order: IOrderDetail,
+	order: IUserOrderDetail,
 	fields: TUiOrders["orderInfo"]["fields"]
 ): IInfoItem[] => [
 	{

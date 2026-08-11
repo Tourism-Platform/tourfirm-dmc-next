@@ -2,7 +2,7 @@ import type { TPublicTourCatalogSchema } from "@/shared/api";
 
 const baseTour = (
 	partial: Partial<TPublicTourCatalogSchema> &
-		Pick<TPublicTourCatalogSchema, "tour_id" | "name" | "cover_image_url">
+		Pick<TPublicTourCatalogSchema, "tour_id" | "title" | "cover_image_url">
 ): TPublicTourCatalogSchema => ({
 	description: partial.description ?? null,
 	days: partial.days ?? 2,
@@ -30,7 +30,7 @@ const baseTour = (
 export const POPULAR_TOURS_MOCK: TPublicTourCatalogSchema[] = [
 	baseTour({
 		tour_id: "popular-tour-1",
-		name: "Tour to Fergana Valley",
+		title: "Tour to Fergana Valley",
 		cover_image_url: "/assets/images/city/fergana.jpg",
 		description:
 			"Discover the heart of the Fergana Valley with its silk workshops and mountain landscapes.",
@@ -39,7 +39,7 @@ export const POPULAR_TOURS_MOCK: TPublicTourCatalogSchema[] = [
 	}),
 	baseTour({
 		tour_id: "popular-tour-2",
-		name: "Samarkand Night Tour",
+		title: "Samarkand Night Tour",
 		cover_image_url: "/assets/images/city/samarkand.jpg",
 		description:
 			"Experience the magic of Samarkand's illuminated monuments under the starlit sky.",
@@ -50,7 +50,7 @@ export const POPULAR_TOURS_MOCK: TPublicTourCatalogSchema[] = [
 	}),
 	baseTour({
 		tour_id: "popular-tour-3",
-		name: "Bukhara Bazaar Walk",
+		title: "Bukhara Bazaar Walk",
 		cover_image_url: "/assets/images/city/bukhara.jpg",
 		description:
 			"A guided walk through the ancient trading domes and vibrant spice markets of Bukhara.",
@@ -62,7 +62,7 @@ export const POPULAR_TOURS_MOCK: TPublicTourCatalogSchema[] = [
 	}),
 	baseTour({
 		tour_id: "popular-tour-4",
-		name: "Khiva Sunrise Masterclass",
+		title: "Khiva Sunrise Masterclass",
 		cover_image_url: "/assets/images/city/khiva.jpg",
 		description:
 			"Capture the first light on the minarets of Khiva followed by a traditional bread-making workshop.",

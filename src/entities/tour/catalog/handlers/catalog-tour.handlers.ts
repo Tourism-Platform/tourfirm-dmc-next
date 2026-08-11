@@ -50,7 +50,7 @@ export const tourCatalogHandlers = [
 
 		if (q) {
 			filteredTours = filteredTours.filter((tour) =>
-				tour.name.toLowerCase().includes(q)
+				(tour.title ?? "").toLowerCase().includes(q)
 			);
 		}
 

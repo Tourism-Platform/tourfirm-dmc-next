@@ -16,16 +16,26 @@
 		"completed": "Yakunlangan",
 		"cancelled": "Bekor qilingan"
 	},
+	"invoice_statuses": {
+		"draft": "Qoralama",
+		"sent": "Yuborilgan",
+		"partial": "Qisman",
+		"paid": "To'langan",
+		"overdue": "Muddati o'tgan",
+		"cancelled": "Bekor qilingan"
+	},
 	"toasts": {
 		"load": {
 			"error": "Buyurtmalarni yuklab bo'lmadi"
 		}
 	},
 	"buttons": {
-		"back": "Orqaga"
+		"back": "Orqaga",
+		"export": "Eksport"
 	},
 	"header": {
-		"order_status": "Buyurtma holati"
+		"order_status": "Buyurtma holati",
+		"invoice_status": "Hisob-faktura holati"
 	},
 	"order_info": {
 		"title": "Buyurtma ma'lumoti",
@@ -47,6 +57,15 @@
 			"phone": "Telefon"
 		}
 	},
+	"report": {
+		"title": "Hisobot"
+	},
+	"tour_review": {
+		"title": "Tur dasturi",
+		"table": {
+			"item": "Element"
+		}
+	},
 	"not_found": {
 		"title": "Buyurtma topilmadi",
 		"description": "Ushbu ID bo'yicha buyurtma topilmadi. Ma'lumotni tekshiring yoki ro'yxatga qayting."
@@ -61,6 +80,7 @@
 			"passport_number": "Pasport №",
 			"expired_date": "Amal qilish muddati",
 			"comment": "Izoh",
+			"file": "Fayl",
 			"genders": {
 				"male": "Erkak",
 				"female": "Ayol"

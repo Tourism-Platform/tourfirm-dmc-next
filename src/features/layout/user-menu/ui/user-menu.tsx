@@ -2,7 +2,7 @@
 
 import { Login3Icon } from "@solar-icons/react/outline";
 import { Loader, LogOutIcon } from "lucide-react";
-import type { FC } from "react";
+import { type FC, useSyncExternalStore } from "react";
 
 import { ENUM_PATH } from "@/shared/config";
 import { useAppSelector } from "@/shared/hooks";
@@ -32,6 +32,8 @@ import { useSignOutAction } from "@/features/auth";
 type TProps = {
 	items: TResolvedUserMenuItem[];
 };
+
+const emptySubscribe = () => () => {};
 
 function getDisplayName(
 	firstName: string | undefined,
@@ -69,12 +71,27 @@ function getInitials(
 export const UserMenu: FC<TProps> = ({ items }) => {
 	const { header } = useUiContent();
 	const { userMenu } = header;
+	const isMounted = useSyncExternalStore(
+		emptySubscribe,
+		() => true,
+		() => false
+	);
 	const isAuth = useAppSelector((state) => state.userSlice.isAuth);
 	const { handleSignOut, isLoading: isSigningOut } = useSignOutAction();
 	const { data: authAccount, isLoading: isAuthLoading } =
-		useGetAuthAccountQuery(undefined, { skip: !isAuth });
+		useGetAuthAccountQuery(undefined, { skip: !isAuth || !isMounted });
 	const { data: accountData, isLoading: isAccountLoading } =
-		useGetAccountQuery(undefined, { skip: !isAuth });
+		useGetAccountQuery(undefined, { skip: !isAuth || !isMounted });
+
+	// SSR + first client paint must match: isAuth comes from localStorage on client only.
+	if (!isMounted) {
+		return (
+			<Skeleton
+				className="size-9 rounded-md md:min-w-28 md:h-9"
+				aria-hidden
+			/>
+		);
+	}
 
 	if (!isAuth) {
 		return (
