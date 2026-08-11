@@ -105,8 +105,8 @@ export default async function LocaleLayout({ children, params }: TProps) {
 				<Providers>
 					<NextIntlClientProvider locale={locale} timeZone="UTC">
 						<UiContentProvider value={uiContent}>
-							<AuthBootstrap />
 							<Suspense fallback={null}>
+								<AuthBootstrap />
 								<GoogleCallbackRedirector />
 							</Suspense>
 							<LocaleShell

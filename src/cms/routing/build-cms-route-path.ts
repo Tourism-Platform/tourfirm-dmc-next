@@ -1,3 +1,5 @@
+import { DEFAULT_LOCALE } from "@config/supported-locales";
+
 import { ENUM_PATH } from "@/shared/config";
 
 import { getRouteDefinition } from "./collection-route.registry";
@@ -16,7 +18,7 @@ export function buildCmsRoutePath(
 	const slug = params?.slug;
 	const path = slug ? `${base}/${slug}` : base;
 
-	if (params?.locale) {
+	if (params?.locale && params.locale !== DEFAULT_LOCALE) {
 		return `/${params.locale}${path}`;
 	}
 

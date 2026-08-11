@@ -1,3 +1,4 @@
+import { DEFAULT_LOCALE } from "@config/supported-locales";
 import type { Metadata } from "next";
 
 import { ENV } from "@/shared/config";
@@ -14,6 +15,10 @@ type TCreatePageMetadataParams = {
 
 export function buildPageUrl(locale: string, path = "/"): string {
 	const normalizedPath = path === "/" ? "" : path;
+
+	if (locale === DEFAULT_LOCALE) {
+		return `${ENV.SITE_URL}${normalizedPath}`;
+	}
 
 	return `${ENV.SITE_URL}/${locale}${normalizedPath}`;
 }
@@ -32,6 +37,9 @@ export function createPageMetadata({
 		metadataBase: new URL(ENV.SITE_URL),
 		icons: {
 			icon: FAVICON
+		},
+		alternates: {
+			canonical: url
 		},
 		openGraph: {
 			title,
