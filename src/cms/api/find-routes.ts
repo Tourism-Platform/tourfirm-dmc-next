@@ -13,12 +13,15 @@ import {
 import { toGeoLocale } from "./geo-locale";
 import type { Route } from "@/payload-types";
 
-async function resolveRouteFilterIds(
-	filters: TRouteListFilters
-): Promise<{ themeId?: number; countryId?: number }> {
+async function resolveRouteFilterIds(filters: TRouteListFilters): Promise<{
+	themeId?: number;
+	countryId?: number;
+}> {
 	const payload = await getPayload({ config });
-	const result: { themeId?: number; countryId?: number } = {};
-
+	const result: {
+		themeId?: number;
+		countryId?: number;
+	} = {};
 	if (filters.theme) {
 		const themeResult = await payload.find({
 			collection: "themes",
@@ -32,7 +35,6 @@ async function resolveRouteFilterIds(
 			result.themeId = themeId;
 		}
 	}
-
 	if (filters.country) {
 		const countryResult = await payload.find({
 			collection: "countries",
@@ -46,45 +48,38 @@ async function resolveRouteFilterIds(
 			result.countryId = countryId;
 		}
 	}
-
 	return result;
 }
-
 function buildRouteWhere(
 	filters: TRouteListFilters,
-	ids: { themeId?: number; countryId?: number }
+	ids: {
+		themeId?: number;
+		countryId?: number;
+	}
 ): Where {
 	const and: Where[] = [{ _status: { equals: "published" } }];
-
 	if (filters.theme && ids.themeId) {
 		and.push({ themes: { contains: ids.themeId } });
 	}
-
 	if (filters.country && ids.countryId) {
 		and.push({ countries: { contains: ids.countryId } });
 	}
-
 	if (filters.scope) {
 		and.push({ routeScope: { equals: filters.scope } });
 	}
-
 	if (filters.featured) {
 		and.push({ featured: { equals: true } });
 	}
-
 	return { and };
 }
-
 async function fetchRoutes(
 	locale: string,
 	filtersKey: string
 ): Promise<TDiscoveryListResult<Route>> {
 	const filters = JSON.parse(filtersKey) as TRouteListFilters;
-
 	try {
 		const payload = await getPayload({ config });
 		const ids = await resolveRouteFilterIds(filters);
-
 		const result = await payload.find({
 			collection: "routes",
 			locale: toGeoLocale(locale),
@@ -95,7 +90,6 @@ async function fetchRoutes(
 			sort: ["sortOrder", "title"],
 			where: buildRouteWhere(filters, ids)
 		});
-
 		return {
 			docs: result.docs,
 			totalDocs: result.totalDocs,
@@ -115,11 +109,9 @@ async function fetchRoutes(
 		};
 	}
 }
-
 const getCachedRoutes = unstable_cache(fetchRoutes, ["routes-list"], {
 	revalidate: 60
 });
-
 export const findRoutes = cache(
 	async (
 		locale: string,
@@ -128,7 +120,6 @@ export const findRoutes = cache(
 		return getCachedRoutes(locale, JSON.stringify(filters));
 	}
 );
-
 export const findFeaturedRoutes = cache(
 	async (locale: string, limit = 3): Promise<Route[]> => {
 		const result = await findRoutes(locale, { featured: true, limit });

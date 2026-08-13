@@ -4,35 +4,37 @@ import { getPayload } from "payload";
 import { cache } from "react";
 import "server-only";
 
+import {
+	DESTINATION_PAGE_DEPTH,
+	DESTINATION_PAGE_SELECT,
+	GEO_FINDER_CACHE_VERSION
+} from "./geo-page-query";
 import { DESTINATION_GLOBAL_CACHE_TAG } from "@/cms/cache/cache-tags";
 import type { Destination } from "@/payload-types";
 
 type TLocale = "en" | "ru" | "uz";
-
 async function fetchDestination(locale: string): Promise<Destination | null> {
 	try {
 		const payload = await getPayload({ config });
-
-		return await payload.findGlobal({
+		return (await payload.findGlobal({
 			slug: "destination",
 			locale: locale as TLocale,
-			depth: 2,
+			depth: DESTINATION_PAGE_DEPTH,
+			select: DESTINATION_PAGE_SELECT,
 			fallbackLocale: "en"
-		});
+		})) as Destination;
 	} catch {
 		return null;
 	}
 }
-
 const getCachedDestination = unstable_cache(
 	fetchDestination,
-	["destination-global"],
+	[`destination-global-${GEO_FINDER_CACHE_VERSION}`],
 	{
 		tags: [DESTINATION_GLOBAL_CACHE_TAG],
 		revalidate: 60
 	}
 );
-
 export const getDestination = cache(
 	async (locale: string): Promise<Destination | null> => {
 		return getCachedDestination(locale);

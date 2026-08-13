@@ -15,14 +15,11 @@ import type { News } from "@/payload-types";
 
 function buildNewsWhere(filters: TNewsListFilters): Where {
 	const and: Where[] = [{ _status: { equals: "published" } }];
-
 	if (filters.featured) {
 		and.push({ featured: { equals: true } });
 	}
-
 	return { and };
 }
-
 async function fetchNews(
 	locale: string,
 	page: number,
@@ -36,7 +33,6 @@ async function fetchNews(
 			limit,
 			...(featured ? { featured: true } : {})
 		};
-
 		const result = await payload.find({
 			collection: "news",
 			locale: toGeoLocale(locale),
@@ -47,7 +43,6 @@ async function fetchNews(
 			sort: ["sortOrder", "-publishDate", "title"],
 			where: buildNewsWhere(filters)
 		});
-
 		return {
 			docs: result.docs,
 			totalDocs: result.totalDocs,
@@ -67,11 +62,9 @@ async function fetchNews(
 		};
 	}
 }
-
 const getCachedNews = unstable_cache(fetchNews, ["news-list"], {
 	revalidate: 60
 });
-
 export const findNews = cache(
 	async (
 		locale: string,
@@ -85,7 +78,6 @@ export const findNews = cache(
 		);
 	}
 );
-
 export const findFeaturedNews = cache(
 	async (locale: string, limit = 3): Promise<News[]> => {
 		const result = await findNews(locale, { featured: true, limit });

@@ -25,4 +25,16 @@ export function buildNavVisibilityWhere(surface: TNavSurface): Where {
 	};
 }
 
+export function isVisibleOnNavSurface(
+	status:
+		| { showInHeader?: boolean | null; showInFooter?: boolean | null }
+		| null
+		| undefined,
+	surface: TNavSurface
+): boolean {
+	const field =
+		surface === "header" ? status?.showInHeader : status?.showInFooter;
+	return field !== false;
+}
+
 export const PUBLISHED_AND_SHOW_IN_HEADER = buildNavVisibilityWhere("header");

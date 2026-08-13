@@ -29,8 +29,7 @@ function isGeoPageKind(
 		kind === "attraction"
 	);
 }
-
-function isManagedDiscoveryRoute(route: TAppRoute): boolean {
+export function isManagedDiscoveryRoute(route: TAppRoute): boolean {
 	return (
 		route.source === "collection" ||
 		(route.source === "cms" &&
@@ -38,11 +37,9 @@ function isManagedDiscoveryRoute(route: TAppRoute): boolean {
 			route.routeKey === "team")
 	);
 }
-
 export async function buildCmsRouteMetadata(
 	route: TAppRoute,
-	locale: string,
-	searchParams?: { page?: string; theme?: string; country?: string }
+	locale: string
 ): Promise<Metadata> {
 	if (route.source === "geo" && isGeoPageKind(route.kind)) {
 		return createCmsPageMetadata({
@@ -51,27 +48,21 @@ export async function buildCmsRouteMetadata(
 			path: route.path
 		});
 	}
-
+	// Hub/detail SEO comes from the CMS document, not list query filters.
 	if (isManagedDiscoveryRoute(route)) {
-		const { data, entityResult } = await loadRouteData(
-			route,
-			locale,
-			searchParams
-		);
+		const { data, entityResult } = await loadRouteData(route, locale);
 		const ctx = createRenderContext({
 			route,
 			data,
 			entityResult,
 			widgetModels: []
 		});
-
 		return createCmsPageMetadata({
 			seo: ctx.metadata.seo,
 			locale,
 			path: ctx.metadata.path
 		});
 	}
-
 	if (route.source === "cms") {
 		return createCmsPageMetadata({
 			seo: route.document.seo ?? {},
@@ -79,17 +70,18 @@ export async function buildCmsRouteMetadata(
 			path: `/${route.document.slug ?? ""}`
 		});
 	}
-
 	return {};
 }
-
 export async function renderCmsRoute(
 	route: TAppRoute,
 	locale: string,
-	searchParams?: { page?: string; theme?: string; country?: string }
+	searchParams?: {
+		page?: string;
+		theme?: string;
+		country?: string;
+	}
 ) {
 	setRequestLocale(locale);
-
 	if (isManagedDiscoveryRoute(route)) {
 		const { data, entityResult } = await loadRouteData(
 			route,
@@ -108,7 +100,6 @@ export async function renderCmsRoute(
 			ctx.runtime,
 			locale
 		);
-
 		return (
 			<>
 				{widgets.beforeCms}
@@ -120,27 +111,22 @@ export async function renderCmsRoute(
 			</>
 		);
 	}
-
 	if (route.source === "geo") {
-		const sections = mapCmsBlocks(route.document.blocks);
+		const sections = await mapCmsBlocks(route.document.blocks);
 		const uiContent = await loadUiContent(locale);
 		const breadcrumbItems = buildGeoBreadcrumbs(
 			route,
 			uiContent.discovery.geoBreadcrumbLabel
 		);
-
 		return <Cms sections={sections} breadcrumbItems={breadcrumbItems} />;
 	}
-
 	if (route.source === "cms" && route.kind === "destination") {
-		const sections = mapCmsBlocks(route.document.blocks);
+		const sections = await mapCmsBlocks(route.document.blocks);
 		return <Destinations sections={sections} />;
 	}
-
 	if (route.source === "cms") {
-		const sections = mapCmsBlocks(route.document.blocks);
+		const sections = await mapCmsBlocks(route.document.blocks);
 		return <CmsPage sections={sections} />;
 	}
-
 	notFound();
 }

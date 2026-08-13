@@ -2,11 +2,14 @@
  * Route strategy: registry-driven discovery routes + CMS destination + geo hierarchy.
  */
 import {
+	isBlockedGeoEntitySlug,
 	isStaticAppRouteSegment,
 	isSystemReservedSegment
 } from "@/shared/config/routes";
+import { buildNavigationGeoPath } from "@/shared/lib/routing/build-navigation-geo-path";
 
 import { getDestination } from "../api/get-destination";
+import { getDestinationSlug } from "../api/get-destination-slug";
 
 import type { TAppRoute } from "./app-route.types";
 import { matchRegistryRoute } from "./collection-route.registry";
@@ -20,6 +23,9 @@ export type { TAppRoute } from "./app-route.types";
 
 /** Max URL segments including navigation root slug. */
 export const MAX_APP_ROUTE_SEGMENTS = MAX_GEO_SEGMENTS + 1;
+
+/** Same default used by `/destinations/...` speculative geo. */
+const SPECULATIVE_DESTINATIONS_ROOT = "destinations";
 
 function isStaticReserved(segments: readonly string[]): boolean {
 	const first = segments[0];
@@ -107,7 +113,28 @@ function augmentGeoRoute(geoRoute: TGeoRoute): TAppRoute {
 	};
 }
 
+const resolveAppRouteInflight = new Map<string, Promise<TAppRoute | null>>();
+
 export async function resolveAppRoute(
+	locale: string,
+	segments: readonly string[]
+): Promise<TAppRoute | null> {
+	const key = `${locale}:${segments.join("/")}`;
+	const existing = resolveAppRouteInflight.get(key);
+
+	if (existing) {
+		return existing;
+	}
+
+	const pending = resolveAppRouteInner(locale, segments).finally(() => {
+		resolveAppRouteInflight.delete(key);
+	});
+
+	resolveAppRouteInflight.set(key, pending);
+	return pending;
+}
+
+async function resolveAppRouteInner(
 	locale: string,
 	segments: readonly string[]
 ): Promise<TAppRoute | null> {
@@ -125,11 +152,39 @@ export async function resolveAppRoute(
 		return toRegistryAppRoute(registryMatch);
 	}
 
-	const destination = await getDestination(locale);
-	const navigationRootSlug = destination?.slug;
+	const destinationNavPromise = getDestinationSlug(locale);
+	const destGeoSegments =
+		segments.length >= 2 && segments[0] === SPECULATIVE_DESTINATIONS_ROOT
+			? segments.slice(1)
+			: null;
+	const destGeoPromise =
+		destGeoSegments && destGeoSegments.length <= MAX_GEO_SEGMENTS
+			? resolveGeoRoute(
+					locale,
+					destGeoSegments,
+					SPECULATIVE_DESTINATIONS_ROOT
+				)
+			: null;
+
+	const firstSegment = segments[0];
+	const shouldSpeculateShortCountry =
+		segments.length === 1 &&
+		firstSegment != null &&
+		firstSegment !== SPECULATIVE_DESTINATIONS_ROOT &&
+		!isBlockedGeoEntitySlug(firstSegment);
+	const shortCountryGeoPromise = shouldSpeculateShortCountry
+		? resolveGeoRoute(locale, segments, SPECULATIVE_DESTINATIONS_ROOT)
+		: null;
+
+	const destinationNav = await destinationNavPromise;
+	const navigationRootSlug = destinationNav?.slug;
 
 	if (navigationRootSlug && segments[0] === navigationRootSlug) {
 		if (segments.length === 1) {
+			const destination = await getDestination(locale);
+			if (!destination) {
+				return null;
+			}
 			return {
 				routeKey: "destination",
 				target: { type: "destination" },
@@ -140,16 +195,13 @@ export async function resolveAppRoute(
 		}
 
 		const geoSegments = segments.slice(1);
-
 		if (geoSegments.length > MAX_GEO_SEGMENTS) {
 			return null;
 		}
 
-		const geoRoute = await resolveGeoRoute(
-			locale,
-			geoSegments,
-			navigationRootSlug
-		);
+		const geoRoute = destGeoPromise
+			? await destGeoPromise
+			: await resolveGeoRoute(locale, geoSegments, navigationRootSlug);
 
 		if (geoRoute) {
 			return augmentGeoRoute(geoRoute);
@@ -180,6 +232,22 @@ export async function resolveAppRoute(
 
 		if (cmsRoute) {
 			return augmentLegacyCmsRoute(cmsRoute, `cms:${segments[0]}`);
+		}
+
+		if (navigationRootSlug && shortCountryGeoPromise) {
+			const geoRoute = await shortCountryGeoPromise;
+			if (geoRoute) {
+				if (navigationRootSlug !== SPECULATIVE_DESTINATIONS_ROOT) {
+					return augmentGeoRoute({
+						...geoRoute,
+						path: buildNavigationGeoPath(
+							navigationRootSlug,
+							segments
+						)
+					});
+				}
+				return augmentGeoRoute(geoRoute);
+			}
 		}
 	}
 

@@ -10,7 +10,6 @@ import type { Homepage } from "@/payload-types";
 async function fetchHomepage(locale: TypedLocale): Promise<Homepage | null> {
 	try {
 		const payload = await getPayload({ config });
-
 		return await payload.findGlobal({
 			slug: "homepage",
 			locale: locale,
@@ -21,11 +20,9 @@ async function fetchHomepage(locale: TypedLocale): Promise<Homepage | null> {
 		return null;
 	}
 }
-
 const getCachedHomepage = unstable_cache(fetchHomepage, ["homepage-global"], {
 	revalidate: 60
 });
-
 export const getHomepage = cache(
 	async (locale: TypedLocale): Promise<Homepage | null> => {
 		return getCachedHomepage(locale);

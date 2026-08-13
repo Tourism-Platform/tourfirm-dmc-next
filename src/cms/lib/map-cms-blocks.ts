@@ -94,7 +94,7 @@ function mapCmsAction(action: TCmsAction): TButtonRenderProps {
 	const href =
 		action.type === "tel"
 			? `tel:${action.phone ?? ""}`
-			: (action.href ?? "");
+			: (normalizeCmsHref(action.href) ?? "");
 
 	return {
 		type: ActionType.link,
@@ -104,6 +104,33 @@ function mapCmsAction(action: TCmsAction): TButtonRenderProps {
 			variant: action.variant ?? undefined
 		}
 	};
+}
+
+function normalizeCmsHref(href: string | null | undefined): string | undefined {
+	if (!href) {
+		return undefined;
+	}
+
+	const trimmed = href.trim();
+
+	if (!trimmed) {
+		return undefined;
+	}
+
+	if (/^(https?:|tel:|mailto:|#)/i.test(trimmed)) {
+		return trimmed;
+	}
+
+	// Strip accidental locale prefixes from CMS-authored hrefs (/ru/uzbekistan).
+	const withoutLocale = trimmed.replace(
+		/^\/(en|ru|uz|es|de|fr|it|pt|nl|pl|tr|ar|zh|ja|ko|hi)(?=\/|$)/,
+		""
+	);
+	const path = withoutLocale.startsWith("/")
+		? withoutLocale
+		: `/${withoutLocale}`;
+
+	return path === "" ? "/" : path;
 }
 
 function mapCmsCard(card: TEnrichedCmsCard, index: number): TCardRenderProps {
@@ -126,7 +153,7 @@ function mapCmsCard(card: TEnrichedCmsCard, index: number): TCardRenderProps {
 		key: staticCard.id ?? String(index),
 		type: cardType,
 		item: {
-			href: staticCard.href ?? undefined,
+			href: normalizeCmsHref(staticCard.href),
 			imageUrl:
 				(staticCard as { imageUrl?: string | null }).imageUrl ||
 				resolveMediaUrl(
@@ -140,7 +167,7 @@ function mapCmsCard(card: TEnrichedCmsCard, index: number): TCardRenderProps {
 			value: staticCard.value ?? undefined,
 			cities,
 			featured: staticCard.featured ?? undefined,
-			ctaHref: staticCard.ctaHref ?? undefined,
+			ctaHref: normalizeCmsHref(staticCard.ctaHref),
 			ctaLabel: staticCard.ctaLabel ?? undefined,
 			stand: staticCard.stand ?? undefined,
 			country: staticCard.country ?? undefined,
@@ -172,8 +199,8 @@ function mapCmsContentRows(
 	}));
 }
 
-// routeMap requires populated stop.relation (depth >= 2 on document fetch).
-// Unpopulated relation ID → stop skipped.
+// routeMap stops need populated relation.value (title + coords).
+// Leaf finders hydrate lean stop entities after depth 0 (avoid full related docs).
 function getPopulatedRelationEntity(
 	relation: TRouteMapStopRow["relation"]
 ): TRouteMapEntity | null {

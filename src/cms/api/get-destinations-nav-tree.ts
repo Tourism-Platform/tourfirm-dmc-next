@@ -12,75 +12,75 @@ import { buildDestinationsNavTree } from "@/cms/lib/build-destinations-nav-tree"
 import { PUBLISHED_AND_SHOW_IN_HEADER } from "@/cms/lib/nav-visibility-where";
 import type { City, Country, Region } from "@/payload-types";
 
-const JOIN_LIMIT = 500;
-
-function extractJoinDocs<T extends { id: number }>(
-	docs: (number | T)[] | null | undefined
-): T[] {
-	if (!docs?.length) {
-		return [];
-	}
-
-	return docs.filter((doc): doc is T => typeof doc !== "number");
-}
-
+const DESTINATIONS_NAV_CACHE_VERSION = "v2-lean-select";
+const LIST_LIMIT = 500;
 async function fetchDestinationsNavTree(
 	locale: string,
 	rootSlug: string
 ): Promise<TDestinationsNavTree> {
 	const payload = await getPayload({ config });
 	const geoLocale = toGeoLocale(locale);
-
-	const result = await payload.find({
-		collection: "countries",
+	const shared = {
 		locale: geoLocale,
-		fallbackLocale: "en",
-		depth: 1,
+		fallbackLocale: "en" as const,
 		where: PUBLISHED_AND_SHOW_IN_HEADER,
-		limit: 100,
-		select: {
-			slug: true,
-			title: true,
-			navOrder: true,
-			badges: true,
-			regions: true,
-			cities: true
-		},
-		joins: {
-			regions: {
-				limit: JOIN_LIMIT,
-				sort: "navOrder",
-				where: PUBLISHED_AND_SHOW_IN_HEADER
-			},
-			cities: {
-				limit: JOIN_LIMIT,
-				sort: "navOrder",
-				where: PUBLISHED_AND_SHOW_IN_HEADER
+		joins: false as const
+	};
+	const [countriesResult, regionsResult, citiesResult] = await Promise.all([
+		payload.find({
+			...shared,
+			collection: "countries",
+			depth: 1,
+			limit: 100,
+			select: {
+				slug: true,
+				title: true,
+				navOrder: true,
+				badges: true
 			}
-		}
-	});
-
-	const countries = result.docs as Country[];
-	const regions: Region[] = [];
-	const cities: City[] = [];
-
-	for (const country of countries) {
-		regions.push(...extractJoinDocs<Region>(country.regions?.docs));
-		cities.push(...extractJoinDocs<City>(country.cities?.docs));
-	}
-
-	return buildDestinationsNavTree(rootSlug, countries, regions, cities);
+		}),
+		payload.find({
+			...shared,
+			collection: "regions",
+			depth: 0,
+			limit: LIST_LIMIT,
+			select: {
+				slug: true,
+				title: true,
+				navOrder: true,
+				badges: true,
+				country: true
+			}
+		}),
+		payload.find({
+			...shared,
+			collection: "cities",
+			depth: 0,
+			limit: LIST_LIMIT,
+			select: {
+				slug: true,
+				title: true,
+				navOrder: true,
+				badges: true,
+				region: true
+			}
+		})
+	]);
+	return buildDestinationsNavTree(
+		rootSlug,
+		countriesResult.docs as Country[],
+		regionsResult.docs as Region[],
+		citiesResult.docs as City[]
+	);
 }
-
 const getCachedDestinationsNavTree = unstable_cache(
 	fetchDestinationsNavTree,
-	["destinations-nav-tree"],
+	[`destinations-nav-tree-${DESTINATIONS_NAV_CACHE_VERSION}`],
 	{
 		tags: [DESTINATIONS_NAV_CACHE_TAG],
 		revalidate: 60
 	}
 );
-
 export const getDestinationsNavTree = cache(
 	async (locale: string, rootSlug: string): Promise<TDestinationsNavTree> => {
 		return getCachedDestinationsNavTree(locale, rootSlug);

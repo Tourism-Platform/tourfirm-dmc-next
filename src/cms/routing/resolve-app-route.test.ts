@@ -3,12 +3,17 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 import type { Page, Segment } from "@/payload-types";
 
 const mockGetDestination = vi.fn();
+const mockGetDestinationSlug = vi.fn();
 const mockResolveGeoRoute = vi.fn();
 const mockResolveCmsRoute = vi.fn();
 const mockResolveSegmentPageRoute = vi.fn();
 
 vi.mock("@/cms/api/get-destination", () => ({
 	getDestination: (...args: unknown[]) => mockGetDestination(...args)
+}));
+
+vi.mock("@/cms/api/get-destination-slug", () => ({
+	getDestinationSlug: (...args: unknown[]) => mockGetDestinationSlug(...args)
 }));
 
 vi.mock("@/cms/routing/resolve-geo-route", () => ({
@@ -34,6 +39,7 @@ describe("resolveAppRoute", () => {
 	beforeEach(() => {
 		vi.clearAllMocks();
 		mockGetDestination.mockResolvedValue({ slug: "destinations" });
+		mockGetDestinationSlug.mockResolvedValue({ slug: "destinations" });
 	});
 
 	it("resolves blog hub via registry", async () => {
@@ -157,7 +163,8 @@ describe("resolveAppRoute", () => {
 		mockResolveGeoRoute.mockResolvedValue({
 			kind: "country",
 			document: { slug: "uzbekistan", seo: {} },
-			path: "/destinations/uzbekistan"
+			path: "/destinations/uzbekistan",
+			segments: [{ slug: "uzbekistan", type: "country" }]
 		});
 
 		const route = await resolveAppRoute("en", [
@@ -171,6 +178,71 @@ describe("resolveAppRoute", () => {
 			target: { type: "geo" }
 		});
 		expect(mockResolveSegmentPageRoute).not.toHaveBeenCalled();
+	});
+
+	it("resolves short country URL without destinations prefix", async () => {
+		mockResolveCmsRoute.mockResolvedValue(null);
+		mockResolveGeoRoute.mockResolvedValue({
+			kind: "country",
+			document: { slug: "uzbekistan", seo: {} },
+			path: "/destinations/uzbekistan",
+			segments: [{ slug: "uzbekistan", type: "country" }]
+		});
+
+		const route = await resolveAppRoute("en", ["uzbekistan"]);
+
+		expect(route?.source).toBe("geo");
+		expect(route).toMatchObject({
+			routeKey: "geo:country:uzbekistan",
+			target: { type: "geo" }
+		});
+		expect(mockResolveGeoRoute).toHaveBeenCalledWith(
+			"en",
+			["uzbekistan"],
+			"destinations"
+		);
+	});
+
+	it("starts short country geo lookup before destination slug resolves", async () => {
+		let releaseSlug!: (value: { slug: string }) => void;
+		mockGetDestinationSlug.mockReturnValue(
+			new Promise<{ slug: string }>((resolve) => {
+				releaseSlug = resolve;
+			})
+		);
+		mockResolveCmsRoute.mockResolvedValue(null);
+		mockResolveGeoRoute.mockResolvedValue({
+			kind: "country",
+			document: { slug: "uzbekistan", seo: {} },
+			path: "/destinations/uzbekistan",
+			segments: [{ slug: "uzbekistan", type: "country" }]
+		});
+
+		const pending = resolveAppRoute("en", ["uzbekistan"]);
+		await Promise.resolve();
+
+		expect(mockResolveGeoRoute).toHaveBeenCalledWith(
+			"en",
+			["uzbekistan"],
+			"destinations"
+		);
+
+		releaseSlug({ slug: "destinations" });
+		const route = await pending;
+
+		expect(route?.source).toBe("geo");
+		expect(route).toMatchObject({
+			routeKey: "geo:country:uzbekistan"
+		});
+	});
+
+	it("does not speculate short country geo for destinations hub slug", async () => {
+		mockResolveCmsRoute.mockResolvedValue(null);
+
+		await resolveAppRoute("en", ["destinations"]);
+
+		expect(mockResolveGeoRoute).not.toHaveBeenCalled();
+		expect(mockGetDestination).toHaveBeenCalled();
 	});
 
 	it("does not fall back to single-segment resolver for two segments", async () => {

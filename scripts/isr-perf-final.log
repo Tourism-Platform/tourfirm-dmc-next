@@ -1,0 +1,115 @@
+
+> tourfirm-dmc@0.1.0 start
+> next start
+
+▲ Next.js 16.2.7
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.168:3000
+✓ Ready in 324ms
+⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+(node:19780) Warning: SECURITY WARNING: The SSL modes 'prefer', 'require', and 'verify-ca' are treated as aliases for 'verify-full'.
+In the next major version (pg-connection-string v3.0.0 and pg v9.0.0), these modes will adopt standard libpq semantics, which have weaker security guarantees.
+
+To prepare for this change:
+- If you want the current behavior, explicitly use 'sslmode=verify-full'
+- If you want libpq compatibility now, use 'uselibpqcompat=true&sslmode=require'
+
+See https://www.postgresql.org/docs/current/libpq-ssl.html for libpq SSL mode definitions.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[16:05:34] [33mWARN[39m: [36mNo email adapter provided. Email will be written to console. More info at https://payloadcms.com/docs/email/overview.[39m
+[ISR-PERF][GLOBAL] route=- op=findGlobal.header duration=1223 global=header depth=0
+[ISR-PERF][GLOBAL] route=- op=findGlobal.ui-orders duration=1227 global=ui-orders depth=0
+[ISR-PERF][GLOBAL] route=- op=findGlobal.ui-discovery duration=1228 global=ui-discovery depth=0
+[ISR-PERF][GLOBAL] route=- op=findGlobal.ui-catalog duration=1230 global=ui-catalog depth=0
+[ISR-PERF][GLOBAL] route=- op=findGlobal.ui-tours duration=1235 global=ui-tours depth=0
+[ISR-PERF][GLOBAL] route=- op=findGlobal.footer duration=1244 global=footer depth=0
+[ISR-PERF][GLOBAL] route=- op=findGlobal.ui-common duration=1246 global=ui-common depth=0
+[ISR-PERF][GLOBAL] route=- op=findGlobal.ui-preview duration=1255 global=ui-preview depth=0
+[ISR-PERF][GLOBAL] route=- op=findGlobal.ui-login duration=1257 global=ui-login depth=0
+[ISR-PERF][GLOBAL] route=- op=findGlobal.ui-booking duration=1365 global=ui-booking depth=0
+[ISR-PERF][GLOBAL] route=- op=fetchUiGlobals.en duration=2541
+[ISR-PERF][LAYOUT] route=- op=getLocaleAvailability duration=2592
+[ISR-PERF][GLOBAL] route=/ru/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus op=findGlobal.destination duration=1627 global=destination depth=0
+[ISR-PERF][PAYLOAD] route=/ru/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus op=fetchDestinationSlug duration=2673
+[ISR-PERF][NAV] route=- op=getDestinationSlug duration=2674
+[ISR-PERF][GLOBAL] route=- op=findGlobal.ui-tours duration=418 global=ui-tours depth=0
+[ISR-PERF][GLOBAL] route=- op=findGlobal.header duration=432 global=header depth=0
+[ISR-PERF][GLOBAL] route=- op=findGlobal.ui-common duration=438 global=ui-common depth=0
+[ISR-PERF][GLOBAL] route=- op=findGlobal.footer duration=445 global=footer depth=0
+[ISR-PERF][GLOBAL] route=- op=findGlobal.ui-catalog duration=510 global=ui-catalog depth=0
+[ISR-PERF][GLOBAL] route=- op=findGlobal.ui-orders duration=534 global=ui-orders depth=0
+[ISR-PERF][GLOBAL] route=- op=findGlobal.ui-discovery duration=554 global=ui-discovery depth=0
+[ISR-PERF][GLOBAL] route=- op=findGlobal.ui-login duration=559 global=ui-login depth=0
+[ISR-PERF][GLOBAL] route=- op=findGlobal.ui-preview duration=583 global=ui-preview depth=0
+[ISR-PERF][GLOBAL] route=- op=findGlobal.ui-booking duration=593 global=ui-booking depth=0
+[ISR-PERF][GLOBAL] route=- op=fetchUiGlobals.ru duration=593
+[ISR-PERF][GLOBAL] route=- op=loadUiContent duration=3190
+[ISR-PERF][LAYOUT] route=- op=layout.loadUiContent duration=3190
+[ISR-PERF][LAYOUT] route=- op=layout.generateMetadata.loadUiContent duration=3185
+[ISR-PERF][NAV] route=- op=getRoutesNavTree.header duration=3093
+[ISR-PERF][NAV] route=- op=getRoutesNavTree.footer duration=3098
+[ISR-PERF][NAV] route=- op=getExperiencesNavTree.footer duration=3134
+[ISR-PERF][PAYLOAD] route=/ru/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus op=find.cities duration=2966 global=cities depth=0
+[ISR-PERF][NAV] route=- op=getExperiencesNavTree.header duration=4166
+[ISR-PERF][PAYLOAD] route=/ru/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus op=fetchCityBySlug duration=4168
+[ISR-PERF][route] route=/ru/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus op=resolveGeoRoute duration=4342
+[ISR-PERF][resolve] route=/ru/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus op=resolveAppRoute duration=4343
+[ISR-PERF][resolve] route=/ru/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus#metadata op=resolveAppRoute.shared duration=4338
+[ISR-PERF][route] route=/ru/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus op=renderCmsRoute.geo.loadUiContent duration=0
+[ISR-PERF][TOTAL] route=/ru/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus op=request.total duration=4346 counts={"fetchCityBySlug":1,"fetchDestinationSlug":1,"find.cities":1,"findGlobal.destination":1,"renderCmsRoute.geo.loadUiContent":1,"resolveAppRoute":1,"resolveGeoRoute":1}
+[ISR-PERF][TOTAL] route=/ru/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus#metadata op=request.total duration=4341 counts={"resolveAppRoute.shared":1}
+[ISR-PERF][NAV] route=- op=getFooter duration=4461
+[ISR-PERF][NAV] route=- op=getHeader duration=4623
+[ISR-PERF][NAV] route=- op=getInformationNavTree.header duration=344
+[ISR-PERF][NAV] route=- op=getInformationNavTree.footer duration=344
+[ISR-PERF][NAV] route=- op=getDestinationsNavTree duration=7974
+[ISR-PERF][NAV] route=- op=fetchLayoutNavigation duration=7976
+[ISR-PERF][LAYOUT] route=- op=loadLayoutNavigation duration=8149
+[ISR-PERF][LAYOUT] route=- op=loadLayoutNavigation duration=6
+[ISR-PERF][LAYOUT] route=- op=getLocaleAvailability duration=7
+[ISR-PERF][GLOBAL] route=- op=loadUiContent duration=9
+[ISR-PERF][LAYOUT] route=- op=layout.loadUiContent duration=9
+[ISR-PERF][LAYOUT] route=- op=layout.generateMetadata.loadUiContent duration=0
+[ISR-PERF][resolve] route=/ru/destinations op=resolveAppRoute duration=2234
+[ISR-PERF][resolve] route=/ru/destinations#metadata op=resolveAppRoute.shared duration=2220
+[ISR-PERF][TOTAL] route=/ru/destinations op=request.total duration=2236 counts={"resolveAppRoute":1}
+[ISR-PERF][TOTAL] route=/ru/destinations#metadata op=request.total duration=2222 counts={"resolveAppRoute.shared":1}
+[ISR-PERF][LAYOUT] route=- op=loadLayoutNavigation duration=2
+[ISR-PERF][LAYOUT] route=- op=getLocaleAvailability duration=3
+[ISR-PERF][GLOBAL] route=- op=loadUiContent duration=5
+[ISR-PERF][LAYOUT] route=- op=layout.loadUiContent duration=5
+[ISR-PERF][LAYOUT] route=- op=layout.generateMetadata.loadUiContent duration=0
+[ISR-PERF][PAYLOAD] route=/ru/kazakhstan op=find.countries duration=757 global=countries depth=0
+[ISR-PERF][PAYLOAD] route=/ru/kazakhstan op=fetchCountryBySlug duration=1831
+[ISR-PERF][route] route=/ru/kazakhstan op=resolveGeoRoute duration=1834
+[ISR-PERF][resolve] route=/ru/kazakhstan op=resolveAppRoute duration=1993
+[ISR-PERF][resolve] route=/ru/kazakhstan#metadata op=resolveAppRoute.shared duration=1987
+[ISR-PERF][route] route=/ru/kazakhstan op=renderCmsRoute.geo.loadUiContent duration=0
+[ISR-PERF][TOTAL] route=/ru/kazakhstan op=request.total duration=1995 counts={"fetchCountryBySlug":1,"find.countries":1,"renderCmsRoute.geo.loadUiContent":1,"resolveAppRoute":1,"resolveGeoRoute":1}
+[ISR-PERF][TOTAL] route=/ru/kazakhstan#metadata op=request.total duration=1988 counts={"resolveAppRoute.shared":1}
+[ISR-PERF][LAYOUT] route=- op=loadLayoutNavigation duration=1
+[ISR-PERF][LAYOUT] route=- op=getLocaleAvailability duration=1
+[ISR-PERF][GLOBAL] route=- op=loadUiContent duration=2
+[ISR-PERF][LAYOUT] route=- op=layout.loadUiContent duration=2
+[ISR-PERF][LAYOUT] route=- op=layout.generateMetadata.loadUiContent duration=0
+[ISR-PERF][PAYLOAD] route=/ru/destinations/uzbekistan/samarkand-region op=find.regions duration=932 global=regions depth=0
+[ISR-PERF][PAYLOAD] route=/ru/destinations/uzbekistan/samarkand-region op=fetchRegionBySlug duration=2248
+[ISR-PERF][route] route=/ru/destinations/uzbekistan/samarkand-region op=resolveGeoRoute duration=2255
+[ISR-PERF][resolve] route=/ru/destinations/uzbekistan/samarkand-region op=resolveAppRoute duration=2255
+[ISR-PERF][resolve] route=/ru/destinations/uzbekistan/samarkand-region#metadata op=resolveAppRoute.shared duration=2253
+[ISR-PERF][route] route=/ru/destinations/uzbekistan/samarkand-region op=renderCmsRoute.geo.loadUiContent duration=0
+[ISR-PERF][TOTAL] route=/ru/destinations/uzbekistan/samarkand-region op=request.total duration=2257 counts={"fetchRegionBySlug":1,"find.regions":1,"renderCmsRoute.geo.loadUiContent":1,"resolveAppRoute":1,"resolveGeoRoute":1}
+[ISR-PERF][TOTAL] route=/ru/destinations/uzbekistan/samarkand-region#metadata op=request.total duration=2255 counts={"resolveAppRoute.shared":1}
+[ISR-PERF][LAYOUT] route=- op=loadLayoutNavigation duration=2
+[ISR-PERF][LAYOUT] route=- op=getLocaleAvailability duration=3
+[ISR-PERF][GLOBAL] route=- op=loadUiContent duration=5
+[ISR-PERF][LAYOUT] route=- op=layout.loadUiContent duration=5
+[ISR-PERF][LAYOUT] route=- op=layout.generateMetadata.loadUiContent duration=0
+[ISR-PERF][PAYLOAD] route=/ru/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus/savitsky-state-museum-of-arts op=find.attractions duration=779 global=attractions depth=0
+[ISR-PERF][PAYLOAD] route=/ru/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus/savitsky-state-museum-of-arts op=fetchAttractionBySlug duration=936
+[ISR-PERF][route] route=/ru/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus/savitsky-state-museum-of-arts op=resolveGeoRoute duration=951
+[ISR-PERF][resolve] route=/ru/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus/savitsky-state-museum-of-arts op=resolveAppRoute duration=952
+[ISR-PERF][resolve] route=/ru/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus/savitsky-state-museum-of-arts#metadata op=resolveAppRoute.shared duration=945
+[ISR-PERF][route] route=/ru/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus/savitsky-state-museum-of-arts op=renderCmsRoute.geo.loadUiContent duration=0
+[ISR-PERF][TOTAL] route=/ru/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus/savitsky-state-museum-of-arts op=request.total duration=954 counts={"fetchAttractionBySlug":1,"find.attractions":1,"renderCmsRoute.geo.loadUiContent":1,"resolveAppRoute":1,"resolveGeoRoute":1}
+[ISR-PERF][TOTAL] route=/ru/destinations/uzbekistan/karakalpakstan-and-aral-sea/nukus/savitsky-state-museum-of-arts#metadata op=request.total duration=948 counts={"resolveAppRoute.shared":1}

@@ -22,40 +22,33 @@ import {
 } from "@/cms/lib/nav-visibility-where";
 
 const INFORMATION_NAV_LIMIT = 20;
-
 const VALID_COLLECTIONS = new Set<TInformationNavCollection>([
 	"news",
 	"blog",
 	"trade-fairs"
 ]);
-
 function isInformationCollection(
 	value: string
 ): value is TInformationNavCollection {
 	return VALID_COLLECTIONS.has(value as TInformationNavCollection);
 }
-
 async function fetchInformationNavTree(
 	locale: string,
 	areasJson: string,
 	surface: TNavSurface
 ): Promise<TInformationNavTree> {
 	const areas = JSON.parse(areasJson) as TInformationAreaConfig[];
-
 	if (!areas.length) {
 		return buildInformationNavTree([]);
 	}
-
 	const payload = await getPayload({ config });
 	const geoLocale = toGeoLocale(locale);
 	const where = buildNavVisibilityWhere(surface);
-
 	const resolvedAreas = await Promise.all(
 		areas.map(async (area, index) => {
 			if (!isInformationCollection(area.collection)) {
 				return null;
 			}
-
 			const result = await payload.find({
 				collection: area.collection,
 				locale: geoLocale,
@@ -70,7 +63,6 @@ async function fetchInformationNavTree(
 					sortOrder: true
 				}
 			});
-
 			return buildInformationNavArea({
 				key: area.id ?? `${area.collection}-${index}`,
 				collection: area.collection,
@@ -83,14 +75,12 @@ async function fetchInformationNavTree(
 			});
 		})
 	);
-
 	return buildInformationNavTree(
 		resolvedAreas.filter(
 			(area): area is NonNullable<typeof area> => area != null
 		)
 	);
 }
-
 const getCachedInformationNavTree = unstable_cache(
 	fetchInformationNavTree,
 	["information-nav-tree"],
@@ -99,7 +89,6 @@ const getCachedInformationNavTree = unstable_cache(
 		revalidate: 60
 	}
 );
-
 export const getInformationNavTree = cache(
 	async (
 		locale: string,
@@ -114,7 +103,6 @@ export const getInformationNavTree = cache(
 					collection: area.collection,
 					label: area.label ?? null
 				})) ?? [];
-
 		return getCachedInformationNavTree(
 			locale,
 			JSON.stringify(normalized),

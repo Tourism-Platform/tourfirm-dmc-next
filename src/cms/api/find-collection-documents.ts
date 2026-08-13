@@ -7,6 +7,12 @@ import "server-only";
 
 import { DISCOVERY_LIST_DEFAULT_LIMIT } from "./discovery-query.types";
 import { toGeoLocale } from "./geo-locale";
+import {
+	DISCOVERY_DOCUMENT_CACHE_VERSION,
+	DISCOVERY_PAGE_DEPTH,
+	getDiscoveryPageSelect,
+	hydrateDiscoveryPageDoc
+} from "./hydrate-discovery-page-doc";
 
 export type TFindCollectionDocumentsArgs = {
 	collection: string;
@@ -17,7 +23,6 @@ export type TFindCollectionDocumentsArgs = {
 	limit?: number;
 	depth?: number;
 };
-
 type TCollectionListResult = {
 	docs: unknown[];
 	totalDocs: number;
@@ -26,7 +31,6 @@ type TCollectionListResult = {
 	hasNextPage: boolean;
 	hasPrevPage: boolean;
 };
-
 async function fetchCollectionDocuments(
 	collection: string,
 	locale: string,
@@ -40,7 +44,6 @@ async function fetchCollectionDocuments(
 		const payload = await getPayload({ config });
 		const sort = JSON.parse(sortKey) as string | string[];
 		const where = JSON.parse(whereKey) as Where;
-
 		const result = await payload.find({
 			collection: collection as CollectionSlug,
 			locale: toGeoLocale(locale),
@@ -51,7 +54,6 @@ async function fetchCollectionDocuments(
 			sort,
 			where
 		});
-
 		return {
 			docs: result.docs,
 			totalDocs: result.totalDocs,
@@ -71,13 +73,11 @@ async function fetchCollectionDocuments(
 		};
 	}
 }
-
 const getCachedCollectionDocuments = unstable_cache(
 	fetchCollectionDocuments,
 	["collection-documents"],
 	{ revalidate: 60 }
 );
-
 export const findCollectionDocuments = cache(
 	async ({
 		collection,
@@ -99,22 +99,21 @@ export const findCollectionDocuments = cache(
 		);
 	}
 );
-
 async function fetchCollectionDocumentBySlug(
 	collection: string,
 	locale: string,
-	slug: string,
-	depth: number
+	slug: string
 ): Promise<Record<string, unknown> | null> {
 	try {
 		const payload = await getPayload({ config });
-
+		const geoLocale = toGeoLocale(locale);
 		const result = await payload.find({
 			collection: collection as CollectionSlug,
-			locale: toGeoLocale(locale),
+			locale: geoLocale,
 			fallbackLocale: "en",
-			depth,
+			depth: DISCOVERY_PAGE_DEPTH,
 			limit: 1,
+			select: getDiscoveryPageSelect(collection),
 			where: {
 				and: [
 					{ slug: { equals: slug } },
@@ -122,44 +121,41 @@ async function fetchCollectionDocumentBySlug(
 				]
 			}
 		});
-
 		const doc = result.docs[0];
-
-		return doc ? (doc as unknown as Record<string, unknown>) : null;
+		if (!doc) {
+			return null;
+		}
+		return await hydrateDiscoveryPageDoc(
+			payload,
+			geoLocale,
+			collection,
+			doc as unknown as Record<string, unknown>
+		);
 	} catch {
 		return null;
 	}
 }
-
 const getCachedCollectionDocumentBySlug = unstable_cache(
 	fetchCollectionDocumentBySlug,
-	["collection-document-by-slug"],
+	[`collection-document-by-slug-${DISCOVERY_DOCUMENT_CACHE_VERSION}`],
 	{ revalidate: 60 }
 );
-
 export const findCollectionDocumentBySlug = cache(
 	async (
 		collection: string,
 		locale: string,
 		slug: string,
-		depth = 3
+		_depth = DISCOVERY_PAGE_DEPTH
 	): Promise<Record<string, unknown> | null> => {
-		return getCachedCollectionDocumentBySlug(
-			collection,
-			locale,
-			slug,
-			depth
-		);
+		return getCachedCollectionDocumentBySlug(collection, locale, slug);
 	}
 );
-
 async function fetchCollectionHub(
 	hubGlobalSlug: string,
 	locale: string
 ): Promise<unknown> {
 	try {
 		const payload = await getPayload({ config });
-
 		return await payload.findGlobal({
 			slug: hubGlobalSlug as GlobalSlug,
 			locale: locale as TypedLocale,
@@ -170,13 +166,11 @@ async function fetchCollectionHub(
 		return null;
 	}
 }
-
 const getCachedCollectionHub = unstable_cache(
 	fetchCollectionHub,
 	["collection-hub"],
 	{ revalidate: 60 }
 );
-
 export const getCollectionHub = cache(
 	async (hubGlobalSlug: string, locale: TypedLocale | string) => {
 		return getCachedCollectionHub(hubGlobalSlug, String(locale));

@@ -33,13 +33,11 @@ const exo2 = Exo_2({
 	variable: "--font-exo-2",
 	subsets: ["latin", "cyrillic"]
 });
-
 const jetbrainsMono = JetBrains_Mono({
 	variable: "--font-jetbrains-mono",
 	subsets: ["latin", "cyrillic"],
 	weight: ["400", "500"]
 });
-
 const kurier = localFont({
 	src: [
 		{
@@ -51,20 +49,18 @@ const kurier = localFont({
 	variable: "--font-kurier",
 	display: "swap"
 });
-
 type TProps = {
 	children: ReactNode;
-	params: Promise<{ locale: string }>;
+	params: Promise<{
+		locale: string;
+	}>;
 };
-
 export function generateStaticParams() {
 	return routing.locales.map((locale) => ({ locale }));
 }
-
 export async function generateMetadata({ params }: Omit<TProps, "children">) {
 	const { locale } = await params;
 	const uiContent = await loadUiContent(locale);
-
 	return createPageMetadata({
 		title: uiContent.common.meta.title,
 		description: uiContent.common.meta.description,
@@ -72,29 +68,22 @@ export async function generateMetadata({ params }: Omit<TProps, "children">) {
 		path: ENUM_PATH.MAIN.ROOT
 	});
 }
-
 export default async function LocaleLayout({ children, params }: TProps) {
 	const { locale } = await params;
-
 	if (!hasLocale(routing.locales, locale)) {
 		notFound();
 	}
-
-	const availability = await getLocaleAvailability();
-
-	if (!isLocaleEnabled(locale, availability)) {
-		notFound();
-	}
-
 	setRequestLocale(locale);
 
-	const [uiContent, layoutNavigation] = await Promise.all([
+	const [availability, uiContent, layoutNavigation] = await Promise.all([
+		getLocaleAvailability(),
 		loadUiContent(locale),
 		loadLayoutNavigation(locale)
 	]);
-
+	if (!isLocaleEnabled(locale, availability)) {
+		notFound();
+	}
 	const dropdownLanguages = getDropdownLanguages(availability);
-
 	return (
 		<html
 			lang={locale}

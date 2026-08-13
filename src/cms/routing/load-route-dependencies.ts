@@ -3,23 +3,24 @@ import { getRouteAdapter } from "./route-adapter.registry";
 import { getRouteRuntime } from "./route-runtime.registry";
 import type { TEntityLoadResult, TRouteData } from "./types/route-data.types";
 import type { TRouteDependencies } from "./types/route-dependencies.types";
-import { getDestination } from "@/cms/api/get-destination";
+import { getDestinationSlug } from "@/cms/api/get-destination-slug";
 
 export async function loadRouteDependencies(
 	route: TAppRoute,
 	entityResult: TEntityLoadResult,
 	locale: string,
-	searchParams?: { page?: string; theme?: string; country?: string }
+	searchParams?: {
+		page?: string;
+		theme?: string;
+		country?: string;
+	}
 ): Promise<TRouteData> {
 	const runtime = getRouteRuntime(route.routeKey);
-
 	if (!runtime) {
 		throw new Error(`Runtime not found for routeKey: ${route.routeKey}`);
 	}
-
-	const destination = await getDestination(locale);
+	const destinationNav = await getDestinationSlug(locale);
 	const adapter = getRouteAdapter(runtime.data.adapterKey);
-
 	const adapterInput = {
 		route,
 		locale,
@@ -27,17 +28,16 @@ export async function loadRouteDependencies(
 		entityResult,
 		searchParams
 	};
-
 	let list: TRouteData["list"];
 	let pagination: TRouteData["pagination"];
 	const dependencies: TRouteDependencies = {};
-
 	if (
 		route.source === "collection" &&
 		route.kind === "hub" &&
 		adapter?.resolveList
 	) {
-		list = await adapter.resolveList(adapterInput);
+		const resolveList = adapter.resolveList;
+		list = await resolveList(adapterInput);
 		pagination = {
 			page: list.page,
 			totalPages: list.totalPages,
@@ -45,14 +45,10 @@ export async function loadRouteDependencies(
 			hasPrevPage: list.hasPrevPage
 		};
 	}
-
 	if (adapter?.resolveDependencies) {
-		Object.assign(
-			dependencies,
-			await adapter.resolveDependencies(adapterInput)
-		);
+		const resolveDependencies = adapter.resolveDependencies;
+		Object.assign(dependencies, await resolveDependencies(adapterInput));
 	}
-
 	const hubEntity =
 		entityResult.entity.entityType === "hub-global"
 			? entityResult.entity
@@ -64,7 +60,6 @@ export async function loadRouteDependencies(
 			: route.source === "geo" || route.source === "cms"
 				? entityResult.entity
 				: null;
-
 	return {
 		route,
 		locale,
@@ -76,6 +71,6 @@ export async function loadRouteDependencies(
 		dependencies,
 		list,
 		pagination,
-		navigation: { rootSlug: destination?.slug ?? "destinations" }
+		navigation: { rootSlug: destinationNav?.slug ?? "destinations" }
 	};
 }

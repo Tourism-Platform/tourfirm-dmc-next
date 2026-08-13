@@ -37,12 +37,9 @@ const UI_GLOBAL_SLUGS = [
 	"ui-preview",
 	"ui-booking"
 ] as const;
-
 type TUiGlobalSlug = (typeof UI_GLOBAL_SLUGS)[number];
-
 async function fetchUiGlobalsUncached(locale: TypedLocale) {
 	const payload = await getPayload({ config });
-
 	const entries = await Promise.all(
 		UI_GLOBAL_SLUGS.map(async (slug) => {
 			const doc = await payload.findGlobal({
@@ -52,17 +49,14 @@ async function fetchUiGlobalsUncached(locale: TypedLocale) {
 				draft: false,
 				fallbackLocale: "en"
 			});
-
 			return [slug, doc] as const;
 		})
 	);
-
 	return Object.fromEntries(entries) as unknown as Record<
 		TUiGlobalSlug,
 		Record<string, unknown>
 	>;
 }
-
 const getCachedUiGlobals = unstable_cache(
 	fetchUiGlobalsUncached,
 	["ui-globals"],
@@ -71,11 +65,10 @@ const getCachedUiGlobals = unstable_cache(
 		revalidate: 60
 	}
 );
-
-const fetchUiGlobals = cache(async (locale: TypedLocale) => {
-	return getCachedUiGlobals(locale);
+export const fetchUiGlobals = cache(async (locale: TypedLocale) => {
+	const result = await getCachedUiGlobals(locale);
+	return result;
 });
-
 function mapUiContentBundle(
 	fallback: Record<TUiGlobalSlug, Record<string, unknown>>,
 	current: Record<TUiGlobalSlug, Record<string, unknown>>
@@ -123,14 +116,13 @@ function mapUiContentBundle(
 		) as TUiBooking
 	};
 }
-
 export const loadUiContent = cache(
 	async (locale: string): Promise<TUiContent> => {
 		const typedLocale = locale as TypedLocale;
 		const fallback = await fetchUiGlobals("en");
 		const current =
 			locale === "en" ? fallback : await fetchUiGlobals(typedLocale);
-
-		return mapUiContentBundle(fallback, current);
+		const mapped = mapUiContentBundle(fallback, current);
+		return mapped;
 	}
 );

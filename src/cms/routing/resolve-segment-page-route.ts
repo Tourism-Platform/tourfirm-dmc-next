@@ -8,24 +8,19 @@ export type TSegmentPageRoute = {
 	document: Page;
 	segment: Segment;
 };
-
 export async function resolveSegmentPageRoute(
 	locale: string,
 	segmentSlug: string,
 	pageSlug: string
 ): Promise<TSegmentPageRoute | null> {
 	const segment = await findSegmentBySlug(locale, segmentSlug);
-
 	if (!segment) {
 		return null;
 	}
-
 	const page = await findPageBySegmentAndSlug(locale, segment.id, pageSlug);
-
 	if (!page) {
 		return null;
 	}
-
 	return {
 		kind: "segment-page",
 		document: page,

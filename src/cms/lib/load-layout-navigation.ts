@@ -14,7 +14,7 @@ import type {
 	TResolvedUserMenuItem
 } from "@/shared/types/navigation.types";
 
-import { getDestination, getFooter, getHeader } from "../api";
+import { getDestinationSlug, getFooter, getHeader } from "../api";
 import { getDestinationsNavTree } from "../api/get-destinations-nav-tree";
 import { getExperiencesNavTree } from "../api/get-experiences-nav-tree";
 import { getInformationNavTree } from "../api/get-information-nav-tree";
@@ -39,21 +39,46 @@ export type TLayoutNavigation = {
 	copyrightText?: string;
 	userMenuItems: TResolvedUserMenuItem[];
 };
-
 async function fetchLayoutNavigation(
 	locale: string
 ): Promise<TLayoutNavigation> {
+	return fetchLayoutNavigationWork(locale);
+}
+async function fetchLayoutNavigationWork(
+	locale: string
+): Promise<TLayoutNavigation> {
 	const typedLocale = locale as TypedLocale;
-	const [headerGlobal, footerGlobal, destinationGlobal] = await Promise.all([
-		getHeader(typedLocale),
-		getFooter(typedLocale),
-		getDestination(locale)
-	]);
-
-	const destinationSlug = destinationGlobal?.slug ?? "destinations";
+	const destinationNavPromise = getDestinationSlug(locale);
+	const destinationsNavPromise = getDestinationsNavTree(
+		locale,
+		"destinations"
+	);
+	const headerPromise = getHeader(typedLocale);
+	const footerPromise = getFooter(typedLocale);
+	const routesHeaderPromise = getRoutesNavTree(locale, "header");
+	const routesFooterPromise = getRoutesNavTree(locale, "footer");
+	const experiencesHeaderPromise = getExperiencesNavTree(locale, "header");
+	const experiencesFooterPromise = getExperiencesNavTree(locale, "footer");
+	const destinationNav = await destinationNavPromise;
+	const destinationSlug = destinationNav?.slug ?? "destinations";
+	const destinationsNavResolved =
+		destinationSlug === "destinations"
+			? destinationsNavPromise
+			: getDestinationsNavTree(locale, destinationSlug);
+	const headerGlobal = await headerPromise;
 	const informationAreas = headerGlobal?.informationAreas ?? [];
-
+	const informationHeaderPromise = getInformationNavTree(
+		locale,
+		informationAreas,
+		"header"
+	);
+	const informationFooterPromise = getInformationNavTree(
+		locale,
+		informationAreas,
+		"footer"
+	);
 	const [
+		footerGlobal,
 		destinationsNav,
 		routesNav,
 		routesNavFooter,
@@ -62,15 +87,15 @@ async function fetchLayoutNavigation(
 		informationNavHeader,
 		informationNavFooter
 	] = await Promise.all([
-		getDestinationsNavTree(locale, destinationSlug),
-		getRoutesNavTree(locale, "header"),
-		getRoutesNavTree(locale, "footer"),
-		getExperiencesNavTree(locale, "header"),
-		getExperiencesNavTree(locale, "footer"),
-		getInformationNavTree(locale, informationAreas, "header"),
-		getInformationNavTree(locale, informationAreas, "footer")
+		footerPromise,
+		destinationsNavResolved,
+		routesHeaderPromise,
+		routesFooterPromise,
+		experiencesHeaderPromise,
+		experiencesFooterPromise,
+		informationHeaderPromise,
+		informationFooterPromise
 	]);
-
 	const navItems = resolveHeaderNavigation(
 		locale,
 		headerGlobal?.navItems,
@@ -82,7 +107,6 @@ async function fetchLayoutNavigation(
 	);
 	const [companyColumn, toursColumn, helpColumn, policiesColumn] =
 		staticFooterColumns;
-
 	const informationViewAll =
 		headerGlobal?.uiTexts?.public?.nav?.information?.viewAll?.trim() ||
 		"View all";
@@ -98,7 +122,6 @@ async function fetchLayoutNavigation(
 	const experiencesViewAll =
 		headerGlobal?.uiTexts?.public?.nav?.experiences?.viewAll?.trim() ||
 		"View all";
-
 	const informationFooterColumns = mapInformationAreasToFooterColumns(
 		informationNavFooter,
 		informationViewAll
@@ -115,7 +138,6 @@ async function fetchLayoutNavigation(
 		experiencesTitle,
 		experiencesViewAll
 	);
-
 	const footerColumns = [
 		companyColumn,
 		toursColumn,
@@ -125,7 +147,6 @@ async function fetchLayoutNavigation(
 		helpColumn,
 		policiesColumn
 	].filter((column): column is TResolvedFooterColumn => column != null);
-
 	const socialLinks =
 		footerGlobal?.socialLinks
 			?.filter((link) => link.showInFooter !== false)
@@ -134,7 +155,6 @@ async function fetchLayoutNavigation(
 				platform: link.platform,
 				url: link.url
 			})) ?? [];
-
 	const logoSrc = resolveMediaUrl(headerGlobal?.logo) || undefined;
 	const userMenuItems =
 		headerGlobal?.userMenuItems?.map((item, index) => ({
@@ -143,7 +163,6 @@ async function fetchLayoutNavigation(
 			href: item.href?.trim() || "",
 			icon: item.icon?.trim() || undefined
 		})) ?? [];
-
 	return {
 		navItems,
 		destinationsNav,
@@ -159,13 +178,11 @@ async function fetchLayoutNavigation(
 		userMenuItems
 	};
 }
-
 const getCachedLayoutNavigation = unstable_cache(
 	fetchLayoutNavigation,
 	["layout-navigation"],
 	{ revalidate: 60 }
 );
-
 export const loadLayoutNavigation = cache(
 	async (locale: string): Promise<TLayoutNavigation> => {
 		return getCachedLayoutNavigation(locale);

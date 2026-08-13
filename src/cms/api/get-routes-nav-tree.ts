@@ -11,56 +11,78 @@ import { ROUTES_NAV_CACHE_TAG } from "@/cms/cache/cache-tags";
 import { buildRoutesNavTree } from "@/cms/lib/build-discovery-nav-tree";
 import {
 	type TNavSurface,
-	buildNavVisibilityWhere
+	isVisibleOnNavSurface
 } from "@/cms/lib/nav-visibility-where";
 
-async function fetchRoutesNavTree(
-	locale: string,
-	surface: TNavSurface
-): Promise<TDiscoveryNavTree> {
+type TNavDoc = {
+	id: number;
+	slug: string;
+	title: string;
+	subtitle?: string | null;
+	status?: {
+		showInHeader?: boolean | null;
+		showInFooter?: boolean | null;
+	};
+};
+async function fetchPublishedRoutesNav(locale: string): Promise<TNavDoc[]> {
 	const payload = await getPayload({ config });
 	const geoLocale = toGeoLocale(locale);
-
 	const result = await payload.find({
 		collection: "routes",
 		locale: geoLocale,
 		fallbackLocale: "en",
 		depth: 0,
-		where: buildNavVisibilityWhere(surface),
+		where: { _status: { equals: "published" } },
 		limit: 200,
 		sort: "sortOrder",
 		select: {
 			slug: true,
 			title: true,
 			subtitle: true,
-			sortOrder: true
+			sortOrder: true,
+			status: {
+				showInHeader: true,
+				showInFooter: true
+			}
 		}
 	});
-
-	return buildRoutesNavTree(
-		result.docs.map((doc) => ({
-			id: doc.id,
-			slug: doc.slug,
-			title: doc.title,
-			subtitle: doc.subtitle
-		}))
-	);
+	return result.docs as TNavDoc[];
 }
-
-const getCachedRoutesNavTree = unstable_cache(
-	fetchRoutesNavTree,
-	["routes-nav-tree"],
+const getCachedPublishedRoutesNav = unstable_cache(
+	fetchPublishedRoutesNav,
+	["routes-nav-published"],
 	{
 		tags: [ROUTES_NAV_CACHE_TAG],
 		revalidate: 60
 	}
 );
-
+const publishedRoutesInflight = new Map<string, Promise<TNavDoc[]>>();
+function getPublishedRoutesNav(locale: string): Promise<TNavDoc[]> {
+	const existing = publishedRoutesInflight.get(locale);
+	if (existing) {
+		return existing;
+	}
+	const pending = getCachedPublishedRoutesNav(locale).finally(() => {
+		publishedRoutesInflight.delete(locale);
+	});
+	publishedRoutesInflight.set(locale, pending);
+	return pending;
+}
 export const getRoutesNavTree = cache(
 	async (
 		locale: string,
 		surface: TNavSurface = "header"
 	): Promise<TDiscoveryNavTree> => {
-		return getCachedRoutesNavTree(locale, surface);
+		const docs = await getPublishedRoutesNav(locale);
+		return buildRoutesNavTree(
+			docs
+				.filter((doc) => isVisibleOnNavSurface(doc.status, surface))
+				.map((doc) => ({
+					id: doc.id,
+					slug: doc.slug,
+					title: doc.title,
+					subtitle: doc.subtitle
+				}))
+		);
 	}
 );
