@@ -28,6 +28,7 @@ import {
 import Providers from "../__providers";
 
 import { loadLayoutNavigation } from "@/cms/lib/load-layout-navigation";
+import { auditMark, auditSpan, withAuditContext } from "@/cms/perf/audit-span";
 
 const exo2 = Exo_2({
 	variable: "--font-exo-2",
@@ -75,70 +76,104 @@ export default async function LocaleLayout({ children, params }: TProps) {
 	}
 	setRequestLocale(locale);
 
-	const [availability, uiContent, layoutNavigation] = await Promise.all([
-		getLocaleAvailability(),
-		loadUiContent(locale),
-		loadLayoutNavigation(locale)
-	]);
-	if (!isLocaleEnabled(locale, availability)) {
-		notFound();
-	}
-	const dropdownLanguages = getDropdownLanguages(availability);
-	return (
-		<html
-			lang={locale}
-			className={`${exo2.variable} ${jetbrainsMono.variable} ${kurier.variable} h-full font-sans antialiased`}
-			suppressHydrationWarning
-		>
-			<body className="min-h-full flex flex-col">
-				<Providers>
-					<NextIntlClientProvider locale={locale} timeZone="UTC">
-						<UiContentProvider value={uiContent}>
-							<Suspense fallback={null}>
-								<AuthBootstrap />
-								<GoogleCallbackRedirector />
-							</Suspense>
-							<LocaleShell
-								header={
-									<HeaderDefault
-										navItems={layoutNavigation.navItems}
-										destinationsNav={
-											layoutNavigation.destinationsNav
-										}
-										routesNav={layoutNavigation.routesNav}
-										experiencesNav={
-											layoutNavigation.experiencesNav
-										}
-										informationNav={
-											layoutNavigation.informationNav
-										}
-										logoSrc={layoutNavigation.logoSrc}
-										dropdownLanguages={dropdownLanguages}
-										brandName={uiContent.footer.brand.name}
-										userMenuItems={
-											layoutNavigation.userMenuItems
-										}
-									/>
-								}
-								footer={
-									<FooterDefault
-										columns={layoutNavigation.footerColumns}
-										socialLinks={
-											layoutNavigation.socialLinks
-										}
-										copyrightText={
-											layoutNavigation.copyrightText
-										}
-										uiTexts={uiContent.footer}
-									/>
-								}
+	return withAuditContext(
+		{ phase: "layout", url: `/${locale}` },
+		async () => {
+			const layoutT0 = performance.now();
+			const [availability, uiContent, layoutNavigation] =
+				await Promise.all([
+					auditSpan("getLocaleAvailability", { locale }, () =>
+						getLocaleAvailability()
+					),
+					auditSpan(
+						"loadUiContent",
+						{ locale, caller: "layout" },
+						() => loadUiContent(locale)
+					),
+					auditSpan("loadLayoutNavigation", { locale }, () =>
+						loadLayoutNavigation(locale)
+					)
+				]);
+			auditMark("layout.Promise.all", {
+				locale,
+				durationMs: Math.round((performance.now() - layoutT0) * 10) / 10
+			});
+			if (!isLocaleEnabled(locale, availability)) {
+				notFound();
+			}
+			const dropdownLanguages = getDropdownLanguages(availability);
+			return (
+				<html
+					lang={locale}
+					className={`${exo2.variable} ${jetbrainsMono.variable} ${kurier.variable} h-full font-sans antialiased`}
+					suppressHydrationWarning
+				>
+					<body className="min-h-full flex flex-col">
+						<Providers>
+							<NextIntlClientProvider
+								locale={locale}
+								timeZone="UTC"
 							>
-								{children}
-							</LocaleShell>
-						</UiContentProvider>
-					</NextIntlClientProvider>
-				</Providers>
-			</body>
-		</html>
+								<UiContentProvider value={uiContent}>
+									<Suspense fallback={null}>
+										<AuthBootstrap />
+										<GoogleCallbackRedirector />
+									</Suspense>
+									<LocaleShell
+										header={
+											<HeaderDefault
+												navItems={
+													layoutNavigation.navItems
+												}
+												destinationsNav={
+													layoutNavigation.destinationsNav
+												}
+												routesNav={
+													layoutNavigation.routesNav
+												}
+												experiencesNav={
+													layoutNavigation.experiencesNav
+												}
+												informationNav={
+													layoutNavigation.informationNav
+												}
+												logoSrc={
+													layoutNavigation.logoSrc
+												}
+												dropdownLanguages={
+													dropdownLanguages
+												}
+												brandName={
+													uiContent.footer.brand.name
+												}
+												userMenuItems={
+													layoutNavigation.userMenuItems
+												}
+											/>
+										}
+										footer={
+											<FooterDefault
+												columns={
+													layoutNavigation.footerColumns
+												}
+												socialLinks={
+													layoutNavigation.socialLinks
+												}
+												copyrightText={
+													layoutNavigation.copyrightText
+												}
+												uiTexts={uiContent.footer}
+											/>
+										}
+									>
+										{children}
+									</LocaleShell>
+								</UiContentProvider>
+							</NextIntlClientProvider>
+						</Providers>
+					</body>
+				</html>
+			);
+		}
 	);
 }

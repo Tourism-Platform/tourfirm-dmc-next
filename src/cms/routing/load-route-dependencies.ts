@@ -4,6 +4,7 @@ import { getRouteRuntime } from "./route-runtime.registry";
 import type { TEntityLoadResult, TRouteData } from "./types/route-data.types";
 import type { TRouteDependencies } from "./types/route-dependencies.types";
 import { getDestinationSlug } from "@/cms/api/get-destination-slug";
+import { auditSpan } from "@/cms/perf/audit-span";
 
 export async function loadRouteDependencies(
 	route: TAppRoute,
@@ -19,7 +20,11 @@ export async function loadRouteDependencies(
 	if (!runtime) {
 		throw new Error(`Runtime not found for routeKey: ${route.routeKey}`);
 	}
-	const destinationNav = await getDestinationSlug(locale);
+	const destinationNav = await auditSpan(
+		"getDestinationSlug",
+		{ locale, caller: "loadRouteDependencies" },
+		() => getDestinationSlug(locale)
+	);
 	const adapter = getRouteAdapter(runtime.data.adapterKey);
 	const adapterInput = {
 		route,
@@ -47,7 +52,18 @@ export async function loadRouteDependencies(
 	}
 	if (adapter?.resolveDependencies) {
 		const resolveDependencies = adapter.resolveDependencies;
-		Object.assign(dependencies, await resolveDependencies(adapterInput));
+		Object.assign(
+			dependencies,
+			await auditSpan(
+				"adapter.resolveDependencies",
+				{
+					locale,
+					routeKey: route.routeKey,
+					adapterKey: runtime.data.adapterKey
+				},
+				() => resolveDependencies(adapterInput)
+			)
+		);
 	}
 	const hubEntity =
 		entityResult.entity.entityType === "hub-global"

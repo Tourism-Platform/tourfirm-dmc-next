@@ -4,6 +4,7 @@ import type { TAppRoute } from "./app-route.types";
 import { loadRouteDependencies } from "./load-route-dependencies";
 import { loadRouteEntity } from "./load-route-entity";
 import type { TRouteData } from "./types/route-data.types";
+import { auditSpan } from "@/cms/perf/audit-span";
 
 type TLoadRouteDataResult = {
 	data: TRouteData;
@@ -42,12 +43,15 @@ async function loadRouteDataWork(
 	locale: string,
 	searchParams?: TSearchParams
 ): Promise<TLoadRouteDataResult> {
-	const entityResult = await loadRouteEntity(route, locale);
-	const data = await loadRouteDependencies(
-		route,
-		entityResult,
-		locale,
-		searchParams
+	const entityResult = await auditSpan(
+		"loadRouteEntity",
+		{ locale, routeKey: route.routeKey, kind: route.kind },
+		() => loadRouteEntity(route, locale)
+	);
+	const data = await auditSpan(
+		"loadRouteDependencies",
+		{ locale, routeKey: route.routeKey, kind: route.kind },
+		() => loadRouteDependencies(route, entityResult, locale, searchParams)
 	);
 	return { data, entityResult };
 }

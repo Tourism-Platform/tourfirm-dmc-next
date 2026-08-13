@@ -2,6 +2,7 @@ import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
 
+import { auditSpan, withAuditContext } from "@/cms/perf/audit-span";
 import { resolveAppRoute } from "@/cms/routing";
 import {
 	buildCmsRouteMetadata,
@@ -24,11 +25,24 @@ export async function buildCmsSegmentsMetadata({
 	locale,
 	segments
 }: Omit<TRenderArgs, "searchParams">) {
-	const route = await resolveAppRoute(locale, segments);
-	if (!route) {
-		return {};
-	}
-	return buildCmsRouteMetadata(route, locale);
+	return withAuditContext(
+		{ phase: "metadata", url: `/${locale}/${segments.join("/")}` },
+		async () => {
+			const route = await auditSpan(
+				"resolveAppRoute",
+				{ locale, segments: segments.join("/"), caller: "metadata" },
+				() => resolveAppRoute(locale, segments)
+			);
+			if (!route) {
+				return {};
+			}
+			return auditSpan(
+				"buildCmsRouteMetadata",
+				{ locale, routeKey: route.routeKey },
+				() => buildCmsRouteMetadata(route, locale)
+			);
+		}
+	);
 }
 
 export async function renderCmsSegmentsPage({
@@ -36,10 +50,23 @@ export async function renderCmsSegmentsPage({
 	segments,
 	searchParams
 }: TRenderArgs): Promise<ReactNode> {
-	setRequestLocale(locale);
-	const route = await resolveAppRoute(locale, segments);
-	if (!route) {
-		notFound();
-	}
-	return renderCmsRoute(route, locale, searchParams);
+	return withAuditContext(
+		{ phase: "page", url: `/${locale}/${segments.join("/")}` },
+		async () => {
+			setRequestLocale(locale);
+			const route = await auditSpan(
+				"resolveAppRoute",
+				{ locale, segments: segments.join("/"), caller: "page" },
+				() => resolveAppRoute(locale, segments)
+			);
+			if (!route) {
+				notFound();
+			}
+			return auditSpan(
+				"renderCmsRoute",
+				{ locale, routeKey: route.routeKey, kind: route.kind },
+				() => renderCmsRoute(route, locale, searchParams)
+			);
+		}
+	);
 }

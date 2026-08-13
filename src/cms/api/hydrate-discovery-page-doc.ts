@@ -3,17 +3,9 @@ import "server-only";
 
 import { toGeoLocale } from "./geo-locale";
 import { hydrateGeoPageDoc } from "./hydrate-geo-page-doc";
+import { auditSpan } from "@/cms/perf/audit-span";
 
 type TPayload = Awaited<ReturnType<typeof getPayload>>;
-
-type TLeanMedia = {
-	id: number;
-	url?: string | null;
-	alt?: string | null;
-	width?: number | null;
-	height?: number | null;
-	filename?: string | null;
-};
 
 const SINGLE_RELATIONS = [
 	"country",
@@ -47,7 +39,7 @@ const FIELD_COLLECTION: Record<string, CollectionSlug> = {
 	coverImage: "media"
 };
 
-const LEAN_SELECT: Record<string, Record<string, true>> = {
+export const LEAN_SELECT: Record<string, Record<string, true>> = {
 	media: {
 		id: true,
 		url: true,
@@ -191,7 +183,7 @@ export function getDiscoveryPageSelect(
 	);
 }
 
-export const DISCOVERY_DOCUMENT_CACHE_VERSION = "lean-v1" as const;
+export const DISCOVERY_DOCUMENT_CACHE_VERSION = "lean-v2" as const;
 
 function relationIds(value: unknown): number[] {
 	if (typeof value === "number") {
@@ -231,20 +223,25 @@ async function fetchByIds(
 		return map;
 	}
 
-	const result = await payload.find({
-		collection,
-		locale: toGeoLocale(locale),
-		fallbackLocale: "en",
-		depth: 0,
-		limit: unique.length,
-		pagination: false,
-		select: LEAN_SELECT[collection] ?? {
-			id: true,
-			slug: true,
-			title: true
-		},
-		where: { id: { in: unique } }
-	});
+	const result = await auditSpan(
+		"payload.find:hydrateFetchByIds",
+		{ collection, locale, idCount: unique.length, depth: 0 },
+		() =>
+			payload.find({
+				collection,
+				locale: toGeoLocale(locale),
+				fallbackLocale: "en",
+				depth: 0,
+				limit: unique.length,
+				pagination: false,
+				select: LEAN_SELECT[collection] ?? {
+					id: true,
+					slug: true,
+					title: true
+				},
+				where: { id: { in: unique } }
+			})
+	);
 
 	for (const doc of result.docs) {
 		const id = Number((doc as { id?: unknown }).id);
@@ -310,42 +307,10 @@ function collectNestedMediaIds(docs: Record<string, unknown>[]): number[] {
 	return ids;
 }
 
-/**
- * Depth 0 collection docs keep relations as IDs.
- * Hydrate only card/meta/block media needed for SSR — not nested geo blocks.
- */
-export async function hydrateDiscoveryPageDoc(
-	payload: TPayload,
-	locale: string,
-	collection: string,
-	doc: Record<string, unknown>
-): Promise<Record<string, unknown>> {
-	const withBlocks = await hydrateGeoPageDoc(payload, locale, doc);
-	const next: Record<string, unknown> = { ...withBlocks };
-
-	if (collection === "experiences" && typeof next.id === "number") {
-		const routes = await payload.find({
-			collection: "routes",
-			locale: toGeoLocale(locale),
-			fallbackLocale: "en",
-			depth: 0,
-			limit: 12,
-			pagination: false,
-			select: LEAN_SELECT.routes,
-			where: {
-				and: [
-					{ _status: { equals: "published" } },
-					{ experiences: { contains: next.id } }
-				]
-			}
-		});
-		next.relatedRoutes = {
-			docs: routes.docs,
-			hasNextPage: false,
-			totalDocs: routes.docs.length
-		};
-	}
-
+function collectRelationNeeds(
+	source: Record<string, unknown>,
+	options?: { skipRelatedRoutes?: boolean; skipMedia?: boolean }
+): Map<CollectionSlug, Set<number>> {
 	const needed = new Map<CollectionSlug, Set<number>>();
 
 	function add(collectionSlug: CollectionSlug, ids: number[]) {
@@ -360,17 +325,37 @@ export async function hydrateDiscoveryPageDoc(
 	}
 
 	for (const field of SINGLE_RELATIONS) {
+		if (
+			options?.skipMedia &&
+			(field === "heroImage" || field === "coverImage")
+		) {
+			continue;
+		}
 		const collectionSlug = FIELD_COLLECTION[field];
 		if (!collectionSlug) {
 			continue;
 		}
-		add(collectionSlug, relationIds(next[field]));
+		add(collectionSlug, relationIds(source[field]));
 	}
 
 	for (const { field, collection: collectionSlug } of MANY_RELATIONS) {
-		add(collectionSlug, relationIds(next[field]));
+		if (options?.skipMedia && field === "gallery") {
+			continue;
+		}
+		if (options?.skipRelatedRoutes && field === "relatedRoutes") {
+			continue;
+		}
+		add(collectionSlug, relationIds(source[field]));
 	}
 
+	return needed;
+}
+
+async function fetchNeededMaps(
+	payload: TPayload,
+	locale: string,
+	needed: Map<CollectionSlug, Set<number>>
+): Promise<Map<CollectionSlug, Map<number, Record<string, unknown>>>> {
 	const fetched = new Map<
 		CollectionSlug,
 		Map<number, Record<string, unknown>>
@@ -384,6 +369,86 @@ export async function hydrateDiscoveryPageDoc(
 			);
 		})
 	);
+
+	return fetched;
+}
+
+/**
+ * Depth 0 collection docs keep relations as IDs.
+ * Hydrate only card/meta/block media needed for SSR — not nested geo blocks.
+ *
+ * Wave 1 (independent): block media/stops, inverse relatedRoutes, primary relations.
+ * Wave 2 (needs wave-1 docs): nested card titles + all card/hero media.
+ */
+export async function hydrateDiscoveryPageDoc(
+	payload: TPayload,
+	locale: string,
+	collection: string,
+	doc: Record<string, unknown>
+): Promise<Record<string, unknown>> {
+	const relatedRoutesPromise =
+		collection === "experiences" && typeof doc.id === "number"
+			? auditSpan(
+					"payload.find:experienceRelatedRoutes",
+					{ locale, experienceId: doc.id, depth: 0, limit: 12 },
+					() =>
+						payload.find({
+							collection: "routes",
+							locale: toGeoLocale(locale),
+							fallbackLocale: "en",
+							depth: 0,
+							limit: 12,
+							pagination: false,
+							select: LEAN_SELECT.routes,
+							where: {
+								and: [
+									{ _status: { equals: "published" } },
+									{ experiences: { contains: doc.id } }
+								]
+							}
+						})
+				)
+			: Promise.resolve(null);
+
+	const primaryNeeded = collectRelationNeeds(doc, {
+		skipRelatedRoutes: collection === "experiences",
+		skipMedia: true
+	});
+
+	const [withBlocks, routes, fetched] = await auditSpan(
+		"hydrateDiscoveryPageDoc:wave1",
+		{
+			locale,
+			collection,
+			primaryCollections: [...primaryNeeded.keys()]
+		},
+		() =>
+			Promise.all([
+				auditSpan(
+					"hydrateGeoPageDoc",
+					{ locale, collection, caller: "hydrateDiscoveryPageDoc" },
+					() => hydrateGeoPageDoc(payload, locale, doc)
+				),
+				relatedRoutesPromise,
+				auditSpan(
+					"hydrateDiscoveryPageDoc:primaryRelations",
+					{
+						locale,
+						collections: [...primaryNeeded.keys()]
+					},
+					() => fetchNeededMaps(payload, locale, primaryNeeded)
+				)
+			])
+	);
+	const next: Record<string, unknown> = { ...withBlocks };
+
+	if (routes) {
+		next.relatedRoutes = {
+			docs: routes.docs,
+			hasNextPage: false,
+			totalDocs: routes.docs.length
+		};
+	}
 
 	const relatedDocs: Record<string, unknown>[] = [];
 	for (const map of fetched.values()) {
@@ -427,27 +492,55 @@ export async function hydrateDiscoveryPageDoc(
 		addNested("attractions", relationIds(related.attraction));
 	}
 
-	await Promise.all(
-		[...nestedNeeded.entries()].map(async ([collectionSlug, ids]) => {
-			const extra = await fetchByIds(payload, collectionSlug, locale, [
-				...ids
-			]);
-			const current =
-				fetched.get(collectionSlug) ??
-				new Map<number, Record<string, unknown>>();
-			for (const [id, doc] of extra) {
-				current.set(id, doc);
-			}
-			fetched.set(collectionSlug, current);
-			relatedDocs.push(...extra.values());
-		})
-	);
-
 	const mediaIds = [
 		...collectMediaIdsFromDoc(next),
 		...collectNestedMediaIds(relatedDocs)
 	];
-	const mediaMap = await fetchByIds(payload, "media", locale, mediaIds);
+
+	const [, mediaMap] = await auditSpan(
+		"hydrateDiscoveryPageDoc:wave2",
+		{
+			locale,
+			collection,
+			nestedCollections: [...nestedNeeded.keys()],
+			mediaCount: mediaIds.length
+		},
+		() =>
+			Promise.all([
+				auditSpan(
+					"hydrateDiscoveryPageDoc:nestedRelations",
+					{
+						locale,
+						collections: [...nestedNeeded.keys()]
+					},
+					async () => {
+						await Promise.all(
+							[...nestedNeeded.entries()].map(
+								async ([collectionSlug, ids]) => {
+									const extra = await fetchByIds(
+										payload,
+										collectionSlug,
+										locale,
+										[...ids]
+									);
+									const current =
+										fetched.get(collectionSlug) ??
+										new Map<
+											number,
+											Record<string, unknown>
+										>();
+									for (const [id, nestedDoc] of extra) {
+										current.set(id, nestedDoc);
+									}
+									fetched.set(collectionSlug, current);
+								}
+							)
+						);
+					}
+				),
+				fetchByIds(payload, "media", locale, mediaIds)
+			])
+	);
 
 	function withMedia(doc: Record<string, unknown>): Record<string, unknown> {
 		const patched = { ...doc };
@@ -543,4 +636,74 @@ export async function hydrateDiscoveryPageDoc(
 	}
 
 	return withMedia(next);
+}
+
+export async function hydrateLeanCardDocs(
+	payload: TPayload,
+	locale: string,
+	docs: Record<string, unknown>[]
+): Promise<Record<string, unknown>[]> {
+	if (docs.length === 0) {
+		return docs;
+	}
+
+	const needed = new Map<CollectionSlug, Set<number>>();
+
+	function add(collectionSlug: CollectionSlug, ids: number[]) {
+		if (ids.length === 0) {
+			return;
+		}
+		const set = needed.get(collectionSlug) ?? new Set<number>();
+		for (const id of ids) {
+			set.add(id);
+		}
+		needed.set(collectionSlug, set);
+	}
+
+	for (const doc of docs) {
+		add("media", collectMediaIdsFromDoc(doc));
+		add("themes", relationIds(doc.themes));
+		add("countries", relationIds(doc.country));
+		add("countries", relationIds(doc.countries));
+		add("cities", relationIds(doc.city));
+	}
+
+	const fetched = new Map<
+		CollectionSlug,
+		Map<number, Record<string, unknown>>
+	>();
+
+	await Promise.all(
+		[...needed.entries()].map(async ([collectionSlug, ids]) => {
+			fetched.set(
+				collectionSlug,
+				await fetchByIds(payload, collectionSlug, locale, [...ids])
+			);
+		})
+	);
+
+	const mediaMap =
+		fetched.get("media") ?? new Map<number, Record<string, unknown>>();
+
+	return docs.map((doc) => {
+		const patched: Record<string, unknown> = { ...doc };
+		if (typeof patched.heroImage === "number") {
+			patched.heroImage =
+				mediaMap.get(patched.heroImage as number) ?? patched.heroImage;
+		}
+		const themeMap = fetched.get("themes");
+		const countryMap = fetched.get("countries");
+		const cityMap = fetched.get("cities");
+		if (themeMap) {
+			patched.themes = patchValue(patched.themes, themeMap);
+		}
+		if (countryMap) {
+			patched.country = patchValue(patched.country, countryMap);
+			patched.countries = patchValue(patched.countries, countryMap);
+		}
+		if (cityMap) {
+			patched.city = patchValue(patched.city, cityMap);
+		}
+		return patched;
+	});
 }

@@ -2,21 +2,25 @@ export type TRouteScope = "COUNTRY" | "CITY" | "ATTRACTION" | "MIXED";
 
 export type TRouteListFilters = {
 	theme?: string;
+	themeId?: number;
 	country?: string;
 	scope?: TRouteScope;
 	featured?: boolean;
 	page?: number;
 	limit?: number;
+	lean?: boolean;
 };
 
 export type TExperienceListFilters = {
 	theme?: string;
+	themeId?: number;
 	type?: string;
 	country?: string;
 	city?: string;
 	featured?: boolean;
 	page?: number;
 	limit?: number;
+	lean?: boolean;
 };
 
 export type TTradeFairListFilters = {

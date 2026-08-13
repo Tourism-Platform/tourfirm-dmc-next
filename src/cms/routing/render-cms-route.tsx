@@ -18,6 +18,7 @@ import type { TGeoRoute } from "./geo-route.types";
 import { loadRouteData } from "./load-route-data";
 import { renderWidgets } from "./render-widgets";
 import { mapCmsBlocks } from "@/cms/lib";
+import { auditMark, auditSpan } from "@/cms/perf/audit-span";
 
 function isGeoPageKind(
 	kind: TGeoRoute["kind"]
@@ -83,22 +84,32 @@ export async function renderCmsRoute(
 ) {
 	setRequestLocale(locale);
 	if (isManagedDiscoveryRoute(route)) {
-		const { data, entityResult } = await loadRouteData(
-			route,
-			locale,
-			searchParams
+		const { data, entityResult } = await auditSpan(
+			"loadRouteData",
+			{ locale, routeKey: route.routeKey, kind: route.kind },
+			() => loadRouteData(route, locale, searchParams)
 		);
 		const widgetModels = buildWidgetModels(route, data, entityResult);
+		const ctxT0 = performance.now();
 		const ctx = createRenderContext({
 			route,
 			data,
 			entityResult,
 			widgetModels
 		});
-		const widgets = await renderWidgets(
-			ctx.widgetModels,
-			ctx.runtime,
-			locale
+		auditMark("createRenderContext", {
+			locale,
+			routeKey: route.routeKey,
+			durationMs: Math.round((performance.now() - ctxT0) * 10) / 10
+		});
+		const widgets = await auditSpan(
+			"renderWidgets",
+			{
+				locale,
+				routeKey: route.routeKey,
+				widgetCount: ctx.widgetModels.length
+			},
+			() => renderWidgets(ctx.widgetModels, ctx.runtime, locale)
 		);
 		return (
 			<>
@@ -112,8 +123,16 @@ export async function renderCmsRoute(
 		);
 	}
 	if (route.source === "geo") {
-		const sections = await mapCmsBlocks(route.document.blocks);
-		const uiContent = await loadUiContent(locale);
+		const sections = await auditSpan(
+			"mapCmsBlocks",
+			{ locale, kind: route.kind, caller: "geo" },
+			() => mapCmsBlocks(route.document.blocks)
+		);
+		const uiContent = await auditSpan(
+			"loadUiContent",
+			{ locale, caller: "renderCmsRoute.geo" },
+			() => loadUiContent(locale)
+		);
 		const breadcrumbItems = buildGeoBreadcrumbs(
 			route,
 			uiContent.discovery.geoBreadcrumbLabel

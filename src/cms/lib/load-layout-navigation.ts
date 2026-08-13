@@ -26,6 +26,7 @@ import {
 	resolveFooterNavigation,
 	resolveHeaderNavigation
 } from "./resolve-navigation";
+import { auditSpan } from "@/cms/perf/audit-span";
 
 export type TLayoutNavigation = {
 	navItems: TResolvedNavLink[];
@@ -42,7 +43,9 @@ export type TLayoutNavigation = {
 async function fetchLayoutNavigation(
 	locale: string
 ): Promise<TLayoutNavigation> {
-	return fetchLayoutNavigationWork(locale);
+	return auditSpan("fetchLayoutNavigation:uncached", { locale }, () =>
+		fetchLayoutNavigationWork(locale)
+	);
 }
 async function fetchLayoutNavigationWork(
 	locale: string
@@ -185,6 +188,10 @@ const getCachedLayoutNavigation = unstable_cache(
 );
 export const loadLayoutNavigation = cache(
 	async (locale: string): Promise<TLayoutNavigation> => {
-		return getCachedLayoutNavigation(locale);
+		return auditSpan(
+			"loadLayoutNavigation",
+			{ locale, layer: "react+data" },
+			() => getCachedLayoutNavigation(locale)
+		);
 	}
 );

@@ -13,6 +13,7 @@ import {
 	getDiscoveryPageSelect,
 	hydrateDiscoveryPageDoc
 } from "./hydrate-discovery-page-doc";
+import { auditSpan } from "@/cms/perf/audit-span";
 
 export type TFindCollectionDocumentsArgs = {
 	collection: string;
@@ -105,31 +106,56 @@ async function fetchCollectionDocumentBySlug(
 	slug: string
 ): Promise<Record<string, unknown> | null> {
 	try {
-		const payload = await getPayload({ config });
+		const payload = await auditSpan(
+			"getPayload",
+			{
+				caller: "fetchCollectionDocumentBySlug",
+				collection,
+				locale,
+				slug
+			},
+			() => getPayload({ config })
+		);
 		const geoLocale = toGeoLocale(locale);
-		const result = await payload.find({
-			collection: collection as CollectionSlug,
-			locale: geoLocale,
-			fallbackLocale: "en",
-			depth: DISCOVERY_PAGE_DEPTH,
-			limit: 1,
-			select: getDiscoveryPageSelect(collection),
-			where: {
-				and: [
-					{ slug: { equals: slug } },
-					{ _status: { equals: "published" } }
-				]
-			}
-		});
+		const result = await auditSpan(
+			"payload.find:collectionDocumentBySlug",
+			{
+				collection,
+				locale,
+				slug,
+				depth: DISCOVERY_PAGE_DEPTH,
+				docs: 1
+			},
+			() =>
+				payload.find({
+					collection: collection as CollectionSlug,
+					locale: geoLocale,
+					fallbackLocale: "en",
+					depth: DISCOVERY_PAGE_DEPTH,
+					limit: 1,
+					select: getDiscoveryPageSelect(collection),
+					where: {
+						and: [
+							{ slug: { equals: slug } },
+							{ _status: { equals: "published" } }
+						]
+					}
+				})
+		);
 		const doc = result.docs[0];
 		if (!doc) {
 			return null;
 		}
-		return await hydrateDiscoveryPageDoc(
-			payload,
-			geoLocale,
-			collection,
-			doc as unknown as Record<string, unknown>
+		return await auditSpan(
+			"hydrateDiscoveryPageDoc",
+			{ collection, locale, slug },
+			() =>
+				hydrateDiscoveryPageDoc(
+					payload,
+					geoLocale,
+					collection,
+					doc as unknown as Record<string, unknown>
+				)
 		);
 	} catch {
 		return null;
@@ -147,7 +173,11 @@ export const findCollectionDocumentBySlug = cache(
 		slug: string,
 		_depth = DISCOVERY_PAGE_DEPTH
 	): Promise<Record<string, unknown> | null> => {
-		return getCachedCollectionDocumentBySlug(collection, locale, slug);
+		return auditSpan(
+			"findCollectionDocumentBySlug",
+			{ collection, locale, slug, layer: "react+data" },
+			() => getCachedCollectionDocumentBySlug(collection, locale, slug)
+		);
 	}
 );
 async function fetchCollectionHub(

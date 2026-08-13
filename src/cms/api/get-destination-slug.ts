@@ -6,6 +6,7 @@ import "server-only";
 
 import { GEO_FINDER_CACHE_VERSION } from "./geo-page-query";
 import { DESTINATION_GLOBAL_CACHE_TAG } from "@/cms/cache/cache-tags";
+import { auditSpan } from "@/cms/perf/audit-span";
 
 type TLocale = "en" | "ru" | "uz";
 type TDestinationSlug = {
@@ -15,14 +16,23 @@ async function fetchDestinationSlug(
 	locale: string
 ): Promise<TDestinationSlug | null> {
 	try {
-		const payload = await getPayload({ config });
-		const doc = await payload.findGlobal({
-			slug: "destination",
-			locale: locale as TLocale,
-			depth: 0,
-			select: { slug: true },
-			fallbackLocale: "en"
-		});
+		const payload = await auditSpan(
+			"getPayload",
+			{ caller: "fetchDestinationSlug", locale },
+			() => getPayload({ config })
+		);
+		const doc = await auditSpan(
+			"payload.findGlobal:destinationSlug",
+			{ locale, depth: 0 },
+			() =>
+				payload.findGlobal({
+					slug: "destination",
+					locale: locale as TLocale,
+					depth: 0,
+					select: { slug: true },
+					fallbackLocale: "en"
+				})
+		);
 		const slug =
 			doc && typeof doc === "object" && "slug" in doc
 				? String(
@@ -52,6 +62,10 @@ const getCachedDestinationSlug = unstable_cache(
 /** Nav-root slug only — use on geo/layout paths that must not load destination blocks. */
 export const getDestinationSlug = cache(
 	async (locale: string): Promise<TDestinationSlug | null> => {
-		return getCachedDestinationSlug(locale);
+		return auditSpan(
+			"getDestinationSlug",
+			{ locale, layer: "react+data" },
+			() => getCachedDestinationSlug(locale)
+		);
 	}
 );

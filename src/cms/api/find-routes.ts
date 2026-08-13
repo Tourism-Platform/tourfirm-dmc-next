@@ -11,44 +11,54 @@ import {
 	type TRouteListFilters
 } from "./discovery-query.types";
 import { toGeoLocale } from "./geo-locale";
+import { LEAN_SELECT, hydrateLeanCardDocs } from "./hydrate-discovery-page-doc";
+import { auditSpan } from "@/cms/perf/audit-span";
 import type { Route } from "@/payload-types";
+
+async function lookupRouteFilterId(
+	collection: "themes" | "countries",
+	slug: string
+): Promise<number | undefined> {
+	const payload = await getPayload({ config });
+	const result = await auditSpan(
+		`resolveFilterIds.lookup.${collection}`,
+		{ slug, caller: "routes" },
+		() =>
+			payload.find({
+				collection,
+				where: { slug: { equals: slug } },
+				limit: 1,
+				depth: 0,
+				locale: "en"
+			})
+	);
+	const id = result.docs[0]?.id;
+	return typeof id === "number" ? id : undefined;
+}
 
 async function resolveRouteFilterIds(filters: TRouteListFilters): Promise<{
 	themeId?: number;
 	countryId?: number;
 }> {
-	const payload = await getPayload({ config });
-	const result: {
-		themeId?: number;
-		countryId?: number;
-	} = {};
-	if (filters.theme) {
-		const themeResult = await payload.find({
-			collection: "themes",
-			where: { slug: { equals: filters.theme } },
-			limit: 1,
-			depth: 0,
-			locale: "en"
-		});
-		const themeId = themeResult.docs[0]?.id;
-		if (typeof themeId === "number") {
-			result.themeId = themeId;
-		}
+	if (typeof filters.themeId === "number" && !filters.country) {
+		return { themeId: filters.themeId };
 	}
-	if (filters.country) {
-		const countryResult = await payload.find({
-			collection: "countries",
-			where: { slug: { equals: filters.country } },
-			limit: 1,
-			depth: 0,
-			locale: "en"
-		});
-		const countryId = countryResult.docs[0]?.id;
-		if (typeof countryId === "number") {
-			result.countryId = countryId;
-		}
-	}
-	return result;
+
+	const [themeId, countryId] = await Promise.all([
+		typeof filters.themeId === "number"
+			? Promise.resolve(filters.themeId)
+			: filters.theme
+				? lookupRouteFilterId("themes", filters.theme)
+				: Promise.resolve(undefined),
+		filters.country
+			? lookupRouteFilterId("countries", filters.country)
+			: Promise.resolve(undefined)
+	]);
+
+	return {
+		...(themeId != null ? { themeId } : {}),
+		...(countryId != null ? { countryId } : {})
+	};
 }
 function buildRouteWhere(
 	filters: TRouteListFilters,
@@ -58,7 +68,7 @@ function buildRouteWhere(
 	}
 ): Where {
 	const and: Where[] = [{ _status: { equals: "published" } }];
-	if (filters.theme && ids.themeId) {
+	if (ids.themeId) {
 		and.push({ themes: { contains: ids.themeId } });
 	}
 	if (filters.country && ids.countryId) {
@@ -78,20 +88,52 @@ async function fetchRoutes(
 ): Promise<TDiscoveryListResult<Route>> {
 	const filters = JSON.parse(filtersKey) as TRouteListFilters;
 	try {
-		const payload = await getPayload({ config });
-		const ids = await resolveRouteFilterIds(filters);
-		const result = await payload.find({
-			collection: "routes",
-			locale: toGeoLocale(locale),
-			fallbackLocale: "en",
-			depth: 1,
-			page: filters.page ?? 1,
-			limit: filters.limit ?? DISCOVERY_LIST_DEFAULT_LIMIT,
-			sort: ["sortOrder", "title"],
-			where: buildRouteWhere(filters, ids)
-		});
+		const payload = await auditSpan(
+			"getPayload",
+			{ caller: "fetchRoutes", locale },
+			() => getPayload({ config })
+		);
+		const ids = await auditSpan("resolveFilterIds:routes", { locale }, () =>
+			resolveRouteFilterIds(filters)
+		);
+		const lean = Boolean(filters.lean);
+		const depth = lean ? 0 : 1;
+		const result = await auditSpan(
+			"payload.find:routes",
+			{
+				locale,
+				depth,
+				lean,
+				page: filters.page ?? 1,
+				limit: filters.limit ?? DISCOVERY_LIST_DEFAULT_LIMIT
+			},
+			() =>
+				payload.find({
+					collection: "routes",
+					locale: toGeoLocale(locale),
+					fallbackLocale: "en",
+					depth,
+					page: filters.page ?? 1,
+					limit: filters.limit ?? DISCOVERY_LIST_DEFAULT_LIMIT,
+					sort: ["sortOrder", "title"],
+					where: buildRouteWhere(filters, ids),
+					...(lean ? { select: LEAN_SELECT.routes } : {})
+				})
+		);
+		const docs = lean
+			? await auditSpan(
+					"hydrateLeanCardDocs:routes",
+					{ locale, count: result.docs.length },
+					() =>
+						hydrateLeanCardDocs(
+							payload,
+							locale,
+							result.docs as unknown as Record<string, unknown>[]
+						)
+				)
+			: result.docs;
 		return {
-			docs: result.docs,
+			docs: docs as unknown as Route[],
 			totalDocs: result.totalDocs,
 			page: result.page ?? 1,
 			totalPages: result.totalPages,
@@ -117,7 +159,9 @@ export const findRoutes = cache(
 		locale: string,
 		filters: TRouteListFilters = {}
 	): Promise<TDiscoveryListResult<Route>> => {
-		return getCachedRoutes(locale, JSON.stringify(filters));
+		return auditSpan("findRoutes", { locale, layer: "react+data" }, () =>
+			getCachedRoutes(locale, JSON.stringify(filters))
+		);
 	}
 );
 export const findFeaturedRoutes = cache(

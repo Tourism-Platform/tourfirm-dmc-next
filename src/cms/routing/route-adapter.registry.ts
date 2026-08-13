@@ -8,7 +8,6 @@ import {
 import { findNews } from "@/cms/api/find-news";
 import { findRoutes } from "@/cms/api/find-routes";
 import { findTradeFairs } from "@/cms/api/find-trade-fairs";
-import { getDestination } from "@/cms/api/get-destination";
 import { getExperienceThemeIds } from "@/cms/lib/map-discovery-cards";
 import type { Experience } from "@/payload-types";
 
@@ -57,10 +56,7 @@ const routesAdapter: TRouteAdapter = {
 			page: searchParams?.page ? Number(searchParams.page) : undefined,
 			theme: searchParams?.theme,
 			country: searchParams?.country
-		}),
-	resolveDependencies: async ({ locale }) => ({
-		destination: await getDestination(locale)
-	})
+		})
 };
 
 const experiencesAdapter: TRouteAdapter = {
@@ -91,16 +87,27 @@ const experiencesAdapter: TRouteAdapter = {
 const themesAdapter: TRouteAdapter = {
 	key: "themes",
 	resolveDependencies: async ({ locale, entityResult }) => {
-		const theme = entityResult.rawDocument as { slug?: string } | null;
+		const theme = entityResult.rawDocument as {
+			slug?: string;
+			id?: number;
+		} | null;
 		const slug = theme?.slug;
+		const themeId = typeof theme?.id === "number" ? theme.id : undefined;
 
-		if (!slug) {
+		if (!slug && themeId == null) {
 			return {};
 		}
 
+		const filters = {
+			...(slug ? { theme: slug } : {}),
+			...(themeId != null ? { themeId } : {}),
+			limit: 12,
+			lean: true as const
+		};
+
 		const [routesResult, experiencesResult] = await Promise.all([
-			findRoutes(locale, { theme: slug, limit: 12 }),
-			findExperiences(locale, { theme: slug, limit: 12 })
+			findRoutes(locale, filters),
+			findExperiences(locale, filters)
 		]);
 
 		return {

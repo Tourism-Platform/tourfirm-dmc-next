@@ -7,6 +7,7 @@ import "server-only";
 import { isPagePathGroup } from "@/shared/config/routes/page-path-groups";
 
 import { toGeoLocale } from "./geo-locale";
+import { auditSpan } from "@/cms/perf/audit-span";
 import type { Page } from "@/payload-types";
 
 async function fetchPageBySegmentGroupAndSlug(
@@ -16,22 +17,31 @@ async function fetchPageBySegmentGroupAndSlug(
 	pageSlug: string
 ): Promise<Page | null> {
 	try {
-		const payload = await getPayload({ config });
-		const result = await payload.find({
-			collection: "pages",
-			locale: toGeoLocale(locale),
-			fallbackLocale: "en",
-			depth: 2,
-			limit: 1,
-			where: {
-				and: [
-					{ slug: { equals: pageSlug } },
-					{ segment: { equals: segmentId } },
-					{ pathGroup: { equals: pathGroup } },
-					{ _status: { equals: "published" } }
-				]
-			}
-		});
+		const payload = await auditSpan(
+			"getPayload",
+			{ caller: "fetchPageBySegmentGroupAndSlug", locale, pageSlug },
+			() => getPayload({ config })
+		);
+		const result = await auditSpan(
+			"payload.find:pageBySegmentGroupAndSlug",
+			{ locale, pathGroup, pageSlug, depth: 2 },
+			() =>
+				payload.find({
+					collection: "pages",
+					locale: toGeoLocale(locale),
+					fallbackLocale: "en",
+					depth: 2,
+					limit: 1,
+					where: {
+						and: [
+							{ slug: { equals: pageSlug } },
+							{ segment: { equals: segmentId } },
+							{ pathGroup: { equals: pathGroup } },
+							{ _status: { equals: "published" } }
+						]
+					}
+				})
+		);
 		return result.docs[0] ?? null;
 	} catch {
 		return null;
@@ -52,11 +62,16 @@ export const findPageBySegmentGroupAndSlug = cache(
 		if (!isPagePathGroup(pathGroup)) {
 			return null;
 		}
-		return getCachedPageBySegmentGroupAndSlug(
-			locale,
-			segmentId,
-			pathGroup,
-			pageSlug
+		return auditSpan(
+			"findPageBySegmentGroupAndSlug",
+			{ locale, pathGroup, pageSlug, layer: "react+data" },
+			() =>
+				getCachedPageBySegmentGroupAndSlug(
+					locale,
+					segmentId,
+					pathGroup,
+					pageSlug
+				)
 		);
 	}
 );

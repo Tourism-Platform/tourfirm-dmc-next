@@ -11,6 +11,7 @@ import {
 	GEO_PAGE_SELECT
 } from "./geo-page-query";
 import { hydrateGeoPageDoc } from "./hydrate-geo-page-doc";
+import { auditSpan } from "@/cms/perf/audit-span";
 import type { Country } from "@/payload-types";
 
 async function fetchCountryBySlug(
@@ -18,33 +19,47 @@ async function fetchCountryBySlug(
 	slug: string
 ): Promise<Country | null> {
 	try {
-		const payload = await getPayload({ config });
+		const payload = await auditSpan(
+			"getPayload",
+			{ caller: "fetchCountryBySlug", locale, slug },
+			() => getPayload({ config })
+		);
 		const geoLocale = toGeoLocale(locale);
 
-		const result = await payload.find({
-			collection: "countries",
-			locale: geoLocale,
-			fallbackLocale: "en",
-			depth: GEO_PAGE_DEPTH,
-			limit: 1,
-			select: GEO_PAGE_SELECT,
-			where: {
-				and: [
-					{ slug: { equals: slug } },
-					{ _status: { equals: "published" } }
-				]
-			}
-		});
+		const result = await auditSpan(
+			"payload.find:countryBySlug",
+			{ locale, slug, depth: GEO_PAGE_DEPTH },
+			() =>
+				payload.find({
+					collection: "countries",
+					locale: geoLocale,
+					fallbackLocale: "en",
+					depth: GEO_PAGE_DEPTH,
+					limit: 1,
+					select: GEO_PAGE_SELECT,
+					where: {
+						and: [
+							{ slug: { equals: slug } },
+							{ _status: { equals: "published" } }
+						]
+					}
+				})
+		);
 
 		const doc = result.docs[0] as Country | undefined;
 		if (!doc) {
 			return null;
 		}
 
-		return (await hydrateGeoPageDoc(
-			payload,
-			geoLocale,
-			doc as unknown as Record<string, unknown>
+		return (await auditSpan(
+			"hydrateGeoPageDoc",
+			{ locale, collection: "countries", caller: "fetchCountryBySlug" },
+			() =>
+				hydrateGeoPageDoc(
+					payload,
+					geoLocale,
+					doc as unknown as Record<string, unknown>
+				)
 		)) as unknown as Country;
 	} catch {
 		return null;
@@ -59,6 +74,10 @@ const getCachedCountryBySlug = unstable_cache(
 
 export const findCountryBySlug = cache(
 	async (locale: string, slug: string): Promise<Country | null> => {
-		return getCachedCountryBySlug(locale, slug);
+		return auditSpan(
+			"findCountryBySlug",
+			{ locale, slug, layer: "react+data" },
+			() => getCachedCountryBySlug(locale, slug)
+		);
 	}
 );

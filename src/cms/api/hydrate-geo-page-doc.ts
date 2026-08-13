@@ -1,6 +1,8 @@
 import type { getPayload } from "payload";
 import "server-only";
 
+import { auditSpan } from "@/cms/perf/audit-span";
+
 type TPayload = Awaited<ReturnType<typeof getPayload>>;
 
 type TLeanMedia = {
@@ -232,47 +234,56 @@ export async function hydrateGeoPageDoc<T extends Record<string, unknown>>(
 	const stopRefs = new Map<string, Set<number>>();
 	collectStopRefs(doc.blocks, stopRefs);
 
-	const [mediaDocs, ...stopResults] = await Promise.all([
-		mediaIds.size === 0
-			? Promise.resolve({ docs: [] as TLeanMedia[] })
-			: payload.find({
-					collection: "media",
-					depth: 0,
-					limit: mediaIds.size,
-					pagination: false,
-					select: {
-						id: true,
-						url: true,
-						alt: true,
-						width: true,
-						height: true,
-						filename: true
-					},
-					where: { id: { in: [...mediaIds] } }
-				}),
-		...[...stopRefs.entries()].map(([collection, ids]) =>
-			payload.find({
-				collection: collection as
-					| "countries"
-					| "regions"
-					| "cities"
-					| "attractions",
-				locale: locale as "en" | "ru" | "uz",
-				fallbackLocale: "en",
-				depth: 0,
-				limit: ids.size,
-				pagination: false,
-				select: {
-					id: true,
-					title: true,
-					latitude: true,
-					longitude: true,
-					mapCenter: true
-				},
-				where: { id: { in: [...ids] } }
-			})
-		)
-	]);
+	const [mediaDocs, ...stopResults] = await auditSpan(
+		"hydrateGeoPageDoc:payloadFinds",
+		{
+			locale,
+			mediaCount: mediaIds.size,
+			stopCollections: stopRefs.size
+		},
+		() =>
+			Promise.all([
+				mediaIds.size === 0
+					? Promise.resolve({ docs: [] as TLeanMedia[] })
+					: payload.find({
+							collection: "media",
+							depth: 0,
+							limit: mediaIds.size,
+							pagination: false,
+							select: {
+								id: true,
+								url: true,
+								alt: true,
+								width: true,
+								height: true,
+								filename: true
+							},
+							where: { id: { in: [...mediaIds] } }
+						}),
+				...[...stopRefs.entries()].map(([collection, ids]) =>
+					payload.find({
+						collection: collection as
+							| "countries"
+							| "regions"
+							| "cities"
+							| "attractions",
+						locale: locale as "en" | "ru" | "uz",
+						fallbackLocale: "en",
+						depth: 0,
+						limit: ids.size,
+						pagination: false,
+						select: {
+							id: true,
+							title: true,
+							latitude: true,
+							longitude: true,
+							mapCenter: true
+						},
+						where: { id: { in: [...ids] } }
+					})
+				)
+			])
+	);
 
 	const mediaById = new Map<number, TLeanMedia>();
 	for (const media of mediaDocs.docs as TLeanMedia[]) {

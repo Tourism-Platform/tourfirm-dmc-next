@@ -10,19 +10,29 @@ import {
 	GEO_FINDER_CACHE_VERSION
 } from "./geo-page-query";
 import { DESTINATION_GLOBAL_CACHE_TAG } from "@/cms/cache/cache-tags";
+import { auditSpan } from "@/cms/perf/audit-span";
 import type { Destination } from "@/payload-types";
 
 type TLocale = "en" | "ru" | "uz";
 async function fetchDestination(locale: string): Promise<Destination | null> {
 	try {
-		const payload = await getPayload({ config });
-		return (await payload.findGlobal({
-			slug: "destination",
-			locale: locale as TLocale,
-			depth: DESTINATION_PAGE_DEPTH,
-			select: DESTINATION_PAGE_SELECT,
-			fallbackLocale: "en"
-		})) as Destination;
+		const payload = await auditSpan(
+			"getPayload",
+			{ caller: "fetchDestination", locale },
+			() => getPayload({ config })
+		);
+		return (await auditSpan(
+			"payload.findGlobal:destination",
+			{ locale, depth: DESTINATION_PAGE_DEPTH },
+			() =>
+				payload.findGlobal({
+					slug: "destination",
+					locale: locale as TLocale,
+					depth: DESTINATION_PAGE_DEPTH,
+					select: DESTINATION_PAGE_SELECT,
+					fallbackLocale: "en"
+				})
+		)) as Destination;
 	} catch {
 		return null;
 	}
@@ -37,6 +47,10 @@ const getCachedDestination = unstable_cache(
 );
 export const getDestination = cache(
 	async (locale: string): Promise<Destination | null> => {
-		return getCachedDestination(locale);
+		return auditSpan(
+			"getDestination",
+			{ locale, layer: "react+data" },
+			() => getCachedDestination(locale)
+		);
 	}
 );

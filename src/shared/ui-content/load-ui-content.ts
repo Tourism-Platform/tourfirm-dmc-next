@@ -24,6 +24,7 @@ import type {
 } from "./ui-content.types";
 import { DEFAULT_UI_ORDERS } from "./ui-orders.defaults";
 import { UI_CONTENT_CACHE_TAG } from "@/cms/cache/cache-tags";
+import { auditSpan } from "@/cms/perf/audit-span";
 
 const UI_GLOBAL_SLUGS = [
 	"header",
@@ -39,18 +40,27 @@ const UI_GLOBAL_SLUGS = [
 ] as const;
 type TUiGlobalSlug = (typeof UI_GLOBAL_SLUGS)[number];
 async function fetchUiGlobalsUncached(locale: TypedLocale) {
-	const payload = await getPayload({ config });
-	const entries = await Promise.all(
-		UI_GLOBAL_SLUGS.map(async (slug) => {
-			const doc = await payload.findGlobal({
-				slug,
-				locale,
-				depth: 0,
-				draft: false,
-				fallbackLocale: "en"
-			});
-			return [slug, doc] as const;
-		})
+	const payload = await auditSpan(
+		"getPayload",
+		{ caller: "fetchUiGlobalsUncached", locale },
+		() => getPayload({ config })
+	);
+	const entries = await auditSpan(
+		"payload.findGlobal:uiGlobals",
+		{ locale, count: UI_GLOBAL_SLUGS.length },
+		() =>
+			Promise.all(
+				UI_GLOBAL_SLUGS.map(async (slug) => {
+					const doc = await payload.findGlobal({
+						slug,
+						locale,
+						depth: 0,
+						draft: false,
+						fallbackLocale: "en"
+					});
+					return [slug, doc] as const;
+				})
+			)
 	);
 	return Object.fromEntries(entries) as unknown as Record<
 		TUiGlobalSlug,
