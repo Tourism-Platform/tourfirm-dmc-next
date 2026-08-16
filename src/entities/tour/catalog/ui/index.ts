@@ -4,5 +4,6 @@ export {
 	CatalogTourCardHorizontal,
 	CatalogTourCardHorizontalSkeleton
 } from "./catalog-tour-card-horizontal";
+export { LocationSuggestSelect } from "./location-suggest-select";
 export { RecentSearchCard } from "./recent-search-card";
 export { RecentSearchCardSkeleton } from "./recent-search-card-skeleton";

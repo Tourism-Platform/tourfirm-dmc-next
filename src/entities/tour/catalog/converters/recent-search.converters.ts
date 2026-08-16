@@ -1,5 +1,6 @@
 import type { TDateRange, TSearchTours } from "../schema/search-tours.schema";
 import type { IRecentSearch, IRecentSearchBackend } from "../types";
+import { ENUM_LOCATION_SUGGEST_KIND } from "../types/location-suggest.types";
 
 import { mapBackendDatesToDateRange } from "./search-tours.converters";
 
@@ -8,10 +9,9 @@ const mapRecentSearchToSearchTours = (
 	dates: TDateRange
 ): TSearchTours => ({
 	destination: {
-		lat: 0,
-		long: 0,
-		label,
-		name: label
+		value: label,
+		kind: ENUM_LOCATION_SUGGEST_KIND.PLACE,
+		label
 	},
 	dates: dates.from || dates.to ? { ...dates } : undefined
 });

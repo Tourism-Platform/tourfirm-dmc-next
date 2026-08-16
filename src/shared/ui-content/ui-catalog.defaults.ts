@@ -16,6 +16,8 @@ export const DEFAULT_UI_CATALOG: TUiCatalog = {
 		fields: {
 			price: "Price per traveler",
 			region: "Region",
+			country: "Country",
+			city: "City",
 			duration: "Duration of the tour",
 			language: "Language",
 			category: "Category"

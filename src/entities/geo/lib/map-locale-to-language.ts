@@ -6,7 +6,15 @@ const LOCALE_TO_LANGUAGE: Record<string, LanguageCode> = {
 	es: LanguageCode.Es,
 	it: LanguageCode.It,
 	pt: LanguageCode.Pt,
-	uz: LanguageCode.Uz
+	uz: LanguageCode.Uz,
+	de: LanguageCode.De,
+	fr: LanguageCode.Fr,
+	zh: LanguageCode.Zh,
+	ja: LanguageCode.Ja,
+	ko: LanguageCode.Ko,
+	ar: LanguageCode.Ar,
+	tr: LanguageCode.Tr,
+	hi: LanguageCode.Hi
 };
 
 export const mapLocaleToLanguageCode = (

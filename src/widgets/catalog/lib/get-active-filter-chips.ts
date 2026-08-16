@@ -9,9 +9,6 @@ import {
 	TOUR_CATEGORY_LABELS
 } from "@/entities/tour";
 
-const PRICE_MIN = 0;
-const PRICE_MAX = 3600;
-
 export type TCatalogFilterChip = {
 	id: string;
 	label: string;
@@ -37,16 +34,28 @@ export function getActiveCatalogFilterChips(
 		multi_days: labels.durations.multiDays
 	};
 
-	for (const region of values.region ?? []) {
+	for (const country of values.country ?? []) {
 		chips.push({
-			id: `region:${region}`,
-			label: region,
+			id: `country:${country}`,
+			label: country,
 			onRemove: () =>
 				setFilters({
 					...values,
-					region: (values.region ?? []).filter(
-						(item) => item !== region
+					country: (values.country ?? []).filter(
+						(item) => item !== country
 					)
+				})
+		});
+	}
+
+	for (const city of values.city ?? []) {
+		chips.push({
+			id: `city:${city}`,
+			label: city,
+			onRemove: () =>
+				setFilters({
+					...values,
+					city: (values.city ?? []).filter((item) => item !== city)
 				})
 		});
 	}
@@ -92,19 +101,6 @@ export function getActiveCatalogFilterChips(
 					category: (values.category ?? []).filter(
 						(item) => item !== category
 					)
-				})
-		});
-	}
-
-	const price = values.price;
-	if (price && (price.from > PRICE_MIN || price.to < PRICE_MAX)) {
-		chips.push({
-			id: "price",
-			label: `${labels.fields.price}: ${price.from}–${price.to}`,
-			onRemove: () =>
-				setFilters({
-					...values,
-					price: { from: PRICE_MIN, to: PRICE_MAX }
 				})
 		});
 	}

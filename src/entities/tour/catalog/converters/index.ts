@@ -3,13 +3,8 @@ export {
 	mapCatalogTourPaginatedToFrontend,
 	mapCatalogToursToFrontend,
 	mapCatalogTourFiltersToPublicCatalogQuery,
-	mapFilterOptionToFrontend,
-	mapFilterOptionsToFrontend
+	mapCatalogListFiltersToFrontend
 } from "./catalog-tour.converters";
-export {
-	mapCatalogFilterPaginatedToFrontend,
-	mapPriceHistogramToFrontend
-} from "./catalog-tour-filters.converters";
 export {
 	mapRecentlySearchToFrontend,
 	mapRecentlySearchesToFrontend
@@ -19,3 +14,17 @@ export {
 	mapCatalogQueryToSearchTours,
 	mapSearchToursToCatalogQuery
 } from "./search-tours.converters";
+export {
+	mapCatalogFiltersToCatalogQuery,
+	mapCatalogQueryToCatalogFilters,
+	mapCatalogQueryToLocationBar,
+	mapLocationBarToCatalogQuery,
+	mergeCatalogQuery
+} from "./catalog-query.converters";
+export {
+	encodeLocationSuggestValue,
+	mapLocationSuggestParamsToBackend,
+	mapLocationSuggestionsToOptions,
+	mapSearchQueryToLocationSuggest
+} from "./location-suggest.converters";
+export { suggestKindMapper } from "./suggest-kind.converters";

@@ -4,5 +4,6 @@ export * from "./format-compact-amount";
 export * from "./format-date";
 export * from "./file";
 export * from "./create-enum-wrapper";
+export * from "./serialize-params";
 export * from "./geo-option.utils";
 export * from "./geo-display.utils";

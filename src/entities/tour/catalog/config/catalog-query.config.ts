@@ -1,0 +1,23 @@
+export const ENUM_CATALOG_QUERY_PARAM = {
+	CITY: "city",
+	COUNTRY: "country",
+	PLACE: "place",
+	CHECK_IN: "checkIn",
+	CHECK_OUT: "checkOut",
+	PAGE: "page",
+	LIMIT: "limit",
+	DURATION: "duration",
+	CATEGORY: "category",
+	LANGUAGE: "language"
+} as const;
+
+export type ENUM_CATALOG_QUERY_PARAM_TYPE =
+	(typeof ENUM_CATALOG_QUERY_PARAM)[keyof typeof ENUM_CATALOG_QUERY_PARAM];
+
+export const CATALOG_QUERY_ARRAY_PARAMS = [
+	ENUM_CATALOG_QUERY_PARAM.CITY,
+	ENUM_CATALOG_QUERY_PARAM.COUNTRY,
+	ENUM_CATALOG_QUERY_PARAM.DURATION,
+	ENUM_CATALOG_QUERY_PARAM.CATEGORY,
+	ENUM_CATALOG_QUERY_PARAM.LANGUAGE
+] as const;

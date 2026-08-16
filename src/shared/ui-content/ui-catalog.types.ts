@@ -13,6 +13,8 @@ export type TUiCatalog = {
 		fields: {
 			price: string;
 			region: string;
+			country: string;
+			city: string;
 			duration: string;
 			language: string;
 			category: string;

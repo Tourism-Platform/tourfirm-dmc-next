@@ -15,9 +15,13 @@ const HERO_IMAGE = "/assets/images/hero-image.jpg";
 
 type TCatalogHeroSectionProps = {
 	form: UseFormReturn<TSearchTours>;
+	onSubmit?: (data: TSearchTours) => void;
 };
 
-const CatalogHeroSectionBase: FC<TCatalogHeroSectionProps> = ({ form }) => {
+const CatalogHeroSectionBase: FC<TCatalogHeroSectionProps> = ({
+	form,
+	onSubmit
+}) => {
 	const { catalog } = useUiContent();
 
 	return (
@@ -38,6 +42,7 @@ const CatalogHeroSectionBase: FC<TCatalogHeroSectionProps> = ({ form }) => {
 				<div className="mx-auto w-full max-w-7xl px-4 pb-0 sm:px-6 lg:px-8">
 					<SearchToursBar
 						form={form}
+						onSubmit={onSubmit}
 						className="translate-y-1/2 shadow-lg"
 					/>
 				</div>

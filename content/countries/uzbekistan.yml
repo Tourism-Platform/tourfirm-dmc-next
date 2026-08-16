@@ -37,9 +37,9 @@
       "ru": "Узбекистан"
       "uz": "Oʻzbekiston"
     "description":
-      "en": "Samarkand, Bukhara, Khiva and Tashkent — the richest Silk Road route in Central Asia."
-      "ru": "Самарканд, Бухара, Хива и Ташкент — самый насыщенный маршрут по Великому шёлковому пути в Центральной Азии."
-      "uz": "Samarqand, Buxoro, Xiva va Toshkent — Markaziy Osiyodagi eng boy Ipak yo‘li marshruti."
+      "en": "The heart of the Silk Road"
+      "ru": "Сердце Великого шёлкового пути"
+      "uz": "Buyuk Ipak yoʻlining yuragi"
     "actions":
       - "type": "form"
         "variant": "default"
@@ -54,7 +54,659 @@
           "ru": "Открыть каталог"
           "uz": "Katalogni ochish"
         "href": "/tours"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "About"
+      "ru": "О стране"
+      "uz": "Mamlakat haqida"
+    "title":
+      "en": "Uzbekistan"
+      "ru": "Узбекистан"
+      "uz": "Oʻzbekiston"
+    "rows":
+      - "ratio": "2:1"
+        "left":
+          - "type": "quote"
+            "quote":
+              "en": "Uzbekistan is home: courtyards, bazaar rhythm, and Silk Road cities held in one readable route."
+              "ru": "Узбекистан — дом: дворы, ритм базара и города Шёлкового пути в одном читаемом маршруте."
+              "uz": "Oʻzbekiston — vatan: hovlilar, bozor ritmi va Ipak yoʻli shaharlari bitta o‘qiladigan yoʻnalishda."
+          - "type": "dashTitle"
+            "title":
+              "en": "How the route works"
+              "ru": "Как устроен маршрут"
+              "uz": "Marshrut qanday ishlaydi"
+            "description":
+              "en": "Uzbekistan opens through a few anchor cities: arrival in Tashkent, the classic rail line through Samarkand and Bukhara, then the slower choice west to Khiva or onward extensions."
+              "ru": "Узбекистан раскрывается через несколько опорных городов: прилёт в Ташкент, классическая железнодорожная линия через Самарканд и Бухару, затем более медленное решение на запад к Хиве или к расширениям маршрута."
+              "uz": "O‘zbekiston bir nechta tayanch shahar orqali ochiladi: Toshkentga kelish, Samarqand va Buxoro orqali klassik temiryo‘l yo‘nalishi, keyin Xiva tomonga yoki kengaytirilgan marshrutlarga o‘tish."
+        "right":
+          - "type": "dashTitle"
+            "title":
+              "en": "What holds the product"
+              "ru": "Что держит продукт"
+              "uz": "Mahsulotni nima ushlab turadi"
+            "description":
+              "en": "Rail between Tashkent, Samarkand and Bukhara; a paced west turn to Khiva; extra days only when Fergana, the south or Karakalpakstan belong in the brief."
+              "ru": "Поезд между Ташкентом, Самаркандом и Бухарой; спокойный поворот на запад к Хиве; запас дней только если в бриф входят Фергана, юг или Каракалпакстан."
+              "uz": "Toshkent, Samarqand va Buxoro orasidagi poyezd; Xiva tomonga surʼatli burilish; Fargʻona, janub yoki Qoraqalpogʻiston brifga kirgandagina qoʻshimcha kun."
+          - "type": "dashTitle"
+            "title":
+              "en": "Who it is for"
+              "ru": "Для кого это"
+              "uz": "Kim uchun"
+            "description":
+              "en": "Agencies and travelers who want a classic Silk Road spine, then one honest extension when season and group pace allow it."
+              "ru": "Агентствам и путешественникам, которым нужна классическая линия Шёлкового пути и одно честное расширение, если сезон и темп группы позволяют."
+              "uz": "Klassik Ipak yoʻli chizigʻi va mavsum hamda guruh surʼati ruxsat bersa bitta halol kengaytma kerak boʻlgan agentliklar va sayohatchilar."
+  - "blockType": "routeMap"
+    "eyebrow":
+      "en": "Route logic"
+      "ru": "Логика маршрута"
+      "uz": "Yo‘nalish mantig‘i"
+    "title":
+      "en": "How travel works in Uzbekistan"
+      "ru": "Как складывается маршрут по Узбекистану"
+      "uz": "O‘zbekiston bo‘ylab yo‘nalish qanday tuziladi"
+    "description":
+      "en": "Uzbekistan opens through a few anchor cities: arrival in Tashkent, the classic rail line through Samarkand and Bukhara, then the slower choice west to Khiva or onward extensions."
+      "ru": "Узбекистан раскрывается через несколько опорных городов: прилёт в Ташкент, классическая железнодорожная линия через Самарканд и Бухару, затем более медленное решение на запад к Хиве или к расширениям маршрута."
+      "uz": "O‘zbekiston bir nechta tayanch shahar orqali ochiladi: Toshkentga kelish, Samarqand va Buxoro orqali klassik temiryo‘l yo‘nalishi, keyin Xiva tomonga yoki kengaytirilgan marshrutlarga o‘tish."
+    "mapPanel":
+      "eyebrow":
+        "en": "Route cities"
+        "ru": "Города маршрута"
+        "uz": "Yo‘nalish shaharlari"
+      "title":
+        "en": "The classic line on the map"
+        "ru": "Классическая связка на карте"
+        "uz": "Klassik bog‘lanish xaritada"
+      "description":
+        "en": "The map keeps the first route leg visible: the capital, the two main Silk Road cities, Khiva in the west, and Nukus when the journey continues into Karakalpakstan."
+        "ru": "Карта держит в фокусе первую логику маршрута: столицу, два главных города Шёлкового пути, Хиву на западе и Нукус, если поездка уходит дальше в Каракалпакстан."
+        "uz": "Xarita birinchi yo‘nalish mantiqini ko‘rsatadi: poytaxt, Ipak yo‘lining ikki asosiy shahri, g‘arbdagi Xiva va sayohat Qoraqalpog‘istonga davom etsa Nukus."
+      "linkLabel":
+        "en": "Open map"
+        "ru": "Открыть карту"
+        "uz": "Xaritani ochish"
+    "mapCenter":
+      "latitude": 41.3775
+      "longitude": 64.5853
+    "zoom": 6
+    "stops":
+      - "entityType": "region"
+        "entitySlug": "tashkent-region"
+      - "entityType": "region"
+        "entitySlug": "samarkand-region"
+      - "entityType": "region"
+        "entitySlug": "bukhara-region"
+      - "entityType": "region"
+        "entitySlug": "khorezm-region"
+      - "entityType": "region"
+        "entitySlug": "fergana-valley"
+      - "entityType": "region"
+        "entitySlug": "surkhandarya"
+      - "entityType": "region"
+        "entitySlug": "karakalpakstan-and-aral-sea"
+      - "entityType": "region"
+        "entitySlug": "kashkadarya-and-shakhrisabz"
+      - "entityType": "region"
+        "entitySlug": "nurata-aydarkul-and-kyzylkum"
+      - "entityType": "region"
+        "entitySlug": "zaamin-and-jizzakh-mountains"
+    "aside":
+      "eyebrow":
+        "en": "Route rhythm"
+        "ru": "Что важно учесть"
+        "uz": "Nimani avval ko‘ramiz"
+      "title":
+        "en": "Start with the route rhythm"
+        "ru": "Сначала ритм маршрута"
+        "uz": "Avval yo‘nalish surʼati"
+      "description":
+        "en": "Decide what belongs to the classic city line and what needs extra days. Transport choices become clearer once the route rhythm is set."
+        "ru": "Сначала отделяем классическую городскую линию от частей, которым нужен запас дней. Когда ритм понятен, проще выбирать поезд, дорогу или перелёт."
+        "uz": "Avval klassik shahar yo‘nalishi va qo‘shimcha kun talab qiladigan qismlar ajratiladi. Ritm aniq bo‘lsa, poyezd, yo‘l yoki parvoz tanlovi osonlashadi."
+      "items":
+        - "title":
+            "en": "Classic link"
+            "ru": "Классическая связка"
+            "uz": "Klassik bog‘lanish"
+          "description":
+            "en": "Tashkent, Samarkand and Bukhara connect well by rail, so the day stays focused on the city, the guide and the right pace."
+            "ru": "Ташкент, Самарканд и Бухара хорошо соединяются поездом: день остаётся для города, гида и нормального темпа."
+            "uz": "Toshkent, Samarqand va Buxoro temiryo‘l orqali yaxshi ulanadi, shuning uchun kun shahar, gid va qulay surʼatga qoladi."
+          "badge":
+            "en": "rail"
+            "ru": "поезд"
+            "uz": "poyezd"
+        - "title":
+            "en": "The way to Khiva"
+            "ru": "Путь к Хиве"
+            "uz": "Xiva tomonga yo‘l"
+          "description":
+            "en": "After Bukhara, the route turns west. We choose train, road or flight by trip rhythm, comfort level and available time."
+            "ru": "После Бухары маршрут разворачивается на запад. Выбираем поезд, дорогу или перелёт по темпу поездки, комфорту и запасу времени."
+            "uz": "Buxorodan keyin yo‘nalish g‘arbga buriladi. Poyezd, avtomobil yoki parvoz safar surʼati, qulaylik va vaqt zaxirasiga qarab tanlanadi."
+          "badge":
+            "en": "by pace"
+            "ru": "по темпу"
+            "uz": "surʼatga qarab"
+        - "title":
+            "en": "Fergana, the south, Karakalpakstan"
+            "ru": "Фергана, юг, Каракалпакстан"
+            "uz": "Farg‘ona, janub, Qoraqalpog‘iston"
+          "description":
+            "en": "These extensions work best when the trip is not squeezed around the classic cities and has space for different geography."
+            "ru": "Эти части лучше добавлять, когда поездка не сжата вокруг классических городов и есть место для другой географии."
+            "uz": "Bu qismlar klassik shaharlar atrofida siqilmagan, boshqa geografiyaga vaqt ajratilgan safarlarda yaxshi ishlaydi."
+          "badge":
+            "en": "extra days"
+            "ru": "запас дней"
+            "uz": "qo‘shimcha kun"
+        - "title":
+            "en": "Neighbouring countries"
+            "ru": "Соседние страны"
+            "uz": "Qo‘shni mamlakatlar"
+          "description":
+            "en": "A combined Central Asia journey feels calmer when season, borders, transport links and entry rules are clear before the first day."
+            "ru": "Комбинированный маршрут по Центральной Азии спокойнее, когда сезон, границы, транспортные связки и порядок въезда понятны заранее."
+            "uz": "Markaziy Osiyo bo‘ylab qo‘shma sayohat mavsum, chegaralar, transport bog‘lanishlari va kirish tartibi oldindan ravshan bo‘lganda sokinroq kechadi."
+          "badge":
+            "en": "border rhythm"
+            "ru": "границы"
+            "uz": "chegara ritmi"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Living moments"
+      "ru": "Живые моменты"
+      "uz": "Tirik lahzalar"
+    "title":
+      "en": "What Uzbekistan feels like"
+      "ru": "Как ощущается Узбекистан"
+      "uz": "Oʻzbekiston qanday his qilinadi"
+    "description":
+      "en": "Not tour categories: route moments we use to shape guided time, meals, craft stops, and quiet hours."
+      "ru": "Не категории туров, а живые моменты: время с гидом, ремёсла, еда и паузы, которые держат ритм маршрута."
+      "uz": "Tur kategoriyalari emas: gidli vaqt, taom, hunar va sokin soatlarni tuzishda ishlatadigan yoʻnalish lahzalari."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-3"
+    "cards":
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/country.webp"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Boysun road rise"
+          "ru": "Подъём к Байсуну"
+          "uz": "Boysun yo‘li"
+        "description":
+          "en": "The road from Termez toward Boysun is part of the shift from southern plain to mountain village."
+          "ru": "Дорога от Термеза к Байсуну сама показывает переход от южной равнины к горному селу."
+          "uz": "Termizdan Boysunga yo‘l janubiy tekislikdan tog‘ qishlog‘iga o‘tishni sezdiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/country.webp"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Upgrade Programme signal"
+          "ru": "Сигнал развития"
+          "uz": "Rivojlanish belgisi"
+        "description":
+          "en": "Upgrade Programme attention shows Omonxona is developing, while each service still needs a date-specific check."
+          "ru": "Внимание Upgrade Programme показывает развитие Омонхоны, но каждую услугу всё равно нужно уточнять под даты."
+          "uz": "Upgrade Programme eʼtibori Omonxona rivojlanayotganini ko‘rsatadi, ammo har bir xizmat safar sanasiga tekshiriladi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/country.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Plane-tree memory"
+          "ru": "Память чинары"
+          "uz": "Chinor xotirasi"
+        "description":
+          "en": "The tree gives Sayrob its first visible anchor when the visit is handled with care."
+          "ru": "Чинара даёт Сайробу первый видимый ориентир, когда визит проходит бережно."
+          "uz": "Tashrif ehtiyotkor o‘tganda chinor Sayrobga birinchi ko‘rinadigan tayanch beradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/country.webp"
+        "badge":
+          "en": "Culture"
+          "ru": "Культура"
+          "uz": "Madaniyat"
+        "title":
+          "en": "Small village museum"
+          "ru": "Маленький сельский музей"
+          "uz": "Kichik qishloq muzeyi"
+        "description":
+          "en": "Museum time turns the village story into something you can see up close."
+          "ru": "Время в музее превращает историю села в то, что можно рассмотреть рядом."
+          "uz": "Muzeydagi vaqt qishloq hikoyasini yaqindan ko‘riladigan narsaga aylantiradi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/country.webp"
+        "badge":
+          "en": "Nature"
+          "ru": "Природа"
+          "uz": "Tabiat"
+        "title":
+          "en": "Spring and belief"
+          "ru": "Родник и вера"
+          "uz": "Buloq va eʼtiqod"
+        "description":
+          "en": "The spring belongs as natural and cultural memory, with quiet etiquette around sacred places."
+          "ru": "Родник звучит как природная и культурная память, с тихим этикетом у святынь."
+          "uz": "Buloq muqaddas joylar yonidagi sokin odob bilan tabiiy va madaniy xotira bo‘lib turadi."
+      - "type": "experience"
+        "image": "assets/images/destinations/uzbekistan/country.webp"
+        "badge":
+          "en": "Special interest"
+          "ru": "Специнтерес"
+          "uz": "Maxsus qiziqish"
+        "title":
+          "en": "Uzundara extension"
+          "ru": "Продолжение к Узундаре"
+          "uz": "Uzundara davomi"
+        "description":
+          "en": "The archaeology extension belongs only when distance, heat, access, and guide explanation are realistic."
+          "ru": "Археологическое продолжение уместно только когда расстояние, жара, доступ и объяснение гида реалистичны."
+          "uz": "Arxeologik davom faqat masofa, issiq, kirish va gid tushuntirishi real bo‘lganda mos keladi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Tour programs"
+      "ru": "Турпрограммы"
+      "uz": "Tur dasturlari"
+    "title":
+      "en": "Uzbekistan routes to start from"
+      "ru": "Маршруты по Узбекистану, с которых можно начать"
+      "uz": "Boshlash uchun Oʻzbekiston yoʻnalishlari"
+    "description":
+      "en": "Use these as planning shapes. Each route can be adjusted around dates, pace, access, and group format."
+      "ru": "Это не жёсткие шаблоны, а точки старта. Каждый маршрут можно адаптировать под даты, темп, сезон и формат группы."
+      "uz": "Bular qatʼiy qoliplar emas, rejalash shakllari. Har bir yoʻnalish sana, surʼat, kirish va guruh formatiga moslanadi."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Tourist regions"
+      "ru": "Туристические регионы"
+      "uz": "Turistik hududlar"
+    "title":
+      "en": "Regions of Uzbekistan"
+      "ru": "Регионы Узбекистана"
+      "uz": "Oʻzbekiston hududlari"
+    "description":
+      "en": "We group Uzbekistan by travel logic, not by administrative borders: gateway cities, heritage corridors, craft valleys, mountain access, and desert extensions."
+      "ru": "Мы показываем Узбекистан по логике путешествия, а не по административным границам: города прибытия, линии наследия, ремесленные долины, горные дни и пустынные продолжения маршрута."
+      "uz": "Biz Oʻzbekistonni maʼmuriy chegaralar emas, sayohat mantiqi boʻyicha tuzamiz: kirish shaharlari, meros chiziqlari, hunarmandchilik vodiylari, togʻ kirishlari va choʻl kengaytmalari."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-2"
+    "cards":
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/tashkent-region.webp"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Tashkent & Chimgan"
+          "ru": "Ташкент и Чимган"
+          "uz": "Toshkent va Chimyon"
+        "description":
+          "en": "Tashkent & Chimgan links the capital with old Tashkent, Chorsu, the metro, museums, Charvak water, and nearby foothill roads."
+          "ru": "Ташкент и Чимган связывают столицу, старый город, Чорсу, метро, музеи, Чарвак и близкие дороги предгорий."
+          "uz": "Toshkent va Chimyon poytaxt, eski shahar, Chorsu, metro, muzeylar, Chorvoq suvi va yaqin togʻoldi yoʻllarini bogʻlaydi."
+        "ctaHref": "/destinations/uzbekistan/tashkent-region"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/samarkand-region.webp"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Samarkand"
+          "ru": "Самарканд"
+          "uz": "Samarqand"
+        "description":
+          "en": "Samarkand region starts with Registan, Shah-i-Zinda, and the bazaar, then opens to Afrosiab, Ulugh Beg Observatory, Konigil, Urgut, and Bukhara-bound rail."
+          "ru": "Самаркандский регион начинается с Регистана, Шахи-Зинды и базара, затем открывает Афрасиаб, обсерваторию Улугбека, Конигил, Ургут и дорогу к Бухаре."
+          "uz": "Samarqand hududi Registon, Shohi Zinda va bozordan boshlanib, Afrosiyob, Ulugʻbek rasadxonasi, Konigil, Urgut va Buxoro yoʻliga ochiladi."
+        "ctaHref": "/destinations/uzbekistan/samarkand-region"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/bukhara-region.webp"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Bukhara"
+          "ru": "Бухара"
+          "uz": "Buxoro"
+        "description":
+          "en": "Bukhara region starts in the old city, then widens to Gijduvan ceramics, Sitorai, Naqshband, Chor-Bakr, archaeology, and the road to Khiva."
+          "ru": "Бухарский регион начинается со старого города, затем ведёт к керамике Гиждувана, Ситораи, Накшбанду, Чор-Бакру, археологии и дороге к Хиве."
+          "uz": "Buxoro hududi eski shahardan boshlanib, Gʻijduvon kulolchilik maktabi, Sitorai, Naqshband, Chor Bakr, arxeologiya va Xiva yoʻliga kengayadi."
+        "ctaHref": "/destinations/uzbekistan/bukhara-region"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/khorezm-region.webp"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Khorezm"
+          "ru": "Хорезм"
+          "uz": "Xorazm"
+        "description":
+          "en": "Khorezm leads the route to Khiva and farther west: Itchan Kala, Kalta Minor, Juma Mosque, desert fortresses, and the Aral Sea road define the region."
+          "ru": "Хорезм ведёт маршрут к Хиве и дальше на запад: Ичан-Кала, Кальта-Минор, Джума-мечеть, пустынные крепости и дорога к Аралу задают смысл региона."
+          "uz": "Xorazm yo‘lni Xivaga va undan g‘arbga olib boradi: Ichan Qalʼa, Kalta Minor, Juma masjidi, cho‘l qalʼalari va Orol tomonga yo‘l hudud mazmunini belgilaydi."
+        "ctaHref": "/destinations/uzbekistan/khorezm-region"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/fergana-valley.webp"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Fergana Valley"
+          "ru": "Ферганская долина"
+          "uz": "Fargʻona vodiysi"
+        "description":
+          "en": "A craft-and-heritage valley route from Tashkent: Kokand palace history, Margilan silk workshops, Rishtan ceramics, and the road over Kamchik Pass."
+          "ru": "Маршрут в долину из Ташкента: дворцовый Коканд, шёлковые мастерские Маргилана, риштанская керамика и дорога через перевал Камчик."
+          "uz": "Toshkentdan vodiy yoʻli: Qoʻqon saroy tarixi, Margʻilon ipak ustaxonalari, Rishton kulolchiligi va Qamchiq dovoni orqali yoʻl."
+        "ctaHref": "/destinations/uzbekistan/fergana-valley"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/surkhandarya.webp"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Surkhandarya"
+          "ru": "Сурхандарья"
+          "uz": "Surxondaryo"
+        "description":
+          "en": "Surkhandarya adds Uzbekistan's far south to the route: Termez archaeology, the Amu Darya, Islamic memorials, Boysun culture, and mountain roads."
+          "ru": "Сурхандарья добавляет к маршруту дальний юг Узбекистана: археологию Термеза, Амударью, исламские мемориалы, культуру Байсуна и горные дороги."
+          "uz": "Surxondaryo O‘zbekistonning uzoq janubini yo‘nalishga qo‘shadi: Termiz arxeologiyasi, Amudaryo, islomiy yodgorliklar, Boysun madaniyati va tog‘ yo‘llari."
+        "ctaHref": "/destinations/uzbekistan/surkhandarya"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/karakalpakstan-and-aral-sea.webp"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Karakalpakstan & Aral Sea"
+          "ru": "Каракалпакстан и Аральское море"
+          "uz": "Nurota, Aydarko‘l va Qizilqum"
+        "description":
+          "en": "Karakalpakstan and the Aral Sea extend the Uzbekistan route through Nukus museums, Moynaq, Mizdakhan, Chilpyk, Ellikqala fortresses, and the road beyond Khiva."
+          "ru": "Каракалпакстан и Аральское море продолжают маршрут по Узбекистану через музеи Нукуса, Муйнак, Миздакхан, Чилпык, крепости Элликкалы и дорогу дальше после Хивы."
+          "uz": "Samarqand, Buxoro va Xiva orasidagi cho‘l cheti yo‘li: Rabat-i Malik, Sarmishsoy, Nurota, Aydarko‘l va Sentob peshtoqlar, saqlangan suv, petrogliflar, ko‘l qirg‘og‘i, tog‘oldi qishloqlari va tungi havoni birlashtiradi."
+        "ctaHref": "/destinations/uzbekistan/karakalpakstan-and-aral-sea"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/kashkadarya-and-shakhrisabz.webp"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Kashkadarya & Shakhrisabz"
+          "ru": "Кашкадарья и Шахрисабз"
+          "uz": "Qashqadaryo va Shahrisabz"
+        "description":
+          "en": "Kashkadarya starts south of Samarkand with Shakhrisabz, then opens toward Qarshi, Kitab, Langar Ata, Gissar foothill roads, and Surkhandarya."
+          "ru": "Кашкадарья начинается к югу от Самарканда с Шахрисабза, а затем раскрывается через Карши, Китаб, Лангар-Ата, предгорные дороги и путь к Сурхандарье."
+          "uz": "Qashqadaryo Samarqanddan janubda Shahrisabz bilan boshlanadi, keyin Qarshi, Kitob, Langar ota, tog‘oldi yo‘llari va Surxondaryo tomonga ochiladi."
+        "ctaHref": "/destinations/uzbekistan/kashkadarya-and-shakhrisabz"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan/regions/nurata-aydarkul-and-kyzylkum.webp"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Nurata, Aydarkul & Kyzylkum"
+          "ru": "Нурата, Айдаркуль и Кызылкум"
+          "uz": "Qoraqalpog‘iston va Orol dengizi"
+        "description":
+          "en": "Between Samarkand, Bukhara, and Khiva, this desert-edge route links Rabat-i Malik, Sarmyshsay, Nurata, Aydarkul, and Sentyab: portals, stored water, rock art, lake shore, foothill villages, and night air."
+          "ru": "Маршрут у края пустыни между Самаркандом, Бухарой и Хивой: Рабат-и Малик, Сармышсай, Нурата, Айдаркуль и Сентоб соединяют порталы, сохранённую воду, петроглифы, берег озера, предгорные сёла и ночной воздух."
+          "uz": "Qoraqalpog‘iston va Orol dengizi O‘zbekiston yo‘nalishini Nukus muzeylari, Mo‘ynoq, Mizdaxon, Chilpiq, Ellikqal’a qalʼalari va Xivadan keyingi yo‘l orqali davom ettiradi."
+        "ctaHref": "/destinations/uzbekistan/nurata-aydarkul-and-kyzylkum"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+      - "type": "routeIdea"
+        "image": "assets/images/destinations/uzbekistan.jpg"
+        "badge":
+          "en": "Region"
+          "ru": "Регион"
+          "uz": "Hudud"
+        "title":
+          "en": "Zaamin & Jizzakh Mountains"
+          "ru": "Заамин и горы Джизака"
+          "uz": "Zomin va Jizzax tog‘lari"
+        "description":
+          "en": "Between Zaamin, Bakhmal, and Gallaorol, this Jizzakh mountain route links Duoba, Novqa, Muzbuloq, and Uzunbuloq with village hosts, rural roads, pilgrimage context, and nature stops confirmed close to travel."
+          "ru": "Между Заамином, Бахмалом и Галляаралом джизакский горный маршрут связывает Дуобу, Новку, Музбулок и Узунбулок с хозяевами, сельскими дорогами, паломническим контекстом и природными остановками, которые нужно подтвердить ближе к поездке."
+          "uz": "Zomin, Baxmal va G‘allaorol oralig‘ida Jizzax tog‘ marshruti Duoba, Novqa, Muzbuloq va Uzunbuloqni mezbonlar, qishloq yo‘llari, ziyorat konteksti va safarga yaqin tasdiqlanadigan tabiat bekatlari bilan bog‘laydi."
+        "ctaHref": "/destinations/uzbekistan/zaamin-and-jizzakh-mountains"
+        "ctaLabel":
+          "en": "View"
+          "ru": "Смотреть"
+          "uz": "Ko'rish"
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "When to go"
+      "ru": "Когда ехать"
+      "uz": "Qachon borish"
+    "title":
+      "en": "Seasonal rhythm"
+      "ru": "Сезонный ритм"
+      "uz": "Mavsumiy ritm"
+    "description":
+      "en": "Uzbekistan is generous, but not neutral. Spring and autumn carry the classic cities; summer asks for early starts, mountains, or a different pace."
+      "ru": "Узбекистан щедр к маршруту, но сезон важен. Весна и осень держат классические города; летом нужны ранние старты, горы или другой темп."
+      "uz": "Oʻzbekiston saxiy, lekin betaraf emas. Bahor va kuz klassik shaharlar uchun qulay; yoz erta startlar, togʻlar yoki boshqa surʼat talab qiladi."
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-4"
+    "cards":
+      - "type": "tripFormat"
+        "icon": "Flower2"
+        "badge":
+          "en": "Spring March-May"
+          "ru": "Весна март-май"
+          "uz": "Bahor mart-may"
+        "title":
+          "en": "Spring"
+          "ru": "Весна"
+          "uz": "Bahor"
+        "description":
+          "en": "The country wakes up. Blossoms, clear light, and crossable desert routes make March to May the easiest first window."
+          "ru": "Страна просыпается. Цветение, ясный свет и пустынные маршруты без жары делают март-май самым простым первым окном."
+          "uz": "Mamlakat uygʻonadi. Gullash, tiniq nur va jazirasiz choʻl yoʻllari mart-mayni eng oson birinchi davr qiladi."
+      - "type": "tripFormat"
+        "icon": "Sun"
+        "badge":
+          "en": "Summer June-August"
+          "ru": "Лето июнь-август"
+          "uz": "Yoz iyun-avgust"
+        "title":
+          "en": "Summer"
+          "ru": "Лето"
+          "uz": "Yoz"
+        "description":
+          "en": "June can work with early starts. July and August are better for mountain breaks or routes built carefully around heat."
+          "ru": "Июнь ещё подходит с ранними стартами. Июль и август лучше отдавать горам или маршрутам, построенным вокруг жары."
+          "uz": "Iyun erta startlar bilan ishlaydi. Iyul va avgust togʻlar yoki issiq atrofida tuzilgan yoʻnalishlar uchun yaxshiroq."
+      - "type": "tripFormat"
+        "icon": "Leaf"
+        "badge":
+          "en": "Autumn September-November"
+          "ru": "Осень сентябрь-ноябрь"
+          "uz": "Kuz sentabr-noyabr"
+        "title":
+          "en": "Autumn"
+          "ru": "Осень"
+          "uz": "Kuz"
+        "description":
+          "en": "Heat softens, bazaars fill with fruit, and the heritage cities become walkable again. September and October are the strongest months."
+          "ru": "Жара становится мягче, базары наполняются фруктами, исторические города снова удобны для прогулок. Сентябрь и октябрь - самые сильные месяцы."
+          "uz": "Jazirama yumshaydi, bozorlar meva bilan toʻladi, tarixiy shaharlar yana piyoda yurishga qulay boʻladi. Sentabr va oktabr eng kuchli oylar."
+      - "type": "tripFormat"
+        "icon": "Snowflake"
+        "badge":
+          "en": "Winter December-February"
+          "ru": "Зима декабрь-февраль"
+          "uz": "Qish dekabr-fevral"
+        "title":
+          "en": "Winter"
+          "ru": "Зима"
+          "uz": "Qish"
+        "description":
+          "en": "Cold, quiet, and lower-demand. Winter suits travelers who prefer empty courtyards and do not mind a coat."
+          "ru": "Холодно, тихо, спрос ниже. Зима подходит тем, кто любит пустые дворы и не против тёплой куртки."
+          "uz": "Sovuq, sokin, talab pastroq. Qish boʻsh hovlilarni yoqtiradigan va issiq kiyimdan choʻchimaydiganlar uchun."
+  - "blockType": "regular"
+    "eyebrow":
+      "en": "Planning basics"
+      "ru": "Практический старт"
+      "uz": "Rejalash asosi"
+    "title":
+      "en": "Practical starting points"
+      "ru": "Практичные ориентиры"
+      "uz": "Amaliy boshlangʻich nuqtalar"
+    "description":
+      "en": ""
+      "ru": ""
+      "uz": ""
+    "gridClassName": "sm:grid-cols-2 lg:grid-cols-4"
+    "cards":
+      - "type": "destinationInsight"
+        "icon": "Passport"
+        "title":
+          "en": "Visa"
+          "ru": "Виза"
+          "uz": "Viza"
+        "description":
+          "en": "Visa Check by passport
 
+
+
+            \            Many passports enter visa-free; others can use the official e-visa. Check the rule by passport before booking."
+          "ru": "Виза Проверять по паспорту
+
+
+
+            \            Многие паспорта въезжают без визы; остальные могут оформить официальную электронную визу. Правило проверяем по паспорту до бронирования."
+          "uz": "Viza Pasport boʻyicha tekshirish
+
+
+
+            \            Koʻp pasportlar vizasiz kira oladi; boshqalar rasmiy e-visa olishi mumkin. Qoidani bron qilishdan oldin pasport boʻyicha tekshiramiz."
+      - "type": "destinationInsight"
+        "icon": "Wallet"
+        "title":
+          "en": "Money"
+          "ru": "Деньги"
+          "uz": "Pul"
+        "description":
+          "en": "Money Som, with cash backup
+
+
+
+            \            The Uzbek som is local currency. Cards work in cities; cash remains useful in bazaars and smaller stops."
+          "ru": "Деньги Сум и запас наличных
+
+
+
+            \            Местная валюта - узбекский сум. Карты работают в городах, но на базарах и малых остановках нужны наличные."
+          "uz": "Pul Soʻm va naqd zaxira
+
+
+
+            \            Mahalliy valyuta — oʻzbek soʻmi. Shaharlarda karta ishlaydi, bozorlar va kichik toʻxtashlarda naqd pul kerak boʻladi."
+      - "type": "destinationInsight"
+        "icon": "ShieldCheck"
+        "title":
+          "en": "Safety"
+          "ru": "Безопасность"
+          "uz": "Xavfsizlik"
+        "description":
+          "en": "Safety Comfortable city travel
+
+
+
+            \            Tourist cities are calm and visitor-friendly. We still plan walking time, transfers, and evening movement deliberately."
+          "ru": "Безопасность Спокойные города
+
+
+
+            \            Туристические города спокойные и дружелюбные к гостям. Время прогулок, трансферы и вечерние перемещения всё равно лучше планировать заранее."
+          "uz": "Xavfsizlik Qulay shahar sayohati
+
+
+
+            \            Turistik shaharlar sokin va mehmonlarga ochiq. Piyoda vaqt, transferlar va kechki harakatni baribir oldindan rejalaymiz."
+      - "type": "destinationInsight"
+        "icon": "Train"
+        "title":
+          "en": "Transport"
+          "ru": "Транспорт"
+          "uz": "Transport"
+        "description":
+          "en": "Transport Rail plus transfers
+
+
+
+            \            Afrosiyob rail connects major cities; flights and private transfers cover longer distances and route extensions."
+          "ru": "Транспорт Поезд и трансферы
+
+
+
+            \            Поезд Afrosiyob связывает крупные города; перелёты и частные трансферы закрывают длинные расстояния и дальние части маршрута."
+          "uz": "Transport Poyezd va transferlar
+
+
+
+            \            Afrosiyob yirik shaharlarni bogʻlaydi; parvozlar va shaxsiy transferlar uzun masofalar va kengaytmalarni yopadi."
   - "blockType": "regular"
     "eyebrow":
       "en": "Routes in detail"
@@ -103,17 +755,17 @@
   - "blockType": "cta"
     "image": "assets/images/destinations/uzbekistan/country.webp"
     "eyebrow":
-      "en": "On request"
-      "ru": "Под запрос"
-      "uz": "So‘rov bo‘yicha"
+      "en": "Start with a conversation"
+      "ru": "Начните с разговора"
+      "uz": "Suhbatdan boshlang"
     "title":
-      "en": "Plan a route through Uzbekistan with TourLink"
-      "ru": "Спланируйте маршрут по Узбекистану с TourLink"
-      "uz": "TourLink bilan O‘zbekiston bo‘ylab marshrut rejalang"
+      "en": "Plan Uzbekistan with the team that starts here"
+      "ru": "Спланировать Узбекистан с командой, для которой он дом"
+      "uz": "Oʻzbekistonni shu yerdan boshlangan jamoa bilan rejalang"
     "description":
-      "en": "We help agencies build realistic Silk Road programmes — trains, pace, and local logistics included."
-      "ru": "Помогаем агентствам собирать реалистичные программы по Шёлковому пути — поезда, темп и локальная логистика включены."
-      "uz": "Agentliklarga Ipak yo‘li bo‘yicha real dasturlar yig‘ishda yordam beramiz — poyezdlar, sur’at va mahalliy logistika bilan."
+      "en": "Tell us your dates, pace, and what you want to understand. We will shape a route around the season, distances, and local team."
+      "ru": "Напишите даты, темп и что вам важно понять. Мы соберём маршрут с учётом сезона, расстояний и команды на месте."
+      "uz": "Sana, surʼat va nimani tushunmoqchi ekaningizni yozing. Biz mavsum, masofa va joyidagi jamoa asosida yoʻnalish tuzamiz."
     "actions":
       - "type": "form"
         "variant": "default"
@@ -153,8 +805,8 @@
   "hideFromNavigation": false
   "publishedAt": "2026-08-01"
 "mapCenter":
-  "latitude": 41.511958
-  "longitude": 69.92404
+  "latitude": 41.3775
+  "longitude": 64.5853
 "badges":
   - "FEATURED"
   - "UNESCO"

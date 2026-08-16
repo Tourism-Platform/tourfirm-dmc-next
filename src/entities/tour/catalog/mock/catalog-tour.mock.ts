@@ -1,4 +1,10 @@
-import type { TPublicTourCatalogSchema } from "@/shared/api";
+import {
+	Currency,
+	LanguageCode,
+	type TPublicTourCatalogSchema,
+	TourCategory,
+	TourType
+} from "@/shared/api";
 
 const baseTour = (
 	partial: Partial<TPublicTourCatalogSchema> &
@@ -12,15 +18,15 @@ const baseTour = (
 	age_to: 70,
 	group_size: 15,
 	group_size_min: 2,
-	categories: partial.categories ?? ["cultural_historical"],
-	tour_type: partial.tour_type ?? "group",
+	categories: partial.categories ?? [TourCategory.CulturalHistorical],
+	tour_type: partial.tour_type ?? TourType.Regular,
 	landing_photos: [],
 	cities: partial.cities ?? ["Samarkand"],
-	languages: partial.languages ?? ["en"],
+	languages: partial.languages ?? [LanguageCode.En],
 	price_range: partial.price_range ?? {
 		min: 800,
 		max: 1200,
-		currency: "USD"
+		currency: Currency.USD
 	},
 	price_per_person: partial.price_per_person ?? null,
 	option_count: partial.option_count ?? 1,
@@ -35,7 +41,7 @@ export const POPULAR_TOURS_MOCK: TPublicTourCatalogSchema[] = [
 		description:
 			"Discover the heart of the Fergana Valley with its silk workshops and mountain landscapes.",
 		cities: ["Fergana", "Margilan"],
-		price_per_person: { min: 1009, max: 1500, currency: "USD" }
+		price_per_person: { min: 1009, max: 1500, currency: Currency.USD }
 	}),
 	baseTour({
 		tour_id: "popular-tour-2",
@@ -46,7 +52,7 @@ export const POPULAR_TOURS_MOCK: TPublicTourCatalogSchema[] = [
 		days: 1,
 		nights: 0,
 		cities: ["Samarkand"],
-		price_per_person: { min: 850, max: 1200, currency: "USD" }
+		price_per_person: { min: 850, max: 1200, currency: Currency.USD }
 	}),
 	baseTour({
 		tour_id: "popular-tour-3",
@@ -57,8 +63,8 @@ export const POPULAR_TOURS_MOCK: TPublicTourCatalogSchema[] = [
 		days: 1,
 		nights: 0,
 		cities: ["Bukhara"],
-		tour_type: "private",
-		price_per_person: { min: 650, max: 900, currency: "USD" }
+		tour_type: TourType.Custom,
+		price_per_person: { min: 650, max: 900, currency: Currency.USD }
 	}),
 	baseTour({
 		tour_id: "popular-tour-4",
@@ -68,7 +74,7 @@ export const POPULAR_TOURS_MOCK: TPublicTourCatalogSchema[] = [
 			"Capture the first light on the minarets of Khiva followed by a traditional bread-making workshop.",
 		cities: ["Khiva"],
 		option_count: 3,
-		price_per_person: { min: 1200, max: 1800, currency: "USD" }
+		price_per_person: { min: 1200, max: 1800, currency: Currency.USD }
 	})
 ];
 

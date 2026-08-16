@@ -1,50 +1,48 @@
-export type TTourCatalogSort =
-	| "price_asc"
-	| "price_desc"
-	| "duration_asc"
-	| "duration_desc";
+import type {
+	LanguageCode,
+	LocationSuggestionSchema,
+	PublicTourCatalogSchemaOutput,
+	TourCatalogSort,
+	TourCategory
+} from "../Api";
 
-export type TTourCategory = string;
-export type TTourType = "group" | "private" | string;
-export type TLanguageCode = string;
+export type TTourCatalogSort = TourCatalogSort;
+export type TTourCategory = TourCategory;
+export type TLanguageCode = LanguageCode;
+export type TPublicTourCatalogSchema = PublicTourCatalogSchemaOutput;
 
-export type TPriceRangeSchema = {
-	min: number;
-	max: number;
-	currency: string;
+export type TCatalogFiltersSchema = {
+	cities: string[];
+	countries: string[];
 };
 
-export type TPublicTourCatalogSchema = {
-	tour_id: string;
-	title: string | null;
-	cover_image_url: string | null;
-	description: string | null;
-	days: number;
-	nights: number;
-	duration_hours: number | null;
-	age_from: number | null;
-	age_to: number | null;
-	group_size: number;
-	group_size_min: number | null;
-	categories: TTourCategory[];
-	tour_type: TTourType;
-	landing_photos: string[];
-	cities: string[];
-	languages: TLanguageCode[];
-	price_range: TPriceRangeSchema | null;
-	price_per_person: TPriceRangeSchema | null;
-	option_count?: number | null;
+export type TPublicTourCatalogListResponse = {
+	total_count: number;
+	data: PublicTourCatalogSchemaOutput[];
 };
 
 export type TTourCatalogPublicQuery = {
-	sort?: TTourCatalogSort | null;
+	sort?: TourCatalogSort | null;
 	q?: string | null;
-	categories?: TTourCategory[] | null;
+	categories?: TourCategory[] | null;
 	duration_days_min?: number | null;
 	duration_days_max?: number | null;
-	city?: string | null;
-	country?: string | null;
-	language?: TLanguageCode | null;
+	city?: string[] | null;
+	country?: string[] | null;
+	tour_lang?: LanguageCode[] | null;
+	read_lang?: LanguageCode;
 	skip?: number;
 	limit?: number;
 };
+
+export type TTourCatalogFiltersQuery = {
+	lang?: LanguageCode;
+};
+
+export type TTourCatalogSuggestQuery = {
+	q: string;
+	lang?: LanguageCode;
+	limit?: number;
+};
+
+export type TLocationSuggestionSchema = LocationSuggestionSchema;

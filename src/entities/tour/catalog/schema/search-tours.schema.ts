@@ -1,29 +1,30 @@
 import { z } from "zod";
 
+import type { TCatalogLocationBar } from "../types/catalog-query.types";
+import { ENUM_LOCATION_SUGGEST_KIND } from "../types/location-suggest.types";
+
 const dateRangeSchema = z.object({
 	from: z.union([z.date(), z.undefined()]),
 	to: z.union([z.date(), z.undefined()]).optional()
 });
 
-const geoDestinationSchema = z.object({
-	lat: z.number(),
-	long: z.number(),
-	label: z.string().nullish(),
-	name: z.string().nullish(),
-	city: z.string().nullish(),
-	street: z.string().nullish(),
-	housenumber: z.string().nullish(),
-	postcode: z.string().nullish(),
-	state: z.string().nullish(),
-	country: z.string().nullish(),
-	country_code: z.string().nullish()
+const locationSuggestKindSchema = z.enum([
+	ENUM_LOCATION_SUGGEST_KIND.CITY,
+	ENUM_LOCATION_SUGGEST_KIND.COUNTRY,
+	ENUM_LOCATION_SUGGEST_KIND.PLACE
+]);
+
+const locationSuggestSchema = z.object({
+	value: z.string().min(1),
+	kind: locationSuggestKindSchema,
+	label: z.string().optional()
 });
 
 export function createSearchToursSchema(destinationRequiredMessage: string) {
 	return z.object({
-		destination: geoDestinationSchema
+		destination: locationSuggestSchema
 			.nullable()
-			.refine((value) => value !== null && Number.isFinite(value.lat), {
+			.refine((value) => value !== null, {
 				message: destinationRequiredMessage
 			}),
 		dates: dateRangeSchema.optional()
@@ -35,5 +36,6 @@ export const searchToursSchema = createSearchToursSchema(
 );
 
 export type TDateRange = z.infer<typeof dateRangeSchema>;
-export type TSearchTours = z.infer<ReturnType<typeof createSearchToursSchema>>;
+export type TLocationSuggestFormValue = z.infer<typeof locationSuggestSchema>;
+export type TSearchTours = TCatalogLocationBar;
 export type TSearchToursSchema = TSearchTours;

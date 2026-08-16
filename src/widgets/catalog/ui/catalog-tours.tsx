@@ -6,12 +6,8 @@ import {
 	StretchHorizontal,
 	X
 } from "lucide-react";
-import { useSearchParams } from "next/navigation";
-import { type FC, useCallback, useEffect, useMemo, useState } from "react";
-import { useForm } from "react-hook-form";
-import { toast } from "sonner";
+import { type FC, useMemo } from "react";
 
-import { useDebounce } from "@/shared/hooks";
 import {
 	Badge,
 	Button,
@@ -37,118 +33,39 @@ import {
 	CatalogTourCard,
 	CatalogTourCardHorizontal,
 	CatalogTourCardHorizontalSkeleton,
-	CatalogTourCardSkeleton,
-	type ICatalogTourFilters,
-	type TSearchTours,
-	mapCatalogQueryToSearchTours,
-	useGetCatalogToursQuery
+	CatalogTourCardSkeleton
 } from "@/entities/tour";
 
 import { getActiveCatalogFilterChips } from "../lib/get-active-filter-chips";
+import { useCatalogTours } from "../model";
 
 import { CatalogHeroSection } from "./catalog-hero-section";
 import { CatalogToursFilter } from "./catalog-tours-filter";
 import { CatalogToursSimilar } from "./catalog-tours-similar";
 
-const DEFAULT_FILTERS: ICatalogTourFilters = {
-	search: "",
-	page: 1,
-	limit: 9,
-	filters: {
-		region: [],
-		duration: [],
-		language: [],
-		category: [],
-		price: {
-			from: 0,
-			to: 3600
-		}
-	}
-};
-
-type TViewMode = "grid" | "list";
-
 const CatalogToursBase: FC = () => {
 	const { catalog } = useUiContent();
-	const searchParams = useSearchParams();
-	const [viewMode, setViewMode] = useState<TViewMode>("grid");
-	const [filtersOpen, setFiltersOpen] = useState(false);
-
-	const destination = searchParams.get("destination") ?? "";
-	const lat = searchParams.get("lat") ?? undefined;
-	const long = searchParams.get("long") ?? undefined;
-	const checkIn = searchParams.get("checkIn") ?? undefined;
-	const checkOut = searchParams.get("checkOut") ?? undefined;
-
-	const initialFilters = useMemo<ICatalogTourFilters>(
-		() => ({
-			...DEFAULT_FILTERS,
-			search: destination
-		}),
-		[destination]
-	);
-
-	const searchBarDefaults = useMemo(
-		() =>
-			mapCatalogQueryToSearchTours({
-				destination: destination || undefined,
-				lat,
-				long,
-				checkIn,
-				checkOut
-			}),
-		[destination, lat, long, checkIn, checkOut]
-	);
-
-	const searchBarForm = useForm<TSearchTours>({
-		defaultValues: searchBarDefaults
-	});
-
-	const methods = useForm<ICatalogTourFilters>({
-		defaultValues: initialFilters
-	});
-
-	const { watch, setValue } = methods;
-	const filters = watch();
-
-	const debouncedSource = useMemo(() => filters.filters, [filters.filters]);
-	const debouncedFilters = useDebounce(debouncedSource, 500);
-
 	const {
-		data: toursData,
+		methods,
+		locationForm,
+		applyLocationBarSubmit,
+		page,
+		limit,
+		tours,
+		totalCount,
+		totalPages,
 		isLoading,
-		isFetching,
-		isError
-	} = useGetCatalogToursQuery({
-		...filters,
-		filters: debouncedFilters
-	});
-
-	useEffect(() => {
-		if (isError) {
-			toast.error(catalog.toasts.loadError);
-		}
-	}, [isError, catalog.toasts.loadError]);
-
-	const tours = useMemo(() => toursData?.data ?? [], [toursData]);
-	const totalCount = toursData?.total ?? 0;
-	const totalPages = Math.max(1, Math.ceil(totalCount / filters.limit));
-
-	const handleReset = useCallback(() => {
-		methods.reset(DEFAULT_FILTERS);
-		searchBarForm.reset({
-			destination: null,
-			dates: undefined
-		});
-	}, [methods, searchBarForm]);
-
-	const handleSetFilterValues = useCallback(
-		(next: ICatalogTourFilters["filters"]) => {
-			setValue("filters", next);
-			setValue("page", 1);
-		},
-		[setValue]
-	);
+		viewMode,
+		setViewMode,
+		filtersOpen,
+		setFiltersOpen,
+		handleReset,
+		handleSetFilterValues,
+		handlePrevPage,
+		handleNextPage,
+		similarParams,
+		filters
+	} = useCatalogTours();
 
 	const activeChips = useMemo(
 		() =>
@@ -168,33 +85,14 @@ const CatalogToursBase: FC = () => {
 		]
 	);
 
-	const handlePrevPage = useCallback(() => {
-		if (filters.page <= 1) return;
-		setValue("page", filters.page - 1);
-	}, [filters.page, setValue]);
-
-	const handleNextPage = useCallback(() => {
-		if (filters.page >= totalPages) return;
-		setValue("page", filters.page + 1);
-	}, [filters.page, setValue, totalPages]);
-
-	const similarParams = useMemo(
-		() => ({
-			...filters,
-			page: 1,
-			filters: {
-				...debouncedFilters,
-				duration: []
-			}
-		}),
-		[filters, debouncedFilters]
-	);
-
-	const isBusy = isLoading || isFetching;
+	const isBusy = isLoading;
 
 	return (
 		<div className="flex flex-col">
-			<CatalogHeroSection form={searchBarForm} />
+			<CatalogHeroSection
+				form={locationForm}
+				onSubmit={applyLocationBarSubmit}
+			/>
 
 			<div className="flex w-full flex-col gap-12 pt-28 sm:gap-14 sm:pt-32 lg:gap-16">
 				<div className="grid grid-cols-1 gap-4 lg:grid-cols-[minmax(200px,240px)_minmax(0,1fr)]">
@@ -306,7 +204,7 @@ const CatalogToursBase: FC = () => {
 								<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3">
 									{isBusy
 										? Array.from({
-												length: filters.limit
+												length: limit
 											}).map((_, index) => (
 												<CatalogTourCardSkeleton
 													key={`skeleton-${index}`}
@@ -323,7 +221,7 @@ const CatalogToursBase: FC = () => {
 								<div className="flex flex-col gap-3">
 									{isBusy
 										? Array.from({
-												length: filters.limit
+												length: limit
 											}).map((_, index) => (
 												<CatalogTourCardHorizontalSkeleton
 													key={`skeleton-${index}`}
@@ -342,23 +240,21 @@ const CatalogToursBase: FC = () => {
 								<Button
 									variant="outline"
 									size="sm"
-									disabled={filters.page <= 1 || isBusy}
+									disabled={page <= 1 || isBusy}
 									onClick={handlePrevPage}
 								>
 									{catalog.pagination.prev}
 								</Button>
 								<span className="text-muted-foreground truncate text-center text-xs sm:text-sm">
 									{formatUiText(catalog.pagination.page, {
-										page: filters.page,
+										page,
 										total: totalPages
 									})}
 								</span>
 								<Button
 									variant="outline"
 									size="sm"
-									disabled={
-										filters.page >= totalPages || isBusy
-									}
+									disabled={page >= totalPages || isBusy}
 									onClick={handleNextPage}
 								>
 									{catalog.pagination.next}

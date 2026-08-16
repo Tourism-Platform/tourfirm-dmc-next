@@ -5,9 +5,13 @@ import { MapPin, Search } from "lucide-react";
 import { useLocale } from "next-intl";
 import type { FC } from "react";
 import { useMemo } from "react";
-import { type UseFormReturn, useForm } from "react-hook-form";
+import {
+	Controller,
+	type Resolver,
+	type UseFormReturn,
+	useForm
+} from "react-hook-form";
 
-import { ENUM_PATH, buildRouteWithQuery } from "@/shared/config";
 import { useRouter } from "@/shared/i18n";
 import { cn } from "@/shared/lib/utils";
 import {
@@ -20,20 +24,25 @@ import {
 } from "@/shared/ui";
 import { createNestedTextResolver, useUiContent } from "@/shared/ui-content";
 
-import { useGeoSearchFieldProps } from "@/entities/geo";
+import { mapLocaleToLanguageCode } from "@/entities/geo";
 import {
+	LocationSuggestSelect,
 	type TSearchTours,
+	buildCatalogRoute,
 	createSearchToursSchema,
-	mapSearchToursToCatalogQuery
+	mapSearchToursToCatalogQuery,
+	useLocationSuggestFieldProps
 } from "@/entities/tour";
 
 interface ISearchToursBarProps {
 	form?: UseFormReturn<TSearchTours>;
+	onSubmit?: (data: TSearchTours) => void;
 	className?: string;
 }
 
 export const SearchToursBar: FC<ISearchToursBarProps> = ({
 	form: externalForm,
+	onSubmit: onSubmitExternal,
 	className
 }) => {
 	const { tours } = useUiContent();
@@ -42,7 +51,9 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 	);
 	const router = useRouter();
 	const locale = useLocale();
-	const geoField = useGeoSearchFieldProps(locale);
+	const suggestField = useLocationSuggestFieldProps(
+		mapLocaleToLanguageCode(locale)
+	);
 
 	const schema = useMemo(
 		() => createSearchToursSchema(tours.search.where.required),
@@ -50,7 +61,7 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 	);
 
 	const localForm = useForm<TSearchTours>({
-		resolver: zodResolver(schema),
+		resolver: zodResolver(schema) as Resolver<TSearchTours>,
 		defaultValues: {
 			destination: null,
 			dates: undefined
@@ -59,11 +70,13 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 
 	const form = externalForm ?? localForm;
 
-	const onSubmit = (data: TSearchTours) => {
-		const route = buildRouteWithQuery(
-			ENUM_PATH.TOURS.CATALOG,
-			mapSearchToursToCatalogQuery(data)
-		);
+	const handleSubmit = (data: TSearchTours) => {
+		if (onSubmitExternal) {
+			onSubmitExternal(data);
+			return;
+		}
+
+		const route = buildCatalogRoute(mapSearchToursToCatalogQuery(data));
 		router.push(route);
 	};
 
@@ -78,21 +91,40 @@ export const SearchToursBar: FC<ISearchToursBarProps> = ({
 				<Form {...form}>
 					<form
 						className="grid grid-cols-1 items-end gap-3 md:grid-cols-[1fr_auto_1fr_auto] md:gap-4"
-						onSubmit={form.handleSubmit(onSubmit)}
+						onSubmit={form.handleSubmit(handleSubmit)}
 					>
-						<CustomField
-							icon={MapPin}
+						<Controller
 							control={form.control}
 							name="destination"
-							label="search.where.label"
-							placeholder="search.where.placeholder"
-							fieldType="geo"
-							emptyText="search.where.empty"
-							options={geoField.options}
-							onQueryChange={geoField.onQueryChange}
-							isLoading={geoField.isLoading}
-							t={t}
-							className="mb-0"
+							render={({ field, fieldState }) => (
+								<div className="mb-0 grid gap-2">
+									<label className="text-sm font-medium leading-none">
+										{t("search.where.label")}
+									</label>
+									<LocationSuggestSelect
+										icon={MapPin}
+										value={field.value}
+										onChange={field.onChange}
+										options={suggestField.options}
+										onQueryChange={
+											suggestField.onQueryChange
+										}
+										isLoading={suggestField.isLoading}
+										placeholder={
+											t("search.where.placeholder") ??
+											undefined
+										}
+										emptyText={
+											t("search.where.empty") ?? undefined
+										}
+									/>
+									{fieldState.error ? (
+										<p className="text-sm text-destructive">
+											{fieldState.error.message}
+										</p>
+									) : null}
+								</div>
+							)}
 						/>
 
 						<Separator

@@ -1,43 +1,38 @@
 import { HttpResponse, delay, http } from "msw";
 
-import {
-	CATALOG_DESTINATIONS_MOCK,
-	CATALOG_REGIONS_MOCK,
-	POPULAR_TOURS_MOCK,
-	PRICE_HISTOGRAM_MOCK,
-	RECENT_SEARCHES_MOCK
-} from "../mock";
+import { POPULAR_TOURS_MOCK, RECENT_SEARCHES_MOCK } from "../mock";
+
+const CATALOG_FILTERS_MOCK = {
+	countries: ["Uzbekistan", "Kazakhstan", "Kyrgyzstan"],
+	cities: ["Samarkand", "Bukhara", "Khiva", "Tashkent", "Fergana"]
+};
+
+const CATALOG_SUGGEST_MOCK = [
+	{ value: "Samarkand", kind: "city" },
+	{ value: "Uzbekistan", kind: "country" },
+	{ value: "Registan", kind: "place" }
+];
 
 export const tourCatalogHandlers = [
 	http.get("*/catalog/recently-searched", async () => {
 		await delay(300);
 		return HttpResponse.json(RECENT_SEARCHES_MOCK);
 	}),
-	http.get("*/catalog/tours/filters/destinations", async () => {
+	http.get("*/tour/catalog/filters", async () => {
 		await delay(300);
-		return HttpResponse.json({
-			data: CATALOG_DESTINATIONS_MOCK,
-			total: CATALOG_DESTINATIONS_MOCK.length
-		});
+		return HttpResponse.json(CATALOG_FILTERS_MOCK);
 	}),
-	http.get("*/catalog/tours/filters/regions", async ({ request }) => {
+	http.get("*/tour/catalog/suggest", async ({ request }) => {
 		await delay(300);
 		const url = new URL(request.url);
-		const page = Number(url.searchParams.get("page")) || 1;
-		const limit = Number(url.searchParams.get("limit")) || 5;
+		const q = url.searchParams.get("q")?.toLowerCase() ?? "";
+		const items = q
+			? CATALOG_SUGGEST_MOCK.filter((item) =>
+					item.value.toLowerCase().includes(q)
+				)
+			: CATALOG_SUGGEST_MOCK;
 
-		const start = (page - 1) * limit;
-		const end = start + limit;
-		const pagedData = CATALOG_REGIONS_MOCK.slice(start, end);
-
-		return HttpResponse.json({
-			data: pagedData,
-			total: CATALOG_REGIONS_MOCK.length
-		});
-	}),
-	http.get("*/catalog/tours/filters/price-histogram", async () => {
-		await delay(300);
-		return HttpResponse.json(PRICE_HISTOGRAM_MOCK);
+		return HttpResponse.json(items);
 	}),
 	http.get("*/tour/catalog/public", async ({ request }) => {
 		await delay(300);
@@ -54,6 +49,11 @@ export const tourCatalogHandlers = [
 			);
 		}
 
-		return HttpResponse.json(filteredTours.slice(skip, skip + limit));
+		const data = filteredTours.slice(skip, skip + limit);
+
+		return HttpResponse.json({
+			data,
+			total_count: filteredTours.length
+		});
 	})
 ];

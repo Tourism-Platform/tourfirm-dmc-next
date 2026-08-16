@@ -1,8 +1,13 @@
 export type { ICatalogTourCard } from "./catalog-tour.interface";
 export type {
+	TCatalogFiltersBackend,
+	TCatalogFiltersQuery,
 	TCatalogTourBackend,
 	TCatalogTourQueryBackend,
-	TListCatalogToursBackendResponse
+	TListCatalogToursBackendResponse,
+	TLocationSuggestionBackend,
+	TSuggestLocationsBackend,
+	TSuggestLocationsQuery
 } from "./catalog-tour-backend.interface";
 export {
 	ENUM_CATALOG_TOUR_TYPES,
@@ -21,15 +26,19 @@ export type {
 	ICatalogTourFilters
 } from "./catalog-tour-filter.interface";
 export { ENUM_LANGUAGES } from "../../preview-tour/lib/languages.types";
-export type {
-	IPriceHistogramItem,
-	IPriceHistogramRequest
-} from "./price-histogram.interface";
-export type { IPriceHistogramItemBackend } from "./price-histogram-backend.interface";
+export type { ICatalogListFilters } from "./catalog-list-filters.interface";
 export type { IRecentSearch, TTourType } from "./recent-search.interface";
 export type { TSearchTours } from "../schema/search-tours.schema";
 export type { IRecentSearchBackend } from "./recent-search-backend.interface";
 export type {
-	IFilterOption,
-	IFilterOptionBackend
-} from "./filter-option.interface";
+	TCatalogLocationBar,
+	TCatalogLocationQuery,
+	TCatalogUrlQuery
+} from "./catalog-query.types";
+export {
+	ENUM_LOCATION_SUGGEST_KIND,
+	type ENUM_LOCATION_SUGGEST_KIND_TYPE,
+	type TLocationSuggestOption,
+	type TLocationSuggestParams,
+	type TLocationSuggestion
+} from "./location-suggest.types";

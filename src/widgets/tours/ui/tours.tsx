@@ -3,7 +3,7 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import type { FC } from "react";
 import { useMemo } from "react";
-import { useForm } from "react-hook-form";
+import { type Resolver, useForm } from "react-hook-form";
 
 import { withErrorBoundary } from "@/shared/ui";
 import { useUiContent } from "@/shared/ui-content";
@@ -28,7 +28,7 @@ const ToursBase: FC<TToursProps> = ({ sections }) => {
 	);
 
 	const searchForm = useForm<TSearchTours>({
-		resolver: zodResolver(schema),
+		resolver: zodResolver(schema) as Resolver<TSearchTours>,
 		defaultValues: {
 			destination: null,
 			dates: undefined

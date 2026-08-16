@@ -1,13 +1,15 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 import { ENV } from "@/shared/config/env";
+import { serializeParams } from "@/shared/utils";
 
 import { ENUM_API_TAGS } from "./tags.config";
 
 export const baseApi = createApi({
 	baseQuery: fetchBaseQuery({
 		baseUrl: ENV.API_URL,
-		credentials: "include"
+		credentials: "include",
+		paramsSerializer: serializeParams
 	}),
 	reducerPath: "baseApi",
 	endpoints: () => ({}),

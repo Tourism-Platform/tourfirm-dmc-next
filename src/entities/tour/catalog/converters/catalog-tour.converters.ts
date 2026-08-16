@@ -9,10 +9,10 @@ import {
 	ENUM_CATALOG_TOUR_TYPES,
 	type ENUM_CATALOG_TOUR_TYPES_TYPE,
 	type ENUM_TOUR_CATEGORY_TYPE,
+	type ICatalogListFilters,
 	type ICatalogTourCard,
 	type ICatalogTourFilters,
-	type IFilterOption,
-	type IFilterOptionBackend,
+	type TCatalogFiltersBackend,
 	type TCatalogTourBackend,
 	type TCatalogTourQueryBackend,
 	type TListCatalogToursBackendResponse
@@ -100,55 +100,51 @@ export const mapCatalogTourToFrontend = (
 	};
 };
 
-export const mapCatalogTourPaginatedToFrontend = (
-	response: TListCatalogToursBackendResponse,
-	pagination?: Pick<ICatalogTourFilters, "page" | "limit">
-): IPaginationResponse<ICatalogTourCard> => {
-	const data = response.map(mapCatalogTourToFrontend);
-	const limit = pagination?.limit ?? data.length;
-	const page = pagination?.page ?? 1;
-	const skip = Math.max(0, (page - 1) * limit);
-	const isLastPage = data.length < limit;
+export const mapCatalogTourListToFrontend = (
+	data: TCatalogTourBackend[]
+): ICatalogTourCard[] => data.map(mapCatalogTourToFrontend);
 
-	return {
-		data,
-		// Backend returns a bare array — total is exact on a short page,
-		// otherwise "at least one more" so consumers can keep paging off total.
-		total: isLastPage ? skip + data.length : skip + data.length + 1
-	};
-};
+export const mapCatalogTourPaginatedToFrontend = (
+	response: TListCatalogToursBackendResponse
+): IPaginationResponse<ICatalogTourCard> => ({
+	data: mapCatalogTourListToFrontend(response.data),
+	total: response.total_count
+});
 
 export const mapCatalogToursToFrontend = (
 	response: TListCatalogToursBackendResponse
 ): IPaginationResponse<ICatalogTourCard> =>
 	mapCatalogTourPaginatedToFrontend(response);
 
-export const mapFilterOptionToFrontend = (
-	data: IFilterOptionBackend
-): IFilterOption => ({
-	id: data.id,
-	title: data.title,
-	value: data.value
+export const mapCatalogListFiltersToFrontend = (
+	data: TCatalogFiltersBackend
+): ICatalogListFilters => ({
+	countries: data.countries,
+	cities: data.cities
 });
-
-export const mapFilterOptionsToFrontend = (
-	data: IFilterOptionBackend[]
-): IFilterOption[] => data.map(mapFilterOptionToFrontend);
 
 export const mapCatalogTourFiltersToPublicCatalogQuery = (
 	filters: ICatalogTourFilters
-): TCatalogTourQueryBackend => ({
-	...(filters?.page > 1 && { skip: (filters.page - 1) * filters?.limit }),
-	...(filters?.limit && { limit: filters.limit }),
-	...(!!filters?.filters?.category?.length && {
-		categories: tourCategoriesMapper.toMany(filters.filters.category)
-	}),
-	...(!!filters?.filters?.region?.length && {
-		city: filters.filters.region[0]
-	}),
-	...(!!filters?.filters?.language?.length && {
-		language: languageMapper.to(filters.filters.language[0])
-	}),
-	...mapDurationFiltersToQuery(filters?.filters?.duration),
-	...(!!filters?.search?.trim().length && { q: filters.search })
-});
+): TCatalogTourQueryBackend => {
+	const query: TCatalogTourQueryBackend = {
+		...(filters?.page > 1 && { skip: (filters.page - 1) * filters?.limit }),
+		...(filters?.limit && { limit: filters.limit }),
+		...(!!filters?.filters?.category?.length && {
+			categories: tourCategoriesMapper.toMany(filters.filters.category)
+		}),
+		...(!!filters?.filters?.country?.length && {
+			country: filters.filters.country
+		}),
+		...(!!filters?.filters?.city?.length && {
+			city: filters.filters.city
+		}),
+		...(!!filters?.filters?.language?.length && {
+			tour_lang: languageMapper.toMany(filters.filters.language)
+		}),
+		...(filters?.readLang && { read_lang: filters.readLang }),
+		...mapDurationFiltersToQuery(filters?.filters?.duration),
+		...(!!filters?.search?.trim().length && { q: filters.search })
+	};
+
+	return query;
+};
