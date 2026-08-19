@@ -2,12 +2,12 @@
 
 import { type FC } from "react";
 
-import { useUiContent } from "@/shared/ui-content";
+import { formatUiText, useUiContent } from "@/shared/ui-content";
 
 import { SheetInfoCard } from "./sheet-info-card";
 
 interface IOptionEventSheetScheduleInfoProps {
-	nights: string;
+	nights: number;
 	checkIn: string;
 	checkOut: string;
 }
@@ -27,7 +27,9 @@ export const OptionEventSheetScheduleInfo: FC<
 						<span className="text-primary text-[10px] font-semibold tracking-wider uppercase">
 							{texts.nights}
 						</span>
-						<p className="mt-1 font-medium">{nights}</p>
+						<p className="mt-1 font-medium">
+							{formatUiText(texts.nightsCount, { count: nights })}
+						</p>
 					</div>
 					<div className="grid grid-cols-[1fr_auto_1fr] items-end gap-3">
 						<div>

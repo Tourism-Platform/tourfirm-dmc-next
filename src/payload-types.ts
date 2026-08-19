@@ -212,6 +212,7 @@ export interface Config {
 		"ui-discovery": UiDiscovery;
 		"ui-login": UiLogin;
 		"ui-preview": UiPreview;
+		"ui-preview-sheet": UiPreviewSheet;
 		"ui-booking": UiBooking;
 	};
 	globalsSelect: {
@@ -237,6 +238,9 @@ export interface Config {
 		"ui-discovery": UiDiscoverySelect<false> | UiDiscoverySelect<true>;
 		"ui-login": UiLoginSelect<false> | UiLoginSelect<true>;
 		"ui-preview": UiPreviewSelect<false> | UiPreviewSelect<true>;
+		"ui-preview-sheet":
+			| UiPreviewSheetSelect<false>
+			| UiPreviewSheetSelect<true>;
 		"ui-booking": UiBookingSelect<false> | UiBookingSelect<true>;
 	};
 	locale:
@@ -29303,23 +29307,6 @@ export interface UiPreview {
 			fullItinerary?: string | null;
 			pricing?: string | null;
 		};
-		sheet?: {
-			pickupInfo?: string | null;
-			pickup?: string | null;
-			dropoff?: string | null;
-			to?: string | null;
-			amenities?: string | null;
-			scheduleInfo?: string | null;
-			nights?: string | null;
-			checkIn?: string | null;
-			checkOut?: string | null;
-			activityInfo?: string | null;
-			infoTime?: string | null;
-			location?: string | null;
-			startTime?: string | null;
-			endTime?: string | null;
-			flightInfo?: string | null;
-		};
 		pricing?: {
 			title?: string | null;
 			totalPrice?: string | null;
@@ -29361,6 +29348,39 @@ export interface UiPreview {
 			hotel?: string | null;
 		};
 	};
+	updatedAt?: string | null;
+	createdAt?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ui-preview-sheet".
+ */
+export interface UiPreviewSheet {
+	id: number;
+	pickupInfo?: string | null;
+	pickup?: string | null;
+	dropoff?: string | null;
+	to?: string | null;
+	amenities?: string | null;
+	scheduleInfo?: string | null;
+	nights?: string | null;
+	checkIn?: string | null;
+	checkOut?: string | null;
+	activityInfo?: string | null;
+	infoTime?: string | null;
+	location?: string | null;
+	startTime?: string | null;
+	endTime?: string | null;
+	flightInfo?: string | null;
+	cars?: string | null;
+	rooms?: string | null;
+	pax?: string | null;
+	guests?: string | null;
+	daysCount?: string | null;
+	nightsCount?: string | null;
+	terminal?: string | null;
+	gate?: string | null;
+	more?: string | null;
 	updatedAt?: string | null;
 	createdAt?: string | null;
 }
@@ -33601,25 +33621,6 @@ export interface UiPreviewSelect<T extends boolean = true> {
 							fullItinerary?: T;
 							pricing?: T;
 					  };
-				sheet?:
-					| T
-					| {
-							pickupInfo?: T;
-							pickup?: T;
-							dropoff?: T;
-							to?: T;
-							amenities?: T;
-							scheduleInfo?: T;
-							nights?: T;
-							checkIn?: T;
-							checkOut?: T;
-							activityInfo?: T;
-							infoTime?: T;
-							location?: T;
-							startTime?: T;
-							endTime?: T;
-							flightInfo?: T;
-					  };
 				pricing?:
 					| T
 					| {
@@ -33677,6 +33678,39 @@ export interface UiPreviewSelect<T extends boolean = true> {
 							hotel?: T;
 					  };
 		  };
+	updatedAt?: T;
+	createdAt?: T;
+	globalType?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ui-preview-sheet_select".
+ */
+export interface UiPreviewSheetSelect<T extends boolean = true> {
+	pickupInfo?: T;
+	pickup?: T;
+	dropoff?: T;
+	to?: T;
+	amenities?: T;
+	scheduleInfo?: T;
+	nights?: T;
+	checkIn?: T;
+	checkOut?: T;
+	activityInfo?: T;
+	infoTime?: T;
+	location?: T;
+	startTime?: T;
+	endTime?: T;
+	flightInfo?: T;
+	cars?: T;
+	rooms?: T;
+	pax?: T;
+	guests?: T;
+	daysCount?: T;
+	nightsCount?: T;
+	terminal?: T;
+	gate?: T;
+	more?: T;
 	updatedAt?: T;
 	createdAt?: T;
 	globalType?: T;

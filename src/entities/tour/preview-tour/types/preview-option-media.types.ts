@@ -1,5 +1,5 @@
-/** Optional media fields (TourEventResponse-style) until pub OpenAPI includes them. */
+import type { EventImagePubSchema } from "@/shared/api";
+
 export type TPubEventMediaFields = {
-	image_paths?: string[];
-	primary_image_path?: string | null;
+	images?: EventImagePubSchema[];
 };

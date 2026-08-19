@@ -20,6 +20,7 @@ import { seedUiCatalog } from "./seed/seeders/ui-catalog.js";
 import { seedUiLogin } from "./seed/seeders/ui-login.js";
 import { seedUiOrders } from "./seed/seeders/ui-orders.js";
 import { seedUiPreview } from "./seed/seeders/ui-preview.js";
+import { seedUiPreviewSheet } from "./seed/seeders/ui-preview-sheet.js";
 
 const LOCALES = SUPPORTED_LOCALES;
 type TLocale = (typeof LOCALES)[number];
@@ -259,12 +260,14 @@ export async function seedUiContent(payload: Payload): Promise<void> {
 
 	await seedUiLogin(payload);
 	await seedUiPreview(payload);
+	await seedUiPreviewSheet(payload);
 	await seedUiBooking(payload);
 	await seedUiCatalog(payload);
 	await seedUiOrders(payload);
 }
 
 export { seedUiPreview } from "./seed/seeders/ui-preview.js";
+export { seedUiPreviewSheet } from "./seed/seeders/ui-preview-sheet.js";
 export { seedUiLogin } from "./seed/seeders/ui-login.js";
 export { seedUiBooking } from "./seed/seeders/ui-booking.js";
 export { seedUiCatalog } from "./seed/seeders/ui-catalog.js";

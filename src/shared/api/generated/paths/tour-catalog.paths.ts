@@ -1,14 +1,12 @@
 import type {
+	CatalogFiltersSchema,
 	LanguageCode,
 	LocationSuggestionSchema,
+	PublicTourCatalogListResponse,
 	TourCatalogSort,
 	TourCategory
 } from "../Api";
-import type {
-	TCatalogFiltersSchema,
-	TPublicTourCatalogListResponse,
-	TTourCatalogPublicQuery
-} from "../types/tour-catalog.types";
+import type { TTourCatalogPublicQuery } from "../types/tour-catalog.types";
 
 export const TOUR_CATALOG_PATHS = {
 	suggestLocations: {
@@ -26,7 +24,7 @@ export const TOUR_CATALOG_PATHS = {
 		_types: {} as {
 			body: void;
 			query: { lang?: LanguageCode };
-			response: TCatalogFiltersSchema;
+			response: CatalogFiltersSchema;
 		}
 	} as const,
 	listPublicCatalog: {
@@ -35,7 +33,7 @@ export const TOUR_CATALOG_PATHS = {
 		_types: {} as {
 			body: void;
 			query: TTourCatalogPublicQuery;
-			response: TPublicTourCatalogListResponse;
+			response: PublicTourCatalogListResponse;
 		}
 	} as const,
 	listAgencyCatalog: {
@@ -56,7 +54,7 @@ export const TOUR_CATALOG_PATHS = {
 				skip?: number;
 				limit?: number;
 			};
-			response: TPublicTourCatalogListResponse;
+			response: PublicTourCatalogListResponse;
 		}
 	} as const
 } as const;

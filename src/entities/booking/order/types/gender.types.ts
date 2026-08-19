@@ -1,4 +1,1 @@
-export enum Gender {
-	M = "M",
-	F = "F"
-}
+export { Gender } from "@/shared/api";

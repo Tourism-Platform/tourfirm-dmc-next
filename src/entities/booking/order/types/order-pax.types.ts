@@ -1,3 +1,5 @@
+import type { BookingPaxFilesModel, BookingPaxModel } from "@/shared/api";
+
 import type { Gender } from "./gender.types";
 
 export type TBookingPaxFile = {
@@ -25,14 +27,6 @@ export interface IUploadPassengerPassportRequest {
 	file: File;
 }
 
-export type TUploadPassengerPassportResponse = {
-	id: string;
-	booking_pax_id: string;
-	url: string;
-	file_name: string;
-};
+export type TUploadPassengerPassportResponse = BookingPaxFilesModel;
 
-export type TAddPassengerResponseBackend = {
-	id: string;
-	booking_id: string;
-};
+export type TAddPassengerResponseBackend = BookingPaxModel;

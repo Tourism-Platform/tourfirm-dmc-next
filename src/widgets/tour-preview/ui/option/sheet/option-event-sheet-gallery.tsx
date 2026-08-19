@@ -4,8 +4,10 @@ import { type FC } from "react";
 
 import { UploadImagesPreviewer } from "@/shared/ui";
 
+import type { IOptionEventSheetImage } from "@/entities/tour/preview-tour";
+
 interface IOptionEventSheetGalleryProps {
-	images: string[];
+	images: IOptionEventSheetImage[];
 }
 
 export const OptionEventSheetGallery: FC<IOptionEventSheetGalleryProps> = ({
@@ -15,7 +17,7 @@ export const OptionEventSheetGallery: FC<IOptionEventSheetGalleryProps> = ({
 
 	return (
 		<UploadImagesPreviewer
-			images={images.slice(0, 5)}
+			images={images.slice(0, 5).map((image) => image.imagePath)}
 			gridHeight={220}
 			showPrimaryBadge={false}
 		/>

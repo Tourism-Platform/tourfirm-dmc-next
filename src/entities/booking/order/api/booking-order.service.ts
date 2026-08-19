@@ -5,7 +5,6 @@ import { authApi } from "@/entities/auth/api/auth.api";
 import {
 	mapBookingModelToCreated,
 	mapBookingModelToUpdated,
-	mapBookingOrderDetailToFrontend,
 	mapBookingOrderFiltersToBackend,
 	mapBookingOrderPaginatedToFrontend,
 	mapCreateBookingToBackend,
@@ -15,13 +14,11 @@ import type {
 	IBookingOrderFilters,
 	ICreateBookingRequest,
 	ICreatedBooking,
-	IOrderDetail,
 	IUpdateBookingRequest,
 	IUpdatedBooking,
 	TBookingItineraryBackend,
 	TBookingModelBackend,
 	TBookingOrderBackendResponse,
-	TBookingOrderDetailBackend,
 	TBookingOrderPaginatedResponse,
 	TSubmittedBooking
 } from "../types";
@@ -45,7 +42,7 @@ export const bookingOrderApi = authApi.injectEndpoints({
 			ICreateBookingRequest
 		>({
 			query: (body) => ({
-				...BOOKING_ORDER_PATHS.createOrder,
+				...BOOKING_ORDER_PATHS.createBookingOrder,
 				body: mapCreateBookingToBackend(body)
 			}),
 			transformResponse: (response: TBookingModelBackend) =>
@@ -57,7 +54,7 @@ export const bookingOrderApi = authApi.injectEndpoints({
 			IUpdateBookingRequest
 		>({
 			query: (body) => ({
-				...BOOKING_ORDER_PATHS.updateOrder(body.id),
+				...BOOKING_ORDER_PATHS.updateBookingOrder(body.id),
 				body: mapUpdateBookingToBackend(body)
 			}),
 			transformResponse: (response: TBookingModelBackend) =>
@@ -66,23 +63,13 @@ export const bookingOrderApi = authApi.injectEndpoints({
 		}),
 		submitBookingOrder: builder.mutation<TSubmittedBooking, string>({
 			query: (bookingId) => ({
-				...BOOKING_ORDER_PATHS.submitOrder(bookingId)
+				...BOOKING_ORDER_PATHS.submitBookingOrder(bookingId)
 			}),
 			transformResponse: (response: TBookingModelBackend) =>
 				mapBookingModelToCreated(response),
 			invalidatesTags: (_result, _error, bookingId) => [
 				{ type: ENUM_API_TAGS.BOOKING_ORDER, id: bookingId },
 				ENUM_API_TAGS.BOOKING_ORDER
-			]
-		}),
-		getBookingOrderById: builder.query<IOrderDetail, string>({
-			query: (id) => ({
-				...BOOKING_ORDER_PATHS.getOrder(id)
-			}),
-			transformResponse: (response: TBookingOrderDetailBackend) =>
-				mapBookingOrderDetailToFrontend(response),
-			providesTags: (_result, _error, id) => [
-				{ type: ENUM_API_TAGS.BOOKING_ORDER, id }
 			]
 		}),
 		getBookingItinerary: builder.query<TBookingItineraryBackend, string>({
@@ -101,6 +88,5 @@ export const {
 	useCreateBookingOrderMutation,
 	useUpdateBookingOrderMutation,
 	useSubmitBookingOrderMutation,
-	useGetBookingOrderByIdQuery,
 	useGetBookingItineraryQuery
 } = bookingOrderApi;

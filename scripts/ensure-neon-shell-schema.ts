@@ -15,6 +15,7 @@ import {
 	ensureUiOrdersSchema
 } from "./ensure-ui-catalog-orders-schema.js";
 import { ensureUiPreviewSchema } from "./ensure-ui-preview-schema.js";
+import { ensureUiPreviewSheetSchema } from "./ensure-ui-preview-sheet-schema.js";
 import { convertKeysDeep } from "./seed/lib/convert-keys.js";
 import { hasUiTextFile, loadUiTextFile } from "./seed/lib/load-ui-text.js";
 
@@ -582,6 +583,7 @@ async function main(): Promise<void> {
 	await ensureUiOrdersSchema();
 	await ensureUiBookingSchema();
 	await ensureUiPreviewSchema();
+	await ensureUiPreviewSheetSchema();
 	await ensureUiTextGlobalFromJson("ui_login", "login_page.json");
 	await ensureUiTextGlobalFromJson("ui_tours", "tours_page.json");
 

@@ -84,6 +84,7 @@ export const ADMIN_UI_CONTENT_GLOBALS_NAVIGATION: TAdminNavSection = {
 		"ui-discovery",
 		"ui-login",
 		"ui-preview",
+		"ui-preview-sheet",
 		"ui-booking"
 	]
 };

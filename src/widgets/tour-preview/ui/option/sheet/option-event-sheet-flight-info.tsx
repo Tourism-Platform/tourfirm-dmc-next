@@ -3,7 +3,7 @@
 import { MoreHorizontal, Plane } from "lucide-react";
 import { type FC } from "react";
 
-import { useUiContent } from "@/shared/ui-content";
+import { type TUiPreviewOption, useUiContent } from "@/shared/ui-content";
 
 import type { IOptionFlightSegment } from "@/entities/tour/preview-tour";
 
@@ -11,18 +11,31 @@ interface IOptionEventSheetFlightInfoProps {
 	segments: IOptionFlightSegment[];
 }
 
+const formatFlightPlace = (
+	place: string,
+	terminal: string | null,
+	gate: string | null,
+	sheet: TUiPreviewOption["sheet"]
+): string =>
+	[
+		place,
+		terminal ? `${sheet.terminal} ${terminal}` : null,
+		gate ? `${sheet.gate} ${gate}` : null
+	]
+		.filter(Boolean)
+		.join(" • ");
+
 export const OptionEventSheetFlightInfo: FC<
 	IOptionEventSheetFlightInfoProps
 > = ({ segments }) => {
 	const { preview } = useUiContent();
+	const sheet = preview.option.sheet;
 
 	if (!segments.length) return null;
 
 	return (
 		<div>
-			<h4 className="mb-3 font-semibold">
-				{preview.option.sheet.flightInfo}
-			</h4>
+			<h4 className="mb-3 font-semibold">{sheet.flightInfo}</h4>
 			<div className="flex flex-col gap-4">
 				{segments.map((segment, index) => (
 					<div
@@ -50,7 +63,7 @@ export const OptionEventSheetFlightInfo: FC<
 							<button
 								type="button"
 								className="text-muted-foreground shrink-0"
-								aria-label="More"
+								aria-label={sheet.more}
 							>
 								<MoreHorizontal className="size-4" />
 							</button>
@@ -65,7 +78,12 @@ export const OptionEventSheetFlightInfo: FC<
 									{segment.departureTime}
 								</p>
 								<p className="text-muted-foreground mt-1 text-xs leading-snug">
-									{segment.departurePlace}
+									{formatFlightPlace(
+										segment.departurePlace,
+										segment.departureTerminal,
+										segment.departureGate,
+										sheet
+									)}
 								</p>
 							</div>
 							<Plane className="text-muted-foreground mx-1 size-4" />

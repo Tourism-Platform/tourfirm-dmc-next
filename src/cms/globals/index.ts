@@ -21,6 +21,7 @@ import { UiDiscovery } from "./ui-discovery";
 import { UiLogin } from "./ui-login";
 import { UiOrders } from "./ui-orders";
 import { UiPreview } from "./ui-preview";
+import { UiPreviewSheet } from "./ui-preview-sheet";
 import { UiTours } from "./ui-tours";
 
 const rawGlobals: GlobalConfig[] = [
@@ -42,6 +43,7 @@ const rawGlobals: GlobalConfig[] = [
 	UiDiscovery,
 	UiLogin,
 	UiPreview,
+	UiPreviewSheet,
 	UiBooking
 ];
 

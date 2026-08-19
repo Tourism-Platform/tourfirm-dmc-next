@@ -1,6 +1,8 @@
 import type {
+	CatalogFiltersSchema,
 	LanguageCode,
 	LocationSuggestionSchema,
+	PublicTourCatalogListResponse,
 	PublicTourCatalogSchemaOutput,
 	TourCatalogSort,
 	TourCategory
@@ -10,16 +12,9 @@ export type TTourCatalogSort = TourCatalogSort;
 export type TTourCategory = TourCategory;
 export type TLanguageCode = LanguageCode;
 export type TPublicTourCatalogSchema = PublicTourCatalogSchemaOutput;
-
-export type TCatalogFiltersSchema = {
-	cities: string[];
-	countries: string[];
-};
-
-export type TPublicTourCatalogListResponse = {
-	total_count: number;
-	data: PublicTourCatalogSchemaOutput[];
-};
+export type TCatalogFiltersSchema = CatalogFiltersSchema;
+export type TPublicTourCatalogListResponse = PublicTourCatalogListResponse;
+export type TLocationSuggestionSchema = LocationSuggestionSchema;
 
 export type TTourCatalogPublicQuery = {
 	sort?: TourCatalogSort | null;
@@ -44,5 +39,3 @@ export type TTourCatalogSuggestQuery = {
 	lang?: LanguageCode;
 	limit?: number;
 };
-
-export type TLocationSuggestionSchema = LocationSuggestionSchema;

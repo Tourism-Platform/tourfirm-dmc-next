@@ -1,6 +1,5 @@
 import type { TPubEventMediaFields } from "../types/preview-option-media.types";
 
-/** Stable preview URLs (picsum) — used until pub API exposes image_paths. */
 export const PREVIEW_MOCK_IMAGE_URLS = {
 	single1: "https://picsum.photos/id/10/800/600",
 	single2: "https://picsum.photos/id/11/800/600",
@@ -25,6 +24,8 @@ export const withEventMedia = <T extends object>(
 	imagePaths: string[]
 ): T & TPubEventMediaFields => ({
 	...event,
-	image_paths: imagePaths,
-	primary_image_path: imagePaths[0] ?? null
+	images: imagePaths.map((image_path, index) => ({
+		image_path,
+		is_primary: index === 0
+	}))
 });

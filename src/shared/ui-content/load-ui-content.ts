@@ -36,6 +36,7 @@ const UI_GLOBAL_SLUGS = [
 	"ui-discovery",
 	"ui-login",
 	"ui-preview",
+	"ui-preview-sheet",
 	"ui-booking"
 ] as const;
 type TUiGlobalSlug = (typeof UI_GLOBAL_SLUGS)[number];
@@ -116,10 +117,23 @@ function mapUiContentBundle(
 			fallback["ui-login"],
 			current["ui-login"]
 		) as TUiLogin,
-		preview: mapGlobalUiContent(
-			fallback["ui-preview"],
-			current["ui-preview"]
-		) as TUiPreview,
+		preview: (() => {
+			const preview = mapGlobalUiContent(
+				fallback["ui-preview"],
+				current["ui-preview"]
+			) as TUiPreview;
+
+			return {
+				...preview,
+				option: {
+					...preview.option,
+					sheet: mapGlobalUiContent(
+						fallback["ui-preview-sheet"],
+						current["ui-preview-sheet"]
+					) as TUiPreview["option"]["sheet"]
+				}
+			};
+		})(),
 		booking: mapGlobalUiContent(
 			fallback["ui-booking"],
 			current["ui-booking"]

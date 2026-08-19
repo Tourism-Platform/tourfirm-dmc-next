@@ -108,6 +108,15 @@ export type TUiPreviewOption = {
 		startTime: string;
 		endTime: string;
 		flightInfo: string;
+		cars: string;
+		rooms: string;
+		pax: string;
+		guests: string;
+		daysCount: string;
+		nightsCount: string;
+		terminal: string;
+		gate: string;
+		more: string;
 	};
 	pricing: {
 		title: string;

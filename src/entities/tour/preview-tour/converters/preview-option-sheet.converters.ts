@@ -4,20 +4,25 @@ import type {
 	ActivityEventPubReadOutput,
 	BusEventPubReadOutput,
 	EmptyDetails,
+	EventImagePubSchema,
 	FlightEventPubReadOutput,
 	HousingEventPubReadOutput,
+	HousingRoomTypes,
 	InformationEventPubReadOutput,
 	MultiEventPubOutput,
 	TimeSchema,
 	TrainEventPubReadOutput,
-	TransferEventPubReadOutput
+	TransferEventPubReadOutput,
+	VehicleBodyType
 } from "@/shared/api";
 
 import type { TOptionDetailBackend } from "../types";
-import type { TPubEventMediaFields } from "../types/preview-option-media.types";
 import type {
 	IOptionEventSheet,
+	IOptionEventSheetCar,
+	IOptionEventSheetImage,
 	IOptionEventSheetPoint,
+	IOptionEventSheetRoom,
 	IOptionFlightSegment,
 	TOptionEventSheetExtra
 } from "../types/preview-option-sheet.types";
@@ -27,18 +32,17 @@ import { toPublicImageUrl } from "./preview-option-media.utils";
 
 type TPubEvent = TOptionDetailBackend["events"][number];
 type TPubDetail = NonNullable<MultiEventPubOutput["details"]>[number];
-type TPubEventWithMedia = (TPubEvent | TPubDetail) & TPubEventMediaFields;
 
-export const resolveEventImagePaths = (
-	event: TPubEvent | TPubDetail
-): string[] => {
-	const media = event as TPubEventWithMedia;
-	const paths =
-		media.image_paths ??
-		(media.primary_image_path ? [media.primary_image_path] : []);
-
-	return paths.map(toPublicImageUrl).filter(Boolean).slice(0, 5);
-};
+const mapPubImagesToSheet = (
+	images?: EventImagePubSchema[]
+): IOptionEventSheetImage[] =>
+	(images ?? [])
+		.map((image) => ({
+			imagePath: toPublicImageUrl(image.image_path),
+			isPrimary: image.is_primary
+		}))
+		.filter((image) => Boolean(image.imagePath))
+		.slice(0, 5);
 
 const formatPubTime = (time?: TimeSchema | null): string => {
 	if (!time?.time) return "";
@@ -53,11 +57,94 @@ const formatJourneyPoint = (point?: {
 	location?: unknown;
 }): IOptionEventSheetPoint => {
 	const place = formatLocation(point?.location) || "—";
-	const datePart = point?.date ? format(new Date(point.date), "MMM d") : "";
+	const datePart = point?.date ? format(new Date(point.date), "dd/MM") : "";
 	const timePart = formatPubTime(point?.time);
 	const dateTime = [datePart, timePart].filter(Boolean).join(" • ") || "—";
 
 	return { place, dateTime };
+};
+
+type TSheetCarSource = {
+	typ?: VehicleBodyType | null;
+	pax?: number | null;
+	description?: string | null;
+};
+
+type TSheetRoomSource = {
+	name?: string | null;
+	typ?: HousingRoomTypes | null;
+	pax?: number | null;
+	description?: string | null;
+};
+
+type TSheetRoomCategorySource = {
+	rooms?: TSheetRoomSource[] | null;
+};
+
+const hasCars = (
+	expenses: unknown
+): expenses is { cars?: TSheetCarSource[] | null } =>
+	Boolean(expenses && typeof expenses === "object" && "cars" in expenses);
+
+const hasRooms = (
+	expenses: unknown
+): expenses is {
+	rooms?: TSheetRoomSource[] | null;
+	categories?: TSheetRoomCategorySource[] | null;
+} =>
+	Boolean(
+		expenses &&
+		typeof expenses === "object" &&
+		("rooms" in expenses || "categories" in expenses)
+	);
+
+const mapSheetCarsFromExpenses = (
+	expenses: unknown
+): IOptionEventSheetCar[] => {
+	if (!hasCars(expenses) || !expenses.cars?.length) return [];
+
+	return expenses.cars
+		.filter((car) => car.typ || car.description || car.pax)
+		.map((car) => ({
+			typ: car.typ ?? null,
+			pax: car.pax ?? null,
+			description: car.description ?? ""
+		}));
+};
+
+const mapSheetRoomsFromExpenses = (
+	expenses: unknown
+): IOptionEventSheetRoom[] => {
+	if (!hasRooms(expenses)) return [];
+
+	if (expenses.rooms?.length) {
+		return expenses.rooms
+			.filter(
+				(room) => room.name || room.typ || room.description || room.pax
+			)
+			.map((room) => ({
+				name: room.name ?? "",
+				typ: room.typ ?? null,
+				pax: room.pax ?? null,
+				description: room.description ?? ""
+			}));
+	}
+
+	return (
+		expenses.categories?.flatMap((category) =>
+			(category.rooms ?? [])
+				.filter(
+					(room) =>
+						room.typ || room.description || room.pax || room.name
+				)
+				.map((room) => ({
+					name: room.name ?? "",
+					typ: room.typ ?? null,
+					pax: room.pax ?? null,
+					description: room.description ?? ""
+				}))
+		) ?? []
+	);
 };
 
 const mapTransferSheet = (
@@ -65,7 +152,8 @@ const mapTransferSheet = (
 ): TOptionEventSheetExtra => ({
 	kind: "transfer",
 	pickup: formatJourneyPoint(event?.details?.departure ?? undefined),
-	dropoff: formatJourneyPoint(event?.details?.arrival ?? undefined)
+	dropoff: formatJourneyPoint(event?.details?.arrival ?? undefined),
+	cars: mapSheetCarsFromExpenses(event?.details?.expenses)
 });
 
 const mapHousingSheet = (
@@ -73,9 +161,10 @@ const mapHousingSheet = (
 ): TOptionEventSheetExtra => ({
 	kind: "accommodation",
 	amenities: event?.details?.amenities ?? [],
-	nights: `${event?.details?.duration} night${event?.details?.duration === 1 ? "" : "s"}`,
+	nights: event?.details?.duration ?? 0,
 	checkIn: formatPubTime(event?.details?.check_in ?? undefined),
-	checkOut: formatPubTime(event?.details?.check_out ?? undefined)
+	checkOut: formatPubTime(event?.details?.check_out ?? undefined),
+	rooms: mapSheetRoomsFromExpenses(event?.details?.expenses)
 });
 
 const mapActivitySheet = (
@@ -128,10 +217,10 @@ const mapHopToSegment = (
 ): IOptionFlightSegment => {
 	if ("departure_airport_code" in hop && hop.departure_airport_code) {
 		const depDate = hop.departure_date
-			? format(new Date(hop.departure_date), "d MMM, yyyy")
+			? format(new Date(hop.departure_date), "dd/MM/yyyy")
 			: "";
 		const arrDate = hop.arrival_date
-			? format(new Date(hop.arrival_date), "d MMM, yyyy")
+			? format(new Date(hop.arrival_date), "dd/MM/yyyy")
 			: "";
 		return {
 			airlineCode: hop.airline_code ?? "",
@@ -140,7 +229,9 @@ const mapHopToSegment = (
 			dateRange: [depDate, arrDate].filter(Boolean).join(" - "),
 			departureCode: hop.departure_airport_code,
 			departureTime: formatPubTime(hop.departure_time ?? undefined),
-			departurePlace: `${formatLocation(hop.departure_location ?? undefined)}${hop.departure_terminal ? `, Terminal ${hop.departure_terminal}` : ""}${hop.departure_gate ? ` • Gate ${hop.departure_gate}` : ""}`,
+			departurePlace: formatLocation(hop.departure_location ?? undefined),
+			departureTerminal: hop.departure_terminal ?? null,
+			departureGate: hop.departure_gate ?? null,
 			arrivalCode: hop.arrival_airport_code ?? "",
 			arrivalTime: formatPubTime(hop.arrival_time ?? undefined),
 			arrivalPlace: formatLocation(hop.arrival_location ?? undefined)
@@ -155,11 +246,13 @@ const mapHopToSegment = (
 		route: routeLabel,
 		dateRange: [dep?.date, arr?.date]
 			.filter((d): d is string => Boolean(d))
-			.map((d) => format(new Date(d), "d MMM, yyyy"))
+			.map((d) => format(new Date(d), "dd/MM/yyyy"))
 			.join(" - "),
 		departureCode: "—",
 		departureTime: formatPubTime(dep?.time ?? undefined),
 		departurePlace: formatLocation(dep?.location ?? undefined),
+		departureTerminal: null,
+		departureGate: null,
 		arrivalCode: "—",
 		arrivalTime: formatPubTime(arr?.time ?? undefined),
 		arrivalPlace: formatLocation(arr?.location ?? undefined)
@@ -236,7 +329,7 @@ export const buildSheetFromPubEvent = (
 	event: TPubEvent | TPubDetail
 ): IOptionEventSheet => {
 	return {
-		images: resolveEventImagePaths(event),
+		images: mapPubImagesToSheet(event.images),
 		description: event.description || "",
 		extra: mapSheetExtraFromPub(event)
 	};
@@ -245,7 +338,7 @@ export const buildSheetFromPubEvent = (
 export const buildSheetFromMultiplyChild = (
 	detail: TPubDetail
 ): IOptionEventSheet => ({
-	images: resolveEventImagePaths(detail),
+	images: mapPubImagesToSheet(detail.images),
 	description: detail.description || "",
 	extra: mapSheetExtraFromPub(detail)
 });
