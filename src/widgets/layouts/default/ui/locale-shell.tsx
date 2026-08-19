@@ -17,15 +17,15 @@ export function LocaleShell({ children, header, footer }: TProps) {
 
 	if (isLogin) {
 		return (
-			<main className="flex min-h-svh w-full flex-1 flex-col">
+			<main className="flex min-h-screen w-full flex-col">
 				{children}
 			</main>
 		);
 	}
 
 	return (
-		<div className="flex min-h-svh w-full flex-col">
-			<div className="min-h-[100svh]">
+		<div className="flex w-full flex-col">
+			<div className="flex min-h-screen flex-col">
 				{header}
 				<main className="mx-auto flex w-full max-w-7xl flex-1 flex-col px-4 pb-16 sm:px-6 sm:pb-20 lg:px-8">
 					{children}

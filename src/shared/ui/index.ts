@@ -6,4 +6,5 @@ export * from "./blocks";
 export * from "./custom";
 export * from "./layout";
 export * from "./suspense-loader";
+export * from "./data-loader";
 export * from "./error-boundary";

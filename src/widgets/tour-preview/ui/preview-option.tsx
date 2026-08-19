@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowLeft, Loader } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { useLocale } from "next-intl";
 import { type FC, useEffect } from "react";
 import { toast } from "sonner";
@@ -13,6 +13,7 @@ import {
 	CustomOptionTabsContent,
 	CustomOptionTabsList,
 	CustomOptionTabsTrigger,
+	DataLoader,
 	Separator,
 	withErrorBoundary
 } from "@/shared/ui";
@@ -57,11 +58,7 @@ const PreviewOptionBase: FC<TPreviewOptionProps> = ({ tourId, optionId }) => {
 	}, [isTourError, isOptionError, preview.tour.toasts.load.error]);
 
 	if (isLoading) {
-		return (
-			<div className="flex justify-center items-center py-20">
-				<Loader className="h-8 w-8 animate-spin text-muted-foreground" />
-			</div>
-		);
+		return <DataLoader />;
 	}
 
 	const defaultTab = PREVIEW_OPTION_TABS_LIST[0]?.type ?? "";

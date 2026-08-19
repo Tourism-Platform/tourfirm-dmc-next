@@ -158,7 +158,11 @@ export const PublicNavMenu: FC<IPublicNavMenuProps> = ({
 					"grid w-full flex-none list-none gap-y-0.5",
 					"grid-cols-[repeat(4,max-content)] justify-between justify-items-center items-center",
 					// Two-row hover: path to top dropdown crosses bottom items — ignore them while open
-					"[&:has([data-state=open])_[data-slot=navigation-menu-item]:not(:has([data-state=open]))]:pointer-events-none"
+					"[&:has([data-state=open])_[data-slot=navigation-menu-item]:not(:has([data-state=open]))]:pointer-events-none",
+					"[&>*:nth-child(4n+3)_[data-slot=navigation-menu-content]]:left-auto",
+					"[&>*:nth-child(4n+3)_[data-slot=navigation-menu-content]]:right-0",
+					"[&>*:nth-child(4n+4)_[data-slot=navigation-menu-content]]:left-auto",
+					"[&>*:nth-child(4n+4)_[data-slot=navigation-menu-content]]:right-0"
 				)}
 			>
 				{items.map(renderEntry)}
