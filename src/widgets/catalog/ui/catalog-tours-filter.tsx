@@ -42,7 +42,7 @@ const CatalogToursFilterBase: FC<TCatalogToursFilterProps> = ({ form }) => {
 	const readLang = useMemo(() => mapLocaleToLanguageCode(locale), [locale]);
 
 	const { data: catalogFilters, isLoading: isCatalogFiltersLoading } =
-		useGetCatalogFiltersQuery({ lang: readLang });
+		useGetCatalogFiltersQuery({ read_lang: readLang });
 
 	const countryItems = useMemo(
 		() =>

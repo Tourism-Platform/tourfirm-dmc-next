@@ -48,7 +48,7 @@ export const mapLocationSuggestParamsToBackend = (
 	params: TLocationSuggestParams
 ): TSuggestLocationsQuery => ({
 	q: params.search.trim(),
-	lang: params.language,
+	read_lang: params.language,
 	...(params.limit !== undefined && { limit: params.limit })
 });
 

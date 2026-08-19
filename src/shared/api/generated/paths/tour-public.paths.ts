@@ -32,11 +32,11 @@ export const TOUR_PUBLIC_PATHS = {
 		}) as const,
 	getPublicTourOption: (tourId: string, optionId: string) =>
 		({
-			url: `/tour/${tourId}/public/option/${optionId}`,
+			url: `/tour/${tourId}/public/option/${optionId}/itinerary`,
 			method: "GET",
 			_types: {} as {
 				body: void;
-				query: { currency?: Currency; lang?: LanguageCode };
+				query: { currency?: Currency; read_lang?: LanguageCode };
 				response: TourOptionPublicResponse;
 			}
 		}) as const,
@@ -46,7 +46,7 @@ export const TOUR_PUBLIC_PATHS = {
 			method: "GET",
 			_types: {} as {
 				body: void;
-				query: { lang?: LanguageCode };
+				query: { read_lang?: LanguageCode };
 				response: LandingPagePubSchema;
 			}
 		}) as const,

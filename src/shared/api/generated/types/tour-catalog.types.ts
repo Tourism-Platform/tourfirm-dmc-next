@@ -31,11 +31,11 @@ export type TTourCatalogPublicQuery = {
 };
 
 export type TTourCatalogFiltersQuery = {
-	lang?: LanguageCode;
+	read_lang?: LanguageCode;
 };
 
 export type TTourCatalogSuggestQuery = {
 	q: string;
-	lang?: LanguageCode;
+	read_lang?: LanguageCode;
 	limit?: number;
 };

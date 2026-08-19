@@ -25,7 +25,7 @@ export const tourPreviewTourHandlers = [
 		await delay(300);
 		return HttpResponse.json(PREVIEW_TOUR_OPTIONS_LIST_MOCK);
 	}),
-	http.get("*/tour/:tourId/public/option/:optionId", async () => {
+	http.get("*/tour/:tourId/public/option/:optionId/itinerary", async () => {
 		await delay(300);
 		return HttpResponse.json(PREVIEW_OPTION_BACKEND_MOCK);
 	})
