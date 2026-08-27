@@ -10,6 +10,9 @@ import { ToursPage } from "@/page/tours";
 import { getTours } from "@/cms/api/get-tours";
 import { mapCmsBlocks, resolveBlockData } from "@/cms/lib";
 
+export const dynamic = "force-static";
+export const revalidate = 60;
+
 type TProps = {
 	params: Promise<{
 		locale: TypedLocale;

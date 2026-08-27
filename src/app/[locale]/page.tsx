@@ -9,6 +9,7 @@ import { MainPage } from "@/page/main";
 import { getHomepage } from "@/cms/api";
 import { mapCmsBlocks, resolveBlockData } from "@/cms/lib";
 
+export const dynamic = "force-static";
 export const revalidate = 60;
 type TProps = {
 	params: Promise<{

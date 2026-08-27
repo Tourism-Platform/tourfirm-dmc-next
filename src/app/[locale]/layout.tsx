@@ -56,9 +56,11 @@ type TProps = {
 		locale: string;
 	}>;
 };
-export function generateStaticParams() {
-	return routing.locales.map((locale) => ({ locale }));
-}
+
+/** On-demand ISR: locale shells are filled at runtime, not during `next build`. */
+export const dynamic = "force-static";
+export const revalidate = 60;
+
 export async function generateMetadata({ params }: Omit<TProps, "children">) {
 	const { locale } = await params;
 	const uiContent = await loadUiContent(locale);
