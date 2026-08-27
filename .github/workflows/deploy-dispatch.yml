@@ -1,0 +1,17 @@
+# Tells tour-deploy to sync immediately instead of waiting on its cron.
+# Lives in each app repo as .github/workflows/deploy-dispatch.yml, byte-identical.
+# Requires secret DEPLOY_DISPATCH_TOKEN: a classic PAT with `repo` scope on
+# kturaevv/tour-deploy. No payload — sync re-reads every app's head itself.
+name: deploy-dispatch
+
+on:
+    push:
+        branches: [main]
+
+jobs:
+    dispatch:
+        runs-on: ubuntu-latest
+        steps:
+            - env:
+                  GH_TOKEN: ${{ secrets.DEPLOY_DISPATCH_TOKEN }}
+              run: gh api --method POST repos/kturaevv/tour-deploy/dispatches -f event_type=app-push
