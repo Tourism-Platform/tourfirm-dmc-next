@@ -1,10 +1,24 @@
+function parseSeedConcurrency(
+	envKey: string,
+	fallback: number,
+	max = 8
+): number {
+	const value = Number(process.env[envKey] ?? fallback);
+
+	if (!Number.isFinite(value) || value < 1) {
+		return fallback;
+	}
+
+	return Math.min(Math.floor(value), max);
+}
+
 export const SEED_LIMITS = {
-	badges: Number(process.env.SEED_PARALLEL_BADGES ?? 2),
-	themes: 1,
-	countries: 1,
-	regions: 1,
-	cities: 1,
-	attractions: 1
+	badges: parseSeedConcurrency("SEED_PARALLEL_BADGES", 2),
+	themes: parseSeedConcurrency("SEED_PARALLEL_THEMES", 1),
+	countries: parseSeedConcurrency("SEED_PARALLEL_COUNTRIES", 1),
+	regions: parseSeedConcurrency("SEED_PARALLEL_REGIONS", 1),
+	cities: parseSeedConcurrency("SEED_PARALLEL_CITIES", 1),
+	attractions: parseSeedConcurrency("SEED_PARALLEL_ATTRACTIONS", 1)
 } as const;
 
 export async function mapWithConcurrency<T, R>(

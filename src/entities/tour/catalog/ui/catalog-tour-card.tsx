@@ -1,9 +1,10 @@
 "use client";
 
-import { Image, MapPin } from "lucide-react";
-import { type FC, useState } from "react";
+import { GalleryIcon, Routing2Icon } from "@solar-icons/react/outline";
+import { type FC } from "react";
 
 import { ENUM_PATH, buildRoute } from "@/shared/config";
+import { useImageStatus } from "@/shared/hooks";
 import { Link, useRouter } from "@/shared/i18n";
 import { cn } from "@/shared/lib/utils";
 import {
@@ -24,7 +25,7 @@ import { ENUM_CATALOG_TOUR_TYPES } from "../types";
 import type { ICatalogTourCard } from "../types";
 
 const VISIBLE_CATEGORIES = 2;
-const TOUR_PLACEHOLDER = "/assets/images/catalog/silk-road.jpg";
+const VISIBLE_LANGUAGES = 5;
 
 type TCatalogTourCardProps = {
 	data: ICatalogTourCard;
@@ -38,7 +39,9 @@ export const CatalogTourCard: FC<TCatalogTourCardProps> = ({
 	const router = useRouter();
 	const { tours } = useUiContent();
 	const card = tours.card;
-	const [isImageLoaded, setIsImageLoaded] = useState(false);
+	const { isLoaded, isLoading, isError, onLoad, onError } = useImageStatus(
+		tour.imageUrl
+	);
 
 	const tourHref = buildRoute(ENUM_PATH.TOURS.TOUR, { tourId: tour.id });
 	const bookingHref = buildRoute(ENUM_PATH.TOURS.BOOKING, {
@@ -48,6 +51,11 @@ export const CatalogTourCard: FC<TCatalogTourCardProps> = ({
 	const visibleCategories = tour.categories.slice(0, VISIBLE_CATEGORIES);
 	const hiddenCategoriesCount = Math.max(
 		tour.categories.length - VISIBLE_CATEGORIES,
+		0
+	);
+	const visibleLanguages = tour.languages.slice(0, VISIBLE_LANGUAGES);
+	const hiddenLanguagesCount = Math.max(
+		tour.languages.length - VISIBLE_LANGUAGES,
 		0
 	);
 
@@ -71,25 +79,33 @@ export const CatalogTourCard: FC<TCatalogTourCardProps> = ({
 		>
 			<Link href={tourHref} className="flex min-w-0 flex-1 flex-col">
 				<div className="relative h-36 w-full shrink-0 overflow-hidden bg-muted sm:h-48">
-					{!isImageLoaded && (
+					{!isLoaded && (
 						<div className="absolute inset-0 z-0 flex items-center justify-center">
-							<Skeleton className="absolute inset-0 size-full" />
-							<Image className="size-8 animate-pulse text-muted-foreground/20 sm:size-10" />
+							{isLoading && (
+								<Skeleton className="absolute inset-0 size-full" />
+							)}
+							<GalleryIcon
+								className={cn(
+									"size-20 text-muted-foreground/40",
+									isLoading &&
+										"animate-pulse text-muted-foreground/20"
+								)}
+							/>
 						</div>
 					)}
 					{/* eslint-disable-next-line @next/next/no-img-element */}
-					<img
-						src={tour.imageUrl || TOUR_PLACEHOLDER}
-						alt={tour.title}
-						onError={(e) => {
-							e.currentTarget.src = TOUR_PLACEHOLDER;
-						}}
-						onLoad={() => setIsImageLoaded(true)}
-						className={cn(
-							"absolute inset-0 size-full object-cover transition-opacity duration-500",
-							isImageLoaded ? "opacity-100" : "opacity-0"
-						)}
-					/>
+					{tour.imageUrl && !isError && (
+						<img
+							src={tour.imageUrl}
+							alt={tour.title}
+							onLoad={onLoad}
+							onError={onError}
+							className={cn(
+								"absolute inset-0 size-full object-cover transition-opacity duration-500",
+								isLoaded ? "opacity-100" : "opacity-0"
+							)}
+						/>
+					)}
 					<div className="absolute inset-x-0 bottom-0 z-10 h-16 bg-gradient-to-t from-black/55 to-transparent sm:h-20" />
 					<div className="absolute top-2 left-2 z-10 sm:top-3 sm:left-3">
 						<Badge className="border-0 bg-background/95 text-xs text-foreground shadow-sm backdrop-blur-sm sm:text-sm">
@@ -97,16 +113,24 @@ export const CatalogTourCard: FC<TCatalogTourCardProps> = ({
 						</Badge>
 					</div>
 					{!!tour.languages.length && (
-						<div className="absolute bottom-2 left-2 z-10 flex flex-wrap gap-1 sm:bottom-3 sm:left-3">
-							{tour.languages.map((lang) => (
+						<div className="absolute bottom-3 left-3 z-10 flex flex-wrap gap-1">
+							{visibleLanguages.map((lang) => (
 								<Badge
 									key={lang}
 									variant="secondary"
-									className="bg-background/95 text-xs text-foreground shadow-sm backdrop-blur-sm sm:text-sm"
+									className="bg-background/95 text-foreground shadow-sm backdrop-blur-sm"
 								>
 									{lang}
 								</Badge>
 							))}
+							{hiddenLanguagesCount > 0 && (
+								<Badge
+									variant="secondary"
+									className="bg-background/95 text-foreground shadow-sm backdrop-blur-sm"
+								>
+									+{hiddenLanguagesCount}
+								</Badge>
+							)}
 						</div>
 					)}
 				</div>
@@ -118,7 +142,7 @@ export const CatalogTourCard: FC<TCatalogTourCardProps> = ({
 
 					{!!tour.route.length && (
 						<div className="text-muted-foreground flex min-w-0 items-start gap-1.5 text-[11px] sm:text-xs">
-							<MapPin className="mt-0.5 size-3 shrink-0 sm:size-3.5" />
+							<Routing2Icon className="mt-0.5 size-3 shrink-0 sm:size-3.5" />
 							<span className="line-clamp-2">
 								{tour.route.join(" → ")}
 							</span>

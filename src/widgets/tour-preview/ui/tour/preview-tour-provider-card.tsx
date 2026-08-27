@@ -1,10 +1,13 @@
 "use client";
 
+import { UserIcon } from "@solar-icons/react/outline";
 import { type FC, useEffect } from "react";
 import { toast } from "sonner";
 
 import { ENUM_PATH, buildRoute } from "@/shared/config";
+import { useImageStatus } from "@/shared/hooks";
 import { useRouter } from "@/shared/i18n";
+import { cn } from "@/shared/lib";
 import {
 	Button,
 	Card,
@@ -36,6 +39,9 @@ const PreviewTourProviderCardBase: FC<IPreviewTourProviderCardProps> = ({
 	} = useGetPreviewOperatorQuery(tourId, { skip: !tourId });
 
 	const providerData = PROVIDER_CONTACTS(data);
+	const { isLoaded, isLoading, isError, onLoad, onError } = useImageStatus(
+		data?.logo
+	);
 
 	const handleBooking = () => {
 		const path = buildRoute(ENUM_PATH.TOURS.BOOKING, { tourId });
@@ -49,16 +55,37 @@ const PreviewTourProviderCardBase: FC<IPreviewTourProviderCardProps> = ({
 	}, [isPreviewError, texts.toasts.load.error]);
 
 	return (
-		<Card className="relative w-[400px] shrink-0 overflow-hidden">
+		<Card className="relative w-full max-w-[400px] overflow-hidden lg:w-[400px] lg:shrink-0">
 			<div className="absolute top-0 left-0 h-30 w-full bg-blue-100" />
 			<CardContent className="flex flex-col gap-4 pt-10">
-				<div>
-					{/* eslint-disable-next-line @next/next/no-img-element */}
-					<img
-						src={data?.logo}
-						alt={data?.business_name}
-						className="border-background relative z-10 h-26 w-26 rounded-full border-4"
-					/>
+				<div className="border-background bg-muted relative z-10 h-26 w-26 overflow-hidden rounded-full border-4">
+					{!isLoaded && (
+						<div className="absolute inset-0 z-0 flex items-center justify-center">
+							{isLoading && (
+								<Skeleton className="absolute inset-0 size-full" />
+							)}
+							<UserIcon
+								className={cn(
+									"text-muted-foreground/40 size-10",
+									isLoading &&
+										"text-muted-foreground/20 animate-pulse"
+								)}
+							/>
+						</div>
+					)}
+					{data?.logo && !isError ? (
+						// eslint-disable-next-line @next/next/no-img-element
+						<img
+							src={data.logo}
+							alt={data.business_name}
+							onLoad={onLoad}
+							onError={onError}
+							className={cn(
+								"absolute inset-0 size-full object-cover transition-opacity duration-500",
+								isLoaded ? "opacity-100" : "opacity-0"
+							)}
+						/>
+					) : null}
 				</div>
 				<p className="text-muted-foreground text-xs">
 					{texts.provider.title}

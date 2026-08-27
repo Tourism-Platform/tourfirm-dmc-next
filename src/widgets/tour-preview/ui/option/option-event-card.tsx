@@ -31,7 +31,7 @@ const OptionEventCardBase: FC<IOptionEventCardProps> = ({ event, index }) => {
 	);
 
 	return (
-		<div className="bg-card grid grid-cols-2 gap-0 overflow-hidden rounded-xl border shadow-sm">
+		<div className="bg-card grid grid-cols-1 gap-0 overflow-hidden rounded-xl border shadow-sm md:grid-cols-2">
 			<div
 				className={cn(
 					"flex flex-col gap-4 p-6",

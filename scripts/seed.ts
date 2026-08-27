@@ -57,14 +57,61 @@ import { SeedLookupCache } from "./seed-lookup-cache.js";
 import {
 	isSeedFullReset,
 	logSeedResetMode,
-	resetDatabase
+	resetDatabase,
+	shouldPreserveMediaOnFastReset,
+	shouldSkipDatabaseReset,
+	shouldSkipExistingDocs
 } from "./seed-reset.js";
 import { createDiscoverySeeder } from "./seed-discovery.js";
 import { seedUiContent } from "./seed-ui-content.js";
 import { mapWithConcurrency, SEED_LIMITS } from "./seed-parallel.js";
-import { SUPPORTED_LOCALES } from "../config/supported-locales.js";
+import { SUPPORTED_LOCALES, type TSupportedLocale } from "../config/supported-locales.js";
 
 const SEED_STAGE_COUNT = 20;
+
+type TLocale = TSupportedLocale;
+
+function resolveSeedLocales(): readonly TLocale[] {
+	const raw = process.env.SEED_LOCALES?.trim();
+
+	if (!raw) {
+		return SUPPORTED_LOCALES;
+	}
+
+	const requested = raw
+		.split(",")
+		.map((part) => part.trim())
+		.filter(Boolean);
+	const allowed = new Set<string>(SUPPORTED_LOCALES);
+	const locales = requested.filter((code): code is TLocale =>
+		allowed.has(code)
+	);
+
+	if (locales.length === 0) {
+		throw new Error(
+			`SEED_LOCALES must include at least one of: ${SUPPORTED_LOCALES.join(", ")}`
+		);
+	}
+
+	return locales;
+}
+
+function resolveLocalesWithContent(
+	raw: Record<string, unknown>,
+	locales: readonly TLocale[]
+): TLocale[] {
+	return locales.filter((locale) => rawHasLocaleContent(raw, locale));
+}
+
+function logSeedPerformanceSettings(): void {
+	const locales = resolveSeedLocales();
+	const preserveMedia = shouldPreserveMediaOnFastReset();
+	const resume = shouldSkipDatabaseReset();
+
+	console.log(
+		`Seed perf: resume=${resume} locales=[${locales.join(",")}] preserveMedia=${preserveMedia} concurrency=${JSON.stringify(SEED_LIMITS)}`
+	);
+}
 
 type TRouteMapCollection =
 	| "countries"
@@ -146,7 +193,6 @@ async function mapPool<T>(
 }
 
 const LOCALES = SUPPORTED_LOCALES;
-type TLocale = (typeof LOCALES)[number];
 
 const SEED_CONTEXT = { isSeed: true } as const;
 
@@ -1213,12 +1259,10 @@ export async function seedDiscoveryGlobal(
 	raw: Record<string, unknown>,
 	mediaCache: TMediaCache
 ): Promise<void> {
-	for (const locale of LOCALES) {
-		if (!rawHasLocaleContent(raw, locale)) {
-			console.log(`  ~ skip ${slug} locale ${locale} (no seed data)`);
-			continue;
-		}
+	const locales = resolveSeedLocales();
+	const localesWithContent = resolveLocalesWithContent(raw, locales);
 
+	for (const locale of localesWithContent) {
 		const localized = pickLocale(raw, locale) as Record<string, unknown>;
 		const data = await resolveSeedDocument(
 			payload,
@@ -1248,12 +1292,10 @@ async function seedHomepage(
 
 	console.log("Seeding homepage global...");
 
-	for (const locale of LOCALES) {
-		if (!rawHasLocaleContent(raw, locale)) {
-			console.log(`  ~ skip homepage locale ${locale} (no seed data)`);
-			continue;
-		}
+	const locales = resolveSeedLocales();
+	const localesWithContent = resolveLocalesWithContent(raw, locales);
 
+	for (const locale of localesWithContent) {
 		const localized = pickLocale(raw, locale) as Record<string, unknown>;
 		const data = await resolveSeedDocument(
 			payload,
@@ -1284,13 +1326,12 @@ async function seedDestination(
 	console.log("Seeding destination global...");
 
 	const pageSlug = await readDestinationPageSlug();
+	const localesWithContent = resolveLocalesWithContent(
+		raw,
+		resolveSeedLocales()
+	);
 
-	for (const locale of LOCALES) {
-		if (!rawHasLocaleContent(raw, locale)) {
-			console.log(`  ~ skip destination locale ${locale} (no seed data)`);
-			continue;
-		}
-
+	for (const locale of localesWithContent) {
 		const localized = pickLocale(raw, locale) as Record<string, unknown>;
 		const data = await resolveSeedDocument(
 			payload,
@@ -1478,10 +1519,11 @@ export async function seedLocalizedDocOnce(
 	}
 ): Promise<{ id: number | string; createdDoc?: Record<string, unknown> }> {
 	const beforeCreate = options?.beforeCreate ?? (async (data) => data);
-	const localesToSeed = options?.locales ?? LOCALES;
-	const primaryLocale = localesToSeed.includes("en")
+	const localesToSeed = options?.locales ?? resolveSeedLocales();
+	const localesWithContent = resolveLocalesWithContent(raw, localesToSeed);
+	const primaryLocale = localesWithContent.includes("en")
 		? "en"
-		: localesToSeed[0];
+		: localesWithContent[0];
 
 	if (!primaryLocale) {
 		throw new Error(`No locales to seed for ${collection}`);
@@ -1493,6 +1535,13 @@ export async function seedLocalizedDocOnce(
 			? await findSeedDocBySlug(payload, collection, slug)
 			: null;
 	let createdDoc: Record<string, unknown> | undefined;
+
+	if (doc && shouldSkipExistingDocs()) {
+		console.log(
+			`  ~ exists ${collection}${slug ? ` ${slug}` : ""} (id=${doc.id}), skip write`
+		);
+		return { id: doc.id };
+	}
 
 	if (!doc) {
 		const primaryData = mergeStatusDefaults(
@@ -1542,13 +1591,8 @@ export async function seedLocalizedDocOnce(
 		);
 	}
 
-	for (const locale of localesToSeed) {
+	for (const locale of localesWithContent) {
 		if (locale === primaryLocale) {
-			continue;
-		}
-
-		if (!rawHasLocaleContent(raw, locale)) {
-			console.log(`  ~ skip ${collection} locale ${locale} (no seed data)`);
 			continue;
 		}
 
@@ -1700,9 +1744,9 @@ async function seedThemes(
 	const filePath = path.join(CONTENT_DIR, "themes.yml");
 	const items = await readYamlFile<Record<string, unknown>[]>(filePath);
 
-	console.log(`Seeding themes (${items.length})...`);
+	console.log(`Seeding themes (${items.length}, concurrency=${SEED_LIMITS.themes})...`);
 
-	for (const item of items) {
+	await mapWithConcurrency(items, SEED_LIMITS.themes, async (item) => {
 		const slug =
 			typeof item.slug === "object" &&
 			item.slug !== null &&
@@ -1716,7 +1760,7 @@ async function seedThemes(
 				resolveSeedDocument(payload, mediaCache, data, locale)
 		});
 		console.log(`  + theme ${slug}`);
-	}
+	});
 
 	return items.length;
 }
@@ -1732,9 +1776,11 @@ async function seedCountries(
 		.filter((file) => file.endsWith(".yml"))
 		.sort();
 
-	console.log(`Seeding countries (${files.length})...`);
+	console.log(
+		`Seeding countries (${files.length}, concurrency=${SEED_LIMITS.countries})...`
+	);
 
-	for (const [index, file] of files.entries()) {
+	await mapWithConcurrency(files, SEED_LIMITS.countries, async (file, index) => {
 		const item = await readYamlFile<Record<string, unknown>>(
 			path.join(countriesDir, file)
 		);
@@ -1766,7 +1812,7 @@ async function seedCountries(
 		}
 
 		console.log(`  + country ${slug}`);
-	}
+	});
 
 	return files.length;
 }
@@ -2024,9 +2070,11 @@ async function seedRegions(
 		return 0;
 	}
 
-	console.log(`Seeding regions (${files.length})...`);
+	console.log(
+		`Seeding regions (${files.length}, concurrency=${SEED_LIMITS.regions})...`
+	);
 
-	for (const [index, file] of files.entries()) {
+	await mapWithConcurrency(files, SEED_LIMITS.regions, async (file, index) => {
 		const item = await readYamlFile<Record<string, unknown>>(
 			path.join(regionsDir, file)
 		);
@@ -2055,7 +2103,7 @@ async function seedRegions(
 		}
 
 		console.log(`  + region ${slug}`);
-	}
+	});
 
 	return files.length;
 }
@@ -2080,9 +2128,11 @@ async function seedCities(
 		return 0;
 	}
 
-	console.log(`Seeding cities (${files.length})...`);
+	console.log(
+		`Seeding cities (${files.length}, concurrency=${SEED_LIMITS.cities})...`
+	);
 
-	for (const [index, file] of files.entries()) {
+	await mapWithConcurrency(files, SEED_LIMITS.cities, async (file, index) => {
 		const item = await readYamlFile<Record<string, unknown>>(
 			path.join(citiesDir, file)
 		);
@@ -2111,7 +2161,7 @@ async function seedCities(
 		}
 
 		console.log(`  + city ${slug}`);
-	}
+	});
 
 	return files.length;
 }
@@ -2136,9 +2186,11 @@ async function seedAttractions(
 		return 0;
 	}
 
-	console.log(`Seeding attractions (${files.length})...`);
+	console.log(
+		`Seeding attractions (${files.length}, concurrency=${SEED_LIMITS.attractions})...`
+	);
 
-	for (const file of files) {
+	await mapWithConcurrency(files, SEED_LIMITS.attractions, async (file) => {
 		const item = await readYamlFile<Record<string, unknown>>(
 			path.join(attractionsDir, file)
 		);
@@ -2167,7 +2219,7 @@ async function seedAttractions(
 		}
 
 		console.log(`  + attraction ${slug}`);
-	}
+	});
 
 	return files.length;
 }
@@ -2481,16 +2533,12 @@ export async function seedNavigation(
 			...SEED_OP_OPTS
 		});
 
-		for (const locale of LOCALES) {
-			if (locale === "en") {
-				continue;
-			}
+		const headerLocales = resolveLocalesWithContent(
+			headerRaw,
+			resolveSeedLocales()
+		).filter((locale) => locale !== "en");
 
-			if (!rawHasLocaleContent(headerRaw, locale)) {
-				console.log(`  ~ skip header locale ${locale} (no seed data)`);
-				continue;
-			}
-
+		for (const locale of headerLocales) {
 			const localized = pickLocale(headerRaw, locale) as Record<
 				string,
 				unknown
@@ -2569,16 +2617,12 @@ export async function seedNavigation(
 			...SEED_OP_OPTS
 		});
 
-		for (const locale of LOCALES) {
-			if (locale === "en") {
-				continue;
-			}
+		const footerLocales = resolveLocalesWithContent(
+			footerRaw,
+			resolveSeedLocales()
+		).filter((locale) => locale !== "en");
 
-			if (!rawHasLocaleContent(footerRaw, locale)) {
-				console.log(`  ~ skip footer locale ${locale} (no seed data)`);
-				continue;
-			}
-
+		for (const locale of footerLocales) {
 			const localized = pickLocale(footerRaw, locale) as Record<
 				string,
 				unknown
@@ -2664,6 +2708,7 @@ async function runSeed(): Promise<void> {
 
 	logSeedConnectionInfo(seedDbUri);
 	logSeedResetMode();
+	logSeedPerformanceSettings();
 	console.log(
 		"Baseline: run a single seed process (stop dev server). Profile summary prints at end."
 	);
@@ -2679,22 +2724,41 @@ async function runSeed(): Promise<void> {
 
 	const { default: config } = await import("@payload-config");
 
-	isCleanMediaRun = true;
+	const skipReset = shouldSkipDatabaseReset();
+	isCleanMediaRun = !skipReset && !(
+		!fullReset && shouldPreserveMediaOnFastReset()
+	);
 
-	log.start(fullReset ? "Reset database (full)" : "Reset database (fast)");
-	await resetDatabase(seedDbUri, fullReset);
-	log.done();
+	if (skipReset) {
+		console.log(
+			"Skipping database reset (SEED_RESUME / SEED_SKIP_RESET) — keep existing rows"
+		);
+		clearCaches();
+	} else {
+		log.start(fullReset ? "Reset database (full)" : "Reset database (fast)");
+		await resetDatabase(seedDbUri, fullReset);
+		log.done();
 
-	log.start("Reset media upload directory");
-	await resetMediaFolderContents();
-	clearCaches();
-	log.done();
+		const preserveMedia = !fullReset && shouldPreserveMediaOnFastReset();
+
+		if (preserveMedia) {
+			console.log(
+				"Skipping media upload directory reset (preserving media records)"
+			);
+			clearCaches();
+		} else {
+			log.start("Reset media upload directory");
+			await resetMediaFolderContents();
+			clearCaches();
+			log.done();
+		}
+	}
 
 	log.start("Initializing Payload");
 	logPayloadInitContext();
 	const payload = await profiler.run("payload_init", () =>
 		retrySeedOperation(async (attempt) => {
-			if (attempt > 1) {
+			if (attempt > 1 && !skipReset) {
 				markSeedRetry();
 				console.warn(
 					"  ! re-running database reset before Payload retry..."
@@ -2706,7 +2770,7 @@ async function runSeed(): Promise<void> {
 
 			return waitWithHeartbeat(
 				getPayload({ config }),
-				fullReset
+				fullReset && !skipReset
 					? "drizzle schema push after schema pull (DDL, no console output from drizzle-kit)"
 					: "Payload init (schema push skipped if unchanged)"
 			);
@@ -2720,8 +2784,8 @@ async function runSeed(): Promise<void> {
 
 	let mediaDbIndex: TMediaDbIndex | undefined;
 
-	if (!fullReset) {
-		console.log("Preloading media DB index (seed:fast)...");
+	if (!fullReset || skipReset) {
+		console.log("Preloading media DB index...");
 		mediaDbIndex = await preloadMediaDbIndex(payload);
 	}
 
@@ -2854,6 +2918,13 @@ async function runSeed(): Promise<void> {
 	log.done();
 
 	log.start("Refreshing route map stops");
+	// Resume / skip-existing path never calls register*FromDoc — rebuild lookup from DB.
+	await profiler.run("lookup_ingest", async () => {
+		await lookup.ingestCountries(payload);
+		await lookup.ingestRegions(payload);
+		await lookup.ingestCities(payload);
+		await lookup.ingestAttractions(payload);
+	});
 	await profiler.run("route_refresh", async () => {
 		await refreshRouteMapStops(payload, "attractions", badgeIds, mediaCache);
 		await refreshRouteMapStops(payload, "cities", badgeIds, mediaCache);

@@ -24,7 +24,7 @@ const PreviewTourHeroBase: FC<TPreviewTourHeroProps> = ({ tour, locale }) => {
 	return (
 		<div className="flex flex-col gap-4 self-center">
 			<h1 className="text-3xl font-bold">{tour.tourTitle}</h1>
-			<div className="text-muted-foreground flex items-center gap-6 text-sm">
+			<div className="text-muted-foreground flex flex-wrap items-center gap-6 text-sm">
 				{heroData.map((item) => (
 					<span
 						key={item.label}

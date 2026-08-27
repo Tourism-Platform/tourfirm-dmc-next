@@ -1,6 +1,6 @@
 import {
 	CalendarMarkIcon,
-	HealthIcon,
+	HeartPulseIcon,
 	LayersIcon,
 	UsersGroupRoundedIcon
 } from "@solar-icons/react/outline";
@@ -11,9 +11,12 @@ import type { TCatalogTourCardMetaItem } from "./build-catalog-tour-card-meta";
 const META_ICONS = {
 	duration: CalendarMarkIcon,
 	group: UsersGroupRoundedIcon,
-	age: HealthIcon,
+	age: HeartPulseIcon,
 	options: LayersIcon
-} as const satisfies Record<TCatalogTourCardMetaItem["key"], typeof HealthIcon>;
+} as const satisfies Record<
+	TCatalogTourCardMetaItem["key"],
+	typeof HeartPulseIcon
+>;
 
 type TMetaIconOptions = {
 	size?: number;

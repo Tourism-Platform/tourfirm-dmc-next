@@ -102,7 +102,7 @@ const PricingGroup: FC<IPricingGroupProps> = ({
 				<p className="text-muted-foreground text-sm">{blurb}</p>
 			</div>
 		</div>
-		<ul className="flex flex-col pl-[52px]">{children}</ul>
+		<ul className="flex flex-col pl-0 sm:pl-[52px]">{children}</ul>
 	</section>
 );
 

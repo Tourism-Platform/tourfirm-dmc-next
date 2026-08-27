@@ -64,7 +64,7 @@ const PreviewOptionBase: FC<TPreviewOptionProps> = ({ tourId, optionId }) => {
 	const defaultTab = PREVIEW_OPTION_TABS_LIST[0]?.type ?? "";
 
 	return (
-		<section className="relative mt-6 flex w-full flex-col gap-8">
+		<section className="relative mx-auto mt-6 flex w-full max-w-6xl flex-col gap-8">
 			<Link
 				href={buildRoute(ENUM_PATH.TOURS.TOUR, { tourId })}
 				className="absolute top-0 left-0"

@@ -107,7 +107,7 @@ const PreviewTourBase: FC<TPreviewTourProps> = ({ tourId }) => {
 	}
 
 	return (
-		<section className="relative flex w-full flex-col gap-8 pt-10">
+		<section className="relative mx-auto flex w-full max-w-6xl flex-col gap-8 pt-10">
 			<Link href={ENUM_PATH.TOURS.ROOT} className="absolute top-0 left-0">
 				<Button variant="ghost" size="sm">
 					<ArrowLeft className="size-4" />

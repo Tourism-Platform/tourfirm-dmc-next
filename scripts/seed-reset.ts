@@ -37,7 +37,28 @@ export function isSeedFullReset(): boolean {
 	return process.env.SEED_FULL_RESET === "true";
 }
 
+export function shouldSkipDatabaseReset(): boolean {
+	return (
+		process.env.SEED_SKIP_RESET === "true" ||
+		process.env.SEED_RESUME === "true"
+	);
+}
+
+export function shouldSkipExistingDocs(): boolean {
+	return (
+		process.env.SEED_SKIP_EXISTING === "true" ||
+		process.env.SEED_RESUME === "true"
+	);
+}
+
 export function logSeedResetMode(): void {
+	if (shouldSkipDatabaseReset()) {
+		console.log(
+			"Seed reset mode: skip (resume — no TRUNCATE / DROP, upsert by slug)"
+		);
+		return;
+	}
+
 	console.log(
 		`Seed reset mode: ${isSeedFullReset() ? "full (DROP SCHEMA)" : "fast (TRUNCATE data)"}`
 	);
@@ -74,10 +95,29 @@ export async function resetDatabaseSchema(
 	}
 }
 
+const PRESERVE_FAST_RESET_TABLES = new Set([
+	"media",
+	"users",
+	"users_sessions",
+	"payload_preferences",
+	"payload_preferences_rels",
+	"payload_kv"
+]);
+
+export function shouldPreserveMediaOnFastReset(): boolean {
+	return process.env.SEED_PRESERVE_MEDIA !== "false";
+}
+
 export async function truncateDatabaseData(
-	connectionString: string
+	connectionString: string,
+	options?: { preserveTables?: ReadonlySet<string> }
 ): Promise<void> {
-	console.log("Truncating database data (schema preserved)...");
+	const preserveTables = options?.preserveTables;
+	const modeLabel = preserveTables?.size
+		? `preserving ${[...preserveTables].join(", ")}`
+		: "all tables";
+
+	console.log(`Truncating database data (${modeLabel}, schema preserved)...`);
 
 	const client = new pg.Client({ connectionString });
 
@@ -90,7 +130,9 @@ export async function truncateDatabaseData(
 			WHERE schemaname = 'public'
 		`);
 
-		const tableNames = tablesResult.rows.map((row) => row.tablename);
+		const tableNames = tablesResult.rows
+			.map((row) => row.tablename)
+			.filter((name) => !preserveTables?.has(name));
 
 		if (tableNames.length === 0) {
 			console.log("No tables to truncate");
@@ -116,5 +158,10 @@ export async function resetDatabase(
 		return;
 	}
 
-	await truncateDatabaseData(connectionString);
+	await truncateDatabaseData(
+		connectionString,
+		shouldPreserveMediaOnFastReset()
+			? { preserveTables: PRESERVE_FAST_RESET_TABLES }
+			: undefined
+	);
 }
