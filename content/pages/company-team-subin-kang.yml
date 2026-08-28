@@ -31,10 +31,6 @@ blocks:
       en: "Travel Expert · English, Korean and Spanish Markets" # Исправлено: был русский
       ru: "Эксперт по путешествиям · англоязычные, испаноязычные и корейский рынки"
       uz: "Sayohat Eksperti · Ingliz, Koreys va Ispan Bozorlari" # Исправлено: был русский
-    note:
-      en: "Travel Expert · English, Korean and Spanish Markets" # Исправлено: был английский (но теперь с Markets во множественном числе)
-      ru: "Эксперт по путешествиям · англоязычные, испаноязычные и корейский рынки"
-      uz: "Sayohat Eksperti · Ingliz, Koreys va Ispan Bozorlari" # Исправлено: был английский
   - blockType: "regular"
     gridClassName: "sm:grid-cols-2 lg:grid-cols-4"
     cards:

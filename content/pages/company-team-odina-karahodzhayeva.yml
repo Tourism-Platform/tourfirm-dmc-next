@@ -31,10 +31,6 @@ blocks:
       en: "Travel Expert · CIS Market" # Исправлено: был русский
       ru: "Эксперт по путешествиям · рынок СНГ"
       uz: "Sayohat Eksperti · MDH Bozori" # Исправлено: был русский
-    note:
-      en: "Travel Expert · CIS Market"
-      ru: "Эксперт по путешествиям · рынок СНГ"
-      uz: "Sayohat Eksperti · MDH Bozori" # Исправлено: был английский
   - blockType: "regular"
     gridClassName: "sm:grid-cols-2 lg:grid-cols-4"
     cards:

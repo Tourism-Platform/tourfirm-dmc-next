@@ -31,10 +31,6 @@ blocks:
       en: "Travel Expert · Japanese Market" # Исправлено: был русский
       ru: "Эксперт по путешествиям · японский рынок"
       uz: "Sayohat Eksperti · Yaponiya Bozori" # Исправлено: был русский
-    note:
-      en: "Travel Expert · Japanese Market"
-      ru: "Эксперт по путешествиям · японский рынок"
-      uz: "Sayohat Eksperti · Yaponiya Bozori" # Исправлено: был английский
   - blockType: "regular"
     gridClassName: "sm:grid-cols-2 lg:grid-cols-4"
     cards:

@@ -31,10 +31,6 @@ blocks:
       en: "Travel Expert · German-Speaking Markets & Türkiye" # Исправлено: был русский
       ru: "Эксперт по путешествиям · немецкоязычные рынки и Турция"
       uz: "Sayohat Eksperti · Nemis Tilidagi Bozorlar va Turkiya" # Исправлено: был русский
-    note:
-      en: "Travel Expert · German Market & Türkiye"
-      ru: "Эксперт по путешествиям · немецкоязычные рынки и Турция"
-      uz: "Sayohat Eksperti · Nemis Bozori va Turkiya" # Исправлено: был английский
   - blockType: "regular"
     gridClassName: "sm:grid-cols-2 lg:grid-cols-4"
     cards:

@@ -11,9 +11,9 @@ seo:
     ru: "Комила Холматова | TourLink"
     uz: "Komila Xolmatova | TourLink"
   metaDescription:
-    en: "Komila Kholmatova — Tour Sales & Operations Manager at TourLink, supporting English-language route enquiries."
-    ru: "Комила Холматова — Tour Sales & Operations Manager в TourLink, поддерживает англоязычные маршрутные запросы."
-    uz: "Komila Xolmatova — TourLink tur sotuvi va operatsiyalar menejeri, ingliz tilidagi marshrut so'rovlarini qo'llab-quvvatlaydi."
+    en: "Komila Kholmatova — Travel Expert · English-speaking Markets"
+    ru: "Комила Холматова — эксперт по путешествиям · англоязычные рынки"
+    uz: "Komila Xolmatova — Sayohat Eksperti · ingliz tilidagi bozorlar"
 status:
   showInSitemap: true
 blocks:
@@ -28,19 +28,351 @@ blocks:
       ru: "Комила Холматова"
       uz: "Komila Xolmatova"
     description:
-      en: "Tour Sales & Operations Manager. Works with English-language route enquiries and helps keep practical details visible while a proposal is prepared."
-      ru: "Tour Sales & Operations Manager. Работает с англоязычными маршрутными запросами и помогает удерживать практические детали на виду во время подготовки предложения."
-      uz: "Tur sotuvi va operatsiyalar menejeri. Ingliz tilidagi marshrut so'rovlari bilan ishlaydi va taklif tayyorlanayotganda amaliy tafsilotlarni ko'z oldida tutishga yordam beradi."
+      en: "Travel Expert · English-speaking Markets"
+      ru: "Эксперт по путешествиям · англоязычные рынки"
+      uz: "Sayohat Eksperti · ingliz tilidagi bozorlar"
+    note:
+      en: "Travel Expert · English-speaking Markets"
+      ru: "Эксперт по путешествиям · англоязычные рынки"
+      uz: "Sayohat Eksperti · ingliz tilidagi bozorlar"
+  - blockType: "regular"
+    gridClassName: "sm:grid-cols-2 lg:grid-cols-4"
+    cards:
+      - type: "overviewStat"
+        icon: "calendar"
+        value:
+          en: "In tourism since June 2026"
+          ru: "В туризме с июня 2026"
+          uz: "Turizmda 2026 yil iyunidan"
+      - type: "overviewStat"
+        icon: "globe"
+        value:
+          en: "English-speaking Markets"
+          ru: "Англоязычные рынки"
+          uz: "Ingliz tilidagi bozorlar"
+      - type: "overviewStat"
+        icon: "languages"
+        value:
+          en: "English, Russian, Turkish"
+          ru: "Английский, русский, турецкий"
+          uz: "Ingliz, rus, turk"
+      - type: "overviewStat"
+        icon: "book-open"
+        value:
+          en: "UzSWLU, English, 2024"
+          ru: "УзГУМЯ, английский язык, 2024"
+          uz: "O'zDJTU, ingliz tili, 2024"
   - blockType: "regular"
     eyebrow:
-      en: "Team"
-      ru: "Команда"
-      uz: "Jamoa"
+      en: "About"
+      ru: "О сотруднике"
+      uz: "Xodim haqida"
     title:
-      en: "About Komila"
-      ru: "О Комиле"
-      uz: "Komila haqida"
+      en: "Komila Kholmatova"
+      ru: "Комила Холматова"
+      uz: "Komila Xolmatova"
+    rows:
+      - ratio: "1:2"
+        left:
+          - type: "portrait"
+            image: "assets/images/people.jpg"
+            title:
+              en: "Komila Kholmatova"
+              ru: "Комила Холматова"
+              uz: "Komila Xolmatova"
+        right:
+          - type: "quote"
+            quote:
+              en: "I joined tourism in June 2026. I had long been drawn to working with people from different countries, talking with them, learning more about their culture, and at the same time opening Uzbekistan for them."
+              ru: "Я пришла в туризм в июне 2026 года. Меня давно привлекала возможность работать с людьми из разных стран, общаться с ними, узнавать больше об их культуре и одновременно открывать для них Узбекистан."
+              uz: "Turizmga 2026 yil iyunida keldim. Meni uzoq vaqtdan beri turli mamlakatlardan kelgan odamlar bilan ishlash, ular bilan muloqot qilish, madaniyatlarini chuqurroq bilish va shu bilan birga ularga O'zbekistonni ochib berish imkoniyati jalb qilgan."
+          - type: "dashTitle"
+            title:
+              en: "Role"
+              ru: "Роль"
+              uz: "Rol"
+            description:
+              en: "Travel Expert. English-speaking markets. Graduated from Uzbekistan State World Languages University in English in 2024. Speaks English fluently, also Russian and Turkish."
+              ru: "Эксперт по путешествиям. Англоязычные рынки. В 2024 году окончила Узбекский государственный университет мировых языков по направлению английского языка. Свободно владеет английским, говорит на русском и турецком."
+              uz: "Sayohat Eksperti. Ingliz tilidagi bozorlar. 2024 yilda O'zbekiston davlat jahon tillari universitetini ingliz tili yo'nalishi bo'yicha tamomlagan. Ingliz tilida erkin gaplashadi, rus va turk tillarini ham biladi."
+          - type: "dashTitle"
+            title:
+              en: "Approach"
+              ru: "Подход"
+              uz: "Yondashuv"
+            description:
+              en: "A trip starts with the person: interests, budget, dates and purpose first — and only then the itinerary. If something changes during the trip, I look into the reason, warn the guest and offer a convenient alternative."
+              ru: "Путешествие начинается с человека: сначала интересы, бюджет, даты и цель поездки — и только потом маршрут. Если во время поездки что-то меняется, разбираюсь в причине, предупреждаю гостя и предлагаю удобную альтернативу."
+              uz: "Sayohat odamdan boshlanadi: avval qiziqishlar, byudjet, sanalar va maqsad — keyin marshrut. Sayohat davomida nimadir o'zgarsa, sababini aniqlayman, mehmonni ogohlantiraman va qulay muqobil taklif qilaman."
+      - left:
+          - type: "dashTitle"
+            title:
+              en: "How I see the country"
+              ru: "Как я смотрю на страну"
+              uz: "Mamlakatga qanday qarayman"
+            description:
+              en: "I am drawn to nature, people, history, culture and everyday life. I complement getting to know the country with local food, crafts and real meetings with residents — not only the main routes."
+              ru: "Мне интересны природа, люди, история, культура и повседневная жизнь. Знакомство со страной я дополняю местной кухней, ремёслами и живыми встречами с жителями — не только главными маршрутами."
+              uz: "Menga tabiat, odamlar, tarix, madaniyat va kundalik hayot qiziq. Mamlakat bilan tanishuvni mahalliy oshxona, hunarmandchilik va aholi bilan jonli uchrashuvlar bilan to'ldiraman — faqat asosiy marshrutlar bilan emas."
+  - blockType: "regular"
+    eyebrow:
+      en: "Work"
+      ru: "Направления"
+      uz: "Yo'nalishlar"
+    title:
+      en: "What I do"
+      ru: "Чем я занимаюсь"
+      uz: "Nima bilan shug'ullanaman"
     description:
-      en: "Komila Kholmatova works with English-language route enquiries at TourLink, keeping practical trip details visible while each proposal takes shape.\n\nShe helps travellers and partners move from an initial question to a clear, confirmable programme."
-      ru: "Комила Холматова работает с англоязычными маршрутными запросами в TourLink, удерживая практические детали поездки на виду, пока формируется каждое предложение.\n\nОна помогает путешественникам и партнёрам перейти от первого вопроса к понятной, подтверждаемой программе."
-      uz: "Komila Xolmatova TourLinkda ingliz tilidagi marshrut so'rovlari bilan ishlaydi, har bir taklif shakllanayotganda sayohatning amaliy tafsilotlarini ko'z oldida tutadi.\n\nU sayohatchilar va hamkorlarga dastlabki savoldan aniq, tasdiqlanadigan dasturga o'tishga yordam beradi."
+      en: "I put together tour programmes, calculate costs, book services, arrange transport, arrivals and departures. When choosing hotels and restaurants I look at cleanliness, comfort, location, quality and a fair balance of price and service. During the trip I explain the route and transport, safety rules, share contacts and stay in touch. When we meet in person I want a light, friendly atmosphere — with real conversation and sometimes jokes and stories."
+      ru: "Составляю туристические программы, считаю стоимость, бронирую услуги, организую транспорт, встречи и проводы. При выборе отелей и ресторанов смотрю на чистоту, комфорт, расположение, качество и разумное соотношение цены и сервиса. Во время поездки объясняю маршрут и транспорт, правила безопасности, даю контакты и остаюсь на связи. При личной встрече хочу лёгкую и доброжелательную атмосферу — с живым общением и иногда с шутками и историями."
+      uz: "Turistik dasturlar tuzaman, narxni hisoblayman, xizmatlarni bron qilaman, transport, kutib olish va kuzatib qo'yishni tashkil qilaman. Mehmonxona va restoranlarni tanlashda tozalik, qulaylik, joylashuv, sifat hamda narx va xizmatning oqilona nisbatiga qarayman. Sayohat davomida marshrut va transportni, xavfsizlik qoidalarini tushuntiraman, kontaktlar beraman va aloqada qolaman. Shaxsiy uchrashuvda yengil va mehribon muhit istayman — jonli muloqot, ba'zan hazil va hikoyalar bilan."
+    gridClassName: "sm:grid-cols-2"
+    cards:
+      - type: "destinationInsight"
+        icon: "list-checks"
+        title:
+          en: "Programmes"
+          ru: "Программы"
+          uz: "Dasturlar"
+        description:
+          en: "Putting together tour programmes, calculations and booking services — from the first request to a confirmed trip."
+          ru: "Составление туристических программ, расчёты и бронирование услуг — от запроса до подтверждённой поездки."
+          uz: "Turistik dasturlar tuzish, hisob-kitob va xizmatlarni bron qilish — so'rovdan tasdiqlangan sayohatgacha."
+      - type: "destinationInsight"
+        icon: "truck"
+        title:
+          en: "Transport and transfers"
+          ru: "Транспорт и встречи"
+          uz: "Transport va kutib olish"
+        description:
+          en: "Arranging transport, meeting guests and seeing them off."
+          ru: "Организация транспорта, встреча и проводы гостей."
+          uz: "Transportni tashkil qilish, mehmonlarni kutib olish va kuzatib qo'yish."
+      - type: "destinationInsight"
+        icon: "building-2"
+        title:
+          en: "Hotels and restaurants"
+          ru: "Отели и рестораны"
+          uz: "Mehmonxonalar va restoranlar"
+        description:
+          en: "Cleanliness, comfort, location, quality and a fair balance of price and service."
+          ru: "Чистота, комфорт, расположение, качество и разумное соотношение цены и уровня сервиса."
+          uz: "Tozalik, qulaylik, joylashuv, sifat hamda narx va xizmat darajasining oqilona nisbati."
+      - type: "destinationInsight"
+        icon: "headset"
+        title:
+          en: "Care during the trip"
+          ru: "Забота в поездке"
+          uz: "Sayohatdagi g'amxo'rlik"
+        description:
+          en: "Route details, safety, contacts and staying in touch. When we meet — a light atmosphere, real conversation, good mood."
+          ru: "Особенности маршрута, безопасность, контакты и связь. При встрече — лёгкая атмосфера, живое общение, хорошее настроение."
+          uz: "Marshrut xususiyatlari, xavfsizlik, kontaktlar va aloqa. Uchrashuvda — yengil muhit, jonli muloqot, yaxshi kayfiyat."
+  - blockType: "regular"
+    eyebrow:
+      en: "Background"
+      ru: "Опыт"
+      uz: "Tajriba"
+    title:
+      en: "What goes into organizing a trip"
+      ru: "Что стоит за организацией поездки"
+      uz: "Sayohatni tashkil qilish ortida nima turibdi"
+    description:
+      en: "After university I chose to grow in tourism and joined TourLink. Today I work mainly with travellers and partners from English-speaking countries. I like thinking through the details in advance: a well-organised trip should be interesting, comfortable and safe."
+      ru: "После университета решила развиваться в туризме и присоединилась к TourLink. Сегодня работаю преимущественно с путешественниками и партнёрами из англоязычных стран. Мне нравится заранее продумывать детали: хорошо организованная поездка должна быть интересной, комфортной и безопасной."
+      uz: "Universitetdan keyin turizmda rivojlanishga qaror qildim va TourLink jamoasiga qo'shildim. Bugun asosan ingliz tilida so'zlashuvchi mamlakatlardan kelgan sayohatchilar va hamkorlar bilan ishlayman. Tafsilotlarni oldindan o'ylab chiqish menga yoqadi: yaxshi tashkil etilgan sayohat qiziqarli, qulay va xavfsiz bo'lishi kerak."
+    rows:
+      - ratio: "3:2"
+        left:
+          - type: "miniTable"
+            icon: "graduation-cap"
+            title:
+              en: "Education and languages"
+              ru: "Образование и языки"
+              uz: "Ta'lim va tillar"
+            rows:
+              - icon: "book-open"
+                title:
+                  en: "UzSWLU"
+                  ru: "УзГУМЯ"
+                  uz: "O'zDJTU"
+                description:
+                  en: "English language, 2024"
+                  ru: "Английский язык, 2024"
+                  uz: "Ingliz tili, 2024"
+              - icon: "languages"
+                title:
+                  en: "Languages at work"
+                  ru: "Языки в работе"
+                  uz: "Ishdagi tillar"
+                description:
+                  en: "English fluently; Russian and Turkish"
+                  ru: "Английский свободно; русский и турецкий"
+                  uz: "Ingliz tili erkin; rus va turk"
+              - icon: "globe"
+                title:
+                  en: "Main market"
+                  ru: "Основной рынок"
+                  uz: "Asosiy bozor"
+                description:
+                  en: "English-speaking countries"
+                  ru: "Англоязычные страны"
+                  uz: "Ingliz tilida so'zlashuvchi mamlakatlar"
+        right:
+          - type: "dashTitle"
+            title:
+              en: "How I work"
+              ru: "Как я работаю"
+              uz: "Qanday ishlayman"
+            description:
+              en: "Understand the person first — interests, budget, dates, purpose of the trip — and only then suggest a route. I think through the details in advance so the trip is interesting, comfortable and safe."
+              ru: "Сначала понять человека — интересы, бюджет, даты, цель поездки — и только потом предлагать маршрут. Детали продумываю заранее, чтобы поездка была интересной, комфортной и безопасной."
+              uz: "Avval odamni tushunish — qiziqishlar, byudjet, sanalar, sayohat maqsadi — keyin marshrut taklif qilish. Tafsilotlarni oldindan o'ylab chiqaman, sayohat qiziqarli, qulay va xavfsiz bo'lishi uchun."
+  - blockType: "regular"
+    eyebrow:
+      en: "Principle"
+      ru: "Принцип"
+      uz: "Tamoyil"
+    title:
+      en: "Responsibility and hospitality"
+      ru: "Ответственность и гостеприимство"
+      uz: "Mas'uliyat va mehmondo'stlik"
+    rows:
+      - ratio: "2:1"
+        left:
+          - type: "quote"
+            quote:
+              en: "I would never recommend unsafe transport or an option that clearly does not match the traveller's interests and budget."
+              ru: "Я никогда не стала бы рекомендовать небезопасный транспорт или вариант, который явно не соответствует интересам и бюджету путешественника."
+              uz: "Hech qachon xavfsiz bo'lmagan transportni yoki sayohatchining qiziqishlari va byudjetiga aniq mos kelmaydigan variantni tavsiya qilmagan bo'lardim."
+          - type: "dashTitle"
+            title:
+              en: "Main principle"
+              ru: "Главный принцип"
+              uz: "Asosiy tamoyil"
+            description:
+              en: "In my work, responsibility, sincerity and hospitality matter most. During the trip, guests should feel that they are genuinely looked after."
+              ru: "В работе для меня особенно важны ответственность, искренность и гостеприимство. Во время поездки гости должны чувствовать, что о них действительно заботятся."
+              uz: "Ishda men uchun mas'uliyat, samimiylik va mehmondo'stlik ayniqsa muhim. Sayohat davomida mehmonlar haqiqatan g'amxo'rlik qilinayotganini his qilishlari kerak."
+        right:
+          - type: "dashTitle"
+            title:
+              en: "What result means to me"
+              ru: "Что для меня результат"
+              uz: "Men uchun natija nima"
+            description:
+              en: "I want guests to go home not just satisfied with the service, but happy, inspired and wanting to come back to Uzbekistan one day."
+              ru: "Хочу, чтобы гости возвращались домой не просто довольными услугами, а счастливыми, вдохновлёнными и с желанием однажды снова приехать в Узбекистан."
+              uz: "Mehmonlar uyga nafaqat xizmatdan mamnun, balki baxtli, ilhomlangan va bir kun O'zbekistonga qaytib kelish istagi bilan qaytishlarini xohlayman."
+  - blockType: "regular"
+    eyebrow:
+      en: "Tips"
+      ru: "Советы"
+      uz: "Maslahatlar"
+    title:
+      en: "What I recommend to see"
+      ru: "Что я рекомендую увидеть"
+      uz: "Ko'rishni tavsiya qiladigan joylarim"
+    description:
+      en: "One of my favourite places is Sangardak Waterfall in Surkhandarya: nature, atmosphere and a chance to combine scenery with active rest. Warm family memories are tied to this place — once we arrived with a large group of relatives, split into teams and spent the whole day playing together. For guests I would show the waterfall itself, the surrounding nature and the cable car — especially for those who like a bit of adrenaline. For a less-known Uzbekistan I also recommend the Fergana Valley. I always complement getting to know the country with food — plov, samsa and other national dishes — and with living impressions: watching traditional bread being made, meeting crafts and local people."
+      ru: "Одно из любимых мест — Сангардакский водопад в Сурхандарье: природа, атмосфера и возможность совместить пейзаж с активным отдыхом. С этим местом связаны тёплые семейные воспоминания — однажды мы приехали большой компанией родственников, разделились на команды и весь день играли вместе. Гостям я бы показала сам водопад, окружающую природу и канатную дорогу — особенно тем, кто любит немного адреналина. Тем, кто хочет менее известный Узбекистан, советую Ферганскую долину. Знакомство со страной обязательно дополняю кухней — пловом, самсой и другими национальными блюдами — и живыми впечатлениями: приготовление традиционного хлеба, ремёсла, встречи с местными жителями."
+      uz: "Sevimli joylarimdan biri — Surxondaryodagi Sangardak sharsharasi: tabiat, muhit va manzarani faol dam olish bilan birlashtirish imkoniyati. Bu joy bilan iliqlik oilaviy xotiralar bog'liq — bir kuni katta qarindoshlar guruhi bilan kelib, jamoalarga bo'linib, butun kun o'ynadik. Mehmonlarga o'zim sharsharani, atrof tabiatini va kanat yo'lini ko'rsatgan bo'lardim — ayniqsa biroz adrenalinnni yaxshi ko'radiganlarga. Kamroq taniqli O'zbekistonni ko'rmoqchi bo'lganlarga Farg'ona vodiysini maslahat beraman. Mamlakat bilan tanishuvni albatta oshxona bilan to'ldiraman — palov, somsa va boshqa milliy taomlar — hamda jonli taassurotlar: an'anaviy non pishirish, hunarmandchilik, mahalliy aholi bilan uchrashuvlar."
+    gridClassName: "sm:grid-cols-2"
+    cards:
+      - type: "destinationInsight"
+        icon: "waves"
+        title:
+          en: "Sangardak Waterfall"
+          ru: "Сангардакский водопад"
+          uz: "Sangardak sharsharasi"
+        description:
+          en: "Surkhandarya: nature, atmosphere and active rest. Warm family memories are tied to this place."
+          ru: "Сурхандарья: природа, атмосфера и активный отдых. С этим местом связаны тёплые семейные воспоминания."
+          uz: "Surxondaryo: tabiat, muhit va faol dam olish. Bu joy bilan iliqlik oilaviy xotiralar bog'liq."
+      - type: "destinationInsight"
+        icon: "cable"
+        title:
+          en: "Cable car"
+          ru: "Канатная дорога"
+          uz: "Kanat yo'li"
+        description:
+          en: "Near Sangardak — especially for those who like a bit of adrenaline."
+          ru: "Рядом с Сангардаком — особенно для тех, кто любит немного адреналина."
+          uz: "Sangardak yonida — ayniqsa biroz adrenalinnni yaxshi ko'radiganlar uchun."
+      - type: "destinationInsight"
+        icon: "map-pin"
+        title:
+          en: "Fergana Valley"
+          ru: "Ферганская долина"
+          uz: "Farg'ona vodiysi"
+        description:
+          en: "For those who want to see a less-known Uzbekistan."
+          ru: "Для тех, кто хочет увидеть менее известный Узбекистан."
+          uz: "Kamroq taniqli O'zbekistonni ko'rmoqchi bo'lganlar uchun."
+      - type: "destinationInsight"
+        icon: "utensils-crossed"
+        title:
+          en: "Food and crafts"
+          ru: "Кухня и ремёсла"
+          uz: "Oshxona va hunarmandchilik"
+        description:
+          en: "Plov, samsa, traditional bread-making, crafts and meetings with local people."
+          ru: "Плов, самса, приготовление традиционного хлеба, ремёсла и встречи с местными жителями."
+          uz: "Palov, somsa, an'anaviy non pishirish, hunarmandchilik va mahalliy aholi bilan uchrashuvlar."
+  - blockType: "regular"
+    eyebrow:
+      en: "After the trip"
+      ru: "После поездки"
+      uz: "Sayohatdan keyin"
+    title:
+      en: "New memories and new possibilities"
+      ru: "Новые воспоминания и новые возможности"
+      uz: "Yangi xotiralar va yangi imkoniyatlar"
+    rows:
+      - ratio: "2:1"
+        left:
+          - type: "quote"
+            quote:
+              en: "Every journey opens a door to new memories and new possibilities."
+              ru: "Каждое путешествие открывает дверь к новым воспоминаниям и новым возможностям."
+              uz: "Har bir sayohat yangi xotiralar va yangi imkoniyatlar eshigini ochadi."
+        right:
+          - type: "dashTitle"
+            title:
+              en: "After getting acquainted"
+              ru: "После знакомства"
+              uz: "Tanishuvdan keyin"
+            description:
+              en: "I would be glad to help make your trip across Uzbekistan interesting, comfortable and safe."
+              ru: "Буду рада помочь сделать поездку по Узбекистану интересной, комфортной и безопасной."
+              uz: "O'zbekiston bo'ylab sayohatingizni qiziqarli, qulay va xavfsiz qilishga yordam berishdan xursand bo'laman."
+  - blockType: "cta"
+    image: "assets/images/people.jpg"
+    eyebrow:
+      en: "Enquiry"
+      ru: "Запрос"
+      uz: "So'rov"
+    title:
+      en: "Plan a trip"
+      ru: "Спланировать поездку"
+      uz: "Sayohatni rejalashtirish"
+    description:
+      en: "Write to us — we will put together a programme around your interests, budget and dates. A trip across Uzbekistan can be interesting, comfortable and safe."
+      ru: "Напишите — соберём программу под ваши интересы, бюджет и даты. Поездка по Узбекистану может быть интересной, комфортной и безопасной."
+      uz: "Yozing — qiziqishlaringiz, byudjetingiz va sanalaringizga mos dastur tuzamiz. O'zbekiston bo'ylab sayohat qiziqarli, qulay va xavfsiz bo'lishi mumkin."
+    actions:
+      - type: "link"
+        variant: "default"
+        title:
+          en: "Contact us"
+          ru: "Связаться с нами"
+          uz: "Biz bilan bog'lanish"
+        href: "/help/contact"
+      - type: "link"
+        variant: "outline"
+        title:
+          en: "View tours"
+          ru: "Смотреть туры"
+          uz: "Turlarni ko'rish"
+        href: "/tours/catalog"

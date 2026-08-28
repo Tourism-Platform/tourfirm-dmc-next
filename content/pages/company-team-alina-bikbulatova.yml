@@ -31,10 +31,6 @@ blocks:
       en: "Travel Expert · Italian Market" # Исправлено: был русский
       ru: "Эксперт по путешествиям · итальянский рынок"
       uz: "Sayohat Eksperti · Italiya Bozori" # Исправлено: был русский
-    note:
-      en: "Travel Expert · Italian Market"
-      ru: "Эксперт по путешествиям · итальянский рынок"
-      uz: "Sayohat Eksperti · Italiya Bozori" # Исправлено: был английский
   - blockType: "regular"
     gridClassName: "sm:grid-cols-2 lg:grid-cols-4"
     cards:
