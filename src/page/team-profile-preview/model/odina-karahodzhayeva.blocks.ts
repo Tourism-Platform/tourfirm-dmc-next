@@ -208,8 +208,7 @@ export const ODINA_KARAHODZHAYEVA_SECTIONS: TBlockRenderProps[] = [
 					{
 						type: CardType.Quote,
 						item: {
-							quoteHtml:
-								"<p>Mehmon — otangday ulug‘</p>"
+							quoteHtml: "<p>Mehmon — otangday ulug‘</p>"
 						}
 					}
 				]

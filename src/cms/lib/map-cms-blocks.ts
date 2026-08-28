@@ -288,7 +288,7 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 			return {
 				blockType: BlockType.regular,
 				eyebrow: regularBlock.eyebrow ?? undefined,
-				title: regularBlock.title,
+				title: regularBlock.title ?? undefined,
 				description: richTextToPlain(regularBlock.description),
 				gridClassName: regularBlock.gridClassName ?? undefined,
 				displayMode:
