@@ -19,6 +19,7 @@ const cardTypeOptions = [
 	{ label: "Quote", value: "quote" },
 	{ label: "Alert", value: "alert" },
 	{ label: "Mini Table", value: "miniTable" },
+	{ label: "Portrait", value: "portrait" },
 	{ label: "Catalog Feed", value: "catalogFeed" },
 	{ label: "Tour Destination", value: "tourDestination" }
 ] as const;
@@ -62,7 +63,8 @@ export const cardFields: Field[] = [
 				"journal",
 				"news",
 				"catalogFeed",
-				"servicesDirection"
+				"servicesDirection",
+				"portrait"
 			)
 		}
 	},
@@ -80,7 +82,8 @@ export const cardFields: Field[] = [
 				"journal",
 				"news",
 				"catalogFeed",
-				"servicesDirection"
+				"servicesDirection",
+				"portrait"
 			)
 		}
 	},

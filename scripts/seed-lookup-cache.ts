@@ -108,6 +108,22 @@ export class SeedLookupCache {
 		}
 	}
 
+	async ingestSegmentsFromDb(payload: Payload): Promise<void> {
+		const result = await payload.find({
+			collection: "segments",
+			locale: "en",
+			limit: 50,
+			depth: 0,
+			overrideAccess: true
+		});
+
+		for (const doc of result.docs) {
+			if (typeof doc.slug === "string") {
+				this.segments.set(doc.slug, doc.id as number);
+			}
+		}
+	}
+
 	registerCountry(doc: TCountryCardSource): void {
 		this.countries.set(doc.slug, doc.id);
 		this.countryCards.set(doc.slug, doc);

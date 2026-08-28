@@ -14,6 +14,7 @@
     "seed:tunnel:fresh": "cross-env NODE_OPTIONS=--no-deprecation SEED_RESUME=false SEED_SKIP_RESET=false SEED_SKIP_EXISTING=false tsx scripts/seed.ts",
     "seed:local": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed-local-fast.ts",
     "seed:navigation": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed.ts --only=navigation",
+    "seed:company": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed.ts --only=company",
     "seed:ui-preview": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed/ui-preview.ts",
     "seed:ui-preview-sheet": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed/ui-preview-sheet.ts",
     "seed:ui-login": "cross-env NODE_OPTIONS=--no-deprecation tsx scripts/seed/ui-login.ts",

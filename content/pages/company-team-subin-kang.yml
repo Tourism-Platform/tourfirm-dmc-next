@@ -2,45 +2,357 @@ segment: "company"
 pathGroup: "team"
 slug: "subin-kang"
 title:
-  en: "Subin Kang"
-  ru: "Субин Канг"
-  uz: "Subin Kang"
+  en: "Kang Subin"
+  ru: "Канг Субин"
+  uz: "Kang Subin"
 seo:
   metaTitle:
-    en: "Subin Kang | TourLink"
-    ru: "Субин Канг | TourLink"
-    uz: "Subin Kang | TourLink"
+    en: "Kang Subin | TourLink"
+    ru: "Канг Субин | TourLink"
+    uz: "Kang Subin | TourLink"
   metaDescription:
-    en: "Subin Kang — Tour Sales & Operations Manager at TourLink, supporting English and Korean directions."
-    ru: "Субин Канг — Tour Sales & Operations Manager в TourLink, поддерживает англоязычные и корейские направления."
-    uz: "Subin Kang — TourLink tur sotuvi va operatsiyalar menejeri, ingliz va koreys yo'nalishlarini qo'llab-quvvatlaydi."
+    en: "Kang Subin — Travel Expert · English, Korean and Spanish Market"
+    ru: "Канг Субин — эксперт по путешествиям · англоязычные, испаноязычные и корейский рынки"
+    uz: "Kang Subin — Sayohat Eksperti · Ingliz, Koreys va Ispan Bozorlari" # Исправлено: был английский
 status:
   showInSitemap: true
 blocks:
   - blockType: "hero"
-    image: "assets/images/people.jpg"
+    image: "media/team/kang-subin.jpg"
     imageAlt:
-      en: "Subin Kang"
-      ru: "Субин Канг"
-      uz: "Subin Kang"
+      en: "Kang Subin"
+      ru: "Канг Субин"
+      uz: "Kang Subin"
     title:
-      en: "Subin Kang"
-      ru: "Субин Канг"
-      uz: "Subin Kang"
+      en: "Kang Subin"
+      ru: "Канг Субин"
+      uz: "Kang Subin"
     description:
-      en: "Tour Sales & Operations Manager. Supports English and Korean directions as TourLink's regional DMC work develops."
-      ru: "Tour Sales & Operations Manager. Поддерживает англоязычные и корейские направления по мере развития региональной DMC-работы TourLink."
-      uz: "Tur sotuvi va operatsiyalar menejeri. TourLinkning mintaqaviy DMC ishi rivojlanishi bilan ingliz va koreys yo'nalishlarini qo'llab-quvvatlaydi."
+      en: "Travel Expert · English, Korean and Spanish Markets" # Исправлено: был русский
+      ru: "Эксперт по путешествиям · англоязычные, испаноязычные и корейский рынки"
+      uz: "Sayohat Eksperti · Ingliz, Koreys va Ispan Bozorlari" # Исправлено: был русский
+    note:
+      en: "Travel Expert · English, Korean and Spanish Markets" # Исправлено: был английский (но теперь с Markets во множественном числе)
+      ru: "Эксперт по путешествиям · англоязычные, испаноязычные и корейский рынки"
+      uz: "Sayohat Eksperti · Ingliz, Koreys va Ispan Bozorlari" # Исправлено: был английский
+  - blockType: "regular"
+    gridClassName: "sm:grid-cols-2 lg:grid-cols-4"
+    cards:
+      - type: "overviewStat"
+        icon: "calendar"
+        value:
+          en: "In tourism since 2024" # Исправлено: был русский
+          ru: "В туризме с 2024 года"
+          uz: "Turizmda 2024 yildan beri" # Исправлено: был русский
+      - type: "overviewStat"
+        icon: "globe"
+        value:
+          en: "USA, Canada, UK, Spain, Korea, Australia, LatAm" # Исправлено: был русский
+          ru: "США, Канада, Великобритания, Испания, Корея, Австралия, Латам"
+          uz: "AQSh, Kanada, Buyuk Britaniya, Ispaniya, Koreya, Avstraliya, Lotin Amerikasi" # Исправлено: был русский
+      - type: "overviewStat"
+        icon: "languages"
+        value:
+          en: "Russian, English C1, Korean B2, Spanish B1" # Исправлено: был русский
+          ru: "Русский, английский C1, корейский B2, испанский B1"
+          uz: "Rus, ingliz C1, koreys B2, ispan B1" # Исправлено: был русский
+      - type: "overviewStat"
+        icon: "compass"
+        value:
+          en: "Nomad tourism"
+          ru: "Nomad tourism"
+          uz: "Nomad tourism"
   - blockType: "regular"
     eyebrow:
-      en: "Team"
-      ru: "Команда"
-      uz: "Jamoa"
+      en: "About"
+      ru: "О сотруднике"
+      uz: "Xodim haqida"
     title:
-      en: "About Subin"
-      ru: "О Субине"
-      uz: "Subin haqida"
+      en: "Kang Subin"
+      ru: "Канг Субин"
+      uz: "Kang Subin"
+    rows:
+      - ratio: "1:2"
+        left:
+          - type: "portrait"
+            image: "media/team/kang-subin.jpg"
+            title:
+              en: "Kang Subin"
+              ru: "Канг Субин"
+              uz: "Kang Subin"
+        right:
+          - type: "quote"
+            quote:
+              en: "I have been working in tourism since 2024. I was drawn to this field by my love of travel and interest in different countries and cultures. Over time, I realized that I wanted not only to discover new places myself, but also to help other travelers do so comfortably and with genuine interest." # Исправлен перевод
+              ru: "Я работаю в туризме с 2024 года. В эту сферу меня привели любовь к путешествиям и интерес к разным странам и культурам. Со временем я поняла, что хочу не только открывать новые места сама, но и помогать другим путешественникам делать это комфортно и с интересом."
+              uz: "Men 2024 yildan beri turizmda ishlayman. Bu sohaga meni sayohatga bo'lgan muhabbat va turli mamlakatlar va madaniyatlarga qiziqish olib keldi. Vaqt o'tishi bilan men nafaqat o'zim yangi joylarni kashf qilishni, balki boshqa sayoatchilarga buni qulay va qiziqarli tarzda qilishga yordam berishni xohlayotganimni angladim." # Исправлен перевод
+          - type: "dashTitle"
+            title:
+              en: "Role"
+              ru: "Роль"
+              uz: "Rol"
+            description:
+              en: "Travel Expert. English, Spanish, and Korean Markets. Education — Tourism and Korean Language, Kimyo International University." # Исправлен перевод
+              ru: "Эксперт по путешествиям. Англоязычные, испаноязычные и корейский рынки. Образование — туризм и корейский язык, Международный университет Kimyo."
+              uz: "Sayohat Eksperti. Ingliz, Ispan va Koreys Bozorlari. Ta'lim — turizm va koreys tili, Kimyo Xalqaro Universiteti." # Исправлен перевод
+          - type: "dashTitle"
+            title:
+              en: "Approach"
+              ru: "Подход"
+              uz: "Yondashuv"
+            description:
+              en: "In working with guests, proper communication is especially important to me. I try to adapt to the communication format that is most convenient for the traveler: messaging, phone calls, or video calls." # Исправлен перевод
+              ru: "В работе с гостем для меня особенно важна правильная коммуникация. Я стараюсь подстроиться под тот формат общения, который удобен самому путешественнику: переписку, телефонный разговор или видеозвонок."
+              uz: "Mehmonlar bilan ishlashda men uchun to'g'ri muloqot ayniqsa muhim. Men sayoatchiga qulay bo'lgan muloqot formatiga moslashishga harakat qilaman: yozishmalar, telefon orqali suhbat yoki videoqo'ng'iroqlar." # Исправлен перевод
+      - left:
+          - type: "dashTitle"
+            title:
+              en: "How I see the country"
+              ru: "Как я смотрю на страну"
+              uz: "Mamlakatga qanday qarayman"
+            description:
+              en: "I am particularly interested in creating unconventional and exclusive routes. I am drawn to active travel, little-known and hard-to-reach places in Central Asia, as well as destinations related to nomadic culture and nomad tourism. Such trips allow you to see the region much more deeply than through the standard set of famous landmarks." # Исправлен перевод
+              ru: "Особенно мне интересно создавать нестандартные и эксклюзивные маршруты. Мне близки активные путешествия, малоизвестные и труднодоступные места Центральной Азии, а также направления, связанные с кочевой культурой и nomad tourism. Такие поездки позволяют увидеть регион гораздо глубже, чем через стандартный набор известных достопримечательностей."
+              uz: "Ayniqsa, menga nostandart va eksklyuziv marshrutlarni yaratish qiziq. Menga faol sayohatlar, Markaziy Osiyoning kam taniqli va qiyin yetib boriladigan joylari, shuningdek, ko'chmanchi madaniyat va nomad tourism bilan bog'liq yo'nalishlar yaqin. Bunday sayohatlar mintaqani mashhur diqqatga sazovor joylarning standart to'plamidan ko'ra ancha chuqurroq ko'rish imkonini beradi." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "Work"
+      ru: "Направления"
+      uz: "Yo'nalishlar"
+    title:
+      en: "What I do"
+      ru: "Чем я занимаюсь"
+      uz: "Nima bilan shug'ullanaman"
     description:
-      en: "Subin Kang supports English and Korean directions at TourLink as the platform's regional DMC work develops.\n\nHe helps travellers and partners from both markets formulate route questions clearly and move toward confirmed programmes."
-      ru: "Субин Канг поддерживает англоязычные и корейские направления в TourLink по мере развития региональной DMC-работы платформы.\n\nОн помогает путешественникам и партнёрам из обоих рынков чётко формулировать маршрутные вопросы и двигаться к подтверждённым программам."
-      uz: "Subin Kang platformaning mintaqaviy DMC ishi rivojlanishi bilan TourLinkda ingliz va koreys yo'nalishlarini qo'llab-quvvatlaydi.\n\nU ikkala bozordagi sayohatchilar va hamkorlarga marshrut savollarini aniq shakllantirish va tasdiqlangan dasturlarga yaqinlashishga yordam beradi."
+      en: "I handle individual and group travel, cultural, gastronomic, active, MICE, and VIP programs. My work includes route and program planning, calculations, hotel and service bookings, transport logistics, and guest reception. When creating a program, I always consider the desired level of comfort, requirements for hotels, transport, and guides. I try to select services and routes individually, and during the trip itself I stay in touch and check in on how things are going. When necessary, I also personally meet guests at the airport." # Исправлен перевод
+      ru: "Я занимаюсь индивидуальными и групповыми путешествиями, культурными, гастрономическими, активными, MICE- и VIP-программами. В моей работе есть составление маршрутов и программ, расчёты, бронирование отелей и других услуг, транспортная логистика и встреча гостей. При составлении программы я обязательно учитываю желаемый уровень комфорта, требования к отелям, транспорту и гидам. Услуги и маршрут стараюсь подбирать индивидуально, а во время самого путешествия остаюсь на связи и интересуюсь, как проходит поездка. При необходимости я также лично встречаю гостей в аэропорту."
+      uz: "Men individual va guruhli sayohatlar, madaniy, gastronomik, faol, MICE va VIP dasturlar bilan shug'ullanaman. Mening ishim marshrutlar va dasturlarni tuzish, hisob-kitoblar, mehmonxonalar va boshqa xizmatlarni bron qilish, transport logistikasi va mehmonlarni kutib olishni o'z ichiga oladi. Dastur tuzishda men har doim istalgan qulaylik darajasini, mehmonxonalar, transport va gidlarga bo'lgan talablarni hisobga olaman. Xizmatlar va marshrutni individual tanlashga harakat qilaman va sayohat davomida aloqada bo'lib, sayohat qanday ketayotgani bilan qiziqaman. Zarur bo'lganda, men mehmonlarni aeroportda shaxsan kutib olaman." # Исправлен перевод
+    gridClassName: "sm:grid-cols-2"
+    cards:
+      - type: "destinationInsight"
+        icon: "users"
+        title:
+          en: "Tours" # Исправлено: был русский
+          ru: "Туры"
+          uz: "Turlar" # Исправлено: был русский
+        description:
+          en: "Individual and group travel: cultural, gastronomic, active, MICE, and VIP programs." # Исправлен перевод
+          ru: "Индивидуальные и групповые путешествия: культурные, гастрономические, активные, MICE- и VIP-программы."
+          uz: "Individual va guruhli sayohatlar: madaniy, gastronomik, faol, MICE va VIP dasturlar." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "compass"
+        title:
+          en: "Exclusive routes" # Исправлено: был русский
+          ru: "Эксклюзивные маршруты"
+          uz: "Eksklyuziv marshrutlar" # Исправлено: был русский
+        description:
+          en: "Unconventional trips, little-known and hard-to-reach places in Central Asia, nomadic culture, and nomad tourism." # Исправлен перевод
+          ru: "Нестандартные поездки, малоизвестные и труднодоступные места Центральной Азии, кочевая культура и nomad tourism."
+          uz: "Nostandart sayohatlar, Markaziy Osiyoning kam taniqli va qiyin yetib boriladigan joylari, ko'chmanchi madaniyat va nomad tourism." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "list-checks"
+        title:
+          en: "Trip preparation" # Исправлено: был русский
+          ru: "Подготовка поездки"
+          uz: "Sayohat tayyorgarligi" # Исправлено: был русский
+        description:
+          en: "Route and program planning, calculations, hotel and service bookings, transport logistics, and guest reception." # Исправлен перевод
+          ru: "Составление маршрутов и программ, расчёты, бронирование отелей и услуг, транспортная логистика и встреча гостей."
+          uz: "Marshrutlar va dasturlarni tuzish, hisob-kitoblar, mehmonxonalar va xizmatlarni bron qilish, transport logistikasi va mehmonlarni kutib olish." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "plane"
+        title:
+          en: "In touch and at the airport" # Исправлено: был русский
+          ru: "На связи и в аэропорту"
+          uz: "Aloqada va aeroportda" # Исправлено: был русский
+        description:
+          en: "During the trip, I stay in touch and check in on how things are going. When necessary, I personally meet guests at the airport." # Исправлен перевод
+          ru: "Во время путешествия остаюсь на связи и интересуюсь, как проходит поездка. При необходимости лично встречаю гостей в аэропорту."
+          uz: "Sayohat davomida aloqada bo'lib, sayohat qanday ketayotgani bilan qiziqaman. Zarur bo'lganda, mehmonlarni aeroportda shaxsan kutib olaman." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "Background"
+      ru: "Опыт"
+      uz: "Tajriba"
+    title:
+      en: "What goes into organizing a trip" # Исправлен перевод (был русский)
+      ru: "Что стоит за организацией поездки"
+      uz: "Sayohatni tashkil qilish ortida nima turibdi" # Исправлен перевод (был русский)
+    description:
+      en: "I earned my higher education degree from Kimyo International University in Tourism and Korean Language. I am fluent in Russian, have English at a C1 level, Korean at B2, and Spanish at B1. In my work, I interact with travelers and partners from various countries, including the USA, Canada, the UK, Spain, South Korea, Australia, and Latin American countries." # Исправлен перевод
+      ru: "Я получила высшее образование в Международном университете Kimyo по направлению туризма и корейского языка. Свободно говорю на русском языке, владею английским на уровне C1, корейским на уровне B2 и испанским на уровне B1. В работе я взаимодействую с путешественниками и партнёрами из разных стран, включая США, Канаду, Великобританию, Испанию, Южную Корею, Австралию и страны Латинской Америки."
+      uz: "Men Kimyo Xalqaro Universitetida turizm va koreys tili yo'nalishi bo'yicha oliy ma'lumot oldim. Rus tilida erkin gaplashaman, ingliz tilini C1, koreys tilini B2 va ispan tilini B1 darajasida bilaman. Ishda men turli mamlakatlardan, jumladan AQSh, Kanada, Buyuk Britaniya, Ispaniya, Janubiy Koreya, Avstraliya va Lotin Amerikasi mamlakatlaridan kelgan sayoatchilar va hamkorlar bilan hamkorlik qilaman." # Исправлен перевод
+    rows:
+      - ratio: "3:2"
+        left:
+          - type: "miniTable"
+            icon: "graduation-cap"
+            title:
+              en: "Education and languages"
+              ru: "Образование и языки"
+              uz: "Ta'lim va tillar"
+            rows:
+              - icon: "book-open"
+                title:
+                  en: "Tourism and Korean Language" # Исправлено: был русский
+                  ru: "Туризм и корейский язык"
+                  uz: "Turizm va koreys tili" # Исправлено: был русский
+                description:
+                  en: "Kimyo International University" # Исправлен перевод
+                  ru: "Международный университет Kimyo"
+                  uz: "Kimyo Xalqaro Universiteti" # Исправлен перевод
+              - icon: "languages"
+                title:
+                  en: "Languages at work" # Исправлено: был русский
+                  ru: "Языки в работе"
+                  uz: "Ishdagi tillar" # Исправлено: был русский
+                description:
+                  en: "Russian; English C1; Korean B2; Spanish B1" # Исправлен перевод
+                  ru: "Русский; английский C1; корейский B2; испанский B1"
+                  uz: "Rus; ingliz C1; koreys B2; ispan B1" # Исправлен перевод
+              - icon: "globe"
+                title:
+                  en: "Markets" # Исправлено: был русский
+                  ru: "Рынки"
+                  uz: "Bozorlar" # Исправлено: был русский
+                description:
+                  en: "USA, Canada, UK, Spain, South Korea, Australia, Latin America" # Исправлен перевод
+                  ru: "США, Канада, Великобритания, Испания, Южная Корея, Австралия, Латинская Америка"
+                  uz: "AQSh, Kanada, Buyuk Britaniya, Ispaniya, Janubiy Koreya, Avstraliya, Lotin Amerikasi" # Исправлен перевод
+        right:
+          - type: "dashTitle"
+            title:
+              en: "Hotel selection" # Исправлен перевод
+              ru: "Выбор отеля"
+              uz: "Mehmonxona tanlash" # Исправлен перевод
+            description:
+              en: "When choosing a hotel, I primarily pay attention to its location, reviews, and service level. I try to select services and routes individually." # Исправлен перевод
+              ru: "При выборе отеля я обращаю внимание прежде всего на его расположение, отзывы и уровень сервиса. Услуги и маршрут стараюсь подбирать индивидуально."
+              uz: "Mehmonxona tanlashda men birinchi navbatda uning joylashuviga, sharhlariga va xizmat ko'rsatish darajasiga e'tibor beraman. Xizmatlar va marshrutni individual tanlashga harakat qilaman." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "Principle"
+      ru: "Принцип"
+      uz: "Tamoyil"
+    title:
+      en: "Be honest with the client" # Исправлен перевод (был русский)
+      ru: "Быть честной с клиентом"
+      uz: "Mijoz bilan rostgo'y bo'lish" # Исправлен перевод (был русский)
+    rows:
+      - ratio: "2:1"
+        left:
+          - type: "quote"
+            quote:
+              en: "One of my main professional principles is very simple — to be honest with the client. For me, trust between the traveler and the manager is more important than trying to simply sell a program." # Исправлен перевод
+              ru: "Один из моих главных профессиональных принципов очень простой — быть честной с клиентом. Для меня доверие между путешественником и менеджером важнее попытки просто продать программу."
+              uz: "Mening asosiy professional tamoyillarimdan biri juda oddiy — mijoz bilan rostgo'y bo'lish. Men uchun sayoatchi va menejer o'rtasidagi ishonch shunchaki dasturni sotishga urinishdan muhimroqdir." # Исправлен перевод
+          - type: "dashTitle"
+            title:
+              en: "Main principle"
+              ru: "Главный принцип"
+              uz: "Asosiy tamoyil"
+            description:
+              en: "I consider responsibility, practicality, and efficiency to be my strengths. For me, trust between the traveler and the manager is more important than trying to simply sell a program." # Исправлен перевод
+              ru: "Своими сильными сторонами я считаю ответственность, практичность и оперативность. Для меня доверие между путешественником и менеджером важнее попытки просто продать программу."
+              uz: "O'zimning kuchli tomonlarim deb mas'uliyat, amaliylik va tezkorlikni hisoblayman. Men uchun sayoatchi va menejer o'rtasidagi ishonch shunchaki dasturni sotishga urinishdan muhimroqdir." # Исправлен перевод
+        right:
+          - type: "dashTitle"
+            title:
+              en: "What result means to me" # Исправлен перевод (был русский)
+              ru: "Что для меня результат"
+              uz: "Men uchun natija nima" # Исправлен перевод (был русский)
+            description:
+              en: "The best result of my work is when after the trip, the person is truly satisfied with how everything was organized." # Исправлен перевод
+              ru: "Лучший результат моей работы — когда после завершения поездки человек остаётся действительно доволен тем, как всё было организовано."
+              uz: "Ishimning eng yaxshi natijasi — sayohat tugagandan so'ng odam hamma narsa qanday tashkil etilganidan chin dildan mamnun bo'lganda." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "Tips"
+      ru: "Советы"
+      uz: "Maslahatlar"
+    title:
+      en: "What I recommend to see" # Исправлен перевод (был русский)
+      ru: "Что я рекомендую увидеть"
+      uz: "Ko'rishni tavsiya qiladigan joylarim" # Исправлен перевод (был русский)
+    description:
+      en: "One of my favorite places in Uzbekistan is Lyab-i Hauz Square in Bukhara. I love how here history becomes part of everyday city life: people relax by the water, meet in teahouses, and socialize against the backdrop of ancient architecture. This place becomes especially beautiful in the evening, when soft lighting appears and a completely different atmosphere emerges. For travelers who want to go beyond the most famous routes, I recommend paying attention to Surkhandarya. For me, Uzbekistan is interesting not only for Samarkand, Bukhara, and Khiva — there are still many places in the country that can surprise even an experienced traveler." # Исправлен перевод
+      ru: "Одно из моих любимых мест в Узбекистане — площадь Ляби-Хауз в Бухаре. Мне нравится, как здесь история становится частью обычной городской жизни: люди отдыхают у воды, встречаются в чайханах и общаются на фоне старинной архитектуры. Особенно красивым это место становится вечером, когда появляется мягкий свет и совсем другая атмосфера. А путешественникам, которые хотят выйти за пределы самых известных маршрутов, я советую обратить внимание на Сурхандарью. Для меня Узбекистан интересен не только Самаркандом, Бухарой и Хивой — в стране ещё много мест, которые способны удивить даже опытного путешественника."
+      uz: "O'zbekistondagi sevimli joylarimdan biri — Buxorodagi Lyabi-Xauz maydoni. Menga bu yerda tarix qanday qilib oddiy shahar hayotining bir qismiga aylanishi yoqadi: odamlar suv bo'yida dam olishadi, choyxonalarda uchrashishadi va qadimiy me'morchilik fonida suhbatlashishadi. Bu joy ayniqsa kechqurun, yumshoq yorug'lik paydo bo'lganda va butunlay boshqa atmosfera vujudga kelganda go'zal bo'ladi. Eng mashhur marshrutlardan tashqariga chiqmoqchi bo'lgan sayoatchilarga Surxondaryoga e'tibor berishni maslahat beraman. Men uchun O'zbekiston nafaqat Samarqand, Buxoro va Xiva bilan qiziqarli — mamlakatda hatto tajribali sayoatchini ham hayratda qoldiradigan ko'plab joylar hali bor." # Исправлен перевод
+    gridClassName: "sm:grid-cols-2"
+    cards:
+      - type: "destinationInsight"
+        icon: "map-pin"
+        title:
+          en: "Lyab-i Hauz" # Исправлен перевод
+          ru: "Ляби-Хауз"
+          uz: "Lyabi-Xauz" # Исправлен перевод
+        description:
+          en: "Bukhara: history as part of everyday city life. Especially beautiful in the evening, when soft lighting appears and the atmosphere changes." # Исправлен перевод
+          ru: "Бухара: история как часть обычной городской жизни. Особенно красиво вечером, когда появляется мягкий свет и другая атмосфера."
+          uz: "Buxoro: tarix oddiy shahar hayotining bir qismi sifatida. Ayniqsa kechqurun, yumshoq yorug'lik paydo bo'lganda va atmosfera o'zgarganda go'zal." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "mountain"
+        title:
+          en: "Surkhandarya" # Исправлен перевод
+          ru: "Сурхандарья"
+          uz: "Surxondaryo" # Исправлен перевод
+        description:
+          en: "For those who want to go beyond the most famous routes — not just Samarkand, Bukhara, and Khiva." # Исправлен перевод
+          ru: "Для тех, кто хочет выйти за пределы самых известных маршрутов — не только Самарканд, Бухара и Хива."
+          uz: "Eng mashhur marshrutlardan tashqariga chiqmoqchi bo'lganlar uchun — nafaqat Samarqand, Buxoro va Xiva." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "After the trip"
+      ru: "После поездки"
+      uz: "Sayohatdan keyin"
+    title:
+      en: "To match your expectations and travel style" # Исправлен перевод (был русский)
+      ru: "Под ваши ожидания и стиль отдыха"
+      uz: "Kutganlaringiz va dam olish uslubingizga mos" # Исправлен перевод (был русский)
+    rows:
+      - ratio: "2:1"
+        left:
+          - type: "quote"
+            quote:
+              en: "Come to Uzbekistan — I'll help you find a trip that matches your expectations and travel style." # Исправлен перевод
+              ru: "Приезжайте в Узбекистан — я помогу подобрать путешествие, которое будет соответствовать именно вашим ожиданиям и стилю отдыха."
+              uz: "O'zbekistonga keling — men sizning kutganlaringiz va dam olish uslubingizga mos keladigan sayohatni tanlashga yordam beraman." # Исправлен перевод
+        right:
+          - type: "dashTitle"
+            title:
+              en: "Dynamics" # Исправлен перевод
+              ru: "Динамика"
+              uz: "Dinamika" # Исправлен перевод
+            description:
+              en: "What I love most about tourism is its dynamics: new people, new challenges, new countries, and the opportunity to constantly learn something new." # Исправлен перевод
+              ru: "Больше всего в туризме мне нравится его динамика: новые люди, новые задачи, новые страны и возможность постоянно узнавать что-то новое."
+              uz: "Turizmda menga eng ko'p uning dinamikasi yoqadi: yangi odamlar, yangi vazifalar, yangi mamlakatlar va doimiy ravishda yangi narsalarni o'rganish imkoniyati." # Исправлен перевод
+  - blockType: "cta"
+    image: "assets/images/people.jpg"
+    eyebrow:
+      en: "Enquiry"
+      ru: "Запрос"
+      uz: "So'rov"
+    title:
+      en: "Plan a trip"
+      ru: "Спланировать поездку"
+      uz: "Sayohatni rejalashtirish"
+    description:
+      en: "Write to us — we'll put together a program based on your wishes, budget, and route across Uzbekistan and Central Asia." # Исправлен перевод
+      ru: "Напишите — соберём программу под ваши пожелания, бюджет и маршрут по Узбекистану и Центральной Азии."
+      uz: "Bizga yozing — sizning istaklaringiz, byudjetingiz va O'zbekiston va Markaziy Osiyo bo'ylab marshrutingizga mos dastur tuzamiz." # Исправлен перевод
+    actions:
+      - type: "link"
+        variant: "default"
+        title:
+          en: "Contact us"
+          ru: "Связаться с нами"
+          uz: "Biz bilan bog'lanish"
+        href: "/help/contact"
+      - type: "link"
+        variant: "outline"
+        title:
+          en: "View tours"
+          ru: "Смотреть туры"
+          uz: "Turlarni ko'rish"
+        href: "/tours/catalog"

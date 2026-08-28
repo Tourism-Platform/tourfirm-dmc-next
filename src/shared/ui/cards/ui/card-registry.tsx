@@ -14,6 +14,7 @@ import { InsightAlertCard } from "./insight-alert-card";
 import { MiniTableCard } from "./mini-table-card";
 import { NewsCard } from "./news-card";
 import { OverviewStatCard } from "./overview-stat-card";
+import { PortraitCard } from "./portrait-card";
 import { QuoteCard } from "./quote-card";
 import { RouteCard } from "./route-card";
 import { RouteIdeaCard } from "./route-idea-card";
@@ -95,7 +96,7 @@ export const CARD_REGISTRY: Partial<Record<CardType, TCardRenderer>> = {
 			data={{
 				icon: getLucideIcon(item.icon),
 				title: item.title ?? "",
-				description: item.description ?? ""
+				description: item.description
 			}}
 		/>
 	),
@@ -234,6 +235,16 @@ export const CARD_REGISTRY: Partial<Record<CardType, TCardRenderer>> = {
 					title: row.title,
 					description: row.description
 				}))
+			}}
+		/>
+	),
+	[CardType.Portrait]: (item) => (
+		<PortraitCard
+			data={{
+				imageUrl: item.imageUrl ?? "",
+				imageAlt: item.title ?? "",
+				title: undefined,
+				description: item.description
 			}}
 		/>
 	),

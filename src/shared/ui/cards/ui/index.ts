@@ -26,3 +26,4 @@ export { DashTitleCard } from "./dash-title-card";
 export { QuoteCard } from "./quote-card";
 export { InsightAlertCard } from "./insight-alert-card";
 export { MiniTableCard } from "./mini-table-card";
+export { PortraitCard } from "./portrait-card";

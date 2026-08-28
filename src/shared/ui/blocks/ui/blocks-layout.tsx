@@ -53,7 +53,7 @@ export function BlocksLayout({
 			<div
 				className={cn(
 					"flex w-full flex-col gap-12 pt-12 sm:gap-14 sm:pt-14 lg:gap-16",
-					!overviewStatsSections.length && "pt-28 sm:pt-32",
+					!overviewStatsSections.length && "pt-10",
 					contentClassName
 				)}
 			>

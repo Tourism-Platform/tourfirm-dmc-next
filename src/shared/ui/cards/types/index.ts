@@ -60,3 +60,7 @@ export type {
 	TMiniTableCardProps,
 	TMiniTableRow
 } from "./mini-table-card.types";
+export type {
+	TPortraitCardData,
+	TPortraitCardProps
+} from "./portrait-card.types";

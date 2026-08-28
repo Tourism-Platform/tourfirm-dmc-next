@@ -1,0 +1,378 @@
+segment: "company"
+pathGroup: "team"
+slug: "yulduz-safarova"
+title:
+  en: "Yulduz Safarova"
+  ru: "Юлдуз Сафарова"
+  uz: "Yulduz Safarova"
+seo:
+  metaTitle:
+    en: "Yulduz Safarova | TourLink"
+    ru: "Юлдуз Сафарова | TourLink"
+    uz: "Yulduz Safarova | TourLink"
+  metaDescription:
+    en: "Yulduz Safarova — Travel Expert · German Market & Türkiye"
+    ru: "Юлдуз Сафарова — эксперт по путешествиям · немецкоязычные рынки и Турция"
+    uz: "Yulduz Safarova — Sayohat Eksperti · Nemis Bozori va Turkiya" # Исправлено: был английский
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "media/team/yulduz-safarova.jpg"
+    imageAlt:
+      en: "Yulduz Safarova"
+      ru: "Юлдуз Сафарова"
+      uz: "Yulduz Safarova"
+    title:
+      en: "Yulduz Safarova"
+      ru: "Юлдуз Сафарова"
+      uz: "Yulduz Safarova"
+    description:
+      en: "Travel Expert · German-Speaking Markets & Türkiye" # Исправлено: был русский
+      ru: "Эксперт по путешествиям · немецкоязычные рынки и Турция"
+      uz: "Sayohat Eksperti · Nemis Tilidagi Bozorlar va Turkiya" # Исправлено: был русский
+    note:
+      en: "Travel Expert · German Market & Türkiye"
+      ru: "Эксперт по путешествиям · немецкоязычные рынки и Турция"
+      uz: "Sayohat Eksperti · Nemis Bozori va Turkiya" # Исправлено: был английский
+  - blockType: "regular"
+    gridClassName: "sm:grid-cols-2 lg:grid-cols-4"
+    cards:
+      - type: "overviewStat"
+        icon: "calendar"
+        value:
+          en: "In tourism since 2021" # Исправлено: был русский
+          ru: "В туризме с 2021 года"
+          uz: "Turizmda 2021 yildan beri" # Исправлено: был русский
+      - type: "overviewStat"
+        icon: "globe"
+        value:
+          en: "Germany, Austria, Switzerland" # Исправлено: был русский
+          ru: "Германия, Австрия, Швейцария"
+          uz: "Germaniya, Avstriya, Shveytsariya" # Исправлено: был русский
+      - type: "overviewStat"
+        icon: "map"
+        value:
+          en: "Türkiye" # Исправлено: был русский
+          ru: "Турция"
+          uz: "Turkiya" # Исправлено: был русский
+      - type: "overviewStat"
+        icon: "languages"
+        value:
+          en: "Uzbek, Russian, German, Turkish, English" # Исправлено: был русский
+          ru: "Узбекский, русский, немецкий, турецкий, английский"
+          uz: "O'zbek, rus, nemis, turk, ingliz" # Исправлено: был русский
+  - blockType: "regular"
+    eyebrow:
+      en: "About"
+      ru: "О сотруднике"
+      uz: "Xodim haqida"
+    title:
+      en: "Yulduz Safarova"
+      ru: "Юлдуз Сафарова"
+      uz: "Yulduz Safarova"
+    rows:
+      - ratio: "1:2"
+        left:
+          - type: "portrait"
+            image: "media/team/yulduz-safarova.jpg"
+            title:
+              en: "Yulduz Safarova"
+              ru: "Юлдуз Сафарова"
+              uz: "Yulduz Safarova"
+        right:
+          - type: "quote"
+            quote:
+              en: "I have been working in tourism since 2021. Travel has always attracted me with the opportunity to discover new cities, meet people, and explore cultures, so over time my interest in my own trips grew into a desire to organize travel for others." # Исправлен перевод
+              ru: "Я работаю в туризме с 2021 года. Путешествия всегда привлекали меня возможностью открывать новые города, знакомиться с людьми и культурами, поэтому со временем интерес к собственным поездкам перерос в желание организовывать путешествия для других."
+              uz: "Men 2021 yildan beri turizmda ishlayman. Sayohatlar meni har doim yangi shaharlarni kashf qilish, odamlar va madaniyatlar bilan tanishish imkoniyati bilan jalb qilgan, shuning uchun vaqt o'tishi bilan o'z sayohatlarimga bo'lgan qiziqish boshqalar uchun sayohatlar tashkil qilish istagiga aylandi." # Исправлен перевод
+          - type: "dashTitle"
+            title:
+              en: "Role"
+              ru: "Роль"
+              uz: "Rol"
+            description:
+              en: "Travel Expert. German-Speaking Markets — Germany, Austria, and Switzerland — as well as Türkiye. By education — philologist." # Исправлен перевод
+              ru: "Эксперт по путешествиям. Немецкоязычные рынки — Германия, Австрия и Швейцария, а также Турция. По образованию филолог."
+              uz: "Sayohat Eksperti. Nemis Tilidagi Bozorlar — Germaniya, Avstriya va Shveytsariya, shuningdek Turkiya. Ma'lumoti — filolog." # Исправлен перевод
+          - type: "dashTitle"
+            title:
+              en: "Approach"
+              ru: "Подход"
+              uz: "Yondashuv"
+            description:
+              en: "At the start of my work, it's important for me to understand the guest's expectations. I introduce them to possible cities and routes, tell them about different travel options, and gradually build a program based on their preferences." # Исправлен перевод
+              ru: "В начале работы мне важно понять ожидания гостя. Я знакомлю его с возможными городами и маршрутами, рассказываю о разных вариантах путешествия и постепенно формирую программу исходя из его пожеланий."
+              uz: "Ish boshida men uchun mehmonning kutganlarini tushunish muhim. Men ularni mumkin bo'lgan shaharlar va marshrutlar bilan tanishtiraman, sayohatning turli variantlari haqida gapirib beraman va asta-sekin ularning istaklariga asoslanib dastur tuzaman." # Исправлен перевод
+      - left:
+          - type: "dashTitle"
+            title:
+              en: "How I see the country"
+              ru: "Как я смотрю на страну"
+              uz: "Mamlakatga qanday qarayman"
+            description:
+              en: "What inspires me most in tourism is the moment of saying goodbye to guests. After getting to know Uzbekistan, many say they would like to come again. For me, this is one of the most rewarding results of my work: knowing that a person didn't just see the sights, but truly fell in love with my country and is already starting to miss it." # Исправлен перевод
+              ru: "Больше всего в туризме меня вдохновляет момент прощания с гостями. После знакомства с Узбекистаном многие говорят, что хотели бы приехать снова. Для меня это один из самых приятных результатов работы: понимать, что человек не просто увидел достопримечательности, а действительно полюбил мою страну и уже начинает по ней скучать."
+              uz: "Turizmda meni eng ko'p mehmonlar bilan xayrlashish lahzasi ilhomlantiradi. O'zbekiston bilan tanishgandan so'ng, ko'pchilik yana kelishni xohlashlarini aytishadi. Men uchun bu ishning eng yoqimli natijalaridan biri: odam shunchaki diqqatga sazovor joylarni ko'rmaganini, balki mening mamlakatimni chin dildan sevib qolganini va allaqachon uni sog'ina boshlaganini tushunish." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "Work"
+      ru: "Направления"
+      uz: "Yo'nalishlar"
+    title:
+      en: "What I do"
+      ru: "Чем я занимаюсь"
+      uz: "Nima bilan shug'ullanaman"
+    description:
+      en: "I handle trip organization at almost every stage: I build the program from start to finish, select and book hotels, find guides, arrange train and flight tickets, plan routes, and meet guests when needed. I particularly enjoy creating custom programs based not on a ready-made template, but on how the traveler imagines their trip. For me, the client's interests always come first, and during the trip itself, it's especially important to stay in touch and be ready to help." # Исправлен перевод
+      ru: "Я занимаюсь организацией путешествия практически на всех его этапах: составляю программу от начала до конца, подбираю и бронирую отели, нахожу гидов, организую железнодорожные и авиабилеты, продумываю маршруты и при необходимости встречу гостей. Мне особенно нравится создавать индивидуальные программы, опираясь не на готовый шаблон, а на то, каким сам путешественник представляет свою поездку. Для меня интересы клиента всегда стоят на первом месте, а во время самой поездки особенно важно оставаться на связи и быть готовой помочь."
+      uz: "Men sayohatni tashkil qilishning deyarli barcha bosqichlarida ishtirok etaman: dasturni boshidan oxirigacha tuzaman, mehmonxonalarni tanlayman va bron qilaman, gidlar topaman, temir yo'l va aviachiptalarni tashkil qilaman, marshrutlarni rejalashtiraman va kerak bo'lganda mehmonlarni kutib olaman. Menga ayniqsa, tayyor shablonga emas, balki sayoatchining o'z sayohatini qanday tasavvur qilishiga asoslangan holda shaxsiy dasturlar yaratish yoqadi. Men uchun mijozning manfaatlari har doim birinchi o'rinda turadi va sayohat davomida aloqada bo'lish va yordam berishga tayyor bo'lish ayniqsa muhimdir." # Исправлен перевод
+    gridClassName: "sm:grid-cols-2"
+    cards:
+      - type: "destinationInsight"
+        icon: "list-checks"
+        title:
+          en: "Full program" # Исправлено: был русский
+          ru: "Программа целиком"
+          uz: "To'liq dastur" # Исправлено: был русский
+        description:
+          en: "I build the program from start to finish: routes, daily logic, and guest reception if needed." # Исправлен перевод
+          ru: "Составляю программу от начала до конца: маршруты, логика дней и встреча гостей, если это нужно."
+          uz: "Dasturni boshidan oxirigacha tuzaman: marshrutlar, kunlar mantig'i va kerak bo'lganda mehmonlarni kutib olish." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "building-2"
+        title:
+          en: "Hotels, guides, tickets" # Исправлено: был русский
+          ru: "Отели, гиды, билеты"
+          uz: "Mehmonxonalar, gidlar, chiptalar" # Исправлено: был русский
+        description:
+          en: "I select and book hotels, find guides, and arrange train and flight tickets." # Исправлен перевод
+          ru: "Подбираю и бронирую отели, нахожу гидов, организую железнодорожные и авиабилеты."
+          uz: "Mehmonxonalarni tanlayman va bron qilaman, gidlar topaman, temir yo'l va aviachiptalarni tashkil qilaman." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "user"
+        title:
+          en: "Custom programs" # Исправлено: был русский
+          ru: "Индивидуальные программы"
+          uz: "Shaxsiy dasturlar" # Исправлено: был русский
+        description:
+          en: "Not a ready-made template, but how the traveler imagines their trip." # Исправлен перевод
+          ru: "Не готовый шаблон, а то, каким сам путешественник представляет свою поездку."
+          uz: "Tayyor shablon emas, balki sayoatchining o'z sayohatini qanday tasavvur qilishi." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "headset"
+        title:
+          en: "In touch during the trip" # Исправлено: был русский
+          ru: "На связи в поездке"
+          uz: "Sayohatda aloqada" # Исправлено: был русский
+        description:
+          en: "During the tour, it's important to stay in touch and be ready to help." # Исправлен перевод
+          ru: "Во время тура важно оставаться на связи и быть готовой помочь."
+          uz: "Tur davomida aloqada bo'lish va yordam berishga tayyor bo'lish muhim." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "Background"
+      ru: "Опыт"
+      uz: "Tajriba"
+    title:
+      en: "What goes into organizing a trip" # Исправлен перевод (был русский)
+      ru: "Что стоит за организацией поездки"
+      uz: "Sayohatni tashkil qilish ortida nima turibdi" # Исправлен перевод (был русский)
+    description:
+      en: "By education, I am a philologist. In my work, I use Uzbek, Russian, German, Turkish, and English, and my primary focus is the German-speaking markets — Germany, Austria, and Switzerland — as well as Türkiye. I introduce guests to possible cities and routes, tell them about different travel options, and gradually build a program based on their preferences." # Исправлен перевод
+      ru: "По образованию я филолог. В работе использую узбекский, русский, немецкий, турецкий и английский языки, а основными для меня являются немецкоязычные рынки — Германия, Австрия и Швейцария, а также Турция. Я знакомлю гостя с возможными городами и маршрутами, рассказываю о разных вариантах путешествия и постепенно формирую программу исходя из его пожеланий."
+      uz: "Ma'lumoti bo'yicha men filologman. Ishda o'zbek, rus, nemis, turk va ingliz tillaridan foydalanaman, asosiy yo'nalishlarim esa nemis tilidagi bozorlar — Germaniya, Avstriya va Shveytsariya, shuningdek Turkiya. Men mehmonlarni mumkin bo'lgan shaharlar va marshrutlar bilan tanishtiraman, sayohatning turli variantlari haqida gapirib beraman va asta-sekin ularning istaklariga asoslanib dastur tuzaman." # Исправлен перевод
+    rows:
+      - ratio: "3:2"
+        left:
+          - type: "miniTable"
+            icon: "graduation-cap"
+            title:
+              en: "Education and markets"
+              ru: "Образование и рынки"
+              uz: "Ta'lim va bozorlar"
+            rows:
+              - icon: "book-open"
+                title:
+                  en: "Philology" # Исправлено: был русский
+                  ru: "Филология"
+                  uz: "Filologiya" # Исправлено: был русский
+                description:
+                  en: "Higher education" # Исправлен перевод
+                  ru: "Высшее образование"
+                  uz: "Oliy ma'lumot" # Исправлен перевод
+              - icon: "languages"
+                title:
+                  en: "Languages at work" # Исправлено: был русский
+                  ru: "Языки в работе"
+                  uz: "Ishdagi tillar" # Исправлено: был русский
+                description:
+                  en: "Uzbek, Russian, German, Turkish, English" # Исправлен перевод
+                  ru: "Узбекский, русский, немецкий, турецкий, английский"
+                  uz: "O'zbek, rus, nemis, turk, ingliz" # Исправлен перевод
+              - icon: "globe"
+                title:
+                  en: "Main markets" # Исправлено: был русский
+                  ru: "Основные рынки"
+                  uz: "Asosiy bozorlar" # Исправлено: был русский
+                description:
+                  en: "Germany, Austria, Switzerland, and Türkiye" # Исправлен перевод
+                  ru: "Германия, Австрия, Швейцария и Турция"
+                  uz: "Germaniya, Avstriya, Shveytsariya va Turkiya" # Исправлен перевод
+        right:
+          - type: "dashTitle"
+            title:
+              en: "How I work"
+              ru: "Как я работаю"
+              uz: "Qanday ishlayman"
+            description:
+              en: "The client's interests always come first. During the trip, I stay in touch and am ready to help — so that even in an unfamiliar country, the person feels calm, safe, and comfortable." # Исправлен перевод
+              ru: "Интересы клиента всегда стоят на первом месте. Во время поездки я остаюсь на связи и готова помочь — чтобы даже в незнакомой стране человек чувствовал себя спокойно, безопасно и комфортно."
+              uz: "Mijozning manfaatlari har doim birinchi o'rinda turadi. Sayohat davomida men aloqada bo'lib, yordam berishga tayyorman — hatto notanish mamlakatda ham odam o'zini xotirjam, xavfsiz va qulay his qilishi uchun." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "Principle"
+      ru: "Принцип"
+      uz: "Tamoyil"
+    title:
+      en: "Fall in love with the country, not just see it" # Исправлен перевод (был русский)
+      ru: "Полюбить страну, а не только увидеть её"
+      uz: "Mamlakatni ko'rish emas, balki sevib qolish" # Исправлен перевод (был русский)
+    rows:
+      - ratio: "2:1"
+        left:
+          - type: "quote"
+            quote:
+              en: "I want a trip to Uzbekistan to bring guests surprise and joy, and after returning home, to leave a gentle longing for our country." # Исправлен перевод
+              ru: "Я хочу, чтобы поездка в Узбекистан дарила гостям удивление и радость, а после возвращения домой оставляла лёгкую тоску по нашей стране."
+              uz: "Men O'zbekistonga sayohat mehmonlarga hayrat va quvonch baxsh etishini va uyga qaytgandan keyin mamlakatimizga nisbatan engil sog'inch qoldirishini xohlayman." # Исправлен перевод
+          - type: "dashTitle"
+            title:
+              en: "How I work" # Исправлен перевод
+              ru: "Как я работаю"
+              uz: "Qanday ishlayman" # Исправлен перевод
+            description:
+              en: "In my work, I particularly value precision, attention to detail, responsibility, flexibility, and genuine hospitality. A good trip for me is one where a person feels calm, safe, and comfortable, even in an unfamiliar country. I want a trip to Uzbekistan to bring guests surprise and joy, and after returning home, to leave a gentle longing for our country." # Исправлен перевод
+              ru: "В своей работе я особенно ценю точность, внимание к деталям, ответственность, гибкость и искреннее гостеприимство. Хорошее путешествие для меня — это путешествие, в котором человек даже в незнакомой стране чувствует себя спокойно, безопасно и комфортно. Я хочу, чтобы поездка в Узбекистан дарила гостям удивление и радость, а после возвращения домой оставляла лёгкую тоску по нашей стране."
+              uz: "Ishimda men ayniqsa aniqlik, detallarga e'tibor, mas'uliyat, moslashuvchanlik va samimiy mehmondo'stlikni qadrlayman. Men uchun yaxshi sayohat — bu odam hatto notanish mamlakatda ham o'zini xotirjam, xavfsiz va qulay his qiladigan sayohatdir. Men O'zbekistonga sayohat mehmonlarga hayrat va quvonch baxsh etishini va uyga qaytgandan keyin mamlakatimizga nisbatan engil sog'inch qoldirishini xohlayman." # Исправлен перевод
+        right:
+          - type: "dashTitle"
+            title:
+              en: "What result means to me" # Исправлен перевод (был русский)
+              ru: "Что для меня результат"
+              uz: "Men uchun natija nima" # Исправлен перевод (был русский)
+            description:
+              en: "Knowing that a person didn't just see the sights, but truly fell in love with my country and is already starting to miss it." # Исправлен перевод
+              ru: "Понимать, что человек не просто увидел достопримечательности, а действительно полюбил мою страну и уже начинает по ней скучать."
+              uz: "Odam shunchaki diqqatga sazovor joylarni ko'rmaganini, balki mening mamlakatimni chin dildan sevib qolganini va allaqachon uni sog'ina boshlaganini tushunish." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "Tips"
+      ru: "Советы"
+      uz: "Maslahatlar"
+    title:
+      en: "What I recommend to see" # Исправлен перевод (был русский)
+      ru: "Что я рекомендую увидеть"
+      uz: "Ko'rishni tavsiya qiladigan joylarim" # Исправлен перевод (был русский)
+    description:
+      en: "Bukhara holds a special place for me — the city where I was born and raised. But one of my most beloved places in Uzbekistan remains Khiva. There, I get the feeling of having traveled back several centuries. The old city, historical monuments, and sincere, warm-hearted people create a truly special atmosphere. Khiva is a place I can discover again and again. For those who want to see a less familiar side of Uzbekistan, I also recommend paying attention to Surkhandarya. And I would always complement getting to know our country with local cuisine: plov, Khivan shivit oshi, and, for example, cooking plov together with locals in a traditional house in Bukhara. These are the moments that allow you not just to see the country, but to feel it from within." # Исправлен перевод
+      ru: "Особое место для меня занимает Бухара — город, где я родилась и выросла. Но одним из самых любимых мест в Узбекистане остаётся Хива. Там у меня возникает ощущение, будто я перенеслась на несколько веков назад. Старый город, исторические памятники и искренние, доброжелательные люди создают совершенно особую атмосферу. Именно Хиву я могу открывать для себя снова и снова. Тем, кто хочет увидеть менее привычный Узбекистан, я также советую обратить внимание на Сурхандарью. А знакомство с нашей страной я обязательно дополнила бы местной кухней: пловом, хивинским шивит оши и, например, приготовлением плова вместе с местными жителями в традиционном доме в Бухаре. Именно такие моменты позволяют не просто посмотреть страну, а почувствовать её изнутри."
+      uz: "Buxoro men uchun alohida o'rin tutadi — tug'ilib o'sgan shahrim. Ammo O'zbekistondagi eng sevimli joylarimdan biri Xiva bo'lib qolmoqda. U yerda men bir necha asr orqaga ketgandek his qilaman. Eski shahar, tarixiy yodgorliklar va samimiy, mehribon odamlar butunlay o'ziga xos atmosferani yaratadi. Aynan Xivani men qayta-qayta kashf qila olaman. O'zbekistonning kamroq tanish tomonini ko'rmoqchi bo'lganlarga Surxondaryoga e'tibor berishni maslahat beraman. Mamlakatimiz bilan tanishishni esa men albatta mahalliy oshxona bilan to'ldirgan bo'lardim: plov, xivalik shivit oshi va, masalan, Buxorodagi an'anaviy uyda mahalliy aholi bilan birgalikda plov tayyorlash. Aynan shunday lahzalar mamlakatni shunchaki ko'rishga emas, balki uni ichidan his qilishga imkon beradi." # Исправлен перевод
+    gridClassName: "sm:grid-cols-2"
+    cards:
+      - type: "destinationInsight"
+        icon: "map-pin"
+        title:
+          en: "Bukhara" # Исправлен перевод
+          ru: "Бухара"
+          uz: "Buxoro" # Исправлен перевод
+        description:
+          en: "The city where I was born and raised. Also here — cooking plov together with locals in a traditional house." # Исправлен перевод
+          ru: "Город, где я родилась и выросла. Здесь же — приготовление плова вместе с местными жителями в традиционном доме."
+          uz: "Tug'ilib o'sgan shahrim. Shuningdek, bu yerda — an'anaviy uyda mahalliy aholi bilan birgalikda plov tayyorlash." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "landmark"
+        title:
+          en: "Khiva" # Исправлен перевод
+          ru: "Хива"
+          uz: "Xiva" # Исправлен перевод
+        description:
+          en: "The feeling of having traveled back several centuries: the old city, monuments, and warm-hearted people. Khiva is a place I can discover again and again." # Исправлен перевод
+          ru: "Ощущение, будто перенеслась на несколько веков назад: старый город, памятники и доброжелательные люди. Именно Хиву я могу открывать снова и снова."
+          uz: "Bir necha asr orqaga ketgandek his qilish: eski shahar, yodgorliklar va mehribon odamlar. Aynan Xivani men qayta-qayta kashf qila olaman." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "mountain"
+        title:
+          en: "Surkhandarya" # Исправлен перевод
+          ru: "Сурхандарья"
+          uz: "Surxondaryo" # Исправлен перевод
+        description:
+          en: "For those who want to see a less familiar side of Uzbekistan." # Исправлен перевод
+          ru: "Для тех, кто хочет увидеть менее привычный Узбекистан."
+          uz: "O'zbekistonning kamroq tanish tomonini ko'rmoqchi bo'lganlar uchun." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "utensils-crossed"
+        title:
+          en: "Plov and shivit oshi" # Исправлен перевод
+          ru: "Плов и шивит оши"
+          uz: "Plov va shivit oshi" # Исправлен перевод
+        description:
+          en: "Plov, Khivan shivit oshi, and cooking plov together with locals in a traditional house in Bukhara." # Исправлен перевод
+          ru: "Плов, хивинский шивит оши и приготовление плова вместе с местными жителями в традиционном доме в Бухаре."
+          uz: "Plov, xivalik shivit oshi va Buxorodagi an'anaviy uyda mahalliy aholi bilan birgalikda plov tayyorlash." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "After the trip"
+      ru: "После поездки"
+      uz: "Sayohatdan keyin"
+    title:
+      en: "To stay with you for a lifetime" # Исправлен перевод (был русский)
+      ru: "Чтобы осталось на всю жизнь"
+      uz: "Butun umrga qolishi uchun" # Исправлен перевод (был русский)
+    rows:
+      - ratio: "2:1"
+        left:
+          - type: "quote"
+            quote:
+              en: "Discover the fairytale cities of Uzbekistan with us. I would be happy to help you organize a journey through Uzbekistan and Central Asia that will stay in your memory for a lifetime." # Исправлен перевод
+              ru: "Откройте вместе с нами сказочные города Узбекистана. Я буду рада помочь вам организовать путешествие по Узбекистану и Центральной Азии, которое останется в памяти на всю жизнь."
+              uz: "O'zbekistonning ertak shaharlarini biz bilan birga kashf eting. Men O'zbekiston va Markaziy Osiyo bo'ylab butun umr xotirangizda qoladigan sayohatni tashkil qilishga yordam berishdan xursand bo'laman." # Исправлен перевод
+        right:
+          - type: "dashTitle"
+            title:
+              en: "After returning home" # Исправлен перевод
+              ru: "После возвращения"
+              uz: "Uyga qaytgandan keyin" # Исправлен перевод
+            description:
+              en: "May a gentle longing for our country stay with you at home — and a desire to come again." # Исправлен перевод
+              ru: "Пусть дома останется лёгкая тоска по нашей стране — и желание приехать снова."
+              uz: "Uyda mamlakatimizga nisbatan engil sog'inch — va yana kelish istagi qolsin." # Исправлен перевод
+  - blockType: "cta"
+    image: "assets/images/people.jpg"
+    eyebrow:
+      en: "Enquiry"
+      ru: "Запрос"
+      uz: "So'rov"
+    title:
+      en: "Plan a trip"
+      ru: "Спланировать поездку"
+      uz: "Sayohatni rejalashtirish"
+    description:
+      en: "Write to us — we'll put together a program based on your wishes, budget, and route across Uzbekistan and Central Asia." # Исправлен перевод
+      ru: "Напишите — соберём программу под ваши пожелания, бюджет и маршрут по Узбекистану и Центральной Азии."
+      uz: "Bizga yozing — sizning istaklaringiz, byudjetingiz va O'zbekiston va Markaziy Osiyo bo'ylab marshrutingizga mos dastur tuzamiz." # Исправлен перевод
+    actions:
+      - type: "link"
+        variant: "default"
+        title:
+          en: "Contact us"
+          ru: "Связаться с нами"
+          uz: "Biz bilan bog'lanish"
+        href: "/help/contact"
+      - type: "link"
+        variant: "outline"
+        title:
+          en: "View tours"
+          ru: "Смотреть туры"
+          uz: "Turlarni ko'rish"
+        href: "/tours/catalog"

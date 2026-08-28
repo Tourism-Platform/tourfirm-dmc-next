@@ -36,7 +36,6 @@ export const Regular: Block = {
 		{
 			name: "title",
 			type: "text",
-			required: true,
 			localized: true
 		},
 		{

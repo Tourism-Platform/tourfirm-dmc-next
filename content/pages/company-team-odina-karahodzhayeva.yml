@@ -11,9 +11,9 @@ seo:
     ru: "Одина Караходжаева | TourLink"
     uz: "Odina Karahodjayeva | TourLink"
   metaDescription:
-    en: "Odina Karahodzhayeva — CFO at TourLink, ensuring financial and administrative clarity."
-    ru: "Одина Караходжаева — CFO TourLink, обеспечивает финансовую и административную ясность."
-    uz: "Odina Karahodjayeva — TourLink moliya direktori, moliyaviy va ma'muriy aniqlikni ta'minlaydi."
+    en: "Odina Karahodzhayeva — Travel Expert · CIS Market"
+    ru: "Одина Караходжаева — эксперт по путешествиям · рынок СНГ"
+    uz: "Odina Karahodjayeva — Sayohat Eksperti · MDH Bozori" # Исправлено: был английский
 status:
   showInSitemap: true
 blocks:
@@ -28,19 +28,326 @@ blocks:
       ru: "Одина Караходжаева"
       uz: "Odina Karahodjayeva"
     description:
-      en: "CFO. Ensures financial and administrative clarity at TourLink when route enquiries move to confirmed programmes."
-      ru: "CFO. Отвечает за финансовую и административную ясность TourLink, когда маршрутные запросы переходят к подтверждённым программам."
-      uz: "Moliya direktori. Marshrut so'rovlari tasdiqlangan dasturlarga o'tganda TourLinkda moliyaviy va ma'muriy aniqlik uchun javobgar."
+      en: "Travel Expert · CIS Market" # Исправлено: был русский
+      ru: "Эксперт по путешествиям · рынок СНГ"
+      uz: "Sayohat Eksperti · MDH Bozori" # Исправлено: был русский
+    note:
+      en: "Travel Expert · CIS Market"
+      ru: "Эксперт по путешествиям · рынок СНГ"
+      uz: "Sayohat Eksperti · MDH Bozori" # Исправлено: был английский
+  - blockType: "regular"
+    gridClassName: "sm:grid-cols-2 lg:grid-cols-4"
+    cards:
+      - type: "overviewStat"
+        icon: "calendar"
+        value:
+          en: "In tourism since 2019" # Исправлено: был русский
+          ru: "С 2019 года в туризме"
+          uz: "Turizmda 2019 yildan beri" # Исправлено: был русский
+      - type: "overviewStat"
+        icon: "globe"
+        value:
+          en: "CIS Market" # Исправлено: был русский
+          ru: "Рынок СНГ"
+          uz: "MDH Bozori" # Исправлено: был русский
+      - type: "overviewStat"
+        icon: "briefcase"
+        value:
+          en: "MICE and VIP" # Исправлено: был русский
+          ru: "MICE и VIP"
+          uz: "MICE va VIP" # Исправлено: был русский
+      - type: "overviewStat"
+        icon: "truck"
+        value:
+          en: "Transport and logistics" # Исправлено: был русский
+          ru: "Транспорт и логистика"
+          uz: "Transport va logistika" # Исправлено: был русский
   - blockType: "regular"
     eyebrow:
-      en: "Team"
-      ru: "Команда"
-      uz: "Jamoa"
+      en: "About"
+      ru: "О сотруднике"
+      uz: "Xodim haqida"
     title:
-      en: "About Odina"
-      ru: "Об Одине"
-      uz: "Odina haqida"
+      en: "Odina Karahodzhayeva"
+      ru: "Одина Караходжаева"
+      uz: "Odina Karahodjayeva"
+    rows:
+      - ratio: "1:2"
+        left:
+          - type: "portrait"
+            image: "media/craft.jpg"
+            title:
+              en: "Odina Karahodzhayeva"
+              ru: "Одина Караходжаева"
+              uz: "Odina Karahodjayeva"
+        right:
+          - type: "quote"
+            quote:
+              en: "I have been working in tourism since 2019. I was drawn to this field by my love for my country and a desire to show as many people as possible how beautiful, hospitable, and diverse Uzbekistan can be." # Исправлен перевод
+              ru: "Я работаю в туризме с 2019 года. В эту сферу меня привела любовь к своей стране и желание показать как можно большему числу людей, насколько красивым, гостеприимным и разным может быть Узбекистан."
+              uz: "Men 2019 yildan beri turizmda ishlayman. Bu sohaga meni o'z vatanimga bo'lgan muhabbat va imkon qadar ko'proq odamlarga O'zbekiston naqadar go'zal, mehmondo'st va rang-barang bo'lishi mumkinligini ko'rsatish istagi olib keldi." # Исправлен перевод
+          - type: "dashTitle"
+            title:
+              en: "Role"
+              ru: "Роль"
+              uz: "Rol"
+            description:
+              en: "Travel Expert. CIS Market — individual and group programs, MICE and VIP." # Исправлен перевод
+              ru: "Эксперт по путешествиям. Рынок СНГ — индивидуальные и групповые программы, MICE и VIP."
+              uz: "Sayohat Eksperti. MDH Bozori — individual va guruh dasturlari, MICE va VIP." # Исправлен перевод
+          - type: "dashTitle"
+            title:
+              en: "Approach"
+              ru: "Подход"
+              uz: "Yondashuv"
+            description:
+              en: "I especially enjoy tours and events where I need to keep many details in mind simultaneously and work with large groups of people. I find solutions even for complex requests and remain ready for unexpected changes." # Исправлен перевод
+              ru: "Особенно люблю туры и мероприятия, где нужно одновременно держать много деталей и работать с большим числом людей. Ищу решение даже для сложных запросов и остаюсь готовой к неожиданным изменениям."
+              uz: "Ayniqsa, bir vaqtning o'zida ko'plab detallarni yodda tutish va ko'p odamlar bilan ishlash kerak bo'lgan turlar va tadbirlarni yaxshi ko'raman. Hatto murakkab so'rovlar uchun ham yechim topaman va kutilmagan o'zgarishlarga tayyor bo'laman." # Исправлен перевод
+      - left:
+          - type: "dashTitle"
+            title:
+              en: "How I see the country"
+              ru: "Как я смотрю на страну"
+              uz: "Mamlakatga qanday qarayman"
+            description:
+              en: "I want guests to see not only the famous landmarks, but also to feel the country's atmosphere, its people, traditions, and genuine hospitality." # Исправлен перевод
+              ru: "Мне хочется, чтобы гости увидели не только знаменитые достопримечательности, но и почувствовали атмосферу страны, её людей, традиции и настоящее гостеприимство."
+              uz: "Men mehmonlar nafaqat mashhur diqqatga sazovor joylarni ko'rishlarini, balki mamlakat atmosferasini, uning odamlarini, an'analarini va haqiqiy mehmondo'stlikni his qilishlarini xohlayman." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "Work"
+      ru: "Направления"
+      uz: "Yo'nalishlar"
+    title:
+      en: "What I do"
+      ru: "Чем я занимаюсь"
+      uz: "Nima bilan shug'ullanaman"
     description:
-      en: "Odina Karahodzhayeva ensures financial and administrative clarity at TourLink as route enquiries become confirmed programmes.\n\nShe keeps the practical side of each trip visible — from confirmation to coordination — so partners and travellers know what to expect at every step."
-      ru: "Одина Караходжаева обеспечивает финансовую и административную ясность TourLink, когда маршрутные запросы становятся подтверждёнными программами.\n\nОна держит практическую сторону каждой поездки на виду — от подтверждения до координации — чтобы партнёры и путешественники понимали, чего ожидать на каждом шаге."
-      uz: "Odina Karahodjayeva marshrut so'rovlari tasdiqlangan dasturlarga aylanganda TourLinkda moliyaviy va ma'muriy aniqlikni ta'minlaydi.\n\nU har bir sayohatning amaliy tomonini — tasdiqlashdan muvofiqlashtirishgacha — ko'z oldida tutadi, shunda hamkorlar va sayohatchilar har bir bosqichda nima kutishini biladi."
+      en: "I handle individual and group tours, cultural, gastronomic, and active programs, MICE and VIP trips, hotel bookings, transport, logistics, and guest support. For me, it's important to first understand the person: their interests, preferences, budget, and idea of comfort, and only then create the travel program." # Исправлен перевод
+      ru: "Я занимаюсь индивидуальными и групповыми турами, культурными, гастрономическими и активными программами, MICE и VIP-поездками, бронированием отелей, транспортом, логистикой и сопровождением гостей. Для меня важно сначала понять самого человека: его интересы, пожелания, бюджет и представление о комфорте, а уже затем создавать программу путешествия."
+      uz: "Men individual va guruhli turlar, madaniy, gastronomik va faol dasturlar, MICE va VIP sayohatlar, mehmonxonalarni bron qilish, transport, logistika va mehmonlarga hamrohlik qilish bilan shug'ullanaman. Men uchun avval odamni tushunish muhim: uning qiziqishlari, istaklari, byudjeti va qulaylik haqidagi tasavvuri, shundan keyingina sayohat dasturini yaratish." # Исправлен перевод
+    gridClassName: "sm:grid-cols-2"
+    cards:
+      - type: "destinationInsight"
+        icon: "users"
+        title:
+          en: "Tours" # Исправлено: был русский
+          ru: "Туры"
+          uz: "Turlar" # Исправлено: был русский
+        description:
+          en: "Individual and group tours: cultural, gastronomic, and active programs." # Исправлен перевод
+          ru: "Индивидуальные и групповые туры: культурные, гастрономические и активные программы."
+          uz: "Individual va guruhli turlar: madaniy, gastronomik va faol dasturlar." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "sparkles"
+        title:
+          en: "MICE and VIP" # Исправлено: был русский
+          ru: "MICE и VIP"
+          uz: "MICE va VIP" # Исправлено: был русский
+        description:
+          en: "Events and VIP trips where coordinating contractors and ensuring the comfort of large groups is essential." # Исправлен перевод
+          ru: "Мероприятия и VIP-поездки, где важно координировать подрядчиков и комфорт большого числа гостей."
+          uz: "Tadbirlar va VIP sayohatlar, bu yerda pudratchilarni muvofiqlashtirish va ko'p sonli mehmonlarning qulayligini ta'minlash muhim." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "building-2"
+        title:
+          en: "Hotels and support" # Исправлено: был русский
+          ru: "Отели и сопровождение"
+          uz: "Mehmonxonalar va hamrohlik" # Исправлено: был русский
+        description:
+          en: "Hotel booking and guest support throughout the entire trip." # Исправлен перевод
+          ru: "Бронирование отелей и сопровождение гостей на всём протяжении поездки."
+          uz: "Mehmonxonalarni bron qilish va butun sayohat davomida mehmonlarga hamrohlik qilish." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "truck"
+        title:
+          en: "Transport and logistics" # Исправлено: был русский
+          ru: "Транспорт и логистика"
+          uz: "Transport va logistika" # Исправлено: был русский
+        description:
+          en: "Transport, logistics, and practical experience in freight forwarding." # Исправлен перевод
+          ru: "Транспорт, логистика и практический опыт работы с экспедированием."
+          uz: "Transport, logistika va ekspeditorlik bo'yicha amaliy tajriba." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "Background"
+      ru: "Опыт"
+      uz: "Tajriba"
+    title:
+      en: "What goes into organizing a trip" # Исправлен перевод (был русский)
+      ru: "Что стоит за организацией поездки"
+      uz: "Sayohatni tashkil qilish ortida nima turibdi" # Исправлен перевод (был русский)
+    description:
+      en: "I have a higher education degree in Accounting and Auditing, as well as additional professional training in Transport and Logistics. I hold a freight forwarding certificate and have practical experience working with transport and logistics processes. A significant part of my professional experience is related to organizing events and celebrations — which is why I am skilled at coordinating a large number of details, working with various contractors, and creating comfortable conditions for large groups. Today, this experience helps me approach the organization of travel, events, and complex tour programs with particular care." # Исправлен перевод
+      ru: "У меня высшее образование в области бухгалтерского учёта и аудита, а также дополнительная профессиональная подготовка в сфере транспорта и логистики. Я имею сертификат экспедитора и практический опыт работы с транспортными и логистическими процессами. Значительная часть моего профессионального опыта связана с организацией мероприятий и торжеств — поэтому я хорошо умею координировать большое количество деталей, работать с разными подрядчиками и создавать комфортные условия для большого числа гостей. Сегодня этот опыт помогает мне особенно внимательно подходить к организации путешествий, мероприятий и сложных туристических программ."
+      uz: "Men Buxgalteriya hisobi va audit sohasida oliy ma'lumotga ega bo'lib, shuningdek, Transport va logistika sohasida qo'shimcha kasbiy tayyorgarlikdan o'tganman. Menda ekspeditor sertifikati va transport va logistika jarayonlari bilan ishlash bo'yicha amaliy tajriba mavjud. Kasbiy tajribamning muhim qismi tadbirlar va bayramlarni tashkil qilish bilan bog'liq — shuning uchun men ko'plab detallarni muvofiqlashtirish, turli pudratchilar bilan ishlash va ko'p sonli mehmonlar uchun qulay sharoitlar yaratishni yaxshi bilaman. Bugun bu tajriba menga sayohatlar, tadbirlar va murakkab turistik dasturlarni tashkil qilishga ayniqsa ehtiyotkorlik bilan yondashishga yordam bermoqda." # Исправлен перевод
+    rows:
+      - ratio: "3:2"
+        left:
+          - type: "miniTable"
+            icon: "graduation-cap"
+            title:
+              en: "Education and practice"
+              ru: "Образование и практика"
+              uz: "Ta'lim va amaliyot"
+            rows:
+              - icon: "calculator"
+                title:
+                  en: "Accounting and Auditing" # Исправлено: был русский
+                  ru: "Бухгалтерский учёт и аудит"
+                  uz: "Buxgalteriya hisobi va audit" # Исправлено: был русский
+                description:
+                  en: "Higher education"
+                  ru: "Высшее образование"
+                  uz: "Oliy ma'lumot"
+              - icon: "package"
+                title:
+                  en: "Transport and Logistics" # Исправлено: был русский
+                  ru: "Транспорт и логистика"
+                  uz: "Transport va logistika" # Исправлено: был русский
+                description:
+                  en: "Additional training and freight forwarding certificate" # Исправлен перевод
+                  ru: "Дополнительная подготовка и сертификат экспедитора"
+                  uz: "Qo'shimcha tayyorgarlik va ekspeditor sertifikati" # Исправлен перевод
+              - icon: "calendar-heart"
+                title:
+                  en: "Event Organization" # Исправлено: был русский
+                  ru: "Организация мероприятий"
+                  uz: "Tadbirlarni tashkil qilish" # Исправлено: был русский
+                description:
+                  en: "Coordinating details, contractors, and comfortable conditions for large groups" # Исправлен перевод
+                  ru: "Координация деталей, подрядчиков и комфортных условий для большого числа гостей"
+                  uz: "Detallar, pudratchilar va ko'p sonli mehmonlar uchun qulay sharoitlarni muvofiqlashtirish" # Исправлен перевод
+        right:
+          - type: "dashTitle"
+            title:
+              en: "How I work"
+              ru: "Как я работаю"
+              uz: "Qanday ishlayman"
+            description:
+              en: "First understand the person: interests, preferences, budget, and idea of comfort — and only then assemble the program. Even for complex requests and unexpected changes." # Исправлен перевод
+              ru: "Сначала понять человека: интересы, пожелания, бюджет и представление о комфорте — и только затем собирать программу. Даже для сложных запросов и неожиданных изменений."
+              uz: "Avval odamni tushunish: qiziqishlar, istaklar, byudjet va qulaylik haqidagi tasavvur — va shundan keyingina dasturni yig'ish. Hatto murakkab so'rovlar va kutilmagan o'zgarishlar uchun ham." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "Principle"
+      ru: "Принцип"
+      uz: "Tamoyil"
+    title:
+      en: "Guests, not just tourists" # Исправлен перевод (был русский)
+      ru: "Гости, а не просто туристы"
+      uz: "Mehmonlar, nafaqat sayyohlar" # Исправлен перевод (был русский)
+    description:
+      en: "The main principle of my work is honesty. For me, travelers are not just tourists — they are first and foremost our guests. I relate to the Uzbek saying: 'Mehmon — otangday ulug‘' (A guest is as great as your father). That is why comfort, safety, attention to detail, and care for people always come first for me. Even after the tour ends, I find it hard to say goodbye to guests, and I continue to stay in touch with many of them." # Исправлен перевод
+      ru: "Главный принцип моей работы — честность. Для меня путешественники — не просто туристы, а прежде всего наши гости. Мне близка узбекская фраза: «Mehmon — otangday ulug‘». Именно поэтому комфорт, безопасность, внимание к деталям и забота о человеке для меня всегда остаются на первом месте. Даже после окончания тура мне бывает трудно прощаться с гостями, и со многими из них я продолжаю поддерживать связь."
+      uz: "Ishimning asosiy tamoyili — rostgo'ylik. Men uchun sayohatchilar shunchaki sayyohlar emas — ular birinchi navbatda bizning mehmonlarimiz. Menga o'zbekcha ibora yaqin: «Mehmon — otangday ulug'». Aynan shuning uchun qulaylik, xavfsizlik, detallarga e'tibor va odamga g'amxo'rlik men uchun har doim birinchi o'rinda turadi. Tur tugaganidan keyin ham mehmonlar bilan xayrlashish menga qiyin bo'ladi va ularning ko'plari bilan aloqani davom ettiraman." # Исправлен перевод
+    rows:
+      - ratio: "2:1"
+        left:
+          - type: "dashTitle"
+            title:
+              en: "Honesty"
+              ru: "Честность"
+              uz: "Rostgo'ylik"
+            description:
+              en: "Comfort, safety, attention to detail, and care for people always come first. Even after the tour, it's hard to say goodbye — I continue to stay in touch with many guests." # Исправлен перевод
+              ru: "Комфорт, безопасность, внимание к деталям и забота о человеке всегда остаются на первом месте. Даже после тура бывает трудно прощаться — со многими гостями я продолжаю поддерживать связь."
+              uz: "Qulaylik, xavfsizlik, detallarga e'tibor va odamga g'amxo'rlik har doim birinchi o'rinda turadi. Turdan keyin ham xayrlashish qiyin — ko'plab mehmonlar bilan aloqani davom ettiraman." # Исправлен перевод
+        right:
+          - type: "quote"
+            quote:
+              en: "Mehmon — otangday ulug'"
+              ru: "Mehmon — otangday ulug'"
+              uz: "Mehmon — otangday ulug'"
+  - blockType: "regular"
+    eyebrow:
+      en: "Tips"
+      ru: "Советы"
+      uz: "Maslahatlar"
+    title:
+      en: "What I recommend to see" # Исправлен перевод (был русский)
+      ru: "Что я рекомендую увидеть"
+      uz: "Ko'rishni tavsiya qiladigan joylarim" # Исправлен перевод (был русский)
+    description:
+      en: "In Uzbekistan, it's hard for me to choose just one favorite place — every city and every region is beautiful in its own way. But for those who want to see something less known, I recommend paying attention to Shahimardan. And getting to know our country is impossible without Uzbek cuisine — above all, plov and samsa. I want guests to see not only the famous landmarks, but also to feel the country's atmosphere, its people, traditions, and genuine hospitality." # Исправлен перевод
+      ru: "В Узбекистане мне сложно выбрать только одно любимое место — каждый город и каждый регион красив по-своему. Но тем, кто хочет увидеть что-то менее известное, я советую обратить внимание на Шахимардан. А знакомство с нашей страной невозможно представить без узбекской кухни — прежде всего плова и самсы. Мне хочется, чтобы гости увидели не только знаменитые достопримечательности, но и почувствовали атмосферу страны, её людей, традиции и настоящее гостеприимство."
+      uz: "O'zbekistonda faqat bitta sevimli joyni tanlash menga qiyin — har bir shahar va har bir mintaqa o'ziga xos tarzda go'zal. Ammo kamroq mashhur narsalarni ko'rmoqchi bo'lganlarga Shahimardonga e'tibor berishni maslahat beraman. Mamlakatimiz bilan tanishishni o'zbek oshxonasisiz, birinchi navbatda plov va samsasiz tasavvur qilib bo'lmaydi. Men mehmonlar nafaqat mashhur diqqatga sazovor joylarni ko'rishlarini, balki mamlakat atmosferasini, uning odamlarini, an'analarini va haqiqiy mehmondo'stlikni his qilishlarini xohlayman." # Исправлен перевод
+    gridClassName: "sm:grid-cols-2"
+    cards:
+      - type: "destinationInsight"
+        icon: "map-pin"
+        title:
+          en: "Shahimardan"
+          ru: "Шахимардан"
+          uz: "Shahimardon"
+        description:
+          en: "For those who want to see something less known, I recommend paying attention to Shahimardan." # Исправлен перевод
+          ru: "Тем, кто хочет увидеть что-то менее известное, я советую обратить внимание на Шахимардан."
+          uz: "Kamroq mashhur narsalarni ko'rmoqchi bo'lganlarga Shahimardonga e'tibor berishni maslahat beraman." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "utensils-crossed"
+        title:
+          en: "Plov and samsa"
+          ru: "Плов и самса"
+          uz: "Plov va samsa"
+        description:
+          en: "Getting to know our country is impossible without Uzbek cuisine — above all, plov and samsa." # Исправлен перевод
+          ru: "Знакомство со страной невозможно представить без узбекской кухни — прежде всего плова и самсы."
+          uz: "Mamlakatimiz bilan tanishishni o'zbek oshxonasisiz, birinchi navbatda plov va samsasiz tasavvur qilib bo'lmaydi." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "After the trip"
+      ru: "После поездки"
+      uz: "Sayohatdan keyin"
+    title:
+      en: "To make you want to come back" # Исправлен перевод (был русский)
+      ru: "Чтобы захотелось вернуться"
+      uz: "Qaytib kelishni xohlashingiz uchun" # Исправлен перевод (был русский)
+    rows:
+      - ratio: "2:1"
+        left:
+          - type: "quote"
+            quote:
+              en: "If after traveling through Uzbekistan you want to come back here again, it means we did our job right. I want to create trips that stay in memory for a long time and after which Uzbekistan becomes a place you want to return to again and again." # Исправлен перевод
+              ru: "Если после путешествия по Узбекистану вам захочется вернуться сюда ещё раз, значит, мы сделали свою работу правильно. Я хочу создавать поездки, которые остаются в памяти надолго и после которых Узбекистан становится местом, куда хочется возвращаться снова и снова."
+              uz: "Agar O'zbekiston bo'ylab sayohatdan keyin yana bu yerga qaytib kelishni xohlasangiz, demak biz o'z ishimizni to'g'ri qilganmiz. Men uzoq vaqt xotirada qoladigan va undan keyin O'zbekiston qayta-qayta qaytib kelishni xohlaydigan joyga aylanadigan sayohatlarni yaratmoqchiman." # Исправлен перевод
+        right:
+          - type: "dashTitle"
+            title:
+              en: "Connection after the tour" # Исправлен перевод
+              ru: "Связь после тура"
+              uz: "Turdan keyin aloqa" # Исправлен перевод
+            description:
+              en: "Even after the tour ends, I find it hard to say goodbye to guests — I continue to stay in touch with many of them." # Исправлен перевод
+              ru: "Даже после окончания тура бывает трудно прощаться с гостями — со многими из них я продолжаю поддерживать связь."
+              uz: "Tur tugaganidan keyin ham mehmonlar bilan xayrlashish qiyin — ularning ko'plari bilan aloqani davom ettiraman." # Исправлен перевод
+  - blockType: "cta"
+    image: "assets/images/people.jpg"
+    eyebrow:
+      en: "Enquiry"
+      ru: "Запрос"
+      uz: "So'rov"
+    title:
+      en: "Plan a trip"
+      ru: "Спланировать поездку"
+      uz: "Sayohatni rejalashtirish"
+    description:
+      en: "Write to us — we'll put together a program based on your interests, budget, and comfort preferences." # Исправлен перевод
+      ru: "Напишите — соберём программу под интересы, бюджет и комфорт."
+      uz: "Bizga yozing — qiziqishlaringiz, byudjetingiz va qulaylik istaklaringizga mos dastur tuzamiz." # Исправлен перевод
+    actions:
+      - type: "link"
+        variant: "default"
+        title:
+          en: "Contact us"
+          ru: "Связаться с нами"
+          uz: "Biz bilan bog'lanish"
+        href: "/help/contact"
+      - type: "link"
+        variant: "outline"
+        title:
+          en: "View tours"
+          ru: "Смотреть туры"
+          uz: "Turlarni ko'rish"
+        href: "/tours/catalog"

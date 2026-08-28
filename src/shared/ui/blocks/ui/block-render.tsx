@@ -36,6 +36,7 @@ export function BlockRender({
 				title={section.title!}
 				topContent={topContent}
 				description={section.description!}
+				note={section.note}
 				actions={section.actions?.map((action, actionIndex) => (
 					<ButtonRender
 						key={actionIndex}

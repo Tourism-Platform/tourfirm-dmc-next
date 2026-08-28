@@ -1,0 +1,378 @@
+segment: "company"
+pathGroup: "team"
+slug: "alina-bikbulatova"
+title:
+  en: "Alina Bikbulatova"
+  ru: "Алина Бикбулатова"
+  uz: "Alina Bikbulatova"
+seo:
+  metaTitle:
+    en: "Alina Bikbulatova | TourLink"
+    ru: "Алина Бикбулатова | TourLink"
+    uz: "Alina Bikbulatova | TourLink"
+  metaDescription:
+    en: "Alina Bikbulatova — Travel Expert · Italian Market"
+    ru: "Алина Бикбулатова — эксперт по путешествиям · итальянский рынок"
+    uz: "Alina Bikbulatova — Sayohat Eksperti · Italiya Bozori" # Исправлено: был английский
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "media/team/alina-bikbulatova.jpg"
+    imageAlt:
+      en: "Alina Bikbulatova"
+      ru: "Алина Бикбулатова"
+      uz: "Alina Bikbulatova"
+    title:
+      en: "Alina Bikbulatova"
+      ru: "Алина Бикбулатова"
+      uz: "Alina Bikbulatova"
+    description:
+      en: "Travel Expert · Italian Market" # Исправлено: был русский
+      ru: "Эксперт по путешествиям · итальянский рынок"
+      uz: "Sayohat Eksperti · Italiya Bozori" # Исправлено: был русский
+    note:
+      en: "Travel Expert · Italian Market"
+      ru: "Эксперт по путешествиям · итальянский рынок"
+      uz: "Sayohat Eksperti · Italiya Bozori" # Исправлено: был английский
+  - blockType: "regular"
+    gridClassName: "sm:grid-cols-2 lg:grid-cols-4"
+    cards:
+      - type: "overviewStat"
+        icon: "calendar"
+        value:
+          en: "In tourism since 2026" # Исправлено: был русский
+          ru: "В туризме с 2026 года"
+          uz: "Turizmda 2026 yildan beri" # Исправлено: был русский
+      - type: "overviewStat"
+        icon: "globe"
+        value:
+          en: "Italian Market" # Исправлено: был русский
+          ru: "Итальянский рынок"
+          uz: "Italiya Bozori" # Исправлено: был русский
+      - type: "overviewStat"
+        icon: "languages"
+        value:
+          en: "Russian, Italian, English B2" # Исправлено: был русский
+          ru: "Русский, итальянский, английский B2"
+          uz: "Rus, italyan, ingliz B2" # Исправлено: был русский
+      - type: "overviewStat"
+        icon: "book-open"
+        value:
+          en: "Philology, Renessans" # Исправлено: был русский
+          ru: "Филология, Renessans"
+          uz: "Filologiya, Renessans" # Исправлено: был русский
+  - blockType: "regular"
+    eyebrow:
+      en: "About"
+      ru: "О сотруднике"
+      uz: "Xodim haqida"
+    title:
+      en: "Alina Bikbulatova"
+      ru: "Алина Бикбулатова"
+      uz: "Alina Bikbulatova"
+    rows:
+      - ratio: "1:2"
+        left:
+          - type: "portrait"
+            image: "media/team/alina-bikbulatova.jpg"
+            title:
+              en: "Alina Bikbulatova"
+              ru: "Алина Бикбулатова"
+              uz: "Alina Bikbulatova"
+        right:
+          - type: "quote"
+            quote:
+              en: "I entered tourism in 2026 because I genuinely love traveling, exploring new countries, and experiencing other cultures. Now I enjoy helping others discover the world with the same interest and inspiration." # Исправлен перевод
+              ru: "Я пришла в туризм в 2026 году, потому что сама искренне люблю путешествия, новые страны и знакомство с другими культурами. Теперь мне нравится помогать другим людям открывать мир с тем же интересом и вдохновением."
+              uz: "Turizmga 2026 yilda keldim, chunki o'zim sayohat qilishni, yangi mamlakatlarni va boshqa madaniyatlarni o'rganishni chin dildan yaxshi ko'raman. Endi menga boshqalarga dunyoni xuddi shunday qiziqish va ilhom bilan kashf etishga yordam berish yoqadi." # Исправлен перевод
+          - type: "dashTitle"
+            title:
+              en: "Role"
+              ru: "Роль"
+              uz: "Rol"
+            description:
+              en: "Travel Expert. Italian Market. By education — philologist, Renessans University." # Исправлен перевод
+              ru: "Эксперт по путешествиям. Итальянский рынок. По образованию филолог — университет Renessans."
+              uz: "Sayohat Eksperti. Italiya bozori. Ma'lumoti bo'yicha filolog — Renessans universiteti." # Исправлен перевод
+          - type: "dashTitle"
+            title:
+              en: "Approach"
+              ru: "Подход"
+              uz: "Yondashuv"
+            description:
+              en: "I particularly enjoy working not with ready-made templates, but by assembling a trip for a specific person. First, I find out who is traveling, the dates, the budget, and their idea of a vacation." # Исправлен перевод
+              ru: "Мне особенно нравится работать не с готовыми шаблонами, а собирать путешествие под конкретного человека. Сначала я выясняю, кто едет, на какие даты, с каким бюджетом и каким представлением об отдыхе."
+              uz: "Menga tayyor shablonlar bilan emas, balki sayohatni ma'lum bir shaxsga moslashtirib yig'ish yoqadi. Avval kim ketayotganini, qaysi sanalarda, qanday byudjet va dam olish haqidagi tasavvurini aniqlayman." # Исправлен перевод
+      - left:
+          - type: "dashTitle"
+            title:
+              en: "How I see the country"
+              ru: "Как я смотрю на страну"
+              uz: "Mamlakatga qanday qarayman"
+            description:
+              en: "In my travels, I'm interested in almost everything: architecture, cuisine, history, nature, people, and everyday culture. I love places where a traveler can not just see a sight, but also see the work of craftsmen, meet people, and feel the local culture from the inside." # Исправлен перевод
+              ru: "В путешествиях мне интересно практически всё: архитектура, кухня, история, природа, люди и повседневная культура. Я люблю места, в которых путешественник может не просто посмотреть достопримечательность, а увидеть работу мастеров, познакомиться с людьми и почувствовать местную культуру изнутри."
+              uz: "Sayohatlarda menga deyarli hamma narsa qiziq: arxitektura, oshxona, tarix, tabiat, odamlar va kundalik madaniyat. Menga sayyoh diqqatga sazovor joyni shunchaki ko'ribgina qolmay, hunarmandlarning ishini ko'rishi, odamlar bilan tanishishi va mahalliy madaniyatni ichidan his qilishi mumkin bo'lgan joylar yoqadi." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "Work"
+      ru: "Направления"
+      uz: "Yo'nalishlar"
+    title:
+      en: "What I do"
+      ru: "Чем я занимаюсь"
+      uz: "Nima bilan shug'ullanaman"
+    description:
+      en: "I handle individual and group travel, including cultural, gastronomic, active, MICE, and VIP programs. My work covers the entire trip preparation cycle: itinerary planning, cost calculation, booking hotels and other services, arranging tickets and guides, as well as supporting the traveler from the start of planning until the tour's completion. One person values peace and a good hotel, another wants a packed program, gastronomy, or active experiences. The route gradually comes together from these details." # Исправлен перевод
+      ru: "Я занимаюсь индивидуальными и групповыми путешествиями, культурными, гастрономическими, активными, MICE- и VIP-программами. В моей работе есть весь основной цикл подготовки поездки: составление программы, расчёт, бронирование отелей и других услуг, подбор билетов и гидов, а также сопровождение путешественника от начала планирования до завершения тура. Одному человеку важны тишина и хороший отель, другому — насыщенная программа, гастрономия или активные впечатления. Именно из таких деталей постепенно складывается маршрут."
+      uz: "Men individual va guruhli sayohatlar, madaniy, gastronomik, faol, MICE va VIP dasturlar bilan shug'ullanaman. Mening ishim sayohatni tayyorlashning to'liq siklini o'z ichiga oladi: dastur tuzish, hisob-kitob, mehmonxonalar va boshqa xizmatlarni bron qilish, chiptalar va gidlarni tanlash, shuningdek, rejalashtirish boshlanishidan to tur tugaguniga qadar sayohatchiga hamrohlik qilish. Bir kishi uchun tinchlik va yaxshi mehmonxona muhim, boshqasi uchun esa boy dastur, gastronomiya yoki faol tajribalar. Aynan shu detallardan marshrut asta-sekin shakllanadi." # Исправлен перевод
+    gridClassName: "sm:grid-cols-2"
+    cards:
+      - type: "destinationInsight"
+        icon: "users"
+        title:
+          en: "Tours" # Исправлено: был русский
+          ru: "Туры"
+          uz: "Turlar" # Исправлено: был русский
+        description:
+          en: "Individual and group travel: cultural, gastronomic, active, MICE, and VIP programs." # Исправлен перевод
+          ru: "Индивидуальные и групповые путешествия: культурные, гастрономические, активные, MICE- и VIP-программы."
+          uz: "Individual va guruhli sayohatlar: madaniy, gastronomik, faol, MICE va VIP dasturlar." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "list-checks"
+        title:
+          en: "Full Cycle" # Исправлено: был русский
+          ru: "Цикл целиком"
+          uz: "To'liq tsikl" # Исправлено: был русский
+        description:
+          en: "Itinerary planning, calculation, booking hotels and services, arranging tickets and guides — from planning to tour completion." # Исправлен перевод
+          ru: "Составление программы, расчёт, бронирование отелей и услуг, подбор билетов и гидов — от планирования до завершения тура."
+          uz: "Dastur tuzish, hisob-kitob, mehmonxonalar va xizmatlarni bron qilish, chiptalar va gidlarni tanlash — rejalashtirishdan tortib to tur tugaguniga qadar." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "user"
+        title:
+          en: "Tailored" # Исправлено: был русский
+          ru: "Под человека"
+          uz: "Shaxsiylashtirilgan" # Исправлено: был русский
+        description:
+          en: "No ready-made template: who is traveling, dates, budget, and their idea of a vacation." # Исправлен перевод
+          ru: "Не готовый шаблон: кто едет, даты, бюджет и представление об отдыхе."
+          uz: "Tayyor shablon emas: kim ketmoqda, sanalar, byudjet va dam olish haqidagi tasavvur." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "headset"
+        title:
+          en: "Available during the trip" # Исправлено: был русский
+          ru: "На связи в поездке"
+          uz: "Sayohatda aloqada" # Исправлено: был русский
+        description:
+          en: "During the trip, I stay in touch and help resolve any issues that arise — giving directions, assisting with translation, or sorting out bookings." # Исправлен перевод
+          ru: "Во время путешествия я остаюсь на связи и помогаю решать возникающие вопросы — подсказать дорогу, помочь с переводом или разобраться с бронированием."
+          uz: "Sayohat davomida men aloqada bo'lib, yuzaga keladigan muammolarni hal qilishga yordam beraman — yo'lni ko'rsatish, tarjimada yordam berish yoki bron qilish bilan bog'liq muammolarni tushunish." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "Background"
+      ru: "Опыт"
+      uz: "Tajriba"
+    title:
+      en: "What goes into organizing a trip" # Исправлен перевод (был русский)
+      ru: "Что стоит за организацией поездки"
+      uz: "Sayohatni tashkil qilish ortida nima turibdi" # Исправлен перевод (был русский)
+    description:
+      en: "My education is in philology — I studied at Renessans University on the philology faculty. I speak Russian and Italian fluently, and have English at a B2 level. At TourLink, I primarily work with the Italian market. When planning, I pay particular attention to logistics. It's important to me that the traveler does not waste unnecessary time on inconvenient transfers, and that hotels, transport, and other services meet their expectations." # Исправлен перевод
+      ru: "Моё образование связано с филологией — я училась в университете Renessans на факультете филологии. Свободно говорю на русском и итальянском языках, владею английским на уровне B2. В TourLink я работаю прежде всего с итальянским рынком. При планировании я особенно внимательно отношусь к логистике. Для меня важно, чтобы путешественник не тратил лишнее время на неудобные переезды, а отели, транспорт и другие услуги соответствовали его ожиданиям."
+      uz: "Mening ta'limim filologiya bilan bog'liq — men Renessans universitetining filologiya fakultetida o'qiganman. Rus va italyan tillarida erkin gaplashaman, ingliz tilini esa B2 darajasida bilaman. TourLink da men asosan Italiya bozori bilan ishlayman. Rejalashtirishda men logistikaga alohida e'tibor beraman. Men uchun sayohatchi noqulay ko'chishlarga ortiqcha vaqt sarflamasligi, mehmonxonalar, transport va boshqa xizmatlar uning kutganlariga mos kelishi muhim." # Исправлен перевод
+    rows:
+      - ratio: "3:2"
+        left:
+          - type: "miniTable"
+            icon: "graduation-cap"
+            title:
+              en: "Education and languages"
+              ru: "Образование и языки"
+              uz: "Ta'lim va tillar"
+            rows:
+              - icon: "book-open"
+                title:
+                  en: "Philology"
+                  ru: "Филология"
+                  uz: "Filologiya"
+                description:
+                  en: "Renessans University"
+                  ru: "Университет Renessans"
+                  uz: "Renessans universiteti"
+              - icon: "languages"
+                title:
+                  en: "Languages at work"
+                  ru: "Языки в работе"
+                  uz: "Ishdagi tillar"
+                description:
+                  en: "Russian, Italian; English — B2"
+                  ru: "Русский, итальянский; английский — B2"
+                  uz: "Rus, italyan; ingliz — B2"
+              - icon: "globe"
+                title:
+                  en: "Main market"
+                  ru: "Основной рынок"
+                  uz: "Asosiy bozor"
+                description:
+                  en: "Italy"
+                  ru: "Италия"
+                  uz: "Italiya"
+        right:
+          - type: "dashTitle"
+            title:
+              en: "Logistics"
+              ru: "Логистика"
+              uz: "Logistika"
+            description:
+              en: "I study the hotel's location, fresh reviews, living conditions, and possible additional costs. When choosing restaurants and experiences, I try to find places with a vibrant local atmosphere, not just standard tourist spots." # Исправлен перевод
+              ru: "Я изучаю расположение отеля, свежие отзывы, условия проживания и возможные дополнительные расходы, а при выборе ресторанов и впечатлений стараюсь находить места с живой местной атмосферой, а не только стандартные туристические точки."
+              uz: "Men mehmonxonaning joylashuvini, yangi sharhlarni, yashash sharoitlarini va mumkin bo'lgan qo'shimcha xarajatlarni o'rganaman. Restoranlar va tajribalarni tanlashda esa oddiy turistik joylarni emas, balki jonli mahalliy muhitga ega joylarni topishga harakat qilaman." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "Principle"
+      ru: "Принцип"
+      uz: "Tamoyil"
+    title:
+      en: "Safety and honesty" # Исправлен перевод (был русский)
+      ru: "Безопасность и честность"
+      uz: "Xavfsizlik va rostgo'ylik" # Исправлен перевод (был русский)
+    rows:
+      - ratio: "2:1"
+        left:
+          - type: "quote"
+            quote:
+              en: "If a choice has drawbacks, I'd rather mention them in advance than create a perfect picture that won't match reality later." # Исправлен перевод
+              ru: "Если у варианта есть недостатки, я предпочту рассказать о них заранее, а не создавать идеальную картинку, которая потом не совпадёт с реальностью."
+              uz: "Agar variantning kamchiliklari bo'lsa, men ularni oldindan aytib berishni afzal ko'raman, keyin haqiqatga to'g'ri kelmaydigan ideal rasmni yaratishdan ko'ra." # Исправлен перевод
+          - type: "dashTitle"
+            title:
+              en: "Main principle"
+              ru: "Главный принцип"
+              uz: "Asosiy tamoyil"
+            description:
+              en: "One of my main principles is safety and honesty. I do not recommend dubious services and try to work with reliable partners. For me, a good trip is one that goes smoothly, easily, and without unnecessary stress." # Исправлен перевод
+              ru: "Один из моих главных принципов — безопасность и честность. Я также не рекомендую сомнительные услуги и стараюсь работать с надёжными партнёрами. Для меня хорошее путешествие — это прежде всего поездка, которая прошла спокойно, легко и без ненужного стресса."
+              uz: "Mening asosiy tamoyillarimdan biri — xavfsizlik va rostgo'ylik. Men shubhali xizmatlarni tavsiya etmayman va ishonchli hamkorlar bilan ishlashga harakat qilaman. Men uchun yaxshi sayohat, bu avvalo tinch, oson va ortiqcha stresssiz o'tgan sayohatdir." # Исправлен перевод
+        right:
+          - type: "dashTitle"
+            title:
+              en: "What result means to me"
+              ru: "Что для меня результат"
+              uz: "Men uchun natija nima"
+            description:
+              en: "I do not recommend dubious services and try to work with reliable partners. For me, a good trip is one that goes smoothly, easily, and without unnecessary stress."
+              ru: "Я не рекомендую сомнительные услуги и стараюсь работать с надёжными партнёрами. Для меня хорошее путешествие — это прежде всего поездка, которая прошла спокойно, легко и без ненужного стресса."
+              uz: "Men shubhali xizmatlarni tavsiya etmayman va ishonchli hamkorlar bilan ishlashga harakat qilaman. Men uchun yaxshi sayohat, bu avvalo tinch, oson va ortiqcha stresssiz o'tgan sayohatdir." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "Tips"
+      ru: "Советы"
+      uz: "Maslahatlar"
+    title:
+      en: "What I recommend to see" # Исправлен перевод (был русский)
+      ru: "Что я рекомендую увидеть"
+      uz: "Ko'rishni tavsiya qiladigan joylarim" # Исправлен перевод (был русский)
+    description:
+      en: "In Uzbekistan, one of the places I find interesting is the Center of Islamic Civilization in Tashkent. I appreciate the blend of Eastern history, architecture, and its modern presentation. For those wanting to see Uzbekistan beyond the most famous routes, I would recommend Sentob in the Navoi region — a mountain village with traditional houses and a completely different atmosphere. I also really like the Fergana Valley, especially Margilan and Rishtan, where craft traditions remain part of modern life. From Uzbek cuisine, I definitely recommend trying not only plov but also the Khorezmian tuhum-barak. And near Samarkand, I consider getting acquainted with the traditional paper-making in Konigil a fascinating experience." # Исправлен перевод
+      ru: "В Узбекистане одним из интересных для меня мест является Центр исламской цивилизации в Ташкенте. Мне близко сочетание истории Востока, архитектуры и современного способа её представления. А тем, кто хочет увидеть Узбекистан за пределами самых известных маршрутов, я бы посоветовала Сентоб в Навоийской области — горное село с традиционными домами и совершенно другой атмосферой. Мне также очень нравится Ферганская долина, особенно Маргилан и Риштан, где ремесленные традиции остаются частью современной жизни. Из узбекской кухни я обязательно советую попробовать не только плов, но и хорезмский тухум-барак. А одним из интересных впечатлений около Самарканда считаю знакомство с традиционным изготовлением бумаги в Конигиле."
+      uz: "O'zbekistonda men uchun qiziqarli joylardan biri Toshkentdagi Islom sivilizatsiyasi markazidir. Menga Sharq tarixi, arxitektura va uni zamonaviy taqdim etish usulining uyg'unligi yaqin. Eng mashhur marshrutlardan tashqarida O'zbekistonni ko'rmoqchi bo'lganlarga Navoiy viloyatidagi Sentobni tavsiya qilgan bo'lardim — an'anaviy uylari va butunlay boshqa muhitga ega tog'li qishloq. Menga Farg'ona vodiysi, ayniqsa Marg'ilon va Rishton juda yoqadi, u yerda hunarmandchilik an'analari zamonaviy hayotning bir qismi bo'lib qolgan. O'zbek oshxonasidan men nafaqat plovni, balki xorazm tuxum-barag'ini ham tatib ko'rishni tavsiya qilaman. Samarqand yaqinidagi qiziqarli tajribalardan biri esa Konigilda an'anaviy qog'oz tayyorlash bilan tanishishdir." # Исправлен перевод
+    gridClassName: "sm:grid-cols-2"
+    cards:
+      - type: "destinationInsight"
+        icon: "landmark"
+        title:
+          en: "Center of Islamic Civilization" # Исправлен перевод
+          ru: "Центр исламской цивилизации"
+          uz: "Islom sivilizatsiyasi markazi" # Исправлен перевод
+        description:
+          en: "Tashkent: Eastern history, architecture, and its modern presentation." # Исправлен перевод
+          ru: "Ташкент: история Востока, архитектура и современный способ её представления."
+          uz: "Toshkent: Sharq tarixi, arxitektura va uni zamonaviy taqdim etish usuli." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "mountain"
+        title:
+          en: "Sentob"
+          ru: "Сентоб"
+          uz: "Sentob"
+        description:
+          en: "A mountain village in the Navoi region with traditional houses — for those who want to see Uzbekistan beyond the most famous routes." # Исправлен перевод
+          ru: "Горное село в Навоийской области с традиционными домами — для тех, кто хочет увидеть Узбекистан за пределами самых известных маршрутов."
+          uz: "Navoiy viloyatidagi an'anaviy uylari bo'lgan tog'li qishloq — eng mashhur marshrutlardan tashqarida O'zbekistonni ko'rmoqchi bo'lganlar uchun." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "hammer"
+        title:
+          en: "Margilan and Rishtan" # Исправлен перевод
+          ru: "Маргилан и Риштан"
+          uz: "Marg'ilon va Rishton" # Исправлен перевод
+        description:
+          en: "Fergana Valley: craft traditions remain part of modern life, you can see craftsmen at work." # Исправлен перевод
+          ru: "Ферганская долина: ремесленные традиции остаются частью современной жизни, можно увидеть работу мастеров."
+          uz: "Farg'ona vodiysi: hunarmandchilik an'analari zamonaviy hayotning bir qismi bo'lib qolgan, hunarmandlarning ishini ko'rishingiz mumkin." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "utensils-crossed"
+        title:
+          en: "Tuhum-barak and Konigil" # Исправлен перевод
+          ru: "Тухум-барак и Конигиль"
+          uz: "Tuxum-barak va Konigil" # Исправлен перевод
+        description:
+          en: "Not just plov, but also Khorezmian tuhum-barak. Near Samarkand — traditional paper-making in Konigil." # Исправлен перевод
+          ru: "Не только плов, но и хорезмский тухум-барак. Около Самарканда — традиционное изготовление бумаги в Конигиле."
+          uz: "Faqat plov emas, balki xorazm tuxum-barag'i ham. Samarqand yaqinida — Konigilda an'anaviy qog'oz tayyorlash." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "After the trip"
+      ru: "После поездки"
+      uz: "Sayohatdan keyin"
+    title:
+      en: "So that all that's left is to enjoy" # Исправлен перевод (был русский)
+      ru: "Чтобы оставалось только наслаждаться"
+      uz: "Faqat zavqlanish qolsin" # Исправлен перевод (был русский)
+    rows:
+      - ratio: "2:1"
+        left:
+          - type: "quote"
+            quote:
+              en: "What I enjoy most is the moment when a person returns from a trip and says that everything turned out just as they imagined: a good hotel, spot-on recommendations, smooth organization — and all they had to do was enjoy the journey." # Исправлен перевод
+              ru: "Больше всего мне нравится момент, когда человек возвращается из поездки и говорит, что всё оказалось именно таким, как он представлял: хороший отель, удачные рекомендации, спокойная организация — и ему оставалось только наслаждаться путешествием."
+              uz: "Menga eng ko'p sayohatdan qaytgan odam: 'Hammasi men tasavvur qilgandek bo'ldi: yaxshi mehmonxona, ajoyib tavsiyalar, tinch tashkillashtirish — va faqat sayohatdan zavqlanish qoldi', degan payt yoqadi." # Исправлен перевод
+        right:
+          - type: "dashTitle"
+            title:
+              en: "After getting acquainted"
+              ru: "После знакомства"
+              uz: "Tanishuvdan keyin"
+            description:
+              en: "It's often the small things that shape the overall impression: quickly giving directions, helping with translation, or sorting out a booking." # Исправлен перевод
+              ru: "Именно небольшие вещи часто определяют общее впечатление: быстро подсказать дорогу, помочь с переводом или разобраться с бронированием."
+              uz: "Aynan kichik narsalar ko'pincha umumiy taassurotni belgilaydi: tezda yo'lni ko'rsatish, tarjimada yordam berish yoki bron qilish bilan bog'liq muammolarni hal qilish." # Исправлен перевод
+  - blockType: "cta"
+    image: "assets/images/people.jpg"
+    eyebrow:
+      en: "Enquiry"
+      ru: "Запрос"
+      uz: "So'rov"
+    title:
+      en: "Plan a trip"
+      ru: "Спланировать поездку"
+      uz: "Sayohatni rejalashtirish"
+    description:
+      en: "Write to us — we'll put together a program based on your wishes, budget, and route across Uzbekistan and Central Asia." # Исправлен перевод
+      ru: "Напишите — соберём программу под ваши пожелания, бюджет и маршрут по Узбекистану и Центральной Азии."
+      uz: "Bizga yozing — sizning istaklaringiz, byudjetingiz va O'zbekiston va Markaziy Osiyo bo'ylab marshrutingizga mos dastur tuzamiz." # Исправлен перевод
+    actions:
+      - type: "link"
+        variant: "default"
+        title:
+          en: "Contact us"
+          ru: "Связаться с нами"
+          uz: "Biz bilan bog'lanish"
+        href: "/help/contact"
+      - type: "link"
+        variant: "outline"
+        title:
+          en: "View tours"
+          ru: "Смотреть туры"
+          uz: "Turlarni ko'rish"
+        href: "/tours/catalog"

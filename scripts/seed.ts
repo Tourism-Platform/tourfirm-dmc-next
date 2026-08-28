@@ -206,7 +206,12 @@ type TResolvePageOptions = {
 	deferRouteMapStops?: boolean;
 	/** Skip country/relatedDoc cards when lookup misses (globals-only Neon seed). */
 	skipMissingRelations?: boolean;
+	fileFilter?: (file: string) => boolean;
 };
+
+function isCompanyPageSeedFile(file: string): boolean {
+	return file === "company-about.yml" || file.startsWith("company-team-");
+}
 
 function buildPrefixedCountryHref(
 	hrefPrefix: string | undefined,
@@ -1106,6 +1111,40 @@ async function resolvePageBlocks(
 					entry.cards,
 					locale,
 					options
+				);
+			}
+
+			if (Array.isArray(entry.rows)) {
+				entry.rows = await Promise.all(
+					(entry.rows as unknown[]).map(async (row) => {
+						if (!row || typeof row !== "object") {
+							return row;
+						}
+
+						const rowEntry = { ...(row as Record<string, unknown>) };
+
+						if (Array.isArray(rowEntry.left)) {
+							rowEntry.left = await resolveBlockCards(
+								payload,
+								mediaCache,
+								rowEntry.left,
+								locale,
+								options
+							);
+						}
+
+						if (Array.isArray(rowEntry.right)) {
+							rowEntry.right = await resolveBlockCards(
+								payload,
+								mediaCache,
+								rowEntry.right,
+								locale,
+								options
+							);
+						}
+
+						return rowEntry;
+					})
 				);
 			}
 
@@ -2276,7 +2315,12 @@ export async function seedPages(
 	const pagesDir = path.join(CONTENT_DIR, "pages");
 	const files = (await fs.readdir(pagesDir))
 		.filter((file) => file.endsWith(".yml"))
+		.filter((file) => options?.fileFilter?.(file) ?? true)
 		.sort();
+
+	if (files.length === 0) {
+		throw new Error("No page YAML files matched the seed filter");
+	}
 
 	console.log(`Seeding pages (${files.length})...`);
 
@@ -3052,6 +3096,45 @@ async function runSeedNavigationOnly(): Promise<void> {
 	process.exit(0);
 }
 
+async function runSeedCompanyPagesOnly(): Promise<void> {
+	const seedDbUri = resolveSeedDatabaseUri();
+	const profiler = createSeedProfiler();
+	const lookup = new SeedLookupCache();
+
+	logSeedConnectionInfo(seedDbUri);
+	console.log(
+		"Seed mode: company pages only (about + team, no DB reset, upsert by slug)"
+	);
+
+	process.env.PAYLOAD_SEED_MODE = "true";
+	process.env.PAYLOAD_DB_PUSH = "false";
+	process.env.DATABASE_URI = seedDbUri;
+	process.env.SEED_RESUME = "false";
+	process.env.SEED_SKIP_EXISTING = "false";
+	process.env.SEED_SKIP_RESET = "true";
+
+	const { default: config } = await import("@payload-config");
+	await wakeDatabase(seedDbUri);
+	const payload = await getPayload({ config });
+	attachSeedPoolErrorHandler(payload);
+
+	const mediaDbIndex = await preloadMediaDbIndex(payload);
+	setSeedRuntimeContext(lookup, mediaDbIndex, profiler);
+	await lookup.ingestSegmentsFromDb(payload);
+
+	const mediaCache: TMediaCache = new Map();
+	const { count } = await seedPages(payload, mediaCache, {
+		fileFilter: isCompanyPageSeedFile
+	});
+
+	if (typeof payload.db?.destroy === "function") {
+		await payload.db.destroy();
+	}
+
+	console.log(`Company pages seed complete (${count})`);
+	process.exit(0);
+}
+
 async function loadBadgeIdsFromDb(
 	payload: Payload
 ): Promise<Map<string, number>> {
@@ -3505,12 +3588,13 @@ if (isSeedEntrypoint) {
 	if (
 		only &&
 		only !== "navigation" &&
+		only !== "company" &&
 		!only.startsWith("city:") &&
 		!destinationsMatch &&
 		!countryMatch
 	) {
 		console.error(
-			`Unknown --only target "${only}". Supported: navigation, city:<slug>, country:<slug>, destinations:<countrySlug>`
+			`Unknown --only target "${only}". Supported: navigation, company, city:<slug>, country:<slug>, destinations:<countrySlug>`
 		);
 		process.exit(1);
 	}
@@ -3519,14 +3603,19 @@ if (isSeedEntrypoint) {
 		? main
 		: only === "navigation"
 			? runSeedNavigationOnly
-			: destinationsMatch
-				? () =>
-						runSeedCountryDestinationsOnly(
-							destinationsMatch[1].trim()
-						)
-				: countryMatch
-					? () => runSeedCountryOnly(countryMatch[1].trim())
-					: () => runSeedCityOnly(only!.slice("city:".length).trim());
+			: only === "company"
+				? runSeedCompanyPagesOnly
+				: destinationsMatch
+					? () =>
+							runSeedCountryDestinationsOnly(
+								destinationsMatch[1].trim()
+							)
+					: countryMatch
+						? () => runSeedCountryOnly(countryMatch[1].trim())
+						: () =>
+								runSeedCityOnly(
+									only!.slice("city:".length).trim()
+								);
 
 	run().catch((error: unknown) => {
 		console.error("Seed failed:", error);

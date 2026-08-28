@@ -21,6 +21,7 @@ export enum CardType {
 	Quote = "quote",
 	Alert = "alert",
 	MiniTable = "miniTable",
+	Portrait = "portrait",
 	CatalogFeed = "catalogFeed",
 	TourDestination = "tourDestination"
 }

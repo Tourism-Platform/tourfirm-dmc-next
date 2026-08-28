@@ -1,0 +1,378 @@
+segment: "company"
+pathGroup: "team"
+slug: "soyibjon-isamatov"
+title:
+  en: "Soyibjon Isamatov"
+  ru: "Сойибжон Исаматов"
+  uz: "Soyibjon Isamatov"
+seo:
+  metaTitle:
+    en: "Soyibjon Isamatov | TourLink"
+    ru: "Сойибжон Исаматов | TourLink"
+    uz: "Soyibjon Isamatov | TourLink"
+  metaDescription:
+    en: "Soyibjon Isamatov — Travel Expert · Japanese Market"
+    ru: "Сойибжон Исаматов — эксперт по путешествиям · японский рынок"
+    uz: "Soyibjon Isamatov — Sayohat Eksperti · Yaponiya Bozori" # Исправлено: был английский
+status:
+  showInSitemap: true
+blocks:
+  - blockType: "hero"
+    image: "assets/images/people.jpg"
+    imageAlt:
+      en: "Soyibjon Isamatov"
+      ru: "Сойибжон Исаматов"
+      uz: "Soyibjon Isamatov"
+    title:
+      en: "Soyibjon Isamatov"
+      ru: "Сойибжон Исаматов"
+      uz: "Soyibjon Isamatov"
+    description:
+      en: "Travel Expert · Japanese Market" # Исправлено: был русский
+      ru: "Эксперт по путешествиям · японский рынок"
+      uz: "Sayohat Eksperti · Yaponiya Bozori" # Исправлено: был русский
+    note:
+      en: "Travel Expert · Japanese Market"
+      ru: "Эксперт по путешествиям · японский рынок"
+      uz: "Sayohat Eksperti · Yaponiya Bozori" # Исправлено: был английский
+  - blockType: "regular"
+    gridClassName: "sm:grid-cols-2 lg:grid-cols-4"
+    cards:
+      - type: "overviewStat"
+        icon: "calendar"
+        value:
+          en: "In tourism since 2018" # Исправлено: был русский
+          ru: "В туризме с 2018 года"
+          uz: "Turizmda 2018 yildan beri" # Исправлено: был русский
+      - type: "overviewStat"
+        icon: "globe"
+        value:
+          en: "Japanese Market" # Исправлено: был русский
+          ru: "Японский рынок"
+          uz: "Yaponiya Bozori" # Исправлено: был русский
+      - type: "overviewStat"
+        icon: "languages"
+        value:
+          en: "Japanese C1" # Исправлено: был русский
+          ru: "Японский C1"
+          uz: "Yapon tili C1" # Исправлено: был русский
+      - type: "overviewStat"
+        icon: "map-pin"
+        value:
+          en: "Tour operator and guide" # Исправлено: был русский
+          ru: "Туроператор и гид"
+          uz: "Turoperator va gid" # Исправлено: был русский
+  - blockType: "regular"
+    eyebrow:
+      en: "About"
+      ru: "О сотруднике"
+      uz: "Xodim haqida"
+    title:
+      en: "Soyibjon Isamatov"
+      ru: "Сойибжон Исаматов"
+      uz: "Soyibjon Isamatov"
+    rows:
+      - ratio: "1:2"
+        left:
+          - type: "portrait"
+            image: "media/craft.jpg"
+            title:
+              en: "Soyibjon Isamatov"
+              ru: "Сойибжон Исаматов"
+              uz: "Soyibjon Isamatov"
+        right:
+          - type: "quote"
+            quote:
+              en: "I have been working in tourism since 2018 — as a tour operator and guide. My introduction to the profession started rather unexpectedly: my older brother and mentor, who worked as a Japanese-speaking guide, once received two bookings for the same date and entrusted one of them to me. That was when I first independently led a tour and realized how much I enjoyed this work. Gradually, tourism became my profession." # Исправлен перевод
+              ru: "Я работаю в туризме с 2018 года — как туроператор и гид. Моё знакомство с профессией началось довольно неожиданно: мой старший брат и наставник, работавший гидом по японскому языку, однажды получил два заказа на одну дату и доверил один из них мне. Именно тогда я впервые самостоятельно провёл экскурсию и понял, насколько мне интересна эта работа. Постепенно туризм стал моей профессией."
+              uz: "Men 2018 yildan beri turizmda — turoperator va gid sifatida ishlayman. Kasb bilan tanishishim ancha kutilmagan tarzda boshlandi: yapon tilidagi gid bo'lib ishlagan katta akam va ustozim bir kunga ikkita buyurtma olib, ulardan birini menga ishonib topshirdi. O'shanda men birinchi marta mustaqil ravishda ekskursiya o'tkazdim va bu ish menga naqadar qiziq ekanligini angladim. Asta-sekin turizm mening kasbimga aylandi." # Исправлен перевод
+          - type: "dashTitle"
+            title:
+              en: "Role"
+              ru: "Роль"
+              uz: "Rol"
+            description:
+              en: "Travel Expert. Japanese Market — tour operator and guide. Fluent in Uzbek, Japanese at C1 level." # Исправлен перевод
+              ru: "Эксперт по путешествиям. Японский рынок — туроператор и гид. Свободно говорю на узбекском, японский на уровне C1."
+              uz: "Sayohat Eksperti. Yaponiya Bozori — turoperator va gid. O'zbek tilida erkin gaplashaman, yapon tili C1 darajasida." # Исправлен перевод
+          - type: "dashTitle"
+            title:
+              en: "Approach"
+              ru: "Подход"
+              uz: "Yondashuv"
+            description:
+              en: "I treat every guest like a close friend and feel responsible for every detail of their trip. That's why I would never recommend a program just for the sake of making a sale." # Исправлен перевод
+              ru: "Я отношусь к каждому гостю как к близкому другу и чувствую ответственность за каждую деталь его поездки. Поэтому никогда не стану рекомендовать программу только ради продажи."
+              uz: "Men har bir mehmonga yaqin do'stdek munosabatda bo'laman va ularning sayohatidagi har bir detal uchun mas'uliyatni his qilaman. Shuning uchun hech qachon faqat sotish uchun dastur tavsiya qilmayman." # Исправлен перевод
+      - left:
+          - type: "dashTitle"
+            title:
+              en: "How I see the country"
+              ru: "Как я смотрю на страну"
+              uz: "Mamlakatga qanday qarayman"
+            description:
+              en: "This is the Uzbekistan I want to show guests — not just the famous squares and minarets, but the real life of the people. I have been working as a guide and tour operator for many years, but I continue to learn in every new journey. I enjoy meeting different people, exchanging perspectives, and through travel, telling them about the culture, history, and hospitality of our country." # Исправлен перевод
+              ru: "Именно такой Узбекистан мне хочется показывать гостям — не только знаменитые площади и минареты, но и настоящую жизнь людей. Я много лет работаю гидом и туроператором, но в каждом новом путешествии продолжаю учиться сам. Мне нравится знакомиться с разными людьми, обмениваться взглядами и через путешествия рассказывать им о культуре, истории и гостеприимстве нашей страны."
+              uz: "Aynan shunday O'zbekistonni mehmonlarga ko'rsatishni xohlayman — nafaqat mashhur maydonlar va minoralar, balki odamlarning haqiqiy hayotini. Men ko'p yillar davomida gid va turoperator bo'lib ishlayman, lekin har bir yangi sayohatda o'zim ham o'rganishda davom etaman. Menga turli odamlar bilan tanishish, fikr almashish va sayohatlar orqali ularga mamlakatimiz madaniyati, tarixi va mehmondo'stligi haqida gapirib berish yoqadi." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "Work"
+      ru: "Направления"
+      uz: "Yo'nalishlar"
+    title:
+      en: "What I do"
+      ru: "Чем я занимаюсь"
+      uz: "Nima bilan shug'ullanaman"
+    description:
+      en: "Today, I am involved in the entire process of creating a trip: developing routes, booking hotels and other services, arranging transport, meeting guests, leading tours, and ensuring the quality of the program. When planning a route, it's important for me not just to include famous landmarks, but to make the trip comfortable and logical: avoid exhausting transfers, choose a quality hotel in a convenient location, find a reliable driver, and select restaurants where guests can experience authentic Uzbek cuisine and culture." # Исправлен перевод
+      ru: "Сегодня я участвую во всём процессе создания путешествия: разрабатываю маршруты, бронирую отели и другие услуги, организую транспорт, встречаю гостей, провожу экскурсии и контролирую качество программы. При составлении маршрута мне важно не просто включить известные достопримечательности, а сделать поездку комфортной и логичной: избежать утомительных переездов, подобрать качественный отель в удобном месте, найти надёжного водителя и рестораны, где гости смогут познакомиться с настоящей узбекской кухней и культурой."
+      uz: "Bugun men sayohat yaratishning butun jarayonida ishtirok etaman: marshrutlarni ishlab chiqish, mehmonxonalar va boshqa xizmatlarni bron qilish, transportni tashkil qilish, mehmonlarni kutib olish, ekskursiyalar o'tkazish va dastur sifatini nazorat qilish. Marshrutni tuzishda menga faqat mashhur diqqatga sazovor joylarni kiritish emas, balki sayohatni qulay va mantiqiy qilish muhim: charchatuvchi ko'chishlardan qochish, qulay joyda sifatli mehmonxonani tanlash, ishonchli haydovchi va mehmonlar haqiqiy o'zbek oshxonasi va madaniyati bilan tanishishlari mumkin bo'lgan restoranlarni topish." # Исправлен перевод
+    gridClassName: "sm:grid-cols-2"
+    cards:
+      - type: "destinationInsight"
+        icon: "map"
+        title:
+          en: "Routes" # Исправлено: был русский
+          ru: "Маршруты"
+          uz: "Marshrutlar" # Исправлено: был русский
+        description:
+          en: "I develop routes so that the trip is comfortable and logical — without exhausting transfers." # Исправлен перевод
+          ru: "Разрабатываю маршруты так, чтобы поездка была комфортной и логичной — без утомительных переездов."
+          uz: "Marshrutlarni sayohat qulay va mantiqiy bo'lishi uchun ishlab chiqaman — charchatuvchi ko'chishlarsiz." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "building-2"
+        title:
+          en: "Hotels and transport" # Исправлено: был русский
+          ru: "Отели и транспорт"
+          uz: "Mehmonxonalar va transport" # Исправлено: был русский
+        description:
+          en: "I book hotels and other services, arrange transport, and find a reliable driver." # Исправлен перевод
+          ru: "Бронирую отели и другие услуги, организую транспорт, подбираю надёжного водителя."
+          uz: "Mehmonxonalar va boshqa xizmatlarni bron qilaman, transportni tashkil qilaman, ishonchli haydovchi topaman." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "users"
+        title:
+          en: "Excursions" # Исправлено: был русский
+          ru: "Экскурсии"
+          uz: "Ekskursiyalar" # Исправлено: был русский
+        description:
+          en: "I meet guests, lead excursions, and monitor the quality of the program." # Исправлен перевод
+          ru: "Встречаю гостей, провожу экскурсии и контролирую качество программы."
+          uz: "Mehmonlarni kutib olaman, ekskursiyalar o'tkazaman va dastur sifatini nazorat qilaman." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "plane"
+        title:
+          en: "Airport pickup" # Исправлено: был русский
+          ru: "Встреча в аэропорту"
+          uz: "Aeroportda kutib olish" # Исправлено: был русский
+        description:
+          en: "I prefer to personally meet my guests at the airport. For guests without an accompanying guide, I arrange a local SIM card when possible." # Исправлен перевод
+          ru: "Встречать своих гостей в аэропорту я предпочитаю лично. Для гостей без сопровождающего гида по возможности организую местную SIM-карту."
+          uz: "Mehmonlarimni aeroportda shaxsan kutib olishni afzal ko'raman. Hamroh gidsiz mehmonlar uchun iloji bo'lsa mahalliy SIM-karta tashkil qilaman." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "Background"
+      ru: "Опыт"
+      uz: "Tajriba"
+    title:
+      en: "What goes into organizing a trip" # Исправлен перевод (был русский)
+      ru: "Что стоит за организацией поездки"
+      uz: "Sayohatni tashkil qilish ortida nima turibdi" # Исправлен перевод (был русский)
+    description:
+      en: "I have a higher education degree, completed professional courses for guides and a Japanese language training program, and also improved my qualifications in the hospitality industry in Japan. I am fluent in Uzbek, have Japanese at a C1 level, and primarily work with travelers and partners from Japan. Before arrival, I thoroughly inform guests about the weather, appropriate clothing, airport pickup, and other practical details. During the trip, I remain constantly available and strive to quickly resolve any issues that arise." # Исправлен перевод
+      ru: "Я получил высшее образование, окончил профессиональные курсы для гидов и программу подготовки по японскому языку, а также повышал квалификацию в сфере гостиничного бизнеса в Японии. Я свободно говорю на узбекском, владею японским языком на уровне C1 и работаю преимущественно с путешественниками и партнёрами из Японии. До приезда я подробно рассказываю гостям о погоде, подходящей одежде, встрече в аэропорту и других практических деталях. Во время путешествия остаюсь постоянно на связи и стараюсь быстро решать любые возникающие вопросы."
+      uz: "Men oliy ma'lumotga egaman, gidlar uchun professional kurslar va yapon tili bo'yicha tayyorgarlik dasturini tamomlaganman, shuningdek, Yaponiyada mehmonxona biznesi sohasida malakamni oshirganman. O'zbek tilida erkin gaplashaman, yapon tilini C1 darajasida bilaman va asosan Yaponiyadan kelgan sayohatchilar va hamkorlar bilan ishlayman. Kelishdan oldin mehmonlarga ob-havo, mos kiyim, aeroportda kutib olish va boshqa amaliy tafsilotlar haqida batafsil ma'lumot beraman. Sayohat davomida doim aloqada bo'lib, yuzaga keladigan har qanday muammolarni tezda hal qilishga harakat qilaman." # Исправлен перевод
+    rows:
+      - ratio: "3:2"
+        left:
+          - type: "miniTable"
+            icon: "graduation-cap"
+            title:
+              en: "Education and languages"
+              ru: "Образование и языки"
+              uz: "Ta'lim va tillar"
+            rows:
+              - icon: "book-open"
+                title:
+                  en: "Higher education" # Исправлено: был русский
+                  ru: "Высшее образование"
+                  uz: "Oliy ma'lumot" # Исправлено: был русский
+                description:
+                  en: "Professional courses for guides and Japanese language" # Исправлен перевод
+                  ru: "Профессиональные курсы для гидов и японский язык"
+                  uz: "Gidlar uchun professional kurslar va yapon tili" # Исправлен перевод
+              - icon: "hotel"
+                title:
+                  en: "Hospitality industry" # Исправлено: был русский
+                  ru: "Гостиничный бизнес"
+                  uz: "Mehmonxona biznesi" # Исправлено: был русский
+                description:
+                  en: "Advanced training in Japan" # Исправлен перевод
+                  ru: "Повышение квалификации в Японии"
+                  uz: "Yaponiyada malaka oshirish" # Исправлен перевод
+              - icon: "languages"
+                title:
+                  en: "Languages at work" # Исправлено: был русский
+                  ru: "Языки в работе"
+                  uz: "Ishdagi tillar" # Исправлено: был русский
+                description:
+                  en: "Uzbek; Japanese — C1 level" # Исправлен перевод
+                  ru: "Узбекский; японский — уровень C1"
+                  uz: "O'zbek; yapon tili — C1 darajasi" # Исправлен перевод
+        right:
+          - type: "dashTitle"
+            title:
+              en: "How I work"
+              ru: "Как я работаю"
+              uz: "Qanday ishlayman"
+            description:
+              en: "If I understand that a service or route does not meet a person's expectations, I will say so directly and offer a more suitable option. For me, long-term trust is far more important than short-term gain." # Исправлен перевод
+              ru: "Если я понимаю, что услуга или маршрут не соответствуют ожиданиям человека, скажу об этом прямо и предложу более подходящий вариант. Для меня долгосрочное доверие гораздо важнее разовой выгоды."
+              uz: "Agar xizmat yoki marshrut odamning kutganlariga mos kelmasligini tushunsam, buni to'g'ridan-to'g'ri aytaman va mosroq variantni taklif qilaman. Men uchun uzoq muddatli ishonch bir martalik foydadan ancha muhimroq." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "Principle"
+      ru: "Принцип"
+      uz: "Tamoyil"
+    title:
+      en: "Earn trust and live up to it" # Исправлен перевод (был русский)
+      ru: "Заслужить доверие и оправдать его"
+      uz: "Ishonchni qozonish va uni oqlash" # Исправлен перевод (был русский)
+    rows:
+      - ratio: "2:1"
+        left:
+          - type: "quote"
+            quote:
+              en: "You are a guest, and we don't take money from guests."
+              ru: "Вы гость, а с гостей мы денег не берём."
+              uz: "Siz mehmonsiz, mehmonlardan pul olmaymiz."
+          - type: "dashTitle"
+            title:
+              en: "Main principle"
+              ru: "Главный принцип"
+              uz: "Asosiy tamoyil"
+            description:
+              en: "My main professional principle is to earn the traveler's trust and live up to it. I treat every guest like a close friend and feel responsible for every detail of their trip. That's why I would never recommend a program just for the sake of making a sale." # Исправлен перевод
+              ru: "Мой главный профессиональный принцип — заслужить доверие путешественника и оправдать его. Я отношусь к каждому гостю как к близкому другу и чувствую ответственность за каждую деталь его поездки. Поэтому никогда не стану рекомендовать программу только ради продажи."
+              uz: "Mening asosiy professional tamoyilim — sayoatchining ishonchini qozonish va uni oqlash. Men har bir mehmonga yaqin do'stdek munosabatda bo'laman va ularning sayohatidagi har bir detal uchun mas'uliyatni his qilaman. Shuning uchun hech qachon faqat sotish uchun dastur tavsiya qilmayman." # Исправлен перевод
+        right:
+          - type: "dashTitle"
+            title:
+              en: "What result means to me" # Исправлен перевод (был русский)
+              ru: "Что для меня результат"
+              uz: "Men uchun natija nima" # Исправлен перевод (был русский)
+            description:
+              en: "When a person leaves not only with beautiful photos, but also with memories of the people, encounters, and atmosphere of Uzbekistan. I want everyone here to feel not like an ordinary tourist, but like a truly valued guest." # Исправлен перевод
+              ru: "Когда человек уезжает не только с красивыми фотографиями, но и с воспоминаниями о людях, встречах и атмосфере Узбекистана. Я хочу, чтобы здесь каждый чувствовал себя не обычным туристом, а действительно дорогим гостем."
+              uz: "Odam nafaqat chiroyli fotosuratlar bilan, balki odamlar, uchrashuvlar va O'zbekiston atmosferasi haqidagi xotiralar bilan ketganda. Men bu yerda har kim o'zini oddiy sayyoh emas, balki haqiqatan ham qadrli mehmon sifatida his qilishini xohlayman." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "Tips"
+      ru: "Советы"
+      uz: "Maslahatlar"
+    title:
+      en: "What I recommend to see" # Исправлен перевод (был русский)
+      ru: "Что я рекомендую увидеть"
+      uz: "Ko'rishni tavsiya qiladigan joylarim" # Исправлен перевод (был русский)
+    description:
+      en: "Bukhara holds a special place in my heart. It is connected to a story that perfectly captures the hospitality I want to show our travelers. Once during the high season, after working with a group, I found myself without a booked place to stay. There were practically no available rooms. A local woman noticed that I was looking for accommodation, learned about the situation, and invited me to her home. I met her family, was fed, and they let me stay for two nights. When I tried to pay upon leaving, the hostess refused, saying: 'You are a guest, and we don't take money from guests.' I remember this phrase to this day. In Bukhara, I would definitely recommend visiting a local home, meeting the hosts, and cooking a national dish together, then seeing the magnificent Kalyan Minaret. For those who want to discover the less known pages of our history, I also recommend Termez and its archaeological sites. And beyond Uzbekistan, I am particularly interested in routes to the gas crater in Turkmenistan." # Исправлен перевод
+      ru: "Особое место в моём сердце занимает Бухара. С ней связана история, которая очень точно передаёт то гостеприимство, которое я хочу показать нашим путешественникам. Однажды в высокий сезон после работы с группой я сам остался без забронированного места для ночлега. Свободных номеров практически не было. Местная женщина заметила, что я ищу жильё, узнала о ситуации и пригласила меня к себе домой. Я познакомился с её семьёй, меня накормили и оставили у себя на две ночи. Когда при отъезде я попытался заплатить, хозяйка отказалась со словами: «Вы гость, а с гостей мы денег не берём». Эту фразу я помню до сих пор. В Бухаре я обязательно предложил бы побывать в местном доме, познакомиться с хозяевами и вместе приготовить национальное блюдо, а затем увидеть величественный минарет Калян. Тем, кто хочет открыть менее известные страницы нашей истории, я также рекомендую Термез и его археологические памятники. А за пределами Узбекистана мне особенно интересны маршруты к газовому кратеру в Туркменистане."
+      uz: "Buxoro mening qalbimda alohida o'rin tutadi. U bilan men sayohatchilarimizga ko'rsatmoqchi bo'lgan mehmondo'stlikni juda aniq ifodalovchi hikoya bog'liq. Bir marta yuqori mavsumda guruh bilan ishlagandan so'ng, men o'zim tunash uchun bron qilingan joy qolmagan edim. Bo'sh xonalar deyarli yo'q edi. Mahalliy ayol men turar joy izlayotganimni payqab, vaziyatni bilib, meni uyiga taklif qildi. Men uning oilasi bilan tanishdim, meni ovqatlantirishdi va ikki kecha o'zlarida qoldirishdi. Ketishda pul to'lamoqchi bo'lganimda, uy bekasi: 'Siz mehmonsiz, mehmonlardan pul olmaymiz', deb rad etdi. Bu iborani hali ham eslayman. Buxoroda men mahalliy uyda bo'lishni, uy egalari bilan tanishishni va birgalikda milliy taom tayyorlashni, so'ngra ulug'vor Kalyan minorasini ko'rishni albatta taklif qilgan bo'lardim. Tariximizning kamroq mashhur sahifalarini kashf qilmoqchi bo'lganlar uchun Termiz va uning arxeologik yodgorliklarini ham tavsiya qilaman. O'zbekistondan tashqarida esa menga Turkmanistondagi gaz krateriga boradigan marshrutlar ayniqsa qiziq." # Исправлен перевод
+    gridClassName: "sm:grid-cols-2"
+    cards:
+      - type: "destinationInsight"
+        icon: "map-pin"
+        title:
+          en: "Bukhara" # Исправлен перевод
+          ru: "Бухара"
+          uz: "Buxoro" # Исправлен перевод
+        description:
+          en: "Visit a local home, meet the hosts, cook a national dish together, and then see the Kalyan Minaret." # Исправлен перевод
+          ru: "Побывать в местном доме, познакомиться с хозяевами и вместе приготовить национальное блюдо, а затем увидеть минарет Калян."
+          uz: "Mahalliy uyda bo'lish, uy egalari bilan tanishish va birgalikda milliy taom tayyorlash, so'ngra Kalyan minorasini ko'rish." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "landmark"
+        title:
+          en: "Kalyan Minaret" # Исправлен перевод
+          ru: "Минарет Калян"
+          uz: "Kalyan minorasi" # Исправлен перевод
+        description:
+          en: "The magnificent minaret — after getting to know the real life of the city, not instead of it." # Исправлен перевод
+          ru: "Величественный минарет — после знакомства с настоящей жизнью города, а не вместо неё."
+          uz: "Ulug'vor minora — shaharning haqiqiy hayoti bilan tanishgandan so'ng, uning o'rniga emas." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "mountain"
+        title:
+          en: "Termez" # Исправлен перевод
+          ru: "Термез"
+          uz: "Termiz" # Исправлен перевод
+        description:
+          en: "Archaeological sites — for those who want to discover the less known pages of our history." # Исправлен перевод
+          ru: "Археологические памятники — для тех, кто хочет открыть менее известные страницы нашей истории."
+          uz: "Arxeologik yodgorliklar — tariximizning kamroq mashhur sahifalarini kashf qilmoqchi bo'lganlar uchun." # Исправлен перевод
+      - type: "destinationInsight"
+        icon: "flame"
+        title:
+          en: "Gas crater" # Исправлен перевод
+          ru: "Газовый кратер"
+          uz: "Gaz krateri" # Исправлен перевод
+        description:
+          en: "Beyond Uzbekistan, I am particularly interested in routes to the gas crater in Turkmenistan." # Исправлен перевод
+          ru: "За пределами Узбекистана мне особенно интересны маршруты к газовому кратеру в Туркменистане."
+          uz: "O'zbekistondan tashqarida menga Turkmanistondagi gaz krateriga boradigan marshrutlar ayniqsa qiziq." # Исправлен перевод
+  - blockType: "regular"
+    eyebrow:
+      en: "After the trip"
+      ru: "После поездки"
+      uz: "Sayohatdan keyin"
+    title:
+      en: "To remember for many years to come" # Исправлен перевод (был русский)
+      ru: "Чтобы вспоминать ещё много лет"
+      uz: "Ko'p yillar davomida eslab qolish uchun" # Исправлен перевод (был русский)
+    rows:
+      - ratio: "2:1"
+        left:
+          - type: "quote"
+            quote:
+              en: "Your journey is my responsibility. I will be happy to help make it comfortable, safe, and filled with experiences you'll want to remember for many years to come." # Исправлен перевод
+              ru: "Ваше путешествие — моя ответственность. Я буду рад помочь сделать его комфортным, безопасным и наполненным впечатлениями, которые захочется вспоминать ещё много лет."
+              uz: "Sizning sayohatingiz — mening mas'uliyatim. Men uni qulay, xavfsiz va ko'p yillar davomida eslab qolishni xohlaydigan taassurotlarga to'la qilishga yordam berishdan xursand bo'laman." # Исправлен перевод
+        right:
+          - type: "dashTitle"
+            title:
+              en: "After getting acquainted" # Исправлен перевод
+              ru: "После знакомства"
+              uz: "Tanishuvdan keyin" # Исправлен перевод
+            description:
+              en: "I want everyone here to feel not like an ordinary tourist, but like a truly valued guest." # Исправлен перевод
+              ru: "Я хочу, чтобы здесь каждый чувствовал себя не обычным туристом, а действительно дорогим гостем."
+              uz: "Men bu yerda har kim o'zini oddiy sayyoh emas, balki haqiqatan ham qadrli mehmon sifatida his qilishini xohlayman." # Исправлен перевод
+  - blockType: "cta"
+    image: "assets/images/people.jpg"
+    eyebrow:
+      en: "Enquiry"
+      ru: "Запрос"
+      uz: "So'rov"
+    title:
+      en: "Plan a trip"
+      ru: "Спланировать поездку"
+      uz: "Sayohatni rejalashtirish"
+    description:
+      en: "Write to us — we'll put together a program based on your wishes, budget, and route across Uzbekistan and Central Asia." # Исправлен перевод
+      ru: "Напишите — соберём программу под ваши пожелания, бюджет и маршрут по Узбекистану и Центральной Азии."
+      uz: "Bizga yozing — sizning istaklaringiz, byudjetingiz va O'zbekiston va Markaziy Osiyo bo'ylab marshrutingizga mos dastur tuzamiz." # Исправлен перевод
+    actions:
+      - type: "link"
+        variant: "default"
+        title:
+          en: "Contact us"
+          ru: "Связаться с нами"
+          uz: "Biz bilan bog'lanish"
+        href: "/help/contact"
+      - type: "link"
+        variant: "outline"
+        title:
+          en: "View tours"
+          ru: "Смотреть туры"
+          uz: "Turlarni ko'rish"
+        href: "/tours/catalog"
