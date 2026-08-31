@@ -20,7 +20,8 @@ async function fetchTours(locale: TypedLocale): Promise<TCatalogDoc | null> {
 			slug: "tours",
 			locale,
 			depth: 2,
-			fallbackLocale: "en"
+			fallbackLocale: "en",
+			overrideAccess: true
 		})) as TCatalogDoc;
 	} catch {
 		return null;

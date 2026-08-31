@@ -64,10 +64,11 @@ import {
 } from "./seed-reset.js";
 import { createDiscoverySeeder } from "./seed-discovery.js";
 import { seedUiContent } from "./seed-ui-content.js";
+import { seedToursPage } from "./seed/seeders/tours-page.js";
 import { mapWithConcurrency, SEED_LIMITS } from "./seed-parallel.js";
 import { SUPPORTED_LOCALES, type TSupportedLocale } from "../config/supported-locales.js";
 
-const SEED_STAGE_COUNT = 20;
+const SEED_STAGE_COUNT = 21;
 
 type TLocale = TSupportedLocale;
 
@@ -2989,6 +2990,10 @@ async function runSeed(): Promise<void> {
 	);
 	log.done();
 
+	log.start("Seeding tours page");
+	await profiler.run("navigation_globals", () => seedToursPage(payload));
+	log.done();
+
 	log.start("Seeding segments");
 	const segmentIds = await seedSegments(payload);
 	lookup.ingestSegments(segmentIds);
@@ -3034,6 +3039,7 @@ async function runSeed(): Promise<void> {
 		blogHub: true,
 		newsHub: true,
 		homepage: true,
+		tours: true,
 		destination: true,
 		segments: segmentIds.size,
 		pages: pagesCount,
@@ -3592,6 +3598,31 @@ async function runSeedCountryOnly(countrySlug: string): Promise<void> {
 	process.exit(0);
 }
 
+async function runSeedToursOnly(): Promise<void> {
+	const seedDbUri = resolveSeedDatabaseUri();
+
+	logSeedConnectionInfo(seedDbUri);
+	console.log("Seed mode: tours page only (catalog.yml, no DB reset)");
+
+	process.env.PAYLOAD_SEED_MODE = "true";
+	process.env.PAYLOAD_DB_PUSH = "false";
+	process.env.DATABASE_URI = seedDbUri;
+
+	const { default: config } = await import("@payload-config");
+	await wakeDatabase(seedDbUri);
+	const payload = await getPayload({ config });
+	attachSeedPoolErrorHandler(payload);
+
+	await seedToursPage(payload);
+
+	if (typeof payload.db?.destroy === "function") {
+		await payload.db.destroy();
+	}
+
+	console.log("Tours page seed complete");
+	process.exit(0);
+}
+
 if (isSeedEntrypoint) {
 	const only = getSeedOnlyTarget();
 	const destinationsMatch = only?.match(/^destinations:(.+)$/);
@@ -3602,13 +3633,14 @@ if (isSeedEntrypoint) {
 		only &&
 		only !== "navigation" &&
 		only !== "company" &&
+		only !== "tours" &&
 		!only.startsWith("city:") &&
 		!destinationsMatch &&
 		!countryMatch &&
 		!pageMatch
 	) {
 		console.error(
-			`Unknown --only target "${only}". Supported: navigation, company, page:<yml-basename>, city:<slug>, country:<slug>, destinations:<countrySlug>`
+			`Unknown --only target "${only}". Supported: navigation, company, tours, page:<yml-basename>, city:<slug>, country:<slug>, destinations:<countrySlug>`
 		);
 		process.exit(1);
 	}
@@ -3619,19 +3651,21 @@ if (isSeedEntrypoint) {
 			? runSeedNavigationOnly
 			: only === "company"
 				? () => runSeedCompanyPagesOnly()
-				: pageMatch
-					? () => runSeedCompanyPagesOnly(pageMatch[1].trim())
-					: destinationsMatch
-						? () =>
-								runSeedCountryDestinationsOnly(
-									destinationsMatch[1].trim()
-								)
-						: countryMatch
-							? () => runSeedCountryOnly(countryMatch[1].trim())
-							: () =>
-									runSeedCityOnly(
-										only!.slice("city:".length).trim()
-									);
+				: only === "tours"
+					? runSeedToursOnly
+					: pageMatch
+						? () => runSeedCompanyPagesOnly(pageMatch[1].trim())
+						: destinationsMatch
+							? () =>
+									runSeedCountryDestinationsOnly(
+										destinationsMatch[1].trim()
+									)
+							: countryMatch
+								? () => runSeedCountryOnly(countryMatch[1].trim())
+								: () =>
+										runSeedCityOnly(
+											only!.slice("city:".length).trim()
+										);
 
 	run().catch((error: unknown) => {
 		console.error("Seed failed:", error);
