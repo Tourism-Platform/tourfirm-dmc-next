@@ -8,14 +8,14 @@ export const dynamic = "force-dynamic";
 type TProps = {
 	params: Promise<{
 		locale: TypedLocale;
-		tourId: string;
+		slug: string;
 		bookingId: string;
 	}>;
 };
 
 export default async function TourBookingDraftRoute({ params }: TProps) {
-	const { locale, tourId, bookingId } = await params;
+	const { locale, slug, bookingId } = await params;
 	setRequestLocale(locale);
 
-	return <TourBookingPage tourId={tourId} bookingId={bookingId} />;
+	return <TourBookingPage slug={slug} bookingId={bookingId} />;
 }

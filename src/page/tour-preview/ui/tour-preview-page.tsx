@@ -3,9 +3,9 @@
 import { PreviewTour } from "@/widgets/tour-preview";
 
 type TProps = {
-	tourId: string;
+	slug: string;
 };
 
-export function TourPreviewPage({ tourId }: TProps) {
-	return <PreviewTour tourId={tourId} />;
+export function TourPreviewPage({ slug }: TProps) {
+	return <PreviewTour slug={slug} />;
 }

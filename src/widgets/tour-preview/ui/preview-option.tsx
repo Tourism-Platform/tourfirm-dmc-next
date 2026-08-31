@@ -20,42 +20,46 @@ import {
 import { useUiContent } from "@/shared/ui-content";
 
 import {
-	useGetPreviewTourGeneralQuery,
-	usePreviewOptionDetail
+	usePreviewOptionDetail,
+	useResolvedTourId
 } from "@/entities/tour/preview-tour";
 
 import { PREVIEW_OPTION_TABS_LIST, getPreviewOptionTabLabel } from "../model";
 
 import { PreviewTourHero, PreviewTourProviderCard } from "./tour";
 
-type TPreviewOptionProps = { tourId: string; optionId: string };
+type TPreviewOptionProps = { slug: string; optionId: string };
 
-const PreviewOptionBase: FC<TPreviewOptionProps> = ({ tourId, optionId }) => {
+const PreviewOptionBase: FC<TPreviewOptionProps> = ({ slug, optionId }) => {
 	const locale = useLocale();
 	const { preview } = useUiContent();
 	const texts = preview.option;
-
 	const {
-		data: tourData,
-		isLoading: isTourLoading,
-		isError: isTourError
-	} = useGetPreviewTourGeneralQuery(tourId, {
-		skip: !tourId
-	});
+		tourId,
+		general: tourData,
+		options,
+		isResolving,
+		isResolveError
+	} = useResolvedTourId(slug);
 
 	const {
 		data: optionDetail,
 		isLoading: isOptionLoading,
 		isError: isOptionError
-	} = usePreviewOptionDetail({ tourId, optionId });
+	} = usePreviewOptionDetail({
+		tourId: tourId ?? "",
+		optionId,
+		options,
+		skip: !tourId
+	});
 
-	const isLoading = isTourLoading || isOptionLoading;
+	const isLoading = isResolving || isOptionLoading;
 
 	useEffect(() => {
-		if (isTourError || isOptionError) {
+		if (isResolveError || isOptionError) {
 			toast.error(preview.tour.toasts.load.error);
 		}
-	}, [isTourError, isOptionError, preview.tour.toasts.load.error]);
+	}, [isOptionError, isResolveError, preview.tour.toasts.load.error]);
 
 	if (isLoading) {
 		return <DataLoader />;
@@ -66,7 +70,7 @@ const PreviewOptionBase: FC<TPreviewOptionProps> = ({ tourId, optionId }) => {
 	return (
 		<section className="relative mx-auto mt-6 flex w-full max-w-6xl flex-col gap-8">
 			<Link
-				href={buildRoute(ENUM_PATH.TOURS.TOUR, { tourId })}
+				href={buildRoute(ENUM_PATH.TOURS.TOUR, { slug })}
 				className="absolute top-0 left-0"
 			>
 				<Button variant="ghost" size="sm">
@@ -79,7 +83,7 @@ const PreviewOptionBase: FC<TPreviewOptionProps> = ({ tourId, optionId }) => {
 				{tourData && (
 					<PreviewTourHero tour={tourData} locale={locale} />
 				)}
-				<PreviewTourProviderCard tourId={tourId} />
+				<PreviewTourProviderCard slug={slug} tourId={tourId ?? ""} />
 			</div>
 
 			<div className="flex flex-col mt-4">

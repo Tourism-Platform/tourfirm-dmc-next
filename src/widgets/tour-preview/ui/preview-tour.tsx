@@ -20,10 +20,8 @@ import {
 import { useUiContent } from "@/shared/ui-content";
 
 import {
-	useGetPreviewTourGeneralQuery,
-	useGetPreviewTourOptionsQuery,
-	useGetPreviewTourQuery,
-	usePreviewOptionDetail
+	usePreviewOptionDetail,
+	useResolvedTourId
 } from "@/entities/tour/preview-tour";
 
 import {
@@ -39,62 +37,44 @@ import {
 	PreviewTourProviderCard
 } from "./tour";
 
-type TPreviewTourProps = { tourId: string };
+type TPreviewTourProps = { slug: string };
 
-const PreviewTourBase: FC<TPreviewTourProps> = ({ tourId }) => {
+const PreviewTourBase: FC<TPreviewTourProps> = ({ slug }) => {
 	const locale = useLocale();
 	const { preview } = useUiContent();
 	const texts = preview.tour;
-
 	const {
-		data: previewData,
-		isLoading: isPreviewLoading,
-		isError: isPreviewError
-	} = useGetPreviewTourQuery(tourId, {
-		skip: !tourId
-	});
+		tourId,
+		general: tourData,
+		landing: previewData,
+		options: optionsData,
+		isResolving,
+		isResolveError
+	} = useResolvedTourId(slug);
 
-	const {
-		data: tourData,
-		isLoading: isTourLoading,
-		isError: isTourError
-	} = useGetPreviewTourGeneralQuery(tourId, {
-		skip: !tourId
-	});
-
-	const {
-		data: optionsData,
-		isLoading: isOptionsLoading,
-		isError: isOptionsError
-	} = useGetPreviewTourOptionsQuery(tourId, {
-		skip: !tourId
-	});
-
-	const singleOption = optionsData?.length === 1 ? optionsData[0] : undefined;
+	const singleOption = optionsData.length === 1 ? optionsData[0] : undefined;
 
 	const {
 		data: optionDetail,
 		isLoading: isOptionDetailLoading,
 		isError: isOptionDetailError
 	} = usePreviewOptionDetail({
-		tourId,
+		tourId: tourId ?? "",
 		optionId: singleOption?.id ?? "",
-		skip: !singleOption
+		options: optionsData,
+		skip: !singleOption || !tourId
 	});
 
 	const isLoading =
-		isPreviewLoading ||
-		isTourLoading ||
-		isOptionsLoading ||
-		(Boolean(singleOption) && isOptionDetailLoading);
+		isResolving || (Boolean(singleOption) && isOptionDetailLoading);
 
-	const showOptionsCards = (optionsData?.length ?? 0) > 1;
+	const showOptionsCards = optionsData.length > 1;
 
 	useEffect(() => {
-		if (isPreviewError || isTourError || isOptionsError) {
+		if (isResolveError) {
 			toast.error(texts.toasts.load.error);
 		}
-	}, [isOptionsError, isPreviewError, texts.toasts.load.error, isTourError]);
+	}, [isResolveError, texts.toasts.load.error]);
 
 	useEffect(() => {
 		if (singleOption && isOptionDetailError) {
@@ -117,7 +97,7 @@ const PreviewTourBase: FC<TPreviewTourProps> = ({ tourId }) => {
 
 			<div className="grid grid-cols-1 items-start gap-8 lg:grid-cols-[1fr_auto]">
 				<PreviewTourHero tour={tourData} locale={locale} />
-				<PreviewTourProviderCard tourId={tourId} />
+				<PreviewTourProviderCard slug={slug} tourId={tourId ?? ""} />
 			</div>
 
 			<div className="flex flex-col gap-8">
@@ -158,8 +138,8 @@ const PreviewTourBase: FC<TPreviewTourProps> = ({ tourId }) => {
 							<>
 								<Separator />
 								<PreviewOptionsCards
-									tourId={tourId}
-									options={optionsData ?? []}
+									slug={slug}
+									options={optionsData}
 								/>
 							</>
 						)}

@@ -4,12 +4,12 @@ import type { TypedLocale } from "payload";
 import { TourPreviewPage } from "@/page/tour-preview";
 
 type TProps = {
-	params: Promise<{ locale: TypedLocale; tourId: string }>;
+	params: Promise<{ locale: TypedLocale; slug: string }>;
 };
 
 export default async function TourRoute({ params }: TProps) {
-	const { locale, tourId } = await params;
+	const { locale, slug } = await params;
 	setRequestLocale(locale);
 
-	return <TourPreviewPage tourId={tourId} />;
+	return <TourPreviewPage slug={slug} />;
 }

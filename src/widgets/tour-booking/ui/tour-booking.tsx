@@ -7,6 +7,7 @@ import { FormProvider } from "react-hook-form";
 import { ENUM_PATH, buildRoute } from "@/shared/config";
 import { useIsMobile } from "@/shared/hooks";
 import { useRouter } from "@/shared/i18n";
+import { DataLoader } from "@/shared/ui";
 import { useUiContent } from "@/shared/ui-content";
 import { withErrorBoundary } from "@/shared/ui/error-boundary";
 import { Button } from "@/shared/ui/shadcn-ui/button";
@@ -29,11 +30,11 @@ import { TourBookingSidebar } from "./tour-booking-sidebar";
 const BOOKING_FORM_ID = "tour-booking-form";
 
 interface ITourBookingProps {
-	tourId: string;
+	slug: string;
 	bookingId?: string;
 }
 
-const TourBookingBase: FC<ITourBookingProps> = ({ tourId, bookingId }) => {
+const TourBookingBase: FC<ITourBookingProps> = ({ slug, bookingId }) => {
 	const router = useRouter();
 	const isMobile = useIsMobile();
 	const { booking } = useUiContent();
@@ -56,8 +57,9 @@ const TourBookingBase: FC<ITourBookingProps> = ({ tourId, bookingId }) => {
 		availableDates,
 		availableLanguages,
 		handleCalendarMonthChange,
-		isOptionsLoading
-	} = useTourBooking({ tourId, bookingId });
+		isOptionsLoading,
+		isTourLoading
+	} = useTourBooking({ slug, bookingId });
 
 	const STEPS = [
 		{
@@ -97,6 +99,10 @@ const TourBookingBase: FC<ITourBookingProps> = ({ tourId, bookingId }) => {
 					}
 				: undefined;
 
+	if (isTourLoading) {
+		return <DataLoader />;
+	}
+
 	return (
 		<FormProvider {...form}>
 			<div className="w-full py-8">
@@ -108,7 +114,7 @@ const TourBookingBase: FC<ITourBookingProps> = ({ tourId, bookingId }) => {
 						className="mb-8 w-fit"
 						onClick={() =>
 							router.push(
-								buildRoute(ENUM_PATH.TOURS.TOUR, { tourId })
+								buildRoute(ENUM_PATH.TOURS.TOUR, { slug })
 							)
 						}
 					>

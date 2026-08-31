@@ -11,6 +11,7 @@ const baseTour = (
 		Pick<TPublicTourCatalogSchema, "tour_id" | "title" | "cover_image_url">
 ): TPublicTourCatalogSchema => ({
 	description: partial.description ?? null,
+	slug: partial.slug ?? null,
 	days: partial.days ?? 2,
 	nights: partial.nights ?? 1,
 	duration_hours: null,
@@ -36,6 +37,7 @@ const baseTour = (
 export const POPULAR_TOURS_MOCK: TPublicTourCatalogSchema[] = [
 	baseTour({
 		tour_id: "popular-tour-1",
+		slug: "tour-to-fergana-valley",
 		title: "Tour to Fergana Valley",
 		cover_image_url: "/assets/images/city/fergana.jpg",
 		description:
@@ -45,6 +47,7 @@ export const POPULAR_TOURS_MOCK: TPublicTourCatalogSchema[] = [
 	}),
 	baseTour({
 		tour_id: "popular-tour-2",
+		slug: "samarkand-night-tour",
 		title: "Samarkand Night Tour",
 		cover_image_url: "/assets/images/city/samarkand.jpg",
 		description:
@@ -56,6 +59,7 @@ export const POPULAR_TOURS_MOCK: TPublicTourCatalogSchema[] = [
 	}),
 	baseTour({
 		tour_id: "popular-tour-3",
+		slug: "bukhara-bazaar-walk",
 		title: "Bukhara Bazaar Walk",
 		cover_image_url: "/assets/images/city/bukhara.jpg",
 		description:
@@ -68,6 +72,7 @@ export const POPULAR_TOURS_MOCK: TPublicTourCatalogSchema[] = [
 	}),
 	baseTour({
 		tour_id: "popular-tour-4",
+		slug: "khiva-sunrise-masterclass",
 		title: "Khiva Sunrise Masterclass",
 		cover_image_url: "/assets/images/city/khiva.jpg",
 		description:

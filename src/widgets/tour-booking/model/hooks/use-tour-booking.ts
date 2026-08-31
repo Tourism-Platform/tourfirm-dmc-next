@@ -35,10 +35,8 @@ import {
 import {
 	parseLocalDateString,
 	parseStoredLocalDate,
-	useGetPreviewTourGeneralQuery,
-	useGetPreviewTourOptionsQuery,
-	useGetPreviewTourQuery,
-	useGetPreviewTourScheduleQuery
+	useGetPreviewTourScheduleQuery,
+	useResolvedTourId
 } from "@/entities/tour/preview-tour";
 import type { TEnumLanguagesType } from "@/entities/tour/preview-tour";
 
@@ -50,15 +48,23 @@ import {
 } from "../lib";
 
 interface IUseTourBookingParams {
-	tourId: string;
+	slug: string;
 	bookingId?: string;
 }
 
 export const useTourBooking = ({
-	tourId,
+	slug,
 	bookingId: bookingIdParam
 }: IUseTourBookingParams) => {
 	const router = useRouter();
+	const {
+		tourId,
+		general: tourData,
+		landing: previewLanding,
+		options,
+		isResolving,
+		isResolveError
+	} = useResolvedTourId(slug);
 
 	const [currentStep, setCurrentStep] = useState(() =>
 		bookingIdParam ? 2 : 1
@@ -70,25 +76,12 @@ export const useTourBooking = ({
 	);
 	const hasSyncedPax = useRef(false);
 
-	const { data: tourData, isLoading: isTourLoading } =
-		useGetPreviewTourGeneralQuery(tourId, { skip: !tourId });
-
-	const { data: previewLanding } = useGetPreviewTourQuery(tourId, {
-		skip: !tourId
-	});
-
 	const availableLanguages: TEnumLanguagesType[] =
 		previewLanding?.languages ?? [];
 
-	const {
-		data: options = [],
-		isLoading: isOptionsLoading,
-		isError: isOptionsError
-	} = useGetPreviewTourOptionsQuery(tourId, { skip: !tourId });
-
 	const { data: scheduleData } = useGetPreviewTourScheduleQuery(
 		{
-			tourId,
+			tourId: tourId ?? "",
 			from: calendarRange.from,
 			to: calendarRange.to
 		},
@@ -137,7 +130,7 @@ export const useTourBooking = ({
 	const restoreDraft = useCallback(
 		(bookingId: string) => {
 			const draft = loadBookingDraft(bookingId);
-			if (!draft || draft.tourId !== tourId) return;
+			if (!draft || !tourId || draft.tourId !== tourId) return;
 
 			form.reset({
 				date: parseStoredLocalDate(draft.date),
@@ -223,7 +216,7 @@ export const useTourBooking = ({
 			"language"
 		]);
 
-		if (!isValid) return;
+		if (!isValid || !tourId) return;
 
 		const formData = form.getValues();
 
@@ -265,7 +258,7 @@ export const useTourBooking = ({
 
 			router.replace(
 				buildRoute(ENUM_PATH.TOURS.BOOKING_DRAFT, {
-					tourId,
+					slug,
 					bookingId: created.id
 				})
 			);
@@ -374,6 +367,7 @@ export const useTourBooking = ({
 		}
 	};
 
+	const isTourLoading = isResolving;
 	const isLoading =
 		isCreating ||
 		isUpdating ||
@@ -404,7 +398,7 @@ export const useTourBooking = ({
 		availableLanguages,
 		handleCalendarMonthChange,
 		isTourLoading,
-		isOptionsLoading,
-		isOptionsError
+		isOptionsLoading: isResolving,
+		isOptionsError: isResolveError
 	};
 };

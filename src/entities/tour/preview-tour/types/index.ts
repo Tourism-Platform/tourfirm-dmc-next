@@ -8,5 +8,6 @@ export * from "./preview-option.types";
 export * from "./preview-option-sheet.types";
 export * from "./preview-operator.types";
 export * from "./preview-tour-backend.types";
+export * from "./preview-tour-slug.types";
 export * from "./preview-option-media.types";
 export * from "./preview-tour-schedule.types";

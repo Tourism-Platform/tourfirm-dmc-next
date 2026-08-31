@@ -8,10 +8,10 @@ export const ENUM_PATH = {
 	TOURS: {
 		ROOT: "/tours",
 		CATALOG: "/tours/catalog",
-		TOUR: "/tours/:tourId",
-		TOUR_OPTION: "/tours/:tourId/option/:optionId",
-		BOOKING: "/tours/:tourId/booking",
-		BOOKING_DRAFT: "/tours/:tourId/booking/:bookingId"
+		TOUR: "/tours/:slug",
+		TOUR_OPTION: "/tours/:slug/option/:optionId",
+		BOOKING: "/tours/:slug/booking",
+		BOOKING_DRAFT: "/tours/:slug/booking/:bookingId"
 	},
 	BOOKING: {
 		ROOT: "/booking",

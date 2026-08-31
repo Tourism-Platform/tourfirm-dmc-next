@@ -1,22 +1,21 @@
 import { useMemo } from "react";
 
 import { enrichOptionDetailTitle } from "../converters";
-import type { IOptionDetail } from "../types";
+import type { IOptionDetail, IPreviewOptionCard } from "../types";
 
-import {
-	useGetPreviewOptionQuery,
-	useGetPreviewTourOptionsQuery
-} from "./preview-tour.service";
+import { useGetPreviewOptionQuery } from "./preview-tour.service";
 
 interface IUsePreviewOptionDetailArgs {
 	tourId: string;
 	optionId: string;
+	options?: IPreviewOptionCard[];
 	skip?: boolean;
 }
 
 export const usePreviewOptionDetail = ({
 	tourId,
 	optionId,
+	options,
 	skip = false
 }: IUsePreviewOptionDetailArgs) => {
 	const shouldSkip = skip || !tourId || !optionId;
@@ -26,15 +25,11 @@ export const usePreviewOptionDetail = ({
 		{ skip: shouldSkip }
 	);
 
-	const { data: optionsList } = useGetPreviewTourOptionsQuery(tourId, {
-		skip: shouldSkip
-	});
-
 	const data = useMemo((): IOptionDetail | undefined => {
 		if (!query.data) return undefined;
 
-		return enrichOptionDetailTitle(query.data, optionsList, optionId);
-	}, [query.data, optionsList, optionId]);
+		return enrichOptionDetailTitle(query.data, options, optionId);
+	}, [optionId, options, query.data]);
 
 	return {
 		...query,

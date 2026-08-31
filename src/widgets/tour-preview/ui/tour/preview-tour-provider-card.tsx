@@ -22,10 +22,12 @@ import { useGetPreviewOperatorQuery } from "@/entities/tour";
 import { PROVIDER_CONTACTS } from "../../model";
 
 interface IPreviewTourProviderCardProps {
+	slug: string;
 	tourId: string;
 }
 
 const PreviewTourProviderCardBase: FC<IPreviewTourProviderCardProps> = ({
+	slug,
 	tourId
 }) => {
 	const router = useRouter();
@@ -44,7 +46,7 @@ const PreviewTourProviderCardBase: FC<IPreviewTourProviderCardProps> = ({
 	);
 
 	const handleBooking = () => {
-		const path = buildRoute(ENUM_PATH.TOURS.BOOKING, { tourId });
+		const path = buildRoute(ENUM_PATH.TOURS.BOOKING, { slug });
 		router.push(path);
 	};
 

@@ -32,7 +32,10 @@ export const KOMILA_KHOLMATOVA_SECTIONS: TBlockRenderProps[] = [
 			},
 			{
 				type: CardType.OverviewStat,
-				item: { icon: "book-open", value: "УзГУМЯ, английский язык, 2024" }
+				item: {
+					icon: "book-open",
+					value: "УзГУМЯ, английский язык, 2024"
+				}
 			}
 		]
 	},

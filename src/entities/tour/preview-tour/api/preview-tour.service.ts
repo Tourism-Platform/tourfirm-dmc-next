@@ -1,4 +1,9 @@
-import { ENUM_API_TAGS, TOUR_PUBLIC_PATHS, baseApi } from "@/shared/api";
+import {
+	ENUM_API_TAGS,
+	TOUR_PUBLIC_PATHS,
+	TOUR_SLUG_PATHS,
+	baseApi
+} from "@/shared/api";
 
 import {
 	mapPreviewOperatorToFrontend,
@@ -6,7 +11,8 @@ import {
 	mapPreviewOptionsListToFrontend,
 	mapPreviewTourGeneralToFrontend,
 	mapPreviewTourScheduleToFrontend,
-	mapPreviewTourToFrontend
+	mapPreviewTourToFrontend,
+	mapTourSlugToFrontend
 } from "../converters";
 import type {
 	IOptionDetail,
@@ -15,16 +21,26 @@ import type {
 	IPreviewTourData,
 	IPreviewTourGeneral,
 	IPreviewTourSchedule,
+	IResolvedTourId,
 	TGetPreviewTourBackendResponse,
 	TOptionDetailBackend,
 	TPreviewOperatorBackend,
 	TPreviewOptionListItemBackend,
 	TPreviewTourBackend,
-	TPreviewTourScheduleBackend
+	TPreviewTourScheduleBackend,
+	TTourSlugResolutionBackend
 } from "../types";
 
 export const tourPreviewTourApi = baseApi.injectEndpoints({
 	endpoints: (builder) => ({
+		getTourBySlug: builder.query<IResolvedTourId, string>({
+			query: (slug) => ({
+				...TOUR_SLUG_PATHS.resolveTourSlug(slug)
+			}),
+			transformResponse: (response: TTourSlugResolutionBackend) =>
+				mapTourSlugToFrontend(response),
+			providesTags: [ENUM_API_TAGS.TOUR_PREVIEW]
+		}),
 		getPreviewTourGeneral: builder.query<IPreviewTourGeneral, string>({
 			query: (tourId) => ({
 				...TOUR_PUBLIC_PATHS.getTour(tourId)
@@ -87,6 +103,7 @@ export const tourPreviewTourApi = baseApi.injectEndpoints({
 });
 
 export const {
+	useGetTourBySlugQuery,
 	useGetPreviewTourGeneralQuery,
 	useGetPreviewTourQuery,
 	useGetPreviewOperatorQuery,

@@ -10,12 +10,12 @@ import type { IPreviewOptionCard } from "@/entities/tour/preview-tour";
 import { PreviewOptionCard } from "./preview-option-card";
 
 type TPreviewOptionsCardsProps = {
-	tourId: string;
+	slug: string;
 	options: IPreviewOptionCard[];
 };
 
 const PreviewOptionsCardsBase: FC<TPreviewOptionsCardsProps> = ({
-	tourId,
+	slug,
 	options
 }) => {
 	const { preview } = useUiContent();
@@ -36,7 +36,7 @@ const PreviewOptionsCardsBase: FC<TPreviewOptionsCardsProps> = ({
 				{options.map((option) => (
 					<PreviewOptionCard
 						key={option.id}
-						tourId={tourId}
+						slug={slug}
 						option={option}
 					/>
 				))}

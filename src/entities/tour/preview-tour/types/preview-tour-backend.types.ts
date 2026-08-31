@@ -4,7 +4,8 @@ import type {
 	TTourMetaModel,
 	TTourOptionPreviewSchemaOutput,
 	TTourOptionPublicResponse,
-	TTourSchedulePubSchema
+	TTourSchedulePubSchema,
+	TTourSlugResolutionSchema
 } from "@/shared/api";
 
 export type TPreviewTourBackend = TLandingPagePubSchema;
@@ -13,3 +14,4 @@ export type TPreviewOperatorBackend = TOperatorPreviewPubSchema;
 export type TOptionDetailBackend = TTourOptionPublicResponse;
 export type TPreviewOptionListItemBackend = TTourOptionPreviewSchemaOutput;
 export type TPreviewTourScheduleBackend = TTourSchedulePubSchema;
+export type TTourSlugResolutionBackend = TTourSlugResolutionSchema;

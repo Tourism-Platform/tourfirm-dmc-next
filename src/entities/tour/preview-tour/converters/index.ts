@@ -8,3 +8,4 @@ export * from "./preview-option-event-type.converters";
 export * from "./preview-option-location.utils";
 export * from "./preview-option.converters";
 export * from "./preview-tour-schedule.converters";
+export * from "./preview-tour-slug.converters";

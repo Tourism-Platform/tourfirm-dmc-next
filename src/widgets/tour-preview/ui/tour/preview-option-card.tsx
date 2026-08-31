@@ -21,18 +21,18 @@ import { useUiContent } from "@/shared/ui-content";
 import type { IPreviewOptionCard } from "@/entities/tour/preview-tour";
 
 type TPreviewOptionCardProps = {
-	tourId: string;
+	slug: string;
 	option: IPreviewOptionCard;
 };
 
 const PreviewOptionCardBase: FC<TPreviewOptionCardProps> = ({
-	tourId,
+	slug,
 	option
 }) => {
 	const { preview } = useUiContent();
 	const cardTexts = preview.tour.sections.itinerary.card;
 	const href = buildRoute(ENUM_PATH.TOURS.TOUR_OPTION, {
-		tourId,
+		slug,
 		optionId: option.id
 	});
 	const { isLoaded, isLoading, isError, onLoad, onError } = useImageStatus(

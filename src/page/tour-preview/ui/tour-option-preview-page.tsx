@@ -3,10 +3,10 @@
 import { PreviewOption } from "@/widgets/tour-preview";
 
 type TProps = {
-	tourId: string;
+	slug: string;
 	optionId: string;
 };
 
-export function TourOptionPreviewPage({ tourId, optionId }: TProps) {
-	return <PreviewOption tourId={tourId} optionId={optionId} />;
+export function TourOptionPreviewPage({ slug, optionId }: TProps) {
+	return <PreviewOption slug={slug} optionId={optionId} />;
 }

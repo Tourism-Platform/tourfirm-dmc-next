@@ -2,6 +2,7 @@ import type { ENUM_CATALOG_TOUR_TYPES_TYPE } from "./catalog-tour-type.types";
 
 export interface ICatalogTourCard {
 	id: string;
+	slug: string | null;
 	title: string;
 	description: string;
 	days: number;

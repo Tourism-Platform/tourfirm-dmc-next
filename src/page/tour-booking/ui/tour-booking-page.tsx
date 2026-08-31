@@ -5,16 +5,16 @@ import { useRequireAuth } from "@/features/auth";
 import { TourBooking } from "@/widgets/tour-booking";
 
 type TTourBookingPageProps = {
-	tourId: string;
+	slug: string;
 	bookingId?: string;
 };
 
-export function TourBookingPage({ tourId, bookingId }: TTourBookingPageProps) {
+export function TourBookingPage({ slug, bookingId }: TTourBookingPageProps) {
 	const { isReady, isChecking } = useRequireAuth();
 
 	if (isChecking || !isReady) {
 		return null;
 	}
 
-	return <TourBooking tourId={tourId} bookingId={bookingId} />;
+	return <TourBooking slug={slug} bookingId={bookingId} />;
 }

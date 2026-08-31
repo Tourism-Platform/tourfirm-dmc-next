@@ -7363,6 +7363,8 @@ export interface PublicTourCatalogSchemaOutput {
 	 * @format uuid
 	 */
 	tour_id: string;
+	/** Slug */
+	slug: string | null;
 	/** Title */
 	title: string | null;
 	/** Cover Image Url */
@@ -7646,6 +7648,22 @@ export interface SignInIn {
 	 * @maxLength 128
 	 */
 	password: string;
+}
+
+/**
+ * SitemapEntrySchema
+ * One public URL for the sitemap: the current slug of a published tour,
+ * with the tour's last write as ``lastmod``. Language versions share the slug
+ * and differ only by path prefix, so the FE emits one entry per language.
+ */
+export interface SitemapEntrySchema {
+	/** Slug */
+	slug: string;
+	/**
+	 * Updated At
+	 * @format date-time
+	 */
+	updated_at: string;
 }
 
 /** StaffInvite */
@@ -9053,6 +9071,35 @@ export interface TourSchedulePubSchema {
 export interface TourScheduleUpdate {
 	/** Is Seasonal */
 	is_seasonal?: boolean | null;
+}
+
+/**
+ * TourSlugResolutionSchema
+ * The page a slug URL renders, in the requested ``read_lang``. ``moved``
+ * true means the requested slug is retired — the payload is still complete,
+ * and the caller replaces the URL with ``slug`` (301 when server-rendered)
+ * without refetching. Itinerary is not included: it is per option and fetched
+ * on demand.
+ */
+export interface TourSlugResolutionSchema {
+	/**
+	 * Tour Id
+	 * @format uuid
+	 */
+	tour_id: string;
+	/** Slug */
+	slug: string;
+	/** Moved */
+	moved: boolean;
+	/**
+	 * ``tour_meta`` joined to its landing page, which owns the tour title. The
+	 * tour row itself carries no text — every reader that used to select
+	 * ``tour_meta.name`` now reads ``landing_page.title`` through this shape.
+	 */
+	meta: TourMetaResponse;
+	landing: LandingPagePubSchema;
+	/** Options */
+	options: TourOptionPreviewSchemaOutput[];
 }
 
 /**

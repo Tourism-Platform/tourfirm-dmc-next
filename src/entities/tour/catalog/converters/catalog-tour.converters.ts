@@ -76,6 +76,7 @@ export const mapCatalogTourToFrontend = (
 
 	return {
 		id: data.tour_id,
+		slug: data.slug,
 		title: data.title ?? "",
 		description: data.description ?? "",
 		days: data.days,

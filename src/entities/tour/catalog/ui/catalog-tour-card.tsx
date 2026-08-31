@@ -43,10 +43,12 @@ export const CatalogTourCard: FC<TCatalogTourCardProps> = ({
 		tour.imageUrl
 	);
 
-	const tourHref = buildRoute(ENUM_PATH.TOURS.TOUR, { tourId: tour.id });
-	const bookingHref = buildRoute(ENUM_PATH.TOURS.BOOKING, {
-		tourId: tour.id
-	});
+	const tourHref = tour.slug
+		? buildRoute(ENUM_PATH.TOURS.TOUR, { slug: tour.slug })
+		: undefined;
+	const bookingHref = tour.slug
+		? buildRoute(ENUM_PATH.TOURS.BOOKING, { slug: tour.slug })
+		: undefined;
 
 	const visibleCategories = tour.categories.slice(0, VISIBLE_CATEGORIES);
 	const hiddenCategoriesCount = Math.max(
@@ -77,7 +79,14 @@ export const CatalogTourCard: FC<TCatalogTourCardProps> = ({
 				className
 			)}
 		>
-			<Link href={tourHref} className="flex min-w-0 flex-1 flex-col">
+			<Link
+				href={tourHref ?? "#"}
+				aria-disabled={!tourHref}
+				className={cn(
+					"flex min-w-0 flex-1 flex-col",
+					!tourHref && "pointer-events-none"
+				)}
+			>
 				<div className="relative h-36 w-full shrink-0 overflow-hidden bg-muted sm:h-48">
 					{!isLoaded && (
 						<div className="absolute inset-0 z-0 flex items-center justify-center">
@@ -211,9 +220,11 @@ export const CatalogTourCard: FC<TCatalogTourCardProps> = ({
 					type="button"
 					size="sm"
 					className="w-full sm:h-10 sm:text-sm"
+					disabled={!bookingHref}
 					onClick={(event) => {
 						event.preventDefault();
 						event.stopPropagation();
+						if (!bookingHref) return;
 						router.push(bookingHref);
 					}}
 				>

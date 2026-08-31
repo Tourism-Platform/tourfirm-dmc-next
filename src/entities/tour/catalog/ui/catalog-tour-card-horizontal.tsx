@@ -34,10 +34,12 @@ export const CatalogTourCardHorizontal: FC<TCatalogTourCardHorizontalProps> = ({
 		tour.imageUrl
 	);
 
-	const tourHref = buildRoute(ENUM_PATH.TOURS.TOUR, { tourId: tour.id });
-	const bookingHref = buildRoute(ENUM_PATH.TOURS.BOOKING, {
-		tourId: tour.id
-	});
+	const tourHref = tour.slug
+		? buildRoute(ENUM_PATH.TOURS.TOUR, { slug: tour.slug })
+		: undefined;
+	const bookingHref = tour.slug
+		? buildRoute(ENUM_PATH.TOURS.BOOKING, { slug: tour.slug })
+		: undefined;
 
 	const visibleCategories = tour.categories.slice(0, VISIBLE_CATEGORIES);
 	const hiddenCategoriesCount = Math.max(
@@ -70,7 +72,14 @@ export const CatalogTourCardHorizontal: FC<TCatalogTourCardHorizontalProps> = ({
 			)}
 		>
 			<div className="relative w-1/2 shrink-0 self-stretch overflow-hidden bg-muted min-h-[10rem] md:w-1/3">
-				<Link href={tourHref} className="absolute inset-0 block">
+				<Link
+					href={tourHref ?? "#"}
+					aria-disabled={!tourHref}
+					className={cn(
+						"absolute inset-0 block",
+						!tourHref && "pointer-events-none"
+					)}
+				>
 					{!isLoaded && (
 						<div className="absolute inset-0 z-0 flex items-center justify-center">
 							{isLoading && (
@@ -129,7 +138,14 @@ export const CatalogTourCardHorizontal: FC<TCatalogTourCardHorizontalProps> = ({
 			</div>
 
 			<div className="flex min-w-0 flex-1 flex-col gap-2 px-3 py-3 sm:gap-2.5 sm:px-4 sm:py-4">
-				<Link href={tourHref} className="flex min-w-0 flex-col gap-1.5">
+				<Link
+					href={tourHref ?? "#"}
+					aria-disabled={!tourHref}
+					className={cn(
+						"flex min-w-0 flex-col gap-1.5",
+						!tourHref && "pointer-events-none"
+					)}
+				>
 					<span className="line-clamp-2 text-sm font-semibold leading-snug sm:text-base">
 						{tour.title}
 					</span>
@@ -196,9 +212,11 @@ export const CatalogTourCardHorizontal: FC<TCatalogTourCardHorizontalProps> = ({
 						type="button"
 						size="sm"
 						className="w-full sm:w-auto sm:min-w-36"
+						disabled={!bookingHref}
 						onClick={(event) => {
 							event.preventDefault();
 							event.stopPropagation();
+							if (!bookingHref) return;
 							router.push(bookingHref);
 						}}
 					>

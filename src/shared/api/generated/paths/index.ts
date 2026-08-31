@@ -11,3 +11,4 @@ export {
 	TOUR_CATALOG_PATHS
 } from "./tour-catalog.paths";
 export { TOUR_PUBLIC_PATHS } from "./tour-public.paths";
+export { TOUR_SLUG_PATHS } from "./tour-slug.paths";
