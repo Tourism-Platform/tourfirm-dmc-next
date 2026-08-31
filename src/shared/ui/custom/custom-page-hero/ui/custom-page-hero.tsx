@@ -23,19 +23,17 @@ type TCustomPageHeroProps = {
 
 const SIZE_CLASSES: Record<
 	TCustomPageHeroSize,
-	{ section: string; container: string; minHeight: string }
+	{ section: string; container: string }
 > = {
 	tall: {
 		section: "min-h-[480px] sm:min-h-[560px]",
 		container:
-			"min-h-[480px] gap-6 py-16 sm:min-h-[560px] sm:gap-8 sm:py-20",
-		minHeight: "min-h-[480px] sm:min-h-[560px]"
+			"min-h-[480px] gap-6 py-16 sm:min-h-[560px] sm:gap-8 sm:py-20"
 	},
 	compact: {
 		section: "min-h-[400px] sm:min-h-[480px]",
 		container:
-			"min-h-[400px] gap-4 py-16 sm:min-h-[480px] sm:gap-6 sm:py-20",
-		minHeight: "min-h-[400px] sm:min-h-[480px]"
+			"min-h-[400px] gap-4 py-16 sm:min-h-[480px] sm:gap-6 sm:py-20"
 	}
 };
 
@@ -55,7 +53,6 @@ export function CustomPageHero({
 	tags
 }: TCustomPageHeroProps) {
 	const sizeClasses = SIZE_CLASSES[size];
-	const hasSearchSlot = Boolean(children);
 
 	return (
 		<section
@@ -76,17 +73,12 @@ export function CustomPageHero({
 			<div className="absolute inset-0 bg-black/50" />
 			<div
 				className={cn(
-					"relative z-10 mx-auto flex w-full max-w-7xl flex-col px-4 sm:px-6 lg:px-8",
-					hasSearchSlot
-						? cn(
-								sizeClasses.minHeight,
-								"justify-between gap-6 pt-16 pb-0 sm:gap-8 sm:pt-20"
-							)
-						: cn("justify-center", sizeClasses.container)
+					"relative z-10 mx-auto flex w-full max-w-7xl flex-col justify-center px-4 sm:px-6 lg:px-8",
+					sizeClasses.container
 				)}
 			>
 				{topContent}
-				<div className="flex max-w-3xl flex-col gap-4 text-white">
+				<div className="flex max-w-3xl shrink-0 flex-col gap-4 text-white">
 					{/* {eyebrow} */}
 					<h1
 						className={
@@ -134,7 +126,7 @@ export function CustomPageHero({
 						<div className="flex flex-wrap gap-3">{actions}</div>
 					) : null}
 				</div>
-				{children}
+				{children ? <div className="shrink-0">{children}</div> : null}
 			</div>
 		</section>
 	);
