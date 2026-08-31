@@ -56,6 +56,21 @@ export type TFaqQuestionProps = {
 
 export type TTimelineIndicatorType = "number" | "icon";
 
+export type TBlockTone = "default" | "tint" | "warm";
+
+export type TTimelineLayout = "vertical" | "horizontal";
+
+export type TQuoteVariant = "default" | "wide";
+
+export type TMosaicSpan = "default" | "wide" | "large";
+
+export type TCriteriaProps = {
+	label?: string;
+	title?: string;
+	description?: string;
+	tags?: string[];
+};
+
 export type TTimelineItemProps = {
 	key?: string;
 	title: string;
@@ -113,7 +128,11 @@ export type TBlockRenderProps = {
 	note?: string;
 	description?: string;
 	gridClassName?: string;
-	displayMode?: "grid" | "carousel";
+	displayMode?: "grid" | "carousel" | "mosaic";
+	tone?: TBlockTone;
+	tags?: string[];
+	layout?: TTimelineLayout;
+	criteria?: TCriteriaProps;
 	imageSrc?: string;
 	imageAlt?: string;
 	children?: ReactNode;

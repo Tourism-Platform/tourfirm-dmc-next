@@ -1,5 +1,5 @@
 export type TDashTitleCardData = {
-	title: string;
+	title?: string;
 	description: string;
 };
 

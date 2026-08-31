@@ -23,7 +23,10 @@ export enum CardType {
 	MiniTable = "miniTable",
 	Portrait = "portrait",
 	CatalogFeed = "catalogFeed",
-	TourDestination = "tourDestination"
+	TourDestination = "tourDestination",
+	BlitzQa = "blitzQa",
+	MosaicTile = "mosaicTile",
+	ValuePoint = "valuePoint"
 }
 
 export type TCardItemRow = {
@@ -51,6 +54,13 @@ export interface ICardItem {
 	icon?: LucideIcon | string;
 	className?: string;
 	quoteHtml?: string;
+	caption?: string;
+	quoteVariant?: "default" | "wide";
+	label?: string;
+	hint?: string;
+	langs?: string[];
+	span?: "default" | "wide" | "large";
+	tags?: string[];
 	rows?: TCardItemRow[];
 	readMoreLabel?: string;
 }

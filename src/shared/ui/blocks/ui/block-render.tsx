@@ -37,6 +37,8 @@ export function BlockRender({
 				topContent={topContent}
 				description={section.description!}
 				note={section.note}
+				tags={section.tags}
+				size={section.tags?.length ? "tall" : "compact"}
 				actions={section.actions?.map((action, actionIndex) => (
 					<ButtonRender
 						key={actionIndex}
@@ -97,6 +99,10 @@ export function BlockRender({
 				description={section.description}
 				indicatorType={section.indicatorType}
 				items={section.items ?? []}
+				layout={section.layout}
+				tone={section.tone}
+				tags={section.tags}
+				criteria={section.criteria}
 			/>
 		);
 	}
@@ -156,6 +162,8 @@ export function BlockRender({
 			description={section.description}
 			gridClassName={section.gridClassName}
 			displayMode={section.displayMode}
+			tone={section.tone}
+			tags={section.tags}
 			emptyLabel={section.emptyLabel}
 			rows={section.rows}
 			actions={section.actions?.map((action, actionIndex) => (

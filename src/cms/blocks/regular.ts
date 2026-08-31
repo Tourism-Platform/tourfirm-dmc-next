@@ -1,6 +1,7 @@
 import type { Block } from "payload";
 
 import { actionFields } from "./action";
+import { tagsField, toneField } from "./block-shared-fields";
 import { cardFields } from "./card";
 
 const columnRatioOptions = [
@@ -43,6 +44,8 @@ export const Regular: Block = {
 			type: "richText",
 			localized: true
 		},
+		toneField,
+		tagsField,
 		{
 			name: "gridClassName",
 			type: "text"
@@ -53,7 +56,8 @@ export const Regular: Block = {
 			defaultValue: "grid",
 			options: [
 				{ label: "Grid", value: "grid" },
-				{ label: "Carousel", value: "carousel" }
+				{ label: "Carousel", value: "carousel" },
+				{ label: "Mosaic", value: "mosaic" }
 			]
 		},
 		{

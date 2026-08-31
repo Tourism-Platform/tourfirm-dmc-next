@@ -53,6 +53,7 @@ export function ContentRows({ rows }: TContentRowsProps) {
 				}
 
 				const ratio = row.ratio ?? DEFAULT_COLUMN_RATIO;
+				const stickyLeft = ratio.startsWith("1:");
 
 				return (
 					<div
@@ -62,8 +63,22 @@ export function ContentRows({ rows }: TContentRowsProps) {
 							COLUMN_RATIO_CLASS[ratio]
 						)}
 					>
-						{renderStack(left)}
-						<div className="md:sticky md:top-24 md:self-start">
+						<div
+							className={
+								stickyLeft
+									? "md:sticky md:top-24 md:self-start"
+									: undefined
+							}
+						>
+							{renderStack(left)}
+						</div>
+						<div
+							className={
+								stickyLeft
+									? undefined
+									: "md:sticky md:top-24 md:self-start"
+							}
+						>
 							{renderStack(right)}
 						</div>
 					</div>

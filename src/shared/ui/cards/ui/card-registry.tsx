@@ -4,6 +4,7 @@ import { getLucideIcon } from "@/shared/lib/get-lucide-icon";
 
 import { CardType, type ICardItem } from "../types/card-render.types";
 
+import { BlitzQaCard } from "./blitz-qa-card";
 import { BlogCard } from "./blog-card";
 import { CatalogFeedCard } from "./catalog-feed-card";
 import { CountryCard } from "./country-card";
@@ -12,6 +13,7 @@ import { DestinationInsightCard } from "./destination-insight-card";
 import { ExperienceCard } from "./experience-card";
 import { InsightAlertCard } from "./insight-alert-card";
 import { MiniTableCard } from "./mini-table-card";
+import { MosaicTileCard } from "./mosaic-tile-card";
 import { NewsCard } from "./news-card";
 import { OverviewStatCard } from "./overview-stat-card";
 import { PortraitCard } from "./portrait-card";
@@ -25,6 +27,7 @@ import { TeamMemberCard } from "./team-member-card";
 import { TourDestinationCard } from "./tour-destination-card";
 import { TradeFairCard } from "./trade-fair-card";
 import { TripFormatCard } from "./trip-format-card";
+import { ValuePointCard } from "./value-point-card";
 
 type TCardRenderer = (item: ICardItem) => ReactNode;
 
@@ -164,7 +167,10 @@ export const CARD_REGISTRY: Partial<Record<CardType, TCardRenderer>> = {
 	[CardType.OverviewStat]: (item) => (
 		<OverviewStatCard
 			icon={getLucideIcon(item.icon)}
-			value={item.value ?? ""}
+			value={item.value}
+			label={item.label}
+			hint={item.hint}
+			langs={item.langs}
 		/>
 	),
 	[CardType.ServicesBusiness]: (item) => (
@@ -213,7 +219,9 @@ export const CARD_REGISTRY: Partial<Record<CardType, TCardRenderer>> = {
 	[CardType.Quote]: (item) => (
 		<QuoteCard
 			data={{
-				quoteHtml: item.quoteHtml ?? ""
+				quoteHtml: item.quoteHtml ?? "",
+				caption: item.caption,
+				variant: item.quoteVariant
 			}}
 		/>
 	),
@@ -248,5 +256,33 @@ export const CARD_REGISTRY: Partial<Record<CardType, TCardRenderer>> = {
 			}}
 		/>
 	),
-	[CardType.CatalogFeed]: (item) => <CatalogFeedCard data={item} />
+	[CardType.CatalogFeed]: (item) => <CatalogFeedCard data={item} />,
+	[CardType.BlitzQa]: (item) => (
+		<BlitzQaCard
+			data={{
+				title: item.title ?? "",
+				description: item.description ?? "",
+				featured: item.featured
+			}}
+		/>
+	),
+	[CardType.MosaicTile]: (item) => (
+		<MosaicTileCard
+			data={{
+				imageUrl: item.imageUrl ?? "",
+				badge: item.badge,
+				title: item.title ?? "",
+				description: item.description
+			}}
+		/>
+	),
+	[CardType.ValuePoint]: (item) => (
+		<ValuePointCard
+			data={{
+				title: item.title ?? "",
+				description: item.description,
+				icon: item.icon ? getLucideIcon(item.icon) : undefined
+			}}
+		/>
+	)
 };

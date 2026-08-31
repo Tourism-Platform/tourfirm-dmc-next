@@ -198,6 +198,20 @@ export function normalizeRichTextDescriptions(blocks: unknown[]): unknown[] {
 			}
 		}
 
+		if (entry.criteria && typeof entry.criteria === "object") {
+			const criteriaEntry = {
+				...(entry.criteria as Record<string, unknown>)
+			};
+
+			if ("description" in criteriaEntry) {
+				criteriaEntry.description = normalizeDescriptionField(
+					criteriaEntry.description
+				);
+			}
+
+			entry.criteria = criteriaEntry;
+		}
+
 		return entry;
 	});
 }

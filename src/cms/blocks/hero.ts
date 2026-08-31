@@ -1,6 +1,7 @@
 import type { Block } from "payload";
 
 import { actionFields } from "./action";
+import { tagsField } from "./block-shared-fields";
 
 export const Hero: Block = {
 	slug: "hero",
@@ -32,6 +33,7 @@ export const Hero: Block = {
 			type: "text",
 			localized: true
 		},
+		tagsField,
 		{
 			name: "actions",
 			type: "array",

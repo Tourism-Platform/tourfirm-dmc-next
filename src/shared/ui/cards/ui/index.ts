@@ -27,3 +27,6 @@ export { QuoteCard } from "./quote-card";
 export { InsightAlertCard } from "./insight-alert-card";
 export { MiniTableCard } from "./mini-table-card";
 export { PortraitCard } from "./portrait-card";
+export { BlitzQaCard } from "./blitz-qa-card";
+export { MosaicTileCard } from "./mosaic-tile-card";
+export { ValuePointCard } from "./value-point-card";

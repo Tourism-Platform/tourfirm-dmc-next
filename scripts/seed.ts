@@ -3096,14 +3096,22 @@ async function runSeedNavigationOnly(): Promise<void> {
 	process.exit(0);
 }
 
-async function runSeedCompanyPagesOnly(): Promise<void> {
+async function runSeedCompanyPagesOnly(pageSlug?: string): Promise<void> {
 	const seedDbUri = resolveSeedDatabaseUri();
 	const profiler = createSeedProfiler();
 	const lookup = new SeedLookupCache();
+	const pageFiles = pageSlug
+		? pageSlug
+				.split(",")
+				.map((slug) => `${slug.trim().replace(/\.yml$/, "")}.yml`)
+				.filter(Boolean)
+		: [];
 
 	logSeedConnectionInfo(seedDbUri);
 	console.log(
-		"Seed mode: company pages only (about + team, no DB reset, upsert by slug)"
+		pageFiles.length > 0
+			? `Seed mode: page only (${pageFiles.join(", ")}, no DB reset, upsert by slug)`
+			: "Seed mode: company pages only (about + team, no DB reset, upsert by slug)"
 	);
 
 	process.env.PAYLOAD_SEED_MODE = "true";
@@ -3123,8 +3131,12 @@ async function runSeedCompanyPagesOnly(): Promise<void> {
 	await lookup.ingestSegmentsFromDb(payload);
 
 	const mediaCache: TMediaCache = new Map();
+	const pageFileSet = new Set(pageFiles);
 	const { count } = await seedPages(payload, mediaCache, {
-		fileFilter: isCompanyPageSeedFile
+		fileFilter:
+			pageFileSet.size > 0
+				? (file) => pageFileSet.has(file)
+				: isCompanyPageSeedFile
 	});
 
 	if (typeof payload.db?.destroy === "function") {
@@ -3584,6 +3596,7 @@ if (isSeedEntrypoint) {
 	const only = getSeedOnlyTarget();
 	const destinationsMatch = only?.match(/^destinations:(.+)$/);
 	const countryMatch = only?.match(/^country:(.+)$/);
+	const pageMatch = only?.match(/^page:(.+)$/);
 
 	if (
 		only &&
@@ -3591,10 +3604,11 @@ if (isSeedEntrypoint) {
 		only !== "company" &&
 		!only.startsWith("city:") &&
 		!destinationsMatch &&
-		!countryMatch
+		!countryMatch &&
+		!pageMatch
 	) {
 		console.error(
-			`Unknown --only target "${only}". Supported: navigation, company, city:<slug>, country:<slug>, destinations:<countrySlug>`
+			`Unknown --only target "${only}". Supported: navigation, company, page:<yml-basename>, city:<slug>, country:<slug>, destinations:<countrySlug>`
 		);
 		process.exit(1);
 	}
@@ -3604,18 +3618,20 @@ if (isSeedEntrypoint) {
 		: only === "navigation"
 			? runSeedNavigationOnly
 			: only === "company"
-				? runSeedCompanyPagesOnly
-				: destinationsMatch
-					? () =>
-							runSeedCountryDestinationsOnly(
-								destinationsMatch[1].trim()
-							)
-					: countryMatch
-						? () => runSeedCountryOnly(countryMatch[1].trim())
-						: () =>
-								runSeedCityOnly(
-									only!.slice("city:".length).trim()
-								);
+				? () => runSeedCompanyPagesOnly()
+				: pageMatch
+					? () => runSeedCompanyPagesOnly(pageMatch[1].trim())
+					: destinationsMatch
+						? () =>
+								runSeedCountryDestinationsOnly(
+									destinationsMatch[1].trim()
+								)
+						: countryMatch
+							? () => runSeedCountryOnly(countryMatch[1].trim())
+							: () =>
+									runSeedCityOnly(
+										only!.slice("city:".length).trim()
+									);
 
 	run().catch((error: unknown) => {
 		console.error("Seed failed:", error);

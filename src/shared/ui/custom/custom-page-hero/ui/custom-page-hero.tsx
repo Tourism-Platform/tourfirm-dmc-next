@@ -18,6 +18,7 @@ type TCustomPageHeroProps = {
 	children?: ReactNode;
 	size?: TCustomPageHeroSize;
 	className?: string;
+	tags?: string[];
 };
 
 const SIZE_CLASSES: Record<
@@ -50,7 +51,8 @@ export function CustomPageHero({
 	actions,
 	children,
 	size = "compact",
-	className
+	className,
+	tags
 }: TCustomPageHeroProps) {
 	const sizeClasses = SIZE_CLASSES[size];
 	const hasSearchSlot = Boolean(children);
@@ -86,7 +88,13 @@ export function CustomPageHero({
 				{topContent}
 				<div className="flex max-w-3xl flex-col gap-4 text-white">
 					{/* {eyebrow} */}
-					<h1 className="font-sans text-3xl font-semibold uppercase leading-tight tracking-tight sm:text-4xl lg:text-5xl">
+					<h1
+						className={
+							tags?.length
+								? "font-serif text-4xl font-medium italic leading-[0.98] tracking-tight sm:text-6xl lg:text-7xl"
+								: "font-sans text-3xl font-semibold uppercase leading-tight tracking-tight sm:text-4xl lg:text-5xl"
+						}
+					>
 						{title}
 					</h1>
 					{subtitle ? (
@@ -95,14 +103,32 @@ export function CustomPageHero({
 						</div>
 					) : null}
 					{description ? (
-						<p className="font-sans text-sm text-white/90 sm:text-base">
+						<p
+							className={
+								tags?.length
+									? "font-serif max-w-[36ch] text-base leading-snug text-white/90 italic sm:text-xl"
+									: "font-sans text-sm text-white/90 sm:text-base"
+							}
+						>
 							{description}
 						</p>
 					) : null}
-					{note ? (
+					{note && !tags?.length ? (
 						<p className="text-sm text-white/75 sm:text-base">
 							{note}
 						</p>
+					) : null}
+					{tags?.length ? (
+						<div className="mt-2 flex flex-wrap gap-2">
+							{tags.map((tag) => (
+								<span
+									key={tag}
+									className="rounded-full border border-white/32 px-3 py-1 text-[11.5px] text-white/90"
+								>
+									{tag}
+								</span>
+							))}
+						</div>
 					) : null}
 					{actions ? (
 						<div className="flex flex-wrap gap-3">{actions}</div>

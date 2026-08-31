@@ -358,6 +358,12 @@ export interface Country {
 					[k: string]: unknown;
 				} | null;
 				note?: string | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -407,7 +413,10 @@ export interface Country {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -481,8 +490,18 @@ export interface Country {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -490,6 +509,7 @@ export interface Country {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -538,8 +558,15 @@ export interface Country {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				gridClassName?: string | null;
-				displayMode?: ("grid" | "carousel") | null;
+				displayMode?: ("grid" | "carousel" | "mosaic") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -612,7 +639,10 @@ export interface Country {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -690,8 +720,20 @@ export interface Country {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -699,6 +741,9 @@ export interface Country {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -741,7 +786,10 @@ export interface Country {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -819,8 +867,20 @@ export interface Country {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -828,6 +888,9 @@ export interface Country {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -876,7 +939,10 @@ export interface Country {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -950,8 +1016,18 @@ export interface Country {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -959,6 +1035,7 @@ export interface Country {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -1224,6 +1301,14 @@ export interface Country {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
+				layout?: ("vertical" | "horizontal") | null;
 				indicatorType: "number" | "icon";
 				items?:
 					| {
@@ -1258,6 +1343,38 @@ export interface Country {
 							id?: string | null;
 					  }[]
 					| null;
+				criteria?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					tags?:
+						| {
+								label: string;
+								id?: string | null;
+						  }[]
+						| null;
+				};
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "timeline";
@@ -1709,6 +1826,12 @@ export interface Route {
 					[k: string]: unknown;
 				} | null;
 				note?: string | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -1758,7 +1881,10 @@ export interface Route {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -1832,8 +1958,18 @@ export interface Route {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -1841,6 +1977,7 @@ export interface Route {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -1889,8 +2026,15 @@ export interface Route {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				gridClassName?: string | null;
-				displayMode?: ("grid" | "carousel") | null;
+				displayMode?: ("grid" | "carousel" | "mosaic") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -1963,7 +2107,10 @@ export interface Route {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -2041,8 +2188,20 @@ export interface Route {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -2050,6 +2209,9 @@ export interface Route {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -2092,7 +2254,10 @@ export interface Route {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -2170,8 +2335,20 @@ export interface Route {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -2179,6 +2356,9 @@ export interface Route {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -2227,7 +2407,10 @@ export interface Route {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -2301,8 +2484,18 @@ export interface Route {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -2310,6 +2503,7 @@ export interface Route {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -2575,6 +2769,14 @@ export interface Route {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
+				layout?: ("vertical" | "horizontal") | null;
 				indicatorType: "number" | "icon";
 				items?:
 					| {
@@ -2609,6 +2811,38 @@ export interface Route {
 							id?: string | null;
 					  }[]
 					| null;
+				criteria?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					tags?:
+						| {
+								label: string;
+								id?: string | null;
+						  }[]
+						| null;
+				};
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "timeline";
@@ -2958,6 +3192,12 @@ export interface City {
 					[k: string]: unknown;
 				} | null;
 				note?: string | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -3007,7 +3247,10 @@ export interface City {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -3081,8 +3324,18 @@ export interface City {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -3090,6 +3343,7 @@ export interface City {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -3138,8 +3392,15 @@ export interface City {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				gridClassName?: string | null;
-				displayMode?: ("grid" | "carousel") | null;
+				displayMode?: ("grid" | "carousel" | "mosaic") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -3212,7 +3473,10 @@ export interface City {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -3290,8 +3554,20 @@ export interface City {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -3299,6 +3575,9 @@ export interface City {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -3341,7 +3620,10 @@ export interface City {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -3419,8 +3701,20 @@ export interface City {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -3428,6 +3722,9 @@ export interface City {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -3476,7 +3773,10 @@ export interface City {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -3550,8 +3850,18 @@ export interface City {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -3559,6 +3869,7 @@ export interface City {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -3824,6 +4135,14 @@ export interface City {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
+				layout?: ("vertical" | "horizontal") | null;
 				indicatorType: "number" | "icon";
 				items?:
 					| {
@@ -3858,6 +4177,38 @@ export interface City {
 							id?: string | null;
 					  }[]
 					| null;
+				criteria?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					tags?:
+						| {
+								label: string;
+								id?: string | null;
+						  }[]
+						| null;
+				};
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "timeline";
@@ -4218,6 +4569,12 @@ export interface Region {
 					[k: string]: unknown;
 				} | null;
 				note?: string | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -4267,7 +4624,10 @@ export interface Region {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -4341,8 +4701,18 @@ export interface Region {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -4350,6 +4720,7 @@ export interface Region {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -4398,8 +4769,15 @@ export interface Region {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				gridClassName?: string | null;
-				displayMode?: ("grid" | "carousel") | null;
+				displayMode?: ("grid" | "carousel" | "mosaic") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -4472,7 +4850,10 @@ export interface Region {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -4550,8 +4931,20 @@ export interface Region {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -4559,6 +4952,9 @@ export interface Region {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -4601,7 +4997,10 @@ export interface Region {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -4679,8 +5078,20 @@ export interface Region {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -4688,6 +5099,9 @@ export interface Region {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -4736,7 +5150,10 @@ export interface Region {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -4810,8 +5227,18 @@ export interface Region {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -4819,6 +5246,7 @@ export interface Region {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -5084,6 +5512,14 @@ export interface Region {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
+				layout?: ("vertical" | "horizontal") | null;
 				indicatorType: "number" | "icon";
 				items?:
 					| {
@@ -5118,6 +5554,38 @@ export interface Region {
 							id?: string | null;
 					  }[]
 					| null;
+				criteria?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					tags?:
+						| {
+								label: string;
+								id?: string | null;
+						  }[]
+						| null;
+				};
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "timeline";
@@ -5496,6 +5964,12 @@ export interface Experience {
 					[k: string]: unknown;
 				} | null;
 				note?: string | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -5545,7 +6019,10 @@ export interface Experience {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -5619,8 +6096,18 @@ export interface Experience {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -5628,6 +6115,7 @@ export interface Experience {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -5676,8 +6164,15 @@ export interface Experience {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				gridClassName?: string | null;
-				displayMode?: ("grid" | "carousel") | null;
+				displayMode?: ("grid" | "carousel" | "mosaic") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -5750,7 +6245,10 @@ export interface Experience {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -5828,8 +6326,20 @@ export interface Experience {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -5837,6 +6347,9 @@ export interface Experience {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -5879,7 +6392,10 @@ export interface Experience {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -5957,8 +6473,20 @@ export interface Experience {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -5966,6 +6494,9 @@ export interface Experience {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -6014,7 +6545,10 @@ export interface Experience {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -6088,8 +6622,18 @@ export interface Experience {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -6097,6 +6641,7 @@ export interface Experience {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -6362,6 +6907,14 @@ export interface Experience {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
+				layout?: ("vertical" | "horizontal") | null;
 				indicatorType: "number" | "icon";
 				items?:
 					| {
@@ -6396,6 +6949,38 @@ export interface Experience {
 							id?: string | null;
 					  }[]
 					| null;
+				criteria?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					tags?:
+						| {
+								label: string;
+								id?: string | null;
+						  }[]
+						| null;
+				};
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "timeline";
@@ -6720,6 +7305,12 @@ export interface Theme {
 					[k: string]: unknown;
 				} | null;
 				note?: string | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -6769,7 +7360,10 @@ export interface Theme {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -6843,8 +7437,18 @@ export interface Theme {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -6852,6 +7456,7 @@ export interface Theme {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -6900,8 +7505,15 @@ export interface Theme {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				gridClassName?: string | null;
-				displayMode?: ("grid" | "carousel") | null;
+				displayMode?: ("grid" | "carousel" | "mosaic") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -6974,7 +7586,10 @@ export interface Theme {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -7052,8 +7667,20 @@ export interface Theme {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -7061,6 +7688,9 @@ export interface Theme {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -7103,7 +7733,10 @@ export interface Theme {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -7181,8 +7814,20 @@ export interface Theme {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -7190,6 +7835,9 @@ export interface Theme {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -7238,7 +7886,10 @@ export interface Theme {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -7312,8 +7963,18 @@ export interface Theme {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -7321,6 +7982,7 @@ export interface Theme {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -7586,6 +8248,14 @@ export interface Theme {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
+				layout?: ("vertical" | "horizontal") | null;
 				indicatorType: "number" | "icon";
 				items?:
 					| {
@@ -7620,6 +8290,38 @@ export interface Theme {
 							id?: string | null;
 					  }[]
 					| null;
+				criteria?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					tags?:
+						| {
+								label: string;
+								id?: string | null;
+						  }[]
+						| null;
+				};
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "timeline";
@@ -7973,6 +8675,12 @@ export interface TradeFair {
 					[k: string]: unknown;
 				} | null;
 				note?: string | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -8022,7 +8730,10 @@ export interface TradeFair {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -8096,8 +8807,18 @@ export interface TradeFair {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -8105,6 +8826,7 @@ export interface TradeFair {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -8153,8 +8875,15 @@ export interface TradeFair {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				gridClassName?: string | null;
-				displayMode?: ("grid" | "carousel") | null;
+				displayMode?: ("grid" | "carousel" | "mosaic") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -8227,7 +8956,10 @@ export interface TradeFair {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -8305,8 +9037,20 @@ export interface TradeFair {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -8314,6 +9058,9 @@ export interface TradeFair {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -8356,7 +9103,10 @@ export interface TradeFair {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -8434,8 +9184,20 @@ export interface TradeFair {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -8443,6 +9205,9 @@ export interface TradeFair {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -8491,7 +9256,10 @@ export interface TradeFair {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -8565,8 +9333,18 @@ export interface TradeFair {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -8574,6 +9352,7 @@ export interface TradeFair {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -8839,6 +9618,14 @@ export interface TradeFair {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
+				layout?: ("vertical" | "horizontal") | null;
 				indicatorType: "number" | "icon";
 				items?:
 					| {
@@ -8873,6 +9660,38 @@ export interface TradeFair {
 							id?: string | null;
 					  }[]
 					| null;
+				criteria?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					tags?:
+						| {
+								label: string;
+								id?: string | null;
+						  }[]
+						| null;
+				};
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "timeline";
@@ -9224,6 +10043,12 @@ export interface Blog {
 					[k: string]: unknown;
 				} | null;
 				note?: string | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -9273,7 +10098,10 @@ export interface Blog {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -9347,8 +10175,18 @@ export interface Blog {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -9356,6 +10194,7 @@ export interface Blog {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -9404,8 +10243,15 @@ export interface Blog {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				gridClassName?: string | null;
-				displayMode?: ("grid" | "carousel") | null;
+				displayMode?: ("grid" | "carousel" | "mosaic") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -9478,7 +10324,10 @@ export interface Blog {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -9556,8 +10405,20 @@ export interface Blog {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -9565,6 +10426,9 @@ export interface Blog {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -9607,7 +10471,10 @@ export interface Blog {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -9685,8 +10552,20 @@ export interface Blog {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -9694,6 +10573,9 @@ export interface Blog {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -9742,7 +10624,10 @@ export interface Blog {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -9816,8 +10701,18 @@ export interface Blog {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -9825,6 +10720,7 @@ export interface Blog {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -10090,6 +10986,14 @@ export interface Blog {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
+				layout?: ("vertical" | "horizontal") | null;
 				indicatorType: "number" | "icon";
 				items?:
 					| {
@@ -10124,6 +11028,38 @@ export interface Blog {
 							id?: string | null;
 					  }[]
 					| null;
+				criteria?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					tags?:
+						| {
+								label: string;
+								id?: string | null;
+						  }[]
+						| null;
+				};
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "timeline";
@@ -10466,6 +11402,12 @@ export interface News {
 					[k: string]: unknown;
 				} | null;
 				note?: string | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -10515,7 +11457,10 @@ export interface News {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -10589,8 +11534,18 @@ export interface News {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -10598,6 +11553,7 @@ export interface News {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -10646,8 +11602,15 @@ export interface News {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				gridClassName?: string | null;
-				displayMode?: ("grid" | "carousel") | null;
+				displayMode?: ("grid" | "carousel" | "mosaic") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -10720,7 +11683,10 @@ export interface News {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -10798,8 +11764,20 @@ export interface News {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -10807,6 +11785,9 @@ export interface News {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -10849,7 +11830,10 @@ export interface News {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -10927,8 +11911,20 @@ export interface News {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -10936,6 +11932,9 @@ export interface News {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -10984,7 +11983,10 @@ export interface News {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -11058,8 +12060,18 @@ export interface News {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -11067,6 +12079,7 @@ export interface News {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -11332,6 +12345,14 @@ export interface News {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
+				layout?: ("vertical" | "horizontal") | null;
 				indicatorType: "number" | "icon";
 				items?:
 					| {
@@ -11366,6 +12387,38 @@ export interface News {
 							id?: string | null;
 					  }[]
 					| null;
+				criteria?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					tags?:
+						| {
+								label: string;
+								id?: string | null;
+						  }[]
+						| null;
+				};
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "timeline";
@@ -11731,6 +12784,12 @@ export interface Attraction {
 					[k: string]: unknown;
 				} | null;
 				note?: string | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -11780,7 +12839,10 @@ export interface Attraction {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -11854,8 +12916,18 @@ export interface Attraction {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -11863,6 +12935,7 @@ export interface Attraction {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -11911,8 +12984,15 @@ export interface Attraction {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				gridClassName?: string | null;
-				displayMode?: ("grid" | "carousel") | null;
+				displayMode?: ("grid" | "carousel" | "mosaic") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -11985,7 +13065,10 @@ export interface Attraction {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -12063,8 +13146,20 @@ export interface Attraction {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -12072,6 +13167,9 @@ export interface Attraction {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -12114,7 +13212,10 @@ export interface Attraction {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -12192,8 +13293,20 @@ export interface Attraction {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -12201,6 +13314,9 @@ export interface Attraction {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -12249,7 +13365,10 @@ export interface Attraction {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -12323,8 +13442,18 @@ export interface Attraction {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -12332,6 +13461,7 @@ export interface Attraction {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -12597,6 +13727,14 @@ export interface Attraction {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
+				layout?: ("vertical" | "horizontal") | null;
 				indicatorType: "number" | "icon";
 				items?:
 					| {
@@ -12631,6 +13769,38 @@ export interface Attraction {
 							id?: string | null;
 					  }[]
 					| null;
+				criteria?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					tags?:
+						| {
+								label: string;
+								id?: string | null;
+						  }[]
+						| null;
+				};
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "timeline";
@@ -12996,6 +14166,12 @@ export interface Page {
 					[k: string]: unknown;
 				} | null;
 				note?: string | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -13045,7 +14221,10 @@ export interface Page {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -13119,8 +14298,18 @@ export interface Page {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -13128,6 +14317,7 @@ export interface Page {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -13176,8 +14366,15 @@ export interface Page {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
 				gridClassName?: string | null;
-				displayMode?: ("grid" | "carousel") | null;
+				displayMode?: ("grid" | "carousel" | "mosaic") | null;
 				actions?:
 					| {
 							type: "mailto" | "link" | "tel" | "form";
@@ -13250,7 +14447,10 @@ export interface Page {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -13328,8 +14528,20 @@ export interface Page {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -13337,6 +14549,9 @@ export interface Page {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -13379,7 +14594,10 @@ export interface Page {
 											| "miniTable"
 											| "portrait"
 											| "catalogFeed"
-											| "tourDestination";
+											| "tourDestination"
+											| "blitzQa"
+											| "mosaicTile"
+											| "valuePoint";
 										relatedDoc?:
 											| ({
 													relationTo: "routes";
@@ -13457,8 +14675,20 @@ export interface Page {
 											};
 											[k: string]: unknown;
 										} | null;
+										caption?: string | null;
+										quoteVariant?:
+											| ("default" | "wide")
+											| null;
 										meta?: string | null;
 										value?: string | null;
+										label?: string | null;
+										hint?: string | null;
+										langs?:
+											| {
+													code: string;
+													id?: string | null;
+											  }[]
+											| null;
 										cities?:
 											| {
 													name?: string | null;
@@ -13466,6 +14696,9 @@ export interface Page {
 											  }[]
 											| null;
 										featured?: boolean | null;
+										span?:
+											| ("default" | "wide" | "large")
+											| null;
 										ctaHref?: string | null;
 										ctaLabel?: string | null;
 										stand?: string | null;
@@ -13514,7 +14747,10 @@ export interface Page {
 								| "miniTable"
 								| "portrait"
 								| "catalogFeed"
-								| "tourDestination";
+								| "tourDestination"
+								| "blitzQa"
+								| "mosaicTile"
+								| "valuePoint";
 							relatedDoc?:
 								| ({
 										relationTo: "routes";
@@ -13588,8 +14824,18 @@ export interface Page {
 								};
 								[k: string]: unknown;
 							} | null;
+							caption?: string | null;
+							quoteVariant?: ("default" | "wide") | null;
 							meta?: string | null;
 							value?: string | null;
+							label?: string | null;
+							hint?: string | null;
+							langs?:
+								| {
+										code: string;
+										id?: string | null;
+								  }[]
+								| null;
 							cities?:
 								| {
 										name?: string | null;
@@ -13597,6 +14843,7 @@ export interface Page {
 								  }[]
 								| null;
 							featured?: boolean | null;
+							span?: ("default" | "wide" | "large") | null;
 							ctaHref?: string | null;
 							ctaLabel?: string | null;
 							stand?: string | null;
@@ -13862,6 +15109,14 @@ export interface Page {
 					};
 					[k: string]: unknown;
 				} | null;
+				tone?: ("default" | "tint" | "warm") | null;
+				tags?:
+					| {
+							label: string;
+							id?: string | null;
+					  }[]
+					| null;
+				layout?: ("vertical" | "horizontal") | null;
 				indicatorType: "number" | "icon";
 				items?:
 					| {
@@ -13896,6 +15151,38 @@ export interface Page {
 							id?: string | null;
 					  }[]
 					| null;
+				criteria?: {
+					label?: string | null;
+					title?: string | null;
+					description?: {
+						root: {
+							type: string;
+							children: {
+								type: any;
+								version: number;
+								[k: string]: unknown;
+							}[];
+							direction: ("ltr" | "rtl") | null;
+							format:
+								| "left"
+								| "start"
+								| "center"
+								| "right"
+								| "end"
+								| "justify"
+								| "";
+							indent: number;
+							version: number;
+						};
+						[k: string]: unknown;
+					} | null;
+					tags?:
+						| {
+								label: string;
+								id?: string | null;
+						  }[]
+						| null;
+				};
 				id?: string | null;
 				blockName?: string | null;
 				blockType: "timeline";
@@ -14362,6 +15649,12 @@ export interface CountriesSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							note?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							actions?:
 								| T
 								| {
@@ -14392,8 +15685,18 @@ export interface CountriesSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -14401,6 +15704,7 @@ export interface CountriesSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -14428,6 +15732,13 @@ export interface CountriesSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							gridClassName?: T;
 							displayMode?: T;
 							actions?:
@@ -14458,8 +15769,18 @@ export interface CountriesSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -14467,6 +15788,7 @@ export interface CountriesSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -14497,8 +15819,18 @@ export interface CountriesSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -14506,6 +15838,7 @@ export interface CountriesSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -14538,8 +15871,18 @@ export interface CountriesSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -14547,6 +15890,7 @@ export interface CountriesSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -14646,6 +15990,14 @@ export interface CountriesSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
+							layout?: T;
 							indicatorType?: T;
 							items?:
 								| T
@@ -14655,6 +16007,19 @@ export interface CountriesSelect<T extends boolean = true> {
 										date?: T;
 										icon?: T;
 										id?: T;
+								  };
+							criteria?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+										tags?:
+											| T
+											| {
+													label?: T;
+													id?: T;
+											  };
 								  };
 							id?: T;
 							blockName?: T;
@@ -14792,6 +16157,12 @@ export interface RegionsSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							note?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							actions?:
 								| T
 								| {
@@ -14822,8 +16193,18 @@ export interface RegionsSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -14831,6 +16212,7 @@ export interface RegionsSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -14858,6 +16240,13 @@ export interface RegionsSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							gridClassName?: T;
 							displayMode?: T;
 							actions?:
@@ -14888,8 +16277,18 @@ export interface RegionsSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -14897,6 +16296,7 @@ export interface RegionsSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -14927,8 +16327,18 @@ export interface RegionsSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -14936,6 +16346,7 @@ export interface RegionsSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -14968,8 +16379,18 @@ export interface RegionsSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -14977,6 +16398,7 @@ export interface RegionsSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -15076,6 +16498,14 @@ export interface RegionsSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
+							layout?: T;
 							indicatorType?: T;
 							items?:
 								| T
@@ -15085,6 +16515,19 @@ export interface RegionsSelect<T extends boolean = true> {
 										date?: T;
 										icon?: T;
 										id?: T;
+								  };
+							criteria?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+										tags?:
+											| T
+											| {
+													label?: T;
+													id?: T;
+											  };
 								  };
 							id?: T;
 							blockName?: T;
@@ -15216,6 +16659,12 @@ export interface CitiesSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							note?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							actions?:
 								| T
 								| {
@@ -15246,8 +16695,18 @@ export interface CitiesSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -15255,6 +16714,7 @@ export interface CitiesSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -15282,6 +16742,13 @@ export interface CitiesSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							gridClassName?: T;
 							displayMode?: T;
 							actions?:
@@ -15312,8 +16779,18 @@ export interface CitiesSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -15321,6 +16798,7 @@ export interface CitiesSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -15351,8 +16829,18 @@ export interface CitiesSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -15360,6 +16848,7 @@ export interface CitiesSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -15392,8 +16881,18 @@ export interface CitiesSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -15401,6 +16900,7 @@ export interface CitiesSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -15500,6 +17000,14 @@ export interface CitiesSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
+							layout?: T;
 							indicatorType?: T;
 							items?:
 								| T
@@ -15509,6 +17017,19 @@ export interface CitiesSelect<T extends boolean = true> {
 										date?: T;
 										icon?: T;
 										id?: T;
+								  };
+							criteria?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+										tags?:
+											| T
+											| {
+													label?: T;
+													id?: T;
+											  };
 								  };
 							id?: T;
 							blockName?: T;
@@ -15646,6 +17167,12 @@ export interface AttractionsSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							note?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							actions?:
 								| T
 								| {
@@ -15676,8 +17203,18 @@ export interface AttractionsSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -15685,6 +17222,7 @@ export interface AttractionsSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -15712,6 +17250,13 @@ export interface AttractionsSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							gridClassName?: T;
 							displayMode?: T;
 							actions?:
@@ -15742,8 +17287,18 @@ export interface AttractionsSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -15751,6 +17306,7 @@ export interface AttractionsSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -15781,8 +17337,18 @@ export interface AttractionsSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -15790,6 +17356,7 @@ export interface AttractionsSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -15822,8 +17389,18 @@ export interface AttractionsSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -15831,6 +17408,7 @@ export interface AttractionsSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -15930,6 +17508,14 @@ export interface AttractionsSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
+							layout?: T;
 							indicatorType?: T;
 							items?:
 								| T
@@ -15939,6 +17525,19 @@ export interface AttractionsSelect<T extends boolean = true> {
 										date?: T;
 										icon?: T;
 										id?: T;
+								  };
+							criteria?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+										tags?:
+											| T
+											| {
+													label?: T;
+													id?: T;
+											  };
 								  };
 							id?: T;
 							blockName?: T;
@@ -16077,6 +17676,12 @@ export interface RoutesSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							note?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							actions?:
 								| T
 								| {
@@ -16107,8 +17712,18 @@ export interface RoutesSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -16116,6 +17731,7 @@ export interface RoutesSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -16143,6 +17759,13 @@ export interface RoutesSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							gridClassName?: T;
 							displayMode?: T;
 							actions?:
@@ -16173,8 +17796,18 @@ export interface RoutesSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -16182,6 +17815,7 @@ export interface RoutesSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -16212,8 +17846,18 @@ export interface RoutesSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -16221,6 +17865,7 @@ export interface RoutesSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -16253,8 +17898,18 @@ export interface RoutesSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -16262,6 +17917,7 @@ export interface RoutesSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -16361,6 +18017,14 @@ export interface RoutesSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
+							layout?: T;
 							indicatorType?: T;
 							items?:
 								| T
@@ -16370,6 +18034,19 @@ export interface RoutesSelect<T extends boolean = true> {
 										date?: T;
 										icon?: T;
 										id?: T;
+								  };
+							criteria?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+										tags?:
+											| T
+											| {
+													label?: T;
+													id?: T;
+											  };
 								  };
 							id?: T;
 							blockName?: T;
@@ -16523,6 +18200,12 @@ export interface ExperiencesSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							note?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							actions?:
 								| T
 								| {
@@ -16553,8 +18236,18 @@ export interface ExperiencesSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -16562,6 +18255,7 @@ export interface ExperiencesSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -16589,6 +18283,13 @@ export interface ExperiencesSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							gridClassName?: T;
 							displayMode?: T;
 							actions?:
@@ -16619,8 +18320,18 @@ export interface ExperiencesSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -16628,6 +18339,7 @@ export interface ExperiencesSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -16658,8 +18370,18 @@ export interface ExperiencesSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -16667,6 +18389,7 @@ export interface ExperiencesSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -16699,8 +18422,18 @@ export interface ExperiencesSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -16708,6 +18441,7 @@ export interface ExperiencesSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -16807,6 +18541,14 @@ export interface ExperiencesSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
+							layout?: T;
 							indicatorType?: T;
 							items?:
 								| T
@@ -16816,6 +18558,19 @@ export interface ExperiencesSelect<T extends boolean = true> {
 										date?: T;
 										icon?: T;
 										id?: T;
+								  };
+							criteria?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+										tags?:
+											| T
+											| {
+													label?: T;
+													id?: T;
+											  };
 								  };
 							id?: T;
 							blockName?: T;
@@ -16951,6 +18706,12 @@ export interface TradeFairsSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							note?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							actions?:
 								| T
 								| {
@@ -16981,8 +18742,18 @@ export interface TradeFairsSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -16990,6 +18761,7 @@ export interface TradeFairsSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -17017,6 +18789,13 @@ export interface TradeFairsSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							gridClassName?: T;
 							displayMode?: T;
 							actions?:
@@ -17047,8 +18826,18 @@ export interface TradeFairsSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -17056,6 +18845,7 @@ export interface TradeFairsSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -17086,8 +18876,18 @@ export interface TradeFairsSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -17095,6 +18895,7 @@ export interface TradeFairsSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -17127,8 +18928,18 @@ export interface TradeFairsSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -17136,6 +18947,7 @@ export interface TradeFairsSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -17235,6 +19047,14 @@ export interface TradeFairsSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
+							layout?: T;
 							indicatorType?: T;
 							items?:
 								| T
@@ -17244,6 +19064,19 @@ export interface TradeFairsSelect<T extends boolean = true> {
 										date?: T;
 										icon?: T;
 										id?: T;
+								  };
+							criteria?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+										tags?:
+											| T
+											| {
+													label?: T;
+													id?: T;
+											  };
 								  };
 							id?: T;
 							blockName?: T;
@@ -17381,6 +19214,12 @@ export interface BlogSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							note?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							actions?:
 								| T
 								| {
@@ -17411,8 +19250,18 @@ export interface BlogSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -17420,6 +19269,7 @@ export interface BlogSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -17447,6 +19297,13 @@ export interface BlogSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							gridClassName?: T;
 							displayMode?: T;
 							actions?:
@@ -17477,8 +19334,18 @@ export interface BlogSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -17486,6 +19353,7 @@ export interface BlogSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -17516,8 +19384,18 @@ export interface BlogSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -17525,6 +19403,7 @@ export interface BlogSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -17557,8 +19436,18 @@ export interface BlogSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -17566,6 +19455,7 @@ export interface BlogSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -17665,6 +19555,14 @@ export interface BlogSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
+							layout?: T;
 							indicatorType?: T;
 							items?:
 								| T
@@ -17674,6 +19572,19 @@ export interface BlogSelect<T extends boolean = true> {
 										date?: T;
 										icon?: T;
 										id?: T;
+								  };
+							criteria?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+										tags?:
+											| T
+											| {
+													label?: T;
+													id?: T;
+											  };
 								  };
 							id?: T;
 							blockName?: T;
@@ -17805,6 +19716,12 @@ export interface NewsSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							note?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							actions?:
 								| T
 								| {
@@ -17835,8 +19752,18 @@ export interface NewsSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -17844,6 +19771,7 @@ export interface NewsSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -17871,6 +19799,13 @@ export interface NewsSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							gridClassName?: T;
 							displayMode?: T;
 							actions?:
@@ -17901,8 +19836,18 @@ export interface NewsSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -17910,6 +19855,7 @@ export interface NewsSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -17940,8 +19886,18 @@ export interface NewsSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -17949,6 +19905,7 @@ export interface NewsSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -17981,8 +19938,18 @@ export interface NewsSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -17990,6 +19957,7 @@ export interface NewsSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -18089,6 +20057,14 @@ export interface NewsSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
+							layout?: T;
 							indicatorType?: T;
 							items?:
 								| T
@@ -18098,6 +20074,19 @@ export interface NewsSelect<T extends boolean = true> {
 										date?: T;
 										icon?: T;
 										id?: T;
+								  };
+							criteria?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+										tags?:
+											| T
+											| {
+													label?: T;
+													id?: T;
+											  };
 								  };
 							id?: T;
 							blockName?: T;
@@ -18231,6 +20220,12 @@ export interface PagesSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							note?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							actions?:
 								| T
 								| {
@@ -18261,8 +20256,18 @@ export interface PagesSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -18270,6 +20275,7 @@ export interface PagesSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -18297,6 +20303,13 @@ export interface PagesSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							gridClassName?: T;
 							displayMode?: T;
 							actions?:
@@ -18327,8 +20340,18 @@ export interface PagesSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -18336,6 +20359,7 @@ export interface PagesSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -18366,8 +20390,18 @@ export interface PagesSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -18375,6 +20409,7 @@ export interface PagesSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -18407,8 +20442,18 @@ export interface PagesSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -18416,6 +20461,7 @@ export interface PagesSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -18515,6 +20561,14 @@ export interface PagesSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
+							layout?: T;
 							indicatorType?: T;
 							items?:
 								| T
@@ -18524,6 +20578,19 @@ export interface PagesSelect<T extends boolean = true> {
 										date?: T;
 										icon?: T;
 										id?: T;
+								  };
+							criteria?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+										tags?:
+											| T
+											| {
+													label?: T;
+													id?: T;
+											  };
 								  };
 							id?: T;
 							blockName?: T;
@@ -18657,6 +20724,12 @@ export interface ThemesSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							note?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							actions?:
 								| T
 								| {
@@ -18687,8 +20760,18 @@ export interface ThemesSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -18696,6 +20779,7 @@ export interface ThemesSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -18723,6 +20807,13 @@ export interface ThemesSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							gridClassName?: T;
 							displayMode?: T;
 							actions?:
@@ -18753,8 +20844,18 @@ export interface ThemesSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -18762,6 +20863,7 @@ export interface ThemesSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -18792,8 +20894,18 @@ export interface ThemesSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -18801,6 +20913,7 @@ export interface ThemesSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -18833,8 +20946,18 @@ export interface ThemesSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -18842,6 +20965,7 @@ export interface ThemesSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -18941,6 +21065,14 @@ export interface ThemesSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
+							layout?: T;
 							indicatorType?: T;
 							items?:
 								| T
@@ -18950,6 +21082,19 @@ export interface ThemesSelect<T extends boolean = true> {
 										date?: T;
 										icon?: T;
 										id?: T;
+								  };
+							criteria?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+										tags?:
+											| T
+											| {
+													label?: T;
+													id?: T;
+											  };
 								  };
 							id?: T;
 							blockName?: T;
@@ -19198,6 +21343,12 @@ export interface Homepage {
 							[k: string]: unknown;
 						} | null;
 						note?: string | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -19247,7 +21398,10 @@ export interface Homepage {
 										| "miniTable"
 										| "portrait"
 										| "catalogFeed"
-										| "tourDestination";
+										| "tourDestination"
+										| "blitzQa"
+										| "mosaicTile"
+										| "valuePoint";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -19321,8 +21475,18 @@ export interface Homepage {
 										};
 										[k: string]: unknown;
 									} | null;
+									caption?: string | null;
+									quoteVariant?: ("default" | "wide") | null;
 									meta?: string | null;
 									value?: string | null;
+									label?: string | null;
+									hint?: string | null;
+									langs?:
+										| {
+												code: string;
+												id?: string | null;
+										  }[]
+										| null;
 									cities?:
 										| {
 												name?: string | null;
@@ -19330,6 +21494,9 @@ export interface Homepage {
 										  }[]
 										| null;
 									featured?: boolean | null;
+									span?:
+										| ("default" | "wide" | "large")
+										| null;
 									ctaHref?: string | null;
 									ctaLabel?: string | null;
 									stand?: string | null;
@@ -19378,8 +21545,15 @@ export interface Homepage {
 							};
 							[k: string]: unknown;
 						} | null;
+						tone?: ("default" | "tint" | "warm") | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
 						gridClassName?: string | null;
-						displayMode?: ("grid" | "carousel") | null;
+						displayMode?: ("grid" | "carousel" | "mosaic") | null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -19452,7 +21626,10 @@ export interface Homepage {
 													| "miniTable"
 													| "portrait"
 													| "catalogFeed"
-													| "tourDestination";
+													| "tourDestination"
+													| "blitzQa"
+													| "mosaicTile"
+													| "valuePoint";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -19544,8 +21721,20 @@ export interface Homepage {
 													};
 													[k: string]: unknown;
 												} | null;
+												caption?: string | null;
+												quoteVariant?:
+													| ("default" | "wide")
+													| null;
 												meta?: string | null;
 												value?: string | null;
+												label?: string | null;
+												hint?: string | null;
+												langs?:
+													| {
+															code: string;
+															id?: string | null;
+													  }[]
+													| null;
 												cities?:
 													| {
 															name?:
@@ -19555,6 +21744,13 @@ export interface Homepage {
 													  }[]
 													| null;
 												featured?: boolean | null;
+												span?:
+													| (
+															| "default"
+															| "wide"
+															| "large"
+													  )
+													| null;
 												ctaHref?: string | null;
 												ctaLabel?: string | null;
 												stand?: string | null;
@@ -19601,7 +21797,10 @@ export interface Homepage {
 													| "miniTable"
 													| "portrait"
 													| "catalogFeed"
-													| "tourDestination";
+													| "tourDestination"
+													| "blitzQa"
+													| "mosaicTile"
+													| "valuePoint";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -19693,8 +21892,20 @@ export interface Homepage {
 													};
 													[k: string]: unknown;
 												} | null;
+												caption?: string | null;
+												quoteVariant?:
+													| ("default" | "wide")
+													| null;
 												meta?: string | null;
 												value?: string | null;
+												label?: string | null;
+												hint?: string | null;
+												langs?:
+													| {
+															code: string;
+															id?: string | null;
+													  }[]
+													| null;
 												cities?:
 													| {
 															name?:
@@ -19704,6 +21915,13 @@ export interface Homepage {
 													  }[]
 													| null;
 												featured?: boolean | null;
+												span?:
+													| (
+															| "default"
+															| "wide"
+															| "large"
+													  )
+													| null;
 												ctaHref?: string | null;
 												ctaLabel?: string | null;
 												stand?: string | null;
@@ -19756,7 +21974,10 @@ export interface Homepage {
 										| "miniTable"
 										| "portrait"
 										| "catalogFeed"
-										| "tourDestination";
+										| "tourDestination"
+										| "blitzQa"
+										| "mosaicTile"
+										| "valuePoint";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -19830,8 +22051,18 @@ export interface Homepage {
 										};
 										[k: string]: unknown;
 									} | null;
+									caption?: string | null;
+									quoteVariant?: ("default" | "wide") | null;
 									meta?: string | null;
 									value?: string | null;
+									label?: string | null;
+									hint?: string | null;
+									langs?:
+										| {
+												code: string;
+												id?: string | null;
+										  }[]
+										| null;
 									cities?:
 										| {
 												name?: string | null;
@@ -19839,6 +22070,9 @@ export interface Homepage {
 										  }[]
 										| null;
 									featured?: boolean | null;
+									span?:
+										| ("default" | "wide" | "large")
+										| null;
 									ctaHref?: string | null;
 									ctaLabel?: string | null;
 									stand?: string | null;
@@ -20108,6 +22342,14 @@ export interface Homepage {
 							};
 							[k: string]: unknown;
 						} | null;
+						tone?: ("default" | "tint" | "warm") | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
+						layout?: ("vertical" | "horizontal") | null;
 						indicatorType: "number" | "icon";
 						items?:
 							| {
@@ -20142,6 +22384,38 @@ export interface Homepage {
 									id?: string | null;
 							  }[]
 							| null;
+						criteria?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+							tags?:
+								| {
+										label: string;
+										id?: string | null;
+								  }[]
+								| null;
+						};
 						id?: string | null;
 						blockName?: string | null;
 						blockType: "timeline";
@@ -20441,8 +22715,15 @@ export interface Tour {
 							};
 							[k: string]: unknown;
 						} | null;
+						tone?: ("default" | "tint" | "warm") | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
 						gridClassName?: string | null;
-						displayMode?: ("grid" | "carousel") | null;
+						displayMode?: ("grid" | "carousel" | "mosaic") | null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -20515,7 +22796,10 @@ export interface Tour {
 													| "miniTable"
 													| "portrait"
 													| "catalogFeed"
-													| "tourDestination";
+													| "tourDestination"
+													| "blitzQa"
+													| "mosaicTile"
+													| "valuePoint";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -20607,8 +22891,20 @@ export interface Tour {
 													};
 													[k: string]: unknown;
 												} | null;
+												caption?: string | null;
+												quoteVariant?:
+													| ("default" | "wide")
+													| null;
 												meta?: string | null;
 												value?: string | null;
+												label?: string | null;
+												hint?: string | null;
+												langs?:
+													| {
+															code: string;
+															id?: string | null;
+													  }[]
+													| null;
 												cities?:
 													| {
 															name?:
@@ -20618,6 +22914,13 @@ export interface Tour {
 													  }[]
 													| null;
 												featured?: boolean | null;
+												span?:
+													| (
+															| "default"
+															| "wide"
+															| "large"
+													  )
+													| null;
 												ctaHref?: string | null;
 												ctaLabel?: string | null;
 												stand?: string | null;
@@ -20664,7 +22967,10 @@ export interface Tour {
 													| "miniTable"
 													| "portrait"
 													| "catalogFeed"
-													| "tourDestination";
+													| "tourDestination"
+													| "blitzQa"
+													| "mosaicTile"
+													| "valuePoint";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -20756,8 +23062,20 @@ export interface Tour {
 													};
 													[k: string]: unknown;
 												} | null;
+												caption?: string | null;
+												quoteVariant?:
+													| ("default" | "wide")
+													| null;
 												meta?: string | null;
 												value?: string | null;
+												label?: string | null;
+												hint?: string | null;
+												langs?:
+													| {
+															code: string;
+															id?: string | null;
+													  }[]
+													| null;
 												cities?:
 													| {
 															name?:
@@ -20767,6 +23085,13 @@ export interface Tour {
 													  }[]
 													| null;
 												featured?: boolean | null;
+												span?:
+													| (
+															| "default"
+															| "wide"
+															| "large"
+													  )
+													| null;
 												ctaHref?: string | null;
 												ctaLabel?: string | null;
 												stand?: string | null;
@@ -20819,7 +23144,10 @@ export interface Tour {
 										| "miniTable"
 										| "portrait"
 										| "catalogFeed"
-										| "tourDestination";
+										| "tourDestination"
+										| "blitzQa"
+										| "mosaicTile"
+										| "valuePoint";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -20893,8 +23221,18 @@ export interface Tour {
 										};
 										[k: string]: unknown;
 									} | null;
+									caption?: string | null;
+									quoteVariant?: ("default" | "wide") | null;
 									meta?: string | null;
 									value?: string | null;
+									label?: string | null;
+									hint?: string | null;
+									langs?:
+										| {
+												code: string;
+												id?: string | null;
+										  }[]
+										| null;
 									cities?:
 										| {
 												name?: string | null;
@@ -20902,6 +23240,9 @@ export interface Tour {
 										  }[]
 										| null;
 									featured?: boolean | null;
+									span?:
+										| ("default" | "wide" | "large")
+										| null;
 									ctaHref?: string | null;
 									ctaLabel?: string | null;
 									stand?: string | null;
@@ -21122,6 +23463,12 @@ export interface Destination {
 							[k: string]: unknown;
 						} | null;
 						note?: string | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -21171,7 +23518,10 @@ export interface Destination {
 										| "miniTable"
 										| "portrait"
 										| "catalogFeed"
-										| "tourDestination";
+										| "tourDestination"
+										| "blitzQa"
+										| "mosaicTile"
+										| "valuePoint";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -21245,8 +23595,18 @@ export interface Destination {
 										};
 										[k: string]: unknown;
 									} | null;
+									caption?: string | null;
+									quoteVariant?: ("default" | "wide") | null;
 									meta?: string | null;
 									value?: string | null;
+									label?: string | null;
+									hint?: string | null;
+									langs?:
+										| {
+												code: string;
+												id?: string | null;
+										  }[]
+										| null;
 									cities?:
 										| {
 												name?: string | null;
@@ -21254,6 +23614,9 @@ export interface Destination {
 										  }[]
 										| null;
 									featured?: boolean | null;
+									span?:
+										| ("default" | "wide" | "large")
+										| null;
 									ctaHref?: string | null;
 									ctaLabel?: string | null;
 									stand?: string | null;
@@ -21302,8 +23665,15 @@ export interface Destination {
 							};
 							[k: string]: unknown;
 						} | null;
+						tone?: ("default" | "tint" | "warm") | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
 						gridClassName?: string | null;
-						displayMode?: ("grid" | "carousel") | null;
+						displayMode?: ("grid" | "carousel" | "mosaic") | null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -21376,7 +23746,10 @@ export interface Destination {
 													| "miniTable"
 													| "portrait"
 													| "catalogFeed"
-													| "tourDestination";
+													| "tourDestination"
+													| "blitzQa"
+													| "mosaicTile"
+													| "valuePoint";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -21468,8 +23841,20 @@ export interface Destination {
 													};
 													[k: string]: unknown;
 												} | null;
+												caption?: string | null;
+												quoteVariant?:
+													| ("default" | "wide")
+													| null;
 												meta?: string | null;
 												value?: string | null;
+												label?: string | null;
+												hint?: string | null;
+												langs?:
+													| {
+															code: string;
+															id?: string | null;
+													  }[]
+													| null;
 												cities?:
 													| {
 															name?:
@@ -21479,6 +23864,13 @@ export interface Destination {
 													  }[]
 													| null;
 												featured?: boolean | null;
+												span?:
+													| (
+															| "default"
+															| "wide"
+															| "large"
+													  )
+													| null;
 												ctaHref?: string | null;
 												ctaLabel?: string | null;
 												stand?: string | null;
@@ -21525,7 +23917,10 @@ export interface Destination {
 													| "miniTable"
 													| "portrait"
 													| "catalogFeed"
-													| "tourDestination";
+													| "tourDestination"
+													| "blitzQa"
+													| "mosaicTile"
+													| "valuePoint";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -21617,8 +24012,20 @@ export interface Destination {
 													};
 													[k: string]: unknown;
 												} | null;
+												caption?: string | null;
+												quoteVariant?:
+													| ("default" | "wide")
+													| null;
 												meta?: string | null;
 												value?: string | null;
+												label?: string | null;
+												hint?: string | null;
+												langs?:
+													| {
+															code: string;
+															id?: string | null;
+													  }[]
+													| null;
 												cities?:
 													| {
 															name?:
@@ -21628,6 +24035,13 @@ export interface Destination {
 													  }[]
 													| null;
 												featured?: boolean | null;
+												span?:
+													| (
+															| "default"
+															| "wide"
+															| "large"
+													  )
+													| null;
 												ctaHref?: string | null;
 												ctaLabel?: string | null;
 												stand?: string | null;
@@ -21680,7 +24094,10 @@ export interface Destination {
 										| "miniTable"
 										| "portrait"
 										| "catalogFeed"
-										| "tourDestination";
+										| "tourDestination"
+										| "blitzQa"
+										| "mosaicTile"
+										| "valuePoint";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -21754,8 +24171,18 @@ export interface Destination {
 										};
 										[k: string]: unknown;
 									} | null;
+									caption?: string | null;
+									quoteVariant?: ("default" | "wide") | null;
 									meta?: string | null;
 									value?: string | null;
+									label?: string | null;
+									hint?: string | null;
+									langs?:
+										| {
+												code: string;
+												id?: string | null;
+										  }[]
+										| null;
 									cities?:
 										| {
 												name?: string | null;
@@ -21763,6 +24190,9 @@ export interface Destination {
 										  }[]
 										| null;
 									featured?: boolean | null;
+									span?:
+										| ("default" | "wide" | "large")
+										| null;
 									ctaHref?: string | null;
 									ctaLabel?: string | null;
 									stand?: string | null;
@@ -22032,6 +24462,14 @@ export interface Destination {
 							};
 							[k: string]: unknown;
 						} | null;
+						tone?: ("default" | "tint" | "warm") | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
+						layout?: ("vertical" | "horizontal") | null;
 						indicatorType: "number" | "icon";
 						items?:
 							| {
@@ -22066,6 +24504,38 @@ export interface Destination {
 									id?: string | null;
 							  }[]
 							| null;
+						criteria?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+							tags?:
+								| {
+										label: string;
+										id?: string | null;
+								  }[]
+								| null;
+						};
 						id?: string | null;
 						blockName?: string | null;
 						blockType: "timeline";
@@ -22371,6 +24841,12 @@ export interface RoutesHub {
 							[k: string]: unknown;
 						} | null;
 						note?: string | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -22420,7 +24896,10 @@ export interface RoutesHub {
 										| "miniTable"
 										| "portrait"
 										| "catalogFeed"
-										| "tourDestination";
+										| "tourDestination"
+										| "blitzQa"
+										| "mosaicTile"
+										| "valuePoint";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -22494,8 +24973,18 @@ export interface RoutesHub {
 										};
 										[k: string]: unknown;
 									} | null;
+									caption?: string | null;
+									quoteVariant?: ("default" | "wide") | null;
 									meta?: string | null;
 									value?: string | null;
+									label?: string | null;
+									hint?: string | null;
+									langs?:
+										| {
+												code: string;
+												id?: string | null;
+										  }[]
+										| null;
 									cities?:
 										| {
 												name?: string | null;
@@ -22503,6 +24992,9 @@ export interface RoutesHub {
 										  }[]
 										| null;
 									featured?: boolean | null;
+									span?:
+										| ("default" | "wide" | "large")
+										| null;
 									ctaHref?: string | null;
 									ctaLabel?: string | null;
 									stand?: string | null;
@@ -22551,8 +25043,15 @@ export interface RoutesHub {
 							};
 							[k: string]: unknown;
 						} | null;
+						tone?: ("default" | "tint" | "warm") | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
 						gridClassName?: string | null;
-						displayMode?: ("grid" | "carousel") | null;
+						displayMode?: ("grid" | "carousel" | "mosaic") | null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -22625,7 +25124,10 @@ export interface RoutesHub {
 													| "miniTable"
 													| "portrait"
 													| "catalogFeed"
-													| "tourDestination";
+													| "tourDestination"
+													| "blitzQa"
+													| "mosaicTile"
+													| "valuePoint";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -22717,8 +25219,20 @@ export interface RoutesHub {
 													};
 													[k: string]: unknown;
 												} | null;
+												caption?: string | null;
+												quoteVariant?:
+													| ("default" | "wide")
+													| null;
 												meta?: string | null;
 												value?: string | null;
+												label?: string | null;
+												hint?: string | null;
+												langs?:
+													| {
+															code: string;
+															id?: string | null;
+													  }[]
+													| null;
 												cities?:
 													| {
 															name?:
@@ -22728,6 +25242,13 @@ export interface RoutesHub {
 													  }[]
 													| null;
 												featured?: boolean | null;
+												span?:
+													| (
+															| "default"
+															| "wide"
+															| "large"
+													  )
+													| null;
 												ctaHref?: string | null;
 												ctaLabel?: string | null;
 												stand?: string | null;
@@ -22774,7 +25295,10 @@ export interface RoutesHub {
 													| "miniTable"
 													| "portrait"
 													| "catalogFeed"
-													| "tourDestination";
+													| "tourDestination"
+													| "blitzQa"
+													| "mosaicTile"
+													| "valuePoint";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -22866,8 +25390,20 @@ export interface RoutesHub {
 													};
 													[k: string]: unknown;
 												} | null;
+												caption?: string | null;
+												quoteVariant?:
+													| ("default" | "wide")
+													| null;
 												meta?: string | null;
 												value?: string | null;
+												label?: string | null;
+												hint?: string | null;
+												langs?:
+													| {
+															code: string;
+															id?: string | null;
+													  }[]
+													| null;
 												cities?:
 													| {
 															name?:
@@ -22877,6 +25413,13 @@ export interface RoutesHub {
 													  }[]
 													| null;
 												featured?: boolean | null;
+												span?:
+													| (
+															| "default"
+															| "wide"
+															| "large"
+													  )
+													| null;
 												ctaHref?: string | null;
 												ctaLabel?: string | null;
 												stand?: string | null;
@@ -22929,7 +25472,10 @@ export interface RoutesHub {
 										| "miniTable"
 										| "portrait"
 										| "catalogFeed"
-										| "tourDestination";
+										| "tourDestination"
+										| "blitzQa"
+										| "mosaicTile"
+										| "valuePoint";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -23003,8 +25549,18 @@ export interface RoutesHub {
 										};
 										[k: string]: unknown;
 									} | null;
+									caption?: string | null;
+									quoteVariant?: ("default" | "wide") | null;
 									meta?: string | null;
 									value?: string | null;
+									label?: string | null;
+									hint?: string | null;
+									langs?:
+										| {
+												code: string;
+												id?: string | null;
+										  }[]
+										| null;
 									cities?:
 										| {
 												name?: string | null;
@@ -23012,6 +25568,9 @@ export interface RoutesHub {
 										  }[]
 										| null;
 									featured?: boolean | null;
+									span?:
+										| ("default" | "wide" | "large")
+										| null;
 									ctaHref?: string | null;
 									ctaLabel?: string | null;
 									stand?: string | null;
@@ -23281,6 +25840,14 @@ export interface RoutesHub {
 							};
 							[k: string]: unknown;
 						} | null;
+						tone?: ("default" | "tint" | "warm") | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
+						layout?: ("vertical" | "horizontal") | null;
 						indicatorType: "number" | "icon";
 						items?:
 							| {
@@ -23315,6 +25882,38 @@ export interface RoutesHub {
 									id?: string | null;
 							  }[]
 							| null;
+						criteria?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+							tags?:
+								| {
+										label: string;
+										id?: string | null;
+								  }[]
+								| null;
+						};
 						id?: string | null;
 						blockName?: string | null;
 						blockType: "timeline";
@@ -23620,6 +26219,12 @@ export interface ExperiencesHub {
 							[k: string]: unknown;
 						} | null;
 						note?: string | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -23669,7 +26274,10 @@ export interface ExperiencesHub {
 										| "miniTable"
 										| "portrait"
 										| "catalogFeed"
-										| "tourDestination";
+										| "tourDestination"
+										| "blitzQa"
+										| "mosaicTile"
+										| "valuePoint";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -23743,8 +26351,18 @@ export interface ExperiencesHub {
 										};
 										[k: string]: unknown;
 									} | null;
+									caption?: string | null;
+									quoteVariant?: ("default" | "wide") | null;
 									meta?: string | null;
 									value?: string | null;
+									label?: string | null;
+									hint?: string | null;
+									langs?:
+										| {
+												code: string;
+												id?: string | null;
+										  }[]
+										| null;
 									cities?:
 										| {
 												name?: string | null;
@@ -23752,6 +26370,9 @@ export interface ExperiencesHub {
 										  }[]
 										| null;
 									featured?: boolean | null;
+									span?:
+										| ("default" | "wide" | "large")
+										| null;
 									ctaHref?: string | null;
 									ctaLabel?: string | null;
 									stand?: string | null;
@@ -23800,8 +26421,15 @@ export interface ExperiencesHub {
 							};
 							[k: string]: unknown;
 						} | null;
+						tone?: ("default" | "tint" | "warm") | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
 						gridClassName?: string | null;
-						displayMode?: ("grid" | "carousel") | null;
+						displayMode?: ("grid" | "carousel" | "mosaic") | null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -23874,7 +26502,10 @@ export interface ExperiencesHub {
 													| "miniTable"
 													| "portrait"
 													| "catalogFeed"
-													| "tourDestination";
+													| "tourDestination"
+													| "blitzQa"
+													| "mosaicTile"
+													| "valuePoint";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -23966,8 +26597,20 @@ export interface ExperiencesHub {
 													};
 													[k: string]: unknown;
 												} | null;
+												caption?: string | null;
+												quoteVariant?:
+													| ("default" | "wide")
+													| null;
 												meta?: string | null;
 												value?: string | null;
+												label?: string | null;
+												hint?: string | null;
+												langs?:
+													| {
+															code: string;
+															id?: string | null;
+													  }[]
+													| null;
 												cities?:
 													| {
 															name?:
@@ -23977,6 +26620,13 @@ export interface ExperiencesHub {
 													  }[]
 													| null;
 												featured?: boolean | null;
+												span?:
+													| (
+															| "default"
+															| "wide"
+															| "large"
+													  )
+													| null;
 												ctaHref?: string | null;
 												ctaLabel?: string | null;
 												stand?: string | null;
@@ -24023,7 +26673,10 @@ export interface ExperiencesHub {
 													| "miniTable"
 													| "portrait"
 													| "catalogFeed"
-													| "tourDestination";
+													| "tourDestination"
+													| "blitzQa"
+													| "mosaicTile"
+													| "valuePoint";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -24115,8 +26768,20 @@ export interface ExperiencesHub {
 													};
 													[k: string]: unknown;
 												} | null;
+												caption?: string | null;
+												quoteVariant?:
+													| ("default" | "wide")
+													| null;
 												meta?: string | null;
 												value?: string | null;
+												label?: string | null;
+												hint?: string | null;
+												langs?:
+													| {
+															code: string;
+															id?: string | null;
+													  }[]
+													| null;
 												cities?:
 													| {
 															name?:
@@ -24126,6 +26791,13 @@ export interface ExperiencesHub {
 													  }[]
 													| null;
 												featured?: boolean | null;
+												span?:
+													| (
+															| "default"
+															| "wide"
+															| "large"
+													  )
+													| null;
 												ctaHref?: string | null;
 												ctaLabel?: string | null;
 												stand?: string | null;
@@ -24178,7 +26850,10 @@ export interface ExperiencesHub {
 										| "miniTable"
 										| "portrait"
 										| "catalogFeed"
-										| "tourDestination";
+										| "tourDestination"
+										| "blitzQa"
+										| "mosaicTile"
+										| "valuePoint";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -24252,8 +26927,18 @@ export interface ExperiencesHub {
 										};
 										[k: string]: unknown;
 									} | null;
+									caption?: string | null;
+									quoteVariant?: ("default" | "wide") | null;
 									meta?: string | null;
 									value?: string | null;
+									label?: string | null;
+									hint?: string | null;
+									langs?:
+										| {
+												code: string;
+												id?: string | null;
+										  }[]
+										| null;
 									cities?:
 										| {
 												name?: string | null;
@@ -24261,6 +26946,9 @@ export interface ExperiencesHub {
 										  }[]
 										| null;
 									featured?: boolean | null;
+									span?:
+										| ("default" | "wide" | "large")
+										| null;
 									ctaHref?: string | null;
 									ctaLabel?: string | null;
 									stand?: string | null;
@@ -24530,6 +27218,14 @@ export interface ExperiencesHub {
 							};
 							[k: string]: unknown;
 						} | null;
+						tone?: ("default" | "tint" | "warm") | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
+						layout?: ("vertical" | "horizontal") | null;
 						indicatorType: "number" | "icon";
 						items?:
 							| {
@@ -24564,6 +27260,38 @@ export interface ExperiencesHub {
 									id?: string | null;
 							  }[]
 							| null;
+						criteria?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+							tags?:
+								| {
+										label: string;
+										id?: string | null;
+								  }[]
+								| null;
+						};
 						id?: string | null;
 						blockName?: string | null;
 						blockType: "timeline";
@@ -24869,6 +27597,12 @@ export interface TradeFairsHub {
 							[k: string]: unknown;
 						} | null;
 						note?: string | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -24918,7 +27652,10 @@ export interface TradeFairsHub {
 										| "miniTable"
 										| "portrait"
 										| "catalogFeed"
-										| "tourDestination";
+										| "tourDestination"
+										| "blitzQa"
+										| "mosaicTile"
+										| "valuePoint";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -24992,8 +27729,18 @@ export interface TradeFairsHub {
 										};
 										[k: string]: unknown;
 									} | null;
+									caption?: string | null;
+									quoteVariant?: ("default" | "wide") | null;
 									meta?: string | null;
 									value?: string | null;
+									label?: string | null;
+									hint?: string | null;
+									langs?:
+										| {
+												code: string;
+												id?: string | null;
+										  }[]
+										| null;
 									cities?:
 										| {
 												name?: string | null;
@@ -25001,6 +27748,9 @@ export interface TradeFairsHub {
 										  }[]
 										| null;
 									featured?: boolean | null;
+									span?:
+										| ("default" | "wide" | "large")
+										| null;
 									ctaHref?: string | null;
 									ctaLabel?: string | null;
 									stand?: string | null;
@@ -25049,8 +27799,15 @@ export interface TradeFairsHub {
 							};
 							[k: string]: unknown;
 						} | null;
+						tone?: ("default" | "tint" | "warm") | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
 						gridClassName?: string | null;
-						displayMode?: ("grid" | "carousel") | null;
+						displayMode?: ("grid" | "carousel" | "mosaic") | null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -25123,7 +27880,10 @@ export interface TradeFairsHub {
 													| "miniTable"
 													| "portrait"
 													| "catalogFeed"
-													| "tourDestination";
+													| "tourDestination"
+													| "blitzQa"
+													| "mosaicTile"
+													| "valuePoint";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -25215,8 +27975,20 @@ export interface TradeFairsHub {
 													};
 													[k: string]: unknown;
 												} | null;
+												caption?: string | null;
+												quoteVariant?:
+													| ("default" | "wide")
+													| null;
 												meta?: string | null;
 												value?: string | null;
+												label?: string | null;
+												hint?: string | null;
+												langs?:
+													| {
+															code: string;
+															id?: string | null;
+													  }[]
+													| null;
 												cities?:
 													| {
 															name?:
@@ -25226,6 +27998,13 @@ export interface TradeFairsHub {
 													  }[]
 													| null;
 												featured?: boolean | null;
+												span?:
+													| (
+															| "default"
+															| "wide"
+															| "large"
+													  )
+													| null;
 												ctaHref?: string | null;
 												ctaLabel?: string | null;
 												stand?: string | null;
@@ -25272,7 +28051,10 @@ export interface TradeFairsHub {
 													| "miniTable"
 													| "portrait"
 													| "catalogFeed"
-													| "tourDestination";
+													| "tourDestination"
+													| "blitzQa"
+													| "mosaicTile"
+													| "valuePoint";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -25364,8 +28146,20 @@ export interface TradeFairsHub {
 													};
 													[k: string]: unknown;
 												} | null;
+												caption?: string | null;
+												quoteVariant?:
+													| ("default" | "wide")
+													| null;
 												meta?: string | null;
 												value?: string | null;
+												label?: string | null;
+												hint?: string | null;
+												langs?:
+													| {
+															code: string;
+															id?: string | null;
+													  }[]
+													| null;
 												cities?:
 													| {
 															name?:
@@ -25375,6 +28169,13 @@ export interface TradeFairsHub {
 													  }[]
 													| null;
 												featured?: boolean | null;
+												span?:
+													| (
+															| "default"
+															| "wide"
+															| "large"
+													  )
+													| null;
 												ctaHref?: string | null;
 												ctaLabel?: string | null;
 												stand?: string | null;
@@ -25427,7 +28228,10 @@ export interface TradeFairsHub {
 										| "miniTable"
 										| "portrait"
 										| "catalogFeed"
-										| "tourDestination";
+										| "tourDestination"
+										| "blitzQa"
+										| "mosaicTile"
+										| "valuePoint";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -25501,8 +28305,18 @@ export interface TradeFairsHub {
 										};
 										[k: string]: unknown;
 									} | null;
+									caption?: string | null;
+									quoteVariant?: ("default" | "wide") | null;
 									meta?: string | null;
 									value?: string | null;
+									label?: string | null;
+									hint?: string | null;
+									langs?:
+										| {
+												code: string;
+												id?: string | null;
+										  }[]
+										| null;
 									cities?:
 										| {
 												name?: string | null;
@@ -25510,6 +28324,9 @@ export interface TradeFairsHub {
 										  }[]
 										| null;
 									featured?: boolean | null;
+									span?:
+										| ("default" | "wide" | "large")
+										| null;
 									ctaHref?: string | null;
 									ctaLabel?: string | null;
 									stand?: string | null;
@@ -25779,6 +28596,14 @@ export interface TradeFairsHub {
 							};
 							[k: string]: unknown;
 						} | null;
+						tone?: ("default" | "tint" | "warm") | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
+						layout?: ("vertical" | "horizontal") | null;
 						indicatorType: "number" | "icon";
 						items?:
 							| {
@@ -25813,6 +28638,38 @@ export interface TradeFairsHub {
 									id?: string | null;
 							  }[]
 							| null;
+						criteria?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+							tags?:
+								| {
+										label: string;
+										id?: string | null;
+								  }[]
+								| null;
+						};
 						id?: string | null;
 						blockName?: string | null;
 						blockType: "timeline";
@@ -26118,6 +28975,12 @@ export interface BlogHub {
 							[k: string]: unknown;
 						} | null;
 						note?: string | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -26167,7 +29030,10 @@ export interface BlogHub {
 										| "miniTable"
 										| "portrait"
 										| "catalogFeed"
-										| "tourDestination";
+										| "tourDestination"
+										| "blitzQa"
+										| "mosaicTile"
+										| "valuePoint";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -26241,8 +29107,18 @@ export interface BlogHub {
 										};
 										[k: string]: unknown;
 									} | null;
+									caption?: string | null;
+									quoteVariant?: ("default" | "wide") | null;
 									meta?: string | null;
 									value?: string | null;
+									label?: string | null;
+									hint?: string | null;
+									langs?:
+										| {
+												code: string;
+												id?: string | null;
+										  }[]
+										| null;
 									cities?:
 										| {
 												name?: string | null;
@@ -26250,6 +29126,9 @@ export interface BlogHub {
 										  }[]
 										| null;
 									featured?: boolean | null;
+									span?:
+										| ("default" | "wide" | "large")
+										| null;
 									ctaHref?: string | null;
 									ctaLabel?: string | null;
 									stand?: string | null;
@@ -26298,8 +29177,15 @@ export interface BlogHub {
 							};
 							[k: string]: unknown;
 						} | null;
+						tone?: ("default" | "tint" | "warm") | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
 						gridClassName?: string | null;
-						displayMode?: ("grid" | "carousel") | null;
+						displayMode?: ("grid" | "carousel" | "mosaic") | null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -26372,7 +29258,10 @@ export interface BlogHub {
 													| "miniTable"
 													| "portrait"
 													| "catalogFeed"
-													| "tourDestination";
+													| "tourDestination"
+													| "blitzQa"
+													| "mosaicTile"
+													| "valuePoint";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -26464,8 +29353,20 @@ export interface BlogHub {
 													};
 													[k: string]: unknown;
 												} | null;
+												caption?: string | null;
+												quoteVariant?:
+													| ("default" | "wide")
+													| null;
 												meta?: string | null;
 												value?: string | null;
+												label?: string | null;
+												hint?: string | null;
+												langs?:
+													| {
+															code: string;
+															id?: string | null;
+													  }[]
+													| null;
 												cities?:
 													| {
 															name?:
@@ -26475,6 +29376,13 @@ export interface BlogHub {
 													  }[]
 													| null;
 												featured?: boolean | null;
+												span?:
+													| (
+															| "default"
+															| "wide"
+															| "large"
+													  )
+													| null;
 												ctaHref?: string | null;
 												ctaLabel?: string | null;
 												stand?: string | null;
@@ -26521,7 +29429,10 @@ export interface BlogHub {
 													| "miniTable"
 													| "portrait"
 													| "catalogFeed"
-													| "tourDestination";
+													| "tourDestination"
+													| "blitzQa"
+													| "mosaicTile"
+													| "valuePoint";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -26613,8 +29524,20 @@ export interface BlogHub {
 													};
 													[k: string]: unknown;
 												} | null;
+												caption?: string | null;
+												quoteVariant?:
+													| ("default" | "wide")
+													| null;
 												meta?: string | null;
 												value?: string | null;
+												label?: string | null;
+												hint?: string | null;
+												langs?:
+													| {
+															code: string;
+															id?: string | null;
+													  }[]
+													| null;
 												cities?:
 													| {
 															name?:
@@ -26624,6 +29547,13 @@ export interface BlogHub {
 													  }[]
 													| null;
 												featured?: boolean | null;
+												span?:
+													| (
+															| "default"
+															| "wide"
+															| "large"
+													  )
+													| null;
 												ctaHref?: string | null;
 												ctaLabel?: string | null;
 												stand?: string | null;
@@ -26676,7 +29606,10 @@ export interface BlogHub {
 										| "miniTable"
 										| "portrait"
 										| "catalogFeed"
-										| "tourDestination";
+										| "tourDestination"
+										| "blitzQa"
+										| "mosaicTile"
+										| "valuePoint";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -26750,8 +29683,18 @@ export interface BlogHub {
 										};
 										[k: string]: unknown;
 									} | null;
+									caption?: string | null;
+									quoteVariant?: ("default" | "wide") | null;
 									meta?: string | null;
 									value?: string | null;
+									label?: string | null;
+									hint?: string | null;
+									langs?:
+										| {
+												code: string;
+												id?: string | null;
+										  }[]
+										| null;
 									cities?:
 										| {
 												name?: string | null;
@@ -26759,6 +29702,9 @@ export interface BlogHub {
 										  }[]
 										| null;
 									featured?: boolean | null;
+									span?:
+										| ("default" | "wide" | "large")
+										| null;
 									ctaHref?: string | null;
 									ctaLabel?: string | null;
 									stand?: string | null;
@@ -27028,6 +29974,14 @@ export interface BlogHub {
 							};
 							[k: string]: unknown;
 						} | null;
+						tone?: ("default" | "tint" | "warm") | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
+						layout?: ("vertical" | "horizontal") | null;
 						indicatorType: "number" | "icon";
 						items?:
 							| {
@@ -27062,6 +30016,38 @@ export interface BlogHub {
 									id?: string | null;
 							  }[]
 							| null;
+						criteria?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+							tags?:
+								| {
+										label: string;
+										id?: string | null;
+								  }[]
+								| null;
+						};
 						id?: string | null;
 						blockName?: string | null;
 						blockType: "timeline";
@@ -27367,6 +30353,12 @@ export interface NewsHub {
 							[k: string]: unknown;
 						} | null;
 						note?: string | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -27416,7 +30408,10 @@ export interface NewsHub {
 										| "miniTable"
 										| "portrait"
 										| "catalogFeed"
-										| "tourDestination";
+										| "tourDestination"
+										| "blitzQa"
+										| "mosaicTile"
+										| "valuePoint";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -27490,8 +30485,18 @@ export interface NewsHub {
 										};
 										[k: string]: unknown;
 									} | null;
+									caption?: string | null;
+									quoteVariant?: ("default" | "wide") | null;
 									meta?: string | null;
 									value?: string | null;
+									label?: string | null;
+									hint?: string | null;
+									langs?:
+										| {
+												code: string;
+												id?: string | null;
+										  }[]
+										| null;
 									cities?:
 										| {
 												name?: string | null;
@@ -27499,6 +30504,9 @@ export interface NewsHub {
 										  }[]
 										| null;
 									featured?: boolean | null;
+									span?:
+										| ("default" | "wide" | "large")
+										| null;
 									ctaHref?: string | null;
 									ctaLabel?: string | null;
 									stand?: string | null;
@@ -27547,8 +30555,15 @@ export interface NewsHub {
 							};
 							[k: string]: unknown;
 						} | null;
+						tone?: ("default" | "tint" | "warm") | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
 						gridClassName?: string | null;
-						displayMode?: ("grid" | "carousel") | null;
+						displayMode?: ("grid" | "carousel" | "mosaic") | null;
 						actions?:
 							| {
 									type: "mailto" | "link" | "tel" | "form";
@@ -27621,7 +30636,10 @@ export interface NewsHub {
 													| "miniTable"
 													| "portrait"
 													| "catalogFeed"
-													| "tourDestination";
+													| "tourDestination"
+													| "blitzQa"
+													| "mosaicTile"
+													| "valuePoint";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -27713,8 +30731,20 @@ export interface NewsHub {
 													};
 													[k: string]: unknown;
 												} | null;
+												caption?: string | null;
+												quoteVariant?:
+													| ("default" | "wide")
+													| null;
 												meta?: string | null;
 												value?: string | null;
+												label?: string | null;
+												hint?: string | null;
+												langs?:
+													| {
+															code: string;
+															id?: string | null;
+													  }[]
+													| null;
 												cities?:
 													| {
 															name?:
@@ -27724,6 +30754,13 @@ export interface NewsHub {
 													  }[]
 													| null;
 												featured?: boolean | null;
+												span?:
+													| (
+															| "default"
+															| "wide"
+															| "large"
+													  )
+													| null;
 												ctaHref?: string | null;
 												ctaLabel?: string | null;
 												stand?: string | null;
@@ -27770,7 +30807,10 @@ export interface NewsHub {
 													| "miniTable"
 													| "portrait"
 													| "catalogFeed"
-													| "tourDestination";
+													| "tourDestination"
+													| "blitzQa"
+													| "mosaicTile"
+													| "valuePoint";
 												relatedDoc?:
 													| ({
 															relationTo: "routes";
@@ -27862,8 +30902,20 @@ export interface NewsHub {
 													};
 													[k: string]: unknown;
 												} | null;
+												caption?: string | null;
+												quoteVariant?:
+													| ("default" | "wide")
+													| null;
 												meta?: string | null;
 												value?: string | null;
+												label?: string | null;
+												hint?: string | null;
+												langs?:
+													| {
+															code: string;
+															id?: string | null;
+													  }[]
+													| null;
 												cities?:
 													| {
 															name?:
@@ -27873,6 +30925,13 @@ export interface NewsHub {
 													  }[]
 													| null;
 												featured?: boolean | null;
+												span?:
+													| (
+															| "default"
+															| "wide"
+															| "large"
+													  )
+													| null;
 												ctaHref?: string | null;
 												ctaLabel?: string | null;
 												stand?: string | null;
@@ -27925,7 +30984,10 @@ export interface NewsHub {
 										| "miniTable"
 										| "portrait"
 										| "catalogFeed"
-										| "tourDestination";
+										| "tourDestination"
+										| "blitzQa"
+										| "mosaicTile"
+										| "valuePoint";
 									relatedDoc?:
 										| ({
 												relationTo: "routes";
@@ -27999,8 +31061,18 @@ export interface NewsHub {
 										};
 										[k: string]: unknown;
 									} | null;
+									caption?: string | null;
+									quoteVariant?: ("default" | "wide") | null;
 									meta?: string | null;
 									value?: string | null;
+									label?: string | null;
+									hint?: string | null;
+									langs?:
+										| {
+												code: string;
+												id?: string | null;
+										  }[]
+										| null;
 									cities?:
 										| {
 												name?: string | null;
@@ -28008,6 +31080,9 @@ export interface NewsHub {
 										  }[]
 										| null;
 									featured?: boolean | null;
+									span?:
+										| ("default" | "wide" | "large")
+										| null;
 									ctaHref?: string | null;
 									ctaLabel?: string | null;
 									stand?: string | null;
@@ -28277,6 +31352,14 @@ export interface NewsHub {
 							};
 							[k: string]: unknown;
 						} | null;
+						tone?: ("default" | "tint" | "warm") | null;
+						tags?:
+							| {
+									label: string;
+									id?: string | null;
+							  }[]
+							| null;
+						layout?: ("vertical" | "horizontal") | null;
 						indicatorType: "number" | "icon";
 						items?:
 							| {
@@ -28311,6 +31394,38 @@ export interface NewsHub {
 									id?: string | null;
 							  }[]
 							| null;
+						criteria?: {
+							label?: string | null;
+							title?: string | null;
+							description?: {
+								root: {
+									type: string;
+									children: {
+										type: any;
+										version: number;
+										[k: string]: unknown;
+									}[];
+									direction: ("ltr" | "rtl") | null;
+									format:
+										| "left"
+										| "start"
+										| "center"
+										| "right"
+										| "end"
+										| "justify"
+										| "";
+									indent: number;
+									version: number;
+								};
+								[k: string]: unknown;
+							} | null;
+							tags?:
+								| {
+										label: string;
+										id?: string | null;
+								  }[]
+								| null;
+						};
 						id?: string | null;
 						blockName?: string | null;
 						blockType: "timeline";
@@ -29676,6 +32791,12 @@ export interface HomepageSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							note?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							actions?:
 								| T
 								| {
@@ -29706,8 +32827,18 @@ export interface HomepageSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -29715,6 +32846,7 @@ export interface HomepageSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -29742,6 +32874,13 @@ export interface HomepageSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							gridClassName?: T;
 							displayMode?: T;
 							actions?:
@@ -29772,8 +32911,18 @@ export interface HomepageSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -29781,6 +32930,7 @@ export interface HomepageSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -29811,8 +32961,18 @@ export interface HomepageSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -29820,6 +32980,7 @@ export interface HomepageSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -29852,8 +33013,18 @@ export interface HomepageSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -29861,6 +33032,7 @@ export interface HomepageSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -29960,6 +33132,14 @@ export interface HomepageSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
+							layout?: T;
 							indicatorType?: T;
 							items?:
 								| T
@@ -29969,6 +33149,19 @@ export interface HomepageSelect<T extends boolean = true> {
 										date?: T;
 										icon?: T;
 										id?: T;
+								  };
+							criteria?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+										tags?:
+											| T
+											| {
+													label?: T;
+													id?: T;
+											  };
 								  };
 							id?: T;
 							blockName?: T;
@@ -30075,6 +33268,13 @@ export interface ToursSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							gridClassName?: T;
 							displayMode?: T;
 							actions?:
@@ -30105,8 +33305,18 @@ export interface ToursSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -30114,6 +33324,7 @@ export interface ToursSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -30144,8 +33355,18 @@ export interface ToursSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -30153,6 +33374,7 @@ export interface ToursSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -30185,8 +33407,18 @@ export interface ToursSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -30194,6 +33426,7 @@ export interface ToursSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -30309,6 +33542,12 @@ export interface DestinationSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							note?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							actions?:
 								| T
 								| {
@@ -30339,8 +33578,18 @@ export interface DestinationSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -30348,6 +33597,7 @@ export interface DestinationSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -30375,6 +33625,13 @@ export interface DestinationSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							gridClassName?: T;
 							displayMode?: T;
 							actions?:
@@ -30405,8 +33662,18 @@ export interface DestinationSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -30414,6 +33681,7 @@ export interface DestinationSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -30444,8 +33712,18 @@ export interface DestinationSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -30453,6 +33731,7 @@ export interface DestinationSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -30485,8 +33764,18 @@ export interface DestinationSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -30494,6 +33783,7 @@ export interface DestinationSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -30593,6 +33883,14 @@ export interface DestinationSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
+							layout?: T;
 							indicatorType?: T;
 							items?:
 								| T
@@ -30602,6 +33900,19 @@ export interface DestinationSelect<T extends boolean = true> {
 										date?: T;
 										icon?: T;
 										id?: T;
+								  };
+							criteria?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+										tags?:
+											| T
+											| {
+													label?: T;
+													id?: T;
+											  };
 								  };
 							id?: T;
 							blockName?: T;
@@ -30712,6 +34023,12 @@ export interface RoutesHubSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							note?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							actions?:
 								| T
 								| {
@@ -30742,8 +34059,18 @@ export interface RoutesHubSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -30751,6 +34078,7 @@ export interface RoutesHubSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -30778,6 +34106,13 @@ export interface RoutesHubSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							gridClassName?: T;
 							displayMode?: T;
 							actions?:
@@ -30808,8 +34143,18 @@ export interface RoutesHubSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -30817,6 +34162,7 @@ export interface RoutesHubSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -30847,8 +34193,18 @@ export interface RoutesHubSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -30856,6 +34212,7 @@ export interface RoutesHubSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -30888,8 +34245,18 @@ export interface RoutesHubSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -30897,6 +34264,7 @@ export interface RoutesHubSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -30996,6 +34364,14 @@ export interface RoutesHubSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
+							layout?: T;
 							indicatorType?: T;
 							items?:
 								| T
@@ -31005,6 +34381,19 @@ export interface RoutesHubSelect<T extends boolean = true> {
 										date?: T;
 										icon?: T;
 										id?: T;
+								  };
+							criteria?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+										tags?:
+											| T
+											| {
+													label?: T;
+													id?: T;
+											  };
 								  };
 							id?: T;
 							blockName?: T;
@@ -31115,6 +34504,12 @@ export interface ExperiencesHubSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							note?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							actions?:
 								| T
 								| {
@@ -31145,8 +34540,18 @@ export interface ExperiencesHubSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -31154,6 +34559,7 @@ export interface ExperiencesHubSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -31181,6 +34587,13 @@ export interface ExperiencesHubSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							gridClassName?: T;
 							displayMode?: T;
 							actions?:
@@ -31211,8 +34624,18 @@ export interface ExperiencesHubSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -31220,6 +34643,7 @@ export interface ExperiencesHubSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -31250,8 +34674,18 @@ export interface ExperiencesHubSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -31259,6 +34693,7 @@ export interface ExperiencesHubSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -31291,8 +34726,18 @@ export interface ExperiencesHubSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -31300,6 +34745,7 @@ export interface ExperiencesHubSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -31399,6 +34845,14 @@ export interface ExperiencesHubSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
+							layout?: T;
 							indicatorType?: T;
 							items?:
 								| T
@@ -31408,6 +34862,19 @@ export interface ExperiencesHubSelect<T extends boolean = true> {
 										date?: T;
 										icon?: T;
 										id?: T;
+								  };
+							criteria?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+										tags?:
+											| T
+											| {
+													label?: T;
+													id?: T;
+											  };
 								  };
 							id?: T;
 							blockName?: T;
@@ -31518,6 +34985,12 @@ export interface TradeFairsHubSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							note?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							actions?:
 								| T
 								| {
@@ -31548,8 +35021,18 @@ export interface TradeFairsHubSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -31557,6 +35040,7 @@ export interface TradeFairsHubSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -31584,6 +35068,13 @@ export interface TradeFairsHubSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							gridClassName?: T;
 							displayMode?: T;
 							actions?:
@@ -31614,8 +35105,18 @@ export interface TradeFairsHubSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -31623,6 +35124,7 @@ export interface TradeFairsHubSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -31653,8 +35155,18 @@ export interface TradeFairsHubSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -31662,6 +35174,7 @@ export interface TradeFairsHubSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -31694,8 +35207,18 @@ export interface TradeFairsHubSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -31703,6 +35226,7 @@ export interface TradeFairsHubSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -31802,6 +35326,14 @@ export interface TradeFairsHubSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
+							layout?: T;
 							indicatorType?: T;
 							items?:
 								| T
@@ -31811,6 +35343,19 @@ export interface TradeFairsHubSelect<T extends boolean = true> {
 										date?: T;
 										icon?: T;
 										id?: T;
+								  };
+							criteria?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+										tags?:
+											| T
+											| {
+													label?: T;
+													id?: T;
+											  };
 								  };
 							id?: T;
 							blockName?: T;
@@ -31921,6 +35466,12 @@ export interface BlogHubSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							note?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							actions?:
 								| T
 								| {
@@ -31951,8 +35502,18 @@ export interface BlogHubSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -31960,6 +35521,7 @@ export interface BlogHubSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -31987,6 +35549,13 @@ export interface BlogHubSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							gridClassName?: T;
 							displayMode?: T;
 							actions?:
@@ -32017,8 +35586,18 @@ export interface BlogHubSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -32026,6 +35605,7 @@ export interface BlogHubSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -32056,8 +35636,18 @@ export interface BlogHubSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -32065,6 +35655,7 @@ export interface BlogHubSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -32097,8 +35688,18 @@ export interface BlogHubSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -32106,6 +35707,7 @@ export interface BlogHubSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -32205,6 +35807,14 @@ export interface BlogHubSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
+							layout?: T;
 							indicatorType?: T;
 							items?:
 								| T
@@ -32214,6 +35824,19 @@ export interface BlogHubSelect<T extends boolean = true> {
 										date?: T;
 										icon?: T;
 										id?: T;
+								  };
+							criteria?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+										tags?:
+											| T
+											| {
+													label?: T;
+													id?: T;
+											  };
 								  };
 							id?: T;
 							blockName?: T;
@@ -32324,6 +35947,12 @@ export interface NewsHubSelect<T extends boolean = true> {
 							title?: T;
 							description?: T;
 							note?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							actions?:
 								| T
 								| {
@@ -32354,8 +35983,18 @@ export interface NewsHubSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -32363,6 +36002,7 @@ export interface NewsHubSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -32390,6 +36030,13 @@ export interface NewsHubSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
 							gridClassName?: T;
 							displayMode?: T;
 							actions?:
@@ -32420,8 +36067,18 @@ export interface NewsHubSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -32429,6 +36086,7 @@ export interface NewsHubSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -32459,8 +36117,18 @@ export interface NewsHubSelect<T extends boolean = true> {
 													title?: T;
 													description?: T;
 													quote?: T;
+													caption?: T;
+													quoteVariant?: T;
 													meta?: T;
 													value?: T;
+													label?: T;
+													hint?: T;
+													langs?:
+														| T
+														| {
+																code?: T;
+																id?: T;
+														  };
 													cities?:
 														| T
 														| {
@@ -32468,6 +36136,7 @@ export interface NewsHubSelect<T extends boolean = true> {
 																id?: T;
 														  };
 													featured?: T;
+													span?: T;
 													ctaHref?: T;
 													ctaLabel?: T;
 													stand?: T;
@@ -32500,8 +36169,18 @@ export interface NewsHubSelect<T extends boolean = true> {
 										title?: T;
 										description?: T;
 										quote?: T;
+										caption?: T;
+										quoteVariant?: T;
 										meta?: T;
 										value?: T;
+										label?: T;
+										hint?: T;
+										langs?:
+											| T
+											| {
+													code?: T;
+													id?: T;
+											  };
 										cities?:
 											| T
 											| {
@@ -32509,6 +36188,7 @@ export interface NewsHubSelect<T extends boolean = true> {
 													id?: T;
 											  };
 										featured?: T;
+										span?: T;
 										ctaHref?: T;
 										ctaLabel?: T;
 										stand?: T;
@@ -32608,6 +36288,14 @@ export interface NewsHubSelect<T extends boolean = true> {
 							eyebrow?: T;
 							title?: T;
 							description?: T;
+							tone?: T;
+							tags?:
+								| T
+								| {
+										label?: T;
+										id?: T;
+								  };
+							layout?: T;
 							indicatorType?: T;
 							items?:
 								| T
@@ -32617,6 +36305,19 @@ export interface NewsHubSelect<T extends boolean = true> {
 										date?: T;
 										icon?: T;
 										id?: T;
+								  };
+							criteria?:
+								| T
+								| {
+										label?: T;
+										title?: T;
+										description?: T;
+										tags?:
+											| T
+											| {
+													label?: T;
+													id?: T;
+											  };
 								  };
 							id?: T;
 							blockName?: T;

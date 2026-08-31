@@ -21,7 +21,10 @@ const cardTypeOptions = [
 	{ label: "Mini Table", value: "miniTable" },
 	{ label: "Portrait", value: "portrait" },
 	{ label: "Catalog Feed", value: "catalogFeed" },
-	{ label: "Tour Destination", value: "tourDestination" }
+	{ label: "Tour Destination", value: "tourDestination" },
+	{ label: "Blitz Q&A", value: "blitzQa" },
+	{ label: "Mosaic Tile", value: "mosaicTile" },
+	{ label: "Value Point", value: "valuePoint" }
 ] as const;
 
 const whenType =
@@ -64,7 +67,8 @@ export const cardFields: Field[] = [
 				"news",
 				"catalogFeed",
 				"servicesDirection",
-				"portrait"
+				"portrait",
+				"mosaicTile"
 			)
 		}
 	},
@@ -83,7 +87,8 @@ export const cardFields: Field[] = [
 				"news",
 				"catalogFeed",
 				"servicesDirection",
-				"portrait"
+				"portrait",
+				"mosaicTile"
 			)
 		}
 	},
@@ -98,7 +103,8 @@ export const cardFields: Field[] = [
 				"routeIdea",
 				"experience",
 				"tripFormat",
-				"servicesBusiness"
+				"servicesBusiness",
+				"mosaicTile"
 			)
 		}
 	},
@@ -124,7 +130,10 @@ export const cardFields: Field[] = [
 				"servicesDirection",
 				"servicesProcess",
 				"dashTitle",
-				"alert"
+				"alert",
+				"blitzQa",
+				"mosaicTile",
+				"valuePoint"
 			)
 		}
 	},
@@ -132,6 +141,22 @@ export const cardFields: Field[] = [
 		name: "quote",
 		type: "richText",
 		localized: true,
+		admin: { condition: whenType("quote") }
+	},
+	{
+		name: "caption",
+		type: "text",
+		localized: true,
+		admin: { condition: whenType("quote") }
+	},
+	{
+		name: "quoteVariant",
+		type: "select",
+		defaultValue: "default",
+		options: [
+			{ label: "Default", value: "default" },
+			{ label: "Wide", value: "wide" }
+		],
 		admin: { condition: whenType("quote") }
 	},
 	{
@@ -155,6 +180,30 @@ export const cardFields: Field[] = [
 		admin: { condition: whenType("overviewStat") }
 	},
 	{
+		name: "label",
+		type: "text",
+		localized: true,
+		admin: { condition: whenType("overviewStat") }
+	},
+	{
+		name: "hint",
+		type: "text",
+		localized: true,
+		admin: { condition: whenType("overviewStat") }
+	},
+	{
+		name: "langs",
+		type: "array",
+		fields: [
+			{
+				name: "code",
+				type: "text",
+				required: true
+			}
+		],
+		admin: { condition: whenType("overviewStat") }
+	},
+	{
 		name: "cities",
 		type: "array",
 		localized: true,
@@ -170,7 +219,20 @@ export const cardFields: Field[] = [
 	{
 		name: "featured",
 		type: "checkbox",
-		admin: { condition: whenType("country", "tourDestination") }
+		admin: {
+			condition: whenType("country", "tourDestination", "blitzQa")
+		}
+	},
+	{
+		name: "span",
+		type: "select",
+		defaultValue: "default",
+		options: [
+			{ label: "Default", value: "default" },
+			{ label: "Wide", value: "wide" },
+			{ label: "Large", value: "large" }
+		],
+		admin: { condition: whenType("mosaicTile") }
 	},
 	{
 		name: "ctaHref",
@@ -220,7 +282,8 @@ export const cardFields: Field[] = [
 				"overviewStat",
 				"servicesBusiness",
 				"tripFormat",
-				"miniTable"
+				"miniTable",
+				"valuePoint"
 			)
 		}
 	},

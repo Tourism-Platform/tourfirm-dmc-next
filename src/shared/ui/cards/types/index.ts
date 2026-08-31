@@ -52,6 +52,18 @@ export type {
 } from "./dash-title-card.types";
 export type { TQuoteCardData, TQuoteCardProps } from "./quote-card.types";
 export type {
+	TBlitzQaCardData,
+	TBlitzQaCardProps
+} from "./blitz-qa-card.types";
+export type {
+	TMosaicTileCardData,
+	TMosaicTileCardProps
+} from "./mosaic-tile-card.types";
+export type {
+	TValuePointCardData,
+	TValuePointCardProps
+} from "./value-point-card.types";
+export type {
 	TInsightAlertCardData,
 	TInsightAlertCardProps
 } from "./insight-alert-card.types";

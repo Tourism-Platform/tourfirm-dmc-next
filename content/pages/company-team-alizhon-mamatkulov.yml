@@ -13,7 +13,7 @@ seo:
   metaDescription:
     en: "Alizhon Mamatkulov — Travel Expert · Japanese Market"
     ru: "Алижон Маматкулов — эксперт по путешествиям · японский рынок"
-    uz: "Alizhon Mamatkulov — Sayohat Eksperti · Yaponiya Bozori" # Исправлено: был английский
+    uz: "Alizhon Mamatkulov — Sayohat Eksperti · Yaponiya Bozori"
 status:
   showInSitemap: true
 blocks:
@@ -28,50 +28,85 @@ blocks:
       ru: "Алижон Маматкулов"
       uz: "Alizhon Mamatkulov"
     description:
-      en: "Travel Expert · Japanese Market" # Исправлено: был русский
-      ru: "Эксперт по путешествиям · японский рынок"
-      uz: "Sayohat Eksperti · Yaponiya Bozori" # Исправлено: был русский
-  - blockType: "regular"
-    gridClassName: "sm:grid-cols-2 lg:grid-cols-4"
+      en: "For me, quality always comes before quantity."
+      ru: "«Для меня качество всегда важнее количества»."
+      uz: "Men uchun sifat har doim miqdordan muhimroq."
+    tags:
+      - label:
+          en: "Travel Expert"
+          ru: "Travel Expert"
+          uz: "Travel Expert"
+      - label:
+          en: "Japanese Market"
+          ru: "Japanese Market"
+          uz: "Japanese Market"
+  - blockType: "overviewStats"
     cards:
       - type: "overviewStat"
         icon: "calendar"
+        label:
+          en: "In tourism"
+          ru: "В туризме"
+          uz: "Turizmda"
         value:
-          en: "In tourism since 2025" # Исправлено: был русский
-          ru: "В туризме с 2025 года"
-          uz: "Turizmda 2025 yildan beri" # Исправлено: был русский
+          en: "since 2025"
+          ru: "с 2025 года"
+          uz: "2025 yildan"
+        hint:
+          en: "On the TourLink team since 2026"
+          ru: "В команде TourLink с 2026"
+          uz: "TourLink jamoasida 2026 yildan"
       - type: "overviewStat"
         icon: "globe"
+        label:
+          en: "Market"
+          ru: "Рынок"
+          uz: "Bozor"
         value:
-          en: "Japanese Market" # Исправлено: был русский
-          ru: "Японский рынок"
-          uz: "Yaponiya Bozori" # Исправлено: был русский
+          en: "Japanese"
+          ru: "Японский"
+          uz: "Yapon"
+        hint:
+          en: "Individual, group and business programs"
+          ru: "Индивидуальные, групповые и деловые программы"
+          uz: "Individual, guruhli va ish dasturlari"
       - type: "overviewStat"
         icon: "languages"
-        value:
-          en: "Japanese and English" # Исправлено: был русский
+        label:
+          en: "Working languages"
+          ru: "Языки в работе"
+          uz: "Ish tillari"
+        langs:
+          - code: "JA"
+          - code: "EN"
+        hint:
+          en: "Japanese and English"
           ru: "Японский и английский"
-          uz: "Yapon va ingliz tillari" # Исправлено: был русский
+          uz: "Yapon va ingliz tillari"
       - type: "overviewStat"
-        icon: "map"
+        icon: "graduation-cap"
+        label:
+          en: "Education"
+          ru: "Образование"
+          uz: "Ta'lim"
         value:
-          en: "Uzbekistan and Central Asia" # Исправлено: был русский
-          ru: "Узбекистан и Центральная Азия"
-          uz: "O'zbekiston va Markaziy Osiyo" # Исправлено: был русский
+          en: "TSUOS, Japanese studies"
+          ru: "ТГУВ, японоведение"
+          uz: "TDShU, yaponiyashunoslik"
+        hint:
+          en: "Higher School of Japanese Studies"
+          ru: "Высшая школа японоведения"
+          uz: "Oliy Yaponiyashunoslik Maktabi"
   - blockType: "regular"
     eyebrow:
       en: "About"
       ru: "О сотруднике"
       uz: "Xodim haqida"
-    title:
-      en: "Alizhon Mamatkulov"
-      ru: "Алижон Маматкулов"
-      uz: "Alizhon Mamatkulov"
     rows:
       - ratio: "1:2"
         left:
           - type: "portrait"
-            image: "media/craft.jpg"
+            image: "assets/images/people.jpg"
             title:
               en: "Alizhon Mamatkulov"
               ru: "Алижон Маматкулов"
@@ -79,286 +114,426 @@ blocks:
         right:
           - type: "quote"
             quote:
-              en: "I have been working in tourism since 2025, and in 2026 I joined the TourLink team, where I primarily focus on the Japanese market. My interest in tourism emerged while studying Japanese: one of my first teachers had worked in this field for many years and often shared stories from their practice during lessons." # Исправлен перевод
-              ru: "Я работаю в туризме с 2025 года, а в 2026 году присоединился к команде TourLink, где занимаюсь прежде всего японским направлением. Мой интерес к туризму появился ещё во время изучения японского языка: один из моих первых преподавателей много лет работал в этой сфере и часто рассказывал на занятиях истории из своей практики."
-              uz: "Men 2025 yildan beri turizm sohasida ishlayman, 2026 yilda esa TourLink jamoasiga qo'shildim, bu yerda asosan Yaponiya yo'nalishi bilan shug'ullanaman. Turizmga qiziqishim yapon tilini o'rganish paytida paydo bo'lgan: birinchi o'qituvchilarimdan biri bu sohada ko'p yillar ishlagan va darslarda o'z amaliyotidan hikoyalar aytib berardi." # Исправлен перевод
+              en: "My interest in tourism began while I was studying Japanese: one of my first teachers had worked in this field for years and often shared stories from practice in class."
+              ru: "Мой интерес к туризму появился ещё во время изучения японского языка: один из первых преподавателей много лет работал в этой сфере и часто рассказывал на занятиях истории из своей практики."
+              uz: "Turizmga qiziqishim yapon tilini o'rganish paytida paydo bo'lgan: birinchi o'qituvchilarimdan biri bu sohada ko'p yillar ishlagan va darslarda amaliyotidan hikoyalar aytib berardi."
+            caption:
+              en: "Alizhon Mamatkulov, travel expert"
+              ru: "Алижон Маматкулов, эксперт по путешествиям"
+              uz: "Alizhon Mamatkulov, sayohat eksperti"
+          - type: "dashTitle"
+            description:
+              en: "I have been working in tourism since 2025, and in 2026 I joined the TourLink team, where I primarily focus on the Japanese market. Later, thanks to advice from teachers and senior colleagues, I decided to build my career in tourism."
+              ru: "Я работаю в туризме с 2025 года, а в 2026 году присоединился к команде TourLink, где занимаюсь прежде всего японским направлением. Позже, благодаря советам преподавателей и старших коллег, я окончательно решил развиваться именно в туризме."
+              uz: "2025 yildan turizmda ishlayman, 2026 yilda TourLink jamoasiga qo'shildim — asosan Yaponiya yo'nalishi. O'qituvchilar va katta hamkasblar maslahati bilan shu sohada qolishga qaror qildim."
           - type: "dashTitle"
             title:
-              en: "Role"
-              ru: "Роль"
-              uz: "Rol"
+              en: "Education and languages"
+              ru: "Образование и языки"
+              uz: "Ta'lim va tillar"
             description:
-              en: "Travel Expert. Japanese Market — individual and group programs, support in Japanese and English." # Исправлен перевод
-              ru: "Эксперт по путешествиям. Японский рынок — индивидуальные и групповые программы, сопровождение на японском и английском."
-              uz: "Sayohat Eksperti. Yaponiya Bozori — individual va guruh dasturlari, yapon va ingliz tillarida hamrohlik." # Исправлен перевод
+              en: "I graduated from the Higher School of Japanese Studies at Tashkent State University of Oriental Studies. I also trained in English, the Japanese service industry and hotel services as part of the Tokutei Ginou program. I work in Japanese and English."
+              ru: "Я окончил Высшую школу японоведения Ташкентского государственного университета востоковедения. Также проходил обучение по английскому языку, сфере обслуживания в Японии и гостиничному сервису в рамках подготовки по программе Tokutei Ginou. В работе использую японский и английский языки."
+              uz: "Toshkent Davlat Sharqshunoslik Universitetining Oliy Yaponiyashunoslik Maktabini tamomladim. Tokutei Ginou dasturida ingliz tili, Yaponiyada xizmat va mehmonxona servisi bo'yicha o'qidim. Ishda yapon va ingliz tillaridan foydalanaman."
           - type: "dashTitle"
             title:
               en: "Approach"
               ru: "Подход"
               uz: "Yondashuv"
             description:
-              en: "I start working with a new traveler or partner by understanding exactly what they expect from the trip: which region they want to see, what experiences they want to gain, what to try, and what to do." # Исправлен перевод
+              en: "I start with a new traveler or partner by understanding what they expect: which region they want to see, what impressions they want, what to try and what to do."
               ru: "Работу с новым путешественником или партнёром я начинаю с того, чтобы понять, чего именно он ждёт от поездки: какой регион хочет увидеть, какие впечатления получить, что попробовать и чем заняться."
-              uz: "Yangi sayohatchi yoki hamkor bilan ishlashni uning sayohatdan nimani kutayotganini tushunishdan boshlayman: qaysi mintaqani ko'rmoqchi, qanday tajribalarga ega bo'lishni xohlaydi, nimani sinab ko'rmoqchi va nima bilan shug'ullanmoqchi." # Исправлен перевод
-      - left:
-          - type: "dashTitle"
-            title:
-              en: "How I see the country"
-              ru: "Как я смотрю на страну"
-              uz: "Mamlakatga qanday qarayman"
-            description:
-              en: "When traveling myself, I most enjoy observing people's daily lives: walking through residential neighborhoods, comparing lifestyles across countries, and noticing similarities and differences in culture and habits. The trip to Tokyo made a particularly strong impression on me." # Исправлен перевод
-              ru: "Путешествуя сам, я больше всего люблю наблюдать за повседневной жизнью людей: гулять пешком по жилым кварталам, сравнивать образ жизни разных стран, замечать сходства и различия в культуре и привычках. Особенно сильное впечатление на меня произвела поездка в Токио."
-              uz: "O'zim sayohat qilganda, menga odamlarning kundalik hayotini kuzatish eng ko'p yoqadi: turar-joy mahallalari bo'ylab piyoda yurish, turli mamlakatlarning turmush tarzini solishtirish, madaniyat va odatlardagi o'xshashlik va farqlarni payqash. Tokioga qilgan sayohatim menga ayniqsa kuchli taassurot qoldirdi." # Исправлен перевод
-  - blockType: "regular"
+              uz: "Yangi sayyoh yoki hamkor bilan ishni kutganini tushunishdan boshlayman: qaysi mintaqa, qanday taassurot, nima tatib ko'rish va nima qilish."
+  - blockType: "timeline"
+    tone: "tint"
+    layout: "horizontal"
+    indicatorType: "number"
     eyebrow:
-      en: "Work"
-      ru: "Направления"
-      uz: "Yo'nalishlar"
-    title:
       en: "What I do"
       ru: "Чем я занимаюсь"
       uz: "Nima bilan shug'ullanaman"
-    description:
-      en: "At TourLink, I handle the development of individual and group travel, cultural-educational, gastronomic, active, and business programs, hotel bookings, transport, logistics, and guest support. One area that particularly interests me is creating custom tours tailored to specific traveler preferences, as well as combined routes across Uzbekistan, Kyrgyzstan, Kazakhstan, and Turkmenistan. I find it easy to connect with people, so I strive to be available to guests throughout the entire trip." # Исправлен перевод
-      ru: "В TourLink я занимаюсь разработкой индивидуальных и групповых путешествий, культурно-познавательных, гастрономических, активных и деловых программ, бронированием отелей, транспортом, логистикой и сопровождением гостей. Одно из направлений, которое мне особенно интересно, — создание индивидуальных туров под конкретные пожелания путешественника, а также комбинированных маршрутов по Узбекистану, Кыргызстану, Казахстану и Туркменистану. Мне легко находить общий язык с людьми, поэтому я стараюсь быть доступным для гостей на протяжении всей поездки."
-      uz: "TourLink da men individual va guruhli sayohatlar, madaniy-ma'rifiy, gastronomik, faol va biznes dasturlarini ishlab chiqish, mehmonxonalarni bron qilish, transport, logistika va mehmonlarga hamrohlik qilish bilan shug'ullanaman. Menga ayniqsa qiziq bo'lgan yo'nalishlardan biri — sayoatchining aniq istaklariga moslashtirilgan individual turlarni yaratish, shuningdek, O'zbekiston, Qirg'iziston, Qozog'iston va Turkmaniston bo'ylab kombinatsiyalangan marshrutlarni tuzish. Odamlar bilan til topishish menga oson, shuning uchun butun sayohat davomida mehmonlar uchun mavjud bo'lishga harakat qilaman." # Исправлен перевод
-    gridClassName: "sm:grid-cols-2"
-    cards:
-      - type: "destinationInsight"
-        icon: "users"
-        title:
-          en: "Tours" # Исправлено: был русский
-          ru: "Туры"
-          uz: "Turlar" # Исправлено: был русский
-        description:
-          en: "Individual and group travel: cultural-educational, gastronomic, active, and business programs." # Исправлен перевод
-          ru: "Индивидуальные и групповые путешествия: культурно-познавательные, гастрономические, активные и деловые программы."
-          uz: "Individual va guruhli sayohatlar: madaniy-ma'rifiy, gastronomik, faol va biznes dasturlari." # Исправлен перевод
-      - type: "destinationInsight"
-        icon: "map"
-        title:
-          en: "Combined routes" # Исправлено: был русский
-          ru: "Комбинированные маршруты"
-          uz: "Kombinatsiyalangan marshrutlar" # Исправлено: был русский
-        description:
-          en: "Routes tailored to specific preferences — across Uzbekistan and beyond: Kyrgyzstan, Kazakhstan, Turkmenistan." # Исправлен перевод
-          ru: "Маршруты под конкретные пожелания — по Узбекистану и дальше: Кыргызстан, Казахстан, Туркменистан."
-          uz: "Aniq istaklarga moslashtirilgan marshrutlar — O'zbekiston bo'ylab va undan tashqarida: Qirg'iziston, Qozog'iston, Turkmaniston." # Исправлен перевод
-      - type: "destinationInsight"
-        icon: "building-2"
-        title:
-          en: "Hotels and logistics" # Исправлено: был русский
-          ru: "Отели и логистика"
-          uz: "Mehmonxonalar va logistika" # Исправлено: был русский
-        description:
-          en: "Hotel booking, transport, logistics. When choosing a hotel, location and service level matter; for the route — comfortable transfers and logical program flow." # Исправлен перевод
-          ru: "Бронирование отелей, транспорт, логистика. При выборе отеля важны расположение и уровень сервиса, в маршруте — комфортные трансферы и логичность программы."
-          uz: "Mehmonxonalarni bron qilish, transport, logistika. Mehmonxona tanlashda joylashuv va xizmat ko'rsatish darajasi muhim, marshrutda esa qulay transferlar va dasturning mantiqiyligi." # Исправлен перевод
-      - type: "destinationInsight"
-        icon: "headset"
-        title:
-          en: "24/7 support" # Исправлено: был русский
-          ru: "Сопровождение 24/7"
-          uz: "24/7 hamrohlik" # Исправлено: был русский
-        description:
-          en: "During the tour, I stay available around the clock, answer questions, and help resolve any situations that arise." # Исправлен перевод
-          ru: "Во время тура я остаюсь на связи круглосуточно, отвечаю на вопросы и помогаю решать возникающие ситуации."
-          uz: "Tur davomida men tunu kun aloqada bo'lib, savollarga javob beraman va yuzaga keladigan vaziyatlarni hal qilishga yordam beraman." # Исправлен перевод
-  - blockType: "regular"
-    eyebrow:
-      en: "Background"
-      ru: "Опыт"
-      uz: "Tajriba"
     title:
-      en: "What goes into organizing a trip" # Исправлен перевод (был русский)
-      ru: "Что стоит за организацией поездки"
-      uz: "Sayohatni tashkil qilish ortida nima turibdi" # Исправлен перевод (был русский)
+      en: "A route for a specific traveler"
+      ru: "Маршрут под конкретного путешественника"
+      uz: "Aniq sayyoh uchun marshrut"
     description:
-      en: "I graduated from the Higher School of Japanese Studies at Tashkent State University of Oriental Studies. I also received training in English, the Japanese service industry, and hotel services as part of the Tokutei Ginou program. I use Japanese and English in my work. Thanks to the advice of my teachers and senior colleagues, I definitively decided to build my career in tourism." # Исправлен перевод
-      ru: "Я окончил Высшую школу японоведения Ташкентского государственного университета востоковедения. Также проходил обучение по английскому языку, сфере обслуживания в Японии и гостиничному сервису в рамках подготовки по программе Tokutei Ginou. В работе использую японский и английский языки. Благодаря советам преподавателей и старших коллег я окончательно решил развиваться именно в туризме."
-      uz: "Men Toshkent Davlat Sharqshunoslik Universitetining Oliy Yaponiyashunoslik Maktabini tamomlaganman. Shuningdek, Tokutei Ginou dasturi doirasida ingliz tili, Yaponiyadagi xizmat ko'rsatish sohasi va mehmonxona xizmati bo'yicha ta'lim olganman. Ishda yapon va ingliz tillaridan foydalanaman. O'qituvchilarim va katta hamkasblarimning maslahatlari tufayli men turizm sohasida rivojlanishga qaror qildim." # Исправлен перевод
-    rows:
-      - ratio: "3:2"
-        left:
-          - type: "miniTable"
-            icon: "graduation-cap"
-            title:
-              en: "Education and languages"
-              ru: "Образование и языки"
-              uz: "Ta'lim va tillar"
-            rows:
-              - icon: "book-open"
-                title:
-                  en: "Japanese Studies"
-                  ru: "Японоведение"
-                  uz: "Yaponiyashunoslik"
-                description:
-                  en: "Higher School of Japanese Studies, TSUOS"
-                  ru: "Высшая школа японоведения, ТГУВ"
-                  uz: "Oliy Yaponiyashunoslik Maktabi, TDShU"
-              - icon: "hotel"
-                title:
-                  en: "Tokutei Ginou"
-                  ru: "Tokutei Ginou"
-                  uz: "Tokutei Ginou"
-                description:
-                  en: "English, Japanese service industry, hotel services"
-                  ru: "Английский, обслуживание в Японии, гостиничный сервис"
-                  uz: "Ingliz tili, Yaponiyada xizmat ko'rsatish, mehmonxona xizmati"
-              - icon: "languages"
-                title:
-                  en: "Languages at work"
-                  ru: "Языки в работе"
-                  uz: "Ishdagi tillar"
-                description:
-                  en: "Japanese and English"
-                  ru: "Японский и английский"
-                  uz: "Yapon va ingliz tillari"
-        right:
-          - type: "dashTitle"
-            title:
-              en: "How I work"
-              ru: "Как я работаю"
-              uz: "Qanday ishlayman"
-            description:
-              en: "When creating a route, the guest's preferences, budget, trip duration, convenience, and safety are especially important to me. If plans change unexpectedly, I calmly explain the circumstances and find a solution acceptable to all parties." # Исправлен перевод
-              ru: "При создании маршрута для меня особенно важны пожелания гостя, его бюджет, продолжительность путешествия, удобство и безопасность. Если планы неожиданно меняются, я спокойно объясняю обстоятельства и ищу решение, которое будет приемлемым для всех сторон."
-              uz: "Marshrut yaratishda men uchun mehmonning istaklari, uning byudjeti, sayohat davomiyligi, qulaylik va xavfsizlik ayniqsa muhim. Agar rejalar kutilmaganda o'zgarsa, men vaziyatni xotirjamlik bilan tushuntirib, barcha tomonlar uchun maqbul bo'lgan yechimni topaman." # Исправлен перевод
+      en: "I especially enjoy creating individual tours around specific wishes, and combined routes across four countries in the region."
+      ru: "Особенно интересно создавать индивидуальные туры под конкретные пожелания, а также комбинированные маршруты по четырём странам региона."
+      uz: "Ayniqsa aniq istaklarga mos individual turlar va mintaqaning to'rt mamlakati bo'ylab kombinatsiyalangan marshrutlar qiziq."
+    tags:
+      - label:
+          en: "Uzbekistan"
+          ru: "Узбекистан"
+          uz: "O'zbekiston"
+      - label:
+          en: "Kyrgyzstan"
+          ru: "Кыргызстан"
+          uz: "Qirg'iziston"
+      - label:
+          en: "Kazakhstan"
+          ru: "Казахстан"
+          uz: "Qozog'iston"
+      - label:
+          en: "Turkmenistan"
+          ru: "Туркменистан"
+          uz: "Turkmaniston"
+    items:
+      - title:
+          en: "Getting acquainted"
+          ru: "Знакомство"
+          uz: "Tanishuv"
+        description:
+          en: "Which region they want to see, what impressions to get, what to try and what to do."
+          ru: "Какой регион хочется увидеть, какие впечатления получить, что попробовать и чем заняться."
+          uz: "Qaysi mintaqani ko'rish, qanday taassurot, nima tatib ko'rish va nima qilish."
+      - title:
+          en: "Program"
+          ru: "Программа"
+          uz: "Dastur"
+        description:
+          en: "Individual and group travel: cultural, gastronomic, active and business programs."
+          ru: "Индивидуальные и групповые путешествия: культурно-познавательные, гастрономические, активные и деловые."
+          uz: "Individual va guruhli sayohatlar: madaniy-ma'rifiy, gastronomik, faol va ish dasturlari."
+      - title:
+          en: "Hotels and logistics"
+          ru: "Отели и логистика"
+          uz: "Mehmonxonalar va logistika"
+        description:
+          en: "Hotel bookings, transport and logistics. A hotel by location and service level."
+          ru: "Бронирование отелей, транспорт и логистика. Отель — по расположению и уровню сервиса."
+          uz: "Mehmonxona bronlari, transport va logistika. Mehmonxona — joylashuv va servis darajasi bo'yicha."
+      - title:
+          en: "24/7 contact"
+          ru: "Связь 24/7"
+          uz: "Aloqa 24/7"
+        description:
+          en: "During the tour I stay in touch, answer questions and help resolve situations as they arise."
+          ru: "Во время тура остаюсь на связи, отвечаю на вопросы и помогаю решать возникающие ситуации."
+          uz: "Tur davomida aloqada bo'laman, savollarga javob beraman va vaziyatlarni hal qilishga yordam beraman."
+    criteria:
+      label:
+        en: "When building a route"
+        ru: "При создании маршрута"
+        uz: "Marshrut tuzishda"
+      title:
+        en: "What I keep in mind"
+        ru: "Что я держу в голове"
+        uz: "Nimani yodda tutaman"
+      description:
+        en: "If plans change unexpectedly, I calmly explain the circumstances and find a solution acceptable to all sides."
+        ru: "Если планы неожиданно меняются, для меня важно спокойно объяснить обстоятельства и найти решение, приемлемое для всех сторон."
+        uz: "Rejalar kutilmaganda o'zgarsa, vaziyatni xotirjam tushuntirib, barcha tomonlar uchun maqbul yechim topaman."
+      tags:
+        - label:
+            en: "Guest wishes"
+            ru: "Пожелания гостя"
+            uz: "Mehmon istaklari"
+        - label:
+            en: "Budget"
+            ru: "Бюджет"
+            uz: "Byudjet"
+        - label:
+            en: "Duration"
+            ru: "Продолжительность"
+            uz: "Davomiylik"
+        - label:
+            en: "Convenience"
+            ru: "Удобство"
+            uz: "Qulaylik"
+        - label:
+            en: "Safety"
+            ru: "Безопасность"
+            uz: "Xavfsizlik"
+        - label:
+            en: "Comfortable transfers"
+            ru: "Комфортные трансферы"
+            uz: "Qulay transferlar"
+        - label:
+            en: "A logical program"
+            ru: "Логичность программы"
+            uz: "Dasturning mantiqiyligi"
   - blockType: "regular"
     eyebrow:
       en: "Principle"
       ru: "Принцип"
       uz: "Tamoyil"
     title:
-      en: "Quality over quantity" # Исправлен перевод (был русский)
-      ru: "Качество важнее количества"
-      uz: "Sifat miqdordan muhimroq" # Исправлен перевод (был русский)
-    description:
-      en: "In my work, I value attention to detail, responsibility, reliability, flexibility, and genuine hospitality. I consider one of TourLink's key strengths to be the combination of senior specialists' experience and the energy of the younger generation: knowledge is passed on within the team, and young employees are helped to make more balanced decisions. For me, quality always comes before quantity. I want every traveler to feel after their trip that they made the right choice of company to discover Uzbekistan." # Исправлен перевод
-      ru: "В работе мне близки внимание к деталям, ответственность, надёжность, гибкость и искреннее гостеприимство. Я считаю одной из сильных сторон TourLink сочетание опыта старших специалистов и энергии молодого поколения: здесь знания передаются внутри команды, а молодым сотрудникам помогают принимать более взвешенные решения. Для меня качество всегда важнее количества. Я хочу, чтобы каждый путешественник после поездки чувствовал, что правильно выбрал компанию для знакомства с Узбекистаном."
-      uz: "Ishimda menga detallarga e'tibor, mas'uliyat, ishonchlilik, moslashuvchanlik va samimiy mehmondo'stlik yaqin. Men TourLink ning kuchli tomonlaridan biri bu tajribali mutaxassislar tajribasi va yosh avlod energiyasining uyg'unligi deb hisoblayman: bu yerda bilimlar jamoa ichida uzatiladi va yosh xodimlarga yanada muvozanatli qarorlar qabul qilishga yordam beriladi. Men uchun sifat har doim miqdordan muhimroq. Har bir sayohatchi O'zbekiston bilan tanishish uchun to'g'ri kompaniyani tanlaganini his qilishini xohlayman." # Исправлен перевод
+      en: "How a good trip is measured"
+      ru: "Чем измеряется хорошая поездка"
+      uz: "Yaxshi sayohat nima bilan o'lchanadi"
     rows:
-      - ratio: "2:1"
+      - left:
+          - type: "quote"
+            quoteVariant: "wide"
+            quote:
+              en: "I want every traveler to feel after the trip that they chose the right company to discover Uzbekistan."
+              ru: "Я хочу, чтобы каждый путешественник после поездки чувствовал, что правильно выбрал компанию для знакомства с Узбекистаном."
+              uz: "Har bir sayyoh sayohatdan keyin O'zbekiston bilan tanishish uchun to'g'ri kompaniyani tanlaganini his qilishini xohlayman."
+            caption:
+              en: "Quality over quantity"
+              ru: "Качество важнее количества"
+              uz: "Sifat miqdordan muhimroq"
+      - ratio: "3:2"
         left:
           - type: "dashTitle"
             title:
-              en: "How I support guests" # Исправлен перевод
-              ru: "Как я сопровождаю гостя"
-              uz: "Mehmonlarni qanday hamrohlik qilaman" # Исправлен перевод
+              en: "What matters at work"
+              ru: "Что важно в работе"
+              uz: "Ishda nima muhim"
             description:
-              en: "I strive to be available throughout the trip. If something changes, it's important not to leave the guest alone with uncertainty — to explain the situation and find a solution together." # Исправлен перевод
-              ru: "Я стараюсь быть доступным на протяжении всей поездки. Если что-то меняется, важно не оставить гостя один на один с неопределённостью — объяснить ситуацию и найти решение вместе."
-              uz: "Butun sayohat davomida mavjud bo'lishga harakat qilaman. Agar biror narsa o'zgarsa, mehmonni noaniqlik bilan yolg'iz qoldirmaslik muhim — vaziyatni tushuntirib, birgalikda yechim topish." # Исправлен перевод
+              en: "I value attention to detail, responsibility, reliability, flexibility and genuine hospitality. I find it easy to connect with people, so I try to stay available throughout the trip."
+              ru: "Мне близки внимание к деталям, ответственность, надёжность, гибкость и искреннее гостеприимство. Мне легко находить общий язык с людьми, поэтому я стараюсь быть доступным для гостей на протяжении всей поездки."
+              uz: "Detallarga e'tibor, mas'uliyat, ishonchlilik, moslashuvchanlik va samimiy mehmondo'stlik. Odamlar bilan til topishish oson, shuning uchun butun sayohat davomida mavjud bo'lishga harakat qilaman."
+          - type: "dashTitle"
+            description:
+              en: "One of TourLink's strengths is the mix of senior specialists' experience and younger energy: knowledge is passed on inside the team, and younger staff are helped to make more balanced decisions."
+              ru: "Одной из сильных сторон TourLink я считаю сочетание опыта старших специалистов и энергии молодого поколения: здесь знания передаются внутри команды, а молодым сотрудникам помогают принимать более взвешенные решения."
+              uz: "TourLink kuchli tomoni — tajribali mutaxassislar va yosh avlod energiyasi: bilim jamoa ichida o'tadi, yoshlarga muvozanatli qaror qabul qilishga yordam beriladi."
         right:
-          - type: "quote"
-            quote:
-              en: "For me, quality always comes before quantity."
-              ru: "Для меня качество всегда важнее количества."
-              uz: "Men uchun sifat har doim miqdordan muhimroq."
+          - type: "dashTitle"
+            title:
+              en: "What result means to me"
+              ru: "Что для меня результат"
+              uz: "Men uchun natija"
+            description:
+              en: "I would be glad to help create unforgettable memories in Uzbekistan and, with TourLink, accompany you through a country of history, hospitality and the famous blue domes."
+              ru: "Я буду рад помочь создать незабываемые воспоминания в Узбекистане и вместе с TourLink сопровождать вас в путешествии по стране, наполненной историей, гостеприимством и знаменитыми голубыми куполами."
+              uz: "O'zbekistonda unutilmas xotiralar yaratishga yordam berishdan va TourLink bilan tarix, mehmondo'stlik va mashhur ko'k gumbazlar mamlakati bo'ylab hamrohlik qilishdan xursandman."
+          - type: "valuePoint"
+            title:
+              en: "Responsibility and reliability"
+              ru: "Ответственность и надёжность"
+              uz: "Mas'uliyat va ishonchlilik"
+            description:
+              en: "The guest knows whom to contact at any moment of the trip."
+              ru: "Гость знает, к кому обратиться в любой момент поездки."
+              uz: "Mehmon sayohatning istalgan paytida kimga murojaat qilishini biladi."
+          - type: "valuePoint"
+            title:
+              en: "Flexibility"
+              ru: "Гибкость"
+              uz: "Moslashuvchanlik"
+            description:
+              en: "Plans change — a solution is found calmly and for all sides."
+              ru: "Планы меняются — решение находится спокойно и для всех сторон."
+              uz: "Rejalar o'zgaradi — yechim xotirjam va barcha tomonlar uchun topiladi."
+          - type: "valuePoint"
+            title:
+              en: "Genuine hospitality"
+              ru: "Искреннее гостеприимство"
+              uz: "Samimiy mehmondo'stlik"
+            description:
+              en: "Not a service formality, but a normal human attitude."
+              ru: "Не сервисная формальность, а нормальное человеческое отношение."
+              uz: "Servis formalligi emas, oddiy insoniy munosabat."
+  - blockType: "regular"
+    tone: "tint"
+    eyebrow:
+      en: "Quick take"
+      ru: "Блиц"
+      uz: "Blits"
+    title:
+      en: "In short"
+      ru: "Коротко о главном"
+      uz: "Qisqacha asosiysi"
+    gridClassName: "sm:grid-cols-2 lg:grid-cols-3"
+    cards:
+      - type: "blitzQa"
+        title:
+          en: "Favorite place"
+          ru: "Любимое место"
+          uz: "Sevimli joy"
+        description:
+          en: "Tashkent. My student years were spent here."
+          ru: "Ташкент. Здесь прошли мои студенческие годы."
+          uz: "Toshkent. Talabalik yillarim shu yerda o'tgan."
+      - type: "blitzQa"
+        featured: true
+        title:
+          en: "Lesser-known Uzbekistan"
+          ru: "Менее известный Узбекистан"
+          uz: "Kam tanilgan O'zbekiston"
+        description:
+          en: "Bakhmal and Aidarkul in the Jizzakh region."
+          ru: "Бахмаль и Айдаркуль в Джизакской области."
+          uz: "Jizzax viloyatidagi Baxmal va Aydarkul."
+      - type: "blitzQa"
+        title:
+          en: "Must try"
+          ru: "Обязательно попробовать"
+          uz: "Albatta tatib ko'rish"
+        description:
+          en: "Samsa with tomato sauce."
+          ru: "Самсу с томатным соусом."
+          uz: "Pomidor sousli samsa."
+      - type: "blitzQa"
+        title:
+          en: "Crafts"
+          ru: "Ремёсла"
+          uz: "Hunarmandchilik"
+        description:
+          en: "Woodcarving masters in Samarkand and Bukhara."
+          ru: "Работа мастеров резьбы в Самарканде и Бухаре."
+          uz: "Samarqand va Buxorodagi o'ymakorlik ustalari."
+      - type: "blitzQa"
+        featured: true
+        title:
+          en: "Evening"
+          ru: "Вечер"
+          uz: "Kechqurun"
+        description:
+          en: "A folklore performance at the Nadir Divan-begi Madrasa."
+          ru: "Фольклорное представление в медресе Нодир-Диван-Беги."
+          uz: "Nodir Devonbegi madrasasidagi folklor tomoshasi."
+      - type: "blitzQa"
+        title:
+          en: "If you come in spring"
+          ru: "Если приехать весной"
+          uz: "Bahorda kelsangiz"
+        description:
+          en: "Navruz and festive dishes."
+          ru: "Навруз и праздничные блюда."
+          uz: "Navruz va bayram taomlari."
   - blockType: "regular"
     eyebrow:
       en: "Tips"
       ru: "Советы"
       uz: "Maslahatlar"
     title:
-      en: "What I recommend to see" # Исправлен перевод (был русский)
+      en: "What I recommend seeing"
       ru: "Что я рекомендую увидеть"
-      uz: "Ko'rishni tavsiya qiladigan joylarim" # Исправлен перевод (был русский)
+      uz: "Nimani ko'rishni tavsiya qilaman"
     description:
-      en: "One of my favorite places in Uzbekistan is Tashkent. My student years were spent here, and this city is connected to an important period of my personal development. I especially recommend guests to feel the difference between the atmosphere of old and modern Tashkent. For those who want to see the less well-known corners of the country, I recommend Bakhmal and Aidarkul in the Jizzakh region. Discovering Uzbekistan for me is impossible without local cuisine and craft traditions. I recommend trying samsa with tomato sauce, seeing the work of carving masters in Samarkand and Bukhara, attending a folklore performance at the Nadir Divan-begi Madrasa, and if the trip falls in spring, be sure to experience the atmosphere of Navruz and try the festive dishes." # Исправлен перевод
-      ru: "Одно из моих любимых мест в Узбекистане — Ташкент. Здесь прошли мои студенческие годы, и именно с этим городом связан важный период моего личного развития. Гостям я особенно советую почувствовать разницу между атмосферой старого и современного Ташкента. А тем, кто хочет увидеть менее известные уголки страны, я рекомендую Бахмаль и Айдаркуль в Джизакской области. Знакомство с Узбекистаном для меня невозможно без местной кухни и ремесленных традиций. Я советую попробовать самсу с томатным соусом, увидеть работу мастеров резьбы в Самарканде и Бухаре, побывать на фольклорном представлении в медресе Нодир-Диван-Беги и, если путешествие приходится на весну, обязательно почувствовать атмосферу Навруза и попробовать праздничные блюда."
-      uz: "O'zbekistondagi sevimli joylarimdan biri — Toshkent. Mening talabalik yillarim shu yerda o'tgan va aynan shu shahar mening shaxsiy rivojlanishimdagi muhim davr bilan bog'liq. Mehmonlarga ayniqsa eski va zamonaviy Toshkent atmosferasi o'rtasidagi farqni his qilishni tavsiya qilaman. Mamlakatning kamroq mashhur burchaklarini ko'rmoqchi bo'lganlarga esa Jizzax viloyatidagi Baxmal va Aydarkulni tavsiya qilaman. O'zbekiston bilan tanishish men uchun mahalliy oshxona va hunarmandchilik an'analarisiz mumkin emas. Men pomidor sousli samsa tatib ko'rishni, Samarqand va Buxoroda o'ymakorlik ustalarining ishini ko'rishni, Nodir Devonbegi madrasasidagi folklor tomoshasida bo'lishni va agar sayohat bahorga to'g'ri kelsa, Navruz atmosferasini his qilish va bayram taomlarini tatib ko'rishni tavsiya qilaman." # Исправлен перевод
-    gridClassName: "sm:grid-cols-2"
+      en: "Discovering Uzbekistan is impossible for me without local cuisine and craft traditions."
+      ru: "Знакомство с Узбекистаном для меня невозможно без местной кухни и ремесленных традиций."
+      uz: "O'zbekiston bilan tanishish men uchun mahalliy oshxona va hunarmandchilik an'analarisiz mumkin emas."
+    displayMode: "mosaic"
     cards:
-      - type: "destinationInsight"
-        icon: "map-pin"
+      - type: "mosaicTile"
+        span: "large"
+        image: "assets/images/destinations/uzbekistan/character/tashkent/tashkent-character-1.webp"
+        badge:
+          en: "Capital"
+          ru: "Столица"
+          uz: "Poytaxt"
         title:
-          en: "Tashkent"
-          ru: "Ташкент"
-          uz: "Toshkent"
+          en: "Old and modern Tashkent"
+          ru: "Старый и современный Ташкент"
+          uz: "Eski va zamonaviy Toshkent"
         description:
-          en: "Feel the difference between the atmosphere of old and modern Tashkent — my student years were spent here." # Исправлен перевод
-          ru: "Почувствовать разницу между атмосферой старого и современного города — здесь прошли мои студенческие годы."
-          uz: "Eski va zamonaviy shahar atmosferasi o'rtasidagi farqni his qilish — mening talabalik yillarim shu yerda o'tgan." # Исправлен перевод
-      - type: "destinationInsight"
-        icon: "mountain"
+          en: "My student years were spent here, and this city is tied to an important period of my development. I especially recommend feeling the difference between its two atmospheres."
+          ru: "Здесь прошли мои студенческие годы, и с этим городом связан важный период моего развития. Гостям особенно советую почувствовать разницу между двумя его атмосферами."
+          uz: "Talabalik yillarim shu yerda o'tgan. Mehmonlarga ikki atmosfera o'rtasidagi farqni his qilishni tavsiya qilaman."
+      - type: "mosaicTile"
+        span: "wide"
+        image: "assets/images/destinations/uzbekistan/character/aydarkul/aydarkul-character-3.webp"
+        badge:
+          en: "Jizzakh region"
+          ru: "Джизакская область"
+          uz: "Jizzax viloyati"
         title:
-          en: "Bakhmal and Aidarkul" # Исправлен перевод
+          en: "Bakhmal and Aidarkul"
           ru: "Бахмаль и Айдаркуль"
-          uz: "Baxmal va Aydarkul" # Исправлен перевод
+          uz: "Baxmal va Aydarkul"
         description:
-          en: "Less well-known corners of the Jizzakh region — for those who want to see the country beyond the usual route." # Исправлен перевод
-          ru: "Менее известные уголки Джизакской области — для тех, кто хочет увидеть страну шире привычного маршрута."
-          uz: "Jizzax viloyatining kamroq mashhur burchaklari — mamlakatni odatdagi marshrutdan kengroq ko'rmoqchi bo'lganlar uchun." # Исправлен перевод
-      - type: "destinationInsight"
-        icon: "utensils-crossed"
+          en: "For those who want to see lesser-known corners of the country."
+          ru: "Тем, кто хочет увидеть менее известные уголки страны."
+          uz: "Mamlakatning kam tanilgan burchaklarini ko'rmoqchi bo'lganlar uchun."
+      - type: "mosaicTile"
+        image: "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/samarkand/attractions/registan-square.webp"
+        badge:
+          en: "Cuisine"
+          ru: "Кухня"
+          uz: "Oshxona"
         title:
-          en: "Samsa and Navruz" # Исправлен перевод
-          ru: "Самса и Навруз"
-          uz: "Samsa va Navruz" # Исправлен перевод
+          en: "Samsa with tomato sauce"
+          ru: "Самса с томатным соусом"
+          uz: "Pomidor sousli samsa"
         description:
-          en: "I recommend trying samsa with tomato sauce, and if traveling in spring — experiencing the atmosphere of Navruz and festive dishes." # Исправлен перевод
-          ru: "Советую попробовать самсу с томатным соусом, а если поездка весной — почувствовать атмосферу Навруза и праздничные блюда."
-          uz: "Pomidor sousli samsa tatib ko'rishni tavsiya qilaman, agar sayohat bahorda bo'lsa — Navruz atmosferasi va bayram taomlarini his qilish." # Исправлен перевод
-      - type: "destinationInsight"
-        icon: "hammer"
+          en: "A good place to start."
+          ru: "С этого стоит начать."
+          uz: "Shu yerdan boshlash arziydi."
+      - type: "mosaicTile"
+        image: "assets/images/destinations/uzbekistan/character/bukhara/bukhara-character-4.webp"
+        badge:
+          en: "Crafts and evening"
+          ru: "Ремёсла и вечер"
+          uz: "Hunarmandchilik va kech"
         title:
-          en: "Crafts and folklore" # Исправлен перевод
-          ru: "Ремесла и фольклор"
-          uz: "Hunarmandchilik va folklor" # Исправлен перевод
+          en: "Carving and folklore"
+          ru: "Резьба и фольклор"
+          uz: "O'ymakorlik va folklor"
         description:
-          en: "The work of carving masters in Samarkand and Bukhara, and a folklore performance at the Nadir Divan-begi Madrasa." # Исправлен перевод
-          ru: "Работа мастеров резьбы в Самарканде и Бухаре и фольклорное представление в медресе Нодир-Диван-Беги."
-          uz: "Samarqand va Buxoroda o'ymakorlik ustalarining ishi va Nodir Devonbegi madrasasidagi folklor tomoshasi." # Исправлен перевод
+          en: "Masters of Samarkand and Bukhara, a performance at Nadir Divan-begi."
+          ru: "Мастера Самарканда и Бухары, представление в Нодир-Диван-Беги."
+          uz: "Samarqand va Buxoro ustalari, Nodir Devonbegidagi tomosha."
   - blockType: "regular"
+    tone: "warm"
     eyebrow:
-      en: "After the trip"
-      ru: "После поездки"
-      uz: "Sayohatdan keyin"
+      en: "Travel"
+      ru: "Путешествия"
+      uz: "Sayohatlar"
     title:
-      en: "To choose the right company" # Исправлен перевод (был русский)
-      ru: "Чтобы правильно выбрать компанию"
-      uz: "To'g'ri kompaniyani tanlash uchun" # Исправлен перевод (был русский)
-    rows:
-      - ratio: "2:1"
-        left:
-          - type: "quote"
-            quote:
-              en: "Welcome! I would be happy to help you create unforgettable memories in Uzbekistan and, together with TourLink, accompany you on a journey through a country filled with history, hospitality, and the famous blue domes." # Исправлен перевод
-              ru: "Добро пожаловать! Я буду рад помочь вам создать незабываемые воспоминания в Узбекистане и вместе с TourLink сопровождать вас в путешествии по стране, наполненной историей, гостеприимством и знаменитыми голубыми куполами."
-              uz: "Xush kelibsiz! Men O'zbekistonda unutilmas xotiralar yaratishga yordam berishdan va TourLink bilan birgalikda sizni tarix, mehmondo'stlik va mashhur ko'k gumbazlar bilan to'la mamlakat bo'ylab sayohatda hamrohlik qilishdan xursand bo'laman." # Исправлен перевод
-        right:
-          - type: "dashTitle"
-            title:
-              en: "After getting acquainted"
-              ru: "После знакомства"
-              uz: "Tanishuvdan keyin"
-            description:
-              en: "I want every traveler to feel that they made the right choice of company to discover Uzbekistan." # Исправлен перевод
-              ru: "Я хочу, чтобы каждый путешественник чувствовал, что правильно выбрал компанию для знакомства с Узбекистаном."
-              uz: "Har bir sayohatchi O'zbekiston bilan tanishish uchun to'g'ri kompaniyani tanlaganini his qilishini xohlayman." # Исправлен перевод
+      en: "I look at everyday life"
+      ru: "Смотрю на повседневную жизнь"
+      uz: "Kundalik hayotga qarayman"
+    description:
+      en: "I most enjoy watching how people live: walking residential neighborhoods, comparing lifestyles, noticing similarities and differences in culture and habits."
+      ru: "Больше всего люблю наблюдать за тем, как живут люди: гулять пешком по жилым кварталам, сравнивать образ жизни разных стран, замечать сходства и различия в культуре и привычках."
+      uz: "Odamlar qanday yashashini kuzatish yoqadi: mahallalar bo'ylab yurish, turmush tarzini solishtirish, madaniyat va odatlardagi o'xshashlik va farqlarni payqash."
+    gridClassName: "sm:grid-cols-3"
+    cards:
+      - type: "valuePoint"
+        icon: "footprints"
+        title:
+          en: "On foot through neighborhoods"
+          ru: "Пешком по кварталам"
+          uz: "Mahallalar bo'ylab piyoda"
+        description:
+          en: "Residential streets say more about a city than the main squares."
+          ru: "Жилые улицы говорят о городе больше, чем главные площади."
+          uz: "Turar-joy ko'chalari shahar haqida bosh maydonlardan ko'proq gapiradi."
+      - type: "valuePoint"
+        icon: "scale"
+        title:
+          en: "Compare"
+          ru: "Сравнивать"
+          uz: "Solishtirish"
+        description:
+          en: "Similarities and differences in culture and habits across countries."
+          ru: "Сходства и различия в культуре и привычках разных стран."
+          uz: "Turli mamlakatlardagi madaniyat va odatlardagi o'xshashlik va farqlar."
+      - type: "valuePoint"
+        icon: "clock"
+        title:
+          en: "Tokyo"
+          ru: "Токио"
+          uz: "Tokio"
+        description:
+          en: "The trip that left the strongest impression."
+          ru: "Поездка, которая произвела самое сильное впечатление."
+          uz: "Eng kuchli taassurot qoldirgan sayohat."
   - blockType: "cta"
-    image: "assets/images/people.jpg"
+    image: "assets/images/samarkand.jpg"
     eyebrow:
       en: "Enquiry"
       ru: "Запрос"
       uz: "So'rov"
     title:
-      en: "Plan a trip"
-      ru: "Спланировать поездку"
-      uz: "Sayohatni rejalashtirish"
+      en: "Welcome to Uzbekistan"
+      ru: "Добро пожаловать в Узбекистан"
+      uz: "O'zbekistonga xush kelibsiz"
     description:
-      en: "Write to us — we'll put together a program based on your wishes, budget, and route across Uzbekistan and Central Asia." # Исправлен перевод
-      ru: "Напишите — соберём программу под ваши пожелания, бюджет и маршрут по Узбекистану и Центральной Азии."
-      uz: "Bizga yozing — sizning istaklaringiz, byudjetingiz va O'zbekiston va Markaziy Osiyo bo'ylab marshrutingizga mos dastur tuzamiz." # Исправлен перевод
+      en: "Tell me which region you want to see and what impressions you want — I will build a route around your wishes, budget and dates."
+      ru: "Расскажите, какой регион хотите увидеть и какие впечатления получить, — соберу маршрут под ваши пожелания, бюджет и сроки."
+      uz: "Qaysi mintaqani ko'rish va qanday taassurot olishni ayting — istak, byudjet va sanalarga mos marshrut tuzaman."
     actions:
       - type: "link"
         variant: "default"
         title:
-          en: "Contact us"
-          ru: "Связаться с нами"
-          uz: "Biz bilan bog'lanish"
+          en: "Write to Alizhon"
+          ru: "Написать Алижону"
+          uz: "Alizhonga yozish"
         href: "/help/contact"
       - type: "link"
         variant: "outline"

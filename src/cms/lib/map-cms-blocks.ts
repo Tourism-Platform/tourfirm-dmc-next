@@ -6,8 +6,10 @@ import { resolveMediaUrl } from "@/shared/lib/media/resolve-media-url";
 import {
 	BlockType,
 	type TBlockRenderProps,
+	type TBlockTone,
 	type TColumnRatio,
-	type TContentRow
+	type TContentRow,
+	type TTimelineLayout
 } from "@/shared/ui/blocks";
 import {
 	ActionType,
@@ -33,6 +35,51 @@ type TCmsAction = NonNullable<
 >[number];
 
 type TCmsRegularBlock = Extract<TCmsPageBlock, { blockType: "regular" }>;
+type TCmsTimelineBlock = Extract<TCmsPageBlock, { blockType: "timeline" }>;
+type TCmsHeroBlock = Extract<TCmsPageBlock, { blockType: "hero" }>;
+
+type TCmsTagRow = { label?: string | null };
+type TCmsLangRow = { code?: string | null };
+
+function mapCmsTags(tags?: TCmsTagRow[] | null): string[] | undefined {
+	if (!tags?.length) {
+		return undefined;
+	}
+
+	const labels = tags
+		.map((tag) => tag.label)
+		.filter((label): label is string => Boolean(label));
+
+	return labels.length ? labels : undefined;
+}
+
+function mapCmsLangs(langs?: TCmsLangRow[] | null): string[] | undefined {
+	if (!langs?.length) {
+		return undefined;
+	}
+
+	const codes = langs
+		.map((lang) => lang.code)
+		.filter((code): code is string => Boolean(code));
+
+	return codes.length ? codes : undefined;
+}
+
+function asTone(value: unknown): TBlockTone | undefined {
+	if (value === "tint" || value === "warm" || value === "default") {
+		return value;
+	}
+
+	return undefined;
+}
+
+function asLayout(value: unknown): TTimelineLayout | undefined {
+	if (value === "horizontal" || value === "vertical") {
+		return value;
+	}
+
+	return undefined;
+}
 
 const ROUTE_MAP_TILE_URL =
 	"https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png";
@@ -175,6 +222,23 @@ function mapCmsCard(card: TEnrichedCmsCard, index: number): TCardRenderProps {
 			step: staticCard.step ?? undefined,
 			icon: staticCard.icon ?? undefined,
 			className: staticCard.className ?? undefined,
+			caption:
+				(staticCard as { caption?: string | null }).caption ??
+				undefined,
+			quoteVariant:
+				(staticCard as { quoteVariant?: "default" | "wide" | null })
+					.quoteVariant ?? undefined,
+			label: (staticCard as { label?: string | null }).label ?? undefined,
+			hint: (staticCard as { hint?: string | null }).hint ?? undefined,
+			langs: mapCmsLangs(
+				(staticCard as { langs?: TCmsLangRow[] | null }).langs
+			),
+			span:
+				(
+					staticCard as {
+						span?: "default" | "wide" | "large" | null;
+					}
+				).span ?? undefined,
 			rows: staticCard.rows?.map((row) => ({
 				icon: row.icon ?? undefined,
 				title: row.title,
@@ -273,6 +337,10 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 				title: block.title,
 				description: richTextToPlain(block.description),
 				note: block.note ?? undefined,
+				tags: mapCmsTags(
+					(block as TCmsHeroBlock & { tags?: TCmsTagRow[] | null })
+						.tags
+				),
 				actions: block.actions?.map(mapCmsAction)
 			};
 
@@ -292,8 +360,15 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 				description: richTextToPlain(regularBlock.description),
 				gridClassName: regularBlock.gridClassName ?? undefined,
 				displayMode:
-					(regularBlock as { displayMode?: "grid" | "carousel" })
-						.displayMode ?? "grid",
+					(
+						regularBlock as {
+							displayMode?: "grid" | "carousel" | "mosaic";
+						}
+					).displayMode ?? "grid",
+				tone: asTone((regularBlock as { tone?: string | null }).tone),
+				tags: mapCmsTags(
+					(regularBlock as { tags?: TCmsTagRow[] | null }).tags
+				),
 				actions: regularBlock.actions?.map(mapCmsAction),
 				rows: mapCmsContentRows(regularBlock.rows),
 				cards: regularBlock.cards?.map(mapCmsCard) ?? [],
@@ -403,15 +478,44 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 				}))
 			};
 
-		case "timeline":
+		case "timeline": {
+			const timeline = block as TCmsTimelineBlock & {
+				tone?: string | null;
+				tags?: TCmsTagRow[] | null;
+				layout?: string | null;
+				criteria?: {
+					label?: string | null;
+					title?: string | null;
+					description?: unknown;
+					tags?: TCmsTagRow[] | null;
+				} | null;
+			};
+			const criteria = timeline.criteria;
+			const hasCriteria =
+				Boolean(criteria?.label) ||
+				Boolean(criteria?.title) ||
+				Boolean(richTextToPlain(criteria?.description)) ||
+				Boolean(criteria?.tags?.length);
+
 			return {
 				blockType: BlockType.timeline,
-				eyebrow: block.eyebrow ?? undefined,
-				title: block.title,
-				description: richTextToPlain(block.description),
+				eyebrow: timeline.eyebrow ?? undefined,
+				title: timeline.title,
+				description: richTextToPlain(timeline.description),
 				indicatorType:
-					block.indicatorType === "icon" ? "icon" : "number",
-				items: (block.items ?? []).map((item, index) => ({
+					timeline.indicatorType === "icon" ? "icon" : "number",
+				layout: asLayout(timeline.layout),
+				tone: asTone(timeline.tone),
+				tags: mapCmsTags(timeline.tags),
+				criteria: hasCriteria
+					? {
+							label: criteria?.label ?? undefined,
+							title: criteria?.title ?? undefined,
+							description: richTextToPlain(criteria?.description),
+							tags: mapCmsTags(criteria?.tags)
+						}
+					: undefined,
+				items: (timeline.items ?? []).map((item, index) => ({
 					key: item.id ?? String(index),
 					title: item.title,
 					description: richTextToPlain(item.description),
@@ -419,6 +523,7 @@ function mapCmsBlock(block: TCmsPageBlock): TBlockRenderProps | null {
 					icon: item.icon ?? undefined
 				}))
 			};
+		}
 
 		case "itinerary":
 			return {

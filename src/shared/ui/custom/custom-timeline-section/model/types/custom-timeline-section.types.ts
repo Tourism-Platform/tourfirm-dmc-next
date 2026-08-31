@@ -1,6 +1,9 @@
 import type {
+	TBlockTone,
+	TCriteriaProps,
 	TTimelineIndicatorType,
-	TTimelineItemProps
+	TTimelineItemProps,
+	TTimelineLayout
 } from "@/shared/ui/blocks/types/block-render.types";
 
 export type TTimelineSectionProps = {
@@ -9,4 +12,8 @@ export type TTimelineSectionProps = {
 	description?: string;
 	indicatorType?: TTimelineIndicatorType;
 	items: TTimelineItemProps[];
+	layout?: TTimelineLayout;
+	tone?: TBlockTone;
+	tags?: string[];
+	criteria?: TCriteriaProps;
 };
