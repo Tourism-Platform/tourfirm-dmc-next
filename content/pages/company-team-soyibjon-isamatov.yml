@@ -434,6 +434,8 @@ blocks:
     cards:
       - type: "mosaicTile"
         span: "large"
+        entityType: "city"
+        entitySlug: "bukhara"
         image: "assets/images/destinations/uzbekistan/character/bukhara/bukhara-character-1.webp"
         badge:
           en: "Bukhara"
@@ -449,6 +451,8 @@ blocks:
           uz: "Bu yerda mahalliy uyga kirib, sohiblar bilan tanishib, milliy taomni birga pishirishni taklif qilgan bo'lardim."
       - type: "mosaicTile"
         span: "wide"
+        entityType: "city"
+        entitySlug: "termez"
         image: "assets/images/destinations/uzbekistan/next/baysuntau-mountains-next-old-termez-ancient-termiz.webp"
         badge:
           en: "Surkhandarya"
@@ -463,6 +467,8 @@ blocks:
           ru: "Тем, кто хочет открыть менее известные страницы нашей истории, — археологические памятники."
           uz: "Tariximizning kam tanilgan sahifalarini ochmoqchi bo'lganlarga — arxeologik yodgorliklar."
       - type: "mosaicTile"
+        entityType: "attraction"
+        entitySlug: "poi-kalyan-complex"
         image: "assets/images/destinations/uzbekistan/next/sitorai-mokhi-khosa-palace-next-poi-kalyan-complex.webp"
         badge:
           en: "Bukhara"
@@ -477,6 +483,8 @@ blocks:
           ru: "После домашнего стола — величественный минарет."
           uz: "Uy dasturxonidan keyin — ulug' minora."
       - type: "mosaicTile"
+        entityType: "city"
+        entitySlug: "darvaza"
         image: "assets/images/destinations/kyrgyzstan/country.webp"
         badge:
           en: "Turkmenistan"

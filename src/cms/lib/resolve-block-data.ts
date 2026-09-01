@@ -255,7 +255,7 @@ function enrichRegularBlock(
 		emptyLabel = cardsSource.emptyLabel ?? undefined;
 	} else {
 		cards = (cards ?? []).map((card, index) => {
-			if (!card.relatedDoc) {
+			if (card.type === "mosaicTile" || !card.relatedDoc) {
 				return card;
 			}
 

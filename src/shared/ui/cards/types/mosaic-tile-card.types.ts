@@ -3,6 +3,7 @@ export type TMosaicTileCardData = {
 	badge?: string;
 	title: string;
 	description?: string;
+	href?: string;
 };
 
 export type TMosaicTileCardProps = {

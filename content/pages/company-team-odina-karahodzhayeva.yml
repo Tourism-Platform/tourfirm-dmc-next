@@ -395,6 +395,8 @@ blocks:
     cards:
       - type: "mosaicTile"
         span: "large"
+        entityType: "city"
+        entitySlug: "andijan"
         image: "assets/images/destinations/uzbekistan/character/andijan/andijan-character-1.webp"
         badge:
           en: "Lesser known"
@@ -410,6 +412,8 @@ blocks:
           uz: "Kam tanilgan narsani ko'rmoqchi bo'lganlarga shu joyni tavsiya qilaman."
       - type: "mosaicTile"
         span: "wide"
+        entityType: "country"
+        entitySlug: "uzbekistan"
         image: "assets/images/destinations/uzbekistan/character/khiva/khiva-character-3.webp"
         badge:
           en: "Cuisine"
@@ -424,6 +428,8 @@ blocks:
           ru: "Знакомство с нашей страной невозможно представить без узбекской кухни."
           uz: "Mamlakatimiz bilan tanishuvni o'zbek oshxonasiz tasavvur qilish qiyin."
       - type: "mosaicTile"
+        entityType: "country"
+        entitySlug: "uzbekistan"
         image: "assets/images/destinations/uzbekistan/character/bukhara/bukhara-character-1.webp"
         badge:
           en: "Cities and regions"
@@ -438,6 +444,8 @@ blocks:
           ru: "В Узбекистане мне сложно выбрать только одно любимое место."
           uz: "O'zbekistonda bitta sevimli joyni tanlash qiyin."
       - type: "mosaicTile"
+        entityType: "city"
+        entitySlug: "margilan"
         image: "assets/images/destinations/uzbekistan/character/margilan/margilan-character-3.webp"
         badge:
           en: "Atmosphere"

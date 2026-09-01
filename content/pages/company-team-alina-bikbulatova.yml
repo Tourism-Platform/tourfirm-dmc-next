@@ -391,6 +391,8 @@ blocks:
     cards:
       - type: "mosaicTile"
         span: "large"
+        entityType: "city"
+        entitySlug: "margilan"
         image: "assets/images/destinations/uzbekistan/character/margilan/margilan-character-1.webp"
         badge:
           en: "Fergana Valley"
@@ -406,6 +408,8 @@ blocks:
           uz: "Hunarmandchilik an'analari muzey eksponati emas, zamonaviy hayotning qismi."
       - type: "mosaicTile"
         span: "wide"
+        entityType: "city"
+        entitySlug: "sentyab"
         image: "assets/images/destinations/uzbekistan/next/chuya-next-sentyab.webp"
         badge:
           en: "Navoi region"
@@ -420,6 +424,8 @@ blocks:
           ru: "Горное село с традиционными домами и совершенно другой атмосферой."
           uz: "An'anaviy uylar va butunlay boshqa muhitga ega tog'li qishloq."
       - type: "mosaicTile"
+        entityType: "attraction"
+        entitySlug: "khazrati-imam-complex"
         image: "assets/images/destinations/uzbekistan/next/khast-imam-complex-next-chorsu-bazaar.webp"
         badge:
           en: "Tashkent"
@@ -434,6 +440,8 @@ blocks:
           ru: "История Востока и современный способ её представления."
           uz: "Sharq tarixi va uni zamonaviy taqdim etish."
       - type: "mosaicTile"
+        entityType: "city"
+        entitySlug: "khiva"
         image: "assets/images/destinations/uzbekistan/character/khiva/khiva-character-2.webp"
         badge:
           en: "Cuisine"

@@ -23,6 +23,7 @@ import type {
 	TEnrichedCmsBlock,
 	TEnrichedCmsCard
 } from "./resolve-block-data.types";
+import { resolveGeoHrefFromRelatedDoc } from "./resolve-geo-related-doc-href";
 import type { Attraction, City, Country, Media, Region } from "@/payload-types";
 
 type TCmsPageBlock = TEnrichedCmsBlock;
@@ -200,7 +201,11 @@ function mapCmsCard(card: TEnrichedCmsCard, index: number): TCardRenderProps {
 		key: staticCard.id ?? String(index),
 		type: cardType,
 		item: {
-			href: normalizeCmsHref(staticCard.href),
+			href:
+				staticCard.type === "mosaicTile"
+					? (resolveGeoHrefFromRelatedDoc(staticCard.relatedDoc) ??
+						normalizeCmsHref(staticCard.href))
+					: normalizeCmsHref(staticCard.href),
 			imageUrl:
 				(staticCard as { imageUrl?: string | null }).imageUrl ||
 				resolveMediaUrl(

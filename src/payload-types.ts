@@ -437,6 +437,22 @@ export interface Country {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -663,6 +679,22 @@ export interface Country {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -810,6 +842,22 @@ export interface Country {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -963,6 +1011,22 @@ export interface Country {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -1905,6 +1969,22 @@ export interface Route {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -2131,6 +2211,22 @@ export interface Route {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -2278,6 +2374,22 @@ export interface Route {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -2431,6 +2543,22 @@ export interface Route {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -3271,6 +3399,22 @@ export interface City {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -3497,6 +3641,22 @@ export interface City {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -3644,6 +3804,22 @@ export interface City {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -3797,6 +3973,22 @@ export interface City {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -4648,6 +4840,22 @@ export interface Region {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -4874,6 +5082,22 @@ export interface Region {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -5021,6 +5245,22 @@ export interface Region {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -5174,6 +5414,22 @@ export interface Region {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -6043,6 +6299,22 @@ export interface Experience {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -6269,6 +6541,22 @@ export interface Experience {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -6416,6 +6704,22 @@ export interface Experience {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -6569,6 +6873,22 @@ export interface Experience {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -7384,6 +7704,22 @@ export interface Theme {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -7610,6 +7946,22 @@ export interface Theme {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -7757,6 +8109,22 @@ export interface Theme {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -7910,6 +8278,22 @@ export interface Theme {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -8754,6 +9138,22 @@ export interface TradeFair {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -8980,6 +9380,22 @@ export interface TradeFair {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -9127,6 +9543,22 @@ export interface TradeFair {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -9280,6 +9712,22 @@ export interface TradeFair {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -10122,6 +10570,22 @@ export interface Blog {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -10348,6 +10812,22 @@ export interface Blog {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -10495,6 +10975,22 @@ export interface Blog {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -10648,6 +11144,22 @@ export interface Blog {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -11481,6 +11993,22 @@ export interface News {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -11707,6 +12235,22 @@ export interface News {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -11854,6 +12398,22 @@ export interface News {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -12007,6 +12567,22 @@ export interface News {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -12863,6 +13439,22 @@ export interface Attraction {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -13089,6 +13681,22 @@ export interface Attraction {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -13236,6 +13844,22 @@ export interface Attraction {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -13389,6 +14013,22 @@ export interface Attraction {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -14245,6 +14885,22 @@ export interface Page {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -14471,6 +15127,22 @@ export interface Page {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -14618,6 +15290,22 @@ export interface Page {
 											| ({
 													relationTo: "news";
 													value: number | News;
+											  } | null)
+											| ({
+													relationTo: "countries";
+													value: number | Country;
+											  } | null)
+											| ({
+													relationTo: "regions";
+													value: number | Region;
+											  } | null)
+											| ({
+													relationTo: "cities";
+													value: number | City;
+											  } | null)
+											| ({
+													relationTo: "attractions";
+													value: number | Attraction;
 											  } | null);
 										href?: string | null;
 										image?: (number | null) | Media;
@@ -14771,6 +15459,22 @@ export interface Page {
 								| ({
 										relationTo: "news";
 										value: number | News;
+								  } | null)
+								| ({
+										relationTo: "countries";
+										value: number | Country;
+								  } | null)
+								| ({
+										relationTo: "regions";
+										value: number | Region;
+								  } | null)
+								| ({
+										relationTo: "cities";
+										value: number | City;
+								  } | null)
+								| ({
+										relationTo: "attractions";
+										value: number | Attraction;
 								  } | null);
 							href?: string | null;
 							image?: (number | null) | Media;
@@ -21422,6 +22126,22 @@ export interface Homepage {
 										| ({
 												relationTo: "news";
 												value: number | News;
+										  } | null)
+										| ({
+												relationTo: "countries";
+												value: number | Country;
+										  } | null)
+										| ({
+												relationTo: "regions";
+												value: number | Region;
+										  } | null)
+										| ({
+												relationTo: "cities";
+												value: number | City;
+										  } | null)
+										| ({
+												relationTo: "attractions";
+												value: number | Attraction;
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
@@ -21660,6 +22380,30 @@ export interface Homepage {
 															value:
 																| number
 																| News;
+													  } | null)
+													| ({
+															relationTo: "countries";
+															value:
+																| number
+																| Country;
+													  } | null)
+													| ({
+															relationTo: "regions";
+															value:
+																| number
+																| Region;
+													  } | null)
+													| ({
+															relationTo: "cities";
+															value:
+																| number
+																| City;
+													  } | null)
+													| ({
+															relationTo: "attractions";
+															value:
+																| number
+																| Attraction;
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
@@ -21831,6 +22575,30 @@ export interface Homepage {
 															value:
 																| number
 																| News;
+													  } | null)
+													| ({
+															relationTo: "countries";
+															value:
+																| number
+																| Country;
+													  } | null)
+													| ({
+															relationTo: "regions";
+															value:
+																| number
+																| Region;
+													  } | null)
+													| ({
+															relationTo: "cities";
+															value:
+																| number
+																| City;
+													  } | null)
+													| ({
+															relationTo: "attractions";
+															value:
+																| number
+																| Attraction;
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
@@ -21998,6 +22766,22 @@ export interface Homepage {
 										| ({
 												relationTo: "news";
 												value: number | News;
+										  } | null)
+										| ({
+												relationTo: "countries";
+												value: number | Country;
+										  } | null)
+										| ({
+												relationTo: "regions";
+												value: number | Region;
+										  } | null)
+										| ({
+												relationTo: "cities";
+												value: number | City;
+										  } | null)
+										| ({
+												relationTo: "attractions";
+												value: number | Attraction;
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
@@ -22830,6 +23614,30 @@ export interface Tour {
 															value:
 																| number
 																| News;
+													  } | null)
+													| ({
+															relationTo: "countries";
+															value:
+																| number
+																| Country;
+													  } | null)
+													| ({
+															relationTo: "regions";
+															value:
+																| number
+																| Region;
+													  } | null)
+													| ({
+															relationTo: "cities";
+															value:
+																| number
+																| City;
+													  } | null)
+													| ({
+															relationTo: "attractions";
+															value:
+																| number
+																| Attraction;
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
@@ -23001,6 +23809,30 @@ export interface Tour {
 															value:
 																| number
 																| News;
+													  } | null)
+													| ({
+															relationTo: "countries";
+															value:
+																| number
+																| Country;
+													  } | null)
+													| ({
+															relationTo: "regions";
+															value:
+																| number
+																| Region;
+													  } | null)
+													| ({
+															relationTo: "cities";
+															value:
+																| number
+																| City;
+													  } | null)
+													| ({
+															relationTo: "attractions";
+															value:
+																| number
+																| Attraction;
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
@@ -23168,6 +24000,22 @@ export interface Tour {
 										| ({
 												relationTo: "news";
 												value: number | News;
+										  } | null)
+										| ({
+												relationTo: "countries";
+												value: number | Country;
+										  } | null)
+										| ({
+												relationTo: "regions";
+												value: number | Region;
+										  } | null)
+										| ({
+												relationTo: "cities";
+												value: number | City;
+										  } | null)
+										| ({
+												relationTo: "attractions";
+												value: number | Attraction;
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
@@ -23542,6 +24390,22 @@ export interface Destination {
 										| ({
 												relationTo: "news";
 												value: number | News;
+										  } | null)
+										| ({
+												relationTo: "countries";
+												value: number | Country;
+										  } | null)
+										| ({
+												relationTo: "regions";
+												value: number | Region;
+										  } | null)
+										| ({
+												relationTo: "cities";
+												value: number | City;
+										  } | null)
+										| ({
+												relationTo: "attractions";
+												value: number | Attraction;
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
@@ -23780,6 +24644,30 @@ export interface Destination {
 															value:
 																| number
 																| News;
+													  } | null)
+													| ({
+															relationTo: "countries";
+															value:
+																| number
+																| Country;
+													  } | null)
+													| ({
+															relationTo: "regions";
+															value:
+																| number
+																| Region;
+													  } | null)
+													| ({
+															relationTo: "cities";
+															value:
+																| number
+																| City;
+													  } | null)
+													| ({
+															relationTo: "attractions";
+															value:
+																| number
+																| Attraction;
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
@@ -23951,6 +24839,30 @@ export interface Destination {
 															value:
 																| number
 																| News;
+													  } | null)
+													| ({
+															relationTo: "countries";
+															value:
+																| number
+																| Country;
+													  } | null)
+													| ({
+															relationTo: "regions";
+															value:
+																| number
+																| Region;
+													  } | null)
+													| ({
+															relationTo: "cities";
+															value:
+																| number
+																| City;
+													  } | null)
+													| ({
+															relationTo: "attractions";
+															value:
+																| number
+																| Attraction;
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
@@ -24118,6 +25030,22 @@ export interface Destination {
 										| ({
 												relationTo: "news";
 												value: number | News;
+										  } | null)
+										| ({
+												relationTo: "countries";
+												value: number | Country;
+										  } | null)
+										| ({
+												relationTo: "regions";
+												value: number | Region;
+										  } | null)
+										| ({
+												relationTo: "cities";
+												value: number | City;
+										  } | null)
+										| ({
+												relationTo: "attractions";
+												value: number | Attraction;
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
@@ -24920,6 +25848,22 @@ export interface RoutesHub {
 										| ({
 												relationTo: "news";
 												value: number | News;
+										  } | null)
+										| ({
+												relationTo: "countries";
+												value: number | Country;
+										  } | null)
+										| ({
+												relationTo: "regions";
+												value: number | Region;
+										  } | null)
+										| ({
+												relationTo: "cities";
+												value: number | City;
+										  } | null)
+										| ({
+												relationTo: "attractions";
+												value: number | Attraction;
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
@@ -25158,6 +26102,30 @@ export interface RoutesHub {
 															value:
 																| number
 																| News;
+													  } | null)
+													| ({
+															relationTo: "countries";
+															value:
+																| number
+																| Country;
+													  } | null)
+													| ({
+															relationTo: "regions";
+															value:
+																| number
+																| Region;
+													  } | null)
+													| ({
+															relationTo: "cities";
+															value:
+																| number
+																| City;
+													  } | null)
+													| ({
+															relationTo: "attractions";
+															value:
+																| number
+																| Attraction;
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
@@ -25329,6 +26297,30 @@ export interface RoutesHub {
 															value:
 																| number
 																| News;
+													  } | null)
+													| ({
+															relationTo: "countries";
+															value:
+																| number
+																| Country;
+													  } | null)
+													| ({
+															relationTo: "regions";
+															value:
+																| number
+																| Region;
+													  } | null)
+													| ({
+															relationTo: "cities";
+															value:
+																| number
+																| City;
+													  } | null)
+													| ({
+															relationTo: "attractions";
+															value:
+																| number
+																| Attraction;
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
@@ -25496,6 +26488,22 @@ export interface RoutesHub {
 										| ({
 												relationTo: "news";
 												value: number | News;
+										  } | null)
+										| ({
+												relationTo: "countries";
+												value: number | Country;
+										  } | null)
+										| ({
+												relationTo: "regions";
+												value: number | Region;
+										  } | null)
+										| ({
+												relationTo: "cities";
+												value: number | City;
+										  } | null)
+										| ({
+												relationTo: "attractions";
+												value: number | Attraction;
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
@@ -26298,6 +27306,22 @@ export interface ExperiencesHub {
 										| ({
 												relationTo: "news";
 												value: number | News;
+										  } | null)
+										| ({
+												relationTo: "countries";
+												value: number | Country;
+										  } | null)
+										| ({
+												relationTo: "regions";
+												value: number | Region;
+										  } | null)
+										| ({
+												relationTo: "cities";
+												value: number | City;
+										  } | null)
+										| ({
+												relationTo: "attractions";
+												value: number | Attraction;
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
@@ -26536,6 +27560,30 @@ export interface ExperiencesHub {
 															value:
 																| number
 																| News;
+													  } | null)
+													| ({
+															relationTo: "countries";
+															value:
+																| number
+																| Country;
+													  } | null)
+													| ({
+															relationTo: "regions";
+															value:
+																| number
+																| Region;
+													  } | null)
+													| ({
+															relationTo: "cities";
+															value:
+																| number
+																| City;
+													  } | null)
+													| ({
+															relationTo: "attractions";
+															value:
+																| number
+																| Attraction;
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
@@ -26707,6 +27755,30 @@ export interface ExperiencesHub {
 															value:
 																| number
 																| News;
+													  } | null)
+													| ({
+															relationTo: "countries";
+															value:
+																| number
+																| Country;
+													  } | null)
+													| ({
+															relationTo: "regions";
+															value:
+																| number
+																| Region;
+													  } | null)
+													| ({
+															relationTo: "cities";
+															value:
+																| number
+																| City;
+													  } | null)
+													| ({
+															relationTo: "attractions";
+															value:
+																| number
+																| Attraction;
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
@@ -26874,6 +27946,22 @@ export interface ExperiencesHub {
 										| ({
 												relationTo: "news";
 												value: number | News;
+										  } | null)
+										| ({
+												relationTo: "countries";
+												value: number | Country;
+										  } | null)
+										| ({
+												relationTo: "regions";
+												value: number | Region;
+										  } | null)
+										| ({
+												relationTo: "cities";
+												value: number | City;
+										  } | null)
+										| ({
+												relationTo: "attractions";
+												value: number | Attraction;
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
@@ -27676,6 +28764,22 @@ export interface TradeFairsHub {
 										| ({
 												relationTo: "news";
 												value: number | News;
+										  } | null)
+										| ({
+												relationTo: "countries";
+												value: number | Country;
+										  } | null)
+										| ({
+												relationTo: "regions";
+												value: number | Region;
+										  } | null)
+										| ({
+												relationTo: "cities";
+												value: number | City;
+										  } | null)
+										| ({
+												relationTo: "attractions";
+												value: number | Attraction;
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
@@ -27914,6 +29018,30 @@ export interface TradeFairsHub {
 															value:
 																| number
 																| News;
+													  } | null)
+													| ({
+															relationTo: "countries";
+															value:
+																| number
+																| Country;
+													  } | null)
+													| ({
+															relationTo: "regions";
+															value:
+																| number
+																| Region;
+													  } | null)
+													| ({
+															relationTo: "cities";
+															value:
+																| number
+																| City;
+													  } | null)
+													| ({
+															relationTo: "attractions";
+															value:
+																| number
+																| Attraction;
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
@@ -28085,6 +29213,30 @@ export interface TradeFairsHub {
 															value:
 																| number
 																| News;
+													  } | null)
+													| ({
+															relationTo: "countries";
+															value:
+																| number
+																| Country;
+													  } | null)
+													| ({
+															relationTo: "regions";
+															value:
+																| number
+																| Region;
+													  } | null)
+													| ({
+															relationTo: "cities";
+															value:
+																| number
+																| City;
+													  } | null)
+													| ({
+															relationTo: "attractions";
+															value:
+																| number
+																| Attraction;
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
@@ -28252,6 +29404,22 @@ export interface TradeFairsHub {
 										| ({
 												relationTo: "news";
 												value: number | News;
+										  } | null)
+										| ({
+												relationTo: "countries";
+												value: number | Country;
+										  } | null)
+										| ({
+												relationTo: "regions";
+												value: number | Region;
+										  } | null)
+										| ({
+												relationTo: "cities";
+												value: number | City;
+										  } | null)
+										| ({
+												relationTo: "attractions";
+												value: number | Attraction;
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
@@ -29054,6 +30222,22 @@ export interface BlogHub {
 										| ({
 												relationTo: "news";
 												value: number | News;
+										  } | null)
+										| ({
+												relationTo: "countries";
+												value: number | Country;
+										  } | null)
+										| ({
+												relationTo: "regions";
+												value: number | Region;
+										  } | null)
+										| ({
+												relationTo: "cities";
+												value: number | City;
+										  } | null)
+										| ({
+												relationTo: "attractions";
+												value: number | Attraction;
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
@@ -29292,6 +30476,30 @@ export interface BlogHub {
 															value:
 																| number
 																| News;
+													  } | null)
+													| ({
+															relationTo: "countries";
+															value:
+																| number
+																| Country;
+													  } | null)
+													| ({
+															relationTo: "regions";
+															value:
+																| number
+																| Region;
+													  } | null)
+													| ({
+															relationTo: "cities";
+															value:
+																| number
+																| City;
+													  } | null)
+													| ({
+															relationTo: "attractions";
+															value:
+																| number
+																| Attraction;
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
@@ -29463,6 +30671,30 @@ export interface BlogHub {
 															value:
 																| number
 																| News;
+													  } | null)
+													| ({
+															relationTo: "countries";
+															value:
+																| number
+																| Country;
+													  } | null)
+													| ({
+															relationTo: "regions";
+															value:
+																| number
+																| Region;
+													  } | null)
+													| ({
+															relationTo: "cities";
+															value:
+																| number
+																| City;
+													  } | null)
+													| ({
+															relationTo: "attractions";
+															value:
+																| number
+																| Attraction;
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
@@ -29630,6 +30862,22 @@ export interface BlogHub {
 										| ({
 												relationTo: "news";
 												value: number | News;
+										  } | null)
+										| ({
+												relationTo: "countries";
+												value: number | Country;
+										  } | null)
+										| ({
+												relationTo: "regions";
+												value: number | Region;
+										  } | null)
+										| ({
+												relationTo: "cities";
+												value: number | City;
+										  } | null)
+										| ({
+												relationTo: "attractions";
+												value: number | Attraction;
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
@@ -30432,6 +31680,22 @@ export interface NewsHub {
 										| ({
 												relationTo: "news";
 												value: number | News;
+										  } | null)
+										| ({
+												relationTo: "countries";
+												value: number | Country;
+										  } | null)
+										| ({
+												relationTo: "regions";
+												value: number | Region;
+										  } | null)
+										| ({
+												relationTo: "cities";
+												value: number | City;
+										  } | null)
+										| ({
+												relationTo: "attractions";
+												value: number | Attraction;
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;
@@ -30670,6 +31934,30 @@ export interface NewsHub {
 															value:
 																| number
 																| News;
+													  } | null)
+													| ({
+															relationTo: "countries";
+															value:
+																| number
+																| Country;
+													  } | null)
+													| ({
+															relationTo: "regions";
+															value:
+																| number
+																| Region;
+													  } | null)
+													| ({
+															relationTo: "cities";
+															value:
+																| number
+																| City;
+													  } | null)
+													| ({
+															relationTo: "attractions";
+															value:
+																| number
+																| Attraction;
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
@@ -30841,6 +32129,30 @@ export interface NewsHub {
 															value:
 																| number
 																| News;
+													  } | null)
+													| ({
+															relationTo: "countries";
+															value:
+																| number
+																| Country;
+													  } | null)
+													| ({
+															relationTo: "regions";
+															value:
+																| number
+																| Region;
+													  } | null)
+													| ({
+															relationTo: "cities";
+															value:
+																| number
+																| City;
+													  } | null)
+													| ({
+															relationTo: "attractions";
+															value:
+																| number
+																| Attraction;
 													  } | null);
 												href?: string | null;
 												image?: (number | null) | Media;
@@ -31008,6 +32320,22 @@ export interface NewsHub {
 										| ({
 												relationTo: "news";
 												value: number | News;
+										  } | null)
+										| ({
+												relationTo: "countries";
+												value: number | Country;
+										  } | null)
+										| ({
+												relationTo: "regions";
+												value: number | Region;
+										  } | null)
+										| ({
+												relationTo: "cities";
+												value: number | City;
+										  } | null)
+										| ({
+												relationTo: "attractions";
+												value: number | Attraction;
 										  } | null);
 									href?: string | null;
 									image?: (number | null) | Media;

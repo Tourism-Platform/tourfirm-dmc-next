@@ -42,13 +42,28 @@ export const cardFields: Field[] = [
 	{
 		name: "relatedDoc",
 		type: "relationship",
-		relationTo: ["routes", "experiences", "trade-fairs", "blog", "news"]
+		relationTo: [
+			"routes",
+			"experiences",
+			"trade-fairs",
+			"blog",
+			"news",
+			"countries",
+			"regions",
+			"cities",
+			"attractions"
+		]
 	},
 	{
 		name: "href",
 		type: "text",
 		admin: {
-			condition: whenType("country", "tourDestination", "teamMember")
+			condition: whenType(
+				"country",
+				"tourDestination",
+				"teamMember",
+				"mosaicTile"
+			)
 		}
 	},
 	{

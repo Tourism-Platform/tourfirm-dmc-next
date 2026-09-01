@@ -387,6 +387,8 @@ blocks:
     cards:
       - type: "mosaicTile"
         span: "large"
+        entityType: "city"
+        entitySlug: "boysun"
         image: "assets/images/destinations/uzbekistan/regions/surkhandarya/cities/boysun.webp"
         badge:
           en: "Surkhandarya"
@@ -402,6 +404,8 @@ blocks:
           uz: "Tabiat, muhit va manzarani faol dam olish bilan birlashtirish yoqadi. Bu joy bilan oilaviy xotiralar bog'liq: qarindoshlar bilan kelib, jamoalarga bo'linib, kun bo'yi birga o'tkazganmiz."
       - type: "mosaicTile"
         span: "wide"
+        entityType: "region"
+        entitySlug: "fergana-valley"
         image: "assets/images/destinations/uzbekistan/character/margilan/margilan-character-2.webp"
         badge:
           en: "Lesser known"
@@ -416,6 +420,8 @@ blocks:
           ru: "Тем, кто хочет увидеть менее известный Узбекистан, я советую обратить внимание на эти места."
           uz: "Kam tanilgan O'zbekistonni ko'rmoqchi bo'lganlarga shu joylarni tavsiya qilaman."
       - type: "mosaicTile"
+        entityType: "city"
+        entitySlug: "chimgan"
         image: "assets/images/destinations/uzbekistan/next/ugam-chatkal-state-national-natural-park-next-charvak-reservoir.webp"
         badge:
           en: "Adrenaline"
@@ -430,6 +436,8 @@ blocks:
           ru: "Гостям я бы показала сам водопад, окружающую природу и канатную дорогу."
           uz: "Mehmonlarga sharshara, atrofdagi tabiat va kanat yo'lini ko'rsatgan bo'lardim."
       - type: "mosaicTile"
+        entityType: "city"
+        entitySlug: "kokand"
         image: "assets/images/destinations/uzbekistan/character/kokand/kokand-character-2.webp"
         badge:
           en: "Cuisine and crafts"

@@ -397,6 +397,8 @@ blocks:
     cards:
       - type: "mosaicTile"
         span: "large"
+        entityType: "city"
+        entitySlug: "khiva"
         image: "assets/images/destinations/uzbekistan/character/khiva/khiva-character-1.webp"
         badge:
           en: "Khorezm"
@@ -412,6 +414,8 @@ blocks:
           uz: "U yerda bir necha asr orqaga tushgandek his qilaman. Eski shahar, tarixiy yodgorliklar va samimiy odamlar alohida muhit yaratadi."
       - type: "mosaicTile"
         span: "wide"
+        entityType: "region"
+        entitySlug: "surkhandarya"
         image: "assets/images/destinations/uzbekistan/regions/surkhandarya/cities/boysun.webp"
         badge:
           en: "Less familiar"
@@ -426,6 +430,8 @@ blocks:
           ru: "Тем, кто хочет увидеть Узбекистан за пределами открыточных маршрутов."
           uz: "O'zbekistonni otkritka marshrutlaridan tashqarida ko'rmoqchi bo'lganlar uchun."
       - type: "mosaicTile"
+        entityType: "city"
+        entitySlug: "bukhara"
         image: "assets/images/destinations/uzbekistan/character/bukhara/bukhara-character-2.webp"
         badge:
           en: "Hometown"
@@ -440,6 +446,8 @@ blocks:
           ru: "Особое место для меня — здесь я родилась и выросла."
           uz: "Men uchun alohida joy — shu yerda tug'ilib o'sganman."
       - type: "mosaicTile"
+        entityType: "city"
+        entitySlug: "khiva"
         image: "assets/images/destinations/uzbekistan/character/khiva/khiva-character-4.webp"
         badge:
           en: "Cuisine"

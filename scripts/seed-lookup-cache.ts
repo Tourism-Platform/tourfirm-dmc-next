@@ -1,5 +1,6 @@
 import type { Payload } from "payload";
 
+import { buildNavigationGeoPath } from "@/shared/lib/routing/build-navigation-geo-path";
 import type { Country } from "@/payload-types";
 
 type TCountryCardSource = Pick<
@@ -14,6 +15,16 @@ export class SeedLookupCache {
 	readonly cities = new Map<string, number>();
 	readonly segments = new Map<string, number>();
 	readonly attractions = new Map<string, number>();
+	private readonly countrySlugById = new Map<number, string>();
+	private readonly regionMetaById = new Map<
+		number,
+		{ countryId: number; slug: string }
+	>();
+	private readonly cityMetaById = new Map<
+		number,
+		{ regionId: number; slug: string }
+	>();
+	private readonly attractionCityBySlug = new Map<string, number>();
 	readonly themes = new Map<string, number>();
 	readonly routes = new Map<string, number>();
 	readonly experiences = new Map<string, number>();
@@ -36,6 +47,7 @@ export class SeedLookupCache {
 			}
 
 			this.countries.set(doc.slug, doc.id as number);
+			this.countrySlugById.set(doc.id as number, doc.slug);
 			this.countryCards.set(doc.slug, {
 				id: doc.id as number,
 				slug: doc.slug,
@@ -63,6 +75,10 @@ export class SeedLookupCache {
 
 			if (countryId && slug) {
 				this.regions.set(`${countryId}:${slug}`, doc.id as number);
+				this.regionMetaById.set(doc.id as number, {
+					countryId,
+					slug
+				});
 			}
 		}
 	}
@@ -82,6 +98,7 @@ export class SeedLookupCache {
 
 			if (regionId && slug) {
 				this.cities.set(`${regionId}:${slug}`, doc.id as number);
+				this.cityMetaById.set(doc.id as number, { regionId, slug });
 			}
 		}
 	}
@@ -96,8 +113,15 @@ export class SeedLookupCache {
 		});
 
 		for (const doc of result.docs) {
-			if (typeof doc.slug === "string") {
-				this.attractions.set(doc.slug, doc.id as number);
+			if (typeof doc.slug !== "string") {
+				continue;
+			}
+
+			this.attractions.set(doc.slug, doc.id as number);
+			const cityId = this.toRelId(doc.city);
+
+			if (cityId !== undefined) {
+				this.attractionCityBySlug.set(doc.slug, cityId);
 			}
 		}
 	}
@@ -126,19 +150,26 @@ export class SeedLookupCache {
 
 	registerCountry(doc: TCountryCardSource): void {
 		this.countries.set(doc.slug, doc.id);
+		this.countrySlugById.set(doc.id, doc.slug);
 		this.countryCards.set(doc.slug, doc);
 	}
 
 	registerRegion(countryId: number, slug: string, id: number): void {
 		this.regions.set(`${countryId}:${slug}`, id);
+		this.regionMetaById.set(id, { countryId, slug });
 	}
 
 	registerCity(regionId: number, slug: string, id: number): void {
 		this.cities.set(`${regionId}:${slug}`, id);
+		this.cityMetaById.set(id, { regionId, slug });
 	}
 
-	registerAttraction(slug: string, id: number): void {
+	registerAttraction(slug: string, id: number, cityId?: number): void {
 		this.attractions.set(slug, id);
+
+		if (cityId !== undefined) {
+			this.attractionCityBySlug.set(slug, cityId);
+		}
 	}
 
 	registerTheme(slug: string, id: number): void {
@@ -375,6 +406,118 @@ export class SeedLookupCache {
 		}
 
 		throw new Error(`City not found in lookup cache: ${entitySlug}`);
+	}
+
+	getGeoHref(
+		entityType: "country" | "region" | "city" | "attraction",
+		entitySlug: string,
+		navigationRootSlug: string
+	): string {
+		return buildNavigationGeoPath(
+			navigationRootSlug,
+			this.getGeoPathSegments(entityType, entitySlug)
+		);
+	}
+
+	private toRelId(value: unknown): number | undefined {
+		if (typeof value === "number") {
+			return value;
+		}
+
+		if (value && typeof value === "object" && "id" in value) {
+			const id = (value as { id: unknown }).id;
+
+			return typeof id === "number" ? id : undefined;
+		}
+
+		return undefined;
+	}
+
+	private getGeoPathSegments(
+		entityType: "country" | "region" | "city" | "attraction",
+		entitySlug: string
+	): string[] {
+		if (entityType === "country") {
+			this.getCountryId(entitySlug);
+
+			return [entitySlug];
+		}
+
+		if (entityType === "region") {
+			for (const meta of this.regionMetaById.values()) {
+				if (meta.slug === entitySlug) {
+					const countrySlug = this.countrySlugById.get(meta.countryId);
+
+					if (!countrySlug) {
+						throw new Error(
+							`Country slug missing for region: ${entitySlug}`
+						);
+					}
+
+					return [countrySlug, entitySlug];
+				}
+			}
+
+			throw new Error(`Region not found in lookup cache: ${entitySlug}`);
+		}
+
+		if (entityType === "city") {
+			for (const meta of this.cityMetaById.values()) {
+				if (meta.slug === entitySlug) {
+					const region = this.regionMetaById.get(meta.regionId);
+
+					if (!region) {
+						throw new Error(
+							`Region missing for city: ${entitySlug}`
+						);
+					}
+
+					const countrySlug = this.countrySlugById.get(
+						region.countryId
+					);
+
+					if (!countrySlug) {
+						throw new Error(
+							`Country slug missing for city: ${entitySlug}`
+						);
+					}
+
+					return [countrySlug, region.slug, entitySlug];
+				}
+			}
+
+			throw new Error(`City not found in lookup cache: ${entitySlug}`);
+		}
+
+		const cityId = this.attractionCityBySlug.get(entitySlug);
+
+		if (cityId === undefined) {
+			throw new Error(
+				`Attraction city missing in lookup cache: ${entitySlug}`
+			);
+		}
+
+		const city = this.cityMetaById.get(cityId);
+
+		if (!city) {
+			throw new Error(`City missing for attraction: ${entitySlug}`);
+		}
+
+		const region = this.regionMetaById.get(city.regionId);
+
+		if (!region) {
+			throw new Error(`Region missing for attraction: ${entitySlug}`);
+		}
+
+		const countrySlug = this.countrySlugById.get(region.countryId);
+
+		if (!countrySlug) {
+			throw new Error(
+				`Country slug missing for attraction: ${entitySlug}`
+			);
+		}
+
+		return [countrySlug, region.slug, city.slug, entitySlug];
 	}
 
 	getCountryCard(countrySlug: string): TCountryCardSource {

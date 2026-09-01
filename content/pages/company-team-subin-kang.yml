@@ -392,6 +392,8 @@ blocks:
     cards:
       - type: "mosaicTile"
         span: "large"
+        entityType: "attraction"
+        entitySlug: "lyabi-hauz-ensemble"
         image: "assets/images/destinations/uzbekistan/character/bukhara/bukhara-character-1.webp"
         badge:
           en: "Bukhara"
@@ -407,6 +409,8 @@ blocks:
           uz: "Bu yerda tarix oddiy shahar hayotining qismi: odamlar suv bo'yida dam oladi, choyxonalarda uchrashadi va qadimiy me'morchilik fonida suhbatlashadi."
       - type: "mosaicTile"
         span: "wide"
+        entityType: "region"
+        entitySlug: "surkhandarya"
         image: "assets/images/destinations/uzbekistan/regions/surkhandarya/cities/boysun.webp"
         badge:
           en: "Lesser known"
@@ -421,6 +425,8 @@ blocks:
           ru: "Тем, кто хочет выйти за пределы самых известных маршрутов."
           uz: "Eng mashhur marshrutlardan tashqariga chiqmoqchi bo'lganlar uchun."
       - type: "mosaicTile"
+        entityType: "country"
+        entitySlug: "kyrgyzstan"
         image: "assets/images/destinations/kyrgyzstan/country.webp"
         badge:
           en: "Central Asia"
@@ -435,6 +441,8 @@ blocks:
           ru: "Маршруты, связанные с nomad tourism."
           uz: "Nomad tourism bilan bog'liq marshrutlar."
       - type: "mosaicTile"
+        entityType: "city"
+        entitySlug: "bukhara"
         image: "assets/images/destinations/uzbekistan/character/bukhara/bukhara-character-2.webp"
         badge:
           en: "Evening"

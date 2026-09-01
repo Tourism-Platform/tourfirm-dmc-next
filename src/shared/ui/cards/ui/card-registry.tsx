@@ -272,7 +272,8 @@ export const CARD_REGISTRY: Partial<Record<CardType, TCardRenderer>> = {
 				imageUrl: item.imageUrl ?? "",
 				badge: item.badge,
 				title: item.title ?? "",
-				description: item.description
+				description: item.description,
+				href: item.href
 			}}
 		/>
 	),

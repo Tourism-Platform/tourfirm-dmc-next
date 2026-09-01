@@ -970,6 +970,18 @@ async function resolveBlockCards(
 			continue;
 		}
 
+		if (entry.type === "mosaicTile") {
+			resolved.push(
+				await resolveMosaicTileCard(
+					payload,
+					mediaCache,
+					entry,
+					options
+				)
+			);
+			continue;
+		}
+
 		if (typeof entry.relatedDocSlug === "string") {
 			const collection = CARD_TYPE_COLLECTION[String(entry.type)];
 
@@ -1026,6 +1038,61 @@ async function findRouteMapEntityId(
 	entitySlug: string
 ): Promise<number> {
 	return activeLookup.getRouteMapEntityId(entityType, entitySlug);
+}
+
+const DEFAULT_DESTINATION_ROOT = "destinations";
+
+function isRouteMapEntityType(value: string): value is TRouteMapEntityType {
+	return (
+		value === "country" ||
+		value === "region" ||
+		value === "city" ||
+		value === "attraction"
+	);
+}
+
+async function resolveMosaicTileCard(
+	payload: Payload,
+	mediaCache: TMediaCache,
+	card: Record<string, unknown>,
+	options?: TResolvePageOptions
+): Promise<Record<string, unknown>> {
+	const { entityType, entitySlug, ...rest } = card;
+	const resolved = await resolveCardImage(payload, mediaCache, rest);
+
+	if (typeof entityType !== "string" || typeof entitySlug !== "string") {
+		return resolved;
+	}
+
+	if (!isRouteMapEntityType(entityType)) {
+		throw new Error(
+			`mosaicTile entityType is not supported: ${entityType}`
+		);
+	}
+
+	try {
+		const id = await findRouteMapEntityId(entityType, entitySlug);
+		const rootSlug = options?.hrefPrefix ?? DEFAULT_DESTINATION_ROOT;
+
+		return {
+			...resolved,
+			relatedDoc: {
+				relationTo: ROUTE_MAP_ENTITY_COLLECTION[entityType],
+				value: id
+			},
+			href: activeLookup.getGeoHref(entityType, entitySlug, rootSlug)
+		};
+	} catch (error) {
+		if (!options?.skipMissingRelations) {
+			throw error;
+		}
+
+		console.warn(
+			`  ~ skip mosaicTile "${entityType}:${entitySlug}" (${error instanceof Error ? error.message : String(error)})`
+		);
+
+		return resolved;
+	}
 }
 
 async function resolveRouteMapStops(
@@ -1286,6 +1353,25 @@ async function readDestinationPageSlug(): Promise<string> {
 	}
 
 	return String(slug ?? "");
+}
+
+async function readDestinationSlugFromDb(payload: Payload): Promise<string> {
+	try {
+		const doc = await payload.findGlobal({
+			slug: "destination",
+			locale: "en",
+			depth: 0,
+			overrideAccess: true
+		});
+		const slug =
+			doc && typeof doc === "object" && "slug" in doc
+				? String((doc as { slug?: string }).slug ?? "").trim()
+				: "";
+
+		return slug || DEFAULT_DESTINATION_ROOT;
+	} catch {
+		return DEFAULT_DESTINATION_ROOT;
+	}
 }
 
 export async function seedDiscoveryGlobal(
@@ -1754,7 +1840,11 @@ export function registerAttractionFromDoc(
 		return;
 	}
 
-	lookup.registerAttraction(slug, doc.id as number);
+	lookup.registerAttraction(
+		slug,
+		doc.id as number,
+		toRelationshipId(doc.city)
+	);
 }
 
 async function seedBadges(payload: Payload): Promise<Map<string, number>> {
@@ -3002,7 +3092,8 @@ async function runSeed(): Promise<void> {
 	log.start("Seeding pages");
 	const { count: pagesCount, pageIds } = await seedPages(
 		payload,
-		mediaCache
+		mediaCache,
+		{ hrefPrefix: navigationRootSlug }
 	);
 	log.done();
 
@@ -3135,10 +3226,16 @@ async function runSeedCompanyPagesOnly(pageSlug?: string): Promise<void> {
 	const mediaDbIndex = await preloadMediaDbIndex(payload);
 	setSeedRuntimeContext(lookup, mediaDbIndex, profiler);
 	await lookup.ingestSegmentsFromDb(payload);
+	await lookup.ingestCountries(payload);
+	await lookup.ingestRegions(payload);
+	await lookup.ingestCities(payload);
+	await lookup.ingestAttractions(payload);
 
 	const mediaCache: TMediaCache = new Map();
 	const pageFileSet = new Set(pageFiles);
+	const hrefPrefix = await readDestinationSlugFromDb(payload);
 	const { count } = await seedPages(payload, mediaCache, {
+		hrefPrefix,
 		fileFilter:
 			pageFileSet.size > 0
 				? (file) => pageFileSet.has(file)

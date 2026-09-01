@@ -411,6 +411,8 @@ blocks:
     cards:
       - type: "mosaicTile"
         span: "large"
+        entityType: "city"
+        entitySlug: "tashkent"
         image: "assets/images/destinations/uzbekistan/character/tashkent/tashkent-character-1.webp"
         badge:
           en: "Capital"
@@ -426,6 +428,8 @@ blocks:
           uz: "Talabalik yillarim shu yerda o'tgan. Mehmonlarga ikki atmosfera o'rtasidagi farqni his qilishni tavsiya qilaman."
       - type: "mosaicTile"
         span: "wide"
+        entityType: "city"
+        entitySlug: "aydarkul"
         image: "assets/images/destinations/uzbekistan/character/aydarkul/aydarkul-character-3.webp"
         badge:
           en: "Jizzakh region"
@@ -440,6 +444,8 @@ blocks:
           ru: "Тем, кто хочет увидеть менее известные уголки страны."
           uz: "Mamlakatning kam tanilgan burchaklarini ko'rmoqchi bo'lganlar uchun."
       - type: "mosaicTile"
+        entityType: "city"
+        entitySlug: "samarkand"
         image: "assets/images/destinations/uzbekistan/regions/samarkand-region/cities/samarkand/attractions/registan-square.webp"
         badge:
           en: "Cuisine"
@@ -454,6 +460,8 @@ blocks:
           ru: "С этого стоит начать."
           uz: "Shu yerdan boshlash arziydi."
       - type: "mosaicTile"
+        entityType: "city"
+        entitySlug: "bukhara"
         image: "assets/images/destinations/uzbekistan/character/bukhara/bukhara-character-4.webp"
         badge:
           en: "Crafts and evening"

@@ -1,19 +1,23 @@
 import Image from "next/image";
+import type { ReactNode } from "react";
+
+import { Link } from "@/shared/i18n";
+import { isExternalHref } from "@/shared/lib/url/is-external-href";
 
 import type { TMosaicTileCardProps } from "../types/mosaic-tile-card.types";
 
-export function MosaicTileCard({ data }: TMosaicTileCardProps) {
-	if (!data.imageUrl) {
-		return null;
-	}
+function isProtocolHref(href: string): boolean {
+	return isExternalHref(href) || /^(mailto:|tel:)/i.test(href);
+}
 
+function MosaicTileBody({ data }: TMosaicTileCardProps) {
 	return (
 		<article className="relative isolate flex h-full min-h-40 items-end overflow-hidden rounded-[10px]">
 			<Image
 				src={data.imageUrl}
 				alt={data.title}
 				fill
-				className="z-[-2] object-cover transition-transform duration-500 hover:scale-105"
+				className="z-[-2] object-cover transition-transform duration-500 group-hover:scale-105"
 				sizes="(max-width: 768px) 100vw, 50vw"
 			/>
 			<div
@@ -36,5 +40,37 @@ export function MosaicTileCard({ data }: TMosaicTileCardProps) {
 				) : null}
 			</div>
 		</article>
+	);
+}
+
+export function MosaicTileCard({ data }: TMosaicTileCardProps) {
+	if (!data.imageUrl) {
+		return null;
+	}
+
+	const body: ReactNode = <MosaicTileBody data={data} />;
+
+	if (!data.href) {
+		return body;
+	}
+
+	if (isProtocolHref(data.href)) {
+		return (
+			<a
+				href={data.href}
+				className="group block h-full"
+				{...(isExternalHref(data.href)
+					? { target: "_blank", rel: "noopener noreferrer" }
+					: {})}
+			>
+				{body}
+			</a>
+		);
+	}
+
+	return (
+		<Link href={data.href} className="group block h-full">
+			{body}
+		</Link>
 	);
 }
