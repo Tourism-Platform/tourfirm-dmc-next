@@ -38,7 +38,6 @@ export function BlockRender({
 				description={section.description!}
 				note={section.note}
 				tags={section.tags}
-				size={section.tags?.length ? "tall" : "compact"}
 				actions={section.actions?.map((action, actionIndex) => (
 					<ButtonRender
 						key={actionIndex}
