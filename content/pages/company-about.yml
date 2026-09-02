@@ -491,14 +491,59 @@ blocks:
       - type: "country"
         countrySlug: uzbekistan
         featured: true
+        image: "assets/images/destinations/uzbekistan.jpg"
+        badge:
+          en: "The heart of the Silk Road"
+          ru: "Сердце Великого шёлкового пути"
+          uz: "Buyuk Ipak yo'lining yuragi"
+        description:
+          en: "TourLink's home: courtyards, bazaar rhythm and Silk Road cities in one route."
+          ru: "Дом TourLink: дворы, ритм базара и города Шёлкового пути в одном маршруте."
+          uz: "TourLink uyi: hovlilar, bozor ritmi va Ipak yo'li shaharlari bitta yo'nalishda."
       - type: "country"
         countrySlug: kazakhstan
+        image: "assets/images/destinations/kazakhstan.jpg"
+        badge:
+          en: "Steppe scale, mountain cities"
+          ru: "Степной масштаб, горные города"
+          uz: "Dasht miqyosi, tog' shaharlari"
+        description:
+          en: "From Astana's avenues to Almaty's foothills and Turkistan's courtyards."
+          ru: "От широких проспектов Астаны к предгорьям Алматы и дворам Туркестана."
+          uz: "Ostona xiyobonlaridan Olmaota tog'oldilari va Turkiston hovlilarigacha."
       - type: "country"
         countrySlug: kyrgyzstan
+        image: "assets/images/destinations/kyrgyzstan.jpg"
+        badge:
+          en: "Mountains, lakes, and nomad roads"
+          ru: "Горы, озёра и дороги кочевников"
+          uz: "Tog'lar, ko'llar va ko'chmanchi yo'llar"
+        description:
+          en: "Issyk-Kul, Tian Shan gorges and routes where nomad logic still holds."
+          ru: "Иссык-Куль, ущелья Тянь-Шаня и маршруты, где ещё жива кочевая логика."
+          uz: "Issiqko'l, Tyan-Shan daralari va ko'chmanchi mantiq hali saqlanadigan yo'llar."
       - type: "country"
         countrySlug: tajikistan
+        image: "assets/images/destinations/tajikistan.jpg"
+        badge:
+          en: "Where the Pamirs touch the sky"
+          ru: "Там, где Памир касается неба"
+          uz: "Pomir osmonga tegadigan joy"
+        description:
+          en: "High passes, the Fann mountains and roads that need a slower pace."
+          ru: "Высокие перевалы, Фанские горы и дороги, которые требуют спокойного темпа."
+          uz: "Baland dovonlar, Fan tog'lari va sekin sur'at talab qiladigan yo'llar."
       - type: "country"
         countrySlug: turkmenistan
+        image: "assets/images/destinations/turkmenistan.jpg"
+        badge:
+          en: "Marble capital and desert roads"
+          ru: "Мраморная столица и пустынные дороги"
+          uz: "Marmar poytaxt va cho'l yo'llari"
+        description:
+          en: "Ashgabat, oasis ruins and caravan lines through the Karakum."
+          ru: "Ашхабад, оазисные руины и караванные линии через Каракумы."
+          uz: "Ashxobod, voha xarobalari va Qoraqum orqali karvon yo'llari."
     actions:
       - type: link
         variant: outline

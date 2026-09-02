@@ -895,11 +895,13 @@ async function resolveRouteIdeaCard(
 }
 
 async function resolveCountryCard(
+	payload: Payload,
+	mediaCache: TMediaCache,
 	card: Record<string, unknown>,
 	locale?: TLocale,
 	options?: TResolvePageOptions
 ): Promise<Record<string, unknown>> {
-	const countrySlug = card.countrySlug;
+	const { countrySlug, ...rest } = card;
 
 	if (typeof countrySlug !== "string") {
 		throw new Error(`Country card must include countrySlug in locale ${locale}`);
@@ -907,20 +909,28 @@ async function resolveCountryCard(
 
 	const country = activeLookup.getCountryCard(countrySlug);
 	const slug = String(country.slug);
+	const excerpt =
+		typeof country.excerpt === "string"
+			? toDefaultRichText(country.excerpt)
+			: country.excerpt;
 
-	return {
+	return resolveCardImage(payload, mediaCache, {
+		...rest,
 		type: "country",
-		href: buildPrefixedCountryHref(options?.hrefPrefix, slug),
-		image: country.heroImage,
-		badge: country.subtitle,
-		title: country.title,
+		href:
+			typeof rest.href === "string" && rest.href.length > 0
+				? rest.href
+				: buildPrefixedCountryHref(options?.hrefPrefix, slug),
+		image: rest.image ?? country.heroImage,
+		badge: rest.badge ?? country.subtitle,
+		title: rest.title ?? country.title,
 		description:
-			typeof country.excerpt === "string"
-				? toDefaultRichText(country.excerpt)
-				: country.excerpt,
-		featured: card.featured === true,
-		cities: []
-	};
+			rest.description !== undefined && rest.description !== ""
+				? rest.description
+				: excerpt,
+		featured: rest.featured === true,
+		cities: rest.cities ?? []
+	});
 }
 
 async function resolveBlockCards(
@@ -950,7 +960,15 @@ async function resolveBlockCards(
 
 		if (entry.type === "country" && entry.countrySlug) {
 			try {
-				resolved.push(await resolveCountryCard(entry, locale, options));
+				resolved.push(
+					await resolveCountryCard(
+						payload,
+						mediaCache,
+						entry,
+						locale,
+						options
+					)
+				);
 			} catch (error) {
 				if (!options?.skipMissingRelations) {
 					throw error;
@@ -3720,6 +3738,54 @@ async function runSeedToursOnly(): Promise<void> {
 	process.exit(0);
 }
 
+async function runSeedHomepageDestinationOnly(): Promise<void> {
+	const seedDbUri = resolveSeedDatabaseUri();
+	const profiler = createSeedProfiler();
+	const lookup = new SeedLookupCache();
+
+	logSeedConnectionInfo(seedDbUri);
+	console.log(
+		"Seed mode: homepage + destination hub (no DB reset)"
+	);
+
+	process.env.PAYLOAD_SEED_MODE = "true";
+	process.env.PAYLOAD_DB_PUSH = "false";
+	process.env.DATABASE_URI = seedDbUri;
+	process.env.SEED_RESUME = "false";
+	process.env.SEED_SKIP_EXISTING = "false";
+	process.env.SEED_SKIP_RESET = "true";
+
+	const { default: config } = await import("@payload-config");
+	await wakeDatabase(seedDbUri);
+	const payload = await getPayload({ config });
+	attachSeedPoolErrorHandler(payload);
+
+	const mediaDbIndex = await preloadMediaDbIndex(payload);
+	setSeedRuntimeContext(lookup, mediaDbIndex, profiler);
+	await lookup.ingestCountries(payload);
+	await lookup.ingestRegions(payload);
+	await lookup.ingestCities(payload);
+	await lookup.ingestAttractions(payload);
+	await lookup.ingestRoutes(payload);
+	await lookup.ingestExperiences(payload);
+	await lookup.ingestTradeFairs(payload);
+	await lookup.ingestBlog(payload);
+	await lookup.ingestNews(payload);
+
+	const mediaCache: TMediaCache = new Map();
+	const hrefPrefix = await readDestinationSlugFromDb(payload);
+
+	await seedHomepage(payload, mediaCache, hrefPrefix);
+	await seedDestination(payload, mediaCache);
+
+	if (typeof payload.db?.destroy === "function") {
+		await payload.db.destroy();
+	}
+
+	console.log("Homepage and destination hub seed complete");
+	process.exit(0);
+}
+
 if (isSeedEntrypoint) {
 	const only = getSeedOnlyTarget();
 	const destinationsMatch = only?.match(/^destinations:(.+)$/);
@@ -3731,13 +3797,14 @@ if (isSeedEntrypoint) {
 		only !== "navigation" &&
 		only !== "company" &&
 		only !== "tours" &&
+		only !== "homepage" &&
 		!only.startsWith("city:") &&
 		!destinationsMatch &&
 		!countryMatch &&
 		!pageMatch
 	) {
 		console.error(
-			`Unknown --only target "${only}". Supported: navigation, company, tours, page:<yml-basename>, city:<slug>, country:<slug>, destinations:<countrySlug>`
+			`Unknown --only target "${only}". Supported: navigation, company, tours, homepage, page:<yml-basename>, city:<slug>, country:<slug>, destinations:<countrySlug>`
 		);
 		process.exit(1);
 	}
@@ -3750,7 +3817,9 @@ if (isSeedEntrypoint) {
 				? () => runSeedCompanyPagesOnly()
 				: only === "tours"
 					? runSeedToursOnly
-					: pageMatch
+					: only === "homepage"
+						? runSeedHomepageDestinationOnly
+						: pageMatch
 						? () => runSeedCompanyPagesOnly(pageMatch[1].trim())
 						: destinationsMatch
 							? () =>
