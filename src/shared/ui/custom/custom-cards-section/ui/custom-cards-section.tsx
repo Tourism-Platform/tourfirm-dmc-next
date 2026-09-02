@@ -1,3 +1,5 @@
+import { Fragment } from "react";
+
 import { cn } from "@/shared/lib/utils";
 import { ToneBand } from "@/shared/ui/blocks";
 import { CardRender } from "@/shared/ui/cards/ui/card-render";
@@ -22,6 +24,12 @@ const MOSAIC_SPAN_CLASS: Record<string, string> = {
 	default: "",
 	wide: "col-span-2",
 	large: "col-span-2 row-span-2"
+};
+
+const GRID_SPAN_CLASS: Record<string, string> = {
+	default: "",
+	wide: "sm:col-span-2",
+	large: "sm:col-span-2 lg:row-span-2"
 };
 
 export function CardsSection({
@@ -94,17 +102,30 @@ export function CardsSection({
 				) : hasCards ? (
 					<div
 						className={cn(
-							"grid grid-cols-1 gap-4",
+							"grid grid-cols-1 gap-6 sm:gap-8",
 							gridClassName ?? "md:grid-cols-3"
 						)}
 					>
-						{cards.map((card, index) => (
-							<CardRender
-								key={card.key ?? String(index)}
-								type={card.type}
-								item={card.item}
-							/>
-						))}
+						{cards.map((card, index) => {
+							const key = card.key ?? String(index);
+							const span = card.item.span ?? "default";
+							const node = (
+								<CardRender type={card.type} item={card.item} />
+							);
+
+							if (span === "default") {
+								return <Fragment key={key}>{node}</Fragment>;
+							}
+
+							return (
+								<div
+									key={key}
+									className={GRID_SPAN_CLASS[span]}
+								>
+									{node}
+								</div>
+							);
+						})}
 					</div>
 				) : emptyLabel ? (
 					<p className="text-muted-foreground text-sm">

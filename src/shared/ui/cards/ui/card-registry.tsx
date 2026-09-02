@@ -106,10 +106,14 @@ export const CARD_REGISTRY: Partial<Record<CardType, TCardRenderer>> = {
 	[CardType.TeamMember]: (item) => (
 		<TeamMemberCard
 			data={{
-				icon: getLucideIcon(item.icon),
+				imageUrl: item.imageUrl,
+				badge: item.badge,
 				title: item.title ?? "",
-				description: item.description ?? "",
-				href: item.href ?? ""
+				description: item.description,
+				href: item.href,
+				langs: item.langs,
+				featured: item.featured,
+				icon: item.icon ? getLucideIcon(item.icon) : undefined
 			}}
 		/>
 	),

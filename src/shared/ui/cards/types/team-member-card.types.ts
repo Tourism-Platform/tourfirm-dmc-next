@@ -1,12 +1,16 @@
 import type { LucideIcon } from "lucide-react";
 
-export interface ITeamMemberCard {
-	icon: LucideIcon;
+export type TTeamMemberCardData = {
 	title: string;
-	description: string;
-	href: string;
-}
+	href?: string;
+	imageUrl?: string;
+	badge?: string;
+	description?: string;
+	langs?: string[];
+	featured?: boolean;
+	icon?: LucideIcon;
+};
 
 export type TTeamMemberCardProps = {
-	data: ITeamMemberCard;
+	data: TTeamMemberCardData;
 };

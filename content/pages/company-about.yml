@@ -30,6 +30,85 @@ blocks:
       en: "Directly. Unique routes across Uzbekistan, Kyrgyzstan, Kazakhstan and the wider region — built by a team that knows it from inside."
       ru: "Напрямую. Уникальные маршруты по Узбекистану, Кыргызстану, Казахстану и всему региону — от команды, которая знает его изнутри."
       uz: "To'g'ridan-to'g'ri. O'zbekiston, Qirg'iziston, Qozog'iston va butun mintaqa bo'ylab noyob marshrutlar — regionni ichidan biladigan jamoa tomonidan."
+    tags:
+      - label:
+          en: "Uzbekistan"
+          ru: "Узбекистан"
+          uz: "O'zbekiston"
+      - label:
+          en: "Kyrgyzstan"
+          ru: "Кыргызстан"
+          uz: "Qirg'iziston"
+      - label:
+          en: "Kazakhstan"
+          ru: "Казахстан"
+          uz: "Qozog'iston"
+      - label:
+          en: "Tajikistan"
+          ru: "Таджикистан"
+          uz: "Tojikiston"
+      - label:
+          en: "Turkmenistan"
+          ru: "Туркменистан"
+          uz: "Turkmaniston"
+  - blockType: "overviewStats"
+    cards:
+      - type: "overviewStat"
+        icon: "map"
+        label:
+          en: "Geography"
+          ru: "География"
+          uz: "Geografiya"
+        value:
+          en: "5 countries"
+          ru: "5 стран"
+          uz: "5 mamlakat"
+        hint:
+          en: "Uzbekistan, Kyrgyzstan, Kazakhstan, Tajikistan, Turkmenistan"
+          ru: "Узбекистан, Кыргызстан, Казахстан, Таджикистан, Туркменистан"
+          uz: "O'zbekiston, Qirg'iziston, Qozog'iston, Tojikiston, Turkmaniston"
+      - type: "overviewStat"
+        icon: "users"
+        label:
+          en: "Team"
+          ru: "Команда"
+          uz: "Jamoa"
+        value:
+          en: "People on the ground"
+          ru: "Люди на местах"
+          uz: "Joylardagi odamlar"
+        hint:
+          en: "Routes are built by people who know the region from inside"
+          ru: "Маршруты строят те, кто знает регион изнутри"
+          uz: "Marshrutlarni mintaqani ichidan biladigan odamlar quradi"
+      - type: "overviewStat"
+        icon: "link-2"
+        label:
+          en: "Format"
+          ru: "Формат"
+          uz: "Format"
+        value:
+          en: "DMC and platform"
+          ru: "DMC и платформа"
+          uz: "DMC va platforma"
+        hint:
+          en: "Operators, agencies and travellers — on one link"
+          ru: "Операторы, агентства и путешественники — на одной связи"
+          uz: "Operatorlar, agentliklar va sayohatchilar — bitta aloqada"
+      - type: "overviewStat"
+        icon: "shield-check"
+        label:
+          en: "Principle"
+          ru: "Принцип"
+          uz: "Tamoyil"
+        value:
+          en: "No aggregators"
+          ru: "Без агрегаторов"
+          uz: "Agregatorsiz"
+        hint:
+          en: "Not an algorithm: a live team behind every programme"
+          ru: "Не алгоритм: живая команда за каждой программой"
+          uz: "Algoritm emas: har bir dastur ortida jonli jamoa"
   - blockType: "regular"
     eyebrow:
       en: "What TourLink is"
@@ -39,41 +118,49 @@ blocks:
       en: "A link between Central Asia and the world"
       ru: "Связь между Центральной Азией и миром"
       uz: "Markaziy Osiyo va dunyo o'rtasidagi aloqa"
-    description:
-      en: "TourLink is the region's first comprehensive travel ecosystem — tour operators, agencies, suppliers and travellers on one platform.\n\nWe connect you with the people who built these routes through years of work in the region — not through aggregators or algorithms. Uzbekistan, Kyrgyzstan, Kazakhstan, Tajikistan and Turkmenistan — five countries, one link."
-      ru: "TourLink — первая в регионе комплексная туристическая экосистема: туроператоры, агентства, поставщики и путешественники на одной платформе.\n\nМы соединяем вас с теми, кто построил эти маршруты годами работы в регионе — без агрегаторов и алгоритмов. Узбекистан, Кыргызстан, Казахстан, Таджикистан и Туркменистан — пять стран, одна связь."
-      uz: "TourLink — mintaqadagi birinchi kompleks sayohat ekotizimi: turoperatorlar, agentliklar, yetkazib beruvchilar va sayohatchilar bitta platformada.\n\nBiz sizni bu marshrutlarni regionda yillar davomida qurgan odamlar bilan bog'laymiz — agregatorlar va algoritmlarsiz. O'zbekiston, Qirg'iziston, Qozog'iston, Tojikiston va Turkmaniston — beshta mamlakat, bitta aloqa."
+    rows:
+      - ratio: "1:2"
+        left:
+          - type: "portrait"
+            image: "assets/images/people.jpg"
+            title:
+              en: "The TourLink team"
+              ru: "Команда TourLink"
+              uz: "TourLink jamoasi"
+            description:
+              en: "The people behind every route"
+              ru: "Люди, которые стоят за каждым маршрутом"
+              uz: "Har bir marshrut ortidagi odamlar"
+        right:
+          - type: "quote"
+            quote:
+              en: "TourLink is not a startup. It is a team that brought everything it knew and built a platform around it."
+              ru: "TourLink — это не стартап. Это команда, которая привела с собой всё, что знала, и построила вокруг этого платформу."
+              uz: "TourLink — startap emas. Bu bilgan hamma narsasini olib kelgan va atrofida platforma qurgan jamoa."
+            caption:
+              en: "The team's mission"
+              ru: "Миссия команды"
+              uz: "Jamoa missiyasi"
+          - type: "dashTitle"
+            title:
+              en: "The region's ecosystem"
+              ru: "Экосистема региона"
+              uz: "Mintaqa ekotizimi"
+            description:
+              en: "The region's first comprehensive travel ecosystem: tour operators, agencies, suppliers and travellers on one platform."
+              ru: "Первая в регионе комплексная туристическая экосистема: туроператоры, агентства, поставщики и путешественники на одной платформе."
+              uz: "Mintaqadagi birinchi kompleks sayohat ekotizimi: turoperatorlar, agentliklar, yetkazib beruvchilar va sayohatchilar bitta platformada."
+          - type: "dashTitle"
+            title:
+              en: "Mission"
+              ru: "Миссия"
+              uz: "Missiya"
+            description:
+              en: "Connecting Central Asia with the world: travellers get direct access to the region, the industry gets a global audience."
+              ru: "Соединять Центральную Азию с миром: путешественникам — прямой доступ к региону, индустрии — к глобальной аудитории."
+              uz: "Markaziy Osiyoni dunyo bilan bog'lash: sayohatchilarga mintaqaga to'g'ridan-to'g'ri kirish, sohaga — global auditoriya."
   - blockType: "regular"
-    eyebrow:
-      en: "Mission"
-      ru: "Миссия"
-      uz: "Missiya"
-    title:
-      en: "Connecting Central Asia with the world"
-      ru: "Соединять Центральную Азию с миром"
-      uz: "Markaziy Osiyoni dunyo bilan bog'lash"
-    description:
-      en: "Giving travellers direct access to the region and the industry access to a global audience."
-      ru: "Давать путешественникам прямой доступ к региону, а индустрии — к глобальной аудитории."
-      uz: "Sayohatchilarga mintaqaga to'g'ridan-to'g'ri kirish, sohaga esa global auditoriyaga chiqish imkonini berish."
-    note:
-      en: "TourLink is not a startup. It is a team that brought everything it knew and built a platform around it."
-      ru: "TourLink — это не стартап. Это команда, которая привела с собой всё, что знала, и построила вокруг этого платформу."
-      uz: "TourLink — startap emas. Bu bilgan hamma narsasini olib kelgan va atrofida platforma qurgan jamoa."
-  - blockType: "regular"
-    eyebrow:
-      en: "Vision"
-      ru: "Видение"
-      uz: "Ko'rinish"
-    title:
-      en: "The main entry point to the region's ecosystem"
-      ru: "Главная точка входа в экосистему региона"
-      uz: "Mintaqa ekotizimiga asosiy kirish nuqtasi"
-    description:
-      en: "A platform that unites everyone in the industry and sets a new standard of quality and transparency in Central Asian travel."
-      ru: "Платформа, которая объединяет всех участников отрасли и задаёт новый стандарт качества и прозрачности в туризме Центральной Азии."
-      uz: "Sohaning barcha ishtirokchilarini birlashtiradigan va Markaziy Osiyo turizmida sifat va shaffoflikning yangi standartini belgilaydigan platforma."
-  - blockType: "regular"
+    tone: "tint"
     eyebrow:
       en: "Values"
       ru: "Ценности"
@@ -86,78 +173,82 @@ blocks:
       en: "Seven principles that guide how we work with travellers, agencies and partners."
       ru: "Семь принципов, по которым мы работаем с путешественниками, агентствами и партнёрами."
       uz: "Sayohatchilar, agentliklar va hamkorlar bilan ishlashimizni boshqaradigan yettita tamoyil."
-    gridClassName: "sm:grid-cols-2 lg:grid-cols-3"
-    cards:
-      - type: "destinationInsight"
-        icon: "compass"
-        title:
-          en: "Inside expertise"
-          ru: "Экспертиза изнутри"
-          uz: "Ichki ekspertiza"
-        description:
-          en: "We know the region from experience, not from the internet. If we do not know something, we say so — we do not invent it."
-          ru: "Мы знаем регион не из интернета. Если чего-то не знаем — говорим прямо, а не выдумываем."
-          uz: "Regionni internetdan emas, tajribadan bilamiz. Bilmasak — to'g'ridan-to'g'ri aytamiz, o'ylab topmaymiz."
-      - type: "destinationInsight"
-        icon: "shield-check"
-        title:
-          en: "Reliability"
-          ru: "Надёжность"
-          uz: "Ishonchlilik"
-        description:
-          en: "We do what we promise. If something goes wrong, we fix it first — we do not wait for a complaint."
-          ru: "Делаем то, что обещаем. Если что-то пошло не так — решаем первыми, не дожидаясь жалобы."
-          uz: "Va'da qilganimizni qilamiz. Muammo bo'lsa — shikoyatni kutmasdan birinchi bo'lib hal qilamiz."
-      - type: "destinationInsight"
-        icon: "eye"
-        title:
-          en: "Transparency"
-          ru: "Прозрачность"
-          uz: "Shaffoflik"
-        description:
-          en: "No hidden terms. Agents see commission, travellers see the full price, partners see how decisions are made."
-          ru: "Без скрытых условий. Агенты видят комиссию, туристы — полную стоимость, партнёры — как принимаются решения."
-          uz: "Yashirin shartlarsiz. Agentlar komissiyani, sayohatchilar to'liq narxni, hamkorlar qarorlar qanday qabul qilinishini ko'radi."
-      - type: "destinationInsight"
-        icon: "zap"
-        title:
-          en: "Speed"
-          ru: "Скорость"
-          uz: "Tezlik"
-        description:
-          en: "We respect everyone's time. Enquiries are handled quickly and the platform avoids unnecessary steps."
-          ru: "Ценим время всех участников. Запросы обрабатываем быстро, платформа не заставляет делать лишних шагов."
-          uz: "Hammning vaqtini qadrlaymiz. So'rovlarni tez qayta ishlaymiz, platforma ortiqcha qadamlarni talab qilmaydi."
-      - type: "destinationInsight"
-        icon: "heart"
-        title:
-          en: "Passion for the work"
-          ru: "Страсть к делу"
-          uz: "Ishga bo'lgan ishtiyoq"
-        description:
-          en: "We love travel and Central Asia. It shows in every tour and every conversation."
-          ru: "Любим путешествия и Центральную Азию. Это чувствуется в каждом туре и в каждом разговоре."
-          uz: "Sayohat va Markaziy Osiyoni yaxshi ko'ramiz. Bu har bir turda va har bir suhbatda seziladi."
-      - type: "destinationInsight"
-        icon: "globe"
-        title:
-          en: "Respect for the region"
-          ru: "Уважение к региону"
-          uz: "Mintaqqa hurmat"
-        description:
-          en: "We talk about Central Asia accurately and respectfully — without clichés or selling exoticism."
-          ru: "Рассказываем о Центральной Азии точно и с уважением — без клише и без торговли экзотикой."
-          uz: "Markaziy Osiyo haqida aniq va hurmat bilan gapiramiz — klişe va ekzotika savdosiz."
-      - type: "destinationInsight"
-        icon: "handshake"
-        title:
-          en: "Partnership"
-          ru: "Партнёрство"
-          uz: "Hamkorlik"
-        description:
-          en: "Agencies, operators, hotels, guides and travellers are partners, not counterparties. We build long-term relationships."
-          ru: "Агентства, операторы, отели, гиды и путешественники — партнёры, а не контрагенты. Строим долгие отношения."
-          uz: "Agentliklar, operatorlar, mehmonxonalar, gidlar va sayohatchilar — kontragent emas, hamkor. Uzoq muddatli munosabatlar quramiz."
+    rows:
+      - ratio: "1:2"
+        left:
+          - type: "quote"
+            quote:
+              en: "If we do not know something, we say so. If something goes wrong, we fix it first."
+              ru: "Если чего-то не знаем — говорим прямо. Если что-то пошло не так — решаем первыми."
+              uz: "Bilmasak — to'g'ridan-to'g'ri aytamiz. Muammo bo'lsa — birinchi bo'lib hal qilamiz."
+            caption:
+              en: "How we work"
+              ru: "Как мы работаем"
+              uz: "Qanday ishlaymiz"
+        right:
+          - type: "dashTitle"
+            title:
+              en: "01 — Inside expertise"
+              ru: "01 — Экспертиза изнутри"
+              uz: "01 — Ichki ekspertiza"
+            description:
+              en: "We know the region from experience, not from the internet. If we do not know something, we say so — we do not invent it."
+              ru: "Знаем регион не из интернета. Если чего-то не знаем — говорим прямо, а не выдумываем."
+              uz: "Regionni internetdan emas, tajribadan bilamiz. Bilmasak — to'g'ridan-to'g'ri aytamiz, o'ylab topmaymiz."
+          - type: "dashTitle"
+            title:
+              en: "02 — Reliability"
+              ru: "02 — Надёжность"
+              uz: "02 — Ishonchlilik"
+            description:
+              en: "We do what we promise. If something goes wrong, we fix it first — we do not wait for a complaint."
+              ru: "Делаем то, что обещаем. Если что-то пошло не так — решаем первыми, не дожидаясь жалобы."
+              uz: "Va'da qilganimizni qilamiz. Muammo bo'lsa — shikoyatni kutmasdan birinchi bo'lib hal qilamiz."
+          - type: "dashTitle"
+            title:
+              en: "03 — Transparency"
+              ru: "03 — Прозрачность"
+              uz: "03 — Shaffoflik"
+            description:
+              en: "No hidden terms. Agents see commission, travellers see the full price, partners see how decisions are made."
+              ru: "Без скрытых условий. Агенты видят комиссию, туристы — полную стоимость, партнёры — как принимаются решения."
+              uz: "Yashirin shartlarsiz. Agentlar komissiyani, sayohatchilar to'liq narxni, hamkorlar qarorlar qanday qabul qilinishini ko'radi."
+          - type: "dashTitle"
+            title:
+              en: "04 — Speed"
+              ru: "04 — Скорость"
+              uz: "04 — Tezlik"
+            description:
+              en: "We respect everyone's time. Enquiries are handled quickly and the platform avoids unnecessary steps."
+              ru: "Ценим время всех участников. Запросы обрабатываем быстро, платформа не заставляет делать лишних шагов."
+              uz: "Hammning vaqtini qadrlaymiz. So'rovlarni tez qayta ishlaymiz, platforma ortiqcha qadamlarni talab qilmaydi."
+          - type: "dashTitle"
+            title:
+              en: "05 — Passion for the work"
+              ru: "05 — Страсть к делу"
+              uz: "05 — Ishga bo'lgan ishtiyoq"
+            description:
+              en: "We love travel and Central Asia. It shows in every tour and every conversation."
+              ru: "Любим путешествия и Центральную Азию. Это чувствуется в каждом туре и в каждом разговоре."
+              uz: "Sayohat va Markaziy Osiyoni yaxshi ko'ramiz. Bu har bir turda va har bir suhbatda seziladi."
+          - type: "dashTitle"
+            title:
+              en: "06 — Respect for the region"
+              ru: "06 — Уважение к региону"
+              uz: "06 — Mintaqqa hurmat"
+            description:
+              en: "We talk about Central Asia accurately and respectfully — without clichés or selling exoticism."
+              ru: "Рассказываем о Центральной Азии точно и с уважением — без клише и без торговли экзотикой."
+              uz: "Markaziy Osiyo haqida aniq va hurmat bilan gapiramiz — klişe va ekzotika savdosiz."
+          - type: "dashTitle"
+            title:
+              en: "07 — Partnership"
+              ru: "07 — Партнёрство"
+              uz: "07 — Hamkorlik"
+            description:
+              en: "Agencies, operators, hotels, guides and travellers are partners, not counterparties."
+              ru: "Агентства, операторы, отели, гиды и путешественники — партнёры, а не контрагенты."
+              uz: "Agentliklar, operatorlar, mehmonxonalar, gidlar va sayohatchilar — kontragent emas, hamkor."
   - blockType: "regular"
     eyebrow:
       en: "Our team"
@@ -171,152 +262,184 @@ blocks:
       en: "Every enquiry starts with a person who helps clarify the language of communication, the shape of the route and the next practical step."
       ru: "Каждый запрос начинается с человека, который помогает уточнить язык общения, форму маршрута и следующий практический шаг."
       uz: "Har bir so'rov muloqot tili, marshrut shakli va keyingi amaliy qadamni aniqlashtirishga yordam beradigan odamdan boshlanadi."
-    gridClassName: "sm:grid-cols-2 lg:grid-cols-3"
+    gridClassName: "mx-auto max-w-2xl sm:grid-cols-2"
     cards:
       - type: "teamMember"
-        icon: "user"
+        featured: true
         href: "/company/team/sodik-begmatov"
+        badge:
+          en: "Founder"
+          ru: "Founder"
+          uz: "Founder"
         title:
           en: "Sodik Begmatov"
           ru: "Содик Бегматов"
           uz: "Sodik Begmatov"
         description:
-          en: "Founder. Founded TourLink as the public continuation of Orient Star Group's regional work — its people, routes, partner relationships and operational experience."
-          ru: "Founder. Основал TourLink как публичное продолжение региональной работы Orient Star Group: людей, маршрутов, партнёрских связей и операционного опыта."
-          uz: "Asoschisi. TourLinkni Orient Star Groupning mintaqaviy ishining — odamlar, marshrutlar, hamkorlik aloqalari va operatsion tajribaning — ochiq davomi sifatida asos solgan."
+          en: "The public continuation of Orient Star Group's work"
+          ru: "Публичное продолжение работы Orient Star Group"
+          uz: "Orient Star Group ishining ochiq davomi"
       - type: "teamMember"
-        icon: "user"
+        featured: true
         href: "/company/team/muhammad-amin-begmatov"
+        badge:
+          en: "CEO"
+          ru: "CEO"
+          uz: "CEO"
         title:
           en: "Muhammad Amin Begmatov"
           ru: "Мухаммад Амин Бегматов"
           uz: "Muhammadamin Begmatov"
         description:
-          en: "CEO. Leads TourLink and connects route enquiries with team decisions until a programme is confirmed."
-          ru: "CEO. Ведёт направление TourLink и связывает маршрутные запросы с командными решениями до подтверждения программы."
-          uz: "Bosh direktor. TourLink yo'nalishini boshqaradi va marshrut so'rovlarini dastur tasdiqlanmaguncha jamoa qarorlari bilan bog'laydi."
+          en: "From enquiry to a confirmed programme"
+          ru: "От запроса до подтверждённой программы"
+          uz: "So'rovdan tasdiqlangan dasturgacha"
+  - blockType: "regular"
+    gridClassName: "grid-cols-2 sm:grid-cols-3 lg:grid-cols-5"
+    cards:
       - type: "teamMember"
-        icon: "user"
         href: "/company/team/abdulaziz-mavlonov"
+        badge:
+          en: "BDD"
+          ru: "BDD"
+          uz: "BDD"
         title:
           en: "Abdulaziz Mavlonov"
           ru: "Абдулазиз Мавлонов"
           uz: "Abdulaziz Mavlonov"
-        description:
-          en: "BDD. Leads business development conversations and partner context as TourLink's public DMC direction grows."
-          ru: "BDD. Ведёт разговоры по развитию бизнеса и партнёрскому контексту по мере роста публичного DMC-направления TourLink."
-          uz: "BDD. TourLinkning ochiq DMC yo'nalishi o'sishi bilan biznes rivojlantirish va hamkorlik konteksti bo'yicha suhbatlarni olib boradi."
       - type: "teamMember"
-        icon: "user"
         href: "/company/team/odina-karahodzhayeva"
+        badge:
+          en: "Travel Expert"
+          ru: "Travel Expert"
+          uz: "Travel Expert"
         title:
           en: "Odina Karahodzhayeva"
           ru: "Одина Караходжаева"
           uz: "Odina Karahodjayeva"
-        description:
-          en: "Travel Expert. CIS market — individual and group programmes, MICE and VIP."
-          ru: "Эксперт по путешествиям. Рынок СНГ — индивидуальные и групповые программы, MICE и VIP."
-          uz: "Travel Expert. CIS market — individual and group programmes, MICE and VIP."
+        langs:
+          - code: "RU"
       - type: "teamMember"
-        icon: "user"
         href: "/company/team/eldor-keldibekov"
+        badge:
+          en: "Sales & Operations"
+          ru: "Sales & Operations"
+          uz: "Sales & Operations"
         title:
           en: "Eldor Keldibekov"
           ru: "Эльдор Келдибеков"
           uz: "Eldor Keldibekov"
-        description:
-          en: "Tour Sales & Operations Manager. Supports the Spanish-language direction and helps formulate route questions for Spanish-speaking travellers and partners."
-          ru: "Tour Sales & Operations Manager. Поддерживает испаноязычное направление и помогает формулировать маршрутные вопросы для путешественников и партнёров на испанском языке."
-          uz: "Tur sotuvi va operatsiyalar menejeri. Ispan tilidagi yo'nalishni qo'llab-quvvatlaydi va ispan tilida so'zlashuvchi sayohatchilar va hamkorlar uchun marshrut savollarini shakllantirishga yordam beradi."
+        langs:
+          - code: "ES"
       - type: "teamMember"
-        icon: "user"
         href: "/company/team/alizhon-mamatkulov"
+        badge:
+          en: "Travel Expert"
+          ru: "Travel Expert"
+          uz: "Travel Expert"
         title:
           en: "Alizhon Mamatkulov"
           ru: "Алижон Маматкулов"
           uz: "Alizhon Mamatkulov"
-        description:
-          en: "Travel Expert. Japanese market — individual and group programmes, Japanese and English."
-          ru: "Эксперт по путешествиям. Японский рынок — индивидуальные и групповые программы, сопровождение на японском и английском."
-          uz: "Travel Expert. Japanese market — individual and group programmes, Japanese and English."
+        langs:
+          - code: "JA"
+          - code: "EN"
       - type: "teamMember"
-        icon: "user"
         href: "/company/team/nozima-begmatova"
+        badge:
+          en: "Sales & Operations"
+          ru: "Sales & Operations"
+          uz: "Sales & Operations"
         title:
           en: "Nozima Begmatova"
           ru: "Нозима Бегматова"
           uz: "Nozima Begmatova"
-        description:
-          en: "Tour Sales & Operations Manager. Supports English-language enquiries, route clarification and practical coordination until a programme is confirmed."
-          ru: "Tour Sales & Operations Manager. Поддерживает англоязычные запросы, уточнение маршрута и практическую координацию до перехода программы к подтверждению."
-          uz: "Tur sotuvi va operatsiyalar menejeri. Ingliz tilidagi so'rovlar, marshrutni aniqlashtirish va dastur tasdiqlanmaguncha amaliy muvofiqlashtirishni qo'llab-quvvatlaydi."
+        langs:
+          - code: "EN"
       - type: "teamMember"
-        icon: "user"
         href: "/company/team/komila-kholmatova"
+        badge:
+          en: "Travel Expert"
+          ru: "Travel Expert"
+          uz: "Travel Expert"
         title:
           en: "Komila Kholmatova"
           ru: "Комила Холматова"
           uz: "Komila Xolmatova"
-        description:
-          en: "Travel Expert. English-speaking markets."
-          ru: "Эксперт по путешествиям. Англоязычные рынки."
-          uz: "Sayohat Eksperti. Ingliz tilidagi bozorlar."
+        langs:
+          - code: "EN"
+          - code: "RU"
+          - code: "TR"
       - type: "teamMember"
-        icon: "user"
         href: "/company/team/subin-kang"
+        image: "media/team/kang-subin.jpg"
+        badge:
+          en: "Travel Expert"
+          ru: "Travel Expert"
+          uz: "Travel Expert"
         title:
           en: "Kang Subin"
           ru: "Канг Субин"
           uz: "Kang Subin"
-        description:
-          en: "Travel Expert. English, Korean and Spanish-speaking markets."
-          ru: "Эксперт по путешествиям. Англоязычные, испаноязычные и корейский рынки."
-          uz: "Travel Expert. English, Korean and Spanish-speaking markets."
+        langs:
+          - code: "EN"
+          - code: "KO"
+          - code: "ES"
       - type: "teamMember"
-        icon: "user"
         href: "/company/team/yulduz-safarova"
+        image: "media/team/yulduz-safarova.jpg"
+        badge:
+          en: "Travel Expert"
+          ru: "Travel Expert"
+          uz: "Travel Expert"
         title:
           en: "Yulduz Safarova"
           ru: "Юлдуз Сафарова"
           uz: "Yulduz Safarova"
-        description:
-          en: "Travel Expert. German-speaking markets and Türkiye."
-          ru: "Эксперт по путешествиям. Немецкоязычные рынки и Турция."
-          uz: "Travel Expert. German-speaking markets and Türkiye."
+        langs:
+          - code: "DE"
+          - code: "TR"
       - type: "teamMember"
-        icon: "user"
         href: "/company/team/alina-bikbulatova"
+        image: "media/team/alina-bikbulatova.jpg"
+        badge:
+          en: "Travel Expert"
+          ru: "Travel Expert"
+          uz: "Travel Expert"
         title:
           en: "Alina Bikbulatova"
           ru: "Алина Бикбулатова"
           uz: "Alina Bikbulatova"
-        description:
-          en: "Travel Expert. Italian market."
-          ru: "Эксперт по путешествиям. Итальянский рынок."
-          uz: "Travel Expert. Italian market."
+        langs:
+          - code: "IT"
       - type: "teamMember"
-        icon: "user"
         href: "/company/team/soyibjon-isamatov"
+        badge:
+          en: "Travel Expert"
+          ru: "Travel Expert"
+          uz: "Travel Expert"
         title:
           en: "Soyibjon Isamatov"
           ru: "Сойибжон Исаматов"
           uz: "Soyibjon Isamatov"
-        description:
-          en: "Travel Expert. Japanese market — tour operator and guide."
-          ru: "Эксперт по путешествиям. Японский рынок — туроператор и гид."
-          uz: "Travel Expert. Japanese market — tour operator and guide."
+        langs:
+          - code: "JA"
       - type: "teamMember"
-        icon: "user"
         href: "/company/team/madina-irgasheva"
+        badge:
+          en: "Sales & Operations"
+          ru: "Sales & Operations"
+          uz: "Sales & Operations"
         title:
           en: "Madina Irgasheva"
           ru: "Мадина Иргашева"
           uz: "Madina Irgasheva"
-        description:
-          en: "Tour Sales & Operations Manager. Supports French-language communication and helps formulate route questions for French-speaking travellers and partners."
-          ru: "Tour Sales & Operations Manager. Поддерживает коммуникацию на французском языке и помогает формулировать маршрутные вопросы для франкоязычных путешественников и партнёров."
-          uz: "Tur sotuvi va operatsiyalar menejeri. Fransuz tilidagi muloqotni qo'llab-quvvatlaydi va fransuz tilida so'zlashuvchi sayohatchilar va hamkorlar uchun marshrut savollarini shakllantirishga yordam beradi."
-  - blockType: "regular"
+        langs:
+          - code: "FR"
+  - blockType: "timeline"
+    tone: "tint"
+    layout: "horizontal"
+    indicatorType: "number"
     eyebrow:
       en: "Development stages"
       ru: "Этапы развития"
@@ -325,37 +448,31 @@ blocks:
       en: "How the TourLink platform grows"
       ru: "Как растёт платформа TourLink"
       uz: "TourLink platformasi qanday o'sadi"
-    cards:
-      - type: "servicesProcess"
-        step: "Phase 1"
-        title:
-          en: "Phase 1 — present"
-          ru: "Фаза 1 — настоящее"
-          uz: "1-bosqich — hozirgi holat"
+    items:
+      - title:
+          en: "Phase 1 — now"
+          ru: "Фаза 1 — сейчас"
+          uz: "1-bosqich — hozir"
         description:
-          en: "Tour operators, travel agencies and individual travellers work on the platform. Ready-made tours and custom programmes on request are available. Partner agents interact with operators through a single interface, see their commission and can request bespoke tours."
-          ru: "На платформе работают туроператоры, турагентства и индивидуальные туристы. Доступны готовые туры и кастомные программы по запросу. Агенты-партнёры взаимодействуют с операторами через единый интерфейс, видят свою комиссию и могут запрашивать индивидуальные туры."
-          uz: "Platformada turoperatorlar, tur agentliklari va individual sayohatchilar ishlaydi. Tayyor turlar va so'rov bo'yicha maxsus dasturlar mavjud. Hamkor agentlar operatorlar bilan yagona interfeys orqali muloqot qiladi, komissiyasini ko'radi va individual turlarni so'rashi mumkin."
-      - type: "servicesProcess"
-        step: "Phase 2"
-        title:
+          en: "Tour operators, agencies and travellers. Ready-made tours and custom programmes. Agents see commission and can request individual routes."
+          ru: "Туроператоры, агентства и путешественники. Готовые туры и кастомные программы. Агенты видят комиссию и запрашивают индивидуальные маршруты."
+          uz: "Turoperatorlar, agentliklar va sayohatchilar. Tayyor turlar va maxsus dasturlar. Agentlar komissiyani ko'radi va individual marshrut so'raydi."
+      - title:
           en: "Phase 2 — next step"
           ru: "Фаза 2 — следующий шаг"
           uz: "2-bosqich — keyingi qadam"
         description:
-          en: "Opening the platform to hotels, transport, restaurants and other service providers. Travellers and agents can build a bespoke tour from separate services across suppliers."
-          ru: "Открытие платформы для отелей, транспорта, ресторанов и других поставщиков услуг. Возможность для туриста или агента собирать индивидуальный тур из отдельных услуг разных поставщиков."
-          uz: "Mehmonxonalar, transport, restoranlar va boshqa xizmat yetkazib beruvchilar uchun platformani ochish. Sayohatchi yoki agent turli yetkazib beruvchilarning alohida xizmatlaridan individual tur yig'ishi mumkin."
-      - type: "servicesProcess"
-        step: "Phase 3"
-        title:
+          en: "Hotels, transport, restaurants and other suppliers. Building a bespoke tour from separate services."
+          ru: "Отели, транспорт, рестораны и другие поставщики. Сборка индивидуального тура из отдельных услуг."
+          uz: "Mehmonxonalar, transport, restoranlar va boshqa yetkazib beruvchilar. Alohida xizmatlardan individual tur yig'ish."
+      - title:
           en: "Phase 3 — ecosystem"
           ru: "Фаза 3 — экосистема"
           uz: "3-bosqich — ekotizim"
         description:
-          en: "A full Central Asian ecosystem: a services marketplace, B2B module for agencies, analytics for operators, tools for guides and integrations with international booking systems."
-          ru: "Полная экосистема Центральной Азии: маркетплейс услуг, B2B-модуль для агентств, аналитика для операторов, инструменты для гидов, интеграции с международными системами бронирования."
-          uz: "Markaziy Osiyoning to'liq ekotizimi: xizmatlar bozori, agentliklar uchun B2B moduli, operatorlar uchun analitika, gidlar uchun vositalar va xalqaro bronlash tizimlari bilan integratsiyalar."
+          en: "A marketplace, B2B for agencies, analytics, tools for guides and integrations with international booking systems."
+          ru: "Маркетплейс, B2B для агентств, аналитика, инструменты для гидов и интеграции с международными системами бронирования."
+          uz: "Marketplace, agentliklar uchun B2B, analitika, gidlar uchun vositalar va xalqaro bronlash tizimlari bilan integratsiya."
   - blockType: "regular"
     eyebrow:
       en: "Geography"
@@ -366,13 +483,30 @@ blocks:
       ru: "Где работает TourLink"
       uz: "TourLink qayerda ishlaydi"
     description:
-      en: "Uzbekistan · Kyrgyzstan · Kazakhstan · Tajikistan · Turkmenistan"
-      ru: "Узбекистан · Кыргызстан · Казахстан · Таджикистан · Туркменистан"
-      uz: "O'zbekiston · Qirg'iziston · Qozog'iston · Tojikiston · Turkmaniston"
-    note:
-      en: "In future — expansion to neighbouring Silk Road destinations while keeping the main focus on Central Asia."
-      ru: "В перспективе — расширение на сопредельные направления Шёлкового пути, при сохранении основного фокуса на Центральной Азии."
-      uz: "Kelajakda — Ipak yo'lining qo'shni yo'nalishlariga kengayish, asosiy fokus Markaziy Osiyoda qolgan holda."
+      en: "In future — expansion to neighbouring Silk Road destinations, while keeping the focus on Central Asia."
+      ru: "В перспективе — расширение на сопредельные направления Шёлкового пути, при сохранении фокуса на Центральной Азии."
+      uz: "Kelajakda — Ipak yo'lining qo'shni yo'nalishlariga kengayish, fokus Markaziy Osiyoda qolgan holda."
+    gridClassName: "sm:grid-cols-2 sm:gap-5 lg:gap-6"
+    cards:
+      - type: "country"
+        countrySlug: uzbekistan
+        featured: true
+      - type: "country"
+        countrySlug: kazakhstan
+      - type: "country"
+        countrySlug: kyrgyzstan
+      - type: "country"
+        countrySlug: tajikistan
+      - type: "country"
+        countrySlug: turkmenistan
+    actions:
+      - type: link
+        variant: outline
+        title:
+          en: "All destinations"
+          ru: "Смотреть направления"
+          uz: "Barcha yo'nalishlar"
+        href: /destinations
   - blockType: "regular"
     eyebrow:
       en: "Brand concept"
@@ -388,57 +522,59 @@ blocks:
       uz: "TourLink bizsiz uchrashishi qiyin bo'lgan tomonlarni bog'laydi — geografiya, tajriba, biznes va texnologiyalarda."
     gridClassName: "sm:grid-cols-2 lg:grid-cols-3"
     cards:
-      - type: "destinationInsight"
-        icon: "map-pin"
+      - type: "valuePoint"
+        icon: "globe"
         title:
-          en: "Geography"
-          ru: "География"
-          uz: "Geografiya"
+          en: "Traveller"
+          ru: "Путешественник"
+          uz: "Sayohatchi"
         description:
-          en: "Travellers worldwide with Central Asia."
-          ru: "Путешественника со всего мира — с Центральной Азией."
-          uz: "Butun dunyo sayohatchisini Markaziy Osiyo bilan."
-      - type: "destinationInsight"
-        icon: "compass"
+          en: "From around the world — with Central Asia."
+          ru: "Со всего мира — с Центральной Азией."
+          uz: "Butun dunyodan — Markaziy Osiyo bilan."
+      - type: "valuePoint"
+        icon: "map"
         title:
-          en: "Experience"
-          ru: "Опыт"
-          uz: "Tajriba"
+          en: "Guest"
+          ru: "Турист"
+          uz: "Turist"
         description:
-          en: "The traveller with the real region — not a tourist façade."
-          ru: "Туриста — с реальным регионом, а не с туристической витриной."
-          uz: "Sayohatchini haqiqiy mintaqa bilan — turistik vitrinasiz."
-      - type: "destinationInsight"
-        icon: "briefcase"
+          en: "With the real region, not a tourist façade."
+          ru: "С реальным регионом, а не с туристической витриной."
+          uz: "Haqiqiy mintaqa bilan, turistik vitrina bilan emas."
+      - type: "valuePoint"
+        icon: "handshake"
         title:
-          en: "Business"
-          ru: "Бизнес"
-          uz: "Biznes"
+          en: "Agency"
+          ru: "Агентство"
+          uz: "Agentlik"
         description:
-          en: "Travel agencies with a reliable DMC partner in the region."
-          ru: "Турагентство — с надёжным DMC-партнёром в регионе."
-          uz: "Tur agentligini mintaqadagi ishonchli DMC hamkori bilan."
-      - type: "destinationInsight"
-        icon: "link-2"
+          en: "With a reliable DMC partner in the region."
+          ru: "С надёжным DMC-партнёром в регионе."
+          uz: "Mintaqadagi ishonchli DMC hamkori bilan."
+      - type: "valuePoint"
+        icon: "radio"
         title:
-          en: "Access"
-          ru: "Доступ"
-          uz: "Kirish"
+          en: "Operator"
+          ru: "Оператор"
+          uz: "Operator"
         description:
-          en: "Local operators with a global audience."
-          ru: "Местного оператора — с глобальной аудиторией."
-          uz: "Mahalliy operatorni global auditoriya bilan."
-      - type: "destinationInsight"
-        icon: "layers"
+          en: "A local operator — with a global audience."
+          ru: "Местный оператор — с глобальной аудиторией."
+          uz: "Mahalliy operator — global auditoriya bilan."
+      - type: "valuePoint"
+        icon: "sparkles"
+        span: "wide"
         title:
-          en: "Generations"
-          ru: "Поколения"
-          uz: "Avlodlar"
+          en: "Expertise"
+          ru: "Экспертиза"
+          uz: "Ekspertiza"
         description:
-          en: "Accumulated expertise with modern technology."
-          ru: "Накопленную экспертизу — с современными технологиями."
-          uz: "To'plangan ekspertizani zamonaviy texnologiyalar bilan."
+          en: "Accumulated experience — with modern technology."
+          ru: "Накопленный опыт — с современными технологиями."
+          uz: "To'plangan tajriba — zamonaviy texnologiyalar bilan."
   - blockType: "regular"
+    tone: "warm"
     eyebrow:
       en: "Brand boundaries"
       ru: "Границы бренда"
@@ -448,71 +584,76 @@ blocks:
       ru: "Чем мы не являемся"
       uz: "Biz nima emasmiz"
     description:
-      en: "Sometimes it is easier to define yourself by what you are not — these boundaries matter as much as our promise."
-      ru: "Определить себя проще через то, чем ты не являешься — эти границы так же важны, как и наше обещание."
-      uz: "Ba'zan o'zingizni nimaga ekanligingiz emas, nimaga emasligingiz orqali aniqlash osonroq — bu chegaralar va'damiz kabi muhim."
+      en: "It is easier to define yourself by what you are not. Behind every tour is a live team — not an algorithm and not a conveyor."
+      ru: "Определить себя проще через то, чем ты не являешься. За каждым туром стоит живая команда — не алгоритм и не конвейер."
+      uz: "O'zingizni nima emasligingiz orqali aniqlash osonroq. Har bir tur ortida jonli jamoa turadi — algoritm va konveyer emas."
     gridClassName: "sm:grid-cols-2 lg:grid-cols-3"
     cards:
-      - type: "destinationInsight"
-        icon: "x-circle"
+      - type: "blitzQa"
         title:
-          en: "Not Booking or Expedia"
-          ru: "Не Booking и не Expedia"
-          uz: "Booking yoki Expedia emas"
+          en: "Not Booking"
+          ru: "Не Booking"
+          uz: "Booking emas"
         description:
-          en: "Behind every tour is a real team, not an algorithm."
-          ru: "За каждым туром стоит реальная команда, а не алгоритм."
-          uz: "Har bir tur ortida algoritm emas, haqiqiy jamoa turadi."
-      - type: "destinationInsight"
-        icon: "x-circle"
+          en: "Not a shopfront of other people's hotels and not a search for the lowest price."
+          ru: "Не витрина чужих отелей и не поиск по самой низкой цене."
+          uz: "Boshqa odamlar mehmonxonalari vitrinasi emas va eng arzon narx qidiruvi emas."
+      - type: "blitzQa"
         title:
-          en: "Not an aggregator that resells"
-          ru: "Не агрегатор, который перепродаёт"
-          uz: "Qayta sotadigan agregator emas"
+          en: "Not Expedia"
+          ru: "Не Expedia"
+          uz: "Expedia emas"
         description:
-          en: "We create programmes ourselves and vet our partners."
-          ru: "Мы создаём программы сами и проверяем партнёров."
-          uz: "Dasturlarni o'zimiz yaratamiz va hamkorlarni tekshiramiz."
-      - type: "destinationInsight"
-        icon: "x-circle"
+          en: "Not an algorithm that sells the region as a ready-made package."
+          ru: "Не алгоритм, который продаёт регион готовым пакетом."
+          uz: "Mintaqani tayyor paket sifatida sotadigan algoritm emas."
+      - type: "blitzQa"
+        featured: true
+        title:
+          en: "Not an aggregator"
+          ru: "Не агрегатор"
+          uz: "Agregator emas"
+        description:
+          en: "We do not roll other people's tours into a feed. We build the routes ourselves."
+          ru: "Не сводим чужие туры в ленту. Маршруты собираем сами."
+          uz: "Boshqa odamlar turlarini lentaga yig'maymiz. Marshrutlarni o'zimiz quramiz."
+      - type: "blitzQa"
         title:
           en: "Not a tour factory"
-          ru: "Не «фабрика туров»"
-          uz: "«Tur fabrikasi» emas"
+          ru: "Не фабрика туров"
+          uz: "Tur fabrikasi emas"
         description:
-          en: "Every enquiry is its own story — not a conveyor belt."
-          ru: "Каждый запрос — отдельная история, не конвейер."
-          uz: "Har bir so'rov — alohida hikoya, konveyer emas."
-      - type: "destinationInsight"
-        icon: "x-circle"
+          en: "Not a conveyor of identical programmes 'for everyone'."
+          ru: "Не конвейер одинаковых программ «под всех»."
+          uz: "«Hammaga» bir xil dasturlar konveyeri emas."
+      - type: "blitzQa"
         title:
-          en: "Not a middleman hiding terms"
-          ru: "Не посредник со скрытыми условиями"
-          uz: "Shartlarni yashiradigan vositachi emas"
+          en: "Not a middleman"
+          ru: "Не посредник"
+          uz: "Vositachi emas"
         description:
-          en: "Transparency is a core value."
-          ru: "Прозрачность — наша ключевая ценность."
-          uz: "Shaffoflik — asosiy qadriyatimiz."
-      - type: "destinationInsight"
-        icon: "x-circle"
+          en: "No hidden terms. Clear agreements and a live contact."
+          ru: "Без скрытых условий. Прозрачные договорённости и живой контакт."
+          uz: "Yashirin shartlarsiz. Ochiq kelishuvlar va jonli aloqa."
+      - type: "blitzQa"
         title:
           en: "Not a faceless corporation"
           ru: "Не корпорация без лица"
           uz: "Yuzsiz korporatsiya emas"
         description:
-          en: "We have faces, names and stories — and we do not hide them."
-          ru: "У нас есть лица, имена и истории — и мы их не прячем."
-          uz: "Bizda yuzlar, ismlar va hikoyalar bor — va biz ularni yashirmaymiz."
-      - type: "destinationInsight"
-        icon: "x-circle"
+          en: "A team you can reach by name."
+          ru: "Команда, к которой можно обратиться по имени."
+          uz: "Ismi bilan murojaat qilish mumkin bo'lgan jamoa."
+      - type: "blitzQa"
+        span: "wide"
         title:
-          en: "Not a new destination discovery"
-          ru: "Не «открытие нового направления»"
-          uz: "«Yangi yo'nalish kashfiyoti» emas"
+          en: "Not a 'new destination'"
+          ru: "Не «новое направление»"
+          uz: "«Yangi yo'nalish» emas"
         description:
-          en: "We have known the region for years. It is simply more accessible now."
-          ru: "Мы знаем регион давно. Просто теперь — доступнее."
-          uz: "Regionni uzoq vaqtdan beri bilamiz. Endi — qulayroq kirish imkoniyati."
+          en: "A region we know from inside — not a market we are 'opening'."
+          ru: "Регион, который знаем изнутри, — не рынок, который «открываем»."
+          uz: "Ichidan biladigan mintaqa — «ochayotgan» bozor emas."
   - blockType: "cta"
     image: "assets/images/hero-image.jpg"
     eyebrow:

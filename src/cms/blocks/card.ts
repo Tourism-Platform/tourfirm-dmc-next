@@ -83,7 +83,8 @@ export const cardFields: Field[] = [
 				"catalogFeed",
 				"servicesDirection",
 				"portrait",
-				"mosaicTile"
+				"mosaicTile",
+				"teamMember"
 			)
 		}
 	},
@@ -103,7 +104,8 @@ export const cardFields: Field[] = [
 				"catalogFeed",
 				"servicesDirection",
 				"portrait",
-				"mosaicTile"
+				"mosaicTile",
+				"teamMember"
 			)
 		}
 	},
@@ -119,7 +121,8 @@ export const cardFields: Field[] = [
 				"experience",
 				"tripFormat",
 				"servicesBusiness",
-				"mosaicTile"
+				"mosaicTile",
+				"teamMember"
 			)
 		}
 	},
@@ -216,7 +219,7 @@ export const cardFields: Field[] = [
 				required: true
 			}
 		],
-		admin: { condition: whenType("overviewStat") }
+		admin: { condition: whenType("overviewStat", "teamMember") }
 	},
 	{
 		name: "cities",
@@ -235,7 +238,12 @@ export const cardFields: Field[] = [
 		name: "featured",
 		type: "checkbox",
 		admin: {
-			condition: whenType("country", "tourDestination", "blitzQa")
+			condition: whenType(
+				"country",
+				"tourDestination",
+				"blitzQa",
+				"teamMember"
+			)
 		}
 	},
 	{
@@ -247,7 +255,7 @@ export const cardFields: Field[] = [
 			{ label: "Wide", value: "wide" },
 			{ label: "Large", value: "large" }
 		],
-		admin: { condition: whenType("mosaicTile") }
+		admin: { condition: whenType("mosaicTile", "valuePoint", "blitzQa") }
 	},
 	{
 		name: "ctaHref",

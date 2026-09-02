@@ -16,9 +16,9 @@ export async function generateMetadata({ params }: TProps) {
 
 	return {
 		...createPageMetadata({
-			title: "Канг Субин | preview",
+			title: "О нас | preview",
 			description:
-				"Черновик страницы члена команды: блоки и тексты до переноса в Payload.",
+				"Черновик страницы компании: блоки и карточки команды до переноса в Payload.",
 			locale,
 			path: "/preview/team-profile"
 		}),
