@@ -1,32 +1,32 @@
 segment: "company"
 pathGroup: "team"
-slug: "alizhon-mamatkulov"
+slug: "alijon-mamatkulov"
 title:
-  en: "Alizhon Mamatkulov"
+  en: "Alijon Mamatkulov"
   ru: "Алижон Маматкулов"
-  uz: "Alizhon Mamatkulov"
+  uz: "Alijon Mamatkulov"
 seo:
   metaTitle:
-    en: "Alizhon Mamatkulov | TourLink"
+    en: "Alijon Mamatkulov | TourLink"
     ru: "Алижон Маматкулов | TourLink"
-    uz: "Alizhon Mamatkulov | TourLink"
+    uz: "Alijon Mamatkulov | TourLink"
   metaDescription:
-    en: "Alizhon Mamatkulov — Travel Expert · Japanese Market"
+    en: "Alijon Mamatkulov — Travel Expert · Japanese Market"
     ru: "Алижон Маматкулов — эксперт по путешествиям · японский рынок"
-    uz: "Alizhon Mamatkulov — Sayohat Eksperti · Yaponiya Bozori"
+    uz: "Alijon Mamatkulov — Sayohat Eksperti · Yaponiya Bozori"
 status:
   showInSitemap: true
 blocks:
   - blockType: "hero"
     image: "assets/images/people.jpg"
     imageAlt:
-      en: "Alizhon Mamatkulov"
+      en: "Alijon Mamatkulov"
       ru: "Алижон Маматкулов"
-      uz: "Alizhon Mamatkulov"
+      uz: "Alijon Mamatkulov"
     title:
-      en: "Alizhon Mamatkulov"
+      en: "Alijon Mamatkulov"
       ru: "Алижон Маматкулов"
-      uz: "Alizhon Mamatkulov"
+      uz: "Alijon Mamatkulov"
     description:
       en: "For me, quality always comes before quantity."
       ru: "«Для меня качество всегда важнее количества»."
@@ -108,9 +108,9 @@ blocks:
           - type: "portrait"
             image: "assets/images/people.jpg"
             title:
-              en: "Alizhon Mamatkulov"
+              en: "Alijon Mamatkulov"
               ru: "Алижон Маматкулов"
-              uz: "Alizhon Mamatkulov"
+              uz: "Alijon Mamatkulov"
         right:
           - type: "quote"
             quote:
@@ -118,9 +118,9 @@ blocks:
               ru: "Мой интерес к туризму появился ещё во время изучения японского языка: один из первых преподавателей много лет работал в этой сфере и часто рассказывал на занятиях истории из своей практики."
               uz: "Turizmga qiziqishim yapon tilini o'rganish paytida paydo bo'lgan: birinchi o'qituvchilarimdan biri bu sohada ko'p yillar ishlagan va darslarda amaliyotidan hikoyalar aytib berardi."
             caption:
-              en: "Alizhon Mamatkulov, travel expert"
+              en: "Alijon Mamatkulov, travel expert"
               ru: "Алижон Маматкулов, эксперт по путешествиям"
-              uz: "Alizhon Mamatkulov, sayohat eksperti"
+              uz: "Alijon Mamatkulov, sayohat eksperti"
           - type: "dashTitle"
             description:
               en: "I have been working in tourism since 2025, and in 2026 I joined the TourLink team, where I primarily focus on the Japanese market. Later, thanks to advice from teachers and senior colleagues, I decided to build my career in tourism."
@@ -539,9 +539,9 @@ blocks:
       - type: "link"
         variant: "default"
         title:
-          en: "Write to Alizhon"
+          en: "Write to Alijon"
           ru: "Написать Алижону"
-          uz: "Alizhonga yozish"
+          uz: "Alijonga yozish"
         href: "/help/contact"
       - type: "link"
         variant: "outline"
