@@ -29,7 +29,7 @@ export const ADMIN_COLLECTION_NAVIGATION: TAdminNavSection[] = [
 		items: ["news"]
 	},
 	{
-		label: "📝 Company",
+		label: "🧱 Structure",
 		items: ["pages", "segments", "themes"]
 	},
 	{

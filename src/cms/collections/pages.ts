@@ -10,9 +10,17 @@ import { validatePageSlug } from "../hooks/validate-page-slug";
 import { validatePageSlugUniqueness } from "../hooks/validate-page-slug-uniqueness";
 import { hasSegmentRelation } from "../lib/slug-utils";
 
-import { PAGE_DOMAIN_ADMIN } from "@/cms/admin/page-domain-admin.config";
+import {
+	COMPANY_PAGES_ADMIN,
+	PAGE_DOMAIN_ADMIN
+} from "@/cms/admin/page-domain-admin.config";
 
 const pageDomainListViews = {
+	CompanyPages: {
+		path: COMPANY_PAGES_ADMIN.viewPath,
+		exact: true,
+		Component: "@/cms/admin/domain-pages-list-view#CompanyPagesListView"
+	},
 	TeamPages: {
 		path: PAGE_DOMAIN_ADMIN.team.viewPath,
 		exact: true,
